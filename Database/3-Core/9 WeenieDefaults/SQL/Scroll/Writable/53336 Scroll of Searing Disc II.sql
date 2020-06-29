@@ -24,6 +24,3 @@ VALUES (53336,   1,   33554826) /* Setup */
      , (53336,   8,  100677027) /* Icon */
      , (53336,  22,  872415275) /* PhysicsEffectTable */
      , (53336,  28,       6189) /* Spell - SearingDiscII */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53336, 8000, 3630241550) /* PCAPRecordedObjectIID */;

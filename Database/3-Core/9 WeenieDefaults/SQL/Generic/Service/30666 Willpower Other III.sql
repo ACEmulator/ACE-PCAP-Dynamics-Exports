@@ -21,6 +21,3 @@ VALUES (30666,   1,   33554680) /* Setup */
      , (30666,   8,  100668296) /* Icon */
      , (30666,  22,  872415275) /* PhysicsEffectTable */
      , (30666,  28,       1453) /* Spell - WillpowerOther3 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30666, 8000,      30666) /* PCAPRecordedObjectIID */;

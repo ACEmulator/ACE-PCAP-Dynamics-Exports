@@ -28,8 +28,5 @@ VALUES (7519,   1,   33554826) /* Setup */
      , (7519,  22,  872415275) /* PhysicsEffectTable */
      , (7519,  28,       1842) /* Spell - ForceWall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7519, 8000, 2191952048) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7519,  1842,      2) ;

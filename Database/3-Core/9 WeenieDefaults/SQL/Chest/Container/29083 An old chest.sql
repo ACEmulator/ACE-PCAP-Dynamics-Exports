@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29083, 8040, 45678862, 182.566, -89.8626, -18, 0.7012759, 0, 0, 0.71289) /* PCAPRecordedLocation */
 /* @teleloc 0x02B9010E [182.566000 -89.862600 -18.000000] 0.701276 0.000000 0.000000 0.712890 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29083, 8000, 1881903104) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29083, -1, 29092, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stolen Bracelet (29092) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

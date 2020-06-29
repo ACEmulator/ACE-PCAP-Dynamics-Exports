@@ -24,6 +24,3 @@ VALUES (12635,   1,   33557463) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12635, 8040, 2614624313, 187.511, 22.9625, 70.08646, -0.867099, 0, 0, -0.498136) /* PCAPRecordedLocation */
 /* @teleloc 0x9BD80039 [187.511000 22.962500 70.086460] -0.867099 0.000000 0.000000 -0.498136 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12635, 8000, 2042462641) /* PCAPRecordedObjectIID */;

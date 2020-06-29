@@ -28,8 +28,5 @@ VALUES (2795,   1,   33554826) /* Setup */
      , (2795,  22,  872415275) /* PhysicsEffectTable */
      , (2795,  28,       1515) /* Spell - BludgeonBane5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2795, 8000, 3704976515) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2795,  1515,      2) ;

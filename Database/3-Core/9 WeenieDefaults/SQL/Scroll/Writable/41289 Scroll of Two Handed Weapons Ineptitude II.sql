@@ -24,6 +24,3 @@ VALUES (41289,   1,   33554826) /* Setup */
      , (41289,   8,  100690644) /* Icon */
      , (41289,  22,  872415275) /* PhysicsEffectTable */
      , (41289,  28,       5076) /* Spell - TwoHandedIneptitude2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41289, 8000, 2884180495) /* PCAPRecordedObjectIID */;

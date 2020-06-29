@@ -35,9 +35,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1912, 8040, 31523425, 196.392, -84.078, -6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01E10261 [196.392000 -84.078000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1912, 8000, 1881018492) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1912, -1, 20487, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Decrepitude's Grasp (20487) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (1912, -1, 49475, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Summoning Mastery Self VI (49475) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

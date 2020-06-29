@@ -26,6 +26,3 @@ VALUES (511,   1, 'Crude Lockpick') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (511,   1,   33554790) /* Setup */
      , (511,   8,  100670823) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (511, 8000, 2856726396) /* PCAPRecordedObjectIID */;

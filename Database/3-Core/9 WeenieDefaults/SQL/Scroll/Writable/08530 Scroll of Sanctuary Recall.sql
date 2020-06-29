@@ -30,8 +30,5 @@ VALUES (8530,   1,   33554826) /* Setup */
      , (8530,  22,  872415275) /* PhysicsEffectTable */
      , (8530,  28,       2023) /* Spell - SanctuaryRecall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8530, 8000, 2912912605) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8530,  2023,      2) ;

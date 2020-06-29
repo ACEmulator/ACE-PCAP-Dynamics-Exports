@@ -25,6 +25,3 @@ VALUES (26588,   1, 'Portal to Kivik Lir''s Temple') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26588,   1,   33558645) /* Setup */
      , (26588,   8,  100675779) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26588, 8000, 2191828351) /* PCAPRecordedObjectIID */;

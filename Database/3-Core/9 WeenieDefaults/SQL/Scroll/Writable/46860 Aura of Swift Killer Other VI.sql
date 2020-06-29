@@ -28,8 +28,5 @@ VALUES (46860,   1,   33554826) /* Setup */
      , (46860,  22,  872415275) /* PhysicsEffectTable */
      , (46860,  28,       6029) /* Spell - SwiftKillerOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46860, 8000, 3675338568) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46860,  6029,      2) ;

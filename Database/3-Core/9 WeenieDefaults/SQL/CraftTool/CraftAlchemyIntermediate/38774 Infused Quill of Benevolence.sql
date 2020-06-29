@@ -23,6 +23,3 @@ VALUES (38774,   1, 'Infused Quill of Benevolence') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38774,   1,   33559616) /* Setup */
      , (38774,   8,  100690198) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38774, 8000, 2164125495) /* PCAPRecordedObjectIID */;

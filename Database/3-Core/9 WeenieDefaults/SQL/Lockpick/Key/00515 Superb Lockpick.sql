@@ -26,6 +26,3 @@ VALUES (515,   1, 'Superb Lockpick') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (515,   1,   33554790) /* Setup */
      , (515,   8,  100670830) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (515, 8000, 2186220415) /* PCAPRecordedObjectIID */;

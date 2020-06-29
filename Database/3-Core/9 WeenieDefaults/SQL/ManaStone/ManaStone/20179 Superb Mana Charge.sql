@@ -28,6 +28,3 @@ VALUES (20179,   1, 'Superb Mana Charge') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20179,   1,   33555641) /* Setup */
      , (20179,   8,  100676301) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20179, 8000, 3324406434) /* PCAPRecordedObjectIID */;

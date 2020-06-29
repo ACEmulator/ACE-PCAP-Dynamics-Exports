@@ -24,6 +24,3 @@ VALUES (1860,   1,   33554826) /* Setup */
      , (1860,   8,  100676933) /* Icon */
      , (1860,  22,  872415275) /* PhysicsEffectTable */
      , (1860,  28,       1249) /* Spell - DrainStamina1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1860, 8000, 2617692241) /* PCAPRecordedObjectIID */;

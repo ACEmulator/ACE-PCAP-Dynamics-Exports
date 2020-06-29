@@ -34,9 +34,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (33972, 8040, 13699449, 150.759, -53.7333, -18.00195, 0.015638, 0, 0, -0.9998777) /* PCAPRecordedLocation */
 /* @teleloc 0x00D10979 [150.759000 -53.733300 -18.001950] 0.015638 0.000000 0.000000 -0.999878 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33972, 8000, 2613596525) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33972, 9, 20596,  0, 0, 0, False) /* Create Scroll of Hieromancer's Blessing (20596) for ContainTreasure */
      , (33972, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */

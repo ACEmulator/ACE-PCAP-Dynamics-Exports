@@ -25,9 +25,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (42884, 8040, 459098, 84.8925, -125.025, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007015A [84.892500 -125.025000 0.660000] 0.707107 0.000000 0.000000 -0.707107 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42884, 8000, 1879076974) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42884, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
      , (42884, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */

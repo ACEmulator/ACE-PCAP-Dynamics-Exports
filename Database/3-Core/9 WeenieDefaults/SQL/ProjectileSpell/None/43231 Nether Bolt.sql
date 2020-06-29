@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (43231, 8040, 2114060732, 81.64206, -129.133, 8.645861, -0.02940688, 0, 0, -0.9995675) /* PCAPRecordedLocation */
 /* @teleloc 0x7E0201BC [81.642060 -129.133000 8.645861] -0.029407 0.000000 0.000000 -0.999568 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43231, 8000, 3684996556) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43231, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
      , (43231, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */

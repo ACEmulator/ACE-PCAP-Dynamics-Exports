@@ -32,9 +32,6 @@ VALUES (6058,   1,   33554809) /* Setup */
      , (6058,   8,  100670636) /* Icon */
      , (6058,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6058, 8000, 3681969059) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6058, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
      , (6058, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

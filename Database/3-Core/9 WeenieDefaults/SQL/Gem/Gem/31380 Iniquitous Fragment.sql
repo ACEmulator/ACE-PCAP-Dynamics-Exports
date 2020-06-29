@@ -24,6 +24,3 @@ VALUES (31380,   1, 'Iniquitous Fragment') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31380,   1,   33556743) /* Setup */
      , (31380,   8,  100687955) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31380, 8000, 3711450280) /* PCAPRecordedObjectIID */;

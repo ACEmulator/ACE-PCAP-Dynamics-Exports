@@ -45,9 +45,6 @@ VALUES (28059,   1,   33556630) /* Setup */
      , (28059,  22,  872415275) /* PhysicsEffectTable */
      , (28059,  28,       2123) /* Spell - AcidVolley7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28059, 8000, 3706545744) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28059,   616,      2) 
      , (28059,   909,      2) 

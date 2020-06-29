@@ -59,9 +59,6 @@ VALUES (35551,   1,   33559320) /* Setup */
      , (35551,  52,  100689403) /* IconUnderlay */
      , (35551,  55,       2070) /* ProcSpell - HarmOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35551, 8000, 3633432153) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35551,  2070,      2) 
      , (35551,  2308,      2) 

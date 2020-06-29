@@ -24,6 +24,3 @@ VALUES (22366,   1,   33558088) /* Setup */
      , (22366,   6,   67111919) /* PaletteBase */
      , (22366,   8,  100673788) /* Icon */
      , (22366,  50,  100673770) /* IconOverlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22366, 8000, 2885513251) /* PCAPRecordedObjectIID */;

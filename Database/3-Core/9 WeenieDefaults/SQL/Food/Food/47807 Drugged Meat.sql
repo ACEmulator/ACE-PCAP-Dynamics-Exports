@@ -21,6 +21,3 @@ VALUES (47807,   1, 'Drugged Meat') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47807,   1,   33554678) /* Setup */
      , (47807,   8,  100667464) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47807, 8000, 2876986222) /* PCAPRecordedObjectIID */;

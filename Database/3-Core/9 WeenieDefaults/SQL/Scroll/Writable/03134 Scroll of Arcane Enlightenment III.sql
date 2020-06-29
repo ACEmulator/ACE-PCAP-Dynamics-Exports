@@ -28,8 +28,5 @@ VALUES (3134,   1,   33554826) /* Setup */
      , (3134,  22,  872415275) /* PhysicsEffectTable */
      , (3134,  28,        686) /* Spell - ArcaneEnlightenmentOther3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3134, 8000, 2447590658) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3134,   686,      2) ;

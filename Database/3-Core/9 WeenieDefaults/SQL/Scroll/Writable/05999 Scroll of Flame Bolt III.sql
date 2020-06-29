@@ -28,8 +28,5 @@ VALUES (5999,   1,   33554826) /* Setup */
      , (5999,  22,  872415275) /* PhysicsEffectTable */
      , (5999,  28,         82) /* Spell - FlameBolt3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5999, 8000, 2264331489) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5999,    82,      2) ;

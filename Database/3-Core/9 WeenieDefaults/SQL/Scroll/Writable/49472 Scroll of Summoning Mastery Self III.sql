@@ -24,6 +24,3 @@ VALUES (49472,   1,   33554826) /* Setup */
      , (49472,   8,  100693008) /* Icon */
      , (49472,  22,  872415275) /* PhysicsEffectTable */
      , (49472,  28,       6118) /* Spell - SummoningMasterySelf3 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49472, 8000, 2927091979) /* PCAPRecordedObjectIID */;

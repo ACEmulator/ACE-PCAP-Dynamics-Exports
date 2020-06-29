@@ -21,6 +21,3 @@ VALUES (4599,   1,   33554680) /* Setup */
      , (4599,   8,  100668288) /* Icon */
      , (4599,  22,  872415275) /* PhysicsEffectTable */
      , (4599,  28,        206) /* Spell - ManaRenewalOther1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4599, 8000,       4599) /* PCAPRecordedObjectIID */;

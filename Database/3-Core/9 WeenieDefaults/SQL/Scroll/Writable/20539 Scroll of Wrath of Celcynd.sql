@@ -28,8 +28,5 @@ VALUES (20539,   1,   33554826) /* Setup */
      , (20539,  22,  872415275) /* PhysicsEffectTable */
      , (20539,  28,       2246) /* Spell - ItemEnchantmentIneptitudeOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20539, 8000, 3679276313) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20539,  2246,      2) ;

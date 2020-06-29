@@ -50,9 +50,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1145, 8040, 3845259532, 125.969, 34.8809, 29.605, -0.9770167, 0, 0, -0.2131628) /* PCAPRecordedLocation */
 /* @teleloc 0xE532010C [125.969000 34.880900 29.605000] -0.977017 0.000000 0.000000 -0.213163 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1145, 8000, 2119376905) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1145,   1,  70, 0, 0) /* Strength */
      , (1145,   2,  65, 0, 0) /* Endurance */

@@ -24,6 +24,3 @@ VALUES (3379,   1,   33554826) /* Setup */
      , (3379,   8,  100676463) /* Icon */
      , (3379,  22,  872415275) /* PhysicsEffectTable */
      , (3379,  28,        942) /* Spell - LockpickIneptitudeOther3 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3379, 8000, 2779716813) /* PCAPRecordedObjectIID */;

@@ -28,6 +28,3 @@ VALUES (52753,   1,   33557625) /* Setup */
      , (52753,  22,  872415275) /* PhysicsEffectTable */
      , (52753,  28,       6178) /* Spell - GauntletWeaponMastery */
      , (52753,  50,  100686694) /* IconOverlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52753, 8000,      52753) /* PCAPRecordedObjectIID */;

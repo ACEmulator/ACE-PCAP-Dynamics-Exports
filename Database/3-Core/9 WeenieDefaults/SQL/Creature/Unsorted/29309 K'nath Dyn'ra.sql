@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29309, 8040, 26411281, 344.51, -30.1125, -11.982, -0.168604, 0, 0, 0.9856839) /* PCAPRecordedLocation */
 /* @teleloc 0x01930111 [344.510000 -30.112500 -11.982000] -0.168604 0.000000 0.000000 0.985684 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29309, 8000, 3709625921) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29309, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
      , (29309, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */

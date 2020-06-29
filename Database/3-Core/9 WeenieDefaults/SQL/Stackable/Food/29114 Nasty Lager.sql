@@ -27,6 +27,3 @@ VALUES (29114,   1,   33559127) /* Setup */
      , (29114,  28,       3527) /* Spell - Intoxication1 */
      , (29114,  50,  100687550) /* IconOverlay */
      , (29114,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29114, 8000, 2779733121) /* PCAPRecordedObjectIID */;

@@ -19,6 +19,3 @@ VALUES (25467,   1, 'Whispering Venom crystal') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25467,   1,   33554809) /* Setup */
      , (25467,   8,  100674804) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25467, 8000, 2148065077) /* PCAPRecordedObjectIID */;

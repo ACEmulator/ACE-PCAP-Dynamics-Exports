@@ -29,6 +29,3 @@ VALUES (36017,   1,   33557625) /* Setup */
      , (36017,  28,       4135) /* Spell - DaggerMasterySpectral */
      , (36017,  50,  100692243) /* IconOverlay */
      , (36017,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36017, 8000,      36017) /* PCAPRecordedObjectIID */;

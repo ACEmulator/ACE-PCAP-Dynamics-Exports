@@ -24,6 +24,3 @@ VALUES (31378,   1, 'Raven Fragment') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31378,   1,   33556743) /* Setup */
      , (31378,   8,  100687952) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31378, 8000, 2932499361) /* PCAPRecordedObjectIID */;

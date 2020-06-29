@@ -35,8 +35,5 @@ VALUES (47055,   1,   33554809) /* Setup */
      , (47055,  22,  872415275) /* PhysicsEffectTable */
      , (47055,  28,       6035) /* Spell - CantripSpiritofIzexi */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47055, 8000, 2781589269) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (47055,  6035,      2) ;

@@ -39,8 +39,5 @@ VALUES (41457,   1,   33554809) /* Setup */
      , (41457,  22,  872415275) /* PhysicsEffectTable */
      , (41457,  28,       5156) /* Spell - DeceptionArcane5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41457, 8000, 2335659968) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41457,  5156,      2) ;

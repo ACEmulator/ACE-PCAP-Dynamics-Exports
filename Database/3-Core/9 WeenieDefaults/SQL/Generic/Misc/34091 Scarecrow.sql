@@ -21,6 +21,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34091,   1,   33560111) /* Setup */
      , (34091,   6,   67112967) /* PaletteBase */
      , (34091,   8,  100671141) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34091, 8000, 2191831935) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (2765,   1,   33554826) /* Setup */
      , (2765,  22,  872415275) /* PhysicsEffectTable */
      , (2765,  28,       1497) /* Spell - AcidBane5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2765, 8000, 3668573592) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2765,  1497,      2) ;

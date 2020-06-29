@@ -36,8 +36,5 @@ VALUES (30813,   1,   33558259) /* Setup */
      , (30813,  22,  872415275) /* PhysicsEffectTable */
      , (30813,  28,       3800) /* Spell - BurningSpiritReliquary */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30813, 8000, 2157927917) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30813,  3800,      2) ;

@@ -39,8 +39,5 @@ VALUES (52701,   1,   33554603) /* Setup */
      , (52701,  28,       6171) /* Spell - HoneyedManaMead */
      , (52701,  52,  100689823) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52701, 8000, 2629377079) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52701,  6171,      2) ;

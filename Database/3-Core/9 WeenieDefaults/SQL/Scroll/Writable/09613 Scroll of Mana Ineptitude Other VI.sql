@@ -28,8 +28,5 @@ VALUES (9613,   1,   33554826) /* Setup */
      , (9613,  22,  872415275) /* PhysicsEffectTable */
      , (9613,  28,        677) /* Spell - ManaIneptitudeOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9613, 8000, 3688259792) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9613,   677,      2) ;

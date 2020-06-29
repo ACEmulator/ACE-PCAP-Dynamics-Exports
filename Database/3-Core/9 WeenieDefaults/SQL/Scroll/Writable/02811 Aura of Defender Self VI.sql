@@ -28,8 +28,5 @@ VALUES (2811,   1,   33554826) /* Setup */
      , (2811,  22,  872415275) /* PhysicsEffectTable */
      , (2811,  28,       1605) /* Spell - DefenderSelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2811, 8000, 3354999641) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2811,  1605,      2) ;

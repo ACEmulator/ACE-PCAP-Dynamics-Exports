@@ -28,8 +28,5 @@ VALUES (41260,   1,   33554826) /* Setup */
      , (41260,  22,  872415275) /* PhysicsEffectTable */
      , (41260,  28,       5103) /* Spell - TwoHandedMasterySelf5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41260, 8000, 2629680498) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41260,  5103,      2) ;

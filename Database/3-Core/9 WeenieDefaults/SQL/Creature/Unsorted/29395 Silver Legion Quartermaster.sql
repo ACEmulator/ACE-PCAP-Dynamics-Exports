@@ -32,8 +32,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29395, 8040, 1769829, 69.4486, -431.837, 0.006789923, 0.9610423, 0, 0, -0.2764011) /* PCAPRecordedLocation */
 /* @teleloc 0x001B0165 [69.448600 -431.837000 0.006790] 0.961042 0.000000 0.000000 -0.276401 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29395, 8000, 3704365786) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29395, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;

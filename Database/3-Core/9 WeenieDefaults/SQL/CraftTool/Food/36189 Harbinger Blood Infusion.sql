@@ -37,8 +37,5 @@ VALUES (36189,   1,   33554603) /* Setup */
      , (36189,  22,  872415275) /* PhysicsEffectTable */
      , (36189,  28,       4169) /* Spell - ArmorProdigalHarbinger */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36189, 8000, 3701967377) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36189,  4169,      2) ;

@@ -28,8 +28,5 @@ VALUES (2686,   1,   33554826) /* Setup */
      , (2686,  22,  872415275) /* PhysicsEffectTable */
      , (2686,  28,       1372) /* Spell - FrailtyOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2686, 8000, 2914854746) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2686,  1372,      2) ;

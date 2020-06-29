@@ -69,9 +69,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (35870, 8040, 11469107, 42.5, -70, 0, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0133 [42.500000 -70.000000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35870, 8000, 3684814103) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35870, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */
      , (35870, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */

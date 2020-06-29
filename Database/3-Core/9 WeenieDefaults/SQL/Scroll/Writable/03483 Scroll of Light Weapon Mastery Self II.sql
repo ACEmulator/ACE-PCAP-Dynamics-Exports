@@ -24,6 +24,3 @@ VALUES (3483,   1,   33554826) /* Setup */
      , (3483,   8,  100692249) /* Icon */
      , (3483,  22,  872415275) /* PhysicsEffectTable */
      , (3483,  28,        299) /* Spell - AxeMasterySelf2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3483, 8000, 2240725150) /* PCAPRecordedObjectIID */;

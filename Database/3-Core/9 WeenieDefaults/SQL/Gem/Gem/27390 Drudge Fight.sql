@@ -42,8 +42,5 @@ VALUES (27390,   1,   33556769) /* Setup */
      , (27390,  28,        157) /* Spell - SummonPortal1 */
      , (27390,  50,  100676404) /* IconOverlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27390, 8000, 2982947206) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27390,   157,      2) ;

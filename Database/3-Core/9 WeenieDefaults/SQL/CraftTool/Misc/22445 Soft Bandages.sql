@@ -32,6 +32,3 @@ VALUES (22445,   1, 'Soft Bandages') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22445,   1,   33555194) /* Setup */
      , (22445,   8,  100673814) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22445, 8000, 2461518113) /* PCAPRecordedObjectIID */;

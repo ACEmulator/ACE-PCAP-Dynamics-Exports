@@ -53,9 +53,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (47539, 8040, 3663200270, 28.54548, 126.2667, 9.940082, -0.5666882, -0.5666882, -0.4229237, -0.4229237) /* PCAPRecordedLocation */
 /* @teleloc 0xDA58000E [28.545480 126.266700 9.940082] -0.566688 -0.566688 -0.422924 -0.422924 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47539, 8000, 3700710664) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47539, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
      , (47539, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */

@@ -29,8 +29,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (52265, 8040, 1499529515, 4.10066, -28.70442, 6.005, 0.733732, 0, 0, -0.679439) /* PCAPRecordedLocation */
 /* @teleloc 0x5961012B [4.100660 -28.704420 6.005000] 0.733732 0.000000 0.000000 -0.679439 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52265, 8000, 3694524883) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52265, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */;

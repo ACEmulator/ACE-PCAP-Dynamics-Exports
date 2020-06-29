@@ -28,8 +28,5 @@ VALUES (21333,   1,   33554826) /* Setup */
      , (21333,  22,  872415275) /* PhysicsEffectTable */
      , (21333,  28,       2749) /* Spell - ShockArc4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21333, 8000, 2925966814) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21333,  2749,      2) ;

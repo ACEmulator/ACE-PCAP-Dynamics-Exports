@@ -33,8 +33,5 @@ VALUES (37088,   1,   33554776) /* Setup */
      , (37088,  22,  872415275) /* PhysicsEffectTable */
      , (37088,  28,       4247) /* Spell - PortalSendingTanadaBattleBurrows */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37088, 8000, 3330114217) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37088,  4247,      2) ;

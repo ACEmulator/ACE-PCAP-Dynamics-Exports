@@ -38,8 +38,5 @@ VALUES (41442,   1,   33554809) /* Setup */
      , (41442,  22,  872415275) /* PhysicsEffectTable */
      , (41442,  28,       5122) /* Spell - CallOfLeadership5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41442, 8000, 2979050503) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41442,  5122,      2) ;

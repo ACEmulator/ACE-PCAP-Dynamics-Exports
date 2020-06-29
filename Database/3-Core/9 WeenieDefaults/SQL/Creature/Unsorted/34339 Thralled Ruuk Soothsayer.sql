@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (34339, 8040, 1078657068, 137.782, 81.5401, 2.24323, 0.786034, 0, 0, 0.618184) /* PCAPRecordedLocation */
 /* @teleloc 0x404B002C [137.782000 81.540100 2.243230] 0.786034 0.000000 0.000000 0.618184 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34339, 8000, 2878006131) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34339, 2, 26043,  1, 0, 0, False) /* Create Stone Mace (26043) for Wield */
      , (34339, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */;

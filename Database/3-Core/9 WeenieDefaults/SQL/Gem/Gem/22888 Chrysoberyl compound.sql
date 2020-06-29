@@ -22,6 +22,3 @@ VALUES (22888,   1, 'Chrysoberyl compound') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22888,   1,   33554809) /* Setup */
      , (22888,   8,  100673895) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22888, 8000, 2871725797) /* PCAPRecordedObjectIID */;

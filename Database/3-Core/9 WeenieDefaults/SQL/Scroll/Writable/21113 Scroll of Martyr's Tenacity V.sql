@@ -28,8 +28,5 @@ VALUES (21113,   1,   33554826) /* Setup */
      , (21113,  22,  872415275) /* PhysicsEffectTable */
      , (21113,  28,       2771) /* Spell - StaminaBolt5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21113, 8000, 3677840427) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21113,  2771,      2) ;

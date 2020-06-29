@@ -24,6 +24,3 @@ VALUES (1864,   1,   33554826) /* Setup */
      , (1864,   8,  100676947) /* Icon */
      , (1864,  22,  872415275) /* PhysicsEffectTable */
      , (1864,  28,       1272) /* Spell - HealthToStaminaSelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1864, 8000,       1864) /* PCAPRecordedObjectIID */;

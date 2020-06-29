@@ -24,6 +24,3 @@ VALUES (2870,   1,   33554826) /* Setup */
      , (2870,   8,  100676654) /* Icon */
      , (2870,  22,  872415275) /* PhysicsEffectTable */
      , (2870,  28,       1573) /* Spell - PiercingBane5 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2870, 8000, 2618072860) /* PCAPRecordedObjectIID */;

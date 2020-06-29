@@ -24,6 +24,3 @@ VALUES (21103,   1,   33554826) /* Setup */
      , (21103,   8,  100676937) /* Icon */
      , (21103,  22,  872415275) /* PhysicsEffectTable */
      , (21103,  28,       2775) /* Spell - ManaBolt2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21103, 8000, 2779932798) /* PCAPRecordedObjectIID */;

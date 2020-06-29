@@ -60,9 +60,6 @@ VALUES (45436,   1,   33559404) /* Setup */
      , (45436,  30,         88) /* PhysicsScript - Create */
      , (45436,  52,  100686604) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45436, 8000, 2300440111) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45436,  3965,      2) 
      , (45436,  4325,      2) 

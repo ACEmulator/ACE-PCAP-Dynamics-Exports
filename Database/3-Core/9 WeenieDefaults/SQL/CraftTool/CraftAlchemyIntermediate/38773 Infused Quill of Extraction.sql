@@ -23,6 +23,3 @@ VALUES (38773,   1, 'Infused Quill of Extraction') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38773,   1,   33559616) /* Setup */
      , (38773,   8,  100690199) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38773, 8000, 2164034587) /* PCAPRecordedObjectIID */;

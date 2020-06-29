@@ -28,8 +28,5 @@ VALUES (5963,   1,   33554826) /* Setup */
      , (5963,  22,  872415275) /* PhysicsEffectTable */
      , (5963,  28,       1746) /* Spell - FletchingIneptitudeOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5963, 8000, 3630264802) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5963,  1746,      2) ;

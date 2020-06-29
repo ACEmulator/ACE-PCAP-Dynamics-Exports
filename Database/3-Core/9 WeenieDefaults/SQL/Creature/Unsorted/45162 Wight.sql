@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (45162, 8040, 1466172016, 9.666176, -22.53711, 6.00825, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x57640270 [9.666176 -22.537110 6.008250] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45162, 8000, 3630564807) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45162, 2, 48071,  1, 0, 0, False) /* Create Nekode (48071) for Wield */
      , (45162, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */

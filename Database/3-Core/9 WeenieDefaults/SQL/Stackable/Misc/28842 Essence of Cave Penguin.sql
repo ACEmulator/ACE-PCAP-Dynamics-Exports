@@ -33,8 +33,5 @@ VALUES (28842,   1,   33554603) /* Setup */
      , (28842,  22,  872415275) /* PhysicsEffectTable */
      , (28842,  28,       3571) /* Spell - HealthUp10Percent */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28842, 8000, 2803230169) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28842,  3571,      2) ;

@@ -28,8 +28,5 @@ VALUES (20414,   1,   33554826) /* Setup */
      , (20414,  22,  872415275) /* PhysicsEffectTable */
      , (20414,  28,       2104) /* Spell - FrostBane7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20414, 8000, 3705345236) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20414,  2104,      2) ;

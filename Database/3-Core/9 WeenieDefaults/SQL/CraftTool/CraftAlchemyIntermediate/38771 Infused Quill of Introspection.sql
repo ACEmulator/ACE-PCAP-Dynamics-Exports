@@ -23,6 +23,3 @@ VALUES (38771,   1, 'Infused Quill of Introspection') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38771,   1,   33559616) /* Setup */
      , (38771,   8,  100690197) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38771, 8000, 2346397318) /* PCAPRecordedObjectIID */;

@@ -22,6 +22,3 @@ VALUES (25774,   1, 'Fletching Table') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25774,   1,   33558528) /* Setup */
      , (25774,   8,  100675553) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25774, 8000, 2622689429) /* PCAPRecordedObjectIID */;

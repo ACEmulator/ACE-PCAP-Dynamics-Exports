@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (44108, 8040, 1465909506, 2.19, -175.1, -17.992, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x57600102 [2.190000 -175.100000 -17.992000] 0.707107 0.000000 0.000000 -0.707107 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44108, 8000, 3631644462) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44108, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (44108, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */

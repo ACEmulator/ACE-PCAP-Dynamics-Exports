@@ -39,8 +39,5 @@ VALUES (8117,   1,   33556769) /* Setup */
      , (8117,  22,  872415275) /* PhysicsEffectTable */
      , (8117,  28,       2002) /* Spell - PortalSendingShendolain */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8117, 8000, 2629183140) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8117,  2002,      2) ;

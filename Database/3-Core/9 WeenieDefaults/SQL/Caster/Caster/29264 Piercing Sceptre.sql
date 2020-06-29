@@ -50,9 +50,6 @@ VALUES (29264,   1,   33559232) /* Setup */
      , (29264,  22,  872415275) /* PhysicsEffectTable */
      , (29264,  28,         80) /* Spell - LightningBolt6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29264, 8000, 2279782054) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29264,    80,      2) 
      , (29264,  4227,      2) 

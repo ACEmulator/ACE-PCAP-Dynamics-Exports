@@ -22,6 +22,3 @@ VALUES (44776,   1, 'Tumerok') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44776,   1,   33561376) /* Setup */
      , (44776,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44776, 8000, 2192054466) /* PCAPRecordedObjectIID */;

@@ -51,9 +51,6 @@ VALUES (37220,   1,   33560653) /* Setup */
      , (37220,  22,  872415275) /* PhysicsEffectTable */
      , (37220,  28,       2136) /* Spell - FrostBolt7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37220, 8000, 2159970495) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37220,  2117,      2) 
      , (37220,  2132,      2) 

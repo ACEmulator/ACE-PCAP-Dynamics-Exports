@@ -29,6 +29,3 @@ VALUES (35876,   1, 'Coruscating Olthoi Scent Gland') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35876,   1,   33560332) /* Setup */
      , (35876,   8,  100671870) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35876, 8000, 3701495666) /* PCAPRecordedObjectIID */;

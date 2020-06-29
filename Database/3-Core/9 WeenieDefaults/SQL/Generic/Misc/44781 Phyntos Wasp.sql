@@ -21,6 +21,3 @@ VALUES (44781,   1, 'Phyntos Wasp') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44781,   1,   33561381) /* Setup */
      , (44781,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44781, 8000, 2461685436) /* PCAPRecordedObjectIID */;

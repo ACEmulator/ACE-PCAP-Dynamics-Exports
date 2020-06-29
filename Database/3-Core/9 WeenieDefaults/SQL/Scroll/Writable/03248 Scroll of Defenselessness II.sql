@@ -28,8 +28,5 @@ VALUES (3248,   1,   33554826) /* Setup */
      , (3248,  22,  872415275) /* PhysicsEffectTable */
      , (3248,  28,        263) /* Spell - DefenselessnessOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3248, 8000, 3621583811) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3248,   263,      2) ;

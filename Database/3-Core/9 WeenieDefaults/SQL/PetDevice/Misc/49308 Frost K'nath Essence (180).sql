@@ -43,8 +43,5 @@ VALUES (49308,   1,   33554817) /* Setup */
      , (49308,  50,  100693031) /* IconOverlay */
      , (49308,  52,  100693024) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49308, 8000, 3710517283) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49308, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

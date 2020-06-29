@@ -60,9 +60,6 @@ VALUES (31772,   1,   33555691) /* Setup */
      , (31772,  22,  872415275) /* PhysicsEffectTable */
      , (31772,  30,         88) /* PhysicsScript - Create */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31772, 8000, 3188059747) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31772,  1402,      2) 
      , (31772,  1616,      2) 

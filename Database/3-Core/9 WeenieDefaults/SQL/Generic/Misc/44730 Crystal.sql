@@ -21,6 +21,3 @@ VALUES (44730,   1, 'Crystal') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44730,   1,   33561330) /* Setup */
      , (44730,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44730, 8000, 2461713255) /* PCAPRecordedObjectIID */;

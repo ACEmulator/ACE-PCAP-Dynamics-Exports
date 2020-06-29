@@ -28,8 +28,5 @@ VALUES (21288,   1,   33554826) /* Setup */
      , (21288,  22,  872415275) /* PhysicsEffectTable */
      , (21288,  28,       2711) /* Spell - AcidArc1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21288, 8000, 2876014191) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21288,  2711,      2) ;

@@ -28,8 +28,5 @@ VALUES (20499,   1,   33554826) /* Setup */
      , (20499,  22,  872415275) /* PhysicsEffectTable */
      , (20499,  28,       2194) /* Spell - ArcaneEnlightenmentOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20499, 8000, 3701464776) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20499,  2194,      2) ;

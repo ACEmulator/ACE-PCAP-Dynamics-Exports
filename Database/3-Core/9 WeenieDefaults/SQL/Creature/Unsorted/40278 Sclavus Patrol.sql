@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (40278, 8040, 13304365, 360, -80, -30, -0.7050318, 0, 0, -0.7091758) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB022D [360.000000 -80.000000 -30.000000] -0.705032 0.000000 0.000000 -0.709176 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40278, 8000, 3332247482) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40278, 2, 38924,  1, 0, 0, False) /* Create T'thuun Claw (38924) for Wield */
      , (40278, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wield */

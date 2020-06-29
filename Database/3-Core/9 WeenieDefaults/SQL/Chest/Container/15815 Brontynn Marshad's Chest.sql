@@ -40,9 +40,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (15815, 8040, 3516006656, 80.7856, 82.9783, 16, -0.7153358, 0, 0, -0.6987808) /* PCAPRecordedLocation */
 /* @teleloc 0xD1920100 [80.785600 82.978300 16.000000] -0.715336 0.000000 0.000000 -0.698781 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15815, 8000, 2098798596) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15815, -1, 15799, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate A Letter of Grief (15799) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (15815, -1, 15807, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate A tightly scrawled Note (15807) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

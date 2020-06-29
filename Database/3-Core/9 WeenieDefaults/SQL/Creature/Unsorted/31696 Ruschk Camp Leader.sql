@@ -32,8 +32,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31696, 8040, 988413996, 132.226, 83.6558, 0.006600022, 0.07971617, 0, 0, 0.9968176) /* PCAPRecordedLocation */
 /* @teleloc 0x3AEA002C [132.226000 83.655800 0.006600] 0.079716 0.000000 0.000000 0.996818 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31696, 8000, 2878916572) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31696, 2, 48618,  1, 0, 0, False) /* Create Glacial Blade (48618) for Wield */;

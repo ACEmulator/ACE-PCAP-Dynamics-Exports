@@ -39,8 +39,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (20907, 8040, 1449132298, 156.992, -66.7427, -30.01, 0.9210611, 0, 0, 0.3894181) /* PCAPRecordedLocation */
 /* @teleloc 0x5660010A [156.992000 -66.742700 -30.010000] 0.921061 0.000000 0.000000 0.389418 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20907, 8000, 1969618947) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20907, -1, 20909, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Unfashioned Prismatic Stone (20909) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

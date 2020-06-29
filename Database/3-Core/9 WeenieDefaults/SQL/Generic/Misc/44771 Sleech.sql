@@ -20,6 +20,3 @@ VALUES (44771,   1, 'Sleech') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44771,   1,   33561371) /* Setup */
      , (44771,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44771, 8000, 2164483508) /* PCAPRecordedObjectIID */;

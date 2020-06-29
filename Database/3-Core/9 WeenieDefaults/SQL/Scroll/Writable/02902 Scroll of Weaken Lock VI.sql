@@ -28,8 +28,5 @@ VALUES (2902,   1,   33554826) /* Setup */
      , (2902,  22,  872415275) /* PhysicsEffectTable */
      , (2902,  28,       1586) /* Spell - WeakenLock6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2902, 8000, 3702817333) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2902,  1586,      2) ;

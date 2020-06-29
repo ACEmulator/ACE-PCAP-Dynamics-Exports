@@ -24,6 +24,3 @@ VALUES (45324,   1,   33554826) /* Setup */
      , (45324,   8,  100692252) /* Icon */
      , (45324,  22,  872415275) /* PhysicsEffectTable */
      , (45324,  28,       5851) /* Spell - ShieldMasterySelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45324, 8000, 3709707042) /* PCAPRecordedObjectIID */;

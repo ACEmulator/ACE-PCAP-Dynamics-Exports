@@ -50,9 +50,6 @@ VALUES (33940,   1,   33557340) /* Setup */
      , (33940,  22,  872415275) /* PhysicsEffectTable */
      , (33940,  55,       1155) /* ProcSpell - PiercingVulnerabilityOther5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33940, 8000, 2225922755) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33940,  1094,      2) 
      , (33940,  1155,      2) 

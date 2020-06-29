@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (7266, 8040, 686686234, 91.94933, 29.49975, 23.83086, -0.07385156, 0, 0, -0.9972693) /* PCAPRecordedLocation */
 /* @teleloc 0x28EE001A [91.949330 29.499750 23.830860] -0.073852 0.000000 0.000000 -0.997269 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7266, 8000, 3688235907) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7266, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
      , (7266, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */

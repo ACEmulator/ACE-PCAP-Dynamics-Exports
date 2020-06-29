@@ -28,8 +28,5 @@ VALUES (2903,   1,   33554826) /* Setup */
      , (2903,  22,  872415275) /* PhysicsEffectTable */
      , (2903,  28,       1635) /* Spell - LifestoneRecall1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2903, 8000, 2615228107) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2903,  1635,      2) ;

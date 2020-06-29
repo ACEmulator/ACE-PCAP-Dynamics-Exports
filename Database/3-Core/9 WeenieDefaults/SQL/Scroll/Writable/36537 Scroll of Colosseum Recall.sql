@@ -24,6 +24,3 @@ VALUES (36537,   1,   33554826) /* Setup */
      , (36537,   8,  100689659) /* Icon */
      , (36537,  22,  872415275) /* PhysicsEffectTable */
      , (36537,  28,       4213) /* Spell - RecallColosseum */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36537, 8000, 2929224420) /* PCAPRecordedObjectIID */;

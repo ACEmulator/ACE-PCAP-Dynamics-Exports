@@ -28,6 +28,3 @@ VALUES (44711,   1, 'Lesser Stamina Kit') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44711,   1,   33555194) /* Setup */
      , (44711,   8,  100692116) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44711, 8000, 2461823049) /* PCAPRecordedObjectIID */;

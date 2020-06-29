@@ -24,6 +24,3 @@ VALUES (5495,   1,   33554826) /* Setup */
      , (5495,   8,  100677026) /* Icon */
      , (5495,  22,  872415275) /* PhysicsEffectTable */
      , (5495,  28,        101) /* Spell - AcidBlast5 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5495, 8000,       5495) /* PCAPRecordedObjectIID */;

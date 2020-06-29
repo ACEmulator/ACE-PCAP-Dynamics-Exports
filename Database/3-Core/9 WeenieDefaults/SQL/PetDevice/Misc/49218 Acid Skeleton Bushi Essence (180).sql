@@ -43,9 +43,6 @@ VALUES (49218,   1,   33554817) /* Setup */
      , (49218,  50,  100693031) /* IconOverlay */
      , (49218,  52,  100693024) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49218, 8000, 3359463628) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49218, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (49218, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

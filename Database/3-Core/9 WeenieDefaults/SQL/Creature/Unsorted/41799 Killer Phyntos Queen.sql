@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (41799, 8040, 4180672776, 10, 155, 38.416, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF9300108 [10.000000 155.000000 38.416000] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41799, 8000, 2922176399) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41799, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
      , (41799, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */

@@ -28,8 +28,5 @@ VALUES (1713,   1,   33554826) /* Setup */
      , (1713,  22,  872415275) /* PhysicsEffectTable */
      , (1713,  28,        916) /* Spell - LeadershipIneptitudeOther1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1713, 8000, 2617616685) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1713,   916,      2) ;

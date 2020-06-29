@@ -24,6 +24,3 @@ VALUES (1856,   1,   33554826) /* Setup */
      , (1856,   8,  100676940) /* Icon */
      , (1856,  22,  872415275) /* PhysicsEffectTable */
      , (1856,  28,        194) /* Spell - ExhaustionOther1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1856, 8000, 2616353785) /* PCAPRecordedObjectIID */;

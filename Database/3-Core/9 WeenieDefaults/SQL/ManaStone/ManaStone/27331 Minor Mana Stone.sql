@@ -27,6 +27,3 @@ VALUES (27331,   1, 'Minor Mana Stone') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27331,   1,   33555641) /* Setup */
      , (27331,   8,  100676302) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27331, 8000, 3691005779) /* PCAPRecordedObjectIID */;

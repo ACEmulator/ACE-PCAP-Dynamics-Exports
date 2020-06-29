@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (37460, 8040, 1194131828, 181.204, 148.358, -13.59175, 0.648348, 0, 0, 0.7613441) /* PCAPRecordedLocation */
 /* @teleloc 0x472D0174 [181.204000 148.358000 -13.591750] 0.648348 0.000000 0.000000 0.761344 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37460, 8000, 2920536718) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37460, 2, 48092,  1, 0, 0, False) /* Create Ono (48092) for Wield */
      , (37460, 2, 48089,  1, 0, 0, False) /* Create Silifi (48089) for Wield */

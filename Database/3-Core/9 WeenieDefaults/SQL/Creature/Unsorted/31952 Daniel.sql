@@ -33,8 +33,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31952, 8040, 599130407, 23.7928, 57.6883, -3.195, -0.8931047, 0, 0, -0.4498489) /* PCAPRecordedLocation */
 /* @teleloc 0x23B60127 [23.792800 57.688300 -3.195000] -0.893105 0.000000 0.000000 -0.449849 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31952, 8000, 3708875359) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31952, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */;

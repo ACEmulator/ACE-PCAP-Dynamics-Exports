@@ -37,8 +37,5 @@ VALUES (36186,   1,   33554809) /* Setup */
      , (36186,  22,  872415275) /* PhysicsEffectTable */
      , (36186,  28,       4190) /* Spell - HarbingerProtectionCold */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36186, 8000, 2461713206) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36186,  4190,      2) ;

@@ -30,6 +30,3 @@ VALUES (41462,   1,   33560887) /* Setup */
      , (41462,   8,  100690681) /* Icon */
      , (41462,  22,  872415275) /* PhysicsEffectTable */
      , (41462,  28,       5119) /* Spell - ExposeWeakness5 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41462, 8000, 3673965424) /* PCAPRecordedObjectIID */;

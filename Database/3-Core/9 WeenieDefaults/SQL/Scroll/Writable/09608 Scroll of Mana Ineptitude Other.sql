@@ -24,6 +24,3 @@ VALUES (9608,   1,   33554826) /* Setup */
      , (9608,   8,  100676466) /* Icon */
      , (9608,  22,  872415275) /* PhysicsEffectTable */
      , (9608,  28,        672) /* Spell - ManaIneptitudeOther1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9608, 8000,       9608) /* PCAPRecordedObjectIID */;

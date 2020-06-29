@@ -28,9 +28,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (7273, 8040, 487718958, 125.8852, 124.5957, 1.128333, 0.7139835, 0, 0, -0.7001625) /* PCAPRecordedLocation */
 /* @teleloc 0x1D12002E [125.885200 124.595700 1.128333] 0.713984 0.000000 0.000000 -0.700163 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7273, 8000, 3698083984) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7273, 2, 47725,  1, 0, 0, False) /* Create Spear (47725) for Wield */
      , (7273, 2, 46648,  1, 0, 0, False) /* Create Spectral Lightning Nodachi (46648) for Wield */

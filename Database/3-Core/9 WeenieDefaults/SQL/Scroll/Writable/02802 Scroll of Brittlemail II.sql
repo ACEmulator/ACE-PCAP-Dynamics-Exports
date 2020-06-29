@@ -28,8 +28,5 @@ VALUES (2802,   1,   33554826) /* Setup */
      , (2802,  22,  872415275) /* PhysicsEffectTable */
      , (2802,  28,       1488) /* Spell - Brittlemail2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2802, 8000, 2779033212) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2802,  1488,      2) ;

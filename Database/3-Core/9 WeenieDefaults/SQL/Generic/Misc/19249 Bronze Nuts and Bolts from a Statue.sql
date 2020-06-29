@@ -21,6 +21,3 @@ VALUES (19249,   1, 'Bronze Nuts and Bolts from a Statue') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19249,   1,   33557679) /* Setup */
      , (19249,   8,  100672954) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19249, 8000, 3703462164) /* PCAPRecordedObjectIID */;

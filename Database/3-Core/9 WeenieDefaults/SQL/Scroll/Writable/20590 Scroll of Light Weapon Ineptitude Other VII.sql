@@ -24,6 +24,3 @@ VALUES (20590,   1,   33554826) /* Setup */
      , (20590,   8,  100692249) /* Icon */
      , (20590,  22,  872415275) /* PhysicsEffectTable */
      , (20590,  28,       2200) /* Spell - AxeIneptitudeOther7 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20590, 8000, 3695637978) /* PCAPRecordedObjectIID */;

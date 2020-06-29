@@ -29,6 +29,3 @@ VALUES (41745,   1,   33557625) /* Setup */
      , (41745,  28,       5023) /* Spell - TwoHandedMasterySpectral */
      , (41745,  50,  100690691) /* IconOverlay */
      , (41745,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41745, 8000,      41745) /* PCAPRecordedObjectIID */;

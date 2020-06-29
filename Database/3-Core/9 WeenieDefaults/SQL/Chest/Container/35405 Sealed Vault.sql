@@ -38,9 +38,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (35405, 8040, 9765131, 23.857, -6.0026, 0.017856, 0.9998611, 0, 0, 0.0166658) /* PCAPRecordedLocation */
 /* @teleloc 0x0095010B [23.857000 -6.002600 0.017856] 0.999861 0.000000 0.000000 0.016666 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35405, 8000, 1879658658) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35405, -1, 53472, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lord Cynreft Mhoire's Signet Ring (53472) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (35405, -1, 38810, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lord Cynreft's Ancient Emblem of Mhoire (38810) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -27,8 +27,5 @@ VALUES (3127,   1,   33554826) /* Setup */
      , (3127,   8,  100676940) /* Icon */
      , (3127,  28,        193) /* Spell - RejuvenationSelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3127, 8000, 3682416017) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3127,   193,      2) ;

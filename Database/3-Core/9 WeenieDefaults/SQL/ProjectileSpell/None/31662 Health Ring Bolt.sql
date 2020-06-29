@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31662, 8040, 17105476, 48.99908, -146.9238, -10.77167, 0.3946773, 0, 0, -0.9188198) /* PCAPRecordedLocation */
 /* @teleloc 0x01050244 [48.999080 -146.923800 -10.771670] 0.394677 0.000000 0.000000 -0.918820 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31662, 8000, 3697730066) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31662, 2, 47404,  1, 0, 0, False) /* Create Frost Club (47404) for Wield */
      , (31662, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */

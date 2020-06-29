@@ -28,8 +28,5 @@ VALUES (28944,   1,   33554826) /* Setup */
      , (28944,  22,  872415275) /* PhysicsEffectTable */
      , (28944,  28,       3510) /* Spell - ArcanumSalvagingOther5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28944, 8000, 3704781823) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28944,  3510,      2) ;

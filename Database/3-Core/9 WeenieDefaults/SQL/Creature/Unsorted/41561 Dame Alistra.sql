@@ -33,9 +33,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (41561, 8040, 2270494976, 61.2585, 134.182, 9.705, 0.250052, 0, 0, 0.968232) /* PCAPRecordedLocation */
 /* @teleloc 0x87550100 [61.258500 134.182000 9.705000] 0.250052 0.000000 0.000000 0.968232 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41561, 8000, 3709162214) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41561, 2, 24598,  1, 0, 0, False) /* Create Sword of Lost Light (24598) for Wield */
      , (41561, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;

@@ -25,6 +25,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25761,   1,   33554714) /* Setup */
      , (25761,   3,  536871075) /* SoundTable */
      , (25761,   8,  100675562) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25761, 8000, 2906759653) /* PCAPRecordedObjectIID */;

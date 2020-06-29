@@ -38,8 +38,5 @@ VALUES (30802,   1,   33554661) /* Setup */
      , (30802,  22,  872415275) /* PhysicsEffectTable */
      , (30802,  28,        157) /* Spell - SummonPortal1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30802, 8000, 2192743723) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30802,   157,      2) ;

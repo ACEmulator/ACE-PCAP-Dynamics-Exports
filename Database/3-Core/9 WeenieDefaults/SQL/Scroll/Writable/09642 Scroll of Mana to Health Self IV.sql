@@ -28,8 +28,5 @@ VALUES (9642,   1,   33554826) /* Setup */
      , (9642,  22,  872415275) /* PhysicsEffectTable */
      , (9642,  28,       1293) /* Spell - ManaToHealthSelf4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9642, 8000, 3709192354) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9642,  1293,      2) ;

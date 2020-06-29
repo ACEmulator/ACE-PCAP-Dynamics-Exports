@@ -31,8 +31,5 @@ VALUES (11823,   1,   33554809) /* Setup */
      , (11823,  22,  872415275) /* PhysicsEffectTable */
      , (11823,  28,       2477) /* Spell - PORTALTUMEROKWARALU */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11823, 8000, 3629880161) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11823,  2477,      2) ;

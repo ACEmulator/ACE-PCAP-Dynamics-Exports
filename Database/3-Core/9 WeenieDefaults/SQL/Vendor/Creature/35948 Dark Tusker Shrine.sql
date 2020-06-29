@@ -65,9 +65,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (35948, 8040, 3932946777, 191.644, 151.001, -11.208, 0.5503899, 0, 0, -0.8349078) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0159 [191.644000 151.001000 -11.208000] 0.550390 0.000000 0.000000 -0.834908 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35948, 8000, 2124857359) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35948, 4, 35938, -1, 0, 0, False) /* Create Tusker Skull Helm (35938) for Shop */
      , (35948, 4, 35949, -1, 0, 0, False) /* Create Tusker Bone Sword (35949) for Shop */

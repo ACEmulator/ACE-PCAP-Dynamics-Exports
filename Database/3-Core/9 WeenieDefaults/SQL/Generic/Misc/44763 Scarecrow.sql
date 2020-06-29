@@ -21,6 +21,3 @@ VALUES (44763,   1, 'Scarecrow') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44763,   1,   33561363) /* Setup */
      , (44763,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44763, 8000, 2619464362) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (28014,   1,   33554826) /* Setup */
      , (28014,  22,  872415275) /* PhysicsEffectTable */
      , (28014,  28,       3265) /* Spell - SpiritLoather6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28014, 8000, 3698566944) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28014,  3265,      2) ;

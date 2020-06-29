@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (43071, 8040, 15139465, 93.1302, -79.6403, 48.00825, 0.8010994, 0, 0, 0.5985314) /* PCAPRecordedLocation */
 /* @teleloc 0x00E70289 [93.130200 -79.640300 48.008250] 0.801099 0.000000 0.000000 0.598531 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43071, 8000, 3360653511) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43071, 2, 40910,  1, 0, 0, False) /* Create Dericost Blade (40910) for Wield */
      , (43071, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */;

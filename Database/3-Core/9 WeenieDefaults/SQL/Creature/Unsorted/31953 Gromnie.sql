@@ -33,8 +33,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31953, 8040, 599130405, 25.7945, 67.5225, -3.195, -0.04452302, 0, 0, -0.9990084) /* PCAPRecordedLocation */
 /* @teleloc 0x23B60125 [25.794500 67.522500 -3.195000] -0.044523 0.000000 0.000000 -0.999008 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31953, 8000, 3708875353) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31953, 2,    95,  1, 0, 0, False) /* Create Tower Shield (95) for Wield */;

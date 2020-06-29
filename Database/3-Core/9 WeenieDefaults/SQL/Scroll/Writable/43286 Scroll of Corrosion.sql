@@ -24,6 +24,3 @@ VALUES (43286,   1,   33554826) /* Setup */
      , (43286,   8,  100691573) /* Icon */
      , (43286,  22,  872415275) /* PhysicsEffectTable */
      , (43286,  28,       5387) /* Spell - Corrosion1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43286, 8000, 3630361125) /* PCAPRecordedObjectIID */;

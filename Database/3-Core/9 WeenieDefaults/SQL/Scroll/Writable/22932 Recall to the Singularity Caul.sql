@@ -30,8 +30,5 @@ VALUES (22932,   1,   33554826) /* Setup */
      , (22932,  22,  872415275) /* PhysicsEffectTable */
      , (22932,  28,       2943) /* Spell - SingularityIslandRecall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22932, 8000, 3684263308) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22932,  2943,      2) ;

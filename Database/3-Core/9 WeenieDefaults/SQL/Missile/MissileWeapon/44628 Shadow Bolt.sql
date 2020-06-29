@@ -50,9 +50,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (44628, 8040, 4133158967, 155.253, 160.088, 21, -0.0797103, 0, 0, 0.9968181) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B0037 [155.253000 160.088000 21.000000] -0.079710 0.000000 0.000000 0.996818 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44628, 8000, 3685988770) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44628, 2, 47630,  1, 0, 0, False) /* Create Acid Tachi (47630) for Wield */
      , (44628, 2, 47664,  1, 0, 0, False) /* Create Lightning Tachi (47664) for Wield */

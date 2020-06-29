@@ -28,8 +28,5 @@ VALUES (2872,   1,   33554826) /* Setup */
      , (2872,  22,  872415275) /* PhysicsEffectTable */
      , (2872,  28,       1564) /* Spell - PiercingLure2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2872, 8000, 3623570343) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2872,  1564,      2) ;

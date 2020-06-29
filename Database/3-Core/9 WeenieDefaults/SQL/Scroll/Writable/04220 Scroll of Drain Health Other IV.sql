@@ -28,8 +28,5 @@ VALUES (4220,   1,   33554826) /* Setup */
      , (4220,  22,  872415275) /* PhysicsEffectTable */
      , (4220,  28,       1240) /* Spell - DrainHealth4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4220, 8000, 3691876207) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4220,  1240,      2) ;

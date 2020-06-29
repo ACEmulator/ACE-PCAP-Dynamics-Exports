@@ -26,6 +26,3 @@ VALUES (30745,   1, 'Replica of a Tursh Totem') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30745,   1,   33559203) /* Setup */
      , (30745,   8,  100677379) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30745, 8000, 3346100827) /* PCAPRecordedObjectIID */;

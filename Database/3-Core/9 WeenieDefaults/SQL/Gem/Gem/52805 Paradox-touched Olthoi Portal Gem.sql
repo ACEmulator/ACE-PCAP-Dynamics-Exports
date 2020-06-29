@@ -29,6 +29,3 @@ VALUES (52805,   1,   33557625) /* Setup */
      , (52805,   8,  100693311) /* Icon */
      , (52805,  22,  872415275) /* PhysicsEffectTable */
      , (52805,  28,        157) /* Spell - SummonPortal1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52805, 8000,      52805) /* PCAPRecordedObjectIID */;

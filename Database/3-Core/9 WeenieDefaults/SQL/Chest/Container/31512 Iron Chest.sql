@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31512, 8040, 3277358, 17.8459, -19.2386, 30, -0.9189376, 0, 0, -0.3944029) /* PCAPRecordedLocation */
 /* @teleloc 0x0032022E [17.845900 -19.238600 30.000000] -0.918938 0.000000 0.000000 -0.394403 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31512, 8000, 1879253079) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31512, -1, 31513, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate A Letter From the Heart (31513) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

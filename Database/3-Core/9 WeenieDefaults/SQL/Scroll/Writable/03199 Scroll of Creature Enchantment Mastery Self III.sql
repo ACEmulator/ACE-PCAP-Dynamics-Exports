@@ -24,6 +24,3 @@ VALUES (3199,   1,   33554826) /* Setup */
      , (3199,   8,  100676453) /* Icon */
      , (3199,  22,  872415275) /* PhysicsEffectTable */
      , (3199,  28,        559) /* Spell - CreatureEnchantmentMasterySelf3 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3199, 8000, 3698250859) /* PCAPRecordedObjectIID */;

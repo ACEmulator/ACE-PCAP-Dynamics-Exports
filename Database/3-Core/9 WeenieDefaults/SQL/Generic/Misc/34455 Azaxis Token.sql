@@ -25,8 +25,5 @@ VALUES (34455,   1,   33554817) /* Setup */
      , (34455,   8,  100689382) /* Icon */
      , (34455,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34455, 8000, 2988579994) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34455, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

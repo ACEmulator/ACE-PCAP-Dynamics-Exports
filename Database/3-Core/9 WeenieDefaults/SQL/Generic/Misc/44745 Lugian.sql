@@ -21,6 +21,3 @@ VALUES (44745,   1, 'Lugian') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44745,   1,   33561345) /* Setup */
      , (44745,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44745, 8000, 2153689493) /* PCAPRecordedObjectIID */;

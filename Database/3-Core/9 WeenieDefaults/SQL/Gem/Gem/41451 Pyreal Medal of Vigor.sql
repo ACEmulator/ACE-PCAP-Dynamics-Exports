@@ -32,6 +32,3 @@ VALUES (41451,   1,   33554802) /* Setup */
      , (41451,   8,  100690734) /* Icon */
      , (41451,  22,  872415275) /* PhysicsEffectTable */
      , (41451,  28,       5131) /* Spell - AnswerOfLoyaltyStam4 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41451, 8000, 3419535584) /* PCAPRecordedObjectIID */;

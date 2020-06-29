@@ -22,6 +22,3 @@ VALUES (11933,   1, 'Garden Drudge') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11933,   1,   33557144) /* Setup */
      , (11933,   8,  100671776) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11933, 8000, 3658163594) /* PCAPRecordedObjectIID */;

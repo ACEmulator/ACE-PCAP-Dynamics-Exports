@@ -22,6 +22,3 @@ VALUES (23037,   1, 'An unknown crystal') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23037,   1,   33554809) /* Setup */
      , (23037,   8,  100673955) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23037, 8000, 2614398030) /* PCAPRecordedObjectIID */;

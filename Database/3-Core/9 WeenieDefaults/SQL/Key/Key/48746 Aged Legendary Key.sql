@@ -33,9 +33,6 @@ VALUES (48746,   1,   33554784) /* Setup */
      , (48746,   8,  100693001) /* Icon */
      , (48746,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48746, 8000, 3678084509) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48746, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
      , (48746, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

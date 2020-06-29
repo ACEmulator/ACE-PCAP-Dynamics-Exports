@@ -28,8 +28,5 @@ VALUES (1723,   1,   33554826) /* Setup */
      , (1723,  22,  872415275) /* PhysicsEffectTable */
      , (1723,  28,        750) /* Spell - MagicItemExpertiseSelf1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1723, 8000, 3330451795) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1723,   750,      2) ;

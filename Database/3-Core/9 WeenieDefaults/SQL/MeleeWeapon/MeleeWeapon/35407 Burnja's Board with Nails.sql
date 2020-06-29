@@ -52,9 +52,6 @@ VALUES (35407,   1,   33560302) /* Setup */
      , (35407,  22,  872415275) /* PhysicsEffectTable */
      , (35407,  55,         27) /* ProcSpell - FlameBolt1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35407, 8000, 2192069675) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35407,    27,      2) 
      , (35407,  2096,      2) 

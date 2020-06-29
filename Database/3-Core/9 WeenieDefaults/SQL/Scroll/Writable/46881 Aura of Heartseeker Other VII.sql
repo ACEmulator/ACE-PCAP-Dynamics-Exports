@@ -28,8 +28,5 @@ VALUES (46881,   1,   33554826) /* Setup */
      , (46881,  22,  872415275) /* PhysicsEffectTable */
      , (46881,  28,       6013) /* Spell - HeartSeekerOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46881, 8000, 2926266077) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46881,  6013,      2) ;

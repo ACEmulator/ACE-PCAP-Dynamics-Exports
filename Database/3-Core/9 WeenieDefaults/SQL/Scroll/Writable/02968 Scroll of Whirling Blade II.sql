@@ -28,8 +28,5 @@ VALUES (2968,   1,   33554826) /* Setup */
      , (2968,  22,  872415275) /* PhysicsEffectTable */
      , (2968,  28,         93) /* Spell - WhirlingBlade2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2968, 8000, 3622030424) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2968,    93,      2) ;

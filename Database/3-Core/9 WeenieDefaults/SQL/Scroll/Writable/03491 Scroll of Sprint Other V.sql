@@ -28,8 +28,5 @@ VALUES (3491,   1,   33554826) /* Setup */
      , (3491,  22,  872415275) /* PhysicsEffectTable */
      , (3491,  28,        992) /* Spell - SprintOther5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3491, 8000, 2609989019) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3491,   992,      2) ;

@@ -21,6 +21,3 @@ VALUES (11930,   1, 'Arcane Pedestal') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11930,   1,   33557166) /* Setup */
      , (11930,   8,  100671779) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11930, 8000, 2982968646) /* PCAPRecordedObjectIID */;

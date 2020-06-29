@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (34314, 8040, 8126909, 23.1672, -90.4786, -12, 0.659983, 0, 0, 0.75128) /* PCAPRecordedLocation */
 /* @teleloc 0x007C01BD [23.167200 -90.478600 -12.000000] 0.659983 0.000000 0.000000 0.751280 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34314, 8000, 3703138917) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34314, 2, 48242,  1, 0, 0, False) /* Create Piercing Bow (48242) for Wield */
      , (34314, 2, 47980,  1, 0, 0, False) /* Create Katar (47980) for Wield */

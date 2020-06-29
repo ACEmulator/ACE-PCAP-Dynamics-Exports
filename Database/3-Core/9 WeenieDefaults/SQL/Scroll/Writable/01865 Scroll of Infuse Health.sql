@@ -28,8 +28,5 @@ VALUES (1865,   1,   33554826) /* Setup */
      , (1865,  22,  872415275) /* PhysicsEffectTable */
      , (1865,  28,       1225) /* Spell - InfuseHealth1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1865, 8000, 3705912371) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1865,  1225,      2) ;

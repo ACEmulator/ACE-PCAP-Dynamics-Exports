@@ -28,8 +28,5 @@ VALUES (7521,   1,   33554826) /* Setup */
      , (7521,  22,  872415275) /* PhysicsEffectTable */
      , (7521,  28,       1844) /* Spell - LightningWall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7521, 8000, 2192288890) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7521,  1844,      2) ;

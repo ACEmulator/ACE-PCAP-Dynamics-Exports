@@ -28,8 +28,5 @@ VALUES (21104,   1,   33554826) /* Setup */
      , (21104,  22,  872415275) /* PhysicsEffectTable */
      , (21104,  28,       2776) /* Spell - ManaBolt3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21104, 8000, 3345491417) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21104,  2776,      2) ;

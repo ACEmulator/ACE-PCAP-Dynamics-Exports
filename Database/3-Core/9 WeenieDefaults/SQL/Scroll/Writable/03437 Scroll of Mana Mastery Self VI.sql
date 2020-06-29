@@ -28,8 +28,5 @@ VALUES (3437,   1,   33554826) /* Setup */
      , (3437,  22,  872415275) /* PhysicsEffectTable */
      , (3437,  28,        658) /* Spell - ManaMasterySelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3437, 8000, 3019162732) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3437,   658,      2) ;

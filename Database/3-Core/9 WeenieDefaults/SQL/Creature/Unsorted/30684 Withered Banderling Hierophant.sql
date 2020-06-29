@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (30684, 8040, 437452860, 183.437, 86.2085, 0.007149994, 0.7342549, 0, 0, -0.6788739) /* PCAPRecordedLocation */
 /* @teleloc 0x1A13003C [183.437000 86.208500 0.007150] 0.734255 0.000000 0.000000 -0.678874 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30684, 8000, 3360122907) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30684, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
      , (30684, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wield */

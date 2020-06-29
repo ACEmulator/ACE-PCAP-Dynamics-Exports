@@ -23,6 +23,3 @@ VALUES (22635,   1, 'I survived the Tusker Emporium') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22635,   1,   33558121) /* Setup */
      , (22635,   8,  100673829) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22635, 8000, 2622578475) /* PCAPRecordedObjectIID */;

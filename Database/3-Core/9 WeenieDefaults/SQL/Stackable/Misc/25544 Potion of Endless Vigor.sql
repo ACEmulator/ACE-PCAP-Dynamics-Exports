@@ -33,8 +33,5 @@ VALUES (25544,   1,   33554603) /* Setup */
      , (25544,  22,  872415275) /* PhysicsEffectTable */
      , (25544,  28,       2980) /* Spell - EndlessVigor */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25544, 8000, 2157272705) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25544,  2980,      2) ;

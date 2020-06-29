@@ -39,8 +39,5 @@ VALUES (9042,   1,   33556769) /* Setup */
      , (9042,  22,  872415275) /* PhysicsEffectTable */
      , (9042,  28,       2358) /* Spell - RecallLyceum */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9042, 8000, 2150615362) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9042,  2358,      2) ;

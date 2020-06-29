@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (30551, 8040, 1088815140, 111.395, 75.3653, 160.0068, 0.999884, 0, 0, 0.015247) /* PCAPRecordedLocation */
 /* @teleloc 0x40E60024 [111.395000 75.365300 160.006800] 0.999884 0.000000 0.000000 0.015247 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30551, 8000, 3704572413) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30551, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
      , (30551, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */

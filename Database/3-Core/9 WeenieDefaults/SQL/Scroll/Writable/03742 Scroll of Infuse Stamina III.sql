@@ -28,8 +28,5 @@ VALUES (3742,   1,   33554826) /* Setup */
      , (3742,  22,  872415275) /* PhysicsEffectTable */
      , (3742,  28,       1245) /* Spell - InfuseStamina3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3742, 8000, 3702825190) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3742,  1245,      2) ;

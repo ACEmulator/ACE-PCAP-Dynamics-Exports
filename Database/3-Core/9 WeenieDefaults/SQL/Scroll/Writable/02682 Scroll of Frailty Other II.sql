@@ -24,6 +24,3 @@ VALUES (2682,   1,   33554826) /* Setup */
      , (2682,   8,  100676456) /* Icon */
      , (2682,  22,  872415275) /* PhysicsEffectTable */
      , (2682,  28,       1368) /* Spell - FrailtyOther2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2682, 8000, 3698252111) /* PCAPRecordedObjectIID */;

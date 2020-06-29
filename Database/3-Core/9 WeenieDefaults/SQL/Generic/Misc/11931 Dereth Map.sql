@@ -21,6 +21,3 @@ VALUES (11931,   1, 'Dereth Map') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11931,   1,   33557150) /* Setup */
      , (11931,   8,  100671775) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11931, 8000, 3658160300) /* PCAPRecordedObjectIID */;

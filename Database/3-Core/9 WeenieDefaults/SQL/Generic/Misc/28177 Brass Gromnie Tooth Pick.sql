@@ -26,6 +26,3 @@ VALUES (28177,   1, 'Brass Gromnie Tooth Pick') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28177,   1,   33554817) /* Setup */
      , (28177,   8,  100676790) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28177, 8000, 2153441674) /* PCAPRecordedObjectIID */;

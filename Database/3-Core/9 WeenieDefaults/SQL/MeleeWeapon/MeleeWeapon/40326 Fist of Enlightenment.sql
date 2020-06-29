@@ -55,8 +55,5 @@ VALUES (40326,   1,   33559499) /* Setup */
      , (40326,  22,  872415275) /* PhysicsEffectTable */
      , (40326,  55,       4967) /* ProcSpell - cleansingring */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40326, 8000, 2967711581) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40326,  4967,      2) ;

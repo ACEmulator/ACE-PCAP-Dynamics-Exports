@@ -28,6 +28,3 @@ VALUES (6893,   1,   33554809) /* Setup */
      , (6893,   8,  100668365) /* Icon */
      , (6893,  22,  872415275) /* PhysicsEffectTable */
      , (6893,  28,       1310) /* Spell - ArmorSelf4 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6893, 8000, 2448058034) /* PCAPRecordedObjectIID */;

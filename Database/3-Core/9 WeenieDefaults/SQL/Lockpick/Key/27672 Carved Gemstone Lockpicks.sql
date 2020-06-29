@@ -27,6 +27,3 @@ VALUES (27672,   1, 'Carved Gemstone Lockpicks') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27672,   1,   33554790) /* Setup */
      , (27672,   8,  100676522) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27672, 8000, 2169471122) /* PCAPRecordedObjectIID */;

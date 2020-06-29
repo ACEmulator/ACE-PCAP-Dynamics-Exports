@@ -40,8 +40,5 @@ VALUES (2395,   1,   33554809) /* Setup */
      , (2395,  22,  872415275) /* PhysicsEffectTable */
      , (2395,  28,        217) /* Spell - ManaRenewalSelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2395, 8000, 3688159276) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2395,   216,      2) ;

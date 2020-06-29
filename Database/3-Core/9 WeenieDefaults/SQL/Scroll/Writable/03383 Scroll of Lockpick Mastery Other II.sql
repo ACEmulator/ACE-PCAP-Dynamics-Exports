@@ -28,8 +28,5 @@ VALUES (3383,   1,   33554826) /* Setup */
      , (3383,  22,  872415275) /* PhysicsEffectTable */
      , (3383,  28,        929) /* Spell - LockpickMasteryOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3383, 8000, 2617979328) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3383,   929,      2) ;

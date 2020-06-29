@@ -46,8 +46,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (47392, 8040, 675872830, 179.9338, 131.2379, -0.05175, 0.04968107, 0.04968107, -0.7053593, -0.7053593) /* PCAPRecordedLocation */
 /* @teleloc 0x2849003E [179.933800 131.237900 -0.051750] 0.049681 0.049681 -0.705359 -0.705359 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47392, 8000, 3690505415) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47392, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */;

@@ -28,8 +28,5 @@ VALUES (8938,   1,   33554826) /* Setup */
      , (8938,  22,  872415275) /* PhysicsEffectTable */
      , (8938,  28,       1811) /* Spell - FrostStreak4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8938, 8000, 2618138925) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8938,  1811,      2) ;

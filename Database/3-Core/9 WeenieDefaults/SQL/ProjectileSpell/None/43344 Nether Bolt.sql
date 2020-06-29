@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (43344, 8040, 2114060734, 80.04477, -147.8857, 8.128534, -0.02311636, 0, 0, -0.9997328) /* PCAPRecordedLocation */
 /* @teleloc 0x7E0201BE [80.044770 -147.885700 8.128534] -0.023116 0.000000 0.000000 -0.999733 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43344, 8000, 3685054551) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43344, 2, 23747,  1, 0, 0, False) /* Create Rock (23747) for Wield */
      , (43344, 2, 12068,  1, 0, 0, False) /* Create Bandit Lightning Knife (12068) for Wield */

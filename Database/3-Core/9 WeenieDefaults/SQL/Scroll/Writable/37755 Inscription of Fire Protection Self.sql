@@ -28,8 +28,5 @@ VALUES (37755,   1,   33554826) /* Setup */
      , (37755,  22,  872415275) /* PhysicsEffectTable */
      , (37755,  28,       4468) /* Spell - FireProtectionSelf8 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37755, 8000, 2150584891) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37755,  4468,      2) ;

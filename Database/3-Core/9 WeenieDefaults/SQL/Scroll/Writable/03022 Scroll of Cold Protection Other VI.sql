@@ -28,8 +28,5 @@ VALUES (3022,   1,   33554826) /* Setup */
      , (3022,  22,  872415275) /* PhysicsEffectTable */
      , (3022,  28,       1041) /* Spell - ColdProtectionOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3022, 8000, 2954343778) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3022,  1041,      2) ;

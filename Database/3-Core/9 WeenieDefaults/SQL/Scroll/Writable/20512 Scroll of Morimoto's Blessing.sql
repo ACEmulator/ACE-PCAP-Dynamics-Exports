@@ -28,9 +28,6 @@ VALUES (20512,   1,   33554826) /* Setup */
      , (20512,  22,  872415275) /* PhysicsEffectTable */
      , (20512,  28,       2211) /* Spell - CookingMasterySelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20512, 8000, 3706739454) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20512,  2211,      2) ;
 

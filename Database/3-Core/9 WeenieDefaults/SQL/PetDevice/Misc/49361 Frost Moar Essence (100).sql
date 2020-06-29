@@ -44,8 +44,5 @@ VALUES (49361,   1,   33554817) /* Setup */
      , (49361,  50,  100693028) /* IconOverlay */
      , (49361,  52,  100693024) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49361, 8000, 3354616509) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49361, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

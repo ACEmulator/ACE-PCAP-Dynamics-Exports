@@ -25,6 +25,3 @@ VALUES (22837,   1, 'Snowflower') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22837,   1,   33558159) /* Setup */
      , (22837,   8,  100673926) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22837, 8000, 3658160306) /* PCAPRecordedObjectIID */;

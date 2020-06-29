@@ -26,6 +26,3 @@ VALUES (27438,   1, 'Head of the Homunculus') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27438,   1,   33558687) /* Setup */
      , (27438,   8,  100676412) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27438, 8000, 2629130097) /* PCAPRecordedObjectIID */;

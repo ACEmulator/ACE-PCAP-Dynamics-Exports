@@ -21,6 +21,3 @@ VALUES (13197,   1, 'Bed') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13197,   1,   33554797) /* Setup */
      , (13197,   8,  100672422) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13197, 8000, 2166044387) /* PCAPRecordedObjectIID */;

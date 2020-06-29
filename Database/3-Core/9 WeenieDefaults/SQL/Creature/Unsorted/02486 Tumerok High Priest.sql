@@ -32,8 +32,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (2486, 8040, 423559184, 33.2917, 177.855, 95.206, -0.413918, 0, 0, 0.9103141) /* PCAPRecordedLocation */
 /* @teleloc 0x193F0010 [33.291700 177.855000 95.206000] -0.413918 0.000000 0.000000 0.910314 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2486, 8000, 2878093373) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2486, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */;

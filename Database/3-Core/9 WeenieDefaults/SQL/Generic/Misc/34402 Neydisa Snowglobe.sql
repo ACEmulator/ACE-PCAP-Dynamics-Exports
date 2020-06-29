@@ -23,6 +23,3 @@ VALUES (34402,   1, 'Neydisa Snowglobe') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34402,   1,   33560438) /* Setup */
      , (34402,   8,  100673882) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34402, 8000, 2192119723) /* PCAPRecordedObjectIID */;

@@ -29,6 +29,3 @@ VALUES (43477,   1,   33554809) /* Setup */
      , (43477,  28,       4414) /* Spell - SpiritDrinkerSelf8 */
      , (43477,  50,  100686685) /* IconOverlay */
      , (43477,  52,  100691593) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43477, 8000, 2147514476) /* PCAPRecordedObjectIID */;

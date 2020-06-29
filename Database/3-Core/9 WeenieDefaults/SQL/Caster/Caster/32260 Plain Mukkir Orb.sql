@@ -40,9 +40,6 @@ VALUES (32260,   1,   33559761) /* Setup */
      , (32260,  22,  872415275) /* PhysicsEffectTable */
      , (32260,  28,       3861) /* Spell - CantripTasteForBlood */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32260, 8000, 3679319805) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32260,   681,      2) 
      , (32260,  3861,      2) ;

@@ -42,8 +42,5 @@ VALUES (39110,   1,   33554493) /* Setup */
      , (39110,  22,  872415275) /* PhysicsEffectTable */
      , (39110,  28,       4211) /* Spell - LicoriceLeap */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39110, 8000, 2461467189) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39110,  4211,      2) ;

@@ -55,9 +55,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (22545, 8040, 4084072497, 144.574, 22.89596, 11.9744, 0.4552974, 0, 0, -0.8903394) /* PCAPRecordedLocation */
 /* @teleloc 0xF36E0031 [144.574000 22.895960 11.974400] 0.455297 0.000000 0.000000 -0.890339 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22545, 8000, 3690479889) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22545, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
      , (22545, 2, 47966,  1, 0, 0, False) /* Create Lightning Katar (47966) for Wield */

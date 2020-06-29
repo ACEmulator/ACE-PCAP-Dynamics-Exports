@@ -30,8 +30,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1314, 8040, 2948989236, 89.6809, 58.9505, 120, 0.99989, 0, 0, -0.0148459) /* PCAPRecordedLocation */
 /* @teleloc 0xAFC60134 [89.680900 58.950500 120.000000] 0.999890 0.000000 0.000000 -0.014846 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1314, 8000, 2063360001) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1314, -1, 365, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Parchment (365) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

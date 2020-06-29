@@ -24,6 +24,3 @@ VALUES (1778,   1,   33554826) /* Setup */
      , (1778,   8,  100676928) /* Icon */
      , (1778,  22,  872415275) /* PhysicsEffectTable */
      , (1778,  28,         25) /* Spell - ImperilOther1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1778, 8000, 2614943698) /* PCAPRecordedObjectIID */;

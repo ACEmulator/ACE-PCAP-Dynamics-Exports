@@ -36,8 +36,5 @@ VALUES (28453,   1,   33554806) /* Setup */
      , (28453,  22,  872415275) /* PhysicsEffectTable */
      , (28453,  28,       3440) /* Spell - LugianHealth */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28453, 8000, 3057002727) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28453,  3440,      2) ;

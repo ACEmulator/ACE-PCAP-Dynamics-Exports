@@ -36,8 +36,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (22886, 8040, 1447690604, 93.7005, -19.2838, 0, 1, 0, 0, -0.000188) /* PCAPRecordedLocation */
 /* @teleloc 0x564A016C [93.700500 -19.283800 0.000000] 1.000000 0.000000 0.000000 -0.000188 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22886, 8000, 1969528835) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22886, -1, 22888, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Chrysoberyl compound (22888) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

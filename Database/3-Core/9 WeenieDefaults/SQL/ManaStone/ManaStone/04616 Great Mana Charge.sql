@@ -28,6 +28,3 @@ VALUES (4616,   1, 'Great Mana Charge') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4616,   1,   33555641) /* Setup */
      , (4616,   8,  100676300) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4616, 8000, 3693861792) /* PCAPRecordedObjectIID */;

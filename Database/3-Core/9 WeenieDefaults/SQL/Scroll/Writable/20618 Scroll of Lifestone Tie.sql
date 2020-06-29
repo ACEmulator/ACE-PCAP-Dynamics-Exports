@@ -28,8 +28,5 @@ VALUES (20618,   1,   33554826) /* Setup */
      , (20618,  22,  872415275) /* PhysicsEffectTable */
      , (20618,  28,       2644) /* Spell - LifestoneTie1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20618, 8000, 2615230106) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20618,  2644,      2) ;

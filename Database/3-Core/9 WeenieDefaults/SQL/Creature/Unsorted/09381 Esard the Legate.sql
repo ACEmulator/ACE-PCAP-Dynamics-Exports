@@ -29,9 +29,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (9381, 8040, 43712770, 9.4809, -285.482, -41.971, -0.05683498, 0, 0, -0.9983836) /* PCAPRecordedLocation */
 /* @teleloc 0x029B0102 [9.480900 -285.482000 -41.971000] -0.056835 0.000000 0.000000 -0.998384 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9381, 8000, 2780667836) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9381, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (9381, 9,  8812,  0, 0, 0, False) /* Create Esard's Life Magic Scroll (8812) for ContainTreasure */

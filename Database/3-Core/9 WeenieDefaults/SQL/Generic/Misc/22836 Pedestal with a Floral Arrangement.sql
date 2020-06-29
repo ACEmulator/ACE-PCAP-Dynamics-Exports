@@ -23,6 +23,3 @@ VALUES (22836,   1, 'Pedestal with a Floral Arrangement') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22836,   1,   33558164) /* Setup */
      , (22836,   8,  100673925) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22836, 8000, 2192305121) /* PCAPRecordedObjectIID */;

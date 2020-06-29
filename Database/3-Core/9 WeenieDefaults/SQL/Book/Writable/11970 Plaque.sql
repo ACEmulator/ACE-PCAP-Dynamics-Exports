@@ -26,6 +26,3 @@ VALUES (11970,   1, 'Plaque') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11970,   1,   33557262) /* Setup */
      , (11970,   8,  100673829) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11970, 8000, 2148134990) /* PCAPRecordedObjectIID */;

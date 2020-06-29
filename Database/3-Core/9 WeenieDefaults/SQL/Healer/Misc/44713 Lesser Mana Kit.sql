@@ -28,6 +28,3 @@ VALUES (44713,   1, 'Lesser Mana Kit') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44713,   1,   33555194) /* Setup */
      , (44713,   8,  100692114) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44713, 8000, 2155903024) /* PCAPRecordedObjectIID */;

@@ -37,8 +37,5 @@ VALUES (9191,   1,   33554809) /* Setup */
      , (9191,  22,  872415275) /* PhysicsEffectTable */
      , (9191,  28,       1876) /* Spell - DispelAllBadSelf5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9191, 8000, 2174241367) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9191,  1876,      2) ;

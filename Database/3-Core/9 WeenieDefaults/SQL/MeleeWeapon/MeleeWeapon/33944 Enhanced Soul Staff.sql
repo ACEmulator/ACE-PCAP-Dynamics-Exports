@@ -52,9 +52,6 @@ VALUES (33944,   1,   33557346) /* Setup */
      , (33944,  22,  872415275) /* PhysicsEffectTable */
      , (33944,  55,       1788) /* ProcSpell - LightningRing */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33944, 8000, 2148333725) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33944,  1312,      2) 
      , (33944,  1592,      2) 

@@ -36,9 +36,6 @@ VALUES (8746,   1,   33558231) /* Setup */
      , (8746,  22,  872415275) /* PhysicsEffectTable */
      , (8746,  28,         60) /* Spell - AcidStream3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8746, 8000, 2917029734) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8746,    60,      2) 
      , (8746,   607,      2) 

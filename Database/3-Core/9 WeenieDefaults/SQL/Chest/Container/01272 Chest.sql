@@ -39,8 +39,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1272, 8040, 31588891, 126.414, -73.929, 6, 0.01657999, 0, 0, -0.9998626) /* PCAPRecordedLocation */
 /* @teleloc 0x01E2021B [126.414000 -73.929000 6.000000] 0.016580 0.000000 0.000000 -0.999863 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1272, 8000, 1881022594) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1272, -1, 1277, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Silver Key (1277) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -21,6 +21,3 @@ VALUES (44727,   1, 'Chicken') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44727,   1,   33561327) /* Setup */
      , (44727,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44727, 8000, 2263484795) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (3194,   1,   33554826) /* Setup */
      , (3194,  22,  872415275) /* PhysicsEffectTable */
      , (3194,  28,        565) /* Spell - CreatureEnchantmentMasteryOther3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3194, 8000, 2624877283) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3194,   565,      2) ;

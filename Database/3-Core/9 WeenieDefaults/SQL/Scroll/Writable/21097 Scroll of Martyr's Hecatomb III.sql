@@ -28,8 +28,5 @@ VALUES (21097,   1,   33554826) /* Setup */
      , (21097,  22,  872415275) /* PhysicsEffectTable */
      , (21097,  28,       2762) /* Spell - HealthBolt3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21097, 8000, 2615133913) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21097,  2762,      2) ;

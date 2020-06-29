@@ -54,8 +54,5 @@ VALUES (44856,   1,   33561386) /* Setup */
      , (44856,  22,  872415275) /* PhysicsEffectTable */
      , (44856,  50,  100691000) /* IconOverlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44856, 8000, 3431474257) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44856, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

@@ -29,8 +29,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (45156, 8040, 1466171992, 2.4, 2.4, 6.0025, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x57640258 [2.400000 2.400000 6.002500] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45156, 8000, 3630564378) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45156, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield */;

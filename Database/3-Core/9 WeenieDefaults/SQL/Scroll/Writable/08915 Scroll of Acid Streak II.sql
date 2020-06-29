@@ -28,8 +28,5 @@ VALUES (8915,   1,   33554826) /* Setup */
      , (8915,  22,  872415275) /* PhysicsEffectTable */
      , (8915,  28,       1791) /* Spell - AcidStreak2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8915, 8000, 2617882826) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8915,  1791,      2) ;

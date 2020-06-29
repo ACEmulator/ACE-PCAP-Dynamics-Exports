@@ -24,6 +24,3 @@ VALUES (37790,   1,   33554826) /* Setup */
      , (37790,   8,  100677019) /* Icon */
      , (37790,  22,  872415275) /* PhysicsEffectTable */
      , (37790,  28,       4443) /* Spell - ForceBolt8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37790, 8000, 3663619962) /* PCAPRecordedObjectIID */;

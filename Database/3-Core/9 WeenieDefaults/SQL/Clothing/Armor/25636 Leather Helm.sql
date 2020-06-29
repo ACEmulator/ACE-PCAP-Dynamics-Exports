@@ -44,9 +44,6 @@ VALUES (25636,   1,   33555048) /* Setup */
      , (25636,   8,  100675286) /* Icon */
      , (25636,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25636, 8000, 3700028178) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25636, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */
      , (25636, 2, 33105,  1, 0, 0, False) /* Create Shield of Isin Dule (33105) for Wield */;

@@ -38,9 +38,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1379, 8040, 2585919745, 135.237, 40.2895, 107.705, 0.8015034, 0, 0, -0.5979903) /* PCAPRecordedLocation */
 /* @teleloc 0x9A220101 [135.237000 40.289500 107.705000] 0.801503 0.000000 0.000000 -0.597990 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1379, 8000, 2040668170) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1379, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (1379, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */

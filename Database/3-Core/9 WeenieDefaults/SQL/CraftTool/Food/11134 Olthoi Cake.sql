@@ -28,6 +28,3 @@ VALUES (11134,   1,   33555193) /* Setup */
      , (11134,   8,  100671762) /* Icon */
      , (11134,  22,  872415275) /* PhysicsEffectTable */
      , (11134,  28,       2425) /* Spell - StoneWall */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11134, 8000, 3695126187) /* PCAPRecordedObjectIID */;

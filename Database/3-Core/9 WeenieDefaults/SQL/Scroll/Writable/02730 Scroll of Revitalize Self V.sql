@@ -28,8 +28,5 @@ VALUES (2730,   1,   33554826) /* Setup */
      , (2730,  22,  872415275) /* PhysicsEffectTable */
      , (2730,  28,       1181) /* Spell - RevitalizeSelf5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2730, 8000, 2924405499) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2730,  1181,      2) ;

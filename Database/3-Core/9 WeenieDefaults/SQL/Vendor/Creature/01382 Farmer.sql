@@ -38,9 +38,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1382, 8040, 2585919748, 137.496, 59.1281, 107.705, 0.321816, 0, 0, -0.9468022) /* PCAPRecordedLocation */
 /* @teleloc 0x9A220104 [137.496000 59.128100 107.705000] 0.321816 0.000000 0.000000 -0.946802 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1382, 8000, 2040668168) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1382, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1382, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */

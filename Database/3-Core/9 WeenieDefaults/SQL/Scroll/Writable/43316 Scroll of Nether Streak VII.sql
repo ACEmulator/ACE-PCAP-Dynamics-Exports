@@ -28,8 +28,5 @@ VALUES (43316,   1,   33554826) /* Setup */
      , (43316,  22,  872415275) /* PhysicsEffectTable */
      , (43316,  28,       5347) /* Spell - NetherStreak7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43316, 8000, 3694104957) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43316,  5347,      2) ;

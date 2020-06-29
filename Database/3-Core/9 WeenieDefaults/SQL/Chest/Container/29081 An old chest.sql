@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29081, 8040, 60489985, 10.0664, -24.9427, -18, 0.9997149, 0, 0, -0.023877) /* PCAPRecordedLocation */
 /* @teleloc 0x039B0101 [10.066400 -24.942700 -18.000000] 0.999715 0.000000 0.000000 -0.023877 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29081, 8000, 1882828800) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29081, -1, 29090, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stolen Necklace (29090) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

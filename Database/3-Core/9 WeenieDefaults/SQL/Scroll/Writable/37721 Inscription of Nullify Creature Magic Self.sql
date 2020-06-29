@@ -24,6 +24,3 @@ VALUES (37721,   1,   33554826) /* Setup */
      , (37721,   8,  100676647) /* Icon */
      , (37721,  22,  872415275) /* PhysicsEffectTable */
      , (37721,  28,       4337) /* Spell - DispelCreatureBadSelf8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37721, 8000, 3548790489) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (2671,   1,   33554826) /* Setup */
      , (2671,  22,  872415275) /* PhysicsEffectTable */
      , (2671,  28,       1466) /* Spell - FeeblemindOther4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2671, 8000, 2924289135) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2671,  1466,      2) ;

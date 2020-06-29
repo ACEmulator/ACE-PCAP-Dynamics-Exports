@@ -28,8 +28,5 @@ VALUES (20609,   1,   33554826) /* Setup */
      , (20609,  22,  872415275) /* PhysicsEffectTable */
      , (20609,  28,       2337) /* Spell - InfuseStamina7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20609, 8000, 3682417236) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20609,  2337,      2) ;

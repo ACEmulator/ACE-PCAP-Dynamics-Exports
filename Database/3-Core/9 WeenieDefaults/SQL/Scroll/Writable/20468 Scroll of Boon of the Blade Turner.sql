@@ -28,8 +28,5 @@ VALUES (20468,   1,   33554826) /* Setup */
      , (20468,  22,  872415275) /* PhysicsEffectTable */
      , (20468,  28,       2150) /* Spell - BladeProtectionOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20468, 8000, 3699073646) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20468,  2150,      2) ;

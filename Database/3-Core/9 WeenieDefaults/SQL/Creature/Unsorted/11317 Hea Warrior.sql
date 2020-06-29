@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (11317, 8040, 43122957, 147.274, -46.3524, -23.994, -0.8815063, 0, 0, -0.4721722) /* PCAPRecordedLocation */
 /* @teleloc 0x0292010D [147.274000 -46.352400 -23.994000] -0.881506 0.000000 0.000000 -0.472172 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11317, 8000, 3629544981) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11317, 2, 11891,  1, 0, 0, False) /* Create Balister of the Quiddity (11891) for Wield */
      , (11317, 2,   305,  1, 0, 0, False) /* Create Quarrel (305) for Wield */;

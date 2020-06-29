@@ -28,9 +28,6 @@ VALUES (31661,   1,   33554776) /* Setup */
      , (31661,   8,  100667503) /* Icon */
      , (31661,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31661, 8000, 3708219275) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (31661, 1, 1000);
 

@@ -28,8 +28,5 @@ VALUES (2783,   1,   33554826) /* Setup */
      , (2783,  22,  872415275) /* PhysicsEffectTable */
      , (2783,  28,       1613) /* Spell - BloodDrinkerSelf3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2783, 8000, 2927889633) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2783,  1613,      2) ;

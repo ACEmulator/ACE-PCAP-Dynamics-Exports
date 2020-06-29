@@ -28,8 +28,5 @@ VALUES (2899,   1,   33554826) /* Setup */
      , (2899,  22,  872415275) /* PhysicsEffectTable */
      , (2899,  28,       1583) /* Spell - WeakenLock3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2899, 8000, 3707677589) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2899,  1583,      2) ;

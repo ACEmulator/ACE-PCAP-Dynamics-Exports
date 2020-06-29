@@ -23,6 +23,3 @@ VALUES (30736,   1, 'Bottle of Crystal Champagne') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30736,   1,   33559222) /* Setup */
      , (30736,   8,  100677403) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30736, 8000, 2981037266) /* PCAPRecordedObjectIID */;

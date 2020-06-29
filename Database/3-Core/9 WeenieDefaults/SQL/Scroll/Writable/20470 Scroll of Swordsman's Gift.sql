@@ -28,9 +28,6 @@ VALUES (20470,   1,   33554826) /* Setup */
      , (20470,  22,  872415275) /* PhysicsEffectTable */
      , (20470,  28,       2164) /* Spell - BladeVulnerabilityOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20470, 8000, 3681195260) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20470,  2164,      2) ;
 

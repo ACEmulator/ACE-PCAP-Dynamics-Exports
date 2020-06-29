@@ -28,8 +28,5 @@ VALUES (8931,   1,   33554826) /* Setup */
      , (8931,  22,  872415275) /* PhysicsEffectTable */
      , (8931,  28,       1804) /* Spell - ForceStreak3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8931, 8000, 2618279528) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8931,  1804,      2) ;

@@ -28,9 +28,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27328,   1,   33555641) /* Setup */
      , (27328,   8,  100676308) /* Icon */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27328, 8000, 3688354817) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27328, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
      , (27328, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */

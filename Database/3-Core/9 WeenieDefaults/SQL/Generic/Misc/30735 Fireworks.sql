@@ -26,6 +26,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30735,   1,   33559221) /* Setup */
      , (30735,   2,  150995328) /* MotionTable */
      , (30735,   8,  100677402) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30735, 8000, 3658160302) /* PCAPRecordedObjectIID */;

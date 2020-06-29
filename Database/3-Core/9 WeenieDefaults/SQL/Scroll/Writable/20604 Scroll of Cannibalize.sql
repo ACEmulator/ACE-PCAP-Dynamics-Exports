@@ -28,8 +28,5 @@ VALUES (20604,   1,   33554826) /* Setup */
      , (20604,  22,  872415275) /* PhysicsEffectTable */
      , (20604,  28,       2332) /* Spell - HealthToManaSelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20604, 8000, 3698132306) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20604,  2332,      2) ;

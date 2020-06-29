@@ -28,8 +28,5 @@ VALUES (2897,   1,   33554826) /* Setup */
      , (2897,  22,  872415275) /* PhysicsEffectTable */
      , (2897,  28,       1598) /* Spell - TurnBlade6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2897, 8000, 3354840977) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2897,  1598,      2) ;

@@ -24,6 +24,3 @@ VALUES (19215,   1, 'Bronze Gear from a Statue') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19215,   1,   33557681) /* Setup */
      , (19215,   8,  100672956) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19215, 8000, 2156070323) /* PCAPRecordedObjectIID */;

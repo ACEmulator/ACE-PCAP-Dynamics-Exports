@@ -28,8 +28,5 @@ VALUES (1555,   1,   33554826) /* Setup */
      , (1555,  22,  872415275) /* PhysicsEffectTable */
      , (1555,  28,          5) /* Spell - HealOther1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1555, 8000, 2868907079) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1555,     5,      2) ;

@@ -24,6 +24,3 @@ VALUES (20437,   1,   33554826) /* Setup */
      , (20437,   8,  100677028) /* Icon */
      , (20437,  22,  872415275) /* PhysicsEffectTable */
      , (20437,  28,       2125) /* Spell - BladeVolley7 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20437, 8000, 2562797156) /* PCAPRecordedObjectIID */;

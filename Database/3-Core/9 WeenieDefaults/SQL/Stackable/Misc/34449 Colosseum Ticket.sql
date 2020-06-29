@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (34449, 8040, 23855554, 55.16236, -27.68048, 0.05293, -0.02748624, 0, 0, -0.9996222) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.162360 -27.680480 0.052930] -0.027486 0.000000 0.000000 -0.999622 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34449, 8000, 3251231728) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34449, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */;

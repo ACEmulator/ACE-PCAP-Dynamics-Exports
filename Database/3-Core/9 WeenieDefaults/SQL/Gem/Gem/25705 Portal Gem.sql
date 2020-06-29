@@ -40,8 +40,5 @@ VALUES (25705,   1,   33554809) /* Setup */
      , (25705,  22,  872415275) /* PhysicsEffectTable */
      , (25705,  28,       2989) /* Spell - PortalSendingDarkNoir1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25705, 8000, 2923134877) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25705,  2989,      2) ;

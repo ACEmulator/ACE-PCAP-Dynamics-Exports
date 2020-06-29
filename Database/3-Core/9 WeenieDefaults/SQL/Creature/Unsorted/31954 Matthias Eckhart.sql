@@ -33,8 +33,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31954, 8040, 599130395, 8.0014, 38.4203, -3.195, 0.8406041, 0, 0, -0.5416501) /* PCAPRecordedLocation */
 /* @teleloc 0x23B6011B [8.001400 38.420300 -3.195000] 0.840604 0.000000 0.000000 -0.541650 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31954, 8000, 3708875349) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31954, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */;

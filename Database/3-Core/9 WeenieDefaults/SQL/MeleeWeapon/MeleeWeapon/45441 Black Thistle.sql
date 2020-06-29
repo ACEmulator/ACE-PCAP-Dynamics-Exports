@@ -65,9 +65,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (45441, 8040, 23855554, 61.02458, -29.20548, -0.071, -0.2499626, -0.2499626, -0.6614519, -0.6614519) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [61.024580 -29.205480 -0.071000] -0.249963 -0.249963 -0.661452 -0.661452 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45441, 8000, 3556504795) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45441,  4019,      2) 
      , (45441,  4395,      2) 

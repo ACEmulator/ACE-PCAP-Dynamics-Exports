@@ -32,8 +32,7 @@ VALUES (9092,   1,   33556929) /* Setup */
      , (9092,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9092,   7, 1342528504) /* Scribe */
-     , (9092, 8000, 2988580061) /* PCAPRecordedObjectIID */;
+VALUES (9092,   7, 1342528504) /* Scribe */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9092, 70, 1000);

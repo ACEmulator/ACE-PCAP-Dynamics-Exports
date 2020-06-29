@@ -28,8 +28,5 @@ VALUES (1878,   1,   33554826) /* Setup */
      , (1878,  22,  872415275) /* PhysicsEffectTable */
      , (1878,  28,       1505) /* Spell - BludgeonLure1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1878, 8000, 3359642305) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1878,  1505,      2) ;

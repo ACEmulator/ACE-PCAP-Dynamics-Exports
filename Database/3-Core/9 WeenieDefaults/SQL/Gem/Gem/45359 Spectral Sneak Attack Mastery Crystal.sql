@@ -29,6 +29,3 @@ VALUES (45359,   1,   33554809) /* Setup */
      , (45359,  28,       5910) /* Spell - SneakAttackMasterySpectral */
      , (45359,  50,  100692247) /* IconOverlay */
      , (45359,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45359, 8000, 2251090148) /* PCAPRecordedObjectIID */;

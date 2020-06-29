@@ -22,6 +22,3 @@ VALUES (22826,   1, 'Daichroic Crystal') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22826,   1,   33554809) /* Setup */
      , (22826,   8,  100673920) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22826, 8000, 2991239573) /* PCAPRecordedObjectIID */;

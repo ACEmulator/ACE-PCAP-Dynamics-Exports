@@ -28,8 +28,5 @@ VALUES (1881,   1,   33554826) /* Setup */
      , (1881,  22,  872415275) /* PhysicsEffectTable */
      , (1881,  28,       1547) /* Spell - FlameBane1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1881, 8000, 3628899472) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1881,  1547,      2) ;

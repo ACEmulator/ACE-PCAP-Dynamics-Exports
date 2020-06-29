@@ -40,9 +40,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (52705, 8040, 1500184849, 123.262, -150, 0.005500019, -0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0111 [123.262000 -150.000000 0.005500] -0.701223 0.000000 0.000000 -0.712942 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52705, 8000, 1972809797) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52705, 4, 52734, -1, 0, 0, False) /* Create Gauntlet Backpack (52734) for Shop */
      , (52705, 4, 53408, -1, 0, 0, False) /* Create Celestial Hand Gauntlet Writ (53408) for Shop */

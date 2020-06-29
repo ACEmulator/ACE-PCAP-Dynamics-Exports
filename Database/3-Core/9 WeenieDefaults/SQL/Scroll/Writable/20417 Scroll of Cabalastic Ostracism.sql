@@ -28,8 +28,5 @@ VALUES (20417,   1,   33554826) /* Setup */
      , (20417,  22,  872415275) /* PhysicsEffectTable */
      , (20417,  28,       2107) /* Spell - HermeticVoid7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20417, 8000, 3682992083) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20417,  2107,      2) ;

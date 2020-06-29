@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (26627, 8040, 2070478849, 3.56929, 12.8601, 0.9283251, 0.318773, 0, 0, -0.9478311) /* PCAPRecordedLocation */
 /* @teleloc 0x7B690001 [3.569290 12.860100 0.928325] 0.318773 0.000000 0.000000 -0.947831 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26627, 8000, 2008453128) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26627, -1, 3128, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Arcane Benightedness II (3128) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (26627, -1, 43331, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Festering Curse III (43331) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

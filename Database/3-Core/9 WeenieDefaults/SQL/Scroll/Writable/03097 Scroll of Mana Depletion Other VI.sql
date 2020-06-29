@@ -28,8 +28,5 @@ VALUES (3097,   1,   33554826) /* Setup */
      , (3097,  22,  872415275) /* PhysicsEffectTable */
      , (3097,  28,        223) /* Spell - ManaDepletionOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3097, 8000, 3682718944) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3097,   223,      2) ;

@@ -28,8 +28,5 @@ VALUES (2634,   1,   33554826) /* Setup */
      , (2634,  22,  872415275) /* PhysicsEffectTable */
      , (2634,  28,       1440) /* Spell - BafflementOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2634, 8000, 2624648155) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2634,  1440,      2) ;

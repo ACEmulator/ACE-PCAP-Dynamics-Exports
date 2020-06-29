@@ -28,8 +28,5 @@ VALUES (2830,   1,   33554826) /* Setup */
      , (2830,  22,  872415275) /* PhysicsEffectTable */
      , (2830,  28,       1521) /* Spell - FrostLure5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2830, 8000, 3705299733) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2830,  1521,      2) ;

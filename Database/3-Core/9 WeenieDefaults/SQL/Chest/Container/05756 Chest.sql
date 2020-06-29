@@ -38,9 +38,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (5756, 8040, 23593245, 68.0337, -123.834, -6, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0168011D [68.033700 -123.834000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5756, 8000, 1880522762) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5756, -1, 8737, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Nanto Town Stamp (8737) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (5756, -1, 5126, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Bottle of Water (5126) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

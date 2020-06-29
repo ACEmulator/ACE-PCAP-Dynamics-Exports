@@ -28,8 +28,5 @@ VALUES (43281,   1,   33554826) /* Setup */
      , (43281,  22,  872415275) /* PhysicsEffectTable */
      , (43281,  28,       5390) /* Spell - Corrosion4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43281, 8000, 3691876204) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43281,  5390,      2) ;

@@ -29,6 +29,3 @@ VALUES (9429,   1,   33554809) /* Setup */
      , (9429,   8,  100668364) /* Icon */
      , (9429,  22,  872415275) /* PhysicsEffectTable */
      , (9429,  28,       2396) /* Spell - FlameShield */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9429, 8000, 3358030303) /* PCAPRecordedObjectIID */;

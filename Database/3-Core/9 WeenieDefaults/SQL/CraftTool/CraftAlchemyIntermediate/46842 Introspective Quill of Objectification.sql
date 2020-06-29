@@ -24,6 +24,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46842,   1,   33559616) /* Setup */
      , (46842,   8,  100690197) /* Icon */
      , (46842,  52,  100676442) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46842, 8000, 2150585006) /* PCAPRecordedObjectIID */;

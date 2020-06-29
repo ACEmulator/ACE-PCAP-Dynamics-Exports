@@ -28,8 +28,5 @@ VALUES (2133,   1,   33554826) /* Setup */
      , (2133,  22,  872415275) /* PhysicsEffectTable */
      , (2133,  28,        151) /* Spell - BladeVolley3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2133, 8000, 3631307397) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2133,   151,      2) ;

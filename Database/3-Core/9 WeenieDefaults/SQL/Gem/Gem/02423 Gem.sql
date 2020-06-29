@@ -40,9 +40,6 @@ VALUES (2423,   1,   33554809) /* Setup */
      , (2423,  22,  872415275) /* PhysicsEffectTable */
      , (2423,  28,       1312) /* Spell - ArmorSelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2423, 8000, 3700264425) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2423,  1312,      2) ;
 

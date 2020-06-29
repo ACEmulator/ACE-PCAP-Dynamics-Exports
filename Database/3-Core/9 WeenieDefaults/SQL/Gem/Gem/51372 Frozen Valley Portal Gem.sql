@@ -39,8 +39,5 @@ VALUES (51372,   1,   33556769) /* Setup */
      , (51372,  22,  872415275) /* PhysicsEffectTable */
      , (51372,  28,       6147) /* Spell - PortalSendingIceValley */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51372, 8000, 2157928003) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51372,  6147,      2) ;

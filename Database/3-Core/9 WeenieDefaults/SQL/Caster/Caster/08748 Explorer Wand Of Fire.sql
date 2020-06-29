@@ -36,9 +36,6 @@ VALUES (8748,   1,   33558231) /* Setup */
      , (8748,  22,  872415275) /* PhysicsEffectTable */
      , (8748,  28,         82) /* Spell - FlameBolt3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8748, 8000, 2779730401) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8748,    82,      2) 
      , (8748,   583,      2) 

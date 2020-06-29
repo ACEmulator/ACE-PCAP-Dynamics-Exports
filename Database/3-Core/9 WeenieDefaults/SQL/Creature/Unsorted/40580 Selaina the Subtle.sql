@@ -32,8 +32,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (40580, 8040, 1210253361, 156.289, 13.7339, 135.005, -0.999967, 0, 0, -0.00808432) /* PCAPRecordedLocation */
 /* @teleloc 0x48230031 [156.289000 13.733900 135.005000] -0.999967 0.000000 0.000000 -0.008084 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40580, 8000, 3710166853) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40580, 2, 40630,  1, 0, 0, False) /* Create Assassin's Edge (40630) for Wield */;

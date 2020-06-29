@@ -21,6 +21,3 @@ VALUES (44724,   1, 'Banderling') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44724,   1,   33561324) /* Setup */
      , (44724,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44724, 8000, 2461714379) /* PCAPRecordedObjectIID */;

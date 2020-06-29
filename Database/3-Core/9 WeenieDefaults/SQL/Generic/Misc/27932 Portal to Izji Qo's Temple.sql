@@ -28,6 +28,3 @@ Low levels beware!') /* Inscription */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27932,   1,   33558645) /* Setup */
      , (27932,   8,  100675779) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27932, 8000, 2148264644) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (3289,   1,   33554826) /* Setup */
      , (3289,  22,  872415275) /* PhysicsEffectTable */
      , (3289,  28,        258) /* Spell - ImpregnabilitySelf3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3289, 8000, 2617883118) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3289,   258,      2) ;

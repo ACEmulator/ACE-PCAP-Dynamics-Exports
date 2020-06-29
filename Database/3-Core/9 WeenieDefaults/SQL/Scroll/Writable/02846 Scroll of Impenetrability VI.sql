@@ -28,8 +28,5 @@ VALUES (2846,   1,   33554826) /* Setup */
      , (2846,  22,  872415275) /* PhysicsEffectTable */
      , (2846,  28,       1486) /* Spell - Impenetrability6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2846, 8000, 3688106175) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2846,  1486,      2) ;

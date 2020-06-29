@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (44099, 8040, 1465254417, 100, -30, 18.006, -0.02919999, 0, 0, -0.9995736) /* PCAPRecordedLocation */
 /* @teleloc 0x57560211 [100.000000 -30.000000 18.006000] -0.029200 0.000000 0.000000 -0.999574 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44099, 8000, 3632512100) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44099, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (44099, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

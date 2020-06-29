@@ -38,9 +38,6 @@ VALUES (10977,   1,   33557289) /* Setup */
      , (10977,  22,  872415275) /* PhysicsEffectTable */
      , (10977,  28,       2419) /* Spell - PanicAttack */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10977, 8000, 2981038652) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10977,  2419,      2) 
      , (10977,  2451,      2) ;

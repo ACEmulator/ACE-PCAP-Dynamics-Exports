@@ -25,6 +25,3 @@ VALUES (52740,   1,   33554809) /* Setup */
      , (52740,   8,  100668277) /* Icon */
      , (52740,  22,  872415275) /* PhysicsEffectTable */
      , (52740,  28,       6176) /* Spell - Genius */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52740, 8000, 3501533863) /* PCAPRecordedObjectIID */;

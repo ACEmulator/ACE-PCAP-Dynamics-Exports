@@ -45,8 +45,5 @@ VALUES (49563,   1,   33556769) /* Setup */
      , (49563,  22,  872415275) /* PhysicsEffectTable */
      , (49563,  28,       5175) /* Spell - PortalSendHubNPE */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49563, 8000, 3673876821) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (49563,  5175,      2) ;

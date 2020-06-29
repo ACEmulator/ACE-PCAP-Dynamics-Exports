@@ -25,6 +25,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1320,   1,   33554784) /* Setup */
      , (1320,   8,  100667483) /* Icon */
      , (1320,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1320, 8000, 2158177882) /* PCAPRecordedObjectIID */;

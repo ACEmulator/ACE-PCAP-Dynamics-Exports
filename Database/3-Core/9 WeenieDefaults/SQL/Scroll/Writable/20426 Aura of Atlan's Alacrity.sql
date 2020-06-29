@@ -28,8 +28,5 @@ VALUES (20426,   1,   33554826) /* Setup */
      , (20426,  22,  872415275) /* PhysicsEffectTable */
      , (20426,  28,       2116) /* Spell - SwiftKillerSelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20426, 8000, 3682539891) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20426,  2116,      2) ;

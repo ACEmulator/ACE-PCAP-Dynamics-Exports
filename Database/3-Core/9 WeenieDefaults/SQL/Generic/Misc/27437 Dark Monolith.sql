@@ -25,6 +25,3 @@ VALUES (27437,   1, 'Dark Monolith') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27437,   1,   33558688) /* Setup */
      , (27437,   8,  100676417) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27437, 8000, 2157269317) /* PCAPRecordedObjectIID */;

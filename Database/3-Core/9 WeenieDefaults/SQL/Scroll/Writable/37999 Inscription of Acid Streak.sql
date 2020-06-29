@@ -24,6 +24,3 @@ VALUES (37999,   1,   33554826) /* Setup */
      , (37999,   8,  100677026) /* Icon */
      , (37999,  22,  872415275) /* PhysicsEffectTable */
      , (37999,  28,       4432) /* Spell - AcidStreak8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37999, 8000, 3663619459) /* PCAPRecordedObjectIID */;

@@ -33,8 +33,5 @@ VALUES (7316,   1,   33554809) /* Setup */
      , (7316,  22,  872415275) /* PhysicsEffectTable */
      , (7316,  28,       2645) /* Spell - PortalRecall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7316, 8000, 3346122520) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7316,  2645,      2) ;

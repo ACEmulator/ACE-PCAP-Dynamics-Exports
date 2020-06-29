@@ -24,6 +24,3 @@ VALUES (2937,   1,   33554826) /* Setup */
      , (2937,   8,  100677019) /* Icon */
      , (2937,  22,  872415275) /* PhysicsEffectTable */
      , (2937,  28,        150) /* Spell - ForceVolley6 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2937, 8000,       2937) /* PCAPRecordedObjectIID */;

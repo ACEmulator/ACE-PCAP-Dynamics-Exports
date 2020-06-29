@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (20974, 8040, 1676148781, 131.829, 100.2481, 132.2273, 0.4018431, 0, 0, -0.9157085) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002D [131.829000 100.248100 132.227300] 0.401843 0.000000 0.000000 -0.915709 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20974, 8000, 3688133156) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20974, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
      , (20974, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */

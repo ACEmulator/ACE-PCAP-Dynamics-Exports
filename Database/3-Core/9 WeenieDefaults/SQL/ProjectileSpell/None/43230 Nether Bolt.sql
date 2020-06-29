@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (43230, 8040, 1615069445, 89.28131, -63.31721, -34.53136, -0.09044355, -0.001160622, -0.01277891, -0.9958189) /* PCAPRecordedLocation */
 /* @teleloc 0x60440105 [89.281310 -63.317210 -34.531360] -0.090444 -0.001161 -0.012779 -0.995819 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43230, 8000, 3691298169) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43230, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
      , (43230, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */

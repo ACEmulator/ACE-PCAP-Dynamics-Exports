@@ -22,6 +22,3 @@ VALUES (44778,   1, 'Undead') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44778,   1,   33561378) /* Setup */
      , (44778,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44778, 8000, 2461616753) /* PCAPRecordedObjectIID */;

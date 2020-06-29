@@ -28,8 +28,5 @@ VALUES (4387,   1,   33554826) /* Setup */
      , (4387,  22,  872415275) /* PhysicsEffectTable */
      , (4387,  28,       1315) /* Spell - ArmorOther4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4387, 8000, 3695005697) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4387,  1315,      2) ;

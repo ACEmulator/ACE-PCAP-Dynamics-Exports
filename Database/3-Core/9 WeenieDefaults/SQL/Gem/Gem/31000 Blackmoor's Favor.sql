@@ -38,8 +38,5 @@ VALUES (31000,   1,   33554809) /* Setup */
      , (31000,  22,  872415275) /* PhysicsEffectTable */
      , (31000,  28,       3811) /* Spell - BlackmoorsFavor */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000, 8000, 2186220418) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31000,  3811,      2) ;

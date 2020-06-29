@@ -50,9 +50,6 @@ VALUES (31751,   1,   33554642) /* Setup */
      , (31751,   8,  100687770) /* Icon */
      , (31751,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31751, 8000, 2166072171) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31751,   279,      2) 
      , (31751,  1023,      2) 

@@ -54,9 +54,6 @@ VALUES (32977,   1,   33559869) /* Setup */
      , (32977,  50,  100688913) /* IconOverlay */
      , (32977,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32977, 8000, 2981046644) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32977,  2074,      2) 
      , (32977,  2096,      2) 

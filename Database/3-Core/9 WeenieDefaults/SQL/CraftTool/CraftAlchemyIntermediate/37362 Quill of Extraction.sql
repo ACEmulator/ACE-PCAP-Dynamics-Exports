@@ -22,6 +22,3 @@ VALUES (37362,   1, 'Quill of Extraction') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37362,   1,   33559616) /* Setup */
      , (37362,   8,  100690199) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37362, 8000, 2461826768) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (3078,   1,   33554826) /* Setup */
      , (3078,  22,  872415275) /* PhysicsEffectTable */
      , (3078,  28,        195) /* Spell - ExhaustionOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3078, 8000, 2917029815) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3078,   195,      2) ;

@@ -36,8 +36,5 @@ VALUES (34291,   1,   33554809) /* Setup */
      , (34291,  22,  872415275) /* PhysicsEffectTable */
      , (34291,  28,       2659) /* Spell - ModerateCoordination */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34291, 8000, 2174248256) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34291,  2659,      2) ;

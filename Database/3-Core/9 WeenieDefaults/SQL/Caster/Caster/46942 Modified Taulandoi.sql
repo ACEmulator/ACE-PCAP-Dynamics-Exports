@@ -51,9 +51,6 @@ VALUES (46942,   1,   33557963) /* Setup */
      , (46942,  22,  872415275) /* PhysicsEffectTable */
      , (46942,  28,       2782) /* Spell - LesserElementalFuryFlame */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46942, 8000, 3704147160) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46942,  2782,      2) 
      , (46942,  4637,      2) 

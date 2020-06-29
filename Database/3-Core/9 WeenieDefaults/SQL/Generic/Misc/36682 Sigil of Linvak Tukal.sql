@@ -26,6 +26,3 @@ VALUES (36682,   1, 'Sigil of Linvak Tukal') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36682,   1,   33556438) /* Setup */
      , (36682,   8,  100670227) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36682, 8000, 3707482097) /* PCAPRecordedObjectIID */;

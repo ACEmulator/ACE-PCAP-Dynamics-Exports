@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (5192, 8040, 22216969, 26.7216, -133.253, -66, 0.80696, 0, 0, -0.590606) /* PCAPRecordedLocation */
 /* @teleloc 0x01530109 [26.721600 -133.253000 -66.000000] 0.806960 0.000000 0.000000 -0.590606 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5192, 8000, 1880436740) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5192, -1, 5184, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stone of Detachment (5184) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

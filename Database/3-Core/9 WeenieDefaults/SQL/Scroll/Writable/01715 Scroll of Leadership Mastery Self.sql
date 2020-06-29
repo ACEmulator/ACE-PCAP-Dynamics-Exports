@@ -24,6 +24,3 @@ VALUES (1715,   1,   33554826) /* Setup */
      , (1715,   8,  100676446) /* Icon */
      , (1715,  22,  872415275) /* PhysicsEffectTable */
      , (1715,  28,        898) /* Spell - LeadershipMasterySelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1715, 8000,       1715) /* PCAPRecordedObjectIID */;

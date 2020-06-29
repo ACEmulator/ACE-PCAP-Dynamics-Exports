@@ -44,8 +44,5 @@ VALUES (49305,   1,   33554817) /* Setup */
      , (49305,  50,  100693028) /* IconOverlay */
      , (49305,  52,  100693024) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49305, 8000, 3355091856) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49305, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

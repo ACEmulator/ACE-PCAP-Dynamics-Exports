@@ -42,8 +42,5 @@ VALUES (36446,   1,   33556426) /* Setup */
      , (36446,  22,  872415275) /* PhysicsEffectTable */
      , (36446,  28,       4209) /* Spell - GummyShield */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36446, 8000, 2981045115) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36446,  4209,      2) ;

@@ -43,6 +43,3 @@ VALUES (48972,   1,   33554817) /* Setup */
      , (48972,  22,  872415275) /* PhysicsEffectTable */
      , (48972,  50,  100693026) /* IconOverlay */
      , (48972,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48972, 8000, 3690336993) /* PCAPRecordedObjectIID */;

@@ -38,8 +38,5 @@ VALUES (31001,   1,   33554809) /* Setup */
      , (31001,  22,  872415275) /* PhysicsEffectTable */
      , (31001,  28,       3810) /* Spell - AsheronsBenediction */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31001, 8000, 2274298745) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31001,  3810,      2) ;

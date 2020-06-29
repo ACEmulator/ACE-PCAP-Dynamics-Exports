@@ -24,6 +24,3 @@ VALUES (1837,   1,   33554826) /* Setup */
      , (1837,   8,  100676471) /* Icon */
      , (1837,  22,  872415275) /* PhysicsEffectTable */
      , (1837,  28,       1445) /* Spell - WillpowerSelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1837, 8000, 3630500616) /* PCAPRecordedObjectIID */;

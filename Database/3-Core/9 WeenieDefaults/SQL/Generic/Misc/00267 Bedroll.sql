@@ -21,6 +21,3 @@ VALUES (267,   1, 'Bedroll') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (267,   1,   33555056) /* Setup */
      , (267,   8,  100672423) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (267, 8000, 3658159477) /* PCAPRecordedObjectIID */;

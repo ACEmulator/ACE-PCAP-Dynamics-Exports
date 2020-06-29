@@ -24,6 +24,3 @@ VALUES (8920,   1,   33554826) /* Setup */
      , (8920,   8,  100677022) /* Icon */
      , (8920,  22,  872415275) /* PhysicsEffectTable */
      , (8920,  28,       1796) /* Spell - FlameStreak1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8920, 8000, 2883120984) /* PCAPRecordedObjectIID */;

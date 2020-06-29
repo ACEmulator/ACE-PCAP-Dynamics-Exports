@@ -28,8 +28,5 @@ VALUES (45354,   1,   33554826) /* Setup */
      , (45354,  22,  872415275) /* PhysicsEffectTable */
      , (45354,  28,       5881) /* Spell - SneakAttackMasterySelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45354, 8000, 3345312676) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45354,  5881,      2) ;

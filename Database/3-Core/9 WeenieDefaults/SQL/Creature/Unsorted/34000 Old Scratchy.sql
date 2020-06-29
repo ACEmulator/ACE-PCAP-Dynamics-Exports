@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (34000, 8040, 2690318601, 252, 69.8503, -11.5977, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA05B0109 [252.000000 69.850300 -11.597700] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34000, 8000, 3353885829) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34000, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
      , (34000, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */

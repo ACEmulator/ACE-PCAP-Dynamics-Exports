@@ -42,8 +42,5 @@ VALUES (14915,   1,   33557625) /* Setup */
      , (14915,  22,  872415275) /* PhysicsEffectTable */
      , (14915,  28,        157) /* Spell - SummonPortal1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14915, 8000, 3702810435) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (14915,   157,      2) ;

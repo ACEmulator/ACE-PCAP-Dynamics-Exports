@@ -28,8 +28,5 @@ VALUES (7510,   1,   33554826) /* Setup */
      , (7510,  22,  872415275) /* PhysicsEffectTable */
      , (7510,  28,       1784) /* Spell - BladeRing */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7510, 8000, 2226910402) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7510,  1784,      2) ;

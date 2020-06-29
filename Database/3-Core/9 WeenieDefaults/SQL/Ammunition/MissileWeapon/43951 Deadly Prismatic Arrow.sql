@@ -73,9 +73,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (43951, 8040, 1676148772, 117.3826, 86.78278, 131.49, 0.6430498, 0.6430498, -0.2940865, -0.2940865) /* PCAPRecordedLocation */
 /* @teleloc 0x63E80024 [117.382600 86.782780 131.490000] 0.643050 0.643050 -0.294087 -0.294087 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43951, 8000, 3683695477) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43951, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
      , (43951, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */

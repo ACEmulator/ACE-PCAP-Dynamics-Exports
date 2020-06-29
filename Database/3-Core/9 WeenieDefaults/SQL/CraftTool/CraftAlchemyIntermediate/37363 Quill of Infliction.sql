@@ -23,8 +23,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37363,   1,   33559616) /* Setup */
      , (37363,   8,  100690196) /* Icon */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37363, 8000, 3707426756) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37363, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

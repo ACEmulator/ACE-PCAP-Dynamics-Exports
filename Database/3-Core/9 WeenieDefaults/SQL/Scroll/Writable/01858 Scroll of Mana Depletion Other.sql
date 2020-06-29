@@ -28,8 +28,5 @@ VALUES (1858,   1,   33554826) /* Setup */
      , (1858,  22,  872415275) /* PhysicsEffectTable */
      , (1858,  28,        218) /* Spell - ManaDepletionOther1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1858, 8000, 3691034620) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1858,   218,      2) ;

@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (27657, 8040, 49807620, 58.2992, -199.534, -30, -0.2752551, 0, 0, 0.9613712) /* PCAPRecordedLocation */
 /* @teleloc 0x02F80104 [58.299200 -199.534000 -30.000000] -0.275255 0.000000 0.000000 0.961371 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27657, 8000, 1882161321) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27657, -1, 27681, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Renegade Stone Clasp (27681) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (27657, -1, 27701, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Correspondence (27701) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

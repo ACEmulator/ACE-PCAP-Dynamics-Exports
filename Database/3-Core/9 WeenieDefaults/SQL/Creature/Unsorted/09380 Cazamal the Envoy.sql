@@ -29,9 +29,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (9380, 8040, 43647275, 250.745, -152.947, -5.971, 0.9996876, 0, 0, 0.02499701) /* PCAPRecordedLocation */
 /* @teleloc 0x029A012B [250.745000 -152.947000 -5.971000] 0.999688 0.000000 0.000000 0.024997 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9380, 8000, 2780698418) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (9380, 9,  8958,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak VI (8958) for ContainTreasure */
      , (9380, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */

@@ -20,6 +20,3 @@ VALUES (22730,   1, 'Holiday Pole') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22730,   1,   33558135) /* Setup */
      , (22730,   8,  100669112) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22730, 8000, 2779768886) /* PCAPRecordedObjectIID */;

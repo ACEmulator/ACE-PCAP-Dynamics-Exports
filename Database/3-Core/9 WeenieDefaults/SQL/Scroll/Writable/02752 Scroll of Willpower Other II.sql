@@ -28,8 +28,5 @@ VALUES (2752,   1,   33554826) /* Setup */
      , (2752,  22,  872415275) /* PhysicsEffectTable */
      , (2752,  28,       1452) /* Spell - WillpowerOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2752, 8000, 2615123064) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2752,  1452,      2) ;

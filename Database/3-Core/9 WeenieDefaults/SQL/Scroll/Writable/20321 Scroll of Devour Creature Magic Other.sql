@@ -28,8 +28,5 @@ VALUES (20321,   1,   33554826) /* Setup */
      , (20321,  22,  872415275) /* PhysicsEffectTable */
      , (20321,  28,       1903) /* Spell - DispelCreatureBadOther4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20321, 8000, 3703463179) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20321,  1903,      2) ;

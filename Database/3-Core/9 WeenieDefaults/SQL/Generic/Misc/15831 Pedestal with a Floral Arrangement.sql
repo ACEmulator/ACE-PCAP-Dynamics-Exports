@@ -25,6 +25,3 @@ VALUES (15831,   1, 'Pedestal with a Floral Arrangement') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15831,   1,   33557638) /* Setup */
      , (15831,   8,  100672834) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15831, 8000, 2981038691) /* PCAPRecordedObjectIID */;

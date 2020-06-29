@@ -22,6 +22,3 @@ VALUES (24128,   1, 'A Virindi Signet') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24128,   1,   33554809) /* Setup */
      , (24128,   8,  100674253) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24128, 8000, 3698459638) /* PCAPRecordedObjectIID */;

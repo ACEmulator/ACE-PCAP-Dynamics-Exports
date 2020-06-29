@@ -28,8 +28,5 @@ VALUES (5546,   1,   33554826) /* Setup */
      , (5546,  22,  872415275) /* PhysicsEffectTable */
      , (5546,  28,        802) /* Spell - MonsterAttunementSelf5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5546, 8000, 2617736772) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5546,   802,      2) ;

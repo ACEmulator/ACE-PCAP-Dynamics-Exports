@@ -55,8 +55,5 @@ VALUES (44855,   1,   33561386) /* Setup */
      , (44855,  50,  100690998) /* IconOverlay */
      , (44855,  55,       5756) /* ProcSpell - CloakMissileDLower */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44855, 8000, 2174493237) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44855,  5756,      2) ;

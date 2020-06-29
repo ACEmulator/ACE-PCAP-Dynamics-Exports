@@ -37,8 +37,5 @@ VALUES (36187,   1,   33554809) /* Setup */
      , (36187,  22,  872415275) /* PhysicsEffectTable */
      , (36187,  28,       4191) /* Spell - HarbingerProtectionFire */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36187, 8000, 2906539485) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36187,  4191,      2) ;

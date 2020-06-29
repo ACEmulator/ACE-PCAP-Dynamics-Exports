@@ -57,8 +57,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (23746, 8040, 1503395898, 181.4192, 39.91177, 5.83, 0.1830127, 0.1830127, -0.6830127, -0.6830127) /* PCAPRecordedLocation */
 /* @teleloc 0x599C003A [181.419200 39.911770 5.830000] 0.183013 0.183013 -0.683013 -0.683013 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23746, 8000, 3685196758) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23746, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;

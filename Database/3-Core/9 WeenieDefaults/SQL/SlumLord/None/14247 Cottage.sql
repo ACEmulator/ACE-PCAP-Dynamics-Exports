@@ -35,9 +35,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (14247, 8040, 1604714514, 61.8181, 30.2813, 78, 0.709235, 0, 0, 0.704972) /* PCAPRecordedLocation */
 /* @teleloc 0x5FA60012 [61.818100 30.281300 78.000000] 0.709235 0.000000 0.000000 0.704972 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14247, 8000, 1979343272) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14247, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */
      , (14247, 16, 11710,  1, 0, 0, False) /* Create Writ of Refuge (11710) for HouseBuy */

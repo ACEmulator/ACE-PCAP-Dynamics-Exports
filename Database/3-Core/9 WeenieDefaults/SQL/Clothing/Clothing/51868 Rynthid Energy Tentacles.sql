@@ -57,8 +57,5 @@ VALUES (51868,   1,   33561386) /* Setup */
      , (51868,  50,  100690999) /* IconOverlay */
      , (51868,  55,       6151) /* ProcSpell - LightningRingRed */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51868, 8000, 2153074324) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51868,  6151,      2) ;

@@ -33,8 +33,5 @@ VALUES (2410,   1,   33554809) /* Setup */
      , (2410,  22,  872415275) /* PhysicsEffectTable */
      , (2410,  28,       2153) /* Spell - BludgeonProtectionSelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2410, 8000, 3690235638) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2410, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

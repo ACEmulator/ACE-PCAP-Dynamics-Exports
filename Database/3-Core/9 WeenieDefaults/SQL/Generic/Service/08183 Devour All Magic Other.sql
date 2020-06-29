@@ -21,6 +21,3 @@ VALUES (8183,   1,   33554680) /* Setup */
      , (8183,   8,  100670799) /* Icon */
      , (8183,  22,  872415275) /* PhysicsEffectTable */
      , (8183,  28,       1865) /* Spell - DispelAllNeutralOther4 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8183, 8000,       8183) /* PCAPRecordedObjectIID */;

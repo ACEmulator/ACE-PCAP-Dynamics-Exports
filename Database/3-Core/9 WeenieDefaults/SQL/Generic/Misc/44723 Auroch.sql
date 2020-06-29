@@ -20,6 +20,3 @@ VALUES (44723,   1, 'Auroch') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44723,   1,   33561323) /* Setup */
      , (44723,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44723, 8000, 2248025304) /* PCAPRecordedObjectIID */;

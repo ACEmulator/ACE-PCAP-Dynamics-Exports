@@ -21,6 +21,3 @@ VALUES (272,   1, 'Chair') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (272,   1,   33554721) /* Setup */
      , (272,   8,  100671770) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (272, 8000, 3658163593) /* PCAPRecordedObjectIID */;

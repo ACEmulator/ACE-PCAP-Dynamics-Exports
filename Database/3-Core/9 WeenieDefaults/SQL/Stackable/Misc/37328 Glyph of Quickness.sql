@@ -26,8 +26,5 @@ VALUES (37328,   1,   33554809) /* Setup */
      , (37328,  22,  872415275) /* PhysicsEffectTable */
      , (37328,  50,  100686680) /* IconOverlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37328, 8000, 3179732943) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37328, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;

@@ -43,8 +43,5 @@ VALUES (42637,   1,   33554809) /* Setup */
      , (42637,  50,  100690997) /* IconOverlay */
      , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42637, 8000, 3680242626) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42637,  5207,      2) ;

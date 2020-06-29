@@ -35,8 +35,5 @@ VALUES (31425,   1,   33554809) /* Setup */
      , (31425,  22,  872415275) /* PhysicsEffectTable */
      , (31425,  28,       3828) /* Spell - CantripRageofGrael */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31425, 8000, 2629509659) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31425,  3828,      2) ;

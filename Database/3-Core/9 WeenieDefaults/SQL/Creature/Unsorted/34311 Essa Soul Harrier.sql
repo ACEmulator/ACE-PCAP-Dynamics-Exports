@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (34311, 8040, 8127178, 140.779, -100.055, 0, 0.7316888, 0, 0, 0.6816388) /* PCAPRecordedLocation */
 /* @teleloc 0x007C02CA [140.779000 -100.055000 0.000000] 0.731689 0.000000 0.000000 0.681639 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34311, 8000, 3704046740) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34311, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
      , (34311, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */

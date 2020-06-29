@@ -28,8 +28,5 @@ VALUES (3523,   1,   33554826) /* Setup */
      , (3523,  22,  872415275) /* PhysicsEffectTable */
      , (3523,  28,        419) /* Spell - SwordMasterySelf2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3523, 8000, 3356965041) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3523,   419,      2) ;

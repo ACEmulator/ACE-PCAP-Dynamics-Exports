@@ -26,6 +26,3 @@ VALUES (631,   1, 'Excellent Healing Kit') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (631,   1,   33555194) /* Setup */
      , (631,   8,  100676338) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (631, 8000, 3690366490) /* PCAPRecordedObjectIID */;

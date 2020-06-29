@@ -28,6 +28,3 @@ VALUES (3712,   1,   33554809) /* Setup */
      , (3712,   8,  100668364) /* Icon */
      , (3712,  22,  872415275) /* PhysicsEffectTable */
      , (3712,  28,       1336) /* Spell - StrengthOther5 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3712, 8000, 2917028110) /* PCAPRecordedObjectIID */;

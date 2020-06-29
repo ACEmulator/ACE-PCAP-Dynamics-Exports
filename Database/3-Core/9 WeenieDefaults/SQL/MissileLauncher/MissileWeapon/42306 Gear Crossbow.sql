@@ -54,9 +54,6 @@ VALUES (42306,   1,   33560920) /* Setup */
      , (42306,  22,  872415275) /* PhysicsEffectTable */
      , (42306,  55,       1788) /* ProcSpell - LightningRing */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42306, 8000, 2461464826) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42306,  1788,      2) 
      , (42306,  2060,      2) 

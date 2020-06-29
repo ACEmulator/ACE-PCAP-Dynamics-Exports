@@ -42,8 +42,5 @@ VALUES (21391,   1,   33556769) /* Setup */
      , (21391,  22,  872415275) /* PhysicsEffectTable */
      , (21391,  28,       2796) /* Spell - PortalSendingCitadelSurface */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21391, 8000, 3702949496) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21391,  2796,      2) ;

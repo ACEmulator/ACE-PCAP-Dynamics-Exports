@@ -36,8 +36,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (22819, 8040, 1448018210, 176.835, -7.26029, -36, 0.717213, 0, 0, 0.696854) /* PCAPRecordedLocation */
 /* @teleloc 0x564F0122 [176.835000 -7.260290 -36.000000] 0.717213 0.000000 0.000000 0.696854 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22819, 8000, 1969549317) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22819, -1, 22826, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Daichroic Crystal (22826) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

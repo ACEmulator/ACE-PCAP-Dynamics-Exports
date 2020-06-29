@@ -28,8 +28,5 @@ VALUES (3282,   1,   33554826) /* Setup */
      , (3282,  22,  872415275) /* PhysicsEffectTable */
      , (3282,  28,        879) /* Spell - HealingMasterySelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3282, 8000, 3355128505) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3282,   879,      2) ;

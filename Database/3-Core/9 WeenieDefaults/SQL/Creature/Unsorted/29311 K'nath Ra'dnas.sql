@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29311, 8040, 26411415, 340, -20, 0.01800001, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x01930197 [340.000000 -20.000000 0.018000] -0.707107 0.000000 0.000000 -0.707107 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29311, 8000, 3709625934) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29311, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (29311, 9,   273, 787, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */

@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (42025, 8040, 1466958360, 45.66883, -113.9259, 24.00825, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x57700218 [45.668830 -113.925900 24.008250] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42025, 8000, 2883373728) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42025, 2, 48091,  1, 0, 0, False) /* Create Lightning Silifi (48091) for Wield */
      , (42025, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */

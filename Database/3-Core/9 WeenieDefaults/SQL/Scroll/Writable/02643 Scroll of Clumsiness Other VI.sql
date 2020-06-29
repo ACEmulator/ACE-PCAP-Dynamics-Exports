@@ -28,8 +28,5 @@ VALUES (2643,   1,   33554826) /* Setup */
      , (2643,  22,  872415275) /* PhysicsEffectTable */
      , (2643,  28,       1396) /* Spell - ClumsinessOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2643, 8000, 3681642585) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2643,  1396,      2) ;

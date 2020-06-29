@@ -55,9 +55,6 @@ VALUES (46960,   1,   33557967) /* Setup */
      , (46960,  22,  872415275) /* PhysicsEffectTable */
      , (46960,  55,       2318) /* ProcSpell - VulnerabilityOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46960, 8000, 3706536922) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46960,  2318,      2) 
      , (46960,  4623,      2) ;

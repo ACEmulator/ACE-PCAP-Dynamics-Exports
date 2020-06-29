@@ -24,6 +24,3 @@ VALUES (41278,   1,   33554826) /* Setup */
      , (41278,   8,  100676477) /* Icon */
      , (41278,  22,  872415275) /* PhysicsEffectTable */
      , (41278,  28,       2250) /* Spell - ItemExpertiseOther7 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41278, 8000, 2978131569) /* PCAPRecordedObjectIID */;

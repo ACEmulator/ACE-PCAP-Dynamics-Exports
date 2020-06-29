@@ -21,6 +21,3 @@ VALUES (44775,   1, 'Thrungus') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44775,   1,   33561375) /* Setup */
      , (44775,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44775, 8000, 2164483393) /* PCAPRecordedObjectIID */;

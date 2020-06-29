@@ -21,6 +21,3 @@ VALUES (4592,   1,   33554680) /* Setup */
      , (4592,   8,  100668288) /* Icon */
      , (4592,  22,  872415275) /* PhysicsEffectTable */
      , (4592,  28,       1207) /* Spell - ManaBoostOther1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4592, 8000,       4592) /* PCAPRecordedObjectIID */;

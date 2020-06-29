@@ -23,6 +23,3 @@ VALUES (42533,   1, 'Shaped Tree') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42533,   1,   33560935) /* Setup */
      , (42533,   8,  100690919) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42533, 8000, 2975612592) /* PCAPRecordedObjectIID */;

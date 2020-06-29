@@ -21,6 +21,3 @@ VALUES (44772,   1, 'Slithis') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44772,   1,   33561372) /* Setup */
      , (44772,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44772, 8000, 2461499559) /* PCAPRecordedObjectIID */;

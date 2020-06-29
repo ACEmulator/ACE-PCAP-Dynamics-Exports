@@ -28,8 +28,5 @@ VALUES (9638,   1,   33554826) /* Setup */
      , (9638,  22,  872415275) /* PhysicsEffectTable */
      , (9638,  28,       1276) /* Spell - HealthToStaminaSelf5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9638, 8000, 3696766236) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9638,  1276,      2) ;

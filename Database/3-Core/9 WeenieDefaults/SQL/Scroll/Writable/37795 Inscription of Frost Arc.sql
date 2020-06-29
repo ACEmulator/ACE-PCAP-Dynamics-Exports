@@ -24,6 +24,3 @@ VALUES (37795,   1,   33554826) /* Setup */
      , (37795,   8,  100677016) /* Icon */
      , (37795,  22,  872415275) /* PhysicsEffectTable */
      , (37795,  28,       4425) /* Spell - FrostArc8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37795, 8000, 3663814261) /* PCAPRecordedObjectIID */;

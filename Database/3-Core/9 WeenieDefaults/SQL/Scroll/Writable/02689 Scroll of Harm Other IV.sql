@@ -28,8 +28,5 @@ VALUES (2689,   1,   33554826) /* Setup */
      , (2689,  22,  872415275) /* PhysicsEffectTable */
      , (2689,  28,       1174) /* Spell - HarmOther4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2689, 8000, 3681315848) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2689,  1174,      2) ;

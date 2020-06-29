@@ -30,8 +30,5 @@ VALUES (32492,   1,   33554826) /* Setup */
      , (32492,  22,  872415275) /* PhysicsEffectTable */
      , (32492,  28,       3865) /* Spell - GlendenWoodRecall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32492, 8000, 3681397847) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32492,  3865,      2) ;

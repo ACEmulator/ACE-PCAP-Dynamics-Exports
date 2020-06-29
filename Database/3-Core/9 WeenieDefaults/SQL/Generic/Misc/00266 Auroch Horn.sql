@@ -19,6 +19,3 @@ VALUES (266,   1, 'Auroch Horn') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (266,   1,   33554706) /* Setup */
      , (266,   8,  100668178) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (266, 8000, 3261434810) /* PCAPRecordedObjectIID */;

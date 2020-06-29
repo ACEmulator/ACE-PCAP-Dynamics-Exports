@@ -73,9 +73,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (43942, 8040, 43058012, 209.4225, -158.6144, -0.071, -0.0008454155, -0.0008454155, -0.7071063, -0.7071063) /* PCAPRecordedLocation */
 /* @teleloc 0x0291035C [209.422500 -158.614400 -0.071000] -0.000845 -0.000845 -0.707106 -0.707106 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43942, 8000, 3681951228) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43942, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
      , (43942, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */

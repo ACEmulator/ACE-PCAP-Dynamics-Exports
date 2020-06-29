@@ -24,6 +24,3 @@ VALUES (46873,   1,   33554826) /* Setup */
      , (46873,   8,  100676655) /* Icon */
      , (46873,  22,  872415275) /* PhysicsEffectTable */
      , (46873,  28,       5991) /* Spell - BloodDrinkerOther2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46873, 8000, 3615154351) /* PCAPRecordedObjectIID */;

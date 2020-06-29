@@ -24,6 +24,3 @@ VALUES (1776,   1,   33554826) /* Setup */
      , (1776,   8,  100676458) /* Icon */
      , (1776,  22,  872415275) /* PhysicsEffectTable */
      , (1776,  28,       1421) /* Spell - FocusSelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1776, 8000,       1776) /* PCAPRecordedObjectIID */;

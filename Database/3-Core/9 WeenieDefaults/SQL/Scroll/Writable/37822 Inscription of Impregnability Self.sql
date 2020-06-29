@@ -24,6 +24,3 @@ VALUES (37822,   1,   33554826) /* Setup */
      , (37822,   8,  100676468) /* Icon */
      , (37822,  22,  872415275) /* PhysicsEffectTable */
      , (37822,  28,       4558) /* Spell - ImpregnabilitySelf8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37822, 8000, 3663423290) /* PCAPRecordedObjectIID */;

@@ -42,9 +42,6 @@ VALUES (26531,   1,   33558596) /* Setup */
      , (26531,  22,  872415275) /* PhysicsEffectTable */
      , (26531,  28,       3068) /* Spell - MinorWardRebirth */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26531, 8000, 2164423617) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26531,   211,      2) 
      , (26531,  1360,      2) 

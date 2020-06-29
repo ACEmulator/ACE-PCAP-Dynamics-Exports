@@ -55,9 +55,6 @@ VALUES (46964,   1,   33557969) /* Setup */
      , (46964,  22,  872415275) /* PhysicsEffectTable */
      , (46964,  55,       2228) /* ProcSpell - DefenselessnessOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46964, 8000, 2761754607) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46964,  2228,      2) 
      , (46964,  4521,      2) ;

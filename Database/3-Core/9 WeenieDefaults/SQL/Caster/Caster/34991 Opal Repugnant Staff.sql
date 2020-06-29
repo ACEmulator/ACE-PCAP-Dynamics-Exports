@@ -42,9 +42,6 @@ VALUES (34991,   1,   33560177) /* Setup */
      , (34991,  22,  872415275) /* PhysicsEffectTable */
      , (34991,  28,       4067) /* Spell - MucorBolt */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34991, 8000, 2925597492) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34991,  2101,      2) 
      , (34991,  2117,      2) 

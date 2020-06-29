@@ -28,8 +28,5 @@ VALUES (53335,   1,   33554826) /* Setup */
      , (53335,  22,  872415275) /* PhysicsEffectTable */
      , (53335,  28,       6195) /* Spell - CloudedSoulII */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53335, 8000, 3630241530) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53335,  6195,      2) ;

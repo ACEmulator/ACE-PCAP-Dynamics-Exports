@@ -29,6 +29,3 @@ VALUES (43472,   1,   33554809) /* Setup */
      , (43472,  28,       4395) /* Spell - BloodDrinkerSelf8 */
      , (43472,  50,  100686635) /* IconOverlay */
      , (43472,  52,  100691593) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43472, 8000, 3147526998) /* PCAPRecordedObjectIID */;

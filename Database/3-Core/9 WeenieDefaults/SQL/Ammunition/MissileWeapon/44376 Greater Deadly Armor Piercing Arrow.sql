@@ -55,8 +55,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (44376, 8040, 18809102, 28.60989, -29.46839, 0.1251259, -0.7071027, -0.7071027, -0.002400281, -0.002400281) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [28.609890 -29.468390 0.125126] -0.707103 -0.707103 -0.002400 -0.002400 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44376, 8000, 3701887654) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44376, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */;

@@ -22,6 +22,3 @@ VALUES (25775,   1, 'Tapestry') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25775,   1,   33558535) /* Setup */
      , (25775,   8,  100675567) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25775, 8000, 2166203165) /* PCAPRecordedObjectIID */;

@@ -22,6 +22,3 @@ VALUES (30737,   1, 'Yard Balloons') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30737,   1,   33559223) /* Setup */
      , (30737,   8,  100677404) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30737, 8000, 2981037249) /* PCAPRecordedObjectIID */;

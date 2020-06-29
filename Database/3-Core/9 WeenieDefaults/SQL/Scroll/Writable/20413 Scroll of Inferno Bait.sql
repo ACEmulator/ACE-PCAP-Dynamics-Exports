@@ -28,8 +28,5 @@ VALUES (20413,   1,   33554826) /* Setup */
      , (20413,  22,  872415275) /* PhysicsEffectTable */
      , (20413,  28,       2103) /* Spell - FlameLure7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20413, 8000, 3701885377) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20413,  2103,      2) ;

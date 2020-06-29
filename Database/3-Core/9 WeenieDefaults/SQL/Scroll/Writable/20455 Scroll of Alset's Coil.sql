@@ -28,8 +28,5 @@ VALUES (20455,   1,   33554826) /* Setup */
      , (20455,  22,  872415275) /* PhysicsEffectTable */
      , (20455,  28,       2140) /* Spell - LightningBolt7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20455, 8000, 3686007458) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20455,  2140,      2) ;

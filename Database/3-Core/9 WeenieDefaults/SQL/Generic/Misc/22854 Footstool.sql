@@ -21,6 +21,3 @@ VALUES (22854,   1, 'Footstool') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22854,   1,   33555305) /* Setup */
      , (22854,   8,  100673893) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22854, 8000, 2166203172) /* PCAPRecordedObjectIID */;

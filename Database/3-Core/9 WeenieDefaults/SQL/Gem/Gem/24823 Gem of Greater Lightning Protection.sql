@@ -26,6 +26,3 @@ VALUES (24823,   1,   33554809) /* Setup */
      , (24823,   8,  100674459) /* Icon */
      , (24823,  22,  872415275) /* PhysicsEffectTable */
      , (24823,  28,       1077) /* Spell - LightningProtectionOther6 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24823, 8000, 2981038660) /* PCAPRecordedObjectIID */;

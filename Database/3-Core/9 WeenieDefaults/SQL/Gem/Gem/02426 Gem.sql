@@ -39,9 +39,6 @@ VALUES (2426,   1,   33554809) /* Setup */
      , (2426,  22,  872415275) /* PhysicsEffectTable */
      , (2426,  28,        167) /* Spell - RegenerationSelf3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2426, 8000, 3692336159) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2426,   167,      2) ;
 

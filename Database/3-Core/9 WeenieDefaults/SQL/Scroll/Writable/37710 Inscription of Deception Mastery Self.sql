@@ -24,6 +24,3 @@ VALUES (37710,   1,   33554826) /* Setup */
      , (37710,   8,  100676448) /* Icon */
      , (37710,  22,  872415275) /* PhysicsEffectTable */
      , (37710,  28,       4542) /* Spell - DeceptionMasterySelf8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37710, 8000, 3663415984) /* PCAPRecordedObjectIID */;

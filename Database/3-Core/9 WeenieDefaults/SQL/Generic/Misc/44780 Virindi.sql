@@ -20,6 +20,3 @@ VALUES (44780,   1, 'Virindi') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44780,   1,   33561380) /* Setup */
      , (44780,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44780, 8000, 2148355597) /* PCAPRecordedObjectIID */;

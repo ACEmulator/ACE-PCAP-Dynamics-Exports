@@ -24,6 +24,3 @@ VALUES (5958,   1,   33554826) /* Setup */
      , (5958,   8,  100676451) /* Icon */
      , (5958,  22,  872415275) /* PhysicsEffectTable */
      , (5958,  28,       1717) /* Spell - CookingMasterySelf3 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5958, 8000, 3356965779) /* PCAPRecordedObjectIID */;

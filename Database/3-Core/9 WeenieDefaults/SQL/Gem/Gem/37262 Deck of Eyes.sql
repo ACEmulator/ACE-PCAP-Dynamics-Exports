@@ -38,8 +38,5 @@ VALUES (37262,   1,   33560546) /* Setup */
      , (37262,  22,  872415275) /* PhysicsEffectTable */
      , (37262,  28,       4281) /* Spell - FocusJesterDeck */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37262, 8000, 2588663625) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37262,  4281,      2) ;

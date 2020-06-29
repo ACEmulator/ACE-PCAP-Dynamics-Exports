@@ -55,9 +55,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (7799, 8040, 2279145535, 183.4055, 159.8539, 117.8242, -0.5634105, -0.5634105, -0.4272805, -0.4272805) /* PCAPRecordedLocation */
 /* @teleloc 0x87D9003F [183.405500 159.853900 117.824200] -0.563411 -0.563411 -0.427281 -0.427281 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7799, 8000, 3685945876) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7799, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wield */
      , (7799, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */;

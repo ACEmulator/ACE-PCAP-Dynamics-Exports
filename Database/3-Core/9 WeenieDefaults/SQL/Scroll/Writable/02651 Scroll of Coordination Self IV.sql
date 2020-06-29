@@ -28,8 +28,5 @@ VALUES (2651,   1,   33554826) /* Setup */
      , (2651,  22,  872415275) /* PhysicsEffectTable */
      , (2651,  28,       1376) /* Spell - CoordinationSelf4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2651, 8000, 3709564290) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2651,  1376,      2) ;

@@ -28,8 +28,5 @@ VALUES (20521,   1,   33554826) /* Setup */
      , (20521,  22,  872415275) /* PhysicsEffectTable */
      , (20521,  28,       2223) /* Spell - DaggerMasterySelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20521, 8000, 2629102235) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20521,  2223,      2) ;

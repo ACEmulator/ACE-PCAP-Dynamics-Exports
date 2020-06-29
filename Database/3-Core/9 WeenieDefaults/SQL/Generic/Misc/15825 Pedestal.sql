@@ -22,6 +22,3 @@ VALUES (15825,   1, 'Pedestal') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15825,   1,   33557633) /* Setup */
      , (15825,   8,  100672835) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15825, 8000, 3658159453) /* PCAPRecordedObjectIID */;

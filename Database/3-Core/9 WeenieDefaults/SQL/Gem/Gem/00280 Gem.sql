@@ -19,6 +19,3 @@ VALUES (280,   1, 'Gem') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (280,   1,   33554809) /* Setup */
      , (280,   8,  100667482) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (280, 8000, 2917028175) /* PCAPRecordedObjectIID */;

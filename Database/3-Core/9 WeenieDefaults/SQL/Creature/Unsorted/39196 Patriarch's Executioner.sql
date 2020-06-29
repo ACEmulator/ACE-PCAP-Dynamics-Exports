@@ -32,8 +32,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (39196, 8040, 13304351, 353.486, -46.361, -29.991, -0.427195, 0, 0, 0.90416) /* PCAPRecordedLocation */
 /* @teleloc 0x00CB021F [353.486000 -46.361000 -29.991000] -0.427195 0.000000 0.000000 0.904160 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39196, 8000, 3332247521) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39196, 2, 25500,  1, 0, 0, False) /* Create Khopesh (25500) for Wield */;

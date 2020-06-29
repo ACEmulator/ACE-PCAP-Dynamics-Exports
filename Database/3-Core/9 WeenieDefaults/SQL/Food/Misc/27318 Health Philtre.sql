@@ -28,9 +28,6 @@ VALUES (27318,   1,   33554603) /* Setup */
      , (27318,   8,  100676314) /* Icon */
      , (27318,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27318, 8000, 3448799657) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27318, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (27318, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

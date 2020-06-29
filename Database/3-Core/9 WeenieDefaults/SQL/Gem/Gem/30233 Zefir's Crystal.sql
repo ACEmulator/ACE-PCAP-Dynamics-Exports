@@ -41,8 +41,5 @@ VALUES (30233,   1,   33554809) /* Setup */
      , (30233,  50,  100686681) /* IconOverlay */
      , (30233,  52,  100686604) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30233, 8000, 2631404620) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30233,  3736,      2) ;

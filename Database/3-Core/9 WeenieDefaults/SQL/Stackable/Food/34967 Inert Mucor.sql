@@ -37,8 +37,5 @@ VALUES (34967,   1,   33558859) /* Setup */
      , (34967,  22,  872415275) /* PhysicsEffectTable */
      , (34967,  28,       3053) /* Spell - ParalyzingTouch */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34967, 8000, 2981039383) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34967,  3053,      2) ;

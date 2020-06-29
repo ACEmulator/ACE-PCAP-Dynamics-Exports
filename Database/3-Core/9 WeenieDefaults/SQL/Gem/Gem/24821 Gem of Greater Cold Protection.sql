@@ -26,6 +26,3 @@ VALUES (24821,   1,   33554809) /* Setup */
      , (24821,   8,  100674458) /* Icon */
      , (24821,  22,  872415275) /* PhysicsEffectTable */
      , (24821,  28,       1041) /* Spell - ColdProtectionOther6 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24821, 8000, 2981038735) /* PCAPRecordedObjectIID */;

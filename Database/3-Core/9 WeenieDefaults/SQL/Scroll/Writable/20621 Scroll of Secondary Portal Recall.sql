@@ -28,8 +28,5 @@ VALUES (20621,   1,   33554826) /* Setup */
      , (20621,  22,  872415275) /* PhysicsEffectTable */
      , (20621,  28,       2647) /* Spell - PortalTieRecall2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20621, 8000, 2615222606) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20621,  2647,      2) ;

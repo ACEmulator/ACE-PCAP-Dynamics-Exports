@@ -38,8 +38,5 @@ VALUES (23774,   1,   33558217) /* Setup */
      , (23774,  22,  872415275) /* PhysicsEffectTable */
      , (23774,  28,       1679) /* Spell - StaminaToManaSelf4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23774, 8000, 2186220443) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23774,  1679,      2) ;

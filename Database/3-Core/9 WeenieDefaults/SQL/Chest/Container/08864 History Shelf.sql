@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (8864, 8040, 3847094548, 77.404, 84.1346, 12, 0.707882, 0, 0, 0.706331) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E0114 [77.404000 84.134600 12.000000] 0.707882 0.000000 0.000000 0.706331 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8864, 8000, 2119491603) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8864, -1, 8854, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate General History of Dereth Vol. II (8854) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (8864, -1, 8863, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate General History of Dereth Vol. XI (8863) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

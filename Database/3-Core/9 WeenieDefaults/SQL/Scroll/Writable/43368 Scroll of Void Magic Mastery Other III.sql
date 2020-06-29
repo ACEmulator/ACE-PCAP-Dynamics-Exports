@@ -24,6 +24,3 @@ VALUES (43368,   1,   33554826) /* Setup */
      , (43368,   8,  100691548) /* Icon */
      , (43368,  22,  872415275) /* PhysicsEffectTable */
      , (43368,  28,       5405) /* Spell - VoidMagicMasteryOther3 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43368, 8000, 2617796136) /* PCAPRecordedObjectIID */;

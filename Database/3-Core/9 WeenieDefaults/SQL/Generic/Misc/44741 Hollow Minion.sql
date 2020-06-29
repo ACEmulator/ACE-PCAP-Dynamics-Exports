@@ -21,6 +21,3 @@ VALUES (44741,   1, 'Hollow Minion') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44741,   1,   33561341) /* Setup */
      , (44741,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44741, 8000, 2629459060) /* PCAPRecordedObjectIID */;

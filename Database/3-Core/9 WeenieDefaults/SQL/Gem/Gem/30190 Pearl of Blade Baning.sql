@@ -28,6 +28,3 @@ VALUES (30190,   1,   33554809) /* Setup */
      , (30190,  28,       3686) /* Spell - BladeBaneRare */
      , (30190,  50,  100686634) /* IconOverlay */
      , (30190,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30190, 8000, 2153709888) /* PCAPRecordedObjectIID */;

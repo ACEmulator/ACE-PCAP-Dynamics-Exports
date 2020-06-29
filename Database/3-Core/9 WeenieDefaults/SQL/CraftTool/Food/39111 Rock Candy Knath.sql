@@ -41,8 +41,5 @@ VALUES (39111,   1,   33555630) /* Setup */
      , (39111,  22,  872415275) /* PhysicsEffectTable */
      , (39111,  28,       4210) /* Spell - JumpSpin */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39111, 8000, 2461441038) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39111,  4210,      2) ;

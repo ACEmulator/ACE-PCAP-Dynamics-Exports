@@ -22,6 +22,3 @@ VALUES (36909,   1, 'Festivus Rug') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36909,   1,   33560427) /* Setup */
      , (36909,   8,  100689758) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36909, 8000, 2192311777) /* PCAPRecordedObjectIID */;

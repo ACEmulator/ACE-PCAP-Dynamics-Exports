@@ -28,9 +28,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (33862, 8040, 808386587, 92.82829, 60.58561, 127.3524, -0.963681, 0, 0, -0.267056) /* PCAPRecordedLocation */
 /* @teleloc 0x302F001B [92.828290 60.585610 127.352400] -0.963681 0.000000 0.000000 -0.267056 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33862, 8000, 2930740794) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33862, 2, 46365,  1, 0, 0, False) /* Create Spectral Lightning Tachi (46365) for Wield */
      , (33862, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */

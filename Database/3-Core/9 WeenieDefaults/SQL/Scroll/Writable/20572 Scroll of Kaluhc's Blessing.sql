@@ -28,8 +28,5 @@ VALUES (20572,   1,   33554826) /* Setup */
      , (20572,  22,  872415275) /* PhysicsEffectTable */
      , (20572,  28,       2293) /* Spell - PersonAttunementSelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20572, 8000, 2461819204) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20572,  2293,      2) ;

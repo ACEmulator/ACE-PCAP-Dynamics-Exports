@@ -21,6 +21,3 @@ VALUES (1495,   1,   33554773) /* Setup */
      , (1495,   3,  536870932) /* SoundTable */
      , (1495,   8,  100675748) /* Icon */
      , (1495,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1495, 8000, 2917029764) /* PCAPRecordedObjectIID */;

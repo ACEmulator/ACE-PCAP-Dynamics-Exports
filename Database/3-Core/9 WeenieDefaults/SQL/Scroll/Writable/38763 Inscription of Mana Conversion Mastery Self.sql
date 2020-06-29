@@ -24,6 +24,3 @@ VALUES (38763,   1,   33554826) /* Setup */
      , (38763,   8,  100676466) /* Icon */
      , (38763,  22,  872415275) /* PhysicsEffectTable */
      , (38763,  28,       4602) /* Spell - ManaMasterySelf8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38763, 8000, 3631175209) /* PCAPRecordedObjectIID */;

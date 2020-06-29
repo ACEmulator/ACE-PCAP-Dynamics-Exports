@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29472, 8040, 1835715, 270.546, -521.278, 30, 0.502412, 0, 0, -0.864628) /* PCAPRecordedLocation */
 /* @teleloc 0x001C02C3 [270.546000 -521.278000 30.000000] 0.502412 0.000000 0.000000 -0.864628 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29472, 8000, 1879162917) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29472, -1, 29476, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Note to Alvirre (29476) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

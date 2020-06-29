@@ -32,6 +32,3 @@ VALUES (25466,   1,   33556769) /* Setup */
      , (25466,   8,  100672368) /* Icon */
      , (25466,  22,  872415275) /* PhysicsEffectTable */
      , (25466,  28,       2977) /* Spell - PortalSendHiddenWarehouseROT2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25466, 8000, 3261434749) /* PCAPRecordedObjectIID */;

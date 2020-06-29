@@ -29,8 +29,7 @@ VALUES (364,   1,   33554771) /* Setup */
      , (364,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (364,   7, 1342556511) /* Scribe */
-     , (364, 8000, 2274286810) /* PCAPRecordedObjectIID */;
+VALUES (364,   7, 1342556511) /* Scribe */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (364, 50, 1000);

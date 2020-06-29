@@ -29,9 +29,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (27458, 8040, 1648886017, 174.111, -195.772, -29.99, -0.8957803, 0, 0, 0.4444971) /* PCAPRecordedLocation */
 /* @teleloc 0x62480101 [174.111000 -195.772000 -29.990000] -0.895780 0.000000 0.000000 0.444497 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27458, 8000, 2877973105) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27458, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
      , (27458, 2, 23738,  1, 0, 0, False) /* Create Lugian Axe (23738) for Wield */;

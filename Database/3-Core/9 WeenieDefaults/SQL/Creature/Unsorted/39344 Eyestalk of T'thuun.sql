@@ -31,8 +31,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (39344, 8040, 1925775388, 95.9, 95.9, 79.97167, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x72C9001C [95.900000 95.900000 79.971670] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39344, 8000, 2932255351) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (39344, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */;

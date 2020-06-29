@@ -28,9 +28,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (42274, 8040, 2315453076, 349, -102, 0.004999995, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x8A030294 [349.000000 -102.000000 0.005000] 0.000000 0.000000 0.000000 -1.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42274, 8000, 3621406017) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42274, 2, 38856,  1, 0, 0, False) /* Create Radiant Blood Blade (38856) for Wield */
      , (42274, 2, 41859,  1, 0, 0, False) /* Create Radiant Blood Shield (41859) for Wield */;

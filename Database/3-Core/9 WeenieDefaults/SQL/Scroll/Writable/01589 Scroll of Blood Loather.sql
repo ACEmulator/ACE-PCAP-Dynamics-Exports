@@ -28,8 +28,5 @@ VALUES (1589,   1,   33554826) /* Setup */
      , (1589,  22,  872415275) /* PhysicsEffectTable */
      , (1589,  28,         36) /* Spell - BloodLoather */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1589, 8000, 2617855983) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1589,    36,      2) ;

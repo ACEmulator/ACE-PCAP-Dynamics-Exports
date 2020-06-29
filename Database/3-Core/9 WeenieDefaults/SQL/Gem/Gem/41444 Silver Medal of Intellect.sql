@@ -38,8 +38,5 @@ VALUES (41444,   1,   33554802) /* Setup */
      , (41444,  22,  872415275) /* PhysicsEffectTable */
      , (41444,  28,       5124) /* Spell - AnswerOfLoyaltyMana2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41444, 8000, 3679319816) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41444,  5124,      2) ;

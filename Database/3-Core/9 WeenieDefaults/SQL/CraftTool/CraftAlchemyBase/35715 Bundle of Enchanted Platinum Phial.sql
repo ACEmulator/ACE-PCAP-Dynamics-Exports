@@ -27,6 +27,3 @@ VALUES (35715,   1,   33556223) /* Setup */
      , (35715,   6,   67111928) /* PaletteBase */
      , (35715,   8,  100689528) /* Icon */
      , (35715,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35715, 8000,      35715) /* PCAPRecordedObjectIID */;

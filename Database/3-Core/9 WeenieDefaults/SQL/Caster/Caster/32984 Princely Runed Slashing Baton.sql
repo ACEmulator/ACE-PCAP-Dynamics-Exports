@@ -48,9 +48,6 @@ VALUES (32984,   1,   33559863) /* Setup */
      , (32984,  28,       2282) /* Spell - MagicYieldOther7 */
      , (32984,  50,  100688913) /* IconOverlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32984, 8000, 2922016798) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32984,  2101,      2) 
      , (32984,  2117,      2) 

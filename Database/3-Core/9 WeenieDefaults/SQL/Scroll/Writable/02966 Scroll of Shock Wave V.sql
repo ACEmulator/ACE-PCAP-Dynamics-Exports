@@ -28,8 +28,5 @@ VALUES (2966,   1,   33554826) /* Setup */
      , (2966,  22,  872415275) /* PhysicsEffectTable */
      , (2966,  28,         68) /* Spell - ShockWave5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2966, 8000, 3684521540) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2966,    68,      2) ;

@@ -28,6 +28,3 @@ VALUES (13226,   1, 'Two Headed Snowman') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13226,   1,   33557451) /* Setup */
      , (13226,   8,  100672435) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13226, 8000, 2156007761) /* PCAPRecordedObjectIID */;

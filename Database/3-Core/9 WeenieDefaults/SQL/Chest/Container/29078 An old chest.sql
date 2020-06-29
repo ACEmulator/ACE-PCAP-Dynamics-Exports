@@ -35,8 +35,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29078, 8040, 18088319, 10.3459, -109.065, 0, -0.9998987, 0, 0, -0.014235) /* PCAPRecordedLocation */
 /* @teleloc 0x0114017F [10.345900 -109.065000 0.000000] -0.999899 0.000000 0.000000 -0.014235 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29078, 8000, 1880178695) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29078, -1, 29089, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Stolen Ewer (29089) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

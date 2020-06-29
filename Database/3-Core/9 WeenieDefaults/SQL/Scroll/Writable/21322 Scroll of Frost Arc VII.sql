@@ -28,8 +28,5 @@ VALUES (21322,   1,   33554826) /* Setup */
      , (21322,  22,  872415275) /* PhysicsEffectTable */
      , (21322,  28,       2731) /* Spell - FrostArc7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21322, 8000, 3710517809) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21322,  2731,      2) ;

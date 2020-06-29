@@ -35,9 +35,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (42030, 8040, 2349008864, 210, -30, 24.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307E0 [210.000000 -30.000000 24.006000] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42030, 8000, 3683495518) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42030, 2, 35395,  1, 0, 0, False) /* Create House Mhoire Shield (35395) for Wield */
      , (42030, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;

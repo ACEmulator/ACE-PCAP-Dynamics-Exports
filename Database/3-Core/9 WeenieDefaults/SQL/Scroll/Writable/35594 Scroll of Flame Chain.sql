@@ -24,6 +24,3 @@ VALUES (35594,   1,   33554826) /* Setup */
      , (35594,   8,  100677022) /* Icon */
      , (35594,  22,  872415275) /* PhysicsEffectTable */
      , (35594,  28,       4096) /* Spell - FlameChain */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35594, 8000, 2631404679) /* PCAPRecordedObjectIID */;

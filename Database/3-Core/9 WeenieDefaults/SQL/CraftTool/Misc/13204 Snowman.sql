@@ -33,6 +33,3 @@ VALUES (13204,   1, 'Snowman') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13204,   1,   33557444) /* Setup */
      , (13204,   8,  100672418) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13204, 8000, 3658163605) /* PCAPRecordedObjectIID */;

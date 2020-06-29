@@ -28,8 +28,5 @@ VALUES (3340,   1,   33554826) /* Setup */
      , (3340,  22,  872415275) /* PhysicsEffectTable */
      , (3340,  28,        973) /* Spell - JumpingMasterySelf4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3340, 8000, 2618122252) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3340,   973,      2) ;

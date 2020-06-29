@@ -26,6 +26,3 @@ VALUES (41542,   1, 'Unstable Mana Stone') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41542,   1,   33555641) /* Setup */
      , (41542,   8,  100676402) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41542, 8000, 2323350442) /* PCAPRecordedObjectIID */;

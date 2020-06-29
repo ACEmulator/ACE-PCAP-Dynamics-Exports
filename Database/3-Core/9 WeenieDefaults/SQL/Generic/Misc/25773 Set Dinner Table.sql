@@ -22,6 +22,3 @@ VALUES (25773,   1, 'Set Dinner Table') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25773,   1,   33558526) /* Setup */
      , (25773,   8,  100675556) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25773, 8000, 2147923146) /* PCAPRecordedObjectIID */;

@@ -31,8 +31,5 @@ VALUES (35981,   1,   33554826) /* Setup */
      , (35981,  22,  872415275) /* PhysicsEffectTable */
      , (35981,  28,       4128) /* Spell - GraveyardRecall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35981, 8000, 3694705334) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35981,  4128,      2) ;

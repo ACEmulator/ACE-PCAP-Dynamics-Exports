@@ -24,6 +24,3 @@ VALUES (46848,   1,   33554826) /* Setup */
      , (46848,   8,  100676672) /* Icon */
      , (46848,  22,  872415275) /* PhysicsEffectTable */
      , (46848,  28,       5982) /* Spell - HermeticLinkOther1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46848, 8000, 3623997110) /* PCAPRecordedObjectIID */;

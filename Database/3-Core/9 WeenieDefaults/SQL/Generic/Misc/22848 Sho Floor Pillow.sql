@@ -22,6 +22,3 @@ VALUES (22848,   1, 'Sho Floor Pillow') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22848,   1,   33558153) /* Setup */
      , (22848,   8,  100673915) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22848, 8000, 2622805862) /* PCAPRecordedObjectIID */;

@@ -29,9 +29,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (33139, 8040, 3537109616, 62, 175.546, -41.595, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
 /* @teleloc 0xD2D40270 [62.000000 175.546000 -41.595000] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33139, 8000, 2877473612) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (33139, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
      , (33139, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */;

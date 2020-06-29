@@ -24,6 +24,3 @@ VALUES (37749,   1,   33554826) /* Setup */
      , (37749,   8,  100676471) /* Icon */
      , (37749,  22,  872415275) /* PhysicsEffectTable */
      , (37749,  28,       4302) /* Spell - FeeblemindOther8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37749, 8000, 2153703759) /* PCAPRecordedObjectIID */;

@@ -28,9 +28,6 @@ VALUES (20475,   1,   33554826) /* Setup */
      , (20475,  22,  872415275) /* PhysicsEffectTable */
      , (20475,  28,       2155) /* Spell - ColdProtectionSelf7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20475, 8000, 3694231369) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20475,  2155,      2) ;
 

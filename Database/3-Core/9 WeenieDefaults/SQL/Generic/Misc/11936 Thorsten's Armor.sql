@@ -21,6 +21,3 @@ VALUES (11936,   1, 'Thorsten''s Armor') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11936,   1,   33557213) /* Setup */
      , (11936,   8,  100671781) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11936, 8000, 3658160307) /* PCAPRecordedObjectIID */;

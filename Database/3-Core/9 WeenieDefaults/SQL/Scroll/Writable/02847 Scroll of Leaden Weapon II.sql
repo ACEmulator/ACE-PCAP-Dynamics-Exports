@@ -28,8 +28,5 @@ VALUES (2847,   1,   33554826) /* Setup */
      , (2847,  22,  872415275) /* PhysicsEffectTable */
      , (2847,  28,       1629) /* Spell - LeadenWeapon2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2847, 8000, 3623500500) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2847,  1629,      2) ;

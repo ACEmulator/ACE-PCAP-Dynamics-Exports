@@ -24,6 +24,3 @@ VALUES (1897,   1,   33554826) /* Setup */
      , (1897,   8,  100676677) /* Icon */
      , (1897,  22,  872415275) /* PhysicsEffectTable */
      , (1897,  28,       1593) /* Spell - TurnBlade1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1897, 8000,       1897) /* PCAPRecordedObjectIID */;

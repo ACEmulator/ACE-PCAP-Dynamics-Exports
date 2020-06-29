@@ -24,6 +24,3 @@ VALUES (3251,   1,   33554826) /* Setup */
      , (3251,   8,  100676468) /* Icon */
      , (3251,  22,  872415275) /* PhysicsEffectTable */
      , (3251,  28,        266) /* Spell - DefenselessnessOther5 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3251, 8000,       3251) /* PCAPRecordedObjectIID */;

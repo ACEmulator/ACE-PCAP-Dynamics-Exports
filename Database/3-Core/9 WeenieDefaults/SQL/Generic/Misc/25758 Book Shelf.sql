@@ -22,6 +22,3 @@ VALUES (25758,   1, 'Book Shelf') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25758,   1,   33554819) /* Setup */
      , (25758,   8,  100668246) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25758, 8000, 2148135153) /* PCAPRecordedObjectIID */;

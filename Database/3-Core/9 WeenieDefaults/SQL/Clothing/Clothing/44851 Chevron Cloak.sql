@@ -56,8 +56,5 @@ VALUES (44851,   1,   33561386) /* Setup */
      , (44851,  50,  100690998) /* IconOverlay */
      , (44851,  55,       5753) /* ProcSpell - CloakAllSkill */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44851, 8000, 2174519321) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44851,  5753,      2) ;

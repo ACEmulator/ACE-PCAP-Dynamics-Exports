@@ -28,8 +28,5 @@ VALUES (45277,   1,   33554826) /* Setup */
      , (45277,  22,  872415275) /* PhysicsEffectTable */
      , (45277,  28,       5804) /* Spell - DualWieldMasterySelf2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45277, 8000, 3702814077) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45277,  5804,      2) ;

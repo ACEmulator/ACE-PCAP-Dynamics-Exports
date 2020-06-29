@@ -29,6 +29,3 @@ VALUES (36013,   1,   33557625) /* Setup */
      , (36013,  28,       4131) /* Spell - AxeMasterySpectral */
      , (36013,  50,  100692242) /* IconOverlay */
      , (36013,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36013, 8000,      36013) /* PCAPRecordedObjectIID */;

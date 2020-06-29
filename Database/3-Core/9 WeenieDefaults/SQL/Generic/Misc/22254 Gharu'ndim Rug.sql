@@ -22,6 +22,3 @@ VALUES (22254,   1, 'Gharu''ndim Rug') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22254,   1,   33558154) /* Setup */
      , (22254,   8,  100673907) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22254, 8000, 2166106116) /* PCAPRecordedObjectIID */;

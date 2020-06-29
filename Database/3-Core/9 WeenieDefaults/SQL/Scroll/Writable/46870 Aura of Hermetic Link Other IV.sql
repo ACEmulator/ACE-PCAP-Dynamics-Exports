@@ -28,8 +28,5 @@ VALUES (46870,   1,   33554826) /* Setup */
      , (46870,  22,  872415275) /* PhysicsEffectTable */
      , (46870,  28,       5985) /* Spell - HermeticLinkOther4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46870, 8000, 3709631340) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46870,  5985,      2) ;

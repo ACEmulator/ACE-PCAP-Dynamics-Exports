@@ -31,8 +31,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (47641, 8040, 2418081802, 36.94674, 39.76701, 197.9799, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
 /* @teleloc 0x9021000A [36.946740 39.767010 197.979900] 0.653282 0.653282 -0.270598 -0.270598 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47641, 8000, 3685857328) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47641, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */;

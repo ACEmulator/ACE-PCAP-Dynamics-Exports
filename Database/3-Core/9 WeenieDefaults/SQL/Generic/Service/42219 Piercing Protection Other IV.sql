@@ -21,6 +21,3 @@ VALUES (42219,   1,   33554680) /* Setup */
      , (42219,   8,  100668347) /* Icon */
      , (42219,  22,  872415275) /* PhysicsEffectTable */
      , (42219,  28,       1142) /* Spell - PiercingProtectionOther4 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42219, 8000,      42219) /* PCAPRecordedObjectIID */;

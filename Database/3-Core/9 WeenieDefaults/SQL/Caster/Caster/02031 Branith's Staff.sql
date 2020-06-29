@@ -41,9 +41,6 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031,  22,  872415275) /* PhysicsEffectTable */
      , (2031,  28,       2742) /* Spell - FlameArc4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2031, 8000, 3683069711) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2031,   215,      2) 
      , (2031,   632,      2) 

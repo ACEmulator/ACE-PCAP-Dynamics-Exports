@@ -28,8 +28,5 @@ VALUES (2787,   1,   33554826) /* Setup */
      , (2787,  22,  872415275) /* PhysicsEffectTable */
      , (2787,  28,       1617) /* Spell - BloodLoather2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2787, 8000, 3695126794) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2787,  1617,      2) ;

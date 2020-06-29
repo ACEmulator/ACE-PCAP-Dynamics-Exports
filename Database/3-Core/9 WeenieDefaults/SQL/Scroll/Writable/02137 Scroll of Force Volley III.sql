@@ -28,8 +28,5 @@ VALUES (2137,   1,   33554826) /* Setup */
      , (2137,  22,  872415275) /* PhysicsEffectTable */
      , (2137,  28,        147) /* Spell - ForceVolley3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2137, 8000, 3631307393) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2137,   147,      2) ;

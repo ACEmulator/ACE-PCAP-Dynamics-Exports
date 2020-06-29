@@ -47,8 +47,5 @@ VALUES (31774,   1,   33559627) /* Setup */
      , (31774,   8,  100688088) /* Icon */
      , (31774,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31774, 8000, 3687970018) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31774, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for Wield */;

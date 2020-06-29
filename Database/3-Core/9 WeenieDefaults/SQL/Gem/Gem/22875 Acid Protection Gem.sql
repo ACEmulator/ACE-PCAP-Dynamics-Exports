@@ -36,8 +36,5 @@ VALUES (22875,   1,   33554809) /* Setup */
      , (22875,  22,  872415275) /* PhysicsEffectTable */
      , (22875,  28,        514) /* Spell - AcidProtectionOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22875, 8000, 2164419480) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22875,   514,      2) ;

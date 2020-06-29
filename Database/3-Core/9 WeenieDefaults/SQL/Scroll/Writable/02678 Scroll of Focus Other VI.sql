@@ -28,8 +28,5 @@ VALUES (2678,   1,   33554826) /* Setup */
      , (2678,  22,  872415275) /* PhysicsEffectTable */
      , (2678,  28,       1432) /* Spell - FocusOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2678, 8000, 2980942517) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2678,  1432,      2) ;

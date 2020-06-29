@@ -25,6 +25,3 @@ VALUES (36913,   1, 'Grand Bed') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36913,   1,   33560423) /* Setup */
      , (36913,   8,  100689743) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36913, 8000, 2192145778) /* PCAPRecordedObjectIID */;

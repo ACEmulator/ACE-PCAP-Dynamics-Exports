@@ -55,9 +55,6 @@ VALUES (35976,   1,   33560354) /* Setup */
      , (35976,  22,  872415275) /* PhysicsEffectTable */
      , (35976,  55,       1492) /* ProcSpell - Brittlemail6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35976, 8000, 3697836603) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35976,  1492,      2) 
      , (35976,  1605,      2) 

@@ -28,8 +28,5 @@ VALUES (9625,   1,   33554826) /* Setup */
      , (9625,  22,  872415275) /* PhysicsEffectTable */
      , (9625,  28,       1013) /* Spell - JumpingIneptitudeOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9625, 8000, 3624422718) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9625,  1013,      2) ;

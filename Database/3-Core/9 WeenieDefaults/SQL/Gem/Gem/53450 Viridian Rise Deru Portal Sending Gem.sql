@@ -40,8 +40,5 @@ VALUES (53450,   1,   33556769) /* Setup */
      , (53450,  22,  872415275) /* PhysicsEffectTable */
      , (53450,  28,       6322) /* Spell - ViridianRiseGreatTreeRecall */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53450, 8000, 2932473652) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53450,  6322,      2) ;

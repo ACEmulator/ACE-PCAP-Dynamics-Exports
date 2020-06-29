@@ -27,6 +27,3 @@ VALUES (792,   1,   33555208) /* Setup */
      , (792,   6,   67111919) /* PaletteBase */
      , (792,   8,  100668378) /* Icon */
      , (792,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (792, 8000, 2186220487) /* PCAPRecordedObjectIID */;

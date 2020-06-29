@@ -22,6 +22,3 @@ VALUES (11154,   1, 'Rubble') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11154,   1,   33556735) /* Setup */
      , (11154,   8,  100670227) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11154, 8000, 2874726571) /* PCAPRecordedObjectIID */;

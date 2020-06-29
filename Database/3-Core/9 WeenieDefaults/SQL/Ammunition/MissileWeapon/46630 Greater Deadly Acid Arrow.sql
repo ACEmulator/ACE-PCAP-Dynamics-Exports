@@ -61,9 +61,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (46630, 8040, 1499529482, 23.63918, -86.08833, 1.201305, -0.2662404, 0, 0, -0.9639066) /* PCAPRecordedLocation */
 /* @teleloc 0x5961010A [23.639180 -86.088330 1.201305] -0.266240 0.000000 0.000000 -0.963907 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46630, 8000, 3695153263) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46630, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */
      , (46630, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */

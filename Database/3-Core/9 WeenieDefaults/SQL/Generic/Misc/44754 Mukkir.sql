@@ -21,6 +21,3 @@ VALUES (44754,   1, 'Mukkir') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44754,   1,   33561354) /* Setup */
      , (44754,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44754, 8000, 2619474466) /* PCAPRecordedObjectIID */;

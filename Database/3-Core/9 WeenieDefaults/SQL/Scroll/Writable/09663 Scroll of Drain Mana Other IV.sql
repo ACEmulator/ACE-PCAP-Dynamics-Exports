@@ -28,8 +28,5 @@ VALUES (9663,   1,   33554826) /* Setup */
      , (9663,  22,  872415275) /* PhysicsEffectTable */
      , (9663,  28,       1263) /* Spell - DrainMana4 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9663, 8000, 2925030479) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9663,  1263,      2) ;

@@ -28,8 +28,5 @@ VALUES (22578,   1,   33558106) /* Setup */
      , (22578,   8,  100673809) /* Icon */
      , (22578,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22578, 8000, 2186220551) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22578, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

@@ -28,8 +28,5 @@ VALUES (1886,   1,   33554826) /* Setup */
      , (1886,  22,  872415275) /* PhysicsEffectTable */
      , (1886,  28,       1469) /* Spell - HermeticVoid1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1886, 8000, 3630359931) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1886,  1469,      2) ;

@@ -21,9 +21,6 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (273,   1,   33557367) /* Setup */
      , (273,   8,  100672159) /* Icon */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (273, 8000, 3681041220) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (273, 2,  3794,  1, 0, 0, False) /* Create Acid Jambiya (3794) for Wield */
      , (273, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */

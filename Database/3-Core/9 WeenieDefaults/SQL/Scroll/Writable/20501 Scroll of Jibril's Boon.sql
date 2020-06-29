@@ -28,8 +28,5 @@ VALUES (20501,   1,   33554826) /* Setup */
      , (20501,  22,  872415275) /* PhysicsEffectTable */
      , (20501,  28,       2196) /* Spell - ArmorExpertiseOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20501, 8000, 3680600144) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20501,  2196,      2) ;

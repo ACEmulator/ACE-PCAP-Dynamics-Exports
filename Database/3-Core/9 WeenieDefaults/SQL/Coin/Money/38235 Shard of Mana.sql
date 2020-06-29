@@ -22,6 +22,3 @@ VALUES (38235,   1, 'Shard of Mana') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38235,   1,   33555641) /* Setup */
      , (38235,   8,  100690181) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38235, 8000, 2178473078) /* PCAPRecordedObjectIID */;

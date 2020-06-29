@@ -21,6 +21,3 @@ VALUES (44782,   1, 'Wisp') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44782,   1,   33561382) /* Setup */
      , (44782,   8,  100668115) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44782, 8000, 2461689444) /* PCAPRecordedObjectIID */;

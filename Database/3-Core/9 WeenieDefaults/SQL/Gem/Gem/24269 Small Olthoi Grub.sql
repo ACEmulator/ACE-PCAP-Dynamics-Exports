@@ -31,6 +31,3 @@ VALUES (24269,   1,   33558333) /* Setup */
      , (24269,   8,  100674288) /* Icon */
      , (24269,  22,  872415265) /* PhysicsEffectTable */
      , (24269,  30,         86) /* PhysicsScript - BreatheAcid */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24269, 8000, 2982947177) /* PCAPRecordedObjectIID */;

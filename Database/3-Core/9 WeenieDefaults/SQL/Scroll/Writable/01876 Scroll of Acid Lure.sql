@@ -28,8 +28,5 @@ VALUES (1876,   1,   33554826) /* Setup */
      , (1876,  22,  872415275) /* PhysicsEffectTable */
      , (1876,  28,       1499) /* Spell - AcidLure1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1876, 8000, 2624895960) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1876,  1499,      2) ;

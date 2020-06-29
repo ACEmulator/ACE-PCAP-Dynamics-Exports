@@ -36,8 +36,5 @@ VALUES (11137,   1,   33557217) /* Setup */
      , (11137,  22,  872415275) /* PhysicsEffectTable */
      , (11137,  28,       2435) /* Spell - LightningWard */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11137, 8000, 2174519210) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11137,  2435,      2) ;

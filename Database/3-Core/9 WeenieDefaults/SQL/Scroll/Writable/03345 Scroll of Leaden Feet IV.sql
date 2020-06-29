@@ -24,6 +24,3 @@ VALUES (3345,   1,   33554826) /* Setup */
      , (3345,   8,  100676470) /* Icon */
      , (3345,  22,  872415275) /* PhysicsEffectTable */
      , (3345,  28,       1003) /* Spell - LeadenFeetOther4 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3345, 8000,       3345) /* PCAPRecordedObjectIID */;

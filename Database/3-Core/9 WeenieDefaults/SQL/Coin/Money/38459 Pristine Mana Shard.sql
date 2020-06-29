@@ -32,6 +32,3 @@ VALUES (38459,   1, 'Pristine Mana Shard') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38459,   1,   33555641) /* Setup */
      , (38459,   8,  100690180) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38459, 8000, 2461755457) /* PCAPRecordedObjectIID */;

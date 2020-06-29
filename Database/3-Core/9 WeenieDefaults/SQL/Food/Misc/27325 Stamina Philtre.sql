@@ -28,8 +28,5 @@ VALUES (27325,   1,   33554603) /* Setup */
      , (27325,   8,  100676320) /* Icon */
      , (27325,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27325, 8000, 2151960055) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27325, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;

@@ -24,6 +24,3 @@ VALUES (37854,   1,   33554826) /* Setup */
      , (37854,   8,  100677013) /* Icon */
      , (37854,  22,  872415275) /* PhysicsEffectTable */
      , (37854,  28,       4426) /* Spell - LightningArc8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37854, 8000, 2158698330) /* PCAPRecordedObjectIID */;

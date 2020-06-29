@@ -28,8 +28,5 @@ VALUES (8943,   1,   33554826) /* Setup */
      , (8943,  22,  872415275) /* PhysicsEffectTable */
      , (8943,  28,       1816) /* Spell - LightningStreak3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8943, 8000, 2448362782) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8943,  1816,      2) ;

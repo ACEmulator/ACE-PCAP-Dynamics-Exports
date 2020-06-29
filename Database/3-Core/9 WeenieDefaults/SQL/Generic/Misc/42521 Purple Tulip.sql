@@ -19,6 +19,3 @@ VALUES (42521,   1, 'Purple Tulip') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42521,   1,   33560933) /* Setup */
      , (42521,   8,  100690918) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42521, 8000, 2975089936) /* PCAPRecordedObjectIID */;

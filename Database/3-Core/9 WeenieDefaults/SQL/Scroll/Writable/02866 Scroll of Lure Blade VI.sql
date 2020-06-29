@@ -28,8 +28,5 @@ VALUES (2866,   1,   33554826) /* Setup */
      , (2866,  22,  872415275) /* PhysicsEffectTable */
      , (2866,  28,       1611) /* Spell - LureBlade6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2866, 8000, 3359932740) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2866,  1611,      2) ;

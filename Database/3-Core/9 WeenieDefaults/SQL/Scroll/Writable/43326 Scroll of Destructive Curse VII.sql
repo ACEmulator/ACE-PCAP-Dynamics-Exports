@@ -28,8 +28,5 @@ VALUES (43326,   1,   33554826) /* Setup */
      , (43326,  22,  872415275) /* PhysicsEffectTable */
      , (43326,  28,       5337) /* Spell - CurseDestructionOther7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43326, 8000, 3692548262) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43326,  5337,      2) ;

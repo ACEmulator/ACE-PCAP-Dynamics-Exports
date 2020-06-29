@@ -28,8 +28,5 @@ VALUES (3012,   1,   33554826) /* Setup */
      , (3012,  22,  872415275) /* PhysicsEffectTable */
      , (3012,  28,       1023) /* Spell - BludgeonProtectionSelf6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3012, 8000, 3698133192) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3012,  1023,      2) ;

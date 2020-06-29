@@ -24,6 +24,3 @@ VALUES (31381,   1, 'Vestibule Lock') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31381,   1,   33556743) /* Setup */
      , (31381,   8,  100687954) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31381, 8000, 3711411048) /* PCAPRecordedObjectIID */;

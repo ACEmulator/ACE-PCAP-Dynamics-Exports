@@ -22,6 +22,3 @@ VALUES (25771,   1, 'Alchemy Table') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25771,   1,   33558527) /* Setup */
      , (25771,   8,  100675554) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25771, 8000, 2949259036) /* PCAPRecordedObjectIID */;

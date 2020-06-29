@@ -47,9 +47,6 @@ VALUES (8904,   1,   33556976) /* Setup */
      , (8904,  22,  872415275) /* PhysicsEffectTable */
      , (8904,  28,       2348) /* Spell - BrillianceOther */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8904, 8000, 2186220462) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8904,  2346,      2) 
      , (8904,  2347,      2) 

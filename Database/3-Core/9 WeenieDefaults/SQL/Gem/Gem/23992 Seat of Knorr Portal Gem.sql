@@ -42,8 +42,5 @@ VALUES (23992,   1,   33556769) /* Setup */
      , (23992,  22,  872415275) /* PhysicsEffectTable */
      , (23992,  28,       2957) /* Spell - PortalSendingKnorrSeat */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23992, 8000, 2153711878) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23992,  2957,      2) ;

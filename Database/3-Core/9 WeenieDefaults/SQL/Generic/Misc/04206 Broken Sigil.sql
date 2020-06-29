@@ -22,6 +22,3 @@ VALUES (4206,   1, 'Broken Sigil') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4206,   1,   33556438) /* Setup */
      , (4206,   8,  100670227) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4206, 8000, 2248048150) /* PCAPRecordedObjectIID */;

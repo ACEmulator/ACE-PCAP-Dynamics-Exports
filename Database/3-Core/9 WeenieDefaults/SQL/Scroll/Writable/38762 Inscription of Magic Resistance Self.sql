@@ -24,6 +24,3 @@ VALUES (38762,   1,   33554826) /* Setup */
      , (38762,   8,  100676465) /* Icon */
      , (38762,  22,  872415275) /* PhysicsEffectTable */
      , (38762,  28,       4596) /* Spell - MagicResistanceSelf8 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38762, 8000, 3634191529) /* PCAPRecordedObjectIID */;

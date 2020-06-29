@@ -33,9 +33,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (41569, 8040, 2270494976, 57.9004, 129.019, 9.705, 0.913877, 0, 0, 0.40599) /* PCAPRecordedLocation */
 /* @teleloc 0x87550100 [57.900400 129.019000 9.705000] 0.913877 0.000000 0.000000 0.405990 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41569, 8000, 3709162178) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41569, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
      , (41569, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */;

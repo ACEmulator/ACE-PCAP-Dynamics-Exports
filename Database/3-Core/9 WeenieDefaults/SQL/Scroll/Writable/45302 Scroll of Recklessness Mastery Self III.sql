@@ -28,8 +28,5 @@ VALUES (45302,   1,   33554826) /* Setup */
      , (45302,  22,  872415275) /* PhysicsEffectTable */
      , (45302,  28,       5829) /* Spell - RecklessnessMasterySelf3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45302, 8000, 3688788499) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45302,  5829,      2) ;

@@ -24,6 +24,3 @@ VALUES (3278,   1,   33554826) /* Setup */
      , (3278,   8,  100676459) /* Icon */
      , (3278,  22,  872415275) /* PhysicsEffectTable */
      , (3278,  28,        875) /* Spell - HealingMasterySelf2 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3278, 8000, 3623502097) /* PCAPRecordedObjectIID */;

@@ -42,8 +42,5 @@ VALUES (20019,   1,   33556769) /* Setup */
      , (20019,  22,  872415275) /* PhysicsEffectTable */
      , (20019,  28,       2671) /* Spell - PortalSendingLabyrinthRewards */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20019, 8000, 2274298724) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20019,  2671,      2) ;

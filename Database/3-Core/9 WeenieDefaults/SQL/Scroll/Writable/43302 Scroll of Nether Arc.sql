@@ -24,6 +24,3 @@ VALUES (43302,   1,   33554826) /* Setup */
      , (43302,   8,  100691569) /* Icon */
      , (43302,  22,  872415275) /* PhysicsEffectTable */
      , (43302,  28,       5369) /* Spell - NetherArc1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43302, 8000, 3628555445) /* PCAPRecordedObjectIID */;

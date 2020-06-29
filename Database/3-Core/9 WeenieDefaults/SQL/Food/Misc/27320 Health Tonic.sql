@@ -28,9 +28,6 @@ VALUES (27320,   1,   33554603) /* Setup */
      , (27320,   8,  100676313) /* Icon */
      , (27320,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27320, 8000, 3686693179) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27320, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (27320, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;

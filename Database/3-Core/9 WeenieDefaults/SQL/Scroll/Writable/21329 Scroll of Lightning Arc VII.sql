@@ -28,8 +28,5 @@ VALUES (21329,   1,   33554826) /* Setup */
      , (21329,  22,  872415275) /* PhysicsEffectTable */
      , (21329,  28,       2738) /* Spell - LightningArc7 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21329, 8000, 3687996329) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21329,  2738,      2) ;

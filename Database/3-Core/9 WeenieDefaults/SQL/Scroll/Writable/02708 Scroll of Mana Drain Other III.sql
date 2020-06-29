@@ -28,8 +28,5 @@ VALUES (2708,   1,   33554826) /* Setup */
      , (2708,  22,  872415275) /* PhysicsEffectTable */
      , (2708,  28,       1221) /* Spell - ManaDrainOther3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2708, 8000, 2924816085) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2708,  1221,      2) ;

@@ -18,6 +18,3 @@ VALUES (34309,   1, 'Filled Sacrificial Goblet') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34309,   1,   33554663) /* Setup */
      , (34309,   8,  100689276) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34309, 8000, 3704046872) /* PCAPRecordedObjectIID */;

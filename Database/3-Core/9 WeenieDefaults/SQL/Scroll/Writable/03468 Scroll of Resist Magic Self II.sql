@@ -28,8 +28,5 @@ VALUES (3468,   1,   33554826) /* Setup */
      , (3468,  22,  872415275) /* PhysicsEffectTable */
      , (3468,  28,        275) /* Spell - MagicResistanceSelf2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3468, 8000, 2616308179) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3468,   275,      2) ;

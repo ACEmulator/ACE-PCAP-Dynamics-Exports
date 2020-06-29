@@ -22,6 +22,3 @@ VALUES (45769,   1, 'Deru Avatar''s Gem') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45769,   1,   33555641) /* Setup */
      , (45769,   8,  100690180) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45769, 8000, 3695153402) /* PCAPRecordedObjectIID */;

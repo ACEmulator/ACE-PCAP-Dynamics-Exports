@@ -32,9 +32,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (8592, 8040, 4044816395, 41.4549, 67.5594, 19.90825, -0.9821403, 0, 0, -0.1881501) /* PCAPRecordedLocation */
 /* @teleloc 0xF117000B [41.454900 67.559400 19.908250] -0.982140 0.000000 0.000000 -0.188150 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8592, 8000, 3709229921) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8592, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (8592, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */

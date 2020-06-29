@@ -22,6 +22,3 @@ VALUES (14424,   1, 'Glass Spherule') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14424,   1,   33556768) /* Setup */
      , (14424,   8,  100672464) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14424, 8000, 2780792206) /* PCAPRecordedObjectIID */;

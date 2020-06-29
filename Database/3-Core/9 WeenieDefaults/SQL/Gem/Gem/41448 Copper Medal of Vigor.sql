@@ -32,6 +32,3 @@ VALUES (41448,   1,   33554802) /* Setup */
      , (41448,   8,  100690739) /* Icon */
      , (41448,  22,  872415275) /* PhysicsEffectTable */
      , (41448,  28,       5128) /* Spell - AnswerOfLoyaltyStam1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41448, 8000, 2976422444) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,5 @@ VALUES (1729,   1,   33554826) /* Setup */
      , (1729,  22,  872415275) /* PhysicsEffectTable */
      , (1729,  28,        817) /* Spell - MonsterUnfamiliarityOther1 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1729, 8000, 2623694553) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1729,   817,      2) ;

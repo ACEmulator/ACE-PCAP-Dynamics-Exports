@@ -29,6 +29,3 @@ VALUES (45357,   1,   33557625) /* Setup */
      , (45357,  28,       5904) /* Spell - DualWieldMasterySpectral */
      , (45357,  50,  100692245) /* IconOverlay */
      , (45357,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45357, 8000,      45357) /* PCAPRecordedObjectIID */;

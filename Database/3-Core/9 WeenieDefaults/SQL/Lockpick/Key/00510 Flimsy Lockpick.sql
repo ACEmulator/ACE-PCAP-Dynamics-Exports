@@ -25,6 +25,3 @@ VALUES (510,   1, 'Flimsy Lockpick') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (510,   1,   33554790) /* Setup */
      , (510,   8,  100670825) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (510, 8000, 2918685866) /* PCAPRecordedObjectIID */;

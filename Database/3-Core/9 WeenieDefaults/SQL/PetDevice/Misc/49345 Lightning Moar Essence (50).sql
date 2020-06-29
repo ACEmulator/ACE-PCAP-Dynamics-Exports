@@ -44,8 +44,5 @@ VALUES (49345,   1,   33554817) /* Setup */
      , (49345,  50,  100693026) /* IconOverlay */
      , (49345,  52,  100693024) /* IconUnderlay */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49345, 8000, 3690338178) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49345, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */;

@@ -41,9 +41,6 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,  22,  872415275) /* PhysicsEffectTable */
      , (3721,  28,        145) /* Spell - FlameVolley5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3721, 8000, 3656750334) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3721,   145,      2) 
      , (3721,   518,      2) 

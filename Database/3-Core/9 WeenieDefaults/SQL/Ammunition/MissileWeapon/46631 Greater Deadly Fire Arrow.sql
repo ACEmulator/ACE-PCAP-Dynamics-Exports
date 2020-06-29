@@ -40,8 +40,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (46631, 8040, 1289945117, 79.23936, 108.1325, 58.51483, -0.3369389, -0.3369389, -0.6216689, -0.6216689) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE3001D [79.239360 108.132500 58.514830] -0.336939 -0.336939 -0.621669 -0.621669 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46631, 8000, 3707809588) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46631, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */;

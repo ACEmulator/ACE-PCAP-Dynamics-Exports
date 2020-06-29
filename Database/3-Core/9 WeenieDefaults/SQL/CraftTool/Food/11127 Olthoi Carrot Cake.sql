@@ -37,8 +37,5 @@ VALUES (11127,   1,   33555193) /* Setup */
      , (11127,  22,  872415275) /* PhysicsEffectTable */
      , (11127,  28,       2424) /* Spell - RabbitsEye */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11127, 8000, 3697643056) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11127,  2424,      2) ;

@@ -39,8 +39,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1271, 8040, 31588659, 87.3146, -10.157, -18, 0.7176702, 0, 0, -0.6963832) /* PCAPRecordedLocation */
 /* @teleloc 0x01E20133 [87.314600 -10.157000 -18.000000] 0.717670 0.000000 0.000000 -0.696383 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1271, 8000, 1881022497) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1271, -1, 22885, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Bandit Shield (22885) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

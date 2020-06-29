@@ -36,8 +36,5 @@ VALUES (9427,   1,   33554809) /* Setup */
      , (9427,  22,  872415275) /* PhysicsEffectTable */
      , (9427,  28,       2398) /* Spell - BludgeonShield */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9427, 8000, 2568029311) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9427,  2398,      2) ;

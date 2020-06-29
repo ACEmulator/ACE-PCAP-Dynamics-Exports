@@ -28,8 +28,5 @@ VALUES (43330,   1,   33554826) /* Setup */
      , (43330,  22,  872415275) /* PhysicsEffectTable */
      , (43330,  28,       5372) /* Spell - CurseFestering2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43330, 8000, 3702064111) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43330,  5372,      2) ;

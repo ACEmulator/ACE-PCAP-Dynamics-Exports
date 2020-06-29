@@ -48,9 +48,6 @@ VALUES (7407,   1,   33556630) /* Setup */
      , (7407,  22,  872415275) /* PhysicsEffectTable */
      , (7407,  28,       1794) /* Spell - AcidStreak5 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7407, 8000, 3697840536) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7407,   615,      2) 
      , (7407,   639,      2) 

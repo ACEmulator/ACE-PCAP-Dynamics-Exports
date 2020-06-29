@@ -23,9 +23,6 @@ VALUES (8814,   1,   33556929) /* Setup */
      , (8814,   8,  100671238) /* Icon */
      , (8814,  22,  872415275) /* PhysicsEffectTable */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8814, 8000, 2917776962) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (8814, 9, 1000);
 

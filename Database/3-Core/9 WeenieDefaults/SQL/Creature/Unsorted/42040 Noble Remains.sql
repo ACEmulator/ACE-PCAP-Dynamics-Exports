@@ -57,8 +57,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (42040, 8040, 2349008730, 210, -200, 12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8C03075A [210.000000 -200.000000 12.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42040, 8000, 2628918606) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42040, 9, 42039,  1, 0, 0, False) /* Create Mhoire Signet Ring (42039) for ContainTreasure */;

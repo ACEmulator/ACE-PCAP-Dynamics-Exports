@@ -29,6 +29,3 @@ VALUES (25781,   1,   33558523) /* Setup */
      , (25781,   8,  100675514) /* Icon */
      , (25781,  22,  872415275) /* PhysicsEffectTable */
      , (25781,  28,       2991) /* Spell - WintersKiss */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25781, 8000, 3611344050) /* PCAPRecordedObjectIID */;

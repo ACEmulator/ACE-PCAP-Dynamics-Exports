@@ -22,6 +22,3 @@ VALUES (22851,   1, 'Snowman Snowglobe') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22851,   1,   33558133) /* Setup */
      , (22851,   8,  100673882) /* Icon */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22851, 8000, 2151960035) /* PCAPRecordedObjectIID */;

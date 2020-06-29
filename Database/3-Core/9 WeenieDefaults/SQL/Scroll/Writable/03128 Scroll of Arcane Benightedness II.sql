@@ -28,8 +28,5 @@ VALUES (3128,   1,   33554826) /* Setup */
      , (3128,  22,  872415275) /* PhysicsEffectTable */
      , (3128,  28,        697) /* Spell - ArcaneBenightednessOther2 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3128, 8000, 3624792330) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3128,   697,      2) ;

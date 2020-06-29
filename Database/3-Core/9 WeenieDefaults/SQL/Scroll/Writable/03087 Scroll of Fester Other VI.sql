@@ -28,8 +28,5 @@ VALUES (3087,   1,   33554826) /* Setup */
      , (3087,  22,  872415275) /* PhysicsEffectTable */
      , (3087,  28,        176) /* Spell - FesterOther6 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3087, 8000, 3681392115) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3087,   176,      2) ;

@@ -24,6 +24,3 @@ VALUES (28933,   1,   33554826) /* Setup */
      , (28933,   8,  100676477) /* Icon */
      , (28933,  22,  872415275) /* PhysicsEffectTable */
      , (28933,  28,       3499) /* Spell - ArcanumSalvagingSelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28933, 8000, 2264331447) /* PCAPRecordedObjectIID */;

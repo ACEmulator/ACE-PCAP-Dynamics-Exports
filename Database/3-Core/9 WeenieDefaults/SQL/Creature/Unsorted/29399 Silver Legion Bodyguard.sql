@@ -32,8 +32,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (29399, 8040, 1770109, 320, -337, 24.00627, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x001B027D [320.000000 -337.000000 24.006270] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29399, 8000, 3703768871) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29399, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */;

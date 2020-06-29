@@ -47,9 +47,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (47514, 8040, 2400976923, 93.33515, 61.45127, 327.0215, 0.6117427, 0.4074358, -0.376629, -0.5638418) /* PCAPRecordedLocation */
 /* @teleloc 0x8F1C001B [93.335150 61.451270 327.021500] 0.611743 0.407436 -0.376629 -0.563842 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47514, 8000, 3685718383) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47514, 2, 12069,  1, 0, 0, False) /* Create Bandit Flaming Knife (12069) for Wield */
      , (47514, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

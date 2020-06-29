@@ -63,8 +63,5 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (48266, 8040, 4133224494, 129.7927, 132.1853, 19.92725, 0.5656151, 0.5656151, -0.4243578, -0.4243578) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C002E [129.792700 132.185300 19.927250] 0.565615 0.565615 -0.424358 -0.424358 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48266, 8000, 3710822657) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48266, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;

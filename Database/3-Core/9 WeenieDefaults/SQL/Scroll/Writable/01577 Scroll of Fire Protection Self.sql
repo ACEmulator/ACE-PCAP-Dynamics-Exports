@@ -24,6 +24,3 @@ VALUES (1577,   1,   33554826) /* Setup */
      , (1577,   8,  100676949) /* Icon */
      , (1577,  22,  872415275) /* PhysicsEffectTable */
      , (1577,  28,         20) /* Spell - FireProtectionSelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1577, 8000, 2240725109) /* PCAPRecordedObjectIID */;

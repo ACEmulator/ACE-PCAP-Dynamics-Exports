@@ -31,9 +31,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1634, 8040, 2474377268, 147.0532, 74.88306, 37.42716, -0.7066732, 0, 0, -0.7075401) /* PCAPRecordedLocation */
 /* @teleloc 0x937C0034 [147.053200 74.883060 37.427160] -0.706673 0.000000 0.000000 -0.707540 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1634, 8000, 3685896114) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1634, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */
      , (1634, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */

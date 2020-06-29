@@ -24,6 +24,3 @@ VALUES (1731,   1,   33554826) /* Setup */
      , (1731,   8,  100676448) /* Icon */
      , (1731,  22,  872415275) /* PhysicsEffectTable */
      , (1731,  28,        824) /* Spell - PersonAttunementSelf1 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1731, 8000, 2931236897) /* PCAPRecordedObjectIID */;

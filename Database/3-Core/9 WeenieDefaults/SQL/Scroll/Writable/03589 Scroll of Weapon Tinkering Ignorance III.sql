@@ -28,8 +28,5 @@ VALUES (3589,   1,   33554826) /* Setup */
      , (3589,  22,  872415275) /* PhysicsEffectTable */
      , (3589,  28,        794) /* Spell - WeaponIgnoranceOther3 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3589, 8000, 3356259595) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3589,   794,      2) ;

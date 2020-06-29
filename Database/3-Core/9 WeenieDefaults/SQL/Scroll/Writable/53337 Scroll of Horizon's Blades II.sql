@@ -28,8 +28,5 @@ VALUES (53337,   1,   33554826) /* Setup */
      , (53337,  22,  872415275) /* PhysicsEffectTable */
      , (53337,  28,       6190) /* Spell - HorizonsBladesII */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53337, 8000, 3630241552) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53337,  6190,      2) ;

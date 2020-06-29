@@ -43,8 +43,5 @@ VALUES (42635,   1,   33554809) /* Setup */
      , (42635,  50,  100690999) /* IconOverlay */
      , (42635,  55,       5208) /* ProcSpell - AetheriaProcHealthOverTime */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42635, 8000, 2842818606) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42635,  5208,      2) ;
