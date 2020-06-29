@@ -1,0 +1,60 @@
+DELETE FROM `weenie` WHERE `class_Id` = 5914;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5914, 'robeitemsho', 2, '2019-02-10 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (5914,   1,          4) /* ItemType - Clothing */
+     , (5914,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
+     , (5914,   5,        200) /* EncumbranceVal */
+     , (5914,   9,      32512) /* ValidLocations - Armor */
+     , (5914,  16,          1) /* ItemUseable - No */
+     , (5914,  18,          1) /* UiEffects - Magical */
+     , (5914,  19,       8000) /* Value */
+     , (5914,  28,          0) /* ArmorLevel */
+     , (5914,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (5914, 106,        270) /* ItemSpellcraft */
+     , (5914, 107,        216) /* ItemCurMana */
+     , (5914, 108,        416) /* ItemMaxMana */
+     , (5914, 109,        158) /* ItemDifficulty */
+     , (5914, 115,        190) /* ItemSkillLevelLimit */
+     , (5914, 176,         32) /* AppraisalItemSkill */
+     , (5914, 188,          3) /* HeritageGroup - Sho */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (5914,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (5914,   5,  -0.116) /* ManaRate */
+     , (5914,  13,     0.8) /* ArmorModVsSlash */
+     , (5914,  14,     0.8) /* ArmorModVsPierce */
+     , (5914,  15,       1) /* ArmorModVsBludgeon */
+     , (5914,  16,     0.2) /* ArmorModVsCold */
+     , (5914,  17,     0.2) /* ArmorModVsFire */
+     , (5914,  18,     0.1) /* ArmorModVsAcid */
+     , (5914,  19,     0.2) /* ArmorModVsElectric */
+     , (5914, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5914,   1, 'Suikan Item Master Robe') /* Name */
+     , (5914,   7, 'please return') /* Inscription */
+     , (5914,   8, 'Lonsgard') /* ScribeName */
+     , (5914,  16, 'A finely tailored Sho robe for master mages.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5914,   1,   33554854) /* Setup */
+     , (5914,   3,  536870932) /* SoundTable */
+     , (5914,   6,   67108990) /* PaletteBase */
+     , (5914,   8,  100670375) /* Icon */
+     , (5914,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (5914, 8000, 2981038649) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (5914,   571,      2) 
+     , (5914,   590,      2) 
+     , (5914,   625,      2) 
+     , (5914,   649,      2) 
+     , (5914,  1453,      2) 
+     , (5914,  1484,      2) ;

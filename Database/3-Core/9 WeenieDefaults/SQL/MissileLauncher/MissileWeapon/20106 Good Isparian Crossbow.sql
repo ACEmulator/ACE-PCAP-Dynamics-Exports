@@ -1,0 +1,34 @@
+DELETE FROM `weenie` WHERE `class_Id` = 20106;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (20106, 'crossbowispariangoodnostone', 3, '2019-02-10 00:00:00') /* MissileLauncher */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (20106,   1,        256) /* ItemType - MissileWeapon */
+     , (20106,   5,       1400) /* EncumbranceVal */
+     , (20106,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (20106,  16,          1) /* ItemUseable - No */
+     , (20106,  18,          1) /* UiEffects - Magical */
+     , (20106,  19,       4000) /* Value */
+     , (20106,  50,          2) /* AmmoType - Bolt */
+     , (20106,  51,          2) /* CombatUse - Missle */
+     , (20106,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (20106, 151,          2) /* HookType - Wall */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (20106,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (20106,  39,    1.25) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (20106,   1, 'Good Isparian Crossbow') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (20106,   1,   33557730) /* Setup */
+     , (20106,   3,  536870932) /* SoundTable */
+     , (20106,   8,  100673020) /* Icon */
+     , (20106,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (20106, 8000, 2261330344) /* PCAPRecordedObjectIID */;

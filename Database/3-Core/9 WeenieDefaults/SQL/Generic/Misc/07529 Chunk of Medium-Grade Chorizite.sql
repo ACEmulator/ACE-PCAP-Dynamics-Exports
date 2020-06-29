@@ -1,0 +1,31 @@
+DELETE FROM `weenie` WHERE `class_Id` = 7529;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (7529, 'chorizitechunkb', 1, '2019-02-10 00:00:00') /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (7529,   1,        128) /* ItemType - Misc */
+     , (7529,   5,       1000) /* EncumbranceVal */
+     , (7529,  16,          1) /* ItemUseable - No */
+     , (7529,  19,          0) /* Value */
+     , (7529,  33,          1) /* Bonded - Bonded */
+     , (7529,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (7529, 114,          1) /* Attuned - Attuned */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (7529,  22, True ) /* Inscribable */
+     , (7529,  69, False) /* IsSellable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (7529,   1, 'Chunk of Medium-Grade Chorizite') /* Name */
+     , (7529,  16, 'A chunk of unrefined medium-grade chorizite.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (7529,   1,   33554817) /* Setup */
+     , (7529,   3,  536870932) /* SoundTable */
+     , (7529,   6,   67111919) /* PaletteBase */
+     , (7529,   8,  100670768) /* Icon */
+     , (7529,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (7529, 8000, 3680977286) /* PCAPRecordedObjectIID */;

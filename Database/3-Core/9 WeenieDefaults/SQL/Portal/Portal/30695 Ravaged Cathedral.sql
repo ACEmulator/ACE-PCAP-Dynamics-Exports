@@ -1,0 +1,33 @@
+DELETE FROM `weenie` WHERE `class_Id` = 30695;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (30695, 'portalravagedcathedral', 7, '2019-02-10 00:00:00') /* Portal */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (30695,   1,      65536) /* ItemType - Portal */
+     , (30695,  16,         32) /* ItemUseable - Remote */
+     , (30695,  86,        100) /* MinLevel */
+     , (30695,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (30695, 111,          1) /* PortalBitmask - Unrestricted */
+     , (30695, 133,          4) /* ShowableOnRadar - ShowAlways */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (30695,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (30695,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (30695,   1, 'Ravaged Cathedral') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (30695,   1,   33555925) /* Setup */
+     , (30695,   2,  150994947) /* MotionTable */
+     , (30695,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (30695, 8040, 471007278, 130.771, 129.602, 69.937, -0.4613961, 0, 0, -0.8871942) /* PCAPRecordedLocation */
+/* @teleloc 0x1C13002E [130.771000 129.602000 69.937000] -0.461396 0.000000 0.000000 -0.887194 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (30695, 8000, 1908486145) /* PCAPRecordedObjectIID */;

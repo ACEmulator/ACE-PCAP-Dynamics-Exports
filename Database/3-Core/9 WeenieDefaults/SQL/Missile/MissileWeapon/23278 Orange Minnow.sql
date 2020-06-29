@@ -1,0 +1,49 @@
+DELETE FROM `weenie` WHERE `class_Id` = 23278;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (23278, 'minnoworange', 4, '2019-02-10 00:00:00') /* Missile */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (23278,   1,        256) /* ItemType - MissileWeapon */
+     , (23278,   5,          5) /* EncumbranceVal */
+     , (23278,   9,    4194304) /* ValidLocations - MissileWeapon */
+     , (23278,  11,        100) /* MaxStackSize */
+     , (23278,  12,          1) /* StackSize */
+     , (23278,  13,          5) /* StackUnitEncumbrance */
+     , (23278,  15,          0) /* StackUnitValue */
+     , (23278,  16,          1) /* ItemUseable - No */
+     , (23278,  19,          0) /* Value */
+     , (23278,  44,          3) /* Damage */
+     , (23278,  45,          2) /* DamageType - Pierce */
+     , (23278,  48,         47) /* WeaponSkill - MissileWeapons */
+     , (23278,  49,         10) /* WeaponTime */
+     , (23278,  51,          2) /* CombatUse - Missle */
+     , (23278,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
+     , (23278, 151,          2) /* HookType - Wall */
+     , (23278, 353,         10) /* WeaponType - Thrown */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23278,  21,       0) /* WeaponLength */
+     , (23278,  22,    0.25) /* DamageVariance */
+     , (23278,  26,       0) /* MaximumVelocity */
+     , (23278,  29,       1) /* WeaponDefense */
+     , (23278,  39,     0.3) /* DefaultScale */
+     , (23278,  62,       1) /* WeaponOffense */
+     , (23278,  63,       1) /* DamageMod */
+     , (23278,  78,       1) /* Friction */
+     , (23278,  79,       0) /* Elasticity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (23278,   1, 'Orange Minnow') /* Name */
+     , (23278,  16, 'Not as damaging as darts since minnows are more squishy.') /* LongDesc */
+     , (23278,  20, 'Orange Minnows') /* PluralName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (23278,   1,   33554674) /* Setup */
+     , (23278,   3,  536870932) /* SoundTable */
+     , (23278,   6,   67114188) /* PaletteBase */
+     , (23278,   8,  100674203) /* Icon */
+     , (23278,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (23278, 8000, 3708838159) /* PCAPRecordedObjectIID */;

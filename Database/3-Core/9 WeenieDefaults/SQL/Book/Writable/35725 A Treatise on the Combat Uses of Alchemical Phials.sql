@@ -1,0 +1,27 @@
+DELETE FROM `weenie` WHERE `class_Id` = 35725;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (35725, 'ace35725-atreatiseonthecombatusesofalchemicalphials', 8, '2019-02-10 00:00:00') /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (35725,   1,       8192) /* ItemType - Writable */
+     , (35725,   5,        100) /* EncumbranceVal */
+     , (35725,  16,          8) /* ItemUseable - Contained */
+     , (35725,  19,         50) /* Value */
+     , (35725,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (35725,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (35725,   1, 'A Treatise on the Combat Uses of Alchemical Phials') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (35725,   1,   33559084) /* Setup */
+     , (35725,   3,  536870932) /* SoundTable */
+     , (35725,   6,   67112626) /* PaletteBase */
+     , (35725,   8,  100668117) /* Icon */
+     , (35725,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (35725, 8000,      35725) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,56 @@
+DELETE FROM `weenie` WHERE `class_Id` = 5370;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (5370, 'drudgescrawled', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (5370,   1,         16) /* ItemType - Creature */
+     , (5370,   2,          3) /* CreatureType - Drudge */
+     , (5370,   6,         -1) /* ItemsCapacity */
+     , (5370,   7,         -1) /* ContainersCapacity */
+     , (5370,  16,          1) /* ItemUseable - No */
+     , (5370,  25,          8) /* Level */
+     , (5370,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (5370, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (5370, 307,          5) /* DamageRating */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (5370,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (5370,   1, 'Drudge Prowler') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (5370,   1,   33556445) /* Setup */
+     , (5370,   2,  150994952) /* MotionTable */
+     , (5370,   3,  536870919) /* SoundTable */
+     , (5370,   6,   67112812) /* PaletteBase */
+     , (5370,   8,  100667445) /* Icon */
+     , (5370,  22,  872415258) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (5370, 8040, 2053373967, 38.4675, 152.898, 15.2035, -0.2391739, 0, 0, -0.9709768) /* PCAPRecordedLocation */
+/* @teleloc 0x7A64000F [38.467500 152.898000 15.203500] -0.239174 0.000000 0.000000 -0.970977 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (5370, 8000, 3361145411) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (5370,   1,  60, 0, 0) /* Strength */
+     , (5370,   2,  55, 0, 0) /* Endurance */
+     , (5370,   3, 135, 0, 0) /* Quickness */
+     , (5370,   4,  80, 0, 0) /* Coordination */
+     , (5370,   5,  15, 0, 0) /* Focus */
+     , (5370,   6,  15, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (5370,   1,     9, 0, 0, 36) /* MaxHealth */
+     , (5370,   3,    20, 0, 0, 75) /* MaxStamina */
+     , (5370,   5,     0, 0, 0, 15) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (5370, 2, 47286,  1, 0, 0, False) /* Create Fire Board with Nail (47286) for Wield */
+     , (5370, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
+     , (5370, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (5370, 2, 47324,  1, 0, 0, False) /* Create Acid Club (47324) for Wield */
+     , (5370, 2, 47267,  1, 0, 0, False) /* Create Electric Board with Nail (47267) for Wield */;

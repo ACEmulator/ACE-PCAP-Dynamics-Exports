@@ -1,0 +1,63 @@
+DELETE FROM `weenie` WHERE `class_Id` = 27216;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (27216, 'gauntletschiran', 2, '2019-02-10 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (27216,   1,          2) /* ItemType - Armor */
+     , (27216,   4,      32768) /* ClothingPriority - Hands */
+     , (27216,   5,        600) /* EncumbranceVal */
+     , (27216,   9,         32) /* ValidLocations - HandWear */
+     , (27216,  16,          1) /* ItemUseable - No */
+     , (27216,  18,          1) /* UiEffects - Magical */
+     , (27216,  19,      16605) /* Value */
+     , (27216,  28,        292) /* ArmorLevel */
+     , (27216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (27216, 105,          7) /* ItemWorkmanship */
+     , (27216, 106,        248) /* ItemSpellcraft */
+     , (27216, 107,       1001) /* ItemCurMana */
+     , (27216, 108,       1001) /* ItemMaxMana */
+     , (27216, 109,        100) /* ItemDifficulty */
+     , (27216, 110,          0) /* ItemAllegianceRankLimit */
+     , (27216, 115,        187) /* ItemSkillLevelLimit */
+     , (27216, 131,          6) /* MaterialType - Silk */
+     , (27216, 172,          1) /* AppraisalLongDescDecoration */
+     , (27216, 176,          7) /* AppraisalItemSkill */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (27216,  22, True ) /* Inscribable */
+     , (27216, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (27216,   5,   -0.05) /* ManaRate */
+     , (27216,  13,     1.3) /* ArmorModVsSlash */
+     , (27216,  14,       1) /* ArmorModVsPierce */
+     , (27216,  15,       1) /* ArmorModVsBludgeon */
+     , (27216,  16,   0.749) /* ArmorModVsCold */
+     , (27216,  17,     0.4) /* ArmorModVsFire */
+     , (27216,  18,     0.6) /* ArmorModVsAcid */
+     , (27216,  19,   1.065) /* ArmorModVsElectric */
+     , (27216, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (27216,   1, 'Chiran Gauntlets') /* Name */
+     , (27216,  16, 'Chiran Gauntlets') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (27216,   1,   33554648) /* Setup */
+     , (27216,   3,  536870932) /* SoundTable */
+     , (27216,   6,   67108990) /* PaletteBase */
+     , (27216,   8,  100675980) /* Icon */
+     , (27216,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (27216, 8000, 2750334506) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (27216,  1486,      2) 
+     , (27216,  1498,      2) 
+     , (27216,  1528,      2) 
+     , (27216,  2579,      2) ;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (27216, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

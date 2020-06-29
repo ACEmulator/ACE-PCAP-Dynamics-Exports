@@ -1,0 +1,62 @@
+DELETE FROM `weenie` WHERE `class_Id` = 28629;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28629, 'coatalduressa', 2, '2019-02-10 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (28629,   1,          2) /* ItemType - Armor */
+     , (28629,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
+     , (28629,   5,       1239) /* EncumbranceVal */
+     , (28629,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
+     , (28629,  16,          1) /* ItemUseable - No */
+     , (28629,  18,          1) /* UiEffects - Magical */
+     , (28629,  19,      18441) /* Value */
+     , (28629,  28,        248) /* ArmorLevel */
+     , (28629,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (28629, 105,          7) /* ItemWorkmanship */
+     , (28629, 106,        273) /* ItemSpellcraft */
+     , (28629, 107,        701) /* ItemCurMana */
+     , (28629, 108,        701) /* ItemMaxMana */
+     , (28629, 109,         65) /* ItemDifficulty */
+     , (28629, 110,          0) /* ItemAllegianceRankLimit */
+     , (28629, 115,        293) /* ItemSkillLevelLimit */
+     , (28629, 131,         63) /* MaterialType - Silver */
+     , (28629, 172,          5) /* AppraisalLongDescDecoration */
+     , (28629, 176,          6) /* AppraisalItemSkill */
+     , (28629, 177,          3) /* GemCount */
+     , (28629, 178,         34) /* GemType */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28629,  22, True ) /* Inscribable */
+     , (28629, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28629,   5,  -0.056) /* ManaRate */
+     , (28629,  13,       1) /* ArmorModVsSlash */
+     , (28629,  14,     1.3) /* ArmorModVsPierce */
+     , (28629,  15,       1) /* ArmorModVsBludgeon */
+     , (28629,  16,     0.4) /* ArmorModVsCold */
+     , (28629,  17,   0.861) /* ArmorModVsFire */
+     , (28629,  18,     0.6) /* ArmorModVsAcid */
+     , (28629,  19,     0.4) /* ArmorModVsElectric */
+     , (28629, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28629,   1, 'Alduressa Coat') /* Name */
+     , (28629,  16, 'Alduressa Coat') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28629,   1,   33559338) /* Setup */
+     , (28629,   3,  536870932) /* SoundTable */
+     , (28629,   6,   67108990) /* PaletteBase */
+     , (28629,   8,  100686211) /* Icon */
+     , (28629,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (28629, 8000, 3691024230) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (28629,  1486,      2) 
+     , (28629,  1516,      2) 
+     , (28629,  2092,      2) 
+     , (28629,  2581,      2) ;

@@ -1,0 +1,35 @@
+DELETE FROM `weenie` WHERE `class_Id` = 9541;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9541, 'marshmalloweeppink', 18, '2019-02-10 00:00:00') /* Food */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (9541,   1,         32) /* ItemType - Food */
+     , (9541,   5,          2) /* EncumbranceVal */
+     , (9541,  11,          1) /* MaxStackSize */
+     , (9541,  12,          1) /* StackSize */
+     , (9541,  13,          2) /* StackUnitEncumbrance */
+     , (9541,  15,          1) /* StackUnitValue */
+     , (9541,  16,          8) /* ItemUseable - Contained */
+     , (9541,  19,          1) /* Value */
+     , (9541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9541, 151,          9) /* HookType - Floor, Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (9541,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9541,  39,     0.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9541,   1, 'Pink Marshmallow Eep') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9541,   1,   33558128) /* Setup */
+     , (9541,   3,  536870932) /* SoundTable */
+     , (9541,   6,   67109300) /* PaletteBase */
+     , (9541,   8,  100671533) /* Icon */
+     , (9541,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (9541, 8000, 2438517132) /* PCAPRecordedObjectIID */;

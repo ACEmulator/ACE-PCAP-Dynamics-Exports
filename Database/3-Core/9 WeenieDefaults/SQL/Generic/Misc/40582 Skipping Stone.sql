@@ -1,0 +1,30 @@
+DELETE FROM `weenie` WHERE `class_Id` = 40582;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (40582, 'ace40582-skippingstone', 1, '2019-02-10 00:00:00') /* Generic */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (40582,   1,        128) /* ItemType - Misc */
+     , (40582,   5,         75) /* EncumbranceVal */
+     , (40582,  16,          1) /* ItemUseable - No */
+     , (40582,  19,         75) /* Value */
+     , (40582,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (40582,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (40582,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (40582,   1, 'Skipping Stone') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (40582,   1,   33554809) /* Setup */
+     , (40582,   3,  536870932) /* SoundTable */
+     , (40582,   6,   67111919) /* PaletteBase */
+     , (40582,   8,  100670073) /* Icon */
+     , (40582,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (40582, 8000, 3689065434) /* PCAPRecordedObjectIID */;

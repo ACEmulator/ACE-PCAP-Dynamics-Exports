@@ -1,0 +1,29 @@
+DELETE FROM `weenie` WHERE `class_Id` = 46844;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (46844, 'ace46844-auraofdefenderother', 34, '2019-02-10 00:00:00') /* Scroll */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (46844,   1,       8192) /* ItemType - Writable */
+     , (46844,   5,         30) /* EncumbranceVal */
+     , (46844,  16,          8) /* ItemUseable - Contained */
+     , (46844,  19,          1) /* Value */
+     , (46844,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46844,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (46844,  39,     1.5) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (46844,   1, 'Aura of Defender Other') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (46844,   1,   33554826) /* Setup */
+     , (46844,   8,  100676658) /* Icon */
+     , (46844,  22,  872415275) /* PhysicsEffectTable */
+     , (46844,  28,       5999) /* Spell - DefenderOther1 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (46844, 8000, 3674017492) /* PCAPRecordedObjectIID */;

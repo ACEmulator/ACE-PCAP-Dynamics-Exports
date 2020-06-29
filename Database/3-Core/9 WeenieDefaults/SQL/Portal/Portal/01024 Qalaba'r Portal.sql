@@ -1,0 +1,32 @@
+DELETE FROM `weenie` WHERE `class_Id` = 1024;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (1024, 'portalqalabar2', 7, '2019-02-10 00:00:00') /* Portal */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (1024,   1,      65536) /* ItemType - Portal */
+     , (1024,  16,         32) /* ItemUseable - Remote */
+     , (1024,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (1024, 111,          1) /* PortalBitmask - Unrestricted */
+     , (1024, 133,          4) /* ShowableOnRadar - ShowAlways */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (1024,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (1024,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (1024,   1, 'Qalaba''r Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (1024,   1,   33554867) /* Setup */
+     , (1024,   2,  150994947) /* MotionTable */
+     , (1024,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (1024, 8040, 3846963253, 146.6, 96.7, 31.60367, 1, 0, 0, 0) /* PCAPRecordedLocation */
+/* @teleloc 0xE54C0035 [146.600000 96.700000 31.603670] 1.000000 0.000000 0.000000 0.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (1024, 8000, 2119483392) /* PCAPRecordedObjectIID */;

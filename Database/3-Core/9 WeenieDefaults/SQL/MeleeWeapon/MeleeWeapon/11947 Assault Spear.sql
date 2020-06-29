@@ -1,0 +1,61 @@
+DELETE FROM `weenie` WHERE `class_Id` = 11947;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (11947, 'speartumerokwar', 6, '2019-02-10 00:00:00') /* MeleeWeapon */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (11947,   1,          1) /* ItemType - MeleeWeapon */
+     , (11947,   5,        400) /* EncumbranceVal */
+     , (11947,   9,    1048576) /* ValidLocations - MeleeWeapon */
+     , (11947,  16,          1) /* ItemUseable - No */
+     , (11947,  18,          1) /* UiEffects - Magical */
+     , (11947,  19,       5000) /* Value */
+     , (11947,  44,         20) /* Damage */
+     , (11947,  45,          2) /* DamageType - Pierce */
+     , (11947,  47,          2) /* AttackType - Thrust */
+     , (11947,  48,         45) /* WeaponSkill - LightWeapons */
+     , (11947,  49,         25) /* WeaponTime */
+     , (11947,  51,          1) /* CombatUse - Melee */
+     , (11947,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (11947, 106,        400) /* ItemSpellcraft */
+     , (11947, 107,        188) /* ItemCurMana */
+     , (11947, 108,        600) /* ItemMaxMana */
+     , (11947, 109,        120) /* ItemDifficulty */
+     , (11947, 115,        225) /* ItemSkillLevelLimit */
+     , (11947, 151,          2) /* HookType - Wall */
+     , (11947, 176,         45) /* AppraisalItemSkill */
+     , (11947, 353,          5) /* WeaponType - Spear */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (11947,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (11947,   5,  -0.025) /* ManaRate */
+     , (11947,  21,       0) /* WeaponLength */
+     , (11947,  22,    0.95) /* DamageVariance */
+     , (11947,  26,       0) /* MaximumVelocity */
+     , (11947,  29,    1.06) /* WeaponDefense */
+     , (11947,  39,     1.2) /* DefaultScale */
+     , (11947,  62,    1.06) /* WeaponOffense */
+     , (11947,  63,       1) /* DamageMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (11947,   1, 'Assault Spear') /* Name */
+     , (11947,   7, 'SNARL!  I love my 1-20 spear of hitting tuskers for 5 at full power with bd6.') /* Inscription */
+     , (11947,   8, 'Wahooka the Great') /* ScribeName */
+     , (11947,  16, 'A weapon made of a strange pulsating energy.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (11947,   1,   33557205) /* Setup */
+     , (11947,   3,  536870932) /* SoundTable */
+     , (11947,   6,   67111919) /* PaletteBase */
+     , (11947,   8,  100671747) /* Icon */
+     , (11947,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (11947, 8000, 2461806058) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (11947,  1311,      2) 
+     , (11947,  1590,      2) 
+     , (11947,  1614,      2) ;

@@ -1,0 +1,32 @@
+DELETE FROM `weenie` WHERE `class_Id` = 19237;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (19237, 'housestatueshadow', 38, '2019-02-10 00:00:00') /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (19237,   1,       2048) /* ItemType - Gem */
+     , (19237,   5,       5000) /* EncumbranceVal */
+     , (19237,  16,          1) /* ItemUseable - No */
+     , (19237,  19,      20000) /* Value */
+     , (19237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (19237,  94,         16) /* TargetType - Creature */
+     , (19237, 151,          9) /* HookType - Floor, Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (19237,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (19237,  39,     0.7) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (19237,   1, 'Decorative Bronze Statue') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (19237,   1,   33554510) /* Setup */
+     , (19237,   2,  150995210) /* MotionTable */
+     , (19237,   6,   67108990) /* PaletteBase */
+     , (19237,   8,  100670397) /* Icon */
+     , (19237,  22,  872415349) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (19237, 8000, 2927924329) /* PCAPRecordedObjectIID */;

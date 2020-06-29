@@ -1,0 +1,35 @@
+DELETE FROM `weenie` WHERE `class_Id` = 32793;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32793, 'ace32793-rareredpackidol', 38, '2019-02-10 00:00:00') /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (32793,   1,       2048) /* ItemType - Gem */
+     , (32793,   5,         10) /* EncumbranceVal */
+     , (32793,  16,          1) /* ItemUseable - No */
+     , (32793,  19,          0) /* Value */
+     , (32793,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (32793,  94,         16) /* TargetType - Creature */
+     , (32793, 151,          9) /* HookType - Floor, Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32793,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (32793,  39,     0.3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (32793,   1, 'Rare Red Pack Idol') /* Name */
+     , (32793,   7, 'Here is a cute lil huggy bear just for you!') /* Inscription */
+     , (32793,   8, 'Angel''s soul') /* ScribeName */
+     , (32793,  16, 'A chubby little idol with a rare gem symbol on its chest. It looks like it''s about to burst with joy.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (32793,   1,   33556892) /* Setup */
+     , (32793,   2,  150995119) /* MotionTable */
+     , (32793,   8,  100688661) /* Icon */
+     , (32793,  22,  872415369) /* PhysicsEffectTable */
+     , (32793,  52,  100686604) /* IconUnderlay */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (32793, 8000, 2978131466) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,50 @@
+DELETE FROM `weenie` WHERE `class_Id` = 36031;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36031, 'ace36031-umbriselitecommander', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (36031,   1,         16) /* ItemType - Creature */
+     , (36031,   2,         22) /* CreatureType - Shadow */
+     , (36031,   6,         -1) /* ItemsCapacity */
+     , (36031,   7,         -1) /* ContainersCapacity */
+     , (36031,  16,          1) /* ItemUseable - No */
+     , (36031,  25,        200) /* Level */
+     , (36031,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (36031, 113,          2) /* Gender - Female */
+     , (36031, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (36031, 188,          1) /* HeritageGroup - Aluvian */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (36031,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (36031,  39,     1.3) /* DefaultScale */
+     , (36031,  76,     0.5) /* Translucency */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (36031,   1, 'Umbris Elite Commander') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (36031,   1,   33556251) /* Setup */
+     , (36031,   2,  150995091) /* MotionTable */
+     , (36031,   3,  536870914) /* SoundTable */
+     , (36031,   6,   67108990) /* PaletteBase */
+     , (36031,   8,  100670398) /* Icon */
+     , (36031,   9,   83890284) /* EyesTexture */
+     , (36031,  10,   83890316) /* NoseTexture */
+     , (36031,  11,   83890356) /* MouthTexture */
+     , (36031,  15,   67117078) /* HairPalette */
+     , (36031,  16,   67110062) /* EyesPalette */
+     , (36031,  17,   67109562) /* SkinPalette */
+     , (36031,  22,  872415331) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36031, 8040, 10682631, 235.7512, -190.6086, -32.971, 1, 0, 0, 0) /* PCAPRecordedLocation */
+/* @teleloc 0x00A30107 [235.751200 -190.608600 -32.971000] 1.000000 0.000000 0.000000 0.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (36031, 8000, 3706414033) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (36031,   1,     0, 0, 0, 5500) /* MaxHealth */;

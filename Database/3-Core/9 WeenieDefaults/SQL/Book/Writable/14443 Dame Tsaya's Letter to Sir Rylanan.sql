@@ -1,0 +1,25 @@
+DELETE FROM `weenie` WHERE `class_Id` = 14443;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (14443, 'letterregiciderylanan1', 8, '2019-02-10 00:00:00') /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (14443,   1,       8192) /* ItemType - Writable */
+     , (14443,   5,          5) /* EncumbranceVal */
+     , (14443,  16,          8) /* ItemUseable - Contained */
+     , (14443,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (14443,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (14443,   1, 'Dame Tsaya''s Letter to Sir Rylanan') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (14443,   1,   33554773) /* Setup */
+     , (14443,   3,  536870932) /* SoundTable */
+     , (14443,   8,  100672451) /* Icon */
+     , (14443,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (14443, 8000, 3706321310) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,102 @@
+DELETE FROM `weenie` WHERE `class_Id` = 4695;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4695, 'khayyabanarmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (4695,   1,         16) /* ItemType - Creature */
+     , (4695,   2,         31) /* CreatureType - Human */
+     , (4695,   6,         -1) /* ItemsCapacity */
+     , (4695,   7,         -1) /* ContainersCapacity */
+     , (4695,  16,         32) /* ItemUseable - Remote */
+     , (4695,  25,         15) /* Level */
+     , (4695,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */
+     , (4695,  75,          0) /* MerchandiseMinValue */
+     , (4695,  76,     100000) /* MerchandiseMaxValue */
+     , (4695,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
+     , (4695, 113,          2) /* Gender - Female */
+     , (4695, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (4695, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (4695, 188,          2) /* HeritageGroup - Gharundim */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (4695,   1, True ) /* Stuck */
+     , (4695,  19, False) /* Attackable */
+     , (4695,  39, True ) /* DealMagicalItems */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4695,  37,     0.9) /* BuyPrice */
+     , (4695,  38,    1.55) /* SellPrice */
+     , (4695,  54,       3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4695,   1, 'Armorer Hinfiya bint Ju') /* Name */
+     , (4695,   5, 'Armorer') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4695,   1,   33554510) /* Setup */
+     , (4695,   2,  150994945) /* MotionTable */
+     , (4695,   3,  536870914) /* SoundTable */
+     , (4695,   6,   67108990) /* PaletteBase */
+     , (4695,   8,  100667446) /* Icon */
+     , (4695,   9,   83890259) /* EyesTexture */
+     , (4695,  10,   83890288) /* NoseTexture */
+     , (4695,  11,   83890324) /* MouthTexture */
+     , (4695,  15,   67117078) /* HairPalette */
+     , (4695,  16,   67110062) /* EyesPalette */
+     , (4695,  17,   67109557) /* SkinPalette */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (4695, 8040, 2655256863, 131.988, 39.0254, 36.005, 0.3689259, 0, 0, -0.9294588) /* PCAPRecordedLocation */
+/* @teleloc 0x9E44011F [131.988000 39.025400 36.005000] 0.368926 0.000000 0.000000 -0.929459 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (4695, 8000, 2045001740) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (4695,   1, 100, 0, 0) /* Strength */
+     , (4695,   2,  90, 0, 0) /* Endurance */
+     , (4695,   3, 110, 0, 0) /* Quickness */
+     , (4695,   4, 120, 0, 0) /* Coordination */
+     , (4695,   5, 100, 0, 0) /* Focus */
+     , (4695,   6,  80, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (4695,   1,    80, 0, 0, 125) /* MaxHealth */
+     , (4695,   3,    80, 0, 0, 170) /* MaxStamina */
+     , (4695,   5,    90, 0, 0, 170) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4695, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */
+     , (4695, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (4695, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (4695, 4,   552, -1, 0, 0, False) /* Create Scale Mail Basinet (552) for Shop */
+     , (4695, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (4695, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (4695, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (4695, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (4695, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (4695, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (4695, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (4695, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (4695, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (4695, 4,    37, -1, 0, 0, False) /* Create Scalemail Bracers (37) for Shop */
+     , (4695, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
+     , (4695, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
+     , (4695, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth (62) for Shop */
+     , (4695, 4,    67, -1, 0, 0, False) /* Create Scalemail Greaves (67) for Shop */
+     , (4695, 4,   111, -1, 0, 0, False) /* Create Scalemail Tassets (111) for Shop */
+     , (4695, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
+     , (4695, 4,    88, -1, 0, 0, False) /* Create Scalemail Pauldrons (88) for Shop */
+     , (4695, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
+     , (4695, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (4695, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4695, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4695, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (4695, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (4695, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (4695, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (4695, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (4695, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (4695, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (4695, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

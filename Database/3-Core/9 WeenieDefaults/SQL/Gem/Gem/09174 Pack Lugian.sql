@@ -1,0 +1,33 @@
+DELETE FROM `weenie` WHERE `class_Id` = 9174;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9174, 'dollrewardlugian', 38, '2019-02-10 00:00:00') /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (9174,   1,       2048) /* ItemType - Gem */
+     , (9174,   5,         10) /* EncumbranceVal */
+     , (9174,  16,          1) /* ItemUseable - No */
+     , (9174,  19,         10) /* Value */
+     , (9174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (9174,  94,         16) /* TargetType - Creature */
+     , (9174, 151,          9) /* HookType - Floor, Yard */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (9174,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9174,  39,     0.3) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9174,   1, 'Pack Lugian') /* Name */
+     , (9174,  16, 'Why get other toys when Pack Lugian could crush them all? Watch how he intimidates the others with his mighty Knuckle-Crush! They will cower before him!') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9174,   1,   33554488) /* Setup */
+     , (9174,   2,  150995115) /* MotionTable */
+     , (9174,   6,   67113135) /* PaletteBase */
+     , (9174,   8,  100667447) /* Icon */
+     , (9174,  22,  872415262) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (9174, 8000, 3658163633) /* PCAPRecordedObjectIID */;

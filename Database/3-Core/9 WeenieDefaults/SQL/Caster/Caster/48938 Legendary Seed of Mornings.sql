@@ -1,0 +1,61 @@
+DELETE FROM `weenie` WHERE `class_Id` = 48938;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (48938, 'ace48938-legendaryseedofmornings', 35, '2019-02-10 00:00:00') /* Caster */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (48938,   1,      32768) /* ItemType - Caster */
+     , (48938,   5,         50) /* EncumbranceVal */
+     , (48938,   9,   16777216) /* ValidLocations - Held */
+     , (48938,  10,   16777216) /* CurrentWieldedLocation - Held */
+     , (48938,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
+     , (48938,  18,          1) /* UiEffects - Magical */
+     , (48938,  19,      20000) /* Value */
+     , (48938,  33,          1) /* Bonded - Bonded */
+     , (48938,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (48938,  94,         16) /* TargetType - Creature */
+     , (48938, 106,        450) /* ItemSpellcraft */
+     , (48938, 107,       4906) /* ItemCurMana */
+     , (48938, 108,       5000) /* ItemMaxMana */
+     , (48938, 109,        300) /* ItemDifficulty */
+     , (48938, 114,          1) /* Attuned - Attuned */
+     , (48938, 151,          3) /* HookType - Floor, Wall */
+     , (48938, 158,          2) /* WieldRequirements - RawSkill */
+     , (48938, 159,         33) /* WieldSkillType - LifeMagic */
+     , (48938, 160,        340) /* WieldDifficulty */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (48938,  22, True ) /* Inscribable */
+     , (48938,  99, True ) /* Ivoryable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (48938,   5,  -0.025) /* ManaRate */
+     , (48938,  29,     1.2) /* WeaponDefense */
+     , (48938,  39,     0.6) /* DefaultScale */
+     , (48938, 144,     0.2) /* ManaConversionMod */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (48938,   1, 'Legendary Seed of Mornings') /* Name */
+     , (48938,  16, 'A large, glowing seed, empowered by the magics of the Light Falatacot.  This seed was retrieved from the Temple of Mornings, underneath the desert sands.') /* LongDesc */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (48938,   1,   33561509) /* Setup */
+     , (48938,   3,  536870932) /* SoundTable */
+     , (48938,   6,   67111919) /* PaletteBase */
+     , (48938,   8,  100692970) /* Icon */
+     , (48938,  22,  872415275) /* PhysicsEffectTable */
+     , (48938,  28,       2072) /* Spell - HealOther7 */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (48938, 8040, 23855444, 3.20751, -53.7546, -0.071, -0.6312358, -0.6312358, 0.3186554, 0.3186554) /* PCAPRecordedLocation */
+/* @teleloc 0x016C0154 [3.207510 -53.754600 -0.071000] -0.631236 -0.631236 0.318655 0.318655 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (48938, 8000, 2617863424) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (48938,  2072,      2) 
+     , (48938,  4582,      2) 
+     , (48938,  4602,      2) 
+     , (48938,  6060,      2) 
+     , (48938,  6086,      2) ;

@@ -1,0 +1,98 @@
+DELETE FROM `weenie` WHERE `class_Id` = 4540;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (4540, 'linarmorer', 12, '2019-02-10 00:00:00') /* Vendor */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (4540,   1,         16) /* ItemType - Creature */
+     , (4540,   2,         31) /* CreatureType - Human */
+     , (4540,   6,         -1) /* ItemsCapacity */
+     , (4540,   7,         -1) /* ContainersCapacity */
+     , (4540,  16,         32) /* ItemUseable - Remote */
+     , (4540,  25,         10) /* Level */
+     , (4540,  74, 1074005767) /* MerchandiseItemTypes - Vestements, Weapon, Container, Useless, PromissoryNote, TinkeringMaterial */
+     , (4540,  75,          0) /* MerchandiseMinValue */
+     , (4540,  76,     100000) /* MerchandiseMaxValue */
+     , (4540,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
+     , (4540, 113,          1) /* Gender - Male */
+     , (4540, 133,          4) /* ShowableOnRadar - ShowAlways */
+     , (4540, 134,         16) /* PlayerKillerStatus - RubberGlue */
+     , (4540, 188,          3) /* HeritageGroup - Sho */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (4540,   1, True ) /* Stuck */
+     , (4540,  19, False) /* Attackable */
+     , (4540,  39, True ) /* DealMagicalItems */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (4540,  37,     0.9) /* BuyPrice */
+     , (4540,  38,    1.35) /* SellPrice */
+     , (4540,  54,       3) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (4540,   1, 'Bu-Chi Long the Armorer') /* Name */
+     , (4540,   5, 'Armorer') /* Template */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (4540,   1,   33554433) /* Setup */
+     , (4540,   2,  150994945) /* MotionTable */
+     , (4540,   3,  536870913) /* SoundTable */
+     , (4540,   6,   67108990) /* PaletteBase */
+     , (4540,   8,  100667446) /* Icon */
+     , (4540,   9,   83890487) /* EyesTexture */
+     , (4540,  10,   83890548) /* NoseTexture */
+     , (4540,  11,   83890590) /* MouthTexture */
+     , (4540,  15,   67117023) /* HairPalette */
+     , (4540,  16,   67110062) /* EyesPalette */
+     , (4540,  17,   67110049) /* SkinPalette */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (4540, 8040, 3661300008, 176.886, 28.7303, 0.004999995, -0.9992024, 0, 0, -0.03993227) /* PCAPRecordedLocation */
+/* @teleloc 0xDA3B0128 [176.886000 28.730300 0.005000] -0.999202 0.000000 0.000000 -0.039932 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (4540, 8000, 2107879439) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (4540,   1, 110, 0, 0) /* Strength */
+     , (4540,   2, 100, 0, 0) /* Endurance */
+     , (4540,   3,  90, 0, 0) /* Quickness */
+     , (4540,   4,  90, 0, 0) /* Coordination */
+     , (4540,   5,  50, 0, 0) /* Focus */
+     , (4540,   6,  25, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (4540,   1,    20, 0, 0, 70) /* MaxHealth */
+     , (4540,   3,    30, 0, 0, 130) /* MaxStamina */
+     , (4540,   5,    10, 0, 0, 35) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (4540, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (4540, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (4540, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (4540, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (4540, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (4540, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (4540, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (4540, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (4540, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (4540, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (4540, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (4540, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
+     , (4540, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
+     , (4540, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (4540, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
+     , (4540, 4,    64, -1, 0, 0, False) /* Create Yoroi Girth (64) for Shop */
+     , (4540, 4,  2437, -1, 0, 0, False) /* Create Yoroi Leggings (2437) for Shop */
+     , (4540, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
+     , (4540, 4,    95, -1, 0, 0, False) /* Create Tower Shield (95) for Shop */
+     , (4540, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (4540, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (4540, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
+     , (4540, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
+     , (4540, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
+     , (4540, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */
+     , (4540, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
+     , (4540, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
+     , (4540, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
+     , (4540, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

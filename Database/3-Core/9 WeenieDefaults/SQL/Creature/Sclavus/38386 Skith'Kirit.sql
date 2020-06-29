@@ -1,0 +1,48 @@
+DELETE FROM `weenie` WHERE `class_Id` = 38386;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (38386, 'ace38386-skithkirit', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (38386,   1,         16) /* ItemType - Creature */
+     , (38386,   2,         26) /* CreatureType - Sclavus */
+     , (38386,   6,         -1) /* ItemsCapacity */
+     , (38386,   7,         -1) /* ContainersCapacity */
+     , (38386,  16,          1) /* ItemUseable - No */
+     , (38386,  25,        240) /* Level */
+     , (38386,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (38386, 133,          2) /* ShowableOnRadar - ShowMovement */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38386,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (38386,  39,     1.4) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (38386,   1, 'Skith''Kirit') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (38386,   1,   33560597) /* Setup */
+     , (38386,   2,  150995048) /* MotionTable */
+     , (38386,   3,  536870977) /* SoundTable */
+     , (38386,   6,   67111936) /* PaletteBase */
+     , (38386,   8,  100669120) /* Icon */
+     , (38386,  22,  872415280) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (38386, 8040, 12255505, 80, -40, -42, 1, 0, 0, 0) /* PCAPRecordedLocation */
+/* @teleloc 0x00BB0111 [80.000000 -40.000000 -42.000000] 1.000000 0.000000 0.000000 0.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (38386, 8000, 3359206921) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (38386,   1,     0, 0, 0, 6000) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (38386, 2, 38923,  1, 0, 0, False) /* Create T'thuun Bow (38923) for Wield */
+     , (38386, 2, 47071,  1, 0, 0, False) /* Create Arrow (47071) for Wield */
+     , (38386, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (38386, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (38386, 9, 38374,  0, 0, 0, False) /* Create Skith'Kirit's Severed Head (38374) for ContainTreasure */;

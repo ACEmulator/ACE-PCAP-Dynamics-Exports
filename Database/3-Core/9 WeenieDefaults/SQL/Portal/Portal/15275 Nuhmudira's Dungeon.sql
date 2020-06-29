@@ -1,0 +1,31 @@
+DELETE FROM `weenie` WHERE `class_Id` = 15275;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (15275, 'portalnuhmudiramansion', 7, '2019-02-10 00:00:00') /* Portal */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (15275,   1,      65536) /* ItemType - Portal */
+     , (15275,  16,         32) /* ItemUseable - Remote */
+     , (15275,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (15275, 133,          4) /* ShowableOnRadar - ShowAlways */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (15275,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15275,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15275,   1, 'Nuhmudira''s Dungeon') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15275,   1,   33554867) /* Setup */
+     , (15275,   2,  150994947) /* MotionTable */
+     , (15275,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (15275, 8040, 2893676882, 67.9402, 78.7834, -4.063001, 0.7119581, 0, 0, -0.702222) /* PCAPRecordedLocation */
+/* @teleloc 0xAC7A0152 [67.940200 78.783400 -4.063001] 0.711958 0.000000 0.000000 -0.702222 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (15275, 8000, 2059902997) /* PCAPRecordedObjectIID */;

@@ -1,0 +1,43 @@
+DELETE FROM `weenie` WHERE `class_Id` = 49124;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49124, 'ace49124-chienchinglungsmoar', 71, '2019-02-10 00:00:00') /* CombatPet */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (49124,   1,         16) /* ItemType - Creature */
+     , (49124,   2,         86) /* CreatureType - Moar */
+     , (49124,   6,         -1) /* ItemsCapacity */
+     , (49124,   7,         -1) /* ContainersCapacity */
+     , (49124,  16,          1) /* ItemUseable - No */
+     , (49124,  25,        100) /* Level */
+     , (49124,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
+     , (49124, 133,          1) /* ShowableOnRadar - ShowNever */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (49124,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (49124,  39,     1.6) /* DefaultScale */
+     , (49124,  77,       1) /* PhysicsScriptIntensity */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (49124,   1, 'Moar') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (49124,   1,   33561528) /* Setup */
+     , (49124,   2,  150995346) /* MotionTable */
+     , (49124,   3,  536871018) /* SoundTable */
+     , (49124,   6,   67116748) /* PaletteBase */
+     , (49124,   8,  100671185) /* Icon */
+     , (49124,  22,  872415415) /* PhysicsEffectTable */
+     , (49124,  30,         84) /* PhysicsScript - BreatheFlame */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (49124, 8040, 23855549, 52.7163, -39.13541, 0.02879995, -0.1839846, 0, 0, -0.9829291) /* PCAPRecordedLocation */
+/* @teleloc 0x016C01BD [52.716300 -39.135410 0.028800] -0.183985 0.000000 0.000000 -0.982929 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (49124, 8000, 3708729358) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (49124,   1,     0, 0, 0, 770) /* MaxHealth */;

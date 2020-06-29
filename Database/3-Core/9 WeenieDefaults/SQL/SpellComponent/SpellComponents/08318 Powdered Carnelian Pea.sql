@@ -1,0 +1,31 @@
+DELETE FROM `weenie` WHERE `class_Id` = 8318;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (8318, 'peapowdercarnelian', 32, '2019-02-10 00:00:00') /* SpellComponent */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (8318,   1,       4096) /* ItemType - SpellComponents */
+     , (8318,   5,         10) /* EncumbranceVal */
+     , (8318,  11,        100) /* MaxStackSize */
+     , (8318,  12,          1) /* StackSize */
+     , (8318,  13,         10) /* StackUnitEncumbrance */
+     , (8318,  15,        625) /* StackUnitValue */
+     , (8318,  16,          1) /* ItemUseable - No */
+     , (8318,  19,        625) /* Value */
+     , (8318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (8318,  39,    0.33) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (8318,   1, 'Powdered Carnelian Pea') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (8318,   1,   33555208) /* Setup */
+     , (8318,   3,  536870932) /* SoundTable */
+     , (8318,   6,   67111919) /* PaletteBase */
+     , (8318,   8,  100671073) /* Icon */
+     , (8318,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (8318, 8000, 3695853958) /* PCAPRecordedObjectIID */;

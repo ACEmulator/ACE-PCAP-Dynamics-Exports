@@ -1,0 +1,31 @@
+DELETE FROM `weenie` WHERE `class_Id` = 6417;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (6417, 'rumoratlanheb', 8, '2019-02-10 00:00:00') /* Book */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (6417,   1,       8192) /* ItemType - Writable */
+     , (6417,   5,         25) /* EncumbranceVal */
+     , (6417,  16,          8) /* ItemUseable - Contained */
+     , (6417,  19,         10) /* Value */
+     , (6417,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (6417,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (6417,  39,     0.4) /* DefaultScale */
+     , (6417,  54,       1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (6417,   1, 'A Stinging Stone') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (6417,   1,   33559084) /* Setup */
+     , (6417,   3,  536870932) /* SoundTable */
+     , (6417,   6,   67112626) /* PaletteBase */
+     , (6417,   8,  100668176) /* Icon */
+     , (6417,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (6417, 8000,       6417) /* PCAPRecordedObjectIID */;

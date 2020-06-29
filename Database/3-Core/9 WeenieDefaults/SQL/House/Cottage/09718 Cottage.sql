@@ -1,0 +1,33 @@
+DELETE FROM `weenie` WHERE `class_Id` = 9718;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (9718, 'housecottage26', 53, '2019-02-10 00:00:00') /* House */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (9718,   1,        128) /* ItemType - Misc */
+     , (9718,   5,         10) /* EncumbranceVal */
+     , (9718,  16,          1) /* ItemUseable - No */
+     , (9718,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
+     , (9718, 155,          1) /* HouseType - Cottage */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (9718,   1, True ) /* Stuck */
+     , (9718,  24, True ) /* UiHidden */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (9718,  39,     0.1) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (9718,   1, 'Cottage') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (9718,   1,   33557058) /* Setup */
+     , (9718,   8,  100671873) /* Icon */
+     , (9718,  30,        152) /* PhysicsScript - RestrictionEffectBlue */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (9718, 8040, 2928738608, 153.195, 59.0886, 31.9995, 0.00147197, 0, 0, -0.9999989) /* PCAPRecordedLocation */
+/* @teleloc 0xAE910130 [153.195000 59.088600 31.999500] 0.001472 0.000000 0.000000 -0.999999 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (9718, 8000, 2062094474) /* PCAPRecordedObjectIID */;

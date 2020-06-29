@@ -1,0 +1,35 @@
+DELETE FROM `weenie` WHERE `class_Id` = 52174;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (52174, 'ace52174-contractforrynthidtraining', 38, '2019-02-10 00:00:00') /* Gem */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (52174,   1,       2048) /* ItemType - Gem */
+     , (52174,  11,          1) /* MaxStackSize */
+     , (52174,  12,          1) /* StackSize */
+     , (52174,  13,          0) /* StackUnitEncumbrance */
+     , (52174,  15,        100) /* StackUnitValue */
+     , (52174,  16,          8) /* ItemUseable - Contained */
+     , (52174,  18,          2) /* UiEffects - Poisoned */
+     , (52174,  19,        100) /* Value */
+     , (52174,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
+     , (52174,  94,         16) /* TargetType - Creature */
+     , (52174, 280,        100) /* SharedCooldown */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (52174,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (52174, 167,       2) /* CooldownDuration */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (52174,   1, 'Contract for Rynthid Training') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (52174,   1,   33557625) /* Setup */
+     , (52174,   3,  536870932) /* SoundTable */
+     , (52174,   8,  100691928) /* Icon */
+     , (52174,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (52174, 8000,      52174) /* PCAPRecordedObjectIID */;

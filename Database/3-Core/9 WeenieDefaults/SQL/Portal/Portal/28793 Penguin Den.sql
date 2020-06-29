@@ -1,0 +1,31 @@
+DELETE FROM `weenie` WHERE `class_Id` = 28793;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (28793, 'portalpenguinden', 7, '2019-02-10 00:00:00') /* Portal */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (28793,   1,      65536) /* ItemType - Portal */
+     , (28793,  16,         32) /* ItemUseable - Remote */
+     , (28793,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (28793, 133,          4) /* ShowableOnRadar - ShowAlways */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28793,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (28793,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (28793,   1, 'Penguin Den') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (28793,   1,   33555922) /* Setup */
+     , (28793,   2,  150994947) /* MotionTable */
+     , (28793,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (28793, 8040, 869859385, 185.137, 11.9241, 35.05554, -0.9438137, 0, 0, -0.3304779) /* PCAPRecordedLocation */
+/* @teleloc 0x33D90039 [185.137000 11.924100 35.055540] -0.943814 0.000000 0.000000 -0.330478 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (28793, 8000, 1933414400) /* PCAPRecordedObjectIID */;

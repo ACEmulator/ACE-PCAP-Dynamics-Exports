@@ -1,0 +1,47 @@
+DELETE FROM `weenie` WHERE `class_Id` = 36;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (36, 'bracersleather', 2, '2019-02-10 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (36,   1,          2) /* ItemType - Armor */
+     , (36,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
+     , (36,   5,        270) /* EncumbranceVal */
+     , (36,   9,       4096) /* ValidLocations - LowerArmArmor */
+     , (36,  16,          1) /* ItemUseable - No */
+     , (36,  19,       1100) /* Value */
+     , (36,  28,         90) /* ArmorLevel */
+     , (36,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (36,  22, True ) /* Inscribable */
+     , (36, 100, True ) /* Dyable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (36,  13,       1) /* ArmorModVsSlash */
+     , (36,  14,     0.8) /* ArmorModVsPierce */
+     , (36,  15,       1) /* ArmorModVsBludgeon */
+     , (36,  16,     0.5) /* ArmorModVsCold */
+     , (36,  17,     0.5) /* ArmorModVsFire */
+     , (36,  18,     0.3) /* ArmorModVsAcid */
+     , (36,  19,     0.6) /* ArmorModVsElectric */
+     , (36, 165,       1) /* ArmorModVsNether */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (36,   1, 'Leather Bracers') /* Name */
+     , (36,   7, 'dark forest green/charcoal on nite Pumpkin') /* Inscription */
+     , (36,   8, 'Spqr') /* ScribeName */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (36,   1,   33554641) /* Setup */
+     , (36,   3,  536870932) /* SoundTable */
+     , (36,   6,   67108990) /* PaletteBase */
+     , (36,   8,  100669270) /* Icon */
+     , (36,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (36, 8040, 2847146241, 79.26196, 132.5645, 69.4975, 0.2568298, 0, 0, -0.9664567) /* PCAPRecordedLocation */
+/* @teleloc 0xA9B40101 [79.261960 132.564500 69.497500] 0.256830 0.000000 0.000000 -0.966457 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (36, 8000, 2195257278) /* PCAPRecordedObjectIID */;

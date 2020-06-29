@@ -1,0 +1,29 @@
+DELETE FROM `weenie` WHERE `class_Id` = 32197;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32197, 'ace32197-festivalshirt', 2, '2019-02-10 00:00:00') /* Clothing */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (32197,   1,          4) /* ItemType - Clothing */
+     , (32197,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
+     , (32197,   5,         42) /* EncumbranceVal */
+     , (32197,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
+     , (32197,  16,          1) /* ItemUseable - No */
+     , (32197,  19,         16) /* Value */
+     , (32197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32197,  22, True ) /* Inscribable */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (32197,   1, 'Festival Shirt') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (32197,   1,   33554883) /* Setup */
+     , (32197,   3,  536870932) /* SoundTable */
+     , (32197,   6,   67108990) /* PaletteBase */
+     , (32197,   8,  100667379) /* Icon */
+     , (32197,  22,  872415275) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (32197, 8000, 2461791656) /* PCAPRecordedObjectIID */;

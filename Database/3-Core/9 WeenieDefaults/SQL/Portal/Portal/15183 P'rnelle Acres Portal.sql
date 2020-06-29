@@ -1,0 +1,32 @@
+DELETE FROM `weenie` WHERE `class_Id` = 15183;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (15183, 'portalprnelleacres', 7, '2019-02-10 00:00:00') /* Portal */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (15183,   1,      65536) /* ItemType - Portal */
+     , (15183,  16,         32) /* ItemUseable - Remote */
+     , (15183,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (15183, 111,          1) /* PortalBitmask - Unrestricted */
+     , (15183, 133,          4) /* ShowableOnRadar - ShowAlways */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (15183,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (15183,  54,    -0.1) /* UseRadius */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (15183,   1, 'P''rnelle Acres Portal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (15183,   1,   33554867) /* Setup */
+     , (15183,   2,  150994947) /* MotionTable */
+     , (15183,   8,  100667499) /* Icon */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (15183, 8040, 3432316949, 50.3258, 99.9326, 20.13082, 0.620087, 0, 0, -0.784533) /* PCAPRecordedLocation */
+/* @teleloc 0xCC950015 [50.325800 99.932600 20.130820] 0.620087 0.000000 0.000000 -0.784533 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (15183, 8000, 2093568012) /* PCAPRecordedObjectIID */;

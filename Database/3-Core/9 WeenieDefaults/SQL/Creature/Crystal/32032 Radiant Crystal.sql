@@ -1,0 +1,48 @@
+DELETE FROM `weenie` WHERE `class_Id` = 32032;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (32032, 'ace32032-radiantcrystal', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (32032,   1,         16) /* ItemType - Creature */
+     , (32032,   2,         47) /* CreatureType - Crystal */
+     , (32032,   6,         -1) /* ItemsCapacity */
+     , (32032,   7,         -1) /* ContainersCapacity */
+     , (32032,  16,          1) /* ItemUseable - No */
+     , (32032,  25,        160) /* Level */
+     , (32032,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
+     , (32032, 133,          4) /* ShowableOnRadar - ShowAlways */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32032,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (32032,   1, 'Radiant Crystal') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (32032,   1,   33558690) /* Setup */
+     , (32032,   2,  150995290) /* MotionTable */
+     , (32032,   3,  536871001) /* SoundTable */
+     , (32032,   6,   67113876) /* PaletteBase */
+     , (32032,   8,  100676420) /* Icon */
+     , (32032,  22,  872415389) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (32032, 8040, 3867071, 70, -170, -36.00335, 1, 0, 0, 0) /* PCAPRecordedLocation */
+/* @teleloc 0x003B01BF [70.000000 -170.000000 -36.003350] 1.000000 0.000000 0.000000 0.000000 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (32032, 8000, 2629238998) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (32032,   1, 500, 0, 0) /* Strength */
+     , (32032,   2,   1, 0, 0) /* Endurance */
+     , (32032,   3,   1, 0, 0) /* Quickness */
+     , (32032,   4,   1, 0, 0) /* Coordination */
+     , (32032,   5, 500, 0, 0) /* Focus */
+     , (32032,   6, 500, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (32032,   1,  5001, 0, 0, 5001) /* MaxHealth */
+     , (32032,   3,     0, 0, 0, 1) /* MaxStamina */
+     , (32032,   5,     0, 0, 0, 500) /* MaxMana */;

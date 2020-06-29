@@ -1,0 +1,55 @@
+DELETE FROM `weenie` WHERE `class_Id` = 49156;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49156, 'ace49156-nihoawasswarm', 71, '2019-02-10 00:00:00') /* CombatPet */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (49156,   1,         16) /* ItemType - Creature */
+     , (49156,   2,          9) /* CreatureType - PhyntosWasp */
+     , (49156,   6,         -1) /* ItemsCapacity */
+     , (49156,   7,         -1) /* ContainersCapacity */
+     , (49156,  16,          1) /* ItemUseable - No */
+     , (49156,  25,        200) /* Level */
+     , (49156,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
+     , (49156, 133,          1) /* ShowableOnRadar - ShowNever */
+     , (49156, 307,         14) /* DamageRating */
+     , (49156, 308,         17) /* DamageResistRating */
+     , (49156, 313,         12) /* CritRating */
+     , (49156, 314,         17) /* CritDamageRating */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (49156,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (49156,  39,     0.8) /* DefaultScale */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (49156,   1, 'Swarm') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (49156,   1,   33558818) /* Setup */
+     , (49156,   2,  150995304) /* MotionTable */
+     , (49156,   3,  536870926) /* SoundTable */
+     , (49156,   6,   67115262) /* PaletteBase */
+     , (49156,   8,  100667450) /* Icon */
+     , (49156,  22,  872415266) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (49156, 8040, 3932946700, 200.9154, 235.1715, -47.1992, -0.9515859, 0, 0, -0.307383) /* PCAPRecordedLocation */
+/* @teleloc 0xEA6C010C [200.915400 235.171500 -47.199200] -0.951586 0.000000 0.000000 -0.307383 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (49156, 8000, 3699817893) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (49156,   1, 210, 0, 0) /* Strength */
+     , (49156,   2, 240, 0, 0) /* Endurance */
+     , (49156,   3, 250, 0, 0) /* Quickness */
+     , (49156,   4, 160, 0, 0) /* Coordination */
+     , (49156,   5, 170, 0, 0) /* Focus */
+     , (49156,   6, 170, 0, 0) /* Self */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (49156,   1,  1250, 0, 0, 1370) /* MaxHealth */
+     , (49156,   3,  1500, 0, 0, 1740) /* MaxStamina */
+     , (49156,   5,   900, 0, 0, 1070) /* MaxMana */;

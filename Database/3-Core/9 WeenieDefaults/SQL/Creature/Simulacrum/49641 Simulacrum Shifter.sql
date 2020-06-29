@@ -1,0 +1,51 @@
+DELETE FROM `weenie` WHERE `class_Id` = 49641;
+
+INSERT INTO `weenie` (`class_Id`, `class_Name`, `type`, `last_Modified`)
+VALUES (49641, 'ace49641-simulacrumshifter', 10, '2019-02-10 00:00:00') /* Creature */;
+
+INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
+VALUES (49641,   1,         16) /* ItemType - Creature */
+     , (49641,   2,         59) /* CreatureType - Simulacrum */
+     , (49641,   6,         -1) /* ItemsCapacity */
+     , (49641,   7,         -1) /* ContainersCapacity */
+     , (49641,  16,          1) /* ItemUseable - No */
+     , (49641,  25,        265) /* Level */
+     , (49641,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
+     , (49641, 113,          1) /* Gender - Male */
+     , (49641, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (49641, 188,          2) /* HeritageGroup - Gharundim */;
+
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (49641,   1, True ) /* Stuck */;
+
+INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
+VALUES (49641,   1, 'Simulacrum Shifter') /* Name */;
+
+INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
+VALUES (49641,   1,   33554433) /* Setup */
+     , (49641,   2,  150995141) /* MotionTable */
+     , (49641,   3,  536871043) /* SoundTable */
+     , (49641,   6,   67108990) /* PaletteBase */
+     , (49641,   8,  100667446) /* Icon */
+     , (49641,   9,   83890510) /* EyesTexture */
+     , (49641,  10,   83890561) /* NoseTexture */
+     , (49641,  11,   83890595) /* MouthTexture */
+     , (49641,  15,   67117019) /* HairPalette */
+     , (49641,  16,   67110062) /* EyesPalette */
+     , (49641,  17,   67109551) /* SkinPalette */
+     , (49641,  22,  872415381) /* PhysicsEffectTable */;
+
+INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
+VALUES (49641, 8040, 1483145542, 175.2978, -120.7263, -59.995, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
+/* @teleloc 0x58670146 [175.297800 -120.726300 -59.995000] -0.707107 0.000000 0.000000 -0.707107 */;
+
+INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
+VALUES (49641, 8000, 2885273946) /* PCAPRecordedObjectIID */;
+
+INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
+VALUES (49641,   1,     0, 0, 0, 26335) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49641, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */
+     , (49641, 9,  5853,  0, 0, 0, False) /* Create Dho Vest and Robe (5853) for ContainTreasure */
+     , (49641, 9, 49644,  0, 0, 0, False) /* Create Door Key (49644) for ContainTreasure */;
