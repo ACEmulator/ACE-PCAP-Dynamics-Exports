@@ -28,4 +28,5 @@ VALUES (29126,   1,   33556223) /* Setup */
      , (29126,   3,  536870932) /* SoundTable */
      , (29126,   6,   67111928) /* PaletteBase */
      , (29126,   8,  100686445) /* Icon */
-     , (29126,  22,  872415275) /* PhysicsEffectTable */;
+     , (29126,  22,  872415275) /* PhysicsEffectTable */
+     , (29126, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

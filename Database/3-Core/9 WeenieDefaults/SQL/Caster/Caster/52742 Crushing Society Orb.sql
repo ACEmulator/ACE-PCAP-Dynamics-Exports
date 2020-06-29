@@ -28,4 +28,5 @@ VALUES (52742,   1,   33554669) /* Setup */
      , (52742,   3,  536870932) /* SoundTable */
      , (52742,   6,   67111928) /* PaletteBase */
      , (52742,   8,  100677116) /* Icon */
-     , (52742,  22,  872415275) /* PhysicsEffectTable */;
+     , (52742,  22,  872415275) /* PhysicsEffectTable */
+     , (52742, 8044,       2366) /* PCAPPhysicsDIDDataTemplatedFrom - Orb */;

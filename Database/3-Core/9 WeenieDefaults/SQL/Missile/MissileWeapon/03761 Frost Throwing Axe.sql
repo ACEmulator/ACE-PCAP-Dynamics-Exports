@@ -31,4 +31,5 @@ VALUES (3761,   1,   33556223) /* Setup */
      , (3761,   3,  536870932) /* SoundTable */
      , (3761,   6,   67111928) /* PaletteBase */
      , (3761,   8,  100667581) /* Icon */
-     , (3761,  22,  872415275) /* PhysicsEffectTable */;
+     , (3761,  22,  872415275) /* PhysicsEffectTable */
+     , (3761, 8044,       5762) /* PCAPPhysicsDIDDataTemplatedFrom - Snowball */;

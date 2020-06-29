@@ -28,4 +28,5 @@ VALUES (52810,   1,   33557625) /* Setup */
      , (52810,   3,  536870932) /* SoundTable */
      , (52810,   8,  100693311) /* Icon */
      , (52810,  22,  872415275) /* PhysicsEffectTable */
-     , (52810,  28,        157) /* Spell - SummonPortal1 */;
+     , (52810,  28,        157) /* Spell - SummonPortal1 */
+     , (52810, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

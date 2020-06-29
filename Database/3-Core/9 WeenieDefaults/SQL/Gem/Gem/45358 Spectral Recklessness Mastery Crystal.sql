@@ -28,4 +28,5 @@ VALUES (45358,   1,   33557625) /* Setup */
      , (45358,  22,  872415275) /* PhysicsEffectTable */
      , (45358,  28,       5906) /* Spell - RecklessnessMasterySpectral */
      , (45358,  50,  100686633) /* IconOverlay */
-     , (45358,  52,  100686604) /* IconUnderlay */;
+     , (45358,  52,  100686604) /* IconUnderlay */
+     , (45358, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

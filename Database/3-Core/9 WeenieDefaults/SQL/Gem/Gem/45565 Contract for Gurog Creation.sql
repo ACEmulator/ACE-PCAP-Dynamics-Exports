@@ -29,4 +29,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45565,   1,   33557625) /* Setup */
      , (45565,   3,  536870932) /* SoundTable */
      , (45565,   8,  100691928) /* Icon */
-     , (45565,  22,  872415275) /* PhysicsEffectTable */;
+     , (45565,  22,  872415275) /* PhysicsEffectTable */
+     , (45565, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

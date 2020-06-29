@@ -24,4 +24,5 @@ VALUES (43621,   1,   33554653) /* Setup */
      , (43621,   6,   67108990) /* PaletteBase */
      , (43621,   8,  100691617) /* Icon */
      , (43621,  22,  872415275) /* PhysicsEffectTable */
-     , (43621,  52,  100691610) /* IconUnderlay */;
+     , (43621,  52,  100691610) /* IconUnderlay */
+     , (43621, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

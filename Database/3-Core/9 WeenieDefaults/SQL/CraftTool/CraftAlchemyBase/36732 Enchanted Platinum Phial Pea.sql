@@ -26,4 +26,5 @@ VALUES (36732,   1,   33556223) /* Setup */
      , (36732,   3,  536870932) /* SoundTable */
      , (36732,   6,   67111928) /* PaletteBase */
      , (36732,   8,  100689708) /* Icon */
-     , (36732,  22,  872415275) /* PhysicsEffectTable */;
+     , (36732,  22,  872415275) /* PhysicsEffectTable */
+     , (36732, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

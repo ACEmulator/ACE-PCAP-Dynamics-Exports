@@ -22,4 +22,5 @@ VALUES (5130,   1,   33559084) /* Setup */
      , (5130,   3,  536870932) /* SoundTable */
      , (5130,   6,   67112626) /* PaletteBase */
      , (5130,   8,  100668176) /* Icon */
-     , (5130,  22,  872415275) /* PhysicsEffectTable */;
+     , (5130,  22,  872415275) /* PhysicsEffectTable */
+     , (5130, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

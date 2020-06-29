@@ -23,4 +23,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44622,   1,   33554826) /* Setup */
      , (44622,   8,  100691569) /* Icon */
      , (44622,  22,  872415275) /* PhysicsEffectTable */
-     , (44622,  28,       5547) /* Spell - NetherBlast4 */;
+     , (44622,  28,       5547) /* Spell - NetherBlast4 */
+     , (44622, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

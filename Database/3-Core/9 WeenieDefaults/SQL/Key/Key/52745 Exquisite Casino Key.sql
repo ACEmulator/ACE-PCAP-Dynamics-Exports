@@ -23,4 +23,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52745,   1,   33554784) /* Setup */
      , (52745,   3,  536870932) /* SoundTable */
      , (52745,   8,  100671519) /* Icon */
-     , (52745,  22,  872415275) /* PhysicsEffectTable */;
+     , (52745,  22,  872415275) /* PhysicsEffectTable */
+     , (52745, 8044,       2200) /* PCAPPhysicsDIDDataTemplatedFrom - Copy of Witshire's Key */;

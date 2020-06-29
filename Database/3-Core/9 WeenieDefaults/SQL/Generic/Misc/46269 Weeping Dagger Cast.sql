@@ -23,4 +23,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46269,   1,   33554680) /* Setup */
      , (46269,   3,  536870932) /* SoundTable */
      , (46269,   8,  100674267) /* Icon */
-     , (46269,  22,  872415275) /* PhysicsEffectTable */;
+     , (46269,  22,  872415275) /* PhysicsEffectTable */
+     , (46269, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

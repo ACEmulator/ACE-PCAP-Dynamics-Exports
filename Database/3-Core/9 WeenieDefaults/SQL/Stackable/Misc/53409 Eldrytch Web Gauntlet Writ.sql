@@ -26,4 +26,5 @@ VALUES (53409,   1,   33556750) /* Setup */
      , (53409,   6,   67111919) /* PaletteBase */
      , (53409,   8,  100667503) /* Icon */
      , (53409,  22,  872415275) /* PhysicsEffectTable */
-     , (53409,  50,  100690172) /* IconOverlay */;
+     , (53409,  50,  100690172) /* IconOverlay */
+     , (53409, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;

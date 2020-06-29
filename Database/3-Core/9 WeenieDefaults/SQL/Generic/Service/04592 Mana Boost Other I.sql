@@ -20,4 +20,5 @@ VALUES (4592,   1,   33554680) /* Setup */
      , (4592,   3,  536870932) /* SoundTable */
      , (4592,   8,  100668288) /* Icon */
      , (4592,  22,  872415275) /* PhysicsEffectTable */
-     , (4592,  28,       1207) /* Spell - ManaBoostOther1 */;
+     , (4592,  28,       1207) /* Spell - ManaBoostOther1 */
+     , (4592, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

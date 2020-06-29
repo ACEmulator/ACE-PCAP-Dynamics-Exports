@@ -28,4 +28,5 @@ VALUES (45357,   1,   33557625) /* Setup */
      , (45357,  22,  872415275) /* PhysicsEffectTable */
      , (45357,  28,       5904) /* Spell - DualWieldMasterySpectral */
      , (45357,  50,  100692245) /* IconOverlay */
-     , (45357,  52,  100686604) /* IconUnderlay */;
+     , (45357,  52,  100686604) /* IconUnderlay */
+     , (45357, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

@@ -28,4 +28,5 @@ VALUES (41745,   1,   33557625) /* Setup */
      , (41745,  22,  872415275) /* PhysicsEffectTable */
      , (41745,  28,       5023) /* Spell - TwoHandedMasterySpectral */
      , (41745,  50,  100690691) /* IconOverlay */
-     , (41745,  52,  100686604) /* IconUnderlay */;
+     , (41745,  52,  100686604) /* IconUnderlay */
+     , (41745, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

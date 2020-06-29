@@ -30,4 +30,5 @@ VALUES (41873,   1,   33556223) /* Setup */
      , (41873,   6,   67111928) /* PaletteBase */
      , (41873,   8,  100667436) /* Icon */
      , (41873,  22,  872415275) /* PhysicsEffectTable */
-     , (41873,  50,  100673295) /* IconOverlay */;
+     , (41873,  50,  100673295) /* IconOverlay */
+     , (41873, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

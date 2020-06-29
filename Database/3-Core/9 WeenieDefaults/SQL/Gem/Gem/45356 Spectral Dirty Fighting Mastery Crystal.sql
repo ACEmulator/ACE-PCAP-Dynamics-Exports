@@ -28,4 +28,5 @@ VALUES (45356,   1,   33557625) /* Setup */
      , (45356,  22,  872415275) /* PhysicsEffectTable */
      , (45356,  28,       5912) /* Spell - DirtyFightingMasterySpectral */
      , (45356,  50,  100692244) /* IconOverlay */
-     , (45356,  52,  100686604) /* IconUnderlay */;
+     , (45356,  52,  100686604) /* IconUnderlay */
+     , (45356, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

@@ -20,4 +20,5 @@ VALUES (30669,   1,   33554680) /* Setup */
      , (30669,   3,  536870932) /* SoundTable */
      , (30669,   8,  100668268) /* Icon */
      , (30669,  22,  872415275) /* PhysicsEffectTable */
-     , (30669,  28,       1382) /* Spell - CoordinationOther4 */;
+     , (30669,  28,       1382) /* Spell - CoordinationOther4 */
+     , (30669, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

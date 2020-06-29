@@ -20,4 +20,5 @@ VALUES (8184,   1,   33554680) /* Setup */
      , (8184,   3,  536870932) /* SoundTable */
      , (8184,   8,  100670799) /* Icon */
      , (8184,  22,  872415275) /* PhysicsEffectTable */
-     , (8184,  28,       1871) /* Spell - DispelAllNeutralOther5 */;
+     , (8184,  28,       1871) /* Spell - DispelAllNeutralOther5 */
+     , (8184, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

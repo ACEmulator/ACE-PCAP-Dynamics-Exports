@@ -23,4 +23,5 @@ VALUES (102,   1,   33554653) /* Setup */
      , (102,   3,  536870932) /* SoundTable */
      , (102,   6,   67108990) /* PaletteBase */
      , (102,   8,  100668412) /* Icon */
-     , (102,  22,  872415275) /* PhysicsEffectTable */;
+     , (102,  22,  872415275) /* PhysicsEffectTable */
+     , (102, 8044,       2597) /* PCAPPhysicsDIDDataTemplatedFrom - Flared Pants */;

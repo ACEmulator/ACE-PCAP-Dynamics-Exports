@@ -29,4 +29,5 @@ VALUES (45468,   1,   33557067) /* Setup */
      , (45468,   8,  100686783) /* Icon */
      , (45468,  22,  872415275) /* PhysicsEffectTable */
      , (45468,  30,         88) /* PhysicsScript - Create */
-     , (45468,  52,  100686604) /* IconUnderlay */;
+     , (45468,  52,  100686604) /* IconUnderlay */
+     , (45468, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;

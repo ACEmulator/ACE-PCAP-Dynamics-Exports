@@ -20,4 +20,5 @@ VALUES (4590,   1,   33554680) /* Setup */
      , (4590,   3,  536870932) /* SoundTable */
      , (4590,   8,  100668299) /* Icon */
      , (4590,  22,  872415275) /* PhysicsEffectTable */
-     , (4590,  28,       1184) /* Spell - RevitalizeOther2 */;
+     , (4590,  28,       1184) /* Spell - RevitalizeOther2 */
+     , (4590, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

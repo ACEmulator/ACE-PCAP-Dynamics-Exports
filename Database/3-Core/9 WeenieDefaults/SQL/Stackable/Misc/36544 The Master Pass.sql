@@ -25,4 +25,5 @@ VALUES (36544,   1,   33556750) /* Setup */
      , (36544,   3,  536870932) /* SoundTable */
      , (36544,   6,   67111919) /* PaletteBase */
      , (36544,   8,  100689631) /* Icon */
-     , (36544,  22,  872415275) /* PhysicsEffectTable */;
+     , (36544,  22,  872415275) /* PhysicsEffectTable */
+     , (36544, 8044,       8644) /* PCAPPhysicsDIDDataTemplatedFrom - Lapyan Plant */;

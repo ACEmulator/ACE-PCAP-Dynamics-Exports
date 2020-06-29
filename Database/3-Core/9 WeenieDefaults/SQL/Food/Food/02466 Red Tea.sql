@@ -22,4 +22,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2466,   1,   33556220) /* Setup */
      , (2466,   3,  536870932) /* SoundTable */
      , (2466,   8,  100667430) /* Icon */
-     , (2466,  22,  872415275) /* PhysicsEffectTable */;
+     , (2466,  22,  872415275) /* PhysicsEffectTable */
+     , (2466, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

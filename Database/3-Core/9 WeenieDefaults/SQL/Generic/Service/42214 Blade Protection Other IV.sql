@@ -20,4 +20,5 @@ VALUES (42214,   1,   33554680) /* Setup */
      , (42214,   3,  536870932) /* SoundTable */
      , (42214,   8,  100668348) /* Icon */
      , (42214,  22,  872415275) /* PhysicsEffectTable */
-     , (42214,  28,       1118) /* Spell - BladeProtectionOther4 */;
+     , (42214,  28,       1118) /* Spell - BladeProtectionOther4 */
+     , (42214, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

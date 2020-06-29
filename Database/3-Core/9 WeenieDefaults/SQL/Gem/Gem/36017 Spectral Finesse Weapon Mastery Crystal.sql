@@ -28,4 +28,5 @@ VALUES (36017,   1,   33557625) /* Setup */
      , (36017,  22,  872415275) /* PhysicsEffectTable */
      , (36017,  28,       4135) /* Spell - DaggerMasterySpectral */
      , (36017,  50,  100692243) /* IconOverlay */
-     , (36017,  52,  100686604) /* IconUnderlay */;
+     , (36017,  52,  100686604) /* IconUnderlay */
+     , (36017, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

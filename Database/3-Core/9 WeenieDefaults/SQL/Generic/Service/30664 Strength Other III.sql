@@ -20,4 +20,5 @@ VALUES (30664,   1,   33554680) /* Setup */
      , (30664,   3,  536870932) /* SoundTable */
      , (30664,   8,  100668300) /* Icon */
      , (30664,  22,  872415275) /* PhysicsEffectTable */
-     , (30664,  28,       1334) /* Spell - StrengthOther3 */;
+     , (30664,  28,       1334) /* Spell - StrengthOther3 */
+     , (30664, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

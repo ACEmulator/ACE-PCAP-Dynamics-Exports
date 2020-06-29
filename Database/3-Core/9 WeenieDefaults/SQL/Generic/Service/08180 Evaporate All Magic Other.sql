@@ -20,4 +20,5 @@ VALUES (8180,   1,   33554680) /* Setup */
      , (8180,   3,  536870932) /* SoundTable */
      , (8180,   8,  100670799) /* Icon */
      , (8180,  22,  872415275) /* PhysicsEffectTable */
-     , (8180,  28,       1847) /* Spell - DispelAllNeutralOther1 */;
+     , (8180,  28,       1847) /* Spell - DispelAllNeutralOther1 */
+     , (8180, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

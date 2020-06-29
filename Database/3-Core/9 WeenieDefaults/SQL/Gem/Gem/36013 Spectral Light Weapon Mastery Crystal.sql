@@ -28,4 +28,5 @@ VALUES (36013,   1,   33557625) /* Setup */
      , (36013,  22,  872415275) /* PhysicsEffectTable */
      , (36013,  28,       4131) /* Spell - AxeMasterySpectral */
      , (36013,  50,  100692242) /* IconOverlay */
-     , (36013,  52,  100686604) /* IconUnderlay */;
+     , (36013,  52,  100686604) /* IconUnderlay */
+     , (36013, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

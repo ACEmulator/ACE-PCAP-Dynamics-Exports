@@ -30,4 +30,5 @@ VALUES (19401,   1,   33556223) /* Setup */
      , (19401,   3,  536870932) /* SoundTable */
      , (19401,   6,   67111928) /* PaletteBase */
      , (19401,   8,  100672871) /* Icon */
-     , (19401,  22,  872415275) /* PhysicsEffectTable */;
+     , (19401,  22,  872415275) /* PhysicsEffectTable */
+     , (19401, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

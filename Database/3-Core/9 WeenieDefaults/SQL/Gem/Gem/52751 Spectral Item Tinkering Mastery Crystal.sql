@@ -27,4 +27,5 @@ VALUES (52751,   1,   33557625) /* Setup */
      , (52751,   8,  100686697) /* Icon */
      , (52751,  22,  872415275) /* PhysicsEffectTable */
      , (52751,  28,       6177) /* Spell - GauntletItemMastery */
-     , (52751,  50,  100686661) /* IconOverlay */;
+     , (52751,  50,  100686661) /* IconOverlay */
+     , (52751, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

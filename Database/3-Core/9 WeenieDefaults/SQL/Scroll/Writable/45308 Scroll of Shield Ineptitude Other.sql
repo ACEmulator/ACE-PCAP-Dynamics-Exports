@@ -23,4 +23,5 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45308,   1,   33554826) /* Setup */
      , (45308,   8,  100692252) /* Icon */
      , (45308,  22,  872415275) /* PhysicsEffectTable */
-     , (45308,  28,       5835) /* Spell - ShieldIneptitudeOther1 */;
+     , (45308,  28,       5835) /* Spell - ShieldIneptitudeOther1 */
+     , (45308, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

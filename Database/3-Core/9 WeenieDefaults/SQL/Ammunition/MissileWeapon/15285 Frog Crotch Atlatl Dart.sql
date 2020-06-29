@@ -30,7 +30,8 @@ VALUES (15285,   1,   33554730) /* Setup */
      , (15285,   3,  536870932) /* SoundTable */
      , (15285,   6,   67111919) /* PaletteBase */
      , (15285,   8,  100672585) /* Icon */
-     , (15285,  22,  872415275) /* PhysicsEffectTable */;
+     , (15285,  22,  872415275) /* PhysicsEffectTable */
+     , (15285, 8044,      47961) /* PCAPPhysicsDIDDataTemplatedFrom - Quarrel */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15285, 8040, 2451701776, 45.4038, 177.4233, 105.3608, 0.02042975, 0.02042975, -0.7068116, -0.7068116) /* PCAPRecordedLocation */

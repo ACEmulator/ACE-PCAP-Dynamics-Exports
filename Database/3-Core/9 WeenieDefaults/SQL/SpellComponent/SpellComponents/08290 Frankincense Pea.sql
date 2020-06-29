@@ -25,4 +25,5 @@ VALUES (8290,   1,   33555211) /* Setup */
      , (8290,   3,  536870932) /* SoundTable */
      , (8290,   6,   67111919) /* PaletteBase */
      , (8290,   8,  100671048) /* Icon */
-     , (8290,  22,  872415275) /* PhysicsEffectTable */;
+     , (8290,  22,  872415275) /* PhysicsEffectTable */
+     , (8290, 8044,       8328) /* PCAPPhysicsDIDDataTemplatedFrom - Iron Pea */;

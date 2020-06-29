@@ -28,7 +28,8 @@ VALUES (27368,   1,   33554728) /* Setup */
      , (27368,   3,  536870932) /* SoundTable */
      , (27368,   6,   67111919) /* PaletteBase */
      , (27368,   8,  100676382) /* Icon */
-     , (27368,  22,  872415275) /* PhysicsEffectTable */;
+     , (27368,  22,  872415275) /* PhysicsEffectTable */
+     , (27368, 8044,      34345) /* PCAPPhysicsDIDDataTemplatedFrom - Yumi */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27368, 8040, 2399993903, 137.0928, 149.3409, 33.88368, -0.9186358, 0, 0, -0.3951055) /* PCAPRecordedLocation */

@@ -20,4 +20,5 @@ VALUES (42219,   1,   33554680) /* Setup */
      , (42219,   3,  536870932) /* SoundTable */
      , (42219,   8,  100668347) /* Icon */
      , (42219,  22,  872415275) /* PhysicsEffectTable */
-     , (42219,  28,       1142) /* Spell - PiercingProtectionOther4 */;
+     , (42219,  28,       1142) /* Spell - PiercingProtectionOther4 */
+     , (42219, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;
