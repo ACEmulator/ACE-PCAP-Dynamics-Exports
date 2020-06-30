@@ -17,8 +17,7 @@ VALUES (2535,   1,         16) /* ItemType - Creature */
      , (2535, 113,          1) /* Gender - Male */
      , (2535, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2535, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2535, 188,          1) /* HeritageGroup - Aluvian */
-     , (2535, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2535, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2535,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2535,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2535,   1, 'Healer of Stonehold') /* Name */
-     , (2535,   5, 'Healer') /* Template */
-     , (2535, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2535,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2535,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2535,   1,   33554433) /* Setup */
      , (2535,  11,   83890639) /* MouthTexture */
      , (2535,  15,   67117072) /* HairPalette */
      , (2535,  16,   67109567) /* EyesPalette */
-     , (2535,  17,   67109561) /* SkinPalette */
-     , (2535, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2535, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2535, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2535,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2535, 8040, 1691681051, 106.319, 85.9495, 78.005, -0.534355, 0, 0, -0.8452601) /* PCAPRecordedLocation */
 /* @teleloc 0x64D5011B [106.319000 85.949500 78.005000] -0.534355 0.000000 0.000000 -0.845260 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2535, 8000, 1984778255) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2535,   1,  50, 0, 0) /* Strength */
@@ -91,54 +83,3 @@ VALUES (2535, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (2535, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (2535, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2535, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2535, 67109561, 0, 24)
-     , (2535, 67109567, 32, 8)
-     , (2535, 67109964, 92, 4)
-     , (2535, 67110026, 72, 8)
-     , (2535, 67110334, 160, 8)
-     , (2535, 67110354, 64, 8)
-     , (2535, 67110365, 40, 24)
-     , (2535, 67117072, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2535, 0, 83889072, 83890012)
-     , (2535, 0, 83889342, 83890011)
-     , (2535, 1, 83887064, 83886241)
-     , (2535, 2, 83887066, 83887055)
-     , (2535, 3, 83889344, 83887054)
-     , (2535, 4, 83887068, 83887054)
-     , (2535, 5, 83887064, 83886241)
-     , (2535, 6, 83887066, 83887055)
-     , (2535, 7, 83889344, 83887054)
-     , (2535, 8, 83887068, 83887054)
-     , (2535, 9, 83887061, 83890009)
-     , (2535, 9, 83887060, 83890010)
-     , (2535, 10, 83887069, 83886782)
-     , (2535, 11, 83887067, 83891213)
-     , (2535, 13, 83887069, 83886782)
-     , (2535, 14, 83887067, 83891213)
-     , (2535, 16, 83886232, 83890685)
-     , (2535, 16, 83886668, 83890451)
-     , (2535, 16, 83886837, 83890556)
-     , (2535, 16, 83886684, 83890639);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2535, 0, 16781835)
-     , (2535, 1, 16777295)
-     , (2535, 2, 16777293)
-     , (2535, 3, 16777292)
-     , (2535, 4, 16777291)
-     , (2535, 5, 16777299)
-     , (2535, 6, 16777297)
-     , (2535, 7, 16777296)
-     , (2535, 8, 16777298)
-     , (2535, 9, 16777300)
-     , (2535, 10, 16777301)
-     , (2535, 11, 16777302)
-     , (2535, 12, 16777304)
-     , (2535, 13, 16777303)
-     , (2535, 14, 16777305)
-     , (2535, 15, 16777307)
-     , (2535, 16, 16795665);

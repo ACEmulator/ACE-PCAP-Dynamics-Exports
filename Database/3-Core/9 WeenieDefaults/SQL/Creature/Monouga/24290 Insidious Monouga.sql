@@ -11,15 +11,13 @@ VALUES (24290,   1,         16) /* ItemType - Creature */
      , (24290,  16,          1) /* ItemUseable - No */
      , (24290,  25,        100) /* Level */
      , (24290,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (24290, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24290, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24290, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24290,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24290,   1, 'Insidious Monouga') /* Name */
-     , (24290, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24290,   1, 'Insidious Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24290,   1,   33555199) /* Setup */
@@ -27,17 +25,11 @@ VALUES (24290,   1,   33555199) /* Setup */
      , (24290,   3,  536870962) /* SoundTable */
      , (24290,   6,   67111302) /* PaletteBase */
      , (24290,   8,  100669117) /* Icon */
-     , (24290,  22,  872415257) /* PhysicsEffectTable */
-     , (24290, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24290, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24290, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (24290,  22,  872415257) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24290, 8040, 1138556947, 55.89162, 56.74923, 10.65264, -0.1065886, 0, 0, -0.9943032) /* PCAPRecordedLocation */
 /* @teleloc 0x43DD0013 [55.891620 56.749230 10.652640] -0.106589 0.000000 0.000000 -0.994303 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24290, 8000, 3690567755) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24290,   1, 325, 0, 0) /* Strength */
@@ -70,15 +62,3 @@ VALUES (24290, 2, 23649,  1, 0, 0, False) /* Create Club (23649) for Wield */
      , (24290, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (24290, 9, 30579,  0, 0, 0, False) /* Create Acid Flamberge (30579) for ContainTreasure */
      , (24290, 9, 31789,  0, 0, 0, False) /* Create Acid Stick (31789) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24290, 67114292, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24290, 0, 83890001, 83891258)
-     , (24290, 1, 83889999, 83891259)
-     , (24290, 1, 83890000, 83891261);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24290, 0, 16780603)
-     , (24290, 1, 16780619);

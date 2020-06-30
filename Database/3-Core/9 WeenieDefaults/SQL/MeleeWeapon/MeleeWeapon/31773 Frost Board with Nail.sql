@@ -31,9 +31,7 @@ VALUES (31773,   1,          1) /* ItemType - MeleeWeapon */
      , (31773, 160,        325) /* WieldDifficulty */
      , (31773, 172,          1) /* AppraisalLongDescDecoration */
      , (31773, 176,         46) /* AppraisalItemSkill */
-     , (31773, 353,          4) /* WeaponType - Mace */
-     , (31773, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31773, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31773, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31773,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (31773,   5,   -0.05) /* ManaRate */
      , (31773,  29,    1.11) /* WeaponDefense */
      , (31773,  62,    1.04) /* WeaponOffense */
      , (31773,  63,       1) /* DamageMod */
-     , (31773, 149,   1.015) /* WeaponMissileDefense */
-     , (31773, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (31773, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31773,   1, 'Frost Board with Nail') /* Name */
@@ -58,25 +55,8 @@ VALUES (31773,   1,   33559655) /* Setup */
      , (31773,   3,  536870932) /* SoundTable */
      , (31773,   6,   67116700) /* PaletteBase */
      , (31773,   8,  100688085) /* Icon */
-     , (31773,  22,  872415275) /* PhysicsEffectTable */
-     , (31773, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31773, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31773, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31773, 8000, 3698570098) /* PCAPRecordedObjectIID */;
+     , (31773,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31773,  1331,      2) 
      , (31773,  1615,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31773, 67116700, 0, 101)
-     , (31773, 67116701, 201, 55)
-     , (31773, 67116708, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31773, 0, 83897336, 83897336);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31773, 0, 16792613);

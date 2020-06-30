@@ -24,8 +24,7 @@ VALUES (44851,   1,          4) /* ItemType - Clothing */
      , (44851, 319,          3) /* ItemMaxLevel */
      , (44851, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (44851, 352,          1) /* CloakWeaveProc */
-     , (44851, 371,          2) /* GearDamageResist */
-     , (44851, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44851, 371,          2) /* GearDamageResist */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44851,   4,          0) /* ItemTotalXp */
@@ -43,8 +42,7 @@ VALUES (44851,  13,     0.8) /* ArmorModVsSlash */
      , (44851,  17,     0.2) /* ArmorModVsFire */
      , (44851,  18,     0.1) /* ArmorModVsAcid */
      , (44851,  19,     0.2) /* ArmorModVsElectric */
-     , (44851, 165,       1) /* ArmorModVsNether */
-     , (44851, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (44851, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44851,   1, 'Chevron Cloak') /* Name */
@@ -56,19 +54,7 @@ VALUES (44851,   1,   33561386) /* Setup */
      , (44851,   8,  100692126) /* Icon */
      , (44851,  22,  872415275) /* PhysicsEffectTable */
      , (44851,  50,  100690998) /* IconOverlay */
-     , (44851,  55,       5753) /* ProcSpell - CloakAllSkill */
-     , (44851, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (44851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44851, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44851, 8000, 2174519321) /* PCAPRecordedObjectIID */;
+     , (44851,  55,       5753) /* ProcSpell - CloakAllSkill */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44851,  5753,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44851, 0, 83898657, 83898660);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44851, 0, 16795839);

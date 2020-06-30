@@ -14,10 +14,7 @@ VALUES (7276,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7276,  77,       1) /* PhysicsScriptIntensity */
      , (7276,  78,       1) /* Friction */
-     , (7276,  79,       0) /* Elasticity */
-     , (7276, 8010,  -2.867) /* PCAPRecordedVelocityX */
-     , (7276, 8011,   2.789) /* PCAPRecordedVelocityY */
-     , (7276, 8012,  -0.044) /* PCAPRecordedVelocityZ */;
+     , (7276,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7276,   1, 'Acid Stream') /* Name */;
@@ -28,17 +25,11 @@ VALUES (7276,   1,   33555446) /* Setup */
      , (7276,   8,  100667494) /* Icon */
      , (7276,  22,  872415362) /* PhysicsEffectTable */
      , (7276,  28,         58) /* Spell - AcidStream1 */
-     , (7276,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (7276, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (7276, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (7276, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (7276,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7276, 8040, 9175362, 127.7061, -67.76887, -4.1575, -0.921203, 0, 0, -0.3890823) /* PCAPRecordedLocation */
 /* @teleloc 0x008C0142 [127.706100 -67.768870 -4.157500] -0.921203 0.000000 0.000000 -0.389082 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7276, 8000, 3701635833) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7276, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */

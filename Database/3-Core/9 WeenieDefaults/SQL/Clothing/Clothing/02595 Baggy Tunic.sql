@@ -23,8 +23,7 @@ VALUES (2595,   1,          4) /* ItemType - Clothing */
      , (2595, 131,          5) /* MaterialType - Satin */
      , (2595, 172,          5) /* AppraisalLongDescDecoration */
      , (2595, 177,          3) /* GemCount */
-     , (2595, 178,         34) /* GemType */
-     , (2595, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2595, 178,         34) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2595,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (2595,   5,  -0.056) /* ManaRate */
      , (2595,  17,     0.2) /* ArmorModVsFire */
      , (2595,  18,     0.1) /* ArmorModVsAcid */
      , (2595,  19,     0.2) /* ArmorModVsElectric */
-     , (2595, 165,       1) /* ArmorModVsNether */
-     , (2595, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (2595, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2595,   1, 'Baggy Tunic') /* Name */
@@ -51,13 +49,7 @@ VALUES (2595,   1,   33554883) /* Setup */
      , (2595,   3,  536870932) /* SoundTable */
      , (2595,   6,   67108990) /* PaletteBase */
      , (2595,   8,  100667375) /* Icon */
-     , (2595,  22,  872415275) /* PhysicsEffectTable */
-     , (2595, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (2595, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2595, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2595, 8000, 3469316235) /* PCAPRecordedObjectIID */;
+     , (2595,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2595,  1138,      2) 
@@ -68,17 +60,3 @@ VALUES (2595,  1138,      2)
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2595, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
      , (2595, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2595, 67110343, 40, 24)
-     , (2595, 67110550, 92, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2595, 0, 83887061, 83886687)
-     , (2595, 0, 83887060, 83886686)
-     , (2595, 0, 83889072, 83886685)
-     , (2595, 0, 83889342, 83889386)
-     , (2595, 0, 83886796, 83886782);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2595, 0, 16779351);

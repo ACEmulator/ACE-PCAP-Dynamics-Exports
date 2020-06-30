@@ -16,8 +16,7 @@ VALUES (42,   1,          2) /* ItemType - Armor */
      , (42, 131,         54) /* MaterialType - GromnieHide */
      , (42, 172,          5) /* AppraisalLongDescDecoration */
      , (42, 177,          1) /* GemCount */
-     , (42, 178,         25) /* GemType */
-     , (42, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42, 178,         25) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42,  22, True ) /* Inscribable */
@@ -31,8 +30,7 @@ VALUES (42,  13,     1.2) /* ArmorModVsSlash */
      , (42,  17,     0.7) /* ArmorModVsFire */
      , (42,  18,     0.3) /* ArmorModVsAcid */
      , (42,  19,     0.4) /* ArmorModVsElectric */
-     , (42, 165,       1) /* ArmorModVsNether */
-     , (42, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (42, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42,   1, 'Studded Leather Breastplate') /* Name */
@@ -43,30 +41,11 @@ VALUES (42,   1,   33554642) /* Setup */
      , (42,   3,  536870932) /* SoundTable */
      , (42,   6,   67108990) /* PaletteBase */
      , (42,   8,  100667930) /* Icon */
-     , (42,  22,  872415275) /* PhysicsEffectTable */
-     , (42, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (42, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (42,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42, 8040, 1581449474, 13.70616, -28.23217, -0.004999995, 0.4977438, 0, 0, -0.8673241) /* PCAPRecordedLocation */
 /* @teleloc 0x5E430102 [13.706160 -28.232170 -0.005000] 0.497744 0.000000 0.000000 -0.867324 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42, 8000, 3691668604) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42, 2, 48233,  1, 0, 0, False) /* Create Electric Compound Bow (48233) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42, 67110002, 186, 12)
-     , (42, 67110002, 206, 10)
-     , (42, 67110353, 216, 24)
-     , (42, 67110367, 174, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42, 0, 83887061, 83886694)
-     , (42, 0, 83887060, 83886690);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42, 0, 16778382);

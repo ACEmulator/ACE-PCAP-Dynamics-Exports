@@ -33,8 +33,7 @@ VALUES (35478,   1,         16) /* ItemType - Creature */
      , (35478, 386,          0) /* Overpower */
      , (35478, 387,          0) /* OverpowerResist */
      , (35478, 388,          0) /* GearOverpower */
-     , (35478, 389,          0) /* GearOverpowerResist */
-     , (35478, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35478, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35478,   1, True ) /* Stuck */
@@ -44,21 +43,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35478,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35478,   1, 'Kresovus'' Lockbox') /* Name */
-     , (35478, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35478,   1, 'Kresovus'' Lockbox') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35478,   1,   33558692) /* Setup */
      , (35478,   2,  150995261) /* MotionTable */
      , (35478,   3,  536870933) /* SoundTable */
-     , (35478,   8,  100689072) /* Icon */
-     , (35478, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (35478, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (35478, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (35478,   8,  100689072) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35478, 8040, 2719875100, 76.0134, 84, 610, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E001C [76.013400 84.000000 610.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35478, 8000, 3691198731) /* PCAPRecordedObjectIID */;

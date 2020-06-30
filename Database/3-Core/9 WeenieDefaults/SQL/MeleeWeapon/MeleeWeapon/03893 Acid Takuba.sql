@@ -33,9 +33,7 @@ VALUES (3893,   1,          1) /* ItemType - MeleeWeapon */
      , (3893, 176,         44) /* AppraisalItemSkill */
      , (3893, 177,          3) /* GemCount */
      , (3893, 178,         34) /* GemType */
-     , (3893, 353,          2) /* WeaponType - Sword */
-     , (3893, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3893, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3893, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3893,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3893,   5,  -0.042) /* ManaRate */
      , (3893,  29,    1.07) /* WeaponDefense */
      , (3893,  39,    1.21) /* DefaultScale */
      , (3893,  62,     1.1) /* WeaponOffense */
-     , (3893,  63,       1) /* DamageMod */
-     , (3893, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3893,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3893,   1, 'Acid Takuba') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3893,   1,   33555828) /* Setup */
      , (3893,   3,  536870932) /* SoundTable */
      , (3893,   8,  100669052) /* Icon */
-     , (3893,  22,  872415275) /* PhysicsEffectTable */
-     , (3893, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3893, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3893, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3893, 8000, 3694261189) /* PCAPRecordedObjectIID */;
+     , (3893,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3893,  1604,      2) 

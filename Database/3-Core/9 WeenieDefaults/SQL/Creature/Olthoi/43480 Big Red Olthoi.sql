@@ -16,8 +16,7 @@ VALUES (43480,   1,         16) /* ItemType - Creature */
      , (43480, 134,          4) /* PlayerKillerStatus - PK */
      , (43480, 188,         12) /* HeritageGroup - Olthoi */
      , (43480, 261,        711) /* CharacterTitleId */
-     , (43480, 390,          0) /* Enlightenment */
-     , (43480, 8007,          1) /* PCAPRecordedAutonomousMovement */;
+     , (43480, 390,          0) /* Enlightenment */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43480,   1, True ) /* Stuck */;
@@ -26,8 +25,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43480,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43480,   1, 'Big Red Olthoi') /* Name */
-     , (43480, 8006, 'AAA8AAcAAAA8AAcAAABEQA==') /* PCAPRecordedCurrentMotionState */;
+VALUES (43480,   1, 'Big Red Olthoi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43480,   1,   33561121) /* Setup */
@@ -41,17 +39,11 @@ VALUES (43480,   1,   33561121) /* Setup */
      , (43480,  15,   67116893) /* HairPalette */
      , (43480,  16,   67116845) /* EyesPalette */
      , (43480,  17,   67116891) /* SkinPalette */
-     , (43480,  22,  872415265) /* PhysicsEffectTable */
-     , (43480, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (43480, 8003,         60) /* PCAPRecordedObjectDesc - Stuck, Player, Attackable, PlayerKiller */
-     , (43480, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (43480,  22,  872415265) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43480, 8040, 2847080503, 145.7796, 160.7996, 103.8001, -0.185293, 0, 0, -0.9826833) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B30037 [145.779600 160.799600 103.800100] -0.185293 0.000000 0.000000 -0.982683 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43480, 8000, 1343943833) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43480,   1, 395, 0, 0) /* Strength */
@@ -65,42 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43480,   1,   326, 0, 0, 523) /* MaxHealth */
      , (43480,   3,   325, 0, 0, 720) /* MaxStamina */
      , (43480,   5,     0, 0, 0, 245) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43480, 67116855, 32, 8)
-     , (43480, 67116886, 24, 8)
-     , (43480, 67116890, 0, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43480, 0, 83898333, 83898333)
-     , (43480, 0, 83898334, 83898334)
-     , (43480, 1, 83898335, 83898335)
-     , (43480, 1, 83891927, 83891927)
-     , (43480, 2, 83898332, 83898332)
-     , (43480, 2, 83898334, 83898334)
-     , (43480, 3, 83898332, 83898332)
-     , (43480, 4, 83898332, 83898332)
-     , (43480, 4, 83898334, 83898334)
-     , (43480, 5, 83898332, 83898332)
-     , (43480, 6, 83898332, 83898332)
-     , (43480, 7, 83898332, 83898332)
-     , (43480, 8, 83898332, 83898332)
-     , (43480, 9, 83898332, 83898332)
-     , (43480, 10, 83898332, 83898332)
-     , (43480, 11, 83898332, 83898332)
-     , (43480, 12, 83898332, 83898332)
-     , (43480, 13, 83898332, 83898332)
-     , (43480, 14, 83898333, 83898333)
-     , (43480, 14, 83898334, 83898334)
-     , (43480, 15, 83898336, 83898336)
-     , (43480, 16, 83898336, 83898336)
-     , (43480, 16, 83898334, 83898334)
-     , (43480, 17, 83898336, 83898336)
-     , (43480, 18, 83898336, 83898336)
-     , (43480, 19, 83898336, 83898336)
-     , (43480, 20, 83898336, 83898336)
-     , (43480, 20, 83898334, 83898334)
-     , (43480, 21, 83898336, 83898336)
-     , (43480, 22, 83898336, 83898336)
-     , (43480, 23, 83898332, 83898332)
-     , (43480, 24, 83898332, 83898332);

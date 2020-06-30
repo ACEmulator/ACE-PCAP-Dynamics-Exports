@@ -22,8 +22,7 @@ VALUES (52786,   1,          8) /* ItemType - Jewelry */
      , (52786, 160,        180) /* WieldDifficulty */
      , (52786, 265,        134) /* EquipmentSetId - GreenSocietyBand */
      , (52786, 319,         10) /* ItemMaxLevel */
-     , (52786, 320,          1) /* ItemXpStyle - Fixed */
-     , (52786, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52786, 320,          1) /* ItemXpStyle - Fixed */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (52786,   4, 40000000000) /* ItemTotalXp */
@@ -50,22 +49,7 @@ VALUES (52786,   1,   33554691) /* Setup */
      , (52786,   3,  536870932) /* SoundTable */
      , (52786,   6,   67111919) /* PaletteBase */
      , (52786,   8,  100693313) /* Icon */
-     , (52786,  22,  872415275) /* PhysicsEffectTable */
-     , (52786, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
-     , (52786, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (52786, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52786, 8000, 3351338917) /* PCAPRecordedObjectIID */;
+     , (52786,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (52786,  4025,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52786, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (52786, 0, 83889680, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (52786, 0, 16778344);

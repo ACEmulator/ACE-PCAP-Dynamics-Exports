@@ -15,8 +15,7 @@ VALUES (9423,   1,         16) /* ItemType - Creature */
      , (9423,  76,      25000) /* MerchandiseMaxValue */
      , (9423,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9423, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9423, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9423, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9423, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9423,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (9423,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9423,   1, 'Novedion the Gem Seller') /* Name */
-     , (9423,   5, 'Gem Seller') /* Template */
-     , (9423, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (9423,   5, 'Gem Seller') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9423,   1,   33557003) /* Setup */
      , (9423,   2,  150994950) /* MotionTable */
      , (9423,   3,  536870922) /* SoundTable */
      , (9423,   6,   67113158) /* PaletteBase */
-     , (9423,   8,  100667447) /* Icon */
-     , (9423, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9423, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9423, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9423,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9423, 8040, 2847146026, 124.794, 31.5153, 94.01, 0.4710685, 0, 0, -0.8820966) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [124.794000 31.515300 94.010000] 0.471069 0.000000 0.000000 -0.882097 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9423, 8000, 2056994894) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9423,   1, 240, 0, 0) /* Strength */
@@ -73,26 +65,3 @@ VALUES (9423, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop 
      , (9423, 4,  9431, -1, 0, 0, False) /* Create Thorned Garnet (9431) for Shop */
      , (9423, 4,  9432, -1, 0, 0, False) /* Create Sharp Topaz (9432) for Shop */
      , (9423, 4,  9475, -1, 0, 0, False) /* Create Benevolent Calm (9475) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9423, 67113162, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9423, 0, 83893224, 83893225)
-     , (9423, 0, 83893231, 83893232)
-     , (9423, 2, 83893218, 83893220)
-     , (9423, 5, 83893218, 83893220)
-     , (9423, 7, 83893227, 83893228)
-     , (9423, 7, 83893214, 83893215)
-     , (9423, 9, 83893218, 83893220)
-     , (9423, 12, 83893218, 83893220);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9423, 0, 16785699)
-     , (9423, 2, 16785662)
-     , (9423, 5, 16785662)
-     , (9423, 7, 16785659)
-     , (9423, 9, 16785701)
-     , (9423, 12, 16785701)
-     , (9423, 19, 16777708)
-     , (9423, 20, 16777708);

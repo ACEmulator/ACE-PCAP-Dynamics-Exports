@@ -15,10 +15,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1633,  39,     0.5) /* DefaultScale */
      , (1633,  77,       1) /* PhysicsScriptIntensity */
      , (1633,  78,       1) /* Friction */
-     , (1633,  79,       0) /* Elasticity */
-     , (1633, 8010, -13.352) /* PCAPRecordedVelocityX */
-     , (1633, 8011,  16.603) /* PCAPRecordedVelocityY */
-     , (1633, 8012,   1.335) /* PCAPRecordedVelocityZ */;
+     , (1633,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1633,   1, 'Acid Stream') /* Name */;
@@ -29,17 +26,11 @@ VALUES (1633,   1,   33555446) /* Setup */
      , (1633,   8,  100667494) /* Icon */
      , (1633,  22,  872415243) /* PhysicsEffectTable */
      , (1633,  28,         58) /* Spell - AcidStream1 */
-     , (1633,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (1633, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (1633, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (1633, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (1633,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1633, 8040, 2459303952, 26.74912, 191.9512, 33.00731, -0.8580175, 0, 0, -0.5136205) /* PCAPRecordedLocation */
 /* @teleloc 0x92960010 [26.749120 191.951200 33.007310] -0.858018 0.000000 0.000000 -0.513621 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1633, 8000, 3685777546) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1633, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */

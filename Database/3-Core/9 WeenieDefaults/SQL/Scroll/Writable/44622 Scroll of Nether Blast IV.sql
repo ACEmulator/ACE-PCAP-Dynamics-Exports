@@ -8,8 +8,7 @@ VALUES (44622,   1,       8192) /* ItemType - Writable */
      , (44622,   5,         30) /* EncumbranceVal */
      , (44622,  16,          8) /* ItemUseable - Contained */
      , (44622,  19,        100) /* Value */
-     , (44622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44622, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44622,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44622,  22, True ) /* Inscribable */;
@@ -25,9 +24,4 @@ VALUES (44622,   1,   33554826) /* Setup */
      , (44622,   8,  100691569) /* Icon */
      , (44622,  22,  872415275) /* PhysicsEffectTable */
      , (44622,  28,       5547) /* Spell - NetherBlast4 */
-     , (44622, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
-     , (44622, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44622, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44622, 8000,      44622) /* PCAPRecordedObjectIID */;
+     , (44622, 8044,       5959) /* PCAPPhysicsDIDDataTemplatedFrom - Scroll of Cooking Mastery Self IV */;

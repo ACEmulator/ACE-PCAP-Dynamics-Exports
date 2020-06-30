@@ -15,8 +15,7 @@ VALUES (42422,   1,       2048) /* ItemType - Gem */
      , (42422,  19,        653) /* Value */
      , (42422,  28,          0) /* ArmorLevel */
      , (42422,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42422,  94,          6) /* TargetType - Vestements */
-     , (42422, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42422,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42422,  22, True ) /* Inscribable */
@@ -41,31 +40,4 @@ VALUES (42422,   1,   33556683) /* Setup */
      , (42422,   6,   67108990) /* PaletteBase */
      , (42422,   8,  100675060) /* Icon */
      , (42422,  22,  872415275) /* PhysicsEffectTable */
-     , (42422,  50,  100667895) /* IconOverlay */
-     , (42422, 8001, 1076654104) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Priority, TargetType, Burden, IconOverlay */
-     , (42422, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42422, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42422, 8000, 3358786920) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42422, 67114638, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42422, 0, 83894832, 83894825)
-     , (42422, 0, 83894837, 83894823)
-     , (42422, 1, 83889344, 83894824)
-     , (42422, 2, 83887068, 83894824)
-     , (42422, 3, 83892602, 83894825)
-     , (42422, 3, 83892601, 83894823)
-     , (42422, 4, 83889344, 83894824)
-     , (42422, 5, 83887068, 83894824);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42422, 0, 16789640)
-     , (42422, 1, 16781841)
-     , (42422, 2, 16781838)
-     , (42422, 3, 16784628)
-     , (42422, 4, 16781840)
-     , (42422, 5, 16781839);
+     , (42422,  50,  100667895) /* IconOverlay */;

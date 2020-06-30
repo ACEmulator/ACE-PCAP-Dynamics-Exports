@@ -12,8 +12,7 @@ VALUES (44713,   1,        128) /* ItemType - Misc */
      , (44713,  91,         50) /* MaxStructure */
      , (44713,  92,         50) /* Structure */
      , (44713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44713,  94,         16) /* TargetType - Creature */
-     , (44713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44713,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44713,  22, True ) /* Inscribable */;
@@ -28,10 +27,4 @@ VALUES (44713,   1, 'Lesser Mana Kit') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44713,   1,   33555194) /* Setup */
-     , (44713,   8,  100692114) /* Icon */
-     , (44713, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (44713, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
-     , (44713, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44713, 8000, 2155903024) /* PCAPRecordedObjectIID */;
+     , (44713,   8,  100692114) /* Icon */;

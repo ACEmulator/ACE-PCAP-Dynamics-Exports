@@ -33,9 +33,7 @@ VALUES (15429,   1,        256) /* ItemType - MissileWeapon */
      , (15429, 307,          5) /* DamageRating */
      , (15429, 313,          0) /* CritRating */
      , (15429, 314,          0) /* CritDamageRating */
-     , (15429, 386,          0) /* Overpower */
-     , (15429, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (15429, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (15429, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15429,  69, False) /* IsSellable */;
@@ -61,26 +59,12 @@ VALUES (15429,   1,   33554724) /* Setup */
      , (15429,   3,  536870932) /* SoundTable */
      , (15429,   6,   67111919) /* PaletteBase */
      , (15429,   8,  100672667) /* Icon */
-     , (15429,  22,  872415275) /* PhysicsEffectTable */
-     , (15429, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (15429, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (15429, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (15429, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (15429,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15429, 8040, 1520697347, 9.723196, 55.22807, 53.94745, 0.06809697, 0.06809697, -0.7038202, -0.7038202) /* PCAPRecordedLocation */
 /* @teleloc 0x5AA40003 [9.723196 55.228070 53.947450] 0.068097 0.068097 -0.703820 -0.703820 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15429, 8000, 3688000228) /* PCAPRecordedObjectIID */
-     , (15429, 8008, 3685551716) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (15429, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
      , (15429, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (15429, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (15429, 0, 16777887);

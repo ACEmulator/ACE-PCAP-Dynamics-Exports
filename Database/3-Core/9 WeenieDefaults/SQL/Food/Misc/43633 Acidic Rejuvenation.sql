@@ -13,8 +13,7 @@ VALUES (43633,   1,        128) /* ItemType - Misc */
      , (43633,  16,          8) /* ItemUseable - Contained */
      , (43633,  19,          1) /* Value */
      , (43633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43633, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (43633, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43633, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43633,   1, 'Acidic Rejuvenation') /* Name */;
@@ -24,9 +23,4 @@ VALUES (43633,   1,   33556220) /* Setup */
      , (43633,   3,  536870932) /* SoundTable */
      , (43633,   8,  100691624) /* Icon */
      , (43633,  22,  872415275) /* PhysicsEffectTable */
-     , (43633, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (43633, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (43633, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43633, 8000,      43633) /* PCAPRecordedObjectIID */;
+     , (43633, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

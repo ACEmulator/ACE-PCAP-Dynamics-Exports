@@ -11,15 +11,13 @@ VALUES (5497,   1,         16) /* ItemType - Creature */
      , (5497,  16,          1) /* ItemUseable - No */
      , (5497,  25,         50) /* Level */
      , (5497,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (5497, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5497, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5497, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5497,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5497,   1, 'Virindi Director') /* Name */
-     , (5497, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (5497,   1, 'Virindi Director') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5497,   1,   33554497) /* Setup */
@@ -27,17 +25,11 @@ VALUES (5497,   1,   33554497) /* Setup */
      , (5497,   3,  536870930) /* SoundTable */
      , (5497,   6,   67111346) /* PaletteBase */
      , (5497,   8,  100667943) /* Icon */
-     , (5497,  22,  872415273) /* PhysicsEffectTable */
-     , (5497, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (5497, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (5497, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (5497,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5497, 8040, 2520580115, 65.18092, 55.36858, 28.07479, -0.8132666, 0, 0, -0.5818912) /* PCAPRecordedLocation */
 /* @teleloc 0x963D0013 [65.180920 55.368580 28.074790] -0.813267 0.000000 0.000000 -0.581891 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5497, 8000, 3685862150) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5497,   1,  40, 0, 0) /* Strength */
@@ -83,12 +75,3 @@ VALUES (5497, 9,   141,  1, 0, 0, False) /* Create Bowl (141) for ContainTreasur
      , (5497, 9, 41470,  1, 0, 0, False) /* Create Purple Jewel (41470) for ContainTreasure */
      , (5497, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (5497, 9, 31761,  0, 0, 0, False) /* Create Lightning Dericost Blade (31761) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5497, 67111815, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5497, 9, 83890028, 83890027);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5497, 9, 16780702);

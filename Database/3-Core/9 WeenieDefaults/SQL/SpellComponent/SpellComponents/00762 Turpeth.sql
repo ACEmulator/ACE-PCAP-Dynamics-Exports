@@ -12,8 +12,7 @@ VALUES (762,   1,       4096) /* ItemType - SpellComponents */
      , (762,  15,          5) /* StackUnitValue */
      , (762,  16,          1) /* ItemUseable - No */
      , (762,  19,          5) /* Value */
-     , (762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (762, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (762,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (762,   1, 'Turpeth') /* Name */
@@ -24,19 +23,4 @@ VALUES (762,   1,   33555209) /* Setup */
      , (762,   3,  536870932) /* SoundTable */
      , (762,   6,   67111919) /* PaletteBase */
      , (762,   8,  100669699) /* Icon */
-     , (762,  22,  872415275) /* PhysicsEffectTable */
-     , (762, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (762, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (762, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (762, 8000, 2856726421) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (762, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (762, 0, 83890051, 83890051);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (762, 0, 16780684);
+     , (762,  22,  872415275) /* PhysicsEffectTable */;

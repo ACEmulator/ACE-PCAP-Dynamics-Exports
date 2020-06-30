@@ -19,20 +19,8 @@ VALUES (4136,   1, 'The Gentle Hand') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4136,   1,   33555594) /* Setup */
-     , (4136,   8,  100668115) /* Icon */
-     , (4136, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (4136, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4136, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (4136,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4136, 8040, 3663003690, 138.871, 34.0199, 23.3571, 0.999964, 0, 0, -0.00846103) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55002A [138.871000 34.019900 23.357100] 0.999964 0.000000 0.000000 -0.008461 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4136, 8000, 2107985988) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4136, 0, 83891180, 83891179);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4136, 0, 16782236);

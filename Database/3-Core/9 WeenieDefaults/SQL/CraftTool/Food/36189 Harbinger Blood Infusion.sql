@@ -19,8 +19,7 @@ VALUES (36189,   1,         32) /* ItemType - Food */
      , (36189, 107,         50) /* ItemCurMana */
      , (36189, 108,         50) /* ItemMaxMana */
      , (36189, 109,          0) /* ItemDifficulty */
-     , (36189, 110,          0) /* ItemAllegianceRankLimit */
-     , (36189, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36189, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36189,  69, True ) /* IsSellable */;
@@ -36,23 +35,7 @@ VALUES (36189,   1,   33554603) /* Setup */
      , (36189,   6,   67111919) /* PaletteBase */
      , (36189,   8,  100689590) /* Icon */
      , (36189,  22,  872415275) /* PhysicsEffectTable */
-     , (36189,  28,       4169) /* Spell - ArmorProdigalHarbinger */
-     , (36189, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (36189, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (36189, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36189, 8000, 3701967377) /* PCAPRecordedObjectIID */;
+     , (36189,  28,       4169) /* Spell - ArmorProdigalHarbinger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36189,  4169,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36189, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36189, 0, 83889126, 83889126)
-     , (36189, 0, 83888789, 83888789);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36189, 0, 16778735);

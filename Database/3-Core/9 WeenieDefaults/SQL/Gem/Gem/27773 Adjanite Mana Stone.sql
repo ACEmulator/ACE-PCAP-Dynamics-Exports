@@ -18,8 +18,7 @@ VALUES (27773,   1,       2048) /* ItemType - Gem */
      , (27773, 106,        200) /* ItemSpellcraft */
      , (27773, 107,         50) /* ItemCurMana */
      , (27773, 108,         50) /* ItemMaxMana */
-     , (27773, 109,        150) /* ItemDifficulty */
-     , (27773, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27773, 109,        150) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27773,   1, 'Adjanite Mana Stone') /* Name */
@@ -30,13 +29,7 @@ VALUES (27773,   1,   33555639) /* Setup */
      , (27773,   3,  536870932) /* SoundTable */
      , (27773,   8,  100676624) /* Icon */
      , (27773,  22,  872415275) /* PhysicsEffectTable */
-     , (27773,  28,       3249) /* Spell - ManaRenewalAdja */
-     , (27773, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (27773, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (27773, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27773, 8000, 2174519153) /* PCAPRecordedObjectIID */;
+     , (27773,  28,       3249) /* Spell - ManaRenewalAdja */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27773,  3249,      2) ;

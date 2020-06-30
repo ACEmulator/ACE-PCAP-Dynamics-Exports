@@ -40,22 +40,11 @@ VALUES (35188,   1,   33560288) /* Setup */
      , (35188,   6,   67110219) /* PaletteBase */
      , (35188,   8,  100674625) /* Icon */
      , (35188,  22,  872415275) /* PhysicsEffectTable */
-     , (35188,  28,       4078) /* Spell - EggBolt */
-     , (35188, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (35188, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35188, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (35188, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (35188,  28,       4078) /* Spell - EggBolt */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35188, 8040, 3316121654, 156.6118, 138.2982, 41.929, -0.1840174, -0.1840174, -0.6827427, -0.6827427) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A80036 [156.611800 138.298200 41.929000] -0.184017 -0.184017 -0.682743 -0.682743 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35188, 8000, 2166697714) /* PCAPRecordedObjectIID */
-     , (35188, 8008, 1342545824) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35188,  4078,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35188, 67114979, 0, 0);

@@ -11,8 +11,7 @@ VALUES (35378,   1,         16) /* ItemType - Creature */
      , (35378,  16,          1) /* ItemUseable - No */
      , (35378,  25,        300) /* Level */
      , (35378,  93,       3080) /* PhysicsState - ReportCollisions, Gravity, LightingOn */
-     , (35378, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35378, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35378, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35378,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (35378,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35378,   1, 'Lord Cynreft Mhoire') /* Name */
-     , (35378,   5, 'Cursed Lord of House Mhoire') /* Template */
-     , (35378, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (35378,   5, 'Cursed Lord of House Mhoire') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35378,   1,   33560298) /* Setup */
@@ -31,17 +29,11 @@ VALUES (35378,   1,   33560298) /* Setup */
      , (35378,   3,  536870942) /* SoundTable */
      , (35378,   6,   67116522) /* PaletteBase */
      , (35378,   8,  100669124) /* Icon */
-     , (35378,  22,  872415269) /* PhysicsEffectTable */
-     , (35378, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35378, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35378, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (35378,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35378, 8040, 9765133, 20.5, -30, 0.003250003, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0095010D [20.500000 -30.000000 0.003250] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35378, 8000, 3682370371) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35378,   1,     0, 0, 0, 200250) /* MaxHealth */;
@@ -80,26 +72,3 @@ VALUES (35378, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wiel
      , (35378, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (35378, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */
      , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35378, 67116525, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35378, 2, 83897246, 83897251)
-     , (35378, 6, 83897246, 83897251)
-     , (35378, 9, 83897246, 83897251)
-     , (35378, 10, 83897246, 83897251)
-     , (35378, 11, 83897246, 83897251)
-     , (35378, 13, 83897246, 83897251)
-     , (35378, 14, 83897246, 83897251)
-     , (35378, 16, 83897246, 83897251);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35378, 2, 16792427)
-     , (35378, 6, 16792431)
-     , (35378, 9, 16792443)
-     , (35378, 10, 16792435)
-     , (35378, 11, 16792447)
-     , (35378, 13, 16792439)
-     , (35378, 14, 16792451)
-     , (35378, 16, 16792458);

@@ -22,9 +22,7 @@ VALUES (3828,   1,          1) /* ItemType - MeleeWeapon */
      , (3828, 114,          0) /* Attuned - Normal */
      , (3828, 131,         60) /* MaterialType - Gold */
      , (3828, 151,          2) /* HookType - Wall */
-     , (3828, 353,          6) /* WeaponType - Dagger */
-     , (3828, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3828, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3828, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3828,  22, True ) /* Inscribable */
@@ -37,8 +35,7 @@ VALUES (3828,  21,       0) /* WeaponLength */
      , (3828,  29,   1.078) /* WeaponDefense */
      , (3828,  39,    1.25) /* DefaultScale */
      , (3828,  62,   1.079) /* WeaponOffense */
-     , (3828,  63,       1) /* DamageMod */
-     , (3828, 8004,       1) /* PCAPRecordedWorkmanship */;
+     , (3828,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3828,   1, 'Flaming Bandit Khanjar') /* Name */
@@ -49,10 +46,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3828,   1,   33555769) /* Setup */
      , (3828,   3,  536870932) /* SoundTable */
      , (3828,   8,  100667597) /* Icon */
-     , (3828,  22,  872415275) /* PhysicsEffectTable */
-     , (3828, 8001, 2434876048) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3828, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3828, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3828, 8000, 2541837503) /* PCAPRecordedObjectIID */;
+     , (3828,  22,  872415275) /* PhysicsEffectTable */;

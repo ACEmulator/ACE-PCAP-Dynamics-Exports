@@ -20,10 +20,4 @@ VALUES (44754,   1, 'Mukkir') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44754,   1,   33561354) /* Setup */
-     , (44754,   8,  100668115) /* Icon */
-     , (44754, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44754, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44754, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44754, 8000, 2619474466) /* PCAPRecordedObjectIID */;
+     , (44754,   8,  100668115) /* Icon */;

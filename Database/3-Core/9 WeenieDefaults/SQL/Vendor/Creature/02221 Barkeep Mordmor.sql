@@ -17,8 +17,7 @@ VALUES (2221,   1,         16) /* ItemType - Creature */
      , (2221, 113,          1) /* Gender - Male */
      , (2221, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2221, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2221, 188,          1) /* HeritageGroup - Aluvian */
-     , (2221, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2221, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2221,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2221,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2221,   1, 'Barkeep Mordmor') /* Name */
-     , (2221,   5, 'Barkeeper') /* Template */
-     , (2221, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2221,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2221,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2221,   1,   33554433) /* Setup */
      , (2221,  11,   83890634) /* MouthTexture */
      , (2221,  15,   67117001) /* HairPalette */
      , (2221,  16,   67110065) /* EyesPalette */
-     , (2221,  17,   67109559) /* SkinPalette */
-     , (2221, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2221, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2221, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2221,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2221, 8040, 3665101126, 156.873, 58.6982, 18.005, 0.03730476, 0, 0, -0.9993039) /* PCAPRecordedLocation */
 /* @teleloc 0xDA750146 [156.873000 58.698200 18.005000] 0.037305 0.000000 0.000000 -0.999304 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2221, 8000, 2108117021) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2221,   1,  90, 0, 0) /* Strength */
@@ -87,53 +79,3 @@ VALUES (2221, 4,  2467, -1, 0, 0, False) /* Create Red Wine (2467) for Shop */
      , (2221, 4, 11929, -1, 0, 0, False) /* Create A Call To Arms (11929) for Shop */
      , (2221, 4, 26642, -1, 0, 0, False) /* Create Skeleton Raids (26642) for Shop */
      , (2221, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2221, 67109559, 0, 24)
-     , (2221, 67109969, 92, 4)
-     , (2221, 67110026, 72, 8)
-     , (2221, 67110065, 32, 8)
-     , (2221, 67110320, 40, 24)
-     , (2221, 67110320, 64, 8)
-     , (2221, 67110320, 160, 8)
-     , (2221, 67110356, 216, 24)
-     , (2221, 67110378, 250, 6)
-     , (2221, 67117001, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2221, 0, 83889072, 83890012)
-     , (2221, 0, 83889342, 83890011)
-     , (2221, 1, 83887064, 83886241)
-     , (2221, 2, 83887066, 83887051)
-     , (2221, 3, 83889344, 83887054)
-     , (2221, 4, 83887068, 83887054)
-     , (2221, 5, 83887064, 83886241)
-     , (2221, 6, 83887066, 83887051)
-     , (2221, 7, 83889344, 83887054)
-     , (2221, 8, 83887068, 83887054)
-     , (2221, 9, 83887061, 83890009)
-     , (2221, 9, 83887060, 83890010)
-     , (2221, 16, 83886232, 83890685)
-     , (2221, 16, 83886668, 83890509)
-     , (2221, 16, 83886837, 83890546)
-     , (2221, 16, 83886684, 83890634)
-     , (2221, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2221, 0, 16781835)
-     , (2221, 1, 16777295)
-     , (2221, 2, 16781866)
-     , (2221, 3, 16781841)
-     , (2221, 4, 16781838)
-     , (2221, 5, 16777299)
-     , (2221, 6, 16781864)
-     , (2221, 7, 16781840)
-     , (2221, 8, 16781839)
-     , (2221, 9, 16777300)
-     , (2221, 10, 16777301)
-     , (2221, 11, 16777302)
-     , (2221, 12, 16777304)
-     , (2221, 13, 16777303)
-     , (2221, 14, 16777305)
-     , (2221, 15, 16777307)
-     , (2221, 16, 16779630);

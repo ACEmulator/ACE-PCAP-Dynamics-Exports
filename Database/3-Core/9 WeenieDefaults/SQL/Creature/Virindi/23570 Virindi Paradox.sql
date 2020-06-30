@@ -11,20 +11,13 @@ VALUES (23570,   1,         16) /* ItemType - Creature */
      , (23570,  16,          1) /* ItemUseable - No */
      , (23570,  25,        220) /* Level */
      , (23570,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23570, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23570, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23570, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23570,   1, True ) /* Stuck */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (23570, 8010,       0) /* PCAPRecordedVelocityX */
-     , (23570, 8011,       0) /* PCAPRecordedVelocityY */
-     , (23570, 8012,   -0.19) /* PCAPRecordedVelocityZ */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23570,   1, 'Virindi Paradox') /* Name */
-     , (23570, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23570,   1, 'Virindi Paradox') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23570,   1,   33558343) /* Setup */
@@ -32,17 +25,11 @@ VALUES (23570,   1,   33558343) /* Setup */
      , (23570,   3,  536870930) /* SoundTable */
      , (23570,   6,   67114250) /* PaletteBase */
      , (23570,   8,  100674323) /* Icon */
-     , (23570,  22,  872415273) /* PhysicsEffectTable */
-     , (23570, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23570, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23570, 8005,     104455) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, STable, PeTable, Position, Movement */;
+     , (23570,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23570, 8040, 168558602, 46.76263, 33.42422, 36.73069, 0.9961947, 0, 0, -0.08715574) /* PCAPRecordedLocation */
 /* @teleloc 0x0A0C000A [46.762630 33.424220 36.730690] 0.996195 0.000000 0.000000 -0.087156 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23570, 8000, 3689374461) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23570,   1, 340, 0, 0) /* Strength */
@@ -617,6 +604,3 @@ VALUES (23570, 9, 49262,  0, 0, 0, False) /* Create Acid Elemental Essence (80) 
      , (23570, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (23570, 9, 27236,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Other (27236) for ContainTreasure */
      , (23570, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23570, 67114251, 0, 0);

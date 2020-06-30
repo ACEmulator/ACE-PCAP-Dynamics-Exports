@@ -20,8 +20,7 @@ VALUES (23941,   1,          2) /* ItemType - Armor */
      , (23941, 109,         50) /* ItemDifficulty */
      , (23941, 158,          2) /* WieldRequirements - RawSkill */
      , (23941, 159,         34) /* WieldSkillType - WarMagic */
-     , (23941, 160,        285) /* WieldDifficulty */
-     , (23941, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23941, 160,        285) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23941,  22, True ) /* Inscribable */
@@ -49,13 +48,7 @@ VALUES (23941,   1,   33554647) /* Setup */
      , (23941,   3,  536870932) /* SoundTable */
      , (23941,   6,   67108990) /* PaletteBase */
      , (23941,   8,  100674130) /* Icon */
-     , (23941,  22,  872415275) /* PhysicsEffectTable */
-     , (23941, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
-     , (23941, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23941, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23941, 8000, 2461342753) /* PCAPRecordedObjectIID */;
+     , (23941,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23941,   273,      2) 
@@ -68,14 +61,3 @@ VALUES (23941,   273,      2)
      , (23941,  2960,      2) 
      , (23941,  2961,      2) 
      , (23941,  2962,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23941, 67114182, 72, 8)
-     , (23941, 67114182, 80, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (23941, 0, 83889072, 83894477)
-     , (23941, 0, 83889342, 83894478);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (23941, 0, 16778376);

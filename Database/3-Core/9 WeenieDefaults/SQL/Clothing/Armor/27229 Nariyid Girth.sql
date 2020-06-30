@@ -27,8 +27,7 @@ VALUES (27229,   1,          2) /* ItemType - Armor */
      , (27229, 172,          1) /* AppraisalLongDescDecoration */
      , (27229, 176,          7) /* AppraisalItemSkill */
      , (27229, 265,         22) /* EquipmentSetId - Swift */
-     , (27229, 375,          2) /* GearCritDamageResist */
-     , (27229, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27229, 375,          2) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27229,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (27229,   5,  -0.056) /* ManaRate */
      , (27229,  17,    0.92) /* ArmorModVsFire */
      , (27229,  18,     0.6) /* ArmorModVsAcid */
      , (27229,  19,     0.4) /* ArmorModVsElectric */
-     , (27229, 165,       1) /* ArmorModVsNether */
-     , (27229, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (27229, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27229,   1, 'Nariyid Girth') /* Name */
@@ -55,17 +53,11 @@ VALUES (27229,   1,   33554647) /* Setup */
      , (27229,   3,  536870932) /* SoundTable */
      , (27229,   6,   67108990) /* PaletteBase */
      , (27229,   8,  100676227) /* Icon */
-     , (27229,  22,  872415275) /* PhysicsEffectTable */
-     , (27229, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (27229, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27229, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (27229,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27229, 8040, 23855549, 50.91144, -38.20162, 0, -0.9981058, 0, 0, -0.06152) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [50.911440 -38.201620 0.000000] -0.998106 0.000000 0.000000 -0.061520 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27229, 8000, 3690314165) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27229,  1540,      2) 
@@ -74,11 +66,3 @@ VALUES (27229,  1540,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27229, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27229, 67115065, 72, 8)
-     , (27229, 67115089, 80, 12)
-     , (27229, 67115097, 92, 4);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (27229, 0, 16790012);

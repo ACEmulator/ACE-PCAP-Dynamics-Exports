@@ -15,8 +15,7 @@ VALUES (29228,   1,         32) /* ItemType - Food */
      , (29228,  19,          0) /* Value */
      , (29228,  89,          6) /* BoosterEnum - Mana */
      , (29228,  90,         70) /* BoostValue */
-     , (29228,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29228, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29228,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29228,  69, False) /* IsSellable */;
@@ -31,10 +30,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29228,   1,   33554817) /* Setup */
      , (29228,   3,  536870932) /* SoundTable */
      , (29228,   8,  100674004) /* Icon */
-     , (29228,  22,  872415275) /* PhysicsEffectTable */
-     , (29228, 8001,    2125969) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (29228, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (29228, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29228, 8000, 2794012834) /* PCAPRecordedObjectIID */;
+     , (29228,  22,  872415275) /* PhysicsEffectTable */;

@@ -11,8 +11,7 @@ VALUES (19276,   1,         16) /* ItemType - Creature */
      , (19276,  16,          1) /* ItemUseable - No */
      , (19276,  25,         80) /* Level */
      , (19276,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19276, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19276, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19276, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19276,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19276,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19276,   1, 'Bronze Statue of a Golem') /* Name */
-     , (19276, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19276,   1, 'Bronze Statue of a Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19276,   1,   33556426) /* Setup */
@@ -30,17 +28,11 @@ VALUES (19276,   1,   33556426) /* Setup */
      , (19276,   3,  536871052) /* SoundTable */
      , (19276,   6,   67112775) /* PaletteBase */
      , (19276,   8,  100667940) /* Icon */
-     , (19276,  22,  872415323) /* PhysicsEffectTable */
-     , (19276, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19276, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19276, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (19276,  22,  872415323) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19276, 8040, 1415053837, 156.016, -69.8363, 0.01499999, 0.7216, 0, 0, 0.69231) /* PCAPRecordedLocation */
 /* @teleloc 0x5458020D [156.016000 -69.836300 0.015000] 0.721600 0.000000 0.000000 0.692310 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19276, 8000, 2627519172) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19276,   1, 250, 0, 0) /* Strength */
@@ -95,6 +87,3 @@ VALUES (19276, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (5
      , (19276, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
      , (19276, 9, 20470,  0, 0, 0, False) /* Create Scroll of Swordsman's Gift (20470) for ContainTreasure */
      , (19276, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19276, 67113808, 0, 0);

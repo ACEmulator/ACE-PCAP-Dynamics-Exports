@@ -9,8 +9,7 @@ VALUES (43070,   1,        128) /* ItemType - Misc */
      , (43070,  16,          1) /* ItemUseable - No */
      , (43070,  19,     100000) /* Value */
      , (43070,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43070, 151,          9) /* HookType - Floor, Yard */
-     , (43070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43070, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43070,  22, True ) /* Inscribable */;
@@ -22,14 +21,8 @@ VALUES (43070,   1, 'Empyrean Portalspace Stabilizer') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43070,   1,   33561085) /* Setup */
-     , (43070,   8,  100691354) /* Icon */
-     , (43070, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
-     , (43070, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (43070, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (43070,   8,  100691354) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43070, 8040, 1925775388, 89.79019, 94.35415, 79.48252, -0.1650115, 0, 0, -0.9862916) /* PCAPRecordedLocation */
 /* @teleloc 0x72C9001C [89.790190 94.354150 79.482520] -0.165012 0.000000 0.000000 -0.986292 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43070, 8000, 2170968499) /* PCAPRecordedObjectIID */;

@@ -15,8 +15,7 @@ VALUES (11400,   1,         16) /* ItemType - Creature */
      , (11400,  76,     100000) /* MerchandiseMaxValue */
      , (11400,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11400, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11400, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11400, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11400, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11400,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (11400,  37,     0.8) /* BuyPrice */
      , (11400,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11400,   1, 'Aun Dreganaua the Elder Shaman') /* Name */
-     , (11400, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11400,   1, 'Aun Dreganaua the Elder Shaman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11400,   1,   33557175) /* Setup */
      , (11400,   2,  150995136) /* MotionTable */
      , (11400,   3,  536871030) /* SoundTable */
      , (11400,   6,   67113280) /* PaletteBase */
-     , (11400,   8,  100671756) /* Icon */
-     , (11400, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11400, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11400, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
+     , (11400,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11400, 8040, 498466870, 150.216, 131.888, 120.007, -0.7173628, 0, 0, -0.6966998) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB60036 [150.216000 131.888000 120.007000] -0.717363 0.000000 0.000000 -0.696700 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11400, 8000, 1910202394) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11400,   1,  95, 0, 0) /* Strength */
@@ -261,6 +253,3 @@ VALUES (11400, 2, 11971,  1, 0, 0, False) /* Create Buadren (11971) for Wield */
      , (11400, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (11400, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (11400, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11400, 67113367, 0, 0);

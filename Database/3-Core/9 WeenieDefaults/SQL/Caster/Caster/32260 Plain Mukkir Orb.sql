@@ -16,8 +16,7 @@ VALUES (32260,   1,      32768) /* ItemType - Caster */
      , (32260, 107,        997) /* ItemCurMana */
      , (32260, 108,       1000) /* ItemMaxMana */
      , (32260, 109,          0) /* ItemDifficulty */
-     , (32260, 151,          2) /* HookType - Wall */
-     , (32260, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32260, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32260,  22, True ) /* Inscribable */;
@@ -39,13 +38,7 @@ VALUES (32260,   1,   33559761) /* Setup */
      , (32260,   3,  536870932) /* SoundTable */
      , (32260,   8,  100688412) /* Icon */
      , (32260,  22,  872415275) /* PhysicsEffectTable */
-     , (32260,  28,       3861) /* Spell - CantripTasteForBlood */
-     , (32260, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (32260, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32260, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32260, 8000, 3679319805) /* PCAPRecordedObjectIID */;
+     , (32260,  28,       3861) /* Spell - CantripTasteForBlood */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32260,   681,      2) 

@@ -11,8 +11,7 @@ VALUES (7113,   1,         16) /* ItemType - Creature */
      , (7113,  16,          1) /* ItemUseable - No */
      , (7113,  25,        100) /* Level */
      , (7113,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7113, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7113, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7113, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7113,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7113,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7113,   1, 'Gauloth Shreth') /* Name */
-     , (7113, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7113,   1, 'Gauloth Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7113,   1,   33555879) /* Setup */
@@ -30,17 +28,11 @@ VALUES (7113,   1,   33555879) /* Setup */
      , (7113,   3,  536870986) /* SoundTable */
      , (7113,   6,   67112444) /* PaletteBase */
      , (7113,   8,  100669720) /* Icon */
-     , (7113,  22,  872415333) /* PhysicsEffectTable */
-     , (7113, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7113, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7113, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (7113,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7113, 8040, 1155334183, 117.8672, 149.3844, 27.53255, 0.7372774, 0, 0, -0.6755902) /* PCAPRecordedLocation */
 /* @teleloc 0x44DD0027 [117.867200 149.384400 27.532550] 0.737277 0.000000 0.000000 -0.675590 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7113, 8000, 3690567803) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7113,   1, 300, 0, 0) /* Strength */
@@ -74,6 +66,3 @@ VALUES (7113, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) fo
      , (7113, 9,    46,  0, 0, 0, False) /* Create Metal Cap (46) for ContainTreasure */
      , (7113, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (7113, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7113, 67114302, 0, 0);

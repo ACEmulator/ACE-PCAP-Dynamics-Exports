@@ -8,8 +8,7 @@ VALUES (5083,   1,        128) /* ItemType - Misc */
      , (5083,   5,       9000) /* EncumbranceVal */
      , (5083,  16,          1) /* ItemUseable - No */
      , (5083,  19,        125) /* Value */
-     , (5083,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
-     , (5083, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5083,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5083,   1, True ) /* Stuck */;
@@ -20,14 +19,8 @@ VALUES (5083,   1, 'North Yaraq Outpost') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5083,   1,   33555088) /* Setup */
-     , (5083,   8,  100668115) /* Icon */
-     , (5083, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (5083, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (5083, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (5083,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5083, 8040, 2103967785, 126.474, 13.731, 10, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x7D680029 [126.474000 13.731000 10.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5083, 8000, 2010546182) /* PCAPRecordedObjectIID */;

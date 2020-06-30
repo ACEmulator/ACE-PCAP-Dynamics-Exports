@@ -30,10 +30,4 @@ VALUES (13207,   1, 'Unarmed Snowman') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13207,   1,   33557446) /* Setup */
-     , (13207,   8,  100672420) /* Icon */
-     , (13207, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (13207, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (13207, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13207, 8000, 3629715941) /* PCAPRecordedObjectIID */;
+     , (13207,   8,  100672420) /* Icon */;

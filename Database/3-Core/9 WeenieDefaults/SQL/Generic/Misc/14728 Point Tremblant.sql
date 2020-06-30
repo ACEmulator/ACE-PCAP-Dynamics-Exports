@@ -19,14 +19,8 @@ VALUES (14728,   1, 'Point Tremblant') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14728,   1,   33557463) /* Setup */
-     , (14728,   8,  100668115) /* Icon */
-     , (14728, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (14728, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (14728, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (14728,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14728, 8040, 2297888799, 93.2202, 156.312, 2.74235, 0.674766, 0, 0, -0.738032) /* PCAPRecordedLocation */
 /* @teleloc 0x88F7001F [93.220200 156.312000 2.742350] 0.674766 0.000000 0.000000 -0.738032 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14728, 8000, 2022666673) /* PCAPRecordedObjectIID */;

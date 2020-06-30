@@ -26,9 +26,7 @@ VALUES (45114,   1,          1) /* ItemType - MeleeWeapon */
      , (45114, 172,          5) /* AppraisalLongDescDecoration */
      , (45114, 177,          2) /* GemCount */
      , (45114, 178,         18) /* GemType */
-     , (45114, 353,          3) /* WeaponType - Axe */
-     , (45114, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45114, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45114, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45114,  22, True ) /* Inscribable */;
@@ -39,8 +37,7 @@ VALUES (45114,  21,       0) /* WeaponLength */
      , (45114,  26,       0) /* MaximumVelocity */
      , (45114,  29,    1.06) /* WeaponDefense */
      , (45114,  62,    1.09) /* WeaponOffense */
-     , (45114,  63,       1) /* DamageMod */
-     , (45114, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45114,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45114,   1, 'Acid Hammer') /* Name */
@@ -50,10 +47,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45114,   1,   33555827) /* Setup */
      , (45114,   3,  536870932) /* SoundTable */
      , (45114,   8,  100669074) /* Icon */
-     , (45114,  22,  872415275) /* PhysicsEffectTable */
-     , (45114, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45114, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45114, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45114, 8000, 3692258648) /* PCAPRecordedObjectIID */;
+     , (45114,  22,  872415275) /* PhysicsEffectTable */;

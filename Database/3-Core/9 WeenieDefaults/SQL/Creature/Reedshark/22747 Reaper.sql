@@ -11,8 +11,7 @@ VALUES (22747,   1,         16) /* ItemType - Creature */
      , (22747,  16,          1) /* ItemUseable - No */
      , (22747,  25,        115) /* Level */
      , (22747,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22747, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22747, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22747, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22747,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22747,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22747,   1, 'Reaper') /* Name */
-     , (22747, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22747,   1, 'Reaper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22747,   1,   33554489) /* Setup */
@@ -30,17 +28,11 @@ VALUES (22747,   1,   33554489) /* Setup */
      , (22747,   3,  536870928) /* SoundTable */
      , (22747,   6,   67109313) /* PaletteBase */
      , (22747,   8,  100667939) /* Icon */
-     , (22747,  22,  872415268) /* PhysicsEffectTable */
-     , (22747, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22747, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22747, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22747,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22747, 8040, 4084072499, 148.2193, 64.68532, 12.0023, 0.8029574, 0, 0, -0.5960364) /* PCAPRecordedLocation */
 /* @teleloc 0xF36E0033 [148.219300 64.685320 12.002300] 0.802957 0.000000 0.000000 -0.596036 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22747, 8000, 3690480138) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22747,   1, 170, 0, 0) /* Strength */
@@ -139,6 +131,3 @@ VALUES (22747, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTrea
      , (22747, 9, 29255,  0, 0, 0, False) /* Create Fire Atlatl (29255) for ContainTreasure */
      , (22747, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (22747, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22747, 67114044, 0, 0);

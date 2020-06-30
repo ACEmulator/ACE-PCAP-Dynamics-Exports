@@ -19,8 +19,7 @@ VALUES (26531,   1,      32768) /* ItemType - Caster */
      , (26531, 151,          2) /* HookType - Wall */
      , (26531, 158,          2) /* WieldRequirements - RawSkill */
      , (26531, 159,         32) /* WieldSkillType - ItemEnchantment */
-     , (26531, 160,        200) /* WieldDifficulty */
-     , (26531, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (26531, 160,        200) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26531,  22, True ) /* Inscribable */;
@@ -41,13 +40,7 @@ VALUES (26531,   1,   33558596) /* Setup */
      , (26531,   6,   67114956) /* PaletteBase */
      , (26531,   8,  100675776) /* Icon */
      , (26531,  22,  872415275) /* PhysicsEffectTable */
-     , (26531,  28,       3068) /* Spell - MinorWardRebirth */
-     , (26531, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (26531, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (26531, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26531, 8000, 2164423617) /* PCAPRecordedObjectIID */;
+     , (26531,  28,       3068) /* Spell - MinorWardRebirth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26531,   211,      2) 
@@ -56,6 +49,3 @@ VALUES (26531,   211,      2)
      , (26531,  1456,      2) 
      , (26531,  2551,      2) 
      , (26531,  3068,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (26531, 67114954, 0, 0);

@@ -14,8 +14,7 @@ VALUES (30250,   1,        128) /* ItemType - Misc */
      , (30250,  92,         25) /* Structure */
      , (30250,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30250,  94,         16) /* TargetType - Creature */
-     , (30250, 151,          2) /* HookType - Wall */
-     , (30250, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30250, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30250,  22, True ) /* Inscribable */;
@@ -30,18 +29,4 @@ VALUES (30250,   1, 'Medicated Health Kit') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30250,   1,   33555194) /* Setup */
      , (30250,   8,  100686702) /* Icon */
-     , (30250,  52,  100686604) /* IconUnderlay */
-     , (30250, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
-     , (30250, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30250, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
-     , (30250, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30250, 8000, 2149243760) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30250, 0, 83889681, 83894377)
-     , (30250, 0, 83889682, 83894378);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30250, 0, 16779994);
+     , (30250,  52,  100686604) /* IconUnderlay */;

@@ -25,9 +25,7 @@ VALUES (23744,   1,        256) /* ItemType - MissileWeapon */
      , (23744, 313,          0) /* CritRating */
      , (23744, 314,          0) /* CritDamageRating */
      , (23744, 353,         10) /* WeaponType - Thrown */
-     , (23744, 386,          0) /* Overpower */
-     , (23744, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23744, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23744, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23744,   1, True ) /* Stuck */;
@@ -51,19 +49,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23744,   1,   33555863) /* Setup */
      , (23744,   3,  536871003) /* SoundTable */
      , (23744,   8,  100667500) /* Icon */
-     , (23744,  22,  872415275) /* PhysicsEffectTable */
-     , (23744, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (23744, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23744, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (23744, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23744,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23744, 8040, 2519334933, 65.86094, 104.8754, 99.44846, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
 /* @teleloc 0x962A0015 [65.860940 104.875400 99.448460] 0.653282 0.653282 -0.270598 -0.270598 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23744, 8000, 3685859808) /* PCAPRecordedObjectIID */
-     , (23744, 8008, 3685859806) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23744, 2, 23664,  1, 0, 0, False) /* Create Heavy Crossbow (23664) for Wield */

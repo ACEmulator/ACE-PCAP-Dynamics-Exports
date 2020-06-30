@@ -15,8 +15,7 @@ VALUES (11407,   1,         16) /* ItemType - Creature */
      , (11407,  76,     100000) /* MerchandiseMaxValue */
      , (11407,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11407, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11407, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11407, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11407, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11407,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (11407,  37,     0.8) /* BuyPrice */
      , (11407,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11407,   1, 'Aun Mireona the Shopkeep') /* Name */
-     , (11407, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11407,   1, 'Aun Mireona the Shopkeep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11407,   1,   33557117) /* Setup */
      , (11407,   2,  150994954) /* MotionTable */
      , (11407,   3,  536870931) /* SoundTable */
      , (11407,   6,   67113280) /* PaletteBase */
-     , (11407,   8,  100671756) /* Icon */
-     , (11407, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11407, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11407, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (11407,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11407, 8040, 498466867, 164.243, 67.4173, 120.0055, -0.585567, 0, 0, -0.810624) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB60033 [164.243000 67.417300 120.005500] -0.585567 0.000000 0.000000 -0.810624 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11407, 8000, 3691191610) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11407,   1,  80, 0, 0) /* Strength */
@@ -90,6 +82,3 @@ VALUES (11407, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (11407, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (11407, 4, 22858, -1, 0, 0, False) /* Create Tumerok Torch (22858) for Shop */
      , (11407, 4, 22857, -1, 0, 0, False) /* Create Tiki Torch (22857) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11407, 67113368, 0, 0);

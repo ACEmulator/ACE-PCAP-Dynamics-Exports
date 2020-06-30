@@ -11,32 +11,24 @@ VALUES (12681,   1,         16) /* ItemType - Creature */
      , (12681,  16,          1) /* ItemUseable - No */
      , (12681,  25,         55) /* Level */
      , (12681,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (12681, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12681, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12681, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12681,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12681,   1, 'Minion Leader') /* Name */
-     , (12681, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (12681,   1, 'Minion Leader') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12681,   1,   33556792) /* Setup */
      , (12681,   2,  150995146) /* MotionTable */
      , (12681,   3,  536871013) /* SoundTable */
      , (12681,   8,  100671140) /* Icon */
-     , (12681,  22,  872415367) /* PhysicsEffectTable */
-     , (12681, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (12681, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12681, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (12681,  22,  872415367) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12681, 8040, 60555524, 71.8277, -178.92, -17.9975, 0.998849, 0, 0, -0.0479645) /* PCAPRecordedLocation */
 /* @teleloc 0x039C0104 [71.827700 -178.920000 -17.997500] 0.998849 0.000000 0.000000 -0.047965 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12681, 8000, 3357521814) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (12681,   1,     0, 0, 0, 205) /* MaxHealth */;

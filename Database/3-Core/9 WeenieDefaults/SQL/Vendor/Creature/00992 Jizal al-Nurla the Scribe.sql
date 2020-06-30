@@ -17,8 +17,7 @@ VALUES (992,   1,         16) /* ItemType - Creature */
      , (992, 113,          1) /* Gender - Male */
      , (992, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (992, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (992, 188,          2) /* HeritageGroup - Gharundim */
-     , (992, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (992, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (992,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (992,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (992,   1, 'Jizal al-Nurla the Scribe') /* Name */
-     , (992,   5, 'Scribe') /* Template */
-     , (992, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (992,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (992,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (992,   1,   33554433) /* Setup */
      , (992,  11,   83890596) /* MouthTexture */
      , (992,  15,   67116990) /* HairPalette */
      , (992,  16,   67110062) /* EyesPalette */
-     , (992,  17,   67109556) /* SkinPalette */
-     , (992, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (992, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (992, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (992,  17,   67109556) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (992, 8040, 2140143899, 107.48, 161.144, 144.005, 0.02879396, 0, 0, -0.9995854) /* PCAPRecordedLocation */
 /* @teleloc 0x7F90011B [107.480000 161.144000 144.005000] 0.028794 0.000000 0.000000 -0.999585 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (992, 8000, 2012807169) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (992,   1, 120, 0, 0) /* Strength */
@@ -97,54 +89,3 @@ VALUES (992, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (992, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (992, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
      , (992, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (992, 67109556, 0, 24)
-     , (992, 67109969, 92, 4)
-     , (992, 67110062, 32, 8)
-     , (992, 67110339, 64, 8)
-     , (992, 67110354, 160, 8)
-     , (992, 67110365, 40, 24)
-     , (992, 67110539, 72, 8)
-     , (992, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (992, 0, 83889072, 83890012)
-     , (992, 0, 83889342, 83890011)
-     , (992, 1, 83887064, 83886241)
-     , (992, 2, 83887066, 83887055)
-     , (992, 3, 83889344, 83887054)
-     , (992, 4, 83887068, 83887054)
-     , (992, 5, 83887064, 83886241)
-     , (992, 6, 83887066, 83887055)
-     , (992, 7, 83889344, 83887054)
-     , (992, 8, 83887068, 83887054)
-     , (992, 9, 83887061, 83890009)
-     , (992, 9, 83887060, 83890010)
-     , (992, 10, 83887069, 83886782)
-     , (992, 11, 83887067, 83891213)
-     , (992, 13, 83887069, 83886782)
-     , (992, 14, 83887067, 83891213)
-     , (992, 16, 83886232, 83890685)
-     , (992, 16, 83886668, 83890456)
-     , (992, 16, 83886837, 83890537)
-     , (992, 16, 83886684, 83890596);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (992, 0, 16781835)
-     , (992, 1, 16777295)
-     , (992, 2, 16777293)
-     , (992, 3, 16777292)
-     , (992, 4, 16781855)
-     , (992, 5, 16777299)
-     , (992, 6, 16777297)
-     , (992, 7, 16777296)
-     , (992, 8, 16781859)
-     , (992, 9, 16777300)
-     , (992, 10, 16777301)
-     , (992, 11, 16777302)
-     , (992, 12, 16777304)
-     , (992, 13, 16777303)
-     , (992, 14, 16777305)
-     , (992, 15, 16777307)
-     , (992, 16, 16795654);

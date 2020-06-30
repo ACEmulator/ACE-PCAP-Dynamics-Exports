@@ -12,8 +12,7 @@ VALUES (35137,   1,         16) /* ItemType - Creature */
      , (35137,  25,        175) /* Level */
      , (35137,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35137, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35137, 307,          5) /* DamageRating */
-     , (35137, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35137, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35137,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35137,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35137,   1, 'Mosswart Elder') /* Name */
-     , (35137, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35137,   1, 'Mosswart Elder') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35137,   1,   33557327) /* Setup */
@@ -31,17 +29,11 @@ VALUES (35137,   1,   33557327) /* Setup */
      , (35137,   3,  536870959) /* SoundTable */
      , (35137,   6,   67113400) /* PaletteBase */
      , (35137,   8,  100667449) /* Icon */
-     , (35137,  22,  872415264) /* PhysicsEffectTable */
-     , (35137, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35137, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35137, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (35137,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35137, 8040, 11534655, 27.41066, -293.1406, 0.1127, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B0013F [27.410660 -293.140600 0.112700] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35137, 8000, 2447686425) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35137,   1, 230, 0, 0) /* Strength */
@@ -243,44 +235,3 @@ VALUES (35137, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield
      , (35137, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (35137, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
      , (35137, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35137, 67113409, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35137, 0, 83893769, 83893769)
-     , (35137, 1, 83893768, 83893778)
-     , (35137, 2, 83893766, 83893775)
-     , (35137, 3, 83893766, 83893775)
-     , (35137, 4, 83893766, 83893775)
-     , (35137, 5, 83893766, 83893775)
-     , (35137, 6, 83893766, 83893775)
-     , (35137, 7, 83893766, 83893775)
-     , (35137, 8, 83893767, 83893767)
-     , (35137, 9, 83893768, 83893778)
-     , (35137, 10, 83893766, 83893775)
-     , (35137, 11, 83893767, 83893767)
-     , (35137, 12, 83893768, 83893778)
-     , (35137, 13, 83893766, 83893775)
-     , (35137, 14, 83893766, 83893775)
-     , (35137, 15, 83893766, 83893775)
-     , (35137, 16, 83893766, 83893775);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35137, 0, 16787248)
-     , (35137, 1, 16787249)
-     , (35137, 2, 16787261)
-     , (35137, 3, 16787254)
-     , (35137, 4, 16787250)
-     , (35137, 5, 16787259)
-     , (35137, 6, 16787255)
-     , (35137, 7, 16787253)
-     , (35137, 8, 16787260)
-     , (35137, 9, 16787262)
-     , (35137, 10, 16787252)
-     , (35137, 11, 16787258)
-     , (35137, 12, 16787263)
-     , (35137, 13, 16787251)
-     , (35137, 14, 16787247)
-     , (35137, 15, 16787257)
-     , (35137, 16, 16787256);

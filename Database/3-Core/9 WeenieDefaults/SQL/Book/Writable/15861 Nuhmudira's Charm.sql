@@ -9,10 +9,7 @@ VALUES (15861,   1,       8192) /* ItemType - Writable */
      , (15861,  16,          8) /* ItemUseable - Contained */
      , (15861,  19,          0) /* Value */
      , (15861,  33,          0) /* Bonded - Normal */
-     , (15861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15861, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (15861, 8042,          8) /* PCAPRecordedAppraisalPages */
-     , (15861, 8043,          8) /* PCAPRecordedAppraisalMaxPages */;
+     , (15861,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15861,  54,       1) /* UseRadius */;
@@ -26,13 +23,7 @@ VALUES (15861,   1,   33556929) /* Setup */
      , (15861,   3,  536870932) /* SoundTable */
      , (15861,   6,   67113005) /* PaletteBase */
      , (15861,   8,  100672803) /* Icon */
-     , (15861,  22,  872415275) /* PhysicsEffectTable */
-     , (15861, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
-     , (15861, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (15861, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15861, 8000, 3621813012) /* PCAPRecordedObjectIID */;
+     , (15861,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15861, 8, 1000);
@@ -78,14 +69,3 @@ Then she draws herself, helpless and trapped. Darkness surrounds her, but the he
 
 The Book, handed as the commands are uttered silently from her mind to the malleable understanding of the being she commands. Her final act, to send it back to whence she was brought. To deliver her location to others, and then she passes into a quiet sleep.
 ');
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (15861, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (15861, 0, 83892962, 83893942)
-     , (15861, 0, 83892960, 83893941)
-     , (15861, 0, 83892961, 83893940);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (15861, 0, 16785505);

@@ -12,8 +12,7 @@ VALUES (28654,   1,         16) /* ItemType - Creature */
      , (28654,  25,        115) /* Level */
      , (28654,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28654, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28654, 307,          5) /* DamageRating */
-     , (28654, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28654, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28654,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28654,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28654,   1, 'Viamontian Commander') /* Name */
-     , (28654, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28654,   1, 'Viamontian Commander') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28654,   1,   33559125) /* Setup */
@@ -31,17 +29,11 @@ VALUES (28654,   1,   33559125) /* Setup */
      , (28654,   3,  536871102) /* SoundTable */
      , (28654,   6,   67115468) /* PaletteBase */
      , (28654,   8,  100677371) /* Icon */
-     , (28654,  22,  872415269) /* PhysicsEffectTable */
-     , (28654, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28654, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28654, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28654,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28654, 8040, 1173487650, 118.8707, 24.60895, 52.00679, -0.9557025, 0, 0, -0.2943343) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20022 [118.870700 24.608950 52.006790] -0.955703 0.000000 0.000000 -0.294334 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28654, 8000, 3690117134) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28654,   1, 370, 0, 0) /* Strength */
@@ -529,6 +521,3 @@ VALUES (28654, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
      , (28654, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
      , (28654, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (28654, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28654, 67115534, 0, 0);

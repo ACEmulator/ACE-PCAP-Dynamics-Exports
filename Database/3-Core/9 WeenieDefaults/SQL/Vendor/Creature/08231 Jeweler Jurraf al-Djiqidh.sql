@@ -17,8 +17,7 @@ VALUES (8231,   1,         16) /* ItemType - Creature */
      , (8231, 113,          1) /* Gender - Male */
      , (8231, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8231, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8231, 188,          2) /* HeritageGroup - Gharundim */
-     , (8231, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8231, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8231,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8231,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8231,   1, 'Jeweler Jurraf al-Djiqidh') /* Name */
-     , (8231,   5, 'Jeweler') /* Template */
-     , (8231, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8231,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8231,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8231,   1,   33554433) /* Setup */
      , (8231,  11,   83890600) /* MouthTexture */
      , (8231,  15,   67116994) /* HairPalette */
      , (8231,  16,   67109567) /* EyesPalette */
-     , (8231,  17,   67109553) /* SkinPalette */
-     , (8231, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8231, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8231, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8231,  17,   67109553) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8231, 8040, 2471166456, 111.373, 56.4803, -19.595, -0.690779, 0, 0, -0.723066) /* PCAPRecordedLocation */
 /* @teleloc 0x934B01F8 [111.373000 56.480300 -19.595000] -0.690779 0.000000 0.000000 -0.723066 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8231, 8000, 2033496130) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8231,   1,  90, 0, 0) /* Strength */
@@ -94,53 +86,3 @@ VALUES (8231, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (8231, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (8231, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (8231, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8231, 67109553, 0, 24)
-     , (8231, 67109567, 32, 8)
-     , (8231, 67109969, 92, 4)
-     , (8231, 67110026, 72, 8)
-     , (8231, 67110320, 160, 8)
-     , (8231, 67110325, 64, 8)
-     , (8231, 67110325, 40, 24)
-     , (8231, 67110356, 216, 24)
-     , (8231, 67116994, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8231, 0, 83889072, 83890012)
-     , (8231, 0, 83889342, 83890011)
-     , (8231, 1, 83887064, 83886241)
-     , (8231, 2, 83887066, 83887051)
-     , (8231, 3, 83889344, 83887054)
-     , (8231, 4, 83887068, 83887054)
-     , (8231, 5, 83887064, 83886241)
-     , (8231, 6, 83887066, 83887051)
-     , (8231, 7, 83889344, 83887054)
-     , (8231, 8, 83887068, 83887054)
-     , (8231, 9, 83887061, 83890009)
-     , (8231, 9, 83887060, 83890010)
-     , (8231, 10, 83887069, 83886782)
-     , (8231, 13, 83887069, 83886782)
-     , (8231, 16, 83886232, 83890359)
-     , (8231, 16, 83886668, 83890496)
-     , (8231, 16, 83886837, 83890547)
-     , (8231, 16, 83886684, 83890600);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8231, 0, 16781835)
-     , (8231, 1, 16777295)
-     , (8231, 2, 16781866)
-     , (8231, 3, 16781841)
-     , (8231, 4, 16781838)
-     , (8231, 5, 16777299)
-     , (8231, 6, 16781864)
-     , (8231, 7, 16781840)
-     , (8231, 8, 16781839)
-     , (8231, 9, 16777300)
-     , (8231, 10, 16777301)
-     , (8231, 11, 16777302)
-     , (8231, 12, 16777304)
-     , (8231, 13, 16777303)
-     , (8231, 14, 16777305)
-     , (8231, 15, 16777307)
-     , (8231, 16, 16795638);

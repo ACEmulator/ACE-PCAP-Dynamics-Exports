@@ -15,8 +15,7 @@ VALUES (25643,   1,          2) /* ItemType - Armor */
      , (25643,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25643, 105,          8) /* ItemWorkmanship */
      , (25643, 131,         55) /* MaterialType - ReedSharkHide */
-     , (25643, 172,          1) /* AppraisalLongDescDecoration */
-     , (25643, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25643, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25643,  22, True ) /* Inscribable */
@@ -30,8 +29,7 @@ VALUES (25643,  13,     1.2) /* ArmorModVsSlash */
      , (25643,  17,     0.5) /* ArmorModVsFire */
      , (25643,  18,     0.3) /* ArmorModVsAcid */
      , (25643,  19,     0.8) /* ArmorModVsElectric */
-     , (25643, 165,       1) /* ArmorModVsNether */
-     , (25643, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (25643, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25643,   1, 'Leather Girth') /* Name */
@@ -42,23 +40,7 @@ VALUES (25643,   1,   33554647) /* Setup */
      , (25643,   3,  536870932) /* SoundTable */
      , (25643,   6,   67108990) /* PaletteBase */
      , (25643,   8,  100675224) /* Icon */
-     , (25643,  22,  872415275) /* PhysicsEffectTable */
-     , (25643, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (25643, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25643, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25643, 8000, 2174248588) /* PCAPRecordedObjectIID */;
+     , (25643,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25643, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25643, 67114616, 72, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (25643, 0, 83889072, 83894829)
-     , (25643, 0, 83889342, 83894833);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25643, 0, 16778376);

@@ -34,9 +34,7 @@ VALUES (40751,   1,          1) /* ItemType - MeleeWeapon */
      , (40751, 177,          2) /* GemCount */
      , (40751, 178,         21) /* GemType */
      , (40751, 188,          3) /* HeritageGroup - Sho */
-     , (40751, 353,          2) /* WeaponType - Sword */
-     , (40751, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40751, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40751, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40751,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (40751,   5,  -0.056) /* ManaRate */
      , (40751,  26,       0) /* MaximumVelocity */
      , (40751,  29,    1.11) /* WeaponDefense */
      , (40751,  62,    1.15) /* WeaponOffense */
-     , (40751,  63,       1) /* DamageMod */
-     , (40751, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (40751,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40751,   1, 'Lightning Yaoji') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40751,   1,   33555812) /* Setup */
      , (40751,   3,  536870932) /* SoundTable */
      , (40751,   8,  100667621) /* Icon */
-     , (40751,  22,  872415275) /* PhysicsEffectTable */
-     , (40751, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40751, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40751, 8000, 2624395254) /* PCAPRecordedObjectIID */;
+     , (40751,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40751,  2081,      2) 

@@ -17,8 +17,7 @@ VALUES (42707,   1,       2048) /* ItemType - Gem */
      , (42707, 106,        325) /* ItemSpellcraft */
      , (42707, 107,        100) /* ItemCurMana */
      , (42707, 108,        100) /* ItemMaxMana */
-     , (42707, 109,          0) /* ItemDifficulty */
-     , (42707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42707, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42707,  69, False) /* IsSellable */;
@@ -34,20 +33,7 @@ VALUES (42707,   1,   33555193) /* Setup */
      , (42707,   3,  536870932) /* SoundTable */
      , (42707,   8,  100672705) /* Icon */
      , (42707,  22,  872415275) /* PhysicsEffectTable */
-     , (42707,  28,       3204) /* Spell - GolemHunterHealthHigh */
-     , (42707, 8001,    6844441) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (42707, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (42707, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42707, 8000, 3704135028) /* PCAPRecordedObjectIID */;
+     , (42707,  28,       3204) /* Spell - GolemHunterHealthHigh */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42707,  3204,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42707, 0, 83888869, 83888869)
-     , (42707, 0, 83888868, 83893926);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42707, 0, 16778864);

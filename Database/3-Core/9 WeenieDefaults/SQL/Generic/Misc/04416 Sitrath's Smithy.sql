@@ -19,20 +19,8 @@ VALUES (4416,   1, 'Sitrath''s Smithy') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4416,   1,   33555593) /* Setup */
-     , (4416,   8,  100668115) /* Icon */
-     , (4416, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (4416, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4416, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (4416,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4416, 8040, 3212836916, 167.308, 89.9452, 39.3284, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBF800034 [167.308000 89.945200 39.328400] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4416, 8000, 2079850536) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4416, 0, 83889909, 83889904);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4416, 0, 16782239);

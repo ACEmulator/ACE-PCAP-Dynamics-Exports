@@ -17,8 +17,7 @@ VALUES (40455,   1,          4) /* ItemType - Clothing */
      , (40455, 107,       1000) /* ItemCurMana */
      , (40455, 108,       1000) /* ItemMaxMana */
      , (40455, 109,          0) /* ItemDifficulty */
-     , (40455, 114,          1) /* Attuned - Attuned */
-     , (40455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40455, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40455,  22, True ) /* Inscribable */
@@ -44,30 +43,9 @@ VALUES (40455,   1,   33554854) /* Setup */
      , (40455,   3,  536870932) /* SoundTable */
      , (40455,   6,   67108990) /* PaletteBase */
      , (40455,   8,  100670382) /* Icon */
-     , (40455,  22,  872415275) /* PhysicsEffectTable */
-     , (40455, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
-     , (40455, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40455, 8000, 3164390757) /* PCAPRecordedObjectIID */;
+     , (40455,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40455,  1328,      2) 
      , (40455,  1350,      2) 
      , (40455,  1482,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40455, 67110003, 96, 12)
-     , (40455, 67110350, 80, 12)
-     , (40455, 67110350, 116, 12)
-     , (40455, 67112655, 40, 40);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40455, 0, 83887061, 83892367)
-     , (40455, 0, 83887060, 83892368)
-     , (40455, 0, 83889072, 83892364)
-     , (40455, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40455, 0, 16778367);

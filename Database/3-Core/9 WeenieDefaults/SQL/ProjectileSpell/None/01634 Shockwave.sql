@@ -14,10 +14,7 @@ VALUES (1634,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1634,  77,       1) /* PhysicsScriptIntensity */
      , (1634,  78,       1) /* Friction */
-     , (1634,  79,       0) /* Elasticity */
-     , (1634, 8010, -18.278) /* PCAPRecordedVelocityX */
-     , (1634, 8011,   11.03) /* PCAPRecordedVelocityY */
-     , (1634, 8012,  -3.287) /* PCAPRecordedVelocityZ */;
+     , (1634,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1634,   1, 'Shockwave') /* Name */;
@@ -28,17 +25,11 @@ VALUES (1634,   1,   33555450) /* Setup */
      , (1634,   8,  100667494) /* Icon */
      , (1634,  22,  872415241) /* PhysicsEffectTable */
      , (1634,  28,         64) /* Spell - ShockWave1 */
-     , (1634,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (1634, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (1634, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (1634, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (1634,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1634, 8040, 2474377268, 147.0532, 74.88306, 37.42716, -0.7066732, 0, 0, -0.7075401) /* PCAPRecordedLocation */
 /* @teleloc 0x937C0034 [147.053200 74.883060 37.427160] -0.706673 0.000000 0.000000 -0.707540 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1634, 8000, 3685896114) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1634, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */

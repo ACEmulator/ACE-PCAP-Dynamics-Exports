@@ -8,8 +8,7 @@ VALUES (9685,   1,      65536) /* ItemType - Portal */
      , (9685,  16,         32) /* ItemUseable - Remote */
      , (9685,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (9685, 111,          1) /* PortalBitmask - Unrestricted */
-     , (9685, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9685, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9685, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9685,   1, True ) /* Stuck */;
@@ -18,20 +17,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9685,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9685,   1, 'Desert March Portal') /* Name */
-     , (9685, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (9685,   1, 'Desert March Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9685,   1,   33554867) /* Setup */
      , (9685,   2,  150994947) /* MotionTable */
-     , (9685,   8,  100667499) /* Icon */
-     , (9685, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (9685, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (9685, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (9685,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9685, 8040, 1536950297, 74.7335, 8.74883, 0.8938607, -0.9909301, 0, 0, 0.134378) /* PCAPRecordedLocation */
 /* @teleloc 0x5B9C0019 [74.733500 8.748830 0.893861] -0.990930 0.000000 0.000000 0.134378 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9685, 8000, 1975107591) /* PCAPRecordedObjectIID */;

@@ -14,8 +14,7 @@ VALUES (33730,   1,         16) /* ItemType - Creature */
      , (33730, 113,          2) /* Gender - Female */
      , (33730, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (33730, 188,          1) /* HeritageGroup - Aluvian */
-     , (33730, 307,          2) /* DamageRating */
-     , (33730, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33730, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33730,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33730,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33730,   1, 'Degenerate Shadow') /* Name */
-     , (33730, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33730,   1, 'Degenerate Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33730,   1,   33556251) /* Setup */
@@ -39,17 +37,11 @@ VALUES (33730,   1,   33556251) /* Setup */
      , (33730,  15,   67116984) /* HairPalette */
      , (33730,  16,   67109565) /* EyesPalette */
      , (33730,  17,   67109558) /* SkinPalette */
-     , (33730,  22,  872415331) /* PhysicsEffectTable */
-     , (33730, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33730, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33730, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (33730,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33730, 8040, 3337289778, 160.4619, 31.94148, 0.004999995, 0.9528896, 0, 0, -0.3033172) /* PCAPRecordedLocation */
 /* @teleloc 0xC6EB0032 [160.461900 31.941480 0.005000] 0.952890 0.000000 0.000000 -0.303317 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33730, 8000, 3359850847) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33730,   1, 190, 0, 0) /* Strength */
@@ -63,25 +55,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (33730,   1,   700, 0, 0, 805) /* MaxHealth */
      , (33730,   3,  1000, 0, 0, 1210) /* MaxStamina */
      , (33730,   5,  1000, 0, 0, 1140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33730, 67112860, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (33730, 0, 16778359)
-     , (33730, 1, 16777708)
-     , (33730, 2, 16777708)
-     , (33730, 3, 16777708)
-     , (33730, 4, 16777708)
-     , (33730, 5, 16777708)
-     , (33730, 6, 16777708)
-     , (33730, 7, 16777708)
-     , (33730, 8, 16777708)
-     , (33730, 9, 16778425)
-     , (33730, 10, 16778431)
-     , (33730, 11, 16778429)
-     , (33730, 12, 16777304)
-     , (33730, 13, 16778434)
-     , (33730, 14, 16778424)
-     , (33730, 15, 16777307)
-     , (33730, 16, 16778407);

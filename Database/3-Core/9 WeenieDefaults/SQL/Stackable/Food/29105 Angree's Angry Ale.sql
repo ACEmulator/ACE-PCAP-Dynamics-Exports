@@ -26,11 +26,4 @@ VALUES (29105,   1,   33559126) /* Setup */
      , (29105,  22,  872415275) /* PhysicsEffectTable */
      , (29105,  28,       3529) /* Spell - Intoxication3 */
      , (29105,  50,  100687550) /* IconOverlay */
-     , (29105,  52,  100687547) /* IconUnderlay */
-     , (29105, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
-     , (29105, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29105, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (29105, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29105, 8000, 3351526400) /* PCAPRecordedObjectIID */;
+     , (29105,  52,  100687547) /* IconUnderlay */;

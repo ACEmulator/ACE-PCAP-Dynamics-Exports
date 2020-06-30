@@ -17,8 +17,7 @@ VALUES (5834,   1,         16) /* ItemType - Creature */
      , (5834, 113,          2) /* Gender - Female */
      , (5834, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5834, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5834, 188,          1) /* HeritageGroup - Aluvian */
-     , (5834, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5834, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5834,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5834,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5834,   1, 'Melia Thorn the Archmage') /* Name */
-     , (5834,   5, 'Archmage') /* Template */
-     , (5834, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5834,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5834,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5834,   1,   33554510) /* Setup */
      , (5834,  11,   83890324) /* MouthTexture */
      , (5834,  15,   67117026) /* HairPalette */
      , (5834,  16,   67109565) /* EyesPalette */
-     , (5834,  17,   67109562) /* SkinPalette */
-     , (5834, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5834, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5834, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5834,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5834, 8040, 3184656670, 124.975, 85.858, 190.005, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD2011E [124.975000 85.858000 190.005000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5834, 8000, 2078089217) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5834,   1,  50, 0, 0) /* Strength */
@@ -181,55 +173,3 @@ VALUES (5834, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (5834, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (5834, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (5834, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5834, 67109562, 0, 24)
-     , (5834, 67109565, 32, 8)
-     , (5834, 67109964, 92, 4)
-     , (5834, 67110014, 72, 8)
-     , (5834, 67110334, 216, 24)
-     , (5834, 67110378, 160, 8)
-     , (5834, 67110383, 40, 24)
-     , (5834, 67111303, 64, 8)
-     , (5834, 67117026, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5834, 0, 83889072, 83890012)
-     , (5834, 0, 83889342, 83890011)
-     , (5834, 1, 83887064, 83886241)
-     , (5834, 2, 83887066, 83887051)
-     , (5834, 3, 83889344, 83887054)
-     , (5834, 4, 83887068, 83887054)
-     , (5834, 5, 83887064, 83886241)
-     , (5834, 6, 83887066, 83887051)
-     , (5834, 7, 83889344, 83887054)
-     , (5834, 8, 83887068, 83887054)
-     , (5834, 9, 83887070, 83890009)
-     , (5834, 9, 83887062, 83890010)
-     , (5834, 10, 83887069, 83886782)
-     , (5834, 11, 83887067, 83891213)
-     , (5834, 13, 83887069, 83886782)
-     , (5834, 14, 83887067, 83891213)
-     , (5834, 16, 83886232, 83890685)
-     , (5834, 16, 83886668, 83890261)
-     , (5834, 16, 83886837, 83890291)
-     , (5834, 16, 83886684, 83890324);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5834, 0, 16781875)
-     , (5834, 1, 16778430)
-     , (5834, 2, 16781908)
-     , (5834, 3, 16781841)
-     , (5834, 4, 16783485)
-     , (5834, 5, 16778438)
-     , (5834, 6, 16781909)
-     , (5834, 7, 16781840)
-     , (5834, 8, 16783487)
-     , (5834, 9, 16778425)
-     , (5834, 10, 16778431)
-     , (5834, 11, 16778429)
-     , (5834, 12, 16778423)
-     , (5834, 13, 16778434)
-     , (5834, 14, 16778424)
-     , (5834, 15, 16778435)
-     , (5834, 16, 16795650);

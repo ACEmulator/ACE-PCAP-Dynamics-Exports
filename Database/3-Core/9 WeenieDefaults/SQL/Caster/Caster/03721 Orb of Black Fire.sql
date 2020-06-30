@@ -17,8 +17,7 @@ VALUES (3721,   1,      32768) /* ItemType - Caster */
      , (3721, 108,       2000) /* ItemMaxMana */
      , (3721, 115,        125) /* ItemSkillLevelLimit */
      , (3721, 151,          2) /* HookType - Wall */
-     , (3721, 176,         33) /* AppraisalItemSkill */
-     , (3721, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3721, 176,         33) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3721,  22, True ) /* Inscribable */;
@@ -40,24 +39,9 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,   6,   67111928) /* PaletteBase */
      , (3721,   8,  100668730) /* Icon */
      , (3721,  22,  872415275) /* PhysicsEffectTable */
-     , (3721,  28,        145) /* Spell - FlameVolley5 */
-     , (3721, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (3721, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3721, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3721, 8000, 3656750334) /* PCAPRecordedObjectIID */;
+     , (3721,  28,        145) /* Spell - FlameVolley5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3721,   145,      2) 
      , (3721,   518,      2) 
      , (3721,  1092,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (3721, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (3721, 0, 83888861, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (3721, 0, 16778862);

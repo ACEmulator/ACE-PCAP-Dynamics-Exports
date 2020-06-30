@@ -12,8 +12,7 @@ VALUES (27564,   1,         16) /* ItemType - Creature */
      , (27564,  25,        115) /* Level */
      , (27564,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27564, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27564, 307,          2) /* DamageRating */
-     , (27564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27564, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27564,   1, True ) /* Stuck */;
@@ -22,25 +21,18 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27564,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27564,   1, 'Coral Golem Viceroy') /* Name */
-     , (27564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (27564,   1, 'Coral Golem Viceroy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27564,   1,   33556426) /* Setup */
      , (27564,   2,  150995073) /* MotionTable */
      , (27564,   3,  536870933) /* SoundTable */
      , (27564,   8,  100667940) /* Icon */
-     , (27564,  22,  872415321) /* PhysicsEffectTable */
-     , (27564, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (27564, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27564, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (27564,  22,  872415321) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27564, 8040, 289144883, 159.5443, 48.51797, 17.94674, -0.8799887, 0, 0, -0.4749945) /* PCAPRecordedLocation */
 /* @teleloc 0x113C0033 [159.544300 48.517970 17.946740] -0.879989 0.000000 0.000000 -0.474995 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27564, 8000, 3682416871) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27564,   1, 270, 0, 0) /* Strength */
@@ -107,28 +99,3 @@ VALUES (27564, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainT
      , (27564, 9,    71,  0, 0, 0, False) /* Create Chainmail Hauberk (71) for ContainTreasure */
      , (27564, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */
      , (27564, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (27564, 0, 83892410, 83892589)
-     , (27564, 0, 83892411, 83892590)
-     , (27564, 1, 83892412, 83892589)
-     , (27564, 2, 83892412, 83892589)
-     , (27564, 4, 83892412, 83892589)
-     , (27564, 5, 83892412, 83892589)
-     , (27564, 7, 83892412, 83892589)
-     , (27564, 8, 83892412, 83892589)
-     , (27564, 9, 83892412, 83892589)
-     , (27564, 11, 83892412, 83892589)
-     , (27564, 12, 83892412, 83892589);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (27564, 0, 16784123)
-     , (27564, 1, 16784101)
-     , (27564, 2, 16784094)
-     , (27564, 4, 16784104)
-     , (27564, 5, 16784097)
-     , (27564, 7, 16784091)
-     , (27564, 8, 16784117)
-     , (27564, 9, 16784111)
-     , (27564, 11, 16784119)
-     , (27564, 12, 16784114);

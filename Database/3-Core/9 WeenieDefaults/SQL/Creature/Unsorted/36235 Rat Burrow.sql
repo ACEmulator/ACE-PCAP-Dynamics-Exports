@@ -34,8 +34,7 @@ VALUES (36235,   1,         16) /* ItemType - Creature */
      , (36235, 386,          0) /* Overpower */
      , (36235, 387,          0) /* OverpowerResist */
      , (36235, 388,          0) /* GearOverpower */
-     , (36235, 389,          0) /* GearOverpowerResist */
-     , (36235, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36235, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36235,   1, True ) /* Stuck */
@@ -46,21 +45,14 @@ VALUES (36235,  39,     0.7) /* DefaultScale */
      , (36235,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36235,   1, 'Rat Burrow') /* Name */
-     , (36235, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (36235,   1, 'Rat Burrow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36235,   1,   33557839) /* Setup */
      , (36235,   2,  150995355) /* MotionTable */
      , (36235,   3,  536870913) /* SoundTable */
-     , (36235,   8,  100667494) /* Icon */
-     , (36235, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (36235, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (36235, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (36235,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36235, 8040, 1210908710, 117.8444, 137.4877, 3.445481, 0.9239878, 0, 0, -0.3824219) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0026 [117.844400 137.487700 3.445481] 0.923988 0.000000 0.000000 -0.382422 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36235, 8000, 3698449928) /* PCAPRecordedObjectIID */;

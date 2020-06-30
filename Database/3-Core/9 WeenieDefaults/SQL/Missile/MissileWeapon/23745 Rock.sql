@@ -26,9 +26,7 @@ VALUES (23745,   1,        256) /* ItemType - MissileWeapon */
      , (23745, 313,          0) /* CritRating */
      , (23745, 314,          0) /* CritDamageRating */
      , (23745, 353,         10) /* WeaponType - Thrown */
-     , (23745, 386,          0) /* Overpower */
-     , (23745, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23745, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23745, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23745,   1, True ) /* Stuck */;
@@ -53,19 +51,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23745,   1,   33555863) /* Setup */
      , (23745,   3,  536871003) /* SoundTable */
      , (23745,   8,  100667500) /* Icon */
-     , (23745,  22,  872415275) /* PhysicsEffectTable */
-     , (23745, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (23745, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23745, 8005,     432929) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (23745, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23745,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23745, 8040, 2736652294, 10.80749, 124.2021, 531.83, 0.6475233, 0.6475233, -0.2841014, -0.2841014) /* PCAPRecordedLocation */
 /* @teleloc 0xA31E0006 [10.807490 124.202100 531.830000] 0.647523 0.647523 -0.284101 -0.284101 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23745, 8000, 3691197702) /* PCAPRecordedObjectIID */
-     , (23745, 8008, 3691203631) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23745, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

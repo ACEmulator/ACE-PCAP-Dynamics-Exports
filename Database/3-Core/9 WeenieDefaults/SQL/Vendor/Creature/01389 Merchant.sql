@@ -17,8 +17,7 @@ VALUES (1389,   1,         16) /* ItemType - Creature */
      , (1389, 113,          1) /* Gender - Male */
      , (1389, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1389, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1389, 188,          3) /* HeritageGroup - Sho */
-     , (1389, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1389, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1389,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1389,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1389,   1, 'Merchant') /* Name */
-     , (1389,   5, 'Merchant') /* Template */
-     , (1389, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1389,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1389,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1389,   1,   33554433) /* Setup */
      , (1389,  11,   83890665) /* MouthTexture */
      , (1389,  15,   67117027) /* HairPalette */
      , (1389,  16,   67110063) /* EyesPalette */
-     , (1389,  17,   67110054) /* SkinPalette */
-     , (1389, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1389, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1389, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1389,  17,   67110054) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1389, 8040, 3646488832, 105.109, 9.57169, 10.005, 0.8817698, 0, 0, -0.4716799) /* PCAPRecordedLocation */
 /* @teleloc 0xD9590100 [105.109000 9.571690 10.005000] 0.881770 0.000000 0.000000 -0.471680 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1389, 8000, 2106953731) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1389,   1,  60, 0, 0) /* Strength */
@@ -109,51 +101,3 @@ VALUES (1389, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (1389, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1389, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1389, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1389, 67109565, 32, 8)
-     , (1389, 67110048, 0, 24)
-     , (1389, 67110320, 160, 8)
-     , (1389, 67110349, 64, 8)
-     , (1389, 67110369, 40, 24)
-     , (1389, 67110389, 240, 10)
-     , (1389, 67110539, 72, 8)
-     , (1389, 67110548, 92, 4)
-     , (1389, 67117078, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1389, 0, 83889072, 83890012)
-     , (1389, 0, 83889342, 83890011)
-     , (1389, 1, 83887064, 83886241)
-     , (1389, 3, 83889344, 83887054)
-     , (1389, 4, 83887068, 83887054)
-     , (1389, 5, 83887064, 83886241)
-     , (1389, 7, 83889344, 83887054)
-     , (1389, 8, 83887068, 83887054)
-     , (1389, 9, 83887061, 83890009)
-     , (1389, 9, 83887060, 83890010)
-     , (1389, 16, 83886232, 83890685)
-     , (1389, 16, 83886668, 83890446)
-     , (1389, 16, 83886837, 83890521)
-     , (1389, 16, 83886684, 83890658)
-     , (1389, 16, 83888783, 83888783)
-     , (1389, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1389, 0, 16781835)
-     , (1389, 1, 16777295)
-     , (1389, 2, 16777293)
-     , (1389, 3, 16781841)
-     , (1389, 4, 16781838)
-     , (1389, 5, 16777299)
-     , (1389, 6, 16777297)
-     , (1389, 7, 16781840)
-     , (1389, 8, 16781839)
-     , (1389, 9, 16777300)
-     , (1389, 10, 16777301)
-     , (1389, 11, 16777302)
-     , (1389, 12, 16777304)
-     , (1389, 13, 16777303)
-     , (1389, 14, 16777305)
-     , (1389, 15, 16777307)
-     , (1389, 16, 16778476);

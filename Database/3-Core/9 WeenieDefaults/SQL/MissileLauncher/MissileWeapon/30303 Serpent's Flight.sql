@@ -29,8 +29,7 @@ VALUES (30303,   1,        256) /* ItemType - MissileWeapon */
      , (30303, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (30303, 319,         50) /* ItemMaxLevel */
      , (30303, 320,          1) /* ItemXpStyle - Fixed */
-     , (30303, 353,          8) /* WeaponType - Bow */
-     , (30303, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (30303, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30303,   4, 100000000000) /* ItemTotalXp */
@@ -61,20 +60,11 @@ VALUES (30303,   1,   33559367) /* Setup */
      , (30303,   3,  536870932) /* SoundTable */
      , (30303,   8,  100686717) /* Icon */
      , (30303,  22,  872415275) /* PhysicsEffectTable */
-     , (30303,  52,  100686604) /* IconUnderlay */
-     , (30303, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (30303, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30303, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30303, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (30303, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (30303,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30303, 8040, 23855458, 16.04228, -13.91148, -0.07000001, 0.7457888, 0, 0, -0.6661825) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0162 [16.042280 -13.911480 -0.070000] 0.745789 0.000000 0.000000 -0.666183 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30303, 8000, 2450610276) /* PCAPRecordedObjectIID */
-     , (30303, 8008, 1343124456) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30303,  3963,      2) 

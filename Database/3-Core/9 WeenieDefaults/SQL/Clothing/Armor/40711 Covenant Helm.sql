@@ -19,8 +19,7 @@ VALUES (40711,   1,          2) /* ItemType - Armor */
      , (40711, 158,          2) /* WieldRequirements - RawSkill */
      , (40711, 159,         15) /* WieldSkillType - MagicDefense */
      , (40711, 160,        185) /* WieldDifficulty */
-     , (40711, 172,          1) /* AppraisalLongDescDecoration */
-     , (40711, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40711, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40711,  22, True ) /* Inscribable */
@@ -34,8 +33,7 @@ VALUES (40711,  13,     1.3) /* ArmorModVsSlash */
      , (40711,  17,     0.8) /* ArmorModVsFire */
      , (40711,  18,     0.8) /* ArmorModVsAcid */
      , (40711,  19,     0.6) /* ArmorModVsElectric */
-     , (40711, 165,       1) /* ArmorModVsNether */
-     , (40711, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (40711, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40711,   1, 'Covenant Helm') /* Name */
@@ -46,19 +44,7 @@ VALUES (40711,   1,   33557884) /* Setup */
      , (40711,   3,  536870932) /* SoundTable */
      , (40711,   6,   67108990) /* PaletteBase */
      , (40711,   8,  100673442) /* Icon */
-     , (40711,  22,  872415275) /* PhysicsEffectTable */
-     , (40711, 8001, 2435137560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (40711, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40711, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40711, 8000, 3691171444) /* PCAPRecordedObjectIID */;
+     , (40711,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40711, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40711, 67113958, 240, 10);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40711, 0, 16788096);

@@ -20,9 +20,7 @@ VALUES (7567,   1,          1) /* ItemType - MeleeWeapon */
      , (7567,  51,          1) /* CombatUse - Melee */
      , (7567,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7567, 114,          1) /* Attuned - Attuned */
-     , (7567, 353,          1) /* WeaponType - Unarmed */
-     , (7567, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7567, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (7567, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7567,  22, True ) /* Inscribable */;
@@ -47,16 +45,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7567,   1,   33556648) /* Setup */
      , (7567,   3,  536870932) /* SoundTable */
      , (7567,   8,  100668926) /* Icon */
-     , (7567,  22,  872415275) /* PhysicsEffectTable */
-     , (7567, 8001,    2327064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (7567, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7567, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (7567, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (7567,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7567, 8040, 23855549, 52.87761, -37.247, -0.071, 0.688325, 0.688325, -0.1618911, -0.1618911) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.877610 -37.247000 -0.071000] 0.688325 0.688325 -0.161891 -0.161891 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7567, 8000, 3644825148) /* PCAPRecordedObjectIID */
-     , (7567, 8008, 1343490674) /* PCAPRecordedParentIID */;

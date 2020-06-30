@@ -11,8 +11,7 @@ VALUES (31378,   1,       2048) /* ItemType - Gem */
      , (31378,  19,          0) /* Value */
      , (31378,  33,          1) /* Bonded - Bonded */
      , (31378,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31378, 114,          1) /* Attuned - Attuned */
-     , (31378, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31378, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31378,  22, True ) /* Inscribable */;
@@ -24,10 +23,4 @@ VALUES (31378,   1, 'Raven Fragment') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31378,   1,   33556743) /* Setup */
-     , (31378,   8,  100687952) /* Icon */
-     , (31378, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
-     , (31378, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31378, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31378, 8000, 2932499361) /* PCAPRecordedObjectIID */;
+     , (31378,   8,  100687952) /* Icon */;

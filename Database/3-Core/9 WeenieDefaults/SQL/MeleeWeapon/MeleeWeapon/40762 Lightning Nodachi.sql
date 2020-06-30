@@ -22,9 +22,7 @@ VALUES (40762,   1,          1) /* ItemType - MeleeWeapon */
      , (40762, 151,          2) /* HookType - Wall */
      , (40762, 172,          1) /* AppraisalLongDescDecoration */
      , (40762, 292,          2) /* Cleaving */
-     , (40762, 353,         11) /* WeaponType - TwoHanded */
-     , (40762, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40762, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40762, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40762,  22, True ) /* Inscribable */;
@@ -35,8 +33,7 @@ VALUES (40762,  21,       0) /* WeaponLength */
      , (40762,  26,       0) /* MaximumVelocity */
      , (40762,  29,    1.01) /* WeaponDefense */
      , (40762,  62,    1.05) /* WeaponOffense */
-     , (40762,  63,       1) /* DamageMod */
-     , (40762, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (40762,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40762,   1, 'Lightning Nodachi') /* Name */
@@ -47,21 +44,4 @@ VALUES (40762,   1,   33560765) /* Setup */
      , (40762,   3,  536870932) /* SoundTable */
      , (40762,   6,   67111919) /* PaletteBase */
      , (40762,   8,  100690798) /* Icon */
-     , (40762,  22,  872415275) /* PhysicsEffectTable */
-     , (40762, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40762, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40762, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40762, 8000, 3692261878) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40762, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40762, 0, 83886749, 83886749)
-     , (40762, 0, 83886747, 83886747)
-     , (40762, 0, 83886746, 83886746);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40762, 0, 16794261);
+     , (40762,  22,  872415275) /* PhysicsEffectTable */;

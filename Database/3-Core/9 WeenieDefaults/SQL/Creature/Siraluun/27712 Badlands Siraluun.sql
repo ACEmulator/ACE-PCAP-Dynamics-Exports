@@ -11,8 +11,7 @@ VALUES (27712,   1,         16) /* ItemType - Creature */
      , (27712,  16,          1) /* ItemUseable - No */
      , (27712,  25,        115) /* Level */
      , (27712,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (27712, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (27712, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27712, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27712,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27712,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27712,   1, 'Badlands Siraluun') /* Name */
-     , (27712, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (27712,   1, 'Badlands Siraluun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27712,   1,   33557059) /* Setup */
@@ -30,17 +28,11 @@ VALUES (27712,   1,   33557059) /* Setup */
      , (27712,   3,  536871034) /* SoundTable */
      , (27712,   6,   67113247) /* PaletteBase */
      , (27712,   8,  100671751) /* Icon */
-     , (27712,  22,  872415376) /* PhysicsEffectTable */
-     , (27712, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (27712, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27712, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (27712,  22,  872415376) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27712, 8040, 398589957, 3.382889, 111.9886, 53.8842, 0.4299081, 0, 0, -0.9028727) /* PCAPRecordedLocation */
 /* @teleloc 0x17C20005 [3.382889 111.988600 53.884200] 0.429908 0.000000 0.000000 -0.902873 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27712, 8000, 3706905514) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27712,   1, 380, 0, 0) /* Strength */
@@ -68,6 +60,3 @@ VALUES (27712, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasu
      , (27712, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (27712, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
      , (27712, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27712, 67115191, 0, 0);

@@ -18,8 +18,7 @@ VALUES (29542,   1,          2) /* ItemType - Armor */
      , (29542, 109,        200) /* ItemDifficulty */
      , (29542, 158,          7) /* WieldRequirements - Level */
      , (29542, 159,          1) /* WieldSkillType - Axe */
-     , (29542, 160,         60) /* WieldDifficulty */
-     , (29542, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29542, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29542,  22, True ) /* Inscribable */
@@ -44,29 +43,10 @@ VALUES (29542,   1,   33554854) /* Setup */
      , (29542,   3,  536870932) /* SoundTable */
      , (29542,   6,   67108990) /* PaletteBase */
      , (29542,   8,  100677273) /* Icon */
-     , (29542,  22,  872415275) /* PhysicsEffectTable */
-     , (29542, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (29542, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29542, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29542, 8000, 2982968668) /* PCAPRecordedObjectIID */;
+     , (29542,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29542,  3640,      2) 
      , (29542,  3641,      2) 
      , (29542,  3643,      2) 
      , (29542,  5437,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29542, 67115433, 72, 96)
-     , (29542, 67115433, 240, 16);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29542, 0, 83887061, 83895716)
-     , (29542, 0, 83887060, 83895717)
-     , (29542, 0, 83889072, 83895720)
-     , (29542, 0, 83889342, 83895720);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29542, 0, 16778367);

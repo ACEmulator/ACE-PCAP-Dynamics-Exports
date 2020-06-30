@@ -15,8 +15,7 @@ VALUES (36017,   1,       2048) /* ItemType - Gem */
      , (36017,  19,          5) /* Value */
      , (36017,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36017,  94,         16) /* TargetType - Creature */
-     , (36017, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (36017, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36017, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36017,   1, 'Spectral Finesse Weapon Mastery Crystal') /* Name */
@@ -30,10 +29,4 @@ VALUES (36017,   1,   33557625) /* Setup */
      , (36017,  28,       4135) /* Spell - DaggerMasterySpectral */
      , (36017,  50,  100692243) /* IconOverlay */
      , (36017,  52,  100686604) /* IconUnderlay */
-     , (36017, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
-     , (36017, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (36017, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (36017, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36017, 8000,      36017) /* PCAPRecordedObjectIID */;
+     , (36017, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

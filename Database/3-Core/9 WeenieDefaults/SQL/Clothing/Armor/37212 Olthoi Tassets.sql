@@ -30,8 +30,7 @@ VALUES (37212,   1,          2) /* ItemType - Armor */
      , (37212, 270,          7) /* WieldRequirements2 - Level */
      , (37212, 271,          1) /* WieldSkillType2 - Axe */
      , (37212, 272,        180) /* WieldDifficulty2 */
-     , (37212, 374,          1) /* GearCritDamage */
-     , (37212, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37212, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37212,  22, True ) /* Inscribable */
@@ -47,8 +46,7 @@ VALUES (37212,   5,  -0.067) /* ManaRate */
      , (37212,  18,     1.2) /* ArmorModVsAcid */
      , (37212,  19,     3.3) /* ArmorModVsElectric */
      , (37212,  39,    1.33) /* DefaultScale */
-     , (37212, 165,       1) /* ArmorModVsNether */
-     , (37212, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (37212, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37212,   1, 'Olthoi Tassets') /* Name */;
@@ -58,17 +56,11 @@ VALUES (37212,   1,   33554656) /* Setup */
      , (37212,   3,  536870932) /* SoundTable */
      , (37212,   6,   67108990) /* PaletteBase */
      , (37212,   8,  100674621) /* Icon */
-     , (37212,  22,  872415275) /* PhysicsEffectTable */
-     , (37212, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (37212, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37212, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (37212,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37212, 8040, 23855473, 19.86197, -64.6851, -0.009974971, 0.8307009, 0, 0, -0.5567189) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [19.861970 -64.685100 -0.009975] 0.830701 0.000000 0.000000 -0.556719 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37212, 8000, 3521927623) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37212,  2087,      2) 
@@ -76,13 +68,3 @@ VALUES (37212,  2087,      2)
      , (37212,  2576,      2) 
      , (37212,  4403,      2) 
      , (37212,  4407,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37212, 67114458, 148, 4)
-     , (37212, 67116554, 136, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37212, 0, 83887064, 83897810);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37212, 0, 16778365);

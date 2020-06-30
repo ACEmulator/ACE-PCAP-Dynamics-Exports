@@ -11,8 +11,7 @@ VALUES (32956,   1,         16) /* ItemType - Creature */
      , (32956,  16,          1) /* ItemUseable - No */
      , (32956,  25,        160) /* Level */
      , (32956,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32956, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32956, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32956, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32956,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32956,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32956,   1, 'Heavy Builder') /* Name */
-     , (32956, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (32956,   1, 'Heavy Builder') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32956,   1,   33554839) /* Setup */
@@ -30,17 +28,11 @@ VALUES (32956,   1,   33554839) /* Setup */
      , (32956,   3,  536870934) /* SoundTable */
      , (32956,   6,   67110722) /* PaletteBase */
      , (32956,   8,  100667942) /* Icon */
-     , (32956,  22,  872415272) /* PhysicsEffectTable */
-     , (32956, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (32956, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (32956, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (32956,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32956, 8040, 9109777, 12.5456, -197.95, 0.008999944, -0.9395969, 0, 0, -0.342283) /* PCAPRecordedLocation */
 /* @teleloc 0x008B0111 [12.545600 -197.950000 0.009000] -0.939597 0.000000 0.000000 -0.342283 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32956, 8000, 3351897865) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32956,   1, 210, 0, 0) /* Strength */
@@ -69,6 +61,3 @@ VALUES (32956, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (2054
      , (32956, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
      , (32956, 9, 28630,  0, 0, 0, False) /* Create Diforsa Cuirass (28630) for ContainTreasure */
      , (32956, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32956, 67113037, 0, 0);

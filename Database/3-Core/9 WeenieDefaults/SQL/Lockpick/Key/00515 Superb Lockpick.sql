@@ -11,8 +11,7 @@ VALUES (515,   1,      16384) /* ItemType - Key */
      , (515,  91,         50) /* MaxStructure */
      , (515,  92,         50) /* Structure */
      , (515,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (515,  94,        640) /* TargetType - LockableMagicTarget */
-     , (515, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (515,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (515,  22, True ) /* Inscribable */;
@@ -26,10 +25,4 @@ VALUES (515,   1, 'Superb Lockpick') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (515,   1,   33554790) /* Setup */
-     , (515,   8,  100670830) /* Icon */
-     , (515, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (515, 8003,     131090) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Lockpick */
-     , (515, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (515, 8000, 2186220415) /* PCAPRecordedObjectIID */;
+     , (515,   8,  100670830) /* Icon */;

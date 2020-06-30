@@ -34,8 +34,7 @@ VALUES (36718,   1,         16) /* ItemType - Creature */
      , (36718, 386,          0) /* Overpower */
      , (36718, 387,          0) /* OverpowerResist */
      , (36718, 388,          0) /* GearOverpower */
-     , (36718, 389,          0) /* GearOverpowerResist */
-     , (36718, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36718, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36718,   1, True ) /* Stuck */
@@ -47,8 +46,7 @@ VALUES (36718,  39,       2) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36718,   1, 'Bag of Stones') /* Name */
-     , (36718,  16, 'This bag must contain one color and maintain it''s current weight in stones.') /* LongDesc */
-     , (36718, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (36718,  16, 'This bag must contain one color and maintain it''s current weight in stones.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36718,   1,   33554817) /* Setup */
@@ -56,23 +54,8 @@ VALUES (36718,   1,   33554817) /* Setup */
      , (36718,   3,  536870932) /* SoundTable */
      , (36718,   6,   67111919) /* PaletteBase */
      , (36718,   8,  100670082) /* Icon */
-     , (36718,  22,  872415275) /* PhysicsEffectTable */
-     , (36718, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (36718, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (36718, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (36718,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36718, 8040, 10420576, 89.95796, -223.0202, -42.005, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0160 [89.957960 -223.020200 -42.005000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36718, 8000, 3709600864) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36718, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36718, 0, 83890064, 83890064);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36718, 0, 16777882);

@@ -9,8 +9,7 @@ VALUES (25772,   1,        128) /* ItemType - Misc */
      , (25772,  16,          1) /* ItemUseable - No */
      , (25772,  19,       6000) /* Value */
      , (25772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25772, 151,          1) /* HookType - Floor */
-     , (25772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25772, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25772,  22, True ) /* Inscribable */;
@@ -22,14 +21,8 @@ VALUES (25772,   1, 'Cooking Table') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25772,   1,   33558529) /* Setup */
-     , (25772,   8,  100675555) /* Icon */
-     , (25772, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
-     , (25772, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25772, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (25772,   8,  100675555) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25772, 8040, 2103705618, 57.94996, 25.68125, 12.01126, -0.9922685, 0, 0, -0.1241095) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640012 [57.949960 25.681250 12.011260] -0.992269 0.000000 0.000000 -0.124110 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25772, 8000, 2630374026) /* PCAPRecordedObjectIID */;

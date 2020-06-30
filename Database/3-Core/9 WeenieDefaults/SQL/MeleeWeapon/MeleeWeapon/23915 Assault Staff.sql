@@ -26,9 +26,7 @@ VALUES (23915,   1,          1) /* ItemType - MeleeWeapon */
      , (23915, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (23915, 160,        250) /* WieldDifficulty */
      , (23915, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (23915, 353,          7) /* WeaponType - Staff */
-     , (23915, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23915, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23915, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23915,  22, True ) /* Inscribable */;
@@ -52,19 +50,10 @@ VALUES (23915,   1,   33557206) /* Setup */
      , (23915,   3,  536870932) /* SoundTable */
      , (23915,   6,   67111919) /* PaletteBase */
      , (23915,   8,  100671748) /* Icon */
-     , (23915,  22,  872415275) /* PhysicsEffectTable */
-     , (23915, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (23915, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23915, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23915, 8000, 2192134656) /* PCAPRecordedObjectIID */;
+     , (23915,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23915,  1331,      2) 
      , (23915,  1590,      2) 
      , (23915,  1614,      2) 
      , (23915,  2004,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23915, 67111924, 0, 0);

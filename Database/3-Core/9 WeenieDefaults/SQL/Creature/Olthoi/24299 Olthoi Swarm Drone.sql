@@ -11,8 +11,7 @@ VALUES (24299,   1,         16) /* ItemType - Creature */
      , (24299,  16,          1) /* ItemUseable - No */
      , (24299,  25,         80) /* Level */
      , (24299,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24299, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24299, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24299, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24299,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24299,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24299,   1, 'Olthoi Swarm Drone') /* Name */
-     , (24299, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24299,   1, 'Olthoi Swarm Drone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24299,   1,   33557164) /* Setup */
@@ -31,17 +29,11 @@ VALUES (24299,   1,   33557164) /* Setup */
      , (24299,   6,   67113236) /* PaletteBase */
      , (24299,   8,  100667623) /* Icon */
      , (24299,  22,  872415265) /* PhysicsEffectTable */
-     , (24299,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24299, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24299, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24299, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (24299,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24299, 8040, 1665597915, 51.75375, -194.9928, -17.99955, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
 /* @teleloc 0x634701DB [51.753750 -194.992800 -17.999550] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24299, 8000, 3354821415) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24299,   1, 300, 0, 0) /* Strength */
@@ -1013,6 +1005,3 @@ VALUES (24299, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) 
      , (24299, 9, 44858,  0, 0, 0, False) /* Create Quartered Cloak (44858) for ContainTreasure */
      , (24299, 9, 20242,  0, 0, 0, False) /* Create Scroll of Brittle Bones (20242) for ContainTreasure */
      , (24299, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24299, 67113315, 0, 0);

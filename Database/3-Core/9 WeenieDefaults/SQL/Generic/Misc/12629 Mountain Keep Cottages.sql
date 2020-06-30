@@ -19,14 +19,8 @@ VALUES (12629,   1, 'Mountain Keep Cottages') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12629,   1,   33557463) /* Setup */
-     , (12629,   8,  100668115) /* Icon */
-     , (12629, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (12629, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12629, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (12629,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12629, 8040, 2881355811, 119.942, 62.4604, 98.79497, 0.999977, 0, 0, -0.00675095) /* PCAPRecordedLocation */
 /* @teleloc 0xABBE0023 [119.942000 62.460400 98.794970] 0.999977 0.000000 0.000000 -0.006751 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12629, 8000, 2059133098) /* PCAPRecordedObjectIID */;

@@ -12,8 +12,7 @@ VALUES (11524,   1,         16) /* ItemType - Creature */
      , (11524,  25,         50) /* Level */
      , (11524,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11524, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11524, 307,          5) /* DamageRating */
-     , (11524, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11524, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11524,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11524,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11524,   1, 'Hea Windreave') /* Name */
-     , (11524, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11524,   1, 'Hea Windreave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11524,   1,   33559553) /* Setup */
@@ -31,17 +29,11 @@ VALUES (11524,   1,   33559553) /* Setup */
      , (11524,   3,  536870931) /* SoundTable */
      , (11524,   6,   67116625) /* PaletteBase */
      , (11524,   8,  100667452) /* Icon */
-     , (11524,  22,  872415270) /* PhysicsEffectTable */
-     , (11524, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11524, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11524, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11524,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11524, 8040, 447873068, 133.7927, 84.07178, 22.006, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x1AB2002C [133.792700 84.071780 22.006000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11524, 8000, 3691227919) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11524,   1, 140, 0, 0) /* Strength */
@@ -69,11 +61,3 @@ VALUES (11524, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11
      , (11524, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
      , (11524, 9, 45114,  0, 0, 0, False) /* Create Acid Hammer (45114) for ContainTreasure */
      , (11524, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11524, 67116625, 105, 48)
-     , (11524, 67116625, 200, 8)
-     , (11524, 67116641, 208, 48)
-     , (11524, 67116650, 1, 48)
-     , (11524, 67116655, 57, 48)
-     , (11524, 67116655, 153, 47);

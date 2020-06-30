@@ -17,8 +17,7 @@ VALUES (2252,   1,         16) /* ItemType - Creature */
      , (2252, 113,          2) /* Gender - Female */
      , (2252, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2252, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2252, 188,          3) /* HeritageGroup - Sho */
-     , (2252, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2252, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2252,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2252,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2252,   1, 'Kiun Baicho the Barkeeper') /* Name */
-     , (2252,   5, 'Barkeeper') /* Template */
-     , (2252, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2252,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2252,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2252,   1,   33554510) /* Setup */
      , (2252,  11,   83890325) /* MouthTexture */
      , (2252,  15,   67117068) /* HairPalette */
      , (2252,  16,   67110063) /* EyesPalette */
-     , (2252,  17,   67110061) /* SkinPalette */
-     , (2252, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2252, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2252, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2252,  17,   67110061) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2252, 8040, 3443589376, 162.438, 111.823, 54.005, -0.8208731, 0, 0, -0.5711105) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410100 [162.438000 111.823000 54.005000] -0.820873 0.000000 0.000000 -0.571111 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2252, 8000, 2094272547) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2252,   1,  85, 0, 0) /* Strength */
@@ -86,53 +78,3 @@ VALUES (2252, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (2252, 4,  4210, -1, 0, 0, False) /* Create Dungeon Mei Directions (4210) for Shop */
      , (2252, 4, 28242, -1, 0, 0, False) /* Create Directions to the Lugian Citadels (28242) for Shop */
      , (2252, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2252, 67109969, 92, 4)
-     , (2252, 67110026, 72, 8)
-     , (2252, 67110061, 0, 24)
-     , (2252, 67110063, 32, 8)
-     , (2252, 67110320, 64, 8)
-     , (2252, 67110320, 216, 24)
-     , (2252, 67110349, 160, 8)
-     , (2252, 67111245, 40, 24)
-     , (2252, 67117068, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2252, 0, 83889072, 83890012)
-     , (2252, 0, 83889342, 83890011)
-     , (2252, 1, 83887064, 83886241)
-     , (2252, 2, 83887066, 83887051)
-     , (2252, 3, 83889344, 83887054)
-     , (2252, 4, 83887068, 83887054)
-     , (2252, 5, 83887064, 83886241)
-     , (2252, 6, 83887066, 83887051)
-     , (2252, 7, 83889344, 83887054)
-     , (2252, 8, 83887068, 83887054)
-     , (2252, 9, 83887070, 83890009)
-     , (2252, 9, 83887062, 83890010)
-     , (2252, 10, 83887069, 83886782)
-     , (2252, 13, 83887069, 83886782)
-     , (2252, 16, 83886232, 83890685)
-     , (2252, 16, 83886668, 83890244)
-     , (2252, 16, 83886837, 83890292)
-     , (2252, 16, 83886684, 83890325);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2252, 0, 16781875)
-     , (2252, 1, 16778430)
-     , (2252, 2, 16781908)
-     , (2252, 3, 16781841)
-     , (2252, 4, 16783485)
-     , (2252, 5, 16778438)
-     , (2252, 6, 16781909)
-     , (2252, 7, 16781840)
-     , (2252, 8, 16783487)
-     , (2252, 9, 16778425)
-     , (2252, 10, 16778431)
-     , (2252, 11, 16778429)
-     , (2252, 12, 16778423)
-     , (2252, 13, 16778434)
-     , (2252, 14, 16778424)
-     , (2252, 15, 16778435)
-     , (2252, 16, 16795655);

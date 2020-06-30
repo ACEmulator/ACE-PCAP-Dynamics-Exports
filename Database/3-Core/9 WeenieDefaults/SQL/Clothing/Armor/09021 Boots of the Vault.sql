@@ -16,8 +16,7 @@ VALUES (9021,   1,          2) /* ItemType - Armor */
      , (9021, 106,        275) /* ItemSpellcraft */
      , (9021, 107,        190) /* ItemCurMana */
      , (9021, 108,        760) /* ItemMaxMana */
-     , (9021, 109,         10) /* ItemDifficulty */
-     , (9021, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (9021, 109,         10) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9021,  22, True ) /* Inscribable */
@@ -43,31 +42,8 @@ VALUES (9021,   1,   33556683) /* Setup */
      , (9021,   3,  536870932) /* SoundTable */
      , (9021,   6,   67108990) /* PaletteBase */
      , (9021,   8,  100670885) /* Icon */
-     , (9021,  22,  872415275) /* PhysicsEffectTable */
-     , (9021, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
-     , (9021, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (9021, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9021, 8000, 2879954881) /* PCAPRecordedObjectIID */;
+     , (9021,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9021,   980,      2) 
      , (9021,   992,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9021, 67110349, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9021, 1, 83889344, 83887054)
-     , (9021, 2, 83887068, 83892603)
-     , (9021, 4, 83889344, 83887054)
-     , (9021, 5, 83887068, 83892603);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9021, 0, 16784627)
-     , (9021, 1, 16781841)
-     , (9021, 2, 16781838)
-     , (9021, 3, 16784628)
-     , (9021, 4, 16781840)
-     , (9021, 5, 16781839);

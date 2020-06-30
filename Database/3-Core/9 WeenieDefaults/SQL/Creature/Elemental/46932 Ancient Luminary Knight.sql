@@ -12,8 +12,7 @@ VALUES (46932,   1,         16) /* ItemType - Creature */
      , (46932,  25,        220) /* Level */
      , (46932,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46932, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46932, 307,          2) /* DamageRating */
-     , (46932, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46932, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46932,   1, True ) /* Stuck */
@@ -23,8 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46932,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46932,   1, 'Ancient Luminary Knight') /* Name */
-     , (46932, 8006, 'AAE8AMEAAAA8AAAAwL9pAAsAAAAAQAAA4yURUA==') /* PCAPRecordedCurrentMotionState */;
+VALUES (46932,   1, 'Ancient Luminary Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46932,   1,   33559685) /* Setup */
@@ -32,17 +30,11 @@ VALUES (46932,   1,   33559685) /* Setup */
      , (46932,   3,  536871066) /* SoundTable */
      , (46932,   6,   67116522) /* PaletteBase */
      , (46932,   8,  100670274) /* Icon */
-     , (46932,  22,  872415363) /* PhysicsEffectTable */
-     , (46932, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (46932, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46932, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (46932,  22,  872415363) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46932, 8040, 1481638218, 49.67328, -3.407445, 6.00325, -0.8517215, 0, 0, -0.5239947) /* PCAPRecordedLocation */
 /* @teleloc 0x5850014A [49.673280 -3.407445 6.003250] -0.851722 0.000000 0.000000 -0.523995 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46932, 8000, 3699766757) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46932,   1, 210, 0, 0) /* Strength */
@@ -70,26 +62,3 @@ VALUES (46932, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasu
      , (46932, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (46932, 9, 45425,  0, 0, 0, False) /* Create Frost Dagger (45425) for ContainTreasure */
      , (46932, 9, 30187,  1, 0, 0, False) /* Create Hunter's Crystal (30187) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46932, 67116527, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46932, 2, 83897246, 83897249)
-     , (46932, 6, 83897246, 83897249)
-     , (46932, 9, 83897246, 83897249)
-     , (46932, 10, 83897246, 83897249)
-     , (46932, 11, 83897246, 83897249)
-     , (46932, 13, 83897246, 83897249)
-     , (46932, 14, 83897246, 83897249)
-     , (46932, 16, 83897246, 83897249);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46932, 2, 16792634)
-     , (46932, 6, 16792633)
-     , (46932, 9, 16792630)
-     , (46932, 10, 16792632)
-     , (46932, 11, 16792636)
-     , (46932, 13, 16792631)
-     , (46932, 14, 16792635)
-     , (46932, 16, 16792637);

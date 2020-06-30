@@ -11,8 +11,7 @@ VALUES (28642,   1,         16) /* ItemType - Creature */
      , (28642,  16,          1) /* ItemUseable - No */
      , (28642,  25,         80) /* Level */
      , (28642,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28642, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28642, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28642, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28642,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28642,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28642,   1, 'Engorged Eater') /* Name */
-     , (28642, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28642,   1, 'Engorged Eater') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28642,   1,   33559121) /* Setup */
@@ -30,17 +28,11 @@ VALUES (28642,   1,   33559121) /* Setup */
      , (28642,   3,  536871097) /* SoundTable */
      , (28642,   6,   67115387) /* PaletteBase */
      , (28642,   8,  100677365) /* Icon */
-     , (28642,  22,  872415409) /* PhysicsEffectTable */
-     , (28642, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28642, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28642, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28642,  22,  872415409) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28642, 8040, 669909023, 90.68023, 167.2205, 7.870083, -0.355776, 0, 0, -0.9345713) /* PCAPRecordedLocation */
 /* @teleloc 0x27EE001F [90.680230 167.220500 7.870083] -0.355776 0.000000 0.000000 -0.934571 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28642, 8000, 3688158933) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28642,   1, 350, 0, 0) /* Strength */
@@ -135,6 +127,3 @@ VALUES (28642, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence
      , (28642, 9, 46881,  0, 0, 0, False) /* Create Aura of Heartseeker Other VII (46881) for ContainTreasure */
      , (28642, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
      , (28642, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28642, 67115511, 0, 0);

@@ -19,14 +19,8 @@ VALUES (42765,   1, 'Xarabydun') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42765,   1,   33560961) /* Setup */
-     , (42765,   8,  100668115) /* Icon */
-     , (42765, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42765, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42765, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42765,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42765, 8040, 459027, 20.0704, -55.1041, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070113 [20.070400 -55.104100 3.014000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42765, 8000, 1879076876) /* PCAPRecordedObjectIID */;

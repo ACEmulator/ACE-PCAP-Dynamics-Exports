@@ -33,9 +33,7 @@ VALUES (45116,   1,          1) /* ItemType - MeleeWeapon */
      , (45116, 176,         46) /* AppraisalItemSkill */
      , (45116, 177,          3) /* GemCount */
      , (45116, 178,         49) /* GemType */
-     , (45116, 353,          3) /* WeaponType - Axe */
-     , (45116, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45116, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45116, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45116,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (45116,   5,  -0.042) /* ManaRate */
      , (45116,  26,       0) /* MaximumVelocity */
      , (45116,  29,    1.07) /* WeaponDefense */
      , (45116,  62,    1.09) /* WeaponOffense */
-     , (45116,  63,       1) /* DamageMod */
-     , (45116, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45116,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45116,   1, 'Flaming Hammer') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45116,   1,   33555815) /* Setup */
      , (45116,   3,  536870932) /* SoundTable */
      , (45116,   8,  100669074) /* Icon */
-     , (45116,  22,  872415275) /* PhysicsEffectTable */
-     , (45116, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45116, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45116, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45116, 8000, 3686833011) /* PCAPRecordedObjectIID */;
+     , (45116,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45116,  1604,      2) 

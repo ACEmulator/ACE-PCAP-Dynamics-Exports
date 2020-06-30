@@ -17,8 +17,7 @@ VALUES (5646,   1,         16) /* ItemType - Creature */
      , (5646, 113,          1) /* Gender - Male */
      , (5646, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5646, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5646, 188,          2) /* HeritageGroup - Gharundim */
-     , (5646, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5646, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5646,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5646,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5646,   1, 'Archmage Philomon') /* Name */
-     , (5646,   5, 'Archmage') /* Template */
-     , (5646, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5646,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5646,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5646,   1,   33554433) /* Setup */
      , (5646,  11,   83890610) /* MouthTexture */
      , (5646,  15,   67116994) /* HairPalette */
      , (5646,  16,   67110063) /* EyesPalette */
-     , (5646,  17,   67109554) /* SkinPalette */
-     , (5646, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5646, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5646, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5646,  17,   67109554) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5646, 8040, 2513830187, 106.807, 65.6681, 100.005, 0.9958224, 0, 0, -0.09131134) /* PCAPRecordedLocation */
 /* @teleloc 0x95D6012B [106.807000 65.668100 100.005000] 0.995822 0.000000 0.000000 -0.091311 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5646, 8000, 2036162567) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5646,   1, 145, 0, 0) /* Strength */
@@ -189,58 +181,3 @@ VALUES (5646, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (5646, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (5646, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (5646, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5646, 67109554, 0, 24)
-     , (5646, 67110063, 32, 8)
-     , (5646, 67110336, 216, 24)
-     , (5646, 67110349, 64, 8)
-     , (5646, 67110349, 40, 24)
-     , (5646, 67110349, 160, 8)
-     , (5646, 67110349, 250, 6)
-     , (5646, 67110539, 72, 8)
-     , (5646, 67110551, 92, 4)
-     , (5646, 67116994, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5646, 0, 83889072, 83890012)
-     , (5646, 0, 83889342, 83890011)
-     , (5646, 1, 83887064, 83886241)
-     , (5646, 2, 83887066, 83887051)
-     , (5646, 3, 83889344, 83887054)
-     , (5646, 4, 83887068, 83887054)
-     , (5646, 5, 83887064, 83886241)
-     , (5646, 6, 83887066, 83887051)
-     , (5646, 7, 83889344, 83887054)
-     , (5646, 8, 83887068, 83887054)
-     , (5646, 9, 83887061, 83890009)
-     , (5646, 9, 83887060, 83890010)
-     , (5646, 10, 83887069, 83886782)
-     , (5646, 11, 83887067, 83891213)
-     , (5646, 13, 83887069, 83886782)
-     , (5646, 14, 83887067, 83891213)
-     , (5646, 16, 83886232, 83890685)
-     , (5646, 16, 83886668, 83890454)
-     , (5646, 16, 83886837, 83890561)
-     , (5646, 16, 83886684, 83890610)
-     , (5646, 16, 83889859, 83889864)
-     , (5646, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5646, 0, 16781835)
-     , (5646, 1, 16777295)
-     , (5646, 2, 16777293)
-     , (5646, 3, 16777292)
-     , (5646, 4, 16777291)
-     , (5646, 5, 16777299)
-     , (5646, 6, 16777297)
-     , (5646, 7, 16777296)
-     , (5646, 8, 16777298)
-     , (5646, 9, 16777300)
-     , (5646, 10, 16777301)
-     , (5646, 11, 16777302)
-     , (5646, 12, 16777304)
-     , (5646, 13, 16777303)
-     , (5646, 14, 16777305)
-     , (5646, 15, 16777307)
-     , (5646, 16, 16779635);

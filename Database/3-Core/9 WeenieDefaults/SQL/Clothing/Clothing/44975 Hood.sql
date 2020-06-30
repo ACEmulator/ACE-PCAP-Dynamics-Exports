@@ -24,8 +24,7 @@ VALUES (44975,   1,          4) /* ItemType - Clothing */
      , (44975, 151,          2) /* HookType - Wall */
      , (44975, 172,          5) /* AppraisalLongDescDecoration */
      , (44975, 177,          1) /* GemCount */
-     , (44975, 178,         21) /* GemType */
-     , (44975, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44975, 178,         21) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44975,  22, True ) /* Inscribable */
@@ -40,8 +39,7 @@ VALUES (44975,   5,  -0.056) /* ManaRate */
      , (44975,  17,     0.5) /* ArmorModVsFire */
      , (44975,  18,   0.858) /* ArmorModVsAcid */
      , (44975,  19,     0.8) /* ArmorModVsElectric */
-     , (44975, 165,       1) /* ArmorModVsNether */
-     , (44975, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (44975, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44975,   1, 'Hood') /* Name */
@@ -52,30 +50,14 @@ VALUES (44975,   1,   33556237) /* Setup */
      , (44975,   3,  536870932) /* SoundTable */
      , (44975,   6,   67108990) /* PaletteBase */
      , (44975,   8,  100670346) /* Icon */
-     , (44975,  22,  872415275) /* PhysicsEffectTable */
-     , (44975, 8001, 2435121304) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (44975, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44975, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (44975,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44975, 8040, 3060727837, 78.09404, 118.5249, 45.35453, 0.8940971, 0, 0, -0.4478732) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F001D [78.094040 118.524900 45.354530] 0.894097 0.000000 0.000000 -0.447873 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44975, 8000, 3685626530) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44975,  1552,      2) 
      , (44975,  2108,      2) 
      , (44975,  2277,      2) 
      , (44975,  2548,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44975, 67110317, 240, 10)
-     , (44975, 67110337, 250, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44975, 0, 83898702, 83898702);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44975, 0, 16795879);

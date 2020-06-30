@@ -28,8 +28,7 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556, 263,          2) /* ResistanceModifierType */
      , (35556, 267,      10800) /* Lifespan */
      , (35556, 268,      10798) /* RemainingLifespan */
-     , (35556, 353,          9) /* WeaponType - Crossbow */
-     , (35556, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (35556, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35556,  22, True ) /* Inscribable */
@@ -59,31 +58,13 @@ VALUES (35556,   1,   33559303) /* Setup */
      , (35556,   6,   67115556) /* PaletteBase */
      , (35556,   8,  100687039) /* Icon */
      , (35556,  22,  872415275) /* PhysicsEffectTable */
-     , (35556,  52,  100689403) /* IconUnderlay */
-     , (35556, 8001,    2327312) /* PCAPRecordedWeenieHeader - Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (35556, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (35556, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (35556, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (35556, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (35556,  52,  100689403) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35556, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35556, 8000, 2931458094) /* PCAPRecordedObjectIID */
-     , (35556, 8008, 1343102817) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35556,  2206,      2) 
      , (35556,  2505,      2) 
      , (35556,  4089,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35556, 67116442, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35556, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35556, 0, 16791758);

@@ -16,8 +16,7 @@ VALUES (48920,   1,         16) /* ItemType - Creature */
      , (48920, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (48920, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (48920, 188,          6) /* HeritageGroup - Gearknight */
-     , (48920, 307,          5) /* DamageRating */
-     , (48920, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (48920, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48920,   1, True ) /* Stuck */
@@ -29,8 +28,7 @@ VALUES (48920,  39,     1.3) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48920,   1, 'Lieutenant Roothe') /* Name */
-     , (48920,   5, 'Royal Soldier') /* Template */
-     , (48920, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (48920,   5, 'Royal Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48920,   1,   33561393) /* Setup */
@@ -44,17 +42,11 @@ VALUES (48920,   1,   33561393) /* Setup */
      , (48920,  15,   67116865) /* HairPalette */
      , (48920,  16,   67116881) /* EyesPalette */
      , (48920,  17,   67116908) /* SkinPalette */
-     , (48920,  22,  872415434) /* PhysicsEffectTable */
-     , (48920, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (48920, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (48920, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (48920,  22,  872415434) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48920, 8040, 1239679019, 125.602, 64.0672, 12.0065, -0.724241, 0, 0, -0.689547) /* PCAPRecordedLocation */
 /* @teleloc 0x49E4002B [125.602000 64.067200 12.006500] -0.724241 0.000000 0.000000 -0.689547 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48920, 8000, 2879360840) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (48920,   1, 290, 0, 0) /* Strength */
@@ -71,8 +63,3 @@ VALUES (48920,   1,   196, 0, 0, 296) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48920, 2, 41250,  1, 0, 0, False) /* Create Acid Gearknight Greatsword (41250) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48920, 67116883, 0, 24)
-     , (48920, 67116897, 24, 8)
-     , (48920, 67116897, 32, 8);

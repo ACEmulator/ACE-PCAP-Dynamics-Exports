@@ -9,8 +9,7 @@ VALUES (15828,   1,        128) /* ItemType - Misc */
      , (15828,  16,          1) /* ItemUseable - No */
      , (15828,  19,      10000) /* Value */
      , (15828,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15828, 151,          1) /* HookType - Floor */
-     , (15828, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (15828, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15828,  22, True ) /* Inscribable */;
@@ -20,10 +19,4 @@ VALUES (15828,   1, 'Pedestal with a Floral Arrangement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15828,   1,   33557645) /* Setup */
-     , (15828,   8,  100672831) /* Icon */
-     , (15828, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (15828, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (15828, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15828, 8000, 2249707917) /* PCAPRecordedObjectIID */;
+     , (15828,   8,  100672831) /* Icon */;

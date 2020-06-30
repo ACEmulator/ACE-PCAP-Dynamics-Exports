@@ -12,8 +12,7 @@ VALUES (5811,   1,         32) /* ItemType - Food */
      , (5811,  15,         25) /* StackUnitValue */
      , (5811,  16,          8) /* ItemUseable - Contained */
      , (5811,  19,         25) /* Value */
-     , (5811,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5811, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5811,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5811,   1, 'Carrot Cake') /* Name */
@@ -23,17 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5811,   1,   33555193) /* Setup */
      , (5811,   3,  536870932) /* SoundTable */
      , (5811,   8,  100670292) /* Icon */
-     , (5811,  22,  872415275) /* PhysicsEffectTable */
-     , (5811, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (5811, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5811, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5811, 8000, 3709846437) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5811, 0, 83888869, 83888882)
-     , (5811, 0, 83888868, 83888878);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5811, 0, 16778864);
+     , (5811,  22,  872415275) /* PhysicsEffectTable */;

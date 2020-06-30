@@ -34,8 +34,7 @@ VALUES (33451,   1,         16) /* ItemType - Creature */
      , (33451, 386,          0) /* Overpower */
      , (33451, 387,          0) /* OverpowerResist */
      , (33451, 388,          0) /* GearOverpower */
-     , (33451, 389,          0) /* GearOverpowerResist */
-     , (33451, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33451, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33451,   1, True ) /* Stuck */
@@ -47,25 +46,15 @@ VALUES (33451,  39,     1.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33451,   1, 'Crystal of Life Protections') /* Name */
-     , (33451,  15, 'Although this crystal was first created from smaller pieces, the crystal has grown swiftly to its current size. You suspect Geomancy was involved in its construction, but you cannot be sure.') /* ShortDesc */
-     , (33451, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (33451,  15, 'Although this crystal was first created from smaller pieces, the crystal has grown swiftly to its current size. You suspect Geomancy was involved in its construction, but you cannot be sure.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33451,   1,   33556226) /* Setup */
      , (33451,   2,  150995107) /* MotionTable */
      , (33451,   3,  536871001) /* SoundTable */
      , (33451,   6,   67111919) /* PaletteBase */
-     , (33451,   8,  100670395) /* Icon */
-     , (33451, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (33451, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (33451, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (33451,   8,  100670395) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33451, 8040, 8454418, 16.5, -73.5, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00810112 [16.500000 -73.500000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33451, 8000, 2931004510) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33451, 67114269, 0, 0);

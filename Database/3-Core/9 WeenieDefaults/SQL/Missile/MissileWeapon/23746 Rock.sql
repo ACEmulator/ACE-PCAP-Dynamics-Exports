@@ -26,9 +26,7 @@ VALUES (23746,   1,        256) /* ItemType - MissileWeapon */
      , (23746, 313,          0) /* CritRating */
      , (23746, 314,          0) /* CritDamageRating */
      , (23746, 353,         10) /* WeaponType - Thrown */
-     , (23746, 386,          0) /* Overpower */
-     , (23746, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23746, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23746, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23746,   1, True ) /* Stuck */;
@@ -53,19 +51,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23746,   1,   33555863) /* Setup */
      , (23746,   3,  536871003) /* SoundTable */
      , (23746,   8,  100667500) /* Icon */
-     , (23746,  22,  872415275) /* PhysicsEffectTable */
-     , (23746, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (23746, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23746, 8005,     432929) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (23746, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23746,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23746, 8040, 1503395898, 181.4192, 39.91177, 5.83, 0.1830127, 0.1830127, -0.6830127, -0.6830127) /* PCAPRecordedLocation */
 /* @teleloc 0x599C003A [181.419200 39.911770 5.830000] 0.183013 0.183013 -0.683013 -0.683013 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23746, 8000, 3685196758) /* PCAPRecordedObjectIID */
-     , (23746, 8008, 3686003463) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23746, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;

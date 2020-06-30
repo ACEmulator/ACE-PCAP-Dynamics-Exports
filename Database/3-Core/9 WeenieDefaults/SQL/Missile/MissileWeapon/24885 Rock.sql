@@ -25,9 +25,7 @@ VALUES (24885,   1,        256) /* ItemType - MissileWeapon */
      , (24885, 313,          0) /* CritRating */
      , (24885, 314,          0) /* CritDamageRating */
      , (24885, 353,         10) /* WeaponType - Thrown */
-     , (24885, 386,          0) /* Overpower */
-     , (24885, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (24885, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (24885, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24885,   1, True ) /* Stuck */;
@@ -51,19 +49,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24885,   1,   33555863) /* Setup */
      , (24885,   3,  536871003) /* SoundTable */
      , (24885,   8,  100667500) /* Icon */
-     , (24885,  22,  872415275) /* PhysicsEffectTable */
-     , (24885, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (24885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24885, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (24885, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (24885,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24885, 8040, 3665100861, 172.979, 100.2765, 17.83, -0.3723455, -0.3723455, -0.6011313, -0.6011313) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75003D [172.979000 100.276500 17.830000] -0.372346 -0.372346 -0.601131 -0.601131 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24885, 8000, 3692283283) /* PCAPRecordedObjectIID */
-     , (24885, 8008, 3692283306) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24885, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */

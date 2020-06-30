@@ -11,8 +11,7 @@ VALUES (33285,   1,         16) /* ItemType - Creature */
      , (33285,  16,          1) /* ItemUseable - No */
      , (33285,  25,        185) /* Level */
      , (33285,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33285, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33285, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33285, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33285,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (33285,  39,     1.3) /* DefaultScale */
      , (33285,  76,     0.6) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33285,   1, 'Enraged Ancient Soul') /* Name */
-     , (33285, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33285,   1, 'Enraged Ancient Soul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33285,   1,   33558436) /* Setup */
@@ -31,17 +29,11 @@ VALUES (33285,   1,   33558436) /* Setup */
      , (33285,   3,  536870934) /* SoundTable */
      , (33285,   6,   67114480) /* PaletteBase */
      , (33285,   8,  100674805) /* Icon */
-     , (33285,  22,  872415272) /* PhysicsEffectTable */
-     , (33285, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33285, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33285, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (33285,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33285, 8040, 13501402, 60, -140, 12.00975, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00CE03DA [60.000000 -140.000000 12.009750] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33285, 8000, 3708001202) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33285,   1,     0, 0, 0, 2410) /* MaxHealth */;
@@ -654,6 +646,3 @@ VALUES (33285, 2, 48102,  1, 0, 0, False) /* Create Khopesh (48102) for Wield */
      , (33285, 9, 27230,  0, 0, 0, False) /* Create Nariyid Helm (27230) for ContainTreasure */
      , (33285, 9, 20451,  0, 0, 0, False) /* Create Scroll of Sudden Frost (20451) for ContainTreasure */
      , (33285, 9, 20478,  0, 0, 0, False) /* Create Scroll of Fiery Blessing (20478) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33285, 67114479, 0, 0);

@@ -15,15 +15,13 @@ VALUES (46537,   1,         16) /* ItemType - Creature */
      , (46537, 307,         20) /* DamageRating */
      , (46537, 308,         15) /* DamageResistRating */
      , (46537, 313,         15) /* CritRating */
-     , (46537, 316,         10) /* CritDamageResistRating */
-     , (46537, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46537, 316,         10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46537,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46537,   1, 'Spectral Samurai') /* Name */
-     , (46537, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (46537,   1, 'Spectral Samurai') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46537,   1,   33561494) /* Setup */
@@ -31,17 +29,11 @@ VALUES (46537,   1,   33561494) /* Setup */
      , (46537,   3,  536870942) /* SoundTable */
      , (46537,   6,   67108990) /* PaletteBase */
      , (46537,   8,  100671323) /* Icon */
-     , (46537,  22,  872415269) /* PhysicsEffectTable */
-     , (46537, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (46537, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46537, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (46537,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46537, 8040, 1289945402, 84.3419, 35.1418, 64.405, 0.9995137, 0, 0, 0.03118229) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE3013A [84.341900 35.141800 64.405000] 0.999514 0.000000 0.000000 0.031182 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46537, 8000, 3707810373) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46537,   1, 500, 0, 0) /* Strength */
@@ -69,63 +61,3 @@ VALUES (46537, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46
      , (46537, 9, 43407,  1, 0, 0, False) /* Create Corruptor's Crystal (43407) for ContainTreasure */
      , (46537, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (46537, 9, 30224,  1, 0, 0, False) /* Create Resister's Crystal (30224) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46537, 67109966, 92, 4)
-     , (46537, 67109966, 108, 8)
-     , (46537, 67109966, 128, 8)
-     , (46537, 67109966, 152, 8)
-     , (46537, 67109966, 186, 12)
-     , (46537, 67109966, 250, 6)
-     , (46537, 67109977, 80, 12)
-     , (46537, 67109977, 96, 12)
-     , (46537, 67109977, 116, 12)
-     , (46537, 67109977, 136, 16)
-     , (46537, 67109977, 160, 8)
-     , (46537, 67109977, 168, 6)
-     , (46537, 67109977, 216, 24)
-     , (46537, 67109977, 240, 10)
-     , (46537, 67113252, 40, 24)
-     , (46537, 67113252, 64, 8)
-     , (46537, 67116861, 174, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46537, 0, 83899054, 83899080)
-     , (46537, 1, 83899054, 83899080)
-     , (46537, 2, 83899054, 83899080)
-     , (46537, 3, 83899054, 83899080)
-     , (46537, 4, 83899054, 83899080)
-     , (46537, 5, 83899054, 83899080)
-     , (46537, 6, 83899054, 83899080)
-     , (46537, 7, 83899054, 83899080)
-     , (46537, 8, 83899054, 83899080)
-     , (46537, 9, 83899054, 83899080)
-     , (46537, 10, 83899054, 83899080)
-     , (46537, 11, 83899054, 83899080)
-     , (46537, 12, 83899054, 83899080)
-     , (46537, 13, 83899054, 83899080)
-     , (46537, 14, 83899054, 83899080)
-     , (46537, 15, 83899054, 83899080)
-     , (46537, 16, 83899055, 83899081)
-     , (46537, 16, 83899057, 83899082)
-     , (46537, 16, 83899056, 83899083)
-     , (46537, 16, 83899058, 83899084);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46537, 0, 16796693)
-     , (46537, 1, 16796731)
-     , (46537, 2, 16796734)
-     , (46537, 3, 16796678)
-     , (46537, 4, 16796679)
-     , (46537, 5, 16796732)
-     , (46537, 6, 16796735)
-     , (46537, 7, 16796682)
-     , (46537, 8, 16796683)
-     , (46537, 9, 16796694)
-     , (46537, 10, 16796702)
-     , (46537, 11, 16796720)
-     , (46537, 12, 16796687)
-     , (46537, 13, 16796703)
-     , (46537, 14, 16796721)
-     , (46537, 15, 16796690)
-     , (46537, 16, 16796691);

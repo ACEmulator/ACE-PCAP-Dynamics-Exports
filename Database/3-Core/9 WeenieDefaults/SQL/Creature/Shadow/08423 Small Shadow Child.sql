@@ -14,8 +14,7 @@ VALUES (8423,   1,         16) /* ItemType - Creature */
      , (8423, 113,          2) /* Gender - Female */
      , (8423, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (8423, 188,          1) /* HeritageGroup - Aluvian */
-     , (8423, 307,          5) /* DamageRating */
-     , (8423, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8423, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8423,   1, True ) /* Stuck */;
@@ -25,8 +24,7 @@ VALUES (8423,  39,     0.5) /* DefaultScale */
      , (8423,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8423,   1, 'Small Shadow Child') /* Name */
-     , (8423, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (8423,   1, 'Small Shadow Child') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8423,   1,   33554433) /* Setup */
@@ -40,17 +38,11 @@ VALUES (8423,   1,   33554433) /* Setup */
      , (8423,  15,   67117027) /* HairPalette */
      , (8423,  16,   67109565) /* EyesPalette */
      , (8423,  17,   67109558) /* SkinPalette */
-     , (8423,  22,  872415331) /* PhysicsEffectTable */
-     , (8423, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (8423, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8423, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (8423,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8423, 8040, 1699218012, 75.4883, -65.4805, 0.002499998, 0.400833, 0, 0, -0.916151) /* PCAPRecordedLocation */
 /* @teleloc 0x6548025C [75.488300 -65.480500 0.002500] 0.400833 0.000000 0.000000 -0.916151 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8423, 8000, 3699943876) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8423,   1,  40, 0, 0) /* Strength */
@@ -83,6 +75,3 @@ VALUES (8423, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (8423, 2, 47859,  1, 0, 0, False) /* Create Acid Katar (47859) for Wield */
      , (8423, 2, 47653,  1, 0, 0, False) /* Create Lightning Tachi (47653) for Wield */
      , (8423, 2, 47668,  1, 0, 0, False) /* Create Flaming Tachi (47668) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8423, 67112860, 0, 0);

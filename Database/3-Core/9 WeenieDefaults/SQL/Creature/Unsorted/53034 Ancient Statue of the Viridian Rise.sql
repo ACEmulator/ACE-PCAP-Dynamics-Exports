@@ -34,37 +34,26 @@ VALUES (53034,   1,         16) /* ItemType - Creature */
      , (53034, 386,          0) /* Overpower */
      , (53034, 387,          0) /* OverpowerResist */
      , (53034, 388,          0) /* GearOverpower */
-     , (53034, 389,          0) /* GearOverpowerResist */
-     , (53034, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53034, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53034,   1, True ) /* Stuck */
      , (53034,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53034,  54,       3) /* UseRadius */
-     , (53034, 8010,       0) /* PCAPRecordedVelocityX */
-     , (53034, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53034, 8012,  -0.125) /* PCAPRecordedVelocityZ */;
+VALUES (53034,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53034,   1, 'Ancient Statue of the Viridian Rise') /* Name */
-     , (53034,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */
-     , (53034, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (53034,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53034,   1,   33558954) /* Setup */
      , (53034,   2,  150995147) /* MotionTable */
      , (53034,   3,  536871052) /* SoundTable */
      , (53034,   8,  100688311) /* Icon */
-     , (53034,  22,  872415274) /* PhysicsEffectTable */
-     , (53034, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53034, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53034, 8005,     104455) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, STable, PeTable, Position, Movement */;
+     , (53034,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53034, 8040, 3007971363, 102.4, 56, 113.7, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0xB34A0023 [102.400000 56.000000 113.700000] 0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53034, 8000, 3684387423) /* PCAPRecordedObjectIID */;

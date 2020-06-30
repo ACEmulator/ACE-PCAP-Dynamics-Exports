@@ -33,9 +33,7 @@ VALUES (45408,   1,          1) /* ItemType - MeleeWeapon */
      , (45408, 176,         46) /* AppraisalItemSkill */
      , (45408, 177,          1) /* GemCount */
      , (45408, 178,         23) /* GemType */
-     , (45408, 353,          2) /* WeaponType - Sword */
-     , (45408, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45408, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45408, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45408,  22, True ) /* Inscribable */
@@ -48,8 +46,7 @@ VALUES (45408,   5,   -0.05) /* ManaRate */
      , (45408,  26,       0) /* MaximumVelocity */
      , (45408,  29,    1.09) /* WeaponDefense */
      , (45408,  62,     1.1) /* WeaponOffense */
-     , (45408,  63,       1) /* DamageMod */
-     , (45408, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (45408,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45408,   1, 'Lightning Yaoji') /* Name */
@@ -60,14 +57,7 @@ VALUES (45408,   1,   33555812) /* Setup */
      , (45408,   3,  536870932) /* SoundTable */
      , (45408,   8,  100669080) /* Icon */
      , (45408,  22,  872415275) /* PhysicsEffectTable */
-     , (45408,  52,  100676436) /* IconUnderlay */
-     , (45408, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45408, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45408, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (45408, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45408, 8000, 2174245696) /* PCAPRecordedObjectIID */;
+     , (45408,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45408,  1616,      2) 

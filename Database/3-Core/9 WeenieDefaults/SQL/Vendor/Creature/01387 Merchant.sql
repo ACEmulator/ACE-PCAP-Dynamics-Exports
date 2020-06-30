@@ -17,8 +17,7 @@ VALUES (1387,   1,         16) /* ItemType - Creature */
      , (1387, 113,          2) /* Gender - Female */
      , (1387, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1387, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1387, 188,          1) /* HeritageGroup - Aluvian */
-     , (1387, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1387, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1387,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1387,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1387,   1, 'Merchant') /* Name */
-     , (1387,   5, 'Merchant') /* Template */
-     , (1387, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1387,   5, 'Merchant') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1387,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1387,   1,   33554510) /* Setup */
      , (1387,  11,   83890358) /* MouthTexture */
      , (1387,  15,   67117025) /* HairPalette */
      , (1387,  16,   67109567) /* EyesPalette */
-     , (1387,  17,   67109562) /* SkinPalette */
-     , (1387, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1387, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1387, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1387,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1387, 8040, 2880635138, 81.2478, 107.194, 65.205, 0.5622532, 0, 0, -0.8269652) /* PCAPRecordedLocation */
 /* @teleloc 0xABB30102 [81.247800 107.194000 65.205000] 0.562253 0.000000 0.000000 -0.826965 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1387, 8000, 2059087875) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1387,   1,  60, 0, 0) /* Strength */
@@ -138,54 +130,3 @@ VALUES (1387, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (1387, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */
      , (1387, 4, 25637, -1, 0, 0, False) /* Create Leather Bracers (25637) for Shop */
      , (1387, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1387, 67109559, 0, 24)
-     , (1387, 67109565, 32, 8)
-     , (1387, 67109969, 92, 4)
-     , (1387, 67110339, 64, 8)
-     , (1387, 67110357, 40, 24)
-     , (1387, 67110539, 72, 8)
-     , (1387, 67111245, 160, 8)
-     , (1387, 67116986, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1387, 0, 83889072, 83890012)
-     , (1387, 0, 83889342, 83890011)
-     , (1387, 1, 83887064, 83886241)
-     , (1387, 2, 83887066, 83887055)
-     , (1387, 3, 83889344, 83887054)
-     , (1387, 4, 83887068, 83887054)
-     , (1387, 5, 83887064, 83886241)
-     , (1387, 6, 83887066, 83887055)
-     , (1387, 7, 83889344, 83887054)
-     , (1387, 8, 83887068, 83887054)
-     , (1387, 9, 83887070, 83890009)
-     , (1387, 9, 83887062, 83890010)
-     , (1387, 10, 83887069, 83886782)
-     , (1387, 11, 83887067, 83891213)
-     , (1387, 13, 83887069, 83886782)
-     , (1387, 14, 83887067, 83891213)
-     , (1387, 16, 83886232, 83890685)
-     , (1387, 16, 83886668, 83890284)
-     , (1387, 16, 83886837, 83890302)
-     , (1387, 16, 83886684, 83890354);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1387, 0, 16781875)
-     , (1387, 1, 16778430)
-     , (1387, 2, 16778436)
-     , (1387, 3, 16777292)
-     , (1387, 4, 16781855)
-     , (1387, 5, 16778438)
-     , (1387, 6, 16778437)
-     , (1387, 7, 16777296)
-     , (1387, 8, 16781859)
-     , (1387, 9, 16778425)
-     , (1387, 10, 16778431)
-     , (1387, 11, 16778429)
-     , (1387, 12, 16778423)
-     , (1387, 13, 16778434)
-     , (1387, 14, 16778424)
-     , (1387, 15, 16778435)
-     , (1387, 16, 16795647);

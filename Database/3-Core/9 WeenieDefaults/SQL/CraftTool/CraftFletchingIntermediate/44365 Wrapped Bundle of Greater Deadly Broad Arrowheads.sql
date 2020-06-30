@@ -12,8 +12,7 @@ VALUES (44365,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44365,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44365,  19,      12000) /* Value */
      , (44365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44365,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (44365, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44365,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44365,   1, 'Wrapped Bundle of Greater Deadly Broad Arrowheads') /* Name */
@@ -24,10 +23,4 @@ VALUES (44365,   1,   33557030) /* Setup */
      , (44365,   3,  536870932) /* SoundTable */
      , (44365,   8,  100672690) /* Icon */
      , (44365,  22,  872415275) /* PhysicsEffectTable */
-     , (44365,  50,  100689661) /* IconOverlay */
-     , (44365, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
-     , (44365, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44365, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44365, 8000, 2208681671) /* PCAPRecordedObjectIID */;
+     , (44365,  50,  100689661) /* IconOverlay */;

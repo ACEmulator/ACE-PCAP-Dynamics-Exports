@@ -34,9 +34,7 @@ VALUES (41067,   1,          1) /* ItemType - MeleeWeapon */
      , (41067, 177,          3) /* GemCount */
      , (41067, 178,         45) /* GemType */
      , (41067, 292,          2) /* Cleaving */
-     , (41067, 353,         11) /* WeaponType - TwoHanded */
-     , (41067, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41067, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41067, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41067,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (41067,   5,   -0.05) /* ManaRate */
      , (41067,  29,    1.06) /* WeaponDefense */
      , (41067,  62,     1.1) /* WeaponOffense */
      , (41067,  63,       1) /* DamageMod */
-     , (41067, 149,   1.015) /* WeaponMissileDefense */
-     , (41067, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (41067, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41067,   1, 'Shashqa') /* Name */
@@ -61,24 +58,9 @@ VALUES (41067,   1,   33560824) /* Setup */
      , (41067,   3,  536870932) /* SoundTable */
      , (41067,   6,   67115557) /* PaletteBase */
      , (41067,   8,  100690526) /* Icon */
-     , (41067,  22,  872415275) /* PhysicsEffectTable */
-     , (41067, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41067, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41067, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41067, 8000, 3690338366) /* PCAPRecordedObjectIID */;
+     , (41067,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41067,  1592,      2) 
      , (41067,  1615,      2) 
      , (41067,  1627,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41067, 67116396, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41067, 0, 83896076, 83896076);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41067, 0, 16794291);

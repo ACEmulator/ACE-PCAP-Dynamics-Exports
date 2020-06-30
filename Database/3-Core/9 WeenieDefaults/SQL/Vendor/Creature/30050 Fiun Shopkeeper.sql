@@ -15,8 +15,7 @@ VALUES (30050,   1,         16) /* ItemType - Creature */
      , (30050,  76,    1000000) /* MerchandiseMaxValue */
      , (30050,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30050, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (30050, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30050, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30050, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30050,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (30050,  37,     0.8) /* BuyPrice */
      , (30050,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30050,   1, 'Fiun Shopkeeper') /* Name */
-     , (30050, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (30050,   1, 'Fiun Shopkeeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30050,   1,   33559124) /* Setup */
      , (30050,   2,  150994945) /* MotionTable */
      , (30050,   3,  536870913) /* SoundTable */
      , (30050,   6,   67115466) /* PaletteBase */
-     , (30050,   8,  100677369) /* Icon */
-     , (30050, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30050, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30050, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30050,   8,  100677369) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30050, 8040, 955711747, 57.652, 11.206, 2.21048, 0.9972965, 0, 0, -0.07348207) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70103 [57.652000 11.206000 2.210480] 0.997297 0.000000 0.000000 -0.073482 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30050, 8000, 1938780164) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30050,   1, 150, 0, 0) /* Strength */
@@ -117,6 +109,3 @@ VALUES (30050, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30050, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
      , (30050, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30050, 67116344, 0, 0);

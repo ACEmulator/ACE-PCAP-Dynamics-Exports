@@ -15,8 +15,7 @@ VALUES (1446,   1,         32) /* ItemType - Food */
      , (1446,  19,         20) /* Value */
      , (1446,  89,          2) /* BoosterEnum - Health */
      , (1446,  90,          4) /* BoostValue */
-     , (1446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1446, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (1446,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1446,   1, 'Fire Auroch Meat') /* Name */
@@ -26,10 +25,4 @@ VALUES (1446,   1, 'Fire Auroch Meat') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1446,   1,   33554678) /* Setup */
      , (1446,   8,  100667464) /* Icon */
-     , (1446,  22,  872415275) /* PhysicsEffectTable */
-     , (1446, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (1446, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (1446, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1446, 8000, 2992590030) /* PCAPRecordedObjectIID */;
+     , (1446,  22,  872415275) /* PhysicsEffectTable */;

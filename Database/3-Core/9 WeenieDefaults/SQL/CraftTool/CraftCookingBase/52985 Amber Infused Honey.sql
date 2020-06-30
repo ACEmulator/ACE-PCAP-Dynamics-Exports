@@ -14,8 +14,7 @@ VALUES (52985,   1,    4194304) /* ItemType - CraftCookingBase */
      , (52985,  18,          1) /* UiEffects - Magical */
      , (52985,  19,          1) /* Value */
      , (52985,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52985,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (52985, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52985,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52985,   1, 'Amber Infused Honey') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52985,   1,   33555977) /* Setup */
      , (52985,   3,  536870932) /* SoundTable */
      , (52985,   8,  100669961) /* Icon */
-     , (52985,  22,  872415275) /* PhysicsEffectTable */
-     , (52985, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (52985, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (52985, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52985, 8000, 3700790500) /* PCAPRecordedObjectIID */;
+     , (52985,  22,  872415275) /* PhysicsEffectTable */;

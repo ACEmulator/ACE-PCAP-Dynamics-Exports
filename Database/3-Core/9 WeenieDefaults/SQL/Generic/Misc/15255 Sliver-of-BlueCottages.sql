@@ -18,14 +18,8 @@ VALUES (15255,   1, 'Sliver-of-BlueCottages') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15255,   1,   33557463) /* Setup */
-     , (15255,   8,  100668115) /* Icon */
-     , (15255, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15255, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15255, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15255,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15255, 8040, 1118437391, 36.0676, 163.377, 71.61475, 0.551793, 0, 0, 0.833981) /* PCAPRecordedLocation */
 /* @teleloc 0x42AA000F [36.067600 163.377000 71.614750] 0.551793 0.000000 0.000000 0.833981 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15255, 8000, 1948950961) /* PCAPRecordedObjectIID */;

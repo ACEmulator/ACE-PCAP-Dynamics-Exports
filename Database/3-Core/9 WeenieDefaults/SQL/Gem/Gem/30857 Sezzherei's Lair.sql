@@ -21,8 +21,7 @@ VALUES (30857,   1,       2048) /* ItemType - Gem */
      , (30857, 109,          0) /* ItemDifficulty */
      , (30857, 110,          0) /* ItemAllegianceRankLimit */
      , (30857, 114,          1) /* Attuned - Attuned */
-     , (30857, 280,       1000) /* SharedCooldown */
-     , (30857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30857, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30857,  22, True ) /* Inscribable */;
@@ -41,23 +40,7 @@ VALUES (30857,   1,   33556769) /* Setup */
      , (30857,   6,   67111919) /* PaletteBase */
      , (30857,   8,  100672368) /* Icon */
      , (30857,  22,  872415275) /* PhysicsEffectTable */
-     , (30857,  28,        157) /* Spell - SummonPortal1 */
-     , (30857, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (30857, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (30857, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30857, 8000, 2930218957) /* PCAPRecordedObjectIID */;
+     , (30857,  28,        157) /* Spell - SummonPortal1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30857,   157,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30857, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30857, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30857, 0, 16779181);

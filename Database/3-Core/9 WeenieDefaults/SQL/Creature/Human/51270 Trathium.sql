@@ -17,8 +17,7 @@ VALUES (51270,   1,         16) /* ItemType - Creature */
      , (51270, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (51270, 188,          6) /* HeritageGroup - Gearknight */
      , (51270, 281,          2) /* Faction1Bits */
-     , (51270, 288,          1) /* SocietyRankEldweb */
-     , (51270, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (51270, 288,          1) /* SocietyRankEldweb */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51270,   1, True ) /* Stuck */
@@ -30,8 +29,7 @@ VALUES (51270,  39,     1.2) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51270,   1, 'Trathium') /* Name */
-     , (51270,   5, 'Gearknight Parts Taskmaster') /* Template */
-     , (51270, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (51270,   5, 'Gearknight Parts Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51270,   1,   33560839) /* Setup */
@@ -45,17 +43,11 @@ VALUES (51270,   1,   33560839) /* Setup */
      , (51270,  15,   67116865) /* HairPalette */
      , (51270,  16,   67116881) /* EyesPalette */
      , (51270,  17,   67116903) /* SkinPalette */
-     , (51270,  22,  872415434) /* PhysicsEffectTable */
-     , (51270, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (51270, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (51270, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (51270,  22,  872415434) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51270, 8040, 12059247, 157.417, -43.0937, -17.994, -0.498327, 0, 0, -0.866989) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026F [157.417000 -43.093700 -17.994000] -0.498327 0.000000 0.000000 -0.866989 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51270, 8000, 2921673417) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (51270,   1, 290, 0, 0) /* Strength */
@@ -69,8 +61,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51270,   1,   196, 0, 0, 296) /* MaxHealth */
      , (51270,   3,   196, 0, 0, 396) /* MaxStamina */
      , (51270,   5,   196, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (51270, 67116889, 0, 24)
-     , (51270, 67116898, 24, 8)
-     , (51270, 67116898, 32, 8);

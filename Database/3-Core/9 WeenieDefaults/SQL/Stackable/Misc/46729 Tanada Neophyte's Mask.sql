@@ -15,8 +15,7 @@ VALUES (46729,   1,        128) /* ItemType - Misc */
      , (46729,  19,        100) /* Value */
      , (46729,  33,          1) /* Bonded - Bonded */
      , (46729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46729, 114,          1) /* Attuned - Attuned */
-     , (46729, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46729, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46729,   1, 'Tanada Neophyte''s Mask') /* Name */
@@ -26,13 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46729,   1,   33560096) /* Setup */
      , (46729,   3,  536870932) /* SoundTable */
      , (46729,   8,  100689101) /* Icon */
-     , (46729,  22,  872415275) /* PhysicsEffectTable */
-     , (46729, 8001,    2191384) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, ValidLocations, Burden */
-     , (46729, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (46729, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46729, 8000, 2389423501) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46729, 0, 16793224);
+     , (46729,  22,  872415275) /* PhysicsEffectTable */;

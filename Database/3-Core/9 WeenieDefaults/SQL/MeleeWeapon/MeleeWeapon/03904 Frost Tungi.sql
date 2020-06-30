@@ -33,9 +33,7 @@ VALUES (3904,   1,          1) /* ItemType - MeleeWeapon */
      , (3904, 176,         46) /* AppraisalItemSkill */
      , (3904, 177,          2) /* GemCount */
      , (3904, 178,         47) /* GemType */
-     , (3904, 353,          3) /* WeaponType - Axe */
-     , (3904, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3904, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3904, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3904,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3904,   5,   -0.05) /* ManaRate */
      , (3904,  29,    1.15) /* WeaponDefense */
      , (3904,  39,     1.2) /* DefaultScale */
      , (3904,  62,    1.18) /* WeaponOffense */
-     , (3904,  63,       1) /* DamageMod */
-     , (3904, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (3904,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3904,   1, 'Frost Tungi') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3904,   1,   33555809) /* Setup */
      , (3904,   3,  536870932) /* SoundTable */
      , (3904,   8,  100669059) /* Icon */
-     , (3904,  22,  872415275) /* PhysicsEffectTable */
-     , (3904, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3904, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3904, 8000, 3710514683) /* PCAPRecordedObjectIID */;
+     , (3904,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3904,  1616,      2) 

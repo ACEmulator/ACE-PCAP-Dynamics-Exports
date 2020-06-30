@@ -17,8 +17,7 @@ VALUES (8225,   1,         16) /* ItemType - Creature */
      , (8225, 113,          1) /* Gender - Male */
      , (8225, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8225, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8225, 188,          1) /* HeritageGroup - Aluvian */
-     , (8225, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8225, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8225,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8225,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8225,   1, 'Barkeep Anarn') /* Name */
-     , (8225,   5, 'Barkeeper') /* Template */
-     , (8225, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8225,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8225,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8225,   1,   33554433) /* Setup */
      , (8225,  11,   83890575) /* MouthTexture */
      , (8225,  15,   67117018) /* HairPalette */
      , (8225,  16,   67109566) /* EyesPalette */
-     , (8225,  17,   67109560) /* SkinPalette */
-     , (8225, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8225, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8225, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8225,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8225, 8040, 2471166442, 87.5481, 55.7862, -19.595, 0.6740363, 0, 0, -0.7386982) /* PCAPRecordedLocation */
 /* @teleloc 0x934B01EA [87.548100 55.786200 -19.595000] 0.674036 0.000000 0.000000 -0.738698 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8225, 8000, 2033496124) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8225,   1, 228, 0, 0) /* Strength */
@@ -91,53 +83,3 @@ VALUES (8225, 4,  5136, -1, 0, 0, False) /* Create Cove Apple Cider (5136) for S
      , (8225, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
      , (8225, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
      , (8225, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8225, 67109560, 0, 24)
-     , (8225, 67109566, 32, 8)
-     , (8225, 67109964, 92, 4)
-     , (8225, 67110349, 216, 24)
-     , (8225, 67110356, 40, 24)
-     , (8225, 67110372, 64, 8)
-     , (8225, 67110375, 160, 8)
-     , (8225, 67110540, 72, 8)
-     , (8225, 67117018, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8225, 0, 83889072, 83890012)
-     , (8225, 0, 83889342, 83890011)
-     , (8225, 1, 83887064, 83886241)
-     , (8225, 3, 83889344, 83887054)
-     , (8225, 4, 83887068, 83887054)
-     , (8225, 5, 83887064, 83886241)
-     , (8225, 7, 83889344, 83887054)
-     , (8225, 8, 83887068, 83887054)
-     , (8225, 9, 83887061, 83890009)
-     , (8225, 9, 83887060, 83890010)
-     , (8225, 10, 83887069, 83886782)
-     , (8225, 11, 83887067, 83891213)
-     , (8225, 13, 83887069, 83886782)
-     , (8225, 14, 83887067, 83891213)
-     , (8225, 16, 83886232, 83890685)
-     , (8225, 16, 83886668, 83890514)
-     , (8225, 16, 83886837, 83890551)
-     , (8225, 16, 83886684, 83890575);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8225, 0, 16781835)
-     , (8225, 1, 16777295)
-     , (8225, 2, 16777293)
-     , (8225, 3, 16777292)
-     , (8225, 4, 16777291)
-     , (8225, 5, 16777299)
-     , (8225, 6, 16777297)
-     , (8225, 7, 16777296)
-     , (8225, 8, 16777298)
-     , (8225, 9, 16777300)
-     , (8225, 10, 16777301)
-     , (8225, 11, 16777302)
-     , (8225, 12, 16777304)
-     , (8225, 13, 16777303)
-     , (8225, 14, 16777305)
-     , (8225, 15, 16777307)
-     , (8225, 16, 16795665);

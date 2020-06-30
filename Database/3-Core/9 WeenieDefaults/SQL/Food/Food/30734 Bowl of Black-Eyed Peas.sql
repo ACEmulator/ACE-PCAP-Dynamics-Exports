@@ -12,8 +12,7 @@ VALUES (30734,   1,         32) /* ItemType - Food */
      , (30734,  15,         60) /* StackUnitValue */
      , (30734,  16,          8) /* ItemUseable - Contained */
      , (30734,  19,         60) /* Value */
-     , (30734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30734, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30734,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30734,   1, 'Bowl of Black-Eyed Peas') /* Name */
@@ -24,9 +23,4 @@ VALUES (30734,   1,   33556220) /* Setup */
      , (30734,   3,  536870932) /* SoundTable */
      , (30734,   8,  100677405) /* Icon */
      , (30734,  22,  872415275) /* PhysicsEffectTable */
-     , (30734, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (30734, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (30734, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30734, 8000,      30734) /* PCAPRecordedObjectIID */;
+     , (30734, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

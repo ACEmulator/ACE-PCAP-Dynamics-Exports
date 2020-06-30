@@ -19,14 +19,8 @@ VALUES (19397,   1, 'Vindalan Dwellings') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19397,   1,   33557689) /* Setup */
-     , (19397,   8,  100667499) /* Icon */
-     , (19397, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (19397, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19397, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (19397,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19397, 8040, 1449001347, 76.978, -50.041, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x565E0183 [76.978000 -50.041000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19397, 8000, 1969610773) /* PCAPRecordedObjectIID */;

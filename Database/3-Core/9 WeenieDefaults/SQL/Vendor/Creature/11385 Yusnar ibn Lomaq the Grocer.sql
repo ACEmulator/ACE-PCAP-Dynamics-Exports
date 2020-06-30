@@ -17,8 +17,7 @@ VALUES (11385,   1,         16) /* ItemType - Creature */
      , (11385, 113,          1) /* Gender - Male */
      , (11385, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11385, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11385, 188,          2) /* HeritageGroup - Gharundim */
-     , (11385, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11385, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11385,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (11385,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11385,   1, 'Yusnar ibn Lomaq the Grocer') /* Name */
-     , (11385,   5, 'Scribe') /* Template */
-     , (11385, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (11385,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11385,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (11385,   1,   33554433) /* Setup */
      , (11385,  11,   83890616) /* MouthTexture */
      , (11385,  15,   67116996) /* HairPalette */
      , (11385,  16,   67109567) /* EyesPalette */
-     , (11385,  17,   67109555) /* SkinPalette */
-     , (11385, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11385, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11385, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (11385,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11385, 8040, 565182740, 4.35506, 151.473, 1.605, -0.967078, 0, 0, -0.2544801) /* PCAPRecordedLocation */
 /* @teleloc 0x21B00114 [4.355060 151.473000 1.605000] -0.967078 0.000000 0.000000 -0.254480 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11385, 8000, 1914372114) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11385,   1,  50, 0, 0) /* Strength */
@@ -101,51 +93,3 @@ VALUES (11385, 4,  5856, -1, 0, 0, False) /* Create Specialty Cookbook (5856) fo
      , (11385, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (11385, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
      , (11385, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11385, 67109555, 0, 24)
-     , (11385, 67109567, 32, 8)
-     , (11385, 67109967, 92, 4)
-     , (11385, 67110020, 72, 8)
-     , (11385, 67110348, 160, 8)
-     , (11385, 67110386, 216, 24)
-     , (11385, 67111304, 64, 8)
-     , (11385, 67111304, 40, 24)
-     , (11385, 67116996, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11385, 0, 83889072, 83890012)
-     , (11385, 0, 83889342, 83890011)
-     , (11385, 1, 83887064, 83886241)
-     , (11385, 3, 83889344, 83887054)
-     , (11385, 4, 83887068, 83887054)
-     , (11385, 5, 83887064, 83886241)
-     , (11385, 7, 83889344, 83887054)
-     , (11385, 8, 83887068, 83887054)
-     , (11385, 9, 83887061, 83890009)
-     , (11385, 9, 83887060, 83890010)
-     , (11385, 10, 83887069, 83886782)
-     , (11385, 13, 83887069, 83886782)
-     , (11385, 16, 83886232, 83890359)
-     , (11385, 16, 83886668, 83890442)
-     , (11385, 16, 83886837, 83890562)
-     , (11385, 16, 83886684, 83890616);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11385, 0, 16781835)
-     , (11385, 1, 16777295)
-     , (11385, 2, 16777293)
-     , (11385, 3, 16777292)
-     , (11385, 4, 16777291)
-     , (11385, 5, 16777299)
-     , (11385, 6, 16777297)
-     , (11385, 7, 16777296)
-     , (11385, 8, 16777298)
-     , (11385, 9, 16777300)
-     , (11385, 10, 16777301)
-     , (11385, 11, 16777302)
-     , (11385, 12, 16777304)
-     , (11385, 13, 16777303)
-     , (11385, 14, 16777305)
-     , (11385, 15, 16777307)
-     , (11385, 16, 16795638);

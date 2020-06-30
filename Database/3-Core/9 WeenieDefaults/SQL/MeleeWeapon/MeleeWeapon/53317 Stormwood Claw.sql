@@ -26,9 +26,7 @@ VALUES (53317,   1,          1) /* ItemType - MeleeWeapon */
      , (53317, 151,          2) /* HookType - Wall */
      , (53317, 158,          2) /* WieldRequirements - RawSkill */
      , (53317, 159,         46) /* WieldSkillType - FinesseWeapons */
-     , (53317, 160,        430) /* WieldDifficulty */
-     , (53317, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (53317, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53317, 160,        430) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53317,  22, True ) /* Inscribable */;
@@ -41,8 +39,7 @@ VALUES (53317,   5,  -0.025) /* ManaRate */
      , (53317,  29,    1.18) /* WeaponDefense */
      , (53317,  39,     0.8) /* DefaultScale */
      , (53317,  62,    1.18) /* WeaponOffense */
-     , (53317,  63,       1) /* DamageMod */
-     , (53317, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53317,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53317,   1, 'Stormwood Claw') /* Name */
@@ -53,13 +50,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53317,   1,   33561672) /* Setup */
      , (53317,   3,  536870932) /* SoundTable */
      , (53317,   8,  100693343) /* Icon */
-     , (53317,  22,  872415275) /* PhysicsEffectTable */
-     , (53317, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (53317, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (53317, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53317, 8000, 3630241520) /* PCAPRecordedObjectIID */;
+     , (53317,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53317,  4395,      2) 

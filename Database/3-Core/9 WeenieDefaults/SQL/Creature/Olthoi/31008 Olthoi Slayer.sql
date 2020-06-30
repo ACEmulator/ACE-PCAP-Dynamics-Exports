@@ -11,8 +11,7 @@ VALUES (31008,   1,         16) /* ItemType - Creature */
      , (31008,  16,          1) /* ItemUseable - No */
      , (31008,  25,        185) /* Level */
      , (31008,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31008, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31008, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31008, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31008,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (31008,  39,     1.1) /* DefaultScale */
      , (31008,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31008,   1, 'Olthoi Slayer') /* Name */
-     , (31008, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
+VALUES (31008,   1, 'Olthoi Slayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31008,   1,   33557164) /* Setup */
@@ -32,17 +30,11 @@ VALUES (31008,   1,   33557164) /* Setup */
      , (31008,   6,   67113236) /* PaletteBase */
      , (31008,   8,  100667623) /* Icon */
      , (31008,  22,  872415265) /* PhysicsEffectTable */
-     , (31008,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (31008, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (31008, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31008, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (31008,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31008, 8040, 1631978248, 142.3087, -147.857, -6, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x61460308 [142.308700 -147.857000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31008, 8000, 3359331913) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31008,   1, 370, 0, 0) /* Strength */
@@ -672,6 +664,3 @@ VALUES (31008, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (1
      , (31008, 9, 46881,  0, 0, 0, False) /* Create Aura of Heartseeker Other VII (46881) for ContainTreasure */
      , (31008, 9, 20238,  0, 0, 0, False) /* Create Scroll of Anemia (20238) for ContainTreasure */
      , (31008, 9, 20446,  0, 0, 0, False) /* Create Scroll of Outlander's Insolence (20446) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31008, 67113316, 0, 0);

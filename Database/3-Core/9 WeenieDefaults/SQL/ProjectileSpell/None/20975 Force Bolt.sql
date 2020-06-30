@@ -15,10 +15,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20975,  39,     0.4) /* DefaultScale */
      , (20975,  77,       1) /* PhysicsScriptIntensity */
      , (20975,  78,       1) /* Friction */
-     , (20975,  79,       0) /* Elasticity */
-     , (20975, 8010,  36.036) /* PCAPRecordedVelocityX */
-     , (20975, 8011,   4.307) /* PCAPRecordedVelocityY */
-     , (20975, 8012, -10.611) /* PCAPRecordedVelocityZ */;
+     , (20975,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20975,   1, 'Force Bolt') /* Name */;
@@ -29,17 +26,11 @@ VALUES (20975,   1,   33555443) /* Setup */
      , (20975,   8,  100667494) /* Icon */
      , (20975,  22,  872415241) /* PhysicsEffectTable */
      , (20975,  28,         86) /* Spell - ForceBolt1 */
-     , (20975,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (20975, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (20975, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (20975, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (20975,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20975, 8040, 151715893, 146.8979, 111.796, 13.86127, 0.8072373, 0, 0, -0.5902271) /* PCAPRecordedLocation */
 /* @teleloc 0x090B0035 [146.897900 111.796000 13.861270] 0.807237 0.000000 0.000000 -0.590227 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20975, 8000, 3687494842) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20975, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */

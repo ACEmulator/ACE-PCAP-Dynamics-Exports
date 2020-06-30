@@ -11,8 +11,7 @@ VALUES (52309,   1,         16) /* ItemType - Creature */
      , (52309,  16,          1) /* ItemUseable - No */
      , (52309,  25,        265) /* Level */
      , (52309,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (52309, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (52309, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52309, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52309,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52309,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52309,   1, 'Pyre Champion') /* Name */
-     , (52309, 8006, 'AABAAAEAAABAAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (52309,   1, 'Pyre Champion') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52309,   1,   33560229) /* Setup */
@@ -30,17 +28,11 @@ VALUES (52309,   1,   33560229) /* Setup */
      , (52309,   3,  536870942) /* SoundTable */
      , (52309,   6,   67116522) /* PaletteBase */
      , (52309,   8,  100669124) /* Icon */
-     , (52309,  22,  872415269) /* PhysicsEffectTable */
-     , (52309, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52309, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52309, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (52309,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52309, 8040, 1210908684, 24.02069, 80.09135, 6.677029, -0.980121, 0, 0, -0.1984007) /* PCAPRecordedLocation */
 /* @teleloc 0x482D000C [24.020690 80.091350 6.677029] -0.980121 0.000000 0.000000 -0.198401 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52309, 8000, 3700924212) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52309,   1,     0, 0, 0, 6831) /* MaxHealth */;
@@ -284,24 +276,3 @@ VALUES (52309, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wie
      , (52309, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
      , (52309, 9, 49309,  0, 0, 0, False) /* Create Blizzard Wisp Essence (49309) for ContainTreasure */
      , (52309, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52309, 67116525, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (52309, 2, 83897246, 83897248)
-     , (52309, 6, 83897246, 83897248)
-     , (52309, 9, 83897246, 83897248)
-     , (52309, 10, 83897246, 83897248)
-     , (52309, 11, 83897246, 83897248)
-     , (52309, 13, 83897246, 83897248)
-     , (52309, 14, 83897246, 83897248);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (52309, 2, 16792427)
-     , (52309, 6, 16792431)
-     , (52309, 9, 16792443)
-     , (52309, 10, 16792435)
-     , (52309, 11, 16792447)
-     , (52309, 13, 16792439)
-     , (52309, 14, 16792451);

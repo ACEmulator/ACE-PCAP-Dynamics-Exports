@@ -18,8 +18,7 @@ VALUES (8496,   1,         16) /* ItemType - Creature */
      , (8496, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8496, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (8496, 188,          1) /* HeritageGroup - Aluvian */
-     , (8496, 307,          5) /* DamageRating */
-     , (8496, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8496, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8496,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (8496,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8496,   1, 'Weaponsmith Bornak the Crookblade') /* Name */
-     , (8496,   5, 'Weaponsmith') /* Template */
-     , (8496, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8496,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8496,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (8496,   1,   33554433) /* Setup */
      , (8496,  11,   83890655) /* MouthTexture */
      , (8496,  15,   67116990) /* HairPalette */
      , (8496,  16,   67110062) /* EyesPalette */
-     , (8496,  17,   67109561) /* SkinPalette */
-     , (8496, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8496, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8496, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (8496,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8496, 8040, 4062314752, 136.117, 138.665, 18.005, 0.9991242, 0, 0, -0.04184171) /* PCAPRecordedLocation */
 /* @teleloc 0xF2220100 [136.117000 138.665000 18.005000] 0.999124 0.000000 0.000000 -0.041842 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8496, 8000, 2132942856) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8496,   1, 240, 0, 0) /* Strength */
@@ -123,53 +115,3 @@ VALUES (8496, 2,   350,  1, 0, 0, False) /* Create Broad Sword (350) for Wield *
      , (8496, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (8496, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */
      , (8496, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8496, 67109561, 0, 24)
-     , (8496, 67110020, 72, 8)
-     , (8496, 67110062, 32, 8)
-     , (8496, 67110349, 160, 8)
-     , (8496, 67110356, 216, 24)
-     , (8496, 67110378, 64, 8)
-     , (8496, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8496, 0, 83889072, 83890012)
-     , (8496, 0, 83889342, 83890011)
-     , (8496, 1, 83887064, 83886241)
-     , (8496, 2, 83887066, 83887055)
-     , (8496, 2, 83892602, 83892602)
-     , (8496, 2, 83892601, 83892601)
-     , (8496, 3, 83889344, 83887054)
-     , (8496, 4, 83887068, 83892603)
-     , (8496, 5, 83887064, 83886241)
-     , (8496, 6, 83887066, 83887055)
-     , (8496, 6, 83892602, 83892602)
-     , (8496, 6, 83892601, 83892601)
-     , (8496, 7, 83889344, 83887054)
-     , (8496, 8, 83887068, 83892603)
-     , (8496, 9, 83887061, 83890009)
-     , (8496, 9, 83887060, 83890010)
-     , (8496, 16, 83886232, 83890359)
-     , (8496, 16, 83886668, 83890495)
-     , (8496, 16, 83886837, 83890518)
-     , (8496, 16, 83886684, 83890655);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8496, 0, 16781835)
-     , (8496, 1, 16777295)
-     , (8496, 2, 16784627)
-     , (8496, 3, 16781841)
-     , (8496, 4, 16781838)
-     , (8496, 5, 16777299)
-     , (8496, 6, 16784628)
-     , (8496, 7, 16781840)
-     , (8496, 8, 16781839)
-     , (8496, 9, 16777300)
-     , (8496, 10, 16777301)
-     , (8496, 11, 16777302)
-     , (8496, 12, 16777304)
-     , (8496, 13, 16777303)
-     , (8496, 14, 16777305)
-     , (8496, 15, 16777307)
-     , (8496, 16, 16795638);

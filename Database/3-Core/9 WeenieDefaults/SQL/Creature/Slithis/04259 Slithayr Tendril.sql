@@ -12,8 +12,7 @@ VALUES (4259,   1,         16) /* ItemType - Creature */
      , (4259,  25,         40) /* Level */
      , (4259,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4259, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4259, 307,          5) /* DamageRating */
-     , (4259, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4259, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4259,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4259,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4259,   1, 'Slithayr Tendril') /* Name */
-     , (4259, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4259,   1, 'Slithayr Tendril') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4259,   1,   33555670) /* Setup */
@@ -31,17 +29,11 @@ VALUES (4259,   1,   33555670) /* Setup */
      , (4259,   3,  536871015) /* SoundTable */
      , (4259,   6,   67112864) /* PaletteBase */
      , (4259,   8,  100671186) /* Icon */
-     , (4259,  22,  872415332) /* PhysicsEffectTable */
-     , (4259, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4259, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4259, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (4259,  22,  872415332) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4259, 8040, 4095213602, 117.9854, 30.4324, 159.542, 0.05208668, 0, 0, -0.9986426) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180022 [117.985400 30.432400 159.542000] 0.052087 0.000000 0.000000 -0.998643 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4259, 8000, 3692766119) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4259,   1, 250, 0, 0) /* Strength */
@@ -62,6 +54,3 @@ VALUES (4259, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wiel
      , (4259, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (4259, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
      , (4259, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4259, 67113034, 0, 0);

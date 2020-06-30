@@ -18,8 +18,7 @@ VALUES (2254,   1,         16) /* ItemType - Creature */
      , (2254, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2254, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (2254, 188,          3) /* HeritageGroup - Sho */
-     , (2254, 307,          5) /* DamageRating */
-     , (2254, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2254, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2254,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (2254,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2254,   1, 'Bowyer Jyi Zhente') /* Name */
-     , (2254,   5, 'Bowyer') /* Template */
-     , (2254, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2254,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2254,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (2254,   1,   33554510) /* Setup */
      , (2254,  11,   83890320) /* MouthTexture */
      , (2254,  15,   67116995) /* HairPalette */
      , (2254,  16,   67110063) /* EyesPalette */
-     , (2254,  17,   67110050) /* SkinPalette */
-     , (2254, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2254, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2254, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (2254,  17,   67110050) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2254, 8040, 3443589456, 82.0726, 65.3352, 54.005, 0.764917, 0, 0, -0.6441289) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410150 [82.072600 65.335200 54.005000] 0.764917 0.000000 0.000000 -0.644129 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2254, 8000, 2094272555) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2254,   1,  80, 0, 0) /* Strength */
@@ -114,49 +106,3 @@ VALUES (2254, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (2254, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (2254, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (2254, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2254, 67109969, 92, 4)
-     , (2254, 67110020, 72, 8)
-     , (2254, 67110050, 0, 24)
-     , (2254, 67110063, 32, 8)
-     , (2254, 67110376, 216, 24)
-     , (2254, 67110378, 64, 8)
-     , (2254, 67111245, 40, 24)
-     , (2254, 67111245, 160, 8)
-     , (2254, 67116995, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2254, 0, 83889072, 83890012)
-     , (2254, 0, 83889342, 83890011)
-     , (2254, 1, 83887064, 83886241)
-     , (2254, 3, 83889344, 83887054)
-     , (2254, 4, 83887068, 83887054)
-     , (2254, 5, 83887064, 83886241)
-     , (2254, 7, 83889344, 83887054)
-     , (2254, 8, 83887068, 83887054)
-     , (2254, 9, 83887070, 83890009)
-     , (2254, 9, 83887062, 83890010)
-     , (2254, 16, 83886232, 83890685)
-     , (2254, 16, 83886668, 83890277)
-     , (2254, 16, 83886837, 83890295)
-     , (2254, 16, 83886684, 83890320);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2254, 0, 16781875)
-     , (2254, 1, 16778430)
-     , (2254, 2, 16778436)
-     , (2254, 3, 16778361)
-     , (2254, 4, 16778426)
-     , (2254, 5, 16778438)
-     , (2254, 6, 16778437)
-     , (2254, 7, 16778360)
-     , (2254, 8, 16778428)
-     , (2254, 9, 16778425)
-     , (2254, 10, 16778431)
-     , (2254, 11, 16778429)
-     , (2254, 12, 16778423)
-     , (2254, 13, 16778434)
-     , (2254, 14, 16778424)
-     , (2254, 15, 16778435)
-     , (2254, 16, 16795641);

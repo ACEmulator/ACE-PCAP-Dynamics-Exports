@@ -22,10 +22,4 @@ VALUES (30736,   1, 'Bottle of Crystal Champagne') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30736,   1,   33559222) /* Setup */
-     , (30736,   8,  100677403) /* Icon */
-     , (30736, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (30736, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30736, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30736, 8000, 2981037266) /* PCAPRecordedObjectIID */;
+     , (30736,   8,  100677403) /* Icon */;

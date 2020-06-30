@@ -17,8 +17,7 @@ VALUES (37538,   1,         16) /* ItemType - Creature */
      , (37538, 113,          2) /* Gender - Female */
      , (37538, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (37538, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (37538, 188,          2) /* HeritageGroup - Gharundim */
-     , (37538, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (37538, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37538,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (37538,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37538,   1, 'Royal Quartermaster') /* Name */
-     , (37538,   5, 'Soldier') /* Template */
-     , (37538, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (37538,   5, 'Soldier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37538,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (37538,   1,   33554510) /* Setup */
      , (37538,  15,   67117025) /* HairPalette */
      , (37538,  16,   67109567) /* EyesPalette */
      , (37538,  17,   67109550) /* SkinPalette */
-     , (37538,  57,      37559) /* AlternateCurrency - Writ of Apology */
-     , (37538, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (37538, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (37538, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (37538,  57,      37559) /* AlternateCurrency - Writ of Apology */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37538, 8040, 2541420608, 178.506, 176.695, 0.004999995, -0.0902551, 0, 0, -0.9959187) /* PCAPRecordedLocation */
 /* @teleloc 0x977B0040 [178.506000 176.695000 0.005000] -0.090255 0.000000 0.000000 -0.995919 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37538, 8000, 2037887050) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37538,   1, 170, 0, 0) /* Strength */
@@ -93,55 +85,3 @@ VALUES (37538, 4, 37532, -1, 0, 0, False) /* Create Aerbax Pack Doll Orders (375
      , (37538, 4, 37531, -1, 0, 0, False) /* Create Foolproof Zircon Orders (37531) for Shop */
      , (37538, 4, 37537, -1, 0, 0, False) /* Create Enhanced Health Elixir Orders (37537) for Shop */
      , (37538, 4, 37519, -1, 0, 0, False) /* Create Enhanced Mana Elixir Orders (37519) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37538, 67109550, 0, 24)
-     , (37538, 67109567, 32, 8)
-     , (37538, 67110546, 96, 12)
-     , (37538, 67111303, 250, 6)
-     , (37538, 67113687, 80, 12)
-     , (37538, 67113687, 116, 12)
-     , (37538, 67113726, 40, 40)
-     , (37538, 67117025, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37538, 0, 83892345, 83893836)
-     , (37538, 0, 83892344, 83893836)
-     , (37538, 1, 83892352, 83893842)
-     , (37538, 2, 83892351, 83893841)
-     , (37538, 3, 83889344, 83887054)
-     , (37538, 4, 83887068, 83887054)
-     , (37538, 5, 83892352, 83893842)
-     , (37538, 6, 83892351, 83893841)
-     , (37538, 7, 83889344, 83887054)
-     , (37538, 8, 83887068, 83887054)
-     , (37538, 9, 83891974, 83893840)
-     , (37538, 9, 83891968, 83893839)
-     , (37538, 10, 83892347, 83893838)
-     , (37538, 11, 83892346, 83893837)
-     , (37538, 13, 83892347, 83893838)
-     , (37538, 14, 83892346, 83893837)
-     , (37538, 16, 83886232, 83890685)
-     , (37538, 16, 83886668, 83890280)
-     , (37538, 16, 83886837, 83890299)
-     , (37538, 16, 83886684, 83890335)
-     , (37538, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37538, 0, 16783897)
-     , (37538, 1, 16783912)
-     , (37538, 2, 16783918)
-     , (37538, 3, 16777292)
-     , (37538, 4, 16777291)
-     , (37538, 5, 16783916)
-     , (37538, 6, 16783920)
-     , (37538, 7, 16777296)
-     , (37538, 8, 16777298)
-     , (37538, 9, 16783714)
-     , (37538, 10, 16783863)
-     , (37538, 11, 16783853)
-     , (37538, 12, 16778423)
-     , (37538, 13, 16783871)
-     , (37538, 14, 16783855)
-     , (37538, 15, 16778435)
-     , (37538, 16, 16779630);

@@ -14,8 +14,7 @@ VALUES (31355,   1,        128) /* ItemType - Misc */
      , (31355,  19,      10000) /* Value */
      , (31355,  33,          1) /* Bonded - Bonded */
      , (31355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31355, 114,          1) /* Attuned - Attuned */
-     , (31355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31355, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31355,   1, 'Olthoi Slasher Carapace') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31355,   1,   33554817) /* Setup */
      , (31355,   3,  536870932) /* SoundTable */
      , (31355,   8,  100687695) /* Icon */
-     , (31355,  22,  872415275) /* PhysicsEffectTable */
-     , (31355, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (31355, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31355, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31355, 8000, 2155931568) /* PCAPRecordedObjectIID */;
+     , (31355,  22,  872415275) /* PhysicsEffectTable */;

@@ -10,8 +10,7 @@ VALUES (34455,   1,        128) /* ItemType - Misc */
      , (34455,  19,          0) /* Value */
      , (34455,  33,          1) /* Bonded - Bonded */
      , (34455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34455, 114,          1) /* Attuned - Attuned */
-     , (34455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34455, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34455,  22, True ) /* Inscribable */;
@@ -24,13 +23,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34455,   1,   33554817) /* Setup */
      , (34455,   3,  536870932) /* SoundTable */
      , (34455,   8,  100689382) /* Icon */
-     , (34455,  22,  872415275) /* PhysicsEffectTable */
-     , (34455, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (34455, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34455, 8000, 2988579994) /* PCAPRecordedObjectIID */;
+     , (34455,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34455, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

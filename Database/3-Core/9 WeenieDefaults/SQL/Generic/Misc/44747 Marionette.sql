@@ -20,14 +20,8 @@ VALUES (44747,   1, 'Marionette') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44747,   1,   33561347) /* Setup */
-     , (44747,   8,  100668115) /* Icon */
-     , (44747, 8001,  270532632) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, HookType */
-     , (44747, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44747, 8005,      32897) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position */;
+     , (44747,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44747, 8040, 23855606, 78.17616, -49.85006, -3.72529E-09, -0.7001362, 0, 0, 0.7140093) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01F6 [78.176160 -49.850060 0.000000] -0.700136 0.000000 0.000000 0.714009 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44747, 8000, 3707149568) /* PCAPRecordedObjectIID */;

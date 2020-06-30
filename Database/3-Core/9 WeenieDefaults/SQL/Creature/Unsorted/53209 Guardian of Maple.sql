@@ -34,8 +34,7 @@ VALUES (53209,   1,         16) /* ItemType - Creature */
      , (53209, 386,          0) /* Overpower */
      , (53209, 387,          0) /* OverpowerResist */
      , (53209, 388,          0) /* GearOverpower */
-     , (53209, 389,          0) /* GearOverpowerResist */
-     , (53209, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53209, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53209,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (53209,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53209,   1, 'Guardian of Maple') /* Name */
-     , (53209,  16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LongDesc */
-     , (53209, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (53209,  16, 'An ancient statue infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53209,   1,   33558954) /* Setup */
      , (53209,   2,  150995147) /* MotionTable */
      , (53209,   3,  536871052) /* SoundTable */
      , (53209,   8,  100688311) /* Icon */
-     , (53209,  22,  872415274) /* PhysicsEffectTable */
-     , (53209, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53209, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53209, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (53209,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53209, 8040, 3007905820, 72.5, 92.4, 61.9, 0.2588191, 0, 0, -0.9659258) /* PCAPRecordedLocation */
 /* @teleloc 0xB349001C [72.500000 92.400000 61.900000] 0.258819 0.000000 0.000000 -0.965926 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53209, 8000, 3630187527) /* PCAPRecordedObjectIID */;

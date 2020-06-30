@@ -10,8 +10,7 @@ VALUES (1922,   1,        512) /* ItemType - Container */
      , (1922,   7,         10) /* ContainersCapacity */
      , (1922,  16,         48) /* ItemUseable - ViewedRemote */
      , (1922,  19,       2500) /* Value */
-     , (1922,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (1922, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1922,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1922,   1, True ) /* Stuck */
@@ -23,25 +22,18 @@ VALUES (1922,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1922,   1, 'Chest') /* Name */
-     , (1922,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (1922, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (1922,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1922,   1,   33554556) /* Setup */
      , (1922,   2,  150994948) /* MotionTable */
      , (1922,   3,  536870945) /* SoundTable */
      , (1922,   8,  100667424) /* Icon */
-     , (1922,  22,  872415275) /* PhysicsEffectTable */
-     , (1922, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (1922, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (1922, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (1922,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1922, 8040, 4045930559, 172.919, 149.339, 0, -0.44716, 0, 0, -0.894454) /* PCAPRecordedLocation */
 /* @teleloc 0xF128003F [172.919000 149.339000 0.000000] -0.447160 0.000000 0.000000 -0.894454 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1922, 8000, 2131918857) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1922, -1, 20488, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Scroll of Energy Flux (20488) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

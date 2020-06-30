@@ -31,9 +31,7 @@ VALUES (47946,   1,        256) /* ItemType - MissileWeapon */
      , (47946, 307,          5) /* DamageRating */
      , (47946, 313,          0) /* CritRating */
      , (47946, 314,          0) /* CritDamageRating */
-     , (47946, 386,          0) /* Overpower */
-     , (47946, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (47946, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (47946, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47946,  69, False) /* IsSellable */;
@@ -58,25 +56,11 @@ VALUES (47946,   1,   33554730) /* Setup */
      , (47946,   3,  536870932) /* SoundTable */
      , (47946,   6,   67111919) /* PaletteBase */
      , (47946,   8,  100667584) /* Icon */
-     , (47946,  22,  872415275) /* PhysicsEffectTable */
-     , (47946, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (47946, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (47946, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (47946, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (47946,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47946, 8040, 2487681062, 107.5226, 131.1892, 6.063179, 0.5789313, 0.5789313, -0.4060031, -0.4060031) /* PCAPRecordedLocation */
 /* @teleloc 0x94470026 [107.522600 131.189200 6.063179] 0.578931 0.578931 -0.406003 -0.406003 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47946, 8000, 3685884344) /* PCAPRecordedObjectIID */
-     , (47946, 8008, 3685884340) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47946, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (47946, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (47946, 0, 16777895);

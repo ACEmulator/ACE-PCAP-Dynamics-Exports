@@ -14,8 +14,7 @@ VALUES (44571,   1,       2048) /* ItemType - Gem */
      , (44571,  19,        100) /* Value */
      , (44571,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (44571,  94,         16) /* TargetType - Creature */
-     , (44571, 280,        100) /* SharedCooldown */
-     , (44571, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44571, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44571,  22, True ) /* Inscribable */;
@@ -31,10 +30,4 @@ VALUES (44571,   1,   33557625) /* Setup */
      , (44571,   3,  536870932) /* SoundTable */
      , (44571,   8,  100691930) /* Icon */
      , (44571,  22,  872415275) /* PhysicsEffectTable */
-     , (44571, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
-     , (44571, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (44571, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (44571, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44571, 8000,      44571) /* PCAPRecordedObjectIID */;
+     , (44571, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

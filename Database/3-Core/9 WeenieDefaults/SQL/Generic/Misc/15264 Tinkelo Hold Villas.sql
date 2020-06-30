@@ -18,14 +18,8 @@ VALUES (15264,   1, 'Tinkelo Hold Villas') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15264,   1,   33557463) /* Setup */
-     , (15264,   8,  100668115) /* Icon */
-     , (15264, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15264, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15264, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15264,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15264, 8040, 2895446049, 101.035, 19.088, 78.44009, 0.946176, 0, 0, 0.323653) /* PCAPRecordedLocation */
 /* @teleloc 0xAC950021 [101.035000 19.088000 78.440090] 0.946176 0.000000 0.000000 0.323653 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15264, 8000, 2060014043) /* PCAPRecordedObjectIID */;

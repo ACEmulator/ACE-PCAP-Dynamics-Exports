@@ -20,10 +20,4 @@ VALUES (22855,   1, 'Divan') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22855,   1,   33555304) /* Setup */
-     , (22855,   8,  100673894) /* Icon */
-     , (22855, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (22855, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22855, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22855, 8000, 2166203173) /* PCAPRecordedObjectIID */;
+     , (22855,   8,  100673894) /* Icon */;

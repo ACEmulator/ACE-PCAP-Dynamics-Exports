@@ -17,8 +17,7 @@ VALUES (9504,   1,         16) /* ItemType - Creature */
      , (9504, 113,          1) /* Gender - Male */
      , (9504, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9504, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9504, 188,          1) /* HeritageGroup - Aluvian */
-     , (9504, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9504, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9504,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (9504,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9504,   1, 'Boddry the Chancy') /* Name */
-     , (9504,   5, 'Cashier') /* Template */
-     , (9504, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (9504,   5, 'Cashier') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9504,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (9504,   1,   33554433) /* Setup */
      , (9504,  11,   83890636) /* MouthTexture */
      , (9504,  15,   67117024) /* HairPalette */
      , (9504,  16,   67109567) /* EyesPalette */
-     , (9504,  17,   67109561) /* SkinPalette */
-     , (9504, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9504, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9504, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9504,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9504, 8040, 2847015179, 90.6, 90, 94.005, -0.6902195, 0, 0, -0.7236001) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B2010B [90.600000 90.000000 94.005000] -0.690220 0.000000 0.000000 -0.723600 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9504, 8000, 2056986643) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9504,   1,  60, 0, 0) /* Strength */
@@ -82,55 +74,3 @@ VALUES (9504, 4,  9517, -1, 0, 0, False) /* Create A Guide to Gan-Zo's Den of In
      , (9504, 4,  2468, -1, 0, 0, False) /* Create Sake (2468) for Shop */
      , (9504, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (9504, 4,  2456, -1, 0, 0, False) /* Create Green Tea (2456) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9504, 67109561, 0, 24)
-     , (9504, 67109567, 32, 8)
-     , (9504, 67109969, 92, 4)
-     , (9504, 67110026, 72, 8)
-     , (9504, 67110322, 216, 24)
-     , (9504, 67110349, 250, 6)
-     , (9504, 67110375, 160, 8)
-     , (9504, 67111245, 64, 8)
-     , (9504, 67111245, 40, 24)
-     , (9504, 67117024, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9504, 0, 83889072, 83890012)
-     , (9504, 0, 83889342, 83890011)
-     , (9504, 1, 83887064, 83886241)
-     , (9504, 2, 83887066, 83887055)
-     , (9504, 3, 83889344, 83887054)
-     , (9504, 4, 83887068, 83887054)
-     , (9504, 5, 83887064, 83886241)
-     , (9504, 6, 83887066, 83887055)
-     , (9504, 7, 83889344, 83887054)
-     , (9504, 8, 83887068, 83887054)
-     , (9504, 9, 83887061, 83890009)
-     , (9504, 9, 83887060, 83890010)
-     , (9504, 10, 83887069, 83886782)
-     , (9504, 13, 83887069, 83886782)
-     , (9504, 16, 83886232, 83890685)
-     , (9504, 16, 83886668, 83890515)
-     , (9504, 16, 83886837, 83890559)
-     , (9504, 16, 83886684, 83890636)
-     , (9504, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9504, 0, 16781835)
-     , (9504, 1, 16777295)
-     , (9504, 2, 16777293)
-     , (9504, 3, 16777292)
-     , (9504, 4, 16777291)
-     , (9504, 5, 16777299)
-     , (9504, 6, 16777297)
-     , (9504, 7, 16777296)
-     , (9504, 8, 16777298)
-     , (9504, 9, 16777300)
-     , (9504, 10, 16777301)
-     , (9504, 11, 16777302)
-     , (9504, 12, 16777304)
-     , (9504, 13, 16777303)
-     , (9504, 14, 16777305)
-     , (9504, 15, 16777307)
-     , (9504, 16, 16779630);

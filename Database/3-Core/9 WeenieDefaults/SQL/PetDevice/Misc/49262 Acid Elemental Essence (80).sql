@@ -21,8 +21,7 @@ VALUES (49262,   1,        128) /* ItemType - Misc */
      , (49262, 367,        370) /* UseRequiresSkillLevel */
      , (49262, 369,         70) /* UseRequiresLevel */
      , (49262, 374,          9) /* GearCritDamage */
-     , (49262, 375,         11) /* GearCritDamageResist */
-     , (49262, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (49262, 375,         11) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49262,  22, True ) /* Inscribable */
@@ -43,20 +42,4 @@ VALUES (49262,   1,   33554817) /* Setup */
      , (49262,   8,  100672513) /* Icon */
      , (49262,  22,  872415275) /* PhysicsEffectTable */
      , (49262,  50,  100693027) /* IconOverlay */
-     , (49262,  52,  100693024) /* IconUnderlay */
-     , (49262, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49262, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49262, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49262, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49262, 8000, 3692627148) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49262, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49262, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49262, 0, 16777882);
+     , (49262,  52,  100693024) /* IconUnderlay */;

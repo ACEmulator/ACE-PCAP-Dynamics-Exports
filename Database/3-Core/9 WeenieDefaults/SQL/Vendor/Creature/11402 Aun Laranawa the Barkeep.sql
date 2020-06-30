@@ -15,8 +15,7 @@ VALUES (11402,   1,         16) /* ItemType - Creature */
      , (11402,  76,     100000) /* MerchandiseMaxValue */
      , (11402,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11402, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11402, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11402, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11402, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11402,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (11402,  37,     0.8) /* BuyPrice */
      , (11402,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11402,   1, 'Aun Laranawa the Barkeep') /* Name */
-     , (11402, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11402,   1, 'Aun Laranawa the Barkeep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11402,   1,   33557117) /* Setup */
      , (11402,   2,  150994954) /* MotionTable */
      , (11402,   3,  536870931) /* SoundTable */
      , (11402,   6,   67113280) /* PaletteBase */
-     , (11402,   8,  100671756) /* Icon */
-     , (11402, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11402, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11402, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (11402,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11402, 8040, 498466879, 173.319, 165.358, 120.006, 0.6571162, 0, 0, -0.7537892) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB6003F [173.319000 165.358000 120.006000] 0.657116 0.000000 0.000000 -0.753789 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11402, 8000, 1910202399) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11402,   1,  80, 0, 0) /* Strength */
@@ -92,6 +84,3 @@ VALUES (11402, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop
      , (11402, 4, 27644, -1, 0, 0, False) /* Create Wharu's Children (27644) for Shop */
      , (11402, 4, 27645, -1, 0, 0, False) /* Create Within the Flesh of Palenqual (27645) for Shop */
      , (11402, 4, 27646, -1, 0, 0, False) /* Create The Drumming of our Shamans (27646) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11402, 67113369, 0, 0);

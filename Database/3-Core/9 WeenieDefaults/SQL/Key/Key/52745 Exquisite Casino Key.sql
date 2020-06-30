@@ -11,8 +11,7 @@ VALUES (52745,   1,      16384) /* ItemType - Key */
      , (52745,  91,          1) /* MaxStructure */
      , (52745,  92,          1) /* Structure */
      , (52745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52745,  94,        640) /* TargetType - LockableMagicTarget */
-     , (52745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52745,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52745,  22, True ) /* Inscribable */;
@@ -25,9 +24,4 @@ VALUES (52745,   1,   33554784) /* Setup */
      , (52745,   3,  536870932) /* SoundTable */
      , (52745,   8,  100671519) /* Icon */
      , (52745,  22,  872415275) /* PhysicsEffectTable */
-     , (52745, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (52745, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (52745, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52745, 8000,      52745) /* PCAPRecordedObjectIID */;
+     , (52745, 8044,       2200) /* PCAPPhysicsDIDDataTemplatedFrom - Copy of Witshire's Key */;

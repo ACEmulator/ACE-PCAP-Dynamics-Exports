@@ -28,9 +28,7 @@ VALUES (3912,   1,          1) /* ItemType - MeleeWeapon */
      , (3912, 151,          2) /* HookType - Wall */
      , (3912, 172,          3) /* AppraisalLongDescDecoration */
      , (3912, 176,         44) /* AppraisalItemSkill */
-     , (3912, 353,          2) /* WeaponType - Sword */
-     , (3912, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3912, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3912, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3912,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (3912,   5,  -0.025) /* ManaRate */
      , (3912,  26,       0) /* MaximumVelocity */
      , (3912,  29,   1.021) /* WeaponDefense */
      , (3912,  62,   1.031) /* WeaponOffense */
-     , (3912,  63,       1) /* DamageMod */
-     , (3912, 8004,       2) /* PCAPRecordedWorkmanship */;
+     , (3912,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3912,   1, 'Frost Yaoji') /* Name */
@@ -53,13 +50,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3912,   1,   33555810) /* Setup */
      , (3912,   3,  536870932) /* SoundTable */
      , (3912,   8,  100667621) /* Icon */
-     , (3912,  22,  872415275) /* PhysicsEffectTable */
-     , (3912, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3912, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3912, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3912, 8000, 2779730251) /* PCAPRecordedObjectIID */;
+     , (3912,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3912,  1613,      2) 

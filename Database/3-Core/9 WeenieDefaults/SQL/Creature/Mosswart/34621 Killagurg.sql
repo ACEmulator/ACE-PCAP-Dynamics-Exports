@@ -12,8 +12,7 @@ VALUES (34621,   1,         16) /* ItemType - Creature */
      , (34621,  25,        125) /* Level */
      , (34621,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34621, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34621, 307,          5) /* DamageRating */
-     , (34621, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34621, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34621,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34621,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34621,   1, 'Killagurg') /* Name */
-     , (34621, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (34621,   1, 'Killagurg') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34621,   1,   33554490) /* Setup */
@@ -31,17 +29,11 @@ VALUES (34621,   1,   33554490) /* Setup */
      , (34621,   3,  536870959) /* SoundTable */
      , (34621,   6,   67109310) /* PaletteBase */
      , (34621,   8,  100667449) /* Icon */
-     , (34621,  22,  872415264) /* PhysicsEffectTable */
-     , (34621, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (34621, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (34621, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (34621,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34621, 8040, 11927821, 30, -180, -11.88785, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B6010D [30.000000 -180.000000 -11.887850] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34621, 8000, 2931424691) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34621,   1, 450, 0, 0) /* Strength */
@@ -60,6 +52,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (34621, 2, 23721,  1, 0, 0, False) /* Create Acid Yari (23721) for Wield */
      , (34621, 2, 23709,  1, 0, 0, False) /* Create Yaoji (23709) for Wield */
      , (34621, 2, 23699,  1, 0, 0, False) /* Create Tachi (23699) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34621, 67113048, 0, 0);

@@ -18,8 +18,7 @@ VALUES (695,   1,         16) /* ItemType - Creature */
      , (695, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (695, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (695, 188,          1) /* HeritageGroup - Aluvian */
-     , (695, 307,          5) /* DamageRating */
-     , (695, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (695, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (695,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (695,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (695,   1, 'Cateril Carsmad the Armorer') /* Name */
-     , (695,   5, 'Armorer') /* Template */
-     , (695, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (695,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (695,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (695,   1,   33554510) /* Setup */
      , (695,  11,   83890330) /* MouthTexture */
      , (695,  15,   67117022) /* HairPalette */
      , (695,  16,   67110063) /* EyesPalette */
-     , (695,  17,   67109559) /* SkinPalette */
-     , (695, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (695, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (695, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (695,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (695, 8040, 3332964642, 32.2254, 86.8837, 42.005, -0.9999731, 0, 0, -0.007335986) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90122 [32.225400 86.883700 42.005000] -0.999973 0.000000 0.000000 -0.007336 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (695, 8000, 2087358502) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (695,   1, 105, 0, 0) /* Strength */
@@ -111,50 +103,3 @@ VALUES (695, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (695, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (695, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (695, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (695, 67109559, 0, 24)
-     , (695, 67109969, 92, 4)
-     , (695, 67110003, 72, 8)
-     , (695, 67110063, 32, 8)
-     , (695, 67110356, 64, 8)
-     , (695, 67110356, 160, 8)
-     , (695, 67110369, 40, 24)
-     , (695, 67117022, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (695, 0, 83889072, 83890012)
-     , (695, 0, 83889342, 83890011)
-     , (695, 1, 83887064, 83886241)
-     , (695, 2, 83887066, 83887051)
-     , (695, 3, 83889344, 83887054)
-     , (695, 4, 83887068, 83887054)
-     , (695, 5, 83887064, 83886241)
-     , (695, 6, 83887066, 83887051)
-     , (695, 7, 83889344, 83887054)
-     , (695, 8, 83887068, 83887054)
-     , (695, 9, 83887070, 83890009)
-     , (695, 9, 83887062, 83890010)
-     , (695, 16, 83886232, 83890685)
-     , (695, 16, 83886668, 83890282)
-     , (695, 16, 83886837, 83890286)
-     , (695, 16, 83886684, 83890330);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (695, 0, 16781875)
-     , (695, 1, 16778430)
-     , (695, 2, 16781908)
-     , (695, 3, 16781841)
-     , (695, 4, 16783485)
-     , (695, 5, 16778438)
-     , (695, 6, 16781909)
-     , (695, 7, 16781840)
-     , (695, 8, 16783487)
-     , (695, 9, 16778425)
-     , (695, 10, 16778431)
-     , (695, 11, 16778429)
-     , (695, 12, 16778423)
-     , (695, 13, 16778434)
-     , (695, 14, 16778424)
-     , (695, 15, 16778435)
-     , (695, 16, 16795675);

@@ -11,8 +11,7 @@ VALUES (35578,   1,         16) /* ItemType - Creature */
      , (35578,  16,          1) /* ItemUseable - No */
      , (35578,  25,        135) /* Level */
      , (35578,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35578, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35578, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35578, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35578,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35578,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35578,   1, 'Drudge Biter') /* Name */
-     , (35578, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35578,   1, 'Drudge Biter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35578,   1,   33556445) /* Setup */
@@ -30,17 +28,11 @@ VALUES (35578,   1,   33556445) /* Setup */
      , (35578,   3,  536870919) /* SoundTable */
      , (35578,   6,   67112812) /* PaletteBase */
      , (35578,   8,  100667445) /* Icon */
-     , (35578,  22,  872415258) /* PhysicsEffectTable */
-     , (35578, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35578, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35578, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (35578,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35578, 8040, 3097428026, 186.314, 32.7555, 84.00333, -0.280921, 0, 0, 0.9597309) /* PCAPRecordedLocation */
 /* @teleloc 0xB89F003A [186.314000 32.755500 84.003330] -0.280921 0.000000 0.000000 0.959731 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35578, 8000, 3694317702) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35578,   1, 230, 0, 0) /* Strength */
@@ -103,21 +95,3 @@ VALUES (35578, 9, 45100,  0, 0, 0, False) /* Create Acid Epee (45100) for Contai
      , (35578, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
      , (35578, 9,  3940,  0, 0, 0, False) /* Create Lightning Morning Star (3940) for ContainTreasure */
      , (35578, 9,    63,  0, 0, 0, False) /* Create Studded Leather Girth (63) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35578, 67112816, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35578, 1, 83892459, 83892460)
-     , (35578, 1, 83892457, 83892458)
-     , (35578, 3, 83892453, 83892454)
-     , (35578, 6, 83892453, 83892454)
-     , (35578, 9, 83892467, 83892468)
-     , (35578, 12, 83892467, 83892468);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35578, 1, 16784273)
-     , (35578, 3, 16784258)
-     , (35578, 6, 16784261)
-     , (35578, 9, 16784289)
-     , (35578, 12, 16784289);

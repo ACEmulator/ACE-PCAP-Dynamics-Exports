@@ -29,14 +29,8 @@ A statue sculpted in the likeness of the vanquished Colosseum Champion, Gladiato
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12679,   1,   33557133) /* Setup */
      , (12679,   8,  100671680) /* Icon */
-     , (12679,  22,  872415275) /* PhysicsEffectTable */
-     , (12679, 8001,  840958010) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, UseRadius, Burden, HouseOwner, HookType, HookItemTypes */
-     , (12679, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (12679, 8005,      36993) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position */;
+     , (12679,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12679, 8040, 2519466028, 127.925, 94, 32.025, 0.38349, 0, 0, -0.923545) /* PCAPRecordedLocation */
 /* @teleloc 0x962C002C [127.925000 94.000000 32.025000] 0.383490 0.000000 0.000000 -0.923545 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12679, 8000, 2036514935) /* PCAPRecordedObjectIID */;

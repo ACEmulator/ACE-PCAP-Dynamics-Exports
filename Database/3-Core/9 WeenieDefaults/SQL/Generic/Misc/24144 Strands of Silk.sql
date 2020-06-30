@@ -10,8 +10,7 @@ VALUES (24144,   1,        128) /* ItemType - Misc */
      , (24144,  19,         10) /* Value */
      , (24144,  33,          1) /* Bonded - Bonded */
      , (24144,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24144, 114,          1) /* Attuned - Attuned */
-     , (24144, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (24144, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24144,  22, True ) /* Inscribable */;
@@ -28,23 +27,8 @@ VALUES (24144,   1,   33554817) /* Setup */
      , (24144,   3,  536870932) /* SoundTable */
      , (24144,   6,   67111919) /* PaletteBase */
      , (24144,   8,  100674259) /* Icon */
-     , (24144,  22,  872415275) /* PhysicsEffectTable */
-     , (24144, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (24144, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (24144, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (24144,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24144, 8040, 288620588, 133.497, 79.7667, 50.79875, 0.260399, 0, 0, 0.9655011) /* PCAPRecordedLocation */
 /* @teleloc 0x1134002C [133.497000 79.766700 50.798750] 0.260399 0.000000 0.000000 0.965501 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24144, 8000, 3692726576) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24144, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24144, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24144, 0, 16777882);

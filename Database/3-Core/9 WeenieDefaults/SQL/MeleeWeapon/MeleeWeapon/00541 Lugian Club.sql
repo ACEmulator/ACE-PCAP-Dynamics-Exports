@@ -11,8 +11,7 @@ VALUES (541,   1,          1) /* ItemType - MeleeWeapon */
      , (541,  19,        200) /* Value */
      , (541,  51,          1) /* CombatUse - Melee */
      , (541,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (541, 151,          2) /* HookType - Wall */
-     , (541, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (541, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (541,  22, True ) /* Inscribable */;
@@ -30,19 +29,4 @@ VALUES (541,   1,   33557067) /* Setup */
      , (541,   8,  100668855) /* Icon */
      , (541,  22,  872415275) /* PhysicsEffectTable */
      , (541,  30,         88) /* PhysicsScript - Create */
-     , (541, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (541, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (541, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (541, 8000,        541) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (541, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (541, 0, 83889238, 83889238)
-     , (541, 0, 83886747, 83886747);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (541, 0, 16785974);
+     , (541, 8044,      35630) /* PCAPPhysicsDIDDataTemplatedFrom - Sickle of Azaxis */;

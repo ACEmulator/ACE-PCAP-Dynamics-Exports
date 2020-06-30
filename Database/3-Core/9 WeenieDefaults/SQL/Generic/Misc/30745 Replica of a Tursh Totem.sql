@@ -10,8 +10,7 @@ VALUES (30745,   1,        128) /* ItemType - Misc */
      , (30745,  19,       5000) /* Value */
      , (30745,  33,          1) /* Bonded - Bonded */
      , (30745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30745, 151,          9) /* HookType - Floor, Yard */
-     , (30745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30745, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30745,  22, True ) /* Inscribable */;
@@ -26,10 +25,4 @@ VALUES (30745,   1, 'Replica of a Tursh Totem') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30745,   1,   33559203) /* Setup */
-     , (30745,   8,  100677379) /* Icon */
-     , (30745, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
-     , (30745, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30745, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30745, 8000, 3346100827) /* PCAPRecordedObjectIID */;
+     , (30745,   8,  100677379) /* Icon */;

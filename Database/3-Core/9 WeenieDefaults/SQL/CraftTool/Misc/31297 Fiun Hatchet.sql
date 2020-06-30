@@ -12,8 +12,7 @@ VALUES (31297,   1,        128) /* ItemType - Misc */
      , (31297,  15,          0) /* StackUnitValue */
      , (31297,  16,    2097160) /* ItemUseable - SourceContainedTargetRemote */
      , (31297,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31297,  94,        128) /* TargetType - Misc */
-     , (31297, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31297,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31297,   1, 'Fiun Hatchet') /* Name */;
@@ -22,10 +21,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31297,   1,   33554817) /* Setup */
      , (31297,   3,  536870932) /* SoundTable */
      , (31297,   8,  100687711) /* Icon */
-     , (31297,  22,  872415275) /* PhysicsEffectTable */
-     , (31297, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (31297, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31297, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31297, 8000, 2532493418) /* PCAPRecordedObjectIID */;
+     , (31297,  22,  872415275) /* PhysicsEffectTable */;

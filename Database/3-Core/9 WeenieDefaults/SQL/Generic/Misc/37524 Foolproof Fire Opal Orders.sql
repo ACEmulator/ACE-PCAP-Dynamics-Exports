@@ -6,8 +6,7 @@ VALUES (37524, 'ace37524-foolprooffireopalorders', 1, '2019-02-10 00:00:00') /* 
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (37524,   1,        128) /* ItemType - Misc */
      , (37524,  16,          1) /* ItemUseable - No */
-     , (37524,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37524, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37524,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37524,  39,    0.37) /* DefaultScale */;
@@ -20,9 +19,4 @@ VALUES (37524,   1,   33554680) /* Setup */
      , (37524,   3,  536870932) /* SoundTable */
      , (37524,   8,  100689882) /* Icon */
      , (37524,  22,  872415275) /* PhysicsEffectTable */
-     , (37524, 8001,      16400) /* PCAPRecordedWeenieHeader - Usable, Container */
-     , (37524, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37524, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37524, 8000,      37524) /* PCAPRecordedObjectIID */;
+     , (37524, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

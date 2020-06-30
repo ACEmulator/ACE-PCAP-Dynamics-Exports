@@ -11,8 +11,7 @@ VALUES (40495,   1,         16) /* ItemType - Creature */
      , (40495,  16,          1) /* ItemUseable - No */
      , (40495,  25,        185) /* Level */
      , (40495,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (40495, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (40495, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40495, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40495,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40495,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40495,   1, 'Hea Apostate Shock Trooper') /* Name */
-     , (40495, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (40495,   1, 'Hea Apostate Shock Trooper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40495,   1,   33559568) /* Setup */
@@ -30,17 +28,11 @@ VALUES (40495,   1,   33559568) /* Setup */
      , (40495,   3,  536870931) /* SoundTable */
      , (40495,   6,   67116625) /* PaletteBase */
      , (40495,   8,  100667452) /* Icon */
-     , (40495,  22,  872415270) /* PhysicsEffectTable */
-     , (40495, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (40495, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (40495, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (40495,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40495, 8040, 1068564525, 137.934, 103.675, 19.502, 0.7028818, 0, 0, 0.7113068) /* PCAPRecordedLocation */
 /* @teleloc 0x3FB1002D [137.934000 103.675000 19.502000] 0.702882 0.000000 0.000000 0.711307 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40495, 8000, 3361445176) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40495,   1, 330, 0, 0) /* Strength */
@@ -116,11 +108,3 @@ VALUES (40495, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
      , (40495, 9, 45396,  0, 0, 0, False) /* Create Short Sword (45396) for ContainTreasure */
      , (40495, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (40495, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40495, 67116636, 153, 47)
-     , (40495, 67116636, 200, 8)
-     , (40495, 67116636, 208, 48)
-     , (40495, 67116637, 57, 48)
-     , (40495, 67116637, 105, 48)
-     , (40495, 67116643, 1, 48);

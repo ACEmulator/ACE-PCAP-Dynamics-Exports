@@ -34,8 +34,7 @@ VALUES (35869,   1,         16) /* ItemType - Creature */
      , (35869, 386,          0) /* Overpower */
      , (35869, 387,          0) /* OverpowerResist */
      , (35869, 388,          0) /* GearOverpower */
-     , (35869, 389,          0) /* GearOverpowerResist */
-     , (35869, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35869, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35869,   1, True ) /* Stuck */
@@ -47,24 +46,17 @@ VALUES (35869,  39,     1.6) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35869,   1, 'Gladiator Diemos') /* Name */
-     , (35869,  14, 'This statues use remains a mystery.') /* Use */
-     , (35869, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (35869,  14, 'This statues use remains a mystery.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35869,   1,   33560265) /* Setup */
      , (35869,   2,  150995174) /* MotionTable */
      , (35869,   3,  536871052) /* SoundTable */
-     , (35869,   8,  100674350) /* Icon */
-     , (35869, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (35869, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (35869, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (35869,   8,  100674350) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35869, 8040, 11469122, 60, -37.3, 0.008000016, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0142 [60.000000 -37.300000 0.008000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35869, 8000, 3684814102) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35869, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for ContainTreasure */
@@ -106,46 +98,3 @@ VALUES (35869, 9,  3819,  0, 0, 0, False) /* Create Lightning Katar (3819) for C
      , (35869, 9, 31814,  0, 0, 0, False) /* Create Dark Blunt Slingshot (31814) for ContainTreasure */
      , (35869, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (35869, 9, 20470,  0, 0, 0, False) /* Create Scroll of Swordsman's Gift (20470) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35869, 0, 83894477, 83897668)
-     , (35869, 0, 83894478, 83897668)
-     , (35869, 1, 83894490, 83897668)
-     , (35869, 2, 83894483, 83897668)
-     , (35869, 2, 83894484, 83897668)
-     , (35869, 3, 83894184, 83897668)
-     , (35869, 4, 83894184, 83897668)
-     , (35869, 5, 83894490, 83897668)
-     , (35869, 6, 83894483, 83897668)
-     , (35869, 6, 83894484, 83897668)
-     , (35869, 7, 83894184, 83897668)
-     , (35869, 8, 83894184, 83897668)
-     , (35869, 9, 83894480, 83897668)
-     , (35869, 9, 83894481, 83897668)
-     , (35869, 10, 83894489, 83897668)
-     , (35869, 11, 83894479, 83897668)
-     , (35869, 12, 83894485, 83897668)
-     , (35869, 13, 83894489, 83897668)
-     , (35869, 14, 83894479, 83897668)
-     , (35869, 15, 83894485, 83897668)
-     , (35869, 16, 83892425, 83897668)
-     , (35869, 16, 83892492, 83897668);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35869, 0, 16788885)
-     , (35869, 1, 16788894)
-     , (35869, 2, 16788893)
-     , (35869, 3, 16788081)
-     , (35869, 4, 16788088)
-     , (35869, 5, 16788896)
-     , (35869, 6, 16788895)
-     , (35869, 7, 16788082)
-     , (35869, 8, 16788089)
-     , (35869, 9, 16788889)
-     , (35869, 10, 16788898)
-     , (35869, 11, 16788887)
-     , (35869, 12, 16788891)
-     , (35869, 13, 16788897)
-     , (35869, 14, 16788888)
-     , (35869, 15, 16788892)
-     , (35869, 16, 16789125);

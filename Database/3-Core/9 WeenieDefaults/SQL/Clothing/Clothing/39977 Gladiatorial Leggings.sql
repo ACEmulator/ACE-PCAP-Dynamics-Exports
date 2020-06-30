@@ -20,8 +20,7 @@ VALUES (39977,   1,          4) /* ItemType - Clothing */
      , (39977, 158,          7) /* WieldRequirements - Level */
      , (39977, 159,          1) /* WieldSkillType - Axe */
      , (39977, 160,        100) /* WieldDifficulty */
-     , (39977, 265,         31) /* EquipmentSetId - ColosseumClothing */
-     , (39977, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39977, 265,         31) /* EquipmentSetId - ColosseumClothing */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39977,  22, True ) /* Inscribable */
@@ -46,27 +45,8 @@ VALUES (39977,   1,   33554653) /* Setup */
      , (39977,   3,  536870932) /* SoundTable */
      , (39977,   6,   67108990) /* PaletteBase */
      , (39977,   8,  100682346) /* Icon */
-     , (39977,  22,  872415275) /* PhysicsEffectTable */
-     , (39977, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (39977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39977, 8000, 2343130102) /* PCAPRecordedObjectIID */;
+     , (39977,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39977,  2572,      2) 
      , (39977,  2575,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39977, 67115698, 72, 8)
-     , (39977, 67115719, 64, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (39977, 0, 83887064, 83896971)
-     , (39977, 0, 83887066, 83896972)
-     , (39977, 0, 83889072, 83896973)
-     , (39977, 0, 83889342, 83896974);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (39977, 0, 16778358);

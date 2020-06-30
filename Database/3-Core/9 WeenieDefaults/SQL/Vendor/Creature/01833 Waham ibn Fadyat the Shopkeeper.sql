@@ -17,8 +17,7 @@ VALUES (1833,   1,         16) /* ItemType - Creature */
      , (1833, 113,          1) /* Gender - Male */
      , (1833, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1833, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1833, 188,          2) /* HeritageGroup - Gharundim */
-     , (1833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1833, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1833,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1833,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1833,   1, 'Waham ibn Fadyat the Shopkeeper') /* Name */
-     , (1833,   5, 'Shopkeeper') /* Template */
-     , (1833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1833,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1833,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1833,   1,   33554433) /* Setup */
      , (1833,  15,   67117022) /* HairPalette */
      , (1833,  16,   67110062) /* EyesPalette */
      , (1833,  17,   67109554) /* SkinPalette */
-     , (1833,  22,  872415381) /* PhysicsEffectTable */
-     , (1833, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1833, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1833, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (1833,  22,  872415381) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1833, 8040, 2724135226, 131.755, 18.0078, 20.005, -0.2362091, 0, 0, -0.9717022) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F013A [131.755000 18.007800 20.005000] -0.236209 0.000000 0.000000 -0.971702 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1833, 8000, 2049306647) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1833,   1,  90, 0, 0) /* Strength */
@@ -118,54 +110,3 @@ VALUES (1833, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (1833, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1833, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (1833, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1833, 67109554, 0, 24)
-     , (1833, 67109969, 92, 4)
-     , (1833, 67110026, 72, 8)
-     , (1833, 67110062, 32, 8)
-     , (1833, 67110317, 64, 8)
-     , (1833, 67110339, 160, 8)
-     , (1833, 67110339, 250, 6)
-     , (1833, 67110369, 40, 24)
-     , (1833, 67117022, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1833, 0, 83889072, 83890012)
-     , (1833, 0, 83889342, 83890011)
-     , (1833, 1, 83887064, 83886241)
-     , (1833, 2, 83887066, 83887051)
-     , (1833, 3, 83889344, 83887054)
-     , (1833, 4, 83887068, 83887054)
-     , (1833, 5, 83887064, 83886241)
-     , (1833, 6, 83887066, 83887051)
-     , (1833, 7, 83889344, 83887054)
-     , (1833, 8, 83887068, 83887054)
-     , (1833, 9, 83887061, 83890009)
-     , (1833, 9, 83887060, 83890010)
-     , (1833, 10, 83887069, 83886782)
-     , (1833, 13, 83887069, 83886782)
-     , (1833, 16, 83886232, 83890685)
-     , (1833, 16, 83886668, 83890511)
-     , (1833, 16, 83886837, 83890555)
-     , (1833, 16, 83886684, 83890606)
-     , (1833, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1833, 0, 16781835)
-     , (1833, 1, 16777295)
-     , (1833, 2, 16781866)
-     , (1833, 3, 16781841)
-     , (1833, 4, 16781838)
-     , (1833, 5, 16777299)
-     , (1833, 6, 16781864)
-     , (1833, 7, 16781840)
-     , (1833, 8, 16781839)
-     , (1833, 9, 16777300)
-     , (1833, 10, 16777301)
-     , (1833, 11, 16777302)
-     , (1833, 12, 16777304)
-     , (1833, 13, 16777303)
-     , (1833, 14, 16777305)
-     , (1833, 15, 16777307)
-     , (1833, 16, 16778594);

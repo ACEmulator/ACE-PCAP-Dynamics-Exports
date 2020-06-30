@@ -8,10 +8,7 @@ VALUES (9197,   1,       8192) /* ItemType - Writable */
      , (9197,   5,          5) /* EncumbranceVal */
      , (9197,  16,          8) /* ItemUseable - Contained */
      , (9197,  19,          0) /* Value */
-     , (9197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9197, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (9197, 8042,          7) /* PCAPRecordedAppraisalPages */
-     , (9197, 8043,          7) /* PCAPRecordedAppraisalMaxPages */;
+     , (9197,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9197,   1, 'Orb of Clarity') /* Name */
@@ -22,10 +19,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9197,   1,   33556994) /* Setup */
      , (9197,   3,  536870932) /* SoundTable */
      , (9197,   8,  100671418) /* Icon */
-     , (9197,  22,  872415275) /* PhysicsEffectTable */
-     , (9197, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (9197, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (9197, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9197, 8000, 2976077671) /* PCAPRecordedObjectIID */;
+     , (9197,  22,  872415275) /* PhysicsEffectTable */;

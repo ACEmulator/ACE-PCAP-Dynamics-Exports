@@ -11,8 +11,7 @@ VALUES (1616,   1,         16) /* ItemType - Creature */
      , (1616,  16,          1) /* ItemUseable - No */
      , (1616,  25,         15) /* Level */
      , (1616,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1616, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1616, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1616, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1616,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (1616,  39,     0.9) /* DefaultScale */
      , (1616,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1616,   1, 'Swamp Gromnie') /* Name */
-     , (1616, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1616,   1, 'Swamp Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1616,   1,   33554487) /* Setup */
@@ -32,17 +30,11 @@ VALUES (1616,   1,   33554487) /* Setup */
      , (1616,   6,   67109307) /* PaletteBase */
      , (1616,   8,  100667938) /* Icon */
      , (1616,  22,  872415260) /* PhysicsEffectTable */
-     , (1616,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (1616, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1616, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1616, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (1616,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1616, 8040, 3160014853, 12.55869, 116.5228, 16.29426, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xBC5A0005 [12.558690 116.522800 16.294260] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1616, 8000, 3710909805) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1616,   1,  90, 0, 0) /* Strength */
@@ -72,6 +64,3 @@ VALUES (1616, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for Contai
      , (1616, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (1616, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (1616, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1616, 67116464, 0, 0);

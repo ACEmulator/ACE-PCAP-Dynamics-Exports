@@ -17,8 +17,7 @@ VALUES (4555,   1,         16) /* ItemType - Creature */
      , (4555, 113,          1) /* Gender - Male */
      , (4555, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4555, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4555, 188,          3) /* HeritageGroup - Sho */
-     , (4555, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4555, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4555,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4555,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4555,   1, 'Wuo Ha the Provisioner') /* Name */
-     , (4555,   5, 'Provisioner') /* Template */
-     , (4555, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4555,   5, 'Provisioner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4555,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4555,   1,   33554433) /* Setup */
      , (4555,  11,   83890571) /* MouthTexture */
      , (4555,  15,   67116992) /* HairPalette */
      , (4555,  16,   67109565) /* EyesPalette */
-     , (4555,  17,   67110061) /* SkinPalette */
-     , (4555, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4555, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4555, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4555,  17,   67110061) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4555, 8040, 3845980430, 177.834, 137.311, 96.005, 0.7434299, 0, 0, -0.6688139) /* PCAPRecordedLocation */
 /* @teleloc 0xE53D010E [177.834000 137.311000 96.005000] 0.743430 0.000000 0.000000 -0.668814 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4555, 8000, 2119421960) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4555,   1,  60, 0, 0) /* Strength */
@@ -117,53 +109,3 @@ VALUES (4555, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (4555, 4,  7823, -1, 0, 0, False) /* Create Heavy Grinder (7823) for Shop */
      , (4555, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (4555, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4555, 67109565, 32, 8)
-     , (4555, 67109969, 92, 4)
-     , (4555, 67110026, 72, 8)
-     , (4555, 67110061, 0, 24)
-     , (4555, 67110320, 64, 8)
-     , (4555, 67110325, 40, 24)
-     , (4555, 67110325, 160, 8)
-     , (4555, 67110376, 216, 24)
-     , (4555, 67116992, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4555, 0, 83889072, 83890012)
-     , (4555, 0, 83889342, 83890011)
-     , (4555, 1, 83887064, 83886241)
-     , (4555, 3, 83889344, 83887054)
-     , (4555, 4, 83887068, 83887054)
-     , (4555, 5, 83887064, 83886241)
-     , (4555, 7, 83889344, 83887054)
-     , (4555, 8, 83887068, 83887054)
-     , (4555, 9, 83887061, 83890009)
-     , (4555, 9, 83887060, 83890010)
-     , (4555, 10, 83887069, 83886782)
-     , (4555, 11, 83887067, 83891213)
-     , (4555, 13, 83887069, 83886782)
-     , (4555, 14, 83887067, 83891213)
-     , (4555, 16, 83886232, 83890685)
-     , (4555, 16, 83886668, 83890516)
-     , (4555, 16, 83886837, 83890517)
-     , (4555, 16, 83886684, 83890571);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4555, 0, 16781835)
-     , (4555, 1, 16777295)
-     , (4555, 2, 16777293)
-     , (4555, 3, 16777292)
-     , (4555, 4, 16777291)
-     , (4555, 5, 16777299)
-     , (4555, 6, 16777297)
-     , (4555, 7, 16777296)
-     , (4555, 8, 16777298)
-     , (4555, 9, 16777300)
-     , (4555, 10, 16777301)
-     , (4555, 11, 16777302)
-     , (4555, 12, 16777304)
-     , (4555, 13, 16777303)
-     , (4555, 14, 16777305)
-     , (4555, 15, 16777307)
-     , (4555, 16, 16795640);

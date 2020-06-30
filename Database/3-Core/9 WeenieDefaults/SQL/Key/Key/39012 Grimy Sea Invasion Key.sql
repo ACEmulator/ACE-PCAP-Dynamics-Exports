@@ -13,8 +13,7 @@ VALUES (39012,   1,      16384) /* ItemType - Key */
      , (39012,  92,          1) /* Structure */
      , (39012,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39012,  94,        640) /* TargetType - LockableMagicTarget */
-     , (39012, 114,          1) /* Attuned - Attuned */
-     , (39012, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39012, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39012,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (39012,   1, 'Grimy Sea Invasion Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39012,   1,   33554784) /* Setup */
      , (39012,   8,  100667485) /* Icon */
-     , (39012,  22,  872415275) /* PhysicsEffectTable */
-     , (39012, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (39012, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39012, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39012, 8000, 2883374481) /* PCAPRecordedObjectIID */;
+     , (39012,  22,  872415275) /* PhysicsEffectTable */;

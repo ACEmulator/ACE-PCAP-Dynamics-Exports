@@ -25,8 +25,7 @@ VALUES (21150,   1,          2) /* ItemType - Armor */
      , (21150, 158,          2) /* WieldRequirements - RawSkill */
      , (21150, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21150, 160,        325) /* WieldDifficulty */
-     , (21150, 172,          1) /* AppraisalLongDescDecoration */
-     , (21150, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21150, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21150,  22, True ) /* Inscribable */
@@ -41,8 +40,7 @@ VALUES (21150,   5,   -0.05) /* ManaRate */
      , (21150,  17,     0.6) /* ArmorModVsFire */
      , (21150,  18,     0.6) /* ArmorModVsAcid */
      , (21150,  19,     0.6) /* ArmorModVsElectric */
-     , (21150, 165,       1) /* ArmorModVsNether */
-     , (21150, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (21150, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21150,   1, 'Covenant Sollerets') /* Name */
@@ -53,24 +51,8 @@ VALUES (21150,   1,   33554654) /* Setup */
      , (21150,   3,  536870932) /* SoundTable */
      , (21150,   6,   67108990) /* PaletteBase */
      , (21150,   8,  100673457) /* Icon */
-     , (21150,  22,  872415275) /* PhysicsEffectTable */
-     , (21150, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (21150, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21150, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21150, 8000, 3694257525) /* PCAPRecordedObjectIID */;
+     , (21150,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21150,  1486,      2) 
      , (21150,  2580,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21150, 67113968, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21150, 0, 83889344, 83894184)
-     , (21150, 0, 83887066, 83894184);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21150, 0, 16778416);

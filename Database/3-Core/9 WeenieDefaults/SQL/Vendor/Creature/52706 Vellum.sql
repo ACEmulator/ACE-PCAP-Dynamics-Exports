@@ -17,8 +17,7 @@ VALUES (52706,   1,         16) /* ItemType - Creature */
      , (52706, 113,          1) /* Gender - Male */
      , (52706, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52706, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (52706, 188,          9) /* HeritageGroup - Empyrean */
-     , (52706, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52706, 188,          9) /* HeritageGroup - Empyrean */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52706,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (52706,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52706,   1, 'Vellum') /* Name */
-     , (52706,   5, 'Vendor of the Web') /* Template */
-     , (52706, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (52706,   5, 'Vendor of the Web') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52706,   1,   33561104) /* Setup */
@@ -48,17 +46,11 @@ VALUES (52706,   1,   33561104) /* Setup */
      , (52706,  15,   67117071) /* HairPalette */
      , (52706,  16,   67116856) /* EyesPalette */
      , (52706,  17,   67116965) /* SkinPalette */
-     , (52706,  57,      52797) /* AlternateCurrency - Gauntlet Coin */
-     , (52706, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (52706, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (52706, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (52706,  57,      52797) /* AlternateCurrency - Gauntlet Coin */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52706, 8040, 1500184841, 113.262, -70, 0.005500019, -0.701223, 0, 0, -0.712942) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0109 [113.262000 -70.000000 0.005500] -0.701223 0.000000 0.000000 -0.712942 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52706, 8000, 1972809774) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52706,   1, 600, 0, 0) /* Strength */
@@ -107,54 +99,3 @@ VALUES (52706, 4, 52735, -1, 0, 0, False) /* Create Gauntlet Backpack (52735) fo
      , (52706, 4, 52737, -1, 0, 0, False) /* Create Gauntlet Health Kit (52737) for Shop */
      , (52706, 4, 52739, -1, 0, 0, False) /* Create Gauntlet Stamina Kit (52739) for Shop */
      , (52706, 4, 52738, -1, 0, 0, False) /* Create Gauntlet Mana Kit (52738) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52706, 67109964, 92, 4)
-     , (52706, 67110003, 72, 8)
-     , (52706, 67110334, 64, 8)
-     , (52706, 67110334, 40, 24)
-     , (52706, 67110334, 160, 8)
-     , (52706, 67116856, 32, 8)
-     , (52706, 67116965, 0, 24)
-     , (52706, 67117071, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (52706, 0, 83889072, 83886685)
-     , (52706, 0, 83889342, 83889386)
-     , (52706, 1, 83887064, 83886241)
-     , (52706, 2, 83887066, 83887051)
-     , (52706, 3, 83889344, 83887054)
-     , (52706, 4, 83887068, 83887054)
-     , (52706, 5, 83887064, 83886241)
-     , (52706, 6, 83887066, 83887051)
-     , (52706, 7, 83889344, 83887054)
-     , (52706, 8, 83887068, 83887054)
-     , (52706, 9, 83887070, 83886687)
-     , (52706, 9, 83887062, 83886686)
-     , (52706, 10, 83887069, 83886782)
-     , (52706, 11, 83886788, 83891213)
-     , (52706, 13, 83887069, 83886782)
-     , (52706, 14, 83886788, 83891213)
-     , (52706, 16, 83886232, 83890685)
-     , (52706, 16, 83886668, 83890479)
-     , (52706, 16, 83886837, 83890558)
-     , (52706, 16, 83886684, 83890641);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (52706, 0, 16793874)
-     , (52706, 1, 16778430)
-     , (52706, 2, 16781908)
-     , (52706, 3, 16781841)
-     , (52706, 4, 16783485)
-     , (52706, 5, 16778438)
-     , (52706, 6, 16781909)
-     , (52706, 7, 16781840)
-     , (52706, 8, 16783487)
-     , (52706, 9, 16793873)
-     , (52706, 10, 16778431)
-     , (52706, 11, 16781873)
-     , (52706, 12, 16777304)
-     , (52706, 13, 16778434)
-     , (52706, 14, 16781874)
-     , (52706, 15, 16777307)
-     , (52706, 16, 16795654);

@@ -23,8 +23,7 @@ VALUES (51858,   1,          2) /* ItemType - Armor */
      , (51858, 158,          7) /* WieldRequirements - Level */
      , (51858, 159,          1) /* WieldSkillType - Axe */
      , (51858, 160,        180) /* WieldDifficulty */
-     , (51858, 265,         21) /* EquipmentSetId - Wise */
-     , (51858, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (51858, 265,         21) /* EquipmentSetId - Wise */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51858,  22, True ) /* Inscribable */
@@ -51,23 +50,14 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51858,   1,   33561594) /* Setup */
      , (51858,   3,  536870932) /* SoundTable */
      , (51858,   8,  100693222) /* Icon */
-     , (51858,  22,  872415275) /* PhysicsEffectTable */
-     , (51858, 8001,  270860432) /* PCAPRecordedWeenieHeader - Usable, UiEffects, ValidLocations, Priority, Burden, HookType */
-     , (51858, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (51858, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (51858,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51858, 8040, 3583574079, 179.0235, 158.8356, 373.9975, 0.812439, 0, 0, -0.5830463) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [179.023500 158.835600 373.997500] 0.812439 0.000000 0.000000 -0.583046 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51858, 8000, 2158297561) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51858,  4407,      2) 
      , (51858,  4700,      2) 
      , (51858,  6051,      2) 
      , (51858,  6063,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (51858, 0, 16797000);

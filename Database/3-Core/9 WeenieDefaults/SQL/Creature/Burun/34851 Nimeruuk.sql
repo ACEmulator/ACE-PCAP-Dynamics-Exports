@@ -13,8 +13,7 @@ VALUES (34851,   1,         16) /* ItemType - Creature */
      , (34851,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34851,  95,          8) /* RadarBlipColor - Yellow */
      , (34851, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (34851, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (34851, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34851, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34851,   1, True ) /* Stuck */
@@ -25,25 +24,18 @@ VALUES (34851,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34851,   1, 'Nimeruuk') /* Name */
-     , (34851,   5, 'Purveyor of Fine Fungus') /* Template */
-     , (34851, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (34851,   5, 'Purveyor of Fine Fungus') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34851,   1,   33558582) /* Setup */
      , (34851,   2,  150995272) /* MotionTable */
      , (34851,   3,  536871083) /* SoundTable */
      , (34851,   6,   67114919) /* PaletteBase */
-     , (34851,   8,  100675761) /* Icon */
-     , (34851, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (34851, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (34851, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (34851,   8,  100675761) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34851, 8040, 10223927, 246, -120, -29.96795, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x009C0137 [246.000000 -120.000000 -29.967950] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34851, 8000, 3359479075) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34851,   1, 150, 0, 0) /* Strength */
@@ -57,6 +49,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34851,   1,   150, 0, 0, 260) /* MaxHealth */
      , (34851,   3,   200, 0, 0, 420) /* MaxStamina */
      , (34851,   5,   100, 0, 0, 240) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34851, 67114919, 0, 0);

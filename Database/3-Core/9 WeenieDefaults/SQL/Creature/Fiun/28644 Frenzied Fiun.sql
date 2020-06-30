@@ -12,8 +12,7 @@ VALUES (28644,   1,         16) /* ItemType - Creature */
      , (28644,  25,        100) /* Level */
      , (28644,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28644, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28644, 307,          2) /* DamageRating */
-     , (28644, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28644, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28644,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28644,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28644,   1, 'Frenzied Fiun') /* Name */
-     , (28644, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28644,   1, 'Frenzied Fiun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28644,   1,   33559202) /* Setup */
@@ -31,17 +29,11 @@ VALUES (28644,   1,   33559202) /* Setup */
      , (28644,   3,  536871100) /* SoundTable */
      , (28644,   6,   67115480) /* PaletteBase */
      , (28644,   8,  100677372) /* Icon */
-     , (28644,  22,  872415412) /* PhysicsEffectTable */
-     , (28644, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28644, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28644, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28644,  22,  872415412) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28644, 8040, 26083919, 30.2093, -164.652, -6.00541, -0.008072004, 0, 0, 0.9999674) /* PCAPRecordedLocation */
 /* @teleloc 0x018E024F [30.209300 -164.652000 -6.005410] -0.008072 0.000000 0.000000 0.999967 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28644, 8000, 3690451875) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28644,   1, 160, 0, 0) /* Strength */
@@ -220,6 +212,3 @@ VALUES (28644, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for Cont
      , (28644, 9, 20406,  0, 0, 0, False) /* Create Aura of Infected Caress (20406) for ContainTreasure */
      , (28644, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
      , (28644, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28644, 67116330, 0, 0);

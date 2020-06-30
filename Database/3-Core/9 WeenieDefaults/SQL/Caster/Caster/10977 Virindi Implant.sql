@@ -17,8 +17,7 @@ VALUES (10977,   1,      32768) /* ItemType - Caster */
      , (10977, 108,        600) /* ItemMaxMana */
      , (10977, 115,        225) /* ItemSkillLevelLimit */
      , (10977, 151,          2) /* HookType - Wall */
-     , (10977, 176,         31) /* AppraisalItemSkill */
-     , (10977, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (10977, 176,         31) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10977,  22, True ) /* Inscribable */;
@@ -37,13 +36,7 @@ VALUES (10977,   1,   33557289) /* Setup */
      , (10977,   3,  536870932) /* SoundTable */
      , (10977,   8,  100671871) /* Icon */
      , (10977,  22,  872415275) /* PhysicsEffectTable */
-     , (10977,  28,       2419) /* Spell - PanicAttack */
-     , (10977, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (10977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (10977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10977, 8000, 2981038652) /* PCAPRecordedObjectIID */;
+     , (10977,  28,       2419) /* Spell - PanicAttack */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10977,  2419,      2) 

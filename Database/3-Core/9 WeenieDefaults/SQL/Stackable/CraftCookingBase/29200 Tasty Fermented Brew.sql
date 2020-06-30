@@ -12,8 +12,7 @@ VALUES (29200,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29200,  15,         75) /* StackUnitValue */
      , (29200,  16,          1) /* ItemUseable - No */
      , (29200,  19,         75) /* Value */
-     , (29200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29200, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29200,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29200,   1, 'Tasty Fermented Brew') /* Name */
@@ -24,10 +23,4 @@ VALUES (29200,   1,   33559154) /* Setup */
      , (29200,   3,  536870932) /* SoundTable */
      , (29200,   8,  100686464) /* Icon */
      , (29200,  22,  872415275) /* PhysicsEffectTable */
-     , (29200,  50,  100687551) /* IconOverlay */
-     , (29200, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (29200, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29200, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29200, 8000, 3655183471) /* PCAPRecordedObjectIID */;
+     , (29200,  50,  100687551) /* IconOverlay */;

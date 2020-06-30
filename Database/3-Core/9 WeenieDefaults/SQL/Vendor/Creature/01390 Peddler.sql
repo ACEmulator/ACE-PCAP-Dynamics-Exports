@@ -17,8 +17,7 @@ VALUES (1390,   1,         16) /* ItemType - Creature */
      , (1390, 113,          1) /* Gender - Male */
      , (1390, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1390, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1390, 188,          1) /* HeritageGroup - Aluvian */
-     , (1390, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1390, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1390,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1390,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1390,   1, 'Peddler') /* Name */
-     , (1390,   5, 'Peddler') /* Template */
-     , (1390, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1390,   5, 'Peddler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1390,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1390,   1,   33554433) /* Setup */
      , (1390,  11,   83890646) /* MouthTexture */
      , (1390,  15,   67117025) /* HairPalette */
      , (1390,  16,   67109565) /* EyesPalette */
-     , (1390,  17,   67109562) /* SkinPalette */
-     , (1390, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1390, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1390, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1390,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1390, 8040, 1121845260, 30.5013, 79.7776, 4.005, 0.7306626, 0, 0, -0.6827387) /* PCAPRecordedLocation */
 /* @teleloc 0x42DE000C [30.501300 79.777600 4.005000] 0.730663 0.000000 0.000000 -0.682739 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1390, 8000, 1949163523) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1390,   1,  80, 0, 0) /* Strength */
@@ -103,57 +95,3 @@ VALUES (1390, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (1390, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1390, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1390, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1390, 67109562, 0, 24)
-     , (1390, 67109565, 32, 8)
-     , (1390, 67109964, 92, 4)
-     , (1390, 67110020, 72, 8)
-     , (1390, 67110342, 216, 24)
-     , (1390, 67110356, 40, 24)
-     , (1390, 67110378, 160, 8)
-     , (1390, 67110385, 250, 6)
-     , (1390, 67111304, 64, 8)
-     , (1390, 67117025, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1390, 0, 83889072, 83890012)
-     , (1390, 0, 83889342, 83890011)
-     , (1390, 1, 83887064, 83886241)
-     , (1390, 2, 83887066, 83887051)
-     , (1390, 3, 83889344, 83887054)
-     , (1390, 4, 83887068, 83887054)
-     , (1390, 5, 83887064, 83886241)
-     , (1390, 6, 83887066, 83887051)
-     , (1390, 7, 83889344, 83887054)
-     , (1390, 8, 83887068, 83887054)
-     , (1390, 9, 83887061, 83890009)
-     , (1390, 9, 83887060, 83890010)
-     , (1390, 10, 83887069, 83886782)
-     , (1390, 11, 83887067, 83891213)
-     , (1390, 13, 83887069, 83886782)
-     , (1390, 14, 83887067, 83891213)
-     , (1390, 16, 83886232, 83890685)
-     , (1390, 16, 83886668, 83890445)
-     , (1390, 16, 83886837, 83890561)
-     , (1390, 16, 83886684, 83890646)
-     , (1390, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1390, 0, 16781835)
-     , (1390, 1, 16777295)
-     , (1390, 2, 16781866)
-     , (1390, 3, 16781841)
-     , (1390, 4, 16781838)
-     , (1390, 5, 16777299)
-     , (1390, 6, 16781864)
-     , (1390, 7, 16781840)
-     , (1390, 8, 16781839)
-     , (1390, 9, 16777300)
-     , (1390, 10, 16777301)
-     , (1390, 11, 16777302)
-     , (1390, 12, 16777304)
-     , (1390, 13, 16777303)
-     , (1390, 14, 16777305)
-     , (1390, 15, 16777307)
-     , (1390, 16, 16779630);

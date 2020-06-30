@@ -17,8 +17,7 @@ VALUES (42808,   1,         16) /* ItemType - Creature */
      , (42808, 113,          2) /* Gender - Female */
      , (42808, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42808, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42808, 188,          3) /* HeritageGroup - Sho */
-     , (42808, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42808, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42808,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (42808,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42808,   1, 'Hanadi the Barkeeper') /* Name */
-     , (42808,   5, 'Barkeeper') /* Template */
-     , (42808, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (42808,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42808,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (42808,   1,   33554510) /* Setup */
      , (42808,  11,   83890357) /* MouthTexture */
      , (42808,  15,   67116998) /* HairPalette */
      , (42808,  16,   67110062) /* EyesPalette */
-     , (42808,  17,   67110055) /* SkinPalette */
-     , (42808, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (42808, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (42808, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (42808,  17,   67110055) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42808, 8040, 459128, 122.302, -70.5203, 0.004999995, -0.9996088, 0, 0, -0.02796753) /* PCAPRecordedLocation */
 /* @teleloc 0x00070178 [122.302000 -70.520300 0.005000] -0.999609 0.000000 0.000000 -0.027968 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42808, 8000, 1879077017) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42808,   1,  55, 0, 0) /* Strength */
@@ -85,53 +77,3 @@ VALUES (42808, 4, 44397, -1, 0, 0, False) /* Create Contract for Aerbax's Defeat
      , (42808, 4, 51227, -1, 0, 0, False) /* Create Contract for Golem Hunters: Platinum Golem Mountain King (51227) for Shop */
      , (42808, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */
      , (42808, 4, 43022, -1, 0, 0, False) /* Create Core Plating Deintegrator (43022) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42808, 67109964, 92, 4)
-     , (42808, 67110003, 72, 8)
-     , (42808, 67110055, 0, 24)
-     , (42808, 67110062, 32, 8)
-     , (42808, 67110320, 216, 24)
-     , (42808, 67110334, 64, 8)
-     , (42808, 67110337, 40, 24)
-     , (42808, 67111245, 160, 8)
-     , (42808, 67116998, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42808, 0, 83889072, 83890012)
-     , (42808, 0, 83889342, 83890011)
-     , (42808, 1, 83887064, 83886241)
-     , (42808, 2, 83887066, 83887051)
-     , (42808, 3, 83889344, 83887054)
-     , (42808, 4, 83887068, 83887054)
-     , (42808, 5, 83887064, 83886241)
-     , (42808, 6, 83887066, 83887051)
-     , (42808, 7, 83889344, 83887054)
-     , (42808, 8, 83887068, 83887054)
-     , (42808, 9, 83887070, 83890009)
-     , (42808, 9, 83887062, 83890010)
-     , (42808, 10, 83886796, 83886782)
-     , (42808, 13, 83886796, 83886782)
-     , (42808, 16, 83886232, 83890685)
-     , (42808, 16, 83886668, 83890241)
-     , (42808, 16, 83886837, 83890298)
-     , (42808, 16, 83886684, 83890357);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42808, 0, 16781875)
-     , (42808, 1, 16778430)
-     , (42808, 2, 16781908)
-     , (42808, 3, 16781841)
-     , (42808, 4, 16783485)
-     , (42808, 5, 16778438)
-     , (42808, 6, 16781909)
-     , (42808, 7, 16781840)
-     , (42808, 8, 16783487)
-     , (42808, 9, 16778425)
-     , (42808, 10, 16781904)
-     , (42808, 11, 16778429)
-     , (42808, 12, 16778423)
-     , (42808, 13, 16781905)
-     , (42808, 14, 16778424)
-     , (42808, 15, 16778435)
-     , (42808, 16, 16795655);

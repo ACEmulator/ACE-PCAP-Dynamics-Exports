@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4596,   1,    1048576) /* ItemType - Service */
      , (4596,  16,          1) /* ItemUseable - No */
      , (4596,  19,        200) /* Value */
-     , (4596,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4596, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4596,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4596,  39,    0.37) /* DefaultScale */;
@@ -22,9 +21,4 @@ VALUES (4596,   1,   33554680) /* Setup */
      , (4596,   8,  100668279) /* Icon */
      , (4596,  22,  872415275) /* PhysicsEffectTable */
      , (4596,  28,        160) /* Spell - RegenerationOther2 */
-     , (4596, 8001,    4210712) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Spell */
-     , (4596, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (4596, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4596, 8000,       4596) /* PCAPRecordedObjectIID */;
+     , (4596, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

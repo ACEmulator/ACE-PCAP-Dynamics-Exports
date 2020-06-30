@@ -17,8 +17,7 @@ VALUES (27554,   1,         16) /* ItemType - Creature */
      , (27554, 113,          1) /* Gender - Male */
      , (27554, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27554, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (27554, 188,          1) /* HeritageGroup - Aluvian */
-     , (27554, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27554, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27554,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (27554,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27554,   1, 'Caleb Jinor the Healer') /* Name */
-     , (27554,   5, 'Jeweler') /* Template */
-     , (27554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (27554,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27554,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (27554,   1,   33554433) /* Setup */
      , (27554,  11,   83890613) /* MouthTexture */
      , (27554,  15,   67117017) /* HairPalette */
      , (27554,  16,   67109564) /* EyesPalette */
-     , (27554,  17,   67109560) /* SkinPalette */
-     , (27554, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (27554, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (27554, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (27554,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27554, 8040, 2429550848, 57.7154, 108.431, 282.005, 0.2455389, 0, 0, -0.9693868) /* PCAPRecordedLocation */
 /* @teleloc 0x90D00100 [57.715400 108.431000 282.005000] 0.245539 0.000000 0.000000 -0.969387 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27554, 8000, 2030895115) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27554,   1,  70, 0, 0) /* Strength */
@@ -95,53 +87,3 @@ VALUES (27554, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (27554, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (27554, 4,   630, -1, 0, 0, False) /* Create Gifted Healing Kit (630) for Shop */
      , (27554, 4,   631, -1, 0, 0, False) /* Create Excellent Healing Kit (631) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27554, 67109560, 0, 24)
-     , (27554, 67109564, 32, 8)
-     , (27554, 67109969, 92, 4)
-     , (27554, 67110003, 72, 8)
-     , (27554, 67110354, 40, 24)
-     , (27554, 67110356, 64, 8)
-     , (27554, 67110356, 160, 8)
-     , (27554, 67110376, 216, 24)
-     , (27554, 67117017, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (27554, 0, 83889072, 83890012)
-     , (27554, 0, 83889342, 83890011)
-     , (27554, 1, 83887064, 83886241)
-     , (27554, 2, 83887066, 83887055)
-     , (27554, 3, 83889344, 83887054)
-     , (27554, 4, 83887068, 83887054)
-     , (27554, 5, 83887064, 83886241)
-     , (27554, 6, 83887066, 83887055)
-     , (27554, 7, 83889344, 83887054)
-     , (27554, 8, 83887068, 83887054)
-     , (27554, 9, 83887061, 83890009)
-     , (27554, 9, 83887060, 83890010)
-     , (27554, 10, 83887069, 83886782)
-     , (27554, 13, 83887069, 83886782)
-     , (27554, 16, 83886232, 83890685)
-     , (27554, 16, 83886668, 83890448)
-     , (27554, 16, 83886837, 83890554)
-     , (27554, 16, 83886684, 83890613);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (27554, 0, 16781835)
-     , (27554, 1, 16777295)
-     , (27554, 2, 16777293)
-     , (27554, 3, 16777292)
-     , (27554, 4, 16777291)
-     , (27554, 5, 16777299)
-     , (27554, 6, 16777297)
-     , (27554, 7, 16777296)
-     , (27554, 8, 16777298)
-     , (27554, 9, 16777300)
-     , (27554, 10, 16777301)
-     , (27554, 11, 16777302)
-     , (27554, 12, 16777304)
-     , (27554, 13, 16777303)
-     , (27554, 14, 16777305)
-     , (27554, 15, 16777307)
-     , (27554, 16, 16795650);

@@ -27,8 +27,7 @@ VALUES (42753,   1,          2) /* ItemType - Armor */
      , (42753, 160,        150) /* WieldDifficulty */
      , (42753, 172,          5) /* AppraisalLongDescDecoration */
      , (42753, 177,          3) /* GemCount */
-     , (42753, 178,         41) /* GemType */
-     , (42753, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42753, 178,         41) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42753,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (42753,   5,  -0.056) /* ManaRate */
      , (42753,  17,   1.121) /* ArmorModVsFire */
      , (42753,  18,    1.48) /* ArmorModVsAcid */
      , (42753,  19,   0.808) /* ArmorModVsElectric */
-     , (42753, 165,       1) /* ArmorModVsNether */
-     , (42753, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (42753, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42753,   1, 'Haebrean Helm') /* Name */
@@ -55,26 +53,13 @@ VALUES (42753,   1,   33559082) /* Setup */
      , (42753,   3,  536870932) /* SoundTable */
      , (42753,   6,   67108990) /* PaletteBase */
      , (42753,   8,  100691108) /* Icon */
-     , (42753,  22,  872415275) /* PhysicsEffectTable */
-     , (42753, 8001, 2435121304) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (42753, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42753, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (42753,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42753, 8040, 23855549, 54.38182, -41.19116, 0.03029341, 0.5795639, 0, 0, 0.8149268) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.381820 -41.191160 0.030293] 0.579564 0.000000 0.000000 0.814927 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42753, 8000, 2237242413) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42753,   779,      2) 
      , (42753,  1486,      2) 
      , (42753,  4686,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42753, 67110015, 240, 10)
-     , (42753, 67110542, 250, 6);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42753, 0, 16794673);

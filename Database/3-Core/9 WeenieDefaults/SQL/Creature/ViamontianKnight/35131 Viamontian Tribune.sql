@@ -12,8 +12,7 @@ VALUES (35131,   1,         16) /* ItemType - Creature */
      , (35131,  25,        135) /* Level */
      , (35131,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35131, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35131, 307,          5) /* DamageRating */
-     , (35131, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35131, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35131,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35131,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35131,   1, 'Viamontian Tribune') /* Name */
-     , (35131, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35131,   1, 'Viamontian Tribune') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35131,   1,   33559125) /* Setup */
@@ -31,17 +29,11 @@ VALUES (35131,   1,   33559125) /* Setup */
      , (35131,   3,  536871102) /* SoundTable */
      , (35131,   6,   67115468) /* PaletteBase */
      , (35131,   8,  100677371) /* Icon */
-     , (35131,  22,  872415269) /* PhysicsEffectTable */
-     , (35131, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35131, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35131, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (35131,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35131, 8040, 11600270, 35.13506, -1023.601, 0.1117899, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B1018E [35.135060 -1023.601000 0.111790] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35131, 8000, 2930040367) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35131,   1, 395, 0, 0) /* Strength */
@@ -64,6 +56,3 @@ VALUES (35131, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) fo
      , (35131, 2, 40614,  1, 0, 0, False) /* Create Acid Spadone (40614) for Wield */
      , (35131, 2, 40617,  1, 0, 0, False) /* Create Frost Spadone (40617) for Wield */
      , (35131, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35131, 67115517, 0, 0);

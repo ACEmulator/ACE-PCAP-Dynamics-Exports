@@ -33,9 +33,7 @@ VALUES (22166,   1,          1) /* ItemType - MeleeWeapon */
      , (22166, 176,         45) /* AppraisalItemSkill */
      , (22166, 177,          2) /* GemCount */
      , (22166, 178,         13) /* GemType */
-     , (22166, 353,          7) /* WeaponType - Staff */
-     , (22166, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22166, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22166, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22166,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (22166,   5,  -0.042) /* ManaRate */
      , (22166,  29,    1.12) /* WeaponDefense */
      , (22166,  39,     0.8) /* DefaultScale */
      , (22166,  62,    1.03) /* WeaponOffense */
-     , (22166,  63,       1) /* DamageMod */
-     , (22166, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (22166,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22166,   1, 'Flaming Quarter Staff') /* Name */
@@ -60,13 +57,7 @@ VALUES (22166,   1,   33558066) /* Setup */
      , (22166,   3,  536870932) /* SoundTable */
      , (22166,   6,   67111919) /* PaletteBase */
      , (22166,   8,  100673625) /* Icon */
-     , (22166,  22,  872415275) /* PhysicsEffectTable */
-     , (22166, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (22166, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22166, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22166, 8000, 3701170527) /* PCAPRecordedObjectIID */;
+     , (22166,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22166,  1615,      2) 
@@ -76,13 +67,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (22166, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (22166, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22166, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22166, 0, 83894357, 83894357)
-     , (22166, 0, 83894155, 83894155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22166, 0, 16788502);

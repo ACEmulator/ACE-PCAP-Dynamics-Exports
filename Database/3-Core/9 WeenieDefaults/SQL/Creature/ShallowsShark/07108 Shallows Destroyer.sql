@@ -11,8 +11,7 @@ VALUES (7108,   1,         16) /* ItemType - Creature */
      , (7108,  16,          1) /* ItemUseable - No */
      , (7108,  25,         60) /* Level */
      , (7108,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7108, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7108, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7108, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7108,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7108,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7108,   1, 'Shallows Destroyer') /* Name */
-     , (7108, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7108,   1, 'Shallows Destroyer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7108,   1,   33559680) /* Setup */
@@ -30,17 +28,11 @@ VALUES (7108,   1,   33559680) /* Setup */
      , (7108,   3,  536870928) /* SoundTable */
      , (7108,   6,   67116712) /* PaletteBase */
      , (7108,   8,  100667939) /* Icon */
-     , (7108,  22,  872415268) /* PhysicsEffectTable */
-     , (7108, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7108, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7108, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (7108,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7108, 8040, 4062445596, 78.25063, 81.33736, -0.09880006, 0.9537169, 0, 0, -0.3007058) /* PCAPRecordedLocation */
 /* @teleloc 0xF224001C [78.250630 81.337360 -0.098800] 0.953717 0.000000 0.000000 -0.300706 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7108, 8000, 3686006362) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7108,   1, 115, 0, 0) /* Strength */
@@ -185,6 +177,3 @@ VALUES (7108, 9,  2604,  0, 0, 0, False) /* Create Wide Breeches (2604) for Cont
      , (7108, 9,  3377,  0, 0, 0, False) /* Create Scroll of Life Magic Mastery Self VI (3377) for ContainTreasure */
      , (7108, 9, 49352,  0, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for ContainTreasure */
      , (7108, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7108, 67116716, 0, 0);

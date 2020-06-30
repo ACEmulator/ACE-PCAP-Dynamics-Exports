@@ -24,9 +24,7 @@ VALUES (27876,   1,        256) /* ItemType - MissileWeapon */
      , (27876, 313,          0) /* CritRating */
      , (27876, 314,          0) /* CritDamageRating */
      , (27876, 353,         10) /* WeaponType - Thrown */
-     , (27876, 386,          0) /* Overpower */
-     , (27876, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (27876, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (27876, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27876,  21,       0) /* WeaponLength */
@@ -48,16 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27876,   1,   33558785) /* Setup */
      , (27876,   3,  536870932) /* SoundTable */
      , (27876,   8,  100676576) /* Icon */
-     , (27876,  22,  872415275) /* PhysicsEffectTable */
-     , (27876, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (27876, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (27876, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (27876, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (27876,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27876, 8040, 41484559, 100.1532, -107.1534, -54.39165, -0.699645, -0.699645, -0.1024542, -0.1024542) /* PCAPRecordedLocation */
 /* @teleloc 0x0279010F [100.153200 -107.153400 -54.391650] -0.699645 -0.699645 -0.102454 -0.102454 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27876, 8000, 3708622941) /* PCAPRecordedObjectIID */
-     , (27876, 8008, 3708831422) /* PCAPRecordedParentIID */;

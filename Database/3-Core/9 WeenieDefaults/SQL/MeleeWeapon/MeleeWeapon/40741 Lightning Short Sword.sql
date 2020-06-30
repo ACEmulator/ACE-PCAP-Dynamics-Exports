@@ -13,15 +13,13 @@ VALUES (40741,   1,          1) /* ItemType - MeleeWeapon */
      , (40741,  51,          1) /* CombatUse - Melee */
      , (40741,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40741, 131,         63) /* MaterialType - Silver */
-     , (40741, 151,          2) /* HookType - Wall */
-     , (40741, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40741, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40741,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40741,  39,     1.1) /* DefaultScale */
-     , (40741, 8004,       7) /* PCAPRecordedWorkmanship */;
+VALUES (40741,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40741,   1, 'Lightning Short Sword') /* Name */;
@@ -30,10 +28,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40741,   1,   33555806) /* Setup */
      , (40741,   3,  536870932) /* SoundTable */
      , (40741,   8,  100667614) /* Icon */
-     , (40741,  22,  872415275) /* PhysicsEffectTable */
-     , (40741, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40741, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40741, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40741, 8000, 2624403852) /* PCAPRecordedObjectIID */;
+     , (40741,  22,  872415275) /* PhysicsEffectTable */;

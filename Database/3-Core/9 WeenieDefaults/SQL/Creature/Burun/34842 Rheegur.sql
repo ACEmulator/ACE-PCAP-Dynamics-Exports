@@ -13,8 +13,7 @@ VALUES (34842,   1,         16) /* ItemType - Creature */
      , (34842,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (34842,  95,          8) /* RadarBlipColor - Yellow */
      , (34842, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (34842, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (34842, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34842, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34842,   1, True ) /* Stuck */
@@ -25,25 +24,18 @@ VALUES (34842,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34842,   1, 'Rheegur') /* Name */
-     , (34842,   5, 'Memory of Kor-Gursha') /* Template */
-     , (34842, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (34842,   5, 'Memory of Kor-Gursha') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34842,   1,   33558582) /* Setup */
      , (34842,   2,  150995272) /* MotionTable */
      , (34842,   3,  536871083) /* SoundTable */
      , (34842,   6,   67114919) /* PaletteBase */
-     , (34842,   8,  100675761) /* Icon */
-     , (34842, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (34842, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (34842, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (34842,   8,  100675761) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34842, 8040, 10223986, 296.317, -72.1219, -23.96795, -0.702583, 0, 0, -0.711602) /* PCAPRecordedLocation */
 /* @teleloc 0x009C0172 [296.317000 -72.121900 -23.967950] -0.702583 0.000000 0.000000 -0.711602 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34842, 8000, 3359210938) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34842,   1, 150, 0, 0) /* Strength */
@@ -57,6 +49,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34842,   1,   150, 0, 0, 275) /* MaxHealth */
      , (34842,   3,   200, 0, 0, 450) /* MaxStamina */
      , (34842,   5,   100, 0, 0, 280) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34842, 67114919, 0, 0);

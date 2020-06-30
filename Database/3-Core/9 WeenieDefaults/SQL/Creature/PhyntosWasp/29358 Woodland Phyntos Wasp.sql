@@ -11,8 +11,7 @@ VALUES (29358,   1,         16) /* ItemType - Creature */
      , (29358,  16,          1) /* ItemUseable - No */
      , (29358,  25,         80) /* Level */
      , (29358,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (29358, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (29358, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (29358, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29358,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29358,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29358,   1, 'Woodland Phyntos Wasp') /* Name */
-     , (29358, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (29358,   1, 'Woodland Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29358,   1,   33558817) /* Setup */
@@ -30,17 +28,11 @@ VALUES (29358,   1,   33558817) /* Setup */
      , (29358,   3,  536870926) /* SoundTable */
      , (29358,   6,   67115262) /* PaletteBase */
      , (29358,   8,  100667450) /* Icon */
-     , (29358,  22,  872415266) /* PhysicsEffectTable */
-     , (29358, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (29358, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (29358, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (29358,  22,  872415266) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29358, 8040, 669909015, 66.87695, 149.9393, 5.001891, -0.5545709, 0, 0, -0.8321365) /* PCAPRecordedLocation */
 /* @teleloc 0x27EE0017 [66.876950 149.939300 5.001891] -0.554571 0.000000 0.000000 -0.832137 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29358, 8000, 3688294930) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29358,   1, 120, 0, 0) /* Strength */
@@ -59,6 +51,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (29358, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (29358, 9,  2602,  0, 0, 0, False) /* Create Loose Breeches (2602) for ContainTreasure */
      , (29358, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29358, 67115264, 0, 0);

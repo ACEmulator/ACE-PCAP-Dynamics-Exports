@@ -24,9 +24,7 @@ VALUES (41043,   1,          1) /* ItemType - MeleeWeapon */
      , (41043, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41043, 160,        300) /* WieldDifficulty */
      , (41043, 172,          1) /* AppraisalLongDescDecoration */
-     , (41043, 353,         11) /* WeaponType - TwoHanded */
-     , (41043, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41043, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41043, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41043,  22, True ) /* Inscribable */;
@@ -37,8 +35,7 @@ VALUES (41043,  21,       0) /* WeaponLength */
      , (41043,  26,       0) /* MaximumVelocity */
      , (41043,  29,    1.07) /* WeaponDefense */
      , (41043,  62,    1.08) /* WeaponOffense */
-     , (41043,  63,       1) /* DamageMod */
-     , (41043, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (41043,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41043,   1, 'Lightning Magari Yari') /* Name */
@@ -49,20 +46,4 @@ VALUES (41043,   1,   33560800) /* Setup */
      , (41043,   3,  536870932) /* SoundTable */
      , (41043,   6,   67115558) /* PaletteBase */
      , (41043,   8,  100690513) /* Icon */
-     , (41043,  22,  872415275) /* PhysicsEffectTable */
-     , (41043, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41043, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41043, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41043, 8000, 3679331147) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41043, 67116386, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41043, 0, 83896665, 83896665)
-     , (41043, 0, 83896155, 83896155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41043, 0, 16794282);
+     , (41043,  22,  872415275) /* PhysicsEffectTable */;

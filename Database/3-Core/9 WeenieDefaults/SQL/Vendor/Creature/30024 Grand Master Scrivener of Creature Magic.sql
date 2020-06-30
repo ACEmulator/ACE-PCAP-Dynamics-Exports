@@ -17,8 +17,7 @@ VALUES (30024,   1,         16) /* ItemType - Creature */
      , (30024, 113,          1) /* Gender - Male */
      , (30024, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30024, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30024, 188,          4) /* HeritageGroup - Viamontian */
-     , (30024, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30024, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30024,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30024,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30024,   1, 'Grand Master Scrivener of Creature Magic') /* Name */
-     , (30024,   5, 'Master Archmage') /* Template */
-     , (30024, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30024,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30024,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30024,   1,   33554433) /* Setup */
      , (30024,  11,   83890633) /* MouthTexture */
      , (30024,  15,   67117070) /* HairPalette */
      , (30024,  16,   67109564) /* EyesPalette */
-     , (30024,  17,   67115906) /* SkinPalette */
-     , (30024, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30024, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30024, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30024,  17,   67115906) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30024, 8040, 1240465677, 153.433, 33.8669, 170.105, 0.9914499, 0, 0, -0.130488) /* PCAPRecordedLocation */
 /* @teleloc 0x49F0010D [153.433000 33.866900 170.105000] 0.991450 0.000000 0.000000 -0.130488 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30024, 8000, 1956577300) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30024,   1,  90, 0, 0) /* Strength */
@@ -204,40 +196,3 @@ VALUES (30024, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (30024, 4, 43364, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude VI (43364) for Shop */
      , (30024, 4, 43365, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for Shop */
      , (30024, 4, 43366, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self VI (43366) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30024, 67109564, 32, 8)
-     , (30024, 67115906, 0, 24)
-     , (30024, 67116026, 174, 33)
-     , (30024, 67116027, 207, 33)
-     , (30024, 67117070, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30024, 0, 83897013, 83897013)
-     , (30024, 9, 83897018, 83897018)
-     , (30024, 9, 83897019, 83897019)
-     , (30024, 11, 83892346, 83897016)
-     , (30024, 14, 83892346, 83897016)
-     , (30024, 16, 83886232, 83890685)
-     , (30024, 16, 83886668, 83890451)
-     , (30024, 16, 83886837, 83890555)
-     , (30024, 16, 83886684, 83890633);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30024, 0, 16791895)
-     , (30024, 1, 16791896)
-     , (30024, 2, 16791897)
-     , (30024, 3, 16777708)
-     , (30024, 4, 16777708)
-     , (30024, 5, 16791898)
-     , (30024, 6, 16791899)
-     , (30024, 7, 16777708)
-     , (30024, 8, 16777708)
-     , (30024, 9, 16791900)
-     , (30024, 10, 16791901)
-     , (30024, 11, 16783853)
-     , (30024, 12, 16777304)
-     , (30024, 13, 16791903)
-     , (30024, 14, 16783855)
-     , (30024, 15, 16777307)
-     , (30024, 16, 16791907);

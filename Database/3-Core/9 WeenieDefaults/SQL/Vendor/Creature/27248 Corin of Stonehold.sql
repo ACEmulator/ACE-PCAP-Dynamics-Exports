@@ -17,8 +17,7 @@ VALUES (27248,   1,         16) /* ItemType - Creature */
      , (27248, 113,          1) /* Gender - Male */
      , (27248, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (27248, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (27248, 188,          1) /* HeritageGroup - Aluvian */
-     , (27248, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27248, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27248,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (27248,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27248,   1, 'Corin of Stonehold') /* Name */
-     , (27248,   5, 'Farmer') /* Template */
-     , (27248, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (27248,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27248,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (27248,   1,   33554433) /* Setup */
      , (27248,  11,   83890643) /* MouthTexture */
      , (27248,  15,   67116981) /* HairPalette */
      , (27248,  16,   67110065) /* EyesPalette */
-     , (27248,  17,   67109561) /* SkinPalette */
-     , (27248, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (27248, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (27248, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (27248,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27248, 8040, 1691680795, 82.2909, 66.7715, 78.005, -0.9969198, 0, 0, -0.07842814) /* PCAPRecordedLocation */
 /* @teleloc 0x64D5001B [82.290900 66.771500 78.005000] -0.996920 0.000000 0.000000 -0.078428 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27248, 8000, 1984778292) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27248,   1,  75, 0, 0) /* Strength */
@@ -89,55 +81,3 @@ VALUES (27248, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (27248, 4,  4768, -1, 0, 0, False) /* Create Uncooked Rice (4768) for Shop */
      , (27248, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (27248, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27248, 67109561, 0, 24)
-     , (27248, 67110065, 32, 8)
-     , (27248, 67110317, 216, 24)
-     , (27248, 67110363, 64, 8)
-     , (27248, 67110369, 40, 24)
-     , (27248, 67110378, 160, 8)
-     , (27248, 67110551, 92, 4)
-     , (27248, 67110554, 72, 8)
-     , (27248, 67116981, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (27248, 0, 83889072, 83890012)
-     , (27248, 0, 83889342, 83890011)
-     , (27248, 1, 83887064, 83886241)
-     , (27248, 2, 83887066, 83887051)
-     , (27248, 3, 83889344, 83887054)
-     , (27248, 4, 83887068, 83887054)
-     , (27248, 5, 83887064, 83886241)
-     , (27248, 6, 83887066, 83887051)
-     , (27248, 7, 83889344, 83887054)
-     , (27248, 8, 83887068, 83887054)
-     , (27248, 9, 83887061, 83890009)
-     , (27248, 9, 83887060, 83890010)
-     , (27248, 10, 83887069, 83886782)
-     , (27248, 11, 83887067, 83891213)
-     , (27248, 13, 83887069, 83886782)
-     , (27248, 14, 83887067, 83891213)
-     , (27248, 16, 83886232, 83890685)
-     , (27248, 16, 83886668, 83890480)
-     , (27248, 16, 83886837, 83890520)
-     , (27248, 16, 83886684, 83890643);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (27248, 0, 16781835)
-     , (27248, 1, 16777295)
-     , (27248, 2, 16781866)
-     , (27248, 3, 16781841)
-     , (27248, 4, 16781838)
-     , (27248, 5, 16777299)
-     , (27248, 6, 16781864)
-     , (27248, 7, 16781840)
-     , (27248, 8, 16781839)
-     , (27248, 9, 16777300)
-     , (27248, 10, 16777301)
-     , (27248, 11, 16777302)
-     , (27248, 12, 16777304)
-     , (27248, 13, 16777303)
-     , (27248, 14, 16777305)
-     , (27248, 15, 16777307)
-     , (27248, 16, 16795662);

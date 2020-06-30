@@ -12,8 +12,7 @@ VALUES (29357,   1,         16) /* ItemType - Creature */
      , (29357,  25,        185) /* Level */
      , (29357,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29357, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29357, 307,          2) /* DamageRating */
-     , (29357, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (29357, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29357,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29357,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29357,   1, 'Fractured Glacial Golem') /* Name */
-     , (29357, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (29357,   1, 'Fractured Glacial Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29357,   1,   33557484) /* Setup */
@@ -31,17 +29,11 @@ VALUES (29357,   1,   33557484) /* Setup */
      , (29357,   3,  536870933) /* SoundTable */
      , (29357,   6,   67113782) /* PaletteBase */
      , (29357,   8,  100667940) /* Icon */
-     , (29357,  22,  872415323) /* PhysicsEffectTable */
-     , (29357, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (29357, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (29357, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (29357,  22,  872415323) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29357, 8040, 1190264851, 71.08217, 48.65853, 55.74928, -0.7500575, 0, 0, -0.6613727) /* PCAPRecordedLocation */
 /* @teleloc 0x46F20013 [71.082170 48.658530 55.749280] -0.750058 0.000000 0.000000 -0.661373 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29357, 8000, 3690115252) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29357,   1, 230, 0, 0) /* Strength */
@@ -128,6 +120,3 @@ VALUES (29357, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for Cont
      , (29357, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */
      , (29357, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
      , (29357, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29357, 67113782, 0, 0);

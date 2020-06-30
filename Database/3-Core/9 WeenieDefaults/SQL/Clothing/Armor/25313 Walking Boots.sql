@@ -22,8 +22,7 @@ VALUES (25313,   1,          2) /* ItemType - Armor */
      , (25313, 158,          7) /* WieldRequirements - Level */
      , (25313, 159,          1) /* WieldSkillType - Axe */
      , (25313, 160,         50) /* WieldDifficulty */
-     , (25313, 176,         24) /* AppraisalItemSkill */
-     , (25313, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25313, 176,         24) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25313,  22, True ) /* Inscribable */
@@ -49,31 +48,10 @@ VALUES (25313,   1,   33558440) /* Setup */
      , (25313,   3,  536870932) /* SoundTable */
      , (25313,   6,   67108990) /* PaletteBase */
      , (25313,   8,  100674821) /* Icon */
-     , (25313,  22,  872415275) /* PhysicsEffectTable */
-     , (25313, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
-     , (25313, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25313, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25313, 8000, 2622938468) /* PCAPRecordedObjectIID */;
+     , (25313,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25313,   987,      2) 
      , (25313,  1402,      2) 
      , (25313,  1485,      2) 
      , (25313,  2662,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25313, 67114495, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (25313, 1, 83889344, 83894736)
-     , (25313, 2, 83887068, 83892603)
-     , (25313, 4, 83889344, 83894736)
-     , (25313, 5, 83887068, 83892603);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25313, 1, 16781841)
-     , (25313, 2, 16781838)
-     , (25313, 4, 16781840)
-     , (25313, 5, 16781839);

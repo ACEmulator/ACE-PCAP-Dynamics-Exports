@@ -28,9 +28,7 @@ VALUES (3846,   1,          1) /* ItemType - MeleeWeapon */
      , (3846, 151,          2) /* HookType - Wall */
      , (3846, 176,         45) /* AppraisalItemSkill */
      , (3846, 188,          1) /* HeritageGroup - Aluvian */
-     , (3846, 353,          7) /* WeaponType - Staff */
-     , (3846, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3846, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3846, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3846,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (3846,   5,  -0.033) /* ManaRate */
      , (3846,  29,   1.081) /* WeaponDefense */
      , (3846,  39,    0.67) /* DefaultScale */
      , (3846,  62,   1.059) /* WeaponOffense */
-     , (3846,  63,       1) /* DamageMod */
-     , (3846, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (3846,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3846,   1, 'Acid Quarter Staff') /* Name */
@@ -56,13 +53,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3846,   1,   33555770) /* Setup */
      , (3846,   3,  536870932) /* SoundTable */
      , (3846,   8,  100667602) /* Icon */
-     , (3846,  22,  872415275) /* PhysicsEffectTable */
-     , (3846, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3846, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3846, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3846, 8000, 2917029006) /* PCAPRecordedObjectIID */;
+     , (3846,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3846,  1614,      2) 

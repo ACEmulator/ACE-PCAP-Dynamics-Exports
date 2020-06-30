@@ -11,8 +11,7 @@ VALUES (19297,   1,         16) /* ItemType - Creature */
      , (19297,  16,          1) /* ItemUseable - No */
      , (19297,  25,         15) /* Level */
      , (19297,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19297, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19297, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19297,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19297,  39,       3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19297,   1, 'Bronze Statue of a Reedshark') /* Name */
-     , (19297, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19297,   1, 'Bronze Statue of a Reedshark') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19297,   1,   33554489) /* Setup */
@@ -30,17 +28,11 @@ VALUES (19297,   1,   33554489) /* Setup */
      , (19297,   3,  536871052) /* SoundTable */
      , (19297,   6,   67109313) /* PaletteBase */
      , (19297,   8,  100667939) /* Icon */
-     , (19297,  22,  872415386) /* PhysicsEffectTable */
-     , (19297, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19297, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19297, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (19297,  22,  872415386) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19297, 8040, 1415184723, 38.1623, -35.5484, 6.003, 0.5694671, 0, 0, 0.8220141) /* PCAPRecordedLocation */
 /* @teleloc 0x545A0153 [38.162300 -35.548400 6.003000] 0.569467 0.000000 0.000000 0.822014 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19297, 8000, 2172631522) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19297,   1,  90, 0, 0) /* Strength */
@@ -79,6 +71,3 @@ VALUES (19297, 9, 46874,  0, 0, 0, False) /* Create Aura of Defender Other II (4
      , (19297, 9,   273, 40, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (19297, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
      , (19297, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19297, 67113802, 0, 0);

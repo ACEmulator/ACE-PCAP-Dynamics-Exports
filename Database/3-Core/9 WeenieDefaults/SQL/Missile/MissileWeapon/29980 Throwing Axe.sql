@@ -24,8 +24,7 @@ VALUES (29980,   1,        256) /* ItemType - MissileWeapon */
      , (29980, 313,          0) /* CritRating */
      , (29980, 314,          0) /* CritDamageRating */
      , (29980, 353,         10) /* WeaponType - Thrown */
-     , (29980, 386,          0) /* Overpower */
-     , (29980, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (29980, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29980,  21,       0) /* WeaponLength */
@@ -46,19 +45,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29980,   1,   33559306) /* Setup */
      , (29980,   3,  536870932) /* SoundTable */
      , (29980,   8,  100686568) /* Icon */
-     , (29980,  22,  872415275) /* PhysicsEffectTable */
-     , (29980, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (29980, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29980, 8005,      39713) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position */
-     , (29980, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (29980,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29980, 8040, 1966472, 229.925, -301.8748, -12.06921, 0.7070072, 0.7070072, -0.01186384, -0.01186384) /* PCAPRecordedLocation */
 /* @teleloc 0x001E0188 [229.925000 -301.874800 -12.069210] 0.707007 0.707007 -0.011864 -0.011864 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29980, 8000, 3690635696) /* PCAPRecordedObjectIID */
-     , (29980, 8008, 3692366495) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29980, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */

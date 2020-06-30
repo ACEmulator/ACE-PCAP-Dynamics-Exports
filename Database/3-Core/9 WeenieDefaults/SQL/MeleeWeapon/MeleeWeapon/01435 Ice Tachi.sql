@@ -23,9 +23,7 @@ VALUES (1435,   1,          1) /* ItemType - MeleeWeapon */
      , (1435, 108,       1000) /* ItemMaxMana */
      , (1435, 109,         20) /* ItemDifficulty */
      , (1435, 151,          2) /* HookType - Wall */
-     , (1435, 353,          2) /* WeaponType - Sword */
-     , (1435, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (1435, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (1435, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1435,  22, True ) /* Inscribable */;
@@ -48,19 +46,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1435,   1,   33555754) /* Setup */
      , (1435,   6,   67111919) /* PaletteBase */
      , (1435,   8,  100668916) /* Icon */
-     , (1435,  22,  872415275) /* PhysicsEffectTable */
-     , (1435, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (1435, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (1435, 8005,     167969) /* PCAPRecordedPhysicsDesc - CSetup, Parent, PeTable, Position, AnimationFrame */
-     , (1435, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (1435,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1435, 8040, 23200208, 63.53141, -3.360832, 11.929, -0.02956501, -0.02956501, -0.7064884, -0.7064884) /* PCAPRecordedLocation */
 /* @teleloc 0x016201D0 [63.531410 -3.360832 11.929000] -0.029565 -0.029565 -0.706488 -0.706488 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1435, 8000, 3622515865) /* PCAPRecordedObjectIID */
-     , (1435, 8008, 1343737031) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1435,    49,      2) 
@@ -68,14 +58,3 @@ VALUES (1435,    49,      2)
      , (1435,  1588,      2) 
      , (1435,  1601,      2) 
      , (1435,  1612,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1435, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1435, 0, 83886749, 83886749)
-     , (1435, 0, 83886747, 83886747)
-     , (1435, 0, 83886746, 83886746);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1435, 0, 16777915);

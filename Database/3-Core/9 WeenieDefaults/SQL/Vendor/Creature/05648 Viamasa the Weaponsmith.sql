@@ -18,8 +18,7 @@ VALUES (5648,   1,         16) /* ItemType - Creature */
      , (5648, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5648, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (5648, 188,          1) /* HeritageGroup - Aluvian */
-     , (5648, 307,          5) /* DamageRating */
-     , (5648, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5648, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5648,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (5648,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5648,   1, 'Viamasa the Weaponsmith') /* Name */
-     , (5648,   5, 'Weaponsmith') /* Template */
-     , (5648, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5648,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5648,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (5648,   1,   33554510) /* Setup */
      , (5648,  11,   83890336) /* MouthTexture */
      , (5648,  15,   67116990) /* HairPalette */
      , (5648,  16,   67110063) /* EyesPalette */
-     , (5648,  17,   67109561) /* SkinPalette */
-     , (5648, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5648, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5648, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (5648,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5648, 8040, 2513829915, 93.1504, 61.6468, 106.005, 0.1230569, 0, 0, -0.9923996) /* PCAPRecordedLocation */
 /* @teleloc 0x95D6001B [93.150400 61.646800 106.005000] 0.123057 0.000000 0.000000 -0.992400 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5648, 8000, 2036162568) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5648,   1, 190, 0, 0) /* Strength */
@@ -104,58 +96,3 @@ VALUES (5648, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield */
      , (5648, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (5648, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (5648, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5648, 67109561, 0, 24)
-     , (5648, 67109967, 92, 4)
-     , (5648, 67110020, 72, 8)
-     , (5648, 67110063, 32, 8)
-     , (5648, 67110378, 64, 8)
-     , (5648, 67110378, 40, 24)
-     , (5648, 67110378, 160, 8)
-     , (5648, 67110378, 250, 6)
-     , (5648, 67110385, 216, 24)
-     , (5648, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5648, 0, 83889072, 83890012)
-     , (5648, 0, 83889342, 83890011)
-     , (5648, 1, 83887064, 83886241)
-     , (5648, 2, 83887066, 83887051)
-     , (5648, 3, 83889344, 83887054)
-     , (5648, 4, 83887068, 83887054)
-     , (5648, 5, 83887064, 83886241)
-     , (5648, 6, 83887066, 83887051)
-     , (5648, 7, 83889344, 83887054)
-     , (5648, 8, 83887068, 83887054)
-     , (5648, 9, 83887070, 83890009)
-     , (5648, 9, 83887062, 83890010)
-     , (5648, 10, 83886796, 83886782)
-     , (5648, 11, 83886788, 83891213)
-     , (5648, 13, 83886796, 83886782)
-     , (5648, 14, 83886788, 83891213)
-     , (5648, 16, 83886232, 83890685)
-     , (5648, 16, 83886668, 83890277)
-     , (5648, 16, 83886837, 83890315)
-     , (5648, 16, 83886684, 83890336)
-     , (5648, 16, 83889859, 83889864)
-     , (5648, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5648, 0, 16781875)
-     , (5648, 1, 16778430)
-     , (5648, 2, 16778436)
-     , (5648, 3, 16778361)
-     , (5648, 4, 16778426)
-     , (5648, 5, 16778438)
-     , (5648, 6, 16778437)
-     , (5648, 7, 16778360)
-     , (5648, 8, 16778428)
-     , (5648, 9, 16778425)
-     , (5648, 10, 16781910)
-     , (5648, 11, 16781812)
-     , (5648, 12, 16778423)
-     , (5648, 13, 16781911)
-     , (5648, 14, 16781813)
-     , (5648, 15, 16778435)
-     , (5648, 16, 16779635);

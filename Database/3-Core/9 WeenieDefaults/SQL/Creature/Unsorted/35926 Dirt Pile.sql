@@ -37,8 +37,7 @@ VALUES (35926,   1,         16) /* ItemType - Creature */
      , (35926, 386,          0) /* Overpower */
      , (35926, 387,          0) /* OverpowerResist */
      , (35926, 388,          0) /* GearOverpower */
-     , (35926, 389,          0) /* GearOverpowerResist */
-     , (35926, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35926, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35926,   1, True ) /* Stuck */
@@ -49,21 +48,14 @@ VALUES (35926,  39,     0.7) /* DefaultScale */
      , (35926,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35926,   1, 'Dirt Pile') /* Name */
-     , (35926, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35926,   1, 'Dirt Pile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35926,   1,   33557839) /* Setup */
      , (35926,   2,  150995355) /* MotionTable */
      , (35926,   3,  536870913) /* SoundTable */
-     , (35926,   8,  100667494) /* Icon */
-     , (35926, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (35926, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (35926, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (35926,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35926, 8040, 1210974220, 46.32769, 76.86295, 10, -1, 0, 0, -0.0001575073) /* PCAPRecordedLocation */
 /* @teleloc 0x482E000C [46.327690 76.862950 10.000000] -1.000000 0.000000 0.000000 -0.000158 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35926, 8000, 3683058751) /* PCAPRecordedObjectIID */;

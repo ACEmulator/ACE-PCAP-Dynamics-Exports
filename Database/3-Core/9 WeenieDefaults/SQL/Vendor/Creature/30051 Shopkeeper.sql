@@ -17,8 +17,7 @@ VALUES (30051,   1,         16) /* ItemType - Creature */
      , (30051, 113,          2) /* Gender - Female */
      , (30051, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30051, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30051, 188,          4) /* HeritageGroup - Viamontian */
-     , (30051, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30051, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30051,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30051,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30051,   1, 'Shopkeeper') /* Name */
-     , (30051,   5, 'Shopkeeper') /* Template */
-     , (30051, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30051,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30051,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30051,   1,   33554510) /* Setup */
      , (30051,  11,   83890336) /* MouthTexture */
      , (30051,  15,   67117095) /* HairPalette */
      , (30051,  16,   67110065) /* EyesPalette */
-     , (30051,  17,   67115902) /* SkinPalette */
-     , (30051, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30051, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30051, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30051,  17,   67115902) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30051, 8040, 601489673, 102.511, 91.1132, 2.005, 0.1751212, 0, 0, -0.9845469) /* PCAPRecordedLocation */
 /* @teleloc 0x23DA0109 [102.511000 91.113200 2.005000] 0.175121 0.000000 0.000000 -0.984547 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30051, 8000, 1916641282) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30051,   1,  40, 0, 0) /* Strength */
@@ -133,49 +125,3 @@ VALUES (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30051, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30051, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30051, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30051, 67109964, 92, 4)
-     , (30051, 67110065, 32, 8)
-     , (30051, 67110318, 216, 24)
-     , (30051, 67110334, 40, 24)
-     , (30051, 67110372, 64, 8)
-     , (30051, 67110540, 72, 8)
-     , (30051, 67115839, 160, 8)
-     , (30051, 67115902, 0, 24)
-     , (30051, 67117095, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30051, 0, 83889072, 83890012)
-     , (30051, 0, 83889342, 83890011)
-     , (30051, 1, 83887064, 83886241)
-     , (30051, 5, 83887064, 83886241)
-     , (30051, 9, 83887070, 83890009)
-     , (30051, 9, 83887062, 83890010)
-     , (30051, 10, 83887069, 83886782)
-     , (30051, 11, 83886788, 83891213)
-     , (30051, 13, 83887069, 83886782)
-     , (30051, 14, 83886788, 83891213)
-     , (30051, 16, 83886232, 83890685)
-     , (30051, 16, 83886668, 83890276)
-     , (30051, 16, 83886837, 83890302)
-     , (30051, 16, 83886684, 83890336);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30051, 0, 16781875)
-     , (30051, 1, 16778430)
-     , (30051, 2, 16791885)
-     , (30051, 3, 16791879)
-     , (30051, 4, 16791881)
-     , (30051, 5, 16778438)
-     , (30051, 6, 16791884)
-     , (30051, 7, 16791880)
-     , (30051, 8, 16791882)
-     , (30051, 9, 16778425)
-     , (30051, 10, 16778431)
-     , (30051, 11, 16781873)
-     , (30051, 12, 16778423)
-     , (30051, 13, 16778434)
-     , (30051, 14, 16781874)
-     , (30051, 15, 16778435)
-     , (30051, 16, 16795662);

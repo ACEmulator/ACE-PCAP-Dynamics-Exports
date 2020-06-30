@@ -8,8 +8,7 @@ VALUES (32181,   1,        128) /* ItemType - Misc */
      , (32181,   5,          2) /* EncumbranceVal */
      , (32181,  16,          1) /* ItemUseable - No */
      , (32181,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32181, 151,          9) /* HookType - Floor, Yard */
-     , (32181, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32181, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32181,   1, 'Ghostly Shroud') /* Name */;
@@ -18,10 +17,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32181,   1,   33554817) /* Setup */
      , (32181,   3,  536870932) /* SoundTable */
      , (32181,   8,  100688460) /* Icon */
-     , (32181,  22,  872415275) /* PhysicsEffectTable */
-     , (32181, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
-     , (32181, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (32181, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32181, 8000, 2964122990) /* PCAPRecordedObjectIID */;
+     , (32181,  22,  872415275) /* PhysicsEffectTable */;

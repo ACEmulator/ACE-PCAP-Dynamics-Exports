@@ -26,9 +26,7 @@ VALUES (3902,   1,          1) /* ItemType - MeleeWeapon */
      , (3902, 172,          5) /* AppraisalLongDescDecoration */
      , (3902, 177,          2) /* GemCount */
      , (3902, 178,         27) /* GemType */
-     , (3902, 353,          3) /* WeaponType - Axe */
-     , (3902, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3902, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3902, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3902,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (3902,  21,       0) /* WeaponLength */
      , (3902,  29,    1.08) /* WeaponDefense */
      , (3902,  39,     1.2) /* DefaultScale */
      , (3902,  62,    1.12) /* WeaponOffense */
-     , (3902,  63,       1) /* DamageMod */
-     , (3902, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3902,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3902,   1, 'Lightning Tungi') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3902,   1,   33555805) /* Setup */
      , (3902,   3,  536870932) /* SoundTable */
      , (3902,   8,  100669055) /* Icon */
-     , (3902,  22,  872415275) /* PhysicsEffectTable */
-     , (3902, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3902, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3902, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3902, 8000, 3355027013) /* PCAPRecordedObjectIID */;
+     , (3902,  22,  872415275) /* PhysicsEffectTable */;

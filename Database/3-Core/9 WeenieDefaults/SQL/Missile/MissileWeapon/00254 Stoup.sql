@@ -26,8 +26,7 @@ VALUES (254,   1,        256) /* ItemType - MissileWeapon */
      , (254, 131,          1) /* MaterialType - Ceramic */
      , (254, 151,          1) /* HookType - Floor */
      , (254, 172,          1) /* AppraisalLongDescDecoration */
-     , (254, 353,         10) /* WeaponType - Thrown */
-     , (254, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (254, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (254,  22, True ) /* Inscribable */;
@@ -42,8 +41,7 @@ VALUES (254,   5,  -0.056) /* ManaRate */
      , (254,  62,       1) /* WeaponOffense */
      , (254,  63,       1) /* DamageMod */
      , (254,  78,       1) /* Friction */
-     , (254,  79,       0) /* Elasticity */
-     , (254, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (254,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (254,   1, 'Stoup') /* Name */
@@ -54,22 +52,7 @@ VALUES (254,   1,   33555093) /* Setup */
      , (254,   3,  536871012) /* SoundTable */
      , (254,   6,   67111092) /* PaletteBase */
      , (254,   8,  100668781) /* Icon */
-     , (254,  22,  872415275) /* PhysicsEffectTable */
-     , (254, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (254, 8005,       7041) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (254, 8000, 3685985713) /* PCAPRecordedObjectIID */;
+     , (254,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (254,   927,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (254, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (254, 0, 83889815, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (254, 0, 16779989);

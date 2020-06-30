@@ -34,9 +34,7 @@ VALUES (31806,   1,        256) /* ItemType - MissileWeapon */
      , (31806, 177,          1) /* GemCount */
      , (31806, 178,         21) /* GemType */
      , (31806, 204,          3) /* ElementalDamageBonus */
-     , (31806, 353,          9) /* WeaponType - Crossbow */
-     , (31806, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31806, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31806, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31806,  22, True ) /* Inscribable */;
@@ -50,8 +48,7 @@ VALUES (31806,   5,  -0.056) /* ManaRate */
      , (31806,  39,    1.25) /* DefaultScale */
      , (31806,  62,       1) /* WeaponOffense */
      , (31806,  63,    2.55) /* DamageMod */
-     , (31806, 150,    1.01) /* WeaponMagicDefense */
-     , (31806, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31806, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31806,   1, 'Acid Compound Crossbow') /* Name */
@@ -63,14 +60,7 @@ VALUES (31806,   1,   33559665) /* Setup */
      , (31806,   6,   67116700) /* PaletteBase */
      , (31806,   8,  100688061) /* Icon */
      , (31806,  22,  872415275) /* PhysicsEffectTable */
-     , (31806,  52,  100676437) /* IconUnderlay */
-     , (31806, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31806, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31806, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31806, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31806, 8000, 2167794221) /* PCAPRecordedObjectIID */;
+     , (31806,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31806,  1332,      2) 
@@ -78,14 +68,3 @@ VALUES (31806,  1332,      2)
      , (31806,  2541,      2) 
      , (31806,  2598,      2) 
      , (31806,  2620,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31806, 67116700, 1, 100)
-     , (31806, 67116707, 201, 55)
-     , (31806, 67116709, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31806, 0, 83897331, 83897331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31806, 0, 16792607);

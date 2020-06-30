@@ -21,14 +21,8 @@ VALUES (5391,   1, 'Festival Stone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5391,   1,   33556034) /* Setup */
-     , (5391,   8,  100670208) /* Icon */
-     , (5391, 8001,   11534352) /* PCAPRecordedWeenieHeader - Usable, RadarBlipColor, Burden, RadarBehavior */
-     , (5391, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (5391, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (5391,   8,  100670208) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5391, 8040, 3043950621, 84.5, 108.5, 22, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB56F001D [84.500000 108.500000 22.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5391, 8000, 2069295104) /* PCAPRecordedObjectIID */;

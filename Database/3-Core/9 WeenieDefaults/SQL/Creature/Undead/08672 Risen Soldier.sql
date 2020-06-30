@@ -11,8 +11,7 @@ VALUES (8672,   1,         16) /* ItemType - Creature */
      , (8672,  16,          1) /* ItemUseable - No */
      , (8672,  25,         30) /* Level */
      , (8672,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (8672, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8672, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8672, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8672,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8672,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8672,   1, 'Risen Soldier') /* Name */
-     , (8672, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (8672,   1, 'Risen Soldier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8672,   1,   33554839) /* Setup */
@@ -30,17 +28,11 @@ VALUES (8672,   1,   33554839) /* Setup */
      , (8672,   3,  536870934) /* SoundTable */
      , (8672,   6,   67110722) /* PaletteBase */
      , (8672,   8,  100667942) /* Icon */
-     , (8672,  22,  872415272) /* PhysicsEffectTable */
-     , (8672, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (8672, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8672, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (8672,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8672, 8040, 2536505352, 21.42814, 184.4684, 116.6359, -0.1948697, 0, 0, -0.9808291) /* PCAPRecordedLocation */
 /* @teleloc 0x97300008 [21.428140 184.468400 116.635900] -0.194870 0.000000 0.000000 -0.980829 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8672, 8000, 3685861591) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8672,   1,  80, 0, 0) /* Strength */
@@ -409,6 +401,3 @@ VALUES (8672, 2, 47913,  1, 0, 0, False) /* Create Ono (47913) for Wield */
      , (8672, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
      , (8672, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
      , (8672, 9,  2641,  0, 0, 0, False) /* Create Scroll of Clumsiness Other IV (2641) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8672, 67111342, 0, 0);

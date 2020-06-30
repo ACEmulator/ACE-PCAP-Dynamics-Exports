@@ -11,15 +11,13 @@ VALUES (12264,   1,         16) /* ItemType - Creature */
      , (12264,  16,          1) /* ItemUseable - No */
      , (12264,  25,         80) /* Level */
      , (12264,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (12264, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12264, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12264, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12264,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12264,   1, 'Singular Virindi Director') /* Name */
-     , (12264, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (12264,   1, 'Singular Virindi Director') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12264,   1,   33554497) /* Setup */
@@ -27,17 +25,11 @@ VALUES (12264,   1,   33554497) /* Setup */
      , (12264,   3,  536870930) /* SoundTable */
      , (12264,   6,   67111346) /* PaletteBase */
      , (12264,   8,  100667943) /* Icon */
-     , (12264,  22,  872415273) /* PhysicsEffectTable */
-     , (12264, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (12264, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12264, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (12264,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12264, 8040, 60752185, 149.502, -116.135, -41.971, -0.002223001, 0, 0, 0.9999976) /* PCAPRecordedLocation */
 /* @teleloc 0x039F0139 [149.502000 -116.135000 -41.971000] -0.002223 0.000000 0.000000 0.999998 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12264, 8000, 2884990613) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12264,   1,  40, 0, 0) /* Strength */
@@ -57,12 +49,3 @@ VALUES (12264, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreas
      , (12264, 9,   273, 853, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (12264, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (12264, 9,  3698,  1, 0, 0, False) /* Create White Jewel (3698) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12264, 67113396, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12264, 9, 83890028, 83890027);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12264, 9, 16780702);

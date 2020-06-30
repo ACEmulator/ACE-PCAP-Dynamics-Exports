@@ -9,8 +9,7 @@ VALUES (11149,   1,        128) /* ItemType - Misc */
      , (11149,  16,          1) /* ItemUseable - No */
      , (11149,  19,          0) /* Value */
      , (11149,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11149, 151,          2) /* HookType - Wall */
-     , (11149, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11149, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11149,  22, True ) /* Inscribable */;
@@ -24,10 +23,4 @@ VALUES (11149,   1, 'Head of the Olthoi Queen') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11149,   1,   33557148) /* Setup */
      , (11149,   3,  536870932) /* SoundTable */
-     , (11149,   8,  100671782) /* Icon */
-     , (11149, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
-     , (11149, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11149, 8005,     133121) /* PCAPRecordedPhysicsDesc - CSetup, STable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11149, 8000, 2192304904) /* PCAPRecordedObjectIID */;
+     , (11149,   8,  100671782) /* Icon */;

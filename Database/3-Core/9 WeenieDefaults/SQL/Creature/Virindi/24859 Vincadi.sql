@@ -13,8 +13,7 @@ VALUES (24859,   1,         16) /* ItemType - Creature */
      , (24859,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (24859,  95,          8) /* RadarBlipColor - Yellow */
      , (24859, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24859, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24859, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24859, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24859,   1, True ) /* Stuck */
@@ -25,8 +24,7 @@ VALUES (24859,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24859,   1, 'Vincadi') /* Name */
-     , (24859,   5, 'Inquisitive Creationist') /* Template */
-     , (24859, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24859,   5, 'Inquisitive Creationist') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24859,   1,   33558343) /* Setup */
@@ -34,20 +32,11 @@ VALUES (24859,   1,   33558343) /* Setup */
      , (24859,   3,  536870930) /* SoundTable */
      , (24859,   6,   67114250) /* PaletteBase */
      , (24859,   8,  100674323) /* Icon */
-     , (24859,  22,  872415273) /* PhysicsEffectTable */
-     , (24859, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (24859, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (24859, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (24859,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24859, 8040, 3111059510, 149.146, 134.568, 10.029, -0.5288829, 0, 0, -0.8486948) /* PCAPRecordedLocation */
 /* @teleloc 0xB96F0036 [149.146000 134.568000 10.029000] -0.528883 0.000000 0.000000 -0.848695 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24859, 8000, 3684949317) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (24859,   1,     0, 0, 0, 5000) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24859, 67114251, 0, 0);

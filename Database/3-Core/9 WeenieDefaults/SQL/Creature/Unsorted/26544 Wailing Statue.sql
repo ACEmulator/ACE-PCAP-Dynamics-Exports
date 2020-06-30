@@ -33,8 +33,7 @@ VALUES (26544,   1,         16) /* ItemType - Creature */
      , (26544, 386,          0) /* Overpower */
      , (26544, 387,          0) /* OverpowerResist */
      , (26544, 388,          0) /* GearOverpower */
-     , (26544, 389,          0) /* GearOverpowerResist */
-     , (26544, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (26544, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26544,   1, True ) /* Stuck */
@@ -45,25 +44,18 @@ VALUES (26544,  39,     1.2) /* DefaultScale */
      , (26544,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26544,   1, 'Wailing Statue') /* Name */
-     , (26544, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (26544,   1, 'Wailing Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26544,   1,   33558606) /* Setup */
      , (26544,   2,  150995276) /* MotionTable */
      , (26544,   3,  536871082) /* SoundTable */
      , (26544,   8,  100667624) /* Icon */
-     , (26544,  22,  872415274) /* PhysicsEffectTable */
-     , (26544, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (26544, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (26544, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (26544,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26544, 8040, 4181394005, 154.355, 130.094, -76.05756, -0.3826841, 0, 0, 0.9238793) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0255 [154.355000 130.094000 -76.057560] -0.382684 0.000000 0.000000 0.923879 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26544, 8000, 2629740576) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (26544, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

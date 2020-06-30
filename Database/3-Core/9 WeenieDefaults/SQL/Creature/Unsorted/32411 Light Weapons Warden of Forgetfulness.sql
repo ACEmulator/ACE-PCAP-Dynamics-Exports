@@ -33,8 +33,7 @@ VALUES (32411,   1,         16) /* ItemType - Creature */
      , (32411, 386,          0) /* Overpower */
      , (32411, 387,          0) /* OverpowerResist */
      , (32411, 388,          0) /* GearOverpower */
-     , (32411, 389,          0) /* GearOverpowerResist */
-     , (32411, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32411, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32411,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (32411,  39,     0.5) /* DefaultScale */
      , (32411,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32411,   1, 'Light Weapons Warden of Forgetfulness') /* Name */
-     , (32411, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (32411,   1, 'Light Weapons Warden of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32411,   1,   33555352) /* Setup */
      , (32411,   2,  150995147) /* MotionTable */
      , (32411,   3,  536871052) /* SoundTable */
      , (32411,   8,  100667624) /* Icon */
-     , (32411,  22,  872415274) /* PhysicsEffectTable */
-     , (32411, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (32411, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (32411, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (32411,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32411, 8040, 1565000043, 35.5922, -4.39895, 18, 0.92388, 0, 0, -0.382683) /* PCAPRecordedLocation */
 /* @teleloc 0x5D48016B [35.592200 -4.398950 18.000000] 0.923880 0.000000 0.000000 -0.382683 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32411, 8000, 2929758815) /* PCAPRecordedObjectIID */;

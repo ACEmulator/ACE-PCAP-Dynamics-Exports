@@ -12,8 +12,7 @@ VALUES (632,   1,        128) /* ItemType - Misc */
      , (632,  91,         40) /* MaxStructure */
      , (632,  92,         40) /* Structure */
      , (632,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (632,  94,         16) /* TargetType - Creature */
-     , (632, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (632,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (632,  22, True ) /* Inscribable */;
@@ -26,13 +25,7 @@ VALUES (632,   1, 'Peerless Healing Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (632,   1,   33555194) /* Setup */
-     , (632,   8,  100676339) /* Icon */
-     , (632, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (632, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
-     , (632, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (632, 8000, 3691172955) /* PCAPRecordedObjectIID */;
+     , (632,   8,  100676339) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (632, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */

@@ -10,8 +10,7 @@ VALUES (45129,   1,         16) /* ItemType - Creature */
      , (45129,  16,         32) /* ItemUseable - Remote */
      , (45129,  93,    6294556) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (45129,  95,          4) /* RadarBlipColor - Purple */
-     , (45129, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (45129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (45129, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45129,   1, True ) /* Stuck */
@@ -21,22 +20,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45129,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45129,   1, 'Deeper into the Oubliette') /* Name */
-     , (45129, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (45129,   1, 'Deeper into the Oubliette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45129,   1,   33560901) /* Setup */
      , (45129,   2,  150995314) /* MotionTable */
      , (45129,   3,  536871052) /* SoundTable */
      , (45129,   8,  100667499) /* Icon */
-     , (45129,  22,  872415274) /* PhysicsEffectTable */
-     , (45129, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (45129, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (45129, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (45129,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45129, 8040, 1466171930, 0, 0, -0.20983, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5764021A [0.000000 0.000000 -0.209830] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45129, 8000, 3630564288) /* PCAPRecordedObjectIID */;

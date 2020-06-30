@@ -28,9 +28,7 @@ VALUES (35630,   1,          1) /* ItemType - MeleeWeapon */
      , (35630, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (35630, 160,        250) /* WieldDifficulty */
      , (35630, 263,          1) /* ResistanceModifierType */
-     , (35630, 353,          3) /* WeaponType - Axe */
-     , (35630, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (35630, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35630, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35630,  22, True ) /* Inscribable */
@@ -59,26 +57,10 @@ VALUES (35630,   1,   33557067) /* Setup */
      , (35630,   6,   67111919) /* PaletteBase */
      , (35630,   8,  100671670) /* Icon */
      , (35630,  22,  872415275) /* PhysicsEffectTable */
-     , (35630,  30,         88) /* PhysicsScript - Create */
-     , (35630, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (35630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35630, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35630, 8000, 2186220485) /* PCAPRecordedObjectIID */;
+     , (35630,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35630,  1592,      2) 
      , (35630,  1616,      2) 
      , (35630,  1627,      2) 
      , (35630,  2689,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35630, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35630, 0, 83889238, 83889238)
-     , (35630, 0, 83886747, 83886747);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35630, 0, 16785974);

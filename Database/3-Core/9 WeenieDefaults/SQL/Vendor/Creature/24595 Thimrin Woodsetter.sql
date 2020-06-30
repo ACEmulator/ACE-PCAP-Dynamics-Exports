@@ -18,8 +18,7 @@ VALUES (24595,   1,         16) /* ItemType - Creature */
      , (24595, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24595, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (24595, 188,          2) /* HeritageGroup - Gharundim */
-     , (24595, 307,          5) /* DamageRating */
-     , (24595, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24595, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24595,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (24595,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24595,   1, 'Thimrin Woodsetter') /* Name */
-     , (24595,   5, 'Tradesman') /* Template */
-     , (24595, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24595,   5, 'Tradesman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24595,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (24595,   1,   33554433) /* Setup */
      , (24595,  11,   83890618) /* MouthTexture */
      , (24595,  15,   67116991) /* HairPalette */
      , (24595,  16,   67110062) /* EyesPalette */
-     , (24595,  17,   67109557) /* SkinPalette */
-     , (24595, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24595, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24595, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (24595,  17,   67109557) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24595, 8040, 722599961, 76.7132, 19.2971, 72.9361, 0.1449077, 0, 0, -0.9894451) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [76.713200 19.297100 72.936100] 0.144908 0.000000 0.000000 -0.989445 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24595, 8000, 1924210708) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24595,   1, 120, 0, 0) /* Strength */
@@ -157,60 +149,3 @@ VALUES (24595, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24595, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (24595, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
      , (24595, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24595, 67109557, 0, 24)
-     , (24595, 67109969, 92, 4)
-     , (24595, 67110062, 32, 8)
-     , (24595, 67110349, 216, 24)
-     , (24595, 67110349, 160, 8)
-     , (24595, 67110382, 64, 8)
-     , (24595, 67110546, 72, 8)
-     , (24595, 67111245, 40, 24)
-     , (24595, 67114377, 240, 16)
-     , (24595, 67116991, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24595, 0, 83889072, 83890012)
-     , (24595, 0, 83889342, 83890011)
-     , (24595, 1, 83887064, 83886241)
-     , (24595, 2, 83887066, 83887055)
-     , (24595, 2, 83892602, 83892602)
-     , (24595, 2, 83892601, 83892601)
-     , (24595, 3, 83889344, 83887054)
-     , (24595, 4, 83887068, 83892603)
-     , (24595, 5, 83887064, 83886241)
-     , (24595, 6, 83887066, 83887055)
-     , (24595, 6, 83892602, 83892602)
-     , (24595, 6, 83892601, 83892601)
-     , (24595, 7, 83889344, 83887054)
-     , (24595, 8, 83887068, 83892603)
-     , (24595, 9, 83887061, 83890009)
-     , (24595, 9, 83887060, 83890010)
-     , (24595, 10, 83887069, 83886782)
-     , (24595, 11, 83887067, 83891213)
-     , (24595, 13, 83887069, 83886782)
-     , (24595, 14, 83887067, 83891213)
-     , (24595, 16, 83886232, 83890685)
-     , (24595, 16, 83886668, 83890482)
-     , (24595, 16, 83886837, 83890544)
-     , (24595, 16, 83886684, 83890618);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24595, 0, 16781835)
-     , (24595, 1, 16777295)
-     , (24595, 2, 16784627)
-     , (24595, 3, 16781841)
-     , (24595, 4, 16781838)
-     , (24595, 5, 16777299)
-     , (24595, 6, 16784628)
-     , (24595, 7, 16781840)
-     , (24595, 8, 16781839)
-     , (24595, 9, 16777300)
-     , (24595, 10, 16777301)
-     , (24595, 11, 16777302)
-     , (24595, 12, 16777304)
-     , (24595, 13, 16777303)
-     , (24595, 14, 16777305)
-     , (24595, 15, 16777307)
-     , (24595, 16, 16789130);

@@ -18,10 +18,7 @@ VALUES (4180,   1, True ) /* Stuck */
      , (4180,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4180,  54,       1) /* UseRadius */
-     , (4180, 8010,       0) /* PCAPRecordedVelocityX */
-     , (4180, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4180, 8012,  -0.027) /* PCAPRecordedVelocityZ */;
+VALUES (4180,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4180,   1, 'Corpse') /* Name */;
@@ -30,17 +27,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4180,   1,   33556617) /* Setup */
      , (4180,   3,  536870932) /* SoundTable */
      , (4180,   8,  100667504) /* Icon */
-     , (4180,  22,  872415275) /* PhysicsEffectTable */
-     , (4180, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
-     , (4180, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (4180, 8005,      38917) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, STable, PeTable, Position */;
+     , (4180,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4180, 8040, 2451767349, 149.7337, 96.01506, 108.2974, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0x92230035 [149.733700 96.015060 108.297400] 0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4180, 8000, 3685721405) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4180, -1, 4767, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Skewer (4767) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

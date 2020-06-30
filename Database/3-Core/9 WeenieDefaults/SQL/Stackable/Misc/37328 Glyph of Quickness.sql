@@ -12,8 +12,7 @@ VALUES (37328,   1,        128) /* ItemType - Misc */
      , (37328,  15,      30000) /* StackUnitValue */
      , (37328,  16,          1) /* ItemUseable - No */
      , (37328,  19,      30000) /* Value */
-     , (37328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37328,   1, 'Glyph of Quickness') /* Name */
@@ -25,22 +24,7 @@ VALUES (37328,   1,   33554809) /* Setup */
      , (37328,   6,   67111919) /* PaletteBase */
      , (37328,   8,  100690191) /* Icon */
      , (37328,  22,  872415275) /* PhysicsEffectTable */
-     , (37328,  50,  100686680) /* IconOverlay */
-     , (37328, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (37328, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37328, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37328, 8000, 3179732943) /* PCAPRecordedObjectIID */;
+     , (37328,  50,  100686680) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37328, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37328, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37328, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37328, 0, 16779181);

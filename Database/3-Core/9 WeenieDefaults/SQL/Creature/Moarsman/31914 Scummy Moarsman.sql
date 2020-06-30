@@ -11,8 +11,7 @@ VALUES (31914,   1,         16) /* ItemType - Creature */
      , (31914,  16,          1) /* ItemUseable - No */
      , (31914,  25,        160) /* Level */
      , (31914,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31914, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31914, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31914, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31914,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (31914,  39,     1.6) /* DefaultScale */
      , (31914,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31914,   1, 'Scummy Moarsman') /* Name */
-     , (31914, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31914,   1, 'Scummy Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31914,   1,   33556882) /* Setup */
@@ -32,17 +30,11 @@ VALUES (31914,   1,   33556882) /* Setup */
      , (31914,   6,   67112872) /* PaletteBase */
      , (31914,   8,  100671185) /* Icon */
      , (31914,  22,  872415337) /* PhysicsEffectTable */
-     , (31914,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (31914, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (31914, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31914, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (31914,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31914, 8040, 3403808800, 72.1204, 172.3526, 4.0064, -0.7713911, 0, 0, -0.6363614) /* PCAPRecordedLocation */
 /* @teleloc 0xCAE20020 [72.120400 172.352600 4.006400] -0.771391 0.000000 0.000000 -0.636361 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31914, 8000, 2629395360) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31914,   1, 200, 0, 0) /* Strength */
@@ -75,6 +67,3 @@ VALUES (31914, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for Co
      , (31914, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
      , (31914, 9, 49313,  0, 0, 0, False) /* Create Acid Wisp Essence (125) (49313) for ContainTreasure */
      , (31914, 9, 41070,  0, 0, 0, False) /* Create Flaming Shashqa (41070) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31914, 67116780, 0, 0);

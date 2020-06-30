@@ -12,8 +12,7 @@ VALUES (13217,   1,          2) /* ItemType - Armor */
      , (13217,  19,        150) /* Value */
      , (13217,  28,         30) /* ArmorLevel */
      , (13217,  33,          1) /* Bonded - Bonded */
-     , (13217,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (13217, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (13217,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13217,  22, True ) /* Inscribable */;
@@ -37,30 +36,4 @@ VALUES (13217,   1,   33554644) /* Setup */
      , (13217,   3,  536870932) /* SoundTable */
      , (13217,   6,   67108990) /* PaletteBase */
      , (13217,   8,  100671256) /* Icon */
-     , (13217,  22,  872415275) /* PhysicsEffectTable */
-     , (13217, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (13217, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (13217, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13217, 8000, 3694225118) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (13217, 67113100, 72, 8)
-     , (13217, 67113100, 108, 8)
-     , (13217, 67113100, 174, 12)
-     , (13217, 67113110, 80, 12)
-     , (13217, 67113110, 96, 12)
-     , (13217, 67113110, 116, 12)
-     , (13217, 67113110, 216, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (13217, 0, 83887061, 83892990)
-     , (13217, 0, 83887060, 83892988)
-     , (13217, 0, 83889072, 83892985)
-     , (13217, 0, 83889342, 83892989)
-     , (13217, 0, 83886788, 83892986)
-     , (13217, 0, 83886796, 83892987);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (13217, 0, 16778356);
+     , (13217,  22,  872415275) /* PhysicsEffectTable */;

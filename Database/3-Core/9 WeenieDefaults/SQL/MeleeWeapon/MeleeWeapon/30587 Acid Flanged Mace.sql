@@ -26,9 +26,7 @@ VALUES (30587,   1,          1) /* ItemType - MeleeWeapon */
      , (30587, 172,          5) /* AppraisalLongDescDecoration */
      , (30587, 177,          2) /* GemCount */
      , (30587, 178,         45) /* GemType */
-     , (30587, 353,          4) /* WeaponType - Mace */
-     , (30587, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30587, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30587, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30587,  22, True ) /* Inscribable */;
@@ -39,8 +37,7 @@ VALUES (30587,  21,       0) /* WeaponLength */
      , (30587,  26,       0) /* MaximumVelocity */
      , (30587,  29,     1.1) /* WeaponDefense */
      , (30587,  62,    1.06) /* WeaponOffense */
-     , (30587,  63,       1) /* DamageMod */
-     , (30587, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (30587,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30587,   1, 'Acid Flanged Mace') /* Name */
@@ -52,20 +49,4 @@ VALUES (30587,   1,   33559477) /* Setup */
      , (30587,   6,   67115559) /* PaletteBase */
      , (30587,   8,  100686975) /* Icon */
      , (30587,  22,  872415275) /* PhysicsEffectTable */
-     , (30587,  52,  100676437) /* IconUnderlay */
-     , (30587, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30587, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30587, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30587, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30587, 8000, 2174252089) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30587, 67116398, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30587, 0, 83896666, 83896666);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30587, 0, 16791841);
+     , (30587,  52,  100676437) /* IconUnderlay */;

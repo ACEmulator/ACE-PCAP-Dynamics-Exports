@@ -13,8 +13,7 @@ VALUES (22640,   1,         16) /* ItemType - Creature */
      , (22640,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (22640,  95,          8) /* RadarBlipColor - Yellow */
      , (22640, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (22640, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (22640, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22640, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22640,   1, True ) /* Stuck */
@@ -26,8 +25,7 @@ VALUES (22640,  39,     0.9) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22640,   1, 'Mayor Ko Ko') /* Name */
-     , (22640,   5, 'Ooo oo aaa') /* Template */
-     , (22640, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (22640,   5, 'Ooo oo aaa') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22640,   1,   33556836) /* Setup */
@@ -35,17 +33,11 @@ VALUES (22640,   1,   33556836) /* Setup */
      , (22640,   3,  536870929) /* SoundTable */
      , (22640,   6,   67113007) /* PaletteBase */
      , (22640,   8,  100667443) /* Icon */
-     , (22640,  22,  872415271) /* PhysicsEffectTable */
-     , (22640, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (22640, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (22640, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22640,  22,  872415271) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22640, 8040, 4135714867, 153.616, 59.6561, 58.0099, -0.553984, 0, 0, -0.832527) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820033 [153.616000 59.656100 58.009900] -0.553984 0.000000 0.000000 -0.832527 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22640, 8000, 3688504393) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22640,   1, 200, 0, 0) /* Strength */
@@ -59,22 +51,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (22640,   1,    20, 0, 0, 100) /* MaxHealth */
      , (22640,   3,   150, 0, 0, 310) /* MaxStamina */
      , (22640,   5,     0, 0, 0, 30) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22640, 67113012, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22640, 1, 83892782, 83892783)
-     , (22640, 1, 83892779, 83892780)
-     , (22640, 14, 83892787, 83892785)
-     , (22640, 14, 83892790, 83892789);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22640, 1, 16785073)
-     , (22640, 14, 16785088)
-     , (22640, 19, 16777708)
-     , (22640, 20, 16777708)
-     , (22640, 21, 16777708)
-     , (22640, 22, 16777708)
-     , (22640, 23, 16777708)
-     , (22640, 24, 16777708);

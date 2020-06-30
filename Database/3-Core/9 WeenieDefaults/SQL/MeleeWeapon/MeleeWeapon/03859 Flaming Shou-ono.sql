@@ -31,9 +31,7 @@ VALUES (3859,   1,          1) /* ItemType - MeleeWeapon */
      , (3859, 160,        250) /* WieldDifficulty */
      , (3859, 172,          1) /* AppraisalLongDescDecoration */
      , (3859, 176,         46) /* AppraisalItemSkill */
-     , (3859, 353,          3) /* WeaponType - Axe */
-     , (3859, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3859, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3859, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3859,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (3859,   5,  -0.033) /* ManaRate */
      , (3859,  29,    1.05) /* WeaponDefense */
      , (3859,  39,     1.2) /* DefaultScale */
      , (3859,  62,    1.08) /* WeaponOffense */
-     , (3859,  63,       1) /* DamageMod */
-     , (3859, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (3859,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3859,   1, 'Flaming Shou-ono') /* Name */
@@ -57,13 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3859,   1,   33555714) /* Setup */
      , (3859,   3,  536870932) /* SoundTable */
      , (3859,   8,  100670223) /* Icon */
-     , (3859,  22,  872415275) /* PhysicsEffectTable */
-     , (3859, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3859, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3859, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3859, 8000, 3685958770) /* PCAPRecordedObjectIID */;
+     , (3859,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3859,  1614,      2) ;

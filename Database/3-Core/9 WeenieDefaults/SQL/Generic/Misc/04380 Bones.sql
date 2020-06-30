@@ -19,14 +19,8 @@ VALUES (4380,   1, 'Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4380,   1,   33555404) /* Setup */
-     , (4380,   8,  100667504) /* Icon */
-     , (4380, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
-     , (4380, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (4380, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (4380,   8,  100667504) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4380, 8040, 2442068006, 110.1796, 124.1204, 33.29281, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0x918F0026 [110.179600 124.120400 33.292810] 0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4380, 8000, 3685914672) /* PCAPRecordedObjectIID */;

@@ -38,9 +38,7 @@ VALUES (52085,   1,         16) /* ItemType - Creature */
      , (52085, 386,          0) /* Overpower */
      , (52085, 387,          0) /* OverpowerResist */
      , (52085, 388,          0) /* GearOverpower */
-     , (52085, 389,          0) /* GearOverpowerResist */
-     , (52085, 8007,          0) /* PCAPRecordedAutonomousMovement */
-     , (52085, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (52085, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52085,   1, True ) /* Stuck */
@@ -55,25 +53,18 @@ VALUES (52085,  21,       0) /* WeaponLength */
      , (52085,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52085,   1, 'Training Dummy') /* Name */
-     , (52085, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (52085,   1, 'Training Dummy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52085,   1,   33554433) /* Setup */
      , (52085,   2,  150995397) /* MotionTable */
      , (52085,   3,  536870913) /* SoundTable */
      , (52085,   6,   67108990) /* PaletteBase */
-     , (52085,   8,  100667446) /* Icon */
-     , (52085, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
-     , (52085, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (52085, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (52085,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52085, 8040, 1484390985, 580, -280, 0.004999995, -0.3826834, 0, 0, -0.9238796) /* PCAPRecordedLocation */
 /* @teleloc 0x587A0249 [580.000000 -280.000000 0.005000] -0.382683 0.000000 0.000000 -0.923880 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52085, 8000, 3695644511) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52085, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */
@@ -85,57 +76,3 @@ VALUES (52085, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) f
      , (52085, 2, 12082,  1, 0, 0, False) /* Create Bandit Acid Yaoji (12082) for Wield */
      , (52085, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */
      , (52085, 2, 12062,  1, 0, 0, False) /* Create Bandit Khanjar (12062) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52085, 67109558, 0, 24)
-     , (52085, 67109565, 32, 8)
-     , (52085, 67109964, 92, 4)
-     , (52085, 67110003, 72, 8)
-     , (52085, 67110015, 240, 10)
-     , (52085, 67110352, 40, 24)
-     , (52085, 67110356, 64, 8)
-     , (52085, 67110375, 174, 66)
-     , (52085, 67110377, 160, 8)
-     , (52085, 67116984, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (52085, 0, 83889072, 83886685)
-     , (52085, 0, 83889342, 83889386)
-     , (52085, 1, 83887064, 83886241)
-     , (52085, 2, 83887066, 83892254)
-     , (52085, 3, 83889344, 83887054)
-     , (52085, 4, 83887068, 83887054)
-     , (52085, 5, 83887064, 83886241)
-     , (52085, 6, 83887066, 83892254)
-     , (52085, 7, 83889344, 83887054)
-     , (52085, 8, 83887068, 83887054)
-     , (52085, 9, 83887061, 83886692)
-     , (52085, 9, 83887060, 83886776)
-     , (52085, 10, 83886796, 83886782)
-     , (52085, 11, 83886788, 83891213)
-     , (52085, 13, 83886796, 83886782)
-     , (52085, 14, 83886788, 83891213)
-     , (52085, 16, 83886232, 83890359)
-     , (52085, 16, 83886668, 83890494)
-     , (52085, 16, 83886837, 83890520)
-     , (52085, 16, 83886684, 83890566)
-     , (52085, 16, 83886490, 83886490);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (52085, 0, 16781835)
-     , (52085, 1, 16781845)
-     , (52085, 2, 16781866)
-     , (52085, 3, 16781841)
-     , (52085, 4, 16781838)
-     , (52085, 5, 16781846)
-     , (52085, 6, 16781864)
-     , (52085, 7, 16781840)
-     , (52085, 8, 16781839)
-     , (52085, 9, 16777300)
-     , (52085, 10, 16781870)
-     , (52085, 11, 16781812)
-     , (52085, 12, 16777304)
-     , (52085, 13, 16781869)
-     , (52085, 14, 16781813)
-     , (52085, 15, 16777307)
-     , (52085, 16, 16780818);

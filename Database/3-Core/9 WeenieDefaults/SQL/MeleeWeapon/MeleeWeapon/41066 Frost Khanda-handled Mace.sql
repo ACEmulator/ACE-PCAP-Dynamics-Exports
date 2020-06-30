@@ -36,9 +36,7 @@ VALUES (41066,   1,          1) /* ItemType - MeleeWeapon */
      , (41066, 178,         49) /* GemType */
      , (41066, 179,          4) /* ImbuedEffect - ArmorRending */
      , (41066, 292,          2) /* Cleaving */
-     , (41066, 353,         11) /* WeaponType - TwoHanded */
-     , (41066, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41066, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41066, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41066,  22, True ) /* Inscribable */;
@@ -50,8 +48,7 @@ VALUES (41066,   5,  -0.056) /* ManaRate */
      , (41066,  26,       0) /* MaximumVelocity */
      , (41066,  29,    1.14) /* WeaponDefense */
      , (41066,  62,    1.19) /* WeaponOffense */
-     , (41066,  63,       1) /* DamageMod */
-     , (41066, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (41066,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41066,   1, 'Frost Khanda-handled Mace') /* Name */
@@ -64,19 +61,9 @@ VALUES (41066,   1,   33560884) /* Setup */
      , (41066,   6,   67115558) /* PaletteBase */
      , (41066,   8,  100690648) /* Icon */
      , (41066,  22,  872415275) /* PhysicsEffectTable */
-     , (41066,  52,  100676438) /* IconUnderlay */
-     , (41066, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41066, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (41066, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (41066, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41066, 8000, 2461218086) /* PCAPRecordedObjectIID */;
+     , (41066,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41066,  1354,      2) 
      , (41066,  1616,      2) 
      , (41066,  2536,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41066, 67116377, 0, 0);

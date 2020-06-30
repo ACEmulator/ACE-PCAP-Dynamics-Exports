@@ -30,13 +30,4 @@ VALUES (11474,   1,   33556752) /* Setup */
      , (11474,   3,  536870932) /* SoundTable */
      , (11474,   6,   67111919) /* PaletteBase */
      , (11474,   8,  100670925) /* Icon */
-     , (11474,  22,  872415275) /* PhysicsEffectTable */
-     , (11474, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (11474, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (11474, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11474, 8000, 2183443778) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11474, 67111923, 0, 0);
+     , (11474,  22,  872415275) /* PhysicsEffectTable */;

@@ -23,8 +23,7 @@ VALUES (30514,   1,          2) /* ItemType - Armor */
      , (30514, 151,          2) /* HookType - Wall */
      , (30514, 265,         40) /* EquipmentSetId - RareDamageResistance */
      , (30514, 319,         50) /* ItemMaxLevel */
-     , (30514, 320,          1) /* ItemXpStyle - Fixed */
-     , (30514, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30514, 320,          1) /* ItemXpStyle - Fixed */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30514,   4, 7791643026) /* ItemTotalXp */
@@ -54,14 +53,7 @@ VALUES (30514,   1,   33559430) /* Setup */
      , (30514,   3,  536870932) /* SoundTable */
      , (30514,   8,  100686870) /* Icon */
      , (30514,  22,  872415275) /* PhysicsEffectTable */
-     , (30514,  52,  100686604) /* IconUnderlay */
-     , (30514, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
-     , (30514, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30514, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30514, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30514, 8000, 3542148112) /* PCAPRecordedObjectIID */;
+     , (30514,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30514,  4407,      2) 

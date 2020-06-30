@@ -17,8 +17,7 @@ VALUES (860,   1,         16) /* ItemType - Creature */
      , (860, 113,          2) /* Gender - Female */
      , (860, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (860, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (860, 188,          3) /* HeritageGroup - Sho */
-     , (860, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (860, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (860,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (860,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (860,   1, 'Barkeeper Chon Nuo') /* Name */
-     , (860,   5, 'Barkeeper') /* Template */
-     , (860, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (860,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (860,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (860,   1,   33554510) /* Setup */
      , (860,  11,   83890352) /* MouthTexture */
      , (860,  15,   67117075) /* HairPalette */
      , (860,  16,   67109565) /* EyesPalette */
-     , (860,  17,   67110052) /* SkinPalette */
-     , (860, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (860, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (860, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (860,  17,   67110052) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (860, 8040, 3880649080, 132.713, 76.8281, 36.805, -0.9894781, 0, 0, -0.1446829) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E0178 [132.713000 76.828100 36.805000] -0.989478 0.000000 0.000000 -0.144683 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (860, 8000, 2121588775) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (860,   1,  50, 0, 0) /* Strength */
@@ -85,51 +77,3 @@ VALUES (860, 4,  4739, -1, 0, 0, False) /* Create Pickled Egg (4739) for Shop */
      , (860, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
      , (860, 4, 13202, -1, 0, 0, False) /* Create Sho Festival Light (13202) for Shop */
      , (860, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (860, 67109565, 32, 8)
-     , (860, 67109967, 92, 4)
-     , (860, 67110026, 72, 8)
-     , (860, 67110052, 0, 24)
-     , (860, 67110317, 64, 8)
-     , (860, 67110352, 216, 24)
-     , (860, 67110365, 250, 6)
-     , (860, 67111304, 40, 24)
-     , (860, 67111304, 160, 8)
-     , (860, 67117075, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (860, 0, 83889072, 83890012)
-     , (860, 0, 83889342, 83890011)
-     , (860, 1, 83887064, 83886241)
-     , (860, 3, 83889344, 83887054)
-     , (860, 4, 83887068, 83887054)
-     , (860, 5, 83887064, 83886241)
-     , (860, 7, 83889344, 83887054)
-     , (860, 8, 83887068, 83887054)
-     , (860, 9, 83887070, 83890009)
-     , (860, 9, 83887062, 83890010)
-     , (860, 16, 83886232, 83890685)
-     , (860, 16, 83886668, 83890235)
-     , (860, 16, 83886837, 83890294)
-     , (860, 16, 83886684, 83890352)
-     , (860, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (860, 0, 16781875)
-     , (860, 1, 16778430)
-     , (860, 2, 16778436)
-     , (860, 3, 16778361)
-     , (860, 4, 16778426)
-     , (860, 5, 16778438)
-     , (860, 6, 16778437)
-     , (860, 7, 16778360)
-     , (860, 8, 16778428)
-     , (860, 9, 16778425)
-     , (860, 10, 16778431)
-     , (860, 11, 16778429)
-     , (860, 12, 16778423)
-     , (860, 13, 16778434)
-     , (860, 14, 16778424)
-     , (860, 15, 16778435)
-     , (860, 16, 16779630);

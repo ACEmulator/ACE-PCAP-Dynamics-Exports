@@ -19,8 +19,7 @@ VALUES (5672,   1,         32) /* ItemType - Food */
      , (5672, 107,         50) /* ItemCurMana */
      , (5672, 108,         50) /* ItemMaxMana */
      , (5672, 109,          0) /* ItemDifficulty */
-     , (5672, 110,          0) /* ItemAllegianceRankLimit */
-     , (5672, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5672, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5672,  22, True ) /* Inscribable */;
@@ -34,13 +33,7 @@ VALUES (5672,   1,   33554663) /* Setup */
      , (5672,   3,  536870932) /* SoundTable */
      , (5672,   8,  100667430) /* Icon */
      , (5672,  22,  872415275) /* PhysicsEffectTable */
-     , (5672,  28,         54) /* Spell - RejuvenationSelf1 */
-     , (5672, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (5672, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (5672, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5672, 8000, 2192312170) /* PCAPRecordedObjectIID */;
+     , (5672,  28,         54) /* Spell - RejuvenationSelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5672,    54,      2) ;

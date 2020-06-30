@@ -17,8 +17,7 @@ VALUES (4688,   1,         16) /* ItemType - Creature */
      , (4688, 113,          2) /* Gender - Female */
      , (4688, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4688, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4688, 188,          2) /* HeritageGroup - Gharundim */
-     , (4688, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4688, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4688,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4688,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4688,   1, 'Shopkeeper Tirua') /* Name */
-     , (4688,   5, 'Shopkeeper') /* Template */
-     , (4688, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4688,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4688,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4688,   1,   33554510) /* Setup */
      , (4688,  11,   83890352) /* MouthTexture */
      , (4688,  15,   67117069) /* HairPalette */
      , (4688,  16,   67110062) /* EyesPalette */
-     , (4688,  17,   67109553) /* SkinPalette */
-     , (4688, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4688, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4688, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4688,  17,   67109553) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4688, 8040, 2354577680, 172.408, 61.2951, 30.005, -0.5309501, 0, 0, -0.847403) /* PCAPRecordedLocation */
 /* @teleloc 0x8C580110 [172.408000 61.295100 30.005000] -0.530950 0.000000 0.000000 -0.847403 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4688, 8000, 2026209285) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4688,   1,  80, 0, 0) /* Strength */
@@ -128,52 +120,3 @@ VALUES (4688, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4688, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
      , (4688, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
      , (4688, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4688, 67109553, 0, 24)
-     , (4688, 67109969, 92, 4)
-     , (4688, 67110026, 72, 8)
-     , (4688, 67110062, 32, 8)
-     , (4688, 67110320, 64, 8)
-     , (4688, 67110368, 40, 24)
-     , (4688, 67111245, 160, 8)
-     , (4688, 67117069, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4688, 0, 83889072, 83890012)
-     , (4688, 0, 83889342, 83890011)
-     , (4688, 1, 83887064, 83886241)
-     , (4688, 3, 83889344, 83887054)
-     , (4688, 4, 83887068, 83887054)
-     , (4688, 5, 83887064, 83886241)
-     , (4688, 7, 83889344, 83887054)
-     , (4688, 8, 83887068, 83887054)
-     , (4688, 9, 83887070, 83890009)
-     , (4688, 9, 83887062, 83890010)
-     , (4688, 10, 83887069, 83886782)
-     , (4688, 11, 83886788, 83891213)
-     , (4688, 13, 83887069, 83886782)
-     , (4688, 14, 83886788, 83891213)
-     , (4688, 16, 83886232, 83890685)
-     , (4688, 16, 83886668, 83890275)
-     , (4688, 16, 83886837, 83890292)
-     , (4688, 16, 83886684, 83890352);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4688, 0, 16781875)
-     , (4688, 1, 16778430)
-     , (4688, 2, 16778436)
-     , (4688, 3, 16777292)
-     , (4688, 4, 16781855)
-     , (4688, 5, 16778438)
-     , (4688, 6, 16778437)
-     , (4688, 7, 16777296)
-     , (4688, 8, 16781859)
-     , (4688, 9, 16778425)
-     , (4688, 10, 16778431)
-     , (4688, 11, 16781873)
-     , (4688, 12, 16778423)
-     , (4688, 13, 16778434)
-     , (4688, 14, 16781874)
-     , (4688, 15, 16778435)
-     , (4688, 16, 16795647);

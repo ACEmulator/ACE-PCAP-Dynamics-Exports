@@ -31,9 +31,7 @@ VALUES (30603,   1,          1) /* ItemType - MeleeWeapon */
      , (30603, 160,        300) /* WieldDifficulty */
      , (30603, 172,          1) /* AppraisalLongDescDecoration */
      , (30603, 176,         44) /* AppraisalItemSkill */
-     , (30603, 353,          6) /* WeaponType - Dagger */
-     , (30603, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30603, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30603, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30603,  22, True ) /* Inscribable */;
@@ -45,8 +43,7 @@ VALUES (30603,   5,  -0.042) /* ManaRate */
      , (30603,  26,       0) /* MaximumVelocity */
      , (30603,  29,    1.05) /* WeaponDefense */
      , (30603,  62,    1.09) /* WeaponOffense */
-     , (30603,  63,       1) /* DamageMod */
-     , (30603, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (30603,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30603,   1, 'Flaming Stiletto') /* Name */
@@ -57,24 +54,9 @@ VALUES (30603,   1,   33559489) /* Setup */
      , (30603,   3,  536870932) /* SoundTable */
      , (30603,   6,   67116417) /* PaletteBase */
      , (30603,   8,  100687006) /* Icon */
-     , (30603,  22,  872415275) /* PhysicsEffectTable */
-     , (30603, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30603, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30603, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30603, 8000, 3688133655) /* PCAPRecordedObjectIID */;
+     , (30603,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30603,  1614,      2) 
      , (30603,  2588,      2) 
      , (30603,  5806,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30603, 67116426, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30603, 0, 83897172, 83897172);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30603, 0, 16792137);

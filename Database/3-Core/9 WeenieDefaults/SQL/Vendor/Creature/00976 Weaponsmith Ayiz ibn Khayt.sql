@@ -18,8 +18,7 @@ VALUES (976,   1,         16) /* ItemType - Creature */
      , (976, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (976, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (976, 188,          2) /* HeritageGroup - Gharundim */
-     , (976, 307,          5) /* DamageRating */
-     , (976, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (976, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (976,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (976,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (976,   1, 'Weaponsmith Ayiz ibn Khayt') /* Name */
-     , (976,   5, 'Weaponsmith') /* Template */
-     , (976, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (976,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (976,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (976,   1,   33554433) /* Setup */
      , (976,  11,   83890623) /* MouthTexture */
      , (976,  15,   67117027) /* HairPalette */
      , (976,  16,   67110062) /* EyesPalette */
-     , (976,  17,   67109550) /* SkinPalette */
-     , (976, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (976, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (976, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (976,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (976, 8040, 2541420845, 155.141, 154.772, 0.004999995, 0.9261999, 0, 0, -0.3770329) /* PCAPRecordedLocation */
 /* @teleloc 0x977B012D [155.141000 154.772000 0.005000] 0.926200 0.000000 0.000000 -0.377033 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (976, 8000, 2037886996) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (976,   1, 100, 0, 0) /* Strength */
@@ -86,52 +78,3 @@ VALUES (976, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (976, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (976, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (976, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (976, 67109550, 0, 24)
-     , (976, 67109966, 92, 4)
-     , (976, 67110062, 32, 8)
-     , (976, 67110349, 64, 8)
-     , (976, 67110349, 160, 8)
-     , (976, 67110378, 216, 24)
-     , (976, 67110389, 40, 24)
-     , (976, 67110389, 240, 10)
-     , (976, 67110539, 72, 8)
-     , (976, 67117027, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (976, 0, 83889072, 83890012)
-     , (976, 0, 83889342, 83890011)
-     , (976, 1, 83887064, 83886241)
-     , (976, 3, 83889344, 83887054)
-     , (976, 4, 83887068, 83887054)
-     , (976, 5, 83887064, 83886241)
-     , (976, 7, 83889344, 83887054)
-     , (976, 8, 83887068, 83887054)
-     , (976, 9, 83887061, 83890009)
-     , (976, 9, 83887060, 83890010)
-     , (976, 16, 83886232, 83890685)
-     , (976, 16, 83886668, 83890505)
-     , (976, 16, 83886837, 83890541)
-     , (976, 16, 83886684, 83890623)
-     , (976, 16, 83888783, 83888783)
-     , (976, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (976, 0, 16781835)
-     , (976, 1, 16777295)
-     , (976, 2, 16777293)
-     , (976, 3, 16777292)
-     , (976, 4, 16781855)
-     , (976, 5, 16777299)
-     , (976, 6, 16777297)
-     , (976, 7, 16777296)
-     , (976, 8, 16781859)
-     , (976, 9, 16777300)
-     , (976, 10, 16777301)
-     , (976, 11, 16777302)
-     , (976, 12, 16777304)
-     , (976, 13, 16777303)
-     , (976, 14, 16777305)
-     , (976, 15, 16777307)
-     , (976, 16, 16778476);

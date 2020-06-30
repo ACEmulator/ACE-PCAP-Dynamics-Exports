@@ -16,8 +16,7 @@ VALUES (35772,   1,         16) /* ItemType - Creature */
      , (35772, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (35772, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (35772, 188,          1) /* HeritageGroup - Aluvian */
-     , (35772, 307,          5) /* DamageRating */
-     , (35772, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35772, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35772,   1, True ) /* Stuck */
@@ -28,8 +27,7 @@ VALUES (35772,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35772,   1, 'Jilna Fullgood') /* Name */
-     , (35772,   5, 'Tusker King''s Healer') /* Template */
-     , (35772, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (35772,   5, 'Tusker King''s Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35772,   1,   33554510) /* Setup */
@@ -42,17 +40,11 @@ VALUES (35772,   1,   33554510) /* Setup */
      , (35772,  15,   67116978) /* HairPalette */
      , (35772,  16,   67110064) /* EyesPalette */
      , (35772,  17,   67109558) /* SkinPalette */
-     , (35772,  22,  872415236) /* PhysicsEffectTable */
-     , (35772, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (35772, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (35772, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (35772,  22,  872415236) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35772, 8040, 4135649344, 184.684, 174.402, 63.8756, 0.986369, 0, 0, 0.164546) /* PCAPRecordedLocation */
 /* @teleloc 0xF6810040 [184.684000 174.402000 63.875600] 0.986369 0.000000 0.000000 0.164546 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35772, 8000, 3691108101) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35772,   1, 220, 0, 0) /* Strength */

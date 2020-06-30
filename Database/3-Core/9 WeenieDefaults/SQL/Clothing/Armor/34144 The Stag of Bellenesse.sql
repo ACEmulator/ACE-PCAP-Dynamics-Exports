@@ -19,8 +19,7 @@ VALUES (34144,   1,          2) /* ItemType - Armor */
      , (34144, 108,        600) /* ItemMaxMana */
      , (34144, 109,        200) /* ItemDifficulty */
      , (34144, 151,          2) /* HookType - Wall */
-     , (34144, 188,          4) /* HeritageGroup - Viamontian */
-     , (34144, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34144, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34144,  22, True ) /* Inscribable */;
@@ -44,13 +43,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34144,   1,   33560109) /* Setup */
      , (34144,   3,  536870932) /* SoundTable */
      , (34144,   8,  100689165) /* Icon */
-     , (34144,  22,  872415275) /* PhysicsEffectTable */
-     , (34144, 8001,  271024280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
-     , (34144, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34144, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34144, 8000, 3694035125) /* PCAPRecordedObjectIID */;
+     , (34144,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34144,   249,      2) 

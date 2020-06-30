@@ -12,8 +12,7 @@ VALUES (40313,   1,         16) /* ItemType - Creature */
      , (40313,  25,        220) /* Level */
      , (40313,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (40313, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (40313, 307,          7) /* DamageRating */
-     , (40313, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40313, 307,          7) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40313,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40313,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40313,   1, 'Sclavus Acolyte of T''thuun') /* Name */
-     , (40313, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (40313,   1, 'Sclavus Acolyte of T''thuun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40313,   1,   33560596) /* Setup */
@@ -31,17 +29,11 @@ VALUES (40313,   1,   33560596) /* Setup */
      , (40313,   3,  536870977) /* SoundTable */
      , (40313,   6,   67111936) /* PaletteBase */
      , (40313,   8,  100669120) /* Icon */
-     , (40313,  22,  872415280) /* PhysicsEffectTable */
-     , (40313, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (40313, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (40313, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (40313,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40313, 8040, 4147118125, 143.6235, 106.6527, 48, -0.755079, 0, 0, -0.6556339) /* PCAPRecordedLocation */
 /* @teleloc 0xF730002D [143.623500 106.652700 48.000000] -0.755079 0.000000 0.000000 -0.655634 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40313, 8000, 3360275749) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40313,   1, 240, 0, 0) /* Strength */
@@ -130,6 +122,3 @@ VALUES (40313, 2, 38926,  1, 0, 0, False) /* Create T'thuun Mace (38926) for Wie
      , (40313, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
      , (40313, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */
      , (40313, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40313, 67111940, 0, 0);

@@ -18,8 +18,7 @@ VALUES (36187,   1,       2048) /* ItemType - Gem */
      , (36187, 106,        300) /* ItemSpellcraft */
      , (36187, 107,        200) /* ItemCurMana */
      , (36187, 108,        200) /* ItemMaxMana */
-     , (36187, 109,          0) /* ItemDifficulty */
-     , (36187, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36187, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36187,  69, True ) /* IsSellable */;
@@ -36,22 +35,7 @@ VALUES (36187,   1,   33554809) /* Setup */
      , (36187,   6,   67111919) /* PaletteBase */
      , (36187,   8,  100673902) /* Icon */
      , (36187,  22,  872415275) /* PhysicsEffectTable */
-     , (36187,  28,       4191) /* Spell - HarbingerProtectionFire */
-     , (36187, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (36187, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (36187, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36187, 8000, 2906539485) /* PCAPRecordedObjectIID */;
+     , (36187,  28,       4191) /* Spell - HarbingerProtectionFire */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36187,  4191,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36187, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36187, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36187, 0, 16779181);

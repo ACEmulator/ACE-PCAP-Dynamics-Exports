@@ -28,9 +28,7 @@ VALUES (41789,   1,          1) /* ItemType - MeleeWeapon */
      , (41789, 160,        250) /* WieldDifficulty */
      , (41789, 166,         19) /* SlayerCreatureType - Virindi */
      , (41789, 292,          2) /* Cleaving */
-     , (41789, 353,         11) /* WeaponType - TwoHanded */
-     , (41789, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41789, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41789, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41789,  22, True ) /* Inscribable */;
@@ -56,26 +54,9 @@ VALUES (41789,   1,   33556969) /* Setup */
      , (41789,   3,  536870932) /* SoundTable */
      , (41789,   6,   67111919) /* PaletteBase */
      , (41789,   8,  100690839) /* Icon */
-     , (41789,  22,  872415275) /* PhysicsEffectTable */
-     , (41789, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
-     , (41789, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41789, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41789, 8000, 3699151866) /* PCAPRecordedObjectIID */;
+     , (41789,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41789,  1337,      2) 
      , (41789,  1592,      2) 
      , (41789,  1616,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41789, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41789, 0, 83889235, 83889235)
-     , (41789, 0, 83889236, 83889236)
-     , (41789, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41789, 0, 16777880);

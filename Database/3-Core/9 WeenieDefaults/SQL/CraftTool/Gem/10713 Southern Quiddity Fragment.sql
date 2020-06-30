@@ -14,8 +14,7 @@ VALUES (10713,   1,       2048) /* ItemType - Gem */
      , (10713,  19,          0) /* Value */
      , (10713,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10713,  94,       2048) /* TargetType - Gem */
-     , (10713, 151,          2) /* HookType - Wall */
-     , (10713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (10713, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10713,  22, True ) /* Inscribable */;
@@ -30,19 +29,4 @@ VALUES (10713,   1,   33557049) /* Setup */
      , (10713,   3,  536870932) /* SoundTable */
      , (10713,   6,   67111928) /* PaletteBase */
      , (10713,   8,  100671666) /* Icon */
-     , (10713,  22,  872415275) /* PhysicsEffectTable */
-     , (10713, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (10713, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (10713, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10713, 8000, 3069612118) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (10713, 67112925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (10713, 0, 83888861, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (10713, 0, 16785861);
+     , (10713,  22,  872415275) /* PhysicsEffectTable */;

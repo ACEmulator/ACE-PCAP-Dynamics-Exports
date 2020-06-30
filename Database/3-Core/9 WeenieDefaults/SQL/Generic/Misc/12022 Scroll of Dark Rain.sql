@@ -10,8 +10,7 @@ VALUES (12022,   1,        128) /* ItemType - Misc */
      , (12022,  19,       1000) /* Value */
      , (12022,  33,          1) /* Bonded - Bonded */
      , (12022,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12022, 114,          1) /* Attuned - Attuned */
-     , (12022, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (12022, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12022,  22, True ) /* Inscribable */;
@@ -26,10 +25,4 @@ VALUES (12022,   1, 'Scroll of Dark Rain') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12022,   1,   33557333) /* Setup */
      , (12022,   8,  100672101) /* Icon */
-     , (12022,  22,  872415275) /* PhysicsEffectTable */
-     , (12022, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (12022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (12022, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12022, 8000, 2153219958) /* PCAPRecordedObjectIID */;
+     , (12022,  22,  872415275) /* PhysicsEffectTable */;

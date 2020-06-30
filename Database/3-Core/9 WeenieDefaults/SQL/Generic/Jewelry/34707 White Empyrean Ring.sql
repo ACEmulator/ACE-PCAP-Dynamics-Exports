@@ -20,8 +20,7 @@ VALUES (34707,   1,          8) /* ItemType - Jewelry */
      , (34707, 158,          7) /* WieldRequirements - Level */
      , (34707, 159,          1) /* WieldSkillType - Axe */
      , (34707, 160,        150) /* WieldDifficulty */
-     , (34707, 265,          9) /* EquipmentSetId - EmpyreanRings */
-     , (34707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34707, 265,          9) /* EquipmentSetId - EmpyreanRings */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34707,  22, True ) /* Inscribable */
@@ -41,13 +40,7 @@ VALUES (34707,   1,   33554691) /* Setup */
      , (34707,   3,  536870932) /* SoundTable */
      , (34707,   6,   67111919) /* PaletteBase */
      , (34707,   8,  100689376) /* Icon */
-     , (34707,  22,  872415275) /* PhysicsEffectTable */
-     , (34707, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
-     , (34707, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34707, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34707, 8000, 2316216069) /* PCAPRecordedObjectIID */;
+     , (34707,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34707,  2610,      2) 
@@ -56,12 +49,3 @@ VALUES (34707,  2610,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (34707, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34707, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (34707, 0, 83889680, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (34707, 0, 16778344);

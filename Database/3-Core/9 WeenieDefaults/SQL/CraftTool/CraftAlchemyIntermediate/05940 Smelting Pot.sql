@@ -14,8 +14,7 @@ VALUES (5940,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5940,  19,       1000) /* Value */
      , (5940,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5940,  94,   67112960) /* TargetType - SpellComponents, CraftAlchemyIntermediate */
-     , (5940, 151,          9) /* HookType - Floor, Yard */
-     , (5940, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5940, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5940,   1, 'Smelting Pot') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5940,   1,   33555972) /* Setup */
      , (5940,   3,  536870932) /* SoundTable */
      , (5940,   8,  100690553) /* Icon */
-     , (5940,  22,  872415275) /* PhysicsEffectTable */
-     , (5940, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (5940, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5940, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5940, 8000, 2157927925) /* PCAPRecordedObjectIID */;
+     , (5940,  22,  872415275) /* PhysicsEffectTable */;

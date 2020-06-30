@@ -11,15 +11,13 @@ VALUES (22908,   1,         16) /* ItemType - Creature */
      , (22908,  16,          1) /* ItemUseable - No */
      , (22908,  25,        135) /* Level */
      , (22908,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22908, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22908, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22908, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22908,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22908,   1, 'The Gatekeeper') /* Name */
-     , (22908, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22908,   1, 'The Gatekeeper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22908,   1,   33556792) /* Setup */
@@ -27,17 +25,11 @@ VALUES (22908,   1,   33556792) /* Setup */
      , (22908,   3,  536871013) /* SoundTable */
      , (22908,   6,   67112967) /* PaletteBase */
      , (22908,   8,  100671140) /* Icon */
-     , (22908,  22,  872415367) /* PhysicsEffectTable */
-     , (22908, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22908, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22908, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (22908,  22,  872415367) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22908, 8040, 1615134978, 40, -70, -35.9975, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x60450102 [40.000000 -70.000000 -35.997500] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22908, 8000, 3679387147) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (22908,   1,     0, 0, 0, 600) /* MaxHealth */;
@@ -54,6 +46,3 @@ VALUES (22908, 9, 20501,  0, 0, 0, False) /* Create Scroll of Jibril's Boon (205
      , (22908, 9, 29246,  0, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for ContainTreasure */
      , (22908, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (22908, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22908, 67114794, 0, 0);

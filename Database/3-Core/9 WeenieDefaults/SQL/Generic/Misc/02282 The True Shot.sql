@@ -19,20 +19,8 @@ VALUES (2282,   1, 'The True Shot') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2282,   1,   33555594) /* Setup */
-     , (2282,   8,  100668115) /* Icon */
-     , (2282, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (2282, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (2282, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (2282,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2282, 8040, 3378184238, 140.563, 131.317, 15.3086, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B002E [140.563000 131.317000 15.308600] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2282, 8000, 2090184739) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2282, 0, 83891180, 83891181);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2282, 0, 16782236);

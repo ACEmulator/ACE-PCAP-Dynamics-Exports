@@ -12,8 +12,7 @@ VALUES (5343,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (5343,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5343,  19,        150) /* Value */
      , (5343,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5343,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (5343, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5343,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5343,   1, 'Bundle of Lightning Arrowheads') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5343,   1,   33555958) /* Setup */
      , (5343,   3,  536870932) /* SoundTable */
      , (5343,   8,  100670202) /* Icon */
-     , (5343,  22,  872415275) /* PhysicsEffectTable */
-     , (5343, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (5343, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5343, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5343, 8000, 2914289577) /* PCAPRecordedObjectIID */;
+     , (5343,  22,  872415275) /* PhysicsEffectTable */;

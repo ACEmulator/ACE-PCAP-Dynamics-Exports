@@ -33,8 +33,7 @@ VALUES (22641,   1,         16) /* ItemType - Creature */
      , (22641, 386,          0) /* Overpower */
      , (22641, 387,          0) /* OverpowerResist */
      , (22641, 388,          0) /* GearOverpower */
-     , (22641, 389,          0) /* GearOverpowerResist */
-     , (22641, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22641, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22641,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (22641,  39,     1.2) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22641,   1, 'Tusker Shrine Statue') /* Name */
-     , (22641,  15, 'A mystical statue worshipped by the tuskers. You can feel magical energies welling from within.') /* ShortDesc */
-     , (22641, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (22641,  15, 'A mystical statue worshipped by the tuskers. You can feel magical energies welling from within.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22641,   1,   33558124) /* Setup */
      , (22641,   2,  150995147) /* MotionTable */
      , (22641,   3,  536871052) /* SoundTable */
      , (22641,   8,  100673831) /* Icon */
-     , (22641,  22,  872415274) /* PhysicsEffectTable */
-     , (22641, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (22641, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (22641, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22641,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22641, 8040, 2426601501, 90.36566, 108.9841, 21.86611, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x90A3001D [90.365660 108.984100 21.866110] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22641, 8000, 3685058489) /* PCAPRecordedObjectIID */;

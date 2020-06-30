@@ -33,9 +33,7 @@ VALUES (3818,   1,          1) /* ItemType - MeleeWeapon */
      , (3818, 176,         45) /* AppraisalItemSkill */
      , (3818, 177,          1) /* GemCount */
      , (3818, 178,         23) /* GemType */
-     , (3818, 353,          1) /* WeaponType - Unarmed */
-     , (3818, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3818, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3818, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3818,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3818,   5,  -0.056) /* ManaRate */
      , (3818,  26,       0) /* MaximumVelocity */
      , (3818,  29,    1.11) /* WeaponDefense */
      , (3818,  62,    1.09) /* WeaponOffense */
-     , (3818,  63,       1) /* DamageMod */
-     , (3818, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (3818,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3818,   1, 'Acid Katar') /* Name */
@@ -59,14 +56,7 @@ VALUES (3818,   1,   33555739) /* Setup */
      , (3818,   3,  536870932) /* SoundTable */
      , (3818,   8,  100668925) /* Icon */
      , (3818,  22,  872415275) /* PhysicsEffectTable */
-     , (3818,  52,  100676437) /* IconUnderlay */
-     , (3818, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3818, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3818, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3818, 8000, 2174497490) /* PCAPRecordedObjectIID */;
+     , (3818,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3818,  1626,      2) 

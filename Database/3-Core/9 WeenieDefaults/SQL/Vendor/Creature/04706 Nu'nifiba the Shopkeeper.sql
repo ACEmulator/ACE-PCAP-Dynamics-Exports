@@ -17,8 +17,7 @@ VALUES (4706,   1,         16) /* ItemType - Creature */
      , (4706, 113,          2) /* Gender - Female */
      , (4706, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4706, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4706, 188,          2) /* HeritageGroup - Gharundim */
-     , (4706, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4706, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4706,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4706,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4706,   1, 'Nu''nifiba the Shopkeeper') /* Name */
-     , (4706,   5, 'Shopkeeper') /* Template */
-     , (4706, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4706,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4706,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4706,   1,   33554510) /* Setup */
      , (4706,  11,   83890357) /* MouthTexture */
      , (4706,  15,   67116996) /* HairPalette */
      , (4706,  16,   67109567) /* EyesPalette */
-     , (4706,  17,   67109555) /* SkinPalette */
-     , (4706, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4706, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4706, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4706,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4706, 8040, 2474574083, 181.652, 130.008, 31.705, -0.293323, 0, 0, -0.9560134) /* PCAPRecordedLocation */
 /* @teleloc 0x937F0103 [181.652000 130.008000 31.705000] -0.293323 0.000000 0.000000 -0.956013 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4706, 8000, 2033709060) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4706,   1,  90, 0, 0) /* Strength */
@@ -111,53 +103,3 @@ VALUES (4706, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4706, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (4706, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (4706, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4706, 67109555, 0, 24)
-     , (4706, 67109567, 32, 8)
-     , (4706, 67110318, 216, 24)
-     , (4706, 67110349, 64, 8)
-     , (4706, 67110349, 40, 24)
-     , (4706, 67110349, 160, 8)
-     , (4706, 67110539, 72, 8)
-     , (4706, 67110551, 92, 4)
-     , (4706, 67116996, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4706, 0, 83889072, 83890012)
-     , (4706, 0, 83889342, 83890011)
-     , (4706, 1, 83887064, 83886241)
-     , (4706, 3, 83889344, 83887054)
-     , (4706, 4, 83887068, 83887054)
-     , (4706, 5, 83887064, 83886241)
-     , (4706, 7, 83889344, 83887054)
-     , (4706, 8, 83887068, 83887054)
-     , (4706, 9, 83887070, 83890009)
-     , (4706, 9, 83887062, 83890010)
-     , (4706, 10, 83887069, 83886782)
-     , (4706, 11, 83887067, 83891213)
-     , (4706, 13, 83887069, 83886782)
-     , (4706, 14, 83887067, 83891213)
-     , (4706, 16, 83886232, 83890685)
-     , (4706, 16, 83886668, 83890263)
-     , (4706, 16, 83886837, 83890292)
-     , (4706, 16, 83886684, 83890357);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4706, 0, 16781875)
-     , (4706, 1, 16778430)
-     , (4706, 2, 16778436)
-     , (4706, 3, 16777292)
-     , (4706, 4, 16781855)
-     , (4706, 5, 16778438)
-     , (4706, 6, 16778437)
-     , (4706, 7, 16777296)
-     , (4706, 8, 16781859)
-     , (4706, 9, 16778425)
-     , (4706, 10, 16778431)
-     , (4706, 11, 16778429)
-     , (4706, 12, 16778423)
-     , (4706, 13, 16778434)
-     , (4706, 14, 16778424)
-     , (4706, 15, 16778435)
-     , (4706, 16, 16795655);

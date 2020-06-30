@@ -20,9 +20,7 @@ VALUES (3870,   1,          1) /* ItemType - MeleeWeapon */
      , (3870, 105,          3) /* ItemWorkmanship */
      , (3870, 131,         60) /* MaterialType - Gold */
      , (3870, 151,          2) /* HookType - Wall */
-     , (3870, 353,          2) /* WeaponType - Sword */
-     , (3870, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3870, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3870, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3870,  22, True ) /* Inscribable */
@@ -34,8 +32,7 @@ VALUES (3870,  21,       0) /* WeaponLength */
      , (3870,  26,       0) /* MaximumVelocity */
      , (3870,  29,       1) /* WeaponDefense */
      , (3870,  62,       1) /* WeaponOffense */
-     , (3870,  63,       1) /* DamageMod */
-     , (3870, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (3870,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3870,   1, 'Lightning Simi') /* Name */
@@ -45,10 +42,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3870,   1,   33555778) /* Setup */
      , (3870,   3,  536870932) /* SoundTable */
      , (3870,   8,  100668164) /* Icon */
-     , (3870,  22,  872415275) /* PhysicsEffectTable */
-     , (3870, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3870, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3870, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3870, 8000, 3622072490) /* PCAPRecordedObjectIID */;
+     , (3870,  22,  872415275) /* PhysicsEffectTable */;

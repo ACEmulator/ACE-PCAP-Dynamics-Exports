@@ -12,8 +12,7 @@ VALUES (2436,   1,     524288) /* ItemType - ManaStone */
      , (2436,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2436,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (2436, 107,          0) /* ItemCurMana */
-     , (2436, 151,          2) /* HookType - Wall */
-     , (2436, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2436, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2436,  22, True ) /* Inscribable */;
@@ -28,13 +27,7 @@ VALUES (2436,   1, 'Greater Mana Stone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2436,   1,   33555640) /* Setup */
-     , (2436,   8,  100676307) /* Icon */
-     , (2436, 8001,  271073432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, TargetType, Burden, HookType */
-     , (2436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2436, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2436, 8000, 3680457945) /* PCAPRecordedObjectIID */;
+     , (2436,   8,  100676307) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2436, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

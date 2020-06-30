@@ -20,10 +20,4 @@ VALUES (44731,   1, 'Doll') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44731,   1,   33561331) /* Setup */
-     , (44731,   8,  100668115) /* Icon */
-     , (44731, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44731, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44731, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44731, 8000, 2192196378) /* PCAPRecordedObjectIID */;
+     , (44731,   8,  100668115) /* Icon */;

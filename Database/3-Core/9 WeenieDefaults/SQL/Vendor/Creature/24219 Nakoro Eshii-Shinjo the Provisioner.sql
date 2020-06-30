@@ -17,8 +17,7 @@ VALUES (24219,   1,         16) /* ItemType - Creature */
      , (24219, 113,          1) /* Gender - Male */
      , (24219, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24219, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24219, 188,          3) /* HeritageGroup - Sho */
-     , (24219, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24219, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24219,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (24219,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24219,   1, 'Nakoro Eshii-Shinjo the Provisioner') /* Name */
-     , (24219,   5, 'Provisioner') /* Template */
-     , (24219, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24219,   5, 'Provisioner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24219,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (24219,   1,   33554433) /* Setup */
      , (24219,  11,   83890634) /* MouthTexture */
      , (24219,  15,   67117024) /* HairPalette */
      , (24219,  16,   67110062) /* EyesPalette */
-     , (24219,  17,   67110050) /* SkinPalette */
-     , (24219, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24219, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24219, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (24219,  17,   67110050) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24219, 8040, 1060241684, 62.1547, 41.5331, 0.004999995, 0.04325371, 0, 0, -0.9990641) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320114 [62.154700 41.533100 0.005000] 0.043254 0.000000 0.000000 -0.999064 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24219, 8000, 1945313305) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24219,   1,  75, 0, 0) /* Strength */
@@ -140,51 +132,3 @@ VALUES (24219, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (24219, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24219, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24219, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24219, 67109964, 92, 4)
-     , (24219, 67110020, 72, 8)
-     , (24219, 67110050, 0, 24)
-     , (24219, 67110062, 32, 8)
-     , (24219, 67110317, 216, 24)
-     , (24219, 67110356, 40, 24)
-     , (24219, 67110356, 160, 8)
-     , (24219, 67111304, 64, 8)
-     , (24219, 67117024, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24219, 0, 83889072, 83890012)
-     , (24219, 0, 83889342, 83890011)
-     , (24219, 1, 83887064, 83886241)
-     , (24219, 2, 83887066, 83887051)
-     , (24219, 3, 83889344, 83887054)
-     , (24219, 4, 83887068, 83887054)
-     , (24219, 5, 83887064, 83886241)
-     , (24219, 6, 83887066, 83887051)
-     , (24219, 7, 83889344, 83887054)
-     , (24219, 8, 83887068, 83887054)
-     , (24219, 9, 83887061, 83890009)
-     , (24219, 9, 83887060, 83890010)
-     , (24219, 16, 83886232, 83890685)
-     , (24219, 16, 83886668, 83890447)
-     , (24219, 16, 83886837, 83890562)
-     , (24219, 16, 83886684, 83890634);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24219, 0, 16781835)
-     , (24219, 1, 16777295)
-     , (24219, 2, 16781866)
-     , (24219, 3, 16781841)
-     , (24219, 4, 16781838)
-     , (24219, 5, 16777299)
-     , (24219, 6, 16781864)
-     , (24219, 7, 16781840)
-     , (24219, 8, 16781839)
-     , (24219, 9, 16777300)
-     , (24219, 10, 16777301)
-     , (24219, 11, 16777302)
-     , (24219, 12, 16777304)
-     , (24219, 13, 16777303)
-     , (24219, 14, 16777305)
-     , (24219, 15, 16777307)
-     , (24219, 16, 16795675);

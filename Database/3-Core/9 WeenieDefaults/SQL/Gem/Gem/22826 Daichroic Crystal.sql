@@ -10,8 +10,7 @@ VALUES (22826,   1,       2048) /* ItemType - Gem */
      , (22826,  19,         75) /* Value */
      , (22826,  33,          1) /* Bonded - Bonded */
      , (22826,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22826, 114,          1) /* Attuned - Attuned */
-     , (22826, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22826, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22826,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (22826,   1, 'Daichroic Crystal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22826,   1,   33554809) /* Setup */
-     , (22826,   8,  100673920) /* Icon */
-     , (22826, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (22826, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22826, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22826, 8000, 2991239573) /* PCAPRecordedObjectIID */;
+     , (22826,   8,  100673920) /* Icon */;

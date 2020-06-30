@@ -14,8 +14,7 @@ VALUES (4751,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (4751,  19,         10) /* Value */
      , (4751,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4751,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (4751, 151,          9) /* HookType - Floor, Yard */
-     , (4751, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4751, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4751,   1, 'Mortar and Pestle') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4751,   1,   33555966) /* Setup */
      , (4751,   3,  536870932) /* SoundTable */
      , (4751,   8,  100670116) /* Icon */
-     , (4751,  22,  872415275) /* PhysicsEffectTable */
-     , (4751, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (4751, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (4751, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4751, 8000, 2186220463) /* PCAPRecordedObjectIID */;
+     , (4751,  22,  872415275) /* PhysicsEffectTable */;

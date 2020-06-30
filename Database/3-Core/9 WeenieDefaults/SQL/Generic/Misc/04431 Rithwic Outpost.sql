@@ -8,8 +8,7 @@ VALUES (4431,   1,        128) /* ItemType - Misc */
      , (4431,   5,       9000) /* EncumbranceVal */
      , (4431,  16,          1) /* ItemUseable - No */
      , (4431,  19,        125) /* Value */
-     , (4431,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (4431, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4431,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4431,   1, True ) /* Stuck */;
@@ -20,14 +19,8 @@ VALUES (4431,   1, 'Rithwic Outpost') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4431,   1,   33555984) /* Setup */
-     , (4431,   8,  100668115) /* Icon */
-     , (4431, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (4431, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4431, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (4431,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4431, 8040, 3364356128, 75.2423, 190.141, 28, 0.402795, 0, 0, -0.91529) /* PCAPRecordedLocation */
 /* @teleloc 0xC8880020 [75.242300 190.141000 28.000000] 0.402795 0.000000 0.000000 -0.915290 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4431, 8000, 2089320456) /* PCAPRecordedObjectIID */;

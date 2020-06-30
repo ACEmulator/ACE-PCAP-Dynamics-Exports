@@ -15,10 +15,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20973,  39,     0.5) /* DefaultScale */
      , (20973,  77,       1) /* PhysicsScriptIntensity */
      , (20973,  78,       1) /* Friction */
-     , (20973,  79,       0) /* Elasticity */
-     , (20973, 8010, -27.184) /* PCAPRecordedVelocityX */
-     , (20973, 8011,  27.154) /* PCAPRecordedVelocityY */
-     , (20973, 8012,   0.044) /* PCAPRecordedVelocityZ */;
+     , (20973,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20973,   1, 'Acid Stream') /* Name */;
@@ -29,17 +26,11 @@ VALUES (20973,   1,   33555446) /* Setup */
      , (20973,   8,  100667494) /* Icon */
      , (20973,  22,  872415243) /* PhysicsEffectTable */
      , (20973,  28,         58) /* Spell - AcidStream1 */
-     , (20973,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (20973, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (20973, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (20973, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (20973,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20973, 8040, 23855555, 56.09101, -38.81112, 1.84046, -0.9270869, 0, 0, -0.3748465) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.091010 -38.811120 1.840460] -0.927087 0.000000 0.000000 -0.374847 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20973, 8000, 3686709196) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20973, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */

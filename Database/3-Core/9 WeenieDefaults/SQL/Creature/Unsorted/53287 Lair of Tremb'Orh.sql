@@ -34,8 +34,7 @@ VALUES (53287,   1,         16) /* ItemType - Creature */
      , (53287, 386,          0) /* Overpower */
      , (53287, 387,          0) /* OverpowerResist */
      , (53287, 388,          0) /* GearOverpower */
-     , (53287, 389,          0) /* GearOverpowerResist */
-     , (53287, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53287, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53287,   1, True ) /* Stuck */
@@ -46,33 +45,15 @@ VALUES (53287,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53287,   1, 'Lair of Tremb''Orh') /* Name */
-     , (53287,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (53287, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (53287,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53287,   1,   33561686) /* Setup */
      , (53287,   2,  150995505) /* MotionTable */
      , (53287,   3,  536870932) /* SoundTable */
      , (53287,   6,   67114692) /* PaletteBase */
-     , (53287,   8,  100671420) /* Icon */
-     , (53287, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53287, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53287, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (53287,   8,  100671420) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53287, 8040, 1500184857, 140, -4.52357, 0.000500083, -0.00420404, 0, 0, -0.9999912) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0119 [140.000000 -4.523570 0.000500] -0.004204 0.000000 0.000000 -0.999991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53287, 8000, 2922524947) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53287, 67117145, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (53287, 13, 83894877, 83894877)
-     , (53287, 13, 83894885, 83894885)
-     , (53287, 13, 83894884, 83894884);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (53287, 13, 16789731);

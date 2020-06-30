@@ -17,8 +17,7 @@ VALUES (8230,   1,         16) /* ItemType - Creature */
      , (8230, 113,          2) /* Gender - Female */
      , (8230, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8230, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8230, 188,          2) /* HeritageGroup - Gharundim */
-     , (8230, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8230, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8230,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8230,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8230,   1, 'Farmer Khurah al-Rujarkir') /* Name */
-     , (8230,   5, 'Farmer') /* Template */
-     , (8230, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8230,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8230,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8230,   1,   33554510) /* Setup */
      , (8230,  11,   83890331) /* MouthTexture */
      , (8230,  15,   67117080) /* HairPalette */
      , (8230,  16,   67110063) /* EyesPalette */
-     , (8230,  17,   67109550) /* SkinPalette */
-     , (8230, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8230, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8230, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8230,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8230, 8040, 2471166603, 145.175, 1.068, -13.595, -0.7909699, 0, 0, -0.6118551) /* PCAPRecordedLocation */
 /* @teleloc 0x934B028B [145.175000 1.068000 -13.595000] -0.790970 0.000000 0.000000 -0.611855 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8230, 8000, 2033496146) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8230,   1,  80, 0, 0) /* Strength */
@@ -94,55 +86,3 @@ VALUES (8230, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (8230, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (8230, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (8230, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8230, 67109550, 0, 24)
-     , (8230, 67109969, 92, 4)
-     , (8230, 67110026, 72, 8)
-     , (8230, 67110063, 32, 8)
-     , (8230, 67110325, 64, 8)
-     , (8230, 67110325, 40, 24)
-     , (8230, 67110348, 216, 24)
-     , (8230, 67111245, 160, 8)
-     , (8230, 67117080, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8230, 0, 83889072, 83890012)
-     , (8230, 0, 83889342, 83890011)
-     , (8230, 1, 83887064, 83886241)
-     , (8230, 2, 83887066, 83887051)
-     , (8230, 3, 83889344, 83887054)
-     , (8230, 4, 83887068, 83887054)
-     , (8230, 5, 83887064, 83886241)
-     , (8230, 6, 83887066, 83887051)
-     , (8230, 7, 83889344, 83887054)
-     , (8230, 8, 83887068, 83887054)
-     , (8230, 9, 83887070, 83890009)
-     , (8230, 9, 83887062, 83890010)
-     , (8230, 10, 83887069, 83886782)
-     , (8230, 11, 83887067, 83891213)
-     , (8230, 13, 83887069, 83886782)
-     , (8230, 14, 83887067, 83891213)
-     , (8230, 16, 83886232, 83890685)
-     , (8230, 16, 83886668, 83890261)
-     , (8230, 16, 83886837, 83890293)
-     , (8230, 16, 83886684, 83890331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8230, 0, 16781875)
-     , (8230, 1, 16778430)
-     , (8230, 2, 16781908)
-     , (8230, 3, 16781841)
-     , (8230, 4, 16783485)
-     , (8230, 5, 16778438)
-     , (8230, 6, 16781909)
-     , (8230, 7, 16781840)
-     , (8230, 8, 16783487)
-     , (8230, 9, 16778425)
-     , (8230, 10, 16778431)
-     , (8230, 11, 16778429)
-     , (8230, 12, 16778423)
-     , (8230, 13, 16778434)
-     , (8230, 14, 16778424)
-     , (8230, 15, 16778435)
-     , (8230, 16, 16795655);

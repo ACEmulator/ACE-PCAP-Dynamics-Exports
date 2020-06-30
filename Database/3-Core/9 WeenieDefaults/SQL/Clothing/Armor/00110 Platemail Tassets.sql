@@ -14,8 +14,7 @@ VALUES (110,   1,          2) /* ItemType - Armor */
      , (110,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (110, 105,          5) /* ItemWorkmanship */
      , (110, 131,         60) /* MaterialType - Gold */
-     , (110, 172,          1) /* AppraisalLongDescDecoration */
-     , (110, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (110, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (110,  22, True ) /* Inscribable */
@@ -30,8 +29,7 @@ VALUES (110,  13,     1.3) /* ArmorModVsSlash */
      , (110,  18,     0.6) /* ArmorModVsAcid */
      , (110,  19,     0.4) /* ArmorModVsElectric */
      , (110,  39,    1.33) /* DefaultScale */
-     , (110, 165,       1) /* ArmorModVsNether */
-     , (110, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (110, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (110,   1, 'Platemail Tassets') /* Name */
@@ -42,22 +40,7 @@ VALUES (110,   1,   33554656) /* Setup */
      , (110,   3,  536870932) /* SoundTable */
      , (110,   6,   67108990) /* PaletteBase */
      , (110,   8,  100673341) /* Icon */
-     , (110,  22,  872415275) /* PhysicsEffectTable */
-     , (110, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (110, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (110, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (110, 8000, 3692279086) /* PCAPRecordedObjectIID */;
+     , (110,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (110, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (110, 67110007, 136, 16);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (110, 0, 83887064, 83886800);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (110, 0, 16778365);

@@ -33,9 +33,7 @@ VALUES (3802,   1,          1) /* ItemType - MeleeWeapon */
      , (3802, 176,         46) /* AppraisalItemSkill */
      , (3802, 177,          1) /* GemCount */
      , (3802, 178,         35) /* GemType */
-     , (3802, 353,          4) /* WeaponType - Mace */
-     , (3802, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3802, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3802,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3802,   5,  -0.056) /* ManaRate */
      , (3802,  26,       0) /* MaximumVelocity */
      , (3802,  29,    1.15) /* WeaponDefense */
      , (3802,  62,    1.02) /* WeaponOffense */
-     , (3802,  63,       1) /* DamageMod */
-     , (3802, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3802,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3802,   1, 'Acid Jitte') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3802,   1,   33555726) /* Setup */
      , (3802,   3,  536870932) /* SoundTable */
      , (3802,   8,  100668902) /* Icon */
-     , (3802,  22,  872415275) /* PhysicsEffectTable */
-     , (3802, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3802, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3802, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3802, 8000, 3682460083) /* PCAPRecordedObjectIID */;
+     , (3802,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3802,  1616,      2) 

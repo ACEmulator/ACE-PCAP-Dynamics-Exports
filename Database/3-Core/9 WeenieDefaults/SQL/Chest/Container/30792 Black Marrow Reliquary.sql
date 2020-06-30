@@ -10,8 +10,7 @@ VALUES (30792,   1,        512) /* ItemType - Container */
      , (30792,   7,         10) /* ContainersCapacity */
      , (30792,  16,         48) /* ItemUseable - ViewedRemote */
      , (30792,  19,       2500) /* Value */
-     , (30792,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (30792, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30792,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30792,   1, True ) /* Stuck */
@@ -24,25 +23,18 @@ VALUES (30792,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30792,   1, 'Black Marrow Reliquary') /* Name */
      , (30792,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (30792,  16, 'A disturbing reliquary, charred black by the devastation of the Singularity Caul.') /* LongDesc */
-     , (30792, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (30792,  16, 'A disturbing reliquary, charred black by the devastation of the Singularity Caul.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30792,   1,   33559268) /* Setup */
      , (30792,   2,  150995333) /* MotionTable */
      , (30792,   3,  536870950) /* SoundTable */
      , (30792,   8,  100677492) /* Icon */
-     , (30792,  22,  872415275) /* PhysicsEffectTable */
-     , (30792, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (30792, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (30792, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (30792,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30792, 8040, 134807603, 153.769, 57.6042, 31.21786, -0.2394579, 0, 0, -0.9709067) /* PCAPRecordedLocation */
 /* @teleloc 0x08090033 [153.769000 57.604200 31.217860] -0.239458 0.000000 0.000000 -0.970907 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30792, 8000, 1887473668) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30792, -1, 163, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ornamental Bowl (163) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

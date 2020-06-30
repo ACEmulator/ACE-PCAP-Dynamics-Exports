@@ -11,8 +11,7 @@ VALUES (4248,   1,         16) /* ItemType - Creature */
      , (4248,  16,          1) /* ItemUseable - No */
      , (4248,  25,        100) /* Level */
      , (4248,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4248, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4248, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4248, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4248,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (4248,  39,    1.65) /* DefaultScale */
      , (4248,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4248,   1, 'Putrid Moarsman') /* Name */
-     , (4248, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4248,   1, 'Putrid Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4248,   1,   33556882) /* Setup */
@@ -32,17 +30,11 @@ VALUES (4248,   1,   33556882) /* Setup */
      , (4248,   6,   67112872) /* PaletteBase */
      , (4248,   8,  100671185) /* Icon */
      , (4248,  22,  872415337) /* PhysicsEffectTable */
-     , (4248,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (4248, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4248, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4248, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (4248,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4248, 8040, 4079091720, 21.77009, 187.1062, 0.006600022, -0.9523283, 0, 0, -0.3050751) /* PCAPRecordedLocation */
 /* @teleloc 0xF3220008 [21.770090 187.106200 0.006600] -0.952328 0.000000 0.000000 -0.305075 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4248, 8000, 3686006859) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4248,   1, 170, 0, 0) /* Strength */
@@ -113,6 +105,3 @@ VALUES (4248, 9, 49368,  0, 0, 0, False) /* Create Acid Grievver Essence (100) (
      , (4248, 9, 20479,  0, 0, 0, False) /* Create Scroll of Inferno's Gift (20479) for ContainTreasure */
      , (4248, 9, 41037,  0, 0, 0, False) /* Create Acidic Weeping Two Handed Spear (41037) for ContainTreasure */
      , (4248, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4248, 67113031, 0, 0);

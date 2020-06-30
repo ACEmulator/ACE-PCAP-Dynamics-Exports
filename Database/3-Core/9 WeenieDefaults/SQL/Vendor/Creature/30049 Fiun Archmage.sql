@@ -15,8 +15,7 @@ VALUES (30049,   1,         16) /* ItemType - Creature */
      , (30049,  76,    1000000) /* MerchandiseMaxValue */
      , (30049,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30049, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (30049, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30049, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30049, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30049,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (30049,  37,     0.8) /* BuyPrice */
      , (30049,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30049,   1, 'Fiun Archmage') /* Name */
-     , (30049, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (30049,   1, 'Fiun Archmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30049,   1,   33559124) /* Setup */
      , (30049,   2,  150994945) /* MotionTable */
      , (30049,   3,  536870913) /* SoundTable */
      , (30049,   6,   67115466) /* PaletteBase */
-     , (30049,   8,  100677369) /* Icon */
-     , (30049, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30049, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30049, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30049,   8,  100677369) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30049, 8040, 955711744, 103.523, 9.38596, 2.21048, 0.5405036, 0, 0, -0.8413417) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70100 [103.523000 9.385960 2.210480] 0.540504 0.000000 0.000000 -0.841342 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30049, 8000, 1938780162) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30049,   1, 150, 0, 0) /* Strength */
@@ -182,44 +174,3 @@ VALUES (30049, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (30049, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (30049, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (30049, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30049, 67116338, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30049, 0, 83895729, 83895730)
-     , (30049, 1, 83895729, 83895730)
-     , (30049, 2, 83895729, 83895730)
-     , (30049, 3, 83895729, 83895730)
-     , (30049, 4, 83895729, 83895730)
-     , (30049, 5, 83895729, 83895730)
-     , (30049, 6, 83895729, 83895730)
-     , (30049, 7, 83895729, 83895730)
-     , (30049, 8, 83895729, 83895730)
-     , (30049, 9, 83895729, 83895730)
-     , (30049, 10, 83895729, 83895730)
-     , (30049, 11, 83895729, 83895730)
-     , (30049, 12, 83895729, 83895730)
-     , (30049, 13, 83895729, 83895730)
-     , (30049, 14, 83895729, 83895730)
-     , (30049, 15, 83895729, 83895730)
-     , (30049, 16, 83895729, 83895730);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30049, 0, 16791126)
-     , (30049, 1, 16791135)
-     , (30049, 2, 16791137)
-     , (30049, 3, 16791130)
-     , (30049, 4, 16791139)
-     , (30049, 5, 16791136)
-     , (30049, 6, 16791138)
-     , (30049, 7, 16791131)
-     , (30049, 8, 16791140)
-     , (30049, 9, 16791129)
-     , (30049, 10, 16791141)
-     , (30049, 11, 16791127)
-     , (30049, 12, 16791132)
-     , (30049, 13, 16791142)
-     , (30049, 14, 16791128)
-     , (30049, 15, 16791133)
-     , (30049, 16, 16791134);

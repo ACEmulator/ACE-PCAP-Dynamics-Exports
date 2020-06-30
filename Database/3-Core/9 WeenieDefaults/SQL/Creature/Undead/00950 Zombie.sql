@@ -12,15 +12,13 @@ VALUES (950,   1,         16) /* ItemType - Creature */
      , (950,  25,         15) /* Level */
      , (950,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (950, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (950, 307,          5) /* DamageRating */
-     , (950, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (950, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (950,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (950,   1, 'Zombie') /* Name */
-     , (950, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (950,   1, 'Zombie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (950,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (950,   1,   33554839) /* Setup */
      , (950,   3,  536870934) /* SoundTable */
      , (950,   6,   67110722) /* PaletteBase */
      , (950,   8,  100667942) /* Icon */
-     , (950,  22,  872415272) /* PhysicsEffectTable */
-     , (950, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (950, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (950, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (950,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (950, 8040, 2471886894, 142.5077, 143.4872, 17.92203, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x9356002E [142.507700 143.487200 17.922030] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (950, 8000, 3685887385) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (950,   1,  40, 0, 0) /* Strength */
@@ -414,6 +406,3 @@ VALUES (950, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wiel
      , (950, 9,  2740,  0, 0, 0, False) /* Create Scroll of Strength Other V (2740) for ContainTreasure */
      , (950, 9,  3741,  0, 0, 0, False) /* Create Scroll of Infuse Stamina II (3741) for ContainTreasure */
      , (950, 9,   106,  0, 0, 0, False) /* Create Yoroi Sleeves (106) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (950, 67111664, 0, 0);

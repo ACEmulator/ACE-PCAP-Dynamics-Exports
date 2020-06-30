@@ -20,14 +20,10 @@ VALUES (20991,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20991, 105,        104) /* ItemWorkmanship */
      , (20991, 131,         55) /* MaterialType - ReedSharkHide */
      , (20991, 151,          9) /* HookType - Floor, Yard */
-     , (20991, 170,         16) /* NumItemsInMaterial */
-     , (20991, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (20991, 170,         16) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20991,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20991, 8004,   5.308) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20991,   1, 'Salvaged Reedshark Hide (100)') /* Name */
@@ -40,19 +36,4 @@ VALUES (20991,   1,   33554817) /* Setup */
      , (20991,   6,   67111919) /* PaletteBase */
      , (20991,   8,  100673219) /* Icon */
      , (20991,  22,  872415275) /* PhysicsEffectTable */
-     , (20991,  50,  100673236) /* IconOverlay */
-     , (20991, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (20991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (20991, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20991, 8000, 2982947091) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20991, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (20991, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (20991, 0, 16777882);
+     , (20991,  50,  100673236) /* IconOverlay */;

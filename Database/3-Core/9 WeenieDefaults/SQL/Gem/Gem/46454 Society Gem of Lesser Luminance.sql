@@ -14,8 +14,7 @@ VALUES (46454,   1,       2048) /* ItemType - Gem */
      , (46454,  19,          1) /* Value */
      , (46454,  33,          1) /* Bonded - Bonded */
      , (46454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46454, 114,          1) /* Attuned - Attuned */
-     , (46454, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46454, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46454,   1, 'Society Gem of Lesser Luminance') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46454,   1,   33554809) /* Setup */
      , (46454,   3,  536870932) /* SoundTable */
      , (46454,   8,  100692118) /* Icon */
-     , (46454,  22,  872415275) /* PhysicsEffectTable */
-     , (46454, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (46454, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (46454, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46454, 8000, 2151421554) /* PCAPRecordedObjectIID */;
+     , (46454,  22,  872415275) /* PhysicsEffectTable */;

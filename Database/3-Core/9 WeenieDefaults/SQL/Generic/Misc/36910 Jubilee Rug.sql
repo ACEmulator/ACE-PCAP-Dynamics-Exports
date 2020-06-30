@@ -9,8 +9,7 @@ VALUES (36910,   1,        128) /* ItemType - Misc */
      , (36910,  16,          1) /* ItemUseable - No */
      , (36910,  19,       6000) /* Value */
      , (36910,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36910, 151,          1) /* HookType - Floor */
-     , (36910, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36910, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36910,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (36910,   1, 'Jubilee Rug') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36910,   1,   33560430) /* Setup */
-     , (36910,   8,  100689761) /* Icon */
-     , (36910, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (36910, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36910, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36910, 8000, 2192312348) /* PCAPRecordedObjectIID */;
+     , (36910,   8,  100689761) /* Icon */;

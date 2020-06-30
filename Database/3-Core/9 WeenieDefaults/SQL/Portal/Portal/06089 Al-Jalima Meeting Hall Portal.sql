@@ -8,8 +8,7 @@ VALUES (6089,   1,      65536) /* ItemType - Portal */
      , (6089,  16,         32) /* ItemUseable - Remote */
      , (6089,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (6089, 111,          1) /* PortalBitmask - Unrestricted */
-     , (6089, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (6089, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (6089, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6089,   1, True ) /* Stuck */;
@@ -18,20 +17,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6089,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6089,   1, 'Al-Jalima Meeting Hall Portal') /* Name */
-     , (6089, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (6089,   1, 'Al-Jalima Meeting Hall Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6089,   1,   33554867) /* Setup */
      , (6089,   2,  150994947) /* MotionTable */
-     , (6089,   8,  100667499) /* Icon */
-     , (6089, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (6089, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (6089, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (6089,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6089, 8040, 2240348417, 108.931, 12.9724, 87.937, -0.9469137, 0, 0, -0.3214879) /* PCAPRecordedLocation */
 /* @teleloc 0x85890101 [108.931000 12.972400 87.937000] -0.946914 0.000000 0.000000 -0.321488 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6089, 8000, 2019069954) /* PCAPRecordedObjectIID */;

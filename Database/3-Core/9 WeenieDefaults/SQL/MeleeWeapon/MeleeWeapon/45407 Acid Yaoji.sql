@@ -33,9 +33,7 @@ VALUES (45407,   1,          1) /* ItemType - MeleeWeapon */
      , (45407, 176,         46) /* AppraisalItemSkill */
      , (45407, 177,          2) /* GemCount */
      , (45407, 178,         33) /* GemType */
-     , (45407, 353,          2) /* WeaponType - Sword */
-     , (45407, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45407, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45407, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45407,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (45407,   5,  -0.042) /* ManaRate */
      , (45407,  26,       0) /* MaximumVelocity */
      , (45407,  29,    1.08) /* WeaponDefense */
      , (45407,  62,    1.09) /* WeaponOffense */
-     , (45407,  63,       1) /* DamageMod */
-     , (45407, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (45407,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45407,   1, 'Acid Yaoji') /* Name */
@@ -59,14 +56,7 @@ VALUES (45407,   1,   33555804) /* Setup */
      , (45407,   3,  536870932) /* SoundTable */
      , (45407,   8,  100669077) /* Icon */
      , (45407,  22,  872415275) /* PhysicsEffectTable */
-     , (45407,  52,  100676437) /* IconUnderlay */
-     , (45407, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45407, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45407, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45407, 8000, 2173705900) /* PCAPRecordedObjectIID */;
+     , (45407,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45407,  1591,      2) 

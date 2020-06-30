@@ -17,8 +17,7 @@ VALUES (8495,   1,         16) /* ItemType - Creature */
      , (8495, 113,          1) /* Gender - Male */
      , (8495, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8495, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8495, 188,          1) /* HeritageGroup - Aluvian */
-     , (8495, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8495, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8495,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8495,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8495,   1, 'Provisioner Warster the Handy') /* Name */
-     , (8495,   5, 'Shifty Provisioner') /* Template */
-     , (8495, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8495,   5, 'Shifty Provisioner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8495,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8495,   1,   33554433) /* Setup */
      , (8495,  11,   83890639) /* MouthTexture */
      , (8495,  15,   67116978) /* HairPalette */
      , (8495,  16,   67110065) /* EyesPalette */
-     , (8495,  17,   67109558) /* SkinPalette */
-     , (8495, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8495, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8495, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8495,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8495, 8040, 4062314777, 155.094, 173.459, 18.005, 0.9996225, 0, 0, -0.02747661) /* PCAPRecordedLocation */
 /* @teleloc 0xF2220119 [155.094000 173.459000 18.005000] 0.999623 0.000000 0.000000 -0.027477 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8495, 8000, 2132942859) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8495,   1, 160, 0, 0) /* Strength */
@@ -132,61 +124,3 @@ VALUES (8495, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (8495, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (8495, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (8495, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8495, 67109558, 0, 24)
-     , (8495, 67110003, 72, 8)
-     , (8495, 67110065, 32, 8)
-     , (8495, 67110349, 40, 24)
-     , (8495, 67110349, 160, 8)
-     , (8495, 67110349, 250, 6)
-     , (8495, 67110360, 64, 8)
-     , (8495, 67110379, 216, 24)
-     , (8495, 67110550, 92, 4)
-     , (8495, 67116978, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8495, 0, 83889072, 83890012)
-     , (8495, 0, 83889342, 83890011)
-     , (8495, 1, 83887064, 83886241)
-     , (8495, 2, 83887066, 83887055)
-     , (8495, 2, 83892602, 83892602)
-     , (8495, 2, 83892601, 83892601)
-     , (8495, 3, 83889344, 83887054)
-     , (8495, 4, 83887068, 83892603)
-     , (8495, 5, 83887064, 83886241)
-     , (8495, 6, 83887066, 83887055)
-     , (8495, 6, 83892602, 83892602)
-     , (8495, 6, 83892601, 83892601)
-     , (8495, 7, 83889344, 83887054)
-     , (8495, 8, 83887068, 83892603)
-     , (8495, 9, 83887061, 83890009)
-     , (8495, 9, 83887060, 83890010)
-     , (8495, 10, 83887069, 83886782)
-     , (8495, 11, 83887067, 83891213)
-     , (8495, 13, 83887069, 83886782)
-     , (8495, 14, 83887067, 83891213)
-     , (8495, 16, 83886232, 83890685)
-     , (8495, 16, 83886668, 83890481)
-     , (8495, 16, 83886837, 83890547)
-     , (8495, 16, 83886684, 83890639)
-     , (8495, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8495, 0, 16781835)
-     , (8495, 1, 16777295)
-     , (8495, 2, 16784627)
-     , (8495, 3, 16781841)
-     , (8495, 4, 16781838)
-     , (8495, 5, 16777299)
-     , (8495, 6, 16784628)
-     , (8495, 7, 16781840)
-     , (8495, 8, 16781839)
-     , (8495, 9, 16777300)
-     , (8495, 10, 16777301)
-     , (8495, 11, 16777302)
-     , (8495, 12, 16777304)
-     , (8495, 13, 16777303)
-     , (8495, 14, 16777305)
-     , (8495, 15, 16777307)
-     , (8495, 16, 16779630);

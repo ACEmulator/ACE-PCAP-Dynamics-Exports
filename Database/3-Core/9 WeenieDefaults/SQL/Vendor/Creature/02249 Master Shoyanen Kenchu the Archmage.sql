@@ -17,8 +17,7 @@ VALUES (2249,   1,         16) /* ItemType - Creature */
      , (2249, 113,          2) /* Gender - Female */
      , (2249, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2249, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2249, 188,          3) /* HeritageGroup - Sho */
-     , (2249, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2249, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2249,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2249,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2249,   1, 'Master Shoyanen Kenchu the Archmage') /* Name */
-     , (2249,   5, 'Master Archmage') /* Template */
-     , (2249, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2249,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2249,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2249,   1,   33554510) /* Setup */
      , (2249,  11,   83890346) /* MouthTexture */
      , (2249,  15,   67117019) /* HairPalette */
      , (2249,  16,   67109565) /* EyesPalette */
-     , (2249,  17,   67110053) /* SkinPalette */
-     , (2249, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2249, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2249, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2249,  17,   67110053) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2249, 8040, 3929014531, 151.045, 37.8298, 110.005, -0.9918318, 0, 0, -0.1275526) /* PCAPRecordedLocation */
 /* @teleloc 0xEA300103 [151.045000 37.829800 110.005000] -0.991832 0.000000 0.000000 -0.127553 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2249, 8000, 2124611589) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2249,   1, 150, 0, 0) /* Strength */
@@ -282,49 +274,3 @@ VALUES (2249, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2249, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */
      , (2249, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */
      , (2249, 4, 27328, -1, 0, 0, False) /* Create Major Mana Stone (27328) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2249, 67109565, 32, 8)
-     , (2249, 67110053, 0, 24)
-     , (2249, 67110340, 80, 12)
-     , (2249, 67110340, 116, 12)
-     , (2249, 67110546, 96, 12)
-     , (2249, 67112670, 40, 40)
-     , (2249, 67117019, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2249, 0, 83892345, 83892364)
-     , (2249, 0, 83892344, 83892344)
-     , (2249, 1, 83892352, 83892352)
-     , (2249, 2, 83892351, 83892351)
-     , (2249, 5, 83892352, 83892352)
-     , (2249, 6, 83892351, 83892351)
-     , (2249, 9, 83891974, 83892367)
-     , (2249, 9, 83891968, 83892368)
-     , (2249, 10, 83892347, 83892347)
-     , (2249, 11, 83892346, 83892346)
-     , (2249, 13, 83892347, 83892347)
-     , (2249, 14, 83892346, 83892346)
-     , (2249, 16, 83886232, 83890685)
-     , (2249, 16, 83886668, 83890281)
-     , (2249, 16, 83886837, 83890291)
-     , (2249, 16, 83886684, 83890346);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2249, 0, 16783897)
-     , (2249, 1, 16783885)
-     , (2249, 2, 16783878)
-     , (2249, 3, 16777708)
-     , (2249, 4, 16777708)
-     , (2249, 5, 16783889)
-     , (2249, 6, 16783881)
-     , (2249, 7, 16777708)
-     , (2249, 8, 16777708)
-     , (2249, 9, 16783714)
-     , (2249, 10, 16783863)
-     , (2249, 11, 16783853)
-     , (2249, 12, 16778423)
-     , (2249, 13, 16783871)
-     , (2249, 14, 16783855)
-     , (2249, 15, 16778435)
-     , (2249, 16, 16795641);

@@ -17,8 +17,7 @@ VALUES (966,   1,         16) /* ItemType - Creature */
      , (966, 113,          2) /* Gender - Female */
      , (966, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (966, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (966, 188,          1) /* HeritageGroup - Aluvian */
-     , (966, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (966, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (966,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (966,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (966,   1, 'Grawalda the Peddler') /* Name */
-     , (966,   5, 'Peddler') /* Template */
-     , (966, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (966,   5, 'Peddler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (966,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (966,   1,   33554510) /* Setup */
      , (966,  11,   83890331) /* MouthTexture */
      , (966,  15,   67116991) /* HairPalette */
      , (966,  16,   67110065) /* EyesPalette */
-     , (966,  17,   67109561) /* SkinPalette */
-     , (966, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (966, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (966, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (966,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (966, 8040, 31981862, 29.31, -82.3414, -11.995, 0.8585122, 0, 0, -0.5127931) /* PCAPRecordedLocation */
 /* @teleloc 0x01E80126 [29.310000 -82.341400 -11.995000] 0.858512 0.000000 0.000000 -0.512793 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (966, 8000, 1881047047) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (966,   1,     0, 0, 0, 140) /* MaxHealth */;
@@ -113,57 +105,3 @@ VALUES (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
      , (966, 4, 49485, -1, 0, 0, False) /* Create Encapsulated Spirit (49485) for Shop */
      , (966, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (966, 67109561, 0, 24)
-     , (966, 67109964, 92, 4)
-     , (966, 67110003, 72, 8)
-     , (966, 67110065, 32, 8)
-     , (966, 67110320, 160, 8)
-     , (966, 67110356, 64, 8)
-     , (966, 67110356, 40, 24)
-     , (966, 67110356, 250, 6)
-     , (966, 67111245, 216, 24)
-     , (966, 67116991, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (966, 0, 83889072, 83890012)
-     , (966, 0, 83889342, 83890011)
-     , (966, 1, 83887064, 83886241)
-     , (966, 2, 83887066, 83887051)
-     , (966, 3, 83889344, 83887054)
-     , (966, 4, 83887068, 83887054)
-     , (966, 5, 83887064, 83886241)
-     , (966, 6, 83887066, 83887051)
-     , (966, 7, 83889344, 83887054)
-     , (966, 8, 83887068, 83887054)
-     , (966, 9, 83887070, 83890009)
-     , (966, 9, 83887062, 83890010)
-     , (966, 10, 83887069, 83886782)
-     , (966, 11, 83887067, 83891213)
-     , (966, 13, 83887069, 83886782)
-     , (966, 14, 83887067, 83891213)
-     , (966, 16, 83886232, 83890685)
-     , (966, 16, 83886668, 83890275)
-     , (966, 16, 83886837, 83890314)
-     , (966, 16, 83886684, 83890331)
-     , (966, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (966, 0, 16781875)
-     , (966, 1, 16778430)
-     , (966, 2, 16781908)
-     , (966, 3, 16781841)
-     , (966, 4, 16783485)
-     , (966, 5, 16778438)
-     , (966, 6, 16781909)
-     , (966, 7, 16781840)
-     , (966, 8, 16783487)
-     , (966, 9, 16778425)
-     , (966, 10, 16778431)
-     , (966, 11, 16778429)
-     , (966, 12, 16778423)
-     , (966, 13, 16778434)
-     , (966, 14, 16778424)
-     , (966, 15, 16778435)
-     , (966, 16, 16779630);

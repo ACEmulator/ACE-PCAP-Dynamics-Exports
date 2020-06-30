@@ -12,8 +12,7 @@ VALUES (37368,   1,        128) /* ItemType - Misc */
      , (37368,  15,      30000) /* StackUnitValue */
      , (37368,  16,          1) /* ItemUseable - No */
      , (37368,  19,      30000) /* Value */
-     , (37368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37368, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37368,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37368,   1, 'Glyph of Light Weapons') /* Name */
@@ -25,19 +24,4 @@ VALUES (37368,   1,   33554809) /* Setup */
      , (37368,   6,   67111919) /* PaletteBase */
      , (37368,   8,  100690191) /* Icon */
      , (37368,  22,  872415275) /* PhysicsEffectTable */
-     , (37368,  50,  100692242) /* IconOverlay */
-     , (37368, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (37368, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37368, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37368, 8000, 2158698180) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37368, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37368, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37368, 0, 16779181);
+     , (37368,  50,  100692242) /* IconOverlay */;

@@ -8,10 +8,7 @@ VALUES (38172,   1,       8192) /* ItemType - Writable */
      , (38172,   5,         50) /* EncumbranceVal */
      , (38172,  16,          8) /* ItemUseable - Contained */
      , (38172,  19,       1000) /* Value */
-     , (38172,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38172, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (38172, 8042,          3) /* PCAPRecordedAppraisalPages */
-     , (38172, 8043,          3) /* PCAPRecordedAppraisalMaxPages */;
+     , (38172,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38172,   1, 'The Creation of Blighted Moarsmen') /* Name */
@@ -21,13 +18,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38172,   1,   33554771) /* Setup */
      , (38172,   3,  536870932) /* SoundTable */
      , (38172,   8,  100689271) /* Icon */
-     , (38172,  22,  872415275) /* PhysicsEffectTable */
-     , (38172, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (38172, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (38172, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38172, 8000, 2967011952) /* PCAPRecordedObjectIID */;
+     , (38172,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (38172, 3, 1000);

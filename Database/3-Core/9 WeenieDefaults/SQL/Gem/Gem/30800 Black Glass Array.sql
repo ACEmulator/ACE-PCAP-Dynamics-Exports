@@ -36,14 +36,7 @@ VALUES (30800,   1,   33559264) /* Setup */
      , (30800,   3,  536870932) /* SoundTable */
      , (30800,   8,  100677495) /* Icon */
      , (30800,  22,  872415275) /* PhysicsEffectTable */
-     , (30800,  28,        157) /* Spell - SummonPortal1 */
-     , (30800, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (30800, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (30800, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (30800, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30800, 8000, 2149088796) /* PCAPRecordedObjectIID */;
+     , (30800,  28,        157) /* Spell - SummonPortal1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30800,   157,      2) ;

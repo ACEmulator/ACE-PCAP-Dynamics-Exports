@@ -10,8 +10,7 @@ VALUES (38517,   1,      16384) /* ItemType - Key */
      , (38517,  91,          1) /* MaxStructure */
      , (38517,  92,          1) /* Structure */
      , (38517,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38517,  94,        640) /* TargetType - LockableMagicTarget */
-     , (38517, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38517,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38517,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (38517,   1, 'Celestial Hand Breastplate Key') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38517,   1,   33554784) /* Setup */
      , (38517,   8,  100668441) /* Icon */
-     , (38517,  22,  872415275) /* PhysicsEffectTable */
-     , (38517, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (38517, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (38517, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38517, 8000, 3710585550) /* PCAPRecordedObjectIID */;
+     , (38517,  22,  872415275) /* PhysicsEffectTable */;

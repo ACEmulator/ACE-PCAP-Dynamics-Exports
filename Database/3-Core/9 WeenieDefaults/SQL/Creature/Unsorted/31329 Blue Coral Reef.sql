@@ -33,8 +33,7 @@ VALUES (31329,   1,         16) /* ItemType - Creature */
      , (31329, 386,          0) /* Overpower */
      , (31329, 387,          0) /* OverpowerResist */
      , (31329, 388,          0) /* GearOverpower */
-     , (31329, 389,          0) /* GearOverpowerResist */
-     , (31329, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31329, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31329,   1, True ) /* Stuck */
@@ -44,22 +43,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31329,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31329,   1, 'Blue Coral Reef') /* Name */
-     , (31329, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31329,   1, 'Blue Coral Reef') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31329,   1,   33559613) /* Setup */
      , (31329,   2,  150995341) /* MotionTable */
      , (31329,   3,  536871017) /* SoundTable */
      , (31329,   8,  100687947) /* Icon */
-     , (31329,  22,  872415369) /* PhysicsEffectTable */
-     , (31329, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (31329, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (31329, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (31329,  22,  872415369) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31329, 8040, 3135045640, 15.0277, 188.598, -0.00387503, 0.999484, 0, 0, -0.0321218) /* PCAPRecordedLocation */
 /* @teleloc 0xBADD0008 [15.027700 188.598000 -0.003875] 0.999484 0.000000 0.000000 -0.032122 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31329, 8000, 3709138042) /* PCAPRecordedObjectIID */;

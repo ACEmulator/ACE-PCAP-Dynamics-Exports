@@ -14,8 +14,7 @@ VALUES (5633,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5633,  19,         10) /* Value */
      , (5633,  89,          4) /* BoosterEnum - Stamina */
      , (5633,  90,          1) /* BoostValue */
-     , (5633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5633, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5633,   1, 'Rabbit Carcass') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5633,   1,   33556210) /* Setup */
      , (5633,   3,  536870932) /* SoundTable */
      , (5633,   8,  100670267) /* Icon */
-     , (5633,  22,  872415275) /* PhysicsEffectTable */
-     , (5633, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (5633, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5633, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5633, 8000, 2345789196) /* PCAPRecordedObjectIID */;
+     , (5633,  22,  872415275) /* PhysicsEffectTable */;

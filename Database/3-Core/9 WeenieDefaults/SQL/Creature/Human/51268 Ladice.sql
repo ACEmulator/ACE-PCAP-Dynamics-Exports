@@ -17,8 +17,7 @@ VALUES (51268,   1,         16) /* ItemType - Creature */
      , (51268, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (51268, 188,          9) /* HeritageGroup - Empyrean */
      , (51268, 281,          1) /* Faction1Bits */
-     , (51268, 287,          1) /* SocietyRankCelhan */
-     , (51268, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (51268, 287,          1) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51268,   1, True ) /* Stuck */
@@ -30,8 +29,7 @@ VALUES (51268,  39,     1.2) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51268,   1, 'Ladice') /* Name */
-     , (51268,   5, 'Gearknight Phalanx Taskmaster') /* Template */
-     , (51268, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (51268,   5, 'Gearknight Phalanx Taskmaster') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51268,   1,   33561104) /* Setup */
@@ -44,17 +42,11 @@ VALUES (51268,   1,   33561104) /* Setup */
      , (51268,  11,   83890358) /* MouthTexture */
      , (51268,  15,   67117069) /* HairPalette */
      , (51268,  16,   67116856) /* EyesPalette */
-     , (51268,  17,   67116960) /* SkinPalette */
-     , (51268, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (51268, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (51268, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (51268,  17,   67116960) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51268, 8040, 11993711, 155.802, -42.1729, -17.994, -0.0418701, 0, 0, -0.999123) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026F [155.802000 -42.172900 -17.994000] -0.041870 0.000000 0.000000 -0.999123 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51268, 8000, 3359210625) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (51268,   1, 290, 0, 0) /* Strength */
@@ -68,54 +60,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (51268,   1,   196, 0, 0, 296) /* MaxHealth */
      , (51268,   3,   196, 0, 0, 396) /* MaxStamina */
      , (51268,   5,   196, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (51268, 67109964, 92, 4)
-     , (51268, 67110003, 72, 8)
-     , (51268, 67110334, 160, 8)
-     , (51268, 67110376, 64, 8)
-     , (51268, 67113251, 40, 24)
-     , (51268, 67116856, 32, 8)
-     , (51268, 67116960, 0, 24)
-     , (51268, 67117069, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (51268, 0, 83889072, 83886685)
-     , (51268, 0, 83889342, 83889386)
-     , (51268, 1, 83887064, 83886241)
-     , (51268, 2, 83887066, 83887051)
-     , (51268, 3, 83889344, 83887054)
-     , (51268, 4, 83887068, 83887054)
-     , (51268, 5, 83887064, 83886241)
-     , (51268, 6, 83887066, 83887051)
-     , (51268, 7, 83889344, 83887054)
-     , (51268, 8, 83887068, 83887054)
-     , (51268, 9, 83887070, 83886687)
-     , (51268, 9, 83887062, 83886686)
-     , (51268, 10, 83887069, 83886782)
-     , (51268, 11, 83886788, 83891213)
-     , (51268, 13, 83887069, 83886782)
-     , (51268, 14, 83886788, 83891213)
-     , (51268, 16, 83886232, 83890685)
-     , (51268, 16, 83886668, 83890281)
-     , (51268, 16, 83886837, 83890302)
-     , (51268, 16, 83886684, 83890358);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (51268, 0, 16793872)
-     , (51268, 1, 16778430)
-     , (51268, 2, 16781908)
-     , (51268, 3, 16781841)
-     , (51268, 4, 16783485)
-     , (51268, 5, 16778438)
-     , (51268, 6, 16781909)
-     , (51268, 7, 16781840)
-     , (51268, 8, 16783487)
-     , (51268, 9, 16793871)
-     , (51268, 10, 16778431)
-     , (51268, 11, 16781873)
-     , (51268, 12, 16778423)
-     , (51268, 13, 16778434)
-     , (51268, 14, 16781874)
-     , (51268, 15, 16778435)
-     , (51268, 16, 16795675);

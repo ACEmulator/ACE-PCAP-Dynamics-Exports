@@ -30,17 +30,11 @@ VALUES (27256,   1,   33558517) /* Setup */
      , (27256,   3,  536870932) /* SoundTable */
      , (27256,   8,  100676392) /* Icon */
      , (27256,  22,  872415275) /* PhysicsEffectTable */
-     , (27256,  28,       3204) /* Spell - GolemHunterHealthHigh */
-     , (27256, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
-     , (27256, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (27256, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
+     , (27256,  28,       3204) /* Spell - GolemHunterHealthHigh */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27256, 8040, 23855554, 57.00321, -34.38839, 0, -0.7212303, 0, 0, -0.6926954) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.003210 -34.388390 0.000000] -0.721230 0.000000 0.000000 -0.692695 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27256, 8000, 3706806365) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27256,  3204,      2) ;

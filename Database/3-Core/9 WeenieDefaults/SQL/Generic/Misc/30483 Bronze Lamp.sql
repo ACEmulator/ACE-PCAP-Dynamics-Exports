@@ -24,14 +24,8 @@ VALUES (30483,   1, 'Bronze Lamp') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30483,   1,   33554699) /* Setup */
-     , (30483,   8,  100668159) /* Icon */
-     , (30483, 8001,    2097168) /* PCAPRecordedWeenieHeader - Usable, Burden */
-     , (30483, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30483, 8005,      32897) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position */;
+     , (30483,   8,  100668159) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30483, 8040, 23265603, 56.4147, -57.4803, -12, -0.9998866, 0, 0, -0.01505919) /* PCAPRecordedLocation */
 /* @teleloc 0x01630143 [56.414700 -57.480300 -12.000000] -0.999887 0.000000 0.000000 -0.015059 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30483, 8000, 3354648609) /* PCAPRecordedObjectIID */;

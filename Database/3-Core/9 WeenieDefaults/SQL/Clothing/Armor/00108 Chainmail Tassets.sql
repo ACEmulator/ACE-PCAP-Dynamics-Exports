@@ -22,8 +22,7 @@ VALUES (108,   1,          2) /* ItemType - Armor */
      , (108, 115,        181) /* ItemSkillLevelLimit */
      , (108, 131,         64) /* MaterialType - Steel */
      , (108, 172,          1) /* AppraisalLongDescDecoration */
-     , (108, 176,          7) /* AppraisalItemSkill */
-     , (108, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (108, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (108,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (108,   5,   -0.05) /* ManaRate */
      , (108,  18,     0.5) /* ArmorModVsAcid */
      , (108,  19,     0.4) /* ArmorModVsElectric */
      , (108,  39,    1.33) /* DefaultScale */
-     , (108, 165,       1) /* ArmorModVsNether */
-     , (108, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (108, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (108,   1, 'Chainmail Tassets') /* Name */
@@ -51,25 +49,10 @@ VALUES (108,   1,   33554656) /* Setup */
      , (108,   3,  536870932) /* SoundTable */
      , (108,   6,   67108990) /* PaletteBase */
      , (108,   8,  100673325) /* Icon */
-     , (108,  22,  872415275) /* PhysicsEffectTable */
-     , (108, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (108, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (108, 8000, 3701158950) /* PCAPRecordedObjectIID */;
+     , (108,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (108,  1486,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (108, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (108, 67112528, 136, 16);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (108, 0, 83887064, 83886785);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (108, 0, 16778365);

@@ -20,8 +20,7 @@ VALUES (8997,   1,         32) /* ItemType - Food */
      , (8997, 108,         30) /* ItemMaxMana */
      , (8997, 109,         10) /* ItemDifficulty */
      , (8997, 110,          0) /* ItemAllegianceRankLimit */
-     , (8997, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (8997, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8997, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8997,  22, True ) /* Inscribable */
@@ -39,13 +38,7 @@ VALUES (8997,   1,   33554605) /* Setup */
      , (8997,   3,  536870932) /* SoundTable */
      , (8997,   8,  100667422) /* Icon */
      , (8997,  22,  872415275) /* PhysicsEffectTable */
-     , (8997,  28,        680) /* Spell - ArcaneEnlightenmentSelf3 */
-     , (8997, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (8997, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (8997, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8997, 8000, 2885621427) /* PCAPRecordedObjectIID */;
+     , (8997,  28,        680) /* Spell - ArcaneEnlightenmentSelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8997,   680,      2) ;

@@ -12,8 +12,7 @@ VALUES (9365,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9365,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (9365,  19,       1500) /* Value */
      , (9365,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9365,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (9365, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (9365,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9365,   1, 'Wrapped Bundle of Fire Arrowheads') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9365,   1,   33557030) /* Setup */
      , (9365,   3,  536870932) /* SoundTable */
      , (9365,   8,  100671596) /* Icon */
-     , (9365,  22,  872415275) /* PhysicsEffectTable */
-     , (9365, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (9365, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (9365, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9365, 8000, 2166234088) /* PCAPRecordedObjectIID */;
+     , (9365,  22,  872415275) /* PhysicsEffectTable */;

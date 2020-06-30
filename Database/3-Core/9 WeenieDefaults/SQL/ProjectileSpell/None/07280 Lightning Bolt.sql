@@ -14,10 +14,7 @@ VALUES (7280,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7280,  77,       1) /* PhysicsScriptIntensity */
      , (7280,  78,       1) /* Friction */
-     , (7280,  79,       0) /* Elasticity */
-     , (7280, 8010,   5.344) /* PCAPRecordedVelocityX */
-     , (7280, 8011,  -8.276) /* PCAPRecordedVelocityY */
-     , (7280, 8012,  -1.397) /* PCAPRecordedVelocityZ */;
+     , (7280,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7280,   1, 'Lightning Bolt') /* Name */;
@@ -28,14 +25,8 @@ VALUES (7280,   1,   33556608) /* Setup */
      , (7280,   8,  100667494) /* Icon */
      , (7280,  22,  872415361) /* PhysicsEffectTable */
      , (7280,  28,         75) /* Spell - LightningBolt1 */
-     , (7280,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (7280, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (7280, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (7280, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (7280,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7280, 8040, 9175348, 79.73402, -128.7842, -4.1575, 0.85948, 0, 0, -0.5111694) /* PCAPRecordedLocation */
 /* @teleloc 0x008C0134 [79.734020 -128.784200 -4.157500] 0.859480 0.000000 0.000000 -0.511169 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7280, 8000, 3701353407) /* PCAPRecordedObjectIID */;

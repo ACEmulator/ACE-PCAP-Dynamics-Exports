@@ -12,8 +12,7 @@ VALUES (210,   1,         16) /* ItemType - Creature */
      , (210,  25,         30) /* Level */
      , (210,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (210, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (210, 307,          5) /* DamageRating */
-     , (210, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (210, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (210,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (210,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (210,   1, 'Mosswart Chief') /* Name */
-     , (210, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (210,   1, 'Mosswart Chief') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (210,   1,   33557327) /* Setup */
@@ -31,17 +29,11 @@ VALUES (210,   1,   33557327) /* Setup */
      , (210,   3,  536870959) /* SoundTable */
      , (210,   6,   67113400) /* PaletteBase */
      , (210,   8,  100667449) /* Icon */
-     , (210,  22,  872415264) /* PhysicsEffectTable */
-     , (210, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (210, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (210, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (210,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (210, 8040, 2455699499, 129.6726, 54.63299, 14.0066, 0.9063078, 0, 0, -0.4226183) /* PCAPRecordedLocation */
 /* @teleloc 0x925F002B [129.672600 54.632990 14.006600] 0.906308 0.000000 0.000000 -0.422618 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (210, 8000, 3685831838) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (210,   1, 130, 0, 0) /* Strength */
@@ -95,44 +87,3 @@ VALUES (210, 2, 47523,  1, 0, 0, False) /* Create Acid Javelin (47523) for Wield
      , (210, 9,  3222,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Ineptitude Other VI (3222) for ContainTreasure */
      , (210, 9,  2653,  0, 0, 0, False) /* Create Scroll of Coordination Self VI (2653) for ContainTreasure */
      , (210, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (210, 67113403, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (210, 0, 83893769, 83893769)
-     , (210, 1, 83893768, 83893768)
-     , (210, 2, 83893766, 83893775)
-     , (210, 3, 83893766, 83893775)
-     , (210, 4, 83893766, 83893775)
-     , (210, 5, 83893766, 83893775)
-     , (210, 6, 83893766, 83893775)
-     , (210, 7, 83893766, 83893775)
-     , (210, 8, 83893767, 83893767)
-     , (210, 9, 83893768, 83893768)
-     , (210, 10, 83893766, 83893775)
-     , (210, 11, 83893767, 83893767)
-     , (210, 12, 83893768, 83893768)
-     , (210, 13, 83893766, 83893775)
-     , (210, 14, 83893766, 83893775)
-     , (210, 15, 83893766, 83893775)
-     , (210, 16, 83893766, 83893775);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (210, 0, 16787248)
-     , (210, 1, 16787249)
-     , (210, 2, 16787261)
-     , (210, 3, 16787254)
-     , (210, 4, 16787250)
-     , (210, 5, 16787259)
-     , (210, 6, 16787255)
-     , (210, 7, 16787253)
-     , (210, 8, 16787260)
-     , (210, 9, 16787262)
-     , (210, 10, 16787252)
-     , (210, 11, 16787258)
-     , (210, 12, 16787263)
-     , (210, 13, 16787251)
-     , (210, 14, 16787247)
-     , (210, 15, 16787257)
-     , (210, 16, 16787256);

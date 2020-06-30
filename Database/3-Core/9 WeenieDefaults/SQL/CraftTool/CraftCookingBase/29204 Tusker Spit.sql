@@ -14,8 +14,7 @@ VALUES (29204,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29204,  19,          0) /* Value */
      , (29204,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29204,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29204, 151,          2) /* HookType - Wall */
-     , (29204, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29204, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29204,   1, 'Tusker Spit') /* Name */
@@ -27,13 +26,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29204,   1,   33554603) /* Setup */
      , (29204,   3,  536870932) /* SoundTable */
      , (29204,   8,  100686465) /* Icon */
-     , (29204,  22,  872415275) /* PhysicsEffectTable */
-     , (29204, 8001,  271085585) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (29204, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29204, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29204, 8000, 3691246379) /* PCAPRecordedObjectIID */;
+     , (29204,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29204, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

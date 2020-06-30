@@ -22,9 +22,7 @@ VALUES (1436,   1,          1) /* ItemType - MeleeWeapon */
      , (1436, 108,        800) /* ItemMaxMana */
      , (1436, 109,         20) /* ItemDifficulty */
      , (1436, 151,          2) /* HookType - Wall */
-     , (1436, 353,          3) /* WeaponType - Axe */
-     , (1436, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (1436, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (1436, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1436,  22, True ) /* Inscribable */;
@@ -45,13 +43,7 @@ VALUES (1436,   1, 'Hammer of Lightning ') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1436,   1,   33555415) /* Setup */
      , (1436,   8,  100667619) /* Icon */
-     , (1436,  22,  872415275) /* PhysicsEffectTable */
-     , (1436, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (1436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (1436, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1436, 8000, 3690194268) /* PCAPRecordedObjectIID */;
+     , (1436,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1436,  1069,      2) 

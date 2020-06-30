@@ -15,8 +15,7 @@ VALUES (22445,   1,        128) /* ItemType - Misc */
      , (22445,  33,          0) /* Bonded - Normal */
      , (22445,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22445,  94,        128) /* TargetType - Misc */
-     , (22445, 114,          0) /* Attuned - Normal */
-     , (22445, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22445, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22445,  69, False) /* IsSellable */;
@@ -32,17 +31,4 @@ VALUES (22445,   1, 'Soft Bandages') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22445,   1,   33555194) /* Setup */
-     , (22445,   8,  100673814) /* Icon */
-     , (22445, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (22445, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (22445, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22445, 8000, 2461518113) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22445, 0, 83889681, 83890932)
-     , (22445, 0, 83889682, 83890932);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22445, 0, 16779994);
+     , (22445,   8,  100673814) /* Icon */;

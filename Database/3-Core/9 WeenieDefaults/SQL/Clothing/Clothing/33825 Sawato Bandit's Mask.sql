@@ -16,8 +16,7 @@ VALUES (33825,   1,          4) /* ItemType - Clothing */
      , (33825, 106,        300) /* ItemSpellcraft */
      , (33825, 107,        300) /* ItemCurMana */
      , (33825, 108,       5000) /* ItemMaxMana */
-     , (33825, 114,          1) /* Attuned - Attuned */
-     , (33825, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33825, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33825,  22, True ) /* Inscribable */
@@ -44,20 +43,8 @@ VALUES (33825,   1,   33554643) /* Setup */
      , (33825,   3,  536870932) /* SoundTable */
      , (33825,   6,   67108990) /* PaletteBase */
      , (33825,   8,  100675490) /* Icon */
-     , (33825,  22,  872415275) /* PhysicsEffectTable */
-     , (33825, 8001,    2441232) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden */
-     , (33825, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33825, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33825, 8000, 2224240299) /* PCAPRecordedObjectIID */;
+     , (33825,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33825,  2226,      2) 
      , (33825,  2545,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33825, 67114655, 240, 16);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (33825, 0, 16789673);

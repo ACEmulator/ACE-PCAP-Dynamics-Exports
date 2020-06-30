@@ -21,8 +21,7 @@ VALUES (49361,   1,        128) /* ItemType - Misc */
      , (49361, 367,        400) /* UseRequiresSkillLevel */
      , (49361, 369,         90) /* UseRequiresLevel */
      , (49361, 370,         14) /* GearDamage */
-     , (49361, 375,         17) /* GearCritDamageResist */
-     , (49361, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (49361, 375,         17) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49361,  22, True ) /* Inscribable */
@@ -43,23 +42,7 @@ VALUES (49361,   1,   33554817) /* Setup */
      , (49361,   8,  100693034) /* Icon */
      , (49361,  22,  872415275) /* PhysicsEffectTable */
      , (49361,  50,  100693028) /* IconOverlay */
-     , (49361,  52,  100693024) /* IconUnderlay */
-     , (49361, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49361, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49361, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49361, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49361, 8000, 3354616509) /* PCAPRecordedObjectIID */;
+     , (49361,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49361, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49361, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49361, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49361, 0, 16777882);

@@ -18,8 +18,7 @@ VALUES (1816,   1,         16) /* ItemType - Creature */
      , (1816, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1816, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1816, 188,          2) /* HeritageGroup - Gharundim */
-     , (1816, 307,          5) /* DamageRating */
-     , (1816, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1816, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1816,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1816,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1816,   1, 'Djuyat ibn Fisa the Armorer') /* Name */
-     , (1816,   5, 'Armorer') /* Template */
-     , (1816, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1816,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1816,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1816,   1,   33554433) /* Setup */
      , (1816,  11,   83890654) /* MouthTexture */
      , (1816,  15,   67116992) /* HairPalette */
      , (1816,  16,   67110062) /* EyesPalette */
-     , (1816,  17,   67109550) /* SkinPalette */
-     , (1816, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1816, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1816, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1816,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1816, 8040, 2238578944, 130.02, 18.8609, 13.205, -0.5973159, 0, 0, -0.802006) /* PCAPRecordedLocation */
 /* @teleloc 0x856E0100 [130.020000 18.860900 13.205000] -0.597316 0.000000 0.000000 -0.802006 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1816, 8000, 2018959365) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1816,   1,  90, 0, 0) /* Strength */
@@ -101,54 +93,3 @@ VALUES (1816, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1816, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1816, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1816, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1816, 67109550, 0, 24)
-     , (1816, 67109965, 92, 4)
-     , (1816, 67110062, 32, 8)
-     , (1816, 67110320, 160, 8)
-     , (1816, 67110356, 240, 10)
-     , (1816, 67110369, 64, 8)
-     , (1816, 67110375, 40, 24)
-     , (1816, 67110378, 216, 24)
-     , (1816, 67110539, 72, 8)
-     , (1816, 67116992, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1816, 0, 83889072, 83890012)
-     , (1816, 0, 83889342, 83890011)
-     , (1816, 1, 83887064, 83886241)
-     , (1816, 2, 83887066, 83887051)
-     , (1816, 3, 83889344, 83887054)
-     , (1816, 4, 83887068, 83887054)
-     , (1816, 5, 83887064, 83886241)
-     , (1816, 6, 83887066, 83887051)
-     , (1816, 7, 83889344, 83887054)
-     , (1816, 8, 83887068, 83887054)
-     , (1816, 9, 83887061, 83890009)
-     , (1816, 9, 83887060, 83890010)
-     , (1816, 16, 83886232, 83890685)
-     , (1816, 16, 83886668, 83890505)
-     , (1816, 16, 83886837, 83890560)
-     , (1816, 16, 83886684, 83890654)
-     , (1816, 16, 83888783, 83888783)
-     , (1816, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1816, 0, 16781835)
-     , (1816, 1, 16777295)
-     , (1816, 2, 16781866)
-     , (1816, 3, 16781841)
-     , (1816, 4, 16781838)
-     , (1816, 5, 16777299)
-     , (1816, 6, 16781864)
-     , (1816, 7, 16781840)
-     , (1816, 8, 16781839)
-     , (1816, 9, 16777300)
-     , (1816, 10, 16777301)
-     , (1816, 11, 16777302)
-     , (1816, 12, 16777304)
-     , (1816, 13, 16777303)
-     , (1816, 14, 16777305)
-     , (1816, 15, 16777307)
-     , (1816, 16, 16778476);

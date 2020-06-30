@@ -26,8 +26,7 @@ VALUES (7799,   1,        256) /* ItemType - MissileWeapon */
      , (7799, 313,          0) /* CritRating */
      , (7799, 314,          0) /* CritDamageRating */
      , (7799, 353,         10) /* WeaponType - Thrown */
-     , (7799, 386,          0) /* Overpower */
-     , (7799, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (7799, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7799,  21,       0) /* WeaponLength */
@@ -50,19 +49,11 @@ VALUES (7799,   1,   33555469) /* Setup */
      , (7799,   3,  536870967) /* SoundTable */
      , (7799,   8,  100667590) /* Icon */
      , (7799,  22,  872415237) /* PhysicsEffectTable */
-     , (7799,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (7799, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (7799, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (7799, 8005,      64289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (7799, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (7799,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7799, 8040, 2279145535, 183.4055, 159.8539, 117.8242, -0.5634105, -0.5634105, -0.4272805, -0.4272805) /* PCAPRecordedLocation */
 /* @teleloc 0x87D9003F [183.405500 159.853900 117.824200] -0.563411 -0.563411 -0.427281 -0.427281 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7799, 8000, 3685945876) /* PCAPRecordedObjectIID */
-     , (7799, 8008, 3685945875) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7799, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wield */

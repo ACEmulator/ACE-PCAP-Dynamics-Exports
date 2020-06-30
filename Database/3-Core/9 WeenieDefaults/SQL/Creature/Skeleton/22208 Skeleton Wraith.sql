@@ -12,8 +12,7 @@ VALUES (22208,   1,         16) /* ItemType - Creature */
      , (22208,  25,         50) /* Level */
      , (22208,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22208, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22208, 307,          5) /* DamageRating */
-     , (22208, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22208, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22208,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22208,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22208,   1, 'Skeleton Wraith') /* Name */
-     , (22208, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (22208,   1, 'Skeleton Wraith') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22208,   1,   33554521) /* Setup */
@@ -31,17 +29,11 @@ VALUES (22208,   1,   33554521) /* Setup */
      , (22208,   3,  536870942) /* SoundTable */
      , (22208,   6,   67116522) /* PaletteBase */
      , (22208,   8,  100669124) /* Icon */
-     , (22208,  22,  872415269) /* PhysicsEffectTable */
-     , (22208, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22208, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22208, 8005,     366659) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement, Translucency */;
+     , (22208,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22208, 8040, 2457927688, 13.84318, 175.7056, 38.64463, -0.4735622, 0, 0, -0.8807604) /* PCAPRecordedLocation */
 /* @teleloc 0x92810008 [13.843180 175.705600 38.644630] -0.473562 0.000000 0.000000 -0.880760 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22208, 8000, 3685897204) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22208,   1,  85, 0, 0) /* Strength */
@@ -323,6 +315,3 @@ VALUES (22208, 2, 47748,  1, 0, 0, False) /* Create Lightning Spear (47748) for 
      , (22208, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (22208, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (22208, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22208, 67116527, 0, 0);

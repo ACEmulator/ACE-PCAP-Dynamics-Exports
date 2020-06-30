@@ -12,8 +12,7 @@ VALUES (23093,   1,         16) /* ItemType - Creature */
      , (23093,  25,        160) /* Level */
      , (23093,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23093, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23093, 307,          5) /* DamageRating */
-     , (23093, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23093, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23093,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23093,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23093,   1, 'Transcendent Tumerok') /* Name */
-     , (23093, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23093,   1, 'Transcendent Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23093,   1,   33559552) /* Setup */
@@ -31,17 +29,11 @@ VALUES (23093,   1,   33559552) /* Setup */
      , (23093,   3,  536870931) /* SoundTable */
      , (23093,   6,   67116625) /* PaletteBase */
      , (23093,   8,  100667452) /* Icon */
-     , (23093,  22,  872415270) /* PhysicsEffectTable */
-     , (23093, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23093, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23093, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (23093,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23093, 8040, 692650004, 52.31411, 78.9118, 0.3660095, -0.04470067, 0, 0, -0.9990004) /* PCAPRecordedLocation */
 /* @teleloc 0x29490014 [52.314110 78.911800 0.366010] -0.044701 0.000000 0.000000 -0.999000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23093, 8000, 3690605074) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23093,   1, 330, 0, 0) /* Strength */
@@ -63,11 +55,3 @@ VALUES (23093, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
      , (23093, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
      , (23093, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
      , (23093, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23093, 67116636, 153, 47)
-     , (23093, 67116636, 200, 8)
-     , (23093, 67116636, 208, 48)
-     , (23093, 67116637, 57, 48)
-     , (23093, 67116637, 105, 48)
-     , (23093, 67116643, 1, 48);

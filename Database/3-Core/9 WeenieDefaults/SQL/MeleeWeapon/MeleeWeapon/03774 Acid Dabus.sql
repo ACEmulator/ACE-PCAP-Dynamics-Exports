@@ -26,9 +26,7 @@ VALUES (3774,   1,          1) /* ItemType - MeleeWeapon */
      , (3774, 172,          5) /* AppraisalLongDescDecoration */
      , (3774, 177,          4) /* GemCount */
      , (3774, 178,         50) /* GemType */
-     , (3774, 353,          4) /* WeaponType - Mace */
-     , (3774, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3774, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3774,  22, True ) /* Inscribable */
@@ -40,8 +38,7 @@ VALUES (3774,  21,       0) /* WeaponLength */
      , (3774,  26,       0) /* MaximumVelocity */
      , (3774,  29,    1.12) /* WeaponDefense */
      , (3774,  62,     1.1) /* WeaponOffense */
-     , (3774,  63,       1) /* DamageMod */
-     , (3774, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (3774,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3774,   1, 'Acid Dabus') /* Name */
@@ -52,11 +49,4 @@ VALUES (3774,   1,   33555742) /* Setup */
      , (3774,   3,  536870932) /* SoundTable */
      , (3774,   8,  100668873) /* Icon */
      , (3774,  22,  872415275) /* PhysicsEffectTable */
-     , (3774,  52,  100676437) /* IconUnderlay */
-     , (3774, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3774, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3774, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (3774, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3774, 8000, 2174255046) /* PCAPRecordedObjectIID */;
+     , (3774,  52,  100676437) /* IconUnderlay */;

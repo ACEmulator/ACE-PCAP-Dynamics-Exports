@@ -34,9 +34,7 @@ VALUES (41039,   1,          1) /* ItemType - MeleeWeapon */
      , (41039, 176,         41) /* AppraisalItemSkill */
      , (41039, 177,          2) /* GemCount */
      , (41039, 178,         43) /* GemType */
-     , (41039, 353,         11) /* WeaponType - TwoHanded */
-     , (41039, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41039, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (41039, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41039,  22, True ) /* Inscribable */
@@ -49,8 +47,7 @@ VALUES (41039,   5,  -0.056) /* ManaRate */
      , (41039,  26,       0) /* MaximumVelocity */
      , (41039,  29,    1.11) /* WeaponDefense */
      , (41039,  62,    1.09) /* WeaponOffense */
-     , (41039,  63,       1) /* DamageMod */
-     , (41039, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (41039,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41039,   1, 'Flaming Assagai') /* Name */
@@ -63,33 +60,14 @@ VALUES (41039,   1,   33560871) /* Setup */
      , (41039,   8,  100690630) /* Icon */
      , (41039,  22,  872415275) /* PhysicsEffectTable */
      , (41039,  50,  100689143) /* IconOverlay */
-     , (41039,  52,  100676441) /* IconUnderlay */
-     , (41039, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (41039, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (41039, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (41039, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (41039, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (41039,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41039, 8040, 2011758622, 30.76828, 27.73393, 125.1142, -0.7034662, -0.7034662, 0.07166052, 0.07166052) /* PCAPRecordedLocation */
 /* @teleloc 0x77E9001E [30.768280 27.733930 125.114200] -0.703466 -0.703466 0.071661 0.071661 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41039, 8000, 3700466256) /* PCAPRecordedObjectIID */
-     , (41039, 8008, 1343368784) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41039,  1616,      2) 
      , (41039,  2081,      2) 
      , (41039,  2116,      2) 
      , (41039,  2548,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41039, 67116386, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41039, 0, 83896665, 83896665)
-     , (41039, 0, 83896155, 83896155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41039, 0, 16794405);

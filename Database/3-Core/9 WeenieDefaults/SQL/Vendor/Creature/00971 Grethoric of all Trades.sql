@@ -17,8 +17,7 @@ VALUES (971,   1,         16) /* ItemType - Creature */
      , (971, 113,          1) /* Gender - Male */
      , (971, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (971, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (971, 188,          1) /* HeritageGroup - Aluvian */
-     , (971, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (971, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (971,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (971,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (971,   1, 'Grethoric of all Trades') /* Name */
-     , (971,   5, 'Shady') /* Template */
-     , (971, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (971,   5, 'Shady') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (971,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (971,   1,   33554433) /* Setup */
      , (971,  11,   83890614) /* MouthTexture */
      , (971,  15,   67116996) /* HairPalette */
      , (971,  16,   67109566) /* EyesPalette */
-     , (971,  17,   67109560) /* SkinPalette */
-     , (971, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (971, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (971, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (971,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (971, 8040, 32047520, 121.558, -89.767, -11.995, -0.2067368, 0, 0, -0.9783966) /* PCAPRecordedLocation */
 /* @teleloc 0x01E901A0 [121.558000 -89.767000 -11.995000] -0.206737 0.000000 0.000000 -0.978397 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (971, 8000, 1881051169) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (971,   1, 130, 0, 0) /* Strength */
@@ -112,55 +104,3 @@ VALUES (971, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (971, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (971, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (971, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (971, 67109560, 0, 24)
-     , (971, 67109566, 32, 8)
-     , (971, 67109969, 92, 4)
-     , (971, 67110020, 72, 8)
-     , (971, 67110354, 40, 24)
-     , (971, 67110362, 64, 8)
-     , (971, 67110378, 216, 24)
-     , (971, 67110378, 160, 8)
-     , (971, 67116996, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (971, 0, 83889072, 83890012)
-     , (971, 0, 83889342, 83890011)
-     , (971, 1, 83887064, 83886241)
-     , (971, 2, 83887066, 83887051)
-     , (971, 3, 83889344, 83887054)
-     , (971, 4, 83887068, 83887054)
-     , (971, 5, 83887064, 83886241)
-     , (971, 6, 83887066, 83887051)
-     , (971, 7, 83889344, 83887054)
-     , (971, 8, 83887068, 83887054)
-     , (971, 9, 83887061, 83890009)
-     , (971, 9, 83887060, 83890010)
-     , (971, 10, 83887069, 83886782)
-     , (971, 11, 83887067, 83891213)
-     , (971, 13, 83887069, 83886782)
-     , (971, 14, 83887067, 83891213)
-     , (971, 16, 83886232, 83890685)
-     , (971, 16, 83886668, 83890513)
-     , (971, 16, 83886837, 83890557)
-     , (971, 16, 83886684, 83890614);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (971, 0, 16781835)
-     , (971, 1, 16777295)
-     , (971, 2, 16781866)
-     , (971, 3, 16781841)
-     , (971, 4, 16781838)
-     , (971, 5, 16777299)
-     , (971, 6, 16781864)
-     , (971, 7, 16781840)
-     , (971, 8, 16781839)
-     , (971, 9, 16777300)
-     , (971, 10, 16777301)
-     , (971, 11, 16777302)
-     , (971, 12, 16777304)
-     , (971, 13, 16777303)
-     , (971, 14, 16777305)
-     , (971, 15, 16777307)
-     , (971, 16, 16795675);

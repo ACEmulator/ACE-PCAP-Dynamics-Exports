@@ -11,8 +11,7 @@ VALUES (38180,   1,         16) /* ItemType - Creature */
      , (38180,  16,          1) /* ItemUseable - No */
      , (38180,  25,        115) /* Level */
      , (38180,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38180, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38180, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38180, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38180,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (38180,  39,     1.5) /* DefaultScale */
      , (38180,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38180,   1, 'Blighted Bane Grievver') /* Name */
-     , (38180, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38180,   1, 'Blighted Bane Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38180,   1,   33556698) /* Setup */
@@ -32,17 +30,11 @@ VALUES (38180,   1,   33556698) /* Setup */
      , (38180,   6,   67112927) /* PaletteBase */
      , (38180,   8,  100670960) /* Icon */
      , (38180,  22,  872415364) /* PhysicsEffectTable */
-     , (38180,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (38180, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38180, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38180, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (38180,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38180, 8040, 826081326, 121.424, 138.0614, 34.51286, -0.854849, 0, 0, -0.5188769) /* PCAPRecordedLocation */
 /* @teleloc 0x313D002E [121.424000 138.061400 34.512860] -0.854849 0.000000 0.000000 -0.518877 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38180, 8000, 3701810015) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38180,   1, 220, 0, 0) /* Strength */
@@ -68,6 +60,3 @@ VALUES (38180, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTrea
      , (38180, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (38180, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (38180, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38180, 67112938, 0, 0);

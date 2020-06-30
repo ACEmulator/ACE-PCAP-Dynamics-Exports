@@ -17,8 +17,7 @@ VALUES (30011,   1,         16) /* ItemType - Creature */
      , (30011, 113,          1) /* Gender - Male */
      , (30011, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30011, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30011, 188,          4) /* HeritageGroup - Viamontian */
-     , (30011, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30011, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30011,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30011,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30011,   1, 'Apprentice Scrivener of Life Magic') /* Name */
-     , (30011,   5, 'Master Archmage') /* Template */
-     , (30011, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30011,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30011,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30011,   1,   33554433) /* Setup */
      , (30011,  11,   83890587) /* MouthTexture */
      , (30011,  15,   67117023) /* HairPalette */
      , (30011,  16,   67109564) /* EyesPalette */
-     , (30011,  17,   67115907) /* SkinPalette */
-     , (30011, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30011, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30011, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30011,  17,   67115907) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30011, 8040, 853082381, 154.598, 136.964, 52.005, -0.7106092, 0, 0, -0.7035869) /* PCAPRecordedLocation */
 /* @teleloc 0x32D9010D [154.598000 136.964000 52.005000] -0.710609 0.000000 0.000000 -0.703587 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30011, 8000, 1932365848) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30011,   1,  90, 0, 0) /* Strength */
@@ -128,40 +120,3 @@ VALUES (30011, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for
      , (30011, 4, 21102, -1, 0, 0, False) /* Create Scroll of Martyr's Blight I (21102) for Shop */
      , (30011, 4, 21109, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity I (21109) for Shop */
      , (30011, 4, 21095, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb I (21095) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30011, 67109564, 32, 8)
-     , (30011, 67115907, 0, 24)
-     , (30011, 67116025, 207, 33)
-     , (30011, 67116026, 174, 33)
-     , (30011, 67117023, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30011, 0, 83897013, 83897013)
-     , (30011, 9, 83897018, 83897018)
-     , (30011, 9, 83897019, 83897019)
-     , (30011, 11, 83892346, 83897016)
-     , (30011, 14, 83892346, 83897016)
-     , (30011, 16, 83886232, 83890685)
-     , (30011, 16, 83886668, 83890506)
-     , (30011, 16, 83886837, 83890547)
-     , (30011, 16, 83886684, 83890587);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30011, 0, 16791895)
-     , (30011, 1, 16791896)
-     , (30011, 2, 16791897)
-     , (30011, 3, 16777708)
-     , (30011, 4, 16777708)
-     , (30011, 5, 16791898)
-     , (30011, 6, 16791899)
-     , (30011, 7, 16777708)
-     , (30011, 8, 16777708)
-     , (30011, 9, 16791900)
-     , (30011, 10, 16791901)
-     , (30011, 11, 16783853)
-     , (30011, 12, 16777304)
-     , (30011, 13, 16791903)
-     , (30011, 14, 16783855)
-     , (30011, 15, 16777307)
-     , (30011, 16, 16791907);

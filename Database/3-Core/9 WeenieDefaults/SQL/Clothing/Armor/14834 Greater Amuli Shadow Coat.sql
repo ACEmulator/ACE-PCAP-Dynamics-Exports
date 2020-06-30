@@ -15,8 +15,7 @@ VALUES (14834,   1,          2) /* ItemType - Armor */
      , (14834,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14834, 158,          7) /* WieldRequirements - Level */
      , (14834, 159,          1) /* WieldSkillType - Axe */
-     , (14834, 160,         30) /* WieldDifficulty */
-     , (14834, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14834, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14834,  22, True ) /* Inscribable */
@@ -40,28 +39,4 @@ VALUES (14834,   1,   33554854) /* Setup */
      , (14834,   3,  536870932) /* SoundTable */
      , (14834,   6,   67108990) /* PaletteBase */
      , (14834,   8,  100672624) /* Icon */
-     , (14834,  22,  872415275) /* PhysicsEffectTable */
-     , (14834, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (14834, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (14834, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14834, 8000, 3669059171) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (14834, 67113799, 216, 24)
-     , (14834, 67113799, 128, 8)
-     , (14834, 67113799, 174, 12)
-     , (14834, 67113799, 96, 12)
-     , (14834, 67113799, 116, 12)
-     , (14834, 67113799, 186, 12)
-     , (14834, 67113799, 206, 10)
-     , (14834, 67113799, 108, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14834, 0, 83887061, 83892375)
-     , (14834, 0, 83887060, 83892376)
-     , (14834, 0, 83886796, 83892372);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14834, 0, 16779535);
+     , (14834,  22,  872415275) /* PhysicsEffectTable */;

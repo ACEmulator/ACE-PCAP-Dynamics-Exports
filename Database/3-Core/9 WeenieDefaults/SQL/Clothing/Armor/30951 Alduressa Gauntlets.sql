@@ -46,8 +46,7 @@ VALUES (30951,   5,  -0.056) /* ManaRate */
      , (30951,  17,   3.141) /* ArmorModVsFire */
      , (30951,  18,     2.6) /* ArmorModVsAcid */
      , (30951,  19,     2.4) /* ArmorModVsElectric */
-     , (30951, 165,       1) /* ArmorModVsNether */
-     , (30951, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (30951, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30951,   1, 'Alduressa Gauntlets') /* Name */
@@ -59,13 +58,7 @@ VALUES (30951,   1,   33559505) /* Setup */
      , (30951,   3,  536870932) /* SoundTable */
      , (30951,   6,   67108990) /* PaletteBase */
      , (30951,   8,  100687145) /* Icon */
-     , (30951,  22,  872415275) /* PhysicsEffectTable */
-     , (30951, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
-     , (30951, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30951, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30951, 8000, 2881577216) /* PCAPRecordedObjectIID */;
+     , (30951,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30951,  1516,      2) 
@@ -74,6 +67,3 @@ VALUES (30951,  1516,      2)
      , (30951,  2108,      2) 
      , (30951,  2309,      2) 
      , (30951,  6105,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30951, 67116101, 168, 6);

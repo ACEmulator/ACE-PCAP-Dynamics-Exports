@@ -18,8 +18,7 @@ VALUES (31000,   1,       2048) /* ItemType - Gem */
      , (31000,  94,         16) /* TargetType - Creature */
      , (31000, 114,          1) /* Attuned - Attuned */
      , (31000, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (31000, 280,          3) /* SharedCooldown */
-     , (31000, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31000, 280,          3) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31000,  22, True ) /* Inscribable */
@@ -37,14 +36,7 @@ VALUES (31000,   1,   33554809) /* Setup */
      , (31000,   3,  536870932) /* SoundTable */
      , (31000,   8,  100683149) /* Icon */
      , (31000,  22,  872415275) /* PhysicsEffectTable */
-     , (31000,  28,       3811) /* Spell - BlackmoorsFavor */
-     , (31000, 8001,  273182864) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Spell, HookType */
-     , (31000, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (31000, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31000, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31000, 8000, 2186220418) /* PCAPRecordedObjectIID */;
+     , (31000,  28,       3811) /* Spell - BlackmoorsFavor */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31000,  3811,      2) ;

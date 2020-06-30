@@ -11,8 +11,7 @@ VALUES (31381,   1,       2048) /* ItemType - Gem */
      , (31381,  19,          0) /* Value */
      , (31381,  33,          1) /* Bonded - Bonded */
      , (31381,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31381, 114,          1) /* Attuned - Attuned */
-     , (31381, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31381, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31381,  22, True ) /* Inscribable */;
@@ -24,10 +23,4 @@ VALUES (31381,   1, 'Vestibule Lock') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31381,   1,   33556743) /* Setup */
-     , (31381,   8,  100687954) /* Icon */
-     , (31381, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
-     , (31381, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31381, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31381, 8000, 3711411048) /* PCAPRecordedObjectIID */;
+     , (31381,   8,  100687954) /* Icon */;

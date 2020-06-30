@@ -14,8 +14,7 @@ VALUES (5338,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5338,  19,        140) /* Value */
      , (5338,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5338,  94,   75497472) /* TargetType - CraftAlchemyBase, CraftAlchemyIntermediate */
-     , (5338, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (5338, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5338, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5338,   1, 'Neutral Balm') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5338,   1,   33555963) /* Setup */
      , (5338,   3,  536870932) /* SoundTable */
      , (5338,   8,  100670004) /* Icon */
-     , (5338,  22,  872415275) /* PhysicsEffectTable */
-     , (5338, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (5338, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5338, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5338, 8000, 2981038736) /* PCAPRecordedObjectIID */;
+     , (5338,  22,  872415275) /* PhysicsEffectTable */;

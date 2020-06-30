@@ -25,8 +25,7 @@ VALUES (32985,   1,          1) /* ItemType - MeleeWeapon */
      , (32985, 158,          7) /* WieldRequirements - Level */
      , (32985, 159,          1) /* WieldSkillType - Axe */
      , (32985, 160,        100) /* WieldDifficulty */
-     , (32985, 353,          6) /* WeaponType - Dagger */
-     , (32985, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (32985, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32985,  22, True ) /* Inscribable */;
@@ -53,19 +52,11 @@ VALUES (32985,   1,   33559868) /* Setup */
      , (32985,   8,  100686995) /* Icon */
      , (32985,  22,  872415275) /* PhysicsEffectTable */
      , (32985,  50,  100688913) /* IconOverlay */
-     , (32985,  55,       2074) /* ProcSpell - ImperilOther7 */
-     , (32985, 8001, 1344504344) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
-     , (32985, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32985, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (32985, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (32985,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32985, 8040, 23855554, 57.73664, -32.50163, -0.071, -0.7057333, -0.7057333, -0.04405093, -0.04405093) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [57.736640 -32.501630 -0.071000] -0.705733 -0.705733 -0.044051 -0.044051 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32985, 8000, 3673035954) /* PCAPRecordedObjectIID */
-     , (32985, 8008, 1342408645) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32985,  2074,      2) 
@@ -73,6 +64,3 @@ VALUES (32985,  2074,      2)
      , (32985,  2101,      2) 
      , (32985,  2106,      2) 
      , (32985,  2116,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32985, 67116426, 0, 0);

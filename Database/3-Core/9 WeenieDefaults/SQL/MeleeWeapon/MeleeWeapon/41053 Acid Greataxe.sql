@@ -32,9 +32,7 @@ VALUES (41053,   1,          1) /* ItemType - MeleeWeapon */
      , (41053, 172,          3) /* AppraisalLongDescDecoration */
      , (41053, 176,         41) /* AppraisalItemSkill */
      , (41053, 292,          2) /* Cleaving */
-     , (41053, 353,         11) /* WeaponType - TwoHanded */
-     , (41053, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41053, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41053, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41053,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (41053,   5,   -0.05) /* ManaRate */
      , (41053,  26,       0) /* MaximumVelocity */
      , (41053,  29,    1.11) /* WeaponDefense */
      , (41053,  62,    1.09) /* WeaponOffense */
-     , (41053,  63,       1) /* DamageMod */
-     , (41053, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (41053,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41053,   1, 'Acid Greataxe') /* Name */
@@ -58,23 +55,7 @@ VALUES (41053,   1,   33560803) /* Setup */
      , (41053,   3,  536870932) /* SoundTable */
      , (41053,   6,   67115558) /* PaletteBase */
      , (41053,   8,  100690774) /* Icon */
-     , (41053,  22,  872415275) /* PhysicsEffectTable */
-     , (41053, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41053, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41053, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41053, 8000, 3086912943) /* PCAPRecordedObjectIID */;
+     , (41053,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41053,  1616,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41053, 67116384, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41053, 0, 83896665, 83896665)
-     , (41053, 0, 83896154, 83896154);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41053, 0, 16794283);

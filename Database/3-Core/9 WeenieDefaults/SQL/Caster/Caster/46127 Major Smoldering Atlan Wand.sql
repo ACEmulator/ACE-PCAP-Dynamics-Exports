@@ -23,8 +23,7 @@ VALUES (46127,   1,      32768) /* ItemType - Caster */
      , (46127, 158,          2) /* WieldRequirements - RawSkill */
      , (46127, 159,         34) /* WieldSkillType - WarMagic */
      , (46127, 160,        310) /* WieldDifficulty */
-     , (46127, 263,         16) /* ResistanceModifierType */
-     , (46127, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46127, 263,         16) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46127,  22, True ) /* Inscribable */
@@ -47,13 +46,7 @@ VALUES (46127,   1,   33557788) /* Setup */
      , (46127,   3,  536870932) /* SoundTable */
      , (46127,   6,   67111919) /* PaletteBase */
      , (46127,   8,  100672996) /* Icon */
-     , (46127,  22,  872415275) /* PhysicsEffectTable */
-     , (46127, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
-     , (46127, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46127, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46127, 8000, 3124796481) /* PCAPRecordedObjectIID */;
+     , (46127,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46127,  2091,      2) 
@@ -62,13 +55,3 @@ VALUES (46127,  2091,      2)
      , (46127,  2287,      2) 
      , (46127,  2534,      2) 
      , (46127,  3259,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46127, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46127, 0, 83889237, 83889688)
-     , (46127, 0, 83893927, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46127, 0, 16787901);

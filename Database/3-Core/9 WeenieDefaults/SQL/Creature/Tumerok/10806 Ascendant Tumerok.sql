@@ -12,8 +12,7 @@ VALUES (10806,   1,         16) /* ItemType - Creature */
      , (10806,  25,        100) /* Level */
      , (10806,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (10806, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10806, 307,          5) /* DamageRating */
-     , (10806, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (10806, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10806,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (10806,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10806,   1, 'Ascendant Tumerok') /* Name */
-     , (10806, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (10806,   1, 'Ascendant Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10806,   1,   33559567) /* Setup */
@@ -31,17 +29,11 @@ VALUES (10806,   1,   33559567) /* Setup */
      , (10806,   3,  536870931) /* SoundTable */
      , (10806,   6,   67116625) /* PaletteBase */
      , (10806,   8,  100667452) /* Icon */
-     , (10806,  22,  872415270) /* PhysicsEffectTable */
-     , (10806, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (10806, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (10806, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (10806,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10806, 8040, 1138556941, 37.63845, 98.75504, 7.776914, -0.1345346, 0, 0, -0.9909089) /* PCAPRecordedLocation */
 /* @teleloc 0x43DD000D [37.638450 98.755040 7.776914] -0.134535 0.000000 0.000000 -0.990909 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10806, 8000, 3690731543) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10806,   1, 280, 0, 0) /* Strength */
@@ -194,11 +186,3 @@ VALUES (10806, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
      , (10806, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */
      , (10806, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
      , (10806, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (10806, 67116625, 57, 48)
-     , (10806, 67116625, 153, 47)
-     , (10806, 67116625, 200, 8)
-     , (10806, 67116625, 208, 48)
-     , (10806, 67116628, 1, 48)
-     , (10806, 67116641, 105, 48);

@@ -12,8 +12,7 @@ VALUES (29342,   1,         16) /* ItemType - Creature */
      , (29342,  25,        185) /* Level */
      , (29342,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (29342, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (29342, 307,          5) /* DamageRating */
-     , (29342, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (29342, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29342,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29342,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29342,   1, 'Ruschk Laktar') /* Name */
-     , (29342, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (29342,   1, 'Ruschk Laktar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29342,   1,   33559104) /* Setup */
@@ -31,17 +29,11 @@ VALUES (29342,   1,   33559104) /* Setup */
      , (29342,   3,  536871101) /* SoundTable */
      , (29342,   6,   67115447) /* PaletteBase */
      , (29342,   8,  100677373) /* Icon */
-     , (29342,  22,  872415364) /* PhysicsEffectTable */
-     , (29342, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (29342, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (29342, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (29342,  22,  872415364) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29342, 8040, 1072693302, 154.7764, 131.2027, 14.0066, -0.5895939, 0, 0, -0.8076998) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF00036 [154.776400 131.202700 14.006600] -0.589594 0.000000 0.000000 -0.807700 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29342, 8000, 3692755035) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (29342,   1, 250, 0, 0) /* Strength */
@@ -115,6 +107,3 @@ VALUES (29342, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield 
      , (29342, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (29342, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (29342, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29342, 67116361, 0, 0);

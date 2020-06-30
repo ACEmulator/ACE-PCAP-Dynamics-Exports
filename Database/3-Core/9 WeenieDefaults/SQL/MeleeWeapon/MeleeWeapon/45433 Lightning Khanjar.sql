@@ -33,9 +33,7 @@ VALUES (45433,   1,          1) /* ItemType - MeleeWeapon */
      , (45433, 176,         45) /* AppraisalItemSkill */
      , (45433, 177,          2) /* GemCount */
      , (45433, 178,         38) /* GemType */
-     , (45433, 353,          6) /* WeaponType - Dagger */
-     , (45433, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45433, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45433, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45433,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (45433,   5,  -0.067) /* ManaRate */
      , (45433,  29,    1.17) /* WeaponDefense */
      , (45433,  39,    1.25) /* DefaultScale */
      , (45433,  62,    1.18) /* WeaponOffense */
-     , (45433,  63,       1) /* DamageMod */
-     , (45433, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (45433,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45433,   1, 'Lightning Khanjar') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45433,   1,   33555748) /* Setup */
      , (45433,   3,  536870932) /* SoundTable */
      , (45433,   8,  100668936) /* Icon */
-     , (45433,  22,  872415275) /* PhysicsEffectTable */
-     , (45433, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45433, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45433, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45433, 8000, 2461813521) /* PCAPRecordedObjectIID */;
+     , (45433,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45433,  2576,      2) 

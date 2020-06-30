@@ -35,9 +35,7 @@ VALUES (45118,   1,          1) /* ItemType - MeleeWeapon */
      , (45118, 177,          2) /* GemCount */
      , (45118, 178,         41) /* GemType */
      , (45118, 179,         32) /* ImbuedEffect - BludgeonRending */
-     , (45118, 353,          1) /* WeaponType - Unarmed */
-     , (45118, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45118, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45118, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45118,  22, True ) /* Inscribable */;
@@ -50,8 +48,7 @@ VALUES (45118,   5,  -0.056) /* ManaRate */
      , (45118,  29,    1.15) /* WeaponDefense */
      , (45118,  39,     0.8) /* DefaultScale */
      , (45118,  62,    1.18) /* WeaponOffense */
-     , (45118,  63,       1) /* DamageMod */
-     , (45118, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (45118,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45118,   1, 'Hand Wraps') /* Name */
@@ -64,25 +61,9 @@ VALUES (45118,   1,   33561411) /* Setup */
      , (45118,   6,   67115556) /* PaletteBase */
      , (45118,   8,  100692317) /* Icon */
      , (45118,  22,  872415275) /* PhysicsEffectTable */
-     , (45118,  52,  100676442) /* IconUnderlay */
-     , (45118, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45118, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45118, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45118, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45118, 8000, 2174255173) /* PCAPRecordedObjectIID */;
+     , (45118,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45118,  2096,      2) 
      , (45118,  2101,      2) 
      , (45118,  4691,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45118, 67116448, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45118, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45118, 0, 16792139);

@@ -33,9 +33,7 @@ VALUES (3775,   1,          1) /* ItemType - MeleeWeapon */
      , (3775, 176,         46) /* AppraisalItemSkill */
      , (3775, 177,          3) /* GemCount */
      , (3775, 178,         21) /* GemType */
-     , (3775, 353,          4) /* WeaponType - Mace */
-     , (3775, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3775, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3775, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3775,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3775,   5,  -0.056) /* ManaRate */
      , (3775,  26,       0) /* MaximumVelocity */
      , (3775,  29,    1.15) /* WeaponDefense */
      , (3775,  62,    1.13) /* WeaponOffense */
-     , (3775,  63,       1) /* DamageMod */
-     , (3775, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (3775,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3775,   1, 'Lightning Dabus') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3775,   1,   33555752) /* Setup */
      , (3775,   3,  536870932) /* SoundTable */
      , (3775,   8,  100668865) /* Icon */
-     , (3775,  22,  872415275) /* PhysicsEffectTable */
-     , (3775, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3775, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3775, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3775, 8000, 2174519472) /* PCAPRecordedObjectIID */;
+     , (3775,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3775,  1378,      2) 

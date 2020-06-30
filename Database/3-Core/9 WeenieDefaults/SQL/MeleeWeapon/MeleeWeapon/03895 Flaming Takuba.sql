@@ -26,9 +26,7 @@ VALUES (3895,   1,          1) /* ItemType - MeleeWeapon */
      , (3895, 172,          5) /* AppraisalLongDescDecoration */
      , (3895, 177,          3) /* GemCount */
      , (3895, 178,         31) /* GemType */
-     , (3895, 353,          2) /* WeaponType - Sword */
-     , (3895, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3895, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3895, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3895,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (3895,  21,       0) /* WeaponLength */
      , (3895,  29,    1.08) /* WeaponDefense */
      , (3895,  39,    1.21) /* DefaultScale */
      , (3895,  62,    1.07) /* WeaponOffense */
-     , (3895,  63,       1) /* DamageMod */
-     , (3895, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3895,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3895,   1, 'Flaming Takuba') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3895,   1,   33555803) /* Setup */
      , (3895,   3,  536870932) /* SoundTable */
      , (3895,   8,  100669045) /* Icon */
-     , (3895,  22,  872415275) /* PhysicsEffectTable */
-     , (3895, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3895, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3895, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3895, 8000, 3681878808) /* PCAPRecordedObjectIID */;
+     , (3895,  22,  872415275) /* PhysicsEffectTable */;

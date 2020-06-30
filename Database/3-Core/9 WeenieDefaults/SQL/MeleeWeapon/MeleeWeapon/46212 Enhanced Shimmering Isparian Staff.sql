@@ -27,9 +27,7 @@ VALUES (46212,   1,          1) /* ItemType - MeleeWeapon */
      , (46212, 158,          2) /* WieldRequirements - RawSkill */
      , (46212, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (46212, 160,        400) /* WieldDifficulty */
-     , (46212, 166,         62) /* SlayerCreatureType - Elemental */
-     , (46212, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (46212, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46212, 166,         62) /* SlayerCreatureType - Elemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46212,  22, True ) /* Inscribable */
@@ -54,13 +52,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46212,   1,   33556261) /* Setup */
      , (46212,   3,  536870932) /* SoundTable */
      , (46212,   8,  100673241) /* Icon */
-     , (46212,  22,  872415275) /* PhysicsEffectTable */
-     , (46212, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (46212, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (46212, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46212, 8000, 2210356787) /* PCAPRecordedObjectIID */;
+     , (46212,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46212,  2096,      2) 
@@ -69,10 +61,3 @@ VALUES (46212,  2096,      2)
      , (46212,  2116,      2) 
      , (46212,  2531,      2) 
      , (46212,  2586,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46212, 0, 83889237, 83892492)
-     , (46212, 0, 83889688, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46212, 0, 16783994);

@@ -12,8 +12,7 @@ VALUES (22507,   1,         16) /* ItemType - Creature */
      , (22507,  25,        135) /* Level */
      , (22507,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22507, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22507, 307,          5) /* DamageRating */
-     , (22507, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22507, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22507,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22507,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22507,   1, 'Obsidian Chittick') /* Name */
-     , (22507, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22507,   1, 'Obsidian Chittick') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22507,   1,   33558118) /* Setup */
@@ -31,17 +29,11 @@ VALUES (22507,   1,   33558118) /* Setup */
      , (22507,   3,  536870982) /* SoundTable */
      , (22507,   6,   67114050) /* PaletteBase */
      , (22507,   8,  100669115) /* Icon */
-     , (22507,  22,  872415336) /* PhysicsEffectTable */
-     , (22507, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22507, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22507, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (22507,  22,  872415336) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22507, 8040, 4084072497, 144.1949, 23.16964, 11.9744, 0.4552974, 0, 0, -0.8903394) /* PCAPRecordedLocation */
 /* @teleloc 0xF36E0031 [144.194900 23.169640 11.974400] 0.455297 0.000000 0.000000 -0.890339 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22507, 8000, 3690479888) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22507,   1, 200, 0, 0) /* Strength */
@@ -67,6 +59,3 @@ VALUES (22507, 2, 22545,  1, 0, 0, False) /* Create Obsidian Spines (22545) for 
      , (22507, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
      , (22507, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
      , (22507, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22507, 67114052, 0, 0);

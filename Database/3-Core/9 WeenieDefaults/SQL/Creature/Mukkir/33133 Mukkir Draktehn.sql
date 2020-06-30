@@ -11,8 +11,7 @@ VALUES (33133,   1,         16) /* ItemType - Creature */
      , (33133,  16,          1) /* ItemUseable - No */
      , (33133,  25,        215) /* Level */
      , (33133,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33133, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33133, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33133, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33133,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (33133,  39,     1.3) /* DefaultScale */
      , (33133,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33133,   1, 'Mukkir Draktehn') /* Name */
-     , (33133, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33133,   1, 'Mukkir Draktehn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33133,   1,   33559858) /* Setup */
@@ -32,17 +30,11 @@ VALUES (33133,   1,   33559858) /* Setup */
      , (33133,   6,   67116771) /* PaletteBase */
      , (33133,   8,  100688542) /* Icon */
      , (33133,  22,  872415417) /* PhysicsEffectTable */
-     , (33133,  30,         85) /* PhysicsScript - BreatheFrost */
-     , (33133, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33133, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33133, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (33133,  30,         85) /* PhysicsScript - BreatheFrost */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33133, 8040, 7734092, 132.749, -51.31551, -36, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0076034C [132.749000 -51.315510 -36.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33133, 8000, 3357510845) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33133,   1,     0, 0, 0, 3725) /* MaxHealth */;
@@ -87,6 +79,3 @@ VALUES (33133, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for Con
      , (33133, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (33133, 9, 20597,  0, 0, 0, False) /* Create Scroll of Koga's Boon (20597) for ContainTreasure */
      , (33133, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33133, 67116775, 0, 0);

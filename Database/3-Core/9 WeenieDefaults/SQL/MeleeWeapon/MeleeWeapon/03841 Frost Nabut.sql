@@ -28,9 +28,7 @@ VALUES (3841,   1,          1) /* ItemType - MeleeWeapon */
      , (3841, 131,         73) /* MaterialType - Ebony */
      , (3841, 151,          2) /* HookType - Wall */
      , (3841, 176,         45) /* AppraisalItemSkill */
-     , (3841, 353,          7) /* WeaponType - Staff */
-     , (3841, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3841, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (3841, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3841,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (3841,   5,  -0.025) /* ManaRate */
      , (3841,  29,       1) /* WeaponDefense */
      , (3841,  39,    0.67) /* DefaultScale */
      , (3841,  62,       1) /* WeaponOffense */
-     , (3841,  63,       1) /* DamageMod */
-     , (3841, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (3841,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3841,   1, 'Frost Nabut') /* Name */
@@ -56,19 +53,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3841,   1,   33555763) /* Setup */
      , (3841,   3,  536870932) /* SoundTable */
      , (3841,   8,  100667602) /* Icon */
-     , (3841,  22,  872415275) /* PhysicsEffectTable */
-     , (3841, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (3841, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3841, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (3841, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (3841,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3841, 8040, 23855549, 54.85237, -39.43012, -0.071, -0.5467112, -0.5467112, -0.4484494, -0.4484494) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [54.852370 -39.430120 -0.071000] -0.546711 -0.546711 -0.448449 -0.448449 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3841, 8000, 3706097715) /* PCAPRecordedObjectIID */
-     , (3841, 8008, 1342675961) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3841,  1613,      2) 

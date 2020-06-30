@@ -18,8 +18,7 @@ VALUES (37262,   1,       2048) /* ItemType - Gem */
      , (37262,  94,         16) /* TargetType - Creature */
      , (37262, 114,          1) /* Attuned - Attuned */
      , (37262, 151,          2) /* HookType - Wall */
-     , (37262, 280,          1) /* SharedCooldown */
-     , (37262, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37262, 280,          1) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37262,  22, True ) /* Inscribable */
@@ -37,14 +36,7 @@ VALUES (37262,   1,   33560546) /* Setup */
      , (37262,   3,  536870932) /* SoundTable */
      , (37262,   8,  100689859) /* Icon */
      , (37262,  22,  872415275) /* PhysicsEffectTable */
-     , (37262,  28,       4281) /* Spell - FocusJesterDeck */
-     , (37262, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (37262, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (37262, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (37262, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37262, 8000, 2588663625) /* PCAPRecordedObjectIID */;
+     , (37262,  28,       4281) /* Spell - FocusJesterDeck */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37262,  4281,      2) ;

@@ -32,14 +32,8 @@ A small portal lives inside the body of this hibernating K''nath. When used, the
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11697,   1,   33557133) /* Setup */
      , (11697,   8,  100671680) /* Icon */
-     , (11697,  22,  872415275) /* PhysicsEffectTable */
-     , (11697, 8001,  840958010) /* PCAPRecordedWeenieHeader - ItemsCapacity, Value, Usable, UseRadius, Burden, HouseOwner, HookType, HookItemTypes */
-     , (11697, 8003,        149) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable, UiHidden */
-     , (11697, 8005,      36993) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position */;
+     , (11697,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11697, 8040, 2399928638, 39.3603, 132.524, 21.275, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x8F0C013E [39.360300 132.524000 21.275000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11697, 8000, 2029043749) /* PCAPRecordedObjectIID */;

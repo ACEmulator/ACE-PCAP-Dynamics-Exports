@@ -19,14 +19,8 @@ VALUES (15204,   1, 'Al-Mar Oasis') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15204,   1,   33557463) /* Setup */
-     , (15204,   8,  100668115) /* Icon */
-     , (15204, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15204, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15204, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15204,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15204, 8040, 2487484452, 104.489, 89.509, 15.29258, 0.730913, 0, 0, -0.682471) /* PCAPRecordedLocation */
 /* @teleloc 0x94440024 [104.489000 89.509000 15.292580] 0.730913 0.000000 0.000000 -0.682471 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15204, 8000, 2034516401) /* PCAPRecordedObjectIID */;

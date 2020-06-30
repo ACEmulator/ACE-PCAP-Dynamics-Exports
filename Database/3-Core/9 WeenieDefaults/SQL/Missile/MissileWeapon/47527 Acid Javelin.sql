@@ -23,9 +23,7 @@ VALUES (47527,   1,        256) /* ItemType - MissileWeapon */
      , (47527,  51,          2) /* CombatUse - Missle */
      , (47527,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47527, 151,          2) /* HookType - Wall */
-     , (47527, 353,         10) /* WeaponType - Thrown */
-     , (47527, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (47527, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (47527, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47527,  21,       0) /* WeaponLength */
@@ -44,19 +42,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47527,   1,   33555720) /* Setup */
      , (47527,   3,  536870932) /* SoundTable */
      , (47527,   8,  100667593) /* Icon */
-     , (47527,  22,  872415275) /* PhysicsEffectTable */
-     , (47527, 8001,  270774936) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (47527, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (47527, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (47527, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (47527,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47527, 8040, 2429616181, 165.2244, 108.3829, 286.7943, -0.1105883, -0.1105883, -0.6984055, -0.6984055) /* PCAPRecordedLocation */
 /* @teleloc 0x90D10035 [165.224400 108.382900 286.794300] -0.110588 -0.110588 -0.698406 -0.698406 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47527, 8000, 3690389565) /* PCAPRecordedObjectIID */
-     , (47527, 8008, 3690389531) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47527, 2, 47405,  1, 0, 0, False) /* Create Frost Club (47405) for Wield */;

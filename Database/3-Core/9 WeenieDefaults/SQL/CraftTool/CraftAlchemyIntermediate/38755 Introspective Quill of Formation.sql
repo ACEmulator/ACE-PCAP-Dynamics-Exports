@@ -14,8 +14,7 @@ VALUES (38755,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38755,  18,          1) /* UiEffects - Magical */
      , (38755,  19,      50000) /* Value */
      , (38755,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38755,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (38755, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38755,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38755,   1, 'Introspective Quill of Formation') /* Name */
@@ -24,11 +23,4 @@ VALUES (38755,   1, 'Introspective Quill of Formation') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38755,   1,   33559616) /* Setup */
      , (38755,   8,  100690197) /* Icon */
-     , (38755,  52,  100676435) /* IconUnderlay */
-     , (38755, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (38755, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (38755, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (38755, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38755, 8000, 2150585007) /* PCAPRecordedObjectIID */;
+     , (38755,  52,  100676435) /* IconUnderlay */;

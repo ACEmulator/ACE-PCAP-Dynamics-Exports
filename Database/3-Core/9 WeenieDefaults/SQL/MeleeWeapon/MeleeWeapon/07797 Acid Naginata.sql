@@ -24,9 +24,7 @@ VALUES (7797,   1,          1) /* ItemType - MeleeWeapon */
      , (7797, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (7797, 160,        300) /* WieldDifficulty */
      , (7797, 172,          1) /* AppraisalLongDescDecoration */
-     , (7797, 353,          5) /* WeaponType - Spear */
-     , (7797, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7797, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7797, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7797,  22, True ) /* Inscribable */;
@@ -37,8 +35,7 @@ VALUES (7797,  21,       0) /* WeaponLength */
      , (7797,  26,       0) /* MaximumVelocity */
      , (7797,  29,       1) /* WeaponDefense */
      , (7797,  62,     1.1) /* WeaponOffense */
-     , (7797,  63,       1) /* DamageMod */
-     , (7797, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (7797,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7797,   1, 'Acid Naginata') /* Name */
@@ -50,23 +47,4 @@ VALUES (7797,   1,   33556670) /* Setup */
      , (7797,   6,   67111919) /* PaletteBase */
      , (7797,   8,  100670783) /* Icon */
      , (7797,  22,  872415275) /* PhysicsEffectTable */
-     , (7797,  52,  100676437) /* IconUnderlay */
-     , (7797, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (7797, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (7797, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (7797, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7797, 8000, 2174543074) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7797, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7797, 0, 83886709, 83886709)
-     , (7797, 0, 83888778, 83888778)
-     , (7797, 0, 83886747, 83886747)
-     , (7797, 0, 83886749, 83886749);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7797, 0, 16784607);
+     , (7797,  52,  100676437) /* IconUnderlay */;

@@ -28,9 +28,7 @@ VALUES (31794,   1,          1) /* ItemType - MeleeWeapon */
      , (31794, 151,          2) /* HookType - Wall */
      , (31794, 172,          1) /* AppraisalLongDescDecoration */
      , (31794, 176,         46) /* AppraisalItemSkill */
-     , (31794, 353,          6) /* WeaponType - Dagger */
-     , (31794, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31794, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31794, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31794,  22, True ) /* Inscribable */;
@@ -44,8 +42,7 @@ VALUES (31794,   5,  -0.017) /* ManaRate */
      , (31794,  39,    0.75) /* DefaultScale */
      , (31794,  62,    1.03) /* WeaponOffense */
      , (31794,  63,       1) /* DamageMod */
-     , (31794, 149,   1.015) /* WeaponMissileDefense */
-     , (31794, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (31794, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31794,   1, 'Lancet') /* Name */
@@ -56,24 +53,7 @@ VALUES (31794,   1,   33559628) /* Setup */
      , (31794,   3,  536870932) /* SoundTable */
      , (31794,   6,   67116700) /* PaletteBase */
      , (31794,   8,  100688071) /* Icon */
-     , (31794,  22,  872415275) /* PhysicsEffectTable */
-     , (31794, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31794, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31794, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31794, 8000, 3701147002) /* PCAPRecordedObjectIID */;
+     , (31794,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31794,  1612,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31794, 67116700, 1, 100)
-     , (31794, 67116701, 201, 55)
-     , (31794, 67116710, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31794, 0, 83897335, 83897335);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31794, 0, 16792616);

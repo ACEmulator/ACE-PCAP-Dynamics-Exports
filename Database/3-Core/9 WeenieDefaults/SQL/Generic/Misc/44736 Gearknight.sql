@@ -20,10 +20,4 @@ VALUES (44736,   1, 'Gearknight') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44736,   1,   33561336) /* Setup */
-     , (44736,   8,  100668115) /* Icon */
-     , (44736, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44736, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44736, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44736, 8000, 2461616459) /* PCAPRecordedObjectIID */;
+     , (44736,   8,  100668115) /* Icon */;

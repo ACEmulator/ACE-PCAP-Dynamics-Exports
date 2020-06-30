@@ -19,14 +19,8 @@ VALUES (42907,   1, 'Rat') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42907,   1,   33561040) /* Setup */
-     , (42907,   8,  100668115) /* Icon */
-     , (42907, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42907, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42907, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42907,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42907, 8040, 459092, 78.2812, -44.831, 1.436, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070154 [78.281200 -44.831000 1.436000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42907, 8000, 1879076965) /* PCAPRecordedObjectIID */;

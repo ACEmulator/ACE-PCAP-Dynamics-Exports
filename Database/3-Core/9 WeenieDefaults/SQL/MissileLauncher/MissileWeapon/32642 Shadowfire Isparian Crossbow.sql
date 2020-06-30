@@ -26,9 +26,7 @@ VALUES (32642,   1,        256) /* ItemType - MissileWeapon */
      , (32642, 160,        360) /* WieldDifficulty */
      , (32642, 166,         22) /* SlayerCreatureType - Shadow */
      , (32642, 204,         12) /* ElementalDamageBonus */
-     , (32642, 353,          9) /* WeaponType - Crossbow */
-     , (32642, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (32642, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32642, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32642,  22, True ) /* Inscribable */
@@ -55,23 +53,4 @@ VALUES (32642,   1,   33559820) /* Setup */
      , (32642,   3,  536870932) /* SoundTable */
      , (32642,   6,   67111919) /* PaletteBase */
      , (32642,   8,  100688563) /* Icon */
-     , (32642,  22,  872415275) /* PhysicsEffectTable */
-     , (32642, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (32642, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32642, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32642, 8000, 2208818557) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32642, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32642, 1, 83893927, 83889688)
-     , (32642, 1, 83889237, 83889688)
-     , (32642, 2, 83893927, 83889688)
-     , (32642, 2, 83889237, 83889688);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32642, 1, 16787899)
-     , (32642, 2, 16787899);
+     , (32642,  22,  872415275) /* PhysicsEffectTable */;

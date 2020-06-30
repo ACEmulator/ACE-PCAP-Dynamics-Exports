@@ -33,9 +33,7 @@ VALUES (3762,   1,          1) /* ItemType - MeleeWeapon */
      , (3762, 176,         46) /* AppraisalItemSkill */
      , (3762, 177,          2) /* GemCount */
      , (3762, 178,         17) /* GemType */
-     , (3762, 353,          5) /* WeaponType - Spear */
-     , (3762, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3762, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3762, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3762,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3762,   5,  -0.042) /* ManaRate */
      , (3762,  29,    1.03) /* WeaponDefense */
      , (3762,  62,    1.15) /* WeaponOffense */
      , (3762,  63,       1) /* DamageMod */
-     , (3762, 149,   1.015) /* WeaponMissileDefense */
-     , (3762, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3762, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3762,   1, 'Acid Budiaq') /* Name */
@@ -61,25 +58,8 @@ VALUES (3762,   1,   33555780) /* Setup */
      , (3762,   6,   67111919) /* PaletteBase */
      , (3762,   8,  100669008) /* Icon */
      , (3762,  22,  872415275) /* PhysicsEffectTable */
-     , (3762,  52,  100676437) /* IconUnderlay */
-     , (3762, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3762, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3762, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3762, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3762, 8000, 2174193546) /* PCAPRecordedObjectIID */;
+     , (3762,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3762,  1615,      2) 
      , (3762,  2564,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (3762, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (3762, 0, 83889235, 83889235)
-     , (3762, 0, 83889240, 83889240);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (3762, 0, 16777955);

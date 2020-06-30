@@ -20,8 +20,7 @@ VALUES (32984,   1,      32768) /* ItemType - Caster */
      , (32984, 151,          2) /* HookType - Wall */
      , (32984, 158,          7) /* WieldRequirements - Level */
      , (32984, 159,          1) /* WieldSkillType - Axe */
-     , (32984, 160,        100) /* WieldDifficulty */
-     , (32984, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32984, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32984,  22, True ) /* Inscribable */
@@ -47,27 +46,10 @@ VALUES (32984,   1,   33559863) /* Setup */
      , (32984,   8,  100688016) /* Icon */
      , (32984,  22,  872415275) /* PhysicsEffectTable */
      , (32984,  28,       2282) /* Spell - MagicYieldOther7 */
-     , (32984,  50,  100688913) /* IconOverlay */
-     , (32984, 8001, 1349075096) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType, IconOverlay */
-     , (32984, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32984, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32984, 8000, 2922016798) /* PCAPRecordedObjectIID */;
+     , (32984,  50,  100688913) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32984,  2101,      2) 
      , (32984,  2117,      2) 
      , (32984,  2282,      2) 
      , (32984,  3259,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32984, 67116700, 1, 100)
-     , (32984, 67116704, 201, 55)
-     , (32984, 67116710, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32984, 0, 83897333, 83897333);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32984, 0, 16792610);

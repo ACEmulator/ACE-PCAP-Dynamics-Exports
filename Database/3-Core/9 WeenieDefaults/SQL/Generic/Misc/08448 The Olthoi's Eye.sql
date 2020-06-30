@@ -19,20 +19,8 @@ VALUES (8448,   1, 'The Olthoi''s Eye') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8448,   1,   33555594) /* Setup */
-     , (8448,   8,  100668115) /* Icon */
-     , (8448, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (8448, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8448, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (8448,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8448, 8040, 3911319556, 12, 72.7, 3, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE9220004 [12.000000 72.700000 3.000000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8448, 8000, 2123505676) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8448, 0, 83891180, 83891181);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8448, 0, 16782236);

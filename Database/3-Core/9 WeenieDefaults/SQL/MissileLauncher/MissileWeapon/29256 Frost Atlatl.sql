@@ -34,9 +34,7 @@ VALUES (29256,   1,        256) /* ItemType - MissileWeapon */
      , (29256, 177,          3) /* GemCount */
      , (29256, 178,         38) /* GemType */
      , (29256, 204,         16) /* ElementalDamageBonus */
-     , (29256, 353,         10) /* WeaponType - Thrown */
-     , (29256, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29256, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29256, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29256,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (29256,   5,  -0.067) /* ManaRate */
      , (29256,  29,    1.18) /* WeaponDefense */
      , (29256,  39,     1.1) /* DefaultScale */
      , (29256,  62,       1) /* WeaponOffense */
-     , (29256,  63,    2.55) /* DamageMod */
-     , (29256, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (29256,  63,    2.55) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29256,   1, 'Frost Atlatl') /* Name */
@@ -61,28 +58,10 @@ VALUES (29256,   1,   33559243) /* Setup */
      , (29256,   3,  536870932) /* SoundTable */
      , (29256,   6,   67115373) /* PaletteBase */
      , (29256,   8,  100677455) /* Icon */
-     , (29256,  22,  872415275) /* PhysicsEffectTable */
-     , (29256, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29256, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29256, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29256, 8000, 3679525723) /* PCAPRecordedObjectIID */;
+     , (29256,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29256,  2059,      2) 
      , (29256,  2096,      2) 
      , (29256,  4400,      2) 
      , (29256,  5890,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29256, 67115374, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29256, 0, 83895603, 83895603)
-     , (29256, 0, 83895601, 83895601)
-     , (29256, 0, 83895602, 83895602)
-     , (29256, 0, 83895598, 83895598);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29256, 0, 16791351);

@@ -31,9 +31,7 @@ VALUES (7771,   1,          1) /* ItemType - MeleeWeapon */
      , (7771, 160,        250) /* WieldDifficulty */
      , (7771, 172,          1) /* AppraisalLongDescDecoration */
      , (7771, 176,         46) /* AppraisalItemSkill */
-     , (7771, 353,          5) /* WeaponType - Spear */
-     , (7771, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7771, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7771, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7771,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (7771,   5,  -0.042) /* ManaRate */
      , (7771,  62,    1.08) /* WeaponOffense */
      , (7771,  63,       1) /* DamageMod */
      , (7771, 149,    1.01) /* WeaponMissileDefense */
-     , (7771, 150,   1.015) /* WeaponMagicDefense */
-     , (7771, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (7771, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7771,   1, 'Naginata') /* Name */
@@ -59,26 +56,8 @@ VALUES (7771,   1,   33556640) /* Setup */
      , (7771,   3,  536870932) /* SoundTable */
      , (7771,   6,   67111919) /* PaletteBase */
      , (7771,   8,  100670789) /* Icon */
-     , (7771,  22,  872415275) /* PhysicsEffectTable */
-     , (7771, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (7771, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7771, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7771, 8000, 3690019376) /* PCAPRecordedObjectIID */;
+     , (7771,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7771,  1591,      2) 
      , (7771,  1614,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7771, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7771, 0, 83886709, 83886709)
-     , (7771, 0, 83888778, 83888778)
-     , (7771, 0, 83886747, 83886747)
-     , (7771, 0, 83886749, 83886749);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7771, 0, 16784607);

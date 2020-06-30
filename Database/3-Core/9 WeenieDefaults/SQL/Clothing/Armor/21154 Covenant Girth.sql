@@ -18,8 +18,7 @@ VALUES (21154,   1,          2) /* ItemType - Armor */
      , (21154, 158,          2) /* WieldRequirements - RawSkill */
      , (21154, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21154, 160,        350) /* WieldDifficulty */
-     , (21154, 172,          1) /* AppraisalLongDescDecoration */
-     , (21154, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21154, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21154,  22, True ) /* Inscribable */
@@ -33,8 +32,7 @@ VALUES (21154,  13,     1.3) /* ArmorModVsSlash */
      , (21154,  17,     0.6) /* ArmorModVsFire */
      , (21154,  18,     1.6) /* ArmorModVsAcid */
      , (21154,  19,     1.2) /* ArmorModVsElectric */
-     , (21154, 165,       1) /* ArmorModVsNether */
-     , (21154, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (21154, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21154,   1, 'Covenant Girth') /* Name */
@@ -45,20 +43,4 @@ VALUES (21154,   1,   33554647) /* Setup */
      , (21154,   3,  536870932) /* SoundTable */
      , (21154,   6,   67108990) /* PaletteBase */
      , (21154,   8,  100673405) /* Icon */
-     , (21154,  22,  872415275) /* PhysicsEffectTable */
-     , (21154, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (21154, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21154, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21154, 8000, 3687703510) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21154, 67113961, 80, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21154, 0, 83889072, 83894171)
-     , (21154, 0, 83889342, 83894170);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21154, 0, 16778376);
+     , (21154,  22,  872415275) /* PhysicsEffectTable */;

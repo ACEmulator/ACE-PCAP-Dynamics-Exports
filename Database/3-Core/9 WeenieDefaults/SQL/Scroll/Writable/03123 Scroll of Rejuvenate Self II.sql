@@ -8,8 +8,7 @@ VALUES (3123,   1,       8192) /* ItemType - Writable */
      , (3123,   5,         30) /* EncumbranceVal */
      , (3123,  16,          8) /* ItemUseable - Contained */
      , (3123,  19,          5) /* Value */
-     , (3123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3123, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3123,  22, True ) /* Inscribable */;
@@ -26,13 +25,7 @@ Increases the rate at which the caster regains Stamina by 25%.') /* LongDesc */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3123,   1,   33554826) /* Setup */
      , (3123,   8,  100676940) /* Icon */
-     , (3123,  28,        189) /* Spell - RejuvenationSelf2 */
-     , (3123, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
-     , (3123, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3123, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3123, 8000, 2617882000) /* PCAPRecordedObjectIID */;
+     , (3123,  28,        189) /* Spell - RejuvenationSelf2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3123,   189,      2) ;

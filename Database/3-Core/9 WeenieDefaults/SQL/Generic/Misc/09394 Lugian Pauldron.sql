@@ -9,8 +9,7 @@ VALUES (9394,   1,        128) /* ItemType - Misc */
      , (9394,  16,          1) /* ItemUseable - No */
      , (9394,  19,       2000) /* Value */
      , (9394,  33,          1) /* Bonded - Bonded */
-     , (9394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9394, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (9394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9394,  22, True ) /* Inscribable */;
@@ -24,23 +23,8 @@ VALUES (9394,   1,   33557004) /* Setup */
      , (9394,   3,  536870932) /* SoundTable */
      , (9394,   6,   67113158) /* PaletteBase */
      , (9394,   8,  100671474) /* Icon */
-     , (9394,  22,  872415275) /* PhysicsEffectTable */
-     , (9394, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (9394, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (9394, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (9394,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9394, 8040, 302186508, 38.4825, 79.1887, 1.115, -0.9679723, 0, 0, 0.2510571) /* PCAPRecordedLocation */
 /* @teleloc 0x1203000C [38.482500 79.188700 1.115000] -0.967972 0.000000 0.000000 0.251057 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9394, 8000, 3361939593) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9394, 67113164, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9394, 0, 83893240, 83893239);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9394, 0, 16785704);

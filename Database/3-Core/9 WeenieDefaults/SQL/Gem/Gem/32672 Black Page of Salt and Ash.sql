@@ -22,8 +22,7 @@ VALUES (32672,   1,       2048) /* ItemType - Gem */
      , (32672, 109,          0) /* ItemDifficulty */
      , (32672, 110,          0) /* ItemAllegianceRankLimit */
      , (32672, 114,          1) /* Attuned - Attuned */
-     , (32672, 151,          2) /* HookType - Wall */
-     , (32672, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32672, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32672,   1, 'Black Page of Salt and Ash') /* Name */
@@ -37,22 +36,7 @@ VALUES (32672,   1,   33554809) /* Setup */
      , (32672,   6,   67111919) /* PaletteBase */
      , (32672,   8,  100688622) /* Icon */
      , (32672,  22,  872415275) /* PhysicsEffectTable */
-     , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */
-     , (32672, 8001,  275280017) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (32672, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (32672, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32672, 8000, 2210356965) /* PCAPRecordedObjectIID */;
+     , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32672,  3869,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32672, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32672, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32672, 0, 16779181);

@@ -16,8 +16,7 @@ VALUES (31290,   1,         16) /* ItemType - Creature */
      , (31290, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (31290, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (31290, 188,          2) /* HeritageGroup - Gharundim */
-     , (31290, 307,          5) /* DamageRating */
-     , (31290, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31290, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31290,   1, True ) /* Stuck */
@@ -28,8 +27,7 @@ VALUES (31290,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31290,   1, 'Soldier') /* Name */
-     , (31290,   5, 'Fort Tethana Guardsman') /* Template */
-     , (31290, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (31290,   5, 'Fort Tethana Guardsman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31290,   1,   33554433) /* Setup */
@@ -42,17 +40,11 @@ VALUES (31290,   1,   33554433) /* Setup */
      , (31290,  11,   83890564) /* MouthTexture */
      , (31290,  15,   67117078) /* HairPalette */
      , (31290,  16,   67109567) /* EyesPalette */
-     , (31290,  17,   67109555) /* SkinPalette */
-     , (31290, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (31290, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (31290, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (31290,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31290, 8040, 629211188, 156.861, 82.2571, 220.005, 0.820935, 0, 0, -0.571021) /* PCAPRecordedLocation */
 /* @teleloc 0x25810034 [156.861000 82.257100 220.005000] 0.820935 0.000000 0.000000 -0.571021 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31290, 8000, 3692285951) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31290,   1, 104, 0, 0) /* Strength */
@@ -70,62 +62,3 @@ VALUES (31290,   1,   100, 0, 0, 180) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31290, 2, 30562,  1, 0, 0, False) /* Create Acid Dolabra (30562) for Wield */
      , (31290, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31290, 67109555, 0, 24)
-     , (31290, 67109567, 32, 8)
-     , (31290, 67110003, 152, 8)
-     , (31290, 67110003, 186, 12)
-     , (31290, 67110003, 174, 12)
-     , (31290, 67110003, 72, 8)
-     , (31290, 67110003, 92, 4)
-     , (31290, 67110003, 108, 8)
-     , (31290, 67110003, 128, 8)
-     , (31290, 67110008, 136, 16)
-     , (31290, 67110008, 216, 24)
-     , (31290, 67110008, 80, 12)
-     , (31290, 67110008, 96, 12)
-     , (31290, 67110008, 116, 12)
-     , (31290, 67110008, 160, 8)
-     , (31290, 67117078, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31290, 0, 83889072, 83886235)
-     , (31290, 0, 83889342, 83886235)
-     , (31290, 1, 83887064, 83886494)
-     , (31290, 2, 83887066, 83886485)
-     , (31290, 3, 83889344, 83887054)
-     , (31290, 4, 83887068, 83887054)
-     , (31290, 5, 83887064, 83886494)
-     , (31290, 6, 83887066, 83886485)
-     , (31290, 7, 83889344, 83887054)
-     , (31290, 8, 83887068, 83887054)
-     , (31290, 9, 83887061, 83886237)
-     , (31290, 9, 83887060, 83886238)
-     , (31290, 10, 83886796, 83886491)
-     , (31290, 11, 83886788, 83886247)
-     , (31290, 13, 83886796, 83886491)
-     , (31290, 14, 83886788, 83886247)
-     , (31290, 16, 83886232, 83890685)
-     , (31290, 16, 83886668, 83890475)
-     , (31290, 16, 83886837, 83890537)
-     , (31290, 16, 83886684, 83890564);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31290, 0, 16781842)
-     , (31290, 1, 16781845)
-     , (31290, 2, 16781844)
-     , (31290, 3, 16777292)
-     , (31290, 4, 16781816)
-     , (31290, 5, 16781846)
-     , (31290, 6, 16781843)
-     , (31290, 7, 16777296)
-     , (31290, 8, 16781817)
-     , (31290, 9, 16781837)
-     , (31290, 10, 16781858)
-     , (31290, 11, 16781861)
-     , (31290, 12, 16777304)
-     , (31290, 13, 16781856)
-     , (31290, 14, 16781862)
-     , (31290, 15, 16777307)
-     , (31290, 16, 16795675);

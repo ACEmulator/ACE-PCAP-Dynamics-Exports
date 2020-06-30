@@ -26,8 +26,7 @@ VALUES (28610,   1,          4) /* ItemType - Clothing */
      , (28610, 160,        180) /* WieldDifficulty */
      , (28610, 172,          5) /* AppraisalLongDescDecoration */
      , (28610, 177,          2) /* GemCount */
-     , (28610, 178,         23) /* GemType */
-     , (28610, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28610, 178,         23) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28610,  22, True ) /* Inscribable */
@@ -42,8 +41,7 @@ VALUES (28610,   5,  -0.067) /* ManaRate */
      , (28610,  17,   1.259) /* ArmorModVsFire */
      , (28610,  18,   1.051) /* ArmorModVsAcid */
      , (28610,  19,     0.8) /* ArmorModVsElectric */
-     , (28610, 165,       1) /* ArmorModVsNether */
-     , (28610, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (28610, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28610,   1, 'Loafers') /* Name */
@@ -54,13 +52,7 @@ VALUES (28610,   1,   33559324) /* Setup */
      , (28610,   3,  536870932) /* SoundTable */
      , (28610,   6,   67108990) /* PaletteBase */
      , (28610,   8,  100682412) /* Icon */
-     , (28610,  22,  872415275) /* PhysicsEffectTable */
-     , (28610, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28610, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28610, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28610, 8000, 2174244954) /* PCAPRecordedObjectIID */;
+     , (28610,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28610,  2108,      2) 
@@ -71,6 +63,3 @@ VALUES (28610,  2108,      2)
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28610, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (28610, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28610, 67115846, 160, 8);

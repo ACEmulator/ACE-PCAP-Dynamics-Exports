@@ -34,8 +34,7 @@ VALUES (53025,   1,         16) /* ItemType - Creature */
      , (53025, 386,          0) /* Overpower */
      , (53025, 387,          0) /* OverpowerResist */
      , (53025, 388,          0) /* GearOverpower */
-     , (53025, 389,          0) /* GearOverpowerResist */
-     , (53025, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53025, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53025,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53025,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53025,   1, 'Gauntlet Arena') /* Name */
-     , (53025, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (53025,   1, 'Gauntlet Arena') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53025,   1,   33561059) /* Setup */
      , (53025,   2,  150995429) /* MotionTable */
      , (53025,   3,  536870932) /* SoundTable */
-     , (53025,   8,  100667499) /* Icon */
-     , (53025, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53025, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53025, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (53025,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53025, 8040, 1500184844, 110, -150, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B010C [110.000000 -150.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53025, 8000, 3694525362) /* PCAPRecordedObjectIID */;

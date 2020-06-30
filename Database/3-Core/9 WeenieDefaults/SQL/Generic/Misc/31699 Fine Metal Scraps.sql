@@ -8,8 +8,7 @@ VALUES (31699,   1,        128) /* ItemType - Misc */
      , (31699,   5,        500) /* EncumbranceVal */
      , (31699,  16,          1) /* ItemUseable - No */
      , (31699,  19,        100) /* Value */
-     , (31699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31699, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31699,   1, 'Fine Metal Scraps') /* Name */;
@@ -18,10 +17,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31699,   1,   33554817) /* Setup */
      , (31699,   3,  536870932) /* SoundTable */
      , (31699,   8,  100687785) /* Icon */
-     , (31699,  22,  872415275) /* PhysicsEffectTable */
-     , (31699, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (31699, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31699, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31699, 8000, 3696766728) /* PCAPRecordedObjectIID */;
+     , (31699,  22,  872415275) /* PhysicsEffectTable */;

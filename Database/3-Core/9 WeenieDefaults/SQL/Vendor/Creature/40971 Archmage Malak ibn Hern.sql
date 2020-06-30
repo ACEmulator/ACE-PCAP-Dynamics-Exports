@@ -17,8 +17,7 @@ VALUES (40971,   1,         16) /* ItemType - Creature */
      , (40971, 113,          1) /* Gender - Male */
      , (40971, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (40971, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (40971, 188,          2) /* HeritageGroup - Gharundim */
-     , (40971, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40971, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40971,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (40971,  37,    0.95) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40971,   1, 'Archmage Malak ibn Hern') /* Name */
-     , (40971,   5, 'Archmage') /* Template */
-     , (40971, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (40971,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40971,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (40971,   1,   33554433) /* Setup */
      , (40971,  11,   83890604) /* MouthTexture */
      , (40971,  15,   67116998) /* HairPalette */
      , (40971,  16,   67110063) /* EyesPalette */
-     , (40971,  17,   67109551) /* SkinPalette */
-     , (40971, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (40971, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (40971, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (40971,  17,   67109551) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40971, 8040, 2281964534, 40.3219, -113.269, 0.004999995, -0.967177, 0, 0, -0.2541038) /* PCAPRecordedLocation */
 /* @teleloc 0x880403F6 [40.321900 -113.269000 0.005000] -0.967177 0.000000 0.000000 -0.254104 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40971, 8000, 2021671044) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40971,   1,  60, 0, 0) /* Strength */
@@ -192,49 +184,3 @@ VALUES (40971, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (40971, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (40971, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
      , (40971, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40971, 67109551, 0, 24)
-     , (40971, 67110007, 96, 12)
-     , (40971, 67110063, 32, 8)
-     , (40971, 67110361, 80, 12)
-     , (40971, 67110361, 116, 12)
-     , (40971, 67112694, 40, 40)
-     , (40971, 67116998, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40971, 0, 83892345, 83892353)
-     , (40971, 0, 83892344, 83892353)
-     , (40971, 1, 83892352, 83892352)
-     , (40971, 2, 83892351, 83892351)
-     , (40971, 5, 83892352, 83892352)
-     , (40971, 6, 83892351, 83892351)
-     , (40971, 9, 83887061, 83892357)
-     , (40971, 9, 83887060, 83892356)
-     , (40971, 10, 83892347, 83892355)
-     , (40971, 11, 83892346, 83892354)
-     , (40971, 13, 83892347, 83892355)
-     , (40971, 14, 83892346, 83892354)
-     , (40971, 16, 83886232, 83890685)
-     , (40971, 16, 83886668, 83890484)
-     , (40971, 16, 83886837, 83890530)
-     , (40971, 16, 83886684, 83890604);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40971, 0, 16783894)
-     , (40971, 1, 16783912)
-     , (40971, 2, 16783918)
-     , (40971, 3, 16777292)
-     , (40971, 4, 16777291)
-     , (40971, 5, 16783916)
-     , (40971, 6, 16783920)
-     , (40971, 7, 16777296)
-     , (40971, 8, 16777298)
-     , (40971, 9, 16781837)
-     , (40971, 10, 16783863)
-     , (40971, 11, 16783853)
-     , (40971, 12, 16777304)
-     , (40971, 13, 16783871)
-     , (40971, 14, 16783855)
-     , (40971, 15, 16777307)
-     , (40971, 16, 16795675);

@@ -12,8 +12,7 @@ VALUES (22809,   1,         16) /* ItemType - Creature */
      , (22809,  25,         50) /* Level */
      , (22809,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22809, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22809, 307,          5) /* DamageRating */
-     , (22809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22809, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22809,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22809,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22809,   1, 'Banderling Bandit') /* Name */
-     , (22809, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22809,   1, 'Banderling Bandit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22809,   1,   33558024) /* Setup */
@@ -31,17 +29,11 @@ VALUES (22809,   1,   33558024) /* Setup */
      , (22809,   3,  536870917) /* SoundTable */
      , (22809,   6,   67114021) /* PaletteBase */
      , (22809,   8,  100667453) /* Icon */
-     , (22809,  22,  872415255) /* PhysicsEffectTable */
-     , (22809, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22809, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22809, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22809,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22809, 8040, 2457927698, 70.85019, 31.19831, 40.00715, 0.6261344, 0, 0, -0.7797152) /* PCAPRecordedLocation */
 /* @teleloc 0x92810012 [70.850190 31.198310 40.007150] 0.626134 0.000000 0.000000 -0.779715 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22809, 8000, 3685897288) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22809,   1, 180, 0, 0) /* Strength */
@@ -232,6 +224,3 @@ VALUES (22809, 2, 47481,  1, 0, 0, False) /* Create Flaming Mace (47481) for Wie
      , (22809, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
      , (22809, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
      , (22809, 9, 40705,  0, 0, 0, False) /* Create Covenant Sollerets (40705) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22809, 67114033, 0, 0);

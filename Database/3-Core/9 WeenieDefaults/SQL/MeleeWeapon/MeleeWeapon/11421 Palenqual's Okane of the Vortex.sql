@@ -27,9 +27,7 @@ VALUES (11421,   1,          1) /* ItemType - MeleeWeapon */
      , (11421, 158,          2) /* WieldRequirements - RawSkill */
      , (11421, 159,         45) /* WieldSkillType - LightWeapons */
      , (11421, 160,        250) /* WieldDifficulty */
-     , (11421, 353,          6) /* WeaponType - Dagger */
-     , (11421, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (11421, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11421, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11421,  22, True ) /* Inscribable */
@@ -56,13 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11421,   1,   33557234) /* Setup */
      , (11421,   3,  536870932) /* SoundTable */
      , (11421,   8,  100672078) /* Icon */
-     , (11421,  22,  872415275) /* PhysicsEffectTable */
-     , (11421, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (11421, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11421, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11421, 8000, 3231495971) /* PCAPRecordedObjectIID */;
+     , (11421,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11421,  2438,      2) 
@@ -74,11 +66,3 @@ VALUES (11421,  2438,      2)
      , (11421,  2457,      2) 
      , (11421,  2472,      2) 
      , (11421,  2475,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11421, 0, 83893670, 83893670)
-     , (11421, 0, 83893669, 83893668)
-     , (11421, 0, 83893668, 83893669);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11421, 0, 16787112);

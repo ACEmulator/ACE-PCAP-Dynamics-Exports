@@ -15,8 +15,7 @@ VALUES (32053,   1,         16) /* ItemType - Creature */
      , (32053,  76,    1000000) /* MerchandiseMaxValue */
      , (32053,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (32053, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (32053, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32053, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32053, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32053,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (32053,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32053,   1, 'Healer Hargurg') /* Name */
-     , (32053,   5, 'Healer') /* Template */
-     , (32053, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (32053,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32053,   1,   33554490) /* Setup */
      , (32053,   2,  150994953) /* MotionTable */
      , (32053,   3,  536870959) /* SoundTable */
      , (32053,   6,   67109310) /* PaletteBase */
-     , (32053,   8,  100667449) /* Icon */
-     , (32053, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (32053, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (32053, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (32053,   8,  100667449) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32053, 8040, 3387097349, 80.1648, 61.9063, 14.27241, -0.6941089, 0, 0, -0.71987) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30105 [80.164800 61.906300 14.272410] -0.694109 0.000000 0.000000 -0.719870 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32053, 8000, 2090741765) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32053,   1,  20, 0, 0) /* Strength */
@@ -86,6 +78,3 @@ VALUES (32053, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (32053, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (32053, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (32053, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32053, 67113355, 0, 0);

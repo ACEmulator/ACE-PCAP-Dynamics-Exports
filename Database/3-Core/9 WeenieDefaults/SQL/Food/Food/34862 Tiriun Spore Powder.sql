@@ -12,8 +12,7 @@ VALUES (34862,   1,         32) /* ItemType - Food */
      , (34862,  15,         50) /* StackUnitValue */
      , (34862,  16,          8) /* ItemUseable - Contained */
      , (34862,  19,         50) /* Value */
-     , (34862,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34862, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34862,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34862,   1, 'Tiriun Spore Powder') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34862,   1,   33558400) /* Setup */
      , (34862,   3,  536870932) /* SoundTable */
      , (34862,   8,  100689330) /* Icon */
-     , (34862,  22,  872415275) /* PhysicsEffectTable */
-     , (34862, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (34862, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (34862, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34862, 8000, 2147969569) /* PCAPRecordedObjectIID */;
+     , (34862,  22,  872415275) /* PhysicsEffectTable */;

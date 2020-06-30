@@ -20,8 +20,7 @@ VALUES (39107,   1,         32) /* ItemType - Food */
      , (39107, 108,         50) /* ItemMaxMana */
      , (39107, 109,          0) /* ItemDifficulty */
      , (39107, 110,          0) /* ItemAllegianceRankLimit */
-     , (39107, 151,          9) /* HookType - Floor, Yard */
-     , (39107, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39107, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39107,  22, True ) /* Inscribable */
@@ -41,16 +40,7 @@ VALUES (39107,   1,   33560400) /* Setup */
      , (39107,   6,   67115354) /* PaletteBase */
      , (39107,   8,  100689667) /* Icon */
      , (39107,  22,  872415275) /* PhysicsEffectTable */
-     , (39107,  28,       4212) /* Spell - StickyMelee */
-     , (39107, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (39107, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39107, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39107, 8000, 2173386302) /* PCAPRecordedObjectIID */;
+     , (39107,  28,       4212) /* Spell - StickyMelee */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39107,  4212,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39107, 67116829, 0, 0);

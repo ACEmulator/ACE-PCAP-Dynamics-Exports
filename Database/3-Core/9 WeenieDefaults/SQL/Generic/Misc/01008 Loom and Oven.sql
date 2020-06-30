@@ -19,20 +19,8 @@ VALUES (1008,   1, 'Loom and Oven') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1008,   1,   33555909) /* Setup */
-     , (1008,   8,  100668115) /* Icon */
-     , (1008, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (1008, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1008, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (1008,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1008, 8040, 2156920855, 48.2031, 157.236, 127.47, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x80900017 [48.203100 157.236000 127.470000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1008, 8000, 2013855766) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1008, 0, 83892071, 83892187);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1008, 0, 16783205);

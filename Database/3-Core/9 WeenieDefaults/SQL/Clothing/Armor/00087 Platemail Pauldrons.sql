@@ -22,8 +22,7 @@ VALUES (87,   1,          2) /* ItemType - Armor */
      , (87, 115,        270) /* ItemSkillLevelLimit */
      , (87, 131,         57) /* MaterialType - Brass */
      , (87, 172,          1) /* AppraisalLongDescDecoration */
-     , (87, 176,          6) /* AppraisalItemSkill */
-     , (87, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (87, 176,          6) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (87,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (87,   5,   -0.05) /* ManaRate */
      , (87,  18,     0.6) /* ArmorModVsAcid */
      , (87,  19,     0.4) /* ArmorModVsElectric */
      , (87,  39,     1.1) /* DefaultScale */
-     , (87, 165,       1) /* ArmorModVsNether */
-     , (87, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (87, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (87,   1, 'Platemail Pauldrons') /* Name */
@@ -51,27 +49,12 @@ VALUES (87,   1,   33554641) /* Setup */
      , (87,   3,  536870932) /* SoundTable */
      , (87,   6,   67108990) /* PaletteBase */
      , (87,   8,  100669539) /* Icon */
-     , (87,  22,  872415275) /* PhysicsEffectTable */
-     , (87, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (87, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (87, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (87,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (87, 8040, 3060727837, 93.86344, 103.1067, 42.77241, 0.3562889, 0, 0, -0.9343758) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F001D [93.863440 103.106700 42.772410] 0.356289 0.000000 0.000000 -0.934376 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (87, 8000, 3701969134) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (87,  1485,      2) 
      , (87,  1498,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (87, 67109943, 116, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (87, 0, 83886788, 83886790);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (87, 0, 16778411);

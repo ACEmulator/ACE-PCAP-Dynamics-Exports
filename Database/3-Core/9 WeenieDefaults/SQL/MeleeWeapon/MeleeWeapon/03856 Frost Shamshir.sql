@@ -28,9 +28,7 @@ VALUES (3856,   1,          1) /* ItemType - MeleeWeapon */
      , (3856, 151,          2) /* HookType - Wall */
      , (3856, 172,          1) /* AppraisalLongDescDecoration */
      , (3856, 176,         45) /* AppraisalItemSkill */
-     , (3856, 353,          2) /* WeaponType - Sword */
-     , (3856, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3856, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3856, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3856,  22, True ) /* Inscribable */;
@@ -44,8 +42,7 @@ VALUES (3856,   5,  -0.017) /* ManaRate */
      , (3856,  39,     1.1) /* DefaultScale */
      , (3856,  62,    1.04) /* WeaponOffense */
      , (3856,  63,       1) /* DamageMod */
-     , (3856, 150,    1.02) /* WeaponMagicDefense */
-     , (3856, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (3856, 150,    1.02) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3856,   1, 'Frost Shamshir') /* Name */
@@ -55,13 +52,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3856,   1,   33555774) /* Setup */
      , (3856,   3,  536870932) /* SoundTable */
      , (3856,   8,  100668984) /* Icon */
-     , (3856,  22,  872415275) /* PhysicsEffectTable */
-     , (3856, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3856, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3856, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3856, 8000, 3701004887) /* PCAPRecordedObjectIID */;
+     , (3856,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3856,  1599,      2) 

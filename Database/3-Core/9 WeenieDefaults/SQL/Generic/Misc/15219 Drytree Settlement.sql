@@ -18,14 +18,8 @@ VALUES (15219,   1, 'Drytree Settlement') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15219,   1,   33557463) /* Setup */
-     , (15219,   8,  100668115) /* Icon */
-     , (15219, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15219, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15219, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15219,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15219, 8040, 2725511204, 108.002, 84.0991, 38, 0.720712, 0, 0, -0.693235) /* PCAPRecordedLocation */
 /* @teleloc 0xA2740024 [108.002000 84.099100 38.000000] 0.720712 0.000000 0.000000 -0.693235 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15219, 8000, 2049393126) /* PCAPRecordedObjectIID */;

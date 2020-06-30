@@ -17,8 +17,7 @@ VALUES (800,   1,         16) /* ItemType - Creature */
      , (800, 113,          1) /* Gender - Male */
      , (800, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (800, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (800, 188,          3) /* HeritageGroup - Sho */
-     , (800, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (800, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (800,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (800,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (800,   1, 'Healer Tonsho Ha') /* Name */
-     , (800,   5, 'Healer') /* Template */
-     , (800, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (800,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (800,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (800,   1,   33554433) /* Setup */
      , (800,  11,   83890578) /* MouthTexture */
      , (800,  15,   67117021) /* HairPalette */
      , (800,  16,   67109565) /* EyesPalette */
-     , (800,  17,   67110047) /* SkinPalette */
-     , (800, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (800, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (800, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (800,  17,   67110047) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (800, 8040, 3845259554, 150.72, 9.84005, 26.805, 0.6755897, 0, 0, -0.7372777) /* PCAPRecordedLocation */
 /* @teleloc 0xE5320122 [150.720000 9.840050 26.805000] 0.675590 0.000000 0.000000 -0.737278 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (800, 8000, 2119376908) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (800,   1,  70, 0, 0) /* Strength */
@@ -98,51 +90,3 @@ VALUES (800, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop
      , (800, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
      , (800, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (800, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (800, 67109565, 32, 8)
-     , (800, 67110047, 0, 24)
-     , (800, 67110331, 40, 24)
-     , (800, 67110349, 64, 8)
-     , (800, 67110349, 160, 8)
-     , (800, 67110349, 250, 6)
-     , (800, 67110376, 216, 24)
-     , (800, 67110539, 72, 8)
-     , (800, 67110551, 92, 4)
-     , (800, 67117021, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (800, 0, 83889072, 83890012)
-     , (800, 0, 83889342, 83890011)
-     , (800, 1, 83887064, 83886241)
-     , (800, 3, 83889344, 83887054)
-     , (800, 4, 83887068, 83887054)
-     , (800, 5, 83887064, 83886241)
-     , (800, 7, 83889344, 83887054)
-     , (800, 8, 83887068, 83887054)
-     , (800, 9, 83887061, 83890009)
-     , (800, 9, 83887060, 83890010)
-     , (800, 16, 83886232, 83890685)
-     , (800, 16, 83886668, 83890487)
-     , (800, 16, 83886837, 83890547)
-     , (800, 16, 83886684, 83890578)
-     , (800, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (800, 0, 16781835)
-     , (800, 1, 16777295)
-     , (800, 2, 16777293)
-     , (800, 3, 16777292)
-     , (800, 4, 16777291)
-     , (800, 5, 16777299)
-     , (800, 6, 16777297)
-     , (800, 7, 16777296)
-     , (800, 8, 16777298)
-     , (800, 9, 16777300)
-     , (800, 10, 16777301)
-     , (800, 11, 16777302)
-     , (800, 12, 16777304)
-     , (800, 13, 16777303)
-     , (800, 14, 16777305)
-     , (800, 15, 16777307)
-     , (800, 16, 16779630);

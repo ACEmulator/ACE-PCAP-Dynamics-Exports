@@ -32,11 +32,4 @@ VALUES (29108,   1,   33559128) /* Setup */
      , (29108,   8,  100686437) /* Icon */
      , (29108,  22,  872415275) /* PhysicsEffectTable */
      , (29108,  50,  100687554) /* IconOverlay */
-     , (29108,  52,  100687547) /* IconUnderlay */
-     , (29108, 8001, 1075867801) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (29108, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29108, 8003,   67141648) /* PCAPRecordedObjectDesc - Attackable, Food, IncludesSecondHeader */
-     , (29108, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29108, 8000, 2779733266) /* PCAPRecordedObjectIID */;
+     , (29108,  52,  100687547) /* IconUnderlay */;

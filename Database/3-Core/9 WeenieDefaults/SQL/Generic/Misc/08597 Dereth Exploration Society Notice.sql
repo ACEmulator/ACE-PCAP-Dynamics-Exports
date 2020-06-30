@@ -8,8 +8,7 @@ VALUES (8597,   1,        128) /* ItemType - Misc */
      , (8597,   5,       9000) /* EncumbranceVal */
      , (8597,  16,          1) /* ItemUseable - No */
      , (8597,  19,        125) /* Value */
-     , (8597,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (8597, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8597,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8597,   1, True ) /* Stuck */;
@@ -20,14 +19,8 @@ VALUES (8597,   1, 'Dereth Exploration Society Notice') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8597,   1,   33555088) /* Setup */
-     , (8597,   8,  100668115) /* Icon */
-     , (8597, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (8597, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8597, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (8597,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8597, 8040, 3218210857, 127.4, 17.546, 306.3167, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xBFD20029 [127.400000 17.546000 306.316700] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8597, 8000, 2080186371) /* PCAPRecordedObjectIID */;

@@ -17,8 +17,7 @@ VALUES (23774,   1,      32768) /* ItemType - Caster */
      , (23774, 108,       1000) /* ItemMaxMana */
      , (23774, 109,         50) /* ItemDifficulty */
      , (23774, 117,         75) /* ItemManaCost */
-     , (23774, 151,          2) /* HookType - Wall */
-     , (23774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23774, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23774,  22, True ) /* Inscribable */;
@@ -37,13 +36,7 @@ VALUES (23774,   1,   33558217) /* Setup */
      , (23774,   3,  536870932) /* SoundTable */
      , (23774,   8,  100671129) /* Icon */
      , (23774,  22,  872415275) /* PhysicsEffectTable */
-     , (23774,  28,       1679) /* Spell - StaminaToManaSelf4 */
-     , (23774, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (23774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23774, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23774, 8000, 2186220443) /* PCAPRecordedObjectIID */;
+     , (23774,  28,       1679) /* Spell - StaminaToManaSelf4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23774,  1679,      2) ;

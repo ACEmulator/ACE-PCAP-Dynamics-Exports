@@ -18,8 +18,7 @@ VALUES (24220,   1,         16) /* ItemType - Creature */
      , (24220, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24220, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (24220, 188,          3) /* HeritageGroup - Sho */
-     , (24220, 307,          5) /* DamageRating */
-     , (24220, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24220, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24220,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (24220,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24220,   1, 'Pang Sin-Xiang the Weaponsmith') /* Name */
-     , (24220,   5, 'Weaponsmith') /* Template */
-     , (24220, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24220,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24220,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (24220,   1,   33554433) /* Setup */
      , (24220,  11,   83890577) /* MouthTexture */
      , (24220,  15,   67117025) /* HairPalette */
      , (24220,  16,   67110062) /* EyesPalette */
-     , (24220,  17,   67110053) /* SkinPalette */
-     , (24220, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24220, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24220, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (24220,  17,   67110053) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24220, 8040, 1060241698, 14.5516, 16.138, 2.005, -0.353862, 0, 0, -0.9352977) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320122 [14.551600 16.138000 2.005000] -0.353862 0.000000 0.000000 -0.935298 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24220, 8000, 1945313307) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24220,   1, 140, 0, 0) /* Strength */
@@ -93,52 +85,3 @@ VALUES (24220, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (24220, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24220, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (24220, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24220, 67109964, 92, 4)
-     , (24220, 67110020, 72, 8)
-     , (24220, 67110053, 0, 24)
-     , (24220, 67110062, 32, 8)
-     , (24220, 67110349, 160, 8)
-     , (24220, 67110356, 40, 24)
-     , (24220, 67111304, 64, 8)
-     , (24220, 67117025, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24220, 0, 83889072, 83886685)
-     , (24220, 0, 83889342, 83889386)
-     , (24220, 1, 83887064, 83886241)
-     , (24220, 3, 83889344, 83887054)
-     , (24220, 4, 83887068, 83887054)
-     , (24220, 5, 83887064, 83886241)
-     , (24220, 7, 83889344, 83887054)
-     , (24220, 8, 83887068, 83887054)
-     , (24220, 9, 83887061, 83886687)
-     , (24220, 9, 83887060, 83886686)
-     , (24220, 10, 83887069, 83886782)
-     , (24220, 11, 83887067, 83891213)
-     , (24220, 13, 83887069, 83886782)
-     , (24220, 14, 83887067, 83891213)
-     , (24220, 16, 83886232, 83890685)
-     , (24220, 16, 83886668, 83890454)
-     , (24220, 16, 83886837, 83890522)
-     , (24220, 16, 83886684, 83890577);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24220, 0, 16777294)
-     , (24220, 1, 16777295)
-     , (24220, 2, 16777293)
-     , (24220, 3, 16777292)
-     , (24220, 4, 16777291)
-     , (24220, 5, 16777299)
-     , (24220, 6, 16777297)
-     , (24220, 7, 16777296)
-     , (24220, 8, 16777298)
-     , (24220, 9, 16777300)
-     , (24220, 10, 16777301)
-     , (24220, 11, 16777302)
-     , (24220, 12, 16777304)
-     , (24220, 13, 16777303)
-     , (24220, 14, 16777305)
-     , (24220, 15, 16777307)
-     , (24220, 16, 16795675);

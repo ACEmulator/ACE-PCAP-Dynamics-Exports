@@ -24,9 +24,7 @@ VALUES (45117,   1,          1) /* ItemType - MeleeWeapon */
      , (45117, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45117, 160,        250) /* WieldDifficulty */
      , (45117, 172,          1) /* AppraisalLongDescDecoration */
-     , (45117, 353,          3) /* WeaponType - Axe */
-     , (45117, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45117, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45117, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45117,  22, True ) /* Inscribable */;
@@ -37,8 +35,7 @@ VALUES (45117,  21,       0) /* WeaponLength */
      , (45117,  26,       0) /* MaximumVelocity */
      , (45117,  29,    1.01) /* WeaponDefense */
      , (45117,  62,    1.06) /* WeaponOffense */
-     , (45117,  63,       1) /* DamageMod */
-     , (45117, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (45117,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45117,   1, 'Frost Hammer') /* Name */
@@ -49,11 +46,4 @@ VALUES (45117,   1,   33555826) /* Setup */
      , (45117,   3,  536870932) /* SoundTable */
      , (45117,   8,  100669074) /* Icon */
      , (45117,  22,  872415275) /* PhysicsEffectTable */
-     , (45117,  52,  100676435) /* IconUnderlay */
-     , (45117, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45117, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45117, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45117, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45117, 8000, 2174243373) /* PCAPRecordedObjectIID */;
+     , (45117,  52,  100676435) /* IconUnderlay */;

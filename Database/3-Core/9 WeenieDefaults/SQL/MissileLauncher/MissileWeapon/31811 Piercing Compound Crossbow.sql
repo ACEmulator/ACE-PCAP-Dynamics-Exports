@@ -34,9 +34,7 @@ VALUES (31811,   1,        256) /* ItemType - MissileWeapon */
      , (31811, 177,          3) /* GemCount */
      , (31811, 178,         20) /* GemType */
      , (31811, 204,          5) /* ElementalDamageBonus */
-     , (31811, 353,          9) /* WeaponType - Crossbow */
-     , (31811, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31811, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31811, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31811,  22, True ) /* Inscribable */;
@@ -50,8 +48,7 @@ VALUES (31811,   5,  -0.056) /* ManaRate */
      , (31811,  39,    1.25) /* DefaultScale */
      , (31811,  62,       1) /* WeaponOffense */
      , (31811,  63,    2.65) /* DamageMod */
-     , (31811, 149,   1.015) /* WeaponMissileDefense */
-     , (31811, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31811, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31811,   1, 'Piercing Compound Crossbow') /* Name */
@@ -62,13 +59,7 @@ VALUES (31811,   1,   33559693) /* Setup */
      , (31811,   3,  536870932) /* SoundTable */
      , (31811,   6,   67116700) /* PaletteBase */
      , (31811,   8,  100688061) /* Icon */
-     , (31811,  22,  872415275) /* PhysicsEffectTable */
-     , (31811, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31811, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31811, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31811, 8000, 3324895840) /* PCAPRecordedObjectIID */;
+     , (31811,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31811,  1616,      2) 
@@ -76,14 +67,3 @@ VALUES (31811,  1616,      2)
      , (31811,  2061,      2) 
      , (31811,  2101,      2) 
      , (31811,  2588,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31811, 67116700, 1, 100)
-     , (31811, 67116706, 201, 55)
-     , (31811, 67116709, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31811, 0, 83897331, 83897331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31811, 0, 16792607);

@@ -17,8 +17,7 @@ VALUES (22723,   1,         16) /* ItemType - Creature */
      , (22723, 113,          2) /* Gender - Female */
      , (22723, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22723, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (22723, 188,          3) /* HeritageGroup - Sho */
-     , (22723, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22723, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22723,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (22723,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22723,   1, 'Bowyer') /* Name */
-     , (22723,   5, 'Bowyer') /* Template */
-     , (22723, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (22723,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22723,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (22723,   1,   33554510) /* Setup */
      , (22723,  11,   83890355) /* MouthTexture */
      , (22723,  15,   67117075) /* HairPalette */
      , (22723,  16,   67109565) /* EyesPalette */
-     , (22723,  17,   67110052) /* SkinPalette */
-     , (22723, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (22723, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (22723, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (22723,  17,   67110052) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22723, 8040, 4135715074, 175.901, 77.09, 63.605, 0.7180926, 0, 0, -0.6959476) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820102 [175.901000 77.090000 63.605000] 0.718093 0.000000 0.000000 -0.695948 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22723, 8000, 2137530378) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22723,   1,  60, 0, 0) /* Strength */
@@ -110,39 +102,3 @@ VALUES (22723, 4,   307, -1, 0, 0, False) /* Create Shortbow (307) for Shop */
      , (22723, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (22723, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (22723, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22723, 67109565, 32, 8)
-     , (22723, 67110052, 0, 24)
-     , (22723, 67113214, 80, 12)
-     , (22723, 67113214, 72, 8)
-     , (22723, 67117075, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22723, 0, 83889072, 83893326)
-     , (22723, 0, 83889342, 83893326)
-     , (22723, 1, 83892352, 83893327)
-     , (22723, 5, 83892352, 83893327)
-     , (22723, 16, 83886232, 83890685)
-     , (22723, 16, 83886668, 83890241)
-     , (22723, 16, 83886837, 83890297)
-     , (22723, 16, 83886684, 83890355);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22723, 0, 16778359)
-     , (22723, 1, 16783912)
-     , (22723, 2, 16778436)
-     , (22723, 3, 16778361)
-     , (22723, 4, 16778426)
-     , (22723, 5, 16783916)
-     , (22723, 6, 16778437)
-     , (22723, 7, 16778360)
-     , (22723, 8, 16778428)
-     , (22723, 9, 16778422)
-     , (22723, 10, 16778431)
-     , (22723, 11, 16778429)
-     , (22723, 12, 16778423)
-     , (22723, 13, 16778434)
-     , (22723, 14, 16778424)
-     , (22723, 15, 16778435)
-     , (22723, 16, 16795650);

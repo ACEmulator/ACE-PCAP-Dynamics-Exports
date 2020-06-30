@@ -22,8 +22,7 @@ VALUES (21911,   1,      32768) /* ItemType - Caster */
      , (21911, 158,          8) /* WieldRequirements - Training */
      , (21911, 159,         34) /* WieldSkillType - WarMagic */
      , (21911, 160,          2) /* WieldDifficulty */
-     , (21911, 166,          1) /* SlayerCreatureType - Olthoi */
-     , (21911, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (21911, 166,          1) /* SlayerCreatureType - Olthoi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21911,  22, True ) /* Inscribable */
@@ -44,19 +43,11 @@ VALUES (21911,   1,   33557963) /* Setup */
      , (21911,   6,   67111919) /* PaletteBase */
      , (21911,   8,  100673490) /* Icon */
      , (21911,  22,  872415275) /* PhysicsEffectTable */
-     , (21911,  28,       2782) /* Spell - LesserElementalFuryFlame */
-     , (21911, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (21911, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21911, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (21911, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (21911,  28,       2782) /* Spell - LesserElementalFuryFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21911, 8040, 3599958021, 18.46, 113.644, -0.171, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD6930005 [18.460000 113.644000 -0.171000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21911, 8000, 3705181697) /* PCAPRecordedObjectIID */
-     , (21911, 8008, 1343385741) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21911,   640,      2) 
@@ -65,13 +56,3 @@ VALUES (21911,   640,      2)
      , (21911,  2584,      2) 
      , (21911,  2782,      2) 
      , (21911,  2812,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21911, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21911, 0, 83894279, 83894279)
-     , (21911, 0, 83894277, 83894277);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21911, 0, 16788368);

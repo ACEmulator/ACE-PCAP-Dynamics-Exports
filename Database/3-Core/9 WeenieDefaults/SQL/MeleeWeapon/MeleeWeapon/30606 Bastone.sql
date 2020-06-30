@@ -33,9 +33,7 @@ VALUES (30606,   1,          1) /* ItemType - MeleeWeapon */
      , (30606, 176,         46) /* AppraisalItemSkill */
      , (30606, 177,          2) /* GemCount */
      , (30606, 178,         38) /* GemType */
-     , (30606, 353,          7) /* WeaponType - Staff */
-     , (30606, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30606, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30606, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30606,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (30606,   5,  -0.056) /* ManaRate */
      , (30606,  26,       0) /* MaximumVelocity */
      , (30606,  29,    1.17) /* WeaponDefense */
      , (30606,  62,    1.06) /* WeaponOffense */
-     , (30606,  63,       1) /* DamageMod */
-     , (30606, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (30606,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30606,   1, 'Bastone') /* Name */
@@ -59,25 +56,10 @@ VALUES (30606,   1,   33559493) /* Setup */
      , (30606,   3,  536870932) /* SoundTable */
      , (30606,   6,   67116428) /* PaletteBase */
      , (30606,   8,  100687025) /* Icon */
-     , (30606,  22,  872415275) /* PhysicsEffectTable */
-     , (30606, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30606, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30606, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30606, 8000, 3697986667) /* PCAPRecordedObjectIID */;
+     , (30606,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30606,  1354,      2) 
      , (30606,  1616,      2) 
      , (30606,  2544,      2) 
      , (30606,  2552,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30606, 67116438, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30606, 0, 83897173, 83897173);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30606, 0, 16792138);

@@ -11,8 +11,7 @@ VALUES (48743,   1,        512) /* ItemType - Container */
      , (48743,  16,         48) /* ItemUseable - ViewedRemote */
      , (48743,  19,       2500) /* Value */
      , (48743,  38,       9999) /* ResistLockpick */
-     , (48743,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (48743, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (48743,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48743,   1, True ) /* Stuck */
@@ -28,25 +27,18 @@ VALUES (48743,  39,     1.1) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48743,   1, 'Legendary Chest') /* Name */
      , (48743,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (48743,  16, 'A chest containing the highest quality items. ') /* LongDesc */
-     , (48743, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (48743,  16, 'A chest containing the highest quality items. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48743,   1,   33558324) /* Setup */
      , (48743,   2,  150995235) /* MotionTable */
      , (48743,   3,  536870945) /* SoundTable */
      , (48743,   8,  100674256) /* Icon */
-     , (48743,  22,  872415275) /* PhysicsEffectTable */
-     , (48743, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (48743, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (48743, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (48743,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48743, 8040, 3332964388, 107.553, 92.8885, 42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90024 [107.553000 92.888500 42.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48743, 8000, 2087358615) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48743, -1, 44857, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Quartered Cloak (44857) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

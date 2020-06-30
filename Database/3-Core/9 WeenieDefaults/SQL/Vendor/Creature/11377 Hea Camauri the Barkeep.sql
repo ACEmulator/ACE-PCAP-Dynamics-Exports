@@ -15,8 +15,7 @@ VALUES (11377,   1,         16) /* ItemType - Creature */
      , (11377,  76,     100000) /* MerchandiseMaxValue */
      , (11377,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11377, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11377, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11377, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11377, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11377,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (11377,  37,     0.9) /* BuyPrice */
      , (11377,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11377,   1, 'Hea Camauri the Barkeep') /* Name */
-     , (11377, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11377,   1, 'Hea Camauri the Barkeep') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11377,   1,   33559553) /* Setup */
      , (11377,   2,  150994954) /* MotionTable */
      , (11377,   3,  536870931) /* SoundTable */
      , (11377,   6,   67116625) /* PaletteBase */
-     , (11377,   8,  100667452) /* Icon */
-     , (11377, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11377, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11377, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (11377,   8,  100667452) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11377, 8040, 247070976, 130.782, 62.7715, 1.705, -0.8657851, 0, 0, -0.500416) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA0100 [130.782000 62.771500 1.705000] -0.865785 0.000000 0.000000 -0.500416 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11377, 8000, 1894490118) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11377,   1,  80, 0, 0) /* Strength */
@@ -89,11 +81,3 @@ VALUES (11377, 4,  2464, -1, 0, 0, False) /* Create Orange Juice (2464) for Shop
      , (11377, 4, 27607, -1, 0, 0, False) /* Create The Children of Wharu (27607) for Shop */
      , (11377, 4, 27608, -1, 0, 0, False) /* Create The Aun Menhir Rings (27608) for Shop */
      , (11377, 4, 27609, -1, 0, 0, False) /* Create Wharu (27609) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11377, 67116625, 57, 48)
-     , (11377, 67116625, 105, 48)
-     , (11377, 67116625, 153, 47)
-     , (11377, 67116625, 200, 8)
-     , (11377, 67116625, 208, 48)
-     , (11377, 67116650, 1, 48);

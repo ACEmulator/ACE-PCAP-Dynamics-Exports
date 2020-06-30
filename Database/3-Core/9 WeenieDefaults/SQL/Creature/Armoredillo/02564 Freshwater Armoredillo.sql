@@ -11,15 +11,13 @@ VALUES (2564,   1,         16) /* ItemType - Creature */
      , (2564,  16,          1) /* ItemUseable - No */
      , (2564,  25,         30) /* Level */
      , (2564,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (2564, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (2564, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2564, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2564,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2564,   1, 'Freshwater Armoredillo') /* Name */
-     , (2564, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (2564,   1, 'Freshwater Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2564,   1,   33554436) /* Setup */
@@ -27,17 +25,11 @@ VALUES (2564,   1,   33554436) /* Setup */
      , (2564,   3,  536870915) /* SoundTable */
      , (2564,   6,   67109301) /* PaletteBase */
      , (2564,   8,  100667935) /* Icon */
-     , (2564,  22,  872415253) /* PhysicsEffectTable */
-     , (2564, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (2564, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (2564, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (2564,  22,  872415253) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2564, 8040, 2240348197, 96.50871, 101.4993, 100.7999, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0x85890025 [96.508710 101.499300 100.799900] 0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2564, 8000, 3692404190) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2564,   1, 130, 0, 0) /* Strength */
@@ -74,6 +66,3 @@ VALUES (2564, 9, 49345,  0, 0, 0, False) /* Create Lightning Moar Essence (50) (
      , (2564, 9,  3913,  0, 0, 0, False) /* Create Acid Yari (3913) for ContainTreasure */
      , (2564, 9,  2979,  0, 0, 0, False) /* Create Scroll of Acid Protection Self III (2979) for ContainTreasure */
      , (2564, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2564, 67115918, 0, 0);

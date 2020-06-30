@@ -12,8 +12,7 @@ VALUES (14764,   1,         32) /* ItemType - Food */
      , (14764,  15,         20) /* StackUnitValue */
      , (14764,  16,          8) /* ItemUseable - Contained */
      , (14764,  19,         20) /* Value */
-     , (14764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14764, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14764,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14764,   1, 'Cragstonanoff') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14764,   1,   33554668) /* Setup */
      , (14764,   3,  536870932) /* SoundTable */
      , (14764,   8,  100672545) /* Icon */
-     , (14764,  22,  872415275) /* PhysicsEffectTable */
-     , (14764, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (14764, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (14764, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14764, 8000, 3709850934) /* PCAPRecordedObjectIID */;
+     , (14764,  22,  872415275) /* PhysicsEffectTable */;

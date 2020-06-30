@@ -21,8 +21,7 @@ VALUES (28994,   1,      32768) /* ItemType - Caster */
      , (28994, 158,          2) /* WieldRequirements - RawSkill */
      , (28994, 159,         16) /* WieldSkillType - ManaConversion */
      , (28994, 160,        240) /* WieldDifficulty */
-     , (28994, 166,         75) /* SlayerCreatureType - Burun */
-     , (28994, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (28994, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28994,  22, True ) /* Inscribable */
@@ -42,19 +41,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28994,   1,   33558929) /* Setup */
      , (28994,   3,  536870932) /* SoundTable */
      , (28994,   8,  100676981) /* Icon */
-     , (28994,  22,  872415275) /* PhysicsEffectTable */
-     , (28994, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
-     , (28994, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28994, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (28994, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (28994,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28994, 8040, 3465871405, 156.2285, 96.3844, 19.93, 0.3238874, 0.3238874, -0.6285673, -0.6285673) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [156.228500 96.384400 19.930000] 0.323887 0.323887 -0.628567 -0.628567 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28994, 8000, 3170461111) /* PCAPRecordedObjectIID */
-     , (28994, 8008, 1343349634) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28994,   248,      2) 

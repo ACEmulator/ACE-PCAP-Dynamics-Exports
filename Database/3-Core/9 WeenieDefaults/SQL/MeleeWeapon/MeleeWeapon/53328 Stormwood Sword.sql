@@ -26,9 +26,7 @@ VALUES (53328,   1,          1) /* ItemType - MeleeWeapon */
      , (53328, 151,          2) /* HookType - Wall */
      , (53328, 158,          2) /* WieldRequirements - RawSkill */
      , (53328, 159,         44) /* WieldSkillType - HeavyWeapons */
-     , (53328, 160,        430) /* WieldDifficulty */
-     , (53328, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (53328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53328, 160,        430) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53328,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (53328,   5,  -0.025) /* ManaRate */
      , (53328,  62,    1.18) /* WeaponOffense */
      , (53328,  63,       1) /* DamageMod */
      , (53328, 149,    1.01) /* WeaponMissileDefense */
-     , (53328, 150,    1.01) /* WeaponMagicDefense */
-     , (53328, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53328, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53328,   1, 'Stormwood Sword') /* Name */
@@ -55,13 +52,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53328,   1,   33561671) /* Setup */
      , (53328,   3,  536870932) /* SoundTable */
      , (53328,   8,  100693342) /* Icon */
-     , (53328,  22,  872415275) /* PhysicsEffectTable */
-     , (53328, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (53328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (53328, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53328, 8000, 3630241497) /* PCAPRecordedObjectIID */;
+     , (53328,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53328,  4395,      2) 

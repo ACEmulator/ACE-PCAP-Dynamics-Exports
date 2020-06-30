@@ -11,8 +11,7 @@ VALUES (4255,   1,         16) /* ItemType - Creature */
      , (4255,  16,          1) /* ItemUseable - No */
      , (4255,  25,         80) /* Level */
      , (4255,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4255, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4255, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4255,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4255,  39,    1.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4255,   1, 'Malus Shreth') /* Name */
-     , (4255, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4255,   1, 'Malus Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4255,   1,   33555879) /* Setup */
@@ -30,17 +28,11 @@ VALUES (4255,   1,   33555879) /* Setup */
      , (4255,   3,  536870986) /* SoundTable */
      , (4255,   6,   67112444) /* PaletteBase */
      , (4255,   8,  100669720) /* Icon */
-     , (4255,  22,  872415333) /* PhysicsEffectTable */
-     , (4255, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4255, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4255, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (4255,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4255, 8040, 2434990131, 164.0033, 69.77699, 71.34792, 0.7372774, 0, 0, -0.6755902) /* PCAPRecordedLocation */
 /* @teleloc 0x91230033 [164.003300 69.776990 71.347920] 0.737277 0.000000 0.000000 -0.675590 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4255, 8000, 3685721182) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4255,   1, 250, 0, 0) /* Strength */
@@ -114,6 +106,3 @@ VALUES (4255, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreas
      , (4255, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
      , (4255, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
      , (4255, 9, 20498,  0, 0, 0, False) /* Create Scroll of Hands of Chorizite (20498) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4255, 67112880, 0, 0);

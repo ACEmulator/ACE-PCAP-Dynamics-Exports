@@ -25,8 +25,7 @@ VALUES (8488,   1,          2) /* ItemType - Armor */
      , (8488, 172,          5) /* AppraisalLongDescDecoration */
      , (8488, 176,          6) /* AppraisalItemSkill */
      , (8488, 177,          2) /* GemCount */
-     , (8488, 178,         16) /* GemType */
-     , (8488, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8488, 178,         16) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8488,  22, True ) /* Inscribable */
@@ -41,8 +40,7 @@ VALUES (8488,   5,   -0.05) /* ManaRate */
      , (8488,  17,     0.4) /* ArmorModVsFire */
      , (8488,  18,     0.6) /* ArmorModVsAcid */
      , (8488,  19,     0.4) /* ArmorModVsElectric */
-     , (8488, 165,       1) /* ArmorModVsNether */
-     , (8488, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (8488, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8488,   1, 'Armet') /* Name */
@@ -53,20 +51,8 @@ VALUES (8488,   1,   33556856) /* Setup */
      , (8488,   3,  536870932) /* SoundTable */
      , (8488,   6,   67108990) /* PaletteBase */
      , (8488,   8,  100671192) /* Icon */
-     , (8488,  22,  872415275) /* PhysicsEffectTable */
-     , (8488, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (8488, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (8488, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8488, 8000, 3690366967) /* PCAPRecordedObjectIID */;
+     , (8488,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8488,   192,      2) 
      , (8488,  1485,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8488, 67110004, 240, 10);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8488, 0, 16785154);

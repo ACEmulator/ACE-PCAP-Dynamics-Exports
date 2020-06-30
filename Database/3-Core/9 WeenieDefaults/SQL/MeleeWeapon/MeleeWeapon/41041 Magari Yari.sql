@@ -25,9 +25,7 @@ VALUES (41041,   1,          1) /* ItemType - MeleeWeapon */
      , (41041, 172,          5) /* AppraisalLongDescDecoration */
      , (41041, 177,          2) /* GemCount */
      , (41041, 178,         26) /* GemType */
-     , (41041, 353,         11) /* WeaponType - TwoHanded */
-     , (41041, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41041, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41041, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41041,  22, True ) /* Inscribable */;
@@ -38,8 +36,7 @@ VALUES (41041,  21,       0) /* WeaponLength */
      , (41041,  26,       0) /* MaximumVelocity */
      , (41041,  29,    1.15) /* WeaponDefense */
      , (41041,  62,    1.08) /* WeaponOffense */
-     , (41041,  63,       1) /* DamageMod */
-     , (41041, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (41041,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41041,   1, 'Magari Yari') /* Name */
@@ -50,20 +47,4 @@ VALUES (41041,   1,   33560795) /* Setup */
      , (41041,   3,  536870932) /* SoundTable */
      , (41041,   6,   67115558) /* PaletteBase */
      , (41041,   8,  100690511) /* Icon */
-     , (41041,  22,  872415275) /* PhysicsEffectTable */
-     , (41041, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41041, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41041, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41041, 8000, 3695125228) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41041, 67116384, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41041, 0, 83896665, 83896665)
-     , (41041, 0, 83896155, 83896155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41041, 0, 16794282);
+     , (41041,  22,  872415275) /* PhysicsEffectTable */;

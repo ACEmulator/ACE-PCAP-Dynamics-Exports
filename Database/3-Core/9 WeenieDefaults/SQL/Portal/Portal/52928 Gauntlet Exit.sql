@@ -21,14 +21,8 @@ VALUES (52928,   1, 'Gauntlet Exit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52928,   1,   33559873) /* Setup */
-     , (52928,   8,  100677070) /* Icon */
-     , (52928, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (52928, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (52928, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (52928,   8,  100677070) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52928, 8040, 1499726100, 80, -45.2399, 0.009999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59640114 [80.000000 -45.239900 0.010000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52928, 8000, 2780801354) /* PCAPRecordedObjectIID */;

@@ -11,8 +11,7 @@ VALUES (37280,   1,        128) /* ItemType - Misc */
      , (37280,  13,          3) /* StackUnitEncumbrance */
      , (37280,  15,          0) /* StackUnitValue */
      , (37280,  16,          1) /* ItemUseable - No */
-     , (37280,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37280, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37280,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37280,   1, 'Three Cards from the Deck of Hands') /* Name */
@@ -22,10 +21,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37280,   1,   33560546) /* Setup */
      , (37280,   3,  536870932) /* SoundTable */
      , (37280,   8,  100689860) /* Icon */
-     , (37280,  22,  872415275) /* PhysicsEffectTable */
-     , (37280, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (37280, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37280, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37280, 8000, 3362974643) /* PCAPRecordedObjectIID */;
+     , (37280,  22,  872415275) /* PhysicsEffectTable */;

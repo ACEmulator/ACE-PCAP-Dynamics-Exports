@@ -17,8 +17,7 @@ VALUES (12243,   1,         16) /* ItemType - Creature */
      , (12243, 113,          1) /* Gender - Male */
      , (12243, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12243, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (12243, 188,          3) /* HeritageGroup - Sho */
-     , (12243, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12243, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12243,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (12243,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12243,   1, 'Jubei''s Apprentice Craftsman') /* Name */
-     , (12243,   5, 'Apprentice Craftsman') /* Template */
-     , (12243, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (12243,   5, 'Apprentice Craftsman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12243,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (12243,   1,   33554433) /* Setup */
      , (12243,  11,   83890583) /* MouthTexture */
      , (12243,  15,   67117070) /* HairPalette */
      , (12243,  16,   67109565) /* EyesPalette */
-     , (12243,  17,   67110049) /* SkinPalette */
-     , (12243, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (12243, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (12243, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (12243,  17,   67110049) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12243, 8040, 3863871746, 181.626, 39.8828, 32.005, -0.8498288, 0, 0, -0.5270588) /* PCAPRecordedLocation */
 /* @teleloc 0xE64E0102 [181.626000 39.882800 32.005000] -0.849829 0.000000 0.000000 -0.527059 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12243, 8000, 2120540167) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12243,   1,  55, 0, 0) /* Strength */
@@ -107,53 +99,3 @@ VALUES (12243, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
      , (12243, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12243, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
      , (12243, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12243, 67109565, 32, 8)
-     , (12243, 67109969, 92, 4)
-     , (12243, 67110026, 72, 8)
-     , (12243, 67110049, 0, 24)
-     , (12243, 67110320, 216, 24)
-     , (12243, 67110334, 160, 8)
-     , (12243, 67111245, 64, 8)
-     , (12243, 67111245, 40, 24)
-     , (12243, 67117070, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12243, 0, 83889072, 83890012)
-     , (12243, 0, 83889342, 83890011)
-     , (12243, 1, 83887064, 83886241)
-     , (12243, 3, 83889344, 83887054)
-     , (12243, 4, 83887068, 83887054)
-     , (12243, 5, 83887064, 83886241)
-     , (12243, 7, 83889344, 83887054)
-     , (12243, 8, 83887068, 83887054)
-     , (12243, 9, 83887061, 83890009)
-     , (12243, 9, 83887060, 83890010)
-     , (12243, 10, 83887069, 83886782)
-     , (12243, 11, 83886788, 83891213)
-     , (12243, 13, 83887069, 83886782)
-     , (12243, 14, 83886788, 83891213)
-     , (12243, 16, 83886232, 83890685)
-     , (12243, 16, 83886668, 83890448)
-     , (12243, 16, 83886837, 83890544)
-     , (12243, 16, 83886684, 83890583);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12243, 0, 16781835)
-     , (12243, 1, 16781845)
-     , (12243, 2, 16777293)
-     , (12243, 3, 16777292)
-     , (12243, 4, 16777291)
-     , (12243, 5, 16781846)
-     , (12243, 6, 16777297)
-     , (12243, 7, 16777296)
-     , (12243, 8, 16777298)
-     , (12243, 9, 16777300)
-     , (12243, 10, 16777301)
-     , (12243, 11, 16781822)
-     , (12243, 12, 16777304)
-     , (12243, 13, 16777303)
-     , (12243, 14, 16781821)
-     , (12243, 15, 16777307)
-     , (12243, 16, 16795654);

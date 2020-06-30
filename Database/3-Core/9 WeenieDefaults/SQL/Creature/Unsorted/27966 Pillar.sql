@@ -33,8 +33,7 @@ VALUES (27966,   1,         16) /* ItemType - Creature */
      , (27966, 386,          0) /* Overpower */
      , (27966, 387,          0) /* OverpowerResist */
      , (27966, 388,          0) /* GearOverpower */
-     , (27966, 389,          0) /* GearOverpowerResist */
-     , (27966, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27966, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27966,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (27966,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27966,   1, 'Pillar') /* Name */
-     , (27966,  15, 'An ancient pillar with a setting for a square shaped plate. Currently a plate bearing a strange symbol rests in the depression. Other pillars about the room clearly display similar plates. Perhaps this is some sort of puzzle.') /* ShortDesc */
-     , (27966, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (27966,  15, 'An ancient pillar with a setting for a square shaped plate. Currently a plate bearing a strange symbol rests in the depression. Other pillars about the room clearly display similar plates. Perhaps this is some sort of puzzle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27966,   1,   33558763) /* Setup */
      , (27966,   2,  150995300) /* MotionTable */
      , (27966,   3,  536871052) /* SoundTable */
      , (27966,   8,  100676565) /* Icon */
-     , (27966,  22,  872415274) /* PhysicsEffectTable */
-     , (27966, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (27966, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (27966, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (27966,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27966, 8040, 708772106, 117, 36, -12, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x2A3F010A [117.000000 36.000000 -12.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27966, 8000, 3707884663) /* PCAPRecordedObjectIID */;

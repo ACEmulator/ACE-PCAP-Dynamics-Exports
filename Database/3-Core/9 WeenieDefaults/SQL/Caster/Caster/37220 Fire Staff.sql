@@ -27,8 +27,7 @@ VALUES (37220,   1,      32768) /* ItemType - Caster */
      , (37220, 160,        375) /* WieldDifficulty */
      , (37220, 172,          5) /* AppraisalLongDescDecoration */
      , (37220, 177,          4) /* GemCount */
-     , (37220, 178,         39) /* GemType */
-     , (37220, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37220, 178,         39) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37220,  22, True ) /* Inscribable */;
@@ -38,8 +37,7 @@ VALUES (37220,   5,  -0.067) /* ManaRate */
      , (37220,  29,    1.18) /* WeaponDefense */
      , (37220,  39,     0.6) /* DefaultScale */
      , (37220, 144,    0.08) /* ManaConversionMod */
-     , (37220, 152,    1.13) /* ElementalDamageMod */
-     , (37220, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (37220, 152,    1.13) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37220,   1, 'Fire Staff') /* Name */
@@ -51,19 +49,10 @@ VALUES (37220,   1,   33560653) /* Setup */
      , (37220,   6,   67111919) /* PaletteBase */
      , (37220,   8,  100690005) /* Icon */
      , (37220,  22,  872415275) /* PhysicsEffectTable */
-     , (37220,  28,       2136) /* Spell - FrostBolt7 */
-     , (37220, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (37220, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37220, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37220, 8000, 2159970495) /* PCAPRecordedObjectIID */;
+     , (37220,  28,       2136) /* Spell - FrostBolt7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37220,  2117,      2) 
      , (37220,  2132,      2) 
      , (37220,  2524,      2) 
      , (37220,  4329,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37220, 67111922, 0, 0);

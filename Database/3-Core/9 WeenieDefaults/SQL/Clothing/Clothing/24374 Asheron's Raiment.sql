@@ -19,8 +19,7 @@ VALUES (24374,   1,          4) /* ItemType - Clothing */
      , (24374, 109,        100) /* ItemDifficulty */
      , (24374, 158,          7) /* WieldRequirements - Level */
      , (24374, 159,          1) /* WieldSkillType - Axe */
-     , (24374, 160,         60) /* WieldDifficulty */
-     , (24374, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (24374, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24374,  22, True ) /* Inscribable */
@@ -46,28 +45,9 @@ VALUES (24374,   1,   33554854) /* Setup */
      , (24374,   3,  536870932) /* SoundTable */
      , (24374,   6,   67108990) /* PaletteBase */
      , (24374,   8,  100674398) /* Icon */
-     , (24374,  22,  872415275) /* PhysicsEffectTable */
-     , (24374, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (24374, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (24374, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24374, 8000, 2771304876) /* PCAPRecordedObjectIID */;
+     , (24374,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24374,  1120,      2) 
      , (24374,  1337,      2) 
      , (24374,  2583,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24374, 67114395, 40, 24)
-     , (24374, 67114395, 64, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24374, 0, 83887061, 83894614)
-     , (24374, 0, 83887060, 83894612)
-     , (24374, 0, 83889072, 83894611)
-     , (24374, 0, 83889342, 83894611);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24374, 0, 16778367);

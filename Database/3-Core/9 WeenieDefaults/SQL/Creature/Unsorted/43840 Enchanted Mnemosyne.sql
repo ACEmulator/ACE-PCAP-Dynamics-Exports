@@ -32,8 +32,7 @@ VALUES (43840,   1,         16) /* ItemType - Creature */
      , (43840, 386,          0) /* Overpower */
      , (43840, 387,          0) /* OverpowerResist */
      , (43840, 388,          0) /* GearOverpower */
-     , (43840, 389,          0) /* GearOverpowerResist */
-     , (43840, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43840, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43840,   1, True ) /* Stuck */
@@ -43,22 +42,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43840,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43840,   1, 'Enchanted Mnemosyne') /* Name */
-     , (43840, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (43840,   1, 'Enchanted Mnemosyne') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43840,   1,   33561170) /* Setup */
      , (43840,   2,  150995464) /* MotionTable */
      , (43840,   3,  536870932) /* SoundTable */
      , (43840,   8,  100671423) /* Icon */
-     , (43840,  22,  872415275) /* PhysicsEffectTable */
-     , (43840, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
-     , (43840, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (43840, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (43840,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43840, 8040, 20447697, 54.4104, -270, 0, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
 /* @teleloc 0x013801D1 [54.410400 -270.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43840, 8000, 3681622553) /* PCAPRecordedObjectIID */;

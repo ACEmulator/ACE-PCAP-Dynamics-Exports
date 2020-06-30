@@ -24,8 +24,7 @@ VALUES (21031,   1,      32768) /* ItemType - Caster */
      , (21031, 159,          1) /* WieldSkillType - Axe */
      , (21031, 160,         50) /* WieldDifficulty */
      , (21031, 166,         62) /* SlayerCreatureType - Elemental */
-     , (21031, 176,         16) /* AppraisalItemSkill */
-     , (21031, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (21031, 176,         16) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21031,  22, True ) /* Inscribable */
@@ -43,19 +42,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21031,   1,   33557731) /* Setup */
      , (21031,   3,  536870932) /* SoundTable */
      , (21031,   8,  100673203) /* Icon */
-     , (21031,  22,  872415275) /* PhysicsEffectTable */
-     , (21031, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
-     , (21031, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21031, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (21031, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (21031,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21031, 8040, 310771715, 12.39034, 70.10451, 49.929, -0.688652, -0.688652, 0.1604943, 0.1604943) /* PCAPRecordedLocation */
 /* @teleloc 0x12860003 [12.390340 70.104510 49.929000] -0.688652 -0.688652 0.160494 0.160494 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21031, 8000, 3196223531) /* PCAPRecordedObjectIID */
-     , (21031, 8008, 1342938221) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21031,   658,      2) 

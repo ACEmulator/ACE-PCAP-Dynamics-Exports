@@ -17,8 +17,7 @@ VALUES (8224,   1,         16) /* ItemType - Creature */
      , (8224, 113,          1) /* Gender - Male */
      , (8224, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8224, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8224, 188,          2) /* HeritageGroup - Gharundim */
-     , (8224, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8224, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8224,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8224,  37,    0.95) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8224,   1, 'Archmage Zarri ibn Khaybi') /* Name */
-     , (8224,   5, 'Archmage') /* Template */
-     , (8224, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8224,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8224,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8224,   1,   33554433) /* Setup */
      , (8224,  11,   83890618) /* MouthTexture */
      , (8224,  15,   67117073) /* HairPalette */
      , (8224,  16,   67109567) /* EyesPalette */
-     , (8224,  17,   67109550) /* SkinPalette */
-     , (8224, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8224, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8224, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8224,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8224, 8040, 2471166514, 98.7925, 2.32, -13.595, -0.9528311, 0, 0, -0.303501) /* PCAPRecordedLocation */
 /* @teleloc 0x934B0232 [98.792500 2.320000 -13.595000] -0.952831 0.000000 0.000000 -0.303501 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8224, 8000, 2033496139) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8224,   1,  60, 0, 0) /* Strength */
@@ -193,49 +185,3 @@ VALUES (8224, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (8224, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (8224, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
      , (8224, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8224, 67109550, 0, 24)
-     , (8224, 67109567, 32, 8)
-     , (8224, 67110007, 96, 12)
-     , (8224, 67110361, 80, 12)
-     , (8224, 67110361, 116, 12)
-     , (8224, 67112694, 40, 40)
-     , (8224, 67117073, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8224, 0, 83892345, 83892353)
-     , (8224, 0, 83892344, 83892353)
-     , (8224, 1, 83892352, 83892352)
-     , (8224, 2, 83892351, 83892351)
-     , (8224, 5, 83892352, 83892352)
-     , (8224, 6, 83892351, 83892351)
-     , (8224, 9, 83887061, 83892357)
-     , (8224, 9, 83887060, 83892356)
-     , (8224, 10, 83892347, 83892355)
-     , (8224, 11, 83892346, 83892354)
-     , (8224, 13, 83892347, 83892355)
-     , (8224, 14, 83892346, 83892354)
-     , (8224, 16, 83886232, 83890685)
-     , (8224, 16, 83886668, 83890457)
-     , (8224, 16, 83886837, 83890540)
-     , (8224, 16, 83886684, 83890618);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8224, 0, 16783894)
-     , (8224, 1, 16783912)
-     , (8224, 2, 16783918)
-     , (8224, 3, 16777292)
-     , (8224, 4, 16777291)
-     , (8224, 5, 16783916)
-     , (8224, 6, 16783920)
-     , (8224, 7, 16777296)
-     , (8224, 8, 16777298)
-     , (8224, 9, 16781837)
-     , (8224, 10, 16783863)
-     , (8224, 11, 16783853)
-     , (8224, 12, 16777304)
-     , (8224, 13, 16783871)
-     , (8224, 14, 16783855)
-     , (8224, 15, 16777307)
-     , (8224, 16, 16795640);

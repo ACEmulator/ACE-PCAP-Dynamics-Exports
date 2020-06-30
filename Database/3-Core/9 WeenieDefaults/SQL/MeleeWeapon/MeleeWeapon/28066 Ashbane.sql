@@ -23,9 +23,7 @@ VALUES (28066,   1,          1) /* ItemType - MeleeWeapon */
      , (28066, 158,          2) /* WieldRequirements - RawSkill */
      , (28066, 159,         45) /* WieldSkillType - LightWeapons */
      , (28066, 160,        250) /* WieldDifficulty */
-     , (28066, 353,          2) /* WeaponType - Sword */
-     , (28066, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (28066, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28066, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28066,  22, True ) /* Inscribable */;
@@ -48,10 +46,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28066,   1,   33558823) /* Setup */
      , (28066,   3,  536870932) /* SoundTable */
      , (28066,   8,  100671001) /* Icon */
-     , (28066,  22,  872415275) /* PhysicsEffectTable */
-     , (28066, 8001,    2179736) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
-     , (28066, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28066, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28066, 8000, 3677062167) /* PCAPRecordedObjectIID */;
+     , (28066,  22,  872415275) /* PhysicsEffectTable */;

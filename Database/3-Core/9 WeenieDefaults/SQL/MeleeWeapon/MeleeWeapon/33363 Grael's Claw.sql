@@ -23,9 +23,7 @@ VALUES (33363,   1,          1) /* ItemType - MeleeWeapon */
      , (33363, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (33363, 160,        370) /* WieldDifficulty */
      , (33363, 166,         89) /* SlayerCreatureType - Mukkir */
-     , (33363, 353,          1) /* WeaponType - Unarmed */
-     , (33363, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (33363, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33363, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33363,  22, True ) /* Inscribable */;
@@ -48,10 +46,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33363,   1,   33560012) /* Setup */
      , (33363,   3,  536870932) /* SoundTable */
      , (33363,   8,  100688983) /* Icon */
-     , (33363,  22,  872415275) /* PhysicsEffectTable */
-     , (33363, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (33363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33363, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33363, 8000, 2460938541) /* PCAPRecordedObjectIID */;
+     , (33363,  22,  872415275) /* PhysicsEffectTable */;

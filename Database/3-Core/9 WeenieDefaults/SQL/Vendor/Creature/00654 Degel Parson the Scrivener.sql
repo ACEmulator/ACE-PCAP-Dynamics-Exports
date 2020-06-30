@@ -17,8 +17,7 @@ VALUES (654,   1,         16) /* ItemType - Creature */
      , (654, 113,          1) /* Gender - Male */
      , (654, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (654, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (654, 188,          1) /* HeritageGroup - Aluvian */
-     , (654, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (654, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (654,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (654,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (654,   1, 'Degel Parson the Scrivener') /* Name */
-     , (654,   5, 'Scribe') /* Template */
-     , (654, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (654,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (654,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (654,   1,   33554433) /* Setup */
      , (654,  11,   83890645) /* MouthTexture */
      , (654,  15,   67116995) /* HairPalette */
      , (654,  16,   67109565) /* EyesPalette */
-     , (654,  17,   67109559) /* SkinPalette */
-     , (654, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (654, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (654, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (654,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (654, 8040, 3465871674, 153.12, 64.68, 23.005, 0.2385331, 0, 0, -0.9711344) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95013A [153.120000 64.680000 23.005000] 0.238533 0.000000 0.000000 -0.971134 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (654, 8000, 2095665187) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (654,   1,  25, 0, 0) /* Strength */
@@ -88,58 +80,3 @@ VALUES (654, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (654, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (654, 4, 15808, -1, 0, 0, False) /* Create Plea for Help (15808) for Shop */
      , (654, 4, 20229, -1, 0, 0, False) /* Create Rumor of an Artifact (20229) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (654, 67109559, 0, 24)
-     , (654, 67109565, 32, 8)
-     , (654, 67110356, 216, 24)
-     , (654, 67110361, 64, 8)
-     , (654, 67110361, 40, 24)
-     , (654, 67110375, 160, 8)
-     , (654, 67110382, 250, 6)
-     , (654, 67110539, 72, 8)
-     , (654, 67110551, 92, 4)
-     , (654, 67116995, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (654, 0, 83889072, 83890012)
-     , (654, 0, 83889342, 83890011)
-     , (654, 1, 83887064, 83886241)
-     , (654, 2, 83887066, 83887055)
-     , (654, 3, 83889344, 83887054)
-     , (654, 4, 83887068, 83887054)
-     , (654, 5, 83887064, 83886241)
-     , (654, 6, 83887066, 83887055)
-     , (654, 7, 83889344, 83887054)
-     , (654, 8, 83887068, 83887054)
-     , (654, 9, 83887061, 83890009)
-     , (654, 9, 83887060, 83890010)
-     , (654, 10, 83887069, 83886782)
-     , (654, 11, 83887067, 83891213)
-     , (654, 13, 83887069, 83886782)
-     , (654, 14, 83887067, 83891213)
-     , (654, 16, 83886232, 83890685)
-     , (654, 16, 83886668, 83890457)
-     , (654, 16, 83886837, 83890546)
-     , (654, 16, 83886684, 83890645)
-     , (654, 16, 83889859, 83889864)
-     , (654, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (654, 0, 16781835)
-     , (654, 1, 16777295)
-     , (654, 2, 16777293)
-     , (654, 3, 16777292)
-     , (654, 4, 16777291)
-     , (654, 5, 16777299)
-     , (654, 6, 16777297)
-     , (654, 7, 16777296)
-     , (654, 8, 16777298)
-     , (654, 9, 16777300)
-     , (654, 10, 16777301)
-     , (654, 11, 16777302)
-     , (654, 12, 16777304)
-     , (654, 13, 16777303)
-     , (654, 14, 16777305)
-     , (654, 15, 16777307)
-     , (654, 16, 16779635);

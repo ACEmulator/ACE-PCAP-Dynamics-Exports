@@ -12,8 +12,7 @@ VALUES (24484,   1,         16) /* ItemType - Creature */
      , (24484,  25,        115) /* Level */
      , (24484,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24484, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24484, 307,          2) /* DamageRating */
-     , (24484, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24484, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24484,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24484,  39,    0.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24484,   1, 'Small Sandstone Golem') /* Name */
-     , (24484, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24484,   1, 'Small Sandstone Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24484,   1,   33556426) /* Setup */
@@ -31,17 +29,11 @@ VALUES (24484,   1,   33556426) /* Setup */
      , (24484,   3,  536870933) /* SoundTable */
      , (24484,   6,   67112775) /* PaletteBase */
      , (24484,   8,  100667940) /* Icon */
-     , (24484,  22,  872415329) /* PhysicsEffectTable */
-     , (24484, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24484, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24484, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (24484,  22,  872415329) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24484, 8040, 1913192484, 113.9295, 95.34892, 3.948243, 0.5901619, 0, 0, 0.8072849) /* PCAPRecordedLocation */
 /* @teleloc 0x72090024 [113.929500 95.348920 3.948243] 0.590162 0.000000 0.000000 0.807285 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24484, 8000, 3685970498) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24484,   1, 290, 0, 0) /* Strength */
@@ -131,6 +123,3 @@ VALUES (24484, 9,   273, 1662, 0, 0, False) /* Create Pyreal (273) for ContainTr
      , (24484, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */
      , (24484, 9,  2412,  1, 0, 0, False) /* Create Gem (2412) for ContainTreasure */
      , (24484, 9, 20580,  0, 0, 0, False) /* Create Scroll of Saladur's Blessing (20580) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24484, 67112822, 0, 0);

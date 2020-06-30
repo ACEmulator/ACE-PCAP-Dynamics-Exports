@@ -17,8 +17,7 @@ VALUES (1057,   1,         16) /* ItemType - Creature */
      , (1057, 113,          1) /* Gender - Male */
      , (1057, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1057, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1057, 188,          2) /* HeritageGroup - Gharundim */
-     , (1057, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1057, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1057,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1057,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1057,   1, 'Suntar al-Tashqat the Shopkeep') /* Name */
-     , (1057,   5, 'Shopkeeper') /* Template */
-     , (1057, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1057,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1057,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1057,   1,   33554433) /* Setup */
      , (1057,  11,   83890611) /* MouthTexture */
      , (1057,  15,   67117079) /* HairPalette */
      , (1057,  16,   67110062) /* EyesPalette */
-     , (1057,  17,   67109550) /* SkinPalette */
-     , (1057, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1057, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1057, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1057,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1057, 8040, 2535588129, 114.84, 107.5, 102.005, -0.6387683, 0, 0, -0.7693992) /* PCAPRecordedLocation */
 /* @teleloc 0x97220121 [114.840000 107.500000 102.005000] -0.638768 0.000000 0.000000 -0.769399 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1057, 8000, 2037522449) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1057,   1, 110, 0, 0) /* Strength */
@@ -121,56 +113,3 @@ VALUES (1057, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (1057, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (1057, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1057, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1057, 67109550, 0, 24)
-     , (1057, 67109964, 92, 4)
-     , (1057, 67110003, 72, 8)
-     , (1057, 67110062, 32, 8)
-     , (1057, 67110320, 216, 24)
-     , (1057, 67110356, 64, 8)
-     , (1057, 67110356, 40, 24)
-     , (1057, 67111304, 160, 8)
-     , (1057, 67111304, 240, 10)
-     , (1057, 67117079, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1057, 0, 83889072, 83890012)
-     , (1057, 0, 83889342, 83890011)
-     , (1057, 1, 83887064, 83886241)
-     , (1057, 2, 83887066, 83887051)
-     , (1057, 3, 83889344, 83887054)
-     , (1057, 4, 83887068, 83887054)
-     , (1057, 5, 83887064, 83886241)
-     , (1057, 6, 83887066, 83887051)
-     , (1057, 7, 83889344, 83887054)
-     , (1057, 8, 83887068, 83887054)
-     , (1057, 9, 83887061, 83890009)
-     , (1057, 9, 83887060, 83890010)
-     , (1057, 10, 83887069, 83886782)
-     , (1057, 13, 83887069, 83886782)
-     , (1057, 16, 83886232, 83890685)
-     , (1057, 16, 83886668, 83890482)
-     , (1057, 16, 83886837, 83890536)
-     , (1057, 16, 83886684, 83890611)
-     , (1057, 16, 83888783, 83888783)
-     , (1057, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1057, 0, 16781835)
-     , (1057, 1, 16777295)
-     , (1057, 2, 16781866)
-     , (1057, 3, 16781841)
-     , (1057, 4, 16781838)
-     , (1057, 5, 16777299)
-     , (1057, 6, 16781864)
-     , (1057, 7, 16781840)
-     , (1057, 8, 16781839)
-     , (1057, 9, 16777300)
-     , (1057, 10, 16777301)
-     , (1057, 11, 16777302)
-     , (1057, 12, 16777304)
-     , (1057, 13, 16777303)
-     , (1057, 14, 16777305)
-     , (1057, 15, 16777307)
-     , (1057, 16, 16778476);

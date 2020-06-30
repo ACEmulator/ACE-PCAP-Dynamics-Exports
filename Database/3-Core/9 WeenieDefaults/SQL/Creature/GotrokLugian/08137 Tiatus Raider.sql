@@ -12,15 +12,13 @@ VALUES (8137,   1,         16) /* ItemType - Creature */
      , (8137,  25,        115) /* Level */
      , (8137,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8137, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (8137, 307,          5) /* DamageRating */
-     , (8137, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8137, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8137,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8137,   1, 'Tiatus Raider') /* Name */
-     , (8137, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (8137,   1, 'Tiatus Raider') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8137,   1,   33557003) /* Setup */
@@ -28,17 +26,11 @@ VALUES (8137,   1,   33557003) /* Setup */
      , (8137,   3,  536870922) /* SoundTable */
      , (8137,   6,   67113158) /* PaletteBase */
      , (8137,   8,  100667447) /* Icon */
-     , (8137,  22,  872415262) /* PhysicsEffectTable */
-     , (8137, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (8137, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8137, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (8137,  22,  872415262) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8137, 8040, 2736652294, 10.733, 124.283, 532.01, 0.9157362, 0, 0, -0.4017801) /* PCAPRecordedLocation */
 /* @teleloc 0xA31E0006 [10.733000 124.283000 532.010000] 0.915736 0.000000 0.000000 -0.401780 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8137, 8000, 3691203631) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8137,   1, 340, 0, 0) /* Strength */
@@ -61,28 +53,3 @@ VALUES (8137, 2, 23745,  1, 0, 0, False) /* Create Rock (23745) for Wield */
      , (8137, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
      , (8137, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (8137, 9, 40620,  0, 0, 0, False) /* Create Lightning Spadone (40620) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8137, 67113164, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8137, 0, 83893224, 83893223)
-     , (8137, 0, 83893231, 83893230)
-     , (8137, 2, 83893218, 83893217)
-     , (8137, 5, 83893218, 83893217)
-     , (8137, 7, 83893227, 83893213)
-     , (8137, 7, 83893214, 83893213)
-     , (8137, 9, 83893218, 83893217)
-     , (8137, 12, 83893218, 83893217)
-     , (8137, 19, 83893240, 83893239)
-     , (8137, 20, 83893240, 83893239);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8137, 0, 16785699)
-     , (8137, 2, 16785662)
-     , (8137, 5, 16785662)
-     , (8137, 7, 16785659)
-     , (8137, 9, 16785701)
-     , (8137, 12, 16785701)
-     , (8137, 19, 16785704)
-     , (8137, 20, 16785705);

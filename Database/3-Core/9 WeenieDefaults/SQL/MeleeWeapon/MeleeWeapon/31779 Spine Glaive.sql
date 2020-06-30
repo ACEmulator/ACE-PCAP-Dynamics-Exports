@@ -27,8 +27,7 @@ VALUES (31779,   1,          1) /* ItemType - MeleeWeapon */
      , (31779, 172,          5) /* AppraisalLongDescDecoration */
      , (31779, 177,          2) /* GemCount */
      , (31779, 178,         34) /* GemType */
-     , (31779, 353,          5) /* WeaponType - Spear */
-     , (31779, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31779, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31779,  22, True ) /* Inscribable */;
@@ -39,8 +38,7 @@ VALUES (31779,  21,       0) /* WeaponLength */
      , (31779,  26,       0) /* MaximumVelocity */
      , (31779,  29,    1.02) /* WeaponDefense */
      , (31779,  62,    1.11) /* WeaponOffense */
-     , (31779,  63,       1) /* DamageMod */
-     , (31779, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (31779,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31779,   1, 'Spine Glaive') /* Name */
@@ -52,28 +50,8 @@ VALUES (31779,   1,   33559626) /* Setup */
      , (31779,   6,   67116700) /* PaletteBase */
      , (31779,   8,  100688099) /* Icon */
      , (31779,  22,  872415275) /* PhysicsEffectTable */
-     , (31779,  52,  100676444) /* IconUnderlay */
-     , (31779, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (31779, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31779, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31779, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (31779, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
+     , (31779,  52,  100676444) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31779, 8040, 459075, 70.045, -60, -0.071, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.045000 -60.000000 -0.071000] 0.000000 0.000000 -0.707107 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31779, 8000, 2168348901) /* PCAPRecordedObjectIID */
-     , (31779, 8008, 1343477254) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31779, 67116700, 1, 100)
-     , (31779, 67116705, 101, 100)
-     , (31779, 67116706, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31779, 0, 83897337, 83897337);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31779, 0, 16792614);

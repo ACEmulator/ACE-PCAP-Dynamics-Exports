@@ -27,9 +27,7 @@ VALUES (31810,   1,        256) /* ItemType - MissileWeapon */
      , (31810, 177,          4) /* GemCount */
      , (31810, 178,         39) /* GemType */
      , (31810, 204,          9) /* ElementalDamageBonus */
-     , (31810, 353,          9) /* WeaponType - Crossbow */
-     , (31810, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31810, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31810, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31810,  22, True ) /* Inscribable */;
@@ -41,8 +39,7 @@ VALUES (31810,  21,       0) /* WeaponLength */
      , (31810,  29,    1.14) /* WeaponDefense */
      , (31810,  39,    1.25) /* DefaultScale */
      , (31810,  62,       1) /* WeaponOffense */
-     , (31810,  63,    2.47) /* DamageMod */
-     , (31810, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (31810,  63,    2.47) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31810,   1, 'Frost Compound Crossbow') /* Name */
@@ -53,21 +50,4 @@ VALUES (31810,   1,   33559663) /* Setup */
      , (31810,   3,  536870932) /* SoundTable */
      , (31810,   6,   67116700) /* PaletteBase */
      , (31810,   8,  100688060) /* Icon */
-     , (31810,  22,  872415275) /* PhysicsEffectTable */
-     , (31810, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31810, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31810, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31810, 8000, 3014420527) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31810, 67116700, 1, 100)
-     , (31810, 67116700, 201, 55)
-     , (31810, 67116710, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31810, 0, 83897331, 83897331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31810, 0, 16792607);
+     , (31810,  22,  872415275) /* PhysicsEffectTable */;

@@ -20,10 +20,4 @@ VALUES (44763,   1, 'Scarecrow') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44763,   1,   33561363) /* Setup */
-     , (44763,   8,  100668115) /* Icon */
-     , (44763, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44763, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44763, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44763, 8000, 2619464362) /* PCAPRecordedObjectIID */;
+     , (44763,   8,  100668115) /* Icon */;

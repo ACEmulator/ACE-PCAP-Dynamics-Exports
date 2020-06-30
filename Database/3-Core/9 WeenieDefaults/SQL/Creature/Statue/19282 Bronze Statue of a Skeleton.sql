@@ -12,8 +12,7 @@ VALUES (19282,   1,         16) /* ItemType - Creature */
      , (19282,  25,        100) /* Level */
      , (19282,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19282, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19282, 307,          5) /* DamageRating */
-     , (19282, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19282, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19282,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19282,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19282,   1, 'Bronze Statue of a Skeleton') /* Name */
-     , (19282, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19282,   1, 'Bronze Statue of a Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19282,   1,   33554521) /* Setup */
@@ -31,17 +29,11 @@ VALUES (19282,   1,   33554521) /* Setup */
      , (19282,   3,  536871052) /* SoundTable */
      , (19282,   6,   67116522) /* PaletteBase */
      , (19282,   8,  100669124) /* Icon */
-     , (19282,  22,  872415349) /* PhysicsEffectTable */
-     , (19282, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19282, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19282, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (19282,  22,  872415349) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19282, 8040, 1415053814, 150.031, -54.75, 0.004999995, 0.070737, 0, 0, 0.997495) /* PCAPRecordedLocation */
 /* @teleloc 0x545801F6 [150.031000 -54.750000 0.005000] 0.070737 0.000000 0.000000 0.997495 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19282, 8000, 2627701305) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19282,   1, 220, 0, 0) /* Strength */
@@ -66,6 +58,3 @@ VALUES (19282, 2, 15875,  1, 0, 0, False) /* Create Bronze Heavy Crossbow (15875
      , (19282, 2,  5316,  1, 0, 0, False) /* Create Greater Lightning Quarrel (5316) for Wield */
      , (19282, 2,  5315,  1, 0, 0, False) /* Create Greater Frost Quarrel (5315) for Wield */
      , (19282, 2,  5317,  1, 0, 0, False) /* Create Greater Fire Quarrel (5317) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19282, 67116534, 0, 0);

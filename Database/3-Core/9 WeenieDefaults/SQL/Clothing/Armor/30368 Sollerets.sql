@@ -25,8 +25,7 @@ VALUES (30368,   1,          2) /* ItemType - Armor */
      , (30368, 320,          1) /* ItemXpStyle - Fixed */
      , (30368, 370,          1) /* GearDamage */
      , (30368, 379,          1) /* GearMaxHealth */
-     , (30368, 383,          1) /* GearPKDamageRating */
-     , (30368, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30368, 383,          1) /* GearPKDamageRating */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30368,   4, 100000000000) /* ItemTotalXp */
@@ -58,26 +57,9 @@ VALUES (30368,   1,   33554654) /* Setup */
      , (30368,   6,   67108990) /* PaletteBase */
      , (30368,   8,  100669243) /* Icon */
      , (30368,  22,  872415275) /* PhysicsEffectTable */
-     , (30368,  52,  100686604) /* IconUnderlay */
-     , (30368, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
-     , (30368, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30368, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30368, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30368, 8000, 2570509069) /* PCAPRecordedObjectIID */;
+     , (30368,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30368,  4019,      2) 
      , (30368,  4407,      2) 
      , (30368,  4710,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30368, 67113248, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30368, 0, 83889344, 83887054)
-     , (30368, 0, 83887066, 83887054);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30368, 0, 16778416);

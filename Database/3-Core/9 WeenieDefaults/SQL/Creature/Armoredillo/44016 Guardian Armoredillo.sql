@@ -12,8 +12,7 @@ VALUES (44016,   1,         16) /* ItemType - Creature */
      , (44016,  25,        220) /* Level */
      , (44016,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44016, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44016, 316,          5) /* CritDamageResistRating */
-     , (44016, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44016, 316,          5) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44016,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44016,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44016,   1, 'Guardian Armoredillo') /* Name */
-     , (44016, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (44016,   1, 'Guardian Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44016,   1,   33554436) /* Setup */
@@ -31,17 +29,11 @@ VALUES (44016,   1,   33554436) /* Setup */
      , (44016,   3,  536870915) /* SoundTable */
      , (44016,   6,   67109301) /* PaletteBase */
      , (44016,   8,  100667935) /* Icon */
-     , (44016,  22,  872415253) /* PhysicsEffectTable */
-     , (44016, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (44016, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44016, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (44016,  22,  872415253) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44016, 8040, 2271477793, 108.0466, 8.80494, 13.49206, -0.8735018, 0, 0, 0.4868209) /* PCAPRecordedLocation */
 /* @teleloc 0x87640021 [108.046600 8.804940 13.492060] -0.873502 0.000000 0.000000 0.486821 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44016, 8000, 3360236530) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44016,   1, 340, 0, 0) /* Strength */
@@ -280,6 +272,3 @@ VALUES (44016, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) 
      , (44016, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (44016, 9, 49255,  0, 0, 0, False) /* Create Frost Zombie Essence (80) (49255) for ContainTreasure */
      , (44016, 9, 49382,  0, 0, 0, False) /* Create Fire Grievver Essence (100) (49382) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44016, 67115925, 0, 0);

@@ -11,8 +11,7 @@ VALUES (44474,   1,         16) /* ItemType - Creature */
      , (44474,  16,          1) /* ItemUseable - No */
      , (44474,  25,        200) /* Level */
      , (44474,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44474, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44474, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44474, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44474,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (44474,  39,     0.6) /* DefaultScale */
      , (44474,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44474,   1, 'Devourer Margul') /* Name */
-     , (44474, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (44474,   1, 'Devourer Margul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44474,   1,   33558554) /* Setup */
@@ -32,17 +30,11 @@ VALUES (44474,   1,   33558554) /* Setup */
      , (44474,   6,   67114728) /* PaletteBase */
      , (44474,   8,  100675661) /* Icon */
      , (44474,  22,  872415401) /* PhysicsEffectTable */
-     , (44474,  30,         87) /* PhysicsScript - BreatheLightning */
-     , (44474, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (44474, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44474, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (44474,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44474, 8040, 4166779233, 80.9483, -10.2498, -3.198757, 0.9134465, 0, 0, 0.4069588) /* PCAPRecordedLocation */
 /* @teleloc 0xF85C0161 [80.948300 -10.249800 -3.198757] 0.913447 0.000000 0.000000 0.406959 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44474, 8000, 3710681439) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44474,   1, 200, 0, 0) /* Strength */
@@ -59,6 +51,3 @@ VALUES (44474,   1,  1400, 0, 0, 1520) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44474, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44474, 67114729, 0, 0);

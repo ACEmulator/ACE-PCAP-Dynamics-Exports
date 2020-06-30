@@ -21,8 +21,7 @@ VALUES (46345,   1,          2) /* ItemType - Armor */
      , (46345, 158,          7) /* WieldRequirements - Level */
      , (46345, 159,          1) /* WieldSkillType - Axe */
      , (46345, 160,        180) /* WieldDifficulty */
-     , (46345, 265,         14) /* EquipmentSetId - Adepts */
-     , (46345, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46345, 265,         14) /* EquipmentSetId - Adepts */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46345,  22, True ) /* Inscribable */
@@ -47,13 +46,7 @@ VALUES (46345,   1,   33554856) /* Setup */
      , (46345,   3,  536870932) /* SoundTable */
      , (46345,   6,   67108990) /* PaletteBase */
      , (46345,   8,  100692824) /* Icon */
-     , (46345,  22,  872415275) /* PhysicsEffectTable */
-     , (46345, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (46345, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46345, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46345, 8000, 2345789232) /* PCAPRecordedObjectIID */;
+     , (46345,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46345,  4391,      2) 
@@ -65,16 +58,3 @@ VALUES (46345,  4391,      2)
      , (46345,  4409,      2) 
      , (46345,  4412,      2) 
      , (46345,  4704,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46345, 67109965, 92, 4)
-     , (46345, 67109965, 152, 8)
-     , (46345, 67110021, 136, 16)
-     , (46345, 67110021, 80, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46345, 0, 83887064, 83886785)
-     , (46345, 0, 83887066, 83887052);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46345, 0, 16778829);

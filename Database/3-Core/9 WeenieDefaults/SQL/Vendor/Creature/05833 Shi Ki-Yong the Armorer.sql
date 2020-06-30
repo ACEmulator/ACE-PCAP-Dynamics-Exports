@@ -18,8 +18,7 @@ VALUES (5833,   1,         16) /* ItemType - Creature */
      , (5833, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5833, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (5833, 188,          3) /* HeritageGroup - Sho */
-     , (5833, 307,          5) /* DamageRating */
-     , (5833, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5833, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5833,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (5833,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5833,   1, 'Shi Ki-Yong the Armorer') /* Name */
-     , (5833,   5, 'Armorer') /* Template */
-     , (5833, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5833,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5833,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (5833,   1,   33554510) /* Setup */
      , (5833,  11,   83890345) /* MouthTexture */
      , (5833,  15,   67116997) /* HairPalette */
      , (5833,  16,   67110062) /* EyesPalette */
-     , (5833,  17,   67110061) /* SkinPalette */
-     , (5833, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5833, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5833, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (5833,  17,   67110061) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5833, 8040, 3184656429, 135.098, 104.511, 186.005, 0.382683, 0, 0, -0.9238797) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD2002D [135.098000 104.511000 186.005000] 0.382683 0.000000 0.000000 -0.923880 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5833, 8000, 2078089224) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5833,   1, 100, 0, 0) /* Strength */
@@ -133,57 +125,3 @@ VALUES (5833, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield *
      , (5833, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (5833, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (5833, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5833, 67109964, 92, 4)
-     , (5833, 67110026, 72, 8)
-     , (5833, 67110061, 0, 24)
-     , (5833, 67110062, 32, 8)
-     , (5833, 67110337, 40, 24)
-     , (5833, 67110349, 216, 24)
-     , (5833, 67110356, 250, 6)
-     , (5833, 67110377, 160, 8)
-     , (5833, 67111245, 64, 8)
-     , (5833, 67116997, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5833, 0, 83889072, 83890012)
-     , (5833, 0, 83889342, 83890011)
-     , (5833, 1, 83887064, 83886241)
-     , (5833, 2, 83887066, 83887051)
-     , (5833, 3, 83889344, 83887054)
-     , (5833, 4, 83887068, 83887054)
-     , (5833, 5, 83887064, 83886241)
-     , (5833, 6, 83887066, 83887051)
-     , (5833, 7, 83889344, 83887054)
-     , (5833, 8, 83887068, 83887054)
-     , (5833, 9, 83887070, 83890009)
-     , (5833, 9, 83887062, 83890010)
-     , (5833, 10, 83887069, 83886782)
-     , (5833, 11, 83887067, 83891213)
-     , (5833, 13, 83887069, 83886782)
-     , (5833, 14, 83887067, 83891213)
-     , (5833, 16, 83886232, 83890685)
-     , (5833, 16, 83886668, 83890263)
-     , (5833, 16, 83886837, 83890285)
-     , (5833, 16, 83886684, 83890345)
-     , (5833, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5833, 0, 16781875)
-     , (5833, 1, 16778430)
-     , (5833, 2, 16781908)
-     , (5833, 3, 16781841)
-     , (5833, 4, 16783485)
-     , (5833, 5, 16778438)
-     , (5833, 6, 16781909)
-     , (5833, 7, 16781840)
-     , (5833, 8, 16783487)
-     , (5833, 9, 16778425)
-     , (5833, 10, 16778431)
-     , (5833, 11, 16778429)
-     , (5833, 12, 16778423)
-     , (5833, 13, 16778434)
-     , (5833, 14, 16778424)
-     , (5833, 15, 16778435)
-     , (5833, 16, 16779630);

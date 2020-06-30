@@ -19,9 +19,7 @@ VALUES (6963,   1,        256) /* ItemType - MissileWeapon */
      , (6963,  51,          2) /* CombatUse - Missle */
      , (6963,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6963, 114,          1) /* Attuned - Attuned */
-     , (6963, 353,          8) /* WeaponType - Bow */
-     , (6963, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (6963, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (6963, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6963,  22, True ) /* Inscribable */
@@ -46,19 +44,8 @@ VALUES (6963,   1,   33556601) /* Setup */
      , (6963,   3,  536870932) /* SoundTable */
      , (6963,   6,   67112869) /* PaletteBase */
      , (6963,   8,  100670672) /* Icon */
-     , (6963,  22,  872415275) /* PhysicsEffectTable */
-     , (6963, 8001,    2327320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (6963, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6963, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (6963, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (6963,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6963, 8040, 2422014004, 157.586, 83.48739, 27.93, -0.03225391, 0, 0, -0.9994797) /* PCAPRecordedLocation */
 /* @teleloc 0x905D0034 [157.586000 83.487390 27.930000] -0.032254 0.000000 0.000000 -0.999480 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6963, 8000, 3623568009) /* PCAPRecordedObjectIID */
-     , (6963, 8008, 1342694204) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6963, 67112871, 0, 0);

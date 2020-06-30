@@ -33,9 +33,7 @@ VALUES (3766,   1,          1) /* ItemType - MeleeWeapon */
      , (3766, 176,         45) /* AppraisalItemSkill */
      , (3766, 177,          2) /* GemCount */
      , (3766, 178,         27) /* GemType */
-     , (3766, 353,          4) /* WeaponType - Mace */
-     , (3766, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3766, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3766, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3766,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3766,   5,  -0.042) /* ManaRate */
      , (3766,  29,    1.06) /* WeaponDefense */
      , (3766,  39,    1.25) /* DefaultScale */
      , (3766,  62,    1.06) /* WeaponOffense */
-     , (3766,  63,       1) /* DamageMod */
-     , (3766, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3766,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3766,   1, 'Acid Club') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3766,   1,   33555727) /* Setup */
      , (3766,   3,  536870932) /* SoundTable */
      , (3766,   8,  100668855) /* Icon */
-     , (3766,  22,  872415275) /* PhysicsEffectTable */
-     , (3766, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3766, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3766, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3766, 8000, 3701027319) /* PCAPRecordedObjectIID */;
+     , (3766,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3766,  1591,      2) 

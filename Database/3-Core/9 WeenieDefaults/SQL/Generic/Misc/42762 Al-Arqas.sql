@@ -19,14 +19,8 @@ VALUES (42762,   1, 'Al-Arqas') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42762,   1,   33560958) /* Setup */
-     , (42762,   8,  100668115) /* Icon */
-     , (42762, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42762, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42762, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42762,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42762, 8040, 459034, 29.9709, -84.8921, 3.014, -1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007011A [29.970900 -84.892100 3.014000] -1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42762, 8000, 1879076887) /* PCAPRecordedObjectIID */;

@@ -18,8 +18,7 @@ VALUES (46009,   1,          4) /* ItemType - Clothing */
      , (46009, 107,        182) /* ItemCurMana */
      , (46009, 108,        400) /* ItemMaxMana */
      , (46009, 109,        100) /* ItemDifficulty */
-     , (46009, 114,          1) /* Attuned - Attuned */
-     , (46009, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46009, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46009,  22, True ) /* Inscribable */
@@ -45,28 +44,8 @@ VALUES (46009,   1,   33554644) /* Setup */
      , (46009,   3,  536870932) /* SoundTable */
      , (46009,   6,   67108990) /* PaletteBase */
      , (46009,   8,  100667379) /* Icon */
-     , (46009,  22,  872415275) /* PhysicsEffectTable */
-     , (46009, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (46009, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46009, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46009, 8000, 3041657111) /* PCAPRecordedObjectIID */;
+     , (46009,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46009,  1456,      2) 
      , (46009,  2584,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46009, 67110339, 40, 24)
-     , (46009, 67110550, 92, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46009, 0, 83887061, 83886686)
-     , (46009, 0, 83889072, 83886685)
-     , (46009, 0, 83889342, 83889386)
-     , (46009, 0, 83886788, 83891213)
-     , (46009, 0, 83886796, 83886782);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46009, 0, 16778356);

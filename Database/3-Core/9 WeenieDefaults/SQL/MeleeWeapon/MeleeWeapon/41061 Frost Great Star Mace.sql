@@ -32,9 +32,7 @@ VALUES (41061,   1,          1) /* ItemType - MeleeWeapon */
      , (41061, 172,          1) /* AppraisalLongDescDecoration */
      , (41061, 176,         41) /* AppraisalItemSkill */
      , (41061, 292,          2) /* Cleaving */
-     , (41061, 353,         11) /* WeaponType - TwoHanded */
-     , (41061, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41061, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41061, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41061,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (41061,   5,   -0.05) /* ManaRate */
      , (41061,  26,       0) /* MaximumVelocity */
      , (41061,  29,    1.05) /* WeaponDefense */
      , (41061,  62,    1.08) /* WeaponOffense */
-     , (41061,  63,       1) /* DamageMod */
-     , (41061, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (41061,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41061,   1, 'Frost Great Star Mace') /* Name */
@@ -58,26 +55,9 @@ VALUES (41061,   1,   33560831) /* Setup */
      , (41061,   3,  536870932) /* SoundTable */
      , (41061,   6,   67115558) /* PaletteBase */
      , (41061,   8,  100690536) /* Icon */
-     , (41061,  22,  872415275) /* PhysicsEffectTable */
-     , (41061, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41061, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41061, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41061, 8000, 3360094368) /* PCAPRecordedObjectIID */;
+     , (41061,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41061,  1591,      2) 
      , (41061,  1616,      2) 
      , (41061,  1627,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41061, 67116386, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41061, 0, 83897966, 83897966)
-     , (41061, 0, 83896665, 83896665)
-     , (41061, 0, 83896155, 83896155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41061, 0, 16794292);

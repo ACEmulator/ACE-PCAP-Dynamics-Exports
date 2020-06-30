@@ -9,8 +9,7 @@ VALUES (36913,   1,        128) /* ItemType - Misc */
      , (36913,  16,          1) /* ItemUseable - No */
      , (36913,  19,       5000) /* Value */
      , (36913,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36913, 151,          1) /* HookType - Floor */
-     , (36913, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36913, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36913,  22, True ) /* Inscribable */;
@@ -25,10 +24,4 @@ VALUES (36913,   1, 'Grand Bed') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36913,   1,   33560423) /* Setup */
-     , (36913,   8,  100689743) /* Icon */
-     , (36913, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (36913, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36913, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36913, 8000, 2192145778) /* PCAPRecordedObjectIID */;
+     , (36913,   8,  100689743) /* Icon */;

@@ -13,8 +13,7 @@ VALUES (37254,   1,        128) /* ItemType - Misc */
      , (37254,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37254,  19,          0) /* Value */
      , (37254,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37254,  94,        128) /* TargetType - Misc */
-     , (37254, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37254,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37254,   1, 'Eight of Eyes') /* Name */
@@ -25,14 +24,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37254,   1,   33560547) /* Setup */
      , (37254,   3,  536870932) /* SoundTable */
      , (37254,   8,  100689855) /* Icon */
-     , (37254,  22,  872415275) /* PhysicsEffectTable */
-     , (37254, 8001,    2633745) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, TargetType, Burden */
-     , (37254, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37254, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (37254,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37254, 8040, 23855554, 56.36537, -33.01735, -9.313226E-10, -0.3129411, 0, 0, -0.9497725) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.365370 -33.017350 0.000000] -0.312941 0.000000 0.000000 -0.949773 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37254, 8000, 3704135978) /* PCAPRecordedObjectIID */;

@@ -15,8 +15,7 @@ VALUES (28611,   1,          4) /* ItemType - Clothing */
      , (28611,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28611, 105,          3) /* ItemWorkmanship */
      , (28611, 131,         54) /* MaterialType - GromnieHide */
-     , (28611, 172,          1) /* AppraisalLongDescDecoration */
-     , (28611, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28611, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28611,  22, True ) /* Inscribable */
@@ -30,8 +29,7 @@ VALUES (28611,  13,       1) /* ArmorModVsSlash */
      , (28611,  17,     0.5) /* ArmorModVsFire */
      , (28611,  18,     0.3) /* ArmorModVsAcid */
      , (28611,  19,     0.6) /* ArmorModVsElectric */
-     , (28611, 165,       1) /* ArmorModVsNether */
-     , (28611, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (28611, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28611,   1, 'Viamontian Laced Boots') /* Name */
@@ -42,13 +40,4 @@ VALUES (28611,   1,   33559325) /* Setup */
      , (28611,   3,  536870932) /* SoundTable */
      , (28611,   6,   67108990) /* PaletteBase */
      , (28611,   8,  100682436) /* Icon */
-     , (28611,  22,  872415275) /* PhysicsEffectTable */
-     , (28611, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28611, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28611, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28611, 8000, 2174501823) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28611, 67115819, 160, 8);
+     , (28611,  22,  872415275) /* PhysicsEffectTable */;

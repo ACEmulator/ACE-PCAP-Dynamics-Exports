@@ -27,8 +27,7 @@ VALUES (44801,   1,          2) /* ItemType - Armor */
      , (44801, 172,          5) /* AppraisalLongDescDecoration */
      , (44801, 177,          4) /* GemCount */
      , (44801, 178,         26) /* GemType */
-     , (44801, 265,         15) /* EquipmentSetId - Archers */
-     , (44801, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44801, 265,         15) /* EquipmentSetId - Archers */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44801,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (44801,   5,  -0.067) /* ManaRate */
      , (44801,  17,     0.5) /* ArmorModVsFire */
      , (44801,  18,   0.859) /* ArmorModVsAcid */
      , (44801,  19,     0.8) /* ArmorModVsElectric */
-     , (44801, 165,       1) /* ArmorModVsNether */
-     , (44801, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (44801, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44801,   1, 'Suikan Over-robe') /* Name */
@@ -55,13 +53,7 @@ VALUES (44801,   1,   33554854) /* Setup */
      , (44801,   3,  536870932) /* SoundTable */
      , (44801,   6,   67108990) /* PaletteBase */
      , (44801,   8,  100670378) /* Icon */
-     , (44801,  22,  872415275) /* PhysicsEffectTable */
-     , (44801, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (44801, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44801, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44801, 8000, 2174542952) /* PCAPRecordedObjectIID */;
+     , (44801,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44801,  1552,      2) 
@@ -71,17 +63,3 @@ VALUES (44801,  1552,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44801, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44801, 67110357, 216, 24)
-     , (44801, 67110379, 186, 12)
-     , (44801, 67110551, 174, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44801, 0, 83887061, 83898645)
-     , (44801, 0, 83887060, 83898646)
-     , (44801, 0, 83889072, 83898647)
-     , (44801, 0, 83889342, 83898635);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44801, 0, 16778367);

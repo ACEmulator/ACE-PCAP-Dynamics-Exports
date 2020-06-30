@@ -17,8 +17,7 @@ VALUES (8439,   1,         16) /* ItemType - Creature */
      , (8439, 113,          2) /* Gender - Female */
      , (8439, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8439, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8439, 188,          1) /* HeritageGroup - Aluvian */
-     , (8439, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8439, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8439,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8439,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8439,   1, 'Natalie the Scribe') /* Name */
-     , (8439,   5, 'Scribe') /* Template */
-     , (8439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8439,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8439,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8439,   1,   33554510) /* Setup */
      , (8439,  11,   83890340) /* MouthTexture */
      , (8439,  15,   67116979) /* HairPalette */
      , (8439,  16,   67109564) /* EyesPalette */
-     , (8439,  17,   67109559) /* SkinPalette */
-     , (8439, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8439, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8439, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8439,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8439, 8040, 3911319869, 132.711, 64.0936, -1.195, -0.4245183, 0, 0, -0.9054193) /* PCAPRecordedLocation */
 /* @teleloc 0xE922013D [132.711000 64.093600 -1.195000] -0.424518 0.000000 0.000000 -0.905419 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8439, 8000, 2123505686) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8439,   1, 100, 0, 0) /* Strength */
@@ -86,51 +78,3 @@ VALUES (8439, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (8439, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (8439, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (8439, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8439, 67109559, 0, 24)
-     , (8439, 67109564, 32, 8)
-     , (8439, 67109965, 92, 4)
-     , (8439, 67109968, 72, 8)
-     , (8439, 67110326, 250, 6)
-     , (8439, 67110328, 240, 10)
-     , (8439, 67110338, 64, 8)
-     , (8439, 67110369, 40, 24)
-     , (8439, 67110375, 160, 8)
-     , (8439, 67116979, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8439, 0, 83889072, 83890012)
-     , (8439, 0, 83889342, 83890011)
-     , (8439, 1, 83887064, 83886241)
-     , (8439, 3, 83889344, 83887054)
-     , (8439, 4, 83887068, 83887054)
-     , (8439, 5, 83887064, 83886241)
-     , (8439, 7, 83889344, 83887054)
-     , (8439, 8, 83887068, 83887054)
-     , (8439, 9, 83887070, 83890009)
-     , (8439, 9, 83887062, 83890010)
-     , (8439, 16, 83886232, 83890685)
-     , (8439, 16, 83886668, 83890276)
-     , (8439, 16, 83886837, 83890304)
-     , (8439, 16, 83886684, 83890340)
-     , (8439, 16, 83892358, 83892358);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8439, 0, 16781875)
-     , (8439, 1, 16778430)
-     , (8439, 2, 16778436)
-     , (8439, 3, 16777292)
-     , (8439, 4, 16781855)
-     , (8439, 5, 16778438)
-     , (8439, 6, 16778437)
-     , (8439, 7, 16777296)
-     , (8439, 8, 16781859)
-     , (8439, 9, 16778425)
-     , (8439, 10, 16778431)
-     , (8439, 11, 16778429)
-     , (8439, 12, 16778423)
-     , (8439, 13, 16778434)
-     , (8439, 14, 16778424)
-     , (8439, 15, 16778435)
-     , (8439, 16, 16783901);

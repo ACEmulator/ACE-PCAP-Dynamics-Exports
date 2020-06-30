@@ -10,8 +10,7 @@ VALUES (23605,   1,        512) /* ItemType - Container */
      , (23605,   7,         10) /* ContainersCapacity */
      , (23605,  16,         48) /* ItemUseable - ViewedRemote */
      , (23605,  19,       2500) /* Value */
-     , (23605,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (23605, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23605,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23605,   1, True ) /* Stuck */;
@@ -20,25 +19,18 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23605,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23605,   1, 'Runed Chest') /* Name */
-     , (23605, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (23605,   1, 'Runed Chest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23605,   1,   33558095) /* Setup */
      , (23605,   2,  150994948) /* MotionTable */
      , (23605,   3,  536870945) /* SoundTable */
      , (23605,   8,  100667424) /* Icon */
-     , (23605,  22,  872415275) /* PhysicsEffectTable */
-     , (23605, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (23605, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (23605, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (23605,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23605, 8040, 2112749826, 80.3325, 133.726, 156, -0.7893887, 0, 0, -0.6138937) /* PCAPRecordedLocation */
 /* @teleloc 0x7DEE0102 [80.332500 133.726000 156.000000] -0.789389 0.000000 0.000000 -0.613894 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23605, 8000, 2011095075) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23605, -1, 12463, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Atlatl (12463) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -12,8 +12,7 @@ VALUES (228,   1,         16) /* ItemType - Creature */
      , (228,  25,        100) /* Level */
      , (228,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (228, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (228, 307,          5) /* DamageRating */
-     , (228, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (228, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (228,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (228,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (228,   1, 'Tumerok High Priest') /* Name */
-     , (228, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (228,   1, 'Tumerok High Priest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (228,   1,   33559553) /* Setup */
@@ -31,17 +29,11 @@ VALUES (228,   1,   33559553) /* Setup */
      , (228,   3,  536870931) /* SoundTable */
      , (228,   6,   67116625) /* PaletteBase */
      , (228,   8,  100667452) /* Icon */
-     , (228,  22,  872415270) /* PhysicsEffectTable */
-     , (228, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (228, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (228, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (228,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (228, 8040, 1537015848, 118.7081, 180.5042, 21.79069, -0.258545, 0, 0, -0.9659992) /* PCAPRecordedLocation */
 /* @teleloc 0x5B9D0028 [118.708100 180.504200 21.790690] -0.258545 0.000000 0.000000 -0.965999 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (228, 8000, 3686586904) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (228,   1, 240, 0, 0) /* Strength */
@@ -111,11 +103,3 @@ VALUES (228, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for Wie
      , (228, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
      , (228, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (228, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (228, 67116625, 57, 48)
-     , (228, 67116625, 153, 47)
-     , (228, 67116641, 105, 48)
-     , (228, 67116641, 208, 48)
-     , (228, 67116642, 200, 8)
-     , (228, 67116650, 1, 48);

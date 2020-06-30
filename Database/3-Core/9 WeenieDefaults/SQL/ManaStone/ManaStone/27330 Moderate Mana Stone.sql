@@ -11,8 +11,7 @@ VALUES (27330,   1,     524288) /* ItemType - ManaStone */
      , (27330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27330,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (27330, 107,          0) /* ItemCurMana */
-     , (27330, 151,          2) /* HookType - Wall */
-     , (27330, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27330, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27330,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (27330,   1, 'Moderate Mana Stone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27330,   1,   33555641) /* Setup */
-     , (27330,   8,  100676305) /* Icon */
-     , (27330, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
-     , (27330, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27330, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27330, 8000, 3685782341) /* PCAPRecordedObjectIID */;
+     , (27330,   8,  100676305) /* Icon */;

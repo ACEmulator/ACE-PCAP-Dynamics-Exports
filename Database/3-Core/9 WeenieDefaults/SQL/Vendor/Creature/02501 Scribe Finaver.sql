@@ -17,8 +17,7 @@ VALUES (2501,   1,         16) /* ItemType - Creature */
      , (2501, 113,          1) /* Gender - Male */
      , (2501, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2501, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2501, 188,          1) /* HeritageGroup - Aluvian */
-     , (2501, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2501, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2501,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2501,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2501,   1, 'Scribe Finaver') /* Name */
-     , (2501,   5, 'Archmage') /* Template */
-     , (2501, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2501,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2501,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2501,   1,   33554433) /* Setup */
      , (2501,  11,   83890613) /* MouthTexture */
      , (2501,  15,   67116986) /* HairPalette */
      , (2501,  16,   67109566) /* EyesPalette */
-     , (2501,  17,   67109559) /* SkinPalette */
-     , (2501, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2501, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2501, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2501,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2501, 8040, 1236664599, 13.028, 106.762, 240.005, 0.8180661, 0, 0, -0.5751241) /* PCAPRecordedLocation */
 /* @teleloc 0x49B60117 [13.028000 106.762000 240.005000] 0.818066 0.000000 0.000000 -0.575124 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2501, 8000, 1956339732) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2501,   1,  60, 0, 0) /* Strength */
@@ -184,57 +176,3 @@ VALUES (2501, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2501, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2501, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (2501, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2501, 67109559, 0, 24)
-     , (2501, 67109566, 32, 8)
-     , (2501, 67109964, 92, 4)
-     , (2501, 67110026, 72, 8)
-     , (2501, 67110334, 40, 24)
-     , (2501, 67110334, 250, 6)
-     , (2501, 67110356, 216, 24)
-     , (2501, 67110375, 160, 8)
-     , (2501, 67111245, 64, 8)
-     , (2501, 67116986, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2501, 0, 83889072, 83890012)
-     , (2501, 0, 83889342, 83890011)
-     , (2501, 1, 83887064, 83886241)
-     , (2501, 2, 83887066, 83887055)
-     , (2501, 3, 83889344, 83887054)
-     , (2501, 4, 83887068, 83887054)
-     , (2501, 5, 83887064, 83886241)
-     , (2501, 6, 83887066, 83887055)
-     , (2501, 7, 83889344, 83887054)
-     , (2501, 8, 83887068, 83887054)
-     , (2501, 9, 83887061, 83890009)
-     , (2501, 9, 83887060, 83890010)
-     , (2501, 10, 83887069, 83886782)
-     , (2501, 11, 83887067, 83891213)
-     , (2501, 13, 83887069, 83886782)
-     , (2501, 14, 83887067, 83891213)
-     , (2501, 16, 83886232, 83890685)
-     , (2501, 16, 83886668, 83890485)
-     , (2501, 16, 83886837, 83890558)
-     , (2501, 16, 83886684, 83890613)
-     , (2501, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2501, 0, 16781835)
-     , (2501, 1, 16777295)
-     , (2501, 2, 16777293)
-     , (2501, 3, 16777292)
-     , (2501, 4, 16777291)
-     , (2501, 5, 16777299)
-     , (2501, 6, 16777297)
-     , (2501, 7, 16777296)
-     , (2501, 8, 16777298)
-     , (2501, 9, 16777300)
-     , (2501, 10, 16777301)
-     , (2501, 11, 16777302)
-     , (2501, 12, 16777304)
-     , (2501, 13, 16777303)
-     , (2501, 14, 16777305)
-     , (2501, 15, 16777307)
-     , (2501, 16, 16779630);

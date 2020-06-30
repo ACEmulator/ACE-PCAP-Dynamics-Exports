@@ -11,8 +11,7 @@ VALUES (19263,   1,         16) /* ItemType - Creature */
      , (19263,  16,          1) /* ItemUseable - No */
      , (19263,  25,          8) /* Level */
      , (19263,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19263, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (19263, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19263, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19263,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19263,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19263,   1, 'Gnawer Shreth') /* Name */
-     , (19263, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19263,   1, 'Gnawer Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19263,   1,   33555908) /* Setup */
@@ -30,17 +28,11 @@ VALUES (19263,   1,   33555908) /* Setup */
      , (19263,   3,  536870986) /* SoundTable */
      , (19263,   6,   67112444) /* PaletteBase */
      , (19263,   8,  100669720) /* Icon */
-     , (19263,  22,  872415333) /* PhysicsEffectTable */
-     , (19263, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19263, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19263, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (19263,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19263, 8040, 3713269779, 53.2374, 67.94697, 8.334752, -0.09558646, 0, 0, -0.9954211) /* PCAPRecordedLocation */
 /* @teleloc 0xDD540013 [53.237400 67.946970 8.334752] -0.095586 0.000000 0.000000 -0.995421 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19263, 8000, 3685110986) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19263,   1,  30, 0, 0) /* Strength */
@@ -162,6 +154,3 @@ VALUES (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554
      , (19263, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
      , (19263, 9,  2832,  0, 0, 0, False) /* Create Aura of Heartseeker Self II (2832) for ContainTreasure */
      , (19263, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19263, 67112469, 0, 0);

@@ -33,9 +33,7 @@ VALUES (22440,   1,          1) /* ItemType - MeleeWeapon */
      , (22440, 176,         44) /* AppraisalItemSkill */
      , (22440, 177,          2) /* GemCount */
      , (22440, 178,         20) /* GemType */
-     , (22440, 353,          6) /* WeaponType - Dagger */
-     , (22440, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22440, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22440, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22440,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (22440,   5,  -0.056) /* ManaRate */
      , (22440,  26,       0) /* MaximumVelocity */
      , (22440,  29,    1.15) /* WeaponDefense */
      , (22440,  62,    1.11) /* WeaponOffense */
-     , (22440,  63,       1) /* DamageMod */
-     , (22440, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (22440,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22440,   1, 'Dirk') /* Name */
@@ -59,17 +56,11 @@ VALUES (22440,   1,   33558089) /* Setup */
      , (22440,   3,  536870932) /* SoundTable */
      , (22440,   6,   67111919) /* PaletteBase */
      , (22440,   8,  100673792) /* Icon */
-     , (22440,  22,  872415275) /* PhysicsEffectTable */
-     , (22440, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (22440, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22440, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (22440,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22440, 8040, 23855554, 56.35539, -27.39627, 0.1, -0.9926327, 0, 0, 0.1211626) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [56.355390 -27.396270 0.100000] -0.992633 0.000000 0.000000 0.121163 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22440, 8000, 3536878741) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22440,  2096,      2) 
@@ -79,16 +70,3 @@ VALUES (22440,  2096,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22440, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22440, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22440, 0, 83886739, 83886739)
-     , (22440, 0, 83894357, 83894357)
-     , (22440, 0, 83894375, 83894375)
-     , (22440, 0, 83886709, 83886709)
-     , (22440, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22440, 0, 16788591);

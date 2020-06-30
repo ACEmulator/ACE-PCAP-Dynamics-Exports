@@ -8,8 +8,7 @@ VALUES (46873,   1,       8192) /* ItemType - Writable */
      , (46873,   5,         30) /* EncumbranceVal */
      , (46873,  16,          8) /* ItemUseable - Contained */
      , (46873,  19,          5) /* Value */
-     , (46873,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (46873, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46873,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46873,  22, True ) /* Inscribable */;
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46873,   1,   33554826) /* Setup */
      , (46873,   8,  100676655) /* Icon */
      , (46873,  22,  872415275) /* PhysicsEffectTable */
-     , (46873,  28,       5991) /* Spell - BloodDrinkerOther2 */
-     , (46873, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
-     , (46873, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46873, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46873, 8000, 3615154351) /* PCAPRecordedObjectIID */;
+     , (46873,  28,       5991) /* Spell - BloodDrinkerOther2 */;

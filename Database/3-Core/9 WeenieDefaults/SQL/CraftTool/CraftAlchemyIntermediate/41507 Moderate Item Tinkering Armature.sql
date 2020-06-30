@@ -14,8 +14,7 @@ VALUES (41507,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41507,  19,      10000) /* Value */
      , (41507,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41507,  94,          8) /* TargetType - Jewelry */
-     , (41507, 151,          9) /* HookType - Floor, Yard */
-     , (41507, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41507, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41507,   1, 'Moderate Item Tinkering Armature') /* Name */
@@ -26,19 +25,4 @@ VALUES (41507,   1,   33554817) /* Setup */
      , (41507,   3,  536870932) /* SoundTable */
      , (41507,   6,   67111919) /* PaletteBase */
      , (41507,   8,  100673216) /* Icon */
-     , (41507,  22,  872415275) /* PhysicsEffectTable */
-     , (41507, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (41507, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (41507, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41507, 8000, 2464784206) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41507, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41507, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41507, 0, 16777882);
+     , (41507,  22,  872415275) /* PhysicsEffectTable */;

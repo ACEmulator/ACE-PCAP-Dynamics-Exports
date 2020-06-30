@@ -12,8 +12,7 @@ VALUES (7999,   1,        256) /* ItemType - MissileWeapon */
      , (7999,  19,       1000) /* Value */
      , (7999,  50,          8) /* AmmoType - ArrowCrystal */
      , (7999,  51,          2) /* CombatUse - Missle */
-     , (7999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7999, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7999,  22, True ) /* Inscribable */;
@@ -30,29 +29,4 @@ VALUES (7999,   1,   33554729) /* Setup */
      , (7999,   3,  536870932) /* SoundTable */
      , (7999,   6,   67111919) /* PaletteBase */
      , (7999,   8,  100670998) /* Icon */
-     , (7999,  22,  872415275) /* PhysicsEffectTable */
-     , (7999, 8001,    2179992) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden */
-     , (7999, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7999, 8005,     399489) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7999, 8000, 2484794183) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7999, 67112924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7999, 2, 83886740, 83890391)
-     , (7999, 3, 83888778, 83890391)
-     , (7999, 4, 83888778, 83890391)
-     , (7999, 6, 83888778, 83890391)
-     , (7999, 7, 83888778, 83890391)
-     , (7999, 8, 83886740, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7999, 2, 16779370)
-     , (7999, 3, 16779369)
-     , (7999, 4, 16779366)
-     , (7999, 6, 16779367)
-     , (7999, 7, 16779363)
-     , (7999, 8, 16779364);
+     , (7999,  22,  872415275) /* PhysicsEffectTable */;

@@ -17,8 +17,7 @@ VALUES (4447,   1,         16) /* ItemType - Creature */
      , (4447, 113,          2) /* Gender - Female */
      , (4447, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4447, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4447, 188,          1) /* HeritageGroup - Aluvian */
-     , (4447, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4447, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4447,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4447,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4447,   1, 'Tromylda the Shopkeeper') /* Name */
-     , (4447,   5, 'Shopkeeper') /* Template */
-     , (4447, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4447,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4447,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4447,   1,   33554510) /* Setup */
      , (4447,  11,   83890342) /* MouthTexture */
      , (4447,  15,   67117019) /* HairPalette */
      , (4447,  16,   67110064) /* EyesPalette */
-     , (4447,  17,   67109562) /* SkinPalette */
-     , (4447, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4447, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4447, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4447,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4447, 8040, 3145728265, 175.598, 128.992, 44.005, -0.5429179, 0, 0, -0.8397858) /* PCAPRecordedLocation */
 /* @teleloc 0xBB800109 [175.598000 128.992000 44.005000] -0.542918 0.000000 0.000000 -0.839786 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4447, 8000, 2075656196) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4447,   1,  80, 0, 0) /* Strength */
@@ -110,55 +102,3 @@ VALUES (4447, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (4447, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (4447, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (4447, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4447, 67109562, 0, 24)
-     , (4447, 67109965, 92, 4)
-     , (4447, 67110064, 32, 8)
-     , (4447, 67110346, 216, 24)
-     , (4447, 67110351, 64, 8)
-     , (4447, 67110375, 40, 24)
-     , (4447, 67110375, 160, 8)
-     , (4447, 67110544, 72, 8)
-     , (4447, 67117019, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4447, 0, 83889072, 83890012)
-     , (4447, 0, 83889342, 83890011)
-     , (4447, 1, 83887064, 83886241)
-     , (4447, 2, 83887066, 83887051)
-     , (4447, 3, 83889344, 83887054)
-     , (4447, 4, 83887068, 83887054)
-     , (4447, 5, 83887064, 83886241)
-     , (4447, 6, 83887066, 83887051)
-     , (4447, 7, 83889344, 83887054)
-     , (4447, 8, 83887068, 83887054)
-     , (4447, 9, 83887070, 83890009)
-     , (4447, 9, 83887062, 83890010)
-     , (4447, 10, 83887069, 83886782)
-     , (4447, 11, 83887067, 83891213)
-     , (4447, 13, 83887069, 83886782)
-     , (4447, 14, 83887067, 83891213)
-     , (4447, 16, 83886232, 83890685)
-     , (4447, 16, 83886668, 83890276)
-     , (4447, 16, 83886837, 83890317)
-     , (4447, 16, 83886684, 83890342);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4447, 0, 16781875)
-     , (4447, 1, 16778430)
-     , (4447, 2, 16778436)
-     , (4447, 3, 16778361)
-     , (4447, 4, 16778426)
-     , (4447, 5, 16778438)
-     , (4447, 6, 16778437)
-     , (4447, 7, 16778360)
-     , (4447, 8, 16778428)
-     , (4447, 9, 16778425)
-     , (4447, 10, 16778431)
-     , (4447, 11, 16778429)
-     , (4447, 12, 16778423)
-     , (4447, 13, 16778434)
-     , (4447, 14, 16778424)
-     , (4447, 15, 16778435)
-     , (4447, 16, 16795662);

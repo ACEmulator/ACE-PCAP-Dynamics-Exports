@@ -34,9 +34,7 @@ VALUES (29249,   1,        256) /* ItemType - MissileWeapon */
      , (29249, 177,          3) /* GemCount */
      , (29249, 178,         21) /* GemType */
      , (29249, 204,         14) /* ElementalDamageBonus */
-     , (29249, 353,          9) /* WeaponType - Crossbow */
-     , (29249, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29249, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29249,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (29249,   5,  -0.056) /* ManaRate */
      , (29249,  29,    1.17) /* WeaponDefense */
      , (29249,  39,    1.25) /* DefaultScale */
      , (29249,  62,       1) /* WeaponOffense */
-     , (29249,  63,    2.63) /* DamageMod */
-     , (29249, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (29249,  63,    2.63) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29249,   1, 'Frost Crossbow') /* Name */
@@ -61,28 +58,10 @@ VALUES (29249,   1,   33559236) /* Setup */
      , (29249,   3,  536870932) /* SoundTable */
      , (29249,   6,   67115373) /* PaletteBase */
      , (29249,   8,  100677446) /* Icon */
-     , (29249,  22,  872415275) /* PhysicsEffectTable */
-     , (29249, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29249, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29249, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29249, 8000, 3699873609) /* PCAPRecordedObjectIID */;
+     , (29249,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29249,  2096,      2) 
      , (29249,  2116,      2) 
      , (29249,  2596,      2) 
      , (29249,  5785,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29249, 67115375, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29249, 0, 83895601, 83895601)
-     , (29249, 0, 83895603, 83895603)
-     , (29249, 0, 83895602, 83895602)
-     , (29249, 0, 83895598, 83895598);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29249, 0, 16791343);

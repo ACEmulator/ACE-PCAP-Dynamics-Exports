@@ -33,9 +33,7 @@ VALUES (7790,   1,          1) /* ItemType - MeleeWeapon */
      , (7790, 176,         45) /* AppraisalItemSkill */
      , (7790, 177,          4) /* GemCount */
      , (7790, 178,         47) /* GemType */
-     , (7790, 353,          4) /* WeaponType - Mace */
-     , (7790, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7790, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7790, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7790,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (7790,   5,  -0.056) /* ManaRate */
      , (7790,  26,       0) /* MaximumVelocity */
      , (7790,  29,    1.11) /* WeaponDefense */
      , (7790,  62,    1.11) /* WeaponOffense */
-     , (7790,  63,       1) /* DamageMod */
-     , (7790, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (7790,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7790,   1, 'Electric Spiked Club') /* Name */
@@ -59,13 +56,7 @@ VALUES (7790,   1,   33556659) /* Setup */
      , (7790,   3,  536870932) /* SoundTable */
      , (7790,   6,   67111919) /* PaletteBase */
      , (7790,   8,  100670774) /* Icon */
-     , (7790,  22,  872415275) /* PhysicsEffectTable */
-     , (7790, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (7790, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7790, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7790, 8000, 3469922999) /* PCAPRecordedObjectIID */;
+     , (7790,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7790,  2096,      2) 
@@ -73,15 +64,3 @@ VALUES (7790,  2096,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7790, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7790, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7790, 0, 83889088, 83889088)
-     , (7790, 0, 83889236, 83889236)
-     , (7790, 0, 83889233, 83889233)
-     , (7790, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7790, 0, 16784596);

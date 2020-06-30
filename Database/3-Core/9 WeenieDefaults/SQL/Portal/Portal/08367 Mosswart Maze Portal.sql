@@ -8,8 +8,7 @@ VALUES (8367,   1,      65536) /* ItemType - Portal */
      , (8367,  16,         32) /* ItemUseable - Remote */
      , (8367,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (8367, 111,          1) /* PortalBitmask - Unrestricted */
-     , (8367, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (8367, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8367, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8367,   1, True ) /* Stuck */;
@@ -18,20 +17,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8367,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8367,   1, 'Mosswart Maze Portal') /* Name */
-     , (8367, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (8367,   1, 'Mosswart Maze Portal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8367,   1,   33554867) /* Setup */
      , (8367,   2,  150994947) /* MotionTable */
-     , (8367,   8,  100667499) /* Icon */
-     , (8367, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (8367, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (8367, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (8367,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8367, 8040, 2539585584, 127.542, 171.646, 8.5655, 0.7155962, 0, 0, -0.6985142) /* PCAPRecordedLocation */
 /* @teleloc 0x975F0030 [127.542000 171.646000 8.565500] 0.715596 0.000000 0.000000 -0.698514 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8367, 8000, 2037772288) /* PCAPRecordedObjectIID */;

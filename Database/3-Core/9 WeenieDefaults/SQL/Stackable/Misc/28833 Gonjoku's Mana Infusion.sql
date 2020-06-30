@@ -19,8 +19,7 @@ VALUES (28833,   1,        128) /* ItemType - Misc */
      , (28833, 108,        100) /* ItemMaxMana */
      , (28833, 109,          0) /* ItemDifficulty */
      , (28833, 114,          0) /* Attuned - Normal */
-     , (28833, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (28833, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28833, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28833,   1, 'Gonjoku''s Mana Infusion') /* Name */
@@ -32,13 +31,7 @@ VALUES (28833,   1,   33554603) /* Setup */
      , (28833,   3,  536870932) /* SoundTable */
      , (28833,   8,  100686392) /* Icon */
      , (28833,  22,  872415275) /* PhysicsEffectTable */
-     , (28833,  28,       1999) /* Spell - ManaGiver */
-     , (28833, 8001,  274755600) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
-     , (28833, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (28833, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28833, 8000, 2174519219) /* PCAPRecordedObjectIID */;
+     , (28833,  28,       1999) /* Spell - ManaGiver */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28833,  1999,      2) ;

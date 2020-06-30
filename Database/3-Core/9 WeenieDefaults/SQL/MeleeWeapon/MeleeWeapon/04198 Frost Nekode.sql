@@ -21,9 +21,7 @@ VALUES (4198,   1,          1) /* ItemType - MeleeWeapon */
      , (4198, 131,         64) /* MaterialType - Steel */
      , (4198, 151,          2) /* HookType - Wall */
      , (4198, 172,          1) /* AppraisalLongDescDecoration */
-     , (4198, 353,          1) /* WeaponType - Unarmed */
-     , (4198, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (4198, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4198, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4198,  22, True ) /* Inscribable */;
@@ -34,8 +32,7 @@ VALUES (4198,  21,       0) /* WeaponLength */
      , (4198,  26,       0) /* MaximumVelocity */
      , (4198,  29,    1.05) /* WeaponDefense */
      , (4198,  62,    1.01) /* WeaponOffense */
-     , (4198,  63,       1) /* DamageMod */
-     , (4198, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (4198,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4198,   1, 'Frost Nekode') /* Name */
@@ -45,10 +42,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4198,   1,   33555990) /* Setup */
      , (4198,   3,  536870932) /* SoundTable */
      , (4198,   8,  100670027) /* Icon */
-     , (4198,  22,  872415275) /* PhysicsEffectTable */
-     , (4198, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (4198, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (4198, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4198, 8000, 3692118046) /* PCAPRecordedObjectIID */;
+     , (4198,  22,  872415275) /* PhysicsEffectTable */;

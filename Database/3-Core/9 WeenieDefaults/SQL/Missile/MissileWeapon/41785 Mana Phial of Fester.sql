@@ -25,9 +25,7 @@ VALUES (41785,   1,        256) /* ItemType - MissileWeapon */
      , (41785, 158,          2) /* WieldRequirements - RawSkill */
      , (41785, 159,         38) /* WieldSkillType - Alchemy */
      , (41785, 160,        400) /* WieldDifficulty */
-     , (41785, 353,         10) /* WeaponType - Thrown */
-     , (41785, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41785, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41785, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41785,  69, False) /* IsSellable */;
@@ -55,23 +53,8 @@ VALUES (41785,   1,   33560312) /* Setup */
      , (41785,   8,  100690318) /* Icon */
      , (41785,  22,  872415275) /* PhysicsEffectTable */
      , (41785,  50,  100690194) /* IconOverlay */
-     , (41785,  55,       2178) /* ProcSpell - FesterOther7 */
-     , (41785, 8001, 1075933721) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, IconOverlay */
-     , (41785, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (41785, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41785, 8000, 2210356837) /* PCAPRecordedObjectIID */;
+     , (41785,  55,       2178) /* ProcSpell - FesterOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41785,  2178,      2) 
      , (41785,  4017,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41785, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41785, 0, 83890047, 83890047);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41785, 0, 16793601);

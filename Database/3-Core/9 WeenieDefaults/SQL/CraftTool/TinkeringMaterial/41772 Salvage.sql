@@ -17,14 +17,10 @@ VALUES (41772,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (41772,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41772,  94, 1140850688) /* TargetType - CraftAlchemyIntermediate, TinkeringMaterial */
      , (41772, 131,         62) /* MaterialType - Pyreal */
-     , (41772, 151,          9) /* HookType - Floor, Yard */
-     , (41772, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41772, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41772,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (41772, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41772,   1, 'Salvage') /* Name */;
@@ -35,19 +31,4 @@ VALUES (41772,   1,   33554817) /* Setup */
      , (41772,   6,   67111919) /* PaletteBase */
      , (41772,   8,  100673222) /* Icon */
      , (41772,  22,  872415275) /* PhysicsEffectTable */
-     , (41772,  50,  100673291) /* IconOverlay */
-     , (41772, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (41772, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41772, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41772, 8000, 3299243880) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41772, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41772, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41772, 0, 16777882);
+     , (41772,  50,  100673291) /* IconOverlay */;

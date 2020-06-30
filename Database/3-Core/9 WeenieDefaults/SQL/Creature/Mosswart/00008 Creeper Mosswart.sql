@@ -12,8 +12,7 @@ VALUES (8,   1,         16) /* ItemType - Creature */
      , (8,  25,          8) /* Level */
      , (8,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (8, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8, 307,          5) /* DamageRating */
-     , (8, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8,   1, 'Creeper Mosswart') /* Name */
-     , (8, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (8,   1, 'Creeper Mosswart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8,   1,   33557327) /* Setup */
@@ -31,17 +29,11 @@ VALUES (8,   1,   33557327) /* Setup */
      , (8,   3,  536870959) /* SoundTable */
      , (8,   6,   67113400) /* PaletteBase */
      , (8,   8,  100667449) /* Icon */
-     , (8,  22,  872415264) /* PhysicsEffectTable */
-     , (8, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (8, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (8,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8, 8040, 3127902248, 108.2983, 175.8069, 16.00495, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xBA700028 [108.298300 175.806900 16.004950] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8, 8000, 3685099315) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8,   1, 100, 0, 0) /* Strength */
@@ -182,44 +174,3 @@ VALUES (8, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */
      , (8, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
      , (8, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (8, 9, 49471,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self II (49471) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8, 67113411, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8, 0, 83893769, 83893769)
-     , (8, 1, 83893768, 83893768)
-     , (8, 2, 83893766, 83893777)
-     , (8, 3, 83893766, 83893777)
-     , (8, 4, 83893766, 83893777)
-     , (8, 5, 83893766, 83893777)
-     , (8, 6, 83893766, 83893777)
-     , (8, 7, 83893766, 83893777)
-     , (8, 8, 83893767, 83893767)
-     , (8, 9, 83893768, 83893768)
-     , (8, 10, 83893766, 83893777)
-     , (8, 11, 83893767, 83893767)
-     , (8, 12, 83893768, 83893768)
-     , (8, 13, 83893766, 83893777)
-     , (8, 14, 83893766, 83893777)
-     , (8, 15, 83893766, 83893777)
-     , (8, 16, 83893766, 83893777);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8, 0, 16787248)
-     , (8, 1, 16787249)
-     , (8, 2, 16787261)
-     , (8, 3, 16787254)
-     , (8, 4, 16787250)
-     , (8, 5, 16787259)
-     , (8, 6, 16787255)
-     , (8, 7, 16787253)
-     , (8, 8, 16787260)
-     , (8, 9, 16787262)
-     , (8, 10, 16787252)
-     , (8, 11, 16787258)
-     , (8, 12, 16787263)
-     , (8, 13, 16787251)
-     , (8, 14, 16787247)
-     , (8, 15, 16787257)
-     , (8, 16, 16787256);

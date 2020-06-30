@@ -21,14 +21,10 @@ VALUES (36625,   1,        128) /* ItemType - Misc */
      , (36625, 105,        100) /* ItemWorkmanship */
      , (36625, 131,         27) /* MaterialType - Jet */
      , (36625, 151,          9) /* HookType - Floor, Yard */
-     , (36625, 170,         10) /* NumItemsInMaterial */
-     , (36625, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36625, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36625,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36625, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36625,   1, 'Foolproof Jet') /* Name */
@@ -41,19 +37,4 @@ VALUES (36625,   1,   33554817) /* Setup */
      , (36625,   6,   67111919) /* PaletteBase */
      , (36625,   8,  100686616) /* Icon */
      , (36625,  22,  872415275) /* PhysicsEffectTable */
-     , (36625,  50,  100673280) /* IconOverlay */
-     , (36625, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (36625, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36625, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36625, 8000, 3320782347) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36625, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36625, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36625, 0, 16777882);
+     , (36625,  50,  100673280) /* IconOverlay */;

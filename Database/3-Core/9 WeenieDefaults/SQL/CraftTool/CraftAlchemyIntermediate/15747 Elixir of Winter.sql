@@ -14,8 +14,7 @@ VALUES (15747,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15747,  19,         10) /* Value */
      , (15747,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15747,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15747, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (15747, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (15747, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15747,   1, 'Elixir of Winter') /* Name */
@@ -26,20 +25,4 @@ VALUES (15747,   1,   33555965) /* Setup */
      , (15747,   3,  536870932) /* SoundTable */
      , (15747,   6,   67111919) /* PaletteBase */
      , (15747,   8,  100672786) /* Icon */
-     , (15747,  22,  872415275) /* PhysicsEffectTable */
-     , (15747, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (15747, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (15747, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15747, 8000, 2153705575) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (15747, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (15747, 0, 83890051, 83890051)
-     , (15747, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (15747, 0, 16783325);
+     , (15747,  22,  872415275) /* PhysicsEffectTable */;

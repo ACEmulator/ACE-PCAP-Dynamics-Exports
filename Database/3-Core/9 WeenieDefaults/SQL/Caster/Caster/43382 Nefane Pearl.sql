@@ -28,8 +28,7 @@ VALUES (43382,   1,      32768) /* ItemType - Caster */
      , (43382, 160,        355) /* WieldDifficulty */
      , (43382, 172,          5) /* AppraisalLongDescDecoration */
      , (43382, 177,          3) /* GemCount */
-     , (43382, 178,         26) /* GemType */
-     , (43382, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (43382, 178,         26) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43382,  22, True ) /* Inscribable */;
@@ -39,8 +38,7 @@ VALUES (43382,   5,   -0.05) /* ManaRate */
      , (43382,  29,    1.14) /* WeaponDefense */
      , (43382,  76,     0.2) /* Translucency */
      , (43382, 144,     0.1) /* ManaConversionMod */
-     , (43382, 152,    1.13) /* ElementalDamageMod */
-     , (43382, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (43382, 152,    1.13) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43382,   1, 'Nefane Pearl') /* Name */
@@ -53,32 +51,14 @@ VALUES (43382,   1,   33558259) /* Setup */
      , (43382,   8,  100675628) /* Icon */
      , (43382,  22,  872415275) /* PhysicsEffectTable */
      , (43382,  28,       5384) /* Spell - CurseWeakness6 */
-     , (43382,  52,  100676440) /* IconUnderlay */
-     , (43382, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (43382, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (43382, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (43382, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (43382, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (43382,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43382, 8040, 1692860438, 107.154, 86.636, 58.271, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x64E70016 [107.154000 86.636000 58.271000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43382, 8000, 3151049043) /* PCAPRecordedObjectIID */
-     , (43382, 8008, 1343488614) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43382,  1480,      2) 
      , (43382,  2535,      2) 
      , (43382,  3250,      2) 
      , (43382,  5355,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43382, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43382, 0, 83894476, 83894476);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43382, 0, 16788882);

@@ -24,9 +24,7 @@ VALUES (26598,   1,          1) /* ItemType - MeleeWeapon */
      , (26598, 158,          2) /* WieldRequirements - RawSkill */
      , (26598, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (26598, 160,        370) /* WieldDifficulty */
-     , (26598, 353,          5) /* WeaponType - Spear */
-     , (26598, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (26598, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (26598, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26598,  22, True ) /* Inscribable */;
@@ -50,13 +48,7 @@ VALUES (26598,   1,   33558594) /* Setup */
      , (26598,   3,  536870932) /* SoundTable */
      , (26598,   6,   67114956) /* PaletteBase */
      , (26598,   8,  100675774) /* Icon */
-     , (26598,  22,  872415275) /* PhysicsEffectTable */
-     , (26598, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (26598, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (26598, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26598, 8000, 2995806358) /* PCAPRecordedObjectIID */;
+     , (26598,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (26598,  1317,      2) 
@@ -65,6 +57,3 @@ VALUES (26598,  1317,      2)
      , (26598,  1616,      2) 
      , (26598,  1627,      2) 
      , (26598,  2694,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (26598, 67114955, 0, 0);

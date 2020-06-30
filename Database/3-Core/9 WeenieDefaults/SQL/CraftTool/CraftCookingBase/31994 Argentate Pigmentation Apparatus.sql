@@ -13,8 +13,7 @@ VALUES (31994,   1,    4194304) /* ItemType - CraftCookingBase */
      , (31994,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (31994,  19,      10000) /* Value */
      , (31994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31994,  94,          2) /* TargetType - Armor */
-     , (31994, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31994,  94,          2) /* TargetType - Armor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31994,   1, 'Argentate Pigmentation Apparatus') /* Name */
@@ -25,13 +24,4 @@ VALUES (31994,   1,   33556753) /* Setup */
      , (31994,   3,  536870932) /* SoundTable */
      , (31994,   6,   67111919) /* PaletteBase */
      , (31994,   8,  100688318) /* Icon */
-     , (31994,  22,  872415275) /* PhysicsEffectTable */
-     , (31994, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (31994, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31994, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31994, 8000, 2982964701) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31994, 67111925, 0, 0);
+     , (31994,  22,  872415275) /* PhysicsEffectTable */;

@@ -12,15 +12,13 @@ VALUES (32702,   1,         16) /* ItemType - Creature */
      , (32702,  25,         80) /* Level */
      , (32702,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (32702, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32702, 307,          5) /* DamageRating */
-     , (32702, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32702, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32702,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32702,   1, 'Captain Vietre Lasallia') /* Name */
-     , (32702, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (32702,   1, 'Captain Vietre Lasallia') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32702,   1,   33559125) /* Setup */
@@ -28,17 +26,11 @@ VALUES (32702,   1,   33559125) /* Setup */
      , (32702,   3,  536871102) /* SoundTable */
      , (32702,   6,   67115468) /* PaletteBase */
      , (32702,   8,  100677371) /* Icon */
-     , (32702,  22,  872415269) /* PhysicsEffectTable */
-     , (32702, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (32702, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (32702, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (32702,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32702, 8040, 1100480801, 165.023, 77.4407, 144.8052, 0.690355, 0, 0, 0.723471) /* PCAPRecordedLocation */
 /* @teleloc 0x41980121 [165.023000 77.440700 144.805200] 0.690355 0.000000 0.000000 0.723471 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32702, 8000, 3360161463) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32702,   1, 260, 0, 0) /* Strength */
@@ -63,6 +55,3 @@ VALUES (32702, 2, 29978,  1, 0, 0, False) /* Create Spadone (29978) for Wield */
      , (32702, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (32702, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
      , (32702, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32702, 67115520, 0, 0);

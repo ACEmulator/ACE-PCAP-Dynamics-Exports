@@ -20,8 +20,7 @@ VALUES (51216,   1,       2048) /* ItemType - Gem */
      , (51216, 107,        500) /* ItemCurMana */
      , (51216, 108,        500) /* ItemMaxMana */
      , (51216, 109,          0) /* ItemDifficulty */
-     , (51216, 114,          1) /* Attuned - Attuned */
-     , (51216, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (51216, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51216,  39,     1.2) /* DefaultScale */;
@@ -37,22 +36,7 @@ VALUES (51216,   1,   33554809) /* Setup */
      , (51216,   6,   67111919) /* PaletteBase */
      , (51216,   8,  100671405) /* Icon */
      , (51216,  22,  872415275) /* PhysicsEffectTable */
-     , (51216,  28,       4331) /* Spell - DispelAllBadSelf8 */
-     , (51216, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (51216, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (51216, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51216, 8000, 2565903334) /* PCAPRecordedObjectIID */;
+     , (51216,  28,       4331) /* Spell - DispelAllBadSelf8 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51216,  4331,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (51216, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (51216, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (51216, 0, 16779181);

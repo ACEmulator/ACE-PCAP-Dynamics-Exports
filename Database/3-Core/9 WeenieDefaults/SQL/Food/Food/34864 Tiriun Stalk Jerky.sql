@@ -14,8 +14,7 @@ VALUES (34864,   1,         32) /* ItemType - Food */
      , (34864,  19,         50) /* Value */
      , (34864,  89,          4) /* BoosterEnum - Stamina */
      , (34864,  90,        115) /* BoostValue */
-     , (34864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34864, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34864,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34864,   1, 'Tiriun Stalk Jerky') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34864,   1,   33558400) /* Setup */
      , (34864,   3,  536870932) /* SoundTable */
      , (34864,   8,  100689331) /* Icon */
-     , (34864,  22,  872415275) /* PhysicsEffectTable */
-     , (34864, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (34864, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (34864, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34864, 8000, 2174518771) /* PCAPRecordedObjectIID */;
+     , (34864,  22,  872415275) /* PhysicsEffectTable */;

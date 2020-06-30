@@ -12,8 +12,7 @@ VALUES (2455,   1,         32) /* ItemType - Food */
      , (2455,  15,         20) /* StackUnitValue */
      , (2455,  16,          8) /* ItemUseable - Contained */
      , (2455,  19,         20) /* Value */
-     , (2455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2455,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2455,   1, 'Grape Juice') /* Name */
@@ -24,9 +23,4 @@ VALUES (2455,   1,   33556220) /* Setup */
      , (2455,   3,  536870932) /* SoundTable */
      , (2455,   8,  100667410) /* Icon */
      , (2455,  22,  872415275) /* PhysicsEffectTable */
-     , (2455, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (2455, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (2455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2455, 8000,       2455) /* PCAPRecordedObjectIID */;
+     , (2455, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

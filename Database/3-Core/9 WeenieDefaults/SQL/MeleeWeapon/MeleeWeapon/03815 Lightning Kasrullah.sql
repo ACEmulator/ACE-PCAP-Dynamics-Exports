@@ -31,9 +31,7 @@ VALUES (3815,   1,          1) /* ItemType - MeleeWeapon */
      , (3815, 160,        350) /* WieldDifficulty */
      , (3815, 172,          1) /* AppraisalLongDescDecoration */
      , (3815, 176,         45) /* AppraisalItemSkill */
-     , (3815, 353,          4) /* WeaponType - Mace */
-     , (3815, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3815, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3815, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3815,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (3815,   5,  -0.056) /* ManaRate */
      , (3815,  29,     1.1) /* WeaponDefense */
      , (3815,  62,    1.08) /* WeaponOffense */
      , (3815,  63,       1) /* DamageMod */
-     , (3815, 150,   1.015) /* WeaponMagicDefense */
-     , (3815, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3815, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3815,   1, 'Lightning Kasrullah') /* Name */
@@ -57,13 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3815,   1,   33555749) /* Setup */
      , (3815,   3,  536870932) /* SoundTable */
      , (3815,   8,  100668914) /* Icon */
-     , (3815,  22,  872415275) /* PhysicsEffectTable */
-     , (3815, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3815, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3815, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3815, 8000, 3677848601) /* PCAPRecordedObjectIID */;
+     , (3815,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3815,  1378,      2) 

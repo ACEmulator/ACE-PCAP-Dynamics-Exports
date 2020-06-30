@@ -17,8 +17,7 @@ VALUES (30009,   1,         16) /* ItemType - Creature */
      , (30009, 113,          1) /* Gender - Male */
      , (30009, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30009, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30009, 188,          3) /* HeritageGroup - Sho */
-     , (30009, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30009, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30009,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30009,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30009,   1, 'Apprentice Scrivener of Item and War Magic') /* Name */
-     , (30009,   5, 'Master Archmage') /* Template */
-     , (30009, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30009,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30009,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30009,   1,   33554433) /* Setup */
      , (30009,  11,   83890657) /* MouthTexture */
      , (30009,  15,   67117068) /* HairPalette */
      , (30009,  16,   67110063) /* EyesPalette */
-     , (30009,  17,   67110052) /* SkinPalette */
-     , (30009, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30009, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30009, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30009,  17,   67110052) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30009, 8040, 853082378, 164.19, 140.292, 56.005, -0.404737, 0, 0, -0.9144331) /* PCAPRecordedLocation */
 /* @teleloc 0x32D9010A [164.190000 140.292000 56.005000] -0.404737 0.000000 0.000000 -0.914433 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30009, 8000, 1932365844) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30009,   1,  90, 0, 0) /* Strength */
@@ -131,59 +123,3 @@ VALUES (30009, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (30009, 4,  1642, -1, 0, 0, False) /* Create Scroll of Whirling Blade (1642) for Shop */
      , (30009, 4,  8953, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak (8953) for Shop */
      , (30009, 4, 21295, -1, 0, 0, False) /* Create Scroll of Blade Arc I (21295) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30009, 67109964, 92, 4)
-     , (30009, 67110052, 0, 24)
-     , (30009, 67110063, 32, 8)
-     , (30009, 67110330, 40, 24)
-     , (30009, 67110335, 250, 6)
-     , (30009, 67110375, 160, 8)
-     , (30009, 67110540, 72, 8)
-     , (30009, 67112917, 64, 8)
-     , (30009, 67112917, 240, 10)
-     , (30009, 67112918, 216, 24)
-     , (30009, 67117068, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30009, 0, 83889072, 83890012)
-     , (30009, 0, 83889342, 83890011)
-     , (30009, 1, 83887064, 83886241)
-     , (30009, 2, 83887066, 83887055)
-     , (30009, 3, 83889344, 83887054)
-     , (30009, 4, 83887068, 83887054)
-     , (30009, 5, 83887064, 83886241)
-     , (30009, 6, 83887066, 83887055)
-     , (30009, 7, 83889344, 83887054)
-     , (30009, 8, 83887068, 83887054)
-     , (30009, 9, 83887061, 83890009)
-     , (30009, 9, 83887060, 83890010)
-     , (30009, 10, 83886796, 83886782)
-     , (30009, 11, 83886788, 83891213)
-     , (30009, 13, 83886796, 83886782)
-     , (30009, 14, 83886788, 83891213)
-     , (30009, 16, 83886232, 83890685)
-     , (30009, 16, 83886668, 83890487)
-     , (30009, 16, 83886837, 83890530)
-     , (30009, 16, 83886684, 83890657)
-     , (30009, 16, 83892366, 83892366)
-     , (30009, 16, 83892365, 83892365);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30009, 0, 16781835)
-     , (30009, 1, 16777295)
-     , (30009, 2, 16781823)
-     , (30009, 3, 16777292)
-     , (30009, 4, 16777291)
-     , (30009, 5, 16777299)
-     , (30009, 6, 16781824)
-     , (30009, 7, 16777296)
-     , (30009, 8, 16777298)
-     , (30009, 9, 16777300)
-     , (30009, 10, 16781858)
-     , (30009, 11, 16781822)
-     , (30009, 12, 16777304)
-     , (30009, 13, 16781856)
-     , (30009, 14, 16781821)
-     , (30009, 15, 16777307)
-     , (30009, 16, 16783954);

@@ -32,8 +32,7 @@ VALUES (95,  13,       1) /* ArmorModVsSlash */
      , (95,  17,     0.6) /* ArmorModVsFire */
      , (95,  18,       1) /* ArmorModVsAcid */
      , (95,  19,     0.6) /* ArmorModVsElectric */
-     , (95, 165,       1) /* ArmorModVsNether */
-     , (95, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (95, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (95,   1, 'Tower Shield') /* Name */
@@ -44,28 +43,11 @@ VALUES (95,   1,   33554785) /* Setup */
      , (95,   3,  536870932) /* SoundTable */
      , (95,   6,   67111919) /* PaletteBase */
      , (95,   8,  100668595) /* Icon */
-     , (95,  22,  872415275) /* PhysicsEffectTable */
-     , (95, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (95, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (95, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (95, 8009,          3) /* PCAPRecordedParentLocation - Shield */;
+     , (95,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (95, 8040, 459077, 70.0605, -80.0325, -0.07300002, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.060500 -80.032500 -0.073000] 0.403672 0.649030 -0.537349 0.356462 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (95, 8000, 3686210014) /* PCAPRecordedObjectIID */
-     , (95, 8008, 1343489196) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (95, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (95, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (95, 0, 83890133, 83890133);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (95, 0, 16777991);

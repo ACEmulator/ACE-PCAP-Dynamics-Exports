@@ -24,9 +24,7 @@ VALUES (33207,   1,        256) /* ItemType - MissileWeapon */
      , (33207, 158,          7) /* WieldRequirements - Level */
      , (33207, 159,          1) /* WieldSkillType - Axe */
      , (33207, 160,        120) /* WieldDifficulty */
-     , (33207, 353,          9) /* WeaponType - Crossbow */
-     , (33207, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (33207, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33207, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33207,  22, True ) /* Inscribable */;
@@ -54,13 +52,7 @@ VALUES (33207,   1,   33559929) /* Setup */
      , (33207,   8,  100687037) /* Icon */
      , (33207,  22,  872415275) /* PhysicsEffectTable */
      , (33207,  50,  100688914) /* IconOverlay */
-     , (33207,  55,       2074) /* ProcSpell - ImperilOther7 */
-     , (33207, 8001, 1344357144) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
-     , (33207, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33207, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33207, 8000, 2149625659) /* PCAPRecordedObjectIID */;
+     , (33207,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33207,  2074,      2) 
@@ -68,12 +60,3 @@ VALUES (33207,  2074,      2)
      , (33207,  2101,      2) 
      , (33207,  2116,      2) 
      , (33207,  2687,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33207, 67116440, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (33207, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (33207, 0, 16791758);

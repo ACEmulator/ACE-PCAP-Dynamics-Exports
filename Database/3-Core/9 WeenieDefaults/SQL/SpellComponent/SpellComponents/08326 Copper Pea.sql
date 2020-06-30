@@ -13,8 +13,7 @@ VALUES (8326,   1,       4096) /* ItemType - SpellComponents */
      , (8326,  16,          1) /* ItemUseable - No */
      , (8326,  19,       5000) /* Value */
      , (8326,  33,          1) /* Bonded - Bonded */
-     , (8326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8326, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8326,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8326,  39,    0.33) /* DefaultScale */;
@@ -28,24 +27,9 @@ VALUES (8326,   1,   33555211) /* Setup */
      , (8326,   3,  536870932) /* SoundTable */
      , (8326,   6,   67111919) /* PaletteBase */
      , (8326,   8,  100671079) /* Icon */
-     , (8326,  22,  872415275) /* PhysicsEffectTable */
-     , (8326, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (8326, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (8326, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8326, 8000, 2186220507) /* PCAPRecordedObjectIID */;
+     , (8326,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8326, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (8326, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (8326, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8326, 67111918, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8326, 0, 83890047, 83890047);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8326, 0, 16780734);

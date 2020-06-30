@@ -34,8 +34,7 @@ VALUES (42003,   1,         16) /* ItemType - Creature */
      , (42003, 386,          0) /* Overpower */
      , (42003, 387,          0) /* OverpowerResist */
      , (42003, 388,          0) /* GearOverpower */
-     , (42003, 389,          0) /* GearOverpowerResist */
-     , (42003, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42003, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42003,   1, True ) /* Stuck */
@@ -46,21 +45,14 @@ VALUES (42003,  39,     0.7) /* DefaultScale */
      , (42003,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42003,   1, 'Flames of Loyalty') /* Name */
-     , (42003, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (42003,   1, 'Flames of Loyalty') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42003,   1,   33560900) /* Setup */
      , (42003,   2,  150995355) /* MotionTable */
      , (42003,   3,  536870913) /* SoundTable */
-     , (42003,   8,  100667494) /* Icon */
-     , (42003, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (42003, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (42003, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (42003,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42003, 8040, 2349008817, 20, -200, 24, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x8C0307B1 [20.000000 -200.000000 24.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42003, 8000, 2629421724) /* PCAPRecordedObjectIID */;

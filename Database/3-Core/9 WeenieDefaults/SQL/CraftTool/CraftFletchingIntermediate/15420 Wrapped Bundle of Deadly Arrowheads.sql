@@ -12,8 +12,7 @@ VALUES (15420,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (15420,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (15420,  19,       2000) /* Value */
      , (15420,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15420,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (15420, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (15420,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15420,   1, 'Wrapped Bundle of Deadly Arrowheads') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15420,   1,   33557030) /* Setup */
      , (15420,   3,  536870932) /* SoundTable */
      , (15420,   8,  100672695) /* Icon */
-     , (15420,  22,  872415275) /* PhysicsEffectTable */
-     , (15420, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (15420, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (15420, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15420, 8000, 2166168405) /* PCAPRecordedObjectIID */;
+     , (15420,  22,  872415275) /* PhysicsEffectTable */;

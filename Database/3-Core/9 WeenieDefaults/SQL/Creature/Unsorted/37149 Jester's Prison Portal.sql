@@ -34,8 +34,7 @@ VALUES (37149,   1,         16) /* ItemType - Creature */
      , (37149, 386,          0) /* Overpower */
      , (37149, 387,          0) /* OverpowerResist */
      , (37149, 388,          0) /* GearOverpower */
-     , (37149, 389,          0) /* GearOverpowerResist */
-     , (37149, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (37149, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37149,   1, True ) /* Stuck */
@@ -47,21 +46,14 @@ VALUES (37149,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37149,   1, 'Jester''s Prison Portal') /* Name */
      , (37149,  14, 'Restricted to characters of Level 160 or greater.') /* Use */
-     , (37149,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */
-     , (37149, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (37149,  16, 'This portal cannot be recalled, linked nor summoned.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37149,   1,   33555925) /* Setup */
      , (37149,   2,  150994947) /* MotionTable */
      , (37149,   3,  536870932) /* SoundTable */
-     , (37149,   8,  100667499) /* Icon */
-     , (37149, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (37149, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (37149, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (37149,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37149, 8040, 1210974464, 60.1, 65.5, -0.4629996, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x482E0100 [60.100000 65.500000 -0.463000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37149, 8000, 3700601172) /* PCAPRecordedObjectIID */;

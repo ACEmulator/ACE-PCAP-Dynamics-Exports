@@ -11,15 +11,13 @@ VALUES (7082,   1,         16) /* ItemType - Creature */
      , (7082,  16,          1) /* ItemUseable - No */
      , (7082,  25,         40) /* Level */
      , (7082,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7082, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7082, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7082, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7082,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7082,   1, 'Island Armoredillo') /* Name */
-     , (7082, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7082,   1, 'Island Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7082,   1,   33554436) /* Setup */
@@ -27,17 +25,11 @@ VALUES (7082,   1,   33554436) /* Setup */
      , (7082,   3,  536870915) /* SoundTable */
      , (7082,   6,   67109301) /* PaletteBase */
      , (7082,   8,  100667935) /* Icon */
-     , (7082,  22,  872415253) /* PhysicsEffectTable */
-     , (7082, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7082, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7082, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7082,  22,  872415253) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7082, 8040, 4062445581, 38.96198, 102.5672, -0.08949995, 0.7660445, 0, 0, -0.6427876) /* PCAPRecordedLocation */
 /* @teleloc 0xF224000D [38.961980 102.567200 -0.089500] 0.766045 0.000000 0.000000 -0.642788 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7082, 8000, 3685960238) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7082,   1, 160, 0, 0) /* Strength */
@@ -180,6 +172,3 @@ VALUES (7082, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essenc
      , (7082, 9, 21100,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb VI (21100) for ContainTreasure */
      , (7082, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (7082, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7082, 67115919, 0, 0);

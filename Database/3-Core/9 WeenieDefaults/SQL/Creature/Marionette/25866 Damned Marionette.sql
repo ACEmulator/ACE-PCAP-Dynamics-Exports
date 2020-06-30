@@ -11,15 +11,13 @@ VALUES (25866,   1,         16) /* ItemType - Creature */
      , (25866,  16,          1) /* ItemUseable - No */
      , (25866,  25,        160) /* Level */
      , (25866,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25866, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25866, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25866, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25866,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25866,   1, 'Damned Marionette') /* Name */
-     , (25866, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25866,   1, 'Damned Marionette') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25866,   1,   33558542) /* Setup */
@@ -27,17 +25,11 @@ VALUES (25866,   1,   33558542) /* Setup */
      , (25866,   3,  536871024) /* SoundTable */
      , (25866,   6,   67114692) /* PaletteBase */
      , (25866,   8,  100671420) /* Icon */
-     , (25866,  22,  872415372) /* PhysicsEffectTable */
-     , (25866, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25866, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25866, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (25866,  22,  872415372) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25866, 8040, 84541455, 45.80212, 150.8799, 25.09944, -0.9442931, 0, 0, -0.3291055) /* PCAPRecordedLocation */
 /* @teleloc 0x050A000F [45.802120 150.879900 25.099440] -0.944293 0.000000 0.000000 -0.329106 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25866, 8000, 3689215623) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25866,   1, 400, 0, 0) /* Strength */
@@ -69,6 +61,3 @@ VALUES (25866, 9, 43054,  0, 0, 0, False) /* Create Knorr Academy Tassets (43054
      , (25866, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (25866, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
      , (25866, 9, 25651,  0, 0, 0, False) /* Create Leather Sleeves (25651) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25866, 67114693, 0, 0);

@@ -18,8 +18,7 @@ VALUES (46448,   1,        128) /* ItemType - Misc */
      , (46448,  98, 1485732629) /* CreationTimestamp */
      , (46448, 114,          1) /* Attuned - Attuned */
      , (46448, 267,       7200) /* Lifespan */
-     , (46448, 268,       7200) /* RemainingLifespan */
-     , (46448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46448, 268,       7200) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46448,  22, True ) /* Inscribable */;
@@ -33,10 +32,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46448,   1,   33556825) /* Setup */
      , (46448,   3,  536870932) /* SoundTable */
      , (46448,   8,  100692867) /* Icon */
-     , (46448,  22,  872415275) /* PhysicsEffectTable */
-     , (46448, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (46448, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46448, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46448, 8000, 3708149344) /* PCAPRecordedObjectIID */;
+     , (46448,  22,  872415275) /* PhysicsEffectTable */;

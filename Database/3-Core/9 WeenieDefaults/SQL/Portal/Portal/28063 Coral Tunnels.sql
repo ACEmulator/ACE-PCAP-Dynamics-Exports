@@ -9,8 +9,7 @@ VALUES (28063,   1,      65536) /* ItemType - Portal */
      , (28063,  86,         40) /* MinLevel */
      , (28063,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (28063, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
-     , (28063, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (28063, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28063, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28063,   1, True ) /* Stuck */;
@@ -19,20 +18,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28063,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28063,   1, 'Coral Tunnels') /* Name */
-     , (28063, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28063,   1, 'Coral Tunnels') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28063,   1,   33555926) /* Setup */
      , (28063,   2,  150994947) /* MotionTable */
-     , (28063,   8,  100667499) /* Icon */
-     , (28063, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (28063, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (28063, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (28063,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28063, 8040, 3102212355, 184.636, 132.213, -1.863, -0.6683379, 0, 0, 0.7438579) /* PCAPRecordedLocation */
 /* @teleloc 0xB8E80103 [184.636000 132.213000 -1.863000] -0.668338 0.000000 0.000000 0.743858 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28063, 8000, 2072936450) /* PCAPRecordedObjectIID */;

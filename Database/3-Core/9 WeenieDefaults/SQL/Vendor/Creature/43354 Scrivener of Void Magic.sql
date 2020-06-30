@@ -17,8 +17,7 @@ VALUES (43354,   1,         16) /* ItemType - Creature */
      , (43354, 113,          1) /* Gender - Male */
      , (43354, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43354, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43354, 188,          5) /* HeritageGroup - Shadowbound */
-     , (43354, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43354, 188,          5) /* HeritageGroup - Shadowbound */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43354,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (43354,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43354,   1, 'Scrivener of Void Magic') /* Name */
-     , (43354,   5, 'Master Archmage') /* Template */
-     , (43354, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (43354,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43354,   1,   33560943) /* Setup */
@@ -46,17 +44,11 @@ VALUES (43354,   1,   33560943) /* Setup */
      , (43354,  11,   83890613) /* MouthTexture */
      , (43354,  15,   67117009) /* HairPalette */
      , (43354,  16,   67116858) /* EyesPalette */
-     , (43354,  17,   67116847) /* SkinPalette */
-     , (43354, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (43354, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (43354, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (43354,  17,   67116847) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43354, 8040, 3679781126, 30.2064, 81.2019, 25.005, -0.9943973, 0, 0, -0.1057071) /* PCAPRecordedLocation */
 /* @teleloc 0xDB550106 [30.206400 81.201900 25.005000] -0.994397 0.000000 0.000000 -0.105707 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43354, 8000, 2109034509) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43354,   1,  90, 0, 0) /* Strength */
@@ -107,43 +99,3 @@ VALUES (43354, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for S
      , (43354, 4, 43341, -1, 0, 0, False) /* Create Scroll of Weakening Curse IV (43341) for Shop */
      , (43354, 4, 44621, -1, 0, 0, False) /* Create Scroll of Nether Blast III (44621) for Shop */
      , (43354, 4, 44622, -1, 0, 0, False) /* Create Scroll of Nether Blast IV (44622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43354, 67109964, 92, 4)
-     , (43354, 67110334, 40, 24)
-     , (43354, 67110340, 64, 8)
-     , (43354, 67110375, 160, 8)
-     , (43354, 67110540, 72, 8)
-     , (43354, 67113252, 216, 24)
-     , (43354, 67116847, 0, 24)
-     , (43354, 67116858, 32, 8)
-     , (43354, 67117009, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43354, 0, 83889072, 83890012)
-     , (43354, 0, 83889342, 83890011)
-     , (43354, 9, 83887061, 83890009)
-     , (43354, 9, 83887060, 83890010)
-     , (43354, 16, 83886232, 83890685)
-     , (43354, 16, 83886668, 83890508)
-     , (43354, 16, 83886837, 83890560)
-     , (43354, 16, 83886684, 83890613);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43354, 0, 16781835)
-     , (43354, 1, 16777708)
-     , (43354, 2, 16777708)
-     , (43354, 3, 16777708)
-     , (43354, 4, 16777708)
-     , (43354, 5, 16777708)
-     , (43354, 6, 16777708)
-     , (43354, 7, 16777708)
-     , (43354, 8, 16777708)
-     , (43354, 9, 16777300)
-     , (43354, 10, 16777301)
-     , (43354, 11, 16777302)
-     , (43354, 12, 16777304)
-     , (43354, 13, 16777303)
-     , (43354, 14, 16777305)
-     , (43354, 15, 16777307)
-     , (43354, 16, 16795675);

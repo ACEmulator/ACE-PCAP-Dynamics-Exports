@@ -34,8 +34,7 @@ VALUES (53289,   1,         16) /* ItemType - Creature */
      , (53289, 386,          0) /* Overpower */
      , (53289, 387,          0) /* OverpowerResist */
      , (53289, 388,          0) /* GearOverpower */
-     , (53289, 389,          0) /* GearOverpowerResist */
-     , (53289, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53289, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53289,   1, True ) /* Stuck */
@@ -47,25 +46,15 @@ VALUES (53289,  39,    0.85) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53289,   1, 'Lair of Holcha') /* Name */
-     , (53289,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (53289, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (53289,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53289,   1,   33556891) /* Setup */
      , (53289,   2,  150995504) /* MotionTable */
      , (53289,   3,  536870932) /* SoundTable */
      , (53289,   6,   67113068) /* PaletteBase */
-     , (53289,   8,  100671204) /* Icon */
-     , (53289, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53289, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53289, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (53289,   8,  100671204) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53289, 8040, 1500184853, 130, -16.286, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0115 [130.000000 -16.286000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53289, 8000, 2922524946) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53289, 67117144, 0, 0);

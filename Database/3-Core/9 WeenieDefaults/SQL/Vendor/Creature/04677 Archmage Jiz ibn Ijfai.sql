@@ -17,8 +17,7 @@ VALUES (4677,   1,         16) /* ItemType - Creature */
      , (4677, 113,          1) /* Gender - Male */
      , (4677, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4677, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4677, 188,          2) /* HeritageGroup - Gharundim */
-     , (4677, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4677, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4677,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4677,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4677,   1, 'Archmage Jiz ibn Ijfai') /* Name */
-     , (4677,   5, 'Adept') /* Template */
-     , (4677, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4677,   5, 'Adept') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4677,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4677,   1,   33554433) /* Setup */
      , (4677,  11,   83890564) /* MouthTexture */
      , (4677,  15,   67117077) /* HairPalette */
      , (4677,  16,   67110063) /* EyesPalette */
-     , (4677,  17,   67109555) /* SkinPalette */
-     , (4677, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4677, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4677, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4677,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4677, 8040, 2421686548, 188.124, 132.778, 3.205, -0.4619369, 0, 0, -0.8869128) /* PCAPRecordedLocation */
 /* @teleloc 0x90580114 [188.124000 132.778000 3.205000] -0.461937 0.000000 0.000000 -0.886913 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4677, 8000, 2030403594) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (4677,   1,     0, 0, 0, 40) /* MaxHealth */;
@@ -171,53 +163,3 @@ VALUES (4677, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (4677, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (4677, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
      , (4677, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4677, 67109555, 0, 24)
-     , (4677, 67109969, 92, 4)
-     , (4677, 67110003, 72, 8)
-     , (4677, 67110063, 32, 8)
-     , (4677, 67110356, 64, 8)
-     , (4677, 67110356, 216, 24)
-     , (4677, 67110356, 160, 8)
-     , (4677, 67111245, 40, 24)
-     , (4677, 67117077, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4677, 0, 83889072, 83890012)
-     , (4677, 0, 83889342, 83890011)
-     , (4677, 1, 83887064, 83886241)
-     , (4677, 2, 83887066, 83887055)
-     , (4677, 3, 83889344, 83887054)
-     , (4677, 4, 83887068, 83887054)
-     , (4677, 5, 83887064, 83886241)
-     , (4677, 6, 83887066, 83887055)
-     , (4677, 7, 83889344, 83887054)
-     , (4677, 8, 83887068, 83887054)
-     , (4677, 9, 83887061, 83890009)
-     , (4677, 9, 83887060, 83890010)
-     , (4677, 10, 83886796, 83886782)
-     , (4677, 13, 83886796, 83886782)
-     , (4677, 16, 83886232, 83890359)
-     , (4677, 16, 83886668, 83890464)
-     , (4677, 16, 83886837, 83890538)
-     , (4677, 16, 83886684, 83890564);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4677, 0, 16781835)
-     , (4677, 1, 16781845)
-     , (4677, 2, 16781844)
-     , (4677, 3, 16777292)
-     , (4677, 4, 16777291)
-     , (4677, 5, 16781846)
-     , (4677, 6, 16781843)
-     , (4677, 7, 16777296)
-     , (4677, 8, 16777298)
-     , (4677, 9, 16777300)
-     , (4677, 10, 16781852)
-     , (4677, 11, 16777302)
-     , (4677, 12, 16777304)
-     , (4677, 13, 16781850)
-     , (4677, 14, 16777305)
-     , (4677, 15, 16777307)
-     , (4677, 16, 16795638);

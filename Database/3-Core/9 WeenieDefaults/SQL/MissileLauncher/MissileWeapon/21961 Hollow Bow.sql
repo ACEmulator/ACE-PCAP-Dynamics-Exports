@@ -21,9 +21,7 @@ VALUES (21961,   1,        256) /* ItemType - MissileWeapon */
      , (21961,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21961, 114,          0) /* Attuned - Normal */
      , (21961, 151,          2) /* HookType - Wall */
-     , (21961, 353,          8) /* WeaponType - Bow */
-     , (21961, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (21961, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (21961, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21961,  22, True ) /* Inscribable */
@@ -51,33 +49,8 @@ VALUES (21961,   1,   33558059) /* Setup */
      , (21961,   6,   67111919) /* PaletteBase */
      , (21961,   8,  100668821) /* Icon */
      , (21961,  22,  872415275) /* PhysicsEffectTable */
-     , (21961,  30,         88) /* PhysicsScript - Create */
-     , (21961, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (21961, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21961, 8005,     456737) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame, Translucency */
-     , (21961, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (21961,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21961, 8040, 459075, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21961, 8000, 3474677479) /* PCAPRecordedObjectIID */
-     , (21961, 8008, 1343484019) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21961, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21961, 0, 83886740, 83886740)
-     , (21961, 1, 83888778, 83888778)
-     , (21961, 2, 83886736, 83886736)
-     , (21961, 3, 83888778, 83888778)
-     , (21961, 4, 83886740, 83886740);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21961, 0, 16779360)
-     , (21961, 1, 16779361)
-     , (21961, 2, 16779358)
-     , (21961, 3, 16779362)
-     , (21961, 4, 16779357);

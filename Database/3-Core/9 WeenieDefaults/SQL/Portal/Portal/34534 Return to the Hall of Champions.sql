@@ -21,14 +21,8 @@ VALUES (34534,   1, 'Return to the Hall of Champions') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34534,   1,   33560143) /* Setup */
-     , (34534,   8,  100677070) /* Icon */
-     , (34534, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (34534, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (34534, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (34534,   8,  100677070) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34534, 8040, 11665718, 30, -16, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00B20136 [30.000000 -16.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34534, 8000, 2447688502) /* PCAPRecordedObjectIID */;

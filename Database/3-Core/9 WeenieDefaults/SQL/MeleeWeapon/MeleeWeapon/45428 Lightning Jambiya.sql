@@ -26,9 +26,7 @@ VALUES (45428,   1,          1) /* ItemType - MeleeWeapon */
      , (45428, 172,          5) /* AppraisalLongDescDecoration */
      , (45428, 177,          2) /* GemCount */
      , (45428, 178,         38) /* GemType */
-     , (45428, 353,          6) /* WeaponType - Dagger */
-     , (45428, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45428, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45428, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45428,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (45428,  21,       0) /* WeaponLength */
      , (45428,  29,    1.11) /* WeaponDefense */
      , (45428,  62,    1.13) /* WeaponOffense */
      , (45428,  63,       1) /* DamageMod */
-     , (45428, 149,    1.02) /* WeaponMissileDefense */
-     , (45428, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (45428, 149,    1.02) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45428,   1, 'Lightning Jambiya') /* Name */
@@ -51,14 +48,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45428,   1,   33555728) /* Setup */
      , (45428,   3,  536870932) /* SoundTable */
      , (45428,   8,  100668892) /* Icon */
-     , (45428,  22,  872415275) /* PhysicsEffectTable */
-     , (45428, 8001, 2434859672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45428, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45428, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (45428,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45428, 8040, 2847146026, 128.2484, 40.6387, 94.05099, 0.07865743, 0, 0, -0.9969017) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [128.248400 40.638700 94.050990] 0.078657 0.000000 0.000000 -0.996902 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45428, 8000, 3699119962) /* PCAPRecordedObjectIID */;

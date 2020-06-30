@@ -14,15 +14,13 @@ VALUES (11503,   1,         16) /* ItemType - Creature */
      , (11503, 113,          1) /* Gender - Male */
      , (11503, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (11503, 188,          3) /* HeritageGroup - Sho */
-     , (11503, 307,          5) /* DamageRating */
-     , (11503, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11503, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11503,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11503,   1, 'Highwayman') /* Name */
-     , (11503, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11503,   1, 'Highwayman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11503,   1,   33554433) /* Setup */
@@ -36,17 +34,11 @@ VALUES (11503,   1,   33554433) /* Setup */
      , (11503,  15,   67117028) /* HairPalette */
      , (11503,  16,   67110062) /* EyesPalette */
      , (11503,  17,   67110052) /* SkinPalette */
-     , (11503,  22,  872415236) /* PhysicsEffectTable */
-     , (11503, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11503, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11503, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (11503,  22,  872415236) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11503, 8040, 447873058, 109.1732, 27.88364, 20.005, 0.9396101, 0, 0, -0.3422468) /* PCAPRecordedLocation */
 /* @teleloc 0x1AB20022 [109.173200 27.883640 20.005000] 0.939610 0.000000 0.000000 -0.342247 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11503, 8000, 3691227878) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11503,   1, 130, 0, 0) /* Strength */
@@ -141,53 +133,3 @@ VALUES (11503, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) f
      , (11503, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
      , (11503, 9, 31760,  0, 0, 0, False) /* Create Acid Dericost Blade (31760) for ContainTreasure */
      , (11503, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11503, 67109967, 92, 4)
-     , (11503, 67110003, 72, 8)
-     , (11503, 67110052, 0, 24)
-     , (11503, 67110062, 32, 8)
-     , (11503, 67110363, 64, 8)
-     , (11503, 67110377, 160, 8)
-     , (11503, 67111246, 40, 24)
-     , (11503, 67114529, 240, 16)
-     , (11503, 67117028, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11503, 0, 83889072, 83886685)
-     , (11503, 0, 83889342, 83889386)
-     , (11503, 1, 83887064, 83886241)
-     , (11503, 2, 83887066, 83887051)
-     , (11503, 3, 83889344, 83887054)
-     , (11503, 4, 83887068, 83887054)
-     , (11503, 5, 83887064, 83886241)
-     , (11503, 6, 83887066, 83887051)
-     , (11503, 7, 83889344, 83887054)
-     , (11503, 8, 83887068, 83887054)
-     , (11503, 9, 83887061, 83886687)
-     , (11503, 9, 83887060, 83886686)
-     , (11503, 10, 83886796, 83886782)
-     , (11503, 13, 83886796, 83886782)
-     , (11503, 16, 83886232, 83890359)
-     , (11503, 16, 83886668, 83890433)
-     , (11503, 16, 83886837, 83890554)
-     , (11503, 16, 83886684, 83890566);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11503, 0, 16781835)
-     , (11503, 1, 16781836)
-     , (11503, 2, 16777293)
-     , (11503, 3, 16777292)
-     , (11503, 4, 16777291)
-     , (11503, 5, 16781819)
-     , (11503, 6, 16777297)
-     , (11503, 7, 16777296)
-     , (11503, 8, 16777298)
-     , (11503, 9, 16777300)
-     , (11503, 10, 16781870)
-     , (11503, 11, 16777302)
-     , (11503, 12, 16777304)
-     , (11503, 13, 16781869)
-     , (11503, 14, 16777305)
-     , (11503, 15, 16777307)
-     , (11503, 16, 16789596);

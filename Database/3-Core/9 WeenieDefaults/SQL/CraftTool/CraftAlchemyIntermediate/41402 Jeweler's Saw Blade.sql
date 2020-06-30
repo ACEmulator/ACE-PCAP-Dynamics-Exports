@@ -14,8 +14,7 @@ VALUES (41402,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41402,  19,         10) /* Value */
      , (41402,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41402,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41402, 151,          9) /* HookType - Floor, Yard */
-     , (41402, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41402, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41402,   1, 'Jeweler''s Saw Blade') /* Name */;
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41402,   1,   33554817) /* Setup */
      , (41402,   3,  536870932) /* SoundTable */
      , (41402,   8,  100690725) /* Icon */
-     , (41402,  22,  872415275) /* PhysicsEffectTable */
-     , (41402, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (41402, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (41402, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41402, 8000, 2925259534) /* PCAPRecordedObjectIID */;
+     , (41402,  22,  872415275) /* PhysicsEffectTable */;

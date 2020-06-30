@@ -24,8 +24,7 @@ VALUES (43048,   1,          2) /* ItemType - Armor */
      , (43048, 172,          7) /* AppraisalLongDescDecoration */
      , (43048, 176,          6) /* AppraisalItemSkill */
      , (43048, 177,          4) /* GemCount */
-     , (43048, 178,         20) /* GemType */
-     , (43048, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43048, 178,         20) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43048,  22, True ) /* Inscribable */
@@ -40,8 +39,7 @@ VALUES (43048,   5,  -0.056) /* ManaRate */
      , (43048,  17,     0.5) /* ArmorModVsFire */
      , (43048,  18,   0.559) /* ArmorModVsAcid */
      , (43048,  19,     0.6) /* ArmorModVsElectric */
-     , (43048, 165,       1) /* ArmorModVsNether */
-     , (43048, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (43048, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43048,   1, 'Knorr Academy Breastplate') /* Name */
@@ -52,27 +50,13 @@ VALUES (43048,   1,   33554642) /* Setup */
      , (43048,   3,  536870932) /* SoundTable */
      , (43048,   6,   67108990) /* PaletteBase */
      , (43048,   8,  100691382) /* Icon */
-     , (43048,  22,  872415275) /* PhysicsEffectTable */
-     , (43048, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (43048, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (43048, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (43048,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43048, 8040, 23855555, 56.08102, -35.19884, -0.004999995, 1, 0, 0, 0.0001543763) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.081020 -35.198840 -0.005000] 1.000000 0.000000 0.000000 0.000154 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43048, 8000, 3692957643) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43048,   951,      2) 
      , (43048,  1486,      2) 
      , (43048,  1528,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43048, 67109966, 186, 12)
-     , (43048, 67109966, 174, 12)
-     , (43048, 67110352, 216, 24);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43048, 0, 16794786);

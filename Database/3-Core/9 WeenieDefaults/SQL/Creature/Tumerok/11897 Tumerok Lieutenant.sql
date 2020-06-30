@@ -12,15 +12,13 @@ VALUES (11897,   1,         16) /* ItemType - Creature */
      , (11897,  25,         50) /* Level */
      , (11897,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11897, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11897, 307,          5) /* DamageRating */
-     , (11897, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11897, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11897,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11897,   1, 'Tumerok Lieutenant') /* Name */
-     , (11897, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11897,   1, 'Tumerok Lieutenant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11897,   1,   33559558) /* Setup */
@@ -28,17 +26,11 @@ VALUES (11897,   1,   33559558) /* Setup */
      , (11897,   3,  536870931) /* SoundTable */
      , (11897,   6,   67116625) /* PaletteBase */
      , (11897,   8,  100667452) /* Icon */
-     , (11897,  22,  872415270) /* PhysicsEffectTable */
-     , (11897, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11897, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11897, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (11897,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11897, 8040, 1467417407, 144.897, -170.396, -5.995, -0.95371, 0, 0, -0.300728) /* PCAPRecordedLocation */
 /* @teleloc 0x5777033F [144.897000 -170.396000 -5.995000] -0.953710 0.000000 0.000000 -0.300728 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11897, 8000, 2629408018) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11897,   1, 100, 0, 0) /* Strength */
@@ -518,11 +510,3 @@ VALUES (11897, 2, 11906,  1, 0, 0, False) /* Create Mace of the Quiddity (11906)
      , (11897, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
      , (11897, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
      , (11897, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11897, 67116625, 105, 48)
-     , (11897, 67116625, 200, 8)
-     , (11897, 67116626, 1, 48)
-     , (11897, 67116636, 208, 48)
-     , (11897, 67116655, 57, 48)
-     , (11897, 67116655, 153, 47);

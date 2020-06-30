@@ -21,8 +21,7 @@ VALUES (23992,   1,       2048) /* ItemType - Gem */
      , (23992, 108,        150) /* ItemMaxMana */
      , (23992, 109,         10) /* ItemDifficulty */
      , (23992, 110,          0) /* ItemAllegianceRankLimit */
-     , (23992, 114,          1) /* Attuned - Attuned */
-     , (23992, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23992, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23992,  22, True ) /* Inscribable */;
@@ -41,22 +40,7 @@ VALUES (23992,   1,   33556769) /* Setup */
      , (23992,   6,   67111919) /* PaletteBase */
      , (23992,   8,  100668365) /* Icon */
      , (23992,  22,  872415275) /* PhysicsEffectTable */
-     , (23992,  28,       2957) /* Spell - PortalSendingKnorrSeat */
-     , (23992, 8001,    6844560) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (23992, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23992, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23992, 8000, 2153711878) /* PCAPRecordedObjectIID */;
+     , (23992,  28,       2957) /* Spell - PortalSendingKnorrSeat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23992,  2957,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23992, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (23992, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (23992, 0, 16779181);

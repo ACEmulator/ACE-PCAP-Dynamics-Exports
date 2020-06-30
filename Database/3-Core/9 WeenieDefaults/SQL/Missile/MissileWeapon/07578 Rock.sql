@@ -26,9 +26,7 @@ VALUES (7578,   1,        256) /* ItemType - MissileWeapon */
      , (7578, 313,          0) /* CritRating */
      , (7578, 314,          0) /* CritDamageRating */
      , (7578, 353,         10) /* WeaponType - Thrown */
-     , (7578, 386,          0) /* Overpower */
-     , (7578, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7578, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (7578, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7578,   1, True ) /* Stuck */;
@@ -53,19 +51,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7578,   1,   33555863) /* Setup */
      , (7578,   3,  536871003) /* SoundTable */
      , (7578,   8,  100667500) /* Icon */
-     , (7578,  22,  872415275) /* PhysicsEffectTable */
-     , (7578, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (7578, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7578, 8005,     432929) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (7578, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (7578,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7578, 8040, 2383872016, 29.12825, 171.6261, 203.83, 0.1539979, 0.1539979, -0.6901338, -0.6901338) /* PCAPRecordedLocation */
 /* @teleloc 0x8E170010 [29.128250 171.626100 203.830000] 0.153998 0.153998 -0.690134 -0.690134 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7578, 8000, 3685780149) /* PCAPRecordedObjectIID */
-     , (7578, 8008, 3685621030) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7578, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */;

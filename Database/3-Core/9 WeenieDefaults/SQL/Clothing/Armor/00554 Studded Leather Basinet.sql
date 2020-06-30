@@ -23,8 +23,7 @@ VALUES (554,   1,          2) /* ItemType - Armor */
      , (554, 131,         54) /* MaterialType - GromnieHide */
      , (554, 151,          2) /* HookType - Wall */
      , (554, 172,          1) /* AppraisalLongDescDecoration */
-     , (554, 176,          7) /* AppraisalItemSkill */
-     , (554, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (554, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (554,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (554,   5,  -0.056) /* ManaRate */
      , (554,  17,     0.7) /* ArmorModVsFire */
      , (554,  18,     0.3) /* ArmorModVsAcid */
      , (554,  19,     0.4) /* ArmorModVsElectric */
-     , (554, 165,       1) /* ArmorModVsNether */
-     , (554, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (554, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (554,   1, 'Studded Leather Basinet') /* Name */
@@ -51,27 +49,10 @@ VALUES (554,   1,   33555048) /* Setup */
      , (554,   3,  536870932) /* SoundTable */
      , (554,   6,   67108990) /* PaletteBase */
      , (554,   8,  100669749) /* Icon */
-     , (554,  22,  872415275) /* PhysicsEffectTable */
-     , (554, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (554, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (554, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (554, 8000, 3688918248) /* PCAPRecordedObjectIID */;
+     , (554,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (554,   261,      2) 
      , (554,  1486,      2) 
      , (554,  1561,      2) 
      , (554,  1572,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (554, 67110009, 240, 10)
-     , (554, 67110356, 250, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (554, 0, 83889859, 83889863)
-     , (554, 0, 83889858, 83889860);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (554, 0, 16780294);

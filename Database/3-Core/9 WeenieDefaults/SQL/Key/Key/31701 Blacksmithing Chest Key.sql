@@ -13,8 +13,7 @@ VALUES (31701,   1,      16384) /* ItemType - Key */
      , (31701,  92,          5) /* Structure */
      , (31701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31701,  94,        640) /* TargetType - LockableMagicTarget */
-     , (31701, 114,          1) /* Attuned - Attuned */
-     , (31701, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31701, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31701,   1, 'Blacksmithing Chest Key') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31701,   1,   33554784) /* Setup */
      , (31701,   3,  536870932) /* SoundTable */
      , (31701,   8,  100667469) /* Icon */
-     , (31701,  22,  872415275) /* PhysicsEffectTable */
-     , (31701, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (31701, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31701, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31701, 8000, 2153692110) /* PCAPRecordedObjectIID */;
+     , (31701,  22,  872415275) /* PhysicsEffectTable */;

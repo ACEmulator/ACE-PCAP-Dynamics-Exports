@@ -12,8 +12,7 @@ VALUES (23487,   1,         16) /* ItemType - Creature */
      , (23487,  25,        115) /* Level */
      , (23487,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23487, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23487, 307,          5) /* DamageRating */
-     , (23487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23487, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23487,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23487,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23487,   1, 'Sata Sclavus Lord') /* Name */
-     , (23487, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23487,   1, 'Sata Sclavus Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23487,   1,   33555608) /* Setup */
@@ -31,17 +29,11 @@ VALUES (23487,   1,   33555608) /* Setup */
      , (23487,   3,  536870977) /* SoundTable */
      , (23487,   6,   67111936) /* PaletteBase */
      , (23487,   8,  100669120) /* Icon */
-     , (23487,  22,  872415280) /* PhysicsEffectTable */
-     , (23487, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23487, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23487, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (23487,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23487, 8040, 843513883, 88.76027, 53.75755, 82.39899, -0.54109, 0, 0, -0.8409647) /* PCAPRecordedLocation */
 /* @teleloc 0x3247001B [88.760270 53.757550 82.398990] -0.541090 0.000000 0.000000 -0.840965 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23487, 8000, 3701517442) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23487,   1, 190, 0, 0) /* Strength */
@@ -76,6 +68,3 @@ VALUES (23487, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield
      , (23487, 2, 47752,  1, 0, 0, False) /* Create Lightning Spear (47752) for Wield */
      , (23487, 2, 47998,  1, 0, 0, False) /* Create Acid Nekode (47998) for Wield */
      , (23487, 2, 47994,  1, 0, 0, False) /* Create Acid Katar (47994) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23487, 67111940, 0, 0);

@@ -24,8 +24,7 @@ VALUES (44852,   1,          4) /* ItemType - Clothing */
      , (44852, 319,          3) /* ItemMaxLevel */
      , (44852, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (44852, 352,          2) /* CloakWeaveProc */
-     , (44852, 370,          1) /* GearDamage */
-     , (44852, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44852, 370,          1) /* GearDamage */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44852,   4,          0) /* ItemTotalXp */
@@ -43,8 +42,7 @@ VALUES (44852,  13,     0.8) /* ArmorModVsSlash */
      , (44852,  17,     0.2) /* ArmorModVsFire */
      , (44852,  18,     0.1) /* ArmorModVsAcid */
      , (44852,  19,     0.2) /* ArmorModVsElectric */
-     , (44852, 165,       1) /* ArmorModVsNether */
-     , (44852, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (44852, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44852,   1, 'Chevron Cloak') /* Name */
@@ -55,16 +53,4 @@ VALUES (44852,   1,   33561386) /* Setup */
      , (44852,   3,  536870932) /* SoundTable */
      , (44852,   8,  100692127) /* Icon */
      , (44852,  22,  872415275) /* PhysicsEffectTable */
-     , (44852,  50,  100690998) /* IconOverlay */
-     , (44852, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (44852, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44852, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44852, 8000, 2174519328) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44852, 0, 83898657, 83898661);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44852, 0, 16795839);
+     , (44852,  50,  100690998) /* IconOverlay */;

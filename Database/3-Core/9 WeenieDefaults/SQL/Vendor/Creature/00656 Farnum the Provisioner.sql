@@ -17,8 +17,7 @@ VALUES (656,   1,         16) /* ItemType - Creature */
      , (656, 113,          2) /* Gender - Female */
      , (656, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (656, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (656, 188,          1) /* HeritageGroup - Aluvian */
-     , (656, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (656, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (656,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (656,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (656,   1, 'Farnum the Provisioner') /* Name */
-     , (656,   5, 'Shopkeeper') /* Template */
-     , (656, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
+     , (656,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (656,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (656,   1,   33554510) /* Setup */
      , (656,  11,   83890324) /* MouthTexture */
      , (656,  15,   67116997) /* HairPalette */
      , (656,  16,   67109564) /* EyesPalette */
-     , (656,  17,   67109562) /* SkinPalette */
-     , (656, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (656, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (656, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (656,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (656, 8040, 3465871695, 156.36, 132.24, 20.005, -0.413104, 0, 0, -0.9106839) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95014F [156.360000 132.240000 20.005000] -0.413104 0.000000 0.000000 -0.910684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (656, 8000, 2095665189) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (656,   1,  40, 0, 0) /* Strength */
@@ -116,53 +108,3 @@ VALUES (656, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (656, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (656, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (656, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (656, 67109562, 0, 24)
-     , (656, 67109564, 32, 8)
-     , (656, 67110318, 216, 24)
-     , (656, 67110361, 40, 24)
-     , (656, 67110365, 64, 8)
-     , (656, 67110376, 160, 8)
-     , (656, 67110385, 250, 6)
-     , (656, 67110539, 72, 8)
-     , (656, 67110551, 92, 4)
-     , (656, 67116997, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (656, 0, 83889072, 83890012)
-     , (656, 0, 83889342, 83890011)
-     , (656, 1, 83887064, 83886241)
-     , (656, 2, 83887066, 83887051)
-     , (656, 3, 83889344, 83887054)
-     , (656, 4, 83887068, 83887054)
-     , (656, 5, 83887064, 83886241)
-     , (656, 6, 83887066, 83887051)
-     , (656, 7, 83889344, 83887054)
-     , (656, 8, 83887068, 83887054)
-     , (656, 9, 83887070, 83890009)
-     , (656, 9, 83887062, 83890010)
-     , (656, 16, 83886232, 83890685)
-     , (656, 16, 83886668, 83890277)
-     , (656, 16, 83886837, 83890295)
-     , (656, 16, 83886684, 83890324)
-     , (656, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (656, 0, 16781875)
-     , (656, 1, 16778430)
-     , (656, 2, 16781908)
-     , (656, 3, 16781841)
-     , (656, 4, 16783485)
-     , (656, 5, 16778438)
-     , (656, 6, 16781909)
-     , (656, 7, 16781840)
-     , (656, 8, 16783487)
-     , (656, 9, 16778425)
-     , (656, 10, 16778431)
-     , (656, 11, 16778429)
-     , (656, 12, 16778423)
-     , (656, 13, 16778434)
-     , (656, 14, 16778424)
-     , (656, 15, 16778435)
-     , (656, 16, 16779630);

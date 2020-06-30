@@ -33,9 +33,7 @@ VALUES (3811,   1,          1) /* ItemType - MeleeWeapon */
      , (3811, 176,         45) /* AppraisalItemSkill */
      , (3811, 177,          2) /* GemCount */
      , (3811, 178,         23) /* GemType */
-     , (3811, 353,          2) /* WeaponType - Sword */
-     , (3811, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3811, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3811, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3811,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3811,   5,  -0.042) /* ManaRate */
      , (3811,  26,       0) /* MaximumVelocity */
      , (3811,  29,    1.07) /* WeaponDefense */
      , (3811,  62,    1.07) /* WeaponOffense */
-     , (3811,  63,       1) /* DamageMod */
-     , (3811, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (3811,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3811,   1, 'Lightning Kaskara') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3811,   1,   33555795) /* Setup */
      , (3811,   3,  536870932) /* SoundTable */
      , (3811,   8,  100669032) /* Icon */
-     , (3811,  22,  872415275) /* PhysicsEffectTable */
-     , (3811, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3811, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3811, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3811, 8000, 3336804322) /* PCAPRecordedObjectIID */;
+     , (3811,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3811,  1615,      2) 

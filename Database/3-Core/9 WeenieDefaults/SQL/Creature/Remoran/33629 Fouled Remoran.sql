@@ -11,8 +11,7 @@ VALUES (33629,   1,         16) /* ItemType - Creature */
      , (33629,  16,          1) /* ItemUseable - No */
      , (33629,  25,        185) /* Level */
      , (33629,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33629, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33629, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33629, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33629,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33629,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33629,   1, 'Fouled Remoran') /* Name */
-     , (33629, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33629,   1, 'Fouled Remoran') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33629,   1,   33559700) /* Setup */
@@ -30,17 +28,11 @@ VALUES (33629,   1,   33559700) /* Setup */
      , (33629,   3,  536871103) /* SoundTable */
      , (33629,   6,   67116726) /* PaletteBase */
      , (33629,   8,  100667937) /* Icon */
-     , (33629,  22,  872415414) /* PhysicsEffectTable */
-     , (33629, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33629, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33629, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (33629,  22,  872415414) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33629, 8040, 3303931925, 62.18432, 114.3642, 0, 0.9988156, 0, 0, -0.04865621) /* PCAPRecordedLocation */
 /* @teleloc 0xC4EE0015 [62.184320 114.364200 0.000000] 0.998816 0.000000 0.000000 -0.048656 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33629, 8000, 3359806612) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (33629,   1,     0, 0, 0, 9160) /* MaxHealth */;
@@ -95,6 +87,3 @@ VALUES (33629, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasu
      , (33629, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
      , (33629, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
      , (33629, 9, 40701,  0, 0, 0, False) /* Create Covenant Helm (40701) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33629, 67116731, 0, 0);

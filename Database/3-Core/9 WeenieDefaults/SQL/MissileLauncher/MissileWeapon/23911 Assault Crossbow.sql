@@ -26,9 +26,7 @@ VALUES (23911,   1,        256) /* ItemType - MissileWeapon */
      , (23911, 159,         47) /* WieldSkillType - MissileWeapons */
      , (23911, 160,        250) /* WieldDifficulty */
      , (23911, 166,          6) /* SlayerCreatureType - Tumerok */
-     , (23911, 353,          9) /* WeaponType - Crossbow */
-     , (23911, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23911, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23911, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23911,  22, True ) /* Inscribable */;
@@ -53,13 +51,7 @@ VALUES (23911,   1,   33558210) /* Setup */
      , (23911,   3,  536870932) /* SoundTable */
      , (23911,   8,  100671750) /* Icon */
      , (23911,  22,  872415275) /* PhysicsEffectTable */
-     , (23911,  30,         88) /* PhysicsScript - Create */
-     , (23911, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (23911, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23911, 8005,     161921) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23911, 8000, 2192305055) /* PCAPRecordedObjectIID */;
+     , (23911,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23911,  1377,      2) 

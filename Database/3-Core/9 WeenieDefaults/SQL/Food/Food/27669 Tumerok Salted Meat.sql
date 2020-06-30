@@ -14,8 +14,7 @@ VALUES (27669,   1,         32) /* ItemType - Food */
      , (27669,  19,        100) /* Value */
      , (27669,  89,          2) /* BoosterEnum - Health */
      , (27669,  90,        120) /* BoostValue */
-     , (27669,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (27669, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27669,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27669,   1, 'Tumerok Salted Meat') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27669,   1,   33554770) /* Setup */
      , (27669,   3,  536870932) /* SoundTable */
      , (27669,   8,  100676521) /* Icon */
-     , (27669,  22,  872415275) /* PhysicsEffectTable */
-     , (27669, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (27669, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (27669, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27669, 8000, 2410903935) /* PCAPRecordedObjectIID */;
+     , (27669,  22,  872415275) /* PhysicsEffectTable */;

@@ -19,10 +19,4 @@ VALUES (22730,   1, 'Holiday Pole') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22730,   1,   33558135) /* Setup */
-     , (22730,   8,  100669112) /* Icon */
-     , (22730, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (22730, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22730, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22730, 8000, 2779768886) /* PCAPRecordedObjectIID */;
+     , (22730,   8,  100669112) /* Icon */;

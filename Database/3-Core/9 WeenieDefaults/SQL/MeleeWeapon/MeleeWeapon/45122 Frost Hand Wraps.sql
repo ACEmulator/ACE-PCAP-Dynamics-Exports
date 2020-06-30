@@ -31,9 +31,7 @@ VALUES (45122,   1,          1) /* ItemType - MeleeWeapon */
      , (45122, 160,        300) /* WieldDifficulty */
      , (45122, 172,          1) /* AppraisalLongDescDecoration */
      , (45122, 176,         46) /* AppraisalItemSkill */
-     , (45122, 353,          1) /* WeaponType - Unarmed */
-     , (45122, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45122, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45122, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45122,  22, True ) /* Inscribable */
@@ -47,8 +45,7 @@ VALUES (45122,   5,  -0.042) /* ManaRate */
      , (45122,  29,    1.06) /* WeaponDefense */
      , (45122,  39,     0.8) /* DefaultScale */
      , (45122,  62,    1.05) /* WeaponOffense */
-     , (45122,  63,       1) /* DamageMod */
-     , (45122, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45122,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45122,   1, 'Frost Hand Wraps') /* Name */
@@ -60,14 +57,7 @@ VALUES (45122,   1,   33561414) /* Setup */
      , (45122,   6,   67115556) /* PaletteBase */
      , (45122,   8,  100692315) /* Icon */
      , (45122,  22,  872415275) /* PhysicsEffectTable */
-     , (45122,  52,  100676435) /* IconUnderlay */
-     , (45122, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45122, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45122, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (45122, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45122, 8000, 2174458873) /* PCAPRecordedObjectIID */;
+     , (45122,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45122,  1614,      2) 
@@ -75,12 +65,3 @@ VALUES (45122,  1614,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45122, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45122, 67116446, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45122, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45122, 0, 16792139);

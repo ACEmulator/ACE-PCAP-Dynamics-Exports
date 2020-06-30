@@ -15,8 +15,7 @@ VALUES (30048,   1,         16) /* ItemType - Creature */
      , (30048,  76,    1000000) /* MerchandiseMaxValue */
      , (30048,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30048, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (30048, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30048, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30048, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30048,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (30048,  37,     0.8) /* BuyPrice */
      , (30048,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30048,   1, 'Fiun Blacksmith') /* Name */
-     , (30048, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (30048,   1, 'Fiun Blacksmith') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30048,   1,   33559124) /* Setup */
      , (30048,   2,  150994945) /* MotionTable */
      , (30048,   3,  536870913) /* SoundTable */
      , (30048,   6,   67115466) /* PaletteBase */
-     , (30048,   8,  100677369) /* Icon */
-     , (30048, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30048, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30048, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30048,   8,  100677369) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30048, 8040, 955711747, 62.2553, 9.66051, 2.21048, -0.906216, 0, 0, -0.4228149) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70103 [62.255300 9.660510 2.210480] -0.906216 0.000000 0.000000 -0.422815 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30048, 8000, 1938780163) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30048,   1, 150, 0, 0) /* Strength */
@@ -96,6 +88,3 @@ VALUES (30048, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for 
      , (30048, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
      , (30048, 4, 30949, -1, 0, 0, False) /* Create Diforsa Sleeves (30949) for Shop */
      , (30048, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30048, 67115466, 0, 0);

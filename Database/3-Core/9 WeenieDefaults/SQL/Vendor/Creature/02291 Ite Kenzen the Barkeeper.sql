@@ -17,8 +17,7 @@ VALUES (2291,   1,         16) /* ItemType - Creature */
      , (2291, 113,          1) /* Gender - Male */
      , (2291, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2291, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2291, 188,          3) /* HeritageGroup - Sho */
-     , (2291, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2291, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2291,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2291,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2291,   1, 'Ite Kenzen the Barkeeper') /* Name */
-     , (2291,   5, 'Barkeeper') /* Template */
-     , (2291, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2291,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2291,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2291,   1,   33554433) /* Setup */
      , (2291,  11,   83890589) /* MouthTexture */
      , (2291,  15,   67117016) /* HairPalette */
      , (2291,  16,   67110063) /* EyesPalette */
-     , (2291,  17,   67110049) /* SkinPalette */
-     , (2291, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2291, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2291, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2291,  17,   67110049) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2291, 8040, 3378184481, 79.3806, 83.7658, 13.605, 0.8268932, 0, 0, -0.5623591) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0121 [79.380600 83.765800 13.605000] 0.826893 0.000000 0.000000 -0.562359 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2291, 8000, 2090184725) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2291,   1,  90, 0, 0) /* Strength */
@@ -86,55 +78,3 @@ VALUES (2291, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
      , (2291, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */
      , (2291, 4, 26667, -1, 0, 0, False) /* Create The Blackmire Temple (26667) for Shop */
      , (2291, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2291, 67109967, 92, 4)
-     , (2291, 67110020, 72, 8)
-     , (2291, 67110049, 0, 24)
-     , (2291, 67110063, 32, 8)
-     , (2291, 67110317, 160, 8)
-     , (2291, 67110320, 216, 24)
-     , (2291, 67110365, 250, 6)
-     , (2291, 67110378, 64, 8)
-     , (2291, 67110378, 40, 24)
-     , (2291, 67117016, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2291, 0, 83889072, 83890012)
-     , (2291, 0, 83889342, 83890011)
-     , (2291, 1, 83887064, 83886241)
-     , (2291, 2, 83887066, 83887055)
-     , (2291, 3, 83889344, 83887054)
-     , (2291, 4, 83887068, 83887054)
-     , (2291, 5, 83887064, 83886241)
-     , (2291, 6, 83887066, 83887055)
-     , (2291, 7, 83889344, 83887054)
-     , (2291, 8, 83887068, 83887054)
-     , (2291, 9, 83887061, 83890009)
-     , (2291, 9, 83887060, 83890010)
-     , (2291, 10, 83887069, 83886782)
-     , (2291, 13, 83887069, 83886782)
-     , (2291, 16, 83886232, 83890685)
-     , (2291, 16, 83886668, 83890453)
-     , (2291, 16, 83886837, 83890554)
-     , (2291, 16, 83886684, 83890589)
-     , (2291, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2291, 0, 16781835)
-     , (2291, 1, 16777295)
-     , (2291, 2, 16777293)
-     , (2291, 3, 16777292)
-     , (2291, 4, 16777291)
-     , (2291, 5, 16777299)
-     , (2291, 6, 16777297)
-     , (2291, 7, 16777296)
-     , (2291, 8, 16777298)
-     , (2291, 9, 16777300)
-     , (2291, 10, 16777301)
-     , (2291, 11, 16777302)
-     , (2291, 12, 16777304)
-     , (2291, 13, 16777303)
-     , (2291, 14, 16777305)
-     , (2291, 15, 16777307)
-     , (2291, 16, 16779630);

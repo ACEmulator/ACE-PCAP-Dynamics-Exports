@@ -29,9 +29,7 @@ VALUES (27821,   1,        256) /* ItemType - MissileWeapon */
      , (27821, 159,         47) /* WieldSkillType - MissileWeapons */
      , (27821, 160,        290) /* WieldDifficulty */
      , (27821, 166,         19) /* SlayerCreatureType - Virindi */
-     , (27821, 353,          8) /* WeaponType - Bow */
-     , (27821, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (27821, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (27821, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27821,  22, True ) /* Inscribable */
@@ -57,25 +55,14 @@ VALUES (27821,   1,   33557312) /* Setup */
      , (27821,   3,  536870932) /* SoundTable */
      , (27821,   6,   67111919) /* PaletteBase */
      , (27821,   8,  100672042) /* Icon */
-     , (27821,  22,  872415275) /* PhysicsEffectTable */
-     , (27821, 8001,  270762896) /* PCAPRecordedWeenieHeader - Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (27821, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27821, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (27821, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (27821,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27821, 8040, 3599958021, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD6930005 [18.409000 113.648000 -0.170000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27821, 8000, 2153120919) /* PCAPRecordedObjectIID */
-     , (27821, 8008, 1343276261) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27821,  1384,      2) 
      , (27821,  1605,      2) 
      , (27821,  1616,      2) 
      , (27821,  2579,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27821, 67111922, 0, 0);

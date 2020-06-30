@@ -31,9 +31,7 @@ VALUES (37579,   1,        256) /* ItemType - MissileWeapon */
      , (37579, 265,        138) /* EquipmentSetId - ParagonMissile */
      , (37579, 319,         50) /* ItemMaxLevel */
      , (37579, 320,          1) /* ItemXpStyle - Fixed */
-     , (37579, 353,          9) /* WeaponType - Crossbow */
-     , (37579, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (37579, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (37579, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (37579,   4, 100000000000) /* ItemTotalXp */
@@ -70,20 +68,11 @@ VALUES (37579,   1,   33560580) /* Setup */
      , (37579,   3,  536870932) /* SoundTable */
      , (37579,   8,  100673202) /* Icon */
      , (37579,  22,  872415275) /* PhysicsEffectTable */
-     , (37579,  52,  100689896) /* IconUnderlay */
-     , (37579, 8001,  270762896) /* PCAPRecordedWeenieHeader - Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (37579, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (37579, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (37579, 8005,     432289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (37579, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (37579,  52,  100689896) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37579, 8040, 1481638216, 43.82192, -6.842435, 5.93, 0.9432507, 0, 0, -0.3320816) /* PCAPRecordedLocation */
 /* @teleloc 0x58500148 [43.821920 -6.842435 5.930000] 0.943251 0.000000 0.000000 -0.332082 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37579, 8000, 2147979334) /* PCAPRecordedObjectIID */
-     , (37579, 8008, 1342977100) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37579,  2096,      2) 
@@ -92,16 +81,3 @@ VALUES (37579,  2096,      2)
      , (37579,  2505,      2) 
      , (37579,  2579,      2) 
      , (37579,  2582,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37579, 0, 83889688, 83892492)
-     , (37579, 0, 83893927, 83892492)
-     , (37579, 1, 83889688, 83892492)
-     , (37579, 1, 83893927, 83892492)
-     , (37579, 2, 83889688, 83892492)
-     , (37579, 2, 83893927, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37579, 0, 16787900)
-     , (37579, 1, 16787899)
-     , (37579, 2, 16787899);

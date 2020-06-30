@@ -27,9 +27,7 @@ VALUES (46630,   1,        256) /* ItemType - MissileWeapon */
      , (46630, 307,         10) /* DamageRating */
      , (46630, 313,         50) /* CritRating */
      , (46630, 314,          0) /* CritDamageRating */
-     , (46630, 386,          5) /* Overpower */
-     , (46630, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (46630, 8041,         52) /* PCAPRecordedPlacement - MissileFlight */;
+     , (46630, 386,          5) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46630,  69, False) /* IsSellable */
@@ -47,10 +45,7 @@ VALUES (46630,  21,       0) /* WeaponLength */
      , (46630,  78,       1) /* Friction */
      , (46630,  79,       0) /* Elasticity */
      , (46630, 149,       0) /* WeaponMissileDefense */
-     , (46630, 150,       0) /* WeaponMagicDefense */
-     , (46630, 8010, -13.039) /* PCAPRecordedVelocityX */
-     , (46630, 8011, -21.802) /* PCAPRecordedVelocityY */
-     , (46630, 8012,  -1.124) /* PCAPRecordedVelocityZ */;
+     , (46630, 150,       0) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46630,   1, 'Greater Deadly Acid Arrow') /* Name */;
@@ -60,25 +55,13 @@ VALUES (46630,   1,   33555787) /* Setup */
      , (46630,   3,  536870932) /* SoundTable */
      , (46630,   6,   67111919) /* PaletteBase */
      , (46630,   8,  100672658) /* Icon */
-     , (46630,  22,  872415275) /* PhysicsEffectTable */
-     , (46630, 8001,  270611352) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, ValidLocations, Burden, HookType */
-     , (46630, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (46630, 8005,     433029) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame, Translucency */;
+     , (46630,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46630, 8040, 1499529482, 23.63918, -86.08833, 1.201305, -0.2662404, 0, 0, -0.9639066) /* PCAPRecordedLocation */
 /* @teleloc 0x5961010A [23.639180 -86.088330 1.201305] -0.266240 0.000000 0.000000 -0.963907 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46630, 8000, 3695153263) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (46630, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */
      , (46630, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
      , (46630, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46630, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46630, 0, 16777887);

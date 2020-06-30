@@ -14,8 +14,7 @@ VALUES (3722,   1,         32) /* ItemType - Food */
      , (3722,  19,       2000) /* Value */
      , (3722,  89,          2) /* BoosterEnum - Health */
      , (3722,  90,        100) /* BoostValue */
-     , (3722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (3722, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3722,   1, 'Potion of Black Fire') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3722,   1,   33554603) /* Setup */
      , (3722,   3,  536870932) /* SoundTable */
      , (3722,   8,  100668234) /* Icon */
-     , (3722,  22,  872415275) /* PhysicsEffectTable */
-     , (3722, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (3722, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (3722, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3722, 8000, 2174519240) /* PCAPRecordedObjectIID */;
+     , (3722,  22,  872415275) /* PhysicsEffectTable */;

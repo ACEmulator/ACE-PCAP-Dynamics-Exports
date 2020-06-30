@@ -17,8 +17,7 @@ VALUES (11393,   1,         16) /* ItemType - Creature */
      , (11393, 113,          1) /* Gender - Male */
      , (11393, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11393, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11393, 188,          2) /* HeritageGroup - Gharundim */
-     , (11393, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11393, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11393,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (11393,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11393,   1, 'Brother Samir ibn Lomaq the Monk') /* Name */
-     , (11393,   5, 'Scribe') /* Template */
-     , (11393, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (11393,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11393,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (11393,   1,   33554433) /* Setup */
      , (11393,  11,   83890657) /* MouthTexture */
      , (11393,  15,   67117019) /* HairPalette */
      , (11393,  16,   67109567) /* EyesPalette */
-     , (11393,  17,   67109556) /* SkinPalette */
-     , (11393, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11393, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11393, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (11393,  17,   67109556) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11393, 8040, 733282563, 132.93, 11.8656, 70.469, -0.002606075, 0, 0, -0.9999966) /* PCAPRecordedLocation */
 /* @teleloc 0x2BB50103 [132.930000 11.865600 70.469000] -0.002606 0.000000 0.000000 -0.999997 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11393, 8000, 1924878339) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11393,   1,  50, 0, 0) /* Strength */
@@ -101,51 +93,3 @@ VALUES (11393, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (11393, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (11393, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (11393, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11393, 67109556, 0, 24)
-     , (11393, 67109567, 32, 8)
-     , (11393, 67109967, 92, 4)
-     , (11393, 67110020, 72, 8)
-     , (11393, 67110317, 160, 8)
-     , (11393, 67110320, 216, 24)
-     , (11393, 67111304, 64, 8)
-     , (11393, 67111304, 40, 24)
-     , (11393, 67117019, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11393, 0, 83889072, 83890012)
-     , (11393, 0, 83889342, 83890011)
-     , (11393, 1, 83887064, 83886241)
-     , (11393, 3, 83889344, 83887054)
-     , (11393, 4, 83887068, 83887054)
-     , (11393, 5, 83887064, 83886241)
-     , (11393, 7, 83889344, 83887054)
-     , (11393, 8, 83887068, 83887054)
-     , (11393, 9, 83887061, 83890009)
-     , (11393, 9, 83887060, 83890010)
-     , (11393, 10, 83887069, 83886782)
-     , (11393, 13, 83887069, 83886782)
-     , (11393, 16, 83886232, 83890685)
-     , (11393, 16, 83886668, 83890485)
-     , (11393, 16, 83886837, 83890526)
-     , (11393, 16, 83886684, 83890657);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11393, 0, 16781835)
-     , (11393, 1, 16777295)
-     , (11393, 2, 16777293)
-     , (11393, 3, 16777292)
-     , (11393, 4, 16777291)
-     , (11393, 5, 16777299)
-     , (11393, 6, 16777297)
-     , (11393, 7, 16777296)
-     , (11393, 8, 16777298)
-     , (11393, 9, 16777300)
-     , (11393, 10, 16777301)
-     , (11393, 11, 16777302)
-     , (11393, 12, 16777304)
-     , (11393, 13, 16777303)
-     , (11393, 14, 16777305)
-     , (11393, 15, 16777307)
-     , (11393, 16, 16795650);

@@ -11,15 +11,13 @@ VALUES (4111,   1,         16) /* ItemType - Creature */
      , (4111,  16,          1) /* ItemUseable - No */
      , (4111,  25,         15) /* Level */
      , (4111,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4111, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4111, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4111, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4111,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4111,   1, 'Hunter Shreth') /* Name */
-     , (4111, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4111,   1, 'Hunter Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4111,   1,   33555879) /* Setup */
@@ -27,17 +25,11 @@ VALUES (4111,   1,   33555879) /* Setup */
      , (4111,   3,  536870986) /* SoundTable */
      , (4111,   6,   67112444) /* PaletteBase */
      , (4111,   8,  100669720) /* Icon */
-     , (4111,  22,  872415333) /* PhysicsEffectTable */
-     , (4111, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4111, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4111, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (4111,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4111, 8040, 2474377253, 119.1262, 108.6246, 32.05782, 0.7372774, 0, 0, -0.6755902) /* PCAPRecordedLocation */
 /* @teleloc 0x937C0025 [119.126200 108.624600 32.057820] 0.737277 0.000000 0.000000 -0.675590 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4111, 8000, 3685497792) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4111,   1,  80, 0, 0) /* Strength */
@@ -176,6 +168,3 @@ VALUES (4111, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) 
      , (4111, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
      , (4111, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */
      , (4111, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4111, 67112466, 0, 0);

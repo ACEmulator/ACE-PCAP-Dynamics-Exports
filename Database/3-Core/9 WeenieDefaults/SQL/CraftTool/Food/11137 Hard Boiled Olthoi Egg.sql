@@ -34,13 +34,7 @@ VALUES (11137,   1,   33557217) /* Setup */
      , (11137,   3,  536870932) /* SoundTable */
      , (11137,   8,  100671977) /* Icon */
      , (11137,  22,  872415275) /* PhysicsEffectTable */
-     , (11137,  28,       2435) /* Spell - LightningWard */
-     , (11137, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (11137, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (11137, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11137, 8000, 2174519210) /* PCAPRecordedObjectIID */;
+     , (11137,  28,       2435) /* Spell - LightningWard */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11137,  2435,      2) ;

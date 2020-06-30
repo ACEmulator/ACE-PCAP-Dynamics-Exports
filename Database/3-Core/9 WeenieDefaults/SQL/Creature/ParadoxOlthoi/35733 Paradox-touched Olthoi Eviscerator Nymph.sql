@@ -11,8 +11,7 @@ VALUES (35733,   1,         16) /* ItemType - Creature */
      , (35733,  16,          1) /* ItemUseable - No */
      , (35733,  25,        115) /* Level */
      , (35733,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35733, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35733, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35733, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35733,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (35733,  39,     0.8) /* DefaultScale */
      , (35733,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35733,   1, 'Paradox-touched Olthoi Eviscerator Nymph') /* Name */
-     , (35733, 8006, 'AAA8AIEAAAA8AFEAAQAAAIA/AAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35733,   1, 'Paradox-touched Olthoi Eviscerator Nymph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35733,   1,   33560314) /* Setup */
@@ -32,17 +30,11 @@ VALUES (35733,   1,   33560314) /* Setup */
      , (35733,   6,   67113194) /* PaletteBase */
      , (35733,   8,  100667623) /* Icon */
      , (35733,  22,  872415378) /* PhysicsEffectTable */
-     , (35733,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (35733, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35733, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35733, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (35733,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35733, 8040, 1581580855, 48.541, -151.051, -6.0128, 0.8723342, 0, 0, 0.4889101) /* PCAPRecordedLocation */
 /* @teleloc 0x5E450237 [48.541000 -151.051000 -6.012800] 0.872334 0.000000 0.000000 0.488910 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35733, 8000, 3690278973) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35733,   1, 330, 0, 0) /* Strength */
@@ -1019,6 +1011,3 @@ VALUES (35733, 9, 49249,  0, 0, 0, False) /* Create Fire Zombie Essence (100) (4
      , (35733, 9, 49476,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VII (49476) for ContainTreasure */
      , (35733, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
      , (35733, 9, 27222,  0, 0, 0, False) /* Create Lorica Gauntlets (27222) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35733, 67116825, 0, 0);

@@ -23,14 +23,10 @@ VALUES (2429,   1,       2048) /* ItemType - Gem */
      , (2429, 115,          0) /* ItemSkillLevelLimit */
      , (2429, 117,        350) /* ItemManaCost */
      , (2429, 131,         19) /* MaterialType - Citrine */
-     , (2429, 172,          1) /* AppraisalLongDescDecoration */
-     , (2429, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2429, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2429,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2429, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2429,   1, 'Gem') /* Name */
@@ -42,22 +38,7 @@ VALUES (2429,   1,   33554809) /* Setup */
      , (2429,   6,   67111919) /* PaletteBase */
      , (2429,   8,  100674729) /* Icon */
      , (2429,  22,  872415275) /* PhysicsEffectTable */
-     , (2429,  28,        193) /* Spell - RejuvenationSelf6 */
-     , (2429, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
-     , (2429, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2429, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2429, 8000, 3691071399) /* PCAPRecordedObjectIID */;
+     , (2429,  28,        193) /* Spell - RejuvenationSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2429,   193,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2429, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2429, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2429, 0, 16779181);

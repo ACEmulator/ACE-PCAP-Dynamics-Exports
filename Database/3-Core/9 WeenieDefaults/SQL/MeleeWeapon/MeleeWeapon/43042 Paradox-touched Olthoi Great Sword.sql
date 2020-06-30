@@ -30,8 +30,7 @@ VALUES (43042,   1,          1) /* ItemType - MeleeWeapon */
      , (43042, 166,          1) /* SlayerCreatureType - Olthoi */
      , (43042, 263,          1) /* ResistanceModifierType */
      , (43042, 292,          2) /* Cleaving */
-     , (43042, 353,         11) /* WeaponType - TwoHanded */
-     , (43042, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (43042, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43042,  22, True ) /* Inscribable */
@@ -64,19 +63,11 @@ VALUES (43042,   1,   33561080) /* Setup */
      , (43042,   3,  536870932) /* SoundTable */
      , (43042,   8,  100691346) /* Icon */
      , (43042,  22,  872415275) /* PhysicsEffectTable */
-     , (43042,  55,         67) /* ProcSpell - ShockWave4 */
-     , (43042, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (43042, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (43042, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (43042, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (43042,  55,         67) /* ProcSpell - ShockWave4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43042, 8040, 3583574079, 178.882, 161.9281, 373.929, 0.5268642, 0.5268642, -0.471608, -0.471608) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [178.882000 161.928100 373.929000] 0.526864 0.526864 -0.471608 -0.471608 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43042, 8000, 2277865786) /* PCAPRecordedObjectIID */
-     , (43042, 8008, 1343318476) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43042,    67,      2) 

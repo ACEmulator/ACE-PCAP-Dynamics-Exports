@@ -13,8 +13,7 @@ VALUES (35402,   1,      16384) /* ItemType - Key */
      , (35402,  92,          1) /* Structure */
      , (35402,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35402,  94,        640) /* TargetType - LockableMagicTarget */
-     , (35402, 114,          1) /* Attuned - Attuned */
-     , (35402, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35402, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35402,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (35402,   1, 'Lord Cynreft Mhoire''s Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35402,   1,   33554784) /* Setup */
      , (35402,   8,  100667485) /* Icon */
-     , (35402,  22,  872415275) /* PhysicsEffectTable */
-     , (35402, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (35402, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35402, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35402, 8000, 2911071709) /* PCAPRecordedObjectIID */;
+     , (35402,  22,  872415275) /* PhysicsEffectTable */;

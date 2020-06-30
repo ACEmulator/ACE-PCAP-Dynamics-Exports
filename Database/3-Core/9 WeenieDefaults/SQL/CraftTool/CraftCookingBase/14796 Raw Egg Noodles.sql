@@ -13,8 +13,7 @@ VALUES (14796,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14796,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14796,  19,          4) /* Value */
      , (14796,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14796,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (14796, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14796,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14796,   1, 'Raw Egg Noodles') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14796,   1,   33554817) /* Setup */
      , (14796,   3,  536870932) /* SoundTable */
      , (14796,   8,  100672549) /* Icon */
-     , (14796,  22,  872415275) /* PhysicsEffectTable */
-     , (14796, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (14796, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (14796, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14796, 8000, 2166233968) /* PCAPRecordedObjectIID */;
+     , (14796,  22,  872415275) /* PhysicsEffectTable */;

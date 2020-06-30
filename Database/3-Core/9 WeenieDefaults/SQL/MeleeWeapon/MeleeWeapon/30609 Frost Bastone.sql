@@ -31,9 +31,7 @@ VALUES (30609,   1,          1) /* ItemType - MeleeWeapon */
      , (30609, 160,        250) /* WieldDifficulty */
      , (30609, 172,          1) /* AppraisalLongDescDecoration */
      , (30609, 176,         46) /* AppraisalItemSkill */
-     , (30609, 353,          7) /* WeaponType - Staff */
-     , (30609, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30609, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30609, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30609,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (30609,   5,  -0.042) /* ManaRate */
      , (30609,  29,    1.07) /* WeaponDefense */
      , (30609,  62,       1) /* WeaponOffense */
      , (30609,  63,       1) /* DamageMod */
-     , (30609, 149,   1.015) /* WeaponMissileDefense */
-     , (30609, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (30609, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30609,   1, 'Frost Bastone') /* Name */
@@ -58,13 +55,7 @@ VALUES (30609,   1,   33559495) /* Setup */
      , (30609,   3,  536870932) /* SoundTable */
      , (30609,   6,   67116428) /* PaletteBase */
      , (30609,   8,  100687025) /* Icon */
-     , (30609,  22,  872415275) /* PhysicsEffectTable */
-     , (30609, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30609, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30609, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30609, 8000, 3705367725) /* PCAPRecordedObjectIID */;
+     , (30609,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30609,  1615,      2) 
@@ -72,12 +63,3 @@ VALUES (30609,  1615,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30609, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30609, 67116438, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30609, 0, 83897173, 83897173);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30609, 0, 16792138);

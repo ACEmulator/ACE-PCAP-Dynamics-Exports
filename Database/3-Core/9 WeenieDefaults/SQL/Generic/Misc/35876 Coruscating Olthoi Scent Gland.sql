@@ -11,8 +11,7 @@ VALUES (35876,   1,        128) /* ItemType - Misc */
      , (35876,  19,          0) /* Value */
      , (35876,  33,          1) /* Bonded - Bonded */
      , (35876,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35876, 114,          1) /* Attuned - Attuned */
-     , (35876, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35876, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35876,  22, True ) /* Inscribable */
@@ -29,10 +28,4 @@ VALUES (35876,   1, 'Coruscating Olthoi Scent Gland') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35876,   1,   33560332) /* Setup */
-     , (35876,   8,  100671870) /* Icon */
-     , (35876, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
-     , (35876, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35876, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35876, 8000, 3701495666) /* PCAPRecordedObjectIID */;
+     , (35876,   8,  100671870) /* Icon */;

@@ -24,10 +24,4 @@ VALUES (22837,   1, 'Snowflower') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22837,   1,   33558159) /* Setup */
-     , (22837,   8,  100673926) /* Icon */
-     , (22837, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (22837, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22837, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22837, 8000, 3658160306) /* PCAPRecordedObjectIID */;
+     , (22837,   8,  100673926) /* Icon */;

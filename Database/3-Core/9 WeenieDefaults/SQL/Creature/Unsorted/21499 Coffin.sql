@@ -33,8 +33,7 @@ VALUES (21499,   1,         16) /* ItemType - Creature */
      , (21499, 386,          0) /* Overpower */
      , (21499, 387,          0) /* OverpowerResist */
      , (21499, 388,          0) /* GearOverpower */
-     , (21499, 389,          0) /* GearOverpowerResist */
-     , (21499, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (21499, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21499,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (21499,  39,     1.2) /* DefaultScale */
      , (21499,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21499,   1, 'Coffin') /* Name */
-     , (21499, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (21499,   1, 'Coffin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21499,   1,   33555351) /* Setup */
      , (21499,   2,  150995147) /* MotionTable */
      , (21499,   3,  536871052) /* SoundTable */
      , (21499,   8,  100667624) /* Icon */
-     , (21499,  22,  872415274) /* PhysicsEffectTable */
-     , (21499, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (21499, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (21499, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (21499,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21499, 8040, 1481769375, 26.743, -105.746, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5852019F [26.743000 -105.746000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21499, 8000, 3702580098) /* PCAPRecordedObjectIID */;

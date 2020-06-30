@@ -17,8 +17,7 @@ VALUES (834,   1,         16) /* ItemType - Creature */
      , (834, 113,          1) /* Gender - Male */
      , (834, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (834, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (834, 188,          3) /* HeritageGroup - Sho */
-     , (834, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (834, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (834,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (834,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (834,   1, 'Jaikite Sanzen the Barkeeper') /* Name */
-     , (834,   5, 'Barkeeper') /* Template */
-     , (834, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (834,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (834,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (834,   1,   33554433) /* Setup */
      , (834,  11,   83890664) /* MouthTexture */
      , (834,  15,   67116992) /* HairPalette */
      , (834,  16,   67110063) /* EyesPalette */
-     , (834,  17,   67110055) /* SkinPalette */
-     , (834, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (834, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (834, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (834,  17,   67110055) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (834, 8040, 3663004073, 12.36, 55.08, 24.805, 0.9040826, 0, 0, -0.4273578) /* PCAPRecordedLocation */
 /* @teleloc 0xDA5501A9 [12.360000 55.080000 24.805000] 0.904083 0.000000 0.000000 -0.427358 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (834, 8000, 2107985972) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (834,   1,  55, 0, 0) /* Strength */
@@ -103,53 +95,3 @@ VALUES (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop 
      , (834, 4, 26002, -1, 0, 0, False) /* Create Shoushi Drudge Temple (26002) for Shop */
      , (834, 4, 26003, -1, 0, 0, False) /* Create Shoushi Banderling Camp (26003) for Shop */
      , (834, 4, 26644, -1, 0, 0, False) /* Create Skeleton Castle Rumor (26644) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (834, 67109969, 92, 4)
-     , (834, 67110026, 72, 8)
-     , (834, 67110055, 0, 24)
-     , (834, 67110063, 32, 8)
-     , (834, 67110320, 216, 24)
-     , (834, 67110334, 160, 8)
-     , (834, 67111245, 64, 8)
-     , (834, 67111245, 40, 24)
-     , (834, 67116992, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (834, 0, 83889072, 83890012)
-     , (834, 0, 83889342, 83890011)
-     , (834, 1, 83887064, 83886241)
-     , (834, 3, 83889344, 83887054)
-     , (834, 4, 83887068, 83887054)
-     , (834, 5, 83887064, 83886241)
-     , (834, 7, 83889344, 83887054)
-     , (834, 8, 83887068, 83887054)
-     , (834, 9, 83887061, 83890009)
-     , (834, 9, 83887060, 83890010)
-     , (834, 10, 83887069, 83886782)
-     , (834, 11, 83886788, 83891213)
-     , (834, 13, 83887069, 83886782)
-     , (834, 14, 83886788, 83891213)
-     , (834, 16, 83886232, 83890685)
-     , (834, 16, 83886668, 83890487)
-     , (834, 16, 83886837, 83890544)
-     , (834, 16, 83886684, 83890664);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (834, 0, 16781835)
-     , (834, 1, 16781845)
-     , (834, 2, 16777293)
-     , (834, 3, 16777292)
-     , (834, 4, 16777291)
-     , (834, 5, 16781846)
-     , (834, 6, 16777297)
-     , (834, 7, 16777296)
-     , (834, 8, 16777298)
-     , (834, 9, 16777300)
-     , (834, 10, 16777301)
-     , (834, 11, 16781822)
-     , (834, 12, 16777304)
-     , (834, 13, 16777303)
-     , (834, 14, 16781821)
-     , (834, 15, 16777307)
-     , (834, 16, 16795654);

@@ -19,20 +19,8 @@ VALUES (1807,   1, 'Nashima''s Nostrums') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1807,   1,   33555909) /* Setup */
-     , (1807,   8,  100668115) /* Icon */
-     , (1807, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (1807, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1807, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (1807,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1807, 8040, 2724134965, 149.089, 111.174, 23.1484, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0035 [149.089000 111.174000 23.148400] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1807, 8000, 2049306646) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1807, 0, 83892071, 83892186);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1807, 0, 16783205);

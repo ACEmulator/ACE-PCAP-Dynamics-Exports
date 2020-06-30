@@ -14,8 +14,7 @@ VALUES (5174,   1,         32) /* ItemType - Food */
      , (5174,  19,         12) /* Value */
      , (5174,  89,          2) /* BoosterEnum - Health */
      , (5174,  90,         15) /* BoostValue */
-     , (5174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5174, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5174,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5174,   1, 'Mara''s Healing Pie') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5174,   1,   33555978) /* Setup */
      , (5174,   3,  536870932) /* SoundTable */
      , (5174,   8,  100669942) /* Icon */
-     , (5174,  22,  872415275) /* PhysicsEffectTable */
-     , (5174, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (5174, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5174, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5174, 8000, 2157273436) /* PCAPRecordedObjectIID */;
+     , (5174,  22,  872415275) /* PhysicsEffectTable */;

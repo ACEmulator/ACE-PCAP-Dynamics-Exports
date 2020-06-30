@@ -14,8 +14,7 @@ VALUES (44267,   1,        128) /* ItemType - Misc */
      , (44267,  19,          1) /* Value */
      , (44267,  33,          1) /* Bonded - Bonded */
      , (44267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44267, 114,          1) /* Attuned - Attuned */
-     , (44267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44267, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44267,  69, False) /* IsSellable */;
@@ -30,22 +29,7 @@ VALUES (44267,   1,   33554683) /* Setup */
      , (44267,   3,  536870932) /* SoundTable */
      , (44267,   6,   67111919) /* PaletteBase */
      , (44267,   8,  100691961) /* Icon */
-     , (44267,  22,  872415275) /* PhysicsEffectTable */
-     , (44267, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (44267, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44267, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44267, 8000, 2466941495) /* PCAPRecordedObjectIID */;
+     , (44267,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44267, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44267, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44267, 0, 83888956, 83893821);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44267, 0, 16778334);

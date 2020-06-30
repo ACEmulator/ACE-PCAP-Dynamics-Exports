@@ -31,9 +31,7 @@ VALUES (41044,   1,          1) /* ItemType - MeleeWeapon */
      , (41044, 160,        325) /* WieldDifficulty */
      , (41044, 172,          1) /* AppraisalLongDescDecoration */
      , (41044, 176,         41) /* AppraisalItemSkill */
-     , (41044, 353,         11) /* WeaponType - TwoHanded */
-     , (41044, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41044, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41044, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41044,  22, True ) /* Inscribable */;
@@ -45,8 +43,7 @@ VALUES (41044,   5,   -0.05) /* ManaRate */
      , (41044,  26,       0) /* MaximumVelocity */
      , (41044,  29,    1.06) /* WeaponDefense */
      , (41044,  62,    1.07) /* WeaponOffense */
-     , (41044,  63,       1) /* DamageMod */
-     , (41044, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (41044,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41044,   1, 'Flaming Magari Yari') /* Name */
@@ -57,24 +54,8 @@ VALUES (41044,   1,   33560798) /* Setup */
      , (41044,   3,  536870932) /* SoundTable */
      , (41044,   6,   67115558) /* PaletteBase */
      , (41044,   8,  100690511) /* Icon */
-     , (41044,  22,  872415275) /* PhysicsEffectTable */
-     , (41044, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41044, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41044, 8000, 3694257062) /* PCAPRecordedObjectIID */;
+     , (41044,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41044,  1616,      2) 
      , (41044,  2616,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41044, 67116384, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41044, 0, 83896665, 83896665)
-     , (41044, 0, 83896155, 83896155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41044, 0, 16794282);

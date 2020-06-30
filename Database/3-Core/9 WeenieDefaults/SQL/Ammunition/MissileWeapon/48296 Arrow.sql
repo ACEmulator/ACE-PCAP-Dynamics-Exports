@@ -32,9 +32,7 @@ VALUES (48296,   1,        256) /* ItemType - MissileWeapon */
      , (48296, 307,          5) /* DamageRating */
      , (48296, 313,          0) /* CritRating */
      , (48296, 314,          0) /* CritDamageRating */
-     , (48296, 386,          0) /* Overpower */
-     , (48296, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (48296, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (48296, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48296,  69, False) /* IsSellable */;
@@ -59,25 +57,11 @@ VALUES (48296,   1,   33555406) /* Setup */
      , (48296,   3,  536870932) /* SoundTable */
      , (48296,   6,   67111919) /* PaletteBase */
      , (48296,   8,  100670195) /* Icon */
-     , (48296,  22,  872415275) /* PhysicsEffectTable */
-     , (48296, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48296, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48296, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (48296, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48296,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48296, 8040, 1571160090, 84.58629, 35.00706, 73.723, -0.6638255, -0.6638255, -0.2435893, -0.2435893) /* PCAPRecordedLocation */
 /* @teleloc 0x5DA6001A [84.586290 35.007060 73.723000] -0.663826 -0.663826 -0.243589 -0.243589 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48296, 8000, 3685820870) /* PCAPRecordedObjectIID */
-     , (48296, 8008, 3685554543) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48296, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48296, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48296, 0, 16777887);

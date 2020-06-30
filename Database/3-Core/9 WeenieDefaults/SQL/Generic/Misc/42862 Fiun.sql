@@ -19,14 +19,8 @@ VALUES (42862,   1, 'Fiun') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42862,   1,   33561004) /* Setup */
-     , (42862,   8,  100668115) /* Icon */
-     , (42862, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42862, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42862, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42862,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42862, 8040, 459100, 84.873, -155, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007015C [84.873000 -155.000000 0.660000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42862, 8000, 1879076979) /* PCAPRecordedObjectIID */;

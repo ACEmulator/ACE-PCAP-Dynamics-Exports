@@ -13,8 +13,7 @@ VALUES (42724,   1,       2048) /* ItemType - Gem */
      , (42724,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (42724,  19,          1) /* Value */
      , (42724,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (42724,  94,          6) /* TargetType - Vestements */
-     , (42724, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42724,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42724,   1, 'Armor Layering Tool (Top)') /* Name */;
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42724,   1,   33555677) /* Setup */
      , (42724,   3,  536870932) /* SoundTable */
      , (42724,   8,  100691006) /* Icon */
-     , (42724,  22,  872415275) /* PhysicsEffectTable */
-     , (42724, 8001,    2650136) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (42724, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (42724, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42724, 8000, 3443531062) /* PCAPRecordedObjectIID */;
+     , (42724,  22,  872415275) /* PhysicsEffectTable */;

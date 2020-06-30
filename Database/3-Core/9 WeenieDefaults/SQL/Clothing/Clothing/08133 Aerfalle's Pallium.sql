@@ -20,8 +20,7 @@ VALUES (8133,   1,          4) /* ItemType - Clothing */
      , (8133, 108,        855) /* ItemMaxMana */
      , (8133, 109,        275) /* ItemDifficulty */
      , (8133, 114,          1) /* Attuned - Attuned */
-     , (8133, 151,          2) /* HookType - Wall */
-     , (8133, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8133, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8133,  22, True ) /* Inscribable */
@@ -49,31 +48,10 @@ VALUES (8133,   1,   33554854) /* Setup */
      , (8133,   3,  536870932) /* SoundTable */
      , (8133,   6,   67108990) /* PaletteBase */
      , (8133,   8,  100670350) /* Icon */
-     , (8133,  22,  872415275) /* PhysicsEffectTable */
-     , (8133, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
-     , (8133, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (8133, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8133, 8000, 2186220612) /* PCAPRecordedObjectIID */;
+     , (8133,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8133,   689,      2) 
      , (8133,  1431,      2) 
      , (8133,  1455,      2) 
      , (8133,  2015,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8133, 67109945, 96, 12)
-     , (8133, 67110385, 116, 12)
-     , (8133, 67112954, 40, 40)
-     , (8133, 67112954, 80, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8133, 0, 83887061, 83892348)
-     , (8133, 0, 83887060, 83892349)
-     , (8133, 0, 83889072, 83892345)
-     , (8133, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8133, 0, 16778367);

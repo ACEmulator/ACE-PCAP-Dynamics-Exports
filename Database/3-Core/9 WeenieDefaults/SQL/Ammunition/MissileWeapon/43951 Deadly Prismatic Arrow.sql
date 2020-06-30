@@ -40,9 +40,7 @@ VALUES (43951,   1,        256) /* ItemType - MissileWeapon */
      , (43951, 307,         13) /* DamageRating */
      , (43951, 313,          0) /* CritRating */
      , (43951, 314,          3) /* CritDamageRating */
-     , (43951, 386,          0) /* Overpower */
-     , (43951, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (43951, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (43951, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43951,  69, False) /* IsSellable */;
@@ -69,19 +67,11 @@ VALUES (43951,   1,   33561223) /* Setup */
      , (43951,   3,  536870932) /* SoundTable */
      , (43951,   6,   67111919) /* PaletteBase */
      , (43951,   8,  100691911) /* Icon */
-     , (43951,  22,  872415275) /* PhysicsEffectTable */
-     , (43951, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (43951, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (43951, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (43951, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (43951,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43951, 8040, 1676148772, 117.3826, 86.78278, 131.49, 0.6430498, 0.6430498, -0.2940865, -0.2940865) /* PCAPRecordedLocation */
 /* @teleloc 0x63E80024 [117.382600 86.782780 131.490000] 0.643050 0.643050 -0.294087 -0.294087 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43951, 8000, 3683695477) /* PCAPRecordedObjectIID */
-     , (43951, 8008, 1343219288) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43951, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
@@ -96,6 +86,3 @@ VALUES (43951, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646
      , (43951, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
      , (43951, 2, 47705,  1, 0, 0, False) /* Create Acid Spear (47705) for Wield */
      , (43951, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43951, 67111920, 0, 0);

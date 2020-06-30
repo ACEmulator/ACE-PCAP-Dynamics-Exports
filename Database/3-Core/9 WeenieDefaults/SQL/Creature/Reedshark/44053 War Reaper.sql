@@ -12,8 +12,7 @@ VALUES (44053,   1,         16) /* ItemType - Creature */
      , (44053,  25,        265) /* Level */
      , (44053,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44053, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44053, 313,         40) /* CritRating */
-     , (44053, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44053, 313,         40) /* CritRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44053,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44053,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44053,   1, 'War Reaper') /* Name */
-     , (44053, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (44053,   1, 'War Reaper') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44053,   1,   33554489) /* Setup */
@@ -31,17 +29,11 @@ VALUES (44053,   1,   33554489) /* Setup */
      , (44053,   3,  536870928) /* SoundTable */
      , (44053,   6,   67109313) /* PaletteBase */
      , (44053,   8,  100667939) /* Icon */
-     , (44053,  22,  872415268) /* PhysicsEffectTable */
-     , (44053, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (44053, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44053, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (44053,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44053, 8040, 2305032211, 56.89597, 71.44058, 53.6073, 0.9966293, 0, 0, 0.08203653) /* PCAPRecordedLocation */
 /* @teleloc 0x89640013 [56.895970 71.440580 53.607300] 0.996629 0.000000 0.000000 0.082037 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44053, 8000, 3360014680) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44053,   1, 260, 0, 0) /* Strength */
@@ -285,6 +277,3 @@ VALUES (44053, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) 
      , (44053, 9, 22441,  0, 0, 0, False) /* Create Acid Dirk (22441) for ContainTreasure */
      , (44053, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
      , (44053, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44053, 67114044, 0, 0);

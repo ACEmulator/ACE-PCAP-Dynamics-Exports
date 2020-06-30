@@ -12,15 +12,13 @@ VALUES (7819,   1,         16) /* ItemType - Creature */
      , (7819,  25,         15) /* Level */
      , (7819,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7819, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7819, 307,          5) /* DamageRating */
-     , (7819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7819, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7819,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7819,   1, 'Zombie') /* Name */
-     , (7819, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7819,   1, 'Zombie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7819,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (7819,   1,   33554839) /* Setup */
      , (7819,   3,  536870934) /* SoundTable */
      , (7819,   6,   67110722) /* PaletteBase */
      , (7819,   8,  100667942) /* Icon */
-     , (7819,  22,  872415272) /* PhysicsEffectTable */
-     , (7819, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7819, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7819, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7819,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7819, 8040, 49218148, 203.1686, -138.9512, -5.9925, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x02EF0264 [203.168600 -138.951200 -5.992500] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7819, 8000, 2779813758) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7819,   1,  60, 0, 0) /* Strength */
@@ -76,6 +68,3 @@ VALUES (7819, 2, 47878,  1, 0, 0, False) /* Create Acid Nekode (47878) for Wield
      , (7819, 2, 47879,  1, 0, 0, False) /* Create Lightning Nekode (47879) for Wield */
      , (7819, 2, 47883,  1, 0, 0, False) /* Create Ono (47883) for Wield */
      , (7819, 2, 47885,  1, 0, 0, False) /* Create Lightning Ono (47885) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7819, 67111664, 0, 0);

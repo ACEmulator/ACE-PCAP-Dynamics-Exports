@@ -14,8 +14,7 @@ VALUES (2598,   1,          4) /* ItemType - Clothing */
      , (2598,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2598, 105,          7) /* ItemWorkmanship */
      , (2598, 131,          5) /* MaterialType - Satin */
-     , (2598, 172,          1) /* AppraisalLongDescDecoration */
-     , (2598, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2598, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2598,  22, True ) /* Inscribable */
@@ -29,8 +28,7 @@ VALUES (2598,  13,     0.8) /* ArmorModVsSlash */
      , (2598,  17,     0.2) /* ArmorModVsFire */
      , (2598,  18,     0.1) /* ArmorModVsAcid */
      , (2598,  19,     0.2) /* ArmorModVsElectric */
-     , (2598, 165,       1) /* ArmorModVsNether */
-     , (2598, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (2598, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2598,   1, 'Baggy Pants') /* Name */
@@ -41,23 +39,4 @@ VALUES (2598,   1,   33554653) /* Setup */
      , (2598,   3,  536870932) /* SoundTable */
      , (2598,   6,   67108990) /* PaletteBase */
      , (2598,   8,  100667370) /* Icon */
-     , (2598,  22,  872415275) /* PhysicsEffectTable */
-     , (2598, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (2598, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2598, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2598, 8000, 3692627075) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2598, 67110014, 72, 8)
-     , (2598, 67110344, 64, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2598, 0, 83887064, 83886241)
-     , (2598, 0, 83887066, 83887055)
-     , (2598, 0, 83889072, 83889072)
-     , (2598, 0, 83889342, 83889342);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2598, 0, 16778358);
+     , (2598,  22,  872415275) /* PhysicsEffectTable */;

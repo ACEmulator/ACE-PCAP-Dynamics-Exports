@@ -12,8 +12,7 @@ VALUES (29167,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29167,  15,         50) /* StackUnitValue */
      , (29167,  16,          1) /* ItemUseable - No */
      , (29167,  19,         50) /* Value */
-     , (29167,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29167, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29167,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29167,   1, 'Dark Wort') /* Name */
@@ -24,10 +23,4 @@ VALUES (29167,   1,   33559154) /* Setup */
      , (29167,   3,  536870932) /* SoundTable */
      , (29167,   8,  100686462) /* Icon */
      , (29167,  22,  872415275) /* PhysicsEffectTable */
-     , (29167,  50,  100687549) /* IconOverlay */
-     , (29167, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (29167, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29167, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29167, 8000, 3696343518) /* PCAPRecordedObjectIID */;
+     , (29167,  50,  100687549) /* IconOverlay */;

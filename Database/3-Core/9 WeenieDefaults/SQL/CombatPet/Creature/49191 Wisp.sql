@@ -14,32 +14,23 @@ VALUES (49191,   1,         16) /* ItemType - Creature */
      , (49191, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49191, 308,         18) /* DamageResistRating */
      , (49191, 313,         11) /* CritRating */
-     , (49191, 315,          8) /* CritResistRating */
-     , (49191, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (49191, 315,          8) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49191,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49191,   1, 'Wisp') /* Name */
-     , (49191, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (49191,   1, 'Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49191,   1,   33557068) /* Setup */
      , (49191,   2,  150995087) /* MotionTable */
      , (49191,   3,  536870985) /* SoundTable */
-     , (49191,   8,  100671683) /* Icon */
-     , (49191, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (49191, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
-     , (49191, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
-     , (49191, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (49191,   8,  100671683) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (49191, 8040, 2113011737, 82.84274, 16.8926, 151.7074, -0.3296373, 0, 0, 0.9441077) /* PCAPRecordedLocation */
 /* @teleloc 0x7DF20019 [82.842740 16.892600 151.707400] -0.329637 0.000000 0.000000 0.944108 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49191, 8000, 2930091776) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49191,   1, 210, 0, 0) /* Strength */

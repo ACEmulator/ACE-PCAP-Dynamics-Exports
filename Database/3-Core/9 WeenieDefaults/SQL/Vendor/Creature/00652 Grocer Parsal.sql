@@ -17,8 +17,7 @@ VALUES (652,   1,         16) /* ItemType - Creature */
      , (652, 113,          1) /* Gender - Male */
      , (652, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (652, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (652, 188,          1) /* HeritageGroup - Aluvian */
-     , (652, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (652, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (652,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (652,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (652,   1, 'Grocer Parsal') /* Name */
-     , (652,   5, 'Grocer') /* Template */
-     , (652, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
+     , (652,   5, 'Grocer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (652,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (652,   1,   33554433) /* Setup */
      , (652,  11,   83890638) /* MouthTexture */
      , (652,  15,   67117020) /* HairPalette */
      , (652,  16,   67110065) /* EyesPalette */
-     , (652,  17,   67109558) /* SkinPalette */
-     , (652, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (652, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (652, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (652,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (652, 8040, 3465871670, 153.72, 63.72, 20.005, 0.4733198, 0, 0, -0.8808907) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950136 [153.720000 63.720000 20.005000] 0.473320 0.000000 0.000000 -0.880891 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (652, 8000, 2095665185) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (652,   1,  30, 0, 0) /* Strength */
@@ -82,58 +74,3 @@ VALUES (652, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (652, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (652, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (652, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (652, 67109558, 0, 24)
-     , (652, 67110020, 72, 8)
-     , (652, 67110065, 32, 8)
-     , (652, 67110356, 216, 24)
-     , (652, 67110365, 40, 24)
-     , (652, 67110365, 160, 8)
-     , (652, 67110378, 64, 8)
-     , (652, 67110385, 250, 6)
-     , (652, 67110551, 92, 4)
-     , (652, 67117020, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (652, 0, 83889072, 83890012)
-     , (652, 0, 83889342, 83890011)
-     , (652, 1, 83887064, 83886241)
-     , (652, 2, 83887066, 83887055)
-     , (652, 3, 83889344, 83887054)
-     , (652, 4, 83887068, 83887054)
-     , (652, 5, 83887064, 83886241)
-     , (652, 6, 83887066, 83887055)
-     , (652, 7, 83889344, 83887054)
-     , (652, 8, 83887068, 83887054)
-     , (652, 9, 83887061, 83890009)
-     , (652, 9, 83887060, 83890010)
-     , (652, 10, 83887069, 83886782)
-     , (652, 11, 83887067, 83891213)
-     , (652, 13, 83887069, 83886782)
-     , (652, 14, 83887067, 83891213)
-     , (652, 16, 83886232, 83890685)
-     , (652, 16, 83886668, 83890457)
-     , (652, 16, 83886837, 83890551)
-     , (652, 16, 83886684, 83890638)
-     , (652, 16, 83889859, 83889864)
-     , (652, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (652, 0, 16781835)
-     , (652, 1, 16777295)
-     , (652, 2, 16777293)
-     , (652, 3, 16777292)
-     , (652, 4, 16777291)
-     , (652, 5, 16777299)
-     , (652, 6, 16777297)
-     , (652, 7, 16777296)
-     , (652, 8, 16777298)
-     , (652, 9, 16777300)
-     , (652, 10, 16777301)
-     , (652, 11, 16777302)
-     , (652, 12, 16777304)
-     , (652, 13, 16777303)
-     , (652, 14, 16777305)
-     , (652, 15, 16777307)
-     , (652, 16, 16779635);

@@ -15,8 +15,7 @@ VALUES (29201,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29201,  33,          1) /* Bonded - Bonded */
      , (29201,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29201, 114,          0) /* Attuned - Normal */
-     , (29201, 151,          1) /* HookType - Floor */
-     , (29201, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29201, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29201,   1, 'Full Brew Kettle') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29201,   1,   33559154) /* Setup */
      , (29201,   3,  536870932) /* SoundTable */
      , (29201,   8,  100686433) /* Icon */
-     , (29201,  22,  872415275) /* PhysicsEffectTable */
-     , (29201, 8001,  270561297) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (29201, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29201, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29201, 8000, 3696546276) /* PCAPRecordedObjectIID */;
+     , (29201,  22,  872415275) /* PhysicsEffectTable */;

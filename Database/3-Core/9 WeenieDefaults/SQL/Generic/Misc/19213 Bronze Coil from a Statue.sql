@@ -9,8 +9,7 @@ VALUES (19213,   1,        128) /* ItemType - Misc */
      , (19213,  16,          1) /* ItemUseable - No */
      , (19213,  19,          0) /* Value */
      , (19213,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (19213, 114,          1) /* Attuned - Attuned */
-     , (19213, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (19213, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19213,  22, True ) /* Inscribable */;
@@ -24,10 +23,4 @@ VALUES (19213,   1, 'Bronze Coil from a Statue') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19213,   1,   33557680) /* Setup */
-     , (19213,   8,  100672955) /* Icon */
-     , (19213, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (19213, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (19213, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19213, 8000, 3330273188) /* PCAPRecordedObjectIID */;
+     , (19213,   8,  100672955) /* Icon */;

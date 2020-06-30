@@ -18,14 +18,8 @@ VALUES (14736,   1, 'Solstice Hill') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14736,   1,   33557463) /* Setup */
-     , (14736,   8,  100668115) /* Icon */
-     , (14736, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (14736, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (14736, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (14736,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14736, 8040, 2845310998, 51.2655, 125.792, 75.30679, 0.077442, 0, 0, -0.996997) /* PCAPRecordedLocation */
 /* @teleloc 0xA9980016 [51.265500 125.792000 75.306790] 0.077442 0.000000 0.000000 -0.996997 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14736, 8000, 2056880561) /* PCAPRecordedObjectIID */;

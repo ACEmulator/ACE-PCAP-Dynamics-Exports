@@ -10,8 +10,7 @@ VALUES (23047,   1,        128) /* ItemType - Misc */
      , (23047,  19,          0) /* Value */
      , (23047,  33,          1) /* Bonded - Bonded */
      , (23047,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23047, 114,          1) /* Attuned - Attuned */
-     , (23047, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23047, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23047,  22, True ) /* Inscribable */
@@ -24,13 +23,4 @@ VALUES (23047,   1, 'Coordination To Quickness Gem') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23047,   1,   33558087) /* Setup */
      , (23047,   6,   67111919) /* PaletteBase */
-     , (23047,   8,  100673957) /* Icon */
-     , (23047, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (23047, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23047, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23047, 8000, 3231352884) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23047, 67111924, 0, 0);
+     , (23047,   8,  100673957) /* Icon */;

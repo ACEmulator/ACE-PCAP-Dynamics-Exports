@@ -17,8 +17,7 @@ VALUES (25539,   1,          8) /* ItemType - Jewelry */
      , (25539, 109,        125) /* ItemDifficulty */
      , (25539, 158,          7) /* WieldRequirements - Level */
      , (25539, 159,          1) /* WieldSkillType - Axe */
-     , (25539, 160,         70) /* WieldDifficulty */
-     , (25539, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25539, 160,         70) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25539,  22, True ) /* Inscribable */;
@@ -35,17 +34,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25539,   1,   33554683) /* Setup */
      , (25539,   3,  536870932) /* SoundTable */
      , (25539,   8,  100674479) /* Icon */
-     , (25539,  22,  872415275) /* PhysicsEffectTable */
-     , (25539, 8001,    2162840) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Burden */
-     , (25539, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25539, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (25539,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25539, 8040, 2847080480, 84.07991, 186.638, 94.46708, 0.9473113, 0, 0, 0.3203143) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B30020 [84.079910 186.638000 94.467080] 0.947311 0.000000 0.000000 0.320314 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25539, 8000, 3477712082) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25539,  2004,      2) 

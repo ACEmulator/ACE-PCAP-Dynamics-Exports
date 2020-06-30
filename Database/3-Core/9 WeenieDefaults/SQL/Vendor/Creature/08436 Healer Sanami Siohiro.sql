@@ -17,8 +17,7 @@ VALUES (8436,   1,         16) /* ItemType - Creature */
      , (8436, 113,          2) /* Gender - Female */
      , (8436, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8436, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8436, 188,          3) /* HeritageGroup - Sho */
-     , (8436, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8436, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8436,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8436,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8436,   1, 'Healer Sanami Siohiro') /* Name */
-     , (8436,   5, 'Healer') /* Template */
-     , (8436, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8436,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8436,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8436,   1,   33554510) /* Setup */
      , (8436,  11,   83890327) /* MouthTexture */
      , (8436,  15,   67116997) /* HairPalette */
      , (8436,  16,   67110063) /* EyesPalette */
-     , (8436,  17,   67110053) /* SkinPalette */
-     , (8436, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8436, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8436, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8436,  17,   67110053) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8436, 8040, 3911319862, 132.845, 55.4642, -1.195, -0.9711623, 0, 0, -0.2384192) /* PCAPRecordedLocation */
 /* @teleloc 0xE9220136 [132.845000 55.464200 -1.195000] -0.971162 0.000000 0.000000 -0.238419 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8436, 8000, 2123505687) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8436,   1, 135, 0, 0) /* Strength */
@@ -101,49 +93,3 @@ VALUES (8436, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (8436, 4,   764, -1, 0, 0, False) /* Create Vitriol (764) for Shop */
      , (8436, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (8436, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8436, 67109969, 92, 4)
-     , (8436, 67110026, 72, 8)
-     , (8436, 67110053, 0, 24)
-     , (8436, 67110063, 32, 8)
-     , (8436, 67110325, 40, 24)
-     , (8436, 67110356, 216, 24)
-     , (8436, 67110362, 64, 8)
-     , (8436, 67110375, 160, 8)
-     , (8436, 67116997, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8436, 0, 83889072, 83890012)
-     , (8436, 0, 83889342, 83890011)
-     , (8436, 1, 83887064, 83886241)
-     , (8436, 3, 83889344, 83887054)
-     , (8436, 4, 83887068, 83887054)
-     , (8436, 5, 83887064, 83886241)
-     , (8436, 7, 83889344, 83887054)
-     , (8436, 8, 83887068, 83887054)
-     , (8436, 9, 83887070, 83890009)
-     , (8436, 9, 83887062, 83890010)
-     , (8436, 16, 83886232, 83890685)
-     , (8436, 16, 83886668, 83890235)
-     , (8436, 16, 83886837, 83890300)
-     , (8436, 16, 83886684, 83890327);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8436, 0, 16781875)
-     , (8436, 1, 16778430)
-     , (8436, 2, 16778436)
-     , (8436, 3, 16778361)
-     , (8436, 4, 16778426)
-     , (8436, 5, 16778438)
-     , (8436, 6, 16778437)
-     , (8436, 7, 16778360)
-     , (8436, 8, 16778428)
-     , (8436, 9, 16778425)
-     , (8436, 10, 16778431)
-     , (8436, 11, 16778429)
-     , (8436, 12, 16778423)
-     , (8436, 13, 16778434)
-     , (8436, 14, 16778424)
-     , (8436, 15, 16778435)
-     , (8436, 16, 16795650);

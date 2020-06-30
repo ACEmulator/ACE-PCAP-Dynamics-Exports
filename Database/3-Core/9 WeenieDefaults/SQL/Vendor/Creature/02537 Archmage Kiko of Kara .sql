@@ -17,8 +17,7 @@ VALUES (2537,   1,         16) /* ItemType - Creature */
      , (2537, 113,          2) /* Gender - Female */
      , (2537, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2537, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2537, 188,          3) /* HeritageGroup - Sho */
-     , (2537, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2537, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2537,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2537,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2537,   1, 'Archmage Kiko of Kara ') /* Name */
-     , (2537,   5, 'Archmage') /* Template */
-     , (2537, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2537,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2537,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2537,   1,   33554510) /* Setup */
      , (2537,  11,   83890318) /* MouthTexture */
      , (2537,  15,   67117079) /* HairPalette */
      , (2537,  16,   67110063) /* EyesPalette */
-     , (2537,  17,   67110053) /* SkinPalette */
-     , (2537, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2537, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2537, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2537,  17,   67110053) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2537, 8040, 3122069772, 36.2696, 78.5496, 134.005, 0.9314283, 0, 0, -0.3639251) /* PCAPRecordedLocation */
 /* @teleloc 0xBA17010C [36.269600 78.549600 134.005000] 0.931428 0.000000 0.000000 -0.363925 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2537, 8000, 2074177549) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2537,   1,  60, 0, 0) /* Strength */
@@ -189,51 +181,3 @@ VALUES (2537, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2537, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (2537, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (2537, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2537, 67109969, 92, 4)
-     , (2537, 67110026, 72, 8)
-     , (2537, 67110053, 0, 24)
-     , (2537, 67110063, 32, 8)
-     , (2537, 67110349, 216, 24)
-     , (2537, 67110356, 160, 8)
-     , (2537, 67111245, 40, 24)
-     , (2537, 67111245, 64, 8)
-     , (2537, 67117079, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2537, 0, 83889072, 83890012)
-     , (2537, 0, 83889342, 83890011)
-     , (2537, 1, 83887064, 83886241)
-     , (2537, 2, 83887066, 83887055)
-     , (2537, 3, 83889344, 83887054)
-     , (2537, 4, 83887068, 83887054)
-     , (2537, 5, 83887064, 83886241)
-     , (2537, 6, 83887066, 83887055)
-     , (2537, 7, 83889344, 83887054)
-     , (2537, 8, 83887068, 83887054)
-     , (2537, 9, 83887070, 83890009)
-     , (2537, 9, 83887062, 83890010)
-     , (2537, 16, 83886232, 83890685)
-     , (2537, 16, 83886668, 83890237)
-     , (2537, 16, 83886837, 83890286)
-     , (2537, 16, 83886684, 83890318);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2537, 0, 16781875)
-     , (2537, 1, 16778430)
-     , (2537, 2, 16778436)
-     , (2537, 3, 16778361)
-     , (2537, 4, 16778426)
-     , (2537, 5, 16778438)
-     , (2537, 6, 16778437)
-     , (2537, 7, 16778360)
-     , (2537, 8, 16778428)
-     , (2537, 9, 16778425)
-     , (2537, 10, 16778431)
-     , (2537, 11, 16778429)
-     , (2537, 12, 16778423)
-     , (2537, 13, 16778434)
-     , (2537, 14, 16778424)
-     , (2537, 15, 16778435)
-     , (2537, 16, 16795655);

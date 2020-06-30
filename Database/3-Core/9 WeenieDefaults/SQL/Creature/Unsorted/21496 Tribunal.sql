@@ -33,8 +33,7 @@ VALUES (21496,   1,         16) /* ItemType - Creature */
      , (21496, 386,          0) /* Overpower */
      , (21496, 387,          0) /* OverpowerResist */
      , (21496, 388,          0) /* GearOverpower */
-     , (21496, 389,          0) /* GearOverpowerResist */
-     , (21496, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (21496, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21496,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (21496,  39,     1.5) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21496,   1, 'Tribunal') /* Name */
-     , (21496,  15, 'A very large empyrean head. It appears to be watching you.') /* ShortDesc */
-     , (21496, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (21496,  15, 'A very large empyrean head. It appears to be watching you.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21496,   1,   33555377) /* Setup */
      , (21496,   2,  150995147) /* MotionTable */
      , (21496,   3,  536871052) /* SoundTable */
      , (21496,   8,  100667624) /* Icon */
-     , (21496,  22,  872415274) /* PhysicsEffectTable */
-     , (21496, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (21496, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (21496, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (21496,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21496, 8040, 1481769376, 30, -120, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x585201A0 [30.000000 -120.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21496, 8000, 3702580294) /* PCAPRecordedObjectIID */;

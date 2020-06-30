@@ -17,9 +17,7 @@ VALUES (2024,   1,        256) /* ItemType - MissileWeapon */
      , (2024,  51,          2) /* CombatUse - Missle */
      , (2024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2024, 151,          2) /* HookType - Wall */
-     , (2024, 353,          8) /* WeaponType - Bow */
-     , (2024, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (2024, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2024, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2024,  22, True ) /* Inscribable */;
@@ -42,13 +40,4 @@ VALUES (2024,   1,   33554729) /* Setup */
      , (2024,   3,  536870932) /* SoundTable */
      , (2024,   6,   67111919) /* PaletteBase */
      , (2024,   8,  100668830) /* Icon */
-     , (2024,  22,  872415275) /* PhysicsEffectTable */
-     , (2024, 8001,  270615320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (2024, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2024, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2024, 8000, 3621497350) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2024, 67111927, 0, 0);
+     , (2024,  22,  872415275) /* PhysicsEffectTable */;

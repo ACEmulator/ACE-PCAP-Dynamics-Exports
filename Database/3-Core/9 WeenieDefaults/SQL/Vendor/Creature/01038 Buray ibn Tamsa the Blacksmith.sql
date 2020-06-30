@@ -18,8 +18,7 @@ VALUES (1038,   1,         16) /* ItemType - Creature */
      , (1038, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1038, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1038, 188,          2) /* HeritageGroup - Gharundim */
-     , (1038, 307,          5) /* DamageRating */
-     , (1038, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1038, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1038,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1038,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1038,   1, 'Buray ibn Tamsa the Blacksmith') /* Name */
-     , (1038,   5, 'Blacksmith') /* Template */
-     , (1038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1038,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1038,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1038,   1,   33554433) /* Setup */
      , (1038,  11,   83890607) /* MouthTexture */
      , (1038,  15,   67117072) /* HairPalette */
      , (1038,  16,   67110062) /* EyesPalette */
-     , (1038,  17,   67109556) /* SkinPalette */
-     , (1038, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1038, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1038, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1038,  17,   67109556) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1038, 8040, 2103705856, 87.8479, 111.782, 12.005, -0.4243421, 0, 0, -0.905502) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640100 [87.847900 111.782000 12.005000] -0.424342 0.000000 0.000000 -0.905502 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1038, 8000, 2010529806) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1038,   1, 120, 0, 0) /* Strength */
@@ -184,52 +176,3 @@ VALUES (1038, 2,   328,  1, 0, 0, False) /* Create Khanjar (328) for Wield */
      , (1038, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
      , (1038, 4, 13216, -1, 0, 0, False) /* Create Academy Coat (13216) for Shop */
      , (1038, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1038, 67109556, 0, 24)
-     , (1038, 67110062, 32, 8)
-     , (1038, 67110317, 160, 8)
-     , (1038, 67110339, 240, 10)
-     , (1038, 67110363, 40, 24)
-     , (1038, 67110363, 64, 8)
-     , (1038, 67110376, 216, 24)
-     , (1038, 67110548, 92, 4)
-     , (1038, 67110554, 72, 8)
-     , (1038, 67117072, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1038, 0, 83889072, 83890012)
-     , (1038, 0, 83889342, 83890011)
-     , (1038, 1, 83887064, 83886241)
-     , (1038, 3, 83889344, 83887054)
-     , (1038, 4, 83887068, 83887054)
-     , (1038, 5, 83887064, 83886241)
-     , (1038, 7, 83889344, 83887054)
-     , (1038, 8, 83887068, 83887054)
-     , (1038, 9, 83887061, 83890009)
-     , (1038, 9, 83887060, 83890010)
-     , (1038, 16, 83886232, 83890685)
-     , (1038, 16, 83886668, 83890514)
-     , (1038, 16, 83886837, 83890540)
-     , (1038, 16, 83886684, 83890607)
-     , (1038, 16, 83888783, 83888783)
-     , (1038, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1038, 0, 16781835)
-     , (1038, 1, 16781848)
-     , (1038, 2, 16777293)
-     , (1038, 3, 16777292)
-     , (1038, 4, 16781855)
-     , (1038, 5, 16781847)
-     , (1038, 6, 16777297)
-     , (1038, 7, 16777296)
-     , (1038, 8, 16781859)
-     , (1038, 9, 16777300)
-     , (1038, 10, 16777301)
-     , (1038, 11, 16777302)
-     , (1038, 12, 16777304)
-     , (1038, 13, 16777303)
-     , (1038, 14, 16777305)
-     , (1038, 15, 16777307)
-     , (1038, 16, 16778476);

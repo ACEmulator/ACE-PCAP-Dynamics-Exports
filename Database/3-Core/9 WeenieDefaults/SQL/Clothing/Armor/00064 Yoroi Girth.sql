@@ -21,8 +21,7 @@ VALUES (64,   1,          2) /* ItemType - Armor */
      , (64, 115,        184) /* ItemSkillLevelLimit */
      , (64, 131,         58) /* MaterialType - Bronze */
      , (64, 172,          1) /* AppraisalLongDescDecoration */
-     , (64, 176,          7) /* AppraisalItemSkill */
-     , (64, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (64, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (64,  22, True ) /* Inscribable */
@@ -37,8 +36,7 @@ VALUES (64,   5,   -0.05) /* ManaRate */
      , (64,  17,     0.4) /* ArmorModVsFire */
      , (64,  18,     0.6) /* ArmorModVsAcid */
      , (64,  19,     0.4) /* ArmorModVsElectric */
-     , (64, 165,       1) /* ArmorModVsNether */
-     , (64, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (64, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (64,   1, 'Yoroi Girth') /* Name */
@@ -49,25 +47,8 @@ VALUES (64,   1,   33554647) /* Setup */
      , (64,   3,  536870932) /* SoundTable */
      , (64,   6,   67108990) /* PaletteBase */
      , (64,   8,  100669357) /* Icon */
-     , (64,  22,  872415275) /* PhysicsEffectTable */
-     , (64, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (64, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (64, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (64, 8000, 3685953549) /* PCAPRecordedObjectIID */;
+     , (64,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (64,  1486,      2) 
      , (64,  2601,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (64, 67110008, 80, 12)
-     , (64, 67110349, 92, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (64, 0, 83889072, 83886236)
-     , (64, 0, 83889342, 83886236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (64, 0, 16778376);

@@ -19,14 +19,8 @@ VALUES (42789,   1, 'Eastwatch') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42789,   1,   33560985) /* Setup */
-     , (42789,   8,  100668115) /* Icon */
-     , (42789, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42789, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42789, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42789,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42789, 8040, 459102, 84.8919, -169.956, 3.014, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007015E [84.891900 -169.956000 3.014000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42789, 8000, 1879076981) /* PCAPRecordedObjectIID */;

@@ -20,10 +20,4 @@ VALUES (44748,   1, 'Mattekar') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44748,   1,   33561348) /* Setup */
-     , (44748,   8,  100668115) /* Icon */
-     , (44748, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44748, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44748, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44748, 8000, 2249707818) /* PCAPRecordedObjectIID */;
+     , (44748,   8,  100668115) /* Icon */;

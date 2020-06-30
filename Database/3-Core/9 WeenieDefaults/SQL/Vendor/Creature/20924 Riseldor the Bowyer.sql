@@ -18,8 +18,7 @@ VALUES (20924,   1,         16) /* ItemType - Creature */
      , (20924, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20924, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (20924, 188,          1) /* HeritageGroup - Aluvian */
-     , (20924, 307,          5) /* DamageRating */
-     , (20924, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (20924, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20924,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (20924,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20924,   1, 'Riseldor the Bowyer') /* Name */
-     , (20924,   5, 'Bowyer') /* Template */
-     , (20924, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (20924,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20924,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (20924,   1,   33554433) /* Setup */
      , (20924,  11,   83890659) /* MouthTexture */
      , (20924,  15,   67116993) /* HairPalette */
      , (20924,  16,   67109565) /* EyesPalette */
-     , (20924,  17,   67109558) /* SkinPalette */
-     , (20924, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (20924, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (20924, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (20924,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20924, 8040, 1449132378, 102.629, 2.596, 0.004999995, -0.3826829, 0, 0, -0.9238797) /* PCAPRecordedLocation */
 /* @teleloc 0x5660015A [102.629000 2.596000 0.005000] -0.382683 0.000000 0.000000 -0.923880 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20924, 8000, 1969618959) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20924,   1,  70, 0, 0) /* Strength */
@@ -115,52 +107,3 @@ VALUES (20924, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (20924, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (20924, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (20924, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20924, 67109558, 0, 24)
-     , (20924, 67109565, 32, 8)
-     , (20924, 67109969, 92, 4)
-     , (20924, 67110026, 72, 8)
-     , (20924, 67110325, 64, 8)
-     , (20924, 67110357, 40, 24)
-     , (20924, 67110378, 160, 8)
-     , (20924, 67116993, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (20924, 0, 83889072, 83890012)
-     , (20924, 0, 83889342, 83890011)
-     , (20924, 1, 83887064, 83886241)
-     , (20924, 2, 83887066, 83887051)
-     , (20924, 3, 83889344, 83887054)
-     , (20924, 4, 83887068, 83887054)
-     , (20924, 5, 83887064, 83886241)
-     , (20924, 6, 83887066, 83887051)
-     , (20924, 7, 83889344, 83887054)
-     , (20924, 8, 83887068, 83887054)
-     , (20924, 9, 83887061, 83890009)
-     , (20924, 9, 83887060, 83890010)
-     , (20924, 10, 83887069, 83886782)
-     , (20924, 13, 83887069, 83886782)
-     , (20924, 16, 83886232, 83890685)
-     , (20924, 16, 83886668, 83890508)
-     , (20924, 16, 83886837, 83890558)
-     , (20924, 16, 83886684, 83890659);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (20924, 0, 16781835)
-     , (20924, 1, 16777295)
-     , (20924, 2, 16781866)
-     , (20924, 3, 16781841)
-     , (20924, 4, 16781838)
-     , (20924, 5, 16777299)
-     , (20924, 6, 16781864)
-     , (20924, 7, 16781840)
-     , (20924, 8, 16781839)
-     , (20924, 9, 16777300)
-     , (20924, 10, 16777301)
-     , (20924, 11, 16777302)
-     , (20924, 12, 16777304)
-     , (20924, 13, 16777303)
-     , (20924, 14, 16777305)
-     , (20924, 15, 16777307)
-     , (20924, 16, 16795654);

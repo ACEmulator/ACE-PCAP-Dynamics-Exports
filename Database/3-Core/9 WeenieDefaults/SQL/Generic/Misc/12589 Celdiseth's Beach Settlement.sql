@@ -19,14 +19,8 @@ VALUES (12589,   1, 'Celdiseth''s Beach Settlement') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12589,   1,   33557463) /* Setup */
-     , (12589,   8,  100668115) /* Icon */
-     , (12589, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (12589, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12589, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (12589,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12589, 8040, 2766864415, 73.1306, 151.262, 2.789669, 0.00278241, 0, 0, -0.999996) /* PCAPRecordedLocation */
 /* @teleloc 0xA4EB001F [73.130600 151.262000 2.789669] 0.002782 0.000000 0.000000 -0.999996 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12589, 8000, 2051977649) /* PCAPRecordedObjectIID */;

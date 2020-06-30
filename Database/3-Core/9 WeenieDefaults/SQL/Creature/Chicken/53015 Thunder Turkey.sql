@@ -12,8 +12,7 @@ VALUES (53015,   1,         16) /* ItemType - Creature */
      , (53015,  25,        500) /* Level */
      , (53015,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (53015, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (53015, 386,         10) /* Overpower */
-     , (53015, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53015, 386,         10) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53015,   1, True ) /* Stuck */;
@@ -22,25 +21,18 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53015,  39,     3.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53015,   1, 'Thunder Turkey') /* Name */
-     , (53015, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (53015,   1, 'Thunder Turkey') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53015,   1,   33561616) /* Setup */
      , (53015,   2,  150995399) /* MotionTable */
      , (53015,   3,  536871130) /* SoundTable */
      , (53015,   8,  100674625) /* Icon */
-     , (53015,  22,  872415349) /* PhysicsEffectTable */
-     , (53015, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (53015, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (53015, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (53015,  22,  872415349) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53015, 8040, 1500119298, 12.0935, -20, -0.02800012, 0.696707, 0, 0, -0.717356) /* PCAPRecordedLocation */
 /* @teleloc 0x596A0102 [12.093500 -20.000000 -0.028000] 0.696707 0.000000 0.000000 -0.717356 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53015, 8000, 2870392432) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (53015,   1,     0, 0, 0, 250000) /* MaxHealth */;

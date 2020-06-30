@@ -22,8 +22,7 @@ VALUES (118,   1,          4) /* ItemType - Clothing */
      , (118, 115,          0) /* ItemSkillLevelLimit */
      , (118, 131,          7) /* MaterialType - Velvet */
      , (118, 151,          2) /* HookType - Wall */
-     , (118, 172,          1) /* AppraisalLongDescDecoration */
-     , (118, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (118, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (118,  22, True ) /* Inscribable */
@@ -38,8 +37,7 @@ VALUES (118,   5,  -0.056) /* ManaRate */
      , (118,  17,     0.5) /* ArmorModVsFire */
      , (118,  18,     0.3) /* ArmorModVsAcid */
      , (118,  19,     0.8) /* ArmorModVsElectric */
-     , (118, 165,       1) /* ArmorModVsNether */
-     , (118, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (118, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (118,   1, 'Cloth Cap') /* Name */
@@ -50,13 +48,7 @@ VALUES (118,   1,   33554643) /* Setup */
      , (118,   3,  536870932) /* SoundTable */
      , (118,   6,   67108990) /* PaletteBase */
      , (118,   8,  100669167) /* Icon */
-     , (118,  22,  872415275) /* PhysicsEffectTable */
-     , (118, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (118, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (118, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (118, 8000, 3685901980) /* PCAPRecordedObjectIID */;
+     , (118,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (118,   170,      2) 
@@ -66,12 +58,3 @@ VALUES (118,   170,      2)
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (118, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (118, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (118, 67110384, 250, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (118, 0, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (118, 0, 16778369);

@@ -29,8 +29,7 @@ VALUES (28625,  13,     1.3) /* ArmorModVsSlash */
      , (28625,  17,     0.4) /* ArmorModVsFire */
      , (28625,  18,     0.6) /* ArmorModVsAcid */
      , (28625,  19,     0.4) /* ArmorModVsElectric */
-     , (28625, 165,       1) /* ArmorModVsNether */
-     , (28625, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (28625, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28625,   1, 'Diforsa Sollerets') /* Name */
@@ -41,17 +40,8 @@ VALUES (28625,   1,   33559334) /* Setup */
      , (28625,   3,  536870932) /* SoundTable */
      , (28625,   6,   67108990) /* PaletteBase */
      , (28625,   8,  100686135) /* Icon */
-     , (28625,  22,  872415275) /* PhysicsEffectTable */
-     , (28625, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28625, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28625, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
+     , (28625,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28625, 8040, 30671251, 28.74659, -31.80863, 30.15419, 0.9964855, 0, 0, -0.08376546) /* PCAPRecordedLocation */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 30.154190] 0.996486 0.000000 0.000000 -0.083765 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28625, 8000, 3653268526) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28625, 67116177, 160, 8);

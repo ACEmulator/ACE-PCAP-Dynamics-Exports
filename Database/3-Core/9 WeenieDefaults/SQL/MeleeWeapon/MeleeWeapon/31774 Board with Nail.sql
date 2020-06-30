@@ -23,9 +23,7 @@ VALUES (31774,   1,          1) /* ItemType - MeleeWeapon */
      , (31774, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (31774, 160,        300) /* WieldDifficulty */
      , (31774, 172,          1) /* AppraisalLongDescDecoration */
-     , (31774, 353,          4) /* WeaponType - Mace */
-     , (31774, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31774, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31774,  22, True ) /* Inscribable */;
@@ -36,8 +34,7 @@ VALUES (31774,  21,       0) /* WeaponLength */
      , (31774,  26,       0) /* MaximumVelocity */
      , (31774,  29,    1.09) /* WeaponDefense */
      , (31774,  62,    1.03) /* WeaponOffense */
-     , (31774,  63,       1) /* DamageMod */
-     , (31774, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (31774,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31774,   1, 'Board with Nail') /* Name */
@@ -48,24 +45,7 @@ VALUES (31774,   1,   33559627) /* Setup */
      , (31774,   3,  536870932) /* SoundTable */
      , (31774,   6,   67116700) /* PaletteBase */
      , (31774,   8,  100688088) /* Icon */
-     , (31774,  22,  872415275) /* PhysicsEffectTable */
-     , (31774, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31774, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31774, 8000, 3687970018) /* PCAPRecordedObjectIID */;
+     , (31774,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31774, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31774, 67116700, 0, 101)
-     , (31774, 67116705, 101, 100)
-     , (31774, 67116710, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31774, 0, 83897336, 83897336);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31774, 0, 16792613);

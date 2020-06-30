@@ -24,8 +24,7 @@ VALUES (31823,   1,      32768) /* ItemType - Caster */
      , (31823, 172,          5) /* AppraisalLongDescDecoration */
      , (31823, 177,          4) /* GemCount */
      , (31823, 178,         39) /* GemType */
-     , (31823, 179,        512) /* ImbuedEffect - FireRending */
-     , (31823, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (31823, 179,        512) /* ImbuedEffect - FireRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31823,  22, True ) /* Inscribable */
@@ -35,8 +34,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31823,  29,    1.23) /* WeaponDefense */
      , (31823,  39,     1.5) /* DefaultScale */
      , (31823, 144,    0.07) /* ManaConversionMod */
-     , (31823, 152,    1.15) /* ElementalDamageMod */
-     , (31823, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (31823, 152,    1.15) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31823,   1, 'Fire Baton') /* Name */
@@ -53,28 +51,8 @@ VALUES (31823,   1,   33559640) /* Setup */
      , (31823,   8,  100688015) /* Icon */
      , (31823,  22,  872415275) /* PhysicsEffectTable */
      , (31823,  28,       4433) /* Spell - AcidStream8 */
-     , (31823,  52,  100676441) /* IconUnderlay */
-     , (31823, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (31823, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31823, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31823, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (31823, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (31823,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31823, 8040, 459083, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007014B [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31823, 8000, 3671377019) /* PCAPRecordedObjectIID */
-     , (31823, 8008, 1343492612) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31823, 67116700, 1, 100)
-     , (31823, 67116701, 101, 100)
-     , (31823, 67116703, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31823, 0, 83897333, 83897333);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31823, 0, 16792610);

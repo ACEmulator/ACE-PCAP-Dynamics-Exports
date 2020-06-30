@@ -34,9 +34,7 @@ VALUES (41040,   1,          1) /* ItemType - MeleeWeapon */
      , (41040, 176,         41) /* AppraisalItemSkill */
      , (41040, 177,          2) /* GemCount */
      , (41040, 178,         39) /* GemType */
-     , (41040, 353,         11) /* WeaponType - TwoHanded */
-     , (41040, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41040, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (41040, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41040,  22, True ) /* Inscribable */
@@ -50,8 +48,7 @@ VALUES (41040,   5,  -0.056) /* ManaRate */
      , (41040,  29,    1.11) /* WeaponDefense */
      , (41040,  62,    1.12) /* WeaponOffense */
      , (41040,  63,       1) /* DamageMod */
-     , (41040, 149,   1.015) /* WeaponMissileDefense */
-     , (41040, 8004,      10) /* PCAPRecordedWorkmanship */;
+     , (41040, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41040,   1, 'Frost Assagai') /* Name */
@@ -63,26 +60,14 @@ VALUES (41040,   1,   33560872) /* Setup */
      , (41040,   6,   67115558) /* PaletteBase */
      , (41040,   8,  100690628) /* Icon */
      , (41040,  22,  872415275) /* PhysicsEffectTable */
-     , (41040,  52,  100676435) /* IconUnderlay */
-     , (41040, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (41040, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (41040, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (41040, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (41040, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (41040,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41040, 8040, 43058012, 208.7965, -157.2297, -0.071, -0.1014951, -0.1014951, -0.6997848, -0.6997848) /* PCAPRecordedLocation */
 /* @teleloc 0x0291035C [208.796500 -157.229700 -0.071000] -0.101495 -0.101495 -0.699785 -0.699785 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41040, 8000, 2147672673) /* PCAPRecordedObjectIID */
-     , (41040, 8008, 1343489356) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41040,  2096,      2) 
      , (41040,  2578,      2) 
      , (41040,  5072,      2) 
      , (41040,  5833,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41040, 67116384, 0, 0);

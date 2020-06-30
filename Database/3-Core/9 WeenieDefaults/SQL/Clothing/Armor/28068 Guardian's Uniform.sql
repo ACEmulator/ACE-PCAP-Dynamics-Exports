@@ -21,8 +21,7 @@ VALUES (28068,   1,          2) /* ItemType - Armor */
      , (28068, 151,          2) /* HookType - Wall */
      , (28068, 158,          7) /* WieldRequirements - Level */
      , (28068, 159,          1) /* WieldSkillType - Axe */
-     , (28068, 160,         40) /* WieldDifficulty */
-     , (28068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28068, 160,         40) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28068,  22, True ) /* Inscribable */
@@ -48,30 +47,9 @@ VALUES (28068,   1,   33554854) /* Setup */
      , (28068,   3,  536870932) /* SoundTable */
      , (28068,   6,   67108990) /* PaletteBase */
      , (28068,   8,  100672366) /* Icon */
-     , (28068,  22,  872415275) /* PhysicsEffectTable */
-     , (28068, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
-     , (28068, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28068, 8000, 2980863041) /* PCAPRecordedObjectIID */;
+     , (28068,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28068,   243,      2) 
      , (28068,   254,      2) 
      , (28068,  1485,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28068, 67110556, 96, 12)
-     , (28068, 67113727, 40, 40)
-     , (28068, 67113727, 80, 12)
-     , (28068, 67113727, 116, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28068, 0, 83887061, 83893840)
-     , (28068, 0, 83887060, 83893839)
-     , (28068, 0, 83889072, 83893836)
-     , (28068, 0, 83889342, 83893836);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28068, 0, 16778367);

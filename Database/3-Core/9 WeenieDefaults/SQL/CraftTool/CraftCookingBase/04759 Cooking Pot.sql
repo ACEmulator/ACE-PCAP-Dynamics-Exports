@@ -14,8 +14,7 @@ VALUES (4759,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4759,  19,         50) /* Value */
      , (4759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4759,  94,    4194464) /* TargetType - Food, Misc, CraftCookingBase */
-     , (4759, 151,          9) /* HookType - Floor, Yard */
-     , (4759, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4759, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4759,  22, True ) /* Inscribable */
@@ -29,10 +28,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4759,   1,   33555972) /* Setup */
      , (4759,   3,  536870932) /* SoundTable */
      , (4759,   8,  100669994) /* Icon */
-     , (4759,  22,  872415275) /* PhysicsEffectTable */
-     , (4759, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (4759, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (4759, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4759, 8000, 2335810656) /* PCAPRecordedObjectIID */;
+     , (4759,  22,  872415275) /* PhysicsEffectTable */;

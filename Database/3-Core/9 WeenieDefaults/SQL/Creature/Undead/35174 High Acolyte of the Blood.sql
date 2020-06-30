@@ -11,8 +11,7 @@ VALUES (35174,   1,         16) /* ItemType - Creature */
      , (35174,  16,          1) /* ItemUseable - No */
      , (35174,  25,        425) /* Level */
      , (35174,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35174, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35174, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35174, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35174,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35174,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35174,   1, 'High Acolyte of the Blood') /* Name */
-     , (35174, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35174,   1, 'High Acolyte of the Blood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35174,   1,   33558437) /* Setup */
@@ -30,17 +28,11 @@ VALUES (35174,   1,   33558437) /* Setup */
      , (35174,   3,  536870934) /* SoundTable */
      , (35174,   6,   67114480) /* PaletteBase */
      , (35174,   8,  100674805) /* Icon */
-     , (35174,  22,  872415272) /* PhysicsEffectTable */
-     , (35174, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35174, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35174, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (35174,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35174, 8040, 14942506, 29.47847, -50.97635, -29.9895, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E4012A [29.478470 -50.976350 -29.989500] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35174, 8000, 3708729190) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35174,   1,     0, 0, 0, 150000) /* MaxHealth */;
@@ -67,12 +59,3 @@ VALUES (35174, 9, 20534,  0, 0, 0, False) /* Create Scroll of Avalenne's Blessin
      , (35174, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (35174, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */
      , (35174, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35174, 67114479, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35174, 16, 83894727, 83894729);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35174, 16, 16789500);

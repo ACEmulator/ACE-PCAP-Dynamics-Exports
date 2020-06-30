@@ -17,8 +17,7 @@ VALUES (1824,   1,         16) /* ItemType - Creature */
      , (1824, 113,          1) /* Gender - Male */
      , (1824, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1824, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1824, 188,          2) /* HeritageGroup - Gharundim */
-     , (1824, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1824, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1824,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1824,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1824,   1, 'Archmage Sammam al-Ashiz') /* Name */
-     , (1824,   5, 'Archmage') /* Template */
-     , (1824, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1824,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1824,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1824,   1,   33554433) /* Setup */
      , (1824,  15,   67117076) /* HairPalette */
      , (1824,  16,   67110063) /* EyesPalette */
      , (1824,  17,   67109554) /* SkinPalette */
-     , (1824,  22,  872415381) /* PhysicsEffectTable */
-     , (1824, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1824, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1824, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (1824,  22,  872415381) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1824, 8040, 2724200722, 182.987, 40.1413, 17.205, -0.3265353, 0, 0, -0.945185) /* PCAPRecordedLocation */
 /* @teleloc 0xA2600112 [182.987000 40.141300 17.205000] -0.326535 0.000000 0.000000 -0.945185 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1824, 8000, 2049310726) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1824,   1,  70, 0, 0) /* Strength */
@@ -188,57 +180,3 @@ VALUES (1824, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (1824, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (1824, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (1824, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1824, 67109554, 0, 24)
-     , (1824, 67109967, 92, 4)
-     , (1824, 67110026, 72, 8)
-     , (1824, 67110063, 32, 8)
-     , (1824, 67110317, 64, 8)
-     , (1824, 67110349, 160, 8)
-     , (1824, 67110349, 250, 6)
-     , (1824, 67111245, 216, 24)
-     , (1824, 67111304, 40, 24)
-     , (1824, 67117076, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1824, 0, 83889072, 83890012)
-     , (1824, 0, 83889342, 83890011)
-     , (1824, 1, 83887064, 83886241)
-     , (1824, 2, 83887066, 83887051)
-     , (1824, 3, 83889344, 83887054)
-     , (1824, 4, 83887068, 83887054)
-     , (1824, 5, 83887064, 83886241)
-     , (1824, 6, 83887066, 83887051)
-     , (1824, 7, 83889344, 83887054)
-     , (1824, 8, 83887068, 83887054)
-     , (1824, 9, 83887061, 83890009)
-     , (1824, 9, 83887060, 83890010)
-     , (1824, 10, 83887069, 83886782)
-     , (1824, 11, 83887067, 83891213)
-     , (1824, 13, 83887069, 83886782)
-     , (1824, 14, 83887067, 83891213)
-     , (1824, 16, 83886232, 83890359)
-     , (1824, 16, 83886668, 83890439)
-     , (1824, 16, 83886837, 83890531)
-     , (1824, 16, 83886684, 83890629)
-     , (1824, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1824, 0, 16781835)
-     , (1824, 1, 16777295)
-     , (1824, 2, 16781866)
-     , (1824, 3, 16781841)
-     , (1824, 4, 16781838)
-     , (1824, 5, 16777299)
-     , (1824, 6, 16781864)
-     , (1824, 7, 16781840)
-     , (1824, 8, 16781839)
-     , (1824, 9, 16777300)
-     , (1824, 10, 16777301)
-     , (1824, 11, 16777302)
-     , (1824, 12, 16777304)
-     , (1824, 13, 16777303)
-     , (1824, 14, 16777305)
-     , (1824, 15, 16777307)
-     , (1824, 16, 16778594);

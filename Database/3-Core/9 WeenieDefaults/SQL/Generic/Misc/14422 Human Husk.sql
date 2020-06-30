@@ -10,8 +10,7 @@ VALUES (14422,   1,        128) /* ItemType - Misc */
      , (14422,  19,          0) /* Value */
      , (14422,  33,          1) /* Bonded - Bonded */
      , (14422,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14422, 114,          1) /* Attuned - Attuned */
-     , (14422, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14422, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14422,  22, True ) /* Inscribable */;
@@ -26,20 +25,4 @@ VALUES (14422,   1, 'Human Husk') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14422,   1,   33557475) /* Setup */
      , (14422,   6,   67108990) /* PaletteBase */
-     , (14422,   8,  100672465) /* Icon */
-     , (14422, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (14422, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (14422, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14422, 8000, 2779970863) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (14422, 67113777, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14422, 0, 83887061, 83893867)
-     , (14422, 0, 83887060, 83887060);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14422, 0, 16787552);
+     , (14422,   8,  100672465) /* Icon */;

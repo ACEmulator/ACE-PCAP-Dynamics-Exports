@@ -12,8 +12,7 @@ VALUES (2586,   1,         16) /* ItemType - Creature */
      , (2586,  25,         60) /* Level */
      , (2586,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (2586, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (2586, 307,          5) /* DamageRating */
-     , (2586, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2586, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2586,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (2586,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2586,   1, 'Sata Sclavus') /* Name */
-     , (2586, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (2586,   1, 'Sata Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2586,   1,   33555608) /* Setup */
@@ -31,17 +29,11 @@ VALUES (2586,   1,   33555608) /* Setup */
      , (2586,   3,  536870977) /* SoundTable */
      , (2586,   6,   67111936) /* PaletteBase */
      , (2586,   8,  100669120) /* Icon */
-     , (2586,  22,  872415280) /* PhysicsEffectTable */
-     , (2586, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (2586, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (2586, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (2586,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2586, 8040, 1486749739, 143.0914, 61.40401, 16.15828, 0.1749406, 0, 0, -0.984579) /* PCAPRecordedLocation */
 /* @teleloc 0x589E002B [143.091400 61.404010 16.158280] 0.174941 0.000000 0.000000 -0.984579 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2586, 8000, 3686791173) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2586,   1, 160, 0, 0) /* Strength */
@@ -239,6 +231,3 @@ VALUES (2586, 2, 47711,  1, 0, 0, False) /* Create Acid Spear (47711) for Wield 
      , (2586, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
      , (2586, 9, 45241,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Ineptitude Other VI (45241) for ContainTreasure */
      , (2586, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2586, 67111940, 0, 0);

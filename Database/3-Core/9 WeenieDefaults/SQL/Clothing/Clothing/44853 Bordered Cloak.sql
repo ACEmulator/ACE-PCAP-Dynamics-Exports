@@ -23,8 +23,7 @@ VALUES (44853,   1,          4) /* ItemType - Clothing */
      , (44853, 265,         62) /* EquipmentSetId - CloakItemEnchantment */
      , (44853, 319,          3) /* ItemMaxLevel */
      , (44853, 320,          2) /* ItemXpStyle - ScalesWithLevel */
-     , (44853, 352,          1) /* CloakWeaveProc */
-     , (44853, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44853, 352,          1) /* CloakWeaveProc */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44853,   4,          0) /* ItemTotalXp */
@@ -42,8 +41,7 @@ VALUES (44853,  13,     0.8) /* ArmorModVsSlash */
      , (44853,  17,     0.2) /* ArmorModVsFire */
      , (44853,  18,     0.1) /* ArmorModVsAcid */
      , (44853,  19,     0.2) /* ArmorModVsElectric */
-     , (44853, 165,       1) /* ArmorModVsNether */
-     , (44853, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (44853, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44853,   1, 'Bordered Cloak') /* Name */
@@ -55,23 +53,11 @@ VALUES (44853,   1,   33561386) /* Setup */
      , (44853,   8,  100692128) /* Icon */
      , (44853,  22,  872415275) /* PhysicsEffectTable */
      , (44853,  50,  100690998) /* IconOverlay */
-     , (44853,  55,       1787) /* ProcSpell - FrostRing */
-     , (44853, 8001, 3240427672) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (44853, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44853, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (44853,  55,       1787) /* ProcSpell - FrostRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44853, 8040, 722599940, 21.72458, 75.99595, 65.86549, -0.9964268, 0, 0, -0.08446076) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120004 [21.724580 75.995950 65.865490] -0.996427 0.000000 0.000000 -0.084461 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44853, 8000, 3692481524) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44853,  1787,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44853, 0, 83898657, 83898662);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44853, 0, 16795839);

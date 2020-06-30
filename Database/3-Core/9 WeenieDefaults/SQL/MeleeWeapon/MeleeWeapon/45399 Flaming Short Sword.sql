@@ -33,9 +33,7 @@ VALUES (45399,   1,          1) /* ItemType - MeleeWeapon */
      , (45399, 176,         46) /* AppraisalItemSkill */
      , (45399, 177,          4) /* GemCount */
      , (45399, 178,         21) /* GemType */
-     , (45399, 353,          2) /* WeaponType - Sword */
-     , (45399, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45399, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45399, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45399,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (45399,   5,  -0.056) /* ManaRate */
      , (45399,  29,    1.13) /* WeaponDefense */
      , (45399,  39,     1.1) /* DefaultScale */
      , (45399,  62,    1.13) /* WeaponOffense */
-     , (45399,  63,       1) /* DamageMod */
-     , (45399, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (45399,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45399,   1, 'Flaming Short Sword') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45399,   1,   33555797) /* Setup */
      , (45399,   3,  536870932) /* SoundTable */
      , (45399,   8,  100669042) /* Icon */
-     , (45399,  22,  872415275) /* PhysicsEffectTable */
-     , (45399, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45399, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45399, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45399, 8000, 3681370806) /* PCAPRecordedObjectIID */;
+     , (45399,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45399,  1616,      2) 

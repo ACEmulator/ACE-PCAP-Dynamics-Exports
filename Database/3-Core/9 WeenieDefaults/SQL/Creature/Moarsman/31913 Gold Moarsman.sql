@@ -11,8 +11,7 @@ VALUES (31913,   1,         16) /* ItemType - Creature */
      , (31913,  16,          1) /* ItemUseable - No */
      , (31913,  25,        160) /* Level */
      , (31913,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31913, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31913, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31913, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31913,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (31913,  39,     1.6) /* DefaultScale */
      , (31913,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31913,   1, 'Gold Moarsman') /* Name */
-     , (31913, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31913,   1, 'Gold Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31913,   1,   33556882) /* Setup */
@@ -32,17 +30,11 @@ VALUES (31913,   1,   33556882) /* Setup */
      , (31913,   6,   67112872) /* PaletteBase */
      , (31913,   8,  100671185) /* Icon */
      , (31913,  22,  872415337) /* PhysicsEffectTable */
-     , (31913,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (31913, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (31913, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31913, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (31913,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31913, 8040, 3504472069, 22.41076, 107.5593, 40.0064, -0.5608905, 0, 0, -0.82789) /* PCAPRecordedLocation */
 /* @teleloc 0xD0E20005 [22.410760 107.559300 40.006400] -0.560891 0.000000 0.000000 -0.827890 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31913, 8000, 2629436485) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31913,   1, 400, 0, 0) /* Strength */
@@ -96,6 +88,3 @@ VALUES (31913, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20
      , (31913, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
      , (31913, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
      , (31913, 9,  3811,  0, 0, 0, False) /* Create Lightning Kaskara (3811) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31913, 67116779, 0, 0);

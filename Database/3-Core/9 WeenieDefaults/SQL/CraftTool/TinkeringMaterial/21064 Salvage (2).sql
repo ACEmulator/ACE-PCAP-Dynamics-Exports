@@ -19,14 +19,10 @@ VALUES (21064,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21064, 105,          4) /* ItemWorkmanship */
      , (21064, 131,         32) /* MaterialType - Onyx */
      , (21064, 151,          9) /* HookType - Floor, Yard */
-     , (21064, 170,          1) /* NumItemsInMaterial */
-     , (21064, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21064, 170,          1) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21064,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21064, 8004,       4) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21064,   1, 'Salvage (2)') /* Name */
@@ -39,19 +35,4 @@ VALUES (21064,   1,   33554817) /* Setup */
      , (21064,   6,   67111919) /* PaletteBase */
      , (21064,   8,  100673216) /* Icon */
      , (21064,  22,  872415275) /* PhysicsEffectTable */
-     , (21064,  50,  100673287) /* IconOverlay */
-     , (21064, 8001, 3508567064) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (21064, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21064, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21064, 8000, 3358343538) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21064, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21064, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21064, 0, 16777882);
+     , (21064,  50,  100673287) /* IconOverlay */;

@@ -11,8 +11,7 @@ VALUES (24312,   1,         16) /* ItemType - Creature */
      , (24312,  16,          1) /* ItemUseable - No */
      , (24312,  25,         80) /* Level */
      , (24312,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24312, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24312, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24312, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24312,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24312,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24312,   1, 'Reedshark Stalker') /* Name */
-     , (24312, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24312,   1, 'Reedshark Stalker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24312,   1,   33554489) /* Setup */
@@ -30,17 +28,11 @@ VALUES (24312,   1,   33554489) /* Setup */
      , (24312,   3,  536870928) /* SoundTable */
      , (24312,   6,   67109313) /* PaletteBase */
      , (24312,   8,  100667939) /* Icon */
-     , (24312,  22,  872415268) /* PhysicsEffectTable */
-     , (24312, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24312, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24312, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (24312,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24312, 8040, 44302613, 62.6595, -69.523, -11.998, 0.870762, 0, 0, 0.491704) /* PCAPRecordedLocation */
 /* @teleloc 0x02A40115 [62.659500 -69.523000 -11.998000] 0.870762 0.000000 0.000000 0.491704 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24312, 8000, 3709126082) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24312,   1, 140, 0, 0) /* Strength */
@@ -54,6 +46,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (24312,   1,   170, 0, 0, 265) /* MaxHealth */
      , (24312,   3,   400, 0, 0, 590) /* MaxStamina */
      , (24312,   5,    20, 0, 0, 120) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24312, 67114299, 0, 0);

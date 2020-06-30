@@ -14,8 +14,7 @@ VALUES (24225,   1,         32) /* ItemType - Food */
      , (24225,  19,         10) /* Value */
      , (24225,  89,          4) /* BoosterEnum - Stamina */
      , (24225,  90,         17) /* BoostValue */
-     , (24225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24225, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (24225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24225,   1, 'Grub Bite') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24225,   1,   33558332) /* Setup */
      , (24225,   3,  536870932) /* SoundTable */
      , (24225,   8,  100674289) /* Icon */
-     , (24225,  22,  872415275) /* PhysicsEffectTable */
-     , (24225, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (24225, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (24225, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24225, 8000, 3708433043) /* PCAPRecordedObjectIID */;
+     , (24225,  22,  872415275) /* PhysicsEffectTable */;

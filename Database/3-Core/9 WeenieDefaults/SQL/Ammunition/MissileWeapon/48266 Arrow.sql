@@ -32,9 +32,7 @@ VALUES (48266,   1,        256) /* ItemType - MissileWeapon */
      , (48266, 307,          9) /* DamageRating */
      , (48266, 313,          0) /* CritRating */
      , (48266, 314,          0) /* CritDamageRating */
-     , (48266, 386,          0) /* Overpower */
-     , (48266, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (48266, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (48266, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48266,  69, False) /* IsSellable */;
@@ -59,25 +57,11 @@ VALUES (48266,   1,   33555787) /* Setup */
      , (48266,   3,  536870932) /* SoundTable */
      , (48266,   6,   67111919) /* PaletteBase */
      , (48266,   8,  100670193) /* Icon */
-     , (48266,  22,  872415275) /* PhysicsEffectTable */
-     , (48266, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48266, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48266, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (48266, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48266,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48266, 8040, 4133224494, 129.7927, 132.1853, 19.92725, 0.5656151, 0.5656151, -0.4243578, -0.4243578) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C002E [129.792700 132.185300 19.927250] 0.565615 0.565615 -0.424358 -0.424358 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48266, 8000, 3710822657) /* PCAPRecordedObjectIID */
-     , (48266, 8008, 3710822676) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48266, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48266, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48266, 0, 16777887);

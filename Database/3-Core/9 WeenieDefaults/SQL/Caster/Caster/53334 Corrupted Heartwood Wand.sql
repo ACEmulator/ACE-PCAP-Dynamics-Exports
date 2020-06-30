@@ -26,8 +26,7 @@ VALUES (53334,   1,      32768) /* ItemType - Caster */
      , (53334, 160,        385) /* WieldDifficulty */
      , (53334, 166,        101) /* SlayerCreatureType - Anekshay */
      , (53334, 171,         10) /* NumTimesTinkered */
-     , (53334, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (53334, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (53334, 179,          1) /* ImbuedEffect - CriticalStrike */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53334,  22, True ) /* Inscribable */
@@ -41,8 +40,7 @@ VALUES (53334,   5,  -0.025) /* ManaRate */
      , (53334, 144,   0.234) /* ManaConversionMod */
      , (53334, 149,    1.01) /* WeaponMissileDefense */
      , (53334, 150,    1.01) /* WeaponMagicDefense */
-     , (53334, 152,    1.27) /* ElementalDamageMod */
-     , (53334, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53334, 152,    1.27) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53334,   1, 'Corrupted Heartwood Wand') /* Name */
@@ -60,20 +58,11 @@ VALUES (53334,   1,   33561674) /* Setup */
      , (53334,   8,  100693344) /* Icon */
      , (53334,  22,  872415275) /* PhysicsEffectTable */
      , (53334,  28,       6320) /* Spell - RingOfSkullsII */
-     , (53334,  52,  100676440) /* IconUnderlay */
-     , (53334, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (53334, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (53334, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (53334, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (53334, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (53334,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53334, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53334, 8000, 2148452205) /* PCAPRecordedObjectIID */
-     , (53334, 8008, 1342693773) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53334,  4602,      2) 

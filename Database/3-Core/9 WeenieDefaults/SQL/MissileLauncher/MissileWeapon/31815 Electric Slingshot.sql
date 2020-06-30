@@ -34,9 +34,7 @@ VALUES (31815,   1,        256) /* ItemType - MissileWeapon */
      , (31815, 177,          2) /* GemCount */
      , (31815, 178,         39) /* GemType */
      , (31815, 204,         10) /* ElementalDamageBonus */
-     , (31815, 353,         10) /* WeaponType - Thrown */
-     , (31815, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31815, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31815, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31815,  22, True ) /* Inscribable */;
@@ -50,8 +48,7 @@ VALUES (31815,   5,  -0.056) /* ManaRate */
      , (31815,  39,     1.1) /* DefaultScale */
      , (31815,  62,       1) /* WeaponOffense */
      , (31815,  63,    2.55) /* DamageMod */
-     , (31815, 150,   1.015) /* WeaponMagicDefense */
-     , (31815, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31815, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31815,   1, 'Electric Slingshot') /* Name */
@@ -62,26 +59,9 @@ VALUES (31815,   1,   33559674) /* Setup */
      , (31815,   3,  536870932) /* SoundTable */
      , (31815,   6,   67116700) /* PaletteBase */
      , (31815,   8,  100688022) /* Icon */
-     , (31815,  22,  872415275) /* PhysicsEffectTable */
-     , (31815, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31815, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31815, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31815, 8000, 2921979812) /* PCAPRecordedObjectIID */;
+     , (31815,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31815,  1616,      2) 
      , (31815,  2059,      2) 
      , (31815,  2101,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31815, 67116700, 1, 100)
-     , (31815, 67116705, 101, 100)
-     , (31815, 67116708, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31815, 0, 83897339, 83897339);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31815, 0, 16792617);

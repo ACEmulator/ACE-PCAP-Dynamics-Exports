@@ -33,9 +33,7 @@ VALUES (3803,   1,          1) /* ItemType - MeleeWeapon */
      , (3803, 176,         46) /* AppraisalItemSkill */
      , (3803, 177,          1) /* GemCount */
      , (3803, 178,         45) /* GemType */
-     , (3803, 353,          4) /* WeaponType - Mace */
-     , (3803, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3803, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3803, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3803,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3803,   5,  -0.056) /* ManaRate */
      , (3803,  29,    1.15) /* WeaponDefense */
      , (3803,  62,    1.04) /* WeaponOffense */
      , (3803,  63,       1) /* DamageMod */
-     , (3803, 149,   1.025) /* WeaponMissileDefense */
-     , (3803, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3803, 149,   1.025) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3803,   1, 'Lightning Jitte') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3803,   1,   33555753) /* Setup */
      , (3803,   3,  536870932) /* SoundTable */
      , (3803,   8,  100668896) /* Icon */
-     , (3803,  22,  872415275) /* PhysicsEffectTable */
-     , (3803, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3803, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3803, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3803, 8000, 3343085601) /* PCAPRecordedObjectIID */;
+     , (3803,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3803,  1378,      2) 

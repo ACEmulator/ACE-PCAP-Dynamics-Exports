@@ -12,8 +12,7 @@ VALUES (7102,   1,         16) /* ItemType - Creature */
      , (7102,  25,         80) /* Level */
      , (7102,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7102, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7102, 307,          5) /* DamageRating */
-     , (7102, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7102, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7102,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7102,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7102,   1, 'Mosswart Mire-Witch') /* Name */
-     , (7102, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7102,   1, 'Mosswart Mire-Witch') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7102,   1,   33557327) /* Setup */
@@ -31,17 +29,11 @@ VALUES (7102,   1,   33557327) /* Setup */
      , (7102,   3,  536870959) /* SoundTable */
      , (7102,   6,   67113400) /* PaletteBase */
      , (7102,   8,  100667449) /* Icon */
-     , (7102,  22,  872415264) /* PhysicsEffectTable */
-     , (7102, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7102, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7102, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (7102,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7102, 8040, 2429616181, 165.2449, 108.3593, 286.8587, -0.1563955, 0, 0, -0.9876945) /* PCAPRecordedLocation */
 /* @teleloc 0x90D10035 [165.244900 108.359300 286.858700] -0.156396 0.000000 0.000000 -0.987695 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7102, 8000, 3690389531) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7102,   1, 180, 0, 0) /* Strength */
@@ -136,44 +128,3 @@ VALUES (7102, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
      , (7102, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
      , (7102, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
      , (7102, 9, 41053,  0, 0, 0, False) /* Create Acid Greataxe (41053) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7102, 67113405, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7102, 0, 83893769, 83893769)
-     , (7102, 1, 83893768, 83893778)
-     , (7102, 2, 83893766, 83893775)
-     , (7102, 3, 83893766, 83893775)
-     , (7102, 4, 83893766, 83893775)
-     , (7102, 5, 83893766, 83893775)
-     , (7102, 6, 83893766, 83893775)
-     , (7102, 7, 83893766, 83893775)
-     , (7102, 8, 83893767, 83893767)
-     , (7102, 9, 83893768, 83893778)
-     , (7102, 10, 83893766, 83893775)
-     , (7102, 11, 83893767, 83893767)
-     , (7102, 12, 83893768, 83893778)
-     , (7102, 13, 83893766, 83893775)
-     , (7102, 14, 83893766, 83893775)
-     , (7102, 15, 83893766, 83893775)
-     , (7102, 16, 83893766, 83893775);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7102, 0, 16787248)
-     , (7102, 1, 16787249)
-     , (7102, 2, 16787261)
-     , (7102, 3, 16787254)
-     , (7102, 4, 16787250)
-     , (7102, 5, 16787259)
-     , (7102, 6, 16787255)
-     , (7102, 7, 16787253)
-     , (7102, 8, 16787260)
-     , (7102, 9, 16787262)
-     , (7102, 10, 16787252)
-     , (7102, 11, 16787258)
-     , (7102, 12, 16787263)
-     , (7102, 13, 16787251)
-     , (7102, 14, 16787247)
-     , (7102, 15, 16787257)
-     , (7102, 16, 16787256);

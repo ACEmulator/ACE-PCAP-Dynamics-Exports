@@ -11,8 +11,7 @@ VALUES (43487,   1,         16) /* ItemType - Creature */
      , (43487,  16,          1) /* ItemUseable - No */
      , (43487,  25,        160) /* Level */
      , (43487,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (43487, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43487, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43487, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43487,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (43487,  39,     1.6) /* DefaultScale */
      , (43487,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43487,   1, 'Grievver Violator') /* Name */
-     , (43487, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (43487,   1, 'Grievver Violator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43487,   1,   33556698) /* Setup */
@@ -32,17 +30,11 @@ VALUES (43487,   1,   33556698) /* Setup */
      , (43487,   6,   67112927) /* PaletteBase */
      , (43487,   8,  100670960) /* Icon */
      , (43487,  22,  872415364) /* PhysicsEffectTable */
-     , (43487,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (43487, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (43487, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (43487, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (43487,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43487, 8040, 3872260133, 117.0266, 119.6679, 6.493165, 0.514347, 0, 0, -0.8575822) /* PCAPRecordedLocation */
 /* @teleloc 0xE6CE0025 [117.026600 119.667900 6.493165] 0.514347 0.000000 0.000000 -0.857582 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43487, 8000, 3622622315) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43487,   1, 250, 0, 0) /* Strength */
@@ -66,6 +58,3 @@ VALUES (43487, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for Cont
      , (43487, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (43487, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
      , (43487, 9,  9098,  1, 0, 0, False) /* Create Vial of Organic Acid (9098) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43487, 67114286, 0, 0);

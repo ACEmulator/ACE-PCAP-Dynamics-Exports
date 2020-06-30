@@ -24,9 +24,7 @@ VALUES (3755,   1,          1) /* ItemType - MeleeWeapon */
      , (3755, 159,         45) /* WieldSkillType - LightWeapons */
      , (3755, 160,        250) /* WieldDifficulty */
      , (3755, 172,          1) /* AppraisalLongDescDecoration */
-     , (3755, 353,          3) /* WeaponType - Axe */
-     , (3755, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3755, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3755, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3755,  22, True ) /* Inscribable */;
@@ -38,8 +36,7 @@ VALUES (3755,  21,       0) /* WeaponLength */
      , (3755,  29,    1.02) /* WeaponDefense */
      , (3755,  39,     1.2) /* DefaultScale */
      , (3755,  62,    1.06) /* WeaponOffense */
-     , (3755,  63,       1) /* DamageMod */
-     , (3755, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3755,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3755,   1, 'Lightning Hand Axe') /* Name */
@@ -49,10 +46,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3755,   1,   33555703) /* Setup */
      , (3755,   3,  536870932) /* SoundTable */
      , (3755,   8,  100670216) /* Icon */
-     , (3755,  22,  872415275) /* PhysicsEffectTable */
-     , (3755, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3755, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3755, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3755, 8000, 2995465547) /* PCAPRecordedObjectIID */;
+     , (3755,  22,  872415275) /* PhysicsEffectTable */;

@@ -32,9 +32,7 @@ VALUES (48315,   1,        256) /* ItemType - MissileWeapon */
      , (48315, 307,          5) /* DamageRating */
      , (48315, 313,          0) /* CritRating */
      , (48315, 314,          0) /* CritDamageRating */
-     , (48315, 386,          0) /* Overpower */
-     , (48315, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (48315, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (48315, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48315,  69, False) /* IsSellable */;
@@ -59,27 +57,13 @@ VALUES (48315,   1,   33555689) /* Setup */
      , (48315,   3,  536870932) /* SoundTable */
      , (48315,   6,   67111919) /* PaletteBase */
      , (48315,   8,  100670199) /* Icon */
-     , (48315,  22,  872415275) /* PhysicsEffectTable */
-     , (48315, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48315, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48315, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (48315, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48315,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48315, 8040, 1587740725, 164.449, 107.9205, 37.63058, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x5EA30035 [164.449000 107.920500 37.630580] 0.500000 0.500000 -0.500000 -0.500000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48315, 8000, 3686228027) /* PCAPRecordedObjectIID */
-     , (48315, 8008, 3686225808) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48315, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
      , (48315, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */
      , (48315, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48315, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48315, 0, 16777887);

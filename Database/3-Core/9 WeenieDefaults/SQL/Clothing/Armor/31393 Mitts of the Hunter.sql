@@ -45,19 +45,10 @@ VALUES (31393,   1,   33559619) /* Setup */
      , (31393,   3,  536870932) /* SoundTable */
      , (31393,   6,   67108990) /* PaletteBase */
      , (31393,   8,  100687969) /* Icon */
-     , (31393,  22,  872415275) /* PhysicsEffectTable */
-     , (31393, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (31393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31393, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31393, 8000, 3330123927) /* PCAPRecordedObjectIID */;
+     , (31393,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31393,   261,      2) 
      , (31393,  1378,      2) 
      , (31393,  3817,      2) 
      , (31393,  3824,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31393, 67116693, 168, 6);

@@ -12,15 +12,13 @@ VALUES (7124,   1,         16) /* ItemType - Creature */
      , (7124,  25,         80) /* Level */
      , (7124,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7124, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7124, 307,          5) /* DamageRating */
-     , (7124, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7124, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7124,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7124,   1, 'Dark Magus') /* Name */
-     , (7124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7124,   1, 'Dark Magus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7124,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (7124,   1,   33554839) /* Setup */
      , (7124,   3,  536870934) /* SoundTable */
      , (7124,   6,   67110722) /* PaletteBase */
      , (7124,   8,  100667942) /* Icon */
-     , (7124,  22,  872415272) /* PhysicsEffectTable */
-     , (7124, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7124, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7124, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (7124,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7124, 8040, 2451701776, 45.33732, 177.4008, 105.4354, 0.02889203, 0, 0, -0.9995825) /* PCAPRecordedLocation */
 /* @teleloc 0x92220010 [45.337320 177.400800 105.435400] 0.028892 0.000000 0.000000 -0.999583 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7124, 8000, 3685721521) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7124,   1, 110, 0, 0) /* Strength */
@@ -158,6 +150,3 @@ VALUES (7124, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (7124, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
      , (7124, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
      , (7124, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7124, 67113037, 0, 0);

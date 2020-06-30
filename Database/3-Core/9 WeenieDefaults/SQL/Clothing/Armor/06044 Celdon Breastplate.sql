@@ -22,8 +22,7 @@ VALUES (6044,   1,          2) /* ItemType - Armor */
      , (6044, 115,        160) /* ItemSkillLevelLimit */
      , (6044, 131,         64) /* MaterialType - Steel */
      , (6044, 172,          1) /* AppraisalLongDescDecoration */
-     , (6044, 176,          7) /* AppraisalItemSkill */
-     , (6044, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6044, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6044,  22, True ) /* Inscribable */
@@ -38,8 +37,7 @@ VALUES (6044,   5,  -0.042) /* ManaRate */
      , (6044,  17,     0.4) /* ArmorModVsFire */
      , (6044,  18,     0.6) /* ArmorModVsAcid */
      , (6044,  19,     0.4) /* ArmorModVsElectric */
-     , (6044, 165,       1) /* ArmorModVsNether */
-     , (6044, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (6044, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6044,   1, 'Celdon Breastplate') /* Name */
@@ -50,29 +48,11 @@ VALUES (6044,   1,   33554642) /* Setup */
      , (6044,   3,  536870932) /* SoundTable */
      , (6044,   6,   67108990) /* PaletteBase */
      , (6044,   8,  100670403) /* Icon */
-     , (6044,  22,  872415275) /* PhysicsEffectTable */
-     , (6044, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (6044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6044, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (6044,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6044, 8040, 30671251, 28.74659, -31.80863, 29.995, 0.9964855, 0, 0, -0.08376546) /* PCAPRecordedLocation */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 29.995000] 0.996486 0.000000 0.000000 -0.083765 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6044, 8000, 3653269710) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6044,  1485,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6044, 67110019, 186, 12)
-     , (6044, 67110019, 174, 12)
-     , (6044, 67110024, 216, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6044, 0, 83887061, 83886237)
-     , (6044, 0, 83887060, 83886238);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6044, 0, 16778382);

@@ -11,8 +11,7 @@ VALUES (38181,   1,         16) /* ItemType - Creature */
      , (38181,  16,          1) /* ItemUseable - No */
      , (38181,  25,         60) /* Level */
      , (38181,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38181, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38181, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38181, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38181,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38181,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38181,   1, 'Blighted Dire Ursuin') /* Name */
-     , (38181, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38181,   1, 'Blighted Dire Ursuin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38181,   1,   33556773) /* Setup */
@@ -30,17 +28,11 @@ VALUES (38181,   1,   33556773) /* Setup */
      , (38181,   3,  536871011) /* SoundTable */
      , (38181,   6,   67112944) /* PaletteBase */
      , (38181,   8,  100670959) /* Icon */
-     , (38181,  22,  872415366) /* PhysicsEffectTable */
-     , (38181, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38181, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38181, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (38181,  22,  872415366) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38181, 8040, 2400911397, 105.0295, 118.6437, 293.2931, 0.5278799, 0, 0, -0.849319) /* PCAPRecordedLocation */
 /* @teleloc 0x8F1B0025 [105.029500 118.643700 293.293100] 0.527880 0.000000 0.000000 -0.849319 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38181, 8000, 3685062408) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38181,   1, 280, 0, 0) /* Strength */
@@ -105,6 +97,3 @@ VALUES (38181, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for Con
      , (38181, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (38181, 9, 41055,  0, 0, 0, False) /* Create Flaming Greataxe (41055) for ContainTreasure */
      , (38181, 9,  5977,  0, 0, 0, False) /* Create Scroll of Fletching Mastery Self IV (5977) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38181, 67112945, 0, 0);

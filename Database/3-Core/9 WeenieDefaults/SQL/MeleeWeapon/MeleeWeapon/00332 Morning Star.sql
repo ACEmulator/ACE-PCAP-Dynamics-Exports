@@ -34,9 +34,7 @@ VALUES (332,   1,          1) /* ItemType - MeleeWeapon */
      , (332, 176,         44) /* AppraisalItemSkill */
      , (332, 177,          2) /* GemCount */
      , (332, 178,         15) /* GemType */
-     , (332, 353,          4) /* WeaponType - Mace */
-     , (332, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (332, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (332, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (332,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (332,   5,  -0.042) /* ManaRate */
      , (332,  26,       0) /* MaximumVelocity */
      , (332,  29,     1.1) /* WeaponDefense */
      , (332,  62,    1.09) /* WeaponOffense */
-     , (332,  63,       1) /* DamageMod */
-     , (332, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (332,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (332,   1, 'Morning Star') /* Name */
@@ -60,30 +57,12 @@ VALUES (332,   1,   33554748) /* Setup */
      , (332,   3,  536870932) /* SoundTable */
      , (332,   6,   67111919) /* PaletteBase */
      , (332,   8,  100668974) /* Icon */
-     , (332,  22,  872415275) /* PhysicsEffectTable */
-     , (332, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (332, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (332, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (332, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (332,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (332, 8040, 3629318400, 84.825, 99, 19.929, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD8530100 [84.825000 99.000000 19.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (332, 8000, 3691924164) /* PCAPRecordedObjectIID */
-     , (332, 8008, 1343493749) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (332,  1604,      2) 
      , (332,  1615,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (332, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (332, 0, 83889356, 83886712)
-     , (332, 0, 83889236, 83889236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (332, 0, 16777932);

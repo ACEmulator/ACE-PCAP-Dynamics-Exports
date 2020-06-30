@@ -34,8 +34,7 @@ VALUES (25387,   1,         16) /* ItemType - Creature */
      , (25387, 386,          0) /* Overpower */
      , (25387, 387,          0) /* OverpowerResist */
      , (25387, 388,          0) /* GearOverpower */
-     , (25387, 389,          0) /* GearOverpowerResist */
-     , (25387, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25387, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25387,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25387,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25387,   1, 'Living Tome') /* Name */
-     , (25387, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25387,   1, 'Living Tome') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25387,   1,   33558443) /* Setup */
      , (25387,   2,  150995251) /* MotionTable */
      , (25387,   3,  536870930) /* SoundTable */
-     , (25387,   8,  100674847) /* Icon */
-     , (25387, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (25387, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (25387, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (25387,   8,  100674847) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25387, 8040, 1498218771, 100, -91.5, -66, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x594D0113 [100.000000 -91.500000 -66.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25387, 8000, 2447719281) /* PCAPRecordedObjectIID */;

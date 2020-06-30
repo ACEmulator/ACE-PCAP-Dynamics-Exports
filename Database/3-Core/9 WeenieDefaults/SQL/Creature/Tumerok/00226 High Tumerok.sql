@@ -11,8 +11,7 @@ VALUES (226,   1,         16) /* ItemType - Creature */
      , (226,  16,          1) /* ItemUseable - No */
      , (226,  25,         50) /* Level */
      , (226,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (226, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (226, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (226, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (226,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (226,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (226,   1, 'High Tumerok') /* Name */
-     , (226, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (226,   1, 'High Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (226,   1,   33559560) /* Setup */
@@ -30,17 +28,11 @@ VALUES (226,   1,   33559560) /* Setup */
      , (226,   3,  536870931) /* SoundTable */
      , (226,   6,   67116625) /* PaletteBase */
      , (226,   8,  100667452) /* Icon */
-     , (226,  22,  872415270) /* PhysicsEffectTable */
-     , (226, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (226, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (226, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (226,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (226, 8040, 2536767533, 127.3006, 112.818, 40.006, 0.4570223, 0, 0, -0.8894553) /* PCAPRecordedLocation */
 /* @teleloc 0x9734002D [127.300600 112.818000 40.006000] 0.457022 0.000000 0.000000 -0.889455 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (226, 8000, 3685863253) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (226,   1, 170, 0, 0) /* Strength */
@@ -175,11 +167,3 @@ VALUES (226, 2, 23681,  1, 0, 0, False) /* Create Nekode (23681) for Wield */
      , (226, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (226, 9, 43313,  0, 0, 0, False) /* Create Scroll of Nether Streak IV (43313) for ContainTreasure */
      , (226, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (226, 67116625, 57, 48)
-     , (226, 67116625, 153, 47)
-     , (226, 67116625, 200, 8)
-     , (226, 67116629, 1, 48)
-     , (226, 67116636, 105, 48)
-     , (226, 67116640, 208, 48);

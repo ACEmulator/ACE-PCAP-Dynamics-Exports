@@ -18,8 +18,7 @@ VALUES (661,   1,         16) /* ItemType - Creature */
      , (661, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (661, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (661, 188,          1) /* HeritageGroup - Aluvian */
-     , (661, 307,          5) /* DamageRating */
-     , (661, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (661, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (661,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (661,  37,    0.95) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (661,   1, 'Luthin the Smith') /* Name */
-     , (661,   5, 'Blacksmith') /* Template */
-     , (661, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (661,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (661,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (661,   1,   33554433) /* Setup */
      , (661,  11,   83890656) /* MouthTexture */
      , (661,  15,   67116978) /* HairPalette */
      , (661,  16,   67109566) /* EyesPalette */
-     , (661,  17,   67109558) /* SkinPalette */
-     , (661, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (661, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (661, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (661,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (661, 8040, 3364618524, 135.96, 180.36, 22.005, 0.02306205, 0, 0, -0.999734) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C011C [135.960000 180.360000 22.005000] 0.023062 0.000000 0.000000 -0.999734 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (661, 8000, 2089336867) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (661,   1,  95, 0, 0) /* Strength */
@@ -114,49 +106,3 @@ VALUES (661, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (661, 4, 45106, -1, 0, 0, False) /* Create Flaming Rapier (45106) for Shop */
      , (661, 4, 31797, -1, 0, 0, False) /* Create Flaming Lancet (31797) for Shop */
      , (661, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (661, 67109558, 0, 24)
-     , (661, 67109566, 32, 8)
-     , (661, 67110349, 40, 24)
-     , (661, 67110349, 160, 8)
-     , (661, 67110361, 64, 8)
-     , (661, 67110376, 216, 24)
-     , (661, 67110539, 72, 8)
-     , (661, 67110551, 92, 4)
-     , (661, 67116978, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (661, 0, 83889072, 83890012)
-     , (661, 0, 83889342, 83890011)
-     , (661, 1, 83887064, 83886241)
-     , (661, 3, 83889344, 83887054)
-     , (661, 4, 83887068, 83887054)
-     , (661, 5, 83887064, 83886241)
-     , (661, 7, 83889344, 83887054)
-     , (661, 8, 83887068, 83887054)
-     , (661, 9, 83887061, 83890009)
-     , (661, 9, 83887060, 83890010)
-     , (661, 16, 83886232, 83890685)
-     , (661, 16, 83886668, 83890511)
-     , (661, 16, 83886837, 83890560)
-     , (661, 16, 83886684, 83890656);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (661, 0, 16781835)
-     , (661, 1, 16777295)
-     , (661, 2, 16777293)
-     , (661, 3, 16777292)
-     , (661, 4, 16777291)
-     , (661, 5, 16777299)
-     , (661, 6, 16777297)
-     , (661, 7, 16777296)
-     , (661, 8, 16777298)
-     , (661, 9, 16777300)
-     , (661, 10, 16777301)
-     , (661, 11, 16777302)
-     , (661, 12, 16777304)
-     , (661, 13, 16777303)
-     , (661, 14, 16777305)
-     , (661, 15, 16777307)
-     , (661, 16, 16795640);

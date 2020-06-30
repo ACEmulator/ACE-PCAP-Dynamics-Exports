@@ -17,8 +17,7 @@ VALUES (11757,   1,      32768) /* ItemType - Caster */
      , (11757, 107,        599) /* ItemCurMana */
      , (11757, 108,        600) /* ItemMaxMana */
      , (11757, 109,         60) /* ItemDifficulty */
-     , (11757, 114,          1) /* Attuned - Attuned */
-     , (11757, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11757, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11757,  22, True ) /* Inscribable */
@@ -36,21 +35,8 @@ VALUES (11757,   1, 'Hafted Falcon Banner with Symbol') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11757,   1,   33557258) /* Setup */
      , (11757,   8,  100671912) /* Icon */
-     , (11757,  22,  872415275) /* PhysicsEffectTable */
-     , (11757, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
-     , (11757, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11757, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11757, 8000, 2629545800) /* PCAPRecordedObjectIID */;
+     , (11757,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11757,   656,      2) 
      , (11757,   985,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11757, 0, 83893725, 83893725)
-     , (11757, 0, 83893717, 83893717);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11757, 0, 16787138);

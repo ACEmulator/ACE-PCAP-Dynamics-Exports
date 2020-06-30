@@ -11,15 +11,13 @@ VALUES (10,   1,         16) /* ItemType - Creature */
      , (10,  16,          1) /* ItemUseable - No */
      , (10,  25,          8) /* Level */
      , (10,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (10, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (10, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (10, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10,   1, 'Mite Scamp') /* Name */
-     , (10, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (10,   1, 'Mite Scamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10,   1,   33558656) /* Setup */
@@ -27,17 +25,11 @@ VALUES (10,   1,   33558656) /* Setup */
      , (10,   3,  536870923) /* SoundTable */
      , (10,   6,   67115137) /* PaletteBase */
      , (10,   8,  100667448) /* Icon */
-     , (10,  22,  872415263) /* PhysicsEffectTable */
-     , (10, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (10, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (10, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (10,  22,  872415263) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10, 8040, 3331915820, 131.8017, 92.73347, 6.005, 0.8182386, 0, 0, -0.5748787) /* PCAPRecordedLocation */
 /* @teleloc 0xC699002C [131.801700 92.733470 6.005000] 0.818239 0.000000 0.000000 -0.574879 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10, 8000, 3694291143) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10,   1,  40, 0, 0) /* Strength */
@@ -66,6 +58,3 @@ VALUES (10, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure 
      , (10, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */
      , (10, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */
      , (10, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (10, 67115137, 0, 0);

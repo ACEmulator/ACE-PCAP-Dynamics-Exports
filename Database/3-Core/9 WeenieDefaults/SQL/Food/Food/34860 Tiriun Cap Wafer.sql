@@ -14,8 +14,7 @@ VALUES (34860,   1,         32) /* ItemType - Food */
      , (34860,  19,         50) /* Value */
      , (34860,  89,          2) /* BoosterEnum - Health */
      , (34860,  90,         90) /* BoostValue */
-     , (34860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34860, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34860,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34860,   1, 'Tiriun Cap Wafer') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34860,   1,   33558400) /* Setup */
      , (34860,   3,  536870932) /* SoundTable */
      , (34860,   8,  100689329) /* Icon */
-     , (34860,  22,  872415275) /* PhysicsEffectTable */
-     , (34860, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (34860, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (34860, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34860, 8000, 2464140478) /* PCAPRecordedObjectIID */;
+     , (34860,  22,  872415275) /* PhysicsEffectTable */;

@@ -15,8 +15,7 @@ VALUES (1450,   1,         32) /* ItemType - Food */
      , (1450,  19,         15) /* Value */
      , (1450,  89,          2) /* BoosterEnum - Health */
      , (1450,  90,          3) /* BoostValue */
-     , (1450,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1450, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (1450,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1450,   1, 'Salmon') /* Name */
@@ -26,14 +25,8 @@ VALUES (1450,   1, 'Salmon') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1450,   1,   33554674) /* Setup */
      , (1450,   8,  100667461) /* Icon */
-     , (1450,  22,  872415275) /* PhysicsEffectTable */
-     , (1450, 8001,    2109593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Burden */
-     , (1450, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (1450, 8005,     167937) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, Position, AnimationFrame */;
+     , (1450,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1450, 8040, 20709846, 201.9103, -28.57946, 0, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x013C01D6 [201.910300 -28.579460 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1450, 8000, 3705822188) /* PCAPRecordedObjectIID */;

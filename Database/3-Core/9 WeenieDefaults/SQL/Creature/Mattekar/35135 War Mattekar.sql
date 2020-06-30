@@ -11,8 +11,7 @@ VALUES (35135,   1,         16) /* ItemType - Creature */
      , (35135,  16,          1) /* ItemUseable - No */
      , (35135,  25,        115) /* Level */
      , (35135,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35135, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35135, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35135, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35135,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (35135,  39,       3) /* DefaultScale */
      , (35135,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35135,   1, 'War Mattekar') /* Name */
-     , (35135, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35135,   1, 'War Mattekar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35135,   1,   33555590) /* Setup */
@@ -32,17 +30,11 @@ VALUES (35135,   1,   33555590) /* Setup */
      , (35135,   6,   67111893) /* PaletteBase */
      , (35135,   8,  100669121) /* Icon */
      , (35135,  22,  872415278) /* PhysicsEffectTable */
-     , (35135,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (35135, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35135, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35135, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (35135,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35135, 8040, 11600219, 28.75479, -1112.105, 0.105, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B1015B [28.754790 -1112.105000 0.105000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35135, 8000, 2931431748) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35135,   1, 385, 0, 0) /* Strength */
@@ -302,6 +294,3 @@ VALUES (35135, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (35135, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
      , (35135, 9, 20416,  0, 0, 0, False) /* Create Aura of Elysa's Sight (20416) for ContainTreasure */
      , (35135, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35135, 67116815, 0, 0);

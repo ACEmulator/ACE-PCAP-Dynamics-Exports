@@ -12,8 +12,7 @@ VALUES (11509,   1,         16) /* ItemType - Creature */
      , (11509,  25,         20) /* Level */
      , (11509,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (11509, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11509, 307,          5) /* DamageRating */
-     , (11509, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11509, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11509,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11509,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11509,   1, 'Aun Hunter') /* Name */
-     , (11509, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11509,   1, 'Aun Hunter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11509,   1,   33557117) /* Setup */
@@ -31,17 +29,11 @@ VALUES (11509,   1,   33557117) /* Setup */
      , (11509,   3,  536870931) /* SoundTable */
      , (11509,   6,   67113280) /* PaletteBase */
      , (11509,   8,  100671756) /* Icon */
-     , (11509,  22,  872415270) /* PhysicsEffectTable */
-     , (11509, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11509, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11509, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (11509,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11509, 8040, 565903367, 4.410768, 151.0925, 96.00549, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x21BB0007 [4.410768 151.092500 96.005490] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11509, 8000, 3695134403) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11509,   1, 110, 0, 0) /* Strength */
@@ -63,6 +55,3 @@ VALUES (11509, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wie
      , (11509, 2,  4186,  1, 0, 0, False) /* Create Frost Quarrel (4186) for Wield */
      , (11509, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (11509, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11509, 67113366, 0, 0);

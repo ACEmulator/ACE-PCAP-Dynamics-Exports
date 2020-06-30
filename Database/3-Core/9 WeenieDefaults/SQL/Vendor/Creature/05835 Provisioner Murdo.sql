@@ -17,8 +17,7 @@ VALUES (5835,   1,         16) /* ItemType - Creature */
      , (5835, 113,          1) /* Gender - Male */
      , (5835, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5835, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5835, 188,          1) /* HeritageGroup - Aluvian */
-     , (5835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5835, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5835,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5835,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5835,   1, 'Provisioner Murdo') /* Name */
-     , (5835,   5, 'Shifty Provisioner') /* Template */
-     , (5835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5835,   5, 'Shifty Provisioner') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5835,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5835,   1,   33554433) /* Setup */
      , (5835,  11,   83890649) /* MouthTexture */
      , (5835,  15,   67116988) /* HairPalette */
      , (5835,  16,   67109567) /* EyesPalette */
-     , (5835,  17,   67109561) /* SkinPalette */
-     , (5835, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5835, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5835, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5835,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5835, 8040, 3184656427, 134.418, 64.387, 186.005, 0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
 /* @teleloc 0xBDD2002B [134.418000 64.387000 186.005000] 0.923880 0.000000 0.000000 -0.382683 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5835, 8000, 2078089221) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5835,   1,  90, 0, 0) /* Strength */
@@ -131,56 +123,3 @@ VALUES (5835, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (5835, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5835, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (5835, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5835, 67109561, 0, 24)
-     , (5835, 67109567, 32, 8)
-     , (5835, 67109964, 92, 4)
-     , (5835, 67110003, 72, 8)
-     , (5835, 67110349, 250, 6)
-     , (5835, 67110356, 64, 8)
-     , (5835, 67110365, 40, 24)
-     , (5835, 67110378, 160, 8)
-     , (5835, 67116988, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5835, 0, 83889072, 83890012)
-     , (5835, 0, 83889342, 83890011)
-     , (5835, 1, 83887064, 83886241)
-     , (5835, 2, 83887066, 83887051)
-     , (5835, 3, 83889344, 83887054)
-     , (5835, 4, 83887068, 83887054)
-     , (5835, 5, 83887064, 83886241)
-     , (5835, 6, 83887066, 83887051)
-     , (5835, 7, 83889344, 83887054)
-     , (5835, 8, 83887068, 83887054)
-     , (5835, 9, 83887061, 83890009)
-     , (5835, 9, 83887060, 83890010)
-     , (5835, 10, 83887069, 83886782)
-     , (5835, 11, 83887067, 83891213)
-     , (5835, 13, 83887069, 83886782)
-     , (5835, 14, 83887067, 83891213)
-     , (5835, 16, 83886232, 83890685)
-     , (5835, 16, 83886668, 83890511)
-     , (5835, 16, 83886837, 83890518)
-     , (5835, 16, 83886684, 83890649)
-     , (5835, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5835, 0, 16781835)
-     , (5835, 1, 16777295)
-     , (5835, 2, 16781866)
-     , (5835, 3, 16781841)
-     , (5835, 4, 16781838)
-     , (5835, 5, 16777299)
-     , (5835, 6, 16781864)
-     , (5835, 7, 16781840)
-     , (5835, 8, 16781839)
-     , (5835, 9, 16777300)
-     , (5835, 10, 16777301)
-     , (5835, 11, 16777302)
-     , (5835, 12, 16777304)
-     , (5835, 13, 16777303)
-     , (5835, 14, 16777305)
-     , (5835, 15, 16777307)
-     , (5835, 16, 16779630);

@@ -17,8 +17,7 @@ VALUES (38548,   1,         16) /* ItemType - Creature */
      , (38548, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38548, 188,          4) /* HeritageGroup - Viamontian */
      , (38548, 281,          1) /* Faction1Bits */
-     , (38548, 287,          1) /* SocietyRankCelhan */
-     , (38548, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38548, 287,          1) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38548,   1, True ) /* Stuck */
@@ -29,8 +28,7 @@ VALUES (38548,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38548,   1, 'Society Gauntlets Armorsmith') /* Name */
-     , (38548,   5, 'Society Armorsmith') /* Template */
-     , (38548, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38548,   5, 'Society Armorsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38548,   1,   33554433) /* Setup */
@@ -43,17 +41,11 @@ VALUES (38548,   1,   33554433) /* Setup */
      , (38548,  11,   83890659) /* MouthTexture */
      , (38548,  15,   67117069) /* HairPalette */
      , (38548,  16,   67110064) /* EyesPalette */
-     , (38548,  17,   67115905) /* SkinPalette */
-     , (38548, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (38548, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (38548, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (38548,  17,   67115905) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38548, 8040, 11993349, 57.7784, -35.1616, -23.995, 0.706148, 0, 0, -0.708064) /* PCAPRecordedLocation */
 /* @teleloc 0x00B70105 [57.778400 -35.161600 -23.995000] 0.706148 0.000000 0.000000 -0.708064 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38548, 8000, 3359479234) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38548,   1, 290, 0, 0) /* Strength */
@@ -67,54 +59,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38548,   1,   196, 0, 0, 296) /* MaxHealth */
      , (38548,   3,   196, 0, 0, 396) /* MaxStamina */
      , (38548,   5,   196, 0, 0, 396) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38548, 67109964, 92, 4)
-     , (38548, 67110003, 72, 8)
-     , (38548, 67110065, 32, 8)
-     , (38548, 67110334, 160, 8)
-     , (38548, 67110376, 64, 8)
-     , (38548, 67113251, 40, 24)
-     , (38548, 67115904, 0, 24)
-     , (38548, 67117097, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38548, 0, 83889072, 83886685)
-     , (38548, 0, 83889342, 83889386)
-     , (38548, 1, 83887064, 83886241)
-     , (38548, 2, 83887066, 83887051)
-     , (38548, 3, 83889344, 83887054)
-     , (38548, 4, 83887068, 83887054)
-     , (38548, 5, 83887064, 83886241)
-     , (38548, 6, 83887066, 83887051)
-     , (38548, 7, 83889344, 83887054)
-     , (38548, 8, 83887068, 83887054)
-     , (38548, 9, 83887061, 83886687)
-     , (38548, 9, 83887060, 83886686)
-     , (38548, 10, 83887069, 83886782)
-     , (38548, 11, 83886788, 83891213)
-     , (38548, 13, 83887069, 83886782)
-     , (38548, 14, 83886788, 83891213)
-     , (38548, 16, 83886232, 83890685)
-     , (38548, 16, 83886668, 83890448)
-     , (38548, 16, 83886837, 83890560)
-     , (38548, 16, 83886684, 83890614);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38548, 0, 16793839)
-     , (38548, 1, 16777295)
-     , (38548, 2, 16781866)
-     , (38548, 3, 16781841)
-     , (38548, 4, 16781838)
-     , (38548, 5, 16777299)
-     , (38548, 6, 16781864)
-     , (38548, 7, 16781840)
-     , (38548, 8, 16781839)
-     , (38548, 9, 16793840)
-     , (38548, 10, 16777301)
-     , (38548, 11, 16781822)
-     , (38548, 12, 16777304)
-     , (38548, 13, 16777303)
-     , (38548, 14, 16781821)
-     , (38548, 15, 16777307)
-     , (38548, 16, 16795650);

@@ -13,31 +13,14 @@ VALUES (4511,   1,        128) /* ItemType - Misc */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4511,   1, True ) /* Stuck */;
 
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (4511, 8010,       0) /* PCAPRecordedVelocityX */
-     , (4511, 8011,       0) /* PCAPRecordedVelocityY */
-     , (4511, 8012,  -1.013) /* PCAPRecordedVelocityZ */;
-
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4511,   1, 'Ton Wing''s Smithy') /* Name */
      , (4511,  16, 'Ton Wing''s Smithy') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4511,   1,   33555594) /* Setup */
-     , (4511,   8,  100668115) /* Icon */
-     , (4511, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (4511, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4511, 8005,      32773) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Position */;
+     , (4511,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4511, 8040, 3862757396, 52.6459, 93.5286, 87.7036, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D0014 [52.645900 93.528600 87.703600] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4511, 8000, 2120470554) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4511, 0, 83891180, 83891178);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4511, 0, 16782236);

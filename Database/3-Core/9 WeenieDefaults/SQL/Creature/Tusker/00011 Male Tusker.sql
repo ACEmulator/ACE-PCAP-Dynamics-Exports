@@ -11,8 +11,7 @@ VALUES (11,   1,         16) /* ItemType - Creature */
      , (11,  16,          1) /* ItemUseable - No */
      , (11,  25,         20) /* Level */
      , (11,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11,   1, 'Male Tusker') /* Name */
-     , (11, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11,   1, 'Male Tusker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11,   1,   33556836) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11,   1,   33556836) /* Setup */
      , (11,   3,  536870929) /* SoundTable */
      , (11,   6,   67113007) /* PaletteBase */
      , (11,   8,  100667443) /* Icon */
-     , (11,  22,  872415271) /* PhysicsEffectTable */
-     , (11, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11,  22,  872415271) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11, 8040, 4033806381, 123.5033, 111.7823, -0.8879001, -0.6303936, 0, 0, -0.7762756) /* PCAPRecordedLocation */
 /* @teleloc 0xF06F002D [123.503300 111.782300 -0.887900] -0.630394 0.000000 0.000000 -0.776276 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11, 8000, 3690736487) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11,   1, 170, 0, 0) /* Strength */
@@ -309,22 +301,3 @@ VALUES (11, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (
      , (11, 9, 30587,  0, 0, 0, False) /* Create Acid Flanged Mace (30587) for ContainTreasure */
      , (11, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
      , (11, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11, 67113012, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11, 1, 83892782, 83892783)
-     , (11, 1, 83892779, 83892780)
-     , (11, 14, 83892787, 83892785)
-     , (11, 14, 83892790, 83892789);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11, 1, 16785073)
-     , (11, 14, 16785088)
-     , (11, 19, 16777708)
-     , (11, 20, 16777708)
-     , (11, 21, 16777708)
-     , (11, 22, 16777708)
-     , (11, 23, 16777708)
-     , (11, 24, 16777708);

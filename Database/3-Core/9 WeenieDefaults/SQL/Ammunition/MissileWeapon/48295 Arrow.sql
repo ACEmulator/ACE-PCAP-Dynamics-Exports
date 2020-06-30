@@ -23,9 +23,7 @@ VALUES (48295,   1,        256) /* ItemType - MissileWeapon */
      , (48295,  50,          1) /* AmmoType - Arrow */
      , (48295,  51,          3) /* CombatUse - Ammo */
      , (48295,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (48295, 151,          2) /* HookType - Wall */
-     , (48295, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (48295, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (48295, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48295,  69, False) /* IsSellable */;
@@ -48,22 +46,8 @@ VALUES (48295,   1,   33555406) /* Setup */
      , (48295,   3,  536870932) /* SoundTable */
      , (48295,   6,   67111919) /* PaletteBase */
      , (48295,   8,  100670195) /* Icon */
-     , (48295,  22,  872415275) /* PhysicsEffectTable */
-     , (48295, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48295, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48295, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (48295, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48295,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48295, 8040, 1453260802, 15.6909, 47.11093, 18.61723, -0.5333294, -0.5333294, -0.4642842, -0.4642842) /* PCAPRecordedLocation */
 /* @teleloc 0x569F0002 [15.690900 47.110930 18.617230] -0.533329 -0.533329 -0.464284 -0.464284 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48295, 8000, 3687407454) /* PCAPRecordedObjectIID */
-     , (48295, 8008, 3687237191) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48295, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48295, 0, 16777887);

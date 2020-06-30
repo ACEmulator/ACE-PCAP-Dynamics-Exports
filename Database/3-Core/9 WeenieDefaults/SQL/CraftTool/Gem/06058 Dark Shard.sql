@@ -14,8 +14,7 @@ VALUES (6058,   1,       2048) /* ItemType - Gem */
      , (6058,  19,          0) /* Value */
      , (6058,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6058,  94,       2048) /* TargetType - Gem */
-     , (6058, 151,          2) /* HookType - Wall */
-     , (6058, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6058, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6058,  22, True ) /* Inscribable */
@@ -31,23 +30,8 @@ VALUES (6058,   1,   33554809) /* Setup */
      , (6058,   3,  536870932) /* SoundTable */
      , (6058,   6,   67111919) /* PaletteBase */
      , (6058,   8,  100670636) /* Icon */
-     , (6058,  22,  872415275) /* PhysicsEffectTable */
-     , (6058, 8001,  271085584) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (6058, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6058, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6058, 8000, 3681969059) /* PCAPRecordedObjectIID */;
+     , (6058,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6058, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
      , (6058, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6058, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6058, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6058, 0, 16779181);

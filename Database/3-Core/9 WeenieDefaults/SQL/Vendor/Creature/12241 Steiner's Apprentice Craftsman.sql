@@ -17,8 +17,7 @@ VALUES (12241,   1,         16) /* ItemType - Creature */
      , (12241, 113,          1) /* Gender - Male */
      , (12241, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12241, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (12241, 188,          1) /* HeritageGroup - Aluvian */
-     , (12241, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12241, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12241,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (12241,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12241,   1, 'Steiner''s Apprentice Craftsman') /* Name */
-     , (12241,   5, 'Apprentice Craftsman') /* Template */
-     , (12241, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (12241,   5, 'Apprentice Craftsman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12241,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (12241,   1,   33554433) /* Setup */
      , (12241,  11,   83890630) /* MouthTexture */
      , (12241,  15,   67116985) /* HairPalette */
      , (12241,  16,   67109565) /* EyesPalette */
-     , (12241,  17,   67109558) /* SkinPalette */
-     , (12241, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (12241, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (12241, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (12241,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12241, 8040, 3130917128, 55.361, 31.3416, 54.005, 0.47804, 0, 0, -0.878338) /* PCAPRecordedLocation */
 /* @teleloc 0xBA9E0108 [55.361000 31.341600 54.005000] 0.478040 0.000000 0.000000 -0.878338 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12241, 8000, 2074730504) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12241,   1,  55, 0, 0) /* Strength */
@@ -103,53 +95,3 @@ VALUES (12241, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
      , (12241, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12241, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
      , (12241, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12241, 67109558, 0, 24)
-     , (12241, 67109565, 32, 8)
-     , (12241, 67109969, 92, 4)
-     , (12241, 67110026, 72, 8)
-     , (12241, 67110320, 216, 24)
-     , (12241, 67110334, 160, 8)
-     , (12241, 67111245, 64, 8)
-     , (12241, 67111245, 40, 24)
-     , (12241, 67116985, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12241, 0, 83889072, 83890012)
-     , (12241, 0, 83889342, 83890011)
-     , (12241, 1, 83887064, 83886241)
-     , (12241, 3, 83889344, 83887054)
-     , (12241, 4, 83887068, 83887054)
-     , (12241, 5, 83887064, 83886241)
-     , (12241, 7, 83889344, 83887054)
-     , (12241, 8, 83887068, 83887054)
-     , (12241, 9, 83887061, 83890009)
-     , (12241, 9, 83887060, 83890010)
-     , (12241, 10, 83887069, 83886782)
-     , (12241, 11, 83886788, 83891213)
-     , (12241, 13, 83887069, 83886782)
-     , (12241, 14, 83886788, 83891213)
-     , (12241, 16, 83886232, 83890359)
-     , (12241, 16, 83886668, 83890497)
-     , (12241, 16, 83886837, 83890546)
-     , (12241, 16, 83886684, 83890630);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12241, 0, 16781835)
-     , (12241, 1, 16781845)
-     , (12241, 2, 16777293)
-     , (12241, 3, 16777292)
-     , (12241, 4, 16777291)
-     , (12241, 5, 16781846)
-     , (12241, 6, 16777297)
-     , (12241, 7, 16777296)
-     , (12241, 8, 16777298)
-     , (12241, 9, 16777300)
-     , (12241, 10, 16777301)
-     , (12241, 11, 16781822)
-     , (12241, 12, 16777304)
-     , (12241, 13, 16777303)
-     , (12241, 14, 16781821)
-     , (12241, 15, 16777307)
-     , (12241, 16, 16795638);

@@ -22,8 +22,7 @@ VALUES (49229,   1,        128) /* ItemType - Misc */
      , (49229, 369,         90) /* UseRequiresLevel */
      , (49229, 372,         13) /* GearCrit */
      , (49229, 374,         13) /* GearCritDamage */
-     , (49229, 375,          4) /* GearCritDamageResist */
-     , (49229, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (49229, 375,          4) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49229,  22, True ) /* Inscribable */
@@ -44,24 +43,8 @@ VALUES (49229,   1,   33554817) /* Setup */
      , (49229,   8,  100669124) /* Icon */
      , (49229,  22,  872415275) /* PhysicsEffectTable */
      , (49229,  50,  100693028) /* IconOverlay */
-     , (49229,  52,  100693024) /* IconUnderlay */
-     , (49229, 8001, 1076366488) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, TargetType, Burden, IconOverlay */
-     , (49229, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49229, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49229, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (49229,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (49229, 8040, 23855554, 55.26773, -34.33495, -0.0009999946, -0.8215929, 0, 0, -0.5700747) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.267730 -34.334950 -0.001000] -0.821593 0.000000 0.000000 -0.570075 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49229, 8000, 2421579810) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49229, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49229, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49229, 0, 16777882);

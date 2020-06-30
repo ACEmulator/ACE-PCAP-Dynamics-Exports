@@ -14,15 +14,13 @@ VALUES (53310,   1,        256) /* ItemType - MissileWeapon */
      , (53310,  51,          2) /* CombatUse - Missle */
      , (53310,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53310, 131,         75) /* MaterialType - Oak */
-     , (53310, 151,          2) /* HookType - Wall */
-     , (53310, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53310, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53310,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53310,  39,    1.25) /* DefaultScale */
-     , (53310, 8004,       8) /* PCAPRecordedWorkmanship */;
+VALUES (53310,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53310,   1, 'Stormwood Crossbow') /* Name */;
@@ -31,10 +29,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53310,   1,   33561665) /* Setup */
      , (53310,   3,  536870932) /* SoundTable */
      , (53310,   8,  100693336) /* Icon */
-     , (53310,  22,  872415275) /* PhysicsEffectTable */
-     , (53310, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (53310, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (53310, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53310, 8000, 2153074238) /* PCAPRecordedObjectIID */;
+     , (53310,  22,  872415275) /* PhysicsEffectTable */;

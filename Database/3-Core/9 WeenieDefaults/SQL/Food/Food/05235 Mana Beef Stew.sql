@@ -13,8 +13,7 @@ VALUES (5235,   1,         32) /* ItemType - Food */
      , (5235,  16,          8) /* ItemUseable - Contained */
      , (5235,  18,          8) /* UiEffects - BoostMana */
      , (5235,  19,         80) /* Value */
-     , (5235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5235, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5235,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5235,   1, 'Mana Beef Stew') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5235,   1,   33555968) /* Setup */
      , (5235,   3,  536870932) /* SoundTable */
      , (5235,   8,  100669946) /* Icon */
-     , (5235,  22,  872415275) /* PhysicsEffectTable */
-     , (5235, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (5235, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5235, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5235, 8000, 2927368720) /* PCAPRecordedObjectIID */;
+     , (5235,  22,  872415275) /* PhysicsEffectTable */;

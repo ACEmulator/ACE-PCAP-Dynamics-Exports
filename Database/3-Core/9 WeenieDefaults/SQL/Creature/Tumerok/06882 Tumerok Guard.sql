@@ -11,8 +11,7 @@ VALUES (6882,   1,         16) /* ItemType - Creature */
      , (6882,  16,          1) /* ItemUseable - No */
      , (6882,  25,         60) /* Level */
      , (6882,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (6882, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6882, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (6882, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6882,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6882,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6882,   1, 'Tumerok Guard') /* Name */
-     , (6882, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (6882,   1, 'Tumerok Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6882,   1,   33559568) /* Setup */
@@ -30,17 +28,11 @@ VALUES (6882,   1,   33559568) /* Setup */
      , (6882,   3,  536870931) /* SoundTable */
      , (6882,   6,   67116625) /* PaletteBase */
      , (6882,   8,  100667452) /* Icon */
-     , (6882,  22,  872415270) /* PhysicsEffectTable */
-     , (6882, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (6882, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (6882, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (6882,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6882, 8040, 3681812744, 100.3868, 44.97861, 12.9555, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xDB740108 [100.386800 44.978610 12.955500] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6882, 8000, 2618622838) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6882,   1, 100, 0, 0) /* Strength */
@@ -66,11 +58,3 @@ VALUES (6882, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for Conta
      , (6882, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
      , (6882, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (6882, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6882, 67116625, 153, 47)
-     , (6882, 67116625, 208, 48)
-     , (6882, 67116637, 57, 48)
-     , (6882, 67116642, 105, 48)
-     , (6882, 67116642, 200, 8)
-     , (6882, 67116643, 1, 48);

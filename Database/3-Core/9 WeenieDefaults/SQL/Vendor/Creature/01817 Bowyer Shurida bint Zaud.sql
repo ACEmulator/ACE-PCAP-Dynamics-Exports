@@ -17,8 +17,7 @@ VALUES (1817,   1,         16) /* ItemType - Creature */
      , (1817, 113,          2) /* Gender - Female */
      , (1817, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1817, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1817, 188,          2) /* HeritageGroup - Gharundim */
-     , (1817, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1817, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1817,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1817,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1817,   1, 'Bowyer Shurida bint Zaud') /* Name */
-     , (1817,   5, 'Bowyer') /* Template */
-     , (1817, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1817,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1817,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1817,   1,   33554510) /* Setup */
      , (1817,  11,   83890343) /* MouthTexture */
      , (1817,  15,   67117073) /* HairPalette */
      , (1817,  16,   67109567) /* EyesPalette */
-     , (1817,  17,   67109550) /* SkinPalette */
-     , (1817, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1817, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1817, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1817,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1817, 8040, 2255290625, 53.0046, 173.51, -0.2950001, -0.9999069, 0, 0, -0.01364633) /* PCAPRecordedLocation */
 /* @teleloc 0x866D0101 [53.004600 173.510000 -0.295000] -0.999907 0.000000 0.000000 -0.013646 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1817, 8000, 2020003840) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (1817,   1,     0, 0, 0, 120) /* MaxHealth */;
@@ -79,50 +71,3 @@ VALUES (1817, 2,   334,  1, 0, 0, False) /* Create Nayin (334) for Wield */
      , (1817, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (1817, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (1817, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1817, 67109550, 0, 24)
-     , (1817, 67109567, 32, 8)
-     , (1817, 67109965, 92, 4)
-     , (1817, 67110349, 64, 8)
-     , (1817, 67110369, 40, 24)
-     , (1817, 67110369, 160, 8)
-     , (1817, 67110375, 250, 6)
-     , (1817, 67110539, 72, 8)
-     , (1817, 67117073, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1817, 0, 83889072, 83890012)
-     , (1817, 0, 83889342, 83890011)
-     , (1817, 1, 83887064, 83886241)
-     , (1817, 3, 83889344, 83887054)
-     , (1817, 4, 83887068, 83887054)
-     , (1817, 5, 83887064, 83886241)
-     , (1817, 7, 83889344, 83887054)
-     , (1817, 8, 83887068, 83887054)
-     , (1817, 9, 83887070, 83890009)
-     , (1817, 9, 83887062, 83890010)
-     , (1817, 16, 83886232, 83890685)
-     , (1817, 16, 83886668, 83890281)
-     , (1817, 16, 83886837, 83890293)
-     , (1817, 16, 83886684, 83890343)
-     , (1817, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1817, 0, 16781875)
-     , (1817, 1, 16778430)
-     , (1817, 2, 16778436)
-     , (1817, 3, 16781841)
-     , (1817, 4, 16781838)
-     , (1817, 5, 16778438)
-     , (1817, 6, 16778437)
-     , (1817, 7, 16781840)
-     , (1817, 8, 16781839)
-     , (1817, 9, 16778425)
-     , (1817, 10, 16778431)
-     , (1817, 11, 16778429)
-     , (1817, 12, 16778423)
-     , (1817, 13, 16778434)
-     , (1817, 14, 16778424)
-     , (1817, 15, 16778435)
-     , (1817, 16, 16778594);

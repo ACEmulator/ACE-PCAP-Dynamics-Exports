@@ -12,8 +12,7 @@ VALUES (37243,   1,        128) /* ItemType - Misc */
      , (37243,  15,          0) /* StackUnitValue */
      , (37243,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37243,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37243,  94,        128) /* TargetType - Misc */
-     , (37243, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37243,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37243,   1, 'Ten of Hands') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37243,   1,   33560548) /* Setup */
      , (37243,   3,  536870932) /* SoundTable */
      , (37243,   8,  100689856) /* Icon */
-     , (37243,  22,  872415275) /* PhysicsEffectTable */
-     , (37243, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (37243, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37243, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37243, 8000, 2174238288) /* PCAPRecordedObjectIID */;
+     , (37243,  22,  872415275) /* PhysicsEffectTable */;

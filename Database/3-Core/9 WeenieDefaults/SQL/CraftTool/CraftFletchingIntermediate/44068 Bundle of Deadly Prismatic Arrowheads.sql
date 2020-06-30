@@ -12,8 +12,7 @@ VALUES (44068,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44068,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44068,  19,       1000) /* Value */
      , (44068,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44068,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (44068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44068,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44068,   1, 'Bundle of Deadly Prismatic Arrowheads') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44068,   1,   33555958) /* Setup */
      , (44068,   3,  536870932) /* SoundTable */
      , (44068,   8,  100691905) /* Icon */
-     , (44068,  22,  872415275) /* PhysicsEffectTable */
-     , (44068, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (44068, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44068, 8000, 2622831863) /* PCAPRecordedObjectIID */;
+     , (44068,  22,  872415275) /* PhysicsEffectTable */;

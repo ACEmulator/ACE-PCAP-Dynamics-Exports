@@ -19,8 +19,7 @@ VALUES (37516,   1,        128) /* ItemType - Misc */
      , (37516,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37516, 114,          1) /* Attuned - Attuned */
      , (37516, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (37516, 280,          5) /* SharedCooldown */
-     , (37516, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37516, 280,          5) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37516, 167,      30) /* CooldownDuration */;
@@ -35,21 +34,4 @@ VALUES (37516,   1,   33554603) /* Setup */
      , (37516,   3,  536870932) /* SoundTable */
      , (37516,   6,   67111919) /* PaletteBase */
      , (37516,   8,  100676324) /* Icon */
-     , (37516,  22,  872415275) /* PhysicsEffectTable */
-     , (37516, 8001,  270561432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (37516, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (37516, 8003,   67141648) /* PCAPRecordedObjectDesc - Attackable, Food, IncludesSecondHeader */
-     , (37516, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37516, 8000, 2400588300) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37516, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37516, 0, 83889126, 83889126)
-     , (37516, 0, 83888789, 83888789);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37516, 0, 16778735);
+     , (37516,  22,  872415275) /* PhysicsEffectTable */;

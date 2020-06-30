@@ -9,8 +9,7 @@ VALUES (274,   1,        128) /* ItemType - Misc */
      , (274,  16,          1) /* ItemUseable - No */
      , (274,  19,       3226) /* Value */
      , (274,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (274, 151,          1) /* HookType - Floor */
-     , (274, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (274, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (274,  22, True ) /* Inscribable */;
@@ -21,10 +20,4 @@ VALUES (274,   1, 'Couch') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (274,   1,   33554722) /* Setup */
-     , (274,   8,  100671771) /* Icon */
-     , (274, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (274, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (274, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (274, 8000, 3658163591) /* PCAPRecordedObjectIID */;
+     , (274,   8,  100671771) /* Icon */;

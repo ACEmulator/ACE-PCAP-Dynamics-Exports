@@ -33,8 +33,7 @@ VALUES (51887,   1,         16) /* ItemType - Creature */
      , (51887, 386,          0) /* Overpower */
      , (51887, 387,          0) /* OverpowerResist */
      , (51887, 388,          0) /* GearOverpower */
-     , (51887, 389,          0) /* GearOverpowerResist */
-     , (51887, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (51887, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51887,   1, True ) /* Stuck */
@@ -44,22 +43,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51887,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51887,   1, 'Corrupted Crystal of Torments') /* Name */
-     , (51887, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (51887,   1, 'Corrupted Crystal of Torments') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51887,   1,   33559841) /* Setup */
      , (51887,   2,  150995147) /* MotionTable */
      , (51887,   3,  536871001) /* SoundTable */
      , (51887,   8,  100673955) /* Icon */
-     , (51887,  22,  872415347) /* PhysicsEffectTable */
-     , (51887, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (51887, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (51887, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (51887,  22,  872415347) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51887, 8040, 1484326078, 70.8813, -138.665, -5.95, 0.9857892, 0, 0, -0.167987) /* PCAPRecordedLocation */
 /* @teleloc 0x587904BE [70.881300 -138.665000 -5.950000] 0.985789 0.000000 0.000000 -0.167987 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51887, 8000, 3632861913) /* PCAPRecordedObjectIID */;

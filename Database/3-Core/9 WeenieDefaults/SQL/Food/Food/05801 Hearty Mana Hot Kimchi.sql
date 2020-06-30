@@ -13,8 +13,7 @@ VALUES (5801,   1,         32) /* ItemType - Food */
      , (5801,  16,          8) /* ItemUseable - Contained */
      , (5801,  18,          8) /* UiEffects - BoostMana */
      , (5801,  19,        120) /* Value */
-     , (5801,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5801, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5801,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5801,   1, 'Hearty Mana Hot Kimchi') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5801,   1,   33554669) /* Setup */
      , (5801,   3,  536870932) /* SoundTable */
      , (5801,   8,  100670313) /* Icon */
-     , (5801,  22,  872415275) /* PhysicsEffectTable */
-     , (5801, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (5801, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5801, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5801, 8000, 3704672510) /* PCAPRecordedObjectIID */;
+     , (5801,  22,  872415275) /* PhysicsEffectTable */;

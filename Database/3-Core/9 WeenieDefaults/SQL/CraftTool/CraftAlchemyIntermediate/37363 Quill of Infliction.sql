@@ -13,8 +13,7 @@ VALUES (37363,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (37363,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37363,  19,      30000) /* Value */
      , (37363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37363,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (37363, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37363,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37363,   1, 'Quill of Infliction') /* Name */
@@ -22,13 +21,7 @@ VALUES (37363,   1, 'Quill of Infliction') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37363,   1,   33559616) /* Setup */
-     , (37363,   8,  100690196) /* Icon */
-     , (37363, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (37363, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37363, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37363, 8000, 3707426756) /* PCAPRecordedObjectIID */;
+     , (37363,   8,  100690196) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37363, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

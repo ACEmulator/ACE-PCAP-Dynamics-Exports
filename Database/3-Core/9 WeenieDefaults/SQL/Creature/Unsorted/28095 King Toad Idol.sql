@@ -33,8 +33,7 @@ VALUES (28095,   1,         16) /* ItemType - Creature */
      , (28095, 386,          0) /* Overpower */
      , (28095, 387,          0) /* OverpowerResist */
      , (28095, 388,          0) /* GearOverpower */
-     , (28095, 389,          0) /* GearOverpowerResist */
-     , (28095, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28095, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28095,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (28095,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28095,   1, 'King Toad Idol') /* Name */
-     , (28095,  16, 'A foul smelling creation of muck and shoddy craftsmanship. Flies and other insects make their home within the porous structure of the monstrous statue.') /* LongDesc */
-     , (28095, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (28095,  16, 'A foul smelling creation of muck and shoddy craftsmanship. Flies and other insects make their home within the porous structure of the monstrous statue.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28095,   1,   33558826) /* Setup */
      , (28095,   2,  150995306) /* MotionTable */
      , (28095,   3,  536871052) /* SoundTable */
      , (28095,   8,  100676736) /* Icon */
-     , (28095,  22,  872415274) /* PhysicsEffectTable */
-     , (28095, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (28095, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (28095, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (28095,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28095, 8040, 1062076450, 112.751, 43.991, -0.4499998, 0.09435506, 0, 0, 0.9955386) /* PCAPRecordedLocation */
 /* @teleloc 0x3F4E0022 [112.751000 43.991000 -0.450000] 0.094355 0.000000 0.000000 0.995539 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28095, 8000, 3710264417) /* PCAPRecordedObjectIID */;

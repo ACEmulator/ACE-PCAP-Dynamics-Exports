@@ -17,8 +17,7 @@ VALUES (4685,   1,         16) /* ItemType - Creature */
      , (4685, 113,          1) /* Gender - Male */
      , (4685, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4685, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4685, 188,          2) /* HeritageGroup - Gharundim */
-     , (4685, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4685, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4685,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4685,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4685,   1, 'Shopkeep Qufar ibn Ijtalwa') /* Name */
-     , (4685,   5, 'Shopkeeper') /* Template */
-     , (4685, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4685,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4685,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4685,   1,   33554433) /* Setup */
      , (4685,  11,   83890621) /* MouthTexture */
      , (4685,  15,   67117026) /* HairPalette */
      , (4685,  16,   67109567) /* EyesPalette */
-     , (4685,  17,   67109550) /* SkinPalette */
-     , (4685, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4685, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4685, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4685,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4685, 8040, 2438463750, 20.9909, 103.56, 0.004999995, -0.6628119, 0, 0, -0.748786) /* PCAPRecordedLocation */
 /* @teleloc 0x91580106 [20.990900 103.560000 0.005000] -0.662812 0.000000 0.000000 -0.748786 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4685, 8000, 2031452163) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4685,   1,  95, 0, 0) /* Strength */
@@ -115,58 +107,3 @@ VALUES (4685, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (4685, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4685, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4685, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4685, 67109550, 0, 24)
-     , (4685, 67109567, 32, 8)
-     , (4685, 67110026, 72, 8)
-     , (4685, 67110320, 64, 8)
-     , (4685, 67110320, 216, 24)
-     , (4685, 67110349, 40, 24)
-     , (4685, 67110375, 240, 10)
-     , (4685, 67110551, 92, 4)
-     , (4685, 67111245, 160, 8)
-     , (4685, 67117026, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4685, 0, 83889072, 83890012)
-     , (4685, 0, 83889342, 83890011)
-     , (4685, 1, 83887064, 83886241)
-     , (4685, 2, 83887066, 83887055)
-     , (4685, 3, 83889344, 83887054)
-     , (4685, 4, 83887068, 83887054)
-     , (4685, 5, 83887064, 83886241)
-     , (4685, 6, 83887066, 83887055)
-     , (4685, 7, 83889344, 83887054)
-     , (4685, 8, 83887068, 83887054)
-     , (4685, 9, 83887061, 83890009)
-     , (4685, 9, 83887060, 83890010)
-     , (4685, 10, 83887069, 83886782)
-     , (4685, 11, 83886788, 83891213)
-     , (4685, 13, 83887069, 83886782)
-     , (4685, 14, 83886788, 83891213)
-     , (4685, 16, 83886232, 83890359)
-     , (4685, 16, 83886668, 83890491)
-     , (4685, 16, 83886837, 83890540)
-     , (4685, 16, 83886684, 83890621)
-     , (4685, 16, 83888783, 83888783)
-     , (4685, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4685, 0, 16781835)
-     , (4685, 1, 16777295)
-     , (4685, 2, 16777293)
-     , (4685, 3, 16777292)
-     , (4685, 4, 16781855)
-     , (4685, 5, 16777299)
-     , (4685, 6, 16777297)
-     , (4685, 7, 16777296)
-     , (4685, 8, 16781859)
-     , (4685, 9, 16777300)
-     , (4685, 10, 16777301)
-     , (4685, 11, 16781822)
-     , (4685, 12, 16777304)
-     , (4685, 13, 16777303)
-     , (4685, 14, 16781821)
-     , (4685, 15, 16777307)
-     , (4685, 16, 16778476);

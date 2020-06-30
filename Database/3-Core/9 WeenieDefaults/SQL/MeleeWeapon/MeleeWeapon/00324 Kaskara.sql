@@ -23,9 +23,7 @@ VALUES (324,   1,          1) /* ItemType - MeleeWeapon */
      , (324, 159,         45) /* WieldSkillType - LightWeapons */
      , (324, 160,        325) /* WieldDifficulty */
      , (324, 172,          1) /* AppraisalLongDescDecoration */
-     , (324, 353,          2) /* WeaponType - Sword */
-     , (324, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (324, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (324, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (324,  22, True ) /* Inscribable */;
@@ -36,8 +34,7 @@ VALUES (324,  21,       0) /* WeaponLength */
      , (324,  26,       0) /* MaximumVelocity */
      , (324,  29,    1.08) /* WeaponDefense */
      , (324,  62,    1.09) /* WeaponOffense */
-     , (324,  63,       1) /* DamageMod */
-     , (324, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (324,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (324,   1, 'Kaskara') /* Name */
@@ -48,21 +45,4 @@ VALUES (324,   1,   33554533) /* Setup */
      , (324,   3,  536870932) /* SoundTable */
      , (324,   6,   67111919) /* PaletteBase */
      , (324,   8,  100669025) /* Icon */
-     , (324,  22,  872415275) /* PhysicsEffectTable */
-     , (324, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (324, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (324, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (324, 8000, 3698565335) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (324, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (324, 0, 83889235, 83889235)
-     , (324, 0, 83889236, 83889236)
-     , (324, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (324, 0, 16777961);
+     , (324,  22,  872415275) /* PhysicsEffectTable */;

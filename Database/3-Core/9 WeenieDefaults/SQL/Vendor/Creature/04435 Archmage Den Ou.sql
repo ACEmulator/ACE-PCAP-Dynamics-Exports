@@ -17,8 +17,7 @@ VALUES (4435,   1,         16) /* ItemType - Creature */
      , (4435, 113,          2) /* Gender - Female */
      , (4435, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4435, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4435, 188,          3) /* HeritageGroup - Sho */
-     , (4435, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4435, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4435,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4435,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4435,   1, 'Archmage Den Ou') /* Name */
-     , (4435,   5, 'Archmage') /* Template */
-     , (4435, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4435,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4435,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4435,   1,   33554510) /* Setup */
      , (4435,  11,   83890321) /* MouthTexture */
      , (4435,  15,   67117077) /* HairPalette */
      , (4435,  16,   67109565) /* EyesPalette */
-     , (4435,  17,   67110054) /* SkinPalette */
-     , (4435, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4435, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4435, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4435,  17,   67110054) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4435, 8040, 3212836875, 39.85, 56.1098, 47.005, -0.9998851, 0, 0, -0.01515775) /* PCAPRecordedLocation */
 /* @teleloc 0xBF80000B [39.850000 56.109800 47.005000] -0.999885 0.000000 0.000000 -0.015158 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4435, 8000, 2079850532) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4435,   1,  60, 0, 0) /* Strength */
@@ -174,55 +166,3 @@ VALUES (4435, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (4435, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (4435, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
      , (4435, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4435, 67109565, 32, 8)
-     , (4435, 67109966, 92, 4)
-     , (4435, 67110054, 0, 24)
-     , (4435, 67110354, 216, 24)
-     , (4435, 67110372, 64, 8)
-     , (4435, 67110372, 40, 24)
-     , (4435, 67110372, 160, 8)
-     , (4435, 67110540, 72, 8)
-     , (4435, 67117077, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4435, 0, 83889072, 83890012)
-     , (4435, 0, 83889342, 83890011)
-     , (4435, 1, 83887064, 83886241)
-     , (4435, 2, 83887066, 83887051)
-     , (4435, 3, 83889344, 83887054)
-     , (4435, 4, 83887068, 83887054)
-     , (4435, 5, 83887064, 83886241)
-     , (4435, 6, 83887066, 83887051)
-     , (4435, 7, 83889344, 83887054)
-     , (4435, 8, 83887068, 83887054)
-     , (4435, 9, 83887070, 83890009)
-     , (4435, 9, 83887062, 83890010)
-     , (4435, 10, 83887069, 83886782)
-     , (4435, 11, 83887067, 83891213)
-     , (4435, 13, 83887069, 83886782)
-     , (4435, 14, 83887067, 83891213)
-     , (4435, 16, 83886232, 83890685)
-     , (4435, 16, 83886668, 83890263)
-     , (4435, 16, 83886837, 83890308)
-     , (4435, 16, 83886684, 83890321);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4435, 0, 16781875)
-     , (4435, 1, 16778430)
-     , (4435, 2, 16778436)
-     , (4435, 3, 16778361)
-     , (4435, 4, 16778426)
-     , (4435, 5, 16778438)
-     , (4435, 6, 16778437)
-     , (4435, 7, 16778360)
-     , (4435, 8, 16778428)
-     , (4435, 9, 16778425)
-     , (4435, 10, 16778431)
-     , (4435, 11, 16778429)
-     , (4435, 12, 16778423)
-     , (4435, 13, 16778434)
-     , (4435, 14, 16778424)
-     , (4435, 15, 16778435)
-     , (4435, 16, 16795662);

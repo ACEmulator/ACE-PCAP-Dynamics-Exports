@@ -34,8 +34,7 @@ VALUES (36696,   1,         16) /* ItemType - Creature */
      , (36696, 386,          0) /* Overpower */
      , (36696, 387,          0) /* OverpowerResist */
      , (36696, 388,          0) /* GearOverpower */
-     , (36696, 389,          0) /* GearOverpowerResist */
-     , (36696, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36696, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36696,   1, True ) /* Stuck */
@@ -47,22 +46,15 @@ VALUES (36696,  54,       2) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36696,   1, 'Pillar of the Mind') /* Name */
      , (36696,  14, 'Red Stone = 3, Yellow Stone = 2, White Stone = 1') /* Use */
-     , (36696,  16, 'To prove your clarity of mind you must use the stones provided to make each bag contain one color and you must use the remaining stones to balance the scales correctly.') /* LongDesc */
-     , (36696, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (36696,  16, 'To prove your clarity of mind you must use the stones provided to make each bag contain one color and you must use the remaining stones to balance the scales correctly.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36696,   1,   33560411) /* Setup */
      , (36696,   2,  150995147) /* MotionTable */
      , (36696,   3,  536871052) /* SoundTable */
      , (36696,   8,  100689716) /* Icon */
-     , (36696,  22,  872415274) /* PhysicsEffectTable */
-     , (36696, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (36696, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (36696, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (36696,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36696, 8040, 10420577, 90, -230, -42, -0.004204, 0, 0, 0.999991) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0161 [90.000000 -230.000000 -42.000000] -0.004204 0.000000 0.000000 0.999991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36696, 8000, 3709598337) /* PCAPRecordedObjectIID */;

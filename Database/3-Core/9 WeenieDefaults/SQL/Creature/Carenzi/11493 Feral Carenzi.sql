@@ -11,8 +11,7 @@ VALUES (11493,   1,         16) /* ItemType - Creature */
      , (11493,  16,          1) /* ItemUseable - No */
      , (11493,  25,        100) /* Level */
      , (11493,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11493, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11493, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11493, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11493,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11493,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11493,   1, 'Feral Carenzi') /* Name */
-     , (11493, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11493,   1, 'Feral Carenzi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11493,   1,   33557141) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11493,   1,   33557141) /* Setup */
      , (11493,   3,  536871035) /* SoundTable */
      , (11493,   6,   67113270) /* PaletteBase */
      , (11493,   8,  100671754) /* Icon */
-     , (11493,  22,  872415377) /* PhysicsEffectTable */
-     , (11493, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11493, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11493, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11493,  22,  872415377) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11493, 8040, 364380163, 0.3708797, 57.9167, 25.96909, -0.6854899, 0, 0, -0.7280821) /* PCAPRecordedLocation */
 /* @teleloc 0x15B80003 [0.370880 57.916700 25.969090] -0.685490 0.000000 0.000000 -0.728082 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11493, 8000, 3706881308) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11493,   1, 160, 0, 0) /* Strength */
@@ -74,6 +66,3 @@ VALUES (11493, 9, 20514,  0, 0, 0, False) /* Create Scroll of Adja's Boon (20514
      , (11493, 9,  2422,  1, 0, 0, False) /* Create Gem (2422) for ContainTreasure */
      , (11493, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (11493, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11493, 67113302, 0, 0);

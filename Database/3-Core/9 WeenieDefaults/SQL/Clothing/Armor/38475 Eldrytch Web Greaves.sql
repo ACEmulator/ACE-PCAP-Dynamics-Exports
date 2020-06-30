@@ -26,8 +26,7 @@ VALUES (38475,   1,          2) /* ItemType - Armor */
      , (38475, 160,        101) /* WieldDifficulty */
      , (38475, 172,          1) /* AppraisalLongDescDecoration */
      , (38475, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38475, 375,          1) /* GearCritDamageResist */
-     , (38475, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38475, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38475,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (38475,   5,  -0.067) /* ManaRate */
      , (38475,  18,     0.6) /* ArmorModVsAcid */
      , (38475,  19,   1.093) /* ArmorModVsElectric */
      , (38475,  39,    1.33) /* DefaultScale */
-     , (38475, 165,       1) /* ArmorModVsNether */
-     , (38475, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (38475, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38475,   1, 'Eldrytch Web Greaves') /* Name */
@@ -54,22 +52,10 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38475,   1,   33554641) /* Setup */
      , (38475,   3,  536870932) /* SoundTable */
      , (38475,   8,  100690247) /* Icon */
-     , (38475,  22,  872415275) /* PhysicsEffectTable */
-     , (38475, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (38475, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (38475, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38475, 8000, 3428515426) /* PCAPRecordedObjectIID */;
+     , (38475,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38475,  2113,      2) 
      , (38475,  4407,      2) 
      , (38475,  4662,      2) 
      , (38475,  6123,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38475, 0, 83886788, 83897946);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38475, 0, 16778411);

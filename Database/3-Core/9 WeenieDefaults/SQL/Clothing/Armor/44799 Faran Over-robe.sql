@@ -23,8 +23,7 @@ VALUES (44799,   1,          2) /* ItemType - Armor */
      , (44799, 131,         54) /* MaterialType - GromnieHide */
      , (44799, 172,          5) /* AppraisalLongDescDecoration */
      , (44799, 177,          4) /* GemCount */
-     , (44799, 178,         18) /* GemType */
-     , (44799, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44799, 178,         18) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44799,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (44799,   5,  -0.042) /* ManaRate */
      , (44799,  17,     0.5) /* ArmorModVsFire */
      , (44799,  18,     0.3) /* ArmorModVsAcid */
      , (44799,  19,     0.8) /* ArmorModVsElectric */
-     , (44799, 165,       1) /* ArmorModVsNether */
-     , (44799, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (44799, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44799,   1, 'Faran Over-robe') /* Name */
@@ -51,28 +49,8 @@ VALUES (44799,   1,   33554854) /* Setup */
      , (44799,   3,  536870932) /* SoundTable */
      , (44799,   6,   67108990) /* PaletteBase */
      , (44799,   8,  100670350) /* Icon */
-     , (44799,  22,  872415275) /* PhysicsEffectTable */
-     , (44799, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (44799, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44799, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44799, 8000, 2186220618) /* PCAPRecordedObjectIID */;
+     , (44799,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44799,  1485,      2) 
      , (44799,  1539,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44799, 67110349, 216, 24)
-     , (44799, 67110379, 186, 12)
-     , (44799, 67110551, 174, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44799, 0, 83887061, 83898632)
-     , (44799, 0, 83887060, 83898633)
-     , (44799, 0, 83889072, 83898634)
-     , (44799, 0, 83889342, 83898635);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44799, 0, 16778367);

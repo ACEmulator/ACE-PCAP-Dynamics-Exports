@@ -11,8 +11,7 @@ VALUES (25885,   1,         16) /* ItemType - Creature */
      , (25885,  16,          1) /* ItemUseable - No */
      , (25885,  25,        135) /* Level */
      , (25885,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25885, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25885, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25885, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25885,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25885,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25885,   1, 'Dark Zefir') /* Name */
-     , (25885, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25885,   1, 'Dark Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25885,   1,   33555610) /* Setup */
@@ -30,17 +28,11 @@ VALUES (25885,   1,   33555610) /* Setup */
      , (25885,   3,  536870975) /* SoundTable */
      , (25885,   6,   67109305) /* PaletteBase */
      , (25885,   8,  100669123) /* Icon */
-     , (25885,  22,  872415279) /* PhysicsEffectTable */
-     , (25885, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25885, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (25885,  22,  872415279) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25885, 8040, 151388214, 163.4079, 142.0189, 14.50428, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x09060036 [163.407900 142.018900 14.504280] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25885, 8000, 3688476526) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25885,   1, 350, 0, 0) /* Strength */
@@ -117,6 +109,3 @@ VALUES (25885, 9, 40709,  0, 0, 0, False) /* Create Covenant Girth (40709) for C
      , (25885, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
      , (25885, 9,   334,  0, 0, 0, False) /* Create Nayin (334) for ContainTreasure */
      , (25885, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25885, 67114714, 0, 0);

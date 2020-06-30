@@ -14,8 +14,7 @@ VALUES (53071,   1,       2048) /* ItemType - Gem */
      , (53071,  18,        256) /* UiEffects - Acid */
      , (53071,  19,         25) /* Value */
      , (53071,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53071,  94,          6) /* TargetType - Vestements */
-     , (53071, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53071,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53071,   1, 'Empowered Amber: Helm of Life') /* Name */
@@ -26,19 +25,4 @@ VALUES (53071,   1,   33554809) /* Setup */
      , (53071,   3,  536870932) /* SoundTable */
      , (53071,   6,   67111919) /* PaletteBase */
      , (53071,   8,  100693327) /* Icon */
-     , (53071,  22,  872415275) /* PhysicsEffectTable */
-     , (53071, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (53071, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (53071, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53071, 8000, 3036716429) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53071, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (53071, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (53071, 0, 16779181);
+     , (53071,  22,  872415275) /* PhysicsEffectTable */;

@@ -21,8 +21,7 @@ VALUES (31820,   1,      32768) /* ItemType - Caster */
      , (31820, 160,        310) /* WieldDifficulty */
      , (31820, 172,          5) /* AppraisalLongDescDecoration */
      , (31820, 177,          1) /* GemCount */
-     , (31820, 178,         22) /* GemType */
-     , (31820, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31820, 178,         22) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31820,  22, True ) /* Inscribable */;
@@ -31,8 +30,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31820,  29,    1.11) /* WeaponDefense */
      , (31820,  39,     1.5) /* DefaultScale */
      , (31820, 144,    0.09) /* ManaConversionMod */
-     , (31820, 152,    1.04) /* ElementalDamageMod */
-     , (31820, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (31820, 152,    1.04) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31820,   1, 'Acid Baton') /* Name */
@@ -44,21 +42,4 @@ VALUES (31820,   1,   33559641) /* Setup */
      , (31820,   6,   67116700) /* PaletteBase */
      , (31820,   8,  100688009) /* Icon */
      , (31820,  22,  872415275) /* PhysicsEffectTable */
-     , (31820,  28,       4433) /* Spell - AcidStream8 */
-     , (31820, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (31820, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31820, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31820, 8000, 2159969727) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31820, 67116700, 1, 100)
-     , (31820, 67116703, 201, 55)
-     , (31820, 67116707, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31820, 0, 83897333, 83897333);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31820, 0, 16792610);
+     , (31820,  28,       4433) /* Spell - AcidStream8 */;

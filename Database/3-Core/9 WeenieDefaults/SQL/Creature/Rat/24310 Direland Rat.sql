@@ -11,8 +11,7 @@ VALUES (24310,   1,         16) /* ItemType - Creature */
      , (24310,  16,          1) /* ItemUseable - No */
      , (24310,  25,        100) /* Level */
      , (24310,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24310, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24310, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24310, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24310,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (24310,  39,       3) /* DefaultScale */
      , (24310,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24310,   1, 'Direland Rat') /* Name */
-     , (24310, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24310,   1, 'Direland Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24310,   1,   33554493) /* Setup */
@@ -32,17 +30,11 @@ VALUES (24310,   1,   33554493) /* Setup */
      , (24310,   6,   67109300) /* PaletteBase */
      , (24310,   8,  100667451) /* Icon */
      , (24310,  22,  872415267) /* PhysicsEffectTable */
-     , (24310,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24310, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24310, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24310, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (24310,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24310, 8040, 612499712, 38.2331, 21.893, 214.812, 0.216051, 0, 0, 0.9763821) /* PCAPRecordedLocation */
 /* @teleloc 0x24820100 [38.233100 21.893000 214.812000] 0.216051 0.000000 0.000000 0.976382 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24310, 8000, 3692286370) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24310,   1, 260, 0, 0) /* Strength */
@@ -149,16 +141,3 @@ VALUES (24310, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for Con
      , (24310, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (24310, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
      , (24310, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24310, 67114297, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24310, 0, 83886184, 83892595)
-     , (24310, 0, 83886181, 83892594)
-     , (24310, 1, 83886184, 83892595)
-     , (24310, 1, 83886181, 83892594);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24310, 0, 16778207)
-     , (24310, 1, 16778211);

@@ -21,16 +21,14 @@ VALUES (624,   1,          8) /* ItemType - Jewelry */
      , (624, 131,         59) /* MaterialType - Copper */
      , (624, 172,          5) /* AppraisalLongDescDecoration */
      , (624, 177,          1) /* GemCount */
-     , (624, 178,         34) /* GemType */
-     , (624, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (624, 178,         34) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (624,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (624,   5,  -0.056) /* ManaRate */
-     , (624,  39,     0.5) /* DefaultScale */
-     , (624, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (624,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (624,   1, 'Ring') /* Name */
@@ -41,13 +39,7 @@ VALUES (624,   1,   33554690) /* Setup */
      , (624,   3,  536870932) /* SoundTable */
      , (624,   6,   67111919) /* PaletteBase */
      , (624,   8,  100668571) /* Icon */
-     , (624,  22,  872415275) /* PhysicsEffectTable */
-     , (624, 8001, 2166440088) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, Workmanship, MaterialType */
-     , (624, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (624, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (624, 8000, 3685790907) /* PCAPRecordedObjectIID */;
+     , (624,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (624,  1312,      2) ;
@@ -58,13 +50,3 @@ VALUES (624, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield 
      , (624, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (624, 2, 20153,  1, 0, 0, False) /* Create Perfect Chilling Isparian Wand (20153) for Wield */
      , (624, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (624, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (624, 0, 83889679, 83889679)
-     , (624, 0, 83889680, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (624, 0, 16778345);

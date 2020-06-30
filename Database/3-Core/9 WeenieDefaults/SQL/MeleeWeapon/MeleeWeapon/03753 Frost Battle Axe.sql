@@ -33,9 +33,7 @@ VALUES (3753,   1,          1) /* ItemType - MeleeWeapon */
      , (3753, 176,         44) /* AppraisalItemSkill */
      , (3753, 177,          2) /* GemCount */
      , (3753, 178,         23) /* GemType */
-     , (3753, 353,          3) /* WeaponType - Axe */
-     , (3753, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3753, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3753, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3753,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3753,   5,   -0.05) /* ManaRate */
      , (3753,  29,    1.07) /* WeaponDefense */
      , (3753,  62,    1.11) /* WeaponOffense */
      , (3753,  63,       1) /* DamageMod */
-     , (3753,  77,       1) /* PhysicsScriptIntensity */
-     , (3753, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3753,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3753,   1, 'Frost Battle Axe') /* Name */
@@ -60,13 +57,7 @@ VALUES (3753,   1,   33555692) /* Setup */
      , (3753,   3,  536870932) /* SoundTable */
      , (3753,   8,  100668994) /* Icon */
      , (3753,  22,  872415275) /* PhysicsEffectTable */
-     , (3753,  30,         88) /* PhysicsScript - Create */
-     , (3753, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3753, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3753, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3753, 8000, 3354734214) /* PCAPRecordedObjectIID */;
+     , (3753,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3753,  1377,      2) 

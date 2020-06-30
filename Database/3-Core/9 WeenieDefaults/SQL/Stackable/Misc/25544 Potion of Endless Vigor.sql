@@ -17,8 +17,7 @@ VALUES (25544,   1,        128) /* ItemType - Misc */
      , (25544, 107,        100) /* ItemCurMana */
      , (25544, 108,        100) /* ItemMaxMana */
      , (25544, 109,          0) /* ItemDifficulty */
-     , (25544, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (25544, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25544, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25544,   1, 'Potion of Endless Vigor') /* Name */
@@ -32,23 +31,7 @@ VALUES (25544,   1,   33554603) /* Setup */
      , (25544,   6,   67111919) /* PaletteBase */
      , (25544,   8,  100675051) /* Icon */
      , (25544,  22,  872415275) /* PhysicsEffectTable */
-     , (25544,  28,       2980) /* Spell - EndlessVigor */
-     , (25544, 8001,  274755609) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
-     , (25544, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (25544, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25544, 8000, 2157272705) /* PCAPRecordedObjectIID */;
+     , (25544,  28,       2980) /* Spell - EndlessVigor */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25544,  2980,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25544, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (25544, 0, 83889126, 83889126)
-     , (25544, 0, 83888789, 83888789);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25544, 0, 16778735);

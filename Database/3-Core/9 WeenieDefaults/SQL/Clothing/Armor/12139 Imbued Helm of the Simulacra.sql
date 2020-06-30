@@ -22,8 +22,7 @@ VALUES (12139,   1,          2) /* ItemType - Armor */
      , (12139, 151,          2) /* HookType - Wall */
      , (12139, 158,          7) /* WieldRequirements - Level */
      , (12139, 159,          1) /* WieldSkillType - Axe */
-     , (12139, 160,         85) /* WieldDifficulty */
-     , (12139, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (12139, 160,         85) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12139,  22, True ) /* Inscribable */
@@ -52,13 +51,7 @@ VALUES (12139,   1,   33556883) /* Setup */
      , (12139,   3,  536870932) /* SoundTable */
      , (12139,   6,   67108990) /* PaletteBase */
      , (12139,   8,  100672133) /* Icon */
-     , (12139,  22,  872415275) /* PhysicsEffectTable */
-     , (12139, 8001,  270876824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, HookType */
-     , (12139, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (12139, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12139, 8000, 2779733262) /* PCAPRecordedObjectIID */;
+     , (12139,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12139,  2108,      2) 
@@ -68,14 +61,3 @@ VALUES (12139,  2108,      2)
      , (12139,  2281,      2) 
      , (12139,  2510,      2) 
      , (12139,  2592,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12139, 67113392, 240, 10)
-     , (12139, 67113392, 250, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12139, 0, 83892881, 83893325)
-     , (12139, 0, 83892885, 83893324);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12139, 0, 16785361);

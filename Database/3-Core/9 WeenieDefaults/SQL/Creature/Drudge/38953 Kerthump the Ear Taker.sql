@@ -12,8 +12,7 @@ VALUES (38953,   1,         16) /* ItemType - Creature */
      , (38953,  25,        200) /* Level */
      , (38953,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (38953, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38953, 307,          5) /* DamageRating */
-     , (38953, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38953, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38953,   1, True ) /* Stuck */;
@@ -23,8 +22,7 @@ VALUES (38953,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38953,   1, 'Kerthump the Ear Taker') /* Name */
-     , (38953,   5, 'Monster Fighter') /* Template */
-     , (38953, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38953,   5, 'Monster Fighter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38953,   1,   33556445) /* Setup */
@@ -32,17 +30,11 @@ VALUES (38953,   1,   33556445) /* Setup */
      , (38953,   3,  536870919) /* SoundTable */
      , (38953,   6,   67112812) /* PaletteBase */
      , (38953,   8,  100667445) /* Icon */
-     , (38953,  22,  872415258) /* PhysicsEffectTable */
-     , (38953, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38953, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38953, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (38953,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38953, 8040, 869924901, 108, 101, 60.0049, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x33DA0025 [108.000000 101.000000 60.004900] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38953, 8000, 3706619715) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38953,   1, 500, 0, 0) /* Strength */
@@ -62,29 +54,3 @@ VALUES (38953, 2, 38933,  1, 0, 0, False) /* Create Lightning Dericost Blade (38
      , (38953, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */
      , (38953, 2, 38935,  1, 0, 0, False) /* Create Lugian Hammer (38935) for Wield */
      , (38953, 2, 38930,  1, 0, 0, False) /* Create Lugian Axe (38930) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38953, 67112813, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38953, 1, 83892459, 83892460)
-     , (38953, 1, 83892457, 83892458)
-     , (38953, 2, 83892455, 83892456)
-     , (38953, 3, 83892453, 83892454)
-     , (38953, 5, 83892455, 83892456)
-     , (38953, 6, 83892453, 83892454)
-     , (38953, 9, 83892467, 83892468)
-     , (38953, 12, 83892467, 83892468)
-     , (38953, 14, 83892463, 83892464)
-     , (38953, 14, 83892465, 83892465)
-     , (38953, 14, 83892466, 83892466);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38953, 1, 16784273)
-     , (38953, 2, 16784265)
-     , (38953, 3, 16784258)
-     , (38953, 5, 16784269)
-     , (38953, 6, 16784261)
-     , (38953, 9, 16784289)
-     , (38953, 12, 16784289)
-     , (38953, 14, 16784286);

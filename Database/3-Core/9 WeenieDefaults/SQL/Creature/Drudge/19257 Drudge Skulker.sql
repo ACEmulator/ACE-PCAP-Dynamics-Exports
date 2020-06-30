@@ -11,8 +11,7 @@ VALUES (19257,   1,         16) /* ItemType - Creature */
      , (19257,  16,          1) /* ItemUseable - No */
      , (19257,  25,          8) /* Level */
      , (19257,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19257, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19257, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19257, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19257,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19257,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19257,   1, 'Drudge Skulker') /* Name */
-     , (19257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19257,   1, 'Drudge Skulker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19257,   1,   33556445) /* Setup */
@@ -30,17 +28,11 @@ VALUES (19257,   1,   33556445) /* Setup */
      , (19257,   3,  536870919) /* SoundTable */
      , (19257,   6,   67112812) /* PaletteBase */
      , (19257,   8,  100667445) /* Icon */
-     , (19257,  22,  872415258) /* PhysicsEffectTable */
-     , (19257, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19257, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19257, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (19257,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19257, 8040, 3679715345, 64.78326, 18.89154, 20.00332, 0.1589813, 0, 0, -0.9872816) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540011 [64.783260 18.891540 20.003320] 0.158981 0.000000 0.000000 -0.987282 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19257, 8000, 3685109178) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19257,   1,  70, 0, 0) /* Strength */
@@ -66,6 +58,3 @@ VALUES (19257, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
      , (19257, 2, 47305,  1, 0, 0, False) /* Create Frost Board with Nail (47305) for Wield */
      , (19257, 2, 47286,  1, 0, 0, False) /* Create Fire Board with Nail (47286) for Wield */
      , (19257, 2, 47229,  1, 0, 0, False) /* Create Acid Board with Nail (47229) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19257, 67112817, 0, 0);

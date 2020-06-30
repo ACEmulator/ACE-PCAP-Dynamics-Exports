@@ -11,8 +11,7 @@ VALUES (3970,   1,        512) /* ItemType - Container */
      , (3970,  16,         48) /* ItemUseable - ViewedRemote */
      , (3970,  19,       2500) /* Value */
      , (3970,  38,         20) /* ResistLockpick */
-     , (3970,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (3970, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (3970,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3970,   1, True ) /* Stuck */
@@ -26,25 +25,18 @@ VALUES (3970,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3970,   1, 'Chest') /* Name */
-     , (3970,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (3970, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (3970,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3970,   1,   33554556) /* Setup */
      , (3970,   2,  150994948) /* MotionTable */
      , (3970,   3,  536870945) /* SoundTable */
      , (3970,   8,  100667424) /* Icon */
-     , (3970,  22,  872415275) /* PhysicsEffectTable */
-     , (3970, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (3970, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (3970, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (3970,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3970, 8040, 2497052928, 10.5789, 111.361, 140.884, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x94D60100 [10.578900 111.361000 140.884000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3970, 8000, 2035113985) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3970, -1, 2415, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Gem (2415) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

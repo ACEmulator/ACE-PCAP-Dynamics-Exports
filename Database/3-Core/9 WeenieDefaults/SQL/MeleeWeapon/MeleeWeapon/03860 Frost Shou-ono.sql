@@ -26,9 +26,7 @@ VALUES (3860,   1,          1) /* ItemType - MeleeWeapon */
      , (3860, 172,          5) /* AppraisalLongDescDecoration */
      , (3860, 177,          1) /* GemCount */
      , (3860, 178,         50) /* GemType */
-     , (3860, 353,          3) /* WeaponType - Axe */
-     , (3860, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3860, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3860, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3860,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (3860,  21,       0) /* WeaponLength */
      , (3860,  29,    1.09) /* WeaponDefense */
      , (3860,  39,     1.2) /* DefaultScale */
      , (3860,  62,    1.11) /* WeaponOffense */
-     , (3860,  63,       1) /* DamageMod */
-     , (3860, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3860,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3860,   1, 'Frost Shou-ono') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3860,   1,   33555705) /* Setup */
      , (3860,   3,  536870932) /* SoundTable */
      , (3860,   8,  100670225) /* Icon */
-     , (3860,  22,  872415275) /* PhysicsEffectTable */
-     , (3860, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3860, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3860, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3860, 8000, 3682776968) /* PCAPRecordedObjectIID */;
+     , (3860,  22,  872415275) /* PhysicsEffectTable */;

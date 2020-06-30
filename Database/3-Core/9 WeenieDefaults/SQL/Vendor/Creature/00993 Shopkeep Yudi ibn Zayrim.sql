@@ -17,8 +17,7 @@ VALUES (993,   1,         16) /* ItemType - Creature */
      , (993, 113,          1) /* Gender - Male */
      , (993, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (993, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (993, 188,          2) /* HeritageGroup - Gharundim */
-     , (993, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (993, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (993,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (993,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (993,   1, 'Shopkeep Yudi ibn Zayrim') /* Name */
-     , (993,   5, 'Shopkeeper') /* Template */
-     , (993, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (993,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (993,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (993,   1,   33554433) /* Setup */
      , (993,  11,   83890613) /* MouthTexture */
      , (993,  15,   67117028) /* HairPalette */
      , (993,  16,   67110063) /* EyesPalette */
-     , (993,  17,   67109554) /* SkinPalette */
-     , (993, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (993, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (993, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (993,  17,   67109554) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (993, 8040, 2156921122, 67.1094, 102.857, 124.005, -0.815128, 0, 0, -0.5792809) /* PCAPRecordedLocation */
 /* @teleloc 0x80900122 [67.109400 102.857000 124.005000] -0.815128 0.000000 0.000000 -0.579281 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (993, 8000, 2013855759) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (993,   1, 100, 0, 0) /* Strength */
@@ -118,58 +110,3 @@ VALUES (993, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (993, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (993, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (993, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (993, 67109554, 0, 24)
-     , (993, 67109969, 92, 4)
-     , (993, 67110026, 72, 8)
-     , (993, 67110063, 32, 8)
-     , (993, 67110354, 64, 8)
-     , (993, 67110354, 40, 24)
-     , (993, 67110354, 160, 8)
-     , (993, 67110354, 240, 10)
-     , (993, 67110374, 216, 24)
-     , (993, 67117028, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (993, 0, 83889072, 83890012)
-     , (993, 0, 83889342, 83890011)
-     , (993, 1, 83887064, 83886241)
-     , (993, 2, 83887066, 83887055)
-     , (993, 3, 83889344, 83887054)
-     , (993, 4, 83887068, 83887054)
-     , (993, 5, 83887064, 83886241)
-     , (993, 6, 83887066, 83887055)
-     , (993, 7, 83889344, 83887054)
-     , (993, 8, 83887068, 83887054)
-     , (993, 9, 83887061, 83890009)
-     , (993, 9, 83887060, 83890010)
-     , (993, 10, 83887069, 83886782)
-     , (993, 11, 83887067, 83891213)
-     , (993, 13, 83887069, 83886782)
-     , (993, 14, 83887067, 83891213)
-     , (993, 16, 83886232, 83890359)
-     , (993, 16, 83886668, 83890466)
-     , (993, 16, 83886837, 83890559)
-     , (993, 16, 83886684, 83890613)
-     , (993, 16, 83888783, 83888783)
-     , (993, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (993, 0, 16781835)
-     , (993, 1, 16777295)
-     , (993, 2, 16777293)
-     , (993, 3, 16777292)
-     , (993, 4, 16781855)
-     , (993, 5, 16777299)
-     , (993, 6, 16777297)
-     , (993, 7, 16777296)
-     , (993, 8, 16781859)
-     , (993, 9, 16777300)
-     , (993, 10, 16777301)
-     , (993, 11, 16777302)
-     , (993, 12, 16777304)
-     , (993, 13, 16777303)
-     , (993, 14, 16777305)
-     , (993, 15, 16777307)
-     , (993, 16, 16778476);

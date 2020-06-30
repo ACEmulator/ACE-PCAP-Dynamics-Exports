@@ -34,9 +34,7 @@ VALUES (40639,   1,          1) /* ItemType - MeleeWeapon */
      , (40639, 177,          2) /* GemCount */
      , (40639, 178,         43) /* GemType */
      , (40639, 292,          2) /* Cleaving */
-     , (40639, 353,         11) /* WeaponType - TwoHanded */
-     , (40639, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40639, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40639, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40639,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (40639,   5,  -0.056) /* ManaRate */
      , (40639,  29,    1.07) /* WeaponDefense */
      , (40639,  39,    0.65) /* DefaultScale */
      , (40639,  62,     1.1) /* WeaponOffense */
-     , (40639,  63,       1) /* DamageMod */
-     , (40639, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (40639,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40639,   1, 'Frost Tetsubo') /* Name */
@@ -62,28 +59,9 @@ VALUES (40639,   1,   33560732) /* Setup */
      , (40639,   6,   67116700) /* PaletteBase */
      , (40639,   8,  100690501) /* Icon */
      , (40639,  22,  872415275) /* PhysicsEffectTable */
-     , (40639,  52,  100676435) /* IconUnderlay */
-     , (40639, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40639, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (40639, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (40639, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40639, 8000, 3697211714) /* PCAPRecordedObjectIID */;
+     , (40639,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40639,  1378,      2) 
      , (40639,  1615,      2) 
      , (40639,  5072,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40639, 67116700, 1, 100)
-     , (40639, 67116705, 101, 100)
-     , (40639, 67116710, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40639, 0, 83897334, 83897334)
-     , (40639, 0, 83897303, 83897303);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40639, 0, 16794240);

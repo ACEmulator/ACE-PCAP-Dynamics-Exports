@@ -17,8 +17,7 @@ VALUES (30071,   1,         16) /* ItemType - Creature */
      , (30071, 113,          1) /* Gender - Male */
      , (30071, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30071, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30071, 188,          4) /* HeritageGroup - Viamontian */
-     , (30071, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30071, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30071,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30071,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30071,   1, 'Archmage Pazzescorios di Frodenci') /* Name */
-     , (30071,   5, 'Archmage') /* Template */
-     , (30071, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30071,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30071,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30071,   1,   33554433) /* Setup */
      , (30071,  11,   83890640) /* MouthTexture */
      , (30071,  15,   67117073) /* HairPalette */
      , (30071,  16,   67109564) /* EyesPalette */
-     , (30071,  17,   67115901) /* SkinPalette */
-     , (30071, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30071, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30071, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30071,  17,   67115901) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30071, 8040, 669778193, 67.0084, 127.222, 80.005, -0.7135743, 0, 0, -0.7005795) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0111 [67.008400 127.222000 80.005000] -0.713574 0.000000 0.000000 -0.700580 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30071, 8000, 1920909345) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30071,   1,  45, 0, 0) /* Strength */
@@ -185,40 +177,3 @@ VALUES (30071, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (30071, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (30071, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (30071, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30071, 67109564, 32, 8)
-     , (30071, 67115901, 0, 24)
-     , (30071, 67116014, 207, 33)
-     , (30071, 67116026, 174, 33)
-     , (30071, 67117073, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30071, 0, 83897013, 83897013)
-     , (30071, 9, 83897018, 83897018)
-     , (30071, 9, 83897019, 83897019)
-     , (30071, 11, 83892346, 83897016)
-     , (30071, 14, 83892346, 83897016)
-     , (30071, 16, 83886232, 83890685)
-     , (30071, 16, 83886668, 83890479)
-     , (30071, 16, 83886837, 83890553)
-     , (30071, 16, 83886684, 83890640);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30071, 0, 16791895)
-     , (30071, 1, 16791896)
-     , (30071, 2, 16791897)
-     , (30071, 3, 16777708)
-     , (30071, 4, 16777708)
-     , (30071, 5, 16791898)
-     , (30071, 6, 16791899)
-     , (30071, 7, 16777708)
-     , (30071, 8, 16777708)
-     , (30071, 9, 16791900)
-     , (30071, 10, 16791901)
-     , (30071, 11, 16783853)
-     , (30071, 12, 16777304)
-     , (30071, 13, 16791903)
-     , (30071, 14, 16783855)
-     , (30071, 15, 16777307)
-     , (30071, 16, 16791907);

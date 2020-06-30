@@ -22,8 +22,7 @@ VALUES (49362,   1,        128) /* ItemType - Misc */
      , (49362, 369,        115) /* UseRequiresLevel */
      , (49362, 370,         16) /* GearDamage */
      , (49362, 371,          7) /* GearDamageResist */
-     , (49362, 373,          4) /* GearCritResist */
-     , (49362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (49362, 373,          4) /* GearCritResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49362,  22, True ) /* Inscribable */
@@ -44,23 +43,7 @@ VALUES (49362,   1,   33554817) /* Setup */
      , (49362,   8,  100693034) /* Icon */
      , (49362,  22,  872415275) /* PhysicsEffectTable */
      , (49362,  50,  100693029) /* IconOverlay */
-     , (49362,  52,  100693024) /* IconUnderlay */
-     , (49362, 8001, 1076382872) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden, IconOverlay */
-     , (49362, 8002,          7) /* PCAPRecordedWeenieHeader2 - IconUnderlay, Cooldown, CooldownDuration */
-     , (49362, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (49362, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49362, 8000, 3683296245) /* PCAPRecordedObjectIID */;
+     , (49362,  52,  100693024) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (49362, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49362, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49362, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49362, 0, 16777882);

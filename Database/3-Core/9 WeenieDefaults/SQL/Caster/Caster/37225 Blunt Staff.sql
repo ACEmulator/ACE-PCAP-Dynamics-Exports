@@ -25,8 +25,7 @@ VALUES (37225,   1,      32768) /* ItemType - Caster */
      , (37225, 172,          7) /* AppraisalLongDescDecoration */
      , (37225, 177,          3) /* GemCount */
      , (37225, 178,         41) /* GemType */
-     , (37225, 179,         32) /* ImbuedEffect - BludgeonRending */
-     , (37225, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (37225, 179,         32) /* ImbuedEffect - BludgeonRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37225,  22, True ) /* Inscribable */
@@ -37,8 +36,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37225,  29,    1.45) /* WeaponDefense */
      , (37225,  39,     0.6) /* DefaultScale */
      , (37225, 144,   0.144) /* ManaConversionMod */
-     , (37225, 152,    1.22) /* ElementalDamageMod */
-     , (37225, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (37225, 152,    1.22) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37225,   1, 'Blunt Staff') /* Name */
@@ -56,20 +54,8 @@ VALUES (37225,   1,   33560651) /* Setup */
      , (37225,   8,  100690004) /* Icon */
      , (37225,  22,  872415275) /* PhysicsEffectTable */
      , (37225,  50,  100689502) /* IconOverlay */
-     , (37225,  52,  100676442) /* IconUnderlay */
-     , (37225, 8001, 3509289112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (37225, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (37225, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (37225, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (37225, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (37225,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37225, 8040, 1692860446, 107.154, 86.636, 58.27, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x64E7001E [107.154000 86.636000 58.270000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37225, 8000, 2587618999) /* PCAPRecordedObjectIID */
-     , (37225, 8008, 1343319664) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37225, 67111921, 0, 0);

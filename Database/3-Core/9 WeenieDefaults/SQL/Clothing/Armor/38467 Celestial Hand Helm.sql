@@ -30,8 +30,7 @@ VALUES (38467,   1,          2) /* ItemType - Armor */
      , (38467, 176,          6) /* AppraisalItemSkill */
      , (38467, 177,          3) /* GemCount */
      , (38467, 178,         23) /* GemType */
-     , (38467, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38467, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38467, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38467,  22, True ) /* Inscribable */
@@ -47,8 +46,7 @@ VALUES (38467,   5,  -0.067) /* ManaRate */
      , (38467,  17,   2.807) /* ArmorModVsFire */
      , (38467,  18,     2.6) /* ArmorModVsAcid */
      , (38467,  19,     2.4) /* ArmorModVsElectric */
-     , (38467, 165,       1) /* ArmorModVsNether */
-     , (38467, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (38467, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38467,   1, 'Celestial Hand Helm') /* Name */
@@ -61,13 +59,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38467,   1,   33560112) /* Setup */
      , (38467,   3,  536870932) /* SoundTable */
      , (38467,   8,  100690167) /* Icon */
-     , (38467,  22,  872415275) /* PhysicsEffectTable */
-     , (38467, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (38467, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (38467, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38467, 8000, 2174457691) /* PCAPRecordedObjectIID */;
+     , (38467,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38467,  1516,      2) 
@@ -75,6 +67,3 @@ VALUES (38467,  1516,      2)
      , (38467,  2110,      2) 
      , (38467,  3965,      2) 
      , (38467,  4393,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38467, 0, 16794128);

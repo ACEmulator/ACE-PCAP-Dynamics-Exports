@@ -17,8 +17,7 @@ VALUES (669,   1,         16) /* ItemType - Creature */
      , (669, 113,          1) /* Gender - Male */
      , (669, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (669, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (669, 188,          1) /* HeritageGroup - Aluvian */
-     , (669, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (669, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (669,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (669,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (669,   1, 'Magrom the Red, Barkeeper') /* Name */
-     , (669,   5, 'Barkeeper') /* Template */
-     , (669, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (669,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (669,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (669,   1,   33554433) /* Setup */
      , (669,  11,   83890642) /* MouthTexture */
      , (669,  15,   67116988) /* HairPalette */
      , (669,  16,   67109565) /* EyesPalette */
-     , (669,  17,   67109560) /* SkinPalette */
-     , (669, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (669, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (669, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (669,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (669, 8040, 3164537142, 82.6483, 108.523, 54.005, 0.1495351, 0, 0, -0.9887564) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F0136 [82.648300 108.523000 54.005000] 0.149535 0.000000 0.000000 -0.988756 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (669, 8000, 2076831779) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (669,   1,  80, 0, 0) /* Strength */
@@ -94,53 +86,3 @@ VALUES (669, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (669, 4, 32273, -1, 0, 0, False) /* Create The Zongo Papers (32273) for Shop */
      , (669, 4, 13200, -1, 0, 0, False) /* Create Aluvian Festival Light (13200) for Shop */
      , (669, 4, 22730, -1, 0, 0, False) /* Create Holiday Pole (22730) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (669, 67109560, 0, 24)
-     , (669, 67109565, 32, 8)
-     , (669, 67109967, 92, 4)
-     , (669, 67110003, 72, 8)
-     , (669, 67110320, 216, 24)
-     , (669, 67110334, 64, 8)
-     , (669, 67110378, 160, 8)
-     , (669, 67111304, 40, 24)
-     , (669, 67116988, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (669, 0, 83889072, 83890012)
-     , (669, 0, 83889342, 83890011)
-     , (669, 1, 83887064, 83886241)
-     , (669, 2, 83887066, 83887051)
-     , (669, 3, 83889344, 83887054)
-     , (669, 4, 83887068, 83887054)
-     , (669, 5, 83887064, 83886241)
-     , (669, 6, 83887066, 83887051)
-     , (669, 7, 83889344, 83887054)
-     , (669, 8, 83887068, 83887054)
-     , (669, 9, 83887061, 83890009)
-     , (669, 9, 83887060, 83890010)
-     , (669, 10, 83887069, 83886782)
-     , (669, 13, 83887069, 83886782)
-     , (669, 16, 83886232, 83890685)
-     , (669, 16, 83886668, 83890509)
-     , (669, 16, 83886837, 83890562)
-     , (669, 16, 83886684, 83890642);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (669, 0, 16781835)
-     , (669, 1, 16777295)
-     , (669, 2, 16781866)
-     , (669, 3, 16781841)
-     , (669, 4, 16781838)
-     , (669, 5, 16777299)
-     , (669, 6, 16781864)
-     , (669, 7, 16781840)
-     , (669, 8, 16781839)
-     , (669, 9, 16777300)
-     , (669, 10, 16777301)
-     , (669, 11, 16777302)
-     , (669, 12, 16777304)
-     , (669, 13, 16777303)
-     , (669, 14, 16777305)
-     , (669, 15, 16777307)
-     , (669, 16, 16795654);

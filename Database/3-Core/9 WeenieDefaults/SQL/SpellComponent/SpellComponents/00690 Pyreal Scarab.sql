@@ -13,8 +13,7 @@ VALUES (690,   1,       4096) /* ItemType - SpellComponents */
      , (690,  16,          1) /* ItemUseable - No */
      , (690,  19,       1000) /* Value */
      , (690,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (690, 151,          2) /* HookType - Wall */
-     , (690, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (690, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (690,   1, 'Pyreal Scarab') /* Name */;
@@ -24,19 +23,4 @@ VALUES (690,   1,   33555211) /* Setup */
      , (690,   3,  536870932) /* SoundTable */
      , (690,   6,   67111919) /* PaletteBase */
      , (690,   8,  100668392) /* Icon */
-     , (690,  22,  872415275) /* PhysicsEffectTable */
-     , (690, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (690, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (690, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (690, 8000, 2186220582) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (690, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (690, 0, 83890047, 83890047);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (690, 0, 16780734);
+     , (690,  22,  872415275) /* PhysicsEffectTable */;

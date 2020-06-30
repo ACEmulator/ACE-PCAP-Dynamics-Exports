@@ -23,10 +23,4 @@ VALUES (42539,   1, 'Tree') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42539,   1,   33560938) /* Setup */
-     , (42539,   8,  100672642) /* Icon */
-     , (42539, 8001,    3162128) /* PCAPRecordedWeenieHeader - Usable, Container, RadarBlipColor, Burden */
-     , (42539, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42539, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42539, 8000, 2779733119) /* PCAPRecordedObjectIID */;
+     , (42539,   8,  100672642) /* Icon */;

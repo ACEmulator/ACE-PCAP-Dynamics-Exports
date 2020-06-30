@@ -12,8 +12,7 @@ VALUES (4738,   1,         32) /* ItemType - Food */
      , (4738,  15,         18) /* StackUnitValue */
      , (4738,  16,          8) /* ItemUseable - Contained */
      , (4738,  19,         18) /* Value */
-     , (4738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4738, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4738,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4738,   1, 'Mushroom Rice') /* Name */
@@ -24,9 +23,4 @@ VALUES (4738,   1,   33556220) /* Setup */
      , (4738,   3,  536870932) /* SoundTable */
      , (4738,   8,  100670308) /* Icon */
      , (4738,  22,  872415275) /* PhysicsEffectTable */
-     , (4738, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (4738, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (4738, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4738, 8000,       4738) /* PCAPRecordedObjectIID */;
+     , (4738, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

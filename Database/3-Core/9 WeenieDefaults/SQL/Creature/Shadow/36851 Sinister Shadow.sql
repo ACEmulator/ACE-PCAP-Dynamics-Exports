@@ -14,8 +14,7 @@ VALUES (36851,   1,         16) /* ItemType - Creature */
      , (36851, 113,          1) /* Gender - Male */
      , (36851, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (36851, 188,          1) /* HeritageGroup - Aluvian */
-     , (36851, 307,          5) /* DamageRating */
-     , (36851, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36851, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36851,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36851,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36851,   1, 'Sinister Shadow') /* Name */
-     , (36851, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (36851,   1, 'Sinister Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36851,   1,   33554433) /* Setup */
@@ -39,17 +37,11 @@ VALUES (36851,   1,   33554433) /* Setup */
      , (36851,  15,   67117070) /* HairPalette */
      , (36851,  16,   67110062) /* EyesPalette */
      , (36851,  17,   67109560) /* SkinPalette */
-     , (36851,  22,  872415331) /* PhysicsEffectTable */
-     , (36851, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (36851, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (36851, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (36851,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36851, 8040, 808386565, 14.89608, 104.7227, 3.704339, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x302F0005 [14.896080 104.722700 3.704339] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36851, 8000, 3690084071) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36851,   1, 140, 0, 0) /* Strength */
@@ -107,6 +99,3 @@ VALUES (36851, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
      , (36851, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
      , (36851, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
      , (36851, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (20420) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36851, 67112860, 0, 0);

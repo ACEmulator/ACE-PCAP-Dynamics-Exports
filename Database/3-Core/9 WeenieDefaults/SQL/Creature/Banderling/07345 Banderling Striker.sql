@@ -11,8 +11,7 @@ VALUES (7345,   1,         16) /* ItemType - Creature */
      , (7345,  16,          1) /* ItemUseable - No */
      , (7345,  25,         50) /* Level */
      , (7345,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7345, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7345, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7345, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7345,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7345,  39,    1.25) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7345,   1, 'Banderling Striker') /* Name */
-     , (7345, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7345,   1, 'Banderling Striker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7345,   1,   33558024) /* Setup */
@@ -30,17 +28,11 @@ VALUES (7345,   1,   33558024) /* Setup */
      , (7345,   3,  536870917) /* SoundTable */
      , (7345,   6,   67114021) /* PaletteBase */
      , (7345,   8,  100667453) /* Icon */
-     , (7345,  22,  872415255) /* PhysicsEffectTable */
-     , (7345, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7345, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7345, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (7345,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7345, 8040, 2457927698, 69.84741, 33.10067, 40.00687, 0.6261344, 0, 0, -0.7797152) /* PCAPRecordedLocation */
 /* @teleloc 0x92810012 [69.847410 33.100670 40.006870] 0.626134 0.000000 0.000000 -0.779715 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7345, 8000, 3685897287) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7345,   1, 170, 0, 0) /* Strength */
@@ -510,17 +502,3 @@ VALUES (7345, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for Contain
      , (7345, 9, 20412,  0, 0, 0, False) /* Create Scroll of Inferno's Bane (20412) for ContainTreasure */
      , (7345, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (7345, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7345, 67114038, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7345, 1, 83894320, 83894327)
-     , (7345, 1, 83894373, 83894327)
-     , (7345, 2, 83894328, 83894317)
-     , (7345, 5, 83894328, 83894317);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7345, 1, 16788471)
-     , (7345, 2, 16788483)
-     , (7345, 5, 16788484);

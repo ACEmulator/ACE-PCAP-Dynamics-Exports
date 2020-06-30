@@ -30,8 +30,7 @@ VALUES (37219,   1,      32768) /* ItemType - Caster */
      , (37219, 172,          5) /* AppraisalLongDescDecoration */
      , (37219, 177,          4) /* GemCount */
      , (37219, 178,         21) /* GemType */
-     , (37219, 179,        256) /* ImbuedEffect - ElectricRending */
-     , (37219, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (37219, 179,        256) /* ImbuedEffect - ElectricRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37219,  22, True ) /* Inscribable */;
@@ -41,8 +40,7 @@ VALUES (37219,   5,  -0.056) /* ManaRate */
      , (37219,  29,    1.14) /* WeaponDefense */
      , (37219,  76,     0.5) /* Translucency */
      , (37219, 144,   0.136) /* ManaConversionMod */
-     , (37219, 152,    1.39) /* ElementalDamageMod */
-     , (37219, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (37219, 152,    1.39) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37219,   1, 'Energy Crystal') /* Name */
@@ -59,20 +57,11 @@ VALUES (37219,   1,   33557374) /* Setup */
      , (37219,  22,  872415275) /* PhysicsEffectTable */
      , (37219,  28,       2146) /* Spell - WhirlingBlade7 */
      , (37219,  50,  100689143) /* IconOverlay */
-     , (37219,  52,  100676440) /* IconUnderlay */
-     , (37219, 8001, 3513483416) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, IconOverlay, MaterialType */
-     , (37219, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (37219, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (37219, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (37219, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (37219,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37219, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37219, 8000, 3434234849) /* PCAPRecordedObjectIID */
-     , (37219, 8008, 1343479616) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37219,  2117,      2) 

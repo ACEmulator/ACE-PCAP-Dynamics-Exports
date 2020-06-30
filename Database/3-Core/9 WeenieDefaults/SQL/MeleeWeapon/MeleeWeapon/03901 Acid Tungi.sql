@@ -33,9 +33,7 @@ VALUES (3901,   1,          1) /* ItemType - MeleeWeapon */
      , (3901, 176,         46) /* AppraisalItemSkill */
      , (3901, 177,          2) /* GemCount */
      , (3901, 178,         23) /* GemType */
-     , (3901, 353,          3) /* WeaponType - Axe */
-     , (3901, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3901, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3901, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3901,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3901,   5,  -0.056) /* ManaRate */
      , (3901,  29,    1.08) /* WeaponDefense */
      , (3901,  39,     1.2) /* DefaultScale */
      , (3901,  62,    1.11) /* WeaponOffense */
-     , (3901,  63,       1) /* DamageMod */
-     , (3901, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3901,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3901,   1, 'Acid Tungi') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3901,   1,   33555801) /* Setup */
      , (3901,   3,  536870932) /* SoundTable */
      , (3901,   8,  100669064) /* Icon */
-     , (3901,  22,  872415275) /* PhysicsEffectTable */
-     , (3901, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3901, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3901, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3901, 8000, 3678809646) /* PCAPRecordedObjectIID */;
+     , (3901,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3901,  1401,      2) 

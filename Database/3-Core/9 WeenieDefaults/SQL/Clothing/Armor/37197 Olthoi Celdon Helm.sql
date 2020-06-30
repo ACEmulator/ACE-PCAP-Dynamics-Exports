@@ -30,8 +30,7 @@ VALUES (37197,   1,          2) /* ItemType - Armor */
      , (37197, 177,          3) /* GemCount */
      , (37197, 178,         39) /* GemType */
      , (37197, 265,         15) /* EquipmentSetId - Archers */
-     , (37197, 374,          1) /* GearCritDamage */
-     , (37197, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37197, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37197,  22, True ) /* Inscribable */
@@ -46,8 +45,7 @@ VALUES (37197,   5,  -0.067) /* ManaRate */
      , (37197,  17,     0.4) /* ArmorModVsFire */
      , (37197,  18,     0.6) /* ArmorModVsAcid */
      , (37197,  19,     0.4) /* ArmorModVsElectric */
-     , (37197, 165,       1) /* ArmorModVsNether */
-     , (37197, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (37197, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37197,   1, 'Olthoi Celdon Helm') /* Name */
@@ -58,13 +56,7 @@ VALUES (37197,   1,   33558424) /* Setup */
      , (37197,   3,  536870932) /* SoundTable */
      , (37197,   6,   67108990) /* PaletteBase */
      , (37197,   8,  100674669) /* Icon */
-     , (37197,  22,  872415275) /* PhysicsEffectTable */
-     , (37197, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (37197, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37197, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37197, 8000, 3420126114) /* PCAPRecordedObjectIID */;
+     , (37197,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37197,  1486,      2) 
@@ -76,7 +68,3 @@ VALUES (37197,  1486,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37197, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37197, 67114456, 250, 6)
-     , (37197, 67116547, 240, 10);

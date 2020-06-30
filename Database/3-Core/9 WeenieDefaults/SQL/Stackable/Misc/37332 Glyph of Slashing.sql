@@ -12,8 +12,7 @@ VALUES (37332,   1,        128) /* ItemType - Misc */
      , (37332,  15,      30000) /* StackUnitValue */
      , (37332,  16,          1) /* ItemUseable - No */
      , (37332,  19,      30000) /* Value */
-     , (37332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37332, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37332,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37332,   1, 'Glyph of Slashing') /* Name */
@@ -25,19 +24,4 @@ VALUES (37332,   1,   33554809) /* Setup */
      , (37332,   6,   67111919) /* PaletteBase */
      , (37332,   8,  100690191) /* Icon */
      , (37332,  22,  872415275) /* PhysicsEffectTable */
-     , (37332,  50,  100686634) /* IconOverlay */
-     , (37332, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (37332, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37332, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37332, 8000, 3061804054) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37332, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37332, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37332, 0, 16779181);
+     , (37332,  50,  100686634) /* IconOverlay */;

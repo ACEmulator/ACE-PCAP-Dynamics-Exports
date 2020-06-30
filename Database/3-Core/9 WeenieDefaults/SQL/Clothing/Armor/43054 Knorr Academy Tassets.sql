@@ -24,8 +24,7 @@ VALUES (43054,   1,          2) /* ItemType - Armor */
      , (43054, 158,          7) /* WieldRequirements - Level */
      , (43054, 159,          1) /* WieldSkillType - Axe */
      , (43054, 160,        150) /* WieldDifficulty */
-     , (43054, 172,          1) /* AppraisalLongDescDecoration */
-     , (43054, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43054, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43054,  22, True ) /* Inscribable */
@@ -41,8 +40,7 @@ VALUES (43054,   5,  -0.067) /* ManaRate */
      , (43054,  18,     0.3) /* ArmorModVsAcid */
      , (43054,  19,   1.271) /* ArmorModVsElectric */
      , (43054,  39,    1.33) /* DefaultScale */
-     , (43054, 165,       1) /* ArmorModVsNether */
-     , (43054, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (43054, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43054,   1, 'Knorr Academy Tassets') /* Name */
@@ -53,13 +51,7 @@ VALUES (43054,   1,   33554656) /* Setup */
      , (43054,   3,  536870932) /* SoundTable */
      , (43054,   6,   67108990) /* PaletteBase */
      , (43054,   8,  100691426) /* Icon */
-     , (43054,  22,  872415275) /* PhysicsEffectTable */
-     , (43054, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (43054, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (43054, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43054, 8000, 3701468814) /* PCAPRecordedObjectIID */;
+     , (43054,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43054,  1516,      2) 
@@ -67,13 +59,3 @@ VALUES (43054,  1516,      2)
      , (43054,  2108,      2) 
      , (43054,  2527,      2) 
      , (43054,  4409,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43054, 67110345, 136, 16)
-     , (43054, 67110541, 152, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43054, 0, 83887064, 83898257);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43054, 0, 16778365);

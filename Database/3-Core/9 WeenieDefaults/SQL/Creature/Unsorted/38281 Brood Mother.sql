@@ -9,8 +9,7 @@ VALUES (38281,   1,         16) /* ItemType - Creature */
      , (38281,   7,         -1) /* ContainersCapacity */
      , (38281,  16,          1) /* ItemUseable - No */
      , (38281,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38281, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38281, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38281, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38281,   1, True ) /* Stuck */;
@@ -19,8 +18,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38281,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38281,   1, 'Brood Mother') /* Name */
-     , (38281, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38281,   1, 'Brood Mother') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38281,   1,   33556882) /* Setup */
@@ -28,17 +26,8 @@ VALUES (38281,   1,   33556882) /* Setup */
      , (38281,   3,  536871018) /* SoundTable */
      , (38281,   6,   67112872) /* PaletteBase */
      , (38281,   8,  100671185) /* Icon */
-     , (38281,  22,  872415337) /* PhysicsEffectTable */
-     , (38281, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38281, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38281, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (38281,  22,  872415337) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38281, 8040, 1024065570, 115.78, 47.419, -0.4444, 0.654853, 0, 0, -0.755756) /* PCAPRecordedLocation */
 /* @teleloc 0x3D0A0022 [115.780000 47.419000 -0.444400] 0.654853 0.000000 0.000000 -0.755756 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38281, 8000, 3334359479) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38281, 67113030, 0, 0);

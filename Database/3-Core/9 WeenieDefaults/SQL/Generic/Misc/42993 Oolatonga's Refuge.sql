@@ -19,14 +19,8 @@ VALUES (42993,   1, 'Oolatonga''s Refuge') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42993,   1,   33561063) /* Setup */
-     , (42993,   8,  100668115) /* Icon */
-     , (42993, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42993, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42993, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42993,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42993, 8040, 459102, 79.9689, -174.893, 3.014, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
 /* @teleloc 0x0007015E [79.968900 -174.893000 3.014000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42993, 8000, 1879076983) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,7 @@ VALUES (28633,  13,     1.3) /* ArmorModVsSlash */
      , (28633,  17,     0.4) /* ArmorModVsFire */
      , (28633,  18,     0.6) /* ArmorModVsAcid */
      , (28633,  19,     0.4) /* ArmorModVsElectric */
-     , (28633, 165,       1) /* ArmorModVsNether */
-     , (28633, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (28633, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28633,   1, 'Diforsa Girth') /* Name */
@@ -40,13 +39,4 @@ VALUES (28633,   1,   33559342) /* Setup */
      , (28633,   3,  536870932) /* SoundTable */
      , (28633,   6,   67108990) /* PaletteBase */
      , (28633,   8,  100686292) /* Icon */
-     , (28633,  22,  872415275) /* PhysicsEffectTable */
-     , (28633, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28633, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28633, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28633, 8000, 3691070419) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28633, 67116230, 72, 24);
+     , (28633,  22,  872415275) /* PhysicsEffectTable */;

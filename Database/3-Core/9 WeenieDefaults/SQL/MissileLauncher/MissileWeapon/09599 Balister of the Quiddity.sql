@@ -22,9 +22,7 @@ VALUES (9599,   1,        256) /* ItemType - MissileWeapon */
      , (9599, 108,       1000) /* ItemMaxMana */
      , (9599, 109,         50) /* ItemDifficulty */
      , (9599, 151,          2) /* HookType - Wall */
-     , (9599, 353,          9) /* WeaponType - Crossbow */
-     , (9599, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (9599, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (9599, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9599,  22, True ) /* Inscribable */;
@@ -49,13 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9599,   1,   33557112) /* Setup */
      , (9599,   3,  536870932) /* SoundTable */
      , (9599,   8,  100671701) /* Icon */
-     , (9599,  22,  872415275) /* PhysicsEffectTable */
-     , (9599, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (9599, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (9599, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9599, 8000, 2166005902) /* PCAPRecordedObjectIID */;
+     , (9599,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9599,  1590,      2) 

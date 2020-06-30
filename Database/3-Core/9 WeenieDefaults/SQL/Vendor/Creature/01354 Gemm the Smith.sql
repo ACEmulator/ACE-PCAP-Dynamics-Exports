@@ -18,8 +18,7 @@ VALUES (1354,   1,         16) /* ItemType - Creature */
      , (1354, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1354, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1354, 188,          1) /* HeritageGroup - Aluvian */
-     , (1354, 307,          5) /* DamageRating */
-     , (1354, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1354, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1354,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1354,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1354,   1, 'Gemm the Smith') /* Name */
-     , (1354,   5, 'Blacksmith') /* Template */
-     , (1354, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1354,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1354,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1354,   1,   33554433) /* Setup */
      , (1354,  11,   83890589) /* MouthTexture */
      , (1354,  15,   67117020) /* HairPalette */
      , (1354,  16,   67110062) /* EyesPalette */
-     , (1354,  17,   67109559) /* SkinPalette */
-     , (1354, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1354, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1354, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1354,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1354, 8040, 30736721, 11.6922, -19.5103, 36.005, -0.1526621, 0, 0, -0.9882784) /* PCAPRecordedLocation */
 /* @teleloc 0x01D50151 [11.692200 -19.510300 36.005000] -0.152662 0.000000 0.000000 -0.988278 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1354, 8000, 1880969222) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1354,   1, 112, 0, 0) /* Strength */
@@ -163,55 +155,3 @@ VALUES (1354, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
      , (1354, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1354, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (1354, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1354, 67109559, 0, 24)
-     , (1354, 67109967, 92, 4)
-     , (1354, 67110003, 72, 8)
-     , (1354, 67110062, 32, 8)
-     , (1354, 67110356, 64, 8)
-     , (1354, 67110376, 216, 24)
-     , (1354, 67110378, 160, 8)
-     , (1354, 67111304, 40, 24)
-     , (1354, 67117020, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1354, 0, 83889072, 83890012)
-     , (1354, 0, 83889342, 83890011)
-     , (1354, 1, 83887064, 83886241)
-     , (1354, 2, 83887066, 83887051)
-     , (1354, 3, 83889344, 83887054)
-     , (1354, 4, 83887068, 83887054)
-     , (1354, 5, 83887064, 83886241)
-     , (1354, 6, 83887066, 83887051)
-     , (1354, 7, 83889344, 83887054)
-     , (1354, 8, 83887068, 83887054)
-     , (1354, 9, 83887061, 83890009)
-     , (1354, 9, 83887060, 83890010)
-     , (1354, 10, 83887069, 83886782)
-     , (1354, 11, 83887067, 83891213)
-     , (1354, 13, 83887069, 83886782)
-     , (1354, 14, 83887067, 83891213)
-     , (1354, 16, 83886232, 83890685)
-     , (1354, 16, 83886668, 83890511)
-     , (1354, 16, 83886837, 83890561)
-     , (1354, 16, 83886684, 83890589);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1354, 0, 16781835)
-     , (1354, 1, 16777295)
-     , (1354, 2, 16781866)
-     , (1354, 3, 16781841)
-     , (1354, 4, 16781838)
-     , (1354, 5, 16777299)
-     , (1354, 6, 16781864)
-     , (1354, 7, 16781840)
-     , (1354, 8, 16781839)
-     , (1354, 9, 16777300)
-     , (1354, 10, 16777301)
-     , (1354, 11, 16777302)
-     , (1354, 12, 16777304)
-     , (1354, 13, 16777303)
-     , (1354, 14, 16777305)
-     , (1354, 15, 16777307)
-     , (1354, 16, 16795654);

@@ -9,8 +9,7 @@ VALUES (29802,   1,        128) /* ItemType - Misc */
      , (29802,  16,          1) /* ItemUseable - No */
      , (29802,  19,       1000) /* Value */
      , (29802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29802, 151,         24) /* HookType - Yard, Roof */
-     , (29802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29802, 151,         24) /* HookType - Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29802,  22, True ) /* Inscribable */;
@@ -26,10 +25,4 @@ VALUES (29802,   1, 'Burun Kukuur Floatee') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29802,   1,   33559072) /* Setup */
-     , (29802,   8,  100677029) /* Icon */
-     , (29802, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (29802, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29802, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29802, 8000, 2978131425) /* PCAPRecordedObjectIID */;
+     , (29802,   8,  100677029) /* Icon */;

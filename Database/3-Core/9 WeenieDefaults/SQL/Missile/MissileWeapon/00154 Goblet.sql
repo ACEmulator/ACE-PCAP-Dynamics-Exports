@@ -28,9 +28,7 @@ VALUES (154,   1,        256) /* ItemType - MissileWeapon */
      , (154, 172,          5) /* AppraisalLongDescDecoration */
      , (154, 177,          1) /* GemCount */
      , (154, 178,         33) /* GemType */
-     , (154, 353,         10) /* WeaponType - Thrown */
-     , (154, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (154, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (154, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (154,  22, True ) /* Inscribable */;
@@ -44,8 +42,7 @@ VALUES (154,   5,  -0.056) /* ManaRate */
      , (154,  62,       1) /* WeaponOffense */
      , (154,  63,       1) /* DamageMod */
      , (154,  78,       1) /* Friction */
-     , (154,  79,       0) /* Elasticity */
-     , (154, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (154,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (154,   1, 'Goblet') /* Name */
@@ -56,13 +53,7 @@ VALUES (154,   1,   33554663) /* Setup */
      , (154,   3,  536871012) /* SoundTable */
      , (154,   6,   67111919) /* PaletteBase */
      , (154,   8,  100668677) /* Icon */
-     , (154,  22,  872415275) /* PhysicsEffectTable */
-     , (154, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (154, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (154, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (154, 8000, 3688238597) /* PCAPRecordedObjectIID */;
+     , (154,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (154,   731,      2) ;
@@ -71,12 +62,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (154, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (154, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
      , (154, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (154, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (154, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (154, 0, 16778749);

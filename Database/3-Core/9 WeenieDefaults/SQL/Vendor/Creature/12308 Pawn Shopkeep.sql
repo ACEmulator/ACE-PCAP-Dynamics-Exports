@@ -17,8 +17,7 @@ VALUES (12308,   1,         16) /* ItemType - Creature */
      , (12308, 113,          1) /* Gender - Male */
      , (12308, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12308, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (12308, 188,          1) /* HeritageGroup - Aluvian */
-     , (12308, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12308, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12308,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (12308,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12308,   1, 'Pawn Shopkeep') /* Name */
-     , (12308,   5, 'Fence') /* Template */
-     , (12308, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (12308,   5, 'Fence') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12308,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (12308,   1,   33554433) /* Setup */
      , (12308,  11,   83890641) /* MouthTexture */
      , (12308,  15,   67117018) /* HairPalette */
      , (12308,  16,   67110064) /* EyesPalette */
-     , (12308,  17,   67109561) /* SkinPalette */
-     , (12308, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (12308, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (12308, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (12308,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12308, 8040, 3679715584, 101, 127, 20.005, 0.9960796, 0, 0, -0.08846169) /* PCAPRecordedLocation */
 /* @teleloc 0xDB540100 [101.000000 127.000000 20.005000] 0.996080 0.000000 0.000000 -0.088462 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12308, 8000, 2109030414) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12308,   1,  80, 0, 0) /* Strength */
@@ -398,55 +390,3 @@ VALUES (12308, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (12308, 4, 27224, -1, 0, 0, False) /* Create Lorica Leggings (27224) for Shop */
      , (12308, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
      , (12308, 4, 49362, -1, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12308, 67109561, 0, 24)
-     , (12308, 67109969, 92, 4)
-     , (12308, 67110064, 32, 8)
-     , (12308, 67110320, 216, 24)
-     , (12308, 67110362, 40, 24)
-     , (12308, 67110363, 64, 8)
-     , (12308, 67110363, 160, 8)
-     , (12308, 67110554, 72, 8)
-     , (12308, 67117018, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12308, 0, 83889072, 83890012)
-     , (12308, 0, 83889342, 83890011)
-     , (12308, 1, 83887064, 83886241)
-     , (12308, 2, 83887066, 83887051)
-     , (12308, 3, 83889344, 83887054)
-     , (12308, 4, 83887068, 83887054)
-     , (12308, 5, 83887064, 83886241)
-     , (12308, 6, 83887066, 83887051)
-     , (12308, 7, 83889344, 83887054)
-     , (12308, 8, 83887068, 83887054)
-     , (12308, 9, 83887061, 83890009)
-     , (12308, 9, 83887060, 83890010)
-     , (12308, 10, 83887069, 83886782)
-     , (12308, 11, 83887067, 83891213)
-     , (12308, 13, 83887069, 83886782)
-     , (12308, 14, 83887067, 83891213)
-     , (12308, 16, 83886232, 83890685)
-     , (12308, 16, 83886668, 83890480)
-     , (12308, 16, 83886837, 83890558)
-     , (12308, 16, 83886684, 83890641);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12308, 0, 16781835)
-     , (12308, 1, 16777295)
-     , (12308, 2, 16777293)
-     , (12308, 3, 16777292)
-     , (12308, 4, 16777291)
-     , (12308, 5, 16777299)
-     , (12308, 6, 16777297)
-     , (12308, 7, 16777296)
-     , (12308, 8, 16777298)
-     , (12308, 9, 16777300)
-     , (12308, 10, 16777301)
-     , (12308, 11, 16777302)
-     , (12308, 12, 16777304)
-     , (12308, 13, 16777303)
-     , (12308, 14, 16777305)
-     , (12308, 15, 16777307)
-     , (12308, 16, 16795662);

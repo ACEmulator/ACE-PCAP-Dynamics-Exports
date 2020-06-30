@@ -14,8 +14,7 @@ VALUES (53069,   1,       2048) /* ItemType - Gem */
      , (53069,  18,        256) /* UiEffects - Acid */
      , (53069,  19,         25) /* Value */
      , (53069,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53069,  94,          6) /* TargetType - Vestements */
-     , (53069, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53069,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53069,   1, 'Empowered Amber: Girth of Life') /* Name */
@@ -26,19 +25,4 @@ VALUES (53069,   1,   33554809) /* Setup */
      , (53069,   3,  536870932) /* SoundTable */
      , (53069,   6,   67111919) /* PaletteBase */
      , (53069,   8,  100693327) /* Icon */
-     , (53069,  22,  872415275) /* PhysicsEffectTable */
-     , (53069, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (53069, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (53069, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53069, 8000, 2955208686) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53069, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (53069, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (53069, 0, 16779181);
+     , (53069,  22,  872415275) /* PhysicsEffectTable */;

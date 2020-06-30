@@ -20,8 +20,7 @@ VALUES (29930,   1,      32768) /* ItemType - Caster */
      , (29930, 158,          2) /* WieldRequirements - RawSkill */
      , (29930, 159,         16) /* WieldSkillType - ManaConversion */
      , (29930, 160,        255) /* WieldDifficulty */
-     , (29930, 166,         75) /* SlayerCreatureType - Burun */
-     , (29930, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29930, 166,         75) /* SlayerCreatureType - Burun */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29930,  22, True ) /* Inscribable */
@@ -41,13 +40,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29930,   1,   33559055) /* Setup */
      , (29930,   3,  536870932) /* SoundTable */
      , (29930,   8,  100676981) /* Icon */
-     , (29930,  22,  872415275) /* PhysicsEffectTable */
-     , (29930, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
-     , (29930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29930, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29930, 8000, 2166170653) /* PCAPRecordedObjectIID */;
+     , (29930,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29930,   248,      2) 

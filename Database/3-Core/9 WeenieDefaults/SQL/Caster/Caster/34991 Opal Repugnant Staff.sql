@@ -19,8 +19,7 @@ VALUES (34991,   1,      32768) /* ItemType - Caster */
      , (34991, 151,          2) /* HookType - Wall */
      , (34991, 158,          2) /* WieldRequirements - RawSkill */
      , (34991, 159,         34) /* WieldSkillType - WarMagic */
-     , (34991, 160,        355) /* WieldDifficulty */
-     , (34991, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34991, 160,        355) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34991,  22, True ) /* Inscribable */;
@@ -41,13 +40,7 @@ VALUES (34991,   1,   33560177) /* Setup */
      , (34991,   3,  536870932) /* SoundTable */
      , (34991,   8,  100677030) /* Icon */
      , (34991,  22,  872415275) /* PhysicsEffectTable */
-     , (34991,  28,       4067) /* Spell - MucorBolt */
-     , (34991, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (34991, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34991, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34991, 8000, 2925597492) /* PCAPRecordedObjectIID */;
+     , (34991,  28,       4067) /* Spell - MucorBolt */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34991,  2101,      2) 

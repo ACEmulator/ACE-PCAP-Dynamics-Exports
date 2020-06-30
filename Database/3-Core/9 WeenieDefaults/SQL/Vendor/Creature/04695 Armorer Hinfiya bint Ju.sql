@@ -17,8 +17,7 @@ VALUES (4695,   1,         16) /* ItemType - Creature */
      , (4695, 113,          2) /* Gender - Female */
      , (4695, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4695, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4695, 188,          2) /* HeritageGroup - Gharundim */
-     , (4695, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4695, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4695,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4695,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4695,   1, 'Armorer Hinfiya bint Ju') /* Name */
-     , (4695,   5, 'Armorer') /* Template */
-     , (4695, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4695,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4695,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4695,   1,   33554510) /* Setup */
      , (4695,  11,   83890324) /* MouthTexture */
      , (4695,  15,   67117078) /* HairPalette */
      , (4695,  16,   67110062) /* EyesPalette */
-     , (4695,  17,   67109557) /* SkinPalette */
-     , (4695, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4695, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4695, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4695,  17,   67109557) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4695, 8040, 2655256863, 131.988, 39.0254, 36.005, 0.3689259, 0, 0, -0.9294588) /* PCAPRecordedLocation */
 /* @teleloc 0x9E44011F [131.988000 39.025400 36.005000] 0.368926 0.000000 0.000000 -0.929459 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4695, 8000, 2045001740) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4695,   1, 100, 0, 0) /* Strength */
@@ -105,51 +97,3 @@ VALUES (4695, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */
      , (4695, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4695, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4695, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4695, 67109557, 0, 24)
-     , (4695, 67109969, 92, 4)
-     , (4695, 67110026, 72, 8)
-     , (4695, 67110062, 32, 8)
-     , (4695, 67110317, 160, 8)
-     , (4695, 67110320, 64, 8)
-     , (4695, 67110325, 40, 24)
-     , (4695, 67110378, 216, 24)
-     , (4695, 67117078, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4695, 0, 83889072, 83890012)
-     , (4695, 0, 83889342, 83890011)
-     , (4695, 1, 83887064, 83886241)
-     , (4695, 3, 83889344, 83887054)
-     , (4695, 4, 83887068, 83887054)
-     , (4695, 5, 83887064, 83886241)
-     , (4695, 7, 83889344, 83887054)
-     , (4695, 8, 83887068, 83887054)
-     , (4695, 9, 83887070, 83890009)
-     , (4695, 9, 83887062, 83890010)
-     , (4695, 10, 83887069, 83886782)
-     , (4695, 13, 83887069, 83886782)
-     , (4695, 16, 83886232, 83890685)
-     , (4695, 16, 83886668, 83890259)
-     , (4695, 16, 83886837, 83890288)
-     , (4695, 16, 83886684, 83890324);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4695, 0, 16781875)
-     , (4695, 1, 16778430)
-     , (4695, 2, 16778436)
-     , (4695, 3, 16781841)
-     , (4695, 4, 16781838)
-     , (4695, 5, 16778438)
-     , (4695, 6, 16778437)
-     , (4695, 7, 16781840)
-     , (4695, 8, 16781839)
-     , (4695, 9, 16778425)
-     , (4695, 10, 16778431)
-     , (4695, 11, 16778429)
-     , (4695, 12, 16778423)
-     , (4695, 13, 16778434)
-     , (4695, 14, 16778424)
-     , (4695, 15, 16778435)
-     , (4695, 16, 16795650);

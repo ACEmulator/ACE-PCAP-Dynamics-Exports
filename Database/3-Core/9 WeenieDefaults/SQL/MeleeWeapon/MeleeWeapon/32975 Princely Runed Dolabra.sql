@@ -24,9 +24,7 @@ VALUES (32975,   1,          1) /* ItemType - MeleeWeapon */
      , (32975, 158,          7) /* WieldRequirements - Level */
      , (32975, 159,          1) /* WieldSkillType - Axe */
      , (32975, 160,        100) /* WieldDifficulty */
-     , (32975, 353,          3) /* WeaponType - Axe */
-     , (32975, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (32975, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32975, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32975,  22, True ) /* Inscribable */;
@@ -55,13 +53,7 @@ VALUES (32975,   1,   33559871) /* Setup */
      , (32975,  22,  872415275) /* PhysicsEffectTable */
      , (32975,  30,         88) /* PhysicsScript - Create */
      , (32975,  50,  100688913) /* IconOverlay */
-     , (32975,  55,       2074) /* ProcSpell - ImperilOther7 */
-     , (32975, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
-     , (32975, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32975, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32975, 8000, 2174252762) /* PCAPRecordedObjectIID */;
+     , (32975,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32975,  2074,      2) 
@@ -69,12 +61,3 @@ VALUES (32975,  2074,      2)
      , (32975,  2101,      2) 
      , (32975,  2106,      2) 
      , (32975,  2116,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32975, 67116378, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32975, 0, 83896665, 83896665);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32975, 0, 16791840);

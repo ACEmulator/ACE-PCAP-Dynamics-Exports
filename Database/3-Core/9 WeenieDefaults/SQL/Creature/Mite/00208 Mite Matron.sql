@@ -11,8 +11,7 @@ VALUES (208,   1,         16) /* ItemType - Creature */
      , (208,  16,          1) /* ItemUseable - No */
      , (208,  25,         30) /* Level */
      , (208,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (208, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (208, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (208, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (208,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (208,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (208,   1, 'Mite Matron') /* Name */
-     , (208, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (208,   1, 'Mite Matron') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (208,   1,   33558656) /* Setup */
@@ -30,17 +28,11 @@ VALUES (208,   1,   33558656) /* Setup */
      , (208,   3,  536870923) /* SoundTable */
      , (208,   6,   67115137) /* PaletteBase */
      , (208,   8,  100667448) /* Icon */
-     , (208,  22,  872415263) /* PhysicsEffectTable */
-     , (208, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (208, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (208, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (208,  22,  872415263) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (208, 8040, 3333292288, 32.31154, 191.0599, 150.806, -0.410376, 0, 0, 0.911916) /* PCAPRecordedLocation */
 /* @teleloc 0xC6AE0100 [32.311540 191.059900 150.806000] -0.410376 0.000000 0.000000 0.911916 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (208, 8000, 3701589420) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (208,   1,  90, 0, 0) /* Strength */
@@ -58,6 +50,3 @@ VALUES (208,   1,    50, 0, 0, 100) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (208, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
      , (208, 9,   273, 2123, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (208, 67115130, 0, 0);

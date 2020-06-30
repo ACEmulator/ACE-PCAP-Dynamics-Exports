@@ -20,14 +20,10 @@ VALUES (20990,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (20990, 105,         88) /* ItemWorkmanship */
      , (20990, 131,         76) /* MaterialType - Pine */
      , (20990, 151,          9) /* HookType - Floor, Yard */
-     , (20990, 170,         19) /* NumItemsInMaterial */
-     , (20990, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (20990, 170,         19) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20990,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20990, 8004,   4.632) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20990,   1, 'Salvaged  (85)') /* Name */
@@ -40,19 +36,4 @@ VALUES (20990,   1,   33554817) /* Setup */
      , (20990,   6,   67111919) /* PaletteBase */
      , (20990,   8,  100673217) /* Icon */
      , (20990,  22,  872415275) /* PhysicsEffectTable */
-     , (20990,  50,  100673235) /* IconOverlay */
-     , (20990, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (20990, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (20990, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20990, 8000, 2157267542) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20990, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (20990, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (20990, 0, 16777882);
+     , (20990,  50,  100673235) /* IconOverlay */;

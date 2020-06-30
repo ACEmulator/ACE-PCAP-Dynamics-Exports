@@ -18,8 +18,7 @@ VALUES (27258,   1,         32) /* ItemType - Food */
      , (27258, 106,        150) /* ItemSpellcraft */
      , (27258, 107,         50) /* ItemCurMana */
      , (27258, 108,         50) /* ItemMaxMana */
-     , (27258, 109,        200) /* ItemDifficulty */
-     , (27258, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27258, 109,        200) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27258,   1, 'Platinum Spirits') /* Name */
@@ -31,13 +30,7 @@ VALUES (27258,   1,   33554664) /* Setup */
      , (27258,   3,  536870932) /* SoundTable */
      , (27258,   8,  100676398) /* Icon */
      , (27258,  22,  872415275) /* PhysicsEffectTable */
-     , (27258,  28,       3208) /* Spell - GolemHunterStaminaHigh */
-     , (27258, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (27258, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (27258, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27258, 8000, 3077879421) /* PCAPRecordedObjectIID */;
+     , (27258,  28,       3208) /* Spell - GolemHunterStaminaHigh */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27258,  3208,      2) ;

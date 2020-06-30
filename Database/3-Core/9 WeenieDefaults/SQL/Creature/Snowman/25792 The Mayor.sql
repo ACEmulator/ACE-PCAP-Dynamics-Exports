@@ -13,8 +13,7 @@ VALUES (25792,   1,         16) /* ItemType - Creature */
      , (25792,  93,    6292488) /* PhysicsState - ReportCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (25792,  95,          8) /* RadarBlipColor - Yellow */
      , (25792, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (25792, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (25792, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25792, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25792,   1, True ) /* Stuck */
@@ -26,24 +25,17 @@ VALUES (25792,  39,     0.7) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25792,   1, 'The Mayor') /* Name */
-     , (25792,   5, 'Mayor of Frost Haven') /* Template */
-     , (25792, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (25792,   5, 'Mayor of Frost Haven') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25792,   1,   33556221) /* Setup */
      , (25792,   2,  150995089) /* MotionTable */
      , (25792,   3,  536871078) /* SoundTable */
-     , (25792,   8,  100669125) /* Icon */
-     , (25792, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (25792, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (25792, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (25792,   8,  100669125) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25792, 8040, 2670264594, 36.4529, 109.191, 290, -0.9991274, 0, 0, -0.04176702) /* PCAPRecordedLocation */
 /* @teleloc 0x9F290112 [36.452900 109.191000 290.000000] -0.999127 0.000000 0.000000 -0.041767 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25792, 8000, 3689964665) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25792,   1,  25, 0, 0) /* Strength */

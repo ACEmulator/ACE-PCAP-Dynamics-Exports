@@ -11,8 +11,7 @@ VALUES (38294,   1,         16) /* ItemType - Creature */
      , (38294,  16,          1) /* ItemUseable - No */
      , (38294,  25,        165) /* Level */
      , (38294,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (38294, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38294, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38294, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38294,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38294,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38294,   1, 'Spawnling') /* Name */
-     , (38294, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38294,   1, 'Spawnling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38294,   1,   33556882) /* Setup */
@@ -30,17 +28,11 @@ VALUES (38294,   1,   33556882) /* Setup */
      , (38294,   3,  536871018) /* SoundTable */
      , (38294,   6,   67112872) /* PaletteBase */
      , (38294,   8,  100671185) /* Icon */
-     , (38294,  22,  872415432) /* PhysicsEffectTable */
-     , (38294, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38294, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38294, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (38294,  22,  872415432) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38294, 8040, 1040973861, 96.73638, 115.4868, -0.448, -0.83696, 0, 0, -0.547264) /* PCAPRecordedLocation */
 /* @teleloc 0x3E0C0025 [96.736380 115.486800 -0.448000] -0.836960 0.000000 0.000000 -0.547264 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38294, 8000, 2447927118) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38294,   1, 520, 0, 0) /* Strength */
@@ -54,6 +46,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (38294,   1,   190, 0, 0, 400) /* MaxHealth */
      , (38294,   3,  1580, 0, 0, 2000) /* MaxStamina */
      , (38294,   5,     0, 0, 0, 500) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38294, 67113030, 0, 0);

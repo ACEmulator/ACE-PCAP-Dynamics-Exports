@@ -19,14 +19,8 @@ VALUES (12656,   1, 'South Hebian-To Cottages') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12656,   1,   33557463) /* Setup */
-     , (12656,   8,  100668115) /* Icon */
-     , (12656, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (12656, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12656, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (12656,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12656, 8040, 3813146684, 181.466, 80.7069, 22.72557, -0.308117, 0, 0, -0.951348) /* PCAPRecordedLocation */
 /* @teleloc 0xE348003C [181.466000 80.706900 22.725570] -0.308117 0.000000 0.000000 -0.951348 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12656, 8000, 2117370289) /* PCAPRecordedObjectIID */;

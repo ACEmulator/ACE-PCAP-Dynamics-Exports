@@ -24,10 +24,4 @@ VALUES (27437,   1, 'Dark Monolith') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27437,   1,   33558688) /* Setup */
-     , (27437,   8,  100676417) /* Icon */
-     , (27437, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
-     , (27437, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27437, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27437, 8000, 2157269317) /* PCAPRecordedObjectIID */;
+     , (27437,   8,  100676417) /* Icon */;

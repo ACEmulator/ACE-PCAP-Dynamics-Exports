@@ -28,9 +28,7 @@ VALUES (22159,   1,          1) /* ItemType - MeleeWeapon */
      , (22159, 151,          2) /* HookType - Wall */
      , (22159, 172,          1) /* AppraisalLongDescDecoration */
      , (22159, 176,         44) /* AppraisalItemSkill */
-     , (22159, 353,          7) /* WeaponType - Staff */
-     , (22159, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22159, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22159, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22159,  22, True ) /* Inscribable */;
@@ -44,8 +42,7 @@ VALUES (22159,   5,  -0.042) /* ManaRate */
      , (22159,  39,     0.8) /* DefaultScale */
      , (22159,  62,       1) /* WeaponOffense */
      , (22159,  63,       1) /* DamageMod */
-     , (22159, 150,    1.02) /* WeaponMagicDefense */
-     , (22159, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (22159, 150,    1.02) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22159,   1, 'Acid Nabut') /* Name */
@@ -57,14 +54,7 @@ VALUES (22159,   1,   33558072) /* Setup */
      , (22159,   6,   67111919) /* PaletteBase */
      , (22159,   8,  100673626) /* Icon */
      , (22159,  22,  872415275) /* PhysicsEffectTable */
-     , (22159,  52,  100676437) /* IconUnderlay */
-     , (22159, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (22159, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (22159, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (22159, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22159, 8000, 2174542776) /* PCAPRecordedObjectIID */;
+     , (22159,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22159,  1614,      2) 
@@ -72,13 +62,3 @@ VALUES (22159,  1614,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22159, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22159, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22159, 0, 83894357, 83894357)
-     , (22159, 0, 83894155, 83894155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22159, 0, 16788503);

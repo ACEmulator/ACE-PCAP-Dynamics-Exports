@@ -17,8 +17,7 @@ VALUES (664,   1,         16) /* ItemType - Creature */
      , (664, 113,          1) /* Gender - Male */
      , (664, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (664, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (664, 188,          1) /* HeritageGroup - Aluvian */
-     , (664, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (664, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (664,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (664,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (664,   1, 'Brisin the Healer') /* Name */
-     , (664,   5, 'Healer') /* Template */
-     , (664, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (664,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (664,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (664,   1,   33554433) /* Setup */
      , (664,  11,   83890587) /* MouthTexture */
      , (664,  15,   67116982) /* HairPalette */
      , (664,  16,   67110063) /* EyesPalette */
-     , (664,  17,   67109561) /* SkinPalette */
-     , (664, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (664, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (664, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (664,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (664, 8040, 3364618541, 89.9656, 177.997, 22.005, -0.9096242, 0, 0, -0.4154322) /* PCAPRecordedLocation */
 /* @teleloc 0xC88C012D [89.965600 177.997000 22.005000] -0.909624 0.000000 0.000000 -0.415432 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (664, 8000, 2089336870) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (664,   1,  20, 0, 0) /* Strength */
@@ -86,54 +78,3 @@ VALUES (664, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop
      , (664, 4,  4384, -1, 0, 0, False) /* Create Strength Other I (4384) for Shop */
      , (664, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (664, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (664, 67109561, 0, 24)
-     , (664, 67109966, 92, 4)
-     , (664, 67110063, 32, 8)
-     , (664, 67110356, 250, 6)
-     , (664, 67110361, 160, 8)
-     , (664, 67110372, 40, 24)
-     , (664, 67110375, 64, 8)
-     , (664, 67110378, 216, 24)
-     , (664, 67110544, 72, 8)
-     , (664, 67116982, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (664, 0, 83889072, 83890012)
-     , (664, 0, 83889342, 83890011)
-     , (664, 1, 83887064, 83886241)
-     , (664, 3, 83889344, 83887054)
-     , (664, 4, 83887068, 83887054)
-     , (664, 5, 83887064, 83886241)
-     , (664, 7, 83889344, 83887054)
-     , (664, 8, 83887068, 83887054)
-     , (664, 9, 83887061, 83890009)
-     , (664, 9, 83887060, 83890010)
-     , (664, 10, 83887069, 83886782)
-     , (664, 13, 83887069, 83886782)
-     , (664, 16, 83886232, 83890685)
-     , (664, 16, 83886668, 83890509)
-     , (664, 16, 83886837, 83890548)
-     , (664, 16, 83886684, 83890587)
-     , (664, 16, 83889859, 83889864)
-     , (664, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (664, 0, 16781835)
-     , (664, 1, 16777295)
-     , (664, 2, 16777293)
-     , (664, 3, 16777292)
-     , (664, 4, 16777291)
-     , (664, 5, 16777299)
-     , (664, 6, 16777297)
-     , (664, 7, 16777296)
-     , (664, 8, 16777298)
-     , (664, 9, 16777300)
-     , (664, 10, 16777301)
-     , (664, 11, 16777302)
-     , (664, 12, 16777304)
-     , (664, 13, 16777303)
-     , (664, 14, 16777305)
-     , (664, 15, 16777307)
-     , (664, 16, 16779635);

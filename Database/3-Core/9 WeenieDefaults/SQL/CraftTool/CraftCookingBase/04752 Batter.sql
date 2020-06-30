@@ -13,8 +13,7 @@ VALUES (4752,   1,    4194304) /* ItemType - CraftCookingBase */
      , (4752,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (4752,  19,          4) /* Value */
      , (4752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4752,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (4752, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4752,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4752,  69, False) /* IsSellable */;
@@ -28,10 +27,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4752,   1,   33555968) /* Setup */
      , (4752,   3,  536870932) /* SoundTable */
      , (4752,   8,  100669943) /* Icon */
-     , (4752,  22,  872415275) /* PhysicsEffectTable */
-     , (4752, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (4752, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (4752, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4752, 8000, 3711065799) /* PCAPRecordedObjectIID */;
+     , (4752,  22,  872415275) /* PhysicsEffectTable */;

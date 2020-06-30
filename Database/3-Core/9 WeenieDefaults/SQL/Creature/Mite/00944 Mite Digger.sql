@@ -11,15 +11,13 @@ VALUES (944,   1,         16) /* ItemType - Creature */
      , (944,  16,          1) /* ItemUseable - No */
      , (944,  25,          8) /* Level */
      , (944,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (944, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (944, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (944, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (944,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (944,   1, 'Mite Digger') /* Name */
-     , (944, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (944,   1, 'Mite Digger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (944,   1,   33558656) /* Setup */
@@ -27,17 +25,11 @@ VALUES (944,   1,   33558656) /* Setup */
      , (944,   3,  536870923) /* SoundTable */
      , (944,   6,   67115137) /* PaletteBase */
      , (944,   8,  100667448) /* Icon */
-     , (944,  22,  872415263) /* PhysicsEffectTable */
-     , (944, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (944, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (944, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (944,  22,  872415263) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (944, 8040, 3398565897, 44.76278, 17.82651, 12.51946, 0.920905, 0, 0, -0.3897871) /* PCAPRecordedLocation */
 /* @teleloc 0xCA920009 [44.762780 17.826510 12.519460] 0.920905 0.000000 0.000000 -0.389787 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (944, 8000, 3694233519) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (944,   1,  50, 0, 0) /* Strength */
@@ -70,6 +62,3 @@ VALUES (944, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for Cont
      , (944, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
      , (944, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (944, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (944, 67115126, 0, 0);

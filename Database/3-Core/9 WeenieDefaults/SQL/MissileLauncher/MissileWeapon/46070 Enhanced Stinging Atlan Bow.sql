@@ -28,9 +28,7 @@ VALUES (46070,   1,        256) /* ItemType - MissileWeapon */
      , (46070, 159,         47) /* WieldSkillType - MissileWeapons */
      , (46070, 160,        360) /* WieldDifficulty */
      , (46070, 204,         11) /* ElementalDamageBonus */
-     , (46070, 263,         32) /* ResistanceModifierType */
-     , (46070, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (46070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46070, 263,         32) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46070,  22, True ) /* Inscribable */
@@ -58,13 +56,7 @@ VALUES (46070,   1,   33557754) /* Setup */
      , (46070,   3,  536870932) /* SoundTable */
      , (46070,   6,   67111919) /* PaletteBase */
      , (46070,   8,  100673015) /* Icon */
-     , (46070,  22,  872415275) /* PhysicsEffectTable */
-     , (46070, 8001,  270615448) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (46070, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46070, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46070, 8000, 2823142947) /* PCAPRecordedObjectIID */;
+     , (46070,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46070,  2059,      2) 
@@ -74,19 +66,3 @@ VALUES (46070,  2059,      2)
      , (46070,  2149,      2) 
      , (46070,  2505,      2) 
      , (46070,  2586,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46070, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46070, 0, 83889236, 83889236)
-     , (46070, 0, 83889688, 83889688)
-     , (46070, 1, 83893927, 83889237)
-     , (46070, 1, 83889237, 83889688)
-     , (46070, 2, 83893927, 83889237)
-     , (46070, 2, 83889237, 83889688);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46070, 0, 16787898)
-     , (46070, 1, 16787897)
-     , (46070, 2, 16787897);

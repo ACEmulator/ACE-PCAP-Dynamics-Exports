@@ -12,8 +12,7 @@ VALUES (14243,   1,          0) /* ItemType - None */
      , (14243, 149,          1) /* HouseStatus - Active */
      , (14243, 155,          1) /* HouseType - Cottage */
      , (14243, 163,         -1) /* AllegianceMinLevel */
-     , (14243, 164,         -1) /* AllegianceMaxLevel */
-     , (14243, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (14243, 164,         -1) /* AllegianceMaxLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14243,   1, True ) /* Stuck */;
@@ -25,23 +24,16 @@ VALUES (14243,  39,     1.2) /* DefaultScale */
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14243,   1, 'Cottage') /* Name */
      , (14243,  16, 'The current maintenance has been paid.
-') /* LongDesc */
-     , (14243, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14243,   1,   33557167) /* Setup */
      , (14243,   2,  150995128) /* MotionTable */
-     , (14243,   8,  100671884) /* Icon */
-     , (14243, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
-     , (14243, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (14243, 8005,      98435) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, Position, Movement */;
+     , (14243,   8,  100671884) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14243, 8040, 2456027186, 153.732, 38.2458, 14, 0.380739, 0, 0, -0.924682) /* PCAPRecordedLocation */
 /* @teleloc 0x92640032 [153.732000 38.245800 14.000000] 0.380739 0.000000 0.000000 -0.924682 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14243, 8000, 2032550319) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (14243, 16,   273, 300000, 0, 0, False) /* Create Pyreal (273) for HouseBuy */

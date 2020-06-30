@@ -15,8 +15,7 @@ VALUES (546,   1,         32) /* ItemType - Food */
      , (546,  89,          4) /* BoosterEnum - Stamina */
      , (546,  90,          4) /* BoostValue */
      , (546,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (546, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */
-     , (546, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (546, 151,         15) /* HookType - Floor, Wall, Ceiling, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (546,   1, 'Egg') /* Name */
@@ -26,14 +25,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (546,   1,   33554673) /* Setup */
      , (546,   3,  536870932) /* SoundTable */
      , (546,   8,  100667460) /* Icon */
-     , (546,  22,  872415275) /* PhysicsEffectTable */
-     , (546, 8001,  270544920) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Burden, HookType */
-     , (546, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (546, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (546,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (546, 8040, 3316121663, 172.2981, 146.5286, 42, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC5A8003F [172.298100 146.528600 42.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (546, 8000, 3685081663) /* PCAPRecordedObjectIID */;

@@ -14,8 +14,7 @@ VALUES (38237,   1,         64) /* ItemType - Money */
      , (38237,  19,          0) /* Value */
      , (38237,  33,          1) /* Bonded - Bonded */
      , (38237,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38237, 114,          1) /* Attuned - Attuned */
-     , (38237, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38237, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38237,  69, False) /* IsSellable */;
@@ -28,10 +27,4 @@ VALUES (38237,   1, 'Eldrytch Web Trade Token') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38237,   1,   33554802) /* Setup */
      , (38237,   8,  100689461) /* Icon */
-     , (38237,  50,  100690178) /* IconOverlay */
-     , (38237, 8001, 1073770512) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, IconOverlay */
-     , (38237, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (38237, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38237, 8000, 2914740564) /* PCAPRecordedObjectIID */;
+     , (38237,  50,  100690178) /* IconOverlay */;

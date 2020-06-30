@@ -43,8 +43,7 @@ VALUES (37187,   5,  -0.056) /* ManaRate */
      , (37187,  17,   1.088) /* ArmorModVsFire */
      , (37187,  18,   1.248) /* ArmorModVsAcid */
      , (37187,  19,     0.4) /* ArmorModVsElectric */
-     , (37187, 165,       1) /* ArmorModVsNether */
-     , (37187, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (37187, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37187,   1, 'Olthoi Alduressa Gauntlets') /* Name */
@@ -56,23 +55,9 @@ VALUES (37187,   1,   33559505) /* Setup */
      , (37187,   6,   67108990) /* PaletteBase */
      , (37187,   8,  100687134) /* Icon */
      , (37187,  22,  872415275) /* PhysicsEffectTable */
-     , (37187,  50,  100690144) /* IconOverlay */
-     , (37187, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (37187, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37187, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37187, 8000, 2461841190) /* PCAPRecordedObjectIID */;
+     , (37187,  50,  100690144) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37187,  2108,      2) 
      , (37187,  2241,      2) 
      , (37187,  6072,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37187, 67116604, 168, 3)
-     , (37187, 67116605, 171, 3);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37187, 0, 16794046)
-     , (37187, 1, 16794045);

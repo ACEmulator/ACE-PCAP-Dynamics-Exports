@@ -17,8 +17,7 @@ VALUES (49597,   1,         16) /* ItemType - Creature */
      , (49597, 113,          1) /* Gender - Male */
      , (49597, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (49597, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (49597, 188,          1) /* HeritageGroup - Aluvian */
-     , (49597, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (49597, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49597,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (49597,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49597,   1, 'Scrivener of Life Magic') /* Name */
-     , (49597,   5, 'Master Archmage') /* Template */
-     , (49597, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (49597,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49597,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (49597,   1,   33554433) /* Setup */
      , (49597,  15,   67116984) /* HairPalette */
      , (49597,  16,   67109567) /* EyesPalette */
      , (49597,  17,   67109558) /* SkinPalette */
-     , (49597,  22,  872415381) /* PhysicsEffectTable */
-     , (49597, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (49597, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (49597, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (49597,  22,  872415381) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (49597, 8040, 2724135256, 131.37, 148.357, 23.205, 0.9978135, 0, 0, -0.06609263) /* PCAPRecordedLocation */
 /* @teleloc 0xA25F0158 [131.370000 148.357000 23.205000] 0.997814 0.000000 0.000000 -0.066093 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49597, 8000, 2049306668) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49597,   1,  90, 0, 0) /* Strength */
@@ -129,51 +121,3 @@ VALUES (49597, 4, 15270, -1, 0, 0, False) /* Create Foci of Verdancy (15270) for
      , (49597, 4, 21105, -1, 0, 0, False) /* Create Scroll of Martyr's Blight IV (21105) for Shop */
      , (49597, 4, 21112, -1, 0, 0, False) /* Create Scroll of Martyr's Tenacity IV (21112) for Shop */
      , (49597, 4, 21098, -1, 0, 0, False) /* Create Scroll of Martyr's Hecatomb IV (21098) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49597, 67109558, 0, 24)
-     , (49597, 67109567, 32, 8)
-     , (49597, 67109964, 92, 4)
-     , (49597, 67110356, 40, 24)
-     , (49597, 67110360, 216, 24)
-     , (49597, 67110364, 64, 8)
-     , (49597, 67110375, 160, 8)
-     , (49597, 67110540, 72, 8)
-     , (49597, 67116984, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49597, 0, 83889072, 83890012)
-     , (49597, 0, 83889342, 83890011)
-     , (49597, 1, 83887064, 83886241)
-     , (49597, 2, 83887066, 83887051)
-     , (49597, 3, 83889344, 83887054)
-     , (49597, 4, 83887068, 83887054)
-     , (49597, 5, 83887064, 83886241)
-     , (49597, 6, 83887066, 83887051)
-     , (49597, 7, 83889344, 83887054)
-     , (49597, 8, 83887068, 83887054)
-     , (49597, 9, 83887061, 83890009)
-     , (49597, 9, 83887060, 83890010)
-     , (49597, 16, 83886232, 83890685)
-     , (49597, 16, 83886668, 83890510)
-     , (49597, 16, 83886837, 83890522)
-     , (49597, 16, 83886684, 83890570);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49597, 0, 16781835)
-     , (49597, 1, 16777295)
-     , (49597, 2, 16781866)
-     , (49597, 3, 16781841)
-     , (49597, 4, 16781838)
-     , (49597, 5, 16777299)
-     , (49597, 6, 16781864)
-     , (49597, 7, 16781840)
-     , (49597, 8, 16781839)
-     , (49597, 9, 16777300)
-     , (49597, 10, 16777301)
-     , (49597, 11, 16777302)
-     , (49597, 12, 16777304)
-     , (49597, 13, 16777303)
-     , (49597, 14, 16777305)
-     , (49597, 15, 16777307)
-     , (49597, 16, 16795665);

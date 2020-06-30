@@ -13,8 +13,7 @@ VALUES (35986,   1,         16) /* ItemType - Creature */
      , (35986,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35986, 113,          1) /* Gender - Male */
      , (35986, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35986, 188,          1) /* HeritageGroup - Aluvian */
-     , (35986, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35986, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35986,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ VALUES (35986,  39,     1.3) /* DefaultScale */
      , (35986,  76,     0.4) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35986,   1, 'A Shadow of Ler Rhan') /* Name */
-     , (35986, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35986,   1, 'A Shadow of Ler Rhan') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35986,   1,   33556246) /* Setup */
@@ -39,17 +37,11 @@ VALUES (35986,   1,   33556246) /* Setup */
      , (35986,  15,   67117074) /* HairPalette */
      , (35986,  16,   67110064) /* EyesPalette */
      , (35986,  17,   67109558) /* SkinPalette */
-     , (35986,  22,  872415331) /* PhysicsEffectTable */
-     , (35986, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35986, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35986, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (35986,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35986, 8040, 15074330, 184.6306, -25.16492, 0.006500006, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E6041A [184.630600 -25.164920 0.006500] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35986, 8000, 3359411485) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35986,   1, 455, 0, 0) /* Strength */
@@ -75,37 +67,3 @@ VALUES (35986, 9, 30594,  0, 0, 0, False) /* Create Acid Partizan (30594) for Co
      , (35986, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */
      , (35986, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (35986, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35986, 67112860, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35986, 0, 83889342, 83889342)
-     , (35986, 0, 83889072, 83889072)
-     , (35986, 9, 83887061, 83887061)
-     , (35986, 9, 83887060, 83887060)
-     , (35986, 10, 83887069, 83887069)
-     , (35986, 11, 83887067, 83887067)
-     , (35986, 12, 83887059, 83887059)
-     , (35986, 13, 83887069, 83887069)
-     , (35986, 14, 83887067, 83887067)
-     , (35986, 15, 83887059, 83887059);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35986, 0, 16777294)
-     , (35986, 1, 16777708)
-     , (35986, 2, 16777708)
-     , (35986, 3, 16777708)
-     , (35986, 4, 16777708)
-     , (35986, 5, 16777708)
-     , (35986, 6, 16777708)
-     , (35986, 7, 16777708)
-     , (35986, 8, 16777708)
-     , (35986, 9, 16777300)
-     , (35986, 10, 16777301)
-     , (35986, 11, 16777302)
-     , (35986, 12, 16777304)
-     , (35986, 13, 16777303)
-     , (35986, 14, 16777305)
-     , (35986, 15, 16777307)
-     , (35986, 16, 16777306);

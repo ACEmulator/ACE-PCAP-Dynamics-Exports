@@ -12,8 +12,7 @@ VALUES (37272,   1,        128) /* ItemType - Misc */
      , (37272,  15,          0) /* StackUnitValue */
      , (37272,  16,          1) /* ItemUseable - No */
      , (37272,  19,          0) /* Value */
-     , (37272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37272, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37272,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37272,   1, 'Eight Cards from the Deck of Eyes') /* Name */
@@ -24,14 +23,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37272,   1,   33560546) /* Setup */
      , (37272,   3,  536870932) /* SoundTable */
      , (37272,   8,  100689858) /* Icon */
-     , (37272,  22,  872415275) /* PhysicsEffectTable */
-     , (37272, 8001,    2109457) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Burden */
-     , (37272, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37272, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (37272,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37272, 8040, 2103705619, 48.17259, 51.18679, 12.079, 0.9974259, 0, 0, -0.07170492) /* PCAPRecordedLocation */
 /* @teleloc 0x7D640013 [48.172590 51.186790 12.079000] 0.997426 0.000000 0.000000 -0.071705 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37272, 8000, 2596826053) /* PCAPRecordedObjectIID */;

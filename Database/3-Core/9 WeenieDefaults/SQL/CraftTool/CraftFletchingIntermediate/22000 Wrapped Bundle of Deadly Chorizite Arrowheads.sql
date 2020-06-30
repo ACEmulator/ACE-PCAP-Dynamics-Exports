@@ -12,8 +12,7 @@ VALUES (22000,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (22000,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (22000,  19,        250) /* Value */
      , (22000,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22000,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (22000, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22000,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22000,   1, 'Wrapped Bundle of Deadly Chorizite Arrowheads') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22000,   1,   33557030) /* Setup */
      , (22000,   3,  536870932) /* SoundTable */
      , (22000,   8,  100673593) /* Icon */
-     , (22000,  22,  872415275) /* PhysicsEffectTable */
-     , (22000, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (22000, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (22000, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22000, 8000, 2909425809) /* PCAPRecordedObjectIID */;
+     , (22000,  22,  872415275) /* PhysicsEffectTable */;

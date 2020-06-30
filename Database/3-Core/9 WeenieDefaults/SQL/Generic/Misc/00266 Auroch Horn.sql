@@ -8,8 +8,7 @@ VALUES (266,   1,        128) /* ItemType - Misc */
      , (266,   5,        180) /* EncumbranceVal */
      , (266,  16,          1) /* ItemUseable - No */
      , (266,  19,        150) /* Value */
-     , (266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (266, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (266,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (266,  22, True ) /* Inscribable */;
@@ -19,10 +18,4 @@ VALUES (266,   1, 'Auroch Horn') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (266,   1,   33554706) /* Setup */
-     , (266,   8,  100668178) /* Icon */
-     , (266, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (266, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (266, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (266, 8000, 3261434810) /* PCAPRecordedObjectIID */;
+     , (266,   8,  100668178) /* Icon */;

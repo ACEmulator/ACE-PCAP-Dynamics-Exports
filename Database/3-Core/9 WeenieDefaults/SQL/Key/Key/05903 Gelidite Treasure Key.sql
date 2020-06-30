@@ -12,8 +12,7 @@ VALUES (5903,   1,      16384) /* ItemType - Key */
      , (5903,  91,          1) /* MaxStructure */
      , (5903,  92,          1) /* Structure */
      , (5903,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5903,  94,        640) /* TargetType - LockableMagicTarget */
-     , (5903, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5903,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5903,  22, True ) /* Inscribable */
@@ -27,10 +26,4 @@ VALUES (5903,   1, 'Gelidite Treasure Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5903,   1,   33554784) /* Setup */
      , (5903,   8,  100668441) /* Icon */
-     , (5903,  22,  872415275) /* PhysicsEffectTable */
-     , (5903, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (5903, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (5903, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5903, 8000, 3678126697) /* PCAPRecordedObjectIID */;
+     , (5903,  22,  872415275) /* PhysicsEffectTable */;

@@ -14,8 +14,7 @@ VALUES (7038,   1,        256) /* ItemType - MissileWeapon */
      , (7038,  50,          2) /* AmmoType - Bolt */
      , (7038,  51,          2) /* CombatUse - Missle */
      , (7038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7038, 151,          2) /* HookType - Wall */
-     , (7038, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (7038, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7038,  22, True ) /* Inscribable */;
@@ -31,19 +30,8 @@ VALUES (7038,   1,   33556596) /* Setup */
      , (7038,   3,  536870932) /* SoundTable */
      , (7038,   6,   67112869) /* PaletteBase */
      , (7038,   8,  100670692) /* Icon */
-     , (7038,  22,  872415275) /* PhysicsEffectTable */
-     , (7038, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (7038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7038, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (7038, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (7038,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7038, 8040, 459059, 69.974, -79.996, -0.07000001, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070133 [69.974000 -79.996000 -0.070000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7038, 8000, 2858639094) /* PCAPRecordedObjectIID */
-     , (7038, 8008, 1342876670) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7038, 67112871, 0, 0);

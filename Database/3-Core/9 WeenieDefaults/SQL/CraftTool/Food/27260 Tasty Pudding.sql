@@ -18,8 +18,7 @@ VALUES (27260,   1,         32) /* ItemType - Food */
      , (27260, 106,        150) /* ItemSpellcraft */
      , (27260, 107,         50) /* ItemCurMana */
      , (27260, 108,         50) /* ItemMaxMana */
-     , (27260, 109,          0) /* ItemDifficulty */
-     , (27260, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27260, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27260,   1, 'Tasty Pudding') /* Name */
@@ -30,13 +29,7 @@ VALUES (27260,   1,   33555968) /* Setup */
      , (27260,   3,  536870932) /* SoundTable */
      , (27260,   8,  100676397) /* Icon */
      , (27260,  22,  872415275) /* PhysicsEffectTable */
-     , (27260,  28,       3205) /* Spell - GolemHunterHealthLow */
-     , (27260, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (27260, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (27260, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27260, 8000, 2174188117) /* PCAPRecordedObjectIID */;
+     , (27260,  28,       3205) /* Spell - GolemHunterHealthLow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27260,  3205,      2) ;

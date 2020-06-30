@@ -23,23 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14524,   1,   33557506) /* Setup */
      , (14524,   3,  536870932) /* SoundTable */
      , (14524,   8,  100672510) /* Icon */
-     , (14524,  22,  872415275) /* PhysicsEffectTable */
-     , (14524, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
-     , (14524, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (14524, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14524, 8000, 2868866649) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14524, 0, 83892433, 83892492)
-     , (14524, 0, 83892432, 83892492)
-     , (14524, 1, 83892433, 83892492)
-     , (14524, 1, 83892432, 83892492)
-     , (14524, 2, 83892433, 83892492)
-     , (14524, 2, 83892432, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14524, 0, 16784246)
-     , (14524, 1, 16784196)
-     , (14524, 2, 16784180);
+     , (14524,  22,  872415275) /* PhysicsEffectTable */;

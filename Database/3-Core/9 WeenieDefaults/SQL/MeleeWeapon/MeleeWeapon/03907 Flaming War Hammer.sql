@@ -31,9 +31,7 @@ VALUES (3907,   1,          1) /* ItemType - MeleeWeapon */
      , (3907, 160,        250) /* WieldDifficulty */
      , (3907, 172,          1) /* AppraisalLongDescDecoration */
      , (3907, 176,         45) /* AppraisalItemSkill */
-     , (3907, 353,          3) /* WeaponType - Axe */
-     , (3907, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3907, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3907, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3907,  22, True ) /* Inscribable */;
@@ -45,8 +43,7 @@ VALUES (3907,   5,   -0.05) /* ManaRate */
      , (3907,  26,       0) /* MaximumVelocity */
      , (3907,  29,    1.04) /* WeaponDefense */
      , (3907,  62,    1.09) /* WeaponOffense */
-     , (3907,  63,       1) /* DamageMod */
-     , (3907, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3907,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3907,   1, 'Flaming War Hammer') /* Name */
@@ -56,13 +53,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3907,   1,   33555817) /* Setup */
      , (3907,   3,  536870932) /* SoundTable */
      , (3907,   8,  100669074) /* Icon */
-     , (3907,  22,  872415275) /* PhysicsEffectTable */
-     , (3907, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3907, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3907, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3907, 8000, 3692162922) /* PCAPRecordedObjectIID */;
+     , (3907,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3907,  1615,      2) 

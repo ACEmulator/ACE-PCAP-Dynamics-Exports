@@ -11,8 +11,7 @@ VALUES (1520,   1,         16) /* ItemType - Creature */
      , (1520,  16,          1) /* ItemUseable - No */
      , (1520,  25,          8) /* Level */
      , (1520,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1520, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1520, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1520, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1520,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1520,  39,    1.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1520,   1, 'Banderling Raider Guardian') /* Name */
-     , (1520, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1520,   1, 'Banderling Raider Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1520,   1,   33558024) /* Setup */
@@ -30,17 +28,11 @@ VALUES (1520,   1,   33558024) /* Setup */
      , (1520,   3,  536870917) /* SoundTable */
      , (1520,   6,   67114021) /* PaletteBase */
      , (1520,   8,  100667453) /* Icon */
-     , (1520,  22,  872415255) /* PhysicsEffectTable */
-     , (1520, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1520, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1520, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (1520,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1520, 8040, 2948989192, 135.497, 59.2485, 120.008, -0.999996, 0, 0, 0.002855) /* PCAPRecordedLocation */
 /* @teleloc 0xAFC60108 [135.497000 59.248500 120.008000] -0.999996 0.000000 0.000000 0.002855 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1520, 8000, 2615482845) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1520,   1,  95, 0, 0) /* Strength */
@@ -90,6 +82,3 @@ VALUES (1520, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (1520, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
      , (1520, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
      , (1520, 9, 45419,  0, 0, 0, False) /* Create Flaming Knife (45419) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1520, 67114036, 0, 0);

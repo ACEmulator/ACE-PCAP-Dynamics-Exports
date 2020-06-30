@@ -36,8 +36,7 @@ VALUES (35948,   1,         16) /* ItemType - Creature */
      , (35948, 386,          0) /* Overpower */
      , (35948, 387,          0) /* OverpowerResist */
      , (35948, 388,          0) /* GearOverpower */
-     , (35948, 389,          0) /* GearOverpowerResist */
-     , (35948, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35948, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35948,   1, True ) /* Stuck */
@@ -52,8 +51,7 @@ VALUES (35948,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35948,   1, 'Dark Tusker Shrine') /* Name */
-     , (35948,  16, 'A menacing Tusker Shrine. An impression in the shape of a tusker paw can be clearly seen in the stones on the base of the shrine.') /* LongDesc */
-     , (35948, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (35948,  16, 'A menacing Tusker Shrine. An impression in the shape of a tusker paw can be clearly seen in the stones on the base of the shrine.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35948,   1,   33560344) /* Setup */
@@ -61,17 +59,11 @@ VALUES (35948,   1,   33560344) /* Setup */
      , (35948,   3,  536871052) /* SoundTable */
      , (35948,   8,  100673831) /* Icon */
      , (35948,  22,  872415274) /* PhysicsEffectTable */
-     , (35948,  57,      35942) /* AlternateCurrency - Dark Tusker Paw */
-     , (35948, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (35948, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (35948, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (35948,  57,      35942) /* AlternateCurrency - Dark Tusker Paw */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35948, 8040, 3932946777, 191.644, 151.001, -11.208, 0.5503899, 0, 0, -0.8349078) /* PCAPRecordedLocation */
 /* @teleloc 0xEA6C0159 [191.644000 151.001000 -11.208000] 0.550390 0.000000 0.000000 -0.834908 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35948, 8000, 2124857359) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35948, 4, 35938, -1, 0, 0, False) /* Create Tusker Skull Helm (35938) for Shop */

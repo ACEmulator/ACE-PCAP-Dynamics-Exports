@@ -12,8 +12,7 @@ VALUES (7375,   1,     262144) /* ItemType - PromissoryNote */
      , (7375,  15,      20000) /* StackUnitValue */
      , (7375,  16,          1) /* ItemUseable - No */
      , (7375,  19,      20000) /* Value */
-     , (7375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7375, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7375,   1, 'Trade Note (20,000)') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7375,   1,   33554773) /* Setup */
      , (7375,   3,  536870932) /* SoundTable */
      , (7375,   8,  100672440) /* Icon */
-     , (7375,  22,  872415275) /* PhysicsEffectTable */
-     , (7375, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (7375, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (7375, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7375, 8000, 3699641156) /* PCAPRecordedObjectIID */;
+     , (7375,  22,  872415275) /* PhysicsEffectTable */;

@@ -12,8 +12,7 @@ VALUES (43165,   1,         16) /* ItemType - Creature */
      , (43165,  25,        185) /* Level */
      , (43165,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (43165, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (43165, 307,          2) /* DamageRating */
-     , (43165, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43165, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43165,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43165,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43165,   1, 'Banderling Smasher') /* Name */
-     , (43165, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (43165,   1, 'Banderling Smasher') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43165,   1,   33558024) /* Setup */
@@ -31,17 +29,11 @@ VALUES (43165,   1,   33558024) /* Setup */
      , (43165,   3,  536870917) /* SoundTable */
      , (43165,   6,   67114021) /* PaletteBase */
      , (43165,   8,  100667453) /* Icon */
-     , (43165,  22,  872415255) /* PhysicsEffectTable */
-     , (43165, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (43165, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (43165, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (43165,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43165, 8040, 47251936, 49.4068, -71.423, 0.007149994, -0.792269, 0, 0, -0.610172) /* PCAPRecordedLocation */
 /* @teleloc 0x02D101E0 [49.406800 -71.423000 0.007150] -0.792269 0.000000 0.000000 -0.610172 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43165, 8000, 3710431715) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43165,   1, 295, 0, 0) /* Strength */
@@ -115,20 +107,3 @@ VALUES (43165, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for 
      , (43165, 9, 28611,  0, 0, 0, False) /* Create Viamontian Laced Boots (28611) for ContainTreasure */
      , (43165, 9, 20540,  0, 0, 0, False) /* Create Scroll of Celcynd's Boon (20540) for ContainTreasure */
      , (43165, 9, 31781,  0, 0, 0, False) /* Create Electric Spine Glaive (31781) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43165, 67114263, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43165, 0, 83894330, 83894331)
-     , (43165, 1, 83894320, 83894325)
-     , (43165, 1, 83894373, 83894326)
-     , (43165, 2, 83894328, 83894324)
-     , (43165, 5, 83894328, 83894324);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43165, 0, 16788470)
-     , (43165, 1, 16788471)
-     , (43165, 2, 16788483)
-     , (43165, 5, 16788484)
-     , (43165, 14, 16788538);

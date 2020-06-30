@@ -12,8 +12,7 @@ VALUES (23327,   1,    4194304) /* ItemType - CraftCookingBase */
      , (23327,  15,       1500) /* StackUnitValue */
      , (23327,  16,          1) /* ItemUseable - No */
      , (23327,  19,       1500) /* Value */
-     , (23327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23327, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23327,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23327,   1, 'Simple Dried Rations') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23327,   1,   33554817) /* Setup */
      , (23327,   3,  536870932) /* SoundTable */
      , (23327,   8,  100674003) /* Icon */
-     , (23327,  22,  872415275) /* PhysicsEffectTable */
-     , (23327, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (23327, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (23327, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23327, 8000, 2253986830) /* PCAPRecordedObjectIID */;
+     , (23327,  22,  872415275) /* PhysicsEffectTable */;

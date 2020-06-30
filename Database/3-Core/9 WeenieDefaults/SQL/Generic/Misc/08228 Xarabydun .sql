@@ -8,8 +8,7 @@ VALUES (8228,   1,        128) /* ItemType - Misc */
      , (8228,   5,       9000) /* EncumbranceVal */
      , (8228,  16,          1) /* ItemUseable - No */
      , (8228,  19,        125) /* Value */
-     , (8228,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (8228, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8228,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8228,   1, True ) /* Stuck */;
@@ -23,14 +22,8 @@ VALUES (8228,   1, 'Xarabydun ') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8228,   1,   33556865) /* Setup */
-     , (8228,   8,  100668115) /* Icon */
-     , (8228, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (8228, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8228, 8005,     163969) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame */;
+     , (8228,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8228, 8040, 2471165993, 130.024, 9.08462, 15.16467, 0.926734, 0, 0, -0.375719) /* PCAPRecordedLocation */
 /* @teleloc 0x934B0029 [130.024000 9.084620 15.164670] 0.926734 0.000000 0.000000 -0.375719 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8228, 8000, 2033496065) /* PCAPRecordedObjectIID */;

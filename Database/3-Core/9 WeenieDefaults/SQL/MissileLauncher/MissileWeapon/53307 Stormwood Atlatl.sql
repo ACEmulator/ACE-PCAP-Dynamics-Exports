@@ -27,9 +27,7 @@ VALUES (53307,   1,        256) /* ItemType - MissileWeapon */
      , (53307, 158,          2) /* WieldRequirements - RawSkill */
      , (53307, 159,         47) /* WieldSkillType - MissileWeapons */
      , (53307, 160,        385) /* WieldDifficulty */
-     , (53307, 204,         22) /* ElementalDamageBonus */
-     , (53307, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (53307, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53307, 204,         22) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53307,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (53307,   5,  -0.025) /* ManaRate */
      , (53307,  29,    1.18) /* WeaponDefense */
      , (53307,  39,     1.1) /* DefaultScale */
      , (53307,  62,       1) /* WeaponOffense */
-     , (53307,  63,    2.57) /* DamageMod */
-     , (53307, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53307,  63,    2.57) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53307,   1, 'Stormwood Atlatl') /* Name */
@@ -54,13 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53307,   1,   33561662) /* Setup */
      , (53307,   3,  536870932) /* SoundTable */
      , (53307,   8,  100693333) /* Icon */
-     , (53307,  22,  872415275) /* PhysicsEffectTable */
-     , (53307, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (53307, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (53307, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53307, 8000, 3630241481) /* PCAPRecordedObjectIID */;
+     , (53307,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53307,  4395,      2) 

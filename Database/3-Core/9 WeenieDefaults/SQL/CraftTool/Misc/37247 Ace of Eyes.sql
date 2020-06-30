@@ -13,8 +13,7 @@ VALUES (37247,   1,        128) /* ItemType - Misc */
      , (37247,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37247,  19,          0) /* Value */
      , (37247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37247,  94,        128) /* TargetType - Misc */
-     , (37247, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37247,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37247,   1, 'Ace of Eyes') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37247,   1,   33560547) /* Setup */
      , (37247,   3,  536870932) /* SoundTable */
      , (37247,   8,  100689855) /* Icon */
-     , (37247,  22,  872415275) /* PhysicsEffectTable */
-     , (37247, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (37247, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37247, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37247, 8000, 3301414496) /* PCAPRecordedObjectIID */;
+     , (37247,  22,  872415275) /* PhysicsEffectTable */;

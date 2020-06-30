@@ -8,8 +8,7 @@ VALUES (13467,   1,        128) /* ItemType - Misc */
      , (13467,   5,         10) /* EncumbranceVal */
      , (13467,  16,          1) /* ItemUseable - No */
      , (13467,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
-     , (13467, 155,          1) /* HouseType - Cottage */
-     , (13467, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (13467, 155,          1) /* HouseType - Cottage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13467,   1, True ) /* Stuck */
@@ -24,14 +23,8 @@ VALUES (13467,   1, 'Cottage') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13467,   1,   33557058) /* Setup */
      , (13467,   8,  100671873) /* Icon */
-     , (13467,  30,        152) /* PhysicsScript - RestrictionEffectBlue */
-     , (13467, 8001,  203423760) /* PCAPRecordedWeenieHeader - Usable, Burden, HouseRestrictions, PScript */
-     , (13467, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (13467, 8005,     163969) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Position, AnimationFrame */;
+     , (13467,  30,        152) /* PhysicsScript - RestrictionEffectBlue */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13467, 8040, 1741226280, 110.934, 35.9694, 73.9995, -0.02188771, 0, 0, -0.9997604) /* PCAPRecordedLocation */
 /* @teleloc 0x67C90128 [110.934000 35.969400 73.999500] -0.021888 0.000000 0.000000 -0.999760 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13467, 8000, 1987875235) /* PCAPRecordedObjectIID */;

@@ -23,8 +23,7 @@ VALUES (28608,   1,          4) /* ItemType - Clothing */
      , (28608, 131,          6) /* MaterialType - Silk */
      , (28608, 172,          5) /* AppraisalLongDescDecoration */
      , (28608, 177,          2) /* GemCount */
-     , (28608, 178,         39) /* GemType */
-     , (28608, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28608, 178,         39) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28608,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (28608,   5,  -0.056) /* ManaRate */
      , (28608,  17,     0.2) /* ArmorModVsFire */
      , (28608,  18,     0.1) /* ArmorModVsAcid */
      , (28608,  19,     0.2) /* ArmorModVsElectric */
-     , (28608, 165,       1) /* ArmorModVsNether */
-     , (28608, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (28608, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28608,   1, 'Poet''s Shirt') /* Name */
@@ -51,13 +49,7 @@ VALUES (28608,   1,   33554854) /* Setup */
      , (28608,   3,  536870932) /* SoundTable */
      , (28608,   6,   67108990) /* PaletteBase */
      , (28608,   8,  100682377) /* Icon */
-     , (28608,  22,  872415275) /* PhysicsEffectTable */
-     , (28608, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28608, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28608, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28608, 8000, 2174536647) /* PCAPRecordedObjectIID */;
+     , (28608,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28608,  2149,      2) ;
@@ -65,15 +57,3 @@ VALUES (28608,  2149,      2) ;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28608, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (28608, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28608, 67115783, 44, 20)
-     , (28608, 67115793, 40, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28608, 0, 83887061, 83896975)
-     , (28608, 0, 83887060, 83896976)
-     , (28608, 0, 83886796, 83896977);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28608, 0, 16779535);

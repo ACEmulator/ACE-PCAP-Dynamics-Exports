@@ -27,9 +27,7 @@ VALUES (46208,   1,          1) /* ItemType - MeleeWeapon */
      , (46208, 158,          2) /* WieldRequirements - RawSkill */
      , (46208, 159,         45) /* WieldSkillType - LightWeapons */
      , (46208, 160,        400) /* WieldDifficulty */
-     , (46208, 166,         62) /* SlayerCreatureType - Elemental */
-     , (46208, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (46208, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46208, 166,         62) /* SlayerCreatureType - Elemental */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46208,  22, True ) /* Inscribable */
@@ -53,13 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46208,   1,   33556260) /* Setup */
      , (46208,   3,  536870932) /* SoundTable */
      , (46208,   8,  100673208) /* Icon */
-     , (46208,  22,  872415275) /* PhysicsEffectTable */
-     , (46208, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (46208, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46208, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46208, 8000, 2148597951) /* PCAPRecordedObjectIID */;
+     , (46208,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46208,  2096,      2) 
@@ -68,11 +60,3 @@ VALUES (46208,  2096,      2)
      , (46208,  2116,      2) 
      , (46208,  2504,      2) 
      , (46208,  2586,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46208, 0, 83889235, 83892492)
-     , (46208, 0, 83889237, 83892492)
-     , (46208, 0, 83889688, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46208, 0, 16783997);

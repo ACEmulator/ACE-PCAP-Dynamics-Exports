@@ -17,8 +17,7 @@ VALUES (30034,   1,         16) /* ItemType - Creature */
      , (30034, 113,          2) /* Gender - Female */
      , (30034, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30034, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30034, 188,          4) /* HeritageGroup - Viamontian */
-     , (30034, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30034, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30034,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30034,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30034,   1, 'Tailor Monique du Bressa') /* Name */
-     , (30034,   5, 'Tailor') /* Template */
-     , (30034, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30034,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30034,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30034,   1,   33554510) /* Setup */
      , (30034,  11,   83890358) /* MouthTexture */
      , (30034,  15,   67117105) /* HairPalette */
      , (30034,  16,   67110065) /* EyesPalette */
-     , (30034,  17,   67115908) /* SkinPalette */
-     , (30034, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30034, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30034, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30034,  17,   67115908) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30034, 8040, 869859590, 12.6309, 32.4963, 52.005, 0.9999698, 0, 0, -0.007773442) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90106 [12.630900 32.496300 52.005000] 0.999970 0.000000 0.000000 -0.007773 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30034, 8000, 1933414415) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30034,   1,  45, 0, 0) /* Strength */
@@ -97,55 +89,3 @@ VALUES (30034, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
      , (30034, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30034, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30034, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30034, 67110065, 32, 8)
-     , (30034, 67110339, 250, 6)
-     , (30034, 67110349, 160, 8)
-     , (30034, 67110546, 72, 8)
-     , (30034, 67111304, 64, 8)
-     , (30034, 67115908, 0, 24)
-     , (30034, 67115942, 40, 24)
-     , (30034, 67117105, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30034, 0, 83889072, 83889072)
-     , (30034, 0, 83889342, 83889342)
-     , (30034, 1, 83887064, 83886241)
-     , (30034, 2, 83887066, 83887055)
-     , (30034, 3, 83889344, 83887054)
-     , (30034, 4, 83887068, 83887054)
-     , (30034, 5, 83887064, 83886241)
-     , (30034, 6, 83887066, 83887055)
-     , (30034, 7, 83889344, 83887054)
-     , (30034, 8, 83887068, 83887054)
-     , (30034, 9, 83887070, 83897005)
-     , (30034, 9, 83887062, 83897006)
-     , (30034, 10, 83896977, 83897007)
-     , (30034, 11, 83896978, 83897008)
-     , (30034, 13, 83896977, 83897007)
-     , (30034, 14, 83896978, 83897008)
-     , (30034, 16, 83886232, 83890685)
-     , (30034, 16, 83886668, 83890258)
-     , (30034, 16, 83886837, 83890286)
-     , (30034, 16, 83886684, 83890358)
-     , (30034, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30034, 0, 16778359)
-     , (30034, 1, 16778430)
-     , (30034, 2, 16778436)
-     , (30034, 3, 16778361)
-     , (30034, 4, 16778426)
-     , (30034, 5, 16778438)
-     , (30034, 6, 16778437)
-     , (30034, 7, 16778360)
-     , (30034, 8, 16778428)
-     , (30034, 9, 16778425)
-     , (30034, 10, 16791876)
-     , (30034, 11, 16791877)
-     , (30034, 12, 16778423)
-     , (30034, 13, 16791878)
-     , (30034, 14, 16791877)
-     , (30034, 15, 16778435)
-     , (30034, 16, 16779630);

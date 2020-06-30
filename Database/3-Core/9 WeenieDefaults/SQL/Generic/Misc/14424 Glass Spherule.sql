@@ -10,8 +10,7 @@ VALUES (14424,   1,        128) /* ItemType - Misc */
      , (14424,  19,          0) /* Value */
      , (14424,  33,          1) /* Bonded - Bonded */
      , (14424,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (14424, 114,          1) /* Attuned - Attuned */
-     , (14424, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14424, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14424,  22, True ) /* Inscribable */;
@@ -22,16 +21,4 @@ VALUES (14424,   1, 'Glass Spherule') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14424,   1,   33556768) /* Setup */
-     , (14424,   8,  100672464) /* Icon */
-     , (14424, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (14424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (14424, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14424, 8000, 2780792206) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14424, 0, 83888861, 83893866);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14424, 0, 16787544);
+     , (14424,   8,  100672464) /* Icon */;

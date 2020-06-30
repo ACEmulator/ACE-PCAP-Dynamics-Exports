@@ -20,8 +20,7 @@ VALUES (43818,   1,      32768) /* ItemType - Caster */
      , (43818, 158,          2) /* WieldRequirements - RawSkill */
      , (43818, 159,         43) /* WieldSkillType - VoidMagic */
      , (43818, 160,        335) /* WieldDifficulty */
-     , (43818, 166,         22) /* SlayerCreatureType - Shadow */
-     , (43818, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43818, 166,         22) /* SlayerCreatureType - Shadow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43818,  22, True ) /* Inscribable */
@@ -44,10 +43,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43818,   1,   33561165) /* Setup */
      , (43818,   3,  536870932) /* SoundTable */
      , (43818,   8,  100691697) /* Icon */
-     , (43818,  22,  872415275) /* PhysicsEffectTable */
-     , (43818, 8001,  271138968) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, HookType */
-     , (43818, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (43818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43818, 8000, 2147529146) /* PCAPRecordedObjectIID */;
+     , (43818,  22,  872415275) /* PhysicsEffectTable */;

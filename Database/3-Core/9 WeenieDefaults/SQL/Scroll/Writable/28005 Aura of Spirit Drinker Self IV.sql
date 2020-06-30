@@ -8,8 +8,7 @@ VALUES (28005,   1,       8192) /* ItemType - Writable */
      , (28005,   5,         30) /* EncumbranceVal */
      , (28005,  16,          8) /* ItemUseable - Contained */
      , (28005,  19,        100) /* Value */
-     , (28005,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28005, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28005,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28005,  22, True ) /* Inscribable */;
@@ -27,17 +26,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28005,   1,   33554826) /* Setup */
      , (28005,   8,  100676674) /* Icon */
      , (28005,  22,  872415275) /* PhysicsEffectTable */
-     , (28005,  28,       3256) /* Spell - SpiritDrinkerSelf4 */
-     , (28005, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
-     , (28005, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28005, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
+     , (28005,  28,       3256) /* Spell - SpiritDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28005, 8040, 3060727837, 93.96178, 101.8744, 42.74537, 0.3562889, 0, 0, -0.9343758) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F001D [93.961780 101.874400 42.745370] 0.356289 0.000000 0.000000 -0.934376 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28005, 8000, 3685547041) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28005,  3256,      2) ;

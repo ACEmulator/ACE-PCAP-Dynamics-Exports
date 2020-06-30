@@ -19,14 +19,8 @@ VALUES (12617,   1, 'Leafdawning Settlement') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12617,   1,   33557463) /* Setup */
-     , (12617,   8,  100668115) /* Icon */
-     , (12617, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (12617, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12617, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (12617,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12617, 8040, 3247374366, 89.0536, 123.619, 11.69842, 0.999463, 0, 0, 0.0327549) /* PCAPRecordedLocation */
 /* @teleloc 0xC18F001E [89.053600 123.619000 11.698420] 0.999463 0.000000 0.000000 0.032755 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12617, 8000, 2082009521) /* PCAPRecordedObjectIID */;

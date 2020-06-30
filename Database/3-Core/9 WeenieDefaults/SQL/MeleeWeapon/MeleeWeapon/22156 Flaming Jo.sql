@@ -23,9 +23,7 @@ VALUES (22156,   1,          1) /* ItemType - MeleeWeapon */
      , (22156, 172,          5) /* AppraisalLongDescDecoration */
      , (22156, 177,          1) /* GemCount */
      , (22156, 178,         29) /* GemType */
-     , (22156, 353,          7) /* WeaponType - Staff */
-     , (22156, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22156, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22156, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22156,  22, True ) /* Inscribable */;
@@ -37,8 +35,7 @@ VALUES (22156,  21,       0) /* WeaponLength */
      , (22156,  29,    1.07) /* WeaponDefense */
      , (22156,  39,     0.8) /* DefaultScale */
      , (22156,  62,       1) /* WeaponOffense */
-     , (22156,  63,       1) /* DamageMod */
-     , (22156, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (22156,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22156,   1, 'Flaming Jo') /* Name */
@@ -50,21 +47,4 @@ VALUES (22156,   1,   33558076) /* Setup */
      , (22156,   6,   67111919) /* PaletteBase */
      , (22156,   8,  100673620) /* Icon */
      , (22156,  22,  872415275) /* PhysicsEffectTable */
-     , (22156,  52,  100676441) /* IconUnderlay */
-     , (22156, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (22156, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (22156, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (22156, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22156, 8000, 2174539820) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22156, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22156, 0, 83894357, 83894357)
-     , (22156, 0, 83894155, 83894155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22156, 0, 16788504);
+     , (22156,  52,  100676441) /* IconUnderlay */;

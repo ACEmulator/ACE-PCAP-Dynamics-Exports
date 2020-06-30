@@ -12,8 +12,7 @@ VALUES (36829,   1,         16) /* ItemType - Creature */
      , (36829,  25,        100) /* Level */
      , (36829,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (36829, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (36829, 307,          2) /* DamageRating */
-     , (36829, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36829, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36829,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36829,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36829,   1, 'Acidic Diamond Golem') /* Name */
-     , (36829, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (36829,   1, 'Acidic Diamond Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36829,   1,   33556439) /* Setup */
@@ -31,17 +29,11 @@ VALUES (36829,   1,   33556439) /* Setup */
      , (36829,   3,  536870933) /* SoundTable */
      , (36829,   6,   67112808) /* PaletteBase */
      , (36829,   8,  100667940) /* Icon */
-     , (36829,  22,  872415322) /* PhysicsEffectTable */
-     , (36829, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (36829, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (36829, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (36829,  22,  872415322) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36829, 8040, 2279079984, 141.7652, 177.1462, 149.2478, -0.9232013, 0, 0, -0.3843167) /* PCAPRecordedLocation */
 /* @teleloc 0x87D80030 [141.765200 177.146200 149.247800] -0.923201 0.000000 0.000000 -0.384317 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36829, 8000, 3684249901) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36829,   1, 250, 0, 0) /* Strength */
@@ -100,40 +92,3 @@ VALUES (36829, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) fo
      , (36829, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
      , (36829, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
      , (36829, 9,  7338,  0, 0, 0, False) /* Create Diamond Heart (7338) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36829, 67112807, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36829, 0, 83892433, 83892492)
-     , (36829, 0, 83892432, 83892425)
-     , (36829, 1, 83892433, 83892492)
-     , (36829, 1, 83892432, 83892425)
-     , (36829, 2, 83892433, 83892492)
-     , (36829, 2, 83892432, 83892425)
-     , (36829, 4, 83892433, 83892492)
-     , (36829, 4, 83892432, 83892425)
-     , (36829, 5, 83892433, 83892492)
-     , (36829, 5, 83892432, 83892425)
-     , (36829, 7, 83892433, 83892492)
-     , (36829, 7, 83892432, 83892425)
-     , (36829, 8, 83892433, 83892492)
-     , (36829, 8, 83892432, 83892425)
-     , (36829, 9, 83892433, 83892492)
-     , (36829, 9, 83892432, 83892425)
-     , (36829, 11, 83892433, 83892492)
-     , (36829, 11, 83892432, 83892425)
-     , (36829, 12, 83892433, 83892492)
-     , (36829, 12, 83892432, 83892425);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36829, 0, 16784246)
-     , (36829, 1, 16784186)
-     , (36829, 2, 16784180)
-     , (36829, 4, 16784189)
-     , (36829, 5, 16784183)
-     , (36829, 7, 16784200)
-     , (36829, 8, 16784203)
-     , (36829, 9, 16784193)
-     , (36829, 11, 16784204)
-     , (36829, 12, 16784196);

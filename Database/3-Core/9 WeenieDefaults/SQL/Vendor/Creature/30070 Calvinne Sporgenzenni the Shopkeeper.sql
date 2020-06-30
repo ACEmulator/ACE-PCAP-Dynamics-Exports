@@ -17,8 +17,7 @@ VALUES (30070,   1,         16) /* ItemType - Creature */
      , (30070, 113,          1) /* Gender - Male */
      , (30070, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30070, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30070, 188,          4) /* HeritageGroup - Viamontian */
-     , (30070, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30070, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30070,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30070,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30070,   1, 'Calvinne Sporgenzenni the Shopkeeper') /* Name */
-     , (30070,   5, 'Shopkeeper') /* Template */
-     , (30070, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30070,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30070,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30070,   1,   33554433) /* Setup */
      , (30070,  11,   83890663) /* MouthTexture */
      , (30070,  15,   67117025) /* HairPalette */
      , (30070,  16,   67110065) /* EyesPalette */
-     , (30070,  17,   67115901) /* SkinPalette */
-     , (30070, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30070, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30070, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30070,  17,   67115901) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30070, 8040, 669778226, 110.405, 110.088, 83.195, -0.01406318, 0, 0, -0.9999011) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0132 [110.405000 110.088000 83.195000] -0.014063 0.000000 0.000000 -0.999901 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30070, 8000, 1920909320) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30070,   1,  90, 0, 0) /* Strength */
@@ -120,48 +112,3 @@ VALUES (30070, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (30070, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30070, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30070, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30070, 67110026, 72, 8)
-     , (30070, 67110065, 32, 8)
-     , (30070, 67110318, 216, 24)
-     , (30070, 67110370, 64, 8)
-     , (30070, 67115580, 240, 10)
-     , (30070, 67115603, 250, 6)
-     , (30070, 67115852, 160, 8)
-     , (30070, 67115901, 0, 24)
-     , (30070, 67115944, 40, 24)
-     , (30070, 67117025, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30070, 0, 83889072, 83890012)
-     , (30070, 0, 83889342, 83890011)
-     , (30070, 1, 83887064, 83886241)
-     , (30070, 2, 83887066, 83887055)
-     , (30070, 5, 83887064, 83886241)
-     , (30070, 6, 83887066, 83887055)
-     , (30070, 9, 83887061, 83890009)
-     , (30070, 9, 83887060, 83890010)
-     , (30070, 16, 83886232, 83890685)
-     , (30070, 16, 83886668, 83890479)
-     , (30070, 16, 83886837, 83890560)
-     , (30070, 16, 83886684, 83890663);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30070, 0, 16781835)
-     , (30070, 1, 16777295)
-     , (30070, 2, 16777293)
-     , (30070, 3, 16791879)
-     , (30070, 4, 16791881)
-     , (30070, 5, 16777299)
-     , (30070, 6, 16777297)
-     , (30070, 7, 16791880)
-     , (30070, 8, 16791882)
-     , (30070, 9, 16777300)
-     , (30070, 10, 16777301)
-     , (30070, 11, 16777302)
-     , (30070, 12, 16777304)
-     , (30070, 13, 16777303)
-     , (30070, 14, 16777305)
-     , (30070, 15, 16777307)
-     , (30070, 16, 16791874);

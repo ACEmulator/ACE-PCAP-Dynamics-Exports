@@ -11,8 +11,7 @@ VALUES (33736,   1,         16) /* ItemType - Creature */
      , (33736,  16,          1) /* ItemUseable - No */
      , (33736,  25,        185) /* Level */
      , (33736,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33736, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33736, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33736, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33736,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33736,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33736,   1, 'Remoran Corsair') /* Name */
-     , (33736, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33736,   1, 'Remoran Corsair') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33736,   1,   33559700) /* Setup */
@@ -30,17 +28,11 @@ VALUES (33736,   1,   33559700) /* Setup */
      , (33736,   3,  536871103) /* SoundTable */
      , (33736,   6,   67116726) /* PaletteBase */
      , (33736,   8,  100667937) /* Icon */
-     , (33736,  22,  872415414) /* PhysicsEffectTable */
-     , (33736, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33736, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33736, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (33736,  22,  872415414) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33736, 8040, 3354066969, 73.338, 16.8839, 0, 0.6745316, 0, 0, -0.738246) /* PCAPRecordedLocation */
 /* @teleloc 0xC7EB0019 [73.338000 16.883900 0.000000] 0.674532 0.000000 0.000000 -0.738246 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33736, 8000, 3359850743) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33736,   1, 400, 0, 0) /* Strength */
@@ -113,6 +105,3 @@ VALUES (33736, 9, 49533,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (1
      , (33736, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */
      , (33736, 9, 43049,  0, 0, 0, False) /* Create Knorr Academy Gauntlets (43049) for ContainTreasure */
      , (33736, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33736, 67116728, 0, 0);

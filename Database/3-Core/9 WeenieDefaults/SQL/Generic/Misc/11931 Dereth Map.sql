@@ -9,8 +9,7 @@ VALUES (11931,   1,        128) /* ItemType - Misc */
      , (11931,  16,          1) /* ItemUseable - No */
      , (11931,  19,     100000) /* Value */
      , (11931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11931, 151,          2) /* HookType - Wall */
-     , (11931, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11931, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11931,  22, True ) /* Inscribable */;
@@ -21,10 +20,4 @@ VALUES (11931,   1, 'Dereth Map') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11931,   1,   33557150) /* Setup */
-     , (11931,   8,  100671775) /* Icon */
-     , (11931, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (11931, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11931, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11931, 8000, 3658160300) /* PCAPRecordedObjectIID */;
+     , (11931,   8,  100671775) /* Icon */;

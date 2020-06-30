@@ -23,8 +23,7 @@ VALUES (42749,   1,          2) /* ItemType - Armor */
      , (42749, 131,         63) /* MaterialType - Silver */
      , (42749, 172,          5) /* AppraisalLongDescDecoration */
      , (42749, 177,          4) /* GemCount */
-     , (42749, 178,         41) /* GemType */
-     , (42749, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42749, 178,         41) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42749,  22, True ) /* Inscribable */
@@ -39,8 +38,7 @@ VALUES (42749,   5,  -0.056) /* ManaRate */
      , (42749,  17,   1.054) /* ArmorModVsFire */
      , (42749,  18,     0.6) /* ArmorModVsAcid */
      , (42749,  19,     0.4) /* ArmorModVsElectric */
-     , (42749, 165,       1) /* ArmorModVsNether */
-     , (42749, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (42749, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42749,   1, 'Haebrean Breastplate') /* Name */
@@ -51,24 +49,10 @@ VALUES (42749,   1,   33554642) /* Setup */
      , (42749,   3,  536870932) /* SoundTable */
      , (42749,   6,   67108990) /* PaletteBase */
      , (42749,   8,  100691077) /* Icon */
-     , (42749,  22,  872415275) /* PhysicsEffectTable */
-     , (42749, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (42749, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42749, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42749, 8000, 3705344407) /* PCAPRecordedObjectIID */;
+     , (42749,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42749,   279,      2) 
      , (42749,  1486,      2) 
      , (42749,  2548,      2) 
      , (42749,  2601,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42749, 67110012, 186, 12)
-     , (42749, 67110012, 174, 12)
-     , (42749, 67110547, 216, 24);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42749, 0, 16794667);

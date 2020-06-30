@@ -11,8 +11,7 @@ VALUES (7106,   1,         16) /* ItemType - Creature */
      , (7106,  16,          1) /* ItemUseable - No */
      , (7106,  25,         50) /* Level */
      , (7106,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7106, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7106, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7106, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7106,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (7106,  39,       3) /* DefaultScale */
      , (7106,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7106,   1, 'Sewer Rat') /* Name */
-     , (7106, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7106,   1, 'Sewer Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7106,   1,   33554493) /* Setup */
@@ -32,17 +30,11 @@ VALUES (7106,   1,   33554493) /* Setup */
      , (7106,   6,   67109300) /* PaletteBase */
      , (7106,   8,  100667451) /* Icon */
      , (7106,  22,  872415267) /* PhysicsEffectTable */
-     , (7106,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (7106, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7106, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7106, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (7106,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7106, 8040, 3052011778, 132.436, 62.1387, 34.812, -0.203965, 0, 0, -0.9789782) /* PCAPRecordedLocation */
 /* @teleloc 0xB5EA0102 [132.436000 62.138700 34.812000] -0.203965 0.000000 0.000000 -0.978978 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7106, 8000, 3689891321) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7106,   1, 140, 0, 0) /* Strength */
@@ -187,6 +179,3 @@ VALUES (7106, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for Contai
      , (7106, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */
      , (7106, 9,  3763,  0, 0, 0, False) /* Create Lightning Budiaq (3763) for ContainTreasure */
      , (7106, 9,  3234,  0, 0, 0, False) /* Create Scroll of Deception Ineptitude III (3234) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7106, 67112878, 0, 0);

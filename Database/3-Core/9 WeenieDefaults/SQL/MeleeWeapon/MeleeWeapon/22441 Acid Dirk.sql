@@ -28,9 +28,7 @@ VALUES (22441,   1,          1) /* ItemType - MeleeWeapon */
      , (22441, 151,          2) /* HookType - Wall */
      , (22441, 172,          1) /* AppraisalLongDescDecoration */
      , (22441, 176,         44) /* AppraisalItemSkill */
-     , (22441, 353,          6) /* WeaponType - Dagger */
-     , (22441, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22441, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22441, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22441,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (22441,   5,  -0.025) /* ManaRate */
      , (22441,  26,       0) /* MaximumVelocity */
      , (22441,  29,    1.02) /* WeaponDefense */
      , (22441,  62,    1.02) /* WeaponOffense */
-     , (22441,  63,       1) /* DamageMod */
-     , (22441, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (22441,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22441,   1, 'Acid Dirk') /* Name */
@@ -54,26 +51,7 @@ VALUES (22441,   1,   33558092) /* Setup */
      , (22441,   3,  536870932) /* SoundTable */
      , (22441,   6,   67111919) /* PaletteBase */
      , (22441,   8,  100673790) /* Icon */
-     , (22441,  22,  872415275) /* PhysicsEffectTable */
-     , (22441, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (22441, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22441, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22441, 8000, 3692420389) /* PCAPRecordedObjectIID */;
+     , (22441,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22441,  1613,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22441, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22441, 0, 83886739, 83886739)
-     , (22441, 0, 83894357, 83894357)
-     , (22441, 0, 83894375, 83894375)
-     , (22441, 0, 83886709, 83886709)
-     , (22441, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22441, 0, 16788591);

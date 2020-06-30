@@ -17,8 +17,7 @@ VALUES (4684,   1,         16) /* ItemType - Creature */
      , (4684, 113,          2) /* Gender - Female */
      , (4684, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4684, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4684, 188,          2) /* HeritageGroup - Gharundim */
-     , (4684, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4684, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4684,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4684,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4684,   1, 'Bashkiya the Scribe') /* Name */
-     , (4684,   5, 'Scribe') /* Template */
-     , (4684, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4684,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4684,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4684,   1,   33554510) /* Setup */
      , (4684,  11,   83890356) /* MouthTexture */
      , (4684,  15,   67117019) /* HairPalette */
      , (4684,  16,   67110062) /* EyesPalette */
-     , (4684,  17,   67109550) /* SkinPalette */
-     , (4684, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4684, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4684, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4684,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4684, 8040, 2421686547, 185.989, 131.855, 0.004999995, -0.8231989, 0, 0, -0.5677531) /* PCAPRecordedLocation */
 /* @teleloc 0x90580113 [185.989000 131.855000 0.005000] -0.823199 0.000000 0.000000 -0.567753 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4684, 8000, 2030403593) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4684,   1,  70, 0, 0) /* Strength */
@@ -88,56 +80,3 @@ VALUES (4684, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (4684, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (4684, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
      , (4684, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4684, 67109550, 0, 24)
-     , (4684, 67109969, 92, 4)
-     , (4684, 67110026, 72, 8)
-     , (4684, 67110062, 32, 8)
-     , (4684, 67110320, 64, 8)
-     , (4684, 67110320, 160, 8)
-     , (4684, 67110356, 216, 24)
-     , (4684, 67110356, 240, 10)
-     , (4684, 67111245, 40, 24)
-     , (4684, 67117019, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4684, 0, 83889072, 83890012)
-     , (4684, 0, 83889342, 83890011)
-     , (4684, 1, 83887064, 83886241)
-     , (4684, 2, 83887066, 83887055)
-     , (4684, 3, 83889344, 83887054)
-     , (4684, 4, 83887068, 83887054)
-     , (4684, 5, 83887064, 83886241)
-     , (4684, 6, 83887066, 83887055)
-     , (4684, 7, 83889344, 83887054)
-     , (4684, 8, 83887068, 83887054)
-     , (4684, 9, 83887070, 83890009)
-     , (4684, 9, 83887062, 83890010)
-     , (4684, 10, 83887069, 83886782)
-     , (4684, 13, 83887069, 83886782)
-     , (4684, 16, 83886232, 83890685)
-     , (4684, 16, 83886668, 83890277)
-     , (4684, 16, 83886837, 83890304)
-     , (4684, 16, 83886684, 83890356)
-     , (4684, 16, 83888783, 83888783)
-     , (4684, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4684, 0, 16781875)
-     , (4684, 1, 16781876)
-     , (4684, 2, 16781916)
-     , (4684, 3, 16777292)
-     , (4684, 4, 16781855)
-     , (4684, 5, 16781877)
-     , (4684, 6, 16781917)
-     , (4684, 7, 16777296)
-     , (4684, 8, 16781859)
-     , (4684, 9, 16778425)
-     , (4684, 10, 16778431)
-     , (4684, 11, 16778429)
-     , (4684, 12, 16778423)
-     , (4684, 13, 16778434)
-     , (4684, 14, 16778424)
-     , (4684, 15, 16778435)
-     , (4684, 16, 16778476);

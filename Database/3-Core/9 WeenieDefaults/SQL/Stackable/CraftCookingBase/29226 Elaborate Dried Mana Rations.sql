@@ -13,8 +13,7 @@ VALUES (29226,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29226,  16,          1) /* ItemUseable - No */
      , (29226,  18,          8) /* UiEffects - BoostMana */
      , (29226,  19,       2000) /* Value */
-     , (29226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29226, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29226,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29226,   1, 'Elaborate Dried Mana Rations') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29226,   1,   33554817) /* Setup */
      , (29226,   3,  536870932) /* SoundTable */
      , (29226,   8,  100674002) /* Icon */
-     , (29226,  22,  872415275) /* PhysicsEffectTable */
-     , (29226, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (29226, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29226, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29226, 8000, 2929816779) /* PCAPRecordedObjectIID */;
+     , (29226,  22,  872415275) /* PhysicsEffectTable */;

@@ -18,8 +18,7 @@ VALUES (31868,   1,          2) /* ItemType - Armor */
      , (31868, 151,          2) /* HookType - Wall */
      , (31868, 172,          5) /* AppraisalLongDescDecoration */
      , (31868, 177,          2) /* GemCount */
-     , (31868, 178,         28) /* GemType */
-     , (31868, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31868, 178,         28) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31868,  22, True ) /* Inscribable */
@@ -33,8 +32,7 @@ VALUES (31868,  13,     1.3) /* ArmorModVsSlash */
      , (31868,  17,     0.4) /* ArmorModVsFire */
      , (31868,  18,     0.6) /* ArmorModVsAcid */
      , (31868,  19,     0.4) /* ArmorModVsElectric */
-     , (31868, 165,       1) /* ArmorModVsNether */
-     , (31868, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31868, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31868,   1, 'Signet Crown') /* Name */
@@ -45,17 +43,7 @@ VALUES (31868,   1,   33559738) /* Setup */
      , (31868,   3,  536870932) /* SoundTable */
      , (31868,   6,   67108990) /* PaletteBase */
      , (31868,   8,  100688228) /* Icon */
-     , (31868,  22,  872415275) /* PhysicsEffectTable */
-     , (31868, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (31868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31868, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31868, 8000, 2656413824) /* PCAPRecordedObjectIID */;
+     , (31868,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31868, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31868, 67110321, 240, 10)
-     , (31868, 67110343, 250, 6);

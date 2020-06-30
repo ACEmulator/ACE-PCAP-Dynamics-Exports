@@ -12,8 +12,7 @@ VALUES (28652,   1,         16) /* ItemType - Creature */
      , (28652,  25,        135) /* Level */
      , (28652,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28652, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28652, 307,          5) /* DamageRating */
-     , (28652, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28652, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28652,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28652,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28652,   1, 'Viamontian Tribune') /* Name */
-     , (28652, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28652,   1, 'Viamontian Tribune') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28652,   1,   33559125) /* Setup */
@@ -31,17 +29,11 @@ VALUES (28652,   1,   33559125) /* Setup */
      , (28652,   3,  536871102) /* SoundTable */
      , (28652,   6,   67115468) /* PaletteBase */
      , (28652,   8,  100677371) /* Icon */
-     , (28652,  22,  872415269) /* PhysicsEffectTable */
-     , (28652, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28652, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28652, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28652,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28652, 8040, 1173487637, 70.54451, 116.9794, 56.33628, -0.181337, 0, 0, -0.983421) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20015 [70.544510 116.979400 56.336280] -0.181337 0.000000 0.000000 -0.983421 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28652, 8000, 3690116733) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28652,   1, 395, 0, 0) /* Strength */
@@ -678,6 +670,3 @@ VALUES (28652, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield 
      , (28652, 9, 20483,  0, 0, 0, False) /* Create Scroll of Boon of the Arrow Turner (20483) for ContainTreasure */
      , (28652, 9,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for ContainTreasure */
      , (28652, 9, 20553,  0, 0, 0, False) /* Create Scroll of Harlune's Boon (20553) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28652, 67115517, 0, 0);

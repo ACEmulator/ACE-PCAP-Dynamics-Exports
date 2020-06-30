@@ -12,8 +12,7 @@ VALUES (8122,   1,         16) /* ItemType - Creature */
      , (8122,  25,         50) /* Level */
      , (8122,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (8122, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (8122, 307,          5) /* DamageRating */
-     , (8122, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8122, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8122,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8122,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (8122,   1, 'Sahoni Arsanc') /* Name */
-     , (8122, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (8122,   1, 'Sahoni Arsanc') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8122,   1,   33554839) /* Setup */
@@ -31,17 +29,11 @@ VALUES (8122,   1,   33554839) /* Setup */
      , (8122,   3,  536870934) /* SoundTable */
      , (8122,   6,   67110722) /* PaletteBase */
      , (8122,   8,  100667942) /* Icon */
-     , (8122,  22,  872415272) /* PhysicsEffectTable */
-     , (8122, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (8122, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (8122, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (8122,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8122, 8040, 47841710, 59.2367, -322.289, -77.99175, 0.9996473, 0, 0, 0.02655801) /* PCAPRecordedLocation */
 /* @teleloc 0x02DA01AE [59.236700 -322.289000 -77.991750] 0.999647 0.000000 0.000000 0.026558 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8122, 8000, 2884656572) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8122,   1, 110, 0, 0) /* Strength */
@@ -65,6 +57,3 @@ VALUES (8122, 2, 47673,  1, 0, 0, False) /* Create Flaming Tachi (47673) for Wie
      , (8122, 9,  3041,  0, 0, 0, False) /* Create Scroll of Fire Protection Self V (3041) for ContainTreasure */
      , (8122, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (8122, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8122, 67111341, 0, 0);

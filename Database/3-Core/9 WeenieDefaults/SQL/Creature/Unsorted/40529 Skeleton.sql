@@ -33,8 +33,7 @@ VALUES (40529,   1,         16) /* ItemType - Creature */
      , (40529, 386,          0) /* Overpower */
      , (40529, 387,          0) /* OverpowerResist */
      , (40529, 388,          0) /* GearOverpower */
-     , (40529, 389,          0) /* GearOverpowerResist */
-     , (40529, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40529, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40529,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (40529,  39,     1.2) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40529,   1, 'Skeleton') /* Name */
-     , (40529,  15, 'The skeletal remains of poor deceased soul.') /* ShortDesc */
-     , (40529, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (40529,  15, 'The skeletal remains of poor deceased soul.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40529,   1,   33554521) /* Setup */
      , (40529,   2,  150994981) /* MotionTable */
      , (40529,   3,  536870942) /* SoundTable */
      , (40529,   8,  100669124) /* Icon */
-     , (40529,  22,  872415269) /* PhysicsEffectTable */
-     , (40529, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (40529, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (40529, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (40529,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40529, 8040, 836108553, 111.964, 123.356, 90.003, 0.989022, 0, 0, -0.147769) /* PCAPRecordedLocation */
 /* @teleloc 0x31D60109 [111.964000 123.356000 90.003000] 0.989022 0.000000 0.000000 -0.147769 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40529, 8000, 3691226540) /* PCAPRecordedObjectIID */;

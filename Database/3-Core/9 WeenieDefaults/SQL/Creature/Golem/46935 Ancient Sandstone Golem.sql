@@ -11,15 +11,13 @@ VALUES (46935,   1,         16) /* ItemType - Creature */
      , (46935,  16,          1) /* ItemUseable - No */
      , (46935,  25,        240) /* Level */
      , (46935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (46935, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46935, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46935,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46935,   1, 'Ancient Sandstone Golem') /* Name */
-     , (46935, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (46935,   1, 'Ancient Sandstone Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46935,   1,   33556426) /* Setup */
@@ -27,17 +25,11 @@ VALUES (46935,   1,   33556426) /* Setup */
      , (46935,   3,  536870933) /* SoundTable */
      , (46935,   6,   67112775) /* PaletteBase */
      , (46935,   8,  100667940) /* Icon */
-     , (46935,  22,  872415329) /* PhysicsEffectTable */
-     , (46935, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (46935, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46935, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (46935,  22,  872415329) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46935, 8040, 1481638175, 1.42074, -7.41002, 0.00999999, -0.6911359, 0, 0, 0.7227249) /* PCAPRecordedLocation */
 /* @teleloc 0x5850011F [1.420740 -7.410020 0.010000] -0.691136 0.000000 0.000000 0.722725 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46935, 8000, 3699751433) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46935,   1, 380, 0, 0) /* Strength */
@@ -72,6 +64,3 @@ VALUES (46935, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasu
      , (46935, 9, 20498,  0, 0, 0, False) /* Create Scroll of Hands of Chorizite (20498) for ContainTreasure */
      , (46935, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (46935, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46935, 67112822, 0, 0);

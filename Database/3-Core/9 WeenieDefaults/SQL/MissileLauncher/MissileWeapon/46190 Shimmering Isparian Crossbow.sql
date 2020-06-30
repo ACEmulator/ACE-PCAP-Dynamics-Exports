@@ -29,9 +29,7 @@ VALUES (46190,   1,        256) /* ItemType - MissileWeapon */
      , (46190, 159,         47) /* WieldSkillType - MissileWeapons */
      , (46190, 160,        315) /* WieldDifficulty */
      , (46190, 166,         62) /* SlayerCreatureType - Elemental */
-     , (46190, 204,          3) /* ElementalDamageBonus */
-     , (46190, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (46190, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (46190, 204,          3) /* ElementalDamageBonus */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46190,  22, True ) /* Inscribable */
@@ -57,35 +55,14 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46190,   1,   33557730) /* Setup */
      , (46190,   3,  536870932) /* SoundTable */
      , (46190,   8,  100673202) /* Icon */
-     , (46190,  22,  872415275) /* PhysicsEffectTable */
-     , (46190, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (46190, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46190, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (46190, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (46190,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46190, 8040, 459075, 70.026, -60.004, -0.07000001, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070143 [70.026000 -60.004000 -0.070000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46190, 8000, 2928621478) /* PCAPRecordedObjectIID */
-     , (46190, 8008, 1343188794) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46190,  2096,      2) 
      , (46190,  2101,      2) 
      , (46190,  2116,      2) 
      , (46190,  2505,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46190, 0, 83889688, 83892492)
-     , (46190, 0, 83893927, 83892492)
-     , (46190, 1, 83889688, 83892492)
-     , (46190, 1, 83893927, 83892492)
-     , (46190, 2, 83889688, 83892492)
-     , (46190, 2, 83893927, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46190, 0, 16787900)
-     , (46190, 1, 16787899)
-     , (46190, 2, 16787899);

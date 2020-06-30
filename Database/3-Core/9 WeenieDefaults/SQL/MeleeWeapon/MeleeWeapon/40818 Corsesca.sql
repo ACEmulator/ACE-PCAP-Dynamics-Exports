@@ -23,9 +23,7 @@ VALUES (40818,   1,          1) /* ItemType - MeleeWeapon */
      , (40818, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (40818, 160,        250) /* WieldDifficulty */
      , (40818, 172,          1) /* AppraisalLongDescDecoration */
-     , (40818, 353,         11) /* WeaponType - TwoHanded */
-     , (40818, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40818, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40818, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40818,  22, True ) /* Inscribable */;
@@ -36,8 +34,7 @@ VALUES (40818,  21,       0) /* WeaponLength */
      , (40818,  26,       0) /* MaximumVelocity */
      , (40818,  29,    1.01) /* WeaponDefense */
      , (40818,  62,    1.03) /* WeaponOffense */
-     , (40818,  63,       1) /* DamageMod */
-     , (40818, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (40818,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40818,   1, 'Corsesca') /* Name */
@@ -48,19 +45,4 @@ VALUES (40818,   1,   33560788) /* Setup */
      , (40818,   3,  536870932) /* SoundTable */
      , (40818,   6,   67115560) /* PaletteBase */
      , (40818,   8,  100690796) /* Icon */
-     , (40818,  22,  872415275) /* PhysicsEffectTable */
-     , (40818, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40818, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40818, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40818, 8000, 3696013398) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40818, 67116416, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40818, 0, 83896667, 83896667);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40818, 0, 16794281);
+     , (40818,  22,  872415275) /* PhysicsEffectTable */;

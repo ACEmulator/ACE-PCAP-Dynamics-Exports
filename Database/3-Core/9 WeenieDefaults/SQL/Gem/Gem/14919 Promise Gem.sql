@@ -12,8 +12,7 @@ VALUES (14919,   1,       2048) /* ItemType - Gem */
      , (14919,  15,          0) /* StackUnitValue */
      , (14919,  16,          8) /* ItemUseable - Contained */
      , (14919,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14919,  94,         16) /* TargetType - Creature */
-     , (14919, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14919,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14919,  22, True ) /* Inscribable */;
@@ -30,19 +29,4 @@ VALUES (14919,   1,   33554809) /* Setup */
      , (14919,   6,   67111919) /* PaletteBase */
      , (14919,   8,  100672698) /* Icon */
      , (14919,  22,  872415275) /* PhysicsEffectTable */
-     , (14919,  28,       1708) /* Spell - WeddingBliss */
-     , (14919, 8001,    6844432) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (14919, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (14919, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14919, 8000, 2166216954) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (14919, 67112926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14919, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14919, 0, 16779181);
+     , (14919,  28,       1708) /* Spell - WeddingBliss */;

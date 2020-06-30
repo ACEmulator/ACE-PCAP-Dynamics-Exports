@@ -11,8 +11,7 @@ VALUES (44082,   1,        512) /* ItemType - Container */
      , (44082,  16,         48) /* ItemUseable - ViewedRemote */
      , (44082,  19,       2500) /* Value */
      , (44082,  38,       9999) /* ResistLockpick */
-     , (44082,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (44082, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44082,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44082,   1, True ) /* Stuck */
@@ -27,25 +26,18 @@ VALUES (44082,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44082,   1, 'Magic Chest') /* Name */
      , (44082,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (44082,  16, 'A chest containing mostly items useful to a Mage. ') /* LongDesc */
-     , (44082, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (44082,  16, 'A chest containing mostly items useful to a Mage. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44082,   1,   33558320) /* Setup */
      , (44082,   2,  150995235) /* MotionTable */
      , (44082,   3,  536870945) /* SoundTable */
      , (44082,   8,  100674276) /* Icon */
-     , (44082,  22,  872415275) /* PhysicsEffectTable */
-     , (44082, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (44082, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44082, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (44082,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44082, 8040, 1465254389, 63.71, -32.601, 18, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x575601F5 [63.710000 -32.601000 18.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44082, 8000, 1970626611) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44082, -1, 4195, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Nekode (4195) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

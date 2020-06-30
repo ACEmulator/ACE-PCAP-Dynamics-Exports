@@ -15,8 +15,7 @@ VALUES (30992,   1,         16) /* ItemType - Creature */
      , (30992, 113,          1) /* Gender - Male */
      , (30992, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30992, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30992, 188,          2) /* HeritageGroup - Gharundim */
-     , (30992, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30992, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30992,   1, True ) /* Stuck */
@@ -27,8 +26,7 @@ VALUES (30992,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30992,   1, 'Sentry') /* Name */
-     , (30992,   5, 'Exploration Society Agent') /* Template */
-     , (30992, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30992,   5, 'Exploration Society Agent') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30992,   1,   33554433) /* Setup */
@@ -41,17 +39,11 @@ VALUES (30992,   1,   33554433) /* Setup */
      , (30992,  11,   83890621) /* MouthTexture */
      , (30992,  15,   67117027) /* HairPalette */
      , (30992,  16,   67110062) /* EyesPalette */
-     , (30992,  17,   67109550) /* SkinPalette */
-     , (30992, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (30992, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (30992, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30992,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30992, 8040, 2382496450, 123.67, -132.951, 0.004999995, -0.281821, 0, 0, -0.959467) /* PCAPRecordedLocation */
 /* @teleloc 0x8E0202C2 [123.670000 -132.951000 0.005000] -0.281821 0.000000 0.000000 -0.959467 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30992, 8000, 2883524018) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30992,   1, 150, 0, 0) /* Strength */
@@ -65,52 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (30992,   1,   100, 0, 0, 170) /* MaxHealth */
      , (30992,   3,   100, 0, 0, 240) /* MaxStamina */
      , (30992,   5,    10, 0, 0, 140) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30992, 67109550, 0, 24)
-     , (30992, 67110062, 32, 8)
-     , (30992, 67115065, 136, 8)
-     , (30992, 67115065, 174, 12)
-     , (30992, 67115065, 216, 24)
-     , (30992, 67115065, 72, 8)
-     , (30992, 67115065, 96, 8)
-     , (30992, 67115065, 124, 12)
-     , (30992, 67115065, 168, 6)
-     , (30992, 67115065, 160, 8)
-     , (30992, 67115065, 240, 10)
-     , (30992, 67115082, 186, 12)
-     , (30992, 67115082, 80, 12)
-     , (30992, 67115082, 104, 12)
-     , (30992, 67115092, 144, 16)
-     , (30992, 67115092, 198, 18)
-     , (30992, 67115092, 92, 4)
-     , (30992, 67115092, 116, 8)
-     , (30992, 67115092, 250, 6)
-     , (30992, 67117027, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30992, 12, 83895194, 83895223)
-     , (30992, 15, 83895194, 83895223)
-     , (30992, 16, 83886232, 83890685)
-     , (30992, 16, 83886668, 83890487)
-     , (30992, 16, 83886837, 83890539)
-     , (30992, 16, 83886684, 83890621);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30992, 0, 16790012)
-     , (30992, 1, 16790013)
-     , (30992, 2, 16790023)
-     , (30992, 3, 16790020)
-     , (30992, 4, 16790017)
-     , (30992, 5, 16790014)
-     , (30992, 6, 16790024)
-     , (30992, 7, 16790018)
-     , (30992, 8, 16790019)
-     , (30992, 9, 16790016)
-     , (30992, 10, 16790007)
-     , (30992, 11, 16790009)
-     , (30992, 12, 16789986)
-     , (30992, 13, 16790008)
-     , (30992, 14, 16790010)
-     , (30992, 15, 16789984)
-     , (30992, 16, 16790021);

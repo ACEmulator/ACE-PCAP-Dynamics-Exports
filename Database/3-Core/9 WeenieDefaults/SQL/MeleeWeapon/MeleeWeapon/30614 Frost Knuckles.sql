@@ -33,9 +33,7 @@ VALUES (30614,   1,          1) /* ItemType - MeleeWeapon */
      , (30614, 176,         45) /* AppraisalItemSkill */
      , (30614, 177,          2) /* GemCount */
      , (30614, 178,         31) /* GemType */
-     , (30614, 353,          1) /* WeaponType - Unarmed */
-     , (30614, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30614, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30614, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30614,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (30614,   5,  -0.042) /* ManaRate */
      , (30614,  29,    1.07) /* WeaponDefense */
      , (30614,  39,     0.8) /* DefaultScale */
      , (30614,  62,    1.05) /* WeaponOffense */
-     , (30614,  63,       1) /* DamageMod */
-     , (30614, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (30614,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30614,   1, 'Frost Knuckles') /* Name */
@@ -60,13 +57,7 @@ VALUES (30614,   1,   33559500) /* Setup */
      , (30614,   3,  536870932) /* SoundTable */
      , (30614,   6,   67115556) /* PaletteBase */
      , (30614,   8,  100687035) /* Icon */
-     , (30614,  22,  872415275) /* PhysicsEffectTable */
-     , (30614, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30614, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30614, 8000, 3692262253) /* PCAPRecordedObjectIID */;
+     , (30614,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30614,  1604,      2) 
@@ -75,12 +66,3 @@ VALUES (30614,  1604,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30614, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30614, 67116448, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30614, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30614, 0, 16792139);

@@ -34,8 +34,7 @@ VALUES (31961,   1,         16) /* ItemType - Creature */
      , (31961, 386,          0) /* Overpower */
      , (31961, 387,          0) /* OverpowerResist */
      , (31961, 388,          0) /* GearOverpower */
-     , (31961, 389,          0) /* GearOverpowerResist */
-     , (31961, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31961, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31961,   1, True ) /* Stuck */
@@ -45,25 +44,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31961,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31961,   1, 'Lurza') /* Name */
-     , (31961, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31961,   1, 'Lurza') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31961,   1,   33558690) /* Setup */
      , (31961,   2,  150995290) /* MotionTable */
      , (31961,   3,  536871001) /* SoundTable */
      , (31961,   6,   67113876) /* PaletteBase */
-     , (31961,   8,  100676420) /* Icon */
-     , (31961, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (31961, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (31961, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (31961,   8,  100676420) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31961, 8040, 2031157312, 179.632, 178.556, 199.9967, -0.413155, 0, 0, 0.910661) /* PCAPRecordedLocation */
 /* @teleloc 0x79110040 [179.632000 178.556000 199.996700] -0.413155 0.000000 0.000000 0.910661 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31961, 8000, 2629019336) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31961, 67113876, 0, 0);

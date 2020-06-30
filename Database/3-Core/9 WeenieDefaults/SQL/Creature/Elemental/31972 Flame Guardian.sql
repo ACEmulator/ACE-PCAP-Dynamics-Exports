@@ -13,8 +13,7 @@ VALUES (31972,   1,         16) /* ItemType - Creature */
      , (31972,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (31972,  95,          8) /* RadarBlipColor - Yellow */
      , (31972, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (31972, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (31972, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31972, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31972,   1, True ) /* Stuck */
@@ -25,25 +24,18 @@ VALUES (31972,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31972,   1, 'Flame Guardian') /* Name */
-     , (31972,   5, 'Warden of the Deep') /* Template */
-     , (31972, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (31972,   5, 'Warden of the Deep') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31972,   1,   33559683) /* Setup */
      , (31972,   2,  150994945) /* MotionTable */
      , (31972,   3,  536870998) /* SoundTable */
      , (31972,   6,   67116522) /* PaletteBase */
-     , (31972,   8,  100670274) /* Icon */
-     , (31972, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (31972, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (31972, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (31972,   8,  100670274) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31972, 8040, 766443534, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934) /* PCAPRecordedLocation */
 /* @teleloc 0x2DAF000E [46.181400 121.790000 48.002500] 0.940087 0.000000 0.000000 0.340934 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31972, 8000, 2629112167) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31972,   1, 500, 0, 0) /* Strength */
@@ -57,6 +49,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (31972,   1,   500, 0, 0, 750) /* MaxHealth */
      , (31972,   3,   500, 0, 0, 1000) /* MaxStamina */
      , (31972,   5,  1000, 0, 0, 1500) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31972, 67116723, 0, 0);

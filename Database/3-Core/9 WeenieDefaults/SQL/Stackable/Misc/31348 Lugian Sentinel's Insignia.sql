@@ -14,8 +14,7 @@ VALUES (31348,   1,        128) /* ItemType - Misc */
      , (31348,  19,      10000) /* Value */
      , (31348,  33,          1) /* Bonded - Bonded */
      , (31348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31348, 114,          1) /* Attuned - Attuned */
-     , (31348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31348, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31348,   1, 'Lugian Sentinel''s Insignia') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31348,   1,   33554817) /* Setup */
      , (31348,   3,  536870932) /* SoundTable */
      , (31348,   8,  100687706) /* Icon */
-     , (31348,  22,  872415275) /* PhysicsEffectTable */
-     , (31348, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (31348, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31348, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31348, 8000, 2207306672) /* PCAPRecordedObjectIID */;
+     , (31348,  22,  872415275) /* PhysicsEffectTable */;

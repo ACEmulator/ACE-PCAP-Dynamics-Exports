@@ -33,9 +33,7 @@ VALUES (41046,   1,          1) /* ItemType - MeleeWeapon */
      , (41046, 176,         41) /* AppraisalItemSkill */
      , (41046, 177,          2) /* GemCount */
      , (41046, 178,         12) /* GemType */
-     , (41046, 353,         11) /* WeaponType - TwoHanded */
-     , (41046, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41046, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41046, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41046,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (41046,   5,  -0.042) /* ManaRate */
      , (41046,  26,       0) /* MaximumVelocity */
      , (41046,  29,    1.09) /* WeaponDefense */
      , (41046,  62,    1.09) /* WeaponOffense */
-     , (41046,  63,       1) /* DamageMod */
-     , (41046, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (41046,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41046,   1, 'Pike') /* Name */
@@ -59,13 +56,7 @@ VALUES (41046,   1,   33560875) /* Setup */
      , (41046,   3,  536870932) /* SoundTable */
      , (41046,   6,   67115558) /* PaletteBase */
      , (41046,   8,  100690640) /* Icon */
-     , (41046,  22,  872415275) /* PhysicsEffectTable */
-     , (41046, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41046, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41046, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41046, 8000, 3214068924) /* PCAPRecordedObjectIID */;
+     , (41046,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41046,  1615,      2) 
@@ -73,13 +64,3 @@ VALUES (41046,  1615,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41046, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41046, 67116386, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41046, 0, 83896665, 83896665)
-     , (41046, 0, 83896155, 83896155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41046, 0, 16794406);

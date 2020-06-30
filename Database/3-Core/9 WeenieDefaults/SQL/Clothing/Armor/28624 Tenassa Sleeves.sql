@@ -36,8 +36,7 @@ VALUES (28624,   5,  -0.042) /* ManaRate */
      , (28624,  17,     0.5) /* ArmorModVsFire */
      , (28624,  18,     0.3) /* ArmorModVsAcid */
      , (28624,  19,     0.8) /* ArmorModVsElectric */
-     , (28624, 165,       1) /* ArmorModVsNether */
-     , (28624, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (28624, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28624,   1, 'Tenassa Sleeves') /* Name */
@@ -48,13 +47,7 @@ VALUES (28624,   1,   33559333) /* Setup */
      , (28624,   3,  536870932) /* SoundTable */
      , (28624,   6,   67108990) /* PaletteBase */
      , (28624,   8,  100686121) /* Icon */
-     , (28624,  22,  872415275) /* PhysicsEffectTable */
-     , (28624, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28624, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28624, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28624, 8000, 3687979207) /* PCAPRecordedObjectIID */;
+     , (28624,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28624,  1485,      2) 
@@ -63,9 +56,3 @@ VALUES (28624,  1485,      2)
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28624, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (28624, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28624, 67116273, 128, 8)
-     , (28624, 67116273, 108, 8)
-     , (28624, 67116323, 96, 12)
-     , (28624, 67116323, 116, 12);

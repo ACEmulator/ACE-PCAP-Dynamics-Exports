@@ -10,8 +10,7 @@ VALUES (8366,   1,       2048) /* ItemType - Gem */
      , (8366,  19,         10) /* Value */
      , (8366,  33,          1) /* Bonded - Bonded */
      , (8366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (8366, 114,          1) /* Attuned - Attuned */
-     , (8366, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8366, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8366,  22, True ) /* Inscribable */
@@ -24,20 +23,4 @@ VALUES (8366,   1, 'Banderling Ceremonial Weapon') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8366,   1,   33554746) /* Setup */
      , (8366,   6,   67111919) /* PaletteBase */
-     , (8366,   8,  100671138) /* Icon */
-     , (8366, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (8366, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (8366, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8366, 8000, 2617976490) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8366, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8366, 0, 83886750, 83886750)
-     , (8366, 0, 83889236, 83889236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8366, 0, 16777923);
+     , (8366,   8,  100671138) /* Icon */;

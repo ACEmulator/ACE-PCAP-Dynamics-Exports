@@ -17,8 +17,7 @@ VALUES (4700,   1,         16) /* ItemType - Creature */
      , (4700, 113,          2) /* Gender - Female */
      , (4700, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4700, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4700, 188,          2) /* HeritageGroup - Gharundim */
-     , (4700, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4700, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4700,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4700,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4700,   1, 'Jeweler Hawtala bint Arsha') /* Name */
-     , (4700,   5, 'Jeweler') /* Template */
-     , (4700, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4700,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4700,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4700,   1,   33554510) /* Setup */
      , (4700,  11,   83890324) /* MouthTexture */
      , (4700,  15,   67116990) /* HairPalette */
      , (4700,  16,   67110063) /* EyesPalette */
-     , (4700,  17,   67109550) /* SkinPalette */
-     , (4700, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4700, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4700, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4700,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4700, 8040, 2655256851, 35.9461, 18.0094, 46.005, 0.008774959, 0, 0, -0.9999615) /* PCAPRecordedLocation */
 /* @teleloc 0x9E440113 [35.946100 18.009400 46.005000] 0.008775 0.000000 0.000000 -0.999962 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4700, 8000, 2045001738) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4700,   1,  90, 0, 0) /* Strength */
@@ -93,55 +85,3 @@ VALUES (4700, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (4700, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4700, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4700, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4700, 67109550, 0, 24)
-     , (4700, 67109969, 92, 4)
-     , (4700, 67110026, 72, 8)
-     , (4700, 67110063, 32, 8)
-     , (4700, 67110317, 250, 6)
-     , (4700, 67110320, 160, 8)
-     , (4700, 67110325, 64, 8)
-     , (4700, 67110325, 40, 24)
-     , (4700, 67110356, 216, 24)
-     , (4700, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4700, 0, 83889072, 83890012)
-     , (4700, 0, 83889342, 83890011)
-     , (4700, 1, 83887064, 83886241)
-     , (4700, 2, 83887066, 83887051)
-     , (4700, 3, 83889344, 83887054)
-     , (4700, 4, 83887068, 83887054)
-     , (4700, 5, 83887064, 83886241)
-     , (4700, 6, 83887066, 83887051)
-     , (4700, 7, 83889344, 83887054)
-     , (4700, 8, 83887068, 83887054)
-     , (4700, 9, 83887070, 83890009)
-     , (4700, 9, 83887062, 83890010)
-     , (4700, 10, 83887069, 83886782)
-     , (4700, 13, 83887069, 83886782)
-     , (4700, 16, 83886232, 83890685)
-     , (4700, 16, 83886668, 83890241)
-     , (4700, 16, 83886837, 83890285)
-     , (4700, 16, 83886684, 83890324)
-     , (4700, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4700, 0, 16781875)
-     , (4700, 1, 16778430)
-     , (4700, 2, 16781908)
-     , (4700, 3, 16781841)
-     , (4700, 4, 16783485)
-     , (4700, 5, 16778438)
-     , (4700, 6, 16781909)
-     , (4700, 7, 16781840)
-     , (4700, 8, 16783487)
-     , (4700, 9, 16778425)
-     , (4700, 10, 16778431)
-     , (4700, 11, 16778429)
-     , (4700, 12, 16778423)
-     , (4700, 13, 16778434)
-     , (4700, 14, 16778424)
-     , (4700, 15, 16778435)
-     , (4700, 16, 16778594);

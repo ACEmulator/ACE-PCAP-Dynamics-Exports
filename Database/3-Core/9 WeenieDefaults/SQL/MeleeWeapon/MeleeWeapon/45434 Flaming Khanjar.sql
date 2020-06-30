@@ -31,9 +31,7 @@ VALUES (45434,   1,          1) /* ItemType - MeleeWeapon */
      , (45434, 160,        250) /* WieldDifficulty */
      , (45434, 172,          1) /* AppraisalLongDescDecoration */
      , (45434, 176,         45) /* AppraisalItemSkill */
-     , (45434, 353,          6) /* WeaponType - Dagger */
-     , (45434, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45434, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45434, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45434,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (45434,   5,  -0.033) /* ManaRate */
      , (45434,  29,    1.03) /* WeaponDefense */
      , (45434,  39,    1.25) /* DefaultScale */
      , (45434,  62,    1.04) /* WeaponOffense */
-     , (45434,  63,       1) /* DamageMod */
-     , (45434, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (45434,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45434,   1, 'Flaming Khanjar') /* Name */
@@ -57,13 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45434,   1,   33555769) /* Setup */
      , (45434,   3,  536870932) /* SoundTable */
      , (45434,   8,  100668944) /* Icon */
-     , (45434,  22,  872415275) /* PhysicsEffectTable */
-     , (45434, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45434, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45434, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45434, 8000, 3691213592) /* PCAPRecordedObjectIID */;
+     , (45434,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45434,  1614,      2) ;

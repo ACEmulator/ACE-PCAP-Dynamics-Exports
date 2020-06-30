@@ -14,15 +14,13 @@ VALUES (12135,   1,         16) /* ItemType - Creature */
      , (12135, 113,          2) /* Gender - Female */
      , (12135, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (12135, 188,          1) /* HeritageGroup - Aluvian */
-     , (12135, 307,          5) /* DamageRating */
-     , (12135, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12135, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12135,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12135,   1, 'Subtle Simulacrum') /* Name */
-     , (12135, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (12135,   1, 'Subtle Simulacrum') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12135,   1,   33554510) /* Setup */
@@ -36,17 +34,11 @@ VALUES (12135,   1,   33554510) /* Setup */
      , (12135,  15,   67117072) /* HairPalette */
      , (12135,  16,   67109567) /* EyesPalette */
      , (12135,  17,   67109561) /* SkinPalette */
-     , (12135,  22,  872415381) /* PhysicsEffectTable */
-     , (12135, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (12135, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12135, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (12135,  22,  872415381) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12135, 8040, 1665466628, 119.986, -52.6087, -23.995, 0.7095142, 0, 0, 0.7046912) /* PCAPRecordedLocation */
 /* @teleloc 0x63450104 [119.986000 -52.608700 -23.995000] 0.709514 0.000000 0.000000 0.704691 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12135, 8000, 3704244381) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12135,   1, 190, 0, 0) /* Strength */
@@ -109,49 +101,3 @@ VALUES (12135, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (12135, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (12135, 9, 49310,  0, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for ContainTreasure */
      , (12135, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12135, 67109561, 0, 24)
-     , (12135, 67109567, 32, 8)
-     , (12135, 67110387, 80, 12)
-     , (12135, 67110387, 116, 12)
-     , (12135, 67110539, 96, 12)
-     , (12135, 67112721, 40, 40)
-     , (12135, 67117072, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12135, 0, 83892345, 83892345)
-     , (12135, 0, 83892344, 83892344)
-     , (12135, 1, 83892352, 83892352)
-     , (12135, 2, 83892351, 83892351)
-     , (12135, 5, 83892352, 83892352)
-     , (12135, 6, 83892351, 83892351)
-     , (12135, 9, 83891974, 83892348)
-     , (12135, 9, 83891968, 83892349)
-     , (12135, 10, 83892347, 83892347)
-     , (12135, 11, 83892346, 83892346)
-     , (12135, 13, 83892347, 83892347)
-     , (12135, 14, 83892346, 83892346)
-     , (12135, 16, 83886232, 83890685)
-     , (12135, 16, 83886668, 83890260)
-     , (12135, 16, 83886837, 83890312)
-     , (12135, 16, 83886684, 83890331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12135, 0, 16783897)
-     , (12135, 1, 16783885)
-     , (12135, 2, 16783878)
-     , (12135, 3, 16777708)
-     , (12135, 4, 16777708)
-     , (12135, 5, 16783889)
-     , (12135, 6, 16783881)
-     , (12135, 7, 16777708)
-     , (12135, 8, 16777708)
-     , (12135, 9, 16783714)
-     , (12135, 10, 16783863)
-     , (12135, 11, 16783853)
-     , (12135, 12, 16778423)
-     , (12135, 13, 16783871)
-     , (12135, 14, 16783855)
-     , (12135, 15, 16778435)
-     , (12135, 16, 16795675);

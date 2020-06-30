@@ -8,10 +8,7 @@ VALUES (5105,   1,       8192) /* ItemType - Writable */
      , (5105,   5,       9000) /* EncumbranceVal */
      , (5105,  16,         48) /* ItemUseable - ViewedRemote */
      , (5105,  19,        125) /* Value */
-     , (5105,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (5105, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (5105, 8042,          1) /* PCAPRecordedAppraisalPages */
-     , (5105, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
+     , (5105,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5105,   1, True ) /* Stuck */;
@@ -24,17 +21,11 @@ VALUES (5105,   1, 'BASICS OF MAGIC ') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5105,   1,   33556014) /* Setup */
-     , (5105,   8,  100668115) /* Icon */
-     , (5105, 8001,    2097208) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden */
-     , (5105, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
-     , (5105, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (5105,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5105, 8040, 2248344125, 60.168, -25.879, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x8603023D [60.168000 -25.879000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5105, 8000, 2019569739) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (5105, 1, 1000);

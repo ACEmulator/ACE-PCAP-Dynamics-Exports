@@ -20,10 +20,4 @@ VALUES (44745,   1, 'Lugian') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44745,   1,   33561345) /* Setup */
-     , (44745,   8,  100668115) /* Icon */
-     , (44745, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44745, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44745, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44745, 8000, 2153689493) /* PCAPRecordedObjectIID */;
+     , (44745,   8,  100668115) /* Icon */;

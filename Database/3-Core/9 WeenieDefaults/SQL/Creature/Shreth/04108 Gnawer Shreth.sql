@@ -11,8 +11,7 @@ VALUES (4108,   1,         16) /* ItemType - Creature */
      , (4108,  16,          1) /* ItemUseable - No */
      , (4108,  25,          8) /* Level */
      , (4108,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4108, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4108, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4108, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4108,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4108,  39,     0.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4108,   1, 'Gnawer Shreth') /* Name */
-     , (4108, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4108,   1, 'Gnawer Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4108,   1,   33555908) /* Setup */
@@ -30,17 +28,11 @@ VALUES (4108,   1,   33555908) /* Setup */
      , (4108,   3,  536870986) /* SoundTable */
      , (4108,   6,   67112444) /* PaletteBase */
      , (4108,   8,  100669720) /* Icon */
-     , (4108,  22,  872415333) /* PhysicsEffectTable */
-     , (4108, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4108, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4108, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (4108,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4108, 8040, 2763260160, 9.73673, 54.3509, 116.797, 0.882551, 0, 0, 0.470217) /* PCAPRecordedLocation */
 /* @teleloc 0xA4B40100 [9.736730 54.350900 116.797000] 0.882551 0.000000 0.000000 0.470217 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4108, 8000, 3708717879) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4108,   1,  30, 0, 0) /* Strength */
@@ -54,6 +46,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (4108,   1,     0, 0, 0, 15) /* MaxHealth */
      , (4108,   3,    70, 0, 0, 100) /* MaxStamina */
      , (4108,   5,     0, 0, 0, 15) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4108, 67112469, 0, 0);

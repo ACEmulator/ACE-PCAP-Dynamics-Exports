@@ -13,8 +13,7 @@ VALUES (34448,   1,      16384) /* ItemType - Key */
      , (34448,  92,          1) /* Structure */
      , (34448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34448,  94,        640) /* TargetType - LockableMagicTarget */
-     , (34448, 114,          1) /* Attuned - Attuned */
-     , (34448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34448, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34448,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (34448,   1, 'Colosseum Vault Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34448,   1,   33554784) /* Setup */
      , (34448,   8,  100689384) /* Icon */
-     , (34448,  22,  872415275) /* PhysicsEffectTable */
-     , (34448, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (34448, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34448, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34448, 8000, 2765243241) /* PCAPRecordedObjectIID */;
+     , (34448,  22,  872415275) /* PhysicsEffectTable */;

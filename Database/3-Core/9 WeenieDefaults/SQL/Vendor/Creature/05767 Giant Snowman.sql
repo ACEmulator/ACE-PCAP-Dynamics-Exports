@@ -14,8 +14,7 @@ VALUES (5767,   1,         16) /* ItemType - Creature */
      , (5767,  75,          0) /* MerchandiseMinValue */
      , (5767,  76,          0) /* MerchandiseMaxValue */
      , (5767,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (5767, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5767, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5767, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5767,   1, True ) /* Stuck */
@@ -28,25 +27,18 @@ VALUES (5767,  37,     0.8) /* BuyPrice */
      , (5767,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5767,   1, 'Giant Snowman') /* Name */
-     , (5767, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (5767,   1, 'Giant Snowman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5767,   1,   33556222) /* Setup */
      , (5767,   2,  150995088) /* MotionTable */
      , (5767,   3,  536871000) /* SoundTable */
      , (5767,   8,  100669125) /* Icon */
-     , (5767,  22,  872415346) /* PhysicsEffectTable */
-     , (5767, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5767, 8003,        532) /* PCAPRecordedObjectDesc - Stuck, Attackable, Vendor */
-     , (5767, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (5767,  22,  872415346) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5767, 8040, 679084055, 55.2294, 167.839, 399.9329, 0.618576, 0, 0, -0.785725) /* PCAPRecordedLocation */
 /* @teleloc 0x287A0017 [55.229400 167.839000 399.932900] 0.618576 0.000000 0.000000 -0.785725 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5767, 8000, 3710235609) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (5767,   1,     0, 0, 0, 500) /* MaxHealth */;

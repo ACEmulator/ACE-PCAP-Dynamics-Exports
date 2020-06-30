@@ -17,8 +17,7 @@ VALUES (8492,   1,         16) /* ItemType - Creature */
      , (8492, 113,          2) /* Gender - Female */
      , (8492, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8492, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8492, 188,          3) /* HeritageGroup - Sho */
-     , (8492, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8492, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8492,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8492,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8492,   1, 'Kaza Nijina the Archmage') /* Name */
-     , (8492,   5, 'Archmage') /* Template */
-     , (8492, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8492,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8492,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8492,   1,   33554510) /* Setup */
      , (8492,  11,   83890319) /* MouthTexture */
      , (8492,  15,   67116993) /* HairPalette */
      , (8492,  16,   67110062) /* EyesPalette */
-     , (8492,  17,   67110061) /* SkinPalette */
-     , (8492, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8492, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8492, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8492,  17,   67110061) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8492, 8040, 4079091715, 10.66, 59.6283, 19.605, -0.003679549, 0, 0, -0.9999932) /* PCAPRecordedLocation */
 /* @teleloc 0xF3220003 [10.660000 59.628300 19.605000] -0.003680 0.000000 0.000000 -0.999993 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8492, 8000, 2133991428) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8492,   1, 120, 0, 0) /* Strength */
@@ -188,57 +180,3 @@ VALUES (8492, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (8492, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (8492, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (8492, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8492, 67109969, 92, 4)
-     , (8492, 67110026, 72, 8)
-     , (8492, 67110061, 0, 24)
-     , (8492, 67110062, 32, 8)
-     , (8492, 67110349, 160, 8)
-     , (8492, 67110352, 216, 24)
-     , (8492, 67110362, 40, 24)
-     , (8492, 67111245, 64, 8)
-     , (8492, 67116993, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8492, 0, 83889072, 83890012)
-     , (8492, 0, 83889342, 83890011)
-     , (8492, 1, 83887064, 83886241)
-     , (8492, 2, 83887066, 83887055)
-     , (8492, 2, 83892602, 83892602)
-     , (8492, 2, 83892601, 83892601)
-     , (8492, 3, 83889344, 83887054)
-     , (8492, 4, 83887068, 83892603)
-     , (8492, 5, 83887064, 83886241)
-     , (8492, 6, 83887066, 83887055)
-     , (8492, 6, 83892602, 83892602)
-     , (8492, 6, 83892601, 83892601)
-     , (8492, 7, 83889344, 83887054)
-     , (8492, 8, 83887068, 83892603)
-     , (8492, 9, 83887070, 83890009)
-     , (8492, 9, 83887062, 83890010)
-     , (8492, 10, 83887069, 83886782)
-     , (8492, 13, 83887069, 83886782)
-     , (8492, 16, 83886232, 83890685)
-     , (8492, 16, 83886668, 83890281)
-     , (8492, 16, 83886837, 83890317)
-     , (8492, 16, 83886684, 83890319);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8492, 0, 16781875)
-     , (8492, 1, 16778430)
-     , (8492, 2, 16784629)
-     , (8492, 3, 16783475)
-     , (8492, 4, 16783485)
-     , (8492, 5, 16778438)
-     , (8492, 6, 16784630)
-     , (8492, 7, 16781840)
-     , (8492, 8, 16783487)
-     , (8492, 9, 16778425)
-     , (8492, 10, 16778431)
-     , (8492, 11, 16778429)
-     , (8492, 12, 16778423)
-     , (8492, 13, 16778434)
-     , (8492, 14, 16778424)
-     , (8492, 15, 16778435)
-     , (8492, 16, 16795650);

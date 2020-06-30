@@ -11,8 +11,7 @@ VALUES (11533,   1,         16) /* ItemType - Creature */
      , (11533,  16,          1) /* ItemUseable - No */
      , (11533,  25,         80) /* Level */
      , (11533,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11533, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11533, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11533, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11533,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11533,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11533,   1, 'Azael Zefir') /* Name */
-     , (11533, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11533,   1, 'Azael Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11533,   1,   33555610) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11533,   1,   33555610) /* Setup */
      , (11533,   3,  536870975) /* SoundTable */
      , (11533,   6,   67109305) /* PaletteBase */
      , (11533,   8,  100669123) /* Icon */
-     , (11533,  22,  872415279) /* PhysicsEffectTable */
-     , (11533, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11533, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11533, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11533,  22,  872415279) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11533, 8040, 364445753, 184.3667, 2.284415, 44.10667, -0.9139555, 0, 0, -0.4058144) /* PCAPRecordedLocation */
 /* @teleloc 0x15B90039 [184.366700 2.284415 44.106670] -0.913956 0.000000 0.000000 -0.405814 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11533, 8000, 3706883288) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11533,   1, 300, 0, 0) /* Strength */
@@ -67,6 +59,3 @@ VALUES (11533, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasu
      , (11533, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
      , (11533, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
      , (11533, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11533, 67113038, 0, 0);

@@ -19,14 +19,8 @@ VALUES (19180,   1, 'Majestic Saddle Cottages') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19180,   1,   33557463) /* Setup */
-     , (19180,   8,  100668115) /* Icon */
-     , (19180, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (19180, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19180, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (19180,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19180, 8040, 1672478750, 83.7007, 124.392, 102.902, -0.986384, 0, 0, -0.164456) /* PCAPRecordedLocation */
 /* @teleloc 0x63B0001E [83.700700 124.392000 102.902000] -0.986384 0.000000 0.000000 -0.164456 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19180, 8000, 1983578437) /* PCAPRecordedObjectIID */;

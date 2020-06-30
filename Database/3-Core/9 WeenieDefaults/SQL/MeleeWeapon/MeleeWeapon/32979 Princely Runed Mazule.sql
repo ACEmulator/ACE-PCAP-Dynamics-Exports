@@ -24,9 +24,7 @@ VALUES (32979,   1,          1) /* ItemType - MeleeWeapon */
      , (32979, 158,          7) /* WieldRequirements - Level */
      , (32979, 159,          1) /* WieldSkillType - Axe */
      , (32979, 160,        100) /* WieldDifficulty */
-     , (32979, 353,          4) /* WeaponType - Mace */
-     , (32979, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (32979, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32979, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32979,  22, True ) /* Inscribable */;
@@ -53,13 +51,7 @@ VALUES (32979,   1,   33559866) /* Setup */
      , (32979,   8,  100686965) /* Icon */
      , (32979,  22,  872415275) /* PhysicsEffectTable */
      , (32979,  50,  100688913) /* IconOverlay */
-     , (32979,  55,       2074) /* ProcSpell - ImperilOther7 */
-     , (32979, 8001, 1344356888) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
-     , (32979, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32979, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32979, 8000, 2461813540) /* PCAPRecordedObjectIID */;
+     , (32979,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32979,  2074,      2) 
@@ -67,6 +59,3 @@ VALUES (32979,  2074,      2)
      , (32979,  2101,      2) 
      , (32979,  2106,      2) 
      , (32979,  2116,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32979, 67116398, 0, 0);

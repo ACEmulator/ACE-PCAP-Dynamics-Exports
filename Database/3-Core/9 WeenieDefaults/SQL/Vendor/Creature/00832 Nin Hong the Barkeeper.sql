@@ -17,8 +17,7 @@ VALUES (832,   1,         16) /* ItemType - Creature */
      , (832, 113,          2) /* Gender - Female */
      , (832, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (832, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (832, 188,          3) /* HeritageGroup - Sho */
-     , (832, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (832, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (832,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (832,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (832,   1, 'Nin Hong the Barkeeper') /* Name */
-     , (832,   5, 'Barkeeper') /* Template */
-     , (832, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (832,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (832,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (832,   1,   33554510) /* Setup */
      , (832,  11,   83890318) /* MouthTexture */
      , (832,  15,   67117074) /* HairPalette */
      , (832,  16,   67109565) /* EyesPalette */
-     , (832,  17,   67110056) /* SkinPalette */
-     , (832, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (832, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (832, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (832,  17,   67110056) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (832, 8040, 3663004028, 132.6, 104.64, 25.605, 0.7928054, 0, 0, -0.6094749) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55017C [132.600000 104.640000 25.605000] 0.792805 0.000000 0.000000 -0.609475 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (832, 8000, 2107985966) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (832,   1,  55, 0, 0) /* Strength */
@@ -94,57 +86,3 @@ VALUES (832, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop 
      , (832, 4, 44907, -1, 0, 0, False) /* Create Contract for Facilty Hub (44907) for Shop */
      , (832, 4, 42979, -1, 0, 0, False) /* Create Core Plating Integrator (42979) for Shop */
      , (832, 4, 43022, -1, 0, 0, False) /* Create Core Plating Deintegrator (43022) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (832, 67109565, 32, 8)
-     , (832, 67109964, 92, 4)
-     , (832, 67110003, 72, 8)
-     , (832, 67110056, 0, 24)
-     , (832, 67110320, 216, 24)
-     , (832, 67110320, 250, 6)
-     , (832, 67110334, 64, 8)
-     , (832, 67110334, 40, 24)
-     , (832, 67111245, 160, 8)
-     , (832, 67111245, 240, 10)
-     , (832, 67117074, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (832, 0, 83889072, 83890012)
-     , (832, 0, 83889342, 83890011)
-     , (832, 1, 83887064, 83886241)
-     , (832, 2, 83887066, 83887051)
-     , (832, 3, 83889344, 83887054)
-     , (832, 4, 83887068, 83887054)
-     , (832, 5, 83887064, 83886241)
-     , (832, 6, 83887066, 83887051)
-     , (832, 7, 83889344, 83887054)
-     , (832, 8, 83887068, 83887054)
-     , (832, 9, 83887070, 83890009)
-     , (832, 9, 83887062, 83890010)
-     , (832, 10, 83886796, 83886782)
-     , (832, 13, 83886796, 83886782)
-     , (832, 16, 83886232, 83890685)
-     , (832, 16, 83886668, 83890263)
-     , (832, 16, 83886837, 83890304)
-     , (832, 16, 83886684, 83890318)
-     , (832, 16, 83892366, 83892366)
-     , (832, 16, 83892365, 83892365);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (832, 0, 16781875)
-     , (832, 1, 16778430)
-     , (832, 2, 16781908)
-     , (832, 3, 16781841)
-     , (832, 4, 16783485)
-     , (832, 5, 16778438)
-     , (832, 6, 16781909)
-     , (832, 7, 16781840)
-     , (832, 8, 16783487)
-     , (832, 9, 16778425)
-     , (832, 10, 16781904)
-     , (832, 11, 16778429)
-     , (832, 12, 16778423)
-     , (832, 13, 16781905)
-     , (832, 14, 16778424)
-     , (832, 15, 16778435)
-     , (832, 16, 16783954);

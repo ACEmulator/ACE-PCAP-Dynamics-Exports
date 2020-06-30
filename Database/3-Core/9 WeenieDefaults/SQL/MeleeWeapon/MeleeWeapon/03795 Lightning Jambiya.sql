@@ -31,9 +31,7 @@ VALUES (3795,   1,          1) /* ItemType - MeleeWeapon */
      , (3795, 177,          2) /* GemCount */
      , (3795, 178,         20) /* GemType */
      , (3795, 188,          2) /* HeritageGroup - Gharundim */
-     , (3795, 353,          6) /* WeaponType - Dagger */
-     , (3795, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3795, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3795, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3795,  22, True ) /* Inscribable */;
@@ -45,8 +43,7 @@ VALUES (3795,   5,  -0.056) /* ManaRate */
      , (3795,  26,       0) /* MaximumVelocity */
      , (3795,  29,   1.235) /* WeaponDefense */
      , (3795,  62,   1.262) /* WeaponOffense */
-     , (3795,  63,       1) /* DamageMod */
-     , (3795, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (3795,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3795,   1, 'Lightning Jambiya') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3795,   1,   33555728) /* Setup */
      , (3795,   3,  536870932) /* SoundTable */
      , (3795,   8,  100667592) /* Icon */
-     , (3795,  22,  872415275) /* PhysicsEffectTable */
-     , (3795, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3795, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3795, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3795, 8000, 2368837964) /* PCAPRecordedObjectIID */;
+     , (3795,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3795,  1332,      2) 

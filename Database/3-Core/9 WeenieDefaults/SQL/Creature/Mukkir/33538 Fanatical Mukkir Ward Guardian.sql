@@ -11,8 +11,7 @@ VALUES (33538,   1,         16) /* ItemType - Creature */
      , (33538,  16,          1) /* ItemUseable - No */
      , (33538,  25,        185) /* Level */
      , (33538,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33538, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33538, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33538, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33538,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (33538,  39,     1.3) /* DefaultScale */
      , (33538,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33538,   1, 'Fanatical Mukkir Ward Guardian') /* Name */
-     , (33538, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33538,   1, 'Fanatical Mukkir Ward Guardian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33538,   1,   33559858) /* Setup */
@@ -32,17 +30,11 @@ VALUES (33538,   1,   33559858) /* Setup */
      , (33538,   6,   67116771) /* PaletteBase */
      , (33538,   8,  100688542) /* Icon */
      , (33538,  22,  872415417) /* PhysicsEffectTable */
-     , (33538,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (33538, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33538, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33538, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (33538,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33538, 8040, 5505592, 20, -170, -60, 0.714421, 0, 0, -0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x00540238 [20.000000 -170.000000 -60.000000] 0.714421 0.000000 0.000000 -0.699716 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33538, 8000, 2885650088) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33538,   1, 455, 0, 0) /* Strength */
@@ -61,6 +53,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (33538, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
      , (33538, 9, 33541,  0, 0, 0, False) /* Create Locked Gate Key (33541) for ContainTreasure */
      , (33538, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33538, 67116774, 0, 0);

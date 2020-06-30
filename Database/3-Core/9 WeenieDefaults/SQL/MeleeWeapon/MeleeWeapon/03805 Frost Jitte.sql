@@ -34,9 +34,7 @@ VALUES (3805,   1,          1) /* ItemType - MeleeWeapon */
      , (3805, 176,         46) /* AppraisalItemSkill */
      , (3805, 177,          1) /* GemCount */
      , (3805, 178,         46) /* GemType */
-     , (3805, 353,          4) /* WeaponType - Mace */
-     , (3805, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3805, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (3805, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3805,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3805,   5,  -0.042) /* ManaRate */
      , (3805,  26,       0) /* MaximumVelocity */
      , (3805,  29,    1.16) /* WeaponDefense */
      , (3805,  62,    1.02) /* WeaponOffense */
-     , (3805,  63,       1) /* DamageMod */
-     , (3805, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3805,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3805,   1, 'Frost Jitte') /* Name */
@@ -59,19 +56,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3805,   1,   33555762) /* Setup */
      , (3805,   3,  536870932) /* SoundTable */
      , (3805,   8,  100668902) /* Icon */
-     , (3805,  22,  872415275) /* PhysicsEffectTable */
-     , (3805, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (3805, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3805, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (3805, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
+     , (3805,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3805, 8040, 3465871413, 162.24, 100.031, 19.929, 0.5872574, 0.5872574, -0.3938638, -0.3938638) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [162.240000 100.031000 19.929000] 0.587257 0.587257 -0.393864 -0.393864 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3805, 8000, 3707902311) /* PCAPRecordedObjectIID */
-     , (3805, 8008, 1343493492) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3805,  1604,      2) 

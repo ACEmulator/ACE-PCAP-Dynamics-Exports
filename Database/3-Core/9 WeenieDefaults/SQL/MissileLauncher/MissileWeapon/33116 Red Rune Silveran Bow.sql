@@ -26,8 +26,7 @@ VALUES (33116,   1,        256) /* ItemType - MissileWeapon */
      , (33116, 159,          1) /* WieldSkillType - Axe */
      , (33116, 160,        140) /* WieldDifficulty */
      , (33116, 263,          2) /* ResistanceModifierType */
-     , (33116, 353,          8) /* WeaponType - Bow */
-     , (33116, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (33116, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33116,  22, True ) /* Inscribable */;
@@ -53,19 +52,11 @@ VALUES (33116,   1,   33559949) /* Setup */
      , (33116,   3,  536870932) /* SoundTable */
      , (33116,   8,  100688928) /* Icon */
      , (33116,  22,  872415275) /* PhysicsEffectTable */
-     , (33116,  50,  100688915) /* IconOverlay */
-     , (33116, 8001, 1344504600) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
-     , (33116, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33116, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (33116, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (33116,  50,  100688915) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33116, 8040, 3465871413, 145.2051, 103.027, 19.93, -0.6686643, 0, 0, -0.7435644) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [145.205100 103.027000 19.930000] -0.668664 0.000000 0.000000 -0.743564 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33116, 8000, 2183220763) /* PCAPRecordedObjectIID */
-     , (33116, 8008, 1343288375) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33116,  2059,      2) 

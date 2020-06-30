@@ -12,8 +12,7 @@ VALUES (23132,   1,          1) /* ItemType - MeleeWeapon */
      , (23132,  19,        750) /* Value */
      , (23132,  51,          1) /* CombatUse - Melee */
      , (23132,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23132, 151,          2) /* HookType - Wall */
-     , (23132, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23132, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23132,  22, True ) /* Inscribable */;
@@ -29,16 +28,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23132,   1,   33554726) /* Setup */
      , (23132,   3,  536870932) /* SoundTable */
      , (23132,   8,  100667580) /* Icon */
-     , (23132,  22,  872415275) /* PhysicsEffectTable */
-     , (23132, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (23132, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23132, 8005,     432289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (23132, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23132,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23132, 8040, 595656974, 89.00994, 11.33046, 219.83, 0.5402824, 0.5402824, -0.4561743, -0.4561743) /* PCAPRecordedLocation */
 /* @teleloc 0x2381010E [89.009940 11.330460 219.830000] 0.540282 0.540282 -0.456174 -0.456174 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23132, 8000, 3692287250) /* PCAPRecordedObjectIID */
-     , (23132, 8008, 3692287229) /* PCAPRecordedParentIID */;

@@ -10,8 +10,7 @@ VALUES (24269,   1,       2048) /* ItemType - Gem */
      , (24269,  19,         10) /* Value */
      , (24269,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24269,  94,         16) /* TargetType - Creature */
-     , (24269, 151,          9) /* HookType - Floor, Yard */
-     , (24269, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24269, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24269,  22, True ) /* Inscribable */;
@@ -24,18 +23,11 @@ INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24269,   1, 'Small Olthoi Grub') /* Name */
      , (24269,   7, 'fishin worms?') /* Inscription */
      , (24269,   8, 'Dorthan') /* ScribeName */
-     , (24269,  16, 'A very small Olthoi grub') /* LongDesc */
-     , (24269, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24269,  16, 'A very small Olthoi grub') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24269,   1,   33558333) /* Setup */
      , (24269,   2,  150995238) /* MotionTable */
      , (24269,   8,  100674288) /* Icon */
      , (24269,  22,  872415265) /* PhysicsEffectTable */
-     , (24269,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24269, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
-     , (24269, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (24269, 8005,      94339) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, PeTable, DefaultScript, DefaultScriptIntensity, Movement */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24269, 8000, 2982947177) /* PCAPRecordedObjectIID */;
+     , (24269,  30,         86) /* PhysicsScript - BreatheAcid */;

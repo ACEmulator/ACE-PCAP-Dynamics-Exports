@@ -14,8 +14,7 @@ VALUES (41424,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41424,  19,       1000) /* Value */
      , (41424,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41424,  94,   67108864) /* TargetType - CraftAlchemyIntermediate */
-     , (41424, 151,          9) /* HookType - Floor, Yard */
-     , (41424, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41424, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41424,   1, 'Refining Polish (Mana)') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41424,   1,   33554598) /* Setup */
      , (41424,   3,  536870932) /* SoundTable */
      , (41424,   8,  100690737) /* Icon */
-     , (41424,  22,  872415275) /* PhysicsEffectTable */
-     , (41424, 8001,  271085592) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (41424, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (41424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41424, 8000, 2157927912) /* PCAPRecordedObjectIID */;
+     , (41424,  22,  872415275) /* PhysicsEffectTable */;

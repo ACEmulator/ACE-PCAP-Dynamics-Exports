@@ -17,8 +17,7 @@ VALUES (703,   1,         16) /* ItemType - Creature */
      , (703, 113,          1) /* Gender - Male */
      , (703, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (703, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (703, 188,          1) /* HeritageGroup - Aluvian */
-     , (703, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (703, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (703,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (703,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (703,   1, 'Davis the Tailor') /* Name */
-     , (703,   5, 'Tailor') /* Template */
-     , (703, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (703,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (703,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (703,   1,   33554433) /* Setup */
      , (703,  11,   83890632) /* MouthTexture */
      , (703,  15,   67117079) /* HairPalette */
      , (703,  16,   67109564) /* EyesPalette */
-     , (703,  17,   67109562) /* SkinPalette */
-     , (703, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (703, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (703, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (703,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (703, 8040, 3332964677, 36.312, 40.3003, 42.005, 0.01071738, 0, 0, -0.9999425) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90145 [36.312000 40.300300 42.005000] 0.010717 0.000000 0.000000 -0.999943 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (703, 8000, 2087358514) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (703,   1,  20, 0, 0) /* Strength */
@@ -82,56 +74,3 @@ VALUES (703, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
      , (703, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (703, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (703, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (703, 67109562, 0, 24)
-     , (703, 67109564, 32, 8)
-     , (703, 67109964, 92, 4)
-     , (703, 67110354, 250, 6)
-     , (703, 67110356, 40, 24)
-     , (703, 67110372, 64, 8)
-     , (703, 67110375, 160, 8)
-     , (703, 67110376, 216, 24)
-     , (703, 67110540, 72, 8)
-     , (703, 67117079, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (703, 0, 83889072, 83890012)
-     , (703, 0, 83889342, 83890011)
-     , (703, 1, 83887064, 83886241)
-     , (703, 2, 83887066, 83887051)
-     , (703, 3, 83889344, 83887054)
-     , (703, 4, 83887068, 83887054)
-     , (703, 5, 83887064, 83886241)
-     , (703, 6, 83887066, 83887051)
-     , (703, 7, 83889344, 83887054)
-     , (703, 8, 83887068, 83887054)
-     , (703, 9, 83887061, 83890009)
-     , (703, 9, 83887060, 83890010)
-     , (703, 10, 83887069, 83886782)
-     , (703, 13, 83887069, 83886782)
-     , (703, 16, 83886232, 83890685)
-     , (703, 16, 83886668, 83890507)
-     , (703, 16, 83886837, 83890555)
-     , (703, 16, 83886684, 83890632)
-     , (703, 16, 83889859, 83889864)
-     , (703, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (703, 0, 16781835)
-     , (703, 1, 16777295)
-     , (703, 2, 16781866)
-     , (703, 3, 16781841)
-     , (703, 4, 16781838)
-     , (703, 5, 16777299)
-     , (703, 6, 16781864)
-     , (703, 7, 16781840)
-     , (703, 8, 16781839)
-     , (703, 9, 16777300)
-     , (703, 10, 16777301)
-     , (703, 11, 16777302)
-     , (703, 12, 16777304)
-     , (703, 13, 16777303)
-     , (703, 14, 16777305)
-     , (703, 15, 16777307)
-     , (703, 16, 16779635);

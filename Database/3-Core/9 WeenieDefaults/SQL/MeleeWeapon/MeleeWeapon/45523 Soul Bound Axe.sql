@@ -12,8 +12,7 @@ VALUES (45523,   1,          1) /* ItemType - MeleeWeapon */
      , (45523,  18,          1) /* UiEffects - Magical */
      , (45523,  51,          1) /* CombatUse - Melee */
      , (45523,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (45523, 151,          2) /* HookType - Wall */
-     , (45523, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (45523, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45523,  22, True ) /* Inscribable */;
@@ -31,25 +30,8 @@ VALUES (45523,   1,   33560570) /* Setup */
      , (45523,   8,  100673204) /* Icon */
      , (45523,  22,  872415275) /* PhysicsEffectTable */
      , (45523,  30,         88) /* PhysicsScript - Create */
-     , (45523,  52,  100689896) /* IconUnderlay */
-     , (45523, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (45523, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45523, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45523, 8005,     456737) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame, Translucency */
-     , (45523, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (45523,  52,  100689896) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45523, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45523, 8000, 3694287647) /* PCAPRecordedObjectIID */
-     , (45523, 8008, 1342561086) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45523, 0, 83889238, 83892492)
-     , (45523, 0, 83889236, 83892492)
-     , (45523, 0, 83889688, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45523, 0, 16783998);

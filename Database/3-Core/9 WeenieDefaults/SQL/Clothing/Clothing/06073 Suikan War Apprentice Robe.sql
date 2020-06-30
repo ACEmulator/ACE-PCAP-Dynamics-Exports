@@ -19,8 +19,7 @@ VALUES (6073,   1,          4) /* ItemType - Clothing */
      , (6073, 109,         20) /* ItemDifficulty */
      , (6073, 115,         70) /* ItemSkillLevelLimit */
      , (6073, 176,         34) /* AppraisalItemSkill */
-     , (6073, 188,          3) /* HeritageGroup - Sho */
-     , (6073, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6073, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6073,  22, True ) /* Inscribable */;
@@ -45,33 +44,12 @@ VALUES (6073,   1,   33554854) /* Setup */
      , (6073,   3,  536870932) /* SoundTable */
      , (6073,   6,   67108990) /* PaletteBase */
      , (6073,   8,  100670376) /* Icon */
-     , (6073,  22,  872415275) /* PhysicsEffectTable */
-     , (6073, 8001,    2424984) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden */
-     , (6073, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6073, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (6073,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6073, 8040, 23855555, 56.17042, -35.47908, -0.002499998, -0.2467473, 0, 0, 0.9690799) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.170420 -35.479080 -0.002500] -0.246747 0.000000 0.000000 0.969080 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6073, 8000, 3708270394) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6073,   635,      2) 
      , (6073,  1451,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6073, 67110026, 96, 12)
-     , (6073, 67110320, 80, 12)
-     , (6073, 67110320, 116, 12)
-     , (6073, 67112725, 40, 40);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6073, 0, 83887061, 83892367)
-     , (6073, 0, 83887060, 83892368)
-     , (6073, 0, 83889072, 83892364)
-     , (6073, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6073, 0, 16778367);

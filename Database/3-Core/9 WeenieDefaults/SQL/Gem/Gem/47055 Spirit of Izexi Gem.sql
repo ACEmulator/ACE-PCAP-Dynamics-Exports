@@ -20,8 +20,7 @@ VALUES (47055,   1,       2048) /* ItemType - Gem */
      , (47055, 108,        200) /* ItemMaxMana */
      , (47055, 109,          0) /* ItemDifficulty */
      , (47055, 110,          0) /* ItemAllegianceRankLimit */
-     , (47055, 151,          2) /* HookType - Wall */
-     , (47055, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (47055, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47055,   1, 'Spirit of Izexi Gem') /* Name */
@@ -34,22 +33,7 @@ VALUES (47055,   1,   33554809) /* Setup */
      , (47055,   6,   67111919) /* PaletteBase */
      , (47055,   8,  100692971) /* Icon */
      , (47055,  22,  872415275) /* PhysicsEffectTable */
-     , (47055,  28,       6035) /* Spell - CantripSpiritofIzexi */
-     , (47055, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (47055, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (47055, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47055, 8000, 2781589269) /* PCAPRecordedObjectIID */;
+     , (47055,  28,       6035) /* Spell - CantripSpiritofIzexi */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (47055,  6035,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (47055, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (47055, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (47055, 0, 16779181);

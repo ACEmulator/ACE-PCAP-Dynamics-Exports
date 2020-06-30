@@ -38,14 +38,7 @@ VALUES (32271,   1,   33559128) /* Setup */
      , (32271,  22,  872415275) /* PhysicsEffectTable */
      , (32271,  28,       3862) /* Spell - DukeRaoulPride */
      , (32271,  50,  100687554) /* IconOverlay */
-     , (32271,  52,  100687547) /* IconUnderlay */
-     , (32271, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
-     , (32271, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (32271, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (32271, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32271, 8000, 3041952471) /* PCAPRecordedObjectIID */;
+     , (32271,  52,  100687547) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32271,  3862,      2) ;

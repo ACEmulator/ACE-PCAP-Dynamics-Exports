@@ -28,8 +28,7 @@ VALUES (43049,   1,          2) /* ItemType - Armor */
      , (43049, 176,          6) /* AppraisalItemSkill */
      , (43049, 177,          2) /* GemCount */
      , (43049, 178,         20) /* GemType */
-     , (43049, 265,         21) /* EquipmentSetId - Wise */
-     , (43049, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43049, 265,         21) /* EquipmentSetId - Wise */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43049,  22, True ) /* Inscribable */
@@ -44,8 +43,7 @@ VALUES (43049,   5,   -0.05) /* ManaRate */
      , (43049,  17,     0.5) /* ArmorModVsFire */
      , (43049,  18,   0.686) /* ArmorModVsAcid */
      , (43049,  19,     0.6) /* ArmorModVsElectric */
-     , (43049, 165,       1) /* ArmorModVsNether */
-     , (43049, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (43049, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43049,   1, 'Knorr Academy Gauntlets') /* Name */
@@ -56,23 +54,8 @@ VALUES (43049,   1,   33554648) /* Setup */
      , (43049,   3,  536870932) /* SoundTable */
      , (43049,   6,   67108990) /* PaletteBase */
      , (43049,   8,  100667319) /* Icon */
-     , (43049,  22,  872415275) /* PhysicsEffectTable */
-     , (43049, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (43049, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (43049, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43049, 8000, 3683243963) /* PCAPRecordedObjectIID */;
+     , (43049,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43049,  1486,      2) 
      , (43049,  2553,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43049, 67110367, 168, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43049, 0, 83894333, 83898252);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43049, 0, 16778374);

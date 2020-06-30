@@ -8,8 +8,7 @@ VALUES (439,   1,      65536) /* ItemType - Portal */
      , (439,  16,         32) /* ItemUseable - Remote */
      , (439,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (439, 111,          1) /* PortalBitmask - Unrestricted */
-     , (439, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (439, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (439, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (439,   1, True ) /* Stuck */;
@@ -18,20 +17,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (439,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (439,   1, 'North Syliph') /* Name */
-     , (439, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (439,   1, 'North Syliph') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (439,   1,   33554867) /* Setup */
      , (439,   2,  150994947) /* MotionTable */
-     , (439,   8,  100667499) /* Icon */
-     , (439, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (439, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (439, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (439,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (439, 8040, 2408644625, 51.9, 0.9, 223.937, -0.258819, 0, 0, -0.9659259) /* PCAPRecordedLocation */
 /* @teleloc 0x8F910011 [51.900000 0.900000 223.937000] -0.258819 0.000000 0.000000 -0.965926 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (439, 8000, 2029588481) /* PCAPRecordedObjectIID */;

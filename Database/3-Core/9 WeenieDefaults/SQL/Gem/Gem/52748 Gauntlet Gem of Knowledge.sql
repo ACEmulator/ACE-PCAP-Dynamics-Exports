@@ -12,8 +12,7 @@ VALUES (52748,   1,       2048) /* ItemType - Gem */
      , (52748,  15,         15) /* StackUnitValue */
      , (52748,  16,          1) /* ItemUseable - No */
      , (52748,  19,         15) /* Value */
-     , (52748,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (52748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52748,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52748,   1, 'Gauntlet Gem of Knowledge') /* Name */
@@ -24,9 +23,4 @@ VALUES (52748,   1,   33557625) /* Setup */
      , (52748,   3,  536870932) /* SoundTable */
      , (52748,   8,  100689653) /* Icon */
      , (52748,  22,  872415275) /* PhysicsEffectTable */
-     , (52748, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (52748, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (52748, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52748, 8000,      52748) /* PCAPRecordedObjectIID */;
+     , (52748, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

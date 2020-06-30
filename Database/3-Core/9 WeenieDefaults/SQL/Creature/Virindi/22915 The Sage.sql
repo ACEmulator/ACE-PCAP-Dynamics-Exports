@@ -11,15 +11,13 @@ VALUES (22915,   1,         16) /* ItemType - Creature */
      , (22915,  16,          1) /* ItemUseable - No */
      , (22915,  25,        135) /* Level */
      , (22915,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22915, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22915, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22915, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22915,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22915,   1, 'The Sage') /* Name */
-     , (22915, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22915,   1, 'The Sage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22915,   1,   33558343) /* Setup */
@@ -27,17 +25,11 @@ VALUES (22915,   1,   33558343) /* Setup */
      , (22915,   3,  536870930) /* SoundTable */
      , (22915,   6,   67114250) /* PaletteBase */
      , (22915,   8,  100674323) /* Icon */
-     , (22915,  22,  872415273) /* PhysicsEffectTable */
-     , (22915, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22915, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22915, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (22915,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22915, 8040, 1615201193, 79.7756, -133.108, 24.029, 0.999474, 0, 0, -0.0324307) /* PCAPRecordedLocation */
 /* @teleloc 0x604603A9 [79.775600 -133.108000 24.029000] 0.999474 0.000000 0.000000 -0.032431 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22915, 8000, 2448494041) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (22915,   1,     0, 0, 0, 700) /* MaxHealth */;
@@ -55,6 +47,3 @@ VALUES (22915, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other 
      , (22915, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
      , (22915, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
      , (22915, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22915, 67114256, 0, 0);

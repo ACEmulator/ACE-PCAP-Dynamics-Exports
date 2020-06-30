@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31947,   1,        128) /* ItemType - Misc */
      , (31947,  16,         32) /* ItemUseable - Remote */
      , (31947,  19,          0) /* Value */
-     , (31947,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */
-     , (31947, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31947,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31947,   1, True ) /* Stuck */
@@ -20,22 +19,15 @@ VALUES (31947,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31947,   1, 'Door') /* Name */
-     , (31947,  14, 'Use this item to open it.') /* Use */
-     , (31947, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (31947,  14, 'Use this item to open it.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31947,   1,   33558981) /* Setup */
      , (31947,   2,  150995078) /* MotionTable */
      , (31947,   3,  536870946) /* SoundTable */
      , (31947,   8,  100668183) /* Icon */
-     , (31947,  22,  872415275) /* PhysicsEffectTable */
-     , (31947, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
-     , (31947, 8003,       4116) /* PCAPRecordedObjectDesc - Stuck, Attackable, Door */
-     , (31947, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (31947,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31947, 8040, 3998466, 254.967, -20.0159, -18, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x003D0302 [254.967000 -20.015900 -18.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31947, 8000, 1879298097) /* PCAPRecordedObjectIID */;

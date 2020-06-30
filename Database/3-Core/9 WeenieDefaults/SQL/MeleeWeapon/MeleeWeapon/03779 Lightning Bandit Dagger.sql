@@ -29,9 +29,7 @@ VALUES (3779,   1,          1) /* ItemType - MeleeWeapon */
      , (3779, 131,         24) /* MaterialType - GreenJade */
      , (3779, 151,          2) /* HookType - Wall */
      , (3779, 176,         46) /* AppraisalItemSkill */
-     , (3779, 353,          6) /* WeaponType - Dagger */
-     , (3779, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3779, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3779, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3779,  22, True ) /* Inscribable */
@@ -44,8 +42,7 @@ VALUES (3779,   5,  -0.042) /* ManaRate */
      , (3779,  26,       0) /* MaximumVelocity */
      , (3779,  29,    1.06) /* WeaponDefense */
      , (3779,  62,   1.068) /* WeaponOffense */
-     , (3779,  63,       1) /* DamageMod */
-     , (3779, 8004,       2) /* PCAPRecordedWorkmanship */;
+     , (3779,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3779,   1, 'Lightning Bandit Dagger') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3779,   1,   33555707) /* Setup */
      , (3779,   3,  536870932) /* SoundTable */
      , (3779,   8,  100667589) /* Icon */
-     , (3779,  22,  872415275) /* PhysicsEffectTable */
-     , (3779, 8001, 2434876048) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3779, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3779, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3779, 8000, 2981037284) /* PCAPRecordedObjectIID */;
+     , (3779,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3779,  1330,      2) 

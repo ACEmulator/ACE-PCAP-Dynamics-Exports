@@ -11,8 +11,7 @@ VALUES (37264,   1,        128) /* ItemType - Misc */
      , (37264,  13,          3) /* StackUnitEncumbrance */
      , (37264,  15,          0) /* StackUnitValue */
      , (37264,  16,          1) /* ItemUseable - No */
-     , (37264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37264, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37264,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37264,   1, 'Three Cards from the Deck of Eyes') /* Name */
@@ -22,10 +21,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37264,   1,   33560546) /* Setup */
      , (37264,   3,  536870932) /* SoundTable */
      , (37264,   8,  100689858) /* Icon */
-     , (37264,  22,  872415275) /* PhysicsEffectTable */
-     , (37264, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (37264, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37264, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37264, 8000, 3231189536) /* PCAPRecordedObjectIID */;
+     , (37264,  22,  872415275) /* PhysicsEffectTable */;

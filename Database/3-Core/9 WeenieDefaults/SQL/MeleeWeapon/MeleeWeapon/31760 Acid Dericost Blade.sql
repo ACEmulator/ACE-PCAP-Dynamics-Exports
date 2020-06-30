@@ -33,9 +33,7 @@ VALUES (31760,   1,          1) /* ItemType - MeleeWeapon */
      , (31760, 176,         45) /* AppraisalItemSkill */
      , (31760, 177,          2) /* GemCount */
      , (31760, 178,         43) /* GemType */
-     , (31760, 353,          2) /* WeaponType - Sword */
-     , (31760, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31760, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31760, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31760,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (31760,   5,   -0.05) /* ManaRate */
      , (31760,  29,    1.08) /* WeaponDefense */
      , (31760,  39,    0.75) /* DefaultScale */
      , (31760,  62,     1.1) /* WeaponOffense */
-     , (31760,  63,       1) /* DamageMod */
-     , (31760, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (31760,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31760,   1, 'Acid Dericost Blade') /* Name */
@@ -60,13 +57,7 @@ VALUES (31760,   1,   33559636) /* Setup */
      , (31760,   3,  536870932) /* SoundTable */
      , (31760,   6,   67116700) /* PaletteBase */
      , (31760,   8,  100688005) /* Icon */
-     , (31760,  22,  872415275) /* PhysicsEffectTable */
-     , (31760, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31760, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31760, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31760, 8000, 3695623666) /* PCAPRecordedObjectIID */;
+     , (31760,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31760,  1604,      2) 
@@ -76,14 +67,3 @@ VALUES (31760,  1604,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31760, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31760, 67116700, 1, 100)
-     , (31760, 67116708, 201, 27)
-     , (31760, 67116710, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31760, 0, 83897335, 83897335);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31760, 0, 16792612);

@@ -34,8 +34,7 @@ VALUES (41946,   1,         16) /* ItemType - Creature */
      , (41946, 386,          0) /* Overpower */
      , (41946, 387,          0) /* OverpowerResist */
      , (41946, 388,          0) /* GearOverpower */
-     , (41946, 389,          0) /* GearOverpowerResist */
-     , (41946, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (41946, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41946,   1, True ) /* Stuck */
@@ -46,21 +45,14 @@ VALUES (41946,  39,     0.7) /* DefaultScale */
      , (41946,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41946,   1, 'Ancient Stones') /* Name */
-     , (41946, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (41946,   1, 'Ancient Stones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41946,   1,   33556108) /* Setup */
      , (41946,   2,  150995355) /* MotionTable */
      , (41946,   3,  536870913) /* SoundTable */
-     , (41946,   8,  100667494) /* Icon */
-     , (41946, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (41946, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (41946, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (41946,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41946, 8040, 1194065955, 97.55376, 68.79176, 5.199417, 0.9344593, 0, 0, 0.3560701) /* PCAPRecordedLocation */
 /* @teleloc 0x472C0023 [97.553760 68.791760 5.199417] 0.934459 0.000000 0.000000 0.356070 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41946, 8000, 3700923919) /* PCAPRecordedObjectIID */;

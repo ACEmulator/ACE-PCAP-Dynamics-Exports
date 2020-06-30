@@ -29,8 +29,7 @@ VALUES (21152,   1,          2) /* ItemType - Armor */
      , (21152, 178,         13) /* GemType */
      , (21152, 270,          7) /* WieldRequirements2 - Level */
      , (21152, 271,          1) /* WieldSkillType2 - Axe */
-     , (21152, 272,        150) /* WieldDifficulty2 */
-     , (21152, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21152, 272,        150) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21152,  22, True ) /* Inscribable */
@@ -45,8 +44,7 @@ VALUES (21152,   5,  -0.067) /* ManaRate */
      , (21152,  17,     1.2) /* ArmorModVsFire */
      , (21152,  18,     0.6) /* ArmorModVsAcid */
      , (21152,  19,     0.6) /* ArmorModVsElectric */
-     , (21152, 165,       1) /* ArmorModVsNether */
-     , (21152, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (21152, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21152,   1, 'Covenant Breastplate') /* Name */
@@ -57,17 +55,11 @@ VALUES (21152,   1,   33554642) /* Setup */
      , (21152,   3,  536870932) /* SoundTable */
      , (21152,   6,   67108990) /* PaletteBase */
      , (21152,   8,  100673389) /* Icon */
-     , (21152,  22,  872415275) /* PhysicsEffectTable */
-     , (21152, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (21152, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21152, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (21152,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21152, 8040, 4152623126, 69.19128, 137.1837, 52.04757, -0.5857317, 0, 0, -0.810505) /* PCAPRecordedLocation */
 /* @teleloc 0xF7840016 [69.191280 137.183700 52.047570] -0.585732 0.000000 0.000000 -0.810505 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21152, 8000, 3407134947) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21152,  2094,      2) 
@@ -75,13 +67,3 @@ VALUES (21152,  2094,      2)
      , (21152,  4407,      2) 
      , (21152,  4409,      2) 
      , (21152,  4686,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21152, 67113895, 174, 66);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21152, 0, 83894177, 83894177)
-     , (21152, 0, 83894178, 83894178);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21152, 0, 16788079);

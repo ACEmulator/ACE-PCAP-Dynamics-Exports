@@ -12,8 +12,7 @@ VALUES (19256,   1,         16) /* ItemType - Creature */
      , (19256,  25,          8) /* Level */
      , (19256,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19256, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19256, 307,          5) /* DamageRating */
-     , (19256, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19256, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19256,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19256,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19256,   1, 'Young Banderling') /* Name */
-     , (19256, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19256,   1, 'Young Banderling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19256,   1,   33558024) /* Setup */
@@ -31,17 +29,11 @@ VALUES (19256,   1,   33558024) /* Setup */
      , (19256,   3,  536870917) /* SoundTable */
      , (19256,   6,   67114021) /* PaletteBase */
      , (19256,   8,  100667453) /* Icon */
-     , (19256,  22,  872415255) /* PhysicsEffectTable */
-     , (19256, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19256, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19256, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (19256,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19256, 8040, 3679846440, 101.225, 186.7439, 20.00715, 0.8987495, 0, 0, -0.4384625) /* PCAPRecordedLocation */
 /* @teleloc 0xDB560028 [101.225000 186.743900 20.007150] 0.898750 0.000000 0.000000 -0.438463 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19256, 8000, 3685109216) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19256,   1, 110, 0, 0) /* Strength */
@@ -61,6 +53,3 @@ VALUES (19256, 2, 47381,  1, 0, 0, False) /* Create Flaming Club (47381) for Wie
      , (19256, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
      , (19256, 2, 47438,  1, 0, 0, False) /* Create Mace (47438) for Wield */
      , (19256, 2, 47476,  1, 0, 0, False) /* Create Flaming Mace (47476) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19256, 67114041, 0, 0);

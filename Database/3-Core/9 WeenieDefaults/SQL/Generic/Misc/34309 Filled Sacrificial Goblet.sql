@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34309,   1,        128) /* ItemType - Misc */
      , (34309,   5,        250) /* EncumbranceVal */
      , (34309,  16,          1) /* ItemUseable - No */
-     , (34309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (34309, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34309,  22, True ) /* Inscribable */;
@@ -18,10 +17,4 @@ VALUES (34309,   1, 'Filled Sacrificial Goblet') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34309,   1,   33554663) /* Setup */
-     , (34309,   8,  100689276) /* Icon */
-     , (34309, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (34309, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34309, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34309, 8000, 3704046872) /* PCAPRecordedObjectIID */;
+     , (34309,   8,  100689276) /* Icon */;

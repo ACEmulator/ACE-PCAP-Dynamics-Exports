@@ -38,8 +38,7 @@ VALUES (28634,   5,  -0.042) /* ManaRate */
      , (28634,  18,   0.735) /* ArmorModVsAcid */
      , (28634,  19,     0.4) /* ArmorModVsElectric */
      , (28634,  39,    1.33) /* DefaultScale */
-     , (28634, 165,       1) /* ArmorModVsNether */
-     , (28634, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (28634, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28634,   1, 'Diforsa Greaves') /* Name */
@@ -50,18 +49,9 @@ VALUES (28634,   1,   33559343) /* Setup */
      , (28634,   3,  536870932) /* SoundTable */
      , (28634,   6,   67108990) /* PaletteBase */
      , (28634,   8,  100686303) /* Icon */
-     , (28634,  22,  872415275) /* PhysicsEffectTable */
-     , (28634, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28634, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28634, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28634, 8000, 2661947294) /* PCAPRecordedObjectIID */;
+     , (28634,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28634,  1485,      2) 
      , (28634,  1539,      2) 
      , (28634,  1572,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28634, 67116148, 136, 16);

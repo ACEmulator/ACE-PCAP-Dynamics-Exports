@@ -12,15 +12,13 @@ VALUES (22905,   1,         16) /* ItemType - Creature */
      , (22905,  25,        160) /* Level */
      , (22905,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (22905, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22905, 307,          5) /* DamageRating */
-     , (22905, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22905, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22905,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22905,   1, 'Lich Oppressor') /* Name */
-     , (22905, 8006, 'AABBAEEAAABBAAAAgL8AAA==') /* PCAPRecordedCurrentMotionState */;
+VALUES (22905,   1, 'Lich Oppressor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22905,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (22905,   1,   33554839) /* Setup */
      , (22905,   3,  536870934) /* SoundTable */
      , (22905,   6,   67110722) /* PaletteBase */
      , (22905,   8,  100667942) /* Icon */
-     , (22905,  22,  872415272) /* PhysicsEffectTable */
-     , (22905, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22905, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22905, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (22905,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22905, 8040, 32833792, 183.4669, -0.9860747, -41.9925, 0.06665525, 0, 0, -0.9977761) /* PCAPRecordedLocation */
 /* @teleloc 0x01F50100 [183.466900 -0.986075 -41.992500] 0.066655 0.000000 0.000000 -0.997776 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22905, 8000, 3706472351) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22905,   1, 320, 0, 0) /* Strength */
@@ -75,6 +67,3 @@ VALUES (22905, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield *
      , (22905, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */
      , (22905, 2, 48031,  1, 0, 0, False) /* Create Lightning Silifi (48031) for Wield */
      , (22905, 2, 48034,  1, 0, 0, False) /* Create Lightning Ono (48034) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22905, 67114309, 0, 0);

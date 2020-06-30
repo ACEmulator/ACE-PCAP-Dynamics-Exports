@@ -26,9 +26,7 @@ VALUES (142,   1,        256) /* ItemType - MissileWeapon */
      , (142, 131,         59) /* MaterialType - Copper */
      , (142, 151,          1) /* HookType - Floor */
      , (142, 172,          1) /* AppraisalLongDescDecoration */
-     , (142, 353,         10) /* WeaponType - Thrown */
-     , (142, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (142, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (142, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (142,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (142,   5,  -0.056) /* ManaRate */
      , (142,  62,       1) /* WeaponOffense */
      , (142,  63,       1) /* DamageMod */
      , (142,  78,       1) /* Friction */
-     , (142,  79,       0) /* Elasticity */
-     , (142, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (142,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (142,   1, 'Chalice') /* Name */
@@ -55,25 +52,10 @@ VALUES (142,   1,   33554661) /* Setup */
      , (142,   3,  536871012) /* SoundTable */
      , (142,   6,   67111919) /* PaletteBase */
      , (142,   8,  100668555) /* Icon */
-     , (142,  22,  872415275) /* PhysicsEffectTable */
-     , (142, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (142, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (142, 8005,     138113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (142, 8000, 3686006767) /* PCAPRecordedObjectIID */;
+     , (142,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (142,  1332,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (142, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (142, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (142, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (142, 0, 16778761);

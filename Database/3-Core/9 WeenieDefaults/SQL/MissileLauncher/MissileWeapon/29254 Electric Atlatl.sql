@@ -34,9 +34,7 @@ VALUES (29254,   1,        256) /* ItemType - MissileWeapon */
      , (29254, 177,          3) /* GemCount */
      , (29254, 178,         49) /* GemType */
      , (29254, 204,          3) /* ElementalDamageBonus */
-     , (29254, 353,         10) /* WeaponType - Thrown */
-     , (29254, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29254, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29254, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29254,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (29254,   5,  -0.056) /* ManaRate */
      , (29254,  29,    1.08) /* WeaponDefense */
      , (29254,  39,     1.1) /* DefaultScale */
      , (29254,  62,       1) /* WeaponOffense */
-     , (29254,  63,    2.55) /* DamageMod */
-     , (29254, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (29254,  63,    2.55) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29254,   1, 'Electric Atlatl') /* Name */
@@ -61,28 +58,10 @@ VALUES (29254,   1,   33559245) /* Setup */
      , (29254,   3,  536870932) /* SoundTable */
      , (29254,   6,   67115373) /* PaletteBase */
      , (29254,   8,  100677455) /* Icon */
-     , (29254,  22,  872415275) /* PhysicsEffectTable */
-     , (29254, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29254, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29254, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29254, 8000, 2258805285) /* PCAPRecordedObjectIID */;
+     , (29254,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29254,  1615,      2) 
      , (29254,  1627,      2) 
      , (29254,  2059,      2) 
      , (29254,  2540,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29254, 67115374, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29254, 0, 83895603, 83895603)
-     , (29254, 0, 83895601, 83895601)
-     , (29254, 0, 83895602, 83895602)
-     , (29254, 0, 83895596, 83895596);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29254, 0, 16791348);

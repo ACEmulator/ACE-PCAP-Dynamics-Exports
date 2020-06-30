@@ -12,15 +12,13 @@ VALUES (35134,   1,         16) /* ItemType - Creature */
      , (35134,  25,        115) /* Level */
      , (35134,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35134, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35134, 307,          5) /* DamageRating */
-     , (35134, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35134, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35134,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35134,   1, 'Kroktok Lugian') /* Name */
-     , (35134, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35134,   1, 'Kroktok Lugian') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35134,   1,   33557003) /* Setup */
@@ -28,17 +26,11 @@ VALUES (35134,   1,   33557003) /* Setup */
      , (35134,   3,  536870922) /* SoundTable */
      , (35134,   6,   67113158) /* PaletteBase */
      , (35134,   8,  100667447) /* Icon */
-     , (35134,  22,  872415262) /* PhysicsEffectTable */
-     , (35134, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35134, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35134, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (35134,  22,  872415262) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35134, 8040, 11600220, 30.22677, -1118.383, 0.115, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B1015C [30.226770 -1118.383000 0.115000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35134, 8000, 2931431750) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35134,   1, 340, 0, 0) /* Strength */
@@ -60,28 +52,3 @@ VALUES (35134, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
      , (35134, 2, 23758,  1, 0, 0, False) /* Create Lugian Mace (23758) for Wield */
      , (35134, 2, 23762,  1, 0, 0, False) /* Create Lugian Morning Star (23762) for Wield */
      , (35134, 2, 23750,  1, 0, 0, False) /* Create Lugian Club (23750) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35134, 67113163, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35134, 0, 83893224, 83893222)
-     , (35134, 0, 83893231, 83893229)
-     , (35134, 2, 83893218, 83893216)
-     , (35134, 5, 83893218, 83893216)
-     , (35134, 7, 83893227, 83893226)
-     , (35134, 7, 83893214, 83893212)
-     , (35134, 9, 83893218, 83893216)
-     , (35134, 12, 83893218, 83893216)
-     , (35134, 19, 83893240, 83893240)
-     , (35134, 20, 83893240, 83893240);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35134, 0, 16785699)
-     , (35134, 2, 16785662)
-     , (35134, 5, 16785662)
-     , (35134, 7, 16785659)
-     , (35134, 9, 16785701)
-     , (35134, 12, 16785701)
-     , (35134, 19, 16785704)
-     , (35134, 20, 16785705);

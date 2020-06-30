@@ -12,8 +12,7 @@ VALUES (2452,   1,         32) /* ItemType - Food */
      , (2452,  15,         20) /* StackUnitValue */
      , (2452,  16,          8) /* ItemUseable - Contained */
      , (2452,  19,         20) /* Value */
-     , (2452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2452, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2452,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2452,   1, 'Apple Juice') /* Name */
@@ -24,19 +23,4 @@ VALUES (2452,   1,   33554602) /* Setup */
      , (2452,   3,  536870932) /* SoundTable */
      , (2452,   6,   67111919) /* PaletteBase */
      , (2452,   8,  100667432) /* Icon */
-     , (2452,  22,  872415275) /* PhysicsEffectTable */
-     , (2452, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (2452, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (2452, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2452, 8000, 3711292218) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2452, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2452, 0, 83890080, 83890080);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2452, 0, 16778729);
+     , (2452,  22,  872415275) /* PhysicsEffectTable */;

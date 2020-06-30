@@ -28,9 +28,7 @@ VALUES (41884,   1,          1) /* ItemType - MeleeWeapon */
      , (41884, 159,         45) /* WieldSkillType - LightWeapons */
      , (41884, 160,        400) /* WieldDifficulty */
      , (41884, 166,         19) /* SlayerCreatureType - Virindi */
-     , (41884, 353,          4) /* WeaponType - Mace */
-     , (41884, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41884, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41884, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41884,  22, True ) /* Inscribable */
@@ -57,26 +55,10 @@ VALUES (41884,   1,   33557316) /* Setup */
      , (41884,   3,  536870932) /* SoundTable */
      , (41884,   6,   67111919) /* PaletteBase */
      , (41884,   8,  100672045) /* Icon */
-     , (41884,  22,  872415275) /* PhysicsEffectTable */
-     , (41884, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (41884, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41884, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41884, 8000, 2148598061) /* PCAPRecordedObjectIID */;
+     , (41884,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41884,  2086,      2) 
      , (41884,  2096,      2) 
      , (41884,  2106,      2) 
      , (41884,  2576,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41884, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41884, 0, 83886750, 83886750)
-     , (41884, 0, 83889236, 83889236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41884, 0, 16777923);

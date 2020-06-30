@@ -12,8 +12,7 @@ VALUES (4124,   1,         16) /* ItemType - Creature */
      , (4124,  25,         50) /* Level */
      , (4124,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4124, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4124, 307,          5) /* DamageRating */
-     , (4124, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4124, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4124,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4124,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4124,   1, 'Lich Overseer') /* Name */
-     , (4124, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4124,   1, 'Lich Overseer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4124,   1,   33554839) /* Setup */
@@ -31,17 +29,11 @@ VALUES (4124,   1,   33554839) /* Setup */
      , (4124,   3,  536870934) /* SoundTable */
      , (4124,   6,   67110722) /* PaletteBase */
      , (4124,   8,  100667942) /* Icon */
-     , (4124,  22,  872415272) /* PhysicsEffectTable */
-     , (4124, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4124, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4124, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (4124,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4124, 8040, 25690381, 41.1164, -95.7783, -23.99025, 0.4488149, 0, 0, -0.8936248) /* PCAPRecordedLocation */
 /* @teleloc 0x0188010D [41.116400 -95.778300 -23.990250] 0.448815 0.000000 0.000000 -0.893625 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4124, 8000, 3331048806) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4124,   1, 161, 0, 0) /* Strength */
@@ -66,6 +58,3 @@ VALUES (4124, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
      , (4124, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
      , (4124, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */
      , (4124, 9,  8903,  1, 0, 0, False) /* Create Focusing Stone (8903) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4124, 67111342, 0, 0);

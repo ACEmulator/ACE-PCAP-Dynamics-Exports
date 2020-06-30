@@ -18,9 +18,7 @@ VALUES (3705,   1,          1) /* ItemType - MeleeWeapon */
      , (3705,  51,          1) /* CombatUse - Melee */
      , (3705,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (3705, 151,          2) /* HookType - Wall */
-     , (3705, 353,          3) /* WeaponType - Axe */
-     , (3705, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3705, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3705, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3705,  22, True ) /* Inscribable */;
@@ -43,10 +41,4 @@ VALUES (3705,   1,   33558226) /* Setup */
      , (3705,   3,  536870932) /* SoundTable */
      , (3705,   8,  100674102) /* Icon */
      , (3705,  22,  872415275) /* PhysicsEffectTable */
-     , (3705,  30,         88) /* PhysicsScript - Create */
-     , (3705, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (3705, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3705, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3705, 8000, 2931887746) /* PCAPRecordedObjectIID */;
+     , (3705,  30,         88) /* PhysicsScript - Create */;

@@ -19,14 +19,8 @@ VALUES (21474,   1, 'Crescent Moon Veranda') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21474,   1,   33557897) /* Setup */
-     , (21474,   8,  100667499) /* Icon */
-     , (21474, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (21474, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (21474, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (21474,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21474, 8040, 1448477058, 80.4025, -38.3686, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x56560182 [80.402500 -38.368600 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21474, 8000, 1969578003) /* PCAPRecordedObjectIID */;

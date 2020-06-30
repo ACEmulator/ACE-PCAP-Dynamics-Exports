@@ -19,14 +19,8 @@ VALUES (14331,   1, 'Taralla') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14331,   1,   33557463) /* Setup */
-     , (14331,   8,  100668115) /* Icon */
-     , (14331, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (14331, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (14331, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (14331,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14331, 8040, 2896560165, 108.361, 107.798, 152, 0.0116545, 0, 0, 0.999932) /* PCAPRecordedLocation */
 /* @teleloc 0xACA60025 [108.361000 107.798000 152.000000] 0.011655 0.000000 0.000000 0.999932 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14331, 8000, 2060083578) /* PCAPRecordedObjectIID */;

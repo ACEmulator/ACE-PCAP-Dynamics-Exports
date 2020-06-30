@@ -23,14 +23,10 @@ VALUES (2393,   1,       2048) /* ItemType - Gem */
      , (2393, 115,          0) /* ItemSkillLevelLimit */
      , (2393, 117,        300) /* ItemManaCost */
      , (2393, 131,         12) /* MaterialType - Amethyst */
-     , (2393, 172,          1) /* AppraisalLongDescDecoration */
-     , (2393, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2393, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2393,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2393, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2393,   1, 'Gem') /* Name */
@@ -42,22 +38,7 @@ VALUES (2393,   1,   33554809) /* Setup */
      , (2393,   6,   67111919) /* PaletteBase */
      , (2393,   8,  100674735) /* Icon */
      , (2393,  22,  872415275) /* PhysicsEffectTable */
-     , (2393,  28,       1070) /* Spell - LightningProtectionSelf5 */
-     , (2393, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
-     , (2393, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2393, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2393, 8000, 3691248081) /* PCAPRecordedObjectIID */;
+     , (2393,  28,       1070) /* Spell - LightningProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2393,  1070,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2393, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2393, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2393, 0, 16779181);

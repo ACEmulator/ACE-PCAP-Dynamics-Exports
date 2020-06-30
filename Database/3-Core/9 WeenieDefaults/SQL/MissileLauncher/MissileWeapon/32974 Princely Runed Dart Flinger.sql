@@ -24,9 +24,7 @@ VALUES (32974,   1,        256) /* ItemType - MissileWeapon */
      , (32974, 158,          7) /* WieldRequirements - Level */
      , (32974, 159,          1) /* WieldSkillType - Axe */
      , (32974, 160,        100) /* WieldDifficulty */
-     , (32974, 353,         10) /* WeaponType - Thrown */
-     , (32974, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (32974, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32974, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32974,  22, True ) /* Inscribable */;
@@ -54,25 +52,10 @@ VALUES (32974,   1,   33559872) /* Setup */
      , (32974,   8,  100687081) /* Icon */
      , (32974,  22,  872415275) /* PhysicsEffectTable */
      , (32974,  50,  100688913) /* IconOverlay */
-     , (32974,  55,       2074) /* ProcSpell - ImperilOther7 */
-     , (32974, 8001, 1344357144) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Container, ValidLocations, Burden, HookType, IconOverlay */
-     , (32974, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32974, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32974, 8000, 2258204610) /* PCAPRecordedObjectIID */;
+     , (32974,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32974,  2074,      2) 
      , (32974,  2096,      2) 
      , (32974,  2101,      2) 
      , (32974,  2116,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32974, 67116450, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32974, 0, 83897176, 83897176);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32974, 0, 16792140);

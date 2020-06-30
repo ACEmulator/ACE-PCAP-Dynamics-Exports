@@ -10,9 +10,7 @@ VALUES (9002,   1,       8192) /* ItemType - Writable */
      , (9002,  19,          0) /* Value */
      , (9002,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
      , (9002,  95,          8) /* RadarBlipColor - Yellow */
-     , (9002, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9002, 8042,          9) /* PCAPRecordedAppraisalPages */
-     , (9002, 8043,          9) /* PCAPRecordedAppraisalMaxPages */;
+     , (9002, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9002,   1, True ) /* Stuck */;
@@ -25,17 +23,11 @@ VALUES (9002,   1, 'Shard Vigil Memorial') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9002,   1,   33556953) /* Setup */
-     , (9002,   8,  100671330) /* Icon */
-     , (9002, 8001,   11534384) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBlipColor, Burden, RadarBehavior */
-     , (9002, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
-     , (9002, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (9002,   8,  100671330) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9002, 8040, 4095213581, 36, 108, 160, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [36.000000 108.000000 160.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9002, 8000, 2880118656) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (9002, 9, 1000);

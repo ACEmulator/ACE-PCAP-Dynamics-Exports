@@ -11,15 +11,13 @@ VALUES (28039,   1,         16) /* ItemType - Creature */
      , (28039,  16,          1) /* ItemUseable - No */
      , (28039,  25,        100) /* Level */
      , (28039,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28039, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28039, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28039, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28039,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28039,   1, 'Martinate Virindi Inquisitor') /* Name */
-     , (28039, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28039,   1, 'Martinate Virindi Inquisitor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28039,   1,   33556982) /* Setup */
@@ -27,17 +25,11 @@ VALUES (28039,   1,   33556982) /* Setup */
      , (28039,   3,  536870930) /* SoundTable */
      , (28039,   6,   67111346) /* PaletteBase */
      , (28039,   8,  100667943) /* Icon */
-     , (28039,  22,  872415273) /* PhysicsEffectTable */
-     , (28039, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28039, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28039, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (28039,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28039, 8040, 41812255, 160.763, -30.1084, -11.971, -0.9939668, 0, 0, -0.109681) /* PCAPRecordedLocation */
 /* @teleloc 0x027E011F [160.763000 -30.108400 -11.971000] -0.993967 0.000000 0.000000 -0.109681 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28039, 8000, 2929775067) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28039,   1, 250, 0, 0) /* Strength */
@@ -162,12 +154,3 @@ VALUES (28039, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for Contain
      , (28039, 9,  3107,  0, 0, 0, False) /* Create Scroll of Mana Renewal Self VI (3107) for ContainTreasure */
      , (28039, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (28039, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28039, 67113217, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28039, 9, 83890028, 83890027);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28039, 9, 16780702);

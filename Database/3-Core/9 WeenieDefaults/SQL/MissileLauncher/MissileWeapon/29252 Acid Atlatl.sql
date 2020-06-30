@@ -34,9 +34,7 @@ VALUES (29252,   1,        256) /* ItemType - MissileWeapon */
      , (29252, 177,          3) /* GemCount */
      , (29252, 178,         39) /* GemType */
      , (29252, 204,          4) /* ElementalDamageBonus */
-     , (29252, 353,         10) /* WeaponType - Thrown */
-     , (29252, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29252, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29252, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29252,  22, True ) /* Inscribable */;
@@ -50,8 +48,7 @@ VALUES (29252,   5,  -0.056) /* ManaRate */
      , (29252,  39,     1.1) /* DefaultScale */
      , (29252,  62,       1) /* WeaponOffense */
      , (29252,  63,    2.45) /* DamageMod */
-     , (29252, 149,   1.015) /* WeaponMissileDefense */
-     , (29252, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (29252, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29252,   1, 'Acid Atlatl') /* Name */
@@ -63,14 +60,7 @@ VALUES (29252,   1,   33559247) /* Setup */
      , (29252,   6,   67115373) /* PaletteBase */
      , (29252,   8,  100677456) /* Icon */
      , (29252,  22,  872415275) /* PhysicsEffectTable */
-     , (29252,  52,  100676437) /* IconUnderlay */
-     , (29252, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29252, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29252, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (29252, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29252, 8000, 2174236000) /* PCAPRecordedObjectIID */;
+     , (29252,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29252,  1616,      2) 
@@ -80,15 +70,3 @@ VALUES (29252,  1616,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29252, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29252, 67115376, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29252, 0, 83895603, 83895603)
-     , (29252, 0, 83895601, 83895601)
-     , (29252, 0, 83895602, 83895602)
-     , (29252, 0, 83895594, 83895594);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29252, 0, 16791353);

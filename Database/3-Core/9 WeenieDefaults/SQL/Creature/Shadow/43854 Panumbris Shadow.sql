@@ -14,8 +14,7 @@ VALUES (43854,   1,         16) /* ItemType - Creature */
      , (43854, 113,          2) /* Gender - Female */
      , (43854, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (43854, 188,          1) /* HeritageGroup - Aluvian */
-     , (43854, 307,          4) /* DamageRating */
-     , (43854, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43854, 307,          4) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43854,   1, True ) /* Stuck */;
@@ -25,8 +24,7 @@ VALUES (43854,  39,     1.3) /* DefaultScale */
      , (43854,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (43854,   1, 'Panumbris Shadow') /* Name */
-     , (43854, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (43854,   1, 'Panumbris Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43854,   1,   33556251) /* Setup */
@@ -40,17 +38,11 @@ VALUES (43854,   1,   33556251) /* Setup */
      , (43854,  15,   67117072) /* HairPalette */
      , (43854,  16,   67109567) /* EyesPalette */
      , (43854,  17,   67109561) /* SkinPalette */
-     , (43854,  22,  872415331) /* PhysicsEffectTable */
-     , (43854, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (43854, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (43854, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (43854,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43854, 8040, 2114060717, 70.0114, -158.177, 6.096787, -0.3073011, 0, 0, 0.9516124) /* PCAPRecordedLocation */
 /* @teleloc 0x7E0201AD [70.011400 -158.177000 6.096787] -0.307301 0.000000 0.000000 0.951612 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43854, 8000, 3685983814) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43854,   1, 240, 0, 0) /* Strength */
@@ -67,25 +59,3 @@ VALUES (43854,   1,  2250, 0, 0, 2380) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43854, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43854, 67112860, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43854, 0, 16778359)
-     , (43854, 1, 16777708)
-     , (43854, 2, 16777708)
-     , (43854, 3, 16777708)
-     , (43854, 4, 16777708)
-     , (43854, 5, 16777708)
-     , (43854, 6, 16777708)
-     , (43854, 7, 16777708)
-     , (43854, 8, 16777708)
-     , (43854, 9, 16778425)
-     , (43854, 10, 16778431)
-     , (43854, 11, 16778429)
-     , (43854, 12, 16777304)
-     , (43854, 13, 16778434)
-     , (43854, 14, 16778424)
-     , (43854, 15, 16777307)
-     , (43854, 16, 16778407);

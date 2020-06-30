@@ -28,9 +28,7 @@ VALUES (31782,   1,          1) /* ItemType - MeleeWeapon */
      , (31782, 151,          2) /* HookType - Wall */
      , (31782, 172,          1) /* AppraisalLongDescDecoration */
      , (31782, 176,         44) /* AppraisalItemSkill */
-     , (31782, 353,          5) /* WeaponType - Spear */
-     , (31782, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31782, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31782, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31782,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (31782,   5,  -0.042) /* ManaRate */
      , (31782,  29,       1) /* WeaponDefense */
      , (31782,  62,    1.08) /* WeaponOffense */
      , (31782,  63,       1) /* DamageMod */
-     , (31782, 149,    1.02) /* WeaponMissileDefense */
-     , (31782, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (31782, 149,    1.02) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31782,   1, 'Fire Spine Glaive') /* Name */
@@ -56,28 +53,10 @@ VALUES (31782,   1,   33559652) /* Setup */
      , (31782,   6,   67116700) /* PaletteBase */
      , (31782,   8,  100688100) /* Icon */
      , (31782,  22,  872415275) /* PhysicsEffectTable */
-     , (31782,  52,  100676438) /* IconUnderlay */
-     , (31782, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31782, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31782, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31782, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31782, 8000, 2174542691) /* PCAPRecordedObjectIID */;
+     , (31782,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31782,  1329,      2) 
      , (31782,  1591,      2) 
      , (31782,  1603,      2) 
      , (31782,  1614,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31782, 67116700, 1, 100)
-     , (31782, 67116704, 101, 100)
-     , (31782, 67116704, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31782, 0, 83897337, 83897337);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31782, 0, 16792614);

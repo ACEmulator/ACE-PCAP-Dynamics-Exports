@@ -8,10 +8,7 @@ VALUES (6843,   1,       8192) /* ItemType - Writable */
      , (6843,   5,         25) /* EncumbranceVal */
      , (6843,  16,          8) /* ItemUseable - Contained */
      , (6843,  19,          1) /* Value */
-     , (6843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6843, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (6843, 8042,          1) /* PCAPRecordedAppraisalPages */
-     , (6843, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
+     , (6843,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6843,   1, 'Mysterious Note') /* Name */
@@ -21,13 +18,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6843,   1,   33554773) /* Setup */
      , (6843,   3,  536870932) /* SoundTable */
      , (6843,   8,  100668176) /* Icon */
-     , (6843,  22,  872415275) /* PhysicsEffectTable */
-     , (6843, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (6843, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (6843, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6843, 8000, 2401546854) /* PCAPRecordedObjectIID */;
+     , (6843,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (6843, 1, 1000);

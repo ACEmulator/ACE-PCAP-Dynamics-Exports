@@ -17,8 +17,7 @@ VALUES (42799,   1,         16) /* ItemType - Creature */
      , (42799, 113,          2) /* Gender - Female */
      , (42799, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42799, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42799, 188,          1) /* HeritageGroup - Aluvian */
-     , (42799, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42799, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42799,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (42799,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42799,   1, 'Barkeeper AmberJill') /* Name */
-     , (42799,   5, 'Barkeeper') /* Template */
-     , (42799, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
+     , (42799,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42799,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (42799,   1,   33554510) /* Setup */
      , (42799,  11,   83890326) /* MouthTexture */
      , (42799,  15,   67116978) /* HairPalette */
      , (42799,  16,   67110064) /* EyesPalette */
-     , (42799,  17,   67109558) /* SkinPalette */
-     , (42799, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (42799, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (42799, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (42799,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42799, 8040, 459071, 70.5145, -17.5965, 0.004999995, 0.4609705, 0, 0, -0.8874155) /* PCAPRecordedLocation */
 /* @teleloc 0x0007013F [70.514500 -17.596500 0.005000] 0.460971 0.000000 0.000000 -0.887416 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42799, 8000, 1879076945) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42799,   1,  35, 0, 0) /* Strength */
@@ -94,50 +86,3 @@ VALUES (42799, 4,  2471, -1, 0, 0, False) /* Create Stout (2471) for Shop */
      , (42799, 4, 51606, -1, 0, 0, False) /* Create Contract for Snow Tusker Leader Tusk (51606) for Shop */
      , (42799, 4, 51605, -1, 0, 0, False) /* Create Contract for Journey To Madness (51605) for Shop */
      , (42799, 4, 51679, -1, 0, 0, False) /* Create Contract for Visitors (51679) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42799, 67109558, 0, 24)
-     , (42799, 67110064, 32, 8)
-     , (42799, 67110320, 160, 8)
-     , (42799, 67110359, 64, 8)
-     , (42799, 67110369, 40, 24)
-     , (42799, 67110540, 72, 8)
-     , (42799, 67110548, 92, 4)
-     , (42799, 67116978, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42799, 0, 83889072, 83890012)
-     , (42799, 0, 83889342, 83890011)
-     , (42799, 1, 83887064, 83886241)
-     , (42799, 2, 83887066, 83887051)
-     , (42799, 3, 83889344, 83887054)
-     , (42799, 4, 83887068, 83887054)
-     , (42799, 5, 83887064, 83886241)
-     , (42799, 6, 83887066, 83887051)
-     , (42799, 7, 83889344, 83887054)
-     , (42799, 8, 83887068, 83887054)
-     , (42799, 9, 83887070, 83890009)
-     , (42799, 9, 83887062, 83890010)
-     , (42799, 16, 83886232, 83890685)
-     , (42799, 16, 83886668, 83890255)
-     , (42799, 16, 83886837, 83890287)
-     , (42799, 16, 83886684, 83890326);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42799, 0, 16781875)
-     , (42799, 1, 16778430)
-     , (42799, 2, 16781908)
-     , (42799, 3, 16781841)
-     , (42799, 4, 16783485)
-     , (42799, 5, 16778438)
-     , (42799, 6, 16781909)
-     , (42799, 7, 16781840)
-     , (42799, 8, 16783487)
-     , (42799, 9, 16778425)
-     , (42799, 10, 16778431)
-     , (42799, 11, 16778429)
-     , (42799, 12, 16778423)
-     , (42799, 13, 16778434)
-     , (42799, 14, 16778424)
-     , (42799, 15, 16778435)
-     , (42799, 16, 16795640);

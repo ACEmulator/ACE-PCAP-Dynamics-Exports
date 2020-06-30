@@ -28,9 +28,7 @@ VALUES (3906,   1,          1) /* ItemType - MeleeWeapon */
      , (3906, 151,          2) /* HookType - Wall */
      , (3906, 172,          1) /* AppraisalLongDescDecoration */
      , (3906, 176,         45) /* AppraisalItemSkill */
-     , (3906, 353,          3) /* WeaponType - Axe */
-     , (3906, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3906, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3906, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3906,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (3906,   5,  -0.033) /* ManaRate */
      , (3906,  26,       0) /* MaximumVelocity */
      , (3906,  29,    1.02) /* WeaponDefense */
      , (3906,  62,    1.04) /* WeaponOffense */
-     , (3906,  63,       1) /* DamageMod */
-     , (3906, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3906,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3906,   1, 'Lightning War Hammer') /* Name */
@@ -53,13 +50,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3906,   1,   33555829) /* Setup */
      , (3906,   3,  536870932) /* SoundTable */
      , (3906,   8,  100669074) /* Icon */
-     , (3906,  22,  872415275) /* PhysicsEffectTable */
-     , (3906, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3906, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3906, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3906, 8000, 3701225638) /* PCAPRecordedObjectIID */;
+     , (3906,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3906,  1590,      2) 

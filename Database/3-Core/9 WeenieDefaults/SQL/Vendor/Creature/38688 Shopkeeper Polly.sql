@@ -19,8 +19,7 @@ VALUES (38688,   1,         16) /* ItemType - Creature */
      , (38688, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38688, 188,          3) /* HeritageGroup - Sho */
      , (38688, 281,          1) /* Faction1Bits */
-     , (38688, 287,        601) /* SocietyRankCelhan */
-     , (38688, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38688, 287,        601) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38688,   1, True ) /* Stuck */
@@ -34,8 +33,7 @@ VALUES (38688,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38688,   1, 'Shopkeeper Polly') /* Name */
-     , (38688,   5, 'Society Shopkeep') /* Template */
-     , (38688, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38688,   5, 'Society Shopkeep') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38688,   1,   33554510) /* Setup */
@@ -48,17 +46,11 @@ VALUES (38688,   1,   33554510) /* Setup */
      , (38688,  11,   83890327) /* MouthTexture */
      , (38688,  15,   67117068) /* HairPalette */
      , (38688,  16,   67110063) /* EyesPalette */
-     , (38688,  17,   67110052) /* SkinPalette */
-     , (38688, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (38688, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (38688, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (38688,  17,   67110052) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38688, 8040, 11993706, 136.773, -32.6153, -17.995, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026A [136.773000 -32.615300 -17.995000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38688, 8000, 1879797827) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38688,   1,  45, 0, 0) /* Strength */
@@ -160,54 +152,3 @@ VALUES (38688, 4, 46743, -1, 0, 0, False) /* Create Contract for Stipend: Celest
      , (38688, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (38688, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (38688, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38688, 67109945, 72, 8)
-     , (38688, 67109964, 92, 4)
-     , (38688, 67110052, 0, 24)
-     , (38688, 67110063, 32, 8)
-     , (38688, 67110346, 40, 24)
-     , (38688, 67110349, 64, 8)
-     , (38688, 67110349, 160, 8)
-     , (38688, 67117068, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38688, 0, 83889072, 83886685)
-     , (38688, 0, 83889342, 83889386)
-     , (38688, 1, 83887064, 83886241)
-     , (38688, 2, 83887066, 83887055)
-     , (38688, 3, 83889344, 83887054)
-     , (38688, 4, 83887068, 83887054)
-     , (38688, 5, 83887064, 83886241)
-     , (38688, 6, 83887066, 83887055)
-     , (38688, 7, 83889344, 83887054)
-     , (38688, 8, 83887068, 83887054)
-     , (38688, 9, 83887070, 83886687)
-     , (38688, 9, 83887062, 83886686)
-     , (38688, 10, 83887069, 83886782)
-     , (38688, 11, 83886788, 83891213)
-     , (38688, 13, 83887069, 83886782)
-     , (38688, 14, 83886788, 83891213)
-     , (38688, 16, 83886232, 83890685)
-     , (38688, 16, 83886668, 83890264)
-     , (38688, 16, 83886837, 83890295)
-     , (38688, 16, 83886684, 83890327);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38688, 0, 16793872)
-     , (38688, 1, 16778430)
-     , (38688, 2, 16781916)
-     , (38688, 3, 16778361)
-     , (38688, 4, 16778426)
-     , (38688, 5, 16778438)
-     , (38688, 6, 16781917)
-     , (38688, 7, 16778360)
-     , (38688, 8, 16778428)
-     , (38688, 9, 16793871)
-     , (38688, 10, 16778431)
-     , (38688, 11, 16781873)
-     , (38688, 12, 16778423)
-     , (38688, 13, 16778434)
-     , (38688, 14, 16781874)
-     , (38688, 15, 16778435)
-     , (38688, 16, 16795650);

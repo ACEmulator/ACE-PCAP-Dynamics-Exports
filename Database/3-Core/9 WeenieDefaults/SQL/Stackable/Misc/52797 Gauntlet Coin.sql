@@ -14,8 +14,7 @@ VALUES (52797,   1,        128) /* ItemType - Misc */
      , (52797,  19,          0) /* Value */
      , (52797,  33,          1) /* Bonded - Bonded */
      , (52797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52797, 114,          1) /* Attuned - Attuned */
-     , (52797, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52797, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52797,   1, 'Gauntlet Coin') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52797,   1,   33554802) /* Setup */
      , (52797,   3,  536870932) /* SoundTable */
      , (52797,   8,  100693323) /* Icon */
-     , (52797,  22,  872415275) /* PhysicsEffectTable */
-     , (52797, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
-     , (52797, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (52797, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52797, 8000, 2603446492) /* PCAPRecordedObjectIID */;
+     , (52797,  22,  872415275) /* PhysicsEffectTable */;

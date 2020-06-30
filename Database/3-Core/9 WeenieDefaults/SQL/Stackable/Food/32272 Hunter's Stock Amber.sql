@@ -38,14 +38,7 @@ VALUES (32272,   1,   33559128) /* Setup */
      , (32272,  22,  872415275) /* PhysicsEffectTable */
      , (32272,  28,       3863) /* Spell - HunterHardiness */
      , (32272,  50,  100687554) /* IconOverlay */
-     , (32272,  52,  100687547) /* IconUnderlay */
-     , (32272, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
-     , (32272, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (32272, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (32272, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32272, 8000, 3041952747) /* PCAPRecordedObjectIID */;
+     , (32272,  52,  100687547) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32272,  3863,      2) ;

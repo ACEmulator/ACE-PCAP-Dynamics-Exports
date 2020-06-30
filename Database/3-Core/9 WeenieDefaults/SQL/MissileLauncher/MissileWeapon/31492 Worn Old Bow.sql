@@ -25,8 +25,7 @@ VALUES (31492,   1,        256) /* ItemType - MissileWeapon */
      , (31492, 158,          2) /* WieldRequirements - RawSkill */
      , (31492, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31492, 160,        315) /* WieldDifficulty */
-     , (31492, 353,          8) /* WeaponType - Bow */
-     , (31492, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31492, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31492,  22, True ) /* Inscribable */;
@@ -48,19 +47,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31492,   1,   33559582) /* Setup */
      , (31492,   3,  536870932) /* SoundTable */
      , (31492,   8,  100687879) /* Icon */
-     , (31492,  22,  872415275) /* PhysicsEffectTable */
-     , (31492, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (31492, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31492, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (31492, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (31492,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31492, 8040, 3332964380, 82.62305, 77.36809, 41.93, 0.0167929, 0, 0, -0.999859) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [82.623050 77.368090 41.930000] 0.016793 0.000000 0.000000 -0.999859 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31492, 8000, 2906212832) /* PCAPRecordedObjectIID */
-     , (31492, 8008, 1342830292) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31492,  2096,      2) 

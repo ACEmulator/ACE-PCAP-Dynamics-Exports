@@ -26,9 +26,7 @@ VALUES (3879,   1,          1) /* ItemType - MeleeWeapon */
      , (3879, 172,          5) /* AppraisalLongDescDecoration */
      , (3879, 177,          4) /* GemCount */
      , (3879, 178,         26) /* GemType */
-     , (3879, 353,          2) /* WeaponType - Sword */
-     , (3879, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3879, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3879, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3879,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (3879,  21,       0) /* WeaponLength */
      , (3879,  29,    1.08) /* WeaponDefense */
      , (3879,  39,     1.1) /* DefaultScale */
      , (3879,  62,     1.1) /* WeaponOffense */
-     , (3879,  63,       1) /* DamageMod */
-     , (3879, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3879,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3879,   1, 'Flaming Broad Sword') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3879,   1,   33555786) /* Setup */
      , (3879,   3,  536870932) /* SoundTable */
      , (3879,   8,  100669015) /* Icon */
-     , (3879,  22,  872415275) /* PhysicsEffectTable */
-     , (3879, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3879, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3879, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3879, 8000, 3699121121) /* PCAPRecordedObjectIID */;
+     , (3879,  22,  872415275) /* PhysicsEffectTable */;

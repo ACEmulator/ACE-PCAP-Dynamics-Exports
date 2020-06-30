@@ -14,8 +14,7 @@ VALUES (39984,   1,        128) /* ItemType - Misc */
      , (39984,  19,        100) /* Value */
      , (39984,  33,          1) /* Bonded - Bonded */
      , (39984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39984, 114,          1) /* Attuned - Attuned */
-     , (39984, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39984, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39984,   1, 'Adventurer''s Token') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39984,   1,   33554802) /* Setup */
      , (39984,   3,  536870932) /* SoundTable */
      , (39984,   8,  100689744) /* Icon */
-     , (39984,  22,  872415275) /* PhysicsEffectTable */
-     , (39984, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (39984, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (39984, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39984, 8000, 2210356865) /* PCAPRecordedObjectIID */;
+     , (39984,  22,  872415275) /* PhysicsEffectTable */;

@@ -12,8 +12,7 @@ VALUES (4731,   1,         32) /* ItemType - Food */
      , (4731,  15,         18) /* StackUnitValue */
      , (4731,  16,          8) /* ItemUseable - Contained */
      , (4731,  19,         18) /* Value */
-     , (4731,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4731, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4731,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4731,   1, 'Fried Mushroom') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4731,   1,   33554805) /* Setup */
      , (4731,   3,  536870932) /* SoundTable */
      , (4731,   8,  100670270) /* Icon */
-     , (4731,  22,  872415275) /* PhysicsEffectTable */
-     , (4731, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (4731, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (4731, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4731, 8000, 3685967869) /* PCAPRecordedObjectIID */;
+     , (4731,  22,  872415275) /* PhysicsEffectTable */;

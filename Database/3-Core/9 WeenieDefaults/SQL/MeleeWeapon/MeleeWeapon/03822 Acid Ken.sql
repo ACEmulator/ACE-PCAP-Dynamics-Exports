@@ -26,9 +26,7 @@ VALUES (3822,   1,          1) /* ItemType - MeleeWeapon */
      , (3822, 172,          5) /* AppraisalLongDescDecoration */
      , (3822, 177,          1) /* GemCount */
      , (3822, 178,         49) /* GemType */
-     , (3822, 353,          2) /* WeaponType - Sword */
-     , (3822, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3822, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3822, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3822,  22, True ) /* Inscribable */;
@@ -39,8 +37,7 @@ VALUES (3822,  21,       0) /* WeaponLength */
      , (3822,  26,       0) /* MaximumVelocity */
      , (3822,  29,     1.1) /* WeaponDefense */
      , (3822,  62,    1.15) /* WeaponOffense */
-     , (3822,  63,       1) /* DamageMod */
-     , (3822, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3822,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3822,   1, 'Acid Ken') /* Name */
@@ -50,10 +47,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3822,   1,   33555790) /* Setup */
      , (3822,   3,  536870932) /* SoundTable */
      , (3822,   8,  100669016) /* Icon */
-     , (3822,  22,  872415275) /* PhysicsEffectTable */
-     , (3822, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3822, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3822, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3822, 8000, 3699152335) /* PCAPRecordedObjectIID */;
+     , (3822,  22,  872415275) /* PhysicsEffectTable */;

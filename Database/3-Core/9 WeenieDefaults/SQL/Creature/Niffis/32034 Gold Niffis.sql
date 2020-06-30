@@ -11,8 +11,7 @@ VALUES (32034,   1,         16) /* ItemType - Creature */
      , (32034,  16,          1) /* ItemUseable - No */
      , (32034,  25,        185) /* Level */
      , (32034,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (32034, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32034, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32034, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32034,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32034,  39,     0.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32034,   1, 'Gold Niffis') /* Name */
-     , (32034, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (32034,   1, 'Gold Niffis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32034,   1,   33556774) /* Setup */
@@ -30,17 +28,11 @@ VALUES (32034,   1,   33556774) /* Setup */
      , (32034,   3,  536871010) /* SoundTable */
      , (32034,   6,   67112937) /* PaletteBase */
      , (32034,   8,  100670961) /* Icon */
-     , (32034,  22,  872415365) /* PhysicsEffectTable */
-     , (32034, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (32034, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (32034, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (32034,  22,  872415365) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32034, 8040, 3571253261, 34.74494, 107.9118, 4.0004, -0.7924171, 0, 0, -0.6099796) /* PCAPRecordedLocation */
 /* @teleloc 0xD4DD000D [34.744940 107.911800 4.000400] -0.792417 0.000000 0.000000 -0.609980 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32034, 8000, 2629269555) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32034,   1, 360, 0, 0) /* Strength */
@@ -67,6 +59,3 @@ VALUES (32034, 9, 49437,  0, 0, 0, False) /* Create Fire Spectre Essence (100) (
      , (32034, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (32034, 9, 32036,  0, 0, 0, False) /* Create Gold Niffis Tentacle (32036) for ContainTreasure */
      , (32034, 9,  2548,  0, 0, 0, False) /* Create Sceptre (2548) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32034, 67116786, 0, 0);

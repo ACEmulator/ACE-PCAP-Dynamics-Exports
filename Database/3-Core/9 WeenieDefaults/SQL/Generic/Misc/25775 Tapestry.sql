@@ -9,8 +9,7 @@ VALUES (25775,   1,        128) /* ItemType - Misc */
      , (25775,  16,          1) /* ItemUseable - No */
      , (25775,  19,       7000) /* Value */
      , (25775,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25775, 151,          2) /* HookType - Wall */
-     , (25775, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25775, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25775,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (25775,   1, 'Tapestry') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25775,   1,   33558535) /* Setup */
-     , (25775,   8,  100675567) /* Icon */
-     , (25775, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (25775, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25775, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25775, 8000, 2166203165) /* PCAPRecordedObjectIID */;
+     , (25775,   8,  100675567) /* Icon */;

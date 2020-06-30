@@ -33,9 +33,7 @@ VALUES (30590,   1,          1) /* ItemType - MeleeWeapon */
      , (30590, 176,         44) /* AppraisalItemSkill */
      , (30590, 177,          3) /* GemCount */
      , (30590, 178,         49) /* GemType */
-     , (30590, 353,          4) /* WeaponType - Mace */
-     , (30590, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30590, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30590, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30590,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (30590,   5,  -0.056) /* ManaRate */
      , (30590,  26,       0) /* MaximumVelocity */
      , (30590,  29,    1.15) /* WeaponDefense */
      , (30590,  62,    1.09) /* WeaponOffense */
-     , (30590,  63,       1) /* DamageMod */
-     , (30590, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (30590,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30590,   1, 'Frost Flanged Mace') /* Name */
@@ -59,24 +56,9 @@ VALUES (30590,   1,   33559476) /* Setup */
      , (30590,   3,  536870932) /* SoundTable */
      , (30590,   6,   67115559) /* PaletteBase */
      , (30590,   8,  100686975) /* Icon */
-     , (30590,  22,  872415275) /* PhysicsEffectTable */
-     , (30590, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30590, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30590, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30590, 8000, 3469253846) /* PCAPRecordedObjectIID */;
+     , (30590,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30590,  1378,      2) 
      , (30590,  1615,      2) 
      , (30590,  2515,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30590, 67116398, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30590, 0, 83896666, 83896666);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30590, 0, 16791841);

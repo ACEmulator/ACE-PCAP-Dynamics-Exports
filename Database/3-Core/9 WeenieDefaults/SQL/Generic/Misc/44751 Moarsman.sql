@@ -20,10 +20,4 @@ VALUES (44751,   1, 'Moarsman') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44751,   1,   33561351) /* Setup */
-     , (44751,   8,  100668115) /* Icon */
-     , (44751, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44751, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44751, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44751, 8000, 2461499780) /* PCAPRecordedObjectIID */;
+     , (44751,   8,  100668115) /* Icon */;

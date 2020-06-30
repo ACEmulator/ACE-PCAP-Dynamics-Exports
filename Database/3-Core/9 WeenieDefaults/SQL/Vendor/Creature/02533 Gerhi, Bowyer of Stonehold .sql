@@ -18,8 +18,7 @@ VALUES (2533,   1,         16) /* ItemType - Creature */
      , (2533, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2533, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (2533, 188,          1) /* HeritageGroup - Aluvian */
-     , (2533, 307,          5) /* DamageRating */
-     , (2533, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2533, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2533,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (2533,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2533,   1, 'Gerhi, Bowyer of Stonehold ') /* Name */
-     , (2533,   5, 'Bowyer') /* Template */
-     , (2533, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2533,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2533,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (2533,   1,   33554433) /* Setup */
      , (2533,  11,   83890642) /* MouthTexture */
      , (2533,  15,   67117018) /* HairPalette */
      , (2533,  16,   67109564) /* EyesPalette */
-     , (2533,  17,   67109561) /* SkinPalette */
-     , (2533, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2533, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2533, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (2533,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2533, 8040, 1691681031, 86.4072, 108.694, 78.005, -0.2080459, 0, 0, -0.9781191) /* PCAPRecordedLocation */
 /* @teleloc 0x64D50107 [86.407200 108.694000 78.005000] -0.208046 0.000000 0.000000 -0.978119 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2533, 8000, 1984778258) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2533,   1,  80, 0, 0) /* Strength */
@@ -113,50 +105,3 @@ VALUES (2533, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (2533, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (2533, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (2533, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2533, 67109561, 0, 24)
-     , (2533, 67109564, 32, 8)
-     , (2533, 67109964, 92, 4)
-     , (2533, 67110365, 40, 24)
-     , (2533, 67110372, 64, 8)
-     , (2533, 67110375, 160, 8)
-     , (2533, 67110540, 72, 8)
-     , (2533, 67117018, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2533, 0, 83889072, 83890012)
-     , (2533, 0, 83889342, 83890011)
-     , (2533, 1, 83887064, 83886241)
-     , (2533, 2, 83887066, 83887051)
-     , (2533, 3, 83889344, 83887054)
-     , (2533, 4, 83887068, 83887054)
-     , (2533, 5, 83887064, 83886241)
-     , (2533, 6, 83887066, 83887051)
-     , (2533, 7, 83889344, 83887054)
-     , (2533, 8, 83887068, 83887054)
-     , (2533, 9, 83887061, 83890009)
-     , (2533, 9, 83887060, 83890010)
-     , (2533, 16, 83886232, 83890685)
-     , (2533, 16, 83886668, 83890481)
-     , (2533, 16, 83886837, 83890559)
-     , (2533, 16, 83886684, 83890642);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2533, 0, 16781835)
-     , (2533, 1, 16777295)
-     , (2533, 2, 16781866)
-     , (2533, 3, 16781841)
-     , (2533, 4, 16781838)
-     , (2533, 5, 16777299)
-     , (2533, 6, 16781864)
-     , (2533, 7, 16781840)
-     , (2533, 8, 16781839)
-     , (2533, 9, 16777300)
-     , (2533, 10, 16777301)
-     , (2533, 11, 16777302)
-     , (2533, 12, 16777304)
-     , (2533, 13, 16777303)
-     , (2533, 14, 16777305)
-     , (2533, 15, 16777307)
-     , (2533, 16, 16795650);

@@ -35,9 +35,7 @@ VALUES (3852,   1,          1) /* ItemType - MeleeWeapon */
      , (3852, 177,          6) /* GemCount */
      , (3852, 178,         49) /* GemType */
      , (3852, 179,        128) /* ImbuedEffect - ColdRending */
-     , (3852, 353,          2) /* WeaponType - Sword */
-     , (3852, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3852, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3852, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3852,  22, True ) /* Inscribable */;
@@ -51,8 +49,7 @@ VALUES (3852,   5,  -0.056) /* ManaRate */
      , (3852,  62,    1.11) /* WeaponOffense */
      , (3852,  63,       1) /* DamageMod */
      , (3852, 149,   1.025) /* WeaponMissileDefense */
-     , (3852, 150,   1.015) /* WeaponMagicDefense */
-     , (3852, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (3852, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3852,   1, 'Frost Scimitar') /* Name */
@@ -64,14 +61,7 @@ VALUES (3852,   1,   33555774) /* Setup */
      , (3852,   3,  536870932) /* SoundTable */
      , (3852,   8,  100668975) /* Icon */
      , (3852,  22,  872415275) /* PhysicsEffectTable */
-     , (3852,  52,  100676435) /* IconUnderlay */
-     , (3852, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3852, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3852, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3852, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3852, 8000, 2173387646) /* PCAPRecordedObjectIID */;
+     , (3852,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3852,  1378,      2) 

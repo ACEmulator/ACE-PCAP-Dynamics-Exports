@@ -13,14 +13,10 @@ VALUES (40719,   1,          1) /* ItemType - MeleeWeapon */
      , (40719,  51,          1) /* CombatUse - Melee */
      , (40719,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40719, 131,         64) /* MaterialType - Steel */
-     , (40719, 151,          2) /* HookType - Wall */
-     , (40719, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40719, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40719,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40719, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40719,   1, 'Dagger') /* Name */;
@@ -30,21 +26,4 @@ VALUES (40719,   1,   33554735) /* Setup */
      , (40719,   3,  536870932) /* SoundTable */
      , (40719,   6,   67111919) /* PaletteBase */
      , (40719,   8,  100668876) /* Icon */
-     , (40719,  22,  872415275) /* PhysicsEffectTable */
-     , (40719, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40719, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40719, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40719, 8000, 2624395195) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40719, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40719, 0, 83889237, 83889237)
-     , (40719, 0, 83886754, 83886754)
-     , (40719, 0, 83889236, 83889236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40719, 0, 16777993);
+     , (40719,  22,  872415275) /* PhysicsEffectTable */;

@@ -33,9 +33,7 @@ VALUES (3816,   1,          1) /* ItemType - MeleeWeapon */
      , (3816, 176,         45) /* AppraisalItemSkill */
      , (3816, 177,          3) /* GemCount */
      , (3816, 178,         48) /* GemType */
-     , (3816, 353,          4) /* WeaponType - Mace */
-     , (3816, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3816, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3816, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3816,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3816,   5,   -0.05) /* ManaRate */
      , (3816,  29,     1.1) /* WeaponDefense */
      , (3816,  62,    1.07) /* WeaponOffense */
      , (3816,  63,       1) /* DamageMod */
-     , (3816, 149,   1.015) /* WeaponMissileDefense */
-     , (3816, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3816, 149,   1.015) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3816,   1, 'Flaming Kasrullah') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3816,   1,   33555735) /* Setup */
      , (3816,   3,  536870932) /* SoundTable */
      , (3816,   8,  100668914) /* Icon */
-     , (3816,  22,  872415275) /* PhysicsEffectTable */
-     , (3816, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3816, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3816, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3816, 8000, 3701259100) /* PCAPRecordedObjectIID */;
+     , (3816,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3816,  1377,      2) 

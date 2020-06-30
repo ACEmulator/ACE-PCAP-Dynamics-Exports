@@ -32,9 +32,7 @@ VALUES (29243,   1,        256) /* ItemType - MissileWeapon */
      , (29243, 172,          1) /* AppraisalLongDescDecoration */
      , (29243, 176,         47) /* AppraisalItemSkill */
      , (29243, 204,         22) /* ElementalDamageBonus */
-     , (29243, 353,          8) /* WeaponType - Bow */
-     , (29243, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29243, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29243, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29243,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (29243,   5,  -0.067) /* ManaRate */
      , (29243,  39,     1.1) /* DefaultScale */
      , (29243,  62,       1) /* WeaponOffense */
      , (29243,  63,     2.4) /* DamageMod */
-     , (29243, 150,   1.025) /* WeaponMagicDefense */
-     , (29243, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (29243, 150,   1.025) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29243,   1, 'Piercing Bow') /* Name */
@@ -60,27 +57,9 @@ VALUES (29243,   1,   33559027) /* Setup */
      , (29243,   3,  536870932) /* SoundTable */
      , (29243,   6,   67115373) /* PaletteBase */
      , (29243,   8,  100677125) /* Icon */
-     , (29243,  22,  872415275) /* PhysicsEffectTable */
-     , (29243, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29243, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29243, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29243, 8000, 2159697002) /* PCAPRecordedObjectIID */;
+     , (29243,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29243,  2061,      2) 
      , (29243,  2510,      2) 
      , (29243,  4395,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29243, 67115374, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29243, 0, 83895600, 83895600)
-     , (29243, 0, 83895601, 83895601)
-     , (29243, 0, 83895602, 83895602)
-     , (29243, 0, 83895603, 83895603);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29243, 0, 16790883);

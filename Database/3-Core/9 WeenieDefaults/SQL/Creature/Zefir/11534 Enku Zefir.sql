@@ -11,8 +11,7 @@ VALUES (11534,   1,         16) /* ItemType - Creature */
      , (11534,  16,          1) /* ItemUseable - No */
      , (11534,  25,        100) /* Level */
      , (11534,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11534, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11534, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11534, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11534,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11534,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11534,   1, 'Enku Zefir') /* Name */
-     , (11534, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11534,   1, 'Enku Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11534,   1,   33555610) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11534,   1,   33555610) /* Setup */
      , (11534,   3,  536870975) /* SoundTable */
      , (11534,   6,   67109305) /* PaletteBase */
      , (11534,   8,  100669123) /* Icon */
-     , (11534,  22,  872415279) /* PhysicsEffectTable */
-     , (11534, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11534, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11534, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11534,  22,  872415279) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11534, 8040, 462487586, 105.2027, 29.96178, 30.015, 0.9745413, 0, 0, -0.2242081) /* PCAPRecordedLocation */
 /* @teleloc 0x1B910022 [105.202700 29.961780 30.015000] 0.974541 0.000000 0.000000 -0.224208 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11534, 8000, 3702861561) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11534,   1, 300, 0, 0) /* Strength */
@@ -126,6 +118,3 @@ VALUES (11534, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTrea
      , (11534, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (11534, 9,  2396,  1, 0, 0, False) /* Create Gem (2396) for ContainTreasure */
      , (11534, 9,   339,  0, 0, 0, False) /* Create Scimitar (339) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11534, 67113038, 0, 0);

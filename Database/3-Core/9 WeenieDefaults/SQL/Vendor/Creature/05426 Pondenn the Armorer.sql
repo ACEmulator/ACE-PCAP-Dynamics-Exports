@@ -17,8 +17,7 @@ VALUES (5426,   1,         16) /* ItemType - Creature */
      , (5426, 113,          1) /* Gender - Male */
      , (5426, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5426, 134,          1) /* PlayerKillerStatus - NPC */
-     , (5426, 188,          1) /* HeritageGroup - Aluvian */
-     , (5426, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5426, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5426,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5426,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5426,   1, 'Pondenn the Armorer') /* Name */
-     , (5426,   5, 'Armorer') /* Template */
-     , (5426, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5426,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5426,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5426,   1,   33554433) /* Setup */
      , (5426,  11,   83890667) /* MouthTexture */
      , (5426,  15,   67117070) /* HairPalette */
      , (5426,  16,   67110063) /* EyesPalette */
-     , (5426,  17,   67109559) /* SkinPalette */
-     , (5426, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5426, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5426, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5426,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5426, 8040, 2678325504, 132.935, 150.834, 86.005, 0.9242172, 0, 0, -0.3818671) /* PCAPRecordedLocation */
 /* @teleloc 0x9FA40100 [132.935000 150.834000 86.005000] 0.924217 0.000000 0.000000 -0.381867 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5426, 8000, 2046443533) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5426,   1,  95, 0, 0) /* Strength */
@@ -99,51 +91,3 @@ VALUES (5426, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (5426, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5426, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5426, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5426, 67109559, 0, 24)
-     , (5426, 67109969, 92, 4)
-     , (5426, 67110026, 72, 8)
-     , (5426, 67110063, 32, 8)
-     , (5426, 67110320, 40, 24)
-     , (5426, 67110320, 64, 8)
-     , (5426, 67110325, 160, 8)
-     , (5426, 67110378, 216, 24)
-     , (5426, 67117070, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5426, 0, 83889072, 83890012)
-     , (5426, 0, 83889342, 83890011)
-     , (5426, 1, 83887064, 83886241)
-     , (5426, 2, 83887066, 83887051)
-     , (5426, 3, 83889344, 83887054)
-     , (5426, 4, 83887068, 83887054)
-     , (5426, 5, 83887064, 83886241)
-     , (5426, 6, 83887066, 83887051)
-     , (5426, 7, 83889344, 83887054)
-     , (5426, 8, 83887068, 83887054)
-     , (5426, 9, 83887061, 83890009)
-     , (5426, 9, 83887060, 83890010)
-     , (5426, 16, 83886232, 83890685)
-     , (5426, 16, 83886668, 83890516)
-     , (5426, 16, 83886837, 83890558)
-     , (5426, 16, 83886684, 83890667);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5426, 0, 16781835)
-     , (5426, 1, 16777295)
-     , (5426, 2, 16777293)
-     , (5426, 3, 16777292)
-     , (5426, 4, 16777291)
-     , (5426, 5, 16777299)
-     , (5426, 6, 16777297)
-     , (5426, 7, 16777296)
-     , (5426, 8, 16777298)
-     , (5426, 9, 16777300)
-     , (5426, 10, 16777301)
-     , (5426, 11, 16777302)
-     , (5426, 12, 16777304)
-     , (5426, 13, 16777303)
-     , (5426, 14, 16777305)
-     , (5426, 15, 16777307)
-     , (5426, 16, 16795662);

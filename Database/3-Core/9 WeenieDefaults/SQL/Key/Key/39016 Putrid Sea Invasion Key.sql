@@ -13,8 +13,7 @@ VALUES (39016,   1,      16384) /* ItemType - Key */
      , (39016,  92,          1) /* Structure */
      , (39016,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39016,  94,        640) /* TargetType - LockableMagicTarget */
-     , (39016, 114,          1) /* Attuned - Attuned */
-     , (39016, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39016, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39016,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (39016,   1, 'Putrid Sea Invasion Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39016,   1,   33554784) /* Setup */
      , (39016,   8,  100667485) /* Icon */
-     , (39016,  22,  872415275) /* PhysicsEffectTable */
-     , (39016, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (39016, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39016, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39016, 8000, 2879954059) /* PCAPRecordedObjectIID */;
+     , (39016,  22,  872415275) /* PhysicsEffectTable */;

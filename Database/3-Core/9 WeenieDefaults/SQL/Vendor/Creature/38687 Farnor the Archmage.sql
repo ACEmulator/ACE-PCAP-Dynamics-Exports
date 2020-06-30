@@ -19,8 +19,7 @@ VALUES (38687,   1,         16) /* ItemType - Creature */
      , (38687, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38687, 188,          2) /* HeritageGroup - Gharundim */
      , (38687, 281,          1) /* Faction1Bits */
-     , (38687, 287,       1001) /* SocietyRankCelhan */
-     , (38687, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38687, 287,       1001) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38687,   1, True ) /* Stuck */
@@ -34,8 +33,7 @@ VALUES (38687,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38687,   1, 'Farnor the Archmage') /* Name */
-     , (38687,   5, 'Society Archmage') /* Template */
-     , (38687, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38687,   5, 'Society Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38687,   1,   33554433) /* Setup */
@@ -48,17 +46,11 @@ VALUES (38687,   1,   33554433) /* Setup */
      , (38687,  11,   83890608) /* MouthTexture */
      , (38687,  15,   67117077) /* HairPalette */
      , (38687,  16,   67110063) /* EyesPalette */
-     , (38687,  17,   67109555) /* SkinPalette */
-     , (38687, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (38687, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (38687, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (38687,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38687, 8040, 11993706, 136.725, -26.6064, -17.995, 0.9449509, 0, 0, -0.3272121) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026A [136.725000 -26.606400 -17.995000] 0.944951 0.000000 0.000000 -0.327212 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38687, 8000, 1879797826) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38687,   1, 150, 0, 0) /* Strength */
@@ -291,49 +283,3 @@ VALUES (38687, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (38687, 4,  8981, -1, 0, 0, False) /* Create Shoushi Portal Gem (8981) for Shop */
      , (38687, 4,  8983, -1, 0, 0, False) /* Create Yanshi Portal Gem (8983) for Shop */
      , (38687, 4,  8984, -1, 0, 0, False) /* Create Yaraq Portal Gem (8984) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38687, 67109555, 0, 24)
-     , (38687, 67110063, 32, 8)
-     , (38687, 67113254, 40, 40)
-     , (38687, 67113254, 80, 12)
-     , (38687, 67113254, 116, 12)
-     , (38687, 67113254, 96, 12)
-     , (38687, 67117077, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38687, 0, 83892345, 83892345)
-     , (38687, 0, 83892344, 83892344)
-     , (38687, 1, 83892352, 83892352)
-     , (38687, 2, 83892351, 83892351)
-     , (38687, 5, 83892352, 83892352)
-     , (38687, 6, 83892351, 83892351)
-     , (38687, 9, 83887061, 83892348)
-     , (38687, 9, 83887060, 83892349)
-     , (38687, 10, 83892347, 83892347)
-     , (38687, 11, 83892346, 83892346)
-     , (38687, 13, 83892347, 83892347)
-     , (38687, 14, 83892346, 83892346)
-     , (38687, 16, 83886232, 83890685)
-     , (38687, 16, 83886668, 83890485)
-     , (38687, 16, 83886837, 83890544)
-     , (38687, 16, 83886684, 83890608);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38687, 0, 16783894)
-     , (38687, 1, 16783885)
-     , (38687, 2, 16783878)
-     , (38687, 3, 16777708)
-     , (38687, 4, 16777708)
-     , (38687, 5, 16783889)
-     , (38687, 6, 16783881)
-     , (38687, 7, 16777708)
-     , (38687, 8, 16777708)
-     , (38687, 9, 16781837)
-     , (38687, 10, 16783863)
-     , (38687, 11, 16783853)
-     , (38687, 12, 16777304)
-     , (38687, 13, 16783871)
-     , (38687, 14, 16783855)
-     , (38687, 15, 16777307)
-     , (38687, 16, 16795654);

@@ -11,15 +11,13 @@ VALUES (28638,   1,         16) /* ItemType - Creature */
      , (28638,  16,          1) /* ItemUseable - No */
      , (28638,  25,        115) /* Level */
      , (28638,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28638, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28638, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28638, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28638,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28638,   1, 'Repugnant Eater') /* Name */
-     , (28638, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28638,   1, 'Repugnant Eater') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28638,   1,   33559121) /* Setup */
@@ -27,17 +25,11 @@ VALUES (28638,   1,   33559121) /* Setup */
      , (28638,   3,  536871097) /* SoundTable */
      , (28638,   6,   67115387) /* PaletteBase */
      , (28638,   8,  100677365) /* Icon */
-     , (28638,  22,  872415409) /* PhysicsEffectTable */
-     , (28638, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28638, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28638, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (28638,  22,  872415409) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28638, 8040, 1190264847, 35.01073, 144.855, 52, 0.9998111, 0, 0, -0.01943968) /* PCAPRecordedLocation */
 /* @teleloc 0x46F2000F [35.010730 144.855000 52.000000] 0.999811 0.000000 0.000000 -0.019440 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28638, 8000, 3689982365) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28638,   1, 400, 0, 0) /* Strength */
@@ -390,6 +382,3 @@ VALUES (28638, 9, 49436,  0, 0, 0, False) /* Create Fire Spectre Essence (80) (4
      , (28638, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
      , (28638, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
      , (28638, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28638, 67115516, 0, 0);

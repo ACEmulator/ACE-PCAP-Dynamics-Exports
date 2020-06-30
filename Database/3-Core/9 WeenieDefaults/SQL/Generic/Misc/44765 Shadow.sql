@@ -20,10 +20,4 @@ VALUES (44765,   1, 'Shadow') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44765,   1,   33561365) /* Setup */
-     , (44765,   8,  100668115) /* Icon */
-     , (44765, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44765, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44765, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44765, 8000, 2629411060) /* PCAPRecordedObjectIID */;
+     , (44765,   8,  100668115) /* Icon */;

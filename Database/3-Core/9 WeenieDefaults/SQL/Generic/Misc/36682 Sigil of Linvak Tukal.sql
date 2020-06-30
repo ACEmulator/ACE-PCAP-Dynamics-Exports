@@ -25,10 +25,4 @@ VALUES (36682,   1, 'Sigil of Linvak Tukal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36682,   1,   33556438) /* Setup */
-     , (36682,   8,  100670227) /* Icon */
-     , (36682, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (36682, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36682, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36682, 8000, 3707482097) /* PCAPRecordedObjectIID */;
+     , (36682,   8,  100670227) /* Icon */;

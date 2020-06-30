@@ -34,9 +34,7 @@ VALUES (31805,   1,        256) /* ItemType - MissileWeapon */
      , (31805, 177,          4) /* GemCount */
      , (31805, 178,         21) /* GemType */
      , (31805, 204,          6) /* ElementalDamageBonus */
-     , (31805, 353,          9) /* WeaponType - Crossbow */
-     , (31805, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31805, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31805, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31805,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (31805,   5,  -0.056) /* ManaRate */
      , (31805,  29,    1.11) /* WeaponDefense */
      , (31805,  39,    1.25) /* DefaultScale */
      , (31805,  62,       1) /* WeaponOffense */
-     , (31805,  63,     2.6) /* DamageMod */
-     , (31805, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (31805,  63,     2.6) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31805,   1, 'Slashing Compound Crossbow') /* Name */
@@ -61,13 +58,7 @@ VALUES (31805,   1,   33559691) /* Setup */
      , (31805,   3,  536870932) /* SoundTable */
      , (31805,   6,   67116700) /* PaletteBase */
      , (31805,   8,  100688061) /* Icon */
-     , (31805,  22,  872415275) /* PhysicsEffectTable */
-     , (31805, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31805, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31805, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31805, 8000, 3683297412) /* PCAPRecordedObjectIID */;
+     , (31805,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31805,  2096,      2) 
@@ -76,14 +67,3 @@ VALUES (31805,  2096,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31805, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31805, 67116700, 1, 100)
-     , (31805, 67116700, 201, 55)
-     , (31805, 67116709, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31805, 0, 83897331, 83897331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31805, 0, 16792607);

@@ -11,8 +11,7 @@ VALUES (12018,   1,         16) /* ItemType - Creature */
      , (12018,  16,          1) /* ItemUseable - No */
      , (12018,  25,         20) /* Level */
      , (12018,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (12018, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (12018, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12018, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12018,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12018,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (12018,   1, 'Master of the Pack') /* Name */
-     , (12018, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (12018,   1, 'Master of the Pack') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12018,   1,   33554489) /* Setup */
@@ -30,17 +28,11 @@ VALUES (12018,   1,   33554489) /* Setup */
      , (12018,   3,  536870928) /* SoundTable */
      , (12018,   6,   67109313) /* PaletteBase */
      , (12018,   8,  100667939) /* Icon */
-     , (12018,  22,  872415268) /* PhysicsEffectTable */
-     , (12018, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (12018, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12018, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (12018,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12018, 8040, 2738946102, 152.9463, 123.9089, 43.90735, -0.9598188, 0, 0, -0.2806206) /* PCAPRecordedLocation */
 /* @teleloc 0xA3410036 [152.946300 123.908900 43.907350] -0.959819 0.000000 0.000000 -0.280621 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12018, 8000, 3361153199) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12018,   1, 105, 0, 0) /* Strength */
@@ -65,6 +57,3 @@ VALUES (12018, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTre
      , (12018, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for ContainTreasure */
      , (12018, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (12018, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12018, 67113360, 0, 0);

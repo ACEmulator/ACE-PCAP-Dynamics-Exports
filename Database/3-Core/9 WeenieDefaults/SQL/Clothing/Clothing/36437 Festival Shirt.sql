@@ -15,8 +15,7 @@ VALUES (36437,   1,          4) /* ItemType - Clothing */
      , (36437, 106,        200) /* ItemSpellcraft */
      , (36437, 107,        200) /* ItemCurMana */
      , (36437, 108,        200) /* ItemMaxMana */
-     , (36437, 109,          0) /* ItemDifficulty */
-     , (36437, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36437, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36437,  22, True ) /* Inscribable */;
@@ -43,29 +42,9 @@ VALUES (36437,   1,   33554883) /* Setup */
      , (36437,   3,  536870932) /* SoundTable */
      , (36437,   6,   67108990) /* PaletteBase */
      , (36437,   8,  100667377) /* Icon */
-     , (36437,  22,  872415275) /* PhysicsEffectTable */
-     , (36437, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (36437, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36437, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36437, 8000, 2978131397) /* PCAPRecordedObjectIID */;
+     , (36437,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36437,  2501,      2) 
      , (36437,  2506,      2) 
      , (36437,  2512,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36437, 67112915, 92, 4)
-     , (36437, 67113252, 40, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36437, 0, 83887061, 83886687)
-     , (36437, 0, 83887060, 83886686)
-     , (36437, 0, 83889072, 83886685)
-     , (36437, 0, 83889342, 83889386)
-     , (36437, 0, 83886796, 83886782);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36437, 0, 16779351);

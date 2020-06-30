@@ -15,8 +15,7 @@ VALUES (32055,   1,         16) /* ItemType - Creature */
      , (32055,  76,    1000000) /* MerchandiseMaxValue */
      , (32055,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (32055, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (32055, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32055, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32055, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32055,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (32055,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32055,   1, 'Blacksmith Bulidurg') /* Name */
-     , (32055,   5, 'Blacksmith') /* Template */
-     , (32055, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (32055,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32055,   1,   33554490) /* Setup */
      , (32055,   2,  150994953) /* MotionTable */
      , (32055,   3,  536870959) /* SoundTable */
      , (32055,   6,   67109310) /* PaletteBase */
-     , (32055,   8,  100667449) /* Icon */
-     , (32055, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (32055, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (32055, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (32055,   8,  100667449) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32055, 8040, 3387097107, 57.4449, 56.065, 14.0055, 0.7187523, 0, 0, -0.6952662) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30013 [57.444900 56.065000 14.005500] 0.718752 0.000000 0.000000 -0.695266 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32055, 8000, 2090741766) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32055,   1,  80, 0, 0) /* Strength */
@@ -116,6 +108,3 @@ VALUES (32055, 4,  4190, -1, 0, 0, False) /* Create Cestus (4190) for Shop */
      , (32055, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (32055, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (32055, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32055, 67113355, 0, 0);

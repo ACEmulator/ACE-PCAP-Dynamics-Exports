@@ -31,9 +31,7 @@ VALUES (3827,   1,          1) /* ItemType - MeleeWeapon */
      , (3827, 176,         46) /* AppraisalItemSkill */
      , (3827, 177,          2) /* GemCount */
      , (3827, 178,         39) /* GemType */
-     , (3827, 353,          6) /* WeaponType - Dagger */
-     , (3827, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3827, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3827, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3827,  22, True ) /* Inscribable */
@@ -47,8 +45,7 @@ VALUES (3827,   5,   -0.05) /* ManaRate */
      , (3827,  29,   1.057) /* WeaponDefense */
      , (3827,  39,    1.25) /* DefaultScale */
      , (3827,  62,   1.032) /* WeaponOffense */
-     , (3827,  63,       1) /* DamageMod */
-     , (3827, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3827,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3827,   1, 'Lightning Khanjar') /* Name */
@@ -61,13 +58,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3827,   1,   33555748) /* Setup */
      , (3827,   3,  536870932) /* SoundTable */
      , (3827,   8,  100667597) /* Icon */
-     , (3827,  22,  872415275) /* PhysicsEffectTable */
-     , (3827, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3827, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (3827, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3827, 8000, 2461826711) /* PCAPRecordedObjectIID */;
+     , (3827,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3827,  1401,      2) 

@@ -12,15 +12,13 @@ VALUES (947,   1,         16) /* ItemType - Creature */
      , (947,  25,         15) /* Level */
      , (947,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (947, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (947, 307,          5) /* DamageRating */
-     , (947, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (947, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (947,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (947,   1, 'Barker Mosswart') /* Name */
-     , (947, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (947,   1, 'Barker Mosswart') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (947,   1,   33557327) /* Setup */
@@ -28,17 +26,11 @@ VALUES (947,   1,   33557327) /* Setup */
      , (947,   3,  536870959) /* SoundTable */
      , (947,   6,   67113400) /* PaletteBase */
      , (947,   8,  100667449) /* Icon */
-     , (947,  22,  872415264) /* PhysicsEffectTable */
-     , (947, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (947, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (947, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (947,  22,  872415264) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (947, 8040, 2455699499, 134.5726, 61.03299, 14.0055, 0.8660254, 0, 0, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x925F002B [134.572600 61.032990 14.005500] 0.866025 0.000000 0.000000 -0.500000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (947, 8000, 3685690273) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (947,   1, 110, 0, 0) /* Strength */
@@ -441,44 +433,3 @@ VALUES (947, 2, 47616,  1, 0, 0, False) /* Create Acid Tachi (47616) for Wield *
      , (947, 9,  3434,  0, 0, 0, False) /* Create Scroll of Mana Mastery Self III (3434) for ContainTreasure */
      , (947, 9,   327,  0, 0, 0, False) /* Create Ken (327) for ContainTreasure */
      , (947, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (947, 67113404, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (947, 0, 83893769, 83893769)
-     , (947, 1, 83893768, 83893768)
-     , (947, 2, 83893766, 83893777)
-     , (947, 3, 83893766, 83893777)
-     , (947, 4, 83893766, 83893777)
-     , (947, 5, 83893766, 83893777)
-     , (947, 6, 83893766, 83893777)
-     , (947, 7, 83893766, 83893777)
-     , (947, 8, 83893767, 83893767)
-     , (947, 9, 83893768, 83893768)
-     , (947, 10, 83893766, 83893777)
-     , (947, 11, 83893767, 83893767)
-     , (947, 12, 83893768, 83893768)
-     , (947, 13, 83893766, 83893777)
-     , (947, 14, 83893766, 83893777)
-     , (947, 15, 83893766, 83893777)
-     , (947, 16, 83893766, 83893777);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (947, 0, 16787248)
-     , (947, 1, 16787249)
-     , (947, 2, 16787261)
-     , (947, 3, 16787254)
-     , (947, 4, 16787250)
-     , (947, 5, 16787259)
-     , (947, 6, 16787255)
-     , (947, 7, 16787253)
-     , (947, 8, 16787260)
-     , (947, 9, 16787262)
-     , (947, 10, 16787252)
-     , (947, 11, 16787258)
-     , (947, 12, 16787263)
-     , (947, 13, 16787251)
-     , (947, 14, 16787247)
-     , (947, 15, 16787257)
-     , (947, 16, 16787256);

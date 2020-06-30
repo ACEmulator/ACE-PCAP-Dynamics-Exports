@@ -17,8 +17,7 @@ VALUES (33000,   1,         16) /* ItemType - Creature */
      , (33000, 113,          1) /* Gender - Male */
      , (33000, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (33000, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (33000, 188,          2) /* HeritageGroup - Gharundim */
-     , (33000, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33000, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33000,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (33000,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33000,   1, 'Mudris ibn Hadram') /* Name */
-     , (33000,   5, 'Archmage') /* Template */
-     , (33000, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (33000,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33000,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (33000,   1,   33554433) /* Setup */
      , (33000,  11,   83890637) /* MouthTexture */
      , (33000,  15,   67116992) /* HairPalette */
      , (33000,  16,   67110063) /* EyesPalette */
-     , (33000,  17,   67109552) /* SkinPalette */
-     , (33000, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (33000, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (33000, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (33000,  17,   67109552) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33000, 8040, 8454436, 70, -60, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00810124 [70.000000 -60.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33000, 8000, 1879576584) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33000,   1,  95, 0, 0) /* Strength */
@@ -267,49 +259,3 @@ VALUES (33000, 4,  5916, -1, 0, 0, False) /* Create Dho Creature Master Robe (59
      , (33000, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (33000, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (33000, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33000, 67109552, 0, 24)
-     , (33000, 67110063, 32, 8)
-     , (33000, 67110340, 80, 12)
-     , (33000, 67110340, 116, 12)
-     , (33000, 67110546, 96, 12)
-     , (33000, 67112670, 40, 40)
-     , (33000, 67116992, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (33000, 0, 83892345, 83892353)
-     , (33000, 0, 83892344, 83892353)
-     , (33000, 1, 83892352, 83892352)
-     , (33000, 2, 83892351, 83892351)
-     , (33000, 5, 83892352, 83892352)
-     , (33000, 6, 83892351, 83892351)
-     , (33000, 9, 83887061, 83892357)
-     , (33000, 9, 83887060, 83892356)
-     , (33000, 10, 83892347, 83892355)
-     , (33000, 11, 83892346, 83892354)
-     , (33000, 13, 83892347, 83892355)
-     , (33000, 14, 83892346, 83892354)
-     , (33000, 16, 83886232, 83890685)
-     , (33000, 16, 83886668, 83890484)
-     , (33000, 16, 83886837, 83890539)
-     , (33000, 16, 83886684, 83890637);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (33000, 0, 16783894)
-     , (33000, 1, 16783912)
-     , (33000, 2, 16783918)
-     , (33000, 3, 16777292)
-     , (33000, 4, 16777291)
-     , (33000, 5, 16783916)
-     , (33000, 6, 16783920)
-     , (33000, 7, 16777296)
-     , (33000, 8, 16777298)
-     , (33000, 9, 16781837)
-     , (33000, 10, 16783863)
-     , (33000, 11, 16783853)
-     , (33000, 12, 16777304)
-     , (33000, 13, 16783871)
-     , (33000, 14, 16783855)
-     , (33000, 15, 16777307)
-     , (33000, 16, 16795665);

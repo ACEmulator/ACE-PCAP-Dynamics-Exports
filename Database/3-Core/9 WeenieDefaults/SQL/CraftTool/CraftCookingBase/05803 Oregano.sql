@@ -13,8 +13,7 @@ VALUES (5803,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5803,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5803,  19,         10) /* Value */
      , (5803,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5803,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (5803, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5803,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5803,   1, 'Oregano') /* Name */
@@ -25,19 +24,4 @@ VALUES (5803,   1, 'Oregano') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5803,   1,   33555208) /* Setup */
      , (5803,   6,   67111919) /* PaletteBase */
-     , (5803,   8,  100670301) /* Icon */
-     , (5803, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (5803, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5803, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5803, 8000, 3711290699) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5803, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5803, 0, 83890080, 83890080);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5803, 0, 16780681);
+     , (5803,   8,  100670301) /* Icon */;

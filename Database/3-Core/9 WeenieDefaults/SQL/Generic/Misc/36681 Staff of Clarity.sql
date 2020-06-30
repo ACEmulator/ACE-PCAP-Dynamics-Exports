@@ -10,8 +10,7 @@ VALUES (36681,   1,        128) /* ItemType - Misc */
      , (36681,  19,        100) /* Value */
      , (36681,  33,          1) /* Bonded - Bonded */
      , (36681,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36681, 114,          1) /* Attuned - Attuned */
-     , (36681, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36681, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36681,  22, True ) /* Inscribable */
@@ -24,10 +23,4 @@ VALUES (36681,   1, 'Staff of Clarity') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36681,   1,   33557010) /* Setup */
      , (36681,   8,  100671492) /* Icon */
-     , (36681,  22,  872415275) /* PhysicsEffectTable */
-     , (36681, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (36681, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36681, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36681, 8000, 2924233339) /* PCAPRecordedObjectIID */;
+     , (36681,  22,  872415275) /* PhysicsEffectTable */;

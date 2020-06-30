@@ -17,8 +17,7 @@ VALUES (839,   1,         16) /* ItemType - Creature */
      , (839, 113,          1) /* Gender - Male */
      , (839, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (839, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (839, 188,          3) /* HeritageGroup - Sho */
-     , (839, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (839, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (839,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (839,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (839,   1, 'Ai Konaji the Jeweler') /* Name */
-     , (839,   5, 'Jeweler') /* Template */
-     , (839, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (839,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (839,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (839,   1,   33554433) /* Setup */
      , (839,  11,   83890624) /* MouthTexture */
      , (839,  15,   67116990) /* HairPalette */
      , (839,  16,   67109565) /* EyesPalette */
-     , (839,  17,   67110057) /* SkinPalette */
-     , (839, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (839, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (839, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (839,  17,   67110057) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (839, 8040, 3663003945, 54, 186.84, 20.005, 0.661966, 0, 0, -0.7495339) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550129 [54.000000 186.840000 20.005000] 0.661966 0.000000 0.000000 -0.749534 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (839, 8000, 2107985963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (839,   1,  45, 0, 0) /* Strength */
@@ -96,55 +88,3 @@ VALUES (839, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (839, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */
      , (839, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
      , (839, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (839, 67109565, 32, 8)
-     , (839, 67109969, 92, 4)
-     , (839, 67110026, 72, 8)
-     , (839, 67110057, 0, 24)
-     , (839, 67110334, 160, 8)
-     , (839, 67110356, 216, 24)
-     , (839, 67111245, 64, 8)
-     , (839, 67111245, 40, 24)
-     , (839, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (839, 0, 83889072, 83890012)
-     , (839, 0, 83889342, 83890011)
-     , (839, 1, 83887064, 83886241)
-     , (839, 2, 83887066, 83887051)
-     , (839, 3, 83889344, 83887054)
-     , (839, 4, 83887068, 83887054)
-     , (839, 5, 83887064, 83886241)
-     , (839, 6, 83887066, 83887051)
-     , (839, 7, 83889344, 83887054)
-     , (839, 8, 83887068, 83887054)
-     , (839, 9, 83887061, 83890009)
-     , (839, 9, 83887060, 83890010)
-     , (839, 10, 83886796, 83886782)
-     , (839, 11, 83886788, 83891213)
-     , (839, 13, 83886796, 83886782)
-     , (839, 14, 83886788, 83891213)
-     , (839, 16, 83886232, 83890685)
-     , (839, 16, 83886668, 83890457)
-     , (839, 16, 83886837, 83890547)
-     , (839, 16, 83886684, 83890624);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (839, 0, 16781835)
-     , (839, 1, 16781845)
-     , (839, 2, 16781866)
-     , (839, 3, 16781841)
-     , (839, 4, 16781838)
-     , (839, 5, 16781846)
-     , (839, 6, 16781864)
-     , (839, 7, 16781840)
-     , (839, 8, 16781839)
-     , (839, 9, 16777300)
-     , (839, 10, 16781858)
-     , (839, 11, 16781822)
-     , (839, 12, 16777304)
-     , (839, 13, 16781856)
-     , (839, 14, 16781821)
-     , (839, 15, 16777307)
-     , (839, 16, 16795640);

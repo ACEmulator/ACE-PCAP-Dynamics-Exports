@@ -17,8 +17,7 @@ VALUES (6860,   1,         16) /* ItemType - Creature */
      , (6860, 113,          1) /* Gender - Male */
      , (6860, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6860, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (6860, 188,          2) /* HeritageGroup - Gharundim */
-     , (6860, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (6860, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6860,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (6860,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6860,   1, 'Jeweler Daryam ibn Zubed') /* Name */
-     , (6860,   5, 'Jeweler') /* Template */
-     , (6860, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (6860,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6860,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (6860,   1,   33554433) /* Setup */
      , (6860,  11,   83890613) /* MouthTexture */
      , (6860,  15,   67117071) /* HairPalette */
      , (6860,  16,   67110062) /* EyesPalette */
-     , (6860,  17,   67109555) /* SkinPalette */
-     , (6860, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (6860, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (6860, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (6860,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6860, 8040, 288620566, 66.773, 129.873, 42.005, 0.6809552, 0, 0, -0.7323251) /* PCAPRecordedLocation */
 /* @teleloc 0x11340016 [66.773000 129.873000 42.005000] 0.680955 0.000000 0.000000 -0.732325 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6860, 8000, 3691069476) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6860,   1, 100, 0, 0) /* Strength */
@@ -108,57 +100,3 @@ VALUES (6860, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (6860, 4, 49437, -1, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for Shop */
      , (6860, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
      , (6860, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6860, 67109555, 0, 24)
-     , (6860, 67109969, 92, 4)
-     , (6860, 67110003, 72, 8)
-     , (6860, 67110062, 32, 8)
-     , (6860, 67110320, 250, 6)
-     , (6860, 67110356, 64, 8)
-     , (6860, 67110385, 240, 10)
-     , (6860, 67111245, 40, 24)
-     , (6860, 67111245, 160, 8)
-     , (6860, 67117071, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6860, 0, 83889072, 83886685)
-     , (6860, 0, 83889342, 83889386)
-     , (6860, 1, 83887064, 83886241)
-     , (6860, 2, 83887066, 83887055)
-     , (6860, 3, 83889344, 83887054)
-     , (6860, 4, 83887068, 83887054)
-     , (6860, 5, 83887064, 83886241)
-     , (6860, 6, 83887066, 83887055)
-     , (6860, 7, 83889344, 83887054)
-     , (6860, 8, 83887068, 83887054)
-     , (6860, 9, 83887061, 83886687)
-     , (6860, 9, 83887060, 83886686)
-     , (6860, 10, 83887069, 83886782)
-     , (6860, 11, 83887067, 83891213)
-     , (6860, 13, 83887069, 83886782)
-     , (6860, 14, 83887067, 83891213)
-     , (6860, 16, 83886232, 83890685)
-     , (6860, 16, 83886668, 83890454)
-     , (6860, 16, 83886837, 83890544)
-     , (6860, 16, 83886684, 83890613)
-     , (6860, 16, 83892358, 83892358);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6860, 0, 16777294)
-     , (6860, 1, 16777295)
-     , (6860, 2, 16777293)
-     , (6860, 3, 16777292)
-     , (6860, 4, 16781855)
-     , (6860, 5, 16777299)
-     , (6860, 6, 16777297)
-     , (6860, 7, 16777296)
-     , (6860, 8, 16781859)
-     , (6860, 9, 16777300)
-     , (6860, 10, 16777301)
-     , (6860, 11, 16777302)
-     , (6860, 12, 16777304)
-     , (6860, 13, 16777303)
-     , (6860, 14, 16777305)
-     , (6860, 15, 16777307)
-     , (6860, 16, 16783901);

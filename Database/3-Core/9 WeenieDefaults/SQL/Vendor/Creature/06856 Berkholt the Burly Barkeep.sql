@@ -18,8 +18,7 @@ VALUES (6856,   1,         16) /* ItemType - Creature */
      , (6856, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (6856, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (6856, 188,          1) /* HeritageGroup - Aluvian */
-     , (6856, 307,          5) /* DamageRating */
-     , (6856, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (6856, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6856,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (6856,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6856,   1, 'Berkholt the Burly Barkeep') /* Name */
-     , (6856,   5, 'Barkeeper') /* Template */
-     , (6856, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (6856,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6856,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (6856,   1,   33554433) /* Setup */
      , (6856,  11,   83890656) /* MouthTexture */
      , (6856,  15,   67117076) /* HairPalette */
      , (6856,  16,   67109566) /* EyesPalette */
-     , (6856,  17,   67109559) /* SkinPalette */
-     , (6856, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (6856, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (6856, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (6856,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6856, 8040, 288620858, 84.397, 162.5, 42.005, -0.03345161, 0, 0, -0.9994403) /* PCAPRecordedLocation */
 /* @teleloc 0x1134013A [84.397000 162.500000 42.005000] -0.033452 0.000000 0.000000 -0.999440 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6856, 8000, 3691069458) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6856,   1, 150, 0, 0) /* Strength */
@@ -96,52 +88,3 @@ VALUES (6856, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (6856, 4, 33181, -1, 0, 0, False) /* Create A Shadow Spire on the Caul (33181) for Shop */
      , (6856, 4, 34281, -1, 0, 0, False) /* Create A Strange Swamp Temple (34281) for Shop */
      , (6856, 4, 35043, -1, 0, 0, False) /* Create Halls of Metos (35043) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6856, 67109559, 0, 24)
-     , (6856, 67109566, 32, 8)
-     , (6856, 67109965, 92, 4)
-     , (6856, 67110349, 160, 8)
-     , (6856, 67110372, 64, 8)
-     , (6856, 67110375, 40, 24)
-     , (6856, 67110540, 72, 8)
-     , (6856, 67117076, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6856, 0, 83889072, 83886685)
-     , (6856, 0, 83889342, 83889386)
-     , (6856, 1, 83887064, 83886241)
-     , (6856, 2, 83887066, 83887051)
-     , (6856, 3, 83889344, 83887054)
-     , (6856, 4, 83887068, 83887054)
-     , (6856, 5, 83887064, 83886241)
-     , (6856, 6, 83887066, 83887051)
-     , (6856, 7, 83889344, 83887054)
-     , (6856, 8, 83887068, 83887054)
-     , (6856, 9, 83887061, 83886687)
-     , (6856, 9, 83887060, 83886686)
-     , (6856, 10, 83887069, 83886782)
-     , (6856, 13, 83887069, 83886782)
-     , (6856, 16, 83886232, 83890685)
-     , (6856, 16, 83886668, 83890479)
-     , (6856, 16, 83886837, 83890555)
-     , (6856, 16, 83886684, 83890656);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6856, 0, 16781835)
-     , (6856, 1, 16777295)
-     , (6856, 2, 16781866)
-     , (6856, 3, 16781841)
-     , (6856, 4, 16781838)
-     , (6856, 5, 16777299)
-     , (6856, 6, 16781864)
-     , (6856, 7, 16781840)
-     , (6856, 8, 16781839)
-     , (6856, 9, 16777300)
-     , (6856, 10, 16777301)
-     , (6856, 11, 16777302)
-     , (6856, 12, 16777304)
-     , (6856, 13, 16777303)
-     , (6856, 14, 16777305)
-     , (6856, 15, 16777307)
-     , (6856, 16, 16795662);

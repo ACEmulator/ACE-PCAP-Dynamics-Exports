@@ -10,8 +10,7 @@ VALUES (33827,   1,      16384) /* ItemType - Key */
      , (33827,  91,          1) /* MaxStructure */
      , (33827,  92,          1) /* Structure */
      , (33827,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (33827,  94,        640) /* TargetType - LockableMagicTarget */
-     , (33827, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33827,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33827,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (33827,   1, 'Old Footlocker Key') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33827,   1,   33554784) /* Setup */
      , (33827,   8,  100668441) /* Icon */
-     , (33827,  22,  872415275) /* PhysicsEffectTable */
-     , (33827, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (33827, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33827, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33827, 8000, 2147601357) /* PCAPRecordedObjectIID */;
+     , (33827,  22,  872415275) /* PhysicsEffectTable */;

@@ -11,8 +11,7 @@ VALUES (22810,   1,         16) /* ItemType - Creature */
      , (22810,  16,          1) /* ItemUseable - No */
      , (22810,  25,         60) /* Level */
      , (22810,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22810, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22810, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22810, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22810,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22810,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22810,   1, 'Banderling Rogue') /* Name */
-     , (22810, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22810,   1, 'Banderling Rogue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22810,   1,   33558024) /* Setup */
@@ -30,17 +28,11 @@ VALUES (22810,   1,   33558024) /* Setup */
      , (22810,   3,  536870917) /* SoundTable */
      , (22810,   6,   67114021) /* PaletteBase */
      , (22810,   8,  100667453) /* Icon */
-     , (22810,  22,  872415255) /* PhysicsEffectTable */
-     , (22810, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22810, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22810, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22810,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22810, 8040, 2312306689, 12.25449, 1.04753, 200.052, -0.3652584, 0, 0, -0.9309062) /* PCAPRecordedLocation */
 /* @teleloc 0x89D30001 [12.254490 1.047530 200.052000] -0.365258 0.000000 0.000000 -0.930906 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22810, 8000, 3685887020) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22810,   1, 190, 0, 0) /* Strength */
@@ -232,6 +224,3 @@ VALUES (22810, 2, 47444,  1, 0, 0, False) /* Create Mace (47444) for Wield */
      , (22810, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
      , (22810, 9,  3823,  0, 0, 0, False) /* Create Lightning Ken (3823) for ContainTreasure */
      , (22810, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22810, 67114033, 0, 0);

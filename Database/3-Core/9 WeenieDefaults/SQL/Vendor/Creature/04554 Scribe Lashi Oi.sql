@@ -17,8 +17,7 @@ VALUES (4554,   1,         16) /* ItemType - Creature */
      , (4554, 113,          1) /* Gender - Male */
      , (4554, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4554, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4554, 188,          3) /* HeritageGroup - Sho */
-     , (4554, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4554, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4554,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4554,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4554,   1, 'Scribe Lashi Oi') /* Name */
-     , (4554,   5, 'Scribe') /* Template */
-     , (4554, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4554,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4554,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4554,   1,   33554433) /* Setup */
      , (4554,  11,   83890582) /* MouthTexture */
      , (4554,  15,   67117069) /* HairPalette */
      , (4554,  16,   67110063) /* EyesPalette */
-     , (4554,  17,   67110054) /* SkinPalette */
-     , (4554, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4554, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4554, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4554,  17,   67110054) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4554, 8040, 3846045971, 138.501, 7.24623, 108.005, -0.8271092, 0, 0, -0.5620413) /* PCAPRecordedLocation */
 /* @teleloc 0xE53E0113 [138.501000 7.246230 108.005000] -0.827109 0.000000 0.000000 -0.562041 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4554, 8000, 2119426059) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4554,   1,  50, 0, 0) /* Strength */
@@ -95,53 +87,3 @@ VALUES (4554, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (4554, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */
      , (4554, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
      , (4554, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4554, 67109967, 92, 4)
-     , (4554, 67110020, 72, 8)
-     , (4554, 67110054, 0, 24)
-     , (4554, 67110063, 32, 8)
-     , (4554, 67110318, 216, 24)
-     , (4554, 67110320, 160, 8)
-     , (4554, 67111304, 64, 8)
-     , (4554, 67111304, 40, 24)
-     , (4554, 67117069, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4554, 0, 83889072, 83890012)
-     , (4554, 0, 83889342, 83890011)
-     , (4554, 1, 83887064, 83886241)
-     , (4554, 2, 83887066, 83887055)
-     , (4554, 3, 83889344, 83887054)
-     , (4554, 4, 83887068, 83887054)
-     , (4554, 5, 83887064, 83886241)
-     , (4554, 6, 83887066, 83887055)
-     , (4554, 7, 83889344, 83887054)
-     , (4554, 8, 83887068, 83887054)
-     , (4554, 9, 83887061, 83890009)
-     , (4554, 9, 83887060, 83890010)
-     , (4554, 10, 83887069, 83886782)
-     , (4554, 13, 83887069, 83886782)
-     , (4554, 16, 83886232, 83890685)
-     , (4554, 16, 83886668, 83890448)
-     , (4554, 16, 83886837, 83890555)
-     , (4554, 16, 83886684, 83890582);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4554, 0, 16781835)
-     , (4554, 1, 16781836)
-     , (4554, 2, 16781823)
-     , (4554, 3, 16777292)
-     , (4554, 4, 16777291)
-     , (4554, 5, 16781819)
-     , (4554, 6, 16781824)
-     , (4554, 7, 16777296)
-     , (4554, 8, 16777298)
-     , (4554, 9, 16777300)
-     , (4554, 10, 16777301)
-     , (4554, 11, 16777302)
-     , (4554, 12, 16777304)
-     , (4554, 13, 16777303)
-     , (4554, 14, 16777305)
-     , (4554, 15, 16777307)
-     , (4554, 16, 16795640);

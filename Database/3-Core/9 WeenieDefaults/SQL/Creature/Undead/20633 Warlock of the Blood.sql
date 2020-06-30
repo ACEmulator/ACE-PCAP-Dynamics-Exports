@@ -11,21 +11,16 @@ VALUES (20633,   1,         16) /* ItemType - Creature */
      , (20633,  16,          1) /* ItemUseable - No */
      , (20633,  25,        160) /* Level */
      , (20633,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (20633, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (20633, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (20633, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20633,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (20633,  39,     1.1) /* DefaultScale */
-     , (20633, 8010,   0.973) /* PCAPRecordedVelocityX */
-     , (20633, 8011,  -0.973) /* PCAPRecordedVelocityY */
-     , (20633, 8012,  -0.324) /* PCAPRecordedVelocityZ */;
+VALUES (20633,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20633,   1, 'Warlock of the Blood') /* Name */
-     , (20633, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (20633,   1, 'Warlock of the Blood') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20633,   1,   33554839) /* Setup */
@@ -33,17 +28,11 @@ VALUES (20633,   1,   33554839) /* Setup */
      , (20633,   3,  536870934) /* SoundTable */
      , (20633,   6,   67110722) /* PaletteBase */
      , (20633,   8,  100667942) /* Icon */
-     , (20633,  22,  872415272) /* PhysicsEffectTable */
-     , (20633, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (20633, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (20633, 8005,     104647) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (20633,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20633, 8040, 2765094952, 101.5568, 188.6263, 174.5198, 0.009252015, 0, 0, -0.9999572) /* PCAPRecordedLocation */
 /* @teleloc 0xA4D00028 [101.556800 188.626300 174.519800] 0.009252 0.000000 0.000000 -0.999957 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20633, 8000, 3709297753) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (20633,   1,     0, 0, 0, 990) /* MaxHealth */;
@@ -62,6 +51,3 @@ VALUES (20633, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield
      , (20633, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */
      , (20633, 2, 48028,  1, 0, 0, False) /* Create Lightning Nekode (48028) for Wield */
      , (20633, 2, 48031,  1, 0, 0, False) /* Create Lightning Silifi (48031) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20633, 67113037, 0, 0);

@@ -33,9 +33,7 @@ VALUES (30565,   1,          1) /* ItemType - MeleeWeapon */
      , (30565, 176,         45) /* AppraisalItemSkill */
      , (30565, 177,          1) /* GemCount */
      , (30565, 178,         34) /* GemType */
-     , (30565, 353,          3) /* WeaponType - Axe */
-     , (30565, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30565, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30565, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30565,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (30565,   5,   -0.05) /* ManaRate */
      , (30565,  29,    1.08) /* WeaponDefense */
      , (30565,  62,    1.11) /* WeaponOffense */
      , (30565,  63,       1) /* DamageMod */
-     , (30565,  77,       1) /* PhysicsScriptIntensity */
-     , (30565, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (30565,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30565,   1, 'Frost Dolabra') /* Name */
@@ -61,22 +58,7 @@ VALUES (30565,   1,   33559454) /* Setup */
      , (30565,   6,   67115558) /* PaletteBase */
      , (30565,   8,  100686924) /* Icon */
      , (30565,  22,  872415275) /* PhysicsEffectTable */
-     , (30565,  30,         88) /* PhysicsScript - Create */
-     , (30565, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30565, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30565, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30565, 8000, 2930220966) /* PCAPRecordedObjectIID */;
+     , (30565,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30565,  1616,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30565, 67116377, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30565, 0, 83896665, 83896665);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30565, 0, 16791840);

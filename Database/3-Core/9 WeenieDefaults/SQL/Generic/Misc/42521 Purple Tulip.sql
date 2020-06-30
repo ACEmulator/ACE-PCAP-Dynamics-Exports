@@ -18,26 +18,4 @@ VALUES (42521,   1, 'Purple Tulip') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42521,   1,   33560933) /* Setup */
-     , (42521,   8,  100690918) /* Icon */
-     , (42521, 8001,    3162128) /* PCAPRecordedWeenieHeader - Usable, Container, RadarBlipColor, Burden */
-     , (42521, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42521, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42521, 8000, 2975089936) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42521, 1, 83898085, 83898090)
-     , (42521, 2, 83898085, 83898090)
-     , (42521, 3, 83898085, 83898090)
-     , (42521, 4, 83898085, 83898090)
-     , (42521, 5, 83898085, 83898090)
-     , (42521, 6, 83898085, 83898090);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42521, 1, 16794585)
-     , (42521, 2, 16794585)
-     , (42521, 3, 16794585)
-     , (42521, 4, 16794585)
-     , (42521, 5, 16794585)
-     , (42521, 6, 16794585);
+     , (42521,   8,  100690918) /* Icon */;

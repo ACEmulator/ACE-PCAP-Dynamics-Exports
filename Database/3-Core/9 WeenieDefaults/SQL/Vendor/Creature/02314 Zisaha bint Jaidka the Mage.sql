@@ -17,8 +17,7 @@ VALUES (2314,   1,         16) /* ItemType - Creature */
      , (2314, 113,          2) /* Gender - Female */
      , (2314, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2314, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2314, 188,          2) /* HeritageGroup - Gharundim */
-     , (2314, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2314, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2314,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2314,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2314,   1, 'Zisaha bint Jaidka the Mage') /* Name */
-     , (2314,   5, 'Master Archmage') /* Template */
-     , (2314, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2314,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2314,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2314,   1,   33554510) /* Setup */
      , (2314,  11,   83890337) /* MouthTexture */
      , (2314,  15,   67117002) /* HairPalette */
      , (2314,  16,   67110062) /* EyesPalette */
-     , (2314,  17,   67109555) /* SkinPalette */
-     , (2314, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2314, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2314, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2314,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2314, 8040, 612434178, 85.0908, 132.949, 219.205, 0.1492437, 0, 0, -0.9888005) /* PCAPRecordedLocation */
 /* @teleloc 0x24810102 [85.090800 132.949000 219.205000] 0.149244 0.000000 0.000000 -0.988801 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2314, 8000, 1917325313) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2314,   1,  90, 0, 0) /* Strength */
@@ -268,55 +260,3 @@ VALUES (2314, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2314, 4,  5913, -1, 0, 0, False) /* Create Dho Item Master Robe (5913) for Shop */
      , (2314, 4,  5907, -1, 0, 0, False) /* Create Dho Life Master Robe (5907) for Shop */
      , (2314, 4,  5910, -1, 0, 0, False) /* Create Dho War Master Robe (5910) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2314, 67109555, 0, 24)
-     , (2314, 67109969, 92, 4)
-     , (2314, 67110003, 72, 8)
-     , (2314, 67110062, 32, 8)
-     , (2314, 67110317, 160, 8)
-     , (2314, 67110352, 216, 24)
-     , (2314, 67110383, 64, 8)
-     , (2314, 67111245, 40, 24)
-     , (2314, 67111245, 250, 6)
-     , (2314, 67117002, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2314, 0, 83889072, 83890012)
-     , (2314, 0, 83889342, 83890011)
-     , (2314, 1, 83887064, 83886241)
-     , (2314, 2, 83887066, 83887055)
-     , (2314, 3, 83889344, 83887054)
-     , (2314, 4, 83887068, 83887054)
-     , (2314, 5, 83887064, 83886241)
-     , (2314, 6, 83887066, 83887055)
-     , (2314, 7, 83889344, 83887054)
-     , (2314, 8, 83887068, 83887054)
-     , (2314, 9, 83887070, 83890009)
-     , (2314, 9, 83887062, 83890010)
-     , (2314, 10, 83887069, 83886782)
-     , (2314, 13, 83887069, 83886782)
-     , (2314, 16, 83886232, 83890685)
-     , (2314, 16, 83886668, 83890281)
-     , (2314, 16, 83886837, 83890288)
-     , (2314, 16, 83886684, 83890337)
-     , (2314, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2314, 0, 16781875)
-     , (2314, 1, 16778430)
-     , (2314, 2, 16778436)
-     , (2314, 3, 16777292)
-     , (2314, 4, 16781855)
-     , (2314, 5, 16778438)
-     , (2314, 6, 16778437)
-     , (2314, 7, 16777296)
-     , (2314, 8, 16781859)
-     , (2314, 9, 16778425)
-     , (2314, 10, 16778431)
-     , (2314, 11, 16778429)
-     , (2314, 12, 16778423)
-     , (2314, 13, 16778434)
-     , (2314, 14, 16778424)
-     , (2314, 15, 16778435)
-     , (2314, 16, 16778594);

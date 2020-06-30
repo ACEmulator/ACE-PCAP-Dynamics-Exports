@@ -29,9 +29,7 @@ VALUES (41890,   1,          1) /* ItemType - MeleeWeapon */
      , (41890, 160,        400) /* WieldDifficulty */
      , (41890, 166,         19) /* SlayerCreatureType - Virindi */
      , (41890, 292,          2) /* Cleaving */
-     , (41890, 353,         11) /* WeaponType - TwoHanded */
-     , (41890, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41890, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41890, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41890,  22, True ) /* Inscribable */
@@ -60,27 +58,10 @@ VALUES (41890,   1,   33557319) /* Setup */
      , (41890,   3,  536870932) /* SoundTable */
      , (41890,   6,   67111919) /* PaletteBase */
      , (41890,   8,  100690838) /* Icon */
-     , (41890,  22,  872415275) /* PhysicsEffectTable */
-     , (41890, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (41890, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (41890, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41890, 8000, 2676012216) /* PCAPRecordedObjectIID */;
+     , (41890,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41890,  2086,      2) 
      , (41890,  2096,      2) 
      , (41890,  2106,      2) 
      , (41890,  2576,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41890, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41890, 0, 83889235, 83889235)
-     , (41890, 0, 83889236, 83889236)
-     , (41890, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41890, 0, 16777880);

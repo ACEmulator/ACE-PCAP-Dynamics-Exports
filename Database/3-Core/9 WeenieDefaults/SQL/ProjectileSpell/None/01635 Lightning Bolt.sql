@@ -14,10 +14,7 @@ VALUES (1635,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1635,  77,       1) /* PhysicsScriptIntensity */
      , (1635,  78,       1) /* Friction */
-     , (1635,  79,       0) /* Elasticity */
-     , (1635, 8010,  -8.846) /* PCAPRecordedVelocityX */
-     , (1635, 8011,  20.161) /* PCAPRecordedVelocityY */
-     , (1635, 8012,  -3.842) /* PCAPRecordedVelocityZ */;
+     , (1635,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1635,   1, 'Lightning Bolt') /* Name */;
@@ -28,17 +25,11 @@ VALUES (1635,   1,   33555440) /* Setup */
      , (1635,   8,  100667494) /* Icon */
      , (1635,  22,  872415239) /* PhysicsEffectTable */
      , (1635,  28,         75) /* Spell - LightningBolt1 */
-     , (1635,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (1635, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (1635, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (1635, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (1635,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1635, 8040, 2417885188, 13.86163, 76.98003, 312.6382, -0.9399194, 0, 0, -0.3413966) /* PCAPRecordedLocation */
 /* @teleloc 0x901E0004 [13.861630 76.980030 312.638200] -0.939919 0.000000 0.000000 -0.341397 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1635, 8000, 3685783366) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1635, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */

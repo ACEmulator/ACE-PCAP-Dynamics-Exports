@@ -39,8 +39,7 @@ VALUES (28627,   5,  -0.042) /* ManaRate */
      , (28627,  17,     0.4) /* ArmorModVsFire */
      , (28627,  18,     0.6) /* ArmorModVsAcid */
      , (28627,  19,    0.71) /* ArmorModVsElectric */
-     , (28627, 165,       1) /* ArmorModVsNether */
-     , (28627, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (28627, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28627,   1, 'Diforsa Bracers') /* Name */
@@ -51,13 +50,7 @@ VALUES (28627,   1,   33559336) /* Setup */
      , (28627,   3,  536870932) /* SoundTable */
      , (28627,   6,   67108990) /* PaletteBase */
      , (28627,   8,  100686172) /* Icon */
-     , (28627,  22,  872415275) /* PhysicsEffectTable */
-     , (28627, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28627, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28627, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28627, 8000, 3692092347) /* PCAPRecordedObjectIID */;
+     , (28627,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28627,  1485,      2) 
@@ -65,6 +58,3 @@ VALUES (28627,  1485,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28627, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28627, 67116168, 96, 20);

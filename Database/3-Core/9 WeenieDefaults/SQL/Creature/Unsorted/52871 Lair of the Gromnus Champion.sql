@@ -34,8 +34,7 @@ VALUES (52871,   1,         16) /* ItemType - Creature */
      , (52871, 386,          0) /* Overpower */
      , (52871, 387,          0) /* OverpowerResist */
      , (52871, 388,          0) /* GearOverpower */
-     , (52871, 389,          0) /* GearOverpowerResist */
-     , (52871, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52871, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52871,   1, True ) /* Stuck */
@@ -46,25 +45,15 @@ VALUES (52871,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52871,   1, 'Lair of the Gromnus Champion') /* Name */
-     , (52871,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */
-     , (52871, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (52871,  14, 'If you have been honored with this champion''s password you may use this statue to enter the Champion Arena.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52871,   1,   33561507) /* Setup */
      , (52871,   2,  150995503) /* MotionTable */
      , (52871,   3,  536870932) /* SoundTable */
      , (52871,   6,   67109307) /* PaletteBase */
-     , (52871,   8,  100667938) /* Icon */
-     , (52871, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (52871, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (52871, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (52871,   8,  100667938) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52871, 8040, 1500184870, 160, -166.243, 0.04999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0126 [160.000000 -166.243000 0.050000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52871, 8000, 3694524440) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52871, 67113822, 0, 0);

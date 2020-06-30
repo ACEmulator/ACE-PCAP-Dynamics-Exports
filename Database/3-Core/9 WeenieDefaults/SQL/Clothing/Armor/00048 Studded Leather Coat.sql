@@ -24,8 +24,7 @@ VALUES (48,   1,          2) /* ItemType - Armor */
      , (48, 172,          5) /* AppraisalLongDescDecoration */
      , (48, 176,          7) /* AppraisalItemSkill */
      , (48, 177,          1) /* GemCount */
-     , (48, 178,         44) /* GemType */
-     , (48, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (48, 178,         44) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48,  22, True ) /* Inscribable */
@@ -40,8 +39,7 @@ VALUES (48,   5,  -0.042) /* ManaRate */
      , (48,  17,     0.7) /* ArmorModVsFire */
      , (48,  18,   0.593) /* ArmorModVsAcid */
      , (48,  19,     0.4) /* ArmorModVsElectric */
-     , (48, 165,       1) /* ArmorModVsNether */
-     , (48, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (48, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48,   1, 'Studded Leather Coat') /* Name */
@@ -52,13 +50,7 @@ VALUES (48,   1,   33554644) /* Setup */
      , (48,   3,  536870932) /* SoundTable */
      , (48,   6,   67108990) /* PaletteBase */
      , (48,   8,  100669637) /* Icon */
-     , (48,  22,  872415275) /* PhysicsEffectTable */
-     , (48, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (48, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (48, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48, 8000, 3688174180) /* PCAPRecordedObjectIID */;
+     , (48,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (48,  1484,      2) 
@@ -68,27 +60,3 @@ VALUES (48,  1484,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48, 67110365, 72, 8)
-     , (48, 67110365, 108, 8)
-     , (48, 67110365, 128, 8)
-     , (48, 67110365, 174, 12)
-     , (48, 67110549, 80, 12)
-     , (48, 67110549, 92, 4)
-     , (48, 67110549, 96, 12)
-     , (48, 67110549, 116, 12)
-     , (48, 67110549, 186, 12)
-     , (48, 67110549, 206, 10)
-     , (48, 67110549, 216, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (48, 0, 83887061, 83886694)
-     , (48, 0, 83887060, 83886690)
-     , (48, 0, 83889072, 83886810)
-     , (48, 0, 83889342, 83886818)
-     , (48, 0, 83886788, 83886824)
-     , (48, 0, 83886796, 83886823);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48, 0, 16778356);

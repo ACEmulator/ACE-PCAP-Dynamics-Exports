@@ -15,32 +15,24 @@ VALUES (46511,   1,         16) /* ItemType - Creature */
      , (46511, 307,         25) /* DamageRating */
      , (46511, 308,         15) /* DamageResistRating */
      , (46511, 313,         20) /* CritRating */
-     , (46511, 316,         10) /* CritDamageResistRating */
-     , (46511, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46511, 316,         10) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46511,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46511,   1, 'Spectral Bloodmage') /* Name */
-     , (46511, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (46511,   1, 'Spectral Bloodmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46511,   1,   33561485) /* Setup */
      , (46511,   2,  150995455) /* MotionTable */
      , (46511,   3,  536870942) /* SoundTable */
      , (46511,   8,  100669124) /* Icon */
-     , (46511,  22,  872415272) /* PhysicsEffectTable */
-     , (46511, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (46511, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46511, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (46511,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46511, 8040, 1289945348, 40.2459, 29.3358, 60.005, 0.994881, 0, 0, 0.101053) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE30104 [40.245900 29.335800 60.005000] 0.994881 0.000000 0.000000 0.101053 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46511, 8000, 3707810586) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46511,   1, 350, 0, 0) /* Strength */
@@ -78,22 +70,3 @@ VALUES (46511, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) 
      , (46511, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
      , (46511, 9, 27321,  1, 0, 0, False) /* Create Mana Philtre (27321) for ContainTreasure */
      , (46511, 9, 37302,  1, 0, 0, False) /* Create Glyph of Fletching (37302) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46511, 0, 16796578)
-     , (46511, 1, 16796579)
-     , (46511, 2, 16796580)
-     , (46511, 3, 16777708)
-     , (46511, 4, 16777708)
-     , (46511, 5, 16796581)
-     , (46511, 6, 16796582)
-     , (46511, 7, 16777708)
-     , (46511, 8, 16777708)
-     , (46511, 9, 16796590)
-     , (46511, 10, 16796583)
-     , (46511, 11, 16796584)
-     , (46511, 12, 16796589)
-     , (46511, 13, 16796585)
-     , (46511, 14, 16796586)
-     , (46511, 15, 16796588)
-     , (46511, 16, 16796714);

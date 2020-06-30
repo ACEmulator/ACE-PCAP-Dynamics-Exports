@@ -24,16 +24,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48770,   1,   33560293) /* Setup */
      , (48770,   3,  536870932) /* SoundTable */
      , (48770,   8,  100689477) /* Icon */
-     , (48770,  22,  872415275) /* PhysicsEffectTable */
-     , (48770, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (48770, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (48770, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (48770, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48770,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48770, 8040, 1482817862, 217.3115, -49.97501, -24.07325, 0.505172, 0.505172, 0.494774, 0.494774) /* PCAPRecordedLocation */
 /* @teleloc 0x58620146 [217.311500 -49.975010 -24.073250] 0.505172 0.505172 0.494774 0.494774 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48770, 8000, 3684343931) /* PCAPRecordedObjectIID */
-     , (48770, 8008, 3684343915) /* PCAPRecordedParentIID */;

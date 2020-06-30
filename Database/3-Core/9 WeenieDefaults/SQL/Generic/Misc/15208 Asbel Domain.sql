@@ -19,14 +19,8 @@ VALUES (15208,   1, 'Asbel Domain') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15208,   1,   33557463) /* Setup */
-     , (15208,   8,  100668115) /* Icon */
-     , (15208, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15208, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15208, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15208,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15208, 8040, 2977824796, 83.8353, 84.2502, 26, -0.407637, 0, 0, 0.913144) /* PCAPRecordedLocation */
 /* @teleloc 0xB17E001C [83.835300 84.250200 26.000000] -0.407637 0.000000 0.000000 0.913144 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15208, 8000, 2065162673) /* PCAPRecordedObjectIID */;

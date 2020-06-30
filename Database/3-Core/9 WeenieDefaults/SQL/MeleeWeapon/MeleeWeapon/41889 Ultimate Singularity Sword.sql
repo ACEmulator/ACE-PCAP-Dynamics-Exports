@@ -28,9 +28,7 @@ VALUES (41889,   1,          1) /* ItemType - MeleeWeapon */
      , (41889, 159,         45) /* WieldSkillType - LightWeapons */
      , (41889, 160,        400) /* WieldDifficulty */
      , (41889, 166,         19) /* SlayerCreatureType - Virindi */
-     , (41889, 353,          2) /* WeaponType - Sword */
-     , (41889, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41889, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41889,  22, True ) /* Inscribable */
@@ -60,19 +58,10 @@ VALUES (41889,   1,   33557319) /* Setup */
      , (41889,   3,  536870932) /* SoundTable */
      , (41889,   6,   67111919) /* PaletteBase */
      , (41889,   8,  100672048) /* Icon */
-     , (41889,  22,  872415275) /* PhysicsEffectTable */
-     , (41889, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (41889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41889, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41889, 8000, 2461223381) /* PCAPRecordedObjectIID */;
+     , (41889,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41889,  2086,      2) 
      , (41889,  2096,      2) 
      , (41889,  2106,      2) 
      , (41889,  2576,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41889, 67111922, 0, 0);

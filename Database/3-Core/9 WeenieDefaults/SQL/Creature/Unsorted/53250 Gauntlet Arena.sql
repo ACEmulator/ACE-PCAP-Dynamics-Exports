@@ -34,8 +34,7 @@ VALUES (53250,   1,         16) /* ItemType - Creature */
      , (53250, 386,          0) /* Overpower */
      , (53250, 387,          0) /* OverpowerResist */
      , (53250, 388,          0) /* GearOverpower */
-     , (53250, 389,          0) /* GearOverpowerResist */
-     , (53250, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53250, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53250,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53250,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53250,   1, 'Gauntlet Arena') /* Name */
-     , (53250, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (53250,   1, 'Gauntlet Arena') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53250,   1,   33561059) /* Setup */
      , (53250,   2,  150995429) /* MotionTable */
      , (53250,   3,  536870932) /* SoundTable */
-     , (53250,   8,  100667499) /* Icon */
-     , (53250, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53250, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53250, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (53250,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53250, 8040, 1500184832, 100, 0, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x596B0100 [100.000000 0.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53250, 8000, 2922524949) /* PCAPRecordedObjectIID */;

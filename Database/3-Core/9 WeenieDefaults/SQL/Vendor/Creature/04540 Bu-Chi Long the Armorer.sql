@@ -17,8 +17,7 @@ VALUES (4540,   1,         16) /* ItemType - Creature */
      , (4540, 113,          1) /* Gender - Male */
      , (4540, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4540, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4540, 188,          3) /* HeritageGroup - Sho */
-     , (4540, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4540, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4540,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4540,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4540,   1, 'Bu-Chi Long the Armorer') /* Name */
-     , (4540,   5, 'Armorer') /* Template */
-     , (4540, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4540,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4540,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4540,   1,   33554433) /* Setup */
      , (4540,  11,   83890590) /* MouthTexture */
      , (4540,  15,   67117023) /* HairPalette */
      , (4540,  16,   67110062) /* EyesPalette */
-     , (4540,  17,   67110049) /* SkinPalette */
-     , (4540, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4540, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4540, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4540,  17,   67110049) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4540, 8040, 3661300008, 176.886, 28.7303, 0.004999995, -0.9992024, 0, 0, -0.03993227) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B0128 [176.886000 28.730300 0.005000] -0.999202 0.000000 0.000000 -0.039932 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4540, 8000, 2107879439) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4540,   1, 110, 0, 0) /* Strength */
@@ -101,49 +93,3 @@ VALUES (4540, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (4540, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (4540, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (4540, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4540, 67110049, 0, 24)
-     , (4540, 67110062, 32, 8)
-     , (4540, 67110365, 40, 24)
-     , (4540, 67110375, 64, 8)
-     , (4540, 67110376, 216, 24)
-     , (4540, 67110382, 160, 8)
-     , (4540, 67110544, 72, 8)
-     , (4540, 67110551, 92, 4)
-     , (4540, 67117023, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4540, 0, 83889072, 83890012)
-     , (4540, 0, 83889342, 83890011)
-     , (4540, 1, 83887064, 83886241)
-     , (4540, 3, 83889344, 83887054)
-     , (4540, 4, 83887068, 83887054)
-     , (4540, 5, 83887064, 83886241)
-     , (4540, 7, 83889344, 83887054)
-     , (4540, 8, 83887068, 83887054)
-     , (4540, 9, 83887061, 83890009)
-     , (4540, 9, 83887060, 83890010)
-     , (4540, 16, 83886232, 83890685)
-     , (4540, 16, 83886668, 83890487)
-     , (4540, 16, 83886837, 83890548)
-     , (4540, 16, 83886684, 83890590);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4540, 0, 16781835)
-     , (4540, 1, 16777295)
-     , (4540, 2, 16777293)
-     , (4540, 3, 16777292)
-     , (4540, 4, 16777291)
-     , (4540, 5, 16777299)
-     , (4540, 6, 16777297)
-     , (4540, 7, 16777296)
-     , (4540, 8, 16777298)
-     , (4540, 9, 16777300)
-     , (4540, 10, 16777301)
-     , (4540, 11, 16777302)
-     , (4540, 12, 16777304)
-     , (4540, 13, 16777303)
-     , (4540, 14, 16777305)
-     , (4540, 15, 16777307)
-     , (4540, 16, 16795650);

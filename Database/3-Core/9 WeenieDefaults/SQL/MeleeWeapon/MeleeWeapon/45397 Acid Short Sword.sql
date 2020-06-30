@@ -35,9 +35,7 @@ VALUES (45397,   1,          1) /* ItemType - MeleeWeapon */
      , (45397, 177,          4) /* GemCount */
      , (45397, 178,         38) /* GemType */
      , (45397, 179,         64) /* ImbuedEffect - AcidRending */
-     , (45397, 353,          2) /* WeaponType - Sword */
-     , (45397, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45397, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45397, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45397,  22, True ) /* Inscribable */
@@ -51,8 +49,7 @@ VALUES (45397,   5,  -0.067) /* ManaRate */
      , (45397,  29,    1.17) /* WeaponDefense */
      , (45397,  39,     1.1) /* DefaultScale */
      , (45397,  62,    1.15) /* WeaponOffense */
-     , (45397,  63,       1) /* DamageMod */
-     , (45397, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (45397,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45397,   1, 'Acid Short Sword') /* Name */
@@ -67,14 +64,7 @@ VALUES (45397,   1,   33555793) /* Setup */
      , (45397,   3,  536870932) /* SoundTable */
      , (45397,   8,  100669036) /* Icon */
      , (45397,  22,  872415275) /* PhysicsEffectTable */
-     , (45397,  52,  100676437) /* IconUnderlay */
-     , (45397, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45397, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45397, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45397, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45397, 8000, 2173690719) /* PCAPRecordedObjectIID */;
+     , (45397,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45397,  4395,      2) 

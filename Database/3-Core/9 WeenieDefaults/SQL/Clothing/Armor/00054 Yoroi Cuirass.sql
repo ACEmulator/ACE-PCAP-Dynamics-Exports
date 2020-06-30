@@ -24,8 +24,7 @@ VALUES (54,   1,          2) /* ItemType - Armor */
      , (54, 172,          5) /* AppraisalLongDescDecoration */
      , (54, 176,          7) /* AppraisalItemSkill */
      , (54, 177,          4) /* GemCount */
-     , (54, 178,         22) /* GemType */
-     , (54, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (54, 178,         22) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (54,  22, True ) /* Inscribable */
@@ -40,8 +39,7 @@ VALUES (54,   5,  -0.042) /* ManaRate */
      , (54,  17,     0.4) /* ArmorModVsFire */
      , (54,  18,     0.6) /* ArmorModVsAcid */
      , (54,  19,   0.976) /* ArmorModVsElectric */
-     , (54, 165,       1) /* ArmorModVsNether */
-     , (54, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (54, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (54,   1, 'Yoroi Cuirass') /* Name */
@@ -52,30 +50,10 @@ VALUES (54,   1,   33554854) /* Setup */
      , (54,   3,  536870932) /* SoundTable */
      , (54,   6,   67108990) /* PaletteBase */
      , (54,   8,  100671319) /* Icon */
-     , (54,  22,  872415275) /* PhysicsEffectTable */
-     , (54, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (54, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (54, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (54, 8000, 3688356717) /* PCAPRecordedObjectIID */;
+     , (54,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (54,  1485,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (54, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (54, 67109981, 80, 12)
-     , (54, 67109981, 174, 66)
-     , (54, 67110322, 92, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (54, 0, 83887061, 83889766)
-     , (54, 0, 83887060, 83886776)
-     , (54, 0, 83889072, 83889765)
-     , (54, 0, 83889342, 83889765);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (54, 0, 16778367);

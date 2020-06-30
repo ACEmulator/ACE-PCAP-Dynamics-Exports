@@ -11,8 +11,7 @@ VALUES (219,   1,         16) /* ItemType - Creature */
      , (219,  16,          1) /* ItemUseable - No */
      , (219,  25,          8) /* Level */
      , (219,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (219, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (219, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (219, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (219,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (219,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (219,   1, 'Grey Rat') /* Name */
-     , (219, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (219,   1, 'Grey Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (219,   1,   33554493) /* Setup */
@@ -30,17 +28,11 @@ VALUES (219,   1,   33554493) /* Setup */
      , (219,   3,  536870927) /* SoundTable */
      , (219,   6,   67109300) /* PaletteBase */
      , (219,   8,  100667451) /* Icon */
-     , (219,  22,  872415267) /* PhysicsEffectTable */
-     , (219, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (219, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (219, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (219,  22,  872415267) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (219, 8040, 3043819563, 136.5381, 55.63805, 21.90483, -0.9155192, 0, 0, -0.4022741) /* PCAPRecordedLocation */
 /* @teleloc 0xB56D002B [136.538100 55.638050 21.904830] -0.915519 0.000000 0.000000 -0.402274 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (219, 8000, 3685201022) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (219,   1,  20, 0, 0) /* Strength */
@@ -116,6 +108,3 @@ VALUES (219, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for Cont
      , (219, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
      , (219, 9,  2727,  0, 0, 0, False) /* Create Scroll of Revitalize Self II (2727) for ContainTreasure */
      , (219, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (219, 67111339, 0, 0);

@@ -12,15 +12,13 @@ VALUES (22052,   1,         16) /* ItemType - Creature */
      , (22052,  25,         80) /* Level */
      , (22052,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22052, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22052, 307,          5) /* DamageRating */
-     , (22052, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22052, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22052,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22052,   1, 'Seared Guard') /* Name */
-     , (22052, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22052,   1, 'Seared Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22052,   1,   33554521) /* Setup */
@@ -28,17 +26,11 @@ VALUES (22052,   1,   33554521) /* Setup */
      , (22052,   3,  536870942) /* SoundTable */
      , (22052,   6,   67116522) /* PaletteBase */
      , (22052,   8,  100669124) /* Icon */
-     , (22052,  22,  872415269) /* PhysicsEffectTable */
-     , (22052, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22052, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22052, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (22052,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22052, 8040, 21365331, 90, -40, -11.9975, 0.9895101, 0, 0, -0.144464) /* PCAPRecordedLocation */
 /* @teleloc 0x01460253 [90.000000 -40.000000 -11.997500] 0.989510 0.000000 0.000000 -0.144464 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22052, 8000, 3682239963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22052,   1, 115, 0, 0) /* Strength */
@@ -75,6 +67,3 @@ VALUES (22052, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wi
      , (22052, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
      , (22052, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (22052, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22052, 67116523, 0, 0);

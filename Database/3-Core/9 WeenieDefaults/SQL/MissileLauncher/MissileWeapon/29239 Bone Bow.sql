@@ -33,8 +33,7 @@ VALUES (29239,   1,        256) /* ItemType - MissileWeapon */
      , (29239, 172,          1) /* AppraisalLongDescDecoration */
      , (29239, 176,         47) /* AppraisalItemSkill */
      , (29239, 204,          4) /* ElementalDamageBonus */
-     , (29239, 353,          8) /* WeaponType - Bow */
-     , (29239, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (29239, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29239,  22, True ) /* Inscribable */
@@ -49,8 +48,7 @@ VALUES (29239,   5,  -0.056) /* ManaRate */
      , (29239,  39,     1.1) /* DefaultScale */
      , (29239,  62,       1) /* WeaponOffense */
      , (29239,  63,    2.27) /* DamageMod */
-     , (29239, 150,   1.005) /* WeaponMagicDefense */
-     , (29239, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (29239, 150,   1.005) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29239,   1, 'Bone Bow') /* Name */
@@ -61,20 +59,11 @@ VALUES (29239,   1,   33560183) /* Setup */
      , (29239,   3,  536870932) /* SoundTable */
      , (29239,   8,  100689316) /* Icon */
      , (29239,  22,  872415275) /* PhysicsEffectTable */
-     , (29239,  52,  100676442) /* IconUnderlay */
-     , (29239, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (29239, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29239, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (29239, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (29239, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (29239,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29239, 8040, 1692860423, 90.20431, 114.1905, 54.96809, 0.9624252, 0, 0, 0.2715469) /* PCAPRecordedLocation */
 /* @teleloc 0x64E70007 [90.204310 114.190500 54.968090] 0.962425 0.000000 0.000000 0.271547 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29239, 8000, 2151959602) /* PCAPRecordedObjectIID */
-     , (29239, 8008, 1343219288) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29239,  1616,      2) 

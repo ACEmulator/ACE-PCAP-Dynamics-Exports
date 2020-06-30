@@ -26,9 +26,7 @@ VALUES (3850,   1,          1) /* ItemType - MeleeWeapon */
      , (3850, 172,          5) /* AppraisalLongDescDecoration */
      , (3850, 177,          3) /* GemCount */
      , (3850, 178,         13) /* GemType */
-     , (3850, 353,          2) /* WeaponType - Sword */
-     , (3850, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3850, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3850, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3850,  22, True ) /* Inscribable */;
@@ -39,8 +37,7 @@ VALUES (3850,  21,       0) /* WeaponLength */
      , (3850,  26,       0) /* MaximumVelocity */
      , (3850,  29,    1.12) /* WeaponDefense */
      , (3850,  62,    1.08) /* WeaponOffense */
-     , (3850,  63,       1) /* DamageMod */
-     , (3850, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (3850,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3850,   1, 'Lightning Scimitar') /* Name */
@@ -51,14 +48,7 @@ VALUES (3850,   1,   33555782) /* Setup */
      , (3850,   3,  536870932) /* SoundTable */
      , (3850,   8,  100668976) /* Icon */
      , (3850,  22,  872415275) /* PhysicsEffectTable */
-     , (3850,  52,  100676436) /* IconUnderlay */
-     , (3850, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3850, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3850, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3850, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3850, 8000, 2174540959) /* PCAPRecordedObjectIID */;
+     , (3850,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3850, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

@@ -11,8 +11,7 @@ VALUES (44476,   1,         16) /* ItemType - Creature */
      , (44476,  16,          1) /* ItemUseable - No */
      , (44476,  25,        200) /* Level */
      , (44476,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (44476, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44476, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44476, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44476,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (44476,  39,     1.6) /* DefaultScale */
      , (44476,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44476,   1, 'Grievver Shredder') /* Name */
-     , (44476, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (44476,   1, 'Grievver Shredder') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44476,   1,   33556698) /* Setup */
@@ -32,17 +30,11 @@ VALUES (44476,   1,   33556698) /* Setup */
      , (44476,   6,   67112927) /* PaletteBase */
      , (44476,   8,  100670960) /* Icon */
      , (44476,  22,  872415364) /* PhysicsEffectTable */
-     , (44476,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (44476, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (44476, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44476, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (44476,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44476, 8040, 4133158965, 155.9055, 102.2478, 32.84217, 0.3605969, 0, 0, -0.9327217) /* PCAPRecordedLocation */
 /* @teleloc 0xF65B0035 [155.905500 102.247800 32.842170] 0.360597 0.000000 0.000000 -0.932722 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44476, 8000, 3685988833) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44476,   1, 280, 0, 0) /* Strength */
@@ -429,6 +421,3 @@ VALUES (44476, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) 
      , (44476, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
      , (44476, 9, 20234,  0, 0, 0, False) /* Create Scroll of Boon of Refinement (20234) for ContainTreasure */
      , (44476, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44476, 67114286, 0, 0);

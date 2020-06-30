@@ -19,14 +19,8 @@ VALUES (19168,   1, 'Dame Tolani Villas') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19168,   1,   33557463) /* Setup */
-     , (19168,   8,  100668115) /* Icon */
-     , (19168, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (19168, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19168, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (19168,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19168, 8040, 1588854820, 104.675, 91.9149, 23.65957, 0.112615, 0, 0, -0.993639) /* PCAPRecordedLocation */
 /* @teleloc 0x5EB40024 [104.675000 91.914900 23.659570] 0.112615 0.000000 0.000000 -0.993639 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19168, 8000, 1978352170) /* PCAPRecordedObjectIID */;

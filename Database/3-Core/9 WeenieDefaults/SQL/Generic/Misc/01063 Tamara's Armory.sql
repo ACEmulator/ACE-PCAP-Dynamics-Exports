@@ -19,20 +19,8 @@ VALUES (1063,   1, 'Tamara''s Armory') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1063,   1,   33555909) /* Setup */
-     , (1063,   8,  100668115) /* Icon */
-     , (1063, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (1063, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1063, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (1063,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1063, 8040, 2535587868, 84.8168, 82.387, 105.617, 0.7071068, 0, 0, 0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x9722001C [84.816800 82.387000 105.617000] 0.707107 0.000000 0.000000 0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1063, 8000, 2037522460) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1063, 0, 83892071, 83892189);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1063, 0, 16783205);

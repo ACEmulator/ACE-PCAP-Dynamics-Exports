@@ -17,8 +17,7 @@ VALUES (2251,   1,         16) /* ItemType - Creature */
      , (2251, 113,          1) /* Gender - Male */
      , (2251, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2251, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2251, 188,          3) /* HeritageGroup - Sho */
-     , (2251, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2251, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2251,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2251,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2251,   1, 'Lobu Shui the Armorer') /* Name */
-     , (2251,   5, 'Armorer') /* Template */
-     , (2251, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2251,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2251,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2251,   1,   33554433) /* Setup */
      , (2251,  11,   83890658) /* MouthTexture */
      , (2251,  15,   67117023) /* HairPalette */
      , (2251,  16,   67110063) /* EyesPalette */
-     , (2251,  17,   67110047) /* SkinPalette */
-     , (2251, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2251, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2251, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2251,  17,   67110047) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2251, 8040, 3443589482, 67.7673, 152.535, 54.005, 0.7315662, 0, 0, -0.6817704) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41016A [67.767300 152.535000 54.005000] 0.731566 0.000000 0.000000 -0.681770 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2251, 8000, 2094272545) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2251,   1, 100, 0, 0) /* Strength */
@@ -115,51 +107,3 @@ VALUES (2251, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554)
      , (2251, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
      , (2251, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */
      , (2251, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2251, 67110026, 72, 8)
-     , (2251, 67110047, 0, 24)
-     , (2251, 67110063, 32, 8)
-     , (2251, 67110320, 160, 8)
-     , (2251, 67110349, 40, 24)
-     , (2251, 67110376, 216, 24)
-     , (2251, 67110551, 92, 4)
-     , (2251, 67111245, 64, 8)
-     , (2251, 67117023, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2251, 0, 83889072, 83890012)
-     , (2251, 0, 83889342, 83890011)
-     , (2251, 1, 83887064, 83886241)
-     , (2251, 2, 83887066, 83887055)
-     , (2251, 3, 83889344, 83887054)
-     , (2251, 4, 83887068, 83887054)
-     , (2251, 5, 83887064, 83886241)
-     , (2251, 6, 83887066, 83887055)
-     , (2251, 7, 83889344, 83887054)
-     , (2251, 8, 83887068, 83887054)
-     , (2251, 9, 83887061, 83890009)
-     , (2251, 9, 83887060, 83890010)
-     , (2251, 16, 83886232, 83890685)
-     , (2251, 16, 83886668, 83890450)
-     , (2251, 16, 83886837, 83890523)
-     , (2251, 16, 83886684, 83890658);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2251, 0, 16781835)
-     , (2251, 1, 16777295)
-     , (2251, 2, 16777293)
-     , (2251, 3, 16777292)
-     , (2251, 4, 16777291)
-     , (2251, 5, 16777299)
-     , (2251, 6, 16777297)
-     , (2251, 7, 16777296)
-     , (2251, 8, 16777298)
-     , (2251, 9, 16777300)
-     , (2251, 10, 16777301)
-     , (2251, 11, 16777302)
-     , (2251, 12, 16777304)
-     , (2251, 13, 16777303)
-     , (2251, 14, 16777305)
-     , (2251, 15, 16777307)
-     , (2251, 16, 16795654);

@@ -11,15 +11,13 @@ VALUES (31837,   1,         16) /* ItemType - Creature */
      , (31837,  16,          1) /* ItemUseable - No */
      , (31837,  25,        160) /* Level */
      , (31837,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31837, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31837, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31837, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31837,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31837,   1, 'Remoran Sand Stalker') /* Name */
-     , (31837, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31837,   1, 'Remoran Sand Stalker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31837,   1,   33559700) /* Setup */
@@ -27,17 +25,11 @@ VALUES (31837,   1,   33559700) /* Setup */
      , (31837,   3,  536871103) /* SoundTable */
      , (31837,   6,   67116726) /* PaletteBase */
      , (31837,   8,  100667937) /* Icon */
-     , (31837,  22,  872415414) /* PhysicsEffectTable */
-     , (31837, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (31837, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31837, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (31837,  22,  872415414) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31837, 8040, 3403808770, 4.060265, 25.99493, 4, -0.803749, 0, 0, -0.5949686) /* PCAPRecordedLocation */
 /* @teleloc 0xCAE20002 [4.060265 25.994930 4.000000] -0.803749 0.000000 0.000000 -0.594969 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31837, 8000, 2628960076) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31837,   1, 380, 0, 0) /* Strength */
@@ -59,6 +51,3 @@ VALUES (31837, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasu
      , (31837, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (31837, 9, 20543,  0, 0, 0, False) /* Create Scroll of Yoshi's Blessing (20543) for ContainTreasure */
      , (31837, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31837, 67116726, 0, 0);

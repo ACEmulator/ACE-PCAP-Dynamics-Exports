@@ -17,8 +17,7 @@ VALUES (9018,   1,         16) /* ItemType - Creature */
      , (9018, 113,          2) /* Gender - Female */
      , (9018, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (9018, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9018, 188,          2) /* HeritageGroup - Gharundim */
-     , (9018, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9018, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9018,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (9018,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9018,   1, 'Hasina bint Rira') /* Name */
-     , (9018,   5, 'Wandering Archmage') /* Template */
-     , (9018, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (9018,   5, 'Wandering Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9018,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (9018,   1,   33554510) /* Setup */
      , (9018,  11,   83890334) /* MouthTexture */
      , (9018,  15,   67117000) /* HairPalette */
      , (9018,  16,   67110062) /* EyesPalette */
-     , (9018,  17,   67109554) /* SkinPalette */
-     , (9018, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9018, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9018, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9018,  17,   67109554) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9018, 8040, 2519334975, 173.9942, 157.101, 98.62389, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x962A003F [173.994200 157.101000 98.623890] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9018, 8000, 3361160795) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9018,   1,  95, 0, 0) /* Strength */
@@ -260,49 +252,3 @@ VALUES (9018, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (9018, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
      , (9018, 4, 45117, -1, 0, 0, False) /* Create Frost Hammer (45117) for Shop */
      , (9018, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9018, 67109551, 0, 24)
-     , (9018, 67109945, 96, 12)
-     , (9018, 67110062, 32, 8)
-     , (9018, 67110385, 80, 12)
-     , (9018, 67110385, 116, 12)
-     , (9018, 67112738, 40, 40)
-     , (9018, 67117027, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9018, 0, 83892345, 83892353)
-     , (9018, 0, 83892344, 83892353)
-     , (9018, 1, 83892352, 83892352)
-     , (9018, 2, 83892351, 83892351)
-     , (9018, 5, 83892352, 83892352)
-     , (9018, 6, 83892351, 83892351)
-     , (9018, 9, 83891974, 83892357)
-     , (9018, 9, 83891968, 83892356)
-     , (9018, 10, 83892347, 83892355)
-     , (9018, 11, 83892346, 83892354)
-     , (9018, 13, 83892347, 83892355)
-     , (9018, 14, 83892346, 83892354)
-     , (9018, 16, 83886232, 83890685)
-     , (9018, 16, 83886668, 83890284)
-     , (9018, 16, 83886837, 83890302)
-     , (9018, 16, 83886684, 83890339);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9018, 0, 16783897)
-     , (9018, 1, 16783912)
-     , (9018, 2, 16783918)
-     , (9018, 3, 16778361)
-     , (9018, 4, 16778426)
-     , (9018, 5, 16783916)
-     , (9018, 6, 16783920)
-     , (9018, 7, 16778360)
-     , (9018, 8, 16778428)
-     , (9018, 9, 16783714)
-     , (9018, 10, 16783863)
-     , (9018, 11, 16783853)
-     , (9018, 12, 16778423)
-     , (9018, 13, 16783871)
-     , (9018, 14, 16783855)
-     , (9018, 15, 16778435)
-     , (9018, 16, 16795647);

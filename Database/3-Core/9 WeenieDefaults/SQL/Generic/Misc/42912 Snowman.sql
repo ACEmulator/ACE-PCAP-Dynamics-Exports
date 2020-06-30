@@ -19,17 +19,11 @@ VALUES (42912,   1, 'Snowman') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42912,   1,   33561045) /* Setup */
-     , (42912,   8,  100668115) /* Icon */
-     , (42912, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42912, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42912, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42912,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42912, 8040, 459097, 81.7505, -115.12, 0.66, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070159 [81.750500 -115.120000 0.660000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42912, 8000, 1879076972) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42912, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */

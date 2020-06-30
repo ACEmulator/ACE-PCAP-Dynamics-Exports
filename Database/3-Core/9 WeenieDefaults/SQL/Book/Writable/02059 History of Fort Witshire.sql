@@ -23,12 +23,4 @@ VALUES (2059,   1,   33559084) /* Setup */
      , (2059,   6,   67112626) /* PaletteBase */
      , (2059,   8,  100668176) /* Icon */
      , (2059,  22,  872415275) /* PhysicsEffectTable */
-     , (2059, 8001,    2113592) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden */
-     , (2059, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (2059, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2059, 8000,       2059) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2059, 67113862, 0, 0);
+     , (2059, 8044,      29916) /* PCAPPhysicsDIDDataTemplatedFrom - Pack Asheron */;

@@ -15,8 +15,7 @@ VALUES (24593,   1,         16) /* ItemType - Creature */
      , (24593,  76,     100000) /* MerchandiseMaxValue */
      , (24593,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24593, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24593, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24593, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24593, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24593,   1, True ) /* Stuck */
@@ -31,25 +30,18 @@ VALUES (24593,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24593,   1, 'Aun Oreilauri the Healer') /* Name */
-     , (24593,   5, 'Healer') /* Template */
-     , (24593, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24593,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24593,   1,   33557117) /* Setup */
      , (24593,   2,  150994954) /* MotionTable */
      , (24593,   3,  536870931) /* SoundTable */
      , (24593,   6,   67113280) /* PaletteBase */
-     , (24593,   8,  100671756) /* Icon */
-     , (24593, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24593, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24593, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (24593,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24593, 8040, 722600234, 161.973, 16.242, 48.006, -0.5766326, 0, 0, -0.8170035) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12012A [161.973000 16.242000 48.006000] -0.576633 0.000000 0.000000 -0.817004 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24593, 8000, 1924210727) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24593,   1, 111, 0, 0) /* Strength */
@@ -93,6 +85,3 @@ VALUES (24593, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (24593, 4,  2624, -1, 0, 0, False) /* Create Trade Note (5,000) (2624) for Shop */
      , (24593, 4,  2625, -1, 0, 0, False) /* Create Trade Note (10,000) (2625) for Shop */
      , (24593, 4,  2626, -1, 0, 0, False) /* Create Trade Note (50,000) (2626) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24593, 67113367, 0, 0);

@@ -17,8 +17,7 @@ VALUES (8226,   1,         16) /* ItemType - Creature */
      , (8226, 113,          2) /* Gender - Female */
      , (8226, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8226, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8226, 188,          2) /* HeritageGroup - Gharundim */
-     , (8226, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8226, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8226,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8226,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8226,   1, 'Smith Ashaira bint Maisa') /* Name */
-     , (8226,   5, 'Blacksmith') /* Template */
-     , (8226, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8226,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8226,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8226,   1,   33554510) /* Setup */
      , (8226,  11,   83890349) /* MouthTexture */
      , (8226,  15,   67117027) /* HairPalette */
      , (8226,  16,   67110063) /* EyesPalette */
-     , (8226,  17,   67109552) /* SkinPalette */
-     , (8226, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8226, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8226, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8226,  17,   67109552) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8226, 8040, 2471166480, 167.212, 22.8104, -19.595, -0.9920995, 0, 0, -0.1254538) /* PCAPRecordedLocation */
 /* @teleloc 0x934B0210 [167.212000 22.810400 -19.595000] -0.992100 0.000000 0.000000 -0.125454 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8226, 8000, 2033496134) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (8226,   1, 140, 0, 0) /* Strength */
@@ -115,53 +107,3 @@ VALUES (8226, 4,   550, -1, 0, 0, False) /* Create Baigha (550) for Shop */
      , (8226, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (8226, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (8226, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8226, 67109552, 0, 24)
-     , (8226, 67109969, 92, 4)
-     , (8226, 67110026, 72, 8)
-     , (8226, 67110063, 32, 8)
-     , (8226, 67110320, 40, 24)
-     , (8226, 67110325, 64, 8)
-     , (8226, 67110325, 216, 24)
-     , (8226, 67110377, 160, 8)
-     , (8226, 67117027, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8226, 0, 83889072, 83890012)
-     , (8226, 0, 83889342, 83890011)
-     , (8226, 1, 83887064, 83886241)
-     , (8226, 2, 83892602, 83892602)
-     , (8226, 2, 83892601, 83892601)
-     , (8226, 3, 83889344, 83887054)
-     , (8226, 4, 83887068, 83892603)
-     , (8226, 5, 83887064, 83886241)
-     , (8226, 6, 83892602, 83892602)
-     , (8226, 6, 83892601, 83892601)
-     , (8226, 7, 83889344, 83887054)
-     , (8226, 8, 83887068, 83892603)
-     , (8226, 9, 83887070, 83890009)
-     , (8226, 9, 83887062, 83890010)
-     , (8226, 16, 83886232, 83890685)
-     , (8226, 16, 83886668, 83890277)
-     , (8226, 16, 83886837, 83890292)
-     , (8226, 16, 83886684, 83890349);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8226, 0, 16781875)
-     , (8226, 1, 16778430)
-     , (8226, 2, 16784629)
-     , (8226, 3, 16783475)
-     , (8226, 4, 16783485)
-     , (8226, 5, 16778438)
-     , (8226, 6, 16784630)
-     , (8226, 7, 16781840)
-     , (8226, 8, 16783487)
-     , (8226, 9, 16778425)
-     , (8226, 10, 16778431)
-     , (8226, 11, 16778429)
-     , (8226, 12, 16778423)
-     , (8226, 13, 16778434)
-     , (8226, 14, 16778424)
-     , (8226, 15, 16778435)
-     , (8226, 16, 16795650);

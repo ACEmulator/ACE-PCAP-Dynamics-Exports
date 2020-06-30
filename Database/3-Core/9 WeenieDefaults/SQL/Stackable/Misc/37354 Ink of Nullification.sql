@@ -12,8 +12,7 @@ VALUES (37354,   1,        128) /* ItemType - Misc */
      , (37354,  15,      30000) /* StackUnitValue */
      , (37354,  16,          1) /* ItemUseable - No */
      , (37354,  19,      30000) /* Value */
-     , (37354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37354, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37354,   1, 'Ink of Nullification') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37354,   1,   33554602) /* Setup */
      , (37354,   3,  536870932) /* SoundTable */
      , (37354,   8,  100690182) /* Icon */
-     , (37354,  22,  872415275) /* PhysicsEffectTable */
-     , (37354, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (37354, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37354, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37354, 8000, 2461826764) /* PCAPRecordedObjectIID */;
+     , (37354,  22,  872415275) /* PhysicsEffectTable */;

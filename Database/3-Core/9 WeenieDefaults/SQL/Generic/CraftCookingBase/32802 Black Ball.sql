@@ -10,8 +10,7 @@ VALUES (32802,   1,    4194304) /* ItemType - CraftCookingBase */
      , (32802,  18,         64) /* UiEffects - Lightning */
      , (32802,  19,          0) /* Value */
      , (32802,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32802, 151,          2) /* HookType - Wall */
-     , (32802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32802, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32802,  22, True ) /* Inscribable */;
@@ -26,19 +25,4 @@ VALUES (32802,   1, 'Black Ball') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32802,   1,   33559853) /* Setup */
      , (32802,   6,   67111928) /* PaletteBase */
-     , (32802,   8,  100668730) /* Icon */
-     , (32802, 8001,  270549136) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden, HookType */
-     , (32802, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32802, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32802, 8000, 2148384191) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32802, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32802, 0, 83897428, 83897428);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32802, 0, 16792972);
+     , (32802,   8,  100668730) /* Icon */;

@@ -14,8 +14,7 @@ VALUES (15752,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (15752,  19,         10) /* Value */
      , (15752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15752,  94,        136) /* TargetType - Jewelry, Misc */
-     , (15752, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (15752, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (15752, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15752,   1, 'Elixir of Crystal Skin') /* Name */
@@ -28,20 +27,4 @@ VALUES (15752,   1,   33555965) /* Setup */
      , (15752,   3,  536870932) /* SoundTable */
      , (15752,   6,   67111919) /* PaletteBase */
      , (15752,   8,  100672790) /* Icon */
-     , (15752,  22,  872415275) /* PhysicsEffectTable */
-     , (15752, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (15752, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (15752, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15752, 8000, 2174243435) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (15752, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (15752, 0, 83890051, 83890051)
-     , (15752, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (15752, 0, 16783325);
+     , (15752,  22,  872415275) /* PhysicsEffectTable */;

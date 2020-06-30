@@ -16,8 +16,7 @@ VALUES (52711,   1,         16) /* ItemType - Creature */
      , (52711, 308,         50) /* DamageResistRating */
      , (52711, 315,         50) /* CritResistRating */
      , (52711, 316,         50) /* CritDamageResistRating */
-     , (52711, 386,         10) /* Overpower */
-     , (52711, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52711, 386,         10) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52711,   1, True ) /* Stuck */;
@@ -26,8 +25,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52711,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52711,   1, 'Wight Sage') /* Name */
-     , (52711, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (52711,   1, 'Wight Sage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52711,   1,   33561142) /* Setup */
@@ -35,17 +33,11 @@ VALUES (52711,   1,   33561142) /* Setup */
      , (52711,   3,  536870934) /* SoundTable */
      , (52711,   6,   67110722) /* PaletteBase */
      , (52711,   8,  100667942) /* Icon */
-     , (52711,  22,  872415272) /* PhysicsEffectTable */
-     , (52711, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52711, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52711, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (52711,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52711, 8040, 1499726082, 14.75903, -26.52434, 0.008249998, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59640102 [14.759030 -26.524340 0.008250] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52711, 8000, 2780511699) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52711,   1, 260, 0, 0) /* Strength */
@@ -63,6 +55,3 @@ VALUES (52711,   1,  7000, 0, 0, 7120) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (52711, 2, 46703,  1, 0, 0, False) /* Create Acid Nekode (46703) for Wield */
      , (52711, 2, 46707,  1, 0, 0, False) /* Create Corrupted Aegis (46707) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52711, 67111664, 0, 0);

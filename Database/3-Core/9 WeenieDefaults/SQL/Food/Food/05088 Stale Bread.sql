@@ -11,8 +11,7 @@ VALUES (5088,   1,         32) /* ItemType - Food */
      , (5088,  13,         35) /* StackUnitEncumbrance */
      , (5088,  15,          0) /* StackUnitValue */
      , (5088,  16,          8) /* ItemUseable - Contained */
-     , (5088,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5088, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5088,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5088,   1, 'Stale Bread') /* Name */
@@ -23,9 +22,4 @@ VALUES (5088,   1,   33556220) /* Setup */
      , (5088,   3,  536870932) /* SoundTable */
      , (5088,   8,  100667455) /* Icon */
      , (5088,  22,  872415275) /* PhysicsEffectTable */
-     , (5088, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (5088, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5088, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5088, 8000,       5088) /* PCAPRecordedObjectIID */;
+     , (5088, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

@@ -13,8 +13,7 @@ VALUES (29144,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29144,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (29144,  19,         50) /* Value */
      , (29144,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (29144,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (29144, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29144,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29144,   1, 'Empty Stopped Keg') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29144,   1,   33556853) /* Setup */
      , (29144,   3,  536870932) /* SoundTable */
      , (29144,   8,  100667431) /* Icon */
-     , (29144,  22,  872415275) /* PhysicsEffectTable */
-     , (29144, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (29144, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29144, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29144, 8000, 2166144602) /* PCAPRecordedObjectIID */;
+     , (29144,  22,  872415275) /* PhysicsEffectTable */;

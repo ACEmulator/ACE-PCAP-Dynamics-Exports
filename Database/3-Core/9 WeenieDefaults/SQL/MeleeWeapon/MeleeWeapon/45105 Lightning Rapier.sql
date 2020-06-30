@@ -33,9 +33,7 @@ VALUES (45105,   1,          1) /* ItemType - MeleeWeapon */
      , (45105, 176,         46) /* AppraisalItemSkill */
      , (45105, 177,          2) /* GemCount */
      , (45105, 178,         24) /* GemType */
-     , (45105, 353,          2) /* WeaponType - Sword */
-     , (45105, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45105, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45105, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45105,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (45105,   5,   -0.05) /* ManaRate */
      , (45105,  39,     1.1) /* DefaultScale */
      , (45105,  62,    1.07) /* WeaponOffense */
      , (45105,  63,       1) /* DamageMod */
-     , (45105, 150,    1.01) /* WeaponMagicDefense */
-     , (45105, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45105, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45105,   1, 'Lightning Rapier') /* Name */
@@ -61,26 +58,9 @@ VALUES (45105,   1,   33561417) /* Setup */
      , (45105,   3,  536870932) /* SoundTable */
      , (45105,   6,   67111919) /* PaletteBase */
      , (45105,   8,  100670663) /* Icon */
-     , (45105,  22,  872415275) /* PhysicsEffectTable */
-     , (45105, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45105, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45105, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45105, 8000, 3701150583) /* PCAPRecordedObjectIID */;
+     , (45105,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45105,  1615,      2) 
      , (45105,  1627,      2) 
      , (45105,  2608,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45105, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45105, 0, 83889236, 83889236)
-     , (45105, 0, 83886739, 83886739)
-     , (45105, 0, 83889235, 83889235);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45105, 0, 16777934);

@@ -22,8 +22,7 @@ VALUES (130,   1,          4) /* ItemType - Clothing */
      , (130, 131,          5) /* MaterialType - Satin */
      , (130, 172,          5) /* AppraisalLongDescDecoration */
      , (130, 177,          2) /* GemCount */
-     , (130, 178,         23) /* GemType */
-     , (130, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (130, 178,         23) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (130,  22, True ) /* Inscribable */
@@ -49,17 +48,11 @@ VALUES (130,   1,   33554644) /* Setup */
      , (130,   3,  536870932) /* SoundTable */
      , (130,   6,   67108990) /* PaletteBase */
      , (130,   8,  100667376) /* Icon */
-     , (130,  22,  872415275) /* PhysicsEffectTable */
-     , (130, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
-     , (130, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (130, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (130,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (130, 8040, 23527780, 55.88512, -14.21301, 5.995, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01670164 [55.885120 -14.213010 5.995000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (130, 8000, 3685458472) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (130,  1138,      2) 
@@ -68,17 +61,3 @@ VALUES (130,  1138,      2)
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (130, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */
      , (130, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (130, 67109966, 92, 4)
-     , (130, 67110359, 40, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (130, 0, 83887061, 83886686)
-     , (130, 0, 83889072, 83886685)
-     , (130, 0, 83889342, 83889386)
-     , (130, 0, 83886788, 83891213)
-     , (130, 0, 83886796, 83886782);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (130, 0, 16778356);

@@ -12,15 +12,13 @@ VALUES (232,   1,         16) /* ItemType - Creature */
      , (232,  25,         20) /* Level */
      , (232,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (232, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (232, 307,          5) /* DamageRating */
-     , (232, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (232, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (232,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (232,   1, 'Tumerok Scout') /* Name */
-     , (232, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (232,   1, 'Tumerok Scout') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (232,   1,   33559553) /* Setup */
@@ -28,17 +26,11 @@ VALUES (232,   1,   33559553) /* Setup */
      , (232,   3,  536870931) /* SoundTable */
      , (232,   6,   67116625) /* PaletteBase */
      , (232,   8,  100667452) /* Icon */
-     , (232,  22,  872415270) /* PhysicsEffectTable */
-     , (232, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (232, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (232, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (232,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (232, 8040, 2536964131, 99.47733, 71.68299, 31.6888, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0x97370023 [99.477330 71.682990 31.688800] 0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (232, 8000, 3685862881) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (232,   1,  60, 0, 0) /* Strength */
@@ -208,11 +200,3 @@ VALUES (232, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wield
      , (232, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
      , (232, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */
      , (232, 9, 30579,  0, 0, 0, False) /* Create Acid Flamberge (30579) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (232, 67116625, 57, 48)
-     , (232, 67116625, 105, 48)
-     , (232, 67116625, 153, 47)
-     , (232, 67116625, 200, 8)
-     , (232, 67116625, 208, 48)
-     , (232, 67116654, 1, 48);

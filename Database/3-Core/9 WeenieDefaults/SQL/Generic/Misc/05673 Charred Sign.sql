@@ -8,8 +8,7 @@ VALUES (5673,   1,        128) /* ItemType - Misc */
      , (5673,   5,       9000) /* EncumbranceVal */
      , (5673,  16,          1) /* ItemUseable - No */
      , (5673,  19,        125) /* Value */
-     , (5673,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (5673, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5673,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5673,   1, True ) /* Stuck */;
@@ -20,14 +19,8 @@ VALUES (5673,   1, 'Charred Sign') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5673,   1,   33555088) /* Setup */
-     , (5673,   8,  100668115) /* Icon */
-     , (5673, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (5673, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (5673, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (5673,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5673, 8040, 21365405, 68.1217, -29.4294, 0, -0.142954, 0, 0, -0.989729) /* PCAPRecordedLocation */
 /* @teleloc 0x0146029D [68.121700 -29.429400 0.000000] -0.142954 0.000000 0.000000 -0.989729 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5673, 8000, 1880383611) /* PCAPRecordedObjectIID */;

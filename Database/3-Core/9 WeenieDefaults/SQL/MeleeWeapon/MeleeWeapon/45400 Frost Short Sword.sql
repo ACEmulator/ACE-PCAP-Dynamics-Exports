@@ -33,9 +33,7 @@ VALUES (45400,   1,          1) /* ItemType - MeleeWeapon */
      , (45400, 176,         46) /* AppraisalItemSkill */
      , (45400, 177,          3) /* GemCount */
      , (45400, 178,         26) /* GemType */
-     , (45400, 353,          2) /* WeaponType - Sword */
-     , (45400, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45400, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45400, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45400,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (45400,   5,  -0.042) /* ManaRate */
      , (45400,  29,    1.08) /* WeaponDefense */
      , (45400,  39,     1.1) /* DefaultScale */
      , (45400,  62,     1.1) /* WeaponOffense */
-     , (45400,  63,       1) /* DamageMod */
-     , (45400, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (45400,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45400,   1, 'Frost Short Sword') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45400,   1,   33555792) /* Setup */
      , (45400,   3,  536870932) /* SoundTable */
      , (45400,   8,  100669036) /* Icon */
-     , (45400,  22,  872415275) /* PhysicsEffectTable */
-     , (45400, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45400, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45400, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45400, 8000, 3682795532) /* PCAPRecordedObjectIID */;
+     , (45400,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45400,  1615,      2) ;

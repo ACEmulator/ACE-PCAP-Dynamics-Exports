@@ -35,8 +35,7 @@ VALUES (31790,   1,          1) /* ItemType - MeleeWeapon */
      , (31790, 176,         44) /* AppraisalItemSkill */
      , (31790, 177,          2) /* GemCount */
      , (31790, 178,         21) /* GemType */
-     , (31790, 353,          7) /* WeaponType - Staff */
-     , (31790, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31790, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31790,  22, True ) /* Inscribable */
@@ -50,8 +49,7 @@ VALUES (31790,   5,  -0.056) /* ManaRate */
      , (31790,  29,    1.64) /* WeaponDefense */
      , (31790,  39,    0.65) /* DefaultScale */
      , (31790,  62,    1.33) /* WeaponOffense */
-     , (31790,  63,       1) /* DamageMod */
-     , (31790, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (31790,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31790,   1, 'Lightning Stick') /* Name */
@@ -67,19 +65,11 @@ VALUES (31790,   1,   33559646) /* Setup */
      , (31790,   3,  536870932) /* SoundTable */
      , (31790,   6,   67116700) /* PaletteBase */
      , (31790,   8,  100687989) /* Icon */
-     , (31790,  22,  872415275) /* PhysicsEffectTable */
-     , (31790, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (31790, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (31790, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31790, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (31790,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31790, 8040, 23855548, 48.32817, -33.53548, -0.071, 0.5809366, 0.5809366, -0.4031287, -0.4031287) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [48.328170 -33.535480 -0.071000] 0.580937 0.580937 -0.403129 -0.403129 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31790, 8000, 2898188212) /* PCAPRecordedObjectIID */
-     , (31790, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31790,  1616,      2) 
@@ -88,14 +78,3 @@ VALUES (31790,  1616,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31790, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31790, 67116700, 1, 100)
-     , (31790, 67116705, 101, 100)
-     , (31790, 67116706, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31790, 0, 83897334, 83897334);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31790, 0, 16792611);

@@ -8,8 +8,7 @@ VALUES (30737,   1,        128) /* ItemType - Misc */
      , (30737,   5,          5) /* EncumbranceVal */
      , (30737,  19,       1000) /* Value */
      , (30737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (30737, 151,         25) /* HookType - Floor, Yard, Roof */
-     , (30737, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30737, 151,         25) /* HookType - Floor, Yard, Roof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30737,  22, True ) /* Inscribable */
@@ -22,10 +21,4 @@ VALUES (30737,   1, 'Yard Balloons') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30737,   1,   33559223) /* Setup */
-     , (30737,   8,  100677404) /* Icon */
-     , (30737, 8001,  270549000) /* PCAPRecordedWeenieHeader - Value, Container, Burden, HookType */
-     , (30737, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30737, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30737, 8000, 2981037249) /* PCAPRecordedObjectIID */;
+     , (30737,   8,  100677404) /* Icon */;

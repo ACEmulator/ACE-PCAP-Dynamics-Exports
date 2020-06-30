@@ -23,14 +23,10 @@ VALUES (2397,   1,       2048) /* ItemType - Gem */
      , (2397, 115,          0) /* ItemSkillLevelLimit */
      , (2397, 117,        300) /* ItemManaCost */
      , (2397, 131,         35) /* MaterialType - RedGarnet */
-     , (2397, 172,          1) /* AppraisalLongDescDecoration */
-     , (2397, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2397, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2397,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2397, 8004,       6) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2397,   1, 'Gem') /* Name */
@@ -42,22 +38,7 @@ VALUES (2397,   1,   33554809) /* Setup */
      , (2397,   6,   67111919) /* PaletteBase */
      , (2397,   8,  100674752) /* Icon */
      , (2397,  22,  872415275) /* PhysicsEffectTable */
-     , (2397,  28,        192) /* Spell - RejuvenationSelf5 */
-     , (2397, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
-     , (2397, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2397, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2397, 8000, 3698462877) /* PCAPRecordedObjectIID */;
+     , (2397,  28,        192) /* Spell - RejuvenationSelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2397,   192,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2397, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2397, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2397, 0, 16779181);

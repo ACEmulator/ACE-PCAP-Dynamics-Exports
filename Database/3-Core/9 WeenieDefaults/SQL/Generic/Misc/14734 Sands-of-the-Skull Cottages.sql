@@ -19,14 +19,8 @@ VALUES (14734,   1, 'Sands-of-the-Skull Cottages') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14734,   1,   33557463) /* Setup */
-     , (14734,   8,  100668115) /* Icon */
-     , (14734, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (14734, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (14734, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (14734,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14734, 8040, 2622292004, 99.0055, 93.2196, 10.73262, 0.38791, 0, 0, -0.921697) /* PCAPRecordedLocation */
 /* @teleloc 0x9C4D0024 [99.005500 93.219600 10.732620] 0.387910 0.000000 0.000000 -0.921697 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14734, 8000, 2042941873) /* PCAPRecordedObjectIID */;

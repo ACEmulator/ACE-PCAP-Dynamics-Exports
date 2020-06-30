@@ -15,8 +15,7 @@ VALUES (52753,   1,       2048) /* ItemType - Gem */
      , (52753,  19,         10) /* Value */
      , (52753,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (52753,  94,         16) /* TargetType - Creature */
-     , (52753, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (52753, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52753, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52753,   1, 'Spectral Weapon Tinkering Mastery Crystal') /* Name */
@@ -29,9 +28,4 @@ VALUES (52753,   1,   33557625) /* Setup */
      , (52753,  22,  872415275) /* PhysicsEffectTable */
      , (52753,  28,       6178) /* Spell - GauntletWeaponMastery */
      , (52753,  50,  100686694) /* IconOverlay */
-     , (52753, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
-     , (52753, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (52753, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52753, 8000,      52753) /* PCAPRecordedObjectIID */;
+     , (52753, 8044,      14913) /* PCAPPhysicsDIDDataTemplatedFrom - Invitation Wedding Hall */;

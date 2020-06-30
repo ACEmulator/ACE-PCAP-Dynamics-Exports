@@ -19,17 +19,11 @@ VALUES (42898,   1, 'Hollow Minion') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42898,   1,   33561031) /* Setup */
-     , (42898,   8,  100668115) /* Icon */
-     , (42898, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42898, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42898, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42898,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42898, 8040, 459119, 95.1165, -75.0098, 0.66, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016F [95.116500 -75.009800 0.660000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42898, 8000, 1879077004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (42898, 9, 40627,  0, 0, 0, False) /* Create Frost Quadrelle (40627) for ContainTreasure */

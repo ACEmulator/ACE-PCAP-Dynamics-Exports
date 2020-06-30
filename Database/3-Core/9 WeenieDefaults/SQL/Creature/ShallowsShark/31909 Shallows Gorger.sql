@@ -11,8 +11,7 @@ VALUES (31909,   1,         16) /* ItemType - Creature */
      , (31909,  16,          1) /* ItemUseable - No */
      , (31909,  25,        160) /* Level */
      , (31909,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31909, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31909, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31909, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31909,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31909,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31909,   1, 'Shallows Gorger') /* Name */
-     , (31909, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31909,   1, 'Shallows Gorger') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31909,   1,   33559680) /* Setup */
@@ -30,17 +28,11 @@ VALUES (31909,   1,   33559680) /* Setup */
      , (31909,   3,  536870928) /* SoundTable */
      , (31909,   6,   67116712) /* PaletteBase */
      , (31909,   8,  100667939) /* Icon */
-     , (31909,  22,  872415268) /* PhysicsEffectTable */
-     , (31909, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (31909, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31909, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (31909,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31909, 8040, 3403808799, 89.8951, 151.8992, 4.0012, 0.3197675, 0, 0, -0.9474961) /* PCAPRecordedLocation */
 /* @teleloc 0xCAE2001F [89.895100 151.899200 4.001200] 0.319768 0.000000 0.000000 -0.947496 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31909, 8000, 2628956544) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31909,   1, 175, 0, 0) /* Strength */
@@ -70,6 +62,3 @@ VALUES (31909, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for Conta
      , (31909, 9, 43833,  0, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for ContainTreasure */
      , (31909, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (31909, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31909, 67116784, 0, 0);

@@ -17,8 +17,7 @@ VALUES (25543,   1,        128) /* ItemType - Misc */
      , (25543, 107,        100) /* ItemCurMana */
      , (25543, 108,        100) /* ItemMaxMana */
      , (25543, 109,          0) /* ItemDifficulty */
-     , (25543, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (25543, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25543, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25543,   1, 'Potion of Destiny''s Wind') /* Name */
@@ -32,23 +31,7 @@ VALUES (25543,   1,   33554603) /* Setup */
      , (25543,   6,   67111919) /* PaletteBase */
      , (25543,   8,  100675052) /* Icon */
      , (25543,  22,  872415275) /* PhysicsEffectTable */
-     , (25543,  28,       2979) /* Spell - DestinyWind */
-     , (25543, 8001,  274755609) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, Spell, HookType */
-     , (25543, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (25543, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25543, 8000, 2157272703) /* PCAPRecordedObjectIID */;
+     , (25543,  28,       2979) /* Spell - DestinyWind */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25543,  2979,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25543, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (25543, 0, 83889126, 83889126)
-     , (25543, 0, 83888789, 83888789);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25543, 0, 16778735);

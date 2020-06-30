@@ -26,9 +26,7 @@ VALUES (40732,   1,          1) /* ItemType - MeleeWeapon */
      , (40732, 172,          7) /* AppraisalLongDescDecoration */
      , (40732, 177,          2) /* GemCount */
      , (40732, 178,         22) /* GemType */
-     , (40732, 353,          6) /* WeaponType - Dagger */
-     , (40732, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40732, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40732, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40732,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (40732,  21,       0) /* WeaponLength */
      , (40732,  29,     1.1) /* WeaponDefense */
      , (40732,  39,    1.25) /* DefaultScale */
      , (40732,  62,     1.1) /* WeaponOffense */
-     , (40732,  63,       1) /* DamageMod */
-     , (40732, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (40732,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40732,   1, 'Flaming Knife') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40732,   1,   33555751) /* Setup */
      , (40732,   3,  536870932) /* SoundTable */
      , (40732,   8,  100667598) /* Icon */
-     , (40732,  22,  872415275) /* PhysicsEffectTable */
-     , (40732, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40732, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40732, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40732, 8000, 2979050500) /* PCAPRecordedObjectIID */;
+     , (40732,  22,  872415275) /* PhysicsEffectTable */;

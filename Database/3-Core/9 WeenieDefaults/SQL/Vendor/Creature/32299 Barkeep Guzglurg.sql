@@ -15,8 +15,7 @@ VALUES (32299,   1,         16) /* ItemType - Creature */
      , (32299,  76,    1000000) /* MerchandiseMaxValue */
      , (32299,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (32299, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (32299, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32299, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32299, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32299,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (32299,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32299,   1, 'Barkeep Guzglurg') /* Name */
-     , (32299,   5, 'Barkeep') /* Template */
-     , (32299, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (32299,   5, 'Barkeep') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32299,   1,   33554490) /* Setup */
      , (32299,   2,  150994953) /* MotionTable */
      , (32299,   3,  536870959) /* SoundTable */
      , (32299,   6,   67109310) /* PaletteBase */
-     , (32299,   8,  100667449) /* Icon */
-     , (32299, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (32299, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (32299, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (32299,   8,  100667449) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32299, 8040, 3387097099, 28.8817, 53.9639, 14.0055, 0.704002, 0, 0, -0.710198) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E3000B [28.881700 53.963900 14.005500] 0.704002 0.000000 0.000000 -0.710198 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32299, 8000, 2090741770) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32299,   1,  40, 0, 0) /* Strength */
@@ -86,6 +78,3 @@ VALUES (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (32299, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (32299, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (32299, 4, 27669, -1, 0, 0, False) /* Create Tumerok Salted Meat (27669) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32299, 67113355, 0, 0);

@@ -11,15 +11,13 @@ VALUES (7987,   1,         16) /* ItemType - Creature */
      , (7987,  16,          1) /* ItemUseable - No */
      , (7987,  25,         60) /* Level */
      , (7987,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7987, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7987, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7987, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7987,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7987,   1, 'Opor Niffis') /* Name */
-     , (7987, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7987,   1, 'Opor Niffis') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7987,   1,   33556774) /* Setup */
@@ -27,17 +25,11 @@ VALUES (7987,   1,   33556774) /* Setup */
      , (7987,   3,  536871010) /* SoundTable */
      , (7987,   6,   67112937) /* PaletteBase */
      , (7987,   8,  100670961) /* Icon */
-     , (7987,  22,  872415365) /* PhysicsEffectTable */
-     , (7987, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7987, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7987, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7987,  22,  872415365) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7987, 8040, 2429616133, 7.838046, 116.5789, 277.9005, -0.475593, 0, 0, -0.8796654) /* PCAPRecordedLocation */
 /* @teleloc 0x90D10005 [7.838046 116.578900 277.900500] -0.475593 0.000000 0.000000 -0.879665 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7987, 8000, 3690389467) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7987,   1, 180, 0, 0) /* Strength */
@@ -62,6 +54,3 @@ VALUES (7987, 9, 40623,  0, 0, 0, False) /* Create Quadrelle (40623) for Contain
      , (7987, 9, 10705,  0, 0, 0, False) /* Create Niffis Pearl (10705) for ContainTreasure */
      , (7987, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (7987, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7987, 67112943, 0, 0);

@@ -11,15 +11,13 @@ VALUES (23489,   1,         16) /* ItemType - Creature */
      , (23489,  16,          1) /* ItemUseable - No */
      , (23489,  25,        135) /* Level */
      , (23489,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23489, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23489, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23489, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23489,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23489,   1, 'Virindi Consul') /* Name */
-     , (23489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23489,   1, 'Virindi Consul') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23489,   1,   33558343) /* Setup */
@@ -27,17 +25,11 @@ VALUES (23489,   1,   33558343) /* Setup */
      , (23489,   3,  536870930) /* SoundTable */
      , (23489,   6,   67114250) /* PaletteBase */
      , (23489,   8,  100674323) /* Icon */
-     , (23489,  22,  872415273) /* PhysicsEffectTable */
-     , (23489, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23489, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23489, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (23489,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23489, 8040, 43058114, 210.026, -3.07598, 18.029, 0.01833, 0, 0, -0.999832) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C2 [210.026000 -3.075980 18.029000] 0.018330 0.000000 0.000000 -0.999832 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23489, 8000, 3688391871) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23489,   1, 300, 0, 0) /* Strength */
@@ -130,6 +122,3 @@ VALUES (23489, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTrea
      , (23489, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
      , (23489, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
      , (23489, 9, 29246,  0, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23489, 67114257, 0, 0);

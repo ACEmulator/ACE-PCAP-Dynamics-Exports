@@ -22,9 +22,7 @@ VALUES (3645,   1,          1) /* ItemType - MeleeWeapon */
      , (3645, 108,       1440) /* ItemMaxMana */
      , (3645, 109,         25) /* ItemDifficulty */
      , (3645, 151,          2) /* HookType - Wall */
-     , (3645, 353,          5) /* WeaponType - Spear */
-     , (3645, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3645, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3645, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3645,  22, True ) /* Inscribable */;
@@ -45,13 +43,7 @@ VALUES (3645,   1, 'Tibri''s Fire Spear') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3645,   1,   33555412) /* Setup */
      , (3645,   8,  100667609) /* Icon */
-     , (3645,  22,  872415275) /* PhysicsEffectTable */
-     , (3645, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (3645, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3645, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3645, 8000, 2174243484) /* PCAPRecordedObjectIID */;
+     , (3645,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3645,  1091,      2) 

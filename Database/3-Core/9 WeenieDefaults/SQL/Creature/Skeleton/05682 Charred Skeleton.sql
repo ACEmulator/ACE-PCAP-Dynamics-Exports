@@ -12,15 +12,13 @@ VALUES (5682,   1,         16) /* ItemType - Creature */
      , (5682,  25,         15) /* Level */
      , (5682,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (5682, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (5682, 307,          5) /* DamageRating */
-     , (5682, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5682, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5682,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (5682,   1, 'Charred Skeleton') /* Name */
-     , (5682, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (5682,   1, 'Charred Skeleton') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5682,   1,   33554521) /* Setup */
@@ -28,17 +26,11 @@ VALUES (5682,   1,   33554521) /* Setup */
      , (5682,   3,  536870942) /* SoundTable */
      , (5682,   6,   67116522) /* PaletteBase */
      , (5682,   8,  100669124) /* Icon */
-     , (5682,  22,  872415269) /* PhysicsEffectTable */
-     , (5682, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (5682, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (5682, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (5682,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5682, 8040, 2472280083, 52.98413, 57.90415, 12.35181, -0.7393343, 0, 0, -0.6733385) /* PCAPRecordedLocation */
 /* @teleloc 0x935C0013 [52.984130 57.904150 12.351810] -0.739334 0.000000 0.000000 -0.673339 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5682, 8000, 3685832309) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5682,   1,  35, 0, 0) /* Strength */
@@ -74,6 +66,3 @@ VALUES (5682, 2, 47725,  1, 0, 0, False) /* Create Spear (47725) for Wield */
      , (5682, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
      , (5682, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
      , (5682, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5682, 67116526, 0, 0);

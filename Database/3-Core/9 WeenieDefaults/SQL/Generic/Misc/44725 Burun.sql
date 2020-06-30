@@ -20,10 +20,4 @@ VALUES (44725,   1, 'Burun') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44725,   1,   33561325) /* Setup */
-     , (44725,   8,  100668115) /* Icon */
-     , (44725, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44725, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44725, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44725, 8000, 3706982208) /* PCAPRecordedObjectIID */;
+     , (44725,   8,  100668115) /* Icon */;

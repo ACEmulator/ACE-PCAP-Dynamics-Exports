@@ -26,9 +26,7 @@ VALUES (3940,   1,          1) /* ItemType - MeleeWeapon */
      , (3940, 172,          5) /* AppraisalLongDescDecoration */
      , (3940, 177,          3) /* GemCount */
      , (3940, 178,         16) /* GemType */
-     , (3940, 353,          4) /* WeaponType - Mace */
-     , (3940, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3940, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3940, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3940,  22, True ) /* Inscribable */;
@@ -39,8 +37,7 @@ VALUES (3940,  21,       0) /* WeaponLength */
      , (3940,  26,       0) /* MaximumVelocity */
      , (3940,  29,    1.14) /* WeaponDefense */
      , (3940,  62,     1.1) /* WeaponOffense */
-     , (3940,  63,       1) /* DamageMod */
-     , (3940, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3940,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3940,   1, 'Lightning Morning Star') /* Name */
@@ -51,20 +48,4 @@ VALUES (3940,   1,   33555747) /* Setup */
      , (3940,   3,  536870932) /* SoundTable */
      , (3940,   6,   67111919) /* PaletteBase */
      , (3940,   8,  100668974) /* Icon */
-     , (3940,  22,  872415275) /* PhysicsEffectTable */
-     , (3940, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3940, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3940, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3940, 8000, 3695829122) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (3940, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (3940, 0, 83889356, 83886712)
-     , (3940, 0, 83889236, 83889236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (3940, 0, 16777932);
+     , (3940,  22,  872415275) /* PhysicsEffectTable */;

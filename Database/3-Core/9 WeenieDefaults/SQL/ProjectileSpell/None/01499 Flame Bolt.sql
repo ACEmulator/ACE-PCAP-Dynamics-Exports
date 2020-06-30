@@ -14,10 +14,7 @@ VALUES (1499,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1499,  77,       1) /* PhysicsScriptIntensity */
      , (1499,  78,       1) /* Friction */
-     , (1499,  79,       0) /* Elasticity */
-     , (1499, 8010,  -9.313) /* PCAPRecordedVelocityX */
-     , (1499, 8011,  -7.647) /* PCAPRecordedVelocityY */
-     , (1499, 8012,   4.688) /* PCAPRecordedVelocityZ */;
+     , (1499,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1499,   1, 'Flame Bolt') /* Name */;
@@ -28,17 +25,11 @@ VALUES (1499,   1,   33555469) /* Setup */
      , (1499,   8,  100667494) /* Icon */
      , (1499,  22,  872415237) /* PhysicsEffectTable */
      , (1499,  28,         27) /* Spell - FlameBolt1 */
-     , (1499,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (1499, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (1499, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (1499, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (1499,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1499, 8040, 2401239075, 111.4673, 70.95301, 189.573, -0.4274544, 0, 0, -0.9040369) /* PCAPRecordedLocation */
 /* @teleloc 0x8F200023 [111.467300 70.953010 189.573000] -0.427454 0.000000 0.000000 -0.904037 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1499, 8000, 3685782430) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1499, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */

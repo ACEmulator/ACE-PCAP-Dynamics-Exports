@@ -9,8 +9,7 @@ VALUES (11936,   1,        128) /* ItemType - Misc */
      , (11936,  16,          1) /* ItemUseable - No */
      , (11936,  19,      15000) /* Value */
      , (11936,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11936, 151,          9) /* HookType - Floor, Yard */
-     , (11936, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11936, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11936,  22, True ) /* Inscribable */;
@@ -21,10 +20,4 @@ VALUES (11936,   1, 'Thorsten''s Armor') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11936,   1,   33557213) /* Setup */
-     , (11936,   8,  100671781) /* Icon */
-     , (11936, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (11936, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11936, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11936, 8000, 3658160307) /* PCAPRecordedObjectIID */;
+     , (11936,   8,  100671781) /* Icon */;

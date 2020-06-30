@@ -33,9 +33,7 @@ VALUES (45119,   1,          1) /* ItemType - MeleeWeapon */
      , (45119, 176,         46) /* AppraisalItemSkill */
      , (45119, 177,          1) /* GemCount */
      , (45119, 178,         26) /* GemType */
-     , (45119, 353,          1) /* WeaponType - Unarmed */
-     , (45119, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45119, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45119, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45119,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (45119,   5,  -0.056) /* ManaRate */
      , (45119,  29,    1.18) /* WeaponDefense */
      , (45119,  39,     0.8) /* DefaultScale */
      , (45119,  62,     1.2) /* WeaponOffense */
-     , (45119,  63,       1) /* DamageMod */
-     , (45119, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45119,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45119,   1, 'Acid Hand Wraps') /* Name */
@@ -60,13 +57,7 @@ VALUES (45119,   1,   33561415) /* Setup */
      , (45119,   3,  536870932) /* SoundTable */
      , (45119,   6,   67115556) /* PaletteBase */
      , (45119,   8,  100692308) /* Icon */
-     , (45119,  22,  872415275) /* PhysicsEffectTable */
-     , (45119, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45119, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45119, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45119, 8000, 3690298020) /* PCAPRecordedObjectIID */;
+     , (45119,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45119,  2081,      2) 
@@ -75,12 +66,3 @@ VALUES (45119,  2081,      2)
      , (45119,  2116,      2) 
      , (45119,  4019,      2) 
      , (45119,  4672,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45119, 67116439, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45119, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45119, 0, 16792139);

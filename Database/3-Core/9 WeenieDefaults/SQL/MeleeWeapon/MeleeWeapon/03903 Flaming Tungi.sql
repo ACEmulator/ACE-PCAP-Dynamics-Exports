@@ -36,9 +36,7 @@ VALUES (3903,   1,          1) /* ItemType - MeleeWeapon */
      , (3903, 177,          2) /* GemCount */
      , (3903, 178,         26) /* GemType */
      , (3903, 179,        512) /* ImbuedEffect - FireRending */
-     , (3903, 353,          3) /* WeaponType - Axe */
-     , (3903, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3903, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3903, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3903,  22, True ) /* Inscribable */
@@ -52,8 +50,7 @@ VALUES (3903,   5,  -0.067) /* ManaRate */
      , (3903,  29,    1.11) /* WeaponDefense */
      , (3903,  39,     1.2) /* DefaultScale */
      , (3903,  62,    1.18) /* WeaponOffense */
-     , (3903,  63,       1) /* DamageMod */
-     , (3903, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (3903,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3903,   1, 'Flaming Tungi') /* Name */
@@ -68,14 +65,7 @@ VALUES (3903,   1,   33555811) /* Setup */
      , (3903,   8,  100669062) /* Icon */
      , (3903,  22,  872415275) /* PhysicsEffectTable */
      , (3903,  50,  100689143) /* IconOverlay */
-     , (3903,  52,  100676441) /* IconUnderlay */
-     , (3903, 8001, 3508617880) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (3903, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3903, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3903, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3903, 8000, 2651194298) /* PCAPRecordedObjectIID */;
+     , (3903,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3903,  4395,      2) 

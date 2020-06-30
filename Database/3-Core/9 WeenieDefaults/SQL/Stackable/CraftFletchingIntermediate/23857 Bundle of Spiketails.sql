@@ -10,8 +10,7 @@ VALUES (23857,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (23857,  13,          0) /* StackUnitEncumbrance */
      , (23857,  15,         25) /* StackUnitValue */
      , (23857,  19,         25) /* Value */
-     , (23857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23857,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23857,   1, 'Bundle of Spiketails') /* Name */
@@ -21,10 +20,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23857,   1,   33558195) /* Setup */
      , (23857,   3,  536870932) /* SoundTable */
      , (23857,   8,  100674044) /* Icon */
-     , (23857,  22,  872415275) /* PhysicsEffectTable */
-     , (23857, 8001,      28681) /* PCAPRecordedWeenieHeader - PluralName, Value, StackSize, MaxStackSize, Container */
-     , (23857, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (23857, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23857, 8000, 3692342569) /* PCAPRecordedObjectIID */;
+     , (23857,  22,  872415275) /* PhysicsEffectTable */;

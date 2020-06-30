@@ -12,8 +12,7 @@ VALUES (22897,   1,         16) /* ItemType - Creature */
      , (22897,  25,        160) /* Level */
      , (22897,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (22897, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22897, 307,         10) /* DamageRating */
-     , (22897, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22897, 307,         10) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22897,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22897,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22897,   1, 'Banderling Hierophant') /* Name */
-     , (22897, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22897,   1, 'Banderling Hierophant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22897,   1,   33558024) /* Setup */
@@ -31,17 +29,11 @@ VALUES (22897,   1,   33558024) /* Setup */
      , (22897,   3,  536870917) /* SoundTable */
      , (22897,   6,   67114021) /* PaletteBase */
      , (22897,   8,  100667453) /* Icon */
-     , (22897,  22,  872415255) /* PhysicsEffectTable */
-     , (22897, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22897, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22897, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (22897,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22897, 8040, 675872830, 183.1653, 137.5992, 0.007149994, 0.07025965, 0, 0, -0.9975287) /* PCAPRecordedLocation */
 /* @teleloc 0x2849003E [183.165300 137.599200 0.007150] 0.070260 0.000000 0.000000 -0.997529 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22897, 8000, 3690505411) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22897,   1, 350, 0, 0) /* Strength */
@@ -64,6 +56,3 @@ VALUES (22897, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wie
      , (22897, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (22897, 9,  7825,  1, 0, 0, False) /* Create Brown Beans (7825) for ContainTreasure */
      , (22897, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22897, 67114262, 0, 0);

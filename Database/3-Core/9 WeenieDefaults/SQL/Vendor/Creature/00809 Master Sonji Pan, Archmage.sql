@@ -17,8 +17,7 @@ VALUES (809,   1,         16) /* ItemType - Creature */
      , (809, 113,          1) /* Gender - Male */
      , (809, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (809, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (809, 188,          3) /* HeritageGroup - Sho */
-     , (809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (809, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (809,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (809,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (809,   1, 'Master Sonji Pan, Archmage') /* Name */
-     , (809,   5, 'Archmage') /* Template */
-     , (809, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (809,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (809,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (809,   1,   33554433) /* Setup */
      , (809,  11,   83890577) /* MouthTexture */
      , (809,  15,   67117080) /* HairPalette */
      , (809,  16,   67110063) /* EyesPalette */
-     , (809,  17,   67110059) /* SkinPalette */
-     , (809, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (809, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (809, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (809,  17,   67110059) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (809, 8040, 3027239178, 88, 105, 55.805, -0.7911793, 0, 0, -0.6115842) /* PCAPRecordedLocation */
 /* @teleloc 0xB470010A [88.000000 105.000000 55.805000] -0.791179 0.000000 0.000000 -0.611584 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (809, 8000, 2068250656) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (809,   1,  90, 0, 0) /* Strength */
@@ -182,57 +174,3 @@ VALUES (809, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (809, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (809, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
      , (809, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (809, 67110003, 72, 8)
-     , (809, 67110059, 0, 24)
-     , (809, 67110063, 32, 8)
-     , (809, 67110349, 40, 24)
-     , (809, 67110349, 216, 24)
-     , (809, 67110356, 64, 8)
-     , (809, 67110356, 160, 8)
-     , (809, 67110551, 92, 4)
-     , (809, 67111245, 250, 6)
-     , (809, 67117080, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (809, 0, 83889072, 83890012)
-     , (809, 0, 83889342, 83890011)
-     , (809, 1, 83887064, 83886241)
-     , (809, 2, 83887066, 83887055)
-     , (809, 3, 83889344, 83887054)
-     , (809, 4, 83887068, 83887054)
-     , (809, 5, 83887064, 83886241)
-     , (809, 6, 83887066, 83887055)
-     , (809, 7, 83889344, 83887054)
-     , (809, 8, 83887068, 83887054)
-     , (809, 9, 83887061, 83890009)
-     , (809, 9, 83887060, 83890010)
-     , (809, 10, 83887069, 83886782)
-     , (809, 11, 83887067, 83891213)
-     , (809, 13, 83887069, 83886782)
-     , (809, 14, 83887067, 83891213)
-     , (809, 16, 83886232, 83890685)
-     , (809, 16, 83886668, 83890451)
-     , (809, 16, 83886837, 83890520)
-     , (809, 16, 83886684, 83890577)
-     , (809, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (809, 0, 16781835)
-     , (809, 1, 16777295)
-     , (809, 2, 16777293)
-     , (809, 3, 16777292)
-     , (809, 4, 16777291)
-     , (809, 5, 16777299)
-     , (809, 6, 16777297)
-     , (809, 7, 16777296)
-     , (809, 8, 16777298)
-     , (809, 9, 16777300)
-     , (809, 10, 16777301)
-     , (809, 11, 16777302)
-     , (809, 12, 16777304)
-     , (809, 13, 16777303)
-     , (809, 14, 16777305)
-     , (809, 15, 16777307)
-     , (809, 16, 16779630);

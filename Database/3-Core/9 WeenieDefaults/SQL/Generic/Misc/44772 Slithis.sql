@@ -20,10 +20,4 @@ VALUES (44772,   1, 'Slithis') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44772,   1,   33561372) /* Setup */
-     , (44772,   8,  100668115) /* Icon */
-     , (44772, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44772, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44772, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44772, 8000, 2461499559) /* PCAPRecordedObjectIID */;
+     , (44772,   8,  100668115) /* Icon */;

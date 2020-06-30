@@ -9,10 +9,7 @@ VALUES (15794,   1,       8192) /* ItemType - Writable */
      , (15794,  16,          8) /* ItemUseable - Contained */
      , (15794,  19,          0) /* Value */
      , (15794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (15794, 114,          1) /* Attuned - Attuned */
-     , (15794, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (15794, 8042,          1) /* PCAPRecordedAppraisalPages */
-     , (15794, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
+     , (15794, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15794,  54,       1) /* UseRadius */;
@@ -25,17 +22,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15794,   1,   33554773) /* Setup */
      , (15794,   3,  536870932) /* SoundTable */
      , (15794,   8,  100672795) /* Icon */
-     , (15794,  22,  872415275) /* PhysicsEffectTable */
-     , (15794, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
-     , (15794, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (15794, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (15794,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15794, 8040, 1415708941, 9.39135, -29.0854, 0.079, 0.229094, 0, 0, -0.973404) /* PCAPRecordedLocation */
 /* @teleloc 0x5462010D [9.391350 -29.085400 0.079000] 0.229094 0.000000 0.000000 -0.973404 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15794, 8000, 3709100804) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (15794, 1, 1000);

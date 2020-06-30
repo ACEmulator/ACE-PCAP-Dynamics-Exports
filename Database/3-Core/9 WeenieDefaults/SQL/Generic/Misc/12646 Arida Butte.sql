@@ -19,14 +19,8 @@ VALUES (12646,   1, 'Arida Butte') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12646,   1,   33557463) /* Setup */
-     , (12646,   8,  100668115) /* Icon */
-     , (12646, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (12646, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12646, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (12646,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12646, 8040, 2925658118, 1.45307, 128.808, 51.75782, 0.630368, 0, 0, -0.776296) /* PCAPRecordedLocation */
 /* @teleloc 0xAE620006 [1.453070 128.808000 51.757820] 0.630368 0.000000 0.000000 -0.776296 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12646, 8000, 2061901824) /* PCAPRecordedObjectIID */;

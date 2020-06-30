@@ -29,9 +29,7 @@ VALUES (43041,   1,          1) /* ItemType - MeleeWeapon */
      , (43041, 160,        400) /* WieldDifficulty */
      , (43041, 166,          1) /* SlayerCreatureType - Olthoi */
      , (43041, 263,          4) /* ResistanceModifierType */
-     , (43041, 353,          7) /* WeaponType - Staff */
-     , (43041, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (43041, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (43041, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43041,  22, True ) /* Inscribable */
@@ -62,19 +60,11 @@ VALUES (43041,   1,   33561079) /* Setup */
      , (43041,   3,  536870932) /* SoundTable */
      , (43041,   8,  100691345) /* Icon */
      , (43041,  22,  872415275) /* PhysicsEffectTable */
-     , (43041,  55,         67) /* ProcSpell - ShockWave4 */
-     , (43041, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (43041, 8003, 1073741842) /* PCAPRecordedObjectDesc - Inscribable, Attackable, WieldLeft */
-     , (43041, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (43041, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (43041,  55,         67) /* ProcSpell - ShockWave4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43041, 8040, 8913270, 19.60819, -59.70143, -54.071, -0.5855427, -0.5855427, -0.3964085, -0.3964085) /* PCAPRecordedLocation */
 /* @teleloc 0x00880176 [19.608190 -59.701430 -54.071000] -0.585543 -0.585543 -0.396409 -0.396409 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43041, 8000, 2151623859) /* PCAPRecordedObjectIID */
-     , (43041, 8008, 1343154319) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43041,    67,      2) 

@@ -11,9 +11,7 @@ VALUES (40489,   1,        128) /* ItemType - Misc */
      , (40489,  33,          1) /* Bonded - Bonded */
      , (40489,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40489, 114,          1) /* Attuned - Attuned */
-     , (40489, 279,          1) /* Unique */
-     , (40489, 8042,          1) /* PCAPRecordedAppraisalPages */
-     , (40489, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
+     , (40489, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40489,  39,     0.2) /* DefaultScale */
@@ -29,10 +27,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40489,   1,   33555391) /* Setup */
      , (40489,   3,  536870932) /* SoundTable */
      , (40489,   8,  100671183) /* Icon */
-     , (40489,  22,  872415275) /* PhysicsEffectTable */
-     , (40489, 8001,    2113584) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden */
-     , (40489, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (40489, 8005,     268417) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40489, 8000, 3703969543) /* PCAPRecordedObjectIID */;
+     , (40489,  22,  872415275) /* PhysicsEffectTable */;

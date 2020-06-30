@@ -33,8 +33,7 @@ VALUES (52283,   1,         16) /* ItemType - Creature */
      , (52283, 386,          0) /* Overpower */
      , (52283, 387,          0) /* OverpowerResist */
      , (52283, 388,          0) /* GearOverpower */
-     , (52283, 389,          0) /* GearOverpowerResist */
-     , (52283, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52283, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52283,   1, True ) /* Stuck */;
@@ -44,22 +43,15 @@ VALUES (52283,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52283,   1, 'Frozen Crystal') /* Name */
-     , (52283,  15, 'An icy crystal that nearby Frost Golems are drawn to.') /* ShortDesc */
-     , (52283, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (52283,  15, 'An icy crystal that nearby Frost Golems are drawn to.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52283,   1,   33555523) /* Setup */
      , (52283,   2,  150995497) /* MotionTable */
      , (52283,   3,  536871001) /* SoundTable */
      , (52283,   8,  100667386) /* Icon */
-     , (52283,  22,  872415339) /* PhysicsEffectTable */
-     , (52283, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52283, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52283, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (52283,  22,  872415339) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52283, 8040, 2028535827, 54.5175, 61.7302, 106, 0.671468, 0, 0, 0.741033) /* PCAPRecordedLocation */
 /* @teleloc 0x78E90013 [54.517500 61.730200 106.000000] 0.671468 0.000000 0.000000 0.741033 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52283, 8000, 3696924361) /* PCAPRecordedObjectIID */;

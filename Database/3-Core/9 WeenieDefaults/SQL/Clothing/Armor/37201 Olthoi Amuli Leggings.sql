@@ -26,8 +26,7 @@ VALUES (37201,   1,          2) /* ItemType - Armor */
      , (37201, 160,        180) /* WieldDifficulty */
      , (37201, 172,          1) /* AppraisalLongDescDecoration */
      , (37201, 176,          7) /* AppraisalItemSkill */
-     , (37201, 375,          1) /* GearCritDamageResist */
-     , (37201, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37201, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37201,  22, True ) /* Inscribable */
@@ -42,8 +41,7 @@ VALUES (37201,   5,  -0.067) /* ManaRate */
      , (37201,  17,   1.334) /* ArmorModVsFire */
      , (37201,  18,     0.3) /* ArmorModVsAcid */
      , (37201,  19,   1.503) /* ArmorModVsElectric */
-     , (37201, 165,       1) /* ArmorModVsNether */
-     , (37201, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (37201, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37201,   1, 'Olthoi Amuli Leggings') /* Name */
@@ -54,35 +52,14 @@ VALUES (37201,   1,   33554856) /* Setup */
      , (37201,   3,  536870932) /* SoundTable */
      , (37201,   6,   67108990) /* PaletteBase */
      , (37201,   8,  100690098) /* Icon */
-     , (37201,  22,  872415275) /* PhysicsEffectTable */
-     , (37201, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (37201, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37201, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (37201,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37201, 8040, 23855549, 52.81817, -38.1212, -0.002500013, 0.9784861, 0, 0, -0.2063128) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.818170 -38.121200 -0.002500] 0.978486 0.000000 0.000000 -0.206313 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37201, 8000, 3409590592) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37201,  2087,      2) 
      , (37201,  2108,      2) 
      , (37201,  2593,      2) 
      , (37201,  4393,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37201, 67116563, 72, 12)
-     , (37201, 67116563, 136, 12)
-     , (37201, 67116563, 152, 4)
-     , (37201, 67116594, 84, 8)
-     , (37201, 67116594, 148, 4)
-     , (37201, 67116594, 156, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37201, 0, 83887064, 83897889)
-     , (37201, 0, 83887066, 83897885);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37201, 0, 16778829);

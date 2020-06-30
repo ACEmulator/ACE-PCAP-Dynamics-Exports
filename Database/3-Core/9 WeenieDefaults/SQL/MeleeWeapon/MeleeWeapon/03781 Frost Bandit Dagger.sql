@@ -23,9 +23,7 @@ VALUES (3781,   1,          1) /* ItemType - MeleeWeapon */
      , (3781, 114,          1) /* Attuned - Attuned */
      , (3781, 131,         51) /* MaterialType - Ivory */
      , (3781, 151,          2) /* HookType - Wall */
-     , (3781, 353,          6) /* WeaponType - Dagger */
-     , (3781, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3781, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (3781, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3781,  22, True ) /* Inscribable */;
@@ -36,8 +34,7 @@ VALUES (3781,  21,       0) /* WeaponLength */
      , (3781,  26,       0) /* MaximumVelocity */
      , (3781,  29,   1.078) /* WeaponDefense */
      , (3781,  62,   1.069) /* WeaponOffense */
-     , (3781,  63,       1) /* DamageMod */
-     , (3781, 8004,       1) /* PCAPRecordedWorkmanship */;
+     , (3781,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3781,   1, 'Frost Bandit Dagger') /* Name */
@@ -49,16 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3781,   1,   33555721) /* Setup */
      , (3781,   3,  536870932) /* SoundTable */
      , (3781,   8,  100667589) /* Icon */
-     , (3781,  22,  872415275) /* PhysicsEffectTable */
-     , (3781, 8001, 2435023504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (3781, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3781, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (3781, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (3781,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3781, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3781, 8000, 2584296128) /* PCAPRecordedObjectIID */
-     , (3781, 8008, 1342760115) /* PCAPRecordedParentIID */;

@@ -17,8 +17,7 @@ VALUES (30072,   1,         16) /* ItemType - Creature */
      , (30072, 113,          2) /* Gender - Female */
      , (30072, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30072, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30072, 188,          4) /* HeritageGroup - Viamontian */
-     , (30072, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30072, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30072,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30072,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30072,   1, 'Benedetta du Lucrezza the Healer') /* Name */
-     , (30072,   5, 'Healer') /* Template */
-     , (30072, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30072,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30072,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30072,   1,   33554510) /* Setup */
      , (30072,  11,   83890346) /* MouthTexture */
      , (30072,  15,   67116979) /* HairPalette */
      , (30072,  16,   67110065) /* EyesPalette */
-     , (30072,  17,   67115903) /* SkinPalette */
-     , (30072, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30072, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30072, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30072,  17,   67115903) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30072, 8040, 669778179, 66.582, 137.864, 80.005, -0.8075594, 0, 0, -0.5897863) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0103 [66.582000 137.864000 80.005000] -0.807559 0.000000 0.000000 -0.589786 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30072, 8000, 1920909328) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30072,   1,  55, 0, 0) /* Strength */
@@ -108,40 +100,3 @@ VALUES (30072, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (30072, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30072, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30072, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30072, 67110065, 32, 8)
-     , (30072, 67115903, 0, 24)
-     , (30072, 67116020, 207, 33)
-     , (30072, 67116026, 174, 33)
-     , (30072, 67116979, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30072, 0, 83897013, 83897013)
-     , (30072, 9, 83897018, 83897018)
-     , (30072, 9, 83897019, 83897019)
-     , (30072, 11, 83892346, 83897016)
-     , (30072, 14, 83892346, 83897016)
-     , (30072, 16, 83886232, 83890685)
-     , (30072, 16, 83886668, 83890282)
-     , (30072, 16, 83886837, 83890311)
-     , (30072, 16, 83886684, 83890346);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30072, 0, 16791905)
-     , (30072, 1, 16791896)
-     , (30072, 2, 16791897)
-     , (30072, 3, 16777708)
-     , (30072, 4, 16777708)
-     , (30072, 5, 16791898)
-     , (30072, 6, 16791899)
-     , (30072, 7, 16777708)
-     , (30072, 8, 16777708)
-     , (30072, 9, 16791906)
-     , (30072, 10, 16791901)
-     , (30072, 11, 16783853)
-     , (30072, 12, 16778423)
-     , (30072, 13, 16791903)
-     , (30072, 14, 16783855)
-     , (30072, 15, 16778435)
-     , (30072, 16, 16795662);

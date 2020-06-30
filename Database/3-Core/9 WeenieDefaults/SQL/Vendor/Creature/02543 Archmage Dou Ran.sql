@@ -17,8 +17,7 @@ VALUES (2543,   1,         16) /* ItemType - Creature */
      , (2543, 113,          2) /* Gender - Female */
      , (2543, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2543, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2543, 188,          3) /* HeritageGroup - Sho */
-     , (2543, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2543, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2543,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2543,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2543,   1, 'Archmage Dou Ran') /* Name */
-     , (2543,   5, 'Archmage') /* Template */
-     , (2543, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2543,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2543,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2543,   1,   33554510) /* Setup */
      , (2543,  11,   83890319) /* MouthTexture */
      , (2543,  15,   67117070) /* HairPalette */
      , (2543,  16,   67110062) /* EyesPalette */
-     , (2543,  17,   67110049) /* SkinPalette */
-     , (2543, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2543, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2543, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2543,  17,   67110049) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2543, 8040, 1060241668, 65.6117, 30.8234, 8.404999, -0.9838898, 0, 0, -0.178776) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320104 [65.611700 30.823400 8.404999] -0.983890 0.000000 0.000000 -0.178776 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2543, 8000, 1945313289) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2543,   1,  70, 0, 0) /* Strength */
@@ -187,51 +179,3 @@ VALUES (2543, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2543, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (2543, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (2543, 4,  2903, -1, 0, 0, False) /* Create Scroll of Lifestone Recall (2903) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2543, 67109967, 92, 4)
-     , (2543, 67110020, 72, 8)
-     , (2543, 67110049, 0, 24)
-     , (2543, 67110062, 32, 8)
-     , (2543, 67110325, 216, 24)
-     , (2543, 67110349, 250, 6)
-     , (2543, 67111304, 40, 24)
-     , (2543, 67111304, 64, 8)
-     , (2543, 67111304, 160, 8)
-     , (2543, 67117070, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2543, 0, 83889072, 83890012)
-     , (2543, 0, 83889342, 83890011)
-     , (2543, 1, 83887064, 83886241)
-     , (2543, 3, 83889344, 83887054)
-     , (2543, 4, 83887068, 83887054)
-     , (2543, 5, 83887064, 83886241)
-     , (2543, 7, 83889344, 83887054)
-     , (2543, 8, 83887068, 83887054)
-     , (2543, 9, 83887070, 83890009)
-     , (2543, 9, 83887062, 83890010)
-     , (2543, 16, 83886232, 83890685)
-     , (2543, 16, 83886668, 83890278)
-     , (2543, 16, 83886837, 83890295)
-     , (2543, 16, 83886684, 83890319)
-     , (2543, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2543, 0, 16781875)
-     , (2543, 1, 16778430)
-     , (2543, 2, 16778436)
-     , (2543, 3, 16778361)
-     , (2543, 4, 16778426)
-     , (2543, 5, 16778438)
-     , (2543, 6, 16778437)
-     , (2543, 7, 16778360)
-     , (2543, 8, 16778428)
-     , (2543, 9, 16778425)
-     , (2543, 10, 16778431)
-     , (2543, 11, 16778429)
-     , (2543, 12, 16778423)
-     , (2543, 13, 16778434)
-     , (2543, 14, 16778424)
-     , (2543, 15, 16778435)
-     , (2543, 16, 16779630);

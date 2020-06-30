@@ -34,8 +34,7 @@ VALUES (53026,   1,         16) /* ItemType - Creature */
      , (53026, 386,          0) /* Overpower */
      , (53026, 387,          0) /* OverpowerResist */
      , (53026, 388,          0) /* GearOverpower */
-     , (53026, 389,          0) /* GearOverpowerResist */
-     , (53026, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53026, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53026,   1, True ) /* Stuck */
@@ -43,28 +42,18 @@ VALUES (53026,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53026,  39,       3) /* DefaultScale */
-     , (53026,  54,       3) /* UseRadius */
-     , (53026, 8010,       0) /* PCAPRecordedVelocityX */
-     , (53026, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53026, 8012,  -0.051) /* PCAPRecordedVelocityZ */;
+     , (53026,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (53026,   1, 'Fiery Remains') /* Name */
-     , (53026, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (53026,   1, 'Fiery Remains') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53026,   1,   33560191) /* Setup */
      , (53026,   2,  150995147) /* MotionTable */
      , (53026,   3,  536870913) /* SoundTable */
      , (53026,   8,  100667494) /* Icon */
-     , (53026,  22,  872415363) /* PhysicsEffectTable */
-     , (53026, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53026, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53026, 8005,     104583) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, ObjScale, STable, PeTable, Position, Movement */;
+     , (53026,  22,  872415363) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53026, 8040, 3007971387, 188.7, 70.3, 120.2667, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB34A003B [188.700000 70.300000 120.266700] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53026, 8000, 3684406879) /* PCAPRecordedObjectIID */;

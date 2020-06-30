@@ -22,9 +22,7 @@ VALUES (1481,   1,          1) /* ItemType - MeleeWeapon */
      , (1481, 108,        300) /* ItemMaxMana */
      , (1481, 109,         23) /* ItemDifficulty */
      , (1481, 151,          2) /* HookType - Wall */
-     , (1481, 353,          7) /* WeaponType - Staff */
-     , (1481, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (1481, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (1481, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1481,  22, True ) /* Inscribable */;
@@ -47,13 +45,7 @@ VALUES (1481,   1, 'Quarter Staff of Fire') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1481,   1,   33558066) /* Setup */
      , (1481,   8,  100667602) /* Icon */
-     , (1481,  22,  872415275) /* PhysicsEffectTable */
-     , (1481, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (1481, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (1481, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1481, 8000, 2186220514) /* PCAPRecordedObjectIID */;
+     , (1481,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1481,   836,      2) 

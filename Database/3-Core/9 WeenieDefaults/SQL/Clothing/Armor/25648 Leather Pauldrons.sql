@@ -21,8 +21,7 @@ VALUES (25648,   1,          2) /* ItemType - Armor */
      , (25648, 110,          0) /* ItemAllegianceRankLimit */
      , (25648, 115,          0) /* ItemSkillLevelLimit */
      , (25648, 131,         52) /* MaterialType - Leather */
-     , (25648, 172,          1) /* AppraisalLongDescDecoration */
-     , (25648, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25648, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25648,  22, True ) /* Inscribable */
@@ -38,8 +37,7 @@ VALUES (25648,   5,  -0.042) /* ManaRate */
      , (25648,  18,     0.3) /* ArmorModVsAcid */
      , (25648,  19,     0.8) /* ArmorModVsElectric */
      , (25648,  39,     1.1) /* DefaultScale */
-     , (25648, 165,       1) /* ArmorModVsNether */
-     , (25648, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (25648, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25648,   1, 'Leather Pauldrons') /* Name */
@@ -50,13 +48,7 @@ VALUES (25648,   1,   33554641) /* Setup */
      , (25648,   3,  536870932) /* SoundTable */
      , (25648,   6,   67108990) /* PaletteBase */
      , (25648,   8,  100675347) /* Icon */
-     , (25648,  22,  872415275) /* PhysicsEffectTable */
-     , (25648, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (25648, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25648, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25648, 8000, 3692094489) /* PCAPRecordedObjectIID */;
+     , (25648,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25648,  1485,      2) 
@@ -64,12 +56,3 @@ VALUES (25648,  1485,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25648, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25648, 67114619, 116, 20);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (25648, 0, 83886788, 83894831);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25648, 0, 16778411);

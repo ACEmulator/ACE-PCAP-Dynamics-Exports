@@ -18,10 +18,7 @@ VALUES (15757,   1, True ) /* Stuck */
      , (15757,  34, False) /* DefaultOpen */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (15757,  54,       1) /* UseRadius */
-     , (15757, 8010,       0) /* PCAPRecordedVelocityX */
-     , (15757, 8011,       0) /* PCAPRecordedVelocityY */
-     , (15757, 8012,  -0.099) /* PCAPRecordedVelocityZ */;
+VALUES (15757,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15757,   1, 'The skeleton of Lania Cartoth') /* Name */
@@ -32,17 +29,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15757,   1,   33555405) /* Setup */
      , (15757,   3,  536870932) /* SoundTable */
      , (15757,   8,  100667504) /* Icon */
-     , (15757,  22,  872415275) /* PhysicsEffectTable */
-     , (15757, 8001,    2097206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, Burden */
-     , (15757, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (15757, 8005,      38917) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, STable, PeTable, Position */;
+     , (15757,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15757, 8040, 1399456057, 230.582, -307.32, -29.9, -0.148471, 0, 0, -0.988917) /* PCAPRecordedLocation */
 /* @teleloc 0x536A0139 [230.582000 -307.320000 -29.900000] -0.148471 0.000000 0.000000 -0.988917 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15757, 8000, 1966514225) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15757, -1, 15804, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Elysa Strathelar's Letter to Lania Cartoth (15804) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -26,9 +26,7 @@ VALUES (31762,   1,          1) /* ItemType - MeleeWeapon */
      , (31762, 172,          5) /* AppraisalLongDescDecoration */
      , (31762, 177,          2) /* GemCount */
      , (31762, 178,         49) /* GemType */
-     , (31762, 353,          2) /* WeaponType - Sword */
-     , (31762, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31762, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31762, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31762,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (31762,  21,       0) /* WeaponLength */
      , (31762,  29,    1.09) /* WeaponDefense */
      , (31762,  39,    0.75) /* DefaultScale */
      , (31762,  62,    1.08) /* WeaponOffense */
-     , (31762,  63,       1) /* DamageMod */
-     , (31762, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31762,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31762,   1, 'Flaming Dericost Blade') /* Name */
@@ -52,21 +49,4 @@ VALUES (31762,   1,   33559635) /* Setup */
      , (31762,   3,  536870932) /* SoundTable */
      , (31762,   6,   67116700) /* PaletteBase */
      , (31762,   8,  100687997) /* Icon */
-     , (31762,  22,  872415275) /* PhysicsEffectTable */
-     , (31762, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31762, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31762, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31762, 8000, 3692876658) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31762, 67116700, 1, 100)
-     , (31762, 67116705, 201, 27)
-     , (31762, 67116708, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31762, 0, 83897335, 83897335);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31762, 0, 16792612);
+     , (31762,  22,  872415275) /* PhysicsEffectTable */;

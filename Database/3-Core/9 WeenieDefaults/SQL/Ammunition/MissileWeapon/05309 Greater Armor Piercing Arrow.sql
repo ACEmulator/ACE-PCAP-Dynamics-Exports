@@ -22,9 +22,7 @@ VALUES (5309,   1,        256) /* ItemType - MissileWeapon */
      , (5309,  50,          1) /* AmmoType - Arrow */
      , (5309,  51,          3) /* CombatUse - Ammo */
      , (5309,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (5309, 151,          2) /* HookType - Wall */
-     , (5309, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (5309, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (5309, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5309,  69, False) /* IsSellable */;
@@ -48,25 +46,11 @@ VALUES (5309,   1,   33554724) /* Setup */
      , (5309,   3,  536870932) /* SoundTable */
      , (5309,   6,   67111919) /* PaletteBase */
      , (5309,   8,  100670198) /* Icon */
-     , (5309,  22,  872415275) /* PhysicsEffectTable */
-     , (5309, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (5309, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5309, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (5309, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (5309,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5309, 8040, 1415119190, 108.5663, -80.11407, -0.076, 0.4991883, 0.4991883, 0.5008104, 0.5008104) /* PCAPRecordedLocation */
 /* @teleloc 0x54590156 [108.566300 -80.114070 -0.076000] 0.499188 0.499188 0.500810 0.500810 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5309, 8000, 3360076102) /* PCAPRecordedObjectIID */
-     , (5309, 8008, 3360318646) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5309, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5309, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5309, 0, 16777887);

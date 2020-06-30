@@ -25,9 +25,7 @@ VALUES (23747,   1,        256) /* ItemType - MissileWeapon */
      , (23747, 313,          0) /* CritRating */
      , (23747, 314,          0) /* CritDamageRating */
      , (23747, 353,         10) /* WeaponType - Thrown */
-     , (23747, 386,          0) /* Overpower */
-     , (23747, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23747, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23747, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23747,   1, True ) /* Stuck */;
@@ -51,19 +49,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23747,   1,   33555863) /* Setup */
      , (23747,   3,  536871003) /* SoundTable */
      , (23747,   8,  100667500) /* Icon */
-     , (23747,  22,  872415275) /* PhysicsEffectTable */
-     , (23747, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (23747, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23747, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (23747, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23747,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23747, 8040, 2384003121, 166.1372, 21.05304, 287.6377, -0.6693255, -0.6693255, -0.2280425, -0.2280425) /* PCAPRecordedLocation */
 /* @teleloc 0x8E190031 [166.137200 21.053040 287.637700] -0.669326 -0.669326 -0.228043 -0.228043 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23747, 8000, 3685780265) /* PCAPRecordedObjectIID */
-     , (23747, 8008, 3685780263) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23747, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

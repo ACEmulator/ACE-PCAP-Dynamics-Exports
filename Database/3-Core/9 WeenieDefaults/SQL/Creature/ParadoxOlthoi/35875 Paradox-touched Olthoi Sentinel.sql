@@ -11,8 +11,7 @@ VALUES (35875,   1,         16) /* ItemType - Creature */
      , (35875,  16,          1) /* ItemUseable - No */
      , (35875,  25,        265) /* Level */
      , (35875,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35875, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35875, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35875, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35875,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35875,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35875,   1, 'Paradox-touched Olthoi Sentinel') /* Name */
-     , (35875, 8006, 'BwA9ACQAtcR7lOZCw3XmQgAAAABP7kEAAAAAQAAAAAD//39/zcxMPgAAcEEAAAAAchw/QA==') /* PCAPRecordedCurrentMotionState */;
+VALUES (35875,   1, 'Paradox-touched Olthoi Sentinel') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35875,   1,   33560330) /* Setup */
@@ -31,17 +29,11 @@ VALUES (35875,   1,   33560330) /* Setup */
      , (35875,   6,   67114502) /* PaletteBase */
      , (35875,   8,  100674878) /* Icon */
      , (35875,  22,  872415400) /* PhysicsEffectTable */
-     , (35875,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (35875, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35875, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35875, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (35875,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35875, 8040, 3300196389, 105.9985, 96.105, 239.9935, 0.9745426, 0, 0, -0.2242024) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B50025 [105.998500 96.105000 239.993500] 0.974543 0.000000 0.000000 -0.224202 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35875, 8000, 3701495653) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (35875,   1,     0, 0, 0, 20250) /* MaxHealth */;
@@ -57,6 +49,3 @@ VALUES (35875, 9, 49431,  0, 0, 0, False) /* Create Lightning Spectre Essence (1
      , (35875, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
      , (35875, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (35875, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35875, 67114508, 0, 0);

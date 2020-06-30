@@ -9,8 +9,7 @@ VALUES (22117,   1,        128) /* ItemType - Misc */
      , (22117,  16,          1) /* ItemUseable - No */
      , (22117,  19,       3226) /* Value */
      , (22117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22117, 151,          1) /* HookType - Floor */
-     , (22117, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22117, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22117,  22, True ) /* Inscribable */;
@@ -25,10 +24,4 @@ VALUES (22117,   1, 'Evil Couch') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22117,   1,   33558039) /* Setup */
-     , (22117,   8,  100673560) /* Icon */
-     , (22117, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (22117, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22117, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22117, 8000, 3658159472) /* PCAPRecordedObjectIID */;
+     , (22117,   8,  100673560) /* Icon */;

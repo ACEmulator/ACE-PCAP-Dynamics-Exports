@@ -19,8 +19,7 @@ VALUES (29541,   1,          2) /* ItemType - Armor */
      , (29541, 151,          2) /* HookType - Wall */
      , (29541, 158,          7) /* WieldRequirements - Level */
      , (29541, 159,          1) /* WieldSkillType - Axe */
-     , (29541, 160,         60) /* WieldDifficulty */
-     , (29541, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29541, 160,         60) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29541,  22, True ) /* Inscribable */
@@ -45,13 +44,7 @@ VALUES (29541,   1,   33554856) /* Setup */
      , (29541,   3,  536870932) /* SoundTable */
      , (29541,   6,   67108990) /* PaletteBase */
      , (29541,   8,  100677217) /* Icon */
-     , (29541,  22,  872415275) /* PhysicsEffectTable */
-     , (29541, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
-     , (29541, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29541, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29541, 8000, 2980863042) /* PCAPRecordedObjectIID */;
+     , (29541,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29541,   568,      2) 
@@ -60,14 +53,3 @@ VALUES (29541,   568,      2)
      , (29541,   640,      2) 
      , (29541,  2108,      2) 
      , (29541,  3573,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29541, 67115398, 72, 24)
-     , (29541, 67115398, 136, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29541, 0, 83887064, 83895688)
-     , (29541, 0, 83887066, 83895689);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29541, 0, 16778829);

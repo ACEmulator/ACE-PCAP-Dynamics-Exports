@@ -29,9 +29,7 @@ VALUES (3813,   1,          1) /* ItemType - MeleeWeapon */
      , (3813, 177,          3) /* GemCount */
      , (3813, 178,         39) /* GemType */
      , (3813, 179,        128) /* ImbuedEffect - ColdRending */
-     , (3813, 353,          2) /* WeaponType - Sword */
-     , (3813, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3813, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3813, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3813,  22, True ) /* Inscribable */
@@ -44,8 +42,7 @@ VALUES (3813,  21,       0) /* WeaponLength */
      , (3813,  29,    1.18) /* WeaponDefense */
      , (3813,  39,     1.1) /* DefaultScale */
      , (3813,  62,    1.18) /* WeaponOffense */
-     , (3813,  63,       1) /* DamageMod */
-     , (3813, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3813,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3813,   1, 'Sword of Frozen Fury') /* Name */
@@ -59,11 +56,4 @@ VALUES (3813,   1,   33558261) /* Setup */
      , (3813,   8,  100674254) /* Icon */
      , (3813,  22,  872415275) /* PhysicsEffectTable */
      , (3813,  50,  100689143) /* IconOverlay */
-     , (3813,  52,  100676435) /* IconUnderlay */
-     , (3813, 8001, 3508617880) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (3813, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3813, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3813, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3813, 8000, 2461340353) /* PCAPRecordedObjectIID */;
+     , (3813,  52,  100676435) /* IconUnderlay */;

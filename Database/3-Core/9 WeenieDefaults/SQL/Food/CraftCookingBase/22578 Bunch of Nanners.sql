@@ -15,8 +15,7 @@ VALUES (22578,   1,    4194304) /* ItemType - CraftCookingBase */
      , (22578,  89,          4) /* BoosterEnum - Stamina */
      , (22578,  90,          6) /* BoostValue */
      , (22578,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22578, 151,          2) /* HookType - Wall */
-     , (22578, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22578, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22578,   1, 'Bunch of Nanners') /* Name */
@@ -27,13 +26,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22578,   1,   33558106) /* Setup */
      , (22578,   3,  536870932) /* SoundTable */
      , (22578,   8,  100673809) /* Icon */
-     , (22578,  22,  872415275) /* PhysicsEffectTable */
-     , (22578, 8001,  270561305) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (22578, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (22578, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22578, 8000, 2186220551) /* PCAPRecordedObjectIID */;
+     , (22578,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22578, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

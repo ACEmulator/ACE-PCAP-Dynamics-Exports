@@ -12,8 +12,7 @@ VALUES (4710,   1,         32) /* ItemType - Food */
      , (4710,  15,          8) /* StackUnitValue */
      , (4710,  16,          8) /* ItemUseable - Contained */
      , (4710,  19,          8) /* Value */
-     , (4710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4710, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4710,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4710,   1, 'Beef Kebab') /* Name */
@@ -24,9 +23,4 @@ VALUES (4710,   1,   33556220) /* Setup */
      , (4710,   3,  536870932) /* SoundTable */
      , (4710,   8,  100669944) /* Icon */
      , (4710,  22,  872415275) /* PhysicsEffectTable */
-     , (4710, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (4710, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (4710, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4710, 8000,       4710) /* PCAPRecordedObjectIID */;
+     , (4710, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

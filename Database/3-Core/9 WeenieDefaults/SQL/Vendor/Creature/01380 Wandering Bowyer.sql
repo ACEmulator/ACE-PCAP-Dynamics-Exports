@@ -18,8 +18,7 @@ VALUES (1380,   1,         16) /* ItemType - Creature */
      , (1380, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1380, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1380, 188,          3) /* HeritageGroup - Sho */
-     , (1380, 307,          5) /* DamageRating */
-     , (1380, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1380, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1380,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1380,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1380,   1, 'Wandering Bowyer') /* Name */
-     , (1380,   5, 'Bowyer') /* Template */
-     , (1380, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1380,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1380,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1380,   1,   33554433) /* Setup */
      , (1380,  11,   83890629) /* MouthTexture */
      , (1380,  15,   67116995) /* HairPalette */
      , (1380,  16,   67110062) /* EyesPalette */
-     , (1380,  17,   67110057) /* SkinPalette */
-     , (1380, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1380, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1380, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1380,  17,   67110057) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1380, 8040, 3043885313, 130.859, 178.075, 25.705, -0.3471614, 0, 0, -0.9378054) /* PCAPRecordedLocation */
 /* @teleloc 0xB56E0101 [130.859000 178.075000 25.705000] -0.347161 0.000000 0.000000 -0.937805 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1380, 8000, 2069291011) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1380,   1,  70, 0, 0) /* Strength */
@@ -97,57 +89,3 @@ VALUES (1380, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (1380, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (1380, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (1380, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1380, 67109965, 92, 4)
-     , (1380, 67110015, 240, 10)
-     , (1380, 67110057, 0, 24)
-     , (1380, 67110062, 32, 8)
-     , (1380, 67110325, 216, 24)
-     , (1380, 67110325, 160, 8)
-     , (1380, 67110349, 64, 8)
-     , (1380, 67110375, 40, 24)
-     , (1380, 67110539, 72, 8)
-     , (1380, 67116995, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1380, 0, 83889072, 83890012)
-     , (1380, 0, 83889342, 83890011)
-     , (1380, 1, 83887064, 83886241)
-     , (1380, 2, 83887066, 83887051)
-     , (1380, 3, 83889344, 83887054)
-     , (1380, 4, 83887068, 83887054)
-     , (1380, 5, 83887064, 83886241)
-     , (1380, 6, 83887066, 83887051)
-     , (1380, 7, 83889344, 83887054)
-     , (1380, 8, 83887068, 83887054)
-     , (1380, 9, 83887061, 83890009)
-     , (1380, 9, 83887060, 83890010)
-     , (1380, 10, 83887069, 83886782)
-     , (1380, 11, 83887067, 83891213)
-     , (1380, 13, 83887069, 83886782)
-     , (1380, 14, 83887067, 83891213)
-     , (1380, 16, 83886232, 83890685)
-     , (1380, 16, 83886668, 83890448)
-     , (1380, 16, 83886837, 83890547)
-     , (1380, 16, 83886684, 83890629)
-     , (1380, 16, 83887048, 83887048);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1380, 0, 16781835)
-     , (1380, 1, 16777295)
-     , (1380, 2, 16781866)
-     , (1380, 3, 16781841)
-     , (1380, 4, 16781838)
-     , (1380, 5, 16777299)
-     , (1380, 6, 16781864)
-     , (1380, 7, 16781840)
-     , (1380, 8, 16781839)
-     , (1380, 9, 16777300)
-     , (1380, 10, 16777301)
-     , (1380, 11, 16777302)
-     , (1380, 12, 16777304)
-     , (1380, 13, 16777303)
-     , (1380, 14, 16777305)
-     , (1380, 15, 16777307)
-     , (1380, 16, 16778414);

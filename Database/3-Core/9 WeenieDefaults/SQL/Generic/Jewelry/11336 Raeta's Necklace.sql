@@ -16,8 +16,7 @@ VALUES (11336,   1,          8) /* ItemType - Jewelry */
      , (11336, 107,        500) /* ItemCurMana */
      , (11336, 108,        500) /* ItemMaxMana */
      , (11336, 109,         35) /* ItemDifficulty */
-     , (11336, 151,          2) /* HookType - Wall */
-     , (11336, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11336, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11336,  22, True ) /* Inscribable */;
@@ -36,13 +35,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11336,   1,   33557216) /* Setup */
      , (11336,   3,  536870932) /* SoundTable */
      , (11336,   8,  100671831) /* Icon */
-     , (11336,  22,  872415275) /* PhysicsEffectTable */
-     , (11336, 8001,  270614680) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden, HookType */
-     , (11336, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11336, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11336, 8000, 2274298737) /* PCAPRecordedObjectIID */;
+     , (11336,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11336,   160,      2) 

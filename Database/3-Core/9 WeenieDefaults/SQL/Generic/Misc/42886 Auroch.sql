@@ -19,14 +19,8 @@ VALUES (42886,   1, 'Auroch') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42886,   1,   33561026) /* Setup */
-     , (42886,   8,  100668115) /* Icon */
-     , (42886, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42886, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42886, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42886,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42886, 8040, 459102, 75.0048, -174.874, 1.436, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007015E [75.004800 -174.874000 1.436000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42886, 8000, 1879076982) /* PCAPRecordedObjectIID */;

@@ -11,8 +11,7 @@ VALUES (4105,   1,         16) /* ItemType - Creature */
      , (4105,  16,          1) /* ItemUseable - No */
      , (4105,  25,         60) /* Level */
      , (4105,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4105, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4105, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4105, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4105,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4105,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4105,   1, 'Tumerok Priest') /* Name */
-     , (4105, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4105,   1, 'Tumerok Priest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4105,   1,   33559553) /* Setup */
@@ -30,17 +28,11 @@ VALUES (4105,   1,   33559553) /* Setup */
      , (4105,   3,  536870931) /* SoundTable */
      , (4105,   6,   67116625) /* PaletteBase */
      , (4105,   8,  100667452) /* Icon */
-     , (4105,  22,  872415270) /* PhysicsEffectTable */
-     , (4105, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4105, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4105, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (4105,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4105, 8040, 44696167, 27.2548, -390.666, 36.0055, -0.5163172, 0, 0, -0.8563974) /* PCAPRecordedLocation */
 /* @teleloc 0x02AA0267 [27.254800 -390.666000 36.005500] -0.516317 0.000000 0.000000 -0.856397 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4105, 8000, 3700614332) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4105,   1,  80, 0, 0) /* Strength */
@@ -60,11 +52,3 @@ VALUES (4105, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (4105, 2, 23667,  1, 0, 0, False) /* Create Heavy Crossbow (23667) for Wield */
      , (4105, 2,  5304,  1, 0, 0, False) /* Create Greater Arrow (5304) for Wield */
      , (4105, 2,  5313,  1, 0, 0, False) /* Create Greater Quarrel (5313) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4105, 67116625, 57, 48)
-     , (4105, 67116625, 105, 48)
-     , (4105, 67116625, 153, 47)
-     , (4105, 67116625, 200, 8)
-     , (4105, 67116638, 208, 48)
-     , (4105, 67116644, 1, 48);

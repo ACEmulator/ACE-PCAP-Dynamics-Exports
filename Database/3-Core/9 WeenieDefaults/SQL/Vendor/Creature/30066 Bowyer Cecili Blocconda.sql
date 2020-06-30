@@ -18,8 +18,7 @@ VALUES (30066,   1,         16) /* ItemType - Creature */
      , (30066, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30066, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (30066, 188,          4) /* HeritageGroup - Viamontian */
-     , (30066, 307,          5) /* DamageRating */
-     , (30066, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30066, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30066,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (30066,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30066,   1, 'Bowyer Cecili Blocconda') /* Name */
-     , (30066,   5, 'Bowyer') /* Template */
-     , (30066, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30066,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30066,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (30066,   1,   33554433) /* Setup */
      , (30066,  11,   83890651) /* MouthTexture */
      , (30066,  15,   67116988) /* HairPalette */
      , (30066,  16,   67110064) /* EyesPalette */
-     , (30066,  17,   67115906) /* SkinPalette */
-     , (30066, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30066, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30066, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (30066,  17,   67115906) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30066, 8040, 669777930, 26.5, 42.972, 80.005, -0.9986184, 0, 0, -0.05254771) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC000A [26.500000 42.972000 80.005000] -0.998618 0.000000 0.000000 -0.052548 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30066, 8000, 1920909323) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30066,   1,  60, 0, 0) /* Strength */
@@ -115,54 +107,3 @@ VALUES (30066, 2,   312,  1, 0, 0, False) /* Create Light Crossbow (312) for Wie
      , (30066, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (30066, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (30066, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30066, 67110064, 32, 8)
-     , (30066, 67110361, 40, 24)
-     , (30066, 67110367, 64, 8)
-     , (30066, 67110369, 160, 8)
-     , (30066, 67110376, 216, 24)
-     , (30066, 67110540, 72, 8)
-     , (30066, 67110551, 92, 4)
-     , (30066, 67115906, 0, 24)
-     , (30066, 67115975, 240, 16)
-     , (30066, 67116988, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30066, 0, 83889072, 83890012)
-     , (30066, 0, 83889342, 83890011)
-     , (30066, 1, 83887064, 83886241)
-     , (30066, 2, 83887066, 83887051)
-     , (30066, 3, 83889344, 83887054)
-     , (30066, 4, 83887068, 83887054)
-     , (30066, 5, 83887064, 83886241)
-     , (30066, 6, 83887066, 83887051)
-     , (30066, 7, 83889344, 83887054)
-     , (30066, 8, 83887068, 83887054)
-     , (30066, 9, 83887061, 83890009)
-     , (30066, 9, 83887060, 83890010)
-     , (30066, 10, 83887069, 83886782)
-     , (30066, 13, 83887069, 83886782)
-     , (30066, 16, 83886232, 83890685)
-     , (30066, 16, 83886668, 83890511)
-     , (30066, 16, 83886837, 83890520)
-     , (30066, 16, 83886684, 83890651);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30066, 0, 16781835)
-     , (30066, 1, 16777295)
-     , (30066, 2, 16781866)
-     , (30066, 3, 16781841)
-     , (30066, 4, 16781838)
-     , (30066, 5, 16777299)
-     , (30066, 6, 16781864)
-     , (30066, 7, 16781840)
-     , (30066, 8, 16781839)
-     , (30066, 9, 16777300)
-     , (30066, 10, 16777301)
-     , (30066, 11, 16777302)
-     , (30066, 12, 16777304)
-     , (30066, 13, 16777303)
-     , (30066, 14, 16777305)
-     , (30066, 15, 16777307)
-     , (30066, 16, 16791893);

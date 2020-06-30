@@ -15,8 +15,7 @@ VALUES (46348,   1,        128) /* ItemType - Misc */
      , (46348,  33,          1) /* Bonded - Bonded */
      , (46348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46348,  94,        128) /* TargetType - Misc */
-     , (46348, 114,          1) /* Attuned - Attuned */
-     , (46348, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46348, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46348,  22, True ) /* Inscribable */;
@@ -30,14 +29,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46348,   1,   33554773) /* Setup */
      , (46348,   3,  536870932) /* SoundTable */
      , (46348,   8,  100692696) /* Icon */
-     , (46348,  22,  872415275) /* PhysicsEffectTable */
-     , (46348, 8001,    2633752) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, TargetType, Burden */
-     , (46348, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46348, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (46348,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46348, 8040, 1466237783, 44.5009, -112.468, -5.921, 0.9998697, 0, 0, 0.01614299) /* PCAPRecordedLocation */
 /* @teleloc 0x57650357 [44.500900 -112.468000 -5.921000] 0.999870 0.000000 0.000000 0.016143 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46348, 8000, 3359831260) /* PCAPRecordedObjectIID */;

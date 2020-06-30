@@ -19,14 +19,8 @@ VALUES (42888,   1, 'Crystal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42888,   1,   33561028) /* Setup */
-     , (42888,   8,  100668115) /* Icon */
-     , (42888, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42888, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42888, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42888,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42888, 8040, 459092, 84.8474, -35.0247, 0.66, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070154 [84.847400 -35.024700 0.660000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42888, 8000, 1879076963) /* PCAPRecordedObjectIID */;

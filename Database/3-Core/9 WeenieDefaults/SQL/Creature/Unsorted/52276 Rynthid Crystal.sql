@@ -33,8 +33,7 @@ VALUES (52276,   1,         16) /* ItemType - Creature */
      , (52276, 386,          0) /* Overpower */
      , (52276, 387,          0) /* OverpowerResist */
      , (52276, 388,          0) /* GearOverpower */
-     , (52276, 389,          0) /* GearOverpowerResist */
-     , (52276, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52276, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52276,   1, True ) /* Stuck */;
@@ -44,8 +43,7 @@ VALUES (52276,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52276,   1, 'Rynthid Crystal') /* Name */
-     , (52276,  15, 'A bright red crystal that seems to attract the nearby Rynthid.') /* ShortDesc */
-     , (52276, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (52276,  15, 'A bright red crystal that seems to attract the nearby Rynthid.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52276,   1,   33556732) /* Setup */
@@ -53,17 +51,8 @@ VALUES (52276,   1,   33556732) /* Setup */
      , (52276,   3,  536871001) /* SoundTable */
      , (52276,   6,   67111919) /* PaletteBase */
      , (52276,   8,  100670283) /* Icon */
-     , (52276,  22,  872415339) /* PhysicsEffectTable */
-     , (52276, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52276, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52276, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (52276,  22,  872415339) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52276, 8040, 758186039, 160.04, 153.961, 132, 0.9999145, 0, 0, -0.01307439) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310037 [160.040000 153.961000 132.000000] 0.999915 0.000000 0.000000 -0.013074 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52276, 8000, 3707648114) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52276, 67111924, 0, 0);

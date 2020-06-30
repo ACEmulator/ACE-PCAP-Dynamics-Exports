@@ -15,8 +15,7 @@ VALUES (24590,   1,         16) /* ItemType - Creature */
      , (24590,  76,     100000) /* MerchandiseMaxValue */
      , (24590,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24590, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24590, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24590, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24590, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24590,   1, True ) /* Stuck */
@@ -31,25 +30,18 @@ VALUES (24590,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24590,   1, 'Odvik the Inn Keeper') /* Name */
-     , (24590,   5, 'Inn Keeper') /* Template */
-     , (24590, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24590,   5, 'Inn Keeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24590,   1,   33557003) /* Setup */
      , (24590,   2,  150994950) /* MotionTable */
      , (24590,   3,  536870922) /* SoundTable */
      , (24590,   6,   67113158) /* PaletteBase */
-     , (24590,   8,  100667447) /* Icon */
-     , (24590, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24590, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24590, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (24590,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24590, 8040, 722534674, 31.0567, 149.394, 48.008, 0.8940667, 0, 0, -0.4479339) /* PCAPRecordedLocation */
 /* @teleloc 0x2B110112 [31.056700 149.394000 48.008000] 0.894067 0.000000 0.000000 -0.447934 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24590, 8000, 1924206626) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24590,   1, 204, 0, 0) /* Strength */
@@ -91,26 +83,3 @@ VALUES (24590, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (24590, 4, 31311, -1, 0, 0, False) /* Create Lost Pet (31311) for Shop */
      , (24590, 4, 31384, -1, 0, 0, False) /* Create Dark Dealings (31384) for Shop */
      , (24590, 4, 31982, -1, 0, 0, False) /* Create Branwyn's Tears (31982) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24590, 67113169, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24590, 0, 83893224, 83893225)
-     , (24590, 0, 83893231, 83893232)
-     , (24590, 2, 83893218, 83893220)
-     , (24590, 5, 83893218, 83893220)
-     , (24590, 7, 83893227, 83893228)
-     , (24590, 7, 83893214, 83893215)
-     , (24590, 9, 83893218, 83893220)
-     , (24590, 12, 83893218, 83893220);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24590, 0, 16785699)
-     , (24590, 2, 16785662)
-     , (24590, 5, 16785662)
-     , (24590, 7, 16785659)
-     , (24590, 9, 16785701)
-     , (24590, 12, 16785701)
-     , (24590, 19, 16777708)
-     , (24590, 20, 16777708);

@@ -18,8 +18,7 @@ VALUES (1394,   1,         16) /* ItemType - Creature */
      , (1394, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1394, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1394, 188,          2) /* HeritageGroup - Gharundim */
-     , (1394, 307,          5) /* DamageRating */
-     , (1394, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1394, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1394,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1394,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1394,   1, 'Weaponsmith') /* Name */
-     , (1394,   5, 'Weaponsmith') /* Template */
-     , (1394, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1394,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1394,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1394,   1,   33554433) /* Setup */
      , (1394,  11,   83890645) /* MouthTexture */
      , (1394,  15,   67117025) /* HairPalette */
      , (1394,  16,   67109567) /* EyesPalette */
-     , (1394,  17,   67109550) /* SkinPalette */
-     , (1394, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1394, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1394, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1394,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1394, 8040, 2249392140, 40.6301, 80.7736, 262.005, -0.9983985, 0, 0, -0.05657241) /* PCAPRecordedLocation */
 /* @teleloc 0x8613000C [40.630100 80.773600 262.005000] -0.998399 0.000000 0.000000 -0.056572 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1394, 8000, 2019635202) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1394,   1,  70, 0, 0) /* Strength */
@@ -90,53 +82,3 @@ VALUES (1394, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield 
      , (1394, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (1394, 4, 24033, -1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Shop */
      , (1394, 4,  8211, -1, 0, 0, False) /* Create Discus (8211) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1394, 67109550, 0, 24)
-     , (1394, 67109567, 32, 8)
-     , (1394, 67109966, 92, 4)
-     , (1394, 67110356, 216, 24)
-     , (1394, 67110359, 40, 24)
-     , (1394, 67110375, 160, 8)
-     , (1394, 67110389, 64, 8)
-     , (1394, 67110540, 72, 8)
-     , (1394, 67117025, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1394, 0, 83889072, 83890012)
-     , (1394, 0, 83889342, 83890011)
-     , (1394, 1, 83887064, 83886241)
-     , (1394, 2, 83887066, 83887055)
-     , (1394, 3, 83889344, 83887054)
-     , (1394, 4, 83887068, 83887054)
-     , (1394, 5, 83887064, 83886241)
-     , (1394, 6, 83887066, 83887055)
-     , (1394, 7, 83889344, 83887054)
-     , (1394, 8, 83887068, 83887054)
-     , (1394, 9, 83887061, 83890009)
-     , (1394, 9, 83887060, 83890010)
-     , (1394, 10, 83887069, 83886782)
-     , (1394, 13, 83887069, 83886782)
-     , (1394, 16, 83886232, 83890685)
-     , (1394, 16, 83886668, 83890453)
-     , (1394, 16, 83886837, 83890547)
-     , (1394, 16, 83886684, 83890645);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1394, 0, 16781835)
-     , (1394, 1, 16777295)
-     , (1394, 2, 16777293)
-     , (1394, 3, 16777292)
-     , (1394, 4, 16777291)
-     , (1394, 5, 16777299)
-     , (1394, 6, 16777297)
-     , (1394, 7, 16777296)
-     , (1394, 8, 16777298)
-     , (1394, 9, 16777300)
-     , (1394, 10, 16777301)
-     , (1394, 11, 16777302)
-     , (1394, 12, 16777304)
-     , (1394, 13, 16777303)
-     , (1394, 14, 16777305)
-     , (1394, 15, 16777307)
-     , (1394, 16, 16795654);

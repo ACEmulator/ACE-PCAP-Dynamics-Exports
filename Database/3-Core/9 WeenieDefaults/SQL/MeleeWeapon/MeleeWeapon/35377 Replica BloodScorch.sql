@@ -29,8 +29,7 @@ VALUES (35377,   1,          1) /* ItemType - MeleeWeapon */
      , (35377, 160,        400) /* WieldDifficulty */
      , (35377, 166,         14) /* SlayerCreatureType - Undead */
      , (35377, 263,         16) /* ResistanceModifierType */
-     , (35377, 353,          2) /* WeaponType - Sword */
-     , (35377, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (35377, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35377,  22, True ) /* Inscribable */
@@ -57,19 +56,11 @@ VALUES (35377,   1,   33560294) /* Setup */
      , (35377,   3,  536870932) /* SoundTable */
      , (35377,   8,  100689476) /* Icon */
      , (35377,  22,  872415275) /* PhysicsEffectTable */
-     , (35377,  55,       1785) /* ProcSpell - FlameRing */
-     , (35377, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (35377, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35377, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (35377, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (35377,  55,       1785) /* ProcSpell - FlameRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35377, 8040, 3010396203, 123.0093, 64.41331, 19.929, 0.627149, 0.627149, -0.3266253, -0.3266253) /* PCAPRecordedLocation */
 /* @teleloc 0xB36F002B [123.009300 64.413310 19.929000] 0.627149 0.627149 -0.326625 -0.326625 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35377, 8000, 3685097976) /* PCAPRecordedObjectIID */
-     , (35377, 8008, 3685096083) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35377,  1785,      2) 

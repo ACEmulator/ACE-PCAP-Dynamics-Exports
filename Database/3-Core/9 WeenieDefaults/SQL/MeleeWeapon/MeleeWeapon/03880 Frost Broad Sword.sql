@@ -33,9 +33,7 @@ VALUES (3880,   1,          1) /* ItemType - MeleeWeapon */
      , (3880, 176,         45) /* AppraisalItemSkill */
      , (3880, 177,          2) /* GemCount */
      , (3880, 178,         15) /* GemType */
-     , (3880, 353,          2) /* WeaponType - Sword */
-     , (3880, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3880, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3880, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3880,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3880,   5,  -0.042) /* ManaRate */
      , (3880,  29,    1.07) /* WeaponDefense */
      , (3880,  39,     1.1) /* DefaultScale */
      , (3880,  62,    1.09) /* WeaponOffense */
-     , (3880,  63,       1) /* DamageMod */
-     , (3880, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3880,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3880,   1, 'Frost Broad Sword') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3880,   1,   33555788) /* Setup */
      , (3880,   3,  536870932) /* SoundTable */
      , (3880,   8,  100669022) /* Icon */
-     , (3880,  22,  872415275) /* PhysicsEffectTable */
-     , (3880, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3880, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3880, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3880, 8000, 2931259149) /* PCAPRecordedObjectIID */;
+     , (3880,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3880,  1615,      2) ;

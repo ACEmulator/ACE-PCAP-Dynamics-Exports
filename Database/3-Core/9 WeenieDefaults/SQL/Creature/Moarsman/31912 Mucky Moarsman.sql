@@ -11,8 +11,7 @@ VALUES (31912,   1,         16) /* ItemType - Creature */
      , (31912,  16,          1) /* ItemUseable - No */
      , (31912,  25,        160) /* Level */
      , (31912,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (31912, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (31912, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31912, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31912,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (31912,  39,     1.6) /* DefaultScale */
      , (31912,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (31912,   1, 'Mucky Moarsman') /* Name */
-     , (31912, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (31912,   1, 'Mucky Moarsman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31912,   1,   33556882) /* Setup */
@@ -32,17 +30,11 @@ VALUES (31912,   1,   33556882) /* Setup */
      , (31912,   6,   67112872) /* PaletteBase */
      , (31912,   8,  100671185) /* Icon */
      , (31912,  22,  872415337) /* PhysicsEffectTable */
-     , (31912,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (31912, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (31912, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (31912, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (31912,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31912, 8040, 3403808811, 143.3729, 66.96189, 4.0064, 0.9166957, 0, 0, -0.399586) /* PCAPRecordedLocation */
 /* @teleloc 0xCAE2002B [143.372900 66.961890 4.006400] 0.916696 0.000000 0.000000 -0.399586 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31912, 8000, 2629395332) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31912,   1, 200, 0, 0) /* Strength */
@@ -73,6 +65,3 @@ VALUES (31912, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield
      , (31912, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
      , (31912, 9, 20598,  0, 0, 0, False) /* Create Scroll of Koga's Blessing (20598) for ContainTreasure */
      , (31912, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31912, 67116781, 0, 0);

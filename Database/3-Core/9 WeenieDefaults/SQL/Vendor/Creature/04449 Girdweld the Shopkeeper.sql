@@ -17,8 +17,7 @@ VALUES (4449,   1,         16) /* ItemType - Creature */
      , (4449, 113,          1) /* Gender - Male */
      , (4449, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4449, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4449, 188,          1) /* HeritageGroup - Aluvian */
-     , (4449, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4449, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4449,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4449,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4449,   1, 'Girdweld the Shopkeeper') /* Name */
-     , (4449,   5, 'Shopkeeper') /* Template */
-     , (4449, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4449,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4449,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4449,   1,   33554433) /* Setup */
      , (4449,  11,   83890635) /* MouthTexture */
      , (4449,  15,   67116988) /* HairPalette */
      , (4449,  16,   67109565) /* EyesPalette */
-     , (4449,  17,   67109560) /* SkinPalette */
-     , (4449, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4449, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4449, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4449,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4449, 8040, 3364356361, 85.923, 173.578, 28.005, -0.7237748, 0, 0, -0.6900362) /* PCAPRecordedLocation */
 /* @teleloc 0xC8880109 [85.923000 173.578000 28.005000] -0.723775 0.000000 0.000000 -0.690036 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4449, 8000, 2089320455) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4449,   1,  90, 0, 0) /* Strength */
@@ -111,55 +103,3 @@ VALUES (4449, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (4449, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4449, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (4449, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4449, 67109560, 0, 24)
-     , (4449, 67109565, 32, 8)
-     , (4449, 67110026, 72, 8)
-     , (4449, 67110320, 216, 24)
-     , (4449, 67110349, 40, 24)
-     , (4449, 67110362, 64, 8)
-     , (4449, 67110375, 160, 8)
-     , (4449, 67110551, 92, 4)
-     , (4449, 67116988, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4449, 0, 83889072, 83890012)
-     , (4449, 0, 83889342, 83890011)
-     , (4449, 1, 83887064, 83886241)
-     , (4449, 2, 83887066, 83887051)
-     , (4449, 3, 83889344, 83887054)
-     , (4449, 4, 83887068, 83887054)
-     , (4449, 5, 83887064, 83886241)
-     , (4449, 6, 83887066, 83887051)
-     , (4449, 7, 83889344, 83887054)
-     , (4449, 8, 83887068, 83887054)
-     , (4449, 9, 83887061, 83890009)
-     , (4449, 9, 83887060, 83890010)
-     , (4449, 10, 83887069, 83886782)
-     , (4449, 11, 83887067, 83891213)
-     , (4449, 13, 83887069, 83886782)
-     , (4449, 14, 83887067, 83891213)
-     , (4449, 16, 83886232, 83890685)
-     , (4449, 16, 83886668, 83890506)
-     , (4449, 16, 83886837, 83890559)
-     , (4449, 16, 83886684, 83890635);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4449, 0, 16781835)
-     , (4449, 1, 16777295)
-     , (4449, 2, 16777293)
-     , (4449, 3, 16777292)
-     , (4449, 4, 16777291)
-     , (4449, 5, 16777299)
-     , (4449, 6, 16777297)
-     , (4449, 7, 16777296)
-     , (4449, 8, 16777298)
-     , (4449, 9, 16777300)
-     , (4449, 10, 16777301)
-     , (4449, 11, 16777302)
-     , (4449, 12, 16777304)
-     , (4449, 13, 16777303)
-     , (4449, 14, 16777305)
-     , (4449, 15, 16777307)
-     , (4449, 16, 16795665);

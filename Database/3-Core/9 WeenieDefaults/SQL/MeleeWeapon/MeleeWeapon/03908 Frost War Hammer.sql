@@ -28,9 +28,7 @@ VALUES (3908,   1,          1) /* ItemType - MeleeWeapon */
      , (3908, 151,          2) /* HookType - Wall */
      , (3908, 172,          1) /* AppraisalLongDescDecoration */
      , (3908, 176,         45) /* AppraisalItemSkill */
-     , (3908, 353,          3) /* WeaponType - Axe */
-     , (3908, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3908, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3908, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3908,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (3908,   5,  -0.025) /* ManaRate */
      , (3908,  29,    1.02) /* WeaponDefense */
      , (3908,  62,    1.04) /* WeaponOffense */
      , (3908,  63,       1) /* DamageMod */
-     , (3908, 150,    1.01) /* WeaponMagicDefense */
-     , (3908, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (3908, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3908,   1, 'Frost War Hammer') /* Name */
@@ -54,13 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3908,   1,   33555820) /* Setup */
      , (3908,   3,  536870932) /* SoundTable */
      , (3908,   8,  100669074) /* Icon */
-     , (3908,  22,  872415275) /* PhysicsEffectTable */
-     , (3908, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3908, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3908, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3908, 8000, 3692328809) /* PCAPRecordedObjectIID */;
+     , (3908,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3908,    35,      2) 

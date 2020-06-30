@@ -17,8 +17,7 @@ VALUES (2044,   1,         16) /* ItemType - Creature */
      , (2044, 113,          2) /* Gender - Female */
      , (2044, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2044, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2044, 188,          3) /* HeritageGroup - Sho */
-     , (2044, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2044, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2044,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2044,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2044,   1, 'Ran Le the Librarian') /* Name */
-     , (2044,   5, 'Librarian') /* Template */
-     , (2044, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2044,   5, 'Librarian') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2044,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2044,   1,   33554510) /* Setup */
      , (2044,  11,   83890342) /* MouthTexture */
      , (2044,  15,   67117077) /* HairPalette */
      , (2044,  16,   67110063) /* EyesPalette */
-     , (2044,  17,   67110048) /* SkinPalette */
-     , (2044, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2044, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2044, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2044,  17,   67110048) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2044, 8040, 3847094538, 81.5778, 86.3907, 12.005, 0.731957, 0, 0, -0.6813509) /* PCAPRecordedLocation */
 /* @teleloc 0xE54E010A [81.577800 86.390700 12.005000] 0.731957 0.000000 0.000000 -0.681351 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2044, 8000, 2119491595) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2044,   1,  90, 0, 0) /* Strength */
@@ -85,51 +77,3 @@ VALUES (2044, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (2044, 4,  9006, -1, 0, 0, False) /* Create Excerpts from the Zharalim (9006) for Shop */
      , (2044, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */
      , (2044, 4,  7774, -1, 0, 0, False) /* Create Concerning the Revelations of Anti-Magic (7774) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2044, 67109969, 92, 4)
-     , (2044, 67110020, 72, 8)
-     , (2044, 67110048, 0, 24)
-     , (2044, 67110063, 32, 8)
-     , (2044, 67110317, 40, 24)
-     , (2044, 67110317, 160, 8)
-     , (2044, 67110318, 216, 24)
-     , (2044, 67111304, 64, 8)
-     , (2044, 67117077, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2044, 0, 83889072, 83890012)
-     , (2044, 0, 83889342, 83890011)
-     , (2044, 1, 83887064, 83886241)
-     , (2044, 3, 83889344, 83887054)
-     , (2044, 4, 83887068, 83887054)
-     , (2044, 5, 83887064, 83886241)
-     , (2044, 7, 83889344, 83887054)
-     , (2044, 8, 83887068, 83887054)
-     , (2044, 9, 83887070, 83890009)
-     , (2044, 9, 83887062, 83890010)
-     , (2044, 10, 83887069, 83886782)
-     , (2044, 13, 83887069, 83886782)
-     , (2044, 16, 83886232, 83890685)
-     , (2044, 16, 83886668, 83890242)
-     , (2044, 16, 83886837, 83890294)
-     , (2044, 16, 83886684, 83890342);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2044, 0, 16781875)
-     , (2044, 1, 16778430)
-     , (2044, 2, 16778436)
-     , (2044, 3, 16778361)
-     , (2044, 4, 16778426)
-     , (2044, 5, 16778438)
-     , (2044, 6, 16778437)
-     , (2044, 7, 16778360)
-     , (2044, 8, 16778428)
-     , (2044, 9, 16778425)
-     , (2044, 10, 16778431)
-     , (2044, 11, 16778429)
-     , (2044, 12, 16778423)
-     , (2044, 13, 16778434)
-     , (2044, 14, 16778424)
-     , (2044, 15, 16778435)
-     , (2044, 16, 16795647);

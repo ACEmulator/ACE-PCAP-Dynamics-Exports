@@ -11,8 +11,7 @@ VALUES (41542,   1,        128) /* ItemType - Misc */
      , (41542,  19,          0) /* Value */
      , (41542,  33,          1) /* Bonded - Bonded */
      , (41542,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41542, 114,          1) /* Attuned - Attuned */
-     , (41542, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41542, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41542,  22, True ) /* Inscribable */
@@ -26,10 +25,4 @@ VALUES (41542,   1, 'Unstable Mana Stone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41542,   1,   33555641) /* Setup */
-     , (41542,   8,  100676402) /* Icon */
-     , (41542, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
-     , (41542, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41542, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41542, 8000, 2323350442) /* PCAPRecordedObjectIID */;
+     , (41542,   8,  100676402) /* Icon */;

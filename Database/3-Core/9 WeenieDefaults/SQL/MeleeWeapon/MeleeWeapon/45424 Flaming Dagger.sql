@@ -24,9 +24,7 @@ VALUES (45424,   1,          1) /* ItemType - MeleeWeapon */
      , (45424, 159,         45) /* WieldSkillType - LightWeapons */
      , (45424, 160,        250) /* WieldDifficulty */
      , (45424, 172,          1) /* AppraisalLongDescDecoration */
-     , (45424, 353,          6) /* WeaponType - Dagger */
-     , (45424, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45424, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45424, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45424,  22, True ) /* Inscribable */;
@@ -37,8 +35,7 @@ VALUES (45424,  21,       0) /* WeaponLength */
      , (45424,  26,       0) /* MaximumVelocity */
      , (45424,  29,    1.05) /* WeaponDefense */
      , (45424,  62,    1.04) /* WeaponOffense */
-     , (45424,  63,       1) /* DamageMod */
-     , (45424, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (45424,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45424,   1, 'Flaming Dagger') /* Name */
@@ -48,10 +45,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45424,   1,   33555716) /* Setup */
      , (45424,   3,  536870932) /* SoundTable */
      , (45424,   8,  100668876) /* Icon */
-     , (45424,  22,  872415275) /* PhysicsEffectTable */
-     , (45424, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45424, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45424, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45424, 8000, 2151959412) /* PCAPRecordedObjectIID */;
+     , (45424,  22,  872415275) /* PhysicsEffectTable */;

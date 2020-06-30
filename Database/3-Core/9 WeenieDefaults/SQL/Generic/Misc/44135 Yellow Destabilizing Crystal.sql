@@ -20,10 +20,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44135,   1,   33561099) /* Setup */
      , (44135,   3,  536870932) /* SoundTable */
      , (44135,   8,  100691972) /* Icon */
-     , (44135,  22,  872415275) /* PhysicsEffectTable */
-     , (44135, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
-     , (44135, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44135, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44135, 8000, 3632766047) /* PCAPRecordedObjectIID */;
+     , (44135,  22,  872415275) /* PhysicsEffectTable */;

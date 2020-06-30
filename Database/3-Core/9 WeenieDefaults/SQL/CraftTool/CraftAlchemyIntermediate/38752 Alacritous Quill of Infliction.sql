@@ -14,8 +14,7 @@ VALUES (38752,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38752,  18,          1) /* UiEffects - Magical */
      , (38752,  19,      50000) /* Value */
      , (38752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38752,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (38752, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38752,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38752,   1, 'Alacritous Quill of Infliction') /* Name */
@@ -24,11 +23,4 @@ VALUES (38752,   1, 'Alacritous Quill of Infliction') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38752,   1,   33559616) /* Setup */
      , (38752,   8,  100690196) /* Icon */
-     , (38752,  52,  100676440) /* IconUnderlay */
-     , (38752, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (38752, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (38752, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (38752, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38752, 8000, 2158698204) /* PCAPRecordedObjectIID */;
+     , (38752,  52,  100676440) /* IconUnderlay */;

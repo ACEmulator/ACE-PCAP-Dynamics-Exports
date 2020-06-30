@@ -11,15 +11,13 @@ VALUES (23571,   1,         16) /* ItemType - Creature */
      , (23571,  16,          1) /* ItemUseable - No */
      , (23571,  25,        220) /* Level */
      , (23571,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23571, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23571, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23571, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23571,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23571,   1, 'Virindi Quidiox') /* Name */
-     , (23571, 8006, 'AAA9AIAAAABSAAcAAACAPw==') /* PCAPRecordedCurrentMotionState */;
+VALUES (23571,   1, 'Virindi Quidiox') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23571,   1,   33556982) /* Setup */
@@ -27,17 +25,11 @@ VALUES (23571,   1,   33556982) /* Setup */
      , (23571,   3,  536870930) /* SoundTable */
      , (23571,   6,   67111346) /* PaletteBase */
      , (23571,   8,  100667943) /* Icon */
-     , (23571,  22,  872415273) /* PhysicsEffectTable */
-     , (23571, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23571, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23571, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (23571,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23571, 8040, 760217607, 18.47084, 150.8226, 3.352658, -0.7668005, 0, 0, -0.6418855) /* PCAPRecordedLocation */
 /* @teleloc 0x2D500007 [18.470840 150.822600 3.352658] -0.766801 0.000000 0.000000 -0.641886 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23571, 8000, 3695805738) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (23571,   1,     0, 0, 0, 5000) /* MaxHealth */;
@@ -524,12 +516,3 @@ VALUES (23571, 9, 45306,  0, 0, 0, False) /* Create Scroll of Recklessness Maste
      , (23571, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
      , (23571, 9, 28015,  0, 0, 0, False) /* Create Scroll of Spirit Pacification (28015) for ContainTreasure */
      , (23571, 9, 31812,  0, 0, 0, False) /* Create Slashing Slingshot (31812) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23571, 67113145, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (23571, 9, 83890028, 83890027);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (23571, 9, 16780702);

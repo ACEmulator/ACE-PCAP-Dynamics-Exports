@@ -16,8 +16,7 @@ VALUES (23593,   1,          4) /* ItemType - Clothing */
      , (23593, 107,       1320) /* ItemCurMana */
      , (23593, 108,       1320) /* ItemMaxMana */
      , (23593, 109,        100) /* ItemDifficulty */
-     , (23593, 151,          2) /* HookType - Wall */
-     , (23593, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23593, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23593,  22, True ) /* Inscribable */;
@@ -44,29 +43,8 @@ VALUES (23593,   1,   33554854) /* Setup */
      , (23593,   3,  536870932) /* SoundTable */
      , (23593,   6,   67108990) /* PaletteBase */
      , (23593,   8,  100674100) /* Icon */
-     , (23593,  22,  872415275) /* PhysicsEffectTable */
-     , (23593, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
-     , (23593, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23593, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23593, 8000, 2274290674) /* PCAPRecordedObjectIID */;
+     , (23593,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23593,  1330,      2) 
      , (23593,  1484,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23593, 67113393, 40, 40)
-     , (23593, 67113393, 80, 12)
-     , (23593, 67113393, 116, 12)
-     , (23593, 67113393, 96, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (23593, 0, 83887061, 83892348)
-     , (23593, 0, 83887060, 83892349)
-     , (23593, 0, 83889072, 83892345)
-     , (23593, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (23593, 0, 16778367);

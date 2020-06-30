@@ -12,8 +12,7 @@ VALUES (44714,   1,        128) /* ItemType - Misc */
      , (44714,  91,         50) /* MaxStructure */
      , (44714,  92,         50) /* Structure */
      , (44714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44714,  94,         16) /* TargetType - Creature */
-     , (44714, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44714,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44714,  22, True ) /* Inscribable */
@@ -29,21 +28,8 @@ VALUES (44714,   1, 'Greater Stamina Kit') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44714,   1,   33555194) /* Setup */
-     , (44714,   8,  100692115) /* Icon */
-     , (44714, 8001,    2624536) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, TargetType, Burden */
-     , (44714, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
-     , (44714, 8005,     163841) /* PCAPRecordedPhysicsDesc - CSetup, Position, AnimationFrame */;
+     , (44714,   8,  100692115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44714, 8040, 23855555, 56.77068, -40.34103, 0.0315, -0.6199058, 0, 0, -0.7846763) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.770680 -40.341030 0.031500] -0.619906 0.000000 0.000000 -0.784676 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44714, 8000, 3706806487) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44714, 0, 83889681, 83894377)
-     , (44714, 0, 83889682, 83894378);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44714, 0, 16779994);

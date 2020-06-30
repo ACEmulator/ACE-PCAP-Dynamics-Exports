@@ -40,16 +40,7 @@ VALUES (39108,   1,   33560398) /* Setup */
      , (39108,   6,   67109307) /* PaletteBase */
      , (39108,   8,  100689668) /* Icon */
      , (39108,  22,  872415275) /* PhysicsEffectTable */
-     , (39108,  28,       4206) /* Spell - ChewyCenter */
-     , (39108, 8001,  275280024) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (39108, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39108, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39108, 8000, 3681034118) /* PCAPRecordedObjectIID */;
+     , (39108,  28,       4206) /* Spell - ChewyCenter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39108,  4206,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39108, 67113822, 0, 0);

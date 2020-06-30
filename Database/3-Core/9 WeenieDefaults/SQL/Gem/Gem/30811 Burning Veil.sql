@@ -21,8 +21,7 @@ VALUES (30811,   1,       2048) /* ItemType - Gem */
      , (30811, 109,          0) /* ItemDifficulty */
      , (30811, 110,          0) /* ItemAllegianceRankLimit */
      , (30811, 114,          0) /* Attuned - Normal */
-     , (30811, 280,       1000) /* SharedCooldown */
-     , (30811, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30811, 280,       1000) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (30811, 167,      15) /* CooldownDuration */;
@@ -38,26 +37,7 @@ VALUES (30811,   1,   33554685) /* Setup */
      , (30811,   6,   67108990) /* PaletteBase */
      , (30811,   8,  100677493) /* Icon */
      , (30811,  22,  872415275) /* PhysicsEffectTable */
-     , (30811,  28,        157) /* Spell - SummonPortal1 */
-     , (30811, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (30811, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (30811, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (30811, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30811, 8000, 2192743722) /* PCAPRecordedObjectIID */;
+     , (30811,  28,        157) /* Spell - SummonPortal1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30811,   157,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30811, 67110021, 240, 10)
-     , (30811, 67110354, 250, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30811, 0, 83889687, 83889687)
-     , (30811, 0, 83889866, 83889866)
-     , (30811, 0, 83889824, 83889824);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30811, 0, 16778337);

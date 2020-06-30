@@ -19,14 +19,8 @@ VALUES (42991,   1, 'Timaru') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42991,   1,   33561061) /* Setup */
-     , (42991,   8,  100668115) /* Icon */
-     , (42991, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42991, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42991, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42991,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42991, 8040, 459067, 59.97, -174.899, 3.014, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0007013B [59.970000 -174.899000 3.014000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42991, 8000, 1879076940) /* PCAPRecordedObjectIID */;

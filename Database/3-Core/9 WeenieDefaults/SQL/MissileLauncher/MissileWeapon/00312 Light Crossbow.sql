@@ -33,9 +33,7 @@ VALUES (312,   1,        256) /* ItemType - MissileWeapon */
      , (312, 176,         47) /* AppraisalItemSkill */
      , (312, 177,          1) /* GemCount */
      , (312, 178,         32) /* GemType */
-     , (312, 353,          9) /* WeaponType - Crossbow */
-     , (312, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (312, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (312, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (312,  22, True ) /* Inscribable */;
@@ -58,19 +56,11 @@ VALUES (312,   1,   33554733) /* Setup */
      , (312,   3,  536870932) /* SoundTable */
      , (312,   6,   67111919) /* PaletteBase */
      , (312,   8,  100668846) /* Icon */
-     , (312,  22,  872415275) /* PhysicsEffectTable */
-     , (312, 8001,  270762776) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (312, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (312, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (312, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (312,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (312, 8040, 2536964131, 99.46177, 71.7042, 31.6138, 0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0x97370023 [99.461770 71.704200 31.613800] 0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (312, 8000, 3685862855) /* PCAPRecordedObjectIID */
-     , (312, 8008, 3685862881) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (312,  1353,      2) 
@@ -78,26 +68,3 @@ VALUES (312,  1353,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (312, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (312, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (312, 0, 83889233, 83889233)
-     , (312, 1, 83889240, 83889240)
-     , (312, 2, 83889240, 83889240)
-     , (312, 3, 83889240, 83889240)
-     , (312, 4, 83889240, 83889240)
-     , (312, 5, 83889240, 83889240)
-     , (312, 6, 83889240, 83889240);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (312, 0, 16779440)
-     , (312, 1, 16779462)
-     , (312, 2, 16779446)
-     , (312, 3, 16779444)
-     , (312, 4, 16779463)
-     , (312, 5, 16779539)
-     , (312, 6, 16779449)
-     , (312, 7, 16777708)
-     , (312, 8, 16777708);

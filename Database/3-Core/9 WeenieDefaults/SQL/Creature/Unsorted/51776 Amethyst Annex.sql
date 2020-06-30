@@ -34,8 +34,7 @@ VALUES (51776,   1,         16) /* ItemType - Creature */
      , (51776, 386,          0) /* Overpower */
      , (51776, 387,          0) /* OverpowerResist */
      , (51776, 388,          0) /* GearOverpower */
-     , (51776, 389,          0) /* GearOverpowerResist */
-     , (51776, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (51776, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51776,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51776,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51776,   1, 'Amethyst Annex') /* Name */
-     , (51776, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (51776,   1, 'Amethyst Annex') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51776,   1,   33559839) /* Setup */
      , (51776,   2,  150995147) /* MotionTable */
      , (51776,   3,  536871001) /* SoundTable */
      , (51776,   8,  100671324) /* Icon */
-     , (51776,  22,  872415273) /* PhysicsEffectTable */
-     , (51776, 8001,    9437206) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBlipColor, RadarBehavior */
-     , (51776, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (51776, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (51776,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51776, 8040, 1484259673, 310, -300, -59.9, -0.9981348, 0, 0, -0.06104899) /* PCAPRecordedLocation */
 /* @teleloc 0x58780159 [310.000000 -300.000000 -59.900000] -0.998135 0.000000 0.000000 -0.061049 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51776, 8000, 3632946289) /* PCAPRecordedObjectIID */;

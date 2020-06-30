@@ -9,8 +9,7 @@ VALUES (25770,   1,        128) /* ItemType - Misc */
      , (25770,  16,          1) /* ItemUseable - No */
      , (25770,  19,       6000) /* Value */
      , (25770,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25770, 151,          2) /* HookType - Wall */
-     , (25770, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25770, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25770,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (25770,   1, 'Gharu''ndim Hanging Rug') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25770,   1,   33558248) /* Setup */
-     , (25770,   8,  100675559) /* Icon */
-     , (25770, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (25770, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25770, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25770, 8000, 2166004570) /* PCAPRecordedObjectIID */;
+     , (25770,   8,  100675559) /* Icon */;

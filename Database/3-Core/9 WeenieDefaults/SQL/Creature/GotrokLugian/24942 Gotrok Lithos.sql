@@ -11,15 +11,13 @@ VALUES (24942,   1,         16) /* ItemType - Creature */
      , (24942,  16,          1) /* ItemUseable - No */
      , (24942,  25,         40) /* Level */
      , (24942,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24942, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (24942, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24942, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24942,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24942,   1, 'Gotrok Lithos') /* Name */
-     , (24942, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24942,   1, 'Gotrok Lithos') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24942,   1,   33557003) /* Setup */
@@ -27,17 +25,11 @@ VALUES (24942,   1,   33557003) /* Setup */
      , (24942,   3,  536870922) /* SoundTable */
      , (24942,   6,   67113158) /* PaletteBase */
      , (24942,   8,  100667447) /* Icon */
-     , (24942,  22,  872415262) /* PhysicsEffectTable */
-     , (24942, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24942, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24942, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (24942,  22,  872415262) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24942, 8040, 3543662598, 4.78173, 136.686, 169.799, -0.0815006, 0, 0, -0.996673) /* PCAPRecordedLocation */
 /* @teleloc 0xD3380006 [4.781730 136.686000 169.799000] -0.081501 0.000000 0.000000 -0.996673 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24942, 8000, 3690343991) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24942,   1, 250, 0, 0) /* Strength */
@@ -312,28 +304,3 @@ VALUES (24942, 2, 23755,  1, 0, 0, False) /* Create Lugian Hammer (23755) for Wi
      , (24942, 9,  2665,  0, 0, 0, False) /* Create Scroll of Enfeeble Other III (2665) for ContainTreasure */
      , (24942, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
      , (24942, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24942, 67113163, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24942, 0, 83893224, 83893222)
-     , (24942, 0, 83893231, 83893229)
-     , (24942, 2, 83893218, 83893216)
-     , (24942, 5, 83893218, 83893216)
-     , (24942, 7, 83893227, 83893226)
-     , (24942, 7, 83893214, 83893212)
-     , (24942, 9, 83893218, 83893216)
-     , (24942, 12, 83893218, 83893216)
-     , (24942, 19, 83893240, 83893240)
-     , (24942, 20, 83893240, 83893240);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24942, 0, 16785699)
-     , (24942, 2, 16785662)
-     , (24942, 5, 16785662)
-     , (24942, 7, 16785659)
-     , (24942, 9, 16785701)
-     , (24942, 12, 16785701)
-     , (24942, 19, 16785704)
-     , (24942, 20, 16785705);

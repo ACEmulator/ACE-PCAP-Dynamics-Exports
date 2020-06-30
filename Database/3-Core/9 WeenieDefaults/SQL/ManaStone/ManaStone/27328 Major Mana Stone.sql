@@ -11,8 +11,7 @@ VALUES (27328,   1,     524288) /* ItemType - ManaStone */
      , (27328,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27328,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (27328, 107,          0) /* ItemCurMana */
-     , (27328, 151,          2) /* HookType - Wall */
-     , (27328, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27328, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27328,  22, True ) /* Inscribable */;
@@ -27,13 +26,7 @@ VALUES (27328,   1, 'Major Mana Stone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27328,   1,   33555641) /* Setup */
-     , (27328,   8,  100676308) /* Icon */
-     , (27328, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
-     , (27328, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27328, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27328, 8000, 3688354817) /* PCAPRecordedObjectIID */;
+     , (27328,   8,  100676308) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27328, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */

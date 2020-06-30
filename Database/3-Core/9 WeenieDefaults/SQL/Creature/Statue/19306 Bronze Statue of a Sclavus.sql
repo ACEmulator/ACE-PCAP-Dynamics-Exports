@@ -12,21 +12,16 @@ VALUES (19306,   1,         16) /* ItemType - Creature */
      , (19306,  25,         40) /* Level */
      , (19306,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (19306, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19306, 307,          5) /* DamageRating */
-     , (19306, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19306, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19306,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (19306,  39,     2.3) /* DefaultScale */
-     , (19306, 8010,       0) /* PCAPRecordedVelocityX */
-     , (19306, 8011,       0) /* PCAPRecordedVelocityY */
-     , (19306, 8012,  -4.488) /* PCAPRecordedVelocityZ */;
+VALUES (19306,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19306,   1, 'Bronze Statue of a Sclavus') /* Name */
-     , (19306, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19306,   1, 'Bronze Statue of a Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19306,   1,   33555608) /* Setup */
@@ -34,17 +29,11 @@ VALUES (19306,   1,   33555608) /* Setup */
      , (19306,   3,  536871052) /* SoundTable */
      , (19306,   6,   67111936) /* PaletteBase */
      , (19306,   8,  100669120) /* Icon */
-     , (19306,  22,  872415349) /* PhysicsEffectTable */
-     , (19306, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19306, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19306, 8005,     104583) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, ObjScale, STable, PeTable, Position, Movement */;
+     , (19306,  22,  872415349) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19306, 8040, 1415119568, 108.553, -80.1361, 11.90079, 0.7059588, 0, 0, 0.7082528) /* PCAPRecordedLocation */
 /* @teleloc 0x545902D0 [108.553000 -80.136100 11.900790] 0.705959 0.000000 0.000000 0.708253 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19306, 8000, 3360318646) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (19306,   1, 190, 0, 0) /* Strength */
@@ -123,6 +112,3 @@ VALUES (19306, 2, 15873,  1, 0, 0, False) /* Create Bronze Longbow (15873) for W
      , (19306, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
      , (19306, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
      , (19306, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19306, 67113813, 0, 0);

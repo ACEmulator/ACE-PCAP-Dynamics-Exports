@@ -28,9 +28,7 @@ VALUES (31784,   1,          1) /* ItemType - MeleeWeapon */
      , (31784, 151,          2) /* HookType - Wall */
      , (31784, 172,          1) /* AppraisalLongDescDecoration */
      , (31784, 176,         46) /* AppraisalItemSkill */
-     , (31784, 353,          1) /* WeaponType - Unarmed */
-     , (31784, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31784, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31784, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31784,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (31784,   5,  -0.017) /* ManaRate */
      , (31784,  29,    1.01) /* WeaponDefense */
      , (31784,  39,    0.75) /* DefaultScale */
      , (31784,  62,    1.01) /* WeaponOffense */
-     , (31784,  63,       1) /* DamageMod */
-     , (31784, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (31784,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31784,   1, 'Claw') /* Name */
@@ -56,26 +53,8 @@ VALUES (31784,   1,   33559624) /* Setup */
      , (31784,   6,   67116700) /* PaletteBase */
      , (31784,   8,  100688082) /* Icon */
      , (31784,  22,  872415275) /* PhysicsEffectTable */
-     , (31784,  52,  100676444) /* IconUnderlay */
-     , (31784, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31784, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31784, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31784, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31784, 8000, 2174244924) /* PCAPRecordedObjectIID */;
+     , (31784,  52,  100676444) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31784,  1612,      2) 
      , (31784,  1623,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31784, 67116700, 1, 100)
-     , (31784, 67116700, 201, 55)
-     , (31784, 67116710, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31784, 0, 83897338, 83897338);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31784, 0, 16792615);

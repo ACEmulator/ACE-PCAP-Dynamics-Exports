@@ -17,8 +17,7 @@ VALUES (1048,   1,         16) /* ItemType - Creature */
      , (1048, 113,          1) /* Gender - Male */
      , (1048, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1048, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1048, 188,          2) /* HeritageGroup - Gharundim */
-     , (1048, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1048, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1048,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1048,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1048,   1, 'Jumzik al-Budim the Archmage') /* Name */
-     , (1048,   5, 'Archmage') /* Template */
-     , (1048, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1048,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1048,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1048,   1,   33554433) /* Setup */
      , (1048,  11,   83890629) /* MouthTexture */
      , (1048,  15,   67116994) /* HairPalette */
      , (1048,  16,   67109567) /* EyesPalette */
-     , (1048,  17,   67109552) /* SkinPalette */
-     , (1048, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1048, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1048, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1048,  17,   67109552) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1048, 8040, 2535588155, 124.224, 89.1925, 102.005, -0.6809869, 0, 0, -0.7322956) /* PCAPRecordedLocation */
 /* @teleloc 0x9722013B [124.224000 89.192500 102.005000] -0.680987 0.000000 0.000000 -0.732296 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1048, 8000, 2037522455) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1048,   1,  70, 0, 0) /* Strength */
@@ -186,57 +178,3 @@ VALUES (1048, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (1048, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (1048, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (1048, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1048, 67109552, 0, 24)
-     , (1048, 67109567, 32, 8)
-     , (1048, 67109969, 92, 4)
-     , (1048, 67110320, 216, 24)
-     , (1048, 67110349, 64, 8)
-     , (1048, 67110349, 160, 8)
-     , (1048, 67110349, 250, 6)
-     , (1048, 67110539, 72, 8)
-     , (1048, 67111245, 40, 24)
-     , (1048, 67116994, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1048, 0, 83889072, 83890012)
-     , (1048, 0, 83889342, 83890011)
-     , (1048, 1, 83887064, 83886241)
-     , (1048, 2, 83887066, 83887055)
-     , (1048, 3, 83889344, 83887054)
-     , (1048, 4, 83887068, 83887054)
-     , (1048, 5, 83887064, 83886241)
-     , (1048, 6, 83887066, 83887055)
-     , (1048, 7, 83889344, 83887054)
-     , (1048, 8, 83887068, 83887054)
-     , (1048, 9, 83887061, 83890009)
-     , (1048, 9, 83887060, 83890010)
-     , (1048, 10, 83887069, 83886782)
-     , (1048, 11, 83887067, 83891213)
-     , (1048, 13, 83887069, 83886782)
-     , (1048, 14, 83887067, 83891213)
-     , (1048, 16, 83886232, 83890685)
-     , (1048, 16, 83886668, 83890479)
-     , (1048, 16, 83886837, 83890537)
-     , (1048, 16, 83886684, 83890629)
-     , (1048, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1048, 0, 16781835)
-     , (1048, 1, 16777295)
-     , (1048, 2, 16777293)
-     , (1048, 3, 16777292)
-     , (1048, 4, 16781855)
-     , (1048, 5, 16777299)
-     , (1048, 6, 16777297)
-     , (1048, 7, 16777296)
-     , (1048, 8, 16781859)
-     , (1048, 9, 16777300)
-     , (1048, 10, 16777301)
-     , (1048, 11, 16777302)
-     , (1048, 12, 16777304)
-     , (1048, 13, 16777303)
-     , (1048, 14, 16777305)
-     , (1048, 15, 16777307)
-     , (1048, 16, 16778594);

@@ -22,8 +22,7 @@ VALUES (51867,   1,          4) /* ItemType - Clothing */
      , (51867, 265,         68) /* EquipmentSetId - CloakMagicDefense */
      , (51867, 319,          4) /* ItemMaxLevel */
      , (51867, 320,          2) /* ItemXpStyle - ScalesWithLevel */
-     , (51867, 352,          1) /* CloakWeaveProc */
-     , (51867, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (51867, 352,          1) /* CloakWeaveProc */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (51867,   4, 1338395980) /* ItemTotalXp */
@@ -53,16 +52,7 @@ VALUES (51867,   1,   33561386) /* Setup */
      , (51867,   8,  100693224) /* Icon */
      , (51867,  22,  872415275) /* PhysicsEffectTable */
      , (51867,  50,  100690999) /* IconOverlay */
-     , (51867,  55,       6151) /* ProcSpell - LightningRingRed */
-     , (51867, 8001, 1076183192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, IconOverlay */
-     , (51867, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (51867, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51867, 8000, 2153074325) /* PCAPRecordedObjectIID */;
+     , (51867,  55,       6151) /* ProcSpell - LightningRingRed */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (51867,  6151,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (51867, 0, 16797044);

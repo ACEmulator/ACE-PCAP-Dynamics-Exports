@@ -20,8 +20,7 @@ VALUES (47,   1,          2) /* ItemType - Armor */
      , (47, 109,          2) /* ItemDifficulty */
      , (47, 110,          0) /* ItemAllegianceRankLimit */
      , (47, 115,          0) /* ItemSkillLevelLimit */
-     , (47, 131,         53) /* MaterialType - ArmoredilloHide */
-     , (47, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (47, 131,         53) /* MaterialType - ArmoredilloHide */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47,  22, True ) /* Inscribable */
@@ -36,8 +35,7 @@ VALUES (47,   5,  -0.008) /* ManaRate */
      , (47,  17,     0.5) /* ArmorModVsFire */
      , (47,  18,     0.3) /* ArmorModVsAcid */
      , (47,  19,     0.6) /* ArmorModVsElectric */
-     , (47, 165,       1) /* ArmorModVsNether */
-     , (47, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (47, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47,   1, 'Leather Coat') /* Name */
@@ -48,34 +46,7 @@ VALUES (47,   1,   33554644) /* Setup */
      , (47,   3,  536870932) /* SoundTable */
      , (47,   6,   67108990) /* PaletteBase */
      , (47,   8,  100667375) /* Icon */
-     , (47,  22,  872415275) /* PhysicsEffectTable */
-     , (47, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (47, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (47, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47, 8000, 2917029927) /* PCAPRecordedObjectIID */;
+     , (47,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (47,    51,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (47, 67110026, 80, 12)
-     , (47, 67110026, 92, 4)
-     , (47, 67110026, 96, 12)
-     , (47, 67110026, 116, 12)
-     , (47, 67110320, 72, 8)
-     , (47, 67110320, 108, 8)
-     , (47, 67110320, 128, 8)
-     , (47, 67110320, 174, 66);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (47, 0, 83887061, 83886692)
-     , (47, 0, 83887060, 83886776)
-     , (47, 0, 83889072, 83889912)
-     , (47, 0, 83889342, 83889912)
-     , (47, 0, 83886788, 83886794)
-     , (47, 0, 83886796, 83886791);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (47, 0, 16778356);

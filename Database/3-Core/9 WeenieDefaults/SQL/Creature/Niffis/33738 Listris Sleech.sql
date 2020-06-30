@@ -11,8 +11,7 @@ VALUES (33738,   1,         16) /* ItemType - Creature */
      , (33738,  16,          1) /* ItemUseable - No */
      , (33738,  25,        200) /* Level */
      , (33738,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (33738, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (33738, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33738, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33738,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33738,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33738,   1, 'Listris Sleech') /* Name */
-     , (33738, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (33738,   1, 'Listris Sleech') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33738,   1,   33559712) /* Setup */
@@ -30,17 +28,11 @@ VALUES (33738,   1,   33559712) /* Setup */
      , (33738,   3,  536871010) /* SoundTable */
      , (33738,   6,   67116764) /* PaletteBase */
      , (33738,   8,  100670961) /* Icon */
-     , (33738,  22,  872415416) /* PhysicsEffectTable */
-     , (33738, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (33738, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33738, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (33738,  22,  872415416) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33738, 8040, 3354132499, 53.97815, 51.90975, 2, 0.3195687, 0, 0, -0.9475631) /* PCAPRecordedLocation */
 /* @teleloc 0xC7EC0013 [53.978150 51.909750 2.000000] 0.319569 0.000000 0.000000 -0.947563 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33738, 8000, 3359851146) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (33738,   1, 370, 0, 0) /* Strength */
@@ -77,6 +69,3 @@ VALUES (33738, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for
      , (33738, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (33738, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
      , (33738, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33738, 67116768, 0, 0);

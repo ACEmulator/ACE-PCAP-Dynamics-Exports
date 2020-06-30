@@ -20,32 +20,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28894,   1,   33558998) /* Setup */
      , (28894,   3,  536870932) /* SoundTable */
      , (28894,   8,  100677087) /* Icon */
-     , (28894,  22,  872415275) /* PhysicsEffectTable */
-     , (28894, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
-     , (28894, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28894, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28894, 8000, 2979050478) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28894, 0, 83892706, 83892847)
-     , (28894, 0, 83892707, 83892847)
-     , (28894, 1, 83892710, 83892850)
-     , (28894, 1, 83892711, 83892721)
-     , (28894, 2, 83892709, 83892849)
-     , (28894, 3, 83892708, 83892848)
-     , (28894, 4, 83892709, 83892849)
-     , (28894, 5, 83892708, 83892848)
-     , (28894, 6, 83892712, 83892727)
-     , (28894, 6, 83892719, 83892724)
-     , (28894, 6, 83892718, 83892725);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28894, 0, 16784901)
-     , (28894, 1, 16790868)
-     , (28894, 2, 16790866)
-     , (28894, 3, 16790870)
-     , (28894, 4, 16790866)
-     , (28894, 5, 16790869)
-     , (28894, 6, 16784926);
+     , (28894,  22,  872415275) /* PhysicsEffectTable */;

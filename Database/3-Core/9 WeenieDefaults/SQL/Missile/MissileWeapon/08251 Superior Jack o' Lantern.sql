@@ -20,9 +20,7 @@ VALUES (8251,   1,        256) /* ItemType - MissileWeapon */
      , (8251,  51,          2) /* CombatUse - Missle */
      , (8251,  93,     134164) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn, Inelastic */
      , (8251, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (8251, 353,         10) /* WeaponType - Thrown */
-     , (8251, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (8251, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8251, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8251,  69, False) /* IsSellable */;
@@ -47,19 +45,4 @@ VALUES (8251,   1,   33556812) /* Setup */
      , (8251,   3,  536870932) /* SoundTable */
      , (8251,   6,   67112968) /* PaletteBase */
      , (8251,   8,  100671019) /* Icon */
-     , (8251,  22,  872415275) /* PhysicsEffectTable */
-     , (8251, 8001,  270627353) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
-     , (8251, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (8251, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8251, 8000, 2461689437) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8251, 67112976, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8251, 0, 83892725, 83892725);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8251, 0, 16784961);
+     , (8251,  22,  872415275) /* PhysicsEffectTable */;

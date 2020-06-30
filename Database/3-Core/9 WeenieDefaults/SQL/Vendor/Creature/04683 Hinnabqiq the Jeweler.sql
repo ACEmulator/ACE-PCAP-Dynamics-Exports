@@ -17,8 +17,7 @@ VALUES (4683,   1,         16) /* ItemType - Creature */
      , (4683, 113,          1) /* Gender - Male */
      , (4683, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4683, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4683, 188,          2) /* HeritageGroup - Gharundim */
-     , (4683, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4683, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4683,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4683,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4683,   1, 'Hinnabqiq the Jeweler') /* Name */
-     , (4683,   5, 'Jeweler') /* Template */
-     , (4683, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4683,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4683,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4683,   1,   33554433) /* Setup */
      , (4683,  11,   83890620) /* MouthTexture */
      , (4683,  15,   67117080) /* HairPalette */
      , (4683,  16,   67110063) /* EyesPalette */
-     , (4683,  17,   67109557) /* SkinPalette */
-     , (4683, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4683, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4683, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4683,  17,   67109557) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4683, 8040, 2421686579, 50.9855, 65.1891, 0.004999995, 0.8054388, 0, 0, -0.5926789) /* PCAPRecordedLocation */
 /* @teleloc 0x90580133 [50.985500 65.189100 0.005000] 0.805439 0.000000 0.000000 -0.592679 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4683, 8000, 2030403596) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4683,   1,  90, 0, 0) /* Strength */
@@ -92,53 +84,3 @@ VALUES (4683, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
      , (4683, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4683, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (4683, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4683, 67109557, 0, 24)
-     , (4683, 67109969, 92, 4)
-     , (4683, 67110026, 72, 8)
-     , (4683, 67110063, 32, 8)
-     , (4683, 67110320, 64, 8)
-     , (4683, 67110356, 216, 24)
-     , (4683, 67110363, 250, 6)
-     , (4683, 67111245, 40, 24)
-     , (4683, 67111245, 160, 8)
-     , (4683, 67117080, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4683, 0, 83889072, 83890012)
-     , (4683, 0, 83889342, 83890011)
-     , (4683, 1, 83887064, 83886241)
-     , (4683, 3, 83889344, 83887054)
-     , (4683, 4, 83887068, 83887054)
-     , (4683, 5, 83887064, 83886241)
-     , (4683, 7, 83889344, 83887054)
-     , (4683, 8, 83887068, 83887054)
-     , (4683, 9, 83887061, 83890009)
-     , (4683, 9, 83887060, 83890010)
-     , (4683, 10, 83887069, 83886782)
-     , (4683, 13, 83887069, 83886782)
-     , (4683, 16, 83886232, 83890359)
-     , (4683, 16, 83886668, 83890491)
-     , (4683, 16, 83886837, 83890559)
-     , (4683, 16, 83886684, 83890620)
-     , (4683, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4683, 0, 16781835)
-     , (4683, 1, 16781848)
-     , (4683, 2, 16777293)
-     , (4683, 3, 16777292)
-     , (4683, 4, 16781855)
-     , (4683, 5, 16781847)
-     , (4683, 6, 16777297)
-     , (4683, 7, 16777296)
-     , (4683, 8, 16781859)
-     , (4683, 9, 16777300)
-     , (4683, 10, 16777301)
-     , (4683, 11, 16777302)
-     , (4683, 12, 16777304)
-     , (4683, 13, 16777303)
-     , (4683, 14, 16777305)
-     , (4683, 15, 16777307)
-     , (4683, 16, 16778594);

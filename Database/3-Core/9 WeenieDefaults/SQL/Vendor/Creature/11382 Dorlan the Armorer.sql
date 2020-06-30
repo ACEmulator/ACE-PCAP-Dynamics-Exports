@@ -18,8 +18,7 @@ VALUES (11382,   1,         16) /* ItemType - Creature */
      , (11382, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11382, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (11382, 188,          1) /* HeritageGroup - Aluvian */
-     , (11382, 307,          5) /* DamageRating */
-     , (11382, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11382, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11382,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (11382,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11382,   1, 'Dorlan the Armorer') /* Name */
-     , (11382,   5, 'Armorer') /* Template */
-     , (11382, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (11382,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11382,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (11382,   1,   33554433) /* Setup */
      , (11382,  11,   83890630) /* MouthTexture */
      , (11382,  15,   67117023) /* HairPalette */
      , (11382,  16,   67109567) /* EyesPalette */
-     , (11382,  17,   67109561) /* SkinPalette */
-     , (11382, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11382, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11382, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (11382,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11382, 8040, 565182749, 4.88733, 87.0228, -0.2950001, 0.9255625, 0, 0, -0.3785948) /* PCAPRecordedLocation */
 /* @teleloc 0x21B0011D [4.887330 87.022800 -0.295000] 0.925563 0.000000 0.000000 -0.378595 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11382, 8000, 1914372107) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11382,   1, 130, 0, 0) /* Strength */
@@ -110,53 +102,3 @@ VALUES (11382, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield 
      , (11382, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (11382, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (11382, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11382, 67109561, 0, 24)
-     , (11382, 67109567, 32, 8)
-     , (11382, 67109966, 92, 4)
-     , (11382, 67110337, 216, 24)
-     , (11382, 67110347, 64, 8)
-     , (11382, 67110389, 40, 24)
-     , (11382, 67110389, 160, 8)
-     , (11382, 67110539, 72, 8)
-     , (11382, 67117023, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11382, 0, 83889072, 83890012)
-     , (11382, 0, 83889342, 83890011)
-     , (11382, 1, 83887064, 83886241)
-     , (11382, 2, 83887066, 83887055)
-     , (11382, 3, 83889344, 83887054)
-     , (11382, 4, 83887068, 83887054)
-     , (11382, 5, 83887064, 83886241)
-     , (11382, 6, 83887066, 83887055)
-     , (11382, 7, 83889344, 83887054)
-     , (11382, 8, 83887068, 83887054)
-     , (11382, 9, 83887061, 83890009)
-     , (11382, 9, 83887060, 83890010)
-     , (11382, 10, 83887069, 83886782)
-     , (11382, 13, 83887069, 83886782)
-     , (11382, 16, 83886232, 83890685)
-     , (11382, 16, 83886668, 83890513)
-     , (11382, 16, 83886837, 83890558)
-     , (11382, 16, 83886684, 83890630);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11382, 0, 16781835)
-     , (11382, 1, 16777295)
-     , (11382, 2, 16777293)
-     , (11382, 3, 16777292)
-     , (11382, 4, 16777291)
-     , (11382, 5, 16777299)
-     , (11382, 6, 16777297)
-     , (11382, 7, 16777296)
-     , (11382, 8, 16777298)
-     , (11382, 9, 16777300)
-     , (11382, 10, 16777301)
-     , (11382, 11, 16777302)
-     , (11382, 12, 16777304)
-     , (11382, 13, 16777303)
-     , (11382, 14, 16777305)
-     , (11382, 15, 16777307)
-     , (11382, 16, 16795640);

@@ -12,8 +12,7 @@ VALUES (44363,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44363,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44363,  19,       1500) /* Value */
      , (44363,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44363,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (44363, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44363,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44363,   1, 'Bundle of Greater Deadly Frog Crotch Arrowheads') /* Name */
@@ -24,10 +23,4 @@ VALUES (44363,   1,   33555958) /* Setup */
      , (44363,   3,  536870932) /* SoundTable */
      , (44363,   8,  100672673) /* Icon */
      , (44363,  22,  872415275) /* PhysicsEffectTable */
-     , (44363,  50,  100689661) /* IconOverlay */
-     , (44363, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
-     , (44363, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44363, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44363, 8000, 3708512130) /* PCAPRecordedObjectIID */;
+     , (44363,  50,  100689661) /* IconOverlay */;

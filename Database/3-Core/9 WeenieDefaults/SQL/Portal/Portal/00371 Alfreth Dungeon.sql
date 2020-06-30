@@ -8,8 +8,7 @@ VALUES (371,   1,      65536) /* ItemType - Portal */
      , (371,  16,         32) /* ItemUseable - Remote */
      , (371,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (371, 111,          1) /* PortalBitmask - Unrestricted */
-     , (371, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (371, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (371, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (371,   1, True ) /* Stuck */;
@@ -18,20 +17,13 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (371,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (371,   1, 'Alfreth Dungeon') /* Name */
-     , (371, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (371,   1, 'Alfreth Dungeon') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (371,   1,   33554867) /* Setup */
      , (371,   2,  150994947) /* MotionTable */
-     , (371,   8,  100667499) /* Icon */
-     , (371, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (371, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (371, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (371,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (371, 8040, 2409168953, 184, 8.2, 92.67033, 0.390731, 0, 0, -0.9205049) /* PCAPRecordedLocation */
 /* @teleloc 0x8F990039 [184.000000 8.200000 92.670330] 0.390731 0.000000 0.000000 -0.920505 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (371, 8000, 2029621248) /* PCAPRecordedObjectIID */;

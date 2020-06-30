@@ -11,15 +11,13 @@ VALUES (41191,   1,         16) /* ItemType - Creature */
      , (41191,  16,          1) /* ItemUseable - No */
      , (41191,  25,        220) /* Level */
      , (41191,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (41191, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41191, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (41191, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41191,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41191,   1, 'Apostate Excavation Foreman') /* Name */
-     , (41191, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (41191,   1, 'Apostate Excavation Foreman') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41191,   1,   33561076) /* Setup */
@@ -27,17 +25,11 @@ VALUES (41191,   1,   33561076) /* Setup */
      , (41191,   3,  536870930) /* SoundTable */
      , (41191,   6,   67111346) /* PaletteBase */
      , (41191,   8,  100667943) /* Icon */
-     , (41191,  22,  872415273) /* PhysicsEffectTable */
-     , (41191, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (41191, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (41191, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (41191,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41191, 8040, 962593174, 317.398, -65.503, -15.571, 0.7727223, 0, 0, 0.6347442) /* PCAPRecordedLocation */
 /* @teleloc 0x39600196 [317.398000 -65.503000 -15.571000] 0.772722 0.000000 0.000000 0.634744 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41191, 8000, 3703427016) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (41191,   1,     0, 0, 0, 3000) /* MaxHealth */;
@@ -76,6 +68,3 @@ VALUES (41191, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTrea
      , (41191, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
      , (41191, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
      , (41191, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41191, 67113145, 0, 0);

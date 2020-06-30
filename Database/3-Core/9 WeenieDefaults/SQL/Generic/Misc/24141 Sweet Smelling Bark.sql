@@ -10,17 +10,13 @@ VALUES (24141,   1,        128) /* ItemType - Misc */
      , (24141,  19,         10) /* Value */
      , (24141,  33,          1) /* Bonded - Bonded */
      , (24141,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24141, 114,          1) /* Attuned - Attuned */
-     , (24141, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (24141, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24141,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24141,  39,     0.5) /* DefaultScale */
-     , (24141, 8010,       0) /* PCAPRecordedVelocityX */
-     , (24141, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24141, 8012,  -0.193) /* PCAPRecordedVelocityZ */;
+VALUES (24141,  39,     0.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24141,   1, 'Sweet Smelling Bark') /* Name */
@@ -30,14 +26,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24141,   1,   33558322) /* Setup */
      , (24141,   3,  536870932) /* SoundTable */
      , (24141,   8,  100676644) /* Icon */
-     , (24141,  22,  872415275) /* PhysicsEffectTable */
-     , (24141, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (24141, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (24141, 8005,     170117) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (24141,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24141, 8040, 288620588, 136.348, 79.509, 51, 0.901436, 0, 0, -0.432912) /* PCAPRecordedLocation */
 /* @teleloc 0x1134002C [136.348000 79.509000 51.000000] 0.901436 0.000000 0.000000 -0.432912 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24141, 8000, 3692726508) /* PCAPRecordedObjectIID */;

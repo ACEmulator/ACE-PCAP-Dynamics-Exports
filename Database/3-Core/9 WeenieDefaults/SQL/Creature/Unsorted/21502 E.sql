@@ -33,8 +33,7 @@ VALUES (21502,   1,         16) /* ItemType - Creature */
      , (21502, 386,          0) /* Overpower */
      , (21502, 387,          0) /* OverpowerResist */
      , (21502, 388,          0) /* GearOverpower */
-     , (21502, 389,          0) /* GearOverpowerResist */
-     , (21502, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (21502, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21502,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (21502,  39,     1.2) /* DefaultScale */
      , (21502,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21502,   1, 'E') /* Name */
-     , (21502, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (21502,   1, 'E') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21502,   1,   33555351) /* Setup */
      , (21502,   2,  150995147) /* MotionTable */
      , (21502,   3,  536871052) /* SoundTable */
      , (21502,   8,  100667624) /* Icon */
-     , (21502,  22,  872415274) /* PhysicsEffectTable */
-     , (21502, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (21502, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (21502, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (21502,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21502, 8040, 1481769372, 16.47, -109.876, 0, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5852019C [16.470000 -109.876000 0.000000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21502, 8000, 3702335546) /* PCAPRecordedObjectIID */;

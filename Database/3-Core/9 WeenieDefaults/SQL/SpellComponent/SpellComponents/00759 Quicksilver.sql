@@ -12,8 +12,7 @@ VALUES (759,   1,       4096) /* ItemType - SpellComponents */
      , (759,  15,          5) /* StackUnitValue */
      , (759,  16,          1) /* ItemUseable - No */
      , (759,  19,          5) /* Value */
-     , (759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (759, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (759,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (759,   1, 'Quicksilver') /* Name */
@@ -24,19 +23,4 @@ VALUES (759,   1,   33555209) /* Setup */
      , (759,   3,  536870932) /* SoundTable */
      , (759,   6,   67111919) /* PaletteBase */
      , (759,   8,  100668370) /* Icon */
-     , (759,  22,  872415275) /* PhysicsEffectTable */
-     , (759, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (759, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (759, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (759, 8000, 2856726423) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (759, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (759, 0, 83890051, 83890051);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (759, 0, 16780684);
+     , (759,  22,  872415275) /* PhysicsEffectTable */;

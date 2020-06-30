@@ -33,8 +33,7 @@ VALUES (44918,   1,         16) /* ItemType - Creature */
      , (44918, 386,          0) /* Overpower */
      , (44918, 387,          0) /* OverpowerResist */
      , (44918, 388,          0) /* GearOverpower */
-     , (44918, 389,          0) /* GearOverpowerResist */
-     , (44918, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44918, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44918,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (44918,  39,     0.5) /* DefaultScale */
      , (44918,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44918,   1, 'Warden of Lowering Coordination') /* Name */
-     , (44918, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (44918,   1, 'Warden of Lowering Coordination') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44918,   1,   33555352) /* Setup */
      , (44918,   2,  150995147) /* MotionTable */
      , (44918,   3,  536871052) /* SoundTable */
      , (44918,   8,  100667624) /* Icon */
-     , (44918,  22,  872415274) /* PhysicsEffectTable */
-     , (44918, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (44918, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (44918, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (44918,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44918, 8040, 3600351239, 8.347, 167.776, 374, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [8.347000 167.776000 374.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44918, 8000, 3692312722) /* PCAPRecordedObjectIID */;

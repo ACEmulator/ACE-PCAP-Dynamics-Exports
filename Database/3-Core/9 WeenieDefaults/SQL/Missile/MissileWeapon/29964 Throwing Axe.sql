@@ -24,8 +24,7 @@ VALUES (29964,   1,        256) /* ItemType - MissileWeapon */
      , (29964, 313,          0) /* CritRating */
      , (29964, 314,          0) /* CritDamageRating */
      , (29964, 353,         10) /* WeaponType - Thrown */
-     , (29964, 386,          0) /* Overpower */
-     , (29964, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (29964, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29964,  21,       0) /* WeaponLength */
@@ -46,19 +45,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29964,   1,   33559306) /* Setup */
      , (29964,   3,  536870932) /* SoundTable */
      , (29964,   8,  100686568) /* Icon */
-     , (29964,  22,  872415275) /* PhysicsEffectTable */
-     , (29964, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (29964, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (29964, 8005,      39713) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position */
-     , (29964, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (29964,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29964, 8040, 1156775979, 130.8156, 50.47625, 83.93079, 0.08047369, 0.08047369, 0.7025126, 0.7025126) /* PCAPRecordedLocation */
 /* @teleloc 0x44F3002B [130.815600 50.476250 83.930790] 0.080474 0.080474 0.702513 0.702513 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29964, 8000, 3690108556) /* PCAPRecordedObjectIID */
-     , (29964, 8008, 3690108514) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29964, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

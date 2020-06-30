@@ -19,14 +19,8 @@ VALUES (12667,   1, 'Tou-Tou Penninsula Cottages') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12667,   1,   33557463) /* Setup */
-     , (12667,   8,  100668115) /* Icon */
-     , (12667, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (12667, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (12667, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (12667,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12667, 8040, 4065263652, 114.709, 81.3215, 20, 0.692004, 0, 0, 0.721894) /* PCAPRecordedLocation */
 /* @teleloc 0xF24F0024 [114.709000 81.321500 20.000000] 0.692004 0.000000 0.000000 0.721894 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12667, 8000, 2133127493) /* PCAPRecordedObjectIID */;

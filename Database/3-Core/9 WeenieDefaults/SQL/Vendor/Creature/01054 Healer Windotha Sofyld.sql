@@ -17,8 +17,7 @@ VALUES (1054,   1,         16) /* ItemType - Creature */
      , (1054, 113,          2) /* Gender - Female */
      , (1054, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1054, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1054, 188,          1) /* HeritageGroup - Aluvian */
-     , (1054, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1054, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1054,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1054,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1054,   1, 'Healer Windotha Sofyld') /* Name */
-     , (1054,   5, 'Healer') /* Template */
-     , (1054, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1054,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1054,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1054,   1,   33554510) /* Setup */
      , (1054,  11,   83890353) /* MouthTexture */
      , (1054,  15,   67116992) /* HairPalette */
      , (1054,  16,   67109565) /* EyesPalette */
-     , (1054,  17,   67109562) /* SkinPalette */
-     , (1054, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1054, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1054, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1054,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1054, 8040, 2535588161, 137.644, 79.4369, 102.005, -0.746886, 0, 0, -0.6649522) /* PCAPRecordedLocation */
 /* @teleloc 0x97220141 [137.644000 79.436900 102.005000] -0.746886 0.000000 0.000000 -0.664952 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1054, 8000, 2037522456) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1054,   1, 100, 0, 0) /* Strength */
@@ -93,53 +85,3 @@ VALUES (1054, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (1054, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (1054, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
      , (1054, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1054, 67109562, 0, 24)
-     , (1054, 67109565, 32, 8)
-     , (1054, 67109966, 92, 4)
-     , (1054, 67110026, 72, 8)
-     , (1054, 67110354, 64, 8)
-     , (1054, 67110359, 40, 24)
-     , (1054, 67110378, 160, 8)
-     , (1054, 67111245, 216, 24)
-     , (1054, 67116992, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1054, 0, 83889072, 83890012)
-     , (1054, 0, 83889342, 83890011)
-     , (1054, 1, 83887064, 83886241)
-     , (1054, 2, 83887066, 83887055)
-     , (1054, 3, 83889344, 83887054)
-     , (1054, 4, 83887068, 83887054)
-     , (1054, 5, 83887064, 83886241)
-     , (1054, 6, 83887066, 83887055)
-     , (1054, 7, 83889344, 83887054)
-     , (1054, 8, 83887068, 83887054)
-     , (1054, 9, 83887070, 83890009)
-     , (1054, 9, 83887062, 83890010)
-     , (1054, 10, 83887069, 83886782)
-     , (1054, 13, 83887069, 83886782)
-     , (1054, 16, 83886232, 83890685)
-     , (1054, 16, 83886668, 83890275)
-     , (1054, 16, 83886837, 83890309)
-     , (1054, 16, 83886684, 83890353);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1054, 0, 16781875)
-     , (1054, 1, 16778430)
-     , (1054, 2, 16778436)
-     , (1054, 3, 16778361)
-     , (1054, 4, 16778426)
-     , (1054, 5, 16778438)
-     , (1054, 6, 16778437)
-     , (1054, 7, 16778360)
-     , (1054, 8, 16778428)
-     , (1054, 9, 16778425)
-     , (1054, 10, 16778431)
-     , (1054, 11, 16778429)
-     , (1054, 12, 16778423)
-     , (1054, 13, 16778434)
-     , (1054, 14, 16778424)
-     , (1054, 15, 16778435)
-     , (1054, 16, 16795662);

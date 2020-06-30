@@ -13,8 +13,7 @@ VALUES (35403,   1,      16384) /* ItemType - Key */
      , (35403,  92,          1) /* Structure */
      , (35403,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35403,  94,        640) /* TargetType - LockableMagicTarget */
-     , (35403, 114,          1) /* Attuned - Attuned */
-     , (35403, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35403, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35403,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (35403,   1, 'Lady Tairla Mhoire''s Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35403,   1,   33554784) /* Setup */
      , (35403,   8,  100667485) /* Icon */
-     , (35403,  22,  872415275) /* PhysicsEffectTable */
-     , (35403, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (35403, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35403, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35403, 8000, 3455188086) /* PCAPRecordedObjectIID */;
+     , (35403,  22,  872415275) /* PhysicsEffectTable */;

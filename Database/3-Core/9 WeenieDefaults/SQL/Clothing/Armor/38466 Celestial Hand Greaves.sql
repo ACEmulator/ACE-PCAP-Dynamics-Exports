@@ -28,8 +28,7 @@ VALUES (38466,   1,          2) /* ItemType - Armor */
      , (38466, 171,         10) /* NumTimesTinkered */
      , (38466, 172,          3) /* AppraisalLongDescDecoration */
      , (38466, 176,          6) /* AppraisalItemSkill */
-     , (38466, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38466, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38466, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38466,  22, True ) /* Inscribable */
@@ -46,8 +45,7 @@ VALUES (38466,   5,  -0.056) /* ManaRate */
      , (38466,  18,     2.6) /* ArmorModVsAcid */
      , (38466,  19,   3.204) /* ArmorModVsElectric */
      , (38466,  39,    1.33) /* DefaultScale */
-     , (38466, 165,       1) /* ArmorModVsNether */
-     , (38466, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (38466, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38466,   1, 'Celestial Hand Greaves') /* Name */
@@ -60,21 +58,9 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38466,   1,   33554641) /* Setup */
      , (38466,   3,  536870932) /* SoundTable */
      , (38466,   8,  100690166) /* Icon */
-     , (38466,  22,  872415275) /* PhysicsEffectTable */
-     , (38466, 8001, 2166849688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, Workmanship, MaterialType */
-     , (38466, 8003,   16777234) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained */
-     , (38466, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38466, 8000, 3231352861) /* PCAPRecordedObjectIID */;
+     , (38466,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38466,  2092,      2) 
      , (38466,  2108,      2) 
      , (38466,  2574,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38466, 0, 83886788, 83897929);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38466, 0, 16778411);

@@ -11,8 +11,7 @@ VALUES (182,   1,         16) /* ItemType - Creature */
      , (182,  16,          1) /* ItemUseable - No */
      , (182,  25,          8) /* Level */
      , (182,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (182, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (182, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (182, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (182,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (182,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (182,   1, 'Auroch Yearling') /* Name */
-     , (182, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (182,   1, 'Auroch Yearling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (182,   1,   33555220) /* Setup */
@@ -30,17 +28,11 @@ VALUES (182,   1,   33555220) /* Setup */
      , (182,   3,  536870916) /* SoundTable */
      , (182,   6,   67109302) /* PaletteBase */
      , (182,   8,  100667936) /* Icon */
-     , (182,  22,  872415254) /* PhysicsEffectTable */
-     , (182, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (182, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (182, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (182,  22,  872415254) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (182, 8040, 3043885061, 6.585045, 117.797, 38.34996, -0.4023804, 0, 0, -0.9154726) /* PCAPRecordedLocation */
 /* @teleloc 0xB56E0005 [6.585045 117.797000 38.349960] -0.402380 0.000000 0.000000 -0.915473 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (182, 8000, 3685094539) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (182,   1, 125, 0, 0) /* Strength */
@@ -92,6 +84,3 @@ VALUES (182, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasu
      , (182, 9,  2857,  0, 0, 0, False) /* Create Scroll of Lightning Lure II (2857) for ContainTreasure */
      , (182, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
      , (182, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (182, 67111323, 0, 0);

@@ -28,8 +28,7 @@ VALUES (31814,   1,        256) /* ItemType - MissileWeapon */
      , (31814, 177,          4) /* GemCount */
      , (31814, 178,         16) /* GemType */
      , (31814, 204,         13) /* ElementalDamageBonus */
-     , (31814, 353,         10) /* WeaponType - Thrown */
-     , (31814, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31814, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31814,  22, True ) /* Inscribable */;
@@ -41,8 +40,7 @@ VALUES (31814,  21,       0) /* WeaponLength */
      , (31814,  29,    1.15) /* WeaponDefense */
      , (31814,  39,     1.1) /* DefaultScale */
      , (31814,  62,       1) /* WeaponOffense */
-     , (31814,  63,    2.43) /* DamageMod */
-     , (31814, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (31814,  63,    2.43) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31814,   1, 'Dark Blunt Slingshot') /* Name */
@@ -55,22 +53,8 @@ VALUES (31814,   1,   33559696) /* Setup */
      , (31814,   8,  100688028) /* Icon */
      , (31814,  22,  872415275) /* PhysicsEffectTable */
      , (31814,  50,  100675757) /* IconOverlay */
-     , (31814,  52,  100676442) /* IconUnderlay */
-     , (31814, 8001, 3508765592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (31814, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31814, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31814, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31814, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (31814,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31814, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31814, 8000, 2158996363) /* PCAPRecordedObjectIID */
-     , (31814, 8008, 1343285067) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31814, 67116700, 1, 100)
-     , (31814, 67116709, 101, 100)
-     , (31814, 67116710, 201, 55);

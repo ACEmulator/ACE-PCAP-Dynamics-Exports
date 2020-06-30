@@ -13,8 +13,7 @@ VALUES (7871,   1,         32) /* ItemType - Food */
      , (7871,  16,          8) /* ItemUseable - Contained */
      , (7871,  18,          8) /* UiEffects - BoostMana */
      , (7871,  19,        110) /* Value */
-     , (7871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7871, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7871,   1, 'Hearty Mana Applesauce') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7871,   1,   33555977) /* Setup */
      , (7871,   3,  536870932) /* SoundTable */
      , (7871,   8,  100670845) /* Icon */
-     , (7871,  22,  872415275) /* PhysicsEffectTable */
-     , (7871, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (7871, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (7871, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7871, 8000, 3321606469) /* PCAPRecordedObjectIID */;
+     , (7871,  22,  872415275) /* PhysicsEffectTable */;

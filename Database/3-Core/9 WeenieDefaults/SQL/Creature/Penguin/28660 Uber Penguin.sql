@@ -11,8 +11,7 @@ VALUES (28660,   1,         16) /* ItemType - Creature */
      , (28660,  16,          1) /* ItemUseable - No */
      , (28660,  25,        160) /* Level */
      , (28660,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28660, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28660, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28660, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28660,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28660,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28660,   1, 'Uber Penguin') /* Name */
-     , (28660, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28660,   1, 'Uber Penguin') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28660,   1,   33559122) /* Setup */
@@ -30,17 +28,11 @@ VALUES (28660,   1,   33559122) /* Setup */
      , (28660,   3,  536871098) /* SoundTable */
      , (28660,   6,   67116355) /* PaletteBase */
      , (28660,   8,  100677366) /* Icon */
-     , (28660,  22,  872415258) /* PhysicsEffectTable */
-     , (28660, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28660, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28660, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28660,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28660, 8040, 1072693284, 117.0528, 74.42201, 4.004018, -0.2947032, 0, 0, -0.9555888) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF00024 [117.052800 74.422010 4.004018] -0.294703 0.000000 0.000000 -0.955589 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28660, 8000, 3692885237) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28660,   1, 300, 0, 0) /* Strength */
@@ -565,24 +557,3 @@ VALUES (28660, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (2048
      , (28660, 9,  3823,  0, 0, 0, False) /* Create Lightning Ken (3823) for ContainTreasure */
      , (28660, 9, 30577,  0, 0, 0, False) /* Create Flaming Flamberge (30577) for ContainTreasure */
      , (28660, 9, 20617,  0, 0, 0, False) /* Create Scroll of Meditative Trance (20617) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28660, 67116356, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28660, 0, 83895677, 83897030)
-     , (28660, 1, 83895677, 83897030)
-     , (28660, 2, 83895677, 83897030)
-     , (28660, 3, 83895677, 83897030)
-     , (28660, 4, 83895677, 83897030)
-     , (28660, 5, 83895677, 83897030)
-     , (28660, 6, 83895677, 83897030);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28660, 0, 16791023)
-     , (28660, 1, 16791026)
-     , (28660, 2, 16791024)
-     , (28660, 3, 16791025)
-     , (28660, 4, 16791027)
-     , (28660, 5, 16791042)
-     , (28660, 6, 16791043);

@@ -17,8 +17,7 @@ VALUES (2257,   1,         16) /* ItemType - Creature */
      , (2257, 113,          1) /* Gender - Male */
      , (2257, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2257, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2257, 188,          3) /* HeritageGroup - Sho */
-     , (2257, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2257, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2257,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2257,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2257,   1, 'Nuru Misho the Jeweler') /* Name */
-     , (2257,   5, 'Jeweler') /* Template */
-     , (2257, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2257,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2257,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2257,   1,   33554433) /* Setup */
      , (2257,  11,   83890642) /* MouthTexture */
      , (2257,  15,   67117026) /* HairPalette */
      , (2257,  16,   67110062) /* EyesPalette */
-     , (2257,  17,   67110061) /* SkinPalette */
-     , (2257, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2257, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2257, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2257,  17,   67110061) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2257, 8040, 3443589440, 56.2398, 91.6337, 54.005, 0.03774136, 0, 0, -0.9992875) /* PCAPRecordedLocation */
 /* @teleloc 0xCD410140 [56.239800 91.633700 54.005000] 0.037741 0.000000 0.000000 -0.999288 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2257, 8000, 2094272541) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2257,   1,  65, 0, 0) /* Strength */
@@ -94,55 +86,3 @@ VALUES (2257, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (2257, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (2257, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
      , (2257, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2257, 67109969, 92, 4)
-     , (2257, 67110061, 0, 24)
-     , (2257, 67110062, 32, 8)
-     , (2257, 67110325, 250, 6)
-     , (2257, 67110349, 64, 8)
-     , (2257, 67110356, 216, 24)
-     , (2257, 67110356, 160, 8)
-     , (2257, 67110539, 72, 8)
-     , (2257, 67111245, 40, 24)
-     , (2257, 67117026, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2257, 0, 83889072, 83890012)
-     , (2257, 0, 83889342, 83890011)
-     , (2257, 1, 83887064, 83886241)
-     , (2257, 2, 83887066, 83887055)
-     , (2257, 3, 83889344, 83887054)
-     , (2257, 4, 83887068, 83887054)
-     , (2257, 5, 83887064, 83886241)
-     , (2257, 6, 83887066, 83887055)
-     , (2257, 7, 83889344, 83887054)
-     , (2257, 8, 83887068, 83887054)
-     , (2257, 9, 83887061, 83890009)
-     , (2257, 9, 83887060, 83890010)
-     , (2257, 10, 83887069, 83886782)
-     , (2257, 13, 83887069, 83886782)
-     , (2257, 16, 83886232, 83890359)
-     , (2257, 16, 83886668, 83890496)
-     , (2257, 16, 83886837, 83890530)
-     , (2257, 16, 83886684, 83890642)
-     , (2257, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2257, 0, 16781835)
-     , (2257, 1, 16777295)
-     , (2257, 2, 16777293)
-     , (2257, 3, 16777292)
-     , (2257, 4, 16777291)
-     , (2257, 5, 16777299)
-     , (2257, 6, 16777297)
-     , (2257, 7, 16777296)
-     , (2257, 8, 16777298)
-     , (2257, 9, 16777300)
-     , (2257, 10, 16777301)
-     , (2257, 11, 16777302)
-     , (2257, 12, 16777304)
-     , (2257, 13, 16777303)
-     , (2257, 14, 16777305)
-     , (2257, 15, 16777307)
-     , (2257, 16, 16779630);

@@ -19,14 +19,8 @@ VALUES (42774,   1, 'Mayoi') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42774,   1,   33560970) /* Setup */
-     , (42774,   8,  100668115) /* Icon */
-     , (42774, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42774, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42774, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42774,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42774, 8040, 459122, 110, -55.1051, 3.014, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070172 [110.000000 -55.105100 3.014000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42774, 8000, 1879077009) /* PCAPRecordedObjectIID */;

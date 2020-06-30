@@ -11,8 +11,7 @@ VALUES (19285,   1,         16) /* ItemType - Creature */
      , (19285,  16,          1) /* ItemUseable - No */
      , (19285,  25,        100) /* Level */
      , (19285,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (19285, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (19285, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19285, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19285,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (19285,  39,     2.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (19285,   1, 'Bronze Statue of a Tumerok') /* Name */
-     , (19285, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (19285,   1, 'Bronze Statue of a Tumerok') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19285,   1,   33559553) /* Setup */
@@ -30,17 +28,11 @@ VALUES (19285,   1,   33559553) /* Setup */
      , (19285,   3,  536871052) /* SoundTable */
      , (19285,   6,   67116625) /* PaletteBase */
      , (19285,   8,  100667452) /* Icon */
-     , (19285,  22,  872415349) /* PhysicsEffectTable */
-     , (19285, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (19285, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19285, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (19285,  22,  872415349) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19285, 8040, 1415053850, 167.528, -122.385, 0.0115, 0.999488, 0, 0, 0.032004) /* PCAPRecordedLocation */
 /* @teleloc 0x5458021A [167.528000 -122.385000 0.011500] 0.999488 0.000000 0.000000 0.032004 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19285, 8000, 2627701136) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (19285,   1,     0, 0, 0, 250) /* MaxHealth */;
@@ -83,6 +75,3 @@ VALUES (19285, 2, 15875,  1, 0, 0, False) /* Create Bronze Heavy Crossbow (15875
      , (19285, 9, 43365,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for ContainTreasure */
      , (19285, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (19285, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (19285, 67116656, 0, 0);

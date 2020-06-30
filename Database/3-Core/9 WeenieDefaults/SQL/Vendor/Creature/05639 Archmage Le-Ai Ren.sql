@@ -17,8 +17,7 @@ VALUES (5639,   1,         16) /* ItemType - Creature */
      , (5639, 113,          2) /* Gender - Female */
      , (5639, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5639, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5639, 188,          3) /* HeritageGroup - Sho */
-     , (5639, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5639, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5639,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5639,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5639,   1, 'Archmage Le-Ai Ren') /* Name */
-     , (5639,   5, 'Archmage') /* Template */
-     , (5639, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5639,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5639,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5639,   1,   33554510) /* Setup */
      , (5639,  11,   83890353) /* MouthTexture */
      , (5639,  15,   67117020) /* HairPalette */
      , (5639,  16,   67110063) /* EyesPalette */
-     , (5639,  17,   67110061) /* SkinPalette */
-     , (5639, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5639, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5639, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5639,  17,   67110061) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5639, 8040, 3060072726, 153.809, 148.51, 12.805, -0.996547, 0, 0, -0.08303005) /* PCAPRecordedLocation */
 /* @teleloc 0xB6650116 [153.809000 148.510000 12.805000] -0.996547 0.000000 0.000000 -0.083030 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5639, 8000, 2070302728) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5639,   1,  80, 0, 0) /* Strength */
@@ -134,55 +126,3 @@ VALUES (5639, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (5639, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5639, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (5639, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5639, 67110003, 72, 8)
-     , (5639, 67110061, 0, 24)
-     , (5639, 67110063, 32, 8)
-     , (5639, 67110349, 40, 24)
-     , (5639, 67110356, 64, 8)
-     , (5639, 67110356, 216, 24)
-     , (5639, 67110375, 160, 8)
-     , (5639, 67110551, 92, 4)
-     , (5639, 67117020, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5639, 0, 83889072, 83890012)
-     , (5639, 0, 83889342, 83890011)
-     , (5639, 1, 83887064, 83886241)
-     , (5639, 2, 83887066, 83887051)
-     , (5639, 3, 83889344, 83887054)
-     , (5639, 4, 83887068, 83887054)
-     , (5639, 5, 83887064, 83886241)
-     , (5639, 6, 83887066, 83887051)
-     , (5639, 7, 83889344, 83887054)
-     , (5639, 8, 83887068, 83887054)
-     , (5639, 9, 83887070, 83890009)
-     , (5639, 9, 83887062, 83890010)
-     , (5639, 10, 83886796, 83886782)
-     , (5639, 11, 83886788, 83891213)
-     , (5639, 13, 83886796, 83886782)
-     , (5639, 14, 83886788, 83891213)
-     , (5639, 16, 83886232, 83890685)
-     , (5639, 16, 83886668, 83890243)
-     , (5639, 16, 83886837, 83890298)
-     , (5639, 16, 83886684, 83890353);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5639, 0, 16781875)
-     , (5639, 1, 16778430)
-     , (5639, 2, 16781908)
-     , (5639, 3, 16781841)
-     , (5639, 4, 16783485)
-     , (5639, 5, 16778438)
-     , (5639, 6, 16781909)
-     , (5639, 7, 16781840)
-     , (5639, 8, 16783487)
-     , (5639, 9, 16778425)
-     , (5639, 10, 16781898)
-     , (5639, 11, 16781873)
-     , (5639, 12, 16778423)
-     , (5639, 13, 16781897)
-     , (5639, 14, 16781874)
-     , (5639, 15, 16778435)
-     , (5639, 16, 16795647);

@@ -14,8 +14,7 @@ VALUES (7832,   1,         32) /* ItemType - Food */
      , (7832,  19,         45) /* Value */
      , (7832,  89,          4) /* BoosterEnum - Stamina */
      , (7832,  90,         22) /* BoostValue */
-     , (7832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7832, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7832,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7832,  69, False) /* IsSellable */;
@@ -34,23 +33,8 @@ VALUES (7832,   1,   33555677) /* Setup */
      , (7832,   3,  536870932) /* SoundTable */
      , (7832,   6,   67111919) /* PaletteBase */
      , (7832,   8,  100670849) /* Icon */
-     , (7832,  22,  872415275) /* PhysicsEffectTable */
-     , (7832, 8001,    2109465) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Burden */
-     , (7832, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (7832, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (7832,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7832, 8040, 23855548, 48.40221, -28.1991, 0.0115507, -0.9786557, 0, 0, 0.2055067) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [48.402210 -28.199100 0.011551] -0.978656 0.000000 0.000000 0.205507 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7832, 8000, 2166341533) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7832, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7832, 0, 83889680, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7832, 0, 16782860);

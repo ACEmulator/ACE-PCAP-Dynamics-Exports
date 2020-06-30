@@ -21,8 +21,7 @@ VALUES (43408,   1,       2048) /* ItemType - Gem */
      , (43408, 108,      10000) /* ItemMaxMana */
      , (43408, 109,          0) /* ItemDifficulty */
      , (43408, 114,          1) /* Attuned - Attuned */
-     , (43408, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (43408, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43408, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43408,  69, False) /* IsSellable */
@@ -40,20 +39,7 @@ VALUES (43408,   1,   33554809) /* Setup */
      , (43408,  22,  872415275) /* PhysicsEffectTable */
      , (43408,  28,       5435) /* Spell - VoidMagicMasterySpectral */
      , (43408,  50,  100691567) /* IconOverlay */
-     , (43408,  52,  100686604) /* IconUnderlay */
-     , (43408, 8001, 1349021849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
-     , (43408, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (43408, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (43408, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43408, 8000, 2765398815) /* PCAPRecordedObjectIID */;
+     , (43408,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43408,  5435,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43408, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43408, 0, 16779181);

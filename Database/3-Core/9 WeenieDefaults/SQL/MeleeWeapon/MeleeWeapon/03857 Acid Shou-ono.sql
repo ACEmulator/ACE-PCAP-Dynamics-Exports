@@ -33,9 +33,7 @@ VALUES (3857,   1,          1) /* ItemType - MeleeWeapon */
      , (3857, 176,         46) /* AppraisalItemSkill */
      , (3857, 177,          2) /* GemCount */
      , (3857, 178,         23) /* GemType */
-     , (3857, 353,          3) /* WeaponType - Axe */
-     , (3857, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3857, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3857, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3857,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3857,   5,  -0.056) /* ManaRate */
      , (3857,  29,    1.11) /* WeaponDefense */
      , (3857,  39,     1.2) /* DefaultScale */
      , (3857,  62,    1.17) /* WeaponOffense */
-     , (3857,  63,       1) /* DamageMod */
-     , (3857, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3857,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3857,   1, 'Acid Shou-ono') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3857,   1,   33555702) /* Setup */
      , (3857,   3,  536870932) /* SoundTable */
      , (3857,   8,  100670223) /* Icon */
-     , (3857,  22,  872415275) /* PhysicsEffectTable */
-     , (3857, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3857, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3857, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3857, 8000, 3698981356) /* PCAPRecordedObjectIID */;
+     , (3857,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3857,  1354,      2) 

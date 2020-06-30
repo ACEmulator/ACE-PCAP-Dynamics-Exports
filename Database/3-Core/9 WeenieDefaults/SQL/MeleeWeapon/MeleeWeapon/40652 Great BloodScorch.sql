@@ -30,8 +30,7 @@ VALUES (40652,   1,          1) /* ItemType - MeleeWeapon */
      , (40652, 166,         14) /* SlayerCreatureType - Undead */
      , (40652, 263,         16) /* ResistanceModifierType */
      , (40652, 292,          2) /* Cleaving */
-     , (40652, 353,         11) /* WeaponType - TwoHanded */
-     , (40652, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (40652, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40652,  22, True ) /* Inscribable */
@@ -58,19 +57,11 @@ VALUES (40652,   1,   33560745) /* Setup */
      , (40652,   3,  536870932) /* SoundTable */
      , (40652,   8,  100690759) /* Icon */
      , (40652,  22,  872415275) /* PhysicsEffectTable */
-     , (40652,  55,       1785) /* ProcSpell - FlameRing */
-     , (40652, 8001,  270762648) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (40652, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40652, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (40652, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (40652,  55,       1785) /* ProcSpell - FlameRing */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40652, 8040, 743505977, 191.9757, 22.30591, -0.07025006, 0.08415589, 0.08415589, 0.702081, 0.702081) /* PCAPRecordedLocation */
 /* @teleloc 0x2C510039 [191.975700 22.305910 -0.070250] 0.084156 0.084156 0.702081 0.702081 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40652, 8000, 3707522602) /* PCAPRecordedObjectIID */
-     , (40652, 8008, 1343494188) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40652,  1785,      2) 

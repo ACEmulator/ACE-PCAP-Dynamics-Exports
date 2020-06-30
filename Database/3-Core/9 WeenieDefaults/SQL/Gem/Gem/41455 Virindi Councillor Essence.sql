@@ -18,8 +18,7 @@ VALUES (41455,   1,       2048) /* ItemType - Gem */
      , (41455, 115,        125) /* ItemSkillLevelLimit */
      , (41455, 151,         11) /* HookType - Floor, Wall, Yard */
      , (41455, 176,         20) /* AppraisalItemSkill */
-     , (41455, 280,          9) /* SharedCooldown */
-     , (41455, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41455, 280,          9) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41455,  22, True ) /* Inscribable */
@@ -38,23 +37,7 @@ VALUES (41455,   1,   33554809) /* Setup */
      , (41455,   6,   67111919) /* PaletteBase */
      , (41455,   8,  100690744) /* Icon */
      , (41455,  22,  872415275) /* PhysicsEffectTable */
-     , (41455,  28,       5159) /* Spell - DeceptionArcane3 */
-     , (41455, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (41455, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (41455, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (41455, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41455, 8000, 2226816859) /* PCAPRecordedObjectIID */;
+     , (41455,  28,       5159) /* Spell - DeceptionArcane3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41455,  5159,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41455, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41455, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41455, 0, 16779181);

@@ -24,8 +24,7 @@ VALUES (27218,   1,          2) /* ItemType - Armor */
      , (27218, 158,          7) /* WieldRequirements - Level */
      , (27218, 159,          1) /* WieldSkillType - Axe */
      , (27218, 160,        150) /* WieldDifficulty */
-     , (27218, 172,          1) /* AppraisalLongDescDecoration */
-     , (27218, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (27218, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27218,  22, True ) /* Inscribable */
@@ -40,8 +39,7 @@ VALUES (27218,   5,  -0.067) /* ManaRate */
      , (27218,  17,     0.5) /* ArmorModVsFire */
      , (27218,  18,     0.3) /* ArmorModVsAcid */
      , (27218,  19,   1.462) /* ArmorModVsElectric */
-     , (27218, 165,       1) /* ArmorModVsNether */
-     , (27218, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (27218, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27218,   1, 'Chiran Leggings') /* Name */
@@ -52,13 +50,7 @@ VALUES (27218,   1,   33554856) /* Setup */
      , (27218,   3,  536870932) /* SoundTable */
      , (27218,   6,   67108990) /* PaletteBase */
      , (27218,   8,  100675968) /* Icon */
-     , (27218,  22,  872415275) /* PhysicsEffectTable */
-     , (27218, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (27218, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27218, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27218, 8000, 2174543154) /* PCAPRecordedObjectIID */;
+     , (27218,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27218,  1528,      2) 
@@ -66,16 +58,3 @@ VALUES (27218,  1528,      2)
      , (27218,  4227,      2) 
      , (27218,  4407,      2) 
      , (27218,  4700,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27218, 67115003, 84, 12)
-     , (27218, 67115003, 136, 8)
-     , (27218, 67115003, 144, 16)
-     , (27218, 67115015, 72, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (27218, 0, 83887064, 83895205)
-     , (27218, 0, 83887066, 83895200);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (27218, 0, 16778829);

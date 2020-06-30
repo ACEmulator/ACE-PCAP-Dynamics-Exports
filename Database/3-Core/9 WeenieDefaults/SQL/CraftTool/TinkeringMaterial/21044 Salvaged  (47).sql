@@ -20,14 +20,10 @@ VALUES (21044,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21044, 105,         49) /* ItemWorkmanship */
      , (21044, 131,         19) /* MaterialType - Citrine */
      , (21044, 151,          9) /* HookType - Floor, Yard */
-     , (21044, 170,         10) /* NumItemsInMaterial */
-     , (21044, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21044, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21044,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21044, 8004,     4.9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21044,   1, 'Salvaged  (47)') /* Name */
@@ -40,19 +36,4 @@ VALUES (21044,   1,   33554817) /* Setup */
      , (21044,   6,   67111919) /* PaletteBase */
      , (21044,   8,  100673214) /* Icon */
      , (21044,  22,  872415275) /* PhysicsEffectTable */
-     , (21044,  50,  100673268) /* IconOverlay */
-     , (21044, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (21044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21044, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21044, 8000, 2157267539) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21044, 67111918, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21044, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21044, 0, 16777882);
+     , (21044,  50,  100673268) /* IconOverlay */;

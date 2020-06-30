@@ -19,14 +19,8 @@ VALUES (16893,   1, 'Alvan Court') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (16893,   1,   33557651) /* Setup */
-     , (16893,   8,  100672342) /* Icon */
-     , (16893, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (16893, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (16893, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (16893,   8,  100672342) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (16893, 8040, 1415905551, 9.976, -56.934, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5465010F [9.976000 -56.934000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (16893, 8000, 1967542279) /* PCAPRecordedObjectIID */;

@@ -18,8 +18,7 @@ VALUES (30040,   1,         16) /* ItemType - Creature */
      , (30040, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30040, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (30040, 188,          4) /* HeritageGroup - Viamontian */
-     , (30040, 307,          5) /* DamageRating */
-     , (30040, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30040, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30040,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (30040,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30040,   1, 'Blacksmith Karlus Loc') /* Name */
-     , (30040,   5, 'Blacksmith') /* Template */
-     , (30040, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30040,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30040,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (30040,   1,   33554433) /* Setup */
      , (30040,  11,   83890640) /* MouthTexture */
      , (30040,  15,   67116986) /* HairPalette */
      , (30040,  16,   67110063) /* EyesPalette */
-     , (30040,  17,   67115903) /* SkinPalette */
-     , (30040, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30040, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30040, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (30040,  17,   67115903) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30040, 8040, 853082162, 157.084, 30.7475, 52.005, 0.9997516, 0, 0, -0.02228918) /* PCAPRecordedLocation */
 /* @teleloc 0x32D90032 [157.084000 30.747500 52.005000] 0.999752 0.000000 0.000000 -0.022289 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30040, 8000, 1932365884) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30040,   1,  45, 0, 0) /* Strength */
@@ -139,51 +131,3 @@ VALUES (30040, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (30040, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
      , (30040, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
      , (30040, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30040, 67110003, 72, 8)
-     , (30040, 67110063, 32, 8)
-     , (30040, 67110349, 160, 8)
-     , (30040, 67110368, 64, 8)
-     , (30040, 67110378, 216, 24)
-     , (30040, 67115903, 0, 24)
-     , (30040, 67115944, 40, 24)
-     , (30040, 67115959, 240, 16)
-     , (30040, 67116986, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30040, 0, 83889072, 83890012)
-     , (30040, 0, 83889342, 83890011)
-     , (30040, 1, 83887064, 83886241)
-     , (30040, 2, 83887066, 83887055)
-     , (30040, 3, 83889344, 83887054)
-     , (30040, 4, 83887068, 83887054)
-     , (30040, 5, 83887064, 83886241)
-     , (30040, 6, 83887066, 83887055)
-     , (30040, 7, 83889344, 83887054)
-     , (30040, 8, 83887068, 83887054)
-     , (30040, 9, 83887061, 83890009)
-     , (30040, 9, 83887060, 83890010)
-     , (30040, 16, 83886232, 83890359)
-     , (30040, 16, 83886668, 83890501)
-     , (30040, 16, 83886837, 83890549)
-     , (30040, 16, 83886684, 83890640);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30040, 0, 16781835)
-     , (30040, 1, 16781836)
-     , (30040, 2, 16781823)
-     , (30040, 3, 16777292)
-     , (30040, 4, 16777291)
-     , (30040, 5, 16781819)
-     , (30040, 6, 16781824)
-     , (30040, 7, 16777296)
-     , (30040, 8, 16777298)
-     , (30040, 9, 16777300)
-     , (30040, 10, 16777301)
-     , (30040, 11, 16777302)
-     , (30040, 12, 16777304)
-     , (30040, 13, 16777303)
-     , (30040, 14, 16777305)
-     , (30040, 15, 16777307)
-     , (30040, 16, 16791893);

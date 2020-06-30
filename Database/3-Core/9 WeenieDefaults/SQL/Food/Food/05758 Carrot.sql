@@ -15,8 +15,7 @@ VALUES (5758,   1,         32) /* ItemType - Food */
      , (5758,  89,          4) /* BoosterEnum - Stamina */
      , (5758,  90,          3) /* BoostValue */
      , (5758,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5758, 151,          2) /* HookType - Wall */
-     , (5758, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5758, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5758,   1, 'Carrot') /* Name */
@@ -28,10 +27,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5758,   1,   33556220) /* Setup */
      , (5758,   3,  536870932) /* SoundTable */
      , (5758,   8,  100670276) /* Icon */
-     , (5758,  22,  872415275) /* PhysicsEffectTable */
-     , (5758, 8001,  270561305) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (5758, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5758, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5758, 8000, 2186220378) /* PCAPRecordedObjectIID */;
+     , (5758,  22,  872415275) /* PhysicsEffectTable */;

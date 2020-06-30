@@ -24,8 +24,7 @@ VALUES (43043,   1,      32768) /* ItemType - Caster */
      , (43043, 159,         34) /* WieldSkillType - WarMagic */
      , (43043, 160,        355) /* WieldDifficulty */
      , (43043, 166,          1) /* SlayerCreatureType - Olthoi */
-     , (43043, 263,          2) /* ResistanceModifierType */
-     , (43043, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (43043, 263,          2) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43043,  22, True ) /* Inscribable */
@@ -54,19 +53,11 @@ VALUES (43043,   1,   33561081) /* Setup */
      , (43043,   3,  536870932) /* SoundTable */
      , (43043,   8,  100691347) /* Icon */
      , (43043,  22,  872415275) /* PhysicsEffectTable */
-     , (43043,  28,         67) /* Spell - ShockWave4 */
-     , (43043, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (43043, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (43043, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (43043, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (43043,  28,         67) /* Spell - ShockWave4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43043, 8040, 23855554, 62.49383, -29.91756, -0.07025, -0.6734836, -0.6734836, -0.2154528, -0.2154528) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [62.493830 -29.917560 -0.070250] -0.673484 -0.673484 -0.215453 -0.215453 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43043, 8000, 2669317898) /* PCAPRecordedObjectIID */
-     , (43043, 8008, 1343459939) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43043,    67,      2) 

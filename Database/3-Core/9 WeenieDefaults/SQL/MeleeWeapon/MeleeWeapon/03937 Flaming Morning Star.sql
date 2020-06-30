@@ -33,9 +33,7 @@ VALUES (3937,   1,          1) /* ItemType - MeleeWeapon */
      , (3937, 176,         44) /* AppraisalItemSkill */
      , (3937, 177,          3) /* GemCount */
      , (3937, 178,         23) /* GemType */
-     , (3937, 353,          4) /* WeaponType - Mace */
-     , (3937, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3937, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3937, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3937,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3937,   5,   -0.05) /* ManaRate */
      , (3937,  26,       0) /* MaximumVelocity */
      , (3937,  29,    1.07) /* WeaponDefense */
      , (3937,  62,    1.06) /* WeaponOffense */
-     , (3937,  63,       1) /* DamageMod */
-     , (3937, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3937,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3937,   1, 'Flaming Morning Star') /* Name */
@@ -59,13 +56,7 @@ VALUES (3937,   1,   33555755) /* Setup */
      , (3937,   3,  536870932) /* SoundTable */
      , (3937,   6,   67111919) /* PaletteBase */
      , (3937,   8,  100668965) /* Icon */
-     , (3937,  22,  872415275) /* PhysicsEffectTable */
-     , (3937, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3937, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3937, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3937, 8000, 3701212044) /* PCAPRecordedObjectIID */;
+     , (3937,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3937,  1591,      2) 
@@ -75,13 +66,3 @@ VALUES (3937,  1591,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3937, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (3937, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (3937, 0, 83889356, 83886712)
-     , (3937, 0, 83889236, 83889236);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (3937, 0, 16777932);

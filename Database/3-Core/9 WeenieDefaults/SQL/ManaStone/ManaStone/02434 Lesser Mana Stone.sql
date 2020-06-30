@@ -11,8 +11,7 @@ VALUES (2434,   1,     524288) /* ItemType - ManaStone */
      , (2434,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2434,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
      , (2434, 107,          0) /* ItemCurMana */
-     , (2434, 151,          2) /* HookType - Wall */
-     , (2434, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2434, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2434,  22, True ) /* Inscribable */;
@@ -27,13 +26,7 @@ VALUES (2434,   1, 'Lesser Mana Stone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2434,   1,   33555639) /* Setup */
-     , (2434,   8,  100676303) /* Icon */
-     , (2434, 8001,  271073304) /* PCAPRecordedWeenieHeader - Value, Usable, Container, TargetType, Burden, HookType */
-     , (2434, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2434, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2434, 8000, 3687018274) /* PCAPRecordedObjectIID */;
+     , (2434,   8,  100676303) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2434, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */

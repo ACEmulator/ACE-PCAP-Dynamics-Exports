@@ -16,8 +16,7 @@ VALUES (44802,   1,          2) /* ItemType - Armor */
      , (44802, 131,         55) /* MaterialType - ReedSharkHide */
      , (44802, 172,          5) /* AppraisalLongDescDecoration */
      , (44802, 177,          2) /* GemCount */
-     , (44802, 178,         26) /* GemType */
-     , (44802, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44802, 178,         26) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44802,  22, True ) /* Inscribable */
@@ -31,8 +30,7 @@ VALUES (44802,  13,     1.2) /* ArmorModVsSlash */
      , (44802,  17,   1.131) /* ArmorModVsFire */
      , (44802,  18,   0.736) /* ArmorModVsAcid */
      , (44802,  19,   1.173) /* ArmorModVsElectric */
-     , (44802, 165,       1) /* ArmorModVsNether */
-     , (44802, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (44802, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44802,   1, 'Vestiri Over-robe') /* Name */
@@ -43,24 +41,4 @@ VALUES (44802,   1,   33554854) /* Setup */
      , (44802,   3,  536870932) /* SoundTable */
      , (44802,   6,   67108990) /* PaletteBase */
      , (44802,   8,  100685949) /* Icon */
-     , (44802,  22,  872415275) /* PhysicsEffectTable */
-     , (44802, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (44802, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44802, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44802, 8000, 3699152246) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44802, 67110025, 174, 12)
-     , (44802, 67110319, 186, 12)
-     , (44802, 67110336, 216, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44802, 0, 83887061, 83898648)
-     , (44802, 0, 83887060, 83898649)
-     , (44802, 0, 83889072, 83898650)
-     , (44802, 0, 83889342, 83898650);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44802, 0, 16778367);
+     , (44802,  22,  872415275) /* PhysicsEffectTable */;

@@ -35,13 +35,7 @@ VALUES (34967,   1,   33558859) /* Setup */
      , (34967,   3,  536870932) /* SoundTable */
      , (34967,   8,  100689391) /* Icon */
      , (34967,  22,  872415275) /* PhysicsEffectTable */
-     , (34967,  28,       3053) /* Spell - ParalyzingTouch */
-     , (34967, 8001,    6320145) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden, Spell */
-     , (34967, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34967, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34967, 8000, 2981039383) /* PCAPRecordedObjectIID */;
+     , (34967,  28,       3053) /* Spell - ParalyzingTouch */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34967,  3053,      2) ;

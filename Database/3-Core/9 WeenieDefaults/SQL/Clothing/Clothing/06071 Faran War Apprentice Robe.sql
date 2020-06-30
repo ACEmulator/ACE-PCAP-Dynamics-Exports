@@ -19,8 +19,7 @@ VALUES (6071,   1,          4) /* ItemType - Clothing */
      , (6071, 109,         20) /* ItemDifficulty */
      , (6071, 115,         70) /* ItemSkillLevelLimit */
      , (6071, 176,         34) /* AppraisalItemSkill */
-     , (6071, 188,          1) /* HeritageGroup - Aluvian */
-     , (6071, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6071, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6071,  22, True ) /* Inscribable */;
@@ -45,29 +44,8 @@ VALUES (6071,   1,   33554854) /* Setup */
      , (6071,   3,  536870932) /* SoundTable */
      , (6071,   6,   67108990) /* PaletteBase */
      , (6071,   8,  100670349) /* Icon */
-     , (6071,  22,  872415275) /* PhysicsEffectTable */
-     , (6071, 8001,    2441368) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden */
-     , (6071, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6071, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6071, 8000, 3675386051) /* PCAPRecordedObjectIID */;
+     , (6071,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6071,   635,      2) 
      , (6071,  1451,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6071, 67110026, 96, 12)
-     , (6071, 67110320, 80, 12)
-     , (6071, 67110320, 116, 12)
-     , (6071, 67112725, 40, 40);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6071, 0, 83887061, 83892348)
-     , (6071, 0, 83887060, 83892349)
-     , (6071, 0, 83889072, 83892345)
-     , (6071, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6071, 0, 16778367);

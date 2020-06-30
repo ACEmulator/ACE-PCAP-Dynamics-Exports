@@ -13,8 +13,7 @@ VALUES (14793,   1,    4194304) /* ItemType - CraftCookingBase */
      , (14793,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (14793,  19,          6) /* Value */
      , (14793,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14793,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (14793, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14793,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14793,   1, 'Stemless Mushroom') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14793,   1,   33557501) /* Setup */
      , (14793,   3,  536870932) /* SoundTable */
      , (14793,   8,  100672563) /* Icon */
-     , (14793,  22,  872415275) /* PhysicsEffectTable */
-     , (14793, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (14793, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (14793, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14793, 8000, 3709706536) /* PCAPRecordedObjectIID */;
+     , (14793,  22,  872415275) /* PhysicsEffectTable */;

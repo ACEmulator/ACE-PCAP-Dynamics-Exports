@@ -28,9 +28,7 @@ VALUES (4192,   1,          1) /* ItemType - MeleeWeapon */
      , (4192, 151,          2) /* HookType - Wall */
      , (4192, 172,          1) /* AppraisalLongDescDecoration */
      , (4192, 176,         44) /* AppraisalItemSkill */
-     , (4192, 353,          1) /* WeaponType - Unarmed */
-     , (4192, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (4192, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4192, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4192,  22, True ) /* Inscribable */;
@@ -43,8 +41,7 @@ VALUES (4192,   5,  -0.025) /* ManaRate */
      , (4192,  29,    1.04) /* WeaponDefense */
      , (4192,  39,     0.8) /* DefaultScale */
      , (4192,  62,    1.03) /* WeaponOffense */
-     , (4192,  63,       1) /* DamageMod */
-     , (4192, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (4192,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4192,   1, 'Acid Cestus') /* Name */
@@ -54,13 +51,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4192,   1,   33555992) /* Setup */
      , (4192,   3,  536870932) /* SoundTable */
      , (4192,   8,  100670025) /* Icon */
-     , (4192,  22,  872415275) /* PhysicsEffectTable */
-     , (4192, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (4192, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (4192, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4192, 8000, 3701072128) /* PCAPRecordedObjectIID */;
+     , (4192,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (4192,  1602,      2) 

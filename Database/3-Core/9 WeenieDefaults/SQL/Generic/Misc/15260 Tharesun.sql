@@ -18,14 +18,8 @@ VALUES (15260,   1, 'Tharesun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15260,   1,   33557463) /* Setup */
-     , (15260,   8,  100668115) /* Icon */
-     , (15260, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15260, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15260, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15260,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15260, 8040, 2263941149, 83.4423, 104.589, 66, -0.737046, 0, 0, -0.675842) /* PCAPRecordedLocation */
 /* @teleloc 0x86F1001D [83.442300 104.589000 66.000000] -0.737046 0.000000 0.000000 -0.675842 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15260, 8000, 2020544945) /* PCAPRecordedObjectIID */;

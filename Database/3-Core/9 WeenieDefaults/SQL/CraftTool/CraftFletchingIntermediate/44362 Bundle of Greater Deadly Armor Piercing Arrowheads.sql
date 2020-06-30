@@ -12,8 +12,7 @@ VALUES (44362,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44362,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (44362,  19,       1500) /* Value */
      , (44362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44362,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (44362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44362,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44362,   1, 'Bundle of Greater Deadly Armor Piercing Arrowheads') /* Name */
@@ -24,10 +23,4 @@ VALUES (44362,   1,   33555958) /* Setup */
      , (44362,   3,  536870932) /* SoundTable */
      , (44362,   8,  100672669) /* Icon */
      , (44362,  22,  872415275) /* PhysicsEffectTable */
-     , (44362,  50,  100689661) /* IconOverlay */
-     , (44362, 8001, 1074294809) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, IconOverlay */
-     , (44362, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44362, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44362, 8000, 3353473227) /* PCAPRecordedObjectIID */;
+     , (44362,  50,  100689661) /* IconOverlay */;

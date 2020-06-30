@@ -16,8 +16,7 @@ VALUES (24589,   1,         16) /* ItemType - Creature */
      , (24589,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24589, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24589, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24589, 307,          5) /* DamageRating */
-     , (24589, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24589, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24589,   1, True ) /* Stuck */
@@ -31,25 +30,18 @@ VALUES (24589,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24589,   1, 'Rkos the Armorer') /* Name */
-     , (24589,   5, 'Armorer') /* Template */
-     , (24589, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24589,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24589,   1,   33557003) /* Setup */
      , (24589,   2,  150994950) /* MotionTable */
      , (24589,   3,  536870922) /* SoundTable */
      , (24589,   6,   67113158) /* PaletteBase */
-     , (24589,   8,  100667447) /* Icon */
-     , (24589, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24589, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24589, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (24589,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24589, 8040, 722600194, 56.7047, 51.8556, 48.21, 0.1051099, 0, 0, -0.9944606) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120102 [56.704700 51.855600 48.210000] 0.105110 0.000000 0.000000 -0.994461 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24589, 8000, 1924210729) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24589,   1, 225, 0, 0) /* Strength */
@@ -152,28 +144,3 @@ VALUES (24589, 2,   542,  1, 0, 0, False) /* Create Lugian Hammer (542) for Wiel
      , (24589, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
      , (24589, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
      , (24589, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24589, 67114245, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24589, 0, 83893224, 83893223)
-     , (24589, 0, 83893231, 83893230)
-     , (24589, 2, 83893218, 83893217)
-     , (24589, 5, 83893218, 83893217)
-     , (24589, 7, 83893227, 83893213)
-     , (24589, 7, 83893214, 83893213)
-     , (24589, 9, 83893218, 83893217)
-     , (24589, 12, 83893218, 83893217)
-     , (24589, 19, 83893240, 83893239)
-     , (24589, 20, 83893240, 83893239);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24589, 0, 16785699)
-     , (24589, 2, 16785662)
-     , (24589, 5, 16785662)
-     , (24589, 7, 16785659)
-     , (24589, 9, 16785701)
-     , (24589, 12, 16785701)
-     , (24589, 19, 16785704)
-     , (24589, 20, 16785705);

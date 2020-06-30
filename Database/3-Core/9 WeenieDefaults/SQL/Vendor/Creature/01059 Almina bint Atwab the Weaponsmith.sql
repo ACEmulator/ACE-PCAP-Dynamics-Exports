@@ -18,8 +18,7 @@ VALUES (1059,   1,         16) /* ItemType - Creature */
      , (1059, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1059, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1059, 188,          2) /* HeritageGroup - Gharundim */
-     , (1059, 307,          5) /* DamageRating */
-     , (1059, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1059, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1059,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1059,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1059,   1, 'Almina bint Atwab the Weaponsmith') /* Name */
-     , (1059,   5, 'Weaponsmith') /* Template */
-     , (1059, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1059,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1059,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1059,   1,   33554510) /* Setup */
      , (1059,  11,   83890356) /* MouthTexture */
      , (1059,  15,   67117073) /* HairPalette */
      , (1059,  16,   67110063) /* EyesPalette */
-     , (1059,  17,   67109551) /* SkinPalette */
-     , (1059, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1059, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1059, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1059,  17,   67109551) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1059, 8040, 2535588141, 82.0897, 81.4278, 102.005, 0.9025853, 0, 0, -0.4305111) /* PCAPRecordedLocation */
 /* @teleloc 0x9722012D [82.089700 81.427800 102.005000] 0.902585 0.000000 0.000000 -0.430511 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1059, 8000, 2037522451) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1059,   1, 120, 0, 0) /* Strength */
@@ -94,53 +86,3 @@ VALUES (1059, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
      , (1059, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1059, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (1059, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1059, 67109551, 0, 24)
-     , (1059, 67109964, 92, 4)
-     , (1059, 67110003, 72, 8)
-     , (1059, 67110063, 32, 8)
-     , (1059, 67110320, 216, 24)
-     , (1059, 67110325, 250, 6)
-     , (1059, 67110356, 40, 24)
-     , (1059, 67110356, 64, 8)
-     , (1059, 67111304, 160, 8)
-     , (1059, 67117073, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1059, 0, 83889072, 83890012)
-     , (1059, 0, 83889342, 83890011)
-     , (1059, 1, 83887064, 83886241)
-     , (1059, 2, 83887066, 83887051)
-     , (1059, 3, 83889344, 83887054)
-     , (1059, 4, 83887068, 83887054)
-     , (1059, 5, 83887064, 83886241)
-     , (1059, 6, 83887066, 83887051)
-     , (1059, 7, 83889344, 83887054)
-     , (1059, 8, 83887068, 83887054)
-     , (1059, 9, 83887070, 83890009)
-     , (1059, 9, 83887062, 83890010)
-     , (1059, 16, 83886232, 83890685)
-     , (1059, 16, 83886668, 83890263)
-     , (1059, 16, 83886837, 83890302)
-     , (1059, 16, 83886684, 83890356)
-     , (1059, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1059, 0, 16781875)
-     , (1059, 1, 16778430)
-     , (1059, 2, 16781908)
-     , (1059, 3, 16781841)
-     , (1059, 4, 16783485)
-     , (1059, 5, 16778438)
-     , (1059, 6, 16781909)
-     , (1059, 7, 16781840)
-     , (1059, 8, 16783487)
-     , (1059, 9, 16778425)
-     , (1059, 10, 16778431)
-     , (1059, 11, 16778429)
-     , (1059, 12, 16778423)
-     , (1059, 13, 16778434)
-     , (1059, 14, 16778424)
-     , (1059, 15, 16778435)
-     , (1059, 16, 16778594);

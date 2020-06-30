@@ -34,8 +34,7 @@ VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788, 176,         44) /* AppraisalItemSkill */
      , (31788, 177,          1) /* GemCount */
      , (31788, 178,         36) /* GemType */
-     , (31788, 353,          7) /* WeaponType - Staff */
-     , (31788, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31788, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31788,  22, True ) /* Inscribable */;
@@ -49,8 +48,7 @@ VALUES (31788,   5,   -0.05) /* ManaRate */
      , (31788,  39,    0.65) /* DefaultScale */
      , (31788,  62,    1.06) /* WeaponOffense */
      , (31788,  63,       1) /* DamageMod */
-     , (31788, 150,    1.02) /* WeaponMagicDefense */
-     , (31788, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (31788, 150,    1.02) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31788,   1, 'Stick') /* Name */
@@ -62,20 +60,11 @@ VALUES (31788,   1,   33559625) /* Setup */
      , (31788,   6,   67116700) /* PaletteBase */
      , (31788,   8,  100687995) /* Icon */
      , (31788,  22,  872415275) /* PhysicsEffectTable */
-     , (31788,  52,  100676442) /* IconUnderlay */
-     , (31788, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (31788, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31788, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31788, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31788, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (31788,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31788, 8040, 1581581014, 39.65677, -78.29746, -0.071, 0.4062837, 0.4062837, -0.5787345, -0.5787345) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4502D6 [39.656770 -78.297460 -0.071000] 0.406284 0.406284 -0.578735 -0.578735 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31788, 8000, 2183167588) /* PCAPRecordedObjectIID */
-     , (31788, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31788,  1615,      2) 
@@ -86,14 +75,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31788, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
      , (31788, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (31788, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31788, 67116700, 1, 100)
-     , (31788, 67116708, 201, 55)
-     , (31788, 67116709, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31788, 0, 83897334, 83897334);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31788, 0, 16792611);

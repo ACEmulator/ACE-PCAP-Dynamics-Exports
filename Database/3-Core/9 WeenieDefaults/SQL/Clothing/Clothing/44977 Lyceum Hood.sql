@@ -27,8 +27,7 @@ VALUES (44977,   1,          4) /* ItemType - Clothing */
      , (44977, 160,        180) /* WieldDifficulty */
      , (44977, 172,          5) /* AppraisalLongDescDecoration */
      , (44977, 177,          3) /* GemCount */
-     , (44977, 178,         38) /* GemType */
-     , (44977, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44977, 178,         38) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44977,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (44977,   5,  -0.067) /* ManaRate */
      , (44977,  17,     0.5) /* ArmorModVsFire */
      , (44977,  18,   0.796) /* ArmorModVsAcid */
      , (44977,  19,   1.511) /* ArmorModVsElectric */
-     , (44977, 165,       1) /* ArmorModVsNether */
-     , (44977, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (44977, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44977,   1, 'Lyceum Hood') /* Name */
@@ -55,13 +53,7 @@ VALUES (44977,   1,   33556237) /* Setup */
      , (44977,   3,  536870932) /* SoundTable */
      , (44977,   6,   67108990) /* PaletteBase */
      , (44977,   8,  100692201) /* Icon */
-     , (44977,  22,  872415275) /* PhysicsEffectTable */
-     , (44977, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (44977, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44977, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44977, 8000, 2165201440) /* PCAPRecordedObjectIID */;
+     , (44977,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44977,  4397,      2) 
@@ -71,14 +63,3 @@ VALUES (44977,  4397,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44977, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44977, 67110359, 240, 10)
-     , (44977, 67110545, 250, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44977, 0, 83898706, 83898706)
-     , (44977, 0, 83898707, 83898707);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44977, 0, 16795884);

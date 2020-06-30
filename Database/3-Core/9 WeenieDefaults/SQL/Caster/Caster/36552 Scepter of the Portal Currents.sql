@@ -22,8 +22,7 @@ VALUES (36552,   1,      32768) /* ItemType - Caster */
      , (36552, 151,          2) /* HookType - Wall */
      , (36552, 158,          2) /* WieldRequirements - RawSkill */
      , (36552, 159,         32) /* WieldSkillType - ItemEnchantment */
-     , (36552, 160,        120) /* WieldDifficulty */
-     , (36552, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (36552, 160,        120) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36552,  22, True ) /* Inscribable */
@@ -45,19 +44,11 @@ VALUES (36552,   1,   33560394) /* Setup */
      , (36552,   3,  536870932) /* SoundTable */
      , (36552,   8,  100689645) /* Icon */
      , (36552,  22,  872415275) /* PhysicsEffectTable */
-     , (36552,  28,       4214) /* Spell - CandethKeepRecall */
-     , (36552, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (36552, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36552, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (36552, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (36552,  28,       4214) /* Spell - CandethKeepRecall */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36552, 8040, 3465871413, 155.0736, 97.24419, 19.929, 0.3213816, 0.3213816, -0.6298523, -0.6298523) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [155.073600 97.244190 19.929000] 0.321382 0.321382 -0.629852 -0.629852 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36552, 8000, 2183337229) /* PCAPRecordedObjectIID */
-     , (36552, 8008, 1342992827) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36552,  2067,      2) 

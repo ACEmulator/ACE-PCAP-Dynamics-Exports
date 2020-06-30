@@ -34,8 +34,7 @@ VALUES (42972,   1,         16) /* ItemType - Creature */
      , (42972, 386,          0) /* Overpower */
      , (42972, 387,          0) /* OverpowerResist */
      , (42972, 388,          0) /* GearOverpower */
-     , (42972, 389,          0) /* GearOverpowerResist */
-     , (42972, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42972, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42972,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42972,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42972,   1, 'Rock Pile') /* Name */
-     , (42972, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (42972,   1, 'Rock Pile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42972,   1,   33558564) /* Setup */
      , (42972,   2,  150995265) /* MotionTable */
      , (42972,   3,  536870913) /* SoundTable */
-     , (42972,   8,  100675645) /* Icon */
-     , (42972, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (42972, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (42972, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (42972,   8,  100675645) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42972, 8040, 3010461739, 120.261, 63.3617, 26, -0.705742, 0, 0, -0.708469) /* PCAPRecordedLocation */
 /* @teleloc 0xB370002B [120.261000 63.361700 26.000000] -0.705742 0.000000 0.000000 -0.708469 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42972, 8000, 3685097039) /* PCAPRecordedObjectIID */;

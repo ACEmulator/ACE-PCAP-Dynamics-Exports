@@ -37,8 +37,7 @@ VALUES (28622,   5,  -0.042) /* ManaRate */
      , (28622,  17,     0.4) /* ArmorModVsFire */
      , (28622,  18,     0.6) /* ArmorModVsAcid */
      , (28622,  19,     0.4) /* ArmorModVsElectric */
-     , (28622, 165,       1) /* ArmorModVsNether */
-     , (28622, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (28622, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28622,   1, 'Tenassa Leggings') /* Name */
@@ -49,21 +48,10 @@ VALUES (28622,   1,   33559331) /* Setup */
      , (28622,   3,  536870932) /* SoundTable */
      , (28622,   6,   67108990) /* PaletteBase */
      , (28622,   8,  100686082) /* Icon */
-     , (28622,  22,  872415275) /* PhysicsEffectTable */
-     , (28622, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28622, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28622, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28622, 8000, 3688213672) /* PCAPRecordedObjectIID */;
+     , (28622,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28622,  1485,      2) 
      , (28622,  1551,      2) 
      , (28622,  1561,      2) 
      , (28622,  3833,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28622, 67116298, 152, 8)
-     , (28622, 67116319, 72, 24)
-     , (28622, 67116319, 136, 16);

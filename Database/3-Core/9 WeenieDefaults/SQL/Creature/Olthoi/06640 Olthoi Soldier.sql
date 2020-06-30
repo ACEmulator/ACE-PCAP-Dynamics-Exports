@@ -11,8 +11,7 @@ VALUES (6640,   1,         16) /* ItemType - Creature */
      , (6640,  16,          1) /* ItemUseable - No */
      , (6640,  25,         60) /* Level */
      , (6640,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (6640, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6640, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (6640, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6640,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6640,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6640,   1, 'Olthoi Soldier') /* Name */
-     , (6640, 8006, 'AAA9AIAAAABRAAEAAACAPw==') /* PCAPRecordedCurrentMotionState */;
+VALUES (6640,   1, 'Olthoi Soldier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6640,   1,   33557162) /* Setup */
@@ -30,17 +28,11 @@ VALUES (6640,   1,   33557162) /* Setup */
      , (6640,   3,  536870925) /* SoundTable */
      , (6640,   8,  100667623) /* Icon */
      , (6640,  22,  872415265) /* PhysicsEffectTable */
-     , (6640,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (6640, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (6640, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (6640, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (6640,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6640, 8040, 549388298, 33.61736, 40.56426, 82, 0.8952387, 0, 0, -0.4455869) /* PCAPRecordedLocation */
 /* @teleloc 0x20BF000A [33.617360 40.564260 82.000000] 0.895239 0.000000 0.000000 -0.445587 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6640, 8000, 2929448023) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6640,   1, 280, 0, 0) /* Strength */

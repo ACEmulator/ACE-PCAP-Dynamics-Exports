@@ -34,8 +34,7 @@ VALUES (19129,   1,         16) /* ItemType - Creature */
      , (19129, 386,          0) /* Overpower */
      , (19129, 387,          0) /* OverpowerResist */
      , (19129, 388,          0) /* GearOverpower */
-     , (19129, 389,          0) /* GearOverpowerResist */
-     , (19129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (19129, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19129,   1, True ) /* Stuck */
@@ -47,21 +46,14 @@ VALUES (19129,  54,       3) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19129,   1, 'Spinning Wheel') /* Name */
      , (19129,  14, 'Give the Spinning Wheel a material to spin into thread.') /* Use */
-     , (19129,  16, 'A very old spinning wheel intricately carved with mythical creatures.') /* LongDesc */
-     , (19129, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (19129,  16, 'A very old spinning wheel intricately carved with mythical creatures.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19129,   1,   33557814) /* Setup */
      , (19129,   2,  150995196) /* MotionTable */
      , (19129,   3,  536871055) /* SoundTable */
-     , (19129,   8,  100673040) /* Icon */
-     , (19129, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (19129, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (19129, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (19129,   8,  100673040) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19129, 8040, 3747676431, 79.7647, 33.3544, 26.3594, -0.916362, 0, 0, -0.40035) /* PCAPRecordedLocation */
 /* @teleloc 0xDF61010F [79.764700 33.354400 26.359400] -0.916362 0.000000 0.000000 -0.400350 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19129, 8000, 3691981837) /* PCAPRecordedObjectIID */;

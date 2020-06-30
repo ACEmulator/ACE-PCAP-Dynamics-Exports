@@ -15,8 +15,7 @@ VALUES (32056,   1,         16) /* ItemType - Creature */
      , (32056,  76,    1000000) /* MerchandiseMaxValue */
      , (32056,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (32056, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (32056, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32056, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32056, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32056,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (32056,  37,     0.7) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32056,   1, 'Archmage Moldurg') /* Name */
-     , (32056,   5, 'Archmage') /* Template */
-     , (32056, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (32056,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32056,   1,   33554490) /* Setup */
      , (32056,   2,  150994953) /* MotionTable */
      , (32056,   3,  536870959) /* SoundTable */
      , (32056,   6,   67109310) /* PaletteBase */
-     , (32056,   8,  100667449) /* Icon */
-     , (32056, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (32056, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (32056, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (32056,   8,  100667449) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32056, 8040, 3387097349, 79.7775, 58.45, 14.27243, -0.7343021, 0, 0, -0.6788228) /* PCAPRecordedLocation */
 /* @teleloc 0xC9E30105 [79.777500 58.450000 14.272430] -0.734302 0.000000 0.000000 -0.678823 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32056, 8000, 2090741768) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32056,   1,  95, 0, 0) /* Strength */
@@ -256,6 +248,3 @@ VALUES (32056, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (32056, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (32056, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (32056, 4,  2436, -1, 0, 0, False) /* Create Greater Mana Stone (2436) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32056, 67113355, 0, 0);

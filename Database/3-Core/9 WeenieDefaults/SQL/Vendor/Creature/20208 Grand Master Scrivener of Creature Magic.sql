@@ -17,8 +17,7 @@ VALUES (20208,   1,         16) /* ItemType - Creature */
      , (20208, 113,          1) /* Gender - Male */
      , (20208, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20208, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (20208, 188,          2) /* HeritageGroup - Gharundim */
-     , (20208, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (20208, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20208,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (20208,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20208,   1, 'Grand Master Scrivener of Creature Magic') /* Name */
-     , (20208,   5, 'Master Archmage') /* Template */
-     , (20208, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (20208,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20208,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (20208,   1,   33554433) /* Setup */
      , (20208,  11,   83890619) /* MouthTexture */
      , (20208,  15,   67117000) /* HairPalette */
      , (20208,  16,   67109567) /* EyesPalette */
-     , (20208,  17,   67109554) /* SkinPalette */
-     , (20208, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (20208, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (20208, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (20208,  17,   67109554) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20208, 8040, 3122069775, 31.498, 79.7341, 137.005, 0.864089, 0, 0, -0.503339) /* PCAPRecordedLocation */
 /* @teleloc 0xBA17010F [31.498000 79.734100 137.005000] 0.864089 0.000000 0.000000 -0.503339 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20208, 8000, 2074177578) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20208,   1,  90, 0, 0) /* Strength */
@@ -204,51 +196,3 @@ VALUES (20208, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (20208, 4, 43364, -1, 0, 0, False) /* Create Scroll of Void Magic Ineptitude VI (43364) for Shop */
      , (20208, 4, 43365, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VI (43365) for Shop */
      , (20208, 4, 43366, -1, 0, 0, False) /* Create Scroll of Void Magic Mastery Self VI (43366) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20208, 67109554, 0, 24)
-     , (20208, 67109567, 32, 8)
-     , (20208, 67109964, 92, 4)
-     , (20208, 67110356, 40, 24)
-     , (20208, 67110372, 64, 8)
-     , (20208, 67110375, 160, 8)
-     , (20208, 67110388, 216, 24)
-     , (20208, 67110540, 72, 8)
-     , (20208, 67117000, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (20208, 0, 83889072, 83890012)
-     , (20208, 0, 83889342, 83890011)
-     , (20208, 1, 83887064, 83886241)
-     , (20208, 2, 83887066, 83887051)
-     , (20208, 3, 83889344, 83887054)
-     , (20208, 4, 83887068, 83887054)
-     , (20208, 5, 83887064, 83886241)
-     , (20208, 6, 83887066, 83887051)
-     , (20208, 7, 83889344, 83887054)
-     , (20208, 8, 83887068, 83887054)
-     , (20208, 9, 83887061, 83890009)
-     , (20208, 9, 83887060, 83890010)
-     , (20208, 16, 83886232, 83890685)
-     , (20208, 16, 83886668, 83890510)
-     , (20208, 16, 83886837, 83890517)
-     , (20208, 16, 83886684, 83890619);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (20208, 0, 16781835)
-     , (20208, 1, 16777295)
-     , (20208, 2, 16781866)
-     , (20208, 3, 16781841)
-     , (20208, 4, 16781838)
-     , (20208, 5, 16777299)
-     , (20208, 6, 16781864)
-     , (20208, 7, 16781840)
-     , (20208, 8, 16781839)
-     , (20208, 9, 16777300)
-     , (20208, 10, 16777301)
-     , (20208, 11, 16777302)
-     , (20208, 12, 16777304)
-     , (20208, 13, 16777303)
-     , (20208, 14, 16777305)
-     , (20208, 15, 16777307)
-     , (20208, 16, 16795650);

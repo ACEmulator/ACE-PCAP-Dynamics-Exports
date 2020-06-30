@@ -7,8 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (1026,   1,      65536) /* ItemType - Portal */
      , (1026,  16,          1) /* ItemUseable - No */
      , (1026,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
-     , (1026, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
-     , (1026, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1026, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1026,   1, True ) /* Stuck */;
@@ -18,20 +17,13 @@ VALUES (1026,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1026,   1, 'Destroyed Portal to Samsur') /* Name */
-     , (1026,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */
-     , (1026, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1026,  16, 'This portal was destroyed by Asheron''s foray into opening a portal to the lost Empyreans.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1026,   1,   33561060) /* Setup */
      , (1026,   2,  150995314) /* MotionTable */
-     , (1026,   8,  100667499) /* Icon */
-     , (1026, 8001,         48) /* PCAPRecordedWeenieHeader - Usable, UseRadius */
-     , (1026, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (1026, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (1026,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1026, 8040, 25756418, 131.918, -90.1767, -0.20983, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x01890302 [131.918000 -90.176700 -0.209830] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1026, 8000, 1880658094) /* PCAPRecordedObjectIID */;

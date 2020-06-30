@@ -11,8 +11,7 @@ VALUES (41935,   1,         16) /* ItemType - Creature */
      , (41935,  16,          1) /* ItemUseable - No */
      , (41935,  25,        270) /* Level */
      , (41935,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (41935, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (41935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (41935, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41935,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (41935,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41935,   1, 'Lord Hendrel') /* Name */
-     , (41935,   5, 'Champion of House Mhoire') /* Template */
-     , (41935, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (41935,   5, 'Champion of House Mhoire') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41935,   1,   33560225) /* Setup */
@@ -31,17 +29,11 @@ VALUES (41935,   1,   33560225) /* Setup */
      , (41935,   3,  536870934) /* SoundTable */
      , (41935,   6,   67110722) /* PaletteBase */
      , (41935,   8,  100667942) /* Icon */
-     , (41935,  22,  872415272) /* PhysicsEffectTable */
-     , (41935, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (41935, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (41935, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (41935,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41935, 8040, 1194065922, 0.212546, 41.9817, 4.025962, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x472C0002 [0.212546 41.981700 4.025962] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41935, 8000, 3683029392) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (41935,   1, 350, 0, 0) /* Strength */
@@ -59,6 +51,3 @@ VALUES (41935,   1, 12000, 0, 0, 12175) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41935, 2, 31822,  1, 0, 0, False) /* Create Aerbax's Defeat (31822) for Wield */
      , (41935, 9, 41932,  1, 0, 0, False) /* Create Lord Hendrel's Brand (41932) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41935, 67113362, 0, 0);

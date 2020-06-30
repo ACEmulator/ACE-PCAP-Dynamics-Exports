@@ -33,29 +33,21 @@ VALUES (36650,   1,         16) /* ItemType - Creature */
      , (36650, 386,          0) /* Overpower */
      , (36650, 387,          0) /* OverpowerResist */
      , (36650, 388,          0) /* GearOverpower */
-     , (36650, 389,          0) /* GearOverpowerResist */
-     , (36650, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36650, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36650,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (36650,   1, 'Wall') /* Name */
-     , (36650, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (36650,   1, 'Wall') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36650,   1,   33560307) /* Setup */
      , (36650,   2,  150995147) /* MotionTable */
      , (36650,   3,  536871001) /* SoundTable */
      , (36650,   8,  100670799) /* Icon */
-     , (36650,  22,  872415339) /* PhysicsEffectTable */
-     , (36650, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (36650, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (36650, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (36650,  22,  872415339) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36650, 8040, 10420488, 100.1507, -10.69248, -54, 0.9886553, 0, 0, -0.1502026) /* PCAPRecordedLocation */
 /* @teleloc 0x009F0108 [100.150700 -10.692480 -54.000000] 0.988655 0.000000 0.000000 -0.150203 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36650, 8000, 3709399777) /* PCAPRecordedObjectIID */;

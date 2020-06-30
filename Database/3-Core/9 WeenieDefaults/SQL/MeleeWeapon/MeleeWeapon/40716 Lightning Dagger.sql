@@ -13,14 +13,10 @@ VALUES (40716,   1,          1) /* ItemType - MeleeWeapon */
      , (40716,  51,          1) /* CombatUse - Melee */
      , (40716,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40716, 131,         61) /* MaterialType - Iron */
-     , (40716, 151,          2) /* HookType - Wall */
-     , (40716, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40716, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40716,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40716, 8004,       9) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40716,   1, 'Lightning Dagger') /* Name */;
@@ -29,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40716,   1,   33555707) /* Setup */
      , (40716,   3,  536870932) /* SoundTable */
      , (40716,   8,  100667589) /* Icon */
-     , (40716,  22,  872415275) /* PhysicsEffectTable */
-     , (40716, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40716, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40716, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40716, 8000, 2158714391) /* PCAPRecordedObjectIID */;
+     , (40716,  22,  872415275) /* PhysicsEffectTable */;

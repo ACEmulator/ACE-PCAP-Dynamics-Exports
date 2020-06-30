@@ -12,8 +12,7 @@ VALUES (37341,   1,        128) /* ItemType - Misc */
      , (37341,  15,      30000) /* StackUnitValue */
      , (37341,  16,          1) /* ItemUseable - No */
      , (37341,  19,      30000) /* Value */
-     , (37341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37341, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37341,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37341,   1, 'Glyph of Weapon Tinkering') /* Name */
@@ -25,19 +24,4 @@ VALUES (37341,   1,   33554809) /* Setup */
      , (37341,   6,   67111919) /* PaletteBase */
      , (37341,   8,  100690191) /* Icon */
      , (37341,  22,  872415275) /* PhysicsEffectTable */
-     , (37341,  50,  100686694) /* IconOverlay */
-     , (37341, 8001, 1075867673) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden, IconOverlay */
-     , (37341, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37341, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37341, 8000, 3080765496) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37341, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37341, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37341, 0, 16779181);
+     , (37341,  50,  100686694) /* IconOverlay */;

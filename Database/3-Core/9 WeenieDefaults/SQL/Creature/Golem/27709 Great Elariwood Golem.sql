@@ -12,8 +12,7 @@ VALUES (27709,   1,         16) /* ItemType - Creature */
      , (27709,  25,        100) /* Level */
      , (27709,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27709, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27709, 307,          2) /* DamageRating */
-     , (27709, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27709, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27709,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27709,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27709,   1, 'Great Elariwood Golem') /* Name */
-     , (27709, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (27709,   1, 'Great Elariwood Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27709,   1,   33556428) /* Setup */
@@ -31,17 +29,11 @@ VALUES (27709,   1,   33556428) /* Setup */
      , (27709,   3,  536870933) /* SoundTable */
      , (27709,   6,   67112776) /* PaletteBase */
      , (27709,   8,  100667940) /* Icon */
-     , (27709,  22,  872415322) /* PhysicsEffectTable */
-     , (27709, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (27709, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27709, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (27709,  22,  872415322) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27709, 8040, 583204909, 133.325, 117.3456, 54.46019, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x22C3002D [133.325000 117.345600 54.460190] 0.965926 0.000000 0.000000 -0.258819 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27709, 8000, 2929947733) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27709,   1, 270, 0, 0) /* Strength */
@@ -68,6 +60,3 @@ VALUES (27709, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for Conta
      , (27709, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
      , (27709, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (27709, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27709, 67115186, 0, 0);

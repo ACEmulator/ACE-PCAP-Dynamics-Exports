@@ -25,9 +25,7 @@ VALUES (4804,   1,        256) /* ItemType - MissileWeapon */
      , (4804, 313,          0) /* CritRating */
      , (4804, 314,          0) /* CritDamageRating */
      , (4804, 353,         10) /* WeaponType - Thrown */
-     , (4804, 386,          0) /* Overpower */
-     , (4804, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (4804, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (4804, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4804,  24, True ) /* UiHidden */;
@@ -52,19 +50,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4804,   1,   33556900) /* Setup */
      , (4804,   3,  536870932) /* SoundTable */
      , (4804,   8,  100671205) /* Icon */
-     , (4804,  22,  872415275) /* PhysicsEffectTable */
-     , (4804, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (4804, 8003,        144) /* PCAPRecordedObjectDesc - Attackable, UiHidden */
-     , (4804, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (4804, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (4804,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4804, 8040, 4095213602, 119.52, 28.2778, 159.532, 0.4012963, 0, 0, -0.9159483) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180022 [119.520000 28.277800 159.532000] 0.401296 0.000000 0.000000 -0.915948 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4804, 8000, 3692523535) /* PCAPRecordedObjectIID */
-     , (4804, 8008, 3692523536) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4804, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */

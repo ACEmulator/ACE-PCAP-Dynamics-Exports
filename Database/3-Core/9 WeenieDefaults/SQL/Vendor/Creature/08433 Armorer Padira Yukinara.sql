@@ -17,8 +17,7 @@ VALUES (8433,   1,         16) /* ItemType - Creature */
      , (8433, 113,          2) /* Gender - Female */
      , (8433, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (8433, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (8433, 188,          3) /* HeritageGroup - Sho */
-     , (8433, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (8433, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8433,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (8433,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8433,   1, 'Armorer Padira Yukinara') /* Name */
-     , (8433,   5, 'Armorer') /* Template */
-     , (8433, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (8433,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (8433,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (8433,   1,   33554510) /* Setup */
      , (8433,  11,   83890349) /* MouthTexture */
      , (8433,  15,   67117027) /* HairPalette */
      , (8433,  16,   67109565) /* EyesPalette */
-     , (8433,  17,   67110056) /* SkinPalette */
-     , (8433, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (8433, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (8433, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (8433,  17,   67110056) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8433, 8040, 3911319821, 58.6537, 40.0532, 16.805, 0.3928028, 0, 0, -0.9196227) /* PCAPRecordedLocation */
 /* @teleloc 0xE922010D [58.653700 40.053200 16.805000] 0.392803 0.000000 0.000000 -0.919623 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8433, 8000, 2123505682) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (8433,   1,     0, 0, 0, 180) /* MaxHealth */;
@@ -93,51 +85,3 @@ VALUES (8433, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554)
      , (8433, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (8433, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (8433, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8433, 67109565, 32, 8)
-     , (8433, 67109967, 92, 4)
-     , (8433, 67110056, 0, 24)
-     , (8433, 67110323, 64, 8)
-     , (8433, 67110362, 40, 24)
-     , (8433, 67110376, 216, 24)
-     , (8433, 67110377, 160, 8)
-     , (8433, 67110539, 72, 8)
-     , (8433, 67117027, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8433, 0, 83889072, 83890012)
-     , (8433, 0, 83889342, 83890011)
-     , (8433, 1, 83887064, 83886241)
-     , (8433, 2, 83887066, 83887051)
-     , (8433, 3, 83889344, 83887054)
-     , (8433, 4, 83887068, 83887054)
-     , (8433, 5, 83887064, 83886241)
-     , (8433, 6, 83887066, 83887051)
-     , (8433, 7, 83889344, 83887054)
-     , (8433, 8, 83887068, 83887054)
-     , (8433, 9, 83887070, 83890009)
-     , (8433, 9, 83887062, 83890010)
-     , (8433, 16, 83886232, 83890685)
-     , (8433, 16, 83886668, 83890260)
-     , (8433, 16, 83886837, 83890286)
-     , (8433, 16, 83886684, 83890349);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8433, 0, 16781875)
-     , (8433, 1, 16778430)
-     , (8433, 2, 16781908)
-     , (8433, 3, 16781841)
-     , (8433, 4, 16783485)
-     , (8433, 5, 16778438)
-     , (8433, 6, 16781909)
-     , (8433, 7, 16781840)
-     , (8433, 8, 16783487)
-     , (8433, 9, 16778425)
-     , (8433, 10, 16778431)
-     , (8433, 11, 16778429)
-     , (8433, 12, 16778423)
-     , (8433, 13, 16778434)
-     , (8433, 14, 16778424)
-     , (8433, 15, 16778435)
-     , (8433, 16, 16795655);

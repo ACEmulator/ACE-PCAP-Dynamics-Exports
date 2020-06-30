@@ -12,15 +12,13 @@ VALUES (27980,   1,         16) /* ItemType - Creature */
      , (27980,  25,        135) /* Level */
      , (27980,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27980, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27980, 307,          5) /* DamageRating */
-     , (27980, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27980, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27980,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27980,   1, 'Guruk Behemoth') /* Name */
-     , (27980, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (27980,   1, 'Guruk Behemoth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27980,   1,   33558749) /* Setup */
@@ -28,17 +26,11 @@ VALUES (27980,   1,   33558749) /* Setup */
      , (27980,   3,  536871093) /* SoundTable */
      , (27980,   6,   67115196) /* PaletteBase */
      , (27980,   8,  100676549) /* Icon */
-     , (27980,  22,  872415402) /* PhysicsEffectTable */
-     , (27980, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (27980, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27980, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (27980,  22,  872415402) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27980, 8040, 41484752, 140.036, -33.5693, -41.96836, -0.0292, 0, 0, 0.999574) /* PCAPRecordedLocation */
 /* @teleloc 0x027901D0 [140.036000 -33.569300 -41.968360] -0.029200 0.000000 0.000000 0.999574 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27980, 8000, 3708309097) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27980,   1, 520, 0, 0) /* Strength */
@@ -57,6 +49,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (27980, 2, 27880,  1, 0, 0, False) /* Create Bone Sword (27880) for Wield */
      , (27980, 2, 27868,  1, 0, 0, False) /* Create Stone Axe (27868) for Wield */
      , (27980, 2, 27872,  1, 0, 0, False) /* Create Tree Trunk (27872) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27980, 67115197, 0, 0);

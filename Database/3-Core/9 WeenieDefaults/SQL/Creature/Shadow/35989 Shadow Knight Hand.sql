@@ -12,8 +12,7 @@ VALUES (35989,   1,         16) /* ItemType - Creature */
      , (35989,  25,        185) /* Level */
      , (35989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (35989, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35989, 307,          5) /* DamageRating */
-     , (35989, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35989, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35989,   1, True ) /* Stuck */;
@@ -23,8 +22,7 @@ VALUES (35989,  39,     1.3) /* DefaultScale */
      , (35989,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35989,   1, 'Shadow Knight Hand') /* Name */
-     , (35989, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35989,   1, 'Shadow Knight Hand') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35989,   1,   33559846) /* Setup */
@@ -32,17 +30,11 @@ VALUES (35989,   1,   33559846) /* Setup */
      , (35989,   3,  536871102) /* SoundTable */
      , (35989,   6,   67115468) /* PaletteBase */
      , (35989,   8,  100677371) /* Icon */
-     , (35989,  22,  872415269) /* PhysicsEffectTable */
-     , (35989, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35989, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35989, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (35989,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35989, 8040, 15073758, 129.564, -61.3444, -23.99321, -0.00420404, 0, 0, -0.9999912) /* PCAPRecordedLocation */
 /* @teleloc 0x00E601DE [129.564000 -61.344400 -23.993210] -0.004204 0.000000 0.000000 -0.999991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35989, 8000, 3359967343) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35989,   1, 465, 0, 0) /* Strength */
@@ -81,6 +73,3 @@ VALUES (35989, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield 
      , (35989, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
      , (35989, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
      , (35989, 9, 44800,  0, 0, 0, False) /* Create Dho Vest and Over-Robe (44800) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35989, 67115540, 0, 0);

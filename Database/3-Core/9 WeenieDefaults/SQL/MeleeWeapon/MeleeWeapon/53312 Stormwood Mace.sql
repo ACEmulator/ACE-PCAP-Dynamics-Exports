@@ -26,9 +26,7 @@ VALUES (53312,   1,          1) /* ItemType - MeleeWeapon */
      , (53312, 151,          2) /* HookType - Wall */
      , (53312, 158,          2) /* WieldRequirements - RawSkill */
      , (53312, 159,         45) /* WieldSkillType - LightWeapons */
-     , (53312, 160,        430) /* WieldDifficulty */
-     , (53312, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (53312, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53312, 160,        430) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53312,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (53312,   5,  -0.025) /* ManaRate */
      , (53312,  26,       0) /* MaximumVelocity */
      , (53312,  29,     1.2) /* WeaponDefense */
      , (53312,  62,    1.16) /* WeaponOffense */
-     , (53312,  63,       1) /* DamageMod */
-     , (53312, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53312,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53312,   1, 'Stormwood Mace') /* Name */
@@ -52,13 +49,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53312,   1,   33561667) /* Setup */
      , (53312,   3,  536870932) /* SoundTable */
      , (53312,   8,  100693338) /* Icon */
-     , (53312,  22,  872415275) /* PhysicsEffectTable */
-     , (53312, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (53312, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (53312, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53312, 8000, 3630241489) /* PCAPRecordedObjectIID */;
+     , (53312,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53312,  4395,      2) 

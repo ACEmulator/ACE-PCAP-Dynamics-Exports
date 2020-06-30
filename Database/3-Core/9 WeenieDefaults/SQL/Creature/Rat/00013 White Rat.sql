@@ -11,8 +11,7 @@ VALUES (13,   1,         16) /* ItemType - Creature */
      , (13,  16,          1) /* ItemUseable - No */
      , (13,  25,          8) /* Level */
      , (13,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (13, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (13, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (13, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (13,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13,  39,     2.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (13,   1, 'White Rat') /* Name */
-     , (13, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (13,   1, 'White Rat') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13,   1,   33554493) /* Setup */
@@ -30,17 +28,11 @@ VALUES (13,   1,   33554493) /* Setup */
      , (13,   3,  536870927) /* SoundTable */
      , (13,   6,   67109300) /* PaletteBase */
      , (13,   8,  100667451) /* Icon */
-     , (13,  22,  872415267) /* PhysicsEffectTable */
-     , (13, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (13, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (13, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (13,  22,  872415267) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13, 8040, 3111190798, 40.94862, 37.80659, 22.4134, -0.327804, 0, 0, -0.944746) /* PCAPRecordedLocation */
 /* @teleloc 0xB971010E [40.948620 37.806590 22.413400] -0.327804 0.000000 0.000000 -0.944746 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13, 8000, 3685101223) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (13,   1,  10, 0, 0) /* Strength */
@@ -88,6 +80,3 @@ VALUES (13, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for Contai
      , (13, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */
      , (13, 9, 43294,  0, 0, 0, False) /* Create Scroll of Corruption (43294) for ContainTreasure */
      , (13, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (13, 67111338, 0, 0);

@@ -23,8 +23,7 @@ VALUES (44856,   1,          4) /* ItemType - Clothing */
      , (44856, 265,         60) /* EquipmentSetId - CloakFletching */
      , (44856, 319,          5) /* ItemMaxLevel */
      , (44856, 320,          2) /* ItemXpStyle - ScalesWithLevel */
-     , (44856, 352,          2) /* CloakWeaveProc */
-     , (44856, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44856, 352,          2) /* CloakWeaveProc */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44856,   4,          0) /* ItemTotalXp */
@@ -42,8 +41,7 @@ VALUES (44856,  13,     0.8) /* ArmorModVsSlash */
      , (44856,  17,     0.2) /* ArmorModVsFire */
      , (44856,  18,     0.1) /* ArmorModVsAcid */
      , (44856,  19,     0.2) /* ArmorModVsElectric */
-     , (44856, 165,       1) /* ArmorModVsNether */
-     , (44856, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (44856, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44856,   1, 'Trimmed Cloak') /* Name */
@@ -54,19 +52,7 @@ VALUES (44856,   1,   33561386) /* Setup */
      , (44856,   3,  536870932) /* SoundTable */
      , (44856,   8,  100692128) /* Icon */
      , (44856,  22,  872415275) /* PhysicsEffectTable */
-     , (44856,  50,  100691000) /* IconOverlay */
-     , (44856, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (44856, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44856, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44856, 8000, 3431474257) /* PCAPRecordedObjectIID */;
+     , (44856,  50,  100691000) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44856, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44856, 0, 83898657, 83898665);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44856, 0, 16795839);

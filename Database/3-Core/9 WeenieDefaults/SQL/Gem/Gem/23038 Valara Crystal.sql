@@ -10,8 +10,7 @@ VALUES (23038,   1,       2048) /* ItemType - Gem */
      , (23038,  19,         75) /* Value */
      , (23038,  33,          1) /* Bonded - Bonded */
      , (23038,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23038, 114,          1) /* Attuned - Attuned */
-     , (23038, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23038, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23038,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (23038,   1, 'Valara Crystal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23038,   1,   33554809) /* Setup */
-     , (23038,   8,  100673956) /* Icon */
-     , (23038, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (23038, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23038, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23038, 8000, 2622385827) /* PCAPRecordedObjectIID */;
+     , (23038,   8,  100673956) /* Icon */;

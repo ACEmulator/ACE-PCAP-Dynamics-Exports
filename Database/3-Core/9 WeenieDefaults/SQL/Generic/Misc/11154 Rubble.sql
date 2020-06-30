@@ -21,10 +21,4 @@ VALUES (11154,   1, 'Rubble') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11154,   1,   33556735) /* Setup */
-     , (11154,   8,  100670227) /* Icon */
-     , (11154, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (11154, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11154, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11154, 8000, 2874726571) /* PCAPRecordedObjectIID */;
+     , (11154,   8,  100670227) /* Icon */;

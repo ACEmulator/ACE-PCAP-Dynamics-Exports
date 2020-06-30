@@ -15,8 +15,7 @@ VALUES (38614,   1,        128) /* ItemType - Misc */
      , (38614,  19,          0) /* Value */
      , (38614,  33,          1) /* Bonded - Bonded */
      , (38614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38614, 114,          1) /* Attuned - Attuned */
-     , (38614, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38614, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38614,   1, 'Falatacot Battle Report') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38614,   1,   33554773) /* Setup */
      , (38614,   3,  536870932) /* SoundTable */
      , (38614,   8,  100668176) /* Icon */
-     , (38614,  22,  872415275) /* PhysicsEffectTable */
-     , (38614, 8001,    2125968) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (38614, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (38614, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38614, 8000, 2161047752) /* PCAPRecordedObjectIID */;
+     , (38614,  22,  872415275) /* PhysicsEffectTable */;

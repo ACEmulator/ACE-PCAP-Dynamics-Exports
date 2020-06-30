@@ -17,8 +17,7 @@ VALUES (20213,   1,         16) /* ItemType - Creature */
      , (20213, 113,          2) /* Gender - Female */
      , (20213, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20213, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (20213, 188,          3) /* HeritageGroup - Sho */
-     , (20213, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (20213, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20213,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (20213,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20213,   1, 'Journeyman Scrivener of Item Magic') /* Name */
-     , (20213,   5, 'Master Archmage') /* Template */
-     , (20213, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (20213,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20213,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (20213,   1,   33554510) /* Setup */
      , (20213,  11,   83890327) /* MouthTexture */
      , (20213,  15,   67117076) /* HairPalette */
      , (20213,  16,   67109565) /* EyesPalette */
-     , (20213,  17,   67110047) /* SkinPalette */
-     , (20213, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (20213, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (20213, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (20213,  17,   67110047) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20213, 8040, 3862757721, 126.893, 109.879, 96.005, 0.561965, 0, 0, -0.827161) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D0159 [126.893000 109.879000 96.005000] 0.561965 0.000000 0.000000 -0.827161 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20213, 8000, 2120470585) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20213,   1,  90, 0, 0) /* Strength */
@@ -116,51 +108,3 @@ VALUES (20213, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (20213, 4, 20619, -1, 0, 0, False) /* Create Scroll of Secondary Portal Tie (20619) for Shop */
      , (20213, 4, 20620, -1, 0, 0, False) /* Create Scroll of Primary Portal Recall (20620) for Shop */
      , (20213, 4, 20621, -1, 0, 0, False) /* Create Scroll of Secondary Portal Recall (20621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20213, 67109565, 32, 8)
-     , (20213, 67109964, 92, 4)
-     , (20213, 67110047, 0, 24)
-     , (20213, 67110334, 216, 24)
-     , (20213, 67110356, 40, 24)
-     , (20213, 67110375, 160, 8)
-     , (20213, 67110380, 64, 8)
-     , (20213, 67110540, 72, 8)
-     , (20213, 67117076, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (20213, 0, 83889072, 83890012)
-     , (20213, 0, 83889342, 83890011)
-     , (20213, 1, 83887064, 83886241)
-     , (20213, 2, 83887066, 83887051)
-     , (20213, 3, 83889344, 83887054)
-     , (20213, 4, 83887068, 83887054)
-     , (20213, 5, 83887064, 83886241)
-     , (20213, 6, 83887066, 83887051)
-     , (20213, 7, 83889344, 83887054)
-     , (20213, 8, 83887068, 83887054)
-     , (20213, 9, 83887070, 83890009)
-     , (20213, 9, 83887062, 83890010)
-     , (20213, 16, 83886232, 83890685)
-     , (20213, 16, 83886668, 83890281)
-     , (20213, 16, 83886837, 83890287)
-     , (20213, 16, 83886684, 83890327);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (20213, 0, 16781875)
-     , (20213, 1, 16778430)
-     , (20213, 2, 16781908)
-     , (20213, 3, 16781841)
-     , (20213, 4, 16783485)
-     , (20213, 5, 16778438)
-     , (20213, 6, 16781909)
-     , (20213, 7, 16781840)
-     , (20213, 8, 16783487)
-     , (20213, 9, 16778425)
-     , (20213, 10, 16778431)
-     , (20213, 11, 16778429)
-     , (20213, 12, 16778423)
-     , (20213, 13, 16778434)
-     , (20213, 14, 16778424)
-     , (20213, 15, 16778435)
-     , (20213, 16, 16795640);

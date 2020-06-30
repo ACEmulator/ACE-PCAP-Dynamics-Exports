@@ -12,8 +12,7 @@ VALUES (1240,   1,         16) /* ItemType - Creature */
      , (1240,  25,         20) /* Level */
      , (1240,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1240, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1240, 307,          5) /* DamageRating */
-     , (1240, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1240, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1240,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1240,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1240,   1, 'Oversized Banderling Ogre') /* Name */
-     , (1240, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1240,   1, 'Oversized Banderling Ogre') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1240,   1,   33558024) /* Setup */
@@ -31,17 +29,11 @@ VALUES (1240,   1,   33558024) /* Setup */
      , (1240,   3,  536870917) /* SoundTable */
      , (1240,   6,   67114021) /* PaletteBase */
      , (1240,   8,  100667453) /* Icon */
-     , (1240,  22,  872415255) /* PhysicsEffectTable */
-     , (1240, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1240, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1240, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (1240,  22,  872415255) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1240, 8040, 31654729, 20, -110, 6.0077, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x01E30349 [20.000000 -110.000000 6.007700] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1240, 8000, 2874309613) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1240,   1, 130, 0, 0) /* Strength */
@@ -70,6 +62,3 @@ VALUES (1240, 2,   344,  1, 0, 0, False) /* Create Silifi (344) for Wield */
      , (1240, 9,   273, 36, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (1240, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
      , (1240, 9, 27322,  1, 0, 0, False) /* Create Mana Tincture (27322) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1240, 67114034, 0, 0);

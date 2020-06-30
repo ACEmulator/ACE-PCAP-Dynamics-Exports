@@ -11,15 +11,13 @@ VALUES (52278,   1,         16) /* ItemType - Creature */
      , (52278,  16,          1) /* ItemUseable - No */
      , (52278,  25,        300) /* Level */
      , (52278,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (52278, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (52278, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52278, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52278,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52278,   1, 'Rynthid Sorcerer') /* Name */
-     , (52278, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (52278,   1, 'Rynthid Sorcerer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52278,   1,   33561548) /* Setup */
@@ -27,17 +25,11 @@ VALUES (52278,   1,   33561548) /* Setup */
      , (52278,   3,  536870930) /* SoundTable */
      , (52278,   6,   67111346) /* PaletteBase */
      , (52278,   8,  100667943) /* Icon */
-     , (52278,  22,  872415273) /* PhysicsEffectTable */
-     , (52278, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52278, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52278, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (52278,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52278, 8040, 758186040, 160.5064, 190.2407, 132.029, -0.1039253, 0, 0, -0.9945851) /* PCAPRecordedLocation */
 /* @teleloc 0x2D310038 [160.506400 190.240700 132.029000] -0.103925 0.000000 0.000000 -0.994585 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52278, 8000, 3707650002) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (52278,   1,     0, 0, 0, 7675) /* MaxHealth */;
@@ -53,6 +45,3 @@ VALUES (52278, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for C
      , (52278, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (52278, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
      , (52278, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52278, 67114319, 0, 0);

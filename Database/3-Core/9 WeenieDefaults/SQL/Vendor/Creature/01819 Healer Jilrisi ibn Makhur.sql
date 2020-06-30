@@ -17,8 +17,7 @@ VALUES (1819,   1,         16) /* ItemType - Creature */
      , (1819, 113,          1) /* Gender - Male */
      , (1819, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1819, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1819, 188,          2) /* HeritageGroup - Gharundim */
-     , (1819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1819, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1819,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1819,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1819,   1, 'Healer Jilrisi ibn Makhur') /* Name */
-     , (1819,   5, 'Healer') /* Template */
-     , (1819, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1819,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1819,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1819,   1,   33554433) /* Setup */
      , (1819,  11,   83890600) /* MouthTexture */
      , (1819,  15,   67117068) /* HairPalette */
      , (1819,  16,   67110062) /* EyesPalette */
-     , (1819,  17,   67109552) /* SkinPalette */
-     , (1819, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1819, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1819, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1819,  17,   67109552) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1819, 8040, 2272067841, 59.5216, 36.7188, 9.705, -0.822037, 0, 0, -0.569434) /* PCAPRecordedLocation */
 /* @teleloc 0x876D0101 [59.521600 36.718800 9.705000] -0.822037 0.000000 0.000000 -0.569434 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1819, 8000, 2021052417) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1819,   1,  98, 0, 0) /* Strength */
@@ -86,56 +78,3 @@ VALUES (1819, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (1819, 4,  4599, -1, 0, 0, False) /* Create Mana Renewal Other I (4599) for Shop */
      , (1819, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1819, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1819, 67109552, 0, 24)
-     , (1819, 67110026, 72, 8)
-     , (1819, 67110062, 32, 8)
-     , (1819, 67110320, 64, 8)
-     , (1819, 67110356, 216, 24)
-     , (1819, 67110356, 240, 10)
-     , (1819, 67110369, 40, 24)
-     , (1819, 67110378, 160, 8)
-     , (1819, 67110551, 92, 4)
-     , (1819, 67117068, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1819, 0, 83889072, 83890012)
-     , (1819, 0, 83889342, 83890011)
-     , (1819, 1, 83887064, 83886241)
-     , (1819, 2, 83887066, 83887051)
-     , (1819, 3, 83889344, 83887054)
-     , (1819, 4, 83887068, 83887054)
-     , (1819, 5, 83887064, 83886241)
-     , (1819, 6, 83887066, 83887051)
-     , (1819, 7, 83889344, 83887054)
-     , (1819, 8, 83887068, 83887054)
-     , (1819, 9, 83887061, 83890009)
-     , (1819, 9, 83887060, 83890010)
-     , (1819, 10, 83887069, 83886782)
-     , (1819, 13, 83887069, 83886782)
-     , (1819, 16, 83886232, 83890359)
-     , (1819, 16, 83886668, 83890443)
-     , (1819, 16, 83886837, 83890561)
-     , (1819, 16, 83886684, 83890600)
-     , (1819, 16, 83888783, 83888783)
-     , (1819, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1819, 0, 16781835)
-     , (1819, 1, 16777295)
-     , (1819, 2, 16781866)
-     , (1819, 3, 16781841)
-     , (1819, 4, 16781838)
-     , (1819, 5, 16777299)
-     , (1819, 6, 16781864)
-     , (1819, 7, 16781840)
-     , (1819, 8, 16781839)
-     , (1819, 9, 16777300)
-     , (1819, 10, 16777301)
-     , (1819, 11, 16777302)
-     , (1819, 12, 16777304)
-     , (1819, 13, 16777303)
-     , (1819, 14, 16777305)
-     , (1819, 15, 16777307)
-     , (1819, 16, 16778476);

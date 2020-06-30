@@ -24,9 +24,7 @@ VALUES (45120,   1,          1) /* ItemType - MeleeWeapon */
      , (45120, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45120, 160,        300) /* WieldDifficulty */
      , (45120, 172,          1) /* AppraisalLongDescDecoration */
-     , (45120, 353,          1) /* WeaponType - Unarmed */
-     , (45120, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45120, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45120, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45120,  22, True ) /* Inscribable */;
@@ -38,8 +36,7 @@ VALUES (45120,  21,       0) /* WeaponLength */
      , (45120,  29,    1.09) /* WeaponDefense */
      , (45120,  39,     0.8) /* DefaultScale */
      , (45120,  62,    1.12) /* WeaponOffense */
-     , (45120,  63,       1) /* DamageMod */
-     , (45120, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (45120,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45120,   1, 'Lightning Hand Wraps') /* Name */
@@ -51,20 +48,4 @@ VALUES (45120,   1,   33561412) /* Setup */
      , (45120,   6,   67115556) /* PaletteBase */
      , (45120,   8,  100692315) /* Icon */
      , (45120,  22,  872415275) /* PhysicsEffectTable */
-     , (45120,  52,  100676438) /* IconUnderlay */
-     , (45120, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45120, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45120, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45120, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45120, 8000, 2173710328) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45120, 67116446, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45120, 0, 83896019, 83896019);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45120, 0, 16792139);
+     , (45120,  52,  100676438) /* IconUnderlay */;

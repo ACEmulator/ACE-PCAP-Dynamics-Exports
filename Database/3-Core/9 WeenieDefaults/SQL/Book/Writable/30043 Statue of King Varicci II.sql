@@ -8,9 +8,7 @@ VALUES (30043,   1,       8192) /* ItemType - Writable */
      , (30043,   5,       4000) /* EncumbranceVal */
      , (30043,  16,         32) /* ItemUseable - Remote */
      , (30043,  19,          0) /* Value */
-     , (30043,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */
-     , (30043, 8042,          1) /* PCAPRecordedAppraisalPages */
-     , (30043, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
+     , (30043,  93,       1040) /* PhysicsState - IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30043,   1, True ) /* Stuck */;
@@ -27,17 +25,11 @@ VALUES (30043,   1, 'Statue of King Varicci II') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30043,   1,   33559094) /* Setup */
      , (30043,   3,  536871026) /* SoundTable */
-     , (30043,   8,  100686580) /* Icon */
-     , (30043, 8001,    2097200) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Burden */
-     , (30043, 8003,        276) /* PCAPRecordedObjectDesc - Stuck, Attackable, Book */
-     , (30043, 8005,      34945) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position */;
+     , (30043,   8,  100686580) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30043, 8040, 869859347, 59.3836, 59.4684, 52, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x33D90013 [59.383600 59.468400 52.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30043, 8000, 1933414402) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (30043, 1, 1000);

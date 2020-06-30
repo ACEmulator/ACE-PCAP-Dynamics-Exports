@@ -17,8 +17,7 @@ VALUES (42809,   1,         16) /* ItemType - Creature */
      , (42809, 113,          1) /* Gender - Male */
      , (42809, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42809, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (42809, 188,          3) /* HeritageGroup - Sho */
-     , (42809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42809, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42809,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (42809,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42809,   1, 'Junjie the Barkeeper') /* Name */
-     , (42809,   5, 'Barkeeper') /* Template */
-     , (42809, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (42809,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42809,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (42809,   1,   33554433) /* Setup */
      , (42809,  11,   83890613) /* MouthTexture */
      , (42809,  15,   67117072) /* HairPalette */
      , (42809,  16,   67110062) /* EyesPalette */
-     , (42809,  17,   67110045) /* SkinPalette */
-     , (42809, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (42809, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (42809, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (42809,  17,   67110045) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42809, 8040, 459128, 123.057, -69.343, 0.004999995, -0.6828716, 0, 0, -0.7305384) /* PCAPRecordedLocation */
 /* @teleloc 0x00070178 [123.057000 -69.343000 0.005000] -0.682872 0.000000 0.000000 -0.730538 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42809, 8000, 1879077018) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42809,   1,  55, 0, 0) /* Strength */
@@ -95,53 +87,3 @@ VALUES (42809, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Sho
      , (42809, 4, 52019, -1, 0, 0, False) /* Create Contract for Fear Factory (52019) for Shop */
      , (42809, 4, 52017, -1, 0, 0, False) /* Create Contract for Rynthid Genesis (52017) for Shop */
      , (42809, 4, 52020, -1, 0, 0, False) /* Create Contract for Spirited Halls (52020) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42809, 67109964, 92, 4)
-     , (42809, 67110003, 72, 8)
-     , (42809, 67110045, 0, 24)
-     , (42809, 67110062, 32, 8)
-     , (42809, 67110320, 216, 24)
-     , (42809, 67110334, 64, 8)
-     , (42809, 67110383, 40, 24)
-     , (42809, 67111245, 160, 8)
-     , (42809, 67117072, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42809, 0, 83889072, 83890012)
-     , (42809, 0, 83889342, 83890011)
-     , (42809, 1, 83887064, 83886241)
-     , (42809, 2, 83887066, 83887051)
-     , (42809, 3, 83889344, 83887054)
-     , (42809, 4, 83887068, 83887054)
-     , (42809, 5, 83887064, 83886241)
-     , (42809, 6, 83887066, 83887051)
-     , (42809, 7, 83889344, 83887054)
-     , (42809, 8, 83887068, 83887054)
-     , (42809, 9, 83887061, 83890009)
-     , (42809, 9, 83887060, 83890010)
-     , (42809, 10, 83886796, 83886782)
-     , (42809, 13, 83886796, 83886782)
-     , (42809, 16, 83886232, 83890685)
-     , (42809, 16, 83886668, 83890449)
-     , (42809, 16, 83886837, 83890548)
-     , (42809, 16, 83886684, 83890613);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42809, 0, 16781835)
-     , (42809, 1, 16777295)
-     , (42809, 2, 16781866)
-     , (42809, 3, 16781841)
-     , (42809, 4, 16781838)
-     , (42809, 5, 16777299)
-     , (42809, 6, 16781864)
-     , (42809, 7, 16781840)
-     , (42809, 8, 16781839)
-     , (42809, 9, 16777300)
-     , (42809, 10, 16781867)
-     , (42809, 11, 16777302)
-     , (42809, 12, 16777304)
-     , (42809, 13, 16781868)
-     , (42809, 14, 16777305)
-     , (42809, 15, 16777307)
-     , (42809, 16, 16795665);

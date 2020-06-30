@@ -11,8 +11,7 @@ VALUES (35882,   1,         16) /* ItemType - Creature */
      , (35882,  16,          1) /* ItemUseable - No */
      , (35882,  25,        160) /* Level */
      , (35882,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35882, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35882, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35882, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35882,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (35882,  39,     0.8) /* DefaultScale */
      , (35882,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35882,   1, 'Paradox-touched Olthoi Eviscerator') /* Name */
-     , (35882, 8006, 'AAA9AIAAAABRAA4AAACAPw==') /* PCAPRecordedCurrentMotionState */;
+VALUES (35882,   1, 'Paradox-touched Olthoi Eviscerator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35882,   1,   33560314) /* Setup */
@@ -32,17 +30,11 @@ VALUES (35882,   1,   33560314) /* Setup */
      , (35882,   6,   67113194) /* PaletteBase */
      , (35882,   8,  100667623) /* Icon */
      , (35882,  22,  872415378) /* PhysicsEffectTable */
-     , (35882,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (35882, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35882, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35882, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (35882,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35882, 8040, 3300261940, 155.1361, 93.29488, 223.1843, 0.906397, 0, 0, -0.422427) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B60034 [155.136100 93.294880 223.184300] 0.906397 0.000000 0.000000 -0.422427 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35882, 8000, 3701495739) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35882,   1, 360, 0, 0) /* Strength */
@@ -228,6 +220,3 @@ VALUES (35882, 9, 20420,  0, 0, 0, False) /* Create Scroll of Astyrrian's Bane (
      , (35882, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (35882, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
      , (35882, 9, 46883,  0, 0, 0, False) /* Create Aura of Swift Killer Other VII (46883) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35882, 67116825, 0, 0);

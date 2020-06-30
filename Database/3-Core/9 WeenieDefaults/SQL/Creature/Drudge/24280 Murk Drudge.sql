@@ -12,21 +12,16 @@ VALUES (24280,   1,         16) /* ItemType - Creature */
      , (24280,  25,        100) /* Level */
      , (24280,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (24280, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24280, 307,          7) /* DamageRating */
-     , (24280, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24280, 307,          7) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24280,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (24280,  39,     1.3) /* DefaultScale */
-     , (24280, 8010,       0) /* PCAPRecordedVelocityX */
-     , (24280, 8011,       0) /* PCAPRecordedVelocityY */
-     , (24280, 8012, -35.338) /* PCAPRecordedVelocityZ */;
+VALUES (24280,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24280,   1, 'Murk Drudge') /* Name */
-     , (24280, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24280,   1, 'Murk Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24280,   1,   33556445) /* Setup */
@@ -34,17 +29,11 @@ VALUES (24280,   1,   33556445) /* Setup */
      , (24280,   3,  536870919) /* SoundTable */
      , (24280,   6,   67112812) /* PaletteBase */
      , (24280,   8,  100667445) /* Icon */
-     , (24280,  22,  872415258) /* PhysicsEffectTable */
-     , (24280, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24280, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24280, 8005,     104647) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (24280,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24280, 8040, 2261647378, 50.63382, 46.46479, 197.5996, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x86CE0012 [50.633820 46.464790 197.599600] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24280, 8000, 3685861677) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24280,   1, 200, 0, 0) /* Strength */
@@ -505,22 +494,3 @@ VALUES (24280, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for 
      , (24280, 9, 29251,  0, 0, 0, False) /* Create Slashing Crossbow (29251) for ContainTreasure */
      , (24280, 9, 29261,  0, 0, 0, False) /* Create Electric Sceptre (29261) for ContainTreasure */
      , (24280, 9, 20254,  0, 0, 0, False) /* Create Scroll of Might of the Lugians (20254) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24280, 67114280, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24280, 2, 83892455, 83892456)
-     , (24280, 3, 83892453, 83892454)
-     , (24280, 5, 83892455, 83892456)
-     , (24280, 6, 83892453, 83892454)
-     , (24280, 14, 83892463, 83892464)
-     , (24280, 14, 83892465, 83892465)
-     , (24280, 14, 83892466, 83892466);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24280, 2, 16784265)
-     , (24280, 3, 16784258)
-     , (24280, 5, 16784269)
-     , (24280, 6, 16784261)
-     , (24280, 14, 16784286);

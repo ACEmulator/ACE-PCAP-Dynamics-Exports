@@ -18,8 +18,7 @@ VALUES (24218,   1,         16) /* ItemType - Creature */
      , (24218, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24218, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (24218, 188,          2) /* HeritageGroup - Gharundim */
-     , (24218, 307,          5) /* DamageRating */
-     , (24218, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24218, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24218,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (24218,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24218,   1, 'Bowyer Xana Bin-Xara') /* Name */
-     , (24218,   5, 'Bowyer') /* Template */
-     , (24218, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24218,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24218,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (24218,   1,   33554510) /* Setup */
      , (24218,  11,   83890324) /* MouthTexture */
      , (24218,  15,   67117080) /* HairPalette */
      , (24218,  16,   67110063) /* EyesPalette */
-     , (24218,  17,   67109557) /* SkinPalette */
-     , (24218, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24218, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24218, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (24218,  17,   67109557) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24218, 8040, 1060241426, 55.8867, 27.6451, 5.605, -0.2407149, 0, 0, -0.9705958) /* PCAPRecordedLocation */
 /* @teleloc 0x3F320012 [55.886700 27.645100 5.605000] -0.240715 0.000000 0.000000 -0.970596 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24218, 8000, 1945313302) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24218,   1,  80, 0, 0) /* Strength */
@@ -114,49 +106,3 @@ VALUES (24218, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (24218, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (24218, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (24218, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24218, 67109557, 0, 24)
-     , (24218, 67109964, 92, 4)
-     , (24218, 67110020, 72, 8)
-     , (24218, 67110063, 32, 8)
-     , (24218, 67110356, 40, 24)
-     , (24218, 67110356, 160, 8)
-     , (24218, 67111304, 64, 8)
-     , (24218, 67111304, 216, 24)
-     , (24218, 67117080, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24218, 0, 83889072, 83890012)
-     , (24218, 0, 83889342, 83890011)
-     , (24218, 1, 83887064, 83886241)
-     , (24218, 3, 83889344, 83887054)
-     , (24218, 4, 83887068, 83887054)
-     , (24218, 5, 83887064, 83886241)
-     , (24218, 7, 83889344, 83887054)
-     , (24218, 8, 83887068, 83887054)
-     , (24218, 9, 83887070, 83890009)
-     , (24218, 9, 83887062, 83890010)
-     , (24218, 16, 83886232, 83890685)
-     , (24218, 16, 83886668, 83890255)
-     , (24218, 16, 83886837, 83890285)
-     , (24218, 16, 83886684, 83890324);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24218, 0, 16781875)
-     , (24218, 1, 16778430)
-     , (24218, 2, 16778436)
-     , (24218, 3, 16778361)
-     , (24218, 4, 16778426)
-     , (24218, 5, 16778438)
-     , (24218, 6, 16778437)
-     , (24218, 7, 16778360)
-     , (24218, 8, 16778428)
-     , (24218, 9, 16778425)
-     , (24218, 10, 16778431)
-     , (24218, 11, 16778429)
-     , (24218, 12, 16778423)
-     , (24218, 13, 16778434)
-     , (24218, 14, 16778424)
-     , (24218, 15, 16778435)
-     , (24218, 16, 16795675);

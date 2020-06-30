@@ -9,8 +9,7 @@ VALUES (11930,   1,        128) /* ItemType - Misc */
      , (11930,  16,          1) /* ItemUseable - No */
      , (11930,  19,     100000) /* Value */
      , (11930,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11930, 151,          9) /* HookType - Floor, Yard */
-     , (11930, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11930, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11930,  22, True ) /* Inscribable */;
@@ -21,10 +20,4 @@ VALUES (11930,   1, 'Arcane Pedestal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11930,   1,   33557166) /* Setup */
-     , (11930,   8,  100671779) /* Icon */
-     , (11930, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (11930, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11930, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11930, 8000, 2982968646) /* PCAPRecordedObjectIID */;
+     , (11930,   8,  100671779) /* Icon */;

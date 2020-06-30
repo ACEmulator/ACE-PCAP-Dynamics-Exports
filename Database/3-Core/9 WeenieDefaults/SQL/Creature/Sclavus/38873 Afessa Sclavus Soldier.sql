@@ -11,8 +11,7 @@ VALUES (38873,   1,         16) /* ItemType - Creature */
      , (38873,  16,          1) /* ItemUseable - No */
      , (38873,  25,        240) /* Level */
      , (38873,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38873, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38873, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38873, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38873,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38873,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38873,   1, 'Afessa Sclavus Soldier') /* Name */
-     , (38873, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38873,   1, 'Afessa Sclavus Soldier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38873,   1,   33560596) /* Setup */
@@ -30,17 +28,11 @@ VALUES (38873,   1,   33560596) /* Setup */
      , (38873,   3,  536870977) /* SoundTable */
      , (38873,   6,   67111936) /* PaletteBase */
      , (38873,   8,  100669120) /* Icon */
-     , (38873,  22,  872415280) /* PhysicsEffectTable */
-     , (38873, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38873, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38873, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (38873,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38873, 8040, 2665807913, 122.6907, 16.94953, 82.22423, 0.00636919, 0, 0, 0.99998) /* PCAPRecordedLocation */
 /* @teleloc 0x9EE50029 [122.690700 16.949530 82.224230] 0.006369 0.000000 0.000000 0.999980 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38873, 8000, 3709135591) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (38873,   1,     0, 0, 0, 1215) /* MaxHealth */;
@@ -54,6 +46,3 @@ VALUES (38873, 2, 46405,  1, 0, 0, False) /* Create T'thuun Sword (46405) for Wi
      , (38873, 2, 40266,  1, 0, 0, False) /* Create T'thuun Aegis (40266) for Wield */
      , (38873, 2, 47072,  1, 0, 0, False) /* Create Arrow (47072) for Wield */
      , (38873, 2, 46403,  1, 0, 0, False) /* Create T'thuun Mace (46403) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38873, 67111938, 0, 0);

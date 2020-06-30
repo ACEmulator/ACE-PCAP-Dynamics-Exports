@@ -13,8 +13,7 @@ VALUES (49067,   1,         16) /* ItemType - Creature */
      , (49067,  93,       1036) /* PhysicsState - Ethereal, ReportCollisions, Gravity */
      , (49067, 133,          1) /* ShowableOnRadar - ShowNever */
      , (49067, 307,         11) /* DamageRating */
-     , (49067, 316,         12) /* CritDamageResistRating */
-     , (49067, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (49067, 316,         12) /* CritDamageResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49067,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ VALUES (49067,  39,     0.6) /* DefaultScale */
      , (49067,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (49067,   1, 'Grievver') /* Name */
-     , (49067, 8006, 'AAA8AAEAAAA8AAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (49067,   1, 'Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49067,   1,   33561527) /* Setup */
@@ -34,18 +32,11 @@ VALUES (49067,   1,   33561527) /* Setup */
      , (49067,   6,   67112927) /* PaletteBase */
      , (49067,   8,  100670960) /* Icon */
      , (49067,  22,  872415364) /* PhysicsEffectTable */
-     , (49067,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (49067, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (49067, 8002,          8) /* PCAPRecordedWeenieHeader2 - PetOwner */
-     , (49067, 8003,   67108884) /* PCAPRecordedObjectDesc - Stuck, Attackable, IncludesSecondHeader */
-     , (49067, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (49067,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (49067, 8040, 1615069548, 9.96415, -57.54706, -18.0009, -0.9995069, 0, 0, -0.03140112) /* PCAPRecordedLocation */
 /* @teleloc 0x6044016C [9.964150 -57.547060 -18.000900] -0.999507 0.000000 0.000000 -0.031401 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49067, 8000, 3690036778) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (49067,   1, 150, 0, 0) /* Strength */
@@ -59,6 +50,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49067,   1,   580, 0, 0, 670) /* MaxHealth */
      , (49067,   3,   750, 0, 0, 930) /* MaxStamina */
      , (49067,   5,   350, 0, 0, 460) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (49067, 67113744, 0, 0);

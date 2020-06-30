@@ -23,11 +23,4 @@ VALUES (34082,   1,   33556678) /* Setup */
      , (34082,   3,  536870932) /* SoundTable */
      , (34082,   8,  100689228) /* Icon */
      , (34082,  22,  872415275) /* PhysicsEffectTable */
-     , (34082,  52,  100667856) /* IconUnderlay */
-     , (34082, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
-     , (34082, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (34082, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (34082, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34082, 8000, 2175201616) /* PCAPRecordedObjectIID */;
+     , (34082,  52,  100667856) /* IconUnderlay */;

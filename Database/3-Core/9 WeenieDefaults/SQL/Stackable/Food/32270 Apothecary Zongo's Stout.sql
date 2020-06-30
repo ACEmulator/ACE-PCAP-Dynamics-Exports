@@ -38,14 +38,7 @@ VALUES (32270,   1,   33559128) /* Setup */
      , (32270,  22,  872415275) /* PhysicsEffectTable */
      , (32270,  28,       3864) /* Spell - ZongoFist */
      , (32270,  50,  100687554) /* IconOverlay */
-     , (32270,  52,  100687547) /* IconUnderlay */
-     , (32270, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
-     , (32270, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (32270, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (32270, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32270, 8000, 2159694034) /* PCAPRecordedObjectIID */;
+     , (32270,  52,  100687547) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32270,  3864,      2) ;

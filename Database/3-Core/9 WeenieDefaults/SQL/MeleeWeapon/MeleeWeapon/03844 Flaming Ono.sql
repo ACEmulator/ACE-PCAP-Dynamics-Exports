@@ -33,9 +33,7 @@ VALUES (3844,   1,          1) /* ItemType - MeleeWeapon */
      , (3844, 176,         45) /* AppraisalItemSkill */
      , (3844, 177,          2) /* GemCount */
      , (3844, 178,         16) /* GemType */
-     , (3844, 353,          3) /* WeaponType - Axe */
-     , (3844, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3844, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3844, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3844,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3844,   5,  -0.056) /* ManaRate */
      , (3844,  26,       0) /* MaximumVelocity */
      , (3844,  29,    1.08) /* WeaponDefense */
      , (3844,  62,    1.16) /* WeaponOffense */
-     , (3844,  63,       1) /* DamageMod */
-     , (3844, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3844,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3844,   1, 'Flaming Ono') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3844,   1,   33555688) /* Setup */
      , (3844,   3,  536870932) /* SoundTable */
      , (3844,   8,  100668985) /* Icon */
-     , (3844,  22,  872415275) /* PhysicsEffectTable */
-     , (3844, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3844, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3844, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3844, 8000, 3688474771) /* PCAPRecordedObjectIID */;
+     , (3844,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3844,  1402,      2) 

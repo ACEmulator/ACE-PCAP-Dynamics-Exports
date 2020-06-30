@@ -16,8 +16,7 @@ VALUES (28069,   1,          4) /* ItemType - Clothing */
      , (28069, 107,        999) /* ItemCurMana */
      , (28069, 108,       1000) /* ItemMaxMana */
      , (28069, 109,        100) /* ItemDifficulty */
-     , (28069, 151,          2) /* HookType - Wall */
-     , (28069, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28069, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28069,  22, True ) /* Inscribable */;
@@ -44,23 +43,11 @@ VALUES (28069,   1,   33558881) /* Setup */
      , (28069,   3,  536870932) /* SoundTable */
      , (28069,   6,   67108990) /* PaletteBase */
      , (28069,   8,  100676725) /* Icon */
-     , (28069,  22,  872415275) /* PhysicsEffectTable */
-     , (28069, 8001,  270860312) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, HookType */
-     , (28069, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28069, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (28069,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28069, 8040, 2224423221, 80.63207, 154.4071, 120.0313, 0.9448352, 0, 0, -0.3275461) /* PCAPRecordedLocation */
 /* @teleloc 0x84960135 [80.632070 154.407100 120.031300] 0.944835 0.000000 0.000000 -0.327546 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28069, 8000, 2174536892) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28069,  1317,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28069, 67114354, 240, 16);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28069, 0, 16790503);

@@ -17,8 +17,7 @@ VALUES (1047,   1,         16) /* ItemType - Creature */
      , (1047, 113,          1) /* Gender - Male */
      , (1047, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1047, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1047, 188,          2) /* HeritageGroup - Gharundim */
-     , (1047, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1047, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1047,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1047,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1047,   1, 'Arlad ibn Mulud the Tailor') /* Name */
-     , (1047,   5, 'Tailor') /* Template */
-     , (1047, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1047,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1047,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1047,   1,   33554433) /* Setup */
      , (1047,  11,   83890621) /* MouthTexture */
      , (1047,  15,   67117017) /* HairPalette */
      , (1047,  16,   67110063) /* EyesPalette */
-     , (1047,  17,   67109555) /* SkinPalette */
-     , (1047, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1047, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1047, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1047,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1047, 8040, 2103705870, 88.6799, 138.12, 12.005, -0.5519369, 0, 0, -0.8338858) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64010E [88.679900 138.120000 12.005000] -0.551937 0.000000 0.000000 -0.833886 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1047, 8000, 2010529804) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1047,   1, 110, 0, 0) /* Strength */
@@ -81,54 +73,3 @@ VALUES (1047, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop *
      , (1047, 4,  8373, -1, 0, 0, False) /* Create Kiyafa Robe (8373) for Shop */
      , (1047, 4, 25984, -1, 0, 0, False) /* Create Sparring Shirt (25984) for Shop */
      , (1047, 4, 25983, -1, 0, 0, False) /* Create Sparring Pants (25983) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1047, 67109555, 0, 24)
-     , (1047, 67109969, 92, 4)
-     , (1047, 67110026, 72, 8)
-     , (1047, 67110063, 32, 8)
-     , (1047, 67110317, 40, 24)
-     , (1047, 67110317, 64, 8)
-     , (1047, 67110317, 160, 8)
-     , (1047, 67110318, 216, 24)
-     , (1047, 67110363, 240, 10)
-     , (1047, 67117017, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1047, 0, 83889072, 83890012)
-     , (1047, 0, 83889342, 83890011)
-     , (1047, 1, 83887064, 83886241)
-     , (1047, 2, 83887066, 83887051)
-     , (1047, 3, 83889344, 83887054)
-     , (1047, 4, 83887068, 83887054)
-     , (1047, 5, 83887064, 83886241)
-     , (1047, 6, 83887066, 83887051)
-     , (1047, 7, 83889344, 83887054)
-     , (1047, 8, 83887068, 83887054)
-     , (1047, 9, 83887061, 83890009)
-     , (1047, 9, 83887060, 83890010)
-     , (1047, 16, 83886232, 83890685)
-     , (1047, 16, 83886668, 83890481)
-     , (1047, 16, 83886837, 83890560)
-     , (1047, 16, 83886684, 83890621)
-     , (1047, 16, 83888783, 83888783)
-     , (1047, 16, 83888784, 83888784);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1047, 0, 16781835)
-     , (1047, 1, 16777295)
-     , (1047, 2, 16781866)
-     , (1047, 3, 16781841)
-     , (1047, 4, 16781838)
-     , (1047, 5, 16777299)
-     , (1047, 6, 16781864)
-     , (1047, 7, 16781840)
-     , (1047, 8, 16781839)
-     , (1047, 9, 16777300)
-     , (1047, 10, 16777301)
-     , (1047, 11, 16777302)
-     , (1047, 12, 16777304)
-     , (1047, 13, 16777303)
-     , (1047, 14, 16777305)
-     , (1047, 15, 16777307)
-     , (1047, 16, 16778476);

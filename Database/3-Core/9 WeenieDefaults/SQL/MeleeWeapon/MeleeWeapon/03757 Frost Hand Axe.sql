@@ -26,9 +26,7 @@ VALUES (3757,   1,          1) /* ItemType - MeleeWeapon */
      , (3757, 172,          5) /* AppraisalLongDescDecoration */
      , (3757, 177,          1) /* GemCount */
      , (3757, 178,         34) /* GemType */
-     , (3757, 353,          3) /* WeaponType - Axe */
-     , (3757, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3757, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3757, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3757,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (3757,  21,       0) /* WeaponLength */
      , (3757,  29,    1.11) /* WeaponDefense */
      , (3757,  39,     1.2) /* DefaultScale */
      , (3757,  62,    1.14) /* WeaponOffense */
-     , (3757,  63,       1) /* DamageMod */
-     , (3757, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3757,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3757,   1, 'Frost Hand Axe') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3757,   1,   33555705) /* Setup */
      , (3757,   3,  536870932) /* SoundTable */
      , (3757,   8,  100670216) /* Icon */
-     , (3757,  22,  872415275) /* PhysicsEffectTable */
-     , (3757, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3757, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3757, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3757, 8000, 3684607070) /* PCAPRecordedObjectIID */;
+     , (3757,  22,  872415275) /* PhysicsEffectTable */;

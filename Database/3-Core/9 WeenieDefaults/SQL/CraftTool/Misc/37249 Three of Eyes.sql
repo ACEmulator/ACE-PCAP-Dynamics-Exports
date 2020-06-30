@@ -12,8 +12,7 @@ VALUES (37249,   1,        128) /* ItemType - Misc */
      , (37249,  15,          0) /* StackUnitValue */
      , (37249,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37249,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37249,  94,        128) /* TargetType - Misc */
-     , (37249, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37249,  94,        128) /* TargetType - Misc */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37249,   1, 'Three of Eyes') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37249,   1,   33560547) /* Setup */
      , (37249,   3,  536870932) /* SoundTable */
      , (37249,   8,  100689855) /* Icon */
-     , (37249,  22,  872415275) /* PhysicsEffectTable */
-     , (37249, 8001,    2650129) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (37249, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37249, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37249, 8000, 2174519115) /* PCAPRecordedObjectIID */;
+     , (37249,  22,  872415275) /* PhysicsEffectTable */;

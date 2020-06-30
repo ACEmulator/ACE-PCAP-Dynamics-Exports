@@ -17,8 +17,7 @@ VALUES (4552,   1,         16) /* ItemType - Creature */
      , (4552, 113,          2) /* Gender - Female */
      , (4552, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4552, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4552, 188,          3) /* HeritageGroup - Sho */
-     , (4552, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4552, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4552,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4552,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4552,   1, 'Le Ben the Healer') /* Name */
-     , (4552,   5, 'Healer') /* Template */
-     , (4552, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4552,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4552,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4552,   1,   33554510) /* Setup */
      , (4552,  11,   83890356) /* MouthTexture */
      , (4552,  15,   67117074) /* HairPalette */
      , (4552,  16,   67109565) /* EyesPalette */
-     , (4552,  17,   67110052) /* SkinPalette */
-     , (4552, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4552, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4552, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4552,  17,   67110052) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4552, 8040, 3846045972, 125.513, 14.3253, 108.005, 0.7093357, 0, 0, -0.7048708) /* PCAPRecordedLocation */
 /* @teleloc 0xE53E0114 [125.513000 14.325300 108.005000] 0.709336 0.000000 0.000000 -0.704871 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4552, 8000, 2119426058) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4552,   1,  70, 0, 0) /* Strength */
@@ -94,51 +86,3 @@ VALUES (4552, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (4552, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
      , (4552, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (4552, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4552, 67109565, 32, 8)
-     , (4552, 67109969, 92, 4)
-     , (4552, 67110026, 72, 8)
-     , (4552, 67110052, 0, 24)
-     , (4552, 67110320, 40, 24)
-     , (4552, 67110320, 64, 8)
-     , (4552, 67110320, 160, 8)
-     , (4552, 67110356, 216, 24)
-     , (4552, 67117074, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4552, 0, 83889072, 83890012)
-     , (4552, 0, 83889342, 83890011)
-     , (4552, 1, 83887064, 83886241)
-     , (4552, 2, 83887066, 83887051)
-     , (4552, 3, 83889344, 83887054)
-     , (4552, 4, 83887068, 83887054)
-     , (4552, 5, 83887064, 83886241)
-     , (4552, 6, 83887066, 83887051)
-     , (4552, 7, 83889344, 83887054)
-     , (4552, 8, 83887068, 83887054)
-     , (4552, 9, 83887070, 83890009)
-     , (4552, 9, 83887062, 83890010)
-     , (4552, 16, 83886232, 83890685)
-     , (4552, 16, 83886668, 83890243)
-     , (4552, 16, 83886837, 83890298)
-     , (4552, 16, 83886684, 83890356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4552, 0, 16781875)
-     , (4552, 1, 16778430)
-     , (4552, 2, 16778436)
-     , (4552, 3, 16778361)
-     , (4552, 4, 16778426)
-     , (4552, 5, 16778438)
-     , (4552, 6, 16778437)
-     , (4552, 7, 16778360)
-     , (4552, 8, 16778428)
-     , (4552, 9, 16778425)
-     , (4552, 10, 16778431)
-     , (4552, 11, 16778429)
-     , (4552, 12, 16778423)
-     , (4552, 13, 16778434)
-     , (4552, 14, 16778424)
-     , (4552, 15, 16778435)
-     , (4552, 16, 16795641);

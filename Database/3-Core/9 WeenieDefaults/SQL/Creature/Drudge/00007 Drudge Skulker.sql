@@ -11,8 +11,7 @@ VALUES (7,   1,         16) /* ItemType - Creature */
      , (7,  16,          1) /* ItemUseable - No */
      , (7,  25,          8) /* Level */
      , (7,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7,   1, 'Drudge Skulker') /* Name */
-     , (7, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7,   1, 'Drudge Skulker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7,   1,   33556445) /* Setup */
@@ -30,17 +28,11 @@ VALUES (7,   1,   33556445) /* Setup */
      , (7,   3,  536870919) /* SoundTable */
      , (7,   6,   67112812) /* PaletteBase */
      , (7,   8,  100667445) /* Icon */
-     , (7,  22,  872415258) /* PhysicsEffectTable */
-     , (7, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (7,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7, 8040, 23527859, 130.178, -31.4296, 6.003325, -0.95329, 0, 0, -0.302058) /* PCAPRecordedLocation */
 /* @teleloc 0x016701B3 [130.178000 -31.429600 6.003325] -0.953290 0.000000 0.000000 -0.302058 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7, 8000, 3685458916) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7,   1,  70, 0, 0) /* Strength */
@@ -454,6 +446,3 @@ VALUES (7, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wiel
      , (7, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */
      , (7, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
      , (7, 9,  2688,  0, 0, 0, False) /* Create Scroll of Harm Other III (2688) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7, 67112817, 0, 0);

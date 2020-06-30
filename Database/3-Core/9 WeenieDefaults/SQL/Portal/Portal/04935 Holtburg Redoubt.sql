@@ -10,8 +10,7 @@ VALUES (4935,   1,      65536) /* ItemType - Portal */
      , (4935,  87,         20) /* MaxLevel */
      , (4935,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (4935, 111,          1) /* PortalBitmask - Unrestricted */
-     , (4935, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (4935, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4935, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4935,   1, True ) /* Stuck */;
@@ -21,20 +20,13 @@ VALUES (4935,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4935,   1, 'Holtburg Redoubt') /* Name */
-     , (4935,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */
-     , (4935, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4935,  16, 'This is a good adventure for someone who is newly arrived in Dereth.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4935,   1,   33555922) /* Setup */
      , (4935,   2,  150994947) /* MotionTable */
-     , (4935,   8,  100667499) /* Icon */
-     , (4935, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (4935, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (4935, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (4935,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4935, 8040, 2863726632, 99.7059, 180.63, 123.937, 0.536112, 0, 0, 0.8441469) /* PCAPRecordedLocation */
 /* @teleloc 0xAAB10028 [99.705900 180.630000 123.937000] 0.536112 0.000000 0.000000 0.844147 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4935, 8000, 2058031104) /* PCAPRecordedObjectIID */;

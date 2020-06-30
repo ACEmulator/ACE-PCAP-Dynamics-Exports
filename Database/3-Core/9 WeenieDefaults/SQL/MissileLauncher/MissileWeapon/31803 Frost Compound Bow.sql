@@ -33,8 +33,7 @@ VALUES (31803,   1,        256) /* ItemType - MissileWeapon */
      , (31803, 172,          1) /* AppraisalLongDescDecoration */
      , (31803, 176,         47) /* AppraisalItemSkill */
      , (31803, 204,         12) /* ElementalDamageBonus */
-     , (31803, 353,          8) /* WeaponType - Bow */
-     , (31803, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31803, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31803,  22, True ) /* Inscribable */;
@@ -48,8 +47,7 @@ VALUES (31803,   5,  -0.056) /* ManaRate */
      , (31803,  39,     1.1) /* DefaultScale */
      , (31803,  62,       1) /* WeaponOffense */
      , (31803,  63,     2.4) /* DamageMod */
-     , (31803, 150,   1.015) /* WeaponMagicDefense */
-     , (31803, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (31803, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31803,   1, 'Frost Compound Bow') /* Name */
@@ -61,34 +59,14 @@ VALUES (31803,   1,   33559667) /* Setup */
      , (31803,   6,   67116700) /* PaletteBase */
      , (31803,   8,  100688048) /* Icon */
      , (31803,  22,  872415275) /* PhysicsEffectTable */
-     , (31803,  52,  100676435) /* IconUnderlay */
-     , (31803, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (31803, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31803, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31803, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31803, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (31803,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31803, 8040, 43058012, 208.9732, -159.0649, -0.07000001, -0.9996702, 0, 0, -0.02568049) /* PCAPRecordedLocation */
 /* @teleloc 0x0291035C [208.973200 -159.064900 -0.070000] -0.999670 0.000000 0.000000 -0.025680 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31803, 8000, 3157377411) /* PCAPRecordedObjectIID */
-     , (31803, 8008, 1343492079) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31803,  1332,      2) 
      , (31803,  1616,      2) 
      , (31803,  2600,      2) 
      , (31803,  2620,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31803, 67116700, 1, 100)
-     , (31803, 67116701, 101, 100)
-     , (31803, 67116707, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31803, 0, 83897331, 83897331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31803, 0, 16792608);

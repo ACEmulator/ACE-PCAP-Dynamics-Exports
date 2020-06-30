@@ -34,37 +34,26 @@ VALUES (53488,   1,         16) /* ItemType - Creature */
      , (53488, 386,          0) /* Overpower */
      , (53488, 387,          0) /* OverpowerResist */
      , (53488, 388,          0) /* GearOverpower */
-     , (53488, 389,          0) /* GearOverpowerResist */
-     , (53488, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53488, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53488,   1, True ) /* Stuck */
      , (53488,  19, False) /* Attackable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (53488,  54,       3) /* UseRadius */
-     , (53488, 8010,       0) /* PCAPRecordedVelocityX */
-     , (53488, 8011,       0) /* PCAPRecordedVelocityY */
-     , (53488, 8012,  -0.298) /* PCAPRecordedVelocityZ */;
+VALUES (53488,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53488,   1, 'Aangesilus'' Marker') /* Name */
-     , (53488,  16, 'An ancient statue infused with the magic of the Viridian Root.') /* LongDesc */
-     , (53488, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (53488,  16, 'An ancient statue infused with the magic of the Viridian Root.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53488,   1,   33558954) /* Setup */
      , (53488,   2,  150995147) /* MotionTable */
      , (53488,   3,  536871052) /* SoundTable */
      , (53488,   8,  100688311) /* Icon */
-     , (53488,  22,  872415274) /* PhysicsEffectTable */
-     , (53488, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53488, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53488, 8005,     104455) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, STable, PeTable, Position, Movement */;
+     , (53488,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53488, 8040, 3007905845, 151, 110.1, 112.1, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xB3490035 [151.000000 110.100000 112.100000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53488, 8000, 3630240289) /* PCAPRecordedObjectIID */;

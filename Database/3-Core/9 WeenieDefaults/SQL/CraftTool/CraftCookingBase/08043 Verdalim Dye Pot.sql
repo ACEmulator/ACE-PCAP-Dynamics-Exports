@@ -14,8 +14,7 @@ VALUES (8043,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8043,  19,        100) /* Value */
      , (8043,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8043,  94,        134) /* TargetType - Vestements, Misc */
-     , (8043, 151,          9) /* HookType - Floor, Yard */
-     , (8043, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8043, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8043,   1, 'Verdalim Dye Pot') /* Name */
@@ -26,13 +25,4 @@ VALUES (8043,   1,   33556753) /* Setup */
      , (8043,   3,  536870932) /* SoundTable */
      , (8043,   6,   67111919) /* PaletteBase */
      , (8043,   8,  100672336) /* Icon */
-     , (8043,  22,  872415275) /* PhysicsEffectTable */
-     , (8043, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (8043, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (8043, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8043, 8000, 2209832519) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8043, 67111922, 0, 0);
+     , (8043,  22,  872415275) /* PhysicsEffectTable */;

@@ -17,8 +17,7 @@ VALUES (2317,   1,         16) /* ItemType - Creature */
      , (2317, 113,          1) /* Gender - Male */
      , (2317, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2317, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2317, 188,          3) /* HeritageGroup - Sho */
-     , (2317, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2317, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2317,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2317,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2317,   1, 'Shopkeeper Yoshi Deshi') /* Name */
-     , (2317,   5, 'Shopkeeper') /* Template */
-     , (2317, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2317,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2317,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2317,   1,   33554433) /* Setup */
      , (2317,  11,   83890566) /* MouthTexture */
      , (2317,  15,   67116990) /* HairPalette */
      , (2317,  16,   67110062) /* EyesPalette */
-     , (2317,  17,   67110050) /* SkinPalette */
-     , (2317, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2317, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2317, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2317,  17,   67110050) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2317, 8040, 629211460, 157.688, 61.4069, 220.005, -0.9992883, 0, 0, -0.03772118) /* PCAPRecordedLocation */
 /* @teleloc 0x25810144 [157.688000 61.406900 220.005000] -0.999288 0.000000 0.000000 -0.037721 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2317, 8000, 1918373904) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2317,   1,  75, 0, 0) /* Strength */
@@ -133,51 +125,3 @@ VALUES (2317, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (2317, 4, 30742, -1, 0, 0, False) /* Create The Littlest Niffis (30742) for Shop */
      , (2317, 4, 30743, -1, 0, 0, False) /* Create Suzuhara Baijin's Delivery (30743) for Shop */
      , (2317, 4, 31311, -1, 0, 0, False) /* Create Lost Pet (31311) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2317, 67109969, 92, 4)
-     , (2317, 67110026, 72, 8)
-     , (2317, 67110050, 0, 24)
-     , (2317, 67110062, 32, 8)
-     , (2317, 67110325, 40, 24)
-     , (2317, 67110325, 64, 8)
-     , (2317, 67110382, 216, 24)
-     , (2317, 67111245, 160, 8)
-     , (2317, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2317, 0, 83889072, 83890012)
-     , (2317, 0, 83889342, 83890011)
-     , (2317, 1, 83887064, 83886241)
-     , (2317, 2, 83887066, 83887051)
-     , (2317, 3, 83889344, 83887054)
-     , (2317, 4, 83887068, 83887054)
-     , (2317, 5, 83887064, 83886241)
-     , (2317, 6, 83887066, 83887051)
-     , (2317, 7, 83889344, 83887054)
-     , (2317, 8, 83887068, 83887054)
-     , (2317, 9, 83887061, 83890009)
-     , (2317, 9, 83887060, 83890010)
-     , (2317, 16, 83886232, 83890685)
-     , (2317, 16, 83886668, 83890516)
-     , (2317, 16, 83886837, 83890521)
-     , (2317, 16, 83886684, 83890566);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2317, 0, 16781835)
-     , (2317, 1, 16777295)
-     , (2317, 2, 16781866)
-     , (2317, 3, 16781841)
-     , (2317, 4, 16781838)
-     , (2317, 5, 16777299)
-     , (2317, 6, 16781864)
-     , (2317, 7, 16781840)
-     , (2317, 8, 16781839)
-     , (2317, 9, 16777300)
-     , (2317, 10, 16777301)
-     , (2317, 11, 16777302)
-     , (2317, 12, 16777304)
-     , (2317, 13, 16777303)
-     , (2317, 14, 16777305)
-     , (2317, 15, 16777307)
-     , (2317, 16, 16795654);

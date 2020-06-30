@@ -11,9 +11,7 @@ VALUES (29917,   1,       8192) /* ItemType - Writable */
      , (29917,  33,          1) /* Bonded - Bonded */
      , (29917,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29917, 114,          0) /* Attuned - Normal */
-     , (29917, 151,          9) /* HookType - Floor, Yard */
-     , (29917, 8042,          4) /* PCAPRecordedAppraisalPages */
-     , (29917, 8043,          4) /* PCAPRecordedAppraisalMaxPages */;
+     , (29917, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29917,  22, True ) /* Inscribable */
@@ -33,13 +31,7 @@ VALUES (29917,   1,   33559089) /* Setup */
      , (29917,   3,  536870932) /* SoundTable */
      , (29917,   6,   67113073) /* PaletteBase */
      , (29917,   8,  100669122) /* Icon */
-     , (29917,  22,  872415275) /* PhysicsEffectTable */
-     , (29917, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
-     , (29917, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
-     , (29917, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29917, 8000, 2856726491) /* PCAPRecordedObjectIID */;
+     , (29917,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (29917, 4, 1000);
@@ -61,6 +53,3 @@ In the month of Frostfell, P.Y. 11, a desperate alliance formed between Asheron,
 
 This doll is a gift, celebrating five years of Isparian freedom on Dereth.
 ');
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29917, 67113074, 0, 0);

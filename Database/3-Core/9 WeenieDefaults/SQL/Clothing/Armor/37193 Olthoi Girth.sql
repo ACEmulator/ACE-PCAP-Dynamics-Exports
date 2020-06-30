@@ -30,8 +30,7 @@ VALUES (37193,   1,          2) /* ItemType - Armor */
      , (37193, 265,         19) /* EquipmentSetId - Hearty */
      , (37193, 270,          7) /* WieldRequirements2 - Level */
      , (37193, 271,          1) /* WieldSkillType2 - Axe */
-     , (37193, 272,        180) /* WieldDifficulty2 */
-     , (37193, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37193, 272,        180) /* WieldDifficulty2 */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37193,  22, True ) /* Inscribable */
@@ -46,8 +45,7 @@ VALUES (37193,   5,  -0.067) /* ManaRate */
      , (37193,  17,       1) /* ArmorModVsFire */
      , (37193,  18,       2) /* ArmorModVsAcid */
      , (37193,  19,     0.8) /* ArmorModVsElectric */
-     , (37193, 165,       1) /* ArmorModVsNether */
-     , (37193, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (37193, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37193,   1, 'Olthoi Girth') /* Name */
@@ -59,17 +57,11 @@ VALUES (37193,   1,   33554647) /* Setup */
      , (37193,   3,  536870932) /* SoundTable */
      , (37193,   6,   67108990) /* PaletteBase */
      , (37193,   8,  100674592) /* Icon */
-     , (37193,  22,  872415275) /* PhysicsEffectTable */
-     , (37193, 8001, 2166685720) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (37193, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37193, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (37193,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37193, 8040, 23855631, 87.89492, -16.69748, 0, -0.8451899, 0, 0, 0.5344661) /* PCAPRecordedLocation */
 /* @teleloc 0x016C020F [87.894920 -16.697480 0.000000] -0.845190 0.000000 0.000000 0.534466 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37193, 8000, 3473432961) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37193,  1354,      2) 
@@ -77,14 +69,3 @@ VALUES (37193,  1354,      2)
      , (37193,  2609,      2) 
      , (37193,  4397,      2) 
      , (37193,  6046,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37193, 67116559, 84, 8)
-     , (37193, 67116593, 72, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37193, 0, 83889072, 83897816)
-     , (37193, 0, 83889342, 83897816);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37193, 0, 16778376);

@@ -11,8 +11,7 @@ VALUES (34102,   1,         16) /* ItemType - Creature */
      , (34102,  16,          1) /* ItemUseable - No */
      , (34102,  25,         60) /* Level */
      , (34102,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (34102, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34102, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34102, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34102,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34102,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34102,   1, 'Old Zombie') /* Name */
-     , (34102, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (34102,   1, 'Old Zombie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34102,   1,   33554839) /* Setup */
@@ -30,17 +28,11 @@ VALUES (34102,   1,   33554839) /* Setup */
      , (34102,   3,  536870934) /* SoundTable */
      , (34102,   6,   67110722) /* PaletteBase */
      , (34102,   8,  100667942) /* Icon */
-     , (34102,  22,  872415272) /* PhysicsEffectTable */
-     , (34102, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (34102, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (34102, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (34102,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34102, 8040, 2241462302, 73.41331, 122.4033, 160.2177, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x859A001E [73.413310 122.403300 160.217700] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34102, 8000, 3695768729) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34102,   1, 100, 0, 0) /* Strength */
@@ -218,6 +210,3 @@ VALUES (34102, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for W
      , (34102, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
      , (34102, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
      , (34102, 9,    77,  0, 0, 0, False) /* Create Kabuton (77) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34102, 67113037, 0, 0);

@@ -11,8 +11,7 @@ VALUES (4613,   1,     524288) /* ItemType - ManaStone */
      , (4613,  19,        650) /* Value */
      , (4613,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4613,  94,      35103) /* TargetType - Jewelry, Creature, Gem, RedirectableItemEnchantmentTarget */
-     , (4613, 151,          2) /* HookType - Wall */
-     , (4613, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4613, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4613,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (4613,   1, 'Small Mana Charge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4613,   1,   33555639) /* Setup */
-     , (4613,   8,  100676297) /* Icon */
-     , (4613, 8001,  271073432) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, TargetType, Burden, HookType */
-     , (4613, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (4613, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4613, 8000, 3707118815) /* PCAPRecordedObjectIID */;
+     , (4613,   8,  100676297) /* Icon */;

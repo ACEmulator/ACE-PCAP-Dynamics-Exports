@@ -24,9 +24,7 @@ VALUES (27874,   1,        256) /* ItemType - MissileWeapon */
      , (27874, 313,          0) /* CritRating */
      , (27874, 314,          0) /* CritDamageRating */
      , (27874, 353,         10) /* WeaponType - Thrown */
-     , (27874, 386,          0) /* Overpower */
-     , (27874, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (27874, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (27874, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27874,  21,       0) /* WeaponLength */
@@ -48,16 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27874,   1,   33558785) /* Setup */
      , (27874,   3,  536870932) /* SoundTable */
      , (27874,   8,  100676576) /* Icon */
-     , (27874,  22,  872415275) /* PhysicsEffectTable */
-     , (27874, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (27874, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (27874, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (27874, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (27874,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27874, 8040, 927596565, 64.82064, 102.1085, -0.391655, 0.4545195, 0.4545195, -0.5416752, -0.5416752) /* PCAPRecordedLocation */
 /* @teleloc 0x374A0015 [64.820640 102.108500 -0.391655] 0.454520 0.454520 -0.541675 -0.541675 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27874, 8000, 3701512905) /* PCAPRecordedObjectIID */
-     , (27874, 8008, 3701512954) /* PCAPRecordedParentIID */;

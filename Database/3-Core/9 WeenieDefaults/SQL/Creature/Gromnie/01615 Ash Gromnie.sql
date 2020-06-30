@@ -11,8 +11,7 @@ VALUES (1615,   1,         16) /* ItemType - Creature */
      , (1615,  16,          1) /* ItemUseable - No */
      , (1615,  25,         30) /* Level */
      , (1615,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1615, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1615, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1615, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1615,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1615,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1615,   1, 'Ash Gromnie') /* Name */
-     , (1615, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1615,   1, 'Ash Gromnie') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1615,   1,   33554487) /* Setup */
@@ -31,17 +29,11 @@ VALUES (1615,   1,   33554487) /* Setup */
      , (1615,   6,   67109307) /* PaletteBase */
      , (1615,   8,  100667938) /* Icon */
      , (1615,  22,  872415260) /* PhysicsEffectTable */
-     , (1615,  30,         87) /* PhysicsScript - BreatheLightning */
-     , (1615, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1615, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1615, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (1615,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1615, 8040, 2536701965, 46.41778, 110.4275, 40.005, -0.8472742, 0, 0, -0.5311558) /* PCAPRecordedLocation */
 /* @teleloc 0x9733000D [46.417780 110.427500 40.005000] -0.847274 0.000000 0.000000 -0.531156 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1615, 8000, 3685863380) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1615,   1, 100, 0, 0) /* Strength */
@@ -124,6 +116,3 @@ VALUES (1615, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (4
      , (1615, 9,  3064,  0, 0, 0, False) /* Create Scroll of Piercing Protection Other III (3064) for ContainTreasure */
      , (1615, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */
      , (1615, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1615, 67116463, 0, 0);

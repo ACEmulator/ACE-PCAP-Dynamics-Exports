@@ -12,8 +12,7 @@ VALUES (37355,   1,        128) /* ItemType - Misc */
      , (37355,  15,      30000) /* StackUnitValue */
      , (37355,  16,          1) /* ItemUseable - No */
      , (37355,  19,      30000) /* Value */
-     , (37355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37355, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37355,   1, 'Ink of Objectification') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37355,   1,   33554602) /* Setup */
      , (37355,   3,  536870932) /* SoundTable */
      , (37355,   8,  100690188) /* Icon */
-     , (37355,  22,  872415275) /* PhysicsEffectTable */
-     , (37355, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (37355, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37355, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37355, 8000, 2461826750) /* PCAPRecordedObjectIID */;
+     , (37355,  22,  872415275) /* PhysicsEffectTable */;

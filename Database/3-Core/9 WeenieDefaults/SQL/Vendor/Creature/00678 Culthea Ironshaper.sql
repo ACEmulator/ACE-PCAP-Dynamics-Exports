@@ -18,8 +18,7 @@ VALUES (678,   1,         16) /* ItemType - Creature */
      , (678, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (678, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (678, 188,          1) /* HeritageGroup - Aluvian */
-     , (678, 307,          5) /* DamageRating */
-     , (678, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (678, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (678,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (678,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (678,   1, 'Culthea Ironshaper') /* Name */
-     , (678,   5, 'Armorer') /* Template */
-     , (678, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (678,   5, 'Armorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (678,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (678,   1,   33554510) /* Setup */
      , (678,  11,   83890351) /* MouthTexture */
      , (678,  15,   67117024) /* HairPalette */
      , (678,  16,   67109565) /* EyesPalette */
-     , (678,  17,   67109561) /* SkinPalette */
-     , (678, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (678, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (678, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (678,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (678, 8040, 3164537163, 180.209, 136.185, 32.005, 0.2010781, 0, 0, -0.9795752) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F014B [180.209000 136.185000 32.005000] 0.201078 0.000000 0.000000 -0.979575 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (678, 8000, 2076831776) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (678,   1,  70, 0, 0) /* Strength */
@@ -122,55 +114,3 @@ VALUES (678, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (678, 4, 25651, -1, 0, 0, False) /* Create Leather Sleeves (25651) for Shop */
      , (678, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
      , (678, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (678, 67109561, 0, 24)
-     , (678, 67109565, 32, 8)
-     , (678, 67109964, 92, 4)
-     , (678, 67110334, 40, 24)
-     , (678, 67110372, 64, 8)
-     , (678, 67110375, 160, 8)
-     , (678, 67110376, 216, 24)
-     , (678, 67110540, 72, 8)
-     , (678, 67117024, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (678, 0, 83889072, 83890012)
-     , (678, 0, 83889342, 83890011)
-     , (678, 1, 83887064, 83886241)
-     , (678, 2, 83887066, 83887051)
-     , (678, 3, 83889344, 83887054)
-     , (678, 4, 83887068, 83887054)
-     , (678, 5, 83887064, 83886241)
-     , (678, 6, 83887066, 83887051)
-     , (678, 7, 83889344, 83887054)
-     , (678, 8, 83887068, 83887054)
-     , (678, 9, 83887070, 83890009)
-     , (678, 9, 83887062, 83890010)
-     , (678, 10, 83887069, 83886782)
-     , (678, 11, 83887067, 83891213)
-     , (678, 13, 83887069, 83886782)
-     , (678, 14, 83887067, 83891213)
-     , (678, 16, 83886232, 83890685)
-     , (678, 16, 83886668, 83890280)
-     , (678, 16, 83886837, 83890311)
-     , (678, 16, 83886684, 83890351);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (678, 0, 16781875)
-     , (678, 1, 16778430)
-     , (678, 2, 16781908)
-     , (678, 3, 16781841)
-     , (678, 4, 16783485)
-     , (678, 5, 16778438)
-     , (678, 6, 16781909)
-     , (678, 7, 16781840)
-     , (678, 8, 16783487)
-     , (678, 9, 16778425)
-     , (678, 10, 16778431)
-     , (678, 11, 16778429)
-     , (678, 12, 16778423)
-     , (678, 13, 16778434)
-     , (678, 14, 16778424)
-     , (678, 15, 16778435)
-     , (678, 16, 16795662);

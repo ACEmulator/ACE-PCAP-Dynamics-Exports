@@ -15,8 +15,7 @@ VALUES (44295,   1,       2048) /* ItemType - Gem */
      , (44295,  19,          0) /* Value */
      , (44295,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (44295,  94,         16) /* TargetType - Creature */
-     , (44295, 280,        100) /* SharedCooldown */
-     , (44295, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44295, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44295,  22, True ) /* Inscribable */
@@ -33,14 +32,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44295,   1,   33554773) /* Setup */
      , (44295,   3,  536870932) /* SoundTable */
      , (44295,   8,  100691959) /* Icon */
-     , (44295,  22,  872415275) /* PhysicsEffectTable */
-     , (44295, 8001,     553104) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
-     , (44295, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (44295, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (44295, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44295, 8000, 3696601344) /* PCAPRecordedObjectIID */;
+     , (44295,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44295, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

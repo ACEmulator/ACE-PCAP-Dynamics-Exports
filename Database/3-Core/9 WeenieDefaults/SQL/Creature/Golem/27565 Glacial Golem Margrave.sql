@@ -11,8 +11,7 @@ VALUES (27565,   1,         16) /* ItemType - Creature */
      , (27565,  16,          1) /* ItemUseable - No */
      , (27565,  25,        100) /* Level */
      , (27565,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (27565, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27565, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27565, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27565,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27565,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27565,   1, 'Glacial Golem Margrave') /* Name */
-     , (27565, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (27565,   1, 'Glacial Golem Margrave') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27565,   1,   33557484) /* Setup */
@@ -30,17 +28,11 @@ VALUES (27565,   1,   33557484) /* Setup */
      , (27565,   3,  536870933) /* SoundTable */
      , (27565,   6,   67113782) /* PaletteBase */
      , (27565,   8,  100667940) /* Icon */
-     , (27565,  22,  872415323) /* PhysicsEffectTable */
-     , (27565, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (27565, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27565, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (27565,  22,  872415323) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27565, 8040, 2230386717, 89.34459, 107.6342, 91.68136, -0.7966339, 0, 0, -0.6044621) /* PCAPRecordedLocation */
 /* @teleloc 0x84F1001D [89.344590 107.634200 91.681360] -0.796634 0.000000 0.000000 -0.604462 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27565, 8000, 3685950262) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27565,   1, 150, 0, 0) /* Strength */
@@ -201,6 +193,3 @@ VALUES (27565, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence
      , (27565, 9,  3753,  0, 0, 0, False) /* Create Frost Battle Axe (3753) for ContainTreasure */
      , (27565, 9,  3326,  0, 0, 0, False) /* Create Scroll of Item Tinkering Expertise Self V (3326) for ContainTreasure */
      , (27565, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27565, 67113782, 0, 0);

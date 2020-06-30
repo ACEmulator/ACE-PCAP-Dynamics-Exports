@@ -17,8 +17,7 @@ VALUES (4694,   1,         16) /* ItemType - Creature */
      , (4694, 113,          2) /* Gender - Female */
      , (4694, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4694, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4694, 188,          2) /* HeritageGroup - Gharundim */
-     , (4694, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4694, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4694,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4694,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4694,   1, 'Najmima the Archmage') /* Name */
-     , (4694,   5, 'Sage') /* Template */
-     , (4694, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4694,   5, 'Sage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4694,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4694,   1,   33554510) /* Setup */
      , (4694,  11,   83890331) /* MouthTexture */
      , (4694,  15,   67116993) /* HairPalette */
      , (4694,  16,   67110062) /* EyesPalette */
-     , (4694,  17,   67109551) /* SkinPalette */
-     , (4694, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4694, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4694, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4694,  17,   67109551) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4694, 8040, 2655256883, 103.602, 75.0084, 78.005, -0.9999197, 0, 0, -0.01267796) /* PCAPRecordedLocation */
 /* @teleloc 0x9E440133 [103.602000 75.008400 78.005000] -0.999920 0.000000 0.000000 -0.012678 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4694, 8000, 2045001736) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4694,   1,  60, 0, 0) /* Strength */
@@ -187,57 +179,3 @@ VALUES (4694, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (4694, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (4694, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (4694, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4694, 67109551, 0, 24)
-     , (4694, 67109967, 92, 4)
-     , (4694, 67110026, 72, 8)
-     , (4694, 67110062, 32, 8)
-     , (4694, 67110320, 64, 8)
-     , (4694, 67110325, 40, 24)
-     , (4694, 67110331, 160, 8)
-     , (4694, 67110342, 216, 24)
-     , (4694, 67110349, 250, 6)
-     , (4694, 67116993, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4694, 0, 83889072, 83890012)
-     , (4694, 0, 83889342, 83890011)
-     , (4694, 1, 83887064, 83886241)
-     , (4694, 2, 83887066, 83887055)
-     , (4694, 3, 83889344, 83887054)
-     , (4694, 4, 83887068, 83887054)
-     , (4694, 5, 83887064, 83886241)
-     , (4694, 6, 83887066, 83887055)
-     , (4694, 7, 83889344, 83887054)
-     , (4694, 8, 83887068, 83887054)
-     , (4694, 9, 83887070, 83890009)
-     , (4694, 9, 83887062, 83890010)
-     , (4694, 10, 83887069, 83886782)
-     , (4694, 11, 83886788, 83891213)
-     , (4694, 13, 83887069, 83886782)
-     , (4694, 14, 83886788, 83891213)
-     , (4694, 16, 83886232, 83890685)
-     , (4694, 16, 83886668, 83890255)
-     , (4694, 16, 83886837, 83890288)
-     , (4694, 16, 83886684, 83890331)
-     , (4694, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4694, 0, 16781875)
-     , (4694, 1, 16781876)
-     , (4694, 2, 16781916)
-     , (4694, 3, 16777292)
-     , (4694, 4, 16781855)
-     , (4694, 5, 16781877)
-     , (4694, 6, 16781917)
-     , (4694, 7, 16777296)
-     , (4694, 8, 16781859)
-     , (4694, 9, 16778425)
-     , (4694, 10, 16778431)
-     , (4694, 11, 16781873)
-     , (4694, 12, 16778423)
-     , (4694, 13, 16778434)
-     , (4694, 14, 16781874)
-     , (4694, 15, 16778435)
-     , (4694, 16, 16778594);

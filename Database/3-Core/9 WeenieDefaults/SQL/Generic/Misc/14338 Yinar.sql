@@ -19,14 +19,8 @@ VALUES (14338,   1, 'Yinar') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14338,   1,   33557463) /* Setup */
-     , (14338,   8,  100668115) /* Icon */
-     , (14338, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (14338, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (14338, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (14338,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (14338, 8040, 2842886173, 90.6247, 100.624, 30, 0.728987, 0, 0, -0.684528) /* PCAPRecordedLocation */
 /* @teleloc 0xA973001D [90.624700 100.624000 30.000000] 0.728987 0.000000 0.000000 -0.684528 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14338, 8000, 2056729009) /* PCAPRecordedObjectIID */;

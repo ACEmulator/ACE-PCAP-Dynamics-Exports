@@ -21,9 +21,7 @@ VALUES (12030,   1,          1) /* ItemType - MeleeWeapon */
      , (12030, 108,        500) /* ItemMaxMana */
      , (12030, 109,        140) /* ItemDifficulty */
      , (12030, 151,          2) /* HookType - Wall */
-     , (12030, 353,          2) /* WeaponType - Sword */
-     , (12030, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (12030, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (12030, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12030,  22, True ) /* Inscribable */;
@@ -47,27 +45,9 @@ VALUES (12030,   1,   33557340) /* Setup */
      , (12030,   3,  536870932) /* SoundTable */
      , (12030,   6,   67111919) /* PaletteBase */
      , (12030,   8,  100672122) /* Icon */
-     , (12030,  22,  872415275) /* PhysicsEffectTable */
-     , (12030, 8001,  270615064) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (12030, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (12030, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12030, 8000, 3658160295) /* PCAPRecordedObjectIID */;
+     , (12030,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12030,  1094,      2) 
      , (12030,  1615,      2) 
      , (12030,  1625,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12030, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12030, 0, 83889688, 83889679)
-     , (12030, 0, 83889235, 83889688)
-     , (12030, 0, 83889236, 83893255)
-     , (12030, 0, 83889237, 83893255);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12030, 0, 16783206);

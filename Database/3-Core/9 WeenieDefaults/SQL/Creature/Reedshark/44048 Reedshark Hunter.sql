@@ -12,8 +12,7 @@ VALUES (44048,   1,         16) /* ItemType - Creature */
      , (44048,  25,        200) /* Level */
      , (44048,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (44048, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (44048, 313,         15) /* CritRating */
-     , (44048, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44048, 313,         15) /* CritRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44048,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44048,  39,     2.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (44048,   1, 'Reedshark Hunter') /* Name */
-     , (44048, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (44048,   1, 'Reedshark Hunter') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44048,   1,   33554489) /* Setup */
@@ -31,17 +29,11 @@ VALUES (44048,   1,   33554489) /* Setup */
      , (44048,   3,  536870928) /* SoundTable */
      , (44048,   6,   67109313) /* PaletteBase */
      , (44048,   8,  100667939) /* Icon */
-     , (44048,  22,  872415268) /* PhysicsEffectTable */
-     , (44048, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (44048, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44048, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (44048,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44048, 8040, 2271477761, 15.79447, 14.09457, 14.0025, -0.161047, 0, 0, 0.986947) /* PCAPRecordedLocation */
 /* @teleloc 0x87640001 [15.794470 14.094570 14.002500] -0.161047 0.000000 0.000000 0.986947 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44048, 8000, 3360207765) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (44048,   1, 230, 0, 0) /* Strength */
@@ -232,6 +224,3 @@ VALUES (44048, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for Contai
      , (44048, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
      , (44048, 9, 45274,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VII (45274) for ContainTreasure */
      , (44048, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44048, 67113045, 0, 0);

@@ -24,9 +24,7 @@ VALUES (3849,   1,          1) /* ItemType - MeleeWeapon */
      , (3849, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3849, 160,        300) /* WieldDifficulty */
      , (3849, 172,          1) /* AppraisalLongDescDecoration */
-     , (3849, 353,          2) /* WeaponType - Sword */
-     , (3849, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3849, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3849, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3849,  22, True ) /* Inscribable */;
@@ -37,8 +35,7 @@ VALUES (3849,  21,       0) /* WeaponLength */
      , (3849,  26,       0) /* MaximumVelocity */
      , (3849,  29,    1.07) /* WeaponDefense */
      , (3849,  62,    1.06) /* WeaponOffense */
-     , (3849,  63,       1) /* DamageMod */
-     , (3849, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3849,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3849,   1, 'Acid Scimitar') /* Name */
@@ -48,10 +45,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3849,   1,   33555767) /* Setup */
      , (3849,   3,  536870932) /* SoundTable */
      , (3849,   8,  100668982) /* Icon */
-     , (3849,  22,  872415275) /* PhysicsEffectTable */
-     , (3849, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3849, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3849, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3849, 8000, 3700589696) /* PCAPRecordedObjectIID */;
+     , (3849,  22,  872415275) /* PhysicsEffectTable */;

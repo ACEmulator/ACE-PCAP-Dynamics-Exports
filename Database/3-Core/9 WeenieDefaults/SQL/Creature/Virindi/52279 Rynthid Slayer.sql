@@ -12,15 +12,13 @@ VALUES (52279,   1,         16) /* ItemType - Creature */
      , (52279,  25,        265) /* Level */
      , (52279,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (52279, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (52279, 307,         10) /* DamageRating */
-     , (52279, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52279, 307,         10) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52279,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52279,   1, 'Rynthid Slayer') /* Name */
-     , (52279, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (52279,   1, 'Rynthid Slayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52279,   1,   33561547) /* Setup */
@@ -28,17 +26,11 @@ VALUES (52279,   1,   33561547) /* Setup */
      , (52279,   3,  536870930) /* SoundTable */
      , (52279,   6,   67111346) /* PaletteBase */
      , (52279,   8,  100667943) /* Icon */
-     , (52279,  22,  872415273) /* PhysicsEffectTable */
-     , (52279, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52279, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52279, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (52279,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52279, 8040, 758186047, 169.2067, 153.7193, 132.029, 0.937139, 0, 0, -0.3489562) /* PCAPRecordedLocation */
 /* @teleloc 0x2D31003F [169.206700 153.719300 132.029000] 0.937139 0.000000 0.000000 -0.348956 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52279, 8000, 3707700948) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52279,   1, 500, 0, 0) /* Strength */
@@ -83,6 +75,3 @@ VALUES (52279, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasu
      , (52279, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
      , (52279, 9, 28605,  0, 0, 0, False) /* Create Beret (28605) for ContainTreasure */
      , (52279, 9,   516,  0, 0, 0, False) /* Create Peerless Lockpick (516) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (52279, 67117140, 0, 0);

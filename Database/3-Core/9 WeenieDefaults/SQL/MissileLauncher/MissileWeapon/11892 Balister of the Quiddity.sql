@@ -24,9 +24,7 @@ VALUES (11892,   1,        256) /* ItemType - MissileWeapon */
      , (11892, 109,          1) /* ItemDifficulty */
      , (11892, 115,        200) /* ItemSkillLevelLimit */
      , (11892, 176,         47) /* AppraisalItemSkill */
-     , (11892, 353,          9) /* WeaponType - Crossbow */
-     , (11892, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (11892, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (11892, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11892,  22, True ) /* Inscribable */;
@@ -49,19 +47,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11892,   1,   33557112) /* Setup */
      , (11892,   3,  536870932) /* SoundTable */
      , (11892,   8,  100671701) /* Icon */
-     , (11892,  22,  872415275) /* PhysicsEffectTable */
-     , (11892, 8001,    2327320) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (11892, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11892, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (11892, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (11892,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11892, 8040, 447873068, 133.7667, 84.07578, 21.931, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x1AB2002C [133.766700 84.075780 21.931000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11892, 8000, 3691227946) /* PCAPRecordedObjectIID */
-     , (11892, 8008, 3691227919) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11892,  1590,      2) 

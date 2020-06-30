@@ -34,8 +34,7 @@ VALUES (39293,   1,         16) /* ItemType - Creature */
      , (39293, 386,          0) /* Overpower */
      , (39293, 387,          0) /* OverpowerResist */
      , (39293, 388,          0) /* GearOverpower */
-     , (39293, 389,          0) /* GearOverpowerResist */
-     , (39293, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (39293, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39293,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (39293,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (39293,   1, 'Aerlinthe Gatestone') /* Name */
-     , (39293, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (39293,   1, 'Aerlinthe Gatestone') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39293,   1,   33556842) /* Setup */
      , (39293,   2,  150995261) /* MotionTable */
      , (39293,   3,  536870933) /* SoundTable */
-     , (39293,   8,  100690316) /* Icon */
-     , (39293, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (39293, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (39293, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (39293,   8,  100690316) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (39293, 8040, 3068657920, 110.218, 108.671, 2.94674, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xB6E80100 [110.218000 108.671000 2.946740] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39293, 8000, 3699956300) /* PCAPRecordedObjectIID */;

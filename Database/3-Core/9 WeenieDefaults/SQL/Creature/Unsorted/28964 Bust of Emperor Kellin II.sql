@@ -33,8 +33,7 @@ VALUES (28964,   1,         16) /* ItemType - Creature */
      , (28964, 386,          0) /* Overpower */
      , (28964, 387,          0) /* OverpowerResist */
      , (28964, 388,          0) /* GearOverpower */
-     , (28964, 389,          0) /* GearOverpowerResist */
-     , (28964, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28964, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28964,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (28964,  39,     1.2) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28964,   1, 'Bust of Emperor Kellin II') /* Name */
-     , (28964,  16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LongDesc */
-     , (28964, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (28964,  16, 'A well carved bust of Emperor Kellin II. It is masterfully crafted and looks very well made. Jif Loz may know more about this.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28964,   1,   33558984) /* Setup */
      , (28964,   2,  150995147) /* MotionTable */
      , (28964,   3,  536871052) /* SoundTable */
      , (28964,   8,  100677073) /* Icon */
-     , (28964,  22,  872415274) /* PhysicsEffectTable */
-     , (28964, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (28964, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (28964, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28964,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28964, 8040, 26542783, 210.5, -229.5, 0, 0.923879, 0, 0, -0.382684) /* PCAPRecordedLocation */
 /* @teleloc 0x019502BF [210.500000 -229.500000 0.000000] 0.923879 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28964, 8000, 3709184088) /* PCAPRecordedObjectIID */;

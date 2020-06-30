@@ -33,8 +33,7 @@ VALUES (38255,   1,         16) /* ItemType - Creature */
      , (38255, 386,          0) /* Overpower */
      , (38255, 387,          0) /* OverpowerResist */
      , (38255, 388,          0) /* GearOverpower */
-     , (38255, 389,          0) /* GearOverpowerResist */
-     , (38255, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38255, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38255,   1, True ) /* Stuck */
@@ -44,22 +43,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38255,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38255,   1, 'Shrine of the Eye of T''thuun') /* Name */
-     , (38255, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38255,   1, 'Shrine of the Eye of T''thuun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38255,   1,   33558607) /* Setup */
      , (38255,   2,  150995279) /* MotionTable */
      , (38255,   3,  536871052) /* SoundTable */
      , (38255,   8,  100675788) /* Icon */
-     , (38255,  22,  872415274) /* PhysicsEffectTable */
-     , (38255, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (38255, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (38255, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (38255,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38255, 8040, 1041039398, 108, 132, 2.94674, -0.153788, 0, 0, -0.988104) /* PCAPRecordedLocation */
 /* @teleloc 0x3E0D0026 [108.000000 132.000000 2.946740] -0.153788 0.000000 0.000000 -0.988104 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38255, 8000, 2629923106) /* PCAPRecordedObjectIID */;

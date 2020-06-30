@@ -24,9 +24,7 @@ VALUES (30597,   1,          1) /* ItemType - MeleeWeapon */
      , (30597, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30597, 160,        325) /* WieldDifficulty */
      , (30597, 172,          1) /* AppraisalLongDescDecoration */
-     , (30597, 353,          6) /* WeaponType - Dagger */
-     , (30597, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30597, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30597, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30597,  22, True ) /* Inscribable */;
@@ -38,8 +36,7 @@ VALUES (30597,  21,       0) /* WeaponLength */
      , (30597,  29,    1.05) /* WeaponDefense */
      , (30597,  62,    1.08) /* WeaponOffense */
      , (30597,  63,       1) /* DamageMod */
-     , (30597, 150,   1.015) /* WeaponMagicDefense */
-     , (30597, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (30597, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30597,   1, 'Lightning Poniard') /* Name */
@@ -50,19 +47,4 @@ VALUES (30597,   1,   33559487) /* Setup */
      , (30597,   3,  536870932) /* SoundTable */
      , (30597,   6,   67116417) /* PaletteBase */
      , (30597,   8,  100686994) /* Icon */
-     , (30597,  22,  872415275) /* PhysicsEffectTable */
-     , (30597, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30597, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30597, 8000, 3698072396) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30597, 67116425, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30597, 0, 83897172, 83897172);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30597, 0, 16792136);
+     , (30597,  22,  872415275) /* PhysicsEffectTable */;

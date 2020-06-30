@@ -11,8 +11,7 @@ VALUES (29470,   1,        512) /* ItemType - Container */
      , (29470,  16,         48) /* ItemUseable - ViewedRemote */
      , (29470,  19,       2500) /* Value */
      , (29470,  38,       9999) /* ResistLockpick */
-     , (29470,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (29470, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (29470,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29470,   1, True ) /* Stuck */
@@ -27,25 +26,18 @@ VALUES (29470,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29470,   1, 'Prison Warden''s Chest') /* Name */
      , (29470,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (29470,  15, 'A chest in the Prison Warden''s quarters, presumably meant to contain items confiscated from prisoners.') /* ShortDesc */
-     , (29470, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (29470,  15, 'A chest in the Prison Warden''s quarters, presumably meant to contain items confiscated from prisoners.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29470,   1,   33554556) /* Setup */
      , (29470,   2,  150994948) /* MotionTable */
      , (29470,   3,  536870945) /* SoundTable */
      , (29470,   8,  100667424) /* Icon */
-     , (29470,  22,  872415275) /* PhysicsEffectTable */
-     , (29470, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (29470, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (29470, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (29470,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29470, 8040, 1966492, 445.95, -107.168, -12, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x001E019C [445.950000 -107.168000 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29470, 8000, 1879171106) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29470, -1, 21154, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Covenant Girth (21154) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

@@ -11,8 +11,7 @@ VALUES (30900,   1,         16) /* ItemType - Creature */
      , (30900,  16,          1) /* ItemUseable - No */
      , (30900,  25,         80) /* Level */
      , (30900,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (30900, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (30900, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30900, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30900,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (30900,  39,     1.3) /* DefaultScale */
      , (30900,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30900,   1, 'Banished Grievver') /* Name */
-     , (30900, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (30900,   1, 'Banished Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30900,   1,   33556698) /* Setup */
@@ -32,17 +30,11 @@ VALUES (30900,   1,   33556698) /* Setup */
      , (30900,   6,   67112927) /* PaletteBase */
      , (30900,   8,  100670960) /* Icon */
      , (30900,  22,  872415364) /* PhysicsEffectTable */
-     , (30900,  30,         87) /* PhysicsScript - BreatheLightning */
-     , (30900, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (30900, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (30900, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (30900,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30900, 8040, 3122069546, 141.7938, 41.47866, 143.2089, -0.9204186, 0, 0, -0.3909344) /* PCAPRecordedLocation */
 /* @teleloc 0xBA17002A [141.793800 41.478660 143.208900] -0.920419 0.000000 0.000000 -0.390934 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30900, 8000, 3684943029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30900,   1, 250, 0, 0) /* Strength */
@@ -67,6 +59,3 @@ VALUES (30900, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for Con
      , (30900, 9,   273, 143, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (30900, 9, 43324,  0, 0, 0, False) /* Create Scroll of Destructive Curse V (43324) for ContainTreasure */
      , (30900, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30900, 67113846, 0, 0);

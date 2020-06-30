@@ -11,15 +11,13 @@ VALUES (4110,   1,         16) /* ItemType - Creature */
      , (4110,  16,          1) /* ItemUseable - No */
      , (4110,  25,          8) /* Level */
      , (4110,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4110, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4110, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4110, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4110,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4110,   1, 'Blood Shreth') /* Name */
-     , (4110, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4110,   1, 'Blood Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4110,   1,   33555879) /* Setup */
@@ -27,17 +25,11 @@ VALUES (4110,   1,   33555879) /* Setup */
      , (4110,   3,  536870986) /* SoundTable */
      , (4110,   6,   67112444) /* PaletteBase */
      , (4110,   8,  100669720) /* Icon */
-     , (4110,  22,  872415333) /* PhysicsEffectTable */
-     , (4110, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4110, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4110, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (4110,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4110, 8040, 2474377217, 2.137947, 16.02122, 40.16316, 0.5566558, 0, 0, -0.8307433) /* PCAPRecordedLocation */
 /* @teleloc 0x937C0001 [2.137947 16.021220 40.163160] 0.556656 0.000000 0.000000 -0.830743 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4110, 8000, 3685772298) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4110,   1,  65, 0, 0) /* Strength */
@@ -249,6 +241,3 @@ VALUES (4110, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTre
      , (4110, 9,  2983,  0, 0, 0, False) /* Create Scroll of Acid Vulnerability Other II (2983) for ContainTreasure */
      , (4110, 9, 44850,  0, 0, 0, False) /* Create Chevron Cloak (44850) for ContainTreasure */
      , (4110, 9,  5987,  0, 0, 0, False) /* Create Scroll of Alchemy Mastery Other II (5987) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4110, 67112465, 0, 0);

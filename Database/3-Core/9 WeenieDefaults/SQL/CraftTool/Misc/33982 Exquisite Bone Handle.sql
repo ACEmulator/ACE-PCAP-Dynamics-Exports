@@ -15,8 +15,7 @@ VALUES (33982,   1,        128) /* ItemType - Misc */
      , (33982,  33,          1) /* Bonded - Bonded */
      , (33982,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33982,  94,        384) /* TargetType - Misc, MissileWeapon */
-     , (33982, 114,          1) /* Attuned - Attuned */
-     , (33982, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33982, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33982,   1, 'Exquisite Bone Handle') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33982,   1,   33556603) /* Setup */
      , (33982,   3,  536870932) /* SoundTable */
      , (33982,   8,  100689102) /* Icon */
-     , (33982,  22,  872415275) /* PhysicsEffectTable */
-     , (33982, 8001,    2650128) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (33982, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (33982, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33982, 8000, 2979050419) /* PCAPRecordedObjectIID */;
+     , (33982,  22,  872415275) /* PhysicsEffectTable */;

@@ -18,8 +18,7 @@ VALUES (30038,   1,         16) /* ItemType - Creature */
      , (30038, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30038, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (30038, 188,          4) /* HeritageGroup - Viamontian */
-     , (30038, 307,          5) /* DamageRating */
-     , (30038, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30038, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30038,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (30038,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30038,   1, 'Archmage Luchessa du Lamiere') /* Name */
-     , (30038,   5, 'Archmage') /* Template */
-     , (30038, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30038,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30038,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (30038,   1,   33554510) /* Setup */
      , (30038,  11,   83890350) /* MouthTexture */
      , (30038,  15,   67117026) /* HairPalette */
      , (30038,  16,   67110065) /* EyesPalette */
-     , (30038,  17,   67115902) /* SkinPalette */
-     , (30038, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30038, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30038, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (30038,  17,   67115902) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30038, 8040, 853082430, 132.198, 36.9837, 55.005, -0.9254864, 0, 0, -0.3787807) /* PCAPRecordedLocation */
 /* @teleloc 0x32D9013E [132.198000 36.983700 55.005000] -0.925486 0.000000 0.000000 -0.378781 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30038, 8000, 1932365854) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30038,   1,  45, 0, 0) /* Strength */
@@ -186,41 +178,3 @@ VALUES (30038, 2,  2366,  1, 0, 0, False) /* Create Orb (2366) for Wield */
      , (30038, 4, 30268, -1, 0, 0, False) /* Create Sanamar Portal Gem (30268) for Shop */
      , (30038, 4, 32081, -1, 0, 0, False) /* Create Redspire Portal Gem (32081) for Shop */
      , (30038, 4, 43020, -1, 0, 0, False) /* Create Town Network Portal Gem (43020) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30038, 67110065, 32, 8)
-     , (30038, 67110334, 250, 6)
-     , (30038, 67115902, 0, 24)
-     , (30038, 67116025, 207, 33)
-     , (30038, 67116026, 174, 33)
-     , (30038, 67117026, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30038, 0, 83897013, 83897013)
-     , (30038, 9, 83897018, 83897018)
-     , (30038, 9, 83897019, 83897019)
-     , (30038, 11, 83892346, 83897016)
-     , (30038, 14, 83892346, 83897016)
-     , (30038, 16, 83886232, 83890685)
-     , (30038, 16, 83886668, 83890277)
-     , (30038, 16, 83886837, 83890289)
-     , (30038, 16, 83886684, 83890350);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30038, 0, 16791905)
-     , (30038, 1, 16791896)
-     , (30038, 2, 16791897)
-     , (30038, 3, 16777708)
-     , (30038, 4, 16777708)
-     , (30038, 5, 16791898)
-     , (30038, 6, 16791899)
-     , (30038, 7, 16777708)
-     , (30038, 8, 16777708)
-     , (30038, 9, 16791906)
-     , (30038, 10, 16791901)
-     , (30038, 11, 16783853)
-     , (30038, 12, 16778423)
-     , (30038, 13, 16791903)
-     , (30038, 14, 16783855)
-     , (30038, 15, 16778435)
-     , (30038, 16, 16785778);

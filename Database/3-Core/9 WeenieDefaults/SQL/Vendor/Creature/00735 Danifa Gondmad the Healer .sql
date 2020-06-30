@@ -17,8 +17,7 @@ VALUES (735,   1,         16) /* ItemType - Creature */
      , (735, 113,          2) /* Gender - Female */
      , (735, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (735, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (735, 188,          1) /* HeritageGroup - Aluvian */
-     , (735, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (735, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (735,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (735,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (735,   1, 'Danifa Gondmad the Healer ') /* Name */
-     , (735,   5, 'Healer') /* Template */
-     , (735, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (735,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (735,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (735,   1,   33554510) /* Setup */
      , (735,  11,   83890342) /* MouthTexture */
      , (735,  15,   67117069) /* HairPalette */
      , (735,  16,   67110063) /* EyesPalette */
-     , (735,  17,   67109559) /* SkinPalette */
-     , (735, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (735, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (735, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (735,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (735, 8040, 2711879950, 68.941, 162.386, 49.925, 0.01913629, 0, 0, -0.9998169) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A4010E [68.941000 162.386000 49.925000] 0.019136 0.000000 0.000000 -0.999817 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (735, 8000, 2048540702) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (735,   1,  20, 0, 0) /* Strength */
@@ -90,58 +82,3 @@ VALUES (735, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop
      , (735, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
      , (735, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (735, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (735, 67109559, 0, 24)
-     , (735, 67109964, 92, 4)
-     , (735, 67110063, 32, 8)
-     , (735, 67110340, 216, 24)
-     , (735, 67110356, 40, 24)
-     , (735, 67110359, 250, 6)
-     , (735, 67110363, 64, 8)
-     , (735, 67110369, 160, 8)
-     , (735, 67110554, 72, 8)
-     , (735, 67117069, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (735, 0, 83889072, 83890012)
-     , (735, 0, 83889342, 83890011)
-     , (735, 1, 83887064, 83886241)
-     , (735, 2, 83887066, 83887051)
-     , (735, 3, 83889344, 83887054)
-     , (735, 4, 83887068, 83887054)
-     , (735, 5, 83887064, 83886241)
-     , (735, 6, 83887066, 83887051)
-     , (735, 7, 83889344, 83887054)
-     , (735, 8, 83887068, 83887054)
-     , (735, 9, 83887070, 83890009)
-     , (735, 9, 83887062, 83890010)
-     , (735, 10, 83887069, 83886782)
-     , (735, 11, 83887067, 83891213)
-     , (735, 13, 83887069, 83886782)
-     , (735, 14, 83887067, 83891213)
-     , (735, 16, 83886232, 83890685)
-     , (735, 16, 83886668, 83890280)
-     , (735, 16, 83886837, 83890308)
-     , (735, 16, 83886684, 83890342)
-     , (735, 16, 83889859, 83889864)
-     , (735, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (735, 0, 16781875)
-     , (735, 1, 16778430)
-     , (735, 2, 16781908)
-     , (735, 3, 16781841)
-     , (735, 4, 16783485)
-     , (735, 5, 16778438)
-     , (735, 6, 16781909)
-     , (735, 7, 16781840)
-     , (735, 8, 16783487)
-     , (735, 9, 16778425)
-     , (735, 10, 16778431)
-     , (735, 11, 16778429)
-     , (735, 12, 16778423)
-     , (735, 13, 16778434)
-     , (735, 14, 16778424)
-     , (735, 15, 16778435)
-     , (735, 16, 16779635);

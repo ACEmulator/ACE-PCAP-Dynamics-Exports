@@ -12,8 +12,7 @@ VALUES (26014,   1,         16) /* ItemType - Creature */
      , (26014,  25,        115) /* Level */
      , (26014,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26014, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (26014, 307,          5) /* DamageRating */
-     , (26014, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (26014, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26014,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26014,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26014,   1, 'Burun Ruuk Fiend') /* Name */
-     , (26014, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (26014,   1, 'Burun Ruuk Fiend') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26014,   1,   33558582) /* Setup */
@@ -31,17 +29,11 @@ VALUES (26014,   1,   33558582) /* Setup */
      , (26014,   3,  536871083) /* SoundTable */
      , (26014,   6,   67114919) /* PaletteBase */
      , (26014,   8,  100675761) /* Icon */
-     , (26014,  22,  872415402) /* PhysicsEffectTable */
-     , (26014, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (26014, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (26014, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (26014,  22,  872415402) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26014, 8040, 49808383, 116.655, -282.44, 0.04165971, 0.3322209, 0, 0, -0.9432016) /* PCAPRecordedLocation */
 /* @teleloc 0x02F803FF [116.655000 -282.440000 0.041660] 0.332221 0.000000 0.000000 -0.943202 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26014, 8000, 3701224536) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26014,   1, 180, 0, 0) /* Strength */
@@ -101,6 +93,3 @@ VALUES (26014, 2, 26022,  1, 0, 0, False) /* Create Stone Axe (26022) for Wield 
      , (26014, 9, 49271,  0, 0, 0, False) /* Create Lightning Child Essence (125) (49271) for ContainTreasure */
      , (26014, 9, 43052,  0, 0, 0, False) /* Create Knorr Academy Pauldrons (43052) for ContainTreasure */
      , (26014, 9, 34015,  0, 0, 0, False) /* Create Golden Shuriken of Tanada (34015) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (26014, 67114921, 0, 0);

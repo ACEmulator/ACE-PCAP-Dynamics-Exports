@@ -20,10 +20,4 @@ VALUES (44730,   1, 'Crystal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44730,   1,   33561330) /* Setup */
-     , (44730,   8,  100668115) /* Icon */
-     , (44730, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44730, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44730, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44730, 8000, 2461713255) /* PCAPRecordedObjectIID */;
+     , (44730,   8,  100668115) /* Icon */;

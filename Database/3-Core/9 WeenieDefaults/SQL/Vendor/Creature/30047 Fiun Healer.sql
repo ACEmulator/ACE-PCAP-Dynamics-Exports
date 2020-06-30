@@ -15,8 +15,7 @@ VALUES (30047,   1,         16) /* ItemType - Creature */
      , (30047,  76,    1000000) /* MerchandiseMaxValue */
      , (30047,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (30047, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (30047, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30047, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30047, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30047,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (30047,  37,     0.8) /* BuyPrice */
      , (30047,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (30047,   1, 'Fiun Healer') /* Name */
-     , (30047, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (30047,   1, 'Fiun Healer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30047,   1,   33559124) /* Setup */
      , (30047,   2,  150994945) /* MotionTable */
      , (30047,   3,  536870913) /* SoundTable */
      , (30047,   6,   67115466) /* PaletteBase */
-     , (30047,   8,  100677369) /* Icon */
-     , (30047, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30047, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30047, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30047,   8,  100677369) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30047, 8040, 955711521, 103.463, 17.965, 2.01048, 0.9995129, 0, 0, -0.0312101) /* PCAPRecordedLocation */
 /* @teleloc 0x38F70021 [103.463000 17.965000 2.010480] 0.999513 0.000000 0.000000 -0.031210 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30047, 8000, 1938780161) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30047,   1, 150, 0, 0) /* Strength */
@@ -99,6 +91,3 @@ VALUES (30047, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sh
      , (30047, 4,  4601, -1, 0, 0, False) /* Create Strength Other II (4601) for Shop */
      , (30047, 4,  4610, -1, 0, 0, False) /* Create Willpower Other I (4610) for Shop */
      , (30047, 4,  4611, -1, 0, 0, False) /* Create Willpower Other II (4611) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30047, 67116347, 0, 0);

@@ -12,8 +12,7 @@ VALUES (47186,   1,         16) /* ItemType - Creature */
      , (47186,  25,        200) /* Level */
      , (47186,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (47186, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (47186, 307,          5) /* DamageRating */
-     , (47186, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (47186, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (47186,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47186,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (47186,   1, 'Tortured Servant') /* Name */
-     , (47186, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (47186,   1, 'Tortured Servant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47186,   1,   33558814) /* Setup */
@@ -31,17 +29,11 @@ VALUES (47186,   1,   33558814) /* Setup */
      , (47186,   3,  536870934) /* SoundTable */
      , (47186,   6,   67115246) /* PaletteBase */
      , (47186,   8,  100676639) /* Icon */
-     , (47186,  22,  872415272) /* PhysicsEffectTable */
-     , (47186, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (47186, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (47186, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (47186,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47186, 8040, 1482555673, 74.4151, -70, 0.01257598, 0.714421, 0, 0, 0.699716) /* PCAPRecordedLocation */
 /* @teleloc 0x585E0119 [74.415100 -70.000000 0.012576] 0.714421 0.000000 0.000000 0.699716 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47186, 8000, 3360314422) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (47186,   1, 380, 0, 0) /* Strength */
@@ -58,6 +50,3 @@ VALUES (47186,   1,  3370, 0, 0, 3540) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47186, 2, 47187,  1, 0, 0, False) /* Create Khopesh (47187) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (47186, 67115247, 0, 0);

@@ -14,8 +14,7 @@ VALUES (37400,   1,         16) /* ItemType - Creature */
      , (37400,  95,          8) /* RadarBlipColor - Yellow */
      , (37400, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (37400, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (37400, 307,          5) /* DamageRating */
-     , (37400, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (37400, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37400,   1, True ) /* Stuck */
@@ -26,25 +25,18 @@ VALUES (37400,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37400,   1, 'Merwart Mundagurg') /* Name */
-     , (37400,   5, 'Explorer') /* Template */
-     , (37400, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (37400,   5, 'Explorer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37400,   1,   33554490) /* Setup */
      , (37400,   2,  150994953) /* MotionTable */
      , (37400,   3,  536870959) /* SoundTable */
      , (37400,   6,   67109310) /* PaletteBase */
-     , (37400,   8,  100667449) /* Icon */
-     , (37400, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (37400, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (37400, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (37400,   8,  100667449) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37400, 8040, 288620559, 31.3122, 163.329, 42.0055, 0.8799509, 0, 0, -0.4750645) /* PCAPRecordedLocation */
 /* @teleloc 0x1134000F [31.312200 163.329000 42.005500] 0.879951 0.000000 0.000000 -0.475065 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37400, 8000, 3691069351) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37400,   1, 180, 0, 0) /* Strength */
@@ -61,6 +53,3 @@ VALUES (37400,   1,   100, 0, 0, 220) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37400, 2, 37402,  1, 0, 0, False) /* Create Club of Surprising Cunning (37402) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37400, 67113355, 0, 0);

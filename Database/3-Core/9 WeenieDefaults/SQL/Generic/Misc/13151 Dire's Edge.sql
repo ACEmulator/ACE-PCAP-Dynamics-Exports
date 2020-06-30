@@ -19,14 +19,8 @@ VALUES (13151,   1, 'Dire''s Edge') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (13151,   1,   33557463) /* Setup */
-     , (13151,   8,  100668115) /* Icon */
-     , (13151, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (13151, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (13151, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (13151,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (13151, 8040, 1000079402, 122.516, 27.1021, 51.83918, -0.141781, 0, 0, 0.989898) /* PCAPRecordedLocation */
 /* @teleloc 0x3B9C002A [122.516000 27.102100 51.839180] -0.141781 0.000000 0.000000 0.989898 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (13151, 8000, 1941553369) /* PCAPRecordedObjectIID */;

@@ -22,9 +22,7 @@ VALUES (47546,   1,        256) /* ItemType - MissileWeapon */
      , (47546,  51,          2) /* CombatUse - Missle */
      , (47546,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47546, 151,          2) /* HookType - Wall */
-     , (47546, 353,         10) /* WeaponType - Thrown */
-     , (47546, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (47546, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (47546, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47546,  21,       0) /* WeaponLength */
@@ -43,19 +41,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47546,   1,   33554738) /* Setup */
      , (47546,   3,  536870932) /* SoundTable */
      , (47546,   8,  100667593) /* Icon */
-     , (47546,  22,  872415275) /* PhysicsEffectTable */
-     , (47546, 8001,  270774808) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (47546, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (47546, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (47546, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (47546,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47546, 8040, 3269263367, 12.66033, 148.4111, 7.204412, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xC2DD0007 [12.660330 148.411100 7.204412] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47546, 8000, 3361393268) /* PCAPRecordedObjectIID */
-     , (47546, 8008, 3361467454) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (47546, 2, 23133,  1, 0, 0, False) /* Create Rock (23133) for Wield */;

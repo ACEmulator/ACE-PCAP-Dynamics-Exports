@@ -13,8 +13,7 @@ VALUES (36509,   1,       2048) /* ItemType - Gem */
      , (36509,  16,          1) /* ItemUseable - No */
      , (36509,  18,          2) /* UiEffects - Poisoned */
      , (36509,  19,         40) /* Value */
-     , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36509, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36509,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36509,   1, 'Greater Gem of Knowledge') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36509,   1,   33554809) /* Setup */
      , (36509,   3,  536870932) /* SoundTable */
      , (36509,   8,  100689653) /* Icon */
-     , (36509,  22,  872415275) /* PhysicsEffectTable */
-     , (36509, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (36509, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (36509, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36509, 8000, 3541976570) /* PCAPRecordedObjectIID */;
+     , (36509,  22,  872415275) /* PhysicsEffectTable */;

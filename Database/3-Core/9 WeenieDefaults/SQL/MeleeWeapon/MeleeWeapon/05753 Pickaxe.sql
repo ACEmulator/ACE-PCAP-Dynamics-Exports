@@ -18,9 +18,7 @@ VALUES (5753,   1,          1) /* ItemType - MeleeWeapon */
      , (5753,  51,          1) /* CombatUse - Melee */
      , (5753,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5753, 151,          2) /* HookType - Wall */
-     , (5753, 353,          3) /* WeaponType - Axe */
-     , (5753, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (5753, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (5753, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5753,  22, True ) /* Inscribable */;
@@ -42,16 +40,8 @@ VALUES (5753,   1,   33554813) /* Setup */
      , (5753,   3,  536870932) /* SoundTable */
      , (5753,   8,  100670275) /* Icon */
      , (5753,  22,  872415275) /* PhysicsEffectTable */
-     , (5753,  30,         88) /* PhysicsScript - Create */
-     , (5753, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (5753, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (5753, 8005,     194593) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, AnimationFrame */
-     , (5753, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (5753,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5753, 8040, 3164471552, 10.1023, 106.1929, 69.92901, -0.64965, -0.64965, 0.2792039, 0.2792039) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9E0100 [10.102300 106.192900 69.929010] -0.649650 -0.649650 0.279204 0.279204 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5753, 8000, 3691828725) /* PCAPRecordedObjectIID */
-     , (5753, 8008, 3691825982) /* PCAPRecordedParentIID */;

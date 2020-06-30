@@ -27,8 +27,7 @@ VALUES (43828,   1,          2) /* ItemType - Armor */
      , (43828, 177,          4) /* GemCount */
      , (43828, 178,         20) /* GemType */
      , (43828, 265,         20) /* EquipmentSetId - Dexterous */
-     , (43828, 374,          1) /* GearCritDamage */
-     , (43828, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43828, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43828,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (43828,   5,  -0.056) /* ManaRate */
      , (43828,  17,   0.934) /* ArmorModVsFire */
      , (43828,  18,   0.772) /* ArmorModVsAcid */
      , (43828,  19,     0.8) /* ArmorModVsElectric */
-     , (43828, 165,       1) /* ArmorModVsNether */
-     , (43828, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (43828, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43828,   1, 'Sedgemail Leather Vest') /* Name */
@@ -57,23 +55,10 @@ VALUES (43828,   1,   33554642) /* Setup */
      , (43828,   3,  536870932) /* SoundTable */
      , (43828,   6,   67108990) /* PaletteBase */
      , (43828,   8,  100691712) /* Icon */
-     , (43828,  22,  872415275) /* PhysicsEffectTable */
-     , (43828, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (43828, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (43828, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43828, 8000, 3683303230) /* PCAPRecordedObjectIID */;
+     , (43828,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43828,  1552,      2) 
      , (43828,  2104,      2) 
      , (43828,  2108,      2) 
      , (43828,  2594,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43828, 67110374, 174, 12)
-     , (43828, 67116890, 206, 10);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43828, 0, 16795212);

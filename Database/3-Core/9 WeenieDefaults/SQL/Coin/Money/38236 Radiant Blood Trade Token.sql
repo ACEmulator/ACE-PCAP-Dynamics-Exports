@@ -14,8 +14,7 @@ VALUES (38236,   1,         64) /* ItemType - Money */
      , (38236,  19,          0) /* Value */
      , (38236,  33,          1) /* Bonded - Bonded */
      , (38236,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38236, 114,          1) /* Attuned - Attuned */
-     , (38236, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38236, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38236,  69, False) /* IsSellable */;
@@ -28,10 +27,4 @@ VALUES (38236,   1, 'Radiant Blood Trade Token') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38236,   1,   33554802) /* Setup */
      , (38236,   8,  100689461) /* Icon */
-     , (38236,  50,  100690179) /* IconOverlay */
-     , (38236, 8001, 1073770512) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, IconOverlay */
-     , (38236, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (38236, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38236, 8000, 3676132778) /* PCAPRecordedObjectIID */;
+     , (38236,  50,  100690179) /* IconOverlay */;

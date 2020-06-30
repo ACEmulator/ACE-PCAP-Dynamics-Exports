@@ -15,8 +15,7 @@ VALUES (43632,   1,         16) /* ItemType - Creature */
      , (43632,  76,     100000) /* MerchandiseMaxValue */
      , (43632,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (43632, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (43632, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43632, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43632, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43632,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (43632,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43632,   1, 'Olthoi Matron') /* Name */
-     , (43632,   5, 'Spitter Vendor') /* Template */
-     , (43632, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (43632,   5, 'Spitter Vendor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43632,   1,   33557165) /* Setup */
@@ -43,17 +41,11 @@ VALUES (43632,   1,   33557165) /* Setup */
      , (43632,   8,  100667623) /* Icon */
      , (43632,  22,  872415379) /* PhysicsEffectTable */
      , (43632,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (43632,  57,      43491) /* AlternateCurrency - Pitted Slag */
-     , (43632, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (43632, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (43632, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (43632,  57,      43491) /* AlternateCurrency - Pitted Slag */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43632, 8040, 3872587781, 11.7979, 115.249, 224.6209, -0.9841558, 0, 0, -0.1773059) /* PCAPRecordedLocation */
 /* @teleloc 0xE6D30005 [11.797900 115.249000 224.620900] -0.984156 0.000000 0.000000 -0.177306 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43632, 8000, 2121084935) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43632,   1, 380, 0, 0) /* Strength */
@@ -119,6 +111,3 @@ VALUES (43632, 4, 43677, -1, 0, 0, False) /* Create Lower Exoskeleton Metamorphi
      , (43632, 4, 43634, -1, 0, 0, False) /* Create Acidic Infusion (43634) for Shop */
      , (43632, 4, 43701, -1, 0, 0, False) /* Create Olthoi Fibrous Healing Tissue (43701) for Shop */
      , (43632, 4, 43819, -1, 0, 0, False) /* Create Olthoi Coarse Healing Tissue (43819) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43632, 67114410, 0, 0);

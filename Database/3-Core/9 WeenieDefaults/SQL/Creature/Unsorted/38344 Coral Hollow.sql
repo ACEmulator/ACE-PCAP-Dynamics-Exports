@@ -34,8 +34,7 @@ VALUES (38344,   1,         16) /* ItemType - Creature */
      , (38344, 386,          0) /* Overpower */
      , (38344, 387,          0) /* OverpowerResist */
      , (38344, 388,          0) /* GearOverpower */
-     , (38344, 389,          0) /* GearOverpowerResist */
-     , (38344, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38344, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38344,   1, True ) /* Stuck */
@@ -43,29 +42,19 @@ VALUES (38344,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38344,  39,     0.3) /* DefaultScale */
-     , (38344,  54,       2) /* UseRadius */
-     , (38344, 8010,       0) /* PCAPRecordedVelocityX */
-     , (38344, 8011,       0) /* PCAPRecordedVelocityY */
-     , (38344, 8012,  -0.021) /* PCAPRecordedVelocityZ */;
+     , (38344,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38344,   1, 'Coral Hollow') /* Name */
-     , (38344,  16, 'This hollow is inscribed with coral numbers that read 126.') /* LongDesc */
-     , (38344, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38344,  16, 'This hollow is inscribed with coral numbers that read 126.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38344,   1,   33560648) /* Setup */
      , (38344,   2,  150995429) /* MotionTable */
      , (38344,   3,  536870932) /* SoundTable */
      , (38344,   8,  100689606) /* Icon */
-     , (38344,  22,  872415426) /* PhysicsEffectTable */
-     , (38344, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (38344, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (38344, 8005,     104583) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, ObjScale, STable, PeTable, Position, Movement */;
+     , (38344,  22,  872415426) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38344, 8040, 990969877, 58, 109.5, 10.355, -0.699663, 0, 0, -0.714473) /* PCAPRecordedLocation */
 /* @teleloc 0x3B110015 [58.000000 109.500000 10.355000] -0.699663 0.000000 0.000000 -0.714473 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38344, 8000, 3695718691) /* PCAPRecordedObjectIID */;

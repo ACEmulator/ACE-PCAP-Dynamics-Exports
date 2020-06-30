@@ -11,8 +11,7 @@ VALUES (26470,   1,         16) /* ItemType - Creature */
      , (26470,  16,          1) /* ItemUseable - No */
      , (26470,  25,        100) /* Level */
      , (26470,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (26470, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (26470, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (26470, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26470,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26470,  39,    1.45) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26470,   1, 'Fire Shreth') /* Name */
-     , (26470, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (26470,   1, 'Fire Shreth') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26470,   1,   33555879) /* Setup */
@@ -30,17 +28,11 @@ VALUES (26470,   1,   33555879) /* Setup */
      , (26470,   3,  536870986) /* SoundTable */
      , (26470,   6,   67112444) /* PaletteBase */
      , (26470,   8,  100669720) /* Icon */
-     , (26470,  22,  872415333) /* PhysicsEffectTable */
-     , (26470, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (26470, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (26470, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (26470,  22,  872415333) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26470, 8040, 1520566286, 44.56478, 141.3367, 33.82063, 0.4320621, 0, 0, -0.9018439) /* PCAPRecordedLocation */
 /* @teleloc 0x5AA2000E [44.564780 141.336700 33.820630] 0.432062 0.000000 0.000000 -0.901844 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26470, 8000, 3685560206) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26470,   1, 280, 0, 0) /* Strength */
@@ -95,6 +87,3 @@ VALUES (26470, 9, 20533,  0, 0, 0, False) /* Create Scroll of Avalenne's Boon (2
      , (26470, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
      , (26470, 9, 41069,  0, 0, 0, False) /* Create Lightning Shashqa (41069) for ContainTreasure */
      , (26470, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (26470, 67114948, 0, 0);

@@ -25,8 +25,7 @@ VALUES (36489,   1,      32768) /* ItemType - Caster */
      , (36489, 159,         15) /* WieldSkillType - MagicDefense */
      , (36489, 160,        275) /* WieldDifficulty */
      , (36489, 176,         30) /* AppraisalItemSkill */
-     , (36489, 263,          8) /* ResistanceModifierType */
-     , (36489, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (36489, 263,          8) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36489,  22, True ) /* Inscribable */
@@ -50,19 +49,11 @@ VALUES (36489,   1,   33560392) /* Setup */
      , (36489,   3,  536870932) /* SoundTable */
      , (36489,   8,  100689642) /* Icon */
      , (36489,  22,  872415275) /* PhysicsEffectTable */
-     , (36489,  28,       4216) /* Spell - FrostWaveOrisis */
-     , (36489, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (36489, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36489, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (36489, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (36489,  28,       4216) /* Spell - FrostWaveOrisis */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36489, 8040, 3465871413, 157.2323, 95.9995, 19.929, 0.2566817, 0.2566817, -0.6588737, -0.6588737) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950035 [157.232300 95.999500 19.929000] 0.256682 0.256682 -0.658874 -0.658874 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36489, 8000, 2168176075) /* PCAPRecordedObjectIID */
-     , (36489, 8008, 1343312670) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36489,  2611,      2) 

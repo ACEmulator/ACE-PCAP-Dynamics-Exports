@@ -13,8 +13,7 @@ VALUES (5794,   1,    4194304) /* ItemType - CraftCookingBase */
      , (5794,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5794,  19,          5) /* Value */
      , (5794,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5794,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (5794, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5794,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5794,   1, 'Hot Pepper') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5794,   1,   33556234) /* Setup */
      , (5794,   3,  536870932) /* SoundTable */
      , (5794,   8,  100670303) /* Icon */
-     , (5794,  22,  872415275) /* PhysicsEffectTable */
-     , (5794, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (5794, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5794, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5794, 8000, 3681622529) /* PCAPRecordedObjectIID */;
+     , (5794,  22,  872415275) /* PhysicsEffectTable */;

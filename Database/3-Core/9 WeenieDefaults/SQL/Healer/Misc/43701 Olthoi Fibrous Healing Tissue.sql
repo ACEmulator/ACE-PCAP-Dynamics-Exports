@@ -15,8 +15,7 @@ VALUES (43701,   1,        128) /* ItemType - Misc */
      , (43701,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43701,  94,         16) /* TargetType - Creature */
      , (43701, 114,          1) /* Attuned - Attuned */
-     , (43701, 151,          2) /* HookType - Wall */
-     , (43701, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43701, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43701,  22, True ) /* Inscribable */;
@@ -31,18 +30,4 @@ VALUES (43701,   1, 'Olthoi Fibrous Healing Tissue') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43701,   1,   33555194) /* Setup */
      , (43701,   8,  100691638) /* Icon */
-     , (43701,  52,  100686604) /* IconUnderlay */
-     , (43701, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
-     , (43701, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (43701, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
-     , (43701, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43701, 8000, 3622211808) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43701, 0, 83889681, 83894377)
-     , (43701, 0, 83889682, 83894378);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43701, 0, 16779994);
+     , (43701,  52,  100686604) /* IconUnderlay */;

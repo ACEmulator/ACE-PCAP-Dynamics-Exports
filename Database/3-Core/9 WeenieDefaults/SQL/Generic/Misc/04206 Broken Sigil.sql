@@ -21,10 +21,4 @@ VALUES (4206,   1, 'Broken Sigil') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4206,   1,   33556438) /* Setup */
-     , (4206,   8,  100670227) /* Icon */
-     , (4206, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (4206, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (4206, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4206, 8000, 2248048150) /* PCAPRecordedObjectIID */;
+     , (4206,   8,  100670227) /* Icon */;

@@ -23,8 +23,7 @@ VALUES (53330,   1,      32768) /* ItemType - Caster */
      , (53330, 151,          2) /* HookType - Wall */
      , (53330, 158,          2) /* WieldRequirements - RawSkill */
      , (53330, 159,         34) /* WieldSkillType - WarMagic */
-     , (53330, 160,        385) /* WieldDifficulty */
-     , (53330, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (53330, 160,        385) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53330,  22, True ) /* Inscribable */
@@ -37,8 +36,7 @@ VALUES (53330,   5,  -0.025) /* ManaRate */
      , (53330, 144,     0.1) /* ManaConversionMod */
      , (53330, 149,    1.01) /* WeaponMissileDefense */
      , (53330, 150,    1.01) /* WeaponMagicDefense */
-     , (53330, 152,    1.18) /* ElementalDamageMod */
-     , (53330, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53330, 152,    1.18) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53330,   1, 'Stormwood Wand') /* Name */
@@ -51,20 +49,11 @@ VALUES (53330,   1,   33561675) /* Setup */
      , (53330,   8,  100693344) /* Icon */
      , (53330,  22,  872415275) /* PhysicsEffectTable */
      , (53330,  28,       6198) /* Spell - IncantationOfLightningBolt */
-     , (53330,  52,  100676439) /* IconUnderlay */
-     , (53330, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (53330, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (53330, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (53330, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (53330, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (53330,  52,  100676439) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53330, 8040, 3332964380, 80.4887, 83.85165, 41.929, -0.7070963, -0.7070963, 0.003842928, 0.003842928) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001C [80.488700 83.851650 41.929000] -0.707096 -0.707096 0.003843 0.003843 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53330, 8000, 2147705381) /* PCAPRecordedObjectIID */
-     , (53330, 8008, 1342186805) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53330,  4602,      2) 

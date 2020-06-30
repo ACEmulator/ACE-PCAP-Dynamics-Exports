@@ -18,8 +18,7 @@ VALUES (2294,   1,         16) /* ItemType - Creature */
      , (2294, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2294, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (2294, 188,          3) /* HeritageGroup - Sho */
-     , (2294, 307,          5) /* DamageRating */
-     , (2294, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2294, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2294,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (2294,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2294,   1, 'Son Jaiken the Armorer') /* Name */
-     , (2294,   5, 'Blacksmith') /* Template */
-     , (2294, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2294,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2294,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (2294,   1,   33554510) /* Setup */
      , (2294,  11,   83890331) /* MouthTexture */
      , (2294,  15,   67117000) /* HairPalette */
      , (2294,  16,   67109565) /* EyesPalette */
-     , (2294,  17,   67110049) /* SkinPalette */
-     , (2294, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2294, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2294, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (2294,  17,   67110049) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2294, 8040, 3378184483, 111.867, 67.5011, 12.005, -0.9962036, 0, 0, -0.08705422) /* PCAPRecordedLocation */
 /* @teleloc 0xC95B0123 [111.867000 67.501100 12.005000] -0.996204 0.000000 0.000000 -0.087054 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2294, 8000, 2090184734) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2294,   1,  95, 0, 0) /* Strength */
@@ -118,52 +110,3 @@ VALUES (2294, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield
      , (2294, 4, 31781, -1, 0, 0, False) /* Create Electric Spine Glaive (31781) for Shop */
      , (2294, 4, 30951, -1, 0, 0, False) /* Create Alduressa Gauntlets (30951) for Shop */
      , (2294, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2294, 67109565, 32, 8)
-     , (2294, 67109967, 92, 4)
-     , (2294, 67110026, 72, 8)
-     , (2294, 67110049, 0, 24)
-     , (2294, 67110320, 64, 8)
-     , (2294, 67110365, 40, 24)
-     , (2294, 67110365, 160, 8)
-     , (2294, 67117000, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2294, 0, 83889072, 83890012)
-     , (2294, 0, 83889342, 83890011)
-     , (2294, 1, 83887064, 83886241)
-     , (2294, 2, 83887066, 83887051)
-     , (2294, 3, 83889344, 83887054)
-     , (2294, 4, 83887068, 83887054)
-     , (2294, 5, 83887064, 83886241)
-     , (2294, 6, 83887066, 83887051)
-     , (2294, 7, 83889344, 83887054)
-     , (2294, 8, 83887068, 83887054)
-     , (2294, 9, 83887070, 83890009)
-     , (2294, 9, 83887062, 83890010)
-     , (2294, 10, 83887069, 83886782)
-     , (2294, 13, 83887069, 83886782)
-     , (2294, 16, 83886232, 83890685)
-     , (2294, 16, 83886668, 83890235)
-     , (2294, 16, 83886837, 83890290)
-     , (2294, 16, 83886684, 83890331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2294, 0, 16781875)
-     , (2294, 1, 16778430)
-     , (2294, 2, 16781908)
-     , (2294, 3, 16781841)
-     , (2294, 4, 16783485)
-     , (2294, 5, 16778438)
-     , (2294, 6, 16781909)
-     , (2294, 7, 16781840)
-     , (2294, 8, 16783487)
-     , (2294, 9, 16778425)
-     , (2294, 10, 16778431)
-     , (2294, 11, 16778429)
-     , (2294, 12, 16778423)
-     , (2294, 13, 16778434)
-     , (2294, 14, 16778424)
-     , (2294, 15, 16778435)
-     , (2294, 16, 16795650);

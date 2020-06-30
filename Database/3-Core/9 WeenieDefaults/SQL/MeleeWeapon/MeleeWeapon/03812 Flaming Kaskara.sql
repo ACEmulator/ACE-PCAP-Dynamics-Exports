@@ -27,9 +27,7 @@ VALUES (3812,   1,          1) /* ItemType - MeleeWeapon */
      , (3812, 172,          5) /* AppraisalLongDescDecoration */
      , (3812, 177,          2) /* GemCount */
      , (3812, 178,         34) /* GemType */
-     , (3812, 353,          2) /* WeaponType - Sword */
-     , (3812, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3812, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (3812, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3812,  22, True ) /* Inscribable */;
@@ -41,8 +39,7 @@ VALUES (3812,  21,       0) /* WeaponLength */
      , (3812,  29,    1.11) /* WeaponDefense */
      , (3812,  62,    1.09) /* WeaponOffense */
      , (3812,  63,       1) /* DamageMod */
-     , (3812, 150,   1.025) /* WeaponMagicDefense */
-     , (3812, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (3812, 150,   1.025) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3812,   1, 'Flaming Kaskara') /* Name */
@@ -54,17 +51,8 @@ VALUES (3812,   1,   33555802) /* Setup */
      , (3812,   8,  100667613) /* Icon */
      , (3812,  22,  872415275) /* PhysicsEffectTable */
      , (3812,  50,  100689143) /* IconOverlay */
-     , (3812,  52,  100676441) /* IconUnderlay */
-     , (3812, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (3812, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3812, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3812, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (3812, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (3812,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3812, 8040, 3583574079, 175.5047, 164.3551, 373.929, 0.3917741, 0.3917741, -0.5886536, -0.5886536) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [175.504700 164.355100 373.929000] 0.391774 0.391774 -0.588654 -0.588654 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3812, 8000, 2909654951) /* PCAPRecordedObjectIID */
-     , (3812, 8008, 1342495168) /* PCAPRecordedParentIID */;

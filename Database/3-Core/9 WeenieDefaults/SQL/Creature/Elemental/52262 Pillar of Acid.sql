@@ -11,32 +11,24 @@ VALUES (52262,   1,         16) /* ItemType - Creature */
      , (52262,  16,          1) /* ItemUseable - No */
      , (52262,  25,        200) /* Level */
      , (52262,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
-     , (52262, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (52262, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52262, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52262,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52262,   1, 'Pillar of Acid') /* Name */
-     , (52262, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (52262,   1, 'Pillar of Acid') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52262,   1,   33560371) /* Setup */
      , (52262,   2,  150995290) /* MotionTable */
      , (52262,   3,  536871001) /* SoundTable */
      , (52262,   8,  100672513) /* Icon */
-     , (52262,  22,  872415389) /* PhysicsEffectTable */
-     , (52262, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52262, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52262, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (52262,  22,  872415389) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52262, 8040, 1483079983, 160, -90, -0.003342986, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5866012F [160.000000 -90.000000 -0.003343] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52262, 8000, 2883742821) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (52262,   1,  90, 0, 0) /* Strength */

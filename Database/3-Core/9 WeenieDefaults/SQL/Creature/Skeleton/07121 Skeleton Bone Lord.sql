@@ -12,15 +12,13 @@ VALUES (7121,   1,         16) /* ItemType - Creature */
      , (7121,  25,         60) /* Level */
      , (7121,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7121, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7121, 307,          5) /* DamageRating */
-     , (7121, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7121, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7121,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7121,   1, 'Skeleton Bone Lord') /* Name */
-     , (7121, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (7121,   1, 'Skeleton Bone Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7121,   1,   33559534) /* Setup */
@@ -28,17 +26,11 @@ VALUES (7121,   1,   33559534) /* Setup */
      , (7121,   3,  536870942) /* SoundTable */
      , (7121,   6,   67116522) /* PaletteBase */
      , (7121,   8,  100669124) /* Icon */
-     , (7121,  22,  872415269) /* PhysicsEffectTable */
-     , (7121, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7121, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7121, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (7121,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7121, 8040, 2246377515, 131.905, 65.89224, 33.98666, -0.3451043, 0, 0, -0.9385644) /* PCAPRecordedLocation */
 /* @teleloc 0x85E5002B [131.905000 65.892240 33.986660] -0.345104 0.000000 0.000000 -0.938564 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7121, 8000, 3685890431) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7121,   1, 105, 0, 0) /* Strength */
@@ -169,6 +161,3 @@ VALUES (7121, 2, 47711,  1, 0, 0, False) /* Create Acid Spear (47711) for Wield 
      , (7121, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (7121, 9, 49213,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for ContainTreasure */
      , (7121, 9, 40627,  0, 0, 0, False) /* Create Frost Quadrelle (40627) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7121, 67116527, 0, 0);

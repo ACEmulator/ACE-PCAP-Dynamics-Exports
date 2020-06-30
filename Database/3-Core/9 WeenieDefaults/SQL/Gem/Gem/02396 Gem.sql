@@ -23,14 +23,10 @@ VALUES (2396,   1,       2048) /* ItemType - Gem */
      , (2396, 115,          0) /* ItemSkillLevelLimit */
      , (2396, 117,        350) /* ItemManaCost */
      , (2396, 131,         27) /* MaterialType - Jet */
-     , (2396, 172,          1) /* AppraisalLongDescDecoration */
-     , (2396, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2396, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2396,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2396, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2396,   1, 'Gem') /* Name */
@@ -42,22 +38,7 @@ VALUES (2396,   1,   33554809) /* Setup */
      , (2396,   6,   67111919) /* PaletteBase */
      , (2396,   8,  100674744) /* Icon */
      , (2396,  22,  872415275) /* PhysicsEffectTable */
-     , (2396,  28,       1378) /* Spell - CoordinationSelf6 */
-     , (2396, 8001, 2170581144) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, Workmanship, MaterialType */
-     , (2396, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2396, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2396, 8000, 3685792284) /* PCAPRecordedObjectIID */;
+     , (2396,  28,       1378) /* Spell - CoordinationSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2396,  1378,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2396, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2396, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2396, 0, 16779181);

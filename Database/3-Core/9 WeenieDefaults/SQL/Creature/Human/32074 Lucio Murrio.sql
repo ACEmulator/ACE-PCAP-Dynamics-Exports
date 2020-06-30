@@ -15,8 +15,7 @@ VALUES (32074,   1,         16) /* ItemType - Creature */
      , (32074, 113,          1) /* Gender - Male */
      , (32074, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (32074, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (32074, 188,          4) /* HeritageGroup - Viamontian */
-     , (32074, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32074, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32074,   1, True ) /* Stuck */
@@ -27,8 +26,7 @@ VALUES (32074,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32074,   1, 'Lucio Murrio') /* Name */
-     , (32074,   5, 'Royal Scout') /* Template */
-     , (32074, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (32074,   5, 'Royal Scout') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32074,   1,   33554433) /* Setup */
@@ -41,17 +39,11 @@ VALUES (32074,   1,   33554433) /* Setup */
      , (32074,  11,   83890667) /* MouthTexture */
      , (32074,  15,   67117104) /* HairPalette */
      , (32074,  16,   67110065) /* EyesPalette */
-     , (32074,  17,   67115906) /* SkinPalette */
-     , (32074, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (32074, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (32074, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (32074,  17,   67115906) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32074, 8040, 397541419, 137.554, 48.9581, 44.005, 0.526587, 0, 0, -0.850121) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2002B [137.554000 48.958100 44.005000] 0.526587 0.000000 0.000000 -0.850121 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32074, 8000, 3691227379) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32074,   1,  60, 0, 0) /* Strength */
@@ -65,72 +57,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (32074,   1,    10, 0, 0, 61) /* MaxHealth */
      , (32074,   3,    80, 0, 0, 182) /* MaxStamina */
      , (32074,   5,    10, 0, 0, 60) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32074, 67109965, 92, 4)
-     , (32074, 67110065, 32, 8)
-     , (32074, 67110349, 64, 8)
-     , (32074, 67110375, 40, 24)
-     , (32074, 67110377, 160, 8)
-     , (32074, 67110539, 72, 8)
-     , (32074, 67114619, 136, 24)
-     , (32074, 67114619, 72, 64)
-     , (32074, 67114619, 174, 66)
-     , (32074, 67114619, 168, 6)
-     , (32074, 67115906, 0, 24)
-     , (32074, 67117104, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32074, 0, 83889072, 83894829)
-     , (32074, 0, 83889342, 83894833)
-     , (32074, 1, 83887064, 83886241)
-     , (32074, 1, 83894659, 83894839)
-     , (32074, 2, 83894832, 83894832)
-     , (32074, 2, 83894837, 83894837)
-     , (32074, 2, 83887066, 83887051)
-     , (32074, 3, 83889344, 83887054)
-     , (32074, 4, 83887068, 83887054)
-     , (32074, 5, 83887064, 83886241)
-     , (32074, 5, 83894659, 83894839)
-     , (32074, 6, 83892602, 83894832)
-     , (32074, 6, 83892601, 83894837)
-     , (32074, 6, 83887066, 83887051)
-     , (32074, 7, 83889344, 83887054)
-     , (32074, 8, 83887068, 83887054)
-     , (32074, 9, 83887061, 83894835)
-     , (32074, 9, 83887060, 83894836)
-     , (32074, 10, 83887069, 83886782)
-     , (32074, 10, 83894513, 83894831)
-     , (32074, 10, 83894514, 83894838)
-     , (32074, 10, 83894510, 83894831)
-     , (32074, 11, 83886788, 83894834)
-     , (32074, 12, 83894660, 83894841)
-     , (32074, 13, 83887069, 83886782)
-     , (32074, 13, 83894513, 83894831)
-     , (32074, 13, 83894514, 83894838)
-     , (32074, 13, 83894510, 83894831)
-     , (32074, 14, 83886788, 83891213)
-     , (32074, 15, 83894660, 83894841)
-     , (32074, 16, 83886232, 83890359)
-     , (32074, 16, 83886668, 83890466)
-     , (32074, 16, 83886837, 83890550)
-     , (32074, 16, 83886684, 83890667);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32074, 0, 16777294)
-     , (32074, 1, 16789345)
-     , (32074, 2, 16777293)
-     , (32074, 3, 16777292)
-     , (32074, 4, 16777291)
-     , (32074, 5, 16789351)
-     , (32074, 6, 16777297)
-     , (32074, 7, 16777296)
-     , (32074, 8, 16777298)
-     , (32074, 9, 16777300)
-     , (32074, 10, 16788992)
-     , (32074, 11, 16781812)
-     , (32074, 12, 16789332)
-     , (32074, 13, 16788995)
-     , (32074, 14, 16789659)
-     , (32074, 15, 16789333)
-     , (32074, 16, 16795638);

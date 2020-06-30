@@ -17,8 +17,7 @@ VALUES (4696,   1,         16) /* ItemType - Creature */
      , (4696, 113,          1) /* Gender - Male */
      , (4696, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4696, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4696, 188,          2) /* HeritageGroup - Gharundim */
-     , (4696, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4696, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4696,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4696,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4696,   1, 'Barkeep Mausin ibn Hi') /* Name */
-     , (4696,   5, 'Barkeeper') /* Template */
-     , (4696, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4696,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4696,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4696,   1,   33554433) /* Setup */
      , (4696,  11,   83890596) /* MouthTexture */
      , (4696,  15,   67116999) /* HairPalette */
      , (4696,  16,   67110063) /* EyesPalette */
-     , (4696,  17,   67109551) /* SkinPalette */
-     , (4696, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4696, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4696, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4696,  17,   67109551) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4696, 8040, 2655191314, 29.854, 174.113, 43.205, 0.6794131, 0, 0, -0.733756) /* PCAPRecordedLocation */
 /* @teleloc 0x9E430112 [29.854000 174.113000 43.205000] 0.679413 0.000000 0.000000 -0.733756 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4696, 8000, 2044997636) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4696,   1, 100, 0, 0) /* Strength */
@@ -93,55 +85,3 @@ VALUES (4696, 4,  2452, -1, 0, 0, False) /* Create Apple Juice (2452) for Shop *
      , (4696, 4,  5602, -1, 0, 0, False) /* Create The Festival Stones of the Empyrean (5602) for Shop */
      , (4696, 4,  6419, -1, 0, 0, False) /* Create The Meeting Halls (6419) for Shop */
      , (4696, 4, 24222, -1, 0, 0, False) /* Create Duplicated Portals (24222) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4696, 67109551, 0, 24)
-     , (4696, 67109969, 92, 4)
-     , (4696, 67110026, 72, 8)
-     , (4696, 67110063, 32, 8)
-     , (4696, 67110317, 250, 6)
-     , (4696, 67110320, 64, 8)
-     , (4696, 67110320, 160, 8)
-     , (4696, 67110325, 40, 24)
-     , (4696, 67111245, 216, 24)
-     , (4696, 67116999, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4696, 0, 83889072, 83890012)
-     , (4696, 0, 83889342, 83890011)
-     , (4696, 1, 83887064, 83886241)
-     , (4696, 3, 83889344, 83887054)
-     , (4696, 4, 83887068, 83887054)
-     , (4696, 5, 83887064, 83886241)
-     , (4696, 7, 83889344, 83887054)
-     , (4696, 8, 83887068, 83887054)
-     , (4696, 9, 83887061, 83890009)
-     , (4696, 9, 83887060, 83890010)
-     , (4696, 10, 83887069, 83886782)
-     , (4696, 11, 83887067, 83891213)
-     , (4696, 13, 83887069, 83886782)
-     , (4696, 14, 83887067, 83891213)
-     , (4696, 16, 83886232, 83890685)
-     , (4696, 16, 83886668, 83890481)
-     , (4696, 16, 83886837, 83890517)
-     , (4696, 16, 83886684, 83890596)
-     , (4696, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4696, 0, 16781835)
-     , (4696, 1, 16777295)
-     , (4696, 2, 16777293)
-     , (4696, 3, 16777292)
-     , (4696, 4, 16777291)
-     , (4696, 5, 16777299)
-     , (4696, 6, 16777297)
-     , (4696, 7, 16777296)
-     , (4696, 8, 16777298)
-     , (4696, 9, 16777300)
-     , (4696, 10, 16777301)
-     , (4696, 11, 16777302)
-     , (4696, 12, 16777304)
-     , (4696, 13, 16777303)
-     , (4696, 14, 16777305)
-     , (4696, 15, 16777307)
-     , (4696, 16, 16778594);

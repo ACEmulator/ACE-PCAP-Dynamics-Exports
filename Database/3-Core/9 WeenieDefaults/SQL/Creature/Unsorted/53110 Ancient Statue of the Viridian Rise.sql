@@ -34,8 +34,7 @@ VALUES (53110,   1,         16) /* ItemType - Creature */
      , (53110, 386,          0) /* Overpower */
      , (53110, 387,          0) /* OverpowerResist */
      , (53110, 388,          0) /* GearOverpower */
-     , (53110, 389,          0) /* GearOverpowerResist */
-     , (53110, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (53110, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53110,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (53110,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53110,   1, 'Ancient Statue of the Viridian Rise') /* Name */
-     , (53110,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */
-     , (53110, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (53110,  16, 'An ancient statue infused with the magic of the Viridian Rise. There are ancient mechanisms that might be manipulated with the Lockpick skill.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (53110,   1,   33558954) /* Setup */
      , (53110,   2,  150995147) /* MotionTable */
      , (53110,   3,  536871052) /* SoundTable */
      , (53110,   8,  100688311) /* Icon */
-     , (53110,  22,  872415274) /* PhysicsEffectTable */
-     , (53110, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (53110, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (53110, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (53110,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53110, 8040, 3058237444, 4, 92.2, 117.6833, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xB6490004 [4.000000 92.200000 117.683300] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53110, 8000, 2885544910) /* PCAPRecordedObjectIID */;

@@ -43,17 +43,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33576,   1,   33560017) /* Setup */
      , (33576,   3,  536870932) /* SoundTable */
      , (33576,   8,  100686004) /* Icon */
-     , (33576,  22,  872415275) /* PhysicsEffectTable */
-     , (33576, 8001,  270860312) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden, HookType */
-     , (33576, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33576, 8005,      38913) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position */;
+     , (33576,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33576, 8040, 3583574079, 183.9963, 144.4911, 374.0651, 0.9983903, 0, 0, 0.05671674) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [183.996300 144.491100 374.065100] 0.998390 0.000000 0.000000 0.056717 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33576, 8000, 2605978488) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33576,  2013,      2) 

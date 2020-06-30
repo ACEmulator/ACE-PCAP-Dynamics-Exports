@@ -26,8 +26,7 @@ VALUES (5709,   1,        256) /* ItemType - MissileWeapon */
      , (5709, 313,          0) /* CritRating */
      , (5709, 314,          0) /* CritDamageRating */
      , (5709, 353,         10) /* WeaponType - Thrown */
-     , (5709, 386,          0) /* Overpower */
-     , (5709, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (5709, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5709,  21,       0) /* WeaponLength */
@@ -50,19 +49,11 @@ VALUES (5709,   1,   33555469) /* Setup */
      , (5709,   3,  536870967) /* SoundTable */
      , (5709,   8,  100667590) /* Icon */
      , (5709,  22,  872415237) /* PhysicsEffectTable */
-     , (5709,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (5709, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (5709, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5709, 8005,      64289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (5709, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (5709,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5709, 8040, 2278948925, 174.0093, 105.1479, 165.6734, -0.1675534, -0.1675534, -0.6869686, -0.6869686) /* PCAPRecordedLocation */
 /* @teleloc 0x87D6003D [174.009300 105.147900 165.673400] -0.167553 -0.167553 -0.686969 -0.686969 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5709, 8000, 3685887924) /* PCAPRecordedObjectIID */
-     , (5709, 8008, 3685859191) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5709, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */

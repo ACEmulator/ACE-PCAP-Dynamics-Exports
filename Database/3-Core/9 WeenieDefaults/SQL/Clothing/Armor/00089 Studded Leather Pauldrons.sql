@@ -15,8 +15,7 @@ VALUES (89,   1,          2) /* ItemType - Armor */
      , (89,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (89, 105,          8) /* ItemWorkmanship */
      , (89, 131,         52) /* MaterialType - Leather */
-     , (89, 172,          1) /* AppraisalLongDescDecoration */
-     , (89, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (89, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (89,  22, True ) /* Inscribable */
@@ -31,8 +30,7 @@ VALUES (89,  13,     1.2) /* ArmorModVsSlash */
      , (89,  18,   0.745) /* ArmorModVsAcid */
      , (89,  19,     0.4) /* ArmorModVsElectric */
      , (89,  39,     1.1) /* DefaultScale */
-     , (89, 165,       1) /* ArmorModVsNether */
-     , (89, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (89, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (89,   1, 'Studded Leather Pauldrons') /* Name */
@@ -43,23 +41,8 @@ VALUES (89,   1,   33554641) /* Setup */
      , (89,   3,  536870932) /* SoundTable */
      , (89,   6,   67108990) /* PaletteBase */
      , (89,   8,  100669555) /* Icon */
-     , (89,  22,  872415275) /* PhysicsEffectTable */
-     , (89, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (89, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (89, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (89, 8000, 2174514712) /* PCAPRecordedObjectIID */;
+     , (89,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (89, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (89, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (89, 67110359, 128, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (89, 0, 83886788, 83886823);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (89, 0, 16778411);

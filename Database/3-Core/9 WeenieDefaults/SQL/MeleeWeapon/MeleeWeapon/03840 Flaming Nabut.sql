@@ -28,9 +28,7 @@ VALUES (3840,   1,          1) /* ItemType - MeleeWeapon */
      , (3840, 177,          3) /* GemCount */
      , (3840, 178,         34) /* GemType */
      , (3840, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (3840, 353,          7) /* WeaponType - Staff */
-     , (3840, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3840, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3840, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3840,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (3840,  21,       0) /* WeaponLength */
      , (3840,  29,    1.08) /* WeaponDefense */
      , (3840,  39,    0.67) /* DefaultScale */
      , (3840,  62,    1.09) /* WeaponOffense */
-     , (3840,  63,       1) /* DamageMod */
-     , (3840, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3840,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3840,   1, 'Flaming Nabut') /* Name */
@@ -58,11 +55,4 @@ VALUES (3840,   1,   33555407) /* Setup */
      , (3840,   3,  536870932) /* SoundTable */
      , (3840,   8,  100667602) /* Icon */
      , (3840,  22,  872415275) /* PhysicsEffectTable */
-     , (3840,  52,  100676440) /* IconUnderlay */
-     , (3840, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3840, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3840, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3840, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3840, 8000, 2401546850) /* PCAPRecordedObjectIID */;
+     , (3840,  52,  100676440) /* IconUnderlay */;

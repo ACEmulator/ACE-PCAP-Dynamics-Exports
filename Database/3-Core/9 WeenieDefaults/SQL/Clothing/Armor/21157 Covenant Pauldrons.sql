@@ -26,8 +26,7 @@ VALUES (21157,   1,          2) /* ItemType - Armor */
      , (21157, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21157, 160,        300) /* WieldDifficulty */
      , (21157, 172,          1) /* AppraisalLongDescDecoration */
-     , (21157, 176,          7) /* AppraisalItemSkill */
-     , (21157, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21157, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21157,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (21157,   5,   -0.05) /* ManaRate */
      , (21157,  18,     0.6) /* ArmorModVsAcid */
      , (21157,  19,       1) /* ArmorModVsElectric */
      , (21157,  39,     1.1) /* DefaultScale */
-     , (21157, 165,       1) /* ArmorModVsNether */
-     , (21157, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (21157, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21157,   1, 'Covenant Pauldrons') /* Name */
@@ -55,13 +53,7 @@ VALUES (21157,   1,   33554641) /* Setup */
      , (21157,   3,  536870932) /* SoundTable */
      , (21157,   6,   67108990) /* PaletteBase */
      , (21157,   8,  100673447) /* Icon */
-     , (21157,  22,  872415275) /* PhysicsEffectTable */
-     , (21157, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (21157, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21157, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21157, 8000, 3706647844) /* PCAPRecordedObjectIID */;
+     , (21157,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21157,  1485,      2) 
@@ -70,12 +62,3 @@ VALUES (21157,  1485,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21157, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21157, 67113929, 116, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21157, 0, 83886788, 83894174);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21157, 0, 16778411);

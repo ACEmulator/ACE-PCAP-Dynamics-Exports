@@ -23,8 +23,7 @@ VALUES (42209,   1,          1) /* ItemType - MeleeWeapon */
      , (42209, 109,         15) /* ItemDifficulty */
      , (42209, 151,          2) /* HookType - Wall */
      , (42209, 292,          2) /* Cleaving */
-     , (42209, 353,         11) /* WeaponType - TwoHanded */
-     , (42209, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (42209, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42209,  22, True ) /* Inscribable */;
@@ -48,24 +47,11 @@ VALUES (42209,   1,   33560728) /* Setup */
      , (42209,   3,  536870932) /* SoundTable */
      , (42209,   6,   67116700) /* PaletteBase */
      , (42209,   8,  100690501) /* Icon */
-     , (42209,  22,  872415275) /* PhysicsEffectTable */
-     , (42209, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (42209, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42209, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (42209, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (42209,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42209, 8040, 2103705613, 33.14976, 103.4668, 11.929, 0.3347458, 0.3347458, -0.6228525, -0.6228525) /* PCAPRecordedLocation */
 /* @teleloc 0x7D64000D [33.149760 103.466800 11.929000] 0.334746 0.334746 -0.622853 -0.622853 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42209, 8000, 2183200893) /* PCAPRecordedObjectIID */
-     , (42209, 8008, 1343198772) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42209,  1613,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42209, 67116700, 1, 100)
-     , (42209, 67116704, 201, 55)
-     , (42209, 67116705, 101, 100);

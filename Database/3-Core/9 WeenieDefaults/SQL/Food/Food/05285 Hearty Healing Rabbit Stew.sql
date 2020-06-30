@@ -13,8 +13,7 @@ VALUES (5285,   1,         32) /* ItemType - Food */
      , (5285,  16,          8) /* ItemUseable - Contained */
      , (5285,  18,          4) /* UiEffects - BoostHealth */
      , (5285,  19,        135) /* Value */
-     , (5285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5285, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5285,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5285,   1, 'Hearty Healing Rabbit Stew') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5285,   1,   33555968) /* Setup */
      , (5285,   3,  536870932) /* SoundTable */
      , (5285,   8,  100670175) /* Icon */
-     , (5285,  22,  872415275) /* PhysicsEffectTable */
-     , (5285, 8001,    2125977) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden */
-     , (5285, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5285, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5285, 8000, 2765486016) /* PCAPRecordedObjectIID */;
+     , (5285,  22,  872415275) /* PhysicsEffectTable */;

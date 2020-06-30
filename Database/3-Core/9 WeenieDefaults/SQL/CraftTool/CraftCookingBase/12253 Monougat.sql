@@ -13,8 +13,7 @@ VALUES (12253,   1,    4194304) /* ItemType - CraftCookingBase */
      , (12253,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (12253,  19,          4) /* Value */
      , (12253,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (12253,  94,    4194336) /* TargetType - Food, CraftCookingBase */
-     , (12253, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (12253,  94,    4194336) /* TargetType - Food, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12253,   1, 'Monougat') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12253,   1,   33555968) /* Setup */
      , (12253,   3,  536870932) /* SoundTable */
      , (12253,   8,  100672210) /* Icon */
-     , (12253,  22,  872415275) /* PhysicsEffectTable */
-     , (12253, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (12253, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (12253, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12253, 8000, 3695977099) /* PCAPRecordedObjectIID */;
+     , (12253,  22,  872415275) /* PhysicsEffectTable */;

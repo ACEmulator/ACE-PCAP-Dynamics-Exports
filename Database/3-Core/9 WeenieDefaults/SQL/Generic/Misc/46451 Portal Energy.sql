@@ -22,14 +22,8 @@ VALUES (46451,   1, 'Portal Energy') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46451,   1,   33557824) /* Setup */
-     , (46451,   8,  100671324) /* Icon */
-     , (46451, 8001,         16) /* PCAPRecordedWeenieHeader - Usable */
-     , (46451, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (46451, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (46451,   8,  100671324) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46451, 8040, 1467024280, 169.995, -102.5791, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x57710398 [169.995000 -102.579100 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46451, 8000, 3708159127) /* PCAPRecordedObjectIID */;

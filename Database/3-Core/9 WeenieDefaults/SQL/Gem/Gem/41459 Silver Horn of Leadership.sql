@@ -18,8 +18,7 @@ VALUES (41459,   1,       2048) /* ItemType - Gem */
      , (41459, 115,         75) /* ItemSkillLevelLimit */
      , (41459, 151,         11) /* HookType - Floor, Wall, Yard */
      , (41459, 176,         35) /* AppraisalItemSkill */
-     , (41459, 280,          6) /* SharedCooldown */
-     , (41459, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41459, 280,          6) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41459,  22, True ) /* Inscribable */
@@ -37,14 +36,7 @@ VALUES (41459,   1,   33554809) /* Setup */
      , (41459,   3,  536870932) /* SoundTable */
      , (41459,   8,  100690573) /* Icon */
      , (41459,  22,  872415275) /* PhysicsEffectTable */
-     , (41459,  28,       5134) /* Spell - CallOfLeadership2 */
-     , (41459, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (41459, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (41459, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (41459, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41459, 8000, 3441988000) /* PCAPRecordedObjectIID */;
+     , (41459,  28,       5134) /* Spell - CallOfLeadership2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41459,  5134,      2) ;

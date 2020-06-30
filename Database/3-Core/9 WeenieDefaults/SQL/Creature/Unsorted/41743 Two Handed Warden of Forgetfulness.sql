@@ -33,8 +33,7 @@ VALUES (41743,   1,         16) /* ItemType - Creature */
      , (41743, 386,          0) /* Overpower */
      , (41743, 387,          0) /* OverpowerResist */
      , (41743, 388,          0) /* GearOverpower */
-     , (41743, 389,          0) /* GearOverpowerResist */
-     , (41743, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (41743, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41743,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (41743,  39,     0.5) /* DefaultScale */
      , (41743,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (41743,   1, 'Two Handed Warden of Forgetfulness') /* Name */
-     , (41743, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (41743,   1, 'Two Handed Warden of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41743,   1,   33555352) /* Setup */
      , (41743,   2,  150995147) /* MotionTable */
      , (41743,   3,  536871052) /* SoundTable */
      , (41743,   8,  100667624) /* Icon */
-     , (41743,  22,  872415274) /* PhysicsEffectTable */
-     , (41743, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (41743, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (41743, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (41743,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41743, 8040, 1565000077, 74.461, -2.10007, 18, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x5D48018D [74.461000 -2.100070 18.000000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41743, 8000, 2929758472) /* PCAPRecordedObjectIID */;

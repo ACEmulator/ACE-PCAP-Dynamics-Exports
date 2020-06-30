@@ -12,8 +12,7 @@ VALUES (628,   1,        128) /* ItemType - Misc */
      , (628,  91,         20) /* MaxStructure */
      , (628,  92,         20) /* Structure */
      , (628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (628,  94,         16) /* TargetType - Creature */
-     , (628, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (628,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (628,  22, True ) /* Inscribable */;
@@ -26,10 +25,4 @@ VALUES (628,   1, 'Handy Healing Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (628,   1,   33555194) /* Setup */
-     , (628,   8,  100676335) /* Icon */
-     , (628, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (628, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
-     , (628, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (628, 8000, 3655153844) /* PCAPRecordedObjectIID */;
+     , (628,   8,  100676335) /* Icon */;

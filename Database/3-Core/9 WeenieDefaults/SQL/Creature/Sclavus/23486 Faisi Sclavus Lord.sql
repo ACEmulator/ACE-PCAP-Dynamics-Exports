@@ -12,8 +12,7 @@ VALUES (23486,   1,         16) /* ItemType - Creature */
      , (23486,  25,        115) /* Level */
      , (23486,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23486, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23486, 307,          5) /* DamageRating */
-     , (23486, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23486, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23486,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23486,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23486,   1, 'Faisi Sclavus Lord') /* Name */
-     , (23486, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23486,   1, 'Faisi Sclavus Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23486,   1,   33555608) /* Setup */
@@ -31,17 +29,11 @@ VALUES (23486,   1,   33555608) /* Setup */
      , (23486,   3,  536870977) /* SoundTable */
      , (23486,   6,   67111936) /* PaletteBase */
      , (23486,   8,  100669120) /* Icon */
-     , (23486,  22,  872415280) /* PhysicsEffectTable */
-     , (23486, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23486, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23486, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (23486,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23486, 8040, 843513898, 133.2466, 39.43109, 80.13107, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x3247002A [133.246600 39.431090 80.131070] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23486, 8000, 3701599269) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23486,   1, 190, 0, 0) /* Strength */
@@ -83,6 +75,3 @@ VALUES (23486, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for 
      , (23486, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (23486, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
      , (23486, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23486, 67113042, 0, 0);

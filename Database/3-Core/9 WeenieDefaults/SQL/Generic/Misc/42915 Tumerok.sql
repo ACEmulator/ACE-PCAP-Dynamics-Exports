@@ -20,14 +20,8 @@ VALUES (42915,   1, 'Tumerok') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42915,   1,   33561054) /* Setup */
-     , (42915,   8,  100668115) /* Icon */
-     , (42915, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42915, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42915, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42915,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42915, 8040, 459029, 24.9742, -84.8875, 0.66, 0, 0, 0, 1) /* PCAPRecordedLocation */
 /* @teleloc 0x00070115 [24.974200 -84.887500 0.660000] 0.000000 0.000000 0.000000 1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42915, 8000, 1879076882) /* PCAPRecordedObjectIID */;

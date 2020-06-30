@@ -33,9 +33,7 @@ VALUES (7795,   1,          1) /* ItemType - MeleeWeapon */
      , (7795, 176,         46) /* AppraisalItemSkill */
      , (7795, 177,          2) /* GemCount */
      , (7795, 178,         16) /* GemType */
-     , (7795, 353,          5) /* WeaponType - Spear */
-     , (7795, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7795, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7795, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7795,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (7795,   5,  -0.067) /* ManaRate */
      , (7795,  26,       0) /* MaximumVelocity */
      , (7795,  29,    1.15) /* WeaponDefense */
      , (7795,  62,    1.18) /* WeaponOffense */
-     , (7795,  63,       1) /* DamageMod */
-     , (7795, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (7795,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7795,   1, 'Frost Naginata') /* Name */
@@ -60,14 +57,7 @@ VALUES (7795,   1,   33556663) /* Setup */
      , (7795,   6,   67111919) /* PaletteBase */
      , (7795,   8,  100670789) /* Icon */
      , (7795,  22,  872415275) /* PhysicsEffectTable */
-     , (7795,  52,  100676435) /* IconUnderlay */
-     , (7795, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (7795, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (7795, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (7795, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7795, 8000, 2174234303) /* PCAPRecordedObjectIID */;
+     , (7795,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7795,  2096,      2) 
@@ -75,15 +65,3 @@ VALUES (7795,  2096,      2)
      , (7795,  4405,      2) 
      , (7795,  4688,      2) 
      , (7795,  4911,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7795, 67111926, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7795, 0, 83886709, 83886709)
-     , (7795, 0, 83888778, 83888778)
-     , (7795, 0, 83886747, 83886747)
-     , (7795, 0, 83886749, 83886749);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7795, 0, 16784607);

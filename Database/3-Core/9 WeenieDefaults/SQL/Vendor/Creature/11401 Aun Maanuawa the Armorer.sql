@@ -15,8 +15,7 @@ VALUES (11401,   1,         16) /* ItemType - Creature */
      , (11401,  76,     100000) /* MerchandiseMaxValue */
      , (11401,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (11401, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11401, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11401, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11401, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11401,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (11401,  37,     0.9) /* BuyPrice */
      , (11401,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11401,   1, 'Aun Maanuawa the Armorer') /* Name */
-     , (11401, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11401,   1, 'Aun Maanuawa the Armorer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11401,   1,   33557117) /* Setup */
      , (11401,   2,  150994954) /* MotionTable */
      , (11401,   3,  536870931) /* SoundTable */
      , (11401,   6,   67113280) /* PaletteBase */
-     , (11401,   8,  100671756) /* Icon */
-     , (11401, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11401, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11401, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (11401,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11401, 8040, 515244038, 18.8473, 140.352, 120.006, -0.204776, 0, 0, -0.9788089) /* PCAPRecordedLocation */
 /* @teleloc 0x1EB60006 [18.847300 140.352000 120.006000] -0.204776 0.000000 0.000000 -0.978809 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11401, 8000, 1911250963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11401,   1, 120, 0, 0) /* Strength */
@@ -120,6 +112,3 @@ VALUES (11401, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554
      , (11401, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (11401, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (11401, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11401, 67113369, 0, 0);

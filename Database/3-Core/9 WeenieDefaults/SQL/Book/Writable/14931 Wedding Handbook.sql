@@ -8,10 +8,7 @@ VALUES (14931,   1,       8192) /* ItemType - Writable */
      , (14931,   5,         10) /* EncumbranceVal */
      , (14931,  16,          8) /* ItemUseable - Contained */
      , (14931,  19,         10) /* Value */
-     , (14931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (14931, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (14931, 8042,          7) /* PCAPRecordedAppraisalPages */
-     , (14931, 8043,          7) /* PCAPRecordedAppraisalMaxPages */;
+     , (14931,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (14931,  39,    1.22) /* DefaultScale */;
@@ -24,13 +21,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (14931,   1,   33554771) /* Setup */
      , (14931,   3,  536870932) /* SoundTable */
      , (14931,   8,  100672708) /* Icon */
-     , (14931,  22,  872415275) /* PhysicsEffectTable */
-     , (14931, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (14931, 8003,        272) /* PCAPRecordedObjectDesc - Attackable, Book */
-     , (14931, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14931, 8000, 2186220394) /* PCAPRecordedObjectIID */;
+     , (14931,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (14931, 7, 1000);
@@ -58,11 +49,3 @@ If you are planning a wedding larger then 35, the Queen has prepared a special W
      , (14931, 6, 4294967295, 'prewritten', 'Password is cheese', False, 'PREPARATIONS
 Wedding Planners are available throughout the land.  There, you will be able to find everything you need to be able to have a wedding you will never forget.
 ');
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14931, 0, 83888846, 83893926)
-     , (14931, 0, 83888845, 83893925)
-     , (14931, 0, 83889659, 83892960);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14931, 0, 16778784);

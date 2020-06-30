@@ -9,8 +9,7 @@ VALUES (22848,   1,        128) /* ItemType - Misc */
      , (22848,  16,          1) /* ItemUseable - No */
      , (22848,  19,       5000) /* Value */
      , (22848,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22848, 151,          1) /* HookType - Floor */
-     , (22848, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22848, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22848,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (22848,   1, 'Sho Floor Pillow') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22848,   1,   33558153) /* Setup */
-     , (22848,   8,  100673915) /* Icon */
-     , (22848, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (22848, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22848, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22848, 8000, 2622805862) /* PCAPRecordedObjectIID */;
+     , (22848,   8,  100673915) /* Icon */;

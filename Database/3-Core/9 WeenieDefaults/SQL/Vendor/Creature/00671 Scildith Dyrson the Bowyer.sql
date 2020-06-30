@@ -18,8 +18,7 @@ VALUES (671,   1,         16) /* ItemType - Creature */
      , (671, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (671, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (671, 188,          1) /* HeritageGroup - Aluvian */
-     , (671, 307,          5) /* DamageRating */
-     , (671, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (671, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (671,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (671,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (671,   1, 'Scildith Dyrson the Bowyer') /* Name */
-     , (671,   5, 'Bowyer') /* Template */
-     , (671, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (671,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (671,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (671,   1,   33554433) /* Setup */
      , (671,  11,   83890656) /* MouthTexture */
      , (671,  15,   67117021) /* HairPalette */
      , (671,  16,   67110065) /* EyesPalette */
-     , (671,  17,   67109558) /* SkinPalette */
-     , (671, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (671, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (671, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (671,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (671, 8040, 3164537114, 148.745, 14.7991, 32.005, -0.9248783, 0, 0, -0.3802632) /* PCAPRecordedLocation */
 /* @teleloc 0xBC9F011A [148.745000 14.799100 32.005000] -0.924878 0.000000 0.000000 -0.380263 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (671, 8000, 2076831777) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (671,   1,  60, 0, 0) /* Strength */
@@ -113,51 +105,3 @@ VALUES (671, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (671, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (671, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (671, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (671, 67109558, 0, 24)
-     , (671, 67109964, 92, 4)
-     , (671, 67110026, 72, 8)
-     , (671, 67110065, 32, 8)
-     , (671, 67110334, 40, 24)
-     , (671, 67110354, 64, 8)
-     , (671, 67110356, 216, 24)
-     , (671, 67110365, 160, 8)
-     , (671, 67117021, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (671, 0, 83889072, 83890012)
-     , (671, 0, 83889342, 83890011)
-     , (671, 1, 83887064, 83886241)
-     , (671, 3, 83889344, 83887054)
-     , (671, 4, 83887068, 83887054)
-     , (671, 5, 83887064, 83886241)
-     , (671, 7, 83889344, 83887054)
-     , (671, 8, 83887068, 83887054)
-     , (671, 9, 83887061, 83890009)
-     , (671, 9, 83887060, 83890010)
-     , (671, 10, 83887069, 83886782)
-     , (671, 13, 83887069, 83886782)
-     , (671, 16, 83886232, 83890685)
-     , (671, 16, 83886668, 83890485)
-     , (671, 16, 83886837, 83890556)
-     , (671, 16, 83886684, 83890656);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (671, 0, 16781835)
-     , (671, 1, 16777295)
-     , (671, 2, 16777293)
-     , (671, 3, 16777292)
-     , (671, 4, 16777291)
-     , (671, 5, 16777299)
-     , (671, 6, 16777297)
-     , (671, 7, 16777296)
-     , (671, 8, 16777298)
-     , (671, 9, 16777300)
-     , (671, 10, 16777301)
-     , (671, 11, 16777302)
-     , (671, 12, 16777304)
-     , (671, 13, 16777303)
-     , (671, 14, 16777305)
-     , (671, 15, 16777307)
-     , (671, 16, 16795675);

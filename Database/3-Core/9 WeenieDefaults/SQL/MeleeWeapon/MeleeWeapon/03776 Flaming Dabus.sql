@@ -33,9 +33,7 @@ VALUES (3776,   1,          1) /* ItemType - MeleeWeapon */
      , (3776, 176,         46) /* AppraisalItemSkill */
      , (3776, 177,          4) /* GemCount */
      , (3776, 178,         39) /* GemType */
-     , (3776, 353,          4) /* WeaponType - Mace */
-     , (3776, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3776, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3776, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3776,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3776,   5,  -0.056) /* ManaRate */
      , (3776,  26,       0) /* MaximumVelocity */
      , (3776,  29,    1.16) /* WeaponDefense */
      , (3776,  62,    1.11) /* WeaponOffense */
-     , (3776,  63,       1) /* DamageMod */
-     , (3776, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3776,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3776,   1, 'Flaming Dabus') /* Name */
@@ -59,14 +56,7 @@ VALUES (3776,   1,   33555736) /* Setup */
      , (3776,   3,  536870932) /* SoundTable */
      , (3776,   8,  100668867) /* Icon */
      , (3776,  22,  872415275) /* PhysicsEffectTable */
-     , (3776,  52,  100676441) /* IconUnderlay */
-     , (3776, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3776, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3776, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3776, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3776, 8000, 2174499365) /* PCAPRecordedObjectIID */;
+     , (3776,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3776,  2096,      2) 

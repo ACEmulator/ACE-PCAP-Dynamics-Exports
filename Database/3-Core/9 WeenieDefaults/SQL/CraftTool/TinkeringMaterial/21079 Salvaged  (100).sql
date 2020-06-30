@@ -20,14 +20,10 @@ VALUES (21079,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21079, 105,         28) /* ItemWorkmanship */
      , (21079, 131,         41) /* MaterialType - Sunstone */
      , (21079, 151,          9) /* HookType - Floor, Yard */
-     , (21079, 170,          4) /* NumItemsInMaterial */
-     , (21079, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21079, 170,          4) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21079,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21079, 8004,   7.133) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21079,   1, 'Salvaged  (100)') /* Name */
@@ -40,23 +36,8 @@ VALUES (21079,   1,   33554817) /* Setup */
      , (21079,   6,   67111919) /* PaletteBase */
      , (21079,   8,  100673214) /* Icon */
      , (21079,  22,  872415275) /* PhysicsEffectTable */
-     , (21079,  50,  100673303) /* IconOverlay */
-     , (21079, 8001, 3509074968) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (21079, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21079, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (21079,  50,  100673303) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21079, 8040, 3332964379, 83.91006, 66.67138, 41.9975, 0.4344043, 0, 0, -0.900718) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.910060 66.671380 41.997500] 0.434404 0.000000 0.000000 -0.900718 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21079, 8000, 2243216268) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21079, 67111918, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21079, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21079, 0, 16777882);

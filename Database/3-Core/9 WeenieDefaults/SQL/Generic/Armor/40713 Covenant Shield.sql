@@ -21,8 +21,7 @@ VALUES (40713,   1,          2) /* ItemType - Armor */
      , (40713, 160,        145) /* WieldDifficulty */
      , (40713, 172,          5) /* AppraisalLongDescDecoration */
      , (40713, 177,          1) /* GemCount */
-     , (40713, 178,         22) /* GemType */
-     , (40713, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40713, 178,         22) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40713,  22, True ) /* Inscribable */;
@@ -36,8 +35,7 @@ VALUES (40713,  13,     1.5) /* ArmorModVsSlash */
      , (40713,  18,     1.6) /* ArmorModVsAcid */
      , (40713,  19,     1.2) /* ArmorModVsElectric */
      , (40713,  39,    0.75) /* DefaultScale */
-     , (40713, 165,       1) /* ArmorModVsNether */
-     , (40713, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (40713, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40713,   1, 'Covenant Shield') /* Name */
@@ -47,16 +45,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40713,   1,   33557878) /* Setup */
      , (40713,   3,  536870932) /* SoundTable */
      , (40713,   8,  100673427) /* Icon */
-     , (40713,  22,  872415275) /* PhysicsEffectTable */
-     , (40713, 8001, 2434875928) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40713, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40713, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40713, 8000, 3701067546) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40713, 0, 83894160, 83894160);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40713, 0, 16788049);
+     , (40713,  22,  872415275) /* PhysicsEffectTable */;

@@ -17,8 +17,7 @@ VALUES (698,   1,         16) /* ItemType - Creature */
      , (698, 113,          1) /* Gender - Male */
      , (698, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (698, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (698, 188,          1) /* HeritageGroup - Aluvian */
-     , (698, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (698, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (698,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (698,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (698,   1, 'Belthew Shearstone the Jeweler') /* Name */
-     , (698,   5, 'Jeweler') /* Template */
-     , (698, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (698,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (698,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (698,   1,   33554433) /* Setup */
      , (698,  11,   83890614) /* MouthTexture */
      , (698,  15,   67116980) /* HairPalette */
      , (698,  16,   67110065) /* EyesPalette */
-     , (698,  17,   67109560) /* SkinPalette */
-     , (698, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (698, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (698, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (698,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (698, 8040, 3332964634, 66.0498, 59.6214, 42.005, -0.7436396, 0, 0, -0.6685807) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9011A [66.049800 59.621400 42.005000] -0.743640 0.000000 0.000000 -0.668581 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (698, 8000, 2087358512) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (698,   1,  20, 0, 0) /* Strength */
@@ -99,53 +91,3 @@ VALUES (698, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (698, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
      , (698, 4, 41485, -1, 0, 0, False) /* Create Pocket Watch (41485) for Shop */
      , (698, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (698, 67109560, 0, 24)
-     , (698, 67109969, 92, 4)
-     , (698, 67110003, 72, 8)
-     , (698, 67110065, 32, 8)
-     , (698, 67110354, 40, 24)
-     , (698, 67110356, 64, 8)
-     , (698, 67110356, 216, 24)
-     , (698, 67110356, 160, 8)
-     , (698, 67116980, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (698, 0, 83889072, 83890012)
-     , (698, 0, 83889342, 83890011)
-     , (698, 1, 83887064, 83886241)
-     , (698, 2, 83887066, 83887055)
-     , (698, 3, 83889344, 83887054)
-     , (698, 4, 83887068, 83887054)
-     , (698, 5, 83887064, 83886241)
-     , (698, 6, 83887066, 83887055)
-     , (698, 7, 83889344, 83887054)
-     , (698, 8, 83887068, 83887054)
-     , (698, 9, 83887061, 83890009)
-     , (698, 9, 83887060, 83890010)
-     , (698, 10, 83887069, 83886782)
-     , (698, 13, 83887069, 83886782)
-     , (698, 16, 83886232, 83890685)
-     , (698, 16, 83886668, 83890445)
-     , (698, 16, 83886837, 83890560)
-     , (698, 16, 83886684, 83890614);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (698, 0, 16781835)
-     , (698, 1, 16777295)
-     , (698, 2, 16777293)
-     , (698, 3, 16777292)
-     , (698, 4, 16777291)
-     , (698, 5, 16777299)
-     , (698, 6, 16777297)
-     , (698, 7, 16777296)
-     , (698, 8, 16777298)
-     , (698, 9, 16777300)
-     , (698, 10, 16777301)
-     , (698, 11, 16777302)
-     , (698, 12, 16777304)
-     , (698, 13, 16777303)
-     , (698, 14, 16777305)
-     , (698, 15, 16777307)
-     , (698, 16, 16795654);

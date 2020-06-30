@@ -17,8 +17,7 @@ VALUES (2259,   1,         16) /* ItemType - Creature */
      , (2259, 113,          2) /* Gender - Female */
      , (2259, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2259, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2259, 188,          3) /* HeritageGroup - Sho */
-     , (2259, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2259, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2259,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2259,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2259,   1, 'Shopkeep Ginan Wah') /* Name */
-     , (2259,   5, 'Shopkeeper') /* Template */
-     , (2259, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2259,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2259,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2259,   1,   33554510) /* Setup */
      , (2259,  11,   83890348) /* MouthTexture */
      , (2259,  15,   67117070) /* HairPalette */
      , (2259,  16,   67110063) /* EyesPalette */
-     , (2259,  17,   67110054) /* SkinPalette */
-     , (2259, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2259, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2259, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2259,  17,   67110054) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2259, 8040, 3443589390, 138.283, 134.095, 54.005, -0.0002261837, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xCD41010E [138.283000 134.095000 54.005000] -0.000226 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2259, 8000, 2094272553) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2259,   1,  75, 0, 0) /* Strength */
@@ -118,55 +110,3 @@ VALUES (2259, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2259, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (2259, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2259, 67110054, 0, 24)
-     , (2259, 67110063, 32, 8)
-     , (2259, 67110320, 216, 24)
-     , (2259, 67110349, 64, 8)
-     , (2259, 67110349, 40, 24)
-     , (2259, 67110539, 72, 8)
-     , (2259, 67110551, 92, 4)
-     , (2259, 67111245, 160, 8)
-     , (2259, 67117070, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2259, 0, 83889072, 83890012)
-     , (2259, 0, 83889342, 83890011)
-     , (2259, 1, 83887064, 83886241)
-     , (2259, 2, 83887066, 83887051)
-     , (2259, 3, 83889344, 83887054)
-     , (2259, 4, 83887068, 83887054)
-     , (2259, 5, 83887064, 83886241)
-     , (2259, 6, 83887066, 83887051)
-     , (2259, 7, 83889344, 83887054)
-     , (2259, 8, 83887068, 83887054)
-     , (2259, 9, 83887070, 83890009)
-     , (2259, 9, 83887062, 83890010)
-     , (2259, 10, 83887069, 83886782)
-     , (2259, 11, 83887067, 83891213)
-     , (2259, 13, 83887069, 83886782)
-     , (2259, 14, 83887067, 83891213)
-     , (2259, 16, 83886232, 83890685)
-     , (2259, 16, 83886668, 83890236)
-     , (2259, 16, 83886837, 83890310)
-     , (2259, 16, 83886684, 83890348);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2259, 0, 16781875)
-     , (2259, 1, 16778430)
-     , (2259, 2, 16781908)
-     , (2259, 3, 16781841)
-     , (2259, 4, 16783485)
-     , (2259, 5, 16778438)
-     , (2259, 6, 16781909)
-     , (2259, 7, 16781840)
-     , (2259, 8, 16783487)
-     , (2259, 9, 16778425)
-     , (2259, 10, 16778431)
-     , (2259, 11, 16778429)
-     , (2259, 12, 16778423)
-     , (2259, 13, 16778434)
-     , (2259, 14, 16778424)
-     , (2259, 15, 16778435)
-     , (2259, 16, 16795650);

@@ -36,9 +36,7 @@ VALUES (30569,   1,          1) /* ItemType - MeleeWeapon */
      , (30569, 178,         26) /* GemType */
      , (30569, 179,          2) /* ImbuedEffect - CripplingBlow */
      , (30569, 188,          4) /* HeritageGroup - Viamontian */
-     , (30569, 353,          2) /* WeaponType - Sword */
-     , (30569, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30569, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30569, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30569,  22, True ) /* Inscribable */;
@@ -51,8 +49,7 @@ VALUES (30569,   5,  -0.067) /* ManaRate */
      , (30569,  29,    1.11) /* WeaponDefense */
      , (30569,  39,     1.1) /* DefaultScale */
      , (30569,  62,    1.16) /* WeaponOffense */
-     , (30569,  63,       1) /* DamageMod */
-     , (30569, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (30569,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30569,   1, 'Frost Sabra') /* Name */
@@ -68,20 +65,10 @@ VALUES (30569,   1,   33559458) /* Setup */
      , (30569,   6,   67115557) /* PaletteBase */
      , (30569,   8,  100686942) /* Icon */
      , (30569,  22,  872415275) /* PhysicsEffectTable */
-     , (30569,  52,  100676439) /* IconUnderlay */
-     , (30569, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30569, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30569, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30569, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30569, 8000, 2210356779) /* PCAPRecordedObjectIID */;
+     , (30569,  52,  100676439) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30569,  2096,      2) 
      , (30569,  2531,      2) 
      , (30569,  3834,      2) 
      , (30569,  4405,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30569, 67116395, 0, 0);

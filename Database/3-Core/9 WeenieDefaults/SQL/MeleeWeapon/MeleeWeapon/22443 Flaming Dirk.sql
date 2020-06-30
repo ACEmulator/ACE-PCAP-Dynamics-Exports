@@ -34,9 +34,7 @@ VALUES (22443,   1,          1) /* ItemType - MeleeWeapon */
      , (22443, 176,         44) /* AppraisalItemSkill */
      , (22443, 177,          2) /* GemCount */
      , (22443, 178,         20) /* GemType */
-     , (22443, 353,          6) /* WeaponType - Dagger */
-     , (22443, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22443, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (22443, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22443,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (22443,   5,  -0.056) /* ManaRate */
      , (22443,  26,       0) /* MaximumVelocity */
      , (22443,  29,    1.12) /* WeaponDefense */
      , (22443,  62,    1.12) /* WeaponOffense */
-     , (22443,  63,       1) /* DamageMod */
-     , (22443, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (22443,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22443,   1, 'Flaming Dirk') /* Name */
@@ -62,27 +59,12 @@ VALUES (22443,   1,   33558093) /* Setup */
      , (22443,   8,  100673790) /* Icon */
      , (22443,  22,  872415275) /* PhysicsEffectTable */
      , (22443,  50,  100688854) /* IconOverlay */
-     , (22443,  52,  100676438) /* IconUnderlay */
-     , (22443, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (22443, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (22443, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (22443, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (22443, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (22443,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22443, 8040, 2847146009, 84.02469, 7.096089, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.929010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22443, 8000, 3620339728) /* PCAPRecordedObjectIID */
-     , (22443, 8008, 1343282139) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22443,  2096,      2) 
      , (22443,  5784,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22443, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22443, 0, 16788591);

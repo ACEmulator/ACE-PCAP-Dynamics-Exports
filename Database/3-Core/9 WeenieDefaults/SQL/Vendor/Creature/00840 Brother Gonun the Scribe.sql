@@ -17,8 +17,7 @@ VALUES (840,   1,         16) /* ItemType - Creature */
      , (840, 113,          1) /* Gender - Male */
      , (840, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (840, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (840, 188,          3) /* HeritageGroup - Sho */
-     , (840, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (840, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (840,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (840,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (840,   1, 'Brother Gonun the Scribe') /* Name */
-     , (840,   5, 'Scribe') /* Template */
-     , (840, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (840,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (840,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (840,   1,   33554433) /* Setup */
      , (840,  11,   83890659) /* MouthTexture */
      , (840,  15,   67117025) /* HairPalette */
      , (840,  16,   67110062) /* EyesPalette */
-     , (840,  17,   67110057) /* SkinPalette */
-     , (840, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (840, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (840, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (840,  17,   67110057) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (840, 8040, 3663003958, 149.4, 65.28, 21.605, 0.4305111, 0, 0, -0.9025853) /* PCAPRecordedLocation */
 /* @teleloc 0xDA550136 [149.400000 65.280000 21.605000] 0.430511 0.000000 0.000000 -0.902585 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (840, 8000, 2107985967) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (840,   1,  45, 0, 0) /* Strength */
@@ -86,55 +78,3 @@ VALUES (840, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (840, 4,  9118, -1, 0, 0, False) /* Create Puppet Show (9118) for Shop */
      , (840, 4,  9124, -1, 0, 0, False) /* Create The Beginning (9124) for Shop */
      , (840, 4, 27851, -1, 0, 0, False) /* Create The Weapons of the Singularity (27851) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (840, 67109969, 92, 4)
-     , (840, 67110003, 72, 8)
-     , (840, 67110057, 0, 24)
-     , (840, 67110062, 32, 8)
-     , (840, 67110320, 216, 24)
-     , (840, 67110325, 160, 8)
-     , (840, 67110334, 64, 8)
-     , (840, 67111245, 40, 24)
-     , (840, 67117025, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (840, 0, 83889072, 83890012)
-     , (840, 0, 83889342, 83890011)
-     , (840, 1, 83887064, 83886241)
-     , (840, 2, 83887066, 83887055)
-     , (840, 3, 83889344, 83887054)
-     , (840, 4, 83887068, 83887054)
-     , (840, 5, 83887064, 83886241)
-     , (840, 6, 83887066, 83887055)
-     , (840, 7, 83889344, 83887054)
-     , (840, 8, 83887068, 83887054)
-     , (840, 9, 83887061, 83890009)
-     , (840, 9, 83887060, 83890010)
-     , (840, 10, 83886796, 83886782)
-     , (840, 11, 83886788, 83891213)
-     , (840, 13, 83886796, 83886782)
-     , (840, 14, 83886788, 83891213)
-     , (840, 16, 83886232, 83890685)
-     , (840, 16, 83886668, 83890448)
-     , (840, 16, 83886837, 83890518)
-     , (840, 16, 83886684, 83890659);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (840, 0, 16781835)
-     , (840, 1, 16781836)
-     , (840, 2, 16781823)
-     , (840, 3, 16777292)
-     , (840, 4, 16777291)
-     , (840, 5, 16781819)
-     , (840, 6, 16781824)
-     , (840, 7, 16777296)
-     , (840, 8, 16777298)
-     , (840, 9, 16777300)
-     , (840, 10, 16781858)
-     , (840, 11, 16781822)
-     , (840, 12, 16777304)
-     , (840, 13, 16781856)
-     , (840, 14, 16781821)
-     , (840, 15, 16777307)
-     , (840, 16, 16795650);

@@ -28,9 +28,7 @@ VALUES (41927,   1,          1) /* ItemType - MeleeWeapon */
      , (41927, 160,        400) /* WieldDifficulty */
      , (41927, 166,         77) /* SlayerCreatureType - Ghost */
      , (41927, 292,          2) /* Cleaving */
-     , (41927, 353,         11) /* WeaponType - TwoHanded */
-     , (41927, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41927, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41927, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41927,  22, True ) /* Inscribable */
@@ -60,14 +58,7 @@ VALUES (41927,   1,   33560577) /* Setup */
      , (41927,   3,  536870932) /* SoundTable */
      , (41927,   8,  100690858) /* Icon */
      , (41927,  22,  872415275) /* PhysicsEffectTable */
-     , (41927,  52,  100689896) /* IconUnderlay */
-     , (41927, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (41927, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (41927, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (41927, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41927, 8000, 2151222078) /* PCAPRecordedObjectIID */;
+     , (41927,  52,  100689896) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41927,  2096,      2) 
@@ -77,10 +68,3 @@ VALUES (41927,  2096,      2)
      , (41927,  2579,      2) 
      , (41927,  2583,      2) 
      , (41927,  5070,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41927, 0, 83889235, 83892492)
-     , (41927, 0, 83889688, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41927, 0, 16783995);

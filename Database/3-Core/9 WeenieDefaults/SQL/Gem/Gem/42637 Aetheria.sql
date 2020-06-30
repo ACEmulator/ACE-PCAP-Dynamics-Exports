@@ -21,8 +21,7 @@ VALUES (42637,   1,       2048) /* ItemType - Gem */
      , (42637, 160,        150) /* WieldDifficulty */
      , (42637, 265,         36) /* EquipmentSetId - AetheriaDestruction */
      , (42637, 319,          2) /* ItemMaxLevel */
-     , (42637, 320,          2) /* ItemXpStyle - ScalesWithLevel */
-     , (42637, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (42637, 320,          2) /* ItemXpStyle - ScalesWithLevel */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (42637,   4, 1379326962) /* ItemTotalXp */
@@ -42,22 +41,7 @@ VALUES (42637,   1,   33554809) /* Setup */
      , (42637,   8,  100690951) /* Icon */
      , (42637,  22,  872415275) /* PhysicsEffectTable */
      , (42637,  50,  100690997) /* IconOverlay */
-     , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */
-     , (42637, 8001, 1076080792) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, IconOverlay */
-     , (42637, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (42637, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42637, 8000, 3680242626) /* PCAPRecordedObjectIID */;
+     , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42637,  5207,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42637, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42637, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42637, 0, 16779181);

@@ -17,8 +17,7 @@ VALUES (31955,   1,         16) /* ItemType - Creature */
      , (31955, 113,          1) /* Gender - Male */
      , (31955, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (31955, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (31955, 188,          4) /* HeritageGroup - Viamontian */
-     , (31955, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31955, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31955,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (31955,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31955,   1, 'Janus Roma the Shopkeep') /* Name */
-     , (31955,   5, 'Scribe') /* Template */
-     , (31955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (31955,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31955,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (31955,   1,   33554433) /* Setup */
      , (31955,  11,   83890614) /* MouthTexture */
      , (31955,  15,   67116989) /* HairPalette */
      , (31955,  16,   67110064) /* EyesPalette */
-     , (31955,  17,   67115907) /* SkinPalette */
-     , (31955, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (31955, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (31955, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (31955,  17,   67115907) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31955, 8040, 397541674, 100.911, 79.975, 43.705, 0.3136283, 0, 0, -0.9495458) /* PCAPRecordedLocation */
 /* @teleloc 0x17B2012A [100.911000 79.975000 43.705000] 0.313628 0.000000 0.000000 -0.949546 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31955, 8000, 1903894546) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (31955,   1,  50, 0, 0) /* Strength */
@@ -110,52 +102,3 @@ VALUES (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (31955, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (31955, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31955, 67109964, 92, 4)
-     , (31955, 67110003, 72, 8)
-     , (31955, 67110064, 32, 8)
-     , (31955, 67110334, 64, 8)
-     , (31955, 67110334, 40, 24)
-     , (31955, 67111245, 216, 24)
-     , (31955, 67115851, 160, 8)
-     , (31955, 67115907, 0, 24)
-     , (31955, 67115959, 240, 16)
-     , (31955, 67116989, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31955, 0, 83889072, 83890012)
-     , (31955, 0, 83889342, 83890011)
-     , (31955, 1, 83887064, 83886241)
-     , (31955, 2, 83887066, 83887055)
-     , (31955, 5, 83887064, 83886241)
-     , (31955, 6, 83887066, 83887055)
-     , (31955, 9, 83887061, 83890009)
-     , (31955, 9, 83887060, 83890010)
-     , (31955, 10, 83887069, 83886782)
-     , (31955, 11, 83886788, 83891213)
-     , (31955, 13, 83887069, 83886782)
-     , (31955, 14, 83886788, 83891213)
-     , (31955, 16, 83886232, 83890685)
-     , (31955, 16, 83886668, 83890481)
-     , (31955, 16, 83886837, 83890551)
-     , (31955, 16, 83886684, 83890614);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31955, 0, 16781835)
-     , (31955, 1, 16777295)
-     , (31955, 2, 16791885)
-     , (31955, 3, 16791879)
-     , (31955, 4, 16791881)
-     , (31955, 5, 16777299)
-     , (31955, 6, 16791884)
-     , (31955, 7, 16791880)
-     , (31955, 8, 16791882)
-     , (31955, 9, 16777300)
-     , (31955, 10, 16777301)
-     , (31955, 11, 16781822)
-     , (31955, 12, 16777304)
-     , (31955, 13, 16777303)
-     , (31955, 14, 16781821)
-     , (31955, 15, 16777307)
-     , (31955, 16, 16791893);

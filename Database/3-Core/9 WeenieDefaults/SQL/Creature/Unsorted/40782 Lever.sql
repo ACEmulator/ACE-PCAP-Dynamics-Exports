@@ -33,8 +33,7 @@ VALUES (40782,   1,         16) /* ItemType - Creature */
      , (40782, 386,          0) /* Overpower */
      , (40782, 387,          0) /* OverpowerResist */
      , (40782, 388,          0) /* GearOverpower */
-     , (40782, 389,          0) /* GearOverpowerResist */
-     , (40782, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40782, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40782,   1, True ) /* Stuck */
@@ -44,22 +43,15 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40782,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40782,   1, 'Lever') /* Name */
-     , (40782, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (40782,   1, 'Lever') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40782,   1,   33557551) /* Setup */
      , (40782,   2,  150995156) /* MotionTable */
      , (40782,   3,  536871046) /* SoundTable */
      , (40782,   8,  100667624) /* Icon */
-     , (40782,  22,  872415275) /* PhysicsEffectTable */
-     , (40782, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (40782, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (40782, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (40782,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40782, 8040, 778830579, -208, 107, -17.626, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x2E6C02F3 [-208.000000 107.000000 -17.626000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40782, 8000, 3711129472) /* PCAPRecordedObjectIID */;

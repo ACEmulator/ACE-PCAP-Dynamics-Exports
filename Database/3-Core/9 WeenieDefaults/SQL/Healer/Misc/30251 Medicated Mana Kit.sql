@@ -14,8 +14,7 @@ VALUES (30251,   1,        128) /* ItemType - Misc */
      , (30251,  92,         25) /* Structure */
      , (30251,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30251,  94,         16) /* TargetType - Creature */
-     , (30251, 151,          2) /* HookType - Wall */
-     , (30251, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30251, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30251,  22, True ) /* Inscribable */;
@@ -30,21 +29,7 @@ VALUES (30251,   1, 'Medicated Mana Kit') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30251,   1,   33555194) /* Setup */
      , (30251,   8,  100686703) /* Icon */
-     , (30251,  52,  100686604) /* IconUnderlay */
-     , (30251, 8001,  271076368) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden, HookType */
-     , (30251, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30251, 8003,   67174418) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer, IncludesSecondHeader */
-     , (30251, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30251, 8000, 3208592361) /* PCAPRecordedObjectIID */;
+     , (30251,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30251, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30251, 0, 83889681, 83894377)
-     , (30251, 0, 83889682, 83894378);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30251, 0, 16779994);

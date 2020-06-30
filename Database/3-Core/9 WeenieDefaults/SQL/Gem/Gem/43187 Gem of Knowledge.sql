@@ -12,8 +12,7 @@ VALUES (43187,   1,       2048) /* ItemType - Gem */
      , (43187,  15,          2) /* StackUnitValue */
      , (43187,  16,          1) /* ItemUseable - No */
      , (43187,  19,          2) /* Value */
-     , (43187,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (43187, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (43187,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43187,   1, 'Gem of Knowledge') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43187,   1,   33554809) /* Setup */
      , (43187,   3,  536870932) /* SoundTable */
      , (43187,   8,  100689653) /* Icon */
-     , (43187,  22,  872415275) /* PhysicsEffectTable */
-     , (43187, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (43187, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (43187, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43187, 8000, 2884607837) /* PCAPRecordedObjectIID */;
+     , (43187,  22,  872415275) /* PhysicsEffectTable */;

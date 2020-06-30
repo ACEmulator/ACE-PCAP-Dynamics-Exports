@@ -29,9 +29,7 @@ VALUES (3899,   1,          1) /* ItemType - MeleeWeapon */
      , (3899, 172,          3) /* AppraisalLongDescDecoration */
      , (3899, 176,         45) /* AppraisalItemSkill */
      , (3899, 188,          3) /* HeritageGroup - Sho */
-     , (3899, 353,          4) /* WeaponType - Mace */
-     , (3899, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3899, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3899, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3899,  22, True ) /* Inscribable */;
@@ -44,8 +42,7 @@ VALUES (3899,   5,  -0.017) /* ManaRate */
      , (3899,  29,    1.02) /* WeaponDefense */
      , (3899,  39,     0.9) /* DefaultScale */
      , (3899,  62,    1.03) /* WeaponOffense */
-     , (3899,  63,       1) /* DamageMod */
-     , (3899, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (3899,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3899,   1, 'Flaming Tofun') /* Name */
@@ -55,13 +52,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3899,   1,   33555756) /* Setup */
      , (3899,   3,  536870932) /* SoundTable */
      , (3899,   8,  100667599) /* Icon */
-     , (3899,  22,  872415275) /* PhysicsEffectTable */
-     , (3899, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3899, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3899, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3899, 8000, 2981045130) /* PCAPRecordedObjectIID */;
+     , (3899,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3899,    35,      2) 

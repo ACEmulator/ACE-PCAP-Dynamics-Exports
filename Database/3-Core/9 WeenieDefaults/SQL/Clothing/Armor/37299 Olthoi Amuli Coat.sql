@@ -28,8 +28,7 @@ VALUES (37299,   1,          2) /* ItemType - Armor */
      , (37299, 177,          2) /* GemCount */
      , (37299, 178,         23) /* GemType */
      , (37299, 265,         15) /* EquipmentSetId - Archers */
-     , (37299, 375,          1) /* GearCritDamageResist */
-     , (37299, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37299, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37299,  22, True ) /* Inscribable */
@@ -44,8 +43,7 @@ VALUES (37299,   5,  -0.067) /* ManaRate */
      , (37299,  17,     0.4) /* ArmorModVsFire */
      , (37299,  18,     0.6) /* ArmorModVsAcid */
      , (37299,  19,   1.116) /* ArmorModVsElectric */
-     , (37299, 165,       1) /* ArmorModVsNether */
-     , (37299, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (37299, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37299,   1, 'Olthoi Amuli Coat') /* Name */
@@ -56,32 +54,12 @@ VALUES (37299,   1,   33554854) /* Setup */
      , (37299,   3,  536870932) /* SoundTable */
      , (37299,   6,   67108990) /* PaletteBase */
      , (37299,   8,  100690084) /* Icon */
-     , (37299,  22,  872415275) /* PhysicsEffectTable */
-     , (37299, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (37299, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37299, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (37299,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37299, 8040, 23855548, 51.82255, -30.91324, -0.002499998, 0.08194411, 0, 0, -0.9966369) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [51.822550 -30.913240 -0.002500] 0.081944 0.000000 0.000000 -0.996637 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37299, 8000, 3605732773) /* PCAPRecordedObjectIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37299,  4407,      2) 
      , (37299,  4679,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37299, 67116578, 128, 8)
-     , (37299, 67116578, 207, 33)
-     , (37299, 67116580, 116, 12)
-     , (37299, 67116580, 174, 33);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37299, 0, 83887061, 83897882)
-     , (37299, 0, 83887060, 83897883)
-     , (37299, 0, 83886796, 83897888);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37299, 0, 16779535);

@@ -11,8 +11,7 @@ VALUES (38444,   1,        512) /* ItemType - Container */
      , (38444,  16,         48) /* ItemUseable - ViewedRemote */
      , (38444,  19,       2500) /* Value */
      , (38444,  38,       9999) /* ResistLockpick */
-     , (38444,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (38444, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38444,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38444,   1, True ) /* Stuck */
@@ -27,25 +26,18 @@ VALUES (38444,  54,       1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38444,   1, 'Mana Forge Armor Chest') /* Name */
      , (38444,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (38444,  16, 'A chest with a higher chance of containing mostly armor. ') /* LongDesc */
-     , (38444, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (38444,  16, 'A chest with a higher chance of containing mostly armor. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38444,   1,   33558394) /* Setup */
      , (38444,   2,  150994948) /* MotionTable */
      , (38444,   3,  536870945) /* SoundTable */
      , (38444,   8,  100674410) /* Icon */
-     , (38444,  22,  872415275) /* PhysicsEffectTable */
-     , (38444, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (38444, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38444, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (38444,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38444, 8040, 3830251776, 180.092, 110.096, 17.655, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xE44D0100 [180.092000 110.096000 17.655000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38444, 8000, 2118438919) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38444, -1, 37208, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Olthoi Amuli Sollerets (37208) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

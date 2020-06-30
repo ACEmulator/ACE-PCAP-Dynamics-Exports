@@ -33,8 +33,7 @@ VALUES (21493,   1,         16) /* ItemType - Creature */
      , (21493, 386,          0) /* Overpower */
      , (21493, 387,          0) /* OverpowerResist */
      , (21493, 388,          0) /* GearOverpower */
-     , (21493, 389,          0) /* GearOverpowerResist */
-     , (21493, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (21493, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21493,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (21493,  39,     1.2) /* DefaultScale */
      , (21493,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (21493,   1, 'Ornate Pillar') /* Name */
-     , (21493, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (21493,   1, 'Ornate Pillar') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21493,   1,   33557925) /* Setup */
      , (21493,   2,  150995147) /* MotionTable */
      , (21493,   3,  536871052) /* SoundTable */
      , (21493,   8,  100673507) /* Icon */
-     , (21493,  22,  872415274) /* PhysicsEffectTable */
-     , (21493, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (21493, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (21493, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (21493,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21493, 8040, 3150381070, 43.1567, 124.749, 71, 0.9224846, 0, 0, 0.3860339) /* PCAPRecordedLocation */
 /* @teleloc 0xBBC7000E [43.156700 124.749000 71.000000] 0.922485 0.000000 0.000000 0.386034 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21493, 8000, 3702884015) /* PCAPRecordedObjectIID */;

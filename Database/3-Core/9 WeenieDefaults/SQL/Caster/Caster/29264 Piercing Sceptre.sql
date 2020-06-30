@@ -27,8 +27,7 @@ VALUES (29264,   1,      32768) /* ItemType - Caster */
      , (29264, 160,        355) /* WieldDifficulty */
      , (29264, 172,          5) /* AppraisalLongDescDecoration */
      , (29264, 177,          1) /* GemCount */
-     , (29264, 178,         16) /* GemType */
-     , (29264, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29264, 178,         16) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29264,  22, True ) /* Inscribable */;
@@ -37,8 +36,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29264,   5,  -0.067) /* ManaRate */
      , (29264,  29,    1.19) /* WeaponDefense */
      , (29264, 144,    0.09) /* ManaConversionMod */
-     , (29264, 152,    1.12) /* ElementalDamageMod */
-     , (29264, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (29264, 152,    1.12) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29264,   1, 'Piercing Sceptre') /* Name */
@@ -50,27 +48,10 @@ VALUES (29264,   1,   33559232) /* Setup */
      , (29264,   6,   67115357) /* PaletteBase */
      , (29264,   8,  100677429) /* Icon */
      , (29264,  22,  872415275) /* PhysicsEffectTable */
-     , (29264,  28,         80) /* Spell - LightningBolt6 */
-     , (29264, 8001, 2439594136) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (29264, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29264, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29264, 8000, 2279782054) /* PCAPRecordedObjectIID */;
+     , (29264,  28,         80) /* Spell - LightningBolt6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29264,    80,      2) 
      , (29264,  4227,      2) 
      , (29264,  4400,      2) 
      , (29264,  4418,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29264, 67115361, 0, 56)
-     , (29264, 67115365, 56, 200);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29264, 0, 83895592, 83895592)
-     , (29264, 0, 83895593, 83895593);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29264, 0, 16791340);

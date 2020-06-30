@@ -11,8 +11,7 @@ VALUES (11486,   1,         16) /* ItemType - Creature */
      , (11486,  16,          1) /* ItemUseable - No */
      , (11486,  25,         80) /* Level */
      , (11486,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11486, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11486, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11486, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11486,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11486,  39,     1.6) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11486,   1, 'Kithless Siraluun') /* Name */
-     , (11486, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11486,   1, 'Kithless Siraluun') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11486,   1,   33557059) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11486,   1,   33557059) /* Setup */
      , (11486,   3,  536871034) /* SoundTable */
      , (11486,   6,   67113247) /* PaletteBase */
      , (11486,   8,  100671751) /* Icon */
-     , (11486,  22,  872415376) /* PhysicsEffectTable */
-     , (11486, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11486, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11486, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11486,  22,  872415376) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11486, 8040, 548929554, 54.12389, 34.41125, 89.98801, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x20B80012 [54.123890 34.411250 89.988010] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11486, 8000, 2929953491) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11486,   1, 320, 0, 0) /* Strength */
@@ -84,6 +76,3 @@ VALUES (11486, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreas
      , (11486, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (11486, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (11486, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11486, 67113293, 0, 0);

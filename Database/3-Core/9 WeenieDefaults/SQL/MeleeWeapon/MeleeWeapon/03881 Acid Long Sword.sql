@@ -33,9 +33,7 @@ VALUES (3881,   1,          1) /* ItemType - MeleeWeapon */
      , (3881, 176,         44) /* AppraisalItemSkill */
      , (3881, 177,          4) /* GemCount */
      , (3881, 178,         22) /* GemType */
-     , (3881, 353,          2) /* WeaponType - Sword */
-     , (3881, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3881, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3881, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3881,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3881,   5,  -0.056) /* ManaRate */
      , (3881,  29,    1.07) /* WeaponDefense */
      , (3881,  39,     1.1) /* DefaultScale */
      , (3881,  62,    1.12) /* WeaponOffense */
-     , (3881,  63,       1) /* DamageMod */
-     , (3881, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3881,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3881,   1, 'Acid Long Sword') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3881,   1,   33555791) /* Setup */
      , (3881,   3,  536870932) /* SoundTable */
      , (3881,   8,  100669028) /* Icon */
-     , (3881,  22,  872415275) /* PhysicsEffectTable */
-     , (3881, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3881, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3881, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3881, 8000, 3692401943) /* PCAPRecordedObjectIID */;
+     , (3881,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3881,  1378,      2) 

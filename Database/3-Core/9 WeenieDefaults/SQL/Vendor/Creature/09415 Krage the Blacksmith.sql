@@ -15,8 +15,7 @@ VALUES (9415,   1,         16) /* ItemType - Creature */
      , (9415,  76,     100000) /* MerchandiseMaxValue */
      , (9415,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9415, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9415, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9415, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9415, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9415,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (9415,  37,     0.9) /* BuyPrice */
      , (9415,  54,       6) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9415,   1, 'Krage the Blacksmith') /* Name */
-     , (9415, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (9415,   1, 'Krage the Blacksmith') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9415,   1,   33557003) /* Setup */
      , (9415,   2,  150994950) /* MotionTable */
      , (9415,   3,  536870922) /* SoundTable */
      , (9415,   6,   67113158) /* PaletteBase */
-     , (9415,   8,  100667447) /* Icon */
-     , (9415, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9415, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9415, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9415,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9415, 8040, 2719875369, 39.3598, 23.1267, 561.01, 0.9998628, 0, 0, -0.01656055) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E0129 [39.359800 23.126700 561.010000] 0.999863 0.000000 0.000000 -0.016561 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9415, 8000, 2049040388) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9415,   1, 310, 0, 0) /* Strength */
@@ -101,28 +93,3 @@ VALUES (9415, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Sh
      , (9415, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9415, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (9415, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9415, 67113167, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9415, 0, 83893224, 83893223)
-     , (9415, 0, 83893231, 83893230)
-     , (9415, 2, 83893218, 83893217)
-     , (9415, 5, 83893218, 83893217)
-     , (9415, 7, 83893227, 83893213)
-     , (9415, 7, 83893214, 83893213)
-     , (9415, 9, 83893218, 83893217)
-     , (9415, 12, 83893218, 83893217)
-     , (9415, 19, 83893240, 83893238)
-     , (9415, 20, 83893240, 83893238);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9415, 0, 16785699)
-     , (9415, 2, 16785662)
-     , (9415, 5, 16785662)
-     , (9415, 7, 16785659)
-     , (9415, 9, 16785701)
-     , (9415, 12, 16785701)
-     , (9415, 19, 16785704)
-     , (9415, 20, 16785705);

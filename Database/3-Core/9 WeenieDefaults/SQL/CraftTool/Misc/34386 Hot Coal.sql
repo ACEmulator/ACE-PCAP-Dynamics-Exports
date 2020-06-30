@@ -25,10 +25,4 @@ VALUES (34386,   1, 'Hot Coal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34386,   1,   33560153) /* Setup */
-     , (34386,   8,  100689291) /* Icon */
-     , (34386, 8001,  271085720) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (34386, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34386, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34386, 8000, 2177787365) /* PCAPRecordedObjectIID */;
+     , (34386,   8,  100689291) /* Icon */;

@@ -28,8 +28,7 @@ VALUES (31804,   1,        256) /* ItemType - MissileWeapon */
      , (31804, 172,          1) /* AppraisalLongDescDecoration */
      , (31804, 179,         16) /* ImbuedEffect - PierceRending */
      , (31804, 204,         18) /* ElementalDamageBonus */
-     , (31804, 353,          8) /* WeaponType - Bow */
-     , (31804, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (31804, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31804,  22, True ) /* Inscribable */;
@@ -41,8 +40,7 @@ VALUES (31804,  21,       0) /* WeaponLength */
      , (31804,  29,    1.17) /* WeaponDefense */
      , (31804,  39,     1.1) /* DefaultScale */
      , (31804,  62,       1) /* WeaponOffense */
-     , (31804,  63,    2.76) /* DamageMod */
-     , (31804, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31804,  63,    2.76) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31804,   1, 'Piercing Compound Bow') /* Name */
@@ -56,28 +54,8 @@ VALUES (31804,   1,   33559690) /* Setup */
      , (31804,   6,   67116700) /* PaletteBase */
      , (31804,   8,  100688045) /* Icon */
      , (31804,  22,  872415275) /* PhysicsEffectTable */
-     , (31804,  52,  100676440) /* IconUnderlay */
-     , (31804, 8001, 2435023768) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (31804, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31804, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31804, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (31804, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (31804,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31804, 8040, 1615331878, 101.4994, -121.1045, -0.07000001, -0.2674017, 0, 0, -0.9635851) /* PCAPRecordedLocation */
 /* @teleloc 0x60480226 [101.499400 -121.104500 -0.070000] -0.267402 0.000000 0.000000 -0.963585 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31804, 8000, 2306743425) /* PCAPRecordedObjectIID */
-     , (31804, 8008, 1343492079) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31804, 67116700, 1, 100)
-     , (31804, 67116704, 101, 100)
-     , (31804, 67116707, 201, 55);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31804, 0, 83897331, 83897331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31804, 0, 16792608);

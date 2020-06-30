@@ -12,8 +12,7 @@ VALUES (52737,   1,        128) /* ItemType - Misc */
      , (52737,  91,        100) /* MaxStructure */
      , (52737,  92,        100) /* Structure */
      , (52737,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (52737,  94,         16) /* TargetType - Creature */
-     , (52737, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (52737,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52737,  22, True ) /* Inscribable */;
@@ -23,17 +22,4 @@ VALUES (52737,   1, 'Gauntlet Health Kit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52737,   1,   33555194) /* Setup */
-     , (52737,   8,  100693307) /* Icon */
-     , (52737, 8001,    2641048) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Structure, MaxStructure, Container, TargetType, Burden */
-     , (52737, 8003,      65554) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Healer */
-     , (52737, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52737, 8000, 2860539036) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (52737, 0, 83889681, 83894377)
-     , (52737, 0, 83889682, 83894378);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (52737, 0, 16779994);
+     , (52737,   8,  100693307) /* Icon */;

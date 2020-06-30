@@ -14,8 +14,7 @@ VALUES (23126,   1,         32) /* ItemType - Food */
      , (23126,  19,        300) /* Value */
      , (23126,  89,          4) /* BoosterEnum - Stamina */
      , (23126,  90,         60) /* BoostValue */
-     , (23126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (23126, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23126,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23126,   1, 'Wah Chon''s Winter Lager') /* Name */
@@ -27,10 +26,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23126,   1,   33556854) /* Setup */
      , (23126,   3,  536870932) /* SoundTable */
      , (23126,   8,  100671131) /* Icon */
-     , (23126,  22,  872415275) /* PhysicsEffectTable */
-     , (23126, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (23126, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (23126, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23126, 8000, 2186220447) /* PCAPRecordedObjectIID */;
+     , (23126,  22,  872415275) /* PhysicsEffectTable */;

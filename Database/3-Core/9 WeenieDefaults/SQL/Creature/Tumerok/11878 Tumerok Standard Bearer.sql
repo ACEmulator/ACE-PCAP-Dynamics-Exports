@@ -11,8 +11,7 @@ VALUES (11878,   1,         16) /* ItemType - Creature */
      , (11878,  16,          1) /* ItemUseable - No */
      , (11878,  25,         30) /* Level */
      , (11878,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11878, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11878, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11878, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11878,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11878,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11878,   1, 'Tumerok Standard Bearer') /* Name */
-     , (11878, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11878,   1, 'Tumerok Standard Bearer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11878,   1,   33559554) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11878,   1,   33559554) /* Setup */
      , (11878,   3,  536870931) /* SoundTable */
      , (11878,   6,   67116625) /* PaletteBase */
      , (11878,   8,  100667452) /* Icon */
-     , (11878,  22,  872415270) /* PhysicsEffectTable */
-     , (11878, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11878, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11878, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11878,  22,  872415270) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11878, 8040, 1467613794, 169.642, -90.3395, -17.9945, 0.980067, 0, 0, -0.198669) /* PCAPRecordedLocation */
 /* @teleloc 0x577A0262 [169.642000 -90.339500 -17.994500] 0.980067 0.000000 0.000000 -0.198669 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11878, 8000, 2885408004) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11878,   1, 110, 0, 0) /* Strength */
@@ -58,17 +50,3 @@ VALUES (11878,   1,    41, 0, 0, 103) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (11878, 2, 11754,  1, 0, 0, False) /* Create Hafted Reedshark Spear (11754) for Wield */
      , (11878, 2, 11780,  1, 0, 0, False) /* Create Reinforced Reedshark Spear (11780) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11878, 67116625, 105, 48)
-     , (11878, 67116625, 208, 48)
-     , (11878, 67116641, 57, 48)
-     , (11878, 67116641, 153, 47)
-     , (11878, 67116641, 200, 8)
-     , (11878, 67116650, 1, 48);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11878, 9, 83897284, 83897285);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11878, 9, 16792510);

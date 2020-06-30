@@ -24,8 +24,7 @@ VALUES (44854,   1,          4) /* ItemType - Clothing */
      , (44854, 319,          2) /* ItemMaxLevel */
      , (44854, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (44854, 352,          2) /* CloakWeaveProc */
-     , (44854, 371,          2) /* GearDamageResist */
-     , (44854, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44854, 371,          2) /* GearDamageResist */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44854,   4,          0) /* ItemTotalXp */
@@ -43,8 +42,7 @@ VALUES (44854,  13,     0.8) /* ArmorModVsSlash */
      , (44854,  17,     0.2) /* ArmorModVsFire */
      , (44854,  18,     0.1) /* ArmorModVsAcid */
      , (44854,  19,     0.2) /* ArmorModVsElectric */
-     , (44854, 165,       1) /* ArmorModVsNether */
-     , (44854, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (44854, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44854,   1, 'Halved Cloak') /* Name */
@@ -55,16 +53,4 @@ VALUES (44854,   1,   33561386) /* Setup */
      , (44854,   3,  536870932) /* SoundTable */
      , (44854,   8,  100692129) /* Icon */
      , (44854,  22,  872415275) /* PhysicsEffectTable */
-     , (44854,  50,  100690997) /* IconOverlay */
-     , (44854, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (44854, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44854, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44854, 8000, 2174519208) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (44854, 0, 83898657, 83898663);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44854, 0, 16795839);
+     , (44854,  50,  100690997) /* IconOverlay */;

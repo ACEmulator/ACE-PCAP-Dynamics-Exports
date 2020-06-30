@@ -15,8 +15,7 @@ VALUES (14831,   1,          2) /* ItemType - Armor */
      , (14831,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (14831, 158,          7) /* WieldRequirements - Level */
      , (14831, 159,          1) /* WieldSkillType - Axe */
-     , (14831, 160,         30) /* WieldDifficulty */
-     , (14831, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (14831, 160,         30) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (14831,  22, True ) /* Inscribable */;
@@ -39,28 +38,4 @@ VALUES (14831,   1,   33554854) /* Setup */
      , (14831,   3,  536870932) /* SoundTable */
      , (14831,   6,   67108990) /* PaletteBase */
      , (14831,   8,  100670435) /* Icon */
-     , (14831,  22,  872415275) /* PhysicsEffectTable */
-     , (14831, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (14831, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (14831, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (14831, 8000, 2401430638) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (14831, 67110025, 96, 12)
-     , (14831, 67110025, 116, 12)
-     , (14831, 67110025, 186, 12)
-     , (14831, 67110025, 206, 10)
-     , (14831, 67110025, 108, 8)
-     , (14831, 67110026, 216, 24)
-     , (14831, 67110319, 128, 8)
-     , (14831, 67110319, 174, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (14831, 0, 83887061, 83892375)
-     , (14831, 0, 83887060, 83892376)
-     , (14831, 0, 83886796, 83892372);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (14831, 0, 16779535);
+     , (14831,  22,  872415275) /* PhysicsEffectTable */;

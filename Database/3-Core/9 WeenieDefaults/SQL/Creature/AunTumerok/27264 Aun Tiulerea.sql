@@ -13,8 +13,7 @@ VALUES (27264,   1,         16) /* ItemType - Creature */
      , (27264,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (27264,  95,          8) /* RadarBlipColor - Yellow */
      , (27264, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (27264, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (27264, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27264, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27264,   1, True ) /* Stuck */
@@ -25,25 +24,18 @@ VALUES (27264,  54,      30) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27264,   1, 'Aun Tiulerea') /* Name */
-     , (27264,   5, 'Copper Golem Hunter') /* Template */
-     , (27264, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (27264,   5, 'Copper Golem Hunter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27264,   1,   33557117) /* Setup */
      , (27264,   2,  150994945) /* MotionTable */
      , (27264,   3,  536870931) /* SoundTable */
      , (27264,   6,   67113280) /* PaletteBase */
-     , (27264,   8,  100671756) /* Icon */
-     , (27264, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (27264, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (27264, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (27264,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27264, 8040, 3465805881, 175.724, 7.53503, 18.005, 0.9989941, 0, 0, 0.04484151) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940039 [175.724000 7.535030 18.005000] 0.998994 0.000000 0.000000 0.044842 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27264, 8000, 3688967062) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27264,   1, 140, 0, 0) /* Strength */
@@ -57,6 +49,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (27264,   1,    31, 0, 0, 108) /* MaxHealth */
      , (27264,   3,    10, 0, 0, 165) /* MaxStamina */
      , (27264,   5,     0, 0, 0, 90) /* MaxMana */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27264, 67113366, 0, 0);

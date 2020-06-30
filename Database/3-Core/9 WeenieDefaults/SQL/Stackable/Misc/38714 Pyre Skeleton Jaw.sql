@@ -15,8 +15,7 @@ VALUES (38714,   1,        128) /* ItemType - Misc */
      , (38714,  33,          1) /* Bonded - Bonded */
      , (38714,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38714, 114,          1) /* Attuned - Attuned */
-     , (38714, 151,          2) /* HookType - Wall */
-     , (38714, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38714, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38714,   1, 'Pyre Skeleton Jaw') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38714,   1,   33554817) /* Setup */
      , (38714,   3,  536870932) /* SoundTable */
      , (38714,   8,  100690205) /* Icon */
-     , (38714,  22,  872415275) /* PhysicsEffectTable */
-     , (38714, 8001,  270561296) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (38714, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (38714, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38714, 8000, 3321497227) /* PCAPRecordedObjectIID */;
+     , (38714,  22,  872415275) /* PhysicsEffectTable */;

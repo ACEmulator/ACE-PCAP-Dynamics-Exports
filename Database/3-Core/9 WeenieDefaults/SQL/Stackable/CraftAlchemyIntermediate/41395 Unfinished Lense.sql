@@ -13,8 +13,7 @@ VALUES (41395,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (41395,  16,          1) /* ItemUseable - No */
      , (41395,  19,       1000) /* Value */
      , (41395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (41395, 151,          9) /* HookType - Floor, Yard */
-     , (41395, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41395, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41395,   1, 'Unfinished Lense') /* Name */;
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (41395,   1,   33554809) /* Setup */
      , (41395,   3,  536870932) /* SoundTable */
      , (41395,   8,  100690711) /* Icon */
-     , (41395,  22,  872415275) /* PhysicsEffectTable */
-     , (41395, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (41395, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (41395, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41395, 8000, 2885093123) /* PCAPRecordedObjectIID */;
+     , (41395,  22,  872415275) /* PhysicsEffectTable */;

@@ -12,15 +12,13 @@ VALUES (24326,   1,         16) /* ItemType - Creature */
      , (24326,  25,        100) /* Level */
      , (24326,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (24326, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24326, 307,          5) /* DamageRating */
-     , (24326, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24326, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24326,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24326,   1, 'Risen Lord') /* Name */
-     , (24326, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24326,   1, 'Risen Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24326,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (24326,   1,   33554839) /* Setup */
      , (24326,   3,  536870934) /* SoundTable */
      , (24326,   6,   67110722) /* PaletteBase */
      , (24326,   8,  100667942) /* Icon */
-     , (24326,  22,  872415272) /* PhysicsEffectTable */
-     , (24326, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24326, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24326, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (24326,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24326, 8040, 686686226, 62.5883, 44.03484, 22.0075, -0.5046653, 0, 0, -0.8633151) /* PCAPRecordedLocation */
 /* @teleloc 0x28EE0012 [62.588300 44.034840 22.007500] -0.504665 0.000000 0.000000 -0.863315 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24326, 8000, 3688297551) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24326,   1, 150, 0, 0) /* Strength */
@@ -106,6 +98,3 @@ VALUES (24326, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield *
      , (24326, 9, 20415,  0, 0, 0, False) /* Create Scroll of Geledite Bait (20415) for ContainTreasure */
      , (24326, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
      , (24326, 9, 45274,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other VII (45274) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24326, 67114314, 0, 0);

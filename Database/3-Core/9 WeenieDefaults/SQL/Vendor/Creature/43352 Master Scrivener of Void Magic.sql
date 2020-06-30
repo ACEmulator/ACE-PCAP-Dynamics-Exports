@@ -17,8 +17,7 @@ VALUES (43352,   1,         16) /* ItemType - Creature */
      , (43352, 113,          2) /* Gender - Female */
      , (43352, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43352, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43352, 188,         10) /* HeritageGroup - Penumbraen */
-     , (43352, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43352, 188,         10) /* HeritageGroup - Penumbraen */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43352,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (43352,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43352,   1, 'Master Scrivener of Void Magic') /* Name */
-     , (43352,   5, 'Master Archmage') /* Template */
-     , (43352, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (43352,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43352,   1,   33560941) /* Setup */
@@ -46,17 +44,11 @@ VALUES (43352,   1,   33560941) /* Setup */
      , (43352,  11,   83890326) /* MouthTexture */
      , (43352,  15,   67117007) /* HairPalette */
      , (43352,  16,   67116856) /* EyesPalette */
-     , (43352,  17,   67116850) /* SkinPalette */
-     , (43352, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (43352, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (43352, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (43352,  17,   67116850) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43352, 8040, 2535588215, 34.1529, 185.677, 105.205, -0.004877353, 0, 0, -0.9999881) /* PCAPRecordedLocation */
 /* @teleloc 0x97220177 [34.152900 185.677000 105.205000] -0.004877 0.000000 0.000000 -0.999988 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43352, 8000, 2037522514) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43352,   1,  90, 0, 0) /* Strength */
@@ -82,51 +74,3 @@ VALUES (43352, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for S
      , (43352, 4, 43333, -1, 0, 0, False) /* Create Scroll of Festering Curse V (43333) for Shop */
      , (43352, 4, 43342, -1, 0, 0, False) /* Create Scroll of Weakening Curse V (43342) for Shop */
      , (43352, 4, 44623, -1, 0, 0, False) /* Create Scroll of Nether Blast V (44623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43352, 67109964, 92, 4)
-     , (43352, 67110340, 64, 8)
-     , (43352, 67110356, 40, 24)
-     , (43352, 67110375, 160, 8)
-     , (43352, 67110540, 72, 8)
-     , (43352, 67113252, 216, 24)
-     , (43352, 67116850, 0, 24)
-     , (43352, 67116856, 32, 8)
-     , (43352, 67117007, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43352, 0, 83889072, 83890012)
-     , (43352, 0, 83889342, 83890011)
-     , (43352, 1, 83887064, 83886241)
-     , (43352, 2, 83887066, 83887051)
-     , (43352, 3, 83889344, 83887054)
-     , (43352, 4, 83887068, 83887054)
-     , (43352, 5, 83887064, 83886241)
-     , (43352, 6, 83887066, 83887051)
-     , (43352, 7, 83889344, 83887054)
-     , (43352, 8, 83887068, 83887054)
-     , (43352, 9, 83887070, 83890009)
-     , (43352, 9, 83887062, 83890010)
-     , (43352, 16, 83886232, 83890685)
-     , (43352, 16, 83886668, 83890282)
-     , (43352, 16, 83886837, 83890306)
-     , (43352, 16, 83886684, 83890326);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43352, 0, 16781875)
-     , (43352, 1, 16778430)
-     , (43352, 2, 16781908)
-     , (43352, 3, 16781841)
-     , (43352, 4, 16783485)
-     , (43352, 5, 16778438)
-     , (43352, 6, 16781909)
-     , (43352, 7, 16781840)
-     , (43352, 8, 16783487)
-     , (43352, 9, 16778425)
-     , (43352, 10, 16778431)
-     , (43352, 11, 16778429)
-     , (43352, 12, 16778423)
-     , (43352, 13, 16778434)
-     , (43352, 14, 16778424)
-     , (43352, 15, 16778435)
-     , (43352, 16, 16795640);

@@ -32,8 +32,7 @@ VALUES (48822,   1,         16) /* ItemType - Creature */
      , (48822, 386,          0) /* Overpower */
      , (48822, 387,          0) /* OverpowerResist */
      , (48822, 388,          0) /* GearOverpower */
-     , (48822, 389,          0) /* GearOverpowerResist */
-     , (48822, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (48822, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48822,   1, True ) /* Stuck */
@@ -43,21 +42,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48822,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48822,   1, 'Statue of Creeping Death') /* Name */
-     , (48822, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (48822,   1, 'Statue of Creeping Death') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48822,   1,   33561259) /* Setup */
      , (48822,   2,  150994945) /* MotionTable */
      , (48822,   3,  536870913) /* SoundTable */
-     , (48822,   8,  100667446) /* Icon */
-     , (48822, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
-     , (48822, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (48822, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (48822,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48822, 8040, 1482883599, 190, -70, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x5863020F [190.000000 -70.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48822, 8000, 2629124065) /* PCAPRecordedObjectIID */;

@@ -17,8 +17,7 @@ VALUES (12242,   1,         16) /* ItemType - Creature */
      , (12242, 113,          1) /* Gender - Male */
      , (12242, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (12242, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (12242, 188,          2) /* HeritageGroup - Gharundim */
-     , (12242, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (12242, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12242,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (12242,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12242,   1, 'Jordan''s Apprentice Craftsman') /* Name */
-     , (12242,   5, 'Apprentice Craftsman') /* Template */
-     , (12242, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (12242,   5, 'Apprentice Craftsman') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12242,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (12242,   1,   33554433) /* Setup */
      , (12242,  11,   83890615) /* MouthTexture */
      , (12242,  15,   67117079) /* HairPalette */
      , (12242,  16,   67110062) /* EyesPalette */
-     , (12242,  17,   67109550) /* SkinPalette */
-     , (12242, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (12242, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (12242, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (12242,  17,   67109550) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12242, 8040, 2140078365, 155.131, 186.193, 124.005, -0.456736, 0, 0, -0.8896022) /* PCAPRecordedLocation */
 /* @teleloc 0x7F8F011D [155.131000 186.193000 124.005000] -0.456736 0.000000 0.000000 -0.889602 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12242, 8000, 2012803084) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (12242,   1,  55, 0, 0) /* Strength */
@@ -110,53 +102,3 @@ VALUES (12242, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
      , (12242, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (12242, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
      , (12242, 4, 25519, -1, 0, 0, False) /* Create Writ of Refuge Text (25519) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12242, 67109550, 0, 24)
-     , (12242, 67109969, 92, 4)
-     , (12242, 67110026, 72, 8)
-     , (12242, 67110062, 32, 8)
-     , (12242, 67110320, 216, 24)
-     , (12242, 67110334, 160, 8)
-     , (12242, 67111245, 64, 8)
-     , (12242, 67111245, 40, 24)
-     , (12242, 67117079, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12242, 0, 83889072, 83890012)
-     , (12242, 0, 83889342, 83890011)
-     , (12242, 1, 83887064, 83886241)
-     , (12242, 3, 83889344, 83887054)
-     , (12242, 4, 83887068, 83887054)
-     , (12242, 5, 83887064, 83886241)
-     , (12242, 7, 83889344, 83887054)
-     , (12242, 8, 83887068, 83887054)
-     , (12242, 9, 83887061, 83890009)
-     , (12242, 9, 83887060, 83890010)
-     , (12242, 10, 83887069, 83886782)
-     , (12242, 11, 83886788, 83891213)
-     , (12242, 13, 83887069, 83886782)
-     , (12242, 14, 83886788, 83891213)
-     , (12242, 16, 83886232, 83890685)
-     , (12242, 16, 83886668, 83890484)
-     , (12242, 16, 83886837, 83890538)
-     , (12242, 16, 83886684, 83890615);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12242, 0, 16781835)
-     , (12242, 1, 16781845)
-     , (12242, 2, 16777293)
-     , (12242, 3, 16777292)
-     , (12242, 4, 16777291)
-     , (12242, 5, 16781846)
-     , (12242, 6, 16777297)
-     , (12242, 7, 16777296)
-     , (12242, 8, 16777298)
-     , (12242, 9, 16777300)
-     , (12242, 10, 16777301)
-     , (12242, 11, 16781822)
-     , (12242, 12, 16777304)
-     , (12242, 13, 16777303)
-     , (12242, 14, 16781821)
-     , (12242, 15, 16777307)
-     , (12242, 16, 16795640);

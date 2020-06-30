@@ -15,8 +15,7 @@ VALUES (8748,   1,      32768) /* ItemType - Caster */
      , (8748, 106,        150) /* ItemSpellcraft */
      , (8748, 107,        491) /* ItemCurMana */
      , (8748, 108,        600) /* ItemMaxMana */
-     , (8748, 151,          2) /* HookType - Wall */
-     , (8748, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8748, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8748,  22, True ) /* Inscribable */;
@@ -35,25 +34,9 @@ VALUES (8748,   1,   33558231) /* Setup */
      , (8748,   6,   67111919) /* PaletteBase */
      , (8748,   8,  100668799) /* Icon */
      , (8748,  22,  872415275) /* PhysicsEffectTable */
-     , (8748,  28,         82) /* Spell - FlameBolt3 */
-     , (8748, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (8748, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (8748, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8748, 8000, 2779730401) /* PCAPRecordedObjectIID */;
+     , (8748,  28,         82) /* Spell - FlameBolt3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8748,    82,      2) 
      , (8748,   583,      2) 
      , (8748,   655,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8748, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8748, 0, 83889679, 83889679)
-     , (8748, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8748, 0, 16778603);

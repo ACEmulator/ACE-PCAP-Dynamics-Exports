@@ -11,8 +11,7 @@ VALUES (146,   1,        512) /* ItemType - Container */
      , (146,  16,         48) /* ItemUseable - ViewedRemote */
      , (146,  19,        200) /* Value */
      , (146,  38,         50) /* ResistLockpick */
-     , (146,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (146,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (146,   1, True ) /* Stuck */
@@ -25,22 +24,15 @@ VALUES (146,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (146,   1, 'Coffin') /* Name */
-     , (146,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (146, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (146,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (146,   1,   33554638) /* Setup */
      , (146,   2,  150994980) /* MotionTable */
      , (146,   3,  536870950) /* SoundTable */
      , (146,   8,  100667426) /* Icon */
-     , (146,  22,  872415275) /* PhysicsEffectTable */
-     , (146, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (146, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (146, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (146,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (146, 8040, 22479204, 17.3473, -42.4978, -5.960464E-08, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x01570164 [17.347300 -42.497800 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (146, 8000, 1880453150) /* PCAPRecordedObjectIID */;

@@ -26,9 +26,7 @@ VALUES (45100,   1,          1) /* ItemType - MeleeWeapon */
      , (45100, 172,          5) /* AppraisalLongDescDecoration */
      , (45100, 177,          6) /* GemCount */
      , (45100, 178,         47) /* GemType */
-     , (45100, 353,          2) /* WeaponType - Sword */
-     , (45100, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45100, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45100, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45100,  22, True ) /* Inscribable */;
@@ -39,8 +37,7 @@ VALUES (45100,  21,       0) /* WeaponLength */
      , (45100,  26,       0) /* MaximumVelocity */
      , (45100,  29,    1.11) /* WeaponDefense */
      , (45100,  62,    1.11) /* WeaponOffense */
-     , (45100,  63,       1) /* DamageMod */
-     , (45100, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (45100,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45100,   1, 'Acid Epee') /* Name */
@@ -51,21 +48,4 @@ VALUES (45100,   1,   33561437) /* Setup */
      , (45100,   3,  536870932) /* SoundTable */
      , (45100,   6,   67111919) /* PaletteBase */
      , (45100,   8,  100692289) /* Icon */
-     , (45100,  22,  872415275) /* PhysicsEffectTable */
-     , (45100, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45100, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45100, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45100, 8000, 3694325137) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45100, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45100, 0, 83889236, 83889236)
-     , (45100, 0, 83886739, 83886739)
-     , (45100, 0, 83889235, 83889235);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45100, 0, 16795944);
+     , (45100,  22,  872415275) /* PhysicsEffectTable */;

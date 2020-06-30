@@ -35,9 +35,7 @@ VALUES (45395,   1,          1) /* ItemType - MeleeWeapon */
      , (45395, 177,          3) /* GemCount */
      , (45395, 178,         49) /* GemType */
      , (45395, 179,          4) /* ImbuedEffect - ArmorRending */
-     , (45395, 353,          2) /* WeaponType - Sword */
-     , (45395, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45395, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45395, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45395,  22, True ) /* Inscribable */
@@ -52,8 +50,7 @@ VALUES (45395,   5,  -0.056) /* ManaRate */
      , (45395,  39,     1.1) /* DefaultScale */
      , (45395,  62,    1.13) /* WeaponOffense */
      , (45395,  63,       1) /* DamageMod */
-     , (45395, 149,   1.005) /* WeaponMissileDefense */
-     , (45395, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (45395, 149,   1.005) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45395,   1, 'Rapier') /* Name */
@@ -67,27 +64,9 @@ VALUES (45395,   1,   33556588) /* Setup */
      , (45395,   6,   67111919) /* PaletteBase */
      , (45395,   8,  100670657) /* Icon */
      , (45395,  22,  872415275) /* PhysicsEffectTable */
-     , (45395,  52,  100676438) /* IconUnderlay */
-     , (45395, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45395, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45395, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (45395, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45395, 8000, 2174244836) /* PCAPRecordedObjectIID */;
+     , (45395,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45395,  2096,      2) 
      , (45395,  2116,      2) 
      , (45395,  2596,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45395, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45395, 0, 83889236, 83889236)
-     , (45395, 0, 83886739, 83886739)
-     , (45395, 0, 83889235, 83889235);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45395, 0, 16777934);

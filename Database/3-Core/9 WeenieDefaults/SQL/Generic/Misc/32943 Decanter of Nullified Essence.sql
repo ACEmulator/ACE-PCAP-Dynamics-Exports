@@ -11,8 +11,7 @@ VALUES (32943,   1,        128) /* ItemType - Misc */
      , (32943,  19,         20) /* Value */
      , (32943,  33,          0) /* Bonded - Normal */
      , (32943,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (32943, 114,          0) /* Attuned - Normal */
-     , (32943, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32943, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32943,  22, True ) /* Inscribable */;
@@ -26,24 +25,8 @@ VALUES (32943,   1,   33555965) /* Setup */
      , (32943,   3,  536870932) /* SoundTable */
      , (32943,   6,   67111919) /* PaletteBase */
      , (32943,   8,  100688870) /* Icon */
-     , (32943,  22,  872415275) /* PhysicsEffectTable */
-     , (32943, 8001,    2097304) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Burden */
-     , (32943, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32943, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (32943,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32943, 8040, 23855548, 51.27853, -31.8011, 0, 0.3081457, 0, 0, -0.9513392) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [51.278530 -31.801100 0.000000] 0.308146 0.000000 0.000000 -0.951339 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32943, 8000, 3705319893) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32943, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32943, 0, 83890051, 83890051)
-     , (32943, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32943, 0, 16783325);

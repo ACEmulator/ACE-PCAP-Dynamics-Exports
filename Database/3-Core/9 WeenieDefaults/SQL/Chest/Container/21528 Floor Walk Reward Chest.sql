@@ -10,8 +10,7 @@ VALUES (21528,   1,        512) /* ItemType - Container */
      , (21528,   7,         10) /* ContainersCapacity */
      , (21528,  16,         48) /* ItemUseable - ViewedRemote */
      , (21528,  19,       2500) /* Value */
-     , (21528,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (21528, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (21528,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21528,   1, True ) /* Stuck */
@@ -23,25 +22,18 @@ VALUES (21528,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21528,   1, 'Floor Walk Reward Chest') /* Name */
-     , (21528,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (21528, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (21528,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (21528,   1,   33554556) /* Setup */
      , (21528,   2,  150994948) /* MotionTable */
      , (21528,   3,  536870945) /* SoundTable */
      , (21528,   8,  100667424) /* Icon */
-     , (21528,  22,  872415275) /* PhysicsEffectTable */
-     , (21528, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (21528, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (21528, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (21528,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21528, 8040, 1481769441, 120.146, -81.799, 0, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x585201E1 [120.146000 -81.799000 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21528, 8000, 1971658815) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (21528, -1, 21380, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Seal Fragment (21380) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

@@ -33,8 +33,7 @@ VALUES (31966,   1,         16) /* ItemType - Creature */
      , (31966, 386,          0) /* Overpower */
      , (31966, 387,          0) /* OverpowerResist */
      , (31966, 388,          0) /* GearOverpower */
-     , (31966, 389,          0) /* GearOverpowerResist */
-     , (31966, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (31966, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31966,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ VALUES (31966,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31966,   1, 'Watcher of the Deep') /* Name */
-     , (31966,  16, 'This statue appears ancient and weathered. A small inscription is carved at its base: "When the Gatekeepers are sated, the city that once was shall rise from the depths, the imprisoned shall break free, the weak shall become strong, and the rulers of this world shall be burned within the fires of treachery."') /* LongDesc */
-     , (31966, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (31966,  16, 'This statue appears ancient and weathered. A small inscription is carved at its base: "When the Gatekeepers are sated, the city that once was shall rise from the depths, the imprisoned shall break free, the weak shall become strong, and the rulers of this world shall be burned within the fires of treachery."') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31966,   1,   33555377) /* Setup */
      , (31966,   2,  150995147) /* MotionTable */
      , (31966,   3,  536870932) /* SoundTable */
-     , (31966,   8,  100688311) /* Icon */
-     , (31966, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (31966, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (31966, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (31966,   8,  100688311) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31966, 8040, 3520528395, 33.9935, 54.9808, -0.0999999, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xD1D7000B [33.993500 54.980800 -0.100000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31966, 8000, 3361460509) /* PCAPRecordedObjectIID */;

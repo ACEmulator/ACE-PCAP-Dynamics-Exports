@@ -12,8 +12,7 @@ VALUES (4216,   1,         16) /* ItemType - Creature */
      , (4216,  25,        100) /* Level */
      , (4216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (4216, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (4216, 307,          2) /* DamageRating */
-     , (4216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4216, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4216,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4216,  76,     0.3) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4216,   1, 'Diamond Golem') /* Name */
-     , (4216, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4216,   1, 'Diamond Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4216,   1,   33556439) /* Setup */
@@ -31,17 +29,11 @@ VALUES (4216,   1,   33556439) /* Setup */
      , (4216,   3,  536870933) /* SoundTable */
      , (4216,   6,   67112808) /* PaletteBase */
      , (4216,   8,  100667940) /* Icon */
-     , (4216,  22,  872415322) /* PhysicsEffectTable */
-     , (4216, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4216, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4216, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (4216,  22,  872415322) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4216, 8040, 2295922700, 28.85278, 73.69087, 148.3961, 0.5, 0, 0, -0.8660254) /* PCAPRecordedLocation */
 /* @teleloc 0x88D9000C [28.852780 73.690870 148.396100] 0.500000 0.000000 0.000000 -0.866025 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4216, 8000, 3685945890) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4216,   1, 250, 0, 0) /* Strength */
@@ -368,40 +360,3 @@ VALUES (4216, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
      , (4216, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
      , (4216, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
      , (4216, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4216, 67112807, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4216, 0, 83892433, 83892492)
-     , (4216, 0, 83892432, 83892425)
-     , (4216, 1, 83892433, 83892492)
-     , (4216, 1, 83892432, 83892425)
-     , (4216, 2, 83892433, 83892492)
-     , (4216, 2, 83892432, 83892425)
-     , (4216, 4, 83892433, 83892492)
-     , (4216, 4, 83892432, 83892425)
-     , (4216, 5, 83892433, 83892492)
-     , (4216, 5, 83892432, 83892425)
-     , (4216, 7, 83892433, 83892492)
-     , (4216, 7, 83892432, 83892425)
-     , (4216, 8, 83892433, 83892492)
-     , (4216, 8, 83892432, 83892425)
-     , (4216, 9, 83892433, 83892492)
-     , (4216, 9, 83892432, 83892425)
-     , (4216, 11, 83892433, 83892492)
-     , (4216, 11, 83892432, 83892425)
-     , (4216, 12, 83892433, 83892492)
-     , (4216, 12, 83892432, 83892425);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4216, 0, 16784246)
-     , (4216, 1, 16784186)
-     , (4216, 2, 16784180)
-     , (4216, 4, 16784189)
-     , (4216, 5, 16784183)
-     , (4216, 7, 16784200)
-     , (4216, 8, 16784203)
-     , (4216, 9, 16784193)
-     , (4216, 11, 16784204)
-     , (4216, 12, 16784196);

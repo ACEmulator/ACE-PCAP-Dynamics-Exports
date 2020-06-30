@@ -11,8 +11,7 @@ VALUES (4842,   1,        512) /* ItemType - Container */
      , (4842,  16,         48) /* ItemUseable - ViewedRemote */
      , (4842,  19,        200) /* Value */
      , (4842,  38,         20) /* ResistLockpick */
-     , (4842,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (4842, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4842,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4842,   1, True ) /* Stuck */
@@ -27,8 +26,7 @@ VALUES (4842,  54,       1) /* UseRadius */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4842,   1, 'Sarcophagus') /* Name */
-     , (4842,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (4842, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (4842,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4842,   1,   33554638) /* Setup */
@@ -36,17 +34,11 @@ VALUES (4842,   1,   33554638) /* Setup */
      , (4842,   3,  536870949) /* SoundTable */
      , (4842,   8,  100668103) /* Icon */
      , (4842,  22,  872415275) /* PhysicsEffectTable */
-     , (4842,  30,         88) /* PhysicsScript - Create */
-     , (4842, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (4842, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4842, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (4842,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4842, 8040, 32899404, 52.0773, -97.5858, -12, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x01F6014C [52.077300 -97.585800 -12.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4842, 8000, 1881104415) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4842, -1, 128, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Qafiya (128) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

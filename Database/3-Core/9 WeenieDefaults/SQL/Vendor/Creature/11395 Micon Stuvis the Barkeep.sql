@@ -17,8 +17,7 @@ VALUES (11395,   1,         16) /* ItemType - Creature */
      , (11395, 113,          1) /* Gender - Male */
      , (11395, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11395, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11395, 188,          1) /* HeritageGroup - Aluvian */
-     , (11395, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11395, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11395,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (11395,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11395,   1, 'Micon Stuvis the Barkeep') /* Name */
-     , (11395,   5, 'Barkeeper') /* Template */
-     , (11395, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (11395,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11395,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (11395,   1,   33554433) /* Setup */
      , (11395,  11,   83890649) /* MouthTexture */
      , (11395,  15,   67117021) /* HairPalette */
      , (11395,  16,   67109565) /* EyesPalette */
-     , (11395,  17,   67109559) /* SkinPalette */
-     , (11395, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11395, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11395, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (11395,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11395, 8040, 397541637, 131.524, 68.5955, 44.005, -0.5494902, 0, 0, -0.8355002) /* PCAPRecordedLocation */
 /* @teleloc 0x17B20105 [131.524000 68.595500 44.005000] -0.549490 0.000000 0.000000 -0.835500 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11395, 8000, 1903894530) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11395,   1,  80, 0, 0) /* Strength */
@@ -101,53 +93,3 @@ VALUES (11395, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (11395, 4, 27626, -1, 0, 0, False) /* Create Olthoi Eviscerators (27626) for Shop */
      , (11395, 4, 27627, -1, 0, 0, False) /* Create Britana (27627) for Shop */
      , (11395, 4, 27628, -1, 0, 0, False) /* Create Behdo Yii (27628) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11395, 67109559, 0, 24)
-     , (11395, 67109565, 32, 8)
-     , (11395, 67109967, 92, 4)
-     , (11395, 67110003, 72, 8)
-     , (11395, 67110320, 216, 24)
-     , (11395, 67110334, 64, 8)
-     , (11395, 67110378, 160, 8)
-     , (11395, 67111304, 40, 24)
-     , (11395, 67117021, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11395, 0, 83889072, 83890012)
-     , (11395, 0, 83889342, 83890011)
-     , (11395, 1, 83887064, 83886241)
-     , (11395, 2, 83887066, 83887051)
-     , (11395, 3, 83889344, 83887054)
-     , (11395, 4, 83887068, 83887054)
-     , (11395, 5, 83887064, 83886241)
-     , (11395, 6, 83887066, 83887051)
-     , (11395, 7, 83889344, 83887054)
-     , (11395, 8, 83887068, 83887054)
-     , (11395, 9, 83887061, 83890009)
-     , (11395, 9, 83887060, 83890010)
-     , (11395, 10, 83887069, 83886782)
-     , (11395, 13, 83887069, 83886782)
-     , (11395, 16, 83886232, 83890685)
-     , (11395, 16, 83886668, 83890457)
-     , (11395, 16, 83886837, 83890546)
-     , (11395, 16, 83886684, 83890649);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11395, 0, 16781835)
-     , (11395, 1, 16777295)
-     , (11395, 2, 16781866)
-     , (11395, 3, 16781841)
-     , (11395, 4, 16781838)
-     , (11395, 5, 16777299)
-     , (11395, 6, 16781864)
-     , (11395, 7, 16781840)
-     , (11395, 8, 16781839)
-     , (11395, 9, 16777300)
-     , (11395, 10, 16777301)
-     , (11395, 11, 16777302)
-     , (11395, 12, 16777304)
-     , (11395, 13, 16777303)
-     , (11395, 14, 16777305)
-     , (11395, 15, 16777307)
-     , (11395, 16, 16795662);

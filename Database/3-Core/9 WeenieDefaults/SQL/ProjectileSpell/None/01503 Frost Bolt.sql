@@ -15,10 +15,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (1503,  39,     0.4) /* DefaultScale */
      , (1503,  77,       1) /* PhysicsScriptIntensity */
      , (1503,  78,       1) /* Friction */
-     , (1503,  79,       0) /* Elasticity */
-     , (1503, 8010,   0.373) /* PCAPRecordedVelocityX */
-     , (1503, 8011,  22.822) /* PCAPRecordedVelocityY */
-     , (1503, 8012,  -5.959) /* PCAPRecordedVelocityZ */;
+     , (1503,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1503,   1, 'Frost Bolt') /* Name */;
@@ -29,17 +26,11 @@ VALUES (1503,   1,   33555444) /* Setup */
      , (1503,   8,  100667494) /* Icon */
      , (1503,  22,  872415238) /* PhysicsEffectTable */
      , (1503,  28,         28) /* Spell - FrostBolt1 */
-     , (1503,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (1503, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (1503, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (1503, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (1503,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1503, 8040, 2418081802, 42.30688, 40.97568, 193.2063, -0.9561238, 0, 0, -0.2929628) /* PCAPRecordedLocation */
 /* @teleloc 0x9021000A [42.306880 40.975680 193.206300] -0.956124 0.000000 0.000000 -0.292963 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1503, 8000, 3685858391) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1503, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

@@ -34,8 +34,7 @@ VALUES (42961,   1,         16) /* ItemType - Creature */
      , (42961, 386,          0) /* Overpower */
      , (42961, 387,          0) /* OverpowerResist */
      , (42961, 388,          0) /* GearOverpower */
-     , (42961, 389,          0) /* GearOverpowerResist */
-     , (42961, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42961, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42961,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42961,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (42961,   1, 'Rock Pile') /* Name */
-     , (42961, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (42961,   1, 'Rock Pile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42961,   1,   33558564) /* Setup */
      , (42961,   2,  150995265) /* MotionTable */
      , (42961,   3,  536870913) /* SoundTable */
-     , (42961,   8,  100675645) /* Icon */
-     , (42961, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (42961, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (42961, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (42961,   8,  100675645) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42961, 8040, 3010461730, 108.847, 34.7657, 30, 0.937499, 0, 0, 0.347988) /* PCAPRecordedLocation */
 /* @teleloc 0xB3700022 [108.847000 34.765700 30.000000] 0.937499 0.000000 0.000000 0.347988 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42961, 8000, 3685096281) /* PCAPRecordedObjectIID */;

@@ -10,8 +10,7 @@ VALUES (37492,   1,       2048) /* ItemType - Gem */
      , (37492,  19,          1) /* Value */
      , (37492,  33,          1) /* Bonded - Bonded */
      , (37492,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37492, 114,          1) /* Attuned - Attuned */
-     , (37492, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37492, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37492,  22, True ) /* Inscribable */
@@ -25,11 +24,4 @@ VALUES (37492,   1, 'Spectral Ingot') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37492,   1,   33555677) /* Setup */
      , (37492,   8,  100689897) /* Icon */
-     , (37492,  52,  100689404) /* IconUnderlay */
-     , (37492, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (37492, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (37492, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (37492, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37492, 8000, 3671151566) /* PCAPRecordedObjectIID */;
+     , (37492,  52,  100689404) /* IconUnderlay */;

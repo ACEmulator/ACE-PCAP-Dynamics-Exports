@@ -28,8 +28,7 @@ VALUES (28630,   1,          2) /* ItemType - Armor */
      , (28630, 177,          4) /* GemCount */
      , (28630, 178,         38) /* GemType */
      , (28630, 265,         19) /* EquipmentSetId - Hearty */
-     , (28630, 374,          1) /* GearCritDamage */
-     , (28630, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28630, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28630,  22, True ) /* Inscribable */
@@ -44,8 +43,7 @@ VALUES (28630,   5,  -0.067) /* ManaRate */
      , (28630,  17,   0.859) /* ArmorModVsFire */
      , (28630,  18,     0.6) /* ArmorModVsAcid */
      , (28630,  19,     0.4) /* ArmorModVsElectric */
-     , (28630, 165,       1) /* ArmorModVsNether */
-     , (28630, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (28630, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28630,   1, 'Diforsa Cuirass') /* Name */
@@ -56,13 +54,7 @@ VALUES (28630,   1,   33559339) /* Setup */
      , (28630,   3,  536870932) /* SoundTable */
      , (28630,   6,   67108990) /* PaletteBase */
      , (28630,   8,  100686229) /* Icon */
-     , (28630,  22,  872415275) /* PhysicsEffectTable */
-     , (28630, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28630, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28630, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28630, 8000, 3688303154) /* PCAPRecordedObjectIID */;
+     , (28630,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28630,  1516,      2) 
@@ -71,7 +63,3 @@ VALUES (28630,  1516,      2)
      , (28630,  4409,      2) 
      , (28630,  4667,      2) 
      , (28630,  6072,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28630, 67116172, 174, 66)
-     , (28630, 67116172, 72, 24);

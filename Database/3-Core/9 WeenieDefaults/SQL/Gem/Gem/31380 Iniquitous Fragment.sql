@@ -11,8 +11,7 @@ VALUES (31380,   1,       2048) /* ItemType - Gem */
      , (31380,  19,          0) /* Value */
      , (31380,  33,          1) /* Bonded - Bonded */
      , (31380,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31380, 114,          1) /* Attuned - Attuned */
-     , (31380, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31380, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31380,  22, True ) /* Inscribable */;
@@ -24,10 +23,4 @@ VALUES (31380,   1, 'Iniquitous Fragment') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31380,   1,   33556743) /* Setup */
-     , (31380,   8,  100687955) /* Icon */
-     , (31380, 8001,    2179088) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Burden */
-     , (31380, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31380, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31380, 8000, 3711450280) /* PCAPRecordedObjectIID */;
+     , (31380,   8,  100687955) /* Icon */;

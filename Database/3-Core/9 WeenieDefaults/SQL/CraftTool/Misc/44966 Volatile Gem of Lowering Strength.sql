@@ -18,8 +18,7 @@ VALUES (44966,   1,        128) /* ItemType - Misc */
      , (44966,  98, 1485832998) /* CreationTimestamp */
      , (44966, 114,          1) /* Attuned - Attuned */
      , (44966, 267,        900) /* Lifespan */
-     , (44966, 268,        900) /* RemainingLifespan */
-     , (44966, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44966, 268,        900) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44966,  22, True ) /* Inscribable */;
@@ -32,13 +31,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44966,   1,   33558087) /* Setup */
      , (44966,   6,   67111919) /* PaletteBase */
      , (44966,   8,  100673789) /* Icon */
-     , (44966,  50,  100673967) /* IconOverlay */
-     , (44966, 8001, 1076391952) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
-     , (44966, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44966, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44966, 8000, 2931582836) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44966, 67111924, 0, 0);
+     , (44966,  50,  100673967) /* IconOverlay */;

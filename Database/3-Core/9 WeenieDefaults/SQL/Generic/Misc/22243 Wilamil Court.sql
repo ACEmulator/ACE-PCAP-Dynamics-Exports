@@ -19,14 +19,8 @@ VALUES (22243,   1, 'Wilamil Court') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22243,   1,   33558057) /* Setup */
-     , (22243,   8,  100667499) /* Icon */
-     , (22243, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (22243, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22243, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (22243,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22243, 8040, 1448083727, 9.977, -56.947, 0, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5650010F [9.977000 -56.947000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22243, 8000, 1969553442) /* PCAPRecordedObjectIID */;

@@ -17,8 +17,7 @@ VALUES (5641,   1,         16) /* ItemType - Creature */
      , (5641, 113,          1) /* Gender - Male */
      , (5641, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5641, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (5641, 188,          3) /* HeritageGroup - Sho */
-     , (5641, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5641, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5641,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5641,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5641,   1, 'Weaponsmith Lun Dou') /* Name */
-     , (5641,   5, 'Weaponsmith') /* Template */
-     , (5641, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5641,   5, 'Weaponsmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5641,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5641,   1,   33554433) /* Setup */
      , (5641,  11,   83890657) /* MouthTexture */
      , (5641,  15,   67116994) /* HairPalette */
      , (5641,  16,   67109565) /* EyesPalette */
-     , (5641,  17,   67110055) /* SkinPalette */
-     , (5641, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5641, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5641, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5641,  17,   67110055) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5641, 8040, 3060072704, 131.022, 127.485, 18.405, -0.02399195, 0, 0, -0.9997122) /* PCAPRecordedLocation */
 /* @teleloc 0xB6650100 [131.022000 127.485000 18.405000] -0.023992 0.000000 0.000000 -0.999712 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5641, 8000, 2070302729) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5641,   1, 110, 0, 0) /* Strength */
@@ -84,55 +76,3 @@ VALUES (5641, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (5641, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (5641, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (5641, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5641, 67109565, 32, 8)
-     , (5641, 67110026, 72, 8)
-     , (5641, 67110055, 0, 24)
-     , (5641, 67110349, 40, 24)
-     , (5641, 67110378, 216, 24)
-     , (5641, 67110378, 160, 8)
-     , (5641, 67110551, 92, 4)
-     , (5641, 67111245, 64, 8)
-     , (5641, 67116994, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5641, 0, 83889072, 83890012)
-     , (5641, 0, 83889342, 83890011)
-     , (5641, 1, 83887064, 83886241)
-     , (5641, 2, 83887066, 83887051)
-     , (5641, 3, 83889344, 83887054)
-     , (5641, 4, 83887068, 83887054)
-     , (5641, 5, 83887064, 83886241)
-     , (5641, 6, 83887066, 83887051)
-     , (5641, 7, 83889344, 83887054)
-     , (5641, 8, 83887068, 83887054)
-     , (5641, 9, 83887061, 83890009)
-     , (5641, 9, 83887060, 83890010)
-     , (5641, 10, 83887069, 83886782)
-     , (5641, 11, 83887067, 83891213)
-     , (5641, 13, 83887069, 83886782)
-     , (5641, 14, 83887067, 83891213)
-     , (5641, 16, 83886232, 83890685)
-     , (5641, 16, 83886668, 83890454)
-     , (5641, 16, 83886837, 83890527)
-     , (5641, 16, 83886684, 83890657);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5641, 0, 16781835)
-     , (5641, 1, 16777295)
-     , (5641, 2, 16777293)
-     , (5641, 3, 16777292)
-     , (5641, 4, 16777291)
-     , (5641, 5, 16777299)
-     , (5641, 6, 16777297)
-     , (5641, 7, 16777296)
-     , (5641, 8, 16777298)
-     , (5641, 9, 16777300)
-     , (5641, 10, 16777301)
-     , (5641, 11, 16777302)
-     , (5641, 12, 16777304)
-     , (5641, 13, 16777303)
-     , (5641, 14, 16777305)
-     , (5641, 15, 16777307)
-     , (5641, 16, 16795675);

@@ -11,22 +11,17 @@ VALUES (35885,   1,         16) /* ItemType - Creature */
      , (35885,  16,          1) /* ItemUseable - No */
      , (35885,  25,        160) /* Level */
      , (35885,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35885, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35885, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35885, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35885,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35885,  39,     1.3) /* DefaultScale */
-     , (35885,  77,       1) /* PhysicsScriptIntensity */
-     , (35885, 8010,   9.582) /* PCAPRecordedVelocityX */
-     , (35885, 8011,  -0.769) /* PCAPRecordedVelocityY */
-     , (35885, 8012,  -0.748) /* PCAPRecordedVelocityZ */;
+     , (35885,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35885,   1, 'Paradox-touched Olthoi Warrior') /* Name */
-     , (35885, 8006, 'BgA8AEO1nNwxALbEOmYVQ5lRvEAF4GtD8O9BAOb92z/NzMw9AADIQgAAgD8AAHBBAAAAABzHIUA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35885,   1, 'Paradox-touched Olthoi Warrior') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35885,   1,   33560317) /* Setup */
@@ -35,17 +30,11 @@ VALUES (35885,   1,   33560317) /* Setup */
      , (35885,   6,   67113236) /* PaletteBase */
      , (35885,   8,  100667623) /* Icon */
      , (35885,  22,  872415265) /* PhysicsEffectTable */
-     , (35885,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (35885, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35885, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35885, 8005,     129159) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Velocity, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (35885,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35885, 8040, 3300261929, 141.4579, 3.970356, 241.4654, 0.7844548, 0, 0, -0.620186) /* PCAPRecordedLocation */
 /* @teleloc 0xC4B60029 [141.457900 3.970356 241.465400] 0.784455 0.000000 0.000000 -0.620186 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35885, 8000, 3701495775) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35885,   1, 360, 0, 0) /* Strength */
@@ -198,6 +187,3 @@ VALUES (35885, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTre
      , (35885, 9,    51,  0, 0, 0, False) /* Create Platemail Cuirass (51) for ContainTreasure */
      , (35885, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */
      , (35885, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35885, 67113317, 0, 0);

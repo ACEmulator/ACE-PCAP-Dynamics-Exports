@@ -17,8 +17,7 @@ VALUES (5425,   1,         16) /* ItemType - Creature */
      , (5425, 113,          1) /* Gender - Male */
      , (5425, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (5425, 134,          1) /* PlayerKillerStatus - NPC */
-     , (5425, 188,          1) /* HeritageGroup - Aluvian */
-     , (5425, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (5425, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5425,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (5425,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5425,   1, 'Archmage Cortorl') /* Name */
-     , (5425,   5, 'Archmage') /* Template */
-     , (5425, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (5425,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5425,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (5425,   1,   33554433) /* Setup */
      , (5425,  11,   83890657) /* MouthTexture */
      , (5425,  15,   67116989) /* HairPalette */
      , (5425,  16,   67109565) /* EyesPalette */
-     , (5425,  17,   67109561) /* SkinPalette */
-     , (5425, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (5425, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (5425, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (5425,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5425, 8040, 2678325523, 154.706, 135.324, 86.005, 0.6812132, 0, 0, -0.7320851) /* PCAPRecordedLocation */
 /* @teleloc 0x9FA40113 [154.706000 135.324000 86.005000] 0.681213 0.000000 0.000000 -0.732085 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5425, 8000, 2046443525) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (5425,   1,  40, 0, 0) /* Strength */
@@ -146,55 +138,3 @@ VALUES (5425, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (5425, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (5425, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (5425, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5425, 67109561, 0, 24)
-     , (5425, 67109565, 32, 8)
-     , (5425, 67109969, 92, 4)
-     , (5425, 67110003, 72, 8)
-     , (5425, 67110356, 64, 8)
-     , (5425, 67110356, 216, 24)
-     , (5425, 67110356, 160, 8)
-     , (5425, 67111245, 40, 24)
-     , (5425, 67116989, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5425, 0, 83889072, 83890012)
-     , (5425, 0, 83889342, 83890011)
-     , (5425, 1, 83887064, 83886241)
-     , (5425, 2, 83887066, 83887051)
-     , (5425, 3, 83889344, 83887054)
-     , (5425, 4, 83887068, 83887054)
-     , (5425, 5, 83887064, 83886241)
-     , (5425, 6, 83887066, 83887051)
-     , (5425, 7, 83889344, 83887054)
-     , (5425, 8, 83887068, 83887054)
-     , (5425, 9, 83887061, 83890009)
-     , (5425, 9, 83887060, 83890010)
-     , (5425, 10, 83887069, 83886782)
-     , (5425, 11, 83887067, 83891213)
-     , (5425, 13, 83887069, 83886782)
-     , (5425, 14, 83887067, 83891213)
-     , (5425, 16, 83886232, 83890685)
-     , (5425, 16, 83886668, 83890513)
-     , (5425, 16, 83886837, 83890521)
-     , (5425, 16, 83886684, 83890657);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5425, 0, 16781835)
-     , (5425, 1, 16777295)
-     , (5425, 2, 16781866)
-     , (5425, 3, 16781841)
-     , (5425, 4, 16781838)
-     , (5425, 5, 16777299)
-     , (5425, 6, 16781864)
-     , (5425, 7, 16781840)
-     , (5425, 8, 16781839)
-     , (5425, 9, 16777300)
-     , (5425, 10, 16777301)
-     , (5425, 11, 16777302)
-     , (5425, 12, 16777304)
-     , (5425, 13, 16777303)
-     , (5425, 14, 16777305)
-     , (5425, 15, 16777307)
-     , (5425, 16, 16795654);

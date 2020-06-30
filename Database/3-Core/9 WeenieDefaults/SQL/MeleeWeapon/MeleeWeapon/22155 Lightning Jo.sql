@@ -33,9 +33,7 @@ VALUES (22155,   1,          1) /* ItemType - MeleeWeapon */
      , (22155, 176,         46) /* AppraisalItemSkill */
      , (22155, 177,          3) /* GemCount */
      , (22155, 178,         12) /* GemType */
-     , (22155, 353,          7) /* WeaponType - Staff */
-     , (22155, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22155, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22155, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22155,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (22155,   5,   -0.05) /* ManaRate */
      , (22155,  29,    1.12) /* WeaponDefense */
      , (22155,  39,     0.8) /* DefaultScale */
      , (22155,  62,    1.04) /* WeaponOffense */
-     , (22155,  63,       1) /* DamageMod */
-     , (22155, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (22155,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22155,   1, 'Lightning Jo') /* Name */
@@ -61,25 +58,8 @@ VALUES (22155,   1,   33558079) /* Setup */
      , (22155,   6,   67111919) /* PaletteBase */
      , (22155,   8,  100673624) /* Icon */
      , (22155,  22,  872415275) /* PhysicsEffectTable */
-     , (22155,  52,  100676436) /* IconUnderlay */
-     , (22155, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (22155, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (22155, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (22155, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22155, 8000, 2174500585) /* PCAPRecordedObjectIID */;
+     , (22155,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22155,  1331,      2) 
      , (22155,  1615,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22155, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22155, 0, 83894357, 83894357)
-     , (22155, 0, 83894155, 83894155);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22155, 0, 16788504);

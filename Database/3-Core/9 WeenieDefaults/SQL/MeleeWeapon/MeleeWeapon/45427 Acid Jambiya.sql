@@ -25,9 +25,7 @@ VALUES (45427,   1,          1) /* ItemType - MeleeWeapon */
      , (45427, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (45427, 160,        300) /* WieldDifficulty */
      , (45427, 172,          1) /* AppraisalLongDescDecoration */
-     , (45427, 353,          6) /* WeaponType - Dagger */
-     , (45427, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45427, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (45427, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45427,  22, True ) /* Inscribable */;
@@ -38,8 +36,7 @@ VALUES (45427,  21,       0) /* WeaponLength */
      , (45427,  26,       0) /* MaximumVelocity */
      , (45427,  29,     1.1) /* WeaponDefense */
      , (45427,  62,    1.08) /* WeaponOffense */
-     , (45427,  63,       1) /* DamageMod */
-     , (45427, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (45427,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45427,   1, 'Acid Jambiya') /* Name */
@@ -51,17 +48,8 @@ VALUES (45427,   1,   33555710) /* Setup */
      , (45427,   8,  100668885) /* Icon */
      , (45427,  22,  872415275) /* PhysicsEffectTable */
      , (45427,  50,  100692070) /* IconOverlay */
-     , (45427,  52,  100676437) /* IconUnderlay */
-     , (45427, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (45427, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45427, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45427, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (45427, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
+     , (45427,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45427, 8040, 3460366343, 12.6183, 152.7589, 54.979, -0.385118, -0.385118, -0.5930296, -0.5930296) /* PCAPRecordedLocation */
 /* @teleloc 0xCE410007 [12.618300 152.758900 54.979000] -0.385118 -0.385118 -0.593030 -0.593030 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45427, 8000, 2183167628) /* PCAPRecordedObjectIID */
-     , (45427, 8008, 1342789086) /* PCAPRecordedParentIID */;

@@ -14,8 +14,7 @@ VALUES (8045,   1,    4194304) /* ItemType - CraftCookingBase */
      , (8045,  19,        100) /* Value */
      , (8045,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8045,  94,        134) /* TargetType - Vestements, Misc */
-     , (8045, 151,          9) /* HookType - Floor, Yard */
-     , (8045, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8045, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8045,  69, False) /* IsSellable */;
@@ -31,13 +30,4 @@ VALUES (8045,   1,   33556753) /* Setup */
      , (8045,   3,  536870932) /* SoundTable */
      , (8045,   6,   67111919) /* PaletteBase */
      , (8045,   8,  100670941) /* Icon */
-     , (8045,  22,  872415275) /* PhysicsEffectTable */
-     , (8045, 8001,  271085593) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, HookType */
-     , (8045, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (8045, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8045, 8000, 2917029934) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8045, 67111921, 0, 0);
+     , (8045,  22,  872415275) /* PhysicsEffectTable */;

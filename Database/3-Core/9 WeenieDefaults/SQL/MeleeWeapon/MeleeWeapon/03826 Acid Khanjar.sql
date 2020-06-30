@@ -20,9 +20,7 @@ VALUES (3826,   1,          1) /* ItemType - MeleeWeapon */
      , (3826, 105,          3) /* ItemWorkmanship */
      , (3826, 131,         60) /* MaterialType - Gold */
      , (3826, 151,          2) /* HookType - Wall */
-     , (3826, 353,          6) /* WeaponType - Dagger */
-     , (3826, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3826, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3826, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3826,  22, True ) /* Inscribable */;
@@ -34,8 +32,7 @@ VALUES (3826,  21,       0) /* WeaponLength */
      , (3826,  29,       1) /* WeaponDefense */
      , (3826,  39,    1.25) /* DefaultScale */
      , (3826,  62,   1.074) /* WeaponOffense */
-     , (3826,  63,       1) /* DamageMod */
-     , (3826, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3826,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3826,   1, 'Acid Khanjar') /* Name */
@@ -47,10 +44,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3826,   1,   33555746) /* Setup */
      , (3826,   3,  536870932) /* SoundTable */
      , (3826,   8,  100667597) /* Icon */
-     , (3826,  22,  872415275) /* PhysicsEffectTable */
-     , (3826, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3826, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3826, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3826, 8000, 2153709053) /* PCAPRecordedObjectIID */;
+     , (3826,  22,  872415275) /* PhysicsEffectTable */;

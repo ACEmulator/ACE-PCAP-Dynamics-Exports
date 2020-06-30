@@ -8,8 +8,7 @@ VALUES (1642,   1,       8192) /* ItemType - Writable */
      , (1642,   5,         30) /* EncumbranceVal */
      , (1642,  16,          8) /* ItemUseable - Contained */
      , (1642,  19,          1) /* Value */
-     , (1642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (1642, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (1642,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1642,  22, True ) /* Inscribable */;
@@ -27,13 +26,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1642,   1,   33554826) /* Setup */
      , (1642,   8,  100677028) /* Icon */
      , (1642,  22,  872415275) /* PhysicsEffectTable */
-     , (1642,  28,         92) /* Spell - WhirlingBlade1 */
-     , (1642, 8001,    6307864) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, Spell */
-     , (1642, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (1642, 8005,     135297) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1642, 8000, 3356964886) /* PCAPRecordedObjectIID */;
+     , (1642,  28,         92) /* Spell - WhirlingBlade1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1642,    92,      2) ;

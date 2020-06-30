@@ -8,8 +8,7 @@ VALUES (43003,   1,      65536) /* ItemType - Portal */
      , (43003,  16,         32) /* ItemUseable - Remote */
      , (43003,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
      , (43003, 111,          1) /* PortalBitmask - Unrestricted */
-     , (43003, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (43003, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43003, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43003,   1, True ) /* Stuck */;
@@ -19,20 +18,13 @@ VALUES (43003,  54,    -0.1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43003,   1, 'Danby''s Outpost') /* Name */
-     , (43003,  16, 'This portal goes to Danby''s Outpost, a settlement on the northern edge of the inner sea. This outpost is a good place for characters over level 40.') /* LongDesc */
-     , (43003, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (43003,  16, 'This portal goes to Danby''s Outpost, a settlement on the northern edge of the inner sea. This outpost is a good place for characters over level 40.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43003,   1,   33554867) /* Setup */
      , (43003,   2,  150994947) /* MotionTable */
-     , (43003,   8,  100667499) /* Icon */
-     , (43003, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (43003, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (43003, 8005,      98307) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Position, Movement */;
+     , (43003,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43003, 8040, 459114, 86.419, -160.001, -0.06299996, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016A [86.419000 -160.001000 -0.063000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43003, 8000, 1879076995) /* PCAPRecordedObjectIID */;

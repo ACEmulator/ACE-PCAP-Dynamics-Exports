@@ -21,8 +21,7 @@ VALUES (46553,   1,          2) /* ItemType - Armor */
      , (46553, 158,          7) /* WieldRequirements - Level */
      , (46553, 159,          1) /* WieldSkillType - Axe */
      , (46553, 160,        180) /* WieldDifficulty */
-     , (46553, 265,         14) /* EquipmentSetId - Adepts */
-     , (46553, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46553, 265,         14) /* EquipmentSetId - Adepts */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46553,  22, True ) /* Inscribable */
@@ -47,13 +46,7 @@ VALUES (46553,   1,   33554654) /* Setup */
      , (46553,   3,  536870932) /* SoundTable */
      , (46553,   6,   67108990) /* PaletteBase */
      , (46553,   8,  100676025) /* Icon */
-     , (46553,  22,  872415275) /* PhysicsEffectTable */
-     , (46553, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (46553, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46553, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46553, 8000, 2345789235) /* PCAPRecordedObjectIID */;
+     , (46553,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46553,  4391,      2) 
@@ -65,13 +58,3 @@ VALUES (46553,  4391,      2)
      , (46553,  4409,      2) 
      , (46553,  4412,      2) 
      , (46553,  4700,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46553, 67110021, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46553, 0, 83889344, 83895201)
-     , (46553, 0, 83887066, 83895202);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46553, 0, 16778416);

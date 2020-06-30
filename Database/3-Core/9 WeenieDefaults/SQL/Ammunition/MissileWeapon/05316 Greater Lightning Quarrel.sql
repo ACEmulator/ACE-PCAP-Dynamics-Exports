@@ -21,9 +21,7 @@ VALUES (5316,   1,        256) /* ItemType - MissileWeapon */
      , (5316,  50,          2) /* AmmoType - Bolt */
      , (5316,  51,          3) /* CombatUse - Ammo */
      , (5316,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (5316, 151,          2) /* HookType - Wall */
-     , (5316, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (5316, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5316, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5316,  69, False) /* IsSellable */;
@@ -47,20 +45,8 @@ VALUES (5316,   1,   33555695) /* Setup */
      , (5316,   3,  536870932) /* SoundTable */
      , (5316,   6,   67111919) /* PaletteBase */
      , (5316,   8,  100670250) /* Icon */
-     , (5316,  22,  872415275) /* PhysicsEffectTable */
-     , (5316, 8001,  270611352) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, ValidLocations, Burden, HookType */
-     , (5316, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5316, 8005,     170881) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */;
+     , (5316,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5316, 8040, 3332964379, 83.91006, 66.67138, 42.11, 0.4344043, 0, 0, -0.900718) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.910060 66.671380 42.110000] 0.434404 0.000000 0.000000 -0.900718 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5316, 8000, 2243216256) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5316, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5316, 0, 16777895);

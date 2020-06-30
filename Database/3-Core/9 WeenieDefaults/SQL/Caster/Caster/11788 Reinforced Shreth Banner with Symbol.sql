@@ -17,8 +17,7 @@ VALUES (11788,   1,      32768) /* ItemType - Caster */
      , (11788, 107,          0) /* ItemCurMana */
      , (11788, 108,        800) /* ItemMaxMana */
      , (11788, 109,         90) /* ItemDifficulty */
-     , (11788, 114,          1) /* Attuned - Attuned */
-     , (11788, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11788, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11788,  22, True ) /* Inscribable */
@@ -39,21 +38,8 @@ VALUES (11788,   1, 'Reinforced Shreth Banner with Symbol') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11788,   1,   33557261) /* Setup */
      , (11788,   8,  100671941) /* Icon */
-     , (11788,  22,  872415275) /* PhysicsEffectTable */
-     , (11788, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
-     , (11788, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11788, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11788, 8000, 2917028180) /* PCAPRecordedObjectIID */;
+     , (11788,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11788,   657,      2) 
      , (11788,  2004,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11788, 0, 83893729, 83893728)
-     , (11788, 0, 83893717, 83893722);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11788, 0, 16787143);

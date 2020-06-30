@@ -17,8 +17,7 @@ VALUES (1391,   1,         16) /* ItemType - Creature */
      , (1391, 113,          1) /* Gender - Male */
      , (1391, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1391, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1391, 188,          2) /* HeritageGroup - Gharundim */
-     , (1391, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1391, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1391,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1391,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1391,   1, 'Peddler') /* Name */
-     , (1391,   5, 'Peddler') /* Template */
-     , (1391, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1391,   5, 'Peddler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1391,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1391,   1,   33554433) /* Setup */
      , (1391,  11,   83890616) /* MouthTexture */
      , (1391,  15,   67117002) /* HairPalette */
      , (1391,  16,   67109567) /* EyesPalette */
-     , (1391,  17,   67109557) /* SkinPalette */
-     , (1391, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1391, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1391, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1391,  17,   67109557) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1391, 8040, 3063611413, 65.3067, 102.714, 54.005, 0.2838721, 0, 0, -0.9588621) /* PCAPRecordedLocation */
 /* @teleloc 0xB69B0015 [65.306700 102.714000 54.005000] 0.283872 0.000000 0.000000 -0.958862 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1391, 8000, 2070523904) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1391,   1,  90, 0, 0) /* Strength */
@@ -105,55 +97,3 @@ VALUES (1391, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop 
      , (1391, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1391, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1391, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1391, 67109557, 0, 24)
-     , (1391, 67109567, 32, 8)
-     , (1391, 67109969, 92, 4)
-     , (1391, 67110026, 72, 8)
-     , (1391, 67110365, 160, 8)
-     , (1391, 67111245, 64, 8)
-     , (1391, 67111245, 40, 24)
-     , (1391, 67111245, 216, 24)
-     , (1391, 67117002, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1391, 0, 83889072, 83890012)
-     , (1391, 0, 83889342, 83890011)
-     , (1391, 1, 83887064, 83886241)
-     , (1391, 2, 83887066, 83887051)
-     , (1391, 3, 83889344, 83887054)
-     , (1391, 4, 83887068, 83887054)
-     , (1391, 5, 83887064, 83886241)
-     , (1391, 6, 83887066, 83887051)
-     , (1391, 7, 83889344, 83887054)
-     , (1391, 8, 83887068, 83887054)
-     , (1391, 9, 83887061, 83890009)
-     , (1391, 9, 83887060, 83890010)
-     , (1391, 10, 83887069, 83886782)
-     , (1391, 11, 83887067, 83891213)
-     , (1391, 13, 83887069, 83886782)
-     , (1391, 14, 83887067, 83891213)
-     , (1391, 16, 83886232, 83890685)
-     , (1391, 16, 83886668, 83890485)
-     , (1391, 16, 83886837, 83890547)
-     , (1391, 16, 83886684, 83890616);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1391, 0, 16781835)
-     , (1391, 1, 16777295)
-     , (1391, 2, 16781866)
-     , (1391, 3, 16781841)
-     , (1391, 4, 16781838)
-     , (1391, 5, 16777299)
-     , (1391, 6, 16781864)
-     , (1391, 7, 16781840)
-     , (1391, 8, 16781839)
-     , (1391, 9, 16777300)
-     , (1391, 10, 16777301)
-     , (1391, 11, 16777302)
-     , (1391, 12, 16777304)
-     , (1391, 13, 16777303)
-     , (1391, 14, 16777305)
-     , (1391, 15, 16777307)
-     , (1391, 16, 16795675);

@@ -33,9 +33,7 @@ VALUES (30585,   1,          1) /* ItemType - MeleeWeapon */
      , (30585, 176,         44) /* AppraisalItemSkill */
      , (30585, 177,          2) /* GemCount */
      , (30585, 178,         39) /* GemType */
-     , (30585, 353,          4) /* WeaponType - Mace */
-     , (30585, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30585, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30585, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30585,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (30585,   5,  -0.056) /* ManaRate */
      , (30585,  26,       0) /* MaximumVelocity */
      , (30585,  29,    1.15) /* WeaponDefense */
      , (30585,  62,     1.1) /* WeaponOffense */
-     , (30585,  63,       1) /* DamageMod */
-     , (30585, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (30585,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30585,   1, 'Acid Mazule') /* Name */
@@ -59,13 +56,7 @@ VALUES (30585,   1,   33559472) /* Setup */
      , (30585,   3,  536870932) /* SoundTable */
      , (30585,   6,   67115559) /* PaletteBase */
      , (30585,   8,  100686973) /* Icon */
-     , (30585,  22,  872415275) /* PhysicsEffectTable */
-     , (30585, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30585, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30585, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30585, 8000, 3680954254) /* PCAPRecordedObjectIID */;
+     , (30585,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30585,  1378,      2) 
@@ -73,12 +64,3 @@ VALUES (30585,  1378,      2)
      , (30585,  2537,      2) 
      , (30585,  2562,      2) 
      , (30585,  6127,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30585, 67116406, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30585, 0, 83896666, 83896666);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30585, 0, 16792135);

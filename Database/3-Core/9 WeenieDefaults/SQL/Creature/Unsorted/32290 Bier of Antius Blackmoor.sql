@@ -33,8 +33,7 @@ VALUES (32290,   1,         16) /* ItemType - Creature */
      , (32290, 386,          0) /* Overpower */
      , (32290, 387,          0) /* OverpowerResist */
      , (32290, 388,          0) /* GearOverpower */
-     , (32290, 389,          0) /* GearOverpowerResist */
-     , (32290, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32290, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32290,   1, True ) /* Stuck */
@@ -46,22 +45,15 @@ VALUES (32290,  54,      20) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32290,   1, 'Bier of Antius Blackmoor') /* Name */
      , (32290,  14, 'You may pay your last respects, if you wish') /* Use */
-     , (32290,  15, 'The body of Antius Blackmoor is here, laying in state. ') /* ShortDesc */
-     , (32290, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (32290,  15, 'The body of Antius Blackmoor is here, laying in state. ') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32290,   1,   33554638) /* Setup */
      , (32290,   2,  150994980) /* MotionTable */
      , (32290,   3,  536870932) /* SoundTable */
      , (32290,   8,  100668103) /* Icon */
-     , (32290,  22,  872415275) /* PhysicsEffectTable */
-     , (32290, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (32290, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (32290, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (32290,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32290, 8040, 3027173639, 74, 180, 36.8, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xB46F0107 [74.000000 180.000000 36.800000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32290, 8000, 3685062892) /* PCAPRecordedObjectIID */;

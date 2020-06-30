@@ -15,8 +15,7 @@ VALUES (9418,   1,         16) /* ItemType - Creature */
      , (9418,  76,     100000) /* MerchandiseMaxValue */
      , (9418,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9418, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9418, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9418, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9418, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9418,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (9418,  37,     0.8) /* BuyPrice */
      , (9418,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9418,   1, 'Lubrik the Resupplier') /* Name */
-     , (9418, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (9418,   1, 'Lubrik the Resupplier') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9418,   1,   33557003) /* Setup */
      , (9418,   2,  150994950) /* MotionTable */
      , (9418,   3,  536870922) /* SoundTable */
      , (9418,   6,   67113158) /* PaletteBase */
-     , (9418,   8,  100667447) /* Icon */
-     , (9418, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9418, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9418, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9418,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9418, 8040, 2719875478, 125.53, 125.248, 564.01, -0.4201861, 0, 0, -0.9074379) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E0196 [125.530000 125.248000 564.010000] -0.420186 0.000000 0.000000 -0.907438 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9418, 8000, 2049040387) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9418,   1, 280, 0, 0) /* Strength */
@@ -115,28 +107,3 @@ VALUES (9418, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (9418, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (9418, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (9418, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9418, 67113169, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9418, 0, 83893224, 83893223)
-     , (9418, 0, 83893231, 83893230)
-     , (9418, 2, 83893218, 83893217)
-     , (9418, 5, 83893218, 83893217)
-     , (9418, 7, 83893227, 83893213)
-     , (9418, 7, 83893214, 83893213)
-     , (9418, 9, 83893218, 83893217)
-     , (9418, 12, 83893218, 83893217)
-     , (9418, 19, 83893240, 83893238)
-     , (9418, 20, 83893240, 83893238);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9418, 0, 16785699)
-     , (9418, 2, 16785662)
-     , (9418, 5, 16785662)
-     , (9418, 7, 16785659)
-     , (9418, 9, 16785701)
-     , (9418, 12, 16785701)
-     , (9418, 19, 16785704)
-     , (9418, 20, 16785705);

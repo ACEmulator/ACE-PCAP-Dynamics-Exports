@@ -11,8 +11,7 @@ VALUES (7981,   1,         16) /* ItemType - Creature */
      , (7981,  16,          1) /* ItemUseable - No */
      , (7981,  25,        100) /* Level */
      , (7981,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7981, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7981, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7981, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7981,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (7981,  39,     1.4) /* DefaultScale */
      , (7981,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7981,   1, 'Harrower Grievver') /* Name */
-     , (7981, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7981,   1, 'Harrower Grievver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7981,   1,   33556698) /* Setup */
@@ -32,17 +30,11 @@ VALUES (7981,   1,   33556698) /* Setup */
      , (7981,   6,   67112927) /* PaletteBase */
      , (7981,   8,  100670960) /* Icon */
      , (7981,  22,  872415364) /* PhysicsEffectTable */
-     , (7981,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (7981, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7981, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7981, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (7981,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7981, 8040, 1709637649, 48.41687, 7.142816, 46.75707, 0.8660254, 0, 0, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x65E70011 [48.416870 7.142816 46.757070] 0.866025 0.000000 0.000000 -0.500000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7981, 8000, 3688128803) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7981,   1, 210, 0, 0) /* Strength */
@@ -94,6 +86,3 @@ VALUES (7981, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for Cont
      , (7981, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
      , (7981, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (7981, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7981, 67112938, 0, 0);

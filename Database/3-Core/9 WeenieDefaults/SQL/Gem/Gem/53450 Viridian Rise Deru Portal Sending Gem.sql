@@ -22,8 +22,7 @@ VALUES (53450,   1,       2048) /* ItemType - Gem */
      , (53450, 109,         40) /* ItemDifficulty */
      , (53450, 110,          0) /* ItemAllegianceRankLimit */
      , (53450, 114,          0) /* Attuned - Normal */
-     , (53450, 151,          2) /* HookType - Wall */
-     , (53450, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53450, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (53450,  76,     0.5) /* Translucency */;
@@ -39,22 +38,7 @@ VALUES (53450,   1,   33556769) /* Setup */
      , (53450,   6,   67111919) /* PaletteBase */
      , (53450,   8,  100693361) /* Icon */
      , (53450,  22,  872415275) /* PhysicsEffectTable */
-     , (53450,  28,       6322) /* Spell - ViridianRiseGreatTreeRecall */
-     , (53450, 8001,  275280016) /* PCAPRecordedWeenieHeader - Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType */
-     , (53450, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (53450, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53450, 8000, 2932473652) /* PCAPRecordedObjectIID */;
+     , (53450,  28,       6322) /* Spell - ViridianRiseGreatTreeRecall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53450,  6322,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53450, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (53450, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (53450, 0, 16779181);

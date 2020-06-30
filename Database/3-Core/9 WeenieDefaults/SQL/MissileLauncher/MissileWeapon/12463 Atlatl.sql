@@ -33,9 +33,7 @@ VALUES (12463,   1,        256) /* ItemType - MissileWeapon */
      , (12463, 176,         47) /* AppraisalItemSkill */
      , (12463, 177,          1) /* GemCount */
      , (12463, 178,         26) /* GemType */
-     , (12463, 353,         10) /* WeaponType - Thrown */
-     , (12463, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (12463, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (12463, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12463,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (12463,   5,   -0.05) /* ManaRate */
      , (12463,  26,    24.9) /* MaximumVelocity */
      , (12463,  29,    1.08) /* WeaponDefense */
      , (12463,  62,       1) /* WeaponOffense */
-     , (12463,  63,    2.47) /* DamageMod */
-     , (12463, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (12463,  63,    2.47) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12463,   1, 'Atlatl') /* Name */
@@ -59,13 +56,7 @@ VALUES (12463,   1,   33557433) /* Setup */
      , (12463,   3,  536870932) /* SoundTable */
      , (12463,   6,   67111919) /* PaletteBase */
      , (12463,   8,  100672414) /* Icon */
-     , (12463,  22,  872415275) /* PhysicsEffectTable */
-     , (12463, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (12463, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (12463, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12463, 8000, 3685202442) /* PCAPRecordedObjectIID */;
+     , (12463,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12463,  1604,      2) 
@@ -74,14 +65,3 @@ VALUES (12463,  1604,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12463, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (12463, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (12463, 0, 83889233, 83889233)
-     , (12463, 0, 83888778, 83888778)
-     , (12463, 0, 83886709, 83886709);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (12463, 0, 16787488);

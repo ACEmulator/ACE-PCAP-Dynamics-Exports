@@ -13,14 +13,10 @@ VALUES (40722,   1,          1) /* ItemType - MeleeWeapon */
      , (40722,  51,          1) /* CombatUse - Melee */
      , (40722,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40722, 131,         60) /* MaterialType - Gold */
-     , (40722, 151,          2) /* HookType - Wall */
-     , (40722, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40722, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40722,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (40722, 8004,       7) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40722,   1, 'Flaming Jambiya') /* Name */;
@@ -29,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40722,   1,   33555717) /* Setup */
      , (40722,   3,  536870932) /* SoundTable */
      , (40722,   8,  100667592) /* Icon */
-     , (40722,  22,  872415275) /* PhysicsEffectTable */
-     , (40722, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40722, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40722, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40722, 8000, 2624395196) /* PCAPRecordedObjectIID */;
+     , (40722,  22,  872415275) /* PhysicsEffectTable */;

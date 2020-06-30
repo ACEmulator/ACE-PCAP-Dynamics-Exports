@@ -13,8 +13,7 @@ VALUES (9233,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (9233,  18,          1) /* UiEffects - Magical */
      , (9233,  19,        250) /* Value */
      , (9233,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (9233,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (9233, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (9233,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9233,   1, 'Bloodletter Arrowhead') /* Name */;
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9233,   1,   33556985) /* Setup */
      , (9233,   3,  536870932) /* SoundTable */
      , (9233,   8,  100671399) /* Icon */
-     , (9233,  22,  872415275) /* PhysicsEffectTable */
-     , (9233, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
-     , (9233, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (9233, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9233, 8000, 2981037288) /* PCAPRecordedObjectIID */;
+     , (9233,  22,  872415275) /* PhysicsEffectTable */;

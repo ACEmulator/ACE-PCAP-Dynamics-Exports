@@ -34,8 +34,7 @@ VALUES (40809,   1,         16) /* ItemType - Creature */
      , (40809, 386,          0) /* Overpower */
      , (40809, 387,          0) /* OverpowerResist */
      , (40809, 388,          0) /* GearOverpower */
-     , (40809, 389,          0) /* GearOverpowerResist */
-     , (40809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40809, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40809,   1, True ) /* Stuck */
@@ -46,27 +45,14 @@ VALUES (40809,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40809,   1, 'Apostate Aetherium Deposit') /* Name */
-     , (40809,  15, 'This is a concentrated mass of Aetherium, gathered by the Apostate Virindi and their servants.') /* ShortDesc */
-     , (40809, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (40809,  15, 'This is a concentrated mass of Aetherium, gathered by the Apostate Virindi and their servants.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40809,   1,   33557378) /* Setup */
      , (40809,   2,  150995261) /* MotionTable */
      , (40809,   3,  536870933) /* SoundTable */
-     , (40809,   8,  100672196) /* Icon */
-     , (40809, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (40809, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (40809, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (40809,   8,  100672196) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40809, 8040, 2130837767, 40, -20, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x7F020107 [40.000000 -20.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40809, 8000, 3703997017) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40809, 0, 83893820, 83893818);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40809, 0, 16787400);

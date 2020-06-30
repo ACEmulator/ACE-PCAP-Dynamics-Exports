@@ -27,8 +27,7 @@ VALUES (37083,   1,          1) /* ItemType - MeleeWeapon */
      , (37083, 158,          2) /* WieldRequirements - RawSkill */
      , (37083, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (37083, 160,        370) /* WieldDifficulty */
-     , (37083, 353,          2) /* WeaponType - Sword */
-     , (37083, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (37083, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37083,  22, True ) /* Inscribable */
@@ -53,19 +52,11 @@ VALUES (37083,   1,   33560404) /* Setup */
      , (37083,   3,  536870932) /* SoundTable */
      , (37083,   8,  100689687) /* Icon */
      , (37083,  22,  872415275) /* PhysicsEffectTable */
-     , (37083,  55,       4087) /* ProcSpell - ImperilOther7Proc */
-     , (37083, 8001,  270762640) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (37083, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37083, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (37083, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (37083,  55,       4087) /* ProcSpell - ImperilOther7Proc */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37083, 8040, 2847146026, 131.5975, 38.90211, 93.92901, 0.3327158, 0.3327158, -0.6239393, -0.6239393) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4002A [131.597500 38.902110 93.929010] 0.332716 0.332716 -0.623939 -0.623939 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37083, 8000, 2878130785) /* PCAPRecordedObjectIID */
-     , (37083, 8008, 1343234599) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37083,  2096,      2) 

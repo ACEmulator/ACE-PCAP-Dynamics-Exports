@@ -34,8 +34,7 @@ VALUES (35325,   1,         16) /* ItemType - Creature */
      , (35325, 386,          0) /* Overpower */
      , (35325, 387,          0) /* OverpowerResist */
      , (35325, 388,          0) /* GearOverpower */
-     , (35325, 389,          0) /* GearOverpowerResist */
-     , (35325, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35325, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35325,   1, True ) /* Stuck */
@@ -47,22 +46,15 @@ VALUES (35325,  39,     0.6) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35325,   1, 'Arena Five Statue') /* Name */
-     , (35325,  16, 'Arena Five is currently in use.') /* LongDesc */
-     , (35325, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (35325,  16, 'Arena Five is currently in use.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35325,   1,   33560287) /* Setup */
      , (35325,   2,  150995147) /* MotionTable */
      , (35325,   3,  536871052) /* SoundTable */
      , (35325,   8,  100688311) /* Icon */
-     , (35325,  22,  872415274) /* PhysicsEffectTable */
-     , (35325, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (35325, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (35325, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (35325,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35325, 8040, 11469079, 42, 4.4, 0, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0117 [42.000000 4.400000 0.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35325, 8000, 3703360531) /* PCAPRecordedObjectIID */;

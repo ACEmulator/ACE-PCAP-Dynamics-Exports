@@ -26,9 +26,7 @@ VALUES (3750,   1,          1) /* ItemType - MeleeWeapon */
      , (3750, 172,          5) /* AppraisalLongDescDecoration */
      , (3750, 177,          1) /* GemCount */
      , (3750, 178,         36) /* GemType */
-     , (3750, 353,          3) /* WeaponType - Axe */
-     , (3750, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3750, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3750, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3750,  22, True ) /* Inscribable */;
@@ -41,8 +39,7 @@ VALUES (3750,  21,       0) /* WeaponLength */
      , (3750,  62,    1.11) /* WeaponOffense */
      , (3750,  63,       1) /* DamageMod */
      , (3750,  77,       1) /* PhysicsScriptIntensity */
-     , (3750, 149,    1.02) /* WeaponMissileDefense */
-     , (3750, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3750, 149,    1.02) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3750,   1, 'Acid Battle Axe') /* Name */
@@ -53,10 +50,4 @@ VALUES (3750,   1,   33555687) /* Setup */
      , (3750,   3,  536870932) /* SoundTable */
      , (3750,   8,  100668986) /* Icon */
      , (3750,  22,  872415275) /* PhysicsEffectTable */
-     , (3750,  30,         88) /* PhysicsScript - Create */
-     , (3750, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3750, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3750, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3750, 8000, 3469525126) /* PCAPRecordedObjectIID */;
+     , (3750,  30,         88) /* PhysicsScript - Create */;

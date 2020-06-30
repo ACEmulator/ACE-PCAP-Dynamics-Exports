@@ -18,8 +18,7 @@ VALUES (38044,   1,          2) /* ItemType - Armor */
      , (38044, 108,        320) /* ItemMaxMana */
      , (38044, 109,         45) /* ItemDifficulty */
      , (38044, 114,          1) /* Attuned - Attuned */
-     , (38044, 151,          2) /* HookType - Wall */
-     , (38044, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38044, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38044,  22, True ) /* Inscribable */
@@ -46,29 +45,9 @@ VALUES (38044,   1,   33554854) /* Setup */
      , (38044,   3,  536870932) /* SoundTable */
      , (38044,   6,   67108990) /* PaletteBase */
      , (38044,   8,  100671319) /* Icon */
-     , (38044,  22,  872415275) /* PhysicsEffectTable */
-     , (38044, 8001,  270876696) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, HookType */
-     , (38044, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (38044, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38044, 8000, 3009732605) /* PCAPRecordedObjectIID */;
+     , (38044,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38044,   511,      2) 
      , (38044,  1357,      2) 
      , (38044,  1483,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38044, 67109975, 80, 12)
-     , (38044, 67109975, 174, 66)
-     , (38044, 67110348, 92, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38044, 0, 83887061, 83889766)
-     , (38044, 0, 83887060, 83886776)
-     , (38044, 0, 83889072, 83889765)
-     , (38044, 0, 83889342, 83889765);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38044, 0, 16778367);

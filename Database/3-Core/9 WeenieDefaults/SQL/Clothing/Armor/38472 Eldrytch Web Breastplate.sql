@@ -29,8 +29,7 @@ VALUES (38472,   1,          2) /* ItemType - Armor */
      , (38472, 177,          4) /* GemCount */
      , (38472, 178,         49) /* GemType */
      , (38472, 265,         30) /* EquipmentSetId - SocietyArmor */
-     , (38472, 374,          1) /* GearCritDamage */
-     , (38472, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38472, 374,          1) /* GearCritDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38472,  22, True ) /* Inscribable */
@@ -45,8 +44,7 @@ VALUES (38472,   5,  -0.067) /* ManaRate */
      , (38472,  17,   1.285) /* ArmorModVsFire */
      , (38472,  18,   0.891) /* ArmorModVsAcid */
      , (38472,  19,   0.753) /* ArmorModVsElectric */
-     , (38472, 165,       1) /* ArmorModVsNether */
-     , (38472, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (38472, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38472,   1, 'Eldrytch Web Breastplate') /* Name */
@@ -56,23 +54,14 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38472,   1,   33554642) /* Setup */
      , (38472,   3,  536870932) /* SoundTable */
      , (38472,   8,  100690245) /* Icon */
-     , (38472,  22,  872415275) /* PhysicsEffectTable */
-     , (38472, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (38472, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (38472, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (38472,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38472, 8040, 2847146009, 92.15648, 14.13029, 93.995, 0.550114, 0, 0, -0.8350896) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40019 [92.156480 14.130290 93.995000] 0.550114 0.000000 0.000000 -0.835090 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38472, 8000, 2167108010) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38472,  2108,      2) 
      , (38472,  4409,      2) 
      , (38472,  4496,      2) 
      , (38472,  6081,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38472, 0, 16794160);

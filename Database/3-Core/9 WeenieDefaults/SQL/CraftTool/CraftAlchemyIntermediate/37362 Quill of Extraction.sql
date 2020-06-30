@@ -13,8 +13,7 @@ VALUES (37362,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (37362,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (37362,  19,      30000) /* Value */
      , (37362,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37362,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (37362, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37362,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37362,   1, 'Quill of Extraction') /* Name */
@@ -22,10 +21,4 @@ VALUES (37362,   1, 'Quill of Extraction') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37362,   1,   33559616) /* Setup */
-     , (37362,   8,  100690199) /* Icon */
-     , (37362, 8001,    2650137) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (37362, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37362, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37362, 8000, 2461826768) /* PCAPRecordedObjectIID */;
+     , (37362,   8,  100690199) /* Icon */;

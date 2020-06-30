@@ -14,8 +14,7 @@ VALUES (38745,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (38745,  18,          1) /* UiEffects - Magical */
      , (38745,  19,      50000) /* Value */
      , (38745,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38745,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */
-     , (38745, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38745,  94,    4201088) /* TargetType - LockableMagicTarget, Gem, SpellComponents, CraftCookingBase */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38745,   1, 'Benevolent Quill of Conveyance') /* Name */
@@ -24,11 +23,4 @@ VALUES (38745,   1, 'Benevolent Quill of Conveyance') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38745,   1,   33559616) /* Setup */
      , (38745,   8,  100690198) /* Icon */
-     , (38745,  52,  100676437) /* IconUnderlay */
-     , (38745, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (38745, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (38745, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (38745, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38745, 8000, 2158698211) /* PCAPRecordedObjectIID */;
+     , (38745,  52,  100676437) /* IconUnderlay */;

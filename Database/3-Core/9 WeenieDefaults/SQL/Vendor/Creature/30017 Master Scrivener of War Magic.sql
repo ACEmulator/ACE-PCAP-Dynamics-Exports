@@ -17,8 +17,7 @@ VALUES (30017,   1,         16) /* ItemType - Creature */
      , (30017, 113,          1) /* Gender - Male */
      , (30017, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30017, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30017, 188,          2) /* HeritageGroup - Gharundim */
-     , (30017, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30017, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30017,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30017,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30017,   1, 'Master Scrivener of War Magic') /* Name */
-     , (30017,   5, 'Master Archmage') /* Template */
-     , (30017, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30017,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30017,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30017,   1,   33554433) /* Setup */
      , (30017,  11,   83890621) /* MouthTexture */
      , (30017,  15,   67116996) /* HairPalette */
      , (30017,  16,   67110063) /* EyesPalette */
-     , (30017,  17,   67109557) /* SkinPalette */
-     , (30017, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30017, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30017, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30017,  17,   67109557) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30017, 8040, 601489685, 89.414, 108.992, 2.085, -0.00425914, 0, 0, -0.9999909) /* PCAPRecordedLocation */
 /* @teleloc 0x23DA0115 [89.414000 108.992000 2.085000] -0.004259 0.000000 0.000000 -0.999991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30017, 8000, 1916641302) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30017,   1,  90, 0, 0) /* Strength */
@@ -108,40 +100,3 @@ VALUES (30017, 4, 15271, -1, 0, 0, False) /* Create Foci of Strife (15271) for S
      , (30017, 4, 21334, -1, 0, 0, False) /* Create Scroll of Shock Arc V (21334) for Shop */
      , (30017, 4,  2971, -1, 0, 0, False) /* Create Scroll of Whirling Blade V (2971) for Shop */
      , (30017, 4,  8957, -1, 0, 0, False) /* Create Scroll of Whirling Blade Streak V (8957) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30017, 67109557, 0, 24)
-     , (30017, 67110063, 32, 8)
-     , (30017, 67116015, 207, 33)
-     , (30017, 67116026, 174, 33)
-     , (30017, 67116996, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30017, 0, 83897013, 83897013)
-     , (30017, 9, 83897018, 83897018)
-     , (30017, 9, 83897019, 83897019)
-     , (30017, 11, 83892346, 83897016)
-     , (30017, 14, 83892346, 83897016)
-     , (30017, 16, 83886232, 83890685)
-     , (30017, 16, 83886668, 83890454)
-     , (30017, 16, 83886837, 83890544)
-     , (30017, 16, 83886684, 83890621);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30017, 0, 16791895)
-     , (30017, 1, 16791896)
-     , (30017, 2, 16791897)
-     , (30017, 3, 16777708)
-     , (30017, 4, 16777708)
-     , (30017, 5, 16791898)
-     , (30017, 6, 16791899)
-     , (30017, 7, 16777708)
-     , (30017, 8, 16777708)
-     , (30017, 9, 16791900)
-     , (30017, 10, 16791901)
-     , (30017, 11, 16783853)
-     , (30017, 12, 16777304)
-     , (30017, 13, 16791903)
-     , (30017, 14, 16783855)
-     , (30017, 15, 16777307)
-     , (30017, 16, 16791907);

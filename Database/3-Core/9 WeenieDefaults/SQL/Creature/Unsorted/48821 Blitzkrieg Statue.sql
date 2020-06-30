@@ -32,8 +32,7 @@ VALUES (48821,   1,         16) /* ItemType - Creature */
      , (48821, 386,          0) /* Overpower */
      , (48821, 387,          0) /* OverpowerResist */
      , (48821, 388,          0) /* GearOverpower */
-     , (48821, 389,          0) /* GearOverpowerResist */
-     , (48821, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (48821, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48821,   1, True ) /* Stuck */
@@ -43,21 +42,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (48821,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (48821,   1, 'Blitzkrieg Statue') /* Name */
-     , (48821, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (48821,   1, 'Blitzkrieg Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48821,   1,   33561259) /* Setup */
      , (48821,   2,  150994945) /* MotionTable */
      , (48821,   3,  536870913) /* SoundTable */
-     , (48821,   8,  100667446) /* Icon */
-     , (48821, 8001,         54) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius */
-     , (48821, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (48821, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (48821,   8,  100667446) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48821, 8040, 1482883600, 190, -80, 0.004999995, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x58630210 [190.000000 -80.000000 0.005000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48821, 8000, 2629331437) /* PCAPRecordedObjectIID */;

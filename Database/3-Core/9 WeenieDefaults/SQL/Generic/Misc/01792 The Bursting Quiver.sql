@@ -19,20 +19,8 @@ VALUES (1792,   1, 'The Bursting Quiver') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1792,   1,   33555909) /* Setup */
-     , (1792,   8,  100668115) /* Icon */
-     , (1792, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (1792, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1792, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (1792,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1792, 8040, 2255290384, 47.763, 182.172, 3.17, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x866D0010 [47.763000 182.172000 3.170000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1792, 8000, 2020003841) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1792, 0, 83892071, 83892188);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1792, 0, 16783205);

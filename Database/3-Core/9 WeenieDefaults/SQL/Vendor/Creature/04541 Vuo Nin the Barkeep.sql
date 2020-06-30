@@ -17,8 +17,7 @@ VALUES (4541,   1,         16) /* ItemType - Creature */
      , (4541, 113,          1) /* Gender - Male */
      , (4541, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4541, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4541, 188,          3) /* HeritageGroup - Sho */
-     , (4541, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4541, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4541,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4541,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4541,   1, 'Vuo Nin the Barkeep') /* Name */
-     , (4541,   5, 'Barkeeper') /* Template */
-     , (4541, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4541,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4541,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4541,   1,   33554433) /* Setup */
      , (4541,  11,   83890566) /* MouthTexture */
      , (4541,  15,   67117072) /* HairPalette */
      , (4541,  16,   67109565) /* EyesPalette */
-     , (4541,  17,   67110053) /* SkinPalette */
-     , (4541, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4541, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4541, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4541,  17,   67110053) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4541, 8040, 3661300019, 64.5547, 55.1818, 26.005, 0.9938081, 0, 0, -0.1111105) /* PCAPRecordedLocation */
 /* @teleloc 0xDA3B0133 [64.554700 55.181800 26.005000] 0.993808 0.000000 0.000000 -0.111111 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4541, 8000, 2107879436) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4541,   1,  80, 0, 0) /* Strength */
@@ -100,53 +92,3 @@ VALUES (4541, 4,  2451, -1, 0, 0, False) /* Create Ale (2451) for Shop */
      , (4541, 4, 27996, -1, 0, 0, False) /* Create The Old Keep (27996) for Shop */
      , (4541, 4, 27997, -1, 0, 0, False) /* Create The Abandoned Training Camp (27997) for Shop */
      , (4541, 4, 27998, -1, 0, 0, False) /* Create The Dead Cave (27998) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4541, 67109565, 32, 8)
-     , (4541, 67110003, 72, 8)
-     , (4541, 67110053, 0, 24)
-     , (4541, 67110318, 216, 24)
-     , (4541, 67110349, 40, 24)
-     , (4541, 67110356, 64, 8)
-     , (4541, 67110551, 92, 4)
-     , (4541, 67111304, 160, 8)
-     , (4541, 67117072, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4541, 0, 83889072, 83890012)
-     , (4541, 0, 83889342, 83890011)
-     , (4541, 1, 83887064, 83886241)
-     , (4541, 2, 83887066, 83887051)
-     , (4541, 3, 83889344, 83887054)
-     , (4541, 4, 83887068, 83887054)
-     , (4541, 5, 83887064, 83886241)
-     , (4541, 6, 83887066, 83887051)
-     , (4541, 7, 83889344, 83887054)
-     , (4541, 8, 83887068, 83887054)
-     , (4541, 9, 83887061, 83890009)
-     , (4541, 9, 83887060, 83890010)
-     , (4541, 10, 83887069, 83886782)
-     , (4541, 13, 83887069, 83886782)
-     , (4541, 16, 83886232, 83890685)
-     , (4541, 16, 83886668, 83890478)
-     , (4541, 16, 83886837, 83890518)
-     , (4541, 16, 83886684, 83890566);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4541, 0, 16781835)
-     , (4541, 1, 16777295)
-     , (4541, 2, 16777293)
-     , (4541, 3, 16777292)
-     , (4541, 4, 16777291)
-     , (4541, 5, 16777299)
-     , (4541, 6, 16777297)
-     , (4541, 7, 16777296)
-     , (4541, 8, 16777298)
-     , (4541, 9, 16777300)
-     , (4541, 10, 16777301)
-     , (4541, 11, 16777302)
-     , (4541, 12, 16777304)
-     , (4541, 13, 16777303)
-     , (4541, 14, 16777305)
-     , (4541, 15, 16777307)
-     , (4541, 16, 16795662);

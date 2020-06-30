@@ -26,8 +26,7 @@ VALUES (6383,   1,        256) /* ItemType - MissileWeapon */
      , (6383, 313,          0) /* CritRating */
      , (6383, 314,          0) /* CritDamageRating */
      , (6383, 353,         10) /* WeaponType - Thrown */
-     , (6383, 386,          0) /* Overpower */
-     , (6383, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (6383, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (6383,  21,       0) /* WeaponLength */
@@ -50,16 +49,8 @@ VALUES (6383,   1,   33555469) /* Setup */
      , (6383,   3,  536870968) /* SoundTable */
      , (6383,   8,  100667590) /* Icon */
      , (6383,  22,  872415239) /* PhysicsEffectTable */
-     , (6383,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (6383, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (6383, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (6383, 8005,      64289) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (6383, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (6383,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6383, 8040, 357433373, 91.41653, 101.6499, 11.9236, -0.06656692, -0.06656692, -0.7039665, -0.7039665) /* PCAPRecordedLocation */
 /* @teleloc 0x154E001D [91.416530 101.649900 11.923600] -0.066567 -0.066567 -0.703967 -0.703967 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6383, 8000, 3700488340) /* PCAPRecordedObjectIID */
-     , (6383, 8008, 3700488339) /* PCAPRecordedParentIID */;

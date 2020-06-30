@@ -13,10 +13,7 @@ VALUES (23144,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23144,  78,       1) /* Friction */
-     , (23144,  79,       0) /* Elasticity */
-     , (23144, 8010,    3.97) /* PCAPRecordedVelocityX */
-     , (23144, 8011,   0.488) /* PCAPRecordedVelocityY */
-     , (23144, 8012,       0) /* PCAPRecordedVelocityZ */;
+     , (23144,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23144,   1, 'Tusker Fist') /* Name */;
@@ -25,17 +22,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23144,   1,   33558190) /* Setup */
      , (23144,   3,  536870971) /* SoundTable */
      , (23144,   8,  100673815) /* Icon */
-     , (23144,  28,       2934) /* Spell - TuskerFists */
-     , (23144, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (23144, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (23144, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
+     , (23144,  28,       2934) /* Spell - TuskerFists */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23144, 8040, 8913268, 9.231881, -60.52354, -52.77167, -0.7489783, 0, 0, 0.6625946) /* PCAPRecordedLocation */
 /* @teleloc 0x00880174 [9.231881 -60.523540 -52.771670] -0.748978 0.000000 0.000000 0.662595 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23144, 8000, 3691173963) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23144, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */

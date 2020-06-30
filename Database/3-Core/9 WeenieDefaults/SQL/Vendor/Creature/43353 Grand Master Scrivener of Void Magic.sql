@@ -17,8 +17,7 @@ VALUES (43353,   1,         16) /* ItemType - Creature */
      , (43353, 113,          1) /* Gender - Male */
      , (43353, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43353, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (43353, 188,          5) /* HeritageGroup - Shadowbound */
-     , (43353, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (43353, 188,          5) /* HeritageGroup - Shadowbound */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43353,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (43353,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43353,   1, 'Grand Master Scrivener of Void Magic') /* Name */
-     , (43353,   5, 'Master Archmage') /* Template */
-     , (43353, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (43353,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43353,   1,   33560943) /* Setup */
@@ -46,17 +44,11 @@ VALUES (43353,   1,   33560943) /* Setup */
      , (43353,  11,   83890660) /* MouthTexture */
      , (43353,  15,   67117065) /* HairPalette */
      , (43353,  16,   67116854) /* EyesPalette */
-     , (43353,  17,   67116849) /* SkinPalette */
-     , (43353, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (43353, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (43353, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (43353,  17,   67116849) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43353, 8040, 288620557, 31.9046, 107.454, 50.805, -0.04507139, 0, 0, -0.9989837) /* PCAPRecordedLocation */
 /* @teleloc 0x1134000D [31.904600 107.454000 50.805000] -0.045071 0.000000 0.000000 -0.998984 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43353, 8000, 1897087087) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (43353,   1,  90, 0, 0) /* Strength */
@@ -82,43 +74,3 @@ VALUES (43353, 4, 43173, -1, 0, 0, False) /* Create Foci of Shadow (43173) for S
      , (43353, 4, 43334, -1, 0, 0, False) /* Create Scroll of Festering Curse VI (43334) for Shop */
      , (43353, 4, 43343, -1, 0, 0, False) /* Create Scroll of Weakening Curse VI (43343) for Shop */
      , (43353, 4, 44624, -1, 0, 0, False) /* Create Scroll of Nether Blast VI (44624) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43353, 67109964, 92, 4)
-     , (43353, 67110334, 40, 24)
-     , (43353, 67110340, 64, 8)
-     , (43353, 67110375, 160, 8)
-     , (43353, 67110540, 72, 8)
-     , (43353, 67113252, 216, 24)
-     , (43353, 67116849, 0, 24)
-     , (43353, 67116854, 32, 8)
-     , (43353, 67117065, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (43353, 0, 83889072, 83890012)
-     , (43353, 0, 83889342, 83890011)
-     , (43353, 9, 83887061, 83890009)
-     , (43353, 9, 83887060, 83890010)
-     , (43353, 16, 83886232, 83890685)
-     , (43353, 16, 83886668, 83890448)
-     , (43353, 16, 83886837, 83890547)
-     , (43353, 16, 83886684, 83890660);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (43353, 0, 16781835)
-     , (43353, 1, 16777708)
-     , (43353, 2, 16777708)
-     , (43353, 3, 16777708)
-     , (43353, 4, 16777708)
-     , (43353, 5, 16777708)
-     , (43353, 6, 16777708)
-     , (43353, 7, 16777708)
-     , (43353, 8, 16777708)
-     , (43353, 9, 16777300)
-     , (43353, 10, 16777301)
-     , (43353, 11, 16777302)
-     , (43353, 12, 16777304)
-     , (43353, 13, 16777303)
-     , (43353, 14, 16777305)
-     , (43353, 15, 16777307)
-     , (43353, 16, 16795640);

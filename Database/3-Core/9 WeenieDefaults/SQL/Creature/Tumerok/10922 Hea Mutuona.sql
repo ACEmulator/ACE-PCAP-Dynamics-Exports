@@ -13,8 +13,7 @@ VALUES (10922,   1,         16) /* ItemType - Creature */
      , (10922,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
      , (10922,  95,          8) /* RadarBlipColor - Yellow */
      , (10922, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (10922, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (10922, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (10922, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10922,   1, True ) /* Stuck */
@@ -25,24 +24,17 @@ VALUES (10922,  39,     1.2) /* DefaultScale */
      , (10922,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (10922,   1, 'Hea Mutuona') /* Name */
-     , (10922, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (10922,   1, 'Hea Mutuona') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10922,   1,   33559553) /* Setup */
      , (10922,   2,  150994954) /* MotionTable */
      , (10922,   3,  536870931) /* SoundTable */
-     , (10922,   8,  100667452) /* Icon */
-     , (10922, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (10922, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (10922, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (10922,   8,  100667452) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10922, 8040, 247070755, 113.029, 61.2068, 2.006, -0.469375, 0, 0, -0.8829989) /* PCAPRecordedLocation */
 /* @teleloc 0x0EBA0023 [113.029000 61.206800 2.006000] -0.469375 0.000000 0.000000 -0.882999 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (10922, 8000, 3691258973) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (10922,   1,  80, 0, 0) /* Strength */

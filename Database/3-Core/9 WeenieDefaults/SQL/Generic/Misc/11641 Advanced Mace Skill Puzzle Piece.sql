@@ -8,8 +8,7 @@ VALUES (11641,   1,        128) /* ItemType - Misc */
      , (11641,   5,         10) /* EncumbranceVal */
      , (11641,  16,          1) /* ItemUseable - No */
      , (11641,  19,      10000) /* Value */
-     , (11641,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11641, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11641,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11641,  22, True ) /* Inscribable */;
@@ -25,9 +24,4 @@ VALUES (11641,   1,   33554680) /* Setup */
      , (11641,   3,  536870932) /* SoundTable */
      , (11641,   8,  100671715) /* Icon */
      , (11641,  22,  872415275) /* PhysicsEffectTable */
-     , (11641, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (11641, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11641, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11641, 8000,      11641) /* PCAPRecordedObjectIID */;
+     , (11641, 8044,       3695) /* PCAPPhysicsDIDDataTemplatedFrom - Gold Tumerok Insignia */;

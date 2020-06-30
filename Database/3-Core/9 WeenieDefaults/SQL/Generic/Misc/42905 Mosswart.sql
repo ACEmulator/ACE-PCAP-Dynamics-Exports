@@ -19,14 +19,8 @@ VALUES (42905,   1, 'Mosswart') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42905,   1,   33561038) /* Setup */
-     , (42905,   8,  100668115) /* Icon */
-     , (42905, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42905, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42905, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42905,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42905, 8040, 459117, 95.1363, -58.3162, 0.66, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007016D [95.136300 -58.316200 0.660000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42905, 8000, 1879077000) /* PCAPRecordedObjectIID */;

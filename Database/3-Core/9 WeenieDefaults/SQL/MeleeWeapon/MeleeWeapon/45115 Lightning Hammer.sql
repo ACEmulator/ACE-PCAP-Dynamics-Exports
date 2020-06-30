@@ -33,9 +33,7 @@ VALUES (45115,   1,          1) /* ItemType - MeleeWeapon */
      , (45115, 176,         46) /* AppraisalItemSkill */
      , (45115, 177,          4) /* GemCount */
      , (45115, 178,         23) /* GemType */
-     , (45115, 353,          3) /* WeaponType - Axe */
-     , (45115, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45115, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45115, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45115,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (45115,   5,  -0.067) /* ManaRate */
      , (45115,  26,       0) /* MaximumVelocity */
      , (45115,  29,    1.12) /* WeaponDefense */
      , (45115,  62,    1.21) /* WeaponOffense */
-     , (45115,  63,       1) /* DamageMod */
-     , (45115, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45115,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45115,   1, 'Lightning Hammer') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45115,   1,   33555415) /* Setup */
      , (45115,   3,  536870932) /* SoundTable */
      , (45115,   8,  100669072) /* Icon */
-     , (45115,  22,  872415275) /* PhysicsEffectTable */
-     , (45115, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45115, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45115, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45115, 8000, 3690426738) /* PCAPRecordedObjectIID */;
+     , (45115,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45115,  4395,      2) 

@@ -17,8 +17,7 @@ VALUES (30028,   1,         16) /* ItemType - Creature */
      , (30028, 113,          2) /* Gender - Female */
      , (30028, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30028, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30028, 188,          4) /* HeritageGroup - Viamontian */
-     , (30028, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30028, 188,          4) /* HeritageGroup - Viamontian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30028,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30028,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30028,   1, 'Grand Master Scrivener of Item Magic') /* Name */
-     , (30028,   5, 'Master Archmage') /* Template */
-     , (30028, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30028,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30028,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30028,   1,   33554510) /* Setup */
      , (30028,  11,   83890353) /* MouthTexture */
      , (30028,  15,   67117097) /* HairPalette */
      , (30028,  16,   67110063) /* EyesPalette */
-     , (30028,  17,   67115905) /* SkinPalette */
-     , (30028, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30028, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30028, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30028,  17,   67115905) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30028, 8040, 1240465427, 56.9679, 57.0088, 185.205, -0.3158062, 0, 0, -0.9488238) /* PCAPRecordedLocation */
 /* @teleloc 0x49F00013 [56.967900 57.008800 185.205000] -0.315806 0.000000 0.000000 -0.948824 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30028, 8000, 1956577303) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30028,   1,  90, 0, 0) /* Strength */
@@ -111,40 +103,3 @@ VALUES (30028, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (30028, 4,  2902, -1, 0, 0, False) /* Create Scroll of Weaken Lock VI (2902) for Shop */
      , (30028, 4,  2906, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal III (2906) for Shop */
      , (30028, 4, 20624, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal III (20624) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30028, 67110063, 32, 8)
-     , (30028, 67115905, 0, 24)
-     , (30028, 67116026, 174, 33)
-     , (30028, 67116027, 207, 33)
-     , (30028, 67117097, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30028, 0, 83897013, 83897013)
-     , (30028, 9, 83897018, 83897018)
-     , (30028, 9, 83897019, 83897019)
-     , (30028, 11, 83892346, 83897016)
-     , (30028, 14, 83892346, 83897016)
-     , (30028, 16, 83886232, 83890685)
-     , (30028, 16, 83886668, 83890263)
-     , (30028, 16, 83886837, 83890287)
-     , (30028, 16, 83886684, 83890353);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30028, 0, 16791905)
-     , (30028, 1, 16791896)
-     , (30028, 2, 16791897)
-     , (30028, 3, 16777708)
-     , (30028, 4, 16777708)
-     , (30028, 5, 16791898)
-     , (30028, 6, 16791899)
-     , (30028, 7, 16777708)
-     , (30028, 8, 16777708)
-     , (30028, 9, 16791906)
-     , (30028, 10, 16791901)
-     , (30028, 11, 16783853)
-     , (30028, 12, 16778423)
-     , (30028, 13, 16791903)
-     , (30028, 14, 16783855)
-     , (30028, 15, 16778435)
-     , (30028, 16, 16791907);

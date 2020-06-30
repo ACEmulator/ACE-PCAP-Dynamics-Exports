@@ -19,8 +19,7 @@ VALUES (38575,   1,         16) /* ItemType - Creature */
      , (38575, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38575, 188,          2) /* HeritageGroup - Gharundim */
      , (38575, 281,          2) /* Faction1Bits */
-     , (38575, 288,       1001) /* SocietyRankEldweb */
-     , (38575, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38575, 288,       1001) /* SocietyRankEldweb */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38575,   1, True ) /* Stuck */
@@ -34,8 +33,7 @@ VALUES (38575,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38575,   1, 'Eldrytch Web Quartermaster') /* Name */
-     , (38575,   5, 'Society Officer') /* Template */
-     , (38575, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38575,   5, 'Society Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38575,   1,   33554433) /* Setup */
@@ -49,17 +47,11 @@ VALUES (38575,   1,   33554433) /* Setup */
      , (38575,  15,   67116994) /* HairPalette */
      , (38575,  16,   67110063) /* EyesPalette */
      , (38575,  17,   67109555) /* SkinPalette */
-     , (38575,  57,      38237) /* AlternateCurrency - Eldrytch Web Trade Token */
-     , (38575, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (38575, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (38575, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (38575,  57,      38237) /* AlternateCurrency - Eldrytch Web Trade Token */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38575, 8040, 12059243, 136.482, -36.1501, -17.995, 0.6996499, 0, 0, -0.7144859) /* PCAPRecordedLocation */
 /* @teleloc 0x00B8026B [136.482000 -36.150100 -17.995000] 0.699650 0.000000 0.000000 -0.714486 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38575, 8000, 1879801914) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38575,   1, 220, 0, 0) /* Strength */
@@ -93,54 +85,3 @@ VALUES (38575, 4, 38545, -1, 0, 0, False) /* Create Eldrytch Web Armor Writ (385
      , (38575, 4, 44592, -1, 0, 0, False) /* Create Eldrytch Web Covenant Shield Cover (44592) for Shop */
      , (38575, 4, 44601, -1, 0, 0, False) /* Create Eldrytch Web Olthoi Shield Cover (44601) for Shop */
      , (38575, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38575, 67109555, 0, 24)
-     , (38575, 67109964, 92, 4)
-     , (38575, 67110003, 72, 8)
-     , (38575, 67110063, 32, 8)
-     , (38575, 67113252, 64, 8)
-     , (38575, 67113253, 40, 24)
-     , (38575, 67113253, 160, 8)
-     , (38575, 67116994, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38575, 0, 83889072, 83886685)
-     , (38575, 0, 83889342, 83889386)
-     , (38575, 1, 83887064, 83886241)
-     , (38575, 2, 83887066, 83887051)
-     , (38575, 3, 83889344, 83887054)
-     , (38575, 4, 83887068, 83887054)
-     , (38575, 5, 83887064, 83886241)
-     , (38575, 6, 83887066, 83887051)
-     , (38575, 7, 83889344, 83887054)
-     , (38575, 8, 83887068, 83887054)
-     , (38575, 9, 83887061, 83886687)
-     , (38575, 9, 83887060, 83886686)
-     , (38575, 10, 83887069, 83886782)
-     , (38575, 11, 83886788, 83891213)
-     , (38575, 13, 83887069, 83886782)
-     , (38575, 14, 83886788, 83891213)
-     , (38575, 16, 83886232, 83890685)
-     , (38575, 16, 83886668, 83890487)
-     , (38575, 16, 83886837, 83890537)
-     , (38575, 16, 83886684, 83890575);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38575, 0, 16793841)
-     , (38575, 1, 16777295)
-     , (38575, 2, 16781866)
-     , (38575, 3, 16781841)
-     , (38575, 4, 16781838)
-     , (38575, 5, 16777299)
-     , (38575, 6, 16781864)
-     , (38575, 7, 16781840)
-     , (38575, 8, 16781839)
-     , (38575, 9, 16793842)
-     , (38575, 10, 16777301)
-     , (38575, 11, 16781822)
-     , (38575, 12, 16777304)
-     , (38575, 13, 16777303)
-     , (38575, 14, 16781821)
-     , (38575, 15, 16777307)
-     , (38575, 16, 16795640);

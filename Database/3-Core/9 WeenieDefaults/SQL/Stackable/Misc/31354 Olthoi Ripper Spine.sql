@@ -14,8 +14,7 @@ VALUES (31354,   1,        128) /* ItemType - Misc */
      , (31354,  19,      10000) /* Value */
      , (31354,  33,          1) /* Bonded - Bonded */
      , (31354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31354, 114,          1) /* Attuned - Attuned */
-     , (31354, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31354, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31354,   1, 'Olthoi Ripper Spine') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31354,   1,   33554817) /* Setup */
      , (31354,   3,  536870932) /* SoundTable */
      , (31354,   8,  100687696) /* Icon */
-     , (31354,  22,  872415275) /* PhysicsEffectTable */
-     , (31354, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (31354, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31354, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31354, 8000, 3319748911) /* PCAPRecordedObjectIID */;
+     , (31354,  22,  872415275) /* PhysicsEffectTable */;

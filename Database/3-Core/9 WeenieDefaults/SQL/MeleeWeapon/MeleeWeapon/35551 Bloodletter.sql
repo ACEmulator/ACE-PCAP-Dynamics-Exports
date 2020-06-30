@@ -27,9 +27,7 @@ VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
      , (35551, 263,          2) /* ResistanceModifierType */
      , (35551, 267,      10800) /* Lifespan */
      , (35551, 268,      10798) /* RemainingLifespan */
-     , (35551, 353,          5) /* WeaponType - Spear */
-     , (35551, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (35551, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35551, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35551,  22, True ) /* Inscribable */
@@ -59,25 +57,9 @@ VALUES (35551,   1,   33559320) /* Setup */
      , (35551,   8,  100686986) /* Icon */
      , (35551,  22,  872415275) /* PhysicsEffectTable */
      , (35551,  52,  100689403) /* IconUnderlay */
-     , (35551,  55,       2070) /* ProcSpell - HarmOther7 */
-     , (35551, 8001,    2179728) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden */
-     , (35551, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (35551, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (35551, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35551, 8000, 3633432153) /* PCAPRecordedObjectIID */;
+     , (35551,  55,       2070) /* ProcSpell - HarmOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (35551,  2070,      2) 
      , (35551,  2308,      2) 
      , (35551,  2531,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35551, 67116409, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35551, 0, 83896667, 83896667);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35551, 0, 16791842);

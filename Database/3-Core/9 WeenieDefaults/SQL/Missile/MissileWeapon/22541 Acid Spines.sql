@@ -22,9 +22,7 @@ VALUES (22541,   1,        256) /* ItemType - MissileWeapon */
      , (22541,  49,         10) /* WeaponTime */
      , (22541,  51,          2) /* CombatUse - Missle */
      , (22541,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (22541, 353,         10) /* WeaponType - Thrown */
-     , (22541, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22541, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (22541, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22541,  24, True ) /* UiHidden */;
@@ -46,16 +44,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22541,   1,   33558114) /* Setup */
      , (22541,   3,  536870932) /* SoundTable */
      , (22541,   8,  100671205) /* Icon */
-     , (22541,  22,  872415275) /* PhysicsEffectTable */
-     , (22541, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (22541, 8003,        144) /* PCAPRecordedObjectDesc - Attackable, UiHidden */
-     , (22541, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (22541, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (22541,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22541, 8040, 4051632182, 154.7349, 136.74, 18.83486, -0.2981589, 0, 0, -0.9545162) /* PCAPRecordedLocation */
 /* @teleloc 0xF17F0036 [154.734900 136.740000 18.834860] -0.298159 0.000000 0.000000 -0.954516 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22541, 8000, 3699858175) /* PCAPRecordedObjectIID */
-     , (22541, 8008, 3699858174) /* PCAPRecordedParentIID */;

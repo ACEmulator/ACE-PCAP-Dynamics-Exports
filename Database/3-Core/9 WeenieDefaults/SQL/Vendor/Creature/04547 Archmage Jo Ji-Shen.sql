@@ -17,8 +17,7 @@ VALUES (4547,   1,         16) /* ItemType - Creature */
      , (4547, 113,          2) /* Gender - Female */
      , (4547, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4547, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4547, 188,          3) /* HeritageGroup - Sho */
-     , (4547, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4547, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4547,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4547,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4547,   1, 'Archmage Jo Ji-Shen') /* Name */
-     , (4547,   5, 'Archmage') /* Template */
-     , (4547, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4547,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4547,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4547,   1,   33554510) /* Setup */
      , (4547,  11,   83890321) /* MouthTexture */
      , (4547,  15,   67117024) /* HairPalette */
      , (4547,  16,   67109565) /* EyesPalette */
-     , (4547,  17,   67110057) /* SkinPalette */
-     , (4547, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4547, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4547, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4547,  17,   67110057) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4547, 8040, 3846045955, 86.6978, 8.78249, 120.005, 0.9998493, 0, 0, -0.01736082) /* PCAPRecordedLocation */
 /* @teleloc 0xE53E0103 [86.697800 8.782490 120.005000] 0.999849 0.000000 0.000000 -0.017361 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4547, 8000, 2119426057) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4547,   1,  60, 0, 0) /* Strength */
@@ -182,57 +174,3 @@ VALUES (4547, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (4547, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (4547, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
      , (4547, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4547, 67109565, 32, 8)
-     , (4547, 67109969, 92, 4)
-     , (4547, 67110026, 72, 8)
-     , (4547, 67110057, 0, 24)
-     , (4547, 67110320, 40, 24)
-     , (4547, 67110325, 64, 8)
-     , (4547, 67110325, 160, 8)
-     , (4547, 67110334, 216, 24)
-     , (4547, 67111245, 250, 6)
-     , (4547, 67117024, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4547, 0, 83889072, 83890012)
-     , (4547, 0, 83889342, 83890011)
-     , (4547, 1, 83887064, 83886241)
-     , (4547, 2, 83887066, 83887055)
-     , (4547, 3, 83889344, 83887054)
-     , (4547, 4, 83887068, 83887054)
-     , (4547, 5, 83887064, 83886241)
-     , (4547, 6, 83887066, 83887055)
-     , (4547, 7, 83889344, 83887054)
-     , (4547, 8, 83887068, 83887054)
-     , (4547, 9, 83887070, 83890009)
-     , (4547, 9, 83887062, 83890010)
-     , (4547, 10, 83887069, 83886782)
-     , (4547, 11, 83887067, 83891213)
-     , (4547, 13, 83887069, 83886782)
-     , (4547, 14, 83887067, 83891213)
-     , (4547, 16, 83886232, 83890685)
-     , (4547, 16, 83886668, 83890275)
-     , (4547, 16, 83886837, 83890294)
-     , (4547, 16, 83886684, 83890321)
-     , (4547, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4547, 0, 16781875)
-     , (4547, 1, 16778430)
-     , (4547, 2, 16778436)
-     , (4547, 3, 16778361)
-     , (4547, 4, 16778426)
-     , (4547, 5, 16778438)
-     , (4547, 6, 16778437)
-     , (4547, 7, 16778360)
-     , (4547, 8, 16778428)
-     , (4547, 9, 16778425)
-     , (4547, 10, 16778431)
-     , (4547, 11, 16778429)
-     , (4547, 12, 16778423)
-     , (4547, 13, 16778434)
-     , (4547, 14, 16778424)
-     , (4547, 15, 16778435)
-     , (4547, 16, 16779630);

@@ -15,8 +15,7 @@ VALUES (45489,   1,         16) /* ItemType - Creature */
      , (45489,  76,     100000) /* MerchandiseMaxValue */
      , (45489,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (45489, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (45489, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (45489, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (45489, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45489,   1, True ) /* Stuck */
@@ -30,8 +29,7 @@ VALUES (45489,  37,       1) /* BuyPrice */
      , (45489,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45489,   1, 'Free Weapon Vendor') /* Name */
-     , (45489, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (45489,   1, 'Free Weapon Vendor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45489,   1,   33560279) /* Setup */
@@ -39,17 +37,11 @@ VALUES (45489,   1,   33560279) /* Setup */
      , (45489,   3,  536870933) /* SoundTable */
      , (45489,   8,  100674350) /* Icon */
      , (45489,  22,  872415269) /* PhysicsEffectTable */
-     , (45489,  57,      45491) /* AlternateCurrency - Quest Weapon Coin */
-     , (45489, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (45489, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (45489, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (45489,  57,      45491) /* AlternateCurrency - Quest Weapon Coin */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45489, 8040, 3332964725, 116.356, 86.7094, 42.0065, -0.9491577, 0, 0, -0.3148011) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A90175 [116.356000 86.709400 42.006500] -0.949158 0.000000 0.000000 -0.314801 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45489, 8000, 2087358602) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (45489,   1, 680, 0, 0) /* Strength */
@@ -108,44 +100,3 @@ VALUES (45489, 4, 34024, -1, 0, 0, False) /* Create Silifi of Crimson Night (340
      , (45489, 4, 32645, -1, 0, 0, False) /* Create Shadowfire Isparian Spear (32645) for Shop */
      , (45489, 4, 32646, -1, 0, 0, False) /* Create Shadowfire Isparian Staff (32646) for Shop */
      , (45489, 4, 32600, -1, 0, 0, False) /* Create Shadowfire Isparian Sword (32600) for Shop */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45489, 0, 83894477, 83892492)
-     , (45489, 0, 83894478, 83892492)
-     , (45489, 1, 83894490, 83892492)
-     , (45489, 2, 83894483, 83892492)
-     , (45489, 2, 83894484, 83892492)
-     , (45489, 3, 83894184, 83892492)
-     , (45489, 4, 83894184, 83892492)
-     , (45489, 5, 83894490, 83892492)
-     , (45489, 6, 83894483, 83892492)
-     , (45489, 6, 83894484, 83892492)
-     , (45489, 7, 83894184, 83892492)
-     , (45489, 8, 83894184, 83892492)
-     , (45489, 9, 83894480, 83894593)
-     , (45489, 9, 83894481, 83892492)
-     , (45489, 10, 83894489, 83892492)
-     , (45489, 11, 83894479, 83892492)
-     , (45489, 12, 83894485, 83892492)
-     , (45489, 13, 83894489, 83892492)
-     , (45489, 14, 83894479, 83892492)
-     , (45489, 15, 83894485, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45489, 0, 16788885)
-     , (45489, 1, 16788894)
-     , (45489, 2, 16788893)
-     , (45489, 3, 16788081)
-     , (45489, 4, 16788088)
-     , (45489, 5, 16788896)
-     , (45489, 6, 16788895)
-     , (45489, 7, 16788082)
-     , (45489, 8, 16788089)
-     , (45489, 9, 16788889)
-     , (45489, 10, 16788898)
-     , (45489, 11, 16788887)
-     , (45489, 12, 16788891)
-     , (45489, 13, 16788897)
-     , (45489, 14, 16788888)
-     , (45489, 15, 16788892)
-     , (45489, 16, 16789125);

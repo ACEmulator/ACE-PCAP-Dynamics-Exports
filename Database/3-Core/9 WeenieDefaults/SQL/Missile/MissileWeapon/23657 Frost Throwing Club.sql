@@ -25,9 +25,7 @@ VALUES (23657,   1,        256) /* ItemType - MissileWeapon */
      , (23657, 313,          0) /* CritRating */
      , (23657, 314,          0) /* CritDamageRating */
      , (23657, 353,         10) /* WeaponType - Thrown */
-     , (23657, 386,          0) /* Overpower */
-     , (23657, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23657, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23657, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23657,  21,       0) /* WeaponLength */
@@ -48,19 +46,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23657,   1,   33555698) /* Setup */
      , (23657,   3,  536870932) /* SoundTable */
      , (23657,   8,  100669762) /* Icon */
-     , (23657,  22,  872415275) /* PhysicsEffectTable */
-     , (23657, 8001,    2339480) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (23657, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (23657, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (23657, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23657,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23657, 8040, 11600164, 19.99176, -1104.536, 0.04728004, -3.090862E-08, -3.090862E-08, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00B10124 [19.991760 -1104.536000 0.047280] 0.000000 0.000000 -0.707107 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23657, 8000, 2931432185) /* PCAPRecordedObjectIID */
-     , (23657, 8008, 2931432200) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23657, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */

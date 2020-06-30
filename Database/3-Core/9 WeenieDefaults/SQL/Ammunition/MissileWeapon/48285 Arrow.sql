@@ -32,9 +32,7 @@ VALUES (48285,   1,        256) /* ItemType - MissileWeapon */
      , (48285, 307,          9) /* DamageRating */
      , (48285, 313,          0) /* CritRating */
      , (48285, 314,          0) /* CritDamageRating */
-     , (48285, 386,          0) /* Overpower */
-     , (48285, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (48285, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (48285, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48285,  69, False) /* IsSellable */;
@@ -59,25 +57,11 @@ VALUES (48285,   1,   33555709) /* Setup */
      , (48285,   3,  536870932) /* SoundTable */
      , (48285,   6,   67111919) /* PaletteBase */
      , (48285,   8,  100670168) /* Icon */
-     , (48285,  22,  872415275) /* PhysicsEffectTable */
-     , (48285, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48285, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48285, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (48285, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48285,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48285, 8040, 4133224499, 163.685, 51.61871, 19.92725, -0.6420074, -0.6420074, -0.2963553, -0.2963553) /* PCAPRecordedLocation */
 /* @teleloc 0xF65C0033 [163.685000 51.618710 19.927250] -0.642007 -0.642007 -0.296355 -0.296355 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48285, 8000, 2781077627) /* PCAPRecordedObjectIID */
-     , (48285, 8008, 2781077475) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (48285, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48285, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48285, 0, 16777887);

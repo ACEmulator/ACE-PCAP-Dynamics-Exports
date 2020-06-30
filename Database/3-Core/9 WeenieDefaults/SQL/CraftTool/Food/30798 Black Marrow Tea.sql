@@ -18,8 +18,7 @@ VALUES (30798,   1,         32) /* ItemType - Food */
      , (30798, 107,         50) /* ItemCurMana */
      , (30798, 108,         50) /* ItemMaxMana */
      , (30798, 109,          0) /* ItemDifficulty */
-     , (30798, 110,          0) /* ItemAllegianceRankLimit */
-     , (30798, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30798, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30798,  22, True ) /* Inscribable */;
@@ -33,13 +32,7 @@ VALUES (30798,   1,   33554663) /* Setup */
      , (30798,   3,  536870932) /* SoundTable */
      , (30798,   8,  100677488) /* Icon */
      , (30798,  22,  872415275) /* PhysicsEffectTable */
-     , (30798,  28,       3799) /* Spell - BlackMarrowBliss */
-     , (30798, 8001,    6844440) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (30798, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30798, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30798, 8000, 2448144588) /* PCAPRecordedObjectIID */;
+     , (30798,  28,       3799) /* Spell - BlackMarrowBliss */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30798,  3799,      2) ;

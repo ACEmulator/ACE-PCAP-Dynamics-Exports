@@ -14,8 +14,7 @@ VALUES (4253,   1,         16) /* ItemType - Creature */
      , (4253, 113,          2) /* Gender - Female */
      , (4253, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (4253, 188,          1) /* HeritageGroup - Aluvian */
-     , (4253, 307,          5) /* DamageRating */
-     , (4253, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4253, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4253,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (4253,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (4253,   1, 'Panumbris Shadow') /* Name */
-     , (4253, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (4253,   1, 'Panumbris Shadow') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4253,   1,   33556251) /* Setup */
@@ -39,17 +37,11 @@ VALUES (4253,   1,   33556251) /* Setup */
      , (4253,  15,   67117016) /* HairPalette */
      , (4253,  16,   67109564) /* EyesPalette */
      , (4253,  17,   67109560) /* SkinPalette */
-     , (4253,  22,  872415331) /* PhysicsEffectTable */
-     , (4253, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (4253, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (4253, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (4253,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4253, 8040, 2400845877, 150.931, 116.3685, 340.005, -0.5554596, 0, 0, -0.8315436) /* PCAPRecordedLocation */
 /* @teleloc 0x8F1A0035 [150.931000 116.368500 340.005000] -0.555460 0.000000 0.000000 -0.831544 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4253, 8000, 3685536864) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4253,   1, 100, 0, 0) /* Strength */
@@ -877,25 +869,3 @@ VALUES (4253, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (4253, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
      , (4253, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */
      , (4253, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4253, 67112860, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4253, 0, 16778359)
-     , (4253, 1, 16777708)
-     , (4253, 2, 16777708)
-     , (4253, 3, 16777708)
-     , (4253, 4, 16777708)
-     , (4253, 5, 16777708)
-     , (4253, 6, 16777708)
-     , (4253, 7, 16777708)
-     , (4253, 8, 16777708)
-     , (4253, 9, 16778425)
-     , (4253, 10, 16778431)
-     , (4253, 11, 16778429)
-     , (4253, 12, 16777304)
-     , (4253, 13, 16778434)
-     , (4253, 14, 16778424)
-     , (4253, 15, 16777307)
-     , (4253, 16, 16778407);

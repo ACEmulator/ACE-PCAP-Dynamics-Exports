@@ -37,8 +37,7 @@ VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260, 319,         35) /* ItemMaxLevel */
      , (29260, 320,          1) /* ItemXpStyle - Fixed */
      , (29260, 383,          1) /* GearPKDamageRating */
-     , (29260, 384,          1) /* GearPKDamageResistRating */
-     , (29260, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (29260, 384,          1) /* GearPKDamageResistRating */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29260,   4, 70000000000) /* ItemTotalXp */
@@ -54,8 +53,7 @@ VALUES (29260,   5,  -0.067) /* ManaRate */
      , (29260,  29,    1.39) /* WeaponDefense */
      , (29260, 144,   0.144) /* ManaConversionMod */
      , (29260, 150,   1.035) /* WeaponMagicDefense */
-     , (29260, 152,    1.44) /* ElementalDamageMod */
-     , (29260, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (29260, 152,    1.44) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29260,   1, 'Blunt Sceptre') /* Name */
@@ -77,20 +75,11 @@ VALUES (29260,   1,   33559231) /* Setup */
      , (29260,  22,  872415275) /* PhysicsEffectTable */
      , (29260,  28,       2144) /* Spell - ShockWave7 */
      , (29260,  50,  100689030) /* IconOverlay */
-     , (29260,  52,  100676442) /* IconUnderlay */
-     , (29260, 8001, 3513483416) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, IconOverlay, MaterialType */
-     , (29260, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29260, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (29260, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (29260, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (29260,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29260, 8040, 23855555, 57.33757, -36.50736, -0.071, 0.6505802, 0.6505802, -0.2770295, -0.2770295) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [57.337570 -36.507360 -0.071000] 0.650580 0.650580 -0.277030 -0.277030 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29260, 8000, 3686986858) /* PCAPRecordedObjectIID */
-     , (29260, 8008, 1343130362) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29260,  2140,      2) 
@@ -98,7 +87,3 @@ VALUES (29260,  2140,      2)
      , (29260,  4418,      2) 
      , (29260,  5881,      2) 
      , (29260,  6098,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29260, 67115359, 56, 200)
-     , (29260, 67115360, 1, 55);

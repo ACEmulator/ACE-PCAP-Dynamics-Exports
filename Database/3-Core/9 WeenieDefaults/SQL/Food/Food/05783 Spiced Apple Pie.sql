@@ -12,8 +12,7 @@ VALUES (5783,   1,         32) /* ItemType - Food */
      , (5783,  15,         30) /* StackUnitValue */
      , (5783,  16,          8) /* ItemUseable - Contained */
      , (5783,  19,         30) /* Value */
-     , (5783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5783, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5783,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5783,   1, 'Spiced Apple Pie') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (5783,   1,   33555978) /* Setup */
      , (5783,   3,  536870932) /* SoundTable */
      , (5783,   8,  100670286) /* Icon */
-     , (5783,  22,  872415275) /* PhysicsEffectTable */
-     , (5783, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (5783, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (5783, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5783, 8000, 3709845843) /* PCAPRecordedObjectIID */;
+     , (5783,  22,  872415275) /* PhysicsEffectTable */;

@@ -20,9 +20,7 @@ VALUES (12117,   1,          1) /* ItemType - MeleeWeapon */
      , (12117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12117, 114,          1) /* Attuned - Attuned */
      , (12117, 115,        100) /* ItemSkillLevelLimit */
-     , (12117, 353,          4) /* WeaponType - Mace */
-     , (12117, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (12117, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (12117, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12117,  22, True ) /* Inscribable */;
@@ -45,16 +43,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12117,   1,   33557235) /* Setup */
      , (12117,   3,  536870932) /* SoundTable */
      , (12117,   8,  100672033) /* Icon */
-     , (12117,  22,  872415275) /* PhysicsEffectTable */
-     , (12117, 8001,    2327184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (12117, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (12117, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (12117, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (12117,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12117, 8040, 549322755, 11.396, 49.49924, 89.931, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x20BE0003 [11.396000 49.499240 89.931000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12117, 8000, 2930048123) /* PCAPRecordedObjectIID */
-     , (12117, 8008, 2929886992) /* PCAPRecordedParentIID */;

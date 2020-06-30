@@ -12,32 +12,24 @@ VALUES (6645,   1,         16) /* ItemType - Creature */
      , (6645,  25,        100) /* Level */
      , (6645,  93,    4197384) /* PhysicsState - ReportCollisions, Gravity, LightingOn, EdgeSlide */
      , (6645, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (6645, 307,          2) /* DamageRating */
-     , (6645, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (6645, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6645,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (6645,   1, 'Magma Golem') /* Name */
-     , (6645, 8006, 'AAA9AAIAAAAUAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (6645,   1, 'Magma Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6645,   1,   33556427) /* Setup */
      , (6645,   2,  150995073) /* MotionTable */
      , (6645,   3,  536870933) /* SoundTable */
      , (6645,   8,  100667940) /* Icon */
-     , (6645,  22,  872415325) /* PhysicsEffectTable */
-     , (6645, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (6645, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (6645, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (6645,  22,  872415325) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6645, 8040, 2536767511, 69.14507, 155.6525, 40.01, -0.4426243, 0, 0, -0.8967071) /* PCAPRecordedLocation */
 /* @teleloc 0x97340017 [69.145070 155.652500 40.010000] -0.442624 0.000000 0.000000 -0.896707 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6645, 8000, 3685863239) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (6645,   1, 250, 0, 0) /* Strength */

@@ -27,9 +27,7 @@ VALUES (45102,   1,          1) /* ItemType - MeleeWeapon */
      , (45102, 172,          5) /* AppraisalLongDescDecoration */
      , (45102, 177,          3) /* GemCount */
      , (45102, 178,         28) /* GemType */
-     , (45102, 353,          2) /* WeaponType - Sword */
-     , (45102, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45102, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (45102, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45102,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (45102,  21,       0) /* WeaponLength */
      , (45102,  26,       0) /* MaximumVelocity */
      , (45102,  29,    1.11) /* WeaponDefense */
      , (45102,  62,    1.09) /* WeaponOffense */
-     , (45102,  63,       1) /* DamageMod */
-     , (45102, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45102,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45102,   1, 'Flaming Epee') /* Name */
@@ -53,28 +50,8 @@ VALUES (45102,   1,   33561439) /* Setup */
      , (45102,   6,   67111919) /* PaletteBase */
      , (45102,   8,  100692295) /* Icon */
      , (45102,  22,  872415275) /* PhysicsEffectTable */
-     , (45102,  52,  100676441) /* IconUnderlay */
-     , (45102, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (45102, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45102, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45102, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (45102, 8009,          8) /* PCAPRecordedParentLocation - LeftWeapon */;
+     , (45102,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45102, 8040, 3465871405, 151.019, 112.5805, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
 /* @teleloc 0xCE95002D [151.019000 112.580500 17.341250] -0.662260 -0.662260 -0.247813 -0.247813 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45102, 8000, 3682301759) /* PCAPRecordedObjectIID */
-     , (45102, 8008, 1343310691) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45102, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45102, 0, 83889236, 83889236)
-     , (45102, 0, 83886739, 83886739)
-     , (45102, 0, 83889235, 83889235);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45102, 0, 16795944);

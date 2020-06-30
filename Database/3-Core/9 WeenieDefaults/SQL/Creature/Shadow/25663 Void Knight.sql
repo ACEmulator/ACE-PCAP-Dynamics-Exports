@@ -14,8 +14,7 @@ VALUES (25663,   1,         16) /* ItemType - Creature */
      , (25663, 113,          1) /* Gender - Male */
      , (25663, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25663, 188,          1) /* HeritageGroup - Aluvian */
-     , (25663, 307,          5) /* DamageRating */
-     , (25663, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25663, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25663,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25663,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25663,   1, 'Void Knight') /* Name */
-     , (25663, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25663,   1, 'Void Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25663,   1,   33554433) /* Setup */
@@ -39,17 +37,11 @@ VALUES (25663,   1,   33554433) /* Setup */
      , (25663,  15,   67117021) /* HairPalette */
      , (25663,  16,   67110063) /* EyesPalette */
      , (25663,  17,   67109558) /* SkinPalette */
-     , (25663,  22,  872415331) /* PhysicsEffectTable */
-     , (25663, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25663, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25663, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (25663,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25663, 8040, 675872830, 183.2189, 136.4885, 0.004999995, 0.07025965, 0, 0, -0.9975287) /* PCAPRecordedLocation */
 /* @teleloc 0x2849003E [183.218900 136.488500 0.005000] 0.070260 0.000000 0.000000 -0.997529 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25663, 8000, 3690605086) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25663,   1, 360, 0, 0) /* Strength */
@@ -190,6 +182,3 @@ VALUES (25663, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
      , (25663, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
      , (25663, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */
      , (25663, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25663, 67112860, 0, 0);

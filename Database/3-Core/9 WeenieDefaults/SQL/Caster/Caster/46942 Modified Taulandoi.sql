@@ -24,8 +24,7 @@ VALUES (46942,   1,      32768) /* ItemType - Caster */
      , (46942, 158,          8) /* WieldRequirements - Training */
      , (46942, 159,         34) /* WieldSkillType - WarMagic */
      , (46942, 160,          2) /* WieldDifficulty */
-     , (46942, 263,         16) /* ResistanceModifierType */
-     , (46942, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (46942, 263,         16) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46942,  22, True ) /* Inscribable */
@@ -50,25 +49,9 @@ VALUES (46942,   1,   33557963) /* Setup */
      , (46942,   6,   67111919) /* PaletteBase */
      , (46942,   8,  100673490) /* Icon */
      , (46942,  22,  872415275) /* PhysicsEffectTable */
-     , (46942,  28,       2782) /* Spell - LesserElementalFuryFlame */
-     , (46942, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (46942, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (46942, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46942, 8000, 3704147160) /* PCAPRecordedObjectIID */;
+     , (46942,  28,       2782) /* Spell - LesserElementalFuryFlame */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (46942,  2782,      2) 
      , (46942,  4637,      2) 
      , (46942,  4715,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46942, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (46942, 0, 83894279, 83894279)
-     , (46942, 0, 83894277, 83894277);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (46942, 0, 16788368);

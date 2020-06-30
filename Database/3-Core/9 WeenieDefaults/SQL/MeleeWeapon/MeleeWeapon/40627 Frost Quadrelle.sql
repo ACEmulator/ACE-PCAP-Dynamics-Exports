@@ -32,9 +32,7 @@ VALUES (40627,   1,          1) /* ItemType - MeleeWeapon */
      , (40627, 172,          1) /* AppraisalLongDescDecoration */
      , (40627, 176,         41) /* AppraisalItemSkill */
      , (40627, 292,          2) /* Cleaving */
-     , (40627, 353,         11) /* WeaponType - TwoHanded */
-     , (40627, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40627, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40627, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40627,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (40627,   5,   -0.05) /* ManaRate */
      , (40627,  26,       0) /* MaximumVelocity */
      , (40627,  29,    1.06) /* WeaponDefense */
      , (40627,  62,    1.07) /* WeaponOffense */
-     , (40627,  63,       1) /* DamageMod */
-     , (40627, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (40627,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40627,   1, 'Frost Quadrelle') /* Name */
@@ -58,23 +55,8 @@ VALUES (40627,   1,   33560724) /* Setup */
      , (40627,   3,  536870932) /* SoundTable */
      , (40627,   6,   67116833) /* PaletteBase */
      , (40627,   8,  100690786) /* Icon */
-     , (40627,  22,  872415275) /* PhysicsEffectTable */
-     , (40627, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40627, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40627, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40627, 8000, 3698569174) /* PCAPRecordedObjectIID */;
+     , (40627,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40627,  1616,      2) 
      , (40627,  5831,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40627, 67116842, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40627, 0, 83898004, 83898004);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40627, 0, 16791977);

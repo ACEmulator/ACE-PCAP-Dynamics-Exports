@@ -30,9 +30,7 @@ VALUES (5304,   1,        256) /* ItemType - MissileWeapon */
      , (5304, 307,          5) /* DamageRating */
      , (5304, 313,          0) /* CritRating */
      , (5304, 314,          0) /* CritDamageRating */
-     , (5304, 386,          0) /* Overpower */
-     , (5304, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (5304, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (5304, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5304,  69, False) /* IsSellable */;
@@ -58,26 +56,12 @@ VALUES (5304,   1,   33554724) /* Setup */
      , (5304,   3,  536870932) /* SoundTable */
      , (5304,   6,   67111919) /* PaletteBase */
      , (5304,   8,  100670200) /* Icon */
-     , (5304,  22,  872415275) /* PhysicsEffectTable */
-     , (5304, 8001,  270775064) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (5304, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5304, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (5304, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (5304,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5304, 8040, 2536964124, 94.46544, 75.56378, 32.09927, 0.6123725, 0.6123725, -0.3535534, -0.3535534) /* PCAPRecordedLocation */
 /* @teleloc 0x9737001C [94.465440 75.563780 32.099270] 0.612373 0.612373 -0.353553 -0.353553 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5304, 8000, 3685862856) /* PCAPRecordedObjectIID */
-     , (5304, 8008, 3685862883) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (5304, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
      , (5304, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5304, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5304, 0, 16777887);

@@ -11,31 +11,23 @@ VALUES (40129,   1,         16) /* ItemType - Creature */
      , (40129,  16,          1) /* ItemUseable - No */
      , (40129,  25,        115) /* Level */
      , (40129,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (40129, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (40129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40129, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40129,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40129,   1, 'Voltaic Crystalline Wisp') /* Name */
-     , (40129, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (40129,   1, 'Voltaic Crystalline Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40129,   1,   33556979) /* Setup */
      , (40129,   2,  150995087) /* MotionTable */
      , (40129,   3,  536870985) /* SoundTable */
-     , (40129,   8,  100671612) /* Icon */
-     , (40129, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (40129, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (40129, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (40129,   8,  100671612) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40129, 8040, 845938719, 85.27548, 161.9082, 304.005, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x326C001F [85.275480 161.908200 304.005000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40129, 8000, 3360746828) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (40129,   1, 150, 0, 0) /* Strength */

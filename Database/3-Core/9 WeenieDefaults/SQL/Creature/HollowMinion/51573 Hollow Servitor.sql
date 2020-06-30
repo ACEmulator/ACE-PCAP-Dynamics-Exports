@@ -11,8 +11,7 @@ VALUES (51573,   1,         16) /* ItemType - Creature */
      , (51573,  16,          1) /* ItemUseable - No */
      , (51573,  25,        300) /* Level */
      , (51573,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (51573, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (51573, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (51573, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51573,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51573,  39,     1.1) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (51573,   1, 'Hollow Servitor') /* Name */
-     , (51573, 8006, 'AAA8AEEAAAA8AAAAwD8AAA==') /* PCAPRecordedCurrentMotionState */;
+VALUES (51573,   1, 'Hollow Servitor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51573,   1,   33556792) /* Setup */
@@ -30,17 +28,11 @@ VALUES (51573,   1,   33556792) /* Setup */
      , (51573,   3,  536871013) /* SoundTable */
      , (51573,   6,   67112967) /* PaletteBase */
      , (51573,   8,  100671140) /* Icon */
-     , (51573,  22,  872415367) /* PhysicsEffectTable */
-     , (51573, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (51573, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (51573, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (51573,  22,  872415367) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (51573, 8040, 1483866494, 132.9783, -190.4563, 0.00274992, -0.2092241, 0, 0, -0.9778677) /* PCAPRecordedLocation */
 /* @teleloc 0x5872017E [132.978300 -190.456300 0.002750] -0.209224 0.000000 0.000000 -0.977868 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51573, 8000, 3695190720) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (51573,   1,     0, 0, 0, 10000) /* MaxHealth */;
@@ -49,6 +41,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (51573, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (51573, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
      , (51573, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (51573, 67117137, 0, 0);

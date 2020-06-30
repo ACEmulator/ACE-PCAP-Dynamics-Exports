@@ -15,8 +15,7 @@ VALUES (9414,   1,         16) /* ItemType - Creature */
      , (9414,  76,     100000) /* MerchandiseMaxValue */
      , (9414,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9414, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9414, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9414, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9414, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9414,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (9414,  37,     0.8) /* BuyPrice */
      , (9414,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9414,   1, 'Kifandal the Imbuer') /* Name */
-     , (9414, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (9414,   1, 'Kifandal the Imbuer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9414,   1,   33557003) /* Setup */
      , (9414,   2,  150994950) /* MotionTable */
      , (9414,   3,  536870922) /* SoundTable */
      , (9414,   6,   67113158) /* PaletteBase */
-     , (9414,   8,  100667447) /* Icon */
-     , (9414, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9414, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9414, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9414,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9414, 8040, 2719875423, 56.0835, 104.781, 639.51, 0.8145673, 0, 0, -0.5800691) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E015F [56.083500 104.781000 639.510000] 0.814567 0.000000 0.000000 -0.580069 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9414, 8000, 2049040389) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (9414,   1,     0, 0, 0, 235) /* MaxHealth */;
@@ -238,28 +230,3 @@ VALUES (9414, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (9414, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (9414, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (9414, 4,  9466, -1, 0, 0, False) /* Create Arm, Mind, Heart (9466) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9414, 67113171, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9414, 0, 83893224, 83893223)
-     , (9414, 0, 83893231, 83893230)
-     , (9414, 2, 83893218, 83893217)
-     , (9414, 5, 83893218, 83893217)
-     , (9414, 7, 83893227, 83893213)
-     , (9414, 7, 83893214, 83893213)
-     , (9414, 9, 83893218, 83893217)
-     , (9414, 12, 83893218, 83893217)
-     , (9414, 19, 83893240, 83893238)
-     , (9414, 20, 83893240, 83893238);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9414, 0, 16785699)
-     , (9414, 2, 16785662)
-     , (9414, 5, 16785662)
-     , (9414, 7, 16785659)
-     , (9414, 9, 16785701)
-     , (9414, 12, 16785701)
-     , (9414, 19, 16785704)
-     , (9414, 20, 16785705);

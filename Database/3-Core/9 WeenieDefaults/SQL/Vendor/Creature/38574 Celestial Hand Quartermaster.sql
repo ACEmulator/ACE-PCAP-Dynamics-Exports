@@ -19,8 +19,7 @@ VALUES (38574,   1,         16) /* ItemType - Creature */
      , (38574, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38574, 188,          2) /* HeritageGroup - Gharundim */
      , (38574, 281,          1) /* Faction1Bits */
-     , (38574, 287,       1001) /* SocietyRankCelhan */
-     , (38574, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38574, 287,       1001) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38574,   1, True ) /* Stuck */
@@ -34,8 +33,7 @@ VALUES (38574,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38574,   1, 'Celestial Hand Quartermaster') /* Name */
-     , (38574,   5, 'Society Officer') /* Template */
-     , (38574, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38574,   5, 'Society Officer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38574,   1,   33554433) /* Setup */
@@ -49,17 +47,11 @@ VALUES (38574,   1,   33554433) /* Setup */
      , (38574,  15,   67117027) /* HairPalette */
      , (38574,  16,   67109567) /* EyesPalette */
      , (38574,  17,   67109552) /* SkinPalette */
-     , (38574,  57,      38234) /* AlternateCurrency - Celestial Hand Trade Token */
-     , (38574, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (38574, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (38574, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (38574,  57,      38234) /* AlternateCurrency - Celestial Hand Trade Token */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38574, 8040, 11993707, 136.802, -36.0819, -17.995, 0.5739695, 0, 0, -0.8188766) /* PCAPRecordedLocation */
 /* @teleloc 0x00B7026B [136.802000 -36.081900 -17.995000] 0.573970 0.000000 0.000000 -0.818877 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38574, 8000, 1879797828) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38574,   1, 220, 0, 0) /* Strength */
@@ -93,54 +85,3 @@ VALUES (38574, 4, 38544, -1, 0, 0, False) /* Create Celestial Hand Armor Writ (3
      , (38574, 4, 44591, -1, 0, 0, False) /* Create Celestial Hand Covenant Shield Cover (44591) for Shop */
      , (38574, 4, 44600, -1, 0, 0, False) /* Create Celestial Hand Olthoi Shield Cover (44600) for Shop */
      , (38574, 4, 41508, -1, 0, 0, False) /* Create Major Item Tinkering Armature (41508) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38574, 67109552, 0, 24)
-     , (38574, 67109567, 32, 8)
-     , (38574, 67109964, 92, 4)
-     , (38574, 67110003, 72, 8)
-     , (38574, 67110334, 160, 8)
-     , (38574, 67110376, 64, 8)
-     , (38574, 67113251, 40, 24)
-     , (38574, 67117027, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (38574, 0, 83889072, 83886685)
-     , (38574, 0, 83889342, 83889386)
-     , (38574, 1, 83887064, 83886241)
-     , (38574, 2, 83887066, 83887051)
-     , (38574, 3, 83889344, 83887054)
-     , (38574, 4, 83887068, 83887054)
-     , (38574, 5, 83887064, 83886241)
-     , (38574, 6, 83887066, 83887051)
-     , (38574, 7, 83889344, 83887054)
-     , (38574, 8, 83887068, 83887054)
-     , (38574, 9, 83887061, 83886687)
-     , (38574, 9, 83887060, 83886686)
-     , (38574, 10, 83887069, 83886782)
-     , (38574, 11, 83886788, 83891213)
-     , (38574, 13, 83887069, 83886782)
-     , (38574, 14, 83886788, 83891213)
-     , (38574, 16, 83886232, 83890685)
-     , (38574, 16, 83886668, 83890505)
-     , (38574, 16, 83886837, 83890534)
-     , (38574, 16, 83886684, 83890618);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (38574, 0, 16793839)
-     , (38574, 1, 16777295)
-     , (38574, 2, 16781866)
-     , (38574, 3, 16781841)
-     , (38574, 4, 16781838)
-     , (38574, 5, 16777299)
-     , (38574, 6, 16781864)
-     , (38574, 7, 16781840)
-     , (38574, 8, 16781839)
-     , (38574, 9, 16793840)
-     , (38574, 10, 16777301)
-     , (38574, 11, 16781822)
-     , (38574, 12, 16777304)
-     , (38574, 13, 16777303)
-     , (38574, 14, 16781821)
-     , (38574, 15, 16777307)
-     , (38574, 16, 16795650);

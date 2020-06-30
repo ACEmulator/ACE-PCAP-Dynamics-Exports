@@ -31,9 +31,7 @@ VALUES (40821,   1,          1) /* ItemType - MeleeWeapon */
      , (40821, 160,        300) /* WieldDifficulty */
      , (40821, 172,          1) /* AppraisalLongDescDecoration */
      , (40821, 176,         41) /* AppraisalItemSkill */
-     , (40821, 353,         11) /* WeaponType - TwoHanded */
-     , (40821, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40821, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40821, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40821,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (40821,   5,  -0.042) /* ManaRate */
      , (40821,  29,    1.06) /* WeaponDefense */
      , (40821,  62,     1.1) /* WeaponOffense */
      , (40821,  63,       1) /* DamageMod */
-     , (40821, 150,    1.01) /* WeaponMagicDefense */
-     , (40821, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (40821, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40821,   1, 'Flaming Corsesca') /* Name */
@@ -58,23 +55,8 @@ VALUES (40821,   1,   33560789) /* Setup */
      , (40821,   3,  536870932) /* SoundTable */
      , (40821,   6,   67115560) /* PaletteBase */
      , (40821,   8,  100690788) /* Icon */
-     , (40821,  22,  872415275) /* PhysicsEffectTable */
-     , (40821, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40821, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40821, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40821, 8000, 3701087382) /* PCAPRecordedObjectIID */;
+     , (40821,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40821,  1615,      2) 
      , (40821,  1626,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40821, 67116408, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40821, 0, 83896667, 83896667);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40821, 0, 16794281);

@@ -16,8 +16,7 @@ VALUES (34022,   1,          4) /* ItemType - Clothing */
      , (34022, 107,        500) /* ItemCurMana */
      , (34022, 108,        500) /* ItemMaxMana */
      , (34022, 109,        225) /* ItemDifficulty */
-     , (34022, 151,          1) /* HookType - Floor */
-     , (34022, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34022, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34022,  22, True ) /* Inscribable */
@@ -42,20 +41,8 @@ VALUES (34022,   1, 'White Bunny Slippers') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34022,   1,   33557435) /* Setup */
      , (34022,   8,  100672393) /* Icon */
-     , (34022,  22,  872415275) /* PhysicsEffectTable */
-     , (34022, 8001,  270876688) /* PCAPRecordedWeenieHeader - Usable, Container, ValidLocations, Priority, Burden, HookType */
-     , (34022, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34022, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34022, 8000, 2166170656) /* PCAPRecordedObjectIID */;
+     , (34022,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34022,   975,      2) 
      , (34022,   987,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (34022, 0, 16793227)
-     , (34022, 1, 16793228)
-     , (34022, 2, 16793229)
-     , (34022, 3, 16793230);

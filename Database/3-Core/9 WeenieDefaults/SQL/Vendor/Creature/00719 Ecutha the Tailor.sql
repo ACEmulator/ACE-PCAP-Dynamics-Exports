@@ -17,8 +17,7 @@ VALUES (719,   1,         16) /* ItemType - Creature */
      , (719, 113,          2) /* Gender - Female */
      , (719, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (719, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (719, 188,          1) /* HeritageGroup - Aluvian */
-     , (719, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (719, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (719,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (719,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (719,   1, 'Ecutha the Tailor') /* Name */
-     , (719,   5, 'Tailor') /* Template */
-     , (719, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (719,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (719,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (719,   1,   33554510) /* Setup */
      , (719,  11,   83890353) /* MouthTexture */
      , (719,  15,   67117074) /* HairPalette */
      , (719,  16,   67110064) /* EyesPalette */
-     , (719,  17,   67109558) /* SkinPalette */
-     , (719, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (719, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (719, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (719,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (719, 8040, 2847146282, 56.52, 132, 66.005, 0.6573559, 0, 0, -0.7535803) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4012A [56.520000 132.000000 66.005000] 0.657356 0.000000 0.000000 -0.753580 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (719, 8000, 2056994853) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (719,   1,  30, 0, 0) /* Strength */
@@ -87,58 +79,3 @@ VALUES (719, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
      , (719, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
      , (719, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
      , (719, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (719, 67109558, 0, 24)
-     , (719, 67109966, 92, 4)
-     , (719, 67110064, 32, 8)
-     , (719, 67110359, 40, 24)
-     , (719, 67110361, 250, 6)
-     , (719, 67110363, 64, 8)
-     , (719, 67110375, 160, 8)
-     , (719, 67110378, 216, 24)
-     , (719, 67110554, 72, 8)
-     , (719, 67117074, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (719, 0, 83889072, 83890012)
-     , (719, 0, 83889342, 83890011)
-     , (719, 1, 83887064, 83886241)
-     , (719, 2, 83887066, 83887051)
-     , (719, 3, 83889344, 83887054)
-     , (719, 4, 83887068, 83887054)
-     , (719, 5, 83887064, 83886241)
-     , (719, 6, 83887066, 83887051)
-     , (719, 7, 83889344, 83887054)
-     , (719, 8, 83887068, 83887054)
-     , (719, 9, 83887070, 83890009)
-     , (719, 9, 83887062, 83890010)
-     , (719, 10, 83887069, 83886782)
-     , (719, 11, 83887067, 83891213)
-     , (719, 13, 83887069, 83886782)
-     , (719, 14, 83887067, 83891213)
-     , (719, 16, 83886232, 83890685)
-     , (719, 16, 83886668, 83890259)
-     , (719, 16, 83886837, 83890306)
-     , (719, 16, 83886684, 83890353)
-     , (719, 16, 83889859, 83889864)
-     , (719, 16, 83889858, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (719, 0, 16781875)
-     , (719, 1, 16778430)
-     , (719, 2, 16781908)
-     , (719, 3, 16781841)
-     , (719, 4, 16783485)
-     , (719, 5, 16778438)
-     , (719, 6, 16781909)
-     , (719, 7, 16781840)
-     , (719, 8, 16783487)
-     , (719, 9, 16778425)
-     , (719, 10, 16778431)
-     , (719, 11, 16778429)
-     , (719, 12, 16778423)
-     , (719, 13, 16778434)
-     , (719, 14, 16778424)
-     , (719, 15, 16778435)
-     , (719, 16, 16779635);

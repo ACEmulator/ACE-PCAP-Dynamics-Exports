@@ -19,14 +19,8 @@ VALUES (42870,   1, 'Slithis') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42870,   1,   33561013) /* Setup */
-     , (42870,   8,  100668115) /* Icon */
-     , (42870, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42870, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42870, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42870,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42870, 8040, 459022, 5.145, -64.961, 1.436, 0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007010E [5.145000 -64.961000 1.436000] 0.707107 0.000000 0.000000 0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42870, 8000, 1879076869) /* PCAPRecordedObjectIID */;

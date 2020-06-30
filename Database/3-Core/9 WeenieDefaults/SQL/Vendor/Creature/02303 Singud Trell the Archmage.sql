@@ -17,8 +17,7 @@ VALUES (2303,   1,         16) /* ItemType - Creature */
      , (2303, 113,          1) /* Gender - Male */
      , (2303, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2303, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2303, 188,          1) /* HeritageGroup - Aluvian */
-     , (2303, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2303, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2303,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2303,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2303,   1, 'Singud Trell the Archmage') /* Name */
-     , (2303,   5, 'Archmage') /* Template */
-     , (2303, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2303,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2303,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2303,   1,   33554433) /* Setup */
      , (2303,  11,   83890662) /* MouthTexture */
      , (2303,  15,   67117073) /* HairPalette */
      , (2303,  16,   67109567) /* EyesPalette */
-     , (2303,  17,   67109562) /* SkinPalette */
-     , (2303, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2303, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2303, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2303,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2303, 8040, 2711879972, 131.814, 123.922, 53.045, 0.9317681, 0, 0, -0.363054) /* PCAPRecordedLocation */
 /* @teleloc 0xA1A40124 [131.814000 123.922000 53.045000] 0.931768 0.000000 0.000000 -0.363054 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2303, 8000, 2048540717) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2303,   1,  20, 0, 0) /* Strength */
@@ -186,53 +178,3 @@ VALUES (2303, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2303, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (2303, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (2303, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2303, 67109562, 0, 24)
-     , (2303, 67109567, 32, 8)
-     , (2303, 67109969, 92, 4)
-     , (2303, 67110003, 72, 8)
-     , (2303, 67110356, 64, 8)
-     , (2303, 67110356, 216, 24)
-     , (2303, 67110356, 160, 8)
-     , (2303, 67111245, 40, 24)
-     , (2303, 67117073, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2303, 0, 83889072, 83890012)
-     , (2303, 0, 83889342, 83890011)
-     , (2303, 1, 83887064, 83886241)
-     , (2303, 2, 83887066, 83887055)
-     , (2303, 3, 83889344, 83887054)
-     , (2303, 4, 83887068, 83887054)
-     , (2303, 5, 83887064, 83886241)
-     , (2303, 6, 83887066, 83887055)
-     , (2303, 7, 83889344, 83887054)
-     , (2303, 8, 83887068, 83887054)
-     , (2303, 9, 83887061, 83890009)
-     , (2303, 9, 83887060, 83890010)
-     , (2303, 10, 83887069, 83886782)
-     , (2303, 13, 83887069, 83886782)
-     , (2303, 16, 83886232, 83890685)
-     , (2303, 16, 83886668, 83890485)
-     , (2303, 16, 83886837, 83890562)
-     , (2303, 16, 83886684, 83890662);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2303, 0, 16781835)
-     , (2303, 1, 16777295)
-     , (2303, 2, 16777293)
-     , (2303, 3, 16777292)
-     , (2303, 4, 16777291)
-     , (2303, 5, 16777299)
-     , (2303, 6, 16777297)
-     , (2303, 7, 16777296)
-     , (2303, 8, 16777298)
-     , (2303, 9, 16777300)
-     , (2303, 10, 16777301)
-     , (2303, 11, 16777302)
-     , (2303, 12, 16777304)
-     , (2303, 13, 16777303)
-     , (2303, 14, 16777305)
-     , (2303, 15, 16777307)
-     , (2303, 16, 16795665);

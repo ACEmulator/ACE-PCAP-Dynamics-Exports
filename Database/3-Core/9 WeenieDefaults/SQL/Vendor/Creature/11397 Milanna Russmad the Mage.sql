@@ -17,8 +17,7 @@ VALUES (11397,   1,         16) /* ItemType - Creature */
      , (11397, 113,          2) /* Gender - Female */
      , (11397, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11397, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11397, 188,          1) /* HeritageGroup - Aluvian */
-     , (11397, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11397, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11397,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (11397,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11397,   1, 'Milanna Russmad the Mage') /* Name */
-     , (11397,   5, 'Archmage') /* Template */
-     , (11397, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (11397,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11397,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (11397,   1,   33554510) /* Setup */
      , (11397,  11,   83890348) /* MouthTexture */
      , (11397,  15,   67117069) /* HairPalette */
      , (11397,  16,   67110062) /* EyesPalette */
-     , (11397,  17,   67109559) /* SkinPalette */
-     , (11397, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11397, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11397, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (11397,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11397, 8040, 397541670, 55.6191, 79.2514, 46.005, -0.8957237, 0, 0, -0.4446111) /* PCAPRecordedLocation */
 /* @teleloc 0x17B20126 [55.619100 79.251400 46.005000] -0.895724 0.000000 0.000000 -0.444611 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11397, 8000, 1903894536) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11397,   1,  50, 0, 0) /* Strength */
@@ -182,49 +174,3 @@ VALUES (11397, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (11397, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (11397, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (11397, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11397, 67109559, 0, 24)
-     , (11397, 67109967, 92, 4)
-     , (11397, 67110020, 72, 8)
-     , (11397, 67110062, 32, 8)
-     , (11397, 67110330, 216, 24)
-     , (11397, 67110362, 40, 24)
-     , (11397, 67110362, 160, 8)
-     , (11397, 67110385, 64, 8)
-     , (11397, 67117069, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11397, 0, 83889072, 83890012)
-     , (11397, 0, 83889342, 83890011)
-     , (11397, 1, 83887064, 83886241)
-     , (11397, 3, 83889344, 83887054)
-     , (11397, 4, 83887068, 83887054)
-     , (11397, 5, 83887064, 83886241)
-     , (11397, 7, 83889344, 83887054)
-     , (11397, 8, 83887068, 83887054)
-     , (11397, 9, 83887070, 83890009)
-     , (11397, 9, 83887062, 83890010)
-     , (11397, 16, 83886232, 83890685)
-     , (11397, 16, 83886668, 83890255)
-     , (11397, 16, 83886837, 83890313)
-     , (11397, 16, 83886684, 83890348);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11397, 0, 16781875)
-     , (11397, 1, 16778430)
-     , (11397, 2, 16778436)
-     , (11397, 3, 16778361)
-     , (11397, 4, 16778426)
-     , (11397, 5, 16778438)
-     , (11397, 6, 16778437)
-     , (11397, 7, 16778360)
-     , (11397, 8, 16778428)
-     , (11397, 9, 16778425)
-     , (11397, 10, 16778431)
-     , (11397, 11, 16778429)
-     , (11397, 12, 16778423)
-     , (11397, 13, 16778434)
-     , (11397, 14, 16778424)
-     , (11397, 15, 16778435)
-     , (11397, 16, 16795650);

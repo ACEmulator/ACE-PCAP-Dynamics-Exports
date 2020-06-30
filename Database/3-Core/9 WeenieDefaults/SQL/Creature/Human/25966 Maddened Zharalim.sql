@@ -14,15 +14,13 @@ VALUES (25966,   1,         16) /* ItemType - Creature */
      , (25966, 113,          2) /* Gender - Female */
      , (25966, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25966, 188,          2) /* HeritageGroup - Gharundim */
-     , (25966, 307,          5) /* DamageRating */
-     , (25966, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25966, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25966,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25966,   1, 'Maddened Zharalim') /* Name */
-     , (25966, 8006, 'AAA9AEAAAAAAAMA/') /* PCAPRecordedCurrentMotionState */;
+VALUES (25966,   1, 'Maddened Zharalim') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25966,   1,   33554510) /* Setup */
@@ -36,17 +34,11 @@ VALUES (25966,   1,   33554510) /* Setup */
      , (25966,  15,   67116992) /* HairPalette */
      , (25966,  16,   67109567) /* EyesPalette */
      , (25966,  17,   67109551) /* SkinPalette */
-     , (25966,  22,  872415236) /* PhysicsEffectTable */
-     , (25966, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25966, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25966, 8005,     104515) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, PeTable, Position, Movement */;
+     , (25966,  22,  872415236) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25966, 8040, 1682572049, 140.4517, -68.98811, -11.995, -0.06091612, 0, 0, -0.9981429) /* PCAPRecordedLocation */
 /* @teleloc 0x644A0311 [140.451700 -68.988110 -11.995000] -0.060916 0.000000 0.000000 -0.998143 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25966, 8000, 2881362255) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25966,   1, 210, 0, 0) /* Strength */
@@ -72,52 +64,3 @@ VALUES (25966, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194)
      , (25966, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (12197) for Wield */
      , (25966, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */
      , (25966, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25966, 67109551, 0, 24)
-     , (25966, 67109567, 32, 8)
-     , (25966, 67110387, 80, 12)
-     , (25966, 67110387, 116, 12)
-     , (25966, 67110539, 96, 12)
-     , (25966, 67112747, 40, 40)
-     , (25966, 67113214, 72, 8)
-     , (25966, 67116992, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (25966, 0, 83889072, 83893326)
-     , (25966, 0, 83889342, 83893326)
-     , (25966, 0, 83892345, 83892353)
-     , (25966, 0, 83892344, 83892353)
-     , (25966, 1, 83892352, 83892352)
-     , (25966, 2, 83892351, 83892351)
-     , (25966, 5, 83892352, 83892352)
-     , (25966, 6, 83892351, 83892351)
-     , (25966, 9, 83891974, 83892357)
-     , (25966, 9, 83891968, 83892356)
-     , (25966, 10, 83892347, 83892355)
-     , (25966, 11, 83892346, 83892354)
-     , (25966, 13, 83892347, 83892355)
-     , (25966, 14, 83892346, 83892354)
-     , (25966, 16, 83886232, 83890685)
-     , (25966, 16, 83886668, 83890257)
-     , (25966, 16, 83886837, 83890290)
-     , (25966, 16, 83886684, 83890331);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25966, 0, 16783897)
-     , (25966, 1, 16783912)
-     , (25966, 2, 16783918)
-     , (25966, 3, 16778361)
-     , (25966, 4, 16778426)
-     , (25966, 5, 16783916)
-     , (25966, 6, 16783920)
-     , (25966, 7, 16778360)
-     , (25966, 8, 16778428)
-     , (25966, 9, 16783714)
-     , (25966, 10, 16783863)
-     , (25966, 11, 16783853)
-     , (25966, 12, 16778423)
-     , (25966, 13, 16783871)
-     , (25966, 14, 16783855)
-     , (25966, 15, 16778435)
-     , (25966, 16, 16785197);

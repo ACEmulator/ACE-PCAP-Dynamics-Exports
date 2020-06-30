@@ -17,8 +17,7 @@ VALUES (4697,   1,         16) /* ItemType - Creature */
      , (4697, 113,          2) /* Gender - Female */
      , (4697, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4697, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (4697, 188,          2) /* HeritageGroup - Gharundim */
-     , (4697, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4697, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4697,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (4697,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4697,   1, 'Bowyer Safruya bint Bilak') /* Name */
-     , (4697,   5, 'Bowyer') /* Template */
-     , (4697, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4697,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4697,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (4697,   1,   33554510) /* Setup */
      , (4697,  11,   83890331) /* MouthTexture */
      , (4697,  15,   67117075) /* HairPalette */
      , (4697,  16,   67110063) /* EyesPalette */
-     , (4697,  17,   67109552) /* SkinPalette */
-     , (4697, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4697, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4697, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (4697,  17,   67109552) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4697, 8040, 2655256891, 58.7736, 109.263, 69.705, -0.1034859, 0, 0, -0.9946309) /* PCAPRecordedLocation */
 /* @teleloc 0x9E44013B [58.773600 109.263000 69.705000] -0.103486 0.000000 0.000000 -0.994631 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4697, 8000, 2045001739) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4697,   1,  80, 0, 0) /* Strength */
@@ -100,55 +92,3 @@ VALUES (4697, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for
      , (4697, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (4697, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (4697, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4697, 67109552, 0, 24)
-     , (4697, 67109969, 92, 4)
-     , (4697, 67110026, 72, 8)
-     , (4697, 67110063, 32, 8)
-     , (4697, 67110320, 64, 8)
-     , (4697, 67110320, 160, 8)
-     , (4697, 67110320, 250, 6)
-     , (4697, 67110325, 40, 24)
-     , (4697, 67110346, 216, 24)
-     , (4697, 67117075, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4697, 0, 83889072, 83890012)
-     , (4697, 0, 83889342, 83890011)
-     , (4697, 1, 83887064, 83886241)
-     , (4697, 2, 83887066, 83887051)
-     , (4697, 3, 83889344, 83887054)
-     , (4697, 4, 83887068, 83887054)
-     , (4697, 5, 83887064, 83886241)
-     , (4697, 6, 83887066, 83887051)
-     , (4697, 7, 83889344, 83887054)
-     , (4697, 8, 83887068, 83887054)
-     , (4697, 9, 83887070, 83890009)
-     , (4697, 9, 83887062, 83890010)
-     , (4697, 10, 83887069, 83886782)
-     , (4697, 13, 83887069, 83886782)
-     , (4697, 16, 83886232, 83890685)
-     , (4697, 16, 83886668, 83890279)
-     , (4697, 16, 83886837, 83890317)
-     , (4697, 16, 83886684, 83890331)
-     , (4697, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4697, 0, 16781875)
-     , (4697, 1, 16778430)
-     , (4697, 2, 16781908)
-     , (4697, 3, 16781841)
-     , (4697, 4, 16783485)
-     , (4697, 5, 16778438)
-     , (4697, 6, 16781909)
-     , (4697, 7, 16781840)
-     , (4697, 8, 16783487)
-     , (4697, 9, 16778425)
-     , (4697, 10, 16778431)
-     , (4697, 11, 16778429)
-     , (4697, 12, 16778423)
-     , (4697, 13, 16778434)
-     , (4697, 14, 16778424)
-     , (4697, 15, 16778435)
-     , (4697, 16, 16778594);

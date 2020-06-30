@@ -11,8 +11,7 @@ VALUES (37448,   1,        128) /* ItemType - Misc */
      , (37448,  19,          0) /* Value */
      , (37448,  33,          1) /* Bonded - Bonded */
      , (37448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37448, 114,          1) /* Attuned - Attuned */
-     , (37448, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37448, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37448,   1, 'Small Tainted Egg') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37448,   1,   33554817) /* Setup */
      , (37448,   3,  536870932) /* SoundTable */
      , (37448,   8,  100689466) /* Icon */
-     , (37448,  22,  872415275) /* PhysicsEffectTable */
-     , (37448, 8001,    2113680) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, Burden */
-     , (37448, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37448, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37448, 8000, 2620511831) /* PCAPRecordedObjectIID */;
+     , (37448,  22,  872415275) /* PhysicsEffectTable */;

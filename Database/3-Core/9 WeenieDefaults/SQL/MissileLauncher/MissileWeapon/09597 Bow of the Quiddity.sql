@@ -23,9 +23,7 @@ VALUES (9597,   1,        256) /* ItemType - MissileWeapon */
      , (9597, 108,       1000) /* ItemMaxMana */
      , (9597, 109,         50) /* ItemDifficulty */
      , (9597, 151,          2) /* HookType - Wall */
-     , (9597, 353,          8) /* WeaponType - Bow */
-     , (9597, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (9597, 8041,          3) /* PCAPRecordedPlacement - LeftHand */;
+     , (9597, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9597,  22, True ) /* Inscribable */;
@@ -49,19 +47,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9597,   1,   33557111) /* Setup */
      , (9597,   3,  536870932) /* SoundTable */
      , (9597,   8,  100671694) /* Icon */
-     , (9597,  22,  872415275) /* PhysicsEffectTable */
-     , (9597, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (9597, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (9597, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (9597, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (9597,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9597, 8040, 1665466628, 118.8158, -46.36127, -24.07, 0.7095142, 0, 0, 0.7046912) /* PCAPRecordedLocation */
 /* @teleloc 0x63450104 [118.815800 -46.361270 -24.070000] 0.709514 0.000000 0.000000 0.704691 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9597, 8000, 3703188197) /* PCAPRecordedObjectIID */
-     , (9597, 8008, 3703371044) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9597,  1590,      2) 

@@ -33,9 +33,7 @@ VALUES (3868,   1,          1) /* ItemType - MeleeWeapon */
      , (3868, 176,         44) /* AppraisalItemSkill */
      , (3868, 177,          4) /* GemCount */
      , (3868, 178,         41) /* GemType */
-     , (3868, 353,          3) /* WeaponType - Axe */
-     , (3868, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3868, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3868, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3868,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (3868,   5,   -0.05) /* ManaRate */
      , (3868,  29,    1.06) /* WeaponDefense */
      , (3868,  39,    1.25) /* DefaultScale */
      , (3868,  62,    1.16) /* WeaponOffense */
-     , (3868,  63,       1) /* DamageMod */
-     , (3868, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3868,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3868,   1, 'Frost Silifi') /* Name */
@@ -59,13 +56,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3868,   1,   33555779) /* Setup */
      , (3868,   3,  536870932) /* SoundTable */
      , (3868,   8,  100668994) /* Icon */
-     , (3868,  22,  872415275) /* PhysicsEffectTable */
-     , (3868, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3868, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3868, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3868, 8000, 3699122567) /* PCAPRecordedObjectIID */;
+     , (3868,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3868,  1616,      2) 

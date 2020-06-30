@@ -12,8 +12,7 @@ VALUES (7090,   1,         16) /* ItemType - Creature */
      , (7090,  25,         80) /* Level */
      , (7090,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7090, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7090, 307,          5) /* DamageRating */
-     , (7090, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7090, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7090,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7090,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7090,   1, 'Augmented Drudge') /* Name */
-     , (7090, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7090,   1, 'Augmented Drudge') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7090,   1,   33556445) /* Setup */
@@ -31,17 +29,11 @@ VALUES (7090,   1,   33556445) /* Setup */
      , (7090,   3,  536870919) /* SoundTable */
      , (7090,   6,   67112812) /* PaletteBase */
      , (7090,   8,  100667445) /* Icon */
-     , (7090,  22,  872415258) /* PhysicsEffectTable */
-     , (7090, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7090, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7090, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (7090,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7090, 8040, 2376990759, 107.9741, 153.3577, 48.00455, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x8DAE0027 [107.974100 153.357700 48.004550] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7090, 8000, 3685934693) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7090,   1, 190, 0, 0) /* Strength */
@@ -502,29 +494,3 @@ VALUES (7090, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wie
      , (7090, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */
      , (7090, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
      , (7090, 9, 40624,  0, 0, 0, False) /* Create Acid Quadrelle (40624) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7090, 67112895, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7090, 1, 83892459, 83892460)
-     , (7090, 1, 83892457, 83892458)
-     , (7090, 2, 83892455, 83892456)
-     , (7090, 3, 83892453, 83892454)
-     , (7090, 5, 83892455, 83892456)
-     , (7090, 6, 83892453, 83892454)
-     , (7090, 9, 83892467, 83892468)
-     , (7090, 12, 83892467, 83892468)
-     , (7090, 14, 83892463, 83892464)
-     , (7090, 14, 83892465, 83892465)
-     , (7090, 14, 83892466, 83892466);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7090, 1, 16784273)
-     , (7090, 2, 16784265)
-     , (7090, 3, 16784258)
-     , (7090, 5, 16784269)
-     , (7090, 6, 16784261)
-     , (7090, 9, 16784289)
-     , (7090, 12, 16784289)
-     , (7090, 14, 16784286);

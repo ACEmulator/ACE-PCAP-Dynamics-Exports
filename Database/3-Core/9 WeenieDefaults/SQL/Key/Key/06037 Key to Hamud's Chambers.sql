@@ -11,8 +11,7 @@ VALUES (6037,   1,      16384) /* ItemType - Key */
      , (6037,  91,          2) /* MaxStructure */
      , (6037,  92,          2) /* Structure */
      , (6037,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6037,  94,        640) /* TargetType - LockableMagicTarget */
-     , (6037, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6037,  94,        640) /* TargetType - LockableMagicTarget */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6037,  22, True ) /* Inscribable */;
@@ -25,10 +24,4 @@ VALUES (6037,   1, 'Key to Hamud''s Chambers') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (6037,   1,   33554784) /* Setup */
      , (6037,   8,  100668441) /* Icon */
-     , (6037,  22,  872415275) /* PhysicsEffectTable */
-     , (6037, 8001,    2640920) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (6037, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6037, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6037, 8000, 2779730378) /* PCAPRecordedObjectIID */;
+     , (6037,  22,  872415275) /* PhysicsEffectTable */;

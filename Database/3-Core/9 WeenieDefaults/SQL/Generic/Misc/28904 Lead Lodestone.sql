@@ -22,10 +22,4 @@ VALUES (28904,   1, 'Lead Lodestone') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28904,   1,   33557505) /* Setup */
-     , (28904,   8,  100677041) /* Icon */
-     , (28904, 8001,    2113560) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden */
-     , (28904, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28904, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28904, 8000, 2629411049) /* PCAPRecordedObjectIID */;
+     , (28904,   8,  100677041) /* Icon */;

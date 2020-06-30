@@ -14,8 +14,7 @@ VALUES (53022,   1,       2048) /* ItemType - Gem */
      , (53022,  18,         32) /* UiEffects - Fire */
      , (53022,  19,         25) /* Value */
      , (53022,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (53022,  94,          6) /* TargetType - Vestements */
-     , (53022, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (53022,  94,          6) /* TargetType - Vestements */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53022,   1, 'Corrupted Amber: Girth of the Corrupted Soul.') /* Name */
@@ -26,19 +25,4 @@ VALUES (53022,   1,   33554809) /* Setup */
      , (53022,   3,  536870932) /* SoundTable */
      , (53022,   6,   67111919) /* PaletteBase */
      , (53022,   8,  100693326) /* Icon */
-     , (53022,  22,  872415275) /* PhysicsEffectTable */
-     , (53022, 8001,    2650265) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden */
-     , (53022, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (53022, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53022, 8000, 3036566193) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (53022, 67111921, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (53022, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (53022, 0, 16779181);
+     , (53022,  22,  872415275) /* PhysicsEffectTable */;

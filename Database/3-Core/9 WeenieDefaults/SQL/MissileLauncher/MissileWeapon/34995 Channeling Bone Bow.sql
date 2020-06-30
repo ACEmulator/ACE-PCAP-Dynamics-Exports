@@ -26,8 +26,7 @@ VALUES (34995,   1,        256) /* ItemType - MissileWeapon */
      , (34995, 158,          2) /* WieldRequirements - RawSkill */
      , (34995, 159,         47) /* WieldSkillType - MissileWeapons */
      , (34995, 160,        360) /* WieldDifficulty */
-     , (34995, 353,          8) /* WeaponType - Bow */
-     , (34995, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (34995, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34995,  22, True ) /* Inscribable */;
@@ -51,19 +50,11 @@ VALUES (34995,   1,   33560183) /* Setup */
      , (34995,   3,  536870932) /* SoundTable */
      , (34995,   8,  100689316) /* Icon */
      , (34995,  22,  872415275) /* PhysicsEffectTable */
-     , (34995,  55,       4069) /* ProcSpell - MucorJolt */
-     , (34995, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (34995, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (34995, 8005,      39073) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position */
-     , (34995, 8009,          2) /* PCAPRecordedParentLocation - LeftHand */;
+     , (34995,  55,       4069) /* ProcSpell - MucorJolt */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34995, 8040, 3600351239, 0.7415762, 163.7971, 373.93, -0.2709971, 0, 0, -0.9625801) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [0.741576 163.797100 373.930000] -0.270997 0.000000 0.000000 -0.962580 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34995, 8000, 2168671103) /* PCAPRecordedObjectIID */
-     , (34995, 8008, 1343115917) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34995,  2096,      2) 

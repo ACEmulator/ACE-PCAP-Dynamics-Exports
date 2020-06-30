@@ -12,15 +12,13 @@ VALUES (7179,   1,         16) /* ItemType - Creature */
      , (7179,  25,         80) /* Level */
      , (7179,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7179, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7179, 307,          5) /* DamageRating */
-     , (7179, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7179, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7179,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7179,   1, 'Relic Bones') /* Name */
-     , (7179, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7179,   1, 'Relic Bones') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7179,   1,   33559523) /* Setup */
@@ -28,17 +26,11 @@ VALUES (7179,   1,   33559523) /* Setup */
      , (7179,   3,  536870942) /* SoundTable */
      , (7179,   6,   67116522) /* PaletteBase */
      , (7179,   8,  100669124) /* Icon */
-     , (7179,  22,  872415269) /* PhysicsEffectTable */
-     , (7179, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7179, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7179, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7179,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7179, 8040, 2434924574, 77.75583, 121.4308, 121.2871, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x9122001E [77.755830 121.430800 121.287100] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7179, 8000, 3685094125) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7179,   1, 115, 0, 0) /* Strength */
@@ -606,6 +598,3 @@ VALUES (7179, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wi
      , (7179, 9, 20402,  0, 0, 0, False) /* Create Scroll of Olthoi's Bane (20402) for ContainTreasure */
      , (7179, 9,  3812,  0, 0, 0, False) /* Create Flaming Kaskara (3812) for ContainTreasure */
      , (7179, 9, 46882,  0, 0, 0, False) /* Create Aura of Spirit Drinker Other VII (46882) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7179, 67116527, 0, 0);

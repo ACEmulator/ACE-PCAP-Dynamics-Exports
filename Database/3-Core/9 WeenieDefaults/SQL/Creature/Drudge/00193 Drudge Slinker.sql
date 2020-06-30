@@ -11,8 +11,7 @@ VALUES (193,   1,         16) /* ItemType - Creature */
      , (193,  16,          1) /* ItemUseable - No */
      , (193,  25,          8) /* Level */
      , (193,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (193, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (193, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (193, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (193,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (193,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (193,   1, 'Drudge Slinker') /* Name */
-     , (193, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (193,   1, 'Drudge Slinker') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (193,   1,   33556445) /* Setup */
@@ -30,17 +28,11 @@ VALUES (193,   1,   33556445) /* Setup */
      , (193,   3,  536870919) /* SoundTable */
      , (193,   6,   67112812) /* PaletteBase */
      , (193,   8,  100667445) /* Icon */
-     , (193,  22,  872415258) /* PhysicsEffectTable */
-     , (193, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (193, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (193, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (193,  22,  872415258) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (193, 8040, 23527859, 130.906, -28.7457, 6.003325, -0.346219, 0, 0, -0.938154) /* PCAPRecordedLocation */
 /* @teleloc 0x016701B3 [130.906000 -28.745700 6.003325] -0.346219 0.000000 0.000000 -0.938154 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (193, 8000, 3685459065) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (193,   1,  60, 0, 0) /* Strength */
@@ -392,14 +384,3 @@ VALUES (193, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wi
      , (193, 9, 41047,  0, 0, 0, False) /* Create Acid Pike (41047) for ContainTreasure */
      , (193, 9,  3223,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other II (3223) for ContainTreasure */
      , (193, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (193, 67112815, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (193, 3, 83892453, 83892454)
-     , (193, 6, 83892453, 83892454);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (193, 3, 16784258)
-     , (193, 6, 16784261);

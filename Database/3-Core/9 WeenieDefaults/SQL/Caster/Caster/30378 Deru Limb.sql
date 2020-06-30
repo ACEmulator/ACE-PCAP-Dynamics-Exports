@@ -49,20 +49,11 @@ VALUES (30378,   1,   33559426) /* Setup */
      , (30378,   8,  100686855) /* Icon */
      , (30378,  22,  872415275) /* PhysicsEffectTable */
      , (30378,  28,       2073) /* Spell - HealSelf7 */
-     , (30378,  52,  100686604) /* IconUnderlay */
-     , (30378, 8001,  275480600) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (30378, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30378, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30378, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (30378, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (30378,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30378, 8040, 1676148780, 120.9882, 87.64902, 131.929, 0.4417847, 0.4417847, -0.5521108, -0.5521108) /* PCAPRecordedLocation */
 /* @teleloc 0x63E8002C [120.988200 87.649020 131.929000] 0.441785 0.441785 -0.552111 -0.552111 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30378, 8000, 3580933681) /* PCAPRecordedObjectIID */
-     , (30378, 8008, 1343280821) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30378,   995,      2) 

@@ -25,8 +25,7 @@ VALUES (30511,   1,          2) /* ItemType - Armor */
      , (30511, 319,         50) /* ItemMaxLevel */
      , (30511, 320,          1) /* ItemXpStyle - Fixed */
      , (30511, 376,          2) /* GearHealingBoost */
-     , (30511, 379,          1) /* GearMaxHealth */
-     , (30511, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30511, 379,          1) /* GearMaxHealth */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30511,   4, 100000000000) /* ItemTotalXp */
@@ -59,19 +58,9 @@ VALUES (30511,   1,   33559428) /* Setup */
      , (30511,   3,  536870932) /* SoundTable */
      , (30511,   8,  100686863) /* Icon */
      , (30511,  22,  872415275) /* PhysicsEffectTable */
-     , (30511,  52,  100686604) /* IconUnderlay */
-     , (30511, 8001,  271024152) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
-     , (30511, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30511, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (30511, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30511, 8000, 2147529165) /* PCAPRecordedObjectIID */;
+     , (30511,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30511,  3964,      2) 
      , (30511,  4407,      2) 
      , (30511,  4705,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30511, 0, 16792970);

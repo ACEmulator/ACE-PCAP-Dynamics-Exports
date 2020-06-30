@@ -19,10 +19,4 @@ VALUES (44726,   1, 'Carenzi') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44726,   1,   33561326) /* Setup */
-     , (44726,   8,  100668115) /* Icon */
-     , (44726, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44726, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44726, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44726, 8000, 2187838676) /* PCAPRecordedObjectIID */;
+     , (44726,   8,  100668115) /* Icon */;

@@ -8,8 +8,7 @@ VALUES (6441,   1,    4194304) /* ItemType - CraftCookingBase */
      , (6441,   5,       6000) /* EncumbranceVal */
      , (6441,  16,         48) /* ItemUseable - ViewedRemote */
      , (6441,  19,        200) /* Value */
-     , (6441,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (6441, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6441,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6441,   1, True ) /* Stuck */;
@@ -26,17 +25,11 @@ VALUES (6441,   1,   33554712) /* Setup */
      , (6441,   3,  536870932) /* SoundTable */
      , (6441,   8,  100667466) /* Icon */
      , (6441,  22,  872415275) /* PhysicsEffectTable */
-     , (6441,  28,       1183) /* Spell - RevitalizeOther1 */
-     , (6441, 8001,    6291512) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Burden, Spell */
-     , (6441, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (6441, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (6441,  28,       1183) /* Spell - RevitalizeOther1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6441, 8040, 4116250677, 157.873, 113.209, 20, 0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0xF5590035 [157.873000 113.209000 20.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6441, 8000, 2136313868) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6441,  1183,      2) ;

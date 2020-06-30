@@ -19,8 +19,7 @@ VALUES (28452,   1,         32) /* ItemType - Food */
      , (28452, 107,         50) /* ItemCurMana */
      , (28452, 108,         50) /* ItemMaxMana */
      , (28452, 109,          0) /* ItemDifficulty */
-     , (28452, 110,          0) /* ItemAllegianceRankLimit */
-     , (28452, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28452, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28452,  39,     1.5) /* DefaultScale */;
@@ -35,13 +34,7 @@ VALUES (28452,   1,   33554665) /* Setup */
      , (28452,   3,  536870932) /* SoundTable */
      , (28452,   8,  100676962) /* Icon */
      , (28452,  22,  872415275) /* PhysicsEffectTable */
-     , (28452,  28,       3442) /* Spell - LugianStamina */
-     , (28452, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (28452, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (28452, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28452, 8000, 2174519198) /* PCAPRecordedObjectIID */;
+     , (28452,  28,       3442) /* Spell - LugianStamina */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28452,  3442,      2) ;

@@ -20,14 +20,10 @@ VALUES (21066,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (21066, 105,          7) /* ItemWorkmanship */
      , (21066, 131,         34) /* MaterialType - Peridot */
      , (21066, 151,          9) /* HookType - Floor, Yard */
-     , (21066, 170,          1) /* NumItemsInMaterial */
-     , (21066, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (21066, 170,          1) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21066,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (21066, 8004,   6.667) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21066,   1, 'Salvage (40)') /* Name */
@@ -40,19 +36,4 @@ VALUES (21066,   1,   33554817) /* Setup */
      , (21066,   6,   67111919) /* PaletteBase */
      , (21066,   8,  100673219) /* Icon */
      , (21066,  22,  872415275) /* PhysicsEffectTable */
-     , (21066,  50,  100673289) /* IconOverlay */
-     , (21066, 8001, 3509091352) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (21066, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (21066, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (21066, 8000, 2401204075) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (21066, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (21066, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (21066, 0, 16777882);
+     , (21066,  50,  100673289) /* IconOverlay */;

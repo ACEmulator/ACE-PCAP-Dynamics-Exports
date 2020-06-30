@@ -12,8 +12,7 @@ VALUES (47807,   1,         32) /* ItemType - Food */
      , (47807,  15,          5) /* StackUnitValue */
      , (47807,  16,          1) /* ItemUseable - No */
      , (47807,  19,          5) /* Value */
-     , (47807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (47807, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (47807,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47807,   1, 'Drugged Meat') /* Name */
@@ -21,10 +20,4 @@ VALUES (47807,   1, 'Drugged Meat') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47807,   1,   33554678) /* Setup */
-     , (47807,   8,  100667464) /* Icon */
-     , (47807, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (47807, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (47807, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47807, 8000, 2876986222) /* PCAPRecordedObjectIID */;
+     , (47807,   8,  100667464) /* Icon */;

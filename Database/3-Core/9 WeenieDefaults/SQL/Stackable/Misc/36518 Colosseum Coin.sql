@@ -14,8 +14,7 @@ VALUES (36518,   1,        128) /* ItemType - Misc */
      , (36518,  19,          0) /* Value */
      , (36518,  33,          1) /* Bonded - Bonded */
      , (36518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36518, 114,          1) /* Attuned - Attuned */
-     , (36518, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36518, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36518,   1, 'Colosseum Coin') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36518,   1,   33554802) /* Setup */
      , (36518,   3,  536870932) /* SoundTable */
      , (36518,   8,  100689380) /* Icon */
-     , (36518,  22,  872415275) /* PhysicsEffectTable */
-     , (36518, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
-     , (36518, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (36518, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36518, 8000, 2371004816) /* PCAPRecordedObjectIID */;
+     , (36518,  22,  872415275) /* PhysicsEffectTable */;

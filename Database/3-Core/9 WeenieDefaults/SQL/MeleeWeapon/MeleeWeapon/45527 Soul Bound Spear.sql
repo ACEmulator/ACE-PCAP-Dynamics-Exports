@@ -27,9 +27,7 @@ VALUES (45527,   1,          1) /* ItemType - MeleeWeapon */
      , (45527, 159,         45) /* WieldSkillType - LightWeapons */
      , (45527, 160,        400) /* WieldDifficulty */
      , (45527, 166,         77) /* SlayerCreatureType - Ghost */
-     , (45527, 353,          5) /* WeaponType - Spear */
-     , (45527, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45527, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45527, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45527,  22, True ) /* Inscribable */
@@ -57,14 +55,7 @@ VALUES (45527,   1,   33560574) /* Setup */
      , (45527,   3,  536870932) /* SoundTable */
      , (45527,   8,  100673208) /* Icon */
      , (45527,  22,  872415275) /* PhysicsEffectTable */
-     , (45527,  52,  100689896) /* IconUnderlay */
-     , (45527, 8001,  270615184) /* PCAPRecordedWeenieHeader - Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (45527, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45527, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (45527, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45527, 8000, 2461698008) /* PCAPRecordedObjectIID */;
+     , (45527,  52,  100689896) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45527,  2096,      2) 
@@ -74,11 +65,3 @@ VALUES (45527,  2096,      2)
      , (45527,  2504,      2) 
      , (45527,  2579,      2) 
      , (45527,  2583,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45527, 0, 83889235, 83892492)
-     , (45527, 0, 83889237, 83892492)
-     , (45527, 0, 83889688, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45527, 0, 16783997);

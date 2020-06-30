@@ -17,8 +17,7 @@ VALUES (2230,   1,         16) /* ItemType - Creature */
      , (2230, 113,          1) /* Gender - Male */
      , (2230, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2230, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2230, 188,          1) /* HeritageGroup - Aluvian */
-     , (2230, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2230, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2230,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2230,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2230,   1, 'Landeth Colson the Jeweler') /* Name */
-     , (2230,   5, 'Jeweler') /* Template */
-     , (2230, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2230,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2230,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2230,   1,   33554433) /* Setup */
      , (2230,  11,   83890655) /* MouthTexture */
      , (2230,  15,   67117019) /* HairPalette */
      , (2230,  16,   67109564) /* EyesPalette */
-     , (2230,  17,   67109561) /* SkinPalette */
-     , (2230, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2230, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2230, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2230,  17,   67109561) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2230, 8040, 3665101151, 139.493, 32.8061, 18.005, -0.7135947, 0, 0, -0.7005587) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75015F [139.493000 32.806100 18.005000] -0.713595 0.000000 0.000000 -0.700559 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2230, 8000, 2108117028) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2230,   1,  70, 0, 0) /* Strength */
@@ -92,51 +84,3 @@ VALUES (2230, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (2230, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2230, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (2230, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2230, 67109561, 0, 24)
-     , (2230, 67109564, 32, 8)
-     , (2230, 67109964, 92, 4)
-     , (2230, 67110020, 72, 8)
-     , (2230, 67110320, 160, 8)
-     , (2230, 67110349, 216, 24)
-     , (2230, 67110356, 40, 24)
-     , (2230, 67110378, 64, 8)
-     , (2230, 67117019, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2230, 0, 83889072, 83890012)
-     , (2230, 0, 83889342, 83890011)
-     , (2230, 1, 83887064, 83886241)
-     , (2230, 2, 83887066, 83887051)
-     , (2230, 3, 83889344, 83887054)
-     , (2230, 4, 83887068, 83887054)
-     , (2230, 5, 83887064, 83886241)
-     , (2230, 6, 83887066, 83887051)
-     , (2230, 7, 83889344, 83887054)
-     , (2230, 8, 83887068, 83887054)
-     , (2230, 9, 83887061, 83890009)
-     , (2230, 9, 83887060, 83890010)
-     , (2230, 16, 83886232, 83890685)
-     , (2230, 16, 83886668, 83890506)
-     , (2230, 16, 83886837, 83890561)
-     , (2230, 16, 83886684, 83890655);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2230, 0, 16781835)
-     , (2230, 1, 16777295)
-     , (2230, 2, 16781866)
-     , (2230, 3, 16781841)
-     , (2230, 4, 16781838)
-     , (2230, 5, 16777299)
-     , (2230, 6, 16781864)
-     , (2230, 7, 16781840)
-     , (2230, 8, 16781839)
-     , (2230, 9, 16777300)
-     , (2230, 10, 16777301)
-     , (2230, 11, 16777302)
-     , (2230, 12, 16777304)
-     , (2230, 13, 16777303)
-     , (2230, 14, 16777305)
-     , (2230, 15, 16777307)
-     , (2230, 16, 16795650);

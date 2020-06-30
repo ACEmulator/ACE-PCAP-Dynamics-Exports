@@ -17,8 +17,7 @@ VALUES (22722,   1,         16) /* ItemType - Creature */
      , (22722, 113,          1) /* Gender - Male */
      , (22722, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22722, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (22722, 188,          3) /* HeritageGroup - Sho */
-     , (22722, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22722, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22722,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (22722,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22722,   1, 'Blacksmith') /* Name */
-     , (22722,   5, 'Blacksmith') /* Template */
-     , (22722, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (22722,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22722,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (22722,   1,   33554433) /* Setup */
      , (22722,  11,   83890665) /* MouthTexture */
      , (22722,  15,   67117028) /* HairPalette */
      , (22722,  16,   67110063) /* EyesPalette */
-     , (22722,  17,   67110047) /* SkinPalette */
-     , (22722, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (22722, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (22722, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (22722,  17,   67110047) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22722, 8040, 4135715089, 139.946, 80.1047, 63.605, -0.9321772, 0, 0, -0.3620022) /* PCAPRecordedLocation */
 /* @teleloc 0xF6820111 [139.946000 80.104700 63.605000] -0.932177 0.000000 0.000000 -0.362002 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22722, 8000, 2137530374) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22722,   1,  80, 0, 0) /* Strength */
@@ -117,39 +109,3 @@ VALUES (22722, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (22722, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
      , (22722, 4, 21152, -1, 0, 0, False) /* Create Covenant Breastplate (21152) for Shop */
      , (22722, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22722, 67110047, 0, 24)
-     , (22722, 67110063, 32, 8)
-     , (22722, 67113213, 80, 12)
-     , (22722, 67113213, 72, 8)
-     , (22722, 67117028, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22722, 0, 83889072, 83893326)
-     , (22722, 0, 83889342, 83893326)
-     , (22722, 1, 83892352, 83893327)
-     , (22722, 5, 83892352, 83893327)
-     , (22722, 16, 83886232, 83890685)
-     , (22722, 16, 83886668, 83890446)
-     , (22722, 16, 83886837, 83890529)
-     , (22722, 16, 83886684, 83890665);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22722, 0, 16777294)
-     , (22722, 1, 16783912)
-     , (22722, 2, 16777293)
-     , (22722, 3, 16777292)
-     , (22722, 4, 16777291)
-     , (22722, 5, 16783916)
-     , (22722, 6, 16777297)
-     , (22722, 7, 16777296)
-     , (22722, 8, 16777298)
-     , (22722, 9, 16777300)
-     , (22722, 10, 16777301)
-     , (22722, 11, 16777302)
-     , (22722, 12, 16777304)
-     , (22722, 13, 16777303)
-     , (22722, 14, 16777305)
-     , (22722, 15, 16777307)
-     , (22722, 16, 16795640);

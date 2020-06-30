@@ -23,8 +23,7 @@ VALUES (27650,   1,      32768) /* ItemType - Caster */
      , (27650, 158,          7) /* WieldRequirements - Level */
      , (27650, 159,          1) /* WieldSkillType - Axe */
      , (27650, 160,         70) /* WieldDifficulty */
-     , (27650, 176,         34) /* AppraisalItemSkill */
-     , (27650, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (27650, 176,         34) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27650,  22, True ) /* Inscribable */;
@@ -44,19 +43,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27650,   1,   33558746) /* Setup */
      , (27650,   3,  536870932) /* SoundTable */
      , (27650,   8,  100676535) /* Icon */
-     , (27650,  22,  872415275) /* PhysicsEffectTable */
-     , (27650, 8001,  271286424) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
-     , (27650, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27650, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (27650, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (27650,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27650, 8040, 23855554, 55.85811, -33.74102, -0.071, -0.1173266, -0.1173266, -0.6973051, -0.6973051) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C2 [55.858110 -33.741020 -0.071000] -0.117327 -0.117327 -0.697305 -0.697305 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27650, 8000, 2293640508) /* PCAPRecordedObjectIID */
-     , (27650, 8008, 1342669653) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27650,   568,      2) 

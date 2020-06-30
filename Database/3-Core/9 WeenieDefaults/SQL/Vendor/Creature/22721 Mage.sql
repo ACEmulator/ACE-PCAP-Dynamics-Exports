@@ -17,8 +17,7 @@ VALUES (22721,   1,         16) /* ItemType - Creature */
      , (22721, 113,          2) /* Gender - Female */
      , (22721, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (22721, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (22721, 188,          2) /* HeritageGroup - Gharundim */
-     , (22721, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22721, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22721,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (22721,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22721,   1, 'Mage') /* Name */
-     , (22721,   5, 'Archmage') /* Template */
-     , (22721, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (22721,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22721,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (22721,   1,   33554510) /* Setup */
      , (22721,  11,   83890349) /* MouthTexture */
      , (22721,  15,   67116999) /* HairPalette */
      , (22721,  16,   67110063) /* EyesPalette */
-     , (22721,  17,   67109551) /* SkinPalette */
-     , (22721, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (22721, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (22721, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (22721,  17,   67109551) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22721, 8040, 4135715101, 176.619, 44.0991, 63.605, 0.1768022, 0, 0, -0.9842464) /* PCAPRecordedLocation */
 /* @teleloc 0xF682011D [176.619000 44.099100 63.605000] 0.176802 0.000000 0.000000 -0.984246 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22721, 8000, 2137530377) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22721,   1,  20, 0, 0) /* Strength */
@@ -176,39 +168,3 @@ VALUES (22721, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop *
      , (22721, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
      , (22721, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (22721, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22721, 67109551, 0, 24)
-     , (22721, 67110063, 32, 8)
-     , (22721, 67113214, 80, 12)
-     , (22721, 67113214, 72, 8)
-     , (22721, 67116999, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22721, 0, 83889072, 83893326)
-     , (22721, 0, 83889342, 83893326)
-     , (22721, 1, 83892352, 83893327)
-     , (22721, 5, 83892352, 83893327)
-     , (22721, 16, 83886232, 83890685)
-     , (22721, 16, 83886668, 83890280)
-     , (22721, 16, 83886837, 83890294)
-     , (22721, 16, 83886684, 83890349);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22721, 0, 16778359)
-     , (22721, 1, 16783912)
-     , (22721, 2, 16778436)
-     , (22721, 3, 16778361)
-     , (22721, 4, 16778426)
-     , (22721, 5, 16783916)
-     , (22721, 6, 16778437)
-     , (22721, 7, 16778360)
-     , (22721, 8, 16778428)
-     , (22721, 9, 16778422)
-     , (22721, 10, 16778431)
-     , (22721, 11, 16778429)
-     , (22721, 12, 16778423)
-     , (22721, 13, 16778434)
-     , (22721, 14, 16778424)
-     , (22721, 15, 16778435)
-     , (22721, 16, 16795640);

@@ -20,14 +20,10 @@ VALUES (29579,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (29579, 105,        100) /* ItemWorkmanship */
      , (29579, 131,         74) /* MaterialType - Mahogany */
      , (29579, 151,          9) /* HookType - Floor, Yard */
-     , (29579, 170,         10) /* NumItemsInMaterial */
-     , (29579, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29579, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29579,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (29579, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29579,   1, 'Salvage') /* Name */
@@ -39,19 +35,4 @@ VALUES (29579,   1,   33554817) /* Setup */
      , (29579,   3,  536870932) /* SoundTable */
      , (29579,   6,   67111919) /* PaletteBase */
      , (29579,   8,  100677147) /* Icon */
-     , (29579,  22,  872415275) /* PhysicsEffectTable */
-     , (29579, 8001, 2435349528) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
-     , (29579, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29579, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29579, 8000, 2958849755) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29579, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29579, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29579, 0, 16777882);
+     , (29579,  22,  872415275) /* PhysicsEffectTable */;

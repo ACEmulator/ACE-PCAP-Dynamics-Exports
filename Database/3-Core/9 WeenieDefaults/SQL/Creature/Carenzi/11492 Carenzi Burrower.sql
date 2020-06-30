@@ -11,8 +11,7 @@ VALUES (11492,   1,         16) /* ItemType - Creature */
      , (11492,  16,          1) /* ItemUseable - No */
      , (11492,  25,         40) /* Level */
      , (11492,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11492, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (11492, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11492, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11492,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11492,  39,    1.75) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11492,   1, 'Carenzi Burrower') /* Name */
-     , (11492, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11492,   1, 'Carenzi Burrower') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11492,   1,   33557141) /* Setup */
@@ -30,17 +28,11 @@ VALUES (11492,   1,   33557141) /* Setup */
      , (11492,   3,  536871035) /* SoundTable */
      , (11492,   6,   67113270) /* PaletteBase */
      , (11492,   8,  100671754) /* Icon */
-     , (11492,  22,  872415377) /* PhysicsEffectTable */
-     , (11492, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11492, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11492, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (11492,  22,  872415377) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11492, 8040, 498270235, 75.01277, 66.77905, -0.45, 0.4568189, 0, 0, -0.8895597) /* PCAPRecordedLocation */
 /* @teleloc 0x1DB3001B [75.012770 66.779050 -0.450000] 0.456819 0.000000 0.000000 -0.889560 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11492, 8000, 3691228559) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11492,   1, 110, 0, 0) /* Strength */
@@ -81,6 +73,3 @@ VALUES (11492, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainT
      , (11492, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (11492, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (11492, 9, 25642,  0, 0, 0, False) /* Create Leather Gauntlets (25642) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11492, 67113301, 0, 0);

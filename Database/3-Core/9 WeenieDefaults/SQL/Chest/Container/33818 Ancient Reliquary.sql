@@ -10,8 +10,7 @@ VALUES (33818,   1,        512) /* ItemType - Container */
      , (33818,   7,         10) /* ContainersCapacity */
      , (33818,  16,         48) /* ItemUseable - ViewedRemote */
      , (33818,  19,       2500) /* Value */
-     , (33818,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (33818, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (33818,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33818,   1, True ) /* Stuck */
@@ -25,25 +24,18 @@ VALUES (33818,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33818,   1, 'Ancient Reliquary') /* Name */
-     , (33818,  14, 'Use the Shadow Chest Key to unlock this cache.') /* Use */
-     , (33818, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (33818,  14, 'Use the Shadow Chest Key to unlock this cache.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33818,   1,   33559268) /* Setup */
      , (33818,   2,  150995333) /* MotionTable */
      , (33818,   3,  536870950) /* SoundTable */
      , (33818,   8,  100677492) /* Icon */
-     , (33818,  22,  872415275) /* PhysicsEffectTable */
-     , (33818, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (33818, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (33818, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (33818,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33818, 8040, 7734389, 170, -120, 0.017856, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00760475 [170.000000 -120.000000 0.017856] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33818, 8000, 1879531647) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33818, -1, 45425, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Frost Dagger (45425) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

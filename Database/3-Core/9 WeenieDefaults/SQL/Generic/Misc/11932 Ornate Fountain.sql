@@ -21,10 +21,4 @@ VALUES (11932,   1, 'Ornate Fountain') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11932,   1,   33557155) /* Setup */
-     , (11932,   8,  100671774) /* Icon */
-     , (11932, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (11932, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11932, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11932, 8000, 3658160297) /* PCAPRecordedObjectIID */;
+     , (11932,   8,  100671774) /* Icon */;

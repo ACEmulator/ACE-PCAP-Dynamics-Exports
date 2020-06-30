@@ -11,8 +11,7 @@ VALUES (3990,   1,        512) /* ItemType - Container */
      , (3990,  16,         48) /* ItemUseable - ViewedRemote */
      , (3990,  19,       2500) /* Value */
      , (3990,  38,         80) /* ResistLockpick */
-     , (3990,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (3990, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (3990,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3990,   1, True ) /* Stuck */
@@ -26,25 +25,18 @@ VALUES (3990,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3990,   1, 'Chest') /* Name */
-     , (3990,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (3990, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (3990,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3990,   1,   33554556) /* Setup */
      , (3990,   2,  150994948) /* MotionTable */
      , (3990,   3,  536870945) /* SoundTable */
      , (3990,   8,  100667424) /* Icon */
-     , (3990,  22,  872415275) /* PhysicsEffectTable */
-     , (3990, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (3990, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (3990, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (3990,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3990, 8040, 2519073052, 44.1174, 22.7105, 128.4, 0.700267, 0, 0, -0.713881) /* PCAPRecordedLocation */
 /* @teleloc 0x9626011C [44.117400 22.710500 128.400000] 0.700267 0.000000 0.000000 -0.713881 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3990, 8000, 2036490247) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3990, -1, 21150, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Covenant Sollerets (21150) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

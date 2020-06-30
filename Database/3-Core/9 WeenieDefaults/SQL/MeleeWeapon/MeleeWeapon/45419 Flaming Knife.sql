@@ -31,9 +31,7 @@ VALUES (45419,   1,          1) /* ItemType - MeleeWeapon */
      , (45419, 160,        325) /* WieldDifficulty */
      , (45419, 172,          1) /* AppraisalLongDescDecoration */
      , (45419, 176,         46) /* AppraisalItemSkill */
-     , (45419, 353,          6) /* WeaponType - Dagger */
-     , (45419, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45419, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45419, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45419,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (45419,   5,  -0.042) /* ManaRate */
      , (45419,  29,    1.06) /* WeaponDefense */
      , (45419,  39,    1.25) /* DefaultScale */
      , (45419,  62,    1.07) /* WeaponOffense */
-     , (45419,  63,       1) /* DamageMod */
-     , (45419, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (45419,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45419,   1, 'Flaming Knife') /* Name */
@@ -57,13 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45419,   1,   33555751) /* Setup */
      , (45419,   3,  536870932) /* SoundTable */
      , (45419,   8,  100668945) /* Icon */
-     , (45419,  22,  872415275) /* PhysicsEffectTable */
-     , (45419, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45419, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45419, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45419, 8000, 3691148940) /* PCAPRecordedObjectIID */;
+     , (45419,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45419,  1604,      2) 

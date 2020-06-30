@@ -17,8 +17,7 @@ VALUES (856,   1,         16) /* ItemType - Creature */
      , (856, 113,          1) /* Gender - Male */
      , (856, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (856, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (856, 188,          3) /* HeritageGroup - Sho */
-     , (856, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (856, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (856,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (856,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (856,   1, 'Archmage Shikiru Nohon') /* Name */
-     , (856,   5, 'Archmage') /* Template */
-     , (856, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (856,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (856,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (856,   1,   33554433) /* Setup */
      , (856,  11,   83890636) /* MouthTexture */
      , (856,  15,   67116991) /* HairPalette */
      , (856,  16,   67109565) /* EyesPalette */
-     , (856,  17,   67110053) /* SkinPalette */
-     , (856, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (856, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (856, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (856,  17,   67110053) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (856, 8040, 3880648975, 44.04, 162.96, 32.005, -0.2091071, 0, 0, -0.9778928) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E010F [44.040000 162.960000 32.005000] -0.209107 0.000000 0.000000 -0.977893 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (856, 8000, 2121588776) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (856,   1,  45, 0, 0) /* Strength */
@@ -260,51 +252,3 @@ VALUES (856, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (856, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (856, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
      , (856, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (856, 67109565, 32, 8)
-     , (856, 67109967, 92, 4)
-     , (856, 67110020, 72, 8)
-     , (856, 67110053, 0, 24)
-     , (856, 67110325, 250, 6)
-     , (856, 67110356, 216, 24)
-     , (856, 67111304, 40, 24)
-     , (856, 67111304, 64, 8)
-     , (856, 67111304, 160, 8)
-     , (856, 67116991, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (856, 0, 83889072, 83890012)
-     , (856, 0, 83889342, 83890011)
-     , (856, 1, 83887064, 83886241)
-     , (856, 3, 83889344, 83887054)
-     , (856, 4, 83887068, 83887054)
-     , (856, 5, 83887064, 83886241)
-     , (856, 7, 83889344, 83887054)
-     , (856, 8, 83887068, 83887054)
-     , (856, 9, 83887061, 83890009)
-     , (856, 9, 83887060, 83890010)
-     , (856, 16, 83886232, 83890685)
-     , (856, 16, 83886668, 83890478)
-     , (856, 16, 83886837, 83890550)
-     , (856, 16, 83886684, 83890636)
-     , (856, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (856, 0, 16781835)
-     , (856, 1, 16777295)
-     , (856, 2, 16777293)
-     , (856, 3, 16777292)
-     , (856, 4, 16777291)
-     , (856, 5, 16777299)
-     , (856, 6, 16777297)
-     , (856, 7, 16777296)
-     , (856, 8, 16777298)
-     , (856, 9, 16777300)
-     , (856, 10, 16777301)
-     , (856, 11, 16777302)
-     , (856, 12, 16777304)
-     , (856, 13, 16777303)
-     , (856, 14, 16777305)
-     , (856, 15, 16777307)
-     , (856, 16, 16779630);

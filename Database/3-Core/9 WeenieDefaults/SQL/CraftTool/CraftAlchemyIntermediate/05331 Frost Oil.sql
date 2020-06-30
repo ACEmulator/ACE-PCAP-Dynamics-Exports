@@ -12,8 +12,7 @@ VALUES (5331,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (5331,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (5331,  19,         20) /* Value */
      , (5331,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (5331,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (5331, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (5331,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5331,   1, 'Frost Oil') /* Name */
@@ -24,20 +23,4 @@ VALUES (5331,   1,   33555967) /* Setup */
      , (5331,   3,  536870932) /* SoundTable */
      , (5331,   6,   67111919) /* PaletteBase */
      , (5331,   8,  100670010) /* Icon */
-     , (5331,  22,  872415275) /* PhysicsEffectTable */
-     , (5331, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (5331, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (5331, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (5331, 8000, 2914289561) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (5331, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (5331, 0, 83890051, 83890051)
-     , (5331, 0, 83889356, 83889356);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (5331, 0, 16783327);
+     , (5331,  22,  872415275) /* PhysicsEffectTable */;

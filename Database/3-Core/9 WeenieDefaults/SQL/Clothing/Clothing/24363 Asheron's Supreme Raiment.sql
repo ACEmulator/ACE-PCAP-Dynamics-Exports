@@ -18,8 +18,7 @@ VALUES (24363,   1,          4) /* ItemType - Clothing */
      , (24363, 109,        200) /* ItemDifficulty */
      , (24363, 158,          7) /* WieldRequirements - Level */
      , (24363, 159,          1) /* WieldSkillType - Axe */
-     , (24363, 160,        120) /* WieldDifficulty */
-     , (24363, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (24363, 160,        120) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24363,  22, True ) /* Inscribable */
@@ -45,29 +44,10 @@ VALUES (24363,   1,   33554854) /* Setup */
      , (24363,   3,  536870932) /* SoundTable */
      , (24363,   6,   67108990) /* PaletteBase */
      , (24363,   8,  100674396) /* Icon */
-     , (24363,  22,  872415275) /* PhysicsEffectTable */
-     , (24363, 8001,    2441240) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden */
-     , (24363, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (24363, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24363, 8000, 2982968683) /* PCAPRecordedObjectIID */;
+     , (24363,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (24363,  2052,      2) 
      , (24363,  2066,      2) 
      , (24363,  2571,      2) 
      , (24363,  2574,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24363, 67114389, 40, 24)
-     , (24363, 67114389, 64, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24363, 0, 83887061, 83894614)
-     , (24363, 0, 83887060, 83894612)
-     , (24363, 0, 83889072, 83894611)
-     , (24363, 0, 83889342, 83894611);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24363, 0, 16778367);

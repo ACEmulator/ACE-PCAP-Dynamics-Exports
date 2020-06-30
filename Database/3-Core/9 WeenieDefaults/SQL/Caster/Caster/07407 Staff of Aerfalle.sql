@@ -21,8 +21,7 @@ VALUES (7407,   1,      32768) /* ItemType - Caster */
      , (7407, 114,          0) /* Attuned - Normal */
      , (7407, 115,        230) /* ItemSkillLevelLimit */
      , (7407, 151,          2) /* HookType - Wall */
-     , (7407, 176,         34) /* AppraisalItemSkill */
-     , (7407, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7407, 176,         34) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7407,  22, True ) /* Inscribable */
@@ -47,25 +46,10 @@ VALUES (7407,   1,   33556630) /* Setup */
      , (7407,   6,   67111919) /* PaletteBase */
      , (7407,   8,  100670752) /* Icon */
      , (7407,  22,  872415275) /* PhysicsEffectTable */
-     , (7407,  28,       1794) /* Spell - AcidStreak5 */
-     , (7407, 8001,  275333272) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (7407, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7407, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7407, 8000, 3697840536) /* PCAPRecordedObjectIID */;
+     , (7407,  28,       1794) /* Spell - AcidStreak5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7407,   615,      2) 
      , (7407,   639,      2) 
      , (7407,   908,      2) 
      , (7407,  1794,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7407, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7407, 0, 83888778, 83888778);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7407, 0, 16780142);

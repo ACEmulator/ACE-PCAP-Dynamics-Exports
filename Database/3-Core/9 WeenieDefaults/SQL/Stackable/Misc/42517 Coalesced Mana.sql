@@ -32,26 +32,4 @@ VALUES (42517,   1,   33557506) /* Setup */
      , (42517,   3,  536870932) /* SoundTable */
      , (42517,   6,   67112808) /* PaletteBase */
      , (42517,   8,  100690900) /* Icon */
-     , (42517,  22,  872415275) /* PhysicsEffectTable */
-     , (42517, 8001,    2125841) /* PCAPRecordedWeenieHeader - PluralName, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (42517, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (42517, 8005,       6273) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42517, 8000, 3706735871) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42517, 67112807, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42517, 0, 83892433, 83892492)
-     , (42517, 0, 83892432, 83892492)
-     , (42517, 1, 83892433, 83892492)
-     , (42517, 1, 83892432, 83892492)
-     , (42517, 2, 83892433, 83892492)
-     , (42517, 2, 83892432, 83892492);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42517, 0, 16784246)
-     , (42517, 1, 16784196)
-     , (42517, 2, 16784180);
+     , (42517,  22,  872415275) /* PhysicsEffectTable */;

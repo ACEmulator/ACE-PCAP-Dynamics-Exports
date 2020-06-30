@@ -12,8 +12,7 @@ VALUES (26017,   1,         16) /* ItemType - Creature */
      , (26017,  25,        135) /* Level */
      , (26017,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26017, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (26017, 307,          5) /* DamageRating */
-     , (26017, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (26017, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26017,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (26017,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26017,   1, 'Burun Ruuk Savage') /* Name */
-     , (26017, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (26017,   1, 'Burun Ruuk Savage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26017,   1,   33558582) /* Setup */
@@ -31,17 +29,11 @@ VALUES (26017,   1,   33558582) /* Setup */
      , (26017,   3,  536871083) /* SoundTable */
      , (26017,   6,   67114919) /* PaletteBase */
      , (26017,   8,  100675761) /* Icon */
-     , (26017,  22,  872415402) /* PhysicsEffectTable */
-     , (26017, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (26017, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (26017, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (26017,  22,  872415402) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26017, 8040, 41485061, 36.2694, -27.2661, -11.95514, 0.955766, 0, 0, -0.294128) /* PCAPRecordedLocation */
 /* @teleloc 0x02790305 [36.269400 -27.266100 -11.955140] 0.955766 0.000000 0.000000 -0.294128 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26017, 8000, 3708832399) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26017,   1, 180, 0, 0) /* Strength */
@@ -62,6 +54,3 @@ VALUES (26017, 2, 26047,  1, 0, 0, False) /* Create Stone Mace (26047) for Wield
      , (26017, 2, 27123,  1, 0, 0, False) /* Create Bone Dagger (27123) for Wield */
      , (26017, 2, 27127,  1, 0, 0, False) /* Create Bone Sword (27127) for Wield */
      , (26017, 2, 27126,  1, 0, 0, False) /* Create Stone Spear (27126) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (26017, 67114922, 0, 0);

@@ -11,8 +11,7 @@ VALUES (25887,   1,         16) /* ItemType - Creature */
      , (25887,  16,          1) /* ItemUseable - No */
      , (25887,  25,        160) /* Level */
      , (25887,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (25887, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25887, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25887, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25887,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25887,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25887,   1, 'Infernal Zefir') /* Name */
-     , (25887, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25887,   1, 'Infernal Zefir') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25887,   1,   33555610) /* Setup */
@@ -30,17 +28,11 @@ VALUES (25887,   1,   33555610) /* Setup */
      , (25887,   3,  536870975) /* SoundTable */
      , (25887,   6,   67109305) /* PaletteBase */
      , (25887,   8,  100669123) /* Icon */
-     , (25887,  22,  872415279) /* PhysicsEffectTable */
-     , (25887, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25887, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25887, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (25887,  22,  872415279) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25887, 8040, 118161452, 143.1162, 76.89436, 19.74844, -0.9288226, 0, 0, -0.3705248) /* PCAPRecordedLocation */
 /* @teleloc 0x070B002C [143.116200 76.894360 19.748440] -0.928823 0.000000 0.000000 -0.370525 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25887, 8000, 3689327242) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25887,   1, 400, 0, 0) /* Strength */
@@ -274,6 +266,3 @@ VALUES (25887, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasu
      , (25887, 9, 27236,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Other (27236) for ContainTreasure */
      , (25887, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
      , (25887, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25887, 67114713, 0, 0);

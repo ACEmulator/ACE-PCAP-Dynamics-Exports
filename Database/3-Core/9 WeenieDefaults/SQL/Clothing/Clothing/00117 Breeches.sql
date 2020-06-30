@@ -11,8 +11,7 @@ VALUES (117,   1,          4) /* ItemType - Clothing */
      , (117,  16,          1) /* ItemUseable - No */
      , (117,  19,         20) /* Value */
      , (117,  28,          0) /* ArmorLevel */
-     , (117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (117, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (117,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (117,  22, True ) /* Inscribable */
@@ -36,26 +35,8 @@ VALUES (117,   1,   33554960) /* Setup */
      , (117,   3,  536870932) /* SoundTable */
      , (117,   6,   67108990) /* PaletteBase */
      , (117,   8,  100667367) /* Icon */
-     , (117,  22,  872415275) /* PhysicsEffectTable */
-     , (117, 8001,    2424856) /* PCAPRecordedWeenieHeader - Value, Usable, ValidLocations, Priority, Burden */
-     , (117, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (117, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (117,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (117, 8040, 23855555, 55.0998, -40.40979, -0.002499998, -0.4767624, 0, 0, -0.8790322) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [55.099800 -40.409790 -0.002500] -0.476762 0.000000 0.000000 -0.879032 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (117, 8000, 3657044792) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (117, 67110026, 72, 8)
-     , (117, 67110362, 64, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (117, 0, 83887064, 83886241)
-     , (117, 0, 83889072, 83889072)
-     , (117, 0, 83889342, 83889342);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (117, 0, 16779742);

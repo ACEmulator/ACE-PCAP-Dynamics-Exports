@@ -13,15 +13,13 @@ VALUES (34014,   1,         16) /* ItemType - Creature */
      , (34014,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (34014, 113,          1) /* Gender - Male */
      , (34014, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34014, 188,          3) /* HeritageGroup - Sho */
-     , (34014, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34014, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34014,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34014,   1, 'Tanada Nanjou Shou-jen') /* Name */
-     , (34014, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (34014,   1, 'Tanada Nanjou Shou-jen') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34014,   1,   33554433) /* Setup */
@@ -35,17 +33,11 @@ VALUES (34014,   1,   33554433) /* Setup */
      , (34014,  15,   67117019) /* HairPalette */
      , (34014,  16,   67110063) /* EyesPalette */
      , (34014,  17,   67110053) /* SkinPalette */
-     , (34014,  22,  872415236) /* PhysicsEffectTable */
-     , (34014, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (34014, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (34014, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (34014,  22,  872415236) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34014, 8040, 6554102, 221.0277, -123.1328, -24.0128, -0.828108, 0, 0, -0.5605686) /* PCAPRecordedLocation */
 /* @teleloc 0x006401F6 [221.027700 -123.132800 -24.012800] -0.828108 0.000000 0.000000 -0.560569 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34014, 8000, 3705390251) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34014,   1,     0, 0, 0, 1400) /* MaxHealth */;
@@ -217,29 +209,3 @@ VALUES (34014, 2, 34017,  1, 0, 0, False) /* Create Tachi (34017) for Wield */
      , (34014, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */
      , (34014, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
      , (34014, 9, 20498,  0, 0, 0, False) /* Create Scroll of Hands of Chorizite (20498) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34014, 67114607, 168, 6);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (34014, 12, 83894660, 83894841)
-     , (34014, 15, 83894660, 83894841);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (34014, 0, 16793218)
-     , (34014, 1, 16793219)
-     , (34014, 2, 16793198)
-     , (34014, 3, 16793199)
-     , (34014, 4, 16793200)
-     , (34014, 5, 16793220)
-     , (34014, 6, 16793201)
-     , (34014, 7, 16793202)
-     , (34014, 8, 16793203)
-     , (34014, 9, 16793208)
-     , (34014, 10, 16793209)
-     , (34014, 11, 16793210)
-     , (34014, 12, 16789332)
-     , (34014, 13, 16793211)
-     , (34014, 14, 16793212)
-     , (34014, 15, 16789333)
-     , (34014, 16, 16793225);

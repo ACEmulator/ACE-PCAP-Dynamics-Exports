@@ -20,10 +20,4 @@ VALUES (44749,   1, 'Mite') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44749,   1,   33561349) /* Setup */
-     , (44749,   8,  100668115) /* Icon */
-     , (44749, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44749, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44749, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44749, 8000, 2153689487) /* PCAPRecordedObjectIID */;
+     , (44749,   8,  100668115) /* Icon */;

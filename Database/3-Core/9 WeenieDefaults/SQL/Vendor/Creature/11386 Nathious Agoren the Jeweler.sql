@@ -17,8 +17,7 @@ VALUES (11386,   1,         16) /* ItemType - Creature */
      , (11386, 113,          1) /* Gender - Male */
      , (11386, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (11386, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (11386, 188,          1) /* HeritageGroup - Aluvian */
-     , (11386, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11386, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11386,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (11386,  37,    0.95) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11386,   1, 'Nathious Agoren the Jeweler') /* Name */
-     , (11386,   5, 'Jeweler') /* Template */
-     , (11386, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (11386,   5, 'Jeweler') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11386,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (11386,   1,   33554433) /* Setup */
      , (11386,  11,   83890659) /* MouthTexture */
      , (11386,  15,   67117075) /* HairPalette */
      , (11386,  16,   67110064) /* EyesPalette */
-     , (11386,  17,   67109559) /* SkinPalette */
-     , (11386, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (11386, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (11386, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (11386,  17,   67109559) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11386, 8040, 565182771, 67.1378, 42.0972, 1.605, -0.01133684, 0, 0, -0.9999357) /* PCAPRecordedLocation */
 /* @teleloc 0x21B00133 [67.137800 42.097200 1.605000] -0.011337 0.000000 0.000000 -0.999936 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11386, 8000, 1914372108) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11386,   1,  40, 0, 0) /* Strength */
@@ -94,57 +86,3 @@ VALUES (11386, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) 
      , (11386, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (11386, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (11386, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11386, 67109559, 0, 24)
-     , (11386, 67109969, 92, 4)
-     , (11386, 67110064, 32, 8)
-     , (11386, 67110337, 250, 6)
-     , (11386, 67110349, 64, 8)
-     , (11386, 67110356, 160, 8)
-     , (11386, 67110360, 216, 24)
-     , (11386, 67110385, 40, 24)
-     , (11386, 67110539, 72, 8)
-     , (11386, 67117075, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11386, 0, 83889072, 83890012)
-     , (11386, 0, 83889342, 83890011)
-     , (11386, 1, 83887064, 83886241)
-     , (11386, 2, 83887066, 83887051)
-     , (11386, 3, 83889344, 83887054)
-     , (11386, 4, 83887068, 83887054)
-     , (11386, 5, 83887064, 83886241)
-     , (11386, 6, 83887066, 83887051)
-     , (11386, 7, 83889344, 83887054)
-     , (11386, 8, 83887068, 83887054)
-     , (11386, 9, 83887061, 83890009)
-     , (11386, 9, 83887060, 83890010)
-     , (11386, 10, 83887069, 83886782)
-     , (11386, 11, 83887067, 83891213)
-     , (11386, 13, 83887069, 83886782)
-     , (11386, 14, 83887067, 83891213)
-     , (11386, 16, 83886232, 83890685)
-     , (11386, 16, 83886668, 83890481)
-     , (11386, 16, 83886837, 83890555)
-     , (11386, 16, 83886684, 83890659)
-     , (11386, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11386, 0, 16781835)
-     , (11386, 1, 16777295)
-     , (11386, 2, 16781866)
-     , (11386, 3, 16781841)
-     , (11386, 4, 16781838)
-     , (11386, 5, 16777299)
-     , (11386, 6, 16781864)
-     , (11386, 7, 16781840)
-     , (11386, 8, 16781839)
-     , (11386, 9, 16777300)
-     , (11386, 10, 16777301)
-     , (11386, 11, 16777302)
-     , (11386, 12, 16777304)
-     , (11386, 13, 16777303)
-     , (11386, 14, 16777305)
-     , (11386, 15, 16777307)
-     , (11386, 16, 16779630);

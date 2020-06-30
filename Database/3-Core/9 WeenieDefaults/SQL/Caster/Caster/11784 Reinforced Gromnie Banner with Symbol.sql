@@ -17,8 +17,7 @@ VALUES (11784,   1,      32768) /* ItemType - Caster */
      , (11784, 107,        800) /* ItemCurMana */
      , (11784, 108,        800) /* ItemMaxMana */
      , (11784, 109,         90) /* ItemDifficulty */
-     , (11784, 114,          1) /* Attuned - Attuned */
-     , (11784, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11784, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11784,  22, True ) /* Inscribable */
@@ -36,21 +35,8 @@ VALUES (11784,   1, 'Reinforced Gromnie Banner with Symbol') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11784,   1,   33557255) /* Setup */
      , (11784,   8,  100671937) /* Icon */
-     , (11784,  22,  872415275) /* PhysicsEffectTable */
-     , (11784, 8001,    2703504) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Container, ValidLocations, TargetType, Burden */
-     , (11784, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11784, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11784, 8000, 3711401995) /* PCAPRecordedObjectIID */;
+     , (11784,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11784,   657,      2) 
      , (11784,  1310,      2) ;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11784, 0, 83893727, 83893726)
-     , (11784, 0, 83893717, 83893718);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11784, 0, 16787131);

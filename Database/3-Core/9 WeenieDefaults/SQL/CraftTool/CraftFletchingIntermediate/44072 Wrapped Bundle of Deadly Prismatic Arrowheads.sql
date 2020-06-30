@@ -14,8 +14,7 @@ VALUES (44072,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44072,  19,      10000) /* Value */
      , (44072,  33,          1) /* Bonded - Bonded */
      , (44072,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44072,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (44072, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44072,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44072,  69, False) /* IsSellable */;
@@ -29,10 +28,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44072,   1,   33557030) /* Setup */
      , (44072,   3,  536870932) /* SoundTable */
      , (44072,   8,  100691909) /* Icon */
-     , (44072,  22,  872415275) /* PhysicsEffectTable */
-     , (44072, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (44072, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44072, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44072, 8000, 2828904453) /* PCAPRecordedObjectIID */;
+     , (44072,  22,  872415275) /* PhysicsEffectTable */;

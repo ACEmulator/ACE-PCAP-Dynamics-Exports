@@ -13,8 +13,7 @@ VALUES (39010,   1,      16384) /* ItemType - Key */
      , (39010,  92,          1) /* Structure */
      , (39010,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39010,  94,        640) /* TargetType - LockableMagicTarget */
-     , (39010, 114,          1) /* Attuned - Attuned */
-     , (39010, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39010, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39010,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (39010,   1, 'Disgusting Sea Invasion Key') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39010,   1,   33554784) /* Setup */
      , (39010,   8,  100667485) /* Icon */
-     , (39010,  22,  872415275) /* PhysicsEffectTable */
-     , (39010, 8001,    2640912) /* PCAPRecordedWeenieHeader - Usable, Structure, MaxStructure, Container, TargetType, Burden */
-     , (39010, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39010, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39010, 8000, 2147980639) /* PCAPRecordedObjectIID */;
+     , (39010,  22,  872415275) /* PhysicsEffectTable */;

@@ -28,10 +28,4 @@ VALUES (30401,   1, 'Wallbound Niffis') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30401,   1,   33559117) /* Setup */
      , (30401,   3,  536871010) /* SoundTable */
-     , (30401,   8,  100670961) /* Icon */
-     , (30401, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
-     , (30401, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30401, 8005,       2177) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30401, 8000, 2982968657) /* PCAPRecordedObjectIID */;
+     , (30401,   8,  100670961) /* Icon */;

@@ -17,8 +17,7 @@ VALUES (39687,   1,         16) /* ItemType - Creature */
      , (39687, 113,          1) /* Gender - Male */
      , (39687, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (39687, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (39687, 188,          2) /* HeritageGroup - Gharundim */
-     , (39687, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (39687, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39687,   1, True ) /* Stuck */
@@ -31,8 +30,7 @@ VALUES (39687,  37,       1) /* BuyPrice */
      , (39687,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (39687,   1, 'Tower Distributor') /* Name */
-     , (39687, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (39687,   1, 'Tower Distributor') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (39687,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (39687,   1,   33554433) /* Setup */
      , (39687,  15,   67117002) /* HairPalette */
      , (39687,  16,   67110062) /* EyesPalette */
      , (39687,  17,   67109555) /* SkinPalette */
-     , (39687,  57,      39637) /* AlternateCurrency */
-     , (39687, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (39687, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (39687, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (39687,  57,      39637) /* AlternateCurrency */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (39687, 8040, 15204699, 175.549, -2.124866, 6.005, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00E8015B [175.549000 -2.124866 6.005000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39687, 8000, 3331556440) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (39687,   1, 220, 0, 0) /* Strength */
@@ -79,49 +71,3 @@ VALUES (39687, 4, 39736, -1, 0, 0, False) /* Create Archer Tower Token (39736) f
      , (39687, 4, 39742, -1, 0, 0, False) /* Create First Upgrade Token (39742) for Shop */
      , (39687, 4, 39743, -1, 0, 0, False) /* Create Second Upgrade Token (39743) for Shop */
      , (39687, 4, 39744, -1, 0, 0, False) /* Create Third Upgrade Token (39744) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39687, 67109555, 0, 24)
-     , (39687, 67110062, 32, 8)
-     , (39687, 67110387, 80, 12)
-     , (39687, 67110387, 116, 12)
-     , (39687, 67110539, 96, 12)
-     , (39687, 67112697, 40, 40)
-     , (39687, 67117002, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (39687, 0, 83892345, 83892353)
-     , (39687, 0, 83892344, 83892353)
-     , (39687, 1, 83892352, 83892352)
-     , (39687, 2, 83892351, 83892351)
-     , (39687, 5, 83892352, 83892352)
-     , (39687, 6, 83892351, 83892351)
-     , (39687, 9, 83887061, 83892357)
-     , (39687, 9, 83887060, 83892356)
-     , (39687, 10, 83892347, 83892355)
-     , (39687, 11, 83892346, 83892354)
-     , (39687, 13, 83892347, 83892355)
-     , (39687, 14, 83892346, 83892354)
-     , (39687, 16, 83886232, 83890685)
-     , (39687, 16, 83886668, 83890516)
-     , (39687, 16, 83886837, 83890532)
-     , (39687, 16, 83886684, 83890657);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (39687, 0, 16783894)
-     , (39687, 1, 16783912)
-     , (39687, 2, 16783918)
-     , (39687, 3, 16777292)
-     , (39687, 4, 16777291)
-     , (39687, 5, 16783916)
-     , (39687, 6, 16783920)
-     , (39687, 7, 16777296)
-     , (39687, 8, 16777298)
-     , (39687, 9, 16781837)
-     , (39687, 10, 16783863)
-     , (39687, 11, 16783853)
-     , (39687, 12, 16777304)
-     , (39687, 13, 16783871)
-     , (39687, 14, 16783855)
-     , (39687, 15, 16777307)
-     , (39687, 16, 16795662);

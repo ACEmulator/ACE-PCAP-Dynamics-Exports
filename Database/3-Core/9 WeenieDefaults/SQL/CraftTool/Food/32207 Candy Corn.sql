@@ -19,8 +19,7 @@ VALUES (32207,   1,         32) /* ItemType - Food */
      , (32207, 107,         50) /* ItemCurMana */
      , (32207, 108,         50) /* ItemMaxMana */
      , (32207, 109,          0) /* ItemDifficulty */
-     , (32207, 110,          0) /* ItemAllegianceRankLimit */
-     , (32207, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32207, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32207,  69, False) /* IsSellable */;
@@ -38,17 +37,11 @@ VALUES (32207,   1,   33554817) /* Setup */
      , (32207,   3,  536870932) /* SoundTable */
      , (32207,   8,  100688413) /* Icon */
      , (32207,  22,  872415275) /* PhysicsEffectTable */
-     , (32207,  28,       3860) /* Spell - SweetSpeed */
-     , (32207, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
-     , (32207, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (32207, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (32207,  28,       3860) /* Spell - SweetSpeed */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32207, 8040, 23855555, 58.62766, -42.61131, -0.001249999, -0.7803556, 0, 0, -0.625336) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [58.627660 -42.611310 -0.001250] -0.780356 0.000000 0.000000 -0.625336 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32207, 8000, 2383787796) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32207,  3860,      2) ;

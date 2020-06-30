@@ -19,14 +19,8 @@ VALUES (42896,   1, 'Gearknight') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42896,   1,   33561053) /* Setup */
-     , (42896,   8,  100668115) /* Icon */
-     , (42896, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42896, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42896, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42896,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42896, 8040, 459056, 55.1348, -34.9625, 0.66, 0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070130 [55.134800 -34.962500 0.660000] 0.707107 0.000000 0.000000 0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42896, 8000, 1879076919) /* PCAPRecordedObjectIID */;

@@ -12,21 +12,14 @@ VALUES (273,   1,         64) /* ItemType - Money */
      , (273,  15,          1) /* StackUnitValue */
      , (273,  16,          1) /* ItemUseable - No */
      , (273,  19,          1) /* Value */
-     , (273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (273, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (273,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (273,   1, 'Pyreal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (273,   1,   33557367) /* Setup */
-     , (273,   8,  100672159) /* Icon */
-     , (273, 8001,      28696) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container */
-     , (273, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (273, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (273, 8000, 3681041220) /* PCAPRecordedObjectIID */;
+     , (273,   8,  100672159) /* Icon */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (273, 2,  3794,  1, 0, 0, False) /* Create Acid Jambiya (3794) for Wield */

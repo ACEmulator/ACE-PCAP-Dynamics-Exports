@@ -31,9 +31,7 @@ VALUES (3833,   1,          1) /* ItemType - MeleeWeapon */
      , (3833, 177,          2) /* GemCount */
      , (3833, 178,         23) /* GemType */
      , (3833, 188,          3) /* HeritageGroup - Sho */
-     , (3833, 353,          6) /* WeaponType - Dagger */
-     , (3833, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3833, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3833, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3833,  22, True ) /* Inscribable */;
@@ -46,8 +44,7 @@ VALUES (3833,   5,  -0.056) /* ManaRate */
      , (3833,  29,   1.102) /* WeaponDefense */
      , (3833,  39,    1.25) /* DefaultScale */
      , (3833,  62,   1.042) /* WeaponOffense */
-     , (3833,  63,       1) /* DamageMod */
-     , (3833, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (3833,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3833,   1, 'Frost Knife') /* Name */
@@ -57,13 +54,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3833,   1,   33555743) /* Setup */
      , (3833,   3,  536870932) /* SoundTable */
      , (3833,   8,  100667598) /* Icon */
-     , (3833,  22,  872415275) /* PhysicsEffectTable */
-     , (3833, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3833, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3833, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3833, 8000, 2165980144) /* PCAPRecordedObjectIID */;
+     , (3833,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3833,  1378,      2) 

@@ -18,8 +18,7 @@ VALUES (835,   1,         16) /* ItemType - Creature */
      , (835, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (835, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (835, 188,          3) /* HeritageGroup - Sho */
-     , (835, 307,          5) /* DamageRating */
-     , (835, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (835, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (835,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (835,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (835,   1, 'Ven Ounan the Blacksmith') /* Name */
-     , (835,   5, 'Blacksmith') /* Template */
-     , (835, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (835,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (835,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (835,   1,   33554510) /* Setup */
      , (835,  11,   83890350) /* MouthTexture */
      , (835,  15,   67116990) /* HairPalette */
      , (835,  16,   67110062) /* EyesPalette */
-     , (835,  17,   67110057) /* SkinPalette */
-     , (835, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (835, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (835, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (835,  17,   67110057) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (835, 8040, 3663003915, 43.89, 104.88, 20.005, 0.653458, 0, 0, -0.7569628) /* PCAPRecordedLocation */
 /* @teleloc 0xDA55010B [43.890000 104.880000 20.005000] 0.653458 0.000000 0.000000 -0.756963 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (835, 8000, 2107985973) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (835,   1,  55, 0, 0) /* Strength */
@@ -188,49 +180,3 @@ VALUES (835, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (835, 4, 13212, -1, 0, 0, False) /* Create Academy Coat (13212) for Shop */
      , (835, 4, 41054, -1, 0, 0, False) /* Create Lightning Greataxe (41054) for Shop */
      , (835, 4,  1435, -1, 0, 0, False) /* Create Ice Tachi (1435) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (835, 67109964, 92, 4)
-     , (835, 67110026, 72, 8)
-     , (835, 67110057, 0, 24)
-     , (835, 67110062, 32, 8)
-     , (835, 67110328, 216, 24)
-     , (835, 67110334, 40, 24)
-     , (835, 67110365, 160, 8)
-     , (835, 67111245, 64, 8)
-     , (835, 67116990, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (835, 0, 83889072, 83890012)
-     , (835, 0, 83889342, 83890011)
-     , (835, 1, 83887064, 83886241)
-     , (835, 3, 83889344, 83887054)
-     , (835, 4, 83887068, 83887054)
-     , (835, 5, 83887064, 83886241)
-     , (835, 7, 83889344, 83887054)
-     , (835, 8, 83887068, 83887054)
-     , (835, 9, 83887070, 83890009)
-     , (835, 9, 83887062, 83890010)
-     , (835, 16, 83886232, 83890685)
-     , (835, 16, 83886668, 83890244)
-     , (835, 16, 83886837, 83890297)
-     , (835, 16, 83886684, 83890350);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (835, 0, 16781875)
-     , (835, 1, 16781886)
-     , (835, 2, 16778436)
-     , (835, 3, 16778361)
-     , (835, 4, 16778426)
-     , (835, 5, 16781883)
-     , (835, 6, 16778437)
-     , (835, 7, 16778360)
-     , (835, 8, 16778428)
-     , (835, 9, 16778425)
-     , (835, 10, 16778431)
-     , (835, 11, 16778429)
-     , (835, 12, 16778423)
-     , (835, 13, 16778434)
-     , (835, 14, 16778424)
-     , (835, 15, 16778435)
-     , (835, 16, 16795650);

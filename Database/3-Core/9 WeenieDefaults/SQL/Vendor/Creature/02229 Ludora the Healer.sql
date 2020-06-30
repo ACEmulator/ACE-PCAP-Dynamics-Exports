@@ -17,8 +17,7 @@ VALUES (2229,   1,         16) /* ItemType - Creature */
      , (2229, 113,          2) /* Gender - Female */
      , (2229, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2229, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2229, 188,          1) /* HeritageGroup - Aluvian */
-     , (2229, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2229, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2229,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2229,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2229,   1, 'Ludora the Healer') /* Name */
-     , (2229,   5, 'Healer') /* Template */
-     , (2229, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2229,   5, 'Healer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2229,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2229,   1,   33554510) /* Setup */
      , (2229,  11,   83890328) /* MouthTexture */
      , (2229,  15,   67116983) /* HairPalette */
      , (2229,  16,   67110063) /* EyesPalette */
-     , (2229,  17,   67109562) /* SkinPalette */
-     , (2229, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2229, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2229, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2229,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2229, 8040, 3665100860, 177.166, 78.3451, 18.005, -0.7139235, 0, 0, -0.7002237) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75003C [177.166000 78.345100 18.005000] -0.713924 0.000000 0.000000 -0.700224 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2229, 8000, 2108117030) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2229,   1,  70, 0, 0) /* Strength */
@@ -90,51 +82,3 @@ VALUES (2229, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (2229, 4,  4593, -1, 0, 0, False) /* Create Mana Boost Other II (4593) for Shop */
      , (2229, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (2229, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2229, 67109562, 0, 24)
-     , (2229, 67109969, 92, 4)
-     , (2229, 67110026, 72, 8)
-     , (2229, 67110063, 32, 8)
-     , (2229, 67110320, 40, 24)
-     , (2229, 67110378, 160, 8)
-     , (2229, 67111245, 64, 8)
-     , (2229, 67111245, 216, 24)
-     , (2229, 67116983, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2229, 0, 83889072, 83890012)
-     , (2229, 0, 83889342, 83890011)
-     , (2229, 1, 83887064, 83886241)
-     , (2229, 2, 83887066, 83887051)
-     , (2229, 3, 83889344, 83887054)
-     , (2229, 4, 83887068, 83887054)
-     , (2229, 5, 83887064, 83886241)
-     , (2229, 6, 83887066, 83887051)
-     , (2229, 7, 83889344, 83887054)
-     , (2229, 8, 83887068, 83887054)
-     , (2229, 9, 83887070, 83890009)
-     , (2229, 9, 83887062, 83890010)
-     , (2229, 16, 83886232, 83890685)
-     , (2229, 16, 83886668, 83890282)
-     , (2229, 16, 83886837, 83890307)
-     , (2229, 16, 83886684, 83890328);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2229, 0, 16781875)
-     , (2229, 1, 16778430)
-     , (2229, 2, 16781908)
-     , (2229, 3, 16781841)
-     , (2229, 4, 16783485)
-     , (2229, 5, 16778438)
-     , (2229, 6, 16781909)
-     , (2229, 7, 16781840)
-     , (2229, 8, 16783487)
-     , (2229, 9, 16778425)
-     , (2229, 10, 16778431)
-     , (2229, 11, 16778429)
-     , (2229, 12, 16778423)
-     , (2229, 13, 16778434)
-     , (2229, 14, 16778424)
-     , (2229, 15, 16778435)
-     , (2229, 16, 16795641);

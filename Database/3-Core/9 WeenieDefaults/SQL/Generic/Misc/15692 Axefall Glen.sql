@@ -19,14 +19,8 @@ VALUES (15692,   1, 'Axefall Glen') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15692,   1,   33557463) /* Setup */
-     , (15692,   8,  100668115) /* Icon */
-     , (15692, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15692, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15692, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15692,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15692, 8040, 1285881900, 122.89, 94.3955, 45.62546, 0.559169, 0, 0, 0.829054) /* PCAPRecordedLocation */
 /* @teleloc 0x4CA5002C [122.890000 94.395500 45.625460] 0.559169 0.000000 0.000000 0.829054 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15692, 8000, 1959416133) /* PCAPRecordedObjectIID */;

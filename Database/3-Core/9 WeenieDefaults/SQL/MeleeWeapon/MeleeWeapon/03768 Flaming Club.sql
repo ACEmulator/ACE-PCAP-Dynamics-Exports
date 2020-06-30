@@ -26,9 +26,7 @@ VALUES (3768,   1,          1) /* ItemType - MeleeWeapon */
      , (3768, 172,          5) /* AppraisalLongDescDecoration */
      , (3768, 177,          1) /* GemCount */
      , (3768, 178,         23) /* GemType */
-     , (3768, 353,          4) /* WeaponType - Mace */
-     , (3768, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3768, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3768, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3768,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (3768,  21,       0) /* WeaponLength */
      , (3768,  62,    1.06) /* WeaponOffense */
      , (3768,  63,       1) /* DamageMod */
      , (3768,  77,       1) /* PhysicsScriptIntensity */
-     , (3768, 150,    1.02) /* WeaponMagicDefense */
-     , (3768, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (3768, 150,    1.02) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3768,   1, 'Flaming Club') /* Name */
@@ -54,10 +51,4 @@ VALUES (3768,   1,   33555698) /* Setup */
      , (3768,   3,  536870932) /* SoundTable */
      , (3768,   8,  100668855) /* Icon */
      , (3768,  22,  872415289) /* PhysicsEffectTable */
-     , (3768,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (3768, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3768, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3768, 8005,     161921) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3768, 8000, 3690252433) /* PCAPRecordedObjectIID */;
+     , (3768,  30,         84) /* PhysicsScript - BreatheFlame */;

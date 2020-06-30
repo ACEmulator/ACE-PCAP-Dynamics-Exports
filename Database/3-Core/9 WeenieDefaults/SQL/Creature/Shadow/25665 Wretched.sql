@@ -14,8 +14,7 @@ VALUES (25665,   1,         16) /* ItemType - Creature */
      , (25665, 113,          2) /* Gender - Female */
      , (25665, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (25665, 188,          1) /* HeritageGroup - Aluvian */
-     , (25665, 307,          5) /* DamageRating */
-     , (25665, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25665, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25665,   1, True ) /* Stuck */;
@@ -25,8 +24,7 @@ VALUES (25665,  39,     1.3) /* DefaultScale */
      , (25665,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25665,   1, 'Wretched') /* Name */
-     , (25665, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25665,   1, 'Wretched') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25665,   1,   33556251) /* Setup */
@@ -40,17 +38,11 @@ VALUES (25665,   1,   33556251) /* Setup */
      , (25665,  15,   67117077) /* HairPalette */
      , (25665,  16,   67109564) /* EyesPalette */
      , (25665,  17,   67109560) /* SkinPalette */
-     , (25665,  22,  872415331) /* PhysicsEffectTable */
-     , (25665, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25665, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25665, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (25665,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25665, 8040, 151715843, 14.358, 53.1494, 16.0065, -0.9993286, 0, 0, -0.03663848) /* PCAPRecordedLocation */
 /* @teleloc 0x090B0003 [14.358000 53.149400 16.006500] -0.999329 0.000000 0.000000 -0.036638 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25665, 8000, 3689418243) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25665,   1, 360, 0, 0) /* Strength */
@@ -171,25 +163,3 @@ VALUES (25665, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
      , (25665, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */
      , (25665, 9, 49306,  0, 0, 0, False) /* Create Frost K'nath Essence (125) (49306) for ContainTreasure */
      , (25665, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25665, 67112860, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (25665, 0, 16778359)
-     , (25665, 1, 16777708)
-     , (25665, 2, 16777708)
-     , (25665, 3, 16777708)
-     , (25665, 4, 16777708)
-     , (25665, 5, 16777708)
-     , (25665, 6, 16777708)
-     , (25665, 7, 16777708)
-     , (25665, 8, 16777708)
-     , (25665, 9, 16778425)
-     , (25665, 10, 16778431)
-     , (25665, 11, 16778429)
-     , (25665, 12, 16777304)
-     , (25665, 13, 16778434)
-     , (25665, 14, 16778424)
-     , (25665, 15, 16777307)
-     , (25665, 16, 16778407);

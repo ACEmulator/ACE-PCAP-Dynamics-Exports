@@ -17,8 +17,7 @@ VALUES (2220,   1,         16) /* ItemType - Creature */
      , (2220, 113,          1) /* Gender - Male */
      , (2220, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2220, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2220, 188,          1) /* HeritageGroup - Aluvian */
-     , (2220, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2220, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2220,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2220,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2220,   1, 'Archmage Bendrew Efrith') /* Name */
-     , (2220,   5, 'Archmage') /* Template */
-     , (2220, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2220,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2220,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2220,   1,   33554433) /* Setup */
      , (2220,  11,   83890660) /* MouthTexture */
      , (2220,  15,   67117072) /* HairPalette */
      , (2220,  16,   67110064) /* EyesPalette */
-     , (2220,  17,   67109562) /* SkinPalette */
-     , (2220, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2220, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2220, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2220,  17,   67109562) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2220, 8040, 3665101147, 126.345, 36.5655, 18.005, 0.6541811, 0, 0, -0.756338) /* PCAPRecordedLocation */
 /* @teleloc 0xDA75015B [126.345000 36.565500 18.005000] 0.654181 0.000000 0.000000 -0.756338 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2220, 8000, 2108117029) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2220,   1,  80, 0, 0) /* Strength */
@@ -186,57 +178,3 @@ VALUES (2220, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2220, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (2220, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (2220, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2220, 67109562, 0, 24)
-     , (2220, 67109969, 92, 4)
-     , (2220, 67110026, 72, 8)
-     , (2220, 67110064, 32, 8)
-     , (2220, 67110320, 64, 8)
-     , (2220, 67110320, 40, 24)
-     , (2220, 67110349, 250, 6)
-     , (2220, 67110356, 216, 24)
-     , (2220, 67110356, 160, 8)
-     , (2220, 67117072, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2220, 0, 83889072, 83890012)
-     , (2220, 0, 83889342, 83890011)
-     , (2220, 1, 83887064, 83886241)
-     , (2220, 2, 83887066, 83887055)
-     , (2220, 3, 83889344, 83887054)
-     , (2220, 4, 83887068, 83887054)
-     , (2220, 5, 83887064, 83886241)
-     , (2220, 6, 83887066, 83887055)
-     , (2220, 7, 83889344, 83887054)
-     , (2220, 8, 83887068, 83887054)
-     , (2220, 9, 83887061, 83890009)
-     , (2220, 9, 83887060, 83890010)
-     , (2220, 10, 83887069, 83886782)
-     , (2220, 11, 83887067, 83891213)
-     , (2220, 13, 83887069, 83886782)
-     , (2220, 14, 83887067, 83891213)
-     , (2220, 16, 83886232, 83890685)
-     , (2220, 16, 83886668, 83890507)
-     , (2220, 16, 83886837, 83890562)
-     , (2220, 16, 83886684, 83890660)
-     , (2220, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2220, 0, 16781835)
-     , (2220, 1, 16777295)
-     , (2220, 2, 16777293)
-     , (2220, 3, 16777292)
-     , (2220, 4, 16777291)
-     , (2220, 5, 16777299)
-     , (2220, 6, 16777297)
-     , (2220, 7, 16777296)
-     , (2220, 8, 16777298)
-     , (2220, 9, 16777300)
-     , (2220, 10, 16777301)
-     , (2220, 11, 16777302)
-     , (2220, 12, 16777304)
-     , (2220, 13, 16777303)
-     , (2220, 14, 16777305)
-     , (2220, 15, 16777307)
-     , (2220, 16, 16779630);

@@ -15,8 +15,7 @@ VALUES (38459,   1,         64) /* ItemType - Money */
      , (38459,  19,         10) /* Value */
      , (38459,  33,          0) /* Bonded - Normal */
      , (38459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (38459, 114,          0) /* Attuned - Normal */
-     , (38459, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (38459, 114,          0) /* Attuned - Normal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38459,  69, False) /* IsSellable */
@@ -32,10 +31,4 @@ VALUES (38459,   1, 'Pristine Mana Shard') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38459,   1,   33555641) /* Setup */
-     , (38459,   8,  100690180) /* Icon */
-     , (38459, 8001,      28824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container */
-     , (38459, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (38459, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38459, 8000, 2461755457) /* PCAPRecordedObjectIID */;
+     , (38459,   8,  100690180) /* Icon */;

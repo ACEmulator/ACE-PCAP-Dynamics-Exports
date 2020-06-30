@@ -33,9 +33,7 @@ VALUES (40750,   1,          1) /* ItemType - MeleeWeapon */
      , (40750, 176,         44) /* AppraisalItemSkill */
      , (40750, 177,          2) /* GemCount */
      , (40750, 178,         21) /* GemType */
-     , (40750, 353,          2) /* WeaponType - Sword */
-     , (40750, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40750, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40750, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40750,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (40750,   5,  -0.067) /* ManaRate */
      , (40750,  26,       0) /* MaximumVelocity */
      , (40750,  29,    1.13) /* WeaponDefense */
      , (40750,  62,    1.15) /* WeaponOffense */
-     , (40750,  63,       1) /* DamageMod */
-     , (40750, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (40750,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40750,   1, 'Acid Yaoji') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40750,   1,   33555804) /* Setup */
      , (40750,   3,  536870932) /* SoundTable */
      , (40750,   8,  100667621) /* Icon */
-     , (40750,  22,  872415275) /* PhysicsEffectTable */
-     , (40750, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40750, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40750, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40750, 8000, 2624395253) /* PCAPRecordedObjectIID */;
+     , (40750,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40750,  1354,      2) 

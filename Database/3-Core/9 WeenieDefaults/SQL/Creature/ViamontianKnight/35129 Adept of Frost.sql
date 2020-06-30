@@ -14,15 +14,13 @@ VALUES (35129,   1,         16) /* ItemType - Creature */
      , (35129, 113,          1) /* Gender - Male */
      , (35129, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (35129, 188,          4) /* HeritageGroup - Viamontian */
-     , (35129, 307,          5) /* DamageRating */
-     , (35129, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35129, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35129,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35129,   1, 'Adept of Frost') /* Name */
-     , (35129, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35129,   1, 'Adept of Frost') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35129,   1,   33554433) /* Setup */
@@ -35,17 +33,11 @@ VALUES (35129,   1,   33554433) /* Setup */
      , (35129,  15,   67116980) /* HairPalette */
      , (35129,  16,   67110065) /* EyesPalette */
      , (35129,  17,   67115904) /* SkinPalette */
-     , (35129,  22,  872415236) /* PhysicsEffectTable */
-     , (35129, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35129, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35129, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (35129,  22,  872415236) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35129, 8040, 11600270, 39.37774, -1020.659, 0.11, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B1018E [39.377740 -1020.659000 0.110000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35129, 8000, 2930283170) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35129,   1, 245, 0, 0) /* Strength */

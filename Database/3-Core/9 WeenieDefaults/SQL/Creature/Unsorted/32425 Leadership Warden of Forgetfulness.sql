@@ -33,8 +33,7 @@ VALUES (32425,   1,         16) /* ItemType - Creature */
      , (32425, 386,          0) /* Overpower */
      , (32425, 387,          0) /* OverpowerResist */
      , (32425, 388,          0) /* GearOverpower */
-     , (32425, 389,          0) /* GearOverpowerResist */
-     , (32425, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32425, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32425,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (32425,  39,     0.5) /* DefaultScale */
      , (32425,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32425,   1, 'Leadership Warden of Forgetfulness') /* Name */
-     , (32425, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (32425,   1, 'Leadership Warden of Forgetfulness') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32425,   1,   33555352) /* Setup */
      , (32425,   2,  150995147) /* MotionTable */
      , (32425,   3,  536871052) /* SoundTable */
      , (32425,   8,  100667624) /* Icon */
-     , (32425,  22,  872415274) /* PhysicsEffectTable */
-     , (32425, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (32425, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (32425, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (32425,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32425, 8040, 1565000048, 43.79189, -25.5394, 18, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x5D480170 [43.791890 -25.539400 18.000000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32425, 8000, 2929270188) /* PCAPRecordedObjectIID */;

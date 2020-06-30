@@ -19,9 +19,7 @@ VALUES (22216,   1,          1) /* ItemType - MeleeWeapon */
      , (22216,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (22216, 151,          2) /* HookType - Wall */
      , (22216, 166,         68) /* SlayerCreatureType - DarkSarcophagus */
-     , (22216, 353,          7) /* WeaponType - Staff */
-     , (22216, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (22216, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22216, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22216,  22, True ) /* Inscribable */;
@@ -42,10 +40,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22216,   1,   33555407) /* Setup */
      , (22216,   3,  536870932) /* SoundTable */
      , (22216,   8,  100667602) /* Icon */
-     , (22216,  22,  872415275) /* PhysicsEffectTable */
-     , (22216, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (22216, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22216, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22216, 8000, 3658159448) /* PCAPRecordedObjectIID */;
+     , (22216,  22,  872415275) /* PhysicsEffectTable */;

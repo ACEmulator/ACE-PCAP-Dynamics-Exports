@@ -12,8 +12,7 @@ VALUES (32955,   1,         16) /* ItemType - Creature */
      , (32955,  25,        185) /* Level */
      , (32955,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (32955, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (32955, 307,          5) /* DamageRating */
-     , (32955, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (32955, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32955,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32955,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (32955,   1, 'Wretched Architect') /* Name */
-     , (32955, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (32955,   1, 'Wretched Architect') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32955,   1,   33554839) /* Setup */
@@ -31,17 +29,11 @@ VALUES (32955,   1,   33554839) /* Setup */
      , (32955,   3,  536870934) /* SoundTable */
      , (32955,   6,   67110722) /* PaletteBase */
      , (32955,   8,  100667942) /* Icon */
-     , (32955,  22,  872415272) /* PhysicsEffectTable */
-     , (32955, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (32955, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (32955, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (32955,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (32955, 8040, 9109941, 129.5414, -59.81509, 0.008999944, 0.3849472, 0, 0, -0.9229386) /* PCAPRecordedLocation */
 /* @teleloc 0x008B01B5 [129.541400 -59.815090 0.009000] 0.384947 0.000000 0.000000 -0.922939 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32955, 8000, 3356057398) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (32955,   1, 180, 0, 0) /* Strength */
@@ -86,6 +78,3 @@ VALUES (32955, 2, 48043,  1, 0, 0, False) /* Create Lightning Nekode (48043) for
      , (32955, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
      , (32955, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (32955, 9, 27318,  1, 0, 0, False) /* Create Health Philtre (27318) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32955, 67114311, 0, 0);

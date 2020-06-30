@@ -10,8 +10,7 @@ VALUES (7809,   1,        512) /* ItemType - Container */
      , (7809,   7,         10) /* ContainersCapacity */
      , (7809,  16,         48) /* ItemUseable - ViewedRemote */
      , (7809,  19,        200) /* Value */
-     , (7809,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (7809, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7809,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7809,   1, True ) /* Stuck */
@@ -23,22 +22,15 @@ VALUES (7809,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7809,   1, 'Sarcophagus') /* Name */
-     , (7809,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (7809, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (7809,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7809,   1,   33554638) /* Setup */
      , (7809,   2,  150994980) /* MotionTable */
      , (7809,   3,  536870949) /* SoundTable */
      , (7809,   8,  100668103) /* Icon */
-     , (7809,  22,  872415275) /* PhysicsEffectTable */
-     , (7809, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (7809, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (7809, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7809,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7809, 8040, 49217822, 104.447, -59.9839, -18, -0.679024, 0, 0, -0.7341161) /* PCAPRecordedLocation */
 /* @teleloc 0x02EF011E [104.447000 -59.983900 -18.000000] -0.679024 0.000000 0.000000 -0.734116 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7809, 8000, 1882124297) /* PCAPRecordedObjectIID */;

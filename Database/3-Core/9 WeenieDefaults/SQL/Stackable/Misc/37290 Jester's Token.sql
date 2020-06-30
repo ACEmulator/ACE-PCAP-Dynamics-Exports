@@ -14,8 +14,7 @@ VALUES (37290,   1,        128) /* ItemType - Misc */
      , (37290,  19,          0) /* Value */
      , (37290,  33,          1) /* Bonded - Bonded */
      , (37290,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (37290, 114,          1) /* Attuned - Attuned */
-     , (37290, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37290, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37290,   1, 'Jester''s Token') /* Name */
@@ -26,10 +25,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37290,   1,   33554802) /* Setup */
      , (37290,   3,  536870932) /* SoundTable */
      , (37290,   8,  100689853) /* Icon */
-     , (37290,  22,  872415275) /* PhysicsEffectTable */
-     , (37290, 8001,    2125840) /* PCAPRecordedWeenieHeader - Usable, StackSize, MaxStackSize, Container, Burden */
-     , (37290, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (37290, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37290, 8000, 2551863466) /* PCAPRecordedObjectIID */;
+     , (37290,  22,  872415275) /* PhysicsEffectTable */;

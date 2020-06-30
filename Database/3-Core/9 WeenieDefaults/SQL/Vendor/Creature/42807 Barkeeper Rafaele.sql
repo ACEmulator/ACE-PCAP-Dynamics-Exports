@@ -18,8 +18,7 @@ VALUES (42807,   1,         16) /* ItemType - Creature */
      , (42807, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (42807, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (42807, 188,          4) /* HeritageGroup - Viamontian */
-     , (42807, 307,          5) /* DamageRating */
-     , (42807, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (42807, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42807,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (42807,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42807,   1, 'Barkeeper Rafaele') /* Name */
-     , (42807,   5, 'Barkeeper') /* Template */
-     , (42807, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (42807,   5, 'Barkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42807,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (42807,   1,   33554433) /* Setup */
      , (42807,  11,   83890638) /* MouthTexture */
      , (42807,  15,   67116985) /* HairPalette */
      , (42807,  16,   67110063) /* EyesPalette */
-     , (42807,  17,   67115902) /* SkinPalette */
-     , (42807, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (42807, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (42807, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (42807,  17,   67115902) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42807, 8040, 459083, 69.9254, -144.73, 0.004999995, -0.1535931, 0, 0, -0.9881342) /* PCAPRecordedLocation */
 /* @teleloc 0x0007014B [69.925400 -144.730000 0.005000] -0.153593 0.000000 0.000000 -0.988134 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42807, 8000, 1879076953) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (42807,   1,  45, 0, 0) /* Strength */
@@ -102,51 +94,3 @@ VALUES (42807, 2,   161,  1, 0, 0, False) /* Create Mug (161) for Wield */
      , (42807, 4, 48725, -1, 0, 0, False) /* Create Contract for Lunnum's Pyre (48725) for Shop */
      , (42807, 4, 48726, -1, 0, 0, False) /* Create Contract for Lunnum's Disappearance (48726) for Shop */
      , (42807, 4, 48729, -1, 0, 0, False) /* Create Contract for Lunnum's Return (48729) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (42807, 67109964, 92, 4)
-     , (42807, 67110003, 72, 8)
-     , (42807, 67110063, 32, 8)
-     , (42807, 67110334, 64, 8)
-     , (42807, 67110383, 40, 24)
-     , (42807, 67111245, 216, 24)
-     , (42807, 67115851, 160, 8)
-     , (42807, 67115902, 0, 24)
-     , (42807, 67116985, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (42807, 0, 83889072, 83890012)
-     , (42807, 0, 83889342, 83890011)
-     , (42807, 1, 83887064, 83886241)
-     , (42807, 2, 83887066, 83887055)
-     , (42807, 5, 83887064, 83886241)
-     , (42807, 6, 83887066, 83887055)
-     , (42807, 9, 83887061, 83890009)
-     , (42807, 9, 83887060, 83890010)
-     , (42807, 10, 83887069, 83886782)
-     , (42807, 11, 83886788, 83891213)
-     , (42807, 13, 83887069, 83886782)
-     , (42807, 14, 83886788, 83891213)
-     , (42807, 16, 83886232, 83890685)
-     , (42807, 16, 83886668, 83890516)
-     , (42807, 16, 83886837, 83890549)
-     , (42807, 16, 83886684, 83890638);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (42807, 0, 16781835)
-     , (42807, 1, 16777295)
-     , (42807, 2, 16791885)
-     , (42807, 3, 16791879)
-     , (42807, 4, 16791881)
-     , (42807, 5, 16777299)
-     , (42807, 6, 16791884)
-     , (42807, 7, 16791880)
-     , (42807, 8, 16791882)
-     , (42807, 9, 16777300)
-     , (42807, 10, 16777301)
-     , (42807, 11, 16781822)
-     , (42807, 12, 16777304)
-     , (42807, 13, 16777303)
-     , (42807, 14, 16781821)
-     , (42807, 15, 16777307)
-     , (42807, 16, 16795665);

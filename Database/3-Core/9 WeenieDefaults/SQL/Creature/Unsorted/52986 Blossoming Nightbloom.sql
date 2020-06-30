@@ -37,8 +37,7 @@ VALUES (52986,   1,         16) /* ItemType - Creature */
      , (52986, 386,          0) /* Overpower */
      , (52986, 387,          0) /* OverpowerResist */
      , (52986, 388,          0) /* GearOverpower */
-     , (52986, 389,          0) /* GearOverpowerResist */
-     , (52986, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52986, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52986,   1, True ) /* Stuck */
@@ -50,22 +49,15 @@ VALUES (52986,  39,     0.9) /* DefaultScale */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52986,   1, 'Blossoming Nightbloom') /* Name */
-     , (52986,  16, 'A rare dark flower infused with the magic of the Viridian Rise.') /* LongDesc */
-     , (52986, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (52986,  16, 'A rare dark flower infused with the magic of the Viridian Rise.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52986,   1,   33560322) /* Setup */
      , (52986,   2,  150995147) /* MotionTable */
      , (52986,   3,  536871052) /* SoundTable */
      , (52986,   8,  100689548) /* Icon */
-     , (52986,  22,  872415274) /* PhysicsEffectTable */
-     , (52986, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (52986, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (52986, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (52986,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52986, 8040, 3041394708, 53.80315, 82.11598, 109.4962, 0.9234748, 0, 0, -0.3836589) /* PCAPRecordedLocation */
 /* @teleloc 0xB5480014 [53.803150 82.115980 109.496200] 0.923475 0.000000 0.000000 -0.383659 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52986, 8000, 3684769547) /* PCAPRecordedObjectIID */;

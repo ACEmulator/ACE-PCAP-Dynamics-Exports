@@ -15,14 +15,10 @@ VALUES (2411,   1,       2048) /* ItemType - Gem */
      , (2411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2411, 105,         10) /* ItemWorkmanship */
      , (2411, 131,         38) /* MaterialType - Ruby */
-     , (2411, 172,          1) /* AppraisalLongDescDecoration */
-     , (2411, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2411, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2411,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (2411, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2411,   1, 'Gem') /* Name */
@@ -33,24 +29,9 @@ VALUES (2411,   1,   33554809) /* Setup */
      , (2411,   3,  536870932) /* SoundTable */
      , (2411,   6,   67111919) /* PaletteBase */
      , (2411,   8,  100674714) /* Icon */
-     , (2411,  22,  872415275) /* PhysicsEffectTable */
-     , (2411, 8001, 2166386712) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, Workmanship, MaterialType */
-     , (2411, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2411, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2411, 8000, 3690558700) /* PCAPRecordedObjectIID */;
+     , (2411,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2411, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
      , (2411, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (2411, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2411, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2411, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2411, 0, 16779181);

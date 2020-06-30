@@ -11,15 +11,13 @@ VALUES (38177,   1,         16) /* ItemType - Creature */
      , (38177,  16,          1) /* ItemUseable - No */
      , (38177,  25,         80) /* Level */
      , (38177,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38177, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (38177, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38177, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38177,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (38177,   1, 'Blighted Oak Golem') /* Name */
-     , (38177, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (38177,   1, 'Blighted Oak Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38177,   1,   33556428) /* Setup */
@@ -27,17 +25,11 @@ VALUES (38177,   1,   33556428) /* Setup */
      , (38177,   3,  536870933) /* SoundTable */
      , (38177,   6,   67112776) /* PaletteBase */
      , (38177,   8,  100667940) /* Icon */
-     , (38177,  22,  872415327) /* PhysicsEffectTable */
-     , (38177, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38177, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38177, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (38177,  22,  872415327) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38177, 8040, 2244280364, 131.3286, 84.21904, 99.9723, -0.5818989, 0, 0, -0.8132611) /* PCAPRecordedLocation */
 /* @teleloc 0x85C5002C [131.328600 84.219040 99.972300] -0.581899 0.000000 0.000000 -0.813261 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38177, 8000, 3685861787) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38177,   1, 160, 0, 0) /* Strength */
@@ -79,6 +71,3 @@ VALUES (38177, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for Conta
      , (38177, 9,  6353,  1, 0, 0, False) /* Create Pyreal Mote (6353) for ContainTreasure */
      , (38177, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
      , (38177, 9, 28606,  0, 0, 0, False) /* Create Viamontian Pants (28606) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38177, 67113788, 0, 0);

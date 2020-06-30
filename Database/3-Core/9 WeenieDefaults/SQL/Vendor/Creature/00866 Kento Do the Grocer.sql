@@ -17,8 +17,7 @@ VALUES (866,   1,         16) /* ItemType - Creature */
      , (866, 113,          1) /* Gender - Male */
      , (866, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (866, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (866, 188,          3) /* HeritageGroup - Sho */
-     , (866, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (866, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (866,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (866,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (866,   1, 'Kento Do the Grocer') /* Name */
-     , (866,   5, 'Grocer') /* Template */
-     , (866, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (866,   5, 'Grocer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (866,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (866,   1,   33554433) /* Setup */
      , (866,  11,   83890641) /* MouthTexture */
      , (866,  15,   67117076) /* HairPalette */
      , (866,  16,   67109565) /* EyesPalette */
-     , (866,  17,   67110047) /* SkinPalette */
-     , (866, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (866, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (866, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (866,  17,   67110047) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (866, 8040, 3880649021, 183.48, 30, 33.605, -0.8910062, 0, 0, -0.4539912) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E013D [183.480000 30.000000 33.605000] -0.891006 0.000000 0.000000 -0.453991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (866, 8000, 2121588782) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (866,   1,  50, 0, 0) /* Strength */
@@ -84,53 +76,3 @@ VALUES (866, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (866, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (866, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (866, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (866, 67109565, 32, 8)
-     , (866, 67109967, 92, 4)
-     , (866, 67110020, 72, 8)
-     , (866, 67110047, 0, 24)
-     , (866, 67110317, 160, 8)
-     , (866, 67110317, 250, 6)
-     , (866, 67110318, 216, 24)
-     , (866, 67111304, 40, 24)
-     , (866, 67111304, 64, 8)
-     , (866, 67117076, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (866, 0, 83889072, 83890012)
-     , (866, 0, 83889342, 83890011)
-     , (866, 1, 83887064, 83886241)
-     , (866, 2, 83887066, 83887051)
-     , (866, 3, 83889344, 83887054)
-     , (866, 4, 83887068, 83887054)
-     , (866, 5, 83887064, 83886241)
-     , (866, 6, 83887066, 83887051)
-     , (866, 7, 83889344, 83887054)
-     , (866, 8, 83887068, 83887054)
-     , (866, 9, 83887061, 83890009)
-     , (866, 9, 83887060, 83890010)
-     , (866, 16, 83886232, 83890685)
-     , (866, 16, 83886668, 83890516)
-     , (866, 16, 83886837, 83890519)
-     , (866, 16, 83886684, 83890641)
-     , (866, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (866, 0, 16781835)
-     , (866, 1, 16777295)
-     , (866, 2, 16781866)
-     , (866, 3, 16781841)
-     , (866, 4, 16781838)
-     , (866, 5, 16777299)
-     , (866, 6, 16781864)
-     , (866, 7, 16781840)
-     , (866, 8, 16781839)
-     , (866, 9, 16777300)
-     , (866, 10, 16777301)
-     , (866, 11, 16777302)
-     , (866, 12, 16777304)
-     , (866, 13, 16777303)
-     , (866, 14, 16777305)
-     , (866, 15, 16777307)
-     , (866, 16, 16779630);

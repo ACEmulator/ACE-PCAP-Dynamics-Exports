@@ -20,8 +20,7 @@ VALUES (6070,   1,          4) /* ItemType - Clothing */
      , (6070, 109,         20) /* ItemDifficulty */
      , (6070, 115,         70) /* ItemSkillLevelLimit */
      , (6070, 176,         33) /* AppraisalItemSkill */
-     , (6070, 188,          3) /* HeritageGroup - Sho */
-     , (6070, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6070, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6070,  22, True ) /* Inscribable */;
@@ -46,29 +45,8 @@ VALUES (6070,   1,   33554854) /* Setup */
      , (6070,   3,  536870932) /* SoundTable */
      , (6070,   6,   67108990) /* PaletteBase */
      , (6070,   8,  100670376) /* Icon */
-     , (6070,  22,  872415275) /* PhysicsEffectTable */
-     , (6070, 8001,    2588824) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (6070, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6070, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6070, 8000, 2842076467) /* PCAPRecordedObjectIID */;
+     , (6070,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6070,   611,      2) 
      , (6070,  1451,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6070, 67110026, 96, 12)
-     , (6070, 67110320, 80, 12)
-     , (6070, 67110320, 116, 12)
-     , (6070, 67112725, 40, 40);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6070, 0, 83887061, 83892367)
-     , (6070, 0, 83887060, 83892368)
-     , (6070, 0, 83889072, 83892364)
-     , (6070, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6070, 0, 16778367);

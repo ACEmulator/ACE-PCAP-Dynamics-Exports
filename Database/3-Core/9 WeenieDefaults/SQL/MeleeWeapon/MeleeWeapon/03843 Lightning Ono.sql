@@ -33,9 +33,7 @@ VALUES (3843,   1,          1) /* ItemType - MeleeWeapon */
      , (3843, 176,         45) /* AppraisalItemSkill */
      , (3843, 177,          1) /* GemCount */
      , (3843, 178,         21) /* GemType */
-     , (3843, 353,          3) /* WeaponType - Axe */
-     , (3843, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3843, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3843, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3843,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3843,   5,  -0.056) /* ManaRate */
      , (3843,  26,       0) /* MaximumVelocity */
      , (3843,  29,    1.13) /* WeaponDefense */
      , (3843,  62,    1.19) /* WeaponOffense */
-     , (3843,  63,       1) /* DamageMod */
-     , (3843, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (3843,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3843,   1, 'Lightning Ono') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3843,   1,   33555704) /* Setup */
      , (3843,   3,  536870932) /* SoundTable */
      , (3843,   8,  100667606) /* Icon */
-     , (3843,  22,  872415275) /* PhysicsEffectTable */
-     , (3843, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3843, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3843, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3843, 8000, 2541837651) /* PCAPRecordedObjectIID */;
+     , (3843,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3843,  1616,      2) 

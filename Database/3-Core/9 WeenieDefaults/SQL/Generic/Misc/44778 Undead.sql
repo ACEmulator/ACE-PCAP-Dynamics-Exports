@@ -21,10 +21,4 @@ VALUES (44778,   1, 'Undead') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44778,   1,   33561378) /* Setup */
-     , (44778,   8,  100668115) /* Icon */
-     , (44778, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44778, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44778, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44778, 8000, 2461616753) /* PCAPRecordedObjectIID */;
+     , (44778,   8,  100668115) /* Icon */;

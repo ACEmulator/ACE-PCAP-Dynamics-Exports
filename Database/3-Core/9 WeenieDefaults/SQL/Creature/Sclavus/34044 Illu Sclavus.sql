@@ -11,8 +11,7 @@ VALUES (34044,   1,         16) /* ItemType - Creature */
      , (34044,  16,          1) /* ItemUseable - No */
      , (34044,  25,        185) /* Level */
      , (34044,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (34044, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (34044, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34044, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34044,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (34044,  39,     1.4) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (34044,   1, 'Illu Sclavus') /* Name */
-     , (34044, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (34044,   1, 'Illu Sclavus') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34044,   1,   33555608) /* Setup */
@@ -30,17 +28,11 @@ VALUES (34044,   1,   33555608) /* Setup */
      , (34044,   3,  536870977) /* SoundTable */
      , (34044,   6,   67111936) /* PaletteBase */
      , (34044,   8,  100669120) /* Icon */
-     , (34044,  22,  872415280) /* PhysicsEffectTable */
-     , (34044, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (34044, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (34044, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (34044,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34044, 8040, 974192939, 91.40575, 111.214, -40, 0.8779656, 0, 0, -0.4787238) /* PCAPRecordedLocation */
 /* @teleloc 0x3A11012B [91.405750 111.214000 -40.000000] 0.877966 0.000000 0.000000 -0.478724 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34044, 8000, 3697188828) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34044,   1,     0, 0, 0, 820) /* MaxHealth */;
@@ -103,6 +95,3 @@ VALUES (34044, 2, 47736,  1, 0, 0, False) /* Create Spear (47736) for Wield */
      , (34044, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (34044, 9, 41049,  0, 0, 0, False) /* Create Flaming Pike (41049) for ContainTreasure */
      , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34044, 67111941, 0, 0);

@@ -10,8 +10,7 @@ VALUES (11933,   1,        128) /* ItemType - Misc */
      , (11933,  19,      20000) /* Value */
      , (11933,  33,          1) /* Bonded - Bonded */
      , (11933,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (11933, 151,          9) /* HookType - Floor, Yard */
-     , (11933, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (11933, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11933,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (11933,   1, 'Garden Drudge') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11933,   1,   33557144) /* Setup */
-     , (11933,   8,  100671776) /* Icon */
-     , (11933, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (11933, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (11933, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11933, 8000, 3658163594) /* PCAPRecordedObjectIID */;
+     , (11933,   8,  100671776) /* Icon */;

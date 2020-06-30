@@ -33,29 +33,21 @@ VALUES (35008,   1,         16) /* ItemType - Creature */
      , (35008, 386,          0) /* Overpower */
      , (35008, 387,          0) /* OverpowerResist */
      , (35008, 388,          0) /* GearOverpower */
-     , (35008, 389,          0) /* GearOverpowerResist */
-     , (35008, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35008, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35008,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35008,   1, 'Empyrean Blooded Ritual Statue') /* Name */
-     , (35008, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35008,   1, 'Empyrean Blooded Ritual Statue') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35008,   1,   33560215) /* Setup */
      , (35008,   2,  150995355) /* MotionTable */
      , (35008,   3,  536871001) /* SoundTable */
      , (35008,   8,  100675780) /* Icon */
-     , (35008,  22,  872415328) /* PhysicsEffectTable */
-     , (35008, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35008, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35008, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (35008,  22,  872415328) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35008, 8040, 14942506, 30.0067, -49.9335, -30, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00E4012A [30.006700 -49.933500 -30.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35008, 8000, 3708733547) /* PCAPRecordedObjectIID */;

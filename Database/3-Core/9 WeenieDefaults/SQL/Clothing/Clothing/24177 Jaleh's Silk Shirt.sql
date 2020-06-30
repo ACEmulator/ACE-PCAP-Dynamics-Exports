@@ -14,8 +14,7 @@ VALUES (24177,   1,          4) /* ItemType - Clothing */
      , (24177,  28,          0) /* ArmorLevel */
      , (24177,  33,          1) /* Bonded - Bonded */
      , (24177,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (24177, 114,          1) /* Attuned - Attuned */
-     , (24177, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (24177, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24177,  22, True ) /* Inscribable */
@@ -40,24 +39,4 @@ VALUES (24177,   1,   33554644) /* Setup */
      , (24177,   3,  536870932) /* SoundTable */
      , (24177,   6,   67108990) /* PaletteBase */
      , (24177,   8,  100674277) /* Icon */
-     , (24177,  22,  872415275) /* PhysicsEffectTable */
-     , (24177, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (24177, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (24177, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24177, 8000, 3611344137) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24177, 67109966, 92, 4)
-     , (24177, 67110350, 40, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24177, 0, 83887061, 83886686)
-     , (24177, 0, 83889072, 83886685)
-     , (24177, 0, 83889342, 83889386)
-     , (24177, 0, 83886788, 83891213)
-     , (24177, 0, 83886796, 83886782);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24177, 0, 16778356);
+     , (24177,  22,  872415275) /* PhysicsEffectTable */;

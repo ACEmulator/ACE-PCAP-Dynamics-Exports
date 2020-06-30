@@ -22,8 +22,7 @@ VALUES (28612,   1,          4) /* ItemType - Clothing */
      , (28612, 115,          0) /* ItemSkillLevelLimit */
      , (28612, 131,          6) /* MaterialType - Silk */
      , (28612, 151,          2) /* HookType - Wall */
-     , (28612, 172,          1) /* AppraisalLongDescDecoration */
-     , (28612, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28612, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28612,  22, True ) /* Inscribable */
@@ -38,8 +37,7 @@ VALUES (28612,   5,   -0.05) /* ManaRate */
      , (28612,  17,     0.5) /* ArmorModVsFire */
      , (28612,  18,     0.3) /* ArmorModVsAcid */
      , (28612,  19,     0.8) /* ArmorModVsElectric */
-     , (28612, 165,       1) /* ArmorModVsNether */
-     , (28612, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (28612, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28612,   1, 'Bandana') /* Name */
@@ -50,13 +48,7 @@ VALUES (28612,   1,   33559326) /* Setup */
      , (28612,   3,  536870932) /* SoundTable */
      , (28612,   6,   67108990) /* PaletteBase */
      , (28612,   8,  100685872) /* Icon */
-     , (28612,  22,  872415275) /* PhysicsEffectTable */
-     , (28612, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (28612, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28612, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28612, 8000, 3314293212) /* PCAPRecordedObjectIID */;
+     , (28612,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28612,  1485,      2) 
@@ -64,6 +56,3 @@ VALUES (28612,  1485,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28612, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28612, 67115979, 240, 16);

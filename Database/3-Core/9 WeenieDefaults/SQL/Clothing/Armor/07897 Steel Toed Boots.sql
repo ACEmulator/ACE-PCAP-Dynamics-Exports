@@ -24,8 +24,7 @@ VALUES (7897,   1,          2) /* ItemType - Armor */
      , (7897, 172,          5) /* AppraisalLongDescDecoration */
      , (7897, 176,          6) /* AppraisalItemSkill */
      , (7897, 177,          2) /* GemCount */
-     , (7897, 178,         21) /* GemType */
-     , (7897, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7897, 178,         21) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7897,  22, True ) /* Inscribable */
@@ -40,8 +39,7 @@ VALUES (7897,   5,  -0.056) /* ManaRate */
      , (7897,  17,   0.867) /* ArmorModVsFire */
      , (7897,  18,     0.2) /* ArmorModVsAcid */
      , (7897,  19,   0.759) /* ArmorModVsElectric */
-     , (7897, 165,       1) /* ArmorModVsNether */
-     , (7897, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (7897, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7897,   1, 'Steel Toed Boots') /* Name */
@@ -52,31 +50,8 @@ VALUES (7897,   1,   33556683) /* Setup */
      , (7897,   3,  536870932) /* SoundTable */
      , (7897,   6,   67108990) /* PaletteBase */
      , (7897,   8,  100670888) /* Icon */
-     , (7897,  22,  872415275) /* PhysicsEffectTable */
-     , (7897, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (7897, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7897, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7897, 8000, 3470776058) /* PCAPRecordedObjectIID */;
+     , (7897,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7897,  1528,      2) 
      , (7897,  2108,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7897, 67110375, 160, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7897, 1, 83889344, 83887054)
-     , (7897, 2, 83887068, 83892603)
-     , (7897, 4, 83889344, 83887054)
-     , (7897, 5, 83887068, 83892603);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7897, 0, 16784627)
-     , (7897, 1, 16781841)
-     , (7897, 2, 16781838)
-     , (7897, 3, 16784628)
-     , (7897, 4, 16781840)
-     , (7897, 5, 16781839);

@@ -17,8 +17,7 @@ VALUES (870,   1,         16) /* ItemType - Creature */
      , (870, 113,          1) /* Gender - Male */
      , (870, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (870, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (870, 188,          3) /* HeritageGroup - Sho */
-     , (870, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (870, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (870,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (870,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (870,   1, 'Tailor Chueh Jian') /* Name */
-     , (870,   5, 'Tailor') /* Template */
-     , (870, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (870,   5, 'Tailor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (870,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (870,   1,   33554433) /* Setup */
      , (870,  11,   83890606) /* MouthTexture */
      , (870,  15,   67117026) /* HairPalette */
      , (870,  16,   67110063) /* EyesPalette */
-     , (870,  17,   67110056) /* SkinPalette */
-     , (870, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (870, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (870, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (870,  17,   67110056) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (870, 8040, 3880649003, 66.36, 8.4, 33.605, -0.8910062, 0, 0, -0.4539912) /* PCAPRecordedLocation */
 /* @teleloc 0xE74E012B [66.360000 8.400000 33.605000] -0.891006 0.000000 0.000000 -0.453991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (870, 8000, 2121588784) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (870,   1,  60, 0, 0) /* Strength */
@@ -79,57 +71,3 @@ VALUES (870, 4,  2593, -1, 0, 0, False) /* Create Loose Tunic (2593) for Shop */
      , (870, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (870, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
      , (870, 4,  8372, -1, 0, 0, False) /* Create Yifan Dress (8372) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (870, 67109969, 92, 4)
-     , (870, 67110020, 72, 8)
-     , (870, 67110056, 0, 24)
-     , (870, 67110063, 32, 8)
-     , (870, 67110317, 40, 24)
-     , (870, 67110317, 160, 8)
-     , (870, 67110376, 216, 24)
-     , (870, 67111304, 64, 8)
-     , (870, 67111304, 250, 6)
-     , (870, 67117026, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (870, 0, 83889072, 83890012)
-     , (870, 0, 83889342, 83890011)
-     , (870, 1, 83887064, 83886241)
-     , (870, 2, 83887066, 83887051)
-     , (870, 3, 83889344, 83887054)
-     , (870, 4, 83887068, 83887054)
-     , (870, 5, 83887064, 83886241)
-     , (870, 6, 83887066, 83887051)
-     , (870, 7, 83889344, 83887054)
-     , (870, 8, 83887068, 83887054)
-     , (870, 9, 83887061, 83890009)
-     , (870, 9, 83887060, 83890010)
-     , (870, 10, 83887069, 83886782)
-     , (870, 11, 83887067, 83891213)
-     , (870, 13, 83887069, 83886782)
-     , (870, 14, 83887067, 83891213)
-     , (870, 16, 83886232, 83890685)
-     , (870, 16, 83886668, 83890478)
-     , (870, 16, 83886837, 83890521)
-     , (870, 16, 83886684, 83890606)
-     , (870, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (870, 0, 16781835)
-     , (870, 1, 16777295)
-     , (870, 2, 16781866)
-     , (870, 3, 16781841)
-     , (870, 4, 16781838)
-     , (870, 5, 16777299)
-     , (870, 6, 16781864)
-     , (870, 7, 16781840)
-     , (870, 8, 16781839)
-     , (870, 9, 16777300)
-     , (870, 10, 16777301)
-     , (870, 11, 16777302)
-     , (870, 12, 16777304)
-     , (870, 13, 16777303)
-     , (870, 14, 16777305)
-     , (870, 15, 16777307)
-     , (870, 16, 16779630);

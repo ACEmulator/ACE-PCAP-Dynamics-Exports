@@ -19,8 +19,7 @@ VALUES (36436,   1,          1) /* ItemType - MeleeWeapon */
      , (36436,  49,         -1) /* WeaponTime */
      , (36436,  51,          1) /* CombatUse - Melee */
      , (36436,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (36436, 353,          2) /* WeaponType - Sword */
-     , (36436, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (36436, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36436,  22, True ) /* Inscribable */;
@@ -42,16 +41,8 @@ VALUES (36436,   1,   33559307) /* Setup */
      , (36436,   3,  536870932) /* SoundTable */
      , (36436,   8,  100686573) /* Icon */
      , (36436,  22,  872415275) /* PhysicsEffectTable */
-     , (36436,  55,       2103) /* ProcSpell - FlameLure7 */
-     , (36436, 8001,    2327192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (36436, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36436, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (36436, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (36436,  55,       2103) /* ProcSpell - FlameLure7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36436, 8040, 2442592315, 171.9084, 58.84324, 35.02749, -0.6997929, -0.6997929, -0.1014388, -0.1014388) /* PCAPRecordedLocation */
 /* @teleloc 0x9197003B [171.908400 58.843240 35.027490] -0.699793 -0.699793 -0.101439 -0.101439 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36436, 8000, 3685916222) /* PCAPRecordedObjectIID */
-     , (36436, 8008, 3685916221) /* PCAPRecordedParentIID */;

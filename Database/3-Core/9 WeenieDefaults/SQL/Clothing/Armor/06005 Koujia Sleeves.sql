@@ -21,8 +21,7 @@ VALUES (6005,   1,          2) /* ItemType - Armor */
      , (6005, 115,        145) /* ItemSkillLevelLimit */
      , (6005, 131,         54) /* MaterialType - GromnieHide */
      , (6005, 172,          1) /* AppraisalLongDescDecoration */
-     , (6005, 176,          7) /* AppraisalItemSkill */
-     , (6005, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6005, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6005,  22, True ) /* Inscribable */
@@ -37,8 +36,7 @@ VALUES (6005,   5,  -0.042) /* ManaRate */
      , (6005,  17,     0.5) /* ArmorModVsFire */
      , (6005,  18,     0.3) /* ArmorModVsAcid */
      , (6005,  19,     0.8) /* ArmorModVsElectric */
-     , (6005, 165,       1) /* ArmorModVsNether */
-     , (6005, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (6005, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6005,   1, 'Koujia Sleeves') /* Name */
@@ -49,25 +47,7 @@ VALUES (6005,   1,   33554655) /* Setup */
      , (6005,   3,  536870932) /* SoundTable */
      , (6005,   6,   67108990) /* PaletteBase */
      , (6005,   8,  100670468) /* Icon */
-     , (6005,  22,  872415275) /* PhysicsEffectTable */
-     , (6005, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (6005, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6005, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6005, 8000, 3687293377) /* PCAPRecordedObjectIID */;
+     , (6005,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6005,  1485,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6005, 67110024, 128, 8)
-     , (6005, 67110336, 116, 12)
-     , (6005, 67110336, 108, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6005, 0, 83886796, 83886535)
-     , (6005, 0, 83886788, 83886529);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6005, 0, 16778363);

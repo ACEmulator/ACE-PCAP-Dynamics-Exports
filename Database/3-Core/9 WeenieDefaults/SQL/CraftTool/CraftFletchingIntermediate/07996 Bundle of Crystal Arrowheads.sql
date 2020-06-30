@@ -12,8 +12,7 @@ VALUES (7996,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (7996,  16,     524296) /* ItemUseable - SourceContainedTargetContained */
      , (7996,  19,         25) /* Value */
      , (7996,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (7996,  94,  134217728) /* TargetType - CraftFletchingIntermediate */
-     , (7996, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7996,  94,  134217728) /* TargetType - CraftFletchingIntermediate */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7996,   1, 'Bundle of Crystal Arrowheads') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7996,   1,   33556749) /* Setup */
      , (7996,   3,  536870932) /* SoundTable */
      , (7996,   8,  100670969) /* Icon */
-     , (7996,  22,  872415275) /* PhysicsEffectTable */
-     , (7996, 8001,     552985) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, TargetType */
-     , (7996, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (7996, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7996, 8000, 2288432307) /* PCAPRecordedObjectIID */;
+     , (7996,  22,  872415275) /* PhysicsEffectTable */;

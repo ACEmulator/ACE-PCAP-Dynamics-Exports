@@ -24,17 +24,11 @@ VALUES (35003,   1, 'The Colosseum') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35003,   1,   33560143) /* Setup */
-     , (35003,   8,  100677070) /* Icon */
-     , (35003, 8001,    8388656) /* PCAPRecordedWeenieHeader - Usable, UseRadius, RadarBehavior */
-     , (35003, 8003,     262164) /* PCAPRecordedObjectDesc - Stuck, Attackable, Portal */
-     , (35003, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (35003,   8,  100677070) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35003, 8040, 11927823, 30, -306, -12, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00B6010F [30.000000 -306.000000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35003, 8000, 2929230393) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35003, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

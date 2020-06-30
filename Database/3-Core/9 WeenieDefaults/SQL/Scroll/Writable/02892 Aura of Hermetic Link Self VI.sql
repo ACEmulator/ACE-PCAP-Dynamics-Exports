@@ -8,8 +8,7 @@ VALUES (2892,   1,       8192) /* ItemType - Writable */
      , (2892,   5,         30) /* EncumbranceVal */
      , (2892,  16,          8) /* ItemUseable - Contained */
      , (2892,  19,       1000) /* Value */
-     , (2892,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2892, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2892,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2892,  22, True ) /* Inscribable */;
@@ -27,17 +26,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2892,   1,   33554826) /* Setup */
      , (2892,   8,  100676672) /* Icon */
      , (2892,  22,  872415275) /* PhysicsEffectTable */
-     , (2892,  28,       1480) /* Spell - HermeticLinkSelf6 */
-     , (2892, 8001,    6291480) /* PCAPRecordedWeenieHeader - Value, Usable, Burden, Spell */
-     , (2892, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (2892, 8005,     168065) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, PeTable, Position, AnimationFrame */;
+     , (2892,  28,       1480) /* Spell - HermeticLinkSelf6 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2892, 8040, 3332964379, 83.91006, 66.67138, 42.0855, 0.4344043, 0, 0, -0.900718) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A9001B [83.910060 66.671380 42.085500] 0.434404 0.000000 0.000000 -0.900718 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2892, 8000, 2243216278) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2892,  1480,      2) ;

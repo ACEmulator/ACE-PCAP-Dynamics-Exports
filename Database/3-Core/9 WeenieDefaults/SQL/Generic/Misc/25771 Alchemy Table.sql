@@ -9,8 +9,7 @@ VALUES (25771,   1,        128) /* ItemType - Misc */
      , (25771,  16,          1) /* ItemUseable - No */
      , (25771,  19,       6000) /* Value */
      , (25771,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25771, 151,          1) /* HookType - Floor */
-     , (25771, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25771, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25771,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (25771,   1, 'Alchemy Table') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25771,   1,   33558527) /* Setup */
-     , (25771,   8,  100675554) /* Icon */
-     , (25771, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (25771, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25771, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25771, 8000, 2949259036) /* PCAPRecordedObjectIID */;
+     , (25771,   8,  100675554) /* Icon */;

@@ -33,9 +33,7 @@ VALUES (30580,   1,          1) /* ItemType - MeleeWeapon */
      , (30580, 176,         44) /* AppraisalItemSkill */
      , (30580, 177,          6) /* GemCount */
      , (30580, 178,         48) /* GemType */
-     , (30580, 353,          2) /* WeaponType - Sword */
-     , (30580, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30580, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30580, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30580,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (30580,   5,  -0.056) /* ManaRate */
      , (30580,  39,     1.1) /* DefaultScale */
      , (30580,  62,     1.1) /* WeaponOffense */
      , (30580,  63,       1) /* DamageMod */
-     , (30580, 150,   1.015) /* WeaponMagicDefense */
-     , (30580, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (30580, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30580,   1, 'Lightning Flamberge') /* Name */
@@ -61,13 +58,7 @@ VALUES (30580,   1,   33559468) /* Setup */
      , (30580,   3,  536870932) /* SoundTable */
      , (30580,   6,   67115557) /* PaletteBase */
      , (30580,   8,  100686954) /* Icon */
-     , (30580,  22,  872415275) /* PhysicsEffectTable */
-     , (30580, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (30580, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30580, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30580, 8000, 3692402487) /* PCAPRecordedObjectIID */;
+     , (30580,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30580,  1616,      2) 
@@ -76,12 +67,3 @@ VALUES (30580,  1616,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30580, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30580, 67116387, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30580, 0, 83896076, 83896076);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30580, 0, 16791760);

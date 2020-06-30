@@ -33,9 +33,7 @@ VALUES (45422,   1,          1) /* ItemType - MeleeWeapon */
      , (45422, 176,         45) /* AppraisalItemSkill */
      , (45422, 177,          2) /* GemCount */
      , (45422, 178,         26) /* GemType */
-     , (45422, 353,          6) /* WeaponType - Dagger */
-     , (45422, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45422, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45422, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45422,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (45422,   5,  -0.067) /* ManaRate */
      , (45422,  26,       0) /* MaximumVelocity */
      , (45422,  29,    1.16) /* WeaponDefense */
      , (45422,  62,    1.14) /* WeaponOffense */
-     , (45422,  63,       1) /* DamageMod */
-     , (45422, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (45422,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45422,   1, 'Acid Dagger') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45422,   1,   33555706) /* Setup */
      , (45422,   3,  536870932) /* SoundTable */
      , (45422,   8,  100668882) /* Icon */
-     , (45422,  22,  872415275) /* PhysicsEffectTable */
-     , (45422, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45422, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45422, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45422, 8000, 3690475347) /* PCAPRecordedObjectIID */;
+     , (45422,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45422,  2101,      2) 

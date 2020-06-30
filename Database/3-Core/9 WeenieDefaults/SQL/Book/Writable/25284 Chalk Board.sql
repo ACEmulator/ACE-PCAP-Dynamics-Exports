@@ -10,10 +10,7 @@ VALUES (25284,   1,       8192) /* ItemType - Writable */
      , (25284,  19,      50000) /* Value */
      , (25284,  33,          1) /* Bonded - Bonded */
      , (25284,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25284, 151,          2) /* HookType - Wall */
-     , (25284, 8041,        101) /* PCAPRecordedPlacement - Resting */
-     , (25284, 8042,          1) /* PCAPRecordedAppraisalPages */
-     , (25284, 8043,          1) /* PCAPRecordedAppraisalMaxPages */;
+     , (25284, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25284,  22, True ) /* Inscribable */;
@@ -28,13 +25,7 @@ VALUES (25284,   1, 'Chalk Board') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25284,   1,   33558530) /* Setup */
-     , (25284,   8,  100675551) /* Icon */
-     , (25284, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
-     , (25284, 8003,        274) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Book */
-     , (25284, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25284, 8000, 2148135307) /* PCAPRecordedObjectIID */;
+     , (25284,   8,  100675551) /* Icon */;
 
 INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Chars_Per_Page`)
 VALUES (25284, 1, 1000);

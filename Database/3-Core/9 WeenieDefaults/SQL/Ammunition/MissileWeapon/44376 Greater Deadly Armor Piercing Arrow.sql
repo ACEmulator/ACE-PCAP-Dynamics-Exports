@@ -24,9 +24,7 @@ VALUES (44376,   1,        256) /* ItemType - MissileWeapon */
      , (44376, 151,          2) /* HookType - Wall */
      , (44376, 158,          2) /* WieldRequirements - RawSkill */
      , (44376, 159,         47) /* WieldSkillType - MissileWeapons */
-     , (44376, 160,        270) /* WieldDifficulty */
-     , (44376, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (44376, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (44376, 160,        270) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44376,  69, False) /* IsSellable */;
@@ -51,25 +49,11 @@ VALUES (44376,   1,   33554724) /* Setup */
      , (44376,   6,   67111919) /* PaletteBase */
      , (44376,   8,  100672659) /* Icon */
      , (44376,  22,  872415275) /* PhysicsEffectTable */
-     , (44376,  50,  100689661) /* IconOverlay */
-     , (44376, 8001, 1344516888) /* PCAPRecordedWeenieHeader - Value, Usable, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType, IconOverlay */
-     , (44376, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44376, 8005,     170913) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (44376, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (44376,  50,  100689661) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44376, 8040, 18809102, 28.60989, -29.46839, 0.1251259, -0.7071027, -0.7071027, -0.002400281, -0.002400281) /* PCAPRecordedLocation */
 /* @teleloc 0x011F010E [28.609890 -29.468390 0.125126] -0.707103 -0.707103 -0.002400 -0.002400 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44376, 8000, 3701887654) /* PCAPRecordedObjectIID */
-     , (44376, 8008, 1342582897) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44376, 2, 38850,  1, 0, 0, False) /* Create Piercing Baton (38850) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44376, 67111924, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44376, 0, 16777887);

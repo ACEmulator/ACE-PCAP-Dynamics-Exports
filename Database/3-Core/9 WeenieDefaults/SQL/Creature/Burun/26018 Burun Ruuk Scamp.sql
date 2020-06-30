@@ -12,15 +12,13 @@ VALUES (26018,   1,         16) /* ItemType - Creature */
      , (26018,  25,         40) /* Level */
      , (26018,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (26018, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (26018, 307,          5) /* DamageRating */
-     , (26018, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (26018, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (26018,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (26018,   1, 'Burun Ruuk Scamp') /* Name */
-     , (26018, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (26018,   1, 'Burun Ruuk Scamp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26018,   1,   33558582) /* Setup */
@@ -28,17 +26,11 @@ VALUES (26018,   1,   33558582) /* Setup */
      , (26018,   3,  536871083) /* SoundTable */
      , (26018,   6,   67114919) /* PaletteBase */
      , (26018,   8,  100675761) /* Icon */
-     , (26018,  22,  872415402) /* PhysicsEffectTable */
-     , (26018, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (26018, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (26018, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (26018,  22,  872415402) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26018, 8040, 2536439840, 82.04707, 190.8388, 114.6825, 0.9063078, 0, 0, -0.4226183) /* PCAPRecordedLocation */
 /* @teleloc 0x972F0020 [82.047070 190.838800 114.682500] 0.906308 0.000000 0.000000 -0.422618 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26018, 8000, 3685720619) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (26018,   1, 180, 0, 0) /* Strength */
@@ -78,6 +70,3 @@ VALUES (26018, 2, 26033,  1, 0, 0, False) /* Create Bone Dagger (26033) for Wiel
      , (26018, 9,  3259,  0, 0, 0, False) /* Create Scroll of Fealty Other III (3259) for ContainTreasure */
      , (26018, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
      , (26018, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (26018, 67114928, 0, 0);

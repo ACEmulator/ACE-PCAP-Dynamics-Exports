@@ -26,9 +26,7 @@ VALUES (3769,   1,          1) /* ItemType - MeleeWeapon */
      , (3769, 172,          5) /* AppraisalLongDescDecoration */
      , (3769, 177,          1) /* GemCount */
      , (3769, 178,         34) /* GemType */
-     , (3769, 353,          4) /* WeaponType - Mace */
-     , (3769, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3769, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3769, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3769,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (3769,  21,       0) /* WeaponLength */
      , (3769,  29,    1.08) /* WeaponDefense */
      , (3769,  39,    1.25) /* DefaultScale */
      , (3769,  62,    1.04) /* WeaponOffense */
-     , (3769,  63,       1) /* DamageMod */
-     , (3769, 8004,       4) /* PCAPRecordedWorkmanship */;
+     , (3769,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3769,   1, 'Frost Club') /* Name */
@@ -51,10 +48,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3769,   1,   33555722) /* Setup */
      , (3769,   3,  536870932) /* SoundTable */
      , (3769,   8,  100668855) /* Icon */
-     , (3769,  22,  872415275) /* PhysicsEffectTable */
-     , (3769, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3769, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3769, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3769, 8000, 3698130154) /* PCAPRecordedObjectIID */;
+     , (3769,  22,  872415275) /* PhysicsEffectTable */;

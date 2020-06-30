@@ -29,9 +29,7 @@ VALUES (53316,   1,          1) /* ItemType - MeleeWeapon */
      , (53316, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (53316, 160,        430) /* WieldDifficulty */
      , (53316, 171,         10) /* NumTimesTinkered */
-     , (53316, 179,        256) /* ImbuedEffect - ElectricRending */
-     , (53316, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (53316, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (53316, 179,        256) /* ImbuedEffect - ElectricRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53316,  22, True ) /* Inscribable */;
@@ -44,8 +42,7 @@ VALUES (53316,   5,  -0.025) /* ManaRate */
      , (53316,  29,    1.38) /* WeaponDefense */
      , (53316,  39,     1.1) /* DefaultScale */
      , (53316,  62,    1.38) /* WeaponOffense */
-     , (53316,  63,       1) /* DamageMod */
-     , (53316, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (53316,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53316,   1, 'Stormwood Sword') /* Name */
@@ -59,20 +56,11 @@ VALUES (53316,   1,   33561671) /* Setup */
      , (53316,   3,  536870932) /* SoundTable */
      , (53316,   8,  100693342) /* Icon */
      , (53316,  22,  872415275) /* PhysicsEffectTable */
-     , (53316,  52,  100676436) /* IconUnderlay */
-     , (53316, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (53316, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (53316, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (53316, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (53316, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (53316,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (53316, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (53316, 8000, 3518664163) /* PCAPRecordedObjectIID */
-     , (53316, 8008, 1343477254) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53316,  4395,      2) 

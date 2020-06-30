@@ -15,10 +15,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7305,  39,     0.8) /* DefaultScale */
      , (7305,  77,       1) /* PhysicsScriptIntensity */
      , (7305,  78,       1) /* Friction */
-     , (7305,  79,       0) /* Elasticity */
-     , (7305, 8010,  -9.232) /* PCAPRecordedVelocityX */
-     , (7305, 8011,   -9.52) /* PCAPRecordedVelocityY */
-     , (7305, 8012, -17.232) /* PCAPRecordedVelocityZ */;
+     , (7305,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7305,   1, 'Lightning Bolt') /* Name */;
@@ -29,17 +26,11 @@ VALUES (7305,   1,   33555440) /* Setup */
      , (7305,   8,  100667494) /* Icon */
      , (7305,  22,  872415357) /* PhysicsEffectTable */
      , (7305,  28,         75) /* Spell - LightningBolt1 */
-     , (7305,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (7305, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (7305, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (7305, 8005,      64389) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (7305,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7305, 8040, 522846270, 178.7141, 134.2931, 225.8093, 0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
 /* @teleloc 0x1F2A003E [178.714100 134.293100 225.809300] 0.923880 0.000000 0.000000 -0.382683 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7305, 8000, 2629113424) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7305, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */

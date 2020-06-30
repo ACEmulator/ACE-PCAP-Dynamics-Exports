@@ -13,8 +13,7 @@ VALUES (44945,   1,        128) /* ItemType - Misc */
      , (44945,  98, 1485833030) /* CreationTimestamp */
      , (44945, 114,          1) /* Attuned - Attuned */
      , (44945, 267,        900) /* Lifespan */
-     , (44945, 268,        900) /* RemainingLifespan */
-     , (44945, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44945, 268,        900) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44945,  22, True ) /* Inscribable */
@@ -27,13 +26,4 @@ VALUES (44945,   1, 'Volatile Strength To Coordination Gem') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44945,   1,   33558087) /* Setup */
      , (44945,   6,   67111919) /* PaletteBase */
-     , (44945,   8,  100673957) /* Icon */
-     , (44945, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (44945, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44945, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44945, 8000, 2931582098) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44945, 67111924, 0, 0);
+     , (44945,   8,  100673957) /* Icon */;

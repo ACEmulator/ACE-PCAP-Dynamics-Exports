@@ -14,10 +14,7 @@ VALUES (7275,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7275,  39,     0.5) /* DefaultScale */
      , (7275,  78,       1) /* Friction */
-     , (7275,  79,       0) /* Elasticity */
-     , (7275, 8010,  -0.886) /* PCAPRecordedVelocityX */
-     , (7275, 8011,   0.732) /* PCAPRecordedVelocityY */
-     , (7275, 8012,  -0.286) /* PCAPRecordedVelocityZ */;
+     , (7275,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7275,   1, 'Whirling Blade') /* Name */;
@@ -26,17 +23,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7275,   1,   33556614) /* Setup */
      , (7275,   3,  536870972) /* SoundTable */
      , (7275,   8,  100667494) /* Icon */
-     , (7275,  28,         92) /* Spell - WhirlingBlade1 */
-     , (7275, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (7275, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (7275, 8005,      35717) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, ObjScale, Friction, Elasticity, STable, Position */;
+     , (7275,  28,         92) /* Spell - WhirlingBlade1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7275, 8040, 43058056, 210.6865, -120.8234, 7.201849, -0.9047743, 0, 0, -0.4258913) /* PCAPRecordedLocation */
 /* @teleloc 0x02910388 [210.686500 -120.823400 7.201849] -0.904774 0.000000 0.000000 -0.425891 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7275, 8000, 3688474650) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7275, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */

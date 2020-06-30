@@ -31,9 +31,7 @@ VALUES (45110,   1,          1) /* ItemType - MeleeWeapon */
      , (45110, 160,        300) /* WieldDifficulty */
      , (45110, 172,          1) /* AppraisalLongDescDecoration */
      , (45110, 176,         44) /* AppraisalItemSkill */
-     , (45110, 353,          2) /* WeaponType - Sword */
-     , (45110, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45110, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45110, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45110,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (45110,   5,   -0.05) /* ManaRate */
      , (45110,  39,     1.2) /* DefaultScale */
      , (45110,  62,    1.06) /* WeaponOffense */
      , (45110,  63,       1) /* DamageMod */
-     , (45110, 150,    1.01) /* WeaponMagicDefense */
-     , (45110, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (45110, 150,    1.01) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45110,   1, 'Lightning Schlager') /* Name */
@@ -59,27 +56,8 @@ VALUES (45110,   1,   33561443) /* Setup */
      , (45110,   3,  536870932) /* SoundTable */
      , (45110,   6,   67111919) /* PaletteBase */
      , (45110,   8,  100692298) /* Icon */
-     , (45110,  22,  872415275) /* PhysicsEffectTable */
-     , (45110, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45110, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (45110, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45110, 8000, 3694800484) /* PCAPRecordedObjectIID */;
+     , (45110,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45110,  1603,      2) 
      , (45110,  1616,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (45110, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (45110, 0, 83894357, 83894357)
-     , (45110, 0, 83886739, 83886739)
-     , (45110, 0, 83894375, 83894375)
-     , (45110, 0, 83886709, 83886709)
-     , (45110, 0, 83889237, 83889237);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (45110, 0, 16795945);

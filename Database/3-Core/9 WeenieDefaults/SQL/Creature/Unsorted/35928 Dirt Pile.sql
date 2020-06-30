@@ -37,8 +37,7 @@ VALUES (35928,   1,         16) /* ItemType - Creature */
      , (35928, 386,          0) /* Overpower */
      , (35928, 387,          0) /* OverpowerResist */
      , (35928, 388,          0) /* GearOverpower */
-     , (35928, 389,          0) /* GearOverpowerResist */
-     , (35928, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35928, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35928,   1, True ) /* Stuck */
@@ -49,21 +48,14 @@ VALUES (35928,  39,     0.7) /* DefaultScale */
      , (35928,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35928,   1, 'Dirt Pile') /* Name */
-     , (35928, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35928,   1, 'Dirt Pile') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35928,   1,   33557839) /* Setup */
      , (35928,   2,  150995355) /* MotionTable */
      , (35928,   3,  536870913) /* SoundTable */
-     , (35928,   8,  100667494) /* Icon */
-     , (35928, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (35928, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (35928, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (35928,   8,  100667494) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35928, 8040, 1210974218, 44.5398, 26.40676, 10, -0.9999807, 0, 0, -0.006217591) /* PCAPRecordedLocation */
 /* @teleloc 0x482E000A [44.539800 26.406760 10.000000] -0.999981 0.000000 0.000000 -0.006218 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35928, 8000, 3683059356) /* PCAPRecordedObjectIID */;

@@ -15,8 +15,7 @@ VALUES (36519,   1,         16) /* ItemType - Creature */
      , (36519,  76,     100000) /* MerchandiseMaxValue */
      , (36519,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (36519, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (36519, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (36519, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (36519, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36519,   1, True ) /* Stuck */
@@ -31,25 +30,18 @@ VALUES (36519,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36519,   1, 'Colosseum Coin Collector') /* Name */
-     , (36519,   5, 'Colosseum Vendor') /* Template */
-     , (36519, 8006, 'AAA9AEAAAAAAAIC/') /* PCAPRecordedCurrentMotionState */;
+     , (36519,   5, 'Colosseum Vendor') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36519,   1,   33558367) /* Setup */
      , (36519,   2,  150994945) /* MotionTable */
      , (36519,   3,  536870933) /* SoundTable */
      , (36519,   8,  100674350) /* Icon */
-     , (36519,  57,      36518) /* AlternateCurrency - Colosseum Coin */
-     , (36519, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (36519, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (36519, 8005,     100483) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, Position, Movement */;
+     , (36519,  57,      36518) /* AlternateCurrency - Colosseum Coin */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36519, 8040, 11469113, 53, -10, 0.006500006, -0.7071068, 0, 0, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x00AF0139 [53.000000 -10.000000 0.006500] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36519, 8000, 1879765128) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (36519,   1, 680, 0, 0) /* Strength */
@@ -126,46 +118,3 @@ VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create Wrapped Pyreal Sliver (36515
      , (36519, 4, 41866, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Gromnie Hide (41866) for Shop */
      , (36519, 4, 41869, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Pyreal (41869) for Shop */
      , (36519, 4, 41872, -1, 0, 0, False) /* Create Sealed Bag of Salvaged Ruby (41872) for Shop */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36519, 0, 83894477, 83892431)
-     , (36519, 0, 83894478, 83892431)
-     , (36519, 1, 83894490, 83892431)
-     , (36519, 2, 83894483, 83892431)
-     , (36519, 2, 83894484, 83892431)
-     , (36519, 3, 83894184, 83892431)
-     , (36519, 4, 83894184, 83892431)
-     , (36519, 5, 83894490, 83892431)
-     , (36519, 6, 83894483, 83892431)
-     , (36519, 6, 83894484, 83892431)
-     , (36519, 7, 83894184, 83892431)
-     , (36519, 8, 83894184, 83892431)
-     , (36519, 9, 83894480, 83892431)
-     , (36519, 9, 83894481, 83892431)
-     , (36519, 10, 83894489, 83892431)
-     , (36519, 11, 83894479, 83892431)
-     , (36519, 12, 83894485, 83892431)
-     , (36519, 13, 83894489, 83892431)
-     , (36519, 14, 83894479, 83892431)
-     , (36519, 15, 83894485, 83892431)
-     , (36519, 16, 83892425, 83892430)
-     , (36519, 16, 83892492, 83892431);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36519, 0, 16788885)
-     , (36519, 1, 16788894)
-     , (36519, 2, 16788893)
-     , (36519, 3, 16788081)
-     , (36519, 4, 16788088)
-     , (36519, 5, 16788896)
-     , (36519, 6, 16788895)
-     , (36519, 7, 16788082)
-     , (36519, 8, 16788089)
-     , (36519, 9, 16788889)
-     , (36519, 10, 16788898)
-     , (36519, 11, 16788887)
-     , (36519, 12, 16788891)
-     , (36519, 13, 16788897)
-     , (36519, 14, 16788888)
-     , (36519, 15, 16788892)
-     , (36519, 16, 16789125);

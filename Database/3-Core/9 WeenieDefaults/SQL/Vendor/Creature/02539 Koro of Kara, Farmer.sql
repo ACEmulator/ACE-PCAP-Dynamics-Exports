@@ -17,8 +17,7 @@ VALUES (2539,   1,         16) /* ItemType - Creature */
      , (2539, 113,          1) /* Gender - Male */
      , (2539, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (2539, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (2539, 188,          3) /* HeritageGroup - Sho */
-     , (2539, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2539, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2539,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (2539,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2539,   1, 'Koro of Kara, Farmer') /* Name */
-     , (2539,   5, 'Farmer') /* Template */
-     , (2539, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (2539,   5, 'Farmer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2539,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (2539,   1,   33554433) /* Setup */
      , (2539,  11,   83890657) /* MouthTexture */
      , (2539,  15,   67117077) /* HairPalette */
      , (2539,  16,   67109565) /* EyesPalette */
-     , (2539,  17,   67110048) /* SkinPalette */
-     , (2539, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2539, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (2539, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (2539,  17,   67110048) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2539, 8040, 3122069531, 92.1427, 53.3368, 132.005, 0.999523, 0, 0, -0.0308818) /* PCAPRecordedLocation */
 /* @teleloc 0xBA17001B [92.142700 53.336800 132.005000] 0.999523 0.000000 0.000000 -0.030882 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2539, 8000, 2074177550) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2539,   1,  90, 0, 0) /* Strength */
@@ -91,55 +83,3 @@ VALUES (2539, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (2539, 4, 14777, -1, 0, 0, False) /* Create Cookie Cutter (14777) for Shop */
      , (2539, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (2539, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2539, 67109565, 32, 8)
-     , (2539, 67109965, 92, 4)
-     , (2539, 67110026, 72, 8)
-     , (2539, 67110048, 0, 24)
-     , (2539, 67110325, 64, 8)
-     , (2539, 67110334, 160, 8)
-     , (2539, 67110375, 40, 24)
-     , (2539, 67110376, 216, 24)
-     , (2539, 67117077, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (2539, 0, 83889072, 83890012)
-     , (2539, 0, 83889342, 83890011)
-     , (2539, 1, 83887064, 83886241)
-     , (2539, 2, 83887066, 83887055)
-     , (2539, 3, 83889344, 83887054)
-     , (2539, 4, 83887068, 83887054)
-     , (2539, 5, 83887064, 83886241)
-     , (2539, 6, 83887066, 83887055)
-     , (2539, 7, 83889344, 83887054)
-     , (2539, 8, 83887068, 83887054)
-     , (2539, 9, 83887061, 83890009)
-     , (2539, 9, 83887060, 83890010)
-     , (2539, 10, 83887069, 83886782)
-     , (2539, 11, 83887067, 83891213)
-     , (2539, 13, 83887069, 83886782)
-     , (2539, 14, 83887067, 83891213)
-     , (2539, 16, 83886232, 83890685)
-     , (2539, 16, 83886668, 83890447)
-     , (2539, 16, 83886837, 83890521)
-     , (2539, 16, 83886684, 83890657);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (2539, 0, 16781835)
-     , (2539, 1, 16777295)
-     , (2539, 2, 16777293)
-     , (2539, 3, 16777292)
-     , (2539, 4, 16777291)
-     , (2539, 5, 16777299)
-     , (2539, 6, 16777297)
-     , (2539, 7, 16777296)
-     , (2539, 8, 16777298)
-     , (2539, 9, 16777300)
-     , (2539, 10, 16777301)
-     , (2539, 11, 16777302)
-     , (2539, 12, 16777304)
-     , (2539, 13, 16777303)
-     , (2539, 14, 16777305)
-     , (2539, 15, 16777307)
-     , (2539, 16, 16795675);

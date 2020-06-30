@@ -17,8 +17,7 @@ VALUES (795,   1,         16) /* ItemType - Creature */
      , (795, 113,          2) /* Gender - Female */
      , (795, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (795, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (795, 188,          3) /* HeritageGroup - Sho */
-     , (795, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (795, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (795,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (795,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (795,   1, 'Archmage Yuzai Zhen') /* Name */
-     , (795,   5, 'Archmage') /* Template */
-     , (795, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (795,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (795,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (795,   1,   33554510) /* Setup */
      , (795,  11,   83890336) /* MouthTexture */
      , (795,  15,   67117068) /* HairPalette */
      , (795,  16,   67110062) /* EyesPalette */
-     , (795,  17,   67110056) /* SkinPalette */
-     , (795, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (795, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (795, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (795,  17,   67110056) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (795, 8040, 3862036739, 112.08, 131.04, 30.005, -0.6028609, 0, 0, -0.7978463) /* PCAPRecordedLocation */
 /* @teleloc 0xE6320103 [112.080000 131.040000 30.005000] -0.602861 0.000000 0.000000 -0.797846 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (795, 8000, 2120425487) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (795,   1,  40, 0, 0) /* Strength */
@@ -188,51 +180,3 @@ VALUES (795, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (795, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
      , (795, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
      , (795, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (795, 67110056, 0, 24)
-     , (795, 67110062, 32, 8)
-     , (795, 67110320, 216, 24)
-     , (795, 67110349, 40, 24)
-     , (795, 67110349, 64, 8)
-     , (795, 67110356, 160, 8)
-     , (795, 67110539, 72, 8)
-     , (795, 67110551, 92, 4)
-     , (795, 67117068, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (795, 0, 83889072, 83890012)
-     , (795, 0, 83889342, 83890011)
-     , (795, 1, 83887064, 83886241)
-     , (795, 2, 83887066, 83887055)
-     , (795, 3, 83889344, 83887054)
-     , (795, 4, 83887068, 83887054)
-     , (795, 5, 83887064, 83886241)
-     , (795, 6, 83887066, 83887055)
-     , (795, 7, 83889344, 83887054)
-     , (795, 8, 83887068, 83887054)
-     , (795, 9, 83887070, 83890009)
-     , (795, 9, 83887062, 83890010)
-     , (795, 16, 83886232, 83890685)
-     , (795, 16, 83886668, 83890281)
-     , (795, 16, 83886837, 83890301)
-     , (795, 16, 83886684, 83890336);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (795, 0, 16781875)
-     , (795, 1, 16778430)
-     , (795, 2, 16778436)
-     , (795, 3, 16778361)
-     , (795, 4, 16778426)
-     , (795, 5, 16778438)
-     , (795, 6, 16778437)
-     , (795, 7, 16778360)
-     , (795, 8, 16778428)
-     , (795, 9, 16778425)
-     , (795, 10, 16778431)
-     , (795, 11, 16778429)
-     , (795, 12, 16778423)
-     , (795, 13, 16778434)
-     , (795, 14, 16778424)
-     , (795, 15, 16778435)
-     , (795, 16, 16795641);

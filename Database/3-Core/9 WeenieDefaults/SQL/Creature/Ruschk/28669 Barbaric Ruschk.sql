@@ -11,8 +11,7 @@ VALUES (28669,   1,         16) /* ItemType - Creature */
      , (28669,  16,          1) /* ItemUseable - No */
      , (28669,  25,         20) /* Level */
      , (28669,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28669, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28669, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28669, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28669,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28669,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28669,   1, 'Barbaric Ruschk') /* Name */
-     , (28669, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28669,   1, 'Barbaric Ruschk') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28669,   1,   33559104) /* Setup */
@@ -30,17 +28,11 @@ VALUES (28669,   1,   33559104) /* Setup */
      , (28669,   3,  536871101) /* SoundTable */
      , (28669,   6,   67115447) /* PaletteBase */
      , (28669,   8,  100677373) /* Icon */
-     , (28669,  22,  872415364) /* PhysicsEffectTable */
-     , (28669, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28669, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28669, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28669,  22,  872415364) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28669, 8040, 23003565, 77.9453, -108.207, -29.9934, -0.3803299, 0, 0, 0.9248509) /* PCAPRecordedLocation */
 /* @teleloc 0x015F01AD [77.945300 -108.207000 -29.993400] -0.380330 0.000000 0.000000 0.924851 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28669, 8000, 3327680542) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (28669,   1,     0, 0, 0, 105) /* MaxHealth */;
@@ -56,6 +48,3 @@ VALUES (28669, 9,  3320,  0, 0, 0, False) /* Create Scroll of Item Tinkering Exp
      , (28669, 9, 40638,  0, 0, 0, False) /* Create Flaming Tetsubo (40638) for ContainTreasure */
      , (28669, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (28669, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28669, 67115447, 0, 0);

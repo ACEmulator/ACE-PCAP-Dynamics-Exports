@@ -10,8 +10,7 @@ VALUES (22359,   1,       2048) /* ItemType - Gem */
      , (22359,  19,          0) /* Value */
      , (22359,  33,          1) /* Bonded - Bonded */
      , (22359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22359, 114,          1) /* Attuned - Attuned */
-     , (22359, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22359, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22359,  22, True ) /* Inscribable */;
@@ -24,13 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22359,   1,   33558088) /* Setup */
      , (22359,   6,   67111919) /* PaletteBase */
      , (22359,   8,  100673788) /* Icon */
-     , (22359,  50,  100692238) /* IconOverlay */
-     , (22359, 8001, 1075855376) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, IconOverlay */
-     , (22359, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22359, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22359, 8000, 2929803911) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22359, 67111923, 0, 0);
+     , (22359,  50,  100692238) /* IconOverlay */;

@@ -36,8 +36,7 @@ VALUES (34252,   1,         16) /* ItemType - Creature */
      , (34252, 386,          0) /* Overpower */
      , (34252, 387,          0) /* OverpowerResist */
      , (34252, 388,          0) /* GearOverpower */
-     , (34252, 389,          0) /* GearOverpowerResist */
-     , (34252, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34252, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34252,   1, True ) /* Stuck */
@@ -48,22 +47,15 @@ VALUES (34252,  54,       5) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34252,   1, 'Diseased Feral Carenzi Liver') /* Name */
-     , (34252,  15, 'This is the liver from a now-deceased carenzi.  You can use it to more closely examine it, but you can''t bring yourself to put it into your pack - you have no idea how healthy it is.  Aun Teriona, near the town of Bluespire, is said to concern himself with the carenzi population.') /* ShortDesc */
-     , (34252, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (34252,  15, 'This is the liver from a now-deceased carenzi.  You can use it to more closely examine it, but you can''t bring yourself to put it into your pack - you have no idea how healthy it is.  Aun Teriona, near the town of Bluespire, is said to concern himself with the carenzi population.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34252,   1,   33560135) /* Setup */
      , (34252,   2,  150994980) /* MotionTable */
      , (34252,   3,  536870932) /* SoundTable */
      , (34252,   8,  100689680) /* Icon */
-     , (34252,  22,  872415275) /* PhysicsEffectTable */
-     , (34252, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (34252, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (34252, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (34252,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34252, 8040, 666959934, 172.1659, 131.1677, 56.26476, -0.9358726, 0, 0, -0.3523388) /* PCAPRecordedLocation */
 /* @teleloc 0x27C1003E [172.165900 131.167700 56.264760] -0.935873 0.000000 0.000000 -0.352339 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34252, 8000, 2928753193) /* PCAPRecordedObjectIID */;

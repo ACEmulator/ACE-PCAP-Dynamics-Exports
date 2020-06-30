@@ -12,8 +12,7 @@ VALUES (4717,   1,         32) /* ItemType - Food */
      , (4717,  15,          5) /* StackUnitValue */
      , (4717,  16,          8) /* ItemUseable - Contained */
      , (4717,  19,          5) /* Value */
-     , (4717,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (4717, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (4717,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4717,   1, 'Chicken Piece') /* Name */
@@ -23,10 +22,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4717,   1,   33554808) /* Setup */
      , (4717,   3,  536870932) /* SoundTable */
      , (4717,   8,  100669950) /* Icon */
-     , (4717,  22,  872415275) /* PhysicsEffectTable */
-     , (4717, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (4717, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (4717, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4717, 8000, 3711225146) /* PCAPRecordedObjectIID */;
+     , (4717,  22,  872415275) /* PhysicsEffectTable */;

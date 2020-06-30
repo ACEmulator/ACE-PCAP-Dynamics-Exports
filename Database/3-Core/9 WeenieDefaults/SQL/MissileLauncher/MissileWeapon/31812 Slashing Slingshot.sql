@@ -34,9 +34,7 @@ VALUES (31812,   1,        256) /* ItemType - MissileWeapon */
      , (31812, 177,          2) /* GemCount */
      , (31812, 178,         22) /* GemType */
      , (31812, 204,          3) /* ElementalDamageBonus */
-     , (31812, 353,         10) /* WeaponType - Thrown */
-     , (31812, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31812, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31812, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31812,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (31812,   5,   -0.05) /* ManaRate */
      , (31812,  29,    1.15) /* WeaponDefense */
      , (31812,  39,     1.1) /* DefaultScale */
      , (31812,  62,       1) /* WeaponOffense */
-     , (31812,  63,    2.57) /* DamageMod */
-     , (31812, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (31812,  63,    2.57) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31812,   1, 'Slashing Slingshot') /* Name */
@@ -62,27 +59,9 @@ VALUES (31812,   1,   33559694) /* Setup */
      , (31812,   6,   67116700) /* PaletteBase */
      , (31812,   8,  100688022) /* Icon */
      , (31812,  22,  872415275) /* PhysicsEffectTable */
-     , (31812,  52,  100676444) /* IconUnderlay */
-     , (31812, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31812, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (31812, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (31812, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31812, 8000, 2173706712) /* PCAPRecordedObjectIID */;
+     , (31812,  52,  100676444) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31812,  1616,      2) 
      , (31812,  2523,      2) 
      , (31812,  2580,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31812, 67116700, 1, 100)
-     , (31812, 67116700, 201, 55)
-     , (31812, 67116705, 101, 100);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31812, 0, 83897339, 83897339);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31812, 0, 16792617);

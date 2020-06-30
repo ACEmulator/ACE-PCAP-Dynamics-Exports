@@ -14,8 +14,7 @@ VALUES (51872,   1,       2048) /* ItemType - Gem */
      , (51872,  19,        100) /* Value */
      , (51872,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51872,  94,         16) /* TargetType - Creature */
-     , (51872, 280,        100) /* SharedCooldown */
-     , (51872, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (51872, 280,        100) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51872,  22, True ) /* Inscribable */;
@@ -30,11 +29,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (51872,   1,   33554773) /* Setup */
      , (51872,   3,  536870932) /* SoundTable */
      , (51872,   8,  100691928) /* Icon */
-     , (51872,  22,  872415275) /* PhysicsEffectTable */
-     , (51872, 8001,     553112) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType */
-     , (51872, 8002,          6) /* PCAPRecordedWeenieHeader2 - Cooldown, CooldownDuration */
-     , (51872, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (51872, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (51872, 8000, 3704154699) /* PCAPRecordedObjectIID */;
+     , (51872,  22,  872415275) /* PhysicsEffectTable */;

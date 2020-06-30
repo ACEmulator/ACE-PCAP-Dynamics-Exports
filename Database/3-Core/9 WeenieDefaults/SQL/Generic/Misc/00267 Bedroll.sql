@@ -9,8 +9,7 @@ VALUES (267,   1,        128) /* ItemType - Misc */
      , (267,  16,          1) /* ItemUseable - No */
      , (267,  19,        500) /* Value */
      , (267,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (267, 151,          1) /* HookType - Floor */
-     , (267, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (267, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (267,  22, True ) /* Inscribable */;
@@ -21,10 +20,4 @@ VALUES (267,   1, 'Bedroll') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (267,   1,   33555056) /* Setup */
-     , (267,   8,  100672423) /* Icon */
-     , (267, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (267, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (267, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (267, 8000, 3658159477) /* PCAPRecordedObjectIID */;
+     , (267,   8,  100672423) /* Icon */;

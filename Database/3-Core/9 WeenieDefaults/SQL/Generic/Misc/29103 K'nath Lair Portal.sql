@@ -11,8 +11,7 @@ VALUES (29103,   1,        128) /* ItemType - Misc */
      , (29103,  33,          1) /* Bonded - Bonded */
      , (29103,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29103, 114,          0) /* Attuned - Normal */
-     , (29103, 151,          9) /* HookType - Floor, Yard */
-     , (29103, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29103, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29103,  22, True ) /* Inscribable */;
@@ -27,10 +26,4 @@ VALUES (29103,   1, 'K''nath Lair Portal') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29103,   1,   33559352) /* Setup */
-     , (29103,   8,  100686436) /* Icon */
-     , (29103, 8001,  270549040) /* PCAPRecordedWeenieHeader - Usable, UseRadius, Container, Burden, HookType */
-     , (29103, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29103, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29103, 8000, 2461401667) /* PCAPRecordedObjectIID */;
+     , (29103,   8,  100686436) /* Icon */;

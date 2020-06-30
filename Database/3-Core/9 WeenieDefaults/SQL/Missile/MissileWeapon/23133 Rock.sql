@@ -22,9 +22,7 @@ VALUES (23133,   1,        256) /* ItemType - MissileWeapon */
      , (23133,  49,         20) /* WeaponTime */
      , (23133,  51,          2) /* CombatUse - Missle */
      , (23133,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (23133, 353,         10) /* WeaponType - Thrown */
-     , (23133, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23133, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (23133, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23133,   1, True ) /* Stuck */;
@@ -47,19 +45,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23133,   1,   33555863) /* Setup */
      , (23133,   3,  536871003) /* SoundTable */
      , (23133,   8,  100667500) /* Icon */
-     , (23133,  22,  872415275) /* PhysicsEffectTable */
-     , (23133, 8001,    2339352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden */
-     , (23133, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23133, 8005,     432929) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (23133, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (23133,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23133, 8040, 675872830, 188.9879, 138.3288, -0.17, 0.04968107, 0.04968107, -0.7053593, -0.7053593) /* PCAPRecordedLocation */
 /* @teleloc 0x2849003E [188.987900 138.328800 -0.170000] 0.049681 0.049681 -0.705359 -0.705359 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23133, 8000, 3692201081) /* PCAPRecordedObjectIID */
-     , (23133, 8008, 3692201076) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (23133, 2, 23132,  1, 0, 0, False) /* Create Lugian Axe (23132) for Wield */

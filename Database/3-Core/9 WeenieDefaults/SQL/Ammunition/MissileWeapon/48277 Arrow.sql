@@ -32,9 +32,7 @@ VALUES (48277,   1,        256) /* ItemType - MissileWeapon */
      , (48277, 307,          5) /* DamageRating */
      , (48277, 313,          0) /* CritRating */
      , (48277, 314,          0) /* CritDamageRating */
-     , (48277, 386,          0) /* Overpower */
-     , (48277, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (48277, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (48277, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (48277,  69, False) /* IsSellable */;
@@ -59,22 +57,8 @@ VALUES (48277,   1,   33555709) /* Setup */
      , (48277,   3,  536870932) /* SoundTable */
      , (48277,   6,   67111919) /* PaletteBase */
      , (48277,   8,  100670168) /* Icon */
-     , (48277,  22,  872415275) /* PhysicsEffectTable */
-     , (48277, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48277, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48277, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (48277, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48277,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48277, 8040, 4079091719, 12.73202, 163.004, 8.388417, -0.6733978, -0.6733978, -0.2157207, -0.2157207) /* PCAPRecordedLocation */
 /* @teleloc 0xF3220007 [12.732020 163.004000 8.388417] -0.673398 -0.673398 -0.215721 -0.215721 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48277, 8000, 3685958605) /* PCAPRecordedObjectIID */
-     , (48277, 8008, 3685958595) /* PCAPRecordedParentIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (48277, 67111923, 0, 0);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (48277, 0, 16777887);

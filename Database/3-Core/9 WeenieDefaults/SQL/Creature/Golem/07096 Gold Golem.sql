@@ -12,15 +12,13 @@ VALUES (7096,   1,         16) /* ItemType - Creature */
      , (7096,  25,        100) /* Level */
      , (7096,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (7096, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7096, 307,          2) /* DamageRating */
-     , (7096, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7096, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7096,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7096,   1, 'Gold Golem') /* Name */
-     , (7096, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7096,   1, 'Gold Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7096,   1,   33556426) /* Setup */
@@ -28,17 +26,11 @@ VALUES (7096,   1,   33556426) /* Setup */
      , (7096,   3,  536870933) /* SoundTable */
      , (7096,   6,   67112775) /* PaletteBase */
      , (7096,   8,  100667940) /* Icon */
-     , (7096,  22,  872415323) /* PhysicsEffectTable */
-     , (7096, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7096, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7096, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7096,  22,  872415323) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7096, 8040, 2377187347, 54.93145, 60.13832, 54.25408, 0.7660445, 0, 0, -0.6427876) /* PCAPRecordedLocation */
 /* @teleloc 0x8DB10013 [54.931450 60.138320 54.254080] 0.766045 0.000000 0.000000 -0.642788 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7096, 8000, 3685500958) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7096,   1, 250, 0, 0) /* Strength */
@@ -107,31 +99,3 @@ VALUES (7096, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for Contai
      , (7096, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (7096, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (7096, 9, 20429,  0, 0, 0, False) /* Create Scroll of Vagabond's Gift (20429) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7096, 67114284, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7096, 0, 83892410, 83892427)
-     , (7096, 0, 83892411, 83892428)
-     , (7096, 1, 83892412, 83892429)
-     , (7096, 2, 83892412, 83892429)
-     , (7096, 4, 83892412, 83892429)
-     , (7096, 5, 83892412, 83892429)
-     , (7096, 7, 83892412, 83892429)
-     , (7096, 8, 83892412, 83892429)
-     , (7096, 9, 83892412, 83892429)
-     , (7096, 11, 83892412, 83892429)
-     , (7096, 12, 83892412, 83892429);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7096, 0, 16784123)
-     , (7096, 1, 16784101)
-     , (7096, 2, 16784094)
-     , (7096, 4, 16784104)
-     , (7096, 5, 16784097)
-     , (7096, 7, 16784091)
-     , (7096, 8, 16784117)
-     , (7096, 9, 16784111)
-     , (7096, 11, 16784119)
-     , (7096, 12, 16784114);

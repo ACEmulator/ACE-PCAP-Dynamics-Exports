@@ -19,14 +19,8 @@ VALUES (43012,   1, 'Sho') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (43012,   1,   33561070) /* Setup */
-     , (43012,   8,  100668115) /* Icon */
-     , (43012, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (43012, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (43012, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (43012,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43012, 8040, 459094, 84.8981, -69.9758, 3.068, -0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070156 [84.898100 -69.975800 3.068000] -0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43012, 8000, 1879076967) /* PCAPRecordedObjectIID */;

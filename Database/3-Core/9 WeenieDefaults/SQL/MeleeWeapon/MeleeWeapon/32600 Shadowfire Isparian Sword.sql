@@ -25,9 +25,7 @@ VALUES (32600,   1,          1) /* ItemType - MeleeWeapon */
      , (32600, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (32600, 160,        400) /* WieldDifficulty */
      , (32600, 166,         22) /* SlayerCreatureType - Shadow */
-     , (32600, 353,          2) /* WeaponType - Sword */
-     , (32600, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (32600, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (32600, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32600,  22, True ) /* Inscribable */
@@ -57,20 +55,4 @@ VALUES (32600,   1,   33559825) /* Setup */
      , (32600,   3,  536870932) /* SoundTable */
      , (32600,   6,   67111919) /* PaletteBase */
      , (32600,   8,  100688549) /* Icon */
-     , (32600,  22,  872415275) /* PhysicsEffectTable */
-     , (32600, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (32600, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (32600, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (32600, 8000, 2150466689) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (32600, 67111927, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (32600, 0, 83889237, 83889688)
-     , (32600, 0, 83889235, 83889688);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (32600, 0, 16783995);
+     , (32600,  22,  872415275) /* PhysicsEffectTable */;

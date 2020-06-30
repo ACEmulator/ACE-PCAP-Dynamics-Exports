@@ -9,8 +9,7 @@ VALUES (35889,   1,        128) /* ItemType - Misc */
      , (35889,  16,          1) /* ItemUseable - No */
      , (35889,  19,          0) /* Value */
      , (35889,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35889, 151,          2) /* HookType - Wall */
-     , (35889, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35889, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35889,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (35889,   1, 'Head of the Paradox-touched Olthoi Queen') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35889,   1,   33560341) /* Setup */
      , (35889,   3,  536870932) /* SoundTable */
-     , (35889,   8,  100689564) /* Icon */
-     , (35889, 8001,  270549008) /* PCAPRecordedWeenieHeader - Usable, Container, Burden, HookType */
-     , (35889, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (35889, 8005,     133121) /* PCAPRecordedPhysicsDesc - CSetup, STable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35889, 8000, 2181139302) /* PCAPRecordedObjectIID */;
+     , (35889,   8,  100689564) /* Icon */;

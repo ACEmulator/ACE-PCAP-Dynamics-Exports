@@ -11,8 +11,7 @@ VALUES (23616,   1,         16) /* ItemType - Creature */
      , (23616,  16,          1) /* ItemUseable - No */
      , (23616,  25,        100) /* Level */
      , (23616,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23616, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (23616, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23616, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23616,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23616,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23616,   1, 'Crystal Shard') /* Name */
-     , (23616, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23616,   1, 'Crystal Shard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23616,   1,   33556732) /* Setup */
@@ -30,17 +28,11 @@ VALUES (23616,   1,   33556732) /* Setup */
      , (23616,   3,  536871001) /* SoundTable */
      , (23616,   6,   67111919) /* PaletteBase */
      , (23616,   8,  100670283) /* Icon */
-     , (23616,  22,  872415347) /* PhysicsEffectTable */
-     , (23616, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23616, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23616, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (23616,  22,  872415347) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23616, 8040, 2295660554, 25.72872, 35.49972, 172.8143, 0.72812, 0, 0, -0.6854497) /* PCAPRecordedLocation */
 /* @teleloc 0x88D5000A [25.728720 35.499720 172.814300] 0.728120 0.000000 0.000000 -0.685450 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23616, 8000, 3685884240) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23616,   1, 190, 0, 0) /* Strength */
@@ -149,6 +141,3 @@ VALUES (23616, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for
      , (23616, 9,  3052,  0, 0, 0, False) /* Create Scroll of Lightning Protection Other VI (3052) for ContainTreasure */
      , (23616, 9,  3077,  0, 0, 0, False) /* Create Scroll of Piercing Vulnerability Other VI (3077) for ContainTreasure */
      , (23616, 9, 20541,  0, 0, 0, False) /* Create Scroll of Celcynd's Blessing (20541) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23616, 67111919, 0, 0);

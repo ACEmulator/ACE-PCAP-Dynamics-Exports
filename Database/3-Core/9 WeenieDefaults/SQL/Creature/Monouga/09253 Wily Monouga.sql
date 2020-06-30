@@ -12,8 +12,7 @@ VALUES (9253,   1,         16) /* ItemType - Creature */
      , (9253,  25,         60) /* Level */
      , (9253,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (9253, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9253, 307,          5) /* DamageRating */
-     , (9253, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9253, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9253,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (9253,  39,     1.8) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9253,   1, 'Wily Monouga') /* Name */
-     , (9253, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (9253,   1, 'Wily Monouga') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9253,   1,   33555199) /* Setup */
@@ -31,17 +29,11 @@ VALUES (9253,   1,   33555199) /* Setup */
      , (9253,   3,  536870962) /* SoundTable */
      , (9253,   6,   67111302) /* PaletteBase */
      , (9253,   8,  100669117) /* Icon */
-     , (9253,  22,  872415257) /* PhysicsEffectTable */
-     , (9253, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (9253, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (9253, 8005,     104643) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement */;
+     , (9253,  22,  872415257) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9253, 8040, 2457993268, 156.276, 83.35617, 35.91435, 0.9757187, 0, 0, -0.2190273) /* PCAPRecordedLocation */
 /* @teleloc 0x92820034 [156.276000 83.356170 35.914350] 0.975719 0.000000 0.000000 -0.219027 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9253, 8000, 3685897431) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9253,   1, 200, 0, 0) /* Strength */
@@ -177,15 +169,3 @@ VALUES (9253, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield
      , (9253, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
      , (9253, 9, 41071,  0, 0, 0, False) /* Create Frost Shashqa (41071) for ContainTreasure */
      , (9253, 9, 21312,  0, 0, 0, False) /* Create Scroll of Force Arc IV (21312) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9253, 67113140, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9253, 0, 83890001, 83891258)
-     , (9253, 1, 83889999, 83891259)
-     , (9253, 1, 83890000, 83891261);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9253, 0, 16780603)
-     , (9253, 1, 16780619);

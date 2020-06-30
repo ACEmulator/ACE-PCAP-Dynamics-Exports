@@ -10,8 +10,7 @@ VALUES (1919,   1,        512) /* ItemType - Container */
      , (1919,   7,         10) /* ContainersCapacity */
      , (1919,  16,         48) /* ItemUseable - ViewedRemote */
      , (1919,  19,       2500) /* Value */
-     , (1919,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (1919, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1919,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1919,   1, True ) /* Stuck */
@@ -23,25 +22,18 @@ VALUES (1919,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1919,   1, 'Chest') /* Name */
-     , (1919,  14, 'Use this item to open it and see its contents.') /* Use */
-     , (1919, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+     , (1919,  14, 'Use this item to open it and see its contents.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1919,   1,   33554556) /* Setup */
      , (1919,   2,  150994948) /* MotionTable */
      , (1919,   3,  536870945) /* SoundTable */
      , (1919,   8,  100667424) /* Icon */
-     , (1919,  22,  872415275) /* PhysicsEffectTable */
-     , (1919, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (1919, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (1919, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (1919,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1919, 8040, 2471166426, 190.471, 37.5771, -31.6, -0.9329377, 0, 0, 0.3600379) /* PCAPRecordedLocation */
 /* @teleloc 0x934B01DA [190.471000 37.577100 -31.600000] -0.932938 0.000000 0.000000 0.360038 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1919, 8000, 2033496116) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1919, -1, 163, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Ornamental Bowl (163) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

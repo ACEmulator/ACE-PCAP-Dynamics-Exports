@@ -26,14 +26,8 @@ VALUES (36183,   1, 'Galvanic Pool') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36183,   1,   33558459) /* Setup */
      , (36183,   3,  536870932) /* SoundTable */
-     , (36183,   8,  100674880) /* Icon */
-     , (36183, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (36183, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (36183, 8005,      34945) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, Position */;
+     , (36183,   8,  100674880) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36183, 8040, 12321031, 30.51114, -15.73267, -36, -0.8010792, 0, 0, 0.5985583) /* PCAPRecordedLocation */
 /* @teleloc 0x00BC0107 [30.511140 -15.732670 -36.000000] -0.801079 0.000000 0.000000 0.598558 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36183, 8000, 3701348079) /* PCAPRecordedObjectIID */;

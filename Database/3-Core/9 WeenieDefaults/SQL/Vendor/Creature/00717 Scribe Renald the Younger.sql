@@ -17,8 +17,7 @@ VALUES (717,   1,         16) /* ItemType - Creature */
      , (717, 113,          1) /* Gender - Male */
      , (717, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (717, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (717, 188,          1) /* HeritageGroup - Aluvian */
-     , (717, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (717, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (717,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (717,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (717,   1, 'Scribe Renald the Younger') /* Name */
-     , (717,   5, 'Scribe') /* Template */
-     , (717, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (717,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (717,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (717,   1,   33554433) /* Setup */
      , (717,  11,   83890659) /* MouthTexture */
      , (717,  15,   67117070) /* HairPalette */
      , (717,  16,   67109567) /* EyesPalette */
-     , (717,  17,   67109560) /* SkinPalette */
-     , (717, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (717, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (717, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (717,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (717, 8040, 2847146303, 131.4, 12.24, 94.005, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B4013F [131.400000 12.240000 94.005000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (717, 8000, 2056994851) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (717,   1,  25, 0, 0) /* Strength */
@@ -88,53 +80,3 @@ VALUES (717, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (717, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (717, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
      , (717, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (717, 67109560, 0, 24)
-     , (717, 67109567, 32, 8)
-     , (717, 67109966, 92, 4)
-     , (717, 67110320, 216, 24)
-     , (717, 67110359, 64, 8)
-     , (717, 67110359, 40, 24)
-     , (717, 67110375, 160, 8)
-     , (717, 67110540, 72, 8)
-     , (717, 67117070, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (717, 0, 83889072, 83890012)
-     , (717, 0, 83889342, 83890011)
-     , (717, 1, 83887064, 83886241)
-     , (717, 2, 83887066, 83887051)
-     , (717, 3, 83889344, 83887054)
-     , (717, 4, 83887068, 83887054)
-     , (717, 5, 83887064, 83886241)
-     , (717, 6, 83887066, 83887051)
-     , (717, 7, 83889344, 83887054)
-     , (717, 8, 83887068, 83887054)
-     , (717, 9, 83887061, 83890009)
-     , (717, 9, 83887060, 83890010)
-     , (717, 10, 83887069, 83886782)
-     , (717, 13, 83887069, 83886782)
-     , (717, 16, 83886232, 83890359)
-     , (717, 16, 83886668, 83890496)
-     , (717, 16, 83886837, 83890548)
-     , (717, 16, 83886684, 83890659);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (717, 0, 16781835)
-     , (717, 1, 16777295)
-     , (717, 2, 16781866)
-     , (717, 3, 16781841)
-     , (717, 4, 16781838)
-     , (717, 5, 16777299)
-     , (717, 6, 16781864)
-     , (717, 7, 16781840)
-     , (717, 8, 16781839)
-     , (717, 9, 16777300)
-     , (717, 10, 16777301)
-     , (717, 11, 16777302)
-     , (717, 12, 16777304)
-     , (717, 13, 16777303)
-     , (717, 14, 16777305)
-     , (717, 15, 16777307)
-     , (717, 16, 16795638);

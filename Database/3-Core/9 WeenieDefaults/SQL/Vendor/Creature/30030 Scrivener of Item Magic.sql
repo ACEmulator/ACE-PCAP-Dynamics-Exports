@@ -17,8 +17,7 @@ VALUES (30030,   1,         16) /* ItemType - Creature */
      , (30030, 113,          1) /* Gender - Male */
      , (30030, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30030, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30030, 188,          2) /* HeritageGroup - Gharundim */
-     , (30030, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (30030, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30030,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (30030,  37,     0.5) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30030,   1, 'Scrivener of Item Magic') /* Name */
-     , (30030,   5, 'Master Archmage') /* Template */
-     , (30030, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (30030,   5, 'Master Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (30030,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (30030,   1,   33554433) /* Setup */
      , (30030,  11,   83890621) /* MouthTexture */
      , (30030,  15,   67117002) /* HairPalette */
      , (30030,  16,   67110062) /* EyesPalette */
-     , (30030,  17,   67109555) /* SkinPalette */
-     , (30030, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (30030, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (30030, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (30030,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30030, 8040, 836108552, 116.611, 135.61, 90.005, -0.7119551, 0, 0, -0.702225) /* PCAPRecordedLocation */
 /* @teleloc 0x31D60108 [116.611000 135.610000 90.005000] -0.711955 0.000000 0.000000 -0.702225 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30030, 8000, 1931304975) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (30030,   1,  90, 0, 0) /* Strength */
@@ -111,40 +103,3 @@ VALUES (30030, 4, 15269, -1, 0, 0, False) /* Create Foci of Artifice (15269) for
      , (30030, 4,  2900, -1, 0, 0, False) /* Create Scroll of Weaken Lock IV (2900) for Shop */
      , (30030, 4,  2904, -1, 0, 0, False) /* Create Scroll of Summon Primary Portal I (2904) for Shop */
      , (30030, 4, 20622, -1, 0, 0, False) /* Create Scroll of Summon Secondary Portal I (20622) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30030, 67109555, 0, 24)
-     , (30030, 67110062, 32, 8)
-     , (30030, 67116026, 174, 33)
-     , (30030, 67116034, 207, 33)
-     , (30030, 67117002, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30030, 0, 83897013, 83897013)
-     , (30030, 9, 83897018, 83897018)
-     , (30030, 9, 83897019, 83897019)
-     , (30030, 11, 83892346, 83897016)
-     , (30030, 14, 83892346, 83897016)
-     , (30030, 16, 83886232, 83890685)
-     , (30030, 16, 83886668, 83890485)
-     , (30030, 16, 83886837, 83890562)
-     , (30030, 16, 83886684, 83890621);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30030, 0, 16791895)
-     , (30030, 1, 16791896)
-     , (30030, 2, 16791897)
-     , (30030, 3, 16777708)
-     , (30030, 4, 16777708)
-     , (30030, 5, 16791898)
-     , (30030, 6, 16791899)
-     , (30030, 7, 16777708)
-     , (30030, 8, 16777708)
-     , (30030, 9, 16791900)
-     , (30030, 10, 16791901)
-     , (30030, 11, 16783853)
-     , (30030, 12, 16777304)
-     , (30030, 13, 16791903)
-     , (30030, 14, 16783855)
-     , (30030, 15, 16777307)
-     , (30030, 16, 16791907);

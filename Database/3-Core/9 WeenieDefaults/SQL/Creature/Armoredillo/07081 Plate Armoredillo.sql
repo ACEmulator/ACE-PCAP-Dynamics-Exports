@@ -11,15 +11,13 @@ VALUES (7081,   1,         16) /* ItemType - Creature */
      , (7081,  16,          1) /* ItemUseable - No */
      , (7081,  25,        100) /* Level */
      , (7081,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (7081, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (7081, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (7081, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7081,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (7081,   1, 'Plate Armoredillo') /* Name */
-     , (7081, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (7081,   1, 'Plate Armoredillo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7081,   1,   33554436) /* Setup */
@@ -27,17 +25,11 @@ VALUES (7081,   1,   33554436) /* Setup */
      , (7081,   3,  536870915) /* SoundTable */
      , (7081,   6,   67109301) /* PaletteBase */
      , (7081,   8,  100667935) /* Icon */
-     , (7081,  22,  872415253) /* PhysicsEffectTable */
-     , (7081, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (7081, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (7081, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (7081,  22,  872415253) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7081, 8040, 2261647385, 75.06685, 17.49423, 131.8843, -0.6135812, 0, 0, -0.7896316) /* PCAPRecordedLocation */
 /* @teleloc 0x86CE0019 [75.066850 17.494230 131.884300] -0.613581 0.000000 0.000000 -0.789632 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7081, 8000, 3685944419) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (7081,   1, 240, 0, 0) /* Strength */
@@ -106,6 +98,3 @@ VALUES (7081, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (4
      , (7081, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (7081, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (7081, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7081, 67114259, 0, 0);

@@ -17,8 +17,7 @@ VALUES (33953,   1,      32768) /* ItemType - Caster */
      , (33953, 108,       2000) /* ItemMaxMana */
      , (33953, 115,        250) /* ItemSkillLevelLimit */
      , (33953, 151,          2) /* HookType - Wall */
-     , (33953, 176,         33) /* AppraisalItemSkill */
-     , (33953, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (33953, 176,         33) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33953,  22, True ) /* Inscribable */;
@@ -38,17 +37,11 @@ VALUES (33953,   1,   33557338) /* Setup */
      , (33953,   6,   67111919) /* PaletteBase */
      , (33953,   8,  100674094) /* Icon */
      , (33953,  22,  872415275) /* PhysicsEffectTable */
-     , (33953,  28,       2178) /* Spell - FesterOther7 */
-     , (33953, 8001,  275316888) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, TargetType, Burden, Spell, HookType */
-     , (33953, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (33953, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (33953,  28,       2178) /* Spell - FesterOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (33953, 8040, 3583574079, 183.1973, 160.3552, 374, 0.9549823, 0, 0, -0.2966627) /* PCAPRecordedLocation */
 /* @teleloc 0xD599003F [183.197300 160.355200 374.000000] 0.954982 0.000000 0.000000 -0.296663 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (33953, 8000, 3669923526) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33953,  2014,      2) 
@@ -57,13 +50,3 @@ VALUES (33953,  2014,      2)
      , (33953,  2267,      2) 
      , (33953,  2287,      2) 
      , (33953,  2664,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (33953, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (33953, 0, 83893789, 83893789)
-     , (33953, 0, 83893788, 83893788);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (33953, 0, 16787342);

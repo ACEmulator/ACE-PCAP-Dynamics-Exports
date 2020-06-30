@@ -34,9 +34,7 @@ VALUES (41068,   1,          1) /* ItemType - MeleeWeapon */
      , (41068, 177,          4) /* GemCount */
      , (41068, 178,         33) /* GemType */
      , (41068, 292,          2) /* Cleaving */
-     , (41068, 353,         11) /* WeaponType - TwoHanded */
-     , (41068, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (41068, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (41068, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41068,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (41068,   5,  -0.042) /* ManaRate */
      , (41068,  29,    1.07) /* WeaponDefense */
      , (41068,  62,    1.13) /* WeaponOffense */
      , (41068,  63,       1) /* DamageMod */
-     , (41068, 150,   1.015) /* WeaponMagicDefense */
-     , (41068, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (41068, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41068,   1, 'Acid Shashqa') /* Name */
@@ -61,13 +58,7 @@ VALUES (41068,   1,   33560827) /* Setup */
      , (41068,   3,  536870932) /* SoundTable */
      , (41068,   6,   67115557) /* PaletteBase */
      , (41068,   8,  100690524) /* Icon */
-     , (41068,  22,  872415275) /* PhysicsEffectTable */
-     , (41068, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (41068, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (41068, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (41068, 8000, 3706737034) /* PCAPRecordedObjectIID */;
+     , (41068,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41068,  1615,      2) 
@@ -75,12 +66,3 @@ VALUES (41068,  1615,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41068, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (41068, 67116394, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (41068, 0, 83896076, 83896076);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (41068, 0, 16794291);

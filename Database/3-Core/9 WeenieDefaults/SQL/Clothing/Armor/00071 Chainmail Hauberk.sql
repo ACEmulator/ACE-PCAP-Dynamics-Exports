@@ -22,8 +22,7 @@ VALUES (71,   1,          2) /* ItemType - Armor */
      , (71, 115,        164) /* ItemSkillLevelLimit */
      , (71, 131,         60) /* MaterialType - Gold */
      , (71, 172,          1) /* AppraisalLongDescDecoration */
-     , (71, 176,          7) /* AppraisalItemSkill */
-     , (71, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (71, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (71,  22, True ) /* Inscribable */
@@ -38,8 +37,7 @@ VALUES (71,   5,  -0.042) /* ManaRate */
      , (71,  17,     0.6) /* ArmorModVsFire */
      , (71,  18,     0.5) /* ArmorModVsAcid */
      , (71,  19,     0.4) /* ArmorModVsElectric */
-     , (71, 165,       1) /* ArmorModVsNether */
-     , (71, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (71, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (71,   1, 'Chainmail Hauberk') /* Name */
@@ -49,13 +47,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (71,   1,   33554644) /* Setup */
      , (71,   6,   67108990) /* PaletteBase */
      , (71,   8,  100667335) /* Icon */
-     , (71,  22,  872415275) /* PhysicsEffectTable */
-     , (71, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (71, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (71, 8005,     135169) /* PCAPRecordedPhysicsDesc - CSetup, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (71, 8000, 3690338208) /* PCAPRecordedObjectIID */;
+     , (71,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (71,  1485,      2) 
@@ -65,21 +57,3 @@ VALUES (71,  1485,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (71, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (71, 67110019, 80, 12)
-     , (71, 67110019, 96, 12)
-     , (71, 67110019, 116, 12)
-     , (71, 67110019, 174, 66)
-     , (71, 67110322, 92, 4);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (71, 0, 83887061, 83886774)
-     , (71, 0, 83887060, 83886250)
-     , (71, 0, 83889072, 83886792)
-     , (71, 0, 83889342, 83886792)
-     , (71, 0, 83886788, 83886801)
-     , (71, 0, 83886796, 83886796);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (71, 0, 16778356);

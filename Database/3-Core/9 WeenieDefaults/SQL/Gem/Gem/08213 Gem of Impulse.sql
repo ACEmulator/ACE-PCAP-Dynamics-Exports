@@ -21,8 +21,7 @@ VALUES (8213,   1,       2048) /* ItemType - Gem */
      , (8213, 108,         70) /* ItemMaxMana */
      , (8213, 109,         40) /* ItemDifficulty */
      , (8213, 110,          0) /* ItemAllegianceRankLimit */
-     , (8213, 114,          1) /* Attuned - Attuned */
-     , (8213, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8213, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8213,  22, True ) /* Inscribable */;
@@ -39,13 +38,7 @@ VALUES (8213,   1,   33556851) /* Setup */
      , (8213,   3,  536870932) /* SoundTable */
      , (8213,   8,  100671182) /* Icon */
      , (8213,  22,  872415275) /* PhysicsEffectTable */
-     , (8213,  28,       2016) /* Spell - Impulse */
-     , (8213, 8001,    6844568) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (8213, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (8213, 8005,     399361) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame, Translucency */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8213, 8000, 2979050481) /* PCAPRecordedObjectIID */;
+     , (8213,  28,       2016) /* Spell - Impulse */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8213,  2016,      2) ;

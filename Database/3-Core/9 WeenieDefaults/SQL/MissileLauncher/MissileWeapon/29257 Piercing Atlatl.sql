@@ -34,9 +34,7 @@ VALUES (29257,   1,        256) /* ItemType - MissileWeapon */
      , (29257, 177,          4) /* GemCount */
      , (29257, 178,         41) /* GemType */
      , (29257, 204,          8) /* ElementalDamageBonus */
-     , (29257, 353,         10) /* WeaponType - Thrown */
-     , (29257, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29257, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29257, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29257,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (29257,   5,   -0.05) /* ManaRate */
      , (29257,  29,    1.12) /* WeaponDefense */
      , (29257,  39,     1.1) /* DefaultScale */
      , (29257,  62,       1) /* WeaponOffense */
-     , (29257,  63,     2.6) /* DamageMod */
-     , (29257, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (29257,  63,     2.6) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29257,   1, 'Piercing Atlatl') /* Name */
@@ -61,13 +58,7 @@ VALUES (29257,   1,   33559242) /* Setup */
      , (29257,   3,  536870932) /* SoundTable */
      , (29257,   6,   67115373) /* PaletteBase */
      , (29257,   8,  100677454) /* Icon */
-     , (29257,  22,  872415275) /* PhysicsEffectTable */
-     , (29257, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29257, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29257, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29257, 8000, 3695926297) /* PCAPRecordedObjectIID */;
+     , (29257,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29257,  1616,      2) 
@@ -76,15 +67,3 @@ VALUES (29257,  1616,      2)
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (29257, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (29257, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29257, 67115372, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29257, 0, 83895603, 83895603)
-     , (29257, 0, 83895601, 83895601)
-     , (29257, 0, 83895602, 83895602)
-     , (29257, 0, 83895600, 83895600);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29257, 0, 16791352);

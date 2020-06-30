@@ -9,8 +9,7 @@ VALUES (25774,   1,        128) /* ItemType - Misc */
      , (25774,  16,          1) /* ItemUseable - No */
      , (25774,  19,       6000) /* Value */
      , (25774,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25774, 151,          1) /* HookType - Floor */
-     , (25774, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (25774, 151,          1) /* HookType - Floor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25774,  22, True ) /* Inscribable */;
@@ -22,10 +21,4 @@ VALUES (25774,   1, 'Fletching Table') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25774,   1,   33558528) /* Setup */
-     , (25774,   8,  100675553) /* Icon */
-     , (25774, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (25774, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25774, 8005,     131073) /* PCAPRecordedPhysicsDesc - CSetup, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25774, 8000, 2622689429) /* PCAPRecordedObjectIID */;
+     , (25774,   8,  100675553) /* Icon */;

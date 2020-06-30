@@ -17,8 +17,7 @@ VALUES (692,   1,         16) /* ItemType - Creature */
      , (692, 113,          2) /* Gender - Female */
      , (692, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (692, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (692, 188,          1) /* HeritageGroup - Aluvian */
-     , (692, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (692, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (692,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (692,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (692,   1, 'Magus Guthima the Wise') /* Name */
-     , (692,   5, 'Archmage') /* Template */
-     , (692, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (692,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (692,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (692,   1,   33554510) /* Setup */
      , (692,  11,   83890346) /* MouthTexture */
      , (692,  15,   67117024) /* HairPalette */
      , (692,  16,   67110062) /* EyesPalette */
-     , (692,  17,   67109560) /* SkinPalette */
-     , (692, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (692, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (692, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (692,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (692, 8040, 3332899073, 60.7287, 84.5991, 42.005, -0.24039, 0, 0, -0.9706764) /* PCAPRecordedLocation */
 /* @teleloc 0xC6A80101 [60.728700 84.599100 42.005000] -0.240390 0.000000 0.000000 -0.970676 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (692, 8000, 2087354374) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (692,   1,  20, 0, 0) /* Strength */
@@ -188,53 +180,3 @@ VALUES (692, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (692, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (692, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (692, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (692, 67109560, 0, 24)
-     , (692, 67109969, 92, 4)
-     , (692, 67110003, 72, 8)
-     , (692, 67110062, 32, 8)
-     , (692, 67110356, 64, 8)
-     , (692, 67110356, 216, 24)
-     , (692, 67110356, 160, 8)
-     , (692, 67111245, 40, 24)
-     , (692, 67117024, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (692, 0, 83889072, 83890012)
-     , (692, 0, 83889342, 83890011)
-     , (692, 1, 83887064, 83886241)
-     , (692, 2, 83887066, 83887055)
-     , (692, 3, 83889344, 83887054)
-     , (692, 4, 83887068, 83887054)
-     , (692, 5, 83887064, 83886241)
-     , (692, 6, 83887066, 83887055)
-     , (692, 7, 83889344, 83887054)
-     , (692, 8, 83887068, 83887054)
-     , (692, 9, 83887070, 83890009)
-     , (692, 9, 83887062, 83890010)
-     , (692, 10, 83887069, 83886782)
-     , (692, 13, 83887069, 83886782)
-     , (692, 16, 83886232, 83890685)
-     , (692, 16, 83886668, 83890275)
-     , (692, 16, 83886837, 83890306)
-     , (692, 16, 83886684, 83890346);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (692, 0, 16781875)
-     , (692, 1, 16778430)
-     , (692, 2, 16778436)
-     , (692, 3, 16778361)
-     , (692, 4, 16778426)
-     , (692, 5, 16778438)
-     , (692, 6, 16778437)
-     , (692, 7, 16778360)
-     , (692, 8, 16778428)
-     , (692, 9, 16778425)
-     , (692, 10, 16778431)
-     , (692, 11, 16778429)
-     , (692, 12, 16778423)
-     , (692, 13, 16778434)
-     , (692, 14, 16778424)
-     , (692, 15, 16778435)
-     , (692, 16, 16795655);

@@ -33,8 +33,7 @@ VALUES (52305,   1,         16) /* ItemType - Creature */
      , (52305, 386,          0) /* Overpower */
      , (52305, 387,          0) /* OverpowerResist */
      , (52305, 388,          0) /* GearOverpower */
-     , (52305, 389,          0) /* GearOverpowerResist */
-     , (52305, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52305, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, True ) /* Stuck */;
@@ -44,22 +43,15 @@ VALUES (52305,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52305,   1, 'Corrupted Gravestone') /* Name */
-     , (52305,  15, 'An old gravestone that appears to be freshly placed into the ground. An uneasy sense overwhelms you as you approach.') /* ShortDesc */
-     , (52305, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (52305,  15, 'An old gravestone that appears to be freshly placed into the ground. An uneasy sense overwhelms you as you approach.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52305,   1,   33560241) /* Setup */
      , (52305,   2,  150995497) /* MotionTable */
      , (52305,   3,  536871001) /* SoundTable */
      , (52305,   8,  100667386) /* Icon */
-     , (52305,  22,  872415339) /* PhysicsEffectTable */
-     , (52305, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (52305, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (52305, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (52305,  22,  872415339) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52305, 8040, 1210908709, 113.532, 117.735, 6, 0.5891209, 0, 0, 0.8080449) /* PCAPRecordedLocation */
 /* @teleloc 0x482D0025 [113.532000 117.735000 6.000000] 0.589121 0.000000 0.000000 0.808045 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52305, 8000, 3698443367) /* PCAPRecordedObjectIID */;

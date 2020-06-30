@@ -20,8 +20,7 @@ VALUES (28045,   1,          4) /* ItemType - Clothing */
      , (28045, 108,        900) /* ItemMaxMana */
      , (28045, 109,        275) /* ItemDifficulty */
      , (28045, 114,          1) /* Attuned - Attuned */
-     , (28045, 151,          2) /* HookType - Wall */
-     , (28045, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28045, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28045,  22, True ) /* Inscribable */
@@ -47,30 +46,9 @@ VALUES (28045,   1,   33554854) /* Setup */
      , (28045,   3,  536870932) /* SoundTable */
      , (28045,   6,   67108990) /* PaletteBase */
      , (28045,   8,  100672444) /* Icon */
-     , (28045,  22,  872415275) /* PhysicsEffectTable */
-     , (28045, 8001,  271024280) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden, HookType */
-     , (28045, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28045, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28045, 8000, 3677522256) /* PCAPRecordedObjectIID */;
+     , (28045,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28045,  1432,      2) 
      , (28045,  1456,      2) 
      , (28045,  2015,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28045, 67109945, 96, 12)
-     , (28045, 67110385, 116, 12)
-     , (28045, 67112954, 40, 40)
-     , (28045, 67112954, 80, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28045, 0, 83887061, 83892348)
-     , (28045, 0, 83887060, 83892349)
-     , (28045, 0, 83889072, 83892345)
-     , (28045, 0, 83889342, 83892344);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28045, 0, 16778367);

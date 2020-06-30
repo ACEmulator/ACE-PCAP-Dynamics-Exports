@@ -10,8 +10,7 @@ VALUES (45878,   1,        512) /* ItemType - Container */
      , (45878,   7,         10) /* ContainersCapacity */
      , (45878,  16,         48) /* ItemUseable - ViewedRemote */
      , (45878,  19,       2500) /* Value */
-     , (45878,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */
-     , (45878, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (45878,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45878,   1, True ) /* Stuck */;
@@ -20,25 +19,18 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (45878,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (45878,   1, 'Chest') /* Name */
-     , (45878, 8006, 'AAA9AAIAAAAMAAAA') /* PCAPRecordedCurrentMotionState */;
+VALUES (45878,   1, 'Chest') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (45878,   1,   33554556) /* Setup */
      , (45878,   2,  150994948) /* MotionTable */
      , (45878,   3,  536870945) /* SoundTable */
      , (45878,   8,  100667424) /* Icon */
-     , (45878,  22,  872415275) /* PhysicsEffectTable */
-     , (45878, 8001,    2097214) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Value, Usable, UseRadius, Burden */
-     , (45878, 8003,         21) /* PCAPRecordedObjectDesc - Openable, Stuck, Attackable */
-     , (45878, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (45878,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45878, 8040, 23331084, 100.128, -27.8008, -54, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
 /* @teleloc 0x0164010C [100.128000 -27.800800 -54.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45878, 8000, 1880506374) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (45878, -1, 8736, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Lytelthorpe Town Stamp (8736) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */

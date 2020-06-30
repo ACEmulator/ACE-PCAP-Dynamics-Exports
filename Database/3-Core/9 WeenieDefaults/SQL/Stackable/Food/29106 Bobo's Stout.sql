@@ -35,14 +35,7 @@ VALUES (29106,   1,   33559128) /* Setup */
      , (29106,  22,  872415275) /* PhysicsEffectTable */
      , (29106,  28,       3531) /* Spell - BobosBlessingCoord */
      , (29106,  50,  100687554) /* IconOverlay */
-     , (29106,  52,  100687547) /* IconUnderlay */
-     , (29106, 8001, 1080062105) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, Burden, Spell, IconOverlay */
-     , (29106, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29106, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (29106, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29106, 8000, 3041952331) /* PCAPRecordedObjectIID */;
+     , (29106,  52,  100687547) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29106,  3531,      2) ;

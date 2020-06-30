@@ -25,9 +25,7 @@ VALUES (40619,   1,          1) /* ItemType - MeleeWeapon */
      , (40619, 160,        250) /* WieldDifficulty */
      , (40619, 172,          1) /* AppraisalLongDescDecoration */
      , (40619, 292,          2) /* Cleaving */
-     , (40619, 353,         11) /* WeaponType - TwoHanded */
-     , (40619, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40619, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40619, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40619,  22, True ) /* Inscribable */;
@@ -38,8 +36,7 @@ VALUES (40619,  21,       0) /* WeaponLength */
      , (40619,  26,       0) /* MaximumVelocity */
      , (40619,  29,    1.02) /* WeaponDefense */
      , (40619,  62,    1.03) /* WeaponOffense */
-     , (40619,  63,       1) /* DamageMod */
-     , (40619, 8004,       3) /* PCAPRecordedWorkmanship */;
+     , (40619,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40619,   1, 'Acid Spadone') /* Name */
@@ -50,19 +47,4 @@ VALUES (40619,   1,   33560721) /* Setup */
      , (40619,   3,  536870932) /* SoundTable */
      , (40619,   6,   67115557) /* PaletteBase */
      , (40619,   8,  100690816) /* Icon */
-     , (40619,  22,  872415275) /* PhysicsEffectTable */
-     , (40619, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40619, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40619, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40619, 8000, 3703460629) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40619, 67116396, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40619, 0, 83896076, 83896076);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40619, 0, 16791762);
+     , (40619,  22,  872415275) /* PhysicsEffectTable */;

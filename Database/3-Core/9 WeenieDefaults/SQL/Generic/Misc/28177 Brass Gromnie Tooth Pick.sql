@@ -10,8 +10,7 @@ VALUES (28177,   1,        128) /* ItemType - Misc */
      , (28177,  19,          0) /* Value */
      , (28177,  33,          1) /* Bonded - Bonded */
      , (28177,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (28177, 114,          1) /* Attuned - Attuned */
-     , (28177, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (28177, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28177,  22, True ) /* Inscribable */
@@ -26,16 +25,4 @@ VALUES (28177,   1, 'Brass Gromnie Tooth Pick') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28177,   1,   33554817) /* Setup */
-     , (28177,   8,  100676790) /* Icon */
-     , (28177, 8001,    2113552) /* PCAPRecordedWeenieHeader - Usable, Container, Burden */
-     , (28177, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28177, 8005,     131201) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28177, 8000, 2153441674) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28177, 0, 83890064, 83890069);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28177, 0, 16777882);
+     , (28177,   8,  100676790) /* Icon */;

@@ -13,8 +13,7 @@ VALUES (35535,   1,        128) /* ItemType - Misc */
      , (35535,  16,          8) /* ItemUseable - Contained */
      , (35535,  19,          1) /* Value */
      , (35535,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (35535,  94,         16) /* TargetType - Creature */
-     , (35535, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (35535,  94,         16) /* TargetType - Creature */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35535,  22, True ) /* Inscribable */;
@@ -33,19 +32,4 @@ VALUES (35535,   1,   33556223) /* Setup */
      , (35535,  22,  872415275) /* PhysicsEffectTable */
      , (35535,  50,  100673758) /* IconOverlay */
      , (35535,  52,  100689403) /* IconUnderlay */
-     , (35535, 8001, 1076391960) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, TargetType, Burden, IconOverlay */
-     , (35535, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (35535, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (35535, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35535, 8000,      35535) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35535, 67112642, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (35535, 0, 83888861, 83892342);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (35535, 0, 16778862);
+     , (35535, 8044,       7835) /* PCAPPhysicsDIDDataTemplatedFrom - Magic Iceball */;

@@ -17,8 +17,7 @@ VALUES (1371,   1,         16) /* ItemType - Creature */
      , (1371, 113,          2) /* Gender - Female */
      , (1371, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1371, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (1371, 188,          3) /* HeritageGroup - Sho */
-     , (1371, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1371, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1371,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (1371,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1371,   1, 'Archmage') /* Name */
-     , (1371,   5, 'Archmage') /* Template */
-     , (1371, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1371,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1371,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (1371,   1,   33554510) /* Setup */
      , (1371,  11,   83890325) /* MouthTexture */
      , (1371,  15,   67117020) /* HairPalette */
      , (1371,  16,   67110062) /* EyesPalette */
-     , (1371,  17,   67110056) /* SkinPalette */
-     , (1371, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1371, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1371, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (1371,  17,   67110056) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1371, 8040, 3812032776, 149.862, 130.284, 106.505, 0.6661102, 0, 0, -0.7458533) /* PCAPRecordedLocation */
 /* @teleloc 0xE3370108 [149.862000 130.284000 106.505000] 0.666110 0.000000 0.000000 -0.745853 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1371, 8000, 2117300229) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1371,   1,  60, 0, 0) /* Strength */
@@ -170,55 +162,3 @@ VALUES (1371, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (1371, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (1371, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (1371, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1371, 67109967, 92, 4)
-     , (1371, 67110056, 0, 24)
-     , (1371, 67110062, 32, 8)
-     , (1371, 67110339, 64, 8)
-     , (1371, 67110349, 160, 8)
-     , (1371, 67110352, 216, 24)
-     , (1371, 67110385, 250, 6)
-     , (1371, 67110539, 72, 8)
-     , (1371, 67111304, 40, 24)
-     , (1371, 67117020, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1371, 0, 83889072, 83890012)
-     , (1371, 0, 83889342, 83890011)
-     , (1371, 1, 83887064, 83886241)
-     , (1371, 2, 83887066, 83887051)
-     , (1371, 3, 83889344, 83887054)
-     , (1371, 4, 83887068, 83887054)
-     , (1371, 5, 83887064, 83886241)
-     , (1371, 6, 83887066, 83887051)
-     , (1371, 7, 83889344, 83887054)
-     , (1371, 8, 83887068, 83887054)
-     , (1371, 9, 83887070, 83890009)
-     , (1371, 9, 83887062, 83890010)
-     , (1371, 10, 83887069, 83886782)
-     , (1371, 13, 83887069, 83886782)
-     , (1371, 16, 83886232, 83890685)
-     , (1371, 16, 83886668, 83890237)
-     , (1371, 16, 83886837, 83890289)
-     , (1371, 16, 83886684, 83890325)
-     , (1371, 16, 83889315, 83889865);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1371, 0, 16781875)
-     , (1371, 1, 16778430)
-     , (1371, 2, 16781908)
-     , (1371, 3, 16781841)
-     , (1371, 4, 16783485)
-     , (1371, 5, 16778438)
-     , (1371, 6, 16781909)
-     , (1371, 7, 16781840)
-     , (1371, 8, 16783487)
-     , (1371, 9, 16778425)
-     , (1371, 10, 16778431)
-     , (1371, 11, 16778429)
-     , (1371, 12, 16778423)
-     , (1371, 13, 16778434)
-     , (1371, 14, 16778424)
-     , (1371, 15, 16778435)
-     , (1371, 16, 16779630);

@@ -30,8 +30,7 @@ VALUES (29259,   1,      32768) /* ItemType - Caster */
      , (29259, 172,          5) /* AppraisalLongDescDecoration */
      , (29259, 177,          4) /* GemCount */
      , (29259, 178,         34) /* GemType */
-     , (29259, 179,          1) /* ImbuedEffect - CriticalStrike */
-     , (29259, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (29259, 179,          1) /* ImbuedEffect - CriticalStrike */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29259,  22, True ) /* Inscribable */;
@@ -40,8 +39,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (29259,   5,  -0.067) /* ManaRate */
      , (29259,  29,    1.37) /* WeaponDefense */
      , (29259, 144,   0.162) /* ManaConversionMod */
-     , (29259, 152,    1.37) /* ElementalDamageMod */
-     , (29259, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (29259, 152,    1.37) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29259,   1, 'Acid Sceptre') /* Name */
@@ -58,20 +56,11 @@ VALUES (29259,   1,   33559229) /* Setup */
      , (29259,   8,  100677435) /* Icon */
      , (29259,  22,  872415275) /* PhysicsEffectTable */
      , (29259,  28,       4439) /* Spell - FlameBolt8 */
-     , (29259,  52,  100676440) /* IconUnderlay */
-     , (29259, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (29259, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (29259, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (29259, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (29259, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (29259,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29259, 8040, 23855548, 51.75484, -29.63478, -0.071, 0.3295095, 0.3295095, -0.6256384, -0.6256384) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [51.754840 -29.634780 -0.071000] 0.329510 0.329510 -0.625638 -0.625638 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29259, 8000, 2449029105) /* PCAPRecordedObjectIID */
-     , (29259, 8008, 1343093466) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29259,  3259,      2) 
@@ -79,7 +68,3 @@ VALUES (29259,  3259,      2)
      , (29259,  4439,      2) 
      , (29259,  4638,      2) 
      , (29259,  6098,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29259, 67115360, 1, 55)
-     , (29259, 67115363, 56, 200);

@@ -33,8 +33,7 @@ VALUES (46937,   1,         16) /* ItemType - Creature */
      , (46937, 386,          0) /* Overpower */
      , (46937, 387,          0) /* OverpowerResist */
      , (46937, 388,          0) /* GearOverpower */
-     , (46937, 389,          0) /* GearOverpowerResist */
-     , (46937, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46937, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46937,   1, True ) /* Stuck */
@@ -45,22 +44,15 @@ VALUES (46937,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46937,   1, 'Gaerlan''s Phylacteric Prison') /* Name */
-     , (46937,  15, 'A crystal prison containing Gaerlan''s life essence.') /* ShortDesc */
-     , (46937, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (46937,  15, 'A crystal prison containing Gaerlan''s life essence.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46937,   1,   33557978) /* Setup */
      , (46937,   2,  150995223) /* MotionTable */
      , (46937,   3,  536871001) /* SoundTable */
      , (46937,   8,  100673073) /* Icon */
-     , (46937,  22,  872415348) /* PhysicsEffectTable */
-     , (46937, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (46937, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (46937, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (46937,  22,  872415348) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46937, 8040, 1481900329, 20, -20, 24, 1, 0, 0, -4.37114E-08) /* PCAPRecordedLocation */
 /* @teleloc 0x58540129 [20.000000 -20.000000 24.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46937, 8000, 3704177617) /* PCAPRecordedObjectIID */;

@@ -28,8 +28,7 @@ VALUES (28632,  13,     1.3) /* ArmorModVsSlash */
      , (28632,  17,     0.4) /* ArmorModVsFire */
      , (28632,  18,     0.6) /* ArmorModVsAcid */
      , (28632,  19,     0.4) /* ArmorModVsElectric */
-     , (28632, 165,       1) /* ArmorModVsNether */
-     , (28632, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (28632, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28632,   1, 'Diforsa Gauntlets') /* Name */
@@ -40,13 +39,4 @@ VALUES (28632,   1,   33559341) /* Setup */
      , (28632,   3,  536870932) /* SoundTable */
      , (28632,   6,   67108990) /* PaletteBase */
      , (28632,   8,  100686268) /* Icon */
-     , (28632,  22,  872415275) /* PhysicsEffectTable */
-     , (28632, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (28632, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (28632, 8005,       6145) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28632, 8000, 3701224919) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28632, 67116182, 168, 6);
+     , (28632,  22,  872415275) /* PhysicsEffectTable */;

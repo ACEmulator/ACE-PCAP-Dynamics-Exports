@@ -19,14 +19,8 @@ VALUES (42782,   1, 'Bluespire') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42782,   1,   33560978) /* Setup */
-     , (42782,   8,  100668115) /* Icon */
-     , (42782, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42782, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42782, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42782,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42782, 8040, 459062, 55.1102, -120.033, 3.014, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x00070136 [55.110200 -120.033000 3.014000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42782, 8000, 1879076926) /* PCAPRecordedObjectIID */;

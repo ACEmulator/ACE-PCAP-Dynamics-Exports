@@ -12,8 +12,7 @@ VALUES (46931,   1,         16) /* ItemType - Creature */
      , (46931,  25,        220) /* Level */
      , (46931,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (46931, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (46931, 307,          2) /* DamageRating */
-     , (46931, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (46931, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46931,   1, True ) /* Stuck */
@@ -23,8 +22,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (46931,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (46931,   1, 'Ancient Aqueous Knight') /* Name */
-     , (46931, 8006, 'AAA9AEYAAADTAAAAAEAAAIC/AAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (46931,   1, 'Ancient Aqueous Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (46931,   1,   33559686) /* Setup */
@@ -32,17 +30,11 @@ VALUES (46931,   1,   33559686) /* Setup */
      , (46931,   3,  536871066) /* SoundTable */
      , (46931,   6,   67116522) /* PaletteBase */
      , (46931,   8,  100672514) /* Icon */
-     , (46931,  22,  872415322) /* PhysicsEffectTable */
-     , (46931, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (46931, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (46931, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (46931,  22,  872415322) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46931, 8040, 1481638205, 50.0948, -18.1353, 0.003250003, -0.7416742, 0, 0, -0.6707603) /* PCAPRecordedLocation */
 /* @teleloc 0x5850013D [50.094800 -18.135300 0.003250] -0.741674 0.000000 0.000000 -0.670760 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (46931, 8000, 3699554881) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (46931,   1, 210, 0, 0) /* Strength */
@@ -90,6 +82,3 @@ VALUES (46931, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for Con
      , (46931, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
      , (46931, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (46931, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (46931, 67116725, 0, 0);

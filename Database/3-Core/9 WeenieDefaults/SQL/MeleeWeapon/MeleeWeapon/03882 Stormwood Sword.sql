@@ -34,9 +34,7 @@ VALUES (3882,   1,          1) /* ItemType - MeleeWeapon */
      , (3882, 176,         44) /* AppraisalItemSkill */
      , (3882, 177,          3) /* GemCount */
      , (3882, 178,         21) /* GemType */
-     , (3882, 353,          2) /* WeaponType - Sword */
-     , (3882, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3882, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (3882, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3882,  22, True ) /* Inscribable */;
@@ -49,8 +47,7 @@ VALUES (3882,   5,  -0.056) /* ManaRate */
      , (3882,  29,    1.16) /* WeaponDefense */
      , (3882,  39,     1.1) /* DefaultScale */
      , (3882,  62,    1.14) /* WeaponOffense */
-     , (3882,  63,       1) /* DamageMod */
-     , (3882, 8004,       9) /* PCAPRecordedWorkmanship */;
+     , (3882,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3882,   1, 'Stormwood Sword') /* Name */
@@ -62,20 +59,11 @@ VALUES (3882,   1,   33561671) /* Setup */
      , (3882,   8,  100693342) /* Icon */
      , (3882,  22,  872415275) /* PhysicsEffectTable */
      , (3882,  50,  100688854) /* IconOverlay */
-     , (3882,  52,  100676436) /* IconUnderlay */
-     , (3882, 8001, 3508765336) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, IconOverlay, MaterialType */
-     , (3882, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (3882, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (3882, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (3882, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (3882,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3882, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3882, 8000, 2183167592) /* PCAPRecordedObjectIID */
-     , (3882, 8008, 1342789086) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3882,  2096,      2) 

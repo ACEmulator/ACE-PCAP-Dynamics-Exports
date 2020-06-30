@@ -12,8 +12,7 @@ VALUES (2459,   1,         32) /* ItemType - Food */
      , (2459,  15,         10) /* StackUnitValue */
      , (2459,  16,          8) /* ItemUseable - Contained */
      , (2459,  19,         10) /* Value */
-     , (2459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (2459, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (2459,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (2459,   1, 'Kumiss') /* Name */
@@ -24,9 +23,4 @@ VALUES (2459,   1,   33556220) /* Setup */
      , (2459,   3,  536870932) /* SoundTable */
      , (2459,   8,  100667428) /* Icon */
      , (2459,  22,  872415275) /* PhysicsEffectTable */
-     , (2459, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (2459, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (2459, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2459, 8000,       2459) /* PCAPRecordedObjectIID */;
+     , (2459, 8044,       5758) /* PCAPPhysicsDIDDataTemplatedFrom - Carrot */;

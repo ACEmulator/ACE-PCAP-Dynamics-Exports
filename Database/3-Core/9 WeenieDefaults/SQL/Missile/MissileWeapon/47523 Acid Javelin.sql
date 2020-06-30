@@ -27,9 +27,7 @@ VALUES (47523,   1,        256) /* ItemType - MissileWeapon */
      , (47523, 313,          0) /* CritRating */
      , (47523, 314,          0) /* CritDamageRating */
      , (47523, 353,         10) /* WeaponType - Thrown */
-     , (47523, 386,          0) /* Overpower */
-     , (47523, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (47523, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (47523, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (47523,  21,       0) /* WeaponLength */
@@ -50,16 +48,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (47523,   1,   33555720) /* Setup */
      , (47523,   3,  536870932) /* SoundTable */
      , (47523,   8,  100667593) /* Icon */
-     , (47523,  22,  872415275) /* PhysicsEffectTable */
-     , (47523, 8001,  270774936) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (47523, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (47523, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (47523, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (47523,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47523, 8040, 3714252815, 31.16757, 165.2805, 23.34755, -0.6956242, -0.6956242, -0.126913, -0.126913) /* PCAPRecordedLocation */
 /* @teleloc 0xDD63000F [31.167570 165.280500 23.347550] -0.695624 -0.695624 -0.126913 -0.126913 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (47523, 8000, 3692129626) /* PCAPRecordedObjectIID */
-     , (47523, 8008, 3692056591) /* PCAPRecordedParentIID */;

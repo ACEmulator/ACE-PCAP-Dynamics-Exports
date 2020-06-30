@@ -12,8 +12,7 @@ VALUES (44720,   1,       2048) /* ItemType - Gem */
      , (44720,  15,          1) /* StackUnitValue */
      , (44720,  16,          1) /* ItemUseable - No */
      , (44720,  19,          1) /* Value */
-     , (44720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (44720, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44720,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44720,   1, 'Gem of Greater Luminance') /* Name */
@@ -24,10 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44720,   1,   33554809) /* Setup */
      , (44720,   3,  536870932) /* SoundTable */
      , (44720,   8,  100692117) /* Icon */
-     , (44720,  22,  872415275) /* PhysicsEffectTable */
-     , (44720, 8001,    2125849) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (44720, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44720, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44720, 8000, 2933081995) /* PCAPRecordedObjectIID */;
+     , (44720,  22,  872415275) /* PhysicsEffectTable */;

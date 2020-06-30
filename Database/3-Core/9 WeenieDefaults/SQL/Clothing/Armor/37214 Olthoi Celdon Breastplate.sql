@@ -27,8 +27,7 @@ VALUES (37214,   1,          2) /* ItemType - Armor */
      , (37214, 172,          7) /* AppraisalLongDescDecoration */
      , (37214, 176,          7) /* AppraisalItemSkill */
      , (37214, 177,          4) /* GemCount */
-     , (37214, 178,         47) /* GemType */
-     , (37214, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37214, 178,         47) /* GemType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37214,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (37214,   5,  -0.056) /* ManaRate */
      , (37214,  17,   2.427) /* ArmorModVsFire */
      , (37214,  18,     2.3) /* ArmorModVsAcid */
      , (37214,  19,   2.689) /* ArmorModVsElectric */
-     , (37214, 165,       1) /* ArmorModVsNether */
-     , (37214, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (37214, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37214,   1, 'Olthoi Celdon Breastplate') /* Name */;
@@ -54,32 +52,14 @@ VALUES (37214,   1,   33554642) /* Setup */
      , (37214,   3,  536870932) /* SoundTable */
      , (37214,   6,   67108990) /* PaletteBase */
      , (37214,   8,  100674635) /* Icon */
-     , (37214,  22,  872415275) /* PhysicsEffectTable */
-     , (37214, 8001, 2166685848) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (37214, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37214, 8005,     169985) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, Position, AnimationFrame */;
+     , (37214,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37214, 8040, 23855473, 21.8771, -61.83859, -0.004999995, -0.1638941, 0, 0, -0.9864779) /* PCAPRecordedLocation */
 /* @teleloc 0x016C0171 [21.877100 -61.838590 -0.005000] -0.163894 0.000000 0.000000 -0.986478 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37214, 8000, 2805189609) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37214,  2087,      2) 
      , (37214,  2092,      2) 
      , (37214,  2108,      2) 
      , (37214,  3965,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37214, 67116548, 174, 33)
-     , (37214, 67116608, 207, 33);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37214, 0, 83894653, 83894686)
-     , (37214, 0, 83894658, 83894677)
-     , (37214, 0, 83894655, 83894682);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37214, 0, 16789304);

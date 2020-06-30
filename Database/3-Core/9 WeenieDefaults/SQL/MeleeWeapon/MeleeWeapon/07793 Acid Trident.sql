@@ -33,9 +33,7 @@ VALUES (7793,   1,          1) /* ItemType - MeleeWeapon */
      , (7793, 176,         44) /* AppraisalItemSkill */
      , (7793, 177,          2) /* GemCount */
      , (7793, 178,         27) /* GemType */
-     , (7793, 353,          5) /* WeaponType - Spear */
-     , (7793, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7793, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7793, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7793,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (7793,   5,  -0.056) /* ManaRate */
      , (7793,  29,    1.06) /* WeaponDefense */
      , (7793,  39,     1.2) /* DefaultScale */
      , (7793,  62,    1.17) /* WeaponOffense */
-     , (7793,  63,       1) /* DamageMod */
-     , (7793, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (7793,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7793,   1, 'Acid Trident') /* Name */
@@ -60,13 +57,7 @@ VALUES (7793,   1,   33556673) /* Setup */
      , (7793,   3,  536870932) /* SoundTable */
      , (7793,   6,   67111919) /* PaletteBase */
      , (7793,   8,  100670790) /* Icon */
-     , (7793,  22,  872415275) /* PhysicsEffectTable */
-     , (7793, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (7793, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7793, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7793, 8000, 3690161087) /* PCAPRecordedObjectIID */;
+     , (7793,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7793,  1616,      2) 
@@ -76,14 +67,3 @@ VALUES (7793,  1616,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7793, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7793, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7793, 0, 83889235, 83889235)
-     , (7793, 0, 83886709, 83886709)
-     , (7793, 0, 83888778, 83888778);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7793, 0, 16784608);

@@ -33,9 +33,7 @@ VALUES (3851,   1,          1) /* ItemType - MeleeWeapon */
      , (3851, 176,         46) /* AppraisalItemSkill */
      , (3851, 177,          5) /* GemCount */
      , (3851, 178,         23) /* GemType */
-     , (3851, 353,          2) /* WeaponType - Sword */
-     , (3851, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (3851, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (3851, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3851,  22, True ) /* Inscribable */;
@@ -47,8 +45,7 @@ VALUES (3851,   5,  -0.067) /* ManaRate */
      , (3851,  26,       0) /* MaximumVelocity */
      , (3851,  29,    1.18) /* WeaponDefense */
      , (3851,  62,     1.2) /* WeaponOffense */
-     , (3851,  63,       1) /* DamageMod */
-     , (3851, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (3851,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (3851,   1, 'Flaming Scimitar') /* Name */
@@ -58,13 +55,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3851,   1,   33555771) /* Setup */
      , (3851,   3,  536870932) /* SoundTable */
      , (3851,   8,  100668975) /* Icon */
-     , (3851,  22,  872415275) /* PhysicsEffectTable */
-     , (3851, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (3851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (3851, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (3851, 8000, 2174519223) /* PCAPRecordedObjectIID */;
+     , (3851,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3851,  2591,      2) 

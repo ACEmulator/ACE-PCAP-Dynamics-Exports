@@ -20,10 +20,4 @@ VALUES (44733,   1, 'Eater') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44733,   1,   33561333) /* Setup */
-     , (44733,   8,  100668115) /* Icon */
-     , (44733, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (44733, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44733, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44733, 8000, 2975612845) /* PCAPRecordedObjectIID */;
+     , (44733,   8,  100668115) /* Icon */;

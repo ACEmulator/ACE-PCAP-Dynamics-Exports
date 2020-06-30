@@ -17,8 +17,7 @@ VALUES (20926,   1,         16) /* ItemType - Creature */
      , (20926, 113,          1) /* Gender - Male */
      , (20926, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (20926, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (20926, 188,          3) /* HeritageGroup - Sho */
-     , (20926, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (20926, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (20926,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (20926,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20926,   1, 'Ichi Ji') /* Name */
-     , (20926,   5, 'Shopkeeper') /* Template */
-     , (20926, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (20926,   5, 'Shopkeeper') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20926,   1,   33554433) /* Setup */
@@ -46,17 +44,11 @@ VALUES (20926,   1,   33554433) /* Setup */
      , (20926,  11,   83890585) /* MouthTexture */
      , (20926,  15,   67116996) /* HairPalette */
      , (20926,  16,   67110063) /* EyesPalette */
-     , (20926,  17,   67110045) /* SkinPalette */
-     , (20926, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (20926, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (20926, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (20926,  17,   67110045) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20926, 8040, 1449132406, 127.309, -27.5004, 0.004999995, 0.4286112, 0, 0, -0.9034891) /* PCAPRecordedLocation */
 /* @teleloc 0x56600176 [127.309000 -27.500400 0.005000] 0.428611 0.000000 0.000000 -0.903489 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (20926, 8000, 1969618962) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (20926,   1,  75, 0, 0) /* Strength */
@@ -114,51 +106,3 @@ VALUES (20926, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (20926, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (20926, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (20926, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (20926, 67109969, 92, 4)
-     , (20926, 67110026, 72, 8)
-     , (20926, 67110045, 0, 24)
-     , (20926, 67110063, 32, 8)
-     , (20926, 67110325, 40, 24)
-     , (20926, 67110325, 64, 8)
-     , (20926, 67110382, 216, 24)
-     , (20926, 67111245, 160, 8)
-     , (20926, 67116996, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (20926, 0, 83889072, 83890012)
-     , (20926, 0, 83889342, 83890011)
-     , (20926, 1, 83887064, 83886241)
-     , (20926, 2, 83887066, 83887051)
-     , (20926, 3, 83889344, 83887054)
-     , (20926, 4, 83887068, 83887054)
-     , (20926, 5, 83887064, 83886241)
-     , (20926, 6, 83887066, 83887051)
-     , (20926, 7, 83889344, 83887054)
-     , (20926, 8, 83887068, 83887054)
-     , (20926, 9, 83887061, 83890009)
-     , (20926, 9, 83887060, 83890010)
-     , (20926, 16, 83886232, 83890685)
-     , (20926, 16, 83886668, 83890514)
-     , (20926, 16, 83886837, 83890529)
-     , (20926, 16, 83886684, 83890585);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (20926, 0, 16781835)
-     , (20926, 1, 16777295)
-     , (20926, 2, 16781866)
-     , (20926, 3, 16781841)
-     , (20926, 4, 16781838)
-     , (20926, 5, 16777299)
-     , (20926, 6, 16781864)
-     , (20926, 7, 16781840)
-     , (20926, 8, 16781839)
-     , (20926, 9, 16777300)
-     , (20926, 10, 16777301)
-     , (20926, 11, 16777302)
-     , (20926, 12, 16777304)
-     , (20926, 13, 16777303)
-     , (20926, 14, 16777305)
-     , (20926, 15, 16777307)
-     , (20926, 16, 16795640);

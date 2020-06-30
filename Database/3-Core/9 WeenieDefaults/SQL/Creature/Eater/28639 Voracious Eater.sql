@@ -11,8 +11,7 @@ VALUES (28639,   1,         16) /* ItemType - Creature */
      , (28639,  16,          1) /* ItemUseable - No */
      , (28639,  25,        100) /* Level */
      , (28639,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28639, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28639, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28639, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28639,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28639,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28639,   1, 'Voracious Eater') /* Name */
-     , (28639, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28639,   1, 'Voracious Eater') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28639,   1,   33559121) /* Setup */
@@ -30,17 +28,11 @@ VALUES (28639,   1,   33559121) /* Setup */
      , (28639,   3,  536871097) /* SoundTable */
      , (28639,   6,   67115387) /* PaletteBase */
      , (28639,   8,  100677365) /* Icon */
-     , (28639,  22,  872415409) /* PhysicsEffectTable */
-     , (28639, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28639, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28639, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28639,  22,  872415409) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28639, 8040, 1190264846, 38.05931, 142.7824, 52, 0.9998111, 0, 0, -0.01943968) /* PCAPRecordedLocation */
 /* @teleloc 0x46F2000E [38.059310 142.782400 52.000000] 0.999811 0.000000 0.000000 -0.019440 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28639, 8000, 3690116802) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28639,   1, 380, 0, 0) /* Strength */
@@ -661,6 +653,3 @@ VALUES (28639, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasu
      , (28639, 9,   353,  0, 0, 0, False) /* Create Tachi (353) for ContainTreasure */
      , (28639, 9, 20446,  0, 0, 0, False) /* Create Scroll of Outlander's Insolence (20446) for ContainTreasure */
      , (28639, 9, 31766,  0, 0, 0, False) /* Create Lightning Lugian Hammer (31766) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28639, 67115508, 0, 0);

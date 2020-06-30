@@ -29,9 +29,7 @@ VALUES (30348,   1,        256) /* ItemType - MissileWeapon */
      , (30348, 265,         41) /* EquipmentSetId - RareDamageBoost */
      , (30348, 319,         50) /* ItemMaxLevel */
      , (30348, 320,          1) /* ItemXpStyle - Fixed */
-     , (30348, 353,         10) /* WeaponType - Thrown */
-     , (30348, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (30348, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (30348, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (30348,   4, 74974277022) /* ItemTotalXp */
@@ -62,20 +60,11 @@ VALUES (30348,   1,   33559411) /* Setup */
      , (30348,   6,   67111919) /* PaletteBase */
      , (30348,   8,  100686806) /* Icon */
      , (30348,  22,  872415275) /* PhysicsEffectTable */
-     , (30348,  52,  100686604) /* IconUnderlay */
-     , (30348, 8001,  270762904) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (30348, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30348, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30348, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (30348, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (30348,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30348, 8040, 2749825341, 106.0972, 35.65033, 61.93, 0.3612338, 0.3612338, -0.6078735, -0.6078735) /* PCAPRecordedLocation */
 /* @teleloc 0xA3E7013D [106.097200 35.650330 61.930000] 0.361234 0.361234 -0.607874 -0.607874 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30348, 8000, 2803230512) /* PCAPRecordedObjectIID */
-     , (30348, 8008, 1343809061) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30348,  4395,      2) 
@@ -84,12 +73,3 @@ VALUES (30348,  4395,      2)
      , (30348,  4522,      2) 
      , (30348,  4661,      2) 
      , (30348,  4687,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30348, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30348, 0, 83897124, 83897124);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30348, 0, 16792028);

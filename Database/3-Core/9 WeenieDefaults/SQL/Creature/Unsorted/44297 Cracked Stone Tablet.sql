@@ -34,8 +34,7 @@ VALUES (44297,   1,         16) /* ItemType - Creature */
      , (44297, 386,          0) /* Overpower */
      , (44297, 387,          0) /* OverpowerResist */
      , (44297, 388,          0) /* GearOverpower */
-     , (44297, 389,          0) /* GearOverpowerResist */
-     , (44297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44297, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44297,   1, True ) /* Stuck */;
@@ -45,25 +44,18 @@ VALUES (44297,  39,    0.95) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44297,   1, 'Cracked Stone Tablet') /* Name */
-     , (44297,  15, 'A cracked, partially buried stone tablet.') /* ShortDesc */
-     , (44297, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (44297,  15, 'A cracked, partially buried stone tablet.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44297,   1,   33561255) /* Setup */
      , (44297,   2,  150995355) /* MotionTable */
      , (44297,   3,  536870942) /* SoundTable */
      , (44297,   8,  100691956) /* Icon */
-     , (44297,  22,  872415269) /* PhysicsEffectTable */
-     , (44297, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (44297, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (44297, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (44297,  22,  872415269) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44297, 8040, 2288254994, 62.79256, 46.23956, 49.1793, -0.8105115, 0, 0, -0.5857226) /* PCAPRecordedLocation */
 /* @teleloc 0x88640012 [62.792560 46.239560 49.179300] -0.810512 0.000000 0.000000 -0.585723 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44297, 8000, 3360164669) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44297, 9, 44298,  1, 0, 0, False) /* Create Broken Stone Tablet (44298) for ContainTreasure */

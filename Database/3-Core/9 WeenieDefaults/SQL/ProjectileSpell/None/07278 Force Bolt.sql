@@ -13,10 +13,7 @@ VALUES (7278,   1, True ) /* Stuck */
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7278,  78,       1) /* Friction */
-     , (7278,  79,       0) /* Elasticity */
-     , (7278, 8010,   3.303) /* PCAPRecordedVelocityX */
-     , (7278, 8011,   2.853) /* PCAPRecordedVelocityY */
-     , (7278, 8012,   0.223) /* PCAPRecordedVelocityZ */;
+     , (7278,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7278,   1, 'Force Bolt') /* Name */;
@@ -25,14 +22,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7278,   1,   33556605) /* Setup */
      , (7278,   3,  536870971) /* SoundTable */
      , (7278,   8,  100667494) /* Icon */
-     , (7278,  28,         86) /* Spell - ForceBolt1 */
-     , (7278, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (7278, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (7278, 8005,      35589) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, Position */;
+     , (7278,  28,         86) /* Spell - ForceBolt1 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7278, 8040, 151715871, 94.07872, 165.3024, 68.25468, 0.9453096, 0, 0, -0.3261743) /* PCAPRecordedLocation */
 /* @teleloc 0x090B001F [94.078720 165.302400 68.254680] 0.945310 0.000000 0.000000 -0.326174 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7278, 8000, 3689420969) /* PCAPRecordedObjectIID */;

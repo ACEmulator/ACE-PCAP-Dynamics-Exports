@@ -18,8 +18,7 @@ VALUES (1378,   1,         16) /* ItemType - Creature */
      , (1378, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (1378, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (1378, 188,          1) /* HeritageGroup - Aluvian */
-     , (1378, 307,          5) /* DamageRating */
-     , (1378, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1378, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1378,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (1378,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1378,   1, 'Roaming Bowyer') /* Name */
-     , (1378,   5, 'Bowyer') /* Template */
-     , (1378, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (1378,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1378,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (1378,   1,   33554510) /* Setup */
      , (1378,  11,   83890353) /* MouthTexture */
      , (1378,  15,   67117016) /* HairPalette */
      , (1378,  16,   67109566) /* EyesPalette */
-     , (1378,  17,   67109560) /* SkinPalette */
-     , (1378, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (1378, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (1378, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (1378,  17,   67109560) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1378, 8040, 2933457154, 178.368, 29.9465, 16.005, -0.03825593, 0, 0, -0.999268) /* PCAPRecordedLocation */
 /* @teleloc 0xAED90102 [178.368000 29.946500 16.005000] -0.038256 0.000000 0.000000 -0.999268 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1378, 8000, 2062389251) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1378,   1,  65, 0, 0) /* Strength */
@@ -107,51 +99,3 @@ VALUES (1378, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (1378, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1378, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (1378, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1378, 67109560, 0, 24)
-     , (1378, 67109566, 32, 8)
-     , (1378, 67109969, 92, 4)
-     , (1378, 67110026, 72, 8)
-     , (1378, 67110325, 40, 24)
-     , (1378, 67110333, 216, 24)
-     , (1378, 67110386, 64, 8)
-     , (1378, 67111246, 160, 8)
-     , (1378, 67117016, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (1378, 0, 83889072, 83890012)
-     , (1378, 0, 83889342, 83890011)
-     , (1378, 1, 83887064, 83886241)
-     , (1378, 3, 83889344, 83887054)
-     , (1378, 4, 83887068, 83887054)
-     , (1378, 5, 83887064, 83886241)
-     , (1378, 7, 83889344, 83887054)
-     , (1378, 8, 83887068, 83887054)
-     , (1378, 9, 83887070, 83890009)
-     , (1378, 9, 83887062, 83890010)
-     , (1378, 10, 83887069, 83886782)
-     , (1378, 13, 83887069, 83886782)
-     , (1378, 16, 83886232, 83890685)
-     , (1378, 16, 83886668, 83890276)
-     , (1378, 16, 83886837, 83890289)
-     , (1378, 16, 83886684, 83890353);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (1378, 0, 16781875)
-     , (1378, 1, 16778430)
-     , (1378, 2, 16778436)
-     , (1378, 3, 16778361)
-     , (1378, 4, 16778426)
-     , (1378, 5, 16778438)
-     , (1378, 6, 16778437)
-     , (1378, 7, 16778360)
-     , (1378, 8, 16778428)
-     , (1378, 9, 16778425)
-     , (1378, 10, 16778431)
-     , (1378, 11, 16778429)
-     , (1378, 12, 16778423)
-     , (1378, 13, 16778434)
-     , (1378, 14, 16778424)
-     , (1378, 15, 16778435)
-     , (1378, 16, 16795675);

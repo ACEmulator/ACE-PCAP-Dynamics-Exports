@@ -14,10 +14,7 @@ VALUES (8602,   1, True ) /* Stuck */
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8602,  77,       1) /* PhysicsScriptIntensity */
      , (8602,  78,       1) /* Friction */
-     , (8602,  79,       0) /* Elasticity */
-     , (8602, 8010, -11.287) /* PCAPRecordedVelocityX */
-     , (8602, 8011,   2.721) /* PCAPRecordedVelocityY */
-     , (8602, 8012,  -4.308) /* PCAPRecordedVelocityZ */;
+     , (8602,  79,       0) /* Elasticity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8602,   1, 'Missile') /* Name */;
@@ -28,14 +25,8 @@ VALUES (8602,   1,   33555469) /* Setup */
      , (8602,   8,  100667494) /* Icon */
      , (8602,  22,  872415247) /* PhysicsEffectTable */
      , (8602,  28,         86) /* Spell - ForceBolt1 */
-     , (8602,  30,         90) /* PhysicsScript - ProjectileCollision */
-     , (8602, 8001,    4194304) /* PCAPRecordedWeenieHeader - Spell */
-     , (8602, 8003,        148) /* PCAPRecordedObjectDesc - Stuck, Attackable, UiHidden */
-     , (8602, 8005,      64261) /* PCAPRecordedPhysicsDesc - CSetup, Velocity, Friction, Elasticity, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */;
+     , (8602,  30,         90) /* PhysicsScript - ProjectileCollision */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8602, 8040, 10944778, 150.6323, -56.76271, -2.831972, -0.7856231, 0, 0, -0.6187053) /* PCAPRecordedLocation */
 /* @teleloc 0x00A7010A [150.632300 -56.762710 -2.831972] -0.785623 0.000000 0.000000 -0.618705 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8602, 8000, 3679876605) /* PCAPRecordedObjectIID */;

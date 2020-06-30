@@ -11,8 +11,7 @@ VALUES (216,   1,         16) /* ItemType - Creature */
      , (216,  16,          1) /* ItemUseable - No */
      , (216,  25,          8) /* Level */
      , (216,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (216, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (216, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (216, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (216,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (216,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (216,   1, 'Green Phyntos Wasp') /* Name */
-     , (216, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (216,   1, 'Green Phyntos Wasp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (216,   1,   33558817) /* Setup */
@@ -30,17 +28,11 @@ VALUES (216,   1,   33558817) /* Setup */
      , (216,   3,  536870926) /* SoundTable */
      , (216,   6,   67115262) /* PaletteBase */
      , (216,   8,  100667450) /* Icon */
-     , (216,  22,  872415266) /* PhysicsEffectTable */
-     , (216, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (216, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (216, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (216,  22,  872415266) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (216, 8040, 3730112531, 66.30348, 54.41638, 7.537291, -0.3847691, 0, 0, -0.9230129) /* PCAPRecordedLocation */
 /* @teleloc 0xDE550013 [66.303480 54.416380 7.537291] -0.384769 0.000000 0.000000 -0.923013 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (216, 8000, 3685113001) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (216,   1,  35, 0, 0) /* Strength */
@@ -82,6 +74,3 @@ VALUES (216, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure 
      , (216, 9,  3118,  0, 0, 0, False) /* Create Scroll of Rejuvenate Other II (3118) for ContainTreasure */
      , (216, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (216, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (216, 67115265, 0, 0);

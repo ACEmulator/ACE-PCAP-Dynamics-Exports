@@ -26,9 +26,7 @@ VALUES (31770,   1,          1) /* ItemType - MeleeWeapon */
      , (31770, 172,          5) /* AppraisalLongDescDecoration */
      , (31770, 177,          3) /* GemCount */
      , (31770, 178,         47) /* GemType */
-     , (31770, 353,          3) /* WeaponType - Axe */
-     , (31770, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (31770, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31770, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31770,  22, True ) /* Inscribable */;
@@ -40,8 +38,7 @@ VALUES (31770,  21,       0) /* WeaponLength */
      , (31770,  29,    1.06) /* WeaponDefense */
      , (31770,  62,    1.11) /* WeaponOffense */
      , (31770,  63,       1) /* DamageMod */
-     , (31770,  77,       1) /* PhysicsScriptIntensity */
-     , (31770, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31770,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31770,   1, 'Acid War Axe') /* Name */
@@ -53,20 +50,4 @@ VALUES (31770,   1,   33555687) /* Setup */
      , (31770,   6,   67111919) /* PaletteBase */
      , (31770,   8,  100672844) /* Icon */
      , (31770,  22,  872415275) /* PhysicsEffectTable */
-     , (31770,  30,         88) /* PhysicsScript - Create */
-     , (31770, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (31770, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31770, 8005,     161793) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, DefaultScript, DefaultScriptIntensity, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31770, 8000, 3701762182) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31770, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (31770, 0, 83889238, 83889238)
-     , (31770, 0, 83886737, 83886737);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (31770, 0, 16777886);
+     , (31770,  30,         88) /* PhysicsScript - Create */;

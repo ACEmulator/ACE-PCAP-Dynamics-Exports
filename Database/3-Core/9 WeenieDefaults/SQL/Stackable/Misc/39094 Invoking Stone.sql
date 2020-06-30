@@ -14,8 +14,7 @@ VALUES (39094,   1,        128) /* ItemType - Misc */
      , (39094,  19,         50) /* Value */
      , (39094,  33,          1) /* Bonded - Bonded */
      , (39094,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (39094, 114,          1) /* Attuned - Attuned */
-     , (39094, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39094, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39094,   1, 'Invoking Stone') /* Name */
@@ -28,20 +27,4 @@ VALUES (39094,   1,   33554669) /* Setup */
      , (39094,   6,   67111928) /* PaletteBase */
      , (39094,   8,  100690309) /* Icon */
      , (39094,  22,  872415275) /* PhysicsEffectTable */
-     , (39094,  52,  100689932) /* IconUnderlay */
-     , (39094, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (39094, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (39094, 8003,   67108880) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader */
-     , (39094, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39094, 8000, 2147831438) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39094, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (39094, 0, 83888861, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (39094, 0, 16778862);
+     , (39094,  52,  100689932) /* IconUnderlay */;

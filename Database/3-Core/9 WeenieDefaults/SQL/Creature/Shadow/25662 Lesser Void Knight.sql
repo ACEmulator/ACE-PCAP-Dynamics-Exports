@@ -13,8 +13,7 @@ VALUES (25662,   1,         16) /* ItemType - Creature */
      , (25662,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
      , (25662, 113,          1) /* Gender - Male */
      , (25662, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (25662, 188,          1) /* HeritageGroup - Aluvian */
-     , (25662, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25662, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25662,   1, True ) /* Stuck */;
@@ -24,8 +23,7 @@ VALUES (25662,  39,     1.1) /* DefaultScale */
      , (25662,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25662,   1, 'Lesser Void Knight') /* Name */
-     , (25662, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (25662,   1, 'Lesser Void Knight') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25662,   1,   33554433) /* Setup */
@@ -39,17 +37,11 @@ VALUES (25662,   1,   33554433) /* Setup */
      , (25662,  15,   67117001) /* HairPalette */
      , (25662,  16,   67110063) /* EyesPalette */
      , (25662,  17,   67109559) /* SkinPalette */
-     , (25662,  22,  872415331) /* PhysicsEffectTable */
-     , (25662, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (25662, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (25662, 8005,     366723) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (25662,  22,  872415331) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (25662, 8040, 822935586, 117.9815, 24.40439, -0.4445, 0.3393943, 0, 0, -0.9406442) /* PCAPRecordedLocation */
 /* @teleloc 0x310D0022 [117.981500 24.404390 -0.444500] 0.339394 0.000000 0.000000 -0.940644 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25662, 8000, 3696921126) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (25662,   1, 140, 0, 0) /* Strength */
@@ -87,6 +79,3 @@ VALUES (25662, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
      , (25662, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (25662, 9, 31803,  0, 0, 0, False) /* Create Frost Compound Bow (31803) for ContainTreasure */
      , (25662, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (25662, 67112860, 0, 0);

@@ -18,8 +18,7 @@ VALUES (650,   1,         16) /* ItemType - Creature */
      , (650, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (650, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (650, 188,          1) /* HeritageGroup - Aluvian */
-     , (650, 307,          5) /* DamageRating */
-     , (650, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (650, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (650,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (650,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (650,   1, 'Rundiscar the Weaponsmith') /* Name */
-     , (650,   5, 'Blacksmith') /* Template */
-     , (650, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (650,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (650,   1,   33554433) /* Setup */
@@ -47,17 +45,11 @@ VALUES (650,   1,   33554433) /* Setup */
      , (650,  11,   83890667) /* MouthTexture */
      , (650,  15,   67117074) /* HairPalette */
      , (650,  16,   67109567) /* EyesPalette */
-     , (650,  17,   67109558) /* SkinPalette */
-     , (650, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (650, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (650, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (650,  17,   67109558) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (650, 8040, 3465871682, 155.28, 30.84, 20.005, -0.0932395, 0, 0, -0.9956437) /* PCAPRecordedLocation */
 /* @teleloc 0xCE950142 [155.280000 30.840000 20.005000] -0.093240 0.000000 0.000000 -0.995644 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (650, 8000, 2095665183) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (650,   1, 100, 0, 0) /* Strength */
@@ -100,49 +92,3 @@ VALUES (650, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (650, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (650, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (650, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (650, 67109558, 0, 24)
-     , (650, 67109567, 32, 8)
-     , (650, 67110361, 64, 8)
-     , (650, 67110365, 40, 24)
-     , (650, 67110365, 160, 8)
-     , (650, 67110376, 216, 24)
-     , (650, 67110539, 72, 8)
-     , (650, 67110551, 92, 4)
-     , (650, 67117074, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (650, 0, 83889072, 83890012)
-     , (650, 0, 83889342, 83890011)
-     , (650, 1, 83887064, 83886241)
-     , (650, 3, 83889344, 83887054)
-     , (650, 4, 83887068, 83887054)
-     , (650, 5, 83887064, 83886241)
-     , (650, 7, 83889344, 83887054)
-     , (650, 8, 83887068, 83887054)
-     , (650, 9, 83887061, 83890009)
-     , (650, 9, 83887060, 83890010)
-     , (650, 16, 83886232, 83890685)
-     , (650, 16, 83886668, 83890508)
-     , (650, 16, 83886837, 83890520)
-     , (650, 16, 83886684, 83890667);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (650, 0, 16781835)
-     , (650, 1, 16777295)
-     , (650, 2, 16777293)
-     , (650, 3, 16777292)
-     , (650, 4, 16777291)
-     , (650, 5, 16777299)
-     , (650, 6, 16777297)
-     , (650, 7, 16777296)
-     , (650, 8, 16777298)
-     , (650, 9, 16777300)
-     , (650, 10, 16777301)
-     , (650, 11, 16777302)
-     , (650, 12, 16777304)
-     , (650, 13, 16777303)
-     , (650, 14, 16777305)
-     , (650, 15, 16777307)
-     , (650, 16, 16795665);

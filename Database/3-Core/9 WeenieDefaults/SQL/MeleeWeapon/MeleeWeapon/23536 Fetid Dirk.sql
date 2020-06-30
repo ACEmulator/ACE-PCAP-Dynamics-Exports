@@ -21,9 +21,7 @@ VALUES (23536,   1,          1) /* ItemType - MeleeWeapon */
      , (23536, 107,       1000) /* ItemCurMana */
      , (23536, 108,       1000) /* ItemMaxMana */
      , (23536, 151,          2) /* HookType - Wall */
-     , (23536, 353,          6) /* WeaponType - Dagger */
-     , (23536, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (23536, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (23536, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23536,  22, True ) /* Inscribable */;
@@ -45,13 +43,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23536,   1,   33558184) /* Setup */
      , (23536,   3,  536870932) /* SoundTable */
      , (23536,   8,  100674031) /* Icon */
-     , (23536,  22,  872415275) /* PhysicsEffectTable */
-     , (23536, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (23536, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (23536, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23536, 8000, 3682000202) /* PCAPRecordedObjectIID */;
+     , (23536,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23536,  1135,      2) 

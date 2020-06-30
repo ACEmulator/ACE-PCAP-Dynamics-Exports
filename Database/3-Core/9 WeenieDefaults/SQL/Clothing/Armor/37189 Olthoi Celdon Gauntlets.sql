@@ -27,8 +27,7 @@ VALUES (37189,   1,          2) /* ItemType - Armor */
      , (37189, 172,          5) /* AppraisalLongDescDecoration */
      , (37189, 177,          2) /* GemCount */
      , (37189, 178,         23) /* GemType */
-     , (37189, 265,         20) /* EquipmentSetId - Dexterous */
-     , (37189, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (37189, 265,         20) /* EquipmentSetId - Dexterous */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37189,  22, True ) /* Inscribable */
@@ -43,8 +42,7 @@ VALUES (37189,   5,  -0.056) /* ManaRate */
      , (37189,  17,   1.106) /* ArmorModVsFire */
      , (37189,  18,     0.6) /* ArmorModVsAcid */
      , (37189,  19,     0.4) /* ArmorModVsElectric */
-     , (37189, 165,       1) /* ArmorModVsNether */
-     , (37189, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (37189, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37189,   1, 'Olthoi Celdon Gauntlets') /* Name */
@@ -55,13 +53,7 @@ VALUES (37189,   1,   33554648) /* Setup */
      , (37189,   3,  536870932) /* SoundTable */
      , (37189,   6,   67108990) /* PaletteBase */
      , (37189,   8,  100674653) /* Icon */
-     , (37189,  22,  872415275) /* PhysicsEffectTable */
-     , (37189, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (37189, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (37189, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37189, 8000, 3429389315) /* PCAPRecordedObjectIID */;
+     , (37189,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37189,   327,      2) 
@@ -69,13 +61,3 @@ VALUES (37189,   327,      2)
      , (37189,  2108,      2) 
      , (37189,  2574,      2) 
      , (37189,  3965,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37189, 67116580, 171, 3)
-     , (37189, 67116588, 168, 3);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37189, 0, 83894333, 83894688);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37189, 0, 16778374);

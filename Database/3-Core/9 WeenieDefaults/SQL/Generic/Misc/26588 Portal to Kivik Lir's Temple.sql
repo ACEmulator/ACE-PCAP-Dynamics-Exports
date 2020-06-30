@@ -24,10 +24,4 @@ VALUES (26588,   1, 'Portal to Kivik Lir''s Temple') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (26588,   1,   33558645) /* Setup */
-     , (26588,   8,  100675779) /* Icon */
-     , (26588, 8001,  270549048) /* PCAPRecordedWeenieHeader - Value, Usable, UseRadius, Container, Burden, HookType */
-     , (26588, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (26588, 8005,        129) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (26588, 8000, 2191828351) /* PCAPRecordedObjectIID */;
+     , (26588,   8,  100675779) /* Icon */;

@@ -9,26 +9,18 @@ VALUES (25350,   1,        128) /* ItemType - Misc */
      , (25350,  16,          1) /* ItemUseable - No */
      , (25350,  19,         90) /* Value */
      , (25350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (25350, 151,          9) /* HookType - Floor, Yard */
-     , (25350, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (25350, 151,          9) /* HookType - Floor, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25350,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25350,   1, 'Living Tome') /* Name */
-     , (25350,  16, 'This book seems to live and pulse of its own accord.') /* LongDesc */
-     , (25350, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (25350,  16, 'This book seems to live and pulse of its own accord.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25350,   1,   33558443) /* Setup */
      , (25350,   2,  150995251) /* MotionTable */
      , (25350,   3,  536870942) /* SoundTable */
      , (25350,   8,  100674847) /* Icon */
-     , (25350,  22,  872415269) /* PhysicsEffectTable */
-     , (25350, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (25350, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (25350, 8005,      71683) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Movement */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (25350, 8000, 2192118847) /* PCAPRecordedObjectIID */;
+     , (25350,  22,  872415269) /* PhysicsEffectTable */;

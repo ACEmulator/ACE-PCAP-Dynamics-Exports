@@ -34,9 +34,7 @@ VALUES (40624,   1,          1) /* ItemType - MeleeWeapon */
      , (40624, 177,          1) /* GemCount */
      , (40624, 178,         23) /* GemType */
      , (40624, 292,          2) /* Cleaving */
-     , (40624, 353,         11) /* WeaponType - TwoHanded */
-     , (40624, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (40624, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (40624, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40624,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (40624,   5,  -0.042) /* ManaRate */
      , (40624,  26,       0) /* MaximumVelocity */
      , (40624,  29,    1.05) /* WeaponDefense */
      , (40624,  62,     1.1) /* WeaponOffense */
-     , (40624,  63,       1) /* DamageMod */
-     , (40624, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (40624,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40624,   1, 'Acid Quadrelle') /* Name */
@@ -60,25 +57,10 @@ VALUES (40624,   1,   33560725) /* Setup */
      , (40624,   3,  536870932) /* SoundTable */
      , (40624,   6,   67116833) /* PaletteBase */
      , (40624,   8,  100690784) /* Icon */
-     , (40624,  22,  872415275) /* PhysicsEffectTable */
-     , (40624, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (40624, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (40624, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40624, 8000, 3707011150) /* PCAPRecordedObjectIID */;
+     , (40624,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40624,  1615,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40624, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (40624, 67116840, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (40624, 0, 83898004, 83898004);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (40624, 0, 16791977);

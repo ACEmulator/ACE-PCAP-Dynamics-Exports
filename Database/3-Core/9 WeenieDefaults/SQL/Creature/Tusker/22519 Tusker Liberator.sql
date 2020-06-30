@@ -11,8 +11,7 @@ VALUES (22519,   1,         16) /* ItemType - Creature */
      , (22519,  16,          1) /* ItemUseable - No */
      , (22519,  25,         60) /* Level */
      , (22519,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22519, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (22519, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22519, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22519,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22519,  39,     0.9) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22519,   1, 'Tusker Liberator') /* Name */
-     , (22519, 8006, 'AAA9AIAAAABMAAEAAACAPw==') /* PCAPRecordedCurrentMotionState */;
+VALUES (22519,   1, 'Tusker Liberator') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22519,   1,   33556836) /* Setup */
@@ -30,17 +28,11 @@ VALUES (22519,   1,   33556836) /* Setup */
      , (22519,   3,  536870929) /* SoundTable */
      , (22519,   6,   67109315) /* PaletteBase */
      , (22519,   8,  100667443) /* Icon */
-     , (22519,  22,  872415271) /* PhysicsEffectTable */
-     , (22519, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22519, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22519, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22519,  22,  872415271) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22519, 8040, 2377056294, 113.5374, 143.3865, 56.0099, -0.1385584, 0, 0, -0.9903543) /* PCAPRecordedLocation */
 /* @teleloc 0x8DAF0026 [113.537400 143.386500 56.009900] -0.138558 0.000000 0.000000 -0.990354 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22519, 8000, 3685935030) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22519,   1, 200, 0, 0) /* Strength */
@@ -313,23 +305,3 @@ VALUES (22519, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for
      , (22519, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
      , (22519, 9, 44858,  0, 0, 0, False) /* Create Quartered Cloak (44858) for ContainTreasure */
      , (22519, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22519, 67113009, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (22519, 1, 83892782, 83892781)
-     , (22519, 1, 83892779, 83892778)
-     , (22519, 2, 83892777, 83892776)
-     , (22519, 3, 83892773, 83892775)
-     , (22519, 5, 83892777, 83892776)
-     , (22519, 6, 83892773, 83892775);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (22519, 1, 16785073)
-     , (22519, 2, 16785066)
-     , (22519, 3, 16785063)
-     , (22519, 5, 16785070)
-     , (22519, 6, 16785063)
-     , (22519, 23, 16785114)
-     , (22519, 24, 16785114);

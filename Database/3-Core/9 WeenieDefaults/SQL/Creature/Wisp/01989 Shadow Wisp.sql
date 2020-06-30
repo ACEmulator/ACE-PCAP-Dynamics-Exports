@@ -11,33 +11,25 @@ VALUES (1989,   1,         16) /* ItemType - Creature */
      , (1989,  16,          1) /* ItemUseable - No */
      , (1989,  25,         50) /* Level */
      , (1989,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1989, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1989, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1989, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1989,   1, True ) /* Stuck */
      , (1989, 120, True ) /* TreasureCorpse */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1989,   1, 'Shadow Wisp') /* Name */
-     , (1989, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1989,   1, 'Shadow Wisp') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1989,   1,   33555867) /* Setup */
      , (1989,   2,  150994993) /* MotionTable */
      , (1989,   3,  536870985) /* SoundTable */
      , (1989,   8,  100668442) /* Icon */
-     , (1989,  22,  872415274) /* PhysicsEffectTable */
-     , (1989, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1989, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1989, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (1989,  22,  872415274) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1989, 8040, 2443116566, 68.241, 135.9599, 62.43375, -0.9982471, 0, 0, -0.05918395) /* PCAPRecordedLocation */
 /* @teleloc 0x919F0016 [68.241000 135.959900 62.433750] -0.998247 0.000000 0.000000 -0.059184 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1989, 8000, 3685919595) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1989,   1, 100, 0, 0) /* Strength */

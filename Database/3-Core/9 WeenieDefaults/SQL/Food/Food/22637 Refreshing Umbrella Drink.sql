@@ -14,8 +14,7 @@ VALUES (22637,   1,         32) /* ItemType - Food */
      , (22637,  19,         30) /* Value */
      , (22637,  89,          4) /* BoosterEnum - Stamina */
      , (22637,  90,          1) /* BoostValue */
-     , (22637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (22637, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (22637,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22637,   1, 'Refreshing Umbrella Drink') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22637,   1,   33558105) /* Setup */
      , (22637,   3,  536870932) /* SoundTable */
      , (22637,   8,  100673813) /* Icon */
-     , (22637,  22,  872415275) /* PhysicsEffectTable */
-     , (22637, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (22637, 8003,      32784) /* PCAPRecordedObjectDesc - Attackable, Food */
-     , (22637, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22637, 8000, 2192146079) /* PCAPRecordedObjectIID */;
+     , (22637,  22,  872415275) /* PhysicsEffectTable */;

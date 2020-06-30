@@ -17,8 +17,7 @@ VALUES (819,   1,         16) /* ItemType - Creature */
      , (819, 113,          2) /* Gender - Female */
      , (819, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (819, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (819, 188,          3) /* HeritageGroup - Sho */
-     , (819, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (819, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (819,   1, True ) /* Stuck */
@@ -32,8 +31,7 @@ VALUES (819,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (819,   1, 'Kai Go-Sou the Scribe') /* Name */
-     , (819,   5, 'Scribe') /* Template */
-     , (819, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (819,   5, 'Scribe') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (819,   1,   33554510) /* Setup */
@@ -46,17 +44,11 @@ VALUES (819,   1,   33554510) /* Setup */
      , (819,  11,   83890351) /* MouthTexture */
      , (819,  15,   67117019) /* HairPalette */
      , (819,  16,   67110063) /* EyesPalette */
-     , (819,  17,   67110059) /* SkinPalette */
-     , (819, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (819, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (819, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (819,  17,   67110059) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (819, 8040, 3027239178, 80, 105, 55.805, 0.9238797, 0, 0, -0.3826829) /* PCAPRecordedLocation */
 /* @teleloc 0xB470010A [80.000000 105.000000 55.805000] 0.923880 0.000000 0.000000 -0.382683 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (819, 8000, 2068250657) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (819,   1,  45, 0, 0) /* Strength */
@@ -90,53 +82,3 @@ VALUES (819, 4,   364, -1, 0, 0, False) /* Create Book (364) for Shop */
      , (819, 4,  5586, -1, 0, 0, False) /* Create Alchemy Guide (5586) for Shop */
      , (819, 4, 24855, -1, 0, 0, False) /* Create The New Alchemy (24855) for Shop */
      , (819, 4,  5587, -1, 0, 0, False) /* Create Fletching Guide (5587) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (819, 67109964, 92, 4)
-     , (819, 67110059, 0, 24)
-     , (819, 67110063, 32, 8)
-     , (819, 67110349, 64, 8)
-     , (819, 67110356, 40, 24)
-     , (819, 67110539, 72, 8)
-     , (819, 67111245, 216, 24)
-     , (819, 67111245, 160, 8)
-     , (819, 67117019, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (819, 0, 83889072, 83890012)
-     , (819, 0, 83889342, 83890011)
-     , (819, 1, 83887064, 83886241)
-     , (819, 2, 83887066, 83887055)
-     , (819, 3, 83889344, 83887054)
-     , (819, 4, 83887068, 83887054)
-     , (819, 5, 83887064, 83886241)
-     , (819, 6, 83887066, 83887055)
-     , (819, 7, 83889344, 83887054)
-     , (819, 8, 83887068, 83887054)
-     , (819, 9, 83887070, 83890009)
-     , (819, 9, 83887062, 83890010)
-     , (819, 10, 83887069, 83886782)
-     , (819, 13, 83887069, 83886782)
-     , (819, 16, 83886232, 83890685)
-     , (819, 16, 83886668, 83890241)
-     , (819, 16, 83886837, 83890296)
-     , (819, 16, 83886684, 83890351);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (819, 0, 16781875)
-     , (819, 1, 16778430)
-     , (819, 2, 16778436)
-     , (819, 3, 16778361)
-     , (819, 4, 16778426)
-     , (819, 5, 16778438)
-     , (819, 6, 16778437)
-     , (819, 7, 16778360)
-     , (819, 8, 16778428)
-     , (819, 9, 16778425)
-     , (819, 10, 16778431)
-     , (819, 11, 16778429)
-     , (819, 12, 16778423)
-     , (819, 13, 16778434)
-     , (819, 14, 16778424)
-     , (819, 15, 16778435)
-     , (819, 16, 16795647);

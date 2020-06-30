@@ -11,8 +11,7 @@ VALUES (28246,   1,         16) /* ItemType - Creature */
      , (28246,  16,          1) /* ItemUseable - No */
      , (28246,  25,         60) /* Level */
      , (28246,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (28246, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28246, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28246, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28246,   1, True ) /* Stuck */
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28246,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28246,   1, 'Spirit') /* Name */
-     , (28246, 8006, 'AAA9AEAAAAAAAMC/') /* PCAPRecordedCurrentMotionState */;
+VALUES (28246,   1, 'Spirit') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28246,   1,   33558816) /* Setup */
@@ -31,17 +29,11 @@ VALUES (28246,   1,   33558816) /* Setup */
      , (28246,   3,  536871094) /* SoundTable */
      , (28246,   6,   67115251) /* PaletteBase */
      , (28246,   8,  100676679) /* Icon */
-     , (28246,  22,  872415403) /* PhysicsEffectTable */
-     , (28246, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28246, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28246, 8005,     366595) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement, Translucency */;
+     , (28246,  22,  872415403) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28246, 8040, 3135766566, 106.1215, 130.953, 15.31727, 0.9578311, 0, 0, -0.2873318) /* PCAPRecordedLocation */
 /* @teleloc 0xBAE80026 [106.121500 130.953000 15.317270] 0.957831 0.000000 0.000000 -0.287332 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28246, 8000, 3689981592) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28246,   1, 100, 0, 0) /* Strength */
@@ -74,6 +66,3 @@ VALUES (28246, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTrea
      , (28246, 9, 45100,  0, 0, 0, False) /* Create Acid Epee (45100) for ContainTreasure */
      , (28246, 9,  9628,  0, 0, 0, False) /* Create Scroll of Jumping Ineptitude V (9628) for ContainTreasure */
      , (28246, 9,  2901,  0, 0, 0, False) /* Create Scroll of Weaken Lock V (2901) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28246, 67115254, 0, 0);

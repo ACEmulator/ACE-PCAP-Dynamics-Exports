@@ -12,15 +12,13 @@ VALUES (1630,   1,         16) /* ItemType - Creature */
      , (1630,  25,         60) /* Level */
      , (1630,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (1630, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (1630, 307,          5) /* DamageRating */
-     , (1630, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1630, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1630,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1630,   1, 'Lich Lord') /* Name */
-     , (1630, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1630,   1, 'Lich Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1630,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (1630,   1,   33554839) /* Setup */
      , (1630,   3,  536870934) /* SoundTable */
      , (1630,   6,   67110722) /* PaletteBase */
      , (1630,   8,  100667942) /* Icon */
-     , (1630,  22,  872415272) /* PhysicsEffectTable */
-     , (1630, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1630, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1630, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (1630,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1630, 8040, 3677946112, 54.93, 85.6178, 22.8075, 0.981332, 0, 0, -0.192321) /* PCAPRecordedLocation */
 /* @teleloc 0xDB390100 [54.930000 85.617800 22.807500] 0.981332 0.000000 0.000000 -0.192321 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1630, 8000, 3685774806) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1630,   1, 100, 0, 0) /* Strength */
@@ -434,6 +426,3 @@ VALUES (1630, 2, 47956,  1, 0, 0, False) /* Create Acid Silifi (47956) for Wield
      , (1630, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
      , (1630, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
      , (1630, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1630, 67111665, 0, 0);

@@ -19,14 +19,8 @@ VALUES (19389,   1, 'Maru Veranda') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (19389,   1,   33557691) /* Setup */
-     , (19389,   8,  100667499) /* Icon */
-     , (19389, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (19389, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (19389, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (19389,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (19389, 8040, 1449001242, 20.105, -37.694, 0, -0.00485148, 0, 0, -0.999988) /* PCAPRecordedLocation */
 /* @teleloc 0x565E011A [20.105000 -37.694000 0.000000] -0.004851 0.000000 0.000000 -0.999988 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (19389, 8000, 1969610760) /* PCAPRecordedObjectIID */;

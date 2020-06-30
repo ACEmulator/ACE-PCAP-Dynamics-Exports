@@ -18,14 +18,8 @@ VALUES (38053,   1, 'Celestial Hand Banner') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38053,   1,   33560562) /* Setup */
      , (38053,   3,  536870932) /* SoundTable */
-     , (38053,   8,  100689888) /* Icon */
-     , (38053, 8001,    8388624) /* PCAPRecordedWeenieHeader - Usable, RadarBehavior */
-     , (38053, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38053, 8005,      34817) /* PCAPRecordedPhysicsDesc - CSetup, STable, Position */;
+     , (38053,   8,  100689888) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38053, 8040, 4180606999, 55.0462, 144.829, 148, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xF92F0017 [55.046200 144.829000 148.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38053, 8000, 2884198038) /* PCAPRecordedObjectIID */;

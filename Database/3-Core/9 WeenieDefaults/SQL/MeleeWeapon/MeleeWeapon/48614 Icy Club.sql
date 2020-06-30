@@ -22,16 +22,8 @@ VALUES (48614,   1, 'Icy Club') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (48614,   1,   33559363) /* Setup */
-     , (48614,   8,  100686577) /* Icon */
-     , (48614, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (48614, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (48614, 8005,      32801) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Position */
-     , (48614, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (48614,   8,  100686577) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48614, 8040, 1072693276, 92.5515, 81.91128, 5.395347, -0.6573306, -0.6573306, -0.2606078, -0.2606078) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF0001C [92.551500 81.911280 5.395347] -0.657331 -0.657331 -0.260608 -0.260608 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48614, 8000, 3692754927) /* PCAPRecordedObjectIID */
-     , (48614, 8008, 3692754893) /* PCAPRecordedParentIID */;

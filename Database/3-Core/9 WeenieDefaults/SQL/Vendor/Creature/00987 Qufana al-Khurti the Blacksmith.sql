@@ -18,8 +18,7 @@ VALUES (987,   1,         16) /* ItemType - Creature */
      , (987, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (987, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (987, 188,          2) /* HeritageGroup - Gharundim */
-     , (987, 307,          5) /* DamageRating */
-     , (987, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (987, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (987,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (987,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (987,   1, 'Qufana al-Khurti the Blacksmith') /* Name */
-     , (987,   5, 'Blacksmith') /* Template */
-     , (987, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (987,   5, 'Blacksmith') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (987,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (987,   1,   33554510) /* Setup */
      , (987,  11,   83890336) /* MouthTexture */
      , (987,  15,   67117017) /* HairPalette */
      , (987,  16,   67110063) /* EyesPalette */
-     , (987,  17,   67109555) /* SkinPalette */
-     , (987, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (987, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (987, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (987,  17,   67109555) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (987, 8040, 2156921102, 62.1682, 158.156, 124.005, -0.179661, 0, 0, -0.9837286) /* PCAPRecordedLocation */
 /* @teleloc 0x8090010E [62.168200 158.156000 124.005000] -0.179661 0.000000 0.000000 -0.983729 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (987, 8000, 2013855762) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (987,   1, 140, 0, 0) /* Strength */
@@ -112,55 +104,3 @@ VALUES (987, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (987, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
      , (987, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
      , (987, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (987, 67109555, 0, 24)
-     , (987, 67109969, 92, 4)
-     , (987, 67110020, 72, 8)
-     , (987, 67110063, 32, 8)
-     , (987, 67110325, 160, 8)
-     , (987, 67110325, 250, 6)
-     , (987, 67110354, 40, 24)
-     , (987, 67110378, 216, 24)
-     , (987, 67111304, 64, 8)
-     , (987, 67117017, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (987, 0, 83889072, 83890012)
-     , (987, 0, 83889342, 83890011)
-     , (987, 1, 83887064, 83886241)
-     , (987, 2, 83887066, 83887055)
-     , (987, 3, 83889344, 83887054)
-     , (987, 4, 83887068, 83887054)
-     , (987, 5, 83887064, 83886241)
-     , (987, 6, 83887066, 83887055)
-     , (987, 7, 83889344, 83887054)
-     , (987, 8, 83887068, 83887054)
-     , (987, 9, 83887070, 83890009)
-     , (987, 9, 83887062, 83890010)
-     , (987, 10, 83887069, 83886782)
-     , (987, 13, 83887069, 83886782)
-     , (987, 16, 83886232, 83890685)
-     , (987, 16, 83886668, 83890276)
-     , (987, 16, 83886837, 83890317)
-     , (987, 16, 83886684, 83890336)
-     , (987, 16, 83886825, 83886825);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (987, 0, 16781875)
-     , (987, 1, 16778430)
-     , (987, 2, 16778436)
-     , (987, 3, 16777292)
-     , (987, 4, 16781855)
-     , (987, 5, 16778438)
-     , (987, 6, 16778437)
-     , (987, 7, 16777296)
-     , (987, 8, 16781859)
-     , (987, 9, 16778425)
-     , (987, 10, 16778431)
-     , (987, 11, 16778429)
-     , (987, 12, 16778423)
-     , (987, 13, 16778434)
-     , (987, 14, 16778424)
-     , (987, 15, 16778435)
-     , (987, 16, 16778594);

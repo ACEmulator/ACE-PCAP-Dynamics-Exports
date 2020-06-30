@@ -16,8 +16,7 @@ VALUES (24596,   1,         16) /* ItemType - Creature */
      , (24596,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24596, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24596, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24596, 307,          5) /* DamageRating */
-     , (24596, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24596, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24596,   1, True ) /* Stuck */
@@ -32,25 +31,18 @@ VALUES (24596,  37,       1) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24596,   1, 'Tunlok Weapons Master') /* Name */
-     , (24596,   5, 'Weapons Master') /* Template */
-     , (24596, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24596,   5, 'Weapons Master') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24596,   1,   33557003) /* Setup */
      , (24596,   2,  150994950) /* MotionTable */
      , (24596,   3,  536870922) /* SoundTable */
      , (24596,   6,   67113158) /* PaletteBase */
-     , (24596,   8,  100667447) /* Icon */
-     , (24596, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24596, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24596, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
+     , (24596,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24596, 8040, 722599961, 92.7655, 17.4043, 72.9431, -0.1235735, 0, 0, -0.9923354) /* PCAPRecordedLocation */
 /* @teleloc 0x2B120019 [92.765500 17.404300 72.943100] -0.123574 0.000000 0.000000 -0.992335 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24596, 8000, 1924210706) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24596,   1, 259, 0, 0) /* Strength */
@@ -194,29 +186,3 @@ VALUES (24596, 2, 23757,  1, 0, 0, False) /* Create Lugian Mace (23757) for Wiel
      , (24596, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
      , (24596, 4, 31867, -1, 0, 0, False) /* Create Diadem (31867) for Shop */
      , (24596, 4, 43055, -1, 0, 0, False) /* Create Knorr Academy Vambraces (43055) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24596, 67113160, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (24596, 0, 83893224, 83893223)
-     , (24596, 0, 83893231, 83893230)
-     , (24596, 2, 83893218, 83893217)
-     , (24596, 5, 83893218, 83893217)
-     , (24596, 7, 83893227, 83893213)
-     , (24596, 7, 83893214, 83893213)
-     , (24596, 9, 83893218, 83893217)
-     , (24596, 12, 83893218, 83893217)
-     , (24596, 19, 83893240, 83893239)
-     , (24596, 20, 83893240, 83893239);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (24596, 0, 16785699)
-     , (24596, 2, 16785662)
-     , (24596, 5, 16785662)
-     , (24596, 7, 16785659)
-     , (24596, 9, 16785701)
-     , (24596, 12, 16785701)
-     , (24596, 14, 16785726)
-     , (24596, 19, 16785704)
-     , (24596, 20, 16785705);

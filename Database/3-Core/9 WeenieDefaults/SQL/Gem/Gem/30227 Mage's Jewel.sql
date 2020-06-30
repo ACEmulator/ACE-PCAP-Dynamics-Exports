@@ -22,8 +22,7 @@ VALUES (30227,   1,       2048) /* ItemType - Gem */
      , (30227, 107,      10000) /* ItemCurMana */
      , (30227, 108,      10000) /* ItemMaxMana */
      , (30227, 109,          0) /* ItemDifficulty */
-     , (30227, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (30227, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (30227, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30227, 108, True ) /* RareUsesTimer */;
@@ -41,23 +40,7 @@ VALUES (30227,   1,   33554809) /* Setup */
      , (30227,  22,  872415275) /* PhysicsEffectTable */
      , (30227,  28,       3725) /* Spell - ManaRenewalRare */
      , (30227,  50,  100686674) /* IconOverlay */
-     , (30227,  52,  100686604) /* IconUnderlay */
-     , (30227, 8001, 1349021841) /* PCAPRecordedWeenieHeader - PluralName, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell, HookType, IconOverlay */
-     , (30227, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30227, 8003,  335544336) /* PCAPRecordedObjectDesc - Attackable, IncludesSecondHeader, VolatileRare */
-     , (30227, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30227, 8000, 2149638909) /* PCAPRecordedObjectIID */;
+     , (30227,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30227,  3725,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30227, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30227, 0, 83890391, 83890391);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30227, 0, 16779181);

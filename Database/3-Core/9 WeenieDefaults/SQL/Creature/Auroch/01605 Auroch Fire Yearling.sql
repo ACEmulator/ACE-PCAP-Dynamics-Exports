@@ -11,8 +11,7 @@ VALUES (1605,   1,         16) /* ItemType - Creature */
      , (1605,  16,          1) /* ItemUseable - No */
      , (1605,  25,         15) /* Level */
      , (1605,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (1605, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (1605, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (1605, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1605,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (1605,  39,     0.9) /* DefaultScale */
      , (1605,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (1605,   1, 'Auroch Fire Yearling') /* Name */
-     , (1605, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (1605,   1, 'Auroch Fire Yearling') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1605,   1,   33555220) /* Setup */
@@ -32,17 +30,11 @@ VALUES (1605,   1,   33555220) /* Setup */
      , (1605,   6,   67109302) /* PaletteBase */
      , (1605,   8,  100667936) /* Icon */
      , (1605,  22,  872415254) /* PhysicsEffectTable */
-     , (1605,  30,         84) /* PhysicsScript - BreatheFlame */
-     , (1605, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (1605, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (1605, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (1605,  30,         84) /* PhysicsScript - BreatheFlame */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1605, 8040, 2440233003, 127.4262, 50.47926, 151.3888, 0.08028056, 0, 0, -0.9967723) /* PCAPRecordedLocation */
 /* @teleloc 0x9173002B [127.426200 50.479260 151.388800] 0.080281 0.000000 0.000000 -0.996772 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (1605, 8000, 3685843955) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (1605,   1, 135, 0, 0) /* Strength */
@@ -67,6 +59,3 @@ VALUES (1605, 9,  2767,  0, 0, 0, False) /* Create Scroll of Acid Lure II (2767)
      , (1605, 9, 49380,  0, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for ContainTreasure */
      , (1605, 9,  3328,  0, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance II (3328) for ContainTreasure */
      , (1605, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (1605, 67111323, 0, 0);

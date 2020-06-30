@@ -19,8 +19,7 @@ VALUES (27898,   1,      32768) /* ItemType - Caster */
      , (27898, 109,         15) /* ItemDifficulty */
      , (27898, 115,        110) /* ItemSkillLevelLimit */
      , (27898, 151,          2) /* HookType - Wall */
-     , (27898, 176,         33) /* AppraisalItemSkill */
-     , (27898, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (27898, 176,         33) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27898,  22, True ) /* Inscribable */;
@@ -39,19 +38,11 @@ VALUES (27898,   1,   33558802) /* Setup */
      , (27898,   3,  536870932) /* SoundTable */
      , (27898,   8,  100676618) /* Icon */
      , (27898,  22,  872415275) /* PhysicsEffectTable */
-     , (27898,  28,       1050) /* Spell - BludgeonVulnerabilityOther3 */
-     , (27898, 8001,  275480728) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, HookType */
-     , (27898, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (27898, 8005,     170017) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame */
-     , (27898, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (27898,  28,       1050) /* Spell - BludgeonVulnerabilityOther3 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27898, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27898, 8000, 3154496009) /* PCAPRecordedObjectIID */
-     , (27898, 8008, 1342183469) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27898,   208,      2) 

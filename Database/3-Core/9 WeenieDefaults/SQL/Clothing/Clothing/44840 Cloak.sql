@@ -24,8 +24,7 @@ VALUES (44840,   1,          4) /* ItemType - Clothing */
      , (44840, 319,          2) /* ItemMaxLevel */
      , (44840, 320,          2) /* ItemXpStyle - ScalesWithLevel */
      , (44840, 352,          1) /* CloakWeaveProc */
-     , (44840, 370,          1) /* GearDamage */
-     , (44840, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44840, 370,          1) /* GearDamage */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (44840,   4,          0) /* ItemTotalXp */
@@ -43,8 +42,7 @@ VALUES (44840,  13,     0.8) /* ArmorModVsSlash */
      , (44840,  17,     0.2) /* ArmorModVsFire */
      , (44840,  18,     0.1) /* ArmorModVsAcid */
      , (44840,  19,     0.2) /* ArmorModVsElectric */
-     , (44840, 165,       1) /* ArmorModVsNether */
-     , (44840, 8004,       5) /* PCAPRecordedWorkmanship */;
+     , (44840, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44840,   1, 'Cloak') /* Name */
@@ -56,16 +54,7 @@ VALUES (44840,   1,   33561386) /* Setup */
      , (44840,   8,  100692112) /* Icon */
      , (44840,  22,  872415275) /* PhysicsEffectTable */
      , (44840,  50,  100690998) /* IconOverlay */
-     , (44840,  55,       5753) /* ProcSpell - CloakAllSkill */
-     , (44840, 8001, 3240444056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, IconOverlay, MaterialType */
-     , (44840, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (44840, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44840, 8000, 3680204314) /* PCAPRecordedObjectIID */;
+     , (44840,  55,       5753) /* ProcSpell - CloakAllSkill */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (44840,  5753,      2) ;
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (44840, 0, 16795839);

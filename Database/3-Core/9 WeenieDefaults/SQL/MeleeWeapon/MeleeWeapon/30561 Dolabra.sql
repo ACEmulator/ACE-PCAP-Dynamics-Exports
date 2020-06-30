@@ -31,8 +31,7 @@ VALUES (30561,   1,          1) /* ItemType - MeleeWeapon */
      , (30561, 160,        250) /* WieldDifficulty */
      , (30561, 172,          1) /* AppraisalLongDescDecoration */
      , (30561, 176,         45) /* AppraisalItemSkill */
-     , (30561, 353,          3) /* WeaponType - Axe */
-     , (30561, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (30561, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30561,  22, True ) /* Inscribable */;
@@ -57,29 +56,12 @@ VALUES (30561,   1,   33559318) /* Setup */
      , (30561,   6,   67115558) /* PaletteBase */
      , (30561,   8,  100686924) /* Icon */
      , (30561,  22,  872415275) /* PhysicsEffectTable */
-     , (30561,  30,         88) /* PhysicsScript - Create */
-     , (30561, 8001,  270762520) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (30561, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (30561, 8005,      63521) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position */
-     , (30561, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (30561,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30561, 8040, 669777939, 56.21616, 65.62837, 79.92901, -0.70539, -0.70539, -0.04924337, -0.04924337) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0013 [56.216160 65.628370 79.929010] -0.705390 -0.705390 -0.049243 -0.049243 */;
 
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30561, 8000, 2155171822) /* PCAPRecordedObjectIID */
-     , (30561, 8008, 1920909321) /* PCAPRecordedParentIID */;
-
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30561,  1590,      2) 
      , (30561,  1614,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30561, 67116377, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (30561, 0, 83896665, 83896665);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (30561, 0, 16791840);

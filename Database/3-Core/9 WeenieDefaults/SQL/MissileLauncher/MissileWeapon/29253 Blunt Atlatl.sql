@@ -27,9 +27,7 @@ VALUES (29253,   1,        256) /* ItemType - MissileWeapon */
      , (29253, 177,          2) /* GemCount */
      , (29253, 178,         21) /* GemType */
      , (29253, 204,          5) /* ElementalDamageBonus */
-     , (29253, 353,         10) /* WeaponType - Thrown */
-     , (29253, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (29253, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (29253, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29253,  22, True ) /* Inscribable */;
@@ -42,8 +40,7 @@ VALUES (29253,  21,       0) /* WeaponLength */
      , (29253,  39,     1.1) /* DefaultScale */
      , (29253,  62,       1) /* WeaponOffense */
      , (29253,  63,    2.57) /* DamageMod */
-     , (29253, 149,    1.01) /* WeaponMissileDefense */
-     , (29253, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (29253, 149,    1.01) /* WeaponMissileDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29253,   1, 'Blunt Atlatl') /* Name */
@@ -54,22 +51,4 @@ VALUES (29253,   1,   33559246) /* Setup */
      , (29253,   3,  536870932) /* SoundTable */
      , (29253,   6,   67115373) /* PaletteBase */
      , (29253,   8,  100677454) /* Icon */
-     , (29253,  22,  872415275) /* PhysicsEffectTable */
-     , (29253, 8001, 2434876312) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (29253, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (29253, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (29253, 8000, 3683072140) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (29253, 67115372, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (29253, 0, 83895603, 83895603)
-     , (29253, 0, 83895601, 83895601)
-     , (29253, 0, 83895602, 83895602)
-     , (29253, 0, 83895595, 83895595);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (29253, 0, 16791349);
+     , (29253,  22,  872415275) /* PhysicsEffectTable */;

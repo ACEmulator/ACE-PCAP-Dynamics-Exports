@@ -11,8 +11,7 @@ VALUES (24297,   1,         16) /* ItemType - Creature */
      , (24297,  16,          1) /* ItemUseable - No */
      , (24297,  25,         80) /* Level */
      , (24297,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (24297, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (24297, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24297, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24297,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ VALUES (24297,  39,     1.1) /* DefaultScale */
      , (24297,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (24297,   1, 'Olthoi Guard') /* Name */
-     , (24297, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (24297,   1, 'Olthoi Guard') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24297,   1,   33557161) /* Setup */
@@ -32,17 +30,11 @@ VALUES (24297,   1,   33557161) /* Setup */
      , (24297,   6,   67113236) /* PaletteBase */
      , (24297,   8,  100667623) /* Icon */
      , (24297,  22,  872415265) /* PhysicsEffectTable */
-     , (24297,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (24297, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (24297, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (24297, 8005,     129155) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (24297,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24297, 8040, 1581647093, 207.908, -149.52, 0, 0.8835748, 0, 0, 0.4682899) /* PCAPRecordedLocation */
 /* @teleloc 0x5E4604F5 [207.908000 -149.520000 0.000000] 0.883575 0.000000 0.000000 0.468290 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24297, 8000, 3708859998) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24297,   1, 300, 0, 0) /* Strength */
@@ -194,6 +186,3 @@ VALUES (24297, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (4
      , (24297, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
      , (24297, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (24297, 9, 41045,  0, 0, 0, False) /* Create Frost Magari Yari (41045) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24297, 67113314, 0, 0);

@@ -18,8 +18,7 @@ VALUES (48707,   1,         32) /* ItemType - Food */
      , (48707, 106,        250) /* ItemSpellcraft */
      , (48707, 107,        100) /* ItemCurMana */
      , (48707, 108,        100) /* ItemMaxMana */
-     , (48707, 109,          0) /* ItemDifficulty */
-     , (48707, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (48707, 109,          0) /* ItemDifficulty */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48707,   1, 'Mug of Warm Cider') /* Name */
@@ -32,13 +31,7 @@ VALUES (48707,   1,   33554667) /* Setup */
      , (48707,   3,  536870932) /* SoundTable */
      , (48707,   8,  100667432) /* Icon */
      , (48707,  22,  872415275) /* PhysicsEffectTable */
-     , (48707,  28,       6038) /* Spell - CiderStamina */
-     , (48707, 8001,    6844569) /* PCAPRecordedWeenieHeader - PluralName, Value, Usable, UiEffects, StackSize, MaxStackSize, Container, TargetType, Burden, Spell */
-     , (48707, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (48707, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (48707, 8000, 3708498137) /* PCAPRecordedObjectIID */;
+     , (48707,  28,       6038) /* Spell - CiderStamina */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (48707,  6038,      2) ;

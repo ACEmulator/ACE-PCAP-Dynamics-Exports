@@ -19,14 +19,8 @@ VALUES (42882,   1, 'Simulacrum') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (42882,   1,   33561022) /* Setup */
-     , (42882,   8,  100668115) /* Icon */
-     , (42882, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (42882, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (42882, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (42882,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42882, 8040, 459134, 134.923, -84.8771, 0.66, 0, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x0007017E [134.923000 -84.877100 0.660000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (42882, 8000, 1879077027) /* PCAPRecordedObjectIID */;

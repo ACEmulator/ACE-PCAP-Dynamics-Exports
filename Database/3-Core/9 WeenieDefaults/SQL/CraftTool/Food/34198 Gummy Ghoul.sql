@@ -19,8 +19,7 @@ VALUES (34198,   1,         32) /* ItemType - Food */
      , (34198, 107,         50) /* ItemCurMana */
      , (34198, 108,         50) /* ItemMaxMana */
      , (34198, 109,          0) /* ItemDifficulty */
-     , (34198, 110,          0) /* ItemAllegianceRankLimit */
-     , (34198, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (34198, 110,          0) /* ItemAllegianceRankLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34198,  69, False) /* IsSellable */;
@@ -38,17 +37,11 @@ VALUES (34198,   1,   33554817) /* Setup */
      , (34198,   3,  536870932) /* SoundTable */
      , (34198,   8,  100667942) /* Icon */
      , (34198,  22,  872415275) /* PhysicsEffectTable */
-     , (34198,  28,       4022) /* Spell - ZombiesPersistence */
-     , (34198, 8001,    6828184) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, StackSize, MaxStackSize, TargetType, Burden, Spell */
-     , (34198, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (34198, 8005,     170113) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, Position, AnimationFrame */;
+     , (34198,  28,       4022) /* Spell - ZombiesPersistence */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34198, 8040, 23855555, 56.57001, -40.72089, -0.001249999, -0.3153024, 0, 0, -0.9489912) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.570010 -40.720890 -0.001250] -0.315302 0.000000 0.000000 -0.948991 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34198, 8000, 3582907771) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34198,  4022,      2) ;

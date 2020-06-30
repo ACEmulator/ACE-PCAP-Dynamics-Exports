@@ -20,8 +20,7 @@ VALUES (39923,   1,          8) /* ItemType - Jewelry */
      , (39923, 158,          7) /* WieldRequirements - Level */
      , (39923, 159,          1) /* WieldSkillType - Axe */
      , (39923, 160,        150) /* WieldDifficulty */
-     , (39923, 265,          9) /* EquipmentSetId - EmpyreanRings */
-     , (39923, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (39923, 265,          9) /* EquipmentSetId - EmpyreanRings */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39923,  22, True ) /* Inscribable */
@@ -41,13 +40,7 @@ VALUES (39923,   1,   33554691) /* Setup */
      , (39923,   3,  536870932) /* SoundTable */
      , (39923,   6,   67111919) /* PaletteBase */
      , (39923,   8,  100689389) /* Icon */
-     , (39923,  22,  872415275) /* PhysicsEffectTable */
-     , (39923, 8001,    2179224) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Burden */
-     , (39923, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (39923, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (39923, 8000, 2312830732) /* PCAPRecordedObjectIID */;
+     , (39923,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (39923,  3983,      2) 
@@ -55,12 +48,3 @@ VALUES (39923,  3983,      2)
      , (39923,  4072,      2) 
      , (39923,  4076,      2) 
      , (39923,  4678,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (39923, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (39923, 0, 83889680, 83889680);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (39923, 0, 16778344);

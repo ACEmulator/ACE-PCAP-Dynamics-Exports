@@ -33,9 +33,7 @@ VALUES (45403,   1,          1) /* ItemType - MeleeWeapon */
      , (45403, 176,         46) /* AppraisalItemSkill */
      , (45403, 177,          1) /* GemCount */
      , (45403, 178,         44) /* GemType */
-     , (45403, 353,          2) /* WeaponType - Sword */
-     , (45403, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (45403, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (45403, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (45403,  22, True ) /* Inscribable */
@@ -48,8 +46,7 @@ VALUES (45403,   5,  -0.033) /* ManaRate */
      , (45403,  26,       0) /* MaximumVelocity */
      , (45403,  29,    1.07) /* WeaponDefense */
      , (45403,  62,    1.06) /* WeaponOffense */
-     , (45403,  63,       1) /* DamageMod */
-     , (45403, 8004,       8) /* PCAPRecordedWorkmanship */;
+     , (45403,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45403,   1, 'Lightning Simi') /* Name */
@@ -60,14 +57,7 @@ VALUES (45403,   1,   33555778) /* Setup */
      , (45403,   3,  536870932) /* SoundTable */
      , (45403,   8,  100668995) /* Icon */
      , (45403,  22,  872415275) /* PhysicsEffectTable */
-     , (45403,  52,  100676436) /* IconUnderlay */
-     , (45403, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (45403, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (45403, 8003,   83886098) /* PCAPRecordedObjectDesc - Inscribable, Attackable, Retained, IncludesSecondHeader */
-     , (45403, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (45403, 8000, 2173726217) /* PCAPRecordedObjectIID */;
+     , (45403,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45403,  1614,      2) ;

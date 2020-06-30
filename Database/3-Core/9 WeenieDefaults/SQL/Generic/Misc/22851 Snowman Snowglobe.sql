@@ -21,10 +21,4 @@ VALUES (22851,   1, 'Snowman Snowglobe') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22851,   1,   33558133) /* Setup */
-     , (22851,   8,  100673882) /* Icon */
-     , (22851, 8001,  270549016) /* PCAPRecordedWeenieHeader - Value, Usable, Container, Burden, HookType */
-     , (22851, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (22851, 8005,          1) /* PCAPRecordedPhysicsDesc - CSetup */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22851, 8000, 2151960035) /* PCAPRecordedObjectIID */;
+     , (22851,   8,  100673882) /* Icon */;

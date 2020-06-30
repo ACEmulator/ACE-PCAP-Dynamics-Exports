@@ -34,8 +34,7 @@ VALUES (44434,   1,         16) /* ItemType - Creature */
      , (44434, 386,          0) /* Overpower */
      , (44434, 387,          0) /* OverpowerResist */
      , (44434, 388,          0) /* GearOverpower */
-     , (44434, 389,          0) /* GearOverpowerResist */
-     , (44434, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (44434, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44434,   1, True ) /* Stuck */
@@ -47,25 +46,15 @@ VALUES (44434,  54,     0.1) /* UseRadius */;
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44434,   1, 'Summoning Cave') /* Name */
      , (44434,  14, 'Restricted to character level 180 or higher.') /* Use */
-     , (44434,  16, 'This portal cannot be recalled, linked nor summoned. ') /* LongDesc */
-     , (44434, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (44434,  16, 'This portal cannot be recalled, linked nor summoned. ') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (44434,   1,   33554867) /* Setup */
      , (44434,   2,  150994947) /* MotionTable */
      , (44434,   3,  536870932) /* SoundTable */
      , (44434,   6,   67109370) /* PaletteBase */
-     , (44434,   8,  100667499) /* Icon */
-     , (44434, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (44434, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (44434, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (44434,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44434, 8040, 4149870849, 50.5785, 182.032, 14.737, 0.692863, 0, 0, -0.721069) /* PCAPRecordedLocation */
 /* @teleloc 0xF75A0101 [50.578500 182.032000 14.737000] 0.692863 0.000000 0.000000 -0.721069 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44434, 8000, 3685982114) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (44434, 67111849, 1, 255);

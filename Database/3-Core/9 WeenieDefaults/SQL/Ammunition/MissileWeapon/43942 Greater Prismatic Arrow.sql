@@ -38,9 +38,7 @@ VALUES (43942,   1,        256) /* ItemType - MissileWeapon */
      , (43942, 307,         13) /* DamageRating */
      , (43942, 313,          1) /* CritRating */
      , (43942, 314,         11) /* CritDamageRating */
-     , (43942, 386,          0) /* Overpower */
-     , (43942, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (43942, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (43942, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43942,  69, False) /* IsSellable */;
@@ -69,19 +67,11 @@ VALUES (43942,   1,   33561223) /* Setup */
      , (43942,   3,  536870932) /* SoundTable */
      , (43942,   6,   67111919) /* PaletteBase */
      , (43942,   8,  100691912) /* Icon */
-     , (43942,  22,  872415275) /* PhysicsEffectTable */
-     , (43942, 8001,  270775192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, AmmoType, CombatUse, StackSize, MaxStackSize, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, HookType */
-     , (43942, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (43942, 8005,     170785) /* PCAPRecordedPhysicsDesc - CSetup, Parent, Friction, Elasticity, STable, PeTable, Position, AnimationFrame */
-     , (43942, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (43942,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43942, 8040, 43058012, 209.4225, -158.6144, -0.071, -0.0008454155, -0.0008454155, -0.7071063, -0.7071063) /* PCAPRecordedLocation */
 /* @teleloc 0x0291035C [209.422500 -158.614400 -0.071000] -0.000845 -0.000845 -0.707106 -0.707106 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (43942, 8000, 3681951228) /* PCAPRecordedObjectIID */
-     , (43942, 8008, 1343492079) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43942, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
@@ -90,6 +80,3 @@ VALUES (43942, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for 
      , (43942, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
      , (43942, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (43942, 2, 26031,  1, 0, 0, False) /* Create Bone Dagger (26031) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (43942, 67111920, 0, 0);

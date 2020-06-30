@@ -21,8 +21,7 @@ VALUES (6048,   1,          2) /* ItemType - Armor */
      , (6048, 110,          0) /* ItemAllegianceRankLimit */
      , (6048, 115,          0) /* ItemSkillLevelLimit */
      , (6048, 131,         57) /* MaterialType - Brass */
-     , (6048, 172,          1) /* AppraisalLongDescDecoration */
-     , (6048, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6048, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6048,  22, True ) /* Inscribable */
@@ -37,8 +36,7 @@ VALUES (6048,   5,  -0.056) /* ManaRate */
      , (6048,  17,     0.4) /* ArmorModVsFire */
      , (6048,  18,     0.6) /* ArmorModVsAcid */
      , (6048,  19,    0.84) /* ArmorModVsElectric */
-     , (6048, 165,       1) /* ArmorModVsNether */
-     , (6048, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (6048, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6048,   1, 'Celdon Sleeves') /* Name */
@@ -49,13 +47,7 @@ VALUES (6048,   1,   33554655) /* Setup */
      , (6048,   3,  536870932) /* SoundTable */
      , (6048,   6,   67108990) /* PaletteBase */
      , (6048,   8,  100670429) /* Icon */
-     , (6048,  22,  872415275) /* PhysicsEffectTable */
-     , (6048, 8001, 2166702232) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (6048, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6048, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6048, 8000, 3687996170) /* PCAPRecordedObjectIID */;
+     , (6048,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6048,  2108,      2) 
@@ -63,16 +55,3 @@ VALUES (6048,  2108,      2)
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6048, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6048, 67110007, 108, 8)
-     , (6048, 67110007, 128, 8)
-     , (6048, 67110008, 96, 12)
-     , (6048, 67110008, 116, 12);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6048, 0, 83886796, 83886491)
-     , (6048, 0, 83886788, 83886247);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6048, 0, 16778363);

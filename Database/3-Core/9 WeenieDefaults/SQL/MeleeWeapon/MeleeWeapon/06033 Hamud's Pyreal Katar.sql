@@ -24,9 +24,7 @@ VALUES (6033,   1,          1) /* ItemType - MeleeWeapon */
      , (6033, 109,        135) /* ItemDifficulty */
      , (6033, 114,          1) /* Attuned - Attuned */
      , (6033, 151,          2) /* HookType - Wall */
-     , (6033, 353,          1) /* WeaponType - Unarmed */
-     , (6033, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (6033, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6033, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6033,  22, True ) /* Inscribable */
@@ -51,27 +49,10 @@ VALUES (6033,   1,   33556277) /* Setup */
      , (6033,   3,  536870932) /* SoundTable */
      , (6033,   6,   67111919) /* PaletteBase */
      , (6033,   8,  100668928) /* Icon */
-     , (6033,  22,  872415275) /* PhysicsEffectTable */
-     , (6033, 8001,  270615192) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, HookType */
-     , (6033, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6033, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6033, 8000, 2484463619) /* PCAPRecordedObjectIID */;
+     , (6033,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6033,  1405,      2) 
      , (6033,  1588,      2) 
      , (6033,  1613,      2) 
      , (6033,  1623,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6033, 67111922, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6033, 0, 83886710, 83886710)
-     , (6033, 0, 83886709, 83886709)
-     , (6033, 0, 83886763, 83886763);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6033, 0, 16777920);

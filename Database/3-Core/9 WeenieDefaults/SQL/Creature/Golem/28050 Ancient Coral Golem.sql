@@ -12,8 +12,7 @@ VALUES (28050,   1,         16) /* ItemType - Creature */
      , (28050,  25,        115) /* Level */
      , (28050,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (28050, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (28050, 307,          2) /* DamageRating */
-     , (28050, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (28050, 307,          2) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28050,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28050,  39,     1.2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (28050,   1, 'Ancient Coral Golem') /* Name */
-     , (28050, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (28050,   1, 'Ancient Coral Golem') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (28050,   1,   33558578) /* Setup */
@@ -31,17 +29,11 @@ VALUES (28050,   1,   33558578) /* Setup */
      , (28050,   3,  536871066) /* SoundTable */
      , (28050,   6,   67114905) /* PaletteBase */
      , (28050,   8,  100667940) /* Icon */
-     , (28050,  22,  872415322) /* PhysicsEffectTable */
-     , (28050, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (28050, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (28050, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (28050,  22,  872415322) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (28050, 8040, 1173487646, 75.41979, 121.5209, 55.59516, -0.181337, 0, 0, -0.983421) /* PCAPRecordedLocation */
 /* @teleloc 0x45F2001E [75.419790 121.520900 55.595160] -0.181337 0.000000 0.000000 -0.983421 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (28050, 8000, 3689965979) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (28050,   1, 260, 0, 0) /* Strength */
@@ -134,40 +126,3 @@ VALUES (28050, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreas
      , (28050, 9,  2593,  0, 0, 0, False) /* Create Loose Tunic (2593) for ContainTreasure */
      , (28050, 9, 20243,  0, 0, 0, False) /* Create Scroll of Heart Rend (20243) for ContainTreasure */
      , (28050, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (28050, 67115271, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (28050, 0, 83895037, 83892589)
-     , (28050, 0, 83895038, 83892590)
-     , (28050, 1, 83895037, 83892589)
-     , (28050, 1, 83895038, 83892590)
-     , (28050, 2, 83895037, 83892589)
-     , (28050, 2, 83895038, 83892590)
-     , (28050, 4, 83895037, 83892589)
-     , (28050, 4, 83895038, 83892590)
-     , (28050, 5, 83895037, 83892589)
-     , (28050, 5, 83895038, 83892590)
-     , (28050, 7, 83895037, 83892589)
-     , (28050, 7, 83895038, 83892590)
-     , (28050, 8, 83895037, 83892589)
-     , (28050, 8, 83895038, 83892590)
-     , (28050, 9, 83895037, 83892589)
-     , (28050, 9, 83895038, 83892590)
-     , (28050, 11, 83895037, 83892589)
-     , (28050, 11, 83895038, 83892590)
-     , (28050, 12, 83895037, 83892589)
-     , (28050, 12, 83895038, 83892590);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (28050, 0, 16789825)
-     , (28050, 1, 16789820)
-     , (28050, 2, 16789823)
-     , (28050, 4, 16789821)
-     , (28050, 5, 16789828)
-     , (28050, 7, 16789829)
-     , (28050, 8, 16789824)
-     , (28050, 9, 16789822)
-     , (28050, 11, 16789826)
-     , (28050, 12, 16789827);

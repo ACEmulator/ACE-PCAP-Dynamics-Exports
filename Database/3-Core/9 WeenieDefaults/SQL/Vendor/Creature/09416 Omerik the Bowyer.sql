@@ -15,8 +15,7 @@ VALUES (9416,   1,         16) /* ItemType - Creature */
      , (9416,  76,     100000) /* MerchandiseMaxValue */
      , (9416,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (9416, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (9416, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (9416, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (9416, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9416,   1, True ) /* Stuck */
@@ -29,25 +28,18 @@ VALUES (9416,  37,     0.8) /* BuyPrice */
      , (9416,  54,       6) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (9416,   1, 'Omerik the Bowyer') /* Name */
-     , (9416, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (9416,   1, 'Omerik the Bowyer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9416,   1,   33557003) /* Setup */
      , (9416,   2,  150994950) /* MotionTable */
      , (9416,   3,  536870922) /* SoundTable */
      , (9416,   6,   67113158) /* PaletteBase */
-     , (9416,   8,  100667447) /* Icon */
-     , (9416, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (9416, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (9416, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (9416,   8,  100667447) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9416, 8040, 2719875488, 141.253, 114.643, 585.01, -0.3489132, 0, 0, -0.9371551) /* PCAPRecordedLocation */
 /* @teleloc 0xA21E01A0 [141.253000 114.643000 585.010000] -0.348913 0.000000 0.000000 -0.937155 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (9416, 8000, 2049040392) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (9416,   1, 310, 0, 0) /* Strength */
@@ -103,28 +95,3 @@ VALUES (9416, 4,  9510, -1, 0, 0, False) /* Create Rock (9510) for Shop */
      , (9416, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (9416, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (9416, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (9416, 67113168, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (9416, 0, 83893224, 83893223)
-     , (9416, 0, 83893231, 83893230)
-     , (9416, 2, 83893218, 83893217)
-     , (9416, 5, 83893218, 83893217)
-     , (9416, 7, 83893227, 83893213)
-     , (9416, 7, 83893214, 83893213)
-     , (9416, 9, 83893218, 83893217)
-     , (9416, 12, 83893218, 83893217)
-     , (9416, 19, 83893240, 83893238)
-     , (9416, 20, 83893240, 83893238);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (9416, 0, 16785699)
-     , (9416, 2, 16785662)
-     , (9416, 5, 16785662)
-     , (9416, 7, 16785659)
-     , (9416, 9, 16785701)
-     , (9416, 12, 16785701)
-     , (9416, 19, 16785704)
-     , (9416, 20, 16785705);

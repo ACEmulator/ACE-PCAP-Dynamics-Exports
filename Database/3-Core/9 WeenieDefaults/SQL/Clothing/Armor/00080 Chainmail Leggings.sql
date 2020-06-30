@@ -21,8 +21,7 @@ VALUES (80,   1,          2) /* ItemType - Armor */
      , (80, 115,        200) /* ItemSkillLevelLimit */
      , (80, 131,         58) /* MaterialType - Bronze */
      , (80, 172,          1) /* AppraisalLongDescDecoration */
-     , (80, 176,          7) /* AppraisalItemSkill */
-     , (80, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (80, 176,          7) /* AppraisalItemSkill */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (80,  22, True ) /* Inscribable */
@@ -37,8 +36,7 @@ VALUES (80,   5,   -0.05) /* ManaRate */
      , (80,  17,     0.6) /* ArmorModVsFire */
      , (80,  18,     0.5) /* ArmorModVsAcid */
      , (80,  19,     0.4) /* ArmorModVsElectric */
-     , (80, 165,       1) /* ArmorModVsNether */
-     , (80, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (80, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (80,   1, 'Chainmail Leggings') /* Name */
@@ -49,23 +47,7 @@ VALUES (80,   1,   33554856) /* Setup */
      , (80,   3,  536870932) /* SoundTable */
      , (80,   6,   67108990) /* PaletteBase */
      , (80,   8,  100669309) /* Icon */
-     , (80,  22,  872415275) /* PhysicsEffectTable */
-     , (80, 8001, 2166702104) /* PCAPRecordedWeenieHeader - Value, Usable, Container, ValidLocations, Priority, Burden, Workmanship, MaterialType */
-     , (80, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (80, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (80, 8000, 3690366979) /* PCAPRecordedObjectIID */;
+     , (80,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (80,  1486,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (80, 67110543, 136, 16);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (80, 0, 83887064, 83886785)
-     , (80, 0, 83887066, 83887052);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (80, 0, 16778829);

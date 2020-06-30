@@ -14,8 +14,7 @@ VALUES (31350,   1,        128) /* ItemType - Misc */
      , (31350,  19,      10000) /* Value */
      , (31350,  33,          1) /* Bonded - Bonded */
      , (31350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (31350, 114,          1) /* Attuned - Attuned */
-     , (31350, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31350, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31350,   1, 'Mosswart Armband') /* Name */
@@ -25,10 +24,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31350,   1,   33554817) /* Setup */
      , (31350,   3,  536870932) /* SoundTable */
      , (31350,   8,  100687701) /* Icon */
-     , (31350,  22,  872415275) /* PhysicsEffectTable */
-     , (31350, 8001,    2125848) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden */
-     , (31350, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (31350, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31350, 8000, 2619474251) /* PCAPRecordedObjectIID */;
+     , (31350,  22,  872415275) /* PhysicsEffectTable */;

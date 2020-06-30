@@ -13,8 +13,7 @@ VALUES (6600,   1,          2) /* ItemType - Armor */
      , (6600,  19,       2610) /* Value */
      , (6600,  28,        190) /* ArmorLevel */
      , (6600,  33,          1) /* Bonded - Bonded */
-     , (6600,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (6600, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (6600,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6600,  22, True ) /* Inscribable */;
@@ -37,29 +36,4 @@ VALUES (6600,   1,   33554854) /* Setup */
      , (6600,   3,  536870932) /* SoundTable */
      , (6600,   6,   67108990) /* PaletteBase */
      , (6600,   8,  100670438) /* Icon */
-     , (6600,  22,  872415275) /* PhysicsEffectTable */
-     , (6600, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (6600, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (6600, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (6600, 8000, 2919175380) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (6600, 67109968, 96, 12)
-     , (6600, 67109968, 116, 12)
-     , (6600, 67109968, 186, 12)
-     , (6600, 67109968, 206, 10)
-     , (6600, 67109968, 108, 8)
-     , (6600, 67110368, 128, 8)
-     , (6600, 67110368, 174, 12)
-     , (6600, 67110548, 216, 24);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (6600, 0, 83887061, 83892375)
-     , (6600, 0, 83887060, 83892376)
-     , (6600, 0, 83889072, 83892370)
-     , (6600, 0, 83889342, 83892370);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (6600, 0, 16778367);
+     , (6600,  22,  872415275) /* PhysicsEffectTable */;

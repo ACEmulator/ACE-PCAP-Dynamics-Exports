@@ -22,8 +22,7 @@ VALUES (31865,   1,          2) /* ItemType - Armor */
      , (31865, 115,          0) /* ItemSkillLevelLimit */
      , (31865, 131,         63) /* MaterialType - Silver */
      , (31865, 151,          2) /* HookType - Wall */
-     , (31865, 172,          1) /* AppraisalLongDescDecoration */
-     , (31865, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (31865, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31865,  22, True ) /* Inscribable */
@@ -38,8 +37,7 @@ VALUES (31865,   5,  -0.056) /* ManaRate */
      , (31865,  17,     0.4) /* ArmorModVsFire */
      , (31865,  18,     0.6) /* ArmorModVsAcid */
      , (31865,  19,     0.4) /* ArmorModVsElectric */
-     , (31865, 165,       1) /* ArmorModVsNether */
-     , (31865, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (31865, 165,       1) /* ArmorModVsNether */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31865,   1, 'Circlet') /* Name */
@@ -50,13 +48,7 @@ VALUES (31865,   1,   33559736) /* Setup */
      , (31865,   3,  536870932) /* SoundTable */
      , (31865,   6,   67108990) /* PaletteBase */
      , (31865,   8,  100688202) /* Icon */
-     , (31865,  22,  872415275) /* PhysicsEffectTable */
-     , (31865, 8001, 2435137688) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Container, ValidLocations, Priority, Burden, Workmanship, HookType, MaterialType */
-     , (31865, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (31865, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (31865, 8000, 3690367363) /* PCAPRecordedObjectIID */;
+     , (31865,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31865,   279,      2) 
@@ -64,7 +56,3 @@ VALUES (31865,   279,      2)
      , (31865,  1515,      2) 
      , (31865,  1573,      2) 
      , (31865,  2585,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (31865, 67110017, 240, 10)
-     , (31865, 67110356, 250, 6);

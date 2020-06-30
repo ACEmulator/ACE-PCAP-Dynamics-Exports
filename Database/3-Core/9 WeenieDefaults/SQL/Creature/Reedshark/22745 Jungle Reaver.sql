@@ -11,8 +11,7 @@ VALUES (22745,   1,         16) /* ItemType - Creature */
      , (22745,  16,          1) /* ItemUseable - No */
      , (22745,  25,         40) /* Level */
      , (22745,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (22745, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (22745, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (22745, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (22745,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (22745,  39,       2) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (22745,   1, 'Jungle Reaver') /* Name */
-     , (22745, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (22745,   1, 'Jungle Reaver') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22745,   1,   33554489) /* Setup */
@@ -30,17 +28,11 @@ VALUES (22745,   1,   33554489) /* Setup */
      , (22745,   3,  536870928) /* SoundTable */
      , (22745,   6,   67109313) /* PaletteBase */
      , (22745,   8,  100667939) /* Icon */
-     , (22745,  22,  872415268) /* PhysicsEffectTable */
-     , (22745, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (22745, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22745, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (22745,  22,  872415268) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22745, 8040, 30671291, 30.9807, -38.6424, 36.002, -0.2947891, 0, 0, -0.9555624) /* PCAPRecordedLocation */
 /* @teleloc 0x01D401BB [30.980700 -38.642400 36.002000] -0.294789 0.000000 0.000000 -0.955562 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22745, 8000, 3689905247) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (22745,   1, 105, 0, 0) /* Strength */
@@ -87,6 +79,3 @@ VALUES (22745, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasu
      , (22745, 9, 45272,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Other V (45272) for ContainTreasure */
      , (22745, 9, 20407,  0, 0, 0, False) /* Create Scroll of Pacification (20407) for ContainTreasure */
      , (22745, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (22745, 67114043, 0, 0);

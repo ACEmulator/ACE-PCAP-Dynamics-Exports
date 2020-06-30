@@ -11,8 +11,7 @@ VALUES (11537,   1,         16) /* ItemType - Creature */
      , (11537,  16,          1) /* ItemUseable - No */
      , (11537,  25,         15) /* Level */
      , (11537,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (11537, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (11537, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (11537, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (11537,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (11537,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (11537,   1, 'Virtuous Doll') /* Name */
-     , (11537, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (11537,   1, 'Virtuous Doll') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11537,   1,   33556996) /* Setup */
@@ -31,17 +29,11 @@ VALUES (11537,   1,   33556996) /* Setup */
      , (11537,   6,   67113150) /* PaletteBase */
      , (11537,   8,  100671421) /* Icon */
      , (11537,  22,  872415373) /* PhysicsEffectTable */
-     , (11537,  30,         87) /* PhysicsScript - BreatheLightning */
-     , (11537, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (11537, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (11537, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (11537,  30,         87) /* PhysicsScript - BreatheLightning */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11537, 8040, 3730243628, 139.3156, 78.13784, 19.12715, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0xDE57002C [139.315600 78.137840 19.127150] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (11537, 8000, 3685807600) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (11537,   1,  50, 0, 0) /* Strength */
@@ -70,12 +62,3 @@ VALUES (11537, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasu
      , (11537, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
      , (11537, 9, 41298,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other III (41298) for ContainTreasure */
      , (11537, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (11537, 67113152, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (11537, 9, 83893207, 83893207);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (11537, 9, 16785617);

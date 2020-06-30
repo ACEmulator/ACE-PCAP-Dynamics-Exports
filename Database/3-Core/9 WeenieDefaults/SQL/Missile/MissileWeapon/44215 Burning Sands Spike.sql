@@ -16,8 +16,7 @@ VALUES (44215,   1,        256) /* ItemType - MissileWeapon */
      , (44215,  19,          1) /* Value */
      , (44215,  51,          2) /* CombatUse - Missle */
      , (44215,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
-     , (44215, 151,          2) /* HookType - Wall */
-     , (44215, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (44215, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (44215,  78,       1) /* Friction */
@@ -31,10 +30,4 @@ VALUES (44215,   1,   33558221) /* Setup */
      , (44215,   3,  536870932) /* SoundTable */
      , (44215,   8,  100674063) /* Icon */
      , (44215,  22,  872415275) /* PhysicsEffectTable */
-     , (44215,  50,  100691935) /* IconOverlay */
-     , (44215, 8001, 1344369304) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType, IconOverlay */
-     , (44215, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (44215, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (44215, 8000, 2930279755) /* PCAPRecordedObjectIID */;
+     , (44215,  50,  100691935) /* IconOverlay */;

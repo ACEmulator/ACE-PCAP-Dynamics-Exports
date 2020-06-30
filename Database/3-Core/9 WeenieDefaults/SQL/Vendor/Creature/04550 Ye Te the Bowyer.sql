@@ -18,8 +18,7 @@ VALUES (4550,   1,         16) /* ItemType - Creature */
      , (4550, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (4550, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (4550, 188,          3) /* HeritageGroup - Sho */
-     , (4550, 307,          5) /* DamageRating */
-     , (4550, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (4550, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4550,   1, True ) /* Stuck */
@@ -33,8 +32,7 @@ VALUES (4550,  37,    0.95) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4550,   1, 'Ye Te the Bowyer') /* Name */
-     , (4550,   5, 'Bowyer') /* Template */
-     , (4550, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (4550,   5, 'Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4550,   1,   33554510) /* Setup */
@@ -47,17 +45,11 @@ VALUES (4550,   1,   33554510) /* Setup */
      , (4550,  11,   83890323) /* MouthTexture */
      , (4550,  15,   67117071) /* HairPalette */
      , (4550,  16,   67110062) /* EyesPalette */
-     , (4550,  17,   67110050) /* SkinPalette */
-     , (4550, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (4550, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (4550, 8005,     100419) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, STable, Position, Movement */;
+     , (4550,  17,   67110050) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4550, 8040, 3862757638, 80.4207, 113.497, 87.605, 0.143339, 0, 0, -0.9896737) /* PCAPRecordedLocation */
 /* @teleloc 0xE63D0106 [80.420700 113.497000 87.605000] 0.143339 0.000000 0.000000 -0.989674 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (4550, 8000, 2120470551) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (4550,   1,  75, 0, 0) /* Strength */
@@ -112,51 +104,3 @@ VALUES (4550, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */
      , (4550, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (4550, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (4550, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (4550, 67109969, 92, 4)
-     , (4550, 67110020, 72, 8)
-     , (4550, 67110050, 0, 24)
-     , (4550, 67110062, 32, 8)
-     , (4550, 67110320, 40, 24)
-     , (4550, 67110376, 216, 24)
-     , (4550, 67111304, 64, 8)
-     , (4550, 67111304, 160, 8)
-     , (4550, 67117071, 24, 8);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (4550, 0, 83889072, 83890012)
-     , (4550, 0, 83889342, 83890011)
-     , (4550, 1, 83887064, 83886241)
-     , (4550, 2, 83887066, 83887055)
-     , (4550, 3, 83889344, 83887054)
-     , (4550, 4, 83887068, 83887054)
-     , (4550, 5, 83887064, 83886241)
-     , (4550, 6, 83887066, 83887055)
-     , (4550, 7, 83889344, 83887054)
-     , (4550, 8, 83887068, 83887054)
-     , (4550, 9, 83887070, 83890009)
-     , (4550, 9, 83887062, 83890010)
-     , (4550, 16, 83886232, 83890685)
-     , (4550, 16, 83886668, 83890235)
-     , (4550, 16, 83886837, 83890298)
-     , (4550, 16, 83886684, 83890323);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (4550, 0, 16781875)
-     , (4550, 1, 16781876)
-     , (4550, 2, 16781916)
-     , (4550, 3, 16778361)
-     , (4550, 4, 16778426)
-     , (4550, 5, 16781877)
-     , (4550, 6, 16781917)
-     , (4550, 7, 16778360)
-     , (4550, 8, 16778428)
-     , (4550, 9, 16778425)
-     , (4550, 10, 16778431)
-     , (4550, 11, 16778429)
-     , (4550, 12, 16778423)
-     , (4550, 13, 16778434)
-     , (4550, 14, 16778424)
-     , (4550, 15, 16778435)
-     , (4550, 16, 16795675);

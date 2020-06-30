@@ -18,14 +18,8 @@ VALUES (15243,   1, 'New Cannthalo') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (15243,   1,   33557463) /* Setup */
-     , (15243,   8,  100668115) /* Icon */
-     , (15243, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (15243, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (15243, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (15243,   8,  100668115) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (15243, 8040, 3352428580, 107.304, 84.4078, 56, 0.38548, 0, 0, -0.922716) /* PCAPRecordedLocation */
 /* @teleloc 0xC7D20024 [107.304000 84.407800 56.000000] 0.385480 0.000000 0.000000 -0.922716 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (15243, 8000, 2088575409) /* PCAPRecordedObjectIID */;

@@ -11,32 +11,24 @@ VALUES (23,   1,         16) /* ItemType - Creature */
      , (23,  16,          1) /* ItemUseable - No */
      , (23,  25,         40) /* Level */
      , (23,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (23, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23,   1, 'Virindi Servant') /* Name */
-     , (23, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23,   1, 'Virindi Servant') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23,   1,   33554497) /* Setup */
      , (23,   2,  150994984) /* MotionTable */
      , (23,   3,  536870930) /* SoundTable */
      , (23,   8,  100667943) /* Icon */
-     , (23,  22,  872415273) /* PhysicsEffectTable */
-     , (23, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (23,  22,  872415273) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23, 8040, 2536898589, 82.12404, 102.5528, 31.17028, -0.5793518, 0, 0, -0.8150776) /* PCAPRecordedLocation */
 /* @teleloc 0x9736001D [82.124040 102.552800 31.170280] -0.579352 0.000000 0.000000 -0.815078 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23, 8000, 3685863013) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23,   1,  30, 0, 0) /* Strength */

@@ -13,8 +13,7 @@ VALUES (691,   1,       4096) /* ItemType - SpellComponents */
      , (691,  16,          1) /* ItemUseable - No */
      , (691,  19,         10) /* Value */
      , (691,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
-     , (691, 151,          2) /* HookType - Wall */
-     , (691, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (691, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (691,   1, 'Lead Scarab') /* Name */;
@@ -24,19 +23,4 @@ VALUES (691,   1,   33555211) /* Setup */
      , (691,   3,  536870932) /* SoundTable */
      , (691,   6,   67111919) /* PaletteBase */
      , (691,   8,  100668391) /* Icon */
-     , (691,  22,  872415275) /* PhysicsEffectTable */
-     , (691, 8001,  270561304) /* PCAPRecordedWeenieHeader - Value, Usable, StackSize, MaxStackSize, Container, Burden, HookType */
-     , (691, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (691, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (691, 8000, 2186220475) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (691, 67111919, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (691, 0, 83890047, 83890047);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (691, 0, 16780734);
+     , (691,  22,  872415275) /* PhysicsEffectTable */;

@@ -16,8 +16,7 @@ VALUES (24591,   1,         16) /* ItemType - Creature */
      , (24591,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (24591, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (24591, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (24591, 307,          5) /* DamageRating */
-     , (24591, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (24591, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (24591,   1, True ) /* Stuck */
@@ -32,25 +31,18 @@ VALUES (24591,  37,     0.8) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24591,   1, 'Aun Gunditealuan the Marksman') /* Name */
-     , (24591,   5, 'Master Bowyer') /* Template */
-     , (24591, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (24591,   5, 'Master Bowyer') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (24591,   1,   33557117) /* Setup */
      , (24591,   2,  150994954) /* MotionTable */
      , (24591,   3,  536870931) /* SoundTable */
      , (24591,   6,   67113280) /* PaletteBase */
-     , (24591,   8,  100671756) /* Icon */
-     , (24591, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (24591, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (24591, 8005,     100547) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, Position, Movement */;
+     , (24591,   8,  100671756) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (24591, 8040, 722600234, 149.886, 6.8133, 48.007, 0.9990788, 0, 0, -0.04291499) /* PCAPRecordedLocation */
 /* @teleloc 0x2B12012A [149.886000 6.813300 48.007000] 0.999079 0.000000 0.000000 -0.042915 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (24591, 8000, 1924210726) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (24591,   1, 193, 0, 0) /* Strength */
@@ -108,6 +100,3 @@ VALUES (24591, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (24591, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
      , (24591, 4, 45099, -1, 0, 0, False) /* Create Epee (45099) for Shop */
      , (24591, 4, 30588, -1, 0, 0, False) /* Create Lightning Flanged Mace (30588) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (24591, 67113366, 0, 0);

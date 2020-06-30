@@ -14,8 +14,7 @@ VALUES (2540,   1,         16) /* ItemType - Creature */
      , (2540,  75,          0) /* MerchandiseMinValue */
      , (2540,  76,     100000) /* MerchandiseMaxValue */
      , (2540,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (2540, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (2540, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (2540, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2540,   1, True ) /* Stuck */
@@ -28,8 +27,7 @@ VALUES (2540,  37,     0.6) /* BuyPrice */
      , (2540,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (2540,   1, 'Lich Archmage') /* Name */
-     , (2540, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (2540,   1, 'Lich Archmage') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2540,   1,   33554839) /* Setup */
@@ -37,17 +35,11 @@ VALUES (2540,   1,   33554839) /* Setup */
      , (2540,   3,  536870934) /* SoundTable */
      , (2540,   6,   67110722) /* PaletteBase */
      , (2540,   8,  100667942) /* Icon */
-     , (2540,  22,  872415272) /* PhysicsEffectTable */
-     , (2540, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (2540, 8003,        532) /* PCAPRecordedObjectDesc - Stuck, Attackable, Vendor */
-     , (2540, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (2540,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2540, 8040, 2668953632, 82.6594, 177.429, 135.2097, -0.03004662, 0, 0, -0.9995485) /* PCAPRecordedLocation */
 /* @teleloc 0x9F150020 [82.659400 177.429000 135.209700] -0.030047 0.000000 0.000000 -0.999549 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (2540, 8000, 3708687882) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (2540,   1, 120, 0, 0) /* Strength */
@@ -237,6 +229,3 @@ VALUES (2540, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2540, 4, 20179, -1, 0, 0, False) /* Create Superb Mana Charge (20179) for Shop */
      , (2540, 4,  9060, -1, 0, 0, False) /* Create Titan Mana Charge (9060) for Shop */
      , (2540, 4, 27329, -1, 0, 0, False) /* Create Massive Mana Charge (27329) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (2540, 67111341, 0, 0);

@@ -11,8 +11,7 @@ VALUES (35146,   1,         16) /* ItemType - Creature */
      , (35146,  16,          1) /* ItemUseable - No */
      , (35146,  25,        185) /* Level */
      , (35146,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (35146, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (35146, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (35146, 133,          2) /* ShowableOnRadar - ShowMovement */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35146,   1, True ) /* Stuck */;
@@ -21,8 +20,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35146,  77,       1) /* PhysicsScriptIntensity */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (35146,   1, 'Olthoi Slayer') /* Name */
-     , (35146, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (35146,   1, 'Olthoi Slayer') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35146,   1,   33557164) /* Setup */
@@ -31,17 +29,11 @@ VALUES (35146,   1,   33557164) /* Setup */
      , (35146,   6,   67113236) /* PaletteBase */
      , (35146,   8,  100667623) /* Icon */
      , (35146,  22,  872415265) /* PhysicsEffectTable */
-     , (35146,  30,         86) /* PhysicsScript - BreatheAcid */
-     , (35146, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (35146, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (35146, 8005,     129027) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, DefaultScript, DefaultScriptIntensity, Position, Movement */;
+     , (35146,  30,         86) /* PhysicsScript - BreatheAcid */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35146, 8040, 11534729, 35.14165, -846.6882, 0.105, -4.371139E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00189 [35.141650 -846.688200 0.105000] 0.000000 0.000000 0.000000 -1.000000 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (35146, 8000, 2447684082) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (35146,   1, 380, 0, 0) /* Strength */
@@ -60,6 +52,3 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (35146, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
      , (35146, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
      , (35146, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (35146, 67113316, 0, 0);

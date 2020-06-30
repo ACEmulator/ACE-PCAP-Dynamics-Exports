@@ -19,14 +19,8 @@ VALUES (22240,   1, 'Spirit Gate') /* Name */
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (22240,   1,   33558054) /* Setup */
-     , (22240,   8,  100667499) /* Icon */
-     , (22240, 8001,    2097176) /* PCAPRecordedWeenieHeader - Value, Usable, Burden */
-     , (22240, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (22240, 8005,      32769) /* PCAPRecordedPhysicsDesc - CSetup, Position */;
+     , (22240,   8,  100667499) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (22240, 8040, 1448083712, 1.60285, -30.5701, 0, 0.707107, 0, 0, -0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x56500100 [1.602850 -30.570100 0.000000] 0.707107 0.000000 0.000000 -0.707107 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (22240, 8000, 1969553435) /* PCAPRecordedObjectIID */;

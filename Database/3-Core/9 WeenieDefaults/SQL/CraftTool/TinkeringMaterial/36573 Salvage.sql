@@ -20,14 +20,10 @@ VALUES (36573,   1, 1073741824) /* ItemType - TinkeringMaterial */
      , (36573, 105,        100) /* ItemWorkmanship */
      , (36573, 131,          7) /* MaterialType - Velvet */
      , (36573, 151,          9) /* HookType - Floor, Yard */
-     , (36573, 170,         10) /* NumItemsInMaterial */
-     , (36573, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (36573, 170,         10) /* NumItemsInMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36573,  22, True ) /* Inscribable */;
-
-INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (36573, 8004,      10) /* PCAPRecordedWorkmanship */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36573,   1, 'Salvage') /* Name */
@@ -39,19 +35,4 @@ VALUES (36573,   1,   33554817) /* Setup */
      , (36573,   3,  536870932) /* SoundTable */
      , (36573,   6,   67111919) /* PaletteBase */
      , (36573,   8,  100689652) /* Icon */
-     , (36573,  22,  872415275) /* PhysicsEffectTable */
-     , (36573, 8001, 2435349528) /* PCAPRecordedWeenieHeader - Value, Usable, Structure, MaxStructure, StackSize, MaxStackSize, Container, TargetType, Burden, Workmanship, HookType, MaterialType */
-     , (36573, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (36573, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (36573, 8000, 2337078053) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (36573, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (36573, 0, 83890064, 83894153);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (36573, 0, 16777882);
+     , (36573,  22,  872415275) /* PhysicsEffectTable */;

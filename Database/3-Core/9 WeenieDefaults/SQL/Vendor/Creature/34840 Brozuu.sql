@@ -15,8 +15,7 @@ VALUES (34840,   1,         16) /* ItemType - Creature */
      , (34840,  76,     100000) /* MerchandiseMaxValue */
      , (34840,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (34840, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (34840, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (34840, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (34840, 134,         16) /* PlayerKillerStatus - RubberGlue */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (34840,   1, True ) /* Stuck */
@@ -30,25 +29,18 @@ VALUES (34840,  37,     0.9) /* BuyPrice */
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34840,   1, 'Brozuu') /* Name */
-     , (34840,   5, 'Archmage') /* Template */
-     , (34840, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (34840,   5, 'Archmage') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (34840,   1,   33558582) /* Setup */
      , (34840,   2,  150995272) /* MotionTable */
      , (34840,   3,  536871083) /* SoundTable */
      , (34840,   6,   67114919) /* PaletteBase */
-     , (34840,   8,  100675761) /* Icon */
-     , (34840, 8001,    8388662) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBehavior */
-     , (34840, 8003,        516) /* PCAPRecordedObjectDesc - Stuck, Vendor */
-     , (34840, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (34840,   8,  100675761) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34840, 8040, 10223917, 241.572, -97.9531, -29.96795, 0.4285473, 0, 0, -0.9035194) /* PCAPRecordedLocation */
 /* @teleloc 0x009C012D [241.572000 -97.953100 -29.967950] 0.428547 0.000000 0.000000 -0.903519 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (34840, 8000, 1879687169) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (34840,   1,  95, 0, 0) /* Strength */
@@ -248,6 +240,3 @@ VALUES (34840, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop *
      , (34840, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (34840, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (34840, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (34840, 67114919, 0, 0);

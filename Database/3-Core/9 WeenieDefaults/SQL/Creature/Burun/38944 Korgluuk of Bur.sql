@@ -11,16 +11,14 @@ VALUES (38944,   1,         16) /* ItemType - Creature */
      , (38944,  16,          1) /* ItemUseable - No */
      , (38944,  25,        200) /* Level */
      , (38944,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (38944, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (38944, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (38944, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38944,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38944,   1, 'Korgluuk of Bur') /* Name */
-     , (38944,   5, 'Monster Fighter') /* Template */
-     , (38944, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (38944,   5, 'Monster Fighter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38944,   1,   33558749) /* Setup */
@@ -28,17 +26,11 @@ VALUES (38944,   1,   33558749) /* Setup */
      , (38944,   3,  536871093) /* SoundTable */
      , (38944,   6,   67115196) /* PaletteBase */
      , (38944,   8,  100676549) /* Icon */
-     , (38944,  22,  872415402) /* PhysicsEffectTable */
-     , (38944, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (38944, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (38944, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (38944,  22,  872415402) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38944, 8040, 869924901, 113, 103, 60, -0.9238795, 0, 0, -0.3826835) /* PCAPRecordedLocation */
 /* @teleloc 0x33DA0025 [113.000000 103.000000 60.000000] -0.923880 0.000000 0.000000 -0.382684 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (38944, 8000, 3706619714) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (38944,   1, 500, 0, 0) /* Strength */
@@ -58,6 +50,3 @@ VALUES (38944, 2, 38934,  1, 0, 0, False) /* Create Sabra (38934) for Wield */
      , (38944, 2, 38937,  1, 0, 0, False) /* Create Lightning Mazule (38937) for Wield */
      , (38944, 2, 38931,  1, 0, 0, False) /* Create Frost Hand Axe (38931) for Wield */
      , (38944, 2, 38935,  1, 0, 0, False) /* Create Lugian Hammer (38935) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (38944, 67115202, 0, 0);

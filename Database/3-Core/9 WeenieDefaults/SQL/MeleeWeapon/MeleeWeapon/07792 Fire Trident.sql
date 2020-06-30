@@ -33,9 +33,7 @@ VALUES (7792,   1,          1) /* ItemType - MeleeWeapon */
      , (7792, 176,         44) /* AppraisalItemSkill */
      , (7792, 177,          1) /* GemCount */
      , (7792, 178,         12) /* GemType */
-     , (7792, 353,          5) /* WeaponType - Spear */
-     , (7792, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (7792, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (7792, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (7792,  22, True ) /* Inscribable */;
@@ -48,8 +46,7 @@ VALUES (7792,   5,  -0.056) /* ManaRate */
      , (7792,  29,    1.04) /* WeaponDefense */
      , (7792,  39,     1.2) /* DefaultScale */
      , (7792,  62,    1.13) /* WeaponOffense */
-     , (7792,  63,       1) /* DamageMod */
-     , (7792, 8004,       6) /* PCAPRecordedWorkmanship */;
+     , (7792,  63,       1) /* DamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7792,   1, 'Fire Trident') /* Name */
@@ -60,27 +57,10 @@ VALUES (7792,   1,   33556661) /* Setup */
      , (7792,   3,  536870932) /* SoundTable */
      , (7792,   6,   67111919) /* PaletteBase */
      , (7792,   8,  100670797) /* Icon */
-     , (7792,  22,  872415275) /* PhysicsEffectTable */
-     , (7792, 8001, 2434876056) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Container, ValidLocations, Burden, Workmanship, HookType, MaterialType */
-     , (7792, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (7792, 8005,     137345) /* PCAPRecordedPhysicsDesc - CSetup, ObjScale, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (7792, 8000, 2583541944) /* PCAPRecordedObjectIID */;
+     , (7792,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7792,  1616,      2) 
      , (7792,  2106,      2) 
      , (7792,  2566,      2) 
      , (7792,  2576,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (7792, 67111925, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (7792, 0, 83889235, 83889235)
-     , (7792, 0, 83886709, 83886709)
-     , (7792, 0, 83888778, 83888778);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (7792, 0, 16784608);

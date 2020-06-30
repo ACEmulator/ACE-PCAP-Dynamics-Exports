@@ -18,8 +18,7 @@ VALUES (49909,   1,          2) /* ItemType - Armor */
      , (49909, 158,          7) /* WieldRequirements - Level */
      , (49909, 159,          1) /* WieldSkillType - Axe */
      , (49909, 160,        115) /* WieldDifficulty */
-     , (49909, 265,        130) /* EquipmentSetId - ShimmeringShadowsSet */
-     , (49909, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (49909, 265,        130) /* EquipmentSetId - ShimmeringShadowsSet */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (49909,  22, True ) /* Inscribable */;
@@ -41,16 +40,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (49909,   1,   33554648) /* Setup */
      , (49909,   3,  536870932) /* SoundTable */
      , (49909,   8,  100693096) /* Icon */
-     , (49909,  22,  872415275) /* PhysicsEffectTable */
-     , (49909, 8001,    2588696) /* PCAPRecordedWeenieHeader - Value, Usable, Wielder, ValidLocations, CurrentlyWieldedLocation, Priority, Burden */
-     , (49909, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (49909, 8005,     137217) /* PCAPRecordedPhysicsDesc - CSetup, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (49909, 8000, 3629622396) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (49909, 0, 83894333, 83899134);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (49909, 0, 16778374);
+     , (49909,  22,  872415275) /* PhysicsEffectTable */;

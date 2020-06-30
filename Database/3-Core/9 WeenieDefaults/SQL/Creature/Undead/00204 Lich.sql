@@ -12,15 +12,13 @@ VALUES (204,   1,         16) /* ItemType - Creature */
      , (204,  25,         20) /* Level */
      , (204,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (204, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (204, 307,          5) /* DamageRating */
-     , (204, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (204, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (204,   1, True ) /* Stuck */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (204,   1, 'Lich') /* Name */
-     , (204, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (204,   1, 'Lich') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (204,   1,   33554839) /* Setup */
@@ -28,17 +26,11 @@ VALUES (204,   1,   33554839) /* Setup */
      , (204,   3,  536870934) /* SoundTable */
      , (204,   6,   67110722) /* PaletteBase */
      , (204,   8,  100667942) /* Icon */
-     , (204,  22,  872415272) /* PhysicsEffectTable */
-     , (204, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (204, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (204, 8005,     104451) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, PeTable, Position, Movement */;
+     , (204,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (204, 8040, 2474442773, 63.41367, 116.1531, 38.9714, -0.779569, 0, 0, -0.6263164) /* PCAPRecordedLocation */
 /* @teleloc 0x937D0015 [63.413670 116.153100 38.971400] -0.779569 0.000000 0.000000 -0.626316 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (204, 8000, 3685895954) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (204,   1,  50, 0, 0) /* Strength */
@@ -688,6 +680,3 @@ VALUES (204, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (204, 9,  3304,  0, 0, 0, False) /* Create Scroll of Item Enchantment Ineptitude III (3304) for ContainTreasure */
      , (204, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
      , (204, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (204, 67111341, 0, 0);

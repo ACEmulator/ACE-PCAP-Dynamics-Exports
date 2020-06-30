@@ -34,8 +34,7 @@ VALUES (52077,   1,         16) /* ItemType - Creature */
      , (52077, 386,          0) /* Overpower */
      , (52077, 387,          0) /* OverpowerResist */
      , (52077, 388,          0) /* GearOverpower */
-     , (52077, 389,          0) /* GearOverpowerResist */
-     , (52077, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (52077, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52077,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52077,  54,       4) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (52077,   1, 'Rynthid Assessment Crystal') /* Name */
-     , (52077, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (52077,   1, 'Rynthid Assessment Crystal') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (52077,   1,   33561586) /* Setup */
      , (52077,   2,  150995495) /* MotionTable */
      , (52077,   3,  536870932) /* SoundTable */
-     , (52077,   8,  100667386) /* Icon */
-     , (52077, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (52077, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (52077, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (52077,   8,  100667386) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52077, 8040, 741408813, 135.917, 108.216, 107.5, 0.6963451, 0, 0, -0.7177071) /* PCAPRecordedLocation */
 /* @teleloc 0x2C31002D [135.917000 108.216000 107.500000] 0.696345 0.000000 0.000000 -0.717707 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (52077, 8000, 3704265688) /* PCAPRecordedObjectIID */;

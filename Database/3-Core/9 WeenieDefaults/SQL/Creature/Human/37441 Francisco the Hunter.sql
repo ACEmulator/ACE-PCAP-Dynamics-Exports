@@ -16,8 +16,7 @@ VALUES (37441,   1,         16) /* ItemType - Creature */
      , (37441, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (37441, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (37441, 188,          4) /* HeritageGroup - Viamontian */
-     , (37441, 307,          5) /* DamageRating */
-     , (37441, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (37441, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37441,   1, True ) /* Stuck */
@@ -28,8 +27,7 @@ VALUES (37441,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37441,   1, 'Francisco the Hunter') /* Name */
-     , (37441,   5, 'Hunter') /* Template */
-     , (37441, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (37441,   5, 'Hunter') /* Template */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37441,   1,   33554433) /* Setup */
@@ -41,17 +39,11 @@ VALUES (37441,   1,   33554433) /* Setup */
      , (37441,  11,   83890638) /* MouthTexture */
      , (37441,  15,   67116989) /* HairPalette */
      , (37441,  16,   67109564) /* EyesPalette */
-     , (37441,  17,   67115908) /* SkinPalette */
-     , (37441, 8001,    9437238) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor, RadarBehavior */
-     , (37441, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (37441, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (37441,  17,   67115908) /* SkinPalette */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37441, 8040, 1240465455, 136.845, 163.086, 170.005, 0.988486, 0, 0, 0.151311) /* PCAPRecordedLocation */
 /* @teleloc 0x49F0002F [136.845000 163.086000 170.005000] 0.988486 0.000000 0.000000 0.151311 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37441, 8000, 3690763203) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (37441,   1, 250, 0, 0) /* Strength */

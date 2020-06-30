@@ -33,8 +33,7 @@ VALUES (40526,   1,         16) /* ItemType - Creature */
      , (40526, 386,          0) /* Overpower */
      , (40526, 387,          0) /* OverpowerResist */
      , (40526, 388,          0) /* GearOverpower */
-     , (40526, 389,          0) /* GearOverpowerResist */
-     , (40526, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (40526, 389,          0) /* GearOverpowerResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40526,   1, True ) /* Stuck */
@@ -45,21 +44,14 @@ VALUES (40526,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40526,   1, 'Bottle') /* Name */
-     , (40526,  15, 'A bottle.') /* ShortDesc */
-     , (40526, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+     , (40526,  15, 'A bottle.') /* ShortDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40526,   1,   33559127) /* Setup */
      , (40526,   2,  150995094) /* MotionTable */
      , (40526,   3,  536870930) /* SoundTable */
-     , (40526,   8,  100686472) /* Icon */
-     , (40526, 8001,    1048630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, UseRadius, RadarBlipColor */
-     , (40526, 8003,          4) /* PCAPRecordedObjectDesc - Stuck */
-     , (40526, 8005,     100355) /* PCAPRecordedPhysicsDesc - CSetup, MTable, STable, Position, Movement */;
+     , (40526,   8,  100686472) /* Icon */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40526, 8040, 2847146325, 108.273, 39.4582, 94, 0.085621, 0, 0, -0.996328) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40155 [108.273000 39.458200 94.000000] 0.085621 0.000000 0.000000 -0.996328 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (40526, 8000, 3689199186) /* PCAPRecordedObjectIID */;

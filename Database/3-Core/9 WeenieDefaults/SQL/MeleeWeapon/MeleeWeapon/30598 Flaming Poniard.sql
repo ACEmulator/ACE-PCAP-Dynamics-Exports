@@ -29,8 +29,7 @@ VALUES (30598,   1,          1) /* ItemType - MeleeWeapon */
      , (30598, 151,          2) /* HookType - Wall */
      , (30598, 172,          1) /* AppraisalLongDescDecoration */
      , (30598, 176,         46) /* AppraisalItemSkill */
-     , (30598, 353,          6) /* WeaponType - Dagger */
-     , (30598, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */;
+     , (30598, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30598,  22, True ) /* Inscribable */;
@@ -43,8 +42,7 @@ VALUES (30598,   5,  -0.017) /* ManaRate */
      , (30598,  29,    1.03) /* WeaponDefense */
      , (30598,  62,    1.03) /* WeaponOffense */
      , (30598,  63,       1) /* DamageMod */
-     , (30598, 150,   1.015) /* WeaponMagicDefense */
-     , (30598, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (30598, 150,   1.015) /* WeaponMagicDefense */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30598,   1, 'Flaming Poniard') /* Name */
@@ -56,26 +54,14 @@ VALUES (30598,   1,   33559484) /* Setup */
      , (30598,   6,   67116417) /* PaletteBase */
      , (30598,   8,  100687001) /* Icon */
      , (30598,  22,  872415275) /* PhysicsEffectTable */
-     , (30598,  52,  100676441) /* IconUnderlay */
-     , (30598, 8001, 2435023512) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, CombatUse, Wielder, ValidLocations, CurrentlyWieldedLocation, Burden, Workmanship, HookType, MaterialType */
-     , (30598, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (30598, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (30598, 8005,      38945) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position */
-     , (30598, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (30598,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30598, 8040, 4095213581, 27.166, 102.5381, 159.929, 0.4826304, 0.4826304, -0.5167862, -0.5167862) /* PCAPRecordedLocation */
 /* @teleloc 0xF418000D [27.166000 102.538100 159.929000] 0.482630 0.482630 -0.516786 -0.516786 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (30598, 8000, 2166297035) /* PCAPRecordedObjectIID */
-     , (30598, 8008, 1342274036) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30598,  1612,      2) ;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30598, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (30598, 67116422, 0, 0);

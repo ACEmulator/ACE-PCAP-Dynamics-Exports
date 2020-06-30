@@ -37,8 +37,7 @@ VALUES (37223,   1,      32768) /* ItemType - Caster */
      , (37223, 319,         35) /* ItemMaxLevel */
      , (37223, 320,          1) /* ItemXpStyle - Fixed */
      , (37223, 383,          1) /* GearPKDamageRating */
-     , (37223, 384,          1) /* GearPKDamageResistRating */
-     , (37223, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (37223, 384,          1) /* GearPKDamageResistRating */;
 
 INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (37223,   4, 70000000000) /* ItemTotalXp */
@@ -54,8 +53,7 @@ VALUES (37223,   5,  -0.067) /* ManaRate */
      , (37223,  29,     1.4) /* WeaponDefense */
      , (37223,  39,     0.6) /* DefaultScale */
      , (37223, 144,    0.18) /* ManaConversionMod */
-     , (37223, 152,    1.43) /* ElementalDamageMod */
-     , (37223, 8004,       7) /* PCAPRecordedWorkmanship */;
+     , (37223, 152,    1.43) /* ElementalDamageMod */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37223,   1, 'Slashing Staff') /* Name */
@@ -72,20 +70,11 @@ VALUES (37223,   1,   33560656) /* Setup */
      , (37223,   8,  100690003) /* Icon */
      , (37223,  22,  872415275) /* PhysicsEffectTable */
      , (37223,  28,         91) /* Spell - ForceBolt6 */
-     , (37223,  52,  100676444) /* IconUnderlay */
-     , (37223, 8001, 2439741592) /* PCAPRecordedWeenieHeader - Value, Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, Spell, Workmanship, HookType, MaterialType */
-     , (37223, 8002,          1) /* PCAPRecordedWeenieHeader2 - IconUnderlay */
-     , (37223, 8003,   67108882) /* PCAPRecordedObjectDesc - Inscribable, Attackable, IncludesSecondHeader */
-     , (37223, 8005,     170145) /* PCAPRecordedPhysicsDesc - CSetup, Parent, ObjScale, STable, PeTable, Position, AnimationFrame */
-     , (37223, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (37223,  52,  100676444) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37223, 8040, 3465805872, 151.0719, 112.6264, 17.342, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */
 /* @teleloc 0xCE940030 [151.071900 112.626400 17.342000] -0.662260 -0.662260 -0.247813 -0.247813 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (37223, 8000, 2523833491) /* PCAPRecordedObjectIID */
-     , (37223, 8008, 1343461065) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37223,  2117,      2) 
@@ -94,14 +83,3 @@ VALUES (37223,  2117,      2)
      , (37223,  4433,      2) 
      , (37223,  4638,      2) 
      , (37223,  6098,      2) ;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (37223, 67111920, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (37223, 0, 83894158, 83894158)
-     , (37223, 0, 83894159, 83894159)
-     , (37223, 0, 83888756, 83888756);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (37223, 0, 16788048);

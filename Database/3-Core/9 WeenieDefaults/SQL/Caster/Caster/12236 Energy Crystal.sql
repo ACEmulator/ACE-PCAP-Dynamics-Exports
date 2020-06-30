@@ -18,8 +18,7 @@ VALUES (12236,   1,      32768) /* ItemType - Caster */
      , (12236, 107,       1009) /* ItemCurMana */
      , (12236, 108,       1200) /* ItemMaxMana */
      , (12236, 109,        180) /* ItemDifficulty */
-     , (12236, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (12236, 8041,          1) /* PCAPRecordedPlacement - RightHandCombat */;
+     , (12236, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12236,  22, True ) /* Inscribable */;
@@ -40,19 +39,11 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12236,   1,   33557374) /* Setup */
      , (12236,   3,  536870932) /* SoundTable */
      , (12236,   8,  100672184) /* Icon */
-     , (12236,  22,  872415275) /* PhysicsEffectTable */
-     , (12236, 8001,  271286416) /* PCAPRecordedWeenieHeader - Usable, UiEffects, Wielder, ValidLocations, CurrentlyWieldedLocation, TargetType, Burden, HookType */
-     , (12236, 8003,         18) /* PCAPRecordedObjectDesc - Inscribable, Attackable */
-     , (12236, 8005,     432161) /* PCAPRecordedPhysicsDesc - CSetup, Parent, STable, PeTable, Position, AnimationFrame, Translucency */
-     , (12236, 8009,          1) /* PCAPRecordedParentLocation - RightHand */;
+     , (12236,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (12236, 8040, 23855548, 54.62833, -25.53607, -0.071, 0.01567748, 0.01567748, -0.706933, -0.706933) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [54.628330 -25.536070 -0.071000] 0.015677 0.015677 -0.706933 -0.706933 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (12236, 8000, 3010181316) /* PCAPRecordedObjectIID */
-     , (12236, 8008, 1343491011) /* PCAPRecordedParentIID */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12236,   561,      2) 

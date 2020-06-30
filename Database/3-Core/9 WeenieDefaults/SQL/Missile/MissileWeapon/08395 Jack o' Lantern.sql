@@ -24,9 +24,7 @@ VALUES (8395,   1,        256) /* ItemType - MissileWeapon */
      , (8395, 313,          0) /* CritRating */
      , (8395, 314,          0) /* CritDamageRating */
      , (8395, 353,         10) /* WeaponType - Thrown */
-     , (8395, 386,          0) /* Overpower */
-     , (8395, 8030,          0) /* PCAPRecordedMaxVelocityEstimated */
-     , (8395, 8041,        101) /* PCAPRecordedPlacement - Resting */;
+     , (8395, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8395,  21,       0) /* WeaponLength */
@@ -49,19 +47,4 @@ VALUES (8395,   1,   33556858) /* Setup */
      , (8395,   3,  536870932) /* SoundTable */
      , (8395,   6,   67112968) /* PaletteBase */
      , (8395,   8,  100671020) /* Icon */
-     , (8395,  22,  872415275) /* PhysicsEffectTable */
-     , (8395, 8001,  270627352) /* PCAPRecordedWeenieHeader - Value, Usable, CombatUse, StackSize, MaxStackSize, Container, ValidLocations, Burden, HookType */
-     , (8395, 8003,         16) /* PCAPRecordedObjectDesc - Attackable */
-     , (8395, 8005,     137985) /* PCAPRecordedPhysicsDesc - CSetup, Friction, Elasticity, STable, PeTable, AnimationFrame */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (8395, 8000, 2186220461) /* PCAPRecordedObjectIID */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (8395, 67112968, 0, 0);
-
-INSERT INTO `weenie_properties_texture_map` (`object_Id`, `index`, `old_Id`, `new_Id`)
-VALUES (8395, 0, 83892725, 83892725);
-
-INSERT INTO `weenie_properties_anim_part` (`object_Id`, `index`, `animation_Id`)
-VALUES (8395, 0, 16784961);
+     , (8395,  22,  872415275) /* PhysicsEffectTable */;

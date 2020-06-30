@@ -12,8 +12,7 @@ VALUES (23485,   1,         16) /* ItemType - Creature */
      , (23485,  25,        100) /* Level */
      , (23485,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (23485, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (23485, 307,          5) /* DamageRating */
-     , (23485, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (23485, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (23485,   1, True ) /* Stuck */;
@@ -22,8 +21,7 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (23485,  39,     1.3) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23485,   1, 'Essa Sclavus Lord') /* Name */
-     , (23485, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (23485,   1, 'Essa Sclavus Lord') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23485,   1,   33555608) /* Setup */
@@ -31,17 +29,11 @@ VALUES (23485,   1,   33555608) /* Setup */
      , (23485,   3,  536870977) /* SoundTable */
      , (23485,   6,   67111936) /* PaletteBase */
      , (23485,   8,  100669120) /* Icon */
-     , (23485,  22,  872415280) /* PhysicsEffectTable */
-     , (23485, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (23485, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (23485, 8005,     104579) /* PCAPRecordedPhysicsDesc - CSetup, MTable, ObjScale, STable, PeTable, Position, Movement */;
+     , (23485,  22,  872415280) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23485, 8040, 893976613, 114.3456, 101.2846, 2, 0.9182015, 0, 0, -0.3961136) /* PCAPRecordedLocation */
 /* @teleloc 0x35490025 [114.345600 101.284600 2.000000] 0.918202 0.000000 0.000000 -0.396114 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (23485, 8000, 3701512604) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (23485,   1, 180, 0, 0) /* Strength */
@@ -80,6 +72,3 @@ VALUES (23485, 2, 47770,  1, 0, 0, False) /* Create Flaming Spear (47770) for Wi
      , (23485, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
      , (23485, 2, 47981,  1, 0, 0, False) /* Create Lightning Katar (47981) for Wield */
      , (23485, 2, 47984,  1, 0, 0, False) /* Create Lightning Nekode (47984) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (23485, 67111939, 0, 0);

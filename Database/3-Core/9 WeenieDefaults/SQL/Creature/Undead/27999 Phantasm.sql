@@ -12,8 +12,7 @@ VALUES (27999,   1,         16) /* ItemType - Creature */
      , (27999,  25,        115) /* Level */
      , (27999,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
      , (27999, 133,          2) /* ShowableOnRadar - ShowMovement */
-     , (27999, 307,          5) /* DamageRating */
-     , (27999, 8007,          0) /* PCAPRecordedAutonomousMovement */;
+     , (27999, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27999,   1, True ) /* Stuck */;
@@ -23,8 +22,7 @@ VALUES (27999,  39,     1.1) /* DefaultScale */
      , (27999,  76,     0.5) /* Translucency */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (27999,   1, 'Phantasm') /* Name */
-     , (27999, 8006, 'AAA9AAAAAAA=') /* PCAPRecordedCurrentMotionState */;
+VALUES (27999,   1, 'Phantasm') /* Name */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27999,   1,   33554839) /* Setup */
@@ -32,17 +30,11 @@ VALUES (27999,   1,   33554839) /* Setup */
      , (27999,   3,  536870934) /* SoundTable */
      , (27999,   6,   67110722) /* PaletteBase */
      , (27999,   8,  100667942) /* Icon */
-     , (27999,  22,  872415272) /* PhysicsEffectTable */
-     , (27999, 8001,    8388630) /* PCAPRecordedWeenieHeader - ItemsCapacity, ContainersCapacity, Usable, RadarBehavior */
-     , (27999, 8003,         20) /* PCAPRecordedObjectDesc - Stuck, Attackable */
-     , (27999, 8005,     366787) /* PCAPRecordedPhysicsDesc - CSetup, MTable, Children, ObjScale, STable, PeTable, Position, Movement, Translucency */;
+     , (27999,  22,  872415272) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27999, 8040, 1632371470, 106.857, -16.7586, 6.00825, -0.001680999, 0, 0, -0.9999986) /* PCAPRecordedLocation */
 /* @teleloc 0x614C030E [106.857000 -16.758600 6.008250] -0.001681 0.000000 0.000000 -0.999999 */;
-
-INSERT INTO `weenie_properties_i_i_d` (`object_Id`, `type`, `value`)
-VALUES (27999, 8000, 2628994593) /* PCAPRecordedObjectIID */;
 
 INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
 VALUES (27999,   1, 160, 0, 0) /* Strength */
@@ -73,6 +65,3 @@ VALUES (27999, 2, 47995,  1, 0, 0, False) /* Create Katar (47995) for Wield */
      , (27999, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (27999, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
      , (27999, 2, 47992,  1, 0, 0, False) /* Create Acid Quarrel (47992) for Wield */;
-
-INSERT INTO `weenie_properties_palette` (`object_Id`, `sub_Palette_Id`, `offset`, `length`)
-VALUES (27999, 67113037, 0, 0);
