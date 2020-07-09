@@ -53,5 +53,5 @@ VALUES (52787,   1,   33554680) /* Setup */
      , (52787,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52787,  6080,      2) 
-     , (52787,  6082,      2) ;
+VALUES (52787,  6080,      2)  /* CantripAcidWard4 */
+     , (52787,  6082,      2)  /* CantripFlameWard4 */;

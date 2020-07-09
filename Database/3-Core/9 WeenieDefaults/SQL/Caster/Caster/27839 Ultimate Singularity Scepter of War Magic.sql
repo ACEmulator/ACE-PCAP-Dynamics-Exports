@@ -54,7 +54,7 @@ VALUES (27839, 8040, 4095213828, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935
 /* @teleloc 0xF4180104 [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27839,   211,      2) 
-     , (27839,   664,      2) 
-     , (27839,  1432,      2) 
-     , (27839,  2581,      2) ;
+VALUES (27839,   211,      2)  /* ManaRenewalOther6 */
+     , (27839,   664,      2)  /* ManaMasteryOther6 */
+     , (27839,  1432,      2)  /* FocusOther6 */
+     , (27839,  2581,      2)  /* CANTRIPFOCUS1 */;

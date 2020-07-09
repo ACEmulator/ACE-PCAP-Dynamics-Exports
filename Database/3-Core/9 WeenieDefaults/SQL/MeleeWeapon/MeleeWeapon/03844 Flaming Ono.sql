@@ -58,9 +58,9 @@ VALUES (3844,   1,   33555688) /* Setup */
      , (3844,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3844,  1402,      2) 
-     , (3844,  2096,      2) 
-     , (3844,  2116,      2) 
-     , (3844,  2550,      2) 
-     , (3844,  2558,      2) 
-     , (3844,  2561,      2) ;
+VALUES (3844,  1402,      2)  /* QuicknessSelf6 */
+     , (3844,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (3844,  2116,      2)  /* SwiftKillerSelf7 */
+     , (3844,  2550,      2)  /* CANTRIPINVULNERABILITY1 */
+     , (3844,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */
+     , (3844,  2561,      2)  /* CANTRIPMONSTERATTUNEMENT1 */;

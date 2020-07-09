@@ -41,11 +41,11 @@ VALUES (33012,   1,   33554690) /* Setup */
      , (33012,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33012,  2245,      2) 
-     , (33012,  2686,      2) 
-     , (33012,  2687,      2) 
-     , (33012,  2689,      2) 
-     , (33012,  2694,      2) 
-     , (33012,  2812,      2) 
-     , (33012,  5074,      2) 
-     , (33012,  5430,      2) ;
+VALUES (33012,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (33012,  2686,      2)  /* ModerateAxeAptitude */
+     , (33012,  2687,      2)  /* ModerateBowAptitude */
+     , (33012,  2689,      2)  /* ModerateDaggerAptitude */
+     , (33012,  2694,      2)  /* ModerateSwordAptitude */
+     , (33012,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (33012,  5074,      2)  /* ModerateTwoHandedAptitude */
+     , (33012,  5430,      2)  /* ModerateVoidMagicAptitude */;

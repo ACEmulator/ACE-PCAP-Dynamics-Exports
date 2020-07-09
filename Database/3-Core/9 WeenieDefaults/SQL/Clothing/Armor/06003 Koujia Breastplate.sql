@@ -51,8 +51,8 @@ VALUES (6003,   1,   33554642) /* Setup */
      , (6003,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6003,  1485,      2) 
-     , (6003,  1540,      2) ;
+VALUES (6003,  1485,      2)  /* Impenetrability5 */
+     , (6003,  1540,      2)  /* LightningBane6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6003, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

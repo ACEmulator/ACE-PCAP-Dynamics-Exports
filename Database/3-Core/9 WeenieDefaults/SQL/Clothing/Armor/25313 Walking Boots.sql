@@ -51,7 +51,7 @@ VALUES (25313,   1,   33558440) /* Setup */
      , (25313,  37,         24) /* ItemSkillLimit - Run */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25313,   987,      2) 
-     , (25313,  1402,      2) 
-     , (25313,  1485,      2) 
-     , (25313,  2662,      2) ;
+VALUES (25313,   987,      2)  /* SprintSelf6 */
+     , (25313,  1402,      2)  /* QuicknessSelf6 */
+     , (25313,  1485,      2)  /* Impenetrability5 */
+     , (25313,  2662,      2)  /* ModerateQuickness */;

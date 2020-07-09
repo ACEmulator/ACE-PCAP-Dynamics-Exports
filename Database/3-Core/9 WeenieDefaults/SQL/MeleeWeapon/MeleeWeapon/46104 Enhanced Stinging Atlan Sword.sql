@@ -61,11 +61,11 @@ VALUES (46104, 8040, 1682309695, 49.97301, -59.81116, -0.071, 0.7071068, 0.70710
 /* @teleloc 0x6446023F [49.973010 -59.811160 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46104,  2059,      2) 
-     , (46104,  2096,      2) 
-     , (46104,  2101,      2) 
-     , (46104,  2106,      2) 
-     , (46104,  2116,      2) 
-     , (46104,  2149,      2) 
-     , (46104,  2531,      2) 
-     , (46104,  2586,      2) ;
+VALUES (46104,  2059,      2)  /* CoordinationSelf7 */
+     , (46104,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46104,  2101,      2)  /* DefenderSelf7 */
+     , (46104,  2106,      2)  /* HeartSeekerSelf7 */
+     , (46104,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46104,  2149,      2)  /* AcidProtectionSelf7 */
+     , (46104,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (46104,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;

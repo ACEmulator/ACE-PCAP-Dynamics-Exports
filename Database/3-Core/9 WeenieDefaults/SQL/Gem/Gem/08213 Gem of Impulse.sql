@@ -39,6 +39,3 @@ VALUES (8213,   1,   33556851) /* Setup */
      , (8213,   8,  100671182) /* Icon */
      , (8213,  22,  872415275) /* PhysicsEffectTable */
      , (8213,  28,       2016) /* Spell - Impulse */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8213,  2016,      2) ;

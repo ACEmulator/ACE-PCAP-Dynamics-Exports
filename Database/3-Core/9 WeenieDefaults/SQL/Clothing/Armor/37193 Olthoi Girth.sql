@@ -64,8 +64,8 @@ VALUES (37193, 8040, 23855631, 87.89492, -16.69748, 0, -0.8451899, 0, 0, 0.53446
 /* @teleloc 0x016C020F [87.894920 -16.697480 0.000000] -0.845190 0.000000 0.000000 0.534466 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37193,  1354,      2) 
-     , (37193,  1486,      2) 
-     , (37193,  2609,      2) 
-     , (37193,  4397,      2) 
-     , (37193,  6046,      2) ;
+VALUES (37193,  1354,      2)  /* EnduranceSelf6 */
+     , (37193,  1486,      2)  /* Impenetrability6 */
+     , (37193,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (37193,  4397,      2)  /* BludgeonBane8 */
+     , (37193,  6046,      2)  /* CantripCreatureEnchantmentAptitude4 */;

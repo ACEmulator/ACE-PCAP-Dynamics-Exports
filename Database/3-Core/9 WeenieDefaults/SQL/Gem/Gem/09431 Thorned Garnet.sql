@@ -35,6 +35,3 @@ VALUES (9431,   1,   33554809) /* Setup */
      , (9431,   8,  100668364) /* Icon */
      , (9431,  22,  872415275) /* PhysicsEffectTable */
      , (9431,  28,       2399) /* Spell - PiercingShield */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9431,  2399,      2) ;

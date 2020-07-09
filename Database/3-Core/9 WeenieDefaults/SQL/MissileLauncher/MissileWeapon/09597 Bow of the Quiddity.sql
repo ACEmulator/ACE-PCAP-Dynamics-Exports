@@ -54,7 +54,7 @@ VALUES (9597, 8040, 1665466628, 118.8158, -46.36127, -24.07, 0.7095142, 0, 0, 0.
 /* @teleloc 0x63450104 [118.815800 -46.361270 -24.070000] 0.709514 0.000000 0.000000 0.704691 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9597,  1590,      2) 
-     , (9597,  1603,      2) 
-     , (9597,  1615,      2) 
-     , (9597,  1625,      2) ;
+VALUES (9597,  1590,      2)  /* HeartSeekerSelf4 */
+     , (9597,  1603,      2)  /* DefenderSelf4 */
+     , (9597,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (9597,  1625,      2)  /* SwiftKillerSelf4 */;

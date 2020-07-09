@@ -46,10 +46,10 @@ VALUES (40631,   1,   33554883) /* Setup */
      , (40631,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40631,  2058,      2) 
-     , (40631,  2080,      2) 
-     , (40631,  2190,      2) 
-     , (40631,  2240,      2) 
-     , (40631,  2572,      2) 
-     , (40631,  2575,      2) 
-     , (40631,  4986,      2) ;
+VALUES (40631,  2058,      2)  /* CoordinationOther7 */
+     , (40631,  2080,      2)  /* QuicknessOther7 */
+     , (40631,  2190,      2)  /* AlchemyMasteryOther7 */
+     , (40631,  2240,      2)  /* HealingMasteryOther7 */
+     , (40631,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (40631,  2575,      2)  /* CANTRIPQUICKNESS2 */
+     , (40631,  4986,      2)  /* AlchemyPercentBoost1 */;

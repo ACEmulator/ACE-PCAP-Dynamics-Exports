@@ -27,6 +27,3 @@ VALUES (2965,   1,   33554826) /* Setup */
      , (2965,   8,  100677008) /* Icon */
      , (2965,  22,  872415275) /* PhysicsEffectTable */
      , (2965,  28,         67) /* Spell - ShockWave4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2965,    67,      2) ;

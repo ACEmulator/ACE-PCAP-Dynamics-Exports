@@ -35,6 +35,3 @@ VALUES (22876,   1,   33554809) /* Setup */
      , (22876,   8,  100673898) /* Icon */
      , (22876,  22,  872415275) /* PhysicsEffectTable */
      , (22876,  28,       1317) /* Spell - ArmorOther6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22876,  1317,      2) ;

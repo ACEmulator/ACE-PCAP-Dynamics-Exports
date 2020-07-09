@@ -27,6 +27,3 @@ VALUES (41299,   1,   33554826) /* Setup */
      , (41299,   8,  100690644) /* Icon */
      , (41299,  22,  872415275) /* PhysicsEffectTable */
      , (41299,  28,       5094) /* Spell - TwoHandedMasteryOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41299,  5094,      2) ;

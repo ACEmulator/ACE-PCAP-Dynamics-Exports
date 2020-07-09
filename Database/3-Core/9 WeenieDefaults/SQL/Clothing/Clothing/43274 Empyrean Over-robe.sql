@@ -53,16 +53,16 @@ VALUES (43274,   1,   33554854) /* Setup */
      , (43274,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43274,  2350,      2) 
-     , (43274,  2351,      2) 
-     , (43274,  2352,      2) 
-     , (43274,  2353,      2) 
-     , (43274,  2623,      2) 
-     , (43274,  2624,      2) 
-     , (43274,  2625,      2) 
-     , (43274,  2960,      2) 
-     , (43274,  2961,      2) 
-     , (43274,  2962,      2) 
-     , (43274,  4059,      2) 
-     , (43274,  4062,      2) 
-     , (43274,  4226,      2) ;
+VALUES (43274,  2350,      2)  /* DecayDurance */
+     , (43274,  2351,      2)  /* ConsumptionDurance */
+     , (43274,  2352,      2)  /* StasisDurance */
+     , (43274,  2353,      2)  /* StimulationDurance */
+     , (43274,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
+     , (43274,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (43274,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */
+     , (43274,  2960,      2)  /* BludgeoningDurance */
+     , (43274,  2961,      2)  /* PiercingDurance */
+     , (43274,  2962,      2)  /* SlashingDurance */
+     , (43274,  4059,      2)  /* EnduranceOtherIncantation */
+     , (43274,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (43274,  4226,      2)  /* CANTRIPENDURANCE3 */;

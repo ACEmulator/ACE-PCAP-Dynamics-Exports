@@ -27,6 +27,3 @@ VALUES (21109,   1,   33554826) /* Setup */
      , (21109,   8,  100676936) /* Icon */
      , (21109,  22,  872415275) /* PhysicsEffectTable */
      , (21109,  28,       2767) /* Spell - StaminaBolt1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21109,  2767,      2) ;

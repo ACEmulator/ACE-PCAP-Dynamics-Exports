@@ -66,6 +66,6 @@ VALUES (22974, 8040, 2847146009, 89.48349, 2.671451, 93.92901, 0.1955348, 0.1955
 /* @teleloc 0xA9B40019 [89.483490 2.671451 93.929010] 0.195535 0.195535 -0.679534 -0.679534 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22974,  1384,      2) 
-     , (22974,  1605,      2) 
-     , (22974,  1616,      2) ;
+VALUES (22974,  1384,      2)  /* CoordinationOther6 */
+     , (22974,  1605,      2)  /* DefenderSelf6 */
+     , (22974,  1616,      2)  /* BloodDrinkerSelf6 */;

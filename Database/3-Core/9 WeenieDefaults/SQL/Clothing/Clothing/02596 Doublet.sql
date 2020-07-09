@@ -52,8 +52,8 @@ VALUES (2596,   1,   33554854) /* Setup */
      , (2596,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2596,   519,      2) 
-     , (2596,  2617,      2) ;
+VALUES (2596,   519,      2)  /* AcidProtectionSelf5 */
+     , (2596,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2596, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */

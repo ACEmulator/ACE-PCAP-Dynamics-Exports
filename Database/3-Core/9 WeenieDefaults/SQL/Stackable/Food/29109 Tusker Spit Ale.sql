@@ -36,6 +36,3 @@ VALUES (29109,   1,   33559128) /* Setup */
      , (29109,  28,       3530) /* Spell - KetnansBoon */
      , (29109,  50,  100687554) /* IconOverlay */
      , (29109,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29109,  3530,      2) ;

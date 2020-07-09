@@ -47,5 +47,4 @@ VALUES (2472,   1,   33554812) /* Setup */
      , (2472,  28,         90) /* Spell - ForceBolt5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2472,    90,      2) 
-     , (2472,   657,      2) ;
+VALUES (2472,   657,      2)  /* ManaMasterySelf5 */;

@@ -50,6 +50,6 @@ VALUES (1518, 8040, 2847146009, 93.71061, 15.43525, 93.9975, -0.3151959, 0, 0, -
 /* @teleloc 0xA9B40019 [93.710610 15.435250 93.997500] -0.315196 0.000000 0.000000 -0.949027 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1518,   242,      2) 
-     , (1518,  1483,      2) 
-     , (1518,  1549,      2) ;
+VALUES (1518,   242,      2)  /* InvulnerabilityOther4 */
+     , (1518,  1483,      2)  /* Impenetrability3 */
+     , (1518,  1549,      2)  /* FlameBane3 */;

@@ -41,7 +41,7 @@ VALUES (34268,   1,   33560550) /* Setup */
      , (34268,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34268,  3312,      2) 
-     , (34268,  3313,      2) 
-     , (34268,  4026,      2) 
-     , (34268,  4027,      2) ;
+VALUES (34268,  3312,      2)  /* LesserFlangeAegis */
+     , (34268,  3313,      2)  /* LesserLanceAegis */
+     , (34268,  4026,      2)  /* HematicVerdure */
+     , (34268,  4027,      2)  /* MessengersStride */;

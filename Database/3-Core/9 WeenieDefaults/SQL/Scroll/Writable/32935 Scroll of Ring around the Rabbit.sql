@@ -27,6 +27,3 @@ VALUES (32935,   1,   33554826) /* Setup */
      , (32935,   8,  100688872) /* Icon */
      , (32935,  22,  872415275) /* PhysicsEffectTable */
      , (32935,  28,       3902) /* Spell - RabbitRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32935,  3902,      2) ;

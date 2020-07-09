@@ -27,6 +27,3 @@ VALUES (3437,   1,   33554826) /* Setup */
      , (3437,   8,  100676466) /* Icon */
      , (3437,  22,  872415275) /* PhysicsEffectTable */
      , (3437,  28,        658) /* Spell - ManaMasterySelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3437,   658,      2) ;

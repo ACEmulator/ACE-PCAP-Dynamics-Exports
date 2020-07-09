@@ -60,5 +60,5 @@ VALUES (20640,   1,   33557857) /* Setup */
      , (20640,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20640,  1615,      2) 
-     , (20640,  1626,      2) ;
+VALUES (20640,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (20640,  1626,      2)  /* SwiftKillerSelf5 */;

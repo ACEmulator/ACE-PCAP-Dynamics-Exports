@@ -59,5 +59,5 @@ VALUES (7771,   1,   33556640) /* Setup */
      , (7771,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7771,  1591,      2) 
-     , (7771,  1614,      2) ;
+VALUES (7771,  1591,      2)  /* HeartSeekerSelf5 */
+     , (7771,  1614,      2)  /* BloodDrinkerSelf4 */;

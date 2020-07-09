@@ -37,6 +37,3 @@ VALUES (37261,   1,   33560546) /* Setup */
      , (37261,   8,  100689861) /* Icon */
      , (37261,  22,  872415275) /* PhysicsEffectTable */
      , (37261,  28,       4280) /* Spell - CoordinationJesterDeck */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37261,  4280,      2) ;

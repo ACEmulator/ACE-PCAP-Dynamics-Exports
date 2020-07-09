@@ -27,6 +27,3 @@ VALUES (9656,   1,   33554826) /* Setup */
      , (9656,   8,  100676944) /* Icon */
      , (9656,  22,  872415275) /* PhysicsEffectTable */
      , (9656,  28,       1678) /* Spell - StaminaToManaSelf3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9656,  1678,      2) ;

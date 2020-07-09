@@ -42,4 +42,4 @@ VALUES (623,   1,   33554688) /* Setup */
      , (623,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (623,  1421,      2) ;
+VALUES (623,  1421,      2)  /* FocusSelf1 */;

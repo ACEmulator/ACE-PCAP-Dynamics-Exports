@@ -41,6 +41,3 @@ VALUES (32359,   1,   33554669) /* Setup */
      , (32359,   8,  100668722) /* Icon */
      , (32359,  22,  872415275) /* PhysicsEffectTable */
      , (32359,  28,       3865) /* Spell - GlendenWoodRecall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32359,  3865,      2) ;

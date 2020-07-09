@@ -60,10 +60,10 @@ VALUES (45107,   1,   33561419) /* Setup */
      , (45107,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45107,  2096,      2) 
-     , (45107,  2116,      2) 
-     , (45107,  2524,      2) 
-     , (45107,  2600,      2) ;
+VALUES (45107,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45107,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45107,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
+     , (45107,  2600,      2)  /* CANTRIPDEFENDER1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45107, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

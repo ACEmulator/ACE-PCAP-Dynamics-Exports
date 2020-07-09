@@ -37,6 +37,3 @@ VALUES (41449,   1,   33554802) /* Setup */
      , (41449,  22,  872415275) /* PhysicsEffectTable */
      , (41449,  28,       5129) /* Spell - AnswerOfLoyaltyStam2 */
      , (41449,  37,         36) /* ItemSkillLimit - Loyalty */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41449,  5129,      2) ;

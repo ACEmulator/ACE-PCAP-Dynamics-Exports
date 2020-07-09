@@ -27,6 +27,3 @@ VALUES (28935,   1,   33554826) /* Setup */
      , (28935,   8,  100676477) /* Icon */
      , (28935,  22,  872415275) /* PhysicsEffectTable */
      , (28935,  28,       3501) /* Spell - ArcanumSalvagingSelf3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28935,  3501,      2) ;

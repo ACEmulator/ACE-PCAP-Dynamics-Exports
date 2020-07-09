@@ -52,5 +52,5 @@ VALUES (27653, 8040, 1925775387, 87.97887, 67.08507, 77.926, -0.5216677, -0.3333
 /* @teleloc 0x72C9001B [87.978870 67.085070 77.926000] -0.521668 -0.333398 0.773841 -0.133712 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27653,  2641,      2) 
-     , (27653,  3242,      2) ;
+VALUES (27653,  2641,      2)  /* ForcetoArms */
+     , (27653,  3242,      2)  /* ChoriziteWeave */;

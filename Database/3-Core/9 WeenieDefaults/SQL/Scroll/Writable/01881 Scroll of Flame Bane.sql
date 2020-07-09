@@ -27,6 +27,3 @@ VALUES (1881,   1,   33554826) /* Setup */
      , (1881,   8,  100676651) /* Icon */
      , (1881,  22,  872415275) /* PhysicsEffectTable */
      , (1881,  28,       1547) /* Spell - FlameBane1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1881,  1547,      2) ;

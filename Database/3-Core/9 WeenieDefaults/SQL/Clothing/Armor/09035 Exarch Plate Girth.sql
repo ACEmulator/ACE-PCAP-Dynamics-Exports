@@ -52,14 +52,14 @@ VALUES (9035, 8040, 3583574079, 182.1911, 147.5183, 374, -0.999929, 0, 0, -0.011
 /* @teleloc 0xD599003F [182.191100 147.518300 374.000000] -0.999929 0.000000 0.000000 -0.011916 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9035,   211,      2) 
-     , (9035,   273,      2) 
-     , (9035,  2349,      2) 
-     , (9035,  2350,      2) 
-     , (9035,  2351,      2) 
-     , (9035,  2352,      2) 
-     , (9035,  2353,      2) 
-     , (9035,  2354,      2) 
-     , (9035,  2355,      2) 
-     , (9035,  2356,      2) 
-     , (9035,  2380,      2) ;
+VALUES (9035,   211,      2)  /* ManaRenewalOther6 */
+     , (9035,   273,      2)  /* MagicResistanceOther6 */
+     , (9035,  2349,      2)  /* HieroWard */
+     , (9035,  2350,      2)  /* DecayDurance */
+     , (9035,  2351,      2)  /* ConsumptionDurance */
+     , (9035,  2352,      2)  /* StasisDurance */
+     , (9035,  2353,      2)  /* StimulationDurance */
+     , (9035,  2354,      2)  /* PiercingDuranceLess */
+     , (9035,  2355,      2)  /* SlashingDuranceLess */
+     , (9035,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9035,  2380,      2)  /* InstrumentalityGrip */;

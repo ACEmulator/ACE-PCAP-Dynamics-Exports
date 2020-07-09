@@ -27,6 +27,3 @@ VALUES (3380,   1,   33554826) /* Setup */
      , (3380,   8,  100676463) /* Icon */
      , (3380,  22,  872415275) /* PhysicsEffectTable */
      , (3380,  28,        943) /* Spell - LockpickIneptitudeOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3380,   943,      2) ;

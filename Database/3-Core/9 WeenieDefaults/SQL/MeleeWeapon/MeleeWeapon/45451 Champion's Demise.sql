@@ -67,10 +67,10 @@ VALUES (45451, 8040, 23855555, 63.63206, -43.57273, 0.4414949, -0.6491779, -0.64
 /* @teleloc 0x016C01C3 [63.632060 -43.572730 0.441495] -0.649178 -0.649178 -0.280300 -0.280300 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45451,  4395,      2) 
-     , (45451,  4405,      2) 
-     , (45451,  4538,      2) 
-     , (45451,  4661,      2) 
-     , (45451,  4663,      2) 
-     , (45451,  4666,      2) 
-     , (45451,  4691,      2) ;
+VALUES (45451,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45451,  4405,      2)  /* HeartSeekerSelf8 */
+     , (45451,  4538,      2)  /* DaggerMasterySelf8 */
+     , (45451,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (45451,  4663,      2)  /* CANTRIPDEFENDER3 */
+     , (45451,  4666,      2)  /* CANTRIPHEARTTHIRST3 */
+     , (45451,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;

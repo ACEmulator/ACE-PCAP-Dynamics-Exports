@@ -45,5 +45,5 @@ VALUES (34706,   1,   33554691) /* Setup */
      , (34706,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34706,  2666,      2) 
-     , (34706,  3982,      2) ;
+VALUES (34706,  2666,      2)  /* EssenceGlutton */
+     , (34706,  3982,      2)  /* RegenerationOtherIncantation */;

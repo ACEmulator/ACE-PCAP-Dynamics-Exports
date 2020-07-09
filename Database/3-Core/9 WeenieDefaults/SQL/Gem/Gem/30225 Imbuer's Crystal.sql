@@ -41,6 +41,3 @@ VALUES (30225,   1,   33554809) /* Setup */
      , (30225,  28,       3722) /* Spell - MagicItemExpertiseRare */
      , (30225,  50,  100686672) /* IconOverlay */
      , (30225,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30225,  3722,      2) ;

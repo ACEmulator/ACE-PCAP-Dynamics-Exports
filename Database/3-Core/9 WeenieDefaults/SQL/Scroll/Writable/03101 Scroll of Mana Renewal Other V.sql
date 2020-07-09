@@ -27,6 +27,3 @@ VALUES (3101,   1,   33554826) /* Setup */
      , (3101,   8,  100676939) /* Icon */
      , (3101,  22,  872415275) /* PhysicsEffectTable */
      , (3101,  28,        210) /* Spell - ManaRenewalOther5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3101,   210,      2) ;

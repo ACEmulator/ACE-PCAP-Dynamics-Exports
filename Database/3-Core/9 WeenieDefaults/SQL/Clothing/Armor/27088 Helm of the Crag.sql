@@ -47,9 +47,9 @@ VALUES (27088,   1,   33557002) /* Setup */
      , (27088,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27088,   883,      2) 
-     , (27088,  1027,      2) 
-     , (27088,  1496,      2) 
-     , (27088,  1526,      2) 
-     , (27088,  1538,      2) 
-     , (27088,  1550,      2) ;
+VALUES (27088,   883,      2)  /* HealingMasteryOther4 */
+     , (27088,  1027,      2)  /* BludgeonProtectionOther4 */
+     , (27088,  1496,      2)  /* AcidBane4 */
+     , (27088,  1526,      2)  /* FrostBane4 */
+     , (27088,  1538,      2)  /* LightningBane4 */
+     , (27088,  1550,      2)  /* FlameBane4 */;

@@ -27,6 +27,3 @@ VALUES (7512,   1,   33554826) /* Setup */
      , (7512,   8,  100677018) /* Icon */
      , (7512,  22,  872415275) /* PhysicsEffectTable */
      , (7512,  28,       1786) /* Spell - ForceRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7512,  1786,      2) ;

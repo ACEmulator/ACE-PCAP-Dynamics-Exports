@@ -56,9 +56,9 @@ VALUES (46133, 8040, 3583574079, 187.5516, 165.1671, 373.93, -0.2820999, -0.2820
 /* @teleloc 0xD599003F [187.551600 165.167100 373.930000] -0.282100 -0.282100 -0.648398 -0.648398 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46133,  2059,      2) 
-     , (46133,  2101,      2) 
-     , (46133,  2149,      2) 
-     , (46133,  2287,      2) 
-     , (46133,  2534,      2) 
-     , (46133,  3259,      2) ;
+VALUES (46133,  2059,      2)  /* CoordinationSelf7 */
+     , (46133,  2101,      2)  /* DefenderSelf7 */
+     , (46133,  2149,      2)  /* AcidProtectionSelf7 */
+     , (46133,  2287,      2)  /* ManaMasterySelf7 */
+     , (46133,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (46133,  3259,      2)  /* SpiritDrinkerSelf7 */;

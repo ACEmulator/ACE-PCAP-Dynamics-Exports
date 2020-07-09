@@ -43,8 +43,7 @@ VALUES (36229,   1,   33560377) /* Setup */
      , (36229,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36229,  2014,      2) 
-     , (36229,  2100,      2) 
-     , (36229,  2248,      2) 
-     , (36229,  2286,      2) 
-     , (36229,  2516,      2) ;
+VALUES (36229,  2014,      2)  /* WizardsUltimateIntellect */
+     , (36229,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
+     , (36229,  2286,      2)  /* ManaMasteryOther7 */
+     , (36229,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */;

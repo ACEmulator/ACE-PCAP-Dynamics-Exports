@@ -56,4 +56,4 @@ VALUES (21433,   1,   33557966) /* Setup */
      , (21433,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21433,   320,      2) ;
+VALUES (21433,   320,      2)  /* DaggerMasteryOther5 */;

@@ -53,10 +53,10 @@ VALUES (25649,   1,   33554883) /* Setup */
      , (25649,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25649,  1486,      2) 
-     , (25649,  1497,      2) 
-     , (25649,  1539,      2) 
-     , (25649,  1573,      2) ;
+VALUES (25649,  1486,      2)  /* Impenetrability6 */
+     , (25649,  1497,      2)  /* AcidBane5 */
+     , (25649,  1539,      2)  /* LightningBane5 */
+     , (25649,  1573,      2)  /* PiercingBane5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25649, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;

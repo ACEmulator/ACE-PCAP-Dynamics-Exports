@@ -47,5 +47,5 @@ VALUES (26499,   1,   33558591) /* Setup */
      , (26499,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26499,  3048,      2) 
-     , (26499,  3049,      2) ;
+VALUES (26499,  3048,      2)  /* MinorBenedictionImmortality */
+     , (26499,  3049,      2)  /* MinorClosingGreatDivide */;

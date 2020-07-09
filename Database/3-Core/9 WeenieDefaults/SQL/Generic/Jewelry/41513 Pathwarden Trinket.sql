@@ -33,4 +33,4 @@ VALUES (41513,   1,   33554809) /* Setup */
      , (41513,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41513,  5154,      2) ;
+VALUES (41513,  5154,      2)  /* TrinketXPBoost2 */;

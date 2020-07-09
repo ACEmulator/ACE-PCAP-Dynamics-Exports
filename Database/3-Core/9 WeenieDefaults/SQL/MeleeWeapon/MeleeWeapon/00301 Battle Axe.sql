@@ -66,5 +66,5 @@ VALUES (301, 8040, 3465871682, 155.2554, 30.84464, 19.929, -0.06593028, -0.06593
 /* @teleloc 0xCE950142 [155.255400 30.844640 19.929000] -0.065930 -0.065930 -0.704026 -0.704026 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (301,  1331,      2) 
-     , (301,  1615,      2) ;
+VALUES (301,  1331,      2)  /* StrengthSelf5 */
+     , (301,  1615,      2)  /* BloodDrinkerSelf5 */;

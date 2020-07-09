@@ -51,9 +51,9 @@ VALUES (121,   1,   33554648) /* Setup */
      , (121,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (121,  1486,      2) 
-     , (121,  2098,      2) 
-     , (121,  2237,      2) ;
+VALUES (121,  1486,      2)  /* Impenetrability6 */
+     , (121,  2098,      2)  /* BludgeonBane7 */
+     , (121,  2237,      2)  /* FletchingMasterySelf7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (121, 2, 33080,  1, 0, 0, False) /* Create Shadow Blade (33080) for Wield */

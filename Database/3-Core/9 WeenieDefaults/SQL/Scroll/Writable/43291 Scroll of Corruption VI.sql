@@ -27,6 +27,3 @@ VALUES (43291,   1,   33554826) /* Setup */
      , (43291,   8,  100691573) /* Icon */
      , (43291,  22,  872415275) /* PhysicsEffectTable */
      , (43291,  28,       5400) /* Spell - Corruption6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43291,  5400,      2) ;

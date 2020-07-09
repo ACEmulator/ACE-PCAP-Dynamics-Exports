@@ -45,9 +45,9 @@ VALUES (22015,   1,   33558081) /* Setup */
      , (22015,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22015,   249,      2) 
-     , (22015,   327,      2) 
-     , (22015,   681,      2) 
-     , (22015,  1312,      2) 
-     , (22015,  1484,      2) 
-     , (22015,  2544,      2) ;
+VALUES (22015,   249,      2)  /* InvulnerabilitySelf6 */
+     , (22015,   327,      2)  /* DaggerMasterySelf6 */
+     , (22015,   681,      2)  /* ArcaneEnlightenmentSelf4 */
+     , (22015,  1312,      2)  /* ArmorSelf6 */
+     , (22015,  1484,      2)  /* Impenetrability4 */
+     , (22015,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */;

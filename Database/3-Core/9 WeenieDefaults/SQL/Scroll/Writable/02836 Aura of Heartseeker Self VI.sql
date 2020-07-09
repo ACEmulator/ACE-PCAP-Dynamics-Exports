@@ -27,6 +27,3 @@ VALUES (2836,   1,   33554826) /* Setup */
      , (2836,   8,  100676660) /* Icon */
      , (2836,  22,  872415275) /* PhysicsEffectTable */
      , (2836,  28,       1592) /* Spell - HeartSeekerSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2836,  1592,      2) ;

@@ -49,5 +49,5 @@ VALUES (11362,   1,   33554854) /* Setup */
      , (11362,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11362,   902,      2) 
-     , (11362,  2013,      2) ;
+VALUES (11362,   902,      2)  /* LeadershipMasterySelf5 */
+     , (11362,  2013,      2)  /* WizardsGreaterIntellect */;

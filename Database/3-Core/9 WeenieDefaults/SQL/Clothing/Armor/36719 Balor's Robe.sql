@@ -46,6 +46,6 @@ VALUES (36719,   1,   33554854) /* Setup */
      , (36719,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36719,  2155,      2) 
-     , (36719,  2619,      2) 
-     , (36719,  4018,      2) ;
+VALUES (36719,  2155,      2)  /* ColdProtectionSelf7 */
+     , (36719,  2619,      2)  /* CANTRIPFROSTWARD1 */
+     , (36719,  4018,      2)  /* Permafrost */;

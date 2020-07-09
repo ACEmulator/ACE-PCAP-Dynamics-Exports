@@ -27,6 +27,3 @@ VALUES (1555,   1,   33554826) /* Setup */
      , (1555,   8,  100676931) /* Icon */
      , (1555,  22,  872415275) /* PhysicsEffectTable */
      , (1555,  28,          5) /* Spell - HealOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1555,     5,      2) ;

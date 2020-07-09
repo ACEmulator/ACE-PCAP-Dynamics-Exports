@@ -27,6 +27,3 @@ VALUES (7515,   1,   33554826) /* Setup */
      , (7515,   8,  100677010) /* Icon */
      , (7515,  22,  872415275) /* PhysicsEffectTable */
      , (7515,  28,       1789) /* Spell - ShockwaveRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7515,  1789,      2) ;

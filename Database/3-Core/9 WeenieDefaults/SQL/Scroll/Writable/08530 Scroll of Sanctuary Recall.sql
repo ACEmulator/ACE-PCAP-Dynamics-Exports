@@ -29,6 +29,3 @@ VALUES (8530,   1,   33554826) /* Setup */
      , (8530,   8,  100669876) /* Icon */
      , (8530,  22,  872415275) /* PhysicsEffectTable */
      , (8530,  28,       2023) /* Spell - SanctuaryRecall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8530,  2023,      2) ;

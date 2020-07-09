@@ -57,5 +57,5 @@ VALUES (21023, 8040, 23855554, 58.12363, -28.59009, -0.07000001, -0.222214, 0, 0
 /* @teleloc 0x016C01C2 [58.123630 -28.590090 -0.070000] -0.222214 0.000000 0.000000 -0.974998 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21023,  1312,      2) 
-     , (21023,  2687,      2) ;
+VALUES (21023,  1312,      2)  /* ArmorSelf6 */
+     , (21023,  2687,      2)  /* ModerateBowAptitude */;

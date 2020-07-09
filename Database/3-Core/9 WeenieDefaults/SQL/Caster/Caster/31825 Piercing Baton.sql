@@ -52,9 +52,9 @@ VALUES (31825,   1,   33559698) /* Setup */
      , (31825,  28,         69) /* Spell - ShockWave6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31825,  2091,      2) 
-     , (31825,  2117,      2) 
-     , (31825,  2132,      2) ;
+VALUES (31825,  2091,      2)  /* WillpowerSelf7 */
+     , (31825,  2117,      2)  /* HermeticLinkSelf7 */
+     , (31825,  2132,      2)  /* ForceBolt7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31825, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

@@ -36,5 +36,5 @@ VALUES (7300,   1,   33554691) /* Setup */
      , (7300,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7300,   278,      2) 
-     , (7300,  1070,      2) ;
+VALUES (7300,   278,      2)  /* MagicResistanceSelf5 */
+     , (7300,  1070,      2)  /* LightningProtectionSelf5 */;

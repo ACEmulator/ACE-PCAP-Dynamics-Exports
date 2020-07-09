@@ -60,7 +60,7 @@ VALUES (45408,   1,   33555812) /* Setup */
      , (45408,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45408,  1616,      2) 
-     , (45408,  2535,      2) 
-     , (45408,  2582,      2) 
-     , (45408,  5879,      2) ;
+VALUES (45408,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (45408,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */
+     , (45408,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (45408,  5879,      2)  /* SneakAttackMasterySelf5 */;

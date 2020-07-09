@@ -52,8 +52,7 @@ VALUES (53332, 8040, 3583639609, 176.975, 1.21, 373.4256, -3.090862E-08, -3.0908
 /* @teleloc 0xD59A0039 [176.975000 1.210000 373.425600] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53332,  4602,      2) 
-     , (53332,  5418,      2) 
-     , (53332,  6074,      2) 
-     , (53332,  6087,      2) 
-     , (53332,  6320,      2) ;
+VALUES (53332,  4602,      2)  /* ManaMasterySelf8 */
+     , (53332,  5418,      2)  /* VoidMagicMasterySelf8 */
+     , (53332,  6074,      2)  /* CantripVoidMagicAptitude4 */
+     , (53332,  6087,      2)  /* CantripHermeticLink4 */;

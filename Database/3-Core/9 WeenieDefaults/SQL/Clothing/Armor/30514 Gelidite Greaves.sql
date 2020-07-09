@@ -56,6 +56,6 @@ VALUES (30514,   1,   33559430) /* Setup */
      , (30514,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30514,  4407,      2) 
-     , (30514,  4682,      2) 
-     , (30514,  4696,      2) ;
+VALUES (30514,  4407,      2)  /* Impenetrability8 */
+     , (30514,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
+     , (30514,  4696,      2)  /* CANTRIPINVULNERABILITY3 */;

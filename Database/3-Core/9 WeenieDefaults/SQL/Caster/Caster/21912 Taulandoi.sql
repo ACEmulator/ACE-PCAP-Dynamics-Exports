@@ -49,9 +49,8 @@ VALUES (21912, 8040, 23855554, 58.3281, -34.12574, -0.071, -0.6051177, -0.605117
 /* @teleloc 0x016C01C2 [58.328100 -34.125740 -0.071000] -0.605118 -0.605118 -0.365831 -0.365831 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21912,   640,      2) 
-     , (21912,   664,      2) 
-     , (21912,  2581,      2) 
-     , (21912,  2584,      2) 
-     , (21912,  2783,      2) 
-     , (21912,  2812,      2) ;
+VALUES (21912,   640,      2)  /* WarMagicMasteryOther6 */
+     , (21912,   664,      2)  /* ManaMasteryOther6 */
+     , (21912,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (21912,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (21912,  2812,      2)  /* ModerateWarMagicAptitude */;

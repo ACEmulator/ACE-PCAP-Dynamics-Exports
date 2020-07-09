@@ -38,6 +38,6 @@ VALUES (28395,   1,   33558878) /* Setup */
      , (28395,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28395,  2280,      2) 
-     , (28395,  3378,      2) 
-     , (28395,  3404,      2) ;
+VALUES (28395,  2280,      2)  /* MagicResistanceOther7 */
+     , (28395,  3378,      2)  /* VisionBeyondTheGrave */
+     , (28395,  3404,      2)  /* EvilThirst */;

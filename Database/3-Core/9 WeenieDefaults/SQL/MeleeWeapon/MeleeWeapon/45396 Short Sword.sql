@@ -58,6 +58,6 @@ VALUES (45396,   1,   33554760) /* Setup */
      , (45396,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45396,  1375,      2) 
-     , (45396,  1614,      2) 
-     , (45396,  2556,      2) ;
+VALUES (45396,  1375,      2)  /* CoordinationSelf3 */
+     , (45396,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (45396,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */;

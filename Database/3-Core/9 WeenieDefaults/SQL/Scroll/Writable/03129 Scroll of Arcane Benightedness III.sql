@@ -27,6 +27,3 @@ VALUES (3129,   1,   33554826) /* Setup */
      , (3129,   8,  100676447) /* Icon */
      , (3129,  22,  872415275) /* PhysicsEffectTable */
      , (3129,  28,        698) /* Spell - ArcaneBenightednessOther3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3129,   698,      2) ;

@@ -40,6 +40,3 @@ VALUES (43478,   1,   33554809) /* Setup */
      , (43478,  28,       5451) /* Spell - LuminanceRewardHealthRaising */
      , (43478,  50,  100686655) /* IconOverlay */
      , (43478,  52,  100691593) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43478,  5451,      2) ;

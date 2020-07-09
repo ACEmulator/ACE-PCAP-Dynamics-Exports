@@ -27,6 +27,3 @@ VALUES (20509,   1,   33554826) /* Setup */
      , (20509,   8,  100676450) /* Icon */
      , (20509,  22,  872415275) /* PhysicsEffectTable */
      , (20509,  28,       2207) /* Spell - BowMasterySelf7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20509,  2207,      2) ;

@@ -41,6 +41,3 @@ VALUES (30237,   1,   33554809) /* Setup */
      , (30237,  28,       3735) /* Spell - SpiritDrinkerRare */
      , (30237,  50,  100686685) /* IconOverlay */
      , (30237,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30237,  3735,      2) ;

@@ -27,6 +27,3 @@ VALUES (3096,   1,   33554826) /* Setup */
      , (3096,   8,  100676939) /* Icon */
      , (3096,  22,  872415275) /* PhysicsEffectTable */
      , (3096,  28,        222) /* Spell - ManaDepletionOther5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3096,   222,      2) ;

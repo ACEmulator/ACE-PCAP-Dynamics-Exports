@@ -51,10 +51,10 @@ VALUES (12158, 8040, 23855548, 54.86937, -27.72197, -0.071, -0.1979983, -0.19799
 /* @teleloc 0x016C01BC [54.869370 -27.721970 -0.071000] -0.197998 -0.197998 -0.678820 -0.678820 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12158,  2067,      2) 
-     , (12158,  2091,      2) 
-     , (12158,  2214,      2) 
-     , (12158,  2266,      2) 
-     , (12158,  2287,      2) 
-     , (12158,  2507,      2) 
-     , (12158,  2520,      2) ;
+VALUES (12158,  2067,      2)  /* FocusSelf7 */
+     , (12158,  2091,      2)  /* WillpowerSelf7 */
+     , (12158,  2214,      2)  /* CreatureEnchantmentMasteryOther7 */
+     , (12158,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (12158,  2287,      2)  /* ManaMasterySelf7 */
+     , (12158,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (12158,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */;

@@ -52,6 +52,5 @@ VALUES (46943,   1,   33557963) /* Setup */
      , (46943,  28,       2783) /* Spell - LesserElementalFuryFrost */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46943,  2783,      2) 
-     , (46943,  4637,      2) 
-     , (46943,  4715,      2) ;
+VALUES (46943,  4637,      2)  /* WarMagicMasteryOther8 */
+     , (46943,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;

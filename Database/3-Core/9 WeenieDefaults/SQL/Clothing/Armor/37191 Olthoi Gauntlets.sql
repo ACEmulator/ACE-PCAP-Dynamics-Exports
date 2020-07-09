@@ -63,8 +63,8 @@ VALUES (37191,   1,   33554648) /* Setup */
      , (37191,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37191,  2092,      2) 
-     , (37191,  2102,      2) 
-     , (37191,  2223,      2) 
-     , (37191,  4407,      2) 
-     , (37191,  6079,      2) ;
+VALUES (37191,  2092,      2)  /* AcidBane7 */
+     , (37191,  2102,      2)  /* FlameBane7 */
+     , (37191,  2223,      2)  /* DaggerMasterySelf7 */
+     , (37191,  4407,      2)  /* Impenetrability8 */
+     , (37191,  6079,      2)  /* CantripStormWard4 */;

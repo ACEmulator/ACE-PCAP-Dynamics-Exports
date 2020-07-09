@@ -47,9 +47,9 @@ VALUES (29541,   1,   33554856) /* Setup */
      , (29541,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29541,   568,      2) 
-     , (29541,   592,      2) 
-     , (29541,   616,      2) 
-     , (29541,   640,      2) 
-     , (29541,  2108,      2) 
-     , (29541,  3573,      2) ;
+VALUES (29541,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (29541,   592,      2)  /* ItemEnchantmentMasteryOther6 */
+     , (29541,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (29541,   640,      2)  /* WarMagicMasteryOther6 */
+     , (29541,  2108,      2)  /* Impenetrability7 */
+     , (29541,  3573,      2)  /* InnerMight */;

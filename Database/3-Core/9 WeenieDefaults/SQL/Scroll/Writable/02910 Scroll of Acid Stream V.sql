@@ -27,6 +27,3 @@ VALUES (2910,   1,   33554826) /* Setup */
      , (2910,   8,  100677026) /* Icon */
      , (2910,  22,  872415275) /* PhysicsEffectTable */
      , (2910,  28,         62) /* Spell - AcidStream5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2910,    62,      2) ;

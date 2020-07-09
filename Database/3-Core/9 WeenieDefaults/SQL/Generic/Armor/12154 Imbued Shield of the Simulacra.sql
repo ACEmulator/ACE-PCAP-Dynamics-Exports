@@ -59,11 +59,11 @@ VALUES (12154, 8040, 459077, 70.0605, -80.0325, -0.07400001, 0.403672, 0.64903, 
 /* @teleloc 0x00070145 [70.060500 -80.032500 -0.074000] 0.403672 0.649030 -0.537349 0.356462 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12154,  2053,      2) 
-     , (12154,  2059,      2) 
-     , (12154,  2087,      2) 
-     , (12154,  2108,      2) 
-     , (12154,  2592,      2) 
-     , (12154,  5849,      2) 
-     , (12154,  5873,      2) 
-     , (12154,  5892,      2) ;
+VALUES (12154,  2053,      2)  /* ArmorSelf7 */
+     , (12154,  2059,      2)  /* CoordinationSelf7 */
+     , (12154,  2087,      2)  /* StrengthSelf7 */
+     , (12154,  2108,      2)  /* Impenetrability7 */
+     , (12154,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (12154,  5849,      2)  /* ShieldMasteryOther7 */
+     , (12154,  5873,      2)  /* SneakAttackMasteryOther7 */
+     , (12154,  5892,      2)  /* CantripSneakAttackProwess2 */;

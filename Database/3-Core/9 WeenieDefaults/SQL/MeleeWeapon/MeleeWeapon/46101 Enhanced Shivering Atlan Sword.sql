@@ -58,11 +58,11 @@ VALUES (46101,   1,   33556385) /* Setup */
      , (46101,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46101,  2081,      2) 
-     , (46101,  2096,      2) 
-     , (46101,  2101,      2) 
-     , (46101,  2106,      2) 
-     , (46101,  2116,      2) 
-     , (46101,  2155,      2) 
-     , (46101,  2531,      2) 
-     , (46101,  2586,      2) ;
+VALUES (46101,  2081,      2)  /* QuicknessSelf7 */
+     , (46101,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46101,  2101,      2)  /* DefenderSelf7 */
+     , (46101,  2106,      2)  /* HeartSeekerSelf7 */
+     , (46101,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46101,  2155,      2)  /* ColdProtectionSelf7 */
+     , (46101,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (46101,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;

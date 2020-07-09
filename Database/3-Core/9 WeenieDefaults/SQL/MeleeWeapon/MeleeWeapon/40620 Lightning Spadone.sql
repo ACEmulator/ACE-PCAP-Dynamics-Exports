@@ -60,7 +60,7 @@ VALUES (40620,   1,   33560722) /* Setup */
      , (40620,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40620,  1592,      2) 
-     , (40620,  2096,      2) 
-     , (40620,  5880,      2) 
-     , (40620,  5887,      2) ;
+VALUES (40620,  1592,      2)  /* HeartSeekerSelf6 */
+     , (40620,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (40620,  5880,      2)  /* SneakAttackMasterySelf6 */
+     , (40620,  5887,      2)  /* CantripSneakAttackProwess1 */;

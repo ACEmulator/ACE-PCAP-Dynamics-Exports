@@ -32,6 +32,3 @@ VALUES (7316,   1,   33554809) /* Setup */
      , (7316,   8,  100670731) /* Icon */
      , (7316,  22,  872415275) /* PhysicsEffectTable */
      , (7316,  28,       2645) /* Spell - PortalRecall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7316,  2645,      2) ;

@@ -63,8 +63,8 @@ VALUES (359, 8040, 3332964642, 31.9969, 82.953, 41.929, 0.08975437, 0.08975437, 
 /* @teleloc 0xC6A90122 [31.996900 82.953000 41.929000] 0.089754 0.089754 -0.701387 -0.701387 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (359,  1591,      2) 
-     , (359,  1615,      2) ;
+VALUES (359,  1591,      2)  /* HeartSeekerSelf5 */
+     , (359,  1615,      2)  /* BloodDrinkerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (359, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

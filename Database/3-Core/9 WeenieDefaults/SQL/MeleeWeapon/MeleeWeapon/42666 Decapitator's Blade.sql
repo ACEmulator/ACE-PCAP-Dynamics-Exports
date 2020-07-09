@@ -62,10 +62,10 @@ VALUES (42666,   1,   33561148) /* Setup */
      , (42666,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42666,  4395,      2) 
-     , (42666,  4400,      2) 
-     , (42666,  4405,      2) 
-     , (42666,  4417,      2) 
-     , (42666,  4661,      2) 
-     , (42666,  4675,      2) 
-     , (42666,  5034,      2) ;
+VALUES (42666,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (42666,  4400,      2)  /* DefenderSelf8 */
+     , (42666,  4405,      2)  /* HeartSeekerSelf8 */
+     , (42666,  4417,      2)  /* SwiftKillerSelf8 */
+     , (42666,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (42666,  4675,      2)  /* CANTRIPFLAMEWARD3 */
+     , (42666,  5034,      2)  /* CANTRIPTWOHANDEDAPTITUDE3 */;

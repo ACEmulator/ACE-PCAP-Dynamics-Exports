@@ -62,10 +62,9 @@ VALUES (37478, 8040, 19005708, 30.025, -60, 5.929, 0.7071068, 0.7071068, 0, 0) /
 /* @teleloc 0x0122010C [30.025000 -60.000000 5.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37478,  2101,      2) 
-     , (37478,  2117,      2) 
-     , (37478,  2132,      2) 
-     , (37478,  2534,      2) 
-     , (37478,  2581,      2) 
-     , (37478,  2584,      2) 
-     , (37478,  3259,      2) ;
+VALUES (37478,  2101,      2)  /* DefenderSelf7 */
+     , (37478,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37478,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (37478,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (37478,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (37478,  3259,      2)  /* SpiritDrinkerSelf7 */;

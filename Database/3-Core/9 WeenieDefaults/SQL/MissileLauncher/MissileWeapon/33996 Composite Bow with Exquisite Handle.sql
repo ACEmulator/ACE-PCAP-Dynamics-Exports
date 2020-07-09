@@ -63,13 +63,12 @@ VALUES (33996, 8040, 3465871413, 158.8985, 96.1503, 19.93, -0.293739, 0, 0, -0.9
 /* @teleloc 0xCE950035 [158.898500 96.150300 19.930000] -0.293739 0.000000 0.000000 -0.955886 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33996,  2058,      2) 
-     , (33996,  2096,      2) 
-     , (33996,  2100,      2) 
-     , (33996,  2101,      2) 
-     , (33996,  2116,      2) 
-     , (33996,  2206,      2) 
-     , (33996,  2244,      2) 
-     , (33996,  2280,      2) 
-     , (33996,  2505,      2) 
-     , (33996,  2572,      2) ;
+VALUES (33996,  2058,      2)  /* CoordinationOther7 */
+     , (33996,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33996,  2101,      2)  /* DefenderSelf7 */
+     , (33996,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33996,  2206,      2)  /* BowMasteryOther7 */
+     , (33996,  2244,      2)  /* InvulnerabilityOther7 */
+     , (33996,  2280,      2)  /* MagicResistanceOther7 */
+     , (33996,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+     , (33996,  2572,      2)  /* CANTRIPCOORDINATION2 */;

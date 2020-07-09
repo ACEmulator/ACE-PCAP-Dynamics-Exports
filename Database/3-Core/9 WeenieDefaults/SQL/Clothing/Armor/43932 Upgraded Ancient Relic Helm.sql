@@ -50,7 +50,7 @@ VALUES (43932, 8040, 3583574079, 172.099, 152.1563, 374.0303, 0.8905933, 0, 0, -
 /* @teleloc 0xD599003F [172.099000 152.156300 374.030300] 0.890593 0.000000 0.000000 -0.454801 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43932,  2574,      2) 
-     , (43932,  2614,      2) 
-     , (43932,  3094,      2) 
-     , (43932,  3154,      2) ;
+VALUES (43932,  2574,      2)  /* CANTRIPFOCUS2 */
+     , (43932,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
+     , (43932,  3094,      2)  /* SkinFiazhat */
+     , (43932,  3154,      2)  /* ScytheAegis */;

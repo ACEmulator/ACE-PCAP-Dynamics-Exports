@@ -50,7 +50,7 @@ VALUES (6004,   1,   33554856) /* Setup */
      , (6004,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6004,  1485,      2) ;
+VALUES (6004,  1485,      2)  /* Impenetrability5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (6004, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */

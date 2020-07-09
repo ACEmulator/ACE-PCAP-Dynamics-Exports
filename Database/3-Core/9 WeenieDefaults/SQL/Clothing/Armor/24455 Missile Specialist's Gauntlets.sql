@@ -47,6 +47,6 @@ VALUES (24455,   1,   33554648) /* Setup */
      , (24455,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24455,  1384,      2) 
-     , (24455,  1485,      2) 
-     , (24455,  2687,      2) ;
+VALUES (24455,  1384,      2)  /* CoordinationOther6 */
+     , (24455,  1485,      2)  /* Impenetrability5 */
+     , (24455,  2687,      2)  /* ModerateBowAptitude */;

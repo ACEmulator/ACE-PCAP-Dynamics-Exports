@@ -39,6 +39,3 @@ VALUES (41256,   1,   33554809) /* Setup */
      , (41256,  28,       3714) /* Spell - ItemExpertiseRare */
      , (41256,  50,  100686661) /* IconOverlay */
      , (41256,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41256,  3714,      2) ;

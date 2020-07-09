@@ -50,8 +50,8 @@ VALUES (27650, 8040, 23855554, 55.85811, -33.74102, -0.071, -0.1173266, -0.11732
 /* @teleloc 0x016C01C2 [55.858110 -33.741020 -0.071000] -0.117327 -0.117327 -0.697305 -0.697305 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27650,   568,      2) 
-     , (27650,   616,      2) 
-     , (27650,   664,      2) 
-     , (27650,  3237,      2) 
-     , (27650,  3243,      2) ;
+VALUES (27650,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (27650,   616,      2)  /* LifeMagicMasteryOther6 */
+     , (27650,   664,      2)  /* ManaMasteryOther6 */
+     , (27650,  3237,      2)  /* Fanaticism */
+     , (27650,  3243,      2)  /* Consecration */;

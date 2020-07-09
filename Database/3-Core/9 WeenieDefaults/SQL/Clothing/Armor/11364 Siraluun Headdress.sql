@@ -47,10 +47,10 @@ VALUES (11364,   1,   33557288) /* Setup */
      , (11364,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11364,   278,      2) 
-     , (11364,   706,      2) 
-     , (11364,   730,      2) 
-     , (11364,   754,      2) 
-     , (11364,   778,      2) 
-     , (11364,   802,      2) 
-     , (11364,   828,      2) ;
+VALUES (11364,   278,      2)  /* MagicResistanceSelf5 */
+     , (11364,   706,      2)  /* ArmorExpertiseSelf5 */
+     , (11364,   730,      2)  /* ItemExpertiseSelf5 */
+     , (11364,   754,      2)  /* MagicItemExpertiseSelf5 */
+     , (11364,   778,      2)  /* WeaponExpertiseSelf5 */
+     , (11364,   802,      2)  /* MonsterAttunementSelf5 */
+     , (11364,   828,      2)  /* PersonAttunementSelf5 */;

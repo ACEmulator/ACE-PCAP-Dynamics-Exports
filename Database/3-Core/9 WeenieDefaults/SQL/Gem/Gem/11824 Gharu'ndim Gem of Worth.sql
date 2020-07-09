@@ -30,6 +30,3 @@ VALUES (11824,   1,   33554809) /* Setup */
      , (11824,   8,  100672150) /* Icon */
      , (11824,  22,  872415275) /* PhysicsEffectTable */
      , (11824,  28,       2480) /* Spell - PORTALTUMEROKWARGHA */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11824,  2480,      2) ;

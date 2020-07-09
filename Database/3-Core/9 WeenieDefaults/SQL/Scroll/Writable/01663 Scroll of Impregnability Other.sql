@@ -27,6 +27,3 @@ VALUES (1663,   1,   33554826) /* Setup */
      , (1663,   8,  100676468) /* Icon */
      , (1663,  22,  872415275) /* PhysicsEffectTable */
      , (1663,  28,        250) /* Spell - ImpregnabilityOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1663,   250,      2) ;

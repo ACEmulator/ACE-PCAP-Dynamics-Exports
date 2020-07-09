@@ -70,10 +70,10 @@ VALUES (31802, 8040, 43058012, 209.0277, -158.0044, -0.07000001, -0.001195598, 0
 /* @teleloc 0x0291035C [209.027700 -158.004400 -0.070000] -0.001196 0.000000 0.000000 -0.999999 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31802,  2116,      2) 
-     , (31802,  4395,      2) 
-     , (31802,  4661,      2) 
-     , (31802,  5784,      2) ;
+VALUES (31802,  2116,      2)  /* SwiftKillerSelf7 */
+     , (31802,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (31802,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (31802,  5784,      2)  /* DirtyFightingMasterySelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31802, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

@@ -51,7 +51,7 @@ VALUES (31322,   1,   33554856) /* Setup */
      , (31322,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31322,  1312,      2) 
-     , (31322,  2257,      2) 
-     , (31322,  2301,      2) 
-     , (31322,  2621,      2) ;
+VALUES (31322,  1312,      2)  /* ArmorSelf6 */
+     , (31322,  2257,      2)  /* JumpingMasterySelf7 */
+     , (31322,  2301,      2)  /* SprintSelf7 */
+     , (31322,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;

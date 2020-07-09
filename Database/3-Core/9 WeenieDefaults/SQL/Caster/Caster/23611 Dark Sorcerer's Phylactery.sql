@@ -44,8 +44,8 @@ VALUES (23611, 8040, 3281977363, 57.80382, 54.91278, 7.928999, 0.6613148, 0.6613
 /* @teleloc 0xC39F0013 [57.803820 54.912780 7.928999] 0.661315 0.661315 -0.250325 -0.250325 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23611,   585,      2) 
-     , (23611,   609,      2) 
-     , (23611,   658,      2) 
-     , (23611,  2014,      2) 
-     , (23611,  2584,      2) ;
+VALUES (23611,   585,      2)  /* ItemEnchantmentMasterySelf5 */
+     , (23611,   609,      2)  /* LifeMagicMasterySelf5 */
+     , (23611,   658,      2)  /* ManaMasterySelf6 */
+     , (23611,  2014,      2)  /* WizardsUltimateIntellect */
+     , (23611,  2584,      2)  /* CANTRIPWILLPOWER1 */;

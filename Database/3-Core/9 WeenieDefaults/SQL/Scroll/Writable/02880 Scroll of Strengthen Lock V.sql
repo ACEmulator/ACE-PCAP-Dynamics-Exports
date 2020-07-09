@@ -28,8 +28,5 @@ VALUES (2880,   1,   33554826) /* Setup */
      , (2880,  22,  872415275) /* PhysicsEffectTable */
      , (2880,  28,       1579) /* Spell - StrengthenLock5 */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2880,  1579,      2) ;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2880, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */;

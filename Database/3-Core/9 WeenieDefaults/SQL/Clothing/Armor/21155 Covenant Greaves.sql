@@ -55,11 +55,11 @@ VALUES (21155,   1,   33554641) /* Setup */
      , (21155,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21155,  2092,      2) 
-     , (21155,  2094,      2) 
-     , (21155,  2108,      2) 
-     , (21155,  2113,      2) 
-     , (21155,  2538,      2) ;
+VALUES (21155,  2092,      2)  /* AcidBane7 */
+     , (21155,  2094,      2)  /* BladeBane7 */
+     , (21155,  2108,      2)  /* Impenetrability7 */
+     , (21155,  2113,      2)  /* PiercingBane7 */
+     , (21155,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21155, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

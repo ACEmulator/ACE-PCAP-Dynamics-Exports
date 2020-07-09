@@ -35,6 +35,3 @@ VALUES (11139,   1,   33557217) /* Setup */
      , (11139,   8,  100671978) /* Icon */
      , (11139,  22,  872415275) /* PhysicsEffectTable */
      , (11139,  28,       2432) /* Spell - AcidWard */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11139,  2432,      2) ;

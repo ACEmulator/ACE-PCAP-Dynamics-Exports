@@ -32,6 +32,3 @@ VALUES (48707,   1,   33554667) /* Setup */
      , (48707,   8,  100667432) /* Icon */
      , (48707,  22,  872415275) /* PhysicsEffectTable */
      , (48707,  28,       6038) /* Spell - CiderStamina */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48707,  6038,      2) ;

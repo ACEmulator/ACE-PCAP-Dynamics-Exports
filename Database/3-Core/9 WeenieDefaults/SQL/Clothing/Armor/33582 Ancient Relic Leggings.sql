@@ -51,9 +51,9 @@ VALUES (33582, 8040, 3332898829, 47.89176, 107.1988, 41.9975, 0.979987, 0, 0, -0
 /* @teleloc 0xC6A8000D [47.891760 107.198800 41.997500] 0.979987 0.000000 0.000000 -0.199061 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33582,  2616,      2) 
-     , (33582,  2618,      2) 
-     , (33582,  2659,      2) 
-     , (33582,  3094,      2) 
-     , (33582,  3432,      2) 
-     , (33582,  3746,      2) ;
+VALUES (33582,  2616,      2)  /* CANTRIPACIDWARD1 */
+     , (33582,  2618,      2)  /* CANTRIPFLAMEWARD1 */
+     , (33582,  2659,      2)  /* ModerateCoordination */
+     , (33582,  3094,      2)  /* SkinFiazhat */
+     , (33582,  3432,      2)  /* ScourgeAegis */
+     , (33582,  3746,      2)  /* InfernoAegis */;

@@ -75,9 +75,9 @@ VALUES (37579, 8040, 1481638216, 43.82192, -6.842435, 5.93, 0.9432507, 0, 0, -0.
 /* @teleloc 0x58500148 [43.821920 -6.842435 5.930000] 0.943251 0.000000 0.000000 -0.332082 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37579,  2096,      2) 
-     , (37579,  2101,      2) 
-     , (37579,  2116,      2) 
-     , (37579,  2505,      2) 
-     , (37579,  2579,      2) 
-     , (37579,  2582,      2) ;
+VALUES (37579,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37579,  2101,      2)  /* DefenderSelf7 */
+     , (37579,  2116,      2)  /* SwiftKillerSelf7 */
+     , (37579,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+     , (37579,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (37579,  2582,      2)  /* CANTRIPQUICKNESS1 */;

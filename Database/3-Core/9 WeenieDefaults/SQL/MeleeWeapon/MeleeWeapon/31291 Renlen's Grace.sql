@@ -50,7 +50,7 @@ VALUES (31291,   1,   33559610) /* Setup */
      , (31291,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31291,   248,      2) 
-     , (31291,   260,      2) 
-     , (31291,   278,      2) 
-     , (31291,  2544,      2) ;
+VALUES (31291,   248,      2)  /* InvulnerabilitySelf5 */
+     , (31291,   260,      2)  /* ImpregnabilitySelf5 */
+     , (31291,   278,      2)  /* MagicResistanceSelf5 */
+     , (31291,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */;

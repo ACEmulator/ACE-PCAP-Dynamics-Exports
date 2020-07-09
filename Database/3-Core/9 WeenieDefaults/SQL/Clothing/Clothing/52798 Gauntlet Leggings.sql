@@ -52,5 +52,5 @@ VALUES (52798,   1,   33554653) /* Setup */
      , (52798,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52798,  2592,      2) 
-     , (52798,  6106,      2) ;
+VALUES (52798,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (52798,  6106,      2)  /* CantripQuickness4 */;

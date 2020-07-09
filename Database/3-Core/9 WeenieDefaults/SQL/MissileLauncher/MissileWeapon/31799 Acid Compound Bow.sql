@@ -59,10 +59,10 @@ VALUES (31799,   1,   33559669) /* Setup */
      , (31799,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31799,  4299,      2) 
-     , (31799,  4395,      2) 
-     , (31799,  4417,      2) 
-     , (31799,  6107,      2) ;
+VALUES (31799,  4299,      2)  /* EnduranceSelf8 */
+     , (31799,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (31799,  4417,      2)  /* SwiftKillerSelf8 */
+     , (31799,  6107,      2)  /* CantripStrength4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31799, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

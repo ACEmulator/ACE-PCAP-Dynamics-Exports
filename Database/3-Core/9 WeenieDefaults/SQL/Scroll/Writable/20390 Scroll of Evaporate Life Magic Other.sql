@@ -27,6 +27,3 @@ VALUES (20390,   1,   33554826) /* Setup */
      , (20390,   8,  100676935) /* Icon */
      , (20390,  22,  872415275) /* PhysicsEffectTable */
      , (20390,  28,       1957) /* Spell - DispelLifeBadOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20390,  1957,      2) ;

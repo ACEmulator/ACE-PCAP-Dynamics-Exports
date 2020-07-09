@@ -27,6 +27,3 @@ VALUES (9633,   1,   33554826) /* Setup */
      , (9633,   8,  100676943) /* Icon */
      , (9633,  22,  872415275) /* PhysicsEffectTable */
      , (9633,  28,       1703) /* Spell - HealthToManaSelf5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9633,  1703,      2) ;

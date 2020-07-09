@@ -48,6 +48,6 @@ VALUES (9601, 8040, 23855554, 59.0416, -29.78116, -0.071, 0.7022716, 0.7022716, 
 /* @teleloc 0x016C01C2 [59.041600 -29.781160 -0.071000] 0.702272 0.702272 -0.082551 -0.082551 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9601,   586,      2) 
-     , (9601,   608,      2) 
-     , (9601,   658,      2) ;
+VALUES (9601,   586,      2)  /* ItemEnchantmentMasterySelf6 */
+     , (9601,   608,      2)  /* LifeMagicMasterySelf4 */
+     , (9601,   658,      2)  /* ManaMasterySelf6 */;

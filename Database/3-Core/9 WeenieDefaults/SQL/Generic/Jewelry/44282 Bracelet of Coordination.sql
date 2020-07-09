@@ -41,5 +41,5 @@ VALUES (44282,   1,   33554683) /* Setup */
      , (44282,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44282,  3963,      2) 
-     , (44282,  4296,      2) ;
+VALUES (44282,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (44282,  4296,      2)  /* CoordinationOther8 */;

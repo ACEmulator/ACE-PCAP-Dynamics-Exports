@@ -57,6 +57,6 @@ VALUES (43381, 8040, 23855555, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* 
 /* @teleloc 0x016C01C3 [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43381,  1480,      2) 
-     , (43381,  2249,      2) 
-     , (43381,  5383,      2) ;
+VALUES (43381,  1480,      2)  /* HermeticLinkSelf6 */
+     , (43381,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (43381,  5383,      2)  /* CurseWeakness5 */;

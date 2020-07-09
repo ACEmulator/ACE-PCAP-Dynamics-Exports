@@ -59,8 +59,8 @@ VALUES (313,   1,   33554747) /* Setup */
      , (313,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (313,  1401,      2) 
-     , (313,  1616,      2) 
-     , (313,  2106,      2) 
-     , (313,  2582,      2) 
-     , (313,  2598,      2) ;
+VALUES (313,  1401,      2)  /* QuicknessSelf5 */
+     , (313,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (313,  2106,      2)  /* HeartSeekerSelf7 */
+     , (313,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (313,  2598,      2)  /* CANTRIPBLOODTHIRST1 */;

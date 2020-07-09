@@ -46,4 +46,4 @@ VALUES (29544,   1,   33554854) /* Setup */
      , (29544,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29544,  3637,      2) ;
+VALUES (29544,  3637,      2)  /* BowmansBoon */;

@@ -52,10 +52,10 @@ VALUES (40907,   1,   33554854) /* Setup */
      , (40907,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40907,  3964,      2) 
-     , (40907,  4227,      2) 
-     , (40907,  4304,      2) 
-     , (40907,  4328,      2) 
-     , (40907,  4601,      2) 
-     , (40907,  4705,      2) 
-     , (40907,  5009,      2) ;
+VALUES (40907,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (40907,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (40907,  4304,      2)  /* FocusOther8 */
+     , (40907,  4328,      2)  /* WillpowerOther8 */
+     , (40907,  4601,      2)  /* ManaMasteryOther8 */
+     , (40907,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */
+     , (40907,  5009,      2)  /* AerfallesWardGreater */;

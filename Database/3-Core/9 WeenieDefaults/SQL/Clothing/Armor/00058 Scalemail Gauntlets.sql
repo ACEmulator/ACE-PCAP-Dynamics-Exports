@@ -50,7 +50,7 @@ VALUES (58,   1,   33554648) /* Setup */
      , (58,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (58,  1484,      2) ;
+VALUES (58,  1484,      2)  /* Impenetrability4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (58, 2, 47514,  1, 0, 0, False) /* Create Lightning Tachi (47514) for Wield */;

@@ -27,6 +27,3 @@ VALUES (28010,   1,   33554826) /* Setup */
      , (28010,   8,  100676675) /* Icon */
      , (28010,  22,  872415275) /* PhysicsEffectTable */
      , (28010,  28,       3261) /* Spell - SpiritLoather2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28010,  3261,      2) ;

@@ -47,6 +47,6 @@ VALUES (11997,   1,   33557329) /* Setup */
      , (11997,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11997,  1035,      2) 
-     , (11997,  1311,      2) 
-     , (11997,  2486,      2) ;
+VALUES (11997,  1035,      2)  /* ColdProtectionSelf6 */
+     , (11997,  1311,      2)  /* ArmorSelf5 */
+     , (11997,  2486,      2)  /* BLOODTHIRST */;

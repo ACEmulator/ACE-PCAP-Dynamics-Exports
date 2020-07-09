@@ -27,6 +27,3 @@ VALUES (7513,   1,   33554826) /* Setup */
      , (7513,   8,  100677015) /* Icon */
      , (7513,  22,  872415275) /* PhysicsEffectTable */
      , (7513,  28,       1787) /* Spell - FrostRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7513,  1787,      2) ;

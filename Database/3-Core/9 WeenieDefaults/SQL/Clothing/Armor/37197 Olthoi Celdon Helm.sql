@@ -59,12 +59,12 @@ VALUES (37197,   1,   33558424) /* Setup */
      , (37197,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37197,  1486,      2) 
-     , (37197,  2092,      2) 
-     , (37197,  2110,      2) 
-     , (37197,  4397,      2) 
-     , (37197,  4596,      2) 
-     , (37197,  4664,      2) ;
+VALUES (37197,  1486,      2)  /* Impenetrability6 */
+     , (37197,  2092,      2)  /* AcidBane7 */
+     , (37197,  2110,      2)  /* LightningBane7 */
+     , (37197,  4397,      2)  /* BludgeonBane8 */
+     , (37197,  4596,      2)  /* MagicResistanceSelf8 */
+     , (37197,  4664,      2)  /* CANTRIPFLAMEBANE3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (37197, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;

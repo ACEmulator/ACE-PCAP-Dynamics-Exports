@@ -44,5 +44,4 @@ VALUES (3748, 8040, 18809106, 37.54044, -25.35332, 0.08000001, -0.7261729, 0, 0,
 /* @teleloc 0x011F0112 [37.540440 -25.353320 0.080000] -0.726173 0.000000 0.000000 -0.687512 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3748,    80,      2) 
-     , (3748,  1071,      2) ;
+VALUES (3748,  1071,      2)  /* LightningProtectionSelf6 */;

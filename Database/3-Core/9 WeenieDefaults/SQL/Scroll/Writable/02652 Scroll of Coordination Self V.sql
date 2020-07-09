@@ -27,6 +27,3 @@ VALUES (2652,   1,   33554826) /* Setup */
      , (2652,   8,  100676452) /* Icon */
      , (2652,  22,  872415275) /* PhysicsEffectTable */
      , (2652,  28,       1377) /* Spell - CoordinationSelf5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2652,  1377,      2) ;

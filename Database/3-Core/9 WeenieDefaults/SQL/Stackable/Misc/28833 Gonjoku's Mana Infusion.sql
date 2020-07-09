@@ -32,6 +32,3 @@ VALUES (28833,   1,   33554603) /* Setup */
      , (28833,   8,  100686392) /* Icon */
      , (28833,  22,  872415275) /* PhysicsEffectTable */
      , (28833,  28,       1999) /* Spell - ManaGiver */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28833,  1999,      2) ;

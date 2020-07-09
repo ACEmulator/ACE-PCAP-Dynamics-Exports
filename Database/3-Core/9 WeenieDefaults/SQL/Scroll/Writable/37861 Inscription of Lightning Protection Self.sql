@@ -27,6 +27,3 @@ VALUES (37861,   1,   33554826) /* Setup */
      , (37861,   8,  100676948) /* Icon */
      , (37861,  22,  872415275) /* PhysicsEffectTable */
      , (37861,  28,       4470) /* Spell - LightningProtectionSelf8 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37861,  4470,      2) ;

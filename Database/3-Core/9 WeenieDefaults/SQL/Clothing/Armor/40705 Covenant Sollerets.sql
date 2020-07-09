@@ -55,11 +55,11 @@ VALUES (40705,   1,   33554654) /* Setup */
      , (40705,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40705,   879,      2) 
-     , (40705,  1486,      2) 
-     , (40705,  1574,      2) 
-     , (40705,  2098,      2) 
-     , (40705,  2102,      2) ;
+VALUES (40705,   879,      2)  /* HealingMasterySelf6 */
+     , (40705,  1486,      2)  /* Impenetrability6 */
+     , (40705,  1574,      2)  /* PiercingBane6 */
+     , (40705,  2098,      2)  /* BludgeonBane7 */
+     , (40705,  2102,      2)  /* FlameBane7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (40705, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */

@@ -61,10 +61,10 @@ VALUES (46099, 8040, 1068761098, 28.371, 33.96508, -0.071, 0.3528441, 0.3528441,
 /* @teleloc 0x3FB4000A [28.371000 33.965080 -0.071000] 0.352844 0.352844 -0.612781 -0.612781 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46099,  2059,      2) 
-     , (46099,  2096,      2) 
-     , (46099,  2101,      2) 
-     , (46099,  2106,      2) 
-     , (46099,  2116,      2) 
-     , (46099,  2149,      2) 
-     , (46099,  2531,      2) ;
+VALUES (46099,  2059,      2)  /* CoordinationSelf7 */
+     , (46099,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (46099,  2101,      2)  /* DefenderSelf7 */
+     , (46099,  2106,      2)  /* HeartSeekerSelf7 */
+     , (46099,  2116,      2)  /* SwiftKillerSelf7 */
+     , (46099,  2149,      2)  /* AcidProtectionSelf7 */
+     , (46099,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;

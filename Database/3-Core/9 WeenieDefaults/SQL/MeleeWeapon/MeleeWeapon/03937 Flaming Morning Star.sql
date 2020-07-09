@@ -59,10 +59,10 @@ VALUES (3937,   1,   33555755) /* Setup */
      , (3937,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3937,  1591,      2) 
-     , (3937,  1616,      2) 
-     , (3937,  2537,      2) 
-     , (3937,  6127,      2) ;
+VALUES (3937,  1591,      2)  /* HeartSeekerSelf5 */
+     , (3937,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3937,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
+     , (3937,  6127,      2)  /* CantripSummoningProwess1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (3937, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

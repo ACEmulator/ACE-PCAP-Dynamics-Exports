@@ -39,7 +39,7 @@ VALUES (21393,   1,   33554689) /* Setup */
      , (21393,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21393,   272,      2) 
-     , (21393,  2581,      2) 
-     , (21393,  2584,      2) 
-     , (21393,  2811,      2) ;
+VALUES (21393,   272,      2)  /* MagicResistanceOther5 */
+     , (21393,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (21393,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (21393,  2811,      2)  /* ModerateMagicResistance */;

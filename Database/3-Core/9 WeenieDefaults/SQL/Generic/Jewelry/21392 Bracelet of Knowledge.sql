@@ -35,6 +35,6 @@ VALUES (21392,   1,   33554682) /* Setup */
      , (21392,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21392,   688,      2) 
-     , (21392,  1431,      2) 
-     , (21392,  2809,      2) ;
+VALUES (21392,   688,      2)  /* ArcaneEnlightenmentOther5 */
+     , (21392,  1431,      2)  /* FocusOther5 */
+     , (21392,  2809,      2)  /* ModerateArcaneProwess */;

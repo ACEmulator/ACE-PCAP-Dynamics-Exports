@@ -27,6 +27,3 @@ VALUES (3081,   1,   33554826) /* Setup */
      , (3081,   8,  100676940) /* Icon */
      , (3081,  22,  872415275) /* PhysicsEffectTable */
      , (3081,  28,        198) /* Spell - ExhaustionOther5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3081,   198,      2) ;

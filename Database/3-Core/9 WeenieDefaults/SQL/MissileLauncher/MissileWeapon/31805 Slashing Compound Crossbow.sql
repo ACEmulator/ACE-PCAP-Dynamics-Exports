@@ -61,9 +61,9 @@ VALUES (31805,   1,   33559691) /* Setup */
      , (31805,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31805,  2096,      2) 
-     , (31805,  2521,      2) 
-     , (31805,  2582,      2) ;
+VALUES (31805,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (31805,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */
+     , (31805,  2582,      2)  /* CANTRIPQUICKNESS1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31805, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

@@ -64,5 +64,5 @@ VALUES (45429, 8040, 23855549, 54.1498, -37.93209, -0.071, 0.6616797, 0.6616797,
 /* @teleloc 0x016C01BD [54.149800 -37.932090 -0.071000] 0.661680 0.661680 -0.249359 -0.249359 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45429,  1616,      2) 
-     , (45429,  2116,      2) ;
+VALUES (45429,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (45429,  2116,      2)  /* SwiftKillerSelf7 */;

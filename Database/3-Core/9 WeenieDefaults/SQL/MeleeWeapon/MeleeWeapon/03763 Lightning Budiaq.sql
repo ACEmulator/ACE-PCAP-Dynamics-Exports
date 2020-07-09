@@ -58,4 +58,4 @@ VALUES (3763,   1,   33555789) /* Setup */
      , (3763,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3763,  1613,      2) ;
+VALUES (3763,  1613,      2)  /* BloodDrinkerSelf3 */;

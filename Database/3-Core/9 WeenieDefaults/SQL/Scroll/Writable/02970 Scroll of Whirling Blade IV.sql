@@ -27,6 +27,3 @@ VALUES (2970,   1,   33554826) /* Setup */
      , (2970,   8,  100677028) /* Icon */
      , (2970,  22,  872415275) /* PhysicsEffectTable */
      , (2970,  28,         95) /* Spell - WhirlingBlade4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2970,    95,      2) ;

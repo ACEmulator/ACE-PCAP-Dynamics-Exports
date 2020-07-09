@@ -48,8 +48,8 @@ VALUES (33104,   1,   33559922) /* Setup */
      , (33104,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33104,  2066,      2) 
-     , (33104,  2150,      2) 
-     , (33104,  2156,      2) 
-     , (33104,  2611,      2) 
-     , (33104,  2614,      2) ;
+VALUES (33104,  2066,      2)  /* FocusOther7 */
+     , (33104,  2150,      2)  /* BladeProtectionOther7 */
+     , (33104,  2156,      2)  /* FireProtectionOther7 */
+     , (33104,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (33104,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

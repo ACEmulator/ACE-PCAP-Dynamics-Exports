@@ -60,9 +60,9 @@ VALUES (45119,   1,   33561415) /* Setup */
      , (45119,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45119,  2081,      2) 
-     , (45119,  2096,      2) 
-     , (45119,  2101,      2) 
-     , (45119,  2116,      2) 
-     , (45119,  4019,      2) 
-     , (45119,  4672,      2) ;
+VALUES (45119,  2081,      2)  /* QuicknessSelf7 */
+     , (45119,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (45119,  2101,      2)  /* DefenderSelf7 */
+     , (45119,  2116,      2)  /* SwiftKillerSelf7 */
+     , (45119,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (45119,  4672,      2)  /* CANTRIPSWIFTHUNTER3 */;

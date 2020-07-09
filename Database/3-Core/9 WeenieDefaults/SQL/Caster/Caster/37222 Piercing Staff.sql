@@ -52,6 +52,5 @@ VALUES (37222,   1,   33560655) /* Setup */
      , (37222,  28,       4447) /* Spell - FrostBolt8 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37222,  2529,      2) 
-     , (37222,  4418,      2) 
-     , (37222,  4447,      2) ;
+VALUES (37222,  2529,      2)  /* CANTRIPSPRINT2 */
+     , (37222,  4418,      2)  /* HermeticLinkSelf8 */;

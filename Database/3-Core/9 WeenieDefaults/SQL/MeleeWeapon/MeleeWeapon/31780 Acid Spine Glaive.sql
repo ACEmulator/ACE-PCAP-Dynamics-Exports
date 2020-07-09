@@ -57,6 +57,6 @@ VALUES (31780,   1,   33559653) /* Setup */
      , (31780,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31780,  1604,      2) 
-     , (31780,  1616,      2) 
-     , (31780,  5884,      2) ;
+VALUES (31780,  1604,      2)  /* DefenderSelf5 */
+     , (31780,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (31780,  5884,      2)  /* CantripDualWieldAptitude1 */;

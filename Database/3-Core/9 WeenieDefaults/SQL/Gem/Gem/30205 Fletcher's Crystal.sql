@@ -41,6 +41,3 @@ VALUES (30205,   1,   33554809) /* Setup */
      , (30205,  28,       3704) /* Spell - FletchingMasteryRare */
      , (30205,  50,  100686651) /* IconOverlay */
      , (30205,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30205,  3704,      2) ;

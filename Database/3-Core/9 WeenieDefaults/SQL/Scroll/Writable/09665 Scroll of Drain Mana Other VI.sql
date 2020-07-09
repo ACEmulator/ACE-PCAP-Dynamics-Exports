@@ -27,6 +27,3 @@ VALUES (9665,   1,   33554826) /* Setup */
      , (9665,   8,  100676932) /* Icon */
      , (9665,  22,  872415275) /* PhysicsEffectTable */
      , (9665,  28,       1265) /* Spell - DrainMana6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9665,  1265,      2) ;

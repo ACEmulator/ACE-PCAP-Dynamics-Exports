@@ -68,7 +68,7 @@ VALUES (29246, 8040, 1692860438, 107.103, 86.64, 58.271, 1, 0, 0, 0) /* PCAPReco
 /* @teleloc 0x64E70016 [107.103000 86.640000 58.271000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29246,  2087,      2) 
-     , (29246,  2096,      2) 
-     , (29246,  2101,      2) 
-     , (29246,  2540,      2) ;
+VALUES (29246,  2087,      2)  /* StrengthSelf7 */
+     , (29246,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (29246,  2101,      2)  /* DefenderSelf7 */
+     , (29246,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;

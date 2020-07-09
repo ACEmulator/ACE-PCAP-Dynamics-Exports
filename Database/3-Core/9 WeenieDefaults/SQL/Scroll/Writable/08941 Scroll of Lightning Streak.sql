@@ -27,6 +27,3 @@ VALUES (8941,   1,   33554826) /* Setup */
      , (8941,   8,  100677013) /* Icon */
      , (8941,  22,  872415275) /* PhysicsEffectTable */
      , (8941,  28,       1814) /* Spell - LightningStreak1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8941,  1814,      2) ;

@@ -52,10 +52,10 @@ VALUES (2595,   1,   33554883) /* Setup */
      , (2595,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2595,  1138,      2) 
-     , (2595,  2556,      2) 
-     , (2595,  2602,      2) 
-     , (2595,  5887,      2) ;
+VALUES (2595,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (2595,  2556,      2)  /* CANTRIPLOCKPICKPROWESS1 */
+     , (2595,  2602,      2)  /* CANTRIPFROSTBANE1 */
+     , (2595,  5887,      2)  /* CantripSneakAttackProwess1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2595, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */

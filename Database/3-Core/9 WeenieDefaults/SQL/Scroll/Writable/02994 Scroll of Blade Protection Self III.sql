@@ -27,6 +27,3 @@ VALUES (2994,   1,   33554826) /* Setup */
      , (2994,   8,  100676954) /* Icon */
      , (2994,  22,  872415275) /* PhysicsEffectTable */
      , (2994,  28,       1111) /* Spell - BladeProtectionSelf3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2994,  1111,      2) ;

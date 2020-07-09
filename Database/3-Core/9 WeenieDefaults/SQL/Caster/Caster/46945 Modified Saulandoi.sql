@@ -55,6 +55,5 @@ VALUES (46945, 8040, 3465871412, 155.3718, 95.55672, 19.9295, 0.4525288, 0.45252
 /* @teleloc 0xCE950034 [155.371800 95.556720 19.929500] 0.452529 0.452529 -0.543339 -0.543339 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46945,  2785,      2) 
-     , (46945,  4581,      2) 
-     , (46945,  4700,      2) ;
+VALUES (46945,  4581,      2)  /* LifeMagicMasteryOther8 */
+     , (46945,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;

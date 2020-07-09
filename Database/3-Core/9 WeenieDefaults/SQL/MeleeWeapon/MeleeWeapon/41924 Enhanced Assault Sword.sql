@@ -62,7 +62,7 @@ VALUES (41924, 8040, 18809102, 28.54784, -33.58186, 2.220771, 0.6926227, 0.69262
 /* @teleloc 0x011F010E [28.547840 -33.581860 2.220771] 0.692623 0.692623 -0.142386 -0.142386 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41924,  2004,      2) 
-     , (41924,  2087,      2) 
-     , (41924,  2096,      2) 
-     , (41924,  2106,      2) ;
+VALUES (41924,  2004,      2)  /* WarriorsVitality */
+     , (41924,  2087,      2)  /* StrengthSelf7 */
+     , (41924,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41924,  2106,      2)  /* HeartSeekerSelf7 */;

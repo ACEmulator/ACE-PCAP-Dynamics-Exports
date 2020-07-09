@@ -53,18 +53,18 @@ VALUES (36948, 8040, 23855555, 55.3852, -37.47757, -0.002499998, 0.9938313, 0, 0
 /* @teleloc 0x016C01C3 [55.385200 -37.477570 -0.002500] 0.993831 0.000000 0.000000 -0.110903 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36948,  2350,      2) 
-     , (36948,  2351,      2) 
-     , (36948,  2352,      2) 
-     , (36948,  2353,      2) 
-     , (36948,  2377,      2) 
-     , (36948,  2378,      2) 
-     , (36948,  2380,      2) 
-     , (36948,  2959,      2) 
-     , (36948,  2960,      2) 
-     , (36948,  2961,      2) 
-     , (36948,  2962,      2) 
-     , (36948,  4062,      2) 
-     , (36948,  4077,      2) 
-     , (36948,  4231,      2) 
-     , (36948,  4232,      2) ;
+VALUES (36948,  2350,      2)  /* DecayDurance */
+     , (36948,  2351,      2)  /* ConsumptionDurance */
+     , (36948,  2352,      2)  /* StasisDurance */
+     , (36948,  2353,      2)  /* StimulationDurance */
+     , (36948,  2377,      2)  /* AnnihilationVision */
+     , (36948,  2378,      2)  /* BeastMurmur */
+     , (36948,  2380,      2)  /* InstrumentalityGrip */
+     , (36948,  2959,      2)  /* MarkofthePriestess */
+     , (36948,  2960,      2)  /* BludgeoningDurance */
+     , (36948,  2961,      2)  /* PiercingDurance */
+     , (36948,  2962,      2)  /* SlashingDurance */
+     , (36948,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (36948,  4077,      2)  /* ManaConvertMasteryIncantation */
+     , (36948,  4231,      2)  /* LeadershipMasteryOtherIncantation */
+     , (36948,  4232,      2)  /* CANTRIPLEADERSHIP3 */;

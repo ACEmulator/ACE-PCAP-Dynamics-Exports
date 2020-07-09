@@ -39,6 +39,3 @@ VALUES (30236,   1,   33554809) /* Setup */
      , (30236,  28,       3685) /* Spell - AxeMasteryRare */
      , (30236,  50,  100692242) /* IconOverlay */
      , (30236,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30236,  3685,      2) ;

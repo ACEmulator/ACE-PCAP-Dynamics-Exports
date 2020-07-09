@@ -56,9 +56,8 @@ VALUES (35976,   1,   33560354) /* Setup */
      , (35976,  55,       1492) /* ProcSpell - Brittlemail6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35976,  1492,      2) 
-     , (35976,  1605,      2) 
-     , (35976,  1627,      2) 
-     , (35976,  2059,      2) 
-     , (35976,  2096,      2) 
-     , (35976,  2207,      2) ;
+VALUES (35976,  1605,      2)  /* DefenderSelf6 */
+     , (35976,  1627,      2)  /* SwiftKillerSelf6 */
+     , (35976,  2059,      2)  /* CoordinationSelf7 */
+     , (35976,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (35976,  2207,      2)  /* BowMasterySelf7 */;

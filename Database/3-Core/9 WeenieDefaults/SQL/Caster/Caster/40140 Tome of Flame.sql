@@ -50,8 +50,7 @@ VALUES (40140, 8040, 23855555, 61.15238, -40.79689, -0.071, 0.6116575, 0.6116575
 /* @teleloc 0x016C01C3 [61.152380 -40.796890 -0.071000] 0.611658 0.611658 0.354789 0.354789 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40140,  2014,      2) 
-     , (40140,  4315,      2) 
-     , (40140,  4493,      2) 
-     , (40140,  4601,      2) 
-     , (40140,  4705,      2) ;
+VALUES (40140,  2014,      2)  /* WizardsUltimateIntellect */
+     , (40140,  4493,      2)  /* ManaRenewalOther8 */
+     , (40140,  4601,      2)  /* ManaMasteryOther8 */
+     , (40140,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

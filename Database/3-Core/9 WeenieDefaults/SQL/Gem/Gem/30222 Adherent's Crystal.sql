@@ -40,6 +40,3 @@ VALUES (30222,   1,   33554809) /* Setup */
      , (30222,  28,       3701) /* Spell - FealtyRare */
      , (30222,  50,  100686669) /* IconOverlay */
      , (30222,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30222,  3701,      2) ;

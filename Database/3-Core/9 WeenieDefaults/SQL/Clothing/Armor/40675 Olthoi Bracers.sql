@@ -60,10 +60,10 @@ VALUES (40675,   1,   33554641) /* Setup */
      , (40675,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40675,  2092,      2) 
-     , (40675,  2104,      2) 
-     , (40675,  2113,      2) 
-     , (40675,  2590,      2) 
-     , (40675,  4401,      2) 
-     , (40675,  4407,      2) 
-     , (40675,  6123,      2) ;
+VALUES (40675,  2092,      2)  /* AcidBane7 */
+     , (40675,  2104,      2)  /* FrostBane7 */
+     , (40675,  2113,      2)  /* PiercingBane7 */
+     , (40675,  2590,      2)  /* CANTRIPFROSTBANE2 */
+     , (40675,  4401,      2)  /* FlameBane8 */
+     , (40675,  4407,      2)  /* Impenetrability8 */
+     , (40675,  6123,      2)  /* SummoningMasterySelf8 */;

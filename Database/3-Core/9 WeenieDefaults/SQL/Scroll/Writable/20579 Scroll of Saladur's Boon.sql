@@ -27,6 +27,3 @@ VALUES (20579,   1,   33554826) /* Setup */
      , (20579,   8,  100676470) /* Icon */
      , (20579,  22,  872415275) /* PhysicsEffectTable */
      , (20579,  28,       2300) /* Spell - SprintOther7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20579,  2300,      2) ;

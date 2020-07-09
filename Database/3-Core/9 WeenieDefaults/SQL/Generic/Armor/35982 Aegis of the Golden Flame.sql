@@ -60,9 +60,9 @@ VALUES (35982, 8040, 3465871413, 144.0343, 108.8844, 19.926, -0.04990443, -0.840
 /* @teleloc 0xCE950035 [144.034300 108.884400 19.926000] -0.049904 -0.840929 -0.053122 -0.536214 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35982,  2108,      2) 
-     , (35982,  2157,      2) 
-     , (35982,  2281,      2) 
-     , (35982,  2559,      2) 
-     , (35982,  2604,      2) 
-     , (35982,  2611,      2) ;
+VALUES (35982,  2108,      2)  /* Impenetrability7 */
+     , (35982,  2157,      2)  /* FireProtectionSelf7 */
+     , (35982,  2281,      2)  /* MagicResistanceSelf7 */
+     , (35982,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (35982,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
+     , (35982,  2611,      2)  /* CANTRIPFLAMEWARD2 */;

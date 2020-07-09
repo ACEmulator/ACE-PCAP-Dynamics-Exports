@@ -45,7 +45,7 @@ VALUES (31394,   1,   33559620) /* Setup */
      , (31394,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31394,   279,      2) 
-     , (31394,  3821,      2) 
-     , (31394,  3822,      2) 
-     , (31394,  3823,      2) ;
+VALUES (31394,   279,      2)  /* MagicResistanceSelf6 */
+     , (31394,  3821,      2)  /* AugursWill */
+     , (31394,  3822,      2)  /* AugursGlare */
+     , (31394,  3823,      2)  /* AugursWard */;

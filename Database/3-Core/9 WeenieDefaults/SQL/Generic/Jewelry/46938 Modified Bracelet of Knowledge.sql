@@ -38,5 +38,5 @@ VALUES (46938,   1,   33554682) /* Setup */
      , (46938,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46938,  4509,      2) 
-     , (46938,  4684,      2) ;
+VALUES (46938,  4509,      2)  /* ArcaneEnlightenmentOther8 */
+     , (46938,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;

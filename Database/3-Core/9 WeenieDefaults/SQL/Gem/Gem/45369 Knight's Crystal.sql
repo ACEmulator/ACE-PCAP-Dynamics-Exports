@@ -40,6 +40,3 @@ VALUES (45369,   1,   33554809) /* Setup */
      , (45369,  28,       5907) /* Spell - ShieldMasteryRare */
      , (45369,  50,  100692246) /* IconOverlay */
      , (45369,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45369,  5907,      2) ;

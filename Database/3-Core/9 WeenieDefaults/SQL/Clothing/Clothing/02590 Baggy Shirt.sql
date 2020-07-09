@@ -52,8 +52,8 @@ VALUES (2590,   1,   33554644) /* Setup */
      , (2590,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2590,  1035,      2) 
-     , (2590,  2621,      2) ;
+VALUES (2590,  1035,      2)  /* ColdProtectionSelf6 */
+     , (2590,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2590, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

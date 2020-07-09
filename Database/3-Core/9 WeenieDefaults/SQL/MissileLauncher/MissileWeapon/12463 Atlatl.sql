@@ -59,9 +59,9 @@ VALUES (12463,   1,   33557433) /* Setup */
      , (12463,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12463,  1604,      2) 
-     , (12463,  1616,      2) 
-     , (12463,  1626,      2) ;
+VALUES (12463,  1604,      2)  /* DefenderSelf5 */
+     , (12463,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (12463,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12463, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */;

@@ -49,12 +49,12 @@ VALUES (46553,   1,   33554654) /* Setup */
      , (46553,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46553,  4391,      2) 
-     , (46553,  4393,      2) 
-     , (46553,  4397,      2) 
-     , (46553,  4401,      2) 
-     , (46553,  4403,      2) 
-     , (46553,  4407,      2) 
-     , (46553,  4409,      2) 
-     , (46553,  4412,      2) 
-     , (46553,  4700,      2) ;
+VALUES (46553,  4391,      2)  /* AcidBane8 */
+     , (46553,  4393,      2)  /* BladeBane8 */
+     , (46553,  4397,      2)  /* BludgeonBane8 */
+     , (46553,  4401,      2)  /* FlameBane8 */
+     , (46553,  4403,      2)  /* FrostBane8 */
+     , (46553,  4407,      2)  /* Impenetrability8 */
+     , (46553,  4409,      2)  /* LightningBane8 */
+     , (46553,  4412,      2)  /* PiercingBane8 */
+     , (46553,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;

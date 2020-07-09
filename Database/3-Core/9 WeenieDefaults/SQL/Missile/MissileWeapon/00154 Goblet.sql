@@ -56,7 +56,7 @@ VALUES (154,   1,   33554663) /* Setup */
      , (154,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (154,   731,      2) ;
+VALUES (154,   731,      2)  /* ItemExpertiseSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (154, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

@@ -40,4 +40,4 @@ VALUES (622,   1,   33554689) /* Setup */
      , (622,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (622,   731,      2) ;
+VALUES (622,   731,      2)  /* ItemExpertiseSelf6 */;

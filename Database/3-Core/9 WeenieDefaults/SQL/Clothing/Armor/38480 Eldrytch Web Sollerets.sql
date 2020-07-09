@@ -58,6 +58,6 @@ VALUES (38480, 8040, 2847146009, 89.09074, 15.52275, 93.99935, 0.5930352, 0, 0, 
 /* @teleloc 0xA9B40019 [89.090740 15.522750 93.999350] 0.593035 0.000000 0.000000 -0.805177 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38480,  2108,      2) 
-     , (38480,  4572,      2) 
-     , (38480,  6045,      2) ;
+VALUES (38480,  2108,      2)  /* Impenetrability7 */
+     , (38480,  4572,      2)  /* JumpingMasterySelf8 */
+     , (38480,  6045,      2)  /* CantripCookingProwess4 */;

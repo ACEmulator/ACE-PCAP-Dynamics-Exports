@@ -59,9 +59,9 @@ VALUES (27186, 8040, 2847146026, 139.2297, 47.4034, 93.92901, -0.04170667, -0.04
 /* @teleloc 0xA9B4002A [139.229700 47.403400 93.929010] -0.041707 -0.041707 -0.705876 -0.705876 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27186,  1144,      2) 
-     , (27186,  1337,      2) 
-     , (27186,  1605,      2) 
-     , (27186,  1616,      2) 
-     , (27186,  1625,      2) 
-     , (27186,  2686,      2) ;
+VALUES (27186,  1144,      2)  /* PiercingProtectionOther6 */
+     , (27186,  1337,      2)  /* StrengthOther6 */
+     , (27186,  1605,      2)  /* DefenderSelf6 */
+     , (27186,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27186,  1625,      2)  /* SwiftKillerSelf4 */
+     , (27186,  2686,      2)  /* ModerateAxeAptitude */;

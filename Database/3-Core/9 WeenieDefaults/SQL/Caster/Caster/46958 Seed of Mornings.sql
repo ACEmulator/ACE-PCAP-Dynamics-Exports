@@ -50,8 +50,7 @@ VALUES (46958, 8040, 19202318, 27.37612, -28.77442, -0.071, 0.6856509, 0.6856509
 /* @teleloc 0x0125010E [27.376120 -28.774420 -0.071000] 0.685651 0.685651 -0.172867 -0.172867 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46958,  2072,      2) 
-     , (46958,  3200,      2) 
-     , (46958,  4582,      2) 
-     , (46958,  4602,      2) 
-     , (46958,  4700,      2) ;
+VALUES (46958,  3200,      2)  /* CantripHermeticLink2 */
+     , (46958,  4582,      2)  /* LifeMagicMasterySelf8 */
+     , (46958,  4602,      2)  /* ManaMasterySelf8 */
+     , (46958,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;

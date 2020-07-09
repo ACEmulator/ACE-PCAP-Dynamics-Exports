@@ -50,12 +50,12 @@ VALUES (41201,   1,   33559344) /* Setup */
      , (41201,  50,  100690146) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41201,  2092,      2) 
-     , (41201,  2094,      2) 
-     , (41201,  2098,      2) 
-     , (41201,  2102,      2) 
-     , (41201,  2104,      2) 
-     , (41201,  2108,      2) 
-     , (41201,  2110,      2) 
-     , (41201,  2113,      2) 
-     , (41201,  2513,      2) ;
+VALUES (41201,  2092,      2)  /* AcidBane7 */
+     , (41201,  2094,      2)  /* BladeBane7 */
+     , (41201,  2098,      2)  /* BludgeonBane7 */
+     , (41201,  2102,      2)  /* FlameBane7 */
+     , (41201,  2104,      2)  /* FrostBane7 */
+     , (41201,  2108,      2)  /* Impenetrability7 */
+     , (41201,  2110,      2)  /* LightningBane7 */
+     , (41201,  2113,      2)  /* PiercingBane7 */
+     , (41201,  2513,      2)  /* CANTRIPHEALINGPROWESS2 */;

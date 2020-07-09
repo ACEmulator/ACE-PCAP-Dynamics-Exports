@@ -53,8 +53,8 @@ VALUES (45958, 8040, 1436549390, 35.75689, 84.64031, 39.93, 0.04720589, 0.047205
 /* @teleloc 0x55A0010E [35.756890 84.640310 39.930000] 0.047206 0.047206 -0.705529 -0.705529 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45958,   664,      2) 
-     , (45958,  1605,      2) 
-     , (45958,  2560,      2) 
-     , (45958,  2569,      2) 
-     , (45958,  3258,      2) ;
+VALUES (45958,   664,      2)  /* ManaMasteryOther6 */
+     , (45958,  1605,      2)  /* DefenderSelf6 */
+     , (45958,  2560,      2)  /* CANTRIPMANACONVERSIONPROWESS1 */
+     , (45958,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */
+     , (45958,  3258,      2)  /* SpiritDrinkerSelf6 */;

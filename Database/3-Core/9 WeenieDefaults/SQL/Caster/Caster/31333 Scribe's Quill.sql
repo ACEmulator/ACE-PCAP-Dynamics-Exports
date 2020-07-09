@@ -39,5 +39,5 @@ VALUES (31333,   1,   33559616) /* Setup */
      , (31333,  37,         29) /* ItemSkillLimit - ArmorTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31333,  2197,      2) 
-     , (31333,  2503,      2) ;
+VALUES (31333,  2197,      2)  /* ArmorExpertiseSelf7 */
+     , (31333,  2503,      2)  /* CANTRIPARMOREXPERTISE2 */;

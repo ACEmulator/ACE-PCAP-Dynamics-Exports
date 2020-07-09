@@ -61,13 +61,12 @@ VALUES (33990, 8040, 3599958021, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPReco
 /* @teleloc 0xD6930005 [18.409000 113.648000 -0.170000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33990,  2058,      2) 
-     , (33990,  2096,      2) 
-     , (33990,  2100,      2) 
-     , (33990,  2101,      2) 
-     , (33990,  2116,      2) 
-     , (33990,  2206,      2) 
-     , (33990,  2244,      2) 
-     , (33990,  2280,      2) 
-     , (33990,  2540,      2) 
-     , (33990,  2572,      2) ;
+VALUES (33990,  2058,      2)  /* CoordinationOther7 */
+     , (33990,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33990,  2101,      2)  /* DefenderSelf7 */
+     , (33990,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33990,  2206,      2)  /* BowMasteryOther7 */
+     , (33990,  2244,      2)  /* InvulnerabilityOther7 */
+     , (33990,  2280,      2)  /* MagicResistanceOther7 */
+     , (33990,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */
+     , (33990,  2572,      2)  /* CANTRIPCOORDINATION2 */;

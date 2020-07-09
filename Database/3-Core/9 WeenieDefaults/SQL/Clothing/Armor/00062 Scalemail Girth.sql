@@ -55,8 +55,8 @@ VALUES (62, 8040, 23855548, 53.11679, -28.23956, 0, 0.9780695, 0, 0, -0.2082789)
 /* @teleloc 0x016C01BC [53.116790 -28.239560 0.000000] 0.978070 0.000000 0.000000 -0.208279 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (62,  1486,      2) 
-     , (62,  2501,      2) 
-     , (62,  2542,      2) 
-     , (62,  2576,      2) 
-     , (62,  6122,      2) ;
+VALUES (62,  1486,      2)  /* Impenetrability6 */
+     , (62,  2501,      2)  /* CANTRIPALCHEMICALPROWESS2 */
+     , (62,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (62,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (62,  6122,      2)  /* SummoningMasterySelf7 */;

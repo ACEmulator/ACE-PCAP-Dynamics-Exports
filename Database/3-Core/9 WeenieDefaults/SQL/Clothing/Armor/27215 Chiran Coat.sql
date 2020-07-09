@@ -52,12 +52,12 @@ VALUES (27215,   1,   33554854) /* Setup */
      , (27215,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27215,  1516,      2) 
-     , (27215,  2108,      2) 
-     , (27215,  2570,      2) 
-     , (27215,  2577,      2) 
-     , (27215,  2616,      2) 
-     , (27215,  5427,      2) ;
+VALUES (27215,  1516,      2)  /* BludgeonBane6 */
+     , (27215,  2108,      2)  /* Impenetrability7 */
+     , (27215,  2570,      2)  /* CANTRIPWEAPONEXPERTISE1 */
+     , (27215,  2577,      2)  /* CANTRIPWILLPOWER2 */
+     , (27215,  2616,      2)  /* CANTRIPACIDWARD1 */
+     , (27215,  5427,      2)  /* CantripVoidMagicAptitude1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27215, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */

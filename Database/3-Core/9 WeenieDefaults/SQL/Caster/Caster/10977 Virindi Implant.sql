@@ -39,5 +39,4 @@ VALUES (10977,   1,   33557289) /* Setup */
      , (10977,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10977,  2419,      2) 
-     , (10977,  2451,      2) ;
+VALUES (10977,  2451,      2)  /* HuntersAcumen */;

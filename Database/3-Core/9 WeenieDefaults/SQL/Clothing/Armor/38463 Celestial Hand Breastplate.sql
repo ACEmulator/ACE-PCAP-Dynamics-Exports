@@ -55,7 +55,7 @@ VALUES (38463,   1,   33554642) /* Setup */
      , (38463,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38463,  2092,      2) 
-     , (38463,  2233,      2) 
-     , (38463,  3963,      2) 
-     , (38463,  4407,      2) ;
+VALUES (38463,  2092,      2)  /* AcidBane7 */
+     , (38463,  2233,      2)  /* FealtySelf7 */
+     , (38463,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (38463,  4407,      2)  /* Impenetrability8 */;

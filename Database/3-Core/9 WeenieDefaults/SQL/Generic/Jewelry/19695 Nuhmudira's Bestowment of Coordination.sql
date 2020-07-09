@@ -44,5 +44,5 @@ VALUES (19695,   1,   33554687) /* Setup */
      , (19695,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19695,  1383,      2) 
-     , (19695,  2669,      2) ;
+VALUES (19695,  1383,      2)  /* CoordinationOther5 */
+     , (19695,  2669,      2)  /* NuhmudirasBestowment */;

@@ -29,6 +29,3 @@ VALUES (22078,   1,   33554826) /* Setup */
      , (22078,   8,  100669876) /* Icon */
      , (22078,  22,  872415275) /* PhysicsEffectTable */
      , (22078,  28,       2813) /* Spell - RecallLethe */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22078,  2813,      2) ;

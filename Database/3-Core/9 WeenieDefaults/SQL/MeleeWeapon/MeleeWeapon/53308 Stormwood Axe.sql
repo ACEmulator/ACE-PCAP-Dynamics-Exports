@@ -52,9 +52,9 @@ VALUES (53308,   1,   33561663) /* Setup */
      , (53308,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53308,  4395,      2) 
-     , (53308,  4400,      2) 
-     , (53308,  4405,      2) 
-     , (53308,  4417,      2) 
-     , (53308,  4624,      2) 
-     , (53308,  6072,      2) ;
+VALUES (53308,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (53308,  4400,      2)  /* DefenderSelf8 */
+     , (53308,  4405,      2)  /* HeartSeekerSelf8 */
+     , (53308,  4417,      2)  /* SwiftKillerSelf8 */
+     , (53308,  4624,      2)  /* SwordMasterySelf8 */
+     , (53308,  6072,      2)  /* CantripSwordAptitude4 */;

@@ -60,8 +60,8 @@ VALUES (30596,   1,   33559483) /* Setup */
      , (30596,  52,  100676444) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30596,  1616,      2) 
-     , (30596,  1626,      2) ;
+VALUES (30596,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30596,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30596, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

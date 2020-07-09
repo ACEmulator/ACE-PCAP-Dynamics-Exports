@@ -53,10 +53,9 @@ VALUES (33942,   1,   33557337) /* Setup */
      , (33942,  55,       2121) /* ProcSpell - AcidStreak7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33942,   249,      2) 
-     , (33942,  1625,      2) 
-     , (33942,  2005,      2) 
-     , (33942,  2096,      2) 
-     , (33942,  2101,      2) 
-     , (33942,  2106,      2) 
-     , (33942,  2121,      2) ;
+VALUES (33942,   249,      2)  /* InvulnerabilitySelf6 */
+     , (33942,  1625,      2)  /* SwiftKillerSelf4 */
+     , (33942,  2005,      2)  /* WarriorsGreaterVitality */
+     , (33942,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33942,  2101,      2)  /* DefenderSelf7 */
+     , (33942,  2106,      2)  /* HeartSeekerSelf7 */;

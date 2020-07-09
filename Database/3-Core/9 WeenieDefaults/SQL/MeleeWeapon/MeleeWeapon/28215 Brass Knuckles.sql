@@ -52,7 +52,7 @@ VALUES (28215,   1,   33558830) /* Setup */
      , (28215,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28215,  1592,      2) 
-     , (28215,  1604,      2) 
-     , (28215,  1616,      2) 
-     , (28215,  1625,      2) ;
+VALUES (28215,  1592,      2)  /* HeartSeekerSelf6 */
+     , (28215,  1604,      2)  /* DefenderSelf5 */
+     , (28215,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (28215,  1625,      2)  /* SwiftKillerSelf4 */;

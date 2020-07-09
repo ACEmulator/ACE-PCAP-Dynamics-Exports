@@ -47,8 +47,8 @@ VALUES (52580,   1,   33559357) /* Setup */
      , (52580,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52580,  4465,      2) 
-     , (52580,  6055,      2) 
-     , (52580,  6083,      2) 
-     , (52580,  6101,      2) 
-     , (52580,  6104,      2) ;
+VALUES (52580,  4465,      2)  /* ColdProtectionOther8 */
+     , (52580,  6055,      2)  /* CantripInvulnerability4 */
+     , (52580,  6083,      2)  /* CantripFrostWard4 */
+     , (52580,  6101,      2)  /* CantripWillpower4 */
+     , (52580,  6104,      2)  /* CantripEndurance4 */;

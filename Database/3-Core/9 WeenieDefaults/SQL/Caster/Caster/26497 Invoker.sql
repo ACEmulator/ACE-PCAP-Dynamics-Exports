@@ -53,5 +53,4 @@ VALUES (26497, 8040, 3932946700, 202.6396, 232.5532, -47.2705, -0.6728728, -0.67
 /* @teleloc 0xEA6C010C [202.639600 232.553200 -47.270500] -0.672873 -0.672873 -0.217353 -0.217353 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26497,  2637,      2) 
-     , (26497,  2638,      2) ;
+VALUES (26497,  2638,      2)  /* HeartofOak */;

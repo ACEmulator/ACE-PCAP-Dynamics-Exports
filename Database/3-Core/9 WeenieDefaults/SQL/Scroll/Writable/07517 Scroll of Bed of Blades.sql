@@ -27,6 +27,3 @@ VALUES (7517,   1,   33554826) /* Setup */
      , (7517,   8,  100677023) /* Icon */
      , (7517,  22,  872415275) /* PhysicsEffectTable */
      , (7517,  28,       1840) /* Spell - BladeWall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7517,  1840,      2) ;

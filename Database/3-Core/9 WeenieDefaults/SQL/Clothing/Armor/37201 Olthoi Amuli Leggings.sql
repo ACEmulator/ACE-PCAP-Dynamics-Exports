@@ -59,7 +59,7 @@ VALUES (37201, 8040, 23855549, 52.81817, -38.1212, -0.002500013, 0.9784861, 0, 0
 /* @teleloc 0x016C01BD [52.818170 -38.121200 -0.002500] 0.978486 0.000000 0.000000 -0.206313 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37201,  2087,      2) 
-     , (37201,  2108,      2) 
-     , (37201,  2593,      2) 
-     , (37201,  4393,      2) ;
+VALUES (37201,  2087,      2)  /* StrengthSelf7 */
+     , (37201,  2108,      2)  /* Impenetrability7 */
+     , (37201,  2593,      2)  /* CANTRIPPIERCINGBANE2 */
+     , (37201,  4393,      2)  /* BladeBane8 */;

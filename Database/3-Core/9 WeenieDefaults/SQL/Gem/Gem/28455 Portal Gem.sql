@@ -39,6 +39,3 @@ VALUES (28455,   1,   33556769) /* Setup */
      , (28455,   8,  100672368) /* Icon */
      , (28455,  22,  872415275) /* PhysicsEffectTable */
      , (28455,  28,       3411) /* Spell - PortalSendingMorgluukReward */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28455,  3411,      2) ;

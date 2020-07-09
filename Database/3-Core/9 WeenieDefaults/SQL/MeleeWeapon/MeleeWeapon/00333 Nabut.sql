@@ -58,6 +58,6 @@ VALUES (333, 8040, 2103705918, 89.90535, 62.09169, 11.929, -0.5380818, -0.538081
 /* @teleloc 0x7D64013E [89.905350 62.091690 11.929000] -0.538082 -0.538082 -0.458768 -0.458768 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (333,  1352,      2) 
-     , (333,  1590,      2) 
-     , (333,  1613,      2) ;
+VALUES (333,  1352,      2)  /* EnduranceSelf4 */
+     , (333,  1590,      2)  /* HeartSeekerSelf4 */
+     , (333,  1613,      2)  /* BloodDrinkerSelf3 */;

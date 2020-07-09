@@ -45,5 +45,5 @@ VALUES (27353,   1,   33558670) /* Setup */
      , (27353,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27353,  2440,      2) 
-     , (27353,  2443,      2) ;
+VALUES (27353,  2440,      2)  /* StoneCliffsGreater */
+     , (27353,  2443,      2)  /* StrengthofEarthGreater */;

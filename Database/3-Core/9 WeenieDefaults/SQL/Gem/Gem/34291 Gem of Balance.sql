@@ -35,6 +35,3 @@ VALUES (34291,   1,   33554809) /* Setup */
      , (34291,   8,  100688622) /* Icon */
      , (34291,  22,  872415275) /* PhysicsEffectTable */
      , (34291,  28,       2659) /* Spell - ModerateCoordination */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34291,  2659,      2) ;

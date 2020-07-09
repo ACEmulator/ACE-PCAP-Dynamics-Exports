@@ -66,7 +66,7 @@ VALUES (31803, 8040, 43058012, 208.9732, -159.0649, -0.07000001, -0.9996702, 0, 
 /* @teleloc 0x0291035C [208.973200 -159.064900 -0.070000] -0.999670 0.000000 0.000000 -0.025680 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31803,  1332,      2) 
-     , (31803,  1616,      2) 
-     , (31803,  2600,      2) 
-     , (31803,  2620,      2) ;
+VALUES (31803,  1332,      2)  /* StrengthSelf6 */
+     , (31803,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (31803,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (31803,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;

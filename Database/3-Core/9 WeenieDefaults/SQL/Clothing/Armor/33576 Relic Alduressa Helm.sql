@@ -50,7 +50,7 @@ VALUES (33576, 8040, 3583574079, 183.9963, 144.4911, 374.0651, 0.9983903, 0, 0, 
 /* @teleloc 0xD599003F [183.996300 144.491100 374.065100] 0.998390 0.000000 0.000000 0.056717 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33576,  2013,      2) 
-     , (33576,  2066,      2) 
-     , (33576,  2108,      2) 
-     , (33576,  2664,      2) ;
+VALUES (33576,  2013,      2)  /* WizardsGreaterIntellect */
+     , (33576,  2066,      2)  /* FocusOther7 */
+     , (33576,  2108,      2)  /* Impenetrability7 */
+     , (33576,  2664,      2)  /* ModerateWillpower */;

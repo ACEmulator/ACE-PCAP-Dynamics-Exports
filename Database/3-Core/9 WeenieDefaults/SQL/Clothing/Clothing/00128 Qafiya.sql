@@ -53,9 +53,9 @@ VALUES (128,   1,   33554652) /* Setup */
      , (128,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (128,  1485,      2) 
-     , (128,  2606,      2) 
-     , (128,  5808,      2) ;
+VALUES (128,  1485,      2)  /* Impenetrability5 */
+     , (128,  2606,      2)  /* CANTRIPSLASHINGBANE1 */
+     , (128,  5808,      2)  /* DualWieldMasterySelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (128, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */

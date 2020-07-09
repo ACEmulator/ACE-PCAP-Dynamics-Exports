@@ -58,6 +58,6 @@ VALUES (37187,   1,   33559505) /* Setup */
      , (37187,  50,  100690144) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37187,  2108,      2) 
-     , (37187,  2241,      2) 
-     , (37187,  6072,      2) ;
+VALUES (37187,  2108,      2)  /* Impenetrability7 */
+     , (37187,  2241,      2)  /* HealingMasterySelf7 */
+     , (37187,  6072,      2)  /* CantripSwordAptitude4 */;

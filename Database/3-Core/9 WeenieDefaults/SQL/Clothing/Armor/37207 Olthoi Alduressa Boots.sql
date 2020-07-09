@@ -55,6 +55,6 @@ VALUES (37207,   1,   33559344) /* Setup */
      , (37207,  50,  100690146) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37207,  2507,      2) 
-     , (37207,  4393,      2) 
-     , (37207,  4407,      2) ;
+VALUES (37207,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (37207,  4393,      2)  /* BladeBane8 */
+     , (37207,  4407,      2)  /* Impenetrability8 */;

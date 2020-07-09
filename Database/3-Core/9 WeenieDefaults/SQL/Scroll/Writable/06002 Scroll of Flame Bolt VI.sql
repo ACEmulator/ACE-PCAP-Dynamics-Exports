@@ -27,6 +27,3 @@ VALUES (6002,   1,   33554826) /* Setup */
      , (6002,   8,  100677022) /* Icon */
      , (6002,  22,  872415275) /* PhysicsEffectTable */
      , (6002,  28,         85) /* Spell - FlameBolt6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6002,    85,      2) ;

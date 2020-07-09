@@ -48,7 +48,6 @@ VALUES (32488, 8040, 1240465442, 105.5455, 29.66236, 169.929, 0.5263575, 0.52635
 /* @teleloc 0x49F00022 [105.545500 29.662360 169.929000] 0.526358 0.526358 -0.472173 -0.472173 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32488,   248,      2) 
-     , (32488,   562,      2) 
-     , (32488,  2155,      2) 
-     , (32488,  3866,      2) ;
+VALUES (32488,   248,      2)  /* InvulnerabilitySelf5 */
+     , (32488,   562,      2)  /* CreatureEnchantmentMasterySelf6 */
+     , (32488,  2155,      2)  /* ColdProtectionSelf7 */;

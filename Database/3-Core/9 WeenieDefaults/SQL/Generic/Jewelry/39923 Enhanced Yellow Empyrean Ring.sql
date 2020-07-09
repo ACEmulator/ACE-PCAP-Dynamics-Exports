@@ -43,8 +43,8 @@ VALUES (39923,   1,   33554691) /* Setup */
      , (39923,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39923,  3983,      2) 
-     , (39923,  4071,      2) 
-     , (39923,  4072,      2) 
-     , (39923,  4076,      2) 
-     , (39923,  4678,      2) ;
+VALUES (39923,  3983,      2)  /* RejuvenationOtherIncantation */
+     , (39923,  4071,      2)  /* EmpyreanStaminaAbsorbtion */
+     , (39923,  4072,      2)  /* AurlanaasResolve */
+     , (39923,  4076,      2)  /* EmpyreanEnlightenment */
+     , (39923,  4678,      2)  /* CANTRIPSLASHINGWARD3 */;

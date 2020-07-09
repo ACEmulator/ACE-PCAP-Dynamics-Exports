@@ -42,7 +42,7 @@ VALUES (41486,   1,   33554817) /* Setup */
      , (41486,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41486,   853,      2) ;
+VALUES (41486,   853,      2)  /* DeceptionMasterySelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41486, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

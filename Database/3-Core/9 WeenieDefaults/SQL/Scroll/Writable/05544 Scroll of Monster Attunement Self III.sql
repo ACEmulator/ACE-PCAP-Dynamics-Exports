@@ -27,6 +27,3 @@ VALUES (5544,   1,   33554826) /* Setup */
      , (5544,   8,  100676448) /* Icon */
      , (5544,  22,  872415275) /* PhysicsEffectTable */
      , (5544,  28,        800) /* Spell - MonsterAttunementSelf3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5544,   800,      2) ;

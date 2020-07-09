@@ -27,6 +27,3 @@ VALUES (20234,   1,   33554826) /* Setup */
      , (20234,   8,  100676452) /* Icon */
      , (20234,  22,  872415275) /* PhysicsEffectTable */
      , (20234,  28,       2058) /* Spell - CoordinationOther7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20234,  2058,      2) ;

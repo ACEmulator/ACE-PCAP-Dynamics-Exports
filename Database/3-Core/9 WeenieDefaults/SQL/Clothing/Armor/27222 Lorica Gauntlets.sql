@@ -61,11 +61,11 @@ VALUES (27222, 8040, 23855549, 54.89859, -39.01816, 0, 0.9784861, 0, 0, -0.20631
 /* @teleloc 0x016C01BD [54.898590 -39.018160 0.000000] 0.978486 0.000000 0.000000 -0.206313 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27222,  2108,      2) 
-     , (27222,  4297,      2) 
-     , (27222,  4397,      2) 
-     , (27222,  4403,      2) 
-     , (27222,  4671,      2) ;
+VALUES (27222,  2108,      2)  /* Impenetrability7 */
+     , (27222,  4297,      2)  /* CoordinationSelf8 */
+     , (27222,  4397,      2)  /* BludgeonBane8 */
+     , (27222,  4403,      2)  /* FrostBane8 */
+     , (27222,  4671,      2)  /* CANTRIPSTORMBANE3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27222, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */

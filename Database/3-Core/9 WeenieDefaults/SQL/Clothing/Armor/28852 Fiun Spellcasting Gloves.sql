@@ -49,7 +49,7 @@ VALUES (28852,   1,   33559348) /* Setup */
      , (28852,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28852,  2067,      2) 
-     , (28852,  3567,      2) 
-     , (28852,  3568,      2) 
-     , (28852,  3761,      2) ;
+VALUES (28852,  2067,      2)  /* FocusSelf7 */
+     , (28852,  3567,      2)  /* CantripFiunFlee */
+     , (28852,  3568,      2)  /* CantripFiunEfficiency */
+     , (28852,  3761,      2)  /* CantripFiunResistance */;

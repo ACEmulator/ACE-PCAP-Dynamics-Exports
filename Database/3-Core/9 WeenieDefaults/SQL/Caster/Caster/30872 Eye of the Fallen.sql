@@ -46,5 +46,5 @@ VALUES (30872, 8040, 4095213581, 34.75896, 105.2867, 159.929, -0.008775875, -0.0
 /* @teleloc 0xF418000D [34.758960 105.286700 159.929000] -0.008776 -0.008776 -0.707052 -0.707052 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30872,  2287,      2) 
-     , (30872,  2812,      2) ;
+VALUES (30872,  2287,      2)  /* ManaMasterySelf7 */
+     , (30872,  2812,      2)  /* ModerateWarMagicAptitude */;

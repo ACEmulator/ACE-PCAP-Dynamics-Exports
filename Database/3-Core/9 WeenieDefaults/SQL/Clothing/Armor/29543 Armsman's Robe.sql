@@ -46,6 +46,6 @@ VALUES (29543,   1,   33554854) /* Setup */
      , (29543,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29543,  3636,      2) 
-     , (29543,  3642,      2) 
-     , (29543,  3648,      2) ;
+VALUES (29543,  3636,      2)  /* AxemansBoon */
+     , (29543,  3642,      2)  /* KnifersBoon */
+     , (29543,  3648,      2)  /* SwordsmansBoon */;

@@ -27,6 +27,3 @@ VALUES (2844,   1,   33554826) /* Setup */
      , (2844,   8,  100676661) /* Icon */
      , (2844,  22,  872415275) /* PhysicsEffectTable */
      , (2844,  28,       1484) /* Spell - Impenetrability4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2844,  1484,      2) ;

@@ -27,6 +27,3 @@ VALUES (20488,   1,   33554826) /* Setup */
      , (20488,   8,  100676939) /* Icon */
      , (20488,  22,  872415275) /* PhysicsEffectTable */
      , (20488,  28,       2180) /* Spell - ManaDepletionOther7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20488,  2180,      2) ;

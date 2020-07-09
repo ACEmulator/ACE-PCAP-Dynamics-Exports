@@ -43,4 +43,4 @@ VALUES (46010,   1,   33554644) /* Setup */
      , (46010,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46010,  1455,      2) ;
+VALUES (46010,  1455,      2)  /* WillpowerOther5 */;

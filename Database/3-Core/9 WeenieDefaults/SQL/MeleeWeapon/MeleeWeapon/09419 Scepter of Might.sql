@@ -51,7 +51,7 @@ VALUES (9419,   1,   33557013) /* Setup */
      , (9419,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9419,  1093,      2) 
-     , (9419,  1309,      2) 
-     , (9419,  1329,      2) 
-     , (9419,  1613,      2) ;
+VALUES (9419,  1093,      2)  /* FireProtectionSelf5 */
+     , (9419,  1309,      2)  /* ArmorSelf3 */
+     , (9419,  1329,      2)  /* StrengthSelf3 */
+     , (9419,  1613,      2)  /* BloodDrinkerSelf3 */;

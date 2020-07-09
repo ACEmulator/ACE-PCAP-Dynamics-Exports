@@ -27,6 +27,3 @@ VALUES (1743,   1,   33554826) /* Setup */
      , (1743,   8,  100692254) /* Icon */
      , (1743,  22,  872415275) /* PhysicsEffectTable */
      , (1743,  28,        418) /* Spell - SwordMasterySelf1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1743,   418,      2) ;

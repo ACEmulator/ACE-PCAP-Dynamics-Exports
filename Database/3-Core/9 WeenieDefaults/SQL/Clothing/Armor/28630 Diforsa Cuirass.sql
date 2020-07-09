@@ -57,9 +57,9 @@ VALUES (28630,   1,   33559339) /* Setup */
      , (28630,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28630,  1516,      2) 
-     , (28630,  2087,      2) 
-     , (28630,  2108,      2) 
-     , (28630,  4409,      2) 
-     , (28630,  4667,      2) 
-     , (28630,  6072,      2) ;
+VALUES (28630,  1516,      2)  /* BludgeonBane6 */
+     , (28630,  2087,      2)  /* StrengthSelf7 */
+     , (28630,  2108,      2)  /* Impenetrability7 */
+     , (28630,  4409,      2)  /* LightningBane8 */
+     , (28630,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
+     , (28630,  6072,      2)  /* CantripSwordAptitude4 */;

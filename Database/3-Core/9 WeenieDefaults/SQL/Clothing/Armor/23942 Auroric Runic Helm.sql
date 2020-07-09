@@ -51,14 +51,14 @@ VALUES (23942,   1,   33558266) /* Setup */
      , (23942,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23942,   885,      2) 
-     , (23942,  1360,      2) 
-     , (23942,  2350,      2) 
-     , (23942,  2351,      2) 
-     , (23942,  2352,      2) 
-     , (23942,  2353,      2) 
-     , (23942,  2948,      2) 
-     , (23942,  2959,      2) 
-     , (23942,  2960,      2) 
-     , (23942,  2961,      2) 
-     , (23942,  2962,      2) ;
+VALUES (23942,   885,      2)  /* HealingMasteryOther6 */
+     , (23942,  1360,      2)  /* EnduranceOther6 */
+     , (23942,  2350,      2)  /* DecayDurance */
+     , (23942,  2351,      2)  /* ConsumptionDurance */
+     , (23942,  2352,      2)  /* StasisDurance */
+     , (23942,  2353,      2)  /* StimulationDurance */
+     , (23942,  2948,      2)  /* HieroWardGreat */
+     , (23942,  2959,      2)  /* MarkofthePriestess */
+     , (23942,  2960,      2)  /* BludgeoningDurance */
+     , (23942,  2961,      2)  /* PiercingDurance */
+     , (23942,  2962,      2)  /* SlashingDurance */;

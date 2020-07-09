@@ -54,9 +54,9 @@ VALUES (35295, 8040, 459075, 69.9395, -59.9675, -0.07400001, 0.3564619, -0.53734
 /* @teleloc 0x00070143 [69.939500 -59.967500 -0.074000] 0.356462 -0.537349 -0.649030 -0.403672 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35295,  2092,      2) 
-     , (35295,  2104,      2) 
-     , (35295,  2108,      2) 
-     , (35295,  2243,      2) 
-     , (35295,  2245,      2) 
-     , (35295,  2604,      2) ;
+VALUES (35295,  2092,      2)  /* AcidBane7 */
+     , (35295,  2104,      2)  /* FrostBane7 */
+     , (35295,  2108,      2)  /* Impenetrability7 */
+     , (35295,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (35295,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (35295,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */;

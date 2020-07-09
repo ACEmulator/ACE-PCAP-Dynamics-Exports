@@ -49,5 +49,5 @@ VALUES (6877,   1,   33555707) /* Setup */
      , (6877,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6877,   854,      2) 
-     , (6877,  1782,      2) ;
+VALUES (6877,   854,      2)  /* DeceptionMasterySelf5 */
+     , (6877,  1782,      2)  /* GertarhsCurse */;

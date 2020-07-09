@@ -39,6 +39,6 @@ VALUES (27774, 8040, 46203162, 63.1009, -16.8414, -5.9748, 0.8641416, 0, 0, 0.50
 /* @teleloc 0x02C1011A [63.100900 -16.841400 -5.974800] 0.864142 0.000000 0.000000 0.503249 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27774,   160,      2) 
-     , (27774,   184,      2) 
-     , (27774,   207,      2) ;
+VALUES (27774,   160,      2)  /* RegenerationOther2 */
+     , (27774,   184,      2)  /* RejuvenationOther2 */
+     , (27774,   207,      2)  /* ManaRenewalOther2 */;

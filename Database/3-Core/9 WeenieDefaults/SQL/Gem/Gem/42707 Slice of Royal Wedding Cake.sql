@@ -34,6 +34,3 @@ VALUES (42707,   1,   33555193) /* Setup */
      , (42707,   8,  100672705) /* Icon */
      , (42707,  22,  872415275) /* PhysicsEffectTable */
      , (42707,  28,       3204) /* Spell - GolemHunterHealthHigh */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42707,  3204,      2) ;

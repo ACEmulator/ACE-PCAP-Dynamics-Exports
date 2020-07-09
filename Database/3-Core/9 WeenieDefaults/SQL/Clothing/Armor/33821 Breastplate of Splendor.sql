@@ -50,7 +50,7 @@ VALUES (33821,   1,   33560094) /* Setup */
      , (33821,  37,         14) /* ItemSkillLimit - ArcaneLore */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33821,  2108,      2) 
-     , (33821,  2604,      2) 
-     , (33821,  2661,      2) 
-     , (33821,  2664,      2) ;
+VALUES (33821,  2108,      2)  /* Impenetrability7 */
+     , (33821,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
+     , (33821,  2661,      2)  /* ModerateFocus */
+     , (33821,  2664,      2)  /* ModerateWillpower */;

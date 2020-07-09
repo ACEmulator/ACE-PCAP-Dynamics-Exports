@@ -35,6 +35,3 @@ VALUES (28452,   1,   33554665) /* Setup */
      , (28452,   8,  100676962) /* Icon */
      , (28452,  22,  872415275) /* PhysicsEffectTable */
      , (28452,  28,       3442) /* Spell - LugianStamina */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28452,  3442,      2) ;

@@ -52,6 +52,6 @@ VALUES (36524, 8040, 2847146017, 98.07653, 4.10385, 93.926, 0.2942382, -0.625684
 /* @teleloc 0xA9B40021 [98.076530 4.103850 93.926000] 0.294238 -0.625684 -0.564361 -0.451043 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36524,  2242,      2) 
-     , (36524,  2244,      2) 
-     , (36524,  4217,      2) ;
+VALUES (36524,  2242,      2)  /* ImpregnabilityOther7 */
+     , (36524,  2244,      2)  /* InvulnerabilityOther7 */
+     , (36524,  4217,      2)  /* GourdGuard */;

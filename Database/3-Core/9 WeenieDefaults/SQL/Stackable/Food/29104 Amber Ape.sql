@@ -36,6 +36,3 @@ VALUES (29104,   1,   33559128) /* Setup */
      , (29104,  28,       3533) /* Spell - BrighteyesFavor */
      , (29104,  50,  100687554) /* IconOverlay */
      , (29104,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29104,  3533,      2) ;

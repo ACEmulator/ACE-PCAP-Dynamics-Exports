@@ -27,6 +27,3 @@ VALUES (2943,   1,   33554826) /* Setup */
      , (2943,   8,  100677016) /* Icon */
      , (2943,  22,  872415275) /* PhysicsEffectTable */
      , (2943,  28,         72) /* Spell - FrostBolt4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2943,    72,      2) ;

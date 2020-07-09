@@ -27,6 +27,3 @@ VALUES (20419,   1,   33554826) /* Setup */
      , (20419,   8,  100676662) /* Icon */
      , (20419,  22,  872415275) /* PhysicsEffectTable */
      , (20419,  28,       2109) /* Spell - LeadenWeapon7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20419,  2109,      2) ;

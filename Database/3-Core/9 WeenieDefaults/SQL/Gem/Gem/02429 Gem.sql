@@ -39,6 +39,3 @@ VALUES (2429,   1,   33554809) /* Setup */
      , (2429,   8,  100674729) /* Icon */
      , (2429,  22,  872415275) /* PhysicsEffectTable */
      , (2429,  28,        193) /* Spell - RejuvenationSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2429,   193,      2) ;

@@ -46,4 +46,4 @@ VALUES (7429,   1,   33554883) /* Setup */
      , (7429,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7429,   955,      2) ;
+VALUES (7429,   955,      2)  /* FealtyOther4 */;

@@ -39,6 +39,3 @@ VALUES (25705,   1,   33554809) /* Setup */
      , (25705,   8,  100668365) /* Icon */
      , (25705,  22,  872415275) /* PhysicsEffectTable */
      , (25705,  28,       2989) /* Spell - PortalSendingDarkNoir1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25705,  2989,      2) ;

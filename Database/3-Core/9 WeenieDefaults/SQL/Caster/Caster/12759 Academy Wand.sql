@@ -44,6 +44,6 @@ VALUES (12759, 8040, 459059, 60, -70.025, -0.071, 0.5, 0.5, -0.5, -0.5) /* PCAPR
 /* @teleloc 0x00070133 [60.000000 -70.025000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12759,   659,      2) 
-     , (12759,  1427,      2) 
-     , (12759,  1451,      2) ;
+VALUES (12759,   659,      2)  /* ManaMasteryOther1 */
+     , (12759,  1427,      2)  /* FocusOther1 */
+     , (12759,  1451,      2)  /* WillpowerOther1 */;

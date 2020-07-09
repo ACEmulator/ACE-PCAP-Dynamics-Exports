@@ -59,7 +59,7 @@ VALUES (42752,   1,   33554641) /* Setup */
      , (42752,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42752,  2108,      2) 
-     , (42752,  2113,      2) 
-     , (42752,  4683,      2) 
-     , (42752,  6105,      2) ;
+VALUES (42752,  2108,      2)  /* Impenetrability7 */
+     , (42752,  2113,      2)  /* PiercingBane7 */
+     , (42752,  4683,      2)  /* CANTRIPALCHEMICALPROWESS3 */
+     , (42752,  6105,      2)  /* CantripFocus4 */;

@@ -35,6 +35,3 @@ VALUES (30813,   1,   33558259) /* Setup */
      , (30813,   8,  100675628) /* Icon */
      , (30813,  22,  872415275) /* PhysicsEffectTable */
      , (30813,  28,       3800) /* Spell - BurningSpiritReliquary */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30813,  3800,      2) ;

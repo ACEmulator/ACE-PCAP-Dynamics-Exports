@@ -27,6 +27,3 @@ VALUES (8947,   1,   33554826) /* Setup */
      , (8947,   8,  100677008) /* Icon */
      , (8947,  22,  872415275) /* PhysicsEffectTable */
      , (8947,  28,       1820) /* Spell - ShockwaveStreak1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8947,  1820,      2) ;

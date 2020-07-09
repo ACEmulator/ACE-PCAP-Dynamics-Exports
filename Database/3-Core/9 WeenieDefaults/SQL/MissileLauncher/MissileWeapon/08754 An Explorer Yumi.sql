@@ -49,5 +49,5 @@ VALUES (8754,   1,   33554728) /* Setup */
      , (8754,  50,  100675462) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8754,   463,      2) 
-     , (8754,  1613,      2) ;
+VALUES (8754,   463,      2)  /* BowMasteryOther3 */
+     , (8754,  1613,      2)  /* BloodDrinkerSelf3 */;

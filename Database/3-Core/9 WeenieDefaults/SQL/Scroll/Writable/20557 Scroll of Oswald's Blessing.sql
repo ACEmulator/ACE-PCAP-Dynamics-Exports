@@ -27,6 +27,3 @@ VALUES (20557,   1,   33554826) /* Setup */
      , (20557,   8,  100676463) /* Icon */
      , (20557,  22,  872415275) /* PhysicsEffectTable */
      , (20557,  28,       2271) /* Spell - LockpickMasterySelf7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20557,  2271,      2) ;

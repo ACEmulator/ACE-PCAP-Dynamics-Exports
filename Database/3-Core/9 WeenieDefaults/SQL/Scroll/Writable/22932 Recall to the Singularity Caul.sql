@@ -29,6 +29,3 @@ VALUES (22932,   1,   33554826) /* Setup */
      , (22932,   8,  100669876) /* Icon */
      , (22932,  22,  872415275) /* PhysicsEffectTable */
      , (22932,  28,       2943) /* Spell - SingularityIslandRecall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22932,  2943,      2) ;

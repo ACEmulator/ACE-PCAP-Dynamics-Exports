@@ -38,6 +38,3 @@ VALUES (38727,   1,   33554809) /* Setup */
      , (38727,   8,  100671405) /* Icon */
      , (38727,  22,  872415275) /* PhysicsEffectTable */
      , (38727,  28,       4331) /* Spell - DispelAllBadSelf8 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38727,  4331,      2) ;

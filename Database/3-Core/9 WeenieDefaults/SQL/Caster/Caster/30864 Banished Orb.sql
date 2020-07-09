@@ -39,5 +39,5 @@ VALUES (30864, 8040, 459137, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /*
 /* @teleloc 0x00070181 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30864,   658,      2) 
-     , (30864,  2569,      2) ;
+VALUES (30864,   658,      2)  /* ManaMasterySelf6 */
+     , (30864,  2569,      2)  /* CANTRIPWARMAGICAPTITUDE1 */;

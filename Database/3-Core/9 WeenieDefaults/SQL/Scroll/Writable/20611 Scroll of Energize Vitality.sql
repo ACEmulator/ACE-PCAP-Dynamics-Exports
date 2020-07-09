@@ -27,6 +27,3 @@ VALUES (20611,   1,   33554826) /* Setup */
      , (20611,   8,  100676942) /* Icon */
      , (20611,  22,  872415275) /* PhysicsEffectTable */
      , (20611,  28,       2339) /* Spell - ManaToHealthSelf7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20611,  2339,      2) ;

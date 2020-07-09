@@ -40,5 +40,5 @@ VALUES (14485,   1,   33554691) /* Setup */
      , (14485,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (14485,  1997,      2) 
-     , (14485,  2583,      2) ;
+VALUES (14485,  1997,      2)  /* LifeGiver */
+     , (14485,  2583,      2)  /* CANTRIPSTRENGTH1 */;

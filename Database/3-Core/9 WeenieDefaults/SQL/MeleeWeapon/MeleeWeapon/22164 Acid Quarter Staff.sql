@@ -60,6 +60,6 @@ VALUES (22164,   1,   33558070) /* Setup */
      , (22164,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22164,  1627,      2) 
-     , (22164,  2096,      2) 
-     , (22164,  2621,      2) ;
+VALUES (22164,  1627,      2)  /* SwiftKillerSelf6 */
+     , (22164,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (22164,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;

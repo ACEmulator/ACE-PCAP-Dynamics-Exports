@@ -40,6 +40,3 @@ VALUES (30233,   1,   33554809) /* Setup */
      , (30233,  28,       3736) /* Spell - SprintRare */
      , (30233,  50,  100686681) /* IconOverlay */
      , (30233,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30233,  3736,      2) ;

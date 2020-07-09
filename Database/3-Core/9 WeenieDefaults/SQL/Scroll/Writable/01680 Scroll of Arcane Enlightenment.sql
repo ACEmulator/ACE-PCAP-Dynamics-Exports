@@ -27,6 +27,3 @@ VALUES (1680,   1,   33554826) /* Setup */
      , (1680,   8,  100676447) /* Icon */
      , (1680,  22,  872415275) /* PhysicsEffectTable */
      , (1680,  28,        684) /* Spell - ArcaneEnlightenmentOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1680,   684,      2) ;

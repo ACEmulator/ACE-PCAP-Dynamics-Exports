@@ -50,4 +50,4 @@ VALUES (2594,   1,   33554883) /* Setup */
      , (2594,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2594,   519,      2) ;
+VALUES (2594,   519,      2)  /* AcidProtectionSelf5 */;

@@ -60,10 +60,10 @@ VALUES (7793,   1,   33556673) /* Setup */
      , (7793,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7793,  1616,      2) 
-     , (7793,  2116,      2) 
-     , (7793,  2559,      2) 
-     , (7793,  2573,      2) ;
+VALUES (7793,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (7793,  2116,      2)  /* SwiftKillerSelf7 */
+     , (7793,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (7793,  2573,      2)  /* CANTRIPENDURANCE2 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (7793, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;

@@ -44,7 +44,7 @@ VALUES (621, 8040, 23855554, 57.54981, -26.38452, 0.029325, -0.9999598, 0, 0, 0.
 /* @teleloc 0x016C01C2 [57.549810 -26.384520 0.029325] -0.999960 0.000000 0.000000 0.008961 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (621,  1023,      2) ;
+VALUES (621,  1023,      2)  /* BludgeonProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (621, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */

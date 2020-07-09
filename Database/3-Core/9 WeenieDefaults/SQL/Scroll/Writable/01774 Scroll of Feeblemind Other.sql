@@ -27,6 +27,3 @@ VALUES (1774,   1,   33554826) /* Setup */
      , (1774,   8,  100676471) /* Icon */
      , (1774,  22,  872415275) /* PhysicsEffectTable */
      , (1774,  28,       1463) /* Spell - FeeblemindOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1774,  1463,      2) ;

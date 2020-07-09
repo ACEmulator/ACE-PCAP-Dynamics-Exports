@@ -28,8 +28,5 @@ VALUES (20470,   1,   33554826) /* Setup */
      , (20470,  22,  872415275) /* PhysicsEffectTable */
      , (20470,  28,       2164) /* Spell - BladeVulnerabilityOther7 */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20470,  2164,      2) ;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20470, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

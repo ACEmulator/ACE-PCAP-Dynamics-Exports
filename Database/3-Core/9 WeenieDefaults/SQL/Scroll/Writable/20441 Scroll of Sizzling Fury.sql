@@ -27,6 +27,3 @@ VALUES (20441,   1,   33554826) /* Setup */
      , (20441,   8,  100677022) /* Icon */
      , (20441,  22,  872415275) /* PhysicsEffectTable */
      , (20441,  28,       2129) /* Spell - FlameStreak7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20441,  2129,      2) ;

@@ -28,8 +28,5 @@ VALUES (20553,   1,   33554826) /* Setup */
      , (20553,  22,  872415275) /* PhysicsEffectTable */
      , (20553,  28,       2266) /* Spell - LifeMagicMasteryOther7 */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20553,  2266,      2) ;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20553, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

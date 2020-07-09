@@ -40,6 +40,3 @@ VALUES (45368,   1,   33554809) /* Setup */
      , (45368,  28,       5905) /* Spell - RecklessnessMasteryRare */
      , (45368,  50,  100686633) /* IconOverlay */
      , (45368,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45368,  5905,      2) ;

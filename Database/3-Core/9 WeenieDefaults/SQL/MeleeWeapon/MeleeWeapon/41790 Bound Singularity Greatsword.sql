@@ -57,6 +57,6 @@ VALUES (41790,   1,   33558799) /* Setup */
      , (41790,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41790,  1337,      2) 
-     , (41790,  1592,      2) 
-     , (41790,  1616,      2) ;
+VALUES (41790,  1337,      2)  /* StrengthOther6 */
+     , (41790,  1592,      2)  /* HeartSeekerSelf6 */
+     , (41790,  1616,      2)  /* BloodDrinkerSelf6 */;

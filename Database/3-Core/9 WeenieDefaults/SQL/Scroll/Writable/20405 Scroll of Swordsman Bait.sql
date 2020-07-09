@@ -27,6 +27,3 @@ VALUES (20405,   1,   33554826) /* Setup */
      , (20405,   8,  100676664) /* Icon */
      , (20405,  22,  872415275) /* PhysicsEffectTable */
      , (20405,  28,       2095) /* Spell - BladeLure7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20405,  2095,      2) ;

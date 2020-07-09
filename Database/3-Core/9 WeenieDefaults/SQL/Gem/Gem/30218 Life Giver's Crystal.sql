@@ -41,6 +41,3 @@ VALUES (30218,   1,   33554809) /* Setup */
      , (30218,  28,       3717) /* Spell - LifeMagicMasteryRare */
      , (30218,  50,  100686664) /* IconOverlay */
      , (30218,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30218,  3717,      2) ;

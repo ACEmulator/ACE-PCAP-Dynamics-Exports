@@ -27,6 +27,3 @@ VALUES (20461,   1,   33554826) /* Setup */
      , (20461,   8,  100677008) /* Icon */
      , (20461,  22,  872415275) /* PhysicsEffectTable */
      , (20461,  28,       2145) /* Spell - ShockwaveStreak7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20461,  2145,      2) ;

@@ -44,5 +44,5 @@ VALUES (12156,   1,   33557435) /* Setup */
      , (12156,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12156,   975,      2) 
-     , (12156,   987,      2) ;
+VALUES (12156,   975,      2)  /* JumpingMasterySelf6 */
+     , (12156,   987,      2)  /* SprintSelf6 */;

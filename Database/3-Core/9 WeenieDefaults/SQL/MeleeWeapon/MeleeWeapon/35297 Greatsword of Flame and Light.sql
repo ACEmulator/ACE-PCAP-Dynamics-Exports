@@ -60,5 +60,4 @@ VALUES (35297, 8040, 3583574079, 180.025, 155, 373.939, 0.7071068, 0.7071068, 0,
 /* @teleloc 0xD599003F [180.025000 155.000000 373.939000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35297,  2694,      2) 
-     , (35297,  3911,      2) ;
+VALUES (35297,  2694,      2)  /* ModerateSwordAptitude */;

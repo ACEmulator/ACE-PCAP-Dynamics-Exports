@@ -27,6 +27,3 @@ VALUES (2887,   1,   33554826) /* Setup */
      , (2887,   8,  100676672) /* Icon */
      , (2887,  22,  872415275) /* PhysicsEffectTable */
      , (2887,  28,       1476) /* Spell - HermeticLinkSelf2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2887,  1476,      2) ;

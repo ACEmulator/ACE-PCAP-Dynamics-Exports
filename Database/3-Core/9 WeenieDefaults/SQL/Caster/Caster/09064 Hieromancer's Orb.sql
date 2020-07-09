@@ -44,6 +44,6 @@ VALUES (9064, 8040, 3583574080, 184.0995, 168.9445, 383.929, -0.06448367, -0.064
 /* @teleloc 0xD5990040 [184.099500 168.944500 383.929000] -0.064484 -0.064484 -0.704160 -0.704160 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9064,   634,      2) 
-     , (9064,  1426,      2) 
-     , (9064,  1450,      2) ;
+VALUES (9064,   634,      2)  /* WarMagicMasterySelf6 */
+     , (9064,  1426,      2)  /* FocusSelf6 */
+     , (9064,  1450,      2)  /* WillpowerSelf6 */;

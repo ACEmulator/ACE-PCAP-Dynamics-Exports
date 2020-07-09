@@ -52,7 +52,7 @@ VALUES (37220,   1,   33560653) /* Setup */
      , (37220,  28,       2136) /* Spell - FrostBolt7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37220,  2117,      2) 
-     , (37220,  2132,      2) 
-     , (37220,  2524,      2) 
-     , (37220,  4329,      2) ;
+VALUES (37220,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37220,  2132,      2)  /* ForceBolt7 */
+     , (37220,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
+     , (37220,  4329,      2)  /* WillpowerSelf8 */;

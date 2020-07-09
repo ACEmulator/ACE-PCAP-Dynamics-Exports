@@ -47,10 +47,10 @@ VALUES (39920,   1,   33554691) /* Setup */
      , (39920,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39920,  3955,      2) 
-     , (39920,  3981,      2) 
-     , (39920,  3982,      2) 
-     , (39920,  3983,      2) 
-     , (39920,  4073,      2) 
-     , (39920,  4074,      2) 
-     , (39920,  4075,      2) ;
+VALUES (39920,  3955,      2)  /* BludgeonWard */
+     , (39920,  3981,      2)  /* ManarenewalOtherIncantation */
+     , (39920,  3982,      2)  /* RegenerationOtherIncantation */
+     , (39920,  3983,      2)  /* RejuvenationOtherIncantation */
+     , (39920,  4073,      2)  /* CantripRegenEmpyrean */
+     , (39920,  4074,      2)  /* CantripRejuvEmpyrean */
+     , (39920,  4075,      2)  /* CantripRenewEmpyrean */;

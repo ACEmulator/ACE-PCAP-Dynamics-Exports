@@ -27,6 +27,3 @@ VALUES (8916,   1,   33554826) /* Setup */
      , (8916,   8,  100677026) /* Icon */
      , (8916,  22,  872415275) /* PhysicsEffectTable */
      , (8916,  28,       1792) /* Spell - AcidStreak3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8916,  1792,      2) ;

@@ -45,4 +45,4 @@ VALUES (2413, 8040, 2471755814, 105.4804, 138.9765, 16.00239, 1, 0, 0, 0) /* PCA
 /* @teleloc 0x93540026 [105.480400 138.976500 16.002390] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2413,  1401,      2) ;
+VALUES (2413,  1401,      2)  /* QuicknessSelf5 */;

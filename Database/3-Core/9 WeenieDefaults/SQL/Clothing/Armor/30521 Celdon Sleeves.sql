@@ -60,6 +60,6 @@ VALUES (30521,   1,   33554655) /* Setup */
      , (30521,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30521,  4407,      2) 
-     , (30521,  4680,      2) 
-     , (30521,  4684,      2) ;
+VALUES (30521,  4407,      2)  /* Impenetrability8 */
+     , (30521,  4680,      2)  /* CANTRIPHEALTHGAIN3 */
+     , (30521,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;

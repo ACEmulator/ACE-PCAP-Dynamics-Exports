@@ -63,10 +63,10 @@ VALUES (45466, 8040, 3332964372, 59.81201, 94.89259, 41.929, -0.4974864, -0.4974
 /* @teleloc 0xC6A90014 [59.812010 94.892590 41.929000] -0.497486 -0.497486 -0.502501 -0.502501 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45466,  4395,      2) 
-     , (45466,  4405,      2) 
-     , (45466,  4417,      2) 
-     , (45466,  4496,      2) 
-     , (45466,  4661,      2) 
-     , (45466,  4666,      2) 
-     , (45466,  4686,      2) ;
+VALUES (45466,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45466,  4405,      2)  /* HeartSeekerSelf8 */
+     , (45466,  4417,      2)  /* SwiftKillerSelf8 */
+     , (45466,  4496,      2)  /* RegenerationSelf8 */
+     , (45466,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (45466,  4666,      2)  /* CANTRIPHEARTTHIRST3 */
+     , (45466,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;

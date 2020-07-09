@@ -40,5 +40,5 @@ VALUES (7406,   1,   33554691) /* Setup */
      , (7406,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7406,   833,      2) 
-     , (7406,   859,      2) ;
+VALUES (7406,   833,      2)  /* PersonAttunementOther4 */
+     , (7406,   859,      2)  /* DeceptionMasteryOther4 */;

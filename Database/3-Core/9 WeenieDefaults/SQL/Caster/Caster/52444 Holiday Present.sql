@@ -43,4 +43,4 @@ VALUES (52444, 8040, 4061528110, 130.992, 132.3609, -0.071, 0.6205619, 0.6205619
 /* @teleloc 0xF216002E [130.992000 132.360900 -0.071000] 0.620562 0.620562 -0.338973 -0.338973 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52444,  2227,      2) ;
+VALUES (52444,  2227,      2)  /* DeceptionMasterySelf7 */;

@@ -51,5 +51,4 @@ VALUES (35185, 8040, 3465871413, 155.0885, 94.30751, 19.929, 0.6314903, 0.631490
 /* @teleloc 0xCE950035 [155.088500 94.307510 19.929000] 0.631490 0.631490 -0.318151 -0.318151 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35185,  2348,      2) 
-     , (35185,  2574,      2) ;
+VALUES (35185,  2574,      2)  /* CANTRIPFOCUS2 */;

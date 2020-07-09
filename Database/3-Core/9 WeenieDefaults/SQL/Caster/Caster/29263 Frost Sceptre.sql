@@ -57,8 +57,8 @@ VALUES (29263, 8040, 1676148780, 140.2393, 92.04778, 131.929, 0.398897, 0.398897
 /* @teleloc 0x63E8002C [140.239300 92.047780 131.929000] 0.398897 0.398897 0.583850 0.583850 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29263,    97,      2) 
-     , (29263,  1479,      2) 
-     , (29263,  2555,      2) 
-     , (29263,  3257,      2) 
-     , (29263,  5427,      2) ;
+VALUES (29263,    97,      2)  /* WhirlingBlade6 */
+     , (29263,  1479,      2)  /* HermeticLinkSelf5 */
+     , (29263,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */
+     , (29263,  3257,      2)  /* SpiritDrinkerSelf5 */
+     , (29263,  5427,      2)  /* CantripVoidMagicAptitude1 */;

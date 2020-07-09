@@ -27,6 +27,3 @@ VALUES (1879,   1,   33554826) /* Setup */
      , (1879,   8,  100676657) /* Icon */
      , (1879,  22,  872415275) /* PhysicsEffectTable */
      , (1879,  28,       1487) /* Spell - Brittlemail1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1879,  1487,      2) ;

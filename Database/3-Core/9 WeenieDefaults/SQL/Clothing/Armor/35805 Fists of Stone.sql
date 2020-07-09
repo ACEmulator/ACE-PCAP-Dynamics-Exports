@@ -47,14 +47,14 @@ VALUES (35805,   1,   33560324) /* Setup */
      , (35805,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35805,   248,      2) 
-     , (35805,  1331,      2) 
-     , (35805,  1353,      2) 
-     , (35805,  1485,      2) 
-     , (35805,  2686,      2) 
-     , (35805,  2687,      2) 
-     , (35805,  2689,      2) 
-     , (35805,  2694,      2) 
-     , (35805,  2812,      2) 
-     , (35805,  5074,      2) 
-     , (35805,  5430,      2) ;
+VALUES (35805,   248,      2)  /* InvulnerabilitySelf5 */
+     , (35805,  1331,      2)  /* StrengthSelf5 */
+     , (35805,  1353,      2)  /* EnduranceSelf5 */
+     , (35805,  1485,      2)  /* Impenetrability5 */
+     , (35805,  2686,      2)  /* ModerateAxeAptitude */
+     , (35805,  2687,      2)  /* ModerateBowAptitude */
+     , (35805,  2689,      2)  /* ModerateDaggerAptitude */
+     , (35805,  2694,      2)  /* ModerateSwordAptitude */
+     , (35805,  2812,      2)  /* ModerateWarMagicAptitude */
+     , (35805,  5074,      2)  /* ModerateTwoHandedAptitude */
+     , (35805,  5430,      2)  /* ModerateVoidMagicAptitude */;

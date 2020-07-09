@@ -61,6 +61,6 @@ VALUES (31395, 8040, 2847146012, 73.45782, 81.92619, 78.51093, -0.2575725, 0.668
 /* @teleloc 0xA9B4001C [73.457820 81.926190 78.510930] -0.257573 0.668437 0.513007 0.472940 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31395,   249,      2) 
-     , (31395,  3819,      2) 
-     , (31395,  3820,      2) ;
+VALUES (31395,   249,      2)  /* InvulnerabilitySelf6 */
+     , (31395,  3819,      2)  /* ConscriptsMight */
+     , (31395,  3820,      2)  /* ConscriptsWard */;

@@ -47,7 +47,7 @@ VALUES (12024,   1,   33557043) /* Setup */
      , (12024,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12024,   248,      2) 
-     , (12024,  1022,      2) 
-     , (12024,  1114,      2) 
-     , (12024,  1137,      2) ;
+VALUES (12024,   248,      2)  /* InvulnerabilitySelf5 */
+     , (12024,  1022,      2)  /* BludgeonProtectionSelf5 */
+     , (12024,  1114,      2)  /* BladeProtectionSelf6 */
+     , (12024,  1137,      2)  /* PiercingProtectionSelf5 */;

@@ -55,7 +55,7 @@ VALUES (23908,   1,   33557200) /* Setup */
      , (23908,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23908,  1331,      2) 
-     , (23908,  1590,      2) 
-     , (23908,  1614,      2) 
-     , (23908,  2004,      2) ;
+VALUES (23908,  1331,      2)  /* StrengthSelf5 */
+     , (23908,  1590,      2)  /* HeartSeekerSelf4 */
+     , (23908,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (23908,  2004,      2)  /* WarriorsVitality */;

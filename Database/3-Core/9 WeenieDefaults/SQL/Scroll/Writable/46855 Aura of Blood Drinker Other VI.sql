@@ -27,6 +27,3 @@ VALUES (46855,   1,   33554826) /* Setup */
      , (46855,   8,  100676655) /* Icon */
      , (46855,  22,  872415275) /* PhysicsEffectTable */
      , (46855,  28,       5995) /* Spell - BloodDrinkerOther6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46855,  5995,      2) ;

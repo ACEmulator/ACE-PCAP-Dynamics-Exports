@@ -27,6 +27,3 @@ VALUES (3727,   1,   33554826) /* Setup */
      , (3727,   8,  100676933) /* Icon */
      , (3727,  22,  872415275) /* PhysicsEffectTable */
      , (3727,  28,       1251) /* Spell - DrainStamina3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3727,  1251,      2) ;

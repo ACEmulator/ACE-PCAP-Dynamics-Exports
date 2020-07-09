@@ -67,9 +67,9 @@ VALUES (31788, 8040, 1581581014, 39.65677, -78.29746, -0.071, 0.4062837, 0.40628
 /* @teleloc 0x5E4502D6 [39.656770 -78.297460 -0.071000] 0.406284 0.406284 -0.578735 -0.578735 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31788,  1615,      2) 
-     , (31788,  2580,      2) 
-     , (31788,  5807,      2) ;
+VALUES (31788,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (31788,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (31788,  5807,      2)  /* DualWieldMasterySelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31788, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */

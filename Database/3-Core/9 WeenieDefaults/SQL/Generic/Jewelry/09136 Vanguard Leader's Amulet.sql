@@ -36,6 +36,6 @@ VALUES (9136,   1,   33554680) /* Setup */
      , (9136,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9136,   909,      2) 
-     , (9136,   957,      2) 
-     , (9136,  1432,      2) ;
+VALUES (9136,   909,      2)  /* LeadershipMasteryOther6 */
+     , (9136,   957,      2)  /* FealtyOther6 */
+     , (9136,  1432,      2)  /* FocusOther6 */;

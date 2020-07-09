@@ -53,9 +53,9 @@ VALUES (35950, 8040, 1615069445, 110.0935, -42.19381, -24.07, 0.6805488, 0.68054
 /* @teleloc 0x60440105 [110.093500 -42.193810 -24.070000] 0.680549 0.680549 -0.191972 -0.191972 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35950,  2066,      2) 
-     , (35950,  2090,      2) 
-     , (35950,  2266,      2) 
-     , (35950,  2322,      2) 
-     , (35950,  2534,      2) 
-     , (35950,  2810,      2) ;
+VALUES (35950,  2066,      2)  /* FocusOther7 */
+     , (35950,  2090,      2)  /* WillpowerOther7 */
+     , (35950,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (35950,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (35950,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (35950,  2810,      2)  /* ModerateLifeMagicAptitude */;

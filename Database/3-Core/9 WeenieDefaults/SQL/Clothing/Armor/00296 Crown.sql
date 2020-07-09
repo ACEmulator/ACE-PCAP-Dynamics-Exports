@@ -53,6 +53,6 @@ VALUES (296,   1,   33554685) /* Setup */
      , (296,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (296,   658,      2) 
-     , (296,  1485,      2) 
-     , (296,  1561,      2) ;
+VALUES (296,   658,      2)  /* ManaMasterySelf6 */
+     , (296,  1485,      2)  /* Impenetrability5 */
+     , (296,  1561,      2)  /* BladeBane5 */;

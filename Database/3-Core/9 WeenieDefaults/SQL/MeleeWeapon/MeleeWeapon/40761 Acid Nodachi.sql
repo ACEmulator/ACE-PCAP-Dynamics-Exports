@@ -60,5 +60,5 @@ VALUES (40761,   1,   33560764) /* Setup */
      , (40761,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40761,  1616,      2) 
-     , (40761,  2524,      2) ;
+VALUES (40761,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (40761,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */;

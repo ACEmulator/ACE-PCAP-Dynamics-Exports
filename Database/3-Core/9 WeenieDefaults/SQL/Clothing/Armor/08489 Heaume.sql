@@ -54,8 +54,8 @@ VALUES (8489,   1,   33556883) /* Setup */
      , (8489,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8489,  1485,      2) 
-     , (8489,  1561,      2) ;
+VALUES (8489,  1485,      2)  /* Impenetrability5 */
+     , (8489,  1561,      2)  /* BladeBane5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (8489, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

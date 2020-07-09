@@ -49,13 +49,13 @@ VALUES (9087,   1,   33554647) /* Setup */
      , (9087,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9087,   273,      2) 
-     , (9087,  2349,      2) 
-     , (9087,  2350,      2) 
-     , (9087,  2351,      2) 
-     , (9087,  2352,      2) 
-     , (9087,  2353,      2) 
-     , (9087,  2354,      2) 
-     , (9087,  2355,      2) 
-     , (9087,  2356,      2) 
-     , (9087,  2381,      2) ;
+VALUES (9087,   273,      2)  /* MagicResistanceOther6 */
+     , (9087,  2349,      2)  /* HieroWard */
+     , (9087,  2350,      2)  /* DecayDurance */
+     , (9087,  2351,      2)  /* ConsumptionDurance */
+     , (9087,  2352,      2)  /* StasisDurance */
+     , (9087,  2353,      2)  /* StimulationDurance */
+     , (9087,  2354,      2)  /* PiercingDuranceLess */
+     , (9087,  2355,      2)  /* SlashingDuranceLess */
+     , (9087,  2356,      2)  /* BludgeoningDuranceLess */
+     , (9087,  2381,      2)  /* InstrumentalityTouch */;
