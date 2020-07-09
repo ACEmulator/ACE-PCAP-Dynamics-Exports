@@ -25,7 +25,7 @@ VALUES (37210,   1,          2) /* ItemType - Armor */
      , (37210, 159,          1) /* WieldSkillType - Axe */
      , (37210, 160,        180) /* WieldDifficulty */
      , (37210, 171,         10) /* NumTimesTinkered */
-     , (37210, 172,          1) /* AppraisalLongDescDecoration */
+     , (37210, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (37210, 265,         14) /* EquipmentSetId - Adepts */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

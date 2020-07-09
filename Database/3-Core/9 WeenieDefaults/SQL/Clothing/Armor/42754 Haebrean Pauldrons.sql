@@ -17,7 +17,7 @@ VALUES (42754,   1,          2) /* ItemType - Armor */
      , (42754, 158,          7) /* WieldRequirements - Level */
      , (42754, 159,          1) /* WieldSkillType - Axe */
      , (42754, 160,        150) /* WieldDifficulty */
-     , (42754, 172,          1) /* AppraisalLongDescDecoration */;
+     , (42754, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42754,  22, True ) /* Inscribable */

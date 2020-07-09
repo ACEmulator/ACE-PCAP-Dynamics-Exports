@@ -20,7 +20,7 @@ VALUES (31761,   1,          1) /* ItemType - MeleeWeapon */
      , (31761, 105,          6) /* ItemWorkmanship */
      , (31761, 131,         59) /* MaterialType - Copper */
      , (31761, 151,          2) /* HookType - Wall */
-     , (31761, 172,          1) /* AppraisalLongDescDecoration */
+     , (31761, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (31761, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

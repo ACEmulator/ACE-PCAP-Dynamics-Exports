@@ -25,7 +25,7 @@ VALUES (37197,   1,          2) /* ItemType - Armor */
      , (37197, 158,          7) /* WieldRequirements - Level */
      , (37197, 159,          1) /* WieldSkillType - Axe */
      , (37197, 160,        180) /* WieldDifficulty */
-     , (37197, 172,          5) /* AppraisalLongDescDecoration */
+     , (37197, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (37197, 177,          3) /* GemCount */
      , (37197, 178,         39) /* GemType */
      , (37197, 265,         15) /* EquipmentSetId - Archers */

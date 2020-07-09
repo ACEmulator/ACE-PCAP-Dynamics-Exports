@@ -29,7 +29,7 @@ VALUES (20640,   1,        256) /* ItemType - MissileWeapon */
      , (20640, 158,          2) /* WieldRequirements - RawSkill */
      , (20640, 159,         47) /* WieldSkillType - MissileWeapons */
      , (20640, 160,        270) /* WieldDifficulty */
-     , (20640, 172,          5) /* AppraisalLongDescDecoration */
+     , (20640, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (20640, 177,          3) /* GemCount */
      , (20640, 178,         15) /* GemType */
      , (20640, 353,         10) /* WeaponType - Thrown */;

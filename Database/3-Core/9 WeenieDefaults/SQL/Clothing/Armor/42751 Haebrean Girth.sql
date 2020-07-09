@@ -24,7 +24,7 @@ VALUES (42751,   1,          2) /* ItemType - Armor */
      , (42751, 158,          7) /* WieldRequirements - Level */
      , (42751, 159,          1) /* WieldSkillType - Axe */
      , (42751, 160,        150) /* WieldDifficulty */
-     , (42751, 172,          1) /* AppraisalLongDescDecoration */
+     , (42751, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (42751, 265,         25) /* EquipmentSetId - Interlocking */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -21,7 +21,7 @@ VALUES (2366,   1,      32768) /* ItemType - Caster */
      , (2366, 115,          0) /* ItemSkillLevelLimit */
      , (2366, 131,         70) /* MaterialType - Sandstone */
      , (2366, 151,          2) /* HookType - Wall */
-     , (2366, 172,          3) /* AppraisalLongDescDecoration */;
+     , (2366, 172,          3) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2366,  22, True ) /* Inscribable */;

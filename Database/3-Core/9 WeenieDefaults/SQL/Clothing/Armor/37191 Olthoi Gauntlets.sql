@@ -27,7 +27,7 @@ VALUES (37191,   1,          2) /* ItemType - Armor */
      , (37191, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37191, 160,        410) /* WieldDifficulty */
      , (37191, 171,          5) /* NumTimesTinkered */
-     , (37191, 172,          5) /* AppraisalLongDescDecoration */
+     , (37191, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (37191, 177,          2) /* GemCount */
      , (37191, 178,         13) /* GemType */
      , (37191, 270,          7) /* WieldRequirements2 - Level */

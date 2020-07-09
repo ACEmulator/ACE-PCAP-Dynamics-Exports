@@ -30,7 +30,7 @@ VALUES (41066,   1,          1) /* ItemType - MeleeWeapon */
      , (41066, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41066, 160,        420) /* WieldDifficulty */
      , (41066, 171,          1) /* NumTimesTinkered */
-     , (41066, 172,          5) /* AppraisalLongDescDecoration */
+     , (41066, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (41066, 177,          4) /* GemCount */
      , (41066, 178,         49) /* GemType */
      , (41066, 179,          4) /* ImbuedEffect - ArmorRending */

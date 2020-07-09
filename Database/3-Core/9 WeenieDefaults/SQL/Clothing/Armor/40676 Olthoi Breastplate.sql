@@ -25,7 +25,7 @@ VALUES (40676,   1,          2) /* ItemType - Armor */
      , (40676, 158,          2) /* WieldRequirements - RawSkill */
      , (40676, 159,          7) /* WieldSkillType - MissileDefense */
      , (40676, 160,        290) /* WieldDifficulty */
-     , (40676, 172,          5) /* AppraisalLongDescDecoration */
+     , (40676, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (40676, 177,          4) /* GemCount */
      , (40676, 178,         13) /* GemType */
      , (40676, 265,         17) /* EquipmentSetId - Tinkers */

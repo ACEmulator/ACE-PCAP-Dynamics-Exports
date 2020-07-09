@@ -30,7 +30,7 @@ VALUES (22154,   1,          1) /* ItemType - MeleeWeapon */
      , (22154, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (22154, 160,        430) /* WieldDifficulty */
      , (22154, 171,         10) /* NumTimesTinkered */
-     , (22154, 172,          5) /* AppraisalLongDescDecoration */
+     , (22154, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (22154, 177,          4) /* GemCount */
      , (22154, 178,         21) /* GemType */
      , (22154, 179,          4) /* ImbuedEffect - ArmorRending */

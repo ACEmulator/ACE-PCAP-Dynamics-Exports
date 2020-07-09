@@ -19,7 +19,7 @@ VALUES (41486,   1,          8) /* ItemType - Jewelry */
      , (41486, 110,          0) /* ItemAllegianceRankLimit */
      , (41486, 115,          0) /* ItemSkillLevelLimit */
      , (41486, 131,         15) /* MaterialType - BlackGarnet */
-     , (41486, 172,          5) /* AppraisalLongDescDecoration */
+     , (41486, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (41486, 177,          1) /* GemCount */
      , (41486, 178,         24) /* GemType */;
 

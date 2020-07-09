@@ -30,7 +30,7 @@ VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788, 158,          2) /* WieldRequirements - RawSkill */
      , (31788, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31788, 160,        325) /* WieldDifficulty */
-     , (31788, 172,          5) /* AppraisalLongDescDecoration */
+     , (31788, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (31788, 177,          1) /* GemCount */
      , (31788, 178,         36) /* GemType */
      , (31788, 353,          7) /* WeaponType - Staff */;

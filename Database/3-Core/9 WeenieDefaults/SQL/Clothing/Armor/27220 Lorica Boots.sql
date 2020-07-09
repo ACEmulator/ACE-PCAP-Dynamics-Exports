@@ -24,7 +24,7 @@ VALUES (27220,   1,          2) /* ItemType - Armor */
      , (27220, 158,          7) /* WieldRequirements - Level */
      , (27220, 159,          1) /* WieldSkillType - Axe */
      , (27220, 160,        150) /* WieldDifficulty */
-     , (27220, 172,          1) /* AppraisalLongDescDecoration */
+     , (27220, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (27220, 265,         20) /* EquipmentSetId - Dexterous */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

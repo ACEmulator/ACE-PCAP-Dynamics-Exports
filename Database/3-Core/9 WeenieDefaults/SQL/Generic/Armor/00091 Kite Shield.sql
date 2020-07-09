@@ -22,7 +22,7 @@ VALUES (91,   1,          2) /* ItemType - Armor */
      , (91, 115,         48) /* ItemSkillLevelLimit */
      , (91, 131,         64) /* MaterialType - Steel */
      , (91, 151,          2) /* HookType - Wall */
-     , (91, 172,          1) /* AppraisalLongDescDecoration */;
+     , (91, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (91,  22, True ) /* Inscribable */;

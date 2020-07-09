@@ -24,7 +24,7 @@ VALUES (38465,   1,          2) /* ItemType - Armor */
      , (38465, 158,          9) /* WieldRequirements - IntStat */
      , (38465, 159,        287) /* WieldSkillType */
      , (38465, 160,        601) /* WieldDifficulty */
-     , (38465, 172,          1) /* AppraisalLongDescDecoration */
+     , (38465, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (38465, 265,         30) /* EquipmentSetId - SocietyArmor */
      , (38465, 375,          1) /* GearCritDamageResist */;
 

@@ -22,7 +22,7 @@ VALUES (8488,   1,          2) /* ItemType - Armor */
      , (8488, 115,        202) /* ItemSkillLevelLimit */
      , (8488, 131,         57) /* MaterialType - Brass */
      , (8488, 151,          2) /* HookType - Wall */
-     , (8488, 172,          5) /* AppraisalLongDescDecoration */
+     , (8488, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (8488, 177,          2) /* GemCount */
      , (8488, 178,         16) /* GemType */;
 

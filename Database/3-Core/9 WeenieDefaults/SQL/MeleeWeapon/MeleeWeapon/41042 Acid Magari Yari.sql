@@ -23,7 +23,7 @@ VALUES (41042,   1,          1) /* ItemType - MeleeWeapon */
      , (41042, 158,          2) /* WieldRequirements - RawSkill */
      , (41042, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41042, 160,        250) /* WieldDifficulty */
-     , (41042, 172,          1) /* AppraisalLongDescDecoration */
+     , (41042, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (41042, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

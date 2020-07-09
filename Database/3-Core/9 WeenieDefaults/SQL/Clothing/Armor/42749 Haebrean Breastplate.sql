@@ -21,7 +21,7 @@ VALUES (42749,   1,          2) /* ItemType - Armor */
      , (42749, 110,          0) /* ItemAllegianceRankLimit */
      , (42749, 115,          0) /* ItemSkillLevelLimit */
      , (42749, 131,         63) /* MaterialType - Silver */
-     , (42749, 172,          5) /* AppraisalLongDescDecoration */
+     , (42749, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (42749, 177,          4) /* GemCount */
      , (42749, 178,         41) /* GemType */;
 

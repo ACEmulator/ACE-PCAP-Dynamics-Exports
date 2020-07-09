@@ -26,7 +26,7 @@ VALUES (3833,   1,          1) /* ItemType - MeleeWeapon */
      , (3833, 115,        279) /* ItemSkillLevelLimit */
      , (3833, 131,         60) /* MaterialType - Gold */
      , (3833, 151,          2) /* HookType - Wall */
-     , (3833, 172,          7) /* AppraisalLongDescDecoration */
+     , (3833, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (3833, 177,          2) /* GemCount */
      , (3833, 178,         23) /* GemType */
      , (3833, 188,          3) /* HeritageGroup - Sho */

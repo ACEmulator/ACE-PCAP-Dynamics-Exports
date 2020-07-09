@@ -21,7 +21,7 @@ VALUES (90,   1,          2) /* ItemType - Armor */
      , (90, 110,          0) /* ItemAllegianceRankLimit */
      , (90, 115,        271) /* ItemSkillLevelLimit */
      , (90, 131,         63) /* MaterialType - Silver */
-     , (90, 172,          1) /* AppraisalLongDescDecoration */;
+     , (90, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (90,  22, True ) /* Inscribable */

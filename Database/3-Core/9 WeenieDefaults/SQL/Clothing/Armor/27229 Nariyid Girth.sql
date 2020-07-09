@@ -24,7 +24,7 @@ VALUES (27229,   1,          2) /* ItemType - Armor */
      , (27229, 158,          7) /* WieldRequirements - Level */
      , (27229, 159,          1) /* WieldSkillType - Axe */
      , (27229, 160,        180) /* WieldDifficulty */
-     , (27229, 172,          1) /* AppraisalLongDescDecoration */
+     , (27229, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (27229, 265,         22) /* EquipmentSetId - Swift */
      , (27229, 375,          2) /* GearCritDamageResist */;
 

@@ -21,7 +21,7 @@ VALUES (2592,   1,          4) /* ItemType - Clothing */
      , (2592, 110,          0) /* ItemAllegianceRankLimit */
      , (2592, 115,          0) /* ItemSkillLevelLimit */
      , (2592, 131,          8) /* MaterialType - Wool */
-     , (2592, 172,          5) /* AppraisalLongDescDecoration */
+     , (2592, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (2592, 177,          1) /* GemCount */
      , (2592, 178,         34) /* GemType */;
 

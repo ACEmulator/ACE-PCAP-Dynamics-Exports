@@ -26,7 +26,7 @@ VALUES (37199,   1,          2) /* ItemType - Armor */
      , (37199, 158,          2) /* WieldRequirements - RawSkill */
      , (37199, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37199, 160,        410) /* WieldDifficulty */
-     , (37199, 172,          5) /* AppraisalLongDescDecoration */
+     , (37199, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (37199, 177,          3) /* GemCount */
      , (37199, 178,         23) /* GemType */
      , (37199, 265,         26) /* EquipmentSetId - Flameproof */

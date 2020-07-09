@@ -27,7 +27,7 @@ VALUES (40626,   1,          1) /* ItemType - MeleeWeapon */
      , (40626, 115,        121) /* ItemSkillLevelLimit */
      , (40626, 131,         51) /* MaterialType - Ivory */
      , (40626, 151,          2) /* HookType - Wall */
-     , (40626, 172,          1) /* AppraisalLongDescDecoration */
+     , (40626, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (40626, 292,          2) /* Cleaving */
      , (40626, 353,         11) /* WeaponType - TwoHanded */;
 

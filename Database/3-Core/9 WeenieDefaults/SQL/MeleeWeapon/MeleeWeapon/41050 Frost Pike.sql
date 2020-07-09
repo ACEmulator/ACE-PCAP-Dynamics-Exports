@@ -29,7 +29,7 @@ VALUES (41050,   1,          1) /* ItemType - MeleeWeapon */
      , (41050, 158,          2) /* WieldRequirements - RawSkill */
      , (41050, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41050, 160,        325) /* WieldDifficulty */
-     , (41050, 172,          5) /* AppraisalLongDescDecoration */
+     , (41050, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (41050, 177,          1) /* GemCount */
      , (41050, 178,         13) /* GemType */
      , (41050, 353,         11) /* WeaponType - TwoHanded */;

@@ -29,7 +29,7 @@ VALUES (31822,   1,      32768) /* ItemType - Caster */
      , (31822, 160,        385) /* WieldDifficulty */
      , (31822, 166,         14) /* SlayerCreatureType - Undead */
      , (31822, 171,         10) /* NumTimesTinkered */
-     , (31822, 172,          5) /* AppraisalLongDescDecoration */
+     , (31822, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (31822, 177,          2) /* GemCount */
      , (31822, 178,         38) /* GemType */
      , (31822, 179,          1) /* ImbuedEffect - CriticalStrike */

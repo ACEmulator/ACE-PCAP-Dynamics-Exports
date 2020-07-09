@@ -22,7 +22,7 @@ VALUES (45,   1,          2) /* ItemType - Armor */
      , (45, 115,        316) /* ItemSkillLevelLimit */
      , (45, 131,         54) /* MaterialType - GromnieHide */
      , (45, 151,          2) /* HookType - Wall */
-     , (45, 172,          5) /* AppraisalLongDescDecoration */
+     , (45, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (45, 177,          4) /* GemCount */
      , (45, 178,         22) /* GemType */;
 

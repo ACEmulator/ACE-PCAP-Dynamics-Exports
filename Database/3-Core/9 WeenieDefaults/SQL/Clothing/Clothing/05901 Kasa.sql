@@ -21,7 +21,7 @@ VALUES (5901,   1,          4) /* ItemType - Clothing */
      , (5901, 115,          0) /* ItemSkillLevelLimit */
      , (5901, 131,          6) /* MaterialType - Silk */
      , (5901, 151,          2) /* HookType - Wall */
-     , (5901, 172,          1) /* AppraisalLongDescDecoration */;
+     , (5901, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5901,  22, True ) /* Inscribable */

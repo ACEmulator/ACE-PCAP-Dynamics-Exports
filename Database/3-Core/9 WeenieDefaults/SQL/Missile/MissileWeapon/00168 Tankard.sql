@@ -25,7 +25,7 @@ VALUES (168,   1,        256) /* ItemType - MissileWeapon */
      , (168, 115,          0) /* ItemSkillLevelLimit */
      , (168, 131,          1) /* MaterialType - Ceramic */
      , (168, 151,          1) /* HookType - Floor */
-     , (168, 172,          1) /* AppraisalLongDescDecoration */
+     , (168, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (168, 353,         10) /* WeaponType - Thrown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

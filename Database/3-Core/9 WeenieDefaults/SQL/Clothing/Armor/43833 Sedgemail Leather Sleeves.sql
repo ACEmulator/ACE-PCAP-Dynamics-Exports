@@ -21,7 +21,7 @@ VALUES (43833,   1,          2) /* ItemType - Armor */
      , (43833, 110,          0) /* ItemAllegianceRankLimit */
      , (43833, 115,          0) /* ItemSkillLevelLimit */
      , (43833, 131,         54) /* MaterialType - GromnieHide */
-     , (43833, 172,          1) /* AppraisalLongDescDecoration */;
+     , (43833, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43833,  22, True ) /* Inscribable */

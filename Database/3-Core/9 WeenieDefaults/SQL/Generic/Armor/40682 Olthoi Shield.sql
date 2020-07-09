@@ -26,7 +26,7 @@ VALUES (40682,   1,          2) /* ItemType - Armor */
      , (40682, 158,          2) /* WieldRequirements - RawSkill */
      , (40682, 159,          7) /* WieldSkillType - MissileDefense */
      , (40682, 160,        205) /* WieldDifficulty */
-     , (40682, 172,          5) /* AppraisalLongDescDecoration */
+     , (40682, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (40682, 177,          3) /* GemCount */
      , (40682, 178,         47) /* GemType */
      , (40682, 270,          7) /* WieldRequirements2 - Level */

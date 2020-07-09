@@ -15,7 +15,7 @@ VALUES (25636,   1,          2) /* ItemType - Armor */
      , (25636, 105,          6) /* ItemWorkmanship */
      , (25636, 131,         54) /* MaterialType - GromnieHide */
      , (25636, 151,          2) /* HookType - Wall */
-     , (25636, 172,          5) /* AppraisalLongDescDecoration */
+     , (25636, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (25636, 177,          1) /* GemCount */
      , (25636, 178,         30) /* GemType */;
 

@@ -21,7 +21,7 @@ VALUES (114,   1,          2) /* ItemType - Armor */
      , (114, 110,          0) /* ItemAllegianceRankLimit */
      , (114, 115,          0) /* ItemSkillLevelLimit */
      , (114, 131,         58) /* MaterialType - Bronze */
-     , (114, 172,          5) /* AppraisalLongDescDecoration */
+     , (114, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (114, 177,          2) /* GemCount */
      , (114, 178,         33) /* GemType */;
 

@@ -26,7 +26,7 @@ VALUES (328,   1,          1) /* ItemType - MeleeWeapon */
      , (328, 115,        294) /* ItemSkillLevelLimit */
      , (328, 131,         60) /* MaterialType - Gold */
      , (328, 151,          2) /* HookType - Wall */
-     , (328, 172,          7) /* AppraisalLongDescDecoration */
+     , (328, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (328, 177,          2) /* GemCount */
      , (328, 178,         38) /* GemType */
      , (328, 353,          6) /* WeaponType - Dagger */;

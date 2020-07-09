@@ -15,7 +15,7 @@ VALUES (2604,   1,          4) /* ItemType - Clothing */
      , (2604,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2604, 105,          5) /* ItemWorkmanship */
      , (2604, 131,          5) /* MaterialType - Satin */
-     , (2604, 172,          5) /* AppraisalLongDescDecoration */
+     , (2604, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (2604, 177,          1) /* GemCount */
      , (2604, 178,         41) /* GemType */;
 
