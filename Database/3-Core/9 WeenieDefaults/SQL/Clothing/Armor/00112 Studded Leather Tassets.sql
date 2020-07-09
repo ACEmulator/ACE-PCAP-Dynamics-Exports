@@ -21,8 +21,7 @@ VALUES (112,   1,          2) /* ItemType - Armor */
      , (112, 110,          0) /* ItemAllegianceRankLimit */
      , (112, 115,        234) /* ItemSkillLevelLimit */
      , (112, 131,         53) /* MaterialType - ArmoredilloHide */
-     , (112, 172,          1) /* AppraisalLongDescDecoration */
-     , (112, 176,          6) /* AppraisalItemSkill */;
+     , (112, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (112,  22, True ) /* Inscribable */
@@ -49,7 +48,8 @@ VALUES (112,   1,   33554656) /* Setup */
      , (112,   3,  536870932) /* SoundTable */
      , (112,   6,   67108990) /* PaletteBase */
      , (112,   8,  100673353) /* Icon */
-     , (112,  22,  872415275) /* PhysicsEffectTable */;
+     , (112,  22,  872415275) /* PhysicsEffectTable */
+     , (112,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (112,  1485,      2) 

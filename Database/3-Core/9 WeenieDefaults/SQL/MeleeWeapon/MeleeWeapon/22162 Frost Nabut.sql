@@ -30,7 +30,6 @@ VALUES (22162,   1,          1) /* ItemType - MeleeWeapon */
      , (22162, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (22162, 160,        400) /* WieldDifficulty */
      , (22162, 172,          5) /* AppraisalLongDescDecoration */
-     , (22162, 176,         44) /* AppraisalItemSkill */
      , (22162, 177,          4) /* GemCount */
      , (22162, 178,         23) /* GemType */
      , (22162, 353,          7) /* WeaponType - Staff */;
@@ -58,7 +57,8 @@ VALUES (22162,   1,   33558073) /* Setup */
      , (22162,   3,  536870932) /* SoundTable */
      , (22162,   6,   67111919) /* PaletteBase */
      , (22162,   8,  100673626) /* Icon */
-     , (22162,  22,  872415275) /* PhysicsEffectTable */;
+     , (22162,  22,  872415275) /* PhysicsEffectTable */
+     , (22162,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22162,  2096,      2) 

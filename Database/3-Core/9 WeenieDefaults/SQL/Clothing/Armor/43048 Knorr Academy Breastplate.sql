@@ -22,7 +22,6 @@ VALUES (43048,   1,          2) /* ItemType - Armor */
      , (43048, 115,        249) /* ItemSkillLevelLimit */
      , (43048, 131,         54) /* MaterialType - GromnieHide */
      , (43048, 172,          7) /* AppraisalLongDescDecoration */
-     , (43048, 176,          6) /* AppraisalItemSkill */
      , (43048, 177,          4) /* GemCount */
      , (43048, 178,         20) /* GemType */;
 
@@ -50,7 +49,8 @@ VALUES (43048,   1,   33554642) /* Setup */
      , (43048,   3,  536870932) /* SoundTable */
      , (43048,   6,   67108990) /* PaletteBase */
      , (43048,   8,  100691382) /* Icon */
-     , (43048,  22,  872415275) /* PhysicsEffectTable */;
+     , (43048,  22,  872415275) /* PhysicsEffectTable */
+     , (43048,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43048, 8040, 23855555, 56.08102, -35.19884, -0.004999995, 1, 0, 0, 0.0001543763) /* PCAPRecordedLocation */

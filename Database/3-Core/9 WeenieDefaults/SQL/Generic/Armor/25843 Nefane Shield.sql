@@ -21,8 +21,7 @@ VALUES (25843,   1,          2) /* ItemType - Armor */
      , (25843, 151,          2) /* HookType - Wall */
      , (25843, 158,          7) /* WieldRequirements - Level */
      , (25843, 159,          1) /* WieldSkillType - Axe */
-     , (25843, 160,        100) /* WieldDifficulty */
-     , (25843, 176,         48) /* AppraisalItemSkill */;
+     , (25843, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25843,  22, True ) /* Inscribable */;
@@ -53,6 +52,7 @@ VALUES (25843,   1,   33558556) /* Setup */
      , (25843,   6,   67114787) /* PaletteBase */
      , (25843,   8,  100675625) /* Icon */
      , (25843,  22,  872415275) /* PhysicsEffectTable */
+     , (25843,  37,         48) /* ItemSkillLimit - Shield */
      , (25843,  50,  100673110) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

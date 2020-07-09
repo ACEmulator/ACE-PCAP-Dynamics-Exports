@@ -22,8 +22,7 @@ VALUES (27650,   1,      32768) /* ItemType - Caster */
      , (27650, 151,          2) /* HookType - Wall */
      , (27650, 158,          7) /* WieldRequirements - Level */
      , (27650, 159,          1) /* WieldSkillType - Axe */
-     , (27650, 160,         70) /* WieldDifficulty */
-     , (27650, 176,         34) /* AppraisalItemSkill */;
+     , (27650, 160,         70) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27650,  22, True ) /* Inscribable */;
@@ -43,7 +42,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (27650,   1,   33558746) /* Setup */
      , (27650,   3,  536870932) /* SoundTable */
      , (27650,   8,  100676535) /* Icon */
-     , (27650,  22,  872415275) /* PhysicsEffectTable */;
+     , (27650,  22,  872415275) /* PhysicsEffectTable */
+     , (27650,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (27650, 8040, 23855554, 55.85811, -33.74102, -0.071, -0.1173266, -0.1173266, -0.6973051, -0.6973051) /* PCAPRecordedLocation */

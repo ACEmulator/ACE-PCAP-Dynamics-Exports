@@ -20,8 +20,7 @@ VALUES (35185,   1,      32768) /* ItemType - Caster */
      , (35185, 109,        121) /* ItemDifficulty */
      , (35185, 114,          0) /* Attuned - Normal */
      , (35185, 115,        315) /* ItemSkillLevelLimit */
-     , (35185, 151,          2) /* HookType - Wall */
-     , (35185, 176,         31) /* AppraisalItemSkill */;
+     , (35185, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35185,  22, True ) /* Inscribable */
@@ -44,7 +43,8 @@ VALUES (35185,   1,   33556870) /* Setup */
      , (35185,   6,   67109300) /* PaletteBase */
      , (35185,   8,  100669116) /* Icon */
      , (35185,  22,  872415275) /* PhysicsEffectTable */
-     , (35185,  28,       2348) /* Spell - BrillianceOther */;
+     , (35185,  28,       2348) /* Spell - BrillianceOther */
+     , (35185,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35185, 8040, 3465871413, 155.0885, 94.30751, 19.929, 0.6314903, 0.6314903, -0.3181509, -0.3181509) /* PCAPRecordedLocation */

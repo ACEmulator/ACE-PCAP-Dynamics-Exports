@@ -16,8 +16,7 @@ VALUES (2031,   1,      32768) /* ItemType - Caster */
      , (2031, 107,        509) /* ItemCurMana */
      , (2031, 108,        600) /* ItemMaxMana */
      , (2031, 115,        100) /* ItemSkillLevelLimit */
-     , (2031, 151,          2) /* HookType - Wall */
-     , (2031, 176,         34) /* AppraisalItemSkill */;
+     , (2031, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2031,  22, True ) /* Inscribable */;
@@ -39,7 +38,8 @@ VALUES (2031,   1,   33558283) /* Setup */
      , (2031,   3,  536870932) /* SoundTable */
      , (2031,   8,  100674234) /* Icon */
      , (2031,  22,  872415275) /* PhysicsEffectTable */
-     , (2031,  28,       2742) /* Spell - FlameArc4 */;
+     , (2031,  28,       2742) /* Spell - FlameArc4 */
+     , (2031,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2031,   215,      2) 

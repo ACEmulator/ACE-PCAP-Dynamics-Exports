@@ -28,7 +28,6 @@ VALUES (30571,   1,          1) /* ItemType - MeleeWeapon */
      , (30571, 151,          2) /* HookType - Wall */
      , (30571, 171,          8) /* NumTimesTinkered */
      , (30571, 172,          7) /* AppraisalLongDescDecoration */
-     , (30571, 176,         44) /* AppraisalItemSkill */
      , (30571, 177,          1) /* GemCount */
      , (30571, 178,         15) /* GemType */
      , (30571, 179,          8) /* ImbuedEffect - SlashRending */
@@ -59,7 +58,8 @@ VALUES (30571,   1,   33559317) /* Setup */
      , (30571,   3,  536870932) /* SoundTable */
      , (30571,   6,   67115557) /* PaletteBase */
      , (30571,   8,  100686944) /* Icon */
-     , (30571,  22,  872415275) /* PhysicsEffectTable */;
+     , (30571,  22,  872415275) /* PhysicsEffectTable */
+     , (30571,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30571, 8040, 565182751, 31.77688, 61.92346, -0.3710001, -0.7062502, -0.7062502, -0.03479462, -0.03479462) /* PCAPRecordedLocation */

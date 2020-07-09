@@ -28,7 +28,6 @@ VALUES (40626,   1,          1) /* ItemType - MeleeWeapon */
      , (40626, 131,         51) /* MaterialType - Ivory */
      , (40626, 151,          2) /* HookType - Wall */
      , (40626, 172,          1) /* AppraisalLongDescDecoration */
-     , (40626, 176,         41) /* AppraisalItemSkill */
      , (40626, 292,          2) /* Cleaving */
      , (40626, 353,         11) /* WeaponType - TwoHanded */;
 
@@ -56,6 +55,7 @@ VALUES (40626,   1,   33560723) /* Setup */
      , (40626,   6,   67116833) /* PaletteBase */
      , (40626,   8,  100690784) /* Icon */
      , (40626,  22,  872415275) /* PhysicsEffectTable */
+     , (40626,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40626,  50,  100688854) /* IconOverlay */
      , (40626,  52,  100676441) /* IconUnderlay */;
 

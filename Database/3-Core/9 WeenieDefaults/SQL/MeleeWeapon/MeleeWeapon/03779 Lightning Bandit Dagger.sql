@@ -28,7 +28,6 @@ VALUES (3779,   1,          1) /* ItemType - MeleeWeapon */
      , (3779, 115,        225) /* ItemSkillLevelLimit */
      , (3779, 131,         24) /* MaterialType - GreenJade */
      , (3779, 151,          2) /* HookType - Wall */
-     , (3779, 176,         46) /* AppraisalItemSkill */
      , (3779, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,7 +54,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3779,   1,   33555707) /* Setup */
      , (3779,   3,  536870932) /* SoundTable */
      , (3779,   8,  100667589) /* Icon */
-     , (3779,  22,  872415275) /* PhysicsEffectTable */;
+     , (3779,  22,  872415275) /* PhysicsEffectTable */
+     , (3779,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3779,  1330,      2) 

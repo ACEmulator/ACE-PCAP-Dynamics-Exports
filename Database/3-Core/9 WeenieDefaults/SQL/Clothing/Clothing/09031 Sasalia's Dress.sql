@@ -16,8 +16,7 @@ VALUES (9031,   1,          4) /* ItemType - Clothing */
      , (9031, 107,        500) /* ItemCurMana */
      , (9031, 108,       1000) /* ItemMaxMana */
      , (9031, 109,         10) /* ItemDifficulty */
-     , (9031, 115,        200) /* ItemSkillLevelLimit */
-     , (9031, 176,         39) /* AppraisalItemSkill */;
+     , (9031, 115,        200) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9031,  22, True ) /* Inscribable */;
@@ -42,7 +41,8 @@ VALUES (9031,   1,   33554854) /* Setup */
      , (9031,   3,  536870932) /* SoundTable */
      , (9031,   6,   67108990) /* PaletteBase */
      , (9031,   8,  100671174) /* Icon */
-     , (9031,  22,  872415275) /* PhysicsEffectTable */;
+     , (9031,  22,  872415275) /* PhysicsEffectTable */
+     , (9031,  37,         39) /* ItemSkillLimit - Cooking */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9031,  1713,      2) ;

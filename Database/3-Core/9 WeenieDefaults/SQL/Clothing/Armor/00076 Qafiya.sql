@@ -28,7 +28,6 @@ VALUES (76,   1,          2) /* ItemType - Armor */
      , (76, 160,        180) /* WieldDifficulty */
      , (76, 171,         10) /* NumTimesTinkered */
      , (76, 172,          5) /* AppraisalLongDescDecoration */
-     , (76, 176,          6) /* AppraisalItemSkill */
      , (76, 177,          3) /* GemCount */
      , (76, 178,         41) /* GemType */
      , (76, 265,         16) /* EquipmentSetId - Defenders */
@@ -60,7 +59,8 @@ VALUES (76,   1,   33554652) /* Setup */
      , (76,   3,  536870932) /* SoundTable */
      , (76,   6,   67108990) /* PaletteBase */
      , (76,   8,  100669446) /* Icon */
-     , (76,  22,  872415275) /* PhysicsEffectTable */;
+     , (76,  22,  872415275) /* PhysicsEffectTable */
+     , (76,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (76,  4407,      2) 

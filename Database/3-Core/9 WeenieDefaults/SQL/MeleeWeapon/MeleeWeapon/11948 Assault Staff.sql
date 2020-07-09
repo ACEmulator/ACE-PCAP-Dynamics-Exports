@@ -23,7 +23,6 @@ VALUES (11948,   1,          1) /* ItemType - MeleeWeapon */
      , (11948, 109,        120) /* ItemDifficulty */
      , (11948, 115,        225) /* ItemSkillLevelLimit */
      , (11948, 151,          2) /* HookType - Wall */
-     , (11948, 176,         46) /* AppraisalItemSkill */
      , (11948, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +49,8 @@ VALUES (11948,   1,   33557206) /* Setup */
      , (11948,   3,  536870932) /* SoundTable */
      , (11948,   6,   67111919) /* PaletteBase */
      , (11948,   8,  100671748) /* Icon */
-     , (11948,  22,  872415275) /* PhysicsEffectTable */;
+     , (11948,  22,  872415275) /* PhysicsEffectTable */
+     , (11948,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11948,   248,      2) 

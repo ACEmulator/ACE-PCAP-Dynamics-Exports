@@ -18,8 +18,7 @@ VALUES (12024,   1,          2) /* ItemType - Armor */
      , (12024, 108,        700) /* ItemMaxMana */
      , (12024, 109,        140) /* ItemDifficulty */
      , (12024, 115,        360) /* ItemSkillLevelLimit */
-     , (12024, 151,          2) /* HookType - Wall */
-     , (12024, 176,         48) /* AppraisalItemSkill */;
+     , (12024, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12024,  22, True ) /* Inscribable */;
@@ -44,7 +43,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (12024,   1,   33557043) /* Setup */
      , (12024,   3,  536870932) /* SoundTable */
      , (12024,   8,  100672103) /* Icon */
-     , (12024,  22,  872415275) /* PhysicsEffectTable */;
+     , (12024,  22,  872415275) /* PhysicsEffectTable */
+     , (12024,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12024,   248,      2) 

@@ -30,7 +30,6 @@ VALUES (31780,   1,          1) /* ItemType - MeleeWeapon */
      , (31780, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31780, 160,        325) /* WieldDifficulty */
      , (31780, 172,          1) /* AppraisalLongDescDecoration */
-     , (31780, 176,         44) /* AppraisalItemSkill */
      , (31780, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,7 +53,8 @@ VALUES (31780,   1,   33559653) /* Setup */
      , (31780,   3,  536870932) /* SoundTable */
      , (31780,   6,   67116700) /* PaletteBase */
      , (31780,   8,  100688099) /* Icon */
-     , (31780,  22,  872415275) /* PhysicsEffectTable */;
+     , (31780,  22,  872415275) /* PhysicsEffectTable */
+     , (31780,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31780,  1604,      2) 

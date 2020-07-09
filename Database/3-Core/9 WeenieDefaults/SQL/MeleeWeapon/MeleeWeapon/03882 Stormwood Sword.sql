@@ -31,7 +31,6 @@ VALUES (3882,   1,          1) /* ItemType - MeleeWeapon */
      , (3882, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (3882, 160,        420) /* WieldDifficulty */
      , (3882, 172,          5) /* AppraisalLongDescDecoration */
-     , (3882, 176,         44) /* AppraisalItemSkill */
      , (3882, 177,          3) /* GemCount */
      , (3882, 178,         21) /* GemType */
      , (3882, 353,          2) /* WeaponType - Sword */;
@@ -58,6 +57,7 @@ VALUES (3882,   1,   33561671) /* Setup */
      , (3882,   3,  536870932) /* SoundTable */
      , (3882,   8,  100693342) /* Icon */
      , (3882,  22,  872415275) /* PhysicsEffectTable */
+     , (3882,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3882,  50,  100688854) /* IconOverlay */
      , (3882,  52,  100676436) /* IconUnderlay */;
 

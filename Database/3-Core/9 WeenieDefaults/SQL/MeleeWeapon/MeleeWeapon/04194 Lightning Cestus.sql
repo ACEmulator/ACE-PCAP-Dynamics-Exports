@@ -28,7 +28,6 @@ VALUES (4194,   1,          1) /* ItemType - MeleeWeapon */
      , (4194, 131,         59) /* MaterialType - Copper */
      , (4194, 151,          2) /* HookType - Wall */
      , (4194, 172,          1) /* AppraisalLongDescDecoration */
-     , (4194, 176,         44) /* AppraisalItemSkill */
      , (4194, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,7 +51,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (4194,   1,   33555995) /* Setup */
      , (4194,   3,  536870932) /* SoundTable */
      , (4194,   8,  100670025) /* Icon */
-     , (4194,  22,  872415275) /* PhysicsEffectTable */;
+     , (4194,  22,  872415275) /* PhysicsEffectTable */
+     , (4194,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4194, 8040, 2315387410, 58.6641, -89.9231, 5.929749, 0.7071068, 0.7071068, 0, 0) /* PCAPRecordedLocation */

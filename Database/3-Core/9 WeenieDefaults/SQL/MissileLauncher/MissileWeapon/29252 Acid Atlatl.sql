@@ -30,7 +30,6 @@ VALUES (29252,   1,        256) /* ItemType - MissileWeapon */
      , (29252, 159,         47) /* WieldSkillType - MissileWeapons */
      , (29252, 160,        315) /* WieldDifficulty */
      , (29252, 172,          5) /* AppraisalLongDescDecoration */
-     , (29252, 176,         47) /* AppraisalItemSkill */
      , (29252, 177,          3) /* GemCount */
      , (29252, 178,         39) /* GemType */
      , (29252, 204,          4) /* ElementalDamageBonus */
@@ -60,6 +59,7 @@ VALUES (29252,   1,   33559247) /* Setup */
      , (29252,   6,   67115373) /* PaletteBase */
      , (29252,   8,  100677456) /* Icon */
      , (29252,  22,  872415275) /* PhysicsEffectTable */
+     , (29252,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29252,  52,  100676437) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

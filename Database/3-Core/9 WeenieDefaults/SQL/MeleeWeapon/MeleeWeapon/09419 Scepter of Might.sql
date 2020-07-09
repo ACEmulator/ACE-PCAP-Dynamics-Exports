@@ -23,7 +23,6 @@ VALUES (9419,   1,          1) /* ItemType - MeleeWeapon */
      , (9419, 110,          0) /* ItemAllegianceRankLimit */
      , (9419, 115,        180) /* ItemSkillLevelLimit */
      , (9419, 151,          2) /* HookType - Wall */
-     , (9419, 176,          6) /* AppraisalItemSkill */
      , (9419, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,7 +47,8 @@ VALUES (9419,   1,   33557013) /* Setup */
      , (9419,   3,  536870932) /* SoundTable */
      , (9419,   6,   67111919) /* PaletteBase */
      , (9419,   8,  100671509) /* Icon */
-     , (9419,  22,  872415275) /* PhysicsEffectTable */;
+     , (9419,  22,  872415275) /* PhysicsEffectTable */
+     , (9419,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9419,  1093,      2) 

@@ -27,7 +27,6 @@ VALUES (3795,   1,          1) /* ItemType - MeleeWeapon */
      , (3795, 131,         47) /* MaterialType - WhiteSapphire */
      , (3795, 151,          2) /* HookType - Wall */
      , (3795, 172,          7) /* AppraisalLongDescDecoration */
-     , (3795, 176,         46) /* AppraisalItemSkill */
      , (3795, 177,          2) /* GemCount */
      , (3795, 178,         20) /* GemType */
      , (3795, 188,          2) /* HeritageGroup - Gharundim */
@@ -56,7 +55,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3795,   1,   33555728) /* Setup */
      , (3795,   3,  536870932) /* SoundTable */
      , (3795,   8,  100667592) /* Icon */
-     , (3795,  22,  872415275) /* PhysicsEffectTable */;
+     , (3795,  22,  872415275) /* PhysicsEffectTable */
+     , (3795,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3795,  1332,      2) 

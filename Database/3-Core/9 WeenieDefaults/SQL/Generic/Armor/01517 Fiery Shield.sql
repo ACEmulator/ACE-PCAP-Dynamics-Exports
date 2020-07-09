@@ -19,8 +19,7 @@ VALUES (1517,   1,          2) /* ItemType - Armor */
      , (1517, 108,        576) /* ItemMaxMana */
      , (1517, 109,         71) /* ItemDifficulty */
      , (1517, 115,        182) /* ItemSkillLevelLimit */
-     , (1517, 151,          2) /* HookType - Wall */
-     , (1517, 176,          7) /* AppraisalItemSkill */;
+     , (1517, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (1517,  22, True ) /* Inscribable */;
@@ -47,7 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1517,   1,   33555416) /* Setup */
      , (1517,   6,   67111459) /* PaletteBase */
      , (1517,   8,  100668582) /* Icon */
-     , (1517,  22,  872415275) /* PhysicsEffectTable */;
+     , (1517,  22,  872415275) /* PhysicsEffectTable */
+     , (1517,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1517, 8040, 459077, 70.0605, -80.0325, -0.07400001, 0.403672, 0.64903, -0.5373489, 0.356462) /* PCAPRecordedLocation */

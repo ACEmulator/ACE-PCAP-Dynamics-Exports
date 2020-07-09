@@ -25,7 +25,6 @@ VALUES (38465,   1,          2) /* ItemType - Armor */
      , (38465, 159,        287) /* WieldSkillType */
      , (38465, 160,        601) /* WieldDifficulty */
      , (38465, 172,          1) /* AppraisalLongDescDecoration */
-     , (38465, 176,          7) /* AppraisalItemSkill */
      , (38465, 265,         30) /* EquipmentSetId - SocietyArmor */
      , (38465, 375,          1) /* GearCritDamageResist */;
 
@@ -52,7 +51,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38465,   1,   33554647) /* Setup */
      , (38465,   3,  536870932) /* SoundTable */
      , (38465,   8,  100690165) /* Icon */
-     , (38465,  22,  872415275) /* PhysicsEffectTable */;
+     , (38465,  22,  872415275) /* PhysicsEffectTable */
+     , (38465,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38465,  2108,      2) 

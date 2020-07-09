@@ -24,7 +24,6 @@ VALUES (7438,   1,          1) /* ItemType - MeleeWeapon */
      , (7438, 109,        158) /* ItemDifficulty */
      , (7438, 115,        280) /* ItemSkillLevelLimit */
      , (7438, 151,          2) /* HookType - Wall */
-     , (7438, 176,         44) /* AppraisalItemSkill */
      , (7438, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -48,7 +47,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (7438,   1,   33555927) /* Setup */
      , (7438,   3,  536870932) /* SoundTable */
      , (7438,   8,  100669772) /* Icon */
-     , (7438,  22,  872415275) /* PhysicsEffectTable */;
+     , (7438,  22,  872415275) /* PhysicsEffectTable */
+     , (7438,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7438,  1335,      2) 

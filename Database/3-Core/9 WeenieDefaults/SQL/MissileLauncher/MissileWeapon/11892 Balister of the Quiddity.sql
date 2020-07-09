@@ -23,7 +23,6 @@ VALUES (11892,   1,        256) /* ItemType - MissileWeapon */
      , (11892, 108,       1000) /* ItemMaxMana */
      , (11892, 109,          1) /* ItemDifficulty */
      , (11892, 115,        200) /* ItemSkillLevelLimit */
-     , (11892, 176,         47) /* AppraisalItemSkill */
      , (11892, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,7 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11892,   1,   33557112) /* Setup */
      , (11892,   3,  536870932) /* SoundTable */
      , (11892,   8,  100671701) /* Icon */
-     , (11892,  22,  872415275) /* PhysicsEffectTable */;
+     , (11892,  22,  872415275) /* PhysicsEffectTable */
+     , (11892,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11892, 8040, 447873068, 133.7667, 84.07578, 21.931, 1, 0, 0, 0) /* PCAPRecordedLocation */

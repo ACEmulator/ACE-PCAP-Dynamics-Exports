@@ -30,7 +30,6 @@ VALUES (30561,   1,          1) /* ItemType - MeleeWeapon */
      , (30561, 159,         45) /* WieldSkillType - LightWeapons */
      , (30561, 160,        250) /* WieldDifficulty */
      , (30561, 172,          1) /* AppraisalLongDescDecoration */
-     , (30561, 176,         45) /* AppraisalItemSkill */
      , (30561, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,7 +55,8 @@ VALUES (30561,   1,   33559318) /* Setup */
      , (30561,   6,   67115558) /* PaletteBase */
      , (30561,   8,  100686924) /* Icon */
      , (30561,  22,  872415275) /* PhysicsEffectTable */
-     , (30561,  30,         88) /* PhysicsScript - Create */;
+     , (30561,  30,         88) /* PhysicsScript - Create */
+     , (30561,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30561, 8040, 669777939, 56.21616, 65.62837, 79.92901, -0.70539, -0.70539, -0.04924337, -0.04924337) /* PCAPRecordedLocation */

@@ -26,7 +26,6 @@ VALUES (8964,   1,          1) /* ItemType - MeleeWeapon */
      , (8964, 114,          0) /* Attuned - Normal */
      , (8964, 115,        280) /* ItemSkillLevelLimit */
      , (8964, 151,          2) /* HookType - Wall */
-     , (8964, 176,         44) /* AppraisalItemSkill */
      , (8964, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,7 +55,8 @@ VALUES (8964,   1,   33556949) /* Setup */
      , (8964,   3,  536870932) /* SoundTable */
      , (8964,   6,   67111919) /* PaletteBase */
      , (8964,   8,  100671325) /* Icon */
-     , (8964,  22,  872415275) /* PhysicsEffectTable */;
+     , (8964,  22,  872415275) /* PhysicsEffectTable */
+     , (8964,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8964, 8040, 3332964380, 80.74062, 93.23186, 41.929, 0.6113259, 0.6113259, -0.3553599, -0.3553599) /* PCAPRecordedLocation */

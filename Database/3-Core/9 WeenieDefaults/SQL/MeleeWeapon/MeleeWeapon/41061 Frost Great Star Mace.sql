@@ -30,7 +30,6 @@ VALUES (41061,   1,          1) /* ItemType - MeleeWeapon */
      , (41061, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41061, 160,        325) /* WieldDifficulty */
      , (41061, 172,          1) /* AppraisalLongDescDecoration */
-     , (41061, 176,         41) /* AppraisalItemSkill */
      , (41061, 292,          2) /* Cleaving */
      , (41061, 353,         11) /* WeaponType - TwoHanded */;
 
@@ -55,7 +54,8 @@ VALUES (41061,   1,   33560831) /* Setup */
      , (41061,   3,  536870932) /* SoundTable */
      , (41061,   6,   67115558) /* PaletteBase */
      , (41061,   8,  100690536) /* Icon */
-     , (41061,  22,  872415275) /* PhysicsEffectTable */;
+     , (41061,  22,  872415275) /* PhysicsEffectTable */
+     , (41061,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41061,  1591,      2) 

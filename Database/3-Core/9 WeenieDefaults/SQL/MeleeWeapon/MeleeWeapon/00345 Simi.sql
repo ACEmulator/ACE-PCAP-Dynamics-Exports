@@ -26,7 +26,6 @@ VALUES (345,   1,          1) /* ItemType - MeleeWeapon */
      , (345, 131,         51) /* MaterialType - Ivory */
      , (345, 151,          2) /* HookType - Wall */
      , (345, 172,          7) /* AppraisalLongDescDecoration */
-     , (345, 176,         44) /* AppraisalItemSkill */
      , (345, 177,          1) /* GemCount */
      , (345, 178,         16) /* GemType */
      , (345, 353,          2) /* WeaponType - Sword */;
@@ -53,7 +52,8 @@ VALUES (345,   1,   33554751) /* Setup */
      , (345,   3,  536870932) /* SoundTable */
      , (345,   6,   67111919) /* PaletteBase */
      , (345,   8,  100668996) /* Icon */
-     , (345,  22,  872415275) /* PhysicsEffectTable */;
+     , (345,  22,  872415275) /* PhysicsEffectTable */
+     , (345,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (345, 8040, 3246326018, 32.68492, 105.4881, 29.45, 0.707721, 0, 0, 0.706492) /* PCAPRecordedLocation */

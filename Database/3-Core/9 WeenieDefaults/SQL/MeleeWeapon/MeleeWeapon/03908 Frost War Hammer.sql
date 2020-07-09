@@ -27,7 +27,6 @@ VALUES (3908,   1,          1) /* ItemType - MeleeWeapon */
      , (3908, 131,         75) /* MaterialType - Oak */
      , (3908, 151,          2) /* HookType - Wall */
      , (3908, 172,          1) /* AppraisalLongDescDecoration */
-     , (3908, 176,         45) /* AppraisalItemSkill */
      , (3908, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3908,   1,   33555820) /* Setup */
      , (3908,   3,  536870932) /* SoundTable */
      , (3908,   8,  100669074) /* Icon */
-     , (3908,  22,  872415275) /* PhysicsEffectTable */;
+     , (3908,  22,  872415275) /* PhysicsEffectTable */
+     , (3908,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3908,    35,      2) 

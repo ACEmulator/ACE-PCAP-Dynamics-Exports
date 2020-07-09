@@ -27,7 +27,6 @@ VALUES (31786,   1,          1) /* ItemType - MeleeWeapon */
      , (31786, 131,         59) /* MaterialType - Copper */
      , (31786, 151,          2) /* HookType - Wall */
      , (31786, 172,          1) /* AppraisalLongDescDecoration */
-     , (31786, 176,         46) /* AppraisalItemSkill */
      , (31786, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,7 +51,8 @@ VALUES (31786,   1,   33559642) /* Setup */
      , (31786,   3,  536870932) /* SoundTable */
      , (31786,   6,   67116700) /* PaletteBase */
      , (31786,   8,  100688077) /* Icon */
-     , (31786,  22,  872415275) /* PhysicsEffectTable */;
+     , (31786,  22,  872415275) /* PhysicsEffectTable */
+     , (31786,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31786,    35,      2) ;

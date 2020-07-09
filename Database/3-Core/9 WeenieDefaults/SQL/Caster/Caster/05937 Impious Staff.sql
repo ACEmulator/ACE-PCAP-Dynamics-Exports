@@ -23,7 +23,6 @@ VALUES (5937,   1,      32768) /* ItemType - Caster */
      , (5937, 115,        270) /* ItemSkillLevelLimit */
      , (5937, 117,        150) /* ItemManaCost */
      , (5937, 151,          2) /* HookType - Wall */
-     , (5937, 176,         34) /* AppraisalItemSkill */
      , (5937, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -47,7 +46,8 @@ VALUES (5937,   1,   33555022) /* Setup */
      , (5937,   6,   67111919) /* PaletteBase */
      , (5937,   8,  100669103) /* Icon */
      , (5937,  22,  872415275) /* PhysicsEffectTable */
-     , (5937,  28,         91) /* Spell - ForceBolt6 */;
+     , (5937,  28,         91) /* Spell - ForceBolt6 */
+     , (5937,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5937, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935199, -0.1379497, -0.1379497) /* PCAPRecordedLocation */

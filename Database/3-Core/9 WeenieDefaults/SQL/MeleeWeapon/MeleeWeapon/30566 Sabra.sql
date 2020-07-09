@@ -31,7 +31,6 @@ VALUES (30566,   1,          1) /* ItemType - MeleeWeapon */
      , (30566, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30566, 160,        400) /* WieldDifficulty */
      , (30566, 172,          5) /* AppraisalLongDescDecoration */
-     , (30566, 176,         46) /* AppraisalItemSkill */
      , (30566, 177,          2) /* GemCount */
      , (30566, 178,         13) /* GemType */
      , (30566, 353,          2) /* WeaponType - Sword */;
@@ -60,6 +59,7 @@ VALUES (30566,   1,   33559321) /* Setup */
      , (30566,   6,   67115557) /* PaletteBase */
      , (30566,   8,  100686935) /* Icon */
      , (30566,  22,  872415275) /* PhysicsEffectTable */
+     , (30566,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30566,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

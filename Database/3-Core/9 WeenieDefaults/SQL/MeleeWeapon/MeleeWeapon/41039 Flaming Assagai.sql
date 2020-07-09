@@ -31,7 +31,6 @@ VALUES (41039,   1,          1) /* ItemType - MeleeWeapon */
      , (41039, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41039, 160,        325) /* WieldDifficulty */
      , (41039, 172,          5) /* AppraisalLongDescDecoration */
-     , (41039, 176,         41) /* AppraisalItemSkill */
      , (41039, 177,          2) /* GemCount */
      , (41039, 178,         43) /* GemType */
      , (41039, 353,         11) /* WeaponType - TwoHanded */;
@@ -59,6 +58,7 @@ VALUES (41039,   1,   33560871) /* Setup */
      , (41039,   6,   67115558) /* PaletteBase */
      , (41039,   8,  100690630) /* Icon */
      , (41039,  22,  872415275) /* PhysicsEffectTable */
+     , (41039,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41039,  50,  100689143) /* IconOverlay */
      , (41039,  52,  100676441) /* IconUnderlay */;
 

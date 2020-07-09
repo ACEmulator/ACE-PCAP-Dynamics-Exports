@@ -30,7 +30,6 @@ VALUES (45421,   1,          1) /* ItemType - MeleeWeapon */
      , (45421, 159,         45) /* WieldSkillType - LightWeapons */
      , (45421, 160,        300) /* WieldDifficulty */
      , (45421, 172,          5) /* AppraisalLongDescDecoration */
-     , (45421, 176,         45) /* AppraisalItemSkill */
      , (45421, 177,          1) /* GemCount */
      , (45421, 178,         43) /* GemType */
      , (45421, 353,          6) /* WeaponType - Dagger */;
@@ -58,7 +57,8 @@ VALUES (45421,   1,   33554735) /* Setup */
      , (45421,   3,  536870932) /* SoundTable */
      , (45421,   6,   67111919) /* PaletteBase */
      , (45421,   8,  100668882) /* Icon */
-     , (45421,  22,  872415275) /* PhysicsEffectTable */;
+     , (45421,  22,  872415275) /* PhysicsEffectTable */
+     , (45421,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45421,  1331,      2) 

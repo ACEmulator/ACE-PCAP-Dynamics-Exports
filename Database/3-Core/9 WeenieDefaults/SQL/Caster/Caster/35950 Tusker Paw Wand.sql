@@ -24,8 +24,7 @@ VALUES (35950,   1,      32768) /* ItemType - Caster */
      , (35950, 158,          7) /* WieldRequirements - Level */
      , (35950, 159,          1) /* WieldSkillType - Axe */
      , (35950, 160,        130) /* WieldDifficulty */
-     , (35950, 166,          8) /* SlayerCreatureType - Tusker */
-     , (35950, 176,         16) /* AppraisalItemSkill */;
+     , (35950, 166,          8) /* SlayerCreatureType - Tusker */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35950,  22, True ) /* Inscribable */
@@ -46,7 +45,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (35950,   1,   33560345) /* Setup */
      , (35950,   3,  536870932) /* SoundTable */
      , (35950,   8,  100689567) /* Icon */
-     , (35950,  22,  872415275) /* PhysicsEffectTable */;
+     , (35950,  22,  872415275) /* PhysicsEffectTable */
+     , (35950,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (35950, 8040, 1615069445, 110.0935, -42.19381, -24.07, 0.6805488, 0.6805488, -0.1919721, -0.1919721) /* PCAPRecordedLocation */

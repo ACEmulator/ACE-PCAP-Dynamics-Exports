@@ -30,7 +30,6 @@ VALUES (301,   1,          1) /* ItemType - MeleeWeapon */
      , (301, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (301, 160,        325) /* WieldDifficulty */
      , (301, 172,          5) /* AppraisalLongDescDecoration */
-     , (301, 176,         44) /* AppraisalItemSkill */
      , (301, 177,          1) /* GemCount */
      , (301, 178,         48) /* GemType */
      , (301, 353,          3) /* WeaponType - Axe */;
@@ -59,7 +58,8 @@ VALUES (301,   1,   33554725) /* Setup */
      , (301,   6,   67111919) /* PaletteBase */
      , (301,   8,  100668986) /* Icon */
      , (301,  22,  872415275) /* PhysicsEffectTable */
-     , (301,  30,         88) /* PhysicsScript - Create */;
+     , (301,  30,         88) /* PhysicsScript - Create */
+     , (301,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (301, 8040, 3465871682, 155.2554, 30.84464, 19.929, -0.06593028, -0.06593028, -0.7040264, -0.7040264) /* PCAPRecordedLocation */

@@ -17,7 +17,6 @@ VALUES (41456,   1,       2048) /* ItemType - Gem */
      , (41456,  94,         16) /* TargetType - Creature */
      , (41456, 115,        175) /* ItemSkillLevelLimit */
      , (41456, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (41456, 176,         20) /* AppraisalItemSkill */
      , (41456, 280,          9) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -37,7 +36,8 @@ VALUES (41456,   1,   33554809) /* Setup */
      , (41456,   6,   67111919) /* PaletteBase */
      , (41456,   8,  100690696) /* Icon */
      , (41456,  22,  872415275) /* PhysicsEffectTable */
-     , (41456,  28,       5155) /* Spell - DeceptionArcane4 */;
+     , (41456,  28,       5155) /* Spell - DeceptionArcane4 */
+     , (41456,  37,         20) /* ItemSkillLimit - Deception */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41456,  5155,      2) ;

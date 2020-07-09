@@ -28,7 +28,6 @@ VALUES (41047,   1,          1) /* ItemType - MeleeWeapon */
      , (41047, 131,         63) /* MaterialType - Silver */
      , (41047, 151,          2) /* HookType - Wall */
      , (41047, 172,          1) /* AppraisalLongDescDecoration */
-     , (41047, 176,         41) /* AppraisalItemSkill */
      , (41047, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,6 +52,7 @@ VALUES (41047,   1,   33560876) /* Setup */
      , (41047,   6,   67115558) /* PaletteBase */
      , (41047,   8,  100690632) /* Icon */
      , (41047,  22,  872415275) /* PhysicsEffectTable */
+     , (41047,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41047,  50,  100688854) /* IconOverlay */
      , (41047,  52,  100676440) /* IconUnderlay */;
 

@@ -48,7 +48,7 @@ VALUES (11001,   1,   33557228) /* Setup */
      , (11001,   3,  536870932) /* SoundTable */
      , (11001,   8,  100671861) /* Icon */
      , (11001,  22,  872415275) /* PhysicsEffectTable */
-     , (11001,  41,         47) /* ItemSpecializedOnly */;
+     , (11001,  41,         47) /* ItemSpecializedOnly - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11001, 8040, 23855555, 63.96906, -35.80601, 0.4424978, 0.6959404, 0, 0, 0.7180996) /* PCAPRecordedLocation */

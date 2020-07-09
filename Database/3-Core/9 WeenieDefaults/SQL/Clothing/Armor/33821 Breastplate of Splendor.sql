@@ -20,8 +20,7 @@ VALUES (33821,   1,          2) /* ItemType - Armor */
      , (33821, 151,          2) /* HookType - Wall */
      , (33821, 158,          7) /* WieldRequirements - Level */
      , (33821, 159,          1) /* WieldSkillType - Axe */
-     , (33821, 160,        100) /* WieldDifficulty */
-     , (33821, 176,         14) /* AppraisalItemSkill */;
+     , (33821, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33821,  22, True ) /* Inscribable */
@@ -47,7 +46,8 @@ VALUES (33821,   1,   33560094) /* Setup */
      , (33821,   3,  536870932) /* SoundTable */
      , (33821,   6,   67108990) /* PaletteBase */
      , (33821,   8,  100668147) /* Icon */
-     , (33821,  22,  872415275) /* PhysicsEffectTable */;
+     , (33821,  22,  872415275) /* PhysicsEffectTable */
+     , (33821,  37,         14) /* ItemSkillLimit - ArcaneLore */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33821,  2108,      2) 

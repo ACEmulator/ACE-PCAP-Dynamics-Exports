@@ -25,7 +25,6 @@ VALUES (38473,   1,          2) /* ItemType - Armor */
      , (38473, 159,        288) /* WieldSkillType */
      , (38473, 160,          1) /* WieldDifficulty */
      , (38473, 172,          5) /* AppraisalLongDescDecoration */
-     , (38473, 176,          7) /* AppraisalItemSkill */
      , (38473, 177,          2) /* GemCount */
      , (38473, 178,         21) /* GemType */
      , (38473, 265,         30) /* EquipmentSetId - SocietyArmor */
@@ -54,7 +53,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38473,   1,   33554648) /* Setup */
      , (38473,   3,  536870932) /* SoundTable */
      , (38473,   8,  100688353) /* Icon */
-     , (38473,  22,  872415275) /* PhysicsEffectTable */;
+     , (38473,  22,  872415275) /* PhysicsEffectTable */
+     , (38473,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38473,  2113,      2) 

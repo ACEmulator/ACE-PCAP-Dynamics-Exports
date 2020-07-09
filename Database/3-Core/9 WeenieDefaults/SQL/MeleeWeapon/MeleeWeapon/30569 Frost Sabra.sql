@@ -31,7 +31,6 @@ VALUES (30569,   1,          1) /* ItemType - MeleeWeapon */
      , (30569, 160,        420) /* WieldDifficulty */
      , (30569, 171,         10) /* NumTimesTinkered */
      , (30569, 172,          7) /* AppraisalLongDescDecoration */
-     , (30569, 176,         44) /* AppraisalItemSkill */
      , (30569, 177,          5) /* GemCount */
      , (30569, 178,         26) /* GemType */
      , (30569, 179,          2) /* ImbuedEffect - CripplingBlow */
@@ -65,6 +64,7 @@ VALUES (30569,   1,   33559458) /* Setup */
      , (30569,   6,   67115557) /* PaletteBase */
      , (30569,   8,  100686942) /* Icon */
      , (30569,  22,  872415275) /* PhysicsEffectTable */
+     , (30569,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30569,  52,  100676439) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

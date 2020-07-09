@@ -17,8 +17,7 @@ VALUES (10976,   1,      32768) /* ItemType - Caster */
      , (10976, 107,        599) /* ItemCurMana */
      , (10976, 108,        600) /* ItemMaxMana */
      , (10976, 115,        225) /* ItemSkillLevelLimit */
-     , (10976, 151,          2) /* HookType - Wall */
-     , (10976, 176,         31) /* AppraisalItemSkill */;
+     , (10976, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10976,  22, True ) /* Inscribable */;
@@ -37,7 +36,8 @@ VALUES (10976,   1,   33557223) /* Setup */
      , (10976,   3,  536870932) /* SoundTable */
      , (10976,   8,  100671870) /* Icon */
      , (10976,  22,  872415275) /* PhysicsEffectTable */
-     , (10976,  28,       2421) /* Spell - ParalyzingFear */;
+     , (10976,  28,       2421) /* Spell - ParalyzingFear */
+     , (10976,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10976, 8040, 2847146009, 85.17939, 7.762755, 93.92901, 0.704927, 0.704927, -0.05547896, -0.05547896) /* PCAPRecordedLocation */

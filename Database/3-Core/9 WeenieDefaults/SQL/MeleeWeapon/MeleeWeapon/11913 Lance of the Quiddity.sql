@@ -23,7 +23,6 @@ VALUES (11913,   1,          1) /* ItemType - MeleeWeapon */
      , (11913, 108,       1000) /* ItemMaxMana */
      , (11913, 109,          1) /* ItemDifficulty */
      , (11913, 115,        200) /* ItemSkillLevelLimit */
-     , (11913, 176,         46) /* AppraisalItemSkill */
      , (11913, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -46,7 +45,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (11913,   1,   33557108) /* Setup */
      , (11913,   3,  536870932) /* SoundTable */
      , (11913,   8,  100671698) /* Icon */
-     , (11913,  22,  872415275) /* PhysicsEffectTable */;
+     , (11913,  22,  872415275) /* PhysicsEffectTable */
+     , (11913,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (11913, 8040, 498139392, 126.2042, 187.3563, -5.27, 0.0429107, 0.0429107, -0.7058036, -0.7058036) /* PCAPRecordedLocation */

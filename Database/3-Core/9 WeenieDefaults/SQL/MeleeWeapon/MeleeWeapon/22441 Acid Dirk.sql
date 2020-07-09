@@ -27,7 +27,6 @@ VALUES (22441,   1,          1) /* ItemType - MeleeWeapon */
      , (22441, 131,         57) /* MaterialType - Brass */
      , (22441, 151,          2) /* HookType - Wall */
      , (22441, 172,          1) /* AppraisalLongDescDecoration */
-     , (22441, 176,         44) /* AppraisalItemSkill */
      , (22441, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ VALUES (22441,   1,   33558092) /* Setup */
      , (22441,   3,  536870932) /* SoundTable */
      , (22441,   6,   67111919) /* PaletteBase */
      , (22441,   8,  100673790) /* Icon */
-     , (22441,  22,  872415275) /* PhysicsEffectTable */;
+     , (22441,  22,  872415275) /* PhysicsEffectTable */
+     , (22441,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22441,  1613,      2) ;

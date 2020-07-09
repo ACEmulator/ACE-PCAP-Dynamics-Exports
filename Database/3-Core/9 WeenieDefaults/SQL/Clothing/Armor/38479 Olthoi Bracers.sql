@@ -26,7 +26,6 @@ VALUES (38479,   1,          2) /* ItemType - Armor */
      , (38479, 160,        301) /* WieldDifficulty */
      , (38479, 171,         10) /* NumTimesTinkered */
      , (38479, 172,          5) /* AppraisalLongDescDecoration */
-     , (38479, 176,          6) /* AppraisalItemSkill */
      , (38479, 177,          2) /* GemCount */
      , (38479, 178,         38) /* GemType */
      , (38479, 265,         30) /* EquipmentSetId - SocietyArmor */;
@@ -55,7 +54,8 @@ VALUES (38479,   1,   33554641) /* Setup */
      , (38479,   3,  536870932) /* SoundTable */
      , (38479,   6,   67108990) /* PaletteBase */
      , (38479,   8,  100674525) /* Icon */
-     , (38479,  22,  872415275) /* PhysicsEffectTable */;
+     , (38479,  22,  872415275) /* PhysicsEffectTable */
+     , (38479,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38479,  2108,      2) 

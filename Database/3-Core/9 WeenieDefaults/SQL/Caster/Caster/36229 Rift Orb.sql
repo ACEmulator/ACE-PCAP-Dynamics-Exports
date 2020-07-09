@@ -17,7 +17,6 @@ VALUES (36229,   1,      32768) /* ItemType - Caster */
      , (36229, 109,          0) /* ItemDifficulty */
      , (36229, 115,        350) /* ItemSkillLevelLimit */
      , (36229, 151,          2) /* HookType - Wall */
-     , (36229, 176,         32) /* AppraisalItemSkill */
      , (36229, 179,         16) /* ImbuedEffect - PierceRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +39,8 @@ VALUES (36229,   1,   33560377) /* Setup */
      , (36229,   3,  536870932) /* SoundTable */
      , (36229,   8,  100689612) /* Icon */
      , (36229,  22,  872415275) /* PhysicsEffectTable */
-     , (36229,  28,       2100) /* Spell - Brittlemail7 */;
+     , (36229,  28,       2100) /* Spell - Brittlemail7 */
+     , (36229,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36229,  2014,      2) 

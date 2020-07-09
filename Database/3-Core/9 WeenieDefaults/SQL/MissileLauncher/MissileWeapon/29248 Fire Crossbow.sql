@@ -31,7 +31,6 @@ VALUES (29248,   1,        256) /* ItemType - MissileWeapon */
      , (29248, 159,         47) /* WieldSkillType - MissileWeapons */
      , (29248, 160,        315) /* WieldDifficulty */
      , (29248, 172,          5) /* AppraisalLongDescDecoration */
-     , (29248, 176,         47) /* AppraisalItemSkill */
      , (29248, 177,          3) /* GemCount */
      , (29248, 178,         20) /* GemType */
      , (29248, 204,          2) /* ElementalDamageBonus */
@@ -61,6 +60,7 @@ VALUES (29248,   1,   33559237) /* Setup */
      , (29248,   6,   67115373) /* PaletteBase */
      , (29248,   8,  100677446) /* Icon */
      , (29248,  22,  872415275) /* PhysicsEffectTable */
+     , (29248,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29248,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

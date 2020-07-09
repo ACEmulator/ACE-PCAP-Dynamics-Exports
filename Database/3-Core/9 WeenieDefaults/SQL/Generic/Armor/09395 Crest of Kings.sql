@@ -18,8 +18,7 @@ VALUES (9395,   1,          2) /* ItemType - Armor */
      , (9395, 109,          0) /* ItemDifficulty */
      , (9395, 110,          0) /* ItemAllegianceRankLimit */
      , (9395, 115,        230) /* ItemSkillLevelLimit */
-     , (9395, 151,          2) /* HookType - Wall */
-     , (9395, 176,         48) /* AppraisalItemSkill */;
+     , (9395, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9395,  22, True ) /* Inscribable */;
@@ -44,7 +43,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (9395,   1,   33557014) /* Setup */
      , (9395,   3,  536870932) /* SoundTable */
      , (9395,   8,  100671513) /* Icon */
-     , (9395,  22,  872415275) /* PhysicsEffectTable */;
+     , (9395,  22,  872415275) /* PhysicsEffectTable */
+     , (9395,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9395,   517,      2) 

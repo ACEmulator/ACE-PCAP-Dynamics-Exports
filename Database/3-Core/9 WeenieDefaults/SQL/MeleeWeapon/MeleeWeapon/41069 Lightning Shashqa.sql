@@ -28,7 +28,6 @@ VALUES (41069,   1,          1) /* ItemType - MeleeWeapon */
      , (41069, 131,         63) /* MaterialType - Silver */
      , (41069, 151,          2) /* HookType - Wall */
      , (41069, 172,          1) /* AppraisalLongDescDecoration */
-     , (41069, 176,         41) /* AppraisalItemSkill */
      , (41069, 292,          2) /* Cleaving */
      , (41069, 353,         11) /* WeaponType - TwoHanded */;
 
@@ -55,6 +54,7 @@ VALUES (41069,   1,   33560828) /* Setup */
      , (41069,   6,   67115557) /* PaletteBase */
      , (41069,   8,  100690518) /* Icon */
      , (41069,  22,  872415275) /* PhysicsEffectTable */
+     , (41069,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41069,  50,  100688854) /* IconOverlay */
      , (41069,  52,  100676436) /* IconUnderlay */;
 

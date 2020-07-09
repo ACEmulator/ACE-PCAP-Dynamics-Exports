@@ -25,7 +25,6 @@ VALUES (38480,   1,          2) /* ItemType - Armor */
      , (38480, 159,        288) /* WieldSkillType */
      , (38480, 160,          1) /* WieldDifficulty */
      , (38480, 172,          1) /* AppraisalLongDescDecoration */
-     , (38480, 176,          7) /* AppraisalItemSkill */
      , (38480, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38480,   1,   33554654) /* Setup */
      , (38480,   3,  536870932) /* SoundTable */
      , (38480,   8,  100690250) /* Icon */
-     , (38480,  22,  872415275) /* PhysicsEffectTable */;
+     , (38480,  22,  872415275) /* PhysicsEffectTable */
+     , (38480,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (38480, 8040, 2847146009, 89.09074, 15.52275, 93.99935, 0.5930352, 0, 0, -0.8051766) /* PCAPRecordedLocation */

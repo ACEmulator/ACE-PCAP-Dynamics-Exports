@@ -24,7 +24,6 @@ VALUES (28630,   1,          2) /* ItemType - Armor */
      , (28630, 159,          1) /* WieldSkillType - Axe */
      , (28630, 160,        180) /* WieldDifficulty */
      , (28630, 172,          5) /* AppraisalLongDescDecoration */
-     , (28630, 176,          6) /* AppraisalItemSkill */
      , (28630, 177,          4) /* GemCount */
      , (28630, 178,         38) /* GemType */
      , (28630, 265,         19) /* EquipmentSetId - Hearty */
@@ -54,7 +53,8 @@ VALUES (28630,   1,   33559339) /* Setup */
      , (28630,   3,  536870932) /* SoundTable */
      , (28630,   6,   67108990) /* PaletteBase */
      , (28630,   8,  100686229) /* Icon */
-     , (28630,  22,  872415275) /* PhysicsEffectTable */;
+     , (28630,  22,  872415275) /* PhysicsEffectTable */
+     , (28630,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28630,  1516,      2) 

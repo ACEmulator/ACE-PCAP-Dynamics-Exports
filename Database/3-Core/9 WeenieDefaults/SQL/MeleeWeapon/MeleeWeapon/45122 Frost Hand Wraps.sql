@@ -30,7 +30,6 @@ VALUES (45122,   1,          1) /* ItemType - MeleeWeapon */
      , (45122, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45122, 160,        300) /* WieldDifficulty */
      , (45122, 172,          1) /* AppraisalLongDescDecoration */
-     , (45122, 176,         46) /* AppraisalItemSkill */
      , (45122, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -57,6 +56,7 @@ VALUES (45122,   1,   33561414) /* Setup */
      , (45122,   6,   67115556) /* PaletteBase */
      , (45122,   8,  100692315) /* Icon */
      , (45122,  22,  872415275) /* PhysicsEffectTable */
+     , (45122,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45122,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

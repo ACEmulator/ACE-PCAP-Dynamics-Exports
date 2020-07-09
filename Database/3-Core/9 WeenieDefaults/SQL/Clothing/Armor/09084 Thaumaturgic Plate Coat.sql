@@ -17,8 +17,7 @@ VALUES (9084,   1,          2) /* ItemType - Armor */
      , (9084, 107,       1273) /* ItemCurMana */
      , (9084, 108,       2000) /* ItemMaxMana */
      , (9084, 109,         50) /* ItemDifficulty */
-     , (9084, 115,        270) /* ItemSkillLevelLimit */
-     , (9084, 176,         34) /* AppraisalItemSkill */;
+     , (9084, 115,        270) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (9084,  22, True ) /* Inscribable */
@@ -45,7 +44,8 @@ VALUES (9084,   1,   33554644) /* Setup */
      , (9084,   3,  536870932) /* SoundTable */
      , (9084,   6,   67108990) /* PaletteBase */
      , (9084,   8,  100671347) /* Icon */
-     , (9084,  22,  872415275) /* PhysicsEffectTable */;
+     , (9084,  22,  872415275) /* PhysicsEffectTable */
+     , (9084,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (9084,   664,      2) 

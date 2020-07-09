@@ -17,8 +17,7 @@ VALUES (31331,   1,      32768) /* ItemType - Caster */
      , (31331, 108,      12000) /* ItemMaxMana */
      , (31331, 114,          0) /* Attuned - Normal */
      , (31331, 115,        400) /* ItemSkillLevelLimit */
-     , (31331, 151,          2) /* HookType - Wall */
-     , (31331, 176,         28) /* AppraisalItemSkill */;
+     , (31331, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31331,  22, True ) /* Inscribable */
@@ -36,7 +35,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31331,   1,   33559612) /* Setup */
      , (31331,   3,  536870932) /* SoundTable */
      , (31331,   8,  100687946) /* Icon */
-     , (31331,  22,  872415275) /* PhysicsEffectTable */;
+     , (31331,  22,  872415275) /* PhysicsEffectTable */
+     , (31331,  37,         28) /* ItemSkillLimit - WeaponTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31331,  2325,      2) 

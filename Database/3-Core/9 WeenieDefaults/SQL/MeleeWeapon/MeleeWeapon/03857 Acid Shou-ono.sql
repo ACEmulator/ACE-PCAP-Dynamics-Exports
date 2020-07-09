@@ -30,7 +30,6 @@ VALUES (3857,   1,          1) /* ItemType - MeleeWeapon */
      , (3857, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3857, 160,        400) /* WieldDifficulty */
      , (3857, 172,          5) /* AppraisalLongDescDecoration */
-     , (3857, 176,         46) /* AppraisalItemSkill */
      , (3857, 177,          2) /* GemCount */
      , (3857, 178,         23) /* GemType */
      , (3857, 353,          3) /* WeaponType - Axe */;
@@ -56,7 +55,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3857,   1,   33555702) /* Setup */
      , (3857,   3,  536870932) /* SoundTable */
      , (3857,   8,  100670223) /* Icon */
-     , (3857,  22,  872415275) /* PhysicsEffectTable */;
+     , (3857,  22,  872415275) /* PhysicsEffectTable */
+     , (3857,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3857,  1354,      2) 

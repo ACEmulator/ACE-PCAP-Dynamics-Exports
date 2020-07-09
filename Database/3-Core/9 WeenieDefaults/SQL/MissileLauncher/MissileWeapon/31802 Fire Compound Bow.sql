@@ -32,7 +32,6 @@ VALUES (31802,   1,        256) /* ItemType - MissileWeapon */
      , (31802, 160,        375) /* WieldDifficulty */
      , (31802, 171,          9) /* NumTimesTinkered */
      , (31802, 172,          1) /* AppraisalLongDescDecoration */
-     , (31802, 176,         47) /* AppraisalItemSkill */
      , (31802, 179,        512) /* ImbuedEffect - FireRending */
      , (31802, 204,         14) /* ElementalDamageBonus */
      , (31802, 353,          8) /* WeaponType - Bow */;
@@ -62,6 +61,7 @@ VALUES (31802,   1,   33559668) /* Setup */
      , (31802,   6,   67116700) /* PaletteBase */
      , (31802,   8,  100688041) /* Icon */
      , (31802,  22,  872415275) /* PhysicsEffectTable */
+     , (31802,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (31802,  50,  100689143) /* IconOverlay */
      , (31802,  52,  100676441) /* IconUnderlay */;
 

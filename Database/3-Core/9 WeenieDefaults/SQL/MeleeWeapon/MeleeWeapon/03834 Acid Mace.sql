@@ -27,7 +27,6 @@ VALUES (3834,   1,          1) /* ItemType - MeleeWeapon */
      , (3834, 131,         75) /* MaterialType - Oak */
      , (3834, 151,          2) /* HookType - Wall */
      , (3834, 172,          1) /* AppraisalLongDescDecoration */
-     , (3834, 176,         44) /* AppraisalItemSkill */
      , (3834, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ VALUES (3834,   1,   33555759) /* Setup */
      , (3834,   3,  536870932) /* SoundTable */
      , (3834,   6,   67111919) /* PaletteBase */
      , (3834,   8,  100668964) /* Icon */
-     , (3834,  22,  872415275) /* PhysicsEffectTable */;
+     , (3834,  22,  872415275) /* PhysicsEffectTable */
+     , (3834,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3834,  1601,      2) 

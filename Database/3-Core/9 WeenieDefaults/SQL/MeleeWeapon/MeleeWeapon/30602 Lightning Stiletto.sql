@@ -27,7 +27,6 @@ VALUES (30602,   1,          1) /* ItemType - MeleeWeapon */
      , (30602, 131,         24) /* MaterialType - GreenJade */
      , (30602, 151,          2) /* HookType - Wall */
      , (30602, 172,          1) /* AppraisalLongDescDecoration */
-     , (30602, 176,         44) /* AppraisalItemSkill */
      , (30602, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ VALUES (30602,   1,   33559492) /* Setup */
      , (30602,   3,  536870932) /* SoundTable */
      , (30602,   6,   67116417) /* PaletteBase */
      , (30602,   8,  100687008) /* Icon */
-     , (30602,  22,  872415275) /* PhysicsEffectTable */;
+     , (30602,  22,  872415275) /* PhysicsEffectTable */
+     , (30602,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30602,    35,      2) 

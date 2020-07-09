@@ -17,8 +17,7 @@ VALUES (10971,   1,          8) /* ItemType - Jewelry */
      , (10971, 108,       1400) /* ItemMaxMana */
      , (10971, 109,          0) /* ItemDifficulty */
      , (10971, 110,          1) /* ItemAllegianceRankLimit */
-     , (10971, 115,         87) /* ItemSkillLevelLimit */
-     , (10971, 176,         36) /* AppraisalItemSkill */;
+     , (10971, 115,         87) /* ItemSkillLevelLimit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (10971,  22, True ) /* Inscribable */;
@@ -35,7 +34,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (10971,   1,   33554810) /* Setup */
      , (10971,   3,  536870932) /* SoundTable */
      , (10971,   8,  100671855) /* Icon */
-     , (10971,  22,  872415275) /* PhysicsEffectTable */;
+     , (10971,  22,  872415275) /* PhysicsEffectTable */
+     , (10971,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10971,   957,      2) 

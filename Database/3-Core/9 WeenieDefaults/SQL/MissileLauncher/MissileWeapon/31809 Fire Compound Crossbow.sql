@@ -32,7 +32,6 @@ VALUES (31809,   1,        256) /* ItemType - MissileWeapon */
      , (31809, 160,        375) /* WieldDifficulty */
      , (31809, 171,         10) /* NumTimesTinkered */
      , (31809, 172,          5) /* AppraisalLongDescDecoration */
-     , (31809, 176,         47) /* AppraisalItemSkill */
      , (31809, 177,          2) /* GemCount */
      , (31809, 178,         23) /* GemType */
      , (31809, 179,        512) /* ImbuedEffect - FireRending */
@@ -66,7 +65,8 @@ VALUES (31809,   1,   33559664) /* Setup */
      , (31809,   3,  536870932) /* SoundTable */
      , (31809,   6,   67116700) /* PaletteBase */
      , (31809,   8,  100688061) /* Icon */
-     , (31809,  22,  872415275) /* PhysicsEffectTable */;
+     , (31809,  22,  872415275) /* PhysicsEffectTable */
+     , (31809,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31809, 8040, 4095148079, 123.4321, 166.8162, 160.9007, 0.3218919, 0, 0, 0.9467764) /* PCAPRecordedLocation */

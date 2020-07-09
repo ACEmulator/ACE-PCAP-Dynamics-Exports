@@ -28,7 +28,6 @@ VALUES (30598,   1,          1) /* ItemType - MeleeWeapon */
      , (30598, 131,         51) /* MaterialType - Ivory */
      , (30598, 151,          2) /* HookType - Wall */
      , (30598, 172,          1) /* AppraisalLongDescDecoration */
-     , (30598, 176,         46) /* AppraisalItemSkill */
      , (30598, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,6 +53,7 @@ VALUES (30598,   1,   33559484) /* Setup */
      , (30598,   6,   67116417) /* PaletteBase */
      , (30598,   8,  100687001) /* Icon */
      , (30598,  22,  872415275) /* PhysicsEffectTable */
+     , (30598,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (30598,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

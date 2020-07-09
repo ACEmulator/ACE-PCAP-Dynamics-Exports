@@ -16,8 +16,7 @@ VALUES (3721,   1,      32768) /* ItemType - Caster */
      , (3721, 107,       2000) /* ItemCurMana */
      , (3721, 108,       2000) /* ItemMaxMana */
      , (3721, 115,        125) /* ItemSkillLevelLimit */
-     , (3721, 151,          2) /* HookType - Wall */
-     , (3721, 176,         33) /* AppraisalItemSkill */;
+     , (3721, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (3721,  22, True ) /* Inscribable */;
@@ -39,7 +38,8 @@ VALUES (3721,   1,   33558249) /* Setup */
      , (3721,   6,   67111928) /* PaletteBase */
      , (3721,   8,  100668730) /* Icon */
      , (3721,  22,  872415275) /* PhysicsEffectTable */
-     , (3721,  28,        145) /* Spell - FlameVolley5 */;
+     , (3721,  28,        145) /* Spell - FlameVolley5 */
+     , (3721,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3721,   145,      2) 

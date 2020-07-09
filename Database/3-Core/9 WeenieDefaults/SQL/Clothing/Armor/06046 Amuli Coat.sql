@@ -21,8 +21,7 @@ VALUES (6046,   1,          2) /* ItemType - Armor */
      , (6046, 110,          0) /* ItemAllegianceRankLimit */
      , (6046, 115,        184) /* ItemSkillLevelLimit */
      , (6046, 131,         57) /* MaterialType - Brass */
-     , (6046, 172,          1) /* AppraisalLongDescDecoration */
-     , (6046, 176,          7) /* AppraisalItemSkill */;
+     , (6046, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (6046,  22, True ) /* Inscribable */
@@ -48,7 +47,8 @@ VALUES (6046,   1,   33554854) /* Setup */
      , (6046,   3,  536870932) /* SoundTable */
      , (6046,   6,   67108990) /* PaletteBase */
      , (6046,   8,  100670433) /* Icon */
-     , (6046,  22,  872415275) /* PhysicsEffectTable */;
+     , (6046,  22,  872415275) /* PhysicsEffectTable */
+     , (6046,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6046, 8040, 23855555, 59.06112, -36.90448, -0.002499998, -0.6764553, 0, 0, -0.7364837) /* PCAPRecordedLocation */

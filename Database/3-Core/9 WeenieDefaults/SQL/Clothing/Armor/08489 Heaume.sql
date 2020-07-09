@@ -23,7 +23,6 @@ VALUES (8489,   1,          2) /* ItemType - Armor */
      , (8489, 131,         58) /* MaterialType - Bronze */
      , (8489, 151,          2) /* HookType - Wall */
      , (8489, 172,          5) /* AppraisalLongDescDecoration */
-     , (8489, 176,          7) /* AppraisalItemSkill */
      , (8489, 177,          2) /* GemCount */
      , (8489, 178,         33) /* GemType */;
 
@@ -51,7 +50,8 @@ VALUES (8489,   1,   33556883) /* Setup */
      , (8489,   3,  536870932) /* SoundTable */
      , (8489,   6,   67108990) /* PaletteBase */
      , (8489,   8,  100671198) /* Icon */
-     , (8489,  22,  872415275) /* PhysicsEffectTable */;
+     , (8489,  22,  872415275) /* PhysicsEffectTable */
+     , (8489,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8489,  1485,      2) 

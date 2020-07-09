@@ -28,7 +28,6 @@ VALUES (3827,   1,          1) /* ItemType - MeleeWeapon */
      , (3827, 151,          2) /* HookType - Wall */
      , (3827, 171,          6) /* NumTimesTinkered */
      , (3827, 172,          7) /* AppraisalLongDescDecoration */
-     , (3827, 176,         46) /* AppraisalItemSkill */
      , (3827, 177,          2) /* GemCount */
      , (3827, 178,         39) /* GemType */
      , (3827, 353,          6) /* WeaponType - Dagger */;
@@ -58,7 +57,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3827,   1,   33555748) /* Setup */
      , (3827,   3,  536870932) /* SoundTable */
      , (3827,   8,  100667597) /* Icon */
-     , (3827,  22,  872415275) /* PhysicsEffectTable */;
+     , (3827,  22,  872415275) /* PhysicsEffectTable */
+     , (3827,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3827,  1401,      2) 

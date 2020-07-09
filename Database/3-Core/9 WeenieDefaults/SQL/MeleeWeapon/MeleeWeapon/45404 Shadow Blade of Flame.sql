@@ -33,7 +33,6 @@ VALUES (45404,   1,          1) /* ItemType - MeleeWeapon */
      , (45404, 166,         14) /* SlayerCreatureType - Undead */
      , (45404, 171,         10) /* NumTimesTinkered */
      , (45404, 172,          5) /* AppraisalLongDescDecoration */
-     , (45404, 176,         46) /* AppraisalItemSkill */
      , (45404, 177,          4) /* GemCount */
      , (45404, 178,         20) /* GemType */
      , (45404, 179,        512) /* ImbuedEffect - FireRending */
@@ -69,6 +68,7 @@ VALUES (45404,   1,   33559905) /* Setup */
      , (45404,   6,   67111919) /* PaletteBase */
      , (45404,   8,  100688904) /* Icon */
      , (45404,  22,  872415275) /* PhysicsEffectTable */
+     , (45404,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45404,  50,  100689143) /* IconOverlay */
      , (45404,  52,  100676441) /* IconUnderlay */;
 

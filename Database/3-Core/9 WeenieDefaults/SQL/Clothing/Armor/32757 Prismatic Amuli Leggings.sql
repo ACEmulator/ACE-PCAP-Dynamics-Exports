@@ -20,8 +20,7 @@ VALUES (32757,   1,          2) /* ItemType - Armor */
      , (32757, 115,        380) /* ItemSkillLevelLimit */
      , (32757, 158,          7) /* WieldRequirements - Level */
      , (32757, 159,          1) /* WieldSkillType - Axe */
-     , (32757, 160,        100) /* WieldDifficulty */
-     , (32757, 176,          6) /* AppraisalItemSkill */;
+     , (32757, 160,        100) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (32757,  22, True ) /* Inscribable */;
@@ -45,7 +44,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (32757,   1,   33554856) /* Setup */
      , (32757,   3,  536870932) /* SoundTable */
      , (32757,   8,  100688616) /* Icon */
-     , (32757,  22,  872415275) /* PhysicsEffectTable */;
+     , (32757,  22,  872415275) /* PhysicsEffectTable */
+     , (32757,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32757,  2108,      2) 

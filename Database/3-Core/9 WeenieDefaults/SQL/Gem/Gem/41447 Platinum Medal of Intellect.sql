@@ -17,7 +17,6 @@ VALUES (41447,   1,       2048) /* ItemType - Gem */
      , (41447,  94,         16) /* TargetType - Creature */
      , (41447, 115,        225) /* ItemSkillLevelLimit */
      , (41447, 151,         11) /* HookType - Floor, Wall, Yard */
-     , (41447, 176,         36) /* AppraisalItemSkill */
      , (41447, 280,          8) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -36,7 +35,8 @@ VALUES (41447,   1,   33554802) /* Setup */
      , (41447,   3,  536870932) /* SoundTable */
      , (41447,   8,  100690741) /* Icon */
      , (41447,  22,  872415275) /* PhysicsEffectTable */
-     , (41447,  28,       5127) /* Spell - AnswerOfLoyaltyMana5 */;
+     , (41447,  28,       5127) /* Spell - AnswerOfLoyaltyMana5 */
+     , (41447,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41447,  5127,      2) ;

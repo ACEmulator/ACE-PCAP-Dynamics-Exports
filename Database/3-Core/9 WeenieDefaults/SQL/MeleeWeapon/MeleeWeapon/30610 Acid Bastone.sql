@@ -30,7 +30,6 @@ VALUES (30610,   1,          1) /* ItemType - MeleeWeapon */
      , (30610, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30610, 160,        370) /* WieldDifficulty */
      , (30610, 172,          5) /* AppraisalLongDescDecoration */
-     , (30610, 176,         46) /* AppraisalItemSkill */
      , (30610, 177,          3) /* GemCount */
      , (30610, 178,         26) /* GemType */
      , (30610, 353,          7) /* WeaponType - Staff */;
@@ -56,7 +55,8 @@ VALUES (30610,   1,   33559496) /* Setup */
      , (30610,   3,  536870932) /* SoundTable */
      , (30610,   6,   67116428) /* PaletteBase */
      , (30610,   8,  100687024) /* Icon */
-     , (30610,  22,  872415275) /* PhysicsEffectTable */;
+     , (30610,  22,  872415275) /* PhysicsEffectTable */
+     , (30610,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30610, 8040, 12321027, 24.00742, -14.67607, -35.969, 0.4576451, 0, 0, -0.8891349) /* PCAPRecordedLocation */

@@ -26,7 +26,6 @@ VALUES (333,   1,          1) /* ItemType - MeleeWeapon */
      , (333, 115,        167) /* ItemSkillLevelLimit */
      , (333, 131,         73) /* MaterialType - Ebony */
      , (333, 151,          2) /* HookType - Wall */
-     , (333, 176,         45) /* AppraisalItemSkill */
      , (333, 353,          7) /* WeaponType - Staff */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ VALUES (333,   1,   33554749) /* Setup */
      , (333,   3,  536870932) /* SoundTable */
      , (333,   6,   67111919) /* PaletteBase */
      , (333,   8,  100669105) /* Icon */
-     , (333,  22,  872415275) /* PhysicsEffectTable */;
+     , (333,  22,  872415275) /* PhysicsEffectTable */
+     , (333,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (333, 8040, 2103705918, 89.90535, 62.09169, 11.929, -0.5380818, -0.5380818, -0.4587678, -0.4587678) /* PCAPRecordedLocation */

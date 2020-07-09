@@ -32,7 +32,6 @@ VALUES (30578,   1,          1) /* ItemType - MeleeWeapon */
      , (30578, 160,        430) /* WieldDifficulty */
      , (30578, 171,          9) /* NumTimesTinkered */
      , (30578, 172,          5) /* AppraisalLongDescDecoration */
-     , (30578, 176,         44) /* AppraisalItemSkill */
      , (30578, 177,          6) /* GemCount */
      , (30578, 178,         13) /* GemType */
      , (30578, 179,        128) /* ImbuedEffect - ColdRending */
@@ -65,6 +64,7 @@ VALUES (30578,   1,   33559466) /* Setup */
      , (30578,   6,   67115557) /* PaletteBase */
      , (30578,   8,  100686955) /* Icon */
      , (30578,  22,  872415275) /* PhysicsEffectTable */
+     , (30578,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30578,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
