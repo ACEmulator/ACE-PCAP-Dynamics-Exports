@@ -32,7 +32,6 @@ VALUES (3878,   1,          1) /* ItemType - MeleeWeapon */
      , (3878, 160,        420) /* WieldDifficulty */
      , (3878, 171,         10) /* NumTimesTinkered */
      , (3878, 172,          7) /* AppraisalLongDescDecoration */
-     , (3878, 176,         44) /* AppraisalItemSkill */
      , (3878, 177,          3) /* GemCount */
      , (3878, 178,         38) /* GemType */
      , (3878, 179,        256) /* ImbuedEffect - ElectricRending */
@@ -63,6 +62,7 @@ VALUES (3878,   1,   33555807) /* Setup */
      , (3878,   3,  536870932) /* SoundTable */
      , (3878,   8,  100667610) /* Icon */
      , (3878,  22,  872415275) /* PhysicsEffectTable */
+     , (3878,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (3878,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

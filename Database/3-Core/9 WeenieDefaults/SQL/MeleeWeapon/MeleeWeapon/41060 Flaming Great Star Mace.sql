@@ -30,7 +30,6 @@ VALUES (41060,   1,          1) /* ItemType - MeleeWeapon */
      , (41060, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41060, 160,        250) /* WieldDifficulty */
      , (41060, 172,          3) /* AppraisalLongDescDecoration */
-     , (41060, 176,         41) /* AppraisalItemSkill */
      , (41060, 292,          2) /* Cleaving */
      , (41060, 353,         11) /* WeaponType - TwoHanded */;
 
@@ -55,7 +54,8 @@ VALUES (41060,   1,   33560830) /* Setup */
      , (41060,   3,  536870932) /* SoundTable */
      , (41060,   6,   67115558) /* PaletteBase */
      , (41060,   8,  100690534) /* Icon */
-     , (41060,  22,  872415275) /* PhysicsEffectTable */;
+     , (41060,  22,  872415275) /* PhysicsEffectTable */
+     , (41060,  37,         41) /* ItemSkillLimit - TwoHandedCombat */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (41060, 8040, 23855554, 55.31837, -31.83311, 0, 0.6309341, 0, 0, -0.7758365) /* PCAPRecordedLocation */

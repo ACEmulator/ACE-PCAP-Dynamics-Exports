@@ -27,7 +27,6 @@ VALUES (40632,   1,          1) /* ItemType - MeleeWeapon */
      , (40632, 158,          2) /* WieldRequirements - RawSkill */
      , (40632, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (40632, 160,        370) /* WieldDifficulty */
-     , (40632, 176,         44) /* AppraisalItemSkill */
      , (40632, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,6 +53,7 @@ VALUES (40632,   1,   33559483) /* Setup */
      , (40632,   6,   67116417) /* PaletteBase */
      , (40632,   8,  100686996) /* Icon */
      , (40632,  22,  872415275) /* PhysicsEffectTable */
+     , (40632,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (40632,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

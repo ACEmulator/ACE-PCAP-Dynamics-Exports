@@ -25,7 +25,6 @@ VALUES (37214,   1,          2) /* ItemType - Armor */
      , (37214, 159,          1) /* WieldSkillType - Axe */
      , (37214, 160,        150) /* WieldDifficulty */
      , (37214, 172,          7) /* AppraisalLongDescDecoration */
-     , (37214, 176,          7) /* AppraisalItemSkill */
      , (37214, 177,          4) /* GemCount */
      , (37214, 178,         47) /* GemType */;
 
@@ -52,7 +51,8 @@ VALUES (37214,   1,   33554642) /* Setup */
      , (37214,   3,  536870932) /* SoundTable */
      , (37214,   6,   67108990) /* PaletteBase */
      , (37214,   8,  100674635) /* Icon */
-     , (37214,  22,  872415275) /* PhysicsEffectTable */;
+     , (37214,  22,  872415275) /* PhysicsEffectTable */
+     , (37214,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37214, 8040, 23855473, 21.8771, -61.83859, -0.004999995, -0.1638941, 0, 0, -0.9864779) /* PCAPRecordedLocation */

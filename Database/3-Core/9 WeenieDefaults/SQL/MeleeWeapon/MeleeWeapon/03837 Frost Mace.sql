@@ -30,7 +30,6 @@ VALUES (3837,   1,          1) /* ItemType - MeleeWeapon */
      , (3837, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (3837, 160,        325) /* WieldDifficulty */
      , (3837, 172,          1) /* AppraisalLongDescDecoration */
-     , (3837, 176,         44) /* AppraisalItemSkill */
      , (3837, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,7 +53,8 @@ VALUES (3837,   1,   33555741) /* Setup */
      , (3837,   3,  536870932) /* SoundTable */
      , (3837,   6,   67111919) /* PaletteBase */
      , (3837,   8,  100668964) /* Icon */
-     , (3837,  22,  872415275) /* PhysicsEffectTable */;
+     , (3837,  22,  872415275) /* PhysicsEffectTable */
+     , (3837,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3837,  1591,      2) 

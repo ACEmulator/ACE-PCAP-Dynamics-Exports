@@ -45,7 +45,7 @@ VALUES (9033,   1,   33554644) /* Setup */
      , (9033,   6,   67108990) /* PaletteBase */
      , (9033,   8,  100671343) /* Icon */
      , (9033,  22,  872415275) /* PhysicsEffectTable */
-     , (9033,  41,         34) /* ItemSpecializedOnly */;
+     , (9033,  41,         34) /* ItemSpecializedOnly - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (9033, 8040, 23855549, 51.54626, -38.16533, -0.004999995, 0.08194411, 0, 0, -0.9966369) /* PCAPRecordedLocation */

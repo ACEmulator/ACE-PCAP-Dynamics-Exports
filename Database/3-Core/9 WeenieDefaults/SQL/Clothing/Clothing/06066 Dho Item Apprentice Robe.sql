@@ -18,7 +18,6 @@ VALUES (6066,   1,          4) /* ItemType - Clothing */
      , (6066, 108,        250) /* ItemMaxMana */
      , (6066, 109,         20) /* ItemDifficulty */
      , (6066, 115,         70) /* ItemSkillLevelLimit */
-     , (6066, 176,         32) /* AppraisalItemSkill */
      , (6066, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +43,8 @@ VALUES (6066,   1,   33554854) /* Setup */
      , (6066,   3,  536870932) /* SoundTable */
      , (6066,   6,   67108990) /* PaletteBase */
      , (6066,   8,  100670367) /* Icon */
-     , (6066,  22,  872415275) /* PhysicsEffectTable */;
+     , (6066,  22,  872415275) /* PhysicsEffectTable */
+     , (6066,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6066, 8040, 2380464147, 57.57808, 49.05045, 51.90767, 0.6731111, 0, 0, -0.7395414) /* PCAPRecordedLocation */

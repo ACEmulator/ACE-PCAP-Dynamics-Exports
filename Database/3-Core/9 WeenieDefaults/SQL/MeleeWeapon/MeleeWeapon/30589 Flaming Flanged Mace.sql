@@ -31,7 +31,6 @@ VALUES (30589,   1,          1) /* ItemType - MeleeWeapon */
      , (30589, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30589, 160,        325) /* WieldDifficulty */
      , (30589, 172,          1) /* AppraisalLongDescDecoration */
-     , (30589, 176,         44) /* AppraisalItemSkill */
      , (30589, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,6 +55,7 @@ VALUES (30589,   1,   33559475) /* Setup */
      , (30589,   6,   67115559) /* PaletteBase */
      , (30589,   8,  100686974) /* Icon */
      , (30589,  22,  872415275) /* PhysicsEffectTable */
+     , (30589,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (30589,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

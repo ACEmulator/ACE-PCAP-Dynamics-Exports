@@ -21,8 +21,7 @@ VALUES (74,   1,          2) /* ItemType - Armor */
      , (74, 110,          0) /* ItemAllegianceRankLimit */
      , (74, 115,        180) /* ItemSkillLevelLimit */
      , (74, 131,         63) /* MaterialType - Silver */
-     , (74, 151,          2) /* HookType - Wall */
-     , (74, 176,          7) /* AppraisalItemSkill */;
+     , (74, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (74,  22, True ) /* Inscribable */
@@ -51,7 +50,8 @@ VALUES (74,   1,   33555248) /* Setup */
      , (74,   3,  536870932) /* SoundTable */
      , (74,   6,   67108990) /* PaletteBase */
      , (74,   8,  100669663) /* Icon */
-     , (74,  22,  872415275) /* PhysicsEffectTable */;
+     , (74,  22,  872415275) /* PhysicsEffectTable */
+     , (74,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (74,   191,      2) 

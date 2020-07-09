@@ -18,7 +18,6 @@ VALUES (5910,   1,          4) /* ItemType - Clothing */
      , (5910, 108,        416) /* ItemMaxMana */
      , (5910, 109,        158) /* ItemDifficulty */
      , (5910, 115,        190) /* ItemSkillLevelLimit */
-     , (5910, 176,         34) /* AppraisalItemSkill */
      , (5910, 188,          2) /* HeritageGroup - Gharundim */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +43,8 @@ VALUES (5910,   1,   33554854) /* Setup */
      , (5910,   3,  536870932) /* SoundTable */
      , (5910,   6,   67108990) /* PaletteBase */
      , (5910,   8,  100670371) /* Icon */
-     , (5910,  22,  872415275) /* PhysicsEffectTable */;
+     , (5910,  22,  872415275) /* PhysicsEffectTable */
+     , (5910,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5910,   571,      2) 

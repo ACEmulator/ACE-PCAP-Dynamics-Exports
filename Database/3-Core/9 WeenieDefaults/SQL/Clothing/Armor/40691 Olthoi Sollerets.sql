@@ -25,7 +25,6 @@ VALUES (40691,   1,          2) /* ItemType - Armor */
      , (40691, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40691, 160,        370) /* WieldDifficulty */
      , (40691, 172,          1) /* AppraisalLongDescDecoration */
-     , (40691, 176,          7) /* AppraisalItemSkill */
      , (40691, 270,          7) /* WieldRequirements2 - Level */
      , (40691, 271,          1) /* WieldSkillType2 - Axe */
      , (40691, 272,        150) /* WieldDifficulty2 */;
@@ -54,7 +53,8 @@ VALUES (40691,   1,   33554654) /* Setup */
      , (40691,   3,  536870932) /* SoundTable */
      , (40691,   6,   67108990) /* PaletteBase */
      , (40691,   8,  100674543) /* Icon */
-     , (40691,  22,  872415275) /* PhysicsEffectTable */;
+     , (40691,  22,  872415275) /* PhysicsEffectTable */
+     , (40691,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (40691, 8040, 23855473, 22.08619, -64.75161, -0.0006459951, 0.8307009, 0, 0, -0.5567189) /* PCAPRecordedLocation */

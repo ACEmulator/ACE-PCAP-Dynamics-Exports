@@ -25,7 +25,6 @@ VALUES (1427,   1,          1) /* ItemType - MeleeWeapon */
      , (1427, 109,        158) /* ItemDifficulty */
      , (1427, 115,        280) /* ItemSkillLevelLimit */
      , (1427, 151,          2) /* HookType - Wall */
-     , (1427, 176,         44) /* AppraisalItemSkill */
      , (1427, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +49,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (1427,   1,   33555927) /* Setup */
      , (1427,   3,  536870932) /* SoundTable */
      , (1427,   8,  100669772) /* Icon */
-     , (1427,  22,  872415275) /* PhysicsEffectTable */;
+     , (1427,  22,  872415275) /* PhysicsEffectTable */
+     , (1427,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1427, 8040, 17105794, 104.748, -210.03, -0.071, 0.5261058, 0.5261058, -0.4724539, -0.4724539) /* PCAPRecordedLocation */

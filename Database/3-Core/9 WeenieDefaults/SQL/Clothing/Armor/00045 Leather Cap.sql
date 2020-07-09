@@ -23,7 +23,6 @@ VALUES (45,   1,          2) /* ItemType - Armor */
      , (45, 131,         54) /* MaterialType - GromnieHide */
      , (45, 151,          2) /* HookType - Wall */
      , (45, 172,          5) /* AppraisalLongDescDecoration */
-     , (45, 176,          6) /* AppraisalItemSkill */
      , (45, 177,          4) /* GemCount */
      , (45, 178,         22) /* GemType */;
 
@@ -51,7 +50,8 @@ VALUES (45,   1,   33554643) /* Setup */
      , (45,   3,  536870932) /* SoundTable */
      , (45,   6,   67108990) /* PaletteBase */
      , (45,   8,  100669171) /* Icon */
-     , (45,  22,  872415275) /* PhysicsEffectTable */;
+     , (45,  22,  872415275) /* PhysicsEffectTable */
+     , (45,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45,  1486,      2) 

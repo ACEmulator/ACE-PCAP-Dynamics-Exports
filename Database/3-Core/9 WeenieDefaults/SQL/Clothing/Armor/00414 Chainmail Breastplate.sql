@@ -21,8 +21,7 @@ VALUES (414,   1,          2) /* ItemType - Armor */
      , (414, 110,          0) /* ItemAllegianceRankLimit */
      , (414, 115,        147) /* ItemSkillLevelLimit */
      , (414, 131,         58) /* MaterialType - Bronze */
-     , (414, 172,          1) /* AppraisalLongDescDecoration */
-     , (414, 176,          7) /* AppraisalItemSkill */;
+     , (414, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (414,  22, True ) /* Inscribable */
@@ -48,7 +47,8 @@ VALUES (414,   1,   33554642) /* Setup */
      , (414,   3,  536870932) /* SoundTable */
      , (414,   6,   67108990) /* PaletteBase */
      , (414,   8,  100670263) /* Icon */
-     , (414,  22,  872415275) /* PhysicsEffectTable */;
+     , (414,  22,  872415275) /* PhysicsEffectTable */
+     , (414,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (414,   278,      2) 

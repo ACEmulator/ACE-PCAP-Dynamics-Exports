@@ -21,8 +21,7 @@ VALUES (42755,   1,          2) /* ItemType - Armor */
      , (42755, 110,          0) /* ItemAllegianceRankLimit */
      , (42755, 115,        297) /* ItemSkillLevelLimit */
      , (42755, 131,         63) /* MaterialType - Silver */
-     , (42755, 172,          1) /* AppraisalLongDescDecoration */
-     , (42755, 176,          6) /* AppraisalItemSkill */;
+     , (42755, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (42755,  22, True ) /* Inscribable */
@@ -48,7 +47,8 @@ VALUES (42755,   1,   33556683) /* Setup */
      , (42755,   3,  536870932) /* SoundTable */
      , (42755,   6,   67108990) /* PaletteBase */
      , (42755,   8,  100691120) /* Icon */
-     , (42755,  22,  872415275) /* PhysicsEffectTable */;
+     , (42755,  22,  872415275) /* PhysicsEffectTable */
+     , (42755,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42755,  1486,      2) 

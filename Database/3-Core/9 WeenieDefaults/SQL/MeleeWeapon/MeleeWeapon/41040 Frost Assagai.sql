@@ -31,7 +31,6 @@ VALUES (41040,   1,          1) /* ItemType - MeleeWeapon */
      , (41040, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41040, 160,        400) /* WieldDifficulty */
      , (41040, 172,          5) /* AppraisalLongDescDecoration */
-     , (41040, 176,         41) /* AppraisalItemSkill */
      , (41040, 177,          2) /* GemCount */
      , (41040, 178,         39) /* GemType */
      , (41040, 353,         11) /* WeaponType - TwoHanded */;
@@ -60,6 +59,7 @@ VALUES (41040,   1,   33560872) /* Setup */
      , (41040,   6,   67115558) /* PaletteBase */
      , (41040,   8,  100690628) /* Icon */
      , (41040,  22,  872415275) /* PhysicsEffectTable */
+     , (41040,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (41040,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

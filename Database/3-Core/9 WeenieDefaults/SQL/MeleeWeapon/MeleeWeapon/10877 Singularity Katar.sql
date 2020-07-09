@@ -26,7 +26,6 @@ VALUES (10877,   1,          1) /* ItemType - MeleeWeapon */
      , (10877, 114,          1) /* Attuned - Attuned */
      , (10877, 115,        300) /* ItemSkillLevelLimit */
      , (10877, 151,          2) /* HookType - Wall */
-     , (10877, 176,         46) /* AppraisalItemSkill */
      , (10877, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,7 +52,8 @@ VALUES (10877,   1,   33557315) /* Setup */
      , (10877,   3,  536870932) /* SoundTable */
      , (10877,   6,   67111919) /* PaletteBase */
      , (10877,   8,  100672044) /* Icon */
-     , (10877,  22,  872415275) /* PhysicsEffectTable */;
+     , (10877,  22,  872415275) /* PhysicsEffectTable */
+     , (10877,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (10877, 8040, 2847146009, 87.88902, 16.67904, 93.92901, 0.2425417, 0.2425417, -0.6642089, -0.6642089) /* PCAPRecordedLocation */

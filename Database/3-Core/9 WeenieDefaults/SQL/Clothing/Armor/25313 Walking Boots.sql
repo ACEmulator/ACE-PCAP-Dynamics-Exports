@@ -21,8 +21,7 @@ VALUES (25313,   1,          2) /* ItemType - Armor */
      , (25313, 151,          9) /* HookType - Floor, Yard */
      , (25313, 158,          7) /* WieldRequirements - Level */
      , (25313, 159,          1) /* WieldSkillType - Axe */
-     , (25313, 160,         50) /* WieldDifficulty */
-     , (25313, 176,         24) /* AppraisalItemSkill */;
+     , (25313, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25313,  22, True ) /* Inscribable */
@@ -48,7 +47,8 @@ VALUES (25313,   1,   33558440) /* Setup */
      , (25313,   3,  536870932) /* SoundTable */
      , (25313,   6,   67108990) /* PaletteBase */
      , (25313,   8,  100674821) /* Icon */
-     , (25313,  22,  872415275) /* PhysicsEffectTable */;
+     , (25313,  22,  872415275) /* PhysicsEffectTable */
+     , (25313,  37,         24) /* ItemSkillLimit - Run */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25313,   987,      2) 

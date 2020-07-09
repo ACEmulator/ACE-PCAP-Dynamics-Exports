@@ -19,8 +19,7 @@ VALUES (28059,   1,      32768) /* ItemType - Caster */
      , (28059, 109,        120) /* ItemDifficulty */
      , (28059, 114,          1) /* Attuned - Attuned */
      , (28059, 115,        325) /* ItemSkillLevelLimit */
-     , (28059, 151,          2) /* HookType - Wall */
-     , (28059, 176,         34) /* AppraisalItemSkill */;
+     , (28059, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28059,  22, True ) /* Inscribable */
@@ -43,7 +42,8 @@ VALUES (28059,   1,   33556630) /* Setup */
      , (28059,   6,   67111919) /* PaletteBase */
      , (28059,   8,  100670752) /* Icon */
      , (28059,  22,  872415275) /* PhysicsEffectTable */
-     , (28059,  28,       2123) /* Spell - AcidVolley7 */;
+     , (28059,  28,       2123) /* Spell - AcidVolley7 */
+     , (28059,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28059,   616,      2) 

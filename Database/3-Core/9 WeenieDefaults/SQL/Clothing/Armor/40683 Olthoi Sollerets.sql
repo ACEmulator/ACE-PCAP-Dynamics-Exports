@@ -25,7 +25,6 @@ VALUES (40683,   1,          2) /* ItemType - Armor */
      , (40683, 159,          7) /* WieldSkillType - MissileDefense */
      , (40683, 160,        205) /* WieldDifficulty */
      , (40683, 172,          1) /* AppraisalLongDescDecoration */
-     , (40683, 176,          6) /* AppraisalItemSkill */
      , (40683, 265,         29) /* EquipmentSetId - Lightningproof */
      , (40683, 270,          7) /* WieldRequirements2 - Level */
      , (40683, 271,          1) /* WieldSkillType2 - Axe */
@@ -55,7 +54,8 @@ VALUES (40683,   1,   33554654) /* Setup */
      , (40683,   3,  536870932) /* SoundTable */
      , (40683,   6,   67108990) /* PaletteBase */
      , (40683,   8,  100674535) /* Icon */
-     , (40683,  22,  872415275) /* PhysicsEffectTable */;
+     , (40683,  22,  872415275) /* PhysicsEffectTable */
+     , (40683,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40683,  2102,      2) 

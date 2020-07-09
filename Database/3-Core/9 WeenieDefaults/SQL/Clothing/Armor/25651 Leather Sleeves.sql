@@ -21,8 +21,7 @@ VALUES (25651,   1,          2) /* ItemType - Armor */
      , (25651, 110,          0) /* ItemAllegianceRankLimit */
      , (25651, 115,        168) /* ItemSkillLevelLimit */
      , (25651, 131,         54) /* MaterialType - GromnieHide */
-     , (25651, 172,          1) /* AppraisalLongDescDecoration */
-     , (25651, 176,          7) /* AppraisalItemSkill */;
+     , (25651, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25651,  22, True ) /* Inscribable */
@@ -48,7 +47,8 @@ VALUES (25651,   1,   33554655) /* Setup */
      , (25651,   3,  536870932) /* SoundTable */
      , (25651,   6,   67108990) /* PaletteBase */
      , (25651,   8,  100675427) /* Icon */
-     , (25651,  22,  872415275) /* PhysicsEffectTable */;
+     , (25651,  22,  872415275) /* PhysicsEffectTable */
+     , (25651,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25651,  1485,      2) 

@@ -23,7 +23,6 @@ VALUES (33102,   1,      32768) /* ItemType - Caster */
      , (33102, 158,          7) /* WieldRequirements - Level */
      , (33102, 159,          1) /* WieldSkillType - Axe */
      , (33102, 160,        140) /* WieldDifficulty */
-     , (33102, 176,         34) /* AppraisalItemSkill */
      , (33102, 263,          1) /* ResistanceModifierType */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,6 +50,7 @@ VALUES (33102,   1,   33559921) /* Setup */
      , (33102,   8,  100688910) /* Icon */
      , (33102,  22,  872415275) /* PhysicsEffectTable */
      , (33102,  28,       2146) /* Spell - WhirlingBlade7 */
+     , (33102,  37,         34) /* ItemSkillLimit - WarMagic */
      , (33102,  50,  100688915) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -26,7 +26,6 @@ VALUES (3846,   1,          1) /* ItemType - MeleeWeapon */
      , (3846, 115,        166) /* ItemSkillLevelLimit */
      , (3846, 131,         77) /* MaterialType - Teak */
      , (3846, 151,          2) /* HookType - Wall */
-     , (3846, 176,         45) /* AppraisalItemSkill */
      , (3846, 188,          1) /* HeritageGroup - Aluvian */
      , (3846, 353,          7) /* WeaponType - Staff */;
 
@@ -53,7 +52,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3846,   1,   33555770) /* Setup */
      , (3846,   3,  536870932) /* SoundTable */
      , (3846,   8,  100667602) /* Icon */
-     , (3846,  22,  872415275) /* PhysicsEffectTable */;
+     , (3846,  22,  872415275) /* PhysicsEffectTable */
+     , (3846,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3846,  1614,      2) 

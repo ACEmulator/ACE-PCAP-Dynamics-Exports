@@ -24,7 +24,6 @@ VALUES (5017,   1,          1) /* ItemType - MeleeWeapon */
      , (5017, 114,          1) /* Attuned - Attuned */
      , (5017, 115,        125) /* ItemSkillLevelLimit */
      , (5017, 151,          2) /* HookType - Wall */
-     , (5017, 176,         45) /* AppraisalItemSkill */
      , (5017, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -51,7 +50,8 @@ VALUES (5017,   1,   33556572) /* Setup */
      , (5017,   3,  536870932) /* SoundTable */
      , (5017,   6,   67111919) /* PaletteBase */
      , (5017,   8,  100668936) /* Icon */
-     , (5017,  22,  872415275) /* PhysicsEffectTable */;
+     , (5017,  22,  872415275) /* PhysicsEffectTable */
+     , (5017,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (5017,  1589,      2) 

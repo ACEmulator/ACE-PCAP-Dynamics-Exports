@@ -18,7 +18,6 @@ VALUES (6073,   1,          4) /* ItemType - Clothing */
      , (6073, 108,        250) /* ItemMaxMana */
      , (6073, 109,         20) /* ItemDifficulty */
      , (6073, 115,         70) /* ItemSkillLevelLimit */
-     , (6073, 176,         34) /* AppraisalItemSkill */
      , (6073, 188,          3) /* HeritageGroup - Sho */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -44,7 +43,8 @@ VALUES (6073,   1,   33554854) /* Setup */
      , (6073,   3,  536870932) /* SoundTable */
      , (6073,   6,   67108990) /* PaletteBase */
      , (6073,   8,  100670376) /* Icon */
-     , (6073,  22,  872415275) /* PhysicsEffectTable */;
+     , (6073,  22,  872415275) /* PhysicsEffectTable */
+     , (6073,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (6073, 8040, 23855555, 56.17042, -35.47908, -0.002499998, -0.2467473, 0, 0, 0.9690799) /* PCAPRecordedLocation */

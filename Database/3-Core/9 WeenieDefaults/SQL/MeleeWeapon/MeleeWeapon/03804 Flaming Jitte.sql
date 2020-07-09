@@ -27,7 +27,6 @@ VALUES (3804,   1,          1) /* ItemType - MeleeWeapon */
      , (3804, 131,         59) /* MaterialType - Copper */
      , (3804, 151,          2) /* HookType - Wall */
      , (3804, 172,          5) /* AppraisalLongDescDecoration */
-     , (3804, 176,         46) /* AppraisalItemSkill */
      , (3804, 177,          1) /* GemCount */
      , (3804, 178,         36) /* GemType */
      , (3804, 353,          4) /* WeaponType - Mace */;
@@ -52,7 +51,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3804,   1,   33555733) /* Setup */
      , (3804,   3,  536870932) /* SoundTable */
      , (3804,   8,  100668895) /* Icon */
-     , (3804,  22,  872415275) /* PhysicsEffectTable */;
+     , (3804,  22,  872415275) /* PhysicsEffectTable */
+     , (3804,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3804,  1590,      2) 

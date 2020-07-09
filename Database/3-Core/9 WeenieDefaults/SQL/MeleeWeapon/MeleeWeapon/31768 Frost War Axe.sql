@@ -27,7 +27,6 @@ VALUES (31768,   1,          1) /* ItemType - MeleeWeapon */
      , (31768, 131,         76) /* MaterialType - Pine */
      , (31768, 151,          2) /* HookType - Wall */
      , (31768, 172,          1) /* AppraisalLongDescDecoration */
-     , (31768, 176,         44) /* AppraisalItemSkill */
      , (31768, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,7 +52,8 @@ VALUES (31768,   1,   33555686) /* Setup */
      , (31768,   6,   67111919) /* PaletteBase */
      , (31768,   8,  100672847) /* Icon */
      , (31768,  22,  872415275) /* PhysicsEffectTable */
-     , (31768,  30,         88) /* PhysicsScript - Create */;
+     , (31768,  30,         88) /* PhysicsScript - Create */
+     , (31768,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31768,  1590,      2) 

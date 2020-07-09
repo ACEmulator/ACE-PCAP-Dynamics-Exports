@@ -22,8 +22,7 @@ VALUES (85,   1,          2) /* ItemType - Armor */
      , (85, 115,        283) /* ItemSkillLevelLimit */
      , (85, 131,         61) /* MaterialType - Iron */
      , (85, 151,          2) /* HookType - Wall */
-     , (85, 172,          1) /* AppraisalLongDescDecoration */
-     , (85, 176,          6) /* AppraisalItemSkill */;
+     , (85, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (85,  22, True ) /* Inscribable */
@@ -49,7 +48,8 @@ VALUES (85,   1,   33555048) /* Setup */
      , (85,   3,  536870932) /* SoundTable */
      , (85,   6,   67108990) /* PaletteBase */
      , (85,   8,  100669313) /* Icon */
-     , (85,  22,  872415275) /* PhysicsEffectTable */;
+     , (85,  22,  872415275) /* PhysicsEffectTable */
+     , (85,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (85,  1485,      2) 

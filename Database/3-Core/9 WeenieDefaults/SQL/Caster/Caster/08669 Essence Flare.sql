@@ -16,8 +16,7 @@ VALUES (8669,   1,      32768) /* ItemType - Caster */
      , (8669, 107,       1200) /* ItemCurMana */
      , (8669, 108,       1200) /* ItemMaxMana */
      , (8669, 115,        150) /* ItemSkillLevelLimit */
-     , (8669, 151,          2) /* HookType - Wall */
-     , (8669, 176,         16) /* AppraisalItemSkill */;
+     , (8669, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8669,  22, True ) /* Inscribable */;
@@ -38,7 +37,8 @@ VALUES (8669,   1,   33556935) /* Setup */
      , (8669,   3,  536870932) /* SoundTable */
      , (8669,   6,   67111928) /* PaletteBase */
      , (8669,   8,  100671241) /* Icon */
-     , (8669,  22,  872415275) /* PhysicsEffectTable */;
+     , (8669,  22,  872415275) /* PhysicsEffectTable */
+     , (8669,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8669,   170,      2) 

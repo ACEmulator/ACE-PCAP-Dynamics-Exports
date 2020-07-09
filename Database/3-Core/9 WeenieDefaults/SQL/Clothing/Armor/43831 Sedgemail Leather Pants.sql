@@ -25,7 +25,6 @@ VALUES (43831,   1,          2) /* ItemType - Armor */
      , (43831, 159,          1) /* WieldSkillType - Axe */
      , (43831, 160,        180) /* WieldDifficulty */
      , (43831, 172,          1) /* AppraisalLongDescDecoration */
-     , (43831, 176,          6) /* AppraisalItemSkill */
      , (43831, 265,         25) /* EquipmentSetId - Interlocking */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,7 +51,8 @@ VALUES (43831,   1,   33554856) /* Setup */
      , (43831,   3,  536870932) /* SoundTable */
      , (43831,   6,   67108990) /* PaletteBase */
      , (43831,   8,  100691738) /* Icon */
-     , (43831,  22,  872415275) /* PhysicsEffectTable */;
+     , (43831,  22,  872415275) /* PhysicsEffectTable */
+     , (43831,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43831,  2092,      2) 

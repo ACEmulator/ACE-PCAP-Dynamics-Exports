@@ -31,7 +31,6 @@ VALUES (40819,   1,          1) /* ItemType - MeleeWeapon */
      , (40819, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (40819, 160,        300) /* WieldDifficulty */
      , (40819, 172,          1) /* AppraisalLongDescDecoration */
-     , (40819, 176,         41) /* AppraisalItemSkill */
      , (40819, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,6 +55,7 @@ VALUES (40819,   1,   33560791) /* Setup */
      , (40819,   6,   67115560) /* PaletteBase */
      , (40819,   8,  100690796) /* Icon */
      , (40819,  22,  872415275) /* PhysicsEffectTable */
+     , (40819,  37,         41) /* ItemSkillLimit - TwoHandedCombat */
      , (40819,  50,  100693329) /* IconOverlay */
      , (40819,  52,  100676440) /* IconUnderlay */;
 

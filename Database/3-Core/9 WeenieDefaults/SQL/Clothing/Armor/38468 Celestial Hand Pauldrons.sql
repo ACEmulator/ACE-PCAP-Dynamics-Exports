@@ -26,7 +26,6 @@ VALUES (38468,   1,          2) /* ItemType - Armor */
      , (38468, 160,        301) /* WieldDifficulty */
      , (38468, 171,         10) /* NumTimesTinkered */
      , (38468, 172,          3) /* AppraisalLongDescDecoration */
-     , (38468, 176,          6) /* AppraisalItemSkill */
      , (38468, 265,         30) /* EquipmentSetId - SocietyArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,7 +53,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (38468,   1,   33554641) /* Setup */
      , (38468,   3,  536870932) /* SoundTable */
      , (38468,   8,  100690168) /* Icon */
-     , (38468,  22,  872415275) /* PhysicsEffectTable */;
+     , (38468,  22,  872415275) /* PhysicsEffectTable */
+     , (38468,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38468,  2108,      2) 

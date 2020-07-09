@@ -23,7 +23,6 @@ VALUES (36688,   1,      32768) /* ItemType - Caster */
      , (36688, 158,          7) /* WieldRequirements - Level */
      , (36688, 159,          1) /* WieldSkillType - Axe */
      , (36688, 160,        120) /* WieldDifficulty */
-     , (36688, 176,         16) /* AppraisalItemSkill */
      , (36688, 263,          4) /* ResistanceModifierType */
      , (36688, 265,         10) /* EquipmentSetId - ArmMindHeart */;
 
@@ -47,7 +46,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (36688,   1,   33556630) /* Setup */
      , (36688,   6,   67111919) /* PaletteBase */
      , (36688,   8,  100670752) /* Icon */
-     , (36688,  22,  872415275) /* PhysicsEffectTable */;
+     , (36688,  22,  872415275) /* PhysicsEffectTable */
+     , (36688,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36688, 8040, 722599969, 109.4254, 11.67712, 47.929, 0.6115251, 0.6115251, -0.3550171, -0.3550171) /* PCAPRecordedLocation */

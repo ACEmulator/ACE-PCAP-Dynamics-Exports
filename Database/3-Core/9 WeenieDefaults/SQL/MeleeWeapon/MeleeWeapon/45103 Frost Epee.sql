@@ -31,7 +31,6 @@ VALUES (45103,   1,          1) /* ItemType - MeleeWeapon */
      , (45103, 159,         45) /* WieldSkillType - LightWeapons */
      , (45103, 160,        300) /* WieldDifficulty */
      , (45103, 172,          1) /* AppraisalLongDescDecoration */
-     , (45103, 176,         45) /* AppraisalItemSkill */
      , (45103, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,6 +55,7 @@ VALUES (45103,   1,   33561440) /* Setup */
      , (45103,   6,   67111919) /* PaletteBase */
      , (45103,   8,  100692291) /* Icon */
      , (45103,  22,  872415275) /* PhysicsEffectTable */
+     , (45103,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (45103,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

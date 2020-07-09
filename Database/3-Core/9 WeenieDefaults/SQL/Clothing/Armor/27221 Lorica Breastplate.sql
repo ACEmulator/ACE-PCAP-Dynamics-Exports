@@ -25,7 +25,6 @@ VALUES (27221,   1,          2) /* ItemType - Armor */
      , (27221, 159,          1) /* WieldSkillType - Axe */
      , (27221, 160,        180) /* WieldDifficulty */
      , (27221, 172,          5) /* AppraisalLongDescDecoration */
-     , (27221, 176,          7) /* AppraisalItemSkill */
      , (27221, 177,          3) /* GemCount */
      , (27221, 178,         39) /* GemType */
      , (27221, 375,          1) /* GearCritDamageResist */;
@@ -54,7 +53,8 @@ VALUES (27221,   1,   33554642) /* Setup */
      , (27221,   3,  536870932) /* SoundTable */
      , (27221,   6,   67108990) /* PaletteBase */
      , (27221,   8,  100676040) /* Icon */
-     , (27221,  22,  872415275) /* PhysicsEffectTable */;
+     , (27221,  22,  872415275) /* PhysicsEffectTable */
+     , (27221,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27221,  3963,      2) 

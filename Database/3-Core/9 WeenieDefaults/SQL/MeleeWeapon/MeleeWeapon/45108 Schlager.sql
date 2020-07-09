@@ -27,7 +27,6 @@ VALUES (45108,   1,          1) /* ItemType - MeleeWeapon */
      , (45108, 131,         58) /* MaterialType - Bronze */
      , (45108, 151,          2) /* HookType - Wall */
      , (45108, 172,          5) /* AppraisalLongDescDecoration */
-     , (45108, 176,         44) /* AppraisalItemSkill */
      , (45108, 177,          2) /* GemCount */
      , (45108, 178,         42) /* GemType */
      , (45108, 353,          2) /* WeaponType - Sword */;
@@ -54,7 +53,8 @@ VALUES (45108,   1,   33561441) /* Setup */
      , (45108,   3,  536870932) /* SoundTable */
      , (45108,   6,   67111919) /* PaletteBase */
      , (45108,   8,  100692307) /* Icon */
-     , (45108,  22,  872415275) /* PhysicsEffectTable */;
+     , (45108,  22,  872415275) /* PhysicsEffectTable */
+     , (45108,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45108,  1615,      2) ;

@@ -31,7 +31,6 @@ VALUES (45429,   1,          1) /* ItemType - MeleeWeapon */
      , (45429, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (45429, 160,        350) /* WieldDifficulty */
      , (45429, 172,          1) /* AppraisalLongDescDecoration */
-     , (45429, 176,         44) /* AppraisalItemSkill */
      , (45429, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,6 +55,7 @@ VALUES (45429,   1,   33558462) /* Setup */
      , (45429,   6,   67114522) /* PaletteBase */
      , (45429,   8,  100674894) /* Icon */
      , (45429,  22,  872415275) /* PhysicsEffectTable */
+     , (45429,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (45429,  50,  100689143) /* IconOverlay */
      , (45429,  52,  100676438) /* IconUnderlay */;
 

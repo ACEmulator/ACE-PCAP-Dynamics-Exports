@@ -18,7 +18,6 @@ VALUES (36230,   1,      32768) /* ItemType - Caster */
      , (36230, 109,          0) /* ItemDifficulty */
      , (36230, 115,        350) /* ItemSkillLevelLimit */
      , (36230, 151,          2) /* HookType - Wall */
-     , (36230, 176,         33) /* AppraisalItemSkill */
      , (36230, 179,         16) /* ImbuedEffect - PierceRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -40,7 +39,8 @@ VALUES (36230,   1,   33560376) /* Setup */
      , (36230,   6,   67111919) /* PaletteBase */
      , (36230,   8,  100689611) /* Icon */
      , (36230,  22,  872415275) /* PhysicsEffectTable */
-     , (36230,  28,       2074) /* Spell - ImperilOther7 */;
+     , (36230,  28,       2074) /* Spell - ImperilOther7 */
+     , (36230,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (36230, 8040, 19202316, 31.48067, -13.33965, -0.071, -0.7055654, -0.7055654, -0.04666353, -0.04666353) /* PCAPRecordedLocation */

@@ -26,7 +26,6 @@ VALUES (37193,   1,          2) /* ItemType - Armor */
      , (37193, 160,        360) /* WieldDifficulty */
      , (37193, 171,         10) /* NumTimesTinkered */
      , (37193, 172,          1) /* AppraisalLongDescDecoration */
-     , (37193, 176,          6) /* AppraisalItemSkill */
      , (37193, 265,         19) /* EquipmentSetId - Hearty */
      , (37193, 270,          7) /* WieldRequirements2 - Level */
      , (37193, 271,          1) /* WieldSkillType2 - Axe */
@@ -57,7 +56,8 @@ VALUES (37193,   1,   33554647) /* Setup */
      , (37193,   3,  536870932) /* SoundTable */
      , (37193,   6,   67108990) /* PaletteBase */
      , (37193,   8,  100674592) /* Icon */
-     , (37193,  22,  872415275) /* PhysicsEffectTable */;
+     , (37193,  22,  872415275) /* PhysicsEffectTable */
+     , (37193,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (37193, 8040, 23855631, 87.89492, -16.69748, 0, -0.8451899, 0, 0, 0.5344661) /* PCAPRecordedLocation */

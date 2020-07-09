@@ -31,7 +31,6 @@ VALUES (30564,   1,          1) /* ItemType - MeleeWeapon */
      , (30564, 159,         45) /* WieldSkillType - LightWeapons */
      , (30564, 160,        325) /* WieldDifficulty */
      , (30564, 172,          1) /* AppraisalLongDescDecoration */
-     , (30564, 176,         45) /* AppraisalItemSkill */
      , (30564, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -58,6 +57,7 @@ VALUES (30564,   1,   33559453) /* Setup */
      , (30564,   8,  100686925) /* Icon */
      , (30564,  22,  872415275) /* PhysicsEffectTable */
      , (30564,  30,         88) /* PhysicsScript - Create */
+     , (30564,  37,         45) /* ItemSkillLimit - LightWeapons */
      , (30564,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

@@ -31,7 +31,6 @@ VALUES (45410,   1,          1) /* ItemType - MeleeWeapon */
      , (45410, 160,        400) /* WieldDifficulty */
      , (45410, 171,          1) /* NumTimesTinkered */
      , (45410, 172,          5) /* AppraisalLongDescDecoration */
-     , (45410, 176,         46) /* AppraisalItemSkill */
      , (45410, 177,          2) /* GemCount */
      , (45410, 178,         47) /* GemType */
      , (45410, 179,        128) /* ImbuedEffect - ColdRending */
@@ -59,6 +58,7 @@ VALUES (45410,   1,   33555810) /* Setup */
      , (45410,   3,  536870932) /* SoundTable */
      , (45410,   8,  100669076) /* Icon */
      , (45410,  22,  872415275) /* PhysicsEffectTable */
+     , (45410,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (45410,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

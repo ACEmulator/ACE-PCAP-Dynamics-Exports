@@ -30,7 +30,6 @@ VALUES (31799,   1,        256) /* ItemType - MissileWeapon */
      , (31799, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31799, 160,        360) /* WieldDifficulty */
      , (31799, 172,          1) /* AppraisalLongDescDecoration */
-     , (31799, 176,         47) /* AppraisalItemSkill */
      , (31799, 204,         15) /* ElementalDamageBonus */
      , (31799, 353,          8) /* WeaponType - Bow */;
 
@@ -56,7 +55,8 @@ VALUES (31799,   1,   33559669) /* Setup */
      , (31799,   3,  536870932) /* SoundTable */
      , (31799,   6,   67116700) /* PaletteBase */
      , (31799,   8,  100688049) /* Icon */
-     , (31799,  22,  872415275) /* PhysicsEffectTable */;
+     , (31799,  22,  872415275) /* PhysicsEffectTable */
+     , (31799,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31799,  4299,      2) 

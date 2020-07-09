@@ -25,7 +25,6 @@ VALUES (43051,   1,          2) /* ItemType - Armor */
      , (43051, 159,          1) /* WieldSkillType - Axe */
      , (43051, 160,        180) /* WieldDifficulty */
      , (43051, 172,          1) /* AppraisalLongDescDecoration */
-     , (43051, 176,          6) /* AppraisalItemSkill */
      , (43051, 265,         22) /* EquipmentSetId - Swift */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,7 +52,8 @@ VALUES (43051,   1,   33554641) /* Setup */
      , (43051,   3,  536870932) /* SoundTable */
      , (43051,   6,   67108990) /* PaletteBase */
      , (43051,   8,  100691418) /* Icon */
-     , (43051,  22,  872415275) /* PhysicsEffectTable */;
+     , (43051,  22,  872415275) /* PhysicsEffectTable */
+     , (43051,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43051,  2108,      2) 

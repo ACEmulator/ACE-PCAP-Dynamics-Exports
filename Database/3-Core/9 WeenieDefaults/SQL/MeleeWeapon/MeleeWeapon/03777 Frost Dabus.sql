@@ -27,7 +27,6 @@ VALUES (3777,   1,          1) /* ItemType - MeleeWeapon */
      , (3777, 131,         76) /* MaterialType - Pine */
      , (3777, 151,          2) /* HookType - Wall */
      , (3777, 172,          1) /* AppraisalLongDescDecoration */
-     , (3777, 176,         46) /* AppraisalItemSkill */
      , (3777, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -50,7 +49,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3777,   1,   33555750) /* Setup */
      , (3777,   3,  536870932) /* SoundTable */
      , (3777,   8,  100668874) /* Icon */
-     , (3777,  22,  872415275) /* PhysicsEffectTable */;
+     , (3777,  22,  872415275) /* PhysicsEffectTable */
+     , (3777,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3777,  1602,      2) 

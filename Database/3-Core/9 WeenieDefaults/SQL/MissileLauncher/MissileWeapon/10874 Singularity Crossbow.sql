@@ -25,7 +25,6 @@ VALUES (10874,   1,        256) /* ItemType - MissileWeapon */
      , (10874, 114,          0) /* Attuned - Normal */
      , (10874, 115,        275) /* ItemSkillLevelLimit */
      , (10874, 151,          2) /* HookType - Wall */
-     , (10874, 176,         47) /* AppraisalItemSkill */
      , (10874, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -53,7 +52,8 @@ VALUES (10874,   1,   33557313) /* Setup */
      , (10874,   3,  536870932) /* SoundTable */
      , (10874,   6,   67111919) /* PaletteBase */
      , (10874,   8,  100672049) /* Icon */
-     , (10874,  22,  872415275) /* PhysicsEffectTable */;
+     , (10874,  22,  872415275) /* PhysicsEffectTable */
+     , (10874,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (10874,  1616,      2) ;

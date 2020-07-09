@@ -27,7 +27,6 @@ VALUES (3833,   1,          1) /* ItemType - MeleeWeapon */
      , (3833, 131,         60) /* MaterialType - Gold */
      , (3833, 151,          2) /* HookType - Wall */
      , (3833, 172,          7) /* AppraisalLongDescDecoration */
-     , (3833, 176,         46) /* AppraisalItemSkill */
      , (3833, 177,          2) /* GemCount */
      , (3833, 178,         23) /* GemType */
      , (3833, 188,          3) /* HeritageGroup - Sho */
@@ -54,7 +53,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3833,   1,   33555743) /* Setup */
      , (3833,   3,  536870932) /* SoundTable */
      , (3833,   8,  100667598) /* Icon */
-     , (3833,  22,  872415275) /* PhysicsEffectTable */;
+     , (3833,  22,  872415275) /* PhysicsEffectTable */
+     , (3833,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3833,  1378,      2) 

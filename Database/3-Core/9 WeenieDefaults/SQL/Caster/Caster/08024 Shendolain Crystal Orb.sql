@@ -19,8 +19,7 @@ VALUES (8024,   1,      32768) /* ItemType - Caster */
      , (8024, 109,        240) /* ItemDifficulty */
      , (8024, 114,          1) /* Attuned - Attuned */
      , (8024, 115,        240) /* ItemSkillLevelLimit */
-     , (8024, 151,          2) /* HookType - Wall */
-     , (8024, 176,         32) /* AppraisalItemSkill */;
+     , (8024, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8024,  22, True ) /* Inscribable */
@@ -41,7 +40,8 @@ VALUES (8024,   1,   33556767) /* Setup */
      , (8024,   3,  536870932) /* SoundTable */
      , (8024,   6,   67111928) /* PaletteBase */
      , (8024,   8,  100670986) /* Icon */
-     , (8024,  22,  872415275) /* PhysicsEffectTable */;
+     , (8024,  22,  872415275) /* PhysicsEffectTable */
+     , (8024,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (8024, 8040, 3465871405, 151.0719, 112.6264, 17.34125, -0.6622602, -0.6622602, -0.2478133, -0.2478133) /* PCAPRecordedLocation */

@@ -31,7 +31,6 @@ VALUES (31788,   1,          1) /* ItemType - MeleeWeapon */
      , (31788, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (31788, 160,        325) /* WieldDifficulty */
      , (31788, 172,          5) /* AppraisalLongDescDecoration */
-     , (31788, 176,         44) /* AppraisalItemSkill */
      , (31788, 177,          1) /* GemCount */
      , (31788, 178,         36) /* GemType */
      , (31788, 353,          7) /* WeaponType - Staff */;
@@ -60,6 +59,7 @@ VALUES (31788,   1,   33559625) /* Setup */
      , (31788,   6,   67116700) /* PaletteBase */
      , (31788,   8,  100687995) /* Icon */
      , (31788,  22,  872415275) /* PhysicsEffectTable */
+     , (31788,  37,         44) /* ItemSkillLimit - HeavyWeapons */
      , (31788,  52,  100676442) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)

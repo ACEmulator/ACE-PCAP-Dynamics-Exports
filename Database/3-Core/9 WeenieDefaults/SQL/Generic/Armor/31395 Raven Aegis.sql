@@ -25,7 +25,6 @@ VALUES (31395,   1,          2) /* ItemType - Armor */
      , (31395, 158,          7) /* WieldRequirements - Level */
      , (31395, 159,          1) /* WieldSkillType - Axe */
      , (31395, 160,        100) /* WieldDifficulty */
-     , (31395, 176,          6) /* AppraisalItemSkill */
      , (31395, 179,  536870912) /* ImbuedEffect - IgnoreSomeMagicProjectileDamage */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -54,7 +53,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (31395,   1,   33559617) /* Setup */
      , (31395,   3,  536870932) /* SoundTable */
      , (31395,   8,  100687958) /* Icon */
-     , (31395,  22,  872415275) /* PhysicsEffectTable */;
+     , (31395,  22,  872415275) /* PhysicsEffectTable */
+     , (31395,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31395, 8040, 2847146012, 73.45782, 81.92619, 78.51093, -0.2575725, 0.6684368, 0.5130069, 0.4729404) /* PCAPRecordedLocation */

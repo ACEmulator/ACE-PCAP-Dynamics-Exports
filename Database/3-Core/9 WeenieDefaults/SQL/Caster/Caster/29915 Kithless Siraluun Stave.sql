@@ -19,8 +19,7 @@ VALUES (29915,   1,      32768) /* ItemType - Caster */
      , (29915, 151,          2) /* HookType - Wall */
      , (29915, 158,          7) /* WieldRequirements - Level */
      , (29915, 159,          1) /* WieldSkillType - Axe */
-     , (29915, 160,         50) /* WieldDifficulty */
-     , (29915, 176,         16) /* AppraisalItemSkill */;
+     , (29915, 160,         50) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29915,  22, True ) /* Inscribable */;
@@ -39,7 +38,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29915,   1,   33559111) /* Setup */
      , (29915,   3,  536870932) /* SoundTable */
      , (29915,   8,  100677335) /* Icon */
-     , (29915,  22,  872415275) /* PhysicsEffectTable */;
+     , (29915,  22,  872415275) /* PhysicsEffectTable */
+     , (29915,  37,         16) /* ItemSkillLimit - ManaConversion */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29915,   210,      2) 

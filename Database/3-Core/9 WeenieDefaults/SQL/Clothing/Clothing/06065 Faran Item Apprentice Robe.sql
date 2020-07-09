@@ -19,7 +19,6 @@ VALUES (6065,   1,          4) /* ItemType - Clothing */
      , (6065, 108,        250) /* ItemMaxMana */
      , (6065, 109,         20) /* ItemDifficulty */
      , (6065, 115,         70) /* ItemSkillLevelLimit */
-     , (6065, 176,         32) /* AppraisalItemSkill */
      , (6065, 188,          1) /* HeritageGroup - Aluvian */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -45,7 +44,8 @@ VALUES (6065,   1,   33554854) /* Setup */
      , (6065,   3,  536870932) /* SoundTable */
      , (6065,   6,   67108990) /* PaletteBase */
      , (6065,   8,  100670349) /* Icon */
-     , (6065,  22,  872415275) /* PhysicsEffectTable */;
+     , (6065,  22,  872415275) /* PhysicsEffectTable */
+     , (6065,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6065,   587,      2) 

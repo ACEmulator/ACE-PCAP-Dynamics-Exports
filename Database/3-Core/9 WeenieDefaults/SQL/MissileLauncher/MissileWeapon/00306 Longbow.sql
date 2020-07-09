@@ -30,7 +30,6 @@ VALUES (306,   1,        256) /* ItemType - MissileWeapon */
      , (306, 159,         47) /* WieldSkillType - MissileWeapons */
      , (306, 160,        290) /* WieldDifficulty */
      , (306, 172,          5) /* AppraisalLongDescDecoration */
-     , (306, 176,         47) /* AppraisalItemSkill */
      , (306, 177,          1) /* GemCount */
      , (306, 178,         43) /* GemType */
      , (306, 353,          8) /* WeaponType - Bow */;
@@ -57,7 +56,8 @@ VALUES (306,   1,   33554728) /* Setup */
      , (306,   3,  536870932) /* SoundTable */
      , (306,   6,   67111919) /* PaletteBase */
      , (306,   8,  100668816) /* Icon */
-     , (306,  22,  872415275) /* PhysicsEffectTable */;
+     , (306,  22,  872415275) /* PhysicsEffectTable */
+     , (306,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (306, 8040, 2458255399, 108.7852, 146.9982, 32.18137, -0.9502136, 0, 0, -0.3115993) /* PCAPRecordedLocation */

@@ -25,8 +25,7 @@ VALUES (21157,   1,          2) /* ItemType - Armor */
      , (21157, 158,          2) /* WieldRequirements - RawSkill */
      , (21157, 159,          6) /* WieldSkillType - MeleeDefense */
      , (21157, 160,        300) /* WieldDifficulty */
-     , (21157, 172,          1) /* AppraisalLongDescDecoration */
-     , (21157, 176,          7) /* AppraisalItemSkill */;
+     , (21157, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (21157,  22, True ) /* Inscribable */
@@ -53,7 +52,8 @@ VALUES (21157,   1,   33554641) /* Setup */
      , (21157,   3,  536870932) /* SoundTable */
      , (21157,   6,   67108990) /* PaletteBase */
      , (21157,   8,  100673447) /* Icon */
-     , (21157,  22,  872415275) /* PhysicsEffectTable */;
+     , (21157,  22,  872415275) /* PhysicsEffectTable */
+     , (21157,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (21157,  1485,      2) 

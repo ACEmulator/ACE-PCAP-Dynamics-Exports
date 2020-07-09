@@ -27,7 +27,6 @@ VALUES (30951,   1,          2) /* ItemType - Armor */
      , (30951, 160,        180) /* WieldDifficulty */
      , (30951, 171,         10) /* NumTimesTinkered */
      , (30951, 172,          5) /* AppraisalLongDescDecoration */
-     , (30951, 176,          6) /* AppraisalItemSkill */
      , (30951, 177,          2) /* GemCount */
      , (30951, 178,         21) /* GemType */
      , (30951, 265,         16) /* EquipmentSetId - Defenders */
@@ -58,7 +57,8 @@ VALUES (30951,   1,   33559505) /* Setup */
      , (30951,   3,  536870932) /* SoundTable */
      , (30951,   6,   67108990) /* PaletteBase */
      , (30951,   8,  100687145) /* Icon */
-     , (30951,  22,  872415275) /* PhysicsEffectTable */;
+     , (30951,  22,  872415275) /* PhysicsEffectTable */
+     , (30951,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30951,  1516,      2) 

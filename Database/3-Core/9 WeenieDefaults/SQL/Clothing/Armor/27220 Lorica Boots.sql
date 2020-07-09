@@ -25,7 +25,6 @@ VALUES (27220,   1,          2) /* ItemType - Armor */
      , (27220, 159,          1) /* WieldSkillType - Axe */
      , (27220, 160,        150) /* WieldDifficulty */
      , (27220, 172,          1) /* AppraisalLongDescDecoration */
-     , (27220, 176,          6) /* AppraisalItemSkill */
      , (27220, 265,         20) /* EquipmentSetId - Dexterous */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -52,7 +51,8 @@ VALUES (27220,   1,   33554654) /* Setup */
      , (27220,   3,  536870932) /* SoundTable */
      , (27220,   6,   67108990) /* PaletteBase */
      , (27220,   8,  100676060) /* Icon */
-     , (27220,  22,  872415275) /* PhysicsEffectTable */;
+     , (27220,  22,  872415275) /* PhysicsEffectTable */
+     , (27220,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27220,  1498,      2) 

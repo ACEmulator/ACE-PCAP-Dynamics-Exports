@@ -23,8 +23,7 @@ VALUES (94,   1,          2) /* ItemType - Armor */
      , (94, 115,        179) /* ItemSkillLevelLimit */
      , (94, 131,         63) /* MaterialType - Silver */
      , (94, 151,          2) /* HookType - Wall */
-     , (94, 172,          1) /* AppraisalLongDescDecoration */
-     , (94, 176,          6) /* AppraisalItemSkill */;
+     , (94, 172,          1) /* AppraisalLongDescDecoration */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (94,  22, True ) /* Inscribable */;
@@ -49,7 +48,8 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (94,   1,   33557043) /* Setup */
      , (94,   3,  536870932) /* SoundTable */
      , (94,   8,  100674092) /* Icon */
-     , (94,  22,  872415275) /* PhysicsEffectTable */;
+     , (94,  22,  872415275) /* PhysicsEffectTable */
+     , (94,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (94, 8040, 2114192370, 191.9533, -405.5346, -0.07400001, 0.4121966, 0.6358098, -0.5529282, 0.3465692) /* PCAPRecordedLocation */

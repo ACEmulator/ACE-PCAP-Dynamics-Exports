@@ -30,7 +30,6 @@ VALUES (3763,   1,          1) /* ItemType - MeleeWeapon */
      , (3763, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (3763, 160,        250) /* WieldDifficulty */
      , (3763, 172,          1) /* AppraisalLongDescDecoration */
-     , (3763, 176,         46) /* AppraisalItemSkill */
      , (3763, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -55,6 +54,7 @@ VALUES (3763,   1,   33555789) /* Setup */
      , (3763,   6,   67111919) /* PaletteBase */
      , (3763,   8,  100669007) /* Icon */
      , (3763,  22,  872415275) /* PhysicsEffectTable */
+     , (3763,  37,         46) /* ItemSkillLimit - FinesseWeapons */
      , (3763,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)

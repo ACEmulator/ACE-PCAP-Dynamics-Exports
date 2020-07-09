@@ -30,7 +30,6 @@ VALUES (45110,   1,          1) /* ItemType - MeleeWeapon */
      , (45110, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (45110, 160,        300) /* WieldDifficulty */
      , (45110, 172,          1) /* AppraisalLongDescDecoration */
-     , (45110, 176,         44) /* AppraisalItemSkill */
      , (45110, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -56,7 +55,8 @@ VALUES (45110,   1,   33561443) /* Setup */
      , (45110,   3,  536870932) /* SoundTable */
      , (45110,   6,   67111919) /* PaletteBase */
      , (45110,   8,  100692298) /* Icon */
-     , (45110,  22,  872415275) /* PhysicsEffectTable */;
+     , (45110,  22,  872415275) /* PhysicsEffectTable */
+     , (45110,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45110,  1603,      2) 

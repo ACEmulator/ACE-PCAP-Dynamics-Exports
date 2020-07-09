@@ -31,7 +31,6 @@ VALUES (29255,   1,        256) /* ItemType - MissileWeapon */
      , (29255, 159,         47) /* WieldSkillType - MissileWeapons */
      , (29255, 160,        315) /* WieldDifficulty */
      , (29255, 172,          5) /* AppraisalLongDescDecoration */
-     , (29255, 176,         47) /* AppraisalItemSkill */
      , (29255, 177,          1) /* GemCount */
      , (29255, 178,         45) /* GemType */
      , (29255, 204,          4) /* ElementalDamageBonus */
@@ -61,6 +60,7 @@ VALUES (29255,   1,   33559244) /* Setup */
      , (29255,   6,   67115373) /* PaletteBase */
      , (29255,   8,  100677454) /* Icon */
      , (29255,  22,  872415275) /* PhysicsEffectTable */
+     , (29255,  37,         47) /* ItemSkillLimit - MissileWeapons */
      , (29255,  50,  100689143) /* IconOverlay */
      , (29255,  52,  100676441) /* IconUnderlay */;
 
