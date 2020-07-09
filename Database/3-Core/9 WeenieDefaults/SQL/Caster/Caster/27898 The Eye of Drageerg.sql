@@ -47,5 +47,4 @@ VALUES (27898, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /*
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (27898,   208,      2)  /* ManaRenewalOther3 */
      , (27898,   565,      2)  /* CreatureEnchantmentMasteryOther3 */
-     , (27898,  1050,      2)  /* BludgeonVulnerabilityOther3 */
      , (27898,  1477,      2)  /* HermeticLinkSelf3 */;

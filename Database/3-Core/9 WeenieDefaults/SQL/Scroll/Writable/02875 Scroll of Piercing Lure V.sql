@@ -27,6 +27,3 @@ VALUES (2875,   1,   33554826) /* Setup */
      , (2875,   8,  100676669) /* Icon */
      , (2875,  22,  872415275) /* PhysicsEffectTable */
      , (2875,  28,       1567) /* Spell - PiercingLure5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2875,  1567,      2)  /* PiercingLure5 */;

@@ -39,6 +39,3 @@ VALUES (30242,   1,   33554809) /* Setup */
      , (30242,  28,       3740) /* Spell - SwordMasteryRare */
      , (30242,  50,  100692248) /* IconOverlay */
      , (30242,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30242,  3740,      2)  /* SwordMasteryRare */;

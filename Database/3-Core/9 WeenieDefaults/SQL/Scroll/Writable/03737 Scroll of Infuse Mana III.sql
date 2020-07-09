@@ -27,6 +27,3 @@ VALUES (3737,   1,   33554826) /* Setup */
      , (3737,   8,  100676929) /* Icon */
      , (3737,  22,  872415275) /* PhysicsEffectTable */
      , (3737,  28,       1256) /* Spell - InfuseMana3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3737,  1256,      2)  /* InfuseMana3 */;

@@ -27,6 +27,3 @@ VALUES (1659,   1,   33554826) /* Setup */
      , (1659,   8,  100676939) /* Icon */
      , (1659,  22,  872415275) /* PhysicsEffectTable */
      , (1659,  28,        212) /* Spell - ManaRenewalSelf1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1659,   212,      2)  /* ManaRenewalSelf1 */;

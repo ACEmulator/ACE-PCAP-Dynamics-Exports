@@ -27,6 +27,3 @@ VALUES (2829,   1,   33554826) /* Setup */
      , (2829,   8,  100676667) /* Icon */
      , (2829,  22,  872415275) /* PhysicsEffectTable */
      , (2829,  28,       1520) /* Spell - FrostLure4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2829,  1520,      2)  /* FrostLure4 */;

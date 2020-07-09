@@ -27,6 +27,3 @@ VALUES (2882,   1,   33554826) /* Setup */
      , (2882,   8,  100676676) /* Icon */
      , (2882,  22,  872415275) /* PhysicsEffectTable */
      , (2882,  28,       1623) /* Spell - SwiftKillerSelf2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2882,  1623,      2)  /* SwiftKillerSelf2 */;

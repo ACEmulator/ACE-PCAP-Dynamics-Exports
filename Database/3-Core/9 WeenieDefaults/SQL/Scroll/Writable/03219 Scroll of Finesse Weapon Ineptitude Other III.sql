@@ -27,6 +27,3 @@ VALUES (3219,   1,   33554826) /* Setup */
      , (3219,   8,  100692250) /* Icon */
      , (3219,  22,  872415275) /* PhysicsEffectTable */
      , (3219,  28,        330) /* Spell - DaggerIneptitudeOther3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3219,   330,      2)  /* DaggerIneptitudeOther3 */;

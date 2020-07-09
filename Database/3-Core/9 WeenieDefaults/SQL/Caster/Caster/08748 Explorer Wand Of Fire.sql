@@ -37,6 +37,5 @@ VALUES (8748,   1,   33558231) /* Setup */
      , (8748,  28,         82) /* Spell - FlameBolt3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8748,    82,      2)  /* FlameBolt3 */
-     , (8748,   583,      2)  /* ItemEnchantmentMasterySelf3 */
+VALUES (8748,   583,      2)  /* ItemEnchantmentMasterySelf3 */
      , (8748,   655,      2)  /* ManaMasterySelf3 */;

@@ -27,6 +27,3 @@ VALUES (37684,   1,   33554826) /* Setup */
      , (37684,   8,  100676950) /* Icon */
      , (37684,  22,  872415275) /* PhysicsEffectTable */
      , (37684,  28,       4466) /* Spell - ColdProtectionSelf8 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37684,  4466,      2)  /* ColdProtectionSelf8 */;

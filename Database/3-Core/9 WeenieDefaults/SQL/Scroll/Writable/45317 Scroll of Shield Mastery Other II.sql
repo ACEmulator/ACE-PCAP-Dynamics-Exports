@@ -27,6 +27,3 @@ VALUES (45317,   1,   33554826) /* Setup */
      , (45317,   8,  100692252) /* Icon */
      , (45317,  22,  872415275) /* PhysicsEffectTable */
      , (45317,  28,       5844) /* Spell - ShieldMasteryOther2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45317,  5844,      2)  /* ShieldMasteryOther2 */;

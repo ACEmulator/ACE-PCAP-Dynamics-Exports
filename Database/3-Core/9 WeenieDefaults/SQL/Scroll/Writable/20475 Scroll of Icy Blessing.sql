@@ -28,8 +28,5 @@ VALUES (20475,   1,   33554826) /* Setup */
      , (20475,  22,  872415275) /* PhysicsEffectTable */
      , (20475,  28,       2155) /* Spell - ColdProtectionSelf7 */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20475,  2155,      2)  /* ColdProtectionSelf7 */;
-
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20475, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

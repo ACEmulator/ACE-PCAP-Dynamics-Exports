@@ -37,6 +37,3 @@ VALUES (34257,   1,   33554809) /* Setup */
      , (34257,   8,  100683150) /* Icon */
      , (34257,  22,  872415275) /* PhysicsEffectTable */
      , (34257,  28,       4024) /* Spell - AsheronsLesserBenediction */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34257,  4024,      2)  /* AsheronsLesserBenediction */;

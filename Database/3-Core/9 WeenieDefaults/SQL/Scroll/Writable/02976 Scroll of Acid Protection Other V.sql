@@ -27,6 +27,3 @@ VALUES (2976,   1,   33554826) /* Setup */
      , (2976,   8,  100676951) /* Icon */
      , (2976,  22,  872415275) /* PhysicsEffectTable */
      , (2976,  28,        513) /* Spell - AcidProtectionOther5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2976,   513,      2)  /* AcidProtectionOther5 */;

@@ -27,6 +27,3 @@ VALUES (3279,   1,   33554826) /* Setup */
      , (3279,   8,  100676459) /* Icon */
      , (3279,  22,  872415275) /* PhysicsEffectTable */
      , (3279,  28,        876) /* Spell - HealingMasterySelf3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3279,   876,      2)  /* HealingMasterySelf3 */;

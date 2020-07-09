@@ -36,6 +36,3 @@ VALUES (29106,   1,   33559128) /* Setup */
      , (29106,  28,       3531) /* Spell - BobosBlessingCoord */
      , (29106,  50,  100687554) /* IconOverlay */
      , (29106,  52,  100687547) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29106,  3531,      2)  /* BobosBlessingCoord */;

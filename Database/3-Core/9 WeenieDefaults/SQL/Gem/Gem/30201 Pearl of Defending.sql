@@ -45,6 +45,3 @@ VALUES (30201,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30201, 8040, 23855548, 53.04251, -28.4129, -0.001000002, -0.02943131, 0, 0, -0.9995668) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BC [53.042510 -28.412900 -0.001000] -0.029431 0.000000 0.000000 -0.999567 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30201,  3699,      2)  /* DefenderRare */;

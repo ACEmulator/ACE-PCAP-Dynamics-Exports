@@ -46,5 +46,4 @@ VALUES (10969, 8040, 18809101, 26.42003, -24.69075, 0, 0.8966449, 0, 0, -0.44275
 /* @teleloc 0x011F010D [26.420030 -24.690750 0.000000] 0.896645 0.000000 0.000000 -0.442750 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (10969,  2946,      2)  /* ModerateCreatureMagicAptitude */
-     , (10969,  3179,      2)  /* DispelAllBadOther7 */;
+VALUES (10969,  2946,      2)  /* ModerateCreatureMagicAptitude */;

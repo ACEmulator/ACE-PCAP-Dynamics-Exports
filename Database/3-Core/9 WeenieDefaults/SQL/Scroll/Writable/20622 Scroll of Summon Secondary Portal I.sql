@@ -27,6 +27,3 @@ VALUES (20622,   1,   33554826) /* Setup */
      , (20622,   8,  100676673) /* Icon */
      , (20622,  22,  872415275) /* PhysicsEffectTable */
      , (20622,  28,       2648) /* Spell - SummonSecondPortal1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20622,  2648,      2)  /* SummonSecondPortal1 */;

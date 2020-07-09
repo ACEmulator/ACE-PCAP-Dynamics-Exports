@@ -38,6 +38,3 @@ VALUES (8117,   1,   33556769) /* Setup */
      , (8117,   8,  100670993) /* Icon */
      , (8117,  22,  872415275) /* PhysicsEffectTable */
      , (8117,  28,       2002) /* Spell - PortalSendingShendolain */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8117,  2002,      2)  /* PortalSendingShendolain */;

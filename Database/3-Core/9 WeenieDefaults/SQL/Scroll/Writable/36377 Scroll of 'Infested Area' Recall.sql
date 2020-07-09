@@ -29,6 +29,3 @@ VALUES (36377,   1,   33554826) /* Setup */
      , (36377,   8,  100676673) /* Icon */
      , (36377,  22,  872415275) /* PhysicsEffectTable */
      , (36377,  28,       4198) /* Spell - InfestedAreaRecall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36377,  4198,      2)  /* InfestedAreaRecall */;

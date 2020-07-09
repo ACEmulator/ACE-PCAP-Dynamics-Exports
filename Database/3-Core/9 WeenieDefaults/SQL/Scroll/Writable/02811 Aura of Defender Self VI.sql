@@ -27,6 +27,3 @@ VALUES (2811,   1,   33554826) /* Setup */
      , (2811,   8,  100676658) /* Icon */
      , (2811,  22,  872415275) /* PhysicsEffectTable */
      , (2811,  28,       1605) /* Spell - DefenderSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2811,  1605,      2)  /* DefenderSelf6 */;

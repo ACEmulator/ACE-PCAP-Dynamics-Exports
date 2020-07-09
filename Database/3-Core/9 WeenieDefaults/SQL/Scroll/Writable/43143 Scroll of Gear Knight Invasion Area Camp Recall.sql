@@ -29,6 +29,3 @@ VALUES (43143,   1,   33554826) /* Setup */
      , (43143,   8,  100676673) /* Icon */
      , (43143,  22,  872415275) /* PhysicsEffectTable */
      , (43143,  28,       5330) /* Spell - RecallGearKnightInvasionHigh */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43143,  5330,      2)  /* RecallGearKnightInvasionHigh */;

@@ -27,6 +27,3 @@ VALUES (3135,   1,   33554826) /* Setup */
      , (3135,   8,  100676447) /* Icon */
      , (3135,  22,  872415275) /* PhysicsEffectTable */
      , (3135,  28,        687) /* Spell - ArcaneEnlightenmentOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3135,   687,      2)  /* ArcaneEnlightenmentOther4 */;

@@ -56,5 +56,4 @@ VALUES (41785,   1,   33560312) /* Setup */
      , (41785,  55,       2178) /* ProcSpell - FesterOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41785,  2178,      2)  /* FesterOther7 */
-     , (41785,  4017,      2)  /* SkillThrownWeaponPhialsAccuracy */;
+VALUES (41785,  4017,      2)  /* SkillThrownWeaponPhialsAccuracy */;

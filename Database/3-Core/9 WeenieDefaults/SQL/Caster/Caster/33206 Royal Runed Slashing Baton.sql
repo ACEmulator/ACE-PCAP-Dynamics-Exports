@@ -60,6 +60,5 @@ VALUES (33206, 8040, 18809102, 34.2425, -29.18434, 2.134, -0.2575423, -0.2575423
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33206,  2101,      2)  /* DefenderSelf7 */
      , (33206,  2117,      2)  /* HermeticLinkSelf7 */
-     , (33206,  2282,      2)  /* MagicYieldOther7 */
      , (33206,  2812,      2)  /* ModerateWarMagicAptitude */
      , (33206,  3259,      2)  /* SpiritDrinkerSelf7 */;

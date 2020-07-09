@@ -27,6 +27,3 @@ VALUES (3072,   1,   33554826) /* Setup */
      , (3072,   8,  100676953) /* Icon */
      , (3072,  22,  872415275) /* PhysicsEffectTable */
      , (3072,  28,       1138) /* Spell - PiercingProtectionSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3072,  1138,      2)  /* PiercingProtectionSelf6 */;

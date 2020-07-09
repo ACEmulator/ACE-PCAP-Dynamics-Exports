@@ -27,6 +27,3 @@ VALUES (2903,   1,   33554826) /* Setup */
      , (2903,   8,  100676673) /* Icon */
      , (2903,  22,  872415275) /* PhysicsEffectTable */
      , (2903,  28,       1635) /* Spell - LifestoneRecall1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2903,  1635,      2)  /* LifestoneRecall1 */;

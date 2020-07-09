@@ -61,5 +61,4 @@ VALUES (43814, 8040, 2062024706, 5.386024, 36.11996, 119.93, -0.2398696, -0.2398
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43814,  4400,      2)  /* DefenderSelf8 */
      , (43814,  4414,      2)  /* SpiritDrinkerSelf8 */
-     , (43814,  4582,      2)  /* LifeMagicMasterySelf8 */
-     , (43814,  5531,      2)  /* BloodstoneBolt7 */;
+     , (43814,  4582,      2)  /* LifeMagicMasterySelf8 */;

@@ -27,6 +27,3 @@ VALUES (43319,   1,   33554826) /* Setup */
      , (43319,   8,  100691572) /* Icon */
      , (43319,  22,  872415275) /* PhysicsEffectTable */
      , (43319,  28,       5361) /* Spell - NetherRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43319,  5361,      2)  /* NetherRing */;

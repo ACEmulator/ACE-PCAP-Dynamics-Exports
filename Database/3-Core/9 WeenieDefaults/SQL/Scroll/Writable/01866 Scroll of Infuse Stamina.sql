@@ -27,6 +27,3 @@ VALUES (1866,   1,   33554826) /* Setup */
      , (1866,   8,  100676930) /* Icon */
      , (1866,  22,  872415275) /* PhysicsEffectTable */
      , (1866,  28,       1243) /* Spell - InfuseStamina1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1866,  1243,      2)  /* InfuseStamina1 */;

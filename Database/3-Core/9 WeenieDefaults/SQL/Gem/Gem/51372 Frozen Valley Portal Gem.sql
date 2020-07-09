@@ -38,6 +38,3 @@ VALUES (51372,   1,   33556769) /* Setup */
      , (51372,   8,  100693112) /* Icon */
      , (51372,  22,  872415275) /* PhysicsEffectTable */
      , (51372,  28,       6147) /* Spell - PortalSendingIceValley */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51372,  6147,      2)  /* PortalSendingIceValley */;

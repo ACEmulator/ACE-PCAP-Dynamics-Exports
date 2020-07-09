@@ -31,6 +31,3 @@ VALUES (1895,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1895, 8040, 3062300988, 61.89213, 137.2337, 90.0855, -0.9911661, 0, 0, 0.1326264) /* PCAPRecordedLocation */
 /* @teleloc 0xB687013C [61.892130 137.233700 90.085500] -0.991166 0.000000 0.000000 0.132626 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1895,    49,      2)  /* SwiftKillerSelf1 */;

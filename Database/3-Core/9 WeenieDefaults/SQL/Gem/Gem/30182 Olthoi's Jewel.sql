@@ -41,6 +41,3 @@ VALUES (30182,   1,   33554809) /* Setup */
      , (30182,  28,       3680) /* Spell - AcidProtectionRare */
      , (30182,  50,  100686625) /* IconOverlay */
      , (30182,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30182,  3680,      2)  /* AcidProtectionRare */;

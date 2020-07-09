@@ -35,6 +35,3 @@ VALUES (9426,   1,   33554809) /* Setup */
      , (9426,   8,  100668365) /* Icon */
      , (9426,  22,  872415275) /* PhysicsEffectTable */
      , (9426,  28,       2393) /* Spell - ForceArmor */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9426,  2393,      2)  /* ForceArmor */;

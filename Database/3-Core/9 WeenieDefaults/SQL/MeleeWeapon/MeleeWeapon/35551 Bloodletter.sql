@@ -60,6 +60,5 @@ VALUES (35551,   1,   33559320) /* Setup */
      , (35551,  55,       2070) /* ProcSpell - HarmOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35551,  2070,      2)  /* HarmOther7 */
-     , (35551,  2308,      2)  /* SwordMasteryOther7 */
+VALUES (35551,  2308,      2)  /* SwordMasteryOther7 */
      , (35551,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;

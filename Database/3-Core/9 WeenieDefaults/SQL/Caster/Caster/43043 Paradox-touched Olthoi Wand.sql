@@ -60,6 +60,5 @@ VALUES (43043, 8040, 23855554, 62.49383, -29.91756, -0.07025, -0.6734836, -0.673
 /* @teleloc 0x016C01C2 [62.493830 -29.917560 -0.070250] -0.673484 -0.673484 -0.215453 -0.215453 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43043,    67,      2)  /* ShockWave4 */
-     , (43043,  2101,      2)  /* DefenderSelf7 */
+VALUES (43043,  2101,      2)  /* DefenderSelf7 */
      , (43043,  3259,      2)  /* SpiritDrinkerSelf7 */;

@@ -51,7 +51,6 @@ VALUES (40139, 8040, 2847146034, 157.7887, 30.10039, 102.7985, -0.3930089, -0.39
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40139,  2014,      2)  /* WizardsUltimateIntellect */
-     , (40139,  4315,      2)  /* ManaBoostSelf8 */
      , (40139,  4493,      2)  /* ManaRenewalOther8 */
      , (40139,  4601,      2)  /* ManaMasteryOther8 */
      , (40139,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

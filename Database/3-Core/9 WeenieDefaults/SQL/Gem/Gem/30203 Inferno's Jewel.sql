@@ -41,6 +41,3 @@ VALUES (30203,   1,   33554809) /* Setup */
      , (30203,  28,       3702) /* Spell - FireProtectionRare */
      , (30203,  50,  100686649) /* IconOverlay */
      , (30203,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30203,  3702,      2)  /* FireProtectionRare */;

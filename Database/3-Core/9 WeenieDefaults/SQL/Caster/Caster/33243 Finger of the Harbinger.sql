@@ -56,5 +56,4 @@ VALUES (33243,  2286,      2)  /* ManaMasteryOther7 */
      , (33243,  2618,      2)  /* CANTRIPFLAMEWARD1 */
      , (33243,  2619,      2)  /* CANTRIPFROSTWARD1 */
      , (33243,  2622,      2)  /* CANTRIPSTORMWARD1 */
-     , (33243,  3200,      2)  /* CantripHermeticLink2 */
-     , (33243,  3926,      2)  /* HarbingersFieryTouch */;
+     , (33243,  3200,      2)  /* CantripHermeticLink2 */;

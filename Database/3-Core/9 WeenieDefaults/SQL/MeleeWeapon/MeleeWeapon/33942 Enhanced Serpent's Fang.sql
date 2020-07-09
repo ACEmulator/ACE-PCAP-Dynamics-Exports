@@ -58,5 +58,4 @@ VALUES (33942,   249,      2)  /* InvulnerabilitySelf6 */
      , (33942,  2005,      2)  /* WarriorsGreaterVitality */
      , (33942,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33942,  2101,      2)  /* DefenderSelf7 */
-     , (33942,  2106,      2)  /* HeartSeekerSelf7 */
-     , (33942,  2121,      2)  /* AcidStreak7 */;
+     , (33942,  2106,      2)  /* HeartSeekerSelf7 */;

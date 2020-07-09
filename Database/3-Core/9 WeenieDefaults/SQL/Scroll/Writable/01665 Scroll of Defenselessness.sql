@@ -27,6 +27,3 @@ VALUES (1665,   1,   33554826) /* Setup */
      , (1665,   8,  100676468) /* Icon */
      , (1665,  22,  872415275) /* PhysicsEffectTable */
      , (1665,  28,        262) /* Spell - DefenselessnessOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1665,   262,      2)  /* DefenselessnessOther1 */;

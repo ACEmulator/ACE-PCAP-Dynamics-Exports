@@ -27,6 +27,3 @@ VALUES (20231,   1,   33554826) /* Setup */
      , (20231,   8,  100676928) /* Icon */
      , (20231,  22,  872415275) /* PhysicsEffectTable */
      , (20231,  28,       2053) /* Spell - ArmorSelf7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20231,  2053,      2)  /* ArmorSelf7 */;

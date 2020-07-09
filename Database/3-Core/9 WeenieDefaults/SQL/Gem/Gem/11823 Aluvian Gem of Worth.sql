@@ -30,6 +30,3 @@ VALUES (11823,   1,   33554809) /* Setup */
      , (11823,   8,  100672150) /* Icon */
      , (11823,  22,  872415275) /* PhysicsEffectTable */
      , (11823,  28,       2477) /* Spell - PORTALTUMEROKWARALU */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11823,  2477,      2)  /* PORTALTUMEROKWARALU */;

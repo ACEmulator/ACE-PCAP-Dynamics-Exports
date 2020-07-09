@@ -27,6 +27,3 @@ VALUES (7516,   1,   33554826) /* Setup */
      , (7516,   8,  100677025) /* Icon */
      , (7516,  22,  872415275) /* PhysicsEffectTable */
      , (7516,  28,       1839) /* Spell - AcidWall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7516,  1839,      2)  /* AcidWall */;

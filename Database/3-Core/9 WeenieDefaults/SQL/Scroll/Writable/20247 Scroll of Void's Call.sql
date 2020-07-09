@@ -27,6 +27,3 @@ VALUES (20247,   1,   33554826) /* Setup */
      , (20247,   8,  100676932) /* Icon */
      , (20247,  22,  872415275) /* PhysicsEffectTable */
      , (20247,  28,       2078) /* Spell - ManaDrainOther7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20247,  2078,      2)  /* ManaDrainOther7 */;

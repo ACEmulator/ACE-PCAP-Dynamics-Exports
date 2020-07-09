@@ -37,6 +37,5 @@ VALUES (8746,   1,   33558231) /* Setup */
      , (8746,  28,         60) /* Spell - AcidStream3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8746,    60,      2)  /* AcidStream3 */
-     , (8746,   607,      2)  /* LifeMagicMasterySelf3 */
+VALUES (8746,   607,      2)  /* LifeMagicMasterySelf3 */
      , (8746,   655,      2)  /* ManaMasterySelf3 */;

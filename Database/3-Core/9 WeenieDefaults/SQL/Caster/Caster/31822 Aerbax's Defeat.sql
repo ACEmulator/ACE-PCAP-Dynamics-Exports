@@ -80,6 +80,5 @@ VALUES (31822, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31822,  4418,      2)  /* HermeticLinkSelf8 */
-     , (31822,  4439,      2)  /* FlameBolt8 */
      , (31822,  4638,      2)  /* WarMagicMasterySelf8 */
      , (31822,  6098,      2)  /* CantripSpiritThirst4 */;

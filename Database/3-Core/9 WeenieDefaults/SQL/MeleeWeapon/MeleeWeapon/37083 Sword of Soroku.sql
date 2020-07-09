@@ -64,5 +64,4 @@ VALUES (37083,  2096,      2)  /* BloodDrinkerSelf7 */
      , (37083,  2106,      2)  /* HeartSeekerSelf7 */
      , (37083,  2116,      2)  /* SwiftKillerSelf7 */
      , (37083,  2659,      2)  /* ModerateCoordination */
-     , (37083,  2662,      2)  /* ModerateQuickness */
-     , (37083,  4087,      2)  /* ImperilOther7Proc */;
+     , (37083,  2662,      2)  /* ModerateQuickness */;

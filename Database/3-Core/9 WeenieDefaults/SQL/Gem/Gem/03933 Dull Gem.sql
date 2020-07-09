@@ -34,6 +34,3 @@ VALUES (3933,   1,   33554809) /* Setup */
      , (3933,   8,  100668359) /* Icon */
      , (3933,  22,  872415275) /* PhysicsEffectTable */
      , (3933,  28,       1357) /* Spell - EnduranceOther3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3933,  1357,      2)  /* EnduranceOther3 */;

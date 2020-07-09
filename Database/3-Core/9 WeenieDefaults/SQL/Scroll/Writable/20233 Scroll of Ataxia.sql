@@ -27,6 +27,3 @@ VALUES (20233,   1,   33554826) /* Setup */
      , (20233,   8,  100676452) /* Icon */
      , (20233,  22,  872415275) /* PhysicsEffectTable */
      , (20233,  28,       2056) /* Spell - ClumsinessOther7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20233,  2056,      2)  /* ClumsinessOther7 */;

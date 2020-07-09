@@ -34,6 +34,3 @@ VALUES (5672,   1,   33554663) /* Setup */
      , (5672,   8,  100667430) /* Icon */
      , (5672,  22,  872415275) /* PhysicsEffectTable */
      , (5672,  28,         54) /* Spell - RejuvenationSelf1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5672,    54,      2)  /* RejuvenationSelf1 */;

@@ -27,6 +27,3 @@ VALUES (2135,   1,   33554826) /* Setup */
      , (2135,   8,  100677022) /* Icon */
      , (2135,  22,  872415275) /* PhysicsEffectTable */
      , (2135,  28,        143) /* Spell - FlameVolley3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2135,   143,      2)  /* FlameVolley3 */;

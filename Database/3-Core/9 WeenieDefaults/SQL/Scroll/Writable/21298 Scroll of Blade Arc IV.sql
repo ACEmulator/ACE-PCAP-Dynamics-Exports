@@ -27,6 +27,3 @@ VALUES (21298,   1,   33554826) /* Setup */
      , (21298,   8,  100677028) /* Icon */
      , (21298,  22,  872415275) /* PhysicsEffectTable */
      , (21298,  28,       2756) /* Spell - BladeArc4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21298,  2756,      2)  /* BladeArc4 */;

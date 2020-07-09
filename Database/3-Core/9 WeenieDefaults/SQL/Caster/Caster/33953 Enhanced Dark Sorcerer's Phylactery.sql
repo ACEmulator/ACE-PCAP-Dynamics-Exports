@@ -45,7 +45,6 @@ VALUES (33953, 8040, 3583574079, 183.1973, 160.3552, 374, 0.9549823, 0, 0, -0.29
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33953,  2014,      2)  /* WizardsUltimateIntellect */
-     , (33953,  2178,      2)  /* FesterOther7 */
      , (33953,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
      , (33953,  2267,      2)  /* LifeMagicMasterySelf7 */
      , (33953,  2287,      2)  /* ManaMasterySelf7 */

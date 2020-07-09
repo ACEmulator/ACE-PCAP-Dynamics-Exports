@@ -27,6 +27,3 @@ VALUES (3178,   1,   33554826) /* Setup */
      , (3178,   8,  100676450) /* Icon */
      , (3178,  22,  872415275) /* PhysicsEffectTable */
      , (3178,  28,        462) /* Spell - BowMasteryOther2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3178,   462,      2)  /* BowMasteryOther2 */;

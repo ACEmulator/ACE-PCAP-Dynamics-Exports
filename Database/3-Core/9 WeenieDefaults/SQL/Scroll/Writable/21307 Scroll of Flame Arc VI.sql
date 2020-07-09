@@ -27,6 +27,3 @@ VALUES (21307,   1,   33554826) /* Setup */
      , (21307,   8,  100677022) /* Icon */
      , (21307,  22,  872415275) /* PhysicsEffectTable */
      , (21307,  28,       2744) /* Spell - FlameArc6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21307,  2744,      2)  /* FlameArc6 */;

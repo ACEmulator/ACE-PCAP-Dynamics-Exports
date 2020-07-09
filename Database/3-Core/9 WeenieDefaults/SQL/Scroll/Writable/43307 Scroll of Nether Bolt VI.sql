@@ -27,6 +27,3 @@ VALUES (43307,   1,   33554826) /* Setup */
      , (43307,   8,  100691569) /* Icon */
      , (43307,  22,  872415275) /* PhysicsEffectTable */
      , (43307,  28,       5354) /* Spell - NetherBolt6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43307,  5354,      2)  /* NetherBolt6 */;

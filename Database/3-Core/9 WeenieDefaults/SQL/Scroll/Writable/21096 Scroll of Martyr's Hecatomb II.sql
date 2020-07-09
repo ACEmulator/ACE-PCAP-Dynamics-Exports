@@ -27,6 +27,3 @@ VALUES (21096,   1,   33554826) /* Setup */
      , (21096,   8,  100676938) /* Icon */
      , (21096,  22,  872415275) /* PhysicsEffectTable */
      , (21096,  28,       2761) /* Spell - HealthBolt2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21096,  2761,      2)  /* HealthBolt2 */;

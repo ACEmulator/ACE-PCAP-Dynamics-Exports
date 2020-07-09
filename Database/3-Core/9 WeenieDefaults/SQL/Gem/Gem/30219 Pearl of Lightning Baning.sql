@@ -42,6 +42,3 @@ VALUES (30219,   1,   33554809) /* Setup */
      , (30219,  28,       3718) /* Spell - LightningBaneRare */
      , (30219,  50,  100686666) /* IconOverlay */
      , (30219,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30219,  3718,      2)  /* LightningBaneRare */;

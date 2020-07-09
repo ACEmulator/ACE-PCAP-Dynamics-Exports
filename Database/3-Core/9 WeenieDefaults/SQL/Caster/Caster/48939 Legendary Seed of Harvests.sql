@@ -49,8 +49,7 @@ VALUES (48939,   1,   33561509) /* Setup */
      , (48939,  28,       2128) /* Spell - FlameBolt7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48939,  2128,      2)  /* FlameBolt7 */
-     , (48939,  4414,      2)  /* SpiritDrinkerSelf8 */
+VALUES (48939,  4414,      2)  /* SpiritDrinkerSelf8 */
      , (48939,  4638,      2)  /* WarMagicMasterySelf8 */
      , (48939,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
      , (48939,  6075,      2)  /* CantripWarMagicAptitude4 */;

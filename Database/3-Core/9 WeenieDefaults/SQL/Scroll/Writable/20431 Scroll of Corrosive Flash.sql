@@ -27,6 +27,3 @@ VALUES (20431,   1,   33554826) /* Setup */
      , (20431,   8,  100677026) /* Icon */
      , (20431,  22,  872415275) /* PhysicsEffectTable */
      , (20431,  28,       2121) /* Spell - AcidStreak7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20431,  2121,      2)  /* AcidStreak7 */;

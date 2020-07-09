@@ -63,7 +63,6 @@ VALUES (37585, 8040, 23855559, 71.14764, -51.02144, -0.071, -0.5176283, -0.51762
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37585,  2101,      2)  /* DefenderSelf7 */
      , (37585,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37585,  2132,      2)  /* ForceBolt7 */
      , (37585,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (37585,  2581,      2)  /* CANTRIPFOCUS1 */
      , (37585,  2584,      2)  /* CANTRIPWILLPOWER1 */

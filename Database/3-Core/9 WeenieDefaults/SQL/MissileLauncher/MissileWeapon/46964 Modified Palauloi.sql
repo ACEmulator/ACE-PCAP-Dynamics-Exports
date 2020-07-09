@@ -56,5 +56,4 @@ VALUES (46964,   1,   33557969) /* Setup */
      , (46964,  55,       2228) /* ProcSpell - DefenselessnessOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46964,  2228,      2)  /* DefenselessnessOther7 */
-     , (46964,  4521,      2)  /* BowMasteryOther8 */;
+VALUES (46964,  4521,      2)  /* BowMasteryOther8 */;

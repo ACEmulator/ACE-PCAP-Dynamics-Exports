@@ -54,5 +54,4 @@ VALUES (21911,   640,      2)  /* WarMagicMasteryOther6 */
      , (21911,   664,      2)  /* ManaMasteryOther6 */
      , (21911,  2581,      2)  /* CANTRIPFOCUS1 */
      , (21911,  2584,      2)  /* CANTRIPWILLPOWER1 */
-     , (21911,  2782,      2)  /* LesserElementalFuryFlame */
      , (21911,  2812,      2)  /* ModerateWarMagicAptitude */;

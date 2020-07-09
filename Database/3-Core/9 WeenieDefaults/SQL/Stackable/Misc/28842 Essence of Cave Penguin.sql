@@ -32,6 +32,3 @@ VALUES (28842,   1,   33554603) /* Setup */
      , (28842,   8,  100686396) /* Icon */
      , (28842,  22,  872415275) /* PhysicsEffectTable */
      , (28842,  28,       3571) /* Spell - HealthUp10Percent */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28842,  3571,      2)  /* HealthUp10Percent */;

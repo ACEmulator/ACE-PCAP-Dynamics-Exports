@@ -57,6 +57,5 @@ VALUES (46941, 8040, 19202342, 30.025, -60, 5.929, 0.7071068, 0.7071068, 0, 0) /
 /* @teleloc 0x01250126 [30.025000 -60.000000 5.929000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46941,  2781,      2)  /* LesserElementalFuryAcid */
-     , (46941,  4637,      2)  /* WarMagicMasteryOther8 */
+VALUES (46941,  4637,      2)  /* WarMagicMasteryOther8 */
      , (46941,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;

@@ -27,6 +27,3 @@ VALUES (3152,   1,   33554826) /* Setup */
      , (3152,   8,  100676477) /* Icon */
      , (3152,  22,  872415275) /* PhysicsEffectTable */
      , (3152,  28,        707) /* Spell - ArmorExpertiseSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3152,   707,      2)  /* ArmorExpertiseSelf6 */;

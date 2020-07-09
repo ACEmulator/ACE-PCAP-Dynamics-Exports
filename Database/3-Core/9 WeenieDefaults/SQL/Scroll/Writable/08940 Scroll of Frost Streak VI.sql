@@ -27,6 +27,3 @@ VALUES (8940,   1,   33554826) /* Setup */
      , (8940,   8,  100677016) /* Icon */
      , (8940,  22,  872415275) /* PhysicsEffectTable */
      , (8940,  28,       1813) /* Spell - FrostStreak6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8940,  1813,      2)  /* FrostStreak6 */;

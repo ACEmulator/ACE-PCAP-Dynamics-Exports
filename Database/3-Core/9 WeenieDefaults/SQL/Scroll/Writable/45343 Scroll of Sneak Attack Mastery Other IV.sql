@@ -27,6 +27,3 @@ VALUES (45343,   1,   33554826) /* Setup */
      , (45343,   8,  100692253) /* Icon */
      , (45343,  22,  872415275) /* PhysicsEffectTable */
      , (45343,  28,       5870) /* Spell - SneakAttackMasteryOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45343,  5870,      2)  /* SneakAttackMasteryOther4 */;

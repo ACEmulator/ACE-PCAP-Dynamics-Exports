@@ -27,6 +27,3 @@ VALUES (45295,   1,   33554826) /* Setup */
      , (45295,   8,  100676449) /* Icon */
      , (45295,  22,  872415275) /* PhysicsEffectTable */
      , (45295,  28,       5822) /* Spell - RecklessnessMasteryOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45295,  5822,      2)  /* RecklessnessMasteryOther4 */;

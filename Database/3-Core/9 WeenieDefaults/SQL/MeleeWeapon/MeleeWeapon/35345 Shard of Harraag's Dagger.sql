@@ -59,5 +59,4 @@ VALUES (35345,   1,   33560291) /* Setup */
      , (35345,  55,       1788) /* ProcSpell - LightningRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35345,  1788,      2)  /* LightningRing */
-     , (35345,  2686,      2)  /* ModerateAxeAptitude */;
+VALUES (35345,  2686,      2)  /* ModerateAxeAptitude */;

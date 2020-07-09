@@ -41,6 +41,3 @@ VALUES (30186,   1,   33554809) /* Setup */
      , (30186,  28,       3683) /* Spell - ArmorExpertiseRare */
      , (30186,  50,  100686630) /* IconOverlay */
      , (30186,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30186,  3683,      2)  /* ArmorExpertiseRare */;

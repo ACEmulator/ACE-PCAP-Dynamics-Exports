@@ -56,5 +56,4 @@ VALUES (33622,   1,   33560026) /* Setup */
      , (33622,  55,       3959) /* ProcSpell - RedirectMotives */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33622,  3959,      2)  /* RedirectMotives */
-     , (33622,  3962,      2)  /* BoundToLaw */;
+VALUES (33622,  3962,      2)  /* BoundToLaw */;

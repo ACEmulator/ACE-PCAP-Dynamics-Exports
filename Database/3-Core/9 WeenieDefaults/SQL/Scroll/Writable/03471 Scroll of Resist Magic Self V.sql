@@ -27,6 +27,3 @@ VALUES (3471,   1,   33554826) /* Setup */
      , (3471,   8,  100676465) /* Icon */
      , (3471,  22,  872415275) /* PhysicsEffectTable */
      , (3471,  28,        278) /* Spell - MagicResistanceSelf5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3471,   278,      2)  /* MagicResistanceSelf5 */;

@@ -41,6 +41,3 @@ VALUES (23992,   1,   33556769) /* Setup */
      , (23992,   8,  100668365) /* Icon */
      , (23992,  22,  872415275) /* PhysicsEffectTable */
      , (23992,  28,       2957) /* Spell - PortalSendingKnorrSeat */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23992,  2957,      2)  /* PortalSendingKnorrSeat */;

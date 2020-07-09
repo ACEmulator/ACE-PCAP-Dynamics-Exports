@@ -40,9 +40,6 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (1252, 8040, 31785221, 79.878, -49.0451, -30, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x01E50105 [79.878000 -49.045100 -30.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1252,  1418,      2)  /* SlownessOther4 */;
-
 INSERT INTO `weenie_properties_generator` (`object_Id`, `probability`, `weenie_Class_Id`, `delay`, `init_Create`, `max_Create`, `when_Create`, `where_Create`, `stack_Size`, `palette_Id`, `shade`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (1252, -1, 2197, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Iron Crown (2197) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */
      , (1252, -1, 38046, 0, 1, 1, 2, 8, 1, 0, 0, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL) /* Generate Green Mire Yoroi Cuirass (38046) (x1 up to max of 1) - Regenerate upon PickUp - Location to (re)Generate: Contain */;

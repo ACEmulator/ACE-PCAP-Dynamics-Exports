@@ -27,6 +27,3 @@ VALUES (3415,   1,   33554826) /* Setup */
      , (3415,   8,  100676477) /* Icon */
      , (3415,  22,  872415275) /* PhysicsEffectTable */
      , (3415,  28,        753) /* Spell - MagicItemExpertiseSelf4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3415,   753,      2)  /* MagicItemExpertiseSelf4 */;

@@ -27,6 +27,3 @@ VALUES (3333,   1,   33554826) /* Setup */
      , (3333,   8,  100676461) /* Icon */
      , (3333,  22,  872415275) /* PhysicsEffectTable */
      , (3333,  28,        977) /* Spell - JumpingMasteryOther2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3333,   977,      2)  /* JumpingMasteryOther2 */;

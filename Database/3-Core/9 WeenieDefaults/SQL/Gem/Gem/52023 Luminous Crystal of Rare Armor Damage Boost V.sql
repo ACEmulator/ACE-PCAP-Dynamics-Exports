@@ -40,6 +40,3 @@ VALUES (52023,   1,   33554809) /* Setup */
      , (52023,  28,       5978) /* Spell - RareArmorDamageBoost5 */
      , (52023,  50,  100686635) /* IconOverlay */
      , (52023,  52,  100691593) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52023,  5978,      2)  /* RareArmorDamageBoost5 */;

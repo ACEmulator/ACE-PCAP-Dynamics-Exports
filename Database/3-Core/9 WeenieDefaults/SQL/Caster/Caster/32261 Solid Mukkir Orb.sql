@@ -44,5 +44,4 @@ VALUES (32261, 8040, 3465871413, 157.2323, 96.44395, 19.9305, 0.2566817, 0.25668
 /* @teleloc 0xCE950035 [157.232300 96.443950 19.930500] 0.256682 0.256682 -0.658874 -0.658874 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32261,   682,      2)  /* ArcaneEnlightenmentSelf5 */
-     , (32261,  3861,      2)  /* CantripTasteForBlood */;
+VALUES (32261,   682,      2)  /* ArcaneEnlightenmentSelf5 */;

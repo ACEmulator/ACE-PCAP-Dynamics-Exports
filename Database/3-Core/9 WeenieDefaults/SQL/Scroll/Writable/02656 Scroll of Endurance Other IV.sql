@@ -27,6 +27,3 @@ VALUES (2656,   1,   33554826) /* Setup */
      , (2656,   8,  100676456) /* Icon */
      , (2656,  22,  872415275) /* PhysicsEffectTable */
      , (2656,  28,       1358) /* Spell - EnduranceOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2656,  1358,      2)  /* EnduranceOther4 */;

@@ -31,6 +31,3 @@ VALUES (3374,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3374, 8040, 23200030, 0.76652, -90.96767, 6.0855, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x0162011E [0.766520 -90.967670 6.085500] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3374,   607,      2)  /* LifeMagicMasterySelf3 */;

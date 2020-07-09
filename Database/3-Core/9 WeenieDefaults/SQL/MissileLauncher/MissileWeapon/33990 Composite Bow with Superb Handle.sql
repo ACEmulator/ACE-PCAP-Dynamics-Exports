@@ -63,7 +63,6 @@ VALUES (33990, 8040, 3599958021, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPReco
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33990,  2058,      2)  /* CoordinationOther7 */
      , (33990,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33990,  2100,      2)  /* Brittlemail7 */
      , (33990,  2101,      2)  /* DefenderSelf7 */
      , (33990,  2116,      2)  /* SwiftKillerSelf7 */
      , (33990,  2206,      2)  /* BowMasteryOther7 */

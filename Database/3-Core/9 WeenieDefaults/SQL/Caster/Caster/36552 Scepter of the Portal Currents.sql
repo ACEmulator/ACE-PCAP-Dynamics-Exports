@@ -57,5 +57,4 @@ VALUES (36552,  2067,      2)  /* FocusSelf7 */
      , (36552,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */
      , (36552,  2524,      2)  /* CANTRIPMAGICRESISTANCE2 */
      , (36552,  2574,      2)  /* CANTRIPFOCUS2 */
-     , (36552,  2584,      2)  /* CANTRIPWILLPOWER1 */
-     , (36552,  4214,      2)  /* CandethKeepRecall */;
+     , (36552,  2584,      2)  /* CANTRIPWILLPOWER1 */;

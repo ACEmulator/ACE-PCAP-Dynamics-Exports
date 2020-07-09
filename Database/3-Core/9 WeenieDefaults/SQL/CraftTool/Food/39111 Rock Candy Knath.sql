@@ -40,6 +40,3 @@ VALUES (39111,   1,   33555630) /* Setup */
      , (39111,   8,  100689671) /* Icon */
      , (39111,  22,  872415275) /* PhysicsEffectTable */
      , (39111,  28,       4210) /* Spell - JumpSpin */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39111,  4210,      2)  /* JumpSpin */;

@@ -27,6 +27,3 @@ VALUES (43316,   1,   33554826) /* Setup */
      , (43316,   8,  100691569) /* Icon */
      , (43316,  22,  872415275) /* PhysicsEffectTable */
      , (43316,  28,       5347) /* Spell - NetherStreak7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43316,  5347,      2)  /* NetherStreak7 */;

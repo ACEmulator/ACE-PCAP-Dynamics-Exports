@@ -39,6 +39,3 @@ VALUES (30194,   1,   33554809) /* Setup */
      , (30194,  28,       3691) /* Spell - BowMasteryRare */
      , (30194,  50,  100686638) /* IconOverlay */
      , (30194,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30194,  3691,      2)  /* BowMasteryRare */;

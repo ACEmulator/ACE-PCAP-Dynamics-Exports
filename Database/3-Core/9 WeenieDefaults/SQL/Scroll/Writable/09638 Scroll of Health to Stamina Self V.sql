@@ -27,6 +27,3 @@ VALUES (9638,   1,   33554826) /* Setup */
      , (9638,   8,  100676947) /* Icon */
      , (9638,  22,  872415275) /* PhysicsEffectTable */
      , (9638,  28,       1276) /* Spell - HealthToStaminaSelf5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9638,  1276,      2)  /* HealthToStaminaSelf5 */;

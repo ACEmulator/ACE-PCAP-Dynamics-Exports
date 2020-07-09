@@ -27,6 +27,3 @@ VALUES (3022,   1,   33554826) /* Setup */
      , (3022,   8,  100676950) /* Icon */
      , (3022,  22,  872415275) /* PhysicsEffectTable */
      , (3022,  28,       1041) /* Spell - ColdProtectionOther6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3022,  1041,      2)  /* ColdProtectionOther6 */;

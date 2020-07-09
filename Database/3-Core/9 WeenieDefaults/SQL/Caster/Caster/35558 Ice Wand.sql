@@ -58,8 +58,7 @@ VALUES (35558, 8040, 3583574079, 183.9669, 166.5373, 373.929, -0.242894, -0.2428
 /* @teleloc 0xD599003F [183.966900 166.537300 373.929000] -0.242894 -0.242894 -0.664080 -0.664080 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35558,  1836,      2)  /* FrostStrike */
-     , (35558,  2322,      2)  /* WarMagicMasteryOther7 */
+VALUES (35558,  2322,      2)  /* WarMagicMasteryOther7 */
      , (35558,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (35558,  2612,      2)  /* CANTRIPFROSTWARD2 */
      , (35558,  4086,      2)  /* CantripArmorIceShield */;

@@ -36,6 +36,3 @@ VALUES (11127,   1,   33555193) /* Setup */
      , (11127,   8,  100671760) /* Icon */
      , (11127,  22,  872415275) /* PhysicsEffectTable */
      , (11127,  28,       2424) /* Spell - RabbitsEye */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11127,  2424,      2)  /* RabbitsEye */;

@@ -47,5 +47,4 @@ VALUES (26531,   211,      2)  /* ManaRenewalOther6 */
      , (26531,  1360,      2)  /* EnduranceOther6 */
      , (26531,  1432,      2)  /* FocusOther6 */
      , (26531,  1456,      2)  /* WillpowerOther6 */
-     , (26531,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
-     , (26531,  3068,      2)  /* MinorWardRebirth */;
+     , (26531,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */;

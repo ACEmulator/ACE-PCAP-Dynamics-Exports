@@ -27,6 +27,3 @@ VALUES (20550,   1,   33554826) /* Setup */
      , (20550,   8,  100676446) /* Icon */
      , (20550,  22,  872415275) /* PhysicsEffectTable */
      , (20550,  28,       2262) /* Spell - LeadershipMasteryOther7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20550,  2262,      2)  /* LeadershipMasteryOther7 */;

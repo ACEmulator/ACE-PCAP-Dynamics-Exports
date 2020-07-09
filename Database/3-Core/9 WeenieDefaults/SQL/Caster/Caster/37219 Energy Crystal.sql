@@ -65,7 +65,6 @@ VALUES (37219, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (37219,  2117,      2)  /* HermeticLinkSelf7 */
-     , (37219,  2146,      2)  /* WhirlingBlade7 */
      , (37219,  2287,      2)  /* ManaMasterySelf7 */
      , (37219,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
      , (37219,  3259,      2)  /* SpiritDrinkerSelf7 */

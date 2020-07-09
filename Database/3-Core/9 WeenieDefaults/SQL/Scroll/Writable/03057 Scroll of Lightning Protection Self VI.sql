@@ -27,6 +27,3 @@ VALUES (3057,   1,   33554826) /* Setup */
      , (3057,   8,  100676948) /* Icon */
      , (3057,  22,  872415275) /* PhysicsEffectTable */
      , (3057,  28,       1071) /* Spell - LightningProtectionSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3057,  1071,      2)  /* LightningProtectionSelf6 */;

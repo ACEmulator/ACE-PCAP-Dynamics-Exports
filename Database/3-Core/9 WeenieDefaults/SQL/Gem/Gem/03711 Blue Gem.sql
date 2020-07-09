@@ -34,6 +34,3 @@ VALUES (3711,   1,   33554809) /* Setup */
      , (3711,   8,  100668360) /* Icon */
      , (3711,  22,  872415275) /* PhysicsEffectTable */
      , (3711,  28,       1455) /* Spell - WillpowerOther5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3711,  1455,      2)  /* WillpowerOther5 */;

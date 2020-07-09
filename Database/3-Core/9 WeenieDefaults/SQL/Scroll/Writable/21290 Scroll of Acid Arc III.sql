@@ -27,6 +27,3 @@ VALUES (21290,   1,   33554826) /* Setup */
      , (21290,   8,  100677026) /* Icon */
      , (21290,  22,  872415275) /* PhysicsEffectTable */
      , (21290,  28,       2713) /* Spell - AcidArc3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21290,  2713,      2)  /* AcidArc3 */;

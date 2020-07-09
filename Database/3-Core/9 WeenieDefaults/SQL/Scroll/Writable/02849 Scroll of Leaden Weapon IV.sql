@@ -31,6 +31,3 @@ VALUES (2849,   1,   33554826) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (2849, 8040, 1994981721, 116.5429, 221.0741, 88.88551, -0.5710939, 0, 0, -0.8208848) /* PCAPRecordedLocation */
 /* @teleloc 0x76E90159 [116.542900 221.074100 88.885510] -0.571094 0.000000 0.000000 -0.820885 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2849,  1631,      2)  /* LeadenWeapon4 */;

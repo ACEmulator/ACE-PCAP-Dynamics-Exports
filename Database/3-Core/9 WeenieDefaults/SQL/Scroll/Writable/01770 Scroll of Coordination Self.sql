@@ -27,6 +27,3 @@ VALUES (1770,   1,   33554826) /* Setup */
      , (1770,   8,  100676452) /* Icon */
      , (1770,  22,  872415275) /* PhysicsEffectTable */
      , (1770,  28,       1373) /* Spell - CoordinationSelf1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1770,  1373,      2)  /* CoordinationSelf1 */;

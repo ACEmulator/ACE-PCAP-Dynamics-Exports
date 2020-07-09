@@ -46,7 +46,6 @@ VALUES (28058,   1,   33556630) /* Setup */
      , (28058,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28058,   130,      2)  /* AcidVolley6 */
-     , (28058,   616,      2)  /* LifeMagicMasteryOther6 */
+VALUES (28058,   616,      2)  /* LifeMagicMasteryOther6 */
      , (28058,   640,      2)  /* WarMagicMasteryOther6 */
      , (28058,   909,      2)  /* LeadershipMasteryOther6 */;

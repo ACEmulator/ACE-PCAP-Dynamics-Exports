@@ -27,6 +27,3 @@ VALUES (1894,   1,   33554826) /* Setup */
      , (1894,   8,  100676678) /* Icon */
      , (1894,  22,  872415275) /* PhysicsEffectTable */
      , (1894,  28,       1575) /* Spell - StrengthenLock1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1894,  1575,      2)  /* StrengthenLock1 */;

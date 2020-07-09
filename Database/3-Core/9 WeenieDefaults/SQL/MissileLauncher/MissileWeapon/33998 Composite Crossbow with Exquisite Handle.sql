@@ -63,7 +63,6 @@ VALUES (33998, 8040, 3332964380, 129.7671, 24.22618, 41.93, 0.8693118, 0, 0, -0.
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33998,  2058,      2)  /* CoordinationOther7 */
      , (33998,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (33998,  2100,      2)  /* Brittlemail7 */
      , (33998,  2101,      2)  /* DefenderSelf7 */
      , (33998,  2116,      2)  /* SwiftKillerSelf7 */
      , (33998,  2206,      2)  /* BowMasteryOther7 */

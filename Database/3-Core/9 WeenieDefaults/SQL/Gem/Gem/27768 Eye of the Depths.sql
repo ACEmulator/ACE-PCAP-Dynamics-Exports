@@ -40,6 +40,3 @@ VALUES (27768,   1,   33558806) /* Setup */
      , (27768,   8,  100676636) /* Icon */
      , (27768,  22,  872415275) /* PhysicsEffectTable */
      , (27768,  28,        157) /* Spell - SummonPortal1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27768,   157,      2)  /* SummonPortal1 */;

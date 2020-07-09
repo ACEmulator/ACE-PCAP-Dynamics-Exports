@@ -27,6 +27,3 @@ VALUES (3083,   1,   33554826) /* Setup */
      , (3083,   8,  100676941) /* Icon */
      , (3083,  22,  872415275) /* PhysicsEffectTable */
      , (3083,  28,        172) /* Spell - FesterOther2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3083,   172,      2)  /* FesterOther2 */;

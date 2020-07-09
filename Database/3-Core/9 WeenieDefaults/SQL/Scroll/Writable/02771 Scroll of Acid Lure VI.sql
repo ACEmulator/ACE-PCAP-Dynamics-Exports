@@ -27,6 +27,3 @@ VALUES (2771,   1,   33554826) /* Setup */
      , (2771,   8,  100676663) /* Icon */
      , (2771,  22,  872415275) /* PhysicsEffectTable */
      , (2771,  28,       1504) /* Spell - AcidLure6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2771,  1504,      2)  /* AcidLure6 */;

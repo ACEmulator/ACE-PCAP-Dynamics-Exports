@@ -52,7 +52,6 @@ VALUES (33940,   1,   33557340) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33940,  1094,      2)  /* FireProtectionSelf6 */
-     , (33940,  1155,      2)  /* PiercingVulnerabilityOther5 */
      , (33940,  1592,      2)  /* HeartSeekerSelf6 */
      , (33940,  1605,      2)  /* DefenderSelf6 */
      , (33940,  1616,      2)  /* BloodDrinkerSelf6 */

@@ -51,7 +51,6 @@ VALUES (29264,   1,   33559232) /* Setup */
      , (29264,  28,         80) /* Spell - LightningBolt6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29264,    80,      2)  /* LightningBolt6 */
-     , (29264,  4227,      2)  /* CANTRIPWILLPOWER3 */
+VALUES (29264,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (29264,  4400,      2)  /* DefenderSelf8 */
      , (29264,  4418,      2)  /* HermeticLinkSelf8 */;

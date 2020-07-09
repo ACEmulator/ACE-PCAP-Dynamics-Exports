@@ -50,7 +50,6 @@ VALUES (36947, 8040, 14025876, 60.022, -53.7975, 83.909, 0.7071068, 0.7071068, 0
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36947,   995,      2)  /* LeadenFeetSelf2 */
-     , (36947,  2073,      2)  /* HealSelf7 */
      , (36947,  2153,      2)  /* BludgeonProtectionSelf7 */
      , (36947,  2157,      2)  /* FireProtectionSelf7 */
      , (36947,  2183,      2)  /* ManaRenewalSelf7 */

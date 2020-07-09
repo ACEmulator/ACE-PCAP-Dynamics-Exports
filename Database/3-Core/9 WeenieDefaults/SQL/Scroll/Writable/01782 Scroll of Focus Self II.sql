@@ -27,6 +27,3 @@ VALUES (1782,   1,   33554826) /* Setup */
      , (1782,   8,  100676458) /* Icon */
      , (1782,  22,  872415275) /* PhysicsEffectTable */
      , (1782,  28,       1422) /* Spell - FocusSelf2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1782,  1422,      2)  /* FocusSelf2 */;

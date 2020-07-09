@@ -27,6 +27,3 @@ VALUES (5980,   1,   33554826) /* Setup */
      , (5980,   8,  100676480) /* Icon */
      , (5980,  22,  872415275) /* PhysicsEffectTable */
      , (5980,  28,       1769) /* Spell - AlchemyIneptitudeOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5980,  1769,      2)  /* AlchemyIneptitudeOther1 */;

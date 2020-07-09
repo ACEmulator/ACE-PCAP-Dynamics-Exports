@@ -50,5 +50,4 @@ VALUES (32488, 8040, 1240465442, 105.5455, 29.66236, 169.929, 0.5263575, 0.52635
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (32488,   248,      2)  /* InvulnerabilitySelf5 */
      , (32488,   562,      2)  /* CreatureEnchantmentMasterySelf6 */
-     , (32488,  2155,      2)  /* ColdProtectionSelf7 */
-     , (32488,  3866,      2)  /* GlacialSpeed */;
+     , (32488,  2155,      2)  /* ColdProtectionSelf7 */;

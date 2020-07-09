@@ -62,7 +62,6 @@ VALUES (34002, 8040, 3332964361, 46.83, 4.219, 41.929, 0.7071068, 0.7071068, 0, 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34002,   321,      2)  /* DaggerMasteryOther6 */
-     , (34002,  1053,      2)  /* BludgeonVulnerabilityOther6 */
      , (34002,  1592,      2)  /* HeartSeekerSelf6 */
      , (34002,  1605,      2)  /* DefenderSelf6 */
      , (34002,  1627,      2)  /* SwiftKillerSelf6 */

@@ -53,5 +53,4 @@ VALUES (26532,   188,      2)  /* RejuvenationOther6 */
      , (26532,  1360,      2)  /* EnduranceOther6 */
      , (26532,  1432,      2)  /* FocusOther6 */
      , (26532,  1456,      2)  /* WillpowerOther6 */
-     , (26532,  2975,      2)  /* ModerateItemEnchantmentAptitude */
-     , (26532,  3071,      2)  /* WardRebirth */;
+     , (26532,  2975,      2)  /* ModerateItemEnchantmentAptitude */;

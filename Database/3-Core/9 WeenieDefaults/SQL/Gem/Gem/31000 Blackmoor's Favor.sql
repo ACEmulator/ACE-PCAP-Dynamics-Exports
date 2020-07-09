@@ -37,6 +37,3 @@ VALUES (31000,   1,   33554809) /* Setup */
      , (31000,   8,  100683149) /* Icon */
      , (31000,  22,  872415275) /* PhysicsEffectTable */
      , (31000,  28,       3811) /* Spell - BlackmoorsFavor */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31000,  3811,      2)  /* BlackmoorsFavor */;

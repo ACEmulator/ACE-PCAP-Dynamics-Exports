@@ -63,8 +63,7 @@ VALUES (35377, 8040, 3010396203, 123.0093, 64.41331, 19.929, 0.627149, 0.627149,
 /* @teleloc 0xB36F002B [123.009300 64.413310 19.929000] 0.627149 0.627149 -0.326625 -0.326625 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35377,  1785,      2)  /* FlameRing */
-     , (35377,  2096,      2)  /* BloodDrinkerSelf7 */
+VALUES (35377,  2096,      2)  /* BloodDrinkerSelf7 */
      , (35377,  2101,      2)  /* DefenderSelf7 */
      , (35377,  2106,      2)  /* HeartSeekerSelf7 */
      , (35377,  2116,      2)  /* SwiftKillerSelf7 */;

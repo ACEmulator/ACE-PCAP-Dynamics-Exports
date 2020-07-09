@@ -41,6 +41,3 @@ VALUES (30197,   1,   33554809) /* Setup */
      , (30197,  28,       3695) /* Spell - CreatureEnchantmentMasteryRare */
      , (30197,  50,  100686642) /* IconOverlay */
      , (30197,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30197,  3695,      2)  /* CreatureEnchantmentMasteryRare */;

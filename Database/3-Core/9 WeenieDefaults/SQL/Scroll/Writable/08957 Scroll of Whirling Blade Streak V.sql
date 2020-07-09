@@ -27,6 +27,3 @@ VALUES (8957,   1,   33554826) /* Setup */
      , (8957,   8,  100677028) /* Icon */
      , (8957,  22,  872415275) /* PhysicsEffectTable */
      , (8957,  28,       1830) /* Spell - WhirlingBladeStreak5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8957,  1830,      2)  /* WhirlingBladeStreak5 */;

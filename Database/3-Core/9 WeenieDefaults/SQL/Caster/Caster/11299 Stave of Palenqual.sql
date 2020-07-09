@@ -53,6 +53,5 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (11299,   217,      2)  /* ManaRenewalSelf6 */
      , (11299,   658,      2)  /* ManaMasterySelf6 */
      , (11299,  1480,      2)  /* HermeticLinkSelf6 */
-     , (11299,  1836,      2)  /* FrostStrike */
      , (11299,  2428,      2)  /* TimaruShelterMagic */
      , (11299,  2581,      2)  /* CANTRIPFOCUS1 */;

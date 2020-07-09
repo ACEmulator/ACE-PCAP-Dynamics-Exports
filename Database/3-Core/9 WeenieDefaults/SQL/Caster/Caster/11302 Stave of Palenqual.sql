@@ -54,5 +54,4 @@ VALUES (11302,   217,      2)  /* ManaRenewalSelf6 */
      , (11302,   658,      2)  /* ManaMasterySelf6 */
      , (11302,  1426,      2)  /* FocusSelf6 */
      , (11302,  1480,      2)  /* HermeticLinkSelf6 */
-     , (11302,  1836,      2)  /* FrostStrike */
      , (11302,  2581,      2)  /* CANTRIPFOCUS1 */;

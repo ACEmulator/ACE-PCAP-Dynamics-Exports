@@ -55,6 +55,3 @@ VALUES (44840,   1,   33561386) /* Setup */
      , (44840,  22,  872415275) /* PhysicsEffectTable */
      , (44840,  50,  100690998) /* IconOverlay */
      , (44840,  55,       5753) /* ProcSpell - CloakAllSkill */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44840,  5753,      2)  /* CloakAllSkill */;

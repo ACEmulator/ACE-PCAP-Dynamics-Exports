@@ -27,6 +27,3 @@ VALUES (20445,   1,   33554826) /* Setup */
      , (20445,   8,  100677019) /* Icon */
      , (20445,  22,  872415275) /* PhysicsEffectTable */
      , (20445,  28,       2132) /* Spell - ForceBolt7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20445,  2132,      2)  /* ForceBolt7 */;

@@ -27,6 +27,3 @@ VALUES (3397,   1,   33554826) /* Setup */
      , (3397,   8,  100692249) /* Icon */
      , (3397,  22,  872415275) /* PhysicsEffectTable */
      , (3397,  28,        309) /* Spell - AxeIneptitudeOther6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3397,   309,      2)  /* AxeIneptitudeOther6 */;

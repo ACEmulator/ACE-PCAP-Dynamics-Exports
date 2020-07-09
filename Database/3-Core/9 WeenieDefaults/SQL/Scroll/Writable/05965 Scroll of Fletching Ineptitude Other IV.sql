@@ -27,6 +27,3 @@ VALUES (5965,   1,   33554826) /* Setup */
      , (5965,   8,  100676457) /* Icon */
      , (5965,  22,  872415275) /* PhysicsEffectTable */
      , (5965,  28,       1748) /* Spell - FletchingIneptitudeOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5965,  1748,      2)  /* FletchingIneptitudeOther4 */;

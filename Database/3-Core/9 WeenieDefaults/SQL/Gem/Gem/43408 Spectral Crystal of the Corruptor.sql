@@ -40,6 +40,3 @@ VALUES (43408,   1,   33554809) /* Setup */
      , (43408,  28,       5435) /* Spell - VoidMagicMasterySpectral */
      , (43408,  50,  100691567) /* IconOverlay */
      , (43408,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43408,  5435,      2)  /* VoidMagicMasterySpectral */;

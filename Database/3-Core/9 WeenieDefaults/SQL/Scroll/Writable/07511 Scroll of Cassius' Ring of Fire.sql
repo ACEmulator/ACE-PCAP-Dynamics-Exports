@@ -27,6 +27,3 @@ VALUES (7511,   1,   33554826) /* Setup */
      , (7511,   8,  100677021) /* Icon */
      , (7511,  22,  872415275) /* PhysicsEffectTable */
      , (7511,  28,       1785) /* Spell - FlameRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7511,  1785,      2)  /* FlameRing */;

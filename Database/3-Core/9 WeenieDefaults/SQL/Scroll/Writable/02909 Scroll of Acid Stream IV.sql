@@ -27,6 +27,3 @@ VALUES (2909,   1,   33554826) /* Setup */
      , (2909,   8,  100677026) /* Icon */
      , (2909,  22,  872415275) /* PhysicsEffectTable */
      , (2909,  28,         61) /* Spell - AcidStream4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2909,    61,      2)  /* AcidStream4 */;

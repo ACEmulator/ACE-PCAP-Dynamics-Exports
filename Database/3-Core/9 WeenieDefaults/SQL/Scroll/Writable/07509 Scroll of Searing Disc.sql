@@ -27,6 +27,3 @@ VALUES (7509,   1,   33554826) /* Setup */
      , (7509,   8,  100677027) /* Icon */
      , (7509,  22,  872415275) /* PhysicsEffectTable */
      , (7509,  28,       1783) /* Spell - AcidRing */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7509,  1783,      2)  /* AcidRing */;

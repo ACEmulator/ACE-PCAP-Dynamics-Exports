@@ -42,6 +42,3 @@ VALUES (34198,   1,   33554817) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34198, 8040, 23855555, 56.57001, -40.72089, -0.001249999, -0.3153024, 0, 0, -0.9489912) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [56.570010 -40.720890 -0.001250] -0.315302 0.000000 0.000000 -0.948991 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34198,  4022,      2)  /* ZombiesPersistence */;

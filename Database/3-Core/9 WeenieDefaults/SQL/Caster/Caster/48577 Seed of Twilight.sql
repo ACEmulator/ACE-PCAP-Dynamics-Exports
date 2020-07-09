@@ -51,7 +51,6 @@ VALUES (48577, 8040, 19202318, 27.37612, -28.77442, -0.071, 0.6856509, 0.6856509
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (48577,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
-     , (48577,  2282,      2)  /* MagicYieldOther7 */
      , (48577,  2516,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE2 */
      , (48577,  3200,      2)  /* CantripHermeticLink2 */
      , (48577,  4530,      2)  /* CreatureEnchantmentMasterySelf8 */

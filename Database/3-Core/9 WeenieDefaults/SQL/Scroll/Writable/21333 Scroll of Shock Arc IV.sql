@@ -27,6 +27,3 @@ VALUES (21333,   1,   33554826) /* Setup */
      , (21333,   8,  100677008) /* Icon */
      , (21333,  22,  872415275) /* PhysicsEffectTable */
      , (21333,  28,       2749) /* Spell - ShockArc4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21333,  2749,      2)  /* ShockArc4 */;

@@ -27,6 +27,3 @@ VALUES (2776,   1,   33554826) /* Setup */
      , (2776,   8,  100676649) /* Icon */
      , (2776,  22,  872415275) /* PhysicsEffectTable */
      , (2776,  28,       1562) /* Spell - BladeBane6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2776,  1562,      2)  /* BladeBane6 */;

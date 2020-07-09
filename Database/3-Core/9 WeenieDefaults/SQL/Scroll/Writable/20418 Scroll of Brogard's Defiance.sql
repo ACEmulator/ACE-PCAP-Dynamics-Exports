@@ -27,6 +27,3 @@ VALUES (20418,   1,   33554826) /* Setup */
      , (20418,   8,  100676661) /* Icon */
      , (20418,  22,  872415275) /* PhysicsEffectTable */
      , (20418,  28,       2108) /* Spell - Impenetrability7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20418,  2108,      2)  /* Impenetrability7 */;

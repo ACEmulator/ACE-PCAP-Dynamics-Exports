@@ -27,6 +27,3 @@ VALUES (2837,   1,   33554826) /* Setup */
      , (2837,   8,  100676671) /* Icon */
      , (2837,  22,  872415275) /* PhysicsEffectTable */
      , (2837,  28,       1470) /* Spell - HermeticVoid2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2837,  1470,      2)  /* HermeticVoid2 */;

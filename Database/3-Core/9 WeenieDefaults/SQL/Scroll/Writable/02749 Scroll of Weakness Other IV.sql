@@ -27,6 +27,3 @@ VALUES (2749,   1,   33554826) /* Setup */
      , (2749,   8,  100676474) /* Icon */
      , (2749,  22,  872415275) /* PhysicsEffectTable */
      , (2749,  28,       1341) /* Spell - WeaknessOther4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2749,  1341,      2)  /* WeaknessOther4 */;

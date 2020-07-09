@@ -39,6 +39,3 @@ VALUES (27512,   1,   33556769) /* Setup */
      , (27512,   8,  100676422) /* Icon */
      , (27512,  22,  872415275) /* PhysicsEffectTable */
      , (27512,  28,       3238) /* Spell - PortalSendingNannerIsland */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27512,  3238,      2)  /* PortalSendingNannerIsland */;

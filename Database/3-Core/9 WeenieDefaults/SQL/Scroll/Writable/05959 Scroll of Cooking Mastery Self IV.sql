@@ -27,6 +27,3 @@ VALUES (5959,   1,   33554826) /* Setup */
      , (5959,   8,  100676451) /* Icon */
      , (5959,  22,  872415275) /* PhysicsEffectTable */
      , (5959,  28,       1718) /* Spell - CookingMasterySelf4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5959,  1718,      2)  /* CookingMasterySelf4 */;

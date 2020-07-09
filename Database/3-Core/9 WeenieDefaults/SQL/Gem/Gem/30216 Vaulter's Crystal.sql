@@ -40,6 +40,3 @@ VALUES (30216,   1,   33554809) /* Setup */
      , (30216,  28,       3715) /* Spell - JumpMasteryRare */
      , (30216,  50,  100686662) /* IconOverlay */
      , (30216,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30216,  3715,      2)  /* JumpMasteryRare */;

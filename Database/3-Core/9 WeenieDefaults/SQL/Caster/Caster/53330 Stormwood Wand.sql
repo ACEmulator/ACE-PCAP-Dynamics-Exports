@@ -60,5 +60,4 @@ VALUES (53330,  4602,      2)  /* ManaMasterySelf8 */
      , (53330,  4638,      2)  /* WarMagicMasterySelf8 */
      , (53330,  6075,      2)  /* CantripWarMagicAptitude4 */
      , (53330,  6087,      2)  /* CantripHermeticLink4 */
-     , (53330,  6091,      2)  /* CantripDefender4 */
-     , (53330,  6198,      2)  /* IncantationOfLightningBolt */;
+     , (53330,  6091,      2)  /* CantripDefender4 */;

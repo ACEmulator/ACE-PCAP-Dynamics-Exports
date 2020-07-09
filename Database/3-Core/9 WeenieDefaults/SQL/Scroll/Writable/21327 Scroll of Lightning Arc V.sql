@@ -27,6 +27,3 @@ VALUES (21327,   1,   33554826) /* Setup */
      , (21327,   8,  100677013) /* Icon */
      , (21327,  22,  872415275) /* PhysicsEffectTable */
      , (21327,  28,       2736) /* Spell - LightningArc5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21327,  2736,      2)  /* LightningArc5 */;

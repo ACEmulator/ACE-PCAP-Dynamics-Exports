@@ -65,6 +65,5 @@ VALUES (29259, 8040, 23855548, 51.75484, -29.63478, -0.071, 0.3295095, 0.3295095
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29259,  3259,      2)  /* SpiritDrinkerSelf7 */
      , (29259,  4418,      2)  /* HermeticLinkSelf8 */
-     , (29259,  4439,      2)  /* FlameBolt8 */
      , (29259,  4638,      2)  /* WarMagicMasterySelf8 */
      , (29259,  6098,      2)  /* CantripSpiritThirst4 */;

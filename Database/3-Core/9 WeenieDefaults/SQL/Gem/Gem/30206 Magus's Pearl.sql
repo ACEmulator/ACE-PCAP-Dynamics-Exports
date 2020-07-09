@@ -41,6 +41,3 @@ VALUES (30206,   1,   33554809) /* Setup */
      , (30206,  28,       3705) /* Spell - FocusRare */
      , (30206,  50,  100686652) /* IconOverlay */
      , (30206,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30206,  3705,      2)  /* FocusRare */;

@@ -61,5 +61,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (34998,  2096,      2)  /* BloodDrinkerSelf7 */
      , (34998,  2101,      2)  /* DefenderSelf7 */
      , (34998,  2106,      2)  /* HeartSeekerSelf7 */
-     , (34998,  2116,      2)  /* SwiftKillerSelf7 */
-     , (34998,  4069,      2)  /* MucorJolt */;
+     , (34998,  2116,      2)  /* SwiftKillerSelf7 */;

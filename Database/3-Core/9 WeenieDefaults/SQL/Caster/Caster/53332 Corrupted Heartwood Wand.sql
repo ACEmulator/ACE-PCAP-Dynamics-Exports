@@ -55,5 +55,4 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (53332,  4602,      2)  /* ManaMasterySelf8 */
      , (53332,  5418,      2)  /* VoidMagicMasterySelf8 */
      , (53332,  6074,      2)  /* CantripVoidMagicAptitude4 */
-     , (53332,  6087,      2)  /* CantripHermeticLink4 */
-     , (53332,  6320,      2)  /* RingOfSkullsII */;
+     , (53332,  6087,      2)  /* CantripHermeticLink4 */;

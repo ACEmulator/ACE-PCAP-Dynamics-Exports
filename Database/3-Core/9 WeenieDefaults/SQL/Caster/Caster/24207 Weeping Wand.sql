@@ -59,5 +59,4 @@ VALUES (24207,   616,      2)  /* LifeMagicMasteryOther6 */
      , (24207,   640,      2)  /* WarMagicMasteryOther6 */
      , (24207,  1426,      2)  /* FocusSelf6 */
      , (24207,  1450,      2)  /* WillpowerSelf6 */
-     , (24207,  2691,      2)  /* ModerateManaConversionProwess */
-     , (24207,  2970,      2)  /* HuntersLash */;
+     , (24207,  2691,      2)  /* ModerateManaConversionProwess */;

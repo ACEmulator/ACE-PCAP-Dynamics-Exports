@@ -38,6 +38,3 @@ VALUES (41454,   1,   33554809) /* Setup */
      , (41454,  22,  872415275) /* PhysicsEffectTable */
      , (41454,  28,       5158) /* Spell - DeceptionArcane2 */
      , (41454,  37,         20) /* ItemSkillLimit - Deception */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41454,  5158,      2)  /* DeceptionArcane2 */;

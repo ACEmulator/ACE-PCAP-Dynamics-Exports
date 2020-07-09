@@ -41,6 +41,3 @@ VALUES (30227,   1,   33554809) /* Setup */
      , (30227,  28,       3725) /* Spell - ManaRenewalRare */
      , (30227,  50,  100686674) /* IconOverlay */
      , (30227,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30227,  3725,      2)  /* ManaRenewalRare */;

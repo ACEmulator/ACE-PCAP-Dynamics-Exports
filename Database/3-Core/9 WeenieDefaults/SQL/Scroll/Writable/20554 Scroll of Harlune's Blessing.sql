@@ -27,6 +27,3 @@ VALUES (20554,   1,   33554826) /* Setup */
      , (20554,   8,  100676462) /* Icon */
      , (20554,  22,  872415275) /* PhysicsEffectTable */
      , (20554,  28,       2267) /* Spell - LifeMagicMasterySelf7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20554,  2267,      2)  /* LifeMagicMasterySelf7 */;

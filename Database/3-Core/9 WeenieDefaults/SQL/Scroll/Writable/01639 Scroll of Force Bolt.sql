@@ -27,6 +27,3 @@ VALUES (1639,   1,   33554826) /* Setup */
      , (1639,   8,  100677019) /* Icon */
      , (1639,  22,  872415275) /* PhysicsEffectTable */
      , (1639,  28,         86) /* Spell - ForceBolt1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1639,    86,      2)  /* ForceBolt1 */;

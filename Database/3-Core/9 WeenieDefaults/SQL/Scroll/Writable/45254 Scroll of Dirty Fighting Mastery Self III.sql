@@ -27,6 +27,3 @@ VALUES (45254,   1,   33554826) /* Setup */
      , (45254,   8,  100692255) /* Icon */
      , (45254,  22,  872415275) /* PhysicsEffectTable */
      , (45254,  28,       5781) /* Spell - DirtyFightingMasterySelf3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45254,  5781,      2)  /* DirtyFightingMasterySelf3 */;

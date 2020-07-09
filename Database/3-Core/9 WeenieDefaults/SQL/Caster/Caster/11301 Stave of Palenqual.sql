@@ -54,5 +54,4 @@ VALUES (11301,   217,      2)  /* ManaRenewalSelf6 */
      , (11301,   634,      2)  /* WarMagicMasterySelf6 */
      , (11301,   658,      2)  /* ManaMasterySelf6 */
      , (11301,  1480,      2)  /* HermeticLinkSelf6 */
-     , (11301,  1836,      2)  /* FrostStrike */
      , (11301,  2428,      2)  /* TimaruShelterMagic */;

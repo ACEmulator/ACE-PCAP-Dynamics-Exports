@@ -27,6 +27,3 @@ VALUES (1732,   1,   33554826) /* Setup */
      , (1732,   8,  100676448) /* Icon */
      , (1732,  22,  872415275) /* PhysicsEffectTable */
      , (1732,  28,        843) /* Spell - PersonUnfamiliarityOther1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1732,   843,      2)  /* PersonUnfamiliarityOther1 */;

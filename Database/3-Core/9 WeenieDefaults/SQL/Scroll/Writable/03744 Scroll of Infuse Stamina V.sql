@@ -27,6 +27,3 @@ VALUES (3744,   1,   33554826) /* Setup */
      , (3744,   8,  100676930) /* Icon */
      , (3744,  22,  872415275) /* PhysicsEffectTable */
      , (3744,  28,       1247) /* Spell - InfuseStamina5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3744,  1247,      2)  /* InfuseStamina5 */;

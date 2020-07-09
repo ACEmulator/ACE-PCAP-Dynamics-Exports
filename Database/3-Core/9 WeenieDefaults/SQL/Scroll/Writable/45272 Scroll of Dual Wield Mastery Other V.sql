@@ -27,6 +27,3 @@ VALUES (45272,   1,   33554826) /* Setup */
      , (45272,   8,  100692251) /* Icon */
      , (45272,  22,  872415275) /* PhysicsEffectTable */
      , (45272,  28,       5799) /* Spell - DualWieldMasteryOther5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45272,  5799,      2)  /* DualWieldMasteryOther5 */;

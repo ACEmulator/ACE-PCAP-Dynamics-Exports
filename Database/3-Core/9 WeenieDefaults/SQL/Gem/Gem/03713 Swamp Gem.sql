@@ -35,6 +35,3 @@ VALUES (3713,   1,   33554809) /* Setup */
      , (3713,   8,  100673968) /* Icon */
      , (3713,  22,  872415275) /* PhysicsEffectTable */
      , (3713,  28,       1405) /* Spell - QuicknessOther3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3713,  1405,      2)  /* QuicknessOther3 */;

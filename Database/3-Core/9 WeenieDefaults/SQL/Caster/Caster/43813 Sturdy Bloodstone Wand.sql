@@ -57,5 +57,4 @@ VALUES (43813, 8040, 23855555, 63.69881, -35.44367, 0.4414956, -0.5343401, -0.53
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43813,  2101,      2)  /* DefenderSelf7 */
      , (43813,  2267,      2)  /* LifeMagicMasterySelf7 */
-     , (43813,  3259,      2)  /* SpiritDrinkerSelf7 */
-     , (43813,  5530,      2)  /* BloodstoneBolt6 */;
+     , (43813,  3259,      2)  /* SpiritDrinkerSelf7 */;

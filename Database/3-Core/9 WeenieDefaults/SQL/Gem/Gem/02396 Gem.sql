@@ -39,6 +39,3 @@ VALUES (2396,   1,   33554809) /* Setup */
      , (2396,   8,  100674744) /* Icon */
      , (2396,  22,  872415275) /* PhysicsEffectTable */
      , (2396,  28,       1378) /* Spell - CoordinationSelf6 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2396,  1378,      2)  /* CoordinationSelf6 */;

@@ -58,5 +58,4 @@ VALUES (36489, 8040, 3465871413, 157.2323, 95.9995, 19.929, 0.2566817, 0.2566817
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (36489,  2611,      2)  /* CANTRIPFLAMEWARD2 */
      , (36489,  4199,      2)  /* FrozenArmor */
-     , (36489,  4201,      2)  /* ColdVulnerabilityNumbing */
-     , (36489,  4216,      2)  /* FrostWaveOrisis */;
+     , (36489,  4201,      2)  /* ColdVulnerabilityNumbing */;

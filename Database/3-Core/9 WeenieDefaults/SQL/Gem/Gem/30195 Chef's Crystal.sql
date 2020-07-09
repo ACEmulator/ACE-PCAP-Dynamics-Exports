@@ -44,6 +44,3 @@ VALUES (30195,   1,   33554809) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (30195, 8040, 23855549, 52.69311, -38.76262, -0.001000002, -0.1587031, 0, 0, 0.9873264) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01BD [52.693110 -38.762620 -0.001000] -0.158703 0.000000 0.000000 0.987326 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30195,  3693,      2)  /* CookingMasteryRare */;

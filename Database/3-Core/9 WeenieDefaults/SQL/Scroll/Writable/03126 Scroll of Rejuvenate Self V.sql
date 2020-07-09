@@ -26,6 +26,3 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3126,   1,   33554826) /* Setup */
      , (3126,   8,  100676940) /* Icon */
      , (3126,  28,        192) /* Spell - RejuvenationSelf5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3126,   192,      2)  /* RejuvenationSelf5 */;

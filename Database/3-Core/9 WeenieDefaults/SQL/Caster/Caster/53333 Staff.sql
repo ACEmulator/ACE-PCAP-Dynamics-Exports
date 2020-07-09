@@ -58,8 +58,7 @@ VALUES (53333, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.6935
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53333,  4310,      2)  /* HealOther8 */
-     , (53333,  4582,      2)  /* LifeMagicMasterySelf8 */
+VALUES (53333,  4582,      2)  /* LifeMagicMasterySelf8 */
      , (53333,  4602,      2)  /* ManaMasterySelf8 */
      , (53333,  6060,      2)  /* CantripLifeMagicAptitude4 */
      , (53333,  6087,      2)  /* CantripHermeticLink4 */

@@ -33,6 +33,3 @@ VALUES (30798,   1,   33554663) /* Setup */
      , (30798,   8,  100677488) /* Icon */
      , (30798,  22,  872415275) /* PhysicsEffectTable */
      , (30798,  28,       3799) /* Spell - BlackMarrowBliss */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30798,  3799,      2)  /* BlackMarrowBliss */;

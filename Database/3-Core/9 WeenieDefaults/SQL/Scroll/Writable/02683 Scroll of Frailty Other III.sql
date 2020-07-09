@@ -27,6 +27,3 @@ VALUES (2683,   1,   33554826) /* Setup */
      , (2683,   8,  100676456) /* Icon */
      , (2683,  22,  872415275) /* PhysicsEffectTable */
      , (2683,  28,       1369) /* Spell - FrailtyOther3 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2683,  1369,      2)  /* FrailtyOther3 */;

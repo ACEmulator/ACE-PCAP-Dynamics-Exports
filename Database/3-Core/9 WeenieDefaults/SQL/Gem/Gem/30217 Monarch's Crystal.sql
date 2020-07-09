@@ -40,6 +40,3 @@ VALUES (30217,   1,   33554809) /* Setup */
      , (30217,  28,       3716) /* Spell - LeadershipMasteryRare */
      , (30217,  50,  100686663) /* IconOverlay */
      , (30217,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30217,  3716,      2)  /* LeadershipMasteryRare */;

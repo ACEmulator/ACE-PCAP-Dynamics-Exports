@@ -27,6 +27,3 @@ VALUES (7521,   1,   33554826) /* Setup */
      , (7521,   8,  100677011) /* Icon */
      , (7521,  22,  872415275) /* PhysicsEffectTable */
      , (7521,  28,       1844) /* Spell - LightningWall */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7521,  1844,      2)  /* LightningWall */;

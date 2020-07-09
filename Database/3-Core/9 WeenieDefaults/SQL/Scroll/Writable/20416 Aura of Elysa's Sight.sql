@@ -27,6 +27,3 @@ VALUES (20416,   1,   33554826) /* Setup */
      , (20416,   8,  100676660) /* Icon */
      , (20416,  22,  872415275) /* PhysicsEffectTable */
      , (20416,  28,       2106) /* Spell - HeartSeekerSelf7 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20416,  2106,      2)  /* HeartSeekerSelf7 */;

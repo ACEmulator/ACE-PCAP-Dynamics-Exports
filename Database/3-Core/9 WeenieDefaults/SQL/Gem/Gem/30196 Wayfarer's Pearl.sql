@@ -40,6 +40,3 @@ VALUES (30196,   1,   33554809) /* Setup */
      , (30196,  28,       3694) /* Spell - CoordinationRare */
      , (30196,  50,  100686641) /* IconOverlay */
      , (30196,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30196,  3694,      2)  /* CoordinationRare */;

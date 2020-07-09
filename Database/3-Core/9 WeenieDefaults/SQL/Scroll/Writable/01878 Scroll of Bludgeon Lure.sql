@@ -27,6 +27,3 @@ VALUES (1878,   1,   33554826) /* Setup */
      , (1878,   8,  100676665) /* Icon */
      , (1878,  22,  872415275) /* PhysicsEffectTable */
      , (1878,  28,       1505) /* Spell - BludgeonLure1 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1878,  1505,      2)  /* BludgeonLure1 */;

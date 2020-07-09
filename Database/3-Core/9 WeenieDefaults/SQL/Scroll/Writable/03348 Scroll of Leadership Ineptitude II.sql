@@ -27,6 +27,3 @@ VALUES (3348,   1,   33554826) /* Setup */
      , (3348,   8,  100676446) /* Icon */
      , (3348,  22,  872415275) /* PhysicsEffectTable */
      , (3348,  28,        917) /* Spell - LeadershipIneptitudeOther2 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3348,   917,      2)  /* LeadershipIneptitudeOther2 */;

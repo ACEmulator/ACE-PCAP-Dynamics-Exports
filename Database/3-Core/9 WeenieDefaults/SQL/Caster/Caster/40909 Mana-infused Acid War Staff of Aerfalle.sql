@@ -61,6 +61,5 @@ VALUES (40909,  2262,      2)  /* LeadershipMasteryOther7 */
      , (40909,  2266,      2)  /* LifeMagicMasteryOther7 */
      , (40909,  2519,      2)  /* CANTRIPLEADERSHIP2 */
      , (40909,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
-     , (40909,  4434,      2)  /* AcidVolley8 */
      , (40909,  4637,      2)  /* WarMagicMasteryOther8 */
      , (40909,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;

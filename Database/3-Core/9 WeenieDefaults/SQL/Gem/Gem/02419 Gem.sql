@@ -39,6 +39,3 @@ VALUES (2419,   1,   33554809) /* Setup */
      , (2419,   8,  100674720) /* Icon */
      , (2419,  22,  872415275) /* PhysicsEffectTable */
      , (2419,  28,       1093) /* Spell - FireProtectionSelf5 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2419,  1093,      2)  /* FireProtectionSelf5 */;

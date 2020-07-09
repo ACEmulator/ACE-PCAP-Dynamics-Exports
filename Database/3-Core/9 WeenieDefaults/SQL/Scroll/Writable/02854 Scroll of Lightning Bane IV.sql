@@ -27,6 +27,3 @@ VALUES (2854,   1,   33554826) /* Setup */
      , (2854,   8,  100676653) /* Icon */
      , (2854,  22,  872415275) /* PhysicsEffectTable */
      , (2854,  28,       1538) /* Spell - LightningBane4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2854,  1538,      2)  /* LightningBane4 */;

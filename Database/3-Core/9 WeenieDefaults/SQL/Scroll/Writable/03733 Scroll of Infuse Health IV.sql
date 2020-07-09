@@ -27,6 +27,3 @@ VALUES (3733,   1,   33554826) /* Setup */
      , (3733,   8,  100676931) /* Icon */
      , (3733,  22,  872415275) /* PhysicsEffectTable */
      , (3733,  28,       1228) /* Spell - InfuseHealth4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3733,  1228,      2)  /* InfuseHealth4 */;

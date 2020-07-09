@@ -37,6 +37,3 @@ VALUES (23774,   1,   33558217) /* Setup */
      , (23774,   8,  100671129) /* Icon */
      , (23774,  22,  872415275) /* PhysicsEffectTable */
      , (23774,  28,       1679) /* Spell - StaminaToManaSelf4 */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (23774,  1679,      2)  /* StaminaToManaSelf4 */;

@@ -40,6 +40,3 @@ VALUES (36024,   1,   33554809) /* Setup */
      , (36024,  28,       4142) /* Spell - WarMagicMasterySpectral */
      , (36024,  50,  100686693) /* IconOverlay */
      , (36024,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36024,  4142,      2)  /* WarMagicMasterySpectral */;

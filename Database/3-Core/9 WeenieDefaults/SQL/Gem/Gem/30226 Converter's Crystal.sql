@@ -41,6 +41,3 @@ VALUES (30226,   1,   33554809) /* Setup */
      , (30226,  28,       3724) /* Spell - ManaConvertMasteryRare */
      , (30226,  50,  100686673) /* IconOverlay */
      , (30226,  52,  100686604) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30226,  3724,      2)  /* ManaConvertMasteryRare */;
