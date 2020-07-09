@@ -18,7 +18,7 @@ VALUES (40704,   1,          2) /* ItemType - Armor */
      , (40704, 158,          2) /* WieldRequirements - RawSkill */
      , (40704, 159,          7) /* WieldSkillType - MissileDefense */
      , (40704, 160,        305) /* WieldDifficulty */
-     , (40704, 172,          1) /* AppraisalLongDescDecoration */;
+     , (40704, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40704,  22, True ) /* Inscribable */

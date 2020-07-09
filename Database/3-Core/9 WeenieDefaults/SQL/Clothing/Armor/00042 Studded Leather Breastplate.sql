@@ -14,7 +14,7 @@ VALUES (42,   1,          2) /* ItemType - Armor */
      , (42,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (42, 105,          5) /* ItemWorkmanship */
      , (42, 131,         54) /* MaterialType - GromnieHide */
-     , (42, 172,          5) /* AppraisalLongDescDecoration */
+     , (42, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (42, 177,          1) /* GemCount */
      , (42, 178,         25) /* GemType */;
 

@@ -27,7 +27,7 @@ VALUES (41069,   1,          1) /* ItemType - MeleeWeapon */
      , (41069, 115,         22) /* ItemSkillLevelLimit */
      , (41069, 131,         63) /* MaterialType - Silver */
      , (41069, 151,          2) /* HookType - Wall */
-     , (41069, 172,          1) /* AppraisalLongDescDecoration */
+     , (41069, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (41069, 292,          2) /* Cleaving */
      , (41069, 353,         11) /* WeaponType - TwoHanded */;
 

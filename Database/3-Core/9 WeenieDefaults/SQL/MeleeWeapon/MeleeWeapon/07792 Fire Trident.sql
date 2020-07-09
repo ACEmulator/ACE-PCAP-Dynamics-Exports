@@ -29,7 +29,7 @@ VALUES (7792,   1,          1) /* ItemType - MeleeWeapon */
      , (7792, 158,          2) /* WieldRequirements - RawSkill */
      , (7792, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (7792, 160,        350) /* WieldDifficulty */
-     , (7792, 172,          5) /* AppraisalLongDescDecoration */
+     , (7792, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (7792, 177,          1) /* GemCount */
      , (7792, 178,         12) /* GemType */
      , (7792, 353,          5) /* WeaponType - Spear */;

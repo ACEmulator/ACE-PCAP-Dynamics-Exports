@@ -29,7 +29,7 @@ VALUES (40751,   1,          1) /* ItemType - MeleeWeapon */
      , (40751, 158,          2) /* WieldRequirements - RawSkill */
      , (40751, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (40751, 160,        400) /* WieldDifficulty */
-     , (40751, 172,          7) /* AppraisalLongDescDecoration */
+     , (40751, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (40751, 177,          2) /* GemCount */
      , (40751, 178,         21) /* GemType */
      , (40751, 188,          3) /* HeritageGroup - Sho */

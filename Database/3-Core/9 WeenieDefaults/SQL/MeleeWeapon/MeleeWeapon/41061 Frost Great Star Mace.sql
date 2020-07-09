@@ -29,7 +29,7 @@ VALUES (41061,   1,          1) /* ItemType - MeleeWeapon */
      , (41061, 158,          2) /* WieldRequirements - RawSkill */
      , (41061, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41061, 160,        325) /* WieldDifficulty */
-     , (41061, 172,          1) /* AppraisalLongDescDecoration */
+     , (41061, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (41061, 292,          2) /* Cleaving */
      , (41061, 353,         11) /* WeaponType - TwoHanded */;
 

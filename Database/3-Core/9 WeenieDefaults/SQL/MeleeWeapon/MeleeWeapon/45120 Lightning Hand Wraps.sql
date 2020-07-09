@@ -23,7 +23,7 @@ VALUES (45120,   1,          1) /* ItemType - MeleeWeapon */
      , (45120, 158,          2) /* WieldRequirements - RawSkill */
      , (45120, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45120, 160,        300) /* WieldDifficulty */
-     , (45120, 172,          1) /* AppraisalLongDescDecoration */
+     , (45120, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (45120, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

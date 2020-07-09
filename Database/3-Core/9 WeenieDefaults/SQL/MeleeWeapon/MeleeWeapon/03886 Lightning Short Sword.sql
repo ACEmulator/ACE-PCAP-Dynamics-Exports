@@ -26,7 +26,7 @@ VALUES (3886,   1,          1) /* ItemType - MeleeWeapon */
      , (3886, 115,        204) /* ItemSkillLevelLimit */
      , (3886, 131,         64) /* MaterialType - Steel */
      , (3886, 151,          2) /* HookType - Wall */
-     , (3886, 172,          7) /* AppraisalLongDescDecoration */
+     , (3886, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (3886, 177,          4) /* GemCount */
      , (3886, 178,         38) /* GemType */
      , (3886, 353,          2) /* WeaponType - Sword */;

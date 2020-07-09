@@ -27,7 +27,7 @@ VALUES (30571,   1,          1) /* ItemType - MeleeWeapon */
      , (30571, 131,         51) /* MaterialType - Ivory */
      , (30571, 151,          2) /* HookType - Wall */
      , (30571, 171,          8) /* NumTimesTinkered */
-     , (30571, 172,          7) /* AppraisalLongDescDecoration */
+     , (30571, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (30571, 177,          1) /* GemCount */
      , (30571, 178,         15) /* GemType */
      , (30571, 179,          8) /* ImbuedEffect - SlashRending */

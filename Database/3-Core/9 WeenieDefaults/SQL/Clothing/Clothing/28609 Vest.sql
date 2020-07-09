@@ -21,7 +21,7 @@ VALUES (28609,   1,          4) /* ItemType - Clothing */
      , (28609, 110,          0) /* ItemAllegianceRankLimit */
      , (28609, 115,          0) /* ItemSkillLevelLimit */
      , (28609, 131,          4) /* MaterialType - Linen */
-     , (28609, 172,          5) /* AppraisalLongDescDecoration */
+     , (28609, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (28609, 177,          1) /* GemCount */
      , (28609, 178,         43) /* GemType */;
 

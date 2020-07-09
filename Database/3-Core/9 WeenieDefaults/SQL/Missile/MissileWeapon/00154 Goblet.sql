@@ -25,7 +25,7 @@ VALUES (154,   1,        256) /* ItemType - MissileWeapon */
      , (154, 115,          0) /* ItemSkillLevelLimit */
      , (154, 131,         68) /* MaterialType - Marble */
      , (154, 151,          1) /* HookType - Floor */
-     , (154, 172,          5) /* AppraisalLongDescDecoration */
+     , (154, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (154, 177,          1) /* GemCount */
      , (154, 178,         33) /* GemType */
      , (154, 353,         10) /* WeaponType - Thrown */;

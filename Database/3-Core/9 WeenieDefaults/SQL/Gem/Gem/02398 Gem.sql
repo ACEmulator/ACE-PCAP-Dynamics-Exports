@@ -22,7 +22,7 @@ VALUES (2398,   1,       2048) /* ItemType - Gem */
      , (2398, 115,          0) /* ItemSkillLevelLimit */
      , (2398, 117,        300) /* ItemManaCost */
      , (2398, 131,         43) /* MaterialType - Tourmaline */
-     , (2398, 172,          1) /* AppraisalLongDescDecoration */;
+     , (2398, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2398,  22, True ) /* Inscribable */;

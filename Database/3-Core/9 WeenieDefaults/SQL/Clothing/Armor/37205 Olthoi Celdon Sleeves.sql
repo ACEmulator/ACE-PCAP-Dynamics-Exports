@@ -24,7 +24,7 @@ VALUES (37205,   1,          2) /* ItemType - Armor */
      , (37205, 158,          7) /* WieldRequirements - Level */
      , (37205, 159,          1) /* WieldSkillType - Axe */
      , (37205, 160,        150) /* WieldDifficulty */
-     , (37205, 172,          1) /* AppraisalLongDescDecoration */
+     , (37205, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (37205, 265,         19) /* EquipmentSetId - Hearty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

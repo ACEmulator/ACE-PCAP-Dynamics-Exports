@@ -24,7 +24,7 @@ VALUES (38472,   1,          2) /* ItemType - Armor */
      , (38472, 158,          9) /* WieldRequirements - IntStat */
      , (38472, 159,        288) /* WieldSkillType */
      , (38472, 160,        601) /* WieldDifficulty */
-     , (38472, 172,          5) /* AppraisalLongDescDecoration */
+     , (38472, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (38472, 177,          4) /* GemCount */
      , (38472, 178,         49) /* GemType */
      , (38472, 265,         30) /* EquipmentSetId - SocietyArmor */

@@ -27,7 +27,7 @@ VALUES (3909,   1,          1) /* ItemType - MeleeWeapon */
      , (3909, 115,        172) /* ItemSkillLevelLimit */
      , (3909, 131,         49) /* MaterialType - YellowTopaz */
      , (3909, 151,          2) /* HookType - Wall */
-     , (3909, 172,          7) /* AppraisalLongDescDecoration */
+     , (3909, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (3909, 177,          2) /* GemCount */
      , (3909, 178,         15) /* GemType */
      , (3909, 353,          2) /* WeaponType - Sword */;

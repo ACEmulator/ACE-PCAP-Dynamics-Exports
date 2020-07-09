@@ -25,7 +25,7 @@ VALUES (37194,   1,          2) /* ItemType - Armor */
      , (37194, 158,          2) /* WieldRequirements - RawSkill */
      , (37194, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37194, 160,        380) /* WieldDifficulty */
-     , (37194, 172,          1) /* AppraisalLongDescDecoration */
+     , (37194, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (37194, 265,         21) /* EquipmentSetId - Wise */
      , (37194, 270,          7) /* WieldRequirements2 - Level */
      , (37194, 271,          1) /* WieldSkillType2 - Axe */

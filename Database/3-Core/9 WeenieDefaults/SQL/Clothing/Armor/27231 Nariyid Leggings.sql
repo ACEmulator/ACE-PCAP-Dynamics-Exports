@@ -24,7 +24,7 @@ VALUES (27231,   1,          2) /* ItemType - Armor */
      , (27231, 158,          7) /* WieldRequirements - Level */
      , (27231, 159,          1) /* WieldSkillType - Axe */
      , (27231, 160,        180) /* WieldDifficulty */
-     , (27231, 172,          1) /* AppraisalLongDescDecoration */
+     , (27231, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (27231, 265,         29) /* EquipmentSetId - Lightningproof */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

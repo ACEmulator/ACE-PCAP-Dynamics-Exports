@@ -26,7 +26,7 @@ VALUES (3804,   1,          1) /* ItemType - MeleeWeapon */
      , (3804, 115,        217) /* ItemSkillLevelLimit */
      , (3804, 131,         59) /* MaterialType - Copper */
      , (3804, 151,          2) /* HookType - Wall */
-     , (3804, 172,          5) /* AppraisalLongDescDecoration */
+     , (3804, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (3804, 177,          1) /* GemCount */
      , (3804, 178,         36) /* GemType */
      , (3804, 353,          4) /* WeaponType - Mace */;

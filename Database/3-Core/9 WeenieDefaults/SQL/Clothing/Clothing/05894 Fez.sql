@@ -22,7 +22,7 @@ VALUES (5894,   1,          4) /* ItemType - Clothing */
      , (5894, 115,          0) /* ItemSkillLevelLimit */
      , (5894, 131,          4) /* MaterialType - Linen */
      , (5894, 151,          2) /* HookType - Wall */
-     , (5894, 172,          1) /* AppraisalLongDescDecoration */;
+     , (5894, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5894,  22, True ) /* Inscribable */

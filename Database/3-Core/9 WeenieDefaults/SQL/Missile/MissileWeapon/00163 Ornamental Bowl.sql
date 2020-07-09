@@ -25,7 +25,7 @@ VALUES (163,   1,        256) /* ItemType - MissileWeapon */
      , (163, 115,          0) /* ItemSkillLevelLimit */
      , (163, 131,         67) /* MaterialType - Granite */
      , (163, 151,          2) /* HookType - Wall */
-     , (163, 172,          5) /* AppraisalLongDescDecoration */
+     , (163, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (163, 177,          3) /* GemCount */
      , (163, 178,         44) /* GemType */
      , (163, 353,         10) /* WeaponType - Thrown */;

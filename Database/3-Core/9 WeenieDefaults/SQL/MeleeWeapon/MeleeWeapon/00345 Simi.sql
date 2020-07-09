@@ -25,7 +25,7 @@ VALUES (345,   1,          1) /* ItemType - MeleeWeapon */
      , (345, 115,        219) /* ItemSkillLevelLimit */
      , (345, 131,         51) /* MaterialType - Ivory */
      , (345, 151,          2) /* HookType - Wall */
-     , (345, 172,          7) /* AppraisalLongDescDecoration */
+     , (345, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (345, 177,          1) /* GemCount */
      , (345, 178,         16) /* GemType */
      , (345, 353,          2) /* WeaponType - Sword */;

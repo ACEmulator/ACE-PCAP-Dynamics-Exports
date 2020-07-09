@@ -21,7 +21,7 @@ VALUES (28627,   1,          2) /* ItemType - Armor */
      , (28627, 110,          0) /* ItemAllegianceRankLimit */
      , (28627, 115,        222) /* ItemSkillLevelLimit */
      , (28627, 131,         59) /* MaterialType - Copper */
-     , (28627, 172,          5) /* AppraisalLongDescDecoration */
+     , (28627, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (28627, 177,          2) /* GemCount */
      , (28627, 178,         28) /* GemType */;
 

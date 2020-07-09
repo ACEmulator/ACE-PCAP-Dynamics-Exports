@@ -22,7 +22,7 @@ VALUES (44975,   1,          4) /* ItemType - Clothing */
      , (44975, 115,          0) /* ItemSkillLevelLimit */
      , (44975, 131,          8) /* MaterialType - Wool */
      , (44975, 151,          2) /* HookType - Wall */
-     , (44975, 172,          5) /* AppraisalLongDescDecoration */
+     , (44975, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (44975, 177,          1) /* GemCount */
      , (44975, 178,         21) /* GemType */;
 

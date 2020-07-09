@@ -16,7 +16,7 @@ VALUES (2433,   1,       2048) /* ItemType - Gem */
      , (2433,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2433, 105,          7) /* ItemWorkmanship */
      , (2433, 131,         37) /* MaterialType - RoseQuartz */
-     , (2433, 172,          1) /* AppraisalLongDescDecoration */;
+     , (2433, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2433,  22, True ) /* Inscribable */;

@@ -25,7 +25,7 @@ VALUES (243,   1,        256) /* ItemType - MissileWeapon */
      , (243, 115,          0) /* ItemSkillLevelLimit */
      , (243, 131,          1) /* MaterialType - Ceramic */
      , (243, 151,          2) /* HookType - Wall */
-     , (243, 172,          5) /* AppraisalLongDescDecoration */
+     , (243, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (243, 177,          4) /* GemCount */
      , (243, 178,         42) /* GemType */
      , (243, 353,         10) /* WeaponType - Thrown */;

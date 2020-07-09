@@ -21,7 +21,7 @@ VALUES (31026,   1,          2) /* ItemType - Armor */
      , (31026, 110,          0) /* ItemAllegianceRankLimit */
      , (31026, 115,          0) /* ItemSkillLevelLimit */
      , (31026, 131,         63) /* MaterialType - Silver */
-     , (31026, 172,          5) /* AppraisalLongDescDecoration */
+     , (31026, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (31026, 177,          2) /* GemCount */
      , (31026, 178,         34) /* GemType */;
 

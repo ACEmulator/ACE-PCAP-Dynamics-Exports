@@ -19,7 +19,7 @@ VALUES (44850,   1,          4) /* ItemType - Clothing */
      , (44850, 158,          7) /* WieldRequirements - Level */
      , (44850, 159,          1) /* WieldSkillType - Axe */
      , (44850, 160,        180) /* WieldDifficulty */
-     , (44850, 172,          1) /* AppraisalLongDescDecoration */
+     , (44850, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (44850, 265,         64) /* EquipmentSetId - CloakLeadership */
      , (44850, 319,          2) /* ItemMaxLevel */
      , (44850, 320,          2) /* ItemXpStyle - ScalesWithLevel */

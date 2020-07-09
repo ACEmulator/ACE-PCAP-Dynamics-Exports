@@ -22,7 +22,7 @@ VALUES (554,   1,          2) /* ItemType - Armor */
      , (554, 115,        175) /* ItemSkillLevelLimit */
      , (554, 131,         54) /* MaterialType - GromnieHide */
      , (554, 151,          2) /* HookType - Wall */
-     , (554, 172,          1) /* AppraisalLongDescDecoration */;
+     , (554, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (554,  22, True ) /* Inscribable */

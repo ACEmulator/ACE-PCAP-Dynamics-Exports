@@ -25,7 +25,7 @@ VALUES (28617,   1,          2) /* ItemType - Armor */
      , (28617, 158,          7) /* WieldRequirements - Level */
      , (28617, 159,          1) /* WieldSkillType - Axe */
      , (28617, 160,        180) /* WieldDifficulty */
-     , (28617, 172,          5) /* AppraisalLongDescDecoration */
+     , (28617, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (28617, 177,          3) /* GemCount */
      , (28617, 178,         26) /* GemType */
      , (28617, 265,         24) /* EquipmentSetId - Reinforced */

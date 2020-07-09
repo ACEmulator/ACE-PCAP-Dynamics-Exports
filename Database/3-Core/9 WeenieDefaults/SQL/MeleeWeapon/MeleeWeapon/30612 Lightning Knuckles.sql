@@ -29,7 +29,7 @@ VALUES (30612,   1,          1) /* ItemType - MeleeWeapon */
      , (30612, 158,          2) /* WieldRequirements - RawSkill */
      , (30612, 159,         45) /* WieldSkillType - LightWeapons */
      , (30612, 160,        250) /* WieldDifficulty */
-     , (30612, 172,          1) /* AppraisalLongDescDecoration */
+     , (30612, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (30612, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
