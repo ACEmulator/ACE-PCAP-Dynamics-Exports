@@ -40,6 +40,6 @@ VALUES (51787,   1,   33554689) /* Setup */
      , (51787,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51787,  2665,      2) 
-     , (51787,  4467,      2) 
-     , (51787,  6055,      2) ;
+VALUES (51787,  2665,      2)  /* EssenceSluice */
+     , (51787,  4467,      2)  /* FireProtectionOther8 */
+     , (51787,  6055,      2)  /* CantripInvulnerability4 */;

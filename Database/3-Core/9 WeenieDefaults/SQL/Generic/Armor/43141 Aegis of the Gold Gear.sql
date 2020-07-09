@@ -57,6 +57,6 @@ VALUES (43141, 8040, 3465871413, 157.1841, 95.99943, 19.926, 0.4786811, -0.26509
 /* @teleloc 0xCE950035 [157.184100 95.999430 19.926000] 0.478681 -0.265096 -0.799818 -0.246740 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43141,  4695,      2) 
-     , (43141,  4696,      2) 
-     , (43141,  5150,      2) ;
+VALUES (43141,  4695,      2)  /* CANTRIPIMPREGNABILITY3 */
+     , (43141,  4696,      2)  /* CANTRIPINVULNERABILITY3 */
+     , (43141,  5150,      2)  /* TrinketStamina1 */;

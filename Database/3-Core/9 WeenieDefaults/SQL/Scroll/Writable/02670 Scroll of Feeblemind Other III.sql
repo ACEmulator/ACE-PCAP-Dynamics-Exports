@@ -29,4 +29,4 @@ VALUES (2670,   1,   33554826) /* Setup */
      , (2670,  28,       1465) /* Spell - FeeblemindOther3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2670,  1465,      2) ;
+VALUES (2670,  1465,      2)  /* FeeblemindOther3 */;

@@ -38,4 +38,4 @@ VALUES (34967,   1,   33558859) /* Setup */
      , (34967,  28,       3053) /* Spell - ParalyzingTouch */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34967,  3053,      2) ;
+VALUES (34967,  3053,      2)  /* ParalyzingTouch */;

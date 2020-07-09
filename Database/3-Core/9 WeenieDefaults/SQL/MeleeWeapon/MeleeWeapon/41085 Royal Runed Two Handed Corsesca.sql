@@ -54,9 +54,9 @@ VALUES (41085,   1,   33560794) /* Setup */
      , (41085,  55,       2074) /* ProcSpell - ImperilOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41085,  2074,      2) 
-     , (41085,  2096,      2) 
-     , (41085,  2101,      2) 
-     , (41085,  2106,      2) 
-     , (41085,  2116,      2) 
-     , (41085,  5074,      2) ;
+VALUES (41085,  2074,      2)  /* ImperilOther7 */
+     , (41085,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (41085,  2101,      2)  /* DefenderSelf7 */
+     , (41085,  2106,      2)  /* HeartSeekerSelf7 */
+     , (41085,  2116,      2)  /* SwiftKillerSelf7 */
+     , (41085,  5074,      2)  /* ModerateTwoHandedAptitude */;

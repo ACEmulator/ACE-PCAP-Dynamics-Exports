@@ -53,10 +53,10 @@ VALUES (40396,   1,   33558670) /* Setup */
      , (40396,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40396,  2441,      2) 
-     , (40396,  2444,      2) 
-     , (40396,  2447,      2) 
-     , (40396,  2450,      2) 
-     , (40396,  2472,      2) 
-     , (40396,  2475,      2) 
-     , (40396,  3223,      2) ;
+VALUES (40396,  2441,      2)  /* StoneCliffsLesser */
+     , (40396,  2444,      2)  /* StrengthofEarthLesser */
+     , (40396,  2447,      2)  /* GrowthLesser */
+     , (40396,  2450,      2)  /* HuntersAcumenLesser */
+     , (40396,  2472,      2)  /* StillWater */
+     , (40396,  2475,      2)  /* Torrent */
+     , (40396,  3223,      2)  /* CascadeManaC */;

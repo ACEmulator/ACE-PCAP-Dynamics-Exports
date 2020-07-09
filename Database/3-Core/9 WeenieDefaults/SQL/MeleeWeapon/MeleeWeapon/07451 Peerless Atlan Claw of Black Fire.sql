@@ -53,9 +53,9 @@ VALUES (7451,   1,   33557401) /* Setup */
      , (7451,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7451,   423,      2) 
-     , (7451,  1592,      2) 
-     , (7451,  1605,      2) 
-     , (7451,  1616,      2) 
-     , (7451,  1627,      2) 
-     , (7451,  1846,      2) ;
+VALUES (7451,   423,      2)  /* SwordMasterySelf6 */
+     , (7451,  1592,      2)  /* HeartSeekerSelf6 */
+     , (7451,  1605,      2)  /* DefenderSelf6 */
+     , (7451,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (7451,  1627,      2)  /* SwiftKillerSelf6 */
+     , (7451,  1846,      2)  /* MagicYieldBlackFire */;

@@ -54,4 +54,4 @@ VALUES (5937, 8040, 4095213581, 36.9231, 48.70957, 169.729, -0.6935199, -0.69351
 /* @teleloc 0xF418000D [36.923100 48.709570 169.729000] -0.693520 -0.693520 -0.137950 -0.137950 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5937,    91,      2) ;
+VALUES (5937,    91,      2)  /* ForceBolt6 */;

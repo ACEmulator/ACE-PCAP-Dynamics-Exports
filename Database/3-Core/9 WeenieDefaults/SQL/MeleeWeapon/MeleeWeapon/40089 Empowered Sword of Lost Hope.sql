@@ -61,12 +61,12 @@ VALUES (40089,   1,   33558420) /* Setup */
      , (40089,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40089,  2053,      2) 
-     , (40089,  2059,      2) 
-     , (40089,  2087,      2) 
-     , (40089,  2096,      2) 
-     , (40089,  2101,      2) 
-     , (40089,  2106,      2) 
-     , (40089,  2116,      2) 
-     , (40089,  4624,      2) 
-     , (40089,  4712,      2) ;
+VALUES (40089,  2053,      2)  /* ArmorSelf7 */
+     , (40089,  2059,      2)  /* CoordinationSelf7 */
+     , (40089,  2087,      2)  /* StrengthSelf7 */
+     , (40089,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (40089,  2101,      2)  /* DefenderSelf7 */
+     , (40089,  2106,      2)  /* HeartSeekerSelf7 */
+     , (40089,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40089,  4624,      2)  /* SwordMasterySelf8 */
+     , (40089,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;

@@ -39,4 +39,4 @@ VALUES (28843, 8040, 3316121654, 153.5543, 134.5103, 42, 0.5113282, 0, 0, -0.859
 /* @teleloc 0xC5A80036 [153.554300 134.510300 42.000000] 0.511328 0.000000 0.000000 -0.859386 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28843,  3569,      2) ;
+VALUES (28843,  3569,      2)  /* ManaUp10Percent */;

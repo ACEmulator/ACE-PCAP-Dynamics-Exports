@@ -29,4 +29,4 @@ VALUES (2806,   1,   33554826) /* Setup */
      , (2806,  28,       1492) /* Spell - Brittlemail6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2806,  1492,      2) ;
+VALUES (2806,  1492,      2)  /* Brittlemail6 */;

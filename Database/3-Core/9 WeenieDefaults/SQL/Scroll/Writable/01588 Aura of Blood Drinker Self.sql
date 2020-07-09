@@ -29,4 +29,4 @@ VALUES (1588,   1,   33554826) /* Setup */
      , (1588,  28,         35) /* Spell - BloodDrinkerSelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1588,    35,      2) ;
+VALUES (1588,    35,      2)  /* BloodDrinkerSelf1 */;

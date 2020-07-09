@@ -60,10 +60,10 @@ VALUES (37581,   1,   33560573) /* Setup */
      , (37581,  52,  100689896) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37581,  2096,      2) 
-     , (37581,  2101,      2) 
-     , (37581,  2106,      2) 
-     , (37581,  2116,      2) 
-     , (37581,  2509,      2) 
-     , (37581,  2579,      2) 
-     , (37581,  2583,      2) ;
+VALUES (37581,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (37581,  2101,      2)  /* DefenderSelf7 */
+     , (37581,  2106,      2)  /* HeartSeekerSelf7 */
+     , (37581,  2116,      2)  /* SwiftKillerSelf7 */
+     , (37581,  2509,      2)  /* CANTRIPDAGGERAPTITUDE2 */
+     , (37581,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (37581,  2583,      2)  /* CANTRIPSTRENGTH1 */;

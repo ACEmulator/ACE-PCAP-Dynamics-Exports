@@ -29,4 +29,4 @@ VALUES (1686,   1,   33554826) /* Setup */
      , (1686,  28,        461) /* Spell - BowMasteryOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1686,   461,      2) ;
+VALUES (1686,   461,      2)  /* BowMasteryOther1 */;

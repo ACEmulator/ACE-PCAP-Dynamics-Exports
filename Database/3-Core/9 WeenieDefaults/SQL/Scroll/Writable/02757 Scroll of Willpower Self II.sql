@@ -29,4 +29,4 @@ VALUES (2757,   1,   33554826) /* Setup */
      , (2757,  28,       1446) /* Spell - WillpowerSelf2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2757,  1446,      2) ;
+VALUES (2757,  1446,      2)  /* WillpowerSelf2 */;

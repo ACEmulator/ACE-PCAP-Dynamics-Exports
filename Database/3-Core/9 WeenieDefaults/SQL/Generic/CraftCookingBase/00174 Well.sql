@@ -32,4 +32,4 @@ VALUES (174, 8040, 3465871403, 128.16, 66.12, 20, 1, 0, 0, 0) /* PCAPRecordedLoc
 /* @teleloc 0xCE95002B [128.160000 66.120000 20.000000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (174,  1183,      2) ;
+VALUES (174,  1183,      2)  /* RevitalizeOther1 */;

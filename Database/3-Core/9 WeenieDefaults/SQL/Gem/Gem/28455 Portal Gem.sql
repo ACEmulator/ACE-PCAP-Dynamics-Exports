@@ -41,4 +41,4 @@ VALUES (28455,   1,   33556769) /* Setup */
      , (28455,  28,       3411) /* Spell - PortalSendingMorgluukReward */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28455,  3411,      2) ;
+VALUES (28455,  3411,      2)  /* PortalSendingMorgluukReward */;

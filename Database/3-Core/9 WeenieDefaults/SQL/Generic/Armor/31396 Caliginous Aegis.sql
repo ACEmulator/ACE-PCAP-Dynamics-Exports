@@ -53,7 +53,7 @@ VALUES (31396, 8040, 23855548, 49.1735, -31.9955, -0.07400001, 0.5374959, 0.0789
 /* @teleloc 0x016C01BC [49.173500 -31.995500 -0.074000] 0.537496 0.078970 -0.838897 -0.033383 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31396,   249,      2) 
-     , (31396,  1332,      2) 
-     , (31396,  3819,      2) 
-     , (31396,  3820,      2) ;
+VALUES (31396,   249,      2)  /* InvulnerabilitySelf6 */
+     , (31396,  1332,      2)  /* StrengthSelf6 */
+     , (31396,  3819,      2)  /* ConscriptsMight */
+     , (31396,  3820,      2)  /* ConscriptsWard */;

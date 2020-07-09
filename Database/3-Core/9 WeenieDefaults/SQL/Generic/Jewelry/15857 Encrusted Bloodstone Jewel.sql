@@ -40,4 +40,4 @@ VALUES (15857,   1,   33554809) /* Setup */
      , (15857,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (15857,  2667,      2) ;
+VALUES (15857,  2667,      2)  /* EssenceSpike */;

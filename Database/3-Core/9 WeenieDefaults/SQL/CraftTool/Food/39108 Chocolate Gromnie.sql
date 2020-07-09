@@ -43,4 +43,4 @@ VALUES (39108,   1,   33560398) /* Setup */
      , (39108,  28,       4206) /* Spell - ChewyCenter */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39108,  4206,      2) ;
+VALUES (39108,  4206,      2)  /* ChewyCenter */;

@@ -45,5 +45,5 @@ VALUES (30264,   1,   33559082) /* Setup */
      , (30264,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30264,  3094,      2) 
-     , (30264,  3746,      2) ;
+VALUES (30264,  3094,      2)  /* SkinFiazhat */
+     , (30264,  3746,      2)  /* InfernoAegis */;

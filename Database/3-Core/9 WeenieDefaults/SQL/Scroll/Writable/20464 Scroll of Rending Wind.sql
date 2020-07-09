@@ -29,4 +29,4 @@ VALUES (20464,   1,   33554826) /* Setup */
      , (20464,  28,       2147) /* Spell - WhirlingBladeStreak7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20464,  2147,      2) ;
+VALUES (20464,  2147,      2)  /* WhirlingBladeStreak7 */;

@@ -51,7 +51,7 @@ VALUES (8133,   1,   33554854) /* Setup */
      , (8133,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8133,   689,      2) 
-     , (8133,  1431,      2) 
-     , (8133,  1455,      2) 
-     , (8133,  2015,      2) ;
+VALUES (8133,   689,      2)  /* ArcaneEnlightenmentOther6 */
+     , (8133,  1431,      2)  /* FocusOther5 */
+     , (8133,  1455,      2)  /* WillpowerOther5 */
+     , (8133,  2015,      2)  /* AerfallesWard */;

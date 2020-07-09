@@ -63,9 +63,9 @@ VALUES (34341, 8040, 722534422, 57.65981, 131.1834, 47.929, -0.6731077, -0.67310
 /* @teleloc 0x2B110016 [57.659810 131.183400 47.929000] -0.673108 -0.673108 0.216624 0.216624 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34341,  2058,      2) 
-     , (34341,  2080,      2) 
-     , (34341,  2096,      2) 
-     , (34341,  2242,      2) 
-     , (34341,  2244,      2) 
-     , (34341,  2280,      2) ;
+VALUES (34341,  2058,      2)  /* CoordinationOther7 */
+     , (34341,  2080,      2)  /* QuicknessOther7 */
+     , (34341,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (34341,  2242,      2)  /* ImpregnabilityOther7 */
+     , (34341,  2244,      2)  /* InvulnerabilityOther7 */
+     , (34341,  2280,      2)  /* MagicResistanceOther7 */;

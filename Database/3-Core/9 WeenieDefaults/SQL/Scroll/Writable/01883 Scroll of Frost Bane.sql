@@ -29,4 +29,4 @@ VALUES (1883,   1,   33554826) /* Setup */
      , (1883,  28,       1523) /* Spell - FrostBane1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1883,  1523,      2) ;
+VALUES (1883,  1523,      2)  /* FrostBane1 */;

@@ -41,7 +41,7 @@ VALUES (2422,   1,   33554809) /* Setup */
      , (2422,  28,       1332) /* Spell - StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2422,  1332,      2) ;
+VALUES (2422,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2422, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

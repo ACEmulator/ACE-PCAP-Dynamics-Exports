@@ -53,9 +53,9 @@ VALUES (43053,   1,   33554654) /* Setup */
      , (43053,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43053,  1486,      2) 
-     , (43053,  2092,      2) 
-     , (43053,  2104,      2) 
-     , (43053,  2203,      2) 
-     , (43053,  2558,      2) 
-     , (43053,  6127,      2) ;
+VALUES (43053,  1486,      2)  /* Impenetrability6 */
+     , (43053,  2092,      2)  /* AcidBane7 */
+     , (43053,  2104,      2)  /* FrostBane7 */
+     , (43053,  2203,      2)  /* AxeMasterySelf7 */
+     , (43053,  2558,      2)  /* CANTRIPMAGICITEMEXPERTISE1 */
+     , (43053,  6127,      2)  /* CantripSummoningProwess1 */;

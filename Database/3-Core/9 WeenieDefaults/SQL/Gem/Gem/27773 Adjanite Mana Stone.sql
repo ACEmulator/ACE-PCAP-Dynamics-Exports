@@ -32,4 +32,4 @@ VALUES (27773,   1,   33555639) /* Setup */
      , (27773,  28,       3249) /* Spell - ManaRenewalAdja */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27773,  3249,      2) ;
+VALUES (27773,  3249,      2)  /* ManaRenewalAdja */;

@@ -29,4 +29,4 @@ VALUES (7520,   1,   33554826) /* Setup */
      , (7520,  28,       1843) /* Spell - FrostWall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7520,  1843,      2) ;
+VALUES (7520,  1843,      2)  /* FrostWall */;

@@ -45,4 +45,4 @@ VALUES (52175,   1,   33561614) /* Setup */
      , (52175,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52175,  6153,      2) ;
+VALUES (52175,  6153,      2)  /* TryptophanComa */;

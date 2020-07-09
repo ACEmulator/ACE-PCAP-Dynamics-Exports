@@ -29,4 +29,4 @@ VALUES (3731,   1,   33554826) /* Setup */
      , (3731,  28,       1226) /* Spell - InfuseHealth2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3731,  1226,      2) ;
+VALUES (3731,  1226,      2)  /* InfuseHealth2 */;

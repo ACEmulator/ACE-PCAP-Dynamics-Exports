@@ -29,7 +29,7 @@ VALUES (20593,   1,   33554826) /* Setup */
      , (20593,  28,       2318) /* Spell - VulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20593,  2318,      2) ;
+VALUES (20593,  2318,      2)  /* VulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20593, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */

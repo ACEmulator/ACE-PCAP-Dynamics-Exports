@@ -44,8 +44,8 @@ VALUES (39919,   1,   33554691) /* Setup */
      , (39919,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39919,  2613,      2) 
-     , (39919,  3981,      2) 
-     , (39919,  4070,      2) 
-     , (39919,  4077,      2) 
-     , (39919,  4227,      2) ;
+VALUES (39919,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+     , (39919,  3981,      2)  /* ManarenewalOtherIncantation */
+     , (39919,  4070,      2)  /* EmpyreanManaAbsorbtion */
+     , (39919,  4077,      2)  /* ManaConvertMasteryIncantation */
+     , (39919,  4227,      2)  /* CANTRIPWILLPOWER3 */;

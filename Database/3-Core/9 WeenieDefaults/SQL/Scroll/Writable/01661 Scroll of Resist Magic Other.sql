@@ -29,4 +29,4 @@ VALUES (1661,   1,   33554826) /* Setup */
      , (1661,  28,        268) /* Spell - MagicResistanceOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1661,   268,      2) ;
+VALUES (1661,   268,      2)  /* MagicResistanceOther1 */;

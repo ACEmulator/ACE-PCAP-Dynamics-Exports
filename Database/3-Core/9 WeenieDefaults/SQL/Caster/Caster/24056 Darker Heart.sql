@@ -46,9 +46,9 @@ VALUES (24056, 8040, 3599958022, 18.46, 113.644, -0.171, 0.7071068, 0.7071068, 0
 /* @teleloc 0xD6930006 [18.460000 113.644000 -0.171000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24056,   170,      2) 
-     , (24056,   193,      2) 
-     , (24056,   217,      2) 
-     , (24056,  2004,      2) 
-     , (24056,  2008,      2) 
-     , (24056,  2012,      2) ;
+VALUES (24056,   170,      2)  /* RegenerationSelf6 */
+     , (24056,   193,      2)  /* RejuvenationSelf6 */
+     , (24056,   217,      2)  /* ManaRenewalSelf6 */
+     , (24056,  2004,      2)  /* WarriorsVitality */
+     , (24056,  2008,      2)  /* WarriorsVigor */
+     , (24056,  2012,      2)  /* WizardsIntellect */;

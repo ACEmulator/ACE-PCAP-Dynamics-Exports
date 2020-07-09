@@ -56,4 +56,4 @@ VALUES (44855,   1,   33561386) /* Setup */
      , (44855,  55,       5756) /* ProcSpell - CloakMissileDLower */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44855,  5756,      2) ;
+VALUES (44855,  5756,      2)  /* CloakMissileDLower */;

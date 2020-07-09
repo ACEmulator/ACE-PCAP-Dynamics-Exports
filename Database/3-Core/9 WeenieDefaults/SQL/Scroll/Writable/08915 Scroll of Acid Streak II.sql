@@ -29,4 +29,4 @@ VALUES (8915,   1,   33554826) /* Setup */
      , (8915,  28,       1791) /* Spell - AcidStreak2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8915,  1791,      2) ;
+VALUES (8915,  1791,      2)  /* AcidStreak2 */;

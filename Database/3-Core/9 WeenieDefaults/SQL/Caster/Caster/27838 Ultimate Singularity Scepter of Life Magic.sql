@@ -45,7 +45,7 @@ VALUES (27838,   1,   33558796) /* Setup */
      , (27838,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27838,   211,      2) 
-     , (27838,   664,      2) 
-     , (27838,  1432,      2) 
-     , (27838,  2581,      2) ;
+VALUES (27838,   211,      2)  /* ManaRenewalOther6 */
+     , (27838,   664,      2)  /* ManaMasteryOther6 */
+     , (27838,  1432,      2)  /* FocusOther6 */
+     , (27838,  2581,      2)  /* CANTRIPFOCUS1 */;

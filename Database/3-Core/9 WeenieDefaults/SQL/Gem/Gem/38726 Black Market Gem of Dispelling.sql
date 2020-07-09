@@ -40,4 +40,4 @@ VALUES (38726,   1,   33554809) /* Setup */
      , (38726,  28,       4331) /* Spell - DispelAllBadSelf8 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38726,  4331,      2) ;
+VALUES (38726,  4331,      2)  /* DispelAllBadSelf8 */;

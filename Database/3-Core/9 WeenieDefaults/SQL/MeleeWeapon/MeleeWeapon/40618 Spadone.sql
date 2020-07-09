@@ -66,5 +66,5 @@ VALUES (40618, 8040, 23855554, 61.05794, -27.02464, -0.071, -0.2389536, -0.23895
 /* @teleloc 0x016C01C2 [61.057940 -27.024640 -0.071000] -0.238954 -0.238954 -0.665508 -0.665508 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40618,  1592,      2) 
-     , (40618,  2096,      2) ;
+VALUES (40618,  1592,      2)  /* HeartSeekerSelf6 */
+     , (40618,  2096,      2)  /* BloodDrinkerSelf7 */;

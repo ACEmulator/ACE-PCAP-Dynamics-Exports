@@ -59,9 +59,9 @@ VALUES (32769,   1,   33559842) /* Setup */
      , (32769,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32769,  2096,      2) 
-     , (32769,  2101,      2) 
-     , (32769,  2106,      2) 
-     , (32769,  2116,      2) 
-     , (32769,  2203,      2) 
-     , (32769,  2263,      2) ;
+VALUES (32769,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32769,  2101,      2)  /* DefenderSelf7 */
+     , (32769,  2106,      2)  /* HeartSeekerSelf7 */
+     , (32769,  2116,      2)  /* SwiftKillerSelf7 */
+     , (32769,  2203,      2)  /* AxeMasterySelf7 */
+     , (32769,  2263,      2)  /* LeadershipMasterySelf7 */;

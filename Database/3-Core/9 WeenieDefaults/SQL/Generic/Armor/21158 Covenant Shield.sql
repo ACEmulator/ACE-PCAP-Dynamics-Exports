@@ -55,4 +55,4 @@ VALUES (21158,   1,   33557878) /* Setup */
      , (21158,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21158,  1484,      2) ;
+VALUES (21158,  1484,      2)  /* Impenetrability4 */;

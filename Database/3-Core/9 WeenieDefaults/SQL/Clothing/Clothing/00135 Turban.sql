@@ -53,11 +53,11 @@ VALUES (135,   1,   33554855) /* Setup */
      , (135,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (135,  1485,      2) 
-     , (135,  1497,      2) 
-     , (135,  1552,      2) 
-     , (135,  1562,      2) 
-     , (135,  5832,      2) ;
+VALUES (135,  1485,      2)  /* Impenetrability5 */
+     , (135,  1497,      2)  /* AcidBane5 */
+     , (135,  1552,      2)  /* FlameBane6 */
+     , (135,  1562,      2)  /* BladeBane6 */
+     , (135,  5832,      2)  /* RecklessnessMasterySelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (135, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

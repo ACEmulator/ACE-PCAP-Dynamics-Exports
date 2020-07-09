@@ -41,4 +41,4 @@ VALUES (25705,   1,   33554809) /* Setup */
      , (25705,  28,       2989) /* Spell - PortalSendingDarkNoir1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25705,  2989,      2) ;
+VALUES (25705,  2989,      2)  /* PortalSendingDarkNoir1 */;

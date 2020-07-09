@@ -33,4 +33,4 @@ VALUES (43280, 8040, 2847080707, 177.9603, 83.03925, 116.0855, -0.8244335, 0, 0,
 /* @teleloc 0xA9B30103 [177.960300 83.039250 116.085500] -0.824434 0.000000 0.000000 -0.565959 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43280,  5389,      2) ;
+VALUES (43280,  5389,      2)  /* Corrosion3 */;

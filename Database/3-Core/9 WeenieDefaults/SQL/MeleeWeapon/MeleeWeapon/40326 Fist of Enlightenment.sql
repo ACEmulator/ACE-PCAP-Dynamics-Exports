@@ -56,4 +56,4 @@ VALUES (40326,   1,   33559499) /* Setup */
      , (40326,  55,       4967) /* ProcSpell - cleansingring */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40326,  4967,      2) ;
+VALUES (40326,  4967,      2)  /* cleansingring */;

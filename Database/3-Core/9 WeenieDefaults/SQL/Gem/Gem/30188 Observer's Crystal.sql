@@ -43,4 +43,4 @@ VALUES (30188,   1,   33554809) /* Setup */
      , (30188,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30188,  3727,      2) ;
+VALUES (30188,  3727,      2)  /* PersonAttunementRare */;

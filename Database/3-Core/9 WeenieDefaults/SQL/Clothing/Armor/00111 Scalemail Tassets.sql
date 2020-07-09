@@ -52,10 +52,10 @@ VALUES (111,   1,   33554656) /* Setup */
      , (111,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (111,  1486,      2) 
-     , (111,  1497,      2) 
-     , (111,  1574,      2) 
-     , (111,  2545,      2) ;
+VALUES (111,  1486,      2)  /* Impenetrability6 */
+     , (111,  1497,      2)  /* AcidBane5 */
+     , (111,  1574,      2)  /* PiercingBane6 */
+     , (111,  2545,      2)  /* CANTRIPDECEPTIONPROWESS1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (111, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

@@ -40,4 +40,4 @@ VALUES (8115,   1,   33556769) /* Setup */
      , (8115,  28,       2000) /* Spell - PortalSendingCaulnalain */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8115,  2000,      2) ;
+VALUES (8115,  2000,      2)  /* PortalSendingCaulnalain */;

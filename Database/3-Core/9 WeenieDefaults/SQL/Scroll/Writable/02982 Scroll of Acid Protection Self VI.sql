@@ -29,4 +29,4 @@ VALUES (2982,   1,   33554826) /* Setup */
      , (2982,  28,        520) /* Spell - AcidProtectionSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2982,   520,      2) ;
+VALUES (2982,   520,      2)  /* AcidProtectionSelf6 */;

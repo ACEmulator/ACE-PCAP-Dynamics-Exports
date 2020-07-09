@@ -60,8 +60,8 @@ VALUES (30607,   1,   33559497) /* Setup */
      , (30607,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30607,  2096,      2) 
-     , (30607,  4400,      2) 
-     , (30607,  4405,      2) 
-     , (30607,  4708,      2) 
-     , (30607,  6100,      2) ;
+VALUES (30607,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (30607,  4400,      2)  /* DefenderSelf8 */
+     , (30607,  4405,      2)  /* HeartSeekerSelf8 */
+     , (30607,  4708,      2)  /* CANTRIPSALVAGING3 */
+     , (30607,  6100,      2)  /* CantripSwiftHunter4 */;

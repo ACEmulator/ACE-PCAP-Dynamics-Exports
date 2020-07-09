@@ -29,4 +29,4 @@ VALUES (1851,   1,   33554826) /* Setup */
      , (1851,  28,       1066) /* Spell - LightningProtectionSelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1851,  1066,      2) ;
+VALUES (1851,  1066,      2)  /* LightningProtectionSelf1 */;

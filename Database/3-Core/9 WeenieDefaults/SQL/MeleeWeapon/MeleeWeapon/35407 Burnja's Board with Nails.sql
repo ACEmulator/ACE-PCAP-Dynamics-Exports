@@ -53,6 +53,6 @@ VALUES (35407,   1,   33560302) /* Setup */
      , (35407,  55,         27) /* ProcSpell - FlameBolt1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35407,    27,      2) 
-     , (35407,  2096,      2) 
-     , (35407,  2116,      2) ;
+VALUES (35407,    27,      2)  /* FlameBolt1 */
+     , (35407,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (35407,  2116,      2)  /* SwiftKillerSelf7 */;

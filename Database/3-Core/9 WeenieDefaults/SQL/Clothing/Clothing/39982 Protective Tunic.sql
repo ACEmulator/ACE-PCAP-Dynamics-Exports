@@ -51,4 +51,4 @@ VALUES (39982,   1,   33554854) /* Setup */
      , (39982,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39982,  2614,      2) ;
+VALUES (39982,  2614,      2)  /* CANTRIPSLASHINGWARD2 */;

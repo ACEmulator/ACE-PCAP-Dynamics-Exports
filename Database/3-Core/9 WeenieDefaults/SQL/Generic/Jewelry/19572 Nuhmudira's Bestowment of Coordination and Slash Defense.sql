@@ -46,6 +46,6 @@ VALUES (19572,   1,   33554687) /* Setup */
      , (19572,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19572,  1119,      2) 
-     , (19572,  1383,      2) 
-     , (19572,  2669,      2) ;
+VALUES (19572,  1119,      2)  /* BladeProtectionOther5 */
+     , (19572,  1383,      2)  /* CoordinationOther5 */
+     , (19572,  2669,      2)  /* NuhmudirasBestowment */;

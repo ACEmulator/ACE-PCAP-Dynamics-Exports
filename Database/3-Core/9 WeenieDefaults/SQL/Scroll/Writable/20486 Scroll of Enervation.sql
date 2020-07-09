@@ -29,4 +29,4 @@ VALUES (20486,   1,   33554826) /* Setup */
      , (20486,  28,       2176) /* Spell - ExhaustionOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20486,  2176,      2) ;
+VALUES (20486,  2176,      2)  /* ExhaustionOther7 */;

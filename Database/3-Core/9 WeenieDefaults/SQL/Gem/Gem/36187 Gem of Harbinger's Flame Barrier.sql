@@ -38,4 +38,4 @@ VALUES (36187,   1,   33554809) /* Setup */
      , (36187,  28,       4191) /* Spell - HarbingerProtectionFire */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36187,  4191,      2) ;
+VALUES (36187,  4191,      2)  /* HarbingerProtectionFire */;

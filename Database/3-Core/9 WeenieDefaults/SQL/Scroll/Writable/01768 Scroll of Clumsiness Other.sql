@@ -29,4 +29,4 @@ VALUES (1768,   1,   33554826) /* Setup */
      , (1768,  28,       1391) /* Spell - ClumsinessOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1768,  1391,      2) ;
+VALUES (1768,  1391,      2)  /* ClumsinessOther1 */;

@@ -51,7 +51,7 @@ VALUES (28147, 8040, 3583574079, 178.0639, 145.7966, 373.9975, 0.9573087, 0, 0, 
 /* @teleloc 0xD599003F [178.063900 145.796600 373.997500] 0.957309 0.000000 0.000000 -0.289068 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28147,  1486,      2) 
-     , (28147,  2548,      2) 
-     , (28147,  2579,      2) 
-     , (28147,  2622,      2) ;
+VALUES (28147,  1486,      2)  /* Impenetrability6 */
+     , (28147,  2548,      2)  /* CANTRIPHEALINGPROWESS1 */
+     , (28147,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (28147,  2622,      2)  /* CANTRIPSTORMWARD1 */;

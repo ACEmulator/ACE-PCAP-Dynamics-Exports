@@ -29,4 +29,4 @@ VALUES (5996,   1,   33554826) /* Setup */
      , (5996,  28,       1767) /* Spell - AlchemyMasterySelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5996,  1767,      2) ;
+VALUES (5996,  1767,      2)  /* AlchemyMasterySelf5 */;

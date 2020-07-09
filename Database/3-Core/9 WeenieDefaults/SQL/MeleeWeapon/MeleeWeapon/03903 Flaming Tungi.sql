@@ -68,7 +68,7 @@ VALUES (3903,   1,   33555811) /* Setup */
      , (3903,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3903,  4395,      2) 
-     , (3903,  4405,      2) 
-     , (3903,  4911,      2) 
-     , (3903,  6089,      2) ;
+VALUES (3903,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (3903,  4405,      2)  /* HeartSeekerSelf8 */
+     , (3903,  4911,      2)  /* CANTRIPARMOR3 */
+     , (3903,  6089,      2)  /* CantripBloodThirst4 */;

@@ -47,7 +47,7 @@ VALUES (8552, 8040, 2847146241, 77.90692, 132.8379, 69.42901, 0.6444163, 0.64441
 /* @teleloc 0xA9B40101 [77.906920 132.837900 69.429010] 0.644416 0.644416 -0.291080 -0.291080 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8552,   170,      2) 
-     , (8552,   879,      2) 
-     , (8552,  1166,      2) 
-     , (8552,  1997,      2) ;
+VALUES (8552,   170,      2)  /* RegenerationSelf6 */
+     , (8552,   879,      2)  /* HealingMasterySelf6 */
+     , (8552,  1166,      2)  /* HealOther6 */
+     , (8552,  1997,      2)  /* LifeGiver */;

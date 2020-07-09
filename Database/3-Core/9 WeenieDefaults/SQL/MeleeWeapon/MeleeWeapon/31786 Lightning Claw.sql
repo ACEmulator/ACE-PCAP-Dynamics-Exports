@@ -55,7 +55,7 @@ VALUES (31786,   1,   33559642) /* Setup */
      , (31786,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31786,    35,      2) ;
+VALUES (31786,    35,      2)  /* BloodDrinkerSelf1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31786, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

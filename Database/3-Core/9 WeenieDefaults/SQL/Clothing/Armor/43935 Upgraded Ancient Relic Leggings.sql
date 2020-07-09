@@ -51,9 +51,9 @@ VALUES (43935, 8040, 3583574079, 172.9306, 153.5114, 373.9975, 0.8905933, 0, 0, 
 /* @teleloc 0xD599003F [172.930600 153.511400 373.997500] 0.890593 0.000000 0.000000 -0.454801 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43935,  2572,      2) 
-     , (43935,  2609,      2) 
-     , (43935,  2611,      2) 
-     , (43935,  3094,      2) 
-     , (43935,  3432,      2) 
-     , (43935,  3746,      2) ;
+VALUES (43935,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (43935,  2609,      2)  /* CANTRIPACIDWARD2 */
+     , (43935,  2611,      2)  /* CANTRIPFLAMEWARD2 */
+     , (43935,  3094,      2)  /* SkinFiazhat */
+     , (43935,  3432,      2)  /* ScourgeAegis */
+     , (43935,  3746,      2)  /* InfernoAegis */;

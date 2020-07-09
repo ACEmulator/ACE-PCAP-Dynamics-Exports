@@ -29,4 +29,4 @@ VALUES (3217,   1,   33554826) /* Setup */
      , (3217,  28,        472) /* Spell - BowMasterySelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3217,   472,      2) ;
+VALUES (3217,   472,      2)  /* BowMasterySelf6 */;

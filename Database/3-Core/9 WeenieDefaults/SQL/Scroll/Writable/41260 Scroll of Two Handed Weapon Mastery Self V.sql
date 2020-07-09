@@ -29,4 +29,4 @@ VALUES (41260,   1,   33554826) /* Setup */
      , (41260,  28,       5103) /* Spell - TwoHandedMasterySelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41260,  5103,      2) ;
+VALUES (41260,  5103,      2)  /* TwoHandedMasterySelf5 */;

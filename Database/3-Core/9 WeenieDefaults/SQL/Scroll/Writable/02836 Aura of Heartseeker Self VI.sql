@@ -29,4 +29,4 @@ VALUES (2836,   1,   33554826) /* Setup */
      , (2836,  28,       1592) /* Spell - HeartSeekerSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2836,  1592,      2) ;
+VALUES (2836,  1592,      2)  /* HeartSeekerSelf6 */;

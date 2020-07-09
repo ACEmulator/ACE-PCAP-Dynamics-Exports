@@ -58,9 +58,9 @@ VALUES (7457, 8040, 2847146026, 129.535, 43.48246, 93.92901, 0.03312358, 0.03312
 /* @teleloc 0xA9B4002A [129.535000 43.482460 93.929010] 0.033124 0.033124 -0.706331 -0.706331 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7457,   327,      2) 
-     , (7457,  1592,      2) 
-     , (7457,  1605,      2) 
-     , (7457,  1616,      2) 
-     , (7457,  1627,      2) 
-     , (7457,  1846,      2) ;
+VALUES (7457,   327,      2)  /* DaggerMasterySelf6 */
+     , (7457,  1592,      2)  /* HeartSeekerSelf6 */
+     , (7457,  1605,      2)  /* DefenderSelf6 */
+     , (7457,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (7457,  1627,      2)  /* SwiftKillerSelf6 */
+     , (7457,  1846,      2)  /* MagicYieldBlackFire */;

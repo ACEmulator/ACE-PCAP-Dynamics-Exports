@@ -29,4 +29,4 @@ VALUES (1565,   1,   33554826) /* Setup */
      , (1565,  28,         47) /* Spell - PortalTie1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1565,    47,      2) ;
+VALUES (1565,    47,      2)  /* PortalTie1 */;

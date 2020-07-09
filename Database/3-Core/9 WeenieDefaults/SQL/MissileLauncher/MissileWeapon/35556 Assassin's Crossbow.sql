@@ -65,6 +65,6 @@ VALUES (35556, 8040, 23855548, 49.21, -31.909, -0.07000001, 0.7071068, 0, 0, -0.
 /* @teleloc 0x016C01BC [49.210000 -31.909000 -0.070000] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35556,  2206,      2) 
-     , (35556,  2505,      2) 
-     , (35556,  4089,      2) ;
+VALUES (35556,  2206,      2)  /* BowMasteryOther7 */
+     , (35556,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+     , (35556,  4089,      2)  /* DeceptionAssassinsGift */;

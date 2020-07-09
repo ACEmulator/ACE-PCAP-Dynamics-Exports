@@ -54,7 +54,7 @@ VALUES (11892, 8040, 447873068, 133.7667, 84.07578, 21.931, 1, 0, 0, 0) /* PCAPR
 /* @teleloc 0x1AB2002C [133.766700 84.075780 21.931000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11892,  1590,      2) 
-     , (11892,  1603,      2) 
-     , (11892,  1615,      2) 
-     , (11892,  1625,      2) ;
+VALUES (11892,  1590,      2)  /* HeartSeekerSelf4 */
+     , (11892,  1603,      2)  /* DefenderSelf4 */
+     , (11892,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (11892,  1625,      2)  /* SwiftKillerSelf4 */;

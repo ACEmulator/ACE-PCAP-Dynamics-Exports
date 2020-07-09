@@ -59,6 +59,6 @@ VALUES (40375,   1,   33558662) /* Setup */
      , (40375,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40375,  2446,      2) 
-     , (40375,  2449,      2) 
-     , (40375,  2452,      2) ;
+VALUES (40375,  2446,      2)  /* GrowthGreater */
+     , (40375,  2449,      2)  /* HuntersAcumenGreater */
+     , (40375,  2452,      2)  /* ThornsGreater */;

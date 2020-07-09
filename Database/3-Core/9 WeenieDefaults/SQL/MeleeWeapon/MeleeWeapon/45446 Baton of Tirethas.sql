@@ -65,8 +65,8 @@ VALUES (45446, 8040, 4095213587, 51.04229, 71.14573, 164.9822, -0.6798319, -0.67
 /* @teleloc 0xF4180013 [51.042290 71.145730 164.982200] -0.679832 -0.679832 0.194496 0.194496 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45446,  4400,      2) 
-     , (45446,  4518,      2) 
-     , (45446,  4596,      2) 
-     , (45446,  4661,      2) 
-     , (45446,  4686,      2) ;
+VALUES (45446,  4400,      2)  /* DefenderSelf8 */
+     , (45446,  4518,      2)  /* AxeMasterySelf8 */
+     , (45446,  4596,      2)  /* MagicResistanceSelf8 */
+     , (45446,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (45446,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;

@@ -41,4 +41,4 @@ VALUES (41257,   1,   33554809) /* Setup */
      , (41257,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41257,  5026,      2) ;
+VALUES (41257,  5026,      2)  /* TwoHandedMasteryRare */;

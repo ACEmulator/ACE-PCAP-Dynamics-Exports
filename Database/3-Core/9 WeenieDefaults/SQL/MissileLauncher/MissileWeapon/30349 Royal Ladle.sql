@@ -64,10 +64,10 @@ VALUES (30349, 8040, 2749825341, 106.5877, 36.59145, 61.93, 0.2834048, 0.2834048
 /* @teleloc 0xA3E7013D [106.587700 36.591450 61.930000] 0.283405 0.283405 -0.647829 -0.647829 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30349,  4400,      2) 
-     , (30349,  4417,      2) 
-     , (30349,  4460,      2) 
-     , (30349,  4526,      2) 
-     , (30349,  4596,      2) 
-     , (30349,  4687,      2) 
-     , (30349,  4688,      2) ;
+VALUES (30349,  4400,      2)  /* DefenderSelf8 */
+     , (30349,  4417,      2)  /* SwiftKillerSelf8 */
+     , (30349,  4460,      2)  /* AcidProtectionSelf8 */
+     , (30349,  4526,      2)  /* CookingMasterySelf8 */
+     , (30349,  4596,      2)  /* MagicResistanceSelf8 */
+     , (30349,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */
+     , (30349,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */;

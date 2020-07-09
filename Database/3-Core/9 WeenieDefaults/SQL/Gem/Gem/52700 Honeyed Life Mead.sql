@@ -40,4 +40,4 @@ VALUES (52700,   1,   33554603) /* Setup */
      , (52700,  52,  100689805) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52700,  6170,      2) ;
+VALUES (52700,  6170,      2)  /* HoneyedLifeMead */;

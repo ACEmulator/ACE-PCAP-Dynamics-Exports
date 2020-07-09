@@ -32,4 +32,4 @@ VALUES (11823,   1,   33554809) /* Setup */
      , (11823,  28,       2477) /* Spell - PORTALTUMEROKWARALU */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11823,  2477,      2) ;
+VALUES (11823,  2477,      2)  /* PORTALTUMEROKWARALU */;

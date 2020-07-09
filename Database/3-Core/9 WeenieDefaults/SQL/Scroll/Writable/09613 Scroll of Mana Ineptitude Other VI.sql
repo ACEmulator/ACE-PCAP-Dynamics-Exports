@@ -29,4 +29,4 @@ VALUES (9613,   1,   33554826) /* Setup */
      , (9613,  28,        677) /* Spell - ManaIneptitudeOther6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9613,   677,      2) ;
+VALUES (9613,   677,      2)  /* ManaIneptitudeOther6 */;

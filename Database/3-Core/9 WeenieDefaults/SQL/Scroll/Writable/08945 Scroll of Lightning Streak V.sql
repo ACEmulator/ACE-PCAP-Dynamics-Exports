@@ -29,4 +29,4 @@ VALUES (8945,   1,   33554826) /* Setup */
      , (8945,  28,       1818) /* Spell - LightningStreak5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8945,  1818,      2) ;
+VALUES (8945,  1818,      2)  /* LightningStreak5 */;

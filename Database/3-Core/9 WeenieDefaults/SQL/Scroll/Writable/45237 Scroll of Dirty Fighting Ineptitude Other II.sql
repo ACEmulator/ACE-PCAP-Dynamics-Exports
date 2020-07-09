@@ -29,4 +29,4 @@ VALUES (45237,   1,   33554826) /* Setup */
      , (45237,  28,       5764) /* Spell - DirtyFightingIneptitudeOther2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45237,  5764,      2) ;
+VALUES (45237,  5764,      2)  /* DirtyFightingIneptitudeOther2 */;

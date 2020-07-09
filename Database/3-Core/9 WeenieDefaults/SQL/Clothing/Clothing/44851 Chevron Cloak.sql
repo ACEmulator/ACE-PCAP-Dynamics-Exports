@@ -57,4 +57,4 @@ VALUES (44851,   1,   33561386) /* Setup */
      , (44851,  55,       5753) /* ProcSpell - CloakAllSkill */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44851,  5753,      2) ;
+VALUES (44851,  5753,      2)  /* CloakAllSkill */;

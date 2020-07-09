@@ -46,5 +46,5 @@ VALUES (33825,   1,   33554643) /* Setup */
      , (33825,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33825,  2226,      2) 
-     , (33825,  2545,      2) ;
+VALUES (33825,  2226,      2)  /* DeceptionMasteryOther7 */
+     , (33825,  2545,      2)  /* CANTRIPDECEPTIONPROWESS1 */;

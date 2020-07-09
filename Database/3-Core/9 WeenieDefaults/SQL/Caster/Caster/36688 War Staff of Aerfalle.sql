@@ -54,10 +54,10 @@ VALUES (36688, 8040, 722599969, 109.4254, 11.67712, 47.929, 0.6115251, 0.6115251
 /* @teleloc 0x2B120021 [109.425400 11.677120 47.929000] 0.611525 0.611525 -0.355017 -0.355017 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36688,  2182,      2) 
-     , (36688,  2286,      2) 
-     , (36688,  2322,      2) 
-     , (36688,  2387,      2) 
-     , (36688,  2392,      2) 
-     , (36688,  2525,      2) 
-     , (36688,  2534,      2) ;
+VALUES (36688,  2182,      2)  /* ManaRenewalOther7 */
+     , (36688,  2286,      2)  /* ManaMasteryOther7 */
+     , (36688,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (36688,  2387,      2)  /* Determination */
+     , (36688,  2392,      2)  /* Serenity */
+     , (36688,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
+     , (36688,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */;

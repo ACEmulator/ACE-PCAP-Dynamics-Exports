@@ -50,4 +50,4 @@ VALUES (52785,   1,   33554691) /* Setup */
      , (52785,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52785,  2666,      2) ;
+VALUES (52785,  2666,      2)  /* EssenceGlutton */;

@@ -29,4 +29,4 @@ VALUES (2693,   1,   33554826) /* Setup */
      , (2693,  28,       1163) /* Spell - HealOther3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2693,  1163,      2) ;
+VALUES (2693,  1163,      2)  /* HealOther3 */;

@@ -56,7 +56,7 @@ VALUES (41898, 8040, 3332964381, 82.74575, 96.33978, 41.929, -0.2850662, -0.2850
 /* @teleloc 0xC6A9001D [82.745750 96.339780 41.929000] -0.285066 -0.285066 -0.647099 -0.647099 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41898,  2013,      2) 
-     , (41898,  2067,      2) 
-     , (41898,  2183,      2) 
-     , (41898,  2287,      2) ;
+VALUES (41898,  2013,      2)  /* WizardsGreaterIntellect */
+     , (41898,  2067,      2)  /* FocusSelf7 */
+     , (41898,  2183,      2)  /* ManaRenewalSelf7 */
+     , (41898,  2287,      2)  /* ManaMasterySelf7 */;

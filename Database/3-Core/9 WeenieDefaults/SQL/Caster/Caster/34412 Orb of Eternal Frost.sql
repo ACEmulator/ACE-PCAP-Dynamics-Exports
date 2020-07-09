@@ -44,4 +44,4 @@ VALUES (34412, 8040, 3465871412, 158.0816, 93.76843, 19.929, 0.7068371, 0.706837
 /* @teleloc 0xCE950034 [158.081600 93.768430 19.929000] 0.706837 0.706837 -0.019527 -0.019527 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34412,  4028,      2) ;
+VALUES (34412,  4028,      2)  /* Snowball */;

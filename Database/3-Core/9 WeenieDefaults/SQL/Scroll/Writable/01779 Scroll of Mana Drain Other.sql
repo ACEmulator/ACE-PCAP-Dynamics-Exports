@@ -29,4 +29,4 @@ VALUES (1779,   1,   33554826) /* Setup */
      , (1779,  28,       1219) /* Spell - ManaDrainOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1779,  1219,      2) ;
+VALUES (1779,  1219,      2)  /* ManaDrainOther1 */;

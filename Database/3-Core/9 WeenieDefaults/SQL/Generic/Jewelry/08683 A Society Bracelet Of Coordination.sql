@@ -35,4 +35,4 @@ VALUES (8683,   1,   33554683) /* Setup */
      , (8683,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8683,  1380,      2) ;
+VALUES (8683,  1380,      2)  /* CoordinationOther2 */;

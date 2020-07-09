@@ -31,4 +31,4 @@ VALUES (8530,   1,   33554826) /* Setup */
      , (8530,  28,       2023) /* Spell - SanctuaryRecall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8530,  2023,      2) ;
+VALUES (8530,  2023,      2)  /* SanctuaryRecall */;

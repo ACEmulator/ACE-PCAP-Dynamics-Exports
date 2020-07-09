@@ -38,5 +38,5 @@ VALUES (32262,   1,   33559761) /* Setup */
      , (32262,  28,       3861) /* Spell - CantripTasteForBlood */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32262,   683,      2) 
-     , (32262,  3861,      2) ;
+VALUES (32262,   683,      2)  /* ArcaneEnlightenmentSelf6 */
+     , (32262,  3861,      2)  /* CantripTasteForBlood */;

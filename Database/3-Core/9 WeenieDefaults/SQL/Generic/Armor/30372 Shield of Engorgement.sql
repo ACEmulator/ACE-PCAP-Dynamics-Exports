@@ -63,5 +63,5 @@ VALUES (30372, 8040, 2847080485, 124.7261, 188.1584, 94.00126, -0.4776144, -0.50
 /* @teleloc 0xA9B30025 [124.726100 188.158400 94.001260] -0.477614 -0.500581 0.677793 -0.248798 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30372,  4407,      2) 
-     , (30372,  4704,      2) ;
+VALUES (30372,  4407,      2)  /* Impenetrability8 */
+     , (30372,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;

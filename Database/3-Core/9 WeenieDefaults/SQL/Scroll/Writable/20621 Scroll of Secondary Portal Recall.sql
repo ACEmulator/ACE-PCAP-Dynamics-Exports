@@ -29,4 +29,4 @@ VALUES (20621,   1,   33554826) /* Setup */
      , (20621,  28,       2647) /* Spell - PortalTieRecall2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20621,  2647,      2) ;
+VALUES (20621,  2647,      2)  /* PortalTieRecall2 */;

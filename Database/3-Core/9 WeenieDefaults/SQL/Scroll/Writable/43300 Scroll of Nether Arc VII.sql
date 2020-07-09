@@ -29,4 +29,4 @@ VALUES (43300,   1,   33554826) /* Setup */
      , (43300,  28,       5367) /* Spell - NetherArc7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43300,  5367,      2) ;
+VALUES (43300,  5367,      2)  /* NetherArc7 */;

@@ -51,9 +51,9 @@ VALUES (118,   1,   33554643) /* Setup */
      , (118,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (118,   170,      2) 
-     , (118,  1485,      2) 
-     , (118,  1574,      2) ;
+VALUES (118,   170,      2)  /* RegenerationSelf6 */
+     , (118,  1485,      2)  /* Impenetrability5 */
+     , (118,  1574,      2)  /* PiercingBane6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (118, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

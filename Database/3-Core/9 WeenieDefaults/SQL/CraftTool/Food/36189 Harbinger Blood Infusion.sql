@@ -38,4 +38,4 @@ VALUES (36189,   1,   33554603) /* Setup */
      , (36189,  28,       4169) /* Spell - ArmorProdigalHarbinger */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36189,  4169,      2) ;
+VALUES (36189,  4169,      2)  /* ArmorProdigalHarbinger */;

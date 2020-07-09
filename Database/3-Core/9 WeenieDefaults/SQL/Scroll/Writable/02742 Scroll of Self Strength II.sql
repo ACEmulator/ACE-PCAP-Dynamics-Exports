@@ -29,4 +29,4 @@ VALUES (2742,   1,   33554826) /* Setup */
      , (2742,  28,       1328) /* Spell - StrengthSelf2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2742,  1328,      2) ;
+VALUES (2742,  1328,      2)  /* StrengthSelf2 */;

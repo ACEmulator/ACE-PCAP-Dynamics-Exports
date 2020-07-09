@@ -29,4 +29,4 @@ VALUES (37755,   1,   33554826) /* Setup */
      , (37755,  28,       4468) /* Spell - FireProtectionSelf8 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37755,  4468,      2) ;
+VALUES (37755,  4468,      2)  /* FireProtectionSelf8 */;

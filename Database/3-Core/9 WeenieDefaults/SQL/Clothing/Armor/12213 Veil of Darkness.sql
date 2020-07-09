@@ -51,7 +51,7 @@ VALUES (12213, 8040, 23855549, 50.54018, -37.89431, -0.015, 0.9717073, 0, 0, -0.
 /* @teleloc 0x016C01BD [50.540180 -37.894310 -0.015000] 0.971707 0.000000 0.000000 -0.236188 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12213,   248,      2) 
-     , (12213,   398,      2) 
-     , (12213,   876,      2) 
-     , (12213,  1311,      2) ;
+VALUES (12213,   248,      2)  /* InvulnerabilitySelf5 */
+     , (12213,   398,      2)  /* StaffMasterySelf5 */
+     , (12213,   876,      2)  /* HealingMasterySelf3 */
+     , (12213,  1311,      2)  /* ArmorSelf5 */;

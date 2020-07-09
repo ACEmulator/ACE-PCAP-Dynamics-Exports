@@ -45,4 +45,4 @@ VALUES (22883,   1,   33558147) /* Setup */
      , (22883,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22883,  1039,      2) ;
+VALUES (22883,  1039,      2)  /* ColdProtectionOther4 */;

@@ -59,9 +59,9 @@ VALUES (30376, 8040, 2847146009, 84.02469, 7.096089, 93.93001, 0.704927, 0.70492
 /* @teleloc 0xA9B40019 [84.024690 7.096089 93.930010] 0.704927 0.704927 -0.055479 -0.055479 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30376,  2132,      2) 
-     , (30376,  4305,      2) 
-     , (30376,  4329,      2) 
-     , (30376,  4602,      2) 
-     , (30376,  4670,      2) 
-     , (30376,  4705,      2) ;
+VALUES (30376,  2132,      2)  /* ForceBolt7 */
+     , (30376,  4305,      2)  /* FocusSelf8 */
+     , (30376,  4329,      2)  /* WillpowerSelf8 */
+     , (30376,  4602,      2)  /* ManaMasterySelf8 */
+     , (30376,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
+     , (30376,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

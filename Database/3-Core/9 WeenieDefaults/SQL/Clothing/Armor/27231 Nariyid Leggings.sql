@@ -54,8 +54,8 @@ VALUES (27231,   1,   33554856) /* Setup */
      , (27231,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27231,  1486,      2) 
-     , (27231,  2110,      2) 
-     , (27231,  4401,      2) 
-     , (27231,  6042,      2) 
-     , (27231,  6122,      2) ;
+VALUES (27231,  1486,      2)  /* Impenetrability6 */
+     , (27231,  2110,      2)  /* LightningBane7 */
+     , (27231,  4401,      2)  /* FlameBane8 */
+     , (27231,  6042,      2)  /* CantripArmorExpertise4 */
+     , (27231,  6122,      2)  /* SummoningMasterySelf7 */;

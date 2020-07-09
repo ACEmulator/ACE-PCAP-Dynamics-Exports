@@ -61,8 +61,8 @@ VALUES (41047, 8040, 2847145993, 43.88592, 13.17736, 86.6326, 0.697145, 0.697145
 /* @teleloc 0xA9B40009 [43.885920 13.177360 86.632600] 0.697145 0.697145 -0.118274 -0.118274 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41047,  1601,      2) 
-     , (41047,  1612,      2) ;
+VALUES (41047,  1601,      2)  /* DefenderSelf2 */
+     , (41047,  1612,      2)  /* BloodDrinkerSelf2 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (41047, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

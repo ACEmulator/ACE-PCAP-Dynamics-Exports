@@ -33,4 +33,4 @@ VALUES (2892, 8040, 3332964379, 83.91006, 66.67138, 42.0855, 0.4344043, 0, 0, -0
 /* @teleloc 0xC6A9001B [83.910060 66.671380 42.085500] 0.434404 0.000000 0.000000 -0.900718 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2892,  1480,      2) ;
+VALUES (2892,  1480,      2)  /* HermeticLinkSelf6 */;

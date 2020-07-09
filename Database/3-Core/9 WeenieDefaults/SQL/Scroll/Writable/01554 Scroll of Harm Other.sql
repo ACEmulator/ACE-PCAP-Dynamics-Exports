@@ -29,4 +29,4 @@ VALUES (1554,   1,   33554826) /* Setup */
      , (1554,  28,          7) /* Spell - HarmOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1554,     7,      2) ;
+VALUES (1554,     7,      2)  /* HarmOther1 */;

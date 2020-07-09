@@ -29,4 +29,4 @@ VALUES (20423,   1,   33554826) /* Setup */
      , (20423,  28,       2113) /* Spell - PiercingBane7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20423,  2113,      2) ;
+VALUES (20423,  2113,      2)  /* PiercingBane7 */;

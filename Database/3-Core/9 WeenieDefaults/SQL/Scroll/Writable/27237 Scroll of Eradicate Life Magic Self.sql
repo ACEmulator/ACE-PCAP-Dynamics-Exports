@@ -29,4 +29,4 @@ VALUES (27237,   1,   33554826) /* Setup */
      , (27237,  28,       3194) /* Spell - DispelLifeBadSelf7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27237,  3194,      2) ;
+VALUES (27237,  3194,      2)  /* DispelLifeBadSelf7 */;

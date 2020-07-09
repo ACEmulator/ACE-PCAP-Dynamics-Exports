@@ -33,4 +33,4 @@ VALUES (45282, 8040, 15532655, 356.9333, -199.5847, -11.9145, -0.5344993, 0, 0, 
 /* @teleloc 0x00ED026F [356.933300 -199.584700 -11.914500] -0.534499 0.000000 0.000000 -0.845169 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45282,  5809,      2) ;
+VALUES (45282,  5809,      2)  /* DualWieldMasterySelf7 */;

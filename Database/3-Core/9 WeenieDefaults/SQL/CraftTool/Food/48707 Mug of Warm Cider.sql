@@ -34,4 +34,4 @@ VALUES (48707,   1,   33554667) /* Setup */
      , (48707,  28,       6038) /* Spell - CiderStamina */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (48707,  6038,      2) ;
+VALUES (48707,  6038,      2)  /* CiderStamina */;

@@ -29,4 +29,4 @@ VALUES (2842,   1,   33554826) /* Setup */
      , (2842,  28,       1482) /* Spell - Impenetrability2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2842,  1482,      2) ;
+VALUES (2842,  1482,      2)  /* Impenetrability2 */;

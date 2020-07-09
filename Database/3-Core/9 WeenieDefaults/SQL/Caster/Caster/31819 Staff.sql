@@ -59,6 +59,6 @@ VALUES (31819, 8040, 23855555, 55.52563, -35.62398, -0.071, 0.7039156, 0.7039156
 /* @teleloc 0x016C01C3 [55.525630 -35.623980 -0.071000] 0.703916 0.703916 -0.067103 -0.067103 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31819,  2117,      2) 
-     , (31819,  4457,      2) 
-     , (31819,  4695,      2) ;
+VALUES (31819,  2117,      2)  /* HermeticLinkSelf7 */
+     , (31819,  4457,      2)  /* WhirlingBlade8 */
+     , (31819,  4695,      2)  /* CANTRIPIMPREGNABILITY3 */;

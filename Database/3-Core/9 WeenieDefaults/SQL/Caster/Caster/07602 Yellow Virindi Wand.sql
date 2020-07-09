@@ -45,6 +45,6 @@ VALUES (7602, 8040, 3081633828, 100.9744, 76.61674, 109.929, -0.5935629, -0.5935
 /* @teleloc 0xB7AE0024 [100.974400 76.616740 109.929000] -0.593563 -0.593563 -0.384296 -0.384296 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7602,    85,      2) 
-     , (7602,  1094,      2) 
-     , (7602,  2618,      2) ;
+VALUES (7602,    85,      2)  /* FlameBolt6 */
+     , (7602,  1094,      2)  /* FireProtectionSelf6 */
+     , (7602,  2618,      2)  /* CANTRIPFLAMEWARD1 */;

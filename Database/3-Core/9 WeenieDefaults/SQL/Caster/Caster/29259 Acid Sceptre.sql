@@ -63,8 +63,8 @@ VALUES (29259, 8040, 23855548, 51.75484, -29.63478, -0.071, 0.3295095, 0.3295095
 /* @teleloc 0x016C01BC [51.754840 -29.634780 -0.071000] 0.329510 0.329510 -0.625638 -0.625638 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29259,  3259,      2) 
-     , (29259,  4418,      2) 
-     , (29259,  4439,      2) 
-     , (29259,  4638,      2) 
-     , (29259,  6098,      2) ;
+VALUES (29259,  3259,      2)  /* SpiritDrinkerSelf7 */
+     , (29259,  4418,      2)  /* HermeticLinkSelf8 */
+     , (29259,  4439,      2)  /* FlameBolt8 */
+     , (29259,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (29259,  6098,      2)  /* CantripSpiritThirst4 */;

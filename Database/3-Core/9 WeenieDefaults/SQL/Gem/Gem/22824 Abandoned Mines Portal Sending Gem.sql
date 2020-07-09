@@ -41,4 +41,4 @@ VALUES (22824,   1,   33556769) /* Setup */
      , (22824,  28,       2942) /* Spell - PortalSendAbandonedMine */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22824,  2942,      2) ;
+VALUES (22824,  2942,      2)  /* PortalSendAbandonedMine */;

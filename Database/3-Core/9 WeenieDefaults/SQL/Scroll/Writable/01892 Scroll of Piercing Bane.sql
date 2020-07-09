@@ -29,4 +29,4 @@ VALUES (1892,   1,   33554826) /* Setup */
      , (1892,  28,       1569) /* Spell - PiercingBane1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1892,  1569,      2) ;
+VALUES (1892,  1569,      2)  /* PiercingBane1 */;

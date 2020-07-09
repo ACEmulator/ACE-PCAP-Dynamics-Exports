@@ -42,4 +42,4 @@ VALUES (43478,   1,   33554809) /* Setup */
      , (43478,  52,  100691593) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43478,  5451,      2) ;
+VALUES (43478,  5451,      2)  /* LuminanceRewardHealthRaising */;

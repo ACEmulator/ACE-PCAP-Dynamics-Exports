@@ -59,5 +59,5 @@ VALUES (314, 8040, 3443589482, 67.77126, 159.1041, 53.929, 0.5172954, 0.5172954,
 /* @teleloc 0xCD41016A [67.771260 159.104100 53.929000] 0.517295 0.517295 -0.482085 -0.482085 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (314,  1375,      2) 
-     , (314,  1613,      2) ;
+VALUES (314,  1375,      2)  /* CoordinationSelf3 */
+     , (314,  1613,      2)  /* BloodDrinkerSelf3 */;

@@ -50,9 +50,9 @@ VALUES (11301, 8040, 3482648630, 149.9071, 134.0867, 19.929, -0.5056589, -0.5056
 /* @teleloc 0xCF950036 [149.907100 134.086700 19.929000] -0.505659 -0.505659 -0.494276 -0.494276 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11301,   217,      2) 
-     , (11301,   634,      2) 
-     , (11301,   658,      2) 
-     , (11301,  1480,      2) 
-     , (11301,  1836,      2) 
-     , (11301,  2428,      2) ;
+VALUES (11301,   217,      2)  /* ManaRenewalSelf6 */
+     , (11301,   634,      2)  /* WarMagicMasterySelf6 */
+     , (11301,   658,      2)  /* ManaMasterySelf6 */
+     , (11301,  1480,      2)  /* HermeticLinkSelf6 */
+     , (11301,  1836,      2)  /* FrostStrike */
+     , (11301,  2428,      2)  /* TimaruShelterMagic */;

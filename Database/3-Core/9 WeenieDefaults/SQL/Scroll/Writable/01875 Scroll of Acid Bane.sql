@@ -29,4 +29,4 @@ VALUES (1875,   1,   33554826) /* Setup */
      , (1875,  28,       1493) /* Spell - AcidBane1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1875,  1493,      2) ;
+VALUES (1875,  1493,      2)  /* AcidBane1 */;

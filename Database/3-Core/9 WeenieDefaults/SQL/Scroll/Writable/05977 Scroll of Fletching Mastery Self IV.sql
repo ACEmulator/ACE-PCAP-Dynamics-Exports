@@ -29,4 +29,4 @@ VALUES (5977,   1,   33554826) /* Setup */
      , (5977,  28,       1742) /* Spell - FletchingMasterySelf4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5977,  1742,      2) ;
+VALUES (5977,  1742,      2)  /* FletchingMasterySelf4 */;

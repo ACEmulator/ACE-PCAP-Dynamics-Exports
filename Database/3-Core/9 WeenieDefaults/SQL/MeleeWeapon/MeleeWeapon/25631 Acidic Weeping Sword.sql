@@ -58,4 +58,4 @@ VALUES (25631,   1,   33558474) /* Setup */
      , (25631,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25631,  2689,      2) ;
+VALUES (25631,  2689,      2)  /* ModerateDaggerAptitude */;

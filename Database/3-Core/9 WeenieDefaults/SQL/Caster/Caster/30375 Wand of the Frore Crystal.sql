@@ -60,9 +60,9 @@ VALUES (30375, 8040, 3135766557, 83.975, 105, 25.929, -3.090862E-08, -3.090862E-
 /* @teleloc 0xBAE8001D [83.975000 105.000000 25.929000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30375,  2136,      2) 
-     , (30375,  4468,      2) 
-     , (30375,  4494,      2) 
-     , (30375,  4670,      2) 
-     , (30375,  4675,      2) 
-     , (30375,  4705,      2) ;
+VALUES (30375,  2136,      2)  /* FrostBolt7 */
+     , (30375,  4468,      2)  /* FireProtectionSelf8 */
+     , (30375,  4494,      2)  /* ManaRenewalSelf8 */
+     , (30375,  4670,      2)  /* CANTRIPSPIRITTHIRST3 */
+     , (30375,  4675,      2)  /* CANTRIPFLAMEWARD3 */
+     , (30375,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

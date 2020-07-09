@@ -53,5 +53,5 @@ VALUES (28628,   1,   33559337) /* Setup */
      , (28628,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28628,  1332,      2) 
-     , (28628,  2108,      2) ;
+VALUES (28628,  1332,      2)  /* StrengthSelf6 */
+     , (28628,  2108,      2)  /* Impenetrability7 */;

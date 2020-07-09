@@ -37,4 +37,4 @@ VALUES (28454,   1,   33554668) /* Setup */
      , (28454,  28,       3441) /* Spell - LugianInsight */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28454,  3441,      2) ;
+VALUES (28454,  3441,      2)  /* LugianInsight */;

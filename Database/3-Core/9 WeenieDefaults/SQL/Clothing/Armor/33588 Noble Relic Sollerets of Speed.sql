@@ -47,8 +47,8 @@ VALUES (33588,   1,   33554654) /* Setup */
      , (33588,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33588,  2108,      2) 
-     , (33588,  2242,      2) 
-     , (33588,  2244,      2) 
-     , (33588,  2280,      2) 
-     , (33588,  3577,      2) ;
+VALUES (33588,  2108,      2)  /* Impenetrability7 */
+     , (33588,  2242,      2)  /* ImpregnabilityOther7 */
+     , (33588,  2244,      2)  /* InvulnerabilityOther7 */
+     , (33588,  2280,      2)  /* MagicResistanceOther7 */
+     , (33588,  3577,      2)  /* PerfectSpeed */;

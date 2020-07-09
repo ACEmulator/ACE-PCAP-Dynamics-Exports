@@ -40,4 +40,4 @@ VALUES (9042,   1,   33556769) /* Setup */
      , (9042,  28,       2358) /* Spell - RecallLyceum */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9042,  2358,      2) ;
+VALUES (9042,  2358,      2)  /* RecallLyceum */;

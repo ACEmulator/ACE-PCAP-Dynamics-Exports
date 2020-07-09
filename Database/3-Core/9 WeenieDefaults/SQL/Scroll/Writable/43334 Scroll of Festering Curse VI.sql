@@ -29,4 +29,4 @@ VALUES (43334,   1,   33554826) /* Setup */
      , (43334,  28,       5376) /* Spell - CurseFestering6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43334,  5376,      2) ;
+VALUES (43334,  5376,      2)  /* CurseFestering6 */;

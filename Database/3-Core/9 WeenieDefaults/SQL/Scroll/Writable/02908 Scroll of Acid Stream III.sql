@@ -29,4 +29,4 @@ VALUES (2908,   1,   33554826) /* Setup */
      , (2908,  28,         60) /* Spell - AcidStream3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2908,    60,      2) ;
+VALUES (2908,    60,      2)  /* AcidStream3 */;

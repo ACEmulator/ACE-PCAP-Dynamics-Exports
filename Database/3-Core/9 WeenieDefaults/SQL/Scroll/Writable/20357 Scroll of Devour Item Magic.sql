@@ -29,4 +29,4 @@ VALUES (20357,   1,   33554826) /* Setup */
      , (20357,  28,       1939) /* Spell - DispelItemBadOther4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20357,  1939,      2) ;
+VALUES (20357,  1939,      2)  /* DispelItemBadOther4 */;

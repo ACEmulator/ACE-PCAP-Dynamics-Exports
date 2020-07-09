@@ -56,9 +56,9 @@ VALUES (53330, 8040, 3332964380, 80.4887, 83.85165, 41.929, -0.7070963, -0.70709
 /* @teleloc 0xC6A9001C [80.488700 83.851650 41.929000] -0.707096 -0.707096 0.003843 0.003843 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53330,  4602,      2) 
-     , (53330,  4638,      2) 
-     , (53330,  6075,      2) 
-     , (53330,  6087,      2) 
-     , (53330,  6091,      2) 
-     , (53330,  6198,      2) ;
+VALUES (53330,  4602,      2)  /* ManaMasterySelf8 */
+     , (53330,  4638,      2)  /* WarMagicMasterySelf8 */
+     , (53330,  6075,      2)  /* CantripWarMagicAptitude4 */
+     , (53330,  6087,      2)  /* CantripHermeticLink4 */
+     , (53330,  6091,      2)  /* CantripDefender4 */
+     , (53330,  6198,      2)  /* IncantationOfLightningBolt */;

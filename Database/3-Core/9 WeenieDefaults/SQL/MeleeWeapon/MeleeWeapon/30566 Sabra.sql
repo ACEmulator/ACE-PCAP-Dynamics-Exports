@@ -67,7 +67,7 @@ VALUES (30566, 8040, 459094, 80, -69.975, -0.071, -0.5, -0.5, -0.5, -0.5) /* PCA
 /* @teleloc 0x00070156 [80.000000 -69.975000 -0.071000] -0.500000 -0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30566,  2096,      2) 
-     , (30566,  2598,      2) 
-     , (30566,  2600,      2) 
-     , (30566,  5785,      2) ;
+VALUES (30566,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (30566,  2598,      2)  /* CANTRIPBLOODTHIRST1 */
+     , (30566,  2600,      2)  /* CANTRIPDEFENDER1 */
+     , (30566,  5785,      2)  /* DirtyFightingMasterySelf7 */;

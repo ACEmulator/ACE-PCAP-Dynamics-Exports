@@ -55,4 +55,4 @@ VALUES (6044, 8040, 30671251, 28.74659, -31.80863, 29.995, 0.9964855, 0, 0, -0.0
 /* @teleloc 0x01D40193 [28.746590 -31.808630 29.995000] 0.996486 0.000000 0.000000 -0.083765 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6044,  1485,      2) ;
+VALUES (6044,  1485,      2)  /* Impenetrability5 */;

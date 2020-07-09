@@ -44,4 +44,4 @@ VALUES (42637,   1,   33554809) /* Setup */
      , (42637,  55,       5207) /* ProcSpell - AetheriaProcHealDebuff */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42637,  5207,      2) ;
+VALUES (42637,  5207,      2)  /* AetheriaProcHealDebuff */;

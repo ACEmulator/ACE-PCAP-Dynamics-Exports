@@ -52,5 +52,5 @@ VALUES (32839, 8040, 2103705613, 34.40216, 102.7422, 11.926, -0.1770117, -0.8291
 /* @teleloc 0x7D64000D [34.402160 102.742200 11.926000] -0.177012 -0.829138 0.150049 -0.508609 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32839,  2108,      2) 
-     , (32839,  2937,      2) ;
+VALUES (32839,  2108,      2)  /* Impenetrability7 */
+     , (32839,  2937,      2)  /* ModerateImpregnability */;

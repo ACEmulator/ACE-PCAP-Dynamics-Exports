@@ -63,6 +63,6 @@ VALUES (40681, 8040, 3147759892, 135.342, 107.5091, 63.65225, -0.7226186, 0, 0, 
 /* @teleloc 0xBB9F0114 [135.342000 107.509100 63.652250] -0.722619 0.000000 0.000000 -0.691247 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40681,  1528,      2) 
-     , (40681,  2108,      2) 
-     , (40681,  6126,      2) ;
+VALUES (40681,  1528,      2)  /* FrostBane6 */
+     , (40681,  2108,      2)  /* Impenetrability7 */
+     , (40681,  6126,      2)  /* CantripSummoningProwess2 */;

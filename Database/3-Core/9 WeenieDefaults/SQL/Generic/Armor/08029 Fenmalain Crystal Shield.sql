@@ -54,6 +54,6 @@ VALUES (8029,   1,   33554786) /* Setup */
      , (8029,  37,         48) /* ItemSkillLimit - Shield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8029,   246,      2) 
-     , (8029,  2003,      2) 
-     , (8029,  2007,      2) ;
+VALUES (8029,   246,      2)  /* InvulnerabilitySelf3 */
+     , (8029,  2003,      2)  /* WarriorsLesserVitality */
+     , (8029,  2007,      2)  /* WarriorsLesserVigor */;

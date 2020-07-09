@@ -44,9 +44,9 @@ VALUES (21910,   1,   33557963) /* Setup */
      , (21910,  28,       2781) /* Spell - LesserElementalFuryAcid */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21910,   640,      2) 
-     , (21910,   664,      2) 
-     , (21910,  2581,      2) 
-     , (21910,  2584,      2) 
-     , (21910,  2781,      2) 
-     , (21910,  2812,      2) ;
+VALUES (21910,   640,      2)  /* WarMagicMasteryOther6 */
+     , (21910,   664,      2)  /* ManaMasteryOther6 */
+     , (21910,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (21910,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (21910,  2781,      2)  /* LesserElementalFuryAcid */
+     , (21910,  2812,      2)  /* ModerateWarMagicAptitude */;

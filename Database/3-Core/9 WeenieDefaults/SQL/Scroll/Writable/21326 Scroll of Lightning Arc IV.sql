@@ -29,4 +29,4 @@ VALUES (21326,   1,   33554826) /* Setup */
      , (21326,  28,       2735) /* Spell - LightningArc4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21326,  2735,      2) ;
+VALUES (21326,  2735,      2)  /* LightningArc4 */;

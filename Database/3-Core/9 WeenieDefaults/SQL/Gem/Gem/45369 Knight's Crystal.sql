@@ -42,4 +42,4 @@ VALUES (45369,   1,   33554809) /* Setup */
      , (45369,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45369,  5907,      2) ;
+VALUES (45369,  5907,      2)  /* ShieldMasteryRare */;

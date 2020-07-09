@@ -29,7 +29,7 @@ VALUES (20606,   1,   33554826) /* Setup */
      , (20606,  28,       2334) /* Spell - HealthToStaminaSelf7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20606,  2334,      2) ;
+VALUES (20606,  2334,      2)  /* HealthToStaminaSelf7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (20606, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

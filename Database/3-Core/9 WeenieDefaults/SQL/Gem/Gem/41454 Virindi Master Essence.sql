@@ -40,4 +40,4 @@ VALUES (41454,   1,   33554809) /* Setup */
      , (41454,  37,         20) /* ItemSkillLimit - Deception */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41454,  5158,      2) ;
+VALUES (41454,  5158,      2)  /* DeceptionArcane2 */;

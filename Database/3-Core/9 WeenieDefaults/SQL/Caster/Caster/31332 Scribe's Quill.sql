@@ -41,5 +41,5 @@ VALUES (31332,   1,   33559614) /* Setup */
      , (31332,  37,         18) /* ItemSkillLimit - ItemTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31332,  2251,      2) 
-     , (31332,  2517,      2) ;
+VALUES (31332,  2251,      2)  /* ItemExpertiseSelf7 */
+     , (31332,  2517,      2)  /* CANTRIPITEMEXPERTISE2 */;

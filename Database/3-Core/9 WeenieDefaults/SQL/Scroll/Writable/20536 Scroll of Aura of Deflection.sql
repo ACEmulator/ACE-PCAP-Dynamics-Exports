@@ -33,4 +33,4 @@ VALUES (20536, 8040, 23855548, 49.8685, -34.40501, 0.0855, 0.7071068, 0, 0, -0.7
 /* @teleloc 0x016C01BC [49.868500 -34.405010 0.085500] 0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20536,  2243,      2) ;
+VALUES (20536,  2243,      2)  /* ImpregnabilitySelf7 */;

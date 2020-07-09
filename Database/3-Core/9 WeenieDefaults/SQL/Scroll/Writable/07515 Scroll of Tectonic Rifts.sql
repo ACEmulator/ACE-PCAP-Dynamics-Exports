@@ -29,4 +29,4 @@ VALUES (7515,   1,   33554826) /* Setup */
      , (7515,  28,       1789) /* Spell - ShockwaveRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7515,  1789,      2) ;
+VALUES (7515,  1789,      2)  /* ShockwaveRing */;

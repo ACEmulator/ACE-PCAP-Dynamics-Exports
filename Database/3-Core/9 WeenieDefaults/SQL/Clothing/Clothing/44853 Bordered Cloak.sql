@@ -60,4 +60,4 @@ VALUES (44853, 8040, 722599940, 21.72458, 75.99595, 65.86549, -0.9964268, 0, 0, 
 /* @teleloc 0x2B120004 [21.724580 75.995950 65.865490] -0.996427 0.000000 0.000000 -0.084461 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44853,  1787,      2) ;
+VALUES (44853,  1787,      2)  /* FrostRing */;

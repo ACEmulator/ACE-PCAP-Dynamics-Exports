@@ -41,4 +41,4 @@ VALUES (32270,   1,   33559128) /* Setup */
      , (32270,  52,  100687547) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32270,  3864,      2) ;
+VALUES (32270,  3864,      2)  /* ZongoFist */;

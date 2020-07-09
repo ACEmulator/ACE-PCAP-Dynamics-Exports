@@ -32,4 +32,4 @@ VALUES (27261,   1,   33556854) /* Setup */
      , (27261,  28,       3209) /* Spell - GolemHunterStaminaLow */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27261,  3209,      2) ;
+VALUES (27261,  3209,      2)  /* GolemHunterStaminaLow */;

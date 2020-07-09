@@ -61,10 +61,10 @@ VALUES (51965, 8040, 1498677543, 20, -17.7309, -41.9901, 1, 0, 0, 0) /* PCAPReco
 /* @teleloc 0x59540127 [20.000000 -17.730900 -41.990100] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51965,  3963,      2) 
-     , (51965,  4019,      2) 
-     , (51965,  4395,      2) 
-     , (51965,  4400,      2) 
-     , (51965,  4405,      2) 
-     , (51965,  4417,      2) 
-     , (51965,  6047,      2) ;
+VALUES (51965,  3963,      2)  /* CANTRIPCOORDINATION3 */
+     , (51965,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (51965,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (51965,  4400,      2)  /* DefenderSelf8 */
+     , (51965,  4405,      2)  /* HeartSeekerSelf8 */
+     , (51965,  4417,      2)  /* SwiftKillerSelf8 */
+     , (51965,  6047,      2)  /* CantripDaggerAptitude4 */;

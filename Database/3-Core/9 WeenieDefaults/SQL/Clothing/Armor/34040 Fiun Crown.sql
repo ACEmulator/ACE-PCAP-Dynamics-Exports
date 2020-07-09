@@ -50,10 +50,10 @@ VALUES (34040,   1,   33560125) /* Setup */
      , (34040,  37,         31) /* ItemSkillLimit - CreatureEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34040,  2108,      2) 
-     , (34040,  2215,      2) 
-     , (34040,  2281,      2) 
-     , (34040,  2542,      2) 
-     , (34040,  2592,      2) 
-     , (34040,  2661,      2) 
-     , (34040,  2664,      2) ;
+VALUES (34040,  2108,      2)  /* Impenetrability7 */
+     , (34040,  2215,      2)  /* CreatureEnchantmentMasterySelf7 */
+     , (34040,  2281,      2)  /* MagicResistanceSelf7 */
+     , (34040,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (34040,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */
+     , (34040,  2661,      2)  /* ModerateFocus */
+     , (34040,  2664,      2)  /* ModerateWillpower */;

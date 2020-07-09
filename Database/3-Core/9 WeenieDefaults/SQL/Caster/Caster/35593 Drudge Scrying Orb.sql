@@ -53,10 +53,10 @@ VALUES (35593, 8040, 1436549390, 35.50501, 83.371, 39.93, -0.7020841, -0.7020841
 /* @teleloc 0x55A0010E [35.505010 83.371000 39.930000] -0.702084 -0.702084 -0.084130 -0.084130 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35593,  2076,      2) 
-     , (35593,  2101,      2) 
-     , (35593,  2242,      2) 
-     , (35593,  2244,      2) 
-     , (35593,  2507,      2) 
-     , (35593,  2577,      2) 
-     , (35593,  2581,      2) ;
+VALUES (35593,  2076,      2)  /* ManaBoostOther7 */
+     , (35593,  2101,      2)  /* DefenderSelf7 */
+     , (35593,  2242,      2)  /* ImpregnabilityOther7 */
+     , (35593,  2244,      2)  /* InvulnerabilityOther7 */
+     , (35593,  2507,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE2 */
+     , (35593,  2577,      2)  /* CANTRIPWILLPOWER2 */
+     , (35593,  2581,      2)  /* CANTRIPFOCUS1 */;

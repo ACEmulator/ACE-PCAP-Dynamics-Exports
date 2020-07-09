@@ -59,8 +59,8 @@ VALUES (3776,   1,   33555736) /* Setup */
      , (3776,  52,  100676441) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3776,  2096,      2) 
-     , (3776,  2101,      2) 
-     , (3776,  2106,      2) 
-     , (3776,  2514,      2) 
-     , (3776,  3963,      2) ;
+VALUES (3776,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (3776,  2101,      2)  /* DefenderSelf7 */
+     , (3776,  2106,      2)  /* HeartSeekerSelf7 */
+     , (3776,  2514,      2)  /* CANTRIPIMPREGNABILITY2 */
+     , (3776,  3963,      2)  /* CANTRIPCOORDINATION3 */;

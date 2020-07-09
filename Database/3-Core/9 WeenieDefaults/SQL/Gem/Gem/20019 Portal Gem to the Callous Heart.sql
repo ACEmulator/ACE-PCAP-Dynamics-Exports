@@ -43,4 +43,4 @@ VALUES (20019,   1,   33556769) /* Setup */
      , (20019,  28,       2671) /* Spell - PortalSendingLabyrinthRewards */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20019,  2671,      2) ;
+VALUES (20019,  2671,      2)  /* PortalSendingLabyrinthRewards */;

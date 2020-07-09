@@ -34,4 +34,4 @@ VALUES (25544,   1,   33554603) /* Setup */
      , (25544,  28,       2980) /* Spell - EndlessVigor */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25544,  2980,      2) ;
+VALUES (25544,  2980,      2)  /* EndlessVigor */;

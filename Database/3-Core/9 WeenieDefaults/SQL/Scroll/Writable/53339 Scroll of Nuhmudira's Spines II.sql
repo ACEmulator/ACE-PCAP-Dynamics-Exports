@@ -29,4 +29,4 @@ VALUES (53339,   1,   33554826) /* Setup */
      , (53339,  28,       6192) /* Spell - NuhmudirasSpinesII */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53339,  6192,      2) ;
+VALUES (53339,  6192,      2)  /* NuhmudirasSpinesII */;

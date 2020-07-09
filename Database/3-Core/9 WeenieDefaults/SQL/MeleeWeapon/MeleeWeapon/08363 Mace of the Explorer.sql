@@ -56,5 +56,5 @@ VALUES (8363, 8040, 18809126, 30.025, -60, 5.9295, 0.7071068, 0.7071068, 0, 0) /
 /* @teleloc 0x011F0126 [30.025000 -60.000000 5.929500] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8363,  1589,      2) 
-     , (8363,  1613,      2) ;
+VALUES (8363,  1589,      2)  /* HeartSeekerSelf3 */
+     , (8363,  1613,      2)  /* BloodDrinkerSelf3 */;

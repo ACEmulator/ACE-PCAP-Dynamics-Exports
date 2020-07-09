@@ -60,7 +60,7 @@ VALUES (45403,   1,   33555778) /* Setup */
      , (45403,  52,  100676436) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45403,  1614,      2) ;
+VALUES (45403,  1614,      2)  /* BloodDrinkerSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45403, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

@@ -29,4 +29,4 @@ VALUES (20421,   1,   33554826) /* Setup */
      , (20421,  28,       2111) /* Spell - LightningLure7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20421,  2111,      2) ;
+VALUES (20421,  2111,      2)  /* LightningLure7 */;

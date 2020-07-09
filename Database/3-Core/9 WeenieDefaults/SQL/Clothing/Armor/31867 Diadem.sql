@@ -57,10 +57,10 @@ VALUES (31867,   1,   33559737) /* Setup */
      , (31867,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31867,  2108,      2) 
-     , (31867,  2185,      2) 
-     , (31867,  2571,      2) 
-     , (31867,  4704,      2) ;
+VALUES (31867,  2108,      2)  /* Impenetrability7 */
+     , (31867,  2185,      2)  /* RegenerationSelf7 */
+     , (31867,  2571,      2)  /* CANTRIPARMOR2 */
+     , (31867,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31867, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */

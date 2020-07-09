@@ -44,6 +44,6 @@ VALUES (2017,   1,   33554854) /* Setup */
      , (2017,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2017,  1357,      2) 
-     , (2017,  1483,      2) 
-     , (2017,  1495,      2) ;
+VALUES (2017,  1357,      2)  /* EnduranceOther3 */
+     , (2017,  1483,      2)  /* Impenetrability3 */
+     , (2017,  1495,      2)  /* AcidBane3 */;

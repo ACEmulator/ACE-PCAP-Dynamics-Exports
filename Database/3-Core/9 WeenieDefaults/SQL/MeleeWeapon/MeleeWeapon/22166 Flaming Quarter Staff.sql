@@ -60,8 +60,8 @@ VALUES (22166,   1,   33558066) /* Setup */
      , (22166,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22166,  1615,      2) 
-     , (22166,  2583,      2) ;
+VALUES (22166,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (22166,  2583,      2)  /* CANTRIPSTRENGTH1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

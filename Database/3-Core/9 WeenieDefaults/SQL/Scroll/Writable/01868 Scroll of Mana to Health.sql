@@ -29,4 +29,4 @@ VALUES (1868,   1,   33554826) /* Setup */
      , (1868,  28,       1290) /* Spell - ManaToHealthSelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1868,  1290,      2) ;
+VALUES (1868,  1290,      2)  /* ManaToHealthSelf1 */;

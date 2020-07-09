@@ -49,8 +49,8 @@ VALUES (40141, 8040, 3465871405, 142.8229, 96.5643, 19.929, -0.5089742, -0.50897
 /* @teleloc 0xCE95002D [142.822900 96.564300 19.929000] -0.508974 -0.508974 -0.490862 -0.490862 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40141,  2014,      2) 
-     , (40141,  4315,      2) 
-     , (40141,  4493,      2) 
-     , (40141,  4601,      2) 
-     , (40141,  4705,      2) ;
+VALUES (40141,  2014,      2)  /* WizardsUltimateIntellect */
+     , (40141,  4315,      2)  /* ManaBoostSelf8 */
+     , (40141,  4493,      2)  /* ManaRenewalOther8 */
+     , (40141,  4601,      2)  /* ManaMasteryOther8 */
+     , (40141,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

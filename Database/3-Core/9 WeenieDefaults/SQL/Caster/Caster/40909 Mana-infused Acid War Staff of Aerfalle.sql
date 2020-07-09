@@ -57,10 +57,10 @@ VALUES (40909, 8040, 23855548, 48.278, -30.95664, -0.071, 0.4437789, 0.4437789, 
 /* @teleloc 0x016C01BC [48.278000 -30.956640 -0.071000] 0.443779 0.443779 -0.550509 -0.550509 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40909,  2262,      2) 
-     , (40909,  2266,      2) 
-     , (40909,  2519,      2) 
-     , (40909,  2520,      2) 
-     , (40909,  4434,      2) 
-     , (40909,  4637,      2) 
-     , (40909,  4715,      2) ;
+VALUES (40909,  2262,      2)  /* LeadershipMasteryOther7 */
+     , (40909,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (40909,  2519,      2)  /* CANTRIPLEADERSHIP2 */
+     , (40909,  2520,      2)  /* CANTRIPLIFEMAGICAPTITUDE2 */
+     , (40909,  4434,      2)  /* AcidVolley8 */
+     , (40909,  4637,      2)  /* WarMagicMasteryOther8 */
+     , (40909,  4715,      2)  /* CANTRIPWARMAGICAPTITUDE3 */;

@@ -29,4 +29,4 @@ VALUES (2994,   1,   33554826) /* Setup */
      , (2994,  28,       1111) /* Spell - BladeProtectionSelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2994,  1111,      2) ;
+VALUES (2994,  1111,      2)  /* BladeProtectionSelf3 */;

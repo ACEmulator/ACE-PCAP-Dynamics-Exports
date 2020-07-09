@@ -33,4 +33,4 @@ VALUES (2849, 8040, 1994981721, 116.5429, 221.0741, 88.88551, -0.5710939, 0, 0, 
 /* @teleloc 0x76E90159 [116.542900 221.074100 88.885510] -0.571094 0.000000 0.000000 -0.820885 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2849,  1631,      2) ;
+VALUES (2849,  1631,      2)  /* LeadenWeapon4 */;

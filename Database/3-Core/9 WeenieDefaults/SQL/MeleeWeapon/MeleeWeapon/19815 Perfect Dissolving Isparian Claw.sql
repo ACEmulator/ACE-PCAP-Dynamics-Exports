@@ -53,6 +53,6 @@ VALUES (19815,   1,   33556359) /* Setup */
      , (19815,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (19815,   520,      2) 
-     , (19815,  1353,      2) 
-     , (19815,  2694,      2) ;
+VALUES (19815,   520,      2)  /* AcidProtectionSelf6 */
+     , (19815,  1353,      2)  /* EnduranceSelf5 */
+     , (19815,  2694,      2)  /* ModerateSwordAptitude */;

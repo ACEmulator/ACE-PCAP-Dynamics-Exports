@@ -29,4 +29,4 @@ VALUES (21111,   1,   33554826) /* Setup */
      , (21111,  28,       2769) /* Spell - StaminaBolt3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21111,  2769,      2) ;
+VALUES (21111,  2769,      2)  /* StaminaBolt3 */;

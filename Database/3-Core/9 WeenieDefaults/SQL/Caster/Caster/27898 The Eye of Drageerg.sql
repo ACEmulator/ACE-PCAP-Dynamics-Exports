@@ -45,7 +45,7 @@ VALUES (27898, 8040, 459077, 70.025, -80, -0.071, 0.7071068, 0.7071068, 0, 0) /*
 /* @teleloc 0x00070145 [70.025000 -80.000000 -0.071000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27898,   208,      2) 
-     , (27898,   565,      2) 
-     , (27898,  1050,      2) 
-     , (27898,  1477,      2) ;
+VALUES (27898,   208,      2)  /* ManaRenewalOther3 */
+     , (27898,   565,      2)  /* CreatureEnchantmentMasteryOther3 */
+     , (27898,  1050,      2)  /* BludgeonVulnerabilityOther3 */
+     , (27898,  1477,      2)  /* HermeticLinkSelf3 */;

@@ -29,4 +29,4 @@ VALUES (20460,   1,   33554826) /* Setup */
      , (20460,  28,       2144) /* Spell - ShockWave7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20460,  2144,      2) ;
+VALUES (20460,  2144,      2)  /* ShockWave7 */;

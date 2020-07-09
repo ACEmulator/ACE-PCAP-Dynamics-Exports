@@ -29,4 +29,4 @@ VALUES (28942,   1,   33554826) /* Setup */
      , (28942,  28,       3508) /* Spell - ArcanumSalvagingOther3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28942,  3508,      2) ;
+VALUES (28942,  3508,      2)  /* ArcanumSalvagingOther3 */;

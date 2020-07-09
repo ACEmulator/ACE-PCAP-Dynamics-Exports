@@ -29,4 +29,4 @@ VALUES (3193,   1,   33554826) /* Setup */
      , (3193,  28,        564) /* Spell - CreatureEnchantmentMasteryOther2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3193,   564,      2) ;
+VALUES (3193,   564,      2)  /* CreatureEnchantmentMasteryOther2 */;

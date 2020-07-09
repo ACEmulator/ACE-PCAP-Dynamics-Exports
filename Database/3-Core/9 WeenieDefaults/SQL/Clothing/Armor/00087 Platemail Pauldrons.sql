@@ -56,5 +56,5 @@ VALUES (87, 8040, 3060727837, 93.86344, 103.1067, 42.77241, 0.3562889, 0, 0, -0.
 /* @teleloc 0xB66F001D [93.863440 103.106700 42.772410] 0.356289 0.000000 0.000000 -0.934376 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (87,  1485,      2) 
-     , (87,  1498,      2) ;
+VALUES (87,  1485,      2)  /* Impenetrability5 */
+     , (87,  1498,      2)  /* AcidBane6 */;

@@ -29,4 +29,4 @@ VALUES (7509,   1,   33554826) /* Setup */
      , (7509,  28,       1783) /* Spell - AcidRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7509,  1783,      2) ;
+VALUES (7509,  1783,      2)  /* AcidRing */;

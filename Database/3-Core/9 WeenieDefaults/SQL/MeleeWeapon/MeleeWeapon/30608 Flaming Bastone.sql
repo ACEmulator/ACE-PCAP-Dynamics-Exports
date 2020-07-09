@@ -60,6 +60,6 @@ VALUES (30608,   1,   33559494) /* Setup */
      , (30608,  52,  100676440) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30608,  1377,      2) 
-     , (30608,  1616,      2) 
-     , (30608,  1626,      2) ;
+VALUES (30608,  1377,      2)  /* CoordinationSelf5 */
+     , (30608,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30608,  1626,      2)  /* SwiftKillerSelf5 */;

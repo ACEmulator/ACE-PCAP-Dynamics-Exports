@@ -36,4 +36,4 @@ VALUES (27257, 8040, 18809102, 29.11812, -26.95784, -0.002499998, 0.9808215, 0, 
 /* @teleloc 0x011F010E [29.118120 -26.957840 -0.002500] 0.980822 0.000000 0.000000 -0.194908 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27257,  3206,      2) ;
+VALUES (27257,  3206,      2)  /* GolemHunterManaHigh */;

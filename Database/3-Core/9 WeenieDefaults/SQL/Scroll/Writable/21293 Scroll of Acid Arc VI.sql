@@ -29,4 +29,4 @@ VALUES (21293,   1,   33554826) /* Setup */
      , (21293,  28,       2716) /* Spell - AcidArc6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21293,  2716,      2) ;
+VALUES (21293,  2716,      2)  /* AcidArc6 */;

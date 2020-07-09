@@ -45,4 +45,4 @@ VALUES (9031,   1,   33554854) /* Setup */
      , (9031,  37,         39) /* ItemSkillLimit - Cooking */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9031,  1713,      2) ;
+VALUES (9031,  1713,      2)  /* CookingMasteryOther5 */;

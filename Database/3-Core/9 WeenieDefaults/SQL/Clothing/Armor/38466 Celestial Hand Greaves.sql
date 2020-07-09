@@ -61,6 +61,6 @@ VALUES (38466,   1,   33554641) /* Setup */
      , (38466,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38466,  2092,      2) 
-     , (38466,  2108,      2) 
-     , (38466,  2574,      2) ;
+VALUES (38466,  2092,      2)  /* AcidBane7 */
+     , (38466,  2108,      2)  /* Impenetrability7 */
+     , (38466,  2574,      2)  /* CANTRIPFOCUS2 */;

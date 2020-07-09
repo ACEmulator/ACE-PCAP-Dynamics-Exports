@@ -31,4 +31,4 @@ VALUES (32492,   1,   33554826) /* Setup */
      , (32492,  28,       3865) /* Spell - GlendenWoodRecall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32492,  3865,      2) ;
+VALUES (32492,  3865,      2)  /* GlendenWoodRecall */;

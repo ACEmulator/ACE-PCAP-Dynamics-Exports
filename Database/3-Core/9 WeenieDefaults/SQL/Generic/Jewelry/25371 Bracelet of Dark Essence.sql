@@ -41,6 +41,6 @@ VALUES (25371,   1,   33554683) /* Setup */
      , (25371,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25371,  1450,      2) 
-     , (25371,  2623,      2) 
-     , (25371,  2625,      2) ;
+VALUES (25371,  1450,      2)  /* WillpowerSelf6 */
+     , (25371,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
+     , (25371,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */;

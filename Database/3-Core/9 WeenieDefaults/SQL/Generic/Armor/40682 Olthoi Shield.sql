@@ -60,7 +60,7 @@ VALUES (40682,   1,   33561268) /* Setup */
      , (40682,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40682,  1486,      2) 
-     , (40682,  2518,      2) 
-     , (40682,  4391,      2) 
-     , (40682,  5858,      2) ;
+VALUES (40682,  1486,      2)  /* Impenetrability6 */
+     , (40682,  2518,      2)  /* CANTRIPJUMPINGPROWESS2 */
+     , (40682,  4391,      2)  /* AcidBane8 */
+     , (40682,  5858,      2)  /* ShieldMasterySelf8 */;

@@ -29,4 +29,4 @@ VALUES (3324,   1,   33554826) /* Setup */
      , (3324,  28,        728) /* Spell - ItemExpertiseSelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3324,   728,      2) ;
+VALUES (3324,   728,      2)  /* ItemExpertiseSelf3 */;

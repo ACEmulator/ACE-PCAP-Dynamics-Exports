@@ -55,4 +55,4 @@ VALUES (168,   1,   33554664) /* Setup */
      , (168,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (168,   731,      2) ;
+VALUES (168,   731,      2)  /* ItemExpertiseSelf6 */;

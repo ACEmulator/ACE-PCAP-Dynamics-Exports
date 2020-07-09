@@ -57,10 +57,10 @@ VALUES (43829,   1,   33555048) /* Setup */
      , (43829,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43829,  2104,      2) 
-     , (43829,  2108,      2) 
-     , (43829,  2325,      2) 
-     , (43829,  6125,      2) ;
+VALUES (43829,  2104,      2)  /* FrostBane7 */
+     , (43829,  2108,      2)  /* Impenetrability7 */
+     , (43829,  2325,      2)  /* WeaponExpertiseSelf7 */
+     , (43829,  6125,      2)  /* CantripSummoningProwess4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43829, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

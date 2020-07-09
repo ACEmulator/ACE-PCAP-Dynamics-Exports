@@ -62,7 +62,7 @@ VALUES (27821, 8040, 3599958021, 18.409, 113.648, -0.17, 1, 0, 0, 0) /* PCAPReco
 /* @teleloc 0xD6930005 [18.409000 113.648000 -0.170000] 1.000000 0.000000 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27821,  1384,      2) 
-     , (27821,  1605,      2) 
-     , (27821,  1616,      2) 
-     , (27821,  2579,      2) ;
+VALUES (27821,  1384,      2)  /* CoordinationOther6 */
+     , (27821,  1605,      2)  /* DefenderSelf6 */
+     , (27821,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (27821,  2579,      2)  /* CANTRIPCOORDINATION1 */;

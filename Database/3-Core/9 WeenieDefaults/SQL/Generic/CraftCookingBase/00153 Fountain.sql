@@ -32,4 +32,4 @@ VALUES (153, 8040, 4116250881, 184.245, 86.2221, 19.9925, -0.9999319, 0, 0, -0.0
 /* @teleloc 0xF5590101 [184.245000 86.222100 19.992500] -0.999932 0.000000 0.000000 -0.011672 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (153,  1183,      2) ;
+VALUES (153,  1183,      2)  /* RevitalizeOther1 */;

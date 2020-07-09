@@ -57,4 +57,4 @@ VALUES (44850,   1,   33561386) /* Setup */
      , (44850,  55,       5755) /* ProcSpell - CloakMeleeDLower */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44850,  5755,      2) ;
+VALUES (44850,  5755,      2)  /* CloakMeleeDLower */;

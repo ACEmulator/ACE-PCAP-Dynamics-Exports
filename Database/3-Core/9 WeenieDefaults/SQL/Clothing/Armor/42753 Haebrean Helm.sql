@@ -60,6 +60,6 @@ VALUES (42753, 8040, 23855549, 54.38182, -41.19116, 0.03029341, 0.5795639, 0, 0,
 /* @teleloc 0x016C01BD [54.381820 -41.191160 0.030293] 0.579564 0.000000 0.000000 0.814927 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42753,   779,      2) 
-     , (42753,  1486,      2) 
-     , (42753,  4686,      2) ;
+VALUES (42753,   779,      2)  /* WeaponExpertiseSelf6 */
+     , (42753,  1486,      2)  /* Impenetrability6 */
+     , (42753,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;

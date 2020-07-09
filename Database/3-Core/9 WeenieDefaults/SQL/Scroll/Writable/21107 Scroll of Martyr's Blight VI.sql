@@ -29,4 +29,4 @@ VALUES (21107,   1,   33554826) /* Setup */
      , (21107,  28,       2779) /* Spell - ManaBolt6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21107,  2779,      2) ;
+VALUES (21107,  2779,      2)  /* ManaBolt6 */;

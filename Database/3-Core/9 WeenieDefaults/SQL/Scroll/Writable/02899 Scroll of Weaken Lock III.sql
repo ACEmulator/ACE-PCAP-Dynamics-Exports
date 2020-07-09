@@ -29,4 +29,4 @@ VALUES (2899,   1,   33554826) /* Setup */
      , (2899,  28,       1583) /* Spell - WeakenLock3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2899,  1583,      2) ;
+VALUES (2899,  1583,      2)  /* WeakenLock3 */;

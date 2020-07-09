@@ -29,4 +29,4 @@ VALUES (43281,   1,   33554826) /* Setup */
      , (43281,  28,       5390) /* Spell - Corrosion4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43281,  5390,      2) ;
+VALUES (43281,  5390,      2)  /* Corrosion4 */;

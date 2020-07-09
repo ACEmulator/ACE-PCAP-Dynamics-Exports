@@ -51,7 +51,7 @@ VALUES (2587,   1,   33554644) /* Setup */
      , (2587,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2587,  1136,      2) ;
+VALUES (2587,  1136,      2)  /* PiercingProtectionSelf4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2587, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

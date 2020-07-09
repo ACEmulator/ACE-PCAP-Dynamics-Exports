@@ -33,4 +33,4 @@ VALUES (2824, 8040, 3562209536, 97.95894, 48.5843, 34.8855, -0.931491, 0, 0, -0.
 /* @teleloc 0xD4530100 [97.958940 48.584300 34.885500] -0.931491 0.000000 0.000000 -0.363764 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2824,  1526,      2) ;
+VALUES (2824,  1526,      2)  /* FrostBane4 */;

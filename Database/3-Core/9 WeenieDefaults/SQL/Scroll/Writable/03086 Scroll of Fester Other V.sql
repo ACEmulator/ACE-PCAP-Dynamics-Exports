@@ -29,4 +29,4 @@ VALUES (3086,   1,   33554826) /* Setup */
      , (3086,  28,        175) /* Spell - FesterOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3086,   175,      2) ;
+VALUES (3086,   175,      2)  /* FesterOther5 */;

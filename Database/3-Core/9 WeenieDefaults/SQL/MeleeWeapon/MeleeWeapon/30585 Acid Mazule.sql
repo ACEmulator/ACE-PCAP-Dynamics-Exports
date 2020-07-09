@@ -59,8 +59,8 @@ VALUES (30585,   1,   33559472) /* Setup */
      , (30585,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30585,  1378,      2) 
-     , (30585,  1616,      2) 
-     , (30585,  2537,      2) 
-     , (30585,  2562,      2) 
-     , (30585,  6127,      2) ;
+VALUES (30585,  1378,      2)  /* CoordinationSelf6 */
+     , (30585,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30585,  2537,      2)  /* CANTRIPARCANEPROWESS1 */
+     , (30585,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */
+     , (30585,  6127,      2)  /* CantripSummoningProwess1 */;

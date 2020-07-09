@@ -60,9 +60,9 @@ VALUES (38469,   1,   33554656) /* Setup */
      , (38469,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38469,  1332,      2) 
-     , (38469,  1552,      2) 
-     , (38469,  2108,      2) 
-     , (38469,  2110,      2) 
-     , (38469,  2604,      2) 
-     , (38469,  4226,      2) ;
+VALUES (38469,  1332,      2)  /* StrengthSelf6 */
+     , (38469,  1552,      2)  /* FlameBane6 */
+     , (38469,  2108,      2)  /* Impenetrability7 */
+     , (38469,  2110,      2)  /* LightningBane7 */
+     , (38469,  2604,      2)  /* CANTRIPIMPENETRABILITY1 */
+     , (38469,  4226,      2)  /* CANTRIPENDURANCE3 */;

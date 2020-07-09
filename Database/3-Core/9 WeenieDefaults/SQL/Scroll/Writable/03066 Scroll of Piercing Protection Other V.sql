@@ -29,4 +29,4 @@ VALUES (3066,   1,   33554826) /* Setup */
      , (3066,  28,       1143) /* Spell - PiercingProtectionOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3066,  1143,      2) ;
+VALUES (3066,  1143,      2)  /* PiercingProtectionOther5 */;

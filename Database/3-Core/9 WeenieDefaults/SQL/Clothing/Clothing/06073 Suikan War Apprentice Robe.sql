@@ -51,5 +51,5 @@ VALUES (6073, 8040, 23855555, 56.17042, -35.47908, -0.002499998, -0.2467473, 0, 
 /* @teleloc 0x016C01C3 [56.170420 -35.479080 -0.002500] -0.246747 0.000000 0.000000 0.969080 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6073,   635,      2) 
-     , (6073,  1451,      2) ;
+VALUES (6073,   635,      2)  /* WarMagicMasteryOther1 */
+     , (6073,  1451,      2)  /* WillpowerOther1 */;

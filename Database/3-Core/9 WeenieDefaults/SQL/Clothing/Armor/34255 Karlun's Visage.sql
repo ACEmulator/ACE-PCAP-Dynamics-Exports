@@ -45,11 +45,11 @@ VALUES (34255,   1,   33560128) /* Setup */
      , (34255,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34255,  2053,      2) 
-     , (34255,  2108,      2) 
-     , (34255,  2197,      2) 
-     , (34255,  2233,      2) 
-     , (34255,  2245,      2) 
-     , (34255,  2511,      2) 
-     , (34255,  2538,      2) 
-     , (34255,  2938,      2) ;
+VALUES (34255,  2053,      2)  /* ArmorSelf7 */
+     , (34255,  2108,      2)  /* Impenetrability7 */
+     , (34255,  2197,      2)  /* ArmorExpertiseSelf7 */
+     , (34255,  2233,      2)  /* FealtySelf7 */
+     , (34255,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (34255,  2511,      2)  /* CANTRIPFEALTY2 */
+     , (34255,  2538,      2)  /* CANTRIPARMOREXPERTISE1 */
+     , (34255,  2938,      2)  /* ModerateInvulnerability */;

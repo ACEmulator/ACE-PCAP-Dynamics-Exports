@@ -31,4 +31,4 @@ VALUES (43143,   1,   33554826) /* Setup */
      , (43143,  28,       5330) /* Spell - RecallGearKnightInvasionHigh */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43143,  5330,      2) ;
+VALUES (43143,  5330,      2)  /* RecallGearKnightInvasionHigh */;

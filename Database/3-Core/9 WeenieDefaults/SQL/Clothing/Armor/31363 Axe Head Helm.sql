@@ -48,7 +48,7 @@ VALUES (31363, 8040, 3583574079, 179.7953, 161.3209, 374.06, 0.8217164, 0, 0, -0
 /* @teleloc 0xD599003F [179.795300 161.320900 374.060000] 0.821716 0.000000 0.000000 -0.569897 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31363,   246,      2) 
-     , (31363,  1310,      2) 
-     , (31363,  1483,      2) 
-     , (31363,  1561,      2) ;
+VALUES (31363,   246,      2)  /* InvulnerabilitySelf3 */
+     , (31363,  1310,      2)  /* ArmorSelf4 */
+     , (31363,  1483,      2)  /* Impenetrability3 */
+     , (31363,  1561,      2)  /* BladeBane5 */;

@@ -29,4 +29,4 @@ VALUES (7513,   1,   33554826) /* Setup */
      , (7513,  28,       1787) /* Spell - FrostRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7513,  1787,      2) ;
+VALUES (7513,  1787,      2)  /* FrostRing */;

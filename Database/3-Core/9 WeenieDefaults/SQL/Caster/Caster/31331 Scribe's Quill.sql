@@ -39,5 +39,5 @@ VALUES (31331,   1,   33559612) /* Setup */
      , (31331,  37,         28) /* ItemSkillLimit - WeaponTinkering */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31331,  2325,      2) 
-     , (31331,  2535,      2) ;
+VALUES (31331,  2325,      2)  /* WeaponExpertiseSelf7 */
+     , (31331,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */;

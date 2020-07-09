@@ -31,4 +31,4 @@ VALUES (22078,   1,   33554826) /* Setup */
      , (22078,  28,       2813) /* Spell - RecallLethe */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22078,  2813,      2) ;
+VALUES (22078,  2813,      2)  /* RecallLethe */;

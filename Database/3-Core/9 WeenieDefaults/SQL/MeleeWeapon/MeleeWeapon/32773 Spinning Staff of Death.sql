@@ -53,6 +53,6 @@ VALUES (32773,   1,   33559847) /* Setup */
      , (32773,  55,       1784) /* ProcSpell - BladeRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32773,  1784,      2) 
-     , (32773,  2096,      2) 
-     , (32773,  2106,      2) ;
+VALUES (32773,  1784,      2)  /* BladeRing */
+     , (32773,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (32773,  2106,      2)  /* HeartSeekerSelf7 */;

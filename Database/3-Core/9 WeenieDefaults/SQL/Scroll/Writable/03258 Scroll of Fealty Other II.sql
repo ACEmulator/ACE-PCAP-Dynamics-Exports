@@ -29,4 +29,4 @@ VALUES (3258,   1,   33554826) /* Setup */
      , (3258,  28,        953) /* Spell - FealtyOther2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3258,   953,      2) ;
+VALUES (3258,   953,      2)  /* FealtyOther2 */;

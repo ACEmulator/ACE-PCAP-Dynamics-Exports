@@ -29,4 +29,4 @@ VALUES (3106,   1,   33554826) /* Setup */
      , (3106,  28,        216) /* Spell - ManaRenewalSelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3106,   216,      2) ;
+VALUES (3106,   216,      2)  /* ManaRenewalSelf5 */;

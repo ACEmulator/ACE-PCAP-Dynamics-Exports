@@ -60,8 +60,8 @@ VALUES (31765,   1,   33559673) /* Setup */
      , (31765,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31765,  2096,      2) 
-     , (31765,  2521,      2) ;
+VALUES (31765,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (31765,  2521,      2)  /* CANTRIPLOCKPICKPROWESS2 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31765, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

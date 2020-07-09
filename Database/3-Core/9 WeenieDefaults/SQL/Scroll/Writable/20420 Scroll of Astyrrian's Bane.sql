@@ -29,4 +29,4 @@ VALUES (20420,   1,   33554826) /* Setup */
      , (20420,  28,       2110) /* Spell - LightningBane7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20420,  2110,      2) ;
+VALUES (20420,  2110,      2)  /* LightningBane7 */;

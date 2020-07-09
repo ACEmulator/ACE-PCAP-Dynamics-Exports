@@ -29,4 +29,4 @@ VALUES (46880,   1,   33554826) /* Setup */
      , (46880,  28,       6005) /* Spell - DefenderOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46880,  6005,      2) ;
+VALUES (46880,  6005,      2)  /* DefenderOther7 */;

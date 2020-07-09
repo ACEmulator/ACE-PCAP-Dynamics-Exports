@@ -40,4 +40,4 @@ VALUES (40575,   1,   33554809) /* Setup */
      , (40575,  28,       4992) /* Spell - PortalSendingAssassinsRoost4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40575,  4992,      2) ;
+VALUES (40575,  4992,      2)  /* PortalSendingAssassinsRoost4 */;

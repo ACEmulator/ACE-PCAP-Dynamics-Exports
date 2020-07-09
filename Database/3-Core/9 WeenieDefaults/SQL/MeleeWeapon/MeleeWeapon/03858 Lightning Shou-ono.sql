@@ -62,4 +62,4 @@ VALUES (3858, 8040, 2847146009, 82.28334, 14.11597, 93.92901, 0.5836561, 0.58365
 /* @teleloc 0xA9B40019 [82.283340 14.115970 93.929010] 0.583656 0.583656 -0.399181 -0.399181 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3858,  1615,      2) ;
+VALUES (3858,  1615,      2)  /* BloodDrinkerSelf5 */;

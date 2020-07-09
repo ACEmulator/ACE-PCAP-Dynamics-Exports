@@ -43,4 +43,4 @@ VALUES (8980, 8040, 23855554, 58.4871, -29.2269, -0.001000002, -0.7282059, 0, 0,
 /* @teleloc 0x016C01C2 [58.487100 -29.226900 -0.001000] -0.728206 0.000000 0.000000 -0.685359 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8980,   157,      2) ;
+VALUES (8980,   157,      2)  /* SummonPortal1 */;

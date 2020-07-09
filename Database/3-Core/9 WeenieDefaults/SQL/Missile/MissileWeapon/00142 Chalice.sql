@@ -55,7 +55,7 @@ VALUES (142,   1,   33554661) /* Setup */
      , (142,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (142,  1332,      2) ;
+VALUES (142,  1332,      2)  /* StrengthSelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (142, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

@@ -48,5 +48,5 @@ VALUES (6065,   1,   33554854) /* Setup */
      , (6065,  37,         32) /* ItemSkillLimit - ItemEnchantment */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6065,   587,      2) 
-     , (6065,  1451,      2) ;
+VALUES (6065,   587,      2)  /* ItemEnchantmentMasteryOther1 */
+     , (6065,  1451,      2)  /* WillpowerOther1 */;

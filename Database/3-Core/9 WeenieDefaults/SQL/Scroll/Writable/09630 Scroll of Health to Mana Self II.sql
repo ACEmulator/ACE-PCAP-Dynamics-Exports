@@ -29,4 +29,4 @@ VALUES (9630,   1,   33554826) /* Setup */
      , (9630,  28,       1279) /* Spell - HealthToManaSelf2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9630,  1279,      2) ;
+VALUES (9630,  1279,      2)  /* HealthToManaSelf2 */;

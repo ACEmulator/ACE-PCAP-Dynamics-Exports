@@ -29,4 +29,4 @@ VALUES (7521,   1,   33554826) /* Setup */
      , (7521,  28,       1844) /* Spell - LightningWall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7521,  1844,      2) ;
+VALUES (7521,  1844,      2)  /* LightningWall */;

@@ -46,4 +46,4 @@ VALUES (45367, 8040, 23855548, 51.86151, -34.33524, -0.001000002, 0.6607946, 0, 
 /* @teleloc 0x016C01BC [51.861510 -34.335240 -0.001000] 0.660795 0.000000 0.000000 -0.750567 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45367,  5903,      2) ;
+VALUES (45367,  5903,      2)  /* DualWieldMasteryRare */;

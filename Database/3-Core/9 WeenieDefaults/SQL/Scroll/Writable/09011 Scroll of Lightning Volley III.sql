@@ -29,4 +29,4 @@ VALUES (9011,   1,   33554826) /* Setup */
      , (9011,  28,        139) /* Spell - LightningVolley3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9011,   139,      2) ;
+VALUES (9011,   139,      2)  /* LightningVolley3 */;

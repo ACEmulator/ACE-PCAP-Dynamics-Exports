@@ -48,8 +48,8 @@ VALUES (43121,   1,   33560663) /* Setup */
      , (43121,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43121,  4667,      2) 
-     , (43121,  4686,      2) 
-     , (43121,  4691,      2) 
-     , (43121,  4712,      2) 
-     , (43121,  5896,      2) ;
+VALUES (43121,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
+     , (43121,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */
+     , (43121,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */
+     , (43121,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */
+     , (43121,  5896,      2)  /* CantripShieldAptitude3 */;

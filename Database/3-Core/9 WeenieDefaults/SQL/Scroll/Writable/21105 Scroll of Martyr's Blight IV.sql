@@ -33,4 +33,4 @@ VALUES (21105, 8040, 30343621, 88.17955, -49.71852, -11.9145, -0.7071068, 0, 0, 
 /* @teleloc 0x01CF01C5 [88.179550 -49.718520 -11.914500] -0.707107 0.000000 0.000000 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21105,  2777,      2) ;
+VALUES (21105,  2777,      2)  /* ManaBolt4 */;

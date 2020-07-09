@@ -43,4 +43,4 @@ VALUES (39110,   1,   33554493) /* Setup */
      , (39110,  28,       4211) /* Spell - LicoriceLeap */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39110,  4211,      2) ;
+VALUES (39110,  4211,      2)  /* LicoriceLeap */;

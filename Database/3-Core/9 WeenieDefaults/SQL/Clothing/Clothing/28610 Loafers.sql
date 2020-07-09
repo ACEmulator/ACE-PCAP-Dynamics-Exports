@@ -55,10 +55,10 @@ VALUES (28610,   1,   33559324) /* Setup */
      , (28610,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28610,  2108,      2) 
-     , (28610,  2195,      2) 
-     , (28610,  3965,      2) 
-     , (28610,  4401,      2) ;
+VALUES (28610,  2108,      2)  /* Impenetrability7 */
+     , (28610,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (28610,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (28610,  4401,      2)  /* FlameBane8 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28610, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */

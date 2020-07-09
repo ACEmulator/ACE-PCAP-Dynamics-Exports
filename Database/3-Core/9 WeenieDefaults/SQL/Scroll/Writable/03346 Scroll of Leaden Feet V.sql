@@ -29,4 +29,4 @@ VALUES (3346,   1,   33554826) /* Setup */
      , (3346,  28,       1004) /* Spell - LeadenFeetOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3346,  1004,      2) ;
+VALUES (3346,  1004,      2)  /* LeadenFeetOther5 */;

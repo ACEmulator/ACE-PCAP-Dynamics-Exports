@@ -40,4 +40,4 @@ VALUES (34968,   1,   33558849) /* Setup */
      , (34968,  28,       4068) /* Spell - MucorManaWell */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34968,  4068,      2) ;
+VALUES (34968,  4068,      2)  /* MucorManaWell */;

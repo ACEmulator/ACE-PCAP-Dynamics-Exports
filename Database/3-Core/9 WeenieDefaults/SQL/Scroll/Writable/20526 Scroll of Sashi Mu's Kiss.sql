@@ -33,4 +33,4 @@ VALUES (20526, 8040, 1581449474, 13.70616, -28.23217, 0.0855, 0.4977438, 0, 0, -
 /* @teleloc 0x5E430102 [13.706160 -28.232170 0.085500] 0.497744 0.000000 0.000000 -0.867324 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20526,  2230,      2) ;
+VALUES (20526,  2230,      2)  /* FaithlessnessOther7 */;

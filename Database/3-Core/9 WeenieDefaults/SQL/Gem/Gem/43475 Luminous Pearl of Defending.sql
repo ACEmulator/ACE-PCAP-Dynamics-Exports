@@ -42,4 +42,4 @@ VALUES (43475,   1,   33554809) /* Setup */
      , (43475,  52,  100691593) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43475,  4400,      2) ;
+VALUES (43475,  4400,      2)  /* DefenderSelf8 */;

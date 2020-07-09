@@ -29,7 +29,7 @@ VALUES (27233,   1,   33554826) /* Setup */
      , (27233,  28,       3184) /* Spell - DispelCreatureBadOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27233,  3184,      2) ;
+VALUES (27233,  3184,      2)  /* DispelCreatureBadOther7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27233, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */;

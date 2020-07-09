@@ -29,4 +29,4 @@ VALUES (2781,   1,   33554826) /* Setup */
      , (2781,  28,       1557) /* Spell - BladeLure6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2781,  1557,      2) ;
+VALUES (2781,  1557,      2)  /* BladeLure6 */;

@@ -29,4 +29,4 @@ VALUES (2767,   1,   33554826) /* Setup */
      , (2767,  28,       1500) /* Spell - AcidLure2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2767,  1500,      2) ;
+VALUES (2767,  1500,      2)  /* AcidLure2 */;

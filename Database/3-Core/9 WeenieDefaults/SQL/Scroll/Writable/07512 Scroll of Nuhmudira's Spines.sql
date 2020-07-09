@@ -29,4 +29,4 @@ VALUES (7512,   1,   33554826) /* Setup */
      , (7512,  28,       1786) /* Spell - ForceRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7512,  1786,      2) ;
+VALUES (7512,  1786,      2)  /* ForceRing */;

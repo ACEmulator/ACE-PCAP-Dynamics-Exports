@@ -47,4 +47,4 @@ VALUES (30204, 8040, 23855548, 52.68972, -27.21729, -0.001000002, -0.9503739, 0,
 /* @teleloc 0x016C01BC [52.689720 -27.217290 -0.001000] -0.950374 0.000000 0.000000 -0.311110 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30204,  3703,      2) ;
+VALUES (30204,  3703,      2)  /* FlameBaneRare */;

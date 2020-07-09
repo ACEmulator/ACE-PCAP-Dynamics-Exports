@@ -39,4 +39,4 @@ VALUES (2398,   1,   33554809) /* Setup */
      , (2398,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2398,  1377,      2) ;
+VALUES (2398,  1377,      2)  /* CoordinationSelf5 */;

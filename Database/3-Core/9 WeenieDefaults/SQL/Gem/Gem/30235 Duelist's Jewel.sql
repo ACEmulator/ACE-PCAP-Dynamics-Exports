@@ -46,4 +46,4 @@ VALUES (30235, 8040, 23855548, 52.48635, -27.46047, -0.001000002, -0.8483406, 0,
 /* @teleloc 0x016C01BC [52.486350 -27.460470 -0.001000] -0.848341 0.000000 0.000000 -0.529451 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30235,  3687,      2) ;
+VALUES (30235,  3687,      2)  /* BladeProtectionRare */;

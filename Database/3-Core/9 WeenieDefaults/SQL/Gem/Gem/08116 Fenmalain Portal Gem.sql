@@ -40,4 +40,4 @@ VALUES (8116,   1,   33556769) /* Setup */
      , (8116,  28,       2001) /* Spell - PortalSendingFenmalain */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8116,  2001,      2) ;
+VALUES (8116,  2001,      2)  /* PortalSendingFenmalain */;

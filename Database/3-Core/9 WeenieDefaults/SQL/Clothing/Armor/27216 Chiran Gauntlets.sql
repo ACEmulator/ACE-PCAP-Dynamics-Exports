@@ -51,10 +51,10 @@ VALUES (27216,   1,   33554648) /* Setup */
      , (27216,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27216,  1486,      2) 
-     , (27216,  1498,      2) 
-     , (27216,  1528,      2) 
-     , (27216,  2579,      2) ;
+VALUES (27216,  1486,      2)  /* Impenetrability6 */
+     , (27216,  1498,      2)  /* AcidBane6 */
+     , (27216,  1528,      2)  /* FrostBane6 */
+     , (27216,  2579,      2)  /* CANTRIPCOORDINATION1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (27216, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

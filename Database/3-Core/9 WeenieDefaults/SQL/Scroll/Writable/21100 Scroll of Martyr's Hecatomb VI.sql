@@ -29,4 +29,4 @@ VALUES (21100,   1,   33554826) /* Setup */
      , (21100,  28,       2765) /* Spell - HealthBolt6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21100,  2765,      2) ;
+VALUES (21100,  2765,      2)  /* HealthBolt6 */;

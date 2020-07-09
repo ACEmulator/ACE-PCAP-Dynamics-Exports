@@ -61,10 +61,10 @@ VALUES (45421,   1,   33554735) /* Setup */
      , (45421,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45421,  1331,      2) 
-     , (45421,  1591,      2) 
-     , (45421,  1616,      2) 
-     , (45421,  1626,      2) 
-     , (45421,  2562,      2) 
-     , (45421,  2564,      2) 
-     , (45421,  2580,      2) ;
+VALUES (45421,  1331,      2)  /* StrengthSelf5 */
+     , (45421,  1591,      2)  /* HeartSeekerSelf5 */
+     , (45421,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (45421,  1626,      2)  /* SwiftKillerSelf5 */
+     , (45421,  2562,      2)  /* CANTRIPPERSONATTUNEMENT1 */
+     , (45421,  2564,      2)  /* CANTRIPSPRINT1 */
+     , (45421,  2580,      2)  /* CANTRIPENDURANCE1 */;

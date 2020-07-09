@@ -29,4 +29,4 @@ VALUES (20554,   1,   33554826) /* Setup */
      , (20554,  28,       2267) /* Spell - LifeMagicMasterySelf7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20554,  2267,      2) ;
+VALUES (20554,  2267,      2)  /* LifeMagicMasterySelf7 */;

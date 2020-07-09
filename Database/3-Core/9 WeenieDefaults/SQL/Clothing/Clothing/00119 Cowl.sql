@@ -51,6 +51,6 @@ VALUES (119,   1,   33555048) /* Setup */
      , (119,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (119,   216,      2) 
-     , (119,  1486,      2) 
-     , (119,  1539,      2) ;
+VALUES (119,   216,      2)  /* ManaRenewalSelf5 */
+     , (119,  1486,      2)  /* Impenetrability6 */
+     , (119,  1539,      2)  /* LightningBane5 */;

@@ -45,4 +45,4 @@ VALUES (30189, 8040, 3583574079, 175.9876, 157.875, 373.999, 0.3968425, 0, 0, -0
 /* @teleloc 0xD599003F [175.987600 157.875000 373.999000] 0.396843 0.000000 0.000000 -0.917887 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30189,  3685,      2) ;
+VALUES (30189,  3685,      2)  /* AxeMasteryRare */;

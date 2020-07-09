@@ -57,6 +57,6 @@ VALUES (29265, 8040, 1692860422, 107.154, 86.636, 58.27, 0.7071068, 0.7071068, 0
 /* @teleloc 0x64E70006 [107.154000 86.636000 58.270000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29265,  2117,      2) 
-     , (29265,  2140,      2) 
-     , (29265,  2502,      2) ;
+VALUES (29265,  2117,      2)  /* HermeticLinkSelf7 */
+     , (29265,  2140,      2)  /* LightningBolt7 */
+     , (29265,  2502,      2)  /* CANTRIPARCANEPROWESS2 */;

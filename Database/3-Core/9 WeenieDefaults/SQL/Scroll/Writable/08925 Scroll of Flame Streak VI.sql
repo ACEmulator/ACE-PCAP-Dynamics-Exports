@@ -29,4 +29,4 @@ VALUES (8925,   1,   33554826) /* Setup */
      , (8925,  28,       1801) /* Spell - FlameStreak6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8925,  1801,      2) ;
+VALUES (8925,  1801,      2)  /* FlameStreak6 */;

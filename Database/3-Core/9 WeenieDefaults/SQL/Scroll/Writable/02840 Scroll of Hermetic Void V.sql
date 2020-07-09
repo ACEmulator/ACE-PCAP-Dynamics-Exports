@@ -29,4 +29,4 @@ VALUES (2840,   1,   33554826) /* Setup */
      , (2840,  28,       1473) /* Spell - HermeticVoid5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2840,  1473,      2) ;
+VALUES (2840,  1473,      2)  /* HermeticVoid5 */;

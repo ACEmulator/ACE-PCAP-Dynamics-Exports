@@ -52,5 +52,5 @@ VALUES (2591,   1,   33554644) /* Setup */
      , (2591,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2591,  1311,      2) 
-     , (2591,  2564,      2) ;
+VALUES (2591,  1311,      2)  /* ArmorSelf5 */
+     , (2591,  2564,      2)  /* CANTRIPSPRINT1 */;

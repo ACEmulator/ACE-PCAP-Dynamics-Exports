@@ -33,4 +33,4 @@ VALUES (20403, 8040, 23855555, 58.62766, -42.61131, 0.0855, -0.7803556, 0, 0, -0
 /* @teleloc 0x016C01C3 [58.627660 -42.611310 0.085500] -0.780356 0.000000 0.000000 -0.625336 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20403,  2093,      2) ;
+VALUES (20403,  2093,      2)  /* AcidLure7 */;

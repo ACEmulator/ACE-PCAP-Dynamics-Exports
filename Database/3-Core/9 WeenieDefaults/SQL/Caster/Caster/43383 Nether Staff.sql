@@ -62,10 +62,10 @@ VALUES (43383, 8040, 459075, 69.975, -60, -0.071, -3.090862E-08, -3.090862E-08, 
 /* @teleloc 0x00070143 [69.975000 -60.000000 -0.071000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43383,  1480,      2) 
-     , (43383,  3259,      2) 
-     , (43383,  4663,      2) 
-     , (43383,  5355,      2) ;
+VALUES (43383,  1480,      2)  /* HermeticLinkSelf6 */
+     , (43383,  3259,      2)  /* SpiritDrinkerSelf7 */
+     , (43383,  4663,      2)  /* CANTRIPDEFENDER3 */
+     , (43383,  5355,      2)  /* NetherBolt7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (43383, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

@@ -56,4 +56,4 @@ VALUES (25618,   1,   33558488) /* Setup */
      , (25618,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25618,  2686,      2) ;
+VALUES (25618,  2686,      2)  /* ModerateAxeAptitude */;

@@ -32,4 +32,4 @@ VALUES (35981,   1,   33554826) /* Setup */
      , (35981,  28,       4128) /* Spell - GraveyardRecall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35981,  4128,      2) ;
+VALUES (35981,  4128,      2)  /* GraveyardRecall */;

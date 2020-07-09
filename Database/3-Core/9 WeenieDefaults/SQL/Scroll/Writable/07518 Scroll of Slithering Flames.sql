@@ -29,4 +29,4 @@ VALUES (7518,   1,   33554826) /* Setup */
      , (7518,  28,       1841) /* Spell - FlameWall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7518,  1841,      2) ;
+VALUES (7518,  1841,      2)  /* FlameWall */;

@@ -59,6 +59,6 @@ VALUES (3816,   1,   33555735) /* Setup */
      , (3816,  37,         45) /* ItemSkillLimit - LightWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3816,  1377,      2) 
-     , (3816,  1615,      2) 
-     , (3816,  1627,      2) ;
+VALUES (3816,  1377,      2)  /* CoordinationSelf5 */
+     , (3816,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (3816,  1627,      2)  /* SwiftKillerSelf6 */;

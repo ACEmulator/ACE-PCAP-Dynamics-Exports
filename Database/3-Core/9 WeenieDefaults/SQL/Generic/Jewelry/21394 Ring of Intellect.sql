@@ -38,6 +38,6 @@ VALUES (21394,   1,   33554690) /* Setup */
      , (21394,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21394,   663,      2) 
-     , (21394,  1455,      2) 
-     , (21394,  2691,      2) ;
+VALUES (21394,   663,      2)  /* ManaMasteryOther5 */
+     , (21394,  1455,      2)  /* WillpowerOther5 */
+     , (21394,  2691,      2)  /* ModerateManaConversionProwess */;

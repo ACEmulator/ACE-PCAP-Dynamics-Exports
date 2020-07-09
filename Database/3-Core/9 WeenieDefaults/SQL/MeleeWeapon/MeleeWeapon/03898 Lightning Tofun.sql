@@ -61,6 +61,6 @@ VALUES (3898,   1,   33555744) /* Setup */
      , (3898,  52,  100676438) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3898,  1616,      2) 
-     , (3898,  1626,      2) 
-     , (3898,  5884,      2) ;
+VALUES (3898,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (3898,  1626,      2)  /* SwiftKillerSelf5 */
+     , (3898,  5884,      2)  /* CantripDualWieldAptitude1 */;

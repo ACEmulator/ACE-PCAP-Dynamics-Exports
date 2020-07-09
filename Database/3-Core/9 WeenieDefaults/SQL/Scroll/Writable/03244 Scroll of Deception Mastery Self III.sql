@@ -29,4 +29,4 @@ VALUES (3244,   1,   33554826) /* Setup */
      , (3244,  28,        852) /* Spell - DeceptionMasterySelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3244,   852,      2) ;
+VALUES (3244,   852,      2)  /* DeceptionMasterySelf3 */;

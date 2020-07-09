@@ -54,6 +54,6 @@ VALUES (43833, 8040, 3600351239, 1.190629, 153.7323, 374, -0.07764865, 0, 0, -0.
 /* @teleloc 0xD6990007 [1.190629 153.732300 374.000000] -0.077649 0.000000 0.000000 -0.996981 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43833,   279,      2) 
-     , (43833,  1486,      2) 
-     , (43833,  2620,      2) ;
+VALUES (43833,   279,      2)  /* MagicResistanceSelf6 */
+     , (43833,  1486,      2)  /* Impenetrability6 */
+     , (43833,  2620,      2)  /* CANTRIPPIERCINGWARD1 */;

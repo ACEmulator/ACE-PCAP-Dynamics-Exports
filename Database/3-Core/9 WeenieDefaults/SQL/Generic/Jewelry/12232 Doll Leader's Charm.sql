@@ -38,5 +38,5 @@ VALUES (12232,   1,   33554683) /* Setup */
      , (12232,  37,         34) /* ItemSkillLimit - WarMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12232,   632,      2) 
-     , (12232,  1424,      2) ;
+VALUES (12232,   632,      2)  /* WarMagicMasterySelf4 */
+     , (12232,  1424,      2)  /* FocusSelf4 */;

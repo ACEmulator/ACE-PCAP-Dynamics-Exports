@@ -46,4 +46,4 @@ VALUES (36445, 8040, 23855555, 60.84425, -38.97301, 0.0004999936, -0.9162901, 0,
 /* @teleloc 0x016C01C3 [60.844250 -38.973010 0.000500] -0.916290 0.000000 0.000000 -0.400515 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36445,  4206,      2) ;
+VALUES (36445,  4206,      2)  /* ChewyCenter */;

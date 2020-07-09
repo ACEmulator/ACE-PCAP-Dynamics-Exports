@@ -65,11 +65,11 @@ VALUES (40518, 8040, 151322625, 15.68457, 6.740993, 87.2341, -0.6961658, -0.6961
 /* @teleloc 0x09050001 [15.684570 6.740993 87.234100] -0.696166 -0.696166 0.123908 0.123908 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40518,  2059,      2) 
-     , (40518,  2087,      2) 
-     , (40518,  2101,      2) 
-     , (40518,  2106,      2) 
-     , (40518,  2116,      2) 
-     , (40518,  4395,      2) 
-     , (40518,  4624,      2) 
-     , (40518,  4712,      2) ;
+VALUES (40518,  2059,      2)  /* CoordinationSelf7 */
+     , (40518,  2087,      2)  /* StrengthSelf7 */
+     , (40518,  2101,      2)  /* DefenderSelf7 */
+     , (40518,  2106,      2)  /* HeartSeekerSelf7 */
+     , (40518,  2116,      2)  /* SwiftKillerSelf7 */
+     , (40518,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (40518,  4624,      2)  /* SwordMasterySelf8 */
+     , (40518,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;

@@ -65,9 +65,9 @@ VALUES (22168, 8040, 23855473, 12.8773, -54.59282, -0.071, 0.002673675, 0.002673
 /* @teleloc 0x016C0171 [12.877300 -54.592820 -0.071000] 0.002674 0.002674 -0.707102 -0.707102 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22168,  1591,      2) 
-     , (22168,  1616,      2) 
-     , (22168,  5884,      2) ;
+VALUES (22168,  1591,      2)  /* HeartSeekerSelf5 */
+     , (22168,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (22168,  5884,      2)  /* CantripDualWieldAptitude1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22168, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;

@@ -61,10 +61,10 @@ VALUES (37585, 8040, 23855559, 71.14764, -51.02144, -0.071, -0.5176283, -0.51762
 /* @teleloc 0x016C01C7 [71.147640 -51.021440 -0.071000] -0.517628 -0.517628 -0.481727 -0.481727 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37585,  2101,      2) 
-     , (37585,  2117,      2) 
-     , (37585,  2132,      2) 
-     , (37585,  2534,      2) 
-     , (37585,  2581,      2) 
-     , (37585,  2584,      2) 
-     , (37585,  3259,      2) ;
+VALUES (37585,  2101,      2)  /* DefenderSelf7 */
+     , (37585,  2117,      2)  /* HermeticLinkSelf7 */
+     , (37585,  2132,      2)  /* ForceBolt7 */
+     , (37585,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
+     , (37585,  2581,      2)  /* CANTRIPFOCUS1 */
+     , (37585,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (37585,  3259,      2)  /* SpiritDrinkerSelf7 */;

@@ -64,7 +64,7 @@ VALUES (22154,   1,   33558077) /* Setup */
      , (22154,  37,         46) /* ItemSkillLimit - FinesseWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22154,  2087,      2) 
-     , (22154,  2096,      2) 
-     , (22154,  2101,      2) 
-     , (22154,  6091,      2) ;
+VALUES (22154,  2087,      2)  /* StrengthSelf7 */
+     , (22154,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (22154,  2101,      2)  /* DefenderSelf7 */
+     , (22154,  6091,      2)  /* CantripDefender4 */;

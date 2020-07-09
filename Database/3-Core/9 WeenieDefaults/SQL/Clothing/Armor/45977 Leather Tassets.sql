@@ -51,9 +51,9 @@ VALUES (45977,   1,   33554656) /* Setup */
      , (45977,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45977,  1096,      2) 
-     , (45977,  1486,      2) 
-     , (45977,  2601,      2) 
-     , (45977,  5776,      2) 
-     , (45977,  5872,      2) 
-     , (45977,  5887,      2) ;
+VALUES (45977,  1096,      2)  /* FireProtectionOther6 */
+     , (45977,  1486,      2)  /* Impenetrability6 */
+     , (45977,  2601,      2)  /* CANTRIPFLAMEBANE1 */
+     , (45977,  5776,      2)  /* DirtyFightingMasteryOther6 */
+     , (45977,  5872,      2)  /* SneakAttackMasteryOther6 */
+     , (45977,  5887,      2)  /* CantripSneakAttackProwess1 */;

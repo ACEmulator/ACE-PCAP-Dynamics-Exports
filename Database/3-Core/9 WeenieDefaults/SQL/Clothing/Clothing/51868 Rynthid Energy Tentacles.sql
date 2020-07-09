@@ -58,4 +58,4 @@ VALUES (51868,   1,   33561386) /* Setup */
      , (51868,  55,       6151) /* ProcSpell - LightningRingRed */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51868,  6151,      2) ;
+VALUES (51868,  6151,      2)  /* LightningRingRed */;

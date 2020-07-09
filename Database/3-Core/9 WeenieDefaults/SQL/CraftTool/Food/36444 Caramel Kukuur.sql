@@ -42,4 +42,4 @@ VALUES (36444,   1,   33560400) /* Setup */
      , (36444,  28,       4212) /* Spell - StickyMelee */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36444,  4212,      2) ;
+VALUES (36444,  4212,      2)  /* StickyMelee */;

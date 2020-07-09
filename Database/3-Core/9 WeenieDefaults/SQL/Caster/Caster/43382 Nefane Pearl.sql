@@ -58,7 +58,7 @@ VALUES (43382, 8040, 1692860438, 107.154, 86.636, 58.271, 0.7071068, 0.7071068, 
 /* @teleloc 0x64E70016 [107.154000 86.636000 58.271000] 0.707107 0.707107 0.000000 0.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43382,  1480,      2) 
-     , (43382,  2535,      2) 
-     , (43382,  3250,      2) 
-     , (43382,  5355,      2) ;
+VALUES (43382,  1480,      2)  /* HermeticLinkSelf6 */
+     , (43382,  2535,      2)  /* CANTRIPWEAPONEXPERTISE2 */
+     , (43382,  3250,      2)  /* CantripSpiritThirst2 */
+     , (43382,  5355,      2)  /* NetherBolt7 */;

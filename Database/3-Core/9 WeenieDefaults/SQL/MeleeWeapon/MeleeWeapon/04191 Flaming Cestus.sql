@@ -65,7 +65,7 @@ VALUES (4191, 8040, 23855555, 56.79909, -39.08367, -0.071, 0.367982, 0.367982, -
 /* @teleloc 0x016C01C3 [56.799090 -39.083670 -0.071000] 0.367982 0.367982 -0.603812 -0.603812 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (4191,  2096,      2) 
-     , (4191,  2559,      2) 
-     , (4191,  4299,      2) 
-     , (4191,  4400,      2) ;
+VALUES (4191,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (4191,  2559,      2)  /* CANTRIPMAGICRESISTANCE1 */
+     , (4191,  4299,      2)  /* EnduranceSelf8 */
+     , (4191,  4400,      2)  /* DefenderSelf8 */;

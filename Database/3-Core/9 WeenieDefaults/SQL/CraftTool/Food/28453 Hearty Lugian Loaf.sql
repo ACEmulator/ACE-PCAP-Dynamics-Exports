@@ -37,4 +37,4 @@ VALUES (28453,   1,   33554806) /* Setup */
      , (28453,  28,       3440) /* Spell - LugianHealth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28453,  3440,      2) ;
+VALUES (28453,  3440,      2)  /* LugianHealth */;

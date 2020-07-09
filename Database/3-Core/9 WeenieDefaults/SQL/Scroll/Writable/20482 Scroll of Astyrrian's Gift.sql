@@ -29,4 +29,4 @@ VALUES (20482,   1,   33554826) /* Setup */
      , (20482,  28,       2172) /* Spell - LightningVulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20482,  2172,      2) ;
+VALUES (20482,  2172,      2)  /* LightningVulnerabilityOther7 */;

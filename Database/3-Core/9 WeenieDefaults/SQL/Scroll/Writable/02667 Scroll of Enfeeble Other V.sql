@@ -29,4 +29,4 @@ VALUES (2667,   1,   33554826) /* Setup */
      , (2667,  28,       1199) /* Spell - EnfeebleOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2667,  1199,      2) ;
+VALUES (2667,  1199,      2)  /* EnfeebleOther5 */;

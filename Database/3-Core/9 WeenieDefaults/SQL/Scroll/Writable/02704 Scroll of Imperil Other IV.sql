@@ -29,4 +29,4 @@ VALUES (2704,   1,   33554826) /* Setup */
      , (2704,  28,       1325) /* Spell - ImperilOther4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2704,  1325,      2) ;
+VALUES (2704,  1325,      2)  /* ImperilOther4 */;

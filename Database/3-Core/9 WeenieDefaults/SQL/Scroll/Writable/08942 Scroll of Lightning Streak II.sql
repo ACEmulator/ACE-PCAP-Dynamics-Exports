@@ -33,4 +33,4 @@ VALUES (8942, 8040, 3062300988, 63.96377, 135.4207, 90.0855, 0.6677015, 0, 0, -0
 /* @teleloc 0xB687013C [63.963770 135.420700 90.085500] 0.667702 0.000000 0.000000 -0.744429 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8942,  1815,      2) ;
+VALUES (8942,  1815,      2)  /* LightningStreak2 */;

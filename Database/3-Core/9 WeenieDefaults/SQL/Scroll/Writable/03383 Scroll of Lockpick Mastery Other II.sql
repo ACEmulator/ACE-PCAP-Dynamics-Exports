@@ -29,4 +29,4 @@ VALUES (3383,   1,   33554826) /* Setup */
      , (3383,  28,        929) /* Spell - LockpickMasteryOther2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3383,   929,      2) ;
+VALUES (3383,   929,      2)  /* LockpickMasteryOther2 */;

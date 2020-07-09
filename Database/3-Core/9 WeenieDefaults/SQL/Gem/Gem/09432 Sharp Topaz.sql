@@ -37,4 +37,4 @@ VALUES (9432,   1,   33554809) /* Setup */
      , (9432,  28,       2400) /* Spell - SlashingShield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9432,  2400,      2) ;
+VALUES (9432,  2400,      2)  /* SlashingShield */;

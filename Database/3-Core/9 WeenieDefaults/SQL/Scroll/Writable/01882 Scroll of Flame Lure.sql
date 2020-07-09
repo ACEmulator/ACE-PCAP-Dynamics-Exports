@@ -29,4 +29,4 @@ VALUES (1882,   1,   33554826) /* Setup */
      , (1882,  28,       1541) /* Spell - FlameLure1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1882,  1541,      2) ;
+VALUES (1882,  1541,      2)  /* FlameLure1 */;

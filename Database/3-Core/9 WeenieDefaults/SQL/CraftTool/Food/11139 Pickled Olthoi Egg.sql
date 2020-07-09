@@ -37,4 +37,4 @@ VALUES (11139,   1,   33557217) /* Setup */
      , (11139,  28,       2432) /* Spell - AcidWard */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11139,  2432,      2) ;
+VALUES (11139,  2432,      2)  /* AcidWard */;

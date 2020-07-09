@@ -29,4 +29,4 @@ VALUES (21332,   1,   33554826) /* Setup */
      , (21332,  28,       2748) /* Spell - ShockArc3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21332,  2748,      2) ;
+VALUES (21332,  2748,      2)  /* ShockArc3 */;

@@ -33,4 +33,4 @@ VALUES (20607, 8040, 561120019, 91.57594, 112.8288, 150.4855, -0.3171712, 0, 0, 
 /* @teleloc 0x21720313 [91.575940 112.828800 150.485500] -0.317171 0.000000 0.000000 -0.948368 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20607,  2335,      2) ;
+VALUES (20607,  2335,      2)  /* InfuseHealth7 */;

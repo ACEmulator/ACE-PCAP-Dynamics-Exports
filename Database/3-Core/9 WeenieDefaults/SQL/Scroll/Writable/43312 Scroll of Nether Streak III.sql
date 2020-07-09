@@ -29,4 +29,4 @@ VALUES (43312,   1,   33554826) /* Setup */
      , (43312,  28,       5359) /* Spell - NetherStreak3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43312,  5359,      2) ;
+VALUES (43312,  5359,      2)  /* NetherStreak3 */;

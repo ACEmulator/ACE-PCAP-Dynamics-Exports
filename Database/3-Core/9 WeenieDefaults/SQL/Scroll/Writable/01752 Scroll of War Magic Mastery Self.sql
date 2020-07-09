@@ -29,4 +29,4 @@ VALUES (1752,   1,   33554826) /* Setup */
      , (1752,  28,        629) /* Spell - WarMagicMasterySelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1752,   629,      2) ;
+VALUES (1752,   629,      2)  /* WarMagicMasterySelf1 */;

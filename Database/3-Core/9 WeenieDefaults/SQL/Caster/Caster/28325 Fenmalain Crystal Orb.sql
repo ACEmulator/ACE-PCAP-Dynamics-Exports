@@ -45,6 +45,6 @@ VALUES (28325, 8040, 3300196399, 129.7753, 148.227, 239.929, -0.4719882, -0.4719
 /* @teleloc 0xC4B5002F [129.775300 148.227000 239.929000] -0.471988 -0.471988 -0.526524 -0.526524 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28325,   559,      2) 
-     , (28325,   583,      2) 
-     , (28325,  2011,      2) ;
+VALUES (28325,   559,      2)  /* CreatureEnchantmentMasterySelf3 */
+     , (28325,   583,      2)  /* ItemEnchantmentMasterySelf3 */
+     , (28325,  2011,      2)  /* WizardsLesserIntellect */;

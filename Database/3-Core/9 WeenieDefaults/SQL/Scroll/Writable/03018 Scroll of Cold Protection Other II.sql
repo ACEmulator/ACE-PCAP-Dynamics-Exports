@@ -29,4 +29,4 @@ VALUES (3018,   1,   33554826) /* Setup */
      , (3018,  28,       1037) /* Spell - ColdProtectionOther2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3018,  1037,      2) ;
+VALUES (3018,  1037,      2)  /* ColdProtectionOther2 */;

@@ -62,7 +62,7 @@ VALUES (37204, 8040, 23855473, 19.86197, -64.6851, -0.002750009, 0.8307009, 0, 0
 /* @teleloc 0x016C0171 [19.861970 -64.685100 -0.002750] 0.830701 0.000000 0.000000 -0.556719 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37204,  1486,      2) 
-     , (37204,  2102,      2) 
-     , (37204,  4403,      2) 
-     , (37204,  4684,      2) ;
+VALUES (37204,  1486,      2)  /* Impenetrability6 */
+     , (37204,  2102,      2)  /* FlameBane7 */
+     , (37204,  4403,      2)  /* FrostBane8 */
+     , (37204,  4684,      2)  /* CANTRIPARCANEPROWESS3 */;

@@ -48,6 +48,6 @@ VALUES (8904,   1,   33556976) /* Setup */
      , (8904,  28,       2348) /* Spell - BrillianceOther */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8904,  2346,      2) 
-     , (8904,  2347,      2) 
-     , (8904,  2348,      2) ;
+VALUES (8904,  2346,      2)  /* MaledictionSelf */
+     , (8904,  2347,      2)  /* ConcentrationSelf */
+     , (8904,  2348,      2)  /* BrillianceOther */;

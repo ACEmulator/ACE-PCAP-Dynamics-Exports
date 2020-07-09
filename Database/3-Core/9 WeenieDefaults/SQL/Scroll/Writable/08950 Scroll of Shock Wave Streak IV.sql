@@ -29,4 +29,4 @@ VALUES (8950,   1,   33554826) /* Setup */
      , (8950,  28,       1823) /* Spell - ShockwaveStreak4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8950,  1823,      2) ;
+VALUES (8950,  1823,      2)  /* ShockwaveStreak4 */;

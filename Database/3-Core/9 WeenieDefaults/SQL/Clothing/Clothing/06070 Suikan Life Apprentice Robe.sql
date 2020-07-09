@@ -48,5 +48,5 @@ VALUES (6070,   1,   33554854) /* Setup */
      , (6070,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6070,   611,      2) 
-     , (6070,  1451,      2) ;
+VALUES (6070,   611,      2)  /* LifeMagicMasteryOther1 */
+     , (6070,  1451,      2)  /* WillpowerOther1 */;

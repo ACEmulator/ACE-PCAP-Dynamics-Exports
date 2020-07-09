@@ -34,4 +34,4 @@ VALUES (25543,   1,   33554603) /* Setup */
      , (25543,  28,       2979) /* Spell - DestinyWind */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25543,  2979,      2) ;
+VALUES (25543,  2979,      2)  /* DestinyWind */;

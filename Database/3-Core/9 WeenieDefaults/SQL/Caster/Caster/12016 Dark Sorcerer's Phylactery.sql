@@ -39,6 +39,6 @@ VALUES (12016,   1,   33557338) /* Setup */
      , (12016,  37,         33) /* ItemSkillLimit - LifeMagic */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12016,   585,      2) 
-     , (12016,   609,      2) 
-     , (12016,  2014,      2) ;
+VALUES (12016,   585,      2)  /* ItemEnchantmentMasterySelf5 */
+     , (12016,   609,      2)  /* LifeMagicMasterySelf5 */
+     , (12016,  2014,      2)  /* WizardsUltimateIntellect */;

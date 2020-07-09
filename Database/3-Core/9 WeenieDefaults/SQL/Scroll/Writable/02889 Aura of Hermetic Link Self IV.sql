@@ -29,4 +29,4 @@ VALUES (2889,   1,   33554826) /* Setup */
      , (2889,  28,       1478) /* Spell - HermeticLinkSelf4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2889,  1478,      2) ;
+VALUES (2889,  1478,      2)  /* HermeticLinkSelf4 */;

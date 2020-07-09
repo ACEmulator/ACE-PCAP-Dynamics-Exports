@@ -45,5 +45,5 @@ VALUES (9021,   1,   33556683) /* Setup */
      , (9021,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9021,   980,      2) 
-     , (9021,   992,      2) ;
+VALUES (9021,   980,      2)  /* JumpingMasteryOther5 */
+     , (9021,   992,      2)  /* SprintOther5 */;

@@ -29,4 +29,4 @@ VALUES (5960,   1,   33554826) /* Setup */
      , (5960,  28,       1719) /* Spell - CookingMasterySelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5960,  1719,      2) ;
+VALUES (5960,  1719,      2)  /* CookingMasterySelf5 */;

@@ -61,8 +61,8 @@ VALUES (29247,   1,   33559238) /* Setup */
      , (29247,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29247,  1627,      2) 
-     , (29247,  2096,      2) 
-     , (29247,  2572,      2) 
-     , (29247,  2582,      2) 
-     , (29247,  2608,      2) ;
+VALUES (29247,  1627,      2)  /* SwiftKillerSelf6 */
+     , (29247,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (29247,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (29247,  2582,      2)  /* CANTRIPQUICKNESS1 */
+     , (29247,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;

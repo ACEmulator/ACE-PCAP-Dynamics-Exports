@@ -60,6 +60,6 @@ VALUES (30368,   1,   33554654) /* Setup */
      , (30368,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30368,  4019,      2) 
-     , (30368,  4407,      2) 
-     , (30368,  4710,      2) ;
+VALUES (30368,  4019,      2)  /* CANTRIPQUICKNESS3 */
+     , (30368,  4407,      2)  /* Impenetrability8 */
+     , (30368,  4710,      2)  /* CANTRIPSPRINT3 */;

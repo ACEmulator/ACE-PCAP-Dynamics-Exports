@@ -37,10 +37,10 @@ VALUES (35590,   1,   33554683) /* Setup */
      , (35590,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35590,  2004,      2) 
-     , (35590,  2008,      2) 
-     , (35590,  2012,      2) 
-     , (35590,  4090,      2) 
-     , (35590,  4093,      2) 
-     , (35590,  4094,      2) 
-     , (35590,  4095,      2) ;
+VALUES (35590,  2004,      2)  /* WarriorsVitality */
+     , (35590,  2008,      2)  /* WarriorsVigor */
+     , (35590,  2012,      2)  /* WizardsIntellect */
+     , (35590,  4090,      2)  /* DrudgeArmor */
+     , (35590,  4093,      2)  /* DontBiteMe */
+     , (35590,  4094,      2)  /* DontBurnMe */
+     , (35590,  4095,      2)  /* DontStabMe */;

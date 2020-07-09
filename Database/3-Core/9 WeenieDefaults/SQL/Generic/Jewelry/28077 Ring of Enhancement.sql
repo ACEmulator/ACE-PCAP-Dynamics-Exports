@@ -38,4 +38,4 @@ VALUES (28077,   1,   33554691) /* Setup */
      , (28077,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28077,  3365,      2) ;
+VALUES (28077,  3365,      2)  /* GiftEnhancement */;

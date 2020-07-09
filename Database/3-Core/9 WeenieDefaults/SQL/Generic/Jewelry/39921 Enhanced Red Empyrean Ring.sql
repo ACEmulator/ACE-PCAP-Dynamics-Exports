@@ -43,6 +43,6 @@ VALUES (39921,   1,   33554691) /* Setup */
      , (39921,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39921,  2666,      2) 
-     , (39921,  3982,      2) 
-     , (39921,  4226,      2) ;
+VALUES (39921,  2666,      2)  /* EssenceGlutton */
+     , (39921,  3982,      2)  /* RegenerationOtherIncantation */
+     , (39921,  4226,      2)  /* CANTRIPENDURANCE3 */;

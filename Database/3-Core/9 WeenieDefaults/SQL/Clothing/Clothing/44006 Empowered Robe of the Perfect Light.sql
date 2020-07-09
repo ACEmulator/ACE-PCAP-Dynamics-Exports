@@ -52,17 +52,17 @@ VALUES (44006,   1,   33554854) /* Setup */
      , (44006,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (44006,  2350,      2) 
-     , (44006,  2351,      2) 
-     , (44006,  2352,      2) 
-     , (44006,  2353,      2) 
-     , (44006,  2623,      2) 
-     , (44006,  2624,      2) 
-     , (44006,  2625,      2) 
-     , (44006,  2960,      2) 
-     , (44006,  2961,      2) 
-     , (44006,  2962,      2) 
-     , (44006,  3964,      2) 
-     , (44006,  4062,      2) 
-     , (44006,  4304,      2) 
-     , (44006,  4581,      2) ;
+VALUES (44006,  2350,      2)  /* DecayDurance */
+     , (44006,  2351,      2)  /* ConsumptionDurance */
+     , (44006,  2352,      2)  /* StasisDurance */
+     , (44006,  2353,      2)  /* StimulationDurance */
+     , (44006,  2623,      2)  /* CANTRIPHEALTHGAIN2 */
+     , (44006,  2624,      2)  /* CANTRIPMANAGAIN2 */
+     , (44006,  2625,      2)  /* CANTRIPSTAMINAGAIN2 */
+     , (44006,  2960,      2)  /* BludgeoningDurance */
+     , (44006,  2961,      2)  /* PiercingDurance */
+     , (44006,  2962,      2)  /* SlashingDurance */
+     , (44006,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (44006,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */
+     , (44006,  4304,      2)  /* FocusOther8 */
+     , (44006,  4581,      2)  /* LifeMagicMasteryOther8 */;

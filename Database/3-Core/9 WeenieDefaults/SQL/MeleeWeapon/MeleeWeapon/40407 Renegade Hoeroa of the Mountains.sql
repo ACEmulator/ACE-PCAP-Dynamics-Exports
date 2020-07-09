@@ -63,6 +63,6 @@ VALUES (40407, 8040, 13501100, 6.992339, -117.7792, -0.07049998, 0.6598416, 0.65
 /* @teleloc 0x00CE02AC [6.992339 -117.779200 -0.070500] 0.659842 0.659842 -0.254183 -0.254183 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40407,  2437,      2) 
-     , (40407,  2440,      2) 
-     , (40407,  2443,      2) ;
+VALUES (40407,  2437,      2)  /* RockslideGreater */
+     , (40407,  2440,      2)  /* StoneCliffsGreater */
+     , (40407,  2443,      2)  /* StrengthofEarthGreater */;

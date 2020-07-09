@@ -30,4 +30,4 @@ VALUES (36542,   1,   33554826) /* Setup */
      , (36542,  50,  100689646) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36542,  2934,      2) ;
+VALUES (36542,  2934,      2)  /* TuskerFists */;

@@ -29,4 +29,4 @@ VALUES (2653,   1,   33554826) /* Setup */
      , (2653,  28,       1378) /* Spell - CoordinationSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2653,  1378,      2) ;
+VALUES (2653,  1378,      2)  /* CoordinationSelf6 */;

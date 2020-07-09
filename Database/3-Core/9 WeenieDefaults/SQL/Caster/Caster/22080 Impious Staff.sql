@@ -51,4 +51,4 @@ VALUES (22080, 8040, 3332964775, 72.47017, 23.78971, 41.929, 0.6793634, 0.679363
 /* @teleloc 0xC6A901A7 [72.470170 23.789710 41.929000] 0.679363 0.679363 -0.196126 -0.196126 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22080,  2814,      2) ;
+VALUES (22080,  2814,      2)  /* ImpiousCurse */;

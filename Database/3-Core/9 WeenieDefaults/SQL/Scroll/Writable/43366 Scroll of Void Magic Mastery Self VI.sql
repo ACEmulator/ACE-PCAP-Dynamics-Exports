@@ -29,4 +29,4 @@ VALUES (43366,   1,   33554826) /* Setup */
      , (43366,  28,       5416) /* Spell - VoidMagicMasterySelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43366,  5416,      2) ;
+VALUES (43366,  5416,      2)  /* VoidMagicMasterySelf6 */;

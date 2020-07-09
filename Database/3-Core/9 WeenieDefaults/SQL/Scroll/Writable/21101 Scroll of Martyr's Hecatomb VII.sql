@@ -29,7 +29,7 @@ VALUES (21101,   1,   33554826) /* Setup */
      , (21101,  28,       2766) /* Spell - HealthBolt7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21101,  2766,      2) ;
+VALUES (21101,  2766,      2)  /* HealthBolt7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21101, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

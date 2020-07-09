@@ -57,6 +57,6 @@ VALUES (43048, 8040, 23855555, 56.08102, -35.19884, -0.004999995, 1, 0, 0, 0.000
 /* @teleloc 0x016C01C3 [56.081020 -35.198840 -0.005000] 1.000000 0.000000 0.000000 0.000154 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43048,   951,      2) 
-     , (43048,  1486,      2) 
-     , (43048,  1528,      2) ;
+VALUES (43048,   951,      2)  /* FealtySelf6 */
+     , (43048,  1486,      2)  /* Impenetrability6 */
+     , (43048,  1528,      2)  /* FrostBane6 */;

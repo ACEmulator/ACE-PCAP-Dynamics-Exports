@@ -29,4 +29,4 @@ VALUES (20252,   1,   33554826) /* Setup */
      , (20252,  28,       2084) /* Spell - SlownessOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20252,  2084,      2) ;
+VALUES (20252,  2084,      2)  /* SlownessOther7 */;

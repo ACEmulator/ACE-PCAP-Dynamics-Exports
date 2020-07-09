@@ -51,5 +51,5 @@ VALUES (24371, 8040, 459095, 77.13209, -78.81267, -0.002499998, 0.6085289, 0, 0,
 /* @teleloc 0x00070157 [77.132090 -78.812670 -0.002500] 0.608529 0.000000 0.000000 -0.793532 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24371,  1144,      2) 
-     , (24371,  1360,      2) ;
+VALUES (24371,  1144,      2)  /* PiercingProtectionOther6 */
+     , (24371,  1360,      2)  /* EnduranceOther6 */;

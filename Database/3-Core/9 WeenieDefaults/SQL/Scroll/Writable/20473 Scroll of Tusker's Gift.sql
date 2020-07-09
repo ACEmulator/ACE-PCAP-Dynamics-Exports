@@ -29,4 +29,4 @@ VALUES (20473,   1,   33554826) /* Setup */
      , (20473,  28,       2166) /* Spell - BludgeonVulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20473,  2166,      2) ;
+VALUES (20473,  2166,      2)  /* BludgeonVulnerabilityOther7 */;

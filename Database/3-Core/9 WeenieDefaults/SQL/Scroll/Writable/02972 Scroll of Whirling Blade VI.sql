@@ -29,4 +29,4 @@ VALUES (2972,   1,   33554826) /* Setup */
      , (2972,  28,         97) /* Spell - WhirlingBlade6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2972,    97,      2) ;
+VALUES (2972,    97,      2)  /* WhirlingBlade6 */;

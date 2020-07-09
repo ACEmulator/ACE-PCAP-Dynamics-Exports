@@ -62,6 +62,6 @@ VALUES (40639,   1,   33560732) /* Setup */
      , (40639,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40639,  1378,      2) 
-     , (40639,  1615,      2) 
-     , (40639,  5072,      2) ;
+VALUES (40639,  1378,      2)  /* CoordinationSelf6 */
+     , (40639,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (40639,  5072,      2)  /* CANTRIPTWOHANDEDAPTITUDE1 */;

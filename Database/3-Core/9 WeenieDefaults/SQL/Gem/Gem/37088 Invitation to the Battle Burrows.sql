@@ -34,4 +34,4 @@ VALUES (37088,   1,   33554776) /* Setup */
      , (37088,  28,       4247) /* Spell - PortalSendingTanadaBattleBurrows */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37088,  4247,      2) ;
+VALUES (37088,  4247,      2)  /* PortalSendingTanadaBattleBurrows */;

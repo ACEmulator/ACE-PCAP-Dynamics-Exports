@@ -42,4 +42,4 @@ VALUES (27772,   1,   33558808) /* Setup */
      , (27772,  28,        157) /* Spell - SummonPortal1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27772,   157,      2) ;
+VALUES (27772,   157,      2)  /* SummonPortal1 */;

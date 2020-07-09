@@ -33,4 +33,4 @@ VALUES (3230, 8040, 1994981721, 116.7198, 219.1984, 88.88551, -0.5710939, 0, 0, 
 /* @teleloc 0x76E90159 [116.719800 219.198400 88.885510] -0.571094 0.000000 0.000000 -0.820885 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3230,   325,      2) ;
+VALUES (3230,   325,      2)  /* DaggerMasterySelf4 */;

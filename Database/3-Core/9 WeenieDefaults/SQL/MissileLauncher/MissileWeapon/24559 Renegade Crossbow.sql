@@ -53,4 +53,4 @@ VALUES (24559,   1,   33558377) /* Setup */
      , (24559,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24559,  1616,      2) ;
+VALUES (24559,  1616,      2)  /* BloodDrinkerSelf6 */;

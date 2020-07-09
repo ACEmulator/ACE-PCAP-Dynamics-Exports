@@ -43,4 +43,4 @@ VALUES (30224,   1,   33554809) /* Setup */
      , (30224,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30224,  3723,      2) ;
+VALUES (30224,  3723,      2)  /* MagicResistanceRare */;

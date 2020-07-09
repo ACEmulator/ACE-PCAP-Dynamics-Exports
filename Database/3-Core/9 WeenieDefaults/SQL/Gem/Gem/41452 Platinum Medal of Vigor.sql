@@ -39,4 +39,4 @@ VALUES (41452,   1,   33554802) /* Setup */
      , (41452,  37,         36) /* ItemSkillLimit - Loyalty */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41452,  5132,      2) ;
+VALUES (41452,  5132,      2)  /* AnswerOfLoyaltyStam5 */;

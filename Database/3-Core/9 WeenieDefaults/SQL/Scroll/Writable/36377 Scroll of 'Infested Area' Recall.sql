@@ -31,4 +31,4 @@ VALUES (36377,   1,   33554826) /* Setup */
      , (36377,  28,       4198) /* Spell - InfestedAreaRecall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36377,  4198,      2) ;
+VALUES (36377,  4198,      2)  /* InfestedAreaRecall */;

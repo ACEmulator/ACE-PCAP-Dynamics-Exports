@@ -51,4 +51,4 @@ VALUES (21372,   1,   33557995) /* Setup */
      , (21372,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21372,  2787,      2) ;
+VALUES (21372,  2787,      2)  /* Supremacy */;

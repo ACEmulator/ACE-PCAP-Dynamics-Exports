@@ -46,4 +46,4 @@ VALUES (43474,   1,   33554809) /* Setup */
      , (43474,  52,  100691593) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43474,  5450,      2) ;
+VALUES (43474,  5450,      2)  /* LuminanceRewardDamageReduction */;

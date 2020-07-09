@@ -56,14 +56,14 @@ VALUES (36747, 8040, 23855555, 56.07238, -37.63288, -0.002499998, 0.9938313, 0, 
 /* @teleloc 0x016C01C3 [56.072380 -37.632880 -0.002500] 0.993831 0.000000 0.000000 -0.110903 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36747,  2350,      2) 
-     , (36747,  2351,      2) 
-     , (36747,  2352,      2) 
-     , (36747,  2353,      2) 
-     , (36747,  2579,      2) 
-     , (36747,  2960,      2) 
-     , (36747,  2961,      2) 
-     , (36747,  2962,      2) 
-     , (36747,  3977,      2) 
-     , (36747,  3983,      2) 
-     , (36747,  4062,      2) ;
+VALUES (36747,  2350,      2)  /* DecayDurance */
+     , (36747,  2351,      2)  /* ConsumptionDurance */
+     , (36747,  2352,      2)  /* StasisDurance */
+     , (36747,  2353,      2)  /* StimulationDurance */
+     , (36747,  2579,      2)  /* CANTRIPCOORDINATION1 */
+     , (36747,  2960,      2)  /* BludgeoningDurance */
+     , (36747,  2961,      2)  /* PiercingDurance */
+     , (36747,  2962,      2)  /* SlashingDurance */
+     , (36747,  3977,      2)  /* CoordinationOtherIncantation */
+     , (36747,  3983,      2)  /* RejuvenationOtherIncantation */
+     , (36747,  4062,      2)  /* ImpenetrabilityEmpyreanAegis */;

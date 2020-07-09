@@ -53,7 +53,7 @@ VALUES (127, 8040, 3111190798, 32.35411, 37.79568, 22.4025, 0.997676, 0, 0, 0.06
 /* @teleloc 0xB971010E [32.354110 37.795680 22.402500] 0.997676 0.000000 0.000000 0.068130 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (127,  1137,      2) ;
+VALUES (127,  1137,      2)  /* PiercingProtectionSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (127, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */

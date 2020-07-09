@@ -41,4 +41,4 @@ VALUES (27512,   1,   33556769) /* Setup */
      , (27512,  28,       3238) /* Spell - PortalSendingNannerIsland */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27512,  3238,      2) ;
+VALUES (27512,  3238,      2)  /* PortalSendingNannerIsland */;

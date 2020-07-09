@@ -38,6 +38,6 @@ VALUES (32278,   1,   33554691) /* Setup */
      , (32278,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32278,  2091,      2) 
-     , (32278,  2281,      2) 
-     , (32278,  2615,      2) ;
+VALUES (32278,  2091,      2)  /* WillpowerSelf7 */
+     , (32278,  2281,      2)  /* MagicResistanceSelf7 */
+     , (32278,  2615,      2)  /* CANTRIPSTORMWARD2 */;

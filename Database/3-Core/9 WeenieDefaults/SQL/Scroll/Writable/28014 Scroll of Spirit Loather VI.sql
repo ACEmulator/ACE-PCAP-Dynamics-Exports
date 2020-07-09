@@ -29,4 +29,4 @@ VALUES (28014,   1,   33554826) /* Setup */
      , (28014,  28,       3265) /* Spell - SpiritLoather6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28014,  3265,      2) ;
+VALUES (28014,  3265,      2)  /* SpiritLoather6 */;

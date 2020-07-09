@@ -39,5 +39,5 @@ VALUES (51373,   1,   33554683) /* Setup */
      , (51373,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51373,  4471,      2) 
-     , (51373,  6084,      2) ;
+VALUES (51373,  4471,      2)  /* PiercingProtectionOther8 */
+     , (51373,  6084,      2)  /* CantripPiercingWard4 */;

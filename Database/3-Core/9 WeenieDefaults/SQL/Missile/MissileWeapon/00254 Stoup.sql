@@ -55,4 +55,4 @@ VALUES (254,   1,   33555093) /* Setup */
      , (254,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (254,   927,      2) ;
+VALUES (254,   927,      2)  /* LockpickMasterySelf6 */;

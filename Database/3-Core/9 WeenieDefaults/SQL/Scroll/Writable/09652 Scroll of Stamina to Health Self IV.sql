@@ -29,4 +29,4 @@ VALUES (9652,   1,   33554826) /* Setup */
      , (9652,  28,       1667) /* Spell - StaminaToHealthSelf4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9652,  1667,      2) ;
+VALUES (9652,  1667,      2)  /* StaminaToHealthSelf4 */;

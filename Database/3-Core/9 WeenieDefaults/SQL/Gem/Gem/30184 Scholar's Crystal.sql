@@ -47,4 +47,4 @@ VALUES (30184, 8040, 18809101, 29.13895, -22.92115, 0.5175054, 0.05374185, 0, 0,
 /* @teleloc 0x011F010D [29.138950 -22.921150 0.517505] 0.053742 0.000000 0.000000 -0.998555 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30184,  3682,      2) ;
+VALUES (30184,  3682,      2)  /* ArcaneEnlightenmentRare */;

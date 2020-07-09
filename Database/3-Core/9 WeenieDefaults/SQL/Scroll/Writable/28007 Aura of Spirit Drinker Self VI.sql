@@ -29,4 +29,4 @@ VALUES (28007,   1,   33554826) /* Setup */
      , (28007,  28,       3258) /* Spell - SpiritDrinkerSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28007,  3258,      2) ;
+VALUES (28007,  3258,      2)  /* SpiritDrinkerSelf6 */;

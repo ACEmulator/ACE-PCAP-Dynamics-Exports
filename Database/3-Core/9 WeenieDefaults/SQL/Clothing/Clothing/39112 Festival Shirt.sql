@@ -45,6 +45,6 @@ VALUES (39112,   1,   33554883) /* Setup */
      , (39112,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39112,  2501,      2) 
-     , (39112,  2506,      2) 
-     , (39112,  2512,      2) ;
+VALUES (39112,  2501,      2)  /* CANTRIPALCHEMICALPROWESS2 */
+     , (39112,  2506,      2)  /* CANTRIPCOOKINGPROWESS2 */
+     , (39112,  2512,      2)  /* CANTRIPFLETCHINGPROWESS2 */;

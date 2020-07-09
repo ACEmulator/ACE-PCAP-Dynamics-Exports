@@ -43,9 +43,9 @@ VALUES (26531,   1,   33558596) /* Setup */
      , (26531,  28,       3068) /* Spell - MinorWardRebirth */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (26531,   211,      2) 
-     , (26531,  1360,      2) 
-     , (26531,  1432,      2) 
-     , (26531,  1456,      2) 
-     , (26531,  2551,      2) 
-     , (26531,  3068,      2) ;
+VALUES (26531,   211,      2)  /* ManaRenewalOther6 */
+     , (26531,  1360,      2)  /* EnduranceOther6 */
+     , (26531,  1432,      2)  /* FocusOther6 */
+     , (26531,  1456,      2)  /* WillpowerOther6 */
+     , (26531,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
+     , (26531,  3068,      2)  /* MinorWardRebirth */;

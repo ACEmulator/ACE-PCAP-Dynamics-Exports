@@ -55,8 +55,8 @@ VALUES (130, 8040, 23527780, 55.88512, -14.21301, 5.995, -4.37114E-08, 0, 0, -1)
 /* @teleloc 0x01670164 [55.885120 -14.213010 5.995000] 0.000000 0.000000 0.000000 -1.000000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (130,  1138,      2) 
-     , (130,  2618,      2) ;
+VALUES (130,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (130,  2618,      2)  /* CANTRIPFLAMEWARD1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (130, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */

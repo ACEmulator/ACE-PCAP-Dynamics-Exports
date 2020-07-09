@@ -29,4 +29,4 @@ VALUES (21304,   1,   33554826) /* Setup */
      , (21304,  28,       2741) /* Spell - FlameArc3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21304,  2741,      2) ;
+VALUES (21304,  2741,      2)  /* FlameArc3 */;

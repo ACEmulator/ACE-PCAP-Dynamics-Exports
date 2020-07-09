@@ -39,4 +39,4 @@ VALUES (31001,   1,   33554809) /* Setup */
      , (31001,  28,       3810) /* Spell - AsheronsBenediction */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31001,  3810,      2) ;
+VALUES (31001,  3810,      2)  /* AsheronsBenediction */;

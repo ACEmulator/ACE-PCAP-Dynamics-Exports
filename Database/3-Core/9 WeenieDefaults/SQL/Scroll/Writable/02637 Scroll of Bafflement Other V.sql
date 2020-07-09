@@ -29,4 +29,4 @@ VALUES (2637,   1,   33554826) /* Setup */
      , (2637,  28,       1443) /* Spell - BafflementOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2637,  1443,      2) ;
+VALUES (2637,  1443,      2)  /* BafflementOther5 */;

@@ -55,8 +55,8 @@ VALUES (42306,   1,   33560920) /* Setup */
      , (42306,  55,       1788) /* ProcSpell - LightningRing */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42306,  1788,      2) 
-     , (42306,  2060,      2) 
-     , (42306,  2096,      2) 
-     , (42306,  2101,      2) 
-     , (42306,  2116,      2) ;
+VALUES (42306,  1788,      2)  /* LightningRing */
+     , (42306,  2060,      2)  /* EnduranceOther7 */
+     , (42306,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (42306,  2101,      2)  /* DefenderSelf7 */
+     , (42306,  2116,      2)  /* SwiftKillerSelf7 */;

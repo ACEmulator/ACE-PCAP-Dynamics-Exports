@@ -40,4 +40,4 @@ VALUES (2400,   1,   33554809) /* Setup */
      , (2400,  28,        170) /* Spell - RegenerationSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2400,  1311,      2) ;
+VALUES (2400,  1311,      2)  /* ArmorSelf5 */;

@@ -29,7 +29,7 @@ VALUES (28015,   1,   33554826) /* Setup */
      , (28015,  28,       3266) /* Spell - SpiritLoather7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28015,  3266,      2) ;
+VALUES (28015,  3266,      2)  /* SpiritLoather7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28015, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

@@ -42,4 +42,4 @@ VALUES (36021,   1,   33554809) /* Setup */
      , (36021,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36021,  4139,      2) ;
+VALUES (36021,  4139,      2)  /* SwordMasterySpectral */;

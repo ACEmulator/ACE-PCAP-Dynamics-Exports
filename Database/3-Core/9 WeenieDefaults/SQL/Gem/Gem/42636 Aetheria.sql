@@ -44,4 +44,4 @@ VALUES (42636,   1,   33554809) /* Setup */
      , (42636,  55,       5206) /* ProcSpell - AetheriaProcDamageReduction */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42636,  5206,      2) ;
+VALUES (42636,  5206,      2)  /* AetheriaProcDamageReduction */;

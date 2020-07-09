@@ -39,4 +39,4 @@ VALUES (37262,   1,   33560546) /* Setup */
      , (37262,  28,       4281) /* Spell - FocusJesterDeck */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37262,  4281,      2) ;
+VALUES (37262,  4281,      2)  /* FocusJesterDeck */;

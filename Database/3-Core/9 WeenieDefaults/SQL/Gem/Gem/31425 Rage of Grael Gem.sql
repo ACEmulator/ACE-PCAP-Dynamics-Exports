@@ -36,4 +36,4 @@ VALUES (31425,   1,   33554809) /* Setup */
      , (31425,  28,       3828) /* Spell - CantripRageofGrael */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31425,  3828,      2) ;
+VALUES (31425,  3828,      2)  /* CantripRageofGrael */;

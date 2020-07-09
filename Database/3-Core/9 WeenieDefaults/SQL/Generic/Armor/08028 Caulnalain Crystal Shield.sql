@@ -57,6 +57,6 @@ VALUES (8028, 8040, 23855548, 49.1735, -31.9955, -0.07400001, 0.5374959, 0.07897
 /* @teleloc 0x016C01BC [49.173500 -31.995500 -0.074000] 0.537496 0.078970 -0.838897 -0.033383 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8028,   247,      2) 
-     , (8028,  2004,      2) 
-     , (8028,  2008,      2) ;
+VALUES (8028,   247,      2)  /* InvulnerabilitySelf4 */
+     , (8028,  2004,      2)  /* WarriorsVitality */
+     , (8028,  2008,      2)  /* WarriorsVigor */;

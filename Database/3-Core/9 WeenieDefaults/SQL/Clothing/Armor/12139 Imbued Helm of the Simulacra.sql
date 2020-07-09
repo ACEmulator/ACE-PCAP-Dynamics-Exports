@@ -54,10 +54,10 @@ VALUES (12139,   1,   33556883) /* Setup */
      , (12139,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (12139,  2108,      2) 
-     , (12139,  2226,      2) 
-     , (12139,  2243,      2) 
-     , (12139,  2245,      2) 
-     , (12139,  2281,      2) 
-     , (12139,  2510,      2) 
-     , (12139,  2592,      2) ;
+VALUES (12139,  2108,      2)  /* Impenetrability7 */
+     , (12139,  2226,      2)  /* DeceptionMasteryOther7 */
+     , (12139,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (12139,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (12139,  2281,      2)  /* MagicResistanceSelf7 */
+     , (12139,  2510,      2)  /* CANTRIPDECEPTIONPROWESS2 */
+     , (12139,  2592,      2)  /* CANTRIPIMPENETRABILITY2 */;

@@ -29,4 +29,4 @@ VALUES (1859,   1,   33554826) /* Setup */
      , (1859,  28,       1237) /* Spell - DrainHealth1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1859,  1237,      2) ;
+VALUES (1859,  1237,      2)  /* DrainHealth1 */;

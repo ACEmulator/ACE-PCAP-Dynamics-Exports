@@ -33,4 +33,4 @@ VALUES (31383, 8040, 23855548, 54.02314, -27.82755, 0.0855, -0.06455702, 0, 0, -
 /* @teleloc 0x016C01BC [54.023140 -27.827550 0.085500] -0.064557 0.000000 0.000000 -0.997914 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31383,  3818,      2) ;
+VALUES (31383,  3818,      2)  /* CurseRavenFury */;

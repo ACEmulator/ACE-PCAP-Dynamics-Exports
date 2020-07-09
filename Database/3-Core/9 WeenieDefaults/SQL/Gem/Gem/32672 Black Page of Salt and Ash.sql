@@ -39,4 +39,4 @@ VALUES (32672,   1,   33554809) /* Setup */
      , (32672,  28,       3869) /* Spell - CantripSaltAshAttackMod */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32672,  3869,      2) ;
+VALUES (32672,  3869,      2)  /* CantripSaltAshAttackMod */;

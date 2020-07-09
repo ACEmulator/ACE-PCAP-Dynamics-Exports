@@ -60,8 +60,8 @@ VALUES (53309, 8040, 19005708, 33.36409, -10.4838, -0.07000001, -0.2370939, 0, 0
 /* @teleloc 0x0122010C [33.364090 -10.483800 -0.070000] -0.237094 0.000000 0.000000 -0.971487 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53309,  4395,      2) 
-     , (53309,  4400,      2) 
-     , (53309,  4417,      2) 
-     , (53309,  4522,      2) 
-     , (53309,  6044,      2) ;
+VALUES (53309,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (53309,  4400,      2)  /* DefenderSelf8 */
+     , (53309,  4417,      2)  /* SwiftKillerSelf8 */
+     , (53309,  4522,      2)  /* BowMasterySelf8 */
+     , (53309,  6044,      2)  /* CantripBowAptitude4 */;

@@ -43,4 +43,4 @@ VALUES (36506,   1,   33556769) /* Setup */
      , (36506,  50,  100676404) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36506,   157,      2) ;
+VALUES (36506,   157,      2)  /* SummonPortal1 */;

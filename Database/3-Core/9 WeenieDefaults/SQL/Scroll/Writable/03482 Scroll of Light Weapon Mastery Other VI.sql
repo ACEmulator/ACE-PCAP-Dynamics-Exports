@@ -29,4 +29,4 @@ VALUES (3482,   1,   33554826) /* Setup */
      , (3482,  28,        297) /* Spell - AxeMasteryOther6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3482,   297,      2) ;
+VALUES (3482,   297,      2)  /* AxeMasteryOther6 */;

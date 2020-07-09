@@ -61,6 +61,6 @@ VALUES (8030, 8040, 2238578958, 153.7327, 157.0543, 9.625999, 0.3324405, -0.5741
 /* @teleloc 0x856E010E [153.732700 157.054300 9.625999] 0.332441 -0.574100 -0.616760 -0.423674 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8030,   248,      2) 
-     , (8030,  2005,      2) 
-     , (8030,  2009,      2) ;
+VALUES (8030,   248,      2)  /* InvulnerabilitySelf5 */
+     , (8030,  2005,      2)  /* WarriorsGreaterVitality */
+     , (8030,  2009,      2)  /* WarriorsGreaterVigor */;

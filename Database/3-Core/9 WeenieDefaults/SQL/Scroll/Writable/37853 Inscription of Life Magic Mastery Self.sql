@@ -29,4 +29,4 @@ VALUES (37853,   1,   33554826) /* Setup */
      , (37853,  28,       4582) /* Spell - LifeMagicMasterySelf8 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (37853,  4582,      2) ;
+VALUES (37853,  4582,      2)  /* LifeMagicMasterySelf8 */;

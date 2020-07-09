@@ -51,10 +51,10 @@ VALUES (29371,   1,   33559356) /* Setup */
      , (29371,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (29371,  2108,      2) 
-     , (29371,  2195,      2) 
-     , (29371,  2243,      2) 
-     , (29371,  2245,      2) 
-     , (29371,  2281,      2) 
-     , (29371,  2573,      2) 
-     , (29371,  2576,      2) ;
+VALUES (29371,  2108,      2)  /* Impenetrability7 */
+     , (29371,  2195,      2)  /* ArcaneEnlightenmentSelf7 */
+     , (29371,  2243,      2)  /* ImpregnabilitySelf7 */
+     , (29371,  2245,      2)  /* InvulnerabilitySelf7 */
+     , (29371,  2281,      2)  /* MagicResistanceSelf7 */
+     , (29371,  2573,      2)  /* CANTRIPENDURANCE2 */
+     , (29371,  2576,      2)  /* CANTRIPSTRENGTH2 */;

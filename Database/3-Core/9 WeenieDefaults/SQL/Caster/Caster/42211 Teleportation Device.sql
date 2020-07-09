@@ -52,4 +52,4 @@ VALUES (42211, 8040, 3147759892, 142.3663, 108.306, 63.584, 0.5818546, 0.5818546
 /* @teleloc 0xBB9F0114 [142.366300 108.306000 63.584000] 0.581855 0.581855 -0.401803 -0.401803 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42211,  5175,      2) ;
+VALUES (42211,  5175,      2)  /* PortalSendHubNPE */;

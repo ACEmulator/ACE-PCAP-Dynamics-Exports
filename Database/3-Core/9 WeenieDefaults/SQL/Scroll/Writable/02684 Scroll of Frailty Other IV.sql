@@ -29,4 +29,4 @@ VALUES (2684,   1,   33554826) /* Setup */
      , (2684,  28,       1370) /* Spell - FrailtyOther4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2684,  1370,      2) ;
+VALUES (2684,  1370,      2)  /* FrailtyOther4 */;

@@ -44,9 +44,9 @@ VALUES (33953, 8040, 3583574079, 183.1973, 160.3552, 374, 0.9549823, 0, 0, -0.29
 /* @teleloc 0xD599003F [183.197300 160.355200 374.000000] 0.954982 0.000000 0.000000 -0.296663 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33953,  2014,      2) 
-     , (33953,  2178,      2) 
-     , (33953,  2249,      2) 
-     , (33953,  2267,      2) 
-     , (33953,  2287,      2) 
-     , (33953,  2664,      2) ;
+VALUES (33953,  2014,      2)  /* WizardsUltimateIntellect */
+     , (33953,  2178,      2)  /* FesterOther7 */
+     , (33953,  2249,      2)  /* ItemEnchantmentMasterySelf7 */
+     , (33953,  2267,      2)  /* LifeMagicMasterySelf7 */
+     , (33953,  2287,      2)  /* ManaMasterySelf7 */
+     , (33953,  2664,      2)  /* ModerateWillpower */;

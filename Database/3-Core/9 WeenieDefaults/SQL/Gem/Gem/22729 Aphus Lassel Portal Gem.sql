@@ -40,4 +40,4 @@ VALUES (22729,   1,   33556769) /* Setup */
      , (22729,  28,       2936) /* Spell - PortalSendingTuskerIsland */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22729,  2936,      2) ;
+VALUES (22729,  2936,      2)  /* PortalSendingTuskerIsland */;

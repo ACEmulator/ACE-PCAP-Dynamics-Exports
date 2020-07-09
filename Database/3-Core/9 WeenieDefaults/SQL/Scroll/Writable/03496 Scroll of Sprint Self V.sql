@@ -29,4 +29,4 @@ VALUES (3496,   1,   33554826) /* Setup */
      , (3496,  28,        986) /* Spell - SprintSelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3496,   986,      2) ;
+VALUES (3496,   986,      2)  /* SprintSelf5 */;

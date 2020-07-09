@@ -31,4 +31,4 @@ VALUES (35479,   1,   33554826) /* Setup */
      , (35479,  28,       4084) /* Spell - RecallBur */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35479,  4084,      2) ;
+VALUES (35479,  4084,      2)  /* RecallBur */;

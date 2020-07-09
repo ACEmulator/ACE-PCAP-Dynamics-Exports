@@ -29,4 +29,4 @@ VALUES (53342,   1,   33554826) /* Setup */
      , (53342,  28,       6196) /* Spell - TectonicRiftsII */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53342,  6196,      2) ;
+VALUES (53342,  6196,      2)  /* TectonicRiftsII */;

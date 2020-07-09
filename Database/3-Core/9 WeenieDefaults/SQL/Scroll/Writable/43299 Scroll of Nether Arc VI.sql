@@ -29,4 +29,4 @@ VALUES (43299,   1,   33554826) /* Setup */
      , (43299,  28,       5366) /* Spell - NetherArc6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43299,  5366,      2) ;
+VALUES (43299,  5366,      2)  /* NetherArc6 */;

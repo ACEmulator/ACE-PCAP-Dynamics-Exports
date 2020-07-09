@@ -29,4 +29,4 @@ VALUES (20234,   1,   33554826) /* Setup */
      , (20234,  28,       2058) /* Spell - CoordinationOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20234,  2058,      2) ;
+VALUES (20234,  2058,      2)  /* CoordinationOther7 */;

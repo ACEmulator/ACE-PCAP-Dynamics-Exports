@@ -53,4 +53,4 @@ VALUES (21376, 8040, 3133538325, 60.4578, 106.854, 382.7099, 0.440387, 0, 0, 0.8
 /* @teleloc 0xBAC60015 [60.457800 106.854000 382.709900] 0.440387 0.000000 0.000000 0.897808 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21376,   592,      2) ;
+VALUES (21376,   592,      2)  /* ItemEnchantmentMasteryOther6 */;

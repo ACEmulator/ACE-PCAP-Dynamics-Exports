@@ -45,4 +45,4 @@ VALUES (43407, 8040, 18809101, 30.116, -22.81568, 0.5175131, 0.05374185, 0, 0, -
 /* @teleloc 0x011F010D [30.116000 -22.815680 0.517513] 0.053742 0.000000 0.000000 -0.998555 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (43407,  5436,      2) ;
+VALUES (43407,  5436,      2)  /* VoidMagicMasteryRare */;

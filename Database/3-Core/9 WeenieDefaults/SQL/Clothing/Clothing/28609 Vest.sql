@@ -52,7 +52,7 @@ VALUES (28609,   1,   33554642) /* Setup */
      , (28609,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (28609,  1311,      2) ;
+VALUES (28609,  1311,      2)  /* ArmorSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (28609, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */

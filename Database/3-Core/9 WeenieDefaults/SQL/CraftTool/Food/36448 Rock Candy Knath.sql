@@ -41,4 +41,4 @@ VALUES (36448,   1,   33555630) /* Setup */
      , (36448,  28,       4210) /* Spell - JumpSpin */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36448,  4210,      2) ;
+VALUES (36448,  4210,      2)  /* JumpSpin */;

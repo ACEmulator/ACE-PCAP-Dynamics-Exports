@@ -29,4 +29,4 @@ VALUES (3423,   1,   33554826) /* Setup */
      , (3423,  28,        281) /* Spell - MagicYieldOther2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3423,   281,      2) ;
+VALUES (3423,   281,      2)  /* MagicYieldOther2 */;

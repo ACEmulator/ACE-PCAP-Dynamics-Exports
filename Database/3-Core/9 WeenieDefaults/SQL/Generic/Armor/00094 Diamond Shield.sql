@@ -56,10 +56,10 @@ VALUES (94, 8040, 2114192370, 191.9533, -405.5346, -0.07400001, 0.4121966, 0.635
 /* @teleloc 0x7E0403F2 [191.953300 -405.534600 -0.074000] 0.412197 0.635810 -0.552928 0.346569 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (94,  1483,      2) 
-     , (94,  1538,      2) 
-     , (94,  1559,      2) 
-     , (94,  1572,      2) ;
+VALUES (94,  1483,      2)  /* Impenetrability3 */
+     , (94,  1538,      2)  /* LightningBane4 */
+     , (94,  1559,      2)  /* BladeBane3 */
+     , (94,  1572,      2)  /* PiercingBane4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (94, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */

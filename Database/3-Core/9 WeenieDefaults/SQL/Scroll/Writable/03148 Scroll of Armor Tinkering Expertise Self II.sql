@@ -29,4 +29,4 @@ VALUES (3148,   1,   33554826) /* Setup */
      , (3148,  28,        703) /* Spell - ArmorExpertiseSelf2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3148,   703,      2) ;
+VALUES (3148,   703,      2)  /* ArmorExpertiseSelf2 */;

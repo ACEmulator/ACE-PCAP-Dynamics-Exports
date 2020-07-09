@@ -29,4 +29,4 @@ VALUES (2772,   1,   33554826) /* Setup */
      , (2772,  28,       1558) /* Spell - BladeBane2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2772,  1558,      2) ;
+VALUES (2772,  1558,      2)  /* BladeBane2 */;

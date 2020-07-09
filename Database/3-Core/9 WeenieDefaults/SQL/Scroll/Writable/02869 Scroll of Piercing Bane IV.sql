@@ -33,4 +33,4 @@ VALUES (2869, 8040, 3562209536, 96.93739, 49.03295, 34.8855, -0.931491, 0, 0, -0
 /* @teleloc 0xD4530100 [96.937390 49.032950 34.885500] -0.931491 0.000000 0.000000 -0.363764 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2869,  1572,      2) ;
+VALUES (2869,  1572,      2)  /* PiercingBane4 */;

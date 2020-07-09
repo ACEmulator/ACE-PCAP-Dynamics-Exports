@@ -29,4 +29,4 @@ VALUES (1730,   1,   33554826) /* Setup */
      , (1730,  28,        830) /* Spell - PersonAttunementOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1730,   830,      2) ;
+VALUES (1730,   830,      2)  /* PersonAttunementOther1 */;

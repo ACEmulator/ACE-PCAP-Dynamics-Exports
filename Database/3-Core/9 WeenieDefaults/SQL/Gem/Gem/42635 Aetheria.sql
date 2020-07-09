@@ -44,4 +44,4 @@ VALUES (42635,   1,   33554809) /* Setup */
      , (42635,  55,       5208) /* ProcSpell - AetheriaProcHealthOverTime */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (42635,  5208,      2) ;
+VALUES (42635,  5208,      2)  /* AetheriaProcHealthOverTime */;

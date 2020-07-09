@@ -41,6 +41,6 @@ VALUES (25539, 8040, 2847080480, 84.07991, 186.638, 94.46708, 0.9473113, 0, 0, 0
 /* @teleloc 0xA9B30020 [84.079910 186.638000 94.467080] 0.947311 0.000000 0.000000 0.320314 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25539,  2004,      2) 
-     , (25539,  2580,      2) 
-     , (25539,  2583,      2) ;
+VALUES (25539,  2004,      2)  /* WarriorsVitality */
+     , (25539,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (25539,  2583,      2)  /* CANTRIPSTRENGTH1 */;

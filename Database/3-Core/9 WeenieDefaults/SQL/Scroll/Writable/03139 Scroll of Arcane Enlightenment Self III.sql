@@ -29,4 +29,4 @@ VALUES (3139,   1,   33554826) /* Setup */
      , (3139,  28,        680) /* Spell - ArcaneEnlightenmentSelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3139,   680,      2) ;
+VALUES (3139,   680,      2)  /* ArcaneEnlightenmentSelf3 */;

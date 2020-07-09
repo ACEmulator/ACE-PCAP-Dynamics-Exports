@@ -55,10 +55,10 @@ VALUES (40703,   1,   33557878) /* Setup */
      , (40703,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40703,  1354,      2) 
-     , (40703,  2098,      2) 
-     , (40703,  2108,      2) 
-     , (40703,  2113,      2) 
-     , (40703,  2527,      2) 
-     , (40703,  2580,      2) 
-     , (40703,  2601,      2) ;
+VALUES (40703,  1354,      2)  /* EnduranceSelf6 */
+     , (40703,  2098,      2)  /* BludgeonBane7 */
+     , (40703,  2108,      2)  /* Impenetrability7 */
+     , (40703,  2113,      2)  /* PiercingBane7 */
+     , (40703,  2527,      2)  /* CANTRIPPERSONATTUNEMENT2 */
+     , (40703,  2580,      2)  /* CANTRIPENDURANCE1 */
+     , (40703,  2601,      2)  /* CANTRIPFLAMEBANE1 */;

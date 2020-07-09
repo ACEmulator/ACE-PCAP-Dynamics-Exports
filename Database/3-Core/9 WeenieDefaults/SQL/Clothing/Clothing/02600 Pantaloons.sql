@@ -50,4 +50,4 @@ VALUES (2600,   1,   33554653) /* Setup */
      , (2600,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2600,  1311,      2) ;
+VALUES (2600,  1311,      2)  /* ArmorSelf5 */;

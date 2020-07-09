@@ -50,11 +50,11 @@ VALUES (33243, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* 
 /* @teleloc 0x016C01BC [49.206000 -31.960000 -0.071000] 0.500000 0.500000 -0.500000 -0.500000 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33243,  2286,      2) 
-     , (33243,  2525,      2) 
-     , (33243,  2616,      2) 
-     , (33243,  2618,      2) 
-     , (33243,  2619,      2) 
-     , (33243,  2622,      2) 
-     , (33243,  3200,      2) 
-     , (33243,  3926,      2) ;
+VALUES (33243,  2286,      2)  /* ManaMasteryOther7 */
+     , (33243,  2525,      2)  /* CANTRIPMANACONVERSIONPROWESS2 */
+     , (33243,  2616,      2)  /* CANTRIPACIDWARD1 */
+     , (33243,  2618,      2)  /* CANTRIPFLAMEWARD1 */
+     , (33243,  2619,      2)  /* CANTRIPFROSTWARD1 */
+     , (33243,  2622,      2)  /* CANTRIPSTORMWARD1 */
+     , (33243,  3200,      2)  /* CantripHermeticLink2 */
+     , (33243,  3926,      2)  /* HarbingersFieryTouch */;

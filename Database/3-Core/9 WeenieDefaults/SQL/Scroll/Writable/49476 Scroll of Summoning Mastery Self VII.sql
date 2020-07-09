@@ -29,4 +29,4 @@ VALUES (49476,   1,   33554826) /* Setup */
      , (49476,  28,       6122) /* Spell - SummoningMasterySelf7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (49476,  6122,      2) ;
+VALUES (49476,  6122,      2)  /* SummoningMasterySelf7 */;

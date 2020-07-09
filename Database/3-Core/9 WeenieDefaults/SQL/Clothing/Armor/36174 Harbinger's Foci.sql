@@ -53,13 +53,13 @@ VALUES (36174, 8040, 306577453, 135.6958, 97.14782, 51.94676, -0.4898461, 0, 0, 
 /* @teleloc 0x1246002D [135.695800 97.147820 51.946760] -0.489846 0.000000 0.000000 -0.871809 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (36174,  2108,      2) 
-     , (36174,  2281,      2) 
-     , (36174,  3978,      2) 
-     , (36174,  3979,      2) 
-     , (36174,  4170,      2) 
-     , (36174,  4171,      2) 
-     , (36174,  4172,      2) 
-     , (36174,  4173,      2) 
-     , (36174,  4174,      2) 
-     , (36174,  4175,      2) ;
+VALUES (36174,  2108,      2)  /* Impenetrability7 */
+     , (36174,  2281,      2)  /* MagicResistanceSelf7 */
+     , (36174,  3978,      2)  /* FocusOtherIncantation */
+     , (36174,  3979,      2)  /* StrengthOtherIncantation */
+     , (36174,  4170,      2)  /* HarbingerCantripCoordination3 */
+     , (36174,  4171,      2)  /* HarbingerCantripEndurance3 */
+     , (36174,  4172,      2)  /* HarbingerCantripFocus3 */
+     , (36174,  4173,      2)  /* HarbingerCantripQuickness3 */
+     , (36174,  4174,      2)  /* HarbingerCantripStrength3 */
+     , (36174,  4175,      2)  /* HarbingerCantripWillpower3 */;

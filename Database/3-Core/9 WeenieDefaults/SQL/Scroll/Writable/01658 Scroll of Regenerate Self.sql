@@ -29,4 +29,4 @@ VALUES (1658,   1,   33554826) /* Setup */
      , (1658,  28,        165) /* Spell - RegenerationSelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1658,   165,      2) ;
+VALUES (1658,   165,      2)  /* RegenerationSelf1 */;

@@ -29,4 +29,4 @@ VALUES (46861,   1,   33554826) /* Setup */
      , (46861,  28,       5992) /* Spell - BloodDrinkerOther3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46861,  5992,      2) ;
+VALUES (46861,  5992,      2)  /* BloodDrinkerOther3 */;

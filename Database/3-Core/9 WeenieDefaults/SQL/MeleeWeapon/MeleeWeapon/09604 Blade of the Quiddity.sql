@@ -48,7 +48,7 @@ VALUES (9604,   1,   33557106) /* Setup */
      , (9604,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (9604,  1590,      2) 
-     , (9604,  1603,      2) 
-     , (9604,  1615,      2) 
-     , (9604,  1625,      2) ;
+VALUES (9604,  1590,      2)  /* HeartSeekerSelf4 */
+     , (9604,  1603,      2)  /* DefenderSelf4 */
+     , (9604,  1615,      2)  /* BloodDrinkerSelf5 */
+     , (9604,  1625,      2)  /* SwiftKillerSelf4 */;

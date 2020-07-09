@@ -53,8 +53,8 @@ VALUES (51989, 8040, 1676148780, 129.8099, 94.87209, 131.929, -0.7056385, -0.705
 /* @teleloc 0x63E8002C [129.809900 94.872090 131.929000] -0.705639 -0.705639 -0.045544 -0.045544 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (51989,  3964,      2) 
-     , (51989,  4227,      2) 
-     , (51989,  4400,      2) 
-     , (51989,  4414,      2) 
-     , (51989,  6075,      2) ;
+VALUES (51989,  3964,      2)  /* CANTRIPFOCUS3 */
+     , (51989,  4227,      2)  /* CANTRIPWILLPOWER3 */
+     , (51989,  4400,      2)  /* DefenderSelf8 */
+     , (51989,  4414,      2)  /* SpiritDrinkerSelf8 */
+     , (51989,  6075,      2)  /* CantripWarMagicAptitude4 */;

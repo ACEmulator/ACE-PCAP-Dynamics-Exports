@@ -51,10 +51,10 @@ VALUES (33587, 8040, 722599961, 82.85147, 4.986631, 72.9286, 0.7422577, 0, 0, -0
 /* @teleloc 0x2B120019 [82.851470 4.986631 72.928600] 0.742258 0.000000 0.000000 -0.670115 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33587,  2108,      2) 
-     , (33587,  2214,      2) 
-     , (33587,  2248,      2) 
-     , (33587,  2266,      2) 
-     , (33587,  2322,      2) 
-     , (33587,  3576,      2) 
-     , (33587,  5409,      2) ;
+VALUES (33587,  2108,      2)  /* Impenetrability7 */
+     , (33587,  2214,      2)  /* CreatureEnchantmentMasteryOther7 */
+     , (33587,  2248,      2)  /* ItemEnchantmentMasteryOther7 */
+     , (33587,  2266,      2)  /* LifeMagicMasteryOther7 */
+     , (33587,  2322,      2)  /* WarMagicMasteryOther7 */
+     , (33587,  3576,      2)  /* PerfectHealth */
+     , (33587,  5409,      2)  /* VoidMagicMasteryOther7 */;

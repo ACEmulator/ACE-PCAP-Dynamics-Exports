@@ -29,4 +29,4 @@ VALUES (53340,   1,   33554826) /* Setup */
      , (53340,  28,       6193) /* Spell - HaloOfFrostII */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53340,  6193,      2) ;
+VALUES (53340,  6193,      2)  /* HaloOfFrostII */;

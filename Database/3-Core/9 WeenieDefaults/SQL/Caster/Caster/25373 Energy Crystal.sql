@@ -50,6 +50,6 @@ VALUES (25373, 8040, 1676148781, 129.6765, 97.59582, 131.3991, -0.7017742, -0.70
 /* @teleloc 0x63E8002D [129.676500 97.595820 131.399100] -0.701774 -0.701774 -0.086677 -0.086677 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25373,  2542,      2) 
-     , (25373,  2551,      2) 
-     , (25373,  2627,      2) ;
+VALUES (25373,  2542,      2)  /* CANTRIPCREATUREENCHANTMENTAPTITUDE1 */
+     , (25373,  2551,      2)  /* CANTRIPITEMENCHANTMENTAPTITUDE1 */
+     , (25373,  2627,      2)  /* CANTRIPMANAGAIN1 */;

@@ -29,4 +29,4 @@ VALUES (2931,   1,   33554826) /* Setup */
      , (2931,  28,         88) /* Spell - ForceBolt3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2931,    88,      2) ;
+VALUES (2931,    88,      2)  /* ForceBolt3 */;

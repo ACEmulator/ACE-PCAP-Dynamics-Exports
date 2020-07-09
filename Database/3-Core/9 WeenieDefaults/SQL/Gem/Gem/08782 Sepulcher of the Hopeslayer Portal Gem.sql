@@ -44,4 +44,4 @@ VALUES (8782,   1,   33556769) /* Setup */
      , (8782,  28,       2040) /* Spell - SummonPortalHopeslayer */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (8782,  2040,      2) ;
+VALUES (8782,  2040,      2)  /* SummonPortalHopeslayer */;

@@ -39,4 +39,4 @@ VALUES (41442,   1,   33554809) /* Setup */
      , (41442,  37,         35) /* ItemSkillLimit - Leadership */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41442,  5122,      2) ;
+VALUES (41442,  5122,      2)  /* CallOfLeadership5 */;

@@ -47,4 +47,4 @@ VALUES (30209, 8040, 23855555, 56.02839, -40.87183, -0.001000002, 0.9214813, 0, 
 /* @teleloc 0x016C01C3 [56.028390 -40.871830 -0.001000] 0.921481 0.000000 0.000000 -0.388423 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30209,  3707,      2) ;
+VALUES (30209,  3707,      2)  /* HealingMasteryRare */;

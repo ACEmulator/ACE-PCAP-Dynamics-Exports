@@ -51,4 +51,4 @@ VALUES (101,   1,   33554655) /* Setup */
      , (101,  37,          6) /* ItemSkillLimit - MeleeDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (101,  1485,      2) ;
+VALUES (101,  1485,      2)  /* Impenetrability5 */;

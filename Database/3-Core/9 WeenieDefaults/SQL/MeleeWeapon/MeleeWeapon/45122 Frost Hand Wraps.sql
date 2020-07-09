@@ -60,8 +60,8 @@ VALUES (45122,   1,   33561414) /* Setup */
      , (45122,  52,  100676435) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45122,  1614,      2) 
-     , (45122,  1626,      2) ;
+VALUES (45122,  1614,      2)  /* BloodDrinkerSelf4 */
+     , (45122,  1626,      2)  /* SwiftKillerSelf5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (45122, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

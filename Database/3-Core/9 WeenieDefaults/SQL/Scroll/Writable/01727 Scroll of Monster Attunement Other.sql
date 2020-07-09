@@ -29,4 +29,4 @@ VALUES (1727,   1,   33554826) /* Setup */
      , (1727,  28,        804) /* Spell - MonsterAttunementOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1727,   804,      2) ;
+VALUES (1727,   804,      2)  /* MonsterAttunementOther1 */;

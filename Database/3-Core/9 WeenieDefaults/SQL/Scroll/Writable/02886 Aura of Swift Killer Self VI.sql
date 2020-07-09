@@ -29,4 +29,4 @@ VALUES (2886,   1,   33554826) /* Setup */
      , (2886,  28,       1627) /* Spell - SwiftKillerSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2886,  1627,      2) ;
+VALUES (2886,  1627,      2)  /* SwiftKillerSelf6 */;

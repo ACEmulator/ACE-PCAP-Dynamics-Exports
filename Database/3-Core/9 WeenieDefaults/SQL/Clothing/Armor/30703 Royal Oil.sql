@@ -45,9 +45,9 @@ VALUES (30703,   1,   33554641) /* Setup */
      , (30703,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30703,   211,      2) 
-     , (30703,  1138,      2) 
-     , (30703,  1426,      2) 
-     , (30703,  1450,      2) 
-     , (30703,  2584,      2) 
-     , (30703,  2661,      2) ;
+VALUES (30703,   211,      2)  /* ManaRenewalOther6 */
+     , (30703,  1138,      2)  /* PiercingProtectionSelf6 */
+     , (30703,  1426,      2)  /* FocusSelf6 */
+     , (30703,  1450,      2)  /* WillpowerSelf6 */
+     , (30703,  2584,      2)  /* CANTRIPWILLPOWER1 */
+     , (30703,  2661,      2)  /* ModerateFocus */;

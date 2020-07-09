@@ -51,9 +51,9 @@ VALUES (33940,   1,   33557340) /* Setup */
      , (33940,  55,       1155) /* ProcSpell - PiercingVulnerabilityOther5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33940,  1094,      2) 
-     , (33940,  1155,      2) 
-     , (33940,  1592,      2) 
-     , (33940,  1605,      2) 
-     , (33940,  1616,      2) 
-     , (33940,  1627,      2) ;
+VALUES (33940,  1094,      2)  /* FireProtectionSelf6 */
+     , (33940,  1155,      2)  /* PiercingVulnerabilityOther5 */
+     , (33940,  1592,      2)  /* HeartSeekerSelf6 */
+     , (33940,  1605,      2)  /* DefenderSelf6 */
+     , (33940,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (33940,  1627,      2)  /* SwiftKillerSelf6 */;

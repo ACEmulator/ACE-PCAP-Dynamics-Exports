@@ -56,9 +56,9 @@ VALUES (33097,   1,   33559916) /* Setup */
      , (33097,  50,  100688915) /* IconOverlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (33097,  2059,      2) 
-     , (33097,  2096,      2) 
-     , (33097,  2101,      2) 
-     , (33097,  2106,      2) 
-     , (33097,  2116,      2) 
-     , (33097,  2694,      2) ;
+VALUES (33097,  2059,      2)  /* CoordinationSelf7 */
+     , (33097,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (33097,  2101,      2)  /* DefenderSelf7 */
+     , (33097,  2106,      2)  /* HeartSeekerSelf7 */
+     , (33097,  2116,      2)  /* SwiftKillerSelf7 */
+     , (33097,  2694,      2)  /* ModerateSwordAptitude */;

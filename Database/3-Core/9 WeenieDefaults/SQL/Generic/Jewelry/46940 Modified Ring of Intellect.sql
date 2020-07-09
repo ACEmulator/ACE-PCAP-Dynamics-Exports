@@ -41,5 +41,5 @@ VALUES (46940,   1,   33554690) /* Setup */
      , (46940,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46940,  4601,      2) 
-     , (46940,  4705,      2) ;
+VALUES (46940,  4601,      2)  /* ManaMasteryOther8 */
+     , (46940,  4705,      2)  /* CANTRIPMANACONVERSIONPROWESS3 */;

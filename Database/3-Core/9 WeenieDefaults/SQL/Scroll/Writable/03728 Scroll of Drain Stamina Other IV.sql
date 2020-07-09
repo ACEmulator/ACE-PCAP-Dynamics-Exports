@@ -29,4 +29,4 @@ VALUES (3728,   1,   33554826) /* Setup */
      , (3728,  28,       1252) /* Spell - DrainStamina4 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3728,  1252,      2) ;
+VALUES (3728,  1252,      2)  /* DrainStamina4 */;

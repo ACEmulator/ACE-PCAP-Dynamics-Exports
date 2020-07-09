@@ -60,7 +60,7 @@ VALUES (35630,   1,   33557067) /* Setup */
      , (35630,  30,         88) /* PhysicsScript - Create */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35630,  1592,      2) 
-     , (35630,  1616,      2) 
-     , (35630,  1627,      2) 
-     , (35630,  2689,      2) ;
+VALUES (35630,  1592,      2)  /* HeartSeekerSelf6 */
+     , (35630,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (35630,  1627,      2)  /* SwiftKillerSelf6 */
+     , (35630,  2689,      2)  /* ModerateDaggerAptitude */;

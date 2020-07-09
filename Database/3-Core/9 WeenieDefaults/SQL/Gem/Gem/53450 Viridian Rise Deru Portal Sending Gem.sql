@@ -41,4 +41,4 @@ VALUES (53450,   1,   33556769) /* Setup */
      , (53450,  28,       6322) /* Spell - ViridianRiseGreatTreeRecall */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (53450,  6322,      2) ;
+VALUES (53450,  6322,      2)  /* ViridianRiseGreatTreeRecall */;

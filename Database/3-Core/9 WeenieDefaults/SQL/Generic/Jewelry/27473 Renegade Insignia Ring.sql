@@ -38,6 +38,6 @@ VALUES (27473,   1,   33554690) /* Setup */
      , (27473,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27473,   466,      2) 
-     , (27473,   568,      2) 
-     , (27473,  1317,      2) ;
+VALUES (27473,   466,      2)  /* BowMasteryOther6 */
+     , (27473,   568,      2)  /* CreatureEnchantmentMasteryOther6 */
+     , (27473,  1317,      2)  /* ArmorOther6 */;

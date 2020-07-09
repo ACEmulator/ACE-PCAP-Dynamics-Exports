@@ -29,4 +29,4 @@ VALUES (3292,   1,   33554826) /* Setup */
      , (3292,  28,        261) /* Spell - ImpregnabilitySelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3292,   261,      2) ;
+VALUES (3292,   261,      2)  /* ImpregnabilitySelf6 */;

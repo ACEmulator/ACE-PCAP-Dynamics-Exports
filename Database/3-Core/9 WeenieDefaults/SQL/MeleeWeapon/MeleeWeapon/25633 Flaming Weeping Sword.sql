@@ -63,4 +63,4 @@ VALUES (25633, 8040, 3465871405, 136.5273, 96.73608, 19.929, -0.576483, -0.57648
 /* @teleloc 0xCE95002D [136.527300 96.736080 19.929000] -0.576483 -0.576483 -0.409472 -0.409472 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25633,  2689,      2) ;
+VALUES (25633,  2689,      2)  /* ModerateDaggerAptitude */;

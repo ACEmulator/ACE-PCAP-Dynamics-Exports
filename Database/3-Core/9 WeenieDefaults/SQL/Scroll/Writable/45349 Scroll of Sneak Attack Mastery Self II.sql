@@ -29,4 +29,4 @@ VALUES (45349,   1,   33554826) /* Setup */
      , (45349,  28,       5876) /* Spell - SneakAttackMasterySelf2 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45349,  5876,      2) ;
+VALUES (45349,  5876,      2)  /* SneakAttackMasterySelf2 */;

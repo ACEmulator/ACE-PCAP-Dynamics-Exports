@@ -61,8 +61,8 @@ VALUES (45436,   1,   33559404) /* Setup */
      , (45436,  52,  100686604) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45436,  3965,      2) 
-     , (45436,  4325,      2) 
-     , (45436,  4395,      2) 
-     , (45436,  4661,      2) 
-     , (45436,  4686,      2) ;
+VALUES (45436,  3965,      2)  /* CANTRIPSTRENGTH3 */
+     , (45436,  4325,      2)  /* StrengthSelf8 */
+     , (45436,  4395,      2)  /* BloodDrinkerSelf8 */
+     , (45436,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
+     , (45436,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;

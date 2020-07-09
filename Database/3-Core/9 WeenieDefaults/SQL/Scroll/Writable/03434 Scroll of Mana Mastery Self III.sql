@@ -29,4 +29,4 @@ VALUES (3434,   1,   33554826) /* Setup */
      , (3434,  28,        655) /* Spell - ManaMasterySelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (3434,   655,      2) ;
+VALUES (3434,   655,      2)  /* ManaMasterySelf3 */;

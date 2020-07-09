@@ -38,5 +38,5 @@ VALUES (11784,   1,   33557255) /* Setup */
      , (11784,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (11784,   657,      2) 
-     , (11784,  1310,      2) ;
+VALUES (11784,   657,      2)  /* ManaMasterySelf5 */
+     , (11784,  1310,      2)  /* ArmorSelf4 */;

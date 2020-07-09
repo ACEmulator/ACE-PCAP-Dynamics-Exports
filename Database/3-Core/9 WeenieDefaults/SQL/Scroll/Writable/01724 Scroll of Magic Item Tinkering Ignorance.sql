@@ -29,4 +29,4 @@ VALUES (1724,   1,   33554826) /* Setup */
      , (1724,  28,        768) /* Spell - MagicItemIgnoranceOther1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1724,   768,      2) ;
+VALUES (1724,   768,      2)  /* MagicItemIgnoranceOther1 */;

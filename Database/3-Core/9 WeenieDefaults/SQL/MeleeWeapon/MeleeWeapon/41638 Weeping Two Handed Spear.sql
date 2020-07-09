@@ -63,4 +63,4 @@ VALUES (41638, 8040, 3111059485, 83.8279, 106.7387, 18.3812, -0.01308082, -0.013
 /* @teleloc 0xB96F001D [83.827900 106.738700 18.381200] -0.013081 -0.013081 -0.706986 -0.706986 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (41638,  5074,      2) ;
+VALUES (41638,  5074,      2)  /* ModerateTwoHandedAptitude */;

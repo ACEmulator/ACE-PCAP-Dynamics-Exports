@@ -56,9 +56,9 @@ VALUES (21157,   1,   33554641) /* Setup */
      , (21157,  37,          7) /* ItemSkillLimit - MissileDefense */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21157,  1485,      2) 
-     , (21157,  1552,      2) 
-     , (21157,  1561,      2) ;
+VALUES (21157,  1485,      2)  /* Impenetrability5 */
+     , (21157,  1552,      2)  /* FlameBane6 */
+     , (21157,  1561,      2)  /* BladeBane5 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21157, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

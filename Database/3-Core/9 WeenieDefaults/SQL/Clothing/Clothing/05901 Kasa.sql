@@ -50,9 +50,9 @@ VALUES (5901,   1,   33556236) /* Setup */
      , (5901,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (5901,  1485,      2) 
-     , (5901,  1527,      2) 
-     , (5901,  1551,      2) 
-     , (5901,  1561,      2) 
-     , (5901,  2583,      2) 
-     , (5901,  5808,      2) ;
+VALUES (5901,  1485,      2)  /* Impenetrability5 */
+     , (5901,  1527,      2)  /* FrostBane5 */
+     , (5901,  1551,      2)  /* FlameBane5 */
+     , (5901,  1561,      2)  /* BladeBane5 */
+     , (5901,  2583,      2)  /* CANTRIPSTRENGTH1 */
+     , (5901,  5808,      2)  /* DualWieldMasterySelf6 */;

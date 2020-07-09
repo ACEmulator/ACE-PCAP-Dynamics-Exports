@@ -64,6 +64,6 @@ VALUES (40388, 8040, 9896209, 204.2289, -120.8184, -48.071, -0.5781875, -0.57818
 /* @teleloc 0x00970111 [204.228900 -120.818400 -48.071000] -0.578188 -0.578188 -0.407062 -0.407062 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40388,  2446,      2) 
-     , (40388,  2449,      2) 
-     , (40388,  2452,      2) ;
+VALUES (40388,  2446,      2)  /* GrowthGreater */
+     , (40388,  2449,      2)  /* HuntersAcumenGreater */
+     , (40388,  2452,      2)  /* ThornsGreater */;

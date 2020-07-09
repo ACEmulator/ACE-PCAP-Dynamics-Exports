@@ -29,4 +29,4 @@ VALUES (20467,   1,   33554826) /* Setup */
      , (20467,  28,       2162) /* Spell - AcidVulnerabilityOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20467,  2162,      2) ;
+VALUES (20467,  2162,      2)  /* AcidVulnerabilityOther7 */;

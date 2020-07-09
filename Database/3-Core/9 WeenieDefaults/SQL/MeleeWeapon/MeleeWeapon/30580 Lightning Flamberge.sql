@@ -61,9 +61,9 @@ VALUES (30580,   1,   33559468) /* Setup */
      , (30580,  37,         44) /* ItemSkillLimit - HeavyWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (30580,  1616,      2) 
-     , (30580,  2101,      2) 
-     , (30580,  5887,      2) ;
+VALUES (30580,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (30580,  2101,      2)  /* DefenderSelf7 */
+     , (30580,  5887,      2)  /* CantripSneakAttackProwess1 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30580, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */;

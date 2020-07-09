@@ -40,7 +40,7 @@ VALUES (2426,   1,   33554809) /* Setup */
      , (2426,  28,        167) /* Spell - RegenerationSelf3 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2426,   167,      2) ;
+VALUES (2426,   167,      2)  /* RegenerationSelf3 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2426, 2, 49612,  1, 0, 0, False) /* Create Sickle (49612) for Wield */;

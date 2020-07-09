@@ -50,9 +50,9 @@ VALUES (32149,   1,   33559763) /* Setup */
      , (32149,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (32149,  2183,      2) 
-     , (32149,  2185,      2) 
-     , (32149,  2187,      2) 
-     , (32149,  2626,      2) 
-     , (32149,  2627,      2) 
-     , (32149,  2628,      2) ;
+VALUES (32149,  2183,      2)  /* ManaRenewalSelf7 */
+     , (32149,  2185,      2)  /* RegenerationSelf7 */
+     , (32149,  2187,      2)  /* RejuvenationSelf7 */
+     , (32149,  2626,      2)  /* CANTRIPHEALTHGAIN1 */
+     , (32149,  2627,      2)  /* CANTRIPMANAGAIN1 */
+     , (32149,  2628,      2)  /* CANTRIPSTAMINAGAIN1 */;

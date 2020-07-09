@@ -33,4 +33,4 @@ VALUES (45309, 8040, 3097428025, 186.2281, 5.641221, 84.0855, 0.334344, 0, 0, -0
 /* @teleloc 0xB89F0039 [186.228100 5.641221 84.085500] 0.334344 0.000000 0.000000 -0.942451 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45309,  5836,      2) ;
+VALUES (45309,  5836,      2)  /* ShieldIneptitudeOther2 */;

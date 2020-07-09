@@ -42,4 +42,4 @@ VALUES (52025,   1,   33554809) /* Setup */
      , (52025,  52,  100691593) /* IconUnderlay */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52025,  5192,      2) ;
+VALUES (52025,  5192,      2)  /* RareDamageReduction5 */;

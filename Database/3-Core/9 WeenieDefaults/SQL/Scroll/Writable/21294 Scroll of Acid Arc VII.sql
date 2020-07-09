@@ -29,7 +29,7 @@ VALUES (21294,   1,   33554826) /* Setup */
      , (21294,  28,       2717) /* Spell - AcidArc7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21294,  2717,      2) ;
+VALUES (21294,  2717,      2)  /* AcidArc7 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (21294, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

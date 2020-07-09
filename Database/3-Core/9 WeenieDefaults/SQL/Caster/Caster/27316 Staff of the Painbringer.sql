@@ -50,4 +50,4 @@ VALUES (27316, 8040, 3465871405, 141.6535, 106.9101, 19.929, -3.090862E-08, -3.0
 /* @teleloc 0xCE95002D [141.653500 106.910100 19.929000] 0.000000 0.000000 -0.707107 -0.707107 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (27316,  2052,      2) ;
+VALUES (27316,  2052,      2)  /* ArmorOther7 */;

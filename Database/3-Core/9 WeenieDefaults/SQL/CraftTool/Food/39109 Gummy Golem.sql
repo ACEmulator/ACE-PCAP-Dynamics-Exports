@@ -44,4 +44,4 @@ VALUES (39109,   1,   33556426) /* Setup */
      , (39109,  28,       4209) /* Spell - GummyShield */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (39109,  4209,      2) ;
+VALUES (39109,  4209,      2)  /* GummyShield */;

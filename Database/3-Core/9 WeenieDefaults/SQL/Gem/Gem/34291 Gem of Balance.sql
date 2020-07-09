@@ -37,4 +37,4 @@ VALUES (34291,   1,   33554809) /* Setup */
      , (34291,  28,       2659) /* Spell - ModerateCoordination */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (34291,  2659,      2) ;
+VALUES (34291,  2659,      2)  /* ModerateCoordination */;

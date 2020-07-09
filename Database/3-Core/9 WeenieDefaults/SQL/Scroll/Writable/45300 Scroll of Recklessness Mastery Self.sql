@@ -29,4 +29,4 @@ VALUES (45300,   1,   33554826) /* Setup */
      , (45300,  28,       5827) /* Spell - RecklessnessMasterySelf1 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (45300,  5827,      2) ;
+VALUES (45300,  5827,      2)  /* RecklessnessMasterySelf1 */;

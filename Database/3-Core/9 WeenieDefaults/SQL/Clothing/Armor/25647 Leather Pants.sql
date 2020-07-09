@@ -50,9 +50,9 @@ VALUES (25647,   1,   33554856) /* Setup */
      , (25647,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (25647,  1484,      2) 
-     , (25647,  1497,      2) 
-     , (25647,  1514,      2) ;
+VALUES (25647,  1484,      2)  /* Impenetrability4 */
+     , (25647,  1497,      2)  /* AcidBane5 */
+     , (25647,  1514,      2)  /* BludgeonBane4 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25647, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */;

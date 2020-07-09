@@ -59,6 +59,6 @@ VALUES (31801,   1,   33559666) /* Setup */
      , (31801,  37,         47) /* ItemSkillLimit - MissileWeapons */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (31801,  1616,      2) 
-     , (31801,  2572,      2) 
-     , (31801,  5784,      2) ;
+VALUES (31801,  1616,      2)  /* BloodDrinkerSelf6 */
+     , (31801,  2572,      2)  /* CANTRIPCOORDINATION2 */
+     , (31801,  5784,      2)  /* DirtyFightingMasterySelf6 */;

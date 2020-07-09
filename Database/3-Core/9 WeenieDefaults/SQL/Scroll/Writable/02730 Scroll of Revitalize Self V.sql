@@ -29,4 +29,4 @@ VALUES (2730,   1,   33554826) /* Setup */
      , (2730,  28,       1181) /* Spell - RevitalizeSelf5 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2730,  1181,      2) ;
+VALUES (2730,  1181,      2)  /* RevitalizeSelf5 */;

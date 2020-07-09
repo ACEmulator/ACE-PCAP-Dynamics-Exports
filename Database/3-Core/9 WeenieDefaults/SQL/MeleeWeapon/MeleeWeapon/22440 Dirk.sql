@@ -63,10 +63,10 @@ VALUES (22440, 8040, 23855554, 56.35539, -27.39627, 0.1, -0.9926327, 0, 0, 0.121
 /* @teleloc 0x016C01C2 [56.355390 -27.396270 0.100000] -0.992633 0.000000 0.000000 0.121163 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (22440,  2096,      2) 
-     , (22440,  2576,      2) 
-     , (22440,  2613,      2) 
-     , (22440,  5808,      2) ;
+VALUES (22440,  2096,      2)  /* BloodDrinkerSelf7 */
+     , (22440,  2576,      2)  /* CANTRIPSTRENGTH2 */
+     , (22440,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
+     , (22440,  5808,      2)  /* DualWieldMasterySelf6 */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (22440, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */;

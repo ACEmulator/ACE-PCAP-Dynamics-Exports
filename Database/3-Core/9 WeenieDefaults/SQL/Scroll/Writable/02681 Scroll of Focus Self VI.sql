@@ -29,4 +29,4 @@ VALUES (2681,   1,   33554826) /* Setup */
      , (2681,  28,       1426) /* Spell - FocusSelf6 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (2681,  1426,      2) ;
+VALUES (2681,  1426,      2)  /* FocusSelf6 */;

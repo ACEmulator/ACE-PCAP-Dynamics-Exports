@@ -52,4 +52,4 @@ VALUES (52786,   1,   33554691) /* Setup */
      , (52786,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (52786,  4025,      2) ;
+VALUES (52786,  4025,      2)  /* CastIronStomach */;
