@@ -21,7 +21,9 @@ VALUES (0x78863001, 0x78863002, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x78863001, 0x7886300F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
      , (0x78863001, 0x78863010, '2019-02-10 00:00:00') /* Reedshark Seeker (44050) */
      , (0x78863001, 0x78863011, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */
-     , (0x78863001, 0x78863012, '2019-02-10 00:00:00') /* Red Rat (949) */;
+     , (0x78863001, 0x78863012, '2019-02-10 00:00:00') /* Red Rat (949) */
+     , (0x78863001, 0x78863013, '2019-02-10 00:00:00') /* Bak'tshay Servant (44026) */
+     , (0x78863001, 0x78863014, '2019-02-10 00:00:00') /* Bak'tshay (44022) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78863002,   218, 0x88630025, 116.6797, 99.22195, 15.09058, 0.1503198, 0, 0, -0.9886374,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -92,12 +94,20 @@ VALUES (0x78863012,   949, 0x88630012, 54.06206, 40.86816, 12.02989, -0.5891699,
 /* @teleloc 0x88630012 [54.062060 40.868160 12.029890] -0.589170 0.000000 0.000000 -0.808009 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78863013,  1542, 0x8863002D, 130.4544, 101.9009, 13.62054, 0.9914449, 0, 0, -0.1305262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78863013, 44026, 0x88630008, 0.8408198, 188.3731, 10.30774, -0.5680528, 0, 0, -0.8229921,  True, '2019-02-10 00:00:00'); /* Bak'tshay Servant */
+/* @teleloc 0x88630008 [0.840820 188.373100 10.307740] -0.568053 0.000000 0.000000 -0.822992 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78863014, 44022, 0x88630040, 185.3042, 191.828, 10.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bak'tshay */
+/* @teleloc 0x88630040 [185.304200 191.828000 10.005000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78863015,  1542, 0x8863002D, 130.4544, 101.9009, 13.62054, 0.9914449, 0, 0, -0.1305262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x8863002D [130.454400 101.900900 13.620540] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78863013, 0x78863014, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x78863015, 0x78863016, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78863014,  4380, 0x8863002D, 130.4544, 101.9009, 13.62054, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x78863016,  4380, 0x8863002D, 130.4544, 101.9009, 13.62054, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x8863002D [130.454400 101.900900 13.620540] 0.991445 0.000000 0.000000 -0.130526 */

@@ -38,7 +38,10 @@ VALUES (0x7227A001, 0x7227A002, '2019-02-10 00:00:00') /* Banderling Thrasher (7
      , (0x7227A001, 0x7227A020, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
      , (0x7227A001, 0x7227A021, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
      , (0x7227A001, 0x7227A022, '2019-02-10 00:00:00') /* Extas Raider (8138) */
-     , (0x7227A001, 0x7227A023, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
+     , (0x7227A001, 0x7227A023, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x7227A001, 0x7227A024, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7227A001, 0x7227A025, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7227A001, 0x7227A026, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7227A002,  7086, 0x227A000E, 25.31924, 126.06, 40.84196, -0.1929866, 0, 0, -0.9812014,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
@@ -177,12 +180,24 @@ VALUES (0x7227A023, 24279, 0x227A0002, 21.14862, 45.49022, 38.47855, 0.9973489, 
 /* @teleloc 0x227A0002 [21.148620 45.490220 38.478550] 0.997349 0.000000 0.000000 -0.072768 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7227A024,  1542, 0x227A0013, 69.31622, 60.7719, 52.91541, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7227A024, 24958, 0x227A0008, 6.686976, 177.6004, 41.43755, -0.6281423, 0, 0, -0.7780985,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x227A0008 [6.686976 177.600400 41.437550] -0.628142 0.000000 0.000000 -0.778099 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7227A025, 24958, 0x227A0007, 7.056088, 166.3691, 41.9948, -0.6281423, 0, 0, -0.7780985,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x227A0007 [7.056088 166.369100 41.994800] -0.628142 0.000000 0.000000 -0.778099 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7227A026, 23616, 0x227A0008, 14.66524, 188.5309, 40.7779, -0.6144785, 0, 0, -0.7889336,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x227A0008 [14.665240 188.530900 40.777900] -0.614479 0.000000 0.000000 -0.788934 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7227A027,  1542, 0x227A0013, 69.31622, 60.7719, 52.91541, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x227A0013 [69.316220 60.771900 52.915410] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7227A024, 0x7227A025, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
+VALUES (0x7227A027, 0x7227A028, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7227A025, 22571, 0x227A0013, 69.31622, 60.7719, 52.91541, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7227A028, 22571, 0x227A0013, 69.31622, 60.7719, 52.91541, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x227A0013 [69.316220 60.771900 52.915410] 1.000000 0.000000 0.000000 0.000000 */

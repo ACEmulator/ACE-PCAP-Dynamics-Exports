@@ -23,7 +23,9 @@ VALUES (0x7BF5D001, 0x7BF5D002, '2019-02-10 00:00:00') /* Creeper Mosswart (8) *
      , (0x7BF5D001, 0x7BF5D011, '2019-02-10 00:00:00') /* Mud Golem (200) */
      , (0x7BF5D001, 0x7BF5D012, '2019-02-10 00:00:00') /* Ghost Wisp (1987) */
      , (0x7BF5D001, 0x7BF5D013, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
-     , (0x7BF5D001, 0x7BF5D014, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
+     , (0x7BF5D001, 0x7BF5D014, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
+     , (0x7BF5D001, 0x7BF5D015, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7BF5D001, 0x7BF5D016, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5D002,     8, 0xBF5D0020, 90.82092, 177.4734, 5.55495, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -102,22 +104,30 @@ VALUES (0x7BF5D014,  1614, 0xBF5D0028, 105.5386, 172.8116, 5.5545, 0.7071068, 0,
 /* @teleloc 0xBF5D0028 [105.538600 172.811600 5.554500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BF5D015,  1542, 0xBF5D003F, 183.0044, 153.3421, 5.1, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BF5D015,  2584, 0xBF5D0007, 13.97688, 144.3638, 5.1, -0.4817011, 0, 0, -0.8763356,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
+/* @teleloc 0xBF5D0007 [13.976880 144.363800 5.100000] -0.481701 0.000000 0.000000 -0.876336 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BF5D016,   948, 0xBF5D001F, 90.23013, 164.3256, 5.10495, -0.7645265, 0, 0, -0.6445923,  True, '2019-02-10 00:00:00'); /* Mosswart Feeder */
+/* @teleloc 0xBF5D001F [90.230130 164.325600 5.104950] -0.764527 0.000000 0.000000 -0.644592 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BF5D017,  1542, 0xBF5D003F, 183.0044, 153.3421, 5.1, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBF5D003F [183.004400 153.342100 5.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BF5D015, 0x7BF5D016, '2019-02-10 00:00:00') /* Runed Chest (22572) */
-     , (0x7BF5D015, 0x7BF5D017, '2019-02-10 00:00:00') /* Corpse (4180) */
-     , (0x7BF5D015, 0x7BF5D018, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
+VALUES (0x7BF5D017, 0x7BF5D018, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7BF5D017, 0x7BF5D019, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x7BF5D017, 0x7BF5D01A, '2019-02-10 00:00:00') /* Pile of Long Sticks (6117) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BF5D016, 22572, 0xBF5D003F, 183.0044, 153.3421, 5.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7BF5D018, 22572, 0xBF5D003F, 183.0044, 153.3421, 5.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xBF5D003F [183.004400 153.342100 5.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BF5D017,  4180, 0xBF5D003F, 183.1311, 152.1743, 6, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7BF5D019,  4180, 0xBF5D003F, 183.1311, 152.1743, 6, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xBF5D003F [183.131100 152.174300 6.000000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BF5D018,  6117, 0xBF5D0028, 104.0221, 169.9816, 5.65, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */
+VALUES (0x7BF5D01A,  6117, 0xBF5D0028, 104.0221, 169.9816, 5.65, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Long Sticks */
 /* @teleloc 0xBF5D0028 [104.022100 169.981600 5.650000] 0.999048 0.000000 0.000000 -0.043619 */

@@ -42,7 +42,8 @@ VALUES (0x783F8008,  1542, 0x83F80012, 58.78709, 25.31062, 11.68863, -0.1736482,
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x783F8008, 0x783F8009, '2019-02-10 00:00:00') /* Corpse (4180) */
-     , (0x783F8008, 0x783F800A, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
+     , (0x783F8008, 0x783F800A, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x783F8008, 0x783F800B, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783F8009,  4180, 0x83F80012, 58.78709, 25.31062, 11.68863, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */
@@ -51,3 +52,7 @@ VALUES (0x783F8009,  4180, 0x83F80012, 58.78709, 25.31062, 11.68863, -0.1736482,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x783F800A,  8999, 0x83F80009, 44.7583, 19.33931, 10.50664, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
 /* @teleloc 0x83F80009 [44.758300 19.339310 10.506640] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x783F800B,  1955, 0x83F80040, 191.8356, 190.0645, 6.084585, -0.01638725, 0, 0, -0.9998657,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x83F80040 [191.835600 190.064500 6.084585] -0.016387 0.000000 0.000000 -0.999866 */

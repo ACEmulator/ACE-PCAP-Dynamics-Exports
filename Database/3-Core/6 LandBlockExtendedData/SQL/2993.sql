@@ -41,7 +41,16 @@ VALUES (0x72993010, 0x72993011, '2019-02-10 00:00:00') /* Shadow Wraith (23091) 
      , (0x72993010, 0x7299302E, '2019-02-10 00:00:00') /* Shadow Wraith (32784) */
      , (0x72993010, 0x7299302F, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
      , (0x72993010, 0x72993030, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
-     , (0x72993010, 0x72993031, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
+     , (0x72993010, 0x72993031, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72993010, 0x72993032, '2019-02-10 00:00:00') /* Shadow Wraith (32784) */
+     , (0x72993010, 0x72993033, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72993010, 0x72993034, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x72993010, 0x72993035, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72993010, 0x72993036, '2019-02-10 00:00:00') /* Shadow Nightmare (32789) */
+     , (0x72993010, 0x72993037, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72993010, 0x72993038, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x72993010, 0x72993039, '2019-02-10 00:00:00') /* Shadow Wraith (32784) */
+     , (0x72993010, 0x7299303A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72993011, 23091, 0x29930031, 156.3174, 6.581031, 108.4583, 0.740885, 0, 0, 0.6716319,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
@@ -174,3 +183,39 @@ VALUES (0x72993030, 27426, 0x29930031, 147.7364, 18.48119, 106.9204, 0.740885, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72993031, 23091, 0x29930021, 114.5332, 0.3497065, 102.1331, 0.889477, 0, 0, 0.45698,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
 /* @teleloc 0x29930021 [114.533200 0.349707 102.133100] 0.889477 0.000000 0.000000 0.456980 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993032, 32784, 0x29930031, 151.4721, 8.14132, 102.2286, 0.740885, 0, 0, 0.6716319,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x29930031 [151.472100 8.141320 102.228600] 0.740885 0.000000 0.000000 0.671632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993033, 23091, 0x29930029, 122.5866, 2.95039, 102.989, 0.889477, 0, 0, 0.45698,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x29930029 [122.586600 2.950390 102.989000] 0.889477 0.000000 0.000000 0.456980 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993034, 27426, 0x29930029, 126.9439, 10.66515, 105.5606, 0.889477, 0, 0, 0.45698,  True, '2019-02-10 00:00:00'); /* Shadow Nightmare */
+/* @teleloc 0x29930029 [126.943900 10.665150 105.560600] 0.889477 0.000000 0.000000 0.456980 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993035, 23091, 0x29930029, 126.3924, 6.677385, 104.2313, 0.889477, 0, 0, 0.45698,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x29930029 [126.392400 6.677385 104.231300] 0.889477 0.000000 0.000000 0.456980 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993036, 32789, 0x29930029, 129.1918, 18.16288, 108.0606, 0.740885, 0, 0, 0.6716319,  True, '2019-02-10 00:00:00'); /* Shadow Nightmare */
+/* @teleloc 0x29930029 [129.191800 18.162880 108.060600] 0.740885 0.000000 0.000000 0.671632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993037, 23091, 0x29930032, 147.9595, 47.59647, 108.6857, -0.06998321, 0, 0, 0.9975482,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x29930032 [147.959500 47.596470 108.685700] -0.069983 0.000000 0.000000 0.997548 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993038, 27426, 0x29930032, 153.86, 34.02353, 106.7188, -0.06998321, 0, 0, 0.9975482,  True, '2019-02-10 00:00:00'); /* Shadow Nightmare */
+/* @teleloc 0x29930032 [153.860000 34.023530 106.718800] -0.069983 0.000000 0.000000 0.997548 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72993039, 32784, 0x29930032, 154.8315, 46.15572, 106.395, -0.06998321, 0, 0, 0.9975482,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x29930032 [154.831500 46.155720 106.395000] -0.069983 0.000000 0.000000 0.997548 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7299303A, 23091, 0x29930032, 161.3342, 26.03518, 104.2274, 0.740885, 0, 0, 0.6716319,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x29930032 [161.334200 26.035180 104.227400] 0.740885 0.000000 0.000000 0.671632 */

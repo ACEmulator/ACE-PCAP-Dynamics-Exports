@@ -27,7 +27,8 @@ VALUES (0x7F636001, 0x7F636002, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier
      , (0x7F636001, 0x7F636015, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
      , (0x7F636001, 0x7F636016, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
      , (0x7F636001, 0x7F636017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
-     , (0x7F636001, 0x7F636018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */;
+     , (0x7F636001, 0x7F636018, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F636001, 0x7F636019, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F636002, 40309, 0xF636003E, 172.6993, 137.1764, 0, 0.2303751, 0, 0, -0.9731019,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
@@ -120,3 +121,7 @@ VALUES (0x7F636017, 40312, 0xF6360011, 63.558, 10.87669, -0.9000001, -0.527642, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F636018, 40313, 0xF6360011, 65.42085, 5.085296, -0.9000001, -0.527642, 0, 0, -0.8494669,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
 /* @teleloc 0xF6360011 [65.420850 5.085296 -0.900000] -0.527642 0.000000 0.000000 -0.849467 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F636019, 40311, 0xF636003E, 173.7558, 136.9112, 0, 0.2303751, 0, 0, -0.9731019,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0xF636003E [173.755800 136.911200 0.000000] 0.230375 0.000000 0.000000 -0.973102 */

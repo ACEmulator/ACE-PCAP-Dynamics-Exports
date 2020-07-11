@@ -83,7 +83,8 @@ VALUES (0x7A21E01A, 0x7A21E01B, '2019-02-10 00:00:00') /* Morgluuk's Head (28450
      , (0x7A21E01A, 0x7A21E01C, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7A21E01A, 0x7A21E01D, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7A21E01A, 0x7A21E01E, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7A21E01A, 0x7A21E01F, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x7A21E01A, 0x7A21E01F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7A21E01A, 0x7A21E020, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21E01B, 28450, 0xA21E001B, 91.4526, 50.558, 560.267, -0.454417, 0, 0, -0.890789,  True, '2019-02-10 00:00:00'); /* Morgluuk's Head */
@@ -104,3 +105,7 @@ VALUES (0x7A21E01E,  1955, 0xA21E000C, 41.16985, 84.42274, 560.1818, 0.9719567, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A21E01F,  1955, 0xA21E000C, 28.55636, 73.13672, 591.937, 0.1059525, 0, 0, -0.9943712,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xA21E000C [28.556360 73.136720 591.937000] 0.105953 0.000000 0.000000 -0.994371 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A21E020,  1955, 0xA21E001A, 83.18815, 47.50917, 559.9554, -0.3051945, 0, 0, -0.9522901,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xA21E001A [83.188150 47.509170 559.955400] -0.305195 0.000000 0.000000 -0.952290 */

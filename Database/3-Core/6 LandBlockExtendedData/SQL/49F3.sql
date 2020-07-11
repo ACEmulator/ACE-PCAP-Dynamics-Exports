@@ -17,7 +17,8 @@ VALUES (0x749F3001, 0x749F3002, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) 
      , (0x749F3001, 0x749F300B, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
      , (0x749F3001, 0x749F300C, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
      , (0x749F3001, 0x749F300D, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
-     , (0x749F3001, 0x749F300E, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */;
+     , (0x749F3001, 0x749F300E, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */
+     , (0x749F3001, 0x749F300F, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F3002, 28644, 0x49F30031, 156.8555, 1.015442, 2.142552, 0.9959248, 0, 0, -0.09018745,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
@@ -70,3 +71,7 @@ VALUES (0x749F300D, 28639, 0x49F30015, 53.90874, 100.7549, 0.3962429, 0.8412501,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F300E, 24316, 0x49F3001D, 87.99672, 108.298, 1.027333, 0.7871853, 0, 0, -0.6167165,  True, '2019-02-10 00:00:00'); /* Skeletal Mate */
 /* @teleloc 0x49F3001D [87.996720 108.298000 1.027333] 0.787185 0.000000 0.000000 -0.616717 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x749F300F, 23089, 0x49F30031, 145.2398, 14.77102, -0.445, 0.9959248, 0, 0, -0.09018745,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */
+/* @teleloc 0x49F30031 [145.239800 14.771020 -0.445000] 0.995925 0.000000 0.000000 -0.090187 */

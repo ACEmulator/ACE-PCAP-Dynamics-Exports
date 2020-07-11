@@ -14,7 +14,8 @@ VALUES (0x7957D001, 0x7957D002, '2019-02-10 00:00:00') /* Drudge Skulker (7) */
      , (0x7957D001, 0x7957D008, '2019-02-10 00:00:00') /* Mud Golem (200) */
      , (0x7957D001, 0x7957D009, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7957D001, 0x7957D00A, '2019-02-10 00:00:00') /* Auroch Cow (181) */
-     , (0x7957D001, 0x7957D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
+     , (0x7957D001, 0x7957D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7957D001, 0x7957D00C, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7957D002,     7, 0x957D001E, 84.19191, 121.3165, 20.55188, 0.3529139, 0, 0, -0.9356558,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -55,3 +56,38 @@ VALUES (0x7957D00A,   181, 0x957D0032, 149.1155, 43.67892, 23.32342, 0.9659258, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7957D00B,   182, 0x957D0032, 147.6847, 41.04209, 23.32342, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
 /* @teleloc 0x957D0032 [147.684700 41.042090 23.323420] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D00C,  5429, 0x957D002A, 141.1314, 46.24118, 21.34183, -0.9836806, 0, 0, -0.1799234,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0x957D002A [141.131400 46.241180 21.341830] -0.983681 0.000000 0.000000 -0.179923 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D00D,  1542, 0x957D0029, 143.6187, 18.30906, 23.32342, 0.5114087, 0, 0, -0.8593376, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x957D0029 [143.618700 18.309060 23.323420] 0.511409 0.000000 0.000000 -0.859338 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7957D00D, 0x7957D00E, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x7957D00D, 0x7957D00F, '2019-02-10 00:00:00') /* Gem (2399) */
+     , (0x7957D00D, 0x7957D010, '2019-02-10 00:00:00') /* Loafers (28610) */
+     , (0x7957D00D, 0x7957D011, '2019-02-10 00:00:00') /* Scroll of Light Weapon Ineptitude Other III (3159) */
+     , (0x7957D00D, 0x7957D012, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D00E,  8328, 0x957D0029, 143.6187, 18.30906, 23.32342, 0.5114087, 0, 0, -0.8593376,  True, '2019-02-10 00:00:00'); /* Iron Pea */
+/* @teleloc 0x957D0029 [143.618700 18.309060 23.323420] 0.511409 0.000000 0.000000 -0.859338 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D00F,  2399, 0x957D0031, 148.8724, 19.63051, 23.32342, 0.5114087, 0, 0, -0.8593376,  True, '2019-02-10 00:00:00'); /* Gem */
+/* @teleloc 0x957D0031 [148.872400 19.630510 23.323420] 0.511409 0.000000 0.000000 -0.859338 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D010, 28610, 0x957D0031, 148.3459, 23.39063, 23.32342, 0.5114087, 0, 0, -0.8593376,  True, '2019-02-10 00:00:00'); /* Loafers */
+/* @teleloc 0x957D0031 [148.345900 23.390630 23.323420] 0.511409 0.000000 0.000000 -0.859338 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D011,  3159, 0x957D0031, 145.4221, 22.9685, 23.32342, 0.5114087, 0, 0, -0.8593376,  True, '2019-02-10 00:00:00'); /* Scroll of Light Weapon Ineptitude Other III */
+/* @teleloc 0x957D0031 [145.422100 22.968500 23.323420] 0.511409 0.000000 0.000000 -0.859338 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957D012,  4179, 0x957D0031, 146.1145, 21.41647, 23.32342, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+/* @teleloc 0x957D0031 [146.114500 21.416470 23.323420] 1.000000 0.000000 0.000000 0.000000 */

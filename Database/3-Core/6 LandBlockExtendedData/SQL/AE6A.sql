@@ -50,3 +50,14 @@ VALUES (0x7AE6A009,  8270, 0xAE6A001C, 78.12672, 92.37029, 34.0025, 0.2588191, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AE6A00A,  8270, 0xAE6A0014, 67.28918, 85.84743, 33.60993, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */
 /* @teleloc 0xAE6A0014 [67.289180 85.847430 33.609930] -0.087156 0.000000 0.000000 -0.996195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AE6A00B,  1542, 0xAE6A0015, 69.12888, 109.874, 34, 0.4184833, 0, 0, -0.9082245, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xAE6A0015 [69.128880 109.874000 34.000000] 0.418483 0.000000 0.000000 -0.908225 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7AE6A00B, 0x7AE6A00C, '2019-02-10 00:00:00') /* Sunflower (15715) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AE6A00C, 15715, 0xAE6A0015, 69.12888, 109.874, 34, 0.4184833, 0, 0, -0.9082245,  True, '2019-02-10 00:00:00'); /* Sunflower */
+/* @teleloc 0xAE6A0015 [69.128880 109.874000 34.000000] 0.418483 0.000000 0.000000 -0.908225 */

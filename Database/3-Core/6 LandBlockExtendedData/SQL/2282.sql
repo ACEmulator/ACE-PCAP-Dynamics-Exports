@@ -12,7 +12,10 @@ VALUES (0x72282001, 0x72282002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) 
      , (0x72282001, 0x72282006, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
      , (0x72282001, 0x72282007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
      , (0x72282001, 0x72282008, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
-     , (0x72282001, 0x72282009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
+     , (0x72282001, 0x72282009, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72282001, 0x7228200A, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
+     , (0x72282001, 0x7228200B, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x72282001, 0x7228200C, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72282002, 24497, 0x22820037, 158.3913, 159.6354, 318.0225, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -45,3 +48,15 @@ VALUES (0x72282008,  4216, 0x22820036, 164.7262, 141.6507, 309.7725, -0.6639765,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72282009, 36830, 0x2282003F, 174.1718, 166.4259, 318.8398, -0.6639765, 0, 0, -0.7477534,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x2282003F [174.171800 166.425900 318.839800] -0.663977 0.000000 0.000000 -0.747753 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7228200A, 36844, 0x2282003F, 183.5891, 153.9119, 318.865, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
+/* @teleloc 0x2282003F [183.589100 153.911900 318.865000] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7228200B, 36840, 0x2282003F, 178.2856, 161.2361, 318.865, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
+/* @teleloc 0x2282003F [178.285600 161.236100 318.865000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7228200C, 36840, 0x2282003F, 185.5016, 156.456, 318.865, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
+/* @teleloc 0x2282003F [185.501600 156.456000 318.865000] 0.707107 0.000000 0.000000 -0.707107 */

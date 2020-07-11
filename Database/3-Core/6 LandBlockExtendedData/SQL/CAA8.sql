@@ -27,7 +27,8 @@ VALUES (0x7CAA8001, 0x7CAA8002, '2019-02-10 00:00:00') /* Virulent Grievver (797
      , (0x7CAA8001, 0x7CAA8015, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x7CAA8001, 0x7CAA8016, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
      , (0x7CAA8001, 0x7CAA8017, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
-     , (0x7CAA8001, 0x7CAA8018, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
+     , (0x7CAA8001, 0x7CAA8018, '2019-02-10 00:00:00') /* Shadow Child (1756) */
+     , (0x7CAA8001, 0x7CAA8019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAA8002,  7979, 0xCAA80016, 53.86151, 131.8056, 45.9985, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -122,22 +123,26 @@ VALUES (0x7CAA8018,  1756, 0xCAA80009, 36.19092, 5.601364, 63.36272, -0.5093932,
 /* @teleloc 0xCAA80009 [36.190920 5.601364 63.362720] -0.509393 0.000000 0.000000 -0.860534 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAA8019,  1542, 0xCAA8001E, 79.29659, 132.4023, 46, -0.5129745, 0, 0, -0.8584039, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7CAA8019,   217, 0xCAA80016, 67.24591, 140.3288, 46.013, -0.5129745, 0, 0, -0.8584039,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0xCAA80016 [67.245910 140.328800 46.013000] -0.512975 0.000000 0.000000 -0.858404 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAA801A,  1542, 0xCAA8001E, 79.29659, 132.4023, 46, -0.5129745, 0, 0, -0.8584039, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xCAA8001E [79.296590 132.402300 46.000000] -0.512975 0.000000 0.000000 -0.858404 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAA8019, 0x7CAA801A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
-     , (0x7CAA8019, 0x7CAA801B, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7CAA8019, 0x7CAA801C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
+VALUES (0x7CAA801A, 0x7CAA801B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7CAA801A, 0x7CAA801C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7CAA801A, 0x7CAA801D, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAA801A,  8037, 0xCAA8001E, 79.29659, 132.4023, 46, -0.5129745, 0, 0, -0.8584039,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7CAA801B,  8037, 0xCAA8001E, 79.29659, 132.4023, 46, -0.5129745, 0, 0, -0.8584039,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xCAA8001E [79.296590 132.402300 46.000000] -0.512975 0.000000 0.000000 -0.858404 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAA801B,  4179, 0xCAA80016, 53.9098, 135.6165, 46, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7CAA801C,  4179, 0xCAA80016, 53.9098, 135.6165, 46, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xCAA80016 [53.909800 135.616500 46.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAA801C, 31686, 0xCAA80016, 66.46219, 142.3713, 46.011, 0.8958349, 0, 0, -0.444387,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */
+VALUES (0x7CAA801D, 31686, 0xCAA80016, 66.46219, 142.3713, 46.011, 0.8958349, 0, 0, -0.444387,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */
 /* @teleloc 0xCAA80016 [66.462190 142.371300 46.011000] 0.895835 0.000000 0.000000 -0.444387 */

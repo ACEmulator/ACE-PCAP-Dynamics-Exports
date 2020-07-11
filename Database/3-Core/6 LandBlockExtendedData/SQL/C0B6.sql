@@ -20,7 +20,9 @@ VALUES (0x7C0B6001, 0x7C0B6002, '2019-02-10 00:00:00') /* Gotrok Montok (24955) 
      , (0x7C0B6001, 0x7C0B600A, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
      , (0x7C0B6001, 0x7C0B600B, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
      , (0x7C0B6001, 0x7C0B600C, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
-     , (0x7C0B6001, 0x7C0B600D, '2019-02-10 00:00:00') /* Great Mattekar (2582) */;
+     , (0x7C0B6001, 0x7C0B600D, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7C0B6001, 0x7C0B600E, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
+     , (0x7C0B6001, 0x7C0B600F, '2019-02-10 00:00:00') /* K'nath T'aed (2573) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C0B6002, 24955, 0xC0B60017, 54.6372, 146.774, 231.0733, -0.2574119, 0, 0, 0.9663017,  True, '2019-02-10 00:00:00'); /* Gotrok Montok */
@@ -71,17 +73,25 @@ VALUES (0x7C0B600D,  2582, 0xC0B60031, 167.8001, 6.182262, 334.2306, -0.08715577
 /* @teleloc 0xC0B60031 [167.800100 6.182262 334.230600] -0.087156 0.000000 0.000000 -0.996195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C0B600E,  1542, 0xC0B60031, 155.4617, 3.261821, 327.1819, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C0B600E,  2570, 0xC0B60040, 187.484, 185.5125, 345.5537, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* K'nath S'tath */
+/* @teleloc 0xC0B60040 [187.484000 185.512500 345.553700] -0.766044 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C0B600F,  2573, 0xC0B60040, 184.9657, 182.7524, 345.5537, 0.3420202, 0, 0, -0.9396926,  True, '2019-02-10 00:00:00'); /* K'nath T'aed */
+/* @teleloc 0xC0B60040 [184.965700 182.752400 345.553700] 0.342020 0.000000 0.000000 -0.939693 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C0B6010,  1542, 0xC0B60031, 155.4617, 3.261821, 327.1819, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC0B60031 [155.461700 3.261821 327.181900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C0B600E, 0x7C0B600F, '2019-02-10 00:00:00') /* Snowman (9009) */
-     , (0x7C0B600E, 0x7C0B6010, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x7C0B6010, 0x7C0B6011, '2019-02-10 00:00:00') /* Snowman (9009) */
+     , (0x7C0B6010, 0x7C0B6012, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C0B600F,  9009, 0xC0B60031, 155.4617, 3.261821, 327.1819, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
+VALUES (0x7C0B6011,  9009, 0xC0B60031, 155.4617, 3.261821, 327.1819, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
 /* @teleloc 0xC0B60031 [155.461700 3.261821 327.181900] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C0B6010,  1955, 0xC0B60005, 21.20797, 103.3431, 261.4973, -0.891201, 0, 0, -0.4536086,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7C0B6012,  1955, 0xC0B60005, 21.20797, 103.3431, 261.4973, -0.891201, 0, 0, -0.4536086,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xC0B60005 [21.207970 103.343100 261.497300] -0.891201 0.000000 0.000000 -0.453609 */

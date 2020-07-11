@@ -25,7 +25,10 @@ VALUES (0x73465001, 0x73465002, '2019-02-10 00:00:00') /* Shadow Storm (33309) *
      , (0x73465001, 0x73465013, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x73465001, 0x73465014, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x73465001, 0x73465015, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x73465001, 0x73465016, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
+     , (0x73465001, 0x73465016, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x73465001, 0x73465017, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73465001, 0x73465018, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x73465001, 0x73465019, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73465002, 33309, 0x3465000A, 36.90776, 40.96259, 58.24065, 0.7865222, 0, 0, -0.617562,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
@@ -110,3 +113,15 @@ VALUES (0x73465015,  8431, 0x34650009, 31.30277, 12.82973, 54.61506, 0.9537169, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73465016, 24134, 0x34650028, 119.9397, 177.9041, 76.67581, 0.9281176, 0, 0, -0.372287,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
 /* @teleloc 0x34650028 [119.939700 177.904100 76.675810] 0.928118 0.000000 0.000000 -0.372287 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73465017, 24958, 0x34650010, 38.96405, 171.5751, 73.02389, -0.9890425, 0, 0, -0.1476312,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x34650010 [38.964050 171.575100 73.023890] -0.989043 0.000000 0.000000 -0.147631 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73465018, 24958, 0x3465000F, 32.04976, 157.7866, 73.02389, -0.9890425, 0, 0, -0.1476312,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x3465000F [32.049760 157.786600 73.023890] -0.989043 0.000000 0.000000 -0.147631 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73465019, 24958, 0x34650007, 23.76486, 149.5583, 73.02389, -0.9890425, 0, 0, -0.1476312,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x34650007 [23.764860 149.558300 73.023890] -0.989043 0.000000 0.000000 -0.147631 */

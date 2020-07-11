@@ -15,7 +15,11 @@ VALUES (0x791EE001, 0x791EE002, '2019-02-10 00:00:00') /* Blighted Oak Golem (38
      , (0x791EE001, 0x791EE009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
      , (0x791EE001, 0x791EE00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
      , (0x791EE001, 0x791EE00B, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
-     , (0x791EE001, 0x791EE00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
+     , (0x791EE001, 0x791EE00C, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x791EE001, 0x791EE00D, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x791EE001, 0x791EE00E, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x791EE001, 0x791EE00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x791EE001, 0x791EE010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x791EE002, 38177, 0x91EE0038, 164.8247, 179.7674, 2.01, 0.01046551, 0, 0, -0.9999452,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
@@ -62,12 +66,28 @@ VALUES (0x791EE00C,  1609, 0x91EE003B, 191.1815, 65.19004, 8.572046, 0.9396926, 
 /* @teleloc 0x91EE003B [191.181500 65.190040 8.572046] 0.939693 0.000000 0.000000 -0.342020 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x791EE00D,  1542, 0x91EE000E, 42.64098, 131.6029, 1.553415, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x791EE00D, 38177, 0x91EE000E, 44.66128, 124.0862, 1.731773, -0.5760214, 0, 0, -0.8174346,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
+/* @teleloc 0x91EE000E [44.661280 124.086200 1.731773] -0.576021 0.000000 0.000000 -0.817435 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x791EE00E, 22519, 0x91EE003C, 173.2343, 85.43549, 6.890276, 0.8729702, 0, 0, -0.4877736,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
+/* @teleloc 0x91EE003C [173.234300 85.435490 6.890276] 0.872970 0.000000 0.000000 -0.487774 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x791EE00F, 22519, 0x91EE003C, 185.6803, 89.28259, 8.355379, 0.8729702, 0, 0, -0.4877736,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
+/* @teleloc 0x91EE003C [185.680300 89.282590 8.355379] 0.872970 0.000000 0.000000 -0.487774 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x791EE010, 22519, 0x91EE003C, 176.7102, 85.14017, 6.914886, 0.8729702, 0, 0, -0.4877736,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
+/* @teleloc 0x91EE003C [176.710200 85.140170 6.914886] 0.872970 0.000000 0.000000 -0.487774 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x791EE011,  1542, 0x91EE000E, 42.64098, 131.6029, 1.553415, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x91EE000E [42.640980 131.602900 1.553415] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x791EE00D, 0x791EE00E, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
+VALUES (0x791EE011, 0x791EE012, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x791EE00E, 22567, 0x91EE000E, 42.64098, 131.6029, 1.553415, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x791EE012, 22567, 0x91EE000E, 42.64098, 131.6029, 1.553415, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x91EE000E [42.640980 131.602900 1.553415] 1.000000 0.000000 0.000000 0.000000 */

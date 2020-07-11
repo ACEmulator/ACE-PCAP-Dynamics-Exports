@@ -62,7 +62,16 @@ VALUES (0x7EF80001, 0x7EF80002, '2019-02-10 00:00:00') /* Tuskie Thrower (22523)
      , (0x7EF80001, 0x7EF80038, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
      , (0x7EF80001, 0x7EF80039, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
      , (0x7EF80001, 0x7EF8003A, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
-     , (0x7EF80001, 0x7EF8003B, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */;
+     , (0x7EF80001, 0x7EF8003B, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7EF80001, 0x7EF8003C, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7EF80001, 0x7EF8003D, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7EF80001, 0x7EF8003E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7EF80001, 0x7EF8003F, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7EF80001, 0x7EF80040, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7EF80001, 0x7EF80041, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7EF80001, 0x7EF80042, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7EF80001, 0x7EF80043, '2019-02-10 00:00:00') /* Reedshark Ravager (22746) */
+     , (0x7EF80001, 0x7EF80044, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF80002, 22523, 0xEF800029, 134.5604, 21.63679, 4.792137, -0.7886225, 0, 0, -0.6148777,  True, '2019-02-10 00:00:00'); /* Tuskie Thrower */
@@ -295,3 +304,39 @@ VALUES (0x7EF8003A, 22746, 0xEF800011, 58.61369, 8.25655, 9.250018, 0.199707, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF8003B, 22746, 0xEF800011, 57.44674, 4.124799, 10.62727, 0.199707, 0, 0, -0.9798557,  True, '2019-02-10 00:00:00'); /* Reedshark Ravager */
 /* @teleloc 0xEF800011 [57.446740 4.124799 10.627270] 0.199707 0.000000 0.000000 -0.979856 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF8003C,  7105, 0xEF800011, 54.8607, 17.41428, 9.623191, 0.199707, 0, 0, -0.9798557,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xEF800011 [54.860700 17.414280 9.623191] 0.199707 0.000000 0.000000 -0.979856 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF8003D,  7105, 0xEF800011, 58.0957, 6.948633, 9.695789, 0.199707, 0, 0, -0.9798557,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xEF800011 [58.095700 6.948633 9.695789] 0.199707 0.000000 0.000000 -0.979856 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF8003E,  7105, 0xEF800011, 54.6907, 4.956577, 10.35981, 0.199707, 0, 0, -0.9798557,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xEF800011 [54.690700 4.956577 10.359810] 0.199707 0.000000 0.000000 -0.979856 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF8003F, 22746, 0xEF800021, 100.2177, 20.99861, 5.002664, 0.5851499, 0, 0, -0.8109252,  True, '2019-02-10 00:00:00'); /* Reedshark Ravager */
+/* @teleloc 0xEF800021 [100.217700 20.998610 5.002664] 0.585150 0.000000 0.000000 -0.810925 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF80040, 22746, 0xEF800022, 97.58905, 24.69837, 6.474038, 0.5851499, 0, 0, -0.8109252,  True, '2019-02-10 00:00:00'); /* Reedshark Ravager */
+/* @teleloc 0xEF800022 [97.589050 24.698370 6.474038] 0.585150 0.000000 0.000000 -0.810925 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF80041, 22746, 0xEF800022, 104.5717, 27.54471, 6.474038, 0.5851499, 0, 0, -0.8109252,  True, '2019-02-10 00:00:00'); /* Reedshark Ravager */
+/* @teleloc 0xEF800022 [104.571700 27.544710 6.474038] 0.585150 0.000000 0.000000 -0.810925 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF80042,  4244, 0xEF800029, 138.9381, 21.22927, 4.904378, -0.7886225, 0, 0, -0.6148777,  True, '2019-02-10 00:00:00'); /* Stinging Chittick */
+/* @teleloc 0xEF800029 [138.938100 21.229270 4.904378] -0.788623 0.000000 0.000000 -0.614878 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF80043, 22746, 0xEF800024, 115.2972, 73.49876, -0.4477999, 0.9871623, 0, 0, -0.1597205,  True, '2019-02-10 00:00:00'); /* Reedshark Ravager */
+/* @teleloc 0xEF800024 [115.297200 73.498760 -0.447800] 0.987162 0.000000 0.000000 -0.159721 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF80044,  4244, 0xEF80000D, 45.90511, 109.1052, 0, 0.5349616, 0, 0, -0.8448763,  True, '2019-02-10 00:00:00'); /* Stinging Chittick */
+/* @teleloc 0xEF80000D [45.905110 109.105200 0.000000] 0.534962 0.000000 0.000000 -0.844876 */

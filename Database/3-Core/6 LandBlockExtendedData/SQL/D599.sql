@@ -404,7 +404,8 @@ VALUES (0x7D599063, 0x7D599064, '2019-02-10 00:00:00') /* Mote and Crystals need
      , (0x7D599063, 0x7D599109, '2019-02-10 00:00:00') /* Shrubbery (25759) */
      , (0x7D599063, 0x7D59910A, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
      , (0x7D599063, 0x7D59910B, '2019-02-10 00:00:00') /* Through the Portal Years (34260) */
-     , (0x7D599063, 0x7D59910C, '2019-02-10 00:00:00') /* Apple Pie (4709) */;
+     , (0x7D599063, 0x7D59910C, '2019-02-10 00:00:00') /* Apple Pie (4709) */
+     , (0x7D599063, 0x7D59910D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D599064, 35294, 0xD5990148, 161.21, 174.295, 385.35, 0.201905, 0, 0, 0.979405,  True, '2019-02-10 00:00:00'); /* Mote and Crystals needed for the Golem Construction */
@@ -1081,3 +1082,7 @@ VALUES (0x7D59910B, 34260, 0xD5990037, 166.6727, 161.6871, 374, -0.7324442, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59910C,  4709, 0xD599003F, 188.1823, 162.82, 374, 0.9828395, 0, 0, -0.184463,  True, '2019-02-10 00:00:00'); /* Apple Pie */
 /* @teleloc 0xD599003F [188.182300 162.820000 374.000000] 0.982840 0.000000 0.000000 -0.184463 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D59910D,  1955, 0xD599011F, 180.1799, 180.552, 383.937, 0.01080273, 0, 0, -0.9999416,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xD599011F [180.179900 180.552000 383.937000] 0.010803 0.000000 0.000000 -0.999942 */

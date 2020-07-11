@@ -174,7 +174,13 @@ VALUES (0x7B9EF003, 0x7B9EF004, '2019-02-10 00:00:00') /* Firestorm (7092) */
      , (0x7B9EF003, 0x7B9EF0A6, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
      , (0x7B9EF003, 0x7B9EF0A7, '2019-02-10 00:00:00') /* Magma Golem (199) */
      , (0x7B9EF003, 0x7B9EF0A8, '2019-02-10 00:00:00') /* Magma Golem (199) */
-     , (0x7B9EF003, 0x7B9EF0A9, '2019-02-10 00:00:00') /* Magma Golem (199) */;
+     , (0x7B9EF003, 0x7B9EF0A9, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0AA, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0AB, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x7B9EF003, 0x7B9EF0AC, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B9EF003, 0x7B9EF0AD, '2019-02-10 00:00:00') /* Behemoth of Tenkarrdun (7392) */
+     , (0x7B9EF003, 0x7B9EF0AE, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B9EF003, 0x7B9EF0AF, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B9EF004,  7092, 0xB9EF0023, 99.78845, 52.8892, 157.6185, 0.3414069, 0, 0, 0.9399156,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -841,17 +847,46 @@ VALUES (0x7B9EF0A9,   199, 0xB9EF0023, 103.0759, 56.80826, 154.0801, -0.1539218,
 /* @teleloc 0xB9EF0023 [103.075900 56.808260 154.080100] -0.153922 0.000000 0.000000 -0.988083 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EF0AA,  1542, 0xB9EF000A, 26.28867, 45.89244, 161.7913, -0.995357, 0, 0, 0.09625141, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B9EF0AA,   199, 0xB9EF0006, 13.54846, 124.5335, 140.5032, 0.854123, 0, 0, 0.520071,  True, '2019-02-10 00:00:00'); /* Magma Golem */
+/* @teleloc 0xB9EF0006 [13.548460 124.533500 140.503200] 0.854123 0.000000 0.000000 0.520071 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0AB, 23082, 0xB9EF0035, 156.1346, 116.8609, 140.01, -0.3490441, 0, 0, 0.9371063,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
+/* @teleloc 0xB9EF0035 [156.134600 116.860900 140.010000] -0.349044 0.000000 0.000000 0.937106 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0AC,  7092, 0xB9EF002F, 139.4322, 149.854, 120.0085, 0.312591, 0, 0, -0.949888,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0xB9EF002F [139.432200 149.854000 120.008500] 0.312591 0.000000 0.000000 -0.949888 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0AD,  7392, 0xB9EF0018, 71.11875, 176.3492, 98.77284, 0.0373048, 0, 0, -0.9993039,  True, '2019-02-10 00:00:00'); /* Behemoth of Tenkarrdun */
+/* @teleloc 0xB9EF0018 [71.118750 176.349200 98.772840] 0.037305 0.000000 0.000000 -0.999304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0AE,   199, 0xB9EF0018, 64.28657, 186.5425, 98.20516, 0.0373048, 0, 0, -0.9993039,  True, '2019-02-10 00:00:00'); /* Magma Golem */
+/* @teleloc 0xB9EF0018 [64.286570 186.542500 98.205160] 0.037305 0.000000 0.000000 -0.999304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0AF,   199, 0xB9EF0020, 78.47902, 185.4247, 97.6458, 0.0373048, 0, 0, -0.9993039,  True, '2019-02-10 00:00:00'); /* Magma Golem */
+/* @teleloc 0xB9EF0020 [78.479020 185.424700 97.645800] 0.037305 0.000000 0.000000 -0.999304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0B0,  1542, 0xB9EF000A, 26.28867, 45.89244, 161.7913, -0.995357, 0, 0, 0.09625141, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB9EF000A [26.288670 45.892440 161.791300] -0.995357 0.000000 0.000000 0.096251 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B9EF0AA, 0x7B9EF0AB, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
-     , (0x7B9EF0AA, 0x7B9EF0AC, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */;
+VALUES (0x7B9EF0B0, 0x7B9EF0B1, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7B9EF0B0, 0x7B9EF0B2, '2019-02-10 00:00:00') /* Prismatic Taper (20631) */
+     , (0x7B9EF0B0, 0x7B9EF0B3, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EF0AB, 20631, 0xB9EF000A, 26.28867, 45.89244, 161.7913, -0.995357, 0, 0, 0.09625141,  True, '2019-02-10 00:00:00'); /* Prismatic Taper */
+VALUES (0x7B9EF0B1, 20631, 0xB9EF000A, 26.28867, 45.89244, 161.7913, -0.995357, 0, 0, 0.09625141,  True, '2019-02-10 00:00:00'); /* Prismatic Taper */
 /* @teleloc 0xB9EF000A [26.288670 45.892440 161.791300] -0.995357 0.000000 0.000000 0.096251 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B9EF0AC, 20631, 0xB9EF0002, 20.92698, 27.08628, 177.4631, -0.8170449, 0, 0, -0.5765741,  True, '2019-02-10 00:00:00'); /* Prismatic Taper */
+VALUES (0x7B9EF0B2, 20631, 0xB9EF0002, 20.92698, 27.08628, 177.4631, -0.8170449, 0, 0, -0.5765741,  True, '2019-02-10 00:00:00'); /* Prismatic Taper */
 /* @teleloc 0xB9EF0002 [20.926980 27.086280 177.463100] -0.817045 0.000000 0.000000 -0.576574 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B9EF0B3,  1955, 0xB9EF001F, 85.54308, 164.0354, 102.8411, -0.8968641, 0, 0, -0.4423062,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xB9EF001F [85.543080 164.035400 102.841100] -0.896864 0.000000 0.000000 -0.442306 */

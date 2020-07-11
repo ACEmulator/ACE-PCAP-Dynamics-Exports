@@ -826,7 +826,8 @@ VALUES (0x701A3128, 0x701A3129, '2019-02-10 00:00:00') /* Salmon (1450) */
      , (0x701A3128, 0x701A3133, '2019-02-10 00:00:00') /* Royal Cabbage (1449) */
      , (0x701A3128, 0x701A3134, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x701A3128, 0x701A3135, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x701A3128, 0x701A3136, '2019-02-10 00:00:00') /* Grapes (264) */;
+     , (0x701A3128, 0x701A3136, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701A3128, 0x701A3137, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3129,  1450, 0x01A301F5, 77.64266, -41.39704, -60, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Salmon */
@@ -883,3 +884,7 @@ VALUES (0x701A3135,   546, 0x01A301B0, 82.83203, -28.14165, -78, -4.37114E-08, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A3136,   264, 0x01A301B0, 82.15041, -30.26666, -77.9985, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Grapes */
 /* @teleloc 0x01A301B0 [82.150410 -30.266660 -77.998500] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701A3137,  1955, 0x01A3012B, 59.8444, -56.63858, -108.063, -0.9995611, 0, 0, -0.02962624,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x01A3012B [59.844400 -56.638580 -108.063000] -0.999561 0.000000 0.000000 -0.029626 */

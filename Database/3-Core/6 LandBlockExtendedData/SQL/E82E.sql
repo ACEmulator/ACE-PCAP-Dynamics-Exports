@@ -9,7 +9,8 @@ VALUES (0x7E82E001, 0x7E82E002, '2019-02-10 00:00:00') /* White Phyntos Wasp (71
      , (0x7E82E001, 0x7E82E003, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
      , (0x7E82E001, 0x7E82E004, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
      , (0x7E82E001, 0x7E82E005, '2019-02-10 00:00:00') /* Relic Bones (7179) */
-     , (0x7E82E001, 0x7E82E006, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
+     , (0x7E82E001, 0x7E82E006, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7E82E001, 0x7E82E007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E82E002,  7105, 0xE82E0024, 119.3557, 80.80286, 109.9583, -0.1836674, 0, 0, -0.9829884,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
@@ -32,12 +33,16 @@ VALUES (0x7E82E006,  7124, 0xE82E002B, 130.2809, 62.51685, 110.0075, -0.1836674,
 /* @teleloc 0xE82E002B [130.280900 62.516850 110.007500] -0.183667 0.000000 0.000000 -0.982988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E82E007,  1542, 0xE82E0026, 103.5031, 143.9474, 121.4858, -0.9110369, 0, 0, -0.4123248, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E82E007,  4254, 0xE82E0026, 105.7374, 143.3487, 120.5954, -0.9110369, 0, 0, -0.4123248,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0xE82E0026 [105.737400 143.348700 120.595400] -0.911037 0.000000 0.000000 -0.412325 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E82E008,  1542, 0xE82E0026, 103.5031, 143.9474, 121.4858, -0.9110369, 0, 0, -0.4123248, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE82E0026 [103.503100 143.947400 121.485800] -0.911037 0.000000 0.000000 -0.412325 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E82E007, 0x7E82E008, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x7E82E008, 0x7E82E009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E82E008,  8037, 0xE82E0026, 103.5031, 143.9474, 121.4858, -0.9110369, 0, 0, -0.4123248,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7E82E009,  8037, 0xE82E0026, 103.5031, 143.9474, 121.4858, -0.9110369, 0, 0, -0.4123248,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xE82E0026 [103.503100 143.947400 121.485800] -0.911037 0.000000 0.000000 -0.412325 */

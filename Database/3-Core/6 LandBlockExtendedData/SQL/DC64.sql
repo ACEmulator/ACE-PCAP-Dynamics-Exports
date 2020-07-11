@@ -31,7 +31,8 @@ VALUES (0x7DC64001, 0x7DC64002, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (2601
      , (0x7DC64001, 0x7DC64019, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
      , (0x7DC64001, 0x7DC6401A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
      , (0x7DC64001, 0x7DC6401B, '2019-02-10 00:00:00') /* Essa Sclavus (2585) */
-     , (0x7DC64001, 0x7DC6401C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
+     , (0x7DC64001, 0x7DC6401C, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7DC64001, 0x7DC6401D, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC64002, 26018, 0xDC640021, 112.1213, 4.538532, 30.03205, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */
@@ -142,12 +143,16 @@ VALUES (0x7DC6401C,  4246, 0xDC64003A, 174.5441, 46.10877, 27.45926, 0.8660254, 
 /* @teleloc 0xDC64003A [174.544100 46.108770 27.459260] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DC6401D,  1542, 0xDC640021, 106.0786, 20.77525, 30, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7DC6401D,  2584, 0xDC640022, 102.0254, 39.47536, 28.71039, 0.9930554, 0, 0, -0.1176474,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
+/* @teleloc 0xDC640022 [102.025400 39.475360 28.710390] 0.993055 0.000000 0.000000 -0.117647 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC6401E,  1542, 0xDC640021, 106.0786, 20.77525, 30, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xDC640021 [106.078600 20.775250 30.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC6401D, 0x7DC6401E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7DC6401E, 0x7DC6401F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DC6401E,  4179, 0xDC640021, 106.0786, 20.77525, 30, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7DC6401F,  4179, 0xDC640021, 106.0786, 20.77525, 30, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xDC640021 [106.078600 20.775250 30.000000] 0.999048 0.000000 0.000000 -0.043619 */

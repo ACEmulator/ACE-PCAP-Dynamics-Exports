@@ -19,7 +19,10 @@ VALUES (0x74398001, 0x74398002, '2019-02-10 00:00:00') /* Revenant (619) */
      , (0x74398001, 0x7439800D, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
      , (0x74398001, 0x7439800E, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
      , (0x74398001, 0x7439800F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
-     , (0x74398001, 0x74398010, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
+     , (0x74398001, 0x74398010, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x74398001, 0x74398011, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x74398001, 0x74398012, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x74398001, 0x74398013, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74398002,   619, 0x43980010, 46.79517, 172.2192, 124.1087, 0.6426172, 0, 0, -0.7661874,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -82,12 +85,24 @@ VALUES (0x74398010,   227, 0x43980011, 71.09702, 8.756226, 11.72968, 0.382915, 0
 /* @teleloc 0x43980011 [71.097020 8.756226 11.729680] 0.382915 0.000000 0.000000 -0.923784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74398011,  1542, 0x43980016, 48.03674, 130.421, 107.1205, 0.6426172, 0, 0, -0.7661874, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x74398011,  4255, 0x4398000F, 40.76047, 151.9424, 124.5816, 0.2864748, 0, 0, -0.9580877,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x4398000F [40.760470 151.942400 124.581600] 0.286475 0.000000 0.000000 -0.958088 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74398012,  7124, 0x43980010, 30.20127, 180.7702, 125.4907, 0.6426172, 0, 0, -0.7661874,  True, '2019-02-10 00:00:00'); /* Dark Magus */
+/* @teleloc 0x43980010 [30.201270 180.770200 125.490700] 0.642617 0.000000 0.000000 -0.766187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74398013,  9253, 0x43980020, 76.02328, 176.5214, 121.991, 0.4564492, 0, 0, -0.8897495,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
+/* @teleloc 0x43980020 [76.023280 176.521400 121.991000] 0.456449 0.000000 0.000000 -0.889750 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74398014,  1542, 0x43980016, 48.03674, 130.421, 107.1205, 0.6426172, 0, 0, -0.7661874, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x43980016 [48.036740 130.421000 107.120500] 0.642617 0.000000 0.000000 -0.766187 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74398011, 0x74398012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
+VALUES (0x74398014, 0x74398015, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74398012,  8041, 0x43980016, 48.03674, 130.421, 107.1205, 0.6426172, 0, 0, -0.7661874,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
+VALUES (0x74398015,  8041, 0x43980016, 48.03674, 130.421, 107.1205, 0.6426172, 0, 0, -0.7661874,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
 /* @teleloc 0x43980016 [48.036740 130.421000 107.120500] 0.642617 0.000000 0.000000 -0.766187 */

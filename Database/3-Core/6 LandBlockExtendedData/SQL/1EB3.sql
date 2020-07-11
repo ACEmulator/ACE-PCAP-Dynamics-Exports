@@ -16,7 +16,10 @@ VALUES (0x71EB3001, 0x71EB3002, '2019-02-10 00:00:00') /* Littoral Siraluun (114
      , (0x71EB3001, 0x71EB3006, '2019-02-10 00:00:00') /* Cutthroat (11502) */
      , (0x71EB3001, 0x71EB3007, '2019-02-10 00:00:00') /* Strand Siraluun (11489) */
      , (0x71EB3001, 0x71EB3008, '2019-02-10 00:00:00') /* Hea Warrior (11523) */
-     , (0x71EB3001, 0x71EB3009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
+     , (0x71EB3001, 0x71EB3009, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */
+     , (0x71EB3001, 0x71EB300A, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x71EB3001, 0x71EB300B, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */
+     , (0x71EB3001, 0x71EB300C, '2019-02-10 00:00:00') /* Carenzi Stalker (11497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EB3002, 11487, 0x1EB30001, 12.96211, 20.26364, 1.9925, 0.06246891, 0, 0, -0.9980469,  True, '2019-02-10 00:00:00'); /* Littoral Siraluun */
@@ -49,3 +52,15 @@ VALUES (0x71EB3008, 11523, 0x1EB30014, 60.67416, 87.90739, 6.387797, -0.2056386,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71EB3009, 22009, 0x1EB30029, 136.9292, 14.72967, 9.093181, 0.07077847, 0, 0, -0.9974921,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
 /* @teleloc 0x1EB30029 [136.929200 14.729670 9.093181] 0.070778 0.000000 0.000000 -0.997492 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71EB300A,  8014, 0x1EB3002D, 134.3162, 107.6779, 20.51913, -0.3705466, 0, 0, -0.9288139,  True, '2019-02-10 00:00:00'); /* Fragment */
+/* @teleloc 0x1EB3002D [134.316200 107.677900 20.519130] -0.370547 0.000000 0.000000 -0.928814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71EB300B, 11497, 0x1EB30014, 67.14556, 87.52419, 7.461652, -0.2056386, 0, 0, -0.978628,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker */
+/* @teleloc 0x1EB30014 [67.145560 87.524190 7.461652] -0.205639 0.000000 0.000000 -0.978628 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71EB300C, 11497, 0x1EB30014, 63.81633, 85.36739, 7.430047, -0.2056386, 0, 0, -0.978628,  True, '2019-02-10 00:00:00'); /* Carenzi Stalker */
+/* @teleloc 0x1EB30014 [63.816330 85.367390 7.430047] -0.205639 0.000000 0.000000 -0.978628 */

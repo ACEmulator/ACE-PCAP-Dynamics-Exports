@@ -113,7 +113,9 @@ VALUES (0x7ED71001, 0x7ED71002, '2019-02-10 00:00:00') /* Assailer (22053) */
      , (0x7ED71001, 0x7ED7106B, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
      , (0x7ED71001, 0x7ED7106C, '2019-02-10 00:00:00') /* Iron Spined Chittick (22506) */
      , (0x7ED71001, 0x7ED7106D, '2019-02-10 00:00:00') /* Devastator (22518) */
-     , (0x7ED71001, 0x7ED7106E, '2019-02-10 00:00:00') /* Devastator (22518) */;
+     , (0x7ED71001, 0x7ED7106E, '2019-02-10 00:00:00') /* Devastator (22518) */
+     , (0x7ED71001, 0x7ED7106F, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7ED71001, 0x7ED71070, '2019-02-10 00:00:00') /* Assailer (22053) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED71002, 22053, 0xED710011, 69.66032, 3.995207, 39.74058, 0.9566542, 0, 0, -0.2912263,  True, '2019-02-10 00:00:00'); /* Assailer */
@@ -550,3 +552,11 @@ VALUES (0x7ED7106D, 22518, 0xED710019, 74.57, 20.49465, 35.95822, -0.9972942, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ED7106E, 22518, 0xED710019, 76.27868, 17.66695, 36.00233, -0.9972942, 0, 0, -0.07351309,  True, '2019-02-10 00:00:00'); /* Devastator */
 /* @teleloc 0xED710019 [76.278680 17.666950 36.002330] -0.997294 0.000000 0.000000 -0.073513 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ED7106F, 22053, 0xED710011, 67.30968, 10.97379, 38.96925, 0.9566542, 0, 0, -0.2912263,  True, '2019-02-10 00:00:00'); /* Assailer */
+/* @teleloc 0xED710011 [67.309680 10.973790 38.969250] 0.956654 0.000000 0.000000 -0.291226 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ED71070, 22053, 0xED710019, 78.09177, 15.51124, 36.2904, -0.9972942, 0, 0, -0.07351309,  True, '2019-02-10 00:00:00'); /* Assailer */
+/* @teleloc 0xED710019 [78.091770 15.511240 36.290400] -0.997294 0.000000 0.000000 -0.073513 */

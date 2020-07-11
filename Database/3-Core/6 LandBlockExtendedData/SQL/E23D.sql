@@ -19,7 +19,13 @@ VALUES (0x7E23D001, 0x7E23D002, '2019-02-10 00:00:00') /* Crude Monouga (2575) *
      , (0x7E23D001, 0x7E23D00D, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
      , (0x7E23D001, 0x7E23D00E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
      , (0x7E23D001, 0x7E23D00F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
-     , (0x7E23D001, 0x7E23D010, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
+     , (0x7E23D001, 0x7E23D010, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x7E23D001, 0x7E23D011, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7E23D001, 0x7E23D012, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7E23D001, 0x7E23D013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7E23D001, 0x7E23D014, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
+     , (0x7E23D001, 0x7E23D015, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x7E23D001, 0x7E23D016, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E23D002,  2575, 0xE23D0034, 149.1782, 90.45263, 117.5696, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -82,12 +88,41 @@ VALUES (0x7E23D010,  9251, 0xE23D0021, 119.5266, 4.144352, 100.4547, -0.2819313,
 /* @teleloc 0xE23D0021 [119.526600 4.144352 100.454700] -0.281931 0.000000 0.000000 -0.959435 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E23D011,  1542, 0xE23D0034, 149.9329, 87.71273, 117.5696, 0.9594812, 0, 0, -0.2817725, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E23D011,  2576, 0xE23D0029, 132.4736, 4.271929, 99.30902, -0.2819313, 0, 0, -0.9594346,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
+/* @teleloc 0xE23D0029 [132.473600 4.271929 99.309020] -0.281931 0.000000 0.000000 -0.959435 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D012,  1608, 0xE23D0031, 164.2497, 15.25639, 99.27469, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
+/* @teleloc 0xE23D0031 [164.249700 15.256390 99.274690] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D013,  7345, 0xE23D0040, 171.042, 189.9163, 145.993, -0.4537845, 0, 0, -0.8911114,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
+/* @teleloc 0xE23D0040 [171.042000 189.916300 145.993000] -0.453785 0.000000 0.000000 -0.891111 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D014, 22809, 0xE23D0040, 176.4316, 188.6608, 146.5776, -0.4537845, 0, 0, -0.8911114,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
+/* @teleloc 0xE23D0040 [176.431600 188.660800 146.577600] -0.453785 0.000000 0.000000 -0.891111 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D015, 24959, 0xE23D003D, 181.5683, 100.4728, 117.2257, 0.9594812, 0, 0, -0.2817725,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
+/* @teleloc 0xE23D003D [181.568300 100.472800 117.225700] 0.959481 0.000000 0.000000 -0.281773 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D016, 24959, 0xE23D003E, 168.2538, 122.3772, 120.7462, 0.9594812, 0, 0, -0.2817725,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
+/* @teleloc 0xE23D003E [168.253800 122.377200 120.746200] 0.959481 0.000000 0.000000 -0.281773 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D017,  1542, 0xE23D0034, 149.9329, 87.71273, 117.5696, 0.9594812, 0, 0, -0.2817725, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE23D0034 [149.932900 87.712730 117.569600] 0.959481 0.000000 0.000000 -0.281773 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E23D011, 0x7E23D012, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x7E23D017, 0x7E23D018, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E23D017, 0x7E23D019, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E23D012,  8037, 0xE23D0034, 149.9329, 87.71273, 117.5696, 0.9594812, 0, 0, -0.2817725,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7E23D018,  8037, 0xE23D0034, 149.9329, 87.71273, 117.5696, 0.9594812, 0, 0, -0.2817725,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xE23D0034 [149.932900 87.712730 117.569600] 0.959481 0.000000 0.000000 -0.281773 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E23D019,  4380, 0xE23D0031, 162.9276, 15.75818, 100.4516, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+/* @teleloc 0xE23D0031 [162.927600 15.758180 100.451600] 1.000000 0.000000 0.000000 0.000000 */

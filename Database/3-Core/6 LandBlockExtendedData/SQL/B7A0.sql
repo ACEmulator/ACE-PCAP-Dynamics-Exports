@@ -26,7 +26,8 @@ VALUES (0x7B7A0001, 0x7B7A0002, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
      , (0x7B7A0001, 0x7B7A0014, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
      , (0x7B7A0001, 0x7B7A0015, '2019-02-10 00:00:00') /* Auroch Bull (20) */
      , (0x7B7A0001, 0x7B7A0016, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
-     , (0x7B7A0001, 0x7B7A0017, '2019-02-10 00:00:00') /* Reedshark Elder (18) */;
+     , (0x7B7A0001, 0x7B7A0017, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
+     , (0x7B7A0001, 0x7B7A0018, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7A0002,  7990, 0xB7A0003C, 186.8616, 74.809, 53.57626, 0.5810553, 0, 0, -0.8138641,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
@@ -117,22 +118,26 @@ VALUES (0x7B7A0017,    18, 0xB7A0001A, 95.48003, 31.08832, 58.0014, 1, 0, 0, 0, 
 /* @teleloc 0xB7A0001A [95.480030 31.088320 58.001400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7A0018,  1542, 0xB7A0003C, 186.9089, 77.09069, 53.47004, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B7A0018,  2439, 0xB7A0003B, 186.148, 68.96301, 52.49317, 0.5810553, 0, 0, -0.8138641,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
+/* @teleloc 0xB7A0003B [186.148000 68.963010 52.493170] 0.581055 0.000000 0.000000 -0.813864 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B7A0019,  1542, 0xB7A0003C, 186.9089, 77.09069, 53.47004, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB7A0003C [186.908900 77.090690 53.470040] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B7A0018, 0x7B7A0019, '2019-02-10 00:00:00') /* Chest (1918) */
-     , (0x7B7A0018, 0x7B7A001A, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7B7A0018, 0x7B7A001B, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+VALUES (0x7B7A0019, 0x7B7A001A, '2019-02-10 00:00:00') /* Chest (1918) */
+     , (0x7B7A0019, 0x7B7A001B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B7A0019, 0x7B7A001C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7A0019,  1918, 0xB7A0003C, 186.9089, 77.09069, 53.47004, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */
+VALUES (0x7B7A001A,  1918, 0xB7A0003C, 186.9089, 77.09069, 53.47004, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Chest */
 /* @teleloc 0xB7A0003C [186.908900 77.090690 53.470040] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7A001A,  4179, 0xB7A00034, 163.1367, 75.71413, 54.09577, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B7A001B,  4179, 0xB7A00034, 163.1367, 75.71413, 54.09577, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB7A00034 [163.136700 75.714130 54.095770] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B7A001B,  8646, 0xB7A00023, 96.3862, 63.93631, 57.96782, -0.3591909, 0, 0, -0.9332641,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
+VALUES (0x7B7A001C,  8646, 0xB7A00023, 96.3862, 63.93631, 57.96782, -0.3591909, 0, 0, -0.9332641,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
 /* @teleloc 0xB7A00023 [96.386200 63.936310 57.967820] -0.359191 0.000000 0.000000 -0.933264 */

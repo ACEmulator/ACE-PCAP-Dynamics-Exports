@@ -10,7 +10,8 @@ VALUES (0x7324D001, 0x7324D002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) 
      , (0x7324D001, 0x7324D004, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
      , (0x7324D001, 0x7324D005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
      , (0x7324D001, 0x7324D006, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
-     , (0x7324D001, 0x7324D007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
+     , (0x7324D001, 0x7324D007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7324D001, 0x7324D008, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7324D002,  8431, 0x324D0037, 149.9809, 159.0312, 28.00012, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -35,3 +36,7 @@ VALUES (0x7324D006, 10776, 0x324D001F, 84.09729, 162.9604, 42.10787, 0.9659258, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7324D007,  8431, 0x324D001E, 91.24391, 141.7395, 33.93073, -0.9919376, 0, 0, -0.1267268,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
 /* @teleloc 0x324D001E [91.243910 141.739500 33.930730] -0.991938 0.000000 0.000000 -0.126727 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7324D008,  7092, 0x324D003F, 185.0802, 155.5338, 45.05154, -0.8835849, 0, 0, -0.468271,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0x324D003F [185.080200 155.533800 45.051540] -0.883585 0.000000 0.000000 -0.468271 */

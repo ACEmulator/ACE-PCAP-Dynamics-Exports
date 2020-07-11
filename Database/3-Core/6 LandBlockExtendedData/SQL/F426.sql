@@ -17,7 +17,10 @@ VALUES (0x7F426001, 0x7F426002, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7
      , (0x7F426001, 0x7F426007, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
      , (0x7F426001, 0x7F426008, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
      , (0x7F426001, 0x7F426009, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
-     , (0x7F426001, 0x7F42600A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
+     , (0x7F426001, 0x7F42600A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F426001, 0x7F42600B, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
+     , (0x7F426001, 0x7F42600C, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F426001, 0x7F42600D, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F426002,  7183, 0xF4260039, 173.0566, 21.34417, -0.08700001, -0.01829026, 0, 0, -0.9998327,  True, '2019-02-10 00:00:00'); /* Jungle Phyntos Wasp */
@@ -54,3 +57,15 @@ VALUES (0x7F426009,  7110, 0xF426003A, 189.0863, 43.75194, 0, -0.1736482, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F42600A,  7110, 0xF426003A, 183.9067, 38.93816, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
 /* @teleloc 0xF426003A [183.906700 38.938160 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F42600B,  4261, 0xF4260032, 161.3452, 41.92545, -0.01800001, -0.01829026, 0, 0, -0.9998327,  True, '2019-02-10 00:00:00'); /* Slithayr Eye Stalk */
+/* @teleloc 0xF4260032 [161.345200 41.925450 -0.018000] -0.018290 0.000000 0.000000 -0.999833 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F42600C,  4260, 0xF4260032, 162.51, 44.90789, -0.01100004, -0.01829026, 0, 0, -0.9998327,  True, '2019-02-10 00:00:00'); /* Slithayr Tentacle */
+/* @teleloc 0xF4260032 [162.510000 44.907890 -0.011000] -0.018290 0.000000 0.000000 -0.999833 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F42600D,  4259, 0xF4260032, 160.5667, 44.55319, -0.008000016, -0.01829026, 0, 0, -0.9998327,  True, '2019-02-10 00:00:00'); /* Slithayr Tendril */
+/* @teleloc 0xF4260032 [160.566700 44.553190 -0.008000] -0.018290 0.000000 0.000000 -0.999833 */

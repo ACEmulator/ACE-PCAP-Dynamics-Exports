@@ -63,7 +63,15 @@ VALUES (0x7B59D001, 0x7B59D002, '2019-02-10 00:00:00') /* Drudge Slinker (193) *
      , (0x7B59D001, 0x7B59D035, '2019-02-10 00:00:00') /* Mite Scamp (10) */
      , (0x7B59D001, 0x7B59D036, '2019-02-10 00:00:00') /* Mite Scamp (10) */
      , (0x7B59D001, 0x7B59D037, '2019-02-10 00:00:00') /* Mite Scamp (10) */
-     , (0x7B59D001, 0x7B59D038, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
+     , (0x7B59D001, 0x7B59D038, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7B59D001, 0x7B59D039, '2019-02-10 00:00:00') /* Female Tusker (236) */
+     , (0x7B59D001, 0x7B59D03A, '2019-02-10 00:00:00') /* Banderling Raver (183) */
+     , (0x7B59D001, 0x7B59D03B, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B59D001, 0x7B59D03C, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B59D001, 0x7B59D03D, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */
+     , (0x7B59D001, 0x7B59D03E, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7B59D001, 0x7B59D03F, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7B59D001, 0x7B59D040, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B59D002,   193, 0xB59D0037, 153.6524, 150.2932, 61.33212, -0.9074488, 0, 0, -0.4201627,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -286,12 +294,44 @@ VALUES (0x7B59D038,    10, 0xB59D000D, 30.04119, 104.1938, 58.99814, 0.9238795, 
 /* @teleloc 0xB59D000D [30.041190 104.193800 58.998140] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B59D039,  1542, 0xB59D0036, 144.823, 129.3, 62, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B59D039,   236, 0xB59D002C, 125.0985, 72.55315, 49.25343, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Female Tusker */
+/* @teleloc 0xB59D002C [125.098500 72.553150 49.253430] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D03A,   183, 0xB59D000A, 39.81028, 41.18514, 52.8042, 0.9945269, 0, 0, -0.1044807,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
+/* @teleloc 0xB59D000A [39.810280 41.185140 52.804200] 0.994527 0.000000 0.000000 -0.104481 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D03B,   193, 0xB59D000E, 28.34736, 122.4655, 59.27877, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0xB59D000E [28.347360 122.465500 59.278770] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D03C,   940, 0xB59D000E, 29.12347, 124.7716, 59.15029, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
+/* @teleloc 0xB59D000E [29.123470 124.771600 59.150290] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D03D,  2608, 0xB59D000D, 45.48235, 101.2609, 56.42861, 0.8079403, 0, 0, -0.5892643,  True, '2019-02-10 00:00:00'); /* Jibrit Zefir */
+/* @teleloc 0xB59D000D [45.482350 101.260900 56.428610] 0.807940 0.000000 0.000000 -0.589264 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D03E,   938, 0xB59D003E, 173.3296, 129.4364, 56.70847, -0.9074488, 0, 0, -0.4201627,  True, '2019-02-10 00:00:00'); /* Banderling Raider */
+/* @teleloc 0xB59D003E [173.329600 129.436400 56.708470] -0.907449 0.000000 0.000000 -0.420163 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D03F, 11528, 0xB59D0023, 113.0152, 70.54812, 50.35009, 0.464475, 0, 0, -0.8855862,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
+/* @teleloc 0xB59D0023 [113.015200 70.548120 50.350090] 0.464475 0.000000 0.000000 -0.885586 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D040,  1614, 0xB59D002E, 139.84, 140.1128, 59.68056, -0.9074488, 0, 0, -0.4201627,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */
+/* @teleloc 0xB59D002E [139.840000 140.112800 59.680560] -0.907449 0.000000 0.000000 -0.420163 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B59D041,  1542, 0xB59D0036, 144.823, 129.3, 62, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB59D0036 [144.823000 129.300000 62.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B59D039, 0x7B59D03A, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
+VALUES (0x7B59D041, 0x7B59D042, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B59D03A,  6118, 0xB59D0036, 144.823, 129.3, 62, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */
+VALUES (0x7B59D042,  6118, 0xB59D0036, 144.823, 129.3, 62, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */
 /* @teleloc 0xB59D0036 [144.823000 129.300000 62.000000] 0.999048 0.000000 0.000000 -0.043619 */

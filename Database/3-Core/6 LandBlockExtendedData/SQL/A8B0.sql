@@ -24,7 +24,9 @@ VALUES (0x7A8B0001, 0x7A8B0002, '2019-02-10 00:00:00') /* Mite Scion (19259) */
      , (0x7A8B0001, 0x7A8B0012, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
      , (0x7A8B0001, 0x7A8B0013, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7A8B0001, 0x7A8B0014, '2019-02-10 00:00:00') /* Young Banderling (19256) */
-     , (0x7A8B0001, 0x7A8B0015, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
+     , (0x7A8B0001, 0x7A8B0015, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7A8B0001, 0x7A8B0016, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7A8B0001, 0x7A8B0017, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B0002, 19259, 0xA8B0002D, 124.6457, 112.7691, 77.66158, -0.9024144, 0, 0, -0.4308692,  True, '2019-02-10 00:00:00'); /* Mite Scion */
@@ -107,12 +109,20 @@ VALUES (0x7A8B0015, 19259, 0xA8B00009, 42.49454, 17.94338, 109.4273, -0.4558571,
 /* @teleloc 0xA8B00009 [42.494540 17.943380 109.427300] -0.455857 0.000000 0.000000 -0.890053 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B0016,  1154, 0xA8B00035, 153.154, 105.486, 89.205, 0.994798, 0, 0, -0.101868, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7A8B0016, 19257, 0xA8B00004, 5.966495, 88.78118, 108.212, -0.6820651, 0, 0, -0.7312915,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
+/* @teleloc 0xA8B00004 [5.966495 88.781180 108.212000] -0.682065 0.000000 0.000000 -0.731292 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A8B0017, 19262, 0xA8B00009, 44.12337, 18.69714, 109.0924, -0.4558571, 0, 0, -0.890053,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0xA8B00009 [44.123370 18.697140 109.092400] -0.455857 0.000000 0.000000 -0.890053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A8B0018,  1154, 0xA8B00035, 153.154, 105.486, 89.205, 0.994798, 0, 0, -0.101868, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xA8B00035 [153.154000 105.486000 89.205000] 0.994798 0.000000 0.000000 -0.101868 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B0016, 0x7A8B0017, '2019-02-10 00:00:00') /* Sentry (12725) */;
+VALUES (0x7A8B0018, 0x7A8B0019, '2019-02-10 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B0017, 12725, 0xA8B00035, 153.154, 105.486, 89.205, 0.994798, 0, 0, -0.101868,  True, '2019-02-10 00:00:00'); /* Sentry */
+VALUES (0x7A8B0019, 12725, 0xA8B00035, 153.154, 105.486, 89.205, 0.994798, 0, 0, -0.101868,  True, '2019-02-10 00:00:00'); /* Sentry */
 /* @teleloc 0xA8B00035 [153.154000 105.486000 89.205000] 0.994798 0.000000 0.000000 -0.101868 */

@@ -18,7 +18,9 @@ VALUES (0x794CD001, 0x794CD002, '2019-02-10 00:00:00') /* Hoary Armoredillo (708
      , (0x794CD001, 0x794CD00C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
      , (0x794CD001, 0x794CD00D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
      , (0x794CD001, 0x794CD00E, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
-     , (0x794CD001, 0x794CD00F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
+     , (0x794CD001, 0x794CD00F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x794CD001, 0x794CD010, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x794CD001, 0x794CD011, '2019-02-10 00:00:00') /* Dual Fragment (6041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794CD002,  7084, 0x94CD001C, 82.45908, 78.16843, 147.7087, 0.9697262, 0, 0, -0.2441949,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -75,3 +77,11 @@ VALUES (0x794CD00E,  7345, 0x94CD001C, 83.28647, 81.68073, 148.5311, -4.371139E-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794CD00F,  7345, 0x94CD001C, 82.51956, 84.47749, 149.7829, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
 /* @teleloc 0x94CD001C [82.519560 84.477490 149.782900] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x794CD010,  1629, 0x94CD001C, 79.34309, 72.75998, 147.2047, 0.9697262, 0, 0, -0.2441949,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
+/* @teleloc 0x94CD001C [79.343090 72.759980 147.204700] 0.969726 0.000000 0.000000 -0.244195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x794CD011,  6041, 0x94CD001B, 89.56843, 48.8139, 137.8196, 0.9697262, 0, 0, -0.2441949,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
+/* @teleloc 0x94CD001B [89.568430 48.813900 137.819600] 0.969726 0.000000 0.000000 -0.244195 */

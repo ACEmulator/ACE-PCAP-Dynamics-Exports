@@ -32,7 +32,10 @@ VALUES (0x795DA001, 0x795DA002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
      , (0x795DA001, 0x795DA01A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
      , (0x795DA001, 0x795DA01B, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
      , (0x795DA001, 0x795DA01C, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
-     , (0x795DA001, 0x795DA01D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
+     , (0x795DA001, 0x795DA01D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x795DA001, 0x795DA01E, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x795DA001, 0x795DA01F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x795DA001, 0x795DA020, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795DA002,  1628, 0x95DA0039, 187.6801, 16.84583, 105.7748, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -147,12 +150,24 @@ VALUES (0x795DA01D,   212, 0x95DA0010, 29.91865, 185.5729, 124.4356, 0.7023476, 
 /* @teleloc 0x95DA0010 [29.918650 185.572900 124.435600] 0.702348 0.000000 0.000000 -0.711834 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x795DA01E,  1542, 0x95DA0029, 133.4547, 18.16173, 107.937, -0.3981921, 0, 0, -0.9173021, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x795DA01E,  7090, 0x95DA0039, 181.174, 3.660418, 107.4069, -0.8252292, 0, 0, -0.5647979,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
+/* @teleloc 0x95DA0039 [181.174000 3.660418 107.406900] -0.825229 0.000000 0.000000 -0.564798 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795DA01F,  7088, 0x95DA002A, 125.1045, 47.52827, 108.0071, -0.9983017, 0, 0, -0.05825477,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+/* @teleloc 0x95DA002A [125.104500 47.528270 108.007100] -0.998302 0.000000 0.000000 -0.058255 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795DA020,  7994, 0x95DA001A, 72.71809, 37.00449, 113.8829, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
+/* @teleloc 0x95DA001A [72.718090 37.004490 113.882900] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795DA021,  1542, 0x95DA0029, 133.4547, 18.16173, 107.937, -0.3981921, 0, 0, -0.9173021, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x95DA0029 [133.454700 18.161730 107.937000] -0.398192 0.000000 0.000000 -0.917302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795DA01E, 0x795DA01F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
+VALUES (0x795DA021, 0x795DA022, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x795DA01F,  9071, 0x95DA0029, 133.4547, 18.16173, 107.937, -0.3981921, 0, 0, -0.9173021,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */
+VALUES (0x795DA022,  9071, 0x95DA0029, 133.4547, 18.16173, 107.937, -0.3981921, 0, 0, -0.9173021,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */
 /* @teleloc 0x95DA0029 [133.454700 18.161730 107.937000] -0.398192 0.000000 0.000000 -0.917302 */

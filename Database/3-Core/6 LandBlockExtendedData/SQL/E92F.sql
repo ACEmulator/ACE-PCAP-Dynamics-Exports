@@ -21,7 +21,8 @@ VALUES (0x7E92F001, 0x7E92F002, '2019-02-10 00:00:00') /* Granite Golem (195) */
      , (0x7E92F001, 0x7E92F00F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
      , (0x7E92F001, 0x7E92F010, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
      , (0x7E92F001, 0x7E92F011, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
-     , (0x7E92F001, 0x7E92F012, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
+     , (0x7E92F001, 0x7E92F012, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E92F001, 0x7E92F013, '2019-02-10 00:00:00') /* Glacial Golem (14521) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92F002,   195, 0xE92F003A, 168.544, 46.04358, 65.68493, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -90,3 +91,7 @@ VALUES (0x7E92F011,  9401, 0xE92F0038, 152.7804, 182.5801, 144.2349, 0.7669476, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E92F012,   205, 0xE92F002F, 134.8792, 163.696, 144.8983, -0.9121032, 0, 0, -0.4099606,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */
 /* @teleloc 0xE92F002F [134.879200 163.696000 144.898300] -0.912103 0.000000 0.000000 -0.409961 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E92F013, 14521, 0xE92F0027, 112.8133, 158.587, 149.1002, -0.9121032, 0, 0, -0.4099606,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
+/* @teleloc 0xE92F0027 [112.813300 158.587000 149.100200] -0.912103 0.000000 0.000000 -0.409961 */

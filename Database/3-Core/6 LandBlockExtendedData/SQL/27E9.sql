@@ -16,7 +16,9 @@ VALUES (0x727E9001, 0x727E9002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253
      , (0x727E9001, 0x727E900A, '2019-02-10 00:00:00') /* Demented Fiun (28650) */
      , (0x727E9001, 0x727E900B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
      , (0x727E9001, 0x727E900C, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
-     , (0x727E9001, 0x727E900D, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
+     , (0x727E9001, 0x727E900D, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x727E9001, 0x727E900E, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x727E9001, 0x727E900F, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727E9002,  4253, 0x27E90036, 153.1609, 140.7481, 30.005, -0.8297968, 0, 0, -0.5580657,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -65,3 +67,11 @@ VALUES (0x727E900C, 28642, 0x27E9003E, 188.4354, 132.9755, 30, -0.8297968, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727E900D,  8968, 0x27E90036, 154.6747, 127.8968, 30.0025, -0.194119, 0, 0, -0.980978,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
 /* @teleloc 0x27E90036 [154.674700 127.896800 30.002500] -0.194119 0.000000 0.000000 -0.980978 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727E900E, 14559, 0x27E9001F, 75.74845, 158.1379, 28.99106, -0.992478, 0, 0, -0.1224237,  True, '2019-02-10 00:00:00'); /* Oak Golem */
+/* @teleloc 0x27E9001F [75.748450 158.137900 28.991060] -0.992478 0.000000 0.000000 -0.122424 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727E900F, 29358, 0x27E90030, 139.2759, 186.3574, 30.012, 0.9802058, 0, 0, -0.1979815,  True, '2019-02-10 00:00:00'); /* Woodland Phyntos Wasp */
+/* @teleloc 0x27E90030 [139.275900 186.357400 30.012000] 0.980206 0.000000 0.000000 -0.197982 */

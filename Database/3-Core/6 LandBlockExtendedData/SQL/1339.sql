@@ -24,7 +24,14 @@ VALUES (0x71339001, 0x71339002, '2019-02-10 00:00:00') /* Rendeath Shreth (7114)
      , (0x71339001, 0x71339012, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
      , (0x71339001, 0x71339013, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
      , (0x71339001, 0x71339014, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
-     , (0x71339001, 0x71339015, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
+     , (0x71339001, 0x71339015, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */
+     , (0x71339001, 0x71339016, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x71339001, 0x71339017, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x71339001, 0x71339018, '2019-02-10 00:00:00') /* Bane Grievver (7983) */
+     , (0x71339001, 0x71339019, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71339001, 0x7133901A, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x71339001, 0x7133901B, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x71339001, 0x7133901C, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71339002,  7114, 0x13390018, 52.62612, 169.0251, 0.36676, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
@@ -107,12 +114,40 @@ VALUES (0x71339015, 36820, 0x13390025, 110.7382, 118.9073, 9.39369, -4.371139E-0
 /* @teleloc 0x13390025 [110.738200 118.907300 9.393690] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71339016,  1542, 0x13390017, 52.37403, 162.605, -0.00999999, -0.1258171, 0, 0, -0.9920534, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71339016,  7125, 0x1339001F, 74.80794, 146.8088, 0.9360521, -0.1258171, 0, 0, -0.9920534,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
+/* @teleloc 0x1339001F [74.807940 146.808800 0.936052] -0.125817 0.000000 0.000000 -0.992053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71339017, 22914, 0x1339002F, 127.5435, 148.0567, 19.84826, -0.8183042, 0, 0, -0.5747854,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
+/* @teleloc 0x1339002F [127.543500 148.056700 19.848260] -0.818304 0.000000 0.000000 -0.574785 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71339018,  7983, 0x1339002E, 127.3411, 133.1336, 16.33994, -0.8183042, 0, 0, -0.5747854,  True, '2019-02-10 00:00:00'); /* Bane Grievver */
+/* @teleloc 0x1339002E [127.341100 133.133600 16.339940] -0.818304 0.000000 0.000000 -0.574785 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71339019, 36837, 0x13390026, 107.8893, 121.3072, 6.299895, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
+/* @teleloc 0x13390026 [107.889300 121.307200 6.299895] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7133901A, 36837, 0x13390026, 103.4398, 129.1424, 6.633663, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
+/* @teleloc 0x13390026 [103.439800 129.142400 6.633663] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7133901B, 36839, 0x13390026, 109.9625, 128.3706, 8.756819, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */
+/* @teleloc 0x13390026 [109.962500 128.370600 8.756819] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7133901C, 24133, 0x13390018, 68.79354, 169.7184, 1.732795, -0.1258171, 0, 0, -0.9920534,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
+/* @teleloc 0x13390018 [68.793540 169.718400 1.732795] -0.125817 0.000000 0.000000 -0.992053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7133901D,  1542, 0x13390017, 52.37403, 162.605, -0.00999999, -0.1258171, 0, 0, -0.9920534, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x13390017 [52.374030 162.605000 -0.010000] -0.125817 0.000000 0.000000 -0.992053 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71339016, 0x71339017, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+VALUES (0x7133901D, 0x7133901E, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71339017,  9288, 0x13390017, 52.37403, 162.605, -0.00999999, -0.1258171, 0, 0, -0.9920534,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x7133901E,  9288, 0x13390017, 52.37403, 162.605, -0.00999999, -0.1258171, 0, 0, -0.9920534,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x13390017 [52.374030 162.605000 -0.010000] -0.125817 0.000000 0.000000 -0.992053 */

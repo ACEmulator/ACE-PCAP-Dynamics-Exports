@@ -34,7 +34,8 @@ VALUES (0x7B171001, 0x7B171002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) *
      , (0x7B171001, 0x7B17101C, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
      , (0x7B171001, 0x7B17101D, '2019-02-10 00:00:00') /* Fragment (8014) */
      , (0x7B171001, 0x7B17101E, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
-     , (0x7B171001, 0x7B17101F, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
+     , (0x7B171001, 0x7B17101F, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7B171001, 0x7B171020, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B171002,  1608, 0xB1710034, 149.639, 78.22095, 21.95483, -0.3815686, 0, 0, -0.9243405,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -157,22 +158,26 @@ VALUES (0x7B17101F, 24941, 0xB171000A, 28.83068, 34.8101, 20.01, 0.9238795, 0, 0
 /* @teleloc 0xB171000A [28.830680 34.810100 20.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B171020,  1542, 0xB1710002, 4.955322, 38.02347, 23.46862, 0.09382965, 0, 0, -0.9955882, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B171020,  1756, 0xB1710033, 164.9438, 69.2216, 23.74782, -0.3815686, 0, 0, -0.9243405,  True, '2019-02-10 00:00:00'); /* Shadow Child */
+/* @teleloc 0xB1710033 [164.943800 69.221600 23.747820] -0.381569 0.000000 0.000000 -0.924341 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B171021,  1542, 0xB1710002, 4.955322, 38.02347, 23.46862, 0.09382965, 0, 0, -0.9955882, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB1710002 [4.955322 38.023470 23.468620] 0.093830 0.000000 0.000000 -0.995588 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B171020, 0x7B171021, '2019-02-10 00:00:00') /* Sunflower (15715) */
-     , (0x7B171020, 0x7B171022, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
-     , (0x7B171020, 0x7B171023, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x7B171021, 0x7B171022, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7B171021, 0x7B171023, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7B171021, 0x7B171024, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B171021, 15715, 0xB1710002, 4.955322, 38.02347, 23.46862, 0.09382965, 0, 0, -0.9955882,  True, '2019-02-10 00:00:00'); /* Sunflower */
+VALUES (0x7B171022, 15715, 0xB1710002, 4.955322, 38.02347, 23.46862, 0.09382965, 0, 0, -0.9955882,  True, '2019-02-10 00:00:00'); /* Sunflower */
 /* @teleloc 0xB1710002 [4.955322 38.023470 23.468620] 0.093830 0.000000 0.000000 -0.995588 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B171022, 31443, 0xB1710016, 57.73332, 140.0273, 17.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x7B171023, 31443, 0xB1710016, 57.73332, 140.0273, 17.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0xB1710016 [57.733320 140.027300 17.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B171023,  4180, 0xB1710002, 2.103256, 39.32571, 21.82473, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7B171024,  4180, 0xB1710002, 2.103256, 39.32571, 21.82473, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xB1710002 [2.103256 39.325710 21.824730] 1.000000 0.000000 0.000000 0.000000 */

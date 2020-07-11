@@ -27,7 +27,14 @@ VALUES (0x7ABA8001, 0x7ABA8002, '2019-02-10 00:00:00') /* Crude Monouga (2575) *
      , (0x7ABA8001, 0x7ABA8015, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
      , (0x7ABA8001, 0x7ABA8016, '2019-02-10 00:00:00') /* Harvest Reaper (36443) */
      , (0x7ABA8001, 0x7ABA8017, '2019-02-10 00:00:00') /* Shadow Child (1756) */
-     , (0x7ABA8001, 0x7ABA8018, '2019-02-10 00:00:00') /* Shadow (1758) */;
+     , (0x7ABA8001, 0x7ABA8018, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7ABA8001, 0x7ABA8019, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ABA8001, 0x7ABA801A, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7ABA8001, 0x7ABA801B, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7ABA8001, 0x7ABA801C, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x7ABA8001, 0x7ABA801D, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x7ABA8001, 0x7ABA801E, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x7ABA8001, 0x7ABA801F, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA8002,  2575, 0xABA80003, 7.571877, 49.33601, 168.7299, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -122,17 +129,45 @@ VALUES (0x7ABA8018,  1758, 0xABA8000B, 40.06543, 60.8324, 162.2581, 0.7071068, 0
 /* @teleloc 0xABA8000B [40.065430 60.832400 162.258100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ABA8019,  1542, 0xABA80001, 4.557648, 20.05714, 170.435, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7ABA8019,  1609, 0xABA80002, 10.05333, 35.02576, 169.3716, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
+/* @teleloc 0xABA80002 [10.053330 35.025760 169.371600] 0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA801A,  1609, 0xABA80002, 14.36066, 35.24744, 170.4123, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
+/* @teleloc 0xABA80002 [14.360660 35.247440 170.412300] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA801B,  1989, 0xABA80014, 52.15639, 87.30746, 157.6853, -0.9495047, 0, 0, -0.3137529,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
+/* @teleloc 0xABA80014 [52.156390 87.307460 157.685300] -0.949505 0.000000 0.000000 -0.313753 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA801C,  9253, 0xABA80025, 98.55209, 102.6391, 145.0124, -0.1595262, 0, 0, -0.9871937,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
+/* @teleloc 0xABA80025 [98.552090 102.639100 145.012400] -0.159526 0.000000 0.000000 -0.987194 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA801D,   213, 0xABA8002F, 141.4704, 148.0017, 141.3352, -0.8670453, 0, 0, -0.4982293,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
+/* @teleloc 0xABA8002F [141.470400 148.001700 141.335200] -0.867045 0.000000 0.000000 -0.498229 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA801E,  1608, 0xABA8003E, 184.1951, 130.4332, 130.6537, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
+/* @teleloc 0xABA8003E [184.195100 130.433200 130.653700] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA801F, 22010, 0xABA80033, 145.7845, 53.86868, 140.289, -0.5112336, 0, 0, -0.8594418,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
+/* @teleloc 0xABA80033 [145.784500 53.868680 140.289000] -0.511234 0.000000 0.000000 -0.859442 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA8020,  1542, 0xABA80001, 4.557648, 20.05714, 170.435, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xABA80001 [4.557648 20.057140 170.435000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ABA8019, 0x7ABA801A, '2019-02-10 00:00:00') /* Runed Chest (22576) */
-     , (0x7ABA8019, 0x7ABA801B, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
+VALUES (0x7ABA8020, 0x7ABA8021, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7ABA8020, 0x7ABA8022, '2019-02-10 00:00:00') /* Runed Chest (22576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ABA801A, 22576, 0xABA80001, 4.557648, 20.05714, 170.435, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7ABA8021, 22576, 0xABA80001, 4.557648, 20.05714, 170.435, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xABA80001 [4.557648 20.057140 170.435000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ABA801B, 22576, 0xABA80001, 5.887461, 23.96914, 170.435, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7ABA8022, 22576, 0xABA80001, 5.887461, 23.96914, 170.435, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xABA80001 [5.887461 23.969140 170.435000] 1.000000 0.000000 0.000000 0.000000 */

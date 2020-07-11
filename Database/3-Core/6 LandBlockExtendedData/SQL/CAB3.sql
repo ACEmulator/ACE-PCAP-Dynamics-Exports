@@ -16,7 +16,8 @@ VALUES (0x7CAB3001, 0x7CAB3002, '2019-02-10 00:00:00') /* Brutish Monouga (9251)
      , (0x7CAB3001, 0x7CAB300A, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
      , (0x7CAB3001, 0x7CAB300B, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
      , (0x7CAB3001, 0x7CAB300C, '2019-02-10 00:00:00') /* Copper Golem (194) */
-     , (0x7CAB3001, 0x7CAB300D, '2019-02-10 00:00:00') /* Copper Golem (194) */;
+     , (0x7CAB3001, 0x7CAB300D, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7CAB3001, 0x7CAB300E, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAB3002,  9251, 0xCAB30032, 150.5236, 40.29729, 203.6962, 0.1729088, 0, 0, -0.9849378,  True, '2019-02-10 00:00:00'); /* Brutish Monouga */
@@ -65,3 +66,7 @@ VALUES (0x7CAB300C,   194, 0xCAB3002A, 142.6186, 39.78111, 201.9553, 0.7071068, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAB300D,   194, 0xCAB3002A, 138.3398, 33.97663, 200.5042, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Copper Golem */
 /* @teleloc 0xCAB3002A [138.339800 33.976630 200.504200] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAB300E,     3, 0xCAB30031, 149.5649, 17.47405, 198.8474, 0.1729088, 0, 0, -0.9849378,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0xCAB30031 [149.564900 17.474050 198.847400] 0.172909 0.000000 0.000000 -0.984938 */

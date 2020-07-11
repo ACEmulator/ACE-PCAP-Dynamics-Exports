@@ -38,7 +38,12 @@ VALUES (0x72F36001, 0x72F36002, '2019-02-10 00:00:00') /* Virindi Desecrator (36
      , (0x72F36001, 0x72F36020, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
      , (0x72F36001, 0x72F36021, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
      , (0x72F36001, 0x72F36022, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
-     , (0x72F36001, 0x72F36023, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
+     , (0x72F36001, 0x72F36023, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72F36001, 0x72F36024, '2019-02-10 00:00:00') /* Virindi Consul (36861) */
+     , (0x72F36001, 0x72F36025, '2019-02-10 00:00:00') /* Nightmare Wisp (7127) */
+     , (0x72F36001, 0x72F36026, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x72F36001, 0x72F36027, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */
+     , (0x72F36001, 0x72F36028, '2019-02-10 00:00:00') /* Banderling Aggressor (36816) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F36002, 36862, 0x2F36000E, 46.74637, 136.9699, 82.13348, -0.2713239, 0, 0, -0.9624881,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */
@@ -175,3 +180,23 @@ VALUES (0x72F36022,   228, 0x2F36000E, 47.28863, 140.7081, 82.06528, 0.9961947, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F36023, 23567, 0x2F36000E, 44.78163, 136.6148, 82.2747, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x2F36000E [44.781630 136.614800 82.274700] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F36024, 36861, 0x2F360002, 17.95453, 34.83812, 49.53424, 0.4769835, 0, 0, -0.8789123,  True, '2019-02-10 00:00:00'); /* Virindi Consul */
+/* @teleloc 0x2F360002 [17.954530 34.838120 49.534240] 0.476984 0.000000 0.000000 -0.878912 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F36025,  7127, 0x2F36000A, 34.40665, 44.23685, 74.32352, 0.4769835, 0, 0, -0.8789123,  True, '2019-02-10 00:00:00'); /* Nightmare Wisp */
+/* @teleloc 0x2F36000A [34.406650 44.236850 74.323520] 0.476984 0.000000 0.000000 -0.878912 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F36026,  7099, 0x2F36000E, 45.46347, 128.6119, 82.22138, -0.2713239, 0, 0, -0.9624881,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
+/* @teleloc 0x2F36000E [45.463470 128.611900 82.221380] -0.271324 0.000000 0.000000 -0.962488 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F36027, 36816, 0x2F36000E, 45.69728, 136.7132, 82.19905, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
+/* @teleloc 0x2F36000E [45.697280 136.713200 82.199050] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F36028, 36816, 0x2F36000E, 43.38857, 131.7949, 82.39144, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
+/* @teleloc 0x2F36000E [43.388570 131.794900 82.391440] 0.707107 0.000000 0.000000 -0.707107 */

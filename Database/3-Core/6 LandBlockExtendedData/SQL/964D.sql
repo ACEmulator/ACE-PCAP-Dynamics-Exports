@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7964D001, 0x7964D002, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x7964D001, 0x7964D003, '2019-02-10 00:00:00') /* Innocent Doll (9242) */
      , (0x7964D001, 0x7964D004, '2019-02-10 00:00:00') /* Pristine Doll (9244) */
-     , (0x7964D001, 0x7964D005, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */;
+     , (0x7964D001, 0x7964D005, '2019-02-10 00:00:00') /* Blighted Sotiris Hollow Minion (38179) */
+     , (0x7964D001, 0x7964D006, '2019-02-10 00:00:00') /* Dark Marionette (9250) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7964D002,  1758, 0x964D000A, 42.0371, 33.5095, 14.99882, 0.5473169, 0, 0, -0.8369254,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -25,3 +26,7 @@ VALUES (0x7964D004,  9244, 0x964D003E, 185.3582, 131.895, 12.58248, -0.8567029, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7964D005, 38179, 0x964D0027, 111.5347, 147.5437, 13.59237, 0.16873, 0, 0, -0.9856623,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
 /* @teleloc 0x964D0027 [111.534700 147.543700 13.592370] 0.168730 0.000000 0.000000 -0.985662 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7964D006,  9250, 0x964D0006, 18.61713, 124.4717, 14.09472, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
+/* @teleloc 0x964D0006 [18.617130 124.471700 14.094720] 0.923880 0.000000 0.000000 -0.382684 */

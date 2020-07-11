@@ -166,7 +166,11 @@ VALUES (0x7090E001, 0x7090E002, '2019-02-10 00:00:00') /* Infernal Zefir (25887)
      , (0x7090E001, 0x7090E0A0, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
      , (0x7090E001, 0x7090E0A1, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x7090E001, 0x7090E0A2, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
-     , (0x7090E001, 0x7090E0A3, '2019-02-10 00:00:00') /* Biaka (25859) */;
+     , (0x7090E001, 0x7090E0A3, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7090E001, 0x7090E0A4, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
+     , (0x7090E001, 0x7090E0A5, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
+     , (0x7090E001, 0x7090E0A6, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x7090E001, 0x7090E0A7, '2019-02-10 00:00:00') /* Damned Marionette (25866) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7090E002, 25887, 0x090E000F, 29.62528, 150.0561, 23.03555, 0.890244, 0, 0, -0.4554839,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
@@ -815,3 +819,19 @@ VALUES (0x7090E0A2, 25887, 0x090E000E, 39.5659, 142.2657, 22.87653, 0.890244, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7090E0A3, 25859, 0x090E0005, 13.16322, 102.9349, 25.69099, -0.3882677, 0, 0, -0.9215466,  True, '2019-02-10 00:00:00'); /* Biaka */
 /* @teleloc 0x090E0005 [13.163220 102.934900 25.690990] -0.388268 0.000000 0.000000 -0.921547 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090E0A4, 25887, 0x090E0004, 5.379928, 95.99111, 24.45733, -0.3882677, 0, 0, -0.9215466,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
+/* @teleloc 0x090E0004 [5.379928 95.991110 24.457330] -0.388268 0.000000 0.000000 -0.921547 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090E0A5, 25887, 0x090E0005, 5.929688, 110.6333, 25.72258, -0.3882677, 0, 0, -0.9215466,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
+/* @teleloc 0x090E0005 [5.929688 110.633300 25.722580] -0.388268 0.000000 0.000000 -0.921547 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090E0A6, 31404, 0x090E002F, 122.7824, 159.8009, 122.7129, 0.890244, 0, 0, -0.4554839,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x090E002F [122.782400 159.800900 122.712900] 0.890244 0.000000 0.000000 -0.455484 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090E0A7, 25866, 0x090E0030, 127.5853, 175.7782, 127.7008, 0.890244, 0, 0, -0.4554839,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
+/* @teleloc 0x090E0030 [127.585300 175.778200 127.700800] 0.890244 0.000000 0.000000 -0.455484 */

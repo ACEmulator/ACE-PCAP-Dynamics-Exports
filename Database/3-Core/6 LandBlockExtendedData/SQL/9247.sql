@@ -10,7 +10,8 @@ VALUES (0x79247001, 0x79247002, '2019-02-10 00:00:00') /* Marionette (9249) */
      , (0x79247001, 0x79247004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
      , (0x79247001, 0x79247005, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
      , (0x79247001, 0x79247006, '2019-02-10 00:00:00') /* Shadow (1758) */
-     , (0x79247001, 0x79247007, '2019-02-10 00:00:00') /* Virindi Director (5497) */;
+     , (0x79247001, 0x79247007, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x79247001, 0x79247008, '2019-02-10 00:00:00') /* Marionette (9249) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79247002,  9249, 0x92470020, 89.82912, 175.3993, 16.11, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Marionette */
@@ -35,3 +36,7 @@ VALUES (0x79247006,  1758, 0x9247003E, 182.1458, 127.3889, 11.38926, -0.9990897,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79247007,  5497, 0x9247003F, 187.6759, 160.795, 9.668662, 0.6292694, 0, 0, -0.7771873,  True, '2019-02-10 00:00:00'); /* Virindi Director */
 /* @teleloc 0x9247003F [187.675900 160.795000 9.668662] 0.629269 0.000000 0.000000 -0.777187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79247008,  9249, 0x92470016, 60.81581, 129.8645, 11.06839, -0.7460256, 0, 0, -0.6659173,  True, '2019-02-10 00:00:00'); /* Marionette */
+/* @teleloc 0x92470016 [60.815810 129.864500 11.068390] -0.746026 0.000000 0.000000 -0.665917 */

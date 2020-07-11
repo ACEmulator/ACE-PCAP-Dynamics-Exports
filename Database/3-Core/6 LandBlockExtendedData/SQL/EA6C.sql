@@ -50,7 +50,11 @@ VALUES (0x7EA6C013, 0x7EA6C014, '2019-02-10 00:00:00') /* Virindi Paradox (23570
      , (0x7EA6C013, 0x7EA6C032, '2019-02-10 00:00:00') /* Imp (35954) */
      , (0x7EA6C013, 0x7EA6C033, '2019-02-10 00:00:00') /* Imp (35954) */
      , (0x7EA6C013, 0x7EA6C034, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
-     , (0x7EA6C013, 0x7EA6C035, '2019-02-10 00:00:00') /* Chained Tusker (35939) */;
+     , (0x7EA6C013, 0x7EA6C035, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C036, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C037, '2019-02-10 00:00:00') /* Dark Bobo (35941) */
+     , (0x7EA6C013, 0x7EA6C038, '2019-02-10 00:00:00') /* Chained Tusker (35939) */
+     , (0x7EA6C013, 0x7EA6C039, '2019-02-10 00:00:00') /* Chained Tusker (35939) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA6C014, 23570, 0xEA6C0136, 150.1419, 253.4075, -35.171, 0.3673346, 0, 0, 0.9300889,  True, '2019-02-10 00:00:00'); /* Virindi Paradox */
@@ -189,52 +193,73 @@ VALUES (0x7EA6C035, 35939, 0xEA6C0146, 144.253, 242.615, -35.1857, 0.6906148, 0,
 /* @teleloc 0xEA6C0146 [144.253000 242.615000 -35.185700] 0.690615 0.000000 0.000000 -0.723223 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C036,  1542, 0xEA6C015B, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.2164396, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7EA6C036, 35939, 0xEA6C0129, 171.928, 273.977, -35.1857, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chained Tusker */
+/* @teleloc 0xEA6C0129 [171.928000 273.977000 -35.185700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA6C037, 35941, 0xEA6C010E, 181.9158, 223.0832, -46.89144, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Bobo */
+/* @teleloc 0xEA6C010E [181.915800 223.083200 -46.891440] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA6C038, 35939, 0xEA6C0133, 156.6837, 257.3508, -35.1857, 0.1133665, 0, 0, -0.9935532,  True, '2019-02-10 00:00:00'); /* Chained Tusker */
+/* @teleloc 0xEA6C0133 [156.683700 257.350800 -35.185700] 0.113367 0.000000 0.000000 -0.993553 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA6C039, 35939, 0xEA6C0133, 157.759, 254.9478, -35.1857, -0.4052916, 0, 0, -0.9141875,  True, '2019-02-10 00:00:00'); /* Chained Tusker */
+/* @teleloc 0xEA6C0133 [157.759000 254.947800 -35.185700] -0.405292 0.000000 0.000000 -0.914188 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA6C03A,  1542, 0xEA6C015B, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.2164396, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xEA6C015B [192.236000 143.991000 -11.263000] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7EA6C036, 0x7EA6C037, '2019-02-10 00:00:00') /* Whispering Caverns (35946) */
-     , (0x7EA6C036, 0x7EA6C038, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
-     , (0x7EA6C036, 0x7EA6C039, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
-     , (0x7EA6C036, 0x7EA6C03A, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
-     , (0x7EA6C036, 0x7EA6C03B, '2019-02-10 00:00:00') /* Dark Nanner (35961) */
-     , (0x7EA6C036, 0x7EA6C03C, '2019-02-10 00:00:00') /* Dark Nanner (35961) */
-     , (0x7EA6C036, 0x7EA6C03D, '2019-02-10 00:00:00') /* Dark Nanner (35961) */
-     , (0x7EA6C036, 0x7EA6C03E, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
-     , (0x7EA6C036, 0x7EA6C03F, '2019-02-10 00:00:00') /* Dark Nanner (35960) */;
+VALUES (0x7EA6C03A, 0x7EA6C03B, '2019-02-10 00:00:00') /* Whispering Caverns (35946) */
+     , (0x7EA6C03A, 0x7EA6C03C, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
+     , (0x7EA6C03A, 0x7EA6C03D, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
+     , (0x7EA6C03A, 0x7EA6C03E, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
+     , (0x7EA6C03A, 0x7EA6C03F, '2019-02-10 00:00:00') /* Dark Nanner (35961) */
+     , (0x7EA6C03A, 0x7EA6C040, '2019-02-10 00:00:00') /* Dark Nanner (35961) */
+     , (0x7EA6C03A, 0x7EA6C041, '2019-02-10 00:00:00') /* Dark Nanner (35961) */
+     , (0x7EA6C03A, 0x7EA6C042, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
+     , (0x7EA6C03A, 0x7EA6C043, '2019-02-10 00:00:00') /* Dark Nanner (35960) */
+     , (0x7EA6C03A, 0x7EA6C044, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C037, 35946, 0xEA6C015B, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Whispering Caverns */
+VALUES (0x7EA6C03B, 35946, 0xEA6C015B, 192.236, 143.991, -11.263, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Whispering Caverns */
 /* @teleloc 0xEA6C015B [192.236000 143.991000 -11.263000] 0.976296 0.000000 0.000000 -0.216440 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C038, 35960, 0xEA6C0109, 191.5809, 234.6932, -45.78917, 0.9899336, 0, 0, -0.1415323,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C03C, 35960, 0xEA6C0109, 191.5809, 234.6932, -45.78917, 0.9899336, 0, 0, -0.1415323,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C0109 [191.580900 234.693200 -45.789170] 0.989934 0.000000 0.000000 -0.141532 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C039, 35960, 0xEA6C010C, 194.4607, 233.8526, -45.78917, 0.9899336, 0, 0, -0.1415323,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C03D, 35960, 0xEA6C010C, 194.4607, 233.8526, -45.78917, 0.9899336, 0, 0, -0.1415323,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C010C [194.460700 233.852600 -45.789170] 0.989934 0.000000 0.000000 -0.141532 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03A, 35960, 0xEA6C010D, 192.0397, 232.2721, -45.861, 0.9899336, 0, 0, -0.1415323,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C03E, 35960, 0xEA6C010D, 192.0397, 232.2721, -45.861, 0.9899336, 0, 0, -0.1415323,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C010D [192.039700 232.272100 -45.861000] 0.989934 0.000000 0.000000 -0.141532 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03B, 35961, 0xEA6C0103, 203.5181, 249.5804, -45.861, 0.2915295, 0, 0, -0.9565618,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C03F, 35961, 0xEA6C0103, 203.5181, 249.5804, -45.861, 0.2915295, 0, 0, -0.9565618,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C0103 [203.518100 249.580400 -45.861000] 0.291530 0.000000 0.000000 -0.956562 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03C, 35961, 0xEA6C0107, 202.6881, 249.0226, -45.861, 0.2915295, 0, 0, -0.9565618,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C040, 35961, 0xEA6C0107, 202.6881, 249.0226, -45.861, 0.2915295, 0, 0, -0.9565618,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C0107 [202.688100 249.022600 -45.861000] 0.291530 0.000000 0.000000 -0.956562 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03D, 35961, 0xEA6C0107, 201.884, 246.6333, -46.23725, 0.2915295, 0, 0, -0.9565618,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C041, 35961, 0xEA6C0107, 201.884, 246.6333, -46.23725, 0.2915295, 0, 0, -0.9565618,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C0107 [201.884000 246.633300 -46.237250] 0.291530 0.000000 0.000000 -0.956562 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03E, 35960, 0xEA6C0107, 203.4982, 244.4298, -45.861, 0.2100788, 0, 0, -0.9776844,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C042, 35960, 0xEA6C0107, 203.4982, 244.4298, -45.861, 0.2100788, 0, 0, -0.9776844,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C0107 [203.498200 244.429800 -45.861000] 0.210079 0.000000 0.000000 -0.977684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7EA6C03F, 35960, 0xEA6C0107, 203.4855, 242.0235, -46.08426, 0.2100788, 0, 0, -0.9776844,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
+VALUES (0x7EA6C043, 35960, 0xEA6C0107, 203.4855, 242.0235, -46.08426, 0.2100788, 0, 0, -0.9776844,  True, '2019-02-10 00:00:00'); /* Dark Nanner */
 /* @teleloc 0xEA6C0107 [203.485500 242.023500 -46.084260] 0.210079 0.000000 0.000000 -0.977684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA6C044,  1955, 0xEA6C0157, 196.7271, 152.2638, -11.263, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xEA6C0157 [196.727100 152.263800 -11.263000] 0.976296 0.000000 0.000000 -0.216440 */

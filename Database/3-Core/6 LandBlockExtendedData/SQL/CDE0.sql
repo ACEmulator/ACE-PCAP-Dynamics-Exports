@@ -34,7 +34,8 @@ VALUES (0x7CDE0001, 0x7CDE0002, '2019-02-10 00:00:00') /* Aqueous Golem (31920) 
      , (0x7CDE0001, 0x7CDE001C, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */
      , (0x7CDE0001, 0x7CDE001D, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
      , (0x7CDE0001, 0x7CDE001E, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
-     , (0x7CDE0001, 0x7CDE001F, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */;
+     , (0x7CDE0001, 0x7CDE001F, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CDE0001, 0x7CDE0020, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDE0002, 31920, 0xCDE0000F, 41.47036, 158.8071, -0.8890001, -0.3557158, 0, 0, -0.9345942,  True, '2019-02-10 00:00:00'); /* Aqueous Golem */
@@ -155,3 +156,7 @@ VALUES (0x7CDE001E, 31912, 0xCDE0001C, 93.43511, 89.40667, -0.4435999, -0.558072
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CDE001F, 31909, 0xCDE00023, 116.0053, 67.51158, 0.001199961, -0.999894, 0, 0, -0.01455724,  True, '2019-02-10 00:00:00'); /* Shallows Gorger */
 /* @teleloc 0xCDE00023 [116.005300 67.511580 0.001200] -0.999894 0.000000 0.000000 -0.014557 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CDE0020, 31920, 0xCDE0001D, 88.75447, 108.9462, -0.8890001, -0.5580728, 0, 0, -0.829792,  True, '2019-02-10 00:00:00'); /* Aqueous Golem */
+/* @teleloc 0xCDE0001D [88.754470 108.946200 -0.889000] -0.558073 0.000000 0.000000 -0.829792 */

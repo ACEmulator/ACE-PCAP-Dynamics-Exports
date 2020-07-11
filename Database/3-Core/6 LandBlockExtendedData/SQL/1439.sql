@@ -42,7 +42,9 @@ VALUES (0x71439001, 0x71439002, '2019-02-10 00:00:00') /* Peerless Drudge (36825
      , (0x71439001, 0x71439024, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
      , (0x71439001, 0x71439025, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
      , (0x71439001, 0x71439026, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
-     , (0x71439001, 0x71439027, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */;
+     , (0x71439001, 0x71439027, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
+     , (0x71439001, 0x71439028, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
+     , (0x71439001, 0x71439029, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71439002, 36825, 0x1439001E, 95.50013, 134.8707, 87.6713, 0.2196308, 0, 0, -0.9755831,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
@@ -197,17 +199,25 @@ VALUES (0x71439027, 10814, 0x1439001C, 94.09656, 90.87902, 85.39452, 0.9659258, 
 /* @teleloc 0x1439001C [94.096560 90.879020 85.394520] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71439028,  1542, 0x14390025, 109.3895, 99.8907, 88.5695, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71439028, 22911, 0x14390014, 71.06123, 94.15747, 77.07933, 0.8166653, 0, 0, -0.5771116,  True, '2019-02-10 00:00:00'); /* Paroxysm Shadow */
+/* @teleloc 0x14390014 [71.061230 94.157470 77.079330] 0.816665 0.000000 0.000000 -0.577112 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71439029, 22910, 0x14390014, 69.39223, 86.98646, 75.64828, 0.8166653, 0, 0, -0.5771116,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */
+/* @teleloc 0x14390014 [69.392230 86.986460 75.648280] 0.816665 0.000000 0.000000 -0.577112 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7143902A,  1542, 0x14390025, 109.3895, 99.8907, 88.5695, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x14390025 [109.389500 99.890700 88.569500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71439028, 0x71439029, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x71439028, 0x7143902A, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
+VALUES (0x7143902A, 0x7143902B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7143902A, 0x7143902C, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71439029,  4380, 0x14390025, 109.3895, 99.8907, 88.5695, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7143902B,  4380, 0x14390025, 109.3895, 99.8907, 88.5695, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x14390025 [109.389500 99.890700 88.569500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7143902A,  9286, 0x1439001D, 95.64859, 101.6284, 86.22475, 0.8166653, 0, 0, -0.5771116,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
+VALUES (0x7143902C,  9286, 0x1439001D, 95.64859, 101.6284, 86.22475, 0.8166653, 0, 0, -0.5771116,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
 /* @teleloc 0x1439001D [95.648590 101.628400 86.224750] 0.816665 0.000000 0.000000 -0.577112 */

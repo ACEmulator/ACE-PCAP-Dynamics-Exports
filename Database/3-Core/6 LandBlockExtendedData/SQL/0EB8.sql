@@ -19,7 +19,9 @@ VALUES (0x70EB8001, 0x70EB8002, '2019-02-10 00:00:00') /* Mist Golem (22933) */
      , (0x70EB8001, 0x70EB800D, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
      , (0x70EB8001, 0x70EB800E, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
      , (0x70EB8001, 0x70EB800F, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
-     , (0x70EB8001, 0x70EB8010, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
+     , (0x70EB8001, 0x70EB8010, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x70EB8001, 0x70EB8011, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x70EB8001, 0x70EB8012, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EB8002, 22933, 0x0EB80037, 159.6628, 152.076, -0.8899999, 0.3852902, 0, 0, -0.9227955,  True, '2019-02-10 00:00:00'); /* Mist Golem */
@@ -80,3 +82,11 @@ VALUES (0x70EB800F, 11527, 0x0EB80038, 158.2664, 168.2985, -0.895, 0.3852902, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EB8010, 11527, 0x0EB80037, 159.7486, 155.0147, -0.895, 0.3852902, 0, 0, -0.9227955,  True, '2019-02-10 00:00:00'); /* Sable Gromnie */
 /* @teleloc 0x0EB80037 [159.748600 155.014700 -0.895000] 0.385290 0.000000 0.000000 -0.922796 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70EB8011, 27715, 0x0EB80037, 148.6686, 167.0697, -0.8974001, 0.3852902, 0, 0, -0.9227955,  True, '2019-02-10 00:00:00'); /* Ferocious Ursuin */
+/* @teleloc 0x0EB80037 [148.668600 167.069700 -0.897400] 0.385290 0.000000 0.000000 -0.922796 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70EB8012, 11495, 0x0EB80040, 176.8465, 172.8931, 0, -0.2277872, 0, 0, -0.973711,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+/* @teleloc 0x0EB80040 [176.846500 172.893100 0.000000] -0.227787 0.000000 0.000000 -0.973711 */

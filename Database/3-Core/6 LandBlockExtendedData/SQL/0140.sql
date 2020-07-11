@@ -269,7 +269,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x70140069, 0x7014006A, '2019-02-10 00:00:00') /* Bracelet (295) */
      , (0x70140069, 0x7014006B, '2019-02-10 00:00:00') /* Iron Pea (8328) */
      , (0x70140069, 0x7014006C, '2019-02-10 00:00:00') /* Gem (2405) */
-     , (0x70140069, 0x7014006D, '2019-02-10 00:00:00') /* Lesser Mana Stone (2434) */;
+     , (0x70140069, 0x7014006D, '2019-02-10 00:00:00') /* Lesser Mana Stone (2434) */
+     , (0x70140069, 0x7014006E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014006A,   295, 0x0140018B, 70.47893, -100.0018, -11.96114, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bracelet */
@@ -286,3 +287,7 @@ VALUES (0x7014006C,  2405, 0x01400195, 100.8299, -99.766, -12.001, -0.7071068, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7014006D,  2434, 0x01400195, 100.43, -100.1871, -12, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Lesser Mana Stone */
 /* @teleloc 0x01400195 [100.430000 -100.187100 -12.000000] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7014006E,  1955, 0x0140024A, 79.52683, -8.688307, 5.937, 0.06463354, 0, 0, -0.9979091,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x0140024A [79.526830 -8.688307 5.937000] 0.064634 0.000000 0.000000 -0.997909 */

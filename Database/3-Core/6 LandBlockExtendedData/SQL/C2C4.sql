@@ -13,7 +13,11 @@ VALUES (0x7C2C4001, 0x7C2C4002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482)
      , (0x7C2C4001, 0x7C2C4007, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
      , (0x7C2C4001, 0x7C2C4008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
      , (0x7C2C4001, 0x7C2C4009, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
-     , (0x7C2C4001, 0x7C2C400A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
+     , (0x7C2C4001, 0x7C2C400A, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C2C4001, 0x7C2C400B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C2C4001, 0x7C2C400C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x7C2C4001, 0x7C2C400D, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x7C2C4001, 0x7C2C400E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C2C4002, 23482, 0xC2C40037, 157.097, 158.3036, 108.4022, 0.1814868, 0, 0, -0.9833934,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -52,12 +56,28 @@ VALUES (0x7C2C400A,  7089, 0xC2C40003, 18.08471, 59.8648, 154.4467, 0.9238795, 0
 /* @teleloc 0xC2C40003 [18.084710 59.864800 154.446700] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C2C400B,  1542, 0xC2C40015, 58.18158, 106.308, 146.0626, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C2C400B,  7090, 0xC2C40006, 15.76756, 123.5947, 160.1208, -0.9469361, 0, 0, -0.321422,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
+/* @teleloc 0xC2C40006 [15.767560 123.594700 160.120800] -0.946936 0.000000 0.000000 -0.321422 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C2C400C,  7089, 0xC2C4001F, 88.00721, 147.6366, 135.3349, -0.08437144, 0, 0, -0.9964344,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
+/* @teleloc 0xC2C4001F [88.007210 147.636600 135.334900] -0.084371 0.000000 0.000000 -0.996434 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C2C400D, 11478, 0xC2C4001E, 94.66847, 141.6166, 132.5372, 0.7535063, 0, 0, -0.6574407,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0xC2C4001E [94.668470 141.616600 132.537200] 0.753506 0.000000 0.000000 -0.657441 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C2C400E, 23482, 0xC2C40020, 87.81781, 173.2865, 136.7309, 0.7535063, 0, 0, -0.6574407,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0xC2C40020 [87.817810 173.286500 136.730900] 0.753506 0.000000 0.000000 -0.657441 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C2C400F,  1542, 0xC2C40015, 58.18158, 106.308, 146.0626, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC2C40015 [58.181580 106.308000 146.062600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C2C400B, 0x7C2C400C, '2019-02-10 00:00:00') /* Bones (4379) */;
+VALUES (0x7C2C400F, 0x7C2C4010, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C2C400C,  4379, 0xC2C40015, 58.18158, 106.308, 146.0626, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7C2C4010,  4379, 0xC2C40015, 58.18158, 106.308, 146.0626, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xC2C40015 [58.181580 106.308000 146.062600] 1.000000 0.000000 0.000000 0.000000 */

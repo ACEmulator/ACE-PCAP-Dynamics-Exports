@@ -29,7 +29,10 @@ VALUES (0x7E451001, 0x7E451002, '2019-02-10 00:00:00') /* Adult Reedshark (221) 
      , (0x7E451001, 0x7E451017, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
      , (0x7E451001, 0x7E451018, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
      , (0x7E451001, 0x7E451019, '2019-02-10 00:00:00') /* Black Rat (218) */
-     , (0x7E451001, 0x7E45101A, '2019-02-10 00:00:00') /* Black Rat (218) */;
+     , (0x7E451001, 0x7E45101A, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7E451001, 0x7E45101B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E451001, 0x7E45101C, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7E451001, 0x7E45101D, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E451002,   221, 0xE4510035, 147.8694, 110.8899, 7.952423, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */
@@ -132,17 +135,29 @@ VALUES (0x7E45101A,   218, 0xE451002D, 142.7568, 102.7774, 8.883978, 1, 0, 0, 0,
 /* @teleloc 0xE451002D [142.756800 102.777400 8.883978] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E45101B,  1542, 0xE4510013, 67.82914, 68.40023, 26.69514, 0.8660254, 0, 0, -0.5, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E45101B,   222, 0xE4510035, 166.7404, 117.7728, 6.2196, 0.9135455, 0, 0, -0.4067366,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
+/* @teleloc 0xE4510035 [166.740400 117.772800 6.219600] 0.913546 0.000000 0.000000 -0.406737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E45101C,   222, 0xE4510035, 163.4624, 118.8566, 6.2196, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Veteran Reedshark */
+/* @teleloc 0xE4510035 [163.462400 118.856600 6.219600] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E45101D,  1612, 0xE4510034, 166.9802, 95.60463, 6.2196, -0.7563487, 0, 0, -0.6541687,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
+/* @teleloc 0xE4510034 [166.980200 95.604630 6.219600] -0.756349 0.000000 0.000000 -0.654169 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E45101E,  1542, 0xE4510013, 67.82914, 68.40023, 26.69514, 0.8660254, 0, 0, -0.5, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE4510013 [67.829140 68.400230 26.695140] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E45101B, 0x7E45101C, '2019-02-10 00:00:00') /* Corpse (4382) */
-     , (0x7E45101B, 0x7E45101D, '2019-02-10 00:00:00') /* Corpse (4381) */;
+VALUES (0x7E45101E, 0x7E45101F, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7E45101E, 0x7E451020, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E45101C,  4382, 0xE4510013, 67.82914, 68.40023, 26.69514, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7E45101F,  4382, 0xE4510013, 67.82914, 68.40023, 26.69514, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xE4510013 [67.829140 68.400230 26.695140] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E45101D,  4381, 0xE4510035, 146.765, 99.76827, 8.076092, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7E451020,  4381, 0xE4510035, 146.765, 99.76827, 8.076092, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xE4510035 [146.765000 99.768270 8.076092] 1.000000 0.000000 0.000000 0.000000 */

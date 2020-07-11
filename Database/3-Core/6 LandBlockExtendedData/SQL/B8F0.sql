@@ -22,7 +22,10 @@ VALUES (0x7B8F0001, 0x7B8F0002, '2019-02-10 00:00:00') /* Firestorm (7092) */
      , (0x7B8F0001, 0x7B8F0010, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
      , (0x7B8F0001, 0x7B8F0011, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
      , (0x7B8F0001, 0x7B8F0012, '2019-02-10 00:00:00') /* Magma Golem (199) */
-     , (0x7B8F0001, 0x7B8F0013, '2019-02-10 00:00:00') /* Firestorm (7092) */;
+     , (0x7B8F0001, 0x7B8F0013, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0014, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0015, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7B8F0001, 0x7B8F0016, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8F0002,  7092, 0xB8F0003A, 191.9892, 32.89192, 103.2738, 0.7432712, 0, 0, -0.6689902,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -95,3 +98,15 @@ VALUES (0x7B8F0012,   199, 0xB8F00033, 152.3493, 51.2917, 124.384, 0.8890187, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8F0013,  7092, 0xB8F00032, 149.947, 44.64551, 125.5941, 0.8890187, 0, 0, -0.4578708,  True, '2019-02-10 00:00:00'); /* Firestorm */
 /* @teleloc 0xB8F00032 [149.947000 44.645510 125.594100] 0.889019 0.000000 0.000000 -0.457871 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B8F0014,  7092, 0xB8F00033, 154.9535, 49.43469, 122.7709, 0.8890187, 0, 0, -0.4578708,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0xB8F00033 [154.953500 49.434690 122.770900] 0.889019 0.000000 0.000000 -0.457871 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B8F0015,  7092, 0xB8F00033, 157.5604, 51.00797, 121.7296, 0.8890187, 0, 0, -0.4578708,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0xB8F00033 [157.560400 51.007970 121.729600] 0.889019 0.000000 0.000000 -0.457871 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B8F0016, 23082, 0xB8F00032, 155.5269, 46.77415, 122.4509, 0.8890187, 0, 0, -0.4578708,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
+/* @teleloc 0xB8F00032 [155.526900 46.774150 122.450900] 0.889019 0.000000 0.000000 -0.457871 */

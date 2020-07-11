@@ -31,7 +31,8 @@ VALUES (0x722C1001, 0x722C1002, '2019-02-10 00:00:00') /* Scathisa (7095) */
      , (0x722C1001, 0x722C1019, '2019-02-10 00:00:00') /* Synnast (7094) */
      , (0x722C1001, 0x722C101A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
      , (0x722C1001, 0x722C101B, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x722C1001, 0x722C101C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */;
+     , (0x722C1001, 0x722C101C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x722C1001, 0x722C101D, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722C1002,  7095, 0x22C10025, 104.2336, 103.3395, 102.8598, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scathisa */
@@ -142,22 +143,26 @@ VALUES (0x722C101C, 11540, 0x22C1000B, 44.3695, 52.32891, 108.0132, 1, 0, 0, 0, 
 /* @teleloc 0x22C1000B [44.369500 52.328910 108.013200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722C101D,  1542, 0x22C1003B, 189.4445, 49.7473, 108, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x722C101D, 11508, 0x22C10026, 106.6432, 133.5365, 94.72795, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Elder Shaman */
+/* @teleloc 0x22C10026 [106.643200 133.536500 94.727950] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722C101E,  1542, 0x22C1003B, 189.4445, 49.7473, 108, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x22C1003B [189.444500 49.747300 108.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722C101D, 0x722C101E, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
-     , (0x722C101D, 0x722C101F, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
-     , (0x722C101D, 0x722C1020, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
+VALUES (0x722C101E, 0x722C101F, '2019-02-10 00:00:00') /* Cultist Altar (11556) */
+     , (0x722C101E, 0x722C1020, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x722C101E, 0x722C1021, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722C101E, 11556, 0x22C1003B, 189.4445, 49.7473, 108, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */
+VALUES (0x722C101F, 11556, 0x22C1003B, 189.4445, 49.7473, 108, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cultist Altar */
 /* @teleloc 0x22C1003B [189.444500 49.747300 108.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722C101F, 11225, 0x22C1000A, 47.4569, 43.08838, 107.9823, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
+VALUES (0x722C1020, 11225, 0x22C1000A, 47.4569, 43.08838, 107.9823, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
 /* @teleloc 0x22C1000A [47.456900 43.088380 107.982300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722C1020, 27719, 0x22C1000A, 32.88536, 39.71663, 108.8403, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
+VALUES (0x722C1021, 27719, 0x22C1000A, 32.88536, 39.71663, 108.8403, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
 /* @teleloc 0x22C1000A [32.885360 39.716630 108.840300] 1.000000 0.000000 0.000000 0.000000 */

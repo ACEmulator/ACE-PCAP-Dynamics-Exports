@@ -13,7 +13,9 @@ VALUES (0x7EF25001, 0x7EF25002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) *
      , (0x7EF25001, 0x7EF25007, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
      , (0x7EF25001, 0x7EF25008, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
      , (0x7EF25001, 0x7EF25009, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
-     , (0x7EF25001, 0x7EF2500A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
+     , (0x7EF25001, 0x7EF2500A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7EF25001, 0x7EF2500B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EF25001, 0x7EF2500C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF25002,  4247, 0xEF25001E, 78.02045, 124.9283, -0.09460002, 0.1868979, 0, 0, -0.9823793,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -50,3 +52,11 @@ VALUES (0x7EF25009,  7109, 0xEF25001E, 83.62788, 127.0807, -0.09880006, -4.37113
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF2500A,  7109, 0xEF250016, 71.82722, 122.7246, 0.001199961, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
 /* @teleloc 0xEF250016 [71.827220 122.724600 0.001200] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF2500B,  7082, 0xEF25001E, 77.34705, 125.0117, -0.08949995, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
+/* @teleloc 0xEF25001E [77.347050 125.011700 -0.089500] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF2500C,  7082, 0xEF25001E, 79.66216, 125.6537, -0.08949995, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
+/* @teleloc 0xEF25001E [79.662160 125.653700 -0.089500] 0.866025 0.000000 0.000000 -0.500000 */

@@ -36,7 +36,9 @@ VALUES (0x794A601D, 0x794A601E, '2019-02-10 00:00:00') /* Banderling Raver (183)
      , (0x794A601D, 0x794A6032, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
      , (0x794A601D, 0x794A6033, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
      , (0x794A601D, 0x794A6034, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
-     , (0x794A601D, 0x794A6035, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */;
+     , (0x794A601D, 0x794A6035, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x794A601D, 0x794A6036, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x794A601D, 0x794A6037, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x794A601E,   183, 0x94A60018, 61.2493, 182.7547, 61.205, 0.384599, 0, 0, -0.923084,  True, '2019-02-10 00:00:00'); /* Banderling Raver */
@@ -135,17 +137,25 @@ VALUES (0x794A6035, 28877, 0x94A6000A, 36.83694, 42.29383, 63.6534, 0.3788328, 0
 /* @teleloc 0x94A6000A [36.836940 42.293830 63.653400] 0.378833 0.000000 0.000000 -0.925465 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x794A6036,  1542, 0x94A6000A, 33.64212, 42.68387, 59.24652, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x794A6036,  7978, 0x94A60024, 118.1093, 80.53979, 59.54844, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
+/* @teleloc 0x94A60024 [118.109300 80.539790 59.548440] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x794A6037,  7978, 0x94A60024, 109.9797, 80.49542, 58.20459, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
+/* @teleloc 0x94A60024 [109.979700 80.495420 58.204590] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x794A6038,  1542, 0x94A6000A, 33.64212, 42.68387, 59.24652, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x94A6000A [33.642120 42.683870 59.246520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x794A6036, 0x794A6037, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
-     , (0x794A6036, 0x794A6038, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
+VALUES (0x794A6038, 0x794A6039, '2019-02-10 00:00:00') /* Great Pumpkin (22247) */
+     , (0x794A6038, 0x794A603A, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x794A6037, 22247, 0x94A6000A, 33.64212, 42.68387, 59.24652, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Great Pumpkin */
+VALUES (0x794A6039, 22247, 0x94A6000A, 33.64212, 42.68387, 59.24652, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Great Pumpkin */
 /* @teleloc 0x94A6000A [33.642120 42.683870 59.246520] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x794A6038,  8232, 0x94A6000A, 36.45396, 40.68048, 59.64779, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
+VALUES (0x794A603A,  8232, 0x94A6000A, 36.45396, 40.68048, 59.64779, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
 /* @teleloc 0x94A6000A [36.453960 40.680480 59.647790] 1.000000 0.000000 0.000000 0.000000 */

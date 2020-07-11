@@ -19,7 +19,9 @@ VALUES (0x7B3EB001, 0x7B3EB002, '2019-02-10 00:00:00') /* Banderling Mangler (73
      , (0x7B3EB001, 0x7B3EB00D, '2019-02-10 00:00:00') /* Specter (28048) */
      , (0x7B3EB001, 0x7B3EB00E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
      , (0x7B3EB001, 0x7B3EB00F, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
-     , (0x7B3EB001, 0x7B3EB010, '2019-02-10 00:00:00') /* Specter (28048) */;
+     , (0x7B3EB001, 0x7B3EB010, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB011, '2019-02-10 00:00:00') /* Specter (28048) */
+     , (0x7B3EB001, 0x7B3EB012, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B3EB002,  7333, 0xB3EB003D, 168.7362, 107.671, 17.10243, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
@@ -82,17 +84,25 @@ VALUES (0x7B3EB010, 28048, 0xB3EB0036, 163.3044, 131.2148, 16.85511, 1, 0, 0, 0,
 /* @teleloc 0xB3EB0036 [163.304400 131.214800 16.855110] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B3EB011,  1542, 0xB3EB003D, 171.0362, 111.771, 17.82029, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B3EB011, 28048, 0xB3EB003C, 172.6117, 95.50489, 19.516, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Specter */
+/* @teleloc 0xB3EB003C [172.611700 95.504890 19.516000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B3EB012, 22933, 0xB3EB0036, 154.5891, 129.1208, 14.65729, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mist Golem */
+/* @teleloc 0xB3EB0036 [154.589100 129.120800 14.657290] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B3EB013,  1542, 0xB3EB003D, 171.0362, 111.771, 17.82029, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB3EB003D [171.036200 111.771000 17.820290] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B3EB011, 0x7B3EB012, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x7B3EB011, 0x7B3EB013, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7B3EB013, 0x7B3EB014, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B3EB013, 0x7B3EB015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B3EB012,  4380, 0xB3EB003D, 171.0362, 111.771, 17.82029, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7B3EB014,  4380, 0xB3EB003D, 171.0362, 111.771, 17.82029, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xB3EB003D [171.036200 111.771000 17.820290] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B3EB013,  4179, 0xB3EB003E, 171.9613, 125.926, 18.66021, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B3EB015,  4179, 0xB3EB003E, 171.9613, 125.926, 18.66021, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB3EB003E [171.961300 125.926000 18.660210] 0.999048 0.000000 0.000000 -0.043619 */

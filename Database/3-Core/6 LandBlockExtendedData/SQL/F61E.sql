@@ -38,7 +38,11 @@ VALUES (0x7F61E001, 0x7F61E002, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (42
      , (0x7F61E001, 0x7F61E020, '2019-02-10 00:00:00') /* Slithayr Eye Stalk (4261) */
      , (0x7F61E001, 0x7F61E021, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
      , (0x7F61E001, 0x7F61E022, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
-     , (0x7F61E001, 0x7F61E023, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */;
+     , (0x7F61E001, 0x7F61E023, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F61E001, 0x7F61E024, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F61E001, 0x7F61E025, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F61E001, 0x7F61E026, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
+     , (0x7F61E001, 0x7F61E027, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F61E002,  4261, 0xF61E002F, 134.0355, 162.4293, 30.32125, 0.9737225, 0, 0, -0.2277379,  True, '2019-02-10 00:00:00'); /* Slithayr Eye Stalk */
@@ -177,12 +181,28 @@ VALUES (0x7F61E023,  4259, 0xF61E003A, 183.5365, 35.87058, 62.60299, -0.6640264,
 /* @teleloc 0xF61E003A [183.536500 35.870580 62.602990] -0.664026 0.000000 0.000000 -0.747709 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F61E024,  1542, 0xF61E001A, 76.42916, 42.12778, 36.92091, 0.9914449, 0, 0, -0.1305262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7F61E024,  7111, 0xF61E0013, 69.90334, 70.4978, 23.95046, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
+/* @teleloc 0xF61E0013 [69.903340 70.497800 23.950460] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F61E025,  7111, 0xF61E0013, 63.26379, 68.06545, 23.59986, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
+/* @teleloc 0xF61E0013 [63.263790 68.065450 23.599860] -0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F61E026,  7111, 0xF61E0014, 69.00021, 78.57247, 25.27571, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
+/* @teleloc 0xF61E0014 [69.000210 78.572470 25.275710] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F61E027,  7126, 0xF61E0030, 140.1149, 171.6698, 31.35248, 0.9737225, 0, 0, -0.2277379,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
+/* @teleloc 0xF61E0030 [140.114900 171.669800 31.352480] 0.973723 0.000000 0.000000 -0.227738 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F61E028,  1542, 0xF61E001A, 76.42916, 42.12778, 36.92091, 0.9914449, 0, 0, -0.1305262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xF61E001A [76.429160 42.127780 36.920910] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F61E024, 0x7F61E025, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
+VALUES (0x7F61E028, 0x7F61E029, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F61E025,  5779, 0xF61E001A, 76.42916, 42.12778, 36.92091, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+VALUES (0x7F61E029,  5779, 0xF61E001A, 76.42916, 42.12778, 36.92091, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Strange Stick */
 /* @teleloc 0xF61E001A [76.429160 42.127780 36.920910] 0.991445 0.000000 0.000000 -0.130526 */

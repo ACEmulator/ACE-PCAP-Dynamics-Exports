@@ -23,7 +23,8 @@ VALUES (0x7F429001, 0x7F429002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248)
      , (0x7F429001, 0x7F429011, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
      , (0x7F429001, 0x7F429012, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
      , (0x7F429001, 0x7F429013, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
-     , (0x7F429001, 0x7F429014, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */;
+     , (0x7F429001, 0x7F429014, '2019-02-10 00:00:00') /* Jungle Phyntos Wasp (7183) */
+     , (0x7F429001, 0x7F429015, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F429002,  4248, 0xF4290029, 142.8748, 9.860886, 24.36312, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -102,12 +103,16 @@ VALUES (0x7F429014,  7183, 0xF4290031, 154.4051, 12.69373, 23.89738, -0.5560197,
 /* @teleloc 0xF4290031 [154.405100 12.693730 23.897380] -0.556020 0.000000 0.000000 -0.831169 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F429015,  1542, 0xF429003F, 181.4147, 163.1184, 0.06, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7F429015,  4259, 0xF4290039, 171.8756, 11.60797, 24.38031, -0.1058154, 0, 0, -0.9943858,  True, '2019-02-10 00:00:00'); /* Slithayr Tendril */
+/* @teleloc 0xF4290039 [171.875600 11.607970 24.380310] -0.105815 0.000000 0.000000 -0.994386 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F429016,  1542, 0xF429003F, 181.4147, 163.1184, 0.06, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xF429003F [181.414700 163.118400 0.060000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F429015, 0x7F429016, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
+VALUES (0x7F429016, 0x7F429017, '2019-02-10 00:00:00') /* Pile of Short Sticks (6118) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F429016,  6118, 0xF429003F, 181.4147, 163.1184, 0.06, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */
+VALUES (0x7F429017,  6118, 0xF429003F, 181.4147, 163.1184, 0.06, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Pile of Short Sticks */
 /* @teleloc 0xF429003F [181.414700 163.118400 0.060000] 0.999048 0.000000 0.000000 -0.043619 */

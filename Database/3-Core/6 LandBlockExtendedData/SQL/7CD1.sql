@@ -15,7 +15,8 @@ VALUES (0x77CD1001, 0x77CD1002, '2019-02-10 00:00:00') /* Banderling Guard (937)
      , (0x77CD1001, 0x77CD1005, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
      , (0x77CD1001, 0x77CD1006, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
      , (0x77CD1001, 0x77CD1007, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
-     , (0x77CD1001, 0x77CD1008, '2019-02-10 00:00:00') /* Banderling Guard (937) */;
+     , (0x77CD1001, 0x77CD1008, '2019-02-10 00:00:00') /* Banderling Guard (937) */
+     , (0x77CD1001, 0x77CD1009, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CD1002,   937, 0x7CD10038, 150.9659, 190.3289, 169.2874, 0.223264, 0, 0, -0.974758,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -44,3 +45,7 @@ VALUES (0x77CD1007,  7988, 0x7CD1000A, 45.42363, 43.2354, 106.4772, 0.7071068, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77CD1008,   937, 0x7CD10028, 118.0074, 185.5963, 169.4735, 0.3720077, 0, 0, -0.9282296,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
 /* @teleloc 0x7CD10028 [118.007400 185.596300 169.473500] 0.372008 0.000000 0.000000 -0.928230 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77CD1009,  7123, 0x7CD1001A, 77.8101, 39.59182, 102.5041, -0.5292953, 0, 0, -0.8484377,  True, '2019-02-10 00:00:00'); /* Dark Leech */
+/* @teleloc 0x7CD1001A [77.810100 39.591820 102.504100] -0.529295 0.000000 0.000000 -0.848438 */

@@ -109,7 +109,8 @@ VALUES (0x7B46F015, 0x7B46F016, '2019-02-10 00:00:00') /* Braced Mana Forge Key 
      , (0x7B46F015, 0x7B46F03C, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
      , (0x7B46F015, 0x7B46F03D, '2019-02-10 00:00:00') /* Deck of Eyes (37274) */
      , (0x7B46F015, 0x7B46F03E, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7B46F015, 0x7B46F03F, '2019-02-10 00:00:00') /* Rabbit (33040) */;
+     , (0x7B46F015, 0x7B46F03F, '2019-02-10 00:00:00') /* Rabbit (33040) */
+     , (0x7B46F015, 0x7B46F040, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F016, 38917, 0xB46F0016, 70.40211, 130.1522, 35.58241, 0.8800524, 0, 0, -0.4748765,  True, '2019-02-10 00:00:00'); /* Braced Mana Forge Key */
@@ -278,3 +279,7 @@ VALUES (0x7B46F03E, 48746, 0xB46F0016, 65.88121, 135.4823, 36.09361, 0.3846957, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46F03F, 33040, 0xB46F002D, 130.2897, 117.8142, 23.22833, 0.3723415, 0, 0, -0.9280958,  True, '2019-02-10 00:00:00'); /* Rabbit */
 /* @teleloc 0xB46F002D [130.289700 117.814200 23.228330] 0.372342 0.000000 0.000000 -0.928096 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B46F040,  1955, 0xB46F002F, 127.7646, 149.7603, 21.937, 0.9933054, 0, 0, -0.1155174,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xB46F002F [127.764600 149.760300 21.937000] 0.993305 0.000000 0.000000 -0.115517 */

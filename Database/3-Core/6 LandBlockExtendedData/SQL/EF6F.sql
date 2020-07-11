@@ -118,7 +118,8 @@ VALUES (0x7EF6F001, 0x7EF6F002, '2019-02-10 00:00:00') /* Iron Spined Chittick (
      , (0x7EF6F001, 0x7EF6F070, '2019-02-10 00:00:00') /* Devastator (22518) */
      , (0x7EF6F001, 0x7EF6F071, '2019-02-10 00:00:00') /* Devastator (22518) */
      , (0x7EF6F001, 0x7EF6F072, '2019-02-10 00:00:00') /* Devastator (22518) */
-     , (0x7EF6F001, 0x7EF6F073, '2019-02-10 00:00:00') /* Assailer (22053) */;
+     , (0x7EF6F001, 0x7EF6F073, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x7EF6F001, 0x7EF6F074, '2019-02-10 00:00:00') /* Obsidian Chittick (22507) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF6F002, 22506, 0xEF6F003A, 178.1503, 42.76493, 13.976, -0.8944324, 0, 0, -0.4472033,  True, '2019-02-10 00:00:00'); /* Iron Spined Chittick */
@@ -575,3 +576,7 @@ VALUES (0x7EF6F072, 22518, 0xEF6F0024, 109.9897, 76.9819, 18.43553, 0.8044378, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EF6F073, 22053, 0xEF6F002B, 121.6277, 52.40035, 17.88086, -0.9453238, 0, 0, -0.3261334,  True, '2019-02-10 00:00:00'); /* Assailer */
 /* @teleloc 0xEF6F002B [121.627700 52.400350 17.880860] -0.945324 0.000000 0.000000 -0.326133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EF6F074, 22507, 0xEF6F000A, 26.9296, 25.56536, 39.11155, 0.9736968, 0, 0, -0.2278477,  True, '2019-02-10 00:00:00'); /* Obsidian Chittick */
+/* @teleloc 0xEF6F000A [26.929600 25.565360 39.111550] 0.973697 0.000000 0.000000 -0.227848 */

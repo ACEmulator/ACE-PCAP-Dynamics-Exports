@@ -109,7 +109,9 @@ VALUES (0x700BB054, 0x700BB055, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier
      , (0x700BB054, 0x700BB0A2, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */
      , (0x700BB054, 0x700BB0A3, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */
      , (0x700BB054, 0x700BB0A4, '2019-02-10 00:00:00') /* Skith'Kirit (38386) */
-     , (0x700BB054, 0x700BB0A5, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */;
+     , (0x700BB054, 0x700BB0A5, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38432) */
+     , (0x700BB054, 0x700BB0A6, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (38439) */
+     , (0x700BB054, 0x700BB0A7, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38440) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700BB055, 38440, 0x00BB0338, 110, -100, -6, 0.0207946, 0, 0, 0.999784,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
@@ -436,32 +438,40 @@ VALUES (0x700BB0A5, 38432, 0x00BB0113, 89.0454, -38.6047, -41.9936, 0.9305075, 0
 /* @teleloc 0x00BB0113 [89.045400 -38.604700 -41.993600] 0.930508 0.000000 0.000000 0.366273 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700BB0A6,  1542, 0x00BB0271, 16.666, -123.301, -11.976, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x700BB0A6, 38439, 0x00BB0149, 42.00622, -15.95431, -30, -0.987895, 0, 0, -0.1551238,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
+/* @teleloc 0x00BB0149 [42.006220 -15.954310 -30.000000] -0.987895 0.000000 0.000000 -0.155124 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700BB0A7, 38440, 0x00BB02EB, 89.12992, -114.643, -6, -0.9849266, 0, 0, -0.1729725,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0x00BB02EB [89.129920 -114.643000 -6.000000] -0.984927 0.000000 0.000000 -0.172973 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700BB0A8,  1542, 0x00BB0271, 16.666, -123.301, -11.976, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x00BB0271 [16.666000 -123.301000 -11.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x700BB0A6, 0x700BB0A7, '2019-02-10 00:00:00') /* Armory Key (38382) */
-     , (0x700BB0A6, 0x700BB0A8, '2019-02-10 00:00:00') /* Vault Key (38383) */
-     , (0x700BB0A6, 0x700BB0A9, '2019-02-10 00:00:00') /* Skith'Kirit's Key (38381) */
-     , (0x700BB0A6, 0x700BB0AA, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x700BB0A6, 0x700BB0AB, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x700BB0A8, 0x700BB0A9, '2019-02-10 00:00:00') /* Armory Key (38382) */
+     , (0x700BB0A8, 0x700BB0AA, '2019-02-10 00:00:00') /* Vault Key (38383) */
+     , (0x700BB0A8, 0x700BB0AB, '2019-02-10 00:00:00') /* Skith'Kirit's Key (38381) */
+     , (0x700BB0A8, 0x700BB0AC, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700BB0A8, 0x700BB0AD, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700BB0A7, 38382, 0x00BB0271, 16.666, -123.301, -11.976, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Armory Key */
+VALUES (0x700BB0A9, 38382, 0x00BB0271, 16.666, -123.301, -11.976, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Armory Key */
 /* @teleloc 0x00BB0271 [16.666000 -123.301000 -11.976000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700BB0A8, 38383, 0x00BB02B5, 133.345, -63.3722, -11.976, 0.561168, 0, 0, -0.8277019,  True, '2019-02-10 00:00:00'); /* Vault Key */
+VALUES (0x700BB0AA, 38383, 0x00BB02B5, 133.345, -63.3722, -11.976, 0.561168, 0, 0, -0.8277019,  True, '2019-02-10 00:00:00'); /* Vault Key */
 /* @teleloc 0x00BB02B5 [133.345000 -63.372200 -11.976000] 0.561168 0.000000 0.000000 -0.827702 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700BB0A9, 38381, 0x00BB0273, 26.6362, -73.3618, -11.976, 0.03200149, 0, 0, 0.9994878,  True, '2019-02-10 00:00:00'); /* Skith'Kirit's Key */
+VALUES (0x700BB0AB, 38381, 0x00BB0273, 26.6362, -73.3618, -11.976, 0.03200149, 0, 0, 0.9994878,  True, '2019-02-10 00:00:00'); /* Skith'Kirit's Key */
 /* @teleloc 0x00BB0273 [26.636200 -73.361800 -11.976000] 0.032001 0.000000 0.000000 0.999488 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700BB0AA,  1955, 0x00BB0117, 124.8074, -62.81087, -42.063, 0.7736582, 0, 0, -0.6336032,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x700BB0AC,  1955, 0x00BB0117, 124.8074, -62.81087, -42.063, 0.7736582, 0, 0, -0.6336032,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00BB0117 [124.807400 -62.810870 -42.063000] 0.773658 0.000000 0.000000 -0.633603 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700BB0AB,  1955, 0x00BB0111, 77.62315, -38.1024, -42.063, -0.9324054, 0, 0, -0.3614143,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x700BB0AD,  1955, 0x00BB0111, 77.62315, -38.1024, -42.063, -0.9324054, 0, 0, -0.3614143,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00BB0111 [77.623150 -38.102400 -42.063000] -0.932405 0.000000 0.000000 -0.361414 */

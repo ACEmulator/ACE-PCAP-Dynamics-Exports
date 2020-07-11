@@ -24,7 +24,10 @@ VALUES (0x7B998001, 0x7B998002, '2019-02-10 00:00:00') /* Water Wisp (1986) */
      , (0x7B998001, 0x7B998012, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
      , (0x7B998001, 0x7B998013, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
      , (0x7B998001, 0x7B998014, '2019-02-10 00:00:00') /* Water Wisp (1986) */
-     , (0x7B998001, 0x7B998015, '2019-02-10 00:00:00') /* Drudge Slinker (193) */;
+     , (0x7B998001, 0x7B998015, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
+     , (0x7B998001, 0x7B998016, '2019-02-10 00:00:00') /* Water Wisp (1986) */
+     , (0x7B998001, 0x7B998017, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x7B998001, 0x7B998018, '2019-02-10 00:00:00') /* Water Golem (941) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B998002,  1986, 0xB9980024, 107.6678, 89.31641, 2.556967, 0.5924251, 0, 0, -0.8056255,  True, '2019-02-10 00:00:00'); /* Water Wisp */
@@ -105,3 +108,15 @@ VALUES (0x7B998014,  1986, 0xB9980025, 103.1699, 104.9414, 1.900001, 0.5924251, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B998015,   193, 0xB998003E, 175.3672, 122.3208, 1.903325, 0.295501, 0, 0, -0.9553424,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
 /* @teleloc 0xB998003E [175.367200 122.320800 1.903325] 0.295501 0.000000 0.000000 -0.955342 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B998016,  1986, 0xB9980024, 115.1111, 94.49246, 2.125629, 0.5924251, 0, 0, -0.8056255,  True, '2019-02-10 00:00:00'); /* Water Wisp */
+/* @teleloc 0xB9980024 [115.111100 94.492460 2.125629] 0.592425 0.000000 0.000000 -0.805626 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B998017,   941, 0xB9980036, 164.9054, 121.4789, 1.91, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Water Golem */
+/* @teleloc 0xB9980036 [164.905400 121.478900 1.910000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B998018,   941, 0xB998003E, 168.0154, 121.1832, 1.91, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Water Golem */
+/* @teleloc 0xB998003E [168.015400 121.183200 1.910000] -0.642788 0.000000 0.000000 -0.766044 */

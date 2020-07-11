@@ -20,7 +20,9 @@ VALUES (0x7E72F001, 0x7E72F002, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) 
      , (0x7E72F001, 0x7E72F00E, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
      , (0x7E72F001, 0x7E72F00F, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
      , (0x7E72F001, 0x7E72F010, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
-     , (0x7E72F001, 0x7E72F011, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
+     , (0x7E72F001, 0x7E72F011, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E72F001, 0x7E72F012, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x7E72F001, 0x7E72F013, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E72F002, 24942, 0xE72F003D, 170.9845, 112.9434, 154.181, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */
@@ -85,3 +87,11 @@ VALUES (0x7E72F010,  7992, 0xE72F002C, 143.2054, 86.41969, 150.7348, -0.7071068,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E72F011,   205, 0xE72F0021, 117.5388, 18.76393, 145.3686, -0.9999049, 0, 0, -0.01379128,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */
 /* @teleloc 0xE72F0021 [117.538800 18.763930 145.368600] -0.999905 0.000000 0.000000 -0.013791 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E72F012,  1609, 0xE72F0035, 145.7342, 114.2552, 147.3956, -0.5643023, 0, 0, -0.8255683,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
+/* @teleloc 0xE72F0035 [145.734200 114.255200 147.395600] -0.564302 0.000000 0.000000 -0.825568 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E72F013,   205, 0xE72F001D, 84.86583, 110.8194, 137.002, 0.5867415, 0, 0, -0.8097743,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */
+/* @teleloc 0xE72F001D [84.865830 110.819400 137.002000] 0.586742 0.000000 0.000000 -0.809774 */

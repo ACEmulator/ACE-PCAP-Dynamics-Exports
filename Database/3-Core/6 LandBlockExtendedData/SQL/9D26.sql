@@ -21,7 +21,14 @@ VALUES (0x79D26001, 0x79D26002, '2019-02-10 00:00:00') /* Fleshless Warrior (896
      , (0x79D26001, 0x79D2600F, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x79D26001, 0x79D26010, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
      , (0x79D26001, 0x79D26011, '2019-02-10 00:00:00') /* Revenant (619) */
-     , (0x79D26001, 0x79D26012, '2019-02-10 00:00:00') /* Revenant (619) */;
+     , (0x79D26001, 0x79D26012, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79D26001, 0x79D26013, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79D26001, 0x79D26014, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79D26001, 0x79D26015, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79D26001, 0x79D26016, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79D26001, 0x79D26017, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x79D26001, 0x79D26018, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79D26001, 0x79D26019, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D26002,  8968, 0x9D26003F, 184.7274, 149.1938, 162.5308, 0.9762409, 0, 0, -0.2166882,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -92,17 +99,45 @@ VALUES (0x79D26012,   619, 0x9D26001C, 75.15653, 82.82292, 155.2401, -0.9882194,
 /* @teleloc 0x9D26001C [75.156530 82.822920 155.240100] -0.988219 0.000000 0.000000 -0.153044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79D26013,  1542, 0x9D260025, 104.1254, 100.8154, 161.4483, 0.4894238, 0, 0, -0.8720461, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79D26013,  7179, 0x9D260014, 70.76096, 72.55506, 152.1413, -0.9882194, 0, 0, -0.1530435,  True, '2019-02-10 00:00:00'); /* Relic Bones */
+/* @teleloc 0x9D260014 [70.760960 72.555060 152.141300] -0.988219 0.000000 0.000000 -0.153044 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D26014, 37100, 0x9D260025, 96.24335, 112.1534, 164.6567, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
+/* @teleloc 0x9D260025 [96.243350 112.153400 164.656700] 0.939693 0.000000 0.000000 -0.342020 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D26015, 37100, 0x9D260025, 98.9924, 112.8187, 164.3094, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
+/* @teleloc 0x9D260025 [98.992400 112.818700 164.309400] 0.777146 0.000000 0.000000 -0.629320 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D26016, 37101, 0x9D260025, 97.61787, 112.4861, 164.483, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager Captain */
+/* @teleloc 0x9D260025 [97.617870 112.486100 164.483000] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D26017,  4217, 0x9D260001, 11.38934, 17.96894, 150.3633, -0.05085638, 0, 0, -0.998706,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
+/* @teleloc 0x9D260001 [11.389340 17.968940 150.363300] -0.050856 0.000000 0.000000 -0.998706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D26018,   619, 0x9D260007, 18.50873, 166.3921, 166.7467, -0.8752675, 0, 0, -0.4836391,  True, '2019-02-10 00:00:00'); /* Revenant */
+/* @teleloc 0x9D260007 [18.508730 166.392100 166.746700] -0.875268 0.000000 0.000000 -0.483639 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D26019,   619, 0x9D26001F, 84.19805, 149.5676, 165.0248, -0.01117509, 0, 0, -0.9999375,  True, '2019-02-10 00:00:00'); /* Revenant */
+/* @teleloc 0x9D26001F [84.198050 149.567600 165.024800] -0.011175 0.000000 0.000000 -0.999938 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D2601A,  1542, 0x9D260025, 104.1254, 100.8154, 161.4483, 0.4894238, 0, 0, -0.8720461, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9D260025 [104.125400 100.815400 161.448300] 0.489424 0.000000 0.000000 -0.872046 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79D26013, 0x79D26014, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
-     , (0x79D26013, 0x79D26015, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
+VALUES (0x79D2601A, 0x79D2601B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79D2601A, 0x79D2601C, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79D26014,  8037, 0x9D260025, 104.1254, 100.8154, 161.4483, 0.4894238, 0, 0, -0.8720461,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x79D2601B,  8037, 0x9D260025, 104.1254, 100.8154, 161.4483, 0.4894238, 0, 0, -0.8720461,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0x9D260025 [104.125400 100.815400 161.448300] 0.489424 0.000000 0.000000 -0.872046 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79D26015,  8039, 0x9D260016, 64.67725, 130.4978, 160.5292, -0.01117509, 0, 0, -0.9999375,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */
+VALUES (0x79D2601C,  8039, 0x9D260016, 64.67725, 130.4978, 160.5292, -0.01117509, 0, 0, -0.9999375,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */
 /* @teleloc 0x9D260016 [64.677250 130.497800 160.529200] -0.011175 0.000000 0.000000 -0.999938 */

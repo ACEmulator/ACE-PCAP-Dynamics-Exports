@@ -9,7 +9,8 @@ VALUES (0x72E14001, 0x72E14002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (71
      , (0x72E14001, 0x72E14003, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
      , (0x72E14001, 0x72E14004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x72E14001, 0x72E14005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x72E14001, 0x72E14006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
+     , (0x72E14001, 0x72E14006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72E14001, 0x72E14007, '2019-02-10 00:00:00') /* Unstable Rift (10802) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E14002,  7121, 0x2E140027, 114.7097, 154.6579, 40.8971, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -30,3 +31,7 @@ VALUES (0x72E14005, 36830, 0x2E14000C, 30.73647, 81.96493, 19.10945, 0.5, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E14006, 23564, 0x2E140004, 4.218427, 94.45527, 20.09908, 0.7427314, 0, 0, -0.6695895,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
 /* @teleloc 0x2E140004 [4.218427 94.455270 20.099080] 0.742731 0.000000 0.000000 -0.669590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E14007, 10802, 0x2E140004, 13.05004, 91.83284, 20.40048, 0.7427314, 0, 0, -0.6695895,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
+/* @teleloc 0x2E140004 [13.050040 91.832840 20.400480] 0.742731 0.000000 0.000000 -0.669590 */

@@ -311,7 +311,9 @@ VALUES (0x7A1A40A0, 0x7A1A40A1, '2019-02-10 00:00:00') /* Cow (14) */
      , (0x7A1A40A0, 0x7A1A40A6, '2019-02-10 00:00:00') /* Gem of Knowledge (36510) */
      , (0x7A1A40A0, 0x7A1A40A7, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7A1A40A0, 0x7A1A40A8, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7A1A40A0, 0x7A1A40A9, '2019-02-10 00:00:00') /* Bundle of Prismatic Arrowheads (44070) */;
+     , (0x7A1A40A0, 0x7A1A40A9, '2019-02-10 00:00:00') /* Bundle of Prismatic Arrowheads (44070) */
+     , (0x7A1A40A0, 0x7A1A40AA, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x7A1A40A0, 0x7A1A40AB, '2019-02-10 00:00:00') /* Scroll of Mind Blossom (20257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A40A1,    14, 0xA1A40030, 129.6849, 186.445, 50.0057, -0.07062688, 0, 0, -0.9975028,  True, '2019-02-10 00:00:00'); /* Cow */
@@ -348,3 +350,11 @@ VALUES (0x7A1A40A8,  1955, 0xA1A40016, 67.18793, 134.5275, 49.937, -0.4964674, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1A40A9, 44070, 0xA1A4000A, 37.43845, 38.23714, 54.98174, 0.2403741, 0, 0, -0.9706804,  True, '2019-02-10 00:00:00'); /* Bundle of Prismatic Arrowheads */
 /* @teleloc 0xA1A4000A [37.438450 38.237140 54.981740] 0.240374 0.000000 0.000000 -0.970680 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1A40AA, 30675, 0xA1A40007, 23.4592, 144.5949, 50.079, -0.6334545, 0, 0, -0.7737799,  True, '2019-02-10 00:00:00'); /* Agent of Arcanum List */
+/* @teleloc 0xA1A40007 [23.459200 144.594900 50.079000] -0.633455 0.000000 0.000000 -0.773780 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1A40AB, 20257, 0xA1A40007, 23.4592, 144.5949, 50.0855, -0.6334545, 0, 0, -0.7737799,  True, '2019-02-10 00:00:00'); /* Scroll of Mind Blossom */
+/* @teleloc 0xA1A40007 [23.459200 144.594900 50.085500] -0.633455 0.000000 0.000000 -0.773780 */

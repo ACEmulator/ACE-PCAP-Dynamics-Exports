@@ -97,7 +97,13 @@ VALUES (0x7060E001, 0x7060E002, '2019-02-10 00:00:00') /* Biaka (25859) */
      , (0x7060E001, 0x7060E05B, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
      , (0x7060E001, 0x7060E05C, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x7060E001, 0x7060E05D, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
-     , (0x7060E001, 0x7060E05E, '2019-02-10 00:00:00') /* Ravager (25852) */;
+     , (0x7060E001, 0x7060E05E, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x7060E001, 0x7060E05F, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x7060E001, 0x7060E060, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x7060E001, 0x7060E061, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x7060E001, 0x7060E062, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x7060E001, 0x7060E063, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x7060E001, 0x7060E064, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7060E002, 25859, 0x060E0035, 149.1874, 111.0404, 112.8077, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
@@ -472,17 +478,41 @@ VALUES (0x7060E05E, 25852, 0x060E001F, 90.33191, 166.5969, 43.63995, 1, 0, 0, 0,
 /* @teleloc 0x060E001F [90.331910 166.596900 43.639950] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7060E05F,  1542, 0x060E001F, 93.31101, 166.3131, 44.27633, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7060E05F, 25882, 0x060E001B, 91.73305, 53.91555, 22.0075, -0.4633055, 0, 0, -0.8861986,  True, '2019-02-10 00:00:00'); /* Schism */
+/* @teleloc 0x060E001B [91.733050 53.915550 22.007500] -0.463306 0.000000 0.000000 -0.886199 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060E060, 25863, 0x060E001B, 80.39765, 67.11736, 22.00124, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x060E001B [80.397650 67.117360 22.001240] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060E061, 31400, 0x060E0008, 0.2720774, 169.81, 50.20118, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x060E0008 [0.272077 169.810000 50.201180] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060E062, 25852, 0x060E0020, 88.67892, 180.7572, 78.30868, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x060E0020 [88.678920 180.757200 78.308680] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060E063, 25863, 0x060E001A, 75.30463, 46.68649, 22.10468, -0.4633055, 0, 0, -0.8861986,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x060E001A [75.304630 46.686490 22.104680] -0.463306 0.000000 0.000000 -0.886199 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060E064, 25887, 0x060E002C, 131.9184, 90.70087, 105.0257, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
+/* @teleloc 0x060E002C [131.918400 90.700870 105.025700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060E065,  1542, 0x060E001F, 93.31101, 166.3131, 44.27633, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x060E001F [93.311010 166.313100 44.276330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7060E05F, 0x7060E060, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */
-     , (0x7060E05F, 0x7060E061, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */;
+VALUES (0x7060E065, 0x7060E066, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */
+     , (0x7060E065, 0x7060E067, '2019-02-10 00:00:00') /* Celdon Leggings (6045) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7060E060, 30796, 0x060E001F, 93.31101, 166.3131, 44.27633, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */
+VALUES (0x7060E066, 30796, 0x060E001F, 93.31101, 166.3131, 44.27633, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */
 /* @teleloc 0x060E001F [93.311010 166.313100 44.276330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7060E061,  6045, 0x060E001F, 93.19545, 165.4959, 44.76518, 0.9975499, 0, 0, -0.06995873,  True, '2019-02-10 00:00:00'); /* Celdon Leggings */
+VALUES (0x7060E067,  6045, 0x060E001F, 93.19545, 165.4959, 44.76518, 0.9975499, 0, 0, -0.06995873,  True, '2019-02-10 00:00:00'); /* Celdon Leggings */
 /* @teleloc 0x060E001F [93.195450 165.495900 44.765180] 0.997550 0.000000 0.000000 -0.069959 */

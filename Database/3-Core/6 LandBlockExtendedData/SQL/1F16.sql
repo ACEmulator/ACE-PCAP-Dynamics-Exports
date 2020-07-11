@@ -22,7 +22,8 @@ VALUES (0x71F16001, 0x71F16002, '2019-02-10 00:00:00') /* Withered Revered Tumer
      , (0x71F16001, 0x71F16010, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
      , (0x71F16001, 0x71F16011, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
      , (0x71F16001, 0x71F16012, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
-     , (0x71F16001, 0x71F16013, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */;
+     , (0x71F16001, 0x71F16013, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71F16001, 0x71F16014, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F16002, 30687, 0x1F160037, 150.5235, 155.2811, 21.51466, -0.2317535, 0, 0, -0.9727746,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
@@ -95,3 +96,7 @@ VALUES (0x71F16012, 30687, 0x1F16001D, 92.8425, 108.2618, 13.48025, 0.9996447, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F16013, 35835, 0x1F16001D, 92.45908, 112.2696, 13.41635, 0.9996447, 0, 0, -0.02665452,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
 /* @teleloc 0x1F16001D [92.459080 112.269600 13.416350] 0.999645 0.000000 0.000000 -0.026655 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F16014, 35833, 0x1F160039, 176.0542, 2.696648, 40.90293, -0.7829415, 0, 0, -0.6220954,  True, '2019-02-10 00:00:00'); /* Withered Raider Prefect */
+/* @teleloc 0x1F160039 [176.054200 2.696648 40.902930] -0.782942 0.000000 0.000000 -0.622095 */

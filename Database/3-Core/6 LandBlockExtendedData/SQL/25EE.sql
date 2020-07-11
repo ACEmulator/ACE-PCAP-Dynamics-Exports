@@ -30,7 +30,16 @@ VALUES (0x725EE001, 0x725EE002, '2019-02-10 00:00:00') /* Truffle Thrungus (2929
      , (0x725EE001, 0x725EE018, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
      , (0x725EE001, 0x725EE019, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
      , (0x725EE001, 0x725EE01A, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
-     , (0x725EE001, 0x725EE01B, '2019-02-10 00:00:00') /* Eater (28640) */;
+     , (0x725EE001, 0x725EE01B, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x725EE001, 0x725EE01C, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */
+     , (0x725EE001, 0x725EE01D, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x725EE001, 0x725EE01E, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x725EE001, 0x725EE01F, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x725EE001, 0x725EE020, '2019-02-10 00:00:00') /* Eater (28640) */
+     , (0x725EE001, 0x725EE021, '2019-02-10 00:00:00') /* Blighted Hoary Armoredillo (38176) */
+     , (0x725EE001, 0x725EE022, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x725EE001, 0x725EE023, '2019-02-10 00:00:00') /* Ferocious Ursuin (27715) */
+     , (0x725EE001, 0x725EE024, '2019-02-10 00:00:00') /* Auroch Ravager (29359) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725EE002, 29297, 0x25EE0032, 161.6919, 24.15017, 0, 0.4338773, 0, 0, -0.9009719,  True, '2019-02-10 00:00:00'); /* Truffle Thrungus */
@@ -135,3 +144,39 @@ VALUES (0x725EE01A,  1610, 0x25EE000C, 41.09525, 84.43683, 0.00454998, -0.908724
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725EE01B, 28640, 0x25EE0001, 14.10109, 10.64692, 6.31734, -0.380681, 0, 0, -0.9247064,  True, '2019-02-10 00:00:00'); /* Eater */
 /* @teleloc 0x25EE0001 [14.101090 10.646920 6.317340] -0.380681 0.000000 0.000000 -0.924706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE01C, 28248, 0x25EE000C, 32.24467, 75.55042, 0.01199996, -0.9087249, 0, 0, -0.4173956,  True, '2019-02-10 00:00:00'); /* Black Phyntos Wasp */
+/* @teleloc 0x25EE000C [32.244670 75.550420 0.012000] -0.908725 0.000000 0.000000 -0.417396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE01D, 28551, 0x25EE0009, 32.88223, 7.906929, 5.039258, -0.380681, 0, 0, -0.9247064,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
+/* @teleloc 0x25EE0009 [32.882230 7.906929 5.039258] -0.380681 0.000000 0.000000 -0.924706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE01E,  7980, 0x25EE0001, 8.715314, 1.559235, 7.478455, -0.380681, 0, 0, -0.9247064,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
+/* @teleloc 0x25EE0001 [8.715314 1.559235 7.478455] -0.380681 0.000000 0.000000 -0.924706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE01F, 24288, 0x25EE000D, 45.83061, 106.24, -0.008000016, -0.9087249, 0, 0, -0.4173956,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
+/* @teleloc 0x25EE000D [45.830610 106.240000 -0.008000] -0.908725 0.000000 0.000000 -0.417396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE020, 28640, 0x25EE0033, 151.9394, 51.03593, -0.1, 0.4338773, 0, 0, -0.9009719,  True, '2019-02-10 00:00:00'); /* Eater */
+/* @teleloc 0x25EE0033 [151.939400 51.035930 -0.100000] 0.433877 0.000000 0.000000 -0.900972 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE021, 38176, 0x25EE0032, 160.2309, 38.59458, 0.01050007, 0.4338773, 0, 0, -0.9009719,  True, '2019-02-10 00:00:00'); /* Blighted Hoary Armoredillo */
+/* @teleloc 0x25EE0032 [160.230900 38.594580 0.010500] 0.433877 0.000000 0.000000 -0.900972 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE022, 26469, 0x25EE000C, 31.06818, 84.85359, 0, -0.9087249, 0, 0, -0.4173956,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */
+/* @teleloc 0x25EE000C [31.068180 84.853590 0.000000] -0.908725 0.000000 0.000000 -0.417396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE023, 27715, 0x25EE0009, 24.01934, 10.81775, 4.396685, -0.380681, 0, 0, -0.9247064,  True, '2019-02-10 00:00:00'); /* Ferocious Ursuin */
+/* @teleloc 0x25EE0009 [24.019340 10.817750 4.396685] -0.380681 0.000000 0.000000 -0.924706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725EE024, 29359, 0x25EE003B, 173.5457, 49.29902, 0.009349942, 0.4338773, 0, 0, -0.9009719,  True, '2019-02-10 00:00:00'); /* Auroch Ravager */
+/* @teleloc 0x25EE003B [173.545700 49.299020 0.009350] 0.433877 0.000000 0.000000 -0.900972 */

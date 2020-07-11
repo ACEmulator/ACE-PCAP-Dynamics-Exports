@@ -15,7 +15,10 @@ VALUES (0x7D340001, 0x7D340002, '2019-02-10 00:00:00') /* Goldenback Tusker (235
      , (0x7D340001, 0x7D340009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
      , (0x7D340001, 0x7D34000A, '2019-02-10 00:00:00') /* Fragment (8014) */
      , (0x7D340001, 0x7D34000B, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
-     , (0x7D340001, 0x7D34000C, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
+     , (0x7D340001, 0x7D34000C, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7D340001, 0x7D34000D, '2019-02-10 00:00:00') /* Glacial Golem (14521) */
+     , (0x7D340001, 0x7D34000E, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7D340001, 0x7D34000F, '2019-02-10 00:00:00') /* Rough Monouga (2574) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D340002,   235, 0xD3400009, 32.13111, 4.286377, 212.1185, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Goldenback Tusker */
@@ -60,3 +63,15 @@ VALUES (0x7D34000B,  7992, 0xD3400011, 52.28173, 6.015686, 213.2942, -4.371139E-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D34000C,  7992, 0xD3400011, 49.46911, 8.724778, 214.666, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */
 /* @teleloc 0xD3400011 [49.469110 8.724778 214.666000] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D34000D, 14521, 0xD340000A, 47.27652, 38.05828, 224.6358, 0.7790303, 0, 0, -0.6269862,  True, '2019-02-10 00:00:00'); /* Glacial Golem */
+/* @teleloc 0xD340000A [47.276520 38.058280 224.635800] 0.779030 0.000000 0.000000 -0.626986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D34000E,  2576, 0xD3400012, 66.17079, 31.29093, 221.9356, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
+/* @teleloc 0xD3400012 [66.170790 31.290930 221.935600] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D34000F,  2574, 0xD3400012, 71.18384, 29.19585, 220.263, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Rough Monouga */
+/* @teleloc 0xD3400012 [71.183840 29.195850 220.263000] 0.707107 0.000000 0.000000 -0.707107 */

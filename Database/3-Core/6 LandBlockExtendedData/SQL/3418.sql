@@ -37,7 +37,14 @@ VALUES (0x73418001, 0x73418002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) 
      , (0x73418001, 0x7341801F, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
      , (0x73418001, 0x73418020, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
      , (0x73418001, 0x73418021, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
-     , (0x73418001, 0x73418022, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */;
+     , (0x73418001, 0x73418022, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x73418001, 0x73418023, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73418001, 0x73418024, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73418001, 0x73418025, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x73418001, 0x73418026, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73418001, 0x73418027, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x73418001, 0x73418028, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73418001, 0x73418029, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73418002,  8431, 0x3418003A, 190.1742, 33.76027, 13.19314, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -172,12 +179,40 @@ VALUES (0x73418022, 41534, 0x34180040, 172.3996, 178.8436, 17.27777, 0.3214377, 
 /* @teleloc 0x34180040 [172.399600 178.843600 17.277770] 0.321438 0.000000 0.000000 -0.946931 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73418023,  1542, 0x34180017, 61.92015, 159.9653, 11.50955, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73418023,  9264, 0x34180021, 96.70304, 5.271453, 16.7904, -0.9602469, 0, 0, -0.2791521,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
+/* @teleloc 0x34180021 [96.703040 5.271453 16.790400] -0.960247 0.000000 0.000000 -0.279152 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73418024,  8431, 0x34180022, 96.71931, 30.14359, 18.35072, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x34180022 [96.719310 30.143590 18.350720] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73418025, 12037, 0x3418003A, 174.406, 36.95639, 12.15562, -0.9728343, 0, 0, -0.2315024,  True, '2019-02-10 00:00:00'); /* Dark Sorcerer */
+/* @teleloc 0x3418003A [174.406000 36.956390 12.155620] -0.972834 0.000000 0.000000 -0.231502 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73418026,  7124, 0x3418003A, 172.2789, 44.85664, 12.26945, -0.9728343, 0, 0, -0.2315024,  True, '2019-02-10 00:00:00'); /* Dark Magus */
+/* @teleloc 0x3418003A [172.278900 44.856640 12.269450] -0.972834 0.000000 0.000000 -0.231502 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73418027,  7124, 0x3418003A, 175.1082, 35.12707, 12.11945, -0.9728343, 0, 0, -0.2315024,  True, '2019-02-10 00:00:00'); /* Dark Magus */
+/* @teleloc 0x3418003A [175.108200 35.127070 12.119450] -0.972834 0.000000 0.000000 -0.231502 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73418028,  8431, 0x3418001A, 95.67757, 27.35885, 19.13992, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x3418001A [95.677570 27.358850 19.139920] 0.422618 0.000000 0.000000 -0.906308 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73418029,  8431, 0x3418001A, 92.48885, 28.53016, 18.58136, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x3418001A [92.488850 28.530160 18.581360] 0.642788 0.000000 0.000000 -0.766044 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7341802A,  1542, 0x34180017, 61.92015, 159.9653, 11.50955, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x34180017 [61.920150 159.965300 11.509550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73418023, 0x73418024, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
+VALUES (0x7341802A, 0x7341802B, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73418024, 22567, 0x34180017, 61.92015, 159.9653, 11.50955, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7341802B, 22567, 0x34180017, 61.92015, 159.9653, 11.50955, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x34180017 [61.920150 159.965300 11.509550] 1.000000 0.000000 0.000000 0.000000 */

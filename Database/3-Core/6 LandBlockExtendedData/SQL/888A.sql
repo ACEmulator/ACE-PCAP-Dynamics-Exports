@@ -21,7 +21,11 @@ VALUES (0x7888A001, 0x7888A002, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7888A001, 0x7888A00F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x7888A001, 0x7888A010, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
      , (0x7888A001, 0x7888A011, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
-     , (0x7888A001, 0x7888A012, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
+     , (0x7888A001, 0x7888A012, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x7888A001, 0x7888A013, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x7888A001, 0x7888A014, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7888A001, 0x7888A015, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7888A001, 0x7888A016, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7888A002,   194, 0x888A0019, 77.18261, 20.21561, 70.8483, -0.2171759, 0, 0, -0.9761325,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -90,3 +94,19 @@ VALUES (0x7888A011, 22208, 0x888A0029, 135.1254, 21.52146, 80.28357, -0.00309769
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7888A012,  8673, 0x888A0031, 145.0643, 15.43238, 90.59533, -0.9806974, 0, 0, -0.1955318,  True, '2019-02-10 00:00:00'); /* Risen Knight */
 /* @teleloc 0x888A0031 [145.064300 15.432380 90.595330] -0.980697 0.000000 0.000000 -0.195532 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7888A013, 21164, 0x888A0009, 28.30283, 16.56922, 71.81629, -0.4349069, 0, 0, -0.9004754,  True, '2019-02-10 00:00:00'); /* Gout */
+/* @teleloc 0x888A0009 [28.302830 16.569220 71.816290] -0.434907 0.000000 0.000000 -0.900475 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7888A014, 22208, 0x888A0011, 67.27058, 5.204276, 81.31106, -0.2171759, 0, 0, -0.9761325,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
+/* @teleloc 0x888A0011 [67.270580 5.204276 81.311060] -0.217176 0.000000 0.000000 -0.976133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7888A015,   217, 0x888A003F, 189.5783, 145.5533, 84.04401, 0.8680881, 0, 0, -0.4964102,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0x888A003F [189.578300 145.553300 84.044010] 0.868088 0.000000 0.000000 -0.496410 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7888A016,   217, 0x888A003E, 191.5718, 142.9729, 84.04401, 0.8680881, 0, 0, -0.4964102,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0x888A003E [191.571800 142.972900 84.044010] 0.868088 0.000000 0.000000 -0.496410 */

@@ -92,7 +92,41 @@ VALUES (0x7F831001, 0x7F831002, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier
      , (0x7F831001, 0x7F831056, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
      , (0x7F831001, 0x7F831057, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
      , (0x7F831001, 0x7F831058, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
-     , (0x7F831001, 0x7F831059, '2019-02-10 00:00:00') /* Verdant Moar (40301) */;
+     , (0x7F831001, 0x7F831059, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7F831001, 0x7F83105A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F831001, 0x7F83105B, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F831001, 0x7F83105C, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F83105D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F83105E, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F831001, 0x7F83105F, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F831001, 0x7F831060, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F831001, 0x7F831061, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831062, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831063, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831064, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831065, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831066, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F831001, 0x7F831067, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F831001, 0x7F831068, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F831001, 0x7F831069, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F831001, 0x7F83106A, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F831001, 0x7F83106B, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F831001, 0x7F83106C, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
+     , (0x7F831001, 0x7F83106D, '2019-02-10 00:00:00') /* Verdant Moarsman (40306) */
+     , (0x7F831001, 0x7F83106E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F83106F, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831070, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831071, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831072, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */
+     , (0x7F831001, 0x7F831073, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831074, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x7F831001, 0x7F831075, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831076, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831077, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831078, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F831079, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F83107A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F831001, 0x7F83107B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F831002, 40309, 0xF8310001, 6.025108, 16.77123, 55.29729, 0.7378213, 0, 0, -0.6749961,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
@@ -445,3 +479,139 @@ VALUES (0x7F831058, 40301, 0xF8310006, 21.52129, 126.8792, 68.17815, 0.907259, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F831059, 40301, 0xF8310006, 12.47659, 129.3674, 66.87804, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Verdant Moar */
 /* @teleloc 0xF8310006 [12.476590 129.367400 66.878040] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83105A, 40302, 0xF8310001, 7.449485, 19.37201, 55.85586, 0.7378213, 0, 0, -0.6749961,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0xF8310001 [7.449485 19.372010 55.855860] 0.737821 0.000000 0.000000 -0.674996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83105B, 40305, 0xF8310001, 8.968861, 15.74185, 55.37765, 0.7378213, 0, 0, -0.6749961,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xF8310001 [8.968861 15.741850 55.377650] 0.737821 0.000000 0.000000 -0.674996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83105C, 40308, 0xF8310006, 13.35118, 127.1502, 66.83705, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310006 [13.351180 127.150200 66.837050] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83105D, 40308, 0xF8310006, 11.02724, 123.0333, 66.10665, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310006 [11.027240 123.033300 66.106650] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83105E, 40302, 0xF8310006, 16.48742, 131.5757, 67.71895, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0xF8310006 [16.487420 131.575700 67.718950] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83105F, 40305, 0xF8310006, 17.91089, 123.9168, 67.31815, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xF8310006 [17.910890 123.916800 67.318150] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831060, 40302, 0xF8310006, 12.31369, 128.7894, 66.79113, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0xF8310006 [12.313690 128.789400 66.791130] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831061, 40308, 0xF8310017, 65.46115, 166.8314, 56.48778, -0.6453286, 0, 0, -0.7639051,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310017 [65.461150 166.831400 56.487780] -0.645329 0.000000 0.000000 -0.763905 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831062, 40308, 0xF831000E, 26.62643, 120.0684, 67.58397, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF831000E [26.626430 120.068400 67.583970] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831063, 40308, 0xF8310018, 64.25851, 169.7418, 56.30621, -0.6453286, 0, 0, -0.7639051,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310018 [64.258510 169.741800 56.306210] -0.645329 0.000000 0.000000 -0.763905 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831064, 40308, 0xF8310018, 61.89593, 173.3277, 56.49607, -0.6453286, 0, 0, -0.7639051,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310018 [61.895930 173.327700 56.496070] -0.645329 0.000000 0.000000 -0.763905 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831065, 40308, 0xF8310018, 67.88223, 171.6467, 54.78081, -0.6453286, 0, 0, -0.7639051,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310018 [67.882230 171.646700 54.780810] -0.645329 0.000000 0.000000 -0.763905 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831066, 40304, 0xF831003B, 186.2872, 60.80637, 86.69324, -0.7326273, 0, 0, -0.6806301,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */
+/* @teleloc 0xF831003B [186.287200 60.806370 86.693240] -0.732627 0.000000 0.000000 -0.680630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831067, 40303, 0xF831003B, 184.4938, 63.37381, 86.15995, -0.7326273, 0, 0, -0.6806301,  True, '2019-02-10 00:00:00'); /* Ardent Moarsman */
+/* @teleloc 0xF831003B [184.493800 63.373810 86.159950] -0.732627 0.000000 0.000000 -0.680630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831068, 40307, 0xF8310006, 17.68351, 125.1798, 67.3794, 0.907259, 0, 0, -0.4205723,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */
+/* @teleloc 0xF8310006 [17.683510 125.179800 67.379400] 0.907259 0.000000 0.000000 -0.420572 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831069, 40298, 0xF8310002, 6.334535, 24.05201, 56.56321, 0.7378213, 0, 0, -0.6749961,  True, '2019-02-10 00:00:00'); /* Ardent Moar */
+/* @teleloc 0xF8310002 [6.334535 24.052010 56.563210] 0.737821 0.000000 0.000000 -0.674996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83106A, 40298, 0xF8310001, 8.055642, 18.31796, 55.7423, 0.7378213, 0, 0, -0.6749961,  True, '2019-02-10 00:00:00'); /* Ardent Moar */
+/* @teleloc 0xF8310001 [8.055642 18.317960 55.742300] 0.737821 0.000000 0.000000 -0.674996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83106B, 40306, 0xF831000A, 43.7673, 40.9583, 67.188, -0.5587974, 0, 0, -0.8293042,  True, '2019-02-10 00:00:00'); /* Verdant Moarsman */
+/* @teleloc 0xF831000A [43.767300 40.958300 67.188000] -0.558797 0.000000 0.000000 -0.829304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83106C, 40303, 0xF831000A, 41.69836, 40.61512, 66.58477, -0.5587974, 0, 0, -0.8293042,  True, '2019-02-10 00:00:00'); /* Ardent Moarsman */
+/* @teleloc 0xF831000A [41.698360 40.615120 66.584770] -0.558797 0.000000 0.000000 -0.829304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83106D, 40306, 0xF8310012, 49.4577, 33.06163, 66.39348, -0.5587974, 0, 0, -0.8293042,  True, '2019-02-10 00:00:00'); /* Verdant Moarsman */
+/* @teleloc 0xF8310012 [49.457700 33.061630 66.393480] -0.558797 0.000000 0.000000 -0.829304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83106E, 40308, 0xF8310019, 91.01732, 8.516088, 62.47369, 0.9859104, 0, 0, -0.1672744,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310019 [91.017320 8.516088 62.473690] 0.985910 0.000000 0.000000 -0.167274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83106F, 40308, 0xF8310019, 95.46091, 9.629237, 62.06093, 0.9859104, 0, 0, -0.1672744,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310019 [95.460910 9.629237 62.060930] 0.985910 0.000000 0.000000 -0.167274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831070, 40308, 0xF8310019, 84.54458, 11.73341, 62.97062, 0.9859104, 0, 0, -0.1672744,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310019 [84.544580 11.733410 62.970620] 0.985910 0.000000 0.000000 -0.167274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831071, 40308, 0xF8310021, 97.53829, 8.551847, 62.78514, 0.9859104, 0, 0, -0.1672744,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310021 [97.538290 8.551847 62.785140] 0.985910 0.000000 0.000000 -0.167274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831072, 40307, 0xF8310025, 101.9456, 113.6845, 56.52678, -0.593882, 0, 0, -0.8045521,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */
+/* @teleloc 0xF8310025 [101.945600 113.684500 56.526780] -0.593882 0.000000 0.000000 -0.804552 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831073, 40308, 0xF8310037, 153.1243, 166.0274, 59.86549, -0.4239243, 0, 0, -0.9056976,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310037 [153.124300 166.027400 59.865490] -0.423924 0.000000 0.000000 -0.905698 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831074, 40311, 0xF8310018, 65.79403, 174.6149, 54.93209, -0.6453286, 0, 0, -0.7639051,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0xF8310018 [65.794030 174.614900 54.932090] -0.645329 0.000000 0.000000 -0.763905 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831075, 40308, 0xF8310038, 158.3756, 174.0929, 60.91967, -0.4239243, 0, 0, -0.9056976,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310038 [158.375600 174.092900 60.919670] -0.423924 0.000000 0.000000 -0.905698 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831076, 40308, 0xF8310038, 156.1144, 175.3632, 60.64867, -0.4239243, 0, 0, -0.9056976,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310038 [156.114400 175.363200 60.648670] -0.423924 0.000000 0.000000 -0.905698 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831077, 40308, 0xF8310038, 146.6844, 175.9832, 57.80398, -0.4239243, 0, 0, -0.9056976,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF8310038 [146.684400 175.983200 57.803980] -0.423924 0.000000 0.000000 -0.905698 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831078, 40308, 0xF831003B, 189.6457, 61.9113, 88.19431, -0.7326273, 0, 0, -0.6806301,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF831003B [189.645700 61.911300 88.194310] -0.732627 0.000000 0.000000 -0.680630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F831079, 40308, 0xF831003B, 183.5888, 49.27943, 88.18384, -0.7326273, 0, 0, -0.6806301,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF831003B [183.588800 49.279430 88.183840] -0.732627 0.000000 0.000000 -0.680630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83107A, 40308, 0xF831003B, 190.9309, 53.47484, 88.02677, -0.7326273, 0, 0, -0.6806301,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF831003B [190.930900 53.474840 88.026770] -0.732627 0.000000 0.000000 -0.680630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F83107B, 40308, 0xF831003B, 182.2461, 59.14511, 84.88064, -0.7326273, 0, 0, -0.6806301,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF831003B [182.246100 59.145110 84.880640] -0.732627 0.000000 0.000000 -0.680630 */

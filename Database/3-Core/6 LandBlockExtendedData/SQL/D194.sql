@@ -48,7 +48,11 @@ VALUES (0x7D194001, 0x7D194002, '2019-02-10 00:00:00') /* Shallows Destroyer (71
      , (0x7D194001, 0x7D194026, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
      , (0x7D194001, 0x7D194027, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
      , (0x7D194001, 0x7D194028, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
-     , (0x7D194001, 0x7D194029, '2019-02-10 00:00:00') /* Risen Soldier (8672) */;
+     , (0x7D194001, 0x7D194029, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7D194001, 0x7D19402A, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7D194001, 0x7D19402B, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
+     , (0x7D194001, 0x7D19402C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
+     , (0x7D194001, 0x7D19402D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D194002,  7108, 0xD1940020, 78.06461, 177.7276, 7.495815, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
@@ -211,12 +215,28 @@ VALUES (0x7D194029,  8672, 0xD1940020, 78.31244, 183.4459, 7.482213, 0.736275, 0
 /* @teleloc 0xD1940020 [78.312440 183.445900 7.482213] 0.736275 0.000000 0.000000 -0.676683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D19402A,  1542, 0xD1940030, 128.3623, 181.4377, 3.144381, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7D19402A,  2564, 0xD1940028, 97.70219, 176.1286, 5.726802, 0.6084895, 0, 0, -0.7935619,  True, '2019-02-10 00:00:00'); /* Freshwater Armoredillo */
+/* @teleloc 0xD1940028 [97.702190 176.128600 5.726802] 0.608490 0.000000 0.000000 -0.793562 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D19402B,  1760, 0xD1940028, 97.93208, 174.5028, 5.680488, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Warrior */
+/* @teleloc 0xD1940028 [97.932080 174.502800 5.680488] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D19402C,  1761, 0xD1940028, 99.73982, 173.0318, 5.379197, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
+/* @teleloc 0xD1940028 [99.739820 173.031800 5.379197] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D19402D,  7082, 0xD1940037, 159.8377, 145.8694, 0.01050007, 0.3025524, 0, 0, -0.9531327,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
+/* @teleloc 0xD1940037 [159.837700 145.869400 0.010500] 0.302552 0.000000 0.000000 -0.953133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D19402E,  1542, 0xD1940030, 128.3623, 181.4377, 3.144381, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD1940030 [128.362300 181.437700 3.144381] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D19402A, 0x7D19402B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7D19402E, 0x7D19402F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D19402B,  4179, 0xD1940030, 128.3623, 181.4377, 3.144381, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7D19402F,  4179, 0xD1940030, 128.3623, 181.4377, 3.144381, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xD1940030 [128.362300 181.437700 3.144381] 0.999048 0.000000 0.000000 -0.043619 */

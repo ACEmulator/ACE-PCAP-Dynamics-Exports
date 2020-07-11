@@ -15,7 +15,11 @@ VALUES (0x7B962001, 0x7B962002, '2019-02-10 00:00:00') /* Young Mosswart (4249) 
      , (0x7B962001, 0x7B962009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
      , (0x7B962001, 0x7B96200A, '2019-02-10 00:00:00') /* Mosswart Feeder (948) */
      , (0x7B962001, 0x7B96200B, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
-     , (0x7B962001, 0x7B96200C, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */;
+     , (0x7B962001, 0x7B96200C, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B962001, 0x7B96200D, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
+     , (0x7B962001, 0x7B96200E, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B962001, 0x7B96200F, '2019-02-10 00:00:00') /* Swamp Gromnie (1616) */
+     , (0x7B962001, 0x7B962010, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B962002,  4249, 0xB9620014, 51.06392, 87.48852, 5.9044, 0.9996517, 0, 0, -0.0263894,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -60,3 +64,19 @@ VALUES (0x7B96200B,   947, 0xB9620034, 153.2973, 91.31727, 6.0055, -0.5630291, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B96200C,  1616, 0xB9620039, 189.6405, 10.9633, 5.9045, 0.9837663, 0, 0, -0.1794543,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */
 /* @teleloc 0xB9620039 [189.640500 10.963300 5.904500] 0.983766 0.000000 0.000000 -0.179454 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B96200D,  1535, 0xB9620002, 9.067123, 46.70356, 6.000001, 0.8166878, 0, 0, -0.5770798,  True, '2019-02-10 00:00:00'); /* Ethereal Wisp */
+/* @teleloc 0xB9620002 [9.067123 46.703560 6.000001] 0.816688 0.000000 0.000000 -0.577080 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B96200E,   215, 0xB9620023, 112.0492, 63.65487, 6.012, 0.3925105, 0, 0, -0.9197475,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
+/* @teleloc 0xB9620023 [112.049200 63.654870 6.012000] 0.392511 0.000000 0.000000 -0.919748 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B96200F,  1616, 0xB962001C, 77.22256, 82.27995, 5.5545, 0.9996517, 0, 0, -0.0263894,  True, '2019-02-10 00:00:00'); /* Swamp Gromnie */
+/* @teleloc 0xB962001C [77.222560 82.279950 5.554500] 0.999652 0.000000 0.000000 -0.026389 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B962010,  6534, 0xB962002C, 139.2129, 87.02463, 6.01, -0.5630291, 0, 0, -0.8264371,  True, '2019-02-10 00:00:00'); /* Shadow Sprite */
+/* @teleloc 0xB962002C [139.212900 87.024630 6.010000] -0.563029 0.000000 0.000000 -0.826437 */

@@ -23,7 +23,8 @@ VALUES (0x71735001, 0x71735002, '2019-02-10 00:00:00') /* Affliction Wisp (7125)
      , (0x71735001, 0x71735011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
      , (0x71735001, 0x71735012, '2019-02-10 00:00:00') /* Telumiat Hollow Minion (23555) */
      , (0x71735001, 0x71735013, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
-     , (0x71735001, 0x71735014, '2019-02-10 00:00:00') /* Banderling Savage (36819) */;
+     , (0x71735001, 0x71735014, '2019-02-10 00:00:00') /* Banderling Savage (36819) */
+     , (0x71735001, 0x71735015, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71735002,  7125, 0x17350003, 6.640455, 65.91721, 22, -0.7387369, 0, 0, -0.6739939,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -102,17 +103,26 @@ VALUES (0x71735014, 36819, 0x17350020, 76.81791, 187.6361, 19.56783, -4.371139E-
 /* @teleloc 0x17350020 [76.817910 187.636100 19.567830] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71735015,  1542, 0x17350037, 154.7863, 152.3742, 8.736503, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71735015, 36825, 0x1735002B, 127.8523, 64.90123, 31.47474, -0.9662248, 0, 0, -0.2577004,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
+/* @teleloc 0x1735002B [127.852300 64.901230 31.474740] -0.966225 0.000000 0.000000 -0.257700 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71735016,  1542, 0x17350037, 154.7863, 152.3742, 8.736503, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x17350037 [154.786300 152.374200 8.736503] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71735015, 0x71735016, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x71735015, 0x71735017, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x71735016, 0x71735017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71735016, 0x71735018, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x71735016, 0x71735019, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71735016,  4380, 0x17350037, 154.7863, 152.3742, 8.736503, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x71735017,  4380, 0x17350037, 154.7863, 152.3742, 8.736503, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x17350037 [154.786300 152.374200 8.736503] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71735017,  4380, 0x17350020, 74.27278, 190.3678, 20.79245, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x71735018,  4380, 0x17350020, 74.27278, 190.3678, 20.79245, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x17350020 [74.272780 190.367800 20.792450] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71735019,  9288, 0x17350004, 17.89572, 84.27134, 21.48131, -0.7387369, 0, 0, -0.6739939,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+/* @teleloc 0x17350004 [17.895720 84.271340 21.481310] -0.738737 0.000000 0.000000 -0.673994 */

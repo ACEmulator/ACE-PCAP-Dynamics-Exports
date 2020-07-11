@@ -64,7 +64,11 @@ VALUES (0x72014001, 0x72014002, '2019-02-10 00:00:00') /* Withered Banderling Hi
      , (0x72014001, 0x7201403A, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
      , (0x72014001, 0x7201403B, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
      , (0x72014001, 0x7201403C, '2019-02-10 00:00:00') /* Withered Raider Prefect (35833) */
-     , (0x72014001, 0x7201403D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
+     , (0x72014001, 0x7201403D, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x72014001, 0x7201403E, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72014001, 0x7201403F, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x72014001, 0x72014040, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x72014001, 0x72014041, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72014002, 30683, 0x2014000E, 32.99668, 139.6652, 13.64592, -0.9981204, 0, 0, -0.06128394,  True, '2019-02-10 00:00:00'); /* Withered Banderling Hierophant */
@@ -307,12 +311,28 @@ VALUES (0x7201403D, 35832, 0x2014003A, 186.0803, 37.50137, 14.39157, -0.3149346,
 /* @teleloc 0x2014003A [186.080300 37.501370 14.391570] -0.314935 0.000000 0.000000 -0.949113 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7201403E,  1542, 0x20140021, 112.7241, 15.74614, 6.77735, 0.5042119, 0, 0, -0.8635799, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7201403E, 30687, 0x20140021, 116.6722, 8.894944, 7.451872, 0.5042119, 0, 0, -0.8635799,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
+/* @teleloc 0x20140021 [116.672200 8.894944 7.451872] 0.504212 0.000000 0.000000 -0.863580 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7201403F, 30687, 0x20140021, 105.7787, 13.75282, 5.967458, 0.5042119, 0, 0, -0.8635799,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
+/* @teleloc 0x20140021 [105.778700 13.752820 5.967458] 0.504212 0.000000 0.000000 -0.863580 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72014040, 35835, 0x20140021, 116.4242, 19.50323, 7.410536, 0.5042119, 0, 0, -0.8635799,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+/* @teleloc 0x20140021 [116.424200 19.503230 7.410536] 0.504212 0.000000 0.000000 -0.863580 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72014041, 35835, 0x20140021, 104.6292, 15.25249, 5.996643, 0.5042119, 0, 0, -0.8635799,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+/* @teleloc 0x20140021 [104.629200 15.252490 5.996643] 0.504212 0.000000 0.000000 -0.863580 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72014042,  1542, 0x20140021, 112.7241, 15.74614, 6.77735, 0.5042119, 0, 0, -0.8635799, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x20140021 [112.724100 15.746140 6.777350] 0.504212 0.000000 0.000000 -0.863580 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7201403E, 0x7201403F, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
+VALUES (0x72014042, 0x72014043, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7201403F,  9286, 0x20140021, 112.7241, 15.74614, 6.77735, 0.5042119, 0, 0, -0.8635799,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
+VALUES (0x72014043,  9286, 0x20140021, 112.7241, 15.74614, 6.77735, 0.5042119, 0, 0, -0.8635799,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
 /* @teleloc 0x20140021 [112.724100 15.746140 6.777350] 0.504212 0.000000 0.000000 -0.863580 */

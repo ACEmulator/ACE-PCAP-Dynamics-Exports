@@ -81,7 +81,9 @@ VALUES (0x7E3D1001, 0x7E3D1002, '2019-02-10 00:00:00') /* Aggressive Swarm (3184
      , (0x7E3D1001, 0x7E3D104B, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
      , (0x7E3D1001, 0x7E3D104C, '2019-02-10 00:00:00') /* Grievver Violator (43487) */
      , (0x7E3D1001, 0x7E3D104D, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
-     , (0x7E3D1001, 0x7E3D104E, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */;
+     , (0x7E3D1001, 0x7E3D104E, '2019-02-10 00:00:00') /* Burrowing Grievver (43486) */
+     , (0x7E3D1001, 0x7E3D104F, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E3D1001, 0x7E3D1050, '2019-02-10 00:00:00') /* Banderling Crusher (43485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E3D1002, 31849, 0xE3D1003F, 170.4685, 156.38, 0.004999995, -0.9846815, 0, 0, -0.1743627,  True, '2019-02-10 00:00:00'); /* Aggressive Swarm */
@@ -392,12 +394,20 @@ VALUES (0x7E3D104E, 43486, 0xE3D10030, 127.7171, 170.1828, 5.9985, 0.9194192, 0,
 /* @teleloc 0xE3D10030 [127.717100 170.182800 5.998500] 0.919419 0.000000 0.000000 -0.393279 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E3D104F,  1542, 0xE3D10035, 152.853, 101.548, 5.937, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E3D104F, 40479, 0xE3D1003F, 182.7458, 146.9935, 0.005599976, -0.9846815, 0, 0, -0.1743627,  True, '2019-02-10 00:00:00'); /* Maguth Moarsman */
+/* @teleloc 0xE3D1003F [182.745800 146.993500 0.005600] -0.984682 0.000000 0.000000 -0.174363 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E3D1050, 43485, 0xE3D10030, 130.2072, 170.6645, 6.00715, 0.9194192, 0, 0, -0.393279,  True, '2019-02-10 00:00:00'); /* Banderling Crusher */
+/* @teleloc 0xE3D10030 [130.207200 170.664500 6.007150] 0.919419 0.000000 0.000000 -0.393279 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E3D1051,  1542, 0xE3D10035, 152.853, 101.548, 5.937, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE3D10035 [152.853000 101.548000 5.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E3D104F, 0x7E3D1050, '2019-02-10 00:00:00') /* Olthoi Tunnel (43544) */;
+VALUES (0x7E3D1051, 0x7E3D1052, '2019-02-10 00:00:00') /* Olthoi Tunnel (43544) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E3D1050, 43544, 0xE3D10035, 152.853, 101.548, 5.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */
+VALUES (0x7E3D1052, 43544, 0xE3D10035, 152.853, 101.548, 5.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Tunnel */
 /* @teleloc 0xE3D10035 [152.853000 101.548000 5.937000] 1.000000 0.000000 0.000000 0.000000 */

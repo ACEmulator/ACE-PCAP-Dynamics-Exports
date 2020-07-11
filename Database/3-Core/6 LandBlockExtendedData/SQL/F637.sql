@@ -29,7 +29,12 @@ VALUES (0x7F637001, 0x7F637002, '2019-02-10 00:00:00') /* Sclavus Acolyte of T't
      , (0x7F637001, 0x7F637017, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
      , (0x7F637001, 0x7F637018, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
      , (0x7F637001, 0x7F637019, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
-     , (0x7F637001, 0x7F63701A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */;
+     , (0x7F637001, 0x7F63701A, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F637001, 0x7F63701B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40314) */
+     , (0x7F637001, 0x7F63701C, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F637001, 0x7F63701D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
+     , (0x7F637001, 0x7F63701E, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F637001, 0x7F63701F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F637002, 40313, 0xF6370040, 174.8284, 170.8804, 2.845152, -0.4396224, 0, 0, -0.8981827,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
@@ -130,3 +135,23 @@ VALUES (0x7F637019, 40302, 0xF637003F, 183.0994, 159.2074, 6.297814, -0.4396224,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F63701A, 40302, 0xF637003F, 173.1453, 156.8777, 2.150265, -0.4396224, 0, 0, -0.8981827,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
 /* @teleloc 0xF637003F [173.145300 156.877700 2.150265] -0.439622 0.000000 0.000000 -0.898183 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F63701B, 40314, 0xF6370039, 181.2113, 19.39186, 0, 0.003249357, 0, 0, -0.9999947,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0xF6370039 [181.211300 19.391860 0.000000] 0.003249 0.000000 0.000000 -0.999995 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F63701C, 40312, 0xF6370039, 175.6817, 19.84868, 0, 0.003249357, 0, 0, -0.9999947,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0xF6370039 [175.681700 19.848680 0.000000] 0.003249 0.000000 0.000000 -0.999995 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F63701D, 40312, 0xF6370039, 170.4832, 15.89552, 0, 0.003249357, 0, 0, -0.9999947,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0xF6370039 [170.483200 15.895520 0.000000] 0.003249 0.000000 0.000000 -0.999995 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F63701E, 40313, 0xF6370039, 175.1, 18.30896, 0, 0.003249357, 0, 0, -0.9999947,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0xF6370039 [175.100000 18.308960 0.000000] 0.003249 0.000000 0.000000 -0.999995 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F63701F, 40312, 0xF6370039, 176.8886, 15.67028, 0, 0.003249357, 0, 0, -0.9999947,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0xF6370039 [176.888600 15.670280 0.000000] 0.003249 0.000000 0.000000 -0.999995 */

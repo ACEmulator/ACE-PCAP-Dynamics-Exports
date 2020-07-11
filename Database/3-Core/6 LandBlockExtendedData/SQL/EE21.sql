@@ -26,7 +26,8 @@ VALUES (0x7EE21001, 0x7EE21002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) *
      , (0x7EE21001, 0x7EE21014, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
      , (0x7EE21001, 0x7EE21015, '2019-02-10 00:00:00') /* Slithis Tendril (4256) */
      , (0x7EE21001, 0x7EE21016, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
-     , (0x7EE21001, 0x7EE21017, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
+     , (0x7EE21001, 0x7EE21017, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7EE21001, 0x7EE21018, '2019-02-10 00:00:00') /* Foul Moarsman (4247) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE21002,  4247, 0xEE210002, 17.6898, 42.30977, 18.0054, -0.9940223, 0, 0, -0.1091774,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -115,3 +116,7 @@ VALUES (0x7EE21016,  7082, 0xEE210002, 16.738, 45.09859, 18.0105, 0.8660254, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EE21017,  7082, 0xEE210002, 19.05747, 45.51199, 18.0105, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
 /* @teleloc 0xEE210002 [19.057470 45.511990 18.010500] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EE21018,  4247, 0xEE21001E, 88.8511, 137.9583, -0.4446, -0.6679991, 0, 0, -0.7441621,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
+/* @teleloc 0xEE21001E [88.851100 137.958300 -0.444600] -0.667999 0.000000 0.000000 -0.744162 */

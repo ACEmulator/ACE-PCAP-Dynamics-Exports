@@ -62,7 +62,10 @@ VALUES (0x7015501A, 0x7015501B, '2019-02-10 00:00:00') /* Maddened Zharalim (259
      , (0x7015501A, 0x70155025, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
      , (0x7015501A, 0x70155026, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
      , (0x7015501A, 0x70155027, '2019-02-10 00:00:00') /* Demented Zharalim (25964) */
-     , (0x7015501A, 0x70155028, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */;
+     , (0x7015501A, 0x70155028, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */
+     , (0x7015501A, 0x70155029, '2019-02-10 00:00:00') /* Maddened Zharalim (25966) */
+     , (0x7015501A, 0x7015502A, '2019-02-10 00:00:00') /* Maddened Zharalim (25965) */
+     , (0x7015501A, 0x7015502B, '2019-02-10 00:00:00') /* Demented Zharalim (25963) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7015501B, 25965, 0x01550184, 8.975473, -35.357, 5.849475, -0.563526, 0, 0, -0.826099,  True, '2019-02-10 00:00:00'); /* Maddened Zharalim */
@@ -121,17 +124,29 @@ VALUES (0x70155028, 25963, 0x01550103, 28.142, -38.4548, -11.995, -0.9543058, 0,
 /* @teleloc 0x01550103 [28.142000 -38.454800 -11.995000] -0.954306 0.000000 0.000000 -0.298832 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70155029,  1542, 0x01550104, 30, -50, -11.9835, 0.7648419, 0, 0, -0.644218, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70155029, 25966, 0x0155010E, 53.1696, -62.39148, -11.995, -0.9823355, 0, 0, -0.1871281,  True, '2019-02-10 00:00:00'); /* Maddened Zharalim */
+/* @teleloc 0x0155010E [53.169600 -62.391480 -11.995000] -0.982336 0.000000 0.000000 -0.187128 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7015502A, 25965, 0x0155010E, 54.51924, -64.43817, -11.995, 0.06706654, 0, 0, -0.9977485,  True, '2019-02-10 00:00:00'); /* Maddened Zharalim */
+/* @teleloc 0x0155010E [54.519240 -64.438170 -11.995000] 0.067067 0.000000 0.000000 -0.997749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7015502B, 25963, 0x01550107, 39.06832, -51.27375, -11.995, 0.2212937, 0, 0, -0.9752072,  True, '2019-02-10 00:00:00'); /* Demented Zharalim */
+/* @teleloc 0x01550107 [39.068320 -51.273750 -11.995000] 0.221294 0.000000 0.000000 -0.975207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7015502C,  1542, 0x01550104, 30, -50, -11.9835, 0.7648419, 0, 0, -0.644218, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x01550104 [30.000000 -50.000000 -11.983500] 0.764842 0.000000 0.000000 -0.644218 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70155029, 0x7015502A, '2019-02-10 00:00:00') /* Samsur Town Stamp (8739) */
-     , (0x70155029, 0x7015502B, '2019-02-10 00:00:00') /* The Hundred Trackless Paths (5129) */;
+VALUES (0x7015502C, 0x7015502D, '2019-02-10 00:00:00') /* Samsur Town Stamp (8739) */
+     , (0x7015502C, 0x7015502E, '2019-02-10 00:00:00') /* The Hundred Trackless Paths (5129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015502A,  8739, 0x01550104, 30, -50, -11.9835, 0.7648419, 0, 0, -0.644218,  True, '2019-02-10 00:00:00'); /* Samsur Town Stamp */
+VALUES (0x7015502D,  8739, 0x01550104, 30, -50, -11.9835, 0.7648419, 0, 0, -0.644218,  True, '2019-02-10 00:00:00'); /* Samsur Town Stamp */
 /* @teleloc 0x01550104 [30.000000 -50.000000 -11.983500] 0.764842 0.000000 0.000000 -0.644218 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7015502B,  5129, 0x0155010D, 49.1088, -50.781, -11.93046, 0.2652359, 0, 0, -0.9641836,  True, '2019-02-10 00:00:00'); /* The Hundred Trackless Paths */
+VALUES (0x7015502E,  5129, 0x0155010D, 49.1088, -50.781, -11.93046, 0.2652359, 0, 0, -0.9641836,  True, '2019-02-10 00:00:00'); /* The Hundred Trackless Paths */
 /* @teleloc 0x0155010D [49.108800 -50.781000 -11.930460] 0.265236 0.000000 0.000000 -0.964184 */

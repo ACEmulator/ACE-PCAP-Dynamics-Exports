@@ -125,8 +125,23 @@ VALUES (0x701FC034,  1542, 0x01FC012D, 57.04088, -52.85445, 0.0855, 0.7071068, 0
 /* @teleloc 0x01FC012D [57.040880 -52.854450 0.085500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701FC034, 0x701FC035, '2019-02-10 00:00:00') /* Scroll of War Magic Ineptitude IV (3565) */;
+VALUES (0x701FC034, 0x701FC035, '2019-02-10 00:00:00') /* Scroll of War Magic Ineptitude IV (3565) */
+     , (0x701FC034, 0x701FC036, '2019-02-10 00:00:00') /* Chainmail Bracers (413) */
+     , (0x701FC034, 0x701FC037, '2019-02-10 00:00:00') /* Studded  Leggings (84) */
+     , (0x701FC034, 0x701FC038, '2019-02-10 00:00:00') /* Khanda-handled Mace (41062) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701FC035,  3565, 0x01FC012D, 57.04088, -52.85445, 0.0855, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Scroll of War Magic Ineptitude IV */
 /* @teleloc 0x01FC012D [57.040880 -52.854450 0.085500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701FC036,   413, 0x01FC012D, 57.18646, -53.19, -0.002499998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chainmail Bracers */
+/* @teleloc 0x01FC012D [57.186460 -53.190000 -0.002500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701FC037,    84, 0x01FC012D, 57.29055, -52.44493, -0.002500013, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Studded  Leggings */
+/* @teleloc 0x01FC012D [57.290550 -52.444930 -0.002500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701FC038, 41062, 0x01FC012D, 56.77305, -52.16988, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Khanda-handled Mace */
+/* @teleloc 0x01FC012D [56.773050 -52.169880 0.000000] 0.707107 0.000000 0.000000 -0.707107 */

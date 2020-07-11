@@ -12,7 +12,9 @@ VALUES (0x7298D001, 0x7298D002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x7298D001, 0x7298D006, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
      , (0x7298D001, 0x7298D007, '2019-02-10 00:00:00') /* Pugnacious Monouga (36844) */
      , (0x7298D001, 0x7298D008, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
-     , (0x7298D001, 0x7298D009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
+     , (0x7298D001, 0x7298D009, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7298D001, 0x7298D00A, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7298D001, 0x7298D00B, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298D002,  8138, 0x298D0007, 2.505589, 159.7203, 102.01, -0.9345697, 0, 0, -0.3557802,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -45,3 +47,11 @@ VALUES (0x7298D008, 36840, 0x298D0008, 9.753563, 187.2574, 95.57436, 0.7071068, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7298D009, 36840, 0x298D0008, 1.108325, 186.8333, 95.71572, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
 /* @teleloc 0x298D0008 [1.108325 186.833300 95.715720] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7298D00A, 23564, 0x298D0007, 3.822861, 147.987, 102.005, -0.9345697, 0, 0, -0.3557802,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x298D0007 [3.822861 147.987000 102.005000] -0.934570 0.000000 0.000000 -0.355780 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7298D00B, 24283, 0x298D0008, 2.12622, 187.0331, 95.66018, 0.9174861, 0, 0, -0.3977678,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
+/* @teleloc 0x298D0008 [2.126220 187.033100 95.660180] 0.917486 0.000000 0.000000 -0.397768 */

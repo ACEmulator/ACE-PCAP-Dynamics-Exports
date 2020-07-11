@@ -12,7 +12,16 @@ VALUES (0x72132001, 0x72132002, '2019-02-10 00:00:00') /* Resonant Portal (41004
      , (0x72132001, 0x72132006, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
      , (0x72132001, 0x72132007, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
      , (0x72132001, 0x72132008, '2019-02-10 00:00:00') /* Dire Champion Shadow (36846) */
-     , (0x72132001, 0x72132009, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
+     , (0x72132001, 0x72132009, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72132001, 0x7213200A, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x72132001, 0x7213200B, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72132001, 0x7213200C, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x72132001, 0x7213200D, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
+     , (0x72132001, 0x7213200E, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72132001, 0x7213200F, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x72132001, 0x72132010, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72132001, 0x72132011, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
+     , (0x72132001, 0x72132012, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72132002, 41004, 0x21320003, 22.06635, 62.69841, 0.4204121, -0.2625554, 0, 0, -0.9649169,  True, '2019-02-10 00:00:00'); /* Resonant Portal */
@@ -45,3 +54,39 @@ VALUES (0x72132008, 36846, 0x21320025, 115.282, 100.8329, -0.09350002, 0.0091352
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72132009, 36854, 0x2132002F, 122.6301, 152.1339, 0.005500019, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
 /* @teleloc 0x2132002F [122.630100 152.133900 0.005500] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213200A, 36845, 0x2132000A, 42.97681, 45.37461, -0.4449999, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
+/* @teleloc 0x2132000A [42.976810 45.374610 -0.445000] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213200B, 36851, 0x2132000A, 47.27839, 40.0627, -0.4449999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x2132000A [47.278390 40.062700 -0.445000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213200C, 36853, 0x21320012, 49.71049, 44.20092, -0.895, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x21320012 [49.710490 44.200920 -0.895000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213200D, 22914, 0x2132000B, 29.88469, 53.78648, -0.07100004, -0.2625554, 0, 0, -0.9649169,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
+/* @teleloc 0x2132000B [29.884690 53.786480 -0.071000] -0.262555 0.000000 0.000000 -0.964917 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213200E, 36850, 0x21320015, 63.58181, 116.4246, -0.4449999, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */
+/* @teleloc 0x21320015 [63.581810 116.424600 -0.445000] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213200F, 36854, 0x21320015, 65.17111, 115.8277, -0.4445, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x21320015 [65.171110 115.827700 -0.444500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72132010, 36852, 0x21320016, 60.05138, 121.9819, -0.4449999, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
+/* @teleloc 0x21320016 [60.051380 121.981900 -0.445000] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72132011, 23091, 0x2132001F, 81.32308, 157.1042, -0.09450001, 0.4764726, 0, 0, -0.8791893,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x2132001F [81.323080 157.104200 -0.094500] 0.476473 0.000000 0.000000 -0.879189 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72132012, 23090, 0x21320027, 119.2703, 165.1591, -0.09500003, -0.923986, 0, 0, -0.3824262,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
+/* @teleloc 0x21320027 [119.270300 165.159100 -0.095000] -0.923986 0.000000 0.000000 -0.382426 */

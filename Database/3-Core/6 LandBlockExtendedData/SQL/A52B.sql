@@ -16,7 +16,15 @@ VALUES (0x7A52B001, 0x7A52B002, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (
      , (0x7A52B001, 0x7A52B00A, '2019-02-10 00:00:00') /* Tundra Mattekar (12000) */
      , (0x7A52B001, 0x7A52B00B, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
      , (0x7A52B001, 0x7A52B00C, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
-     , (0x7A52B001, 0x7A52B00D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
+     , (0x7A52B001, 0x7A52B00D, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A52B001, 0x7A52B00E, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A52B001, 0x7A52B00F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A52B001, 0x7A52B010, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x7A52B001, 0x7A52B011, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A52B001, 0x7A52B012, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
+     , (0x7A52B001, 0x7A52B013, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A52B001, 0x7A52B014, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x7A52B001, 0x7A52B015, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A52B002, 38181, 0xA52B0029, 122.0188, 23.40663, 110.052, -0.986325, 0, 0, -0.1648119,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
@@ -65,3 +73,46 @@ VALUES (0x7A52B00C,  7084, 0xA52B0039, 168.0345, 19.03131, 110.4246, 0.9063078, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A52B00D,  7084, 0xA52B0039, 171.4384, 18.45416, 110.4727, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
 /* @teleloc 0xA52B0039 [171.438400 18.454160 110.472700] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B00E, 14517, 0xA52B0009, 32.22099, 5.655556, 121.9518, -0.9714095, 0, 0, -0.2374103,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0xA52B0009 [32.220990 5.655556 121.951800] -0.971410 0.000000 0.000000 -0.237410 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B00F, 24494, 0xA52B002A, 127.2441, 40.37267, 108.6456, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
+/* @teleloc 0xA52B002A [127.244100 40.372670 108.645600] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B010,  1610, 0xA52B001B, 73.6105, 48.72726, 115.7361, -0.7756749, 0, 0, -0.6311327,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
+/* @teleloc 0xA52B001B [73.610500 48.727260 115.736100] -0.775675 0.000000 0.000000 -0.631133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B011, 24494, 0xA52B0022, 112.7635, 33.27946, 110.4428, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
+/* @teleloc 0xA52B0022 [112.763500 33.279460 110.442800] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B012, 38181, 0xA52B003B, 172.8885, 59.936, 106.4313, -0.1704767, 0, 0, -0.9853617,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
+/* @teleloc 0xA52B003B [172.888500 59.936000 106.431300] -0.170477 0.000000 0.000000 -0.985362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B013, 37100, 0xA52B003B, 168.8825, 64.76197, 104.4912, 0.7771459, 0, 0, -0.6293204,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
+/* @teleloc 0xA52B003B [168.882500 64.761970 104.491200] 0.777146 0.000000 0.000000 -0.629320 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B014, 37100, 0xA52B0033, 167.0137, 66.88508, 103.5456, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
+/* @teleloc 0xA52B0033 [167.013700 66.885080 103.545600] 0.939693 0.000000 0.000000 -0.342020 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B015, 37101, 0xA52B0033, 167.9481, 65.82352, 104.0552, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager Captain */
+/* @teleloc 0xA52B0033 [167.948100 65.823520 104.055200] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B016,  1542, 0xA52B002A, 120.0038, 36.82607, 109.9964, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xA52B002A [120.003800 36.826070 109.996400] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7A52B016, 0x7A52B017, '2019-02-10 00:00:00') /* Bones (4380) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A52B017,  4380, 0xA52B002A, 120.0038, 36.82607, 109.9964, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+/* @teleloc 0xA52B002A [120.003800 36.826070 109.996400] 1.000000 0.000000 0.000000 0.000000 */

@@ -36,7 +36,8 @@ VALUES (0x7DD82001, 0x7DD82002, '2019-02-10 00:00:00') /* Skeleton Captain (1761
      , (0x7DD82001, 0x7DD8201E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x7DD82001, 0x7DD8201F, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
      , (0x7DD82001, 0x7DD82020, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
-     , (0x7DD82001, 0x7DD82021, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */;
+     , (0x7DD82001, 0x7DD82021, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
+     , (0x7DD82001, 0x7DD82022, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD82002,  1761, 0xDD82002E, 132.4451, 139.2837, 2.0025, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -167,12 +168,16 @@ VALUES (0x7DD82021,  2564, 0xDD820037, 159.3628, 151.5571, 0.1005121, 0.9238795,
 /* @teleloc 0xDD820037 [159.362800 151.557100 0.100512] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD82022,  1542, 0xDD82002E, 134.8352, 126.8145, 1.997839, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7DD82022,  1762, 0xDD820022, 110.4316, 24.57087, 2.847443, -0.2978322, 0, 0, -0.9546182,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
+/* @teleloc 0xDD820022 [110.431600 24.570870 2.847443] -0.297832 0.000000 0.000000 -0.954618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DD82023,  1542, 0xDD82002E, 134.8352, 126.8145, 1.997839, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xDD82002E [134.835200 126.814500 1.997839] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD82022, 0x7DD82023, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
+VALUES (0x7DD82023, 0x7DD82024, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD82023, 31443, 0xDD82002E, 134.8352, 126.8145, 1.997839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x7DD82024, 31443, 0xDD82002E, 134.8352, 126.8145, 1.997839, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0xDD82002E [134.835200 126.814500 1.997839] 1.000000 0.000000 0.000000 0.000000 */

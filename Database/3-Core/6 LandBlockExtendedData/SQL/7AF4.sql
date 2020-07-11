@@ -11,7 +11,9 @@ VALUES (0x77AF4001, 0x77AF4002, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) *
      , (0x77AF4001, 0x77AF4005, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
      , (0x77AF4001, 0x77AF4006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
      , (0x77AF4001, 0x77AF4007, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
-     , (0x77AF4001, 0x77AF4008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
+     , (0x77AF4001, 0x77AF4008, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x77AF4001, 0x77AF4009, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x77AF4001, 0x77AF400A, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AF4002,  7112, 0x7AF40020, 82.29207, 178.1148, 14.01477, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
@@ -40,3 +42,11 @@ VALUES (0x77AF4007, 21551, 0x7AF40010, 26.00026, 176.9073, 10.68864, -0.3909673,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77AF4008, 23563, 0x7AF40018, 70.55623, 181.214, 12.78352, 0.05975733, 0, 0, -0.9982129,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
 /* @teleloc 0x7AF40018 [70.556230 181.214000 12.783520] 0.059757 0.000000 0.000000 -0.998213 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77AF4009,  7081, 0x7AF40019, 87.65076, 10.21914, 40.30731, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x7AF40019 [87.650760 10.219140 40.307310] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77AF400A,  7081, 0x7AF40019, 88.4218, 6.853803, 40.86819, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x7AF40019 [88.421800 6.853803 40.868190] 0.906308 0.000000 0.000000 -0.422618 */

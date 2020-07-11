@@ -10,7 +10,9 @@ VALUES (0x72281001, 0x72281002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
      , (0x72281001, 0x72281004, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x72281001, 0x72281005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x72281001, 0x72281006, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
-     , (0x72281001, 0x72281007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
+     , (0x72281001, 0x72281007, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x72281001, 0x72281008, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72281001, 0x72281009, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72281002, 36832, 0x2281003E, 187.803, 121.9353, 241.7588, 0.9672041, 0, 0, -0.2540005,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -35,3 +37,11 @@ VALUES (0x72281006, 28553, 0x2281003E, 169.2832, 120.5901, 252.8013, 0.9672041, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72281007,  7086, 0x2281002A, 137.3765, 38.89452, 268.3541, 0.4980949, 0, 0, -0.8671225,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
 /* @teleloc 0x2281002A [137.376500 38.894520 268.354100] 0.498095 0.000000 0.000000 -0.867123 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72281008, 23616, 0x2281003A, 182.9543, 31.76888, 256.7901, 0.4980949, 0, 0, -0.8671225,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x2281003A [182.954300 31.768880 256.790100] 0.498095 0.000000 0.000000 -0.867123 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72281009, 23616, 0x2281002D, 136.598, 101.2024, 263.8843, 0.9672041, 0, 0, -0.2540005,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x2281002D [136.598000 101.202400 263.884300] 0.967204 0.000000 0.000000 -0.254001 */

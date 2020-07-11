@@ -10,7 +10,9 @@ VALUES (0x72686001, 0x72686002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x72686001, 0x72686004, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x72686001, 0x72686005, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x72686001, 0x72686006, '2019-02-10 00:00:00') /* Extas Raider (8138) */
-     , (0x72686001, 0x72686007, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
+     , (0x72686001, 0x72686007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x72686001, 0x72686008, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72686001, 0x72686009, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72686002,  8138, 0x26860011, 59.8822, 17.6904, 148.01, -0.868094, 0, 0, -0.4963999,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -35,3 +37,11 @@ VALUES (0x72686006,  8138, 0x2686001B, 72.6955, 48.1094, 147.7202, -0.9013137, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72686007,  8138, 0x2686001B, 74.1974, 69.8747, 138.8955, -0.9381574, 0, 0, -0.3462091,  True, '2019-02-10 00:00:00'); /* Extas Raider */
 /* @teleloc 0x2686001B [74.197400 69.874700 138.895500] -0.938157 0.000000 0.000000 -0.346209 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72686008, 36829, 0x26860004, 12.55371, 85.69709, 105.1198, -0.6323329, 0, 0, -0.7746968,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x26860004 [12.553710 85.697090 105.119800] -0.632333 0.000000 0.000000 -0.774697 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72686009, 36843, 0x26860040, 177.2785, 173.092, 101.994, 0.3050911, 0, 0, -0.9523231,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
+/* @teleloc 0x26860040 [177.278500 173.092000 101.994000] 0.305091 0.000000 0.000000 -0.952323 */

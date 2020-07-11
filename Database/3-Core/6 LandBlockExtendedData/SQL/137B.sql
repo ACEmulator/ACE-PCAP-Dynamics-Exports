@@ -18,7 +18,10 @@ VALUES (0x7137B001, 0x7137B002, '2019-02-10 00:00:00') /* Armored Tusker (11540)
      , (0x7137B001, 0x7137B00C, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
      , (0x7137B001, 0x7137B00D, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
      , (0x7137B001, 0x7137B00E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
-     , (0x7137B001, 0x7137B00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
+     , (0x7137B001, 0x7137B00F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7137B001, 0x7137B010, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7137B001, 0x7137B011, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7137B001, 0x7137B012, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137B002, 11540, 0x137B0028, 111.0315, 170.9629, 143.7663, 0.3644449, 0, 0, -0.931225,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
@@ -77,22 +80,34 @@ VALUES (0x7137B00F, 36829, 0x137B0012, 48.00697, 40.70103, 136.9688, -0.7969244,
 /* @teleloc 0x137B0012 [48.006970 40.701030 136.968800] -0.796924 0.000000 0.000000 -0.604079 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7137B010,  1542, 0x137B000A, 45.09376, 44.39332, 137.7685, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7137B010, 36842, 0x137B0019, 93.15752, 8.788086, 126.192, -0.1364742, 0, 0, -0.9906436,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
+/* @teleloc 0x137B0019 [93.157520 8.788086 126.192000] -0.136474 0.000000 0.000000 -0.990644 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137B011, 24281, 0x137B0013, 48.36744, 52.50872, 141.8832, -0.7969244, 0, 0, -0.6040791,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x137B0013 [48.367440 52.508720 141.883200] -0.796924 0.000000 0.000000 -0.604079 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137B012, 28553, 0x137B0020, 78.09792, 190.1641, 143.4901, 0.3644449, 0, 0, -0.931225,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
+/* @teleloc 0x137B0020 [78.097920 190.164100 143.490100] 0.364445 0.000000 0.000000 -0.931225 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137B013,  1542, 0x137B000A, 45.09376, 44.39332, 137.7685, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x137B000A [45.093760 44.393320 137.768500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7137B010, 0x7137B011, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
-     , (0x7137B010, 0x7137B012, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7137B010, 0x7137B013, '2019-02-10 00:00:00') /* Lead Scarab (691) */;
+VALUES (0x7137B013, 0x7137B014, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */
+     , (0x7137B013, 0x7137B015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7137B013, 0x7137B016, '2019-02-10 00:00:00') /* Lead Scarab (691) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7137B011, 31445, 0x137B000A, 45.09376, 44.39332, 137.7685, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x7137B014, 31445, 0x137B000A, 45.09376, 44.39332, 137.7685, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0x137B000A [45.093760 44.393320 137.768500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7137B012,  4179, 0x137B003C, 169.1546, 75.9108, 142.4594, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7137B015,  4179, 0x137B003C, 169.1546, 75.9108, 142.4594, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x137B003C [169.154600 75.910800 142.459400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7137B013,   691, 0x137B003C, 169.0152, 72.409, 142.7368, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Lead Scarab */
+VALUES (0x7137B016,   691, 0x137B003C, 169.0152, 72.409, 142.7368, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Lead Scarab */
 /* @teleloc 0x137B003C [169.015200 72.409000 142.736800] 0.707107 0.000000 0.000000 -0.707107 */

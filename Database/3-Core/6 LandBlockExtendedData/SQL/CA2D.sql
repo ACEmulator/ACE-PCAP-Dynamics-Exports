@@ -12,7 +12,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7CA2D001, 0x7CA2D002, '2019-02-10 00:00:00') /* Greater Mu-miyah (1764) */
      , (0x7CA2D001, 0x7CA2D003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x7CA2D001, 0x7CA2D004, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
-     , (0x7CA2D001, 0x7CA2D005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
+     , (0x7CA2D001, 0x7CA2D005, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7CA2D001, 0x7CA2D006, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2D002,  1764, 0xCA2D0104, 179.709, 112.689, 161.661, -0.998842, 0, 0, -0.0481011,  True, '2019-02-10 00:00:00'); /* Greater Mu-miyah */
@@ -29,3 +30,7 @@ VALUES (0x7CA2D004,   201, 0xCA2D0029, 124.0842, 8.038527, 159.3498, 0.7071068, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CA2D005,   201, 0xCA2D0029, 131.2593, 7.318561, 159.2298, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Obsidian Golem */
 /* @teleloc 0xCA2D0029 [131.259300 7.318561 159.229800] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CA2D006, 14559, 0xCA2D003F, 188.5814, 145.9586, 168.2093, -0.2852899, 0, 0, -0.9584413,  True, '2019-02-10 00:00:00'); /* Oak Golem */
+/* @teleloc 0xCA2D003F [188.581400 145.958600 168.209300] -0.285290 0.000000 0.000000 -0.958441 */

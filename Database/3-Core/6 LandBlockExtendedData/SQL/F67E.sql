@@ -59,7 +59,8 @@ VALUES (0x7F67E001, 0x7F67E002, '2019-02-10 00:00:00') /* Jungle Reaver (22745) 
      , (0x7F67E001, 0x7F67E035, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
      , (0x7F67E001, 0x7F67E036, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
      , (0x7F67E001, 0x7F67E037, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
-     , (0x7F67E001, 0x7F67E038, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
+     , (0x7F67E001, 0x7F67E038, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x7F67E001, 0x7F67E039, '2019-02-10 00:00:00') /* Jungle Reaver (22745) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F67E002, 22745, 0xF67E0040, 190.5436, 181.8398, 12.002, 0.9994545, 0, 0, -0.03302494,  True, '2019-02-10 00:00:00'); /* Jungle Reaver */
@@ -280,3 +281,7 @@ VALUES (0x7F67E037, 22519, 0xF67E0013, 50.93691, 54.55827, 35.34694, 0.1520173, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F67E038, 22519, 0xF67E0013, 48.72428, 55.60901, 34.36517, 0.1520173, 0, 0, -0.9883778,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
 /* @teleloc 0xF67E0013 [48.724280 55.609010 34.365170] 0.152017 0.000000 0.000000 -0.988378 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F67E039, 22745, 0xF67E0003, 22.46463, 53.11821, 40.55646, 0.8825002, 0, 0, -0.4703119,  True, '2019-02-10 00:00:00'); /* Jungle Reaver */
+/* @teleloc 0xF67E0003 [22.464630 53.118210 40.556460] 0.882500 0.000000 0.000000 -0.470312 */

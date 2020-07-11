@@ -87,7 +87,9 @@ VALUES (0x70046034, 0x70046035, '2019-02-10 00:00:00') /* Repugnant Eater (28638
      , (0x70046034, 0x70046064, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
      , (0x70046034, 0x70046065, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
      , (0x70046034, 0x70046066, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
-     , (0x70046034, 0x70046067, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */;
+     , (0x70046034, 0x70046067, '2019-02-10 00:00:00') /* Olthoi Swarm Mutilator (24453) */
+     , (0x70046034, 0x70046068, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x70046034, 0x70046069, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70046035, 28638, 0x00460125, 41.8391, -318.421, 0, 0.859443, 0, 0, -0.511232,  True, '2019-02-10 00:00:00'); /* Repugnant Eater */
@@ -292,3 +294,11 @@ VALUES (0x70046066, 24453, 0x004603C1, 531.828, -39.1418, 42, 0.6986969, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70046067, 24453, 0x004603EC, 583.415, -28.8713, 48, -0.7157572, 0, 0, -0.6983492,  True, '2019-02-10 00:00:00'); /* Olthoi Swarm Mutilator */
 /* @teleloc 0x004603EC [583.415000 -28.871300 48.000000] -0.715757 0.000000 0.000000 -0.698349 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70046068, 28638, 0x004601F5, 233.999, -368.6135, 12, -0.8859485, 0, 0, -0.4637836,  True, '2019-02-10 00:00:00'); /* Repugnant Eater */
+/* @teleloc 0x004601F5 [233.999000 -368.613500 12.000000] -0.885949 0.000000 0.000000 -0.463784 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70046069, 28638, 0x004601CA, 189.8415, -335.7695, 12, -0.9087071, 0, 0, -0.4174344,  True, '2019-02-10 00:00:00'); /* Repugnant Eater */
+/* @teleloc 0x004601CA [189.841500 -335.769500 12.000000] -0.908707 0.000000 0.000000 -0.417434 */

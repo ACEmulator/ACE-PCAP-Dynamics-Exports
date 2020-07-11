@@ -21,7 +21,9 @@ VALUES (0x7D979001, 0x7D979002, '2019-02-10 00:00:00') /* Tumerok Major (23565) 
      , (0x7D979001, 0x7D97900F, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
      , (0x7D979001, 0x7D979010, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
      , (0x7D979001, 0x7D979011, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
-     , (0x7D979001, 0x7D979012, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
+     , (0x7D979001, 0x7D979012, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7D979001, 0x7D979013, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x7D979001, 0x7D979014, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D979002, 23565, 0xD9790037, 156.0351, 166.3505, 21.86854, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -92,17 +94,25 @@ VALUES (0x7D979012,  7780, 0xD979000F, 32.50014, 153.9501, 26.83167, -0.7068512,
 /* @teleloc 0xD979000F [32.500140 153.950100 26.831670] -0.706851 0.000000 0.000000 -0.707362 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D979013,  1542, 0xD979000F, 28.17399, 158.2483, 27.18886, -0.7068512, 0, 0, -0.7073623, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7D979013,   619, 0xD9790029, 121.5626, 14.624, 21.0967, -0.6946974, 0, 0, -0.7193021,  True, '2019-02-10 00:00:00'); /* Revenant */
+/* @teleloc 0xD9790029 [121.562600 14.624000 21.096700] -0.694697 0.000000 0.000000 -0.719302 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D979014,   227, 0xD9790040, 168.325, 186.8561, 20.40758, -0.9902226, 0, 0, -0.1394959,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0xD9790040 [168.325000 186.856100 20.407580] -0.990223 0.000000 0.000000 -0.139496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D979015,  1542, 0xD979000F, 28.17399, 158.2483, 27.18886, -0.7068512, 0, 0, -0.7073623, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD979000F [28.173990 158.248300 27.188860] -0.706851 0.000000 0.000000 -0.707362 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D979013, 0x7D979014, '2019-02-10 00:00:00') /* Sunflower (15715) */
-     , (0x7D979013, 0x7D979015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7D979015, 0x7D979016, '2019-02-10 00:00:00') /* Sunflower (15715) */
+     , (0x7D979015, 0x7D979017, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D979014, 15715, 0xD979000F, 28.17399, 158.2483, 27.18886, -0.7068512, 0, 0, -0.7073623,  True, '2019-02-10 00:00:00'); /* Sunflower */
+VALUES (0x7D979016, 15715, 0xD979000F, 28.17399, 158.2483, 27.18886, -0.7068512, 0, 0, -0.7073623,  True, '2019-02-10 00:00:00'); /* Sunflower */
 /* @teleloc 0xD979000F [28.173990 158.248300 27.188860] -0.706851 0.000000 0.000000 -0.707362 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D979015,  4179, 0xD9790008, 21.56274, 173.4955, 27.2872, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7D979017,  4179, 0xD9790008, 21.56274, 173.4955, 27.2872, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xD9790008 [21.562740 173.495500 27.287200] 0.999048 0.000000 0.000000 -0.043619 */

@@ -44,7 +44,10 @@ VALUES (0x714B5021, 0x714B5022, '2019-02-10 00:00:00') /* Hea Itealuan (11519) *
      , (0x714B5021, 0x714B5032, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
      , (0x714B5021, 0x714B5033, '2019-02-10 00:00:00') /* Cutthroat (11502) */
      , (0x714B5021, 0x714B5034, '2019-02-10 00:00:00') /* Highwayman (11503) */
-     , (0x714B5021, 0x714B5035, '2019-02-10 00:00:00') /* Highwayman (11503) */;
+     , (0x714B5021, 0x714B5035, '2019-02-10 00:00:00') /* Highwayman (11503) */
+     , (0x714B5021, 0x714B5036, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x714B5021, 0x714B5037, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */
+     , (0x714B5021, 0x714B5038, '2019-02-10 00:00:00') /* Carenzi Burrower (11492) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x714B5022, 11519, 0x14B50102, 130.898, 176.269, 22.506, 0.978656, 0, 0, -0.205507,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
@@ -127,27 +130,39 @@ VALUES (0x714B5035, 11503, 0x14B5003F, 191.45, 157.998, 21.95917, -0.9904502, 0,
 /* @teleloc 0x14B5003F [191.450000 157.998000 21.959170] -0.990450 0.000000 0.000000 -0.137871 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x714B5036,  1542, 0x14B50106, 139.141, 184.311, 19.7275, 0.993632, 0, 0, -0.112674, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x714B5036, 11531, 0x14B50001, 0.8839388, 22.72714, -0.4399999, 0.1963643, 0, 0, -0.980531,  True, '2019-02-10 00:00:00'); /* Sand Golem */
+/* @teleloc 0x14B50001 [0.883939 22.727140 -0.440000] 0.196364 0.000000 0.000000 -0.980531 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x714B5037, 11492, 0x14B50019, 90.65643, 9.080034, 0.05, 0.9863201, 0, 0, -0.1648409,  True, '2019-02-10 00:00:00'); /* Carenzi Burrower */
+/* @teleloc 0x14B50019 [90.656430 9.080034 0.050000] 0.986320 0.000000 0.000000 -0.164841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x714B5038, 11492, 0x14B50019, 88.86744, 6.098593, 0.05, 0.9863201, 0, 0, -0.1648409,  True, '2019-02-10 00:00:00'); /* Carenzi Burrower */
+/* @teleloc 0x14B50019 [88.867440 6.098593 0.050000] 0.986320 0.000000 0.000000 -0.164841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x714B5039,  1542, 0x14B50106, 139.141, 184.311, 19.7275, 0.993632, 0, 0, -0.112674, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x14B50106 [139.141000 184.311000 19.727500] 0.993632 0.000000 0.000000 -0.112674 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x714B5036, 0x714B5037, '2019-02-10 00:00:00') /* Chicken (262) */
-     , (0x714B5036, 0x714B5038, '2019-02-10 00:00:00') /* Cabbage (260) */
-     , (0x714B5036, 0x714B5039, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
-     , (0x714B5036, 0x714B503A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x714B5039, 0x714B503A, '2019-02-10 00:00:00') /* Chicken (262) */
+     , (0x714B5039, 0x714B503B, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x714B5039, 0x714B503C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x714B5039, 0x714B503D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x714B5037,   262, 0x14B50106, 139.141, 184.311, 19.7275, 0.993632, 0, 0, -0.112674,  True, '2019-02-10 00:00:00'); /* Chicken */
+VALUES (0x714B503A,   262, 0x14B50106, 139.141, 184.311, 19.7275, 0.993632, 0, 0, -0.112674,  True, '2019-02-10 00:00:00'); /* Chicken */
 /* @teleloc 0x14B50106 [139.141000 184.311000 19.727500] 0.993632 0.000000 0.000000 -0.112674 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x714B5038,   260, 0x14B50030, 124.495, 175.31, 20, -0.679684, 0, 0, 0.7335051,  True, '2019-02-10 00:00:00'); /* Cabbage */
+VALUES (0x714B503B,   260, 0x14B50030, 124.495, 175.31, 20, -0.679684, 0, 0, 0.7335051,  True, '2019-02-10 00:00:00'); /* Cabbage */
 /* @teleloc 0x14B50030 [124.495000 175.310000 20.000000] -0.679684 0.000000 0.000000 0.733505 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x714B5039,  9024, 0x14B5003F, 191.737, 159.8747, 22.03808, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */
+VALUES (0x714B503C,  9024, 0x14B5003F, 191.737, 159.8747, 22.03808, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */
 /* @teleloc 0x14B5003F [191.737000 159.874700 22.038080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x714B503A,  4179, 0x14B5003F, 191.7885, 159.8747, 21.98238, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x714B503D,  4179, 0x14B5003F, 191.7885, 159.8747, 21.98238, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x14B5003F [191.788500 159.874700 21.982380] 1.000000 0.000000 0.000000 0.000000 */

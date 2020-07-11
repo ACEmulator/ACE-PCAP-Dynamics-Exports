@@ -100,7 +100,9 @@ VALUES (0x7A9B0011, 0x7A9B0012, '2019-02-10 00:00:00') /* Young Mosswart (19262)
      , (0x7A9B0011, 0x7A9B003A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
      , (0x7A9B0011, 0x7A9B003B, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x7A9B0011, 0x7A9B003C, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
-     , (0x7A9B0011, 0x7A9B003D, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
+     , (0x7A9B0011, 0x7A9B003D, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7A9B0011, 0x7A9B003E, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7A9B0011, 0x7A9B003F, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A9B0012, 19262, 0xA9B00020, 89.56946, 174.8042, 65.86089, 0.4532407, 0, 0, -0.8913882,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -279,17 +281,25 @@ VALUES (0x7A9B003D, 19261, 0xA9B00020, 88.97058, 174.2285, 65.6618, 0.4532407, 0
 /* @teleloc 0xA9B00020 [88.970580 174.228500 65.661800] 0.453241 0.000000 0.000000 -0.891388 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B003E,  1542, 0xA9B00007, 22.31029, 147.5203, 60.93308, 0.9728708, 0, 0, -0.2313492, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7A9B003E, 19262, 0xA9B00032, 149.0669, 30.39663, 72.84888, 0.9238769, 0, 0, -0.3826899,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0xA9B00032 [149.066900 30.396630 72.848880] 0.923877 0.000000 0.000000 -0.382690 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B003F, 19262, 0xA9B0000B, 30.58827, 65.72826, 69.97802, 0.7389684, 0, 0, -0.67374,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0xA9B0000B [30.588270 65.728260 69.978020] 0.738968 0.000000 0.000000 -0.673740 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A9B0040,  1542, 0xA9B00007, 22.31029, 147.5203, 60.93308, 0.9728708, 0, 0, -0.2313492, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xA9B00007 [22.310290 147.520300 60.933080] 0.972871 0.000000 0.000000 -0.231349 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A9B003E, 0x7A9B003F, '2019-02-10 00:00:00') /* Balister of the Quiddity (9599) */
-     , (0x7A9B003E, 0x7A9B0040, '2019-02-10 00:00:00') /* Ursuin Guise (32155) */;
+VALUES (0x7A9B0040, 0x7A9B0041, '2019-02-10 00:00:00') /* Balister of the Quiddity (9599) */
+     , (0x7A9B0040, 0x7A9B0042, '2019-02-10 00:00:00') /* Ursuin Guise (32155) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B003F,  9599, 0xA9B00007, 22.31029, 147.5203, 60.93308, 0.9728708, 0, 0, -0.2313492,  True, '2019-02-10 00:00:00'); /* Balister of the Quiddity */
+VALUES (0x7A9B0041,  9599, 0xA9B00007, 22.31029, 147.5203, 60.93308, 0.9728708, 0, 0, -0.2313492,  True, '2019-02-10 00:00:00'); /* Balister of the Quiddity */
 /* @teleloc 0xA9B00007 [22.310290 147.520300 60.933080] 0.972871 0.000000 0.000000 -0.231349 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B0040, 32155, 0xA9B00007, 22.31029, 147.5203, 60.93308, 0.9728708, 0, 0, -0.2313492,  True, '2019-02-10 00:00:00'); /* Ursuin Guise */
+VALUES (0x7A9B0042, 32155, 0xA9B00007, 22.31029, 147.5203, 60.93308, 0.9728708, 0, 0, -0.2313492,  True, '2019-02-10 00:00:00'); /* Ursuin Guise */
 /* @teleloc 0xA9B00007 [22.310290 147.520300 60.933080] 0.972871 0.000000 0.000000 -0.231349 */

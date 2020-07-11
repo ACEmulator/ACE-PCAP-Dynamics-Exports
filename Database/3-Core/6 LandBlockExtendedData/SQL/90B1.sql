@@ -11,7 +11,9 @@ VALUES (0x790B1001, 0x790B1002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
      , (0x790B1001, 0x790B1005, '2019-02-10 00:00:00') /* Gold Golem (7096) */
      , (0x790B1001, 0x790B1006, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
      , (0x790B1001, 0x790B1007, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
-     , (0x790B1001, 0x790B1008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
+     , (0x790B1001, 0x790B1008, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x790B1001, 0x790B1009, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
+     , (0x790B1001, 0x790B100A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790B1002,  1628, 0x90B10034, 149.3232, 93.35022, 40.45938, -0.853659, 0, 0, -0.5208324,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -40,3 +42,11 @@ VALUES (0x790B1007, 38177, 0x90B10014, 50.51925, 75.71306, 63.89955, -0.08380935
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790B1008,  7088, 0x90B10007, 22.27364, 152.0982, 67.3323, -0.5105315, 0, 0, -0.859859,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
 /* @teleloc 0x90B10007 [22.273640 152.098200 67.332300] -0.510532 0.000000 0.000000 -0.859859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x790B1009,  7980, 0x90B1000B, 38.72156, 57.30548, 63.54686, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
+/* @teleloc 0x90B1000B [38.721560 57.305480 63.546860] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x790B100A,  7980, 0x90B1000B, 46.18511, 51.07127, 63.88948, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
+/* @teleloc 0x90B1000B [46.185110 51.071270 63.889480] 0.906308 0.000000 0.000000 -0.422618 */

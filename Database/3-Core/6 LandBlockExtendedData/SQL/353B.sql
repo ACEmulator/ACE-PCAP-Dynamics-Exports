@@ -11,7 +11,8 @@ VALUES (0x7353B001, 0x7353B002, '2019-02-10 00:00:00') /* Olthoi Mutilator (2348
      , (0x7353B001, 0x7353B005, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
      , (0x7353B001, 0x7353B006, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
      , (0x7353B001, 0x7353B007, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
-     , (0x7353B001, 0x7353B008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
+     , (0x7353B001, 0x7353B008, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7353B001, 0x7353B009, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7353B002, 23481, 0x353B0018, 63.60814, 191.7451, 233.2582, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
@@ -40,3 +41,7 @@ VALUES (0x7353B007, 23567, 0x353B0018, 67.94713, 186.8033, 232.8026, 0.9961947, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7353B008, 23567, 0x353B0018, 61.11297, 188.1503, 232.4576, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x353B0018 [61.112970 188.150300 232.457600] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7353B009, 36845, 0x353B0017, 68.51022, 154.1453, 231.9456, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
+/* @teleloc 0x353B0017 [68.510220 154.145300 231.945600] 0.923880 0.000000 0.000000 -0.382684 */

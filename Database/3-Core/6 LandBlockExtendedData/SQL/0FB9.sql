@@ -18,7 +18,8 @@ VALUES (0x70FB9001, 0x70FB9002, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) 
      , (0x70FB9001, 0x70FB900C, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
      , (0x70FB9001, 0x70FB900D, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
      , (0x70FB9001, 0x70FB900E, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
-     , (0x70FB9001, 0x70FB900F, '2019-02-10 00:00:00') /* Engorged Eater (28642) */;
+     , (0x70FB9001, 0x70FB900F, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x70FB9001, 0x70FB9010, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70FB9002, 11495, 0x0FB90013, 69.80699, 55.01036, -0.09999999, 0.859895, 0, 0, -0.5104709,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
@@ -75,3 +76,7 @@ VALUES (0x70FB900E, 11526, 0x0FB90016, 68.39386, 137.3151, -0.895, 0.8924974, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70FB900F, 28642, 0x0FB90013, 57.19004, 59.49691, -0.1, 0.859895, 0, 0, -0.5104709,  True, '2019-02-10 00:00:00'); /* Engorged Eater */
 /* @teleloc 0x0FB90013 [57.190040 59.496910 -0.100000] 0.859895 0.000000 0.000000 -0.510471 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70FB9010, 11526, 0x0FB9000C, 39.1873, 78.42902, -0.895, 0.859895, 0, 0, -0.5104709,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+/* @teleloc 0x0FB9000C [39.187300 78.429020 -0.895000] 0.859895 0.000000 0.000000 -0.510471 */

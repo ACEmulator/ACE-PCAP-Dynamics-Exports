@@ -45,7 +45,8 @@ VALUES (0x7254500F, 0x72545010, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) 
      , (0x7254500F, 0x72545031, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
      , (0x7254500F, 0x72545032, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x7254500F, 0x72545033, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
-     , (0x7254500F, 0x72545034, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
+     , (0x7254500F, 0x72545034, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7254500F, 0x72545035, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72545010,  8431, 0x25450036, 158.2059, 141.0733, 0.006500006, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -196,22 +197,26 @@ VALUES (0x72545034, 23616, 0x25450030, 140.5556, 172.6489, 0, 0.6897507, 0, 0, -
 /* @teleloc 0x25450030 [140.555600 172.648900 0.000000] 0.689751 0.000000 0.000000 -0.724047 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545035,  1542, 0x2545003B, 180.5852, 49.19463, -3.72529E-09, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x72545035, 24134, 0x25450037, 148.1838, 146.3305, 0.002300024, 0.6897507, 0, 0, -0.7240469,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
+/* @teleloc 0x25450037 [148.183800 146.330500 0.002300] 0.689751 0.000000 0.000000 -0.724047 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72545036,  1542, 0x2545003B, 180.5852, 49.19463, -3.72529E-09, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2545003B [180.585200 49.194630 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72545035, 0x72545036, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x72545035, 0x72545037, '2019-02-10 00:00:00') /* Steel Chest (8999) */
-     , (0x72545035, 0x72545038, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
+VALUES (0x72545036, 0x72545037, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x72545036, 0x72545038, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72545036, 0x72545039, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545036,  4380, 0x2545003B, 180.5852, 49.19463, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x72545037,  4380, 0x2545003B, 180.5852, 49.19463, -3.72529E-09, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x2545003B [180.585200 49.194630 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545037,  8999, 0x2545002A, 135.0119, 46.89688, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
+VALUES (0x72545038,  8999, 0x2545002A, 135.0119, 46.89688, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
 /* @teleloc 0x2545002A [135.011900 46.896880 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72545038, 11554, 0x2545003C, 188.2517, 83.78041, 0, -0.7418138, 0, 0, -0.670606,  True, '2019-02-10 00:00:00'); /* Colban Plant */
+VALUES (0x72545039, 11554, 0x2545003C, 188.2517, 83.78041, 0, -0.7418138, 0, 0, -0.670606,  True, '2019-02-10 00:00:00'); /* Colban Plant */
 /* @teleloc 0x2545003C [188.251700 83.780410 0.000000] -0.741814 0.000000 0.000000 -0.670606 */

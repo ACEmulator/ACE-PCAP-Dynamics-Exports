@@ -17,7 +17,8 @@ VALUES (0x7F623001, 0x7F623002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) 
      , (0x7F623001, 0x7F62300B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
      , (0x7F623001, 0x7F62300C, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
      , (0x7F623001, 0x7F62300D, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */
-     , (0x7F623001, 0x7F62300E, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
+     , (0x7F623001, 0x7F62300E, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F623001, 0x7F62300F, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F623002,  8431, 0xF6230012, 62.36051, 28.77147, -0.09350008, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -72,12 +73,16 @@ VALUES (0x7F62300E,  7110, 0xF6230035, 159.2044, 99.09229, -0.1, 0.7071068, 0, 0
 /* @teleloc 0xF6230035 [159.204400 99.092290 -0.100000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F62300F,  1542, 0xF623003B, 186.002, 71.33553, 0, 0.9770131, 0, 0, -0.2131792, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7F62300F,  7129, 0xF623003B, 177.582, 67.87621, 0.01499999, 0.9770131, 0, 0, -0.2131792,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
+/* @teleloc 0xF623003B [177.582000 67.876210 0.015000] 0.977013 0.000000 0.000000 -0.213179 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F623010,  1542, 0xF623003B, 186.002, 71.33553, 0, 0.9770131, 0, 0, -0.2131792, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xF623003B [186.002000 71.335530 0.000000] 0.977013 0.000000 0.000000 -0.213179 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F62300F, 0x7F623010, '2019-02-10 00:00:00') /* Nutmeg (14795) */;
+VALUES (0x7F623010, 0x7F623011, '2019-02-10 00:00:00') /* Nutmeg (14795) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F623010, 14795, 0xF623003B, 186.002, 71.33553, 0, 0.9770131, 0, 0, -0.2131792,  True, '2019-02-10 00:00:00'); /* Nutmeg */
+VALUES (0x7F623011, 14795, 0xF623003B, 186.002, 71.33553, 0, 0.9770131, 0, 0, -0.2131792,  True, '2019-02-10 00:00:00'); /* Nutmeg */
 /* @teleloc 0xF623003B [186.002000 71.335530 0.000000] 0.977013 0.000000 0.000000 -0.213179 */

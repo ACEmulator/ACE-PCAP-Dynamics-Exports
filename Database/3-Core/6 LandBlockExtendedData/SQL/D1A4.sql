@@ -22,7 +22,10 @@ VALUES (0x7D1A4001, 0x7D1A4002, '2019-02-10 00:00:00') /* Risen Soldier (8672) *
      , (0x7D1A4001, 0x7D1A4010, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
      , (0x7D1A4001, 0x7D1A4011, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
      , (0x7D1A4001, 0x7D1A4012, '2019-02-10 00:00:00') /* Risen Knight (8673) */
-     , (0x7D1A4001, 0x7D1A4013, '2019-02-10 00:00:00') /* Crystal Spur (28552) */;
+     , (0x7D1A4001, 0x7D1A4013, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7D1A4001, 0x7D1A4014, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7D1A4001, 0x7D1A4015, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D1A4001, 0x7D1A4016, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D1A4002,  8672, 0xD1A40039, 178.9399, 8.741, 0.008249998, 0.231003, 0, 0, -0.972953,  True, '2019-02-10 00:00:00'); /* Risen Soldier */
@@ -97,12 +100,24 @@ VALUES (0x7D1A4013, 28552, 0xD1A4003B, 183.2729, 70.97768, -0.01499999, -0.95708
 /* @teleloc 0xD1A4003B [183.272900 70.977680 -0.015000] -0.957086 0.000000 0.000000 -0.289805 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D1A4014,  1542, 0xD1A40039, 183.5587, 6.921542, 0, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7D1A4014,  2565, 0xD1A40033, 165.2458, 59.41521, 0.01050007, -0.9570857, 0, 0, -0.2898051,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */
+/* @teleloc 0xD1A40033 [165.245800 59.415210 0.010500] -0.957086 0.000000 0.000000 -0.289805 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D1A4015, 11531, 0xD1A40032, 162.296, 26.07497, 0.00999999, 0.231003, 0, 0, -0.972953,  True, '2019-02-10 00:00:00'); /* Sand Golem */
+/* @teleloc 0xD1A40032 [162.296000 26.074970 0.010000] 0.231003 0.000000 0.000000 -0.972953 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D1A4016,   194, 0xD1A4003B, 190.8009, 58.90041, 0.00999999, 0.9428976, 0, 0, -0.3330826,  True, '2019-02-10 00:00:00'); /* Copper Golem */
+/* @teleloc 0xD1A4003B [190.800900 58.900410 0.010000] 0.942898 0.000000 0.000000 -0.333083 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D1A4017,  1542, 0xD1A40039, 183.5587, 6.921542, 0, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD1A40039 [183.558700 6.921542 0.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D1A4014, 0x7D1A4015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7D1A4017, 0x7D1A4018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D1A4015,  4179, 0xD1A40039, 183.5587, 6.921542, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7D1A4018,  4179, 0xD1A40039, 183.5587, 6.921542, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xD1A40039 [183.558700 6.921542 0.000000] 0.999048 0.000000 0.000000 -0.043619 */

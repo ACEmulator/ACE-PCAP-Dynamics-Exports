@@ -68,7 +68,8 @@ VALUES (0x7E64B00E, 0x7E64B00F, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x7E64B00E, 0x7E64B013, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
      , (0x7E64B00E, 0x7E64B014, '2019-02-10 00:00:00') /* Limestone Golem (198) */
      , (0x7E64B00E, 0x7E64B015, '2019-02-10 00:00:00') /* Shadow Child (1756) */
-     , (0x7E64B00E, 0x7E64B016, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
+     , (0x7E64B00E, 0x7E64B016, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7E64B00E, 0x7E64B017, '2019-02-10 00:00:00') /* Dark Wisp (1988) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E64B00F,   218, 0xE64B0023, 97.20261, 64.32051, 32.10862, 0.2913576, 0, 0, -0.9566142,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -101,3 +102,7 @@ VALUES (0x7E64B015,  1756, 0xE64B001C, 94.50677, 76.381, 32.0025, 0.2913576, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E64B016,  8010, 0xE64B0023, 110.5846, 56.37877, 33.20038, 0.2913576, 0, 0, -0.9566142,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
 /* @teleloc 0xE64B0023 [110.584600 56.378770 33.200380] 0.291358 0.000000 0.000000 -0.956614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E64B017,  1988, 0xE64B0024, 107.431, 82.60091, 32, 0.2913576, 0, 0, -0.9566142,  True, '2019-02-10 00:00:00'); /* Dark Wisp */
+/* @teleloc 0xE64B0024 [107.431000 82.600910 32.000000] 0.291358 0.000000 0.000000 -0.956614 */

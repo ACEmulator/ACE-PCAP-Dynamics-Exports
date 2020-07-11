@@ -403,7 +403,9 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7596B07E, 0x7596B07F, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7596B07E, 0x7596B080, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7596B07E, 0x7596B081, '2019-02-10 00:00:00') /* Durable Legendary Key (51954) */
-     , (0x7596B07E, 0x7596B082, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */;
+     , (0x7596B07E, 0x7596B082, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7596B07E, 0x7596B083, '2019-02-10 00:00:00') /* Evader's Crystal (30228) */
+     , (0x7596B07E, 0x7596B084, '2019-02-10 00:00:00') /* Pearl of Frost Baning (30207) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7596B07F,  1955, 0x596B0107, 109.5198, -9.790431, -0.06299996, -0.7261786, 0, 0, -0.6875061,  True, '2019-02-10 00:00:00'); /* Gateway */
@@ -420,3 +422,11 @@ VALUES (0x7596B081, 51954, 0x596B0100, 104.2819, 0.8386715, 0.024, 0.6151903, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7596B082, 48746, 0x596B0100, 104.2819, 0.8386715, 0.024, 0.6151903, 0, 0, -0.7883787,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0x596B0100 [104.281900 0.838672 0.024000] 0.615190 0.000000 0.000000 -0.788379 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7596B083, 30228, 0x596B0100, 103.5287, -4.78795, -0.001000002, -0.9499995, 0, 0, -0.3122514,  True, '2019-02-10 00:00:00'); /* Evader's Crystal */
+/* @teleloc 0x596B0100 [103.528700 -4.787950 -0.001000] -0.950000 0.000000 0.000000 -0.312251 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7596B084, 30207, 0x596B0100, 104.3064, -4.072242, -0.001000002, -0.9184439, 0, 0, -0.3955514,  True, '2019-02-10 00:00:00'); /* Pearl of Frost Baning */
+/* @teleloc 0x596B0100 [104.306400 -4.072242 -0.001000] -0.918444 0.000000 0.000000 -0.395551 */

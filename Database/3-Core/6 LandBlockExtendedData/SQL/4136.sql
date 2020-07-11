@@ -12,7 +12,11 @@ VALUES (0x74136001, 0x74136002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
      , (0x74136001, 0x74136006, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
      , (0x74136001, 0x74136007, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
      , (0x74136001, 0x74136008, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
-     , (0x74136001, 0x74136009, '2019-02-10 00:00:00') /* Dark Master (24319) */;
+     , (0x74136001, 0x74136009, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74136001, 0x7413600A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74136001, 0x7413600B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74136001, 0x7413600C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74136001, 0x7413600D, '2019-02-10 00:00:00') /* Firestorm (7092) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74136002,  7126, 0x41360030, 142.9222, 183.4567, 11.38448, -0.3004845, 0, 0, -0.9537867,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -45,3 +49,19 @@ VALUES (0x74136008,  4254, 0x41360035, 157.1326, 112.4128, 2.63627, -0.9526616, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74136009, 24319, 0x4136003C, 176.199, 93.53796, 1.325001, 0.330005, 0, 0, -0.9439791,  True, '2019-02-10 00:00:00'); /* Dark Master */
 /* @teleloc 0x4136003C [176.199000 93.537960 1.325001] 0.330005 0.000000 0.000000 -0.943979 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7413600A, 24497, 0x41360034, 167.3431, 92.26514, 2.174221, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x41360034 [167.343100 92.265140 2.174221] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7413600B,  8431, 0x4136003C, 171.6808, 94.64967, 1.699765, 0.330005, 0, 0, -0.9439791,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x4136003C [171.680800 94.649670 1.699765] 0.330005 0.000000 0.000000 -0.943979 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7413600C, 24497, 0x4136003D, 170.1352, 102.837, 1.832065, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x4136003D [170.135200 102.837000 1.832065] -0.766044 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7413600D,  7092, 0x41360038, 157.9983, 173.1993, 4.942198, -0.3004845, 0, 0, -0.9537867,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0x41360038 [157.998300 173.199300 4.942198] -0.300485 0.000000 0.000000 -0.953787 */

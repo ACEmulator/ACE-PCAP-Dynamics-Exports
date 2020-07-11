@@ -20,7 +20,10 @@ VALUES (0x796EB001, 0x796EB002, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
      , (0x796EB001, 0x796EB00E, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
      , (0x796EB001, 0x796EB00F, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x796EB001, 0x796EB010, '2019-02-10 00:00:00') /* Frost (14512) */
-     , (0x796EB001, 0x796EB011, '2019-02-10 00:00:00') /* Frost (14512) */;
+     , (0x796EB001, 0x796EB011, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x796EB001, 0x796EB012, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EB001, 0x796EB013, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x796EB001, 0x796EB014, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796EB002,  7780, 0x96EB0027, 105.3636, 159.9969, 22.6702, -0.1498897, 0, 0, -0.9887027,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
@@ -85,3 +88,15 @@ VALUES (0x796EB010, 14512, 0x96EB002C, 120.6522, 82.34594, 32.007, 0.9785355, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796EB011, 14512, 0x96EB002B, 137.8827, 67.89072, 32.34944, 0.9785355, 0, 0, -0.2060785,  True, '2019-02-10 00:00:00'); /* Frost */
 /* @teleloc 0x96EB002B [137.882700 67.890720 32.349440] 0.978536 0.000000 0.000000 -0.206079 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796EB012,  1610, 0x96EB0002, 3.089195, 46.60226, 32.00455, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
+/* @teleloc 0x96EB0002 [3.089195 46.602260 32.004550] 0.843391 0.000000 0.000000 -0.537300 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796EB013,  1610, 0x96EB0002, 0.4842722, 44.0072, 32.00455, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
+/* @teleloc 0x96EB0002 [0.484272 44.007200 32.004550] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796EB014, 14800, 0x96EB0002, 1.84331, 27.95192, 32.01, 0.5539115, 0, 0, -0.8325756,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
+/* @teleloc 0x96EB0002 [1.843310 27.951920 32.010000] 0.553912 0.000000 0.000000 -0.832576 */

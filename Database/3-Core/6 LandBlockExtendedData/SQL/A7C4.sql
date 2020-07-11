@@ -36,8 +36,13 @@ VALUES (0x7A7C4007,  1542, 0xA7C4001F, 95.43545, 158.2759, 284.0894, 1, 0, 0, 0,
 /* @teleloc 0xA7C4001F [95.435450 158.275900 284.089400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A7C4007, 0x7A7C4008, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
+VALUES (0x7A7C4007, 0x7A7C4008, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7A7C4007, 0x7A7C4009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A7C4008, 22570, 0xA7C4001F, 95.43545, 158.2759, 284.0894, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xA7C4001F [95.435450 158.275900 284.089400] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A7C4009,  8037, 0xA7C4003B, 179.3024, 50.11991, 201.2925, -0.9646009, 0, 0, -0.2637142,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+/* @teleloc 0xA7C4003B [179.302400 50.119910 201.292500] -0.964601 0.000000 0.000000 -0.263714 */

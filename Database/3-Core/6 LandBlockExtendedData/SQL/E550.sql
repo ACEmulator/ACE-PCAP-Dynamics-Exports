@@ -13,7 +13,10 @@ VALUES (0x7E550001, 0x7E550002, '2019-02-10 00:00:00') /* Shallows Shark (2577) 
      , (0x7E550001, 0x7E550007, '2019-02-10 00:00:00') /* Water Golem (941) */
      , (0x7E550001, 0x7E550008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
      , (0x7E550001, 0x7E550009, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
-     , (0x7E550001, 0x7E55000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
+     , (0x7E550001, 0x7E55000A, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7E550001, 0x7E55000B, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E550001, 0x7E55000C, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7E550001, 0x7E55000D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E550002,  2577, 0xE550002C, 142.775, 94.99268, -0.8989001, -0.8703763, 0, 0, -0.4923871,  True, '2019-02-10 00:00:00'); /* Shallows Shark */
@@ -50,3 +53,15 @@ VALUES (0x7E550009,   215, 0xE550002B, 137.3472, 67.60384, -0.438, -0.8703763, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E55000A,   215, 0xE550002C, 126.9696, 77.67618, -0.888, -0.8703763, 0, 0, -0.4923871,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
 /* @teleloc 0xE550002C [126.969600 77.676180 -0.888000] -0.870376 0.000000 0.000000 -0.492387 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E55000B,  1612, 0xE5500034, 150.9871, 93.15255, -0.8954999, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
+/* @teleloc 0xE5500034 [150.987100 93.152550 -0.895500] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E55000C,  1612, 0xE5500034, 148.2427, 92.46852, -0.8954999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
+/* @teleloc 0xE5500034 [148.242700 92.468520 -0.895500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E55000D,   215, 0xE550002C, 133.2097, 90.32719, -0.888, -0.8703763, 0, 0, -0.4923871,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
+/* @teleloc 0xE550002C [133.209700 90.327190 -0.888000] -0.870376 0.000000 0.000000 -0.492387 */

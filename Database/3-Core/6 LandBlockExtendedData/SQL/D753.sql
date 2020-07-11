@@ -32,7 +32,9 @@ VALUES (0x7D753003, 0x7D753004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) *
      , (0x7D753003, 0x7D753010, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7D753003, 0x7D753011, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
      , (0x7D753003, 0x7D753012, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
-     , (0x7D753003, 0x7D753013, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7D753003, 0x7D753013, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D753003, 0x7D753014, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D753003, 0x7D753015, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D753004,   940, 0xD7530102, 83.2198, 175.252, 34.5042, -0.9591473, 0, 0, 0.2829071,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
@@ -97,3 +99,11 @@ VALUES (0x7D753012, 19262, 0xD7530003, 15.30705, 64.11658, 32.66135, -0.9960474,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D753013, 24937, 0xD753000F, 41.64318, 159.6735, 31.29812, -0.9746006, 0, 0, -0.22395,  True, '2019-02-10 00:00:00'); /* Chicken */
 /* @teleloc 0xD753000F [41.643180 159.673500 31.298120] -0.974601 0.000000 0.000000 -0.223950 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D753014, 19261, 0xD7530011, 54.0678, 17.53107, 32.00495, -0.6413257, 0, 0, -0.7672688,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
+/* @teleloc 0xD7530011 [54.067800 17.531070 32.004950] -0.641326 0.000000 0.000000 -0.767269 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D753015, 19261, 0xD753002A, 139.6466, 30.60813, 33.45427, -0.576165, 0, 0, -0.8173334,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
+/* @teleloc 0xD753002A [139.646600 30.608130 33.454270] -0.576165 0.000000 0.000000 -0.817333 */

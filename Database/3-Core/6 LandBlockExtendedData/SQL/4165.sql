@@ -29,7 +29,10 @@ VALUES (0x74165001, 0x74165002, '2019-02-10 00:00:00') /* Crystal Shard (23616) 
      , (0x74165001, 0x74165017, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
      , (0x74165001, 0x74165018, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
      , (0x74165001, 0x74165019, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
-     , (0x74165001, 0x7416501A, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */;
+     , (0x74165001, 0x7416501A, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x74165001, 0x7416501B, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x74165001, 0x7416501C, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x74165001, 0x7416501D, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74165002, 23616, 0x41650006, 20.07271, 132.0196, 20.31073, 0.9309475, 0, 0, -0.365153,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -132,12 +135,24 @@ VALUES (0x7416501A, 25662, 0x4165003F, 169.8652, 148.7136, 2.824651, 0.9531607, 
 /* @teleloc 0x4165003F [169.865200 148.713600 2.824651] 0.953161 0.000000 0.000000 -0.302464 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7416501B,  1542, 0x4165002D, 138.6521, 109.8346, 11.63182, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7416501B, 41535, 0x41650040, 172.3304, 171.509, 1.469564, 0.9531607, 0, 0, -0.3024643,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x41650040 [172.330400 171.509000 1.469564] 0.953161 0.000000 0.000000 -0.302464 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7416501C, 41532, 0x41650040, 172.6492, 173.7049, 1.944653, 0.9531607, 0, 0, -0.3024643,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Phalanx */
+/* @teleloc 0x41650040 [172.649200 173.704900 1.944653] 0.953161 0.000000 0.000000 -0.302464 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7416501D, 41533, 0x41650038, 166.7556, 177.5853, 0.007500112, 0.9531607, 0, 0, -0.3024643,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
+/* @teleloc 0x41650038 [166.755600 177.585300 0.007500] 0.953161 0.000000 0.000000 -0.302464 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7416501E,  1542, 0x4165002D, 138.6521, 109.8346, 11.63182, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x4165002D [138.652100 109.834600 11.631820] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7416501B, 0x7416501C, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
+VALUES (0x7416501E, 0x7416501F, '2019-02-10 00:00:00') /* Steel Chest (8999) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7416501C,  8999, 0x4165002D, 138.6521, 109.8346, 11.63182, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
+VALUES (0x7416501F,  8999, 0x4165002D, 138.6521, 109.8346, 11.63182, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
 /* @teleloc 0x4165002D [138.652100 109.834600 11.631820] 1.000000 0.000000 0.000000 0.000000 */

@@ -99,3 +99,14 @@ VALUES (0x78179020,  1764, 0x81790019, 95.9438, 16.3221, 12.006, 0.263029, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78179021,   950, 0x81790025, 106.9499, 107.2716, 16.9804, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Zombie */
 /* @teleloc 0x81790025 [106.949900 107.271600 16.980400] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78179022,  1542, 0x81790025, 107.9071, 109.5085, 16.9804, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x81790025 [107.907100 109.508500 16.980400] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x78179022, 0x78179023, '2019-02-10 00:00:00') /* Corpse (4180) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78179023,  4180, 0x81790025, 107.9071, 109.5085, 16.9804, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+/* @teleloc 0x81790025 [107.907100 109.508500 16.980400] 0.923880 0.000000 0.000000 -0.382684 */

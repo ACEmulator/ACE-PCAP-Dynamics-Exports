@@ -24,7 +24,14 @@ VALUES (0x72E50001, 0x72E50002, '2019-02-10 00:00:00') /* Bile Grievver (22900) 
      , (0x72E50001, 0x72E50012, '2019-02-10 00:00:00') /* Shadow-touched Virindi Paradox (36553) */
      , (0x72E50001, 0x72E50013, '2019-02-10 00:00:00') /* Virindi Paradox (23570) */
      , (0x72E50001, 0x72E50014, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
-     , (0x72E50001, 0x72E50015, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
+     , (0x72E50001, 0x72E50015, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72E50001, 0x72E50016, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72E50001, 0x72E50017, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72E50001, 0x72E50018, '2019-02-10 00:00:00') /* Virindi Quidiox (23571) */
+     , (0x72E50001, 0x72E50019, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */
+     , (0x72E50001, 0x72E5001A, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72E50001, 0x72E5001B, '2019-02-10 00:00:00') /* Olthoi Primordial (22902) */
+     , (0x72E50001, 0x72E5001C, '2019-02-10 00:00:00') /* Olthoi Sentinel (25341) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E50002, 22900, 0x2E500003, 3.97716, 68.64884, 0.0497669, 0.808261, 0, 0, -0.5888244,  True, '2019-02-10 00:00:00'); /* Bile Grievver */
@@ -105,3 +112,42 @@ VALUES (0x72E50014, 36554, 0x2E500020, 93.95741, 187.2448, 0.9917589, 0.4649359,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E50015, 22899, 0x2E50002C, 125.8848, 77.71247, 77.06683, 0.8703749, 0, 0, -0.4923896,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
 /* @teleloc 0x2E50002C [125.884800 77.712470 77.066830] 0.870375 0.000000 0.000000 -0.492390 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E50016, 23571, 0x2E500003, 1.462429, 65.99197, 0.02899998, 0.808261, 0, 0, -0.5888244,  True, '2019-02-10 00:00:00'); /* Virindi Quidiox */
+/* @teleloc 0x2E500003 [1.462429 65.991970 0.029000] 0.808261 0.000000 0.000000 -0.588824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E50017, 23571, 0x2E500003, 3.42917, 63.50291, 0.02899998, 0.808261, 0, 0, -0.5888244,  True, '2019-02-10 00:00:00'); /* Virindi Quidiox */
+/* @teleloc 0x2E500003 [3.429170 63.502910 0.029000] 0.808261 0.000000 0.000000 -0.588824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E50018, 23571, 0x2E500003, 1.549417, 60.85844, 0.02899998, 0.808261, 0, 0, -0.5888244,  True, '2019-02-10 00:00:00'); /* Virindi Quidiox */
+/* @teleloc 0x2E500003 [1.549417 60.858440 0.029000] 0.808261 0.000000 0.000000 -0.588824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E50019, 25341, 0x2E500012, 68.59682, 30.43209, 4.391238, -0.9641915, 0, 0, -0.2652071,  True, '2019-02-10 00:00:00'); /* Olthoi Sentinel */
+/* @teleloc 0x2E500012 [68.596820 30.432090 4.391238] -0.964192 0.000000 0.000000 -0.265207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E5001A, 22902, 0x2E500012, 65.57399, 37.6104, 7.130298, -0.9641915, 0, 0, -0.2652071,  True, '2019-02-10 00:00:00'); /* Olthoi Primordial */
+/* @teleloc 0x2E500012 [65.573990 37.610400 7.130298] -0.964192 0.000000 0.000000 -0.265207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E5001B, 22902, 0x2E500012, 62.48562, 31.49463, 4.324699, -0.9641915, 0, 0, -0.2652071,  True, '2019-02-10 00:00:00'); /* Olthoi Primordial */
+/* @teleloc 0x2E500012 [62.485620 31.494630 4.324699] -0.964192 0.000000 0.000000 -0.265207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E5001C, 25341, 0x2E500012, 68.02293, 32.84889, 5.350414, -0.9641915, 0, 0, -0.2652071,  True, '2019-02-10 00:00:00'); /* Olthoi Sentinel */
+/* @teleloc 0x2E500012 [68.022930 32.848890 5.350414] -0.964192 0.000000 0.000000 -0.265207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E5001D,  1542, 0x2E50002C, 129.6173, 80.99247, 77.00797, 0.8703749, 0, 0, -0.4923896, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x2E50002C [129.617300 80.992470 77.007970] 0.870375 0.000000 0.000000 -0.492390 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x72E5001D, 0x72E5001E, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E5001E, 34572, 0x2E50002C, 129.6173, 80.99247, 77.00797, 0.8703749, 0, 0, -0.4923896,  True, '2019-02-10 00:00:00'); /* Shadowy Statue of the Hopeslayer */
+/* @teleloc 0x2E50002C [129.617300 80.992470 77.007970] 0.870375 0.000000 0.000000 -0.492390 */

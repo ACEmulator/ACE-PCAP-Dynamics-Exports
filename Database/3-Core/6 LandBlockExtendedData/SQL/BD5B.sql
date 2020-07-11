@@ -15,7 +15,8 @@ VALUES (0x7BD5B001, 0x7BD5B002, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) 
      , (0x7BD5B001, 0x7BD5B009, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7BD5B001, 0x7BD5B00A, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7BD5B001, 0x7BD5B00B, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
-     , (0x7BD5B001, 0x7BD5B00C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
+     , (0x7BD5B001, 0x7BD5B00C, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
+     , (0x7BD5B001, 0x7BD5B00D, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD5B002,    12, 0xBD5B0004, 22.42743, 83.99017, 6.012, 0.9997717, 0, 0, -0.02136568,  True, '2019-02-10 00:00:00'); /* Red Phyntos Wasp */
@@ -60,3 +61,7 @@ VALUES (0x7BD5B00B,  1614, 0xBD5B000D, 28.33718, 108.4897, 6.0045, 0.9997717, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD5B00C,     8, 0xBD5B003A, 190.3885, 27.24036, 6.00495, -0.6725006, 0, 0, -0.7400966,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
 /* @teleloc 0xBD5B003A [190.388500 27.240360 6.004950] -0.672501 0.000000 0.000000 -0.740097 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BD5B00D,  1614, 0xBD5B0005, 21.52978, 103.5265, 6.0045, 0.9997717, 0, 0, -0.02136568,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */
+/* @teleloc 0xBD5B0005 [21.529780 103.526500 6.004500] 0.999772 0.000000 0.000000 -0.021366 */

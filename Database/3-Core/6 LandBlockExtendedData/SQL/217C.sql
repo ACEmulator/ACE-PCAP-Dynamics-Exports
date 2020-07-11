@@ -12,7 +12,9 @@ VALUES (0x7217C001, 0x7217C002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
      , (0x7217C001, 0x7217C006, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
      , (0x7217C001, 0x7217C007, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
      , (0x7217C001, 0x7217C008, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
-     , (0x7217C001, 0x7217C009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
+     , (0x7217C001, 0x7217C009, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x7217C001, 0x7217C00A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7217C001, 0x7217C00B, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217C002, 36832, 0x217C0037, 153.2068, 156.3824, 105.5711, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -45,3 +47,11 @@ VALUES (0x7217C008, 24279, 0x217C0012, 65.10389, 44.64848, 96.00333, 0.2588191, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217C009, 23564, 0x217C0019, 90.96218, 10.66047, 83.55849, -0.3429781, 0, 0, -0.9393434,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
 /* @teleloc 0x217C0019 [90.962180 10.660470 83.558490] -0.342978 0.000000 0.000000 -0.939343 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7217C00A, 36829, 0x217C0029, 129.3869, 8.960404, 75.28792, -0.3429781, 0, 0, -0.9393434,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x217C0029 [129.386900 8.960404 75.287920] -0.342978 0.000000 0.000000 -0.939343 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7217C00B, 36832, 0x217C003E, 176.2554, 143.4288, 92.94009, 0.8050842, 0, 0, -0.5931605,  True, '2019-02-10 00:00:00'); /* Gold Golem */
+/* @teleloc 0x217C003E [176.255400 143.428800 92.940090] 0.805084 0.000000 0.000000 -0.593161 */

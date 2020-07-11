@@ -31,7 +31,10 @@ VALUES (0x7A673001, 0x7A673002, '2019-02-10 00:00:00') /* Granite Golem (195) */
      , (0x7A673001, 0x7A673019, '2019-02-10 00:00:00') /* Risen Knight (8673) */
      , (0x7A673001, 0x7A67301A, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
      , (0x7A673001, 0x7A67301B, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
-     , (0x7A673001, 0x7A67301C, '2019-02-10 00:00:00') /* Rough Monouga (2574) */;
+     , (0x7A673001, 0x7A67301C, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x7A673001, 0x7A67301D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A673001, 0x7A67301E, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x7A673001, 0x7A67301F, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A673002,   195, 0xA673003D, 170.3665, 102.4027, 28.011, -0.2529283, 0, 0, -0.967485,  True, '2019-02-10 00:00:00'); /* Granite Golem */
@@ -142,27 +145,39 @@ VALUES (0x7A67301C,  2574, 0xA6730016, 48.07109, 132.0426, 29.991, 0.7071068, 0,
 /* @teleloc 0xA6730016 [48.071090 132.042600 29.991000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A67301D,  1542, 0xA6730009, 43.95514, 7.910966, 26, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7A67301D,   217, 0xA6730009, 32.8017, 22.48797, 24.87248, 0.8285505, 0, 0, -0.5599144,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0xA6730009 [32.801700 22.487970 24.872480] 0.828551 0.000000 0.000000 -0.559914 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A67301E,   217, 0xA673000A, 24.61046, 25.20523, 24.11344, 0.8285505, 0, 0, -0.5599144,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0xA673000A [24.610460 25.205230 24.113440] 0.828551 0.000000 0.000000 -0.559914 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A67301F,   217, 0xA673000A, 27.14165, 30.60798, 24.56367, 0.8285505, 0, 0, -0.5599144,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0xA673000A [27.141650 30.607980 24.563670] 0.828551 0.000000 0.000000 -0.559914 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A673020,  1542, 0xA6730009, 43.95514, 7.910966, 26, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xA6730009 [43.955140 7.910966 26.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A67301D, 0x7A67301E, '2019-02-10 00:00:00') /* Runed Chest (22576) */
-     , (0x7A67301D, 0x7A67301F, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x7A67301D, 0x7A673020, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7A67301D, 0x7A673021, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x7A673020, 0x7A673021, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7A673020, 0x7A673022, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A673020, 0x7A673023, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A673020, 0x7A673024, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A67301E, 22576, 0xA6730009, 43.95514, 7.910966, 26, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7A673021, 22576, 0xA6730009, 43.95514, 7.910966, 26, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xA6730009 [43.955140 7.910966 26.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A67301F,  4380, 0xA673001C, 90.49021, 78.3754, 30.53128, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7A673022,  4380, 0xA673001C, 90.49021, 78.3754, 30.53128, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xA673001C [90.490210 78.375400 30.531280] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A673020,  4179, 0xA673000E, 46.16487, 130.0211, 29.84707, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7A673023,  4179, 0xA673000E, 46.16487, 130.0211, 29.84707, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xA673000E [46.164870 130.021100 29.847070] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A673021,  8037, 0xA6730016, 55.98867, 136.1986, 30, 0.9693494, 0, 0, -0.245686,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7A673024,  8037, 0xA6730016, 55.98867, 136.1986, 30, 0.9693494, 0, 0, -0.245686,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xA6730016 [55.988670 136.198600 30.000000] 0.969349 0.000000 0.000000 -0.245686 */

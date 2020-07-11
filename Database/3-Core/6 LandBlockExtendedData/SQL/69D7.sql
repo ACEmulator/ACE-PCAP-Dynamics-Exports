@@ -18,7 +18,8 @@ VALUES (0x769D7002, 0x769D7003, '2019-02-10 00:00:00') /* Pugnacious Monouga (36
      , (0x769D7002, 0x769D7005, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
      , (0x769D7002, 0x769D7006, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
      , (0x769D7002, 0x769D7007, '2019-02-10 00:00:00') /* Extas Raider (8138) */
-     , (0x769D7002, 0x769D7008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
+     , (0x769D7002, 0x769D7008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x769D7002, 0x769D7009, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769D7003, 36844, 0x69D7001B, 72.9975, 67.51281, 227.2868, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -43,3 +44,7 @@ VALUES (0x769D7007,  8138, 0x69D70040, 186.0251, 170.0921, 243.0058, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769D7008, 24497, 0x69D7001B, 76.03049, 69.03034, 232.0099, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x69D7001B [76.030490 69.030340 232.009900] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x769D7009,  8138, 0x69D7001C, 75.58643, 78.81513, 230.9093, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Extas Raider */
+/* @teleloc 0x69D7001C [75.586430 78.815130 230.909300] 1.000000 0.000000 0.000000 0.000000 */

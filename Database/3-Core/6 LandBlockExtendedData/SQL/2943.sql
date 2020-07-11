@@ -13,7 +13,8 @@ VALUES (0x72943001, 0x72943002, '2019-02-10 00:00:00') /* Inferno (5712) */
      , (0x72943001, 0x72943007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x72943001, 0x72943008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x72943001, 0x72943009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72943001, 0x7294300A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
+     , (0x72943001, 0x7294300A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72943001, 0x7294300B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72943002,  5712, 0x2943003E, 178.5524, 122.2708, 6.130931, -0.6506566, 0, 0, -0.7593721,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -52,17 +53,26 @@ VALUES (0x7294300A, 23616, 0x2943002B, 134.5435, 53.41876, 20.90313, -0.5980932,
 /* @teleloc 0x2943002B [134.543500 53.418760 20.903130] -0.598093 0.000000 0.000000 -0.801427 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7294300B,  1542, 0x2943002A, 128.4463, 47.85837, 20.0018, -0.5980932, 0, 0, -0.8014266, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7294300B, 24497, 0x2943003E, 182.3169, 132.8813, 6.238694, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x2943003E [182.316900 132.881300 6.238694] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294300C,  1542, 0x2943002A, 128.4463, 47.85837, 20.0018, -0.5980932, 0, 0, -0.8014266, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2943002A [128.446300 47.858370 20.001800] -0.598093 0.000000 0.000000 -0.801427 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7294300B, 0x7294300C, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
-     , (0x7294300B, 0x7294300D, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x7294300C, 0x7294300D, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x7294300C, 0x7294300E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7294300C, 0x7294300F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7294300C,  9288, 0x2943002A, 128.4463, 47.85837, 20.0018, -0.5980932, 0, 0, -0.8014266,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x7294300D,  9288, 0x2943002A, 128.4463, 47.85837, 20.0018, -0.5980932, 0, 0, -0.8014266,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x2943002A [128.446300 47.858370 20.001800] -0.598093 0.000000 0.000000 -0.801427 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7294300D,  4380, 0x2943003E, 170.9803, 130.3088, 6.238694, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7294300E,  4380, 0x2943003E, 170.9803, 130.3088, 6.238694, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x2943003E [170.980300 130.308800 6.238694] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294300F, 22571, 0x2943003E, 189.1643, 134.0107, 3.093459, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+/* @teleloc 0x2943003E [189.164300 134.010700 3.093459] 1.000000 0.000000 0.000000 0.000000 */

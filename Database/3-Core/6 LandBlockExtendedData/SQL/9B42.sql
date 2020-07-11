@@ -21,7 +21,9 @@ VALUES (0x79B42001, 0x79B42002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollo
      , (0x79B42001, 0x79B4200F, '2019-02-10 00:00:00') /* Virindi Master (237) */
      , (0x79B42001, 0x79B42010, '2019-02-10 00:00:00') /* Lich Lord (1630) */
      , (0x79B42001, 0x79B42011, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
-     , (0x79B42001, 0x79B42012, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
+     , (0x79B42001, 0x79B42012, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x79B42001, 0x79B42013, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x79B42001, 0x79B42014, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B42002, 38179, 0x9B42003C, 179.1221, 84.88483, 116.2951, -0.2354484, 0, 0, -0.9718869,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
@@ -92,17 +94,25 @@ VALUES (0x79B42012,  9257, 0x9B420018, 64.59907, 174.4372, 113.7756, -0.7660444,
 /* @teleloc 0x9B420018 [64.599070 174.437200 113.775600] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B42013,  1542, 0x9B420032, 157.3095, 28.88234, 109.937, 0.8433914, 0, 0, -0.5372996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79B42013,  1630, 0x9B420019, 81.41027, 13.03285, 104.4025, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+/* @teleloc 0x9B420019 [81.410270 13.032850 104.402500] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79B42014,  1630, 0x9B420019, 84.20926, 10.46269, 104.6929, 0.976296, 0, 0, -0.2164396,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+/* @teleloc 0x9B420019 [84.209260 10.462690 104.692900] 0.976296 0.000000 0.000000 -0.216440 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79B42015,  1542, 0x9B420032, 157.3095, 28.88234, 109.937, 0.8433914, 0, 0, -0.5372996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9B420032 [157.309500 28.882340 109.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B42013, 0x79B42014, '2019-02-10 00:00:00') /* The Floating City (8190) */
-     , (0x79B42013, 0x79B42015, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
+VALUES (0x79B42015, 0x79B42016, '2019-02-10 00:00:00') /* The Floating City (8190) */
+     , (0x79B42015, 0x79B42017, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B42014,  8190, 0x9B420032, 157.3095, 28.88234, 109.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */
+VALUES (0x79B42016,  8190, 0x9B420032, 157.3095, 28.88234, 109.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */
 /* @teleloc 0x9B420032 [157.309500 28.882340 109.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B42015,  9286, 0x9B42001B, 75.55769, 62.59418, 108.7188, 0.9142376, 0, 0, -0.4051785,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
+VALUES (0x79B42017,  9286, 0x9B42001B, 75.55769, 62.59418, 108.7188, 0.9142376, 0, 0, -0.4051785,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
 /* @teleloc 0x9B42001B [75.557690 62.594180 108.718800] 0.914238 0.000000 0.000000 -0.405179 */

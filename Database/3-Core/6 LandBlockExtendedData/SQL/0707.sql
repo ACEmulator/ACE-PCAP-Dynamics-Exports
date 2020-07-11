@@ -55,7 +55,11 @@ VALUES (0x70707001, 0x70707002, '2019-02-10 00:00:00') /* Mangy Carenzi (25850) 
      , (0x70707001, 0x70707031, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
      , (0x70707001, 0x70707032, '2019-02-10 00:00:00') /* Mangy Carenzi (25850) */
      , (0x70707001, 0x70707033, '2019-02-10 00:00:00') /* Misshapen Mite (25870) */
-     , (0x70707001, 0x70707034, '2019-02-10 00:00:00') /* Mutated Mite (25872) */;
+     , (0x70707001, 0x70707034, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
+     , (0x70707001, 0x70707035, '2019-02-10 00:00:00') /* Infested Rat (25878) */
+     , (0x70707001, 0x70707036, '2019-02-10 00:00:00') /* Infested Rat (25878) */
+     , (0x70707001, 0x70707037, '2019-02-10 00:00:00') /* Infested Rat (25878) */
+     , (0x70707001, 0x70707038, '2019-02-10 00:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70707002, 25850, 0x07070032, 151.383, 24.33794, 68, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mangy Carenzi */
@@ -260,3 +264,19 @@ VALUES (0x70707033, 25870, 0x07070021, 115.5352, 14.71708, 25.74266, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70707034, 25872, 0x07070021, 116.2093, 14.83416, 25.97913, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mutated Mite */
 /* @teleloc 0x07070021 [116.209300 14.834160 25.979130] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70707035, 25878, 0x07070032, 160.2552, 27.41411, 68.012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infested Rat */
+/* @teleloc 0x07070032 [160.255200 27.414110 68.012000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70707036, 25878, 0x07070032, 158.664, 36.70126, 67.73155, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infested Rat */
+/* @teleloc 0x07070032 [158.664000 36.701260 67.731550] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70707037, 25878, 0x0707002A, 143.1054, 27.49654, 68.012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infested Rat */
+/* @teleloc 0x0707002A [143.105400 27.496540 68.012000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70707038, 25878, 0x07070022, 96.3942, 25.08914, 21.23253, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infested Rat */
+/* @teleloc 0x07070022 [96.394200 25.089140 21.232530] 1.000000 0.000000 0.000000 0.000000 */

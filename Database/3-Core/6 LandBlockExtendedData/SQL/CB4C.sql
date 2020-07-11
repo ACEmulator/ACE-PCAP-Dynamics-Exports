@@ -11,7 +11,10 @@ VALUES (0x7CB4C001, 0x7CB4C002, '2019-02-10 00:00:00') /* Lithos Lugian (206) */
      , (0x7CB4C001, 0x7CB4C005, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
      , (0x7CB4C001, 0x7CB4C006, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
      , (0x7CB4C001, 0x7CB4C007, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
-     , (0x7CB4C001, 0x7CB4C008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
+     , (0x7CB4C001, 0x7CB4C008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7CB4C001, 0x7CB4C009, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7CB4C001, 0x7CB4C00A, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
+     , (0x7CB4C001, 0x7CB4C00B, '2019-02-10 00:00:00') /* Magma Golem (6645) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB4C002,   206, 0xCB4C0032, 166.1055, 42.25651, 244, -0.6597472, 0, 0, -0.7514876,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */
@@ -40,3 +43,15 @@ VALUES (0x7CB4C007, 24942, 0xCB4C0006, 14.47499, 120.0844, 30.03264, 0.2588191, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CB4C008, 24940, 0xCB4C0005, 5.133765, 111.5556, 29.12866, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
 /* @teleloc 0xCB4C0005 [5.133765 111.555600 29.128660] -0.087156 0.000000 0.000000 -0.996195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CB4C009,  9400, 0xCB4C0039, 170.6349, 7.744278, 244.2196, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
+/* @teleloc 0xCB4C0039 [170.634900 7.744278 244.219600] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CB4C00A,  2582, 0xCB4C0039, 177.1022, 4.554749, 244.3795, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Great Mattekar */
+/* @teleloc 0xCB4C0039 [177.102200 4.554749 244.379500] -0.087156 0.000000 0.000000 -0.996195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CB4C00B,  6645, 0xCB4C0023, 115.2783, 61.82266, 177.855, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Magma Golem */
+/* @teleloc 0xCB4C0023 [115.278300 61.822660 177.855000] 0.500000 0.000000 0.000000 -0.866025 */

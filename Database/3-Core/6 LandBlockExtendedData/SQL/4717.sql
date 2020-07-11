@@ -18,7 +18,13 @@ VALUES (0x74717001, 0x74717002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (711
      , (0x74717001, 0x7471700C, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
      , (0x74717001, 0x7471700D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x74717001, 0x7471700E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
-     , (0x74717001, 0x7471700F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
+     , (0x74717001, 0x7471700F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x74717001, 0x74717010, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x74717001, 0x74717011, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x74717001, 0x74717012, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x74717001, 0x74717013, '2019-02-10 00:00:00') /* Unconquered Drudge (10776) */
+     , (0x74717001, 0x74717014, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x74717001, 0x74717015, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74717002,  7119, 0x4717002D, 124.4565, 99.01595, 63.27617, 0.9409959, 0, 0, -0.3384181,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -77,12 +83,41 @@ VALUES (0x7471700F, 24497, 0x47170007, 17.5383, 145.2781, 68.01, -0.7660444, 0, 
 /* @teleloc 0x47170007 [17.538300 145.278100 68.010000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74717010,  1542, 0x47170025, 118.5731, 111.6524, 54.95637, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x74717010,  9264, 0x4717003D, 176.8176, 115.5058, 29.47853, 0.2713662, 0, 0, -0.9624762,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
+/* @teleloc 0x4717003D [176.817600 115.505800 29.478530] 0.271366 0.000000 0.000000 -0.962476 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717011, 36858, 0x4717002B, 121.5565, 64.45263, 68.0025, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
+/* @teleloc 0x4717002B [121.556500 64.452630 68.002500] 0.793353 0.000000 0.000000 -0.608761 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717012,  7121, 0x47170023, 117.4068, 64.76781, 68.0025, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+/* @teleloc 0x47170023 [117.406800 64.767810 68.002500] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717013, 10776, 0x4717002E, 134.9093, 124.2787, 44.36316, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Unconquered Drudge */
+/* @teleloc 0x4717002E [134.909300 124.278700 44.363160] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717014,  7184, 0x4717002E, 138.6785, 125.694, 44.36316, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x4717002E [138.678500 125.694000 44.363160] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717015,  7340, 0x4717002E, 137.6925, 120.1238, 44.36316, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+/* @teleloc 0x4717002E [137.692500 120.123800 44.363160] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717016,  1542, 0x47170025, 118.5731, 111.6524, 54.95637, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x47170025 [118.573100 111.652400 54.956370] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74717010, 0x74717011, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x74717016, 0x74717017, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x74717016, 0x74717018, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74717011,  4380, 0x47170025, 118.5731, 111.6524, 54.95637, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x74717017,  4380, 0x47170025, 118.5731, 111.6524, 54.95637, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x47170025 [118.573100 111.652400 54.956370] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74717018, 42831, 0x47170005, 9.459954, 114.7714, 67.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Zaikhal */
+/* @teleloc 0x47170005 [9.459954 114.771400 67.937000] 1.000000 0.000000 0.000000 0.000000 */

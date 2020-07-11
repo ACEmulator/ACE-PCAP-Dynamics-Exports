@@ -1740,7 +1740,12 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x784961B2, 0x784961B3, '2019-02-10 00:00:00') /* Chainmail Gauntlets (55) */
      , (0x784961B2, 0x784961B4, '2019-02-10 00:00:00') /* Wedding Raiment (15714) */
      , (0x784961B2, 0x784961B5, '2019-02-10 00:00:00') /* Aphus Sun Guard (28069) */
-     , (0x784961B2, 0x784961B6, '2019-02-10 00:00:00') /* Parchment (365) */;
+     , (0x784961B2, 0x784961B6, '2019-02-10 00:00:00') /* Parchment (365) */
+     , (0x784961B2, 0x784961B7, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x784961B2, 0x784961B8, '2019-02-10 00:00:00') /* Armored Undead Guise (28859) */
+     , (0x784961B2, 0x784961B9, '2019-02-10 00:00:00') /* Iron Pea (8328) */
+     , (0x784961B2, 0x784961BA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x784961B2, 0x784961BB, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784961B3,    55, 0x84960135, 79.74263, 153.4295, 120.001, -0.3935604, 0, 0, -0.9192988,  True, '2019-02-10 00:00:00'); /* Chainmail Gauntlets */
@@ -1757,3 +1762,23 @@ VALUES (0x784961B5, 28069, 0x84960135, 80.63207, 154.4071, 120.0313, 0.9448352, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784961B6,   365, 0x84960135, 80.63207, 154.4071, 120.08, 0.9448352, 0, 0, -0.3275461,  True, '2019-02-10 00:00:00'); /* Parchment */
 /* @teleloc 0x84960135 [80.632070 154.407100 120.080000] 0.944835 0.000000 0.000000 -0.327546 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784961B7,   621, 0x8496002F, 132.0605, 154.1452, 124.0293, -0.6828941, 0, 0, -0.7305174,  True, '2019-02-10 00:00:00'); /* Heavy Bracelet */
+/* @teleloc 0x8496002F [132.060500 154.145200 124.029300] -0.682894 0.000000 0.000000 -0.730517 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784961B8, 28859, 0x8496002F, 127.958, 156.6138, 124.0075, 0.987488, 0, 0, -0.1576944,  True, '2019-02-10 00:00:00'); /* Armored Undead Guise */
+/* @teleloc 0x8496002F [127.958000 156.613800 124.007500] 0.987488 0.000000 0.000000 -0.157694 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784961B9,  8328, 0x84960030, 133.9341, 183.9909, 124, 0.9965562, 0, 0, -0.08292056,  True, '2019-02-10 00:00:00'); /* Iron Pea */
+/* @teleloc 0x84960030 [133.934100 183.990900 124.000000] 0.996556 0.000000 0.000000 -0.082921 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784961BA,  1955, 0x84960030, 141.3196, 185.7167, 123.937, 0.7916405, 0, 0, -0.6109872,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x84960030 [141.319600 185.716700 123.937000] 0.791641 0.000000 0.000000 -0.610987 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784961BB,  1955, 0x84960030, 138.7597, 188.0305, 123.937, 0.9961613, 0, 0, -0.08753603,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x84960030 [138.759700 188.030500 123.937000] 0.996161 0.000000 0.000000 -0.087536 */

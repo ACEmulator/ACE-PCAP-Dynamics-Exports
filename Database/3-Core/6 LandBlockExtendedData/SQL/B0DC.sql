@@ -9,7 +9,8 @@ VALUES (0x7B0DC001, 0x7B0DC002, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x7B0DC001, 0x7B0DC003, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x7B0DC001, 0x7B0DC004, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
      , (0x7B0DC001, 0x7B0DC005, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
-     , (0x7B0DC001, 0x7B0DC006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
+     , (0x7B0DC001, 0x7B0DC006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7B0DC001, 0x7B0DC007, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0DC002,  4255, 0xB0DC0018, 68.54044, 168.7286, 19.91753, 0.4629027, 0, 0, -0.8864091,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
@@ -30,3 +31,7 @@ VALUES (0x7B0DC005,   230, 0xB0DC0035, 161.8938, 111.0735, 22.51535, 0.1169753, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0DC006, 26470, 0xB0DC0033, 150.1266, 56.51079, 24.95714, 0.4035636, 0, 0, -0.9149516,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
 /* @teleloc 0xB0DC0033 [150.126600 56.510790 24.957140] 0.403564 0.000000 0.000000 -0.914952 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B0DC007,   230, 0xB0DC0004, 7.23216, 73.1047, 35.21971, -0.07982459, 0, 0, -0.9968089,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0xB0DC0004 [7.232160 73.104700 35.219710] -0.079825 0.000000 0.000000 -0.996809 */

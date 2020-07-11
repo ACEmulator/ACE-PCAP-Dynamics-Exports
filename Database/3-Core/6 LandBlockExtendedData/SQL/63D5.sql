@@ -31,7 +31,11 @@ VALUES (0x763D5001, 0x763D5002, '2019-02-10 00:00:00') /* Banderling Guard (937)
      , (0x763D5001, 0x763D5019, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
      , (0x763D5001, 0x763D501A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
      , (0x763D5001, 0x763D501B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
-     , (0x763D5001, 0x763D501C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
+     , (0x763D5001, 0x763D501C, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x763D5001, 0x763D501D, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x763D5001, 0x763D501E, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x763D5001, 0x763D501F, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x763D5001, 0x763D5020, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x763D5002,   937, 0x63D5000C, 31.52743, 95.05723, 56.47731, -0.9999822, 0, 0, 0.005970901,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -142,12 +146,28 @@ VALUES (0x763D501C,  7081, 0x63D5000C, 37.09557, 89.02338, 55.93903, 0.8660254, 
 /* @teleloc 0x63D5000C [37.095570 89.023380 55.939030] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x763D501D,  1542, 0x63D50014, 63.97144, 78.39468, 59.43225, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x763D501D, 20189, 0x63D5000D, 41.9697, 104.6586, 59.4496, 0.2853824, 0, 0, -0.9584137,  True, '2019-02-10 00:00:00'); /* Brumal */
+/* @teleloc 0x63D5000D [41.969700 104.658600 59.449600] 0.285382 0.000000 0.000000 -0.958414 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x763D501E, 20191, 0x63D50014, 52.29499, 92.23653, 58.86577, 0.2853824, 0, 0, -0.9584137,  True, '2019-02-10 00:00:00'); /* Horripal */
+/* @teleloc 0x63D50014 [52.294990 92.236530 58.865770] 0.285382 0.000000 0.000000 -0.958414 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x763D501F,  7086, 0x63D50015, 50.54014, 105.7366, 59.84159, -0.7193505, 0, 0, -0.6946473,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
+/* @teleloc 0x63D50015 [50.540140 105.736600 59.841590] -0.719351 0.000000 0.000000 -0.694647 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x763D5020, 28553, 0x63D50019, 74.93559, 5.355743, 54.48746, 0.6902066, 0, 0, -0.7236124,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
+/* @teleloc 0x63D50019 [74.935590 5.355743 54.487460] 0.690207 0.000000 0.000000 -0.723612 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x763D5021,  1542, 0x63D50014, 63.97144, 78.39468, 59.43225, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x63D50014 [63.971440 78.394680 59.432250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x763D501D, 0x763D501E, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
+VALUES (0x763D5021, 0x763D5022, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x763D501E, 31445, 0x63D50014, 63.97144, 78.39468, 59.43225, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x763D5022, 31445, 0x63D50014, 63.97144, 78.39468, 59.43225, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0x63D50014 [63.971440 78.394680 59.432250] 1.000000 0.000000 0.000000 0.000000 */

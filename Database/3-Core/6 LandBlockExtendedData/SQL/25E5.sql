@@ -23,7 +23,10 @@ VALUES (0x725E5001, 0x725E5002, '2019-02-10 00:00:00') /* Ruschk Shatterer (2867
      , (0x725E5001, 0x725E5011, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
      , (0x725E5001, 0x725E5012, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
      , (0x725E5001, 0x725E5013, '2019-02-10 00:00:00') /* Crazed Fiun (28649) */
-     , (0x725E5001, 0x725E5014, '2019-02-10 00:00:00') /* Risen Knight (8673) */;
+     , (0x725E5001, 0x725E5014, '2019-02-10 00:00:00') /* Risen Knight (8673) */
+     , (0x725E5001, 0x725E5015, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */
+     , (0x725E5001, 0x725E5016, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x725E5001, 0x725E5017, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725E5002, 28671, 0x25E50006, 12.50762, 128.1931, 0.9642985, 0.6933439, 0, 0, -0.7206068,  True, '2019-02-10 00:00:00'); /* Ruschk Shatterer */
@@ -100,3 +103,15 @@ VALUES (0x725E5013, 28649, 0x25E50034, 147.6027, 76.78749, 1.191177, -0.9862816,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725E5014,  8673, 0x25E5003A, 171.5065, 24.36311, 8.00825, -0.04084528, 0, 0, -0.9991655,  True, '2019-02-10 00:00:00'); /* Risen Knight */
 /* @teleloc 0x25E5003A [171.506500 24.363110 8.008250] -0.040845 0.000000 0.000000 -0.999166 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725E5015, 29356, 0x25E5000E, 26.01826, 129.2825, 0.008999944, 0.6933439, 0, 0, -0.7206068,  True, '2019-02-10 00:00:00'); /* Damaged Glacial Golem */
+/* @teleloc 0x25E5000E [26.018260 129.282500 0.009000] 0.693344 0.000000 0.000000 -0.720607 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725E5016,  7987, 0x25E50012, 63.97921, 40.14394, -0.4494999, -0.7197116, 0, 0, -0.6942731,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
+/* @teleloc 0x25E50012 [63.979210 40.143940 -0.449500] -0.719712 0.000000 0.000000 -0.694273 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725E5017, 14517, 0x25E50021, 108.7239, 0.1956931, -0.8929999, 0.6740988, 0, 0, -0.7386412,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0x25E50021 [108.723900 0.195693 -0.893000] 0.674099 0.000000 0.000000 -0.738641 */

@@ -16,7 +16,9 @@ VALUES (0x78F8C001, 0x78F8C002, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
      , (0x78F8C001, 0x78F8C00A, '2019-02-10 00:00:00') /* High Tumerok (226) */
      , (0x78F8C001, 0x78F8C00B, '2019-02-10 00:00:00') /* Lich Lord (1630) */
      , (0x78F8C001, 0x78F8C00C, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
-     , (0x78F8C001, 0x78F8C00D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
+     , (0x78F8C001, 0x78F8C00D, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78F8C001, 0x78F8C00E, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x78F8C001, 0x78F8C00F, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F8C002,  9253, 0x8F8C0021, 102.179, 7.470626, 31.991, -0.9890471, 0, 0, -0.1476005,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -67,12 +69,20 @@ VALUES (0x78F8C00D,  9253, 0x8F8C0036, 160.0691, 135.6539, 32.0256, 0.03203638, 
 /* @teleloc 0x8F8C0036 [160.069100 135.653900 32.025600] 0.032036 0.000000 0.000000 -0.999487 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78F8C00E,  1542, 0x8F8C0034, 148.9675, 89.32387, 31.99784, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78F8C00E,  1989, 0x8F8C0020, 90.18939, 182.1819, 32.48422, -0.07545961, 0, 0, -0.9971489,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
+/* @teleloc 0x8F8C0020 [90.189390 182.181900 32.484220] -0.075460 0.000000 0.000000 -0.997149 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78F8C00F,  1762, 0x8F8C002E, 137.2453, 140.8738, 32.0025, 0.03203638, 0, 0, -0.9994867,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
+/* @teleloc 0x8F8C002E [137.245300 140.873800 32.002500] 0.032036 0.000000 0.000000 -0.999487 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78F8C010,  1542, 0x8F8C0034, 148.9675, 89.32387, 31.99784, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x8F8C0034 [148.967500 89.323870 31.997840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78F8C00E, 0x78F8C00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
+VALUES (0x78F8C010, 0x78F8C011, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78F8C00F, 31443, 0x8F8C0034, 148.9675, 89.32387, 31.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x78F8C011, 31443, 0x8F8C0034, 148.9675, 89.32387, 31.99784, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0x8F8C0034 [148.967500 89.323870 31.997840] 1.000000 0.000000 0.000000 0.000000 */

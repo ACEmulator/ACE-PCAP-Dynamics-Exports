@@ -34,7 +34,10 @@ VALUES (0x7BDD1001, 0x7BDD1002, '2019-02-10 00:00:00') /* Tumerok Priest (231) *
      , (0x7BDD1001, 0x7BDD101C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x7BDD1001, 0x7BDD101D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x7BDD1001, 0x7BDD101E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
-     , (0x7BDD1001, 0x7BDD101F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */;
+     , (0x7BDD1001, 0x7BDD101F, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
+     , (0x7BDD1001, 0x7BDD1020, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BDD1001, 0x7BDD1021, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7BDD1001, 0x7BDD1022, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDD1002,   231, 0xBDD10026, 106.8501, 128.2119, 153.3212, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -157,17 +160,44 @@ VALUES (0x7BDD101F,   201, 0xBDD10020, 92.49327, 173.0636, 151.1333, -0.5796887,
 /* @teleloc 0xBDD10020 [92.493270 173.063600 151.133300] -0.579689 0.000000 0.000000 -0.814838 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDD1020,  1542, 0xBDD10026, 110.1951, 143.1607, 153.1829, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BDD1020,  7123, 0xBDD1001F, 88.00882, 149.5843, 150.2103, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Dark Leech */
+/* @teleloc 0xBDD1001F [88.008820 149.584300 150.210300] -0.579689 0.000000 0.000000 -0.814838 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDD1021,   227, 0xBDD1001E, 95.12766, 140.6925, 152.1362, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0xBDD1001E [95.127660 140.692500 152.136200] -0.579689 0.000000 0.000000 -0.814838 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDD1022,   227, 0xBDD1001F, 93.97662, 164.784, 151.5002, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0xBDD1001F [93.976620 164.784000 151.500200] -0.579689 0.000000 0.000000 -0.814838 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDD1023,  1542, 0xBDD10026, 110.1951, 143.1607, 153.1829, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBDD10026 [110.195100 143.160700 153.182900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDD1020, 0x7BDD1021, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7BDD1020, 0x7BDD1022, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7BDD1023, 0x7BDD1024, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BDD1023, 0x7BDD1025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BDD1023, 0x7BDD1026, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x7BDD1023, 0x7BDD1027, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x7BDD1023, 0x7BDD1028, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDD1021,  4179, 0xBDD10026, 110.1951, 143.1607, 153.1829, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7BDD1024,  4179, 0xBDD10026, 110.1951, 143.1607, 153.1829, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xBDD10026 [110.195100 143.160700 153.182900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDD1022,  4179, 0xBDD10027, 102.2965, 148.8409, 152.5247, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7BDD1025,  4179, 0xBDD10027, 102.2965, 148.8409, 152.5247, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xBDD10027 [102.296500 148.840900 152.524700] 0.999048 0.000000 0.000000 -0.043619 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDD1026,  8039, 0xBDD1001F, 82.26164, 149.817, 149.2255, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */
+/* @teleloc 0xBDD1001F [82.261640 149.817000 149.225500] -0.579689 0.000000 0.000000 -0.814838 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDD1027,  9071, 0xBDD10026, 102.8523, 131.3073, 152.9947, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */
+/* @teleloc 0xBDD10026 [102.852300 131.307300 152.994700] -0.579689 0.000000 0.000000 -0.814838 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDD1028,  8039, 0xBDD10027, 110.2598, 157.5584, 153.5589, -0.5796887, 0, 0, -0.814838,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */
+/* @teleloc 0xBDD10027 [110.259800 157.558400 153.558900] -0.579689 0.000000 0.000000 -0.814838 */

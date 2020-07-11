@@ -31,7 +31,12 @@ VALUES (0x71736001, 0x71736002, '2019-02-10 00:00:00') /* Tiatus Raider (36838) 
      , (0x71736001, 0x71736019, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
      , (0x71736001, 0x7173601A, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
      , (0x71736001, 0x7173601B, '2019-02-10 00:00:00') /* Miasma (14514) */
-     , (0x71736001, 0x7173601C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
+     , (0x71736001, 0x7173601C, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x71736001, 0x7173601D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x71736001, 0x7173601E, '2019-02-10 00:00:00') /* Tsuric (14877) */
+     , (0x71736001, 0x7173601F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71736001, 0x71736020, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x71736001, 0x71736021, '2019-02-10 00:00:00') /* Lacerator (24957) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71736002, 36838, 0x17360019, 87.2574, 19.48228, 14.9486, 0.7460279, 0, 0, -0.6659146,  True, '2019-02-10 00:00:00'); /* Tiatus Raider */
@@ -140,3 +145,23 @@ VALUES (0x7173601B, 14514, 0x17360008, 16.82792, 185.2482, 0.00849998, 0.5706125
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7173601C, 36825, 0x1736000F, 25.75804, 152.6459, 0.00454998, -0.4199763, 0, 0, -0.9075351,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
 /* @teleloc 0x1736000F [25.758040 152.645900 0.004550] -0.419976 0.000000 0.000000 -0.907535 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7173601D, 24497, 0x17360007, 2.150006, 158.9398, 0.00999999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x17360007 [2.150006 158.939800 0.010000] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7173601E, 14877, 0x1736000E, 30.81279, 130.3531, 0.576508, -0.4199763, 0, 0, -0.9075351,  True, '2019-02-10 00:00:00'); /* Tsuric */
+/* @teleloc 0x1736000E [30.812790 130.353100 0.576508] -0.419976 0.000000 0.000000 -0.907535 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7173601F, 23482, 0x17360033, 152.0858, 50.00571, 0, 0.610906, 0, 0, -0.7917031,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x17360033 [152.085800 50.005710 0.000000] 0.610906 0.000000 0.000000 -0.791703 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71736020, 23482, 0x17360033, 163.205, 56.75253, 0, 0.610906, 0, 0, -0.7917031,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x17360033 [163.205000 56.752530 0.000000] 0.610906 0.000000 0.000000 -0.791703 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71736021, 24957, 0x1736002B, 131.3702, 58.45417, 1.045987, 0.610906, 0, 0, -0.7917031,  True, '2019-02-10 00:00:00'); /* Lacerator */
+/* @teleloc 0x1736002B [131.370200 58.454170 1.045987] 0.610906 0.000000 0.000000 -0.791703 */

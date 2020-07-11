@@ -11,7 +11,8 @@ VALUES (0x7294F001, 0x7294F002, '2019-02-10 00:00:00') /* Drudge Seraph (22899) 
      , (0x7294F001, 0x7294F005, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
      , (0x7294F001, 0x7294F006, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
      , (0x7294F001, 0x7294F007, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
-     , (0x7294F001, 0x7294F008, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */;
+     , (0x7294F001, 0x7294F008, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
+     , (0x7294F001, 0x7294F009, '2019-02-10 00:00:00') /* Void Knight (25663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294F002, 22899, 0x294F0027, 116.057, 148.1106, 9.620105, 0.2906239, 0, 0, -0.9568374,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
@@ -40,3 +41,7 @@ VALUES (0x7294F007, 23087, 0x294F0027, 102.4625, 144.5725, 14.20353, 0.2906239, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294F008,  7083, 0x294F0014, 55.29362, 87.40004, 75.3761, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Titanium Armoredillo */
 /* @teleloc 0x294F0014 [55.293620 87.400040 75.376100] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294F009, 25663, 0x294F0027, 110.0543, 145.5547, 11.97319, 0.2906239, 0, 0, -0.9568374,  True, '2019-02-10 00:00:00'); /* Void Knight */
+/* @teleloc 0x294F0027 [110.054300 145.554700 11.973190] 0.290624 0.000000 0.000000 -0.956837 */

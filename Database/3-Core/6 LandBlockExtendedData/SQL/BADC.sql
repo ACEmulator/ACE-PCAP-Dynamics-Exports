@@ -17,7 +17,9 @@ VALUES (0x7BADC001, 0x7BADC002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
      , (0x7BADC001, 0x7BADC00B, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
      , (0x7BADC001, 0x7BADC00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
      , (0x7BADC001, 0x7BADC00D, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
-     , (0x7BADC001, 0x7BADC00E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
+     , (0x7BADC001, 0x7BADC00E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7BADC001, 0x7BADC00F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BADC001, 0x7BADC010, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADC002,  7123, 0xBADC001E, 73.9836, 134.8726, -0.4425001, -0.6676193, 0, 0, -0.7445028,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -70,3 +72,11 @@ VALUES (0x7BADC00D, 23082, 0xBADC0015, 62.48101, 115.7677, 0.3626955, -0.6676193
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADC00E, 24289, 0xBADC0004, 18.89093, 74.11824, 1.992, -0.2723226, 0, 0, -0.962206,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
 /* @teleloc 0xBADC0004 [18.890930 74.118240 1.992000] -0.272323 0.000000 0.000000 -0.962206 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADC00F,  7123, 0xBADC0005, 16.36592, 96.91147, 1.931544, -0.2723226, 0, 0, -0.962206,  True, '2019-02-10 00:00:00'); /* Dark Leech */
+/* @teleloc 0xBADC0005 [16.365920 96.911470 1.931544] -0.272323 0.000000 0.000000 -0.962206 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADC010, 22933, 0xBADC0026, 107.4786, 137.2964, 0.5686344, -0.6676193, 0, 0, -0.7445028,  True, '2019-02-10 00:00:00'); /* Mist Golem */
+/* @teleloc 0xBADC0026 [107.478600 137.296400 0.568634] -0.667619 0.000000 0.000000 -0.744503 */

@@ -13,7 +13,9 @@ VALUES (0x73A6B001, 0x73A6B002, '2019-02-10 00:00:00') /* Pyreal Golem (36833) *
      , (0x73A6B001, 0x73A6B007, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
      , (0x73A6B001, 0x73A6B008, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
      , (0x73A6B001, 0x73A6B009, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
-     , (0x73A6B001, 0x73A6B00A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
+     , (0x73A6B001, 0x73A6B00A, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73A6B001, 0x73A6B00B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x73A6B001, 0x73A6B00C, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A6B002, 36833, 0x3A6B003E, 176.4737, 140.6528, 153.6714, -0.929247, 0, 0, -0.3694592,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
@@ -50,3 +52,11 @@ VALUES (0x73A6B009,   233, 0x3A6B0032, 157.897, 45.5323, 40.0055, 0.300018, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A6B00A, 23563, 0x3A6B000C, 36.9824, 94.94721, 126.2565, 0.89597, 0, 0, -0.4441146,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
 /* @teleloc 0x3A6B000C [36.982400 94.947210 126.256500] 0.895970 0.000000 0.000000 -0.444115 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73A6B00B, 23563, 0x3A6B0038, 157.6534, 176.8168, 141.0867, -0.8458042, 0, 0, -0.5334934,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x3A6B0038 [157.653400 176.816800 141.086700] -0.845804 0.000000 0.000000 -0.533493 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73A6B00C, 36833, 0x3A6B0037, 162.4201, 154.8594, 146.8051, -0.929247, 0, 0, -0.3694592,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
+/* @teleloc 0x3A6B0037 [162.420100 154.859400 146.805100] -0.929247 0.000000 0.000000 -0.369459 */

@@ -17,7 +17,9 @@ VALUES (0x79A24001, 0x79A24002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
      , (0x79A24001, 0x79A2400B, '2019-02-10 00:00:00') /* Relic Bones (7179) */
      , (0x79A24001, 0x79A2400C, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
      , (0x79A24001, 0x79A2400D, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
-     , (0x79A24001, 0x79A2400E, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
+     , (0x79A24001, 0x79A2400E, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79A24001, 0x79A2400F, '2019-02-10 00:00:00') /* Banished Tumerok (30885) */
+     , (0x79A24001, 0x79A24010, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A24002,  7179, 0x9A240040, 182.9981, 184.6182, 89.89826, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -72,12 +74,20 @@ VALUES (0x79A2400E, 37100, 0x9A24003F, 188.1571, 157.2057, 90.58429, 0.7771459, 
 /* @teleloc 0x9A24003F [188.157100 157.205700 90.584290] 0.777146 0.000000 0.000000 -0.629320 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79A2400F,  1542, 0x9A24000C, 25.74689, 74.51809, 90.40549, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79A2400F, 30885, 0x9A24000B, 30.46651, 50.17379, 92.18308, 0.9818786, 0, 0, -0.1895109,  True, '2019-02-10 00:00:00'); /* Banished Tumerok */
+/* @teleloc 0x9A24000B [30.466510 50.173790 92.183080] 0.981879 0.000000 0.000000 -0.189511 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79A24010,  4255, 0x9A24003F, 170.3527, 160.9576, 88.76118, 0.595707, 0, 0, -0.8032019,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x9A24003F [170.352700 160.957600 88.761180] 0.595707 0.000000 0.000000 -0.803202 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79A24011,  1542, 0x9A24000C, 25.74689, 74.51809, 90.40549, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9A24000C [25.746890 74.518090 90.405490] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A2400F, 0x79A24010, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x79A24011, 0x79A24012, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79A24010,  4180, 0x9A24000C, 25.74689, 74.51809, 90.40549, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x79A24012,  4180, 0x9A24000C, 25.74689, 74.51809, 90.40549, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x9A24000C [25.746890 74.518090 90.405490] 0.923880 0.000000 0.000000 -0.382684 */

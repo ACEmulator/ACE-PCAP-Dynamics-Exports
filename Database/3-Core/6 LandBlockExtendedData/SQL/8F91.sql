@@ -19,7 +19,9 @@ VALUES (0x78F91002, 0x78F91003, '2019-02-10 00:00:00') /* Fragment (8014) */
      , (0x78F91002, 0x78F91006, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
      , (0x78F91002, 0x78F91007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
      , (0x78F91002, 0x78F91008, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
-     , (0x78F91002, 0x78F91009, '2019-02-10 00:00:00') /* High Tumerok (226) */;
+     , (0x78F91002, 0x78F91009, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x78F91002, 0x78F9100A, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x78F91002, 0x78F9100B, '2019-02-10 00:00:00') /* High Tumerok (226) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F91003,  8014, 0x8F910039, 187.4113, 20.84044, 223.985, -0.9722586, 0, 0, -0.2339088,  True, '2019-02-10 00:00:00'); /* Fragment */
@@ -48,3 +50,11 @@ VALUES (0x78F91008, 28552, 0x8F910039, 176.291, 11.32191, 223.985, -0.9722586, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78F91009,   226, 0x8F910029, 122.1529, 8.3825, 224.006, -0.7032122, 0, 0, -0.71098,  True, '2019-02-10 00:00:00'); /* High Tumerok */
 /* @teleloc 0x8F910029 [122.152900 8.382500 224.006000] -0.703212 0.000000 0.000000 -0.710980 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78F9100A,  1758, 0x8F910039, 191.1095, 21.04207, 224, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0x8F910039 [191.109500 21.042070 224.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78F9100B,   226, 0x8F910021, 110.6846, 17.27122, 224.006, -0.7032122, 0, 0, -0.71098,  True, '2019-02-10 00:00:00'); /* High Tumerok */
+/* @teleloc 0x8F910021 [110.684600 17.271220 224.006000] -0.703212 0.000000 0.000000 -0.710980 */

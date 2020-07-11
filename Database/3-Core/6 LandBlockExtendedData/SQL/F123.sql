@@ -18,7 +18,11 @@ VALUES (0x7F123001, 0x7F123002, '2019-02-10 00:00:00') /* Island Armoredillo (70
      , (0x7F123001, 0x7F12300C, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
      , (0x7F123001, 0x7F12300D, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
      , (0x7F123001, 0x7F12300E, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
-     , (0x7F123001, 0x7F12300F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
+     , (0x7F123001, 0x7F12300F, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F123001, 0x7F123010, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7F123001, 0x7F123011, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */
+     , (0x7F123001, 0x7F123012, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x7F123001, 0x7F123013, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F123002,  7082, 0xF1230030, 129.1662, 186.5256, -0.08949995, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
@@ -77,12 +81,28 @@ VALUES (0x7F12300F,  7082, 0xF1230030, 125.4445, 189.3424, -0.08949995, 0.766044
 /* @teleloc 0xF1230030 [125.444500 189.342400 -0.089500] 0.766045 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F123010,  1542, 0xF1230030, 127.3398, 184.857, 0, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7F123010,  7126, 0xF1230005, 17.52425, 114.7817, 1.430511E-06, 0.03291497, 0, 0, -0.9994581,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
+/* @teleloc 0xF1230005 [17.524250 114.781700 0.000001] 0.032915 0.000000 0.000000 -0.999458 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F123011,  7082, 0xF1230030, 127.0822, 185.0776, -0.08949995, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
+/* @teleloc 0xF1230030 [127.082200 185.077600 -0.089500] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F123012,  7109, 0xF1230030, 131.0138, 188.2328, -0.09880006, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
+/* @teleloc 0xF1230030 [131.013800 188.232800 -0.098800] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F123013,  7109, 0xF1230030, 123.0661, 190.5317, -0.09880006, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
+/* @teleloc 0xF1230030 [123.066100 190.531700 -0.098800] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F123014,  1542, 0xF1230030, 127.3398, 184.857, 0, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xF1230030 [127.339800 184.857000 0.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F123010, 0x7F123011, '2019-02-10 00:00:00') /* Bones (4379) */;
+VALUES (0x7F123014, 0x7F123015, '2019-02-10 00:00:00') /* Bones (4379) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F123011,  4379, 0xF1230030, 127.3398, 184.857, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7F123015,  4379, 0xF1230030, 127.3398, 184.857, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xF1230030 [127.339800 184.857000 0.000000] 1.000000 0.000000 0.000000 0.000000 */

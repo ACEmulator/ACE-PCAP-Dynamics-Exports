@@ -11,7 +11,9 @@ VALUES (0x7A32B001, 0x7A32B002, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) *
      , (0x7A32B001, 0x7A32B005, '2019-02-10 00:00:00') /* K'nath Z'bog (1536) */
      , (0x7A32B001, 0x7A32B006, '2019-02-10 00:00:00') /* K'nath S'tath (2570) */
      , (0x7A32B001, 0x7A32B007, '2019-02-10 00:00:00') /* K'nath N'osaj (2571) */
-     , (0x7A32B001, 0x7A32B008, '2019-02-10 00:00:00') /* Frost (14517) */;
+     , (0x7A32B001, 0x7A32B008, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x7A32B001, 0x7A32B009, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x7A32B001, 0x7A32B00A, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A32B002,  2571, 0xA32B0009, 39.07243, 22.92053, 141.4539, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* K'nath N'osaj */
@@ -40,3 +42,11 @@ VALUES (0x7A32B007,  2571, 0xA32B0004, 16.94373, 79.65473, 144.5684, -0.08715577
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A32B008, 14517, 0xA32B0002, 19.60276, 34.62669, 140.007, -0.7845948, 0, 0, -0.6200089,  True, '2019-02-10 00:00:00'); /* Frost */
 /* @teleloc 0xA32B0002 [19.602760 34.626690 140.007000] -0.784595 0.000000 0.000000 -0.620009 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A32B009, 26469, 0xA32B000B, 40.37252, 60.48948, 142, -0.7845948, 0, 0, -0.6200089,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */
+/* @teleloc 0xA32B000B [40.372520 60.489480 142.000000] -0.784595 0.000000 0.000000 -0.620009 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A32B00A, 14559, 0xA32B0038, 144.7901, 184.9187, 164.7318, 0.8824684, 0, 0, -0.4703717,  True, '2019-02-10 00:00:00'); /* Oak Golem */
+/* @teleloc 0xA32B0038 [144.790100 184.918700 164.731800] 0.882468 0.000000 0.000000 -0.470372 */

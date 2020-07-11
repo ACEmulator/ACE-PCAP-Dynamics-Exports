@@ -45,7 +45,13 @@ VALUES (0x735F6001, 0x735F6002, '2019-02-10 00:00:00') /* Acidic Coral Golem (15
      , (0x735F6001, 0x735F6027, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
      , (0x735F6001, 0x735F6028, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
      , (0x735F6001, 0x735F6029, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
-     , (0x735F6001, 0x735F602A, '2019-02-10 00:00:00') /* Coral Golem (7507) */;
+     , (0x735F6001, 0x735F602A, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x735F6001, 0x735F602B, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x735F6001, 0x735F602C, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735F6001, 0x735F602D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x735F6001, 0x735F602E, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x735F6001, 0x735F602F, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x735F6001, 0x735F6030, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735F6002, 15266, 0x35F60029, 132.3323, 23.25624, 2.01, 0.6673599, 0, 0, -0.7447354,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
@@ -210,3 +216,27 @@ VALUES (0x735F6029, 28668, 0x35F6001B, 87.72073, 54.73666, 2.0066, -0.8662996, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735F602A,  7507, 0x35F60013, 53.18014, 64.4515, 16.68874, -0.7862468, 0, 0, -0.6179125,  True, '2019-02-10 00:00:00'); /* Coral Golem */
 /* @teleloc 0x35F60013 [53.180140 64.451500 16.688740] -0.786247 0.000000 0.000000 -0.617913 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735F602B, 15266, 0x35F60003, 4.481949, 53.12742, 44.42287, -0.9941915, 0, 0, -0.1076254,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
+/* @teleloc 0x35F60003 [4.481949 53.127420 44.422870] -0.994192 0.000000 0.000000 -0.107625 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735F602C, 24281, 0x35F60014, 59.78705, 73.01535, 2.00455, -0.7862468, 0, 0, -0.6179125,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x35F60014 [59.787050 73.015350 2.004550] -0.786247 0.000000 0.000000 -0.617913 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735F602D,  7099, 0x35F6001A, 88.85656, 40.80828, 2.01, -0.8662996, 0, 0, -0.4995249,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
+/* @teleloc 0x35F6001A [88.856560 40.808280 2.010000] -0.866300 0.000000 0.000000 -0.499525 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735F602E,  7099, 0x35F60024, 110.3074, 83.86039, 0.009999931, -0.398027, 0, 0, -0.9173737,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
+/* @teleloc 0x35F60024 [110.307400 83.860390 0.010000] -0.398027 0.000000 0.000000 -0.917374 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735F602F, 24478, 0x35F60024, 115.1494, 85.18132, 0.002499998, 0.08587554, 0, 0, -0.9963059,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x35F60024 [115.149400 85.181320 0.002500] 0.085876 0.000000 0.000000 -0.996306 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735F6030, 24478, 0x35F6002A, 132.0755, 44.86588, 1.074238, 0.6673599, 0, 0, -0.7447354,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x35F6002A [132.075500 44.865880 1.074238] 0.667360 0.000000 0.000000 -0.744735 */

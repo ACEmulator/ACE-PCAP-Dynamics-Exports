@@ -294,7 +294,19 @@ VALUES (0x702EE109, 0x702EE10A, '2019-02-10 00:00:00') /* Great Revenant (24320)
      , (0x702EE109, 0x702EE1C4, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
      , (0x702EE109, 0x702EE1C5, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
      , (0x702EE109, 0x702EE1C6, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x702EE109, 0x702EE1C7, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
+     , (0x702EE109, 0x702EE1C7, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x702EE109, 0x702EE1C8, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1C9, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1CA, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1CB, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1CC, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1CD, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
+     , (0x702EE109, 0x702EE1CE, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE1CF, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x702EE109, 0x702EE1D0, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1D1, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1D2, '2019-02-10 00:00:00') /* Olthoi Piercer (24960) */
+     , (0x702EE109, 0x702EE1D3, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702EE10A, 24320, 0x02EE03D8, 89.9397, -109.71, -17.94292, 0.907542, 0, 0, 0.419961,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -1057,77 +1069,125 @@ VALUES (0x702EE1C7,  7107, 0x02EE037C, 151.2111, -70.77145, -29.988, 0.7749761, 
 /* @teleloc 0x02EE037C [151.211100 -70.771450 -29.988000] 0.774976 0.000000 0.000000 -0.631991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1C8,  1542, 0x02EE03D2, 82.6646, -108.107, -18.001, 0.948153, 0, 0, -0.317814, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x702EE1C8, 11478, 0x02EE0285, 171.5829, -82.9702, -42.0176, 0.5093617, 0, 0, -0.8605525,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0x02EE0285 [171.582900 -82.970200 -42.017600] 0.509362 0.000000 0.000000 -0.860553 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1C9, 11478, 0x02EE0171, 170.2709, -134.8229, -54.0176, 0.9959415, 0, 0, -0.09000288,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0x02EE0171 [170.270900 -134.822900 -54.017600] 0.995942 0.000000 0.000000 -0.090003 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1CA, 11478, 0x02EE014D, 145.841, -114.097, -54.0176, -0.3282521, 0, 0, -0.9445902,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0x02EE014D [145.841000 -114.097000 -54.017600] -0.328252 0.000000 0.000000 -0.944590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1CB, 11478, 0x02EE0149, 140.0798, -139.2841, -54.0176, -0.9422306, 0, 0, -0.3349648,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0x02EE0149 [140.079800 -139.284100 -54.017600] -0.942231 0.000000 0.000000 -0.334965 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1CC, 24960, 0x02EE010B, 154.9782, -154.745, -66.00455, -0.3689725, 0, 0, -0.9294403,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
+/* @teleloc 0x02EE010B [154.978200 -154.745000 -66.004550] -0.368973 0.000000 0.000000 -0.929440 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1CD, 11478, 0x02EE010B, 153.2275, -154.1973, -66.0176, -0.1325929, 0, 0, 0.9911706,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0x02EE010B [153.227500 -154.197300 -66.017600] -0.132593 0.000000 0.000000 0.991171 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1CE,   213, 0x02EE010F, 156.2525, -154.9528, -66, -0.6575406, 0, 0, -0.7534191,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
+/* @teleloc 0x02EE010F [156.252500 -154.952800 -66.000000] -0.657541 0.000000 0.000000 -0.753419 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1CF,   213, 0x02EE010F, 161.12, -154.9454, -65.5216, 0.8935109, 0, 0, -0.4490414,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
+/* @teleloc 0x02EE010F [161.120000 -154.945400 -65.521600] 0.893511 0.000000 0.000000 -0.449041 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1D0, 24960, 0x02EE0246, 142.4649, -123.4425, -41.96813, 0.8674268, 0, 0, -0.4975649,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
+/* @teleloc 0x02EE0246 [142.464900 -123.442500 -41.968130] 0.867427 0.000000 0.000000 -0.497565 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1D1, 24960, 0x02EE0246, 135.9102, -120.8526, -42.00455, 0.8332336, 0, 0, -0.5529211,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
+/* @teleloc 0x02EE0246 [135.910200 -120.852600 -42.004550] 0.833234 0.000000 0.000000 -0.552921 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1D2, 24960, 0x02EE024B, 144.394, -134.6183, -39.35672, 0.9169926, 0, 0, -0.3989041,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
+/* @teleloc 0x02EE024B [144.394000 -134.618300 -39.356720] 0.916993 0.000000 0.000000 -0.398904 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1D3, 11478, 0x02EE0264, 154.8016, -111.0553, -42.0176, 0.875208, 0, 0, -0.4837469,  True, '2019-02-10 00:00:00'); /* Olthoi Eviscerator */
+/* @teleloc 0x02EE0264 [154.801600 -111.055300 -42.017600] 0.875208 0.000000 0.000000 -0.483747 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702EE1D4,  1542, 0x02EE03D2, 82.6646, -108.107, -18.001, 0.948153, 0, 0, -0.317814, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x02EE03D2 [82.664600 -108.107000 -18.001000] 0.948153 0.000000 0.000000 -0.317814 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702EE1C8, 0x702EE1C9, '2019-02-10 00:00:00') /* Meat (265) */
-     , (0x702EE1C8, 0x702EE1CA, '2019-02-10 00:00:00') /* Meat (265) */
-     , (0x702EE1C8, 0x702EE1CB, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1CC, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1CD, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1CE, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1CF, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1D0, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1D1, '2019-02-10 00:00:00') /* Sacrificial Dagger (28065) */
-     , (0x702EE1C8, 0x702EE1D2, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1D3, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1D4, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1D5, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
-     , (0x702EE1C8, 0x702EE1D6, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
+VALUES (0x702EE1D4, 0x702EE1D5, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x702EE1D4, 0x702EE1D6, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x702EE1D4, 0x702EE1D7, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1D8, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1D9, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1DA, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1DB, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1DC, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1DD, '2019-02-10 00:00:00') /* Sacrificial Dagger (28065) */
+     , (0x702EE1D4, 0x702EE1DE, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1DF, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1E0, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1E1, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x702EE1D4, 0x702EE1E2, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1C9,   265, 0x02EE03D2, 82.6646, -108.107, -18.001, 0.948153, 0, 0, -0.317814,  True, '2019-02-10 00:00:00'); /* Meat */
+VALUES (0x702EE1D5,   265, 0x02EE03D2, 82.6646, -108.107, -18.001, 0.948153, 0, 0, -0.317814,  True, '2019-02-10 00:00:00'); /* Meat */
 /* @teleloc 0x02EE03D2 [82.664600 -108.107000 -18.001000] 0.948153 0.000000 0.000000 -0.317814 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1CA,   265, 0x02EE03D8, 87.5327, -107.048, -18.001, 0.503582, 0, 0, 0.863948,  True, '2019-02-10 00:00:00'); /* Meat */
+VALUES (0x702EE1D6,   265, 0x02EE03D8, 87.5327, -107.048, -18.001, 0.503582, 0, 0, 0.863948,  True, '2019-02-10 00:00:00'); /* Meat */
 /* @teleloc 0x02EE03D8 [87.532700 -107.048000 -18.001000] 0.503582 0.000000 0.000000 0.863948 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1CB,   547, 0x02EE017B, 186.651, -125.489, -54.0025, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1D7,   547, 0x02EE017B, 186.651, -125.489, -54.0025, 1, 0, 0, -4.37114E-08,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE017B [186.651000 -125.489000 -54.002500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1CC,   547, 0x02EE0172, 165.454, -135.243, -51.37303, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1D8,   547, 0x02EE0172, 165.454, -135.243, -51.37303, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE0172 [165.454000 -135.243000 -51.373030] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1CD,   547, 0x02EE0179, 175.744, -139.741, -54.0025, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1D9,   547, 0x02EE0179, 175.744, -139.741, -54.0025, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE0179 [175.744000 -139.741000 -54.002500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1CE,   547, 0x02EE0179, 179.269, -137.169, -54.0025, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1DA,   547, 0x02EE0179, 179.269, -137.169, -54.0025, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE0179 [179.269000 -137.169000 -54.002500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1CF,   547, 0x02EE016C, 162.955, -129.632, -53.75628, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1DB,   547, 0x02EE016C, 162.955, -129.632, -53.75628, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE016C [162.955000 -129.632000 -53.756280] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D0,   547, 0x02EE016C, 162.695, -134.175, -52.83284, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1DC,   547, 0x02EE016C, 162.695, -134.175, -52.83284, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE016C [162.695000 -134.175000 -52.832840] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D1, 28065, 0x02EE025B, 147.654, -77.5584, -41.93625, 0.1445851, 0, 0, -0.9894924,  True, '2019-02-10 00:00:00'); /* Sacrificial Dagger */
+VALUES (0x702EE1DD, 28065, 0x02EE025B, 147.654, -77.5584, -41.93625, 0.1445851, 0, 0, -0.9894924,  True, '2019-02-10 00:00:00'); /* Sacrificial Dagger */
 /* @teleloc 0x02EE025B [147.654000 -77.558400 -41.936250] 0.144585 0.000000 0.000000 -0.989492 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D2,   547, 0x02EE0130, 127.634, -69.5397, -52.36315, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1DE,   547, 0x02EE0130, 127.634, -69.5397, -52.36315, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE0130 [127.634000 -69.539700 -52.363150] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D3,   547, 0x02EE0130, 131.632, -70.614, -54.0025, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1DF,   547, 0x02EE0130, 131.632, -70.614, -54.0025, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE0130 [131.632000 -70.614000 -54.002500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D4,   547, 0x02EE013E, 141.633, -77.6629, -52.99727, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1E0,   547, 0x02EE013E, 141.633, -77.6629, -52.99727, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE013E [141.633000 -77.662900 -52.997270] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D5,   547, 0x02EE013E, 136.681, -79.0413, -54.0025, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1E1,   547, 0x02EE013E, 136.681, -79.0413, -54.0025, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE013E [136.681000 -79.041300 -54.002500] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702EE1D6,   547, 0x02EE0132, 129.161, -76.9242, -53.99982, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+VALUES (0x702EE1E2,   547, 0x02EE0132, 129.161, -76.9242, -53.99982, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x02EE0132 [129.161000 -76.924200 -53.999820] -0.707107 0.000000 0.000000 -0.707107 */

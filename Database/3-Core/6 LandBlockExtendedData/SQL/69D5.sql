@@ -15,7 +15,8 @@ VALUES (0x769D5005, 0x769D5006, '2019-02-10 00:00:00') /* Insidious Monouga (368
      , (0x769D5005, 0x769D5009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x769D5005, 0x769D500A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
      , (0x769D5005, 0x769D500B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
-     , (0x769D5005, 0x769D500C, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
+     , (0x769D5005, 0x769D500C, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
+     , (0x769D5005, 0x769D500D, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x769D5006, 36842, 0x69D50028, 118.1782, 180.5867, 196.7818, 0.9456295, 0, 0, -0.3252459,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
@@ -46,12 +47,16 @@ VALUES (0x769D500C, 24134, 0x69D5002B, 127.27, 50.51966, 233.9507, 1, 0, 0, 0,  
 /* @teleloc 0x69D5002B [127.270000 50.519660 233.950700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x769D500D,  1154, 0x69D50100, 176.154, 179.325, 197.205, 0.999543, 0, 0, -0.030226, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x769D500D,  7081, 0x69D5001C, 90.56635, 79.3318, 228.4039, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x69D5001C [90.566350 79.331800 228.403900] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x769D500E,  1154, 0x69D50100, 176.154, 179.325, 197.205, 0.999543, 0, 0, -0.030226, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x69D50100 [176.154000 179.325000 197.205000] 0.999543 0.000000 0.000000 -0.030226 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x769D500D, 0x769D500E, '2019-02-10 00:00:00') /* Kai Mallan, Sho Enchanter (15860) */;
+VALUES (0x769D500E, 0x769D500F, '2019-02-10 00:00:00') /* Kai Mallan, Sho Enchanter (15860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x769D500E, 15860, 0x69D50100, 176.154, 179.325, 197.205, 0.999543, 0, 0, -0.030226,  True, '2019-02-10 00:00:00'); /* Kai Mallan, Sho Enchanter */
+VALUES (0x769D500F, 15860, 0x69D50100, 176.154, 179.325, 197.205, 0.999543, 0, 0, -0.030226,  True, '2019-02-10 00:00:00'); /* Kai Mallan, Sho Enchanter */
 /* @teleloc 0x69D50100 [176.154000 179.325000 197.205000] 0.999543 0.000000 0.000000 -0.030226 */

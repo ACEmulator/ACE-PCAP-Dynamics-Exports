@@ -18,7 +18,15 @@ VALUES (0x736ED001, 0x736ED002, '2019-02-10 00:00:00') /* Maelstrom Shadow (2290
      , (0x736ED001, 0x736ED008, '2019-02-10 00:00:00') /* Polar Ursuin (29346) */
      , (0x736ED001, 0x736ED009, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
      , (0x736ED001, 0x736ED00A, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
-     , (0x736ED001, 0x736ED00B, '2019-02-10 00:00:00') /* Bokrok Lugian (29348) */;
+     , (0x736ED001, 0x736ED00B, '2019-02-10 00:00:00') /* Bokrok Lugian (29348) */
+     , (0x736ED001, 0x736ED00C, '2019-02-10 00:00:00') /* Ursuin Slicer (27717) */
+     , (0x736ED001, 0x736ED00D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x736ED001, 0x736ED00E, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x736ED001, 0x736ED00F, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x736ED001, 0x736ED010, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x736ED001, 0x736ED011, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x736ED001, 0x736ED012, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x736ED001, 0x736ED013, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736ED002, 22909, 0x36ED0016, 53.3973, 133.345, 85.57542, 0.6542556, 0, 0, -0.7562736,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -59,3 +67,35 @@ VALUES (0x736ED00A, 28051, 0x36ED003B, 177.2374, 60.01446, 24.012, -0.8993334, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736ED00B, 29348, 0x36ED001A, 83.03962, 44.92369, 84.33013, -0.412217, 0, 0, -0.9110857,  True, '2019-02-10 00:00:00'); /* Bokrok Lugian */
 /* @teleloc 0x36ED001A [83.039620 44.923690 84.330130] -0.412217 0.000000 0.000000 -0.911086 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED00C, 27717, 0x36ED0003, 17.92636, 68.34608, 96.3071, -0.6530418, 0, 0, -0.7573219,  True, '2019-02-10 00:00:00'); /* Ursuin Slicer */
+/* @teleloc 0x36ED0003 [17.926360 68.346080 96.307100] -0.653042 0.000000 0.000000 -0.757322 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED00D, 23564, 0x36ED000F, 38.23078, 159.3444, 82.89508, 0.6542556, 0, 0, -0.7562736,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x36ED000F [38.230780 159.344400 82.895080] 0.654256 0.000000 0.000000 -0.756274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED00E, 28674, 0x36ED000B, 41.61881, 67.67851, 90.09933, -0.9849967, 0, 0, -0.1725731,  True, '2019-02-10 00:00:00'); /* Enoki Thrungus */
+/* @teleloc 0x36ED000B [41.618810 67.678510 90.099330] -0.984997 0.000000 0.000000 -0.172573 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED00F, 28674, 0x36ED0014, 58.66028, 72.91273, 86, -0.2870094, 0, 0, -0.9579278,  True, '2019-02-10 00:00:00'); /* Enoki Thrungus */
+/* @teleloc 0x36ED0014 [58.660280 72.912730 86.000000] -0.287009 0.000000 0.000000 -0.957928 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED010, 24292, 0x36ED001A, 78.87028, 46.75312, 85.70291, -0.412217, 0, 0, -0.9110857,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
+/* @teleloc 0x36ED001A [78.870280 46.753120 85.702910] -0.412217 0.000000 0.000000 -0.911086 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED011, 24281, 0x36ED002E, 133.09, 124.7781, 52.9577, -0.7577965, 0, 0, -0.6524909,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x36ED002E [133.090000 124.778100 52.957700] -0.757797 0.000000 0.000000 -0.652491 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED012, 23616, 0x36ED003E, 181.1778, 133.8885, 42.28048, 0.7446589, 0, 0, -0.6674452,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x36ED003E [181.177800 133.888500 42.280480] 0.744659 0.000000 0.000000 -0.667445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736ED013, 28050, 0x36ED003B, 175.3445, 68.80566, 24.012, -0.8993334, 0, 0, -0.4372635,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */
+/* @teleloc 0x36ED003B [175.344500 68.805660 24.012000] -0.899333 0.000000 0.000000 -0.437264 */

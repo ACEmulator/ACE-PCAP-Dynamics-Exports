@@ -17,7 +17,14 @@ VALUES (0x72134001, 0x72134002, '2019-02-10 00:00:00') /* Shadow Spectre (23090)
      , (0x72134001, 0x72134007, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
      , (0x72134001, 0x72134008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
      , (0x72134001, 0x72134009, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
-     , (0x72134001, 0x7213400A, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */;
+     , (0x72134001, 0x7213400A, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72134001, 0x7213400B, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x72134001, 0x7213400C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72134001, 0x7213400D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x72134001, 0x7213400E, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
+     , (0x72134001, 0x7213400F, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72134001, 0x72134010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72134001, 0x72134011, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72134002, 23090, 0x2134003B, 168.1591, 61.03333, 0.004999995, 0.8562471, 0, 0, -0.5165665,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
@@ -54,3 +61,31 @@ VALUES (0x72134009, 11536, 0x21340031, 150.2501, 21.17079, -0.4499986, 0.9630851
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7213400A, 23562, 0x21340033, 167.1569, 59.40025, -0.09500003, 0.8562471, 0, 0, -0.5165665,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
 /* @teleloc 0x21340033 [167.156900 59.400250 -0.095000] 0.856247 0.000000 0.000000 -0.516567 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213400B, 33309, 0x21340029, 120.2935, 16.68919, -0.09999943, 0.9630851, 0, 0, -0.269197,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
+/* @teleloc 0x21340029 [120.293500 16.689190 -0.099999] 0.963085 0.000000 0.000000 -0.269197 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213400C,  4254, 0x21340029, 120.0725, 12.88743, -0.09600002, 0.9630851, 0, 0, -0.269197,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x21340029 [120.072500 12.887430 -0.096000] 0.963085 0.000000 0.000000 -0.269197 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213400D, 23564, 0x21340029, 120.0287, 21.28213, -0.09499998, 0.9630851, 0, 0, -0.269197,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x21340029 [120.028700 21.282130 -0.095000] 0.963085 0.000000 0.000000 -0.269197 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213400E, 23562, 0x2134002A, 120.0507, 29.32263, -0.09500004, 0.9630851, 0, 0, -0.269197,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
+/* @teleloc 0x2134002A [120.050700 29.322630 -0.095000] 0.963085 0.000000 0.000000 -0.269197 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7213400F, 23563, 0x2134002A, 126.9216, 27.03695, -0.09500003, 0.9630851, 0, 0, -0.269197,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x2134002A [126.921600 27.036950 -0.095000] 0.963085 0.000000 0.000000 -0.269197 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72134010,  4254, 0x2134002A, 120.0072, 24.3954, -0.09599999, 0.9630851, 0, 0, -0.269197,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x2134002A [120.007200 24.395400 -0.096000] 0.963085 0.000000 0.000000 -0.269197 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72134011, 23481, 0x2134003C, 169.4236, 77.93841, -0.1, 0.8562471, 0, 0, -0.5165665,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
+/* @teleloc 0x2134003C [169.423600 77.938410 -0.100000] 0.856247 0.000000 0.000000 -0.516567 */

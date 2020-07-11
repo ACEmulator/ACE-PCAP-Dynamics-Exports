@@ -237,7 +237,12 @@ VALUES (0x75C450ED, 0x75C450EE, '2019-02-10 00:00:00') /* Tusker Redeemer (22520
      , (0x75C450ED, 0x75C451CF, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
      , (0x75C450ED, 0x75C451D0, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
      , (0x75C450ED, 0x75C451D1, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
-     , (0x75C450ED, 0x75C451D2, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */;
+     , (0x75C450ED, 0x75C451D2, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x75C450ED, 0x75C451D3, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450ED, 0x75C451D4, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450ED, 0x75C451D5, '2019-02-10 00:00:00') /* Tusker Redeemer (22601) */
+     , (0x75C450ED, 0x75C451D6, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */
+     , (0x75C450ED, 0x75C451D7, '2019-02-10 00:00:00') /* Tusker Redeemer (22600) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C450EE, 22520, 0x5C45033B, 234.805, -90.7614, 0.009899974, 0.383576, 0, 0, 0.923509,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -1154,3 +1159,23 @@ VALUES (0x75C451D1, 22520, 0x5C45014D, 43.8987, -132.1668, -11.9901, -0.389047, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75C451D2, 22520, 0x5C450176, 80.38132, -72.31193, -11.9901, -0.5614884, 0, 0, -0.8274845,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
 /* @teleloc 0x5C450176 [80.381320 -72.311930 -11.990100] -0.561488 0.000000 0.000000 -0.827485 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75C451D3, 22600, 0x5C4501AC, 115.8975, -155.9398, -11.9901, 0.05468951, 0, 0, -0.9985034,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
+/* @teleloc 0x5C4501AC [115.897500 -155.939800 -11.990100] 0.054690 0.000000 0.000000 -0.998503 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75C451D4, 22600, 0x5C4501AB, 116.0914, -152.2677, -11.9901, -0.6818616, 0, 0, -0.7314812,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
+/* @teleloc 0x5C4501AB [116.091400 -152.267700 -11.990100] -0.681862 0.000000 0.000000 -0.731481 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75C451D5, 22601, 0x5C450151, 53.96618, -86.4922, -11.9901, 0.3990485, 0, 0, -0.9169298,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
+/* @teleloc 0x5C450151 [53.966180 -86.492200 -11.990100] 0.399049 0.000000 0.000000 -0.916930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75C451D6, 22600, 0x5C4501A2, 114.0375, -95.16611, -11.9901, -0.00497713, 0, 0, -0.9999876,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
+/* @teleloc 0x5C4501A2 [114.037500 -95.166110 -11.990100] -0.004977 0.000000 0.000000 -0.999988 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75C451D7, 22600, 0x5C4501A8, 115.0913, -93.92367, -11.9901, 0.1813713, 0, 0, -0.9834147,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
+/* @teleloc 0x5C4501A8 [115.091300 -93.923670 -11.990100] 0.181371 0.000000 0.000000 -0.983415 */

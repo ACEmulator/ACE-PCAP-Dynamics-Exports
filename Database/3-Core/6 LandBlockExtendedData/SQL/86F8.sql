@@ -29,7 +29,9 @@ VALUES (0x786F8001, 0x786F8002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
      , (0x786F8001, 0x786F8017, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
      , (0x786F8001, 0x786F8018, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
      , (0x786F8001, 0x786F8019, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
-     , (0x786F8001, 0x786F801A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
+     , (0x786F8001, 0x786F801A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x786F8001, 0x786F801B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x786F8001, 0x786F801C, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786F8002, 24326, 0x86F8003A, 172.7322, 35.25137, -0.8925, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -130,3 +132,11 @@ VALUES (0x786F8019,  4254, 0x86F80007, 5.141787, 164.6496, -0.8960001, 0.8870109
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x786F801A,  1757, 0x86F80008, 0.5897795, 169.7485, -0.895, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x86F80008 [0.589780 169.748500 -0.895000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x786F801B, 21551, 0x86F8003A, 173.9735, 24.33775, -0.8935001, 0.9240682, 0, 0, -0.3822277,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
+/* @teleloc 0x86F8003A [173.973500 24.337750 -0.893500] 0.924068 0.000000 0.000000 -0.382228 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x786F801C, 21551, 0x86F8003A, 174.3775, 43.84969, -0.8935001, -0.5335618, 0, 0, -0.8457611,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
+/* @teleloc 0x86F8003A [174.377500 43.849690 -0.893500] -0.533562 0.000000 0.000000 -0.845761 */

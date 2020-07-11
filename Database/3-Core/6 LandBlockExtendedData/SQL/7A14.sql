@@ -17,7 +17,8 @@ VALUES (0x77A14001, 0x77A14002, '2019-02-10 00:00:00') /* Dark Revenant (4217) *
      , (0x77A14001, 0x77A1400B, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x77A14001, 0x77A1400C, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
      , (0x77A14001, 0x77A1400D, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
-     , (0x77A14001, 0x77A1400E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
+     , (0x77A14001, 0x77A1400E, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x77A14001, 0x77A1400F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A14002,  4217, 0x7A140005, 15.71385, 99.23639, 0.008249998, 0.418085, 0, 0, -0.9084079,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -70,3 +71,7 @@ VALUES (0x77A1400D,  7334, 0x7A140003, 21.13377, 71.51465, 2.0025, 0.9914449, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77A1400E,  7780, 0x7A14000C, 24.58593, 88.55743, 0.6715418, 0.418085, 0, 0, -0.9084079,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
 /* @teleloc 0x7A14000C [24.585930 88.557430 0.671542] 0.418085 0.000000 0.000000 -0.908408 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77A1400F,  4217, 0x7A140003, 16.64715, 53.09763, 2.00825, 0.418085, 0, 0, -0.9084079,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
+/* @teleloc 0x7A140003 [16.647150 53.097630 2.008250] 0.418085 0.000000 0.000000 -0.908408 */

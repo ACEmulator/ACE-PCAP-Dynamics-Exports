@@ -88,7 +88,14 @@ VALUES (0x7019400E, 0x7019400F, '2019-02-10 00:00:00') /* Voracious Eater (28639
      , (0x7019400E, 0x70194053, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
      , (0x7019400E, 0x70194054, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
      , (0x7019400E, 0x70194055, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
-     , (0x7019400E, 0x70194056, '2019-02-10 00:00:00') /* Voracious Eater (28639) */;
+     , (0x7019400E, 0x70194056, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7019400E, 0x70194057, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7019400E, 0x70194058, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7019400E, 0x70194059, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7019400E, 0x7019405A, '2019-02-10 00:00:00') /* Voracious Eater (28850) */
+     , (0x7019400E, 0x7019405B, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7019400E, 0x7019405C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x7019400E, 0x7019405D, '2019-02-10 00:00:00') /* Voracious Eater (28850) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7019400F, 28639, 0x01940144, 56.6466, -50.1807, 12, 0.586445, 0, 0, 0.809989,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
@@ -379,57 +386,165 @@ VALUES (0x70194056, 28639, 0x0194021C, 80.17267, -65.7428, 54, -0.06886777, 0, 0
 /* @teleloc 0x0194021C [80.172670 -65.742800 54.000000] -0.068868 0.000000 0.000000 -0.997626 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70194057,  1542, 0x01940163, 81.57699, -29.37475, 11.937, 0.772385, 0, 0, 0.6351547, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70194057, 28639, 0x01940210, 74.74123, -78.14546, 36.30483, -0.9561267, 0, 0, -0.2929534,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x01940210 [74.741230 -78.145460 36.304830] -0.956127 0.000000 0.000000 -0.292953 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194058, 28639, 0x0194018C, 16.42776, -95.91721, 18, 0.8198669, 0, 0, -0.5725542,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x0194018C [16.427760 -95.917210 18.000000] 0.819867 0.000000 0.000000 -0.572554 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194059, 28639, 0x01940160, 78.27877, -23.21383, 12, -0.5908288, 0, 0, -0.806797,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x01940160 [78.278770 -23.213830 12.000000] -0.590829 0.000000 0.000000 -0.806797 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019405A, 28850, 0x01940108, 18.62957, -92.25874, 0, -0.7229286, 0, 0, -0.6909227,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x01940108 [18.629570 -92.258740 0.000000] -0.722929 0.000000 0.000000 -0.690923 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019405B, 28639, 0x01940103, 14.47252, -93.35279, 0, 0.874971, 0, 0, -0.4841754,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x01940103 [14.472520 -93.352790 0.000000] 0.874971 0.000000 0.000000 -0.484175 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019405C, 28639, 0x01940100, 3.943109, -104.5577, 0, -0.3988709, 0, 0, -0.9170071,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x01940100 [3.943109 -104.557700 0.000000] -0.398871 0.000000 0.000000 -0.917007 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019405D, 28850, 0x01940111, 26.36163, -117.0752, 0, 0.1882497, 0, 0, -0.9821212,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
+/* @teleloc 0x01940111 [26.361630 -117.075200 0.000000] 0.188250 0.000000 0.000000 -0.982121 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019405E,  1542, 0x01940163, 81.57699, -29.37475, 11.937, 0.772385, 0, 0, 0.6351547, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x01940163 [81.576990 -29.374750 11.937000] 0.772385 0.000000 0.000000 0.635155 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70194057, 0x70194058, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70194057, 0x70194059, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70194057, 0x7019405A, '2019-02-10 00:00:00') /* Scroll of Wrath of Celcynd (20539) */
-     , (0x70194057, 0x7019405B, '2019-02-10 00:00:00') /* Aura of Infected Spirit Caress Scroll (28008) */
-     , (0x70194057, 0x7019405C, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70194057, 0x7019405D, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70194057, 0x7019405E, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70194057, 0x7019405F, '2019-02-10 00:00:00') /* Round Shield (93) */
-     , (0x70194057, 0x70194060, '2019-02-10 00:00:00') /* Ring (624) */
-     , (0x70194057, 0x70194061, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x7019405E, 0x7019405F, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7019405E, 0x70194060, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7019405E, 0x70194061, '2019-02-10 00:00:00') /* Scroll of Wrath of Celcynd (20539) */
+     , (0x7019405E, 0x70194062, '2019-02-10 00:00:00') /* Aura of Infected Spirit Caress Scroll (28008) */
+     , (0x7019405E, 0x70194063, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7019405E, 0x70194064, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7019405E, 0x70194065, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7019405E, 0x70194066, '2019-02-10 00:00:00') /* Round Shield (93) */
+     , (0x7019405E, 0x70194067, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7019405E, 0x70194068, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7019405E, 0x70194069, '2019-02-10 00:00:00') /* Scroll of Saladur's Boon (20579) */
+     , (0x7019405E, 0x7019406A, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing (20427) */
+     , (0x7019405E, 0x7019406B, '2019-02-10 00:00:00') /* Scroll of Brogard's Defiance (20418) */
+     , (0x7019405E, 0x7019406C, '2019-02-10 00:00:00') /* Scroll of Finesse Weapon Mastery Other VII (20520) */
+     , (0x7019405E, 0x7019406D, '2019-02-10 00:00:00') /* Scroll of Finesse Weapon Mastery Self VII (20521) */
+     , (0x7019405E, 0x7019406E, '2019-02-10 00:00:00') /* Aura of Infected Caress (20406) */
+     , (0x7019405E, 0x7019406F, '2019-02-10 00:00:00') /* Scroll of Wrath of the Hieromancer (20594) */
+     , (0x7019405E, 0x70194070, '2019-02-10 00:00:00') /* Scroll of Might of the 5 Mules (20253) */
+     , (0x7019405E, 0x70194071, '2019-02-10 00:00:00') /* Aura of Heartseeker Other VII (46881) */
+     , (0x7019405E, 0x70194072, '2019-02-10 00:00:00') /* Scroll of Temeritous Touch (20236) */
+     , (0x7019405E, 0x70194073, '2019-02-10 00:00:00') /* Scroll of Morimoto's Boon (20511) */
+     , (0x7019405E, 0x70194074, '2019-02-10 00:00:00') /* Scroll of Celcynd's Blessing (20541) */
+     , (0x7019405E, 0x70194075, '2019-02-10 00:00:00') /* Scroll of Lilitha's Blessing (20531) */
+     , (0x7019405E, 0x70194076, '2019-02-10 00:00:00') /* Scroll of Missile Weapon Ineptitude Other VII (20507) */
+     , (0x7019405E, 0x70194077, '2019-02-10 00:00:00') /* Scroll of Dual Wield Ineptitude Other VII (45266) */
+     , (0x7019405E, 0x70194078, '2019-02-10 00:00:00') /* Scroll of Ar-Pei's Boon (20550) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70194058,  1955, 0x01940163, 81.57699, -29.37475, 11.937, 0.772385, 0, 0, 0.6351547,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7019405F,  1955, 0x01940163, 81.57699, -29.37475, 11.937, 0.772385, 0, 0, 0.6351547,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x01940163 [81.576990 -29.374750 11.937000] 0.772385 0.000000 0.000000 0.635155 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70194059,  1955, 0x01940118, 78.06226, -31.21358, -0.06299996, 0.6685328, 0, 0, -0.7436826,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70194060,  1955, 0x01940118, 78.06226, -31.21358, -0.06299996, 0.6685328, 0, 0, -0.7436826,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x01940118 [78.062260 -31.213580 -0.063000] 0.668533 0.000000 0.000000 -0.743683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019405A, 20539, 0x019401D4, 55.80764, -53.3752, 24.0855, 0.413463, 0, 0, -0.910521,  True, '2019-02-10 00:00:00'); /* Scroll of Wrath of Celcynd */
+VALUES (0x70194061, 20539, 0x019401D4, 55.80764, -53.3752, 24.0855, 0.413463, 0, 0, -0.910521,  True, '2019-02-10 00:00:00'); /* Scroll of Wrath of Celcynd */
 /* @teleloc 0x019401D4 [55.807640 -53.375200 24.085500] 0.413463 0.000000 0.000000 -0.910521 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019405B, 28008, 0x0194010C, 16.31034, -127.2503, 0.0855, 0.823218, 0, 0, -0.5677254,  True, '2019-02-10 00:00:00'); /* Aura of Infected Spirit Caress Scroll */
+VALUES (0x70194062, 28008, 0x0194010C, 16.31034, -127.2503, 0.0855, 0.823218, 0, 0, -0.5677254,  True, '2019-02-10 00:00:00'); /* Aura of Infected Spirit Caress Scroll */
 /* @teleloc 0x0194010C [16.310340 -127.250300 0.085500] 0.823218 0.000000 0.000000 -0.567725 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019405C,  1955, 0x01940116, 73.91615, -29.802, -0.06299996, 0.7088406, 0, 0, -0.7053687,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70194063,  1955, 0x01940116, 73.91615, -29.802, -0.06299996, 0.7088406, 0, 0, -0.7053687,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x01940116 [73.916150 -29.802000 -0.063000] 0.708841 0.000000 0.000000 -0.705369 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019405D,  1955, 0x019401A7, 84.23518, -17.23794, 17.937, -0.6712351, 0, 0, -0.7412445,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70194064,  1955, 0x019401A7, 84.23518, -17.23794, 17.937, -0.6712351, 0, 0, -0.7412445,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x019401A7 [84.235180 -17.237940 17.937000] -0.671235 0.000000 0.000000 -0.741245 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019405E,  1955, 0x01940105, 8.133896, -110.3024, -0.06299996, -0.7140834, 0, 0, -0.7000606,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70194065,  1955, 0x01940105, 8.133896, -110.3024, -0.06299996, -0.7140834, 0, 0, -0.7000606,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x01940105 [8.133896 -110.302400 -0.063000] -0.714083 0.000000 0.000000 -0.700061 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7019405F,    93, 0x01940157, 65.35837, -29.54068, 12.014, 0.8905364, 0, 0, -0.454912,  True, '2019-02-10 00:00:00'); /* Round Shield */
+VALUES (0x70194066,    93, 0x01940157, 65.35837, -29.54068, 12.014, 0.8905364, 0, 0, -0.454912,  True, '2019-02-10 00:00:00'); /* Round Shield */
 /* @teleloc 0x01940157 [65.358370 -29.540680 12.014000] 0.890536 0.000000 0.000000 -0.454912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70194060,   624, 0x01940195, 70.65505, -3.852329, 18.0205, 0.03126329, 0, 0, 0.9995112,  True, '2019-02-10 00:00:00'); /* Ring */
+VALUES (0x70194067,   624, 0x01940195, 70.65505, -3.852329, 18.0205, 0.03126329, 0, 0, 0.9995112,  True, '2019-02-10 00:00:00'); /* Ring */
 /* @teleloc 0x01940195 [70.655050 -3.852329 18.020500] 0.031263 0.000000 0.000000 0.999511 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70194061,  1955, 0x01940105, 12.05935, -109.2815, -0.06299996, -0.7207682, 0, 0, -0.6931762,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70194068,  1955, 0x01940105, 12.05935, -109.2815, -0.06299996, -0.7207682, 0, 0, -0.6931762,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x01940105 [12.059350 -109.281500 -0.063000] -0.720768 0.000000 0.000000 -0.693176 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194069, 20579, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Saladur's Boon */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019406A, 20427, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aura of Mystic's Blessing */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019406B, 20418, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Brogard's Defiance */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019406C, 20520, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Finesse Weapon Mastery Other VII */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019406D, 20521, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Finesse Weapon Mastery Self VII */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019406E, 20406, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aura of Infected Caress */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7019406F, 20594, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Wrath of the Hieromancer */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194070, 20253, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Might of the 5 Mules */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194071, 46881, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aura of Heartseeker Other VII */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194072, 20236, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Temeritous Touch */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194073, 20511, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Morimoto's Boon */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194074, 20541, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Celcynd's Blessing */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194075, 20531, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Lilitha's Blessing */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194076, 20507, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Missile Weapon Ineptitude Other VII */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194077, 45266, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Dual Wield Ineptitude Other VII */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70194078, 20550, 0x01940119, 80, -39.3375, 0.0855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scroll of Ar-Pei's Boon */
+/* @teleloc 0x01940119 [80.000000 -39.337500 0.085500] 1.000000 0.000000 0.000000 0.000000 */

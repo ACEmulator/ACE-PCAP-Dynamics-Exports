@@ -23,7 +23,8 @@ VALUES (0x7142E001, 0x7142E002, '2019-02-10 00:00:00') /* Tiatus Raider (36838) 
      , (0x7142E001, 0x7142E011, '2019-02-10 00:00:00') /* Caustic (14516) */
      , (0x7142E001, 0x7142E012, '2019-02-10 00:00:00') /* Caustic (14516) */
      , (0x7142E001, 0x7142E013, '2019-02-10 00:00:00') /* Caustic (14516) */
-     , (0x7142E001, 0x7142E014, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */;
+     , (0x7142E001, 0x7142E014, '2019-02-10 00:00:00') /* Skeletal Hero (24315) */
+     , (0x7142E001, 0x7142E015, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142E002, 36838, 0x142E003F, 169.1059, 155.2027, 16.71851, 0.8035614, 0, 0, -0.5952218,  True, '2019-02-10 00:00:00'); /* Tiatus Raider */
@@ -100,3 +101,7 @@ VALUES (0x7142E013, 14516, 0x142E001D, 80.46737, 108.3553, 13.62588, -0.9940694,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7142E014, 24315, 0x142E0034, 151.9585, 79.70496, 0.002499998, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
 /* @teleloc 0x142E0034 [151.958500 79.704960 0.002500] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7142E015, 36836, 0x142E001C, 84.72117, 79.52917, 10.82971, -0.9940694, 0, 0, -0.1087474,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
+/* @teleloc 0x142E001C [84.721170 79.529170 10.829710] -0.994069 0.000000 0.000000 -0.108747 */

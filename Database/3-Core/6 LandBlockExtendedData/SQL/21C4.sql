@@ -21,7 +21,8 @@ VALUES (0x721C4001, 0x721C4002, '2019-02-10 00:00:00') /* Rabid Eater (28636) */
      , (0x721C4001, 0x721C400F, '2019-02-10 00:00:00') /* Hea Champion (27714) */
      , (0x721C4001, 0x721C4010, '2019-02-10 00:00:00') /* Hea Champion (27714) */
      , (0x721C4001, 0x721C4011, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
-     , (0x721C4001, 0x721C4012, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */;
+     , (0x721C4001, 0x721C4012, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
+     , (0x721C4001, 0x721C4013, '2019-02-10 00:00:00') /* Aun Herbalist (36112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C4002, 28636, 0x21C4003D, 175.2798, 104.1221, 47.89015, -0.9094466, 0, 0, -0.4158207,  True, '2019-02-10 00:00:00'); /* Rabid Eater */
@@ -90,3 +91,7 @@ VALUES (0x721C4011, 10954, 0x21C40028, 104.3871, 185.4123, 54.99354, -0.1063795,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x721C4012, 28653, 0x21C40036, 158.0864, 120.9687, 45.77057, -0.9094466, 0, 0, -0.4158207,  True, '2019-02-10 00:00:00'); /* Viamontian Knight */
 /* @teleloc 0x21C40036 [158.086400 120.968700 45.770570] -0.909447 0.000000 0.000000 -0.415821 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x721C4013, 36112, 0x21C40030, 129.0214, 187.866, 60.73241, -0.1063795, 0, 0, -0.9943256,  True, '2019-02-10 00:00:00'); /* Aun Herbalist */
+/* @teleloc 0x21C40030 [129.021400 187.866000 60.732410] -0.106380 0.000000 0.000000 -0.994326 */

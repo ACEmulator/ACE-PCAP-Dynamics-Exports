@@ -12,7 +12,8 @@ VALUES (0x7C621001, 0x7C621002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (
      , (0x7C621001, 0x7C621006, '2019-02-10 00:00:00') /* Flare (5710) */
      , (0x7C621001, 0x7C621007, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x7C621001, 0x7C621008, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
-     , (0x7C621001, 0x7C621009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
+     , (0x7C621001, 0x7C621009, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x7C621001, 0x7C62100A, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C621002,  7334, 0xC6210035, 158.3001, 99.78242, 194.0025, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -47,12 +48,16 @@ VALUES (0x7C621009,  7090, 0xC621003F, 184.3482, 153.8649, 196.3734, 0.0963166, 
 /* @teleloc 0xC621003F [184.348200 153.864900 196.373400] 0.096317 0.000000 0.000000 -0.995351 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C62100A,  1542, 0xC6210035, 158.9649, 100.0234, 195.7161, 0.9914449, 0, 0, -0.1305262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C62100A,  7980, 0xC621003D, 176.7982, 96.20377, 196.9309, 0.5367489, 0, 0, -0.843742,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
+/* @teleloc 0xC621003D [176.798200 96.203770 196.930900] 0.536749 0.000000 0.000000 -0.843742 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C62100B,  1542, 0xC6210035, 158.9649, 100.0234, 195.7161, 0.9914449, 0, 0, -0.1305262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC6210035 [158.964900 100.023400 195.716100] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C62100A, 0x7C62100B, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x7C62100B, 0x7C62100C, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C62100B,  4380, 0xC6210035, 158.9649, 100.0234, 195.7161, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7C62100C,  4380, 0xC6210035, 158.9649, 100.0234, 195.7161, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xC6210035 [158.964900 100.023400 195.716100] 0.991445 0.000000 0.000000 -0.130526 */

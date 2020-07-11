@@ -18,7 +18,8 @@ VALUES (0x7B69B002, 0x7B69B003, '2019-02-10 00:00:00') /* Wood Golem (942) */
      , (0x7B69B002, 0x7B69B005, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
      , (0x7B69B002, 0x7B69B006, '2019-02-10 00:00:00') /* Banderling Raider (938) */
      , (0x7B69B002, 0x7B69B007, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
-     , (0x7B69B002, 0x7B69B008, '2019-02-10 00:00:00') /* Wood Golem (942) */;
+     , (0x7B69B002, 0x7B69B008, '2019-02-10 00:00:00') /* Wood Golem (942) */
+     , (0x7B69B002, 0x7B69B009, '2019-02-10 00:00:00') /* Mite Digger (944) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69B003,   942, 0xB69B001D, 94.1536, 104.7522, 54.01, 0.9750987, 0, 0, -0.2217711,  True, '2019-02-10 00:00:00'); /* Wood Golem */
@@ -43,3 +44,7 @@ VALUES (0x7B69B007,  1612, 0xB69B001D, 88.85463, 100.2109, 54.0045, 0.9750987, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69B008,   942, 0xB69B0003, 12.37836, 60.51979, 53.05331, -0.3517778, 0, 0, -0.9360836,  True, '2019-02-10 00:00:00'); /* Wood Golem */
 /* @teleloc 0xB69B0003 [12.378360 60.519790 53.053310] -0.351778 0.000000 0.000000 -0.936084 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B69B009,   944, 0xB69B001E, 84.8976, 136.0779, 54.005, 0.9750987, 0, 0, -0.2217711,  True, '2019-02-10 00:00:00'); /* Mite Digger */
+/* @teleloc 0xB69B001E [84.897600 136.077900 54.005000] 0.975099 0.000000 0.000000 -0.221771 */

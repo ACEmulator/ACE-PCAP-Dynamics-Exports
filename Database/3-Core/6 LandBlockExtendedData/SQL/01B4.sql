@@ -137,7 +137,9 @@ VALUES (0x701B4035, 0x701B4036, '2019-02-10 00:00:00') /* Studded Leather Shirt 
      , (0x701B4035, 0x701B403B, '2019-02-10 00:00:00') /* Scroll of Lightning Arc IV (21326) */
      , (0x701B4035, 0x701B403C, '2019-02-10 00:00:00') /* Lace Shirt (28607) */
      , (0x701B4035, 0x701B403D, '2019-02-10 00:00:00') /* Diforsa Tassets (28626) */
-     , (0x701B4035, 0x701B403E, '2019-02-10 00:00:00') /* Mana Stone (2435) */;
+     , (0x701B4035, 0x701B403E, '2019-02-10 00:00:00') /* Mana Stone (2435) */
+     , (0x701B4035, 0x701B403F, '2019-02-10 00:00:00') /* Circlet (31865) */
+     , (0x701B4035, 0x701B4040, '2019-02-10 00:00:00') /* Studded Leather Tassets (112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B4036,    99, 0x01B40127, 73.47655, -41.00953, 0, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Studded Leather Shirt */
@@ -174,3 +176,11 @@ VALUES (0x701B403D, 28626, 0x01B40127, 72.97279, -42.46972, 0.0665, 0, 0, 0, -1,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701B403E,  2435, 0x01B40127, 71.98196, -40.27507, 0, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Mana Stone */
 /* @teleloc 0x01B40127 [71.981960 -40.275070 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701B403F, 31865, 0x01B40127, 70.56598, -39.38057, 0.058, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Circlet */
+/* @teleloc 0x01B40127 [70.565980 -39.380570 0.058000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701B4040,   112, 0x01B40127, 71.04532, -41.69233, -0.009974971, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Studded Leather Tassets */
+/* @teleloc 0x01B40127 [71.045320 -41.692330 -0.009975] 0.000000 0.000000 0.000000 -1.000000 */

@@ -32,7 +32,11 @@ VALUES (0x7CAEE001, 0x7CAEE002, '2019-02-10 00:00:00') /* Parfal Sleech (33739) 
      , (0x7CAEE001, 0x7CAEE01A, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
      , (0x7CAEE001, 0x7CAEE01B, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
      , (0x7CAEE001, 0x7CAEE01C, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
-     , (0x7CAEE001, 0x7CAEE01D, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */;
+     , (0x7CAEE001, 0x7CAEE01D, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7CAEE001, 0x7CAEE01E, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7CAEE001, 0x7CAEE01F, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7CAEE001, 0x7CAEE020, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7CAEE001, 0x7CAEE021, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CAEE002, 33739, 0xCAEE001D, 74.89124, 102.9542, 0, 0.1674633, 0, 0, -0.9858783,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
@@ -147,12 +151,28 @@ VALUES (0x7CAEE01D, 40281, 0xCAEE000F, 28.63033, 147.138, 0, -0.5348622, 0, 0, -
 /* @teleloc 0xCAEE000F [28.630330 147.138000 0.000000] -0.534862 0.000000 0.000000 -0.844939 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAEE01E,  1542, 0xCAEE001A, 77.06278, 30.77944, 0, -0.9182245, 0, 0, -0.3960604, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7CAEE01E, 33732, 0xCAEE000F, 30.22262, 150.0027, 0, -0.5348622, 0, 0, -0.8449394,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xCAEE000F [30.222620 150.002700 0.000000] -0.534862 0.000000 0.000000 -0.844939 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEE01F, 33739, 0xCAEE001D, 80.70326, 104.245, 0, 0.1674633, 0, 0, -0.9858783,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xCAEE001D [80.703260 104.245000 0.000000] 0.167463 0.000000 0.000000 -0.985878 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEE020, 40286, 0xCAEE001D, 80.90249, 99.29925, 0, 0.1674633, 0, 0, -0.9858783,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xCAEE001D [80.902490 99.299250 0.000000] 0.167463 0.000000 0.000000 -0.985878 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEE021, 40286, 0xCAEE001D, 77.63124, 100.7913, 0, 0.1674633, 0, 0, -0.9858783,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xCAEE001D [77.631240 100.791300 0.000000] 0.167463 0.000000 0.000000 -0.985878 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CAEE022,  1542, 0xCAEE001A, 77.06278, 30.77944, 0, -0.9182245, 0, 0, -0.3960604, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xCAEE001A [77.062780 30.779440 0.000000] -0.918225 0.000000 0.000000 -0.396060 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CAEE01E, 0x7CAEE01F, '2019-02-10 00:00:00') /* Black Coral (38613) */;
+VALUES (0x7CAEE022, 0x7CAEE023, '2019-02-10 00:00:00') /* Black Coral (38613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CAEE01F, 38613, 0xCAEE001A, 77.06278, 30.77944, 0, -0.9182245, 0, 0, -0.3960604,  True, '2019-02-10 00:00:00'); /* Black Coral */
+VALUES (0x7CAEE023, 38613, 0xCAEE001A, 77.06278, 30.77944, 0, -0.9182245, 0, 0, -0.3960604,  True, '2019-02-10 00:00:00'); /* Black Coral */
 /* @teleloc 0xCAEE001A [77.062780 30.779440 0.000000] -0.918225 0.000000 0.000000 -0.396060 */

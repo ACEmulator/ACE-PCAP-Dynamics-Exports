@@ -18,7 +18,8 @@ VALUES (0x7E630001, 0x7E630002, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
      , (0x7E630001, 0x7E630008, '2019-02-10 00:00:00') /* Goldenback Tusker (235) */
      , (0x7E630001, 0x7E630009, '2019-02-10 00:00:00') /* Granite Golem (195) */
      , (0x7E630001, 0x7E63000A, '2019-02-10 00:00:00') /* Granite Golem (195) */
-     , (0x7E630001, 0x7E63000B, '2019-02-10 00:00:00') /* Horripal (20191) */;
+     , (0x7E630001, 0x7E63000B, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x7E630001, 0x7E63000C, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E630002,  7992, 0xE630000B, 43.48766, 48.28771, 115.0348, -0.7223149, 0, 0, -0.6915643,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */
@@ -59,3 +60,7 @@ VALUES (0x7E63000A,   195, 0xE630000A, 46.0508, 40.04242, 117.3133, 0.1736482, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E63000B, 20191, 0xE6300021, 102.361, 5.548924, 110.1007, -0.4835913, 0, 0, -0.8752939,  True, '2019-02-10 00:00:00'); /* Horripal */
 /* @teleloc 0xE6300021 [102.361000 5.548924 110.100700] -0.483591 0.000000 0.000000 -0.875294 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E63000C, 24943, 0xE630003C, 187.1304, 88.94075, 90.41579, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Obeloth */
+/* @teleloc 0xE630003C [187.130400 88.940750 90.415790] 0.258819 0.000000 0.000000 -0.965926 */

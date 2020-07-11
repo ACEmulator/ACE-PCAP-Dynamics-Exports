@@ -278,7 +278,9 @@ VALUES (0x79058045, 0x79058046, '2019-02-10 00:00:00') /* Apprentice Cook (27744
      , (0x79058045, 0x79058080, '2019-02-10 00:00:00') /* Town Crier (5775) */
      , (0x79058045, 0x79058081, '2019-02-10 00:00:00') /* Town Crier (5775) */
      , (0x79058045, 0x79058082, '2019-02-10 00:00:00') /* Town Crier (5775) */
-     , (0x79058045, 0x79058083, '2019-02-10 00:00:00') /* Town Crier (5775) */;
+     , (0x79058045, 0x79058083, '2019-02-10 00:00:00') /* Town Crier (5775) */
+     , (0x79058045, 0x79058084, '2019-02-10 00:00:00') /* Town Crier (5775) */
+     , (0x79058045, 0x79058085, '2019-02-10 00:00:00') /* Town Crier (5775) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79058046, 27744, 0x9058013E, 150.461, 114.783, -0.2950001, -0.111414, 0, 0, 0.993774,  True, '2019-02-10 00:00:00'); /* Apprentice Cook */
@@ -529,32 +531,40 @@ VALUES (0x79058083,  5775, 0x9058000F, 36.15318, 159.4249, 5.290411, 0.9976986, 
 /* @teleloc 0x9058000F [36.153180 159.424900 5.290411] 0.997699 0.000000 0.000000 0.067805 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79058084,  1542, 0x90580130, 59.6273, 58.2554, 0.660375, 0.993829, 0, 0, -0.110924, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79058084,  5775, 0x9058001C, 91.97451, 86.60233, -0.09500003, 0.125157, 0, 0, -0.992137,  True, '2019-02-10 00:00:00'); /* Town Crier */
+/* @teleloc 0x9058001C [91.974510 86.602330 -0.095000] 0.125157 0.000000 0.000000 -0.992137 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79058085,  5775, 0x9058001C, 92.30433, 87.16091, -0.09500003, 0.125157, 0, 0, -0.992137,  True, '2019-02-10 00:00:00'); /* Town Crier */
+/* @teleloc 0x9058001C [92.304330 87.160910 -0.095000] 0.125157 0.000000 0.000000 -0.992137 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79058086,  1542, 0x90580130, 59.6273, 58.2554, 0.660375, 0.993829, 0, 0, -0.110924, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x90580130 [59.627300 58.255400 0.660375] 0.993829 0.000000 0.000000 -0.110924 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79058084, 0x79058085, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem (45981) */
-     , (0x79058084, 0x79058086, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
-     , (0x79058084, 0x79058087, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
-     , (0x79058084, 0x79058088, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x79058084, 0x79058089, '2019-02-10 00:00:00') /* Minor Mana Stone (27331) */;
+VALUES (0x79058086, 0x79058087, '2019-02-10 00:00:00') /* Explorer Light Weapons Gem (45981) */
+     , (0x79058086, 0x79058088, '2019-02-10 00:00:00') /* Explorer Finesse Weapons Gem (45983) */
+     , (0x79058086, 0x79058089, '2019-02-10 00:00:00') /* Explorer Heavy Weapons Gem (45990) */
+     , (0x79058086, 0x7905808A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x79058086, 0x7905808B, '2019-02-10 00:00:00') /* Minor Mana Stone (27331) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79058085, 45981, 0x90580130, 59.6273, 58.2554, 0.660375, 0.993829, 0, 0, -0.110924,  True, '2019-02-10 00:00:00'); /* Explorer Light Weapons Gem */
+VALUES (0x79058087, 45981, 0x90580130, 59.6273, 58.2554, 0.660375, 0.993829, 0, 0, -0.110924,  True, '2019-02-10 00:00:00'); /* Explorer Light Weapons Gem */
 /* @teleloc 0x90580130 [59.627300 58.255400 0.660375] 0.993829 0.000000 0.000000 -0.110924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79058086, 45983, 0x90580130, 59.1581, 58.9066, 0.660375, 0.993829, 0, 0, -0.110924,  True, '2019-02-10 00:00:00'); /* Explorer Finesse Weapons Gem */
+VALUES (0x79058088, 45983, 0x90580130, 59.1581, 58.9066, 0.660375, 0.993829, 0, 0, -0.110924,  True, '2019-02-10 00:00:00'); /* Explorer Finesse Weapons Gem */
 /* @teleloc 0x90580130 [59.158100 58.906600 0.660375] 0.993829 0.000000 0.000000 -0.110924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79058087, 45990, 0x90580130, 58.6856, 59.5393, 0.660375, 0.993829, 0, 0, -0.110924,  True, '2019-02-10 00:00:00'); /* Explorer Heavy Weapons Gem */
+VALUES (0x79058089, 45990, 0x90580130, 58.6856, 59.5393, 0.660375, 0.993829, 0, 0, -0.110924,  True, '2019-02-10 00:00:00'); /* Explorer Heavy Weapons Gem */
 /* @teleloc 0x90580130 [58.685600 59.539300 0.660375] 0.993829 0.000000 0.000000 -0.110924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79058088,  1955, 0x9058003D, 181.4646, 107.783, -0.0629999, 0.8122563, 0, 0, -0.5833007,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7905808A,  1955, 0x9058003D, 181.4646, 107.783, -0.0629999, 0.8122563, 0, 0, -0.5833007,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x9058003D [181.464600 107.783000 -0.063000] 0.812256 0.000000 0.000000 -0.583301 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79058089, 27331, 0x90580130, 55.50049, 56.34874, 0, -0.4395311, 0, 0, -0.8982273,  True, '2019-02-10 00:00:00'); /* Minor Mana Stone */
+VALUES (0x7905808B, 27331, 0x90580130, 55.50049, 56.34874, 0, -0.4395311, 0, 0, -0.8982273,  True, '2019-02-10 00:00:00'); /* Minor Mana Stone */
 /* @teleloc 0x90580130 [55.500490 56.348740 0.000000] -0.439531 0.000000 0.000000 -0.898227 */

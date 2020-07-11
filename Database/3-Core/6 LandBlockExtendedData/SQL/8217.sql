@@ -12,7 +12,9 @@ VALUES (0x78217001, 0x78217002, '2019-02-10 00:00:00') /* Foul Moarsman (4247) *
      , (0x78217001, 0x78217006, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
      , (0x78217001, 0x78217007, '2019-02-10 00:00:00') /* Mosswart Zealot (8429) */
      , (0x78217001, 0x78217008, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
-     , (0x78217001, 0x78217009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
+     , (0x78217001, 0x78217009, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x78217001, 0x7821700A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x78217001, 0x7821700B, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78217002,  4247, 0x8217002D, 126.8999, 99.41087, 42.12219, -0.6945645, 0, 0, -0.7194305,  True, '2019-02-10 00:00:00'); /* Foul Moarsman */
@@ -45,3 +47,11 @@ VALUES (0x78217008,  4217, 0x8217003F, 188.0929, 148.5141, 30.71973, 0.3568551, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78217009,  4217, 0x8217002E, 132.7747, 135.7059, 20.21089, -0.6945645, 0, 0, -0.7194305,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
 /* @teleloc 0x8217002E [132.774700 135.705900 20.210890] -0.694565 0.000000 0.000000 -0.719431 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7821700A,  7109, 0x8217002C, 121.0533, 86.5666, 42.52097, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
+/* @teleloc 0x8217002C [121.053300 86.566600 42.520970] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7821700B,  7109, 0x8217002C, 122.3888, 74.20591, 45.70974, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
+/* @teleloc 0x8217002C [122.388800 74.205910 45.709740] 0.000000 0.000000 0.000000 -1.000000 */

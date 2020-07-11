@@ -10,7 +10,10 @@ VALUES (0x72829001, 0x72829002, '2019-02-10 00:00:00') /* Tumerok Trooper (23566
      , (0x72829001, 0x72829004, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
      , (0x72829001, 0x72829005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
      , (0x72829001, 0x72829006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x72829001, 0x72829007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
+     , (0x72829001, 0x72829007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72829001, 0x72829008, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
+     , (0x72829001, 0x72829009, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
+     , (0x72829001, 0x7282900A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72829002, 23566, 0x2829003A, 191.0785, 33.44701, 32.81545, -0.7017854, 0, 0, -0.7123884,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
@@ -35,3 +38,15 @@ VALUES (0x72829006,  9264, 0x2829003A, 188.7017, 42.36532, 32.34241, 0.9659258, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72829007,  9264, 0x2829003A, 181.8608, 35.79137, 36.28842, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
 /* @teleloc 0x2829003A [181.860800 35.791370 36.288420] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72829008, 36823, 0x2829003A, 184.1324, 31.9246, 35.96196, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
+/* @teleloc 0x2829003A [184.132400 31.924600 35.961960] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72829009, 36825, 0x2829003A, 179.6144, 39.75774, 36.19365, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
+/* @teleloc 0x2829003A [179.614400 39.757740 36.193650] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7282900A, 36825, 0x2829003A, 185.6827, 35.24822, 34.76205, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Peerless Drudge */
+/* @teleloc 0x2829003A [185.682700 35.248220 34.762050] 0.000000 0.000000 0.000000 -1.000000 */

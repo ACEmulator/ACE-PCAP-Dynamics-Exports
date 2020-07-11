@@ -12,7 +12,8 @@ VALUES (0x72C4F001, 0x72C4F002, '2019-02-10 00:00:00') /* Void Knight (25663) */
      , (0x72C4F001, 0x72C4F006, '2019-02-10 00:00:00') /* K'nath N'aes (23559) */
      , (0x72C4F001, 0x72C4F007, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
      , (0x72C4F001, 0x72C4F008, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
-     , (0x72C4F001, 0x72C4F009, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */;
+     , (0x72C4F001, 0x72C4F009, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x72C4F001, 0x72C4F00A, '2019-02-10 00:00:00') /* Void Knight (25663) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C4F002, 25663, 0x2C4F0030, 138.6224, 177.656, 4.636327, 0.9966949, 0, 0, -0.08123674,  True, '2019-02-10 00:00:00'); /* Void Knight */
@@ -45,3 +46,7 @@ VALUES (0x72C4F008, 25659, 0x2C4F0030, 134.3726, 173.9184, 6.748326, 0.9966949, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C4F009, 25293, 0x2C4F0030, 141.2059, 173.4457, 4.28898, 0.9966949, 0, 0, -0.08123674,  True, '2019-02-10 00:00:00'); /* K'nath X'ela */
 /* @teleloc 0x2C4F0030 [141.205900 173.445700 4.288980] 0.996695 0.000000 0.000000 -0.081237 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C4F00A, 25663, 0x2C4F0030, 140.7121, 173.8946, 4.39253, 0.9966949, 0, 0, -0.08123674,  True, '2019-02-10 00:00:00'); /* Void Knight */
+/* @teleloc 0x2C4F0030 [140.712100 173.894600 4.392530] 0.996695 0.000000 0.000000 -0.081237 */

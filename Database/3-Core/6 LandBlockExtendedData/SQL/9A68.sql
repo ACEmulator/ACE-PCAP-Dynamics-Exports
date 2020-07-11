@@ -50,7 +50,9 @@ VALUES (0x79A68024, 0x79A68025, '2019-02-10 00:00:00') /* Desert Rat (1623) */
      , (0x79A68024, 0x79A6803F, '2019-02-10 00:00:00') /* Limestone Golem (198) */
      , (0x79A68024, 0x79A68040, '2019-02-10 00:00:00') /* Limestone Golem (198) */
      , (0x79A68024, 0x79A68041, '2019-02-10 00:00:00') /* Zombie (950) */
-     , (0x79A68024, 0x79A68042, '2019-02-10 00:00:00') /* Undead (16) */;
+     , (0x79A68024, 0x79A68042, '2019-02-10 00:00:00') /* Undead (16) */
+     , (0x79A68024, 0x79A68043, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x79A68024, 0x79A68044, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79A68025,  1623, 0x9A68010A, 31.099, 87.1869, 20.012, 0.453385, 0, 0, -0.891315,  True, '2019-02-10 00:00:00'); /* Desert Rat */
@@ -173,12 +175,20 @@ VALUES (0x79A68042,    16, 0x9A680004, 18.9432, 79.0563, 30.0075, 0.6427876, 0, 
 /* @teleloc 0x9A680004 [18.943200 79.056300 30.007500] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79A68043,  1542, 0x9A680004, 18.18814, 80.30125, 30, 0.6427876, 0, 0, -0.7660444, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79A68043,  4109, 0x9A68001B, 82.55821, 55.11161, 29.996, 0.6778544, 0, 0, -0.7351961,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
+/* @teleloc 0x9A68001B [82.558210 55.111610 29.996000] 0.677854 0.000000 0.000000 -0.735196 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79A68044,  1613, 0x9A680004, 2.805914, 79.3343, 30.0045, 0.4002053, 0, 0, -0.9164255,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */
+/* @teleloc 0x9A680004 [2.805914 79.334300 30.004500] 0.400205 0.000000 0.000000 -0.916426 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79A68045,  1542, 0x9A680004, 18.18814, 80.30125, 30, 0.6427876, 0, 0, -0.7660444, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9A680004 [18.188140 80.301250 30.000000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79A68043, 0x79A68044, '2019-02-10 00:00:00') /* Corpse (4381) */;
+VALUES (0x79A68045, 0x79A68046, '2019-02-10 00:00:00') /* Corpse (4381) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79A68044,  4381, 0x9A680004, 18.18814, 80.30125, 30, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x79A68046,  4381, 0x9A680004, 18.18814, 80.30125, 30, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x9A680004 [18.188140 80.301250 30.000000] 0.642788 0.000000 0.000000 -0.766044 */

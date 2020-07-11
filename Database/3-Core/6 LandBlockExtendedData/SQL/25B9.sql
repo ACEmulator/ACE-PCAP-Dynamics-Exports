@@ -30,3 +30,14 @@ VALUES (0x725B9005, 11511, 0x25B9000D, 33.70849, 111.1759, 117.198, 1, 0, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x725B9006, 11511, 0x25B9000D, 24.26561, 114.2437, 117.9849, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Nualuan */
 /* @teleloc 0x25B9000D [24.265610 114.243700 117.984900] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725B9007,  1542, 0x25B9000D, 28.0258, 117.2133, 119.2636, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x25B9000D [28.025800 117.213300 119.263600] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x725B9007, 0x725B9008, '2019-02-10 00:00:00') /* Small Hive Portal (11221) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x725B9008, 11221, 0x25B9000D, 28.0258, 117.2133, 119.2636, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Small Hive Portal */
+/* @teleloc 0x25B9000D [28.025800 117.213300 119.263600] 1.000000 0.000000 0.000000 0.000000 */

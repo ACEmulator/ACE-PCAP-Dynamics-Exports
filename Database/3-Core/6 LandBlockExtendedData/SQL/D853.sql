@@ -29,7 +29,11 @@ VALUES (0x7D853005, 0x7D853006, '2019-02-10 00:00:00') /* Wounded Drudge Skulker
      , (0x7D853005, 0x7D853013, '2019-02-10 00:00:00') /* Young Banderling (19256) */
      , (0x7D853005, 0x7D853014, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7D853005, 0x7D853015, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
-     , (0x7D853005, 0x7D853016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
+     , (0x7D853005, 0x7D853016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7D853005, 0x7D853017, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7D853005, 0x7D853018, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7D853005, 0x7D853019, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7D853005, 0x7D85301A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D853006,  5196, 0xD8530100, 79.2775, 182.834, 36.40833, -0.9904955, 0, 0, 0.1375449,  True, '2019-02-10 00:00:00'); /* Wounded Drudge Skulker */
@@ -100,12 +104,28 @@ VALUES (0x7D853016,  2567, 0xD8530028, 105.7924, 173.245, 32, 0.9687452, 0, 0, -
 /* @teleloc 0xD8530028 [105.792400 173.245000 32.000000] 0.968745 0.000000 0.000000 -0.248058 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D853017,  1154, 0xD8530100, 79.454, 186.352, 36.41, 0.5211217, 0, 0, -0.8534824, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7D853017, 19260, 0xD8530009, 28.57342, 5.331266, 33.62338, 0.04736518, 0, 0, -0.9988776,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
+/* @teleloc 0xD8530009 [28.573420 5.331266 33.623380] 0.047365 0.000000 0.000000 -0.998878 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D853018, 19258, 0xD8530022, 114.315, 29.58606, 29.53782, 0.7849676, 0, 0, -0.6195368,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0xD8530022 [114.315000 29.586060 29.537820] 0.784968 0.000000 0.000000 -0.619537 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D853019, 19256, 0xD8530033, 152.9178, 53.59888, 31.54058, -0.4308156, 0, 0, -0.90244,  True, '2019-02-10 00:00:00'); /* Young Banderling */
+/* @teleloc 0xD8530033 [152.917800 53.598880 31.540580] -0.430816 0.000000 0.000000 -0.902440 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D85301A,  2567, 0xD8530030, 122.3723, 181.3092, 32, 0.9687452, 0, 0, -0.2480577,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xD8530030 [122.372300 181.309200 32.000000] 0.968745 0.000000 0.000000 -0.248058 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D85301B,  1154, 0xD8530100, 79.454, 186.352, 36.41, 0.5211217, 0, 0, -0.8534824, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xD8530100 [79.454000 186.352000 36.410000] 0.521122 0.000000 0.000000 -0.853482 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D853017, 0x7D853018, '2019-02-10 00:00:00') /* Nen Ai (5197) */;
+VALUES (0x7D85301B, 0x7D85301C, '2019-02-10 00:00:00') /* Nen Ai (5197) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D853018,  5197, 0xD8530100, 79.454, 186.352, 36.41, 0.5211217, 0, 0, -0.8534824,  True, '2019-02-10 00:00:00'); /* Nen Ai */
+VALUES (0x7D85301C,  5197, 0xD8530100, 79.454, 186.352, 36.41, 0.5211217, 0, 0, -0.8534824,  True, '2019-02-10 00:00:00'); /* Nen Ai */
 /* @teleloc 0xD8530100 [79.454000 186.352000 36.410000] 0.521122 0.000000 0.000000 -0.853482 */

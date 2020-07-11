@@ -46,7 +46,12 @@ VALUES (0x779E9001, 0x779E9002, '2019-02-10 00:00:00') /* Pillar (43806) */
      , (0x779E9001, 0x779E9028, '2019-02-10 00:00:00') /* Flamma (5711) */
      , (0x779E9001, 0x779E9029, '2019-02-10 00:00:00') /* Flare (5710) */
      , (0x779E9001, 0x779E902A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
-     , (0x779E9001, 0x779E902B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
+     , (0x779E9001, 0x779E902B, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x779E9001, 0x779E902C, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x779E9001, 0x779E902D, '2019-02-10 00:00:00') /* Gold Golem (7096) */
+     , (0x779E9001, 0x779E902E, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x779E9001, 0x779E902F, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x779E9001, 0x779E9030, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x779E9002, 43806, 0x79E903B4, 12, 31.299, 156.4, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pillar */
@@ -217,22 +222,42 @@ VALUES (0x779E902B, 14520, 0x79E9002C, 125.3841, 77.44509, 159.5766, 0.4984532, 
 /* @teleloc 0x79E9002C [125.384100 77.445090 159.576600] 0.498453 0.000000 0.000000 -0.866917 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E902C,  1542, 0x79E9002B, 141.3691, 62.77038, 152.3503, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x779E902C,  7126, 0x79E90024, 115.5202, 91.17791, 165.9144, 0.7256542, 0, 0, -0.6880596,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
+/* @teleloc 0x79E90024 [115.520200 91.177910 165.914400] 0.725654 0.000000 0.000000 -0.688060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x779E902D,  7096, 0x79E90023, 111.9884, 57.00022, 158.9306, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Gold Golem */
+/* @teleloc 0x79E90023 [111.988400 57.000220 158.930600] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x779E902E, 20190, 0x79E90010, 47.50744, 176.4629, 180.0075, -0.127477, 0, 0, -0.9918415,  True, '2019-02-10 00:00:00'); /* Gelid */
+/* @teleloc 0x79E90010 [47.507440 176.462900 180.007500] -0.127477 0.000000 0.000000 -0.991842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x779E902F, 14517, 0x79E90010, 38.02848, 187.173, 180.4357, -0.127477, 0, 0, -0.9918415,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0x79E90010 [38.028480 187.173000 180.435700] -0.127477 0.000000 0.000000 -0.991842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x779E9030, 14517, 0x79E90017, 56.01633, 167.8696, 179.339, -0.127477, 0, 0, -0.9918415,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0x79E90017 [56.016330 167.869600 179.339000] -0.127477 0.000000 0.000000 -0.991842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x779E9031,  1542, 0x79E9002B, 141.3691, 62.77038, 152.3503, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x79E9002B [141.369100 62.770380 152.350300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x779E902C, 0x779E902D, '2019-02-10 00:00:00') /* Runed Chest (22571) */
-     , (0x779E902C, 0x779E902E, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
-     , (0x779E902C, 0x779E902F, '2019-02-10 00:00:00') /* Orb (2366) */;
+VALUES (0x779E9031, 0x779E9032, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x779E9031, 0x779E9033, '2019-02-10 00:00:00') /* Relanim Plant (11555) */
+     , (0x779E9031, 0x779E9034, '2019-02-10 00:00:00') /* Orb (2366) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E902D, 22571, 0x79E9002B, 141.3691, 62.77038, 152.3503, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x779E9032, 22571, 0x79E9002B, 141.3691, 62.77038, 152.3503, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x79E9002B [141.369100 62.770380 152.350300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E902E, 11555, 0x79E9002C, 124.6361, 84.78497, 161.6509, 0.7256542, 0, 0, -0.6880596,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
+VALUES (0x779E9033, 11555, 0x79E9002C, 124.6361, 84.78497, 161.6509, 0.7256542, 0, 0, -0.6880596,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
 /* @teleloc 0x79E9002C [124.636100 84.784970 161.650900] 0.725654 0.000000 0.000000 -0.688060 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x779E902F,  2366, 0x79E9000B, 32.09819, 48.65196, 166.7292, 0.8302297, 0, 0, -0.5574214,  True, '2019-02-10 00:00:00'); /* Orb */
+VALUES (0x779E9034,  2366, 0x79E9000B, 32.09819, 48.65196, 166.7292, 0.8302297, 0, 0, -0.5574214,  True, '2019-02-10 00:00:00'); /* Orb */
 /* @teleloc 0x79E9000B [32.098190 48.651960 166.729200] 0.830230 0.000000 0.000000 -0.557421 */

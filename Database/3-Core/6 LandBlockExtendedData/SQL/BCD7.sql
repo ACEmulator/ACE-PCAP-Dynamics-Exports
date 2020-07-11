@@ -15,7 +15,11 @@ VALUES (0x7BCD7001, 0x7BCD7002, '2019-02-10 00:00:00') /* Fleshless Warrior (896
      , (0x7BCD7001, 0x7BCD7009, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
      , (0x7BCD7001, 0x7BCD700A, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
      , (0x7BCD7001, 0x7BCD700B, '2019-02-10 00:00:00') /* Magma Golem (199) */
-     , (0x7BCD7001, 0x7BCD700C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
+     , (0x7BCD7001, 0x7BCD700C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x7BCD7001, 0x7BCD700D, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x7BCD7001, 0x7BCD700E, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BCD7001, 0x7BCD700F, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x7BCD7001, 0x7BCD7010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD7002,  8968, 0xBCD70021, 101.5153, 15.70384, 101.1496, -0.04148537, 0, 0, -0.9991391,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -62,12 +66,28 @@ VALUES (0x7BCD700C,  4255, 0xBCD70027, 119.9799, 166.6599, 109.9732, -0.6137725,
 /* @teleloc 0xBCD70027 [119.979900 166.659900 109.973200] -0.613773 0.000000 0.000000 -0.789483 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCD700D,  1542, 0xBCD70017, 51.65666, 167.7548, 96.58901, 0.4538302, 0, 0, -0.8910882, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BCD700D, 24293, 0xBCD70010, 44.35414, 182.8446, 99.09601, 0.4538302, 0, 0, -0.8910882,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
+/* @teleloc 0xBCD70010 [44.354140 182.844600 99.096010] 0.453830 0.000000 0.000000 -0.891088 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD700E, 24294, 0xBCD70021, 102.4064, 3.67271, 100.434, -0.04148537, 0, 0, -0.9991391,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0xBCD70021 [102.406400 3.672710 100.434000] -0.041485 0.000000 0.000000 -0.999139 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD700F,  7123, 0xBCD70004, 5.367035, 95.31147, 86.78725, -0.9663901, 0, 0, -0.25708,  True, '2019-02-10 00:00:00'); /* Dark Leech */
+/* @teleloc 0xBCD70004 [5.367035 95.311470 86.787250] -0.966390 0.000000 0.000000 -0.257080 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD7010,  4254, 0xBCD70016, 56.37557, 138.0135, 95.89881, 0.925809, 0, 0, -0.3779916,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0xBCD70016 [56.375570 138.013500 95.898810] 0.925809 0.000000 0.000000 -0.377992 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD7011,  1542, 0xBCD70017, 51.65666, 167.7548, 96.58901, 0.4538302, 0, 0, -0.8910882, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBCD70017 [51.656660 167.754800 96.589010] 0.453830 0.000000 0.000000 -0.891088 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BCD700D, 0x7BCD700E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
+VALUES (0x7BCD7011, 0x7BCD7012, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BCD700E,  8041, 0xBCD70017, 51.65666, 167.7548, 96.58901, 0.4538302, 0, 0, -0.8910882,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
+VALUES (0x7BCD7012,  8041, 0xBCD70017, 51.65666, 167.7548, 96.58901, 0.4538302, 0, 0, -0.8910882,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
 /* @teleloc 0xBCD70017 [51.656660 167.754800 96.589010] 0.453830 0.000000 0.000000 -0.891088 */

@@ -26,7 +26,12 @@ VALUES (0x73AF6001, 0x73AF6002, '2019-02-10 00:00:00') /* Crystal Shard (23616) 
      , (0x73AF6001, 0x73AF6014, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
      , (0x73AF6001, 0x73AF6015, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
      , (0x73AF6001, 0x73AF6016, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
-     , (0x73AF6001, 0x73AF6017, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */;
+     , (0x73AF6001, 0x73AF6017, '2019-02-10 00:00:00') /* Ruschk Warlord (28668) */
+     , (0x73AF6001, 0x73AF6018, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73AF6001, 0x73AF6019, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x73AF6001, 0x73AF601A, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x73AF6001, 0x73AF601B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73AF6001, 0x73AF601C, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AF6002, 23616, 0x3AF6000C, 39.57875, 85.6108, 1.567537, -0.04659507, 0, 0, -0.9989139,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -115,3 +120,23 @@ VALUES (0x73AF6016, 24478, 0x3AF60031, 166.0707, 0.6557379, 0.1086272, 0.1925273
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AF6017, 28668, 0x3AF60029, 126.5269, 8.617835, 2.0066, -0.9961638, 0, 0, -0.0875081,  True, '2019-02-10 00:00:00'); /* Ruschk Warlord */
 /* @teleloc 0x3AF60029 [126.526900 8.617835 2.006600] -0.996164 0.000000 0.000000 -0.087508 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73AF6018, 24281, 0x3AF6000D, 38.67326, 105.1086, 0.7817784, -0.04659507, 0, 0, -0.9989139,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x3AF6000D [38.673260 105.108600 0.781778] -0.046595 0.000000 0.000000 -0.998914 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73AF6019,  7099, 0x3AF60009, 25.50713, 23.61075, 42.63029, -0.7456675, 0, 0, -0.6663183,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
+/* @teleloc 0x3AF60009 [25.507130 23.610750 42.630290] -0.745668 0.000000 0.000000 -0.666318 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73AF601A, 24281, 0x3AF60009, 33.43051, 19.98524, 37.61049, -0.4286197, 0, 0, -0.903485,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x3AF60009 [33.430510 19.985240 37.610490] -0.428620 0.000000 0.000000 -0.903485 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73AF601B, 24294, 0x3AF60033, 154.1611, 68.02496, -0.4575, 0.1942169, 0, 0, -0.9809586,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0x3AF60033 [154.161100 68.024960 -0.457500] 0.194217 0.000000 0.000000 -0.980959 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73AF601C, 23616, 0x3AF60039, 171.961, 6.82052, -0.1, 0.1925273, 0, 0, -0.9812916,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x3AF60039 [171.961000 6.820520 -0.100000] 0.192527 0.000000 0.000000 -0.981292 */

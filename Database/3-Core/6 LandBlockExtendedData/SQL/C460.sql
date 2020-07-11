@@ -14,7 +14,8 @@ VALUES (0x7C460001, 0x7C460002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) 
      , (0x7C460001, 0x7C460008, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
      , (0x7C460001, 0x7C460009, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
      , (0x7C460001, 0x7C46000A, '2019-02-10 00:00:00') /* Burun Ruuk Adept (26012) */
-     , (0x7C460001, 0x7C46000B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */;
+     , (0x7C460001, 0x7C46000B, '2019-02-10 00:00:00') /* Burun Ruuk Scamp (26018) */
+     , (0x7C460001, 0x7C46000C, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C460002,  7180, 0xC4600003, 9.723392, 48.50616, 5.5564, -0.8047809, 0, 0, -0.593572,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */
@@ -55,3 +56,7 @@ VALUES (0x7C46000A, 26012, 0xC460000C, 33.28374, 76.97013, 6.032046, 0.9063078, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C46000B, 26018, 0xC460000C, 28.61643, 83.54175, 6.032046, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Burun Ruuk Scamp */
 /* @teleloc 0xC460000C [28.616430 83.541750 6.032046] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C46000C,  8430, 0xC4600002, 7.231717, 43.76952, 5.5566, -0.8047809, 0, 0, -0.593572,  True, '2019-02-10 00:00:00'); /* Mosswart Soul Trapper */
+/* @teleloc 0xC4600002 [7.231717 43.769520 5.556600] -0.804781 0.000000 0.000000 -0.593572 */

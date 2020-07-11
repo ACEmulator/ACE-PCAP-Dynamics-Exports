@@ -11,7 +11,8 @@ VALUES (0x7C72D001, 0x7C72D002, '2019-02-10 00:00:00') /* Magma Golem (199) */
      , (0x7C72D001, 0x7C72D005, '2019-02-10 00:00:00') /* Frost (14517) */
      , (0x7C72D001, 0x7C72D006, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */
      , (0x7C72D001, 0x7C72D007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
-     , (0x7C72D001, 0x7C72D008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
+     , (0x7C72D001, 0x7C72D008, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x7C72D001, 0x7C72D009, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C72D002,   199, 0xC72D003D, 171.8334, 118.1996, 184.752, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Magma Golem */
@@ -40,3 +41,7 @@ VALUES (0x7C72D007,   201, 0xC72D0006, 7.59311, 137.387, 232.9279, 0.7687114, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C72D008,  7107, 0xC72D0040, 185.4707, 186.103, 210.485, -0.9982035, 0, 0, -0.05991531,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
 /* @teleloc 0xC72D0040 [185.470700 186.103000 210.485000] -0.998204 0.000000 0.000000 -0.059915 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C72D009,  7089, 0xC72D0038, 164.5269, 174.9608, 206.3236, -0.9982035, 0, 0, -0.05991531,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
+/* @teleloc 0xC72D0038 [164.526900 174.960800 206.323600] -0.998204 0.000000 0.000000 -0.059915 */

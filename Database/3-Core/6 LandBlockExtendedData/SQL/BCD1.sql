@@ -25,7 +25,10 @@ VALUES (0x7BCD1001, 0x7BCD1002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
      , (0x7BCD1001, 0x7BCD100F, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x7BCD1001, 0x7BCD1010, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x7BCD1001, 0x7BCD1011, '2019-02-10 00:00:00') /* Frost (14512) */
-     , (0x7BCD1001, 0x7BCD1012, '2019-02-10 00:00:00') /* Frost (14512) */;
+     , (0x7BCD1001, 0x7BCD1012, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7BCD1001, 0x7BCD1013, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x7BCD1001, 0x7BCD1014, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7BCD1001, 0x7BCD1015, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD1002,  7123, 0xBCD1002F, 133.9812, 165.4269, 92.22192, -0.4370397, 0, 0, -0.8994422,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -94,3 +97,15 @@ VALUES (0x7BCD1011, 14512, 0xBCD1003D, 168.6839, 115.1001, 96.92828, 0.9104901, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BCD1012, 14512, 0xBCD1003D, 189.2725, 118.5429, 112.0828, 0.9104901, 0, 0, -0.4135309,  True, '2019-02-10 00:00:00'); /* Frost */
 /* @teleloc 0xBCD1003D [189.272500 118.542900 112.082800] 0.910490 0.000000 0.000000 -0.413531 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD1013, 24294, 0xBCD10034, 157.763, 94.27864, 98.13594, 0.9104901, 0, 0, -0.4135309,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0xBCD10034 [157.763000 94.278640 98.135940] 0.910490 0.000000 0.000000 -0.413531 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD1014,  6380, 0xBCD1003D, 185.9345, 119.5803, 109.4924, 0.9104901, 0, 0, -0.4135309,  True, '2019-02-10 00:00:00'); /* Scintilla */
+/* @teleloc 0xBCD1003D [185.934500 119.580300 109.492400] 0.910490 0.000000 0.000000 -0.413531 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BCD1015,  6382, 0xBCD1003D, 186.2225, 108.8953, 111.971, 0.9104901, 0, 0, -0.4135309,  True, '2019-02-10 00:00:00'); /* Static */
+/* @teleloc 0xBCD1003D [186.222500 108.895300 111.971000] 0.910490 0.000000 0.000000 -0.413531 */

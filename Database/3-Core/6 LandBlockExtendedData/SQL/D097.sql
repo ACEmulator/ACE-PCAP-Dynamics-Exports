@@ -19,7 +19,9 @@ VALUES (0x7D097001, 0x7D097002, '2019-02-10 00:00:00') /* Skeleton Captain (1761
      , (0x7D097001, 0x7D09700D, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
      , (0x7D097001, 0x7D09700E, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7D097001, 0x7D09700F, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
-     , (0x7D097001, 0x7D097010, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
+     , (0x7D097001, 0x7D097010, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7D097001, 0x7D097011, '2019-02-10 00:00:00') /* Sand Golem (11531) */
+     , (0x7D097001, 0x7D097012, '2019-02-10 00:00:00') /* Sand Golem (11531) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D097002,  1761, 0xD0970021, 107.4313, 23.22452, -0.8974999, 0.9522918, 0, 0, -0.3051889,  True, '2019-02-10 00:00:00'); /* Skeleton Captain */
@@ -80,3 +82,11 @@ VALUES (0x7D09700F,  1760, 0xD097002A, 140.5919, 28.39016, -0.8974999, 0.8191521
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D097010, 22208, 0xD0970029, 137.3622, 10.21196, -0.8974999, 0.9522918, 0, 0, -0.3051889,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
 /* @teleloc 0xD0970029 [137.362200 10.211960 -0.897500] 0.952292 0.000000 0.000000 -0.305189 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D097011, 11531, 0xD0970007, 9.956855, 159.5473, -0.44, 0.3813018, 0, 0, -0.9244506,  True, '2019-02-10 00:00:00'); /* Sand Golem */
+/* @teleloc 0xD0970007 [9.956855 159.547300 -0.440000] 0.381302 0.000000 0.000000 -0.924451 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D097012, 11531, 0xD0970007, 1.293271, 151.7216, -0.09000003, 0.3813018, 0, 0, -0.9244506,  True, '2019-02-10 00:00:00'); /* Sand Golem */
+/* @teleloc 0xD0970007 [1.293271 151.721600 -0.090000] 0.381302 0.000000 0.000000 -0.924451 */

@@ -357,7 +357,195 @@ VALUES (0x777E8030, 0x777E8031, '2019-02-10 00:00:00') /* Frozen Dread (51338) *
      , (0x777E8030, 0x777E818A, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
      , (0x777E8030, 0x777E818B, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
      , (0x777E8030, 0x777E818C, '2019-02-10 00:00:00') /* Bloodstone (43743) */
-     , (0x777E8030, 0x777E818D, '2019-02-10 00:00:00') /* Frozen Dread (51338) */;
+     , (0x777E8030, 0x777E818D, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E818E, '2019-02-10 00:00:00') /* Snow Tusker Leader (43734) */
+     , (0x777E8030, 0x777E818F, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E8190, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8191, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8192, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E8193, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E8194, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8195, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E8196, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E8197, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E8198, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E8199, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E819A, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E819B, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E819C, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E819D, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E819E, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E819F, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81A0, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81A1, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81A2, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81A3, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81A4, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E81A5, '2019-02-10 00:00:00') /* Snow Tusker Leader (43734) */
+     , (0x777E8030, 0x777E81A6, '2019-02-10 00:00:00') /* Snow Tuskie (51533) */
+     , (0x777E8030, 0x777E81A7, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81A8, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81A9, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E81AA, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E81AB, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E81AC, '2019-02-10 00:00:00') /* Snow Tuskie (51533) */
+     , (0x777E8030, 0x777E81AD, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E81AE, '2019-02-10 00:00:00') /* Frozen Wight Captain (43689) */
+     , (0x777E8030, 0x777E81AF, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81B0, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E81B1, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E81B2, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E81B3, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E81B4, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E81B5, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81B6, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81B7, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81B8, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81B9, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81BA, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81BB, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81BC, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81BD, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E81BE, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81BF, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81C0, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81C1, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81C2, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E81C3, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E81C4, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81C5, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81C6, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81C7, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81C8, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81C9, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E81CA, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81CB, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E81CC, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E81CD, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81CE, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81CF, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81D0, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81D1, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E81D2, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81D3, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81D4, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81D5, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81D6, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81D7, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81D8, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81D9, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E81DA, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E81DB, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81DC, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81DD, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81DE, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81DF, '2019-02-10 00:00:00') /* Frost Golem (52285) */
+     , (0x777E8030, 0x777E81E0, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81E1, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81E2, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E81E3, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81E4, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81E5, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E81E6, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81E7, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E81E8, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E81E9, '2019-02-10 00:00:00') /* Frozen Wight Captain (43689) */
+     , (0x777E8030, 0x777E81EA, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81EB, '2019-02-10 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8030, 0x777E81EC, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81ED, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81EE, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E81EF, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81F0, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81F1, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81F2, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81F3, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81F4, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81F5, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81F6, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81F7, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81F8, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E81F9, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81FA, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E81FB, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E81FC, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E81FD, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81FE, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E81FF, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E8200, '2019-02-10 00:00:00') /* Snow Tuskie (51533) */
+     , (0x777E8030, 0x777E8201, '2019-02-10 00:00:00') /* Snow Tuskie (51533) */
+     , (0x777E8030, 0x777E8202, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E8203, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8204, '2019-02-10 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8030, 0x777E8205, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8206, '2019-02-10 00:00:00') /* Snow Tusker Leader (43734) */
+     , (0x777E8030, 0x777E8207, '2019-02-10 00:00:00') /* Snow Tuskie (51533) */
+     , (0x777E8030, 0x777E8208, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E8209, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E820A, '2019-02-10 00:00:00') /* Snow Tusker Leader (43734) */
+     , (0x777E8030, 0x777E820B, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E820C, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E820D, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E820E, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E820F, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E8210, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E8211, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E8212, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E8213, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8214, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8215, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8216, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E8217, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8218, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8219, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E821A, '2019-02-10 00:00:00') /* Frozen Wight Captain (43689) */
+     , (0x777E8030, 0x777E821B, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E821C, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E821D, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E821E, '2019-02-10 00:00:00') /* Snow Tuskie (51533) */
+     , (0x777E8030, 0x777E821F, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8220, '2019-02-10 00:00:00') /* Frozen Wight Captain (43689) */
+     , (0x777E8030, 0x777E8221, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8222, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8223, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E8224, '2019-02-10 00:00:00') /* Snow Tusker Leader (43734) */
+     , (0x777E8030, 0x777E8225, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E8226, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E8227, '2019-02-10 00:00:00') /* Frozen Wight Captain (43689) */
+     , (0x777E8030, 0x777E8228, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8229, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E822A, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E822B, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E822C, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E822D, '2019-02-10 00:00:00') /* Gurog Henchman (43392) */
+     , (0x777E8030, 0x777E822E, '2019-02-10 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8030, 0x777E822F, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8230, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E8231, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8232, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8233, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8234, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E8235, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E8236, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8237, '2019-02-10 00:00:00') /* Frost Golem (43706) */
+     , (0x777E8030, 0x777E8238, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E8239, '2019-02-10 00:00:00') /* Gurog Minion (43391) */
+     , (0x777E8030, 0x777E823A, '2019-02-10 00:00:00') /* Bloodstone Fragment (51340) */
+     , (0x777E8030, 0x777E823B, '2019-02-10 00:00:00') /* Bloodstone (43743) */
+     , (0x777E8030, 0x777E823C, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E823D, '2019-02-10 00:00:00') /* Snow Tusker Warrior (43735) */
+     , (0x777E8030, 0x777E823E, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E823F, '2019-02-10 00:00:00') /* Frozen Wight Sorcerer (43691) */
+     , (0x777E8030, 0x777E8240, '2019-02-10 00:00:00') /* Frozen Wight Captain (43689) */
+     , (0x777E8030, 0x777E8241, '2019-02-10 00:00:00') /* Frozen Wight Archer (51316) */
+     , (0x777E8030, 0x777E8242, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E8243, '2019-02-10 00:00:00') /* Gurog Soldier (43393) */
+     , (0x777E8030, 0x777E8244, '2019-02-10 00:00:00') /* Frozen Dread (51338) */
+     , (0x777E8030, 0x777E8245, '2019-02-10 00:00:00') /* Frozen Wight (43690) */
+     , (0x777E8030, 0x777E8246, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E8247, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E8248, '2019-02-10 00:00:00') /* Snow Tusker (43733) */
+     , (0x777E8030, 0x777E8249, '2019-02-10 00:00:00') /* Gurog Minion (43391) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777E8031, 51338, 0x77E80040, 171.0757, 170.3689, 105.8258, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
@@ -1754,3 +1942,755 @@ VALUES (0x777E818C, 43743, 0x77E80024, 101.3737, 90.72919, 109.5139, -0.03336018
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x777E818D, 51338, 0x77E80022, 101.3946, 24.70492, 106.3757, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
 /* @teleloc 0x77E80022 [101.394600 24.704920 106.375700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E818E, 43734, 0x77E80024, 99.64499, 79.76199, 108.4465, -0.427769, 0, 0, -0.903888,  True, '2019-02-10 00:00:00'); /* Snow Tusker Leader */
+/* @teleloc 0x77E80024 [99.644990 79.761990 108.446500] -0.427769 0.000000 0.000000 -0.903888 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E818F, 51340, 0x77E80001, 4.341363, 22.38031, 105.99, 0.231786, 0, 0, 0.9727668,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80001 [4.341363 22.380310 105.990000] 0.231786 0.000000 0.000000 0.972767 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8190, 43706, 0x77E80023, 115.1924, 50.99009, 116.516, -0.6104521, 0, 0, 0.7920532,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80023 [115.192400 50.990090 116.516000] -0.610452 0.000000 0.000000 0.792053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8191, 43706, 0x77E80023, 112.8575, 52.5575, 115.7322, -0.6104521, 0, 0, 0.7920532,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80023 [112.857500 52.557500 115.732200] -0.610452 0.000000 0.000000 0.792053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8192, 51338, 0x77E8002B, 124.6907, 59.62168, 119.9602, 0.9377178, 0, 0, 0.347398,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E8002B [124.690700 59.621680 119.960200] 0.937718 0.000000 0.000000 0.347398 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8193, 43691, 0x77E8000B, 32.33173, 70.04404, 111.5627, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E8000B [32.331730 70.044040 111.562700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8194, 43690, 0x77E8000B, 31.50406, 69.16755, 111.011, 0.718583, 0, 0, 0.695441,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8000B [31.504060 69.167550 111.011000] 0.718583 0.000000 0.000000 0.695441 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8195, 43392, 0x77E8002B, 124.6486, 60.92724, 120.161, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8002B [124.648600 60.927240 120.161000] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8196, 43393, 0x77E8002B, 130.0719, 65.98225, 121.0035, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E8002B [130.071900 65.982250 121.003500] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8197, 43391, 0x77E8002B, 127.4226, 65.53519, 120.929, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8002B [127.422600 65.535190 120.929000] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8198, 43391, 0x77E8002B, 123.5341, 60.00012, 120.0065, 0.821809, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8002B [123.534100 60.000120 120.006500] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8199, 43392, 0x77E80009, 43.65337, 11.5997, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80009 [43.653370 11.599700 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E819A, 43391, 0x77E80009, 39.89594, 2.97994, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80009 [39.895940 2.979940 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E819B, 43393, 0x77E80009, 46.32877, 10.18951, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80009 [46.328770 10.189510 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E819C, 43391, 0x77E80012, 70.59238, 29.70138, 108.8572, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80012 [70.592380 29.701380 108.857200] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E819D, 43392, 0x77E80012, 63.13251, 28.75867, 108.3858, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80012 [63.132510 28.758670 108.385800] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E819E, 43706, 0x77E80021, 105.5998, 13.82934, 106.011, -0.554872, 0, 0, 0.831935,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80021 [105.599800 13.829340 106.011000] -0.554872 0.000000 0.000000 0.831935 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E819F, 51338, 0x77E80019, 95.19042, 17.96412, 106.0232, -0.999877, 0, 0, 0.015664,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80019 [95.190420 17.964120 106.023200] -0.999877 0.000000 0.000000 0.015664 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A0, 43391, 0x77E80029, 143.8847, 7.330587, 106.0065, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80029 [143.884700 7.330587 106.006500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A1, 43392, 0x77E80029, 133.5154, 4.644818, 106.0065, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80029 [133.515400 4.644818 106.006500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A2, 43393, 0x77E80011, 48.34753, 10.19685, 106.0065, -0.824533, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80011 [48.347530 10.196850 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A3, 51338, 0x77E8001A, 85.22754, 29.6658, 108.8561, -0.999877, 0, 0, 0.015664,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E8001A [85.227540 29.665800 108.856100] -0.999877 0.000000 0.000000 0.015664 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A4, 43733, 0x77E80031, 164.3422, 19.45872, 106.0165, -0.912252, 0, 0, 0.40963,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80031 [164.342200 19.458720 106.016500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A5, 43734, 0x77E80039, 174.1959, 23.18572, 109.1558, -0.912252, 0, 0, 0.40963,  True, '2019-02-10 00:00:00'); /* Snow Tusker Leader */
+/* @teleloc 0x77E80039 [174.195900 23.185720 109.155800] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A6, 51533, 0x77E80039, 172.3359, 17.09159, 107.4797, -0.912252, 0, 0, 0.40963,  True, '2019-02-10 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x77E80039 [172.335900 17.091590 107.479700] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A7, 43392, 0x77E8002A, 120.3212, 47.87828, 117.9724, -0.610452, 0, 0, 0.792053,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8002A [120.321200 47.878280 117.972400] -0.610452 0.000000 0.000000 0.792053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A8, 43393, 0x77E80022, 117.4027, 47.96506, 117.989, -0.610452, 0, 0, 0.792053,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80022 [117.402700 47.965060 117.989000] -0.610452 0.000000 0.000000 0.792053 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81A9, 43733, 0x77E80029, 134.5985, 11.91381, 106.0165, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80029 [134.598500 11.913810 106.016500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81AA, 43733, 0x77E80029, 141.2334, 12.9485, 106.0165, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80029 [141.233400 12.948500 106.016500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81AB, 43733, 0x77E80029, 139.1176, 6.189494, 106.0165, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80029 [139.117600 6.189494 106.016500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81AC, 51533, 0x77E80029, 134.1144, 13.45079, 106.0044, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x77E80029 [134.114400 13.450790 106.004400] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81AD, 43691, 0x77E80021, 103.1061, 13.20422, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E80021 [103.106100 13.204220 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81AE, 43689, 0x77E80021, 106.244, 14.49783, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Captain */
+/* @teleloc 0x77E80021 [106.244000 14.497830 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81AF, 43690, 0x77E80021, 105.7385, 19.60543, 106.0082, -0.554872, 0, 0, 0.831935,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80021 [105.738500 19.605430 106.008200] -0.554872 0.000000 0.000000 0.831935 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B0, 43706, 0x77E80021, 100.9732, 16.6954, 106.011, -0.554872, 0, 0, 0.831935,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80021 [100.973200 16.695400 106.011000] -0.554872 0.000000 0.000000 0.831935 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B1, 43733, 0x77E8001C, 92.96541, 80.68459, 106.0165, -0.427769, 0, 0, -0.903888,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E8001C [92.965410 80.684590 106.016500] -0.427769 0.000000 0.000000 -0.903888 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B2, 43735, 0x77E80024, 99.25771, 72.48451, 108.1883, -0.427769, 0, 0, -0.903888,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E80024 [99.257710 72.484510 108.188300] -0.427769 0.000000 0.000000 -0.903888 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B3, 43733, 0x77E80024, 99.18349, 76.57101, 108.1388, -0.427769, 0, 0, -0.903888,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80024 [99.183490 76.571010 108.138800] -0.427769 0.000000 0.000000 -0.903888 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B4, 51340, 0x77E80029, 138.2184, 12.69196, 105.99, -0.578786, 0, 0, -0.8154795,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80029 [138.218400 12.691960 105.990000] -0.578786 0.000000 0.000000 -0.815480 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B5, 43690, 0x77E80021, 104.3621, 15.80002, 106.0082, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80021 [104.362100 15.800020 106.008200] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B6, 43690, 0x77E80021, 105.4334, 13.58109, 106.0082, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80021 [105.433400 13.581090 106.008200] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B7, 43392, 0x77E80039, 173.4317, 16.85608, 106.0065, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80039 [173.431700 16.856080 106.006500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B8, 43391, 0x77E80039, 173.5426, 19.10902, 106.3866, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80039 [173.542600 19.109020 106.386600] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81B9, 43392, 0x77E80039, 169.37, 13.36926, 106.0065, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80039 [169.370000 13.369260 106.006500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81BA, 43391, 0x77E80039, 174.495, 12.74856, 106.0065, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80039 [174.495000 12.748560 106.006500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81BB, 43392, 0x77E8002B, 128.2966, 62.74263, 120.4636, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8002B [128.296600 62.742630 120.463600] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81BC, 43392, 0x77E8002B, 124.9509, 66.54752, 121.0978, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8002B [124.950900 66.547520 121.097800] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81BD, 51340, 0x77E8003B, 183.4253, 48.08807, 106.0487, 0.4676031, 0, 0, -0.8839386,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E8003B [183.425300 48.088070 106.048700] 0.467603 0.000000 0.000000 -0.883939 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81BE, 51338, 0x77E80011, 60.13311, 0.9410564, 106.0232, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80011 [60.133110 0.941056 106.023200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81BF, 51338, 0x77E8002C, 135.9899, 95.20114, 106.5558, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E8002C [135.989900 95.201140 106.555800] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C0, 43392, 0x77E80012, 69.98833, 27.31703, 107.665, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80012 [69.988330 27.317030 107.665000] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C1, 43392, 0x77E8003C, 188.9282, 77.96176, 106.0065, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8003C [188.928200 77.961760 106.006500] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C2, 51340, 0x77E80034, 150.5649, 95.99871, 105.9909, 0.1671387, 0, 0, -0.9859334,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80034 [150.564900 95.998710 105.990900] 0.167139 0.000000 0.000000 -0.985933 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C3, 43691, 0x77E80009, 41.80825, 8.844867, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E80009 [41.808250 8.844867 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C4, 43690, 0x77E80009, 40.15332, 8.69682, 106.0082, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80009 [40.153320 8.696820 106.008200] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C5, 43391, 0x77E80009, 41.31018, 7.26792, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80009 [41.310180 7.267920 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C6, 43391, 0x77E80009, 44.02861, 8.638758, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80009 [44.028610 8.638758 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C7, 43392, 0x77E80009, 36.75159, 7.589679, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80009 [36.751590 7.589679 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C8, 43392, 0x77E80009, 41.57503, 12.38777, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80009 [41.575030 12.387770 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81C9, 51340, 0x77E80012, 70.84521, 29.81581, 108.8979, -0.5190274, 0, 0, -0.8547576,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80012 [70.845210 29.815810 108.897900] -0.519027 0.000000 0.000000 -0.854758 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81CA, 51338, 0x77E8002C, 133.7195, 73.72657, 120.8722, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E8002C [133.719500 73.726570 120.872200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81CB, 43735, 0x77E80034, 154.1293, 95.45042, 106.3829, -0.72565, 0, 0, -0.688064,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E80034 [154.129300 95.450420 106.382900] -0.725650 0.000000 0.000000 -0.688064 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81CC, 43735, 0x77E8003C, 189.1328, 80.05724, 106.0165, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E8003C [189.132800 80.057240 106.016500] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81CD, 43393, 0x77E80012, 69.40251, 28.84637, 108.4297, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80012 [69.402510 28.846370 108.429700] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81CE, 43690, 0x77E80012, 71.00655, 24.43459, 106.2255, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80012 [71.006550 24.434590 106.225500] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81CF, 43690, 0x77E80012, 69.00397, 26.45352, 107.235, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80012 [69.003970 26.453520 107.235000] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D0, 43391, 0x77E80011, 71.04279, 22.8618, 106.0065, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80011 [71.042790 22.861800 106.006500] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D1, 43691, 0x77E8003C, 189.0098, 79.53315, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E8003C [189.009800 79.533150 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D2, 43690, 0x77E8003C, 191.9253, 84.87514, 106.0082, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8003C [191.925300 84.875140 106.008200] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D3, 51338, 0x77E80011, 70.77849, 16.70214, 106.0232, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80011 [70.778490 16.702140 106.023200] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D4, 43690, 0x77E80021, 101.9033, 12.93855, 106.0082, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80021 [101.903300 12.938550 106.008200] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D5, 43690, 0x77E80021, 107.8043, 10.625, 106.0082, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80021 [107.804300 10.625000 106.008200] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D6, 43392, 0x77E80021, 104.8793, 11.60978, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80021 [104.879300 11.609780 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D7, 43392, 0x77E80021, 99.35011, 15.28802, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80021 [99.350110 15.288020 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D8, 43391, 0x77E80021, 101.6839, 21.41331, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80021 [101.683900 21.413310 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81D9, 43706, 0x77E80021, 103.6044, 18.80404, 106.011, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80021 [103.604400 18.804040 106.011000] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81DA, 43706, 0x77E80021, 109.8996, 7.429728, 106.011, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80021 [109.899600 7.429728 106.011000] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81DB, 51338, 0x77E80021, 98.90726, 13.0367, 106.0232, 0.7948325, 0, 0, -0.6068289,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80021 [98.907260 13.036700 106.023200] 0.794833 0.000000 0.000000 -0.606829 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81DC, 43690, 0x77E80021, 102.2311, 17.25915, 106.0082, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80021 [102.231100 17.259150 106.008200] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81DD, 51338, 0x77E80021, 110.6873, 17.31281, 106.0232, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80021 [110.687300 17.312810 106.023200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81DE, 51338, 0x77E8002A, 131.3031, 25.83891, 107.0959, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E8002A [131.303100 25.838910 107.095900] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81DF, 52285, 0x77E8003A, 186.073, 39.92498, 107.264, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E8003A [186.073000 39.924980 107.264000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E0, 51338, 0x77E80019, 92.68773, 6.751216, 106.0232, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80019 [92.687730 6.751216 106.023200] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E1, 43391, 0x77E80021, 105.5382, 14.11817, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80021 [105.538200 14.118170 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E2, 51340, 0x77E80022, 116.1084, 46.98621, 117.4831, 0.7736536, 0, 0, -0.6336088,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80022 [116.108400 46.986210 117.483100] 0.773654 0.000000 0.000000 -0.633609 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E3, 51338, 0x77E80019, 72.09869, 1.351468, 106.0232, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80019 [72.098690 1.351468 106.023200] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E4, 43393, 0x77E8003A, 168.9657, 24.17612, 106.4671, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E8003A [168.965700 24.176120 106.467100] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E5, 43691, 0x77E8003A, 179.518, 47.68433, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E8003A [179.518000 47.684330 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E6, 43690, 0x77E8003A, 178.8939, 46.10327, 106.0082, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8003A [178.893900 46.103270 106.008200] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E7, 43706, 0x77E8003A, 174.8224, 24.84141, 109.4999, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E8003A [174.822400 24.841410 109.499900] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E8, 43691, 0x77E8002B, 127.4944, 58.19719, 119.7078, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E8002B [127.494400 58.197190 119.707800] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81E9, 43689, 0x77E8002B, 128.9001, 61.2865, 120.2227, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Captain */
+/* @teleloc 0x77E8002B [128.900100 61.286500 120.222700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81EA, 43690, 0x77E8002B, 131.4478, 63.37278, 120.5704, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8002B [131.447800 63.372780 120.570400] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81EB, 51316, 0x77E8002B, 129.8628, 61.78229, 120.3053, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Frozen Wight Archer */
+/* @teleloc 0x77E8002B [129.862800 61.782290 120.305300] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81EC, 43690, 0x77E8002B, 132.6825, 59.93522, 120.0597, 0.8218091, 0, 0, -0.569763,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8002B [132.682500 59.935220 120.059700] 0.821809 0.000000 0.000000 -0.569763 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81ED, 43391, 0x77E8001A, 76.88478, 24.93903, 106.476, -0.8370106, 0, 0, 0.5471867,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8001A [76.884780 24.939030 106.476000] -0.837011 0.000000 0.000000 0.547187 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81EE, 51338, 0x77E80033, 162.1612, 62.77089, 115.8705, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80033 [162.161200 62.770890 115.870500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81EF, 43391, 0x77E8003B, 177.0047, 51.09642, 108.0708, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8003B [177.004700 51.096420 108.070800] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F0, 43393, 0x77E8003B, 178.0558, 48.79382, 106.5357, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E8003B [178.055800 48.793820 106.535700] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F1, 43392, 0x77E8003B, 177.1838, 52.45319, 108.9753, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8003B [177.183800 52.453190 108.975300] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F2, 43392, 0x77E8003B, 184.4533, 51.33748, 108.2315, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8003B [184.453300 51.337480 108.231500] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F3, 43393, 0x77E8003B, 181.9838, 50.09124, 107.4007, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E8003B [181.983800 50.091240 107.400700] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F4, 43392, 0x77E8003B, 179.754, 48.18871, 106.1323, -0.9377214, 0, 0, 0.3473881,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8003B [179.754000 48.188710 106.132300] -0.937721 0.000000 0.000000 0.347388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F5, 43393, 0x77E80039, 173.8698, 21.38411, 107.9046, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80039 [173.869800 21.384110 107.904600] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F6, 43392, 0x77E80039, 178.5093, 21.57926, 110.7248, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80039 [178.509300 21.579260 110.724800] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F7, 43391, 0x77E80039, 173.2044, 22.73672, 108.3055, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80039 [173.204400 22.736720 108.305500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F8, 43392, 0x77E80039, 174.4429, 20.04887, 107.46, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80039 [174.442900 20.048870 107.460000] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81F9, 43690, 0x77E80029, 136.7714, 14.15998, 106.0082, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80029 [136.771400 14.159980 106.008200] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81FA, 43690, 0x77E80029, 139.0563, 9.538185, 106.0082, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80029 [139.056300 9.538185 106.008200] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81FB, 43735, 0x77E80039, 169.1753, 20.85554, 106.0165, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E80039 [169.175300 20.855540 106.016500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81FC, 43393, 0x77E80029, 139.5147, 13.79992, 106.0065, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80029 [139.514700 13.799920 106.006500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81FD, 43391, 0x77E80039, 169.9567, 19.52848, 106.0065, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80039 [169.956700 19.528480 106.006500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81FE, 43391, 0x77E80031, 166.0496, 17.52162, 106.0065, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80031 [166.049600 17.521620 106.006500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E81FF, 43735, 0x77E80029, 135.8978, 14.12724, 106.0165, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E80029 [135.897800 14.127240 106.016500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8200, 51533, 0x77E80029, 136.7747, 18.89428, 106.0044, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x77E80029 [136.774700 18.894280 106.004400] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8201, 51533, 0x77E80029, 138.6347, 14.1838, 106.0044, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x77E80029 [138.634700 14.183800 106.004400] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8202, 43691, 0x77E80039, 170.2468, 22.00549, 106.1554, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E80039 [170.246800 22.005490 106.155400] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8203, 43690, 0x77E80039, 174.5961, 22.01553, 108.6983, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80039 [174.596100 22.015530 108.698300] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8204, 51316, 0x77E80039, 174.6932, 19.43213, 107.248, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Frozen Wight Archer */
+/* @teleloc 0x77E80039 [174.693200 19.432130 107.248000] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8205, 43706, 0x77E80039, 168.6147, 21.80947, 106.011, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80039 [168.614700 21.809470 106.011000] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8206, 43734, 0x77E80029, 138.6867, 13.02593, 106.0165, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tusker Leader */
+/* @teleloc 0x77E80029 [138.686700 13.025930 106.016500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8207, 51533, 0x77E80004, 4.508219, 95.00467, 106.6289, 0.9999905, 0, 0, -0.004371252,  True, '2019-02-10 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x77E80004 [4.508219 95.004670 106.628900] 0.999991 0.000000 0.000000 -0.004371 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8208, 43392, 0x77E80004, 10.68656, 94.96232, 107.1565, -0.1356229, 0, 0, 0.9907605,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80004 [10.686560 94.962320 107.156500] -0.135623 0.000000 0.000000 0.990761 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8209, 43393, 0x77E80004, 15.72425, 95.66087, 107.4016, -0.1356229, 0, 0, 0.9907605,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80004 [15.724250 95.660870 107.401600] -0.135623 0.000000 0.000000 0.990761 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E820A, 43734, 0x77E80004, 6.540477, 94.9313, 106.8287, 0.9999905, 0, 0, -0.004371252,  True, '2019-02-10 00:00:00'); /* Snow Tusker Leader */
+/* @teleloc 0x77E80004 [6.540477 94.931300 106.828700] 0.999991 0.000000 0.000000 -0.004371 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E820B, 43392, 0x77E80001, 6.082505, 21.71099, 106.0065, 0.231786, 0, 0, 0.9727668,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80001 [6.082505 21.710990 106.006500] 0.231786 0.000000 0.000000 0.972767 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E820C, 51340, 0x77E8002D, 125.7133, 96.14726, 106.1004, -0.9997367, 0, 0, -0.02294569,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E8002D [125.713300 96.147260 106.100400] -0.999737 0.000000 0.000000 -0.022946 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E820D, 43690, 0x77E80001, 10.53447, 23.0011, 106.0082, 0.231786, 0, 0, 0.9727668,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80001 [10.534470 23.001100 106.008200] 0.231786 0.000000 0.000000 0.972767 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E820E, 43690, 0x77E80002, 8.763386, 27.00594, 106.0082, 0.231786, 0, 0, 0.9727668,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80002 [8.763386 27.005940 106.008200] 0.231786 0.000000 0.000000 0.972767 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E820F, 43391, 0x77E8000B, 33.3052, 55.93012, 111.9808, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8000B [33.305200 55.930120 111.980800] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8210, 43391, 0x77E8000B, 35.32677, 58.67294, 113.4487, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8000B [35.326770 58.672940 113.448700] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8211, 43392, 0x77E8000B, 35.47988, 61.02756, 113.6598, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8000B [35.479880 61.027560 113.659800] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8212, 43392, 0x77E8000B, 36.78476, 58.98542, 114.2298, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E8000B [36.784760 58.985420 114.229800] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8213, 43706, 0x77E80034, 149.064, 95.86885, 106.0984, -0.72565, 0, 0, -0.688064,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80034 [149.064000 95.868850 106.098400] -0.725650 0.000000 0.000000 -0.688064 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8214, 43706, 0x77E80034, 151.5317, 91.78287, 108.8224, -0.72565, 0, 0, -0.688064,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80034 [151.531700 91.782870 108.822400] -0.725650 0.000000 0.000000 -0.688064 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8215, 43706, 0x77E8003C, 188.5391, 79.73887, 106.011, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E8003C [188.539100 79.738870 106.011000] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8216, 51340, 0x77E80009, 43.43572, 4.315128, 105.99, 0.9572156, 0, 0, -0.2893758,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80009 [43.435720 4.315128 105.990000] 0.957216 0.000000 0.000000 -0.289376 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8217, 43690, 0x77E8000B, 30.41903, 56.47884, 110.2876, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8000B [30.419030 56.478840 110.287600] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8218, 43690, 0x77E8000B, 30.01257, 61.69712, 110.0166, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8000B [30.012570 61.697120 110.016600] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8219, 43691, 0x77E8000B, 25.17459, 59.59421, 106.7913, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E8000B [25.174590 59.594210 106.791300] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E821A, 43689, 0x77E8000B, 30.54398, 59.80509, 110.3709, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Captain */
+/* @teleloc 0x77E8000B [30.543980 59.805090 110.370900] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E821B, 43690, 0x77E8000B, 29.53318, 63.69912, 109.697, -0.4112139, 0, 0, 0.9115388,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8000B [29.533180 63.699120 109.697000] -0.411214 0.000000 0.000000 0.911539 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E821C, 43392, 0x77E80009, 40.96394, 7.715482, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80009 [40.963940 7.715482 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E821D, 43392, 0x77E80009, 46.57336, 8.310122, 106.0065, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80009 [46.573360 8.310122 106.006500] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E821E, 51533, 0x77E8003C, 188.4808, 78.96328, 106.0044, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Snow Tuskie */
+/* @teleloc 0x77E8003C [188.480800 78.963280 106.004400] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E821F, 43706, 0x77E80009, 42.24964, 7.56273, 106.011, -0.8245329, 0, 0, 0.565814,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80009 [42.249640 7.562730 106.011000] -0.824533 0.000000 0.000000 0.565814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8220, 43689, 0x77E8003C, 189.8108, 78.95432, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Captain */
+/* @teleloc 0x77E8003C [189.810800 78.954320 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8221, 43690, 0x77E8003C, 185.4664, 77.40632, 106.7597, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8003C [185.466400 77.406320 106.759700] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8222, 43690, 0x77E8003C, 188.6299, 83.7439, 106.0082, -0.9426602, 0, 0, -0.3337541,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8003C [188.629900 83.743900 106.008200] -0.942660 0.000000 0.000000 -0.333754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8223, 43393, 0x77E80035, 153.7051, 96.94503, 106.7153, -0.72565, 0, 0, -0.688064,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80035 [153.705100 96.945030 106.715300] -0.725650 0.000000 0.000000 -0.688064 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8224, 43734, 0x77E8002E, 129.2629, 128.7567, 117.4489, -0.434914, 0, 0, 0.900472,  True, '2019-02-10 00:00:00'); /* Snow Tusker Leader */
+/* @teleloc 0x77E8002E [129.262900 128.756700 117.448900] -0.434914 0.000000 0.000000 0.900472 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8225, 43391, 0x77E8003F, 188.005, 167.8957, 106.0065, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8003F [188.005000 167.895700 106.006500] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8226, 43691, 0x77E80037, 163.1628, 144.0914, 106.0082, 0.7466627, 0, 0, -0.6652028,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E80037 [163.162800 144.091400 106.008200] 0.746663 0.000000 0.000000 -0.665203 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8227, 43689, 0x77E80037, 161.4321, 147.0111, 106.0082, 0.7145357, 0, 0, -0.699599,  True, '2019-02-10 00:00:00'); /* Frozen Wight Captain */
+/* @teleloc 0x77E80037 [161.432100 147.011100 106.008200] 0.714536 0.000000 0.000000 -0.699599 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8228, 43690, 0x77E80037, 163.766, 148.7832, 106.0082, -0.8092476, 0, 0, -0.5874677,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80037 [163.766000 148.783200 106.008200] -0.809248 0.000000 0.000000 -0.587468 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8229, 43690, 0x77E80037, 160.3616, 149.0603, 106.0082, -0.7993348, 0, 0, -0.6008859,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80037 [160.361600 149.060300 106.008200] -0.799335 0.000000 0.000000 -0.600886 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E822A, 43391, 0x77E80021, 103.0602, 8.455657, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80021 [103.060200 8.455657 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E822B, 43392, 0x77E80021, 110.1519, 16.14066, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80021 [110.151900 16.140660 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E822C, 43393, 0x77E80021, 97.51186, 14.59956, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80021 [97.511860 14.599560 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E822D, 43392, 0x77E80021, 104.4747, 9.3884, 106.0065, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Gurog Henchman */
+/* @teleloc 0x77E80021 [104.474700 9.388400 106.006500] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E822E, 51316, 0x77E80021, 108.0835, 13.22982, 106.0082, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frozen Wight Archer */
+/* @teleloc 0x77E80021 [108.083500 13.229820 106.008200] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E822F, 43706, 0x77E80021, 106.3975, 16.58919, 106.011, -0.5548723, 0, 0, 0.8319355,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80021 [106.397500 16.589190 106.011000] -0.554872 0.000000 0.000000 0.831936 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8230, 43691, 0x77E80021, 106.4617, 15.20582, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E80021 [106.461700 15.205820 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8231, 43706, 0x77E8003F, 187.5501, 164.2998, 106.011, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E8003F [187.550100 164.299800 106.011000] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8232, 43690, 0x77E80037, 158.9378, 145.6863, 106.0082, -0.9921789, 0, 0, 0.124824,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80037 [158.937800 145.686300 106.008200] -0.992179 0.000000 0.000000 0.124824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8233, 43690, 0x77E80037, 161.2286, 145.8958, 106.0082, -0.9921789, 0, 0, 0.124824,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80037 [161.228600 145.895800 106.008200] -0.992179 0.000000 0.000000 0.124824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8234, 51338, 0x77E80037, 145.1162, 145.8168, 106.0232, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80037 [145.116200 145.816800 106.023200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8235, 43735, 0x77E8003F, 190.8351, 163.3988, 106.0165, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E8003F [190.835100 163.398800 106.016500] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8236, 43706, 0x77E80037, 167.6689, 144.2986, 106.011, -0.9921789, 0, 0, 0.124824,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80037 [167.668900 144.298600 106.011000] -0.992179 0.000000 0.000000 0.124824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8237, 43706, 0x77E80037, 161.0674, 147.8831, 106.011, -0.9921789, 0, 0, 0.124824,  True, '2019-02-10 00:00:00'); /* Frost Golem */
+/* @teleloc 0x77E80037 [161.067400 147.883100 106.011000] -0.992179 0.000000 0.000000 0.124824 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8238, 51338, 0x77E80037, 159.4207, 155.5747, 106.0232, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80037 [159.420700 155.574700 106.023200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8239, 43391, 0x77E80031, 166.666, 22.72876, 106.0065, -0.9122518, 0, 0, 0.4096299,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E80031 [166.666000 22.728760 106.006500] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E823A, 51340, 0x77E80027, 96.03403, 152.3084, 125.9872, 0.4101848, 0, 0, -0.9120024,  True, '2019-02-10 00:00:00'); /* Bloodstone Fragment */
+/* @teleloc 0x77E80027 [96.034030 152.308400 125.987200] 0.410185 0.000000 0.000000 -0.912002 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E823B, 43743, 0x77E80024, 107.9406, 94.81676, 106.7888, -0.1502915, 0, 0, -0.9886417,  True, '2019-02-10 00:00:00'); /* Bloodstone */
+/* @teleloc 0x77E80024 [107.940600 94.816760 106.788800] -0.150292 0.000000 0.000000 -0.988642 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E823C, 43393, 0x77E80030, 126.5142, 190.4268, 105.5947, 0.7113733, 0, 0, 0.7028143,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80030 [126.514200 190.426800 105.594700] 0.711373 0.000000 0.000000 0.702814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E823D, 43735, 0x77E80029, 139.1918, 12.77921, 106.0165, -0.775283, 0, 0, 0.631614,  True, '2019-02-10 00:00:00'); /* Snow Tusker Warrior */
+/* @teleloc 0x77E80029 [139.191800 12.779210 106.016500] -0.775283 0.000000 0.000000 0.631614 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E823E, 43690, 0x77E8003A, 170.2422, 26.23856, 106.0104, -0.912252, 0, 0, 0.40963,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E8003A [170.242200 26.238560 106.010400] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E823F, 43691, 0x77E80039, 171.4648, 19.4886, 106.0082, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Sorcerer */
+/* @teleloc 0x77E80039 [171.464800 19.488600 106.008200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8240, 43689, 0x77E80039, 171.6639, 22.87687, 107.4904, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frozen Wight Captain */
+/* @teleloc 0x77E80039 [171.663900 22.876870 107.490400] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8241, 51316, 0x77E80039, 171.5997, 23.89062, 108.0443, -0.912252, 0, 0, 0.40963,  True, '2019-02-10 00:00:00'); /* Frozen Wight Archer */
+/* @teleloc 0x77E80039 [171.599700 23.890620 108.044300] -0.912252 0.000000 0.000000 0.409630 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8242, 51338, 0x77E8002B, 128.8265, 58.17933, 119.7198, 0.9377178, 0, 0, 0.347398,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E8002B [128.826500 58.179330 119.719800] 0.937718 0.000000 0.000000 0.347398 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8243, 43393, 0x77E80040, 176.1412, 191.9455, 101.377, 0.2361351, 0, 0, 0.9717202,  True, '2019-02-10 00:00:00'); /* Gurog Soldier */
+/* @teleloc 0x77E80040 [176.141200 191.945500 101.377000] 0.236135 0.000000 0.000000 0.971720 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8244, 51338, 0x77E80038, 150.1857, 172.2381, 104.9637, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Frozen Dread */
+/* @teleloc 0x77E80038 [150.185700 172.238100 104.963700] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8245, 43690, 0x77E80040, 189.8809, 168.0145, 106.007, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Frozen Wight */
+/* @teleloc 0x77E80040 [189.880900 168.014500 106.007000] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8246, 43733, 0x77E80040, 187.8614, 168.4279, 105.9808, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80040 [187.861400 168.427900 105.980800] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8247, 43733, 0x77E80040, 185.4396, 170.3915, 105.8172, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80040 [185.439600 170.391500 105.817200] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8248, 43733, 0x77E80040, 183.4128, 172.7121, 105.6238, -0.6138217, 0, 0, 0.7894447,  True, '2019-02-10 00:00:00'); /* Snow Tusker */
+/* @teleloc 0x77E80040 [183.412800 172.712100 105.623800] -0.613822 0.000000 0.000000 0.789445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x777E8249, 43391, 0x77E8003C, 183.5158, 77.3607, 108.0889, -0.94266, 0, 0, -0.333754,  True, '2019-02-10 00:00:00'); /* Gurog Minion */
+/* @teleloc 0x77E8003C [183.515800 77.360700 108.088900] -0.942660 0.000000 0.000000 -0.333754 */

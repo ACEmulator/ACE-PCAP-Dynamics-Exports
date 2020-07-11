@@ -15,7 +15,11 @@ VALUES (0x72847001, 0x72847002, '2019-02-10 00:00:00') /* Phantasm (24325) */
      , (0x72847001, 0x72847009, '2019-02-10 00:00:00') /* Direland Rat (24310) */
      , (0x72847001, 0x7284700A, '2019-02-10 00:00:00') /* Direland Rat (24310) */
      , (0x72847001, 0x7284700B, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x72847001, 0x7284700C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
+     , (0x72847001, 0x7284700C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x72847001, 0x7284700D, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x72847001, 0x7284700E, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x72847001, 0x7284700F, '2019-02-10 00:00:00') /* Dark Myrmidon (12026) */
+     , (0x72847001, 0x72847010, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72847002, 24325, 0x28470030, 131.8843, 175.6155, 0.008249998, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -60,3 +64,19 @@ VALUES (0x7284700B, 36830, 0x2847002F, 128.4358, 165.4371, 0.00999999, -0.886575
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7284700C, 23563, 0x28470030, 127.9587, 175.8989, 0.004999995, -0.886575, 0, 0, -0.4625849,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
 /* @teleloc 0x28470030 [127.958700 175.898900 0.005000] -0.886575 0.000000 0.000000 -0.462585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7284700D, 23617, 0x28470030, 128.3672, 173.322, 0.006500006, -0.886575, 0, 0, -0.4625849,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
+/* @teleloc 0x28470030 [128.367200 173.322000 0.006500] -0.886575 0.000000 0.000000 -0.462585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7284700E,  7179, 0x28470027, 115.0185, 167.0935, 0.002499998, -0.886575, 0, 0, -0.4625849,  True, '2019-02-10 00:00:00'); /* Relic Bones */
+/* @teleloc 0x28470027 [115.018500 167.093500 0.002500] -0.886575 0.000000 0.000000 -0.462585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7284700F, 12026, 0x28470028, 114.7011, 168.0461, 0.002499998, -0.886575, 0, 0, -0.4625849,  True, '2019-02-10 00:00:00'); /* Dark Myrmidon */
+/* @teleloc 0x28470028 [114.701100 168.046100 0.002500] -0.886575 0.000000 0.000000 -0.462585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72847010,  7179, 0x28470028, 118.523, 173.0312, 0.002499998, -0.886575, 0, 0, -0.4625849,  True, '2019-02-10 00:00:00'); /* Relic Bones */
+/* @teleloc 0x28470028 [118.523000 173.031200 0.002500] -0.886575 0.000000 0.000000 -0.462585 */

@@ -23,7 +23,9 @@ VALUES (0x749F4001, 0x749F4002, '2019-02-10 00:00:00') /* Insatiable Eater (2863
      , (0x749F4001, 0x749F4011, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
      , (0x749F4001, 0x749F4012, '2019-02-10 00:00:00') /* Royal Thaumaturge (29303) */
      , (0x749F4001, 0x749F4013, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
-     , (0x749F4001, 0x749F4014, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */;
+     , (0x749F4001, 0x749F4014, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x749F4001, 0x749F4015, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x749F4001, 0x749F4016, '2019-02-10 00:00:00') /* Insatiable Eater (28635) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F4002, 28635, 0x49F40038, 155.3323, 186.0255, 105.4936, 0.6701621, 0, 0, -0.7422148,  True, '2019-02-10 00:00:00'); /* Insatiable Eater */
@@ -100,3 +102,11 @@ VALUES (0x749F4013, 28641, 0x49F40040, 172.2692, 190.1191, 106.249, 0.6701621, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x749F4014, 28637, 0x49F40040, 174.1105, 187.3704, 107.7034, 0.6701621, 0, 0, -0.7422148,  True, '2019-02-10 00:00:00'); /* Ravenous Eater */
 /* @teleloc 0x49F40040 [174.110500 187.370400 107.703400] 0.670162 0.000000 0.000000 -0.742215 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x749F4015, 28644, 0x49F40038, 162.9319, 186.0426, 105.4854, 0.6701621, 0, 0, -0.7422148,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
+/* @teleloc 0x49F40038 [162.931900 186.042600 105.485400] 0.670162 0.000000 0.000000 -0.742215 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x749F4016, 28635, 0x49F40038, 156.1546, 182.5914, 106.3521, 0.6701621, 0, 0, -0.7422148,  True, '2019-02-10 00:00:00'); /* Insatiable Eater */
+/* @teleloc 0x49F40038 [156.154600 182.591400 106.352100] 0.670162 0.000000 0.000000 -0.742215 */

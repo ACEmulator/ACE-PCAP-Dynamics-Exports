@@ -13,7 +13,8 @@ VALUES (0x7136F001, 0x7136F002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (
      , (0x7136F001, 0x7136F007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
      , (0x7136F001, 0x7136F008, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
      , (0x7136F001, 0x7136F009, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
-     , (0x7136F001, 0x7136F00A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
+     , (0x7136F001, 0x7136F00A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7136F001, 0x7136F00B, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7136F002, 36829, 0x136F0004, 12.81289, 90.45295, 82.32127, -0.5874374, 0, 0, -0.8092696,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -50,3 +51,7 @@ VALUES (0x7136F009, 41534, 0x136F001A, 89.06104, 32.5549, 75.25397, 0.09064478, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7136F00A, 41535, 0x136F0019, 86.7058, 23.66717, 68.0075, 0.09064478, 0, 0, -0.9958833,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
 /* @teleloc 0x136F0019 [86.705800 23.667170 68.007500] 0.090645 0.000000 0.000000 -0.995883 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7136F00B, 24280, 0x136F000D, 36.56714, 100.3112, 73.72098, -0.5874374, 0, 0, -0.8092696,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
+/* @teleloc 0x136F000D [36.567140 100.311200 73.720980] -0.587437 0.000000 0.000000 -0.809270 */

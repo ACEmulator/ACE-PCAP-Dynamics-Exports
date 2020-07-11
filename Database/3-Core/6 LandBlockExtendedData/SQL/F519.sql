@@ -81,7 +81,11 @@ VALUES (0x7F519001, 0x7F519002, '2019-02-10 00:00:00') /* Slithis Tentacle (4257
      , (0x7F519001, 0x7F51904B, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
      , (0x7F519001, 0x7F51904C, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
      , (0x7F519001, 0x7F51904D, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
-     , (0x7F519001, 0x7F51904E, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */;
+     , (0x7F519001, 0x7F51904E, '2019-02-10 00:00:00') /* Slithayr Tendril (4259) */
+     , (0x7F519001, 0x7F51904F, '2019-02-10 00:00:00') /* Sulthis Tendril (8468) */
+     , (0x7F519001, 0x7F519050, '2019-02-10 00:00:00') /* Slithayr Tentacle (4260) */
+     , (0x7F519001, 0x7F519051, '2019-02-10 00:00:00') /* Slithis Tentacle (4257) */
+     , (0x7F519001, 0x7F519052, '2019-02-10 00:00:00') /* Sulthis Tentacle (8469) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F519002,  4257, 0xF519002A, 122.2229, 26.9132, 99.539, 0.657112, 0, 0, -0.753793,  True, '2019-02-10 00:00:00'); /* Slithis Tentacle */
@@ -390,3 +394,30 @@ VALUES (0x7F51904D,  4260, 0xF519002A, 135.7923, 42.97414, 99.539, 0.9315428, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F51904E,  4259, 0xF519002A, 139.4276, 46.95171, 99.542, 0.9315428, 0, 0, -0.3636319,  True, '2019-02-10 00:00:00'); /* Slithayr Tendril */
 /* @teleloc 0xF519002A [139.427600 46.951710 99.542000] 0.931543 0.000000 0.000000 -0.363632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F51904F,  8468, 0xF5190023, 105.9607, 66.72115, 99.092, 0.880325, 0, 0, -0.474371,  True, '2019-02-10 00:00:00'); /* Sulthis Tendril */
+/* @teleloc 0xF5190023 [105.960700 66.721150 99.092000] 0.880325 0.000000 0.000000 -0.474371 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F519050,  4260, 0xF519002A, 142.2527, 45.78138, 99.539, 0.9315428, 0, 0, -0.3636319,  True, '2019-02-10 00:00:00'); /* Slithayr Tentacle */
+/* @teleloc 0xF519002A [142.252700 45.781380 99.539000] 0.931543 0.000000 0.000000 -0.363632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F519051,  4257, 0xF5190022, 114.9662, 27.83053, 99.089, 0.657112, 0, 0, -0.753793,  True, '2019-02-10 00:00:00'); /* Slithis Tentacle */
+/* @teleloc 0xF5190022 [114.966200 27.830530 99.089000] 0.657112 0.000000 0.000000 -0.753793 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F519052,  8469, 0xF5190023, 97.86935, 62.08545, 99.089, 0.880325, 0, 0, -0.474371,  True, '2019-02-10 00:00:00'); /* Sulthis Tentacle */
+/* @teleloc 0xF5190023 [97.869350 62.085450 99.089000] 0.880325 0.000000 0.000000 -0.474371 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F519053,  1542, 0xF519003A, 173.3029, 29.39339, 99.937, 0.9984633, 0, 0, -0.05541666, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF519003A [173.302900 29.393390 99.937000] 0.998463 0.000000 0.000000 -0.055417 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7F519053, 0x7F519054, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F519054,  1955, 0xF519003A, 173.3029, 29.39339, 99.937, 0.9984633, 0, 0, -0.05541666,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xF519003A [173.302900 29.393390 99.937000] 0.998463 0.000000 0.000000 -0.055417 */

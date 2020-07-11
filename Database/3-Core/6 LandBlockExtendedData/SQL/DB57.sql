@@ -28,7 +28,10 @@ VALUES (0x7DB57001, 0x7DB57002, '2019-02-10 00:00:00') /* Mite Snippet (19260) *
      , (0x7DB57001, 0x7DB57016, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
      , (0x7DB57001, 0x7DB57017, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
      , (0x7DB57001, 0x7DB57018, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
-     , (0x7DB57001, 0x7DB57019, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
+     , (0x7DB57001, 0x7DB57019, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB57001, 0x7DB5701A, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7DB57001, 0x7DB5701B, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DB57001, 0x7DB5701C, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB57002, 19260, 0xDB57000A, 30.26433, 29.64209, 19.06415, -0.9165831, 0, 0, -0.3998444,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
@@ -125,3 +128,15 @@ VALUES (0x7DB57018, 19258, 0xDB570035, 159.8212, 103.5181, 5.103325, -0.9666988,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB57019, 19256, 0xDB570011, 66.9304, 21.6437, 20.00715, -0.4557003, 0, 0, -0.8901333,  True, '2019-02-10 00:00:00'); /* Young Banderling */
 /* @teleloc 0xDB570011 [66.930400 21.643700 20.007150] -0.455700 0.000000 0.000000 -0.890133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB5701A, 19261, 0xDB570028, 103.9142, 170.4324, 5.90495, -0.9888483, 0, 0, -0.1489266,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
+/* @teleloc 0xDB570028 [103.914200 170.432400 5.904950] -0.988848 0.000000 0.000000 -0.148927 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB5701B, 19256, 0xDB570035, 161.8388, 103.5798, 5.10715, -0.9666988, 0, 0, -0.2559167,  True, '2019-02-10 00:00:00'); /* Young Banderling */
+/* @teleloc 0xDB570035 [161.838800 103.579800 5.107150] -0.966699 0.000000 0.000000 -0.255917 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB5701C, 19262, 0xDB57003D, 184.0842, 101.382, 5.1044, 0.2575991, 0, 0, -0.9662519,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0xDB57003D [184.084200 101.382000 5.104400] 0.257599 0.000000 0.000000 -0.966252 */

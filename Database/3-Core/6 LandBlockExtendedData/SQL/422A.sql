@@ -13,7 +13,8 @@ VALUES (0x7422A001, 0x7422A002, '2019-02-10 00:00:00') /* Inferno (5712) */
      , (0x7422A001, 0x7422A007, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x7422A001, 0x7422A008, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x7422A001, 0x7422A009, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x7422A001, 0x7422A00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
+     , (0x7422A001, 0x7422A00A, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7422A001, 0x7422A00B, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7422A002,  5712, 0x422A001A, 83.31623, 36.08114, 3.001738, 0.9498281, 0, 0, -0.3127725,  True, '2019-02-10 00:00:00'); /* Inferno */
@@ -50,3 +51,7 @@ VALUES (0x7422A009,  7117, 0x422A001C, 83.32624, 83.95723, 8.374577, -0.7660444,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7422A00A, 23616, 0x422A002E, 122.1088, 141.0131, 5.92683, -0.9994882, 0, 0, -0.03199046,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
 /* @teleloc 0x422A002E [122.108800 141.013100 5.926830] -0.999488 0.000000 0.000000 -0.031990 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7422A00B, 24134, 0x422A0008, 4.15213, 168.2324, 93.53751, 0.4851851, 0, 0, -0.8744115,  True, '2019-02-10 00:00:00'); /* Reedshark Slasher */
+/* @teleloc 0x422A0008 [4.152130 168.232400 93.537510] 0.485185 0.000000 0.000000 -0.874412 */

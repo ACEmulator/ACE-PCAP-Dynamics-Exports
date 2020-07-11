@@ -18,7 +18,8 @@ VALUES (0x71A7B001, 0x71A7B002, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
      , (0x71A7B001, 0x71A7B00C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x71A7B001, 0x71A7B00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x71A7B001, 0x71A7B00E, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
-     , (0x71A7B001, 0x71A7B00F, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
+     , (0x71A7B001, 0x71A7B00F, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71A7B001, 0x71A7B010, '2019-02-10 00:00:00') /* Flamma (8405) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A7B002, 24280, 0x1A7B000E, 25.93725, 139.9828, 139.1973, -0.4725704, 0, 0, -0.8812929,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
@@ -75,3 +76,7 @@ VALUES (0x71A7B00E, 24134, 0x1A7B000C, 37.10512, 79.82798, 134.5418, -0.9743938,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71A7B00F, 36843, 0x1A7B000E, 35.5268, 137.6463, 135.1912, -0.4725704, 0, 0, -0.8812929,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
 /* @teleloc 0x1A7B000E [35.526800 137.646300 135.191200] -0.472570 0.000000 0.000000 -0.881293 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71A7B010,  8405, 0x1A7B003C, 185.5142, 88.50941, 149.8762, -0.7906994, 0, 0, -0.6122047,  True, '2019-02-10 00:00:00'); /* Flamma */
+/* @teleloc 0x1A7B003C [185.514200 88.509410 149.876200] -0.790699 0.000000 0.000000 -0.612205 */

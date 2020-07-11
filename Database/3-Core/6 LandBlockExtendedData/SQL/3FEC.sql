@@ -14,7 +14,9 @@ VALUES (0x73FEC001, 0x73FEC002, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) 
      , (0x73FEC001, 0x73FEC008, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
      , (0x73FEC001, 0x73FEC009, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
      , (0x73FEC001, 0x73FEC00A, '2019-02-10 00:00:00') /* Ruschk Sadist (29344) */
-     , (0x73FEC001, 0x73FEC00B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */;
+     , (0x73FEC001, 0x73FEC00B, '2019-02-10 00:00:00') /* Ravenous Eater (28637) */
+     , (0x73FEC001, 0x73FEC00C, '2019-02-10 00:00:00') /* Ruschk Kartak (29341) */
+     , (0x73FEC001, 0x73FEC00D, '2019-02-10 00:00:00') /* Skeletal Mate (24316) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73FEC002, 28644, 0x3FEC0010, 25.36015, 180.9961, 13.99459, 0.9671692, 0, 0, -0.2541332,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
@@ -57,12 +59,20 @@ VALUES (0x73FEC00B, 28637, 0x3FEC0008, 23.46397, 179.462, 14, 0.9671692, 0, 0, -
 /* @teleloc 0x3FEC0008 [23.463970 179.462000 14.000000] 0.967169 0.000000 0.000000 -0.254133 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73FEC00C,  1542, 0x3FEC000F, 24.43013, 165.0235, 14, 0.9942144, 0, 0, -0.1074136, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73FEC00C, 29341, 0x3FEC0006, 2.288742, 131.5569, 15.04353, 0.734408, 0, 0, -0.6787083,  True, '2019-02-10 00:00:00'); /* Ruschk Kartak */
+/* @teleloc 0x3FEC0006 [2.288742 131.556900 15.043530] 0.734408 0.000000 0.000000 -0.678708 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73FEC00D, 24316, 0x3FEC000F, 32.85863, 160.2324, 14.0025, 0.9671692, 0, 0, -0.2541332,  True, '2019-02-10 00:00:00'); /* Skeletal Mate */
+/* @teleloc 0x3FEC000F [32.858630 160.232400 14.002500] 0.967169 0.000000 0.000000 -0.254133 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73FEC00E,  1542, 0x3FEC000F, 24.43013, 165.0235, 14, 0.9942144, 0, 0, -0.1074136, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x3FEC000F [24.430130 165.023500 14.000000] 0.994214 0.000000 0.000000 -0.107414 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73FEC00C, 0x73FEC00D, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
+VALUES (0x73FEC00E, 0x73FEC00F, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73FEC00D, 31032, 0x3FEC000F, 24.43013, 165.0235, 14, 0.9942144, 0, 0, -0.1074136,  True, '2019-02-10 00:00:00'); /* Snow Lily */
+VALUES (0x73FEC00F, 31032, 0x3FEC000F, 24.43013, 165.0235, 14, 0.9942144, 0, 0, -0.1074136,  True, '2019-02-10 00:00:00'); /* Snow Lily */
 /* @teleloc 0x3FEC000F [24.430130 165.023500 14.000000] 0.994214 0.000000 0.000000 -0.107414 */

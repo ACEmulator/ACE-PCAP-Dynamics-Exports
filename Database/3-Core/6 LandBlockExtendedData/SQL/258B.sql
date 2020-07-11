@@ -16,7 +16,10 @@ VALUES (0x7258B001, 0x7258B002, '2019-02-10 00:00:00') /* Umbris Shadow (4254) *
      , (0x7258B001, 0x7258B00A, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
      , (0x7258B001, 0x7258B00B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
      , (0x7258B001, 0x7258B00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x7258B001, 0x7258B00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
+     , (0x7258B001, 0x7258B00D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7258B001, 0x7258B00E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7258B001, 0x7258B00F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7258B001, 0x7258B010, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7258B002,  4254, 0x258B001A, 84.14783, 47.60612, 55.65661, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
@@ -67,12 +70,24 @@ VALUES (0x7258B00D, 36830, 0x258B002D, 132.1537, 110.5534, 49.22278, 0.7071068, 
 /* @teleloc 0x258B002D [132.153700 110.553400 49.222780] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7258B00E,  1542, 0x258B001A, 83.16138, 45.24965, 54, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7258B00E, 36830, 0x258B0005, 12.58367, 117.8158, 52.32581, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x258B0005 [12.583670 117.815800 52.325810] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7258B00F, 36830, 0x258B0006, 8.929899, 127.5528, 52.32581, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x258B0006 [8.929899 127.552800 52.325810] 0.500000 0.000000 0.000000 -0.866025 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7258B010, 36843, 0x258B0018, 52.24345, 168.9208, 53.994, -0.4821726, 0, 0, -0.8760762,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
+/* @teleloc 0x258B0018 [52.243450 168.920800 53.994000] -0.482173 0.000000 0.000000 -0.876076 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7258B011,  1542, 0x258B001A, 83.16138, 45.24965, 54, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x258B001A [83.161380 45.249650 54.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7258B00E, 0x7258B00F, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
+VALUES (0x7258B011, 0x7258B012, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7258B00F, 22566, 0x258B001A, 83.16138, 45.24965, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7258B012, 22566, 0x258B001A, 83.16138, 45.24965, 54, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x258B001A [83.161380 45.249650 54.000000] 1.000000 0.000000 0.000000 0.000000 */

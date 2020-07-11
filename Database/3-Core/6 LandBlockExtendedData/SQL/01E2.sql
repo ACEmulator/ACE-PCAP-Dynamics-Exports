@@ -507,7 +507,9 @@ VALUES (0x701E20EA,  1542, 0x01E20136, 86.7514, -32.6635, -17.921, 0.9267337, 0,
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x701E20EA, 0x701E20EB, '2019-02-10 00:00:00') /* Gwillim's Alchemy Notes (5841) */
-     , (0x701E20EA, 0x701E20EC, '2019-02-10 00:00:00') /* Gwillim's Alchemy Bag (5844) */;
+     , (0x701E20EA, 0x701E20EC, '2019-02-10 00:00:00') /* Gwillim's Alchemy Bag (5844) */
+     , (0x701E20EA, 0x701E20ED, '2019-02-10 00:00:00') /* Surface (2093) */
+     , (0x701E20EA, 0x701E20EE, '2019-02-10 00:00:00') /* Surface (2093) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E20EB,  5841, 0x01E20136, 86.7514, -32.6635, -17.921, 0.9267337, 0, 0, -0.3757189,  True, '2019-02-10 00:00:00'); /* Gwillim's Alchemy Notes */
@@ -516,3 +518,11 @@ VALUES (0x701E20EB,  5841, 0x01E20136, 86.7514, -32.6635, -17.921, 0.9267337, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E20EC,  5844, 0x01E20136, 86.7132, -33.3932, -18.0025, 0.111578, 0, 0, -0.9937557,  True, '2019-02-10 00:00:00'); /* Gwillim's Alchemy Bag */
 /* @teleloc 0x01E20136 [86.713200 -33.393200 -18.002500] 0.111578 0.000000 0.000000 -0.993756 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701E20ED,  2093, 0x01E20228, 68.26424, -58.30803, 12.005, -0.3548632, 0, 0, 0.9349182,  True, '2019-02-10 00:00:00'); /* Surface */
+/* @teleloc 0x01E20228 [68.264240 -58.308030 12.005000] -0.354863 0.000000 0.000000 0.934918 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701E20EE,  2093, 0x01E2012E, 79.99704, -6.455451, -17.995, 0.9999804, 0, 0, 0.006261239,  True, '2019-02-10 00:00:00'); /* Surface */
+/* @teleloc 0x01E2012E [79.997040 -6.455451 -17.995000] 0.999980 0.000000 0.000000 0.006261 */

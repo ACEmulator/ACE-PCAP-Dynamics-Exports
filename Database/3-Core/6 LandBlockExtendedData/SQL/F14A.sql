@@ -1583,3 +1583,19 @@ VALUES (0x7F14A18D, 12678, 0xF14A0017, 53.5655, 149.432, 50.475, -1, 0, 0, -3.17
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F14A18E, 13190, 0xF14A0006, 20.0246, 125.035, 32.16698, -0.929693, 0, 0, -0.368335, False, '2019-02-10 00:00:00'); /* Tou-Tou Road Villas */
 /* @teleloc 0xF14A0006 [20.024600 125.035000 32.166980] -0.929693 0.000000 0.000000 -0.368335 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F14A18F,  1542, 0xF14A002A, 139.0347, 39.08105, 51.937, -0.3862003, 0, 0, -0.922415, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF14A002A [139.034700 39.081050 51.937000] -0.386200 0.000000 0.000000 -0.922415 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7F14A18F, 0x7F14A190, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F14A18F, 0x7F14A191, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F14A190,  1955, 0xF14A002A, 139.0347, 39.08105, 51.937, -0.3862003, 0, 0, -0.922415,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xF14A002A [139.034700 39.081050 51.937000] -0.386200 0.000000 0.000000 -0.922415 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F14A191,  1955, 0xF14A002B, 137.6001, 48.8459, 50.58839, -0.5321301, 0, 0, -0.8466626,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xF14A002B [137.600100 48.845900 50.588390] -0.532130 0.000000 0.000000 -0.846663 */

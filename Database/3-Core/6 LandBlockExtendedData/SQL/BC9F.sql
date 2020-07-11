@@ -594,7 +594,8 @@ VALUES (0x7BC9F0BB, 0x7BC9F0BC, '2019-02-10 00:00:00') /* Cow (618) */
      , (0x7BC9F0BB, 0x7BC9F0D0, '2019-02-10 00:00:00') /* Pack Gaerlan (29918) */
      , (0x7BC9F0BB, 0x7BC9F0D1, '2019-02-10 00:00:00') /* Copy of Apostate Excavation Master's Orders (41188) */
      , (0x7BC9F0BB, 0x7BC9F0D2, '2019-02-10 00:00:00') /* Scroll of Corrosive Flash (20431) */
-     , (0x7BC9F0BB, 0x7BC9F0D3, '2019-02-10 00:00:00') /* Potion of Healing (377) */;
+     , (0x7BC9F0BB, 0x7BC9F0D3, '2019-02-10 00:00:00') /* Potion of Healing (377) */
+     , (0x7BC9F0BB, 0x7BC9F0D4, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9F0BC,   618, 0xBC9F0111, 180.328, 7.63871, 32.0057, -0.3604121, 0, 0, 0.9327932,  True, '2019-02-10 00:00:00'); /* Cow */
@@ -691,3 +692,7 @@ VALUES (0x7BC9F0D2, 20431, 0xBC9F0006, 10.80494, 127.3863, 64.54715, 0.3366806, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BC9F0D3,   377, 0xBC9F013B, 79.23027, 98.81712, 54.004, 0.03774482, 0, 0, -0.9992874,  True, '2019-02-10 00:00:00'); /* Potion of Healing */
 /* @teleloc 0xBC9F013B [79.230270 98.817120 54.004000] 0.037745 0.000000 0.000000 -0.999287 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BC9F0D4,  1955, 0xBC9F0038, 155.4521, 176.3706, 41.46469, -0.2257697, 0, 0, -0.9741807,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xBC9F0038 [155.452100 176.370600 41.464690] -0.225770 0.000000 0.000000 -0.974181 */

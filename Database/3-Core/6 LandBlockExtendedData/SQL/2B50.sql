@@ -36,7 +36,15 @@ VALUES (0x72B50001, 0x72B50002, '2019-02-10 00:00:00') /* Tormenter (25806) */
      , (0x72B50001, 0x72B5001E, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
      , (0x72B50001, 0x72B5001F, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
      , (0x72B50001, 0x72B50020, '2019-02-10 00:00:00') /* Silver Scope Heavy Scout (41732) */
-     , (0x72B50001, 0x72B50021, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */;
+     , (0x72B50001, 0x72B50021, '2019-02-10 00:00:00') /* Transcendent Tumerok (23093) */
+     , (0x72B50001, 0x72B50022, '2019-02-10 00:00:00') /* K'nath X'ela (25293) */
+     , (0x72B50001, 0x72B50023, '2019-02-10 00:00:00') /* K'nath La'nal (23558) */
+     , (0x72B50001, 0x72B50024, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x72B50001, 0x72B50025, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B50001, 0x72B50026, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B50001, 0x72B50027, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B50001, 0x72B50028, '2019-02-10 00:00:00') /* Bile Grievver (22900) */
+     , (0x72B50001, 0x72B50029, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B50002, 25806, 0x2B500013, 51.42305, 57.52732, 16.82673, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Tormenter */
@@ -167,22 +175,59 @@ VALUES (0x72B50021, 23093, 0x2B500013, 50.58661, 51.54403, 18.82516, 0.9893589, 
 /* @teleloc 0x2B500013 [50.586610 51.544030 18.825160] 0.989359 0.000000 0.000000 -0.145496 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72B50022,  1542, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x72B50022, 25293, 0x2B50000B, 46.20966, 53.88911, 17.62178, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* K'nath X'ela */
+/* @teleloc 0x2B50000B [46.209660 53.889110 17.621780] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50023, 23558, 0x2B50000B, 47.19661, 53.45296, 18.0139, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* K'nath La'nal */
+/* @teleloc 0x2B50000B [47.196610 53.452960 18.013900] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50024, 22899, 0x2B500001, 21.64066, 22.68242, 70.27011, -0.9853969, 0, 0, -0.1702735,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
+/* @teleloc 0x2B500001 [21.640660 22.682420 70.270110] -0.985397 0.000000 0.000000 -0.170274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50025, 22900, 0x2B50000B, 46.13008, 51.65503, 18.31178, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Bile Grievver */
+/* @teleloc 0x2B50000B [46.130080 51.655030 18.311780] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50026, 22900, 0x2B500013, 52.29709, 61.47491, 18.28881, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Bile Grievver */
+/* @teleloc 0x2B500013 [52.297090 61.474910 18.288810] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50027, 22900, 0x2B500013, 50.04422, 55.3112, 17.56053, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Bile Grievver */
+/* @teleloc 0x2B500013 [50.044220 55.311200 17.560530] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50028, 22900, 0x2B500013, 51.91241, 52.81364, 18.39305, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Bile Grievver */
+/* @teleloc 0x2B500013 [51.912410 52.813640 18.393050] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B50029, 23091, 0x2B500013, 48.33408, 57.14762, 16.95629, 0.9893589, 0, 0, -0.1454957,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x2B500013 [48.334080 57.147620 16.956290] 0.989359 0.000000 0.000000 -0.145496 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B5002A,  1542, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2B500030 [141.351000 170.467000 3.731417] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72B50022, 0x72B50023, '2019-02-10 00:00:00') /* Mukkir-Infested Black Spear Temple (33774) */
-     , (0x72B50022, 0x72B50024, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
-     , (0x72B50022, 0x72B50025, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
+VALUES (0x72B5002A, 0x72B5002B, '2019-02-10 00:00:00') /* Mukkir-Infested Black Spear Temple (33774) */
+     , (0x72B5002A, 0x72B5002C, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72B5002A, 0x72B5002D, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72B5002A, 0x72B5002E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72B50023, 33774, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mukkir-Infested Black Spear Temple */
+VALUES (0x72B5002B, 33774, 0x2B500030, 141.351, 170.467, 3.731417, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Mukkir-Infested Black Spear Temple */
 /* @teleloc 0x2B500030 [141.351000 170.467000 3.731417] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72B50024, 46284, 0x2B500001, 17.76408, 21.09763, 70.41187, -0.9853969, 0, 0, -0.1702735,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
+VALUES (0x72B5002C, 46284, 0x2B500001, 17.76408, 21.09763, 70.41187, -0.9853969, 0, 0, -0.1702735,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
 /* @teleloc 0x2B500001 [17.764080 21.097630 70.411870] -0.985397 0.000000 0.000000 -0.170274 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72B50025, 46284, 0x2B500009, 26.42112, 18.67168, 72.79319, -0.9853969, 0, 0, -0.1702735,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
+VALUES (0x72B5002D, 46284, 0x2B500009, 26.42112, 18.67168, 72.79319, -0.9853969, 0, 0, -0.1702735,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
 /* @teleloc 0x2B500009 [26.421120 18.671680 72.793190] -0.985397 0.000000 0.000000 -0.170274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B5002E,  1955, 0x2B500028, 115.8135, 176.6586, 5.681377, -0.9943167, 0, 0, 0.1064627,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x2B500028 [115.813500 176.658600 5.681377] -0.994317 0.000000 0.000000 0.106463 */

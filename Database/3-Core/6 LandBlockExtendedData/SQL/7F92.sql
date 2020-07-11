@@ -10,7 +10,8 @@ VALUES (0x77F92001, 0x77F92002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x77F92001, 0x77F92004, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
      , (0x77F92001, 0x77F92005, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x77F92001, 0x77F92006, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
-     , (0x77F92001, 0x77F92007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
+     , (0x77F92001, 0x77F92007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x77F92001, 0x77F92008, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F92002, 24937, 0x7F92002A, 138.7747, 34.87014, 75.54545, -0.7708253, 0, 0, -0.6370466,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -35,3 +36,7 @@ VALUES (0x77F92006,   217, 0x7F92003D, 173.9685, 114.8248, 77.59224, 0.9888855, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F92007,   217, 0x7F92003E, 172.8176, 120.1678, 78.46304, 0.9888855, 0, 0, -0.1486789,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
 /* @teleloc 0x7F92003E [172.817600 120.167800 78.463040] 0.988886 0.000000 0.000000 -0.148679 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77F92008,  5429, 0x7F920031, 147.309, 21.09944, 71.69022, -0.7708253, 0, 0, -0.6370466,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0x7F920031 [147.309000 21.099440 71.690220] -0.770825 0.000000 0.000000 -0.637047 */

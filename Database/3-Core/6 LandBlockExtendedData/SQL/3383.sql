@@ -28,7 +28,10 @@ VALUES (0x73383006, 0x73383007, '2019-02-10 00:00:00') /* Tumerok Priest (231) *
      , (0x73383006, 0x73383017, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
      , (0x73383006, 0x73383018, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
      , (0x73383006, 0x73383019, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
-     , (0x73383006, 0x7338301A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
+     , (0x73383006, 0x7338301A, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */
+     , (0x73383006, 0x7338301B, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x73383006, 0x7338301C, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x73383006, 0x7338301D, '2019-02-10 00:00:00') /* Banderling Thrasher (7086) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73383007,   231, 0x33830100, 183.1606, 34.79585, 251.6055, -0.844999, 0, 0, -0.534768,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
@@ -109,3 +112,15 @@ VALUES (0x73383019,   233, 0x3383001A, 81.879, 30.9881, 258.8055, 0.6647901, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7338301A,  7086, 0x33830021, 99.43826, 21.92145, 250.0071, -0.9961863, 0, 0, -0.0872516,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
 /* @teleloc 0x33830021 [99.438260 21.921450 250.007100] -0.996186 0.000000 0.000000 -0.087252 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7338301B,   233, 0x3383001A, 81.879, 30.9881, 265.205, 0.66479, 0, 0, -0.74703,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
+/* @teleloc 0x3383001A [81.879000 30.988100 265.205000] 0.664790 0.000000 0.000000 -0.747030 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7338301C, 21550, 0x33830019, 86.31642, 5.9442, 250.0065, -0.9961863, 0, 0, -0.0872516,  True, '2019-02-10 00:00:00'); /* Stasis Wisp */
+/* @teleloc 0x33830019 [86.316420 5.944200 250.006500] -0.996186 0.000000 0.000000 -0.087252 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7338301D,  7086, 0x33830021, 104.0331, 3.361355, 250.0071, -0.9493361, 0, 0, -0.3142627,  True, '2019-02-10 00:00:00'); /* Banderling Thrasher */
+/* @teleloc 0x33830021 [104.033100 3.361355 250.007100] -0.949336 0.000000 0.000000 -0.314263 */

@@ -35,7 +35,8 @@ VALUES (0x7AFA9006, 0x7AFA9007, '2019-02-10 00:00:00') /* Heart of Innocence (24
      , (0x7AFA9006, 0x7AFA9008, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
      , (0x7AFA9006, 0x7AFA9009, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
      , (0x7AFA9006, 0x7AFA900A, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7AFA9006, 0x7AFA900B, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */;
+     , (0x7AFA9006, 0x7AFA900B, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */
+     , (0x7AFA9006, 0x7AFA900C, '2019-02-10 00:00:00') /* Heart of Innocence (24185) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA9007, 24185, 0xAFA9003F, 173.4174, 147.6755, 107.1322, 0.0466763, 0, 0, 0.99891,  True, '2019-02-10 00:00:00'); /* Heart of Innocence */
@@ -56,3 +57,7 @@ VALUES (0x7AFA900A,  4179, 0xAFA90031, 148.1618, 4.247672, 102.1185, 0.9990482, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFA900B, 24185, 0xAFA9003F, 175.6426, 144.9274, 104.4489, 0.0466763, 0, 0, 0.9989101,  True, '2019-02-10 00:00:00'); /* Heart of Innocence */
 /* @teleloc 0xAFA9003F [175.642600 144.927400 104.448900] 0.046676 0.000000 0.000000 0.998910 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AFA900C, 24185, 0xAFA9003D, 186.2276, 106.6633, 92.74736, 0.0466763, 0, 0, 0.99891,  True, '2019-02-10 00:00:00'); /* Heart of Innocence */
+/* @teleloc 0xAFA9003D [186.227600 106.663300 92.747360] 0.046676 0.000000 0.000000 0.998910 */

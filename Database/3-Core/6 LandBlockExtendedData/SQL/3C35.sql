@@ -10,7 +10,8 @@ VALUES (0x73C35001, 0x73C35002, '2019-02-10 00:00:00') /* Virindi Executor (9264
      , (0x73C35001, 0x73C35004, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
      , (0x73C35001, 0x73C35005, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
      , (0x73C35001, 0x73C35006, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x73C35001, 0x73C35007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
+     , (0x73C35001, 0x73C35007, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x73C35001, 0x73C35008, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C35002,  9264, 0x3C350006, 11.06882, 127.8078, 145.3754, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
@@ -35,3 +36,7 @@ VALUES (0x73C35006,  9264, 0x3C350006, 15.598, 133.0545, 145.8748, 0.9659258, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73C35007,  9264, 0x3C350006, 4.069067, 134.4589, 158.966, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
 /* @teleloc 0x3C350006 [4.069067 134.458900 158.966000] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73C35008, 24281, 0x3C35000E, 29.13716, 143.9841, 111.2942, 0.3046633, 0, 0, -0.9524601,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x3C35000E [29.137160 143.984100 111.294200] 0.304663 0.000000 0.000000 -0.952460 */

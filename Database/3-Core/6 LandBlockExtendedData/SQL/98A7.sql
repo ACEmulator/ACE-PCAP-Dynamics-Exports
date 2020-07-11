@@ -16,7 +16,9 @@ VALUES (0x798A7001, 0x798A7002, '2019-02-10 00:00:00') /* Scrawed Grievver (7978
      , (0x798A7001, 0x798A700A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
      , (0x798A7001, 0x798A700B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
      , (0x798A7001, 0x798A700C, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
-     , (0x798A7001, 0x798A700D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
+     , (0x798A7001, 0x798A700D, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x798A7001, 0x798A700E, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
+     , (0x798A7001, 0x798A700F, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798A7002,  7978, 0x98A70037, 152.326, 146.2799, 54.08655, -0.9992034, 0, 0, -0.0399075,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
@@ -65,3 +67,11 @@ VALUES (0x798A700C,  7978, 0x98A70011, 71.92786, 2.665026, 63.33825, 0.9998318, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x798A700D,  1608, 0x98A7003F, 169.38, 152.3755, 53.30536, -0.9992034, 0, 0, -0.0399075,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
 /* @teleloc 0x98A7003F [169.380000 152.375500 53.305360] -0.999203 0.000000 0.000000 -0.039908 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x798A700E,  7979, 0x98A70011, 51.49403, 3.116333, 64.92825, 0.9998318, 0, 0, -0.0183417,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
+/* @teleloc 0x98A70011 [51.494030 3.116333 64.928250] 0.999832 0.000000 0.000000 -0.018342 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x798A700F,  1756, 0x98A7003F, 186.748, 148.7418, 53.60735, -0.9992034, 0, 0, -0.0399075,  True, '2019-02-10 00:00:00'); /* Shadow Child */
+/* @teleloc 0x98A7003F [186.748000 148.741800 53.607350] -0.999203 0.000000 0.000000 -0.039908 */

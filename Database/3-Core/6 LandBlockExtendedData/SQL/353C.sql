@@ -11,7 +11,8 @@ VALUES (0x7353C001, 0x7353C002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482)
      , (0x7353C001, 0x7353C005, '2019-02-10 00:00:00') /* Lacerator (24957) */
      , (0x7353C001, 0x7353C006, '2019-02-10 00:00:00') /* Lacerator (24957) */
      , (0x7353C001, 0x7353C007, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
-     , (0x7353C001, 0x7353C008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
+     , (0x7353C001, 0x7353C008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7353C001, 0x7353C009, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7353C002, 23482, 0x353C0012, 57.03836, 34.19505, 232.3972, -0.2520269, 0, 0, -0.9677202,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -42,12 +43,16 @@ VALUES (0x7353C008, 23482, 0x353C0013, 69.84819, 61.58247, 224.6993, -0.2520269,
 /* @teleloc 0x353C0013 [69.848190 61.582470 224.699300] -0.252027 0.000000 0.000000 -0.967720 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7353C009,  1542, 0x353C0012, 58.61441, 24.16755, 233.9721, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7353C009, 21552, 0x353C0012, 50.04388, 36.33, 232.8087, -0.2520269, 0, 0, -0.9677202,  True, '2019-02-10 00:00:00'); /* Tempest Wisp */
+/* @teleloc 0x353C0012 [50.043880 36.330000 232.808700] -0.252027 0.000000 0.000000 -0.967720 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7353C00A,  1542, 0x353C0012, 58.61441, 24.16755, 233.9721, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x353C0012 [58.614410 24.167550 233.972100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7353C009, 0x7353C00A, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
+VALUES (0x7353C00A, 0x7353C00B, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7353C00A, 22566, 0x353C0012, 58.61441, 24.16755, 233.9721, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7353C00B, 22566, 0x353C0012, 58.61441, 24.16755, 233.9721, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x353C0012 [58.614410 24.167550 233.972100] 1.000000 0.000000 0.000000 0.000000 */

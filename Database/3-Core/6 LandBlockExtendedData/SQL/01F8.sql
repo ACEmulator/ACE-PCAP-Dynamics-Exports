@@ -666,7 +666,8 @@ VALUES (0x701F80D7, 0x701F80D8, '2019-02-10 00:00:00') /* Cow (5755) */
      , (0x701F80D7, 0x701F80E9, '2019-02-10 00:00:00') /* Coalesced Mana (42518) */
      , (0x701F80D7, 0x701F80EA, '2019-02-10 00:00:00') /* Gem (2427) */
      , (0x701F80D7, 0x701F80EB, '2019-02-10 00:00:00') /* Compass (41483) */
-     , (0x701F80D7, 0x701F80EC, '2019-02-10 00:00:00') /* Gem (2422) */;
+     , (0x701F80D7, 0x701F80EC, '2019-02-10 00:00:00') /* Gem (2422) */
+     , (0x701F80D7, 0x701F80ED, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F80D8,  5755, 0x01F803C0, 116.6, -9.32981, 6.0057, 0.1578349, 0, 0, -0.9874655,  True, '2019-02-10 00:00:00'); /* Cow */
@@ -751,3 +752,7 @@ VALUES (0x701F80EB, 41483, 0x01F80433, 51.36379, -61.36367, 12.02111, 1, 0, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701F80EC,  2422, 0x01F80433, 50.17282, -62.14535, 11.999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gem */
 /* @teleloc 0x01F80433 [50.172820 -62.145350 11.999000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701F80ED,  1955, 0x01F802A6, 89.61123, -14.57283, -0.06299996, 0.0967851, 0, 0, -0.9953053,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x01F802A6 [89.611230 -14.572830 -0.063000] 0.096785 0.000000 0.000000 -0.995305 */

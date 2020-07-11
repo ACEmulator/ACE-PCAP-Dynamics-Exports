@@ -14,7 +14,10 @@ VALUES (0x7A8B7001, 0x7A8B7002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7A8B7001, 0x7A8B7008, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
      , (0x7A8B7001, 0x7A8B7009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7A8B7001, 0x7A8B700A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
-     , (0x7A8B7001, 0x7A8B700B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
+     , (0x7A8B7001, 0x7A8B700B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7A8B7001, 0x7A8B700C, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7A8B7001, 0x7A8B700D, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7A8B7001, 0x7A8B700E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B7002, 24937, 0xA8B70007, 2.811798, 162.4191, 27.892, -0.6964013, 0, 0, -0.7176526,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -55,3 +58,15 @@ VALUES (0x7A8B700A,  2566, 0xA8B70008, 5.521866, 171.2166, 27.9, -0.6964013, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B700B,  2566, 0xA8B70006, 14.27342, 140.3017, 27.55, -0.6964013, 0, 0, -0.7176526,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xA8B70006 [14.273420 140.301700 27.550000] -0.696401 0.000000 0.000000 -0.717653 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A8B700C, 19258, 0xA8B70013, 55.92171, 64.61974, 28.00332, 0.5136429, 0, 0, -0.858004,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0xA8B70013 [55.921710 64.619740 28.003320] 0.513643 0.000000 0.000000 -0.858004 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A8B700D, 19260, 0xA8B70025, 113.6192, 102.8262, 27.1045, -0.8801445, 0, 0, -0.4747058,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
+/* @teleloc 0xA8B70025 [113.619200 102.826200 27.104500] -0.880145 0.000000 0.000000 -0.474706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A8B700E,  2566, 0xA8B70006, 3.645234, 141.5615, 27.9, -0.6964013, 0, 0, -0.7176526,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xA8B70006 [3.645234 141.561500 27.900000] -0.696401 0.000000 0.000000 -0.717653 */

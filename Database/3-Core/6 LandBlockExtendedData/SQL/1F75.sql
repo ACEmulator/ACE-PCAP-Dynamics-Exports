@@ -17,7 +17,10 @@ VALUES (0x71F75001, 0x71F75002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) 
      , (0x71F75001, 0x71F7500B, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
      , (0x71F75001, 0x71F7500C, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
      , (0x71F75001, 0x71F7500D, '2019-02-10 00:00:00') /* Enku Zefir (11534) */
-     , (0x71F75001, 0x71F7500E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
+     , (0x71F75001, 0x71F7500E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71F75001, 0x71F7500F, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x71F75001, 0x71F75010, '2019-02-10 00:00:00') /* Gelid (20190) */
+     , (0x71F75001, 0x71F75011, '2019-02-10 00:00:00') /* Frost (14517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F75002, 24497, 0x1F750031, 156.6204, 19.39503, 80.72935, -0.02711671, 0, 0, -0.9996323,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -70,3 +73,15 @@ VALUES (0x71F7500D, 11534, 0x1F750011, 71.60741, 19.13878, 150.015, -0.3321552, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F7500E, 36829, 0x1F750031, 153.4465, 7.978031, 76.17985, -0.02711671, 0, 0, -0.9996323,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
 /* @teleloc 0x1F750031 [153.446500 7.978031 76.179850] -0.027117 0.000000 0.000000 -0.999632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F7500F, 14517, 0x1F750031, 151.4015, 20.95716, 84.4216, -0.02711671, 0, 0, -0.9996323,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0x1F750031 [151.401500 20.957160 84.421600] -0.027117 0.000000 0.000000 -0.999632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F75010, 20190, 0x1F750031, 155.7696, 18.56849, 80.87877, -0.02711671, 0, 0, -0.9996323,  True, '2019-02-10 00:00:00'); /* Gelid */
+/* @teleloc 0x1F750031 [155.769600 18.568490 80.878770] -0.027117 0.000000 0.000000 -0.999632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F75011, 14517, 0x1F750031, 157.2869, 18.87689, 80.12167, -0.02711671, 0, 0, -0.9996323,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0x1F750031 [157.286900 18.876890 80.121670] -0.027117 0.000000 0.000000 -0.999632 */

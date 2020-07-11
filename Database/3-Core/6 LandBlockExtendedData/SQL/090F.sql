@@ -103,7 +103,11 @@ VALUES (0x7090F001, 0x7090F002, '2019-02-10 00:00:00') /* Monstrous Mite (25871)
      , (0x7090F001, 0x7090F061, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
      , (0x7090F001, 0x7090F062, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
      , (0x7090F001, 0x7090F063, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
-     , (0x7090F001, 0x7090F064, '2019-02-10 00:00:00') /* Ravager (25852) */;
+     , (0x7090F001, 0x7090F064, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x7090F001, 0x7090F065, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x7090F001, 0x7090F066, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x7090F001, 0x7090F067, '2019-02-10 00:00:00') /* Damned Marionette (25866) */
+     , (0x7090F001, 0x7090F068, '2019-02-10 00:00:00') /* Biaka (25859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7090F002, 25871, 0x090F002B, 126.5456, 49.00236, 129.0215, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
@@ -502,12 +506,28 @@ VALUES (0x7090F064, 25852, 0x090F003F, 191.8106, 151.6382, 203.4539, 1, 0, 0, 0,
 /* @teleloc 0x090F003F [191.810600 151.638200 203.453900] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7090F065,  1542, 0x090F0022, 105.8193, 44.34615, 76.36532, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7090F065, 25852, 0x090F002B, 130.2438, 53.07764, 113.019, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x090F002B [130.243800 53.077640 113.019000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090F066, 25852, 0x090F0035, 160.192, 96.243, 202.8125, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x090F0035 [160.192000 96.243000 202.812500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090F067, 25866, 0x090F0039, 173.6554, 19.96489, 147.8856, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
+/* @teleloc 0x090F0039 [173.655400 19.964890 147.885600] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090F068, 25859, 0x090F003A, 182.682, 43.14761, 154.0012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x090F003A [182.682000 43.147610 154.001200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090F069,  1542, 0x090F0022, 105.8193, 44.34615, 76.36532, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x090F0022 [105.819300 44.346150 76.365320] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7090F065, 0x7090F066, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
+VALUES (0x7090F069, 0x7090F06A, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7090F066, 27298, 0x090F0022, 105.8193, 44.34615, 76.36532, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
+VALUES (0x7090F06A, 27298, 0x090F0022, 105.8193, 44.34615, 76.36532, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
 /* @teleloc 0x090F0022 [105.819300 44.346150 76.365320] 1.000000 0.000000 0.000000 0.000000 */

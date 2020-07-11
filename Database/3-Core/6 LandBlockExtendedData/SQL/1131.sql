@@ -25,7 +25,8 @@ VALUES (0x71131001, 0x71131002, '2019-02-10 00:00:00') /* Virindi Consul (23489)
      , (0x71131001, 0x71131013, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
      , (0x71131001, 0x71131014, '2019-02-10 00:00:00') /* Virindi Profane (22914) */
      , (0x71131001, 0x71131015, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
-     , (0x71131001, 0x71131016, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */;
+     , (0x71131001, 0x71131016, '2019-02-10 00:00:00') /* Maelstrom Shadow (22909) */
+     , (0x71131001, 0x71131017, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71131002, 23489, 0x11310024, 112.5697, 92.47804, 1.735504, -0.4842648, 0, 0, -0.8749215,  True, '2019-02-10 00:00:00'); /* Virindi Consul */
@@ -110,3 +111,7 @@ VALUES (0x71131015, 22911, 0x1131002E, 124.232, 131.5147, 4.0065, 0.9961947, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71131016, 22909, 0x1131002E, 124.32, 128.7376, 4.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
 /* @teleloc 0x1131002E [124.320000 128.737600 4.006500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71131017, 23482, 0x1131003E, 183.3792, 122.7016, 4, -0.7124488, 0, 0, -0.7017241,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x1131003E [183.379200 122.701600 4.000000] -0.712449 0.000000 0.000000 -0.701724 */

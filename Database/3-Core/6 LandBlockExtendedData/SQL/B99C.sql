@@ -65,7 +65,8 @@ VALUES (0x7B99C00E, 0x7B99C00F, '2019-02-10 00:00:00') /* An old note  (1420) */
      , (0x7B99C00E, 0x7B99C019, '2019-02-10 00:00:00') /* Cow (14) */
      , (0x7B99C00E, 0x7B99C01A, '2019-02-10 00:00:00') /* An old note  (1418) */
      , (0x7B99C00E, 0x7B99C01B, '2019-02-10 00:00:00') /* A torn note  (1417) */
-     , (0x7B99C00E, 0x7B99C01C, '2019-02-10 00:00:00') /* An old note  (1418) */;
+     , (0x7B99C00E, 0x7B99C01C, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x7B99C00E, 0x7B99C01D, '2019-02-10 00:00:00') /* An old note  (1420) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99C00F,  1420, 0xB99C0106, 31.65229, 156.1345, 60.079, -0.891702, 0, 0, -0.452623,  True, '2019-02-10 00:00:00'); /* An old note  */
@@ -122,3 +123,7 @@ VALUES (0x7B99C01B,  1417, 0xB99C0106, 32.30167, 156.4796, 60.079, -0.891702, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99C01C,  1418, 0xB99C0106, 34.12559, 157.5787, 60.079, -0.891702, 0, 0, -0.452623,  True, '2019-02-10 00:00:00'); /* An old note  */
 /* @teleloc 0xB99C0106 [34.125590 157.578700 60.079000] -0.891702 0.000000 0.000000 -0.452623 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B99C01D,  1420, 0xB99C0106, 34.26674, 157.4604, 60.079, -0.891702, 0, 0, -0.452623,  True, '2019-02-10 00:00:00'); /* An old note  */
+/* @teleloc 0xB99C0106 [34.266740 157.460400 60.079000] -0.891702 0.000000 0.000000 -0.452623 */

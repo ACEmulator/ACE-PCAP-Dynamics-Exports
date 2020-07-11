@@ -57,7 +57,10 @@ VALUES (0x71394001, 0x71394002, '2019-02-10 00:00:00') /* Tsuric (14877) */
      , (0x71394001, 0x71394033, '2019-02-10 00:00:00') /* Paroxysm Shadow (22911) */
      , (0x71394001, 0x71394034, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
      , (0x71394001, 0x71394035, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
-     , (0x71394001, 0x71394036, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
+     , (0x71394001, 0x71394036, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
+     , (0x71394001, 0x71394037, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
+     , (0x71394001, 0x71394038, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x71394001, 0x71394039, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71394002, 14877, 0x1394000A, 29.61263, 34.9017, 0.006999969, -0.176189, 0, 0, -0.9843563,  True, '2019-02-10 00:00:00'); /* Tsuric */
@@ -272,12 +275,24 @@ VALUES (0x71394036,  7114, 0x13940036, 151.12, 136.6516, -0.01874995, 0.7372774,
 /* @teleloc 0x13940036 [151.120000 136.651600 -0.018750] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71394037,  1542, 0x1394001F, 92.93139, 163.0407, -0.00999999, 0.5270433, 0, 0, -0.8498384, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71394037, 24133, 0x13940028, 107.2353, 171.3349, 0, 0.5270433, 0, 0, -0.8498384,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
+/* @teleloc 0x13940028 [107.235300 171.334900 0.000000] 0.527043 0.000000 0.000000 -0.849838 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71394038,  7098, 0x1394002F, 130.3201, 152.5637, 0.00999999, 0.7633983, 0, 0, -0.6459281,  True, '2019-02-10 00:00:00'); /* Plasma Golem */
+/* @teleloc 0x1394002F [130.320100 152.563700 0.010000] 0.763398 0.000000 0.000000 -0.645928 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71394039,  7114, 0x13940040, 173.0166, 170.8701, -0.01874995, -0.02880012, 0, 0, -0.9995852,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
+/* @teleloc 0x13940040 [173.016600 170.870100 -0.018750] -0.028800 0.000000 0.000000 -0.999585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7139403A,  1542, 0x1394001F, 92.93139, 163.0407, -0.00999999, 0.5270433, 0, 0, -0.8498384, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x1394001F [92.931390 163.040700 -0.010000] 0.527043 0.000000 0.000000 -0.849838 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71394037, 0x71394038, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+VALUES (0x7139403A, 0x7139403B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71394038,  9288, 0x1394001F, 92.93139, 163.0407, -0.00999999, 0.5270433, 0, 0, -0.8498384,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x7139403B,  9288, 0x1394001F, 92.93139, 163.0407, -0.00999999, 0.5270433, 0, 0, -0.8498384,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x1394001F [92.931390 163.040700 -0.010000] 0.527043 0.000000 0.000000 -0.849838 */

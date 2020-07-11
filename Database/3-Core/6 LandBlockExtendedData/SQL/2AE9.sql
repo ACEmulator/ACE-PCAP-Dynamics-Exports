@@ -14,7 +14,15 @@ VALUES (0x72AE9001, 0x72AE9002, '2019-02-10 00:00:00') /* Panumbris Shadow (4253
      , (0x72AE9001, 0x72AE9008, '2019-02-10 00:00:00') /* Eater (28640) */
      , (0x72AE9001, 0x72AE9009, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
      , (0x72AE9001, 0x72AE900A, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
-     , (0x72AE9001, 0x72AE900B, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
+     , (0x72AE9001, 0x72AE900B, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x72AE9001, 0x72AE900C, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x72AE9001, 0x72AE900D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x72AE9001, 0x72AE900E, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72AE9001, 0x72AE900F, '2019-02-10 00:00:00') /* Raving Fiun (28647) */
+     , (0x72AE9001, 0x72AE9010, '2019-02-10 00:00:00') /* Engorged Eater (28642) */
+     , (0x72AE9001, 0x72AE9011, '2019-02-10 00:00:00') /* Relic Bones (19264) */
+     , (0x72AE9001, 0x72AE9012, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x72AE9001, 0x72AE9013, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE9002,  4253, 0x2AE9001F, 75.54694, 149.0156, 20.5367, -0.9891794, 0, 0, -0.146711,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
@@ -55,3 +63,35 @@ VALUES (0x72AE900A, 28642, 0x2AE9000C, 43.12683, 72.05481, 0.01827061, -0.744568
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72AE900B, 26469, 0x2AE9003E, 191.9505, 121.7439, -0.4499998, 0.9331759, 0, 0, -0.3594201,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */
 /* @teleloc 0x2AE9003E [191.950500 121.743900 -0.450000] 0.933176 0.000000 0.000000 -0.359420 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE900C, 29358, 0x2AE90004, 14.36733, 88.15638, 5.39746, -0.2343702, 0, 0, -0.9721474,  True, '2019-02-10 00:00:00'); /* Woodland Phyntos Wasp */
+/* @teleloc 0x2AE90004 [14.367330 88.156380 5.397460] -0.234370 0.000000 0.000000 -0.972147 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE900D, 22933, 0x2AE90002, 11.40251, 33.38951, 6.086331, -0.9803537, 0, 0, -0.1972475,  True, '2019-02-10 00:00:00'); /* Mist Golem */
+/* @teleloc 0x2AE90002 [11.402510 33.389510 6.086331] -0.980354 0.000000 0.000000 -0.197248 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE900E,  4254, 0x2AE9000A, 33.14487, 45.75796, -0.09600002, 0.8661379, 0, 0, -0.4998052,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x2AE9000A [33.144870 45.757960 -0.096000] 0.866138 0.000000 0.000000 -0.499805 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE900F, 28647, 0x2AE90003, 19.94803, 51.33995, 1.338926, 0.9726959, 0, 0, -0.2320832,  True, '2019-02-10 00:00:00'); /* Raving Fiun */
+/* @teleloc 0x2AE90003 [19.948030 51.339950 1.338926] 0.972696 0.000000 0.000000 -0.232083 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE9010, 28642, 0x2AE90003, 4.355398, 70.08575, 7.875345, -0.9803537, 0, 0, -0.1972475,  True, '2019-02-10 00:00:00'); /* Engorged Eater */
+/* @teleloc 0x2AE90003 [4.355398 70.085750 7.875345] -0.980354 0.000000 0.000000 -0.197248 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE9011, 19264, 0x2AE90004, 8.070736, 83.77136, 5.312255, -0.2343702, 0, 0, -0.9721474,  True, '2019-02-10 00:00:00'); /* Relic Bones */
+/* @teleloc 0x2AE90004 [8.070736 83.771360 5.312255] -0.234370 0.000000 0.000000 -0.972147 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE9012, 28553, 0x2AE90006, 6.70752, 120.8187, 8.407561, -0.8354753, 0, 0, -0.549528,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
+/* @teleloc 0x2AE90006 [6.707520 120.818700 8.407561] -0.835475 0.000000 0.000000 -0.549528 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72AE9013, 28651, 0x2AE90017, 66.77908, 161.7742, 20.36609, -0.9891794, 0, 0, -0.146711,  True, '2019-02-10 00:00:00'); /* Viamontian Mercenary */
+/* @teleloc 0x2AE90017 [66.779080 161.774200 20.366090] -0.989179 0.000000 0.000000 -0.146711 */

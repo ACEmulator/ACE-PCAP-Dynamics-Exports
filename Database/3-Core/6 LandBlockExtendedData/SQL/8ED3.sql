@@ -47,7 +47,11 @@ VALUES (0x78ED3001, 0x78ED3002, '2019-02-10 00:00:00') /* Ember (7607) */
      , (0x78ED3001, 0x78ED3029, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
      , (0x78ED3001, 0x78ED302A, '2019-02-10 00:00:00') /* Ember (7607) */
      , (0x78ED3001, 0x78ED302B, '2019-02-10 00:00:00') /* Magma Golem (199) */
-     , (0x78ED3001, 0x78ED302C, '2019-02-10 00:00:00') /* Firestorm (7092) */;
+     , (0x78ED3001, 0x78ED302C, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x78ED3001, 0x78ED302D, '2019-02-10 00:00:00') /* Olthoi Noble (212) */
+     , (0x78ED3001, 0x78ED302E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x78ED3001, 0x78ED302F, '2019-02-10 00:00:00') /* Ember (7607) */
+     , (0x78ED3001, 0x78ED3030, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ED3002,  7607, 0x8ED30039, 175.2754, 3.434244, 293.9347, 0.205088, 0, 0, -0.978743,  True, '2019-02-10 00:00:00'); /* Ember */
@@ -222,12 +226,28 @@ VALUES (0x78ED302C,  7092, 0x8ED30031, 159.2734, 16.72693, 302.493, 0.2050881, 0
 /* @teleloc 0x8ED30031 [159.273400 16.726930 302.493000] 0.205088 0.000000 0.000000 -0.978744 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78ED302D,  1542, 0x8ED3000F, 33.32578, 164.3371, 454.442, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78ED302D,   212, 0x8ED30018, 70.4767, 178.1621, 469.7544, -0.03039993, 0, 0, -0.9995378,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
+/* @teleloc 0x8ED30018 [70.476700 178.162100 469.754400] -0.030400 0.000000 0.000000 -0.999538 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED302E, 23082, 0x8ED3003A, 168.3276, 29.65644, 305.2277, 0.2050881, 0, 0, -0.9787435,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
+/* @teleloc 0x8ED3003A [168.327600 29.656440 305.227700] 0.205088 0.000000 0.000000 -0.978744 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED302F,  7607, 0x8ED30039, 186.0297, 4.183425, 296.7196, 0.2050881, 0, 0, -0.9787435,  True, '2019-02-10 00:00:00'); /* Ember */
+/* @teleloc 0x8ED30039 [186.029700 4.183425 296.719600] 0.205088 0.000000 0.000000 -0.978744 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED3030,  7607, 0x8ED30031, 156.5534, 16.84886, 303.4343, 0.2050881, 0, 0, -0.9787435,  True, '2019-02-10 00:00:00'); /* Ember */
+/* @teleloc 0x8ED30031 [156.553400 16.848860 303.434300] 0.205088 0.000000 0.000000 -0.978744 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED3031,  1542, 0x8ED3000F, 33.32578, 164.3371, 454.442, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x8ED3000F [33.325780 164.337100 454.442000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ED302D, 0x78ED302E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x78ED3031, 0x78ED3032, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78ED302E,  4179, 0x8ED3000F, 33.32578, 164.3371, 454.442, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x78ED3032,  4179, 0x8ED3000F, 33.32578, 164.3371, 454.442, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x8ED3000F [33.325780 164.337100 454.442000] 0.999048 0.000000 0.000000 -0.043619 */

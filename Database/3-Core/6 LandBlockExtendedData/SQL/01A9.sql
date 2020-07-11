@@ -550,7 +550,12 @@ VALUES (0x701A90B0, 0x701A90B1, '2019-02-10 00:00:00') /* Bread (259) */
      , (0x701A90B0, 0x701A90BF, '2019-02-10 00:00:00') /* Scroll of Blessing of T'ing (41262) */
      , (0x701A90B0, 0x701A90C0, '2019-02-10 00:00:00') /* Grapes (264) */
      , (0x701A90B0, 0x701A90C1, '2019-02-10 00:00:00') /* Bread (259) */
-     , (0x701A90B0, 0x701A90C2, '2019-02-10 00:00:00') /* Cheese (261) */;
+     , (0x701A90B0, 0x701A90C2, '2019-02-10 00:00:00') /* Cheese (261) */
+     , (0x701A90B0, 0x701A90C3, '2019-02-10 00:00:00') /* Grapes (264) */
+     , (0x701A90B0, 0x701A90C4, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x701A90B0, 0x701A90C5, '2019-02-10 00:00:00') /* Gem (2415) */
+     , (0x701A90B0, 0x701A90C6, '2019-02-10 00:00:00') /* Scalemail Leggings (83) */
+     , (0x701A90B0, 0x701A90C7, '2019-02-10 00:00:00') /* Morning Star (332) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A90B1,   259, 0x01A90123, 72.17998, -51.41477, -66, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bread */
@@ -623,3 +628,23 @@ VALUES (0x701A90C1,   259, 0x01A90123, 70.67112, -49.14915, -66, 0.7071068, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701A90C2,   261, 0x01A90123, 69.01108, -49.43049, -65.976, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cheese */
 /* @teleloc 0x01A90123 [69.011080 -49.430490 -65.976000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701A90C3,   264, 0x01A90123, 71.50078, -47.36056, -65.9985, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Grapes */
+/* @teleloc 0x01A90123 [71.500780 -47.360560 -65.998500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701A90C4,   259, 0x01A90123, 67.55404, -51.708, -66, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bread */
+/* @teleloc 0x01A90123 [67.554040 -51.708000 -66.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701A90C5,  2415, 0x01A9015D, 66.49001, -32.12085, -60.001, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Gem */
+/* @teleloc 0x01A9015D [66.490010 -32.120850 -60.001000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701A90C6,    83, 0x01A9015D, 66.35268, -32.99544, -60.0025, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Scalemail Leggings */
+/* @teleloc 0x01A9015D [66.352680 -32.995440 -60.002500] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701A90C7,   332, 0x01A9015D, 67.66109, -34.37488, -59.9975, -4.37114E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Morning Star */
+/* @teleloc 0x01A9015D [67.661090 -34.374880 -59.997500] 0.000000 0.000000 0.000000 -1.000000 */

@@ -31,7 +31,19 @@ VALUES (0x7264A001, 0x7264A002, '2019-02-10 00:00:00') /* Shadow-touched Virindi
      , (0x7264A001, 0x7264A019, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
      , (0x7264A001, 0x7264A01A, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
      , (0x7264A001, 0x7264A01B, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
-     , (0x7264A001, 0x7264A01C, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
+     , (0x7264A001, 0x7264A01C, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7264A001, 0x7264A01D, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A01E, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A01F, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x7264A001, 0x7264A020, '2019-02-10 00:00:00') /* Invading Copper Cog Phalanx (41533) */
+     , (0x7264A001, 0x7264A021, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x7264A001, 0x7264A022, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x7264A001, 0x7264A023, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A024, '2019-02-10 00:00:00') /* Crystal Shard Sentinel (23549) */
+     , (0x7264A001, 0x7264A025, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264A001, 0x7264A026, '2019-02-10 00:00:00') /* Raider Justicar (23087) */
+     , (0x7264A001, 0x7264A027, '2019-02-10 00:00:00') /* Raider Prefect (23088) */
+     , (0x7264A001, 0x7264A028, '2019-02-10 00:00:00') /* Wretched (25665) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264A002, 36554, 0x264A001A, 92.08588, 34.97231, 0.02899998, 0.1836114, 0, 0, -0.9829989,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Quidiox */
@@ -140,3 +152,51 @@ VALUES (0x7264A01B, 22899, 0x264A0010, 31.80327, 170.6404, 0.00454998, -0.985115
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7264A01C, 22899, 0x264A0010, 46.48795, 168.7189, 0.00454998, -0.9851157, 0, 0, -0.1718924,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
 /* @teleloc 0x264A0010 [46.487950 168.718900 0.004550] -0.985116 0.000000 0.000000 -0.171892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A01D, 23549, 0x264A0006, 13.83753, 129.9547, 0, -0.6760007, 0, 0, -0.7369009,  True, '2019-02-10 00:00:00'); /* Crystal Shard Sentinel */
+/* @teleloc 0x264A0006 [13.837530 129.954700 0.000000] -0.676001 0.000000 0.000000 -0.736901 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A01E, 23549, 0x264A0006, 10.82233, 120.6419, 0, -0.6760007, 0, 0, -0.7369009,  True, '2019-02-10 00:00:00'); /* Crystal Shard Sentinel */
+/* @teleloc 0x264A0006 [10.822330 120.641900 0.000000] -0.676001 0.000000 0.000000 -0.736901 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A01F, 41532, 0x264A0011, 61.10639, 13.84576, 0.007499933, 0.0002918998, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Phalanx */
+/* @teleloc 0x264A0011 [61.106390 13.845760 0.007500] 0.000292 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A020, 41533, 0x264A0011, 53.34541, 2.376615, 0.007499933, 0.0002918998, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Phalanx */
+/* @teleloc 0x264A0011 [53.345410 2.376615 0.007500] 0.000292 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A021, 41534, 0x264A0011, 59.11543, 3.401311, 0.007499933, 0.0002918998, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
+/* @teleloc 0x264A0011 [59.115430 3.401311 0.007500] 0.000292 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A022, 41535, 0x264A0011, 52.75871, 11.62337, 0.007499933, 0.0002918998, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x264A0011 [52.758710 11.623370 0.007500] 0.000292 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A023, 23549, 0x264A0007, 5.558044, 154.5509, 0, -0.6760007, 0, 0, -0.7369009,  True, '2019-02-10 00:00:00'); /* Crystal Shard Sentinel */
+/* @teleloc 0x264A0007 [5.558044 154.550900 0.000000] -0.676001 0.000000 0.000000 -0.736901 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A024, 23549, 0x264A0007, 6.629227, 150.8063, 0, -0.6760007, 0, 0, -0.7369009,  True, '2019-02-10 00:00:00'); /* Crystal Shard Sentinel */
+/* @teleloc 0x264A0007 [6.629227 150.806300 0.000000] -0.676001 0.000000 0.000000 -0.736901 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A025, 23088, 0x264A0010, 44.35755, 177.47, 0.00999999, -0.9851157, 0, 0, -0.1718924,  True, '2019-02-10 00:00:00'); /* Raider Prefect */
+/* @teleloc 0x264A0010 [44.357550 177.470000 0.010000] -0.985116 0.000000 0.000000 -0.171892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A026, 23087, 0x264A0010, 37.61512, 174.8207, 0.00999999, -0.9851157, 0, 0, -0.1718924,  True, '2019-02-10 00:00:00'); /* Raider Justicar */
+/* @teleloc 0x264A0010 [37.615120 174.820700 0.010000] -0.985116 0.000000 0.000000 -0.171892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A027, 23088, 0x264A0010, 41.46254, 173.7145, 0.00999999, -0.9851157, 0, 0, -0.1718924,  True, '2019-02-10 00:00:00'); /* Raider Prefect */
+/* @teleloc 0x264A0010 [41.462540 173.714500 0.010000] -0.985116 0.000000 0.000000 -0.171892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7264A028, 25665, 0x264A0022, 101.8145, 42.51218, 0.006500006, 0.1836114, 0, 0, -0.9829989,  True, '2019-02-10 00:00:00'); /* Wretched */
+/* @teleloc 0x264A0022 [101.814500 42.512180 0.006500] 0.183611 0.000000 0.000000 -0.982999 */

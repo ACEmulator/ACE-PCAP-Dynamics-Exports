@@ -55,3 +55,14 @@ VALUES (0x7A42A00A,   199, 0xA42A0017, 51.37957, 158.2541, 160.2589, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A42A00B,  7084, 0xA42A0017, 65.2233, 163.131, 156.5162, -0.1420263, 0, 0, -0.9898629,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
 /* @teleloc 0xA42A0017 [65.223300 163.131000 156.516200] -0.142026 0.000000 0.000000 -0.989863 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A42A00C,  1542, 0xA42A0034, 149.1668, 79.81799, 172.1023, -0.9133908, 0, 0, -0.407084, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xA42A0034 [149.166800 79.817990 172.102300] -0.913391 0.000000 0.000000 -0.407084 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7A42A00C, 0x7A42A00D, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A42A00D,  8646, 0xA42A0034, 149.1668, 79.81799, 172.1023, -0.9133908, 0, 0, -0.407084,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
+/* @teleloc 0xA42A0034 [149.166800 79.817990 172.102300] -0.913391 0.000000 0.000000 -0.407084 */

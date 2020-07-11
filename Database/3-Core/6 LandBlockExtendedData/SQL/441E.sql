@@ -35,3 +35,14 @@ VALUES (0x7441E006, 36832, 0x441E0011, 68.47795, 6.104752, 41.86189, 0.7827285, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7441E007, 36830, 0x441E0001, 2.167257E-05, 10.77495, 34.21418, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x441E0001 [0.000022 10.774950 34.214180] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7441E008,  1542, 0x441E0001, 12.17166, 4.884037, 37.2146, -0.1634151, 0, 0, -0.9865574, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x441E0001 [12.171660 4.884037 37.214600] -0.163415 0.000000 0.000000 -0.986557 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7441E008, 0x7441E009, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7441E009,  8646, 0x441E0001, 12.17166, 4.884037, 37.2146, -0.1634151, 0, 0, -0.9865574,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
+/* @teleloc 0x441E0001 [12.171660 4.884037 37.214600] -0.163415 0.000000 0.000000 -0.986557 */

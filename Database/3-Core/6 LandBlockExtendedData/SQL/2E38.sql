@@ -71,7 +71,9 @@ VALUES (0x72E38001, 0x72E38002, '2019-02-10 00:00:00') /* Assailer (22053) */
      , (0x72E38001, 0x72E38041, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
      , (0x72E38001, 0x72E38042, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
      , (0x72E38001, 0x72E38043, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
-     , (0x72E38001, 0x72E38044, '2019-02-10 00:00:00') /* Assailer (22053) */;
+     , (0x72E38001, 0x72E38044, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x72E38001, 0x72E38045, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72E38001, 0x72E38046, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72E38002, 22053, 0x2E380032, 162.9285, 37.23256, 49.82011, -0.5749843, 0, 0, -0.8181644,  True, '2019-02-10 00:00:00'); /* Assailer */
@@ -342,12 +344,20 @@ VALUES (0x72E38044, 22053, 0x2E380027, 110.732, 159.4181, 106.7888, -0.5259245, 
 /* @teleloc 0x2E380027 [110.732000 159.418100 106.788800] -0.525925 0.000000 0.000000 -0.850531 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E38045,  1542, 0x2E380003, 16.75947, 71.41831, 101.8885, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x72E38045, 24278, 0x2E38002B, 142.2908, 56.98156, 95.56812, -0.5749843, 0, 0, -0.8181644,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
+/* @teleloc 0x2E38002B [142.290800 56.981560 95.568120] -0.574984 0.000000 0.000000 -0.818164 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E38046, 36860, 0x2E38002B, 123.0272, 52.65597, 100.029, -0.5749843, 0, 0, -0.8181644,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */
+/* @teleloc 0x2E38002B [123.027200 52.655970 100.029000] -0.574984 0.000000 0.000000 -0.818164 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72E38047,  1542, 0x2E380003, 16.75947, 71.41831, 101.8885, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2E380003 [16.759470 71.418310 101.888500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72E38045, 0x72E38046, '2019-02-10 00:00:00') /* North Desert Edge (1905) */;
+VALUES (0x72E38047, 0x72E38048, '2019-02-10 00:00:00') /* North Desert Edge (1905) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72E38046,  1905, 0x2E380003, 16.75947, 71.41831, 101.8885, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* North Desert Edge */
+VALUES (0x72E38048,  1905, 0x2E380003, 16.75947, 71.41831, 101.8885, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* North Desert Edge */
 /* @teleloc 0x2E380003 [16.759470 71.418310 101.888500] 1.000000 0.000000 0.000000 0.000000 */

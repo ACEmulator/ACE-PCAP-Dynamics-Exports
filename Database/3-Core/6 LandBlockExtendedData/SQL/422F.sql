@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7422F001, 0x7422F002, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x7422F001, 0x7422F003, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
      , (0x7422F001, 0x7422F004, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
-     , (0x7422F001, 0x7422F005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
+     , (0x7422F001, 0x7422F005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7422F001, 0x7422F006, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7422F002, 10810, 0x422F0014, 65.22083, 83.10442, 9.763225, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -25,3 +26,7 @@ VALUES (0x7422F004, 36855, 0x422F001C, 79.14298, 89.12189, 9.960487, 0.803788, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7422F005, 36830, 0x422F001C, 80.64244, 82.2073, 6.140405, 0.803788, 0, 0, -0.5949158,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x422F001C [80.642440 82.207300 6.140405] 0.803788 0.000000 0.000000 -0.594916 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7422F006, 24497, 0x422F001D, 72.58633, 97.12622, 8.340416, 0.803788, 0, 0, -0.5949158,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x422F001D [72.586330 97.126220 8.340416] 0.803788 0.000000 0.000000 -0.594916 */

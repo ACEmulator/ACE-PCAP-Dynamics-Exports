@@ -23,7 +23,10 @@ VALUES (0x7DF51001, 0x7DF51002, '2019-02-10 00:00:00') /* Young Banderling (1925
      , (0x7DF51001, 0x7DF51011, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7DF51001, 0x7DF51012, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
      , (0x7DF51001, 0x7DF51013, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
-     , (0x7DF51001, 0x7DF51014, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
+     , (0x7DF51001, 0x7DF51014, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x7DF51001, 0x7DF51015, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7DF51001, 0x7DF51016, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DF51001, 0x7DF51017, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF51002, 19256, 0xDF51000A, 25.93513, 28.57917, 11.84589, -0.9462309, 0, 0, -0.323492,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -100,3 +103,15 @@ VALUES (0x7DF51013, 19262, 0xDF510015, 51.62679, 100.9544, 5.9044, 0.4320127, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF51014, 19257, 0xDF510007, 21.37439, 149.4677, 7.766484, -0.9943162, 0, 0, -0.1064674,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
 /* @teleloc 0xDF510007 [21.374390 149.467700 7.766484] -0.994316 0.000000 0.000000 -0.106467 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DF51015,   232, 0xDF510026, 103.0503, 135.5742, 5.105, -0.5862219, 0, 0, -0.8101505,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
+/* @teleloc 0xDF510026 [103.050300 135.574200 5.105000] -0.586222 0.000000 0.000000 -0.810151 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DF51016,  4110, 0xDF51002D, 128.6488, 102.5254, 5.085, 0.9979876, 0, 0, -0.06341008,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
+/* @teleloc 0xDF51002D [128.648800 102.525400 5.085000] 0.997988 0.000000 0.000000 -0.063410 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DF51017,  1759, 0xDF510033, 150.6825, 65.06374, 5.5525, -0.5110832, 0, 0, -0.8595312,  True, '2019-02-10 00:00:00'); /* Skeleton */
+/* @teleloc 0xDF510033 [150.682500 65.063740 5.552500] -0.511083 0.000000 0.000000 -0.859531 */

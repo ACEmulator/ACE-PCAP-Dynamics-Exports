@@ -15,7 +15,11 @@ VALUES (0x71BC1001, 0x71BC1002, '2019-02-10 00:00:00') /* Eater (28640) */
      , (0x71BC1001, 0x71BC1009, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
      , (0x71BC1001, 0x71BC100A, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
      , (0x71BC1001, 0x71BC100B, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
-     , (0x71BC1001, 0x71BC100C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
+     , (0x71BC1001, 0x71BC100C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
+     , (0x71BC1001, 0x71BC100D, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71BC1001, 0x71BC100E, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71BC1001, 0x71BC100F, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
+     , (0x71BC1001, 0x71BC1010, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BC1002, 28640, 0x1BC1002E, 139.6486, 142.6267, 38.63008, 0.2772359, 0, 0, -0.9608019,  True, '2019-02-10 00:00:00'); /* Eater */
@@ -60,3 +64,19 @@ VALUES (0x71BC100B, 11486, 0x1BC10029, 124.227, 17.56706, 20.52408, 0.9704779, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71BC100C, 11486, 0x1BC10029, 124.3723, 3.922065, 21.66116, 0.9704779, 0, 0, -0.2411901,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
 /* @teleloc 0x1BC10029 [124.372300 3.922065 21.661160] 0.970478 0.000000 0.000000 -0.241190 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71BC100D, 11495, 0x1BC10005, 5.972044, 110.6796, 40.94427, 0.8141131, 0, 0, -0.5807063,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+/* @teleloc 0x1BC10005 [5.972044 110.679600 40.944270] 0.814113 0.000000 0.000000 -0.580706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71BC100E, 11495, 0x1BC1002E, 141.434, 122.5116, 31.46965, 0.2772359, 0, 0, -0.9608019,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+/* @teleloc 0x1BC1002E [141.434000 122.511600 31.469650] 0.277236 0.000000 0.000000 -0.960802 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71BC100F, 11495, 0x1BC1002D, 120.0006, 116.6277, 31.4379, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+/* @teleloc 0x1BC1002D [120.000600 116.627700 31.437900] -0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71BC1010, 11495, 0x1BC10037, 149.2426, 151.0273, 39.46866, 0.7937569, 0, 0, -0.6082351,  True, '2019-02-10 00:00:00'); /* Rabid Carenzi */
+/* @teleloc 0x1BC10037 [149.242600 151.027300 39.468660] 0.793757 0.000000 0.000000 -0.608235 */

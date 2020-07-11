@@ -21,7 +21,9 @@ VALUES (0x7D093001, 0x7D093002, '2019-02-10 00:00:00') /* Crude Monouga (2575) *
      , (0x7D093001, 0x7D09300F, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x7D093001, 0x7D093010, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x7D093001, 0x7D093011, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
-     , (0x7D093001, 0x7D093012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
+     , (0x7D093001, 0x7D093012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7D093001, 0x7D093013, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
+     , (0x7D093001, 0x7D093014, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D093002,  2575, 0xD093003A, 174.5703, 45.20354, 15.98417, 0.7481017, 0, 0, -0.6635841,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -90,3 +92,11 @@ VALUES (0x7D093011,  2566, 0xD093000D, 33.60944, 118.628, 20, 0.8796188, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D093012,  2566, 0xD0930010, 41.16294, 173.9198, 14.07644, -0.959286, 0, 0, -0.2824367,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xD0930010 [41.162940 173.919800 14.076440] -0.959286 0.000000 0.000000 -0.282437 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D093013,  7345, 0xD0930004, 7.32338, 72.14776, 20.61716, 0.945158, 0, 0, 0.3266134,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
+/* @teleloc 0xD0930004 [7.323380 72.147760 20.617160] 0.945158 0.000000 0.000000 0.326613 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D093014,  1630, 0xD0930039, 172.6655, 1.608483, 15.61871, 0.3609175, 0, 0, -0.9325978,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+/* @teleloc 0xD0930039 [172.665500 1.608483 15.618710] 0.360918 0.000000 0.000000 -0.932598 */

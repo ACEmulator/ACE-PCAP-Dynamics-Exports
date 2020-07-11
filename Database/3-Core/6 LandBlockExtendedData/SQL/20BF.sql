@@ -122,3 +122,14 @@ VALUES (0x720BF01A,  6640, 0x20BF000C, 45.08697, 91.04539, 83.5, -0.1110136, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x720BF01B, 11526, 0x20BF0009, 25.81178, 6.225368, 81.1277, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
 /* @teleloc 0x20BF0009 [25.811780 6.225368 81.127700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x720BF01C,  1542, 0x20BF0004, 15.89058, 90.81293, 63.5605, 0.999729, 0, 0, -0.02327649, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x20BF0004 [15.890580 90.812930 63.560500] 0.999729 0.000000 0.000000 -0.023276 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x720BF01C, 0x720BF01D, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x720BF01D,  1955, 0x20BF0004, 15.89058, 90.81293, 63.5605, 0.999729, 0, 0, -0.02327649,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x20BF0004 [15.890580 90.812930 63.560500] 0.999729 0.000000 0.000000 -0.023276 */

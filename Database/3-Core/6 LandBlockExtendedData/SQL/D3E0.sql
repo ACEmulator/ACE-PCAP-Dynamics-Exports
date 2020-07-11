@@ -84,7 +84,9 @@ VALUES (0x7D3E0001, 0x7D3E0002, '2019-02-10 00:00:00') /* The Deep (31933) */
      , (0x7D3E0001, 0x7D3E004E, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
      , (0x7D3E0001, 0x7D3E004F, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
      , (0x7D3E0001, 0x7D3E0050, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
-     , (0x7D3E0001, 0x7D3E0051, '2019-02-10 00:00:00') /* Benek Niffis (32033) */;
+     , (0x7D3E0001, 0x7D3E0051, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D3E0001, 0x7D3E0052, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D3E0001, 0x7D3E0053, '2019-02-10 00:00:00') /* Benek Niffis (32033) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D3E0002, 31933, 0xD3E00100, 59.9897, 135.272, 20.28133, 0.146546, 0, 0, -0.989204,  True, '2019-02-10 00:00:00'); /* The Deep */
@@ -407,27 +409,35 @@ VALUES (0x7D3E0051, 32033, 0xD3E0003C, 191.2867, 78.91074, 20.0004, -0.7404969, 
 /* @teleloc 0xD3E0003C [191.286700 78.910740 20.000400] -0.740497 0.000000 0.000000 -0.672060 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D3E0052,  1154, 0xD3E00016, 62.9562, 130.871, 22.005, -0.3531739, 0, 0, -0.9355577, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7D3E0052, 32035, 0xD3E00009, 33.99543, 19.29747, 20.0004, 0.6479251, 0, 0, -0.761704,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD3E00009 [33.995430 19.297470 20.000400] 0.647925 0.000000 0.000000 -0.761704 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D3E0053, 32033, 0xD3E00021, 105.1174, 6.277281, 20.0004, -0.1876896, 0, 0, -0.9822284,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD3E00021 [105.117400 6.277281 20.000400] -0.187690 0.000000 0.000000 -0.982228 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D3E0054,  1154, 0xD3E00016, 62.9562, 130.871, 22.005, -0.3531739, 0, 0, -0.9355577, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xD3E00016 [62.956200 130.871000 22.005000] -0.353174 0.000000 0.000000 -0.935558 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D3E0052, 0x7D3E0053, '2019-02-10 00:00:00') /* Dayla Bint Kazm (31932) */
-     , (0x7D3E0052, 0x7D3E0054, '2019-02-10 00:00:00') /* Peng-Ya (31930) */
-     , (0x7D3E0052, 0x7D3E0055, '2019-02-10 00:00:00') /* Colista Fluress (31934) */
-     , (0x7D3E0052, 0x7D3E0056, '2019-02-10 00:00:00') /* Algar Oreksun (31931) */;
+VALUES (0x7D3E0054, 0x7D3E0055, '2019-02-10 00:00:00') /* Dayla Bint Kazm (31932) */
+     , (0x7D3E0054, 0x7D3E0056, '2019-02-10 00:00:00') /* Peng-Ya (31930) */
+     , (0x7D3E0054, 0x7D3E0057, '2019-02-10 00:00:00') /* Colista Fluress (31934) */
+     , (0x7D3E0054, 0x7D3E0058, '2019-02-10 00:00:00') /* Algar Oreksun (31931) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D3E0053, 31932, 0xD3E00016, 62.9562, 130.871, 22.005, -0.3531739, 0, 0, -0.9355577,  True, '2019-02-10 00:00:00'); /* Dayla Bint Kazm */
+VALUES (0x7D3E0055, 31932, 0xD3E00016, 62.9562, 130.871, 22.005, -0.3531739, 0, 0, -0.9355577,  True, '2019-02-10 00:00:00'); /* Dayla Bint Kazm */
 /* @teleloc 0xD3E00016 [62.956200 130.871000 22.005000] -0.353174 0.000000 0.000000 -0.935558 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D3E0054, 31930, 0xD3E00016, 62.0891, 126.977, 22.005, 0.9818746, 0, 0, -0.1895319,  True, '2019-02-10 00:00:00'); /* Peng-Ya */
+VALUES (0x7D3E0056, 31930, 0xD3E00016, 62.0891, 126.977, 22.005, 0.9818746, 0, 0, -0.1895319,  True, '2019-02-10 00:00:00'); /* Peng-Ya */
 /* @teleloc 0xD3E00016 [62.089100 126.977000 22.005000] 0.981875 0.000000 0.000000 -0.189532 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D3E0055, 31934, 0xD3E00016, 59.6025, 126.682, 22.005, -0.9511393, 0, 0, -0.3087621,  True, '2019-02-10 00:00:00'); /* Colista Fluress */
+VALUES (0x7D3E0057, 31934, 0xD3E00016, 59.6025, 126.682, 22.005, -0.9511393, 0, 0, -0.3087621,  True, '2019-02-10 00:00:00'); /* Colista Fluress */
 /* @teleloc 0xD3E00016 [59.602500 126.682000 22.005000] -0.951139 0.000000 0.000000 -0.308762 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D3E0056, 31931, 0xD3E00016, 56.7215, 129.96, 22.005, 0.4560461, 0, 0, -0.8899562,  True, '2019-02-10 00:00:00'); /* Algar Oreksun */
+VALUES (0x7D3E0058, 31931, 0xD3E00016, 56.7215, 129.96, 22.005, 0.4560461, 0, 0, -0.8899562,  True, '2019-02-10 00:00:00'); /* Algar Oreksun */
 /* @teleloc 0xD3E00016 [56.721500 129.960000 22.005000] 0.456046 0.000000 0.000000 -0.889956 */

@@ -49,7 +49,12 @@ VALUES (0x70C06001, 0x70C06002, '2019-02-10 00:00:00') /* Malignant Marionette (
      , (0x70C06001, 0x70C0602B, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
      , (0x70C06001, 0x70C0602C, '2019-02-10 00:00:00') /* Mottled Carenzi (25851) */
      , (0x70C06001, 0x70C0602D, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
-     , (0x70C06001, 0x70C0602E, '2019-02-10 00:00:00') /* Stalking Margul (25864) */;
+     , (0x70C06001, 0x70C0602E, '2019-02-10 00:00:00') /* Stalking Margul (25864) */
+     , (0x70C06001, 0x70C0602F, '2019-02-10 00:00:00') /* Sephal Nefane (25876) */
+     , (0x70C06001, 0x70C06030, '2019-02-10 00:00:00') /* Helcan Margul (25862) */
+     , (0x70C06001, 0x70C06031, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06032, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70C06001, 0x70C06033, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C06002, 25867, 0x0C060010, 40.63326, 171.5037, 47.72456, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
@@ -232,12 +237,32 @@ VALUES (0x70C0602E, 25864, 0x0C06000F, 34.65735, 160.1597, 54.83259, -0.8104331,
 /* @teleloc 0x0C06000F [34.657350 160.159700 54.832590] -0.810433 0.000000 0.000000 -0.585831 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C0602F,  1542, 0x0C060010, 44.68104, 171.1616, 47.41079, -0.8104331, 0, 0, -0.5858311, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70C0602F, 25876, 0x0C06000F, 41.22927, 153.4155, 55.99036, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Sephal Nefane */
+/* @teleloc 0x0C06000F [41.229270 153.415500 55.990360] -0.810433 0.000000 0.000000 -0.585831 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C06030, 25862, 0x0C060010, 36.17276, 168.706, 54.05175, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Helcan Margul */
+/* @teleloc 0x0C060010 [36.172760 168.706000 54.051750] -0.810433 0.000000 0.000000 -0.585831 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C06031, 25867, 0x0C06002F, 136.0658, 154.0065, 18.99393, 0.5890864, 0, 0, -0.8080701,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
+/* @teleloc 0x0C06002F [136.065800 154.006500 18.993930] 0.589086 0.000000 0.000000 -0.808070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C06032, 25867, 0x0C06002F, 128.6881, 149.5797, 20.3631, 0.5890864, 0, 0, -0.8080701,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
+/* @teleloc 0x0C06002F [128.688100 149.579700 20.363100] 0.589086 0.000000 0.000000 -0.808070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C06033, 25867, 0x0C06002F, 135.6728, 159.1485, 20.25756, 0.5890864, 0, 0, -0.8080701,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
+/* @teleloc 0x0C06002F [135.672800 159.148500 20.257560] 0.589086 0.000000 0.000000 -0.808070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C06034,  1542, 0x0C060010, 44.68104, 171.1616, 47.41079, -0.8104331, 0, 0, -0.5858311, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0C060010 [44.681040 171.161600 47.410790] -0.810433 0.000000 0.000000 -0.585831 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C0602F, 0x70C06030, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */;
+VALUES (0x70C06034, 0x70C06035, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C06030, 30796, 0x0C060010, 44.68104, 171.1616, 47.41079, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */
+VALUES (0x70C06035, 30796, 0x0C060010, 44.68104, 171.1616, 47.41079, -0.8104331, 0, 0, -0.5858311,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */
 /* @teleloc 0x0C060010 [44.681040 171.161600 47.410790] -0.810433 0.000000 0.000000 -0.585831 */

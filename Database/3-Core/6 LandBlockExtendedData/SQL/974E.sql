@@ -10,7 +10,8 @@ VALUES (0x7974E001, 0x7974E002, '2019-02-10 00:00:00') /* Virindi Director (5497
      , (0x7974E001, 0x7974E004, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
      , (0x7974E001, 0x7974E005, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
      , (0x7974E001, 0x7974E006, '2019-02-10 00:00:00') /* Battered Doll (10767) */
-     , (0x7974E001, 0x7974E007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */;
+     , (0x7974E001, 0x7974E007, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7974E001, 0x7974E008, '2019-02-10 00:00:00') /* Battered Doll (10767) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7974E002,  5497, 0x974E0003, 2.528214, 48.44765, 15.47155, -0.3185003, 0, 0, -0.9479228,  True, '2019-02-10 00:00:00'); /* Virindi Director */
@@ -35,3 +36,7 @@ VALUES (0x7974E006, 10767, 0x974E001D, 91.87637, 108.2156, 14.029, 0.7372774, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7974E007,   238, 0x974E0020, 93.45243, 169.0847, 16.029, 0.1595768, 0, 0, -0.9871855,  True, '2019-02-10 00:00:00'); /* Virindi Puppet */
 /* @teleloc 0x974E0020 [93.452430 169.084700 16.029000] 0.159577 0.000000 0.000000 -0.987186 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7974E008, 10767, 0x974E0018, 69.73014, 178.5817, 18.17092, 0.1595768, 0, 0, -0.9871855,  True, '2019-02-10 00:00:00'); /* Battered Doll */
+/* @teleloc 0x974E0018 [69.730140 178.581700 18.170920] 0.159577 0.000000 0.000000 -0.987186 */

@@ -23,7 +23,10 @@ VALUES (0x7B280001, 0x7B280002, '2019-02-10 00:00:00') /* Scourge (21160) */
      , (0x7B280001, 0x7B280011, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) */
      , (0x7B280001, 0x7B280012, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
      , (0x7B280001, 0x7B280013, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
-     , (0x7B280001, 0x7B280014, '2019-02-10 00:00:00') /* Fragment (8014) */;
+     , (0x7B280001, 0x7B280014, '2019-02-10 00:00:00') /* Fragment (8014) */
+     , (0x7B280001, 0x7B280015, '2019-02-10 00:00:00') /* Narrow Rift (10799) */
+     , (0x7B280001, 0x7B280016, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B280001, 0x7B280017, '2019-02-10 00:00:00') /* Lithos Lugian (206) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B280002, 21160, 0xB2800021, 116.4459, 18.75937, 44.20871, 0.1652755, 0, 0, -0.9862474,  True, '2019-02-10 00:00:00'); /* Scourge */
@@ -102,12 +105,24 @@ VALUES (0x7B280014,  8014, 0xB2800002, 8.625824, 34.25688, 26.12092, 0.4406259, 
 /* @teleloc 0xB2800002 [8.625824 34.256880 26.120920] 0.440626 0.000000 0.000000 -0.897691 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B280015,  1542, 0xB280003A, 182.7694, 42.09362, 42.71365, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B280015, 10799, 0xB2800002, 15.48083, 34.9289, 25.82898, 0.4406259, 0, 0, -0.8976908,  True, '2019-02-10 00:00:00'); /* Narrow Rift */
+/* @teleloc 0xB2800002 [15.480830 34.928900 25.828980] 0.440626 0.000000 0.000000 -0.897691 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B280016,  1758, 0xB280002A, 122.8631, 35.93961, 42.08607, 0.1652755, 0, 0, -0.9862474,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0xB280002A [122.863100 35.939610 42.086070] 0.165276 0.000000 0.000000 -0.986247 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B280017,   206, 0xB280002A, 143.991, 47.90746, 45.97915, 0.8545613, 0, 0, -0.5193506,  True, '2019-02-10 00:00:00'); /* Lithos Lugian */
+/* @teleloc 0xB280002A [143.991000 47.907460 45.979150] 0.854561 0.000000 0.000000 -0.519351 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B280018,  1542, 0xB280003A, 182.7694, 42.09362, 42.71365, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB280003A [182.769400 42.093620 42.713650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B280015, 0x7B280016, '2019-02-10 00:00:00') /* Meat (265) */;
+VALUES (0x7B280018, 0x7B280019, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B280016,   265, 0xB280003A, 182.7694, 42.09362, 42.71365, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
+VALUES (0x7B280019,   265, 0xB280003A, 182.7694, 42.09362, 42.71365, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
 /* @teleloc 0xB280003A [182.769400 42.093620 42.713650] 1.000000 0.000000 0.000000 0.000000 */

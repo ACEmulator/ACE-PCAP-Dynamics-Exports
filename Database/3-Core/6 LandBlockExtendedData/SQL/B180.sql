@@ -17,7 +17,8 @@ VALUES (0x7B180001, 0x7B180002, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
      , (0x7B180001, 0x7B18000B, '2019-02-10 00:00:00') /* Silver Rat (1626) */
      , (0x7B180001, 0x7B18000C, '2019-02-10 00:00:00') /* Silver Rat (1626) */
      , (0x7B180001, 0x7B18000D, '2019-02-10 00:00:00') /* Risen Knight (8673) */
-     , (0x7B180001, 0x7B18000E, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */;
+     , (0x7B180001, 0x7B18000E, '2019-02-10 00:00:00') /* Obeloth Raider (8142) */
+     , (0x7B180001, 0x7B18000F, '2019-02-10 00:00:00') /* Virindi Master (237) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B180002, 10770, 0xB1800039, 176.3403, 14.78548, 26.79688, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Beaten Doll */
@@ -72,12 +73,16 @@ VALUES (0x7B18000E,  8142, 0xB1800018, 50.94644, 182.2557, 60.95244, -0.3581984,
 /* @teleloc 0xB1800018 [50.946440 182.255700 60.952440] -0.358198 0.000000 0.000000 -0.933646 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B18000F,  1542, 0xB1800003, 21.91018, 66.30524, 40.87672, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B18000F,   237, 0xB180003A, 175.109, 38.87053, 27.26821, -0.7916206, 0, 0, -0.6110129,  True, '2019-02-10 00:00:00'); /* Virindi Master */
+/* @teleloc 0xB180003A [175.109000 38.870530 27.268210] -0.791621 0.000000 0.000000 -0.611013 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B180010,  1542, 0xB1800003, 21.91018, 66.30524, 40.87672, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB1800003 [21.910180 66.305240 40.876720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B18000F, 0x7B180010, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x7B180010, 0x7B180011, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B180010,  4180, 0xB1800003, 21.91018, 66.30524, 40.87672, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7B180011,  4180, 0xB1800003, 21.91018, 66.30524, 40.87672, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xB1800003 [21.910180 66.305240 40.876720] 1.000000 0.000000 0.000000 0.000000 */

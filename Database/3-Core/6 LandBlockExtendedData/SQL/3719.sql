@@ -17,7 +17,8 @@ VALUES (0x73719001, 0x73719002, '2019-02-10 00:00:00') /* Diamond Golem (36830) 
      , (0x73719001, 0x7371900B, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x73719001, 0x7371900C, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x73719001, 0x7371900D, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
-     , (0x73719001, 0x7371900E, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
+     , (0x73719001, 0x7371900E, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x73719001, 0x7371900F, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73719002, 36830, 0x3719003F, 172.9967, 166.7634, 13.90695, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -70,3 +71,7 @@ VALUES (0x7371900D, 24279, 0x37190015, 54.6395, 113.785, 13.96795, -0.8851589, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7371900E, 24279, 0x37190015, 59.0544, 114.526, 13.53829, -0.8862793, 0, 0, -0.4631512,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
 /* @teleloc 0x37190015 [59.054400 114.526000 13.538290] -0.886279 0.000000 0.000000 -0.463151 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7371900F, 10787, 0x37190016, 58.4314, 120.191, 13.13322, -0.9262158, 0, 0, 0.3769939,  True, '2019-02-10 00:00:00'); /* Terebrous Hollow Minion */
+/* @teleloc 0x37190016 [58.431400 120.191000 13.133220] -0.926216 0.000000 0.000000 0.376994 */

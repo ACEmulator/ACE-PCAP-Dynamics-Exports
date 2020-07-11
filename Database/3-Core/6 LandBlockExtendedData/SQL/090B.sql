@@ -316,7 +316,11 @@ VALUES (0x7090B001, 0x7090B002, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x7090B001, 0x7090B136, '2019-02-10 00:00:00') /* Ravager (25852) */
      , (0x7090B001, 0x7090B137, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
      , (0x7090B001, 0x7090B138, '2019-02-10 00:00:00') /* Biaka (25859) */
-     , (0x7090B001, 0x7090B139, '2019-02-10 00:00:00') /* Biaka (25859) */;
+     , (0x7090B001, 0x7090B139, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7090B001, 0x7090B13A, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x7090B001, 0x7090B13B, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x7090B001, 0x7090B13C, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x7090B001, 0x7090B13D, '2019-02-10 00:00:00') /* Damned Marionette (25866) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7090B002, 25863, 0x090B0020, 90.28823, 181.8708, 61.7515, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
@@ -1567,12 +1571,28 @@ VALUES (0x7090B139, 25859, 0x090B002E, 123.5701, 121.5518, 54.20723, 1, 0, 0, 0,
 /* @teleloc 0x090B002E [123.570100 121.551800 54.207230] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7090B13A,  1154, 0x090B0002, 12, 36, 16, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7090B13A, 25863, 0x090B0028, 97.40908, 170.8941, 66.80032, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x090B0028 [97.409080 170.894100 66.800320] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090B13B, 25863, 0x090B0027, 102.017, 153.2159, 67.95318, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x090B0027 [102.017000 153.215900 67.953180] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090B13C, 25863, 0x090B002E, 141.0275, 126.3577, 30.91863, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x090B002E [141.027500 126.357700 30.918630] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090B13D, 25866, 0x090B0036, 147.9234, 141.9671, 6.0005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
+/* @teleloc 0x090B0036 [147.923400 141.967100 6.000500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090B13E,  1154, 0x090B0002, 12, 36, 16, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x090B0002 [12.000000 36.000000 16.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7090B13A, 0x7090B13B, '2019-02-10 00:00:00') /* Black Totem Gateway (33914) */;
+VALUES (0x7090B13E, 0x7090B13F, '2019-02-10 00:00:00') /* Black Totem Gateway (33914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7090B13B, 33914, 0x090B0002, 12, 36, 16, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Totem Gateway */
+VALUES (0x7090B13F, 33914, 0x090B0002, 12, 36, 16, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Totem Gateway */
 /* @teleloc 0x090B0002 [12.000000 36.000000 16.000000] 1.000000 0.000000 0.000000 0.000000 */

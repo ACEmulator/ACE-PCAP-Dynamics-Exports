@@ -45,7 +45,14 @@ VALUES (0x72918001, 0x72918002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion
      , (0x72918001, 0x72918027, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
      , (0x72918001, 0x72918028, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
      , (0x72918001, 0x72918029, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
-     , (0x72918001, 0x7291802A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
+     , (0x72918001, 0x7291802A, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
+     , (0x72918001, 0x7291802B, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72918001, 0x7291802C, '2019-02-10 00:00:00') /* Virindi Desecrator (30447) */
+     , (0x72918001, 0x7291802D, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x72918001, 0x7291802E, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */
+     , (0x72918001, 0x7291802F, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x72918001, 0x72918030, '2019-02-10 00:00:00') /* Gotrok Juggernaut (36837) */
+     , (0x72918001, 0x72918031, '2019-02-10 00:00:00') /* Gotrok Titan (36839) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72918002, 23555, 0x2918003C, 179.8045, 86.63931, 56.0025, 0.583112, 0, 0, -0.8123918,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */
@@ -210,3 +217,42 @@ VALUES (0x72918029, 14520, 0x29180011, 65.48646, 18.83057, 55.67397, -0.7533888,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7291802A,  7097, 0x29180011, 53.334, 4.302416, 55.75211, -0.7533888, 0, 0, -0.6575754,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
 /* @teleloc 0x29180011 [53.334000 4.302416 55.752110] -0.753389 0.000000 0.000000 -0.657575 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7291802B,  7982, 0x29180027, 111.7121, 165.9707, 16.27837, 0.2047971, 0, 0, -0.9788044,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x29180027 [111.712100 165.970700 16.278370] 0.204797 0.000000 0.000000 -0.978804 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7291802C, 30447, 0x29180023, 96.49749, 63.80621, 46.20182, -0.3928834, 0, 0, -0.9195883,  True, '2019-02-10 00:00:00'); /* Virindi Desecrator */
+/* @teleloc 0x29180023 [96.497490 63.806210 46.201820] -0.392883 0.000000 0.000000 -0.919588 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7291802D, 36836, 0x29180023, 114.1523, 69.74651, 49.11144, -0.8360075, 0, 0, -0.548718,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
+/* @teleloc 0x29180023 [114.152300 69.746510 49.111440] -0.836008 0.000000 0.000000 -0.548718 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7291802E, 36839, 0x29180033, 164.9845, 61.30254, 56.01, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */
+/* @teleloc 0x29180033 [164.984500 61.302540 56.010000] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7291802F, 36837, 0x29180033, 162.1642, 59.82737, 56.01, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
+/* @teleloc 0x29180033 [162.164200 59.827370 56.010000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72918030, 36837, 0x29180033, 165.8725, 53.93089, 56.01, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Gotrok Juggernaut */
+/* @teleloc 0x29180033 [165.872500 53.930890 56.010000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72918031, 36839, 0x29180033, 161.3174, 53.56934, 56.01, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Titan */
+/* @teleloc 0x29180033 [161.317400 53.569340 56.010000] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72918032,  1542, 0x2918002B, 133.8788, 65.25222, 55.14666, -0.972182, 0, 0, -0.2342266, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x2918002B [133.878800 65.252220 55.146660] -0.972182 0.000000 0.000000 -0.234227 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x72918032, 0x72918033, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72918033,  9288, 0x2918002B, 133.8788, 65.25222, 55.14666, -0.972182, 0, 0, -0.2342266,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+/* @teleloc 0x2918002B [133.878800 65.252220 55.146660] -0.972182 0.000000 0.000000 -0.234227 */

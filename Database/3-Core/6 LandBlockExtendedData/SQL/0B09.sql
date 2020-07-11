@@ -82,7 +82,9 @@ VALUES (0x70B09001, 0x70B09002, '2019-02-10 00:00:00') /* Pestilence Rat (25879)
      , (0x70B09001, 0x70B0904C, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
      , (0x70B09001, 0x70B0904D, '2019-02-10 00:00:00') /* Raven Augur (31402) */
      , (0x70B09001, 0x70B0904E, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
-     , (0x70B09001, 0x70B0904F, '2019-02-10 00:00:00') /* Raven Hunter (31404) */;
+     , (0x70B09001, 0x70B0904F, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70B09001, 0x70B09050, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */
+     , (0x70B09001, 0x70B09051, '2019-02-10 00:00:00') /* Void Lord (31281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B09002, 25879, 0x0B090035, 148.9118, 113.8978, 79.7104, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */
@@ -397,12 +399,20 @@ VALUES (0x70B0904F, 31404, 0x0B09002E, 130.3698, 142.5195, 72.32574, 1, 0, 0, 0,
 /* @teleloc 0x0B09002E [130.369800 142.519500 72.325740] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B09050,  1542, 0x0B090036, 156.1469, 121.7997, 78.68688, -0.72589, 0, 0, -0.6878108, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70B09050, 25867, 0x0B090016, 55.26673, 132.4247, 11.74639, 0.9994085, 0, 0, -0.03439019,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
+/* @teleloc 0x0B090016 [55.266730 132.424700 11.746390] 0.999409 0.000000 0.000000 -0.034390 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B09051, 31281, 0x0B09000E, 39.77097, 140.1114, 8.974899, 0.9994085, 0, 0, -0.03439019,  True, '2019-02-10 00:00:00'); /* Void Lord */
+/* @teleloc 0x0B09000E [39.770970 140.111400 8.974899] 0.999409 0.000000 0.000000 -0.034390 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B09052,  1542, 0x0B090036, 156.1469, 121.7997, 78.68688, -0.72589, 0, 0, -0.6878108, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0B090036 [156.146900 121.799700 78.686880] -0.725890 0.000000 0.000000 -0.687811 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B09050, 0x70B09051, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x70B09052, 0x70B09053, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B09051,  1955, 0x0B090036, 156.1469, 121.7997, 78.68688, -0.72589, 0, 0, -0.6878108,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70B09053,  1955, 0x0B090036, 156.1469, 121.7997, 78.68688, -0.72589, 0, 0, -0.6878108,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x0B090036 [156.146900 121.799700 78.686880] -0.725890 0.000000 0.000000 -0.687811 */

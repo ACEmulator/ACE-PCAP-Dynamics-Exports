@@ -77,7 +77,14 @@ VALUES (0x7D4DE001, 0x7D4DE002, '2019-02-10 00:00:00') /* Mucky Moarsman (31912)
      , (0x7D4DE001, 0x7D4DE047, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
      , (0x7D4DE001, 0x7D4DE048, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
      , (0x7D4DE001, 0x7D4DE049, '2019-02-10 00:00:00') /* Gold Niffis (32034) */
-     , (0x7D4DE001, 0x7D4DE04A, '2019-02-10 00:00:00') /* Astis Niffis (32035) */;
+     , (0x7D4DE001, 0x7D4DE04A, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D4DE001, 0x7D4DE04B, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D4DE001, 0x7D4DE04C, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D4DE001, 0x7D4DE04D, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D4DE001, 0x7D4DE04E, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D4DE001, 0x7D4DE04F, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D4DE001, 0x7D4DE050, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D4DE001, 0x7D4DE051, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4DE002, 31912, 0xD4DE0031, 158.032, 16.20972, 24.03456, -0.9081249, 0, 0, -0.4186994,  True, '2019-02-10 00:00:00'); /* Mucky Moarsman */
@@ -370,3 +377,31 @@ VALUES (0x7D4DE049, 32034, 0xD4DE0002, 11.55283, 26.97562, 4.0004, 0.4869703, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D4DE04A, 32035, 0xD4DE0001, 5.874545, 23.29988, 4.0004, 0.4869703, 0, 0, -0.8734185,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
 /* @teleloc 0xD4DE0001 [5.874545 23.299880 4.000400] 0.486970 0.000000 0.000000 -0.873419 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE04B, 31912, 0xD4DE0010, 45.62109, 169.0893, 20.0064, -0.9977483, 0, 0, -0.0670696,  True, '2019-02-10 00:00:00'); /* Mucky Moarsman */
+/* @teleloc 0xD4DE0010 [45.621090 169.089300 20.006400] -0.997748 0.000000 0.000000 -0.067070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE04C, 31915, 0xD4DE0010, 43.57717, 168.8818, 20.0064, -0.9977483, 0, 0, -0.0670696,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */
+/* @teleloc 0xD4DE0010 [43.577170 168.881800 20.006400] -0.997748 0.000000 0.000000 -0.067070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE04D, 32033, 0xD4DE0027, 107.1973, 144.7911, 20.0004, 0.1060823, 0, 0, -0.9943573,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD4DE0027 [107.197300 144.791100 20.000400] 0.106082 0.000000 0.000000 -0.994357 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE04E, 31912, 0xD4DE0017, 52.37271, 161.5437, 20.0064, -0.9977483, 0, 0, -0.0670696,  True, '2019-02-10 00:00:00'); /* Mucky Moarsman */
+/* @teleloc 0xD4DE0017 [52.372710 161.543700 20.006400] -0.997748 0.000000 0.000000 -0.067070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE04F, 31914, 0xD4DE0017, 48.88073, 155.923, 20.0064, -0.9977483, 0, 0, -0.0670696,  True, '2019-02-10 00:00:00'); /* Scummy Moarsman */
+/* @teleloc 0xD4DE0017 [48.880730 155.923000 20.006400] -0.997748 0.000000 0.000000 -0.067070 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE050, 31915, 0xD4DE003F, 186.8167, 153.7705, 20.0064, -0.7762519, 0, 0, -0.6304228,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */
+/* @teleloc 0xD4DE003F [186.816700 153.770500 20.006400] -0.776252 0.000000 0.000000 -0.630423 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D4DE051, 31914, 0xD4DE003F, 182.5985, 164.4591, 20.0064, -0.7762519, 0, 0, -0.6304228,  True, '2019-02-10 00:00:00'); /* Scummy Moarsman */
+/* @teleloc 0xD4DE003F [182.598500 164.459100 20.006400] -0.776252 0.000000 0.000000 -0.630423 */

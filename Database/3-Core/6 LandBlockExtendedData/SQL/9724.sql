@@ -26,7 +26,8 @@ VALUES (0x79724001, 0x79724002, '2019-02-10 00:00:00') /* Desert Rabbit (5429) *
      , (0x79724001, 0x79724014, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x79724001, 0x79724015, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
      , (0x79724001, 0x79724016, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
-     , (0x79724001, 0x79724017, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x79724001, 0x79724017, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x79724001, 0x79724018, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79724002,  5429, 0x97240003, 9.41743, 49.09525, 100.8761, 0.6746948, 0, 0, -0.7380969,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -117,12 +118,16 @@ VALUES (0x79724017, 24937, 0x97240002, 4.019005, 35.7294, 98.28181, 1, 0, 0, 0, 
 /* @teleloc 0x97240002 [4.019005 35.729400 98.281810] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79724018,  1542, 0x97240018, 50.75233, 176.328, 112.6909, 0.029785, 0, 0, -0.9995563, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79724018, 24937, 0x97240002, 19.16067, 46.45697, 101.3316, 0.6746948, 0, 0, -0.7380969,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0x97240002 [19.160670 46.456970 101.331600] 0.674695 0.000000 0.000000 -0.738097 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79724019,  1542, 0x97240018, 50.75233, 176.328, 112.6909, 0.029785, 0, 0, -0.9995563, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x97240018 [50.752330 176.328000 112.690900] 0.029785 0.000000 0.000000 -0.999556 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79724018, 0x79724019, '2019-02-10 00:00:00') /* Facility Hub Portal Gem (49563) */;
+VALUES (0x79724019, 0x7972401A, '2019-02-10 00:00:00') /* Facility Hub Portal Gem (49563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79724019, 49563, 0x97240018, 50.75233, 176.328, 112.6909, 0.029785, 0, 0, -0.9995563,  True, '2019-02-10 00:00:00'); /* Facility Hub Portal Gem */
+VALUES (0x7972401A, 49563, 0x97240018, 50.75233, 176.328, 112.6909, 0.029785, 0, 0, -0.9995563,  True, '2019-02-10 00:00:00'); /* Facility Hub Portal Gem */
 /* @teleloc 0x97240018 [50.752330 176.328000 112.690900] 0.029785 0.000000 0.000000 -0.999556 */

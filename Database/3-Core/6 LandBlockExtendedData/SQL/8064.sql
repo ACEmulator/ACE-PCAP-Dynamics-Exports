@@ -74,7 +74,13 @@ VALUES (0x78064004, 0x78064005, '2019-02-10 00:00:00') /* Old Bones (19436) */
      , (0x78064004, 0x7806403B, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x78064004, 0x7806403C, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
      , (0x78064004, 0x7806403D, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
-     , (0x78064004, 0x7806403E, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x78064004, 0x7806403E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x78064004, 0x7806403F, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x78064004, 0x78064040, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x78064004, 0x78064041, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x78064004, 0x78064042, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x78064004, 0x78064043, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x78064004, 0x78064044, '2019-02-10 00:00:00') /* Old Bones (19436) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78064005, 19436, 0x80640001, 17.64832, 17.50994, 60.28582, -0.6119015, 0, 0, -0.790934,  True, '2019-02-10 00:00:00'); /* Old Bones */
@@ -309,17 +315,41 @@ VALUES (0x7806403E, 24937, 0x80640038, 155.7517, 184.2358, 29.49258, -0.962517, 
 /* @teleloc 0x80640038 [155.751700 184.235800 29.492580] -0.962517 0.000000 0.000000 -0.271221 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7806403F,  1154, 0x80640100, 152.281, 158.103, 27.705, -0.1703849, 0, 0, 0.9853776, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7806403F,  5429, 0x8064003C, 182.8985, 82.90034, 42.28428, -0.7809354, 0, 0, -0.6246118,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0x8064003C [182.898500 82.900340 42.284280] -0.780935 0.000000 0.000000 -0.624612 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78064040, 24937, 0x8064002F, 133.2386, 156.3738, 28.88878, -0.8549417, 0, 0, -0.5187241,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0x8064002F [133.238600 156.373800 28.888780] -0.854942 0.000000 0.000000 -0.518724 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78064041,  5429, 0x8064002F, 126.5884, 164.199, 29.45096, -0.962517, 0, 0, -0.2712213,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0x8064002F [126.588400 164.199000 29.450960] -0.962517 0.000000 0.000000 -0.271221 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78064042, 19258, 0x80640001, 15.62934, 18.59074, 59.36723, -0.6119015, 0, 0, -0.790934,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0x80640001 [15.629340 18.590740 59.367230] -0.611902 0.000000 0.000000 -0.790934 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78064043, 19263, 0x8064001A, 88.27007, 28.51587, 79.997, 0.8191004, 0, 0, -0.5736502,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0x8064001A [88.270070 28.515870 79.997000] 0.819100 0.000000 0.000000 -0.573650 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78064044, 19436, 0x80640022, 115.4798, 31.48232, 80.0025, 0.4368359, 0, 0, -0.8995412,  True, '2019-02-10 00:00:00'); /* Old Bones */
+/* @teleloc 0x80640022 [115.479800 31.482320 80.002500] 0.436836 0.000000 0.000000 -0.899541 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78064045,  1154, 0x80640100, 152.281, 158.103, 27.705, -0.1703849, 0, 0, 0.9853776, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x80640100 [152.281000 158.103000 27.705000] -0.170385 0.000000 0.000000 0.985378 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7806403F, 0x78064040, '2019-02-10 00:00:00') /* Ahyara (5177) */
-     , (0x7806403F, 0x78064041, '2019-02-10 00:00:00') /* Sentry (12725) */;
+VALUES (0x78064045, 0x78064046, '2019-02-10 00:00:00') /* Ahyara (5177) */
+     , (0x78064045, 0x78064047, '2019-02-10 00:00:00') /* Sentry (12725) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78064040,  5177, 0x80640100, 152.281, 158.103, 27.705, -0.1703849, 0, 0, 0.9853776,  True, '2019-02-10 00:00:00'); /* Ahyara */
+VALUES (0x78064046,  5177, 0x80640100, 152.281, 158.103, 27.705, -0.1703849, 0, 0, 0.9853776,  True, '2019-02-10 00:00:00'); /* Ahyara */
 /* @teleloc 0x80640100 [152.281000 158.103000 27.705000] -0.170385 0.000000 0.000000 0.985378 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78064041, 12725, 0x80640023, 104.801, 58.7744, 95.205, -0.7926239, 0, 0, -0.6097109,  True, '2019-02-10 00:00:00'); /* Sentry */
+VALUES (0x78064047, 12725, 0x80640023, 104.801, 58.7744, 95.205, -0.7926239, 0, 0, -0.6097109,  True, '2019-02-10 00:00:00'); /* Sentry */
 /* @teleloc 0x80640023 [104.801000 58.774400 95.205000] -0.792624 0.000000 0.000000 -0.609711 */

@@ -28,7 +28,13 @@ VALUES (0x78CAE001, 0x78CAE002, '2019-02-10 00:00:00') /* Mighty Oak Golem (2646
      , (0x78CAE001, 0x78CAE016, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x78CAE001, 0x78CAE017, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x78CAE001, 0x78CAE018, '2019-02-10 00:00:00') /* Frost (14512) */
-     , (0x78CAE001, 0x78CAE019, '2019-02-10 00:00:00') /* Frost (14512) */;
+     , (0x78CAE001, 0x78CAE019, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x78CAE001, 0x78CAE01A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
+     , (0x78CAE001, 0x78CAE01B, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78CAE001, 0x78CAE01C, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CAE001, 0x78CAE01D, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78CAE001, 0x78CAE01E, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
+     , (0x78CAE001, 0x78CAE01F, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78CAE002, 26468, 0x8CAE0031, 167.3556, 2.320829, 55.87029, 0.4218352, 0, 0, -0.9066725,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -127,17 +133,46 @@ VALUES (0x78CAE019, 14512, 0x8CAE0039, 173.5676, 11.87312, 55.01757, 0.4218352, 
 /* @teleloc 0x8CAE0039 [173.567600 11.873120 55.017570] 0.421835 0.000000 0.000000 -0.906673 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78CAE01A,  1542, 0x8CAE003C, 168.1422, 73.76962, 51.97631, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78CAE01A,  9253, 0x8CAE0007, 21.85173, 159.166, 95.93202, 0.6533688, 0, 0, -0.7570398,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
+/* @teleloc 0x8CAE0007 [21.851730 159.166000 95.932020] 0.653369 0.000000 0.000000 -0.757040 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE01B,  7088, 0x8CAE000F, 34.77666, 147.5967, 87.11134, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+/* @teleloc 0x8CAE000F [34.776660 147.596700 87.111340] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE01C, 38177, 0x8CAE0002, 20.79579, 46.32411, 70.40438, 0.9980971, 0, 0, -0.06166287,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
+/* @teleloc 0x8CAE0002 [20.795790 46.324110 70.404380] 0.998097 0.000000 0.000000 -0.061663 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE01D,  1610, 0x8CAE0031, 162.0533, 14.97278, 55.25238, 0.4218352, 0, 0, -0.9066725,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
+/* @teleloc 0x8CAE0031 [162.053300 14.972780 55.252380] 0.421835 0.000000 0.000000 -0.906673 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE01E, 38177, 0x8CAE0021, 112.0326, 9.001221, 62.77319, 0.5456358, 0, 0, -0.8380224,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
+/* @teleloc 0x8CAE0021 [112.032600 9.001221 62.773190] 0.545636 0.000000 0.000000 -0.838022 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE01F,  7088, 0x8CAE000E, 34.70637, 143.5373, 90.04496, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+/* @teleloc 0x8CAE000E [34.706370 143.537300 90.044960] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE020,  1542, 0x8CAE003C, 168.1422, 73.76962, 51.97631, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x8CAE003C [168.142200 73.769620 51.976310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78CAE01A, 0x78CAE01B, '2019-02-10 00:00:00') /* Runed Chest (22567) */
-     , (0x78CAE01A, 0x78CAE01C, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
+VALUES (0x78CAE020, 0x78CAE021, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x78CAE020, 0x78CAE022, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x78CAE020, 0x78CAE023, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78CAE01B, 22567, 0x8CAE003C, 168.1422, 73.76962, 51.97631, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x78CAE021, 22567, 0x8CAE003C, 168.1422, 73.76962, 51.97631, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x8CAE003C [168.142200 73.769620 51.976310] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78CAE01C,  5779, 0x8CAE000E, 32.99277, 137.2761, 87.04219, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+VALUES (0x78CAE022,  5779, 0x8CAE000E, 32.99277, 137.2761, 87.04219, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Strange Stick */
 /* @teleloc 0x8CAE000E [32.992770 137.276100 87.042190] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78CAE023, 22571, 0x8CAE000F, 29.98127, 146.0138, 87.5116, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+/* @teleloc 0x8CAE000F [29.981270 146.013800 87.511600] 1.000000 0.000000 0.000000 0.000000 */

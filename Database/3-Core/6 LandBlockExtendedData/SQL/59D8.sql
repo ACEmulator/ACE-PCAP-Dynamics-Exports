@@ -17,7 +17,10 @@ VALUES (0x759D8001, 0x759D8002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x759D8001, 0x759D800B, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
      , (0x759D8001, 0x759D800C, '2019-02-10 00:00:00') /* Flamma (8405) */
      , (0x759D8001, 0x759D800D, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
-     , (0x759D8001, 0x759D800E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
+     , (0x759D8001, 0x759D800E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x759D8001, 0x759D800F, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x759D8001, 0x759D8010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x759D8001, 0x759D8011, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759D8002,  8138, 0x59D8002B, 134.0018, 48.37495, 97.97876, -0.5513099, 0, 0, -0.8343005,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -70,3 +73,15 @@ VALUES (0x759D800D,  7982, 0x59D8001D, 89.32407, 99.27425, 155.0999, 0.575087, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x759D800E, 23482, 0x59D8002E, 131.9639, 125.2274, 151.8802, -0.858017, 0, 0, -0.5136213,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
 /* @teleloc 0x59D8002E [131.963900 125.227400 151.880200] -0.858017 0.000000 0.000000 -0.513621 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x759D800F,  7982, 0x59D80024, 113.7058, 90.62656, 150.1514, 0.575087, 0, 0, -0.8180923,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x59D80024 [113.705800 90.626560 150.151400] 0.575087 0.000000 0.000000 -0.818092 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x759D8010,  7081, 0x59D8002A, 125.7988, 46.43462, 98.01051, -0.5513099, 0, 0, -0.8343005,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x59D8002A [125.798800 46.434620 98.010510] -0.551310 0.000000 0.000000 -0.834301 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x759D8011, 36830, 0x59D8002D, 124.027, 108.8799, 154.3271, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x59D8002D [124.027000 108.879900 154.327100] 0.707107 0.000000 0.000000 -0.707107 */

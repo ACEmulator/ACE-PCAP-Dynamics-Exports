@@ -19,7 +19,8 @@ VALUES (0x78E8D002, 0x78E8D003, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
      , (0x78E8D002, 0x78E8D006, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
      , (0x78E8D002, 0x78E8D007, '2019-02-10 00:00:00') /* Auroch Fire Bull (1607) */
      , (0x78E8D002, 0x78E8D008, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
-     , (0x78E8D002, 0x78E8D009, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */;
+     , (0x78E8D002, 0x78E8D009, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x78E8D002, 0x78E8D00A, '2019-02-10 00:00:00') /* Wily Monouga (9253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E8D003,  9253, 0x8E8D003F, 178.2252, 156.8177, 109.991, -0.3338477, 0, 0, -0.942627,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
@@ -48,3 +49,7 @@ VALUES (0x78E8D008,  1606, 0x8E8D0016, 63.06002, 120.7037, 54.24306, -0.8496484,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78E8D009, 22208, 0x8E8D0016, 67.96051, 129.4165, 57.14135, -0.9830667, 0, 0, -0.1832477,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
 /* @teleloc 0x8E8D0016 [67.960510 129.416500 57.141350] -0.983067 0.000000 0.000000 -0.183248 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78E8D00A,  9253, 0x8E8D003A, 170.3844, 46.47009, 35.9198, -0.9774508, 0, 0, -0.2111633,  True, '2019-02-10 00:00:00'); /* Wily Monouga */
+/* @teleloc 0x8E8D003A [170.384400 46.470090 35.919800] -0.977451 0.000000 0.000000 -0.211163 */

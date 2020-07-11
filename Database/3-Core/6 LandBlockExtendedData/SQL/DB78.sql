@@ -13,7 +13,9 @@ VALUES (0x7DB78001, 0x7DB78002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227
      , (0x7DB78001, 0x7DB78007, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
      , (0x7DB78001, 0x7DB78008, '2019-02-10 00:00:00') /* Revenant (619) */
      , (0x7DB78001, 0x7DB78009, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
-     , (0x7DB78001, 0x7DB7800A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
+     , (0x7DB78001, 0x7DB7800A, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
+     , (0x7DB78001, 0x7DB7800B, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7DB78001, 0x7DB7800C, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB78002,   227, 0xDB78000C, 26.78798, 88.59729, 16.39056, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
@@ -52,12 +54,20 @@ VALUES (0x7DB7800A,   227, 0xDB780030, 131.5807, 189.6667, 16.006, 0.7071068, 0,
 /* @teleloc 0xDB780030 [131.580700 189.666700 16.006000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB7800B,  1542, 0xDB78000C, 29.50632, 87.81586, 18.15008, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7DB7800B,   230, 0xDB780003, 8.754811, 69.68902, 20.73995, 0.2500576, 0, 0, -0.968231,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0xDB780003 [8.754811 69.689020 20.739950] 0.250058 0.000000 0.000000 -0.968231 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB7800C,   227, 0xDB780023, 96.87056, 48.366, 16.04805, -0.9288545, 0, 0, -0.3704449,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
+/* @teleloc 0xDB780023 [96.870560 48.366000 16.048050] -0.928855 0.000000 0.000000 -0.370445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB7800D,  1542, 0xDB78000C, 29.50632, 87.81586, 18.15008, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xDB78000C [29.506320 87.815860 18.150080] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB7800B, 0x7DB7800C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7DB7800D, 0x7DB7800E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB7800C,  4179, 0xDB78000C, 29.50632, 87.81586, 18.15008, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7DB7800E,  4179, 0xDB78000C, 29.50632, 87.81586, 18.15008, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xDB78000C [29.506320 87.815860 18.150080] 0.999048 0.000000 0.000000 -0.043619 */

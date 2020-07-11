@@ -21,7 +21,9 @@ VALUES (0x7B333001, 0x7B333002, '2019-02-10 00:00:00') /* Olthoi Drone (22009) *
      , (0x7B333001, 0x7B33300F, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
      , (0x7B333001, 0x7B333010, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
      , (0x7B333001, 0x7B333011, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
-     , (0x7B333001, 0x7B333012, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */;
+     , (0x7B333001, 0x7B333012, '2019-02-10 00:00:00') /* Linvak Ursuin (7993) */
+     , (0x7B333001, 0x7B333013, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B333001, 0x7B333014, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B333002, 22009, 0xB3330031, 148.0969, 2.301423, 52, 0.5333096, 0, 0, -0.8459201,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
@@ -90,3 +92,11 @@ VALUES (0x7B333011, 22010, 0xB3330006, 17.4003, 132.8663, 42, -0.9800906, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B333012,  7993, 0xB3330031, 157.0929, 6.030478, 52.0028, 0.5333096, 0, 0, -0.8459201,  True, '2019-02-10 00:00:00'); /* Linvak Ursuin */
 /* @teleloc 0xB3330031 [157.092900 6.030478 52.002800] 0.533310 0.000000 0.000000 -0.845920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B333013,   195, 0xB333002A, 141.3322, 29.61207, 51.54333, 0.5333096, 0, 0, -0.8459201,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0xB333002A [141.332200 29.612070 51.543330] 0.533310 0.000000 0.000000 -0.845920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B333014,  1608, 0xB3330031, 146.2305, 4.422851, 52.00333, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
+/* @teleloc 0xB3330031 [146.230500 4.422851 52.003330] 0.766045 0.000000 0.000000 -0.642788 */

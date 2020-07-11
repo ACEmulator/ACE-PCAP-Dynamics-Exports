@@ -52,7 +52,8 @@ VALUES (0x70122009, 0x7012200A, '2019-02-10 00:00:00') /* Spectral Flame (36454)
      , (0x70122009, 0x70122012, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x70122009, 0x70122013, '2019-02-10 00:00:00') /* Lich's Pearl (30234) */
      , (0x70122009, 0x70122014, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70122009, 0x70122015, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x70122009, 0x70122015, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x70122009, 0x70122016, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7012200A, 36454, 0x0122010C, 31.46444, -8.710007, 1.183268, -0.05286176, 0, 0, -0.9986019,  True, '2019-02-10 00:00:00'); /* Spectral Flame */
@@ -101,3 +102,7 @@ VALUES (0x70122014,  1955, 0x0122010C, 27.636, -13.79132, 0.4494849, 0.9217951, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70122015,  1955, 0x0122010D, 33.44149, -16.60346, 0.4494952, 1, 0, 0, -0.0001117137,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x0122010D [33.441490 -16.603460 0.449495] 1.000000 0.000000 0.000000 -0.000112 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70122016,  1955, 0x01220112, 41.44816, -29.59674, -0.06299996, 0.01636137, 0, 0, 0.9998661,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x01220112 [41.448160 -29.596740 -0.063000] 0.016361 0.000000 0.000000 0.999866 */

@@ -102,7 +102,8 @@ VALUES (0x70904001, 0x70904002, '2019-02-10 00:00:00') /* Soiled Doll (25858) */
      , (0x70904001, 0x7090405C, '2019-02-10 00:00:00') /* Infested Rat (25878) */
      , (0x70904001, 0x7090405D, '2019-02-10 00:00:00') /* Glissnal Nefane (25873) */
      , (0x70904001, 0x7090405E, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
-     , (0x70904001, 0x7090405F, '2019-02-10 00:00:00') /* Mangy Carenzi (25850) */;
+     , (0x70904001, 0x7090405F, '2019-02-10 00:00:00') /* Mangy Carenzi (25850) */
+     , (0x70904001, 0x70904060, '2019-02-10 00:00:00') /* Dark Zefir (25885) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70904002, 25858, 0x0904003C, 186.3633, 76.4828, 12.87229, 0.03968348, 0, 0, -0.9992123,  True, '2019-02-10 00:00:00'); /* Soiled Doll */
@@ -481,37 +482,41 @@ VALUES (0x7090405F, 25850, 0x09040030, 141.0576, 191.3988, 93.42113, 1, 0, 0, 0,
 /* @teleloc 0x09040030 [141.057600 191.398800 93.421130] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904060,  1542, 0x09040008, 11.28724, 189.2528, 87.44846, -0.9963453, 0, 0, -0.08541692, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70904060, 25885, 0x0904003B, 180.7199, 62.91965, 14.4624, 0.6653969, 0, 0, -0.7464898,  True, '2019-02-10 00:00:00'); /* Dark Zefir */
+/* @teleloc 0x0904003B [180.719900 62.919650 14.462400] 0.665397 0.000000 0.000000 -0.746490 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70904061,  1542, 0x09040008, 11.28724, 189.2528, 87.44846, -0.9963453, 0, 0, -0.08541692, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x09040008 [11.287240 189.252800 87.448460] -0.996345 0.000000 0.000000 -0.085417 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70904060, 0x70904061, '2019-02-10 00:00:00') /* Quintessence Sickle (25949) */
-     , (0x70904060, 0x70904062, '2019-02-10 00:00:00') /* The Orphanage (27298) */
-     , (0x70904060, 0x70904063, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
-     , (0x70904060, 0x70904064, '2019-02-10 00:00:00') /* Carrot (5758) */
-     , (0x70904060, 0x70904065, '2019-02-10 00:00:00') /* Great Star Mace (41057) */
-     , (0x70904060, 0x70904066, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */;
+VALUES (0x70904061, 0x70904062, '2019-02-10 00:00:00') /* Quintessence Sickle (25949) */
+     , (0x70904061, 0x70904063, '2019-02-10 00:00:00') /* The Orphanage (27298) */
+     , (0x70904061, 0x70904064, '2019-02-10 00:00:00') /* Agent of Arcanum List (30675) */
+     , (0x70904061, 0x70904065, '2019-02-10 00:00:00') /* Carrot (5758) */
+     , (0x70904061, 0x70904066, '2019-02-10 00:00:00') /* Great Star Mace (41057) */
+     , (0x70904061, 0x70904067, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904061, 25949, 0x09040008, 11.28724, 189.2528, 87.44846, -0.9963453, 0, 0, -0.08541692,  True, '2019-02-10 00:00:00'); /* Quintessence Sickle */
+VALUES (0x70904062, 25949, 0x09040008, 11.28724, 189.2528, 87.44846, -0.9963453, 0, 0, -0.08541692,  True, '2019-02-10 00:00:00'); /* Quintessence Sickle */
 /* @teleloc 0x09040008 [11.287240 189.252800 87.448460] -0.996345 0.000000 0.000000 -0.085417 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904062, 27298, 0x0904003B, 184.7936, 61.3867, 13.7386, 0.6653969, 0, 0, -0.7464898,  True, '2019-02-10 00:00:00'); /* The Orphanage */
+VALUES (0x70904063, 27298, 0x0904003B, 184.7936, 61.3867, 13.7386, 0.6653969, 0, 0, -0.7464898,  True, '2019-02-10 00:00:00'); /* The Orphanage */
 /* @teleloc 0x0904003B [184.793600 61.386700 13.738600] 0.665397 0.000000 0.000000 -0.746490 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904063, 30675, 0x09040008, 12.0472, 188.722, 87.63016, 0.7679062, 0, 0, -0.6405623,  True, '2019-02-10 00:00:00'); /* Agent of Arcanum List */
+VALUES (0x70904064, 30675, 0x09040008, 12.0472, 188.722, 87.63016, 0.7679062, 0, 0, -0.6405623,  True, '2019-02-10 00:00:00'); /* Agent of Arcanum List */
 /* @teleloc 0x09040008 [12.047200 188.722000 87.630160] 0.767906 0.000000 0.000000 -0.640562 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904064,  5758, 0x09040008, 4.427135, 190.2568, 86.68747, 0.8024068, 0, 0, -0.5967775,  True, '2019-02-10 00:00:00'); /* Carrot */
+VALUES (0x70904065,  5758, 0x09040008, 4.427135, 190.2568, 86.68747, 0.8024068, 0, 0, -0.5967775,  True, '2019-02-10 00:00:00'); /* Carrot */
 /* @teleloc 0x09040008 [4.427135 190.256800 86.687470] 0.802407 0.000000 0.000000 -0.596778 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904065, 41057, 0x09040008, 1.448747, 191.6012, 86.19035, 0.876632, 0, 0, -0.4811613,  True, '2019-02-10 00:00:00'); /* Great Star Mace */
+VALUES (0x70904066, 41057, 0x09040008, 1.448747, 191.6012, 86.19035, 0.876632, 0, 0, -0.4811613,  True, '2019-02-10 00:00:00'); /* Great Star Mace */
 /* @teleloc 0x09040008 [1.448747 191.601200 86.190350] 0.876632 0.000000 0.000000 -0.481161 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70904066, 27328, 0x09040008, 13.51274, 186.3419, 88.06908, 0.9998952, 0, 0, -0.01447836,  True, '2019-02-10 00:00:00'); /* Major Mana Stone */
+VALUES (0x70904067, 27328, 0x09040008, 13.51274, 186.3419, 88.06908, 0.9998952, 0, 0, -0.01447836,  True, '2019-02-10 00:00:00'); /* Major Mana Stone */
 /* @teleloc 0x09040008 [13.512740 186.341900 88.069080] 0.999895 0.000000 0.000000 -0.014478 */

@@ -14,7 +14,8 @@ VALUES (0x72D78001, 0x72D78002, '2019-02-10 00:00:00') /* Banderling Slayer (242
      , (0x72D78001, 0x72D78008, '2019-02-10 00:00:00') /* Horripal (20191) */
      , (0x72D78001, 0x72D78009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
      , (0x72D78001, 0x72D7800A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
-     , (0x72D78001, 0x72D7800B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
+     , (0x72D78001, 0x72D7800B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D78001, 0x72D7800C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D78002, 24277, 0x2D780020, 90.64438, 170.0037, 109.4229, 0.7761813, 0, 0, -0.6305098,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -55,3 +56,7 @@ VALUES (0x72D7800A, 24497, 0x2D780013, 51.76155, 71.43891, 103.1117, -0.06522378
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D7800B, 24497, 0x2D780031, 155.9954, 5.382263, 175.2859, -0.5259438, 0, 0, -0.8505194,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x2D780031 [155.995400 5.382263 175.285900] -0.525944 0.000000 0.000000 -0.850519 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D7800C, 23482, 0x2D780028, 104.8873, 179.0061, 111.3952, 0.7761813, 0, 0, -0.6305098,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x2D780028 [104.887300 179.006100 111.395200] 0.776181 0.000000 0.000000 -0.630510 */

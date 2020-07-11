@@ -88,7 +88,12 @@ VALUES (0x7462E001, 0x7462E002, '2019-02-10 00:00:00') /* Grave Rat (35100) */
      , (0x7462E001, 0x7462E052, '2019-02-10 00:00:00') /* Pyre Skeleton (35097) */
      , (0x7462E001, 0x7462E053, '2019-02-10 00:00:00') /* Grave Rat (35100) */
      , (0x7462E001, 0x7462E054, '2019-02-10 00:00:00') /* Grave Rat (35100) */
-     , (0x7462E001, 0x7462E055, '2019-02-10 00:00:00') /* Grave Rat (35100) */;
+     , (0x7462E001, 0x7462E055, '2019-02-10 00:00:00') /* Grave Rat (35100) */
+     , (0x7462E001, 0x7462E056, '2019-02-10 00:00:00') /* Grave Rat (35100) */
+     , (0x7462E001, 0x7462E057, '2019-02-10 00:00:00') /* Pyre Minion (35099) */
+     , (0x7462E001, 0x7462E058, '2019-02-10 00:00:00') /* Grave Rat (35100) */
+     , (0x7462E001, 0x7462E059, '2019-02-10 00:00:00') /* Grave Rat (35100) */
+     , (0x7462E001, 0x7462E05A, '2019-02-10 00:00:00') /* Pyre Minion (35099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7462E002, 35100, 0x462E003E, 175.7437, 133.5801, 3.48529, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grave Rat */
@@ -427,12 +432,32 @@ VALUES (0x7462E055, 35100, 0x462E003E, 178.3059, 141.2047, 3.868545, 0.6801018, 
 /* @teleloc 0x462E003E [178.305900 141.204700 3.868545] 0.680102 0.000000 0.000000 0.733118 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7462E056,  1154, 0x462E0001, 8.791326, 7.526228, 68.00249, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7462E056, 35100, 0x462E0026, 110.5906, 139.8132, 1.663099, -0.177644, 0, 0, 0.984095,  True, '2019-02-10 00:00:00'); /* Grave Rat */
+/* @teleloc 0x462E0026 [110.590600 139.813200 1.663099] -0.177644 0.000000 0.000000 0.984095 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7462E057, 35099, 0x462E0035, 162.6481, 114.8239, 6.218545, -0.9945886, 0, 0, -0.1038923,  True, '2019-02-10 00:00:00'); /* Pyre Minion */
+/* @teleloc 0x462E0035 [162.648100 114.823900 6.218545] -0.994589 0.000000 0.000000 -0.103892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7462E058, 35100, 0x462E0036, 167.7922, 139.7766, 1.41979, 0.9509595, 0, 0, -0.3093154,  True, '2019-02-10 00:00:00'); /* Grave Rat */
+/* @teleloc 0x462E0036 [167.792200 139.776600 1.419790] 0.950960 0.000000 0.000000 -0.309315 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7462E059, 35100, 0x462E002E, 120.5979, 124.3213, 1.962176, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grave Rat */
+/* @teleloc 0x462E002E [120.597900 124.321300 1.962176] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7462E05A, 35099, 0x462E003B, 176.7018, 57.40688, 1.277349, 0.9663551, 0, 0, -0.2572117,  True, '2019-02-10 00:00:00'); /* Pyre Minion */
+/* @teleloc 0x462E003B [176.701800 57.406880 1.277349] 0.966355 0.000000 0.000000 -0.257212 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7462E05B,  1154, 0x462E0001, 8.791326, 7.526228, 68.00249, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x462E0001 [8.791326 7.526228 68.002490] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7462E056, 0x7462E057, '2019-02-10 00:00:00') /* Guardian Statue (41959) */;
+VALUES (0x7462E05B, 0x7462E05C, '2019-02-10 00:00:00') /* Guardian Statue (41959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7462E057, 41959, 0x462E0001, 8.791326, 7.526228, 68.00249, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Guardian Statue */
+VALUES (0x7462E05C, 41959, 0x462E0001, 8.791326, 7.526228, 68.00249, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Guardian Statue */
 /* @teleloc 0x462E0001 [8.791326 7.526228 68.002490] 1.000000 0.000000 0.000000 0.000000 */

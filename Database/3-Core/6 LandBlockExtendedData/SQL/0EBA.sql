@@ -89,8 +89,13 @@ VALUES (0x70EBA01E,  1542, 0x0EBA001D, 86.276, 102.357, 1.47525, -0.2714499, 0, 
 /* @teleloc 0x0EBA001D [86.276000 102.357000 1.475250] -0.271450 0.000000 0.000000 -0.962453 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70EBA01E, 0x70EBA01F, '2019-02-10 00:00:00') /* Hea Kiriona the Shopkeep (11381) */;
+VALUES (0x70EBA01E, 0x70EBA01F, '2019-02-10 00:00:00') /* Hea Kiriona the Shopkeep (11381) */
+     , (0x70EBA01E, 0x70EBA020, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70EBA01F, 11381, 0x0EBA001D, 86.276, 102.357, 1.47525, -0.2714499, 0, 0, -0.9624526,  True, '2019-02-10 00:00:00'); /* Hea Kiriona the Shopkeep */
 /* @teleloc 0x0EBA001D [86.276000 102.357000 1.475250] -0.271450 0.000000 0.000000 -0.962453 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70EBA020,  1955, 0x0EBA000A, 45.75527, 43.33902, -0.9629999, -0.3125627, 0, 0, -0.9498971,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x0EBA000A [45.755270 43.339020 -0.963000] -0.312563 0.000000 0.000000 -0.949897 */

@@ -41,7 +41,11 @@ VALUES (0x7B772001, 0x7B772002, '2019-02-10 00:00:00') /* Grey Rat (219) */
      , (0x7B772001, 0x7B772023, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
      , (0x7B772001, 0x7B772024, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
      , (0x7B772001, 0x7B772025, '2019-02-10 00:00:00') /* Static (6382) */
-     , (0x7B772001, 0x7B772026, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
+     , (0x7B772001, 0x7B772026, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7B772001, 0x7B772027, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
+     , (0x7B772001, 0x7B772028, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7B772001, 0x7B772029, '2019-02-10 00:00:00') /* Tan Rat (4131) */
+     , (0x7B772001, 0x7B77202A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B772002,   219, 0xB7720003, 18.16878, 60.34263, 22.55262, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grey Rat */
@@ -192,12 +196,28 @@ VALUES (0x7B772026,   223, 0xB772000B, 33.71509, 63.87984, 24.13391, 0.9537169, 
 /* @teleloc 0xB772000B [33.715090 63.879840 24.133910] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B772027,  1542, 0xB7720029, 131.2211, 0.7456689, 22.87295, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B772027,   221, 0xB772000B, 29.48884, 55.51222, 23.08482, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */
+/* @teleloc 0xB772000B [29.488840 55.512220 23.084820] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B772028,  4110, 0xB7720020, 76.05486, 174.5863, 45.20967, 0.9212344, 0, 0, -0.389008,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
+/* @teleloc 0xB7720020 [76.054860 174.586300 45.209670] 0.921234 0.000000 0.000000 -0.389008 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B772029,  4131, 0xB7720025, 111.1374, 98.9227, 36.74068, -0.1662533, 0, 0, -0.9860831,  True, '2019-02-10 00:00:00'); /* Tan Rat */
+/* @teleloc 0xB7720025 [111.137400 98.922700 36.740680] -0.166253 0.000000 0.000000 -0.986083 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B77202A,   180, 0xB7720040, 181.7207, 179.6482, 39.72371, -0.8192495, 0, 0, -0.5734372,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */
+/* @teleloc 0xB7720040 [181.720700 179.648200 39.723710] -0.819250 0.000000 0.000000 -0.573437 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B77202B,  1542, 0xB7720029, 131.2211, 0.7456689, 22.87295, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB7720029 [131.221100 0.745669 22.872950] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B772027, 0x7B772028, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x7B77202B, 0x7B77202C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B772028,  4180, 0xB7720029, 131.2211, 0.7456689, 22.87295, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7B77202C,  4180, 0xB7720029, 131.2211, 0.7456689, 22.87295, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xB7720029 [131.221100 0.745669 22.872950] 0.953717 0.000000 0.000000 -0.300706 */

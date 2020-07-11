@@ -29,7 +29,11 @@ VALUES (0x796DB001, 0x796DB002, '2019-02-10 00:00:00') /* Tusker Redeemer (22520
      , (0x796DB001, 0x796DB017, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
      , (0x796DB001, 0x796DB018, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
      , (0x796DB001, 0x796DB019, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
-     , (0x796DB001, 0x796DB01A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */;
+     , (0x796DB001, 0x796DB01A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x796DB001, 0x796DB01B, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x796DB001, 0x796DB01C, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x796DB001, 0x796DB01D, '2019-02-10 00:00:00') /* Virindi Servant (23) */
+     , (0x796DB001, 0x796DB01E, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x796DB002, 22520, 0x96DB0012, 53.98467, 24.355, 151.1257, 0.9822296, 0, 0, -0.1876833,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
@@ -132,42 +136,58 @@ VALUES (0x796DB01A,  7333, 0x96DB0026, 98.91537, 121.4203, 196.5471, 0.7071068, 
 /* @teleloc 0x96DB0026 [98.915370 121.420300 196.547100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB01B,  1542, 0x96DB0003, 5.580269, 58.17068, 158.09, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x796DB01B,  1629, 0x96DB0011, 50.8523, 20.00011, 149.1531, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
+/* @teleloc 0x96DB0011 [50.852300 20.000110 149.153100] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796DB01C, 24289, 0x96DB0002, 15.82802, 46.3735, 150.0878, 0.6463747, 0, 0, -0.7630202,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
+/* @teleloc 0x96DB0002 [15.828020 46.373500 150.087800] 0.646375 0.000000 0.000000 -0.763020 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796DB01D,    23, 0x96DB000A, 37.27775, 26.46011, 147.9635, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
+/* @teleloc 0x96DB000A [37.277750 26.460110 147.963500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796DB01E,  9252, 0x96DB001E, 94.18542, 133.4779, 194.03, 0.2363967, 0, 0, -0.9716566,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
+/* @teleloc 0x96DB001E [94.185420 133.477900 194.030000] 0.236397 0.000000 0.000000 -0.971657 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x796DB01F,  1542, 0x96DB0003, 5.580269, 58.17068, 158.09, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x96DB0003 [5.580269 58.170680 158.090000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x796DB01B, 0x796DB01C, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
-     , (0x796DB01B, 0x796DB01D, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x796DB01B, 0x796DB01E, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
-     , (0x796DB01B, 0x796DB01F, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
-     , (0x796DB01B, 0x796DB020, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
-     , (0x796DB01B, 0x796DB021, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
-     , (0x796DB01B, 0x796DB022, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x796DB01F, 0x796DB020, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x796DB01F, 0x796DB021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x796DB01F, 0x796DB022, '2019-02-10 00:00:00') /* Wandering Vendor Backback (9019) */
+     , (0x796DB01F, 0x796DB023, '2019-02-10 00:00:00') /* Ursuin Head (9097) */
+     , (0x796DB01F, 0x796DB024, '2019-02-10 00:00:00') /* Ursuin Hunter's Bow (9022) */
+     , (0x796DB01F, 0x796DB025, '2019-02-10 00:00:00') /* Spertat the Ursuin Hunter (9023) */
+     , (0x796DB01F, 0x796DB026, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB01C,  9024, 0x96DB0003, 5.580269, 58.17068, 158.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */
+VALUES (0x796DB020,  9024, 0x96DB0003, 5.580269, 58.17068, 158.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */
 /* @teleloc 0x96DB0003 [5.580269 58.170680 158.090000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB01D,  4179, 0x96DB0003, 5.580269, 58.17068, 157.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x796DB021,  4179, 0x96DB0003, 5.580269, 58.17068, 157.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x96DB0003 [5.580269 58.170680 157.090000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB01E,  9019, 0x96DB0003, 6.566663, 58.00628, 157.09, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
+VALUES (0x796DB022,  9019, 0x96DB0003, 6.566663, 58.00628, 157.09, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Wandering Vendor Backback */
 /* @teleloc 0x96DB0003 [6.566663 58.006280 157.090000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB01F,  9097, 0x96DB0003, 3.147164, 58.17068, 157.09, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Ursuin Head */
+VALUES (0x796DB023,  9097, 0x96DB0003, 3.147164, 58.17068, 157.09, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Ursuin Head */
 /* @teleloc 0x96DB0003 [3.147164 58.170680 157.090000] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB020,  9022, 0x96DB0003, 7.717455, 56.39517, 157.09, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Ursuin Hunter's Bow */
+VALUES (0x796DB024,  9022, 0x96DB0003, 7.717455, 56.39517, 157.09, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Ursuin Hunter's Bow */
 /* @teleloc 0x96DB0003 [7.717455 56.395170 157.090000] 0.422618 0.000000 0.000000 -0.906308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB021,  9023, 0x96DB0003, 6.402263, 57.01989, 157.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Spertat the Ursuin Hunter */
+VALUES (0x796DB025,  9023, 0x96DB0003, 6.402263, 57.01989, 157.09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Spertat the Ursuin Hunter */
 /* @teleloc 0x96DB0003 [6.402263 57.019890 157.090000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x796DB022,  4380, 0x96DB0026, 100.1834, 123.5398, 196.5471, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x796DB026,  4380, 0x96DB0026, 100.1834, 123.5398, 196.5471, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x96DB0026 [100.183400 123.539800 196.547100] 0.000000 0.000000 0.000000 -1.000000 */

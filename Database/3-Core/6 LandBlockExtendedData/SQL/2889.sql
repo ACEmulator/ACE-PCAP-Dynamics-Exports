@@ -22,7 +22,18 @@ VALUES (0x72889001, 0x72889002, '2019-02-10 00:00:00') /* Invading Silver Scope 
      , (0x72889001, 0x72889010, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
      , (0x72889001, 0x72889011, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
      , (0x72889001, 0x72889012, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
-     , (0x72889001, 0x72889013, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
+     , (0x72889001, 0x72889013, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x72889001, 0x72889014, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72889001, 0x72889015, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72889001, 0x72889016, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
+     , (0x72889001, 0x72889017, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x72889001, 0x72889018, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x72889001, 0x72889019, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72889001, 0x7288901A, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72889001, 0x7288901B, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72889001, 0x7288901C, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x72889001, 0x7288901D, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x72889001, 0x7288901E, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72889002, 41535, 0x2889000A, 42.15073, 38.93044, 102.0075, 0.862837, 0, 0, -0.5054823,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -97,17 +108,71 @@ VALUES (0x72889013, 36842, 0x2889002F, 134.9191, 150.3087, 101.995, 0.7071068, 0
 /* @teleloc 0x2889002F [134.919100 150.308700 101.995000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72889014,  1542, 0x2889001B, 86.1917, 66.58889, 101.937, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x72889014,  7121, 0x2889000A, 44.53757, 38.21225, 102.0025, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+/* @teleloc 0x2889000A [44.537570 38.212250 102.002500] 0.793353 0.000000 0.000000 -0.608761 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889015,  7334, 0x2889000A, 41.13757, 39.81224, 102.0025, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
+/* @teleloc 0x2889000A [41.137570 39.812240 102.002500] 0.991445 0.000000 0.000000 -0.130526 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889016,  7334, 0x2889000A, 40.63757, 37.31224, 102.0025, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
+/* @teleloc 0x2889000A [40.637570 37.312240 102.002500] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889017, 24279, 0x2889001C, 86.47438, 76.38183, 102.0033, 0.4386377, 0, 0, -0.898664,  True, '2019-02-10 00:00:00'); /* Gloom Drudge */
+/* @teleloc 0x2889001C [86.474380 76.381830 102.003300] 0.438638 0.000000 0.000000 -0.898664 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889018,   228, 0x2889001C, 80.61361, 80.09183, 102.006, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
+/* @teleloc 0x2889001C [80.613610 80.091830 102.006000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889019, 36829, 0x28890017, 58.00784, 159.8167, 110.6741, -0.9633825, 0, 0, -0.2681307,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x28890017 [58.007840 159.816700 110.674100] -0.963383 0.000000 0.000000 -0.268131 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7288901A, 11540, 0x28890026, 118.7416, 142.536, 102.0132, -0.8359216, 0, 0, -0.5488487,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
+/* @teleloc 0x28890026 [118.741600 142.536000 102.013200] -0.835922 0.000000 0.000000 -0.548849 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7288901B, 11540, 0x28890026, 115.9662, 141.9062, 102.0132, -0.8359216, 0, 0, -0.5488487,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
+/* @teleloc 0x28890026 [115.966200 141.906200 102.013200] -0.835922 0.000000 0.000000 -0.548849 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7288901C, 11540, 0x2889002E, 121.7251, 142.2145, 102.0132, -0.8359216, 0, 0, -0.5488487,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
+/* @teleloc 0x2889002E [121.725100 142.214500 102.013200] -0.835922 0.000000 0.000000 -0.548849 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7288901D,  7184, 0x2889002F, 123.1955, 149.4256, 102.0132, -0.8359216, 0, 0, -0.5488487,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x2889002F [123.195500 149.425600 102.013200] -0.835922 0.000000 0.000000 -0.548849 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7288901E, 36829, 0x2889002C, 122.3178, 81.8762, 102.01, -0.7958451, 0, 0, -0.6055003,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x2889002C [122.317800 81.876200 102.010000] -0.795845 0.000000 0.000000 -0.605500 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7288901F,  1542, 0x2889001B, 86.1917, 66.58889, 101.937, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2889001B [86.191700 66.588890 101.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72889014, 0x72889015, '2019-02-10 00:00:00') /* Heartland (1900) */
-     , (0x72889014, 0x72889016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7288901F, 0x72889020, '2019-02-10 00:00:00') /* Heartland (1900) */
+     , (0x7288901F, 0x72889021, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7288901F, 0x72889022, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7288901F, 0x72889023, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72889015,  1900, 0x2889001B, 86.1917, 66.58889, 101.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Heartland */
+VALUES (0x72889020,  1900, 0x2889001B, 86.1917, 66.58889, 101.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Heartland */
 /* @teleloc 0x2889001B [86.191700 66.588890 101.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72889016,  4179, 0x2889002F, 131.6523, 154.3395, 102, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x72889021,  4179, 0x2889002F, 131.6523, 154.3395, 102, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x2889002F [131.652300 154.339500 102.000000] 0.999048 0.000000 0.000000 -0.043619 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889022, 22571, 0x2889000A, 40.5209, 39.17352, 102, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+/* @teleloc 0x2889000A [40.520900 39.173520 102.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72889023,  4179, 0x2889001C, 81.70147, 82.70267, 102, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+/* @teleloc 0x2889001C [81.701470 82.702670 102.000000] 0.999048 0.000000 0.000000 -0.043619 */

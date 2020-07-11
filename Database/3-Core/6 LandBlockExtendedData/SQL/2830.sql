@@ -34,7 +34,9 @@ VALUES (0x72830001, 0x72830002, '2019-02-10 00:00:00') /* Affliction Wisp (7125)
      , (0x72830001, 0x7283001C, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
      , (0x72830001, 0x7283001D, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x72830001, 0x7283001E, '2019-02-10 00:00:00') /* Assailer (22053) */
-     , (0x72830001, 0x7283001F, '2019-02-10 00:00:00') /* Rampager (10810) */;
+     , (0x72830001, 0x7283001F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x72830001, 0x72830020, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x72830001, 0x72830021, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72830002,  7125, 0x28300001, 16.88944, 4.045089, 40.25546, -0.1537326, 0, 0, -0.9881125,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
@@ -155,3 +157,11 @@ VALUES (0x7283001E, 22053, 0x2830003C, 182.6419, 73.70973, 72.30145, -0.7827755,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7283001F, 10810, 0x2830003C, 180.363, 81.60207, 73.61355, -0.7827755, 0, 0, -0.6223043,  True, '2019-02-10 00:00:00'); /* Rampager */
 /* @teleloc 0x2830003C [180.363000 81.602070 73.613550] -0.782776 0.000000 0.000000 -0.622304 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72830020, 38180, 0x28300006, 4.74173, 137.584, 41.43967, -0.7894241, 0, 0, -0.6138481,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
+/* @teleloc 0x28300006 [4.741730 137.584000 41.439670] -0.789424 0.000000 0.000000 -0.613848 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72830021, 24133, 0x28300001, 15.51622, 7.724609, 40.06326, -0.1537326, 0, 0, -0.9881125,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
+/* @teleloc 0x28300001 [15.516220 7.724609 40.063260] -0.153733 0.000000 0.000000 -0.988113 */

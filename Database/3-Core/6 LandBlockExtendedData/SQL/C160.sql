@@ -22,7 +22,10 @@ VALUES (0x7C160003, 0x7C160004, '2019-02-10 00:00:00') /* Zombie (950) */
      , (0x7C160003, 0x7C16000A, '2019-02-10 00:00:00') /* Water Golem (941) */
      , (0x7C160003, 0x7C16000B, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
      , (0x7C160003, 0x7C16000C, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
-     , (0x7C160003, 0x7C16000D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
+     , (0x7C160003, 0x7C16000D, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7C160003, 0x7C16000E, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C16000F, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */
+     , (0x7C160003, 0x7C160010, '2019-02-10 00:00:00') /* Sawato Bandit (33831) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C160004,   950, 0xC1600011, 53.32794, 6.316059, 6.0075, -0.9248144, 0, 0, -0.3804186,  True, '2019-02-10 00:00:00'); /* Zombie */
@@ -65,12 +68,24 @@ VALUES (0x7C16000D,   947, 0xC1600009, 38.7818, 0.6581607, 5.9055, -0.9248144, 0
 /* @teleloc 0xC1600009 [38.781800 0.658161 5.905500] -0.924814 0.000000 0.000000 -0.380419 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C16000E,  1542, 0xC1600038, 156.0224, 168.4956, 6, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C16000E, 33831, 0xC1600014, 49.79446, 89.3428, 6.005, 0.9984396, 0, 0, -0.05584178,  True, '2019-02-10 00:00:00'); /* Sawato Bandit */
+/* @teleloc 0xC1600014 [49.794460 89.342800 6.005000] 0.998440 0.000000 0.000000 -0.055842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C16000F, 33831, 0xC1600014, 48.10266, 75.39931, 6.005, 0.9984396, 0, 0, -0.05584178,  True, '2019-02-10 00:00:00'); /* Sawato Bandit */
+/* @teleloc 0xC1600014 [48.102660 75.399310 6.005000] 0.998440 0.000000 0.000000 -0.055842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C160010, 33831, 0xC1600014, 58.92442, 81.85166, 6.005, 0.9984396, 0, 0, -0.05584178,  True, '2019-02-10 00:00:00'); /* Sawato Bandit */
+/* @teleloc 0xC1600014 [58.924420 81.851660 6.005000] 0.998440 0.000000 0.000000 -0.055842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C160011,  1542, 0xC1600038, 156.0224, 168.4956, 6, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC1600038 [156.022400 168.495600 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C16000E, 0x7C16000F, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
+VALUES (0x7C160011, 0x7C160012, '2019-02-10 00:00:00') /* Runed Chest (22568) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C16000F, 22568, 0xC1600038, 156.0224, 168.4956, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7C160012, 22568, 0xC1600038, 156.0224, 168.4956, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xC1600038 [156.022400 168.495600 6.000000] 1.000000 0.000000 0.000000 0.000000 */

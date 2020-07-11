@@ -30,7 +30,13 @@ VALUES (0x7410C001, 0x7410C002, '2019-02-10 00:00:00') /* Egg (38265) */
      , (0x7410C001, 0x7410C018, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
      , (0x7410C001, 0x7410C019, '2019-02-10 00:00:00') /* Brood Mother (38283) */
      , (0x7410C001, 0x7410C01A, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40467) */
-     , (0x7410C001, 0x7410C01B, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40465) */;
+     , (0x7410C001, 0x7410C01B, '2019-02-10 00:00:00') /* Corrupted Coral Golem (40465) */
+     , (0x7410C001, 0x7410C01C, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7410C001, 0x7410C01D, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x7410C001, 0x7410C01E, '2019-02-10 00:00:00') /* Mogshuth Moarsman (40480) */
+     , (0x7410C001, 0x7410C01F, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x7410C001, 0x7410C020, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */
+     , (0x7410C001, 0x7410C021, '2019-02-10 00:00:00') /* Deep-sea Lava Golem (40468) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7410C002, 38265, 0x410C0011, 53.7021, 21.1746, -0.4304224, 0.995095, 0, 0, -0.0989203,  True, '2019-02-10 00:00:00'); /* Egg */
@@ -135,3 +141,27 @@ VALUES (0x7410C01A, 40467, 0x410C0029, 137.3271, 7.55388, -0.8890001, 0.9616424,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7410C01B, 40465, 0x410C002B, 136.7571, 66.15993, -0.8890001, 0.8337457, 0, 0, -0.5521486,  True, '2019-02-10 00:00:00'); /* Corrupted Coral Golem */
 /* @teleloc 0x410C002B [136.757100 66.159930 -0.889000] 0.833746 0.000000 0.000000 -0.552149 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7410C01C, 40482, 0x410C0012, 66.56595, 25.4683, -0.8944, -0.7003081, 0, 0, -0.7138407,  True, '2019-02-10 00:00:00'); /* Shogshuth Moarsman */
+/* @teleloc 0x410C0012 [66.565950 25.468300 -0.894400] -0.700308 0.000000 0.000000 -0.713841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7410C01D, 40478, 0x410C0012, 55.28794, 24.4682, -0.3753354, -0.7003081, 0, 0, -0.7138407,  True, '2019-02-10 00:00:00'); /* Magshuth Moarsman */
+/* @teleloc 0x410C0012 [55.287940 24.468200 -0.375335] -0.700308 0.000000 0.000000 -0.713841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7410C01E, 40480, 0x410C0012, 57.99686, 33.13308, -0.8943999, -0.7003081, 0, 0, -0.7138407,  True, '2019-02-10 00:00:00'); /* Mogshuth Moarsman */
+/* @teleloc 0x410C0012 [57.996860 33.133080 -0.894400] -0.700308 0.000000 0.000000 -0.713841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7410C01F, 40482, 0x410C0011, 56.32222, 23.38233, -0.4444, -0.7003081, 0, 0, -0.7138407,  True, '2019-02-10 00:00:00'); /* Shogshuth Moarsman */
+/* @teleloc 0x410C0011 [56.322220 23.382330 -0.444400] -0.700308 0.000000 0.000000 -0.713841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7410C020, 40483, 0x410C0011, 58.01999, 23.24055, -0.172497, -0.7003081, 0, 0, -0.7138407,  True, '2019-02-10 00:00:00'); /* Shoguth Moarsman */
+/* @teleloc 0x410C0011 [58.019990 23.240550 -0.172497] -0.700308 0.000000 0.000000 -0.713841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7410C021, 40468, 0x410C0029, 138.3769, 6.838508, -0.8890001, 0.9616424, 0, 0, -0.2743062,  True, '2019-02-10 00:00:00'); /* Deep-sea Lava Golem */
+/* @teleloc 0x410C0029 [138.376900 6.838508 -0.889000] 0.961642 0.000000 0.000000 -0.274306 */

@@ -10,7 +10,9 @@ VALUES (0x78396001, 0x78396002, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x78396001, 0x78396004, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x78396001, 0x78396005, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
      , (0x78396001, 0x78396006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
-     , (0x78396001, 0x78396007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
+     , (0x78396001, 0x78396007, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x78396001, 0x78396008, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
+     , (0x78396001, 0x78396009, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78396002,  1758, 0x8396002E, 125.7498, 142.3853, 124.005, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -37,17 +39,30 @@ VALUES (0x78396007,   213, 0x83960035, 153.0365, 110.8991, 124.0215, -0.982456, 
 /* @teleloc 0x83960035 [153.036500 110.899100 124.021500] -0.982456 0.000000 0.000000 -0.186495 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78396008,  1542, 0x83960014, 56.237, 87.21803, 142.5457, -0.2637198, 0, 0, 0.9645993, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78396008,  2574, 0x83960036, 156.984, 133.7493, 123.991, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Rough Monouga */
+/* @teleloc 0x83960036 [156.984000 133.749300 123.991000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78396009,  2576, 0x83960036, 153.11, 131.5786, 123.9925, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
+/* @teleloc 0x83960036 [153.110000 131.578600 123.992500] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7839600A,  1542, 0x83960014, 56.237, 87.21803, 142.5457, -0.2637198, 0, 0, 0.9645993, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x83960014 [56.237000 87.218030 142.545700] -0.263720 0.000000 0.000000 0.964599 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78396008, 0x78396009, '2019-02-10 00:00:00') /* Diforsa Sleeves (30949) */
-     , (0x78396008, 0x7839600A, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */;
+VALUES (0x7839600A, 0x7839600B, '2019-02-10 00:00:00') /* Diforsa Sleeves (30949) */
+     , (0x7839600A, 0x7839600C, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x7839600A, 0x7839600D, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78396009, 30949, 0x83960014, 56.237, 87.21803, 142.5457, -0.2637198, 0, 0, 0.9645993,  True, '2019-02-10 00:00:00'); /* Diforsa Sleeves */
+VALUES (0x7839600B, 30949, 0x83960014, 56.237, 87.21803, 142.5457, -0.2637198, 0, 0, 0.9645993,  True, '2019-02-10 00:00:00'); /* Diforsa Sleeves */
 /* @teleloc 0x83960014 [56.237000 87.218030 142.545700] -0.263720 0.000000 0.000000 0.964599 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7839600A,  6044, 0x83960014, 56.237, 87.21803, 142.3414, -0.2637198, 0, 0, 0.9645993,  True, '2019-02-10 00:00:00'); /* Celdon Breastplate */
+VALUES (0x7839600C,  6044, 0x83960014, 56.237, 87.21803, 142.3414, -0.2637198, 0, 0, 0.9645993,  True, '2019-02-10 00:00:00'); /* Celdon Breastplate */
 /* @teleloc 0x83960014 [56.237000 87.218030 142.341400] -0.263720 0.000000 0.000000 0.964599 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7839600D,  4380, 0x83960036, 155.3516, 134.0736, 124, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */
+/* @teleloc 0x83960036 [155.351600 134.073600 124.000000] 0.923880 0.000000 0.000000 -0.382684 */

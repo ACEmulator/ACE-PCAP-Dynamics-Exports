@@ -20,7 +20,16 @@ VALUES (0x729EB001, 0x729EB002, '2019-02-10 00:00:00') /* Engorged Eater (28642)
      , (0x729EB001, 0x729EB00E, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
      , (0x729EB001, 0x729EB00F, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
      , (0x729EB001, 0x729EB010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
-     , (0x729EB001, 0x729EB011, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
+     , (0x729EB001, 0x729EB011, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x729EB001, 0x729EB012, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x729EB001, 0x729EB013, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x729EB001, 0x729EB014, '2019-02-10 00:00:00') /* Woodland Phyntos Wasp (29358) */
+     , (0x729EB001, 0x729EB015, '2019-02-10 00:00:00') /* Viamontian Mercenary (28651) */
+     , (0x729EB001, 0x729EB016, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x729EB001, 0x729EB017, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x729EB001, 0x729EB018, '2019-02-10 00:00:00') /* Truffle Thrungus (29297) */
+     , (0x729EB001, 0x729EB019, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x729EB001, 0x729EB01A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729EB002, 28642, 0x29EB0003, 6.98634, 60.51311, 30, 0.0395795, 0, 0, -0.9992164,  True, '2019-02-10 00:00:00'); /* Engorged Eater */
@@ -85,3 +94,39 @@ VALUES (0x729EB010,  4254, 0x29EB003A, 170.794, 33.67777, 30.004, 0.7299003, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x729EB011,  8968, 0x29EB003B, 189.0404, 50.70689, 30.0025, -0.7082551, 0, 0, -0.7059566,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
 /* @teleloc 0x29EB003B [189.040400 50.706890 30.002500] -0.708255 0.000000 0.000000 -0.705957 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB012, 22933, 0x29EB0029, 121.1229, 23.49054, 30.01, -0.8306143, 0, 0, -0.5568481,  True, '2019-02-10 00:00:00'); /* Mist Golem */
+/* @teleloc 0x29EB0029 [121.122900 23.490540 30.010000] -0.830614 0.000000 0.000000 -0.556848 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB013, 11526, 0x29EB0019, 89.54247, 9.678864, 30.005, -0.3074902, 0, 0, -0.9515513,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+/* @teleloc 0x29EB0019 [89.542470 9.678864 30.005000] -0.307490 0.000000 0.000000 -0.951551 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB014, 29358, 0x29EB0022, 117.1039, 24.00372, 30.012, 0.9059047, 0, 0, -0.4234818,  True, '2019-02-10 00:00:00'); /* Woodland Phyntos Wasp */
+/* @teleloc 0x29EB0022 [117.103900 24.003720 30.012000] 0.905905 0.000000 0.000000 -0.423482 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB015, 28651, 0x29EB001A, 82.70967, 43.548, 30.00627, 0.6602561, 0, 0, -0.7510405,  True, '2019-02-10 00:00:00'); /* Viamontian Mercenary */
+/* @teleloc 0x29EB001A [82.709670 43.548000 30.006270] 0.660256 0.000000 0.000000 -0.751041 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB016,  7994, 0x29EB003F, 189.6295, 146.9859, 30.0026, 0.9813961, 0, 0, -0.1919942,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
+/* @teleloc 0x29EB003F [189.629500 146.985900 30.002600] 0.981396 0.000000 0.000000 -0.191994 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB017,  7085, 0x29EB0029, 140.2512, 16.6281, 30.00715, -0.8306143, 0, 0, -0.5568481,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
+/* @teleloc 0x29EB0029 [140.251200 16.628100 30.007150] -0.830614 0.000000 0.000000 -0.556848 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB018, 29297, 0x29EB0039, 175.4286, 3.037415, 30, -0.4983841, 0, 0, -0.8669563,  True, '2019-02-10 00:00:00'); /* Truffle Thrungus */
+/* @teleloc 0x29EB0039 [175.428600 3.037415 30.000000] -0.498384 0.000000 0.000000 -0.866956 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB019, 23082, 0x29EB003C, 185.7597, 74.27447, 30.01, -0.09677563, 0, 0, -0.9953062,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
+/* @teleloc 0x29EB003C [185.759700 74.274470 30.010000] -0.096776 0.000000 0.000000 -0.995306 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x729EB01A,  4253, 0x29EB0040, 185.6639, 183.5148, 30.005, -0.928141, 0, 0, -0.3722289,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
+/* @teleloc 0x29EB0040 [185.663900 183.514800 30.005000] -0.928141 0.000000 0.000000 -0.372229 */

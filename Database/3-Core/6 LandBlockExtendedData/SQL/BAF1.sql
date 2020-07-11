@@ -13,7 +13,8 @@ VALUES (0x7BAF1001, 0x7BAF1002, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
      , (0x7BAF1001, 0x7BAF1007, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
      , (0x7BAF1001, 0x7BAF1008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
      , (0x7BAF1001, 0x7BAF1009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
-     , (0x7BAF1001, 0x7BAF100A, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */;
+     , (0x7BAF1001, 0x7BAF100A, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAF1001, 0x7BAF100B, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF1002,  5748, 0xBAF10006, 1.507385, 134.9367, 395.1746, -0.3223584, 0, 0, -0.9466177,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
@@ -50,3 +51,7 @@ VALUES (0x7BAF1009,  7105, 0xBAF10008, 13.00039, 169.7862, 396.5235, -0.3223584,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAF100A, 38178, 0xBAF10007, 5.245407, 147.083, 394.5238, -0.3223584, 0, 0, -0.9466177,  True, '2019-02-10 00:00:00'); /* Blighted Pyreal Golem */
 /* @teleloc 0xBAF10007 [5.245407 147.083000 394.523800] -0.322358 0.000000 0.000000 -0.946618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BAF100B,  7607, 0xBAF10015, 57.46145, 106.7488, 386.0076, -0.9170582, 0, 0, -0.3987534,  True, '2019-02-10 00:00:00'); /* Ember */
+/* @teleloc 0xBAF10015 [57.461450 106.748800 386.007600] -0.917058 0.000000 0.000000 -0.398753 */

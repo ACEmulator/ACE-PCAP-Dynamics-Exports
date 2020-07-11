@@ -93,7 +93,11 @@ VALUES (0x7482C001, 0x7482C002, '2019-02-10 00:00:00') /* Grave Rat (35100) */
      , (0x7482C001, 0x7482C057, '2019-02-10 00:00:00') /* Exhumed Bones Piles (35251) */
      , (0x7482C001, 0x7482C058, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
      , (0x7482C001, 0x7482C059, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
-     , (0x7482C001, 0x7482C05A, '2019-02-10 00:00:00') /* Exhumed Bones Piles (35251) */;
+     , (0x7482C001, 0x7482C05A, '2019-02-10 00:00:00') /* Exhumed Bones Piles (35251) */
+     , (0x7482C001, 0x7482C05B, '2019-02-10 00:00:00') /* Exhumed Bones Piles (35251) */
+     , (0x7482C001, 0x7482C05C, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7482C001, 0x7482C05D, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x7482C001, 0x7482C05E, '2019-02-10 00:00:00') /* Pyre Minion (35099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7482C002, 35100, 0x482C0007, 4.440858, 157.99, 6.437691, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grave Rat */
@@ -452,12 +456,28 @@ VALUES (0x7482C05A, 35251, 0x482C000F, 47.7117, 164.0628, 3.52039, -0.26952, 0, 
 /* @teleloc 0x482C000F [47.711700 164.062800 3.520390] -0.269520 0.000000 0.000000 0.962995 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482C05B,  1542, 0x482C001D, 89.98726, 112.7767, 68, 0.01912044, 0, 0, -0.9998172, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7482C05B, 35251, 0x482C0017, 53.7843, 152.9044, 13.11008, -0.26952, 0, 0, 0.9629948,  True, '2019-02-10 00:00:00'); /* Exhumed Bones Piles */
+/* @teleloc 0x482C0017 [53.784300 152.904400 13.110080] -0.269520 0.000000 0.000000 0.962995 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7482C05C,  7982, 0x482C0017, 50.87242, 152.0183, 11.05062, 0.01912044, 0, 0, -0.9998172,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x482C0017 [50.872420 152.018300 11.050620] 0.019120 0.000000 0.000000 -0.999817 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7482C05D, 23563, 0x482C001D, 80.84158, 106.6769, 68.005, 0.01912044, 0, 0, -0.9998172,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x482C001D [80.841580 106.676900 68.005000] 0.019120 0.000000 0.000000 -0.999817 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7482C05E, 35099, 0x482C0010, 38.47704, 180.6355, 6.48916, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pyre Minion */
+/* @teleloc 0x482C0010 [38.477040 180.635500 6.489160] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7482C05F,  1542, 0x482C001D, 89.98726, 112.7767, 68, 0.01912044, 0, 0, -0.9998172, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x482C001D [89.987260 112.776700 68.000000] 0.019120 0.000000 0.000000 -0.999817 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7482C05B, 0x7482C05C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
+VALUES (0x7482C05F, 0x7482C060, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7482C05C,  8644, 0x482C001D, 89.98726, 112.7767, 68, 0.01912044, 0, 0, -0.9998172,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
+VALUES (0x7482C060,  8644, 0x482C001D, 89.98726, 112.7767, 68, 0.01912044, 0, 0, -0.9998172,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
 /* @teleloc 0x482C001D [89.987260 112.776700 68.000000] 0.019120 0.000000 0.000000 -0.999817 */

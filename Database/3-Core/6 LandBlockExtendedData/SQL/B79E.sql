@@ -19,7 +19,9 @@ VALUES (0x7B79E001, 0x7B79E002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
      , (0x7B79E001, 0x7B79E00D, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
      , (0x7B79E001, 0x7B79E00E, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
      , (0x7B79E001, 0x7B79E00F, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
-     , (0x7B79E001, 0x7B79E010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
+     , (0x7B79E001, 0x7B79E010, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7B79E001, 0x7B79E011, '2019-02-10 00:00:00') /* Russet Rat (4132) */
+     , (0x7B79E001, 0x7B79E012, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79E002,  4110, 0xB79E0019, 82.96146, 23.8617, 56.85235, -0.3381331, 0, 0, -0.9410983,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
@@ -80,3 +82,11 @@ VALUES (0x7B79E00F,   232, 0xB79E001D, 81.9286, 114.8646, 56.74967, 0.2588191, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B79E010,  4111, 0xB79E0036, 155.5391, 120, 51.02341, -0.9985104, 0, 0, -0.05456088,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
 /* @teleloc 0xB79E0036 [155.539100 120.000000 51.023410] -0.998510 0.000000 0.000000 -0.054561 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B79E011,  4132, 0xB79E0019, 92.03218, 20.30704, 56.44836, -0.3381331, 0, 0, -0.9410983,  True, '2019-02-10 00:00:00'); /* Russet Rat */
+/* @teleloc 0xB79E0019 [92.032180 20.307040 56.448360] -0.338133 0.000000 0.000000 -0.941098 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B79E012,   216, 0xB79E0029, 139.3939, 2.906739, 54.11261, 0.3853196, 0, 0, -0.9227832,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */
+/* @teleloc 0xB79E0029 [139.393900 2.906739 54.112610] 0.385320 0.000000 0.000000 -0.922783 */

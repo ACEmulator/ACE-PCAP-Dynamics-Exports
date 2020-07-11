@@ -31,8 +31,13 @@ VALUES (0x79E80006,  1542, 0x9E80002D, 136.2031, 108.8701, 55.40586, 0.200181, 0
 /* @teleloc 0x9E80002D [136.203100 108.870100 55.405860] 0.200181 0.000000 0.000000 -0.979759 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E80006, 0x79E80007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x79E80006, 0x79E80007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x79E80006, 0x79E80008, '2019-02-10 00:00:00') /* Sunflower (15715) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E80007,  8037, 0x9E80002D, 136.2031, 108.8701, 55.40586, 0.200181, 0, 0, -0.9797589,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0x9E80002D [136.203100 108.870100 55.405860] 0.200181 0.000000 0.000000 -0.979759 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79E80008, 15715, 0x9E800036, 155.5614, 136.4585, 56.40959, 0.1337769, 0, 0, -0.9910115,  True, '2019-02-10 00:00:00'); /* Sunflower */
+/* @teleloc 0x9E800036 [155.561400 136.458500 56.409590] 0.133777 0.000000 0.000000 -0.991012 */

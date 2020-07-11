@@ -23,7 +23,12 @@ VALUES (0x723E3001, 0x723E3002, '2019-02-10 00:00:00') /* Portobello Thrungus (2
      , (0x723E3001, 0x723E3011, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
      , (0x723E3001, 0x723E3012, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
      , (0x723E3001, 0x723E3013, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */
-     , (0x723E3001, 0x723E3014, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
+     , (0x723E3001, 0x723E3014, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x723E3001, 0x723E3015, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x723E3001, 0x723E3016, '2019-02-10 00:00:00') /* Beefsteak Thrungus (28678) */
+     , (0x723E3001, 0x723E3017, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x723E3001, 0x723E3018, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
+     , (0x723E3001, 0x723E3019, '2019-02-10 00:00:00') /* Ruschk Fiend (28670) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E3002, 28675, 0x23E30017, 71.91737, 160.892, 72.22989, 0.9717981, 0, 0, -0.2358143,  True, '2019-02-10 00:00:00'); /* Portobello Thrungus */
@@ -100,3 +105,23 @@ VALUES (0x723E3013, 28670, 0x23E3001E, 91.00653, 122.6319, 60.42272, -0.02069104
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E3014,  7992, 0x23E30018, 59.3154, 170.3323, 75.44836, 0.9717981, 0, 0, -0.2358143,  True, '2019-02-10 00:00:00'); /* Esper Ursuin */
 /* @teleloc 0x23E30018 [59.315400 170.332300 75.448360] 0.971798 0.000000 0.000000 -0.235814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E3015, 28678, 0x23E30016, 67.30743, 124.7079, 63.17697, -0.02069104, 0, 0, -0.9997859,  True, '2019-02-10 00:00:00'); /* Beefsteak Thrungus */
+/* @teleloc 0x23E30016 [67.307430 124.707900 63.176970] -0.020691 0.000000 0.000000 -0.999786 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E3016, 28678, 0x23E3001D, 93.6218, 119.7699, 60.19818, 0.09718464, 0, 0, -0.9952664,  True, '2019-02-10 00:00:00'); /* Beefsteak Thrungus */
+/* @teleloc 0x23E3001D [93.621800 119.769900 60.198180] 0.097185 0.000000 0.000000 -0.995266 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E3017,  1758, 0x23E30020, 92.92705, 170.129, 74.86492, -0.8937697, 0, 0, -0.4485262,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0x23E30020 [92.927050 170.129000 74.864920] -0.893770 0.000000 0.000000 -0.448526 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E3018,  7994, 0x23E3001F, 75.25677, 162.0979, 71.46068, 0.9717981, 0, 0, -0.2358143,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
+/* @teleloc 0x23E3001F [75.256770 162.097900 71.460680] 0.971798 0.000000 0.000000 -0.235814 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E3019, 28670, 0x23E3002D, 136.6147, 112.1692, 60.0066, -0.142892, 0, 0, -0.9897383,  True, '2019-02-10 00:00:00'); /* Ruschk Fiend */
+/* @teleloc 0x23E3002D [136.614700 112.169200 60.006600] -0.142892 0.000000 0.000000 -0.989738 */

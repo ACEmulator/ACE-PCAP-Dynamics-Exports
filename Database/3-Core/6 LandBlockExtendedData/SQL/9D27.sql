@@ -44,7 +44,8 @@ VALUES (0x79D27001, 0x79D27002, '2019-02-10 00:00:00') /* Gotrok Montok (24955) 
      , (0x79D27001, 0x79D27022, '2019-02-10 00:00:00') /* Dark Magus (7124) */
      , (0x79D27001, 0x79D27023, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
      , (0x79D27001, 0x79D27024, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
-     , (0x79D27001, 0x79D27025, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */;
+     , (0x79D27001, 0x79D27025, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79D27001, 0x79D27026, '2019-02-10 00:00:00') /* Relic Bones (7179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D27002, 24955, 0x9D270036, 144.109, 122.448, 246.2413, 0.0396465, 0, 0, 0.999214,  True, '2019-02-10 00:00:00'); /* Gotrok Montok */
@@ -189,3 +190,7 @@ VALUES (0x79D27024,  7107, 0x9D270014, 68.25571, 88.22531, 225.4778, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79D27025,  7107, 0x9D270014, 64.03188, 90.50549, 225.4778, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
 /* @teleloc 0x9D270014 [64.031880 90.505490 225.477800] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79D27026,  7179, 0x9D27001D, 80.15741, 104.9253, 229.539, 0.5123298, 0, 0, -0.8587888,  True, '2019-02-10 00:00:00'); /* Relic Bones */
+/* @teleloc 0x9D27001D [80.157410 104.925300 229.539000] 0.512330 0.000000 0.000000 -0.858789 */

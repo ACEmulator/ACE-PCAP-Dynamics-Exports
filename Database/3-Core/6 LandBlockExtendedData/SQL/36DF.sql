@@ -14,7 +14,8 @@ VALUES (0x736DF002,  1154, 0x36DF0011, 53.25285, 0.2885742, 1.960952, -0.9711986
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x736DF002, 0x736DF003, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
-     , (0x736DF002, 0x736DF004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
+     , (0x736DF002, 0x736DF004, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x736DF002, 0x736DF005, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736DF003,  4110, 0x36DF0011, 53.25285, 0.2885742, 1.960952, -0.9711986, 0, 0, -0.2382715,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
@@ -23,3 +24,7 @@ VALUES (0x736DF003,  4110, 0x36DF0011, 53.25285, 0.2885742, 1.960952, -0.9711986
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736DF004,   192, 0x36DF0012, 54.23373, 31.40267, 0.003499985, -0.9711986, 0, 0, -0.2382715,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
 /* @teleloc 0x36DF0012 [54.233730 31.402670 0.003500] -0.971199 0.000000 0.000000 -0.238272 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736DF005,     6, 0x36DF0012, 49.4556, 25.37653, 0.007149994, -0.9711986, 0, 0, -0.2382715,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
+/* @teleloc 0x36DF0012 [49.455600 25.376530 0.007150] -0.971199 0.000000 0.000000 -0.238272 */

@@ -15,7 +15,8 @@ VALUES (0x7898A001, 0x7898A002, '2019-02-10 00:00:00') /* High Tumerok (226) */
      , (0x7898A001, 0x7898A009, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7898A001, 0x7898A00A, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7898A001, 0x7898A00B, '2019-02-10 00:00:00') /* Granite Golem (195) */
-     , (0x7898A001, 0x7898A00C, '2019-02-10 00:00:00') /* Granite Golem (195) */;
+     , (0x7898A001, 0x7898A00C, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7898A001, 0x7898A00D, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7898A002,   226, 0x898A0007, 10.68143, 164.4828, 83.94348, 0.8680881, 0, 0, -0.4964102,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -60,3 +61,7 @@ VALUES (0x7898A00B,   195, 0x898A002D, 142.8639, 116.4113, 70.40473, 0.1736482, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7898A00C,   195, 0x898A002E, 143.5937, 121.8544, 70.35392, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Granite Golem */
 /* @teleloc 0x898A002E [143.593700 121.854400 70.353920] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7898A00D,   217, 0x898A0007, 1.03355, 153.3348, 84.04401, 0.8680881, 0, 0, -0.4964102,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
+/* @teleloc 0x898A0007 [1.033550 153.334800 84.044010] 0.868088 0.000000 0.000000 -0.496410 */

@@ -37,6 +37,10 @@ VALUES (0x7028601B,   278, 0x0286016A, 34.75, -30, -18, -0.707107, 0, 0, 0.70710
 /* @teleloc 0x0286016A [34.750000 -30.000000 -18.000000] -0.707107 0.000000 0.000000 0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7028601C,   278, 0x0286016B, 30, -34.75, -18, -4.37114E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0x0286016B [30.000000 -34.750000 -18.000000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028601E,   278, 0x02860178, 25.25, -60, -18, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x02860178 [25.250000 -60.000000 -18.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
@@ -432,7 +436,11 @@ VALUES (0x7028609B, 0x7028609C, '2019-02-10 00:00:00') /* Shore Armoredillo (256
      , (0x7028609B, 0x702860D8, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x7028609B, 0x702860D9, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x7028609B, 0x702860DA, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
-     , (0x7028609B, 0x702860DB, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
+     , (0x7028609B, 0x702860DB, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x7028609B, 0x702860DC, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x7028609B, 0x702860DD, '2019-02-10 00:00:00') /* Hea Hunter (11518) */
+     , (0x7028609B, 0x702860DE, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */
+     , (0x7028609B, 0x702860DF, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7028609C,  2565, 0x028602FB, 82.4971, -89.6865, 0.01050007, -0.886871, 0, 0, -0.462017,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */
@@ -689,3 +697,19 @@ VALUES (0x702860DA, 11518, 0x02860103, 133.217, -11.8703, -29.9945, 0.810503, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702860DB,  9257, 0x02860147, 160.923, -40.2109, -23.9984, -0.317779, 0, 0, 0.948165,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
 /* @teleloc 0x02860147 [160.923000 -40.210900 -23.998400] -0.317779 0.000000 0.000000 0.948165 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702860DC, 11518, 0x0286010A, 153.6649, -3.521619, -29.9945, 0.413563, 0, 0, -0.910475,  True, '2019-02-10 00:00:00'); /* Hea Hunter */
+/* @teleloc 0x0286010A [153.664900 -3.521619 -29.994500] 0.413563 0.000000 0.000000 -0.910475 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702860DD, 11518, 0x02860110, 167.525, -17.231, -29.9945, 0.0810211, 0, 0, 0.996712,  True, '2019-02-10 00:00:00'); /* Hea Hunter */
+/* @teleloc 0x02860110 [167.525000 -17.231000 -29.994500] 0.081021 0.000000 0.000000 0.996712 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702860DE,  2565, 0x0286014E, 159.778, -66.7978, -23.9895, -0.05690198, 0, 0, -0.9983798,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */
+/* @teleloc 0x0286014E [159.778000 -66.797800 -23.989500] -0.056902 0.000000 0.000000 -0.998380 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702860DF,  2565, 0x0286028F, -1.22484, -97.6354, -5.9895, 0.474228, 0, 0, -0.880402,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */
+/* @teleloc 0x0286028F [-1.224840 -97.635400 -5.989500] 0.474228 0.000000 0.000000 -0.880402 */

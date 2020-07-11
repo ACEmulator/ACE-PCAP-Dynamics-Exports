@@ -54,7 +54,8 @@ VALUES (0x7DF50001, 0x7DF50002, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7DF50001, 0x7DF50030, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
      , (0x7DF50001, 0x7DF50031, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7DF50001, 0x7DF50032, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
-     , (0x7DF50001, 0x7DF50033, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
+     , (0x7DF50001, 0x7DF50033, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DF50001, 0x7DF50034, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF50002,  1759, 0xDF500019, 79.4889, 4.497378, 19.62772, 0.7929477, 0, 0, -0.6092897,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -255,3 +256,7 @@ VALUES (0x7DF50032,   192, 0xDF500005, 3.674009, 117.3085, 17.69733, -0.9443218,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF50033,  4110, 0xDF500005, 5.133041, 115.2811, 17.55725, -0.9443218, 0, 0, -0.3290233,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
 /* @teleloc 0xDF500005 [5.133041 115.281100 17.557250] -0.944322 0.000000 0.000000 -0.329023 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DF50034,   192, 0xDF500014, 53.22509, 91.70142, 17.56808, -0.7500234, 0, 0, -0.6614113,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0xDF500014 [53.225090 91.701420 17.568080] -0.750023 0.000000 0.000000 -0.661411 */

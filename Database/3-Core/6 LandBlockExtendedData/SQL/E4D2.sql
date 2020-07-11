@@ -28,7 +28,12 @@ VALUES (0x7E4D2001, 0x7E4D2002, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
      , (0x7E4D2001, 0x7E4D2016, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
      , (0x7E4D2001, 0x7E4D2017, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
      , (0x7E4D2001, 0x7E4D2018, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
-     , (0x7E4D2001, 0x7E4D2019, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */;
+     , (0x7E4D2001, 0x7E4D2019, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x7E4D2001, 0x7E4D201A, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D2001, 0x7E4D201B, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7E4D2001, 0x7E4D201C, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */
+     , (0x7E4D2001, 0x7E4D201D, '2019-02-10 00:00:00') /* Sand Lurker (40471) */
+     , (0x7E4D2001, 0x7E4D201E, '2019-02-10 00:00:00') /* Aggressive Swarm (31849) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D2002, 40471, 0xE4D2000D, 33.46161, 104.083, -0.09880006, 0.06980634, 0, 0, -0.9975606,  True, '2019-02-10 00:00:00'); /* Sand Lurker */
@@ -125,3 +130,23 @@ VALUES (0x7E4D2018, 40289, 0xE4D2000D, 34.19808, 106.5499, -0.08899999, 0.069806
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E4D2019, 40479, 0xE4D2000D, 32.29419, 100.5692, -0.09439999, 0.06980634, 0, 0, -0.9975606,  True, '2019-02-10 00:00:00'); /* Maguth Moarsman */
 /* @teleloc 0xE4D2000D [32.294190 100.569200 -0.094400] 0.069806 0.000000 0.000000 -0.997561 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E4D201A, 40471, 0xE4D20005, 21.86681, 105.3849, -0.09880006, 0.06980634, 0, 0, -0.9975606,  True, '2019-02-10 00:00:00'); /* Sand Lurker */
+/* @teleloc 0xE4D20005 [21.866810 105.384900 -0.098800] 0.069806 0.000000 0.000000 -0.997561 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E4D201B, 40289, 0xE4D20001, 6.074905, 8.826716, -0.08899999, 0.7264926, 0, 0, -0.6871743,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xE4D20001 [6.074905 8.826716 -0.089000] 0.726493 0.000000 0.000000 -0.687174 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E4D201C, 31849, 0xE4D20012, 61.22477, 45.03396, -0.445, -0.4553806, 0, 0, -0.8902969,  True, '2019-02-10 00:00:00'); /* Aggressive Swarm */
+/* @teleloc 0xE4D20012 [61.224770 45.033960 -0.445000] -0.455381 0.000000 0.000000 -0.890297 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E4D201D, 40471, 0xE4D20013, 61.10735, 53.74238, -0.4488, -0.4553806, 0, 0, -0.8902969,  True, '2019-02-10 00:00:00'); /* Sand Lurker */
+/* @teleloc 0xE4D20013 [61.107350 53.742380 -0.448800] -0.455381 0.000000 0.000000 -0.890297 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E4D201E, 31849, 0xE4D20005, 17.8446, 108.3019, -0.445, 0.06980634, 0, 0, -0.9975606,  True, '2019-02-10 00:00:00'); /* Aggressive Swarm */
+/* @teleloc 0xE4D20005 [17.844600 108.301900 -0.445000] 0.069806 0.000000 0.000000 -0.997561 */

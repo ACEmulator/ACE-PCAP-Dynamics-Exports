@@ -120,7 +120,57 @@ VALUES (0x77208001, 0x77208002, '2019-02-10 00:00:00') /* Small Sand Golem (2451
      , (0x77208001, 0x77208072, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
      , (0x77208001, 0x77208073, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
      , (0x77208001, 0x77208074, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
-     , (0x77208001, 0x77208075, '2019-02-10 00:00:00') /* Small Water Golem (24485) */;
+     , (0x77208001, 0x77208075, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208076, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208077, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208078, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x77208079, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720807A, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x7720807B, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x7720807C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x7720807D, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x7720807E, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720807F, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x77208080, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x77208081, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x77208082, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208083, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x77208084, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208085, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x77208086, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x77208087, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x77208088, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x77208089, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x7720808A, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x7720808B, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x7720808C, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x7720808D, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x7720808E, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720808F, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x77208090, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208091, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x77208092, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x77208093, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x77208094, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x77208095, '2019-02-10 00:00:00') /* Small Coral Golem (34263) */
+     , (0x77208001, 0x77208096, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208097, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208098, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x77208099, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720809A, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720809B, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720809C, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x7720809D, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x7720809E, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x7720809F, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x772080A0, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x772080A1, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x772080A2, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
+     , (0x77208001, 0x772080A3, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x772080A4, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x772080A5, '2019-02-10 00:00:00') /* Small Water Golem (24485) */
+     , (0x77208001, 0x772080A6, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */
+     , (0x77208001, 0x772080A7, '2019-02-10 00:00:00') /* Small Sand Golem (24517) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77208002, 24517, 0x7208001F, 74.23935, 144.7659, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
@@ -585,3 +635,203 @@ VALUES (0x77208074, 24485, 0x7208001F, 77.02407, 146.576, -0.0975, 0.9984347, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77208075, 24485, 0x72080010, 32.01954, 183.66, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
 /* @teleloc 0x72080010 [32.019540 183.660000 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208076, 24485, 0x7208000F, 44.96381, 144.6355, -0.8975, 0.9799243, 0, 0, -0.19937,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x7208000F [44.963810 144.635500 -0.897500] 0.979924 0.000000 0.000000 -0.199370 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208077, 24485, 0x72080017, 67.26509, 145.7137, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080017 [67.265090 145.713700 -0.097500] 0.998435 0.000000 0.000000 -0.055930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208078, 24517, 0x72080017, 71.93916, 156.5964, -0.4475001, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080017 [71.939160 156.596400 -0.447500] 0.998435 0.000000 0.000000 -0.055930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208079, 24517, 0x72080008, 12.15346, 190.2088, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080008 [12.153460 190.208800 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720807A, 24485, 0x72080008, 12.06092, 183.0625, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [12.060920 183.062500 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720807B, 24478, 0x72080008, 23.34085, 187.084, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [23.340850 187.084000 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720807C, 24485, 0x72080008, 16.19076, 188.9137, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [16.190760 188.913700 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720807D, 24485, 0x7208001F, 79.18765, 145.6605, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x7208001F [79.187650 145.660500 -0.097500] 0.998435 0.000000 0.000000 -0.055930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720807E, 24517, 0x72080008, 22.74011, 191.6002, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080008 [22.740110 191.600200 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720807F, 24478, 0x72080008, 9.547668, 177.2859, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [9.547668 177.285900 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208080, 24478, 0x72080008, 19.76205, 191.9581, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [19.762050 191.958100 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208081, 24478, 0x72080010, 30.18242, 184.5663, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080010 [30.182420 184.566300 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208082, 24485, 0x72080008, 16.77297, 176.4141, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [16.772970 176.414100 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208083, 24517, 0x72080010, 36.47726, 187.9923, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [36.477260 187.992300 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208084, 24485, 0x72080008, 16.37478, 183.9041, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [16.374780 183.904100 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208085, 34263, 0x72080008, 12.22766, 183.8351, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [12.227660 183.835100 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208086, 34263, 0x72080008, 21.82578, 190.2255, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [21.825780 190.225500 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208087, 34263, 0x72080008, 19.16357, 182.5566, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [19.163570 182.556600 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208088, 34263, 0x72080008, 22.10796, 184.1855, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [22.107960 184.185500 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208089, 24478, 0x72080008, 23.13933, 190.3613, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [23.139330 190.361300 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720808A, 24478, 0x72080008, 11.31194, 188.3353, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [11.311940 188.335300 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720808B, 34263, 0x72080008, 18.93647, 174.8583, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [18.936470 174.858300 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720808C, 24485, 0x72080008, 11.78187, 186.0941, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [11.781870 186.094100 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720808D, 24485, 0x72080008, 17.25925, 179.6386, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [17.259250 179.638600 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720808E, 24517, 0x72080008, 19.6508, 182.1084, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080008 [19.650800 182.108400 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720808F, 24478, 0x72080008, 19.2111, 187.367, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [19.211100 187.367000 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208090, 24485, 0x72080008, 14.45064, 191.8988, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080008 [14.450640 191.898800 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208091, 24478, 0x72080008, 5.401332, 191.7766, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080008 [5.401332 191.776600 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208092, 24517, 0x72080008, 19.20081, 191.7355, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080008 [19.200810 191.735500 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208093, 24517, 0x72080010, 30.39151, 185.7749, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [30.391510 185.774900 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208094, 34263, 0x72080010, 35.79004, 178.466, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080010 [35.790040 178.466000 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208095, 34263, 0x72080010, 37.80882, 185.7579, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080010 [37.808820 185.757900 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208096, 24485, 0x72080010, 25.63032, 181.5191, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080010 [25.630320 181.519100 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208097, 24485, 0x72080010, 29.11185, 187.1738, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080010 [29.111850 187.173800 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208098, 24485, 0x72080010, 35.02571, 185.7496, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x72080010 [35.025710 185.749600 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77208099, 24517, 0x72080010, 26.31032, 187.5031, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [26.310320 187.503100 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720809A, 24517, 0x72080010, 37.29858, 182.3648, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [37.298580 182.364800 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720809B, 24517, 0x72080010, 31.76226, 172.9402, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [31.762260 172.940200 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720809C, 24517, 0x72080010, 24.82334, 191.691, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [24.823340 191.691000 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720809D, 24478, 0x72080010, 28.98457, 187.3126, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080010 [28.984570 187.312600 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720809E, 24478, 0x72080010, 26.59305, 180.8518, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080010 [26.593050 180.851800 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7720809F, 24517, 0x72080010, 36.84009, 190.2212, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [36.840090 190.221200 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A0, 24517, 0x72080010, 40.00028, 183.7238, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [40.000280 183.723800 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A1, 24517, 0x72080010, 33.80921, 174.9521, -0.4475001, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [33.809210 174.952100 -0.447500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A2, 24478, 0x72080010, 26.06196, 191.7412, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
+/* @teleloc 0x72080010 [26.061960 191.741200 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A3, 24517, 0x72080010, 29.27967, 187.9454, -0.0975, 0.9680079, 0, 0, -0.25092,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x72080010 [29.279670 187.945400 -0.097500] 0.968008 0.000000 0.000000 -0.250920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A4, 24485, 0x7208001F, 81.20557, 151.3743, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x7208001F [81.205570 151.374300 -0.097500] 0.998435 0.000000 0.000000 -0.055930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A5, 24485, 0x7208001F, 88.01528, 146.7966, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Water Golem */
+/* @teleloc 0x7208001F [88.015280 146.796600 -0.097500] 0.998435 0.000000 0.000000 -0.055930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A6, 24517, 0x7208001F, 85.95168, 144.7962, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x7208001F [85.951680 144.796200 -0.097500] 0.998435 0.000000 0.000000 -0.055930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x772080A7, 24517, 0x7208001F, 93.43257, 153.3153, -0.0975, 0.9984347, 0, 0, -0.05592958,  True, '2019-02-10 00:00:00'); /* Small Sand Golem */
+/* @teleloc 0x7208001F [93.432570 153.315300 -0.097500] 0.998435 0.000000 0.000000 -0.055930 */

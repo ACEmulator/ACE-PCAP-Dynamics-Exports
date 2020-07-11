@@ -110,7 +110,13 @@ VALUES (0x7060C001, 0x7060C002, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x7060C001, 0x7060C068, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
      , (0x7060C001, 0x7060C069, '2019-02-10 00:00:00') /* Ravager (25852) */
      , (0x7060C001, 0x7060C06A, '2019-02-10 00:00:00') /* Ravager (25852) */
-     , (0x7060C001, 0x7060C06B, '2019-02-10 00:00:00') /* Ravager (25852) */;
+     , (0x7060C001, 0x7060C06B, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x7060C001, 0x7060C06C, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x7060C001, 0x7060C06D, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x7060C001, 0x7060C06E, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x7060C001, 0x7060C06F, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x7060C001, 0x7060C070, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7060C001, 0x7060C071, '2019-02-10 00:00:00') /* Biaka (25859) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7060C002, 25863, 0x060C0033, 163.4747, 62.89973, 90.34898, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
@@ -535,3 +541,27 @@ VALUES (0x7060C06A, 25852, 0x060C0020, 77.54147, 177.7371, 24.72679, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7060C06B, 25852, 0x060C0020, 82.21912, 169.5918, 25.01576, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
 /* @teleloc 0x060C0020 [82.219120 169.591800 25.015760] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060C06C, 31400, 0x060C0033, 160.8995, 62.77679, 99.76699, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x060C0033 [160.899500 62.776790 99.766990] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060C06D, 31400, 0x060C0033, 155.753, 63.98182, 99.76699, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x060C0033 [155.753000 63.981820 99.766990] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060C06E, 31402, 0x060C0033, 152.539, 57.75359, 99.76699, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x060C0033 [152.539000 57.753590 99.766990] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060C06F, 25871, 0x060C0020, 82.65041, 180.5924, 24.0731, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+/* @teleloc 0x060C0020 [82.650410 180.592400 24.073100] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060C070, 25859, 0x060C0027, 103.7569, 145.766, 38.83243, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x060C0027 [103.756900 145.766000 38.832430] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060C071, 25859, 0x060C0027, 100.2341, 146.4666, 39.18768, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x060C0027 [100.234100 146.466600 39.187680] 1.000000 0.000000 0.000000 0.000000 */

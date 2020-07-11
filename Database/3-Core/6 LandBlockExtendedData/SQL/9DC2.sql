@@ -33,8 +33,13 @@ VALUES (0x79DC2006,  1542, 0x9DC20030, 130.1165, 179.3241, 37.02571, 0.7300292, 
 /* @teleloc 0x9DC20030 [130.116500 179.324100 37.025710] 0.730029 0.000000 0.000000 -0.683416 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DC2006, 0x79DC2007, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
+VALUES (0x79DC2006, 0x79DC2007, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x79DC2006, 0x79DC2008, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DC2007, 31686, 0x9DC20030, 130.1165, 179.3241, 37.02571, 0.7300292, 0, 0, -0.683416,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */
 /* @teleloc 0x9DC20030 [130.116500 179.324100 37.025710] 0.730029 0.000000 0.000000 -0.683416 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DC2008,  1955, 0x9DC2002D, 122.1437, 97.13725, 27.837, -0.7732086, 0, 0, -0.6341518,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x9DC2002D [122.143700 97.137250 27.837000] -0.773209 0.000000 0.000000 -0.634152 */

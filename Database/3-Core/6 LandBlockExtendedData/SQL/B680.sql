@@ -17,7 +17,8 @@ VALUES (0x7B680001, 0x7B680002, '2019-02-10 00:00:00') /* Vorous Shreth (4112) *
      , (0x7B680001, 0x7B68000B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
      , (0x7B680001, 0x7B68000C, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
      , (0x7B680001, 0x7B68000D, '2019-02-10 00:00:00') /* Skeleton Warrior (1760) */
-     , (0x7B680001, 0x7B68000E, '2019-02-10 00:00:00') /* Auroch Cow (181) */;
+     , (0x7B680001, 0x7B68000E, '2019-02-10 00:00:00') /* Auroch Cow (181) */
+     , (0x7B680001, 0x7B68000F, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B680002,  4112, 0xB680001D, 82.39419, 102.9383, 28.27146, -0.9789332, 0, 0, -0.2041809,  True, '2019-02-10 00:00:00'); /* Vorous Shreth */
@@ -70,3 +71,7 @@ VALUES (0x7B68000D,  1760, 0xB680003F, 187.0381, 167.5797, 24.41599, 0.1507863, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B68000E,   181, 0xB680003D, 188.0006, 114.7519, 24.0085, 0.9989622, 0, 0, -0.04554623,  True, '2019-02-10 00:00:00'); /* Auroch Cow */
 /* @teleloc 0xB680003D [188.000600 114.751900 24.008500] 0.998962 0.000000 0.000000 -0.045546 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B68000F,  1612, 0xB6800012, 66.34417, 27.86493, 29.68242, -0.4893162, 0, 0, -0.8721064,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */
+/* @teleloc 0xB6800012 [66.344170 27.864930 29.682420] -0.489316 0.000000 0.000000 -0.872106 */

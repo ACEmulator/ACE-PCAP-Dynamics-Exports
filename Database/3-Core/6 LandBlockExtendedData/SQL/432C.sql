@@ -12,7 +12,9 @@ VALUES (0x7432C001, 0x7432C002, '2019-02-10 00:00:00') /* Diamond Golem (36830) 
      , (0x7432C001, 0x7432C006, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
      , (0x7432C001, 0x7432C007, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
      , (0x7432C001, 0x7432C008, '2019-02-10 00:00:00') /* Virindi Inquisitor (10814) */
-     , (0x7432C001, 0x7432C009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */;
+     , (0x7432C001, 0x7432C009, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x7432C001, 0x7432C00A, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x7432C001, 0x7432C00B, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432C002, 36830, 0x432C000C, 42.93002, 76.36578, 66, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
@@ -45,3 +47,11 @@ VALUES (0x7432C008, 10814, 0x432C0010, 41.22171, 174.1608, 2.593858, 0.7604809, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7432C009,  9264, 0x432C0010, 42.91404, 174.0388, 2.45283, 0.7604809, 0, 0, -0.6493603,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
 /* @teleloc 0x432C0010 [42.914040 174.038800 2.452830] 0.760481 0.000000 0.000000 -0.649360 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7432C00A, 21551, 0x432C003B, 191.6572, 49.77795, 2.0065, -0.3077153, 0, 0, -0.9514785,  True, '2019-02-10 00:00:00'); /* Strife Wisp */
+/* @teleloc 0x432C003B [191.657200 49.777950 2.006500] -0.307715 0.000000 0.000000 -0.951479 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7432C00B,  7340, 0x432C0019, 75.20873, 2.441513, 66.029, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+/* @teleloc 0x432C0019 [75.208730 2.441513 66.029000] 0.965926 0.000000 0.000000 -0.258819 */

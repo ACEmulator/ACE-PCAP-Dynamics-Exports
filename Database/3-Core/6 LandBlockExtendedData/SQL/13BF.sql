@@ -11,7 +11,10 @@ VALUES (0x713BF001, 0x713BF002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) *
      , (0x713BF001, 0x713BF005, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
      , (0x713BF001, 0x713BF006, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
      , (0x713BF001, 0x713BF007, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
-     , (0x713BF001, 0x713BF008, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */;
+     , (0x713BF001, 0x713BF008, '2019-02-10 00:00:00') /* Sable Gromnie (11527) */
+     , (0x713BF001, 0x713BF009, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x713BF001, 0x713BF00A, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x713BF001, 0x713BF00B, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713BF002, 11526, 0x13BF003F, 173.1899, 156.4874, 35.2344, -0.2329644, 0, 0, -0.9724852,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -40,3 +43,15 @@ VALUES (0x713BF007, 11527, 0x13BF003F, 187.2583, 145.7533, 31.43946, -0.2329644,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x713BF008, 11527, 0x13BF003F, 176.6529, 146.9503, 34.87485, -0.2329644, 0, 0, -0.9724852,  True, '2019-02-10 00:00:00'); /* Sable Gromnie */
 /* @teleloc 0x13BF003F [176.652900 146.950300 34.874850] -0.232964 0.000000 0.000000 -0.972485 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x713BF009, 11526, 0x13BF0040, 172.371, 170.6613, 34.46868, -0.2329644, 0, 0, -0.9724852,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+/* @teleloc 0x13BF0040 [172.371000 170.661300 34.468680] -0.232964 0.000000 0.000000 -0.972485 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x713BF00A, 11526, 0x13BF0040, 175.9883, 169.1674, 33.81336, -0.2329644, 0, 0, -0.9724852,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+/* @teleloc 0x13BF0040 [175.988300 169.167400 33.813360] -0.232964 0.000000 0.000000 -0.972485 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x713BF00B, 11526, 0x13BF0040, 175.0579, 177.5599, 32.64721, -0.2329644, 0, 0, -0.9724852,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+/* @teleloc 0x13BF0040 [175.057900 177.559900 32.647210] -0.232964 0.000000 0.000000 -0.972485 */

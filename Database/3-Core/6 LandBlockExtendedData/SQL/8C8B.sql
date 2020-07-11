@@ -30,7 +30,11 @@ VALUES (0x78C8B001, 0x78C8B002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
      , (0x78C8B001, 0x78C8B018, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
      , (0x78C8B001, 0x78C8B019, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
      , (0x78C8B001, 0x78C8B01A, '2019-02-10 00:00:00') /* Banderling Striker (7345) */
-     , (0x78C8B001, 0x78C8B01B, '2019-02-10 00:00:00') /* Granite Golem (195) */;
+     , (0x78C8B001, 0x78C8B01B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78C8B001, 0x78C8B01C, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x78C8B001, 0x78C8B01D, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78C8B001, 0x78C8B01E, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x78C8B001, 0x78C8B01F, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78C8B002,  1630, 0x8C8B0012, 60.70184, 25.58593, 65.19815, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -137,12 +141,28 @@ VALUES (0x78C8B01B,   195, 0x8C8B003A, 170.3828, 28.98214, 46.20956, -0.4932072,
 /* @teleloc 0x8C8B003A [170.382800 28.982140 46.209560] -0.493207 0.000000 0.000000 -0.869912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78C8B01C,  1542, 0x8C8B003E, 187.1508, 127.9057, 57.41285, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78C8B01C,  5497, 0x8C8B0006, 4.0113, 128.5282, 63.40707, -0.8453082, 0, 0, -0.534279,  True, '2019-02-10 00:00:00'); /* Virindi Director */
+/* @teleloc 0x8C8B0006 [4.011300 128.528200 63.407070] -0.845308 0.000000 0.000000 -0.534279 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78C8B01D,   195, 0x8C8B0030, 129.2127, 179.9636, 73.94313, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0x8C8B0030 [129.212700 179.963600 73.943130] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78C8B01E,   195, 0x8C8B0030, 136.2154, 178.2427, 72.16198, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0x8C8B0030 [136.215400 178.242700 72.161980] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78C8B01F,  1630, 0x8C8B0036, 162.4568, 135.0381, 59.61475, -0.703959, 0, 0, -0.7102406,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+/* @teleloc 0x8C8B0036 [162.456800 135.038100 59.614750] -0.703959 0.000000 0.000000 -0.710241 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78C8B020,  1542, 0x8C8B003E, 187.1508, 127.9057, 57.41285, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x8C8B003E [187.150800 127.905700 57.412850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78C8B01C, 0x78C8B01D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
+VALUES (0x78C8B020, 0x78C8B021, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78C8B01D, 31443, 0x8C8B003E, 187.1508, 127.9057, 57.41285, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x78C8B021, 31443, 0x8C8B003E, 187.1508, 127.9057, 57.41285, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0x8C8B003E [187.150800 127.905700 57.412850] 1.000000 0.000000 0.000000 0.000000 */

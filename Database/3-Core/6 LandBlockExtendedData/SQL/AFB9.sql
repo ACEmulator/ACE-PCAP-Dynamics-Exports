@@ -10,7 +10,8 @@ VALUES (0x7AFB9001, 0x7AFB9002, '2019-02-10 00:00:00') /* Broken Fragment (8010)
      , (0x7AFB9001, 0x7AFB9004, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
      , (0x7AFB9001, 0x7AFB9005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
      , (0x7AFB9001, 0x7AFB9006, '2019-02-10 00:00:00') /* Auroch Bull (20) */
-     , (0x7AFB9001, 0x7AFB9007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */;
+     , (0x7AFB9001, 0x7AFB9007, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7AFB9001, 0x7AFB9008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB9002,  8010, 0xAFB90032, 148.7482, 44.03203, 126.4457, 0.9655221, 0, 0, -0.2603213,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
@@ -35,3 +36,7 @@ VALUES (0x7AFB9006,    20, 0xAFB90024, 106.9227, 84.32688, 117.7753, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AFB9007,  8010, 0xAFB90005, 4.722168, 98.12824, 106.0238, -0.5669756, 0, 0, -0.8237346,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
 /* @teleloc 0xAFB90005 [4.722168 98.128240 106.023800] -0.566976 0.000000 0.000000 -0.823735 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AFB9008,  2612, 0xAFB90039, 185.2382, 18.50443, 128.5131, 0.7747744, 0, 0, -0.6322378,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
+/* @teleloc 0xAFB90039 [185.238200 18.504430 128.513100] 0.774774 0.000000 0.000000 -0.632238 */

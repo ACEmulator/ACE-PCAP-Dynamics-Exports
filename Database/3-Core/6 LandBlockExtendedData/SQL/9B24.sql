@@ -10,7 +10,8 @@ VALUES (0x79B24001, 0x79B24002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (
      , (0x79B24001, 0x79B24004, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
      , (0x79B24001, 0x79B24005, '2019-02-10 00:00:00') /* Dark Magus (7124) */
      , (0x79B24001, 0x79B24006, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
-     , (0x79B24001, 0x79B24007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
+     , (0x79B24001, 0x79B24007, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x79B24001, 0x79B24008, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B24002,  7334, 0x9B240007, 11.03251, 166.7969, 90.92188, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -37,22 +38,26 @@ VALUES (0x79B24007,  4254, 0x9B240008, 16.76605, 187.9387, 89.73962, 0.9238795, 
 /* @teleloc 0x9B240008 [16.766050 187.938700 89.739620] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B24008,  1542, 0x9B24002C, 139.1547, 87.10355, 83.48273, -0.2224169, 0, 0, -0.9749516, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79B24008,  8968, 0x9B240034, 158.1307, 87.61065, 88.11095, -0.2224169, 0, 0, -0.9749516,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
+/* @teleloc 0x9B240034 [158.130700 87.610650 88.110950] -0.222417 0.000000 0.000000 -0.974952 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79B24009,  1542, 0x9B24002C, 139.1547, 87.10355, 83.48273, -0.2224169, 0, 0, -0.9749516, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9B24002C [139.154700 87.103550 83.482730] -0.222417 0.000000 0.000000 -0.974952 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79B24008, 0x79B24009, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
-     , (0x79B24008, 0x79B2400A, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x79B24008, 0x79B2400B, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x79B24009, 0x79B2400A, '2019-02-10 00:00:00') /* Hennacin Plant (8039) */
+     , (0x79B24009, 0x79B2400B, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x79B24009, 0x79B2400C, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B24009,  8039, 0x9B24002C, 139.1547, 87.10355, 83.48273, -0.2224169, 0, 0, -0.9749516,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */
+VALUES (0x79B2400A,  8039, 0x9B24002C, 139.1547, 87.10355, 83.48273, -0.2224169, 0, 0, -0.9749516,  True, '2019-02-10 00:00:00'); /* Hennacin Plant */
 /* @teleloc 0x9B24002C [139.154700 87.103550 83.482730] -0.222417 0.000000 0.000000 -0.974952 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B2400A,  4380, 0x9B240007, 11.65612, 167.1302, 90.97134, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x79B2400B,  4380, 0x9B240007, 11.65612, 167.1302, 90.97134, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x9B240007 [11.656120 167.130200 90.971340] 0.991445 0.000000 0.000000 -0.130526 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79B2400B,  4180, 0x9B240008, 14.24048, 171.5994, 90.88675, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x79B2400C,  4180, 0x9B240008, 14.24048, 171.5994, 90.88675, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x9B240008 [14.240480 171.599400 90.886750] 0.923880 0.000000 0.000000 -0.382684 */

@@ -30,7 +30,11 @@ VALUES (0x78ED4001, 0x78ED4002, '2019-02-10 00:00:00') /* Mighty Oak Golem (2646
      , (0x78ED4001, 0x78ED4018, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
      , (0x78ED4001, 0x78ED4019, '2019-02-10 00:00:00') /* Basalt Golem (11994) */
      , (0x78ED4001, 0x78ED401A, '2019-02-10 00:00:00') /* Shivver (14518) */
-     , (0x78ED4001, 0x78ED401B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
+     , (0x78ED4001, 0x78ED401B, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x78ED4001, 0x78ED401C, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
+     , (0x78ED4001, 0x78ED401D, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78ED4001, 0x78ED401E, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
+     , (0x78ED4001, 0x78ED401F, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78ED4002, 26468, 0x8ED4003A, 191.7901, 31.99836, 489.3089, 0.04940544, 0, 0, -0.9987788,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -137,12 +141,28 @@ VALUES (0x78ED401B,  7090, 0x8ED4001E, 74.863, 125.5577, 401.2538, 1, 0, 0, 0,  
 /* @teleloc 0x8ED4001E [74.863000 125.557700 401.253800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78ED401C,  1542, 0x8ED4003A, 178.2352, 43.4733, 483.2148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x78ED401C,  7088, 0x8ED4003A, 170.4296, 35.66601, 481.222, 0.04940544, 0, 0, -0.9987788,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+/* @teleloc 0x8ED4003A [170.429600 35.666010 481.222000] 0.049405 0.000000 0.000000 -0.998779 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED401D,  7085, 0x8ED4003B, 178.9424, 69.6081, 483.5785, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
+/* @teleloc 0x8ED4003B [178.942400 69.608100 483.578500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED401E,  7085, 0x8ED4003B, 187.9812, 69.34654, 483.3374, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
+/* @teleloc 0x8ED4003B [187.981200 69.346540 483.337400] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED401F,  7345, 0x8ED4003C, 185.9645, 72.40969, 483.001, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
+/* @teleloc 0x8ED4003C [185.964500 72.409690 483.001000] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78ED4020,  1542, 0x8ED4003A, 178.2352, 43.4733, 483.2148, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x8ED4003A [178.235200 43.473300 483.214800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78ED401C, 0x78ED401D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
+VALUES (0x78ED4020, 0x78ED4021, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78ED401D, 22567, 0x8ED4003A, 178.2352, 43.4733, 483.2148, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x78ED4021, 22567, 0x8ED4003A, 178.2352, 43.4733, 483.2148, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x8ED4003A [178.235200 43.473300 483.214800] 1.000000 0.000000 0.000000 0.000000 */

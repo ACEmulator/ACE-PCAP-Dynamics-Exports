@@ -12,7 +12,9 @@ VALUES (0x788C0001, 0x788C0002, '2019-02-10 00:00:00') /* Olthoi Legionary (1148
      , (0x788C0001, 0x788C0006, '2019-02-10 00:00:00') /* Magma Golem (199) */
      , (0x788C0001, 0x788C0007, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
      , (0x788C0001, 0x788C0008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
-     , (0x788C0001, 0x788C0009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */;
+     , (0x788C0001, 0x788C0009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x788C0001, 0x788C000A, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x788C0001, 0x788C000B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788C0002, 11481, 0x88C0003B, 183.9743, 59.85778, 101.0054, -0.258787, 0, 0, -0.9659344,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -45,3 +47,11 @@ VALUES (0x788C0008,  7105, 0x88C00008, 20.11155, 168.3153, 68.09003, 0.8850931, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x788C0009,  7105, 0x88C00008, 21.32026, 170.6185, 68.09003, 0.8850931, 0, 0, -0.465414,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
 /* @teleloc 0x88C00008 [21.320260 170.618500 68.090030] 0.885093 0.000000 0.000000 -0.465414 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x788C000A, 22519, 0x88C00029, 120.0413, 11.22551, 96.81284, -0.4090797, 0, 0, -0.9124987,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
+/* @teleloc 0x88C00029 [120.041300 11.225510 96.812840] -0.409080 0.000000 0.000000 -0.912499 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x788C000B, 24288, 0x88C0003B, 186.3344, 65.92973, 101.0815, -0.258787, 0, 0, -0.9659344,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
+/* @teleloc 0x88C0003B [186.334400 65.929730 101.081500] -0.258787 0.000000 0.000000 -0.965934 */

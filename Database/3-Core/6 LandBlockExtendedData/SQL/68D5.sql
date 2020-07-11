@@ -20,7 +20,11 @@ VALUES (0x768D5001, 0x768D5002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) 
      , (0x768D5001, 0x768D500E, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
      , (0x768D5001, 0x768D500F, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x768D5001, 0x768D5010, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x768D5001, 0x768D5011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
+     , (0x768D5001, 0x768D5011, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x768D5001, 0x768D5012, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x768D5001, 0x768D5013, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x768D5001, 0x768D5014, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x768D5001, 0x768D5015, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x768D5002, 24958, 0x68D50010, 31.30691, 180.8271, 170.7416, -0.2643976, 0, 0, -0.9644138,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -87,17 +91,43 @@ VALUES (0x768D5011,  7982, 0x68D50031, 161.6467, 17.99148, 201.8514, 0.01236486,
 /* @teleloc 0x68D50031 [161.646700 17.991480 201.851400] 0.012365 0.000000 0.000000 -0.999924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x768D5012,  1542, 0x68D50018, 62.95865, 172.4469, 171.6171, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x768D5012, 24497, 0x68D50002, 5.141624, 35.18583, 158.4539, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x68D50002 [5.141624 35.185830 158.453900] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x768D5013, 36832, 0x68D50013, 64.85404, 60.13369, 166.819, 0.02029764, 0, 0, -0.999794,  True, '2019-02-10 00:00:00'); /* Gold Golem */
+/* @teleloc 0x68D50013 [64.854040 60.133690 166.819000] 0.020298 0.000000 0.000000 -0.999794 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x768D5014,  7081, 0x68D50031, 153.0662, 6.143414, 199.5197, 0.01236486, 0, 0, -0.9999235,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x68D50031 [153.066200 6.143414 199.519700] 0.012365 0.000000 0.000000 -0.999924 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x768D5015, 23566, 0x68D50033, 164.2479, 52.69508, 200.7555, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
+/* @teleloc 0x68D50033 [164.247900 52.695080 200.755500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x768D5016,  1542, 0x68D50018, 62.95865, 172.4469, 171.6171, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x68D50018 [62.958650 172.446900 171.617100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x768D5012, 0x768D5013, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x768D5012, 0x768D5014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
+VALUES (0x768D5016, 0x768D5017, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x768D5016, 0x768D5018, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x768D5016, 0x768D5019, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x768D5016, 0x768D501A, '2019-02-10 00:00:00') /* Dirty Old Crate (31445) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x768D5013,  4179, 0x68D50018, 62.95865, 172.4469, 171.6171, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x768D5017,  4179, 0x68D50018, 62.95865, 172.4469, 171.6171, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x68D50018 [62.958650 172.446900 171.617100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x768D5014, 22566, 0x68D5001F, 75.71744, 150.66, 172.3098, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x768D5018, 22566, 0x68D5001F, 75.71744, 150.66, 172.3098, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x68D5001F [75.717440 150.660000 172.309800] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x768D5019,  4380, 0x68D50002, 11.43946, 30.15222, 158.4539, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+/* @teleloc 0x68D50002 [11.439460 30.152220 158.453900] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x768D501A, 31445, 0x68D50033, 163.8147, 54.04133, 200.7555, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+/* @teleloc 0x68D50033 [163.814700 54.041330 200.755500] 1.000000 0.000000 0.000000 0.000000 */

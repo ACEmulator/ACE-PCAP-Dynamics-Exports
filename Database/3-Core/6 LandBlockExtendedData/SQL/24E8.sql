@@ -22,7 +22,8 @@ VALUES (0x724E8001, 0x724E8002, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
      , (0x724E8001, 0x724E8010, '2019-02-10 00:00:00') /* Charge (21168) */
      , (0x724E8001, 0x724E8011, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */
      , (0x724E8001, 0x724E8012, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
-     , (0x724E8001, 0x724E8013, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */;
+     , (0x724E8001, 0x724E8013, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
+     , (0x724E8001, 0x724E8014, '2019-02-10 00:00:00') /* Ehlyis Niffis (29350) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724E8002,  7987, 0x24E80005, 3.036309, 101.7646, 0.0004999638, -0.1090964, 0, 0, -0.9940312,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
@@ -95,3 +96,7 @@ VALUES (0x724E8012,  1610, 0x24E8000C, 33.08331, 89.13196, 0.00454998, -0.965404
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724E8013,  7988, 0x24E80003, 15.4675, 62.70958, 0.774902, -0.1090964, 0, 0, -0.9940312,  True, '2019-02-10 00:00:00'); /* Sephal Niffis */
 /* @teleloc 0x24E80003 [15.467500 62.709580 0.774902] -0.109096 0.000000 0.000000 -0.994031 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x724E8014, 29350, 0x24E80031, 144.717, 23.17667, 2.0005, -0.4532476, 0, 0, -0.8913847,  True, '2019-02-10 00:00:00'); /* Ehlyis Niffis */
+/* @teleloc 0x24E80031 [144.717000 23.176670 2.000500] -0.453248 0.000000 0.000000 -0.891385 */

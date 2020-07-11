@@ -104,7 +104,10 @@ VALUES (0x7977E014, 0x7977E015, '2019-02-10 00:00:00') /* Desert Rabbit (5429) *
      , (0x7977E014, 0x7977E025, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7977E014, 0x7977E026, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7977E014, 0x7977E027, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
-     , (0x7977E014, 0x7977E028, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
+     , (0x7977E014, 0x7977E028, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7977E014, 0x7977E029, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7977E014, 0x7977E02A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7977E014, 0x7977E02B, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7977E015,  5429, 0x977E0002, 23.00772, 32.38857, 30, -0.8988518, 0, 0, -0.4382528,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
@@ -185,3 +188,15 @@ VALUES (0x7977E027,  5429, 0x977E0002, 3.969623, 29.71756, 30, -0.8988518, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7977E028,  5429, 0x977E000A, 24.86996, 31.69166, 29.855, -0.8880467, 0, 0, -0.4597532,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
 /* @teleloc 0x977E000A [24.869960 31.691660 29.855000] -0.888047 0.000000 0.000000 -0.459753 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7977E029, 24937, 0x977E0002, 21.45211, 30.98903, 29.992, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0x977E0002 [21.452110 30.989030 29.992000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7977E02A, 24937, 0x977E0009, 33.23408, 13.11373, 28.45298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0x977E0009 [33.234080 13.113730 28.452980] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7977E02B, 24937, 0x977E0001, 11.61229, 16.15128, 29.992, -0.8988518, 0, 0, -0.4382528,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0x977E0001 [11.612290 16.151280 29.992000] -0.898852 0.000000 0.000000 -0.438253 */

@@ -1481,7 +1481,8 @@ VALUES (0x700C728B, 0x700C728C, '2019-02-10 00:00:00') /* Crystal (40124) */
      , (0x700C728B, 0x700C729F, '2019-02-10 00:00:00') /* Crystal (40124) */
      , (0x700C728B, 0x700C72A0, '2019-02-10 00:00:00') /* Crystal (40124) */
      , (0x700C728B, 0x700C72A1, '2019-02-10 00:00:00') /* Crystal (40124) */
-     , (0x700C728B, 0x700C72A2, '2019-02-10 00:00:00') /* Crystal (40124) */;
+     , (0x700C728B, 0x700C72A2, '2019-02-10 00:00:00') /* Crystal (40124) */
+     , (0x700C728B, 0x700C72A3, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C728C, 40124, 0x00C70390, 100, -70, 0, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */
@@ -1574,3 +1575,7 @@ VALUES (0x700C72A1, 40124, 0x00C7010B, 1.78069, -65.5825, -24, 1, 0, 0, 0,  True
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C72A2, 40124, 0x00C70112, 1.76275, -95.2939, -24, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Crystal */
 /* @teleloc 0x00C70112 [1.762750 -95.293900 -24.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700C72A3,  1955, 0x00C7033D, 49.95147, -49.67472, -0.06299996, 0.00636929, 0, 0, -0.9999797,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x00C7033D [49.951470 -49.674720 -0.063000] 0.006369 0.000000 0.000000 -0.999980 */

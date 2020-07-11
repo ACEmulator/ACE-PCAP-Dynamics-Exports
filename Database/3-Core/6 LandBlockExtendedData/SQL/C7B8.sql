@@ -14,7 +14,12 @@ VALUES (0x7C7B8001, 0x7C7B8002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) 
      , (0x7C7B8001, 0x7C7B8008, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
      , (0x7C7B8001, 0x7C7B8009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
      , (0x7C7B8001, 0x7C7B800A, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x7C7B8001, 0x7C7B800B, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */;
+     , (0x7C7B8001, 0x7C7B800B, '2019-02-10 00:00:00') /* Altered Olthoi (14872) */
+     , (0x7C7B8001, 0x7C7B800C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C7B8001, 0x7C7B800D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
+     , (0x7C7B8001, 0x7C7B800E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C7B8001, 0x7C7B800F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x7C7B8001, 0x7C7B8010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B8002, 24958, 0xC7B80026, 107.7642, 128.1966, 127.5599, 0.9198893, 0, 0, -0.392178,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -55,3 +60,23 @@ VALUES (0x7C7B800A, 11478, 0xC7B80014, 69.90164, 81.17169, 143.8111, -0.3820689,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C7B800B, 14872, 0xC7B80025, 117.9399, 103.8989, 139.5355, 0.9354603, 0, 0, -0.3534319,  True, '2019-02-10 00:00:00'); /* Altered Olthoi */
 /* @teleloc 0xC7B80025 [117.939900 103.898900 139.535500] 0.935460 0.000000 0.000000 -0.353432 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C7B800C, 23482, 0xC7B80011, 67.20609, 12.47584, 178.2114, -0.2057733, 0, 0, -0.9785997,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0xC7B80011 [67.206090 12.475840 178.211400] -0.205773 0.000000 0.000000 -0.978600 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C7B800D, 35733, 0xC7B80026, 108.6186, 123.1613, 129.7216, -0.3820689, 0, 0, -0.9241338,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Eviscerator Nymph */
+/* @teleloc 0xC7B80026 [108.618600 123.161300 129.721600] -0.382069 0.000000 0.000000 -0.924134 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C7B800E, 24958, 0xC7B80024, 98.96436, 91.82481, 144.4721, 0.9354603, 0, 0, -0.3534319,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0xC7B80024 [98.964360 91.824810 144.472100] 0.935460 0.000000 0.000000 -0.353432 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C7B800F, 24958, 0xC7B8002D, 132.936, 119.5054, 139.7461, 0.9354603, 0, 0, -0.3534319,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0xC7B8002D [132.936000 119.505400 139.746100] 0.935460 0.000000 0.000000 -0.353432 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C7B8010, 23482, 0xC7B80035, 150.3777, 100.7347, 142.0162, 0.9354603, 0, 0, -0.3534319,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0xC7B80035 [150.377700 100.734700 142.016200] 0.935460 0.000000 0.000000 -0.353432 */

@@ -15,7 +15,10 @@ VALUES (0x742F2001, 0x742F2002, '2019-02-10 00:00:00') /* Ancient Coral Golem (2
      , (0x742F2001, 0x742F2009, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
      , (0x742F2001, 0x742F200A, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
      , (0x742F2001, 0x742F200B, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
-     , (0x742F2001, 0x742F200C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */;
+     , (0x742F2001, 0x742F200C, '2019-02-10 00:00:00') /* Voracious Eater (28639) */
+     , (0x742F2001, 0x742F200D, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x742F2001, 0x742F200E, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
+     , (0x742F2001, 0x742F200F, '2019-02-10 00:00:00') /* Ancient Coral Golem (28050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742F2002, 28051, 0x42F20028, 106.8863, 174.4727, 4.012, 0.6918272, 0, 0, -0.7220631,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */
@@ -60,3 +63,15 @@ VALUES (0x742F200B, 28641, 0x42F2002F, 121.5326, 158.5216, 7.263616, 0.6918272, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x742F200C, 28639, 0x42F2002F, 123.5893, 160.5484, 7.956658, 0.6918272, 0, 0, -0.7220631,  True, '2019-02-10 00:00:00'); /* Voracious Eater */
 /* @teleloc 0x42F2002F [123.589300 160.548400 7.956658] 0.691827 0.000000 0.000000 -0.722063 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x742F200D, 27711, 0x42F20027, 103.8616, 149.713, 5.968407, 0.6918272, 0, 0, -0.7220631,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
+/* @teleloc 0x42F20027 [103.861600 149.713000 5.968407] 0.691827 0.000000 0.000000 -0.722063 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x742F200E, 27426, 0x42F2001C, 89.9863, 81.21133, 14.0055, -0.3732232, 0, 0, -0.9277416,  True, '2019-02-10 00:00:00'); /* Shadow Nightmare */
+/* @teleloc 0x42F2001C [89.986300 81.211330 14.005500] -0.373223 0.000000 0.000000 -0.927742 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x742F200F, 28050, 0x42F20022, 118.3162, 38.08167, 34.66025, -0.8012993, 0, 0, -0.5982637,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */
+/* @teleloc 0x42F20022 [118.316200 38.081670 34.660250] -0.801299 0.000000 0.000000 -0.598264 */

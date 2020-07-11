@@ -71,7 +71,11 @@ VALUES (0x7E24E001, 0x7E24E002, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x7E24E001, 0x7E24E041, '2019-02-10 00:00:00') /* Amploth Lugian (1617) */
      , (0x7E24E001, 0x7E24E042, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
      , (0x7E24E001, 0x7E24E043, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
-     , (0x7E24E001, 0x7E24E044, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */;
+     , (0x7E24E001, 0x7E24E044, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7E24E001, 0x7E24E045, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E24E001, 0x7E24E046, '2019-02-10 00:00:00') /* White Mattekar (2580) */
+     , (0x7E24E001, 0x7E24E047, '2019-02-10 00:00:00') /* Ivory Gromnie (1613) */
+     , (0x7E24E001, 0x7E24E048, '2019-02-10 00:00:00') /* Jibrit Zefir (2608) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E24E002,   218, 0xE24E0032, 155.6254, 37.42118, 13.77154, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Rat */
@@ -342,32 +346,48 @@ VALUES (0x7E24E044,  4111, 0xE24E0039, 181.9122, 14.65798, 23.14901, 0.9537169, 
 /* @teleloc 0xE24E0039 [181.912200 14.657980 23.149010] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E24E045,  1542, 0xE24E0032, 151.9121, 35.02694, 14.17718, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E24E045,  2580, 0xE24E002A, 138.6702, 43.98992, 13.1125, -0.9890993, 0, 0, -0.1472499,  True, '2019-02-10 00:00:00'); /* White Mattekar */
+/* @teleloc 0xE24E002A [138.670200 43.989920 13.112500] -0.989099 0.000000 0.000000 -0.147250 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E24E046,  2580, 0xE24E002B, 129.783, 55.84147, 13.83821, 0.3194076, 0, 0, -0.9476174,  True, '2019-02-10 00:00:00'); /* White Mattekar */
+/* @teleloc 0xE24E002B [129.783000 55.841470 13.838210] 0.319408 0.000000 0.000000 -0.947617 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E24E047,  1613, 0xE24E002B, 143.0132, 53.68742, 12.9524, 0.9061536, 0, 0, -0.4229487,  True, '2019-02-10 00:00:00'); /* Ivory Gromnie */
+/* @teleloc 0xE24E002B [143.013200 53.687420 12.952400] 0.906154 0.000000 0.000000 -0.422949 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E24E048,  2608, 0xE24E0039, 168.1829, 5.290667, 22.21497, 0.996583, 0, 0, -0.08259775,  True, '2019-02-10 00:00:00'); /* Jibrit Zefir */
+/* @teleloc 0xE24E0039 [168.182900 5.290667 22.214970] 0.996583 0.000000 0.000000 -0.082598 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E24E049,  1542, 0xE24E0032, 151.9121, 35.02694, 14.17718, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE24E0032 [151.912100 35.026940 14.177180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E24E045, 0x7E24E046, '2019-02-10 00:00:00') /* Coalesced Mana (42518) */
-     , (0x7E24E045, 0x7E24E047, '2019-02-10 00:00:00') /* Frost Board with Nail (31773) */
-     , (0x7E24E045, 0x7E24E048, '2019-02-10 00:00:00') /* Minor Mana Stone (27331) */
-     , (0x7E24E045, 0x7E24E049, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
-     , (0x7E24E045, 0x7E24E04A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x7E24E049, 0x7E24E04A, '2019-02-10 00:00:00') /* Coalesced Mana (42518) */
+     , (0x7E24E049, 0x7E24E04B, '2019-02-10 00:00:00') /* Frost Board with Nail (31773) */
+     , (0x7E24E049, 0x7E24E04C, '2019-02-10 00:00:00') /* Minor Mana Stone (27331) */
+     , (0x7E24E049, 0x7E24E04D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E24E049, 0x7E24E04E, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E24E046, 42518, 0xE24E0032, 151.9121, 35.02694, 14.17718, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Coalesced Mana */
+VALUES (0x7E24E04A, 42518, 0xE24E0032, 151.9121, 35.02694, 14.17718, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Coalesced Mana */
 /* @teleloc 0xE24E0032 [151.912100 35.026940 14.177180] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E24E047, 31773, 0xE24E0032, 149.8024, 35.09674, 14.19954, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frost Board with Nail */
+VALUES (0x7E24E04B, 31773, 0xE24E0032, 149.8024, 35.09674, 14.19954, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Frost Board with Nail */
 /* @teleloc 0xE24E0032 [149.802400 35.096740 14.199540] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E24E048, 27331, 0xE24E0032, 151.1406, 36.80622, 13.86563, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minor Mana Stone */
+VALUES (0x7E24E04C, 27331, 0xE24E0032, 151.1406, 36.80622, 13.86563, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Minor Mana Stone */
 /* @teleloc 0xE24E0032 [151.140600 36.806220 13.865630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E24E049,  8037, 0xE24E0032, 144.2004, 43.4459, 12.75902, 0.3194076, 0, 0, -0.9476174,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7E24E04D,  8037, 0xE24E0032, 144.2004, 43.4459, 12.75902, 0.3194076, 0, 0, -0.9476174,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xE24E0032 [144.200400 43.445900 12.759020] 0.319408 0.000000 0.000000 -0.947617 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E24E04A,  8037, 0xE24E002B, 123.5273, 56.94973, 14.45187, 0.9061536, 0, 0, -0.4229487,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7E24E04E,  8037, 0xE24E002B, 123.5273, 56.94973, 14.45187, 0.9061536, 0, 0, -0.4229487,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xE24E002B [123.527300 56.949730 14.451870] 0.906154 0.000000 0.000000 -0.422949 */

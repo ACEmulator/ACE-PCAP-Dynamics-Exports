@@ -9,7 +9,8 @@ VALUES (0x7BADB001, 0x7BADB002, '2019-02-10 00:00:00') /* Cunning Monouga (24289
      , (0x7BADB001, 0x7BADB003, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
      , (0x7BADB001, 0x7BADB004, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
      , (0x7BADB001, 0x7BADB005, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
-     , (0x7BADB001, 0x7BADB006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */;
+     , (0x7BADB001, 0x7BADB006, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
+     , (0x7BADB001, 0x7BADB007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADB002, 24289, 0xBADB0011, 63.14431, 21.05647, 25.49932, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
@@ -30,3 +31,7 @@ VALUES (0x7BADB005, 24288, 0xBADB0011, 63.41909, 19.92311, 25.61666, -4.371139E-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADB006, 26470, 0xBADB0011, 57.42571, 21.74292, 24.95181, 0.5924649, 0, 0, -0.8055963,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
 /* @teleloc 0xBADB0011 [57.425710 21.742920 24.951810] 0.592465 0.000000 0.000000 -0.805596 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADB007,  4217, 0xBADB0013, 58.02357, 54.03292, 24.01566, 0.5924649, 0, 0, -0.8055963,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
+/* @teleloc 0xBADB0013 [58.023570 54.032920 24.015660] 0.592465 0.000000 0.000000 -0.805596 */

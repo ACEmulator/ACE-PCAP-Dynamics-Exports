@@ -44,7 +44,9 @@ VALUES (0x7F72F001, 0x7F72F002, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier
      , (0x7F72F001, 0x7F72F026, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
      , (0x7F72F001, 0x7F72F027, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
      , (0x7F72F001, 0x7F72F028, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
-     , (0x7F72F001, 0x7F72F029, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */;
+     , (0x7F72F001, 0x7F72F029, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40313) */
+     , (0x7F72F001, 0x7F72F02A, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F72F001, 0x7F72F02B, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F72F002, 40309, 0xF72F0007, 6.014925, 151.8396, 3.812817, -0.5787253, 0, 0, -0.8155226,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
@@ -205,3 +207,11 @@ VALUES (0x7F72F028, 40312, 0xF72F0038, 146.9232, 187.4981, 75.7564, -0.9056392, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F72F029, 40313, 0xF72F0038, 155.1409, 179.1737, 75.07159, -0.9056392, 0, 0, -0.4240491,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
 /* @teleloc 0xF72F0038 [155.140900 179.173700 75.071590] -0.905639 0.000000 0.000000 -0.424049 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F72F02A, 40308, 0xF72F0038, 148.108, 179.7148, 75.67367, -0.9056392, 0, 0, -0.4240491,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF72F0038 [148.108000 179.714800 75.673670] -0.905639 0.000000 0.000000 -0.424049 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F72F02B, 40308, 0xF72F0038, 149.0727, 191.0717, 73.86645, -0.9056392, 0, 0, -0.4240491,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF72F0038 [149.072700 191.071700 73.866450] -0.905639 0.000000 0.000000 -0.424049 */

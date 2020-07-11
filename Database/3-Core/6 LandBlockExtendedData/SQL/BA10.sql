@@ -14,7 +14,8 @@ VALUES (0x7BA10001, 0x7BA10002, '2019-02-10 00:00:00') /* Shadow Lieutenant (175
      , (0x7BA10001, 0x7BA10008, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
      , (0x7BA10001, 0x7BA10009, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
      , (0x7BA10001, 0x7BA1000A, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
-     , (0x7BA10001, 0x7BA1000B, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */;
+     , (0x7BA10001, 0x7BA1000B, '2019-02-10 00:00:00') /* Dread Ursuin (12038) */
+     , (0x7BA10001, 0x7BA1000C, '2019-02-10 00:00:00') /* Gigas Raider (8139) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA10002,  1757, 0xBA100025, 106.8498, 118.5186, 13.15521, 0.9912696, 0, 0, -0.1318504,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
@@ -55,3 +56,7 @@ VALUES (0x7BA1000A,  7994, 0xBA10002E, 136.8469, 133.1396, -0.09740011, 0.991269
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA1000B, 12038, 0xBA100036, 146.9363, 122.8936, -0.447, 0.9912696, 0, 0, -0.1318504,  True, '2019-02-10 00:00:00'); /* Dread Ursuin */
 /* @teleloc 0xBA100036 [146.936300 122.893600 -0.447000] 0.991270 0.000000 0.000000 -0.131850 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA1000C,  8139, 0xBA100018, 63.25572, 168.5831, 144, 0.9912696, 0, 0, -0.1318504,  True, '2019-02-10 00:00:00'); /* Gigas Raider */
+/* @teleloc 0xBA100018 [63.255720 168.583100 144.000000] 0.991270 0.000000 0.000000 -0.131850 */

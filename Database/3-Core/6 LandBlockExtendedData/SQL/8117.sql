@@ -15,7 +15,10 @@ VALUES (0x78117001, 0x78117002, '2019-02-10 00:00:00') /* Dread Idol (8467) */
      , (0x78117001, 0x78117009, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x78117001, 0x7811700A, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x78117001, 0x7811700B, '2019-02-10 00:00:00') /* Sephal Niffis (7988) */
-     , (0x78117001, 0x7811700C, '2019-02-10 00:00:00') /* Mist Golem (22933) */;
+     , (0x78117001, 0x7811700C, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78117001, 0x7811700D, '2019-02-10 00:00:00') /* Mist Golem (22933) */
+     , (0x78117001, 0x7811700E, '2019-02-10 00:00:00') /* Opor Niffis (7987) */
+     , (0x78117001, 0x7811700F, '2019-02-10 00:00:00') /* Opor Niffis (7987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78117002,  8467, 0x81170038, 152.097, 184.5903, -0.9, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dread Idol */
@@ -60,3 +63,15 @@ VALUES (0x7811700B,  7988, 0x81170038, 160.614, 172.6333, -0.8993001, -0.4018376
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7811700C, 22933, 0x81170004, 20.03315, 78.05331, 0.00999999, 0.2680825, 0, 0, -0.963396,  True, '2019-02-10 00:00:00'); /* Mist Golem */
 /* @teleloc 0x81170004 [20.033150 78.053310 0.010000] 0.268083 0.000000 0.000000 -0.963396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7811700D, 22933, 0x81170004, 3.85049, 77.93576, 0.00999999, 0.2680825, 0, 0, -0.963396,  True, '2019-02-10 00:00:00'); /* Mist Golem */
+/* @teleloc 0x81170004 [3.850490 77.935760 0.010000] 0.268083 0.000000 0.000000 -0.963396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7811700E,  7987, 0x81170038, 145.6068, 170.3482, -0.8994999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
+/* @teleloc 0x81170038 [145.606800 170.348200 -0.899500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7811700F,  7987, 0x81170037, 147.9824, 167.9137, -0.8994999, -0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Opor Niffis */
+/* @teleloc 0x81170037 [147.982400 167.913700 -0.899500] -0.642788 0.000000 0.000000 -0.766044 */

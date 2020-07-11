@@ -80,7 +80,9 @@ VALUES (0x700C0031,  1542, 0x00C0019C, 79.08083, -90.8748, -0.001000002, -0.0081
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x700C0031, 0x700C0032, '2019-02-10 00:00:00') /* Rage of Grael Gem (31425) */
-     , (0x700C0031, 0x700C0033, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x700C0031, 0x700C0033, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700C0031, 0x700C0034, '2019-02-10 00:00:00') /* North Gate Harmonic Crystal (37060) */
+     , (0x700C0031, 0x700C0035, '2019-02-10 00:00:00') /* Fortified Mana Forge Key (38919) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C0032, 31425, 0x00C0019C, 79.08083, -90.8748, -0.001000002, -0.008196928, 0, 0, 0.9999664,  True, '2019-02-10 00:00:00'); /* Rage of Grael Gem */
@@ -89,3 +91,11 @@ VALUES (0x700C0032, 31425, 0x00C0019C, 79.08083, -90.8748, -0.001000002, -0.0081
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700C0033,  1955, 0x00C0019C, 77.61319, -92.99609, -0.06299996, -0.8774242, 0, 0, -0.4797152,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00C0019C [77.613190 -92.996090 -0.063000] -0.877424 0.000000 0.000000 -0.479715 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700C0034, 37060, 0x00C0019D, 80.46107, -95.65818, -0.001000002, 0.6203325, 0, 0, -0.7843389,  True, '2019-02-10 00:00:00'); /* North Gate Harmonic Crystal */
+/* @teleloc 0x00C0019D [80.461070 -95.658180 -0.001000] 0.620333 0.000000 0.000000 -0.784339 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700C0035, 38919, 0x00C0019C, 81.94109, -91.27287, 0.024, -0.2063178, 0, 0, -0.978485,  True, '2019-02-10 00:00:00'); /* Fortified Mana Forge Key */
+/* @teleloc 0x00C0019C [81.941090 -91.272870 0.024000] -0.206318 0.000000 0.000000 -0.978485 */

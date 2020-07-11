@@ -39,3 +39,14 @@ VALUES (0x7DF3C006,  7993, 0xDF3C0033, 154.1797, 64.76569, 42.8511, 0.8191521, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DF3C007,  2576, 0xDF3C002B, 136.3235, 64.54501, 41.35279, -0.8076015, 0, 0, -0.5897285,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
 /* @teleloc 0xDF3C002B [136.323500 64.545010 41.352790] -0.807602 0.000000 0.000000 -0.589729 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DF3C008,  1542, 0xDF3C000C, 46.90185, 94.74031, 29.84549, -0.08717192, 0, 0, -0.9961933, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xDF3C000C [46.901850 94.740310 29.845490] -0.087172 0.000000 0.000000 -0.996193 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7DF3C008, 0x7DF3C009, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DF3C009,  1955, 0xDF3C000C, 46.90185, 94.74031, 29.84549, -0.08717192, 0, 0, -0.9961933,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xDF3C000C [46.901850 94.740310 29.845490] -0.087172 0.000000 0.000000 -0.996193 */

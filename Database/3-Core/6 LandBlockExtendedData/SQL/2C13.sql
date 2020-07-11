@@ -29,7 +29,17 @@ VALUES (0x72C13001, 0x72C13002, '2019-02-10 00:00:00') /* Phantasm (24325) */
      , (0x72C13001, 0x72C13017, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
      , (0x72C13001, 0x72C13018, '2019-02-10 00:00:00') /* Great Revenant (24320) */
      , (0x72C13001, 0x72C13019, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x72C13001, 0x72C1301A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
+     , (0x72C13001, 0x72C1301A, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72C13001, 0x72C1301B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C13001, 0x72C1301C, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C13001, 0x72C1301D, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x72C13001, 0x72C1301E, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x72C13001, 0x72C1301F, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72C13001, 0x72C13020, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C13001, 0x72C13021, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C13001, 0x72C13022, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C13001, 0x72C13023, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72C13001, 0x72C13024, '2019-02-10 00:00:00') /* Dark Master (24319) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C13002, 24325, 0x2C130039, 172.5157, 16.28131, 13.36503, -0.9145043, 0, 0, -0.4045761,  True, '2019-02-10 00:00:00'); /* Phantasm */
@@ -130,3 +140,59 @@ VALUES (0x72C13019,  8431, 0x2C130030, 134.6234, 176.7032, 12.55597, -0.9999176,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C1301A,  7119, 0x2C130015, 53.84847, 116.0719, 48.54438, 0.8304703, 0, 0, -0.5570629,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
 /* @teleloc 0x2C130015 [53.848470 116.071900 48.544380] 0.830470 0.000000 0.000000 -0.557063 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C1301B,  8431, 0x2C130031, 159.3852, 10.315, 13.58398, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2C130031 [159.385200 10.315000 13.583980] 0.422618 0.000000 0.000000 -0.906308 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C1301C,  8431, 0x2C130031, 156.412, 10.31485, 13.83174, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2C130031 [156.412000 10.314850 13.831740] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C1301D, 36830, 0x2C130030, 141.1283, 174.738, 13.53138, -0.9999176, 0, 0, -0.01284198,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x2C130030 [141.128300 174.738000 13.531380] -0.999918 0.000000 0.000000 -0.012842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C1301E,  7121, 0x2C130032, 147.4422, 32.14085, 18.76244, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+/* @teleloc 0x2C130032 [147.442200 32.140850 18.762440] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C1301F, 36829, 0x2C130020, 76.56953, 189.6324, 47.34851, -0.2908221, 0, 0, -0.9567772,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x2C130020 [76.569530 189.632400 47.348510] -0.290822 0.000000 0.000000 -0.956777 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13020,  8431, 0x2C130016, 63.65799, 141.3179, 46.092, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2C130016 [63.657990 141.317900 46.092000] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13021,  8431, 0x2C130016, 59.10959, 140.0734, 47.2291, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2C130016 [59.109590 140.073400 47.229100] 0.642788 0.000000 0.000000 -0.766044 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13022,  8431, 0x2C130016, 62.28095, 138.6328, 46.43626, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2C130016 [62.280950 138.632800 46.436260] 0.422618 0.000000 0.000000 -0.906308 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13023,  8431, 0x2C130020, 77.53302, 184.0542, 47.34851, -0.2908221, 0, 0, -0.9567772,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2C130020 [77.533020 184.054200 47.348510] -0.290822 0.000000 0.000000 -0.956777 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13024, 24319, 0x2C130030, 123.7865, 187.5316, 10.75297, -0.9999176, 0, 0, -0.01284198,  True, '2019-02-10 00:00:00'); /* Dark Master */
+/* @teleloc 0x2C130030 [123.786500 187.531600 10.752970] -0.999918 0.000000 0.000000 -0.012842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13025,  1542, 0x2C130016, 62.59715, 137.2125, 46.34072, 0.8304703, 0, 0, -0.5570629, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x2C130016 [62.597150 137.212500 46.340720] 0.830470 0.000000 0.000000 -0.557063 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x72C13025, 0x72C13026, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x72C13025, 0x72C13027, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13026,  9288, 0x2C130016, 62.59715, 137.2125, 46.34072, 0.8304703, 0, 0, -0.5570629,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+/* @teleloc 0x2C130016 [62.597150 137.212500 46.340720] 0.830470 0.000000 0.000000 -0.557063 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C13027, 11554, 0x2C13000F, 34.52905, 151.8859, 53.36774, 0.8304703, 0, 0, -0.5570629,  True, '2019-02-10 00:00:00'); /* Colban Plant */
+/* @teleloc 0x2C13000F [34.529050 151.885900 53.367740] 0.830470 0.000000 0.000000 -0.557063 */

@@ -59,7 +59,10 @@ VALUES (0x7CCE0001, 0x7CCE0002, '2019-02-10 00:00:00') /* Wave Golem (31919) */
      , (0x7CCE0001, 0x7CCE0035, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
      , (0x7CCE0001, 0x7CCE0036, '2019-02-10 00:00:00') /* Shallows Shredder (31910) */
      , (0x7CCE0001, 0x7CCE0037, '2019-02-10 00:00:00') /* Gold Shallows Shredder (31911) */
-     , (0x7CCE0001, 0x7CCE0038, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */;
+     , (0x7CCE0001, 0x7CCE0038, '2019-02-10 00:00:00') /* Shallows Gorger (31909) */
+     , (0x7CCE0001, 0x7CCE0039, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CCE0001, 0x7CCE003A, '2019-02-10 00:00:00') /* Wave Golem (31919) */
+     , (0x7CCE0001, 0x7CCE003B, '2019-02-10 00:00:00') /* Aqueous Golem (31920) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCE0002, 31919, 0xCCE0003F, 168.3299, 146.6145, 1.793126, 0.5702732, 0, 0, -0.8214551,  True, '2019-02-10 00:00:00'); /* Wave Golem */
@@ -280,3 +283,15 @@ VALUES (0x7CCE0037, 31911, 0xCCE00039, 183.0874, 20.89015, 2.225606, 0.5992129, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CCE0038, 31909, 0xCCE00039, 190.8889, 22.80385, 1.90152, 0.5992129, 0, 0, -0.8005897,  True, '2019-02-10 00:00:00'); /* Shallows Gorger */
 /* @teleloc 0xCCE00039 [190.888900 22.803850 1.901520] 0.599213 0.000000 0.000000 -0.800590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CCE0039, 31919, 0xCCE0003F, 186.3963, 165.5221, 0.2174883, 0.8351429, 0, 0, -0.5500332,  True, '2019-02-10 00:00:00'); /* Wave Golem */
+/* @teleloc 0xCCE0003F [186.396300 165.522100 0.217488] 0.835143 0.000000 0.000000 -0.550033 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CCE003A, 31919, 0xCCE00037, 161.4503, 155.8269, 2.117039, -0.88548, 0, 0, -0.4646775,  True, '2019-02-10 00:00:00'); /* Wave Golem */
+/* @teleloc 0xCCE00037 [161.450300 155.826900 2.117039] -0.885480 0.000000 0.000000 -0.464678 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CCE003B, 31920, 0xCCE0002F, 137.1823, 167.1469, 4.011, 0.5702732, 0, 0, -0.8214551,  True, '2019-02-10 00:00:00'); /* Aqueous Golem */
+/* @teleloc 0xCCE0002F [137.182300 167.146900 4.011000] 0.570273 0.000000 0.000000 -0.821455 */

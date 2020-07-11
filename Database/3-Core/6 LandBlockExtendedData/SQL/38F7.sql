@@ -104,7 +104,9 @@ VALUES (0x738F701E, 0x738F701F, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x738F701E, 0x738F7027, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x738F701E, 0x738F7028, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x738F701E, 0x738F7029, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x738F701E, 0x738F702A, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x738F701E, 0x738F702A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x738F701E, 0x738F702B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x738F701E, 0x738F702C, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738F701F,  1955, 0x38F70009, 31.31285, 23.89849, 1.937, 0.7059619, 0, 0, -0.7082498,  True, '2019-02-10 00:00:00'); /* Gateway */
@@ -153,3 +155,11 @@ VALUES (0x738F7029,  1955, 0x38F7000B, 35.10661, 63.71716, -0.513, 0.9901385, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x738F702A,  1955, 0x38F7000B, 30.07765, 57.79971, -0.163, 0.6105895, 0, 0, 0.7919472,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x38F7000B [30.077650 57.799710 -0.163000] 0.610590 0.000000 0.000000 0.791947 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x738F702B,  1955, 0x38F7001B, 95.05413, 48.76974, -0.163, 0.3240921, 0, 0, -0.9460256,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x38F7001B [95.054130 48.769740 -0.163000] 0.324092 0.000000 0.000000 -0.946026 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x738F702C,  1955, 0x38F7000B, 42.00238, 49.76813, -0.163, 0.7050502, 0, 0, -0.7091574,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x38F7000B [42.002380 49.768130 -0.163000] 0.705050 0.000000 0.000000 -0.709157 */

@@ -19,7 +19,10 @@ VALUES (0x7B533001, 0x7B533002, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7B533001, 0x7B53300D, '2019-02-10 00:00:00') /* Gigas Lugian (1618) */
      , (0x7B533001, 0x7B53300E, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
      , (0x7B533001, 0x7B53300F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
-     , (0x7B533001, 0x7B533010, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */;
+     , (0x7B533001, 0x7B533010, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */
+     , (0x7B533001, 0x7B533011, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7B533001, 0x7B533012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7B533001, 0x7B533013, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B533002,   194, 0xB5330028, 104.7395, 182.8063, 63.87857, 0.5486466, 0, 0, -0.8360543,  True, '2019-02-10 00:00:00'); /* Copper Golem */
@@ -82,27 +85,39 @@ VALUES (0x7B533010, 22641, 0xB5330004, 16.15195, 72.21949, 82.6631, 0.7071068, 0
 /* @teleloc 0xB5330004 [16.151950 72.219490 82.663100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B533011,  1542, 0xB5330018, 66.38807, 184.9599, 69.95368, -0.9185513, 0, 0, -0.3953019, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B533011, 19439, 0xB5330010, 39.34956, 182.8776, 77.48132, -0.9185513, 0, 0, -0.3953019,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */
+/* @teleloc 0xB5330010 [39.349560 182.877600 77.481320] -0.918551 0.000000 0.000000 -0.395302 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B533012,   195, 0xB533000F, 26.29037, 157.3935, 86.77444, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0xB533000F [26.290370 157.393500 86.774440] 0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B533013,     3, 0xB5330020, 87.1364, 191.208, 61.93925, 0.5486466, 0, 0, -0.8360543,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0xB5330020 [87.136400 191.208000 61.939250] 0.548647 0.000000 0.000000 -0.836054 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B533014,  1542, 0xB5330018, 66.38807, 184.9599, 69.95368, -0.9185513, 0, 0, -0.3953019, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB5330018 [66.388070 184.959900 69.953680] -0.918551 0.000000 0.000000 -0.395302 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B533011, 0x7B533012, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x7B533011, 0x7B533013, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x7B533011, 0x7B533014, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x7B533011, 0x7B533015, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
+VALUES (0x7B533014, 0x7B533015, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B533014, 0x7B533016, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7B533014, 0x7B533017, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7B533014, 0x7B533018, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B533012, 42528, 0xB5330018, 66.38807, 184.9599, 69.95368, -0.9185513, 0, 0, -0.3953019,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x7B533015, 42528, 0xB5330018, 66.38807, 184.9599, 69.95368, -0.9185513, 0, 0, -0.3953019,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0xB5330018 [66.388070 184.959900 69.953680] -0.918551 0.000000 0.000000 -0.395302 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B533013,  4380, 0xB5330006, 21.29313, 132.7709, 91.86665, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7B533016,  4380, 0xB5330006, 21.29313, 132.7709, 91.86665, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xB5330006 [21.293130 132.770900 91.866650] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B533014, 42528, 0xB5330020, 80.782, 190.0529, 63.64843, 0.5486466, 0, 0, -0.8360543,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x7B533017, 42528, 0xB5330020, 80.782, 190.0529, 63.64843, 0.5486466, 0, 0, -0.8360543,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0xB5330020 [80.782000 190.052900 63.648430] 0.548647 0.000000 0.000000 -0.836054 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B533015,  5779, 0xB5330003, 14.44238, 69.4342, 82.02696, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+VALUES (0x7B533018,  5779, 0xB5330003, 14.44238, 69.4342, 82.02696, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
 /* @teleloc 0xB5330003 [14.442380 69.434200 82.026960] 0.707107 0.000000 0.000000 -0.707107 */

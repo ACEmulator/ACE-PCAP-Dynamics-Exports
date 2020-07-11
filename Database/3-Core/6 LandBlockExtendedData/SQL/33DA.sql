@@ -61,7 +61,17 @@ VALUES (0x733DA014, 0x733DA015, '2019-02-10 00:00:00') /* Drudge Slinker (193) *
      , (0x733DA014, 0x733DA03A, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
      , (0x733DA014, 0x733DA03B, '2019-02-10 00:00:00') /* Young Banderling (19256) */
      , (0x733DA014, 0x733DA03C, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
-     , (0x733DA014, 0x733DA03D, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
+     , (0x733DA014, 0x733DA03D, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x733DA014, 0x733DA03E, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x733DA014, 0x733DA03F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x733DA014, 0x733DA040, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x733DA014, 0x733DA041, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x733DA014, 0x733DA042, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x733DA014, 0x733DA043, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x733DA014, 0x733DA044, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x733DA014, 0x733DA045, '2019-02-10 00:00:00') /* Old Bones (19436) */
+     , (0x733DA014, 0x733DA046, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x733DA014, 0x733DA047, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733DA015,   193, 0x33DA0029, 140.8583, 0.06916885, 52.02638, 0.5651781, 0, 0, -0.8249689,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -228,82 +238,122 @@ VALUES (0x733DA03D, 19256, 0x33DA0019, 92.29391, 21.71577, 59.00877, 0.9420801, 
 /* @teleloc 0x33DA0019 [92.293910 21.715770 59.008770] 0.942080 0.000000 0.000000 -0.335388 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA03E,  1154, 0x33DA0024, 99.898, 94.171, 60.005, -0.480331, 0, 0, -0.877087, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x733DA03E, 19263, 0x33DA0019, 87.03712, 10.8886, 57.81092, 0.9420801, 0, 0, -0.3353881,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0x33DA0019 [87.037120 10.888600 57.810920] 0.942080 0.000000 0.000000 -0.335388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA03F, 24937, 0x33DA0021, 119.5465, 10.14444, 55.37348, 0.4560461, 0, 0, -0.8899562,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0x33DA0021 [119.546500 10.144440 55.373480] 0.456046 0.000000 0.000000 -0.889956 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA040,  2566, 0x33DA0029, 134.4769, 11.24026, 55.74675, 0.4560461, 0, 0, -0.8899562,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0x33DA0029 [134.476900 11.240260 55.746750] 0.456046 0.000000 0.000000 -0.889956 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA041, 19262, 0x33DA0019, 86.30327, 14.91942, 56.87485, 0.9420801, 0, 0, -0.3353881,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0x33DA0019 [86.303270 14.919420 56.874850] 0.942080 0.000000 0.000000 -0.335388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA042, 19258, 0x33DA003B, 190.2758, 57.9484, 54.09243, 0.9999794, 0, 0, -0.006415468,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0x33DA003B [190.275800 57.948400 54.092430] 0.999979 0.000000 0.000000 -0.006415 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA043,   192, 0x33DA0031, 156.8073, 17.88868, 57.4084, 0.5651781, 0, 0, -0.8249689,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0x33DA0031 [156.807300 17.888680 57.408400] 0.565178 0.000000 0.000000 -0.824969 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA044, 19257, 0x33DA0019, 88.42864, 22.38449, 58.47218, 0.9420801, 0, 0, -0.3353881,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
+/* @teleloc 0x33DA0019 [88.428640 22.384490 58.472180] 0.942080 0.000000 0.000000 -0.335388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA045, 19436, 0x33DA0019, 83.29667, 11.03685, 55.68145, 0.9420801, 0, 0, -0.3353881,  True, '2019-02-10 00:00:00'); /* Old Bones */
+/* @teleloc 0x33DA0019 [83.296670 11.036850 55.681450] 0.942080 0.000000 0.000000 -0.335388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA046,  2566, 0x33DA0021, 118.3425, 5.400299, 53.8001, 0.4560461, 0, 0, -0.8899562,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0x33DA0021 [118.342500 5.400299 53.800100] 0.456046 0.000000 0.000000 -0.889956 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA047, 19258, 0x33DA0021, 96.90614, 23.95063, 59.98687, 0.9420801, 0, 0, -0.3353881,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0x33DA0021 [96.906140 23.950630 59.986870] 0.942080 0.000000 0.000000 -0.335388 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DA048,  1154, 0x33DA0024, 99.898, 94.171, 60.005, -0.480331, 0, 0, -0.877087, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x33DA0024 [99.898000 94.171000 60.005000] -0.480331 0.000000 0.000000 -0.877087 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x733DA03E, 0x733DA03F, '2019-02-10 00:00:00') /* Monster Fight Bookie (38995) */
-     , (0x733DA03E, 0x733DA040, '2019-02-10 00:00:00') /* Glormigoth (38988) */
-     , (0x733DA03E, 0x733DA041, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */
-     , (0x733DA03E, 0x733DA042, '2019-02-10 00:00:00') /* Darcusch the Barbarian (38986) */
-     , (0x733DA03E, 0x733DA043, '2019-02-10 00:00:00') /* Warrior Corthos (38985) */
-     , (0x733DA03E, 0x733DA044, '2019-02-10 00:00:00') /* Hea Tnakarea (38984) */
-     , (0x733DA03E, 0x733DA045, '2019-02-10 00:00:00') /* Champion Bulgara (38983) */
-     , (0x733DA03E, 0x733DA046, '2019-02-10 00:00:00') /* Chief Grogbash (38982) */
-     , (0x733DA03E, 0x733DA047, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38981) */
-     , (0x733DA03E, 0x733DA048, '2019-02-10 00:00:00') /* Monster Fights Announcer (38990) */
-     , (0x733DA03E, 0x733DA049, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */
-     , (0x733DA03E, 0x733DA04A, '2019-02-10 00:00:00') /* Champion Bulgara (38983) */
-     , (0x733DA03E, 0x733DA04B, '2019-02-10 00:00:00') /* Chief Grogbash (38982) */
-     , (0x733DA03E, 0x733DA04C, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38981) */
-     , (0x733DA03E, 0x733DA04D, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */;
+VALUES (0x733DA048, 0x733DA049, '2019-02-10 00:00:00') /* Monster Fight Bookie (38995) */
+     , (0x733DA048, 0x733DA04A, '2019-02-10 00:00:00') /* Glormigoth (38988) */
+     , (0x733DA048, 0x733DA04B, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */
+     , (0x733DA048, 0x733DA04C, '2019-02-10 00:00:00') /* Darcusch the Barbarian (38986) */
+     , (0x733DA048, 0x733DA04D, '2019-02-10 00:00:00') /* Warrior Corthos (38985) */
+     , (0x733DA048, 0x733DA04E, '2019-02-10 00:00:00') /* Hea Tnakarea (38984) */
+     , (0x733DA048, 0x733DA04F, '2019-02-10 00:00:00') /* Champion Bulgara (38983) */
+     , (0x733DA048, 0x733DA050, '2019-02-10 00:00:00') /* Chief Grogbash (38982) */
+     , (0x733DA048, 0x733DA051, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38981) */
+     , (0x733DA048, 0x733DA052, '2019-02-10 00:00:00') /* Monster Fights Announcer (38990) */
+     , (0x733DA048, 0x733DA053, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */
+     , (0x733DA048, 0x733DA054, '2019-02-10 00:00:00') /* Champion Bulgara (38983) */
+     , (0x733DA048, 0x733DA055, '2019-02-10 00:00:00') /* Chief Grogbash (38982) */
+     , (0x733DA048, 0x733DA056, '2019-02-10 00:00:00') /* Kerthump the Ear Taker (38981) */
+     , (0x733DA048, 0x733DA057, '2019-02-10 00:00:00') /* Korgluuk of Bur (38987) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA03F, 38995, 0x33DA0024, 99.898, 94.171, 60.005, -0.480331, 0, 0, -0.877087,  True, '2019-02-10 00:00:00'); /* Monster Fight Bookie */
+VALUES (0x733DA049, 38995, 0x33DA0024, 99.898, 94.171, 60.005, -0.480331, 0, 0, -0.877087,  True, '2019-02-10 00:00:00'); /* Monster Fight Bookie */
 /* @teleloc 0x33DA0024 [99.898000 94.171000 60.005000] -0.480331 0.000000 0.000000 -0.877087 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA040, 38988, 0x33DA001C, 85, 85, 60.0066, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Glormigoth */
+VALUES (0x733DA04A, 38988, 0x33DA001C, 85, 85, 60.0066, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Glormigoth */
 /* @teleloc 0x33DA001C [85.000000 85.000000 60.006600] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA041, 38987, 0x33DA001C, 89, 91.66666, 60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Korgluuk of Bur */
+VALUES (0x733DA04B, 38987, 0x33DA001C, 89, 91.66666, 60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Korgluuk of Bur */
 /* @teleloc 0x33DA001C [89.000000 91.666660 60.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA042, 38986, 0x33DA001C, 85, 93, 60.0066, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Darcusch the Barbarian */
+VALUES (0x733DA04C, 38986, 0x33DA001C, 85, 93, 60.0066, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Darcusch the Barbarian */
 /* @teleloc 0x33DA001C [85.000000 93.000000 60.006600] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA043, 38985, 0x33DA001C, 85, 89, 60.012, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Warrior Corthos */
+VALUES (0x733DA04D, 38985, 0x33DA001C, 85, 89, 60.012, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Warrior Corthos */
 /* @teleloc 0x33DA001C [85.000000 89.000000 60.012000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA044, 38984, 0x33DA001C, 93, 85, 60.0065, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Hea Tnakarea */
+VALUES (0x733DA04E, 38984, 0x33DA001C, 93, 85, 60.0065, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Hea Tnakarea */
 /* @teleloc 0x33DA001C [93.000000 85.000000 60.006500] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA045, 38983, 0x33DA001C, 89, 93.57143, 60.0077, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Champion Bulgara */
+VALUES (0x733DA04F, 38983, 0x33DA001C, 89, 93.57143, 60.0077, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Champion Bulgara */
 /* @teleloc 0x33DA001C [89.000000 93.571430 60.007700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA046, 38982, 0x33DA001C, 89, 85, 60.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chief Grogbash */
+VALUES (0x733DA050, 38982, 0x33DA001C, 89, 85, 60.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chief Grogbash */
 /* @teleloc 0x33DA001C [89.000000 85.000000 60.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA047, 38981, 0x33DA001C, 93, 89, 60.0049, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Kerthump the Ear Taker */
+VALUES (0x733DA051, 38981, 0x33DA001C, 93, 89, 60.0049, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Kerthump the Ear Taker */
 /* @teleloc 0x33DA001C [93.000000 89.000000 60.004900] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA048, 38990, 0x33DA001D, 92.4851, 99.2742, 60.005, 0.47699, 0, 0, -0.878909,  True, '2019-02-10 00:00:00'); /* Monster Fights Announcer */
+VALUES (0x733DA052, 38990, 0x33DA001D, 92.4851, 99.2742, 60.005, 0.47699, 0, 0, -0.878909,  True, '2019-02-10 00:00:00'); /* Monster Fights Announcer */
 /* @teleloc 0x33DA001D [92.485100 99.274200 60.005000] 0.476990 0.000000 0.000000 -0.878909 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA049, 38987, 0x33DA001C, 90.1547, 88.33334, 60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Korgluuk of Bur */
+VALUES (0x733DA053, 38987, 0x33DA001C, 90.1547, 88.33334, 60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Korgluuk of Bur */
 /* @teleloc 0x33DA001C [90.154700 88.333340 60.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA04A, 38983, 0x33DA001C, 89, 93, 60.0077, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Champion Bulgara */
+VALUES (0x733DA054, 38983, 0x33DA001C, 89, 93, 60.0077, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Champion Bulgara */
 /* @teleloc 0x33DA001C [89.000000 93.000000 60.007700] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA04B, 38982, 0x33DA001C, 89.66666, 85, 60.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chief Grogbash */
+VALUES (0x733DA055, 38982, 0x33DA001C, 89.66666, 85, 60.00825, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chief Grogbash */
 /* @teleloc 0x33DA001C [89.666660 85.000000 60.008250] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA04C, 38981, 0x33DA001C, 93.49487, 89.28571, 60.0049, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Kerthump the Ear Taker */
+VALUES (0x733DA056, 38981, 0x33DA001C, 93.49487, 89.28571, 60.0049, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Kerthump the Ear Taker */
 /* @teleloc 0x33DA001C [93.494870 89.285710 60.004900] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x733DA04D, 38987, 0x33DA001C, 89, 89, 60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Korgluuk of Bur */
+VALUES (0x733DA057, 38987, 0x33DA001C, 89, 89, 60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Korgluuk of Bur */
 /* @teleloc 0x33DA001C [89.000000 89.000000 60.000000] 0.923880 0.000000 0.000000 -0.382684 */

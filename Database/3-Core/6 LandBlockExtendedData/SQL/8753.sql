@@ -33,7 +33,12 @@ VALUES (0x78753001, 0x78753002, '2019-02-10 00:00:00') /* Silver Scope Trooper (
      , (0x78753001, 0x7875301B, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
      , (0x78753001, 0x7875301C, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
      , (0x78753001, 0x7875301D, '2019-02-10 00:00:00') /* Iron Blade Trooper (41575) */
-     , (0x78753001, 0x7875301E, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */;
+     , (0x78753001, 0x7875301E, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78753001, 0x7875301F, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */
+     , (0x78753001, 0x78753020, '2019-02-10 00:00:00') /* Bronze Gauntlet Trooper (41572) */
+     , (0x78753001, 0x78753021, '2019-02-10 00:00:00') /* Copper Cog Trooper (41573) */
+     , (0x78753001, 0x78753022, '2019-02-10 00:00:00') /* Gold Gear Trooper (41574) */
+     , (0x78753001, 0x78753023, '2019-02-10 00:00:00') /* Silver Scope Trooper (41576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78753002, 41576, 0x87530016, 50.77351, 140.0114, 7.54375, 0.789404, 0, 0, 0.613874,  True, '2019-02-10 00:00:00'); /* Silver Scope Trooper */
@@ -152,22 +157,42 @@ VALUES (0x7875301E, 41572, 0x87530024, 99.34326, 85.16016, 0.6307145, -0.9659299
 /* @teleloc 0x87530024 [99.343260 85.160160 0.630715] -0.965930 0.000000 0.000000 -0.258804 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7875301F,  1542, 0x87530024, 101.8385, 88.59593, 1.897875, -0.96593, 0, 0, -0.258804, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7875301F, 41576, 0x87530016, 58.53146, 141.4239, 6.9137, 0.789404, 0, 0, 0.613874,  True, '2019-02-10 00:00:00'); /* Silver Scope Trooper */
+/* @teleloc 0x87530016 [58.531460 141.423900 6.913700] 0.789404 0.000000 0.000000 0.613874 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78753020, 41572, 0x87530016, 70.23903, 139.334, 5.76391, 0.789404, 0, 0, 0.613874,  True, '2019-02-10 00:00:00'); /* Bronze Gauntlet Trooper */
+/* @teleloc 0x87530016 [70.239030 139.334000 5.763910] 0.789404 0.000000 0.000000 0.613874 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78753021, 41573, 0x87530016, 56.76773, 130.804, 6.544712, 0.789404, 0, 0, 0.613874,  True, '2019-02-10 00:00:00'); /* Copper Cog Trooper */
+/* @teleloc 0x87530016 [56.767730 130.804000 6.544712] 0.789404 0.000000 0.000000 0.613874 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78753022, 41574, 0x8753001C, 91.46019, 73.3792, 2.120934, -0.96593, 0, 0, -0.258804,  True, '2019-02-10 00:00:00'); /* Gold Gear Trooper */
+/* @teleloc 0x8753001C [91.460190 73.379200 2.120934] -0.965930 0.000000 0.000000 -0.258804 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78753023, 41576, 0x8753001C, 95.35236, 86.92652, 0.8700645, -0.9659299, 0, 0, -0.258804,  True, '2019-02-10 00:00:00'); /* Silver Scope Trooper */
+/* @teleloc 0x8753001C [95.352360 86.926520 0.870065] -0.965930 0.000000 0.000000 -0.258804 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78753024,  1542, 0x87530024, 101.8385, 88.59593, 1.897875, -0.96593, 0, 0, -0.258804, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x87530024 [101.838500 88.595930 1.897875] -0.965930 0.000000 0.000000 -0.258804 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7875301F, 0x78753020, '2019-02-10 00:00:00') /* Alb'arean Ore (46286) */
-     , (0x7875301F, 0x78753021, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */
-     , (0x7875301F, 0x78753022, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */;
+VALUES (0x78753024, 0x78753025, '2019-02-10 00:00:00') /* Alb'arean Ore (46286) */
+     , (0x78753024, 0x78753026, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */
+     , (0x78753024, 0x78753027, '2019-02-10 00:00:00') /* Depleted Aetherium Ore (41566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78753020, 46286, 0x87530024, 101.8385, 88.59593, 1.897875, -0.96593, 0, 0, -0.258804,  True, '2019-02-10 00:00:00'); /* Alb'arean Ore */
+VALUES (0x78753025, 46286, 0x87530024, 101.8385, 88.59593, 1.897875, -0.96593, 0, 0, -0.258804,  True, '2019-02-10 00:00:00'); /* Alb'arean Ore */
 /* @teleloc 0x87530024 [101.838500 88.595930 1.897875] -0.965930 0.000000 0.000000 -0.258804 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78753021, 41566, 0x8753003C, 176.2417, 82.0585, 2.370789, 0.6765811, 0, 0, 0.7363681,  True, '2019-02-10 00:00:00'); /* Depleted Aetherium Ore */
+VALUES (0x78753026, 41566, 0x8753003C, 176.2417, 82.0585, 2.370789, 0.6765811, 0, 0, 0.7363681,  True, '2019-02-10 00:00:00'); /* Depleted Aetherium Ore */
 /* @teleloc 0x8753003C [176.241700 82.058500 2.370789] 0.676581 0.000000 0.000000 0.736368 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78753022, 41566, 0x8753003D, 173.9656, 98.21107, 2.6438, 0.6765811, 0, 0, 0.7363681,  True, '2019-02-10 00:00:00'); /* Depleted Aetherium Ore */
+VALUES (0x78753027, 41566, 0x8753003D, 173.9656, 98.21107, 2.6438, 0.6765811, 0, 0, 0.7363681,  True, '2019-02-10 00:00:00'); /* Depleted Aetherium Ore */
 /* @teleloc 0x8753003D [173.965600 98.211070 2.643800] 0.676581 0.000000 0.000000 0.736368 */

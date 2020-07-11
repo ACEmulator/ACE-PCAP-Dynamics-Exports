@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x74193001, 0x74193002, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
      , (0x74193001, 0x74193003, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
      , (0x74193001, 0x74193004, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
-     , (0x74193001, 0x74193005, '2019-02-10 00:00:00') /* Dark Master (24319) */;
+     , (0x74193001, 0x74193005, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74193001, 0x74193006, '2019-02-10 00:00:00') /* Coral Golem (36828) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74193002, 36834, 0x41930009, 35.59335, 1.633671, 0.2822785, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
@@ -25,3 +26,7 @@ VALUES (0x74193004,  7112, 0x41930011, 59.99655, 5.488207, -0.1, 0.1813586, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74193005, 24319, 0x41930009, 31.69571, 10.94055, 1.831676, 0.1813586, 0, 0, -0.983417,  True, '2019-02-10 00:00:00'); /* Dark Master */
 /* @teleloc 0x41930009 [31.695710 10.940550 1.831676] 0.181359 0.000000 0.000000 -0.983417 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74193006, 36828, 0x4193000A, 35.97057, 41.47076, 2.554103, 0.1813586, 0, 0, -0.983417,  True, '2019-02-10 00:00:00'); /* Coral Golem */
+/* @teleloc 0x4193000A [35.970570 41.470760 2.554103] 0.181359 0.000000 0.000000 -0.983417 */

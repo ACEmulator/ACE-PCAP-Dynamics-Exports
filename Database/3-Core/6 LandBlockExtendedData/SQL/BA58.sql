@@ -19,7 +19,12 @@ VALUES (0x7BA58001, 0x7BA58002, '2019-02-10 00:00:00') /* Virulent Grievver (797
      , (0x7BA58001, 0x7BA5800D, '2019-02-10 00:00:00') /* Mud Golem (200) */
      , (0x7BA58001, 0x7BA5800E, '2019-02-10 00:00:00') /* Mud Golem (200) */
      , (0x7BA58001, 0x7BA5800F, '2019-02-10 00:00:00') /* Mud Golem (200) */
-     , (0x7BA58001, 0x7BA58010, '2019-02-10 00:00:00') /* Mud Golem (200) */;
+     , (0x7BA58001, 0x7BA58010, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7BA58001, 0x7BA58011, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BA58001, 0x7BA58012, '2019-02-10 00:00:00') /* Black Rat (218) */
+     , (0x7BA58001, 0x7BA58013, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
+     , (0x7BA58001, 0x7BA58014, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7BA58001, 0x7BA58015, '2019-02-10 00:00:00') /* Russet Rat (4132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA58002,  7979, 0xBA580011, 67.63423, 4.820679, 38.84387, -0.03260146, 0, 0, -0.9994684,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
@@ -80,3 +85,23 @@ VALUES (0x7BA5800F,   200, 0xBA58003C, 171.2845, 90.34532, 28.48222, -0.9281819,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA58010,   200, 0xBA58003C, 173.7773, 80.48205, 29.30416, -0.9281819, 0, 0, -0.3721269,  True, '2019-02-10 00:00:00'); /* Mud Golem */
 /* @teleloc 0xBA58003C [173.777300 80.482050 29.304160] -0.928182 0.000000 0.000000 -0.372127 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA58011,   218, 0xBA58000C, 42.20909, 86.04623, 37.53364, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Rat */
+/* @teleloc 0xBA58000C [42.209090 86.046230 37.533640] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA58012,   218, 0xBA58000C, 45.31657, 92.13422, 37.53364, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Rat */
+/* @teleloc 0xBA58000C [45.316570 92.134220 37.533640] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA58013,  7991, 0xBA58001C, 82.76637, 73.47002, 32.98251, 0.3196311, 0, 0, -0.9475421,  True, '2019-02-10 00:00:00'); /* Tiofor Ursuin */
+/* @teleloc 0xBA58001C [82.766370 73.470020 32.982510] 0.319631 0.000000 0.000000 -0.947542 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA58014,   182, 0xBA58001C, 72.63993, 94.86346, 32.04903, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
+/* @teleloc 0xBA58001C [72.639930 94.863460 32.049030] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA58015,  4132, 0xBA580026, 118.4413, 121.4942, 29.88548, -0.5063335, 0, 0, -0.8623378,  True, '2019-02-10 00:00:00'); /* Russet Rat */
+/* @teleloc 0xBA580026 [118.441300 121.494200 29.885480] -0.506334 0.000000 0.000000 -0.862338 */

@@ -10,7 +10,8 @@ VALUES (0x73568001, 0x73568002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (
      , (0x73568001, 0x73568004, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
      , (0x73568001, 0x73568005, '2019-02-10 00:00:00') /* Diamond Lord (11991) */
      , (0x73568001, 0x73568006, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
-     , (0x73568001, 0x73568007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */;
+     , (0x73568001, 0x73568007, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
+     , (0x73568001, 0x73568008, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73568002, 36829, 0x3568003B, 176.3614, 50.89491, 70.92108, -0.7068437, 0, 0, -0.7073697,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -35,3 +36,7 @@ VALUES (0x73568006,  4216, 0x35680038, 160.3125, 185.0937, 69.36938, 0.204147, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73568007,  4216, 0x35680038, 155.1205, 180.7365, 68.92479, 0.204147, 0, 0, -0.9789402,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x35680038 [155.120500 180.736500 68.924790] 0.204147 0.000000 0.000000 -0.978940 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73568008, 36858, 0x35680032, 161.8933, 29.9614, 71.99116, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
+/* @teleloc 0x35680032 [161.893300 29.961400 71.991160] 0.707107 0.000000 0.000000 -0.707107 */

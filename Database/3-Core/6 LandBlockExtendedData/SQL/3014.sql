@@ -17,7 +17,9 @@ VALUES (0x73014001, 0x73014002, '2019-02-10 00:00:00') /* Great Skeleton (36858)
      , (0x73014001, 0x7301400B, '2019-02-10 00:00:00') /* Phantasm (24325) */
      , (0x73014001, 0x7301400C, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
      , (0x73014001, 0x7301400D, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
-     , (0x73014001, 0x7301400E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
+     , (0x73014001, 0x7301400E, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x73014001, 0x7301400F, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x73014001, 0x73014010, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73014002, 36858, 0x30140008, 20.9051, 170.8855, 14.0025, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
@@ -70,3 +72,11 @@ VALUES (0x7301400D,  7119, 0x3014002B, 139.6781, 55.27224, 14.61252, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7301400E, 23616, 0x30140016, 60.8261, 139.2902, 14, 0.8024647, 0, 0, -0.5966996,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
 /* @teleloc 0x30140016 [60.826100 139.290200 14.000000] 0.802465 0.000000 0.000000 -0.596700 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7301400F, 36858, 0x30140032, 163.7263, 37.14759, 13.09813, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Great Skeleton */
+/* @teleloc 0x30140032 [163.726300 37.147590 13.098130] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73014010,  7121, 0x30140032, 162.7196, 34.50439, 12.87787, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+/* @teleloc 0x30140032 [162.719600 34.504390 12.877870] 0.819152 0.000000 0.000000 -0.573577 */

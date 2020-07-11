@@ -33,7 +33,14 @@ VALUES (0x73036001, 0x73036002, '2019-02-10 00:00:00') /* Banderling Savage (242
      , (0x73036001, 0x7303601B, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
      , (0x73036001, 0x7303601C, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */
      , (0x73036001, 0x7303601D, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
-     , (0x73036001, 0x7303601E, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */;
+     , (0x73036001, 0x7303601E, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73036001, 0x7303601F, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73036001, 0x73036020, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
+     , (0x73036001, 0x73036021, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
+     , (0x73036001, 0x73036022, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73036001, 0x73036023, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73036001, 0x73036024, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x73036001, 0x73036025, '2019-02-10 00:00:00') /* Vapor Golem (7099) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73036002, 24276, 0x3036003D, 188.3009, 110.9306, 80.00715, -0.2978422, 0, 0, -0.9546151,  True, '2019-02-10 00:00:00'); /* Banderling Savage */
@@ -152,12 +159,40 @@ VALUES (0x7303601E, 36845, 0x30360030, 126.7844, 187.5581, 84.005, 0.8889884, 0,
 /* @teleloc 0x30360030 [126.784400 187.558100 84.005000] 0.888988 0.000000 0.000000 -0.457930 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7303601F,  1542, 0x30360006, 6.996421, 124.6503, 81.41176, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7303601F, 23482, 0x3036003D, 176.8889, 103.1522, 80, -0.2978422, 0, 0, -0.9546151,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x3036003D [176.888900 103.152200 80.000000] -0.297842 0.000000 0.000000 -0.954615 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036020, 36845, 0x3036003D, 176.0351, 118.9883, 80.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
+/* @teleloc 0x3036003D [176.035100 118.988300 80.005000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036021, 36853, 0x3036003D, 178.8176, 119.4962, 80.005, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x3036003D [178.817600 119.496200 80.005000] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036022, 36854, 0x3036003D, 171.8493, 117.5055, 80.0055, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x3036003D [171.849300 117.505500 80.005500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036023, 36854, 0x3036003E, 174.857, 121.5047, 80.1309, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x3036003E [174.857000 121.504700 80.130900] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036024, 10810, 0x30360030, 131.2512, 172.3458, 84.0132, 0.8889884, 0, 0, -0.4579297,  True, '2019-02-10 00:00:00'); /* Rampager */
+/* @teleloc 0x30360030 [131.251200 172.345800 84.013200] 0.888988 0.000000 0.000000 -0.457930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036025,  7099, 0x30360030, 126.8334, 178.2361, 84.01, 0.8889884, 0, 0, -0.4579297,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
+/* @teleloc 0x30360030 [126.833400 178.236100 84.010000] 0.888988 0.000000 0.000000 -0.457930 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73036026,  1542, 0x30360006, 6.996421, 124.6503, 81.41176, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x30360006 [6.996421 124.650300 81.411760] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7303601F, 0x73036020, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x73036026, 0x73036027, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73036020,  4380, 0x30360006, 6.996421, 124.6503, 81.41176, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x73036027,  4380, 0x30360006, 6.996421, 124.6503, 81.41176, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x30360006 [6.996421 124.650300 81.411760] 0.000000 0.000000 0.000000 -1.000000 */

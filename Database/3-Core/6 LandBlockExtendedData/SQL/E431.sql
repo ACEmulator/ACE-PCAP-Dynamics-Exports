@@ -12,7 +12,10 @@ VALUES (0x7E431001, 0x7E431002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7E431001, 0x7E431006, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7E431001, 0x7E431007, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7E431001, 0x7E431008, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
-     , (0x7E431001, 0x7E431009, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7E431001, 0x7E431009, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E431001, 0x7E43100A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E431001, 0x7E43100B, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E431001, 0x7E43100C, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E431002, 24937, 0xE4310015, 67.86315, 110.828, 76.28498, 0.09307823, 0, 0, -0.9956588,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -47,12 +50,24 @@ VALUES (0x7E431009, 24937, 0xE4310004, 3.577129, 87.7737, 81.06496, 0.3531839, 0
 /* @teleloc 0xE4310004 [3.577129 87.773700 81.064960] 0.353184 0.000000 0.000000 -0.935554 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E43100A,  1542, 0xE4310020, 74.97924, 182.9895, 59.25567, -0.5984401, 0, 0, -0.8011676, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E43100A,  2567, 0xE4310005, 16.64891, 103.8653, 77.30171, 0.3531839, 0, 0, -0.9355539,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xE4310005 [16.648910 103.865300 77.301710] 0.353184 0.000000 0.000000 -0.935554 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E43100B,  2567, 0xE4310015, 68.56936, 115.8567, 75.03582, 0.09307823, 0, 0, -0.9956588,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xE4310015 [68.569360 115.856700 75.035820] 0.093078 0.000000 0.000000 -0.995659 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E43100C, 24937, 0xE431001C, 74.56526, 86.4127, 82.38882, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xE431001C [74.565260 86.412700 82.388820] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E43100D,  1542, 0xE4310020, 74.97924, 182.9895, 59.25567, -0.5984401, 0, 0, -0.8011676, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE4310020 [74.979240 182.989500 59.255670] -0.598440 0.000000 0.000000 -0.801168 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E43100A, 0x7E43100B, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */;
+VALUES (0x7E43100D, 0x7E43100E, '2019-02-10 00:00:00') /* Encapsulated Spirit (49485) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E43100B, 49485, 0xE4310020, 74.97924, 182.9895, 59.25567, -0.5984401, 0, 0, -0.8011676,  True, '2019-02-10 00:00:00'); /* Encapsulated Spirit */
+VALUES (0x7E43100E, 49485, 0xE4310020, 74.97924, 182.9895, 59.25567, -0.5984401, 0, 0, -0.8011676,  True, '2019-02-10 00:00:00'); /* Encapsulated Spirit */
 /* @teleloc 0xE4310020 [74.979240 182.989500 59.255670] -0.598440 0.000000 0.000000 -0.801168 */

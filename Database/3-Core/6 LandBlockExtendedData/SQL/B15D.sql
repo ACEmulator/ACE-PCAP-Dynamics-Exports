@@ -576,7 +576,10 @@ VALUES (0x7B15D089, 0x7B15D08A, '2019-02-10 00:00:00') /* Glyph of War Magic (37
      , (0x7B15D089, 0x7B15D097, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
      , (0x7B15D089, 0x7B15D098, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
      , (0x7B15D089, 0x7B15D099, '2019-02-10 00:00:00') /* Major Mana Stone (27328) */
-     , (0x7B15D089, 0x7B15D09A, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x7B15D089, 0x7B15D09A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B15D089, 0x7B15D09B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B15D089, 0x7B15D09C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7B15D089, 0x7B15D09D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B15D08A, 37340, 0xB15D0024, 99.71482, 82.16821, 35.999, -0.8433377, 0, 0, -0.537384,  True, '2019-02-10 00:00:00'); /* Glyph of War Magic */
@@ -645,3 +648,15 @@ VALUES (0x7B15D099, 27328, 0xB15D0024, 105.3985, 91.39489, 36, -0.9881641, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B15D09A,  1955, 0xB15D0024, 108.1836, 90.9088, 35.937, 0.007513766, 0, 0, -0.9999717,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xB15D0024 [108.183600 90.908800 35.937000] 0.007514 0.000000 0.000000 -0.999972 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B15D09B,  1955, 0xB15D001C, 88.31962, 87.31359, 35.937, -0.6569443, 0, 0, -0.7539391,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xB15D001C [88.319620 87.313590 35.937000] -0.656944 0.000000 0.000000 -0.753939 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B15D09C,  1955, 0xB15D001C, 79.37012, 79.32267, 35.937, 0.997028, 0, 0, -0.07703978,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xB15D001C [79.370120 79.322670 35.937000] 0.997028 0.000000 0.000000 -0.077040 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B15D09D,  1955, 0xB15D0024, 104.2691, 95.11035, 35.937, 0.819095, 0, 0, -0.5736579,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xB15D0024 [104.269100 95.110350 35.937000] 0.819095 0.000000 0.000000 -0.573658 */

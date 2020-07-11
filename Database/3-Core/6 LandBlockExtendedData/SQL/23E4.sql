@@ -25,7 +25,11 @@ VALUES (0x723E4001, 0x723E4002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) *
      , (0x723E4001, 0x723E4013, '2019-02-10 00:00:00') /* Porcini Thrungus (29296) */
      , (0x723E4001, 0x723E4014, '2019-02-10 00:00:00') /* Button Thrungus (28672) */
      , (0x723E4001, 0x723E4015, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
-     , (0x723E4001, 0x723E4016, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */;
+     , (0x723E4001, 0x723E4016, '2019-02-10 00:00:00') /* Shiitake Thrungus (28676) */
+     , (0x723E4001, 0x723E4017, '2019-02-10 00:00:00') /* Banderling Rogue (1462) */
+     , (0x723E4001, 0x723E4018, '2019-02-10 00:00:00') /* Maddened Fiun (28646) */
+     , (0x723E4001, 0x723E4019, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x723E4001, 0x723E401A, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E4002,  1762, 0x23E40017, 64.84338, 158.5553, 93.45067, -0.9999716, 0, 0, -0.007534584,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -110,3 +114,19 @@ VALUES (0x723E4015,  7992, 0x23E40009, 34.53793, 2.202497, 80.18614, -0.1904647,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723E4016, 28676, 0x23E40009, 25.21846, 20.39438, 81.69953, -0.9929788, 0, 0, -0.1182926,  True, '2019-02-10 00:00:00'); /* Shiitake Thrungus */
 /* @teleloc 0x23E40009 [25.218460 20.394380 81.699530] -0.992979 0.000000 0.000000 -0.118293 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E4017,  1462, 0x23E40001, 4.015411, 3.449316, 82.77177, -0.9721403, 0, 0, -0.2343999,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */
+/* @teleloc 0x23E40001 [4.015411 3.449316 82.771770] -0.972140 0.000000 0.000000 -0.234400 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E4018, 28646, 0x23E4000A, 37.15079, 24.35548, 82.07323, -0.1904647, 0, 0, -0.981694,  True, '2019-02-10 00:00:00'); /* Maddened Fiun */
+/* @teleloc 0x23E4000A [37.150790 24.355480 82.073230] -0.190465 0.000000 0.000000 -0.981694 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E4019,  9255, 0x23E4000A, 32.65225, 37.09015, 85.64862, -0.9929788, 0, 0, -0.1182926,  True, '2019-02-10 00:00:00'); /* Dread Mu-miyah */
+/* @teleloc 0x23E4000A [32.652250 37.090150 85.648620] -0.992979 0.000000 0.000000 -0.118293 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723E401A,  7121, 0x23E40012, 68.84064, 34.38878, 87.20215, 0.04423517, 0, 0, -0.9990212,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+/* @teleloc 0x23E40012 [68.840640 34.388780 87.202150] 0.044235 0.000000 0.000000 -0.999021 */

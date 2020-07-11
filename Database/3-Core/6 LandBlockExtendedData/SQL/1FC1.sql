@@ -50,7 +50,11 @@ VALUES (0x71FC1001, 0x71FC1002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (2
      , (0x71FC1001, 0x71FC102C, '2019-02-10 00:00:00') /* Hea Champion (27714) */
      , (0x71FC1001, 0x71FC102D, '2019-02-10 00:00:00') /* Hea Champion (27714) */
      , (0x71FC1001, 0x71FC102E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
-     , (0x71FC1001, 0x71FC102F, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
+     , (0x71FC1001, 0x71FC102F, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71FC1001, 0x71FC1030, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71FC1001, 0x71FC1031, '2019-02-10 00:00:00') /* Synnast (7094) */
+     , (0x71FC1001, 0x71FC1032, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71FC1001, 0x71FC1033, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC1002, 27708, 0x1FC1003B, 174.0007, 64.36544, 102.6362, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */
@@ -237,42 +241,58 @@ VALUES (0x71FC102F, 27714, 0x1FC1000F, 47.34793, 144.3652, 93.8913, 1, 0, 0, 0, 
 /* @teleloc 0x1FC1000F [47.347930 144.365200 93.891300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1030,  1542, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71FC1030, 10954, 0x1FC10016, 53.53801, 137.7452, 95.07147, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
+/* @teleloc 0x1FC10016 [53.538010 137.745200 95.071470] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71FC1031,  7094, 0x1FC1001E, 79.50211, 132.2562, 95.34063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Synnast */
+/* @teleloc 0x1FC1001E [79.502110 132.256200 95.340630] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71FC1032,  7340, 0x1FC10017, 51.57074, 147.1568, 93.50286, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+/* @teleloc 0x1FC10017 [51.570740 147.156800 93.502860] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71FC1033,  7340, 0x1FC1000F, 40.77296, 152.6481, 92.10383, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+/* @teleloc 0x1FC1000F [40.772960 152.648100 92.103830] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71FC1034,  1542, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x1FC1003B [173.029100 69.700270 102.341600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71FC1030, 0x71FC1031, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
-     , (0x71FC1030, 0x71FC1032, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
-     , (0x71FC1030, 0x71FC1033, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x71FC1030, 0x71FC1034, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
-     , (0x71FC1030, 0x71FC1035, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
-     , (0x71FC1030, 0x71FC1036, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
-     , (0x71FC1030, 0x71FC1037, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */;
+VALUES (0x71FC1034, 0x71FC1035, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71FC1034, 0x71FC1036, '2019-02-10 00:00:00') /* Cooking Gear (9024) */
+     , (0x71FC1034, 0x71FC1037, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x71FC1034, 0x71FC1038, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */
+     , (0x71FC1034, 0x71FC1039, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71FC1034, 0x71FC103A, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x71FC1034, 0x71FC103B, '2019-02-10 00:00:00') /* Simple Hive Portal (11223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1031, 27719, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
+VALUES (0x71FC1035, 27719, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
 /* @teleloc 0x1FC1003B [173.029100 69.700270 102.341600] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1032,  9024, 0x1FC1003B, 178.9243, 61.54823, 102.931, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */
+VALUES (0x71FC1036,  9024, 0x1FC1003B, 178.9243, 61.54823, 102.931, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cooking Gear */
 /* @teleloc 0x1FC1003B [178.924300 61.548230 102.931000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1033,  4179, 0x1FC1003B, 178.9243, 61.49202, 102.8757, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x71FC1037,  4179, 0x1FC1003B, 178.9243, 61.49202, 102.8757, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x1FC1003B [178.924300 61.492020 102.875700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1034, 27719, 0x1FC1000F, 45.17479, 159.5417, 92.384, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
+VALUES (0x71FC1038, 27719, 0x1FC1000F, 45.17479, 159.5417, 92.384, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
 /* @teleloc 0x1FC1000F [45.174790 159.541700 92.384000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1035, 11225, 0x1FC1000F, 43.7843, 156.5755, 92.18643, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
+VALUES (0x71FC1039, 11225, 0x1FC1000F, 43.7843, 156.5755, 92.18643, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
 /* @teleloc 0x1FC1000F [43.784300 156.575500 92.186430] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1036, 11225, 0x1FC10018, 61.76585, 170.401, 92.14585, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
+VALUES (0x71FC103A, 11225, 0x1FC10018, 61.76585, 170.401, 92.14585, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
 /* @teleloc 0x1FC10018 [61.765850 170.401000 92.145850] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1037, 11223, 0x1FC10010, 47.72725, 181.7274, 92.14585, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Simple Hive Portal */
+VALUES (0x71FC103B, 11223, 0x1FC10010, 47.72725, 181.7274, 92.14585, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Simple Hive Portal */
 /* @teleloc 0x1FC10010 [47.727250 181.727400 92.145850] 1.000000 0.000000 0.000000 0.000000 */

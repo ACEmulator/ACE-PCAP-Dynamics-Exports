@@ -15,7 +15,8 @@ VALUES (0x78D8B001, 0x78D8B002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) *
      , (0x78D8B001, 0x78D8B009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x78D8B001, 0x78D8B00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x78D8B001, 0x78D8B00B, '2019-02-10 00:00:00') /* Wily Monouga (9253) */
-     , (0x78D8B001, 0x78D8B00C, '2019-02-10 00:00:00') /* Snowman (5766) */;
+     , (0x78D8B001, 0x78D8B00C, '2019-02-10 00:00:00') /* Snowman (5766) */
+     , (0x78D8B001, 0x78D8B00D, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D8B002,  1762, 0x8D8B000A, 42.75469, 42.56911, 46.0025, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -60,3 +61,7 @@ VALUES (0x78D8B00B,  9253, 0x8D8B0027, 99.07835, 159.6582, 49.991, 0.94989, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78D8B00C,  5766, 0x8D8B003D, 169.9135, 116.9955, 48, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
 /* @teleloc 0x8D8B003D [169.913500 116.995500 48.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78D8B00D,  2576, 0x8D8B0020, 77.82193, 172.5806, 51.12563, 0.94989, 0, 0, -0.3125843,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
+/* @teleloc 0x8D8B0020 [77.821930 172.580600 51.125630] 0.949890 0.000000 0.000000 -0.312584 */

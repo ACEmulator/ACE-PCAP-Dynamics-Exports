@@ -60,7 +60,9 @@ VALUES (0x77F63006, 0x77F63007, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) 
      , (0x77F63006, 0x77F63023, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x77F63006, 0x77F63024, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x77F63006, 0x77F63025, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
-     , (0x77F63006, 0x77F63026, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
+     , (0x77F63006, 0x77F63026, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77F63006, 0x77F63027, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x77F63006, 0x77F63028, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F63007, 19263, 0x7F630006, 15.76215, 135.8622, 13.31051, -0.4584712, 0, 0, -0.8887092,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
@@ -191,12 +193,20 @@ VALUES (0x77F63026, 19263, 0x7F630022, 103.249, 29.07624, 43.99031, -0.06071674,
 /* @teleloc 0x7F630022 [103.249000 29.076240 43.990310] -0.060717 0.000000 0.000000 -0.998155 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F63027,  1542, 0x7F63001F, 78.7461, 148.6273, 30.19251, 0.7651878, 0, 0, -0.6438071, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x77F63027, 19258, 0x7F63000E, 29.52471, 126.1953, 15.3845, -0.6611738, 0, 0, -0.7502328,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0x7F63000E [29.524710 126.195300 15.384500] -0.661174 0.000000 0.000000 -0.750233 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77F63028, 19263, 0x7F63000A, 41.57262, 31.93649, 20.51591, 0.8053516, 0, 0, -0.5927975,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0x7F63000A [41.572620 31.936490 20.515910] 0.805352 0.000000 0.000000 -0.592798 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77F63029,  1542, 0x7F63001F, 78.7461, 148.6273, 30.19251, 0.7651878, 0, 0, -0.6438071, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x7F63001F [78.746100 148.627300 30.192510] 0.765188 0.000000 0.000000 -0.643807 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F63027, 0x77F63028, '2019-02-10 00:00:00') /* Rock (42528) */;
+VALUES (0x77F63029, 0x77F6302A, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F63028, 42528, 0x7F63001F, 78.7461, 148.6273, 30.19251, 0.7651878, 0, 0, -0.6438071,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x77F6302A, 42528, 0x7F63001F, 78.7461, 148.6273, 30.19251, 0.7651878, 0, 0, -0.6438071,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x7F63001F [78.746100 148.627300 30.192510] 0.765188 0.000000 0.000000 -0.643807 */

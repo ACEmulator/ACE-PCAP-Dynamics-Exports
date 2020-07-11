@@ -27,7 +27,10 @@ VALUES (0x7E730001, 0x7E730002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) *
      , (0x7E730001, 0x7E730015, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7E730001, 0x7E730016, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E730001, 0x7E730017, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
-     , (0x7E730001, 0x7E730018, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */;
+     , (0x7E730001, 0x7E730018, '2019-02-10 00:00:00') /* Esper Ursuin (7992) */
+     , (0x7E730001, 0x7E730019, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E730001, 0x7E73001A, '2019-02-10 00:00:00') /* Obeloth Lugian (205) */
+     , (0x7E730001, 0x7E73001B, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E730002,  1608, 0xE730002D, 143.3434, 114.7734, 94.95877, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -122,27 +125,39 @@ VALUES (0x7E730018,  7992, 0xE730002D, 120.9168, 96.92285, 94.73016, -4.371139E-
 /* @teleloc 0xE730002D [120.916800 96.922850 94.730160] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E730019,  1542, 0xE7300004, 19.03969, 74.99873, 88.41335, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E730019, 24937, 0xE730001B, 92.88946, 70.42882, 93.86637, 0.7739184, 0, 0, -0.6332853,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xE730001B [92.889460 70.428820 93.866370] 0.773918 0.000000 0.000000 -0.633285 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E73001A,   205, 0xE7300003, 14.2808, 64.63605, 89.43359, -0.9980141, 0, 0, -0.06299128,  True, '2019-02-10 00:00:00'); /* Obeloth Lugian */
+/* @teleloc 0xE7300003 [14.280800 64.636050 89.433590] -0.998014 0.000000 0.000000 -0.062991 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E73001B,  9401, 0xE730002D, 128.8778, 114.147, 89.68269, -0.84983, 0, 0, -0.5270569,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
+/* @teleloc 0xE730002D [128.877800 114.147000 89.682690] -0.849830 0.000000 0.000000 -0.527057 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E73001C,  1542, 0xE7300004, 19.03969, 74.99873, 88.41335, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE7300004 [19.039690 74.998730 88.413350] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E730019, 0x7E73001A, '2019-02-10 00:00:00') /* Runed Chest (22570) */
-     , (0x7E730019, 0x7E73001B, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x7E730019, 0x7E73001C, '2019-02-10 00:00:00') /* Runed Chest (22570) */
-     , (0x7E730019, 0x7E73001D, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x7E73001C, 0x7E73001D, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7E73001C, 0x7E73001E, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7E73001C, 0x7E73001F, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x7E73001C, 0x7E730020, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E73001A, 22570, 0xE7300004, 19.03969, 74.99873, 88.41335, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7E73001D, 22570, 0xE7300004, 19.03969, 74.99873, 88.41335, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xE7300004 [19.039690 74.998730 88.413350] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E73001B,  4380, 0xE7300025, 109.6181, 110.2475, 94.73016, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7E73001E,  4380, 0xE7300025, 109.6181, 110.2475, 94.73016, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xE7300025 [109.618100 110.247500 94.730160] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E73001C, 22570, 0xE7300024, 118.2215, 82.23605, 95.14457, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7E73001F, 22570, 0xE7300024, 118.2215, 82.23605, 95.14457, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xE7300024 [118.221500 82.236050 95.144570] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E73001D,  1955, 0xE7300026, 111.9502, 128.8955, 83.0592, 0.9805914, 0, 0, -0.1960628,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7E730020,  1955, 0xE7300026, 111.9502, 128.8955, 83.0592, 0.9805914, 0, 0, -0.1960628,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xE7300026 [111.950200 128.895500 83.059200] 0.980591 0.000000 0.000000 -0.196063 */

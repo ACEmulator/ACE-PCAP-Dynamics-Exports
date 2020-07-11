@@ -19,7 +19,9 @@ VALUES (0x7323D001, 0x7323D002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) *
      , (0x7323D001, 0x7323D00D, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
      , (0x7323D001, 0x7323D00E, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
      , (0x7323D001, 0x7323D00F, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
-     , (0x7323D001, 0x7323D010, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
+     , (0x7323D001, 0x7323D010, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x7323D001, 0x7323D011, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x7323D001, 0x7323D012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323D002, 11536, 0x323D003C, 177.1685, 88.27333, 11.28778, 0.7681909, 0, 0, -0.6402209,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */
@@ -80,3 +82,11 @@ VALUES (0x7323D00F, 38180, 0x323D0034, 148.577, 73.23027, 14.51036, 0.7681909, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7323D010,  7125, 0x323D0004, 2.117554, 83.72779, 192.4131, 0.906697, 0, 0, -0.4217826,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
 /* @teleloc 0x323D0004 [2.117554 83.727790 192.413100] 0.906697 0.000000 0.000000 -0.421783 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7323D011, 23567, 0x323D0003, 9.946513, 64.85387, 191.0289, 0.906697, 0, 0, -0.4217826,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
+/* @teleloc 0x323D0003 [9.946513 64.853870 191.028900] 0.906697 0.000000 0.000000 -0.421783 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7323D012, 23566, 0x323D0004, 14.76114, 75.7901, 192.1109, 0.906697, 0, 0, -0.4217826,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
+/* @teleloc 0x323D0004 [14.761140 75.790100 192.110900] 0.906697 0.000000 0.000000 -0.421783 */

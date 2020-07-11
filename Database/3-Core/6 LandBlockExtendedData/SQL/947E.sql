@@ -18,7 +18,9 @@ VALUES (0x7947E001, 0x7947E002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7947E001, 0x7947E00C, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7947E001, 0x7947E00D, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
      , (0x7947E001, 0x7947E00E, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x7947E001, 0x7947E00F, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7947E001, 0x7947E00F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7947E001, 0x7947E010, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7947E001, 0x7947E011, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7947E002, 24937, 0x947E0007, 19.69715, 157.2696, 34.35057, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -75,3 +77,11 @@ VALUES (0x7947E00E, 24937, 0x947E0014, 48.8197, 79.86831, 35.992, 1, 0, 0, 0,  T
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7947E00F, 24937, 0x947E000F, 32.33018, 166.3909, 33.992, 0.9843175, 0, 0, -0.1764056,  True, '2019-02-10 00:00:00'); /* Chicken */
 /* @teleloc 0x947E000F [32.330180 166.390900 33.992000] 0.984318 0.000000 0.000000 -0.176406 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7947E010,  5429, 0x947E0006, 4.529997, 142.178, 35.6225, 0.9843175, 0, 0, -0.1764056,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0x947E0006 [4.529997 142.178000 35.622500] 0.984318 0.000000 0.000000 -0.176406 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7947E011,  5429, 0x947E000D, 39.1241, 117.1147, 34.24044, -0.969731, 0, 0, -0.2441758,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0x947E000D [39.124100 117.114700 34.240440] -0.969731 0.000000 0.000000 -0.244176 */

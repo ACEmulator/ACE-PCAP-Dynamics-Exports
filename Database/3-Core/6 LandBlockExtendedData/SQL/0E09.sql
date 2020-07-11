@@ -42,7 +42,8 @@ VALUES (0x70E09001, 0x70E09002, '2019-02-10 00:00:00') /* Malignant Marionette (
      , (0x70E09001, 0x70E09024, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
      , (0x70E09001, 0x70E09025, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
      , (0x70E09001, 0x70E09026, '2019-02-10 00:00:00') /* Giant Mite (25869) */
-     , (0x70E09001, 0x70E09027, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */;
+     , (0x70E09001, 0x70E09027, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70E09001, 0x70E09028, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E09002, 25867, 0x0E090002, 13.91986, 46.21146, 25.70241, 0.4876972, 0, 0, -0.8730128,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
@@ -195,3 +196,7 @@ VALUES (0x70E09026, 25869, 0x0E090002, 19.19712, 36.38809, 24.07318, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70E09027, 25888, 0x0E090011, 52.48037, 23.92487, 29.25759, 0.7204224, 0, 0, -0.6935356,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
 /* @teleloc 0x0E090011 [52.480370 23.924870 29.257590] 0.720422 0.000000 0.000000 -0.693536 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70E09028, 25888, 0x0E090001, 10.25123, 22.40313, 22.009, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x0E090001 [10.251230 22.403130 22.009000] 1.000000 0.000000 0.000000 0.000000 */

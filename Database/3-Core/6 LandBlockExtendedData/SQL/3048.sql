@@ -13,7 +13,9 @@ VALUES (0x73048001, 0x73048002, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (2348
      , (0x73048001, 0x73048007, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
      , (0x73048001, 0x73048008, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
      , (0x73048001, 0x73048009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
-     , (0x73048001, 0x7304800A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
+     , (0x73048001, 0x7304800A, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73048001, 0x7304800B, '2019-02-10 00:00:00') /* Sata Sclavus Lord (23487) */
+     , (0x73048001, 0x7304800C, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23484) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73048002, 23488, 0x3048003B, 186.1651, 53.8291, 2.916972, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus Lord */
@@ -50,3 +52,11 @@ VALUES (0x73048009, 24958, 0x3048003B, 189.0919, 61.3991, 2.323111, 0.6172805, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7304800A, 23482, 0x3048003B, 168.1371, 69.68243, 2.772522, 0.6172805, 0, 0, -0.7867431,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
 /* @teleloc 0x3048003B [168.137100 69.682430 2.772522] 0.617281 0.000000 0.000000 -0.786743 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7304800B, 23487, 0x3048003B, 175.9742, 56.03311, 7.322296, 0.6172805, 0, 0, -0.7867431,  True, '2019-02-10 00:00:00'); /* Sata Sclavus Lord */
+/* @teleloc 0x3048003B [175.974200 56.033110 7.322296] 0.617281 0.000000 0.000000 -0.786743 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7304800C, 23484, 0x30480033, 166.6135, 59.93862, 13.10317, 0.6172805, 0, 0, -0.7867431,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus Lord */
+/* @teleloc 0x30480033 [166.613500 59.938620 13.103170] 0.617281 0.000000 0.000000 -0.786743 */

@@ -31,8 +31,13 @@ VALUES (0x7CC61006,  1542, 0xCC610031, 163.1516, 21.16171, 6, -0.9938806, 0, 0, 
 /* @teleloc 0xCC610031 [163.151600 21.161710 6.000000] -0.993881 0.000000 0.000000 -0.110459 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC61006, 0x7CC61007, '2019-02-10 00:00:00') /* Colban Plant (11554) */;
+VALUES (0x7CC61006, 0x7CC61007, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x7CC61006, 0x7CC61008, '2019-02-10 00:00:00') /* Idol (8588) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC61007, 11554, 0xCC610031, 163.1516, 21.16171, 6, -0.9938806, 0, 0, -0.1104594,  True, '2019-02-10 00:00:00'); /* Colban Plant */
 /* @teleloc 0xCC610031 [163.151600 21.161710 6.000000] -0.993881 0.000000 0.000000 -0.110459 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CC61008,  8588, 0xCC610031, 149.515, 13.61019, 5.55, -0.9938806, 0, 0, -0.1104594,  True, '2019-02-10 00:00:00'); /* Idol */
+/* @teleloc 0xCC610031 [149.515000 13.610190 5.550000] -0.993881 0.000000 0.000000 -0.110459 */

@@ -113,7 +113,11 @@ VALUES (0x7050B001, 0x7050B002, '2019-02-10 00:00:00') /* Parfal Nefane (25875) 
      , (0x7050B001, 0x7050B067, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
      , (0x7050B001, 0x7050B068, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
      , (0x7050B001, 0x7050B069, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
-     , (0x7050B001, 0x7050B06A, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */;
+     , (0x7050B001, 0x7050B06A, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x7050B001, 0x7050B06B, '2019-02-10 00:00:00') /* Defiled Doll (25856) */
+     , (0x7050B001, 0x7050B06C, '2019-02-10 00:00:00') /* Parfal Nefane (25875) */
+     , (0x7050B001, 0x7050B06D, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */
+     , (0x7050B001, 0x7050B06E, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7050B002, 25875, 0x050B0011, 55.88327, 22.42257, 30.32135, 0.6744883, 0, 0, -0.7382855,  True, '2019-02-10 00:00:00'); /* Parfal Nefane */
@@ -536,12 +540,28 @@ VALUES (0x7050B06A, 25871, 0x050B0039, 172.5587, 16.25459, 17.14967, 0.9130983, 
 /* @teleloc 0x050B0039 [172.558700 16.254590 17.149670] 0.913098 0.000000 0.000000 -0.407740 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7050B06B,  1542, 0x050B0009, 42.00618, 0.2450186, 28.49774, 0.6744883, 0, 0, -0.7382855, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7050B06B, 25856, 0x050B000A, 37.46095, 29.21482, 33.41695, 0.6744883, 0, 0, -0.7382855,  True, '2019-02-10 00:00:00'); /* Defiled Doll */
+/* @teleloc 0x050B000A [37.460950 29.214820 33.416950] 0.674488 0.000000 0.000000 -0.738286 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7050B06C, 25875, 0x050B0011, 52.57313, 10.97079, 32.5226, 0.6744883, 0, 0, -0.7382855,  True, '2019-02-10 00:00:00'); /* Parfal Nefane */
+/* @teleloc 0x050B0011 [52.573130 10.970790 32.522600] 0.674488 0.000000 0.000000 -0.738286 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7050B06D, 25883, 0x050B002B, 143.9825, 67.89944, 14.0148, -0.9345708, 0, 0, -0.3557773,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
+/* @teleloc 0x050B002B [143.982500 67.899440 14.014800] -0.934571 0.000000 0.000000 -0.355777 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7050B06E, 25883, 0x050B0039, 177.1801, 23.66406, 19.77655, 0.9130983, 0, 0, -0.4077395,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
+/* @teleloc 0x050B0039 [177.180100 23.664060 19.776550] 0.913098 0.000000 0.000000 -0.407740 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7050B06F,  1542, 0x050B0009, 42.00618, 0.2450186, 28.49774, 0.6744883, 0, 0, -0.7382855, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x050B0009 [42.006180 0.245019 28.497740] 0.674488 0.000000 0.000000 -0.738286 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7050B06B, 0x7050B06C, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
+VALUES (0x7050B06F, 0x7050B070, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7050B06C, 27298, 0x050B0009, 42.00618, 0.2450186, 28.49774, 0.6744883, 0, 0, -0.7382855,  True, '2019-02-10 00:00:00'); /* The Orphanage */
+VALUES (0x7050B070, 27298, 0x050B0009, 42.00618, 0.2450186, 28.49774, 0.6744883, 0, 0, -0.7382855,  True, '2019-02-10 00:00:00'); /* The Orphanage */
 /* @teleloc 0x050B0009 [42.006180 0.245019 28.497740] 0.674488 0.000000 0.000000 -0.738286 */

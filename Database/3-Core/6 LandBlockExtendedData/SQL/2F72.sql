@@ -11,7 +11,9 @@ VALUES (0x72F72001, 0x72F72002, '2019-02-10 00:00:00') /* Banderling Slayer (242
      , (0x72F72001, 0x72F72005, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
      , (0x72F72001, 0x72F72006, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
      , (0x72F72001, 0x72F72007, '2019-02-10 00:00:00') /* Gold Golem (36832) */
-     , (0x72F72001, 0x72F72008, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
+     , (0x72F72001, 0x72F72008, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x72F72001, 0x72F72009, '2019-02-10 00:00:00') /* Brumal (20189) */
+     , (0x72F72001, 0x72F7200A, '2019-02-10 00:00:00') /* Horripal (20191) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F72002, 24277, 0x2F720034, 159.9228, 75.94602, 34.00715, -0.9593059, 0, 0, -0.2823687,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
@@ -40,3 +42,11 @@ VALUES (0x72F72007, 36832, 0x2F720035, 155.9421, 106.9428, 34.01, 0.9238795, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F72008, 36832, 0x2F720035, 155.8863, 103.3377, 34.01, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gold Golem */
 /* @teleloc 0x2F720035 [155.886300 103.337700 34.010000] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F72009, 20189, 0x2F72003F, 182.6581, 164.3494, 34.785, 0.8431826, 0, 0, -0.5376273,  True, '2019-02-10 00:00:00'); /* Brumal */
+/* @teleloc 0x2F72003F [182.658100 164.349400 34.785000] 0.843183 0.000000 0.000000 -0.537627 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F7200A, 20191, 0x2F72003F, 181.843, 160.0602, 34.84942, 0.8431826, 0, 0, -0.5376273,  True, '2019-02-10 00:00:00'); /* Horripal */
+/* @teleloc 0x2F72003F [181.843000 160.060200 34.849420] 0.843183 0.000000 0.000000 -0.537627 */

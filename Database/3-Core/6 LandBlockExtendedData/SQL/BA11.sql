@@ -26,7 +26,10 @@ VALUES (0x7BA11001, 0x7BA11002, '2019-02-10 00:00:00') /* Hoary Armoredillo (708
      , (0x7BA11001, 0x7BA11014, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
      , (0x7BA11001, 0x7BA11015, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
      , (0x7BA11001, 0x7BA11016, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
-     , (0x7BA11001, 0x7BA11017, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
+     , (0x7BA11001, 0x7BA11017, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x7BA11001, 0x7BA11018, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7BA11001, 0x7BA11019, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7BA11001, 0x7BA1101A, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA11002,  7084, 0xBA110026, 117.448, 141.6539, 80.72196, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
@@ -117,12 +120,24 @@ VALUES (0x7BA11017, 37101, 0xBA110027, 105.2979, 148.4075, 78.0504, 0.8870109, 0
 /* @teleloc 0xBA110027 [105.297900 148.407500 78.050400] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA11018,  1542, 0xBA11002F, 126.7261, 158.2094, 80.36516, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BA11018,  1758, 0xBA11000D, 37.59952, 109.9904, 117.3602, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0xBA11000D [37.599520 109.990400 117.360200] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA11019,  4254, 0xBA11000D, 31.50928, 113.0935, 117.976, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0xBA11000D [31.509280 113.093500 117.976000] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA1101A,  1757, 0xBA11000D, 34.05745, 106.751, 118.2885, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
+/* @teleloc 0xBA11000D [34.057450 106.751000 118.288500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA1101B,  1542, 0xBA11002F, 126.7261, 158.2094, 80.36516, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBA11002F [126.726100 158.209400 80.365160] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA11018, 0x7BA11019, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7BA1101B, 0x7BA1101C, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA11019,  4179, 0xBA11002F, 126.7261, 158.2094, 80.36516, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7BA1101C,  4179, 0xBA11002F, 126.7261, 158.2094, 80.36516, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xBA11002F [126.726100 158.209400 80.365160] 1.000000 0.000000 0.000000 0.000000 */

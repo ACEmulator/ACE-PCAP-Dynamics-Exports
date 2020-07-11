@@ -6,7 +6,8 @@ VALUES (0x72139001,  1154, 0x21390018, 57.83372, 185.1698, 3.428715, 0.8660254, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x72139001, 0x72139002, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
-     , (0x72139001, 0x72139003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
+     , (0x72139001, 0x72139003, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72139001, 0x72139004, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72139002,  7982, 0x21390018, 57.83372, 185.1698, 3.428715, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -15,3 +16,7 @@ VALUES (0x72139002,  7982, 0x21390018, 57.83372, 185.1698, 3.428715, 0.8660254, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72139003,  7982, 0x21390018, 64.19235, 183.6365, 3.393586, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
 /* @teleloc 0x21390018 [64.192350 183.636500 3.393586] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72139004,  7114, 0x21390010, 43.65877, 173.6017, 3.533364, -0.06517429, 0, 0, -0.9978739,  True, '2019-02-10 00:00:00'); /* Rendeath Shreth */
+/* @teleloc 0x21390010 [43.658770 173.601700 3.533364] -0.065174 0.000000 0.000000 -0.997874 */

@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x787C0001, 0x787C0002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
      , (0x787C0001, 0x787C0003, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
      , (0x787C0001, 0x787C0004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
-     , (0x787C0001, 0x787C0005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */;
+     , (0x787C0001, 0x787C0005, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x787C0001, 0x787C0006, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787C0002, 11533, 0x87C00036, 144.7021, 126.838, 96.93181, -0.9999599, 0, 0, -0.008959563,  True, '2019-02-10 00:00:00'); /* Azael Zefir */
@@ -25,3 +26,7 @@ VALUES (0x787C0004,     3, 0x87C00012, 70.61077, 46.52625, 129.8772, -0.3459206,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x787C0005,  7090, 0x87C00010, 40.15385, 188.2501, 86.7398, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
 /* @teleloc 0x87C00010 [40.153850 188.250100 86.739800] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x787C0006, 22810, 0x87C00011, 67.91047, 23.06591, 128.4258, -0.3459206, 0, 0, -0.9382638,  True, '2019-02-10 00:00:00'); /* Banderling Rogue */
+/* @teleloc 0x87C00011 [67.910470 23.065910 128.425800] -0.345921 0.000000 0.000000 -0.938264 */

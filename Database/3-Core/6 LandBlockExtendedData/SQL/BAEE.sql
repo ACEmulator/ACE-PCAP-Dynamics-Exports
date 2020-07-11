@@ -48,7 +48,11 @@ VALUES (0x7BAEE001, 0x7BAEE002, '2019-02-10 00:00:00') /* Phantom (28244) */
      , (0x7BAEE001, 0x7BAEE02A, '2019-02-10 00:00:00') /* Flamma (21163) */
      , (0x7BAEE001, 0x7BAEE02B, '2019-02-10 00:00:00') /* Cursed Bones (7178) */
      , (0x7BAEE001, 0x7BAEE02C, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
-     , (0x7BAEE001, 0x7BAEE02D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */;
+     , (0x7BAEE001, 0x7BAEE02D, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
+     , (0x7BAEE001, 0x7BAEE02E, '2019-02-10 00:00:00') /* Blighted Pyreal Golem (38178) */
+     , (0x7BAEE001, 0x7BAEE02F, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEE001, 0x7BAEE030, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7BAEE001, 0x7BAEE031, '2019-02-10 00:00:00') /* Black Phyntos Wasp (28248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAEE002, 28244, 0xBAEE0031, 148.7916, 21.33015, 78.12452, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Phantom */
@@ -225,3 +229,19 @@ VALUES (0x7BAEE02C, 38178, 0xBAEE0016, 61.86752, 142.0944, 159.8512, -0.4210461,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BAEE02D,  7126, 0xBAEE0026, 106.5292, 142.5139, 140.8749, -0.4210461, 0, 0, -0.9070392,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
 /* @teleloc 0xBAEE0026 [106.529200 142.513900 140.874900] -0.421046 0.000000 0.000000 -0.907039 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BAEE02E, 38178, 0xBAEE0031, 159.8955, 16.38978, 73.92251, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Blighted Pyreal Golem */
+/* @teleloc 0xBAEE0031 [159.895500 16.389780 73.922510] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BAEE02F,  7105, 0xBAEE001D, 85.3307, 118.0567, 139.4663, -0.4210461, 0, 0, -0.9070392,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xBAEE001D [85.330700 118.056700 139.466300] -0.421046 0.000000 0.000000 -0.907039 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BAEE030,  7105, 0xBAEE001D, 91.32008, 119.4096, 138.6936, -0.4210461, 0, 0, -0.9070392,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xBAEE001D [91.320080 119.409600 138.693600] -0.421046 0.000000 0.000000 -0.907039 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BAEE031, 28248, 0xBAEE0001, 15.42456, 6.341213, 110.7679, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Phyntos Wasp */
+/* @teleloc 0xBAEE0001 [15.424560 6.341213 110.767900] 1.000000 0.000000 0.000000 0.000000 */
