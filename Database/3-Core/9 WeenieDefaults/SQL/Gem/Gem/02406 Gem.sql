@@ -21,8 +21,7 @@ VALUES (2406,   1,       2048) /* ItemType - Gem */
      , (2406, 110,          0) /* ItemAllegianceRankLimit */
      , (2406, 115,          0) /* ItemSkillLevelLimit */
      , (2406, 117,        300) /* ItemManaCost */
-     , (2406, 131,         36) /* MaterialType - RedJade */
-     , (2406, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2406, 131,         36) /* MaterialType - RedJade */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2406,  22, True ) /* Inscribable */;

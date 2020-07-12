@@ -25,7 +25,6 @@ VALUES (40706,   1,          2) /* ItemType - Armor */
      , (40706, 158,          2) /* WieldRequirements - RawSkill */
      , (40706, 159,         15) /* WieldSkillType - MagicDefense */
      , (40706, 160,        245) /* WieldDifficulty */
-     , (40706, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (40706, 177,          2) /* GemCount */
      , (40706, 178,         47) /* GemType */;
 

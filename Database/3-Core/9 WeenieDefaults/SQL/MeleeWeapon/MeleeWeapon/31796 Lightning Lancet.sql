@@ -29,7 +29,6 @@ VALUES (31796,   1,          1) /* ItemType - MeleeWeapon */
      , (31796, 158,          2) /* WieldRequirements - RawSkill */
      , (31796, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (31796, 160,        300) /* WieldDifficulty */
-     , (31796, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (31796, 353,          6) /* WeaponType - Dagger */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

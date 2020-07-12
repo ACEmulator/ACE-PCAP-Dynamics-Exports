@@ -27,7 +27,6 @@ VALUES (3827,   1,          1) /* ItemType - MeleeWeapon */
      , (3827, 131,         62) /* MaterialType - Pyreal */
      , (3827, 151,          2) /* HookType - Wall */
      , (3827, 171,          6) /* NumTimesTinkered */
-     , (3827, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (3827, 177,          2) /* GemCount */
      , (3827, 178,         39) /* GemType */
      , (3827, 353,          6) /* WeaponType - Dagger */;

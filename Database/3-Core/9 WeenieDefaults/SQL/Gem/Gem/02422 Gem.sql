@@ -22,8 +22,7 @@ VALUES (2422,   1,       2048) /* ItemType - Gem */
      , (2422, 110,          0) /* ItemAllegianceRankLimit */
      , (2422, 115,          0) /* ItemSkillLevelLimit */
      , (2422, 117,        350) /* ItemManaCost */
-     , (2422, 131,         23) /* MaterialType - GreenGarnet */
-     , (2422, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2422, 131,         23) /* MaterialType - GreenGarnet */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2422,  22, True ) /* Inscribable */;

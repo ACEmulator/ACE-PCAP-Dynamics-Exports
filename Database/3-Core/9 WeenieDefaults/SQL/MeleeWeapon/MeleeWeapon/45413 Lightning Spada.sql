@@ -26,7 +26,6 @@ VALUES (45413,   1,          1) /* ItemType - MeleeWeapon */
      , (45413, 115,         21) /* ItemSkillLevelLimit */
      , (45413, 131,         61) /* MaterialType - Iron */
      , (45413, 151,          2) /* HookType - Wall */
-     , (45413, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (45413, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

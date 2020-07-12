@@ -19,7 +19,6 @@ VALUES (325,   1,          1) /* ItemType - MeleeWeapon */
      , (325, 105,          3) /* ItemWorkmanship */
      , (325, 131,         76) /* MaterialType - Pine */
      , (325, 151,          2) /* HookType - Wall */
-     , (325, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (325, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

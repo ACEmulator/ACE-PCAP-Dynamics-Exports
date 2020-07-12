@@ -25,7 +25,6 @@ VALUES (40681,   1,          2) /* ItemType - Armor */
      , (40681, 158,          2) /* WieldRequirements - RawSkill */
      , (40681, 159,          7) /* WieldSkillType - MissileDefense */
      , (40681, 160,        290) /* WieldDifficulty */
-     , (40681, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (40681, 265,         17) /* EquipmentSetId - Tinkers */
      , (40681, 270,          7) /* WieldRequirements2 - Level */
      , (40681, 271,          1) /* WieldSkillType2 - Axe */

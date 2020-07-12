@@ -11,8 +11,7 @@ VALUES (41488,   1,          8) /* ItemType - Jewelry */
      , (41488,  19,        162) /* Value */
      , (41488,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41488, 105,          6) /* ItemWorkmanship */
-     , (41488, 131,         59) /* MaterialType - Copper */
-     , (41488, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (41488, 131,         59) /* MaterialType - Copper */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (41488,  22, True ) /* Inscribable */;

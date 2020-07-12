@@ -20,8 +20,7 @@ VALUES (2594,   1,          4) /* ItemType - Clothing */
      , (2594, 109,        195) /* ItemDifficulty */
      , (2594, 110,          0) /* ItemAllegianceRankLimit */
      , (2594, 115,          0) /* ItemSkillLevelLimit */
-     , (2594, 131,          5) /* MaterialType - Satin */
-     , (2594, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2594, 131,          5) /* MaterialType - Satin */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2594,  22, True ) /* Inscribable */

@@ -14,8 +14,7 @@ VALUES (2418,   1,       2048) /* ItemType - Gem */
      , (2418,  19,         17) /* Value */
      , (2418,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2418, 105,          5) /* ItemWorkmanship */
-     , (2418, 131,         42) /* MaterialType - TigerEye */
-     , (2418, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2418, 131,         42) /* MaterialType - TigerEye */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2418,  22, True ) /* Inscribable */;

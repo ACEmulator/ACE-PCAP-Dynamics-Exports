@@ -30,7 +30,6 @@ VALUES (30569,   1,          1) /* ItemType - MeleeWeapon */
      , (30569, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30569, 160,        420) /* WieldDifficulty */
      , (30569, 171,         10) /* NumTimesTinkered */
-     , (30569, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (30569, 177,          5) /* GemCount */
      , (30569, 178,         26) /* GemType */
      , (30569, 179,          2) /* ImbuedEffect - CripplingBlow */

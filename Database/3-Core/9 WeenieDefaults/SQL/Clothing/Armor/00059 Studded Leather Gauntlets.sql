@@ -20,8 +20,7 @@ VALUES (59,   1,          2) /* ItemType - Armor */
      , (59, 109,        150) /* ItemDifficulty */
      , (59, 110,          0) /* ItemAllegianceRankLimit */
      , (59, 115,          0) /* ItemSkillLevelLimit */
-     , (59, 131,         55) /* MaterialType - ReedSharkHide */
-     , (59, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (59, 131,         55) /* MaterialType - ReedSharkHide */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (59,  22, True ) /* Inscribable */

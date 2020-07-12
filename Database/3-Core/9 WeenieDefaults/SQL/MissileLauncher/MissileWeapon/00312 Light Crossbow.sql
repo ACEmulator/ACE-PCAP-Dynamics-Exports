@@ -29,7 +29,6 @@ VALUES (312,   1,        256) /* ItemType - MissileWeapon */
      , (312, 158,          2) /* WieldRequirements - RawSkill */
      , (312, 159,         47) /* WieldSkillType - MissileWeapons */
      , (312, 160,        250) /* WieldDifficulty */
-     , (312, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (312, 177,          1) /* GemCount */
      , (312, 178,         32) /* GemType */
      , (312, 353,          9) /* WeaponType - Crossbow */;

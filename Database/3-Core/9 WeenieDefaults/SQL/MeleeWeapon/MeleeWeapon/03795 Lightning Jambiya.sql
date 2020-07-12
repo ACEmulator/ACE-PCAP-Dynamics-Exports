@@ -26,7 +26,6 @@ VALUES (3795,   1,          1) /* ItemType - MeleeWeapon */
      , (3795, 115,        295) /* ItemSkillLevelLimit */
      , (3795, 131,         47) /* MaterialType - WhiteSapphire */
      , (3795, 151,          2) /* HookType - Wall */
-     , (3795, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (3795, 177,          2) /* GemCount */
      , (3795, 178,         20) /* GemType */
      , (3795, 188,          2) /* HeritageGroup - Gharundim */

@@ -21,8 +21,7 @@ VALUES (25640,   1,          2) /* ItemType - Armor */
      , (25640, 110,          0) /* ItemAllegianceRankLimit */
      , (25640, 115,        142) /* ItemSkillLevelLimit */
      , (25640, 131,         52) /* MaterialType - Leather */
-     , (25640, 151,          2) /* HookType - Wall */
-     , (25640, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (25640, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25640,  22, True ) /* Inscribable */

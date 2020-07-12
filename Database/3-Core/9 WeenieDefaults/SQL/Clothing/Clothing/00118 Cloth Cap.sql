@@ -21,8 +21,7 @@ VALUES (118,   1,          4) /* ItemType - Clothing */
      , (118, 110,          0) /* ItemAllegianceRankLimit */
      , (118, 115,          0) /* ItemSkillLevelLimit */
      , (118, 131,          7) /* MaterialType - Velvet */
-     , (118, 151,          2) /* HookType - Wall */
-     , (118, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (118, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (118,  22, True ) /* Inscribable */

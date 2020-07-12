@@ -22,7 +22,6 @@ VALUES (135,   1,          4) /* ItemType - Clothing */
      , (135, 115,          0) /* ItemSkillLevelLimit */
      , (135, 131,          5) /* MaterialType - Satin */
      , (135, 151,          2) /* HookType - Wall */
-     , (135, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (135, 177,          3) /* GemCount */
      , (135, 178,         43) /* GemType */;
 

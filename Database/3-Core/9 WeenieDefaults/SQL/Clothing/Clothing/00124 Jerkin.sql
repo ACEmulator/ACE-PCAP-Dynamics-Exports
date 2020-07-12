@@ -20,8 +20,7 @@ VALUES (124,   1,          4) /* ItemType - Clothing */
      , (124, 109,        231) /* ItemDifficulty */
      , (124, 110,          0) /* ItemAllegianceRankLimit */
      , (124, 115,          0) /* ItemSkillLevelLimit */
-     , (124, 131,          8) /* MaterialType - Wool */
-     , (124, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (124, 131,          8) /* MaterialType - Wool */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (124,  22, True ) /* Inscribable */

@@ -30,7 +30,6 @@ VALUES (45118,   1,          1) /* ItemType - MeleeWeapon */
      , (45118, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45118, 160,        420) /* WieldDifficulty */
      , (45118, 171,          1) /* NumTimesTinkered */
-     , (45118, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (45118, 177,          2) /* GemCount */
      , (45118, 178,         41) /* GemType */
      , (45118, 179,         32) /* ImbuedEffect - BludgeonRending */

@@ -26,7 +26,6 @@ VALUES (40688,   1,          2) /* ItemType - Armor */
      , (40688, 158,          2) /* WieldRequirements - RawSkill */
      , (40688, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40688, 160,        310) /* WieldDifficulty */
-     , (40688, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (40688, 177,          2) /* GemCount */
      , (40688, 178,         47) /* GemType */
      , (40688, 265,         28) /* EquipmentSetId - Coldproof */

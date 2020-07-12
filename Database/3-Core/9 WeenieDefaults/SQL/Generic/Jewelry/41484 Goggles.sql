@@ -19,7 +19,6 @@ VALUES (41484,   1,          8) /* ItemType - Jewelry */
      , (41484, 110,          0) /* ItemAllegianceRankLimit */
      , (41484, 115,          0) /* ItemSkillLevelLimit */
      , (41484, 131,         61) /* MaterialType - Iron */
-     , (41484, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (41484, 177,          2) /* GemCount */
      , (41484, 178,         15) /* GemType */;
 

@@ -24,7 +24,6 @@ VALUES (40683,   1,          2) /* ItemType - Armor */
      , (40683, 158,          2) /* WieldRequirements - RawSkill */
      , (40683, 159,          7) /* WieldSkillType - MissileDefense */
      , (40683, 160,        205) /* WieldDifficulty */
-     , (40683, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (40683, 265,         29) /* EquipmentSetId - Lightningproof */
      , (40683, 270,          7) /* WieldRequirements2 - Level */
      , (40683, 271,          1) /* WieldSkillType2 - Axe */

@@ -20,8 +20,7 @@ VALUES (2600,   1,          4) /* ItemType - Clothing */
      , (2600, 109,        142) /* ItemDifficulty */
      , (2600, 110,          0) /* ItemAllegianceRankLimit */
      , (2600, 115,          0) /* ItemSkillLevelLimit */
-     , (2600, 131,          6) /* MaterialType - Silk */
-     , (2600, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2600, 131,          6) /* MaterialType - Silk */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2600,  22, True ) /* Inscribable */

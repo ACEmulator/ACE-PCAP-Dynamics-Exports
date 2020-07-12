@@ -14,8 +14,7 @@ VALUES (2411,   1,       2048) /* ItemType - Gem */
      , (2411,  19,       3737) /* Value */
      , (2411,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2411, 105,         10) /* ItemWorkmanship */
-     , (2411, 131,         38) /* MaterialType - Ruby */
-     , (2411, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2411, 131,         38) /* MaterialType - Ruby */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2411,  22, True ) /* Inscribable */;

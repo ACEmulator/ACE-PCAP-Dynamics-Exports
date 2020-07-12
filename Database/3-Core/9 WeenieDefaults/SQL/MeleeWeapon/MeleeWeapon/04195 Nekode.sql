@@ -30,7 +30,6 @@ VALUES (4195,   1,          1) /* ItemType - MeleeWeapon */
      , (4195, 158,          2) /* WieldRequirements - RawSkill */
      , (4195, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (4195, 160,        325) /* WieldDifficulty */
-     , (4195, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (4195, 177,          1) /* GemCount */
      , (4195, 178,         43) /* GemType */
      , (4195, 353,          1) /* WeaponType - Unarmed */;

@@ -31,7 +31,6 @@ VALUES (31809,   1,        256) /* ItemType - MissileWeapon */
      , (31809, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31809, 160,        375) /* WieldDifficulty */
      , (31809, 171,         10) /* NumTimesTinkered */
-     , (31809, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (31809, 177,          2) /* GemCount */
      , (31809, 178,         23) /* GemType */
      , (31809, 179,        512) /* ImbuedEffect - FireRending */

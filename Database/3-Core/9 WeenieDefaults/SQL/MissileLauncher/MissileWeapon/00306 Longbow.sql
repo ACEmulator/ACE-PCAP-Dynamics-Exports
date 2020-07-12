@@ -29,7 +29,6 @@ VALUES (306,   1,        256) /* ItemType - MissileWeapon */
      , (306, 158,          2) /* WieldRequirements - RawSkill */
      , (306, 159,         47) /* WieldSkillType - MissileWeapons */
      , (306, 160,        290) /* WieldDifficulty */
-     , (306, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (306, 177,          1) /* GemCount */
      , (306, 178,         43) /* GemType */
      , (306, 353,          8) /* WeaponType - Bow */;

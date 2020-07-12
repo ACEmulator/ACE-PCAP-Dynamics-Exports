@@ -22,8 +22,7 @@ VALUES (2415,   1,       2048) /* ItemType - Gem */
      , (2415, 110,          0) /* ItemAllegianceRankLimit */
      , (2415, 115,          0) /* ItemSkillLevelLimit */
      , (2415, 117,        250) /* ItemManaCost */
-     , (2415, 131,         28) /* MaterialType - LapisLazuli */
-     , (2415, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2415, 131,         28) /* MaterialType - LapisLazuli */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2415,  22, True ) /* Inscribable */;

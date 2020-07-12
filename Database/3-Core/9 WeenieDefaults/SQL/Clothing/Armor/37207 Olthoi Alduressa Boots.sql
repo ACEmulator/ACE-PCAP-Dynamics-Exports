@@ -24,7 +24,6 @@ VALUES (37207,   1,          2) /* ItemType - Armor */
      , (37207, 158,          7) /* WieldRequirements - Level */
      , (37207, 159,          1) /* WieldSkillType - Axe */
      , (37207, 160,        180) /* WieldDifficulty */
-     , (37207, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (37207, 375,          1) /* GearCritDamageResist */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

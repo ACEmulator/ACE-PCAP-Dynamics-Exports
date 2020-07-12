@@ -13,8 +13,7 @@ VALUES (27225,   1,          2) /* ItemType - Armor */
      , (27225,  28,        271) /* ArmorLevel */
      , (27225,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27225, 105,          8) /* ItemWorkmanship */
-     , (27225, 131,         53) /* MaterialType - ArmoredilloHide */
-     , (27225, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (27225, 131,         53) /* MaterialType - ArmoredilloHide */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27225,  22, True ) /* Inscribable */

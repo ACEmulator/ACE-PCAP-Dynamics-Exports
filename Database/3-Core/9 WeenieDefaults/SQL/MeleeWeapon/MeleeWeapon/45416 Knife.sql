@@ -29,7 +29,6 @@ VALUES (45416,   1,          1) /* ItemType - MeleeWeapon */
      , (45416, 158,          2) /* WieldRequirements - RawSkill */
      , (45416, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (45416, 160,        300) /* WieldDifficulty */
-     , (45416, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (45416, 177,          1) /* GemCount */
      , (45416, 178,         29) /* GemType */
      , (45416, 353,          6) /* WeaponType - Dagger */;

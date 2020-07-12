@@ -25,7 +25,6 @@ VALUES (37216,   1,          2) /* ItemType - Armor */
      , (37216, 158,          2) /* WieldRequirements - RawSkill */
      , (37216, 159,          6) /* WieldSkillType - MeleeDefense */
      , (37216, 160,        400) /* WieldDifficulty */
-     , (37216, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (37216, 177,          3) /* GemCount */
      , (37216, 178,         39) /* GemType */
      , (37216, 265,         14) /* EquipmentSetId - Adepts */

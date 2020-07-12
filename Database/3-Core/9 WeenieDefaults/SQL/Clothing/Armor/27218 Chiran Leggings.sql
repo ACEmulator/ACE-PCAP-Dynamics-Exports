@@ -23,8 +23,7 @@ VALUES (27218,   1,          2) /* ItemType - Armor */
      , (27218, 131,          6) /* MaterialType - Silk */
      , (27218, 158,          7) /* WieldRequirements - Level */
      , (27218, 159,          1) /* WieldSkillType - Axe */
-     , (27218, 160,        150) /* WieldDifficulty */
-     , (27218, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (27218, 160,        150) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27218,  22, True ) /* Inscribable */
