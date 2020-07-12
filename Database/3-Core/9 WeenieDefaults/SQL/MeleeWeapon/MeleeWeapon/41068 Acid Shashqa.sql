@@ -29,7 +29,6 @@ VALUES (41068,   1,          1) /* ItemType - MeleeWeapon */
      , (41068, 158,          2) /* WieldRequirements - RawSkill */
      , (41068, 159,         41) /* WieldSkillType - TwoHandedCombat */
      , (41068, 160,        300) /* WieldDifficulty */
-     , (41068, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (41068, 177,          4) /* GemCount */
      , (41068, 178,         33) /* GemType */
      , (41068, 292,          2) /* Cleaving */

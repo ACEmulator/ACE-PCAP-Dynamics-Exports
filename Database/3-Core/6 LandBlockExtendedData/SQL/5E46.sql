@@ -1141,7 +1141,8 @@ VALUES (0x75E4614E, 0x75E4614F, '2019-02-10 00:00:00') /* Small Olthoi Grub (242
      , (0x75E4614E, 0x75E46152, '2019-02-10 00:00:00') /* Small Olthoi Grub (24269) */
      , (0x75E4614E, 0x75E46153, '2019-02-10 00:00:00') /* Small Olthoi Grub (24269) */
      , (0x75E4614E, 0x75E46154, '2019-02-10 00:00:00') /* Small Olthoi Grub (24269) */
-     , (0x75E4614E, 0x75E46155, '2019-02-10 00:00:00') /* Scroll of Mind Blossom (20257) */;
+     , (0x75E4614E, 0x75E46155, '2019-02-10 00:00:00') /* Scroll of Mind Blossom (20257) */
+     , (0x75E4614E, 0x75E46156, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E4614F, 24269, 0x5E4602CB, 70.4488, -186.564, -23.99835, 0.722344, 0, 0, 0.691534,  True, '2019-02-10 00:00:00'); /* Small Olthoi Grub */
@@ -1170,3 +1171,7 @@ VALUES (0x75E46154, 24269, 0x5E46018A, 133.771, -43.6901, -41.99835, -0.9506465,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E46155, 20257, 0x5E460412, 206.9653, -149.9104, -11.9145, 0.992719, 0, 0, -0.1204534,  True, '2019-02-10 00:00:00'); /* Scroll of Mind Blossom */
 /* @teleloc 0x5E460412 [206.965300 -149.910400 -11.914500] 0.992719 0.000000 0.000000 -0.120453 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75E46156,  1955, 0x5E4603A2, 151.1522, -127.724, -12.063, 0.965238, 0, 0, -0.2613723,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x5E4603A2 [151.152200 -127.724000 -12.063000] 0.965238 0.000000 0.000000 -0.261372 */

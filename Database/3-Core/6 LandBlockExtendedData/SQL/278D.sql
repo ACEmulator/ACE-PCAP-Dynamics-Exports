@@ -46,8 +46,13 @@ VALUES (0x7278D009,  1542, 0x278D0001, 15.74331, 3.741121, 82, -0.4572677, 0, 0,
 /* @teleloc 0x278D0001 [15.743310 3.741121 82.000000] -0.457268 0.000000 0.000000 -0.889329 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7278D009, 0x7278D00A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+VALUES (0x7278D009, 0x7278D00A, '2019-02-10 00:00:00') /* Minalim Plant (8646) */
+     , (0x7278D009, 0x7278D00B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7278D00A,  8646, 0x278D0001, 15.74331, 3.741121, 82, -0.4572677, 0, 0, -0.8893291,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
 /* @teleloc 0x278D0001 [15.743310 3.741121 82.000000] -0.457268 0.000000 0.000000 -0.889329 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7278D00B,  8644, 0x278D0031, 166.8968, 23.1082, 147.9119, -0.361356, 0, 0, -0.9324279,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
+/* @teleloc 0x278D0031 [166.896800 23.108200 147.911900] -0.361356 0.000000 0.000000 -0.932428 */

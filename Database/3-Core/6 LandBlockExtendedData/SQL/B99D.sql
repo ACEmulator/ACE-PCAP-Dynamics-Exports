@@ -20,7 +20,9 @@ VALUES (0x7B99D001, 0x7B99D002, '2019-02-10 00:00:00') /* Auroch Yearling (182) 
      , (0x7B99D001, 0x7B99D00E, '2019-02-10 00:00:00') /* Auroch Bull (20) */
      , (0x7B99D001, 0x7B99D00F, '2019-02-10 00:00:00') /* Auroch Bull (20) */
      , (0x7B99D001, 0x7B99D010, '2019-02-10 00:00:00') /* Tan Rat (4131) */
-     , (0x7B99D001, 0x7B99D011, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
+     , (0x7B99D001, 0x7B99D011, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7B99D001, 0x7B99D012, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7B99D001, 0x7B99D013, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99D002,   182, 0xB99D000E, 36.22, 142.5494, 52.24941, 0.3718048, 0, 0, -0.9283109,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -85,3 +87,11 @@ VALUES (0x7B99D010,  4131, 0xB99D000F, 34.14829, 144.7285, 51.9493, 0.3254196, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99D011,  2439, 0xB99D0007, 22.0203, 164.4644, 46.55946, 0.3718048, 0, 0, -0.9283109,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
 /* @teleloc 0xB99D0007 [22.020300 164.464400 46.559460] 0.371805 0.000000 0.000000 -0.928311 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B99D012,  7990, 0xB99D0005, 6.534318, 116.415, 56.84528, 0.3254196, 0, 0, -0.9455697,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
+/* @teleloc 0xB99D0005 [6.534318 116.415000 56.845280] 0.325420 0.000000 0.000000 -0.945570 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B99D013,  1614, 0xB99D000D, 26.63082, 111.2227, 58.5167, 0.3718048, 0, 0, -0.9283109,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */
+/* @teleloc 0xB99D000D [26.630820 111.222700 58.516700] 0.371805 0.000000 0.000000 -0.928311 */

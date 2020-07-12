@@ -13,7 +13,8 @@ VALUES (0x7A056001, 0x7A056002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollo
      , (0x7A056001, 0x7A056007, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
      , (0x7A056001, 0x7A056008, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
      , (0x7A056001, 0x7A056009, '2019-02-10 00:00:00') /* Magma Golem (6645) */
-     , (0x7A056001, 0x7A05600A, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */;
+     , (0x7A056001, 0x7A05600A, '2019-02-10 00:00:00') /* Horrible Mu-miyah (1765) */
+     , (0x7A056001, 0x7A05600B, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A056002, 38179, 0xA0560021, 96.71225, 4.584238, 74.33917, -0.9801456, 0, 0, -0.1982793,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
@@ -50,3 +51,7 @@ VALUES (0x7A056009,  6645, 0xA0560015, 60.80328, 107.1822, 60.14388, 0.6021408, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05600A,  1765, 0xA0560008, 17.3634, 186.4281, 54.34735, 0.9227249, 0, 0, -0.3854592,  True, '2019-02-10 00:00:00'); /* Horrible Mu-miyah */
 /* @teleloc 0xA0560008 [17.363400 186.428100 54.347350] 0.922725 0.000000 0.000000 -0.385459 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A05600B,  1630, 0xA056002C, 133.3579, 74.03905, 79.57328, -0.9159364, 0, 0, -0.4013235,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+/* @teleloc 0xA056002C [133.357900 74.039050 79.573280] -0.915936 0.000000 0.000000 -0.401324 */

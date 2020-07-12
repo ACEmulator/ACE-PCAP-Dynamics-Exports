@@ -1267,3 +1267,14 @@ VALUES (0x7831213B, 14245, 0x8312000B, 24.646, 53.7562, 310, -0.703577, 0, 0, 0.
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7831213D, 14712, 0x8312002D, 139.337, 116.063, 344, -0.948563, 0, 0, -0.31659, False, '2019-02-10 00:00:00'); /* Land Bridge Villas */
 /* @teleloc 0x8312002D [139.337000 116.063000 344.000000] -0.948563 0.000000 0.000000 -0.316590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7831213E,  1542, 0x83120034, 163.2767, 95.8226, 350.505, -0.9773742, 0, 0, -0.2115175, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x83120034 [163.276700 95.822600 350.505000] -0.977374 0.000000 0.000000 -0.211518 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7831213E, 0x7831213F, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7831213F,  1955, 0x83120034, 163.2767, 95.8226, 350.505, -0.9773742, 0, 0, -0.2115175,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x83120034 [163.276700 95.822600 350.505000] -0.977374 0.000000 0.000000 -0.211518 */

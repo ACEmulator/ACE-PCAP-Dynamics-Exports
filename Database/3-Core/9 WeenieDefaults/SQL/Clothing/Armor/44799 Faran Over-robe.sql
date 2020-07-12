@@ -21,7 +21,6 @@ VALUES (44799,   1,          2) /* ItemType - Armor */
      , (44799, 110,          0) /* ItemAllegianceRankLimit */
      , (44799, 115,          0) /* ItemSkillLevelLimit */
      , (44799, 131,         54) /* MaterialType - GromnieHide */
-     , (44799, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (44799, 177,          4) /* GemCount */
      , (44799, 178,         18) /* GemType */;
 

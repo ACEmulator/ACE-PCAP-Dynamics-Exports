@@ -15,7 +15,10 @@ VALUES (0x73047001, 0x73047002, '2019-02-10 00:00:00') /* Chomu Sclavus Lord (23
      , (0x73047001, 0x73047009, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
      , (0x73047001, 0x7304700A, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
      , (0x73047001, 0x7304700B, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
-     , (0x73047001, 0x7304700C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */;
+     , (0x73047001, 0x7304700C, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */
+     , (0x73047001, 0x7304700D, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x73047001, 0x7304700E, '2019-02-10 00:00:00') /* Faisi Sclavus Lord (23486) */
+     , (0x73047001, 0x7304700F, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73047002, 23484, 0x3047003F, 169.8266, 163.9703, 4.488029, -0.07332419, 0, 0, -0.9973081,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus Lord */
@@ -62,12 +65,24 @@ VALUES (0x7304700C, 23488, 0x3047003E, 191.3857, 127.9184, 8.833853, 0.7732722, 
 /* @teleloc 0x3047003E [191.385700 127.918400 8.833853] 0.773272 0.000000 0.000000 -0.634074 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7304700D,  1542, 0x30470040, 185.3233, 182.633, 4.22419, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7304700D, 23485, 0x3047003E, 185.8232, 133.5219, 9.290562, 0.7732722, 0, 0, -0.6340743,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */
+/* @teleloc 0x3047003E [185.823200 133.521900 9.290562] 0.773272 0.000000 0.000000 -0.634074 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7304700E, 23486, 0x30470040, 185.9029, 174.9974, 4.908787, -0.07332419, 0, 0, -0.9973081,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus Lord */
+/* @teleloc 0x30470040 [185.902900 174.997400 4.908787] -0.073324 0.000000 0.000000 -0.997308 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7304700F,  7112, 0x30470040, 171.5788, 174.8199, 4.270088, -0.07332419, 0, 0, -0.9973081,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x30470040 [171.578800 174.819900 4.270088] -0.073324 0.000000 0.000000 -0.997308 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73047010,  1542, 0x30470040, 185.3233, 182.633, 4.22419, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x30470040 [185.323300 182.633000 4.224190] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7304700D, 0x7304700E, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
+VALUES (0x73047010, 0x73047011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7304700E, 22571, 0x30470040, 185.3233, 182.633, 4.22419, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x73047011, 22571, 0x30470040, 185.3233, 182.633, 4.22419, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x30470040 [185.323300 182.633000 4.224190] 1.000000 0.000000 0.000000 0.000000 */

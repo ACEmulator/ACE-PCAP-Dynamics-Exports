@@ -103,7 +103,8 @@ VALUES (0x73A11014,  1542, 0x3A110025, 97, 108, 32, -0.707107, 0, 0, -0.707107, 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x73A11014, 0x73A11015, '2019-02-10 00:00:00') /* Temple Door (38369) */
      , (0x73A11014, 0x73A11016, '2019-02-10 00:00:00') /* Temple Door (38369) */
-     , (0x73A11014, 0x73A11017, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x73A11014, 0x73A11017, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x73A11014, 0x73A11018, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A11015, 38369, 0x3A110025, 97, 108, 32, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Temple Door */
@@ -116,3 +117,7 @@ VALUES (0x73A11016, 38369, 0x3A110015, 71, 108, 32, 0.707107, 0, 0, -0.707107,  
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73A11017,  1955, 0x3A11012B, 88.73707, 102.9846, -40.063, 0.7412249, 0, 0, -0.6712567,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x3A11012B [88.737070 102.984600 -40.063000] 0.741225 0.000000 0.000000 -0.671257 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73A11018,  1955, 0x3A11012B, 85.33284, 111.0789, -40.063, -0.2745082, 0, 0, -0.9615847,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x3A11012B [85.332840 111.078900 -40.063000] -0.274508 0.000000 0.000000 -0.961585 */

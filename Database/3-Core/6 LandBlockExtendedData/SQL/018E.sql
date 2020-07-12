@@ -113,6 +113,14 @@ VALUES (0x7018E0B0,   278, 0x018E033A, 100, -245.25, -6, 1, 0, 0, 0, False, '201
 /* @teleloc 0x018E033A [100.000000 -245.250000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7018E0B2,   278, 0x018E033D, 110, -64.75, -6, 0, 0, 0, 1, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0x018E033D [110.000000 -64.750000 -6.000000] 0.000000 0.000000 0.000000 1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7018E0B6,   278, 0x018E0345, 110, -75.25, -6, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Door */
+/* @teleloc 0x018E0345 [110.000000 -75.250000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018E0BB,   568, 0x018E034F, 105.25, -200, -6, -0.707107, 0, 0, -0.707107, False, '2019-02-10 00:00:00'); /* Door */
 /* @teleloc 0x018E034F [105.250000 -200.000000 -6.000000] -0.707107 0.000000 0.000000 -0.707107 */
 
@@ -262,7 +270,9 @@ VALUES (0x7018E0D2, 0x7018E0D3, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) 
      , (0x7018E0D2, 0x7018E151, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
      , (0x7018E0D2, 0x7018E152, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
      , (0x7018E0D2, 0x7018E153, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
-     , (0x7018E0D2, 0x7018E154, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */;
+     , (0x7018E0D2, 0x7018E154, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x7018E0D2, 0x7018E155, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */
+     , (0x7018E0D2, 0x7018E156, '2019-02-10 00:00:00') /* Frenzied Fiun (28644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018E0D3, 28644, 0x018E024F, 30.2093, -164.652, -6.00541, -0.008072004, 0, 0, 0.9999674,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
@@ -783,3 +793,11 @@ VALUES (0x7018E153, 28644, 0x018E034A, 109.1378, -156.8201, -6.00541, 0.3508011,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7018E154, 28644, 0x018E0209, 140.9806, -132.6591, -12.00541, 0.4565403, 0, 0, -0.8897027,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
 /* @teleloc 0x018E0209 [140.980600 -132.659100 -12.005410] 0.456540 0.000000 0.000000 -0.889703 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7018E155, 28644, 0x018E0251, 31.96049, -169.4609, -6.00541, -0.6592491, 0, 0, -0.7519246,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
+/* @teleloc 0x018E0251 [31.960490 -169.460900 -6.005410] -0.659249 0.000000 0.000000 -0.751925 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7018E156, 28644, 0x018E0127, 160.352, -75.48323, -18.00541, -0.026808, 0, 0, -0.999641,  True, '2019-02-10 00:00:00'); /* Frenzied Fiun */
+/* @teleloc 0x018E0127 [160.352000 -75.483230 -18.005410] -0.026808 0.000000 0.000000 -0.999641 */

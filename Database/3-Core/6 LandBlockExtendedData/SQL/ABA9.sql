@@ -10,7 +10,9 @@ VALUES (0x7ABA9001, 0x7ABA9002, '2019-02-10 00:00:00') /* Mite Digger (944) */
      , (0x7ABA9001, 0x7ABA9004, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */
      , (0x7ABA9001, 0x7ABA9005, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
      , (0x7ABA9001, 0x7ABA9006, '2019-02-10 00:00:00') /* Mite Sentry (945) */
-     , (0x7ABA9001, 0x7ABA9007, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
+     , (0x7ABA9001, 0x7ABA9007, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x7ABA9001, 0x7ABA9008, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */
+     , (0x7ABA9001, 0x7ABA9009, '2019-02-10 00:00:00') /* Banderling Breeder (1668) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA9002,   944, 0xABA90022, 112.322, 29.36114, 142.6448, 0.9588197, 0, 0, -0.2840154,  True, '2019-02-10 00:00:00'); /* Mite Digger */
@@ -35,3 +37,22 @@ VALUES (0x7ABA9006,   945, 0xABA9001F, 83.87152, 160.5851, 136.6229, 0.8870109, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABA9007,    10, 0xABA9001F, 91.00762, 164.2012, 136.3216, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Mite Scamp */
 /* @teleloc 0xABA9001F [91.007620 164.201200 136.321600] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA9008,  1668, 0xABA90019, 81.26849, 5.387496, 143.5582, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Banderling Breeder */
+/* @teleloc 0xABA90019 [81.268490 5.387496 143.558200] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA9009,  1668, 0xABA90019, 85.43149, 12.294, 143.1264, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Banderling Breeder */
+/* @teleloc 0xABA90019 [85.431490 12.294000 143.126400] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA900A,  1542, 0xABA90019, 85.85983, 7.034101, 143.4138, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xABA90019 [85.859830 7.034101 143.413800] 0.999048 0.000000 0.000000 -0.043619 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7ABA900A, 0x7ABA900B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABA900B,  4179, 0xABA90019, 85.85983, 7.034101, 143.4138, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+/* @teleloc 0xABA90019 [85.859830 7.034101 143.413800] 0.999048 0.000000 0.000000 -0.043619 */

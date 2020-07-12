@@ -22,8 +22,7 @@ VALUES (2420,   1,       2048) /* ItemType - Gem */
      , (2420, 110,          0) /* ItemAllegianceRankLimit */
      , (2420, 115,          0) /* ItemSkillLevelLimit */
      , (2420, 117,        300) /* ItemManaCost */
-     , (2420, 131,         46) /* MaterialType - WhiteQuartz */
-     , (2420, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2420, 131,         46) /* MaterialType - WhiteQuartz */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2420,  22, True ) /* Inscribable */;

@@ -106,7 +106,8 @@ VALUES (0x7D45300D, 0x7D45300E, '2019-02-10 00:00:00') /* Flared Pants (2597) */
      , (0x7D45300D, 0x7D453033, '2019-02-10 00:00:00') /* Scroll of Self Strength IV (2744) */
      , (0x7D45300D, 0x7D453034, '2019-02-10 00:00:00') /* Flaming Knife (45419) */
      , (0x7D45300D, 0x7D453035, '2019-02-10 00:00:00') /* Frost Dirk (22444) */
-     , (0x7D45300D, 0x7D453036, '2019-02-10 00:00:00') /* Hood (44975) */;
+     , (0x7D45300D, 0x7D453036, '2019-02-10 00:00:00') /* Hood (44975) */
+     , (0x7D45300D, 0x7D453037, '2019-02-10 00:00:00') /* Kite Shield (91) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D45300E,  2597, 0xD4530100, 96.69775, 48.80214, 34.7975, -0.931491, 0, 0, -0.363764,  True, '2019-02-10 00:00:00'); /* Flared Pants */
@@ -271,3 +272,7 @@ VALUES (0x7D453035, 22444, 0xD4530100, 96.25639, 48.00675, 34.9, -0.9314911, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D453036, 44975, 0xD4530100, 96.77853, 49.04579, 34.785, -0.9314911, 0, 0, -0.363764,  True, '2019-02-10 00:00:00'); /* Hood */
 /* @teleloc 0xD4530100 [96.778530 49.045790 34.785000] -0.931491 0.000000 0.000000 -0.363764 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D453037,    91, 0xD4530100, 98.90159, 50.54004, 34.875, -0.931491, 0, 0, -0.363764,  True, '2019-02-10 00:00:00'); /* Kite Shield */
+/* @teleloc 0xD4530100 [98.901590 50.540040 34.875000] -0.931491 0.000000 0.000000 -0.363764 */

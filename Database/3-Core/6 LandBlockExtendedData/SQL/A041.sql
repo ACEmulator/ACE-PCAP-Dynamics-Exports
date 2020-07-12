@@ -21,7 +21,8 @@ VALUES (0x7A041001, 0x7A041002, '2019-02-10 00:00:00') /* Silver Rat (1626) */
      , (0x7A041001, 0x7A04100F, '2019-02-10 00:00:00') /* Fragment (8014) */
      , (0x7A041001, 0x7A041010, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
      , (0x7A041001, 0x7A041011, '2019-02-10 00:00:00') /* Shadow Child (1756) */
-     , (0x7A041001, 0x7A041012, '2019-02-10 00:00:00') /* Granite Golem (195) */;
+     , (0x7A041001, 0x7A041012, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A041001, 0x7A041013, '2019-02-10 00:00:00') /* Banderling Bandit (22809) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A041002,  1626, 0xA0410006, 0.3660088, 133.9371, 110.012, 0.7744049, 0, 0, -0.6326903,  True, '2019-02-10 00:00:00'); /* Silver Rat */
@@ -90,3 +91,7 @@ VALUES (0x7A041011,  1756, 0xA0410005, 2.28031, 103.9975, 108.859, -0.9123731, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A041012,   195, 0xA041000F, 28.6191, 163.945, 108.3489, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
 /* @teleloc 0xA041000F [28.619100 163.945000 108.348900] 0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A041013, 22809, 0xA0410004, 13.5405, 72.47655, 109.9674, -0.9123731, 0, 0, -0.4093597,  True, '2019-02-10 00:00:00'); /* Banderling Bandit */
+/* @teleloc 0xA0410004 [13.540500 72.476550 109.967400] -0.912373 0.000000 0.000000 -0.409360 */

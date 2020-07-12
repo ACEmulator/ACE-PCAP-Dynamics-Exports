@@ -14,7 +14,9 @@ VALUES (0x7C1AC001, 0x7C1AC002, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217
      , (0x7C1AC001, 0x7C1AC008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
      , (0x7C1AC001, 0x7C1AC009, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
      , (0x7C1AC001, 0x7C1AC00A, '2019-02-10 00:00:00') /* Lich Lord (1630) */
-     , (0x7C1AC001, 0x7C1AC00B, '2019-02-10 00:00:00') /* Shadow (1758) */;
+     , (0x7C1AC001, 0x7C1AC00B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C1AC001, 0x7C1AC00C, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
+     , (0x7C1AC001, 0x7C1AC00D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1AC002,   217, 0xC1AC002B, 124.9957, 71.07452, 72.35218, -0.9832954, 0, 0, -0.1820171,  True, '2019-02-10 00:00:00'); /* Gold Phyntos Wasp */
@@ -57,17 +59,25 @@ VALUES (0x7C1AC00B,  1758, 0xC1AC0015, 59.69415, 103.356, 73.23101, 0.9238795, 0
 /* @teleloc 0xC1AC0015 [59.694150 103.356000 73.231010] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C1AC00C,  1542, 0xC1AC002B, 141.0006, 52.53478, 72.12794, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C1AC00C, 11528, 0xC1AC002C, 123.2109, 73.00295, 72.44473, -0.9832954, 0, 0, -0.1820171,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
+/* @teleloc 0xC1AC002C [123.210900 73.002950 72.444730] -0.983295 0.000000 0.000000 -0.182017 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1AC00D,     3, 0xC1AC002E, 127.695, 134.8943, 84.36483, 0.9890204, 0, 0, -0.1477791,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0xC1AC002E [127.695000 134.894300 84.364830] 0.989020 0.000000 0.000000 -0.147779 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1AC00E,  1542, 0xC1AC002B, 141.0006, 52.53478, 72.12794, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC1AC002B [141.000600 52.534780 72.127940] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1AC00C, 0x7C1AC00D, '2019-02-10 00:00:00') /* Runed Chest (22576) */
-     , (0x7C1AC00C, 0x7C1AC00E, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
+VALUES (0x7C1AC00E, 0x7C1AC00F, '2019-02-10 00:00:00') /* Runed Chest (22576) */
+     , (0x7C1AC00E, 0x7C1AC010, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C1AC00D, 22576, 0xC1AC002B, 141.0006, 52.53478, 72.12794, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7C1AC00F, 22576, 0xC1AC002B, 141.0006, 52.53478, 72.12794, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xC1AC002B [141.000600 52.534780 72.127940] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C1AC00E, 22570, 0xC1AC0025, 118.9907, 109.8532, 78.22475, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7C1AC010, 22570, 0xC1AC0025, 118.9907, 109.8532, 78.22475, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xC1AC0025 [118.990700 109.853200 78.224750] 1.000000 0.000000 0.000000 0.000000 */

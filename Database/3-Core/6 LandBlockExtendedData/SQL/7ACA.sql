@@ -42,7 +42,8 @@ VALUES (0x77ACA00D, 0x77ACA00E, '2019-02-10 00:00:00') /* Destroyer Grievver (79
      , (0x77ACA00D, 0x77ACA010, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
      , (0x77ACA00D, 0x77ACA011, '2019-02-10 00:00:00') /* Gold Golem (36832) */
      , (0x77ACA00D, 0x77ACA012, '2019-02-10 00:00:00') /* Gold Golem (36832) */
-     , (0x77ACA00D, 0x77ACA013, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
+     , (0x77ACA00D, 0x77ACA013, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x77ACA00D, 0x77ACA014, '2019-02-10 00:00:00') /* Drudge Sage (24283) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77ACA00E,  7982, 0x7ACA0026, 118.5822, 128.6541, 196.9554, 0.1345836, 0, 0, -0.9909022,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -69,12 +70,16 @@ VALUES (0x77ACA013, 36832, 0x7ACA002C, 130.5587, 92.95477, 195.3839, 0.9659258, 
 /* @teleloc 0x7ACA002C [130.558700 92.954770 195.383900] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77ACA014,  1154, 0x7ACA0135, 67.0824, 15.544, 200.005, -0.151709, 0, 0, 0.988425, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x77ACA014, 24283, 0x7ACA0031, 157.3968, 4.396208, 198.0045, 0.7160572, 0, 0, -0.6980416,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
+/* @teleloc 0x7ACA0031 [157.396800 4.396208 198.004500] 0.716057 0.000000 0.000000 -0.698042 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77ACA015,  1154, 0x7ACA0135, 67.0824, 15.544, 200.005, -0.151709, 0, 0, 0.988425, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x7ACA0135 [67.082400 15.544000 200.005000] -0.151709 0.000000 0.000000 0.988425 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77ACA014, 0x77ACA015, '2019-02-10 00:00:00') /* Collector (3917) */;
+VALUES (0x77ACA015, 0x77ACA016, '2019-02-10 00:00:00') /* Collector (3917) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77ACA015,  3917, 0x7ACA0135, 67.0824, 15.544, 200.005, -0.151709, 0, 0, 0.988425,  True, '2019-02-10 00:00:00'); /* Collector */
+VALUES (0x77ACA016,  3917, 0x7ACA0135, 67.0824, 15.544, 200.005, -0.151709, 0, 0, 0.988425,  True, '2019-02-10 00:00:00'); /* Collector */
 /* @teleloc 0x7ACA0135 [67.082400 15.544000 200.005000] -0.151709 0.000000 0.000000 0.988425 */

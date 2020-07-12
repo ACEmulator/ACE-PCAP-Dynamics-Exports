@@ -145,7 +145,9 @@ VALUES (0x701D4052, 0x701D4053, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x701D4052, 0x701D40AC, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x701D4052, 0x701D40AD, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x701D4052, 0x701D40AE, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
-     , (0x701D4052, 0x701D40AF, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
+     , (0x701D4052, 0x701D40AF, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x701D4052, 0x701D40B0, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
+     , (0x701D4052, 0x701D40B1, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701D4053,  9257, 0x01D4010D, 32.9688, -24.9322, 0.001600027, -0.590403, 0, 0, 0.807109,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
@@ -520,37 +522,45 @@ VALUES (0x701D40AF,  9257, 0x01D401A6, 38.18779, -38.52783, 30.0016, -0.9999844,
 /* @teleloc 0x01D401A6 [38.187790 -38.527830 30.001600] -0.999984 0.000000 0.000000 -0.005587 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B0,  1542, 0x01D40193, 28.74659, -31.80863, 29.995, 0.9964855, 0, 0, -0.08376546, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x701D40B0,  9257, 0x01D40158, 63.92709, -40.6741, 6.0016, -0.9632066, 0, 0, -0.268762,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
+/* @teleloc 0x01D40158 [63.927090 -40.674100 6.001600] -0.963207 0.000000 0.000000 -0.268762 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701D40B1,  9257, 0x01D4020A, 39.12925, -23.14071, 100.6023, -0.07073098, 0, 0, -0.9974954,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
+/* @teleloc 0x01D4020A [39.129250 -23.140710 100.602300] -0.070731 0.000000 0.000000 -0.997495 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701D40B2,  1542, 0x01D40193, 28.74659, -31.80863, 29.995, 0.9964855, 0, 0, -0.08376546, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 29.995000] 0.996486 0.000000 0.000000 -0.083765 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x701D40B0, 0x701D40B1, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
-     , (0x701D40B0, 0x701D40B2, '2019-02-10 00:00:00') /* Letter to Bretself the Translator (34349) */
-     , (0x701D40B0, 0x701D40B3, '2019-02-10 00:00:00') /* Diforsa Sollerets (28625) */
-     , (0x701D40B0, 0x701D40B4, '2019-02-10 00:00:00') /* An old note  (1418) */
-     , (0x701D40B0, 0x701D40B5, '2019-02-10 00:00:00') /* Parchment (365) */
-     , (0x701D40B0, 0x701D40B6, '2019-02-10 00:00:00') /* A torn note  (1417) */;
+VALUES (0x701D40B2, 0x701D40B3, '2019-02-10 00:00:00') /* Celdon Breastplate (6044) */
+     , (0x701D40B2, 0x701D40B4, '2019-02-10 00:00:00') /* Letter to Bretself the Translator (34349) */
+     , (0x701D40B2, 0x701D40B5, '2019-02-10 00:00:00') /* Diforsa Sollerets (28625) */
+     , (0x701D40B2, 0x701D40B6, '2019-02-10 00:00:00') /* An old note  (1418) */
+     , (0x701D40B2, 0x701D40B7, '2019-02-10 00:00:00') /* Parchment (365) */
+     , (0x701D40B2, 0x701D40B8, '2019-02-10 00:00:00') /* A torn note  (1417) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B1,  6044, 0x01D40193, 28.74659, -31.80863, 29.995, 0.9964855, 0, 0, -0.08376546,  True, '2019-02-10 00:00:00'); /* Celdon Breastplate */
+VALUES (0x701D40B3,  6044, 0x01D40193, 28.74659, -31.80863, 29.995, 0.9964855, 0, 0, -0.08376546,  True, '2019-02-10 00:00:00'); /* Celdon Breastplate */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 29.995000] 0.996486 0.000000 0.000000 -0.083765 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B2, 34349, 0x01D40193, 28.74659, -31.80863, 30.079, 0.9964855, 0, 0, -0.08376546,  True, '2019-02-10 00:00:00'); /* Letter to Bretself the Translator */
+VALUES (0x701D40B4, 34349, 0x01D40193, 28.74659, -31.80863, 30.079, 0.9964855, 0, 0, -0.08376546,  True, '2019-02-10 00:00:00'); /* Letter to Bretself the Translator */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 30.079000] 0.996486 0.000000 0.000000 -0.083765 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B3, 28625, 0x01D40193, 28.74659, -31.80863, 30.15419, 0.9964855, 0, 0, -0.08376546,  True, '2019-02-10 00:00:00'); /* Diforsa Sollerets */
+VALUES (0x701D40B5, 28625, 0x01D40193, 28.74659, -31.80863, 30.15419, 0.9964855, 0, 0, -0.08376546,  True, '2019-02-10 00:00:00'); /* Diforsa Sollerets */
 /* @teleloc 0x01D40193 [28.746590 -31.808630 30.154190] 0.996486 0.000000 0.000000 -0.083765 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B4,  1418, 0x01D401FA, 58.18981, -33.39833, 78.07899, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* An old note  */
+VALUES (0x701D40B6,  1418, 0x01D401FA, 58.18981, -33.39833, 78.07899, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* An old note  */
 /* @teleloc 0x01D401FA [58.189810 -33.398330 78.078990] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B5,   365, 0x01D401FA, 57.7439, -32.23412, 78.07899, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Parchment */
+VALUES (0x701D40B7,   365, 0x01D401FA, 57.7439, -32.23412, 78.07899, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Parchment */
 /* @teleloc 0x01D401FA [57.743900 -32.234120 78.078990] -0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x701D40B6,  1417, 0x01D401FA, 59.08702, -32.22478, 78.07899, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* A torn note  */
+VALUES (0x701D40B8,  1417, 0x01D401FA, 59.08702, -32.22478, 78.07899, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* A torn note  */
 /* @teleloc 0x01D401FA [59.087020 -32.224780 78.078990] -0.707107 0.000000 0.000000 -0.707107 */

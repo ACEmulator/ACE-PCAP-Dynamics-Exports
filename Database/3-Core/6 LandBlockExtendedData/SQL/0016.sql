@@ -267,7 +267,8 @@ VALUES (0x70016057, 0x70016058, '2019-02-10 00:00:00') /* Royal Cabbage (1449) *
      , (0x70016057, 0x7001605A, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x70016057, 0x7001605B, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x70016057, 0x7001605C, '2019-02-10 00:00:00') /* Royal Cabbage (1449) */
-     , (0x70016057, 0x7001605D, '2019-02-10 00:00:00') /* Amuli Coat (6046) */;
+     , (0x70016057, 0x7001605D, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x70016057, 0x7001605E, '2019-02-10 00:00:00') /* Special Cheese (1451) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70016058,  1449, 0x0016014D, 20.38291, -8.812839, -12, -0.66466, 0, 0, -0.747146,  True, '2019-02-10 00:00:00'); /* Royal Cabbage */
@@ -292,3 +293,7 @@ VALUES (0x7001605C,  1449, 0x00160104, 1.207531, -11.13949, -24, 0, 0, 0, -1,  T
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7001605D,  6046, 0x00160114, 19.77112, -42.48688, -24.0025, 0.9997491, 0, 0, -0.02240072,  True, '2019-02-10 00:00:00'); /* Amuli Coat */
 /* @teleloc 0x00160114 [19.771120 -42.486880 -24.002500] 0.999749 0.000000 0.000000 -0.022401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7001605E,  1451, 0x0016014D, 21.38943, -8.858698, -11.976, -0.66466, 0, 0, -0.747146,  True, '2019-02-10 00:00:00'); /* Special Cheese */
+/* @teleloc 0x0016014D [21.389430 -8.858698 -11.976000] -0.664660 0.000000 0.000000 -0.747146 */

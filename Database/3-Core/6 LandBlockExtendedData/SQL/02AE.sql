@@ -897,3 +897,14 @@ VALUES (0x702AE0FE, 23555, 0x02AE015C, 16.92171, -185.6082, -5.9975, 0.998332, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702AE0FF, 22053, 0x02AE023E, 249.7381, -85.23849, -5.9835, -0.001135, 0, 0, 0.9999993,  True, '2019-02-10 00:00:00'); /* Assailer */
 /* @teleloc 0x02AE023E [249.738100 -85.238490 -5.983500] -0.001135 0.000000 0.000000 0.999999 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702AE100,  1542, 0x02AE0251, 249.6958, -192.7651, -6.063, -0.1030528, 0, 0, -0.9946759, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x02AE0251 [249.695800 -192.765100 -6.063000] -0.103053 0.000000 0.000000 -0.994676 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x702AE100, 0x702AE101, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702AE101,  1955, 0x02AE0251, 249.6958, -192.7651, -6.063, -0.1030528, 0, 0, -0.9946759,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x02AE0251 [249.695800 -192.765100 -6.063000] -0.103053 0.000000 0.000000 -0.994676 */

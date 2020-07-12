@@ -77,7 +77,9 @@ VALUES (0x7E33300D, 0x7E33300E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E33300D, 0x7E33301F, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E33300D, 0x7E333020, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E33300D, 0x7E333021, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
-     , (0x7E33300D, 0x7E333022, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7E33300D, 0x7E333022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E33300D, 0x7E333023, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E33300D, 0x7E333024, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E33300E,  2567, 0xE3330029, 130.618, 22.59878, 97.76646, -0.9353586, 0, 0, -0.3537008,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -162,3 +164,11 @@ VALUES (0x7E333021,  2567, 0xE333002B, 133.8797, 50.72092, 104.7439, -0.9353586,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E333022, 24937, 0xE333002B, 132.519, 50.61846, 104.5627, -0.9353586, 0, 0, -0.3537008,  True, '2019-02-10 00:00:00'); /* Chicken */
 /* @teleloc 0xE333002B [132.519000 50.618460 104.562700] -0.935359 0.000000 0.000000 -0.353701 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E333023,  2567, 0xE3330023, 110.132, 63.095, 107.0317, -0.9353586, 0, 0, -0.3537008,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xE3330023 [110.132000 63.095000 107.031700] -0.935359 0.000000 0.000000 -0.353701 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E333024,  2567, 0xE3330032, 154.9822, 36.75103, 102.1029, -0.9353586, 0, 0, -0.3537008,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xE3330032 [154.982200 36.751030 102.102900] -0.935359 0.000000 0.000000 -0.353701 */

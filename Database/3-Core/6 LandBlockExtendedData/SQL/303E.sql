@@ -21,7 +21,10 @@ VALUES (0x7303E001, 0x7303E002, '2019-02-10 00:00:00') /* Acidic Diamond Golem (
      , (0x7303E001, 0x7303E00F, '2019-02-10 00:00:00') /* Flamma (8405) */
      , (0x7303E001, 0x7303E010, '2019-02-10 00:00:00') /* Flamma (8405) */
      , (0x7303E001, 0x7303E011, '2019-02-10 00:00:00') /* Magma Golem Exarch (27566) */
-     , (0x7303E001, 0x7303E012, '2019-02-10 00:00:00') /* Flamma (8405) */;
+     , (0x7303E001, 0x7303E012, '2019-02-10 00:00:00') /* Flamma (8405) */
+     , (0x7303E001, 0x7303E013, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7303E001, 0x7303E014, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
+     , (0x7303E001, 0x7303E015, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7303E002, 36829, 0x303E0022, 109.6312, 45.36239, -0.09000003, -0.7215444, 0, 0, -0.6923681,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
@@ -92,17 +95,29 @@ VALUES (0x7303E012,  8405, 0x303E0039, 168.5392, 1.939122, -0.09349999, -0.50120
 /* @teleloc 0x303E0039 [168.539200 1.939122 -0.093500] -0.501200 0.000000 0.000000 -0.865331 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7303E013,  1542, 0x303E0039, 169.8832, 16.49821, -0.09999999, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7303E013,  7092, 0x303E0023, 105.805, 55.76365, -0.09150004, -0.7215444, 0, 0, -0.6923681,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0x303E0023 [105.805000 55.763650 -0.091500] -0.721544 0.000000 0.000000 -0.692368 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7303E014, 12037, 0x303E0031, 155.2691, 8.22138, -0.09175003, -0.5012004, 0, 0, -0.8653312,  True, '2019-02-10 00:00:00'); /* Dark Sorcerer */
+/* @teleloc 0x303E0031 [155.269100 8.221380 -0.091750] -0.501200 0.000000 0.000000 -0.865331 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7303E015,  7124, 0x303E0031, 156.4226, 8.551662, -0.09249997, -0.5012004, 0, 0, -0.8653312,  True, '2019-02-10 00:00:00'); /* Dark Magus */
+/* @teleloc 0x303E0031 [156.422600 8.551662 -0.092500] -0.501200 0.000000 0.000000 -0.865331 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7303E016,  1542, 0x303E0039, 169.8832, 16.49821, -0.09999999, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x303E0039 [169.883200 16.498210 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7303E013, 0x7303E014, '2019-02-10 00:00:00') /* Runed Chest (22566) */
-     , (0x7303E013, 0x7303E015, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7303E016, 0x7303E017, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x7303E016, 0x7303E018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7303E014, 22566, 0x303E0039, 169.8832, 16.49821, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7303E017, 22566, 0x303E0039, 169.8832, 16.49821, -0.09999999, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x303E0039 [169.883200 16.498210 -0.100000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7303E015,  4179, 0x303E0022, 98.56406, 39.44637, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7303E018,  4179, 0x303E0022, 98.56406, 39.44637, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x303E0022 [98.564060 39.446370 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */

@@ -44,7 +44,13 @@ VALUES (0x7A2A7001, 0x7A2A7002, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
      , (0x7A2A7001, 0x7A2A7026, '2019-02-10 00:00:00') /* Famished Eater (32315) */
      , (0x7A2A7001, 0x7A2A7027, '2019-02-10 00:00:00') /* Famished Eater (32315) */
      , (0x7A2A7001, 0x7A2A7028, '2019-02-10 00:00:00') /* Famished Eater (32315) */
-     , (0x7A2A7001, 0x7A2A7029, '2019-02-10 00:00:00') /* Eater (32316) */;
+     , (0x7A2A7001, 0x7A2A7029, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A2A7001, 0x7A2A702A, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A7001, 0x7A2A702B, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A2A7001, 0x7A2A702C, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A7001, 0x7A2A702D, '2019-02-10 00:00:00') /* Famished Eater (32315) */
+     , (0x7A2A7001, 0x7A2A702E, '2019-02-10 00:00:00') /* Eater (32316) */
+     , (0x7A2A7001, 0x7A2A702F, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A7002,     3, 0xA2A70038, 162.6303, 175.4864, 68.92865, 0.7580121, 0, 0, -0.6522406,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
@@ -205,3 +211,27 @@ VALUES (0x7A2A7028, 32315, 0xA2A70001, 7.058738, 9.474835, 72.42086, -0.204181, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A2A7029, 32316, 0xA2A70001, 11.62675, 7.739152, 72.38618, -0.204181, 0, 0, 0.9789332,  True, '2019-02-10 00:00:00'); /* Eater */
 /* @teleloc 0xA2A70001 [11.626750 7.739152 72.386180] -0.204181 0.000000 0.000000 0.978933 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A2A702A, 32315, 0xA2A70001, 16.70025, 1.952019, 72.44565, -0.204181, 0, 0, 0.9789332,  True, '2019-02-10 00:00:00'); /* Famished Eater */
+/* @teleloc 0xA2A70001 [16.700250 1.952019 72.445650] -0.204181 0.000000 0.000000 0.978933 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A2A702B, 32316, 0xA2A70001, 12.57808, 3.690319, 72.6443, -0.204181, 0, 0, 0.9789332,  True, '2019-02-10 00:00:00'); /* Eater */
+/* @teleloc 0xA2A70001 [12.578080 3.690319 72.644300] -0.204181 0.000000 0.000000 0.978933 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A2A702C, 32315, 0xA2A70001, 14.13933, 5.994494, 72.32218, -0.204181, 0, 0, 0.9789332,  True, '2019-02-10 00:00:00'); /* Famished Eater */
+/* @teleloc 0xA2A70001 [14.139330 5.994494 72.322180] -0.204181 0.000000 0.000000 0.978933 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A2A702D, 32315, 0xA2A70013, 60.06255, 63.67386, 69.00522, -0.05070309, 0, 0, 0.9987138,  True, '2019-02-10 00:00:00'); /* Famished Eater */
+/* @teleloc 0xA2A70013 [60.062550 63.673860 69.005220] -0.050703 0.000000 0.000000 0.998714 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A2A702E, 32316, 0xA2A70013, 63.41048, 60.66977, 69.2842, -0.05070309, 0, 0, 0.9987138,  True, '2019-02-10 00:00:00'); /* Eater */
+/* @teleloc 0xA2A70013 [63.410480 60.669770 69.284200] -0.050703 0.000000 0.000000 0.998714 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A2A702F,  1627, 0xA2A70040, 174.9863, 182.8494, 69.35684, 0.7580121, 0, 0, -0.6522406,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
+/* @teleloc 0xA2A70040 [174.986300 182.849400 69.356840] 0.758012 0.000000 0.000000 -0.652241 */

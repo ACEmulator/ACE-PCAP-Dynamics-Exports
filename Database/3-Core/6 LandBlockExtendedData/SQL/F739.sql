@@ -47,7 +47,13 @@ VALUES (0x7F739001, 0x7F739002, '2019-02-10 00:00:00') /* Glowing Jungle Lily (3
      , (0x7F739001, 0x7F739029, '2019-02-10 00:00:00') /* Killer Phyntos Swarm (41801) */
      , (0x7F739001, 0x7F73902A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
      , (0x7F739001, 0x7F73902B, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
-     , (0x7F739001, 0x7F73902C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */;
+     , (0x7F739001, 0x7F73902C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F739001, 0x7F73902D, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F739001, 0x7F73902E, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F739001, 0x7F73902F, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F739001, 0x7F739030, '2019-02-10 00:00:00') /* Giant Jungle Phyntos Wasp (40308) */
+     , (0x7F739001, 0x7F739031, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7F739001, 0x7F739032, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F739002, 38416, 0xF7390009, 40.66988, 7.639705, 1.363358, 0.4583137, 0, 0, -0.8887905,  True, '2019-02-10 00:00:00'); /* Glowing Jungle Lily */
@@ -220,3 +226,27 @@ VALUES (0x7F73902B, 40312, 0xF7390011, 52.78662, 9.978835, 2.763972, 0.4583137, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F73902C, 40302, 0xF7390025, 100.7704, 101.7535, 1.994081, 0.9986507, 0, 0, -0.05193097,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
 /* @teleloc 0xF7390025 [100.770400 101.753500 1.994081] 0.998651 0.000000 0.000000 -0.051931 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F73902D, 40308, 0xF739001D, 94.96588, 102.9219, -0.08399999, 0.9986507, 0, 0, -0.05193097,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF739001D [94.965880 102.921900 -0.084000] 0.998651 0.000000 0.000000 -0.051931 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F73902E, 40308, 0xF739001D, 93.68484, 100.6428, -0.08399999, 0.9986507, 0, 0, -0.05193097,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF739001D [93.684840 100.642800 -0.084000] 0.998651 0.000000 0.000000 -0.051931 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F73902F, 40308, 0xF739001D, 81.60915, 100.0505, -0.08399999, 0.9986507, 0, 0, -0.05193097,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF739001D [81.609150 100.050500 -0.084000] 0.998651 0.000000 0.000000 -0.051931 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F739030, 40308, 0xF7390025, 96.99529, 99.47894, 0.4307063, 0.9986507, 0, 0, -0.05193097,  True, '2019-02-10 00:00:00'); /* Giant Jungle Phyntos Wasp */
+/* @teleloc 0xF7390025 [96.995290 99.478940 0.430706] 0.998651 0.000000 0.000000 -0.051931 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F739031, 40304, 0xF7390027, 103.3279, 162.387, 0.006400108, -0.995568, 0, 0, -0.09404465,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */
+/* @teleloc 0xF7390027 [103.327900 162.387000 0.006400] -0.995568 0.000000 0.000000 -0.094045 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F739032, 40297, 0xF7390030, 126.1783, 187.4618, 0.004999995, -0.105833, 0, 0, -0.9943839,  True, '2019-02-10 00:00:00'); /* Bandit Mana Hunter */
+/* @teleloc 0xF7390030 [126.178300 187.461800 0.005000] -0.105833 0.000000 0.000000 -0.994384 */

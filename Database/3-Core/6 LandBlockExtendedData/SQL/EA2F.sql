@@ -30,3 +30,14 @@ VALUES (0x7EA2F005, 24940, 0xEA2F000B, 37.73226, 49.96698, 87.63561, -0.7660444,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA2F006,  6645, 0xEA2F0004, 3.777442, 73.93953, 103.5421, 0.02883269, 0, 0, -0.9995843,  True, '2019-02-10 00:00:00'); /* Magma Golem */
 /* @teleloc 0xEA2F0004 [3.777442 73.939530 103.542100] 0.028833 0.000000 0.000000 -0.999584 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA2F007,  1542, 0xEA2F0038, 158.9428, 182.7936, 91.87473, 0.8030275, 0, 0, -0.5959421, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xEA2F0038 [158.942800 182.793600 91.874730] 0.803028 0.000000 0.000000 -0.595942 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7EA2F007, 0x7EA2F008, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA2F008,  1955, 0xEA2F0038, 158.9428, 182.7936, 91.87473, 0.8030275, 0, 0, -0.5959421,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xEA2F0038 [158.942800 182.793600 91.874730] 0.803028 0.000000 0.000000 -0.595942 */

@@ -21,7 +21,8 @@ VALUES (0x7B46D001, 0x7B46D002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) 
      , (0x7B46D001, 0x7B46D00B, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
      , (0x7B46D001, 0x7B46D00C, '2019-02-10 00:00:00') /* Mud Golem (200) */
      , (0x7B46D001, 0x7B46D00D, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
-     , (0x7B46D001, 0x7B46D00E, '2019-02-10 00:00:00') /* Grey Rat (219) */;
+     , (0x7B46D001, 0x7B46D00E, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7B46D001, 0x7B46D00F, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46D002,  4109, 0xB46D0004, 4.97694, 74.18404, 31.29778, 0.6840458, 0, 0, -0.7294391,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -74,3 +75,7 @@ VALUES (0x7B46D00D,  4109, 0xB46D0004, 11.86466, 87.52831, 31.69069, 0.6840458, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B46D00E,   219, 0xB46D001A, 86.29421, 28.72376, 34.01, -0.9684724, 0, 0, -0.2491208,  True, '2019-02-10 00:00:00'); /* Grey Rat */
 /* @teleloc 0xB46D001A [86.294210 28.723760 34.010000] -0.968472 0.000000 0.000000 -0.249121 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B46D00F,   182, 0xB46D0004, 11.87135, 78.12508, 30.57108, 0.6840458, 0, 0, -0.7294391,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
+/* @teleloc 0xB46D0004 [11.871350 78.125080 30.571080] 0.684046 0.000000 0.000000 -0.729439 */

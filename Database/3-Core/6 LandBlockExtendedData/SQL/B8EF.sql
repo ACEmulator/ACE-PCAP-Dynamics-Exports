@@ -40,7 +40,9 @@ VALUES (0x7B8EF001, 0x7B8EF002, '2019-02-10 00:00:00') /* Firestorm (7092) */
      , (0x7B8EF001, 0x7B8EF022, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
      , (0x7B8EF001, 0x7B8EF023, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
      , (0x7B8EF001, 0x7B8EF024, '2019-02-10 00:00:00') /* Magma Golem (199) */
-     , (0x7B8EF001, 0x7B8EF025, '2019-02-10 00:00:00') /* Magma Golem (199) */;
+     , (0x7B8EF001, 0x7B8EF025, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF026, '2019-02-10 00:00:00') /* Magma Golem (199) */
+     , (0x7B8EF001, 0x7B8EF027, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B8EF002,  7092, 0xB8EF0040, 168.5717, 185.8661, 125.669, 0.9729352, 0, 0, -0.231078,  True, '2019-02-10 00:00:00'); /* Firestorm */
@@ -187,12 +189,20 @@ VALUES (0x7B8EF025,   199, 0xB8EF0022, 118.3783, 30.95543, 213.1693, 0.9238795, 
 /* @teleloc 0xB8EF0022 [118.378300 30.955430 213.169300] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B8EF026,  1542, 0xB8EF0022, 119.986, 27.54006, 212.59, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B8EF026,   199, 0xB8EF0038, 164.0377, 187.3009, 125.4729, 0.9729352, 0, 0, -0.231078,  True, '2019-02-10 00:00:00'); /* Magma Golem */
+/* @teleloc 0xB8EF0038 [164.037700 187.300900 125.472900] 0.972935 0.000000 0.000000 -0.231078 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B8EF027, 23082, 0xB8EF0038, 163.9781, 180.1002, 130.2784, 0.9729352, 0, 0, -0.231078,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
+/* @teleloc 0xB8EF0038 [163.978100 180.100200 130.278400] 0.972935 0.000000 0.000000 -0.231078 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B8EF028,  1542, 0xB8EF0022, 119.986, 27.54006, 212.59, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB8EF0022 [119.986000 27.540060 212.590000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B8EF026, 0x7B8EF027, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7B8EF028, 0x7B8EF029, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B8EF027,  4179, 0xB8EF0022, 119.986, 27.54006, 212.59, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B8EF029,  4179, 0xB8EF0022, 119.986, 27.54006, 212.59, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB8EF0022 [119.986000 27.540060 212.590000] 1.000000 0.000000 0.000000 0.000000 */

@@ -29,7 +29,9 @@ VALUES (0x7BE7C001, 0x7BE7C002, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215
      , (0x7BE7C001, 0x7BE7C013, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
      , (0x7BE7C001, 0x7BE7C014, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7BE7C001, 0x7BE7C015, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
-     , (0x7BE7C001, 0x7BE7C016, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
+     , (0x7BE7C001, 0x7BE7C016, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7BE7C001, 0x7BE7C017, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x7BE7C001, 0x7BE7C018, '2019-02-10 00:00:00') /* Adult Reedshark (221) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7C002,   215, 0xBE7C003B, 190.1387, 65.03846, 38.90234, -0.9016243, 0, 0, -0.4325202,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
@@ -114,3 +116,11 @@ VALUES (0x7BE7C015,  1614, 0xBE7C0031, 159.1418, 6.944081, 57.74485, -0.8636118,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BE7C016,   192, 0xBE7C001F, 78.70921, 160.6969, 45.28323, -0.5316738, 0, 0, -0.8469492,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
 /* @teleloc 0xBE7C001F [78.709210 160.696900 45.283230] -0.531674 0.000000 0.000000 -0.846949 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BE7C017,  7990, 0xBE7C003E, 183.6563, 122.9733, 30.002, -0.9160005, 0, 0, -0.4011772,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
+/* @teleloc 0xBE7C003E [183.656300 122.973300 30.002000] -0.916001 0.000000 0.000000 -0.401177 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BE7C018,   221, 0xBE7C001F, 84.30771, 150.44, 46.32448, -0.5316738, 0, 0, -0.8469492,  True, '2019-02-10 00:00:00'); /* Adult Reedshark */
+/* @teleloc 0xBE7C001F [84.307710 150.440000 46.324480] -0.531674 0.000000 0.000000 -0.846949 */

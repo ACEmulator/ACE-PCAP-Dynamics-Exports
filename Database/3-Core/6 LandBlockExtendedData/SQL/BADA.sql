@@ -12,7 +12,11 @@ VALUES (0x7BADA001, 0x7BADA002, '2019-02-10 00:00:00') /* Oak Golem (14559) */
      , (0x7BADA001, 0x7BADA006, '2019-02-10 00:00:00') /* Revenant (619) */
      , (0x7BADA001, 0x7BADA007, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
      , (0x7BADA001, 0x7BADA008, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
-     , (0x7BADA001, 0x7BADA009, '2019-02-10 00:00:00') /* Voltarc (21170) */;
+     , (0x7BADA001, 0x7BADA009, '2019-02-10 00:00:00') /* Voltarc (21170) */
+     , (0x7BADA001, 0x7BADA00A, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */
+     , (0x7BADA001, 0x7BADA00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
+     , (0x7BADA001, 0x7BADA00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7BADA001, 0x7BADA00D, '2019-02-10 00:00:00') /* Tumerok Priest (231) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BADA002, 14559, 0xBADA002F, 129.7606, 144.8835, 31.93638, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Oak Golem */
@@ -47,12 +51,28 @@ VALUES (0x7BADA009, 21170, 0xBADA0026, 115.5716, 129.4724, 32.0065, 0.9981992, 0
 /* @teleloc 0xBADA0026 [115.571600 129.472400 32.006500] 0.998199 0.000000 0.000000 -0.059986 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BADA00A,  1542, 0xBADA0022, 104.216, 28.00595, 42.35084, 0.7812881, 0, 0, -0.6241705, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BADA00A,   230, 0xBADA001F, 88.82498, 151.6871, 30.0065, 0.9981992, 0, 0, -0.05998564,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0xBADA001F [88.824980 151.687100 30.006500] 0.998199 0.000000 0.000000 -0.059986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADA00B,  4217, 0xBADA0021, 111.0302, 4.355825, 44.00825, -0.8296316, 0, 0, -0.5583112,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
+/* @teleloc 0xBADA0021 [111.030200 4.355825 44.008250] -0.829632 0.000000 0.000000 -0.558311 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADA00C,  7780, 0xBADA0021, 109.6762, 6.917877, 44.0025, 0.7812881, 0, 0, -0.6241705,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
+/* @teleloc 0xBADA0021 [109.676200 6.917877 44.002500] 0.781288 0.000000 0.000000 -0.624171 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADA00D,   231, 0xBADA0035, 144.638, 112.398, 33.95234, 0.9821036, 0, 0, -0.1883414,  True, '2019-02-10 00:00:00'); /* Tumerok Priest */
+/* @teleloc 0xBADA0035 [144.638000 112.398000 33.952340] 0.982104 0.000000 0.000000 -0.188341 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BADA00E,  1542, 0xBADA0022, 104.216, 28.00595, 42.35084, 0.7812881, 0, 0, -0.6241705, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBADA0022 [104.216000 28.005950 42.350840] 0.781288 0.000000 0.000000 -0.624171 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BADA00A, 0x7BADA00B, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
+VALUES (0x7BADA00E, 0x7BADA00F, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BADA00B,  8041, 0xBADA0022, 104.216, 28.00595, 42.35084, 0.7812881, 0, 0, -0.6241705,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
+VALUES (0x7BADA00F,  8041, 0xBADA0022, 104.216, 28.00595, 42.35084, 0.7812881, 0, 0, -0.6241705,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
 /* @teleloc 0xBADA0022 [104.216000 28.005950 42.350840] 0.781288 0.000000 0.000000 -0.624171 */

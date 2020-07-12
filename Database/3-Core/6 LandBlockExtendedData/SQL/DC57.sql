@@ -45,7 +45,9 @@ VALUES (0x7DC57008, 0x7DC57009, '2019-02-10 00:00:00') /* Fishing Hole (22257) *
      , (0x7DC57008, 0x7DC5702A, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7DC57008, 0x7DC5702B, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x7DC57008, 0x7DC5702C, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
-     , (0x7DC57008, 0x7DC5702D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
+     , (0x7DC57008, 0x7DC5702D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7DC57008, 0x7DC5702E, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DC57008, 0x7DC5702F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC57009, 22257, 0xDC570004, 18.4293, 77.5894, 5.55, 0.98042, 0, 0, 0.196918,  True, '2019-02-10 00:00:00'); /* Fishing Hole */
@@ -196,12 +198,20 @@ VALUES (0x7DC5702D,   192, 0xDC570027, 115.9846, 150.3629, 5.1035, 0.5664192, 0,
 /* @teleloc 0xDC570027 [115.984600 150.362900 5.103500] 0.566419 0.000000 0.000000 -0.824117 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DC5702E,  1154, 0xDC570100, 28.6908, 27.3248, 7.5163, 0.978065, 0, 0, -0.2083, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7DC5702E, 19262, 0xDC570011, 55.34039, 17.57513, 5.9044, 0.1881967, 0, 0, -0.9821314,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0xDC570011 [55.340390 17.575130 5.904400] 0.188197 0.000000 0.000000 -0.982131 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC5702F,  2612, 0xDC570035, 159.8395, 102.0302, 5.892501, 0.7073733, 0, 0, -0.7068401,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
+/* @teleloc 0xDC570035 [159.839500 102.030200 5.892501] 0.707373 0.000000 0.000000 -0.706840 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC57030,  1154, 0xDC570100, 28.6908, 27.3248, 7.5163, 0.978065, 0, 0, -0.2083, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xDC570100 [28.690800 27.324800 7.516300] 0.978065 0.000000 0.000000 -0.208300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DC5702E, 0x7DC5702F, '2019-02-10 00:00:00') /* Tackle Master (23336) */;
+VALUES (0x7DC57030, 0x7DC57031, '2019-02-10 00:00:00') /* Tackle Master (23336) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DC5702F, 23336, 0xDC570100, 28.6908, 27.3248, 7.5163, 0.978065, 0, 0, -0.2083,  True, '2019-02-10 00:00:00'); /* Tackle Master */
+VALUES (0x7DC57031, 23336, 0xDC570100, 28.6908, 27.3248, 7.5163, 0.978065, 0, 0, -0.2083,  True, '2019-02-10 00:00:00'); /* Tackle Master */
 /* @teleloc 0xDC570100 [28.690800 27.324800 7.516300] 0.978065 0.000000 0.000000 -0.208300 */

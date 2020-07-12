@@ -96,8 +96,13 @@ VALUES (0x78DB4013,  1542, 0x8DB40019, 83.73529, 8.010595, 66.40963, 0.2499343, 
 /* @teleloc 0x8DB40019 [83.735290 8.010595 66.409630] 0.249934 0.000000 0.000000 -0.968263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78DB4013, 0x78DB4014, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
+VALUES (0x78DB4013, 0x78DB4014, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */
+     , (0x78DB4013, 0x78DB4015, '2019-02-10 00:00:00') /* Orange Monster Seed (31687) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78DB4014, 31687, 0x8DB40019, 83.73529, 8.010595, 66.40963, 0.2499343, 0, 0, -0.9682628,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */
 /* @teleloc 0x8DB40019 [83.735290 8.010595 66.409630] 0.249934 0.000000 0.000000 -0.968263 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78DB4015, 31687, 0x8DB40019, 82.06281, 19.53267, 66.65673, 0.2499343, 0, 0, -0.9682628,  True, '2019-02-10 00:00:00'); /* Orange Monster Seed */
+/* @teleloc 0x8DB40019 [82.062810 19.532670 66.656730] 0.249934 0.000000 0.000000 -0.968263 */

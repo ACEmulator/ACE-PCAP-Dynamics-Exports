@@ -9,7 +9,9 @@ VALUES (0x79ABE001, 0x79ABE002, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
      , (0x79ABE001, 0x79ABE003, '2019-02-10 00:00:00') /* Rough Monouga (2574) */
      , (0x79ABE001, 0x79ABE004, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
      , (0x79ABE001, 0x79ABE005, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
-     , (0x79ABE001, 0x79ABE006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */;
+     , (0x79ABE001, 0x79ABE006, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x79ABE001, 0x79ABE007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79ABE001, 0x79ABE008, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79ABE002,  2576, 0x9ABE0027, 106.7776, 152.1598, 66.80967, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Wild Monouga */
@@ -32,17 +34,25 @@ VALUES (0x79ABE006,  7978, 0x9ABE0026, 113.1584, 131.5941, 69.95065, -0.887634, 
 /* @teleloc 0x9ABE0026 [113.158400 131.594100 69.950650] -0.887634 0.000000 0.000000 -0.460550 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ABE007,  1542, 0x9ABE0027, 106.6039, 155.5515, 66.08185, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79ABE007,  1758, 0x9ABE001F, 83.43426, 146.1053, 75.39753, -0.887634, 0, 0, -0.4605496,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0x9ABE001F [83.434260 146.105300 75.397530] -0.887634 0.000000 0.000000 -0.460550 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79ABE008,     3, 0x9ABE0028, 103.5422, 170.9693, 70.39241, -0.887634, 0, 0, -0.4605496,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0x9ABE0028 [103.542200 170.969300 70.392410] -0.887634 0.000000 0.000000 -0.460550 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79ABE009,  1542, 0x9ABE0027, 106.6039, 155.5515, 66.08185, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9ABE0027 [106.603900 155.551500 66.081850] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79ABE007, 0x79ABE008, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x79ABE007, 0x79ABE009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x79ABE009, 0x79ABE00A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79ABE009, 0x79ABE00B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ABE008,  4179, 0x9ABE0027, 106.6039, 155.5515, 66.08185, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x79ABE00A,  4179, 0x9ABE0027, 106.6039, 155.5515, 66.08185, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x9ABE0027 [106.603900 155.551500 66.081850] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79ABE009,  8037, 0x9ABE003F, 179.1665, 166.5279, 30.38426, 0.6972702, 0, 0, -0.7168084,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x79ABE00B,  8037, 0x9ABE003F, 179.1665, 166.5279, 30.38426, 0.6972702, 0, 0, -0.7168084,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0x9ABE003F [179.166500 166.527900 30.384260] 0.697270 0.000000 0.000000 -0.716808 */

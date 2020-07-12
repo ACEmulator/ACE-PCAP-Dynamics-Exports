@@ -12,7 +12,8 @@ VALUES (0x7DC58001, 0x7DC58002, '2019-02-10 00:00:00') /* Small Fledgling Mukkir
      , (0x7DC58001, 0x7DC58006, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
      , (0x7DC58001, 0x7DC58007, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
      , (0x7DC58001, 0x7DC58008, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
-     , (0x7DC58001, 0x7DC58009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
+     , (0x7DC58001, 0x7DC58009, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DC58001, 0x7DC5800A, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC58002, 33804, 0xDC5801E2, 163.817, 83.4441, -1.6, 0.731366, 0, 0, -0.6819851,  True, '2019-02-10 00:00:00'); /* Small Fledgling Mukkir */
@@ -45,3 +46,7 @@ VALUES (0x7DC58008,   232, 0xDC58002C, 124.4549, 81.60828, 10.37624, -0.6731573,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC58009,  2612, 0xDC580012, 65.92494, 30.37555, 5.092501, 0.8955243, 0, 0, -0.4450126,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
 /* @teleloc 0xDC580012 [65.924940 30.375550 5.092501] 0.895524 0.000000 0.000000 -0.445013 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC5800A,   192, 0xDC580012, 66.2973, 30.06751, 5.1035, 0.8955243, 0, 0, -0.4450126,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0xDC580012 [66.297300 30.067510 5.103500] 0.895524 0.000000 0.000000 -0.445013 */

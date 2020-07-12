@@ -9,7 +9,8 @@ VALUES (0x724BA001, 0x724BA002, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) *
      , (0x724BA001, 0x724BA003, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
      , (0x724BA001, 0x724BA004, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
      , (0x724BA001, 0x724BA005, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
-     , (0x724BA001, 0x724BA006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
+     , (0x724BA001, 0x724BA006, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x724BA001, 0x724BA007, '2019-02-10 00:00:00') /* Aun Elder Shaman (11508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BA002, 11526, 0x24BA003F, 186.7136, 151.7656, 127.4433, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
@@ -32,12 +33,16 @@ VALUES (0x724BA006, 11493, 0x24BA003F, 178.3742, 144.9914, 128.9033, 1, 0, 0, 0,
 /* @teleloc 0x24BA003F [178.374200 144.991400 128.903300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x724BA007,  1542, 0x24BA003E, 178.2811, 126.5263, 121.3112, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x724BA007, 11508, 0x24BA003D, 182.3114, 115.2467, 119.6218, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Aun Elder Shaman */
+/* @teleloc 0x24BA003D [182.311400 115.246700 119.621800] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x724BA008,  1542, 0x24BA003E, 178.2811, 126.5263, 121.3112, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x24BA003E [178.281100 126.526300 121.311200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x724BA007, 0x724BA008, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
+VALUES (0x724BA008, 0x724BA009, '2019-02-10 00:00:00') /* New Hive Portal (11227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x724BA008, 11227, 0x24BA003E, 178.2811, 126.5263, 121.3112, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */
+VALUES (0x724BA009, 11227, 0x24BA003E, 178.2811, 126.5263, 121.3112, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */
 /* @teleloc 0x24BA003E [178.281100 126.526300 121.311200] 1.000000 0.000000 0.000000 0.000000 */

@@ -29,7 +29,6 @@ VALUES (30568,   1,          1) /* ItemType - MeleeWeapon */
      , (30568, 158,          2) /* WieldRequirements - RawSkill */
      , (30568, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30568, 160,        300) /* WieldDifficulty */
-     , (30568, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (30568, 177,          3) /* GemCount */
      , (30568, 178,         24) /* GemType */
      , (30568, 353,          2) /* WeaponType - Sword */;

@@ -27,7 +27,6 @@ VALUES (41047,   1,          1) /* ItemType - MeleeWeapon */
      , (41047, 115,         67) /* ItemSkillLevelLimit */
      , (41047, 131,         63) /* MaterialType - Silver */
      , (41047, 151,          2) /* HookType - Wall */
-     , (41047, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (41047, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

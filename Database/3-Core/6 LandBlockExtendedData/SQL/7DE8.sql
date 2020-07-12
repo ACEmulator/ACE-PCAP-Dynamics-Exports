@@ -1083,3 +1083,14 @@ VALUES (0x77DE810E, 12679, 0x7DE80014, 66.7033, 84.4375, 38.1, 0.7071068, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77DE810F, 13194, 0x7DE8001C, 92.2286, 93.7385, 32.94285, -0.83477, 0, 0, 0.550599, False, '2019-02-10 00:00:00'); /* Wisp Lake Cottages */
 /* @teleloc 0x7DE8001C [92.228600 93.738500 32.942850] -0.834770 0.000000 0.000000 0.550599 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77DE8110,  1542, 0x7DE8003C, 173.1495, 78.67795, 31.037, -0.1845525, 0, 0, -0.9828227, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x7DE8003C [173.149500 78.677950 31.037000] -0.184553 0.000000 0.000000 -0.982823 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x77DE8110, 0x77DE8111, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77DE8111,  1955, 0x7DE8003C, 173.1495, 78.67795, 31.037, -0.1845525, 0, 0, -0.9828227,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x7DE8003C [173.149500 78.677950 31.037000] -0.184553 0.000000 0.000000 -0.982823 */

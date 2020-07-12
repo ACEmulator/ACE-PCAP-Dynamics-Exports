@@ -169,7 +169,10 @@ VALUES (0x7DB3B01F, 0x7DB3B020, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7DB3B01F, 0x7DB3B04D, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7DB3B01F, 0x7DB3B04E, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7DB3B01F, 0x7DB3B04F, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x7DB3B01F, 0x7DB3B050, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7DB3B01F, 0x7DB3B050, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B051, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B052, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7DB3B01F, 0x7DB3B053, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB3B020,  2567, 0xDB3B002C, 124.5104, 94.98436, 26.75229, -0.09828178, 0, 0, -0.9951586,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -368,28 +371,40 @@ VALUES (0x7DB3B050, 24937, 0xDB3B0019, 87.09649, 21.41252, 31.25004, 1, 0, 0, 0,
 /* @teleloc 0xDB3B0019 [87.096490 21.412520 31.250040] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB3B051,  1154, 0xDB3B010D, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7DB3B051, 24937, 0xDB3B0024, 112.6048, 77.56889, 27.68012, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xDB3B0024 [112.604800 77.568890 27.680120] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB3B052, 24937, 0xDB3B0022, 116.7976, 44.25365, 28.25887, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xDB3B0022 [116.797600 44.253650 28.258870] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB3B053,  2567, 0xDB3B0021, 104.701, 7.376062, 30.54984, 0.9799672, 0, 0, -0.1991591,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xDB3B0021 [104.701000 7.376062 30.549840] 0.979967 0.000000 0.000000 -0.199159 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DB3B054,  1154, 0xDB3B010D, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xDB3B010D [55.401600 82.378400 28.005000] 0.874849 0.000000 0.000000 -0.484396 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB3B051, 0x7DB3B052, '2019-02-10 00:00:00') /* Apprentice Alchemist (28184) */
-     , (0x7DB3B051, 0x7DB3B053, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */;
+VALUES (0x7DB3B054, 0x7DB3B055, '2019-02-10 00:00:00') /* Apprentice Alchemist (28184) */
+     , (0x7DB3B054, 0x7DB3B056, '2019-02-10 00:00:00') /* Agent of the Arcanum (12050) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB3B052, 28184, 0xDB3B010D, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396,  True, '2019-02-10 00:00:00'); /* Apprentice Alchemist */
+VALUES (0x7DB3B055, 28184, 0xDB3B010D, 55.4016, 82.3784, 28.005, 0.874849, 0, 0, -0.484396,  True, '2019-02-10 00:00:00'); /* Apprentice Alchemist */
 /* @teleloc 0xDB3B010D [55.401600 82.378400 28.005000] 0.874849 0.000000 0.000000 -0.484396 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB3B053, 12050, 0xDB3B011B, 17.9629, 111.971, 2.005, -0.0686866, 0, 0, -0.997638,  True, '2019-02-10 00:00:00'); /* Agent of the Arcanum */
+VALUES (0x7DB3B056, 12050, 0xDB3B011B, 17.9629, 111.971, 2.005, -0.0686866, 0, 0, -0.997638,  True, '2019-02-10 00:00:00'); /* Agent of the Arcanum */
 /* @teleloc 0xDB3B011B [17.962900 111.971000 2.005000] -0.068687 0.000000 0.000000 -0.997638 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB3B054,  1542, 0xDB3B002B, 138.4754, 51.6182, 24.91702, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7DB3B057,  1542, 0xDB3B002B, 138.4754, 51.6182, 24.91702, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xDB3B002B [138.475400 51.618200 24.917020] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB3B054, 0x7DB3B055, '2019-02-10 00:00:00') /* Egg (546) */;
+VALUES (0x7DB3B057, 0x7DB3B058, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB3B055,   546, 0xDB3B002B, 138.4754, 51.6182, 24.91702, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7DB3B058,   546, 0xDB3B002B, 138.4754, 51.6182, 24.91702, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xDB3B002B [138.475400 51.618200 24.917020] 1.000000 0.000000 0.000000 0.000000 */

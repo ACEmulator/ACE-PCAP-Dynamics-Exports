@@ -49,7 +49,9 @@ VALUES (0x77F65001, 0x77F65002, '2019-02-10 00:00:00') /* Young Banderling (1925
      , (0x77F65001, 0x77F6502B, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x77F65001, 0x77F6502C, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
      , (0x77F65001, 0x77F6502D, '2019-02-10 00:00:00') /* Skeleton (1759) */
-     , (0x77F65001, 0x77F6502E, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
+     , (0x77F65001, 0x77F6502E, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77F65001, 0x77F6502F, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x77F65001, 0x77F65030, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77F65002, 19256, 0x7F65000B, 28.81398, 66.96378, 15.98863, 0.1231464, 0, 0, -0.9923885,  True, '2019-02-10 00:00:00'); /* Young Banderling */
@@ -232,17 +234,25 @@ VALUES (0x77F6502E, 19263, 0x7F65002B, 126.1742, 54.05399, 40.06509, -0.9193647,
 /* @teleloc 0x7F65002B [126.174200 54.053990 40.065090] -0.919365 0.000000 0.000000 -0.393406 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F6502F,  1542, 0x7F65002B, 125.9047, 56.26478, 40.53456, -0.9193647, 0, 0, -0.3934063, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x77F6502F, 19263, 0x7F65000F, 29.14417, 149.8175, 39.33915, 0.3144316, 0, 0, -0.9492801,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0x7F65000F [29.144170 149.817500 39.339150] 0.314432 0.000000 0.000000 -0.949280 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77F65030, 19256, 0x7F65002B, 125.9636, 56.59489, 40.65284, -0.9193647, 0, 0, -0.3934063,  True, '2019-02-10 00:00:00'); /* Young Banderling */
+/* @teleloc 0x7F65002B [125.963600 56.594890 40.652840] -0.919365 0.000000 0.000000 -0.393406 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77F65031,  1542, 0x7F65002B, 125.9047, 56.26478, 40.53456, -0.9193647, 0, 0, -0.3934063, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x7F65002B [125.904700 56.264780 40.534560] -0.919365 0.000000 0.000000 -0.393406 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x77F6502F, 0x77F65030, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x77F6502F, 0x77F65031, '2019-02-10 00:00:00') /* Rock (42528) */;
+VALUES (0x77F65031, 0x77F65032, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x77F65031, 0x77F65033, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F65030, 42528, 0x7F65002B, 125.9047, 56.26478, 40.53456, -0.9193647, 0, 0, -0.3934063,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x77F65032, 42528, 0x7F65002B, 125.9047, 56.26478, 40.53456, -0.9193647, 0, 0, -0.3934063,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x7F65002B [125.904700 56.264780 40.534560] -0.919365 0.000000 0.000000 -0.393406 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x77F65031, 42528, 0x7F650004, 5.913336, 87.95715, 16.29162, 0.9990068, 0, 0, -0.04455786,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x77F65033, 42528, 0x7F650004, 5.913336, 87.95715, 16.29162, 0.9990068, 0, 0, -0.04455786,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x7F650004 [5.913336 87.957150 16.291620] 0.999007 0.000000 0.000000 -0.044558 */

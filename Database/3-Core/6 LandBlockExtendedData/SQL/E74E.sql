@@ -420,7 +420,9 @@ VALUES (0x7E74E0F0, 0x7E74E0F1, '2019-02-10 00:00:00') /* Li Fong (28477) */
      , (0x7E74E0F0, 0x7E74E111, '2019-02-10 00:00:00') /* Town Crier (5777) */
      , (0x7E74E0F0, 0x7E74E112, '2019-02-10 00:00:00') /* Town Crier (5777) */
      , (0x7E74E0F0, 0x7E74E113, '2019-02-10 00:00:00') /* Town Crier (5777) */
-     , (0x7E74E0F0, 0x7E74E114, '2019-02-10 00:00:00') /* Town Crier (5777) */;
+     , (0x7E74E0F0, 0x7E74E114, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7E74E0F0, 0x7E74E115, '2019-02-10 00:00:00') /* Town Crier (5777) */
+     , (0x7E74E0F0, 0x7E74E116, '2019-02-10 00:00:00') /* Town Crier (5777) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E74E0F1, 28477, 0xE74E0103, 78.6258, 155.74, 34.005, -0.97337, 0, 0, 0.22924,  True, '2019-02-10 00:00:00'); /* Li Fong */
@@ -567,32 +569,40 @@ VALUES (0x7E74E114,  5777, 0xE74E001D, 84.8562, 108.9137, 32.005, 1, 0, 0, 0,  T
 /* @teleloc 0xE74E001D [84.856200 108.913700 32.005000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E115,  1542, 0xE74E000F, 33.6033, 151.348, 32, 0.87583, 0, 0, 0.48262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E74E115,  5777, 0xE74E001D, 85.03848, 108.72, 32.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Town Crier */
+/* @teleloc 0xE74E001D [85.038480 108.720000 32.005000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E74E116,  5777, 0xE74E001D, 85.67101, 105.8829, 32.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Town Crier */
+/* @teleloc 0xE74E001D [85.671010 105.882900 32.005000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E74E117,  1542, 0xE74E000F, 33.6033, 151.348, 32, 0.87583, 0, 0, 0.48262, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE74E000F [33.603300 151.348000 32.000000] 0.875830 0.000000 0.000000 0.482620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E74E115, 0x7E74E116, '2019-02-10 00:00:00') /* Morgluuk's Head (28450) */
-     , (0x7E74E115, 0x7E74E117, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7E74E115, 0x7E74E118, '2019-02-10 00:00:00') /* Gem (2411) */
-     , (0x7E74E115, 0x7E74E119, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7E74E115, 0x7E74E11A, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x7E74E117, 0x7E74E118, '2019-02-10 00:00:00') /* Morgluuk's Head (28450) */
+     , (0x7E74E117, 0x7E74E119, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7E74E117, 0x7E74E11A, '2019-02-10 00:00:00') /* Gem (2411) */
+     , (0x7E74E117, 0x7E74E11B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7E74E117, 0x7E74E11C, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E116, 28450, 0xE74E000F, 33.6033, 151.348, 32, 0.87583, 0, 0, 0.48262,  True, '2019-02-10 00:00:00'); /* Morgluuk's Head */
+VALUES (0x7E74E118, 28450, 0xE74E000F, 33.6033, 151.348, 32, 0.87583, 0, 0, 0.48262,  True, '2019-02-10 00:00:00'); /* Morgluuk's Head */
 /* @teleloc 0xE74E000F [33.603300 151.348000 32.000000] 0.875830 0.000000 0.000000 0.482620 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E117,  1955, 0xE74E0032, 166.38, 41.61324, 31.937, -0.9296143, 0, 0, -0.3685339,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7E74E119,  1955, 0xE74E0032, 166.38, 41.61324, 31.937, -0.9296143, 0, 0, -0.3685339,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xE74E0032 [166.380000 41.613240 31.937000] -0.929614 0.000000 0.000000 -0.368534 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E118,  2411, 0xE74E0015, 49.27722, 101.7308, 31.999, 0.2290324, 0, 0, -0.9734188,  True, '2019-02-10 00:00:00'); /* Gem */
+VALUES (0x7E74E11A,  2411, 0xE74E0015, 49.27722, 101.7308, 31.999, 0.2290324, 0, 0, -0.9734188,  True, '2019-02-10 00:00:00'); /* Gem */
 /* @teleloc 0xE74E0015 [49.277220 101.730800 31.999000] 0.229032 0.000000 0.000000 -0.973419 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E119,  1955, 0xE74E000E, 37.90054, 130.9797, 31.937, -0.7852312, 0, 0, -0.6192027,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7E74E11B,  1955, 0xE74E000E, 37.90054, 130.9797, 31.937, -0.7852312, 0, 0, -0.6192027,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xE74E000E [37.900540 130.979700 31.937000] -0.785231 0.000000 0.000000 -0.619203 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E74E11A,  1955, 0xE74E0015, 49.42271, 118.9229, 31.937, 0.999596, 0, 0, -0.02842181,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7E74E11C,  1955, 0xE74E0015, 49.42271, 118.9229, 31.937, 0.999596, 0, 0, -0.02842181,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xE74E0015 [49.422710 118.922900 31.937000] 0.999596 0.000000 0.000000 -0.028422 */

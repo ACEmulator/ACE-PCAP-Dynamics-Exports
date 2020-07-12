@@ -40,3 +40,19 @@ VALUES (0x799ED007,  7111, 0x99ED002F, 132.1301, 156.3486, 0, 0.9895341, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799ED008,  7124, 0x99ED0004, 12.96592, 85.29575, 0.8995205, 0.647176, 0, 0, -0.7623407,  True, '2019-02-10 00:00:00'); /* Dark Magus */
 /* @teleloc 0x99ED0004 [12.965920 85.295750 0.899521] 0.647176 0.000000 0.000000 -0.762341 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799ED009,  1542, 0x99ED003A, 173.9193, 40.39822, 8.633481, 0.9413564, 0, 0, -0.337414, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x99ED003A [173.919300 40.398220 8.633481] 0.941356 0.000000 0.000000 -0.337414 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x799ED009, 0x799ED00A, '2019-02-10 00:00:00') /* Colban Plant (11554) */
+     , (0x799ED009, 0x799ED00B, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799ED00A, 11554, 0x99ED003A, 173.9193, 40.39822, 8.633481, 0.9413564, 0, 0, -0.337414,  True, '2019-02-10 00:00:00'); /* Colban Plant */
+/* @teleloc 0x99ED003A [173.919300 40.398220 8.633481] 0.941356 0.000000 0.000000 -0.337414 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799ED00B,  1955, 0x99ED0021, 118.5413, 23.437, 7.983917, 0.8601885, 0, 0, -0.5099761,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x99ED0021 [118.541300 23.437000 7.983917] 0.860189 0.000000 0.000000 -0.509976 */

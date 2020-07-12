@@ -109,7 +109,11 @@ VALUES (0x70C0C001, 0x70C0C002, '2019-02-10 00:00:00') /* Biaka (25859) */
      , (0x70C0C001, 0x70C0C067, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
      , (0x70C0C001, 0x70C0C068, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
      , (0x70C0C001, 0x70C0C069, '2019-02-10 00:00:00') /* Hellion (25863) */
-     , (0x70C0C001, 0x70C0C06A, '2019-02-10 00:00:00') /* Hellion (25863) */;
+     , (0x70C0C001, 0x70C0C06A, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x70C0C001, 0x70C0C06B, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
+     , (0x70C0C001, 0x70C0C06C, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
+     , (0x70C0C001, 0x70C0C06D, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x70C0C001, 0x70C0C06E, '2019-02-10 00:00:00') /* Ravager (25852) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C0C002, 25859, 0x0C0C0021, 106.6628, 16.90928, 243.6176, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
@@ -532,12 +536,28 @@ VALUES (0x70C0C06A, 25863, 0x0C0C000B, 47.81989, 58.87127, 27.55194, 0.9038545, 
 /* @teleloc 0x0C0C000B [47.819890 58.871270 27.551940] 0.903855 0.000000 0.000000 -0.427840 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C0C06B,  1542, 0x0C0C001C, 83.22235, 90.88763, 43.24593, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70C0C06B, 25865, 0x0C0C0003, 5.707042, 50.6459, 21.72983, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cursed Marionette */
+/* @teleloc 0x0C0C0003 [5.707042 50.645900 21.729830] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C0C06C, 25865, 0x0C0C000B, 43.80133, 55.69518, 25.86578, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cursed Marionette */
+/* @teleloc 0x0C0C000B [43.801330 55.695180 25.865780] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C0C06D, 25852, 0x0C0C001C, 79.18454, 81.57904, 39.79173, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x0C0C001C [79.184540 81.579040 39.791730] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C0C06E, 25852, 0x0C0C002B, 128.7128, 51.79095, 131.211, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x0C0C002B [128.712800 51.790950 131.211000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C0C06F,  1542, 0x0C0C001C, 83.22235, 90.88763, 43.24593, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0C0C001C [83.222350 90.887630 43.245930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C0C06B, 0x70C0C06C, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */;
+VALUES (0x70C0C06F, 0x70C0C070, '2019-02-10 00:00:00') /* Black Marrow Reliquary (30796) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C0C06C, 30796, 0x0C0C001C, 83.22235, 90.88763, 43.24593, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */
+VALUES (0x70C0C070, 30796, 0x0C0C001C, 83.22235, 90.88763, 43.24593, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Black Marrow Reliquary */
 /* @teleloc 0x0C0C001C [83.222350 90.887630 43.245930] 1.000000 0.000000 0.000000 0.000000 */

@@ -17,7 +17,8 @@ VALUES (0x7434F001, 0x7434F002, '2019-02-10 00:00:00') /* Great Revenant (24320)
      , (0x7434F001, 0x7434F00B, '2019-02-10 00:00:00') /* Guruk Miscreant (27988) */
      , (0x7434F001, 0x7434F00C, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
      , (0x7434F001, 0x7434F00D, '2019-02-10 00:00:00') /* Caustic (14516) */
-     , (0x7434F001, 0x7434F00E, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */;
+     , (0x7434F001, 0x7434F00E, '2019-02-10 00:00:00') /* Guruk Heavy (27987) */
+     , (0x7434F001, 0x7434F00F, '2019-02-10 00:00:00') /* Ulu Sclavus Lord (23488) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434F002, 24320, 0x434F002A, 122.2314, 31.10721, 10.78647, -0.7710906, 0, 0, -0.6367254,  True, '2019-02-10 00:00:00'); /* Great Revenant */
@@ -70,3 +71,7 @@ VALUES (0x7434F00D, 14516, 0x434F0005, 14.47589, 116.1578, 3.854187, -0.8219156,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434F00E, 27987, 0x434F000A, 28.92192, 42.81154, 18.82482, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Guruk Heavy */
 /* @teleloc 0x434F000A [28.921920 42.811540 18.824820] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7434F00F, 23488, 0x434F0012, 49.03701, 42.73967, 18.55987, 0.4921178, 0, 0, -0.8705286,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus Lord */
+/* @teleloc 0x434F0012 [49.037010 42.739670 18.559870] 0.492118 0.000000 0.000000 -0.870529 */

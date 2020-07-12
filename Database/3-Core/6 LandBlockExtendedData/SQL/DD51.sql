@@ -52,7 +52,10 @@ VALUES (0x7DD51001, 0x7DD51002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7DD51001, 0x7DD5102E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7DD51001, 0x7DD5102F, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x7DD51001, 0x7DD51030, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
-     , (0x7DD51001, 0x7DD51031, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
+     , (0x7DD51001, 0x7DD51031, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7DD51001, 0x7DD51032, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7DD51001, 0x7DD51033, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DD51001, 0x7DD51034, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD51002, 24937, 0xDD510030, 142.8949, 180.267, 16.0841, 0.9808861, 0, 0, -0.1945828,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -247,82 +250,94 @@ VALUES (0x7DD51031,  2567, 0xDD510030, 136.2856, 184.0059, 16.64287, 0.9808861, 
 /* @teleloc 0xDD510030 [136.285600 184.005900 16.642870] 0.980886 0.000000 0.000000 -0.194583 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51032,  1542, 0xDD510039, 189.7043, 6.382777, 21.27755, -0.355114, 0, 0, -0.934823, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7DD51032, 19263, 0xDD51000C, 42.79977, 78.49233, 17.997, -0.5721644, 0, 0, -0.820139,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0xDD51000C [42.799770 78.492330 17.997000] -0.572164 0.000000 0.000000 -0.820139 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DD51033, 19256, 0xDD510012, 64.05151, 42.36525, 20.47671, 0.4118724, 0, 0, -0.9112415,  True, '2019-02-10 00:00:00'); /* Young Banderling */
+/* @teleloc 0xDD510012 [64.051510 42.365250 20.476710] 0.411872 0.000000 0.000000 -0.911242 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DD51034,  2567, 0xDD510030, 134.6618, 173.1408, 16.77818, 0.9808861, 0, 0, -0.1945828,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xDD510030 [134.661800 173.140800 16.778180] 0.980886 0.000000 0.000000 -0.194583 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DD51035,  1542, 0xDD510039, 189.7043, 6.382777, 21.27755, -0.355114, 0, 0, -0.934823, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.277550] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DD51032, 0x7DD51033, '2019-02-10 00:00:00') /* Platemail Girth (61) */
-     , (0x7DD51032, 0x7DD51034, '2019-02-10 00:00:00') /* Alduressa Leggings (28620) */
-     , (0x7DD51032, 0x7DD51035, '2019-02-10 00:00:00') /* Leather Bracers (25637) */
-     , (0x7DD51032, 0x7DD51036, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
-     , (0x7DD51032, 0x7DD51037, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
-     , (0x7DD51032, 0x7DD51038, '2019-02-10 00:00:00') /* Chainmail Breastplate (414) */
-     , (0x7DD51032, 0x7DD51039, '2019-02-10 00:00:00') /* Covenant Shield (21158) */
-     , (0x7DD51032, 0x7DD5103A, '2019-02-10 00:00:00') /* Yoroi Cuirass (54) */
-     , (0x7DD51032, 0x7DD5103B, '2019-02-10 00:00:00') /* Nariyid Leggings (27231) */
-     , (0x7DD51032, 0x7DD5103C, '2019-02-10 00:00:00') /* Scalemail Cuirass (52) */
-     , (0x7DD51032, 0x7DD5103D, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
-     , (0x7DD51032, 0x7DD5103E, '2019-02-10 00:00:00') /* Covenant Tassets (21159) */
-     , (0x7DD51032, 0x7DD5103F, '2019-02-10 00:00:00') /* Leather Sleeves (25651) */
-     , (0x7DD51032, 0x7DD51040, '2019-02-10 00:00:00') /* Lorica Breastplate (27221) */
-     , (0x7DD51032, 0x7DD51041, '2019-02-10 00:00:00') /* Tenassa Leggings (28622) */;
+VALUES (0x7DD51035, 0x7DD51036, '2019-02-10 00:00:00') /* Platemail Girth (61) */
+     , (0x7DD51035, 0x7DD51037, '2019-02-10 00:00:00') /* Alduressa Leggings (28620) */
+     , (0x7DD51035, 0x7DD51038, '2019-02-10 00:00:00') /* Leather Bracers (25637) */
+     , (0x7DD51035, 0x7DD51039, '2019-02-10 00:00:00') /* Amuli Coat (6046) */
+     , (0x7DD51035, 0x7DD5103A, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
+     , (0x7DD51035, 0x7DD5103B, '2019-02-10 00:00:00') /* Chainmail Breastplate (414) */
+     , (0x7DD51035, 0x7DD5103C, '2019-02-10 00:00:00') /* Covenant Shield (21158) */
+     , (0x7DD51035, 0x7DD5103D, '2019-02-10 00:00:00') /* Yoroi Cuirass (54) */
+     , (0x7DD51035, 0x7DD5103E, '2019-02-10 00:00:00') /* Nariyid Leggings (27231) */
+     , (0x7DD51035, 0x7DD5103F, '2019-02-10 00:00:00') /* Scalemail Cuirass (52) */
+     , (0x7DD51035, 0x7DD51040, '2019-02-10 00:00:00') /* Celdon Girth (6043) */
+     , (0x7DD51035, 0x7DD51041, '2019-02-10 00:00:00') /* Covenant Tassets (21159) */
+     , (0x7DD51035, 0x7DD51042, '2019-02-10 00:00:00') /* Leather Sleeves (25651) */
+     , (0x7DD51035, 0x7DD51043, '2019-02-10 00:00:00') /* Lorica Breastplate (27221) */
+     , (0x7DD51035, 0x7DD51044, '2019-02-10 00:00:00') /* Tenassa Leggings (28622) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51033,    61, 0xDD510039, 189.7043, 6.382777, 21.27755, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Platemail Girth */
+VALUES (0x7DD51036,    61, 0xDD510039, 189.7043, 6.382777, 21.27755, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Platemail Girth */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.277550] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51034, 28620, 0xDD510039, 189.7043, 6.382777, 21.3268, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Alduressa Leggings */
+VALUES (0x7DD51037, 28620, 0xDD510039, 189.7043, 6.382777, 21.3268, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Alduressa Leggings */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.326800] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51035, 25637, 0xDD510039, 189.7043, 6.382777, 21.27345, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Leather Bracers */
+VALUES (0x7DD51038, 25637, 0xDD510039, 189.7043, 6.382777, 21.27345, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Leather Bracers */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.273450] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51036,  6046, 0xDD510039, 189.7043, 6.382777, 21.27177, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Amuli Coat */
+VALUES (0x7DD51039,  6046, 0xDD510039, 189.7043, 6.382777, 21.27177, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Amuli Coat */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.271770] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51037,    80, 0xDD510039, 189.7043, 6.382777, 21.27085, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Chainmail Leggings */
+VALUES (0x7DD5103A,    80, 0xDD510039, 189.7043, 6.382777, 21.27085, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Chainmail Leggings */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.270850] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51038,   414, 0xDD510039, 189.7043, 6.382777, 21.26972, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Chainmail Breastplate */
+VALUES (0x7DD5103B,   414, 0xDD510039, 189.7043, 6.382777, 21.26972, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Chainmail Breastplate */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.269720] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51039, 21158, 0xDD510039, 189.7043, 6.382777, 21.28772, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Covenant Shield */
+VALUES (0x7DD5103C, 21158, 0xDD510039, 189.7043, 6.382777, 21.28772, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Covenant Shield */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.287720] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD5103A,    54, 0xDD510039, 189.7043, 6.382777, 21.27177, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Yoroi Cuirass */
+VALUES (0x7DD5103D,    54, 0xDD510039, 189.7043, 6.382777, 21.27177, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Yoroi Cuirass */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.271770] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD5103B, 27231, 0xDD510039, 189.7043, 6.382777, 21.27085, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Nariyid Leggings */
+VALUES (0x7DD5103E, 27231, 0xDD510039, 189.7043, 6.382777, 21.27085, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Nariyid Leggings */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.270850] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD5103C,    52, 0xDD510039, 189.7043, 6.382777, 21.27177, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Scalemail Cuirass */
+VALUES (0x7DD5103F,    52, 0xDD510039, 189.7043, 6.382777, 21.27177, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Scalemail Cuirass */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.271770] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD5103D,  6043, 0xDD510039, 189.7043, 6.382777, 21.27755, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Celdon Girth */
+VALUES (0x7DD51040,  6043, 0xDD510039, 189.7043, 6.382777, 21.27755, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Celdon Girth */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.277550] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD5103E, 21159, 0xDD510039, 189.7043, 6.382777, 21.26822, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Covenant Tassets */
+VALUES (0x7DD51041, 21159, 0xDD510039, 189.7043, 6.382777, 21.26822, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Covenant Tassets */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.268220] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD5103F, 25651, 0xDD510039, 189.7043, 6.382777, 21.27062, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Leather Sleeves */
+VALUES (0x7DD51042, 25651, 0xDD510039, 189.7043, 6.382777, 21.27062, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Leather Sleeves */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.270620] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51040, 27221, 0xDD510039, 189.7043, 6.382777, 21.26972, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Lorica Breastplate */
+VALUES (0x7DD51043, 27221, 0xDD510039, 189.7043, 6.382777, 21.26972, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Lorica Breastplate */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.269720] -0.355114 0.000000 0.000000 -0.934823 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DD51041, 28622, 0xDD510039, 189.7043, 6.382777, 21.2199, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Tenassa Leggings */
+VALUES (0x7DD51044, 28622, 0xDD510039, 189.7043, 6.382777, 21.2199, -0.355114, 0, 0, -0.934823,  True, '2019-02-10 00:00:00'); /* Tenassa Leggings */
 /* @teleloc 0xDD510039 [189.704300 6.382777 21.219900] -0.355114 0.000000 0.000000 -0.934823 */

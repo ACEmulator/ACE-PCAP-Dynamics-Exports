@@ -14,8 +14,7 @@ VALUES (2394,   1,       2048) /* ItemType - Gem */
      , (2394,  19,        319) /* Value */
      , (2394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2394, 105,          8) /* ItemWorkmanship */
-     , (2394, 131,         15) /* MaterialType - BlackGarnet */
-     , (2394, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2394, 131,         15) /* MaterialType - BlackGarnet */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2394,  22, True ) /* Inscribable */;

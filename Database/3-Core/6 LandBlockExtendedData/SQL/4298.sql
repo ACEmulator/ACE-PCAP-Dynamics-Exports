@@ -15,7 +15,8 @@ VALUES (0x74298001, 0x74298002, '2019-02-10 00:00:00') /* Mercenary (11504) */
      , (0x74298001, 0x74298009, '2019-02-10 00:00:00') /* Viamontian Footman (32768) */
      , (0x74298001, 0x7429800A, '2019-02-10 00:00:00') /* Viamontian Footman (32768) */
      , (0x74298001, 0x7429800B, '2019-02-10 00:00:00') /* Viamontian Footman (32768) */
-     , (0x74298001, 0x7429800C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */;
+     , (0x74298001, 0x7429800C, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
+     , (0x74298001, 0x7429800D, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74298002, 11504, 0x42980010, 30.4437, 171.5, 138.931, -0.6908827, 0, 0, 0.7229668,  True, '2019-02-10 00:00:00'); /* Mercenary */
@@ -60,3 +61,7 @@ VALUES (0x7429800B, 32768, 0x42980007, 20.9277, 167.712, 140.0063, -0.6952012, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7429800C,   228, 0x42980018, 53.30973, 176.9552, 135.5635, -0.8123197, 0, 0, -0.5832124,  True, '2019-02-10 00:00:00'); /* Tumerok High Priest */
 /* @teleloc 0x42980018 [53.309730 176.955200 135.563500] -0.812320 0.000000 0.000000 -0.583212 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7429800D,  7607, 0x42980018, 67.27953, 185.0557, 134.3959, -0.8123197, 0, 0, -0.5832124,  True, '2019-02-10 00:00:00'); /* Ember */
+/* @teleloc 0x42980018 [67.279530 185.055700 134.395900] -0.812320 0.000000 0.000000 -0.583212 */

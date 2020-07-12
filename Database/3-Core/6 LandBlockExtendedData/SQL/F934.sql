@@ -14,7 +14,11 @@ VALUES (0x7F934001, 0x7F934002, '2019-02-10 00:00:00') /* Blighted Verdant Moars
      , (0x7F934001, 0x7F934008, '2019-02-10 00:00:00') /* Ardent Moarsman (40303) */
      , (0x7F934001, 0x7F934009, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
      , (0x7F934001, 0x7F93400A, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
-     , (0x7F934001, 0x7F93400B, '2019-02-10 00:00:00') /* Ardent Moar (40298) */;
+     , (0x7F934001, 0x7F93400B, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7F934001, 0x7F93400C, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F934001, 0x7F93400D, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7F934001, 0x7F93400E, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7F934001, 0x7F93400F, '2019-02-10 00:00:00') /* Ashris Niffis (40307) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F934002, 40305, 0xF9340024, 109.3754, 86.38199, 60.51738, 0.682681, 0, 0, -0.7307166,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
@@ -55,3 +59,19 @@ VALUES (0x7F93400A, 40301, 0xF9340024, 108.0035, 79.36948, 59.47361, 0.682681, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93400B, 40298, 0xF9340024, 111.8438, 82.89964, 59.00441, 0.682681, 0, 0, -0.7307166,  True, '2019-02-10 00:00:00'); /* Ardent Moar */
 /* @teleloc 0xF9340024 [111.843800 82.899640 59.004410] 0.682681 0.000000 0.000000 -0.730717 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F93400C, 40305, 0xF934001E, 84.53442, 125.1317, 74.44535, 0.1645976, 0, 0, -0.9863608,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xF934001E [84.534420 125.131700 74.445350] 0.164598 0.000000 0.000000 -0.986361 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F93400D, 40302, 0xF934001E, 87.18134, 126.8954, 73.63644, 0.1645976, 0, 0, -0.9863608,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0xF934001E [87.181340 126.895400 73.636440] 0.164598 0.000000 0.000000 -0.986361 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F93400E, 40305, 0xF934001E, 82.70789, 122.6091, 75.1122, 0.1645976, 0, 0, -0.9863608,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xF934001E [82.707890 122.609100 75.112200] 0.164598 0.000000 0.000000 -0.986361 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F93400F, 40307, 0xF9340024, 113.4178, 77.66638, 57.53485, 0.682681, 0, 0, -0.7307166,  True, '2019-02-10 00:00:00'); /* Ashris Niffis */
+/* @teleloc 0xF9340024 [113.417800 77.666380 57.534850] 0.682681 0.000000 0.000000 -0.730717 */

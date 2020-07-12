@@ -12,7 +12,11 @@ VALUES (0x7BBD7001, 0x7BBD7002, '2019-02-10 00:00:00') /* Skeleton Bone Knight (
      , (0x7BBD7001, 0x7BBD7006, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
      , (0x7BBD7001, 0x7BBD7007, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
      , (0x7BBD7001, 0x7BBD7008, '2019-02-10 00:00:00') /* Dark Leech (7123) */
-     , (0x7BBD7001, 0x7BBD7009, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
+     , (0x7BBD7001, 0x7BBD7009, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x7BBD7001, 0x7BBD700A, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x7BBD7001, 0x7BBD700B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BBD7001, 0x7BBD700C, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x7BBD7001, 0x7BBD700D, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD7002,  7334, 0xBBD70033, 151.104, 65.40646, 82.04504, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Knight */
@@ -45,3 +49,19 @@ VALUES (0x7BBD7008,  7123, 0xBBD7002B, 134.7527, 68.28326, 80.15656, 0.4825698, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BBD7009,  8968, 0xBBD7002B, 135.5645, 64.05828, 79.93477, -0.4924448, 0, 0, -0.8703437,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
 /* @teleloc 0xBBD7002B [135.564500 64.058280 79.934770] -0.492445 0.000000 0.000000 -0.870344 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BBD700A,  4253, 0xBBD70024, 113.907, 79.42163, 77.49725, -0.4924448, 0, 0, -0.8703437,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
+/* @teleloc 0xBBD70024 [113.907000 79.421630 77.497250] -0.492445 0.000000 0.000000 -0.870344 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BBD700B, 14559, 0xBBD70022, 105.6045, 39.97768, 74.14185, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Oak Golem */
+/* @teleloc 0xBBD70022 [105.604500 39.977680 74.141850] -0.087156 0.000000 0.000000 -0.996195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BBD700C, 14559, 0xBBD70022, 112.1666, 42.96752, 74.93784, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Oak Golem */
+/* @teleloc 0xBBD70022 [112.166600 42.967520 74.937840] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BBD700D,  4217, 0xBBD7003B, 186.2783, 59.40574, 81.90921, 0.4825698, 0, 0, -0.8758575,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
+/* @teleloc 0xBBD7003B [186.278300 59.405740 81.909210] 0.482570 0.000000 0.000000 -0.875858 */

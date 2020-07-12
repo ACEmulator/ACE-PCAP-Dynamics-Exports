@@ -29,7 +29,6 @@ VALUES (30610,   1,          1) /* ItemType - MeleeWeapon */
      , (30610, 158,          2) /* WieldRequirements - RawSkill */
      , (30610, 159,         46) /* WieldSkillType - FinesseWeapons */
      , (30610, 160,        370) /* WieldDifficulty */
-     , (30610, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (30610, 177,          3) /* GemCount */
      , (30610, 178,         26) /* GemType */
      , (30610, 353,          7) /* WeaponType - Staff */;

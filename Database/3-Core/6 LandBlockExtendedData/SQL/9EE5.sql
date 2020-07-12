@@ -99,7 +99,13 @@ VALUES (0x79EE5002, 0x79EE5003, '2019-02-10 00:00:00') /* Blighted Verdant Moars
      , (0x79EE5002, 0x79EE5056, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
      , (0x79EE5002, 0x79EE5057, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
      , (0x79EE5002, 0x79EE5058, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38875) */
-     , (0x79EE5002, 0x79EE5059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */;
+     , (0x79EE5002, 0x79EE5059, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */
+     , (0x79EE5002, 0x79EE505A, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38876) */
+     , (0x79EE5002, 0x79EE505B, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE505C, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (38871) */
+     , (0x79EE5002, 0x79EE505D, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (38872) */
+     , (0x79EE5002, 0x79EE505E, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (38874) */
+     , (0x79EE5002, 0x79EE505F, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (38877) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5003, 38872, 0x9EE50107, 107.923, 35.9326, 82.0066, 0.327922, 0, 0, -0.944705,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
@@ -448,3 +454,27 @@ VALUES (0x79EE5058, 38875, 0x9EE50011, 65.27196, 23.29361, 82.05887, -0.7185674,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EE5059, 38877, 0x9EE50011, 67.55583, 7.828691, 83.34761, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
 /* @teleloc 0x9EE50011 [67.555830 7.828691 83.347610] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE505A, 38876, 0x9EE50019, 81.68085, 20.85672, 82.26194, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0x9EE50019 [81.680850 20.856720 82.261940] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE505B, 38874, 0x9EE50019, 76.67756, 14.20509, 82.81625, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0x9EE50019 [76.677560 14.205090 82.816250] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE505C, 38871, 0x9EE5001A, 76.77831, 26.50158, 82.0064, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0x9EE5001A [76.778310 26.501580 82.006400] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE505D, 38872, 0x9EE50011, 64.6552, 19.20875, 82.40587, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0x9EE50011 [64.655200 19.208750 82.405870] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE505E, 38874, 0x9EE50011, 64.82137, 20.97773, 82.25186, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0x9EE50011 [64.821370 20.977730 82.251860] -0.718567 0.000000 0.000000 0.695457 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EE505F, 38877, 0x9EE50012, 69.24402, 27.42492, 82, -0.7185674, 0, 0, 0.6954573,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
+/* @teleloc 0x9EE50012 [69.244020 27.424920 82.000000] -0.718567 0.000000 0.000000 0.695457 */

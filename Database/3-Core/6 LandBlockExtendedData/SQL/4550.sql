@@ -28,7 +28,11 @@ VALUES (0x74550001, 0x74550002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
      , (0x74550001, 0x74550012, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
      , (0x74550001, 0x74550013, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
      , (0x74550001, 0x74550014, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
-     , (0x74550001, 0x74550015, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */;
+     , (0x74550001, 0x74550015, '2019-02-10 00:00:00') /* Desolation Moarsman (7181) */
+     , (0x74550001, 0x74550016, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74550001, 0x74550017, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74550001, 0x74550018, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74550001, 0x74550019, '2019-02-10 00:00:00') /* Crystal Shard (23616) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74550002,  2584, 0x4550010A, 159.645, 81.377, -0.3999989, -0.712339, 0, 0, -0.701835,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
@@ -109,3 +113,19 @@ VALUES (0x74550014,  7181, 0x4550003C, 191.8211, 87.22627, 10.0064, 0.9537169, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74550015,  7181, 0x4550003C, 188.3978, 90.05491, 10.0064, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
 /* @teleloc 0x4550003C [188.397800 90.054910 10.006400] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74550016, 24319, 0x45500018, 68.37473, 179.1753, 10.00825, -0.3539923, 0, 0, -0.9352483,  True, '2019-02-10 00:00:00'); /* Dark Master */
+/* @teleloc 0x45500018 [68.374730 179.175300 10.008250] -0.353992 0.000000 0.000000 -0.935248 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74550017,  4248, 0x45500019, 79.1265, 3.202086, 10.0066, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x45500019 [79.126500 3.202086 10.006600] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74550018,  4248, 0x45500019, 75.41811, 12.47397, 10.0066, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x45500019 [75.418110 12.473970 10.006600] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74550019, 23616, 0x45500030, 132.6524, 191.8248, 10, 0.116888, 0, 0, -0.9931451,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x45500030 [132.652400 191.824800 10.000000] 0.116888 0.000000 0.000000 -0.993145 */

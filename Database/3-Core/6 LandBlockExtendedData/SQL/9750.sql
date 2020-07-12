@@ -14,7 +14,10 @@ VALUES (0x79750001, 0x79750002, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254
      , (0x79750001, 0x79750008, '2019-02-10 00:00:00') /* Beaten Doll (10770) */
      , (0x79750001, 0x79750009, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x79750001, 0x7975000A, '2019-02-10 00:00:00') /* Risen Knight (8673) */
-     , (0x79750001, 0x7975000B, '2019-02-10 00:00:00') /* Dark Marionette (9250) */;
+     , (0x79750001, 0x7975000B, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79750001, 0x7975000C, '2019-02-10 00:00:00') /* Gout (21164) */
+     , (0x79750001, 0x7975000D, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79750001, 0x7975000E, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79750002,  9254, 0x97500022, 96.03683, 25.37134, 11.81396, -0.3506407, 0, 0, -0.93651,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */
@@ -55,3 +58,15 @@ VALUES (0x7975000A,  8673, 0x97500007, 16.45731, 152.1121, 10.68426, -0.3923666,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7975000B,  9250, 0x9750003E, 179.4569, 131.9858, 13.16008, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
 /* @teleloc 0x9750003E [179.456900 131.985800 13.160080] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7975000C, 21164, 0x9750001A, 84.79646, 33.10091, 11.87026, -0.3506407, 0, 0, -0.93651,  True, '2019-02-10 00:00:00'); /* Gout */
+/* @teleloc 0x9750001A [84.796460 33.100910 11.870260] -0.350641 0.000000 0.000000 -0.936510 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7975000D,  9256, 0x9750002B, 123.1014, 57.11316, 8.777359, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Dune Reaver */
+/* @teleloc 0x9750002B [123.101400 57.113160 8.777359] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7975000E,  9257, 0x9750003F, 187.8304, 145.0626, 10.09015, -0.6913299, 0, 0, -0.7225392,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
+/* @teleloc 0x9750003F [187.830400 145.062600 10.090150] -0.691330 0.000000 0.000000 -0.722539 */

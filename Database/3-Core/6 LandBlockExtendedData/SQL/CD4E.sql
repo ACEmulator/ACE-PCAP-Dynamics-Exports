@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7CD4E001, 0x7CD4E002, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
      , (0x7CD4E001, 0x7CD4E003, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
      , (0x7CD4E001, 0x7CD4E004, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
-     , (0x7CD4E001, 0x7CD4E005, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */;
+     , (0x7CD4E001, 0x7CD4E005, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7CD4E001, 0x7CD4E006, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4E002, 24959, 0xCD4E001A, 83.61606, 47.18193, 146.1534, -0.8106415, 0, 0, -0.5855428,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
@@ -25,3 +26,7 @@ VALUES (0x7CD4E004, 24943, 0xCD4E0024, 104.1881, 92.09422, 233.3806, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CD4E005, 24943, 0xCD4E0024, 119.8451, 95.94901, 231.9253, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Obeloth */
 /* @teleloc 0xCD4E0024 [119.845100 95.949010 231.925300] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CD4E006,  9400, 0xCD4E0029, 133.8687, 20.98679, 241.6579, -0.8106415, 0, 0, -0.5855428,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
+/* @teleloc 0xCD4E0029 [133.868700 20.986790 241.657900] -0.810642 0.000000 0.000000 -0.585543 */

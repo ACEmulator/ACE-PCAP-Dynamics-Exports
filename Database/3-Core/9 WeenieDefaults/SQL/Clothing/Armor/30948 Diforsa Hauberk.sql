@@ -21,7 +21,6 @@ VALUES (30948,   1,          2) /* ItemType - Armor */
      , (30948, 110,          0) /* ItemAllegianceRankLimit */
      , (30948, 115,          0) /* ItemSkillLevelLimit */
      , (30948, 131,         57) /* MaterialType - Brass */
-     , (30948, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (30948, 177,          2) /* GemCount */
      , (30948, 178,         26) /* GemType */;
 

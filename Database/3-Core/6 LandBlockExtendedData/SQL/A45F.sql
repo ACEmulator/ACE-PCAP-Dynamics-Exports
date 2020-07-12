@@ -19,7 +19,10 @@ VALUES (0x7A45F001, 0x7A45F002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7A45F001, 0x7A45F009, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x7A45F001, 0x7A45F00A, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
      , (0x7A45F001, 0x7A45F00B, '2019-02-10 00:00:00') /* Gout (21164) */
-     , (0x7A45F001, 0x7A45F00C, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */;
+     , (0x7A45F001, 0x7A45F00C, '2019-02-10 00:00:00') /* Ancient Mu-miyah (9254) */
+     , (0x7A45F001, 0x7A45F00D, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
+     , (0x7A45F001, 0x7A45F00E, '2019-02-10 00:00:00') /* High Tumerok (226) */
+     , (0x7A45F001, 0x7A45F00F, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A45F002, 24937, 0xA45F001F, 94.09809, 151.9267, 27.83351, -0.07295563, 0, 0, -0.9973352,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -64,3 +67,15 @@ VALUES (0x7A45F00B, 21164, 0xA45F0040, 177.3803, 186.6357, 36.003, 0.2529372, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A45F00C,  9254, 0xA45F001F, 74.74747, 158.3761, 26.23496, -0.02271998, 0, 0, -0.9997419,  True, '2019-02-10 00:00:00'); /* Ancient Mu-miyah */
 /* @teleloc 0xA45F001F [74.747470 158.376100 26.234960] -0.022720 0.000000 0.000000 -0.999742 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A45F00D,   238, 0xA45F001F, 77.98723, 146.9219, 26.52794, -0.02271998, 0, 0, -0.9997419,  True, '2019-02-10 00:00:00'); /* Virindi Puppet */
+/* @teleloc 0xA45F001F [77.987230 146.921900 26.527940] -0.022720 0.000000 0.000000 -0.999742 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A45F00E,   226, 0xA45F0040, 187.4682, 169.3766, 36.006, 0.2529372, 0, 0, -0.9674827,  True, '2019-02-10 00:00:00'); /* High Tumerok */
+/* @teleloc 0xA45F0040 [187.468200 169.376600 36.006000] 0.252937 0.000000 0.000000 -0.967483 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A45F00F, 24937, 0xA45F0018, 65.1961, 168.0395, 26.45365, -0.07295563, 0, 0, -0.9973352,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xA45F0018 [65.196100 168.039500 26.453650] -0.072956 0.000000 0.000000 -0.997335 */

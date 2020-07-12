@@ -13,7 +13,9 @@ VALUES (0x7C52F001, 0x7C52F002, '2019-02-10 00:00:00') /* Crystal Golem (14800) 
      , (0x7C52F001, 0x7C52F007, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
      , (0x7C52F001, 0x7C52F008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
      , (0x7C52F001, 0x7C52F009, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
-     , (0x7C52F001, 0x7C52F00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
+     , (0x7C52F001, 0x7C52F00A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7C52F001, 0x7C52F00B, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x7C52F001, 0x7C52F00C, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C52F002, 14800, 0xC52F0019, 90.76725, 8.384193, 226.4343, 0.7093065, 0, 0, -0.7049002,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
@@ -50,3 +52,11 @@ VALUES (0x7C52F009,  1610, 0xC52F0039, 173.2199, 6.263357, 197.6548, 0.8433914, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C52F00A,  4254, 0xC52F0031, 167.627, 15.14405, 197.8621, 0.839756, 0, 0, -0.542964,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
 /* @teleloc 0xC52F0031 [167.627000 15.144050 197.862100] 0.839756 0.000000 0.000000 -0.542964 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C52F00B, 30882, 0xC52F0013, 66.13446, 70.58342, 218.6108, 0.2099926, 0, 0, -0.977703,  True, '2019-02-10 00:00:00'); /* Banished Shadow */
+/* @teleloc 0xC52F0013 [66.134460 70.583420 218.610800] 0.209993 0.000000 0.000000 -0.977703 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C52F00C,  4253, 0xC52F0021, 108.9355, 0.4375, 232.4837, 0.7093065, 0, 0, -0.7049002,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
+/* @teleloc 0xC52F0021 [108.935500 0.437500 232.483700] 0.709307 0.000000 0.000000 -0.704900 */

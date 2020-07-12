@@ -26,7 +26,6 @@ VALUES (30582,   1,          1) /* ItemType - MeleeWeapon */
      , (30582, 115,        127) /* ItemSkillLevelLimit */
      , (30582, 131,         76) /* MaterialType - Pine */
      , (30582, 151,          2) /* HookType - Wall */
-     , (30582, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (30582, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

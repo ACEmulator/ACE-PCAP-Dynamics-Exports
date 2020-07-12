@@ -24,7 +24,6 @@ VALUES (40678,   1,          2) /* ItemType - Armor */
      , (40678, 158,          2) /* WieldRequirements - RawSkill */
      , (40678, 159,          7) /* WieldSkillType - MissileDefense */
      , (40678, 160,        300) /* WieldDifficulty */
-     , (40678, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (40678, 265,         26) /* EquipmentSetId - Flameproof */
      , (40678, 270,          7) /* WieldRequirements2 - Level */
      , (40678, 271,          1) /* WieldSkillType2 - Axe */

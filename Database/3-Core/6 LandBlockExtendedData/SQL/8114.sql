@@ -13,7 +13,8 @@ VALUES (0x78114001, 0x78114002, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x78114001, 0x78114007, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
      , (0x78114001, 0x78114008, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
      , (0x78114001, 0x78114009, '2019-02-10 00:00:00') /* Oak Golem (14559) */
-     , (0x78114001, 0x7811400A, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
+     , (0x78114001, 0x7811400A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x78114001, 0x7811400B, '2019-02-10 00:00:00') /* Blighted Dire Ursuin (38181) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78114002,  1758, 0x8114003B, 169.9277, 57.70315, 301.2579, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -50,3 +51,7 @@ VALUES (0x78114009, 14559, 0x8114003B, 175.9026, 50.41866, 302.0882, -0.08715577
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7811400A, 14559, 0x8114003A, 179.1817, 38.20199, 304.5959, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Oak Golem */
 /* @teleloc 0x8114003A [179.181700 38.201990 304.595900] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7811400B, 38181, 0x8114003A, 172.9543, 40.28978, 304.8748, -0.473628, 0, 0, -0.880725,  True, '2019-02-10 00:00:00'); /* Blighted Dire Ursuin */
+/* @teleloc 0x8114003A [172.954300 40.289780 304.874800] -0.473628 0.000000 0.000000 -0.880725 */

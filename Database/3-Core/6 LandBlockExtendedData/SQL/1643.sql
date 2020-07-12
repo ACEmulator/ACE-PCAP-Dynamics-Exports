@@ -33,7 +33,9 @@ VALUES (0x71643001, 0x71643002, '2019-02-10 00:00:00') /* Ascendant Tumerok (108
      , (0x71643001, 0x71643017, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
      , (0x71643001, 0x71643018, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
      , (0x71643001, 0x71643019, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
-     , (0x71643001, 0x7164301A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
+     , (0x71643001, 0x7164301A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x71643001, 0x7164301B, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x71643001, 0x7164301C, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71643002, 10806, 0x1643003A, 172.615, 37.902, 28.0065, 0.7299232, 0, 0, 0.6835292,  True, '2019-02-10 00:00:00'); /* Ascendant Tumerok */
@@ -136,17 +138,25 @@ VALUES (0x7164301A, 23481, 0x16430030, 140.7029, 183.14, 23.45049, -0.9787952, 0
 /* @teleloc 0x16430030 [140.702900 183.140000 23.450490] -0.978795 0.000000 0.000000 -0.204841 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7164301B,  1542, 0x1643001D, 74.7951, 101.0747, 8.508804, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7164301B, 36836, 0x16430031, 150.118, 17.64138, 21.98995, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
+/* @teleloc 0x16430031 [150.118000 17.641380 21.989950] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7164301C, 36836, 0x16430032, 150.9765, 24.3545, 22.62092, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
+/* @teleloc 0x16430032 [150.976500 24.354500 22.620920] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7164301D,  1542, 0x1643001D, 74.7951, 101.0747, 8.508804, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x1643001D [74.795100 101.074700 8.508804] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7164301B, 0x7164301C, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7164301B, 0x7164301D, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
+VALUES (0x7164301D, 0x7164301E, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7164301D, 0x7164301F, '2019-02-10 00:00:00') /* Red Monster Seed (31688) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7164301C,  4179, 0x1643001D, 74.7951, 101.0747, 8.508804, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7164301E,  4179, 0x1643001D, 74.7951, 101.0747, 8.508804, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x1643001D [74.795100 101.074700 8.508804] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7164301D, 31688, 0x1643000D, 24.5198, 112.3715, 0.01099999, -0.3817065, 0, 0, -0.9242836,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */
+VALUES (0x7164301F, 31688, 0x1643000D, 24.5198, 112.3715, 0.01099999, -0.3817065, 0, 0, -0.9242836,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */
 /* @teleloc 0x1643000D [24.519800 112.371500 0.011000] -0.381707 0.000000 0.000000 -0.924284 */

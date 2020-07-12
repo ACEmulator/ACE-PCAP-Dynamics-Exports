@@ -51,7 +51,9 @@ VALUES (0x7CBB4009, 0x7CBB400A, '2019-02-10 00:00:00') /* Shortbow (307) */
      , (0x7CBB4009, 0x7CBB401C, '2019-02-10 00:00:00') /* Shirt (130) */
      , (0x7CBB4009, 0x7CBB401D, '2019-02-10 00:00:00') /* Shirt (130) */
      , (0x7CBB4009, 0x7CBB401E, '2019-02-10 00:00:00') /* Tunic (134) */
-     , (0x7CBB4009, 0x7CBB401F, '2019-02-10 00:00:00') /* Light Crossbow (312) */;
+     , (0x7CBB4009, 0x7CBB401F, '2019-02-10 00:00:00') /* Light Crossbow (312) */
+     , (0x7CBB4009, 0x7CBB4020, '2019-02-10 00:00:00') /* Sandals (129) */
+     , (0x7CBB4009, 0x7CBB4021, '2019-02-10 00:00:00') /* Shoes (132) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB400A,   307, 0xCBB4000A, 30.03394, 46.70864, 274.1, -0.9223451, 0, 0, -0.3863671,  True, '2019-02-10 00:00:00'); /* Shortbow */
@@ -140,3 +142,11 @@ VALUES (0x7CBB401E,   134, 0xCBB4000A, 25.53107, 43.29374, 274, -0.3481289, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CBB401F,   312, 0xCBB4000B, 30.9599, 48.22315, 274.1572, -0.9223451, 0, 0, -0.3863671,  True, '2019-02-10 00:00:00'); /* Light Crossbow */
 /* @teleloc 0xCBB4000B [30.959900 48.223150 274.157200] -0.922345 0.000000 0.000000 -0.386367 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CBB4020,   129, 0xCBB4000A, 24.66665, 44.77178, 273.9994, -0.3481289, 0, 0, -0.9374467,  True, '2019-02-10 00:00:00'); /* Sandals */
+/* @teleloc 0xCBB4000A [24.666650 44.771780 273.999400] -0.348129 0.000000 0.000000 -0.937447 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CBB4021,   132, 0xCBB4000B, 25.20535, 48.28925, 274.0545, -0.3481289, 0, 0, -0.9374467,  True, '2019-02-10 00:00:00'); /* Shoes */
+/* @teleloc 0xCBB4000B [25.205350 48.289250 274.054500] -0.348129 0.000000 0.000000 -0.937447 */

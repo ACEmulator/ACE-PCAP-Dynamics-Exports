@@ -19,8 +19,7 @@ VALUES (64,   1,          2) /* ItemType - Armor */
      , (64, 109,        159) /* ItemDifficulty */
      , (64, 110,          0) /* ItemAllegianceRankLimit */
      , (64, 115,        184) /* ItemSkillLevelLimit */
-     , (64, 131,         58) /* MaterialType - Bronze */
-     , (64, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (64, 131,         58) /* MaterialType - Bronze */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (64,  22, True ) /* Inscribable */

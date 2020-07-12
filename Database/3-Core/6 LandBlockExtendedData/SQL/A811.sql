@@ -64,7 +64,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7A81100C, 0x7A81100D, '2019-02-10 00:00:00') /* Argenory Plant (8648) */
      , (0x7A81100C, 0x7A81100E, '2019-02-10 00:00:00') /* Rock (42528) */
      , (0x7A81100C, 0x7A81100F, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x7A81100C, 0x7A811010, '2019-02-10 00:00:00') /* Bones (4380) */;
+     , (0x7A81100C, 0x7A811010, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x7A81100C, 0x7A811011, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A81100D,  8648, 0xA811001A, 80.57987, 41.11149, 161.285, 0.3070379, 0, 0, -0.9516973,  True, '2019-02-10 00:00:00'); /* Argenory Plant */
@@ -81,3 +82,7 @@ VALUES (0x7A81100F, 42528, 0xA811001B, 73.52044, 67.69109, 161.8496, 0.3070379, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A811010,  4380, 0xA811003B, 190.982, 69.32129, 176.2892, 0.9914449, 0, 0, -0.1305262,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xA811003B [190.982000 69.321290 176.289200] 0.991445 0.000000 0.000000 -0.130526 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A811011,  8644, 0xA8110013, 65.93172, 62.54137, 160.4829, 0.3070379, 0, 0, -0.9516973,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
+/* @teleloc 0xA8110013 [65.931720 62.541370 160.482900] 0.307038 0.000000 0.000000 -0.951697 */

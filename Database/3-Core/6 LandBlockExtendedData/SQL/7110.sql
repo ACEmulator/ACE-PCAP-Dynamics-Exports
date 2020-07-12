@@ -35,7 +35,8 @@ VALUES (0x77110001, 0x77110002, '2019-02-10 00:00:00') /* High Mu-miyah (7116) *
      , (0x77110001, 0x7711001D, '2019-02-10 00:00:00') /* Virindi Master (237) */
      , (0x77110001, 0x7711001E, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x77110001, 0x7711001F, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
-     , (0x77110001, 0x77110020, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
+     , (0x77110001, 0x77110020, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x77110001, 0x77110021, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77110002,  7116, 0x71100004, 14.94249, 74.21467, 0.7612922, -0.3580484, 0, 0, -0.933703,  True, '2019-02-10 00:00:00'); /* High Mu-miyah */
@@ -160,3 +161,7 @@ VALUES (0x7711001F,  4217, 0x71100032, 159.4614, 28.06715, 12.89039, -0.6053168,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77110020,  7123, 0x71100030, 139.8141, 177.8984, 66.95932, -0.7829972, 0, 0, -0.6220252,  True, '2019-02-10 00:00:00'); /* Dark Leech */
 /* @teleloc 0x71100030 [139.814100 177.898400 66.959320] -0.782997 0.000000 0.000000 -0.622025 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77110021,  7780, 0x71100038, 166.2122, 168.0407, 65.11878, -0.7829972, 0, 0, -0.6220252,  True, '2019-02-10 00:00:00'); /* Ashen Bones */
+/* @teleloc 0x71100038 [166.212200 168.040700 65.118780] -0.782997 0.000000 0.000000 -0.622025 */

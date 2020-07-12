@@ -23,7 +23,14 @@ VALUES (0x71874001, 0x71874002, '2019-02-10 00:00:00') /* Plated Tusker (11541) 
      , (0x71874001, 0x71874011, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
      , (0x71874001, 0x71874012, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
      , (0x71874001, 0x71874013, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
-     , (0x71874001, 0x71874014, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
+     , (0x71874001, 0x71874014, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71874001, 0x71874015, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71874001, 0x71874016, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71874001, 0x71874017, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71874001, 0x71874018, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x71874001, 0x71874019, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x71874001, 0x7187401A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x71874001, 0x7187401B, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71874002, 11541, 0x18740027, 107.6306, 158.5517, 158.0719, -0.8393945, 0, 0, -0.5435226,  True, '2019-02-10 00:00:00'); /* Plated Tusker */
@@ -102,12 +109,40 @@ VALUES (0x71874014, 41535, 0x18740001, 19.49162, 17.63462, 128.129, 0.3590722, 0
 /* @teleloc 0x18740001 [19.491620 17.634620 128.129000] 0.359072 0.000000 0.000000 -0.933310 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71874015,  1542, 0x18740029, 138.5782, 7.420378, 164.6707, 0.2278822, 0, 0, -0.9736887, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x71874015, 23563, 0x18740004, 22.43269, 83.88499, 129.3519, 0.8758934, 0, 0, -0.4825048,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x18740004 [22.432690 83.884990 129.351900] 0.875893 0.000000 0.000000 -0.482505 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71874016, 36829, 0x1874000B, 26.22503, 55.79601, 130.9371, 0.99999, 0, 0, -0.004473084,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x1874000B [26.225030 55.796010 130.937100] 0.999990 0.000000 0.000000 -0.004473 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71874017, 24280, 0x18740015, 55.38599, 103.1627, 141.8324, -0.8492323, 0, 0, -0.5280194,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
+/* @teleloc 0x18740015 [55.385990 103.162700 141.832400] -0.849232 0.000000 0.000000 -0.528019 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71874018, 24283, 0x18740009, 36.52516, 21.6758, 135.2234, 0.3590722, 0, 0, -0.9333098,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
+/* @teleloc 0x18740009 [36.525160 21.675800 135.223400] 0.359072 0.000000 0.000000 -0.933310 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71874019, 36829, 0x1874002A, 124.7013, 24.38866, 159.5447, 0.2278822, 0, 0, -0.9736887,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x1874002A [124.701300 24.388660 159.544700] 0.227882 0.000000 0.000000 -0.973689 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7187401A, 36830, 0x1874002A, 127.4814, 40.07423, 159.1643, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x1874002A [127.481400 40.074230 159.164300] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7187401B, 23617, 0x1874002F, 129.5938, 163.1239, 167.9907, -0.8393945, 0, 0, -0.5435226,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
+/* @teleloc 0x1874002F [129.593800 163.123900 167.990700] -0.839395 0.000000 0.000000 -0.543523 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7187401C,  1542, 0x18740029, 138.5782, 7.420378, 164.6707, 0.2278822, 0, 0, -0.9736887, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x18740029 [138.578200 7.420378 164.670700] 0.227882 0.000000 0.000000 -0.973689 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x71874015, 0x71874016, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
+VALUES (0x7187401C, 0x7187401D, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71874016, 11555, 0x18740029, 138.5782, 7.420378, 164.6707, 0.2278822, 0, 0, -0.9736887,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
+VALUES (0x7187401D, 11555, 0x18740029, 138.5782, 7.420378, 164.6707, 0.2278822, 0, 0, -0.9736887,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
 /* @teleloc 0x18740029 [138.578200 7.420378 164.670700] 0.227882 0.000000 0.000000 -0.973689 */

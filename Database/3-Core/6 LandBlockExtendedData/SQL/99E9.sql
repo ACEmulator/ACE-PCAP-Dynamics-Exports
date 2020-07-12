@@ -33,7 +33,8 @@ VALUES (0x799E9001, 0x799E9002, '2019-02-10 00:00:00') /* Nubilous Golem (23082)
      , (0x799E9001, 0x799E901B, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
      , (0x799E9001, 0x799E901C, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
      , (0x799E9001, 0x799E901D, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
-     , (0x799E9001, 0x799E901E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */;
+     , (0x799E9001, 0x799E901E, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x799E9001, 0x799E901F, '2019-02-10 00:00:00') /* Olthoi Noble (212) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799E9002, 23082, 0x99E90003, 7.006148, 56.4418, 88.13882, -0.8993509, 0, 0, -0.4372275,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
@@ -150,3 +151,7 @@ VALUES (0x799E901D,  7088, 0x99E90007, 9.78695, 158.2136, 84.82268, 0.7110028, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799E901E, 24289, 0x99E90020, 81.33643, 188.0605, 89.21978, 0.930801, 0, 0, -0.3655263,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
 /* @teleloc 0x99E90020 [81.336430 188.060500 89.219780] 0.930801 0.000000 0.000000 -0.365526 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799E901F,   212, 0x99E9000F, 38.22266, 160.3494, 85.18522, 0.7110028, 0, 0, -0.7031891,  True, '2019-02-10 00:00:00'); /* Olthoi Noble */
+/* @teleloc 0x99E9000F [38.222660 160.349400 85.185220] 0.711003 0.000000 0.000000 -0.703189 */

@@ -21,7 +21,15 @@ VALUES (0x72D36001, 0x72D36002, '2019-02-10 00:00:00') /* Crystal Moiety (24133)
      , (0x72D36001, 0x72D3600F, '2019-02-10 00:00:00') /* Tenebrous Shadow (36853) */
      , (0x72D36001, 0x72D36010, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
      , (0x72D36001, 0x72D36011, '2019-02-10 00:00:00') /* Peerless Drudge (24282) */
-     , (0x72D36001, 0x72D36012, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */;
+     , (0x72D36001, 0x72D36012, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72D36001, 0x72D36013, '2019-02-10 00:00:00') /* Drudge Cabalist (24278) */
+     , (0x72D36001, 0x72D36014, '2019-02-10 00:00:00') /* Sinister Shadow (36851) */
+     , (0x72D36001, 0x72D36015, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
+     , (0x72D36001, 0x72D36016, '2019-02-10 00:00:00') /* Paroxysm Shadow (36849) */
+     , (0x72D36001, 0x72D36017, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D36001, 0x72D36018, '2019-02-10 00:00:00') /* Virindi Profane (36864) */
+     , (0x72D36001, 0x72D36019, '2019-02-10 00:00:00') /* Shadow Phantom (36850) */
+     , (0x72D36001, 0x72D3601A, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D36002, 24133, 0x2D36003C, 180.7387, 74.53329, 82.21111, 0.3557602, 0, 0, -0.9345772,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
@@ -90,3 +98,35 @@ VALUES (0x72D36011, 24282, 0x2D360020, 82.85464, 173.8322, 86.54649, -0.4660036,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D36012, 36852, 0x2D36003C, 191.4622, 89.23399, 83.44117, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
 /* @teleloc 0x2D36003C [191.462200 89.233990 83.441170] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36013, 24278, 0x2D36003C, 187.3179, 75.13425, 82.26574, 0.3557602, 0, 0, -0.9345772,  True, '2019-02-10 00:00:00'); /* Drudge Cabalist */
+/* @teleloc 0x2D36003C [187.317900 75.134250 82.265740] 0.355760 0.000000 0.000000 -0.934577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36014, 36851, 0x2D36003C, 173.4508, 93.77034, 83.8192, 0.3557602, 0, 0, -0.9345772,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x2D36003C [173.450800 93.770340 83.819200] 0.355760 0.000000 0.000000 -0.934577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36015, 36852, 0x2D360018, 51.76025, 181.6535, 88.75159, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
+/* @teleloc 0x2D360018 [51.760250 181.653500 88.751590] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36016, 36849, 0x2D360018, 61.32055, 176.5904, 86.74886, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Paroxysm Shadow */
+/* @teleloc 0x2D360018 [61.320550 176.590400 86.748860] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36017, 36864, 0x2D360018, 63.4797, 172.7358, 87.55508, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
+/* @teleloc 0x2D360018 [63.479700 172.735800 87.555080] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36018, 36864, 0x2D360018, 57.36236, 173.8751, 87.78003, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Profane */
+/* @teleloc 0x2D360018 [57.362360 173.875100 87.780030] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D36019, 36850, 0x2D360010, 46.08735, 183.5627, 90.005, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */
+/* @teleloc 0x2D360010 [46.087350 183.562700 90.005000] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D3601A, 36854, 0x2D360010, 45.36484, 182.8446, 90.0055, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
+/* @teleloc 0x2D360010 [45.364840 182.844600 90.005500] 0.707107 0.000000 0.000000 -0.707107 */

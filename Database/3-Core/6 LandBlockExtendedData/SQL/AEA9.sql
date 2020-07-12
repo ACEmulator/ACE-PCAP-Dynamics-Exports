@@ -18,7 +18,12 @@ VALUES (0x7AEA9001, 0x7AEA9002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) *
      , (0x7AEA9001, 0x7AEA900C, '2019-02-10 00:00:00') /* Mud Golem (200) */
      , (0x7AEA9001, 0x7AEA900D, '2019-02-10 00:00:00') /* Mud Golem Sludge Lord (27255) */
      , (0x7AEA9001, 0x7AEA900E, '2019-02-10 00:00:00') /* Mud Golem (200) */
-     , (0x7AEA9001, 0x7AEA900F, '2019-02-10 00:00:00') /* Mud Golem (200) */;
+     , (0x7AEA9001, 0x7AEA900F, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7AEA9001, 0x7AEA9010, '2019-02-10 00:00:00') /* Banderling Captain (184) */
+     , (0x7AEA9001, 0x7AEA9011, '2019-02-10 00:00:00') /* Banderling Raider (938) */
+     , (0x7AEA9001, 0x7AEA9012, '2019-02-10 00:00:00') /* Mite Digger (944) */
+     , (0x7AEA9001, 0x7AEA9013, '2019-02-10 00:00:00') /* Hunter Shreth (4111) */
+     , (0x7AEA9001, 0x7AEA9014, '2019-02-10 00:00:00') /* Olthoi Nettler (24938) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA9002,  4111, 0xAEA9003B, 184.7805, 55.24563, 122.5888, -0.8922008, 0, 0, -0.4516389,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -75,3 +80,23 @@ VALUES (0x7AEA900E,   200, 0xAEA9003B, 189.5168, 69.84303, 123.8313, -0.8922008,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AEA900F,   200, 0xAEA9003B, 185.7397, 66.95799, 123.5908, -0.8922008, 0, 0, -0.4516389,  True, '2019-02-10 00:00:00'); /* Mud Golem */
 /* @teleloc 0xAEA9003B [185.739700 66.957990 123.590800] -0.892201 0.000000 0.000000 -0.451639 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AEA9010,   184, 0xAEA9001D, 88.09518, 113.8272, 127.0382, 0.8404803, 0, 0, -0.5418421,  True, '2019-02-10 00:00:00'); /* Banderling Captain */
+/* @teleloc 0xAEA9001D [88.095180 113.827200 127.038200] 0.840480 0.000000 0.000000 -0.541842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AEA9011,   938, 0xAEA90025, 103.4835, 106.2888, 127.1497, -0.1167101, 0, 0, -0.993166,  True, '2019-02-10 00:00:00'); /* Banderling Raider */
+/* @teleloc 0xAEA90025 [103.483500 106.288800 127.149700] -0.116710 0.000000 0.000000 -0.993166 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AEA9012,   944, 0xAEA9002D, 125.7905, 100.3316, 127.5225, -0.07871468, 0, 0, -0.9968972,  True, '2019-02-10 00:00:00'); /* Mite Digger */
+/* @teleloc 0xAEA9002D [125.790500 100.331600 127.522500] -0.078715 0.000000 0.000000 -0.996897 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AEA9013,  4111, 0xAEA9003A, 174.2131, 40.15171, 123.4672, -0.8922008, 0, 0, -0.4516389,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
+/* @teleloc 0xAEA9003A [174.213100 40.151710 123.467200] -0.892201 0.000000 0.000000 -0.451639 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AEA9014, 24938, 0xAEA90018, 61.23002, 187.829, 113.7944, -0.9856194, 0, 0, -0.1689805,  True, '2019-02-10 00:00:00'); /* Olthoi Nettler */
+/* @teleloc 0xAEA90018 [61.230020 187.829000 113.794400] -0.985619 0.000000 0.000000 -0.168981 */

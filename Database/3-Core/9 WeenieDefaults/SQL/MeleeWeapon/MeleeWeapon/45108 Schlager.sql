@@ -26,7 +26,6 @@ VALUES (45108,   1,          1) /* ItemType - MeleeWeapon */
      , (45108, 115,        234) /* ItemSkillLevelLimit */
      , (45108, 131,         58) /* MaterialType - Bronze */
      , (45108, 151,          2) /* HookType - Wall */
-     , (45108, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (45108, 177,          2) /* GemCount */
      , (45108, 178,         42) /* GemType */
      , (45108, 353,          2) /* WeaponType - Sword */;

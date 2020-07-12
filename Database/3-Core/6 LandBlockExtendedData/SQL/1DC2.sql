@@ -21,7 +21,15 @@ VALUES (0x71DC2001, 0x71DC2002, '2019-02-10 00:00:00') /* Brass Gromnie (27710) 
      , (0x71DC2001, 0x71DC200F, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
      , (0x71DC2001, 0x71DC2010, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
      , (0x71DC2001, 0x71DC2011, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
-     , (0x71DC2001, 0x71DC2012, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
+     , (0x71DC2001, 0x71DC2012, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x71DC2001, 0x71DC2013, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC2001, 0x71DC2014, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC2001, 0x71DC2015, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x71DC2001, 0x71DC2016, '2019-02-10 00:00:00') /* Badlands Siraluun (27712) */
+     , (0x71DC2001, 0x71DC2017, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC2018, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC2019, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */
+     , (0x71DC2001, 0x71DC201A, '2019-02-10 00:00:00') /* Savage Carenzi (22505) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC2002, 27710, 0x1DC20002, 10.71511, 24.16084, 20.89593, 0.8438429, 0, 0, -0.5365903,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
@@ -90,3 +98,35 @@ VALUES (0x71DC2011, 22505, 0x1DC2000A, 41.76662, 42.52635, 21.48055, 0.929014, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71DC2012, 11517, 0x1DC20007, 20.74451, 157.0846, 20.91611, 0.4052782, 0, 0, -0.9141934,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */
 /* @teleloc 0x1DC20007 [20.744510 157.084600 20.916110] 0.405278 0.000000 0.000000 -0.914193 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2013, 27714, 0x1DC20002, 8.753001, 41.0444, 20.58613, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Hea Champion */
+/* @teleloc 0x1DC20002 [8.753001 41.044400 20.586130] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2014, 27714, 0x1DC20002, 10.89282, 40.39542, 20.64021, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Champion */
+/* @teleloc 0x1DC20002 [10.892820 40.395420 20.640210] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2015, 27714, 0x1DC20002, 15.25596, 41.22187, 20.57134, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hea Champion */
+/* @teleloc 0x1DC20002 [15.255960 41.221870 20.571340] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2016, 27712, 0x1DC20001, 16.50624, 10.31926, 21.36352, 0.929014, 0, 0, -0.3700446,  True, '2019-02-10 00:00:00'); /* Badlands Siraluun */
+/* @teleloc 0x1DC20001 [16.506240 10.319260 21.363520] 0.929014 0.000000 0.000000 -0.370045 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2017, 22505, 0x1DC20002, 11.47367, 47.23534, 20.06372, 0.929014, 0, 0, -0.3700446,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */
+/* @teleloc 0x1DC20002 [11.473670 47.235340 20.063720] 0.929014 0.000000 0.000000 -0.370045 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2018, 22505, 0x1DC20003, 13.42429, 54.00563, 20.50047, 0.929014, 0, 0, -0.3700446,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */
+/* @teleloc 0x1DC20003 [13.424290 54.005630 20.500470] 0.929014 0.000000 0.000000 -0.370045 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC2019, 22505, 0x1DC20003, 13.4345, 60.75043, 20.88046, 0.929014, 0, 0, -0.3700446,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */
+/* @teleloc 0x1DC20003 [13.434500 60.750430 20.880460] 0.929014 0.000000 0.000000 -0.370045 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71DC201A, 22505, 0x1DC20003, 14.42815, 51.20798, 20.26733, 0.929014, 0, 0, -0.3700446,  True, '2019-02-10 00:00:00'); /* Savage Carenzi */
+/* @teleloc 0x1DC20003 [14.428150 51.207980 20.267330] 0.929014 0.000000 0.000000 -0.370045 */

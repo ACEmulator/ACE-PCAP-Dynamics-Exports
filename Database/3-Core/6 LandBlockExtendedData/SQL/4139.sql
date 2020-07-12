@@ -15,7 +15,8 @@ VALUES (0x74139001, 0x74139002, '2019-02-10 00:00:00') /* Virindi Observer (7340
      , (0x74139001, 0x74139005, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
      , (0x74139001, 0x74139006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x74139001, 0x74139007, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x74139001, 0x74139008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
+     , (0x74139001, 0x74139008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74139001, 0x74139009, '2019-02-10 00:00:00') /* Unstable Rift (10802) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74139002,  7340, 0x41390006, 11.2705, 132.0564, 1.024304, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
@@ -44,3 +45,7 @@ VALUES (0x74139007, 36830, 0x4139000F, 32.07235, 147.5907, -0.08999991, 0.707106
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74139008, 36830, 0x4139000E, 29.49178, 142.2334, 0.00999999, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
 /* @teleloc 0x4139000E [29.491780 142.233400 0.010000] 0.500000 0.000000 0.000000 -0.866025 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74139009, 10802, 0x41390007, 10.09707, 165.6233, -0.09249997, -0.5979477, 0, 0, -0.8015351,  True, '2019-02-10 00:00:00'); /* Unstable Rift */
+/* @teleloc 0x41390007 [10.097070 165.623300 -0.092500] -0.597948 0.000000 0.000000 -0.801535 */

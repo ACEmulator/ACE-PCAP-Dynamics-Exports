@@ -43,7 +43,9 @@ VALUES (0x7D2A4001, 0x7D2A4002, '2019-02-10 00:00:00') /* Lich Lord (1630) */
      , (0x7D2A4001, 0x7D2A4025, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
      , (0x7D2A4001, 0x7D2A4026, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
      , (0x7D2A4001, 0x7D2A4027, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
-     , (0x7D2A4001, 0x7D2A4028, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */;
+     , (0x7D2A4001, 0x7D2A4028, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
+     , (0x7D2A4001, 0x7D2A4029, '2019-02-10 00:00:00') /* Copper Golem Kingpin (27254) */
+     , (0x7D2A4001, 0x7D2A402A, '2019-02-10 00:00:00') /* Shore Armoredillo (2565) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D2A4002,  1630, 0xD2A40005, 12.7509, 104.2792, 0.6974313, 0.1865327, 0, 0, -0.9824488,  True, '2019-02-10 00:00:00'); /* Lich Lord */
@@ -202,17 +204,25 @@ VALUES (0x7D2A4028,  7180, 0xD2A40030, 125.4658, 191.7079, -0.09359992, 0.970917
 /* @teleloc 0xD2A40030 [125.465800 191.707900 -0.093600] 0.970918 0.000000 0.000000 -0.239414 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2A4029,  1542, 0xD2A4001E, 82.55367, 139.1405, -0.09999999, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7D2A4029, 27254, 0xD2A40003, 11.44155, 68.50909, 0.01999998, 0.9428976, 0, 0, -0.3330826,  True, '2019-02-10 00:00:00'); /* Copper Golem Kingpin */
+/* @teleloc 0xD2A40003 [11.441550 68.509090 0.020000] 0.942898 0.000000 0.000000 -0.333083 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D2A402A,  2565, 0xD2A4000D, 26.13186, 104.3797, 0.01050007, 0.1865327, 0, 0, -0.9824488,  True, '2019-02-10 00:00:00'); /* Shore Armoredillo */
+/* @teleloc 0xD2A4000D [26.131860 104.379700 0.010500] 0.186533 0.000000 0.000000 -0.982449 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D2A402B,  1542, 0xD2A4001E, 82.55367, 139.1405, -0.09999999, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD2A4001E [82.553670 139.140500 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D2A4029, 0x7D2A402A, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7D2A4029, 0x7D2A402B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7D2A402B, 0x7D2A402C, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7D2A402B, 0x7D2A402D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2A402A,  4179, 0xD2A4001E, 82.55367, 139.1405, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7D2A402C,  4179, 0xD2A4001E, 82.55367, 139.1405, -0.09999999, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xD2A4001E [82.553670 139.140500 -0.100000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D2A402B,  4179, 0xD2A4000D, 27.46288, 110.769, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7D2A402D,  4179, 0xD2A4000D, 27.46288, 110.769, 0, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xD2A4000D [27.462880 110.769000 0.000000] 0.999048 0.000000 0.000000 -0.043619 */

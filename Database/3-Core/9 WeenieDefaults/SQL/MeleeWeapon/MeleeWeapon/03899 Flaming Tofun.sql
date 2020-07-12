@@ -26,7 +26,6 @@ VALUES (3899,   1,          1) /* ItemType - MeleeWeapon */
      , (3899, 115,         69) /* ItemSkillLevelLimit */
      , (3899, 131,         75) /* MaterialType - Oak */
      , (3899, 151,          2) /* HookType - Wall */
-     , (3899, 172,          3) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial */
      , (3899, 188,          3) /* HeritageGroup - Sho */
      , (3899, 353,          4) /* WeaponType - Mace */;
 

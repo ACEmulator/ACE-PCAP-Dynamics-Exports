@@ -38,7 +38,10 @@ VALUES (0x79625001, 0x79625002, '2019-02-10 00:00:00') /* Dark Magus (7124) */
      , (0x79625001, 0x79625020, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
      , (0x79625001, 0x79625021, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
      , (0x79625001, 0x79625022, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
-     , (0x79625001, 0x79625023, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */;
+     , (0x79625001, 0x79625023, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
+     , (0x79625001, 0x79625024, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x79625001, 0x79625025, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x79625001, 0x79625026, '2019-02-10 00:00:00') /* Static (6382) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79625002,  7124, 0x9625002F, 131.4337, 150.4374, 125.0033, -0.9036749, 0, 0, -0.4282192,  True, '2019-02-10 00:00:00'); /* Dark Magus */
@@ -175,3 +178,15 @@ VALUES (0x79625022, 37100, 0x9625001F, 87.99037, 154.8196, 137.9325, 0.7771459, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79625023, 37101, 0x9625001F, 89.39757, 154.9603, 137.2758, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager Captain */
 /* @teleloc 0x9625001F [89.397570 154.960300 137.275800] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79625024,  6380, 0x96250025, 105.0954, 100.6142, 154.2941, 0.8558912, 0, 0, -0.517156,  True, '2019-02-10 00:00:00'); /* Scintilla */
+/* @teleloc 0x96250025 [105.095400 100.614200 154.294100] 0.855891 0.000000 0.000000 -0.517156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79625025,   619, 0x9625002F, 131.9884, 157.7313, 129.2989, -0.9036749, 0, 0, -0.4282192,  True, '2019-02-10 00:00:00'); /* Revenant */
+/* @teleloc 0x9625002F [131.988400 157.731300 129.298900] -0.903675 0.000000 0.000000 -0.428219 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79625026,  6382, 0x96250024, 106.8303, 91.52117, 156.2363, 0.8558912, 0, 0, -0.517156,  True, '2019-02-10 00:00:00'); /* Static */
+/* @teleloc 0x96250024 [106.830300 91.521170 156.236300] 0.855891 0.000000 0.000000 -0.517156 */

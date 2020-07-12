@@ -39,7 +39,11 @@ VALUES (0x73635001, 0x73635002, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
      , (0x73635001, 0x73635021, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
      , (0x73635001, 0x73635022, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
      , (0x73635001, 0x73635023, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
-     , (0x73635001, 0x73635024, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */;
+     , (0x73635001, 0x73635024, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73635001, 0x73635025, '2019-02-10 00:00:00') /* Assailer (22053) */
+     , (0x73635001, 0x73635026, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
+     , (0x73635001, 0x73635027, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x73635001, 0x73635028, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73635002,  7099, 0x3635003E, 183.2442, 133.1284, 36.57596, -0.7054666, 0, 0, -0.7087432,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
@@ -182,12 +186,28 @@ VALUES (0x73635024, 38180, 0x36350002, 20.8319, 39.89274, 41.76056, 0.9975637, 0
 /* @teleloc 0x36350002 [20.831900 39.892740 41.760560] 0.997564 0.000000 0.000000 -0.069761 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73635025,  1542, 0x3635001B, 91.87007, 69.71033, 40.95433, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73635025, 22053, 0x36350002, 16.42036, 29.90675, 43.90818, 0.9975637, 0, 0, -0.06976129,  True, '2019-02-10 00:00:00'); /* Assailer */
+/* @teleloc 0x36350002 [16.420360 29.906750 43.908180] 0.997564 0.000000 0.000000 -0.069761 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73635026, 11535, 0x3635000A, 36.1374, 36.4153, 41.88473, 0.9975637, 0, 0, -0.06976129,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
+/* @teleloc 0x3635000A [36.137400 36.415300 41.884730] 0.997564 0.000000 0.000000 -0.069761 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73635027, 23479, 0x3635003E, 171.1472, 136.8188, 42.22817, -0.7054666, 0, 0, -0.7087432,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
+/* @teleloc 0x3635003E [171.147200 136.818800 42.228170] -0.705467 0.000000 0.000000 -0.708743 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73635028, 11535, 0x36350036, 159.8038, 132.5513, 43.96177, -0.7054666, 0, 0, -0.7087432,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
+/* @teleloc 0x36350036 [159.803800 132.551300 43.961770] -0.705467 0.000000 0.000000 -0.708743 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73635029,  1542, 0x3635001B, 91.87007, 69.71033, 40.95433, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x3635001B [91.870070 69.710330 40.954330] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73635025, 0x73635026, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x73635029, 0x7363502A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73635026,  4179, 0x3635001B, 91.87007, 69.71033, 40.95433, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7363502A,  4179, 0x3635001B, 91.87007, 69.71033, 40.95433, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x3635001B [91.870070 69.710330 40.954330] 1.000000 0.000000 0.000000 0.000000 */

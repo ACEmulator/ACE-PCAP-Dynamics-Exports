@@ -13,7 +13,8 @@ VALUES (0x78017001, 0x78017002, '2019-02-10 00:00:00') /* Dread Idol (8467) */
      , (0x78017001, 0x78017007, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
      , (0x78017001, 0x78017008, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
      , (0x78017001, 0x78017009, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
-     , (0x78017001, 0x7801700A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */;
+     , (0x78017001, 0x7801700A, '2019-02-10 00:00:00') /* Shallows Devourer (7109) */
+     , (0x78017001, 0x7801700B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78017002,  8467, 0x8017001D, 86.11065, 110.0035, -0.9, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Dread Idol */
@@ -50,3 +51,7 @@ VALUES (0x78017009,  7105, 0x80170014, 59.37307, 92.60476, -0.888, -0.1496016, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7801700A,  7109, 0x8017001C, 72.97993, 78.10848, -0.4488, -0.1496016, 0, 0, -0.9887463,  True, '2019-02-10 00:00:00'); /* Shallows Devourer */
 /* @teleloc 0x8017001C [72.979930 78.108480 -0.448800] -0.149602 0.000000 0.000000 -0.988746 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7801700B,  4255, 0x8017000D, 41.08187, 101.1649, -0.9217501, -0.1496016, 0, 0, -0.9887463,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x8017000D [41.081870 101.164900 -0.921750] -0.149602 0.000000 0.000000 -0.988746 */

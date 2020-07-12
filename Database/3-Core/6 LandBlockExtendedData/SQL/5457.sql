@@ -55,7 +55,8 @@ VALUES (0x75457036, 0x75457037, '2019-02-10 00:00:00') /* Bronze Statue of a Gri
      , (0x75457036, 0x7545705E, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
      , (0x75457036, 0x7545705F, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
      , (0x75457036, 0x75457060, '2019-02-10 00:00:00') /* Bronze Statue of a Virindi (19273) */
-     , (0x75457036, 0x75457061, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */;
+     , (0x75457036, 0x75457061, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */
+     , (0x75457036, 0x75457062, '2019-02-10 00:00:00') /* Bronze Statue of a Shadow (19270) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75457037, 19267, 0x5457019F, 122.541, -119.84, -0.003000021, -0.699863, 0, 0, 0.714277,  True, '2019-02-10 00:00:00'); /* Bronze Statue of a Grievver */
@@ -230,12 +231,16 @@ VALUES (0x75457061, 19270, 0x5457015E, 78.1285, -95.5512, 0.009500027, -0.25313,
 /* @teleloc 0x5457015E [78.128500 -95.551200 0.009500] -0.253130 0.000000 0.000000 0.967432 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75457062,  1542, 0x54570134, 165.1447, -46.93763, -6.063, -0.7851833, 0, 0, -0.6192634, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x75457062, 19270, 0x545701D3, 13.9745, -109.944, 6.0095, 0.7040683, 0, 0, -0.7101323,  True, '2019-02-10 00:00:00'); /* Bronze Statue of a Shadow */
+/* @teleloc 0x545701D3 [13.974500 -109.944000 6.009500] 0.704068 0.000000 0.000000 -0.710132 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75457063,  1542, 0x54570134, 165.1447, -46.93763, -6.063, -0.7851833, 0, 0, -0.6192634, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x54570134 [165.144700 -46.937630 -6.063000] -0.785183 0.000000 0.000000 -0.619263 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75457062, 0x75457063, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x75457063, 0x75457064, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75457063,  1955, 0x54570134, 165.1447, -46.93763, -6.063, -0.7851833, 0, 0, -0.6192634,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x75457064,  1955, 0x54570134, 165.1447, -46.93763, -6.063, -0.7851833, 0, 0, -0.6192634,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x54570134 [165.144700 -46.937630 -6.063000] -0.785183 0.000000 0.000000 -0.619263 */

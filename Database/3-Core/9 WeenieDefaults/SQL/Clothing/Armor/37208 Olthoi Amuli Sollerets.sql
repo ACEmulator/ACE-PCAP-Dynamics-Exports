@@ -24,7 +24,6 @@ VALUES (37208,   1,          2) /* ItemType - Armor */
      , (37208, 158,          7) /* WieldRequirements - Level */
      , (37208, 159,          1) /* WieldSkillType - Axe */
      , (37208, 160,        180) /* WieldDifficulty */
-     , (37208, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (37208, 265,         17) /* EquipmentSetId - Tinkers */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

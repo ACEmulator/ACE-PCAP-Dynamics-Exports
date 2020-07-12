@@ -20,8 +20,7 @@ VALUES (28623,   1,          2) /* ItemType - Armor */
      , (28623, 109,        185) /* ItemDifficulty */
      , (28623, 110,          0) /* ItemAllegianceRankLimit */
      , (28623, 115,        213) /* ItemSkillLevelLimit */
-     , (28623, 131,         64) /* MaterialType - Steel */
-     , (28623, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (28623, 131,         64) /* MaterialType - Steel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28623,  22, True ) /* Inscribable */

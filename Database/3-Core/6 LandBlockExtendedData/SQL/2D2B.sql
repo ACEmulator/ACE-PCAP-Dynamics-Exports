@@ -16,7 +16,9 @@ VALUES (0x72D2B001, 0x72D2B002, '2019-02-10 00:00:00') /* Abyssal Shadow (36845)
      , (0x72D2B001, 0x72D2B00A, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
      , (0x72D2B001, 0x72D2B00B, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
      , (0x72D2B001, 0x72D2B00C, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
-     , (0x72D2B001, 0x72D2B00D, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */;
+     , (0x72D2B001, 0x72D2B00D, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x72D2B001, 0x72D2B00E, '2019-02-10 00:00:00') /* Banderling Scalper (23479) */
+     , (0x72D2B001, 0x72D2B00F, '2019-02-10 00:00:00') /* Platinum Golem (7097) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D2B002, 36845, 0x2D2B000D, 34.10457, 108.7296, 25.5675, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Abyssal Shadow */
@@ -65,3 +67,11 @@ VALUES (0x72D2B00C, 23567, 0x2D2B000E, 30.20045, 129.5629, 23.03991, 0.9659258, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D2B00D, 23567, 0x2D2B000E, 27.64653, 123.0824, 22.61426, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
 /* @teleloc 0x2D2B000E [27.646530 123.082400 22.614260] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D2B00E, 23479, 0x2D2B0006, 19.21207, 123.8488, 23.04762, -0.9881417, 0, 0, -0.1535446,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
+/* @teleloc 0x2D2B0006 [19.212070 123.848800 23.047620] -0.988142 0.000000 0.000000 -0.153545 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D2B00F,  7097, 0x2D2B000D, 36.46465, 112.3314, 25.36554, -0.9881417, 0, 0, -0.1535446,  True, '2019-02-10 00:00:00'); /* Platinum Golem */
+/* @teleloc 0x2D2B000D [36.464650 112.331400 25.365540] -0.988142 0.000000 0.000000 -0.153545 */

@@ -12,7 +12,8 @@ VALUES (0x72B17001, 0x72B17002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (711
      , (0x72B17001, 0x72B17006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
      , (0x72B17001, 0x72B17007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
      , (0x72B17001, 0x72B17008, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x72B17001, 0x72B17009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
+     , (0x72B17001, 0x72B17009, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72B17001, 0x72B1700A, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B17002,  7119, 0x2B170002, 22.40199, 24.22312, 12.36882, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -45,3 +46,7 @@ VALUES (0x72B17008,  7117, 0x2B170009, 24.3187, 19.75516, 12.36024, 0.2588191, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72B17009,  7119, 0x2B17000B, 24.80913, 50.25173, 12.25475, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
 /* @teleloc 0x2B17000B [24.809130 50.251730 12.254750] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72B1700A,  8138, 0x2B170002, 22.84361, 46.02604, 11.92518, -0.6724826, 0, 0, -0.740113,  True, '2019-02-10 00:00:00'); /* Extas Raider */
+/* @teleloc 0x2B170002 [22.843610 46.026040 11.925180] -0.672483 0.000000 0.000000 -0.740113 */

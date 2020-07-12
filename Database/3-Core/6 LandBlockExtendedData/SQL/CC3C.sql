@@ -25,7 +25,8 @@ VALUES (0x7CC3C001, 0x7CC3C002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7CC3C001, 0x7CC3C013, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
      , (0x7CC3C001, 0x7CC3C014, '2019-02-10 00:00:00') /* Southern Black Claw Raider (10711) */
      , (0x7CC3C001, 0x7CC3C015, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
-     , (0x7CC3C001, 0x7CC3C016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
+     , (0x7CC3C001, 0x7CC3C016, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7CC3C001, 0x7CC3C017, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7CC3C002,  2567, 0xCC3C0007, 1.498459, 149.1231, 201.6156, -0.3287879, 0, 0, -0.9444038,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -112,12 +113,16 @@ VALUES (0x7CC3C016,  2576, 0xCC3C0031, 150.3271, 1.163484, 247.3987, 0.619986, 0
 /* @teleloc 0xCC3C0031 [150.327100 1.163484 247.398700] 0.619986 0.000000 0.000000 -0.784613 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CC3C017,  1542, 0xCC3C0024, 96.51433, 81.30006, 181.63, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7CC3C017,  2567, 0xCC3C0008, 2.770845, 168.2883, 193.7691, -0.3287879, 0, 0, -0.9444038,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xCC3C0008 [2.770845 168.288300 193.769100] -0.328788 0.000000 0.000000 -0.944404 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7CC3C018,  1542, 0xCC3C0024, 96.51433, 81.30006, 181.63, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xCC3C0024 [96.514330 81.300060 181.630000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7CC3C017, 0x7CC3C018, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
+VALUES (0x7CC3C018, 0x7CC3C019, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7CC3C018, 31443, 0xCC3C0024, 96.51433, 81.30006, 181.63, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x7CC3C019, 31443, 0xCC3C0024, 96.51433, 81.30006, 181.63, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0xCC3C0024 [96.514330 81.300060 181.630000] 1.000000 0.000000 0.000000 0.000000 */

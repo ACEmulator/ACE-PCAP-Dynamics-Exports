@@ -19,7 +19,9 @@ VALUES (0x7A05B001, 0x7A05B002, '2019-02-10 00:00:00') /* Pristine Doll (9244) *
      , (0x7A05B001, 0x7A05B00D, '2019-02-10 00:00:00') /* Reedshark Skinner (24311) */
      , (0x7A05B001, 0x7A05B00E, '2019-02-10 00:00:00') /* Old Scratchy (34000) */
      , (0x7A05B001, 0x7A05B00F, '2019-02-10 00:00:00') /* Lich Lord (1630) */
-     , (0x7A05B001, 0x7A05B010, '2019-02-10 00:00:00') /* Shadow (1758) */;
+     , (0x7A05B001, 0x7A05B010, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A05B001, 0x7A05B011, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x7A05B001, 0x7A05B012, '2019-02-10 00:00:00') /* Silt Lurker (9257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05B002,  9244, 0xA05B0033, 149.7089, 55.87563, 33.12995, 0.9671323, 0, 0, -0.2542737,  True, '2019-02-10 00:00:00'); /* Pristine Doll */
@@ -80,3 +82,11 @@ VALUES (0x7A05B00F,  1630, 0xA05B003F, 188.1025, 164.8559, 121.0133, 0.9859706, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A05B010,  1758, 0xA05B0032, 167.5789, 41.24685, 38.19717, 0.9671323, 0, 0, -0.2542737,  True, '2019-02-10 00:00:00'); /* Shadow */
 /* @teleloc 0xA05B0032 [167.578900 41.246850 38.197170] 0.967132 0.000000 0.000000 -0.254274 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A05B011,  9250, 0xA05B0033, 156.5511, 69.70759, 39.13717, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
+/* @teleloc 0xA05B0033 [156.551100 69.707590 39.137170] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A05B012,  9257, 0xA05B003F, 182.01, 165.2434, 107.8388, 0.9859706, 0, 0, -0.166919,  True, '2019-02-10 00:00:00'); /* Silt Lurker */
+/* @teleloc 0xA05B003F [182.010000 165.243400 107.838800] 0.985971 0.000000 0.000000 -0.166919 */

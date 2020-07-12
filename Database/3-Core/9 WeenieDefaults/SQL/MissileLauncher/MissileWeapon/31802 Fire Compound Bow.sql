@@ -31,7 +31,6 @@ VALUES (31802,   1,        256) /* ItemType - MissileWeapon */
      , (31802, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31802, 160,        375) /* WieldDifficulty */
      , (31802, 171,          9) /* NumTimesTinkered */
-     , (31802, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (31802, 179,        512) /* ImbuedEffect - FireRending */
      , (31802, 204,         14) /* ElementalDamageBonus */
      , (31802, 353,          8) /* WeaponType - Bow */;

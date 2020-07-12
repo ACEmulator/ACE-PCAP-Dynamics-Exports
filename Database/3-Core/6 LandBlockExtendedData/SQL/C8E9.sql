@@ -76,7 +76,13 @@ VALUES (0x7C8E9007, 0x7C8E9008, '2019-02-10 00:00:00') /* Plentiful Healing Kit 
      , (0x7C8E9007, 0x7C8E9032, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
      , (0x7C8E9007, 0x7C8E9033, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7C8E9007, 0x7C8E9034, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
-     , (0x7C8E9007, 0x7C8E9035, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x7C8E9007, 0x7C8E9035, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9036, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9037, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9038, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E9039, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E903A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7C8E9007, 0x7C8E903B, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8E9008, 22449, 0xC8E9002B, 120.5834, 51.31593, 0.0315, 0.9968535, 0, 0, -0.07926548,  True, '2019-02-10 00:00:00'); /* Plentiful Healing Kit */
@@ -261,3 +267,27 @@ VALUES (0x7C8E9034, 36454, 0xC8E9002A, 125.1343, 39.43841, 1.209627, 0.6845642, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C8E9035,  1955, 0xC8E90023, 110.5403, 48.28592, -0.06299996, 0.8107824, 0, 0, -0.5853477,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xC8E90023 [110.540300 48.285920 -0.063000] 0.810782 0.000000 0.000000 -0.585348 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C8E9036,  1955, 0xC8E9002A, 125.5107, 31.96996, -0.06299996, -0.3546652, 0, 0, -0.9349933,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xC8E9002A [125.510700 31.969960 -0.063000] -0.354665 0.000000 0.000000 -0.934993 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C8E9037,  1955, 0xC8E9002A, 128.8044, 42.20107, -0.06299996, -0.6762936, 0, 0, -0.7366322,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xC8E9002A [128.804400 42.201070 -0.063000] -0.676294 0.000000 0.000000 -0.736632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C8E9038,  1955, 0xC8E9001C, 82.31553, 76.46897, -0.163, -0.7760443, 0, 0, -0.6306784,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xC8E9001C [82.315530 76.468970 -0.163000] -0.776044 0.000000 0.000000 -0.630678 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C8E9039,  1955, 0xC8E9002A, 125.7094, 36.35235, -0.06299996, -0.3733331, 0, 0, -0.9276974,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xC8E9002A [125.709400 36.352350 -0.063000] -0.373333 0.000000 0.000000 -0.927697 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C8E903A,  1955, 0xC8E90040, 186.291, 189.7857, -0.9629999, -0.9784455, 0, 0, 0.2065051,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xC8E90040 [186.291000 189.785700 -0.963000] -0.978446 0.000000 0.000000 0.206505 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C8E903B,  1955, 0xC8E9003B, 188.9808, 69.15257, -0.163, 0.8499293, 0, 0, -0.5268967,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xC8E9003B [188.980800 69.152570 -0.163000] 0.849929 0.000000 0.000000 -0.526897 */

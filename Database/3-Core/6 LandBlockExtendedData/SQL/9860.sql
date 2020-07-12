@@ -16,7 +16,10 @@ VALUES (0x79860001, 0x79860002, '2019-02-10 00:00:00') /* Skeleton Lord (1762) *
      , (0x79860001, 0x7986000A, '2019-02-10 00:00:00') /* Zombie (950) */
      , (0x79860001, 0x7986000B, '2019-02-10 00:00:00') /* Zombie (950) */
      , (0x79860001, 0x7986000C, '2019-02-10 00:00:00') /* Drudge Slinker (193) */
-     , (0x79860001, 0x7986000D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
+     , (0x79860001, 0x7986000D, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x79860001, 0x7986000E, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
+     , (0x79860001, 0x7986000F, '2019-02-10 00:00:00') /* Auroch Bull (20) */
+     , (0x79860001, 0x79860010, '2019-02-10 00:00:00') /* Old Bones (4266) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79860002,  1762, 0x98600102, 20.4479, 109.612, 4.8025, 0.0138394, 0, 0, -0.999904,  True, '2019-02-10 00:00:00'); /* Skeleton Lord */
@@ -67,17 +70,29 @@ VALUES (0x7986000D,   232, 0x98600003, 13.9352, 53.38383, 15.16, -0.3467729, 0, 
 /* @teleloc 0x98600003 [13.935200 53.383830 15.160000] -0.346773 0.000000 0.000000 -0.937949 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7986000E,  1542, 0x98600102, 20.287, 117.003, 4.824, -0.799037, 0, 0, 0.601281, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7986000E,   178, 0x98600002, 0.358429, 41.31159, 15.39287, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Brown Armoredillo */
+/* @teleloc 0x98600002 [0.358429 41.311590 15.392870] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7986000F,    20, 0x9860000A, 33.52092, 28.64574, 10.00935, -0.9386653, 0, 0, -0.3448295,  True, '2019-02-10 00:00:00'); /* Auroch Bull */
+/* @teleloc 0x9860000A [33.520920 28.645740 10.009350] -0.938665 0.000000 0.000000 -0.344830 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79860010,  4266, 0x9860001F, 85.70274, 160.0379, 9.338989, 0.8106043, 0, 0, -0.5855943,  True, '2019-02-10 00:00:00'); /* Old Bones */
+/* @teleloc 0x9860001F [85.702740 160.037900 9.338989] 0.810604 0.000000 0.000000 -0.585594 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79860011,  1542, 0x98600102, 20.287, 117.003, 4.824, -0.799037, 0, 0, 0.601281, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x98600102 [20.287000 117.003000 4.824000] -0.799037 0.000000 0.000000 0.601281 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7986000E, 0x7986000F, '2019-02-10 00:00:00') /* Weathered Red Key (23084) */
-     , (0x7986000E, 0x79860010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
+VALUES (0x79860011, 0x79860012, '2019-02-10 00:00:00') /* Weathered Red Key (23084) */
+     , (0x79860011, 0x79860013, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7986000F, 23084, 0x98600102, 20.287, 117.003, 4.824, -0.799037, 0, 0, 0.601281,  True, '2019-02-10 00:00:00'); /* Weathered Red Key */
+VALUES (0x79860012, 23084, 0x98600102, 20.287, 117.003, 4.824, -0.799037, 0, 0, 0.601281,  True, '2019-02-10 00:00:00'); /* Weathered Red Key */
 /* @teleloc 0x98600102 [20.287000 117.003000 4.824000] -0.799037 0.000000 0.000000 0.601281 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79860010,  8041, 0x98600003, 16.92565, 53.31166, 15.33494, -0.3467729, 0, 0, -0.9379491,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
+VALUES (0x79860013,  8041, 0x98600003, 16.92565, 53.31166, 15.33494, -0.3467729, 0, 0, -0.9379491,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
 /* @teleloc 0x98600003 [16.925650 53.311660 15.334940] -0.346773 0.000000 0.000000 -0.937949 */

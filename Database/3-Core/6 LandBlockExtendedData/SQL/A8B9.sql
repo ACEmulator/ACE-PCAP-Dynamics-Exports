@@ -10,7 +10,8 @@ VALUES (0x7A8B9001, 0x7A8B9002, '2019-02-10 00:00:00') /* Mite Scamp (10) */
      , (0x7A8B9001, 0x7A8B9004, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
      , (0x7A8B9001, 0x7A8B9005, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
      , (0x7A8B9001, 0x7A8B9006, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
-     , (0x7A8B9001, 0x7A8B9007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
+     , (0x7A8B9001, 0x7A8B9007, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7A8B9001, 0x7A8B9008, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B9002,    10, 0xA8B90018, 57.01677, 186.7383, 27.105, -0.8880066, 0, 0, -0.4598307,  True, '2019-02-10 00:00:00'); /* Mite Scamp */
@@ -35,3 +36,7 @@ VALUES (0x7A8B9006,  2612, 0xA8B90018, 56.13005, 183.3264, 27.0925, -0.8880066, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B9007,   940, 0xA8B90018, 58.11282, 170.0142, 27.1042, -0.8880066, 0, 0, -0.4598307,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
 /* @teleloc 0xA8B90018 [58.112820 170.014200 27.104200] -0.888007 0.000000 0.000000 -0.459831 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A8B9008,   940, 0xA8B90018, 64.45413, 173.5193, 27.1042, -0.8880066, 0, 0, -0.4598307,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
+/* @teleloc 0xA8B90018 [64.454130 173.519300 27.104200] -0.888007 0.000000 0.000000 -0.459831 */

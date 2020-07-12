@@ -36,7 +36,11 @@ VALUES (0x7BDAF00C, 0x7BDAF00D, '2019-02-10 00:00:00') /* Mite Sentry (945) */
      , (0x7BDAF00C, 0x7BDAF025, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
      , (0x7BDAF00C, 0x7BDAF026, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
      , (0x7BDAF00C, 0x7BDAF027, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
-     , (0x7BDAF00C, 0x7BDAF028, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
+     , (0x7BDAF00C, 0x7BDAF028, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x7BDAF00C, 0x7BDAF029, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF02A, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF02B, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x7BDAF00C, 0x7BDAF02C, '2019-02-10 00:00:00') /* Mite Sentry (945) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BDAF00D,   945, 0xBDAF0103, 179.4758, 128.4565, 92.12923, 0.0569634, 0, 0, -0.998376,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
@@ -151,12 +155,28 @@ VALUES (0x7BDAF028,     3, 0xBDAF0037, 158.4966, 163.7061, 98.51043, 0.3417317, 
 /* @teleloc 0xBDAF0037 [158.496600 163.706100 98.510430] 0.341732 0.000000 0.000000 -0.939798 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDAF029,  1542, 0xBDAF0027, 98.59125, 155.263, 117.222, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BDAF029,   945, 0xBDAF003E, 174.1497, 124.8, 92.005, -0.7901704, 0, 0, 0.6128873,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
+/* @teleloc 0xBDAF003E [174.149700 124.800000 92.005000] -0.790170 0.000000 0.000000 0.612887 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDAF02A,   945, 0xBDAF003E, 180.5611, 141.1606, 92.005, -0.543602, 0, 0, 0.8393431,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
+/* @teleloc 0xBDAF003E [180.561100 141.160600 92.005000] -0.543602 0.000000 0.000000 0.839343 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDAF02B,   945, 0xBDAF0100, 179.3642, 143.1625, 86.805, -0.030501, 0, 0, -0.999535,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
+/* @teleloc 0xBDAF0100 [179.364200 143.162500 86.805000] -0.030501 0.000000 0.000000 -0.999535 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDAF02C,   945, 0xBDAF0102, 179.4585, 131.13, 91.70158, 0.0569634, 0, 0, -0.998376,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
+/* @teleloc 0xBDAF0102 [179.458500 131.130000 91.701580] 0.056963 0.000000 0.000000 -0.998376 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BDAF02D,  1542, 0xBDAF0027, 98.59125, 155.263, 117.222, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBDAF0027 [98.591250 155.263000 117.222000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BDAF029, 0x7BDAF02A, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x7BDAF02D, 0x7BDAF02E, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BDAF02A,  4380, 0xBDAF0027, 98.59125, 155.263, 117.222, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7BDAF02E,  4380, 0xBDAF0027, 98.59125, 155.263, 117.222, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xBDAF0027 [98.591250 155.263000 117.222000] 1.000000 0.000000 0.000000 0.000000 */

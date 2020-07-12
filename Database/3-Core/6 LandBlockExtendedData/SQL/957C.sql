@@ -93,7 +93,11 @@ VALUES (0x7957C00C, 0x7957C00D, '2019-02-10 00:00:00') /* Fish (263) */
      , (0x7957C00C, 0x7957C02A, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7957C00C, 0x7957C02B, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7957C00C, 0x7957C02C, '2019-02-10 00:00:00') /* Bowl of Rice (548) */
-     , (0x7957C00C, 0x7957C02D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
+     , (0x7957C00C, 0x7957C02D, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */
+     , (0x7957C00C, 0x7957C02E, '2019-02-10 00:00:00') /* Bread (259) */
+     , (0x7957C00C, 0x7957C02F, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7957C00C, 0x7957C030, '2019-02-10 00:00:00') /* Steak (4742) */
+     , (0x7957C00C, 0x7957C031, '2019-02-10 00:00:00') /* Brimstone-cap Mushroom (547) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7957C00D,   263, 0x957C0100, 42.55587, 33.23129, 32.8, -0.9350538, 0, 0, 0.3545059,  True, '2019-02-10 00:00:00'); /* Fish */
@@ -226,3 +230,19 @@ VALUES (0x7957C02C,   548, 0x957C0100, 44.88997, 39.56598, 32.8215, -0.996164, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7957C02D,   547, 0x957C0100, 45.01538, 36.37706, 32.7975, -0.935054, 0, 0, 0.354506,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
 /* @teleloc 0x957C0100 [45.015380 36.377060 32.797500] -0.935054 0.000000 0.000000 0.354506 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957C02E,   259, 0x957C0100, 42.08396, 34.62389, 32.8, -0.996164, 0, 0, -0.0875022,  True, '2019-02-10 00:00:00'); /* Bread */
+/* @teleloc 0x957C0100 [42.083960 34.623890 32.800000] -0.996164 0.000000 0.000000 -0.087502 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957C02F,  4742, 0x957C0100, 48.11255, 34.15786, 32.799, -0.935054, 0, 0, 0.354506,  True, '2019-02-10 00:00:00'); /* Steak */
+/* @teleloc 0x957C0100 [48.112550 34.157860 32.799000] -0.935054 0.000000 0.000000 0.354506 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957C030,  4742, 0x957C0100, 48.4909, 31.40227, 32.799, -0.996164, 0, 0, -0.0875022,  True, '2019-02-10 00:00:00'); /* Steak */
+/* @teleloc 0x957C0100 [48.490900 31.402270 32.799000] -0.996164 0.000000 0.000000 -0.087502 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7957C031,   547, 0x957C0100, 43.81635, 40.74968, 32.7975, -0.935054, 0, 0, 0.354506,  True, '2019-02-10 00:00:00'); /* Brimstone-cap Mushroom */
+/* @teleloc 0x957C0100 [43.816350 40.749680 32.797500] -0.935054 0.000000 0.000000 0.354506 */

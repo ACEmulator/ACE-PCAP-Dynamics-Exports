@@ -24,7 +24,8 @@ VALUES (0x73037001, 0x73037002, '2019-02-10 00:00:00') /* Entropy Wisp (11536) *
      , (0x73037001, 0x73037012, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
      , (0x73037001, 0x73037013, '2019-02-10 00:00:00') /* Abyssal Shadow (36845) */
      , (0x73037001, 0x73037014, '2019-02-10 00:00:00') /* Shadow Spectre (36852) */
-     , (0x73037001, 0x73037015, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */;
+     , (0x73037001, 0x73037015, '2019-02-10 00:00:00') /* Shadow Wraith (36854) */
+     , (0x73037001, 0x73037016, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73037002, 11536, 0x3037003A, 173.6697, 30.05968, 86.00001, -0.9999124, 0, 0, -0.01323843,  True, '2019-02-10 00:00:00'); /* Entropy Wisp */
@@ -105,3 +106,7 @@ VALUES (0x73037014, 36852, 0x3037002D, 137.9948, 108.1787, 90.50544, 0.8191521, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73037015, 36854, 0x30370035, 144.4426, 109.0419, 89.96862, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Wraith */
 /* @teleloc 0x30370035 [144.442600 109.041900 89.968620] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73037016, 11535, 0x3037003A, 184.7591, 25.12035, 86.00001, -0.9999124, 0, 0, -0.01323843,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
+/* @teleloc 0x3037003A [184.759100 25.120350 86.000010] -0.999912 0.000000 0.000000 -0.013238 */

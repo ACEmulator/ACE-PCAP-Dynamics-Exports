@@ -15,7 +15,10 @@ VALUES (0x79FE6001, 0x79FE6002, '2019-02-10 00:00:00') /* Olthoi Legionary (1148
      , (0x79FE6001, 0x79FE6009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x79FE6001, 0x79FE600A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x79FE6001, 0x79FE600B, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
-     , (0x79FE6001, 0x79FE600C, '2019-02-10 00:00:00') /* Frost (14512) */;
+     , (0x79FE6001, 0x79FE600C, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x79FE6001, 0x79FE600D, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
+     , (0x79FE6001, 0x79FE600E, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
+     , (0x79FE6001, 0x79FE600F, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FE6002, 11481, 0x9FE6003C, 177.294, 93.73376, 105.8654, 0.7989085, 0, 0, -0.6014525,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -62,27 +65,39 @@ VALUES (0x79FE600C, 14512, 0x9FE6001A, 94.60321, 34.19608, 122.8567, 0.3421979, 
 /* @teleloc 0x9FE6001A [94.603210 34.196080 122.856700] 0.342198 0.000000 0.000000 -0.939628 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FE600D,  1542, 0x9FE60034, 167.5051, 86.14647, 113.6391, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79FE600D,     3, 0x9FE6002F, 134.4678, 151.0266, 123.0706, -0.9940812, 0, 0, -0.1086398,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0x9FE6002F [134.467800 151.026600 123.070600] -0.994081 0.000000 0.000000 -0.108640 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79FE600E, 23082, 0x9FE60037, 162.2458, 154.7277, 110.4076, 0.4273547, 0, 0, -0.9040841,  True, '2019-02-10 00:00:00'); /* Nubilous Golem */
+/* @teleloc 0x9FE60037 [162.245800 154.727700 110.407600] 0.427355 0.000000 0.000000 -0.904084 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79FE600F,     3, 0x9FE60037, 156.7815, 155.6625, 123.0706, -0.9940812, 0, 0, -0.1086398,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0x9FE60037 [156.781500 155.662500 123.070600] -0.994081 0.000000 0.000000 -0.108640 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79FE6010,  1542, 0x9FE60034, 167.5051, 86.14647, 113.6391, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9FE60034 [167.505100 86.146470 113.639100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FE600D, 0x79FE600E, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x79FE600D, 0x79FE600F, '2019-02-10 00:00:00') /* Runed Chest (22571) */
-     , (0x79FE600D, 0x79FE6010, '2019-02-10 00:00:00') /* Runed Chest (22571) */
-     , (0x79FE600D, 0x79FE6011, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x79FE6010, 0x79FE6011, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x79FE6010, 0x79FE6012, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x79FE6010, 0x79FE6013, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x79FE6010, 0x79FE6014, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FE600E,  4179, 0x9FE60034, 167.5051, 86.14647, 113.6391, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x79FE6011,  4179, 0x9FE60034, 167.5051, 86.14647, 113.6391, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x9FE60034 [167.505100 86.146470 113.639100] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FE600F, 22571, 0x9FE60021, 109.2835, 16.86861, 121.4057, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79FE6012, 22571, 0x9FE60021, 109.2835, 16.86861, 121.4057, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x9FE60021 [109.283500 16.868610 121.405700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FE6010, 22571, 0x9FE6003B, 180.9265, 60.5788, 109.7491, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79FE6013, 22571, 0x9FE6003B, 180.9265, 60.5788, 109.7491, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x9FE6003B [180.926500 60.578800 109.749100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FE6011,  4380, 0x9FE6003B, 180.242, 59.34128, 110.0695, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x79FE6014,  4380, 0x9FE6003B, 180.242, 59.34128, 110.0695, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x9FE6003B [180.242000 59.341280 110.069500] 1.000000 0.000000 0.000000 0.000000 */

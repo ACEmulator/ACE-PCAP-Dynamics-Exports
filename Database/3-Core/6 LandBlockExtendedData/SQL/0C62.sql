@@ -63,7 +63,10 @@ VALUES (0x70C62029, 0x70C6202A, '2019-02-10 00:00:00') /* Destroyer Grievver (79
      , (0x70C62029, 0x70C62051, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
      , (0x70C62029, 0x70C62052, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
      , (0x70C62029, 0x70C62053, '2019-02-10 00:00:00') /* Undead Sailor (24323) */
-     , (0x70C62029, 0x70C62054, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */;
+     , (0x70C62029, 0x70C62054, '2019-02-10 00:00:00') /* Skeletal Swashbuckler (24318) */
+     , (0x70C62029, 0x70C62055, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70C62029, 0x70C62056, '2019-02-10 00:00:00') /* Ascendant Drudge (36821) */
+     , (0x70C62029, 0x70C62057, '2019-02-10 00:00:00') /* Maelstrom (14876) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C6202A,  7982, 0x0C62001C, 80.30946, 93.26214, 15.38982, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -238,12 +241,24 @@ VALUES (0x70C62054, 24318, 0x0C620009, 44.6468, 22.43339, -0.0975, -0.536424, 0,
 /* @teleloc 0x0C620009 [44.646800 22.433390 -0.097500] -0.536424 0.000000 0.000000 -0.843949 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C62055,  1542, 0x0C620024, 105.3898, 95.25851, 18.52631, -0.6783666, 0, 0, -0.7347236, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70C62055, 36821, 0x0C620023, 97.97025, 67.62241, 12.67999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
+/* @teleloc 0x0C620023 [97.970250 67.622410 12.679990] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C62056, 36821, 0x0C620023, 98.16138, 65.23003, 12.67999, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ascendant Drudge */
+/* @teleloc 0x0C620023 [98.161380 65.230030 12.679990] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C62057, 14876, 0x0C620024, 100.0385, 81.94863, 9.479181, 0.7987944, 0, 0, -0.6016041,  True, '2019-02-10 00:00:00'); /* Maelstrom */
+/* @teleloc 0x0C620024 [100.038500 81.948630 9.479181] 0.798794 0.000000 0.000000 -0.601604 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C62058,  1542, 0x0C620024, 105.3898, 95.25851, 18.52631, -0.6783666, 0, 0, -0.7347236, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0C620024 [105.389800 95.258510 18.526310] -0.678367 0.000000 0.000000 -0.734724 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C62055, 0x70C62056, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+VALUES (0x70C62058, 0x70C62059, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C62056,  9288, 0x0C620024, 105.3898, 95.25851, 18.52631, -0.6783666, 0, 0, -0.7347236,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x70C62059,  9288, 0x0C620024, 105.3898, 95.25851, 18.52631, -0.6783666, 0, 0, -0.7347236,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x0C620024 [105.389800 95.258510 18.526310] -0.678367 0.000000 0.000000 -0.734724 */

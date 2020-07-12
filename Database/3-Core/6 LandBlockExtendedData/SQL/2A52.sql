@@ -20,7 +20,11 @@ VALUES (0x72A52001, 0x72A52002, '2019-02-10 00:00:00') /* Shadow-touched Virindi
      , (0x72A52001, 0x72A5200E, '2019-02-10 00:00:00') /* Titanium Armoredillo (7083) */
      , (0x72A52001, 0x72A5200F, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
      , (0x72A52001, 0x72A52010, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
-     , (0x72A52001, 0x72A52011, '2019-02-10 00:00:00') /* Void Knight (25663) */;
+     , (0x72A52001, 0x72A52011, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x72A52001, 0x72A52012, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72A52001, 0x72A52013, '2019-02-10 00:00:00') /* Shadow-touched Virindi Quidiox (36554) */
+     , (0x72A52001, 0x72A52014, '2019-02-10 00:00:00') /* Lich Oppressor (22905) */
+     , (0x72A52001, 0x72A52015, '2019-02-10 00:00:00') /* Raider Justicar (23087) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A52002, 36554, 0x2A52002B, 135.6178, 61.66017, 1.167348, -0.3845995, 0, 0, -0.9230835,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Quidiox */
@@ -87,17 +91,38 @@ VALUES (0x72A52011, 25663, 0x2A520038, 163.3852, 185.3787, 4.646806, 0.9856199, 
 /* @teleloc 0x2A520038 [163.385200 185.378700 4.646806] 0.985620 0.000000 0.000000 -0.168978 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A52012,  1542, 0x2A520013, 67.63098, 71.32135, 8.72817, -0.8252657, 0, 0, -0.5647447, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x72A52012, 36554, 0x2A52002B, 120.1296, 64.95136, 1.441614, -0.3845995, 0, 0, -0.9230835,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Quidiox */
+/* @teleloc 0x2A52002B [120.129600 64.951360 1.441614] -0.384600 0.000000 0.000000 -0.923084 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A52013, 36554, 0x2A52002B, 124.8509, 70.73814, 1.923845, -0.3845995, 0, 0, -0.9230835,  True, '2019-02-10 00:00:00'); /* Shadow-touched Virindi Quidiox */
+/* @teleloc 0x2A52002B [124.850900 70.738140 1.923845] -0.384600 0.000000 0.000000 -0.923084 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A52014, 22905, 0x2A520034, 164.1925, 77.40575, 3.358937, 0.1801358, 0, 0, -0.9836417,  True, '2019-02-10 00:00:00'); /* Lich Oppressor */
+/* @teleloc 0x2A520034 [164.192500 77.405750 3.358937] 0.180136 0.000000 0.000000 -0.983642 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A52015, 23087, 0x2A520038, 164.5521, 190.8526, 2.583705, 0.9856199, 0, 0, -0.1689776,  True, '2019-02-10 00:00:00'); /* Raider Justicar */
+/* @teleloc 0x2A520038 [164.552100 190.852600 2.583705] 0.985620 0.000000 0.000000 -0.168978 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A52016,  1542, 0x2A520013, 67.63098, 71.32135, 8.72817, -0.8252657, 0, 0, -0.5647447, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2A520013 [67.630980 71.321350 8.728170] -0.825266 0.000000 0.000000 -0.564745 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A52012, 0x72A52013, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
-     , (0x72A52012, 0x72A52014, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */;
+VALUES (0x72A52016, 0x72A52017, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72A52016, 0x72A52018, '2019-02-10 00:00:00') /* Bloodroot Vine (46284) */
+     , (0x72A52016, 0x72A52019, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A52013, 46284, 0x2A520013, 67.63098, 71.32135, 8.72817, -0.8252657, 0, 0, -0.5647447,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
+VALUES (0x72A52017, 46284, 0x2A520013, 67.63098, 71.32135, 8.72817, -0.8252657, 0, 0, -0.5647447,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
 /* @teleloc 0x2A520013 [67.630980 71.321350 8.728170] -0.825266 0.000000 0.000000 -0.564745 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A52014, 46284, 0x2A52002B, 123.1134, 65.47853, 1.456544, -0.3845995, 0, 0, -0.9230835,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
+VALUES (0x72A52018, 46284, 0x2A52002B, 123.1134, 65.47853, 1.456544, -0.3845995, 0, 0, -0.9230835,  True, '2019-02-10 00:00:00'); /* Bloodroot Vine */
 /* @teleloc 0x2A52002B [123.113400 65.478530 1.456544] -0.384600 0.000000 0.000000 -0.923084 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A52019, 34572, 0x2A520038, 164.3816, 188.0154, 4.308254, 0.9856199, 0, 0, -0.1689776,  True, '2019-02-10 00:00:00'); /* Shadowy Statue of the Hopeslayer */
+/* @teleloc 0x2A520038 [164.381600 188.015400 4.308254] 0.985620 0.000000 0.000000 -0.168978 */

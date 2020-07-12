@@ -110,7 +110,8 @@ VALUES (0x723DA01C,  1542, 0x23DA002B, 131.8347, 69.53949, 1.937, 0.5019507, 0, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x723DA01C, 0x723DA01D, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x723DA01C, 0x723DA01E, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x723DA01C, 0x723DA01E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x723DA01C, 0x723DA01F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DA01D,  1955, 0x23DA002B, 131.8347, 69.53949, 1.937, 0.5019507, 0, 0, -0.8648962,  True, '2019-02-10 00:00:00'); /* Gateway */
@@ -119,3 +120,7 @@ VALUES (0x723DA01D,  1955, 0x23DA002B, 131.8347, 69.53949, 1.937, 0.5019507, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DA01E,  1955, 0x23DA002B, 130.3318, 67.15394, 1.937, 0.4157089, 0, 0, -0.9094977,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x23DA002B [130.331800 67.153940 1.937000] 0.415709 0.000000 0.000000 -0.909498 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723DA01F,  1955, 0x23DA002C, 134.673, 90.24776, 1.937, -0.1837115, 0, 0, -0.9829802,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x23DA002C [134.673000 90.247760 1.937000] -0.183712 0.000000 0.000000 -0.982980 */

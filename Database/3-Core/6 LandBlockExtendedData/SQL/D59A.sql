@@ -29,7 +29,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7D59A005, 0x7D59A006, '2019-02-10 00:00:00') /* +Moosier (4) */
      , (0x7D59A005, 0x7D59A007, '2019-02-10 00:00:00') /* Salvage (100) (21042) */
      , (0x7D59A005, 0x7D59A008, '2019-02-10 00:00:00') /* Elysa's Courage (36781) */
-     , (0x7D59A005, 0x7D59A009, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x7D59A005, 0x7D59A009, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7D59A005, 0x7D59A00A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59A006,     4, 0xD59A0023, 118.6824, 58.51815, 330.9344, 0.4689316, 0, 0, -0.8832345,  True, '2019-02-10 00:00:00'); /* +Moosier */
@@ -46,3 +47,7 @@ VALUES (0x7D59A008, 36781, 0xD59A0039, 182.2044, 2.260981, 374, 1, 0, 0, 0,  Tru
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D59A009,  1955, 0xD59A0031, 151.6726, 2.092061, 373.414, 0.5047107, 0, 0, -0.8632885,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xD59A0031 [151.672600 2.092061 373.414000] 0.504711 0.000000 0.000000 -0.863289 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D59A00A,  1955, 0xD59A0033, 152.4497, 69.99232, 359.937, 0.9906109, 0, 0, -0.1367115,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xD59A0033 [152.449700 69.992320 359.937000] 0.990611 0.000000 0.000000 -0.136712 */

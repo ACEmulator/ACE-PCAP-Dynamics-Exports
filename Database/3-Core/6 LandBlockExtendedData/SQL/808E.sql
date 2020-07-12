@@ -17,7 +17,8 @@ VALUES (0x7808E001, 0x7808E002, '2019-02-10 00:00:00') /* Viamontian Mage (30299
      , (0x7808E001, 0x7808E00B, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
      , (0x7808E001, 0x7808E00C, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
      , (0x7808E001, 0x7808E00D, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
-     , (0x7808E001, 0x7808E00E, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
+     , (0x7808E001, 0x7808E00E, '2019-02-10 00:00:00') /* Lich Lord (1630) */
+     , (0x7808E001, 0x7808E00F, '2019-02-10 00:00:00') /* Naughty Scarecrow (28878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7808E002, 30299, 0x808E000D, 37.8401, 99.3933, 124.005, -0.4194669, 0, 0, 0.9077706,  True, '2019-02-10 00:00:00'); /* Viamontian Mage */
@@ -72,12 +73,21 @@ VALUES (0x7808E00E,  1630, 0x808E0016, 58.84415, 133.0511, 124.0075, 0.9659258, 
 /* @teleloc 0x808E0016 [58.844150 133.051100 124.007500] 0.965926 0.000000 0.000000 -0.258819 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7808E00F,  1542, 0x808E000D, 32, 109, 123.937, 0.8870109, 0, 0, -0.4617486, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7808E00F, 28878, 0x808E0100, 59.80919, 106.6479, 124.1025, 0.5877211, 0, 0, -0.8090636,  True, '2019-02-10 00:00:00'); /* Naughty Scarecrow */
+/* @teleloc 0x808E0100 [59.809190 106.647900 124.102500] 0.587721 0.000000 0.000000 -0.809064 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7808E010,  1542, 0x808E000D, 32, 109, 123.937, 0.8870109, 0, 0, -0.4617486, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x808E000D [32.000000 109.000000 123.937000] 0.887011 0.000000 0.000000 -0.461749 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7808E00F, 0x7808E010, '2019-02-10 00:00:00') /* Copper Legion Keep (29433) */;
+VALUES (0x7808E010, 0x7808E011, '2019-02-10 00:00:00') /* Copper Legion Keep (29433) */
+     , (0x7808E010, 0x7808E012, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7808E010, 29433, 0x808E000D, 32, 109, 123.937, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Copper Legion Keep */
+VALUES (0x7808E011, 29433, 0x808E000D, 32, 109, 123.937, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Copper Legion Keep */
 /* @teleloc 0x808E000D [32.000000 109.000000 123.937000] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7808E012,  8232, 0x808E0100, 58.04494, 105.7493, 124.1, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
+/* @teleloc 0x808E0100 [58.044940 105.749300 124.100000] 1.000000 0.000000 0.000000 0.000000 */

@@ -46,7 +46,10 @@ VALUES (0x7B999001, 0x7B999002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) 
      , (0x7B999001, 0x7B999028, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
      , (0x7B999001, 0x7B999029, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7B999001, 0x7B99902A, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
-     , (0x7B999001, 0x7B99902B, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */;
+     , (0x7B999001, 0x7B99902B, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */
+     , (0x7B999001, 0x7B99902C, '2019-02-10 00:00:00') /* Shallows Shark (2577) */
+     , (0x7B999001, 0x7B99902D, '2019-02-10 00:00:00') /* Broken Fragment (8010) */
+     , (0x7B999001, 0x7B99902E, '2019-02-10 00:00:00') /* Glissnal Niffis (7986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B999002,  4109, 0xB9990014, 51.63087, 93.76347, 1.896, -0.9821532, 0, 0, -0.1880824,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
@@ -215,3 +218,15 @@ VALUES (0x7B99902A,   182, 0xB9990002, 4.652597, 33.10053, 4.47384, 0.9768915, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B99902B,  7986, 0xB9990031, 159.3643, 15.9656, 1.1004, 0.796868, 0, 0, -0.6041535,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
 /* @teleloc 0xB9990031 [159.364300 15.965600 1.100400] 0.796868 0.000000 0.000000 -0.604154 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B99902C,  2577, 0xB9990029, 136.2378, 19.97704, 1.1011, 0.796868, 0, 0, -0.6041535,  True, '2019-02-10 00:00:00'); /* Shallows Shark */
+/* @teleloc 0xB9990029 [136.237800 19.977040 1.101100] 0.796868 0.000000 0.000000 -0.604154 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B99902D,  8010, 0xB9990014, 62.24031, 77.18723, 1.535, -0.9821532, 0, 0, -0.1880824,  True, '2019-02-10 00:00:00'); /* Broken Fragment */
+/* @teleloc 0xB9990014 [62.240310 77.187230 1.535000] -0.982153 0.000000 0.000000 -0.188082 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B99902E,  7986, 0xB999002F, 127.0622, 152.7934, 1.5504, -0.8145884, 0, 0, -0.5800395,  True, '2019-02-10 00:00:00'); /* Glissnal Niffis */
+/* @teleloc 0xB999002F [127.062200 152.793400 1.550400] -0.814588 0.000000 0.000000 -0.580040 */

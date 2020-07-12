@@ -22,7 +22,14 @@ VALUES (0x7277C001, 0x7277C002, '2019-02-10 00:00:00') /* Invading Silver Scope 
      , (0x7277C001, 0x7277C010, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
      , (0x7277C001, 0x7277C011, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
      , (0x7277C001, 0x7277C012, '2019-02-10 00:00:00') /* Horripal (20191) */
-     , (0x7277C001, 0x7277C013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
+     , (0x7277C001, 0x7277C013, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x7277C001, 0x7277C014, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
+     , (0x7277C001, 0x7277C015, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277C001, 0x7277C016, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7277C001, 0x7277C017, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x7277C001, 0x7277C018, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277C001, 0x7277C019, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */
+     , (0x7277C001, 0x7277C01A, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7277C002, 41535, 0x277C003D, 185.0723, 101.3959, 257.7592, -0.3661343, 0, 0, -0.930562,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
@@ -97,12 +104,40 @@ VALUES (0x7277C013, 36840, 0x277C0014, 68.1597, 76.41775, 249.6254, 0.9931824, 0
 /* @teleloc 0x277C0014 [68.159700 76.417750 249.625400] 0.993182 0.000000 0.000000 -0.116571 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7277C014,  1542, 0x277C003D, 173.0804, 118.2858, 250.6905, 0.5871365, 0, 0, -0.8094879, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7277C014, 28553, 0x277C000A, 26.26836, 38.70053, 254.8181, 0.01457218, 0, 0, -0.9998938,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
+/* @teleloc 0x277C000A [26.268360 38.700530 254.818100] 0.014572 0.000000 0.000000 -0.999894 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C015, 36842, 0x277C0014, 68.14788, 92.29087, 248.3041, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
+/* @teleloc 0x277C0014 [68.147880 92.290870 248.304100] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C016, 36843, 0x277C0014, 59.43431, 94.69161, 248.103, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
+/* @teleloc 0x277C0014 [59.434310 94.691610 248.103000] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C017, 36843, 0x277C0014, 66.45087, 92.0979, 248.3192, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
+/* @teleloc 0x277C0014 [66.450870 92.097900 248.319200] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C018, 36842, 0x277C0014, 59.52604, 91.38676, 248.3954, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
+/* @teleloc 0x277C0014 [59.526040 91.386760 248.395400] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C019, 36842, 0x277C0014, 64.78187, 87.84415, 248.6747, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
+/* @teleloc 0x277C0014 [64.781870 87.844150 248.674700] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C01A, 28553, 0x277C001C, 81.21777, 81.69386, 249.9585, 0.9931824, 0, 0, -0.1165707,  True, '2019-02-10 00:00:00'); /* Rufous Grievver */
+/* @teleloc 0x277C001C [81.217770 81.693860 249.958500] 0.993182 0.000000 0.000000 -0.116571 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7277C01B,  1542, 0x277C003D, 173.0804, 118.2858, 250.6905, 0.5871365, 0, 0, -0.8094879, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x277C003D [173.080400 118.285800 250.690500] 0.587137 0.000000 0.000000 -0.809488 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7277C014, 0x7277C015, '2019-02-10 00:00:00') /* Rock (42528) */;
+VALUES (0x7277C01B, 0x7277C01C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7277C015, 42528, 0x277C003D, 173.0804, 118.2858, 250.6905, 0.5871365, 0, 0, -0.8094879,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x7277C01C, 42528, 0x277C003D, 173.0804, 118.2858, 250.6905, 0.5871365, 0, 0, -0.8094879,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x277C003D [173.080400 118.285800 250.690500] 0.587137 0.000000 0.000000 -0.809488 */

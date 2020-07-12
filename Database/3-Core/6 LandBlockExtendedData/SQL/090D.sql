@@ -239,7 +239,9 @@ VALUES (0x7090D001, 0x7090D002, '2019-02-10 00:00:00') /* Raven Conscript (31400
      , (0x7090D001, 0x7090D0E9, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
      , (0x7090D001, 0x7090D0EA, '2019-02-10 00:00:00') /* Biaka (25859) */
      , (0x7090D001, 0x7090D0EB, '2019-02-10 00:00:00') /* Biaka (25859) */
-     , (0x7090D001, 0x7090D0EC, '2019-02-10 00:00:00') /* Colossal Mite (25868) */;
+     , (0x7090D001, 0x7090D0EC, '2019-02-10 00:00:00') /* Colossal Mite (25868) */
+     , (0x7090D001, 0x7090D0ED, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7090D001, 0x7090D0EE, '2019-02-10 00:00:00') /* Hellion (25863) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7090D002, 31400, 0x090D0018, 50.46059, 168.2148, 77.45824, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
@@ -1180,3 +1182,11 @@ VALUES (0x7090D0EB, 25859, 0x090D0017, 59.55999, 147.9527, 84.81791, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7090D0EC, 25868, 0x090D0029, 127.2119, 3.418612, 64.21938, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Colossal Mite */
 /* @teleloc 0x090D0029 [127.211900 3.418612 64.219380] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090D0ED, 25859, 0x090D0018, 55.71446, 174.1062, 83.01984, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x090D0018 [55.714460 174.106200 83.019840] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7090D0EE, 25863, 0x090D000F, 46.75171, 161.1729, 80.2925, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x090D000F [46.751710 161.172900 80.292500] 1.000000 0.000000 0.000000 0.000000 */

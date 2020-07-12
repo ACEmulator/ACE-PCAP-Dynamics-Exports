@@ -10,7 +10,8 @@ VALUES (0x73AF5001, 0x73AF5002, '2019-02-10 00:00:00') /* Small Coral Golem (244
      , (0x73AF5001, 0x73AF5004, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
      , (0x73AF5001, 0x73AF5005, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
      , (0x73AF5001, 0x73AF5006, '2019-02-10 00:00:00') /* Small Coral Golem (24478) */
-     , (0x73AF5001, 0x73AF5007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */;
+     , (0x73AF5001, 0x73AF5007, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x73AF5001, 0x73AF5008, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AF5002, 24478, 0x3AF50038, 153.3232, 185.1939, 1.225571, 0.1925273, 0, 0, -0.9812916,  True, '2019-02-10 00:00:00'); /* Small Coral Golem */
@@ -35,3 +36,7 @@ VALUES (0x73AF5006, 24478, 0x3AF50005, 11.33519, 114.7171, 73.66487, -0.8134505,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73AF5007, 24294, 0x3AF50009, 26.07982, 18.38205, 129.9349, -0.3440093, 0, 0, -0.9389663,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
 /* @teleloc 0x3AF50009 [26.079820 18.382050 129.934900] -0.344009 0.000000 0.000000 -0.938966 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73AF5008, 28551, 0x3AF50030, 137.2168, 181.3482, 2, -0.9961638, 0, 0, -0.0875081,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
+/* @teleloc 0x3AF50030 [137.216800 181.348200 2.000000] -0.996164 0.000000 0.000000 -0.087508 */

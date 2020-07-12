@@ -92,7 +92,10 @@ VALUES (0x7C1F7001, 0x7C1F7002, '2019-02-10 00:00:00') /* Listris Sleech (33738)
      , (0x7C1F7001, 0x7C1F7056, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
      , (0x7C1F7001, 0x7C1F7057, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
      , (0x7C1F7001, 0x7C1F7058, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
-     , (0x7C1F7001, 0x7C1F7059, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */;
+     , (0x7C1F7001, 0x7C1F7059, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C1F7001, 0x7C1F705A, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C1F7001, 0x7C1F705B, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C1F7001, 0x7C1F705C, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1F7002, 33738, 0xC1F70031, 161.9892, 11.11711, -2.235174E-08, 0.8023461, 0, 0, -0.596859,  True, '2019-02-10 00:00:00'); /* Listris Sleech */
@@ -445,3 +448,15 @@ VALUES (0x7C1F7058, 40287, 0xC1F70021, 103.4965, 18.95654, 0.005500019, -0.19395
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1F7059, 40287, 0xC1F70021, 100.964, 13.63963, 0.005500019, -0.193952, 0, 0, -0.981011,  True, '2019-02-10 00:00:00'); /* Shambling Undead Ruschk */
 /* @teleloc 0xC1F70021 [100.964000 13.639630 0.005500] -0.193952 0.000000 0.000000 -0.981011 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1F705A, 40287, 0xC1F70021, 99.99172, 16.22824, 0.005500019, -0.193952, 0, 0, -0.981011,  True, '2019-02-10 00:00:00'); /* Shambling Undead Ruschk */
+/* @teleloc 0xC1F70021 [99.991720 16.228240 0.005500] -0.193952 0.000000 0.000000 -0.981011 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1F705B, 33732, 0xC1F70031, 160.5581, 5.986031, 0, 0.8023461, 0, 0, -0.596859,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xC1F70031 [160.558100 5.986031 0.000000] 0.802346 0.000000 0.000000 -0.596859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1F705C, 40281, 0xC1F70031, 161.4171, 7.951652, 0, 0.8023461, 0, 0, -0.596859,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xC1F70031 [161.417100 7.951652 0.000000] 0.802346 0.000000 0.000000 -0.596859 */

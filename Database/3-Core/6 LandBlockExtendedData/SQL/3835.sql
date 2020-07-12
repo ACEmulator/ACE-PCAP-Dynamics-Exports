@@ -15,7 +15,8 @@ VALUES (0x73835001, 0x73835002, '2019-02-10 00:00:00') /* Drudge Bloodletter (23
      , (0x73835001, 0x73835009, '2019-02-10 00:00:00') /* Assailer (22053) */
      , (0x73835001, 0x7383500A, '2019-02-10 00:00:00') /* Peerless Drudge (36825) */
      , (0x73835001, 0x7383500B, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
-     , (0x73835001, 0x7383500C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */;
+     , (0x73835001, 0x7383500C, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x73835001, 0x7383500D, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73835002, 23480, 0x38350025, 102.942, 119.5799, 111.286, -0.4142889, 0, 0, -0.9101454,  True, '2019-02-10 00:00:00'); /* Drudge Bloodletter */
@@ -60,3 +61,7 @@ VALUES (0x7383500B, 38180, 0x38350001, 17.78671, 0.2006063, 44.99564, -0.996763,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7383500C, 23481, 0x38350001, 12.34635, 18.13301, 48.04433, -0.996763, 0, 0, -0.08039625,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
 /* @teleloc 0x38350001 [12.346350 18.133010 48.044330] -0.996763 0.000000 0.000000 -0.080396 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7383500D, 24274, 0x38350001, 23.96008, 15.21323, 48.53604, -0.996763, 0, 0, -0.08039625,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
+/* @teleloc 0x38350001 [23.960080 15.213230 48.536040] -0.996763 0.000000 0.000000 -0.080396 */

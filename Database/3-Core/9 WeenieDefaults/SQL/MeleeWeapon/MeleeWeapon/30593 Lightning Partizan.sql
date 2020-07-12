@@ -29,7 +29,6 @@ VALUES (30593,   1,          1) /* ItemType - MeleeWeapon */
      , (30593, 158,          2) /* WieldRequirements - RawSkill */
      , (30593, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (30593, 160,        325) /* WieldDifficulty */
-     , (30593, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (30593, 177,          2) /* GemCount */
      , (30593, 178,         45) /* GemType */
      , (30593, 353,          5) /* WeaponType - Spear */;

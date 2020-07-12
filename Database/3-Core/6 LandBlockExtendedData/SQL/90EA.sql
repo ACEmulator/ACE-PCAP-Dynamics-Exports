@@ -21,7 +21,9 @@ VALUES (0x790EA001, 0x790EA002, '2019-02-10 00:00:00') /* Terrible Monouga (2429
      , (0x790EA001, 0x790EA00F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
      , (0x790EA001, 0x790EA010, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
      , (0x790EA001, 0x790EA011, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
-     , (0x790EA001, 0x790EA012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
+     , (0x790EA001, 0x790EA012, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
+     , (0x790EA001, 0x790EA013, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
+     , (0x790EA001, 0x790EA014, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x790EA002, 24293, 0x90EA002A, 120.5421, 37.84525, 38.79355, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
@@ -92,12 +94,20 @@ VALUES (0x790EA012, 22519, 0x90EA001E, 86.75105, 125.2211, 31.57481, -0.7513071,
 /* @teleloc 0x90EA001E [86.751050 125.221100 31.574810] -0.751307 0.000000 0.000000 -0.659953 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790EA013,  1542, 0x90EA0022, 117.4472, 34.9502, 39.30022, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x790EA013, 28551, 0x90EA0029, 142.6853, 14.01943, 38.94127, -0.2387147, 0, 0, -0.9710897,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
+/* @teleloc 0x90EA0029 [142.685300 14.019430 38.941270] -0.238715 0.000000 0.000000 -0.971090 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x790EA014, 22519, 0x90EA0034, 167.5716, 84.18561, 31.03013, -0.9047225, 0, 0, -0.4260013,  True, '2019-02-10 00:00:00'); /* Tusker Liberator */
+/* @teleloc 0x90EA0034 [167.571600 84.185610 31.030130] -0.904723 0.000000 0.000000 -0.426001 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x790EA015,  1542, 0x90EA0022, 117.4472, 34.9502, 39.30022, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x90EA0022 [117.447200 34.950200 39.300220] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x790EA013, 0x790EA014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x790EA015, 0x790EA016, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x790EA014,  4179, 0x90EA0022, 117.4472, 34.9502, 39.30022, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x790EA016,  4179, 0x90EA0022, 117.4472, 34.9502, 39.30022, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x90EA0022 [117.447200 34.950200 39.300220] 0.999048 0.000000 0.000000 -0.043619 */

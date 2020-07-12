@@ -32,7 +32,11 @@ VALUES (0x7294A001, 0x7294A002, '2019-02-10 00:00:00') /* Drudge Seraph (22899) 
      , (0x7294A001, 0x7294A01A, '2019-02-10 00:00:00') /* Chimera (25807) */
      , (0x7294A001, 0x7294A01B, '2019-02-10 00:00:00') /* Tormenter (25806) */
      , (0x7294A001, 0x7294A01C, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
-     , (0x7294A001, 0x7294A01D, '2019-02-10 00:00:00') /* Void Knight (25663) */;
+     , (0x7294A001, 0x7294A01D, '2019-02-10 00:00:00') /* Void Knight (25663) */
+     , (0x7294A001, 0x7294A01E, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7294A001, 0x7294A01F, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */
+     , (0x7294A001, 0x7294A020, '2019-02-10 00:00:00') /* Drudge Seraph Mystic (25563) */
+     , (0x7294A001, 0x7294A021, '2019-02-10 00:00:00') /* Drudge Seraph (22899) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294A002, 22899, 0x294A0026, 99.33116, 135.2973, 2.5541, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
@@ -145,3 +149,19 @@ VALUES (0x7294A01C,  7117, 0x294A0025, 111.9332, 96.45842, 0.006499998, -0.88668
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7294A01D, 25663, 0x294A0026, 104.2308, 138.3409, 2.633193, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Void Knight */
 /* @teleloc 0x294A0026 [104.230800 138.340900 2.633193] 0.130930 0.000000 0.000000 -0.991392 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294A01E, 25563, 0x294A001E, 91.57919, 137.6665, 3.68577, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Drudge Seraph Mystic */
+/* @teleloc 0x294A001E [91.579190 137.666500 3.685770] 0.130930 0.000000 0.000000 -0.991392 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294A01F, 22899, 0x294A001E, 93.9828, 138.0204, 3.344144, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
+/* @teleloc 0x294A001E [93.982800 138.020400 3.344144] 0.130930 0.000000 0.000000 -0.991392 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294A020, 25563, 0x294A001E, 95.69142, 141.2733, 3.601535, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Drudge Seraph Mystic */
+/* @teleloc 0x294A001E [95.691420 141.273300 3.601535] 0.130930 0.000000 0.000000 -0.991392 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7294A021, 22899, 0x294A0026, 99.92154, 138.5302, 3.09291, 0.1309297, 0, 0, -0.9913917,  True, '2019-02-10 00:00:00'); /* Drudge Seraph */
+/* @teleloc 0x294A0026 [99.921540 138.530200 3.092910] 0.130930 0.000000 0.000000 -0.991392 */

@@ -32,7 +32,14 @@ VALUES (0x72950001, 0x72950002, '2019-02-10 00:00:00') /* Raider Justicar (23087
      , (0x72950001, 0x7295001A, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
      , (0x72950001, 0x7295001B, '2019-02-10 00:00:00') /* K'nath An'dras (23556) */
      , (0x72950001, 0x7295001C, '2019-02-10 00:00:00') /* K'nath I'km (25659) */
-     , (0x72950001, 0x7295001D, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */;
+     , (0x72950001, 0x7295001D, '2019-02-10 00:00:00') /* Banderling Hierophant (22897) */
+     , (0x72950001, 0x7295001E, '2019-02-10 00:00:00') /* Dreadful Ursuin (23568) */
+     , (0x72950001, 0x7295001F, '2019-02-10 00:00:00') /* Copper Cog Heavy Scout (41734) */
+     , (0x72950001, 0x72950020, '2019-02-10 00:00:00') /* Iron Blade Heavy Scout (41736) */
+     , (0x72950001, 0x72950021, '2019-02-10 00:00:00') /* Bronze Gauntlet Heavy Scout (41733) */
+     , (0x72950001, 0x72950022, '2019-02-10 00:00:00') /* Gold Gear Heavy Scout (41735) */
+     , (0x72950001, 0x72950023, '2019-02-10 00:00:00') /* Dark Guardian (22904) */
+     , (0x72950001, 0x72950024, '2019-02-10 00:00:00') /* Dark Guardian (22904) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72950002, 23087, 0x29500037, 151.4742, 159.7256, 80.76812, -0.1866405, 0, 0, -0.9824283,  True, '2019-02-10 00:00:00'); /* Raider Justicar */
@@ -145,3 +152,42 @@ VALUES (0x7295001C, 25659, 0x29500023, 99.50863, 67.55744, 1.954573, -0.5413424,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7295001D, 22897, 0x29500039, 174.1766, 19.05917, 8.52187, 0.2517718, 0, 0, -0.9677866,  True, '2019-02-10 00:00:00'); /* Banderling Hierophant */
 /* @teleloc 0x29500039 [174.176600 19.059170 8.521870] 0.251772 0.000000 0.000000 -0.967787 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7295001E, 23568, 0x29500012, 69.79874, 43.97365, 2.553914, -0.3882363, 0, 0, -0.9215599,  True, '2019-02-10 00:00:00'); /* Dreadful Ursuin */
+/* @teleloc 0x29500012 [69.798740 43.973650 2.553914] -0.388236 0.000000 0.000000 -0.921560 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7295001F, 41734, 0x2950001B, 85.30198, 66.19974, 1.600353, -0.5413424, 0, 0, -0.8408023,  True, '2019-02-10 00:00:00'); /* Copper Cog Heavy Scout */
+/* @teleloc 0x2950001B [85.301980 66.199740 1.600353] -0.541342 0.000000 0.000000 -0.840802 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950020, 41736, 0x2950001B, 82.45327, 64.1554, 1.533323, -0.5413424, 0, 0, -0.8408023,  True, '2019-02-10 00:00:00'); /* Iron Blade Heavy Scout */
+/* @teleloc 0x2950001B [82.453270 64.155400 1.533323] -0.541342 0.000000 0.000000 -0.840802 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950021, 41733, 0x2950001B, 82.77521, 61.78721, 1.7575, -0.5413424, 0, 0, -0.8408023,  True, '2019-02-10 00:00:00'); /* Bronze Gauntlet Heavy Scout */
+/* @teleloc 0x2950001B [82.775210 61.787210 1.757500] -0.541342 0.000000 0.000000 -0.840802 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950022, 41735, 0x2950001B, 87.13039, 64.98261, 1.854148, -0.5413424, 0, 0, -0.8408023,  True, '2019-02-10 00:00:00'); /* Gold Gear Heavy Scout */
+/* @teleloc 0x2950001B [87.130390 64.982610 1.854148] -0.541342 0.000000 0.000000 -0.840802 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950023, 22904, 0x2950000D, 40.87471, 118.6562, 0.008249998, -0.7331998, 0, 0, -0.6800132,  True, '2019-02-10 00:00:00'); /* Dark Guardian */
+/* @teleloc 0x2950000D [40.874710 118.656200 0.008250] -0.733200 0.000000 0.000000 -0.680013 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950024, 22904, 0x29500039, 173.9464, 19.6509, 8.503781, 0.2517718, 0, 0, -0.9677866,  True, '2019-02-10 00:00:00'); /* Dark Guardian */
+/* @teleloc 0x29500039 [173.946400 19.650900 8.503781] 0.251772 0.000000 0.000000 -0.967787 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950025,  1542, 0x29500010, 28.3164, 176.2533, 0, -0.9607776, 0, 0, -0.2773198, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x29500010 [28.316400 176.253300 0.000000] -0.960778 0.000000 0.000000 -0.277320 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x72950025, 0x72950026, '2019-02-10 00:00:00') /* Shadowy Statue of the Hopeslayer (34572) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72950026, 34572, 0x29500010, 28.3164, 176.2533, 0, -0.9607776, 0, 0, -0.2773198,  True, '2019-02-10 00:00:00'); /* Shadowy Statue of the Hopeslayer */
+/* @teleloc 0x29500010 [28.316400 176.253300 0.000000] -0.960778 0.000000 0.000000 -0.277320 */

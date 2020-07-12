@@ -224,7 +224,9 @@ VALUES (0x7027F07C, 0x7027F07D, '2019-02-10 00:00:00') /* Chaos Wisp (11535) */
      , (0x7027F07C, 0x7027F0A5, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x7027F07C, 0x7027F0A6, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x7027F07C, 0x7027F0A7, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
-     , (0x7027F07C, 0x7027F0A8, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
+     , (0x7027F07C, 0x7027F0A8, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x7027F07C, 0x7027F0A9, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */
+     , (0x7027F07C, 0x7027F0AA, '2019-02-10 00:00:00') /* Olthoi Legionary (11481) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7027F07D, 11535, 0x027F0210, 8.67267, -36.6173, 1.430511E-06, -0.300532, 0, 0, -0.953772,  True, '2019-02-10 00:00:00'); /* Chaos Wisp */
@@ -403,92 +405,100 @@ VALUES (0x7027F0A8,  7124, 0x027F0118, 66.5, -41.607, -59.9925, 0.7071068, 0, 0,
 /* @teleloc 0x027F0118 [66.500000 -41.607000 -59.992500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0A9,  1542, 0x027F0200, 65.1479, -43.9056, -6, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7027F0A9, 11481, 0x027F01EC, 34.98008, -58.42946, -11.88002, -0.9103802, 0, 0, -0.4137726,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
+/* @teleloc 0x027F01EC [34.980080 -58.429460 -11.880020] -0.910380 0.000000 0.000000 -0.413773 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7027F0AA, 11481, 0x027F01A9, 38.46703, -54.9404, -12, -0.8691234, 0, 0, -0.4945953,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
+/* @teleloc 0x027F01A9 [38.467030 -54.940400 -12.000000] -0.869123 0.000000 0.000000 -0.494595 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7027F0AB,  1542, 0x027F0200, 65.1479, -43.9056, -6, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x027F0200 [65.147900 -43.905600 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7027F0A9, 0x7027F0AA, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0AB, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
-     , (0x7027F0A9, 0x7027F0AC, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0AD, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0AE, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0AF, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B0, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B1, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
-     , (0x7027F0A9, 0x7027F0B2, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B3, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B4, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
-     , (0x7027F0A9, 0x7027F0B5, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B6, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B7, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
-     , (0x7027F0A9, 0x7027F0B8, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0B9, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
-     , (0x7027F0A9, 0x7027F0BA, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */;
+VALUES (0x7027F0AB, 0x7027F0AC, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0AD, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
+     , (0x7027F0AB, 0x7027F0AE, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0AF, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B0, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B1, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B2, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B3, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
+     , (0x7027F0AB, 0x7027F0B4, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B5, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B6, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
+     , (0x7027F0AB, 0x7027F0B7, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B8, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0B9, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */
+     , (0x7027F0AB, 0x7027F0BA, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0BB, '2019-02-10 00:00:00') /* Cave-In Rock (11734) */
+     , (0x7027F0AB, 0x7027F0BC, '2019-02-10 00:00:00') /* Big Cave-In Rock (11733) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0AA, 11734, 0x027F0200, 65.1479, -43.9056, -6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0AC, 11734, 0x027F0200, 65.1479, -43.9056, -6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0200 [65.147900 -43.905600 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0AB, 11733, 0x027F0200, 68.1479, -43.9056, -6, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
+VALUES (0x7027F0AD, 11733, 0x027F0200, 68.1479, -43.9056, -6, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
 /* @teleloc 0x027F0200 [68.147900 -43.905600 -6.000000] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0AC, 11734, 0x027F0200, 70.1479, -43.9056, -6, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0AE, 11734, 0x027F0200, 70.1479, -43.9056, -6, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0200 [70.147900 -43.905600 -6.000000] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0AD, 11734, 0x027F0200, 69.1479, -39.9056, -6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0AF, 11734, 0x027F0200, 69.1479, -39.9056, -6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0200 [69.147900 -39.905600 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0AE, 11734, 0x027F01F8, 63.9172, -44.142, -6, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B0, 11734, 0x027F01F8, 63.9172, -44.142, -6, 0.3826834, 0, 0, -0.9238795,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F01F8 [63.917200 -44.142000 -6.000000] 0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0AF, 11734, 0x027F01F9, 63.9172, -49.142, -6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B1, 11734, 0x027F01F9, 63.9172, -49.142, -6, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F01F9 [63.917200 -49.142000 -6.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B0, 11734, 0x027F01F9, 59.9172, -45.142, -6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B2, 11734, 0x027F01F9, 59.9172, -45.142, -6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F01F9 [59.917200 -45.142000 -6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B1, 11733, 0x027F01F9, 63.9172, -46.142, -6, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
+VALUES (0x7027F0B3, 11733, 0x027F01F9, 63.9172, -46.142, -6, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
 /* @teleloc 0x027F01F9 [63.917200 -46.142000 -6.000000] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B2, 11734, 0x027F0201, 65.9172, -48.142, -6, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B4, 11734, 0x027F0201, 65.9172, -48.142, -6, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0201 [65.917200 -48.142000 -6.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B3, 11734, 0x027F0201, 66.1479, -45.9056, -6, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B5, 11734, 0x027F0201, 66.1479, -45.9056, -6, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0201 [66.147900 -45.905600 -6.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B4, 11733, 0x027F0111, 73.029, -6.974, -60, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
+VALUES (0x7027F0B6, 11733, 0x027F0111, 73.029, -6.974, -60, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
 /* @teleloc 0x027F0111 [73.029000 -6.974000 -60.000000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B5, 11734, 0x027F0111, 74.029, -8.974, -60, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B7, 11734, 0x027F0111, 74.029, -8.974, -60, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0111 [74.029000 -8.974000 -60.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B6, 11734, 0x027F0111, 72.0075, -11.0097, -60, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0B8, 11734, 0x027F0111, 72.0075, -11.0097, -60, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0111 [72.007500 -11.009700 -60.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B7, 11733, 0x027F0111, 72.0075, -14.0097, -60, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
+VALUES (0x7027F0B9, 11733, 0x027F0111, 72.0075, -14.0097, -60, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
 /* @teleloc 0x027F0111 [72.007500 -14.009700 -60.000000] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B8, 11734, 0x027F0111, 70.0075, -12.0097, -60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0BA, 11734, 0x027F0111, 70.0075, -12.0097, -60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0111 [70.007500 -12.009700 -60.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0B9, 11734, 0x027F0111, 67.982, -10.004, -60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
+VALUES (0x7027F0BB, 11734, 0x027F0111, 67.982, -10.004, -60, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Cave-In Rock */
 /* @teleloc 0x027F0111 [67.982000 -10.004000 -60.000000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7027F0BA, 11733, 0x027F0111, 66.982, -13.004, -60, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
+VALUES (0x7027F0BC, 11733, 0x027F0111, 66.982, -13.004, -60, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Big Cave-In Rock */
 /* @teleloc 0x027F0111 [66.982000 -13.004000 -60.000000] 0.707107 0.000000 0.000000 -0.707107 */

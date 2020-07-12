@@ -15,7 +15,9 @@ VALUES (0x795D5001, 0x795D5002, '2019-02-10 00:00:00') /* Revenant (619) */
      , (0x795D5001, 0x795D5009, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
      , (0x795D5001, 0x795D500A, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
      , (0x795D5001, 0x795D500B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
-     , (0x795D5001, 0x795D500C, '2019-02-10 00:00:00') /* Dark Leech (7123) */;
+     , (0x795D5001, 0x795D500C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x795D5001, 0x795D500D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
+     , (0x795D5001, 0x795D500E, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795D5002,   619, 0x95D5001E, 84.28027, 126.6985, 120.6356, -0.01913554, 0, 0, -0.9998169,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -62,17 +64,25 @@ VALUES (0x795D500C,  7123, 0x95D50029, 131.8848, 23.69939, 122.0651, 0.9238795, 
 /* @teleloc 0x95D50029 [131.884800 23.699390 122.065100] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x795D500D,  1542, 0x95D5003F, 188.006, 148.4988, 91.65391, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x795D500D,  4255, 0x95D50015, 60.13492, 106.1133, 128.8766, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x95D50015 [60.134920 106.113300 128.876600] 0.737277 0.000000 0.000000 -0.675590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795D500E,  4255, 0x95D50015, 63.78673, 102.1706, 129.6307, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x95D50015 [63.786730 102.170600 129.630700] 0.737277 0.000000 0.000000 -0.675590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795D500F,  1542, 0x95D5003F, 188.006, 148.4988, 91.65391, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x95D5003F [188.006000 148.498800 91.653910] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x795D500D, 0x795D500E, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x795D500D, 0x795D500F, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x795D500F, 0x795D5010, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x795D500F, 0x795D5011, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x795D500E,  4179, 0x95D5003F, 188.006, 148.4988, 91.65391, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x795D5010,  4179, 0x95D5003F, 188.006, 148.4988, 91.65391, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x95D5003F [188.006000 148.498800 91.653910] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x795D500F,  4180, 0x95D5002A, 133.0666, 24.5498, 121.4209, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x795D5011,  4180, 0x95D5002A, 133.0666, 24.5498, 121.4209, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x95D5002A [133.066600 24.549800 121.420900] 0.923880 0.000000 0.000000 -0.382684 */

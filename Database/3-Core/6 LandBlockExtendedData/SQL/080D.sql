@@ -208,7 +208,17 @@ VALUES (0x7080D001, 0x7080D002, '2019-02-10 00:00:00') /* Monstrous Mite (25871)
      , (0x7080D001, 0x7080D0CA, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
      , (0x7080D001, 0x7080D0CB, '2019-02-10 00:00:00') /* Schism (25882) */
      , (0x7080D001, 0x7080D0CC, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
-     , (0x7080D001, 0x7080D0CD, '2019-02-10 00:00:00') /* Damned Marionette (25866) */;
+     , (0x7080D001, 0x7080D0CD, '2019-02-10 00:00:00') /* Damned Marionette (25866) */
+     , (0x7080D001, 0x7080D0CE, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x7080D001, 0x7080D0CF, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7080D001, 0x7080D0D0, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7080D001, 0x7080D0D1, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x7080D001, 0x7080D0D2, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7080D001, 0x7080D0D3, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
+     , (0x7080D001, 0x7080D0D4, '2019-02-10 00:00:00') /* Cursed Marionette (25865) */
+     , (0x7080D001, 0x7080D0D5, '2019-02-10 00:00:00') /* Umbral Rift (25884) */
+     , (0x7080D001, 0x7080D0D6, '2019-02-10 00:00:00') /* Umbral Rift (25884) */
+     , (0x7080D001, 0x7080D0D7, '2019-02-10 00:00:00') /* Damned Marionette (25866) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7080D002, 25871, 0x080D0003, 20.77811, 52.78139, 29.87147, -0.8656448, 0, 0, -0.5006588,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
@@ -1025,3 +1035,43 @@ VALUES (0x7080D0CC, 25887, 0x080D0003, 2.588025, 52.44178, 26.65601, -0.8656448,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7080D0CD, 25866, 0x080D0003, 14.36748, 56.46467, 29.10047, -0.8656448, 0, 0, -0.5006588,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
 /* @teleloc 0x080D0003 [14.367480 56.464670 29.100470] -0.865645 0.000000 0.000000 -0.500659 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0CE, 25863, 0x080D0003, 14.28636, 56.48169, 29.10213, -0.8656448, 0, 0, -0.5006588,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x080D0003 [14.286360 56.481690 29.102130] -0.865645 0.000000 0.000000 -0.500659 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0CF, 25859, 0x080D0003, 15.52313, 66.25945, 29.90944, -0.8656448, 0, 0, -0.5006588,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x080D0003 [15.523130 66.259450 29.909440] -0.865645 0.000000 0.000000 -0.500659 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D0, 25859, 0x080D0015, 50.85603, 100.4782, 36.21408, 0.241657, 0, 0, -0.9703617,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x080D0015 [50.856030 100.478200 36.214080] 0.241657 0.000000 0.000000 -0.970362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D1, 25871, 0x080D0010, 47.25697, 187.2887, 21.6174, -0.6846255, 0, 0, -0.728895,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+/* @teleloc 0x080D0010 [47.256970 187.288700 21.617400] -0.684626 0.000000 0.000000 -0.728895 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D2, 25859, 0x080D0016, 69.42122, 126.1214, 32.0062, 0.241657, 0, 0, -0.9703617,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x080D0016 [69.421220 126.121400 32.006200] 0.241657 0.000000 0.000000 -0.970362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D3, 25865, 0x080D0016, 59.57352, 128.0286, 24.6624, 0.241657, 0, 0, -0.9703617,  True, '2019-02-10 00:00:00'); /* Cursed Marionette */
+/* @teleloc 0x080D0016 [59.573520 128.028600 24.662400] 0.241657 0.000000 0.000000 -0.970362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D4, 25865, 0x080D0016, 66.69221, 142.649, 23.67077, 0.241657, 0, 0, -0.9703617,  True, '2019-02-10 00:00:00'); /* Cursed Marionette */
+/* @teleloc 0x080D0016 [66.692210 142.649000 23.670770] 0.241657 0.000000 0.000000 -0.970362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D5, 25884, 0x080D0038, 166.2289, 175.446, 20.0075, 0.0002878467, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Umbral Rift */
+/* @teleloc 0x080D0038 [166.228900 175.446000 20.007500] 0.000288 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D6, 25884, 0x080D001E, 78.77092, 124.5784, 24.49748, 0.241657, 0, 0, -0.9703617,  True, '2019-02-10 00:00:00'); /* Umbral Rift */
+/* @teleloc 0x080D001E [78.770920 124.578400 24.497480] 0.241657 0.000000 0.000000 -0.970362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7080D0D7, 25866, 0x080D0038, 158.8822, 177.752, 20.0005, 0.0002878467, 0, 0, -0.9999999,  True, '2019-02-10 00:00:00'); /* Damned Marionette */
+/* @teleloc 0x080D0038 [158.882200 177.752000 20.000500] 0.000288 0.000000 0.000000 -1.000000 */

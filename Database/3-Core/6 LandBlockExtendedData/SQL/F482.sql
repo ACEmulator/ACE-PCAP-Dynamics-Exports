@@ -68,7 +68,36 @@ VALUES (0x7F482001, 0x7F482002, '2019-02-10 00:00:00') /* Reedshark Stripling (2
      , (0x7F482001, 0x7F48203E, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
      , (0x7F482001, 0x7F48203F, '2019-02-10 00:00:00') /* Tusker Liberator (22519) */
      , (0x7F482001, 0x7F482040, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
-     , (0x7F482001, 0x7F482041, '2019-02-10 00:00:00') /* Tusker Guard (1629) */;
+     , (0x7F482001, 0x7F482041, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F482001, 0x7F482042, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F482001, 0x7F482043, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F482001, 0x7F482044, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
+     , (0x7F482001, 0x7F482045, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F482001, 0x7F482046, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F482001, 0x7F482047, '2019-02-10 00:00:00') /* Tusker Redeemer (22520) */
+     , (0x7F482001, 0x7F482048, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F482001, 0x7F482049, '2019-02-10 00:00:00') /* Tusker Minion (22511) */
+     , (0x7F482001, 0x7F48204A, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
+     , (0x7F482001, 0x7F48204B, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7F482001, 0x7F48204C, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F482001, 0x7F48204D, '2019-02-10 00:00:00') /* Stinging Chittick (4244) */
+     , (0x7F482001, 0x7F48204E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F482001, 0x7F48204F, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x7F482001, 0x7F482050, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F482001, 0x7F482051, '2019-02-10 00:00:00') /* Tuskie Launcher (22522) */
+     , (0x7F482001, 0x7F482052, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F482001, 0x7F482053, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F482001, 0x7F482054, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F482001, 0x7F482055, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F482001, 0x7F482056, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F482001, 0x7F482057, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7F482001, 0x7F482058, '2019-02-10 00:00:00') /* Tusker Worshipper (22516) */
+     , (0x7F482001, 0x7F482059, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7F482001, 0x7F48205A, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F482001, 0x7F48205B, '2019-02-10 00:00:00') /* Tuskie Thrower (22523) */
+     , (0x7F482001, 0x7F48205C, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F482001, 0x7F48205D, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F482001, 0x7F48205E, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F482002, 22748, 0xF4820037, 165.5295, 155.6036, 12.001, -0.8092646, 0, 0, -0.5874443,  True, '2019-02-10 00:00:00'); /* Reedshark Stripling */
@@ -325,3 +354,119 @@ VALUES (0x7F482040, 22511, 0xF4820009, 43.11211, 1.29791, 12.005, 0.1561015, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F482041,  1629, 0xF4820001, 1.410812, 2.648621, 12.011, 0.8073629, 0, 0, -0.5900552,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
 /* @teleloc 0xF4820001 [1.410812 2.648621 12.011000] 0.807363 0.000000 0.000000 -0.590055 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482042,  7105, 0xF482001D, 81.72807, 107.9913, 12.012, 0.5200219, 0, 0, -0.854153,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xF482001D [81.728070 107.991300 12.012000] 0.520022 0.000000 0.000000 -0.854153 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482043,  7105, 0xF482001D, 80.27167, 101.3988, 12.012, 0.5200219, 0, 0, -0.854153,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xF482001D [80.271670 101.398800 12.012000] 0.520022 0.000000 0.000000 -0.854153 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482044,  7105, 0xF482001D, 85.27358, 96.55897, 12.012, 0.5200219, 0, 0, -0.854153,  True, '2019-02-10 00:00:00'); /* White Phyntos Wasp */
+/* @teleloc 0xF482001D [85.273580 96.558970 12.012000] 0.520022 0.000000 0.000000 -0.854153 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482045,  1629, 0xF4820025, 117.1027, 105.8115, 12.011, -0.9457837, 0, 0, -0.324797,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
+/* @teleloc 0xF4820025 [117.102700 105.811500 12.011000] -0.945784 0.000000 0.000000 -0.324797 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482046, 22523, 0xF4820021, 112.4975, 0.306502, 12.0044, -0.5860574, 0, 0, -0.8102696,  True, '2019-02-10 00:00:00'); /* Tuskie Thrower */
+/* @teleloc 0xF4820021 [112.497500 0.306502 12.004400] -0.586057 0.000000 0.000000 -0.810270 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482047, 22520, 0xF4820032, 159.3506, 45.61451, 12.0099, 0.9447797, 0, 0, -0.3277062,  True, '2019-02-10 00:00:00'); /* Tusker Redeemer */
+/* @teleloc 0xF4820032 [159.350600 45.614510 12.009900] 0.944780 0.000000 0.000000 -0.327706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482048, 22524, 0xF4820037, 162.9587, 155.4905, 12.0044, -0.8092646, 0, 0, -0.5874443,  True, '2019-02-10 00:00:00'); /* Tuskie Tosser */
+/* @teleloc 0xF4820037 [162.958700 155.490500 12.004400] -0.809265 0.000000 0.000000 -0.587444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482049, 22511, 0xF4820033, 160.2119, 48.83736, 12.005, 0.9447797, 0, 0, -0.3277062,  True, '2019-02-10 00:00:00'); /* Tusker Minion */
+/* @teleloc 0xF4820033 [160.211900 48.837360 12.005000] 0.944780 0.000000 0.000000 -0.327706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48204A, 22524, 0xF4820015, 49.59488, 104.076, 12.0044, 0.2960114, 0, 0, -0.9551844,  True, '2019-02-10 00:00:00'); /* Tuskie Tosser */
+/* @teleloc 0xF4820015 [49.594880 104.076000 12.004400] 0.296011 0.000000 0.000000 -0.955184 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48204B,  7184, 0xF4820006, 0.8668518, 135.8856, 12.0132, -0.5917019, 0, 0, -0.8061568,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0xF4820006 [0.866852 135.885600 12.013200] -0.591702 0.000000 0.000000 -0.806157 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48204C,  4244, 0xF4820021, 106.6041, 5.600646, 11.9808, -0.5860574, 0, 0, -0.8102696,  True, '2019-02-10 00:00:00'); /* Stinging Chittick */
+/* @teleloc 0xF4820021 [106.604100 5.600646 11.980800] -0.586057 0.000000 0.000000 -0.810270 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48204D,  4244, 0xF4820021, 112.3174, 1.019608, 11.9808, -0.5860574, 0, 0, -0.8102696,  True, '2019-02-10 00:00:00'); /* Stinging Chittick */
+/* @teleloc 0xF4820021 [112.317400 1.019608 11.980800] -0.586057 0.000000 0.000000 -0.810270 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48204E, 11540, 0xF4820028, 104.8094, 183.7857, 12.0132, -0.5514708, 0, 0, -0.8341942,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
+/* @teleloc 0xF4820028 [104.809400 183.785700 12.013200] -0.551471 0.000000 0.000000 -0.834194 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48204F, 11540, 0xF4820028, 102.7989, 180.0497, 12.0132, -0.5514708, 0, 0, -0.8341942,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
+/* @teleloc 0xF4820028 [102.798900 180.049700 12.013200] -0.551471 0.000000 0.000000 -0.834194 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482050,  1629, 0xF4820025, 117.8875, 101.4064, 12.011, -0.9457837, 0, 0, -0.324797,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
+/* @teleloc 0xF4820025 [117.887500 101.406400 12.011000] -0.945784 0.000000 0.000000 -0.324797 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482051, 22522, 0xF4820008, 3.064138, 170.2748, 12.0044, 0.8325692, 0, 0, -0.553921,  True, '2019-02-10 00:00:00'); /* Tuskie Launcher */
+/* @teleloc 0xF4820008 [3.064138 170.274800 12.004400] 0.832569 0.000000 0.000000 -0.553921 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482052,  1628, 0xF4820017, 54.88346, 160.071, 12.011, -0.6916757, 0, 0, -0.7222082,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xF4820017 [54.883460 160.071000 12.011000] -0.691676 0.000000 0.000000 -0.722208 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482053,  1628, 0xF4820017, 62.35564, 151.8739, 12.011, -0.6916757, 0, 0, -0.7222082,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xF4820017 [62.355640 151.873900 12.011000] -0.691676 0.000000 0.000000 -0.722208 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482054,  1628, 0xF482001D, 84.40257, 103.7803, 12.011, 0.5200219, 0, 0, -0.854153,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xF482001D [84.402570 103.780300 12.011000] 0.520022 0.000000 0.000000 -0.854153 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482055,  1628, 0xF482001D, 83.90711, 101.7774, 12.011, 0.5200219, 0, 0, -0.854153,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xF482001D [83.907110 101.777400 12.011000] 0.520022 0.000000 0.000000 -0.854153 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482056,  1628, 0xF482002D, 120.5915, 96.69305, 12.011, -0.9457837, 0, 0, -0.324797,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xF482002D [120.591500 96.693050 12.011000] -0.945784 0.000000 0.000000 -0.324797 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482057,  1628, 0xF482002D, 121.827, 101.7144, 12.011, -0.9457837, 0, 0, -0.324797,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xF482002D [121.827000 101.714400 12.011000] -0.945784 0.000000 0.000000 -0.324797 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482058, 22516, 0xF4820030, 136.8348, 188.1742, 12.005, 0.9575924, 0, 0, -0.2881263,  True, '2019-02-10 00:00:00'); /* Tusker Worshipper */
+/* @teleloc 0xF4820030 [136.834800 188.174200 12.005000] 0.957592 0.000000 0.000000 -0.288126 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F482059,  1629, 0xF482002C, 124.7926, 92.42209, 12.011, -0.9457837, 0, 0, -0.324797,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
+/* @teleloc 0xF482002C [124.792600 92.422090 12.011000] -0.945784 0.000000 0.000000 -0.324797 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48205A, 22523, 0xF4820033, 154.7451, 54.25711, 12.0044, 0.9447797, 0, 0, -0.3277062,  True, '2019-02-10 00:00:00'); /* Tuskie Thrower */
+/* @teleloc 0xF4820033 [154.745100 54.257110 12.004400] 0.944780 0.000000 0.000000 -0.327706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48205B, 22523, 0xF4820033, 145.0102, 51.02244, 12.0044, 0.9447797, 0, 0, -0.3277062,  True, '2019-02-10 00:00:00'); /* Tuskie Thrower */
+/* @teleloc 0xF4820033 [145.010200 51.022440 12.004400] 0.944780 0.000000 0.000000 -0.327706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48205C, 22508, 0xF4820037, 165.9733, 156.5567, 11.984, -0.8092646, 0, 0, -0.5874443,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */
+/* @teleloc 0xF4820037 [165.973300 156.556700 11.984000] -0.809265 0.000000 0.000000 -0.587444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48205D, 22508, 0xF4820037, 163.8496, 150.7561, 11.984, -0.8092646, 0, 0, -0.5874443,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */
+/* @teleloc 0xF4820037 [163.849600 150.756100 11.984000] -0.809265 0.000000 0.000000 -0.587444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F48205E, 22508, 0xF482003F, 172.5009, 146.6874, 11.984, -0.8092646, 0, 0, -0.5874443,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */
+/* @teleloc 0xF482003F [172.500900 146.687400 11.984000] -0.809265 0.000000 0.000000 -0.587444 */

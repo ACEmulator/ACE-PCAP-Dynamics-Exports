@@ -29,7 +29,11 @@ VALUES (0x7BA9B001, 0x7BA9B002, '2019-02-10 00:00:00') /* Spark (6381) */
      , (0x7BA9B001, 0x7BA9B017, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
      , (0x7BA9B001, 0x7BA9B018, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
      , (0x7BA9B001, 0x7BA9B019, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
-     , (0x7BA9B001, 0x7BA9B01A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */;
+     , (0x7BA9B001, 0x7BA9B01A, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7BA9B001, 0x7BA9B01B, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BA9B001, 0x7BA9B01C, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BA9B001, 0x7BA9B01D, '2019-02-10 00:00:00') /* Grey Rat (219) */
+     , (0x7BA9B001, 0x7BA9B01E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BA9B002,  6381, 0xBA9B0003, 22.75276, 55.63728, 10.74538, -0.1146795, 0, 0, -0.9934025,  True, '2019-02-10 00:00:00'); /* Spark */
@@ -132,12 +136,28 @@ VALUES (0x7BA9B01A,   180, 0xBA9B0009, 39.13445, 20.27173, 11.69981, 0.5391469, 
 /* @teleloc 0xBA9B0009 [39.134450 20.271730 11.699810] 0.539147 0.000000 0.000000 -0.842212 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA9B01B,  1542, 0xBA9B000B, 32.48067, 70.78004, 11.19161, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BA9B01B,   219, 0xBA9B0012, 64.29348, 41.14594, 12.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grey Rat */
+/* @teleloc 0xBA9B0012 [64.293480 41.145940 12.010000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA9B01C,   219, 0xBA9B0012, 62.78374, 43.60372, 12.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grey Rat */
+/* @teleloc 0xBA9B0012 [62.783740 43.603720 12.010000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA9B01D,   219, 0xBA9B0012, 67.14288, 41.59424, 12.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Grey Rat */
+/* @teleloc 0xBA9B0012 [67.142880 41.594240 12.010000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA9B01E,   223, 0xBA9B0034, 164.0135, 90.56182, 14.001, -0.87375, 0, 0, -0.4863752,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
+/* @teleloc 0xBA9B0034 [164.013500 90.561820 14.001000] -0.873750 0.000000 0.000000 -0.486375 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BA9B01F,  1542, 0xBA9B000B, 32.48067, 70.78004, 11.19161, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBA9B000B [32.480670 70.780040 11.191610] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BA9B01B, 0x7BA9B01C, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x7BA9B01F, 0x7BA9B020, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BA9B01C,  4180, 0xBA9B000B, 32.48067, 70.78004, 11.19161, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7BA9B020,  4180, 0xBA9B000B, 32.48067, 70.78004, 11.19161, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xBA9B000B [32.480670 70.780040 11.191610] 0.953717 0.000000 0.000000 -0.300706 */

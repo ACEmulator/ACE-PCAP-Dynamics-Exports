@@ -14,7 +14,8 @@ VALUES (0x73E1A001, 0x73E1A002, '2019-02-10 00:00:00') /* Imperial Mu-miyah (711
      , (0x73E1A001, 0x73E1A008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
      , (0x73E1A001, 0x73E1A009, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
      , (0x73E1A001, 0x73E1A00A, '2019-02-10 00:00:00') /* Extas Raider (8138) */
-     , (0x73E1A001, 0x73E1A00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
+     , (0x73E1A001, 0x73E1A00B, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x73E1A001, 0x73E1A00C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E1A002,  7119, 0x3E1A0033, 145.3907, 66.42937, 68.0065, 0.1857005, 0, 0, -0.9826064,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
@@ -57,12 +58,16 @@ VALUES (0x73E1A00B,  8431, 0x3E1A0038, 144.2064, 175.1319, 39.41218, 0.0730012, 
 /* @teleloc 0x3E1A0038 [144.206400 175.131900 39.412180] 0.073001 0.000000 0.000000 -0.997332 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E1A00C,  1542, 0x3E1A0031, 160.4902, 7.993835, 119.9763, -0.743473, 0, 0, -0.6687659, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73E1A00C, 23563, 0x3E1A002B, 137.3683, 70.26638, 68.005, 0.1857005, 0, 0, -0.9826064,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x3E1A002B [137.368300 70.266380 68.005000] 0.185701 0.000000 0.000000 -0.982606 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E1A00D,  1542, 0x3E1A0031, 160.4902, 7.993835, 119.9763, -0.743473, 0, 0, -0.6687659, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x3E1A0031 [160.490200 7.993835 119.976300] -0.743473 0.000000 0.000000 -0.668766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E1A00C, 0x73E1A00D, '2019-02-10 00:00:00') /* Rock (42528) */;
+VALUES (0x73E1A00D, 0x73E1A00E, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E1A00D, 42528, 0x3E1A0031, 160.4902, 7.993835, 119.9763, -0.743473, 0, 0, -0.6687659,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x73E1A00E, 42528, 0x3E1A0031, 160.4902, 7.993835, 119.9763, -0.743473, 0, 0, -0.6687659,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x3E1A0031 [160.490200 7.993835 119.976300] -0.743473 0.000000 0.000000 -0.668766 */

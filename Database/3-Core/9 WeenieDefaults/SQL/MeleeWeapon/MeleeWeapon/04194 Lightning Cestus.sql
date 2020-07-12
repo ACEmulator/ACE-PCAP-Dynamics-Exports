@@ -27,7 +27,6 @@ VALUES (4194,   1,          1) /* ItemType - MeleeWeapon */
      , (4194, 115,         74) /* ItemSkillLevelLimit */
      , (4194, 131,         59) /* MaterialType - Copper */
      , (4194, 151,          2) /* HookType - Wall */
-     , (4194, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (4194, 353,          1) /* WeaponType - Unarmed */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

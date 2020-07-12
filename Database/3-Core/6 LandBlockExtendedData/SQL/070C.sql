@@ -247,7 +247,16 @@ VALUES (0x7070C001, 0x7070C002, '2019-02-10 00:00:00') /* Ravager (25852) */
      , (0x7070C001, 0x7070C0F1, '2019-02-10 00:00:00') /* Biaka (25859) */
      , (0x7070C001, 0x7070C0F2, '2019-02-10 00:00:00') /* Biaka (25859) */
      , (0x7070C001, 0x7070C0F3, '2019-02-10 00:00:00') /* Biaka (25859) */
-     , (0x7070C001, 0x7070C0F4, '2019-02-10 00:00:00') /* Biaka (25859) */;
+     , (0x7070C001, 0x7070C0F4, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7070C001, 0x7070C0F5, '2019-02-10 00:00:00') /* Schism (25882) */
+     , (0x7070C001, 0x7070C0F6, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7070C001, 0x7070C0F7, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7070C001, 0x7070C0F8, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7070C001, 0x7070C0F9, '2019-02-10 00:00:00') /* Umbral Rift (25884) */
+     , (0x7070C001, 0x7070C0FA, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
+     , (0x7070C001, 0x7070C0FB, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7070C001, 0x7070C0FC, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x7070C001, 0x7070C0FD, '2019-02-10 00:00:00') /* Umbral Rift (25884) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7070C002, 25852, 0x070C000B, 34.87191, 51.74747, 20.25176, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
@@ -1220,3 +1229,39 @@ VALUES (0x7070C0F3, 25859, 0x070C0006, 9.92202, 135.8368, 22.82808, 1, 0, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7070C0F4, 25859, 0x070C0006, 6.200461, 127.0704, 22.51795, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
 /* @teleloc 0x070C0006 [6.200461 127.070400 22.517950] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0F5, 25882, 0x070C0007, 19.14068, 150.3597, 26.78241, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Schism */
+/* @teleloc 0x070C0007 [19.140680 150.359700 26.782410] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0F6, 25859, 0x070C000D, 43.76376, 100.5948, 27.4112, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x070C000D [43.763760 100.594800 27.411200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0F7, 25859, 0x070C0003, 10.05846, 60.47242, 57.48181, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x070C0003 [10.058460 60.472420 57.481810] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0F8, 25859, 0x070C0002, 0.3888714, 43.13831, 65.87964, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x070C0002 [0.388871 43.138310 65.879640] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0F9, 25884, 0x070C000B, 37.85973, 48.82573, 19.00883, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Umbral Rift */
+/* @teleloc 0x070C000B [37.859730 48.825730 19.008830] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0FA, 25887, 0x070C000D, 36.24124, 116.7389, 30.53926, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
+/* @teleloc 0x070C000D [36.241240 116.738900 30.539260] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0FB, 25859, 0x070C002F, 128.6067, 167.7212, 9.51181, 0.8414746, 0, 0, -0.5402967,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x070C002F [128.606700 167.721200 9.511810] 0.841475 0.000000 0.000000 -0.540297 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0FC, 25859, 0x070C0030, 125.6095, 176.6694, 9.008677, 0.8414746, 0, 0, -0.5402967,  True, '2019-02-10 00:00:00'); /* Biaka */
+/* @teleloc 0x070C0030 [125.609500 176.669400 9.008677] 0.841475 0.000000 0.000000 -0.540297 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7070C0FD, 25884, 0x070C0030, 142.1687, 176.7096, 15.39708, 0.8414746, 0, 0, -0.5402967,  True, '2019-02-10 00:00:00'); /* Umbral Rift */
+/* @teleloc 0x070C0030 [142.168700 176.709600 15.397080] 0.841475 0.000000 0.000000 -0.540297 */

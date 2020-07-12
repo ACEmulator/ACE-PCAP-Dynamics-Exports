@@ -11,7 +11,9 @@ VALUES (0x7295C001, 0x7295C002, '2019-02-10 00:00:00') /* Skeletal Hero (36859) 
      , (0x7295C001, 0x7295C005, '2019-02-10 00:00:00') /* Flamma (8405) */
      , (0x7295C001, 0x7295C006, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
      , (0x7295C001, 0x7295C007, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
-     , (0x7295C001, 0x7295C008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
+     , (0x7295C001, 0x7295C008, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7295C001, 0x7295C009, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x7295C001, 0x7295C00A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7295C002, 36859, 0x295C003A, 184.6881, 28.72025, 0.002499998, 0.9964417, 0, 0, -0.08428451,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
@@ -42,12 +44,20 @@ VALUES (0x7295C008,  7184, 0x295C0039, 190.591, 6.76415, 0.01320004, 0.7071068, 
 /* @teleloc 0x295C0039 [190.591000 6.764150 0.013200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7295C009,  1542, 0x295C002D, 142.9625, 112.6784, 0, 0.3161597, 0, 0, -0.948706, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7295C009, 36855, 0x295C000D, 33.41269, 106.6786, 0.002499998, -0.7647672, 0, 0, -0.6443067,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
+/* @teleloc 0x295C000D [33.412690 106.678600 0.002500] -0.764767 0.000000 0.000000 -0.644307 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7295C00A, 36829, 0x295C003D, 174.5836, 99.79166, 0.00999999, 0.3161597, 0, 0, -0.948706,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x295C003D [174.583600 99.791660 0.010000] 0.316160 0.000000 0.000000 -0.948706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7295C00B,  1542, 0x295C002D, 142.9625, 112.6784, 0, 0.3161597, 0, 0, -0.948706, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x295C002D [142.962500 112.678400 0.000000] 0.316160 0.000000 0.000000 -0.948706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7295C009, 0x7295C00A, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
+VALUES (0x7295C00B, 0x7295C00C, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7295C00A, 11555, 0x295C002D, 142.9625, 112.6784, 0, 0.3161597, 0, 0, -0.948706,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
+VALUES (0x7295C00C, 11555, 0x295C002D, 142.9625, 112.6784, 0, 0.3161597, 0, 0, -0.948706,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
 /* @teleloc 0x295C002D [142.962500 112.678400 0.000000] 0.316160 0.000000 0.000000 -0.948706 */

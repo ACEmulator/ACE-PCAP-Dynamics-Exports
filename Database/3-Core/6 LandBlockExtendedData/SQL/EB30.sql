@@ -11,7 +11,8 @@ VALUES (0x7EB30001, 0x7EB30002, '2019-02-10 00:00:00') /* Crystal Spur (28552) *
      , (0x7EB30001, 0x7EB30005, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
      , (0x7EB30001, 0x7EB30006, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
      , (0x7EB30001, 0x7EB30007, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
-     , (0x7EB30001, 0x7EB30008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */;
+     , (0x7EB30001, 0x7EB30008, '2019-02-10 00:00:00') /* Gotrok Gigas (24940) */
+     , (0x7EB30001, 0x7EB30009, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB30002, 28552, 0xEB300008, 9.694827, 171.4286, 127.9947, 0.9986157, 0, 0, -0.05259885,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
@@ -40,3 +41,7 @@ VALUES (0x7EB30007, 24940, 0xEB300007, 23.17865, 157.8974, 135.8823, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EB30008, 24940, 0xEB300007, 7.05708, 157.5892, 135.8823, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Gigas */
 /* @teleloc 0xEB300007 [7.057080 157.589200 135.882300] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EB30009,  9401, 0xEB300006, 10.48578, 137.1604, 123.3408, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dread Mattekar */
+/* @teleloc 0xEB300006 [10.485780 137.160400 123.340800] 0.923880 0.000000 0.000000 -0.382684 */

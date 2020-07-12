@@ -29,7 +29,8 @@ VALUES (0x7287A001, 0x7287A002, '2019-02-10 00:00:00') /* Snowman (5766) */
      , (0x7287A001, 0x7287A013, '2019-02-10 00:00:00') /* Frost (14517) */
      , (0x7287A001, 0x7287A014, '2019-02-10 00:00:00') /* Gelid (20190) */
      , (0x7287A001, 0x7287A015, '2019-02-10 00:00:00') /* Horripal (20191) */
-     , (0x7287A001, 0x7287A016, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */;
+     , (0x7287A001, 0x7287A016, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7287A001, 0x7287A017, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7287A002,  5766, 0x287A0018, 56.83862, 168.8688, 399.638, 0.618576, 0, 0, -0.785725,  True, '2019-02-10 00:00:00'); /* Snowman */
@@ -116,37 +117,41 @@ VALUES (0x7287A016, 36833, 0x287A0028, 114.2595, 185.6058, 401.0995, 0.999002, 0
 /* @teleloc 0x287A0028 [114.259500 185.605800 401.099500] 0.999002 0.000000 0.000000 -0.044666 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A017,  1542, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7287A017,  5766, 0x287A0017, 59.80348, 164.3917, 399.9329, 0.618576, 0, 0, -0.785725,  True, '2019-02-10 00:00:00'); /* Snowman */
+/* @teleloc 0x287A0017 [59.803480 164.391700 399.932900] 0.618576 0.000000 0.000000 -0.785725 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7287A018,  1542, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x287A003F [182.632000 156.909300 508.737000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7287A017, 0x7287A018, '2019-02-10 00:00:00') /* Direlands Valleys Portal (8386) */
-     , (0x7287A017, 0x7287A019, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x7287A017, 0x7287A01A, '2019-02-10 00:00:00') /* Giant Snowman (5767) */
-     , (0x7287A017, 0x7287A01B, '2019-02-10 00:00:00') /* Bones (4379) */
-     , (0x7287A017, 0x7287A01C, '2019-02-10 00:00:00') /* Direlands Southeast Shore (8385) */
-     , (0x7287A017, 0x7287A01D, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal (8390) */;
+VALUES (0x7287A018, 0x7287A019, '2019-02-10 00:00:00') /* Direlands Valleys Portal (8386) */
+     , (0x7287A018, 0x7287A01A, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7287A018, 0x7287A01B, '2019-02-10 00:00:00') /* Giant Snowman (5767) */
+     , (0x7287A018, 0x7287A01C, '2019-02-10 00:00:00') /* Bones (4379) */
+     , (0x7287A018, 0x7287A01D, '2019-02-10 00:00:00') /* Direlands Southeast Shore (8385) */
+     , (0x7287A018, 0x7287A01E, '2019-02-10 00:00:00') /* Direlands South Landbridge Portal (8390) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A018,  8386, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Valleys Portal */
+VALUES (0x7287A019,  8386, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Valleys Portal */
 /* @teleloc 0x287A003F [182.632000 156.909300 508.737000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A019, 42528, 0x287A0040, 172.1212, 188.6905, 406.8449, 0.4646799, 0, 0, -0.8854787,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x7287A01A, 42528, 0x287A0040, 172.1212, 188.6905, 406.8449, 0.4646799, 0, 0, -0.8854787,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x287A0040 [172.121200 188.690500 406.844900] 0.464680 0.000000 0.000000 -0.885479 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A01A,  5767, 0x287A0017, 55.2294, 167.839, 399.9329, 0.618576, 0, 0, -0.785725,  True, '2019-02-10 00:00:00'); /* Giant Snowman */
+VALUES (0x7287A01B,  5767, 0x287A0017, 55.2294, 167.839, 399.9329, 0.618576, 0, 0, -0.785725,  True, '2019-02-10 00:00:00'); /* Giant Snowman */
 /* @teleloc 0x287A0017 [55.229400 167.839000 399.932900] 0.618576 0.000000 0.000000 -0.785725 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A01B,  4379, 0x287A0020, 92.54801, 181.8425, 398.0313, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7287A01C,  4379, 0x287A0020, 92.54801, 181.8425, 398.0313, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x287A0020 [92.548010 181.842500 398.031300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A01C,  8385, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Southeast Shore */
+VALUES (0x7287A01D,  8385, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands Southeast Shore */
 /* @teleloc 0x287A003F [182.632000 156.909300 508.737000] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7287A01D,  8390, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands South Landbridge Portal */
+VALUES (0x7287A01E,  8390, 0x287A003F, 182.632, 156.9093, 508.737, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands South Landbridge Portal */
 /* @teleloc 0x287A003F [182.632000 156.909300 508.737000] 0.953717 0.000000 0.000000 -0.300706 */

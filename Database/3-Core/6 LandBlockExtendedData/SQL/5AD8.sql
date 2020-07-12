@@ -33,7 +33,8 @@ VALUES (0x75AD8002, 0x75AD8003, '2019-02-10 00:00:00') /* Viamontian Warcaster (
      , (0x75AD8002, 0x75AD8014, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
      , (0x75AD8002, 0x75AD8015, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
      , (0x75AD8002, 0x75AD8016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x75AD8002, 0x75AD8017, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */;
+     , (0x75AD8002, 0x75AD8017, '2019-02-10 00:00:00') /* Banderling Enforcer (7346) */
+     , (0x75AD8002, 0x75AD8018, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75AD8003, 29300, 0x5AD80101, 62.3547, 183.134, 82.005, 0.311627, 0, 0, 0.950205,  True, '2019-02-10 00:00:00'); /* Viamontian Warcaster */
@@ -120,22 +121,26 @@ VALUES (0x75AD8017,  7346, 0x5AD80033, 154.223, 71.85039, 152.8591, -0.9269752, 
 /* @teleloc 0x5AD80033 [154.223000 71.850390 152.859100] -0.926975 0.000000 0.000000 -0.375123 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75AD8018,  1542, 0x5AD80034, 153.4419, 87.11487, 152.4355, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x75AD8018,  7982, 0x5AD8000A, 46.18936, 36.96003, 157.527, 0.9069883, 0, 0, -0.421156,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x5AD8000A [46.189360 36.960030 157.527000] 0.906988 0.000000 0.000000 -0.421156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75AD8019,  1542, 0x5AD80034, 153.4419, 87.11487, 152.4355, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x5AD80034 [153.441900 87.114870 152.435500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x75AD8018, 0x75AD8019, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x75AD8018, 0x75AD801A, '2019-02-10 00:00:00') /* Runed Chest (22566) */
-     , (0x75AD8018, 0x75AD801B, '2019-02-10 00:00:00') /* Rock (42528) */;
+VALUES (0x75AD8019, 0x75AD801A, '2019-02-10 00:00:00') /* Bones (4380) */
+     , (0x75AD8019, 0x75AD801B, '2019-02-10 00:00:00') /* Runed Chest (22566) */
+     , (0x75AD8019, 0x75AD801C, '2019-02-10 00:00:00') /* Rock (42528) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75AD8019,  4380, 0x5AD80034, 153.4419, 87.11487, 152.4355, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x75AD801A,  4380, 0x5AD80034, 153.4419, 87.11487, 152.4355, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x5AD80034 [153.441900 87.114870 152.435500] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75AD801A, 22566, 0x5AD8002D, 129.1391, 100.2366, 147.1702, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x75AD801B, 22566, 0x5AD8002D, 129.1391, 100.2366, 147.1702, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x5AD8002D [129.139100 100.236600 147.170200] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x75AD801B, 42528, 0x5AD8003C, 170.8107, 77.14468, 154.4447, 0.9584029, 0, 0, -0.2854187,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x75AD801C, 42528, 0x5AD8003C, 170.8107, 77.14468, 154.4447, 0.9584029, 0, 0, -0.2854187,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0x5AD8003C [170.810700 77.144680 154.444700] 0.958403 0.000000 0.000000 -0.285419 */

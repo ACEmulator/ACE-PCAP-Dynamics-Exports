@@ -16,7 +16,11 @@ VALUES (0x797BC001, 0x797BC002, '2019-02-10 00:00:00') /* Crude Monouga (2575) *
      , (0x797BC001, 0x797BC00A, '2019-02-10 00:00:00') /* Pumpkin Lord (32186) */
      , (0x797BC001, 0x797BC00B, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
      , (0x797BC001, 0x797BC00C, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
-     , (0x797BC001, 0x797BC00D, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */;
+     , (0x797BC001, 0x797BC00D, '2019-02-10 00:00:00') /* Pumpkin Kin (32203) */
+     , (0x797BC001, 0x797BC00E, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x797BC001, 0x797BC00F, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
+     , (0x797BC001, 0x797BC010, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
+     , (0x797BC001, 0x797BC011, '2019-02-10 00:00:00') /* Olthoi Drone (22009) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797BC002,  2575, 0x97BC0004, 20.72768, 84.65503, 97.93755, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Crude Monouga */
@@ -67,12 +71,28 @@ VALUES (0x797BC00D, 32203, 0x97BC0022, 105.829, 40.26361, 91.79842, -0.03959876,
 /* @teleloc 0x97BC0022 [105.829000 40.263610 91.798420] -0.039599 0.000000 0.000000 -0.999216 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x797BC00E,  1542, 0x97BC000C, 34.61942, 89.26348, 100.8773, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x797BC00E, 24959, 0x97BC002F, 132.3277, 155.5347, 94.84808, 0.3875176, 0, 0, -0.9218623,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
+/* @teleloc 0x97BC002F [132.327700 155.534700 94.848080] 0.387518 0.000000 0.000000 -0.921862 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x797BC00F, 24959, 0x97BC0027, 116.6284, 167.2541, 100.7768, 0.3875176, 0, 0, -0.9218623,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
+/* @teleloc 0x97BC0027 [116.628400 167.254100 100.776800] 0.387518 0.000000 0.000000 -0.921862 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x797BC010,  1608, 0x97BC0023, 111.0715, 54.15472, 91.26026, -0.03959876, 0, 0, -0.9992157,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
+/* @teleloc 0x97BC0023 [111.071500 54.154720 91.260260] -0.039599 0.000000 0.000000 -0.999216 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x797BC011, 22009, 0x97BC002A, 124.3538, 36.61204, 92.71042, -0.1169486, 0, 0, -0.993138,  True, '2019-02-10 00:00:00'); /* Olthoi Drone */
+/* @teleloc 0x97BC002A [124.353800 36.612040 92.710420] -0.116949 0.000000 0.000000 -0.993138 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x797BC012,  1542, 0x97BC000C, 34.61942, 89.26348, 100.8773, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x97BC000C [34.619420 89.263480 100.877300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797BC00E, 0x797BC00F, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
+VALUES (0x797BC012, 0x797BC013, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x797BC00F, 22570, 0x97BC000C, 34.61942, 89.26348, 100.8773, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x797BC013, 22570, 0x97BC000C, 34.61942, 89.26348, 100.8773, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x97BC000C [34.619420 89.263480 100.877300] 1.000000 0.000000 0.000000 0.000000 */

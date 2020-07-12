@@ -15,7 +15,12 @@ VALUES (0x7D978001, 0x7D978002, '2019-02-10 00:00:00') /* Tumerok Gladiator (227
      , (0x7D978001, 0x7D978009, '2019-02-10 00:00:00') /* Voltarc (21170) */
      , (0x7D978001, 0x7D97800A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
      , (0x7D978001, 0x7D97800B, '2019-02-10 00:00:00') /* Tumerok Gladiator (227) */
-     , (0x7D978001, 0x7D97800C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */;
+     , (0x7D978001, 0x7D97800C, '2019-02-10 00:00:00') /* Tumerok Major (23565) */
+     , (0x7D978001, 0x7D97800D, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D978001, 0x7D97800E, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D978001, 0x7D97800F, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x7D978001, 0x7D978010, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
+     , (0x7D978001, 0x7D978011, '2019-02-10 00:00:00') /* Frost (14512) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D978002,   227, 0xD9780022, 107.639, 47.9362, 16.01132, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tumerok Gladiator */
@@ -60,3 +65,23 @@ VALUES (0x7D97800B,   227, 0xD9780028, 113.4554, 190.514, 19.88217, 0.7071068, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D97800C, 23565, 0xD9780028, 118.2126, 186.0768, 19.5124, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
 /* @teleloc 0xD9780028 [118.212600 186.076800 19.512400] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D97800D, 14512, 0xD978003A, 173.6752, 47.72093, 18.007, -0.5285684, 0, 0, -0.8488907,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0xD978003A [173.675200 47.720930 18.007000] -0.528568 0.000000 0.000000 -0.848891 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D97800E, 14512, 0xD978003A, 170.9041, 43.49969, 18.007, -0.5285684, 0, 0, -0.8488907,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0xD978003A [170.904100 43.499690 18.007000] -0.528568 0.000000 0.000000 -0.848891 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D97800F, 14512, 0xD9780031, 145.4503, 17.25678, 18.007, -0.5285684, 0, 0, -0.8488907,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0xD9780031 [145.450300 17.256780 18.007000] -0.528568 0.000000 0.000000 -0.848891 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D978010, 27565, 0xD9780032, 154.22, 30.43838, 17.48097, -0.5285684, 0, 0, -0.8488907,  True, '2019-02-10 00:00:00'); /* Glacial Golem Margrave */
+/* @teleloc 0xD9780032 [154.220000 30.438380 17.480970] -0.528568 0.000000 0.000000 -0.848891 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D978011, 14512, 0xD9780032, 164.7717, 28.61854, 17.73798, -0.5285684, 0, 0, -0.8488907,  True, '2019-02-10 00:00:00'); /* Frost */
+/* @teleloc 0xD9780032 [164.771700 28.618540 17.737980] -0.528568 0.000000 0.000000 -0.848891 */

@@ -205,7 +205,72 @@ VALUES (0x72270001, 0x72270002, '2019-02-10 00:00:00') /* Invading Iron Blade Ph
      , (0x72270001, 0x722700C7, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
      , (0x72270001, 0x722700C8, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
      , (0x72270001, 0x722700C9, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
-     , (0x72270001, 0x722700CA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */;
+     , (0x72270001, 0x722700CA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700CB, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x722700CC, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x722700CD, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700CE, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700CF, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72270001, 0x722700D0, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700D1, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700D2, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700D3, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700D4, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700D5, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700D6, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700D7, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700D8, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700D9, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x722700DA, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700DB, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700DC, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700DD, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700DE, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x722700DF, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700E0, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700E1, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700E2, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700E3, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700E4, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700E5, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x722700E6, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700E7, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x722700E8, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x722700E9, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x722700EA, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700EB, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700EC, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Phalanx (41532) */
+     , (0x72270001, 0x722700ED, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700EE, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x722700EF, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700F0, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700F1, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700F2, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700F3, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700F4, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700F5, '2019-02-10 00:00:00') /* Invading Iron Blade Knight (41530) */
+     , (0x72270001, 0x722700F6, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700F7, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700F8, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700F9, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x722700FA, '2019-02-10 00:00:00') /* Invading Silver Scope Knight (41531) */
+     , (0x72270001, 0x722700FB, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x722700FC, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Knight (41527) */
+     , (0x72270001, 0x722700FD, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x722700FE, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x722700FF, '2019-02-10 00:00:00') /* Invading Iron Blade Squire (41538) */
+     , (0x72270001, 0x72270100, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270101, '2019-02-10 00:00:00') /* Invading Copper Cog Knight (41529) */
+     , (0x72270001, 0x72270102, '2019-02-10 00:00:00') /* Invading Bronze Gauntlet Squire (41536) */
+     , (0x72270001, 0x72270103, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270104, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270105, '2019-02-10 00:00:00') /* Invading Silver Scope Squire (41539) */
+     , (0x72270001, 0x72270106, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x72270107, '2019-02-10 00:00:00') /* Invading Copper Cog Squire (41537) */
+     , (0x72270001, 0x72270108, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x72270109, '2019-02-10 00:00:00') /* Invading Iron Blade Phalanx (41534) */
+     , (0x72270001, 0x7227010A, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x72270001, 0x7227010B, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72270002, 41534, 0x22700001, 2.086982, 3.395135, 167.7233, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
@@ -1012,117 +1077,382 @@ VALUES (0x722700CA, 41527, 0x22700009, 47.69186, 10.5081, 147.458, 0.60492, 0, 0
 /* @teleloc 0x22700009 [47.691860 10.508100 147.458000] 0.604920 0.000000 0.000000 -0.796286 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700CB,  1542, 0x22700001, 3.502325, 8.943583, 164.8142, -0.105266, 0, 0, -0.9944441, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x722700CB, 41536, 0x22700006, 11.55701, 126.8808, 148.1174, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Squire */
+/* @teleloc 0x22700006 [11.557010 126.880800 148.117400] -0.826885 0.000000 0.000000 -0.562372 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700CC, 41536, 0x22700005, 6.40043, 99.05577, 144.7955, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Squire */
+/* @teleloc 0x22700005 [6.400430 99.055770 144.795500] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700CD, 41538, 0x22700001, 3.958556, 5.672404, 165.9946, -0.105266, 0, 0, -0.994444,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700001 [3.958556 5.672404 165.994600] -0.105266 0.000000 0.000000 -0.994444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700CE, 41535, 0x2270000A, 25.66995, 37.23289, 149.59, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x2270000A [25.669950 37.232890 149.590000] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700CF, 41532, 0x2270000A, 28.44593, 31.89017, 148.896, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Phalanx */
+/* @teleloc 0x2270000A [28.445930 31.890170 148.896000] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D0, 41530, 0x2270000A, 27.01488, 24.85424, 149.2543, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Knight */
+/* @teleloc 0x2270000A [27.014880 24.854240 149.254300] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D1, 41531, 0x2270000A, 25.9342, 32.69504, 149.5245, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x2270000A [25.934200 32.695040 149.524500] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D2, 41530, 0x2270000B, 35.6991, 70.1902, 144.8321, 0.681459, 0, 0, -0.731856,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Knight */
+/* @teleloc 0x2270000B [35.699100 70.190200 144.832100] 0.681459 0.000000 0.000000 -0.731856 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D3, 41531, 0x22700004, 7.56101, 92.69124, 145.4653, 0.113087, 0, 0, -0.993585,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700004 [7.561010 92.691240 145.465300] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D4, 41531, 0x22700001, 4.775651, 2.494413, 166.9788, -0.105266, 0, 0, -0.994444,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700001 [4.775651 2.494413 166.978800] -0.105266 0.000000 0.000000 -0.994444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D5, 41531, 0x22700004, 1.596566, 95.64505, 144.2298, 0.113087, 0, 0, -0.993585,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700004 [1.596566 95.645050 144.229800] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D6, 41535, 0x22700002, 23.78547, 33.66719, 150.0969, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700002 [23.785470 33.667190 150.096900] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D7, 41535, 0x2270000A, 26.39141, 29.97467, 149.4097, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x2270000A [26.391410 29.974670 149.409700] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D8, 41535, 0x22700009, 47.37268, 3.959249, 149.1745, 0.60492, 0, 0, -0.796286,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700009 [47.372680 3.959249 149.174500] 0.604920 0.000000 0.000000 -0.796286 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700D9, 41529, 0x2270000A, 32.07425, 29.1714, 147.9894, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Knight */
+/* @teleloc 0x2270000A [32.074250 29.171400 147.989400] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700DA, 41527, 0x22700001, 8.205122, 4.807212, 164.5862, -0.105266, 0, 0, -0.994444,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Knight */
+/* @teleloc 0x22700001 [8.205122 4.807212 164.586200] -0.105266 0.000000 0.000000 -0.994444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700DB, 41535, 0x22700004, 3.827919, 92.61347, 145.1731, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700004 [3.827919 92.613470 145.173100] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700DC, 41527, 0x22700005, 10.86769, 98.60105, 145.1304, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Knight */
+/* @teleloc 0x22700005 [10.867690 98.601050 145.130400] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700DD, 41538, 0x2270000C, 38.37233, 78.81895, 145.7735, 0.6814591, 0, 0, -0.7318562,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x2270000C [38.372330 78.818950 145.773500] 0.681459 0.000000 0.000000 -0.731856 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700DE, 41537, 0x22700005, 8.190728, 97.15093, 144.786, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Squire */
+/* @teleloc 0x22700005 [8.190728 97.150930 144.786000] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700DF, 41531, 0x22700005, 2.613081, 99.36572, 144.5062, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700005 [2.613081 99.365720 144.506200] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E0, 41535, 0x22700005, 11.07544, 99.71008, 145.2396, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700005 [11.075440 99.710080 145.239600] 0.113087 0.000000 0.000000 -0.993585 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E1, 41538, 0x2270000D, 43.47337, 117.3635, 151.0334, -0.6660094, 0, 0, -0.7459434,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x2270000D [43.473370 117.363500 151.033400] -0.666009 0.000000 0.000000 -0.745943 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E2, 41538, 0x22700006, 15.15655, 130.7673, 149.0651, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700006 [15.156550 130.767300 149.065100] -0.826885 0.000000 0.000000 -0.562372 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E3, 41538, 0x22700006, 15.21762, 133.6536, 149.5512, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700006 [15.217620 133.653600 149.551200] -0.826885 0.000000 0.000000 -0.562372 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E4, 41531, 0x22700006, 13.75552, 131.3307, 149.0428, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700006 [13.755520 131.330700 149.042800] -0.826885 0.000000 0.000000 -0.562372 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E5, 41536, 0x2270000D, 45.63953, 118.2016, 151.4642, -0.6660094, 0, 0, -0.7459434,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Squire */
+/* @teleloc 0x2270000D [45.639530 118.201600 151.464200] -0.666009 0.000000 0.000000 -0.745943 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E6, 41538, 0x22700008, 22.57791, 170.0697, 161.9969, 0.02079489, 0, 0, -0.9997838,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700008 [22.577910 170.069700 161.996900] 0.020795 0.000000 0.000000 -0.999784 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E7, 41537, 0x22700008, 20.33983, 169.4803, 161.3392, 0.02079489, 0, 0, -0.9997838,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Squire */
+/* @teleloc 0x22700008 [20.339830 169.480300 161.339200] 0.020795 0.000000 0.000000 -0.999784 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E8, 41539, 0x22700012, 69.67111, 39.61216, 145.8134, -0.6172888, 0, 0, -0.7867367,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Squire */
+/* @teleloc 0x22700012 [69.671110 39.612160 145.813400] -0.617289 0.000000 0.000000 -0.786737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700E9, 41536, 0x22700012, 70.32671, 40.23823, 145.8681, -0.6172888, 0, 0, -0.7867367,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Squire */
+/* @teleloc 0x22700012 [70.326710 40.238230 145.868100] -0.617289 0.000000 0.000000 -0.786737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700EA, 41530, 0x22700008, 16.71976, 179.4845, 162.102, 0.02079489, 0, 0, -0.9997838,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Knight */
+/* @teleloc 0x22700008 [16.719760 179.484500 162.102000] 0.020795 0.000000 0.000000 -0.999784 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700EB, 41534, 0x22700018, 60.00312, 173.3169, 166.0075, 0.677743, 0, 0, -0.7352989,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
+/* @teleloc 0x22700018 [60.003120 173.316900 166.007500] 0.677743 0.000000 0.000000 -0.735299 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700EC, 41532, 0x22700018, 65.00061, 172.6198, 166.0075, 0.677743, 0, 0, -0.7352989,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Phalanx */
+/* @teleloc 0x22700018 [65.000610 172.619800 166.007500] 0.677743 0.000000 0.000000 -0.735299 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700ED, 41530, 0x2270001E, 86.16735, 125.1791, 161.2762, -0.7480413, 0, 0, -0.6636522,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Knight */
+/* @teleloc 0x2270001E [86.167350 125.179100 161.276200] -0.748041 0.000000 0.000000 -0.663652 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700EE, 41535, 0x22700001, 4.782508, 4.531511, 166.1267, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700001 [4.782508 4.531511 166.126700] -0.105266 0.000000 0.000000 -0.994444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700EF, 41530, 0x22700001, 8.623899, 6.364702, 163.7628, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Knight */
+/* @teleloc 0x22700001 [8.623899 6.364702 163.762800] -0.105266 0.000000 0.000000 -0.994444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F0, 41538, 0x22700001, 5.87816, 2.078932, 166.6921, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700001 [5.878160 2.078932 166.692100] -0.105266 0.000000 0.000000 -0.994444 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F1, 41531, 0x2270000A, 33.18171, 29.7902, 147.7126, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x2270000A [33.181710 29.790200 147.712600] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F2, 41527, 0x2270000A, 29.6531, 25.95639, 148.5947, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Knight */
+/* @teleloc 0x2270000A [29.653100 25.956390 148.594700] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F3, 41527, 0x22700022, 103.89, 42.46635, 148.4007, -0.7252839, 0, 0, -0.6884499,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Knight */
+/* @teleloc 0x22700022 [103.890000 42.466350 148.400700] -0.725284 0.000000 0.000000 -0.688450 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F4, 41527, 0x22700022, 105.6597, 44.63696, 149.0574, -0.7252839, 0, 0, -0.6884499,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Knight */
+/* @teleloc 0x22700022 [105.659700 44.636960 149.057400] -0.725284 0.000000 0.000000 -0.688450 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F5, 41530, 0x22700022, 96.63315, 37.08633, 147.1513, -0.7252839, 0, 0, -0.6884499,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Knight */
+/* @teleloc 0x22700022 [96.633150 37.086330 147.151300] -0.725284 0.000000 0.000000 -0.688450 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F6, 41538, 0x22700023, 110.2478, 70.58107, 153.5893, 0.7450092, 0, 0, -0.6670542,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700023 [110.247800 70.581070 153.589300] 0.745009 0.000000 0.000000 -0.667054 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F7, 41531, 0x22700021, 102.5602, 0.01807821, 145.1014, 0.73353, 0, 0, -0.679657,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700021 [102.560200 0.018078 145.101400] 0.733530 0.000000 0.000000 -0.679657 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F8, 41538, 0x22700024, 113.7397, 72.22286, 155.4734, 0.7450092, 0, 0, -0.6670542,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700024 [113.739700 72.222860 155.473400] 0.745009 0.000000 0.000000 -0.667054 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700F9, 41534, 0x22700024, 109.0537, 74.27987, 154.2065, 0.745009, 0, 0, -0.667054,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
+/* @teleloc 0x22700024 [109.053700 74.279870 154.206500] 0.745009 0.000000 0.000000 -0.667054 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700FA, 41531, 0x22700006, 11.65536, 122.1694, 147.3409, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Knight */
+/* @teleloc 0x22700006 [11.655360 122.169400 147.340900] -0.826885 0.000000 0.000000 -0.562372 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700FB, 41538, 0x2270001E, 88.85633, 120.9753, 160.5467, -0.748041, 0, 0, -0.663652,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x2270001E [88.856330 120.975300 160.546700] -0.748041 0.000000 0.000000 -0.663652 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700FC, 41527, 0x2270001E, 84.21188, 128.386, 161.8563, -0.748041, 0, 0, -0.663652,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Knight */
+/* @teleloc 0x2270001E [84.211880 128.386000 161.856300] -0.748041 0.000000 0.000000 -0.663652 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700FD, 41537, 0x22700034, 154.9039, 80.95845, 159.6627, 0.794422, 0, 0, -0.607367,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Squire */
+/* @teleloc 0x22700034 [154.903900 80.958450 159.662700] 0.794422 0.000000 0.000000 -0.607367 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700FE, 41539, 0x22700032, 148.4006, 30.21385, 154.6611, -0.767261, 0, 0, -0.641335,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Squire */
+/* @teleloc 0x22700032 [148.400600 30.213850 154.661100] -0.767261 0.000000 0.000000 -0.641335 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722700FF, 41538, 0x22700032, 147.5808, 31.62676, 154.8094, -0.767261, 0, 0, -0.641335,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Squire */
+/* @teleloc 0x22700032 [147.580800 31.626760 154.809400] -0.767261 0.000000 0.000000 -0.641335 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270100, 41535, 0x22700032, 153.1291, 30.5274, 155.9216, -0.767261, 0, 0, -0.641335,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700032 [153.129100 30.527400 155.921600] -0.767261 0.000000 0.000000 -0.641335 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270101, 41529, 0x2270002E, 129.4114, 125.1024, 164.4332, -0.7480413, 0, 0, -0.6636522,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Knight */
+/* @teleloc 0x2270002E [129.411400 125.102400 164.433200] -0.748041 0.000000 0.000000 -0.663652 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270102, 41536, 0x2270003B, 185.2642, 61.02124, 160.5313, 0.10625, 0, 0, -0.9943395,  True, '2019-02-10 00:00:00'); /* Invading Bronze Gauntlet Squire */
+/* @teleloc 0x2270003B [185.264200 61.021240 160.531300] 0.106250 0.000000 0.000000 -0.994340 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270103, 41539, 0x2270003A, 182.393, 28.48907, 158.3816, -0.4042551, 0, 0, -0.9146463,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Squire */
+/* @teleloc 0x2270003A [182.393000 28.489070 158.381600] -0.404255 0.000000 0.000000 -0.914646 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270104, 41535, 0x2270003A, 173.1062, 30.50105, 158.5493, -0.4042551, 0, 0, -0.9146463,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x2270003A [173.106200 30.501050 158.549300] -0.404255 0.000000 0.000000 -0.914646 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270105, 41539, 0x2270003A, 179.1105, 33.78395, 158.8228, -0.4042551, 0, 0, -0.9146463,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Squire */
+/* @teleloc 0x2270003A [179.110500 33.783950 158.822800] -0.404255 0.000000 0.000000 -0.914646 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270106, 41537, 0x2270003E, 168.0776, 120.092, 164.0152, -0.6904158, 0, 0, -0.7234128,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Squire */
+/* @teleloc 0x2270003E [168.077600 120.092000 164.015200] -0.690416 0.000000 0.000000 -0.723413 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270107, 41537, 0x2270003F, 188.7403, 160.9771, 166.0075, 0.3412989, 0, 0, -0.9399548,  True, '2019-02-10 00:00:00'); /* Invading Copper Cog Squire */
+/* @teleloc 0x2270003F [188.740300 160.977100 166.007500] 0.341299 0.000000 0.000000 -0.939955 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270108, 41535, 0x22700038, 144.5145, 176.0845, 166.0075, 0.7142988, 0, 0, -0.6998408,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700038 [144.514500 176.084500 166.007500] 0.714299 0.000000 0.000000 -0.699841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270109, 41534, 0x22700038, 145.7694, 174.8671, 166.0075, 0.7142988, 0, 0, -0.6998408,  True, '2019-02-10 00:00:00'); /* Invading Iron Blade Phalanx */
+/* @teleloc 0x22700038 [145.769400 174.867100 166.007500] 0.714299 0.000000 0.000000 -0.699841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7227010A, 41535, 0x22700038, 151.4255, 168.5806, 166.0075, 0.7142988, 0, 0, -0.6998408,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x22700038 [151.425500 168.580600 166.007500] 0.714299 0.000000 0.000000 -0.699841 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7227010B,  8138, 0x22700040, 182.0359, 190.761, 164.8403, -0.9350589, 0, 0, -0.3544924,  True, '2019-02-10 00:00:00'); /* Extas Raider */
+/* @teleloc 0x22700040 [182.035900 190.761000 164.840300] -0.935059 0.000000 0.000000 -0.354492 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7227010C,  1542, 0x22700001, 3.502325, 8.943583, 164.8142, -0.105266, 0, 0, -0.9944441, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x22700001 [3.502325 8.943583 164.814200] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x722700CB, 0x722700CC, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700CD, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700CE, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700CF, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700D0, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700D1, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700D2, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700D3, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700D4, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700D5, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700D6, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700D7, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700D8, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700D9, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700DA, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700DB, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700DC, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700DD, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700DE, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
-     , (0x722700CB, 0x722700DF, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700E0, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
-     , (0x722700CB, 0x722700E1, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */;
+VALUES (0x7227010C, 0x7227010D, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x7227010E, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x7227010F, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270110, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x72270111, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270112, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270113, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270114, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x72270115, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x72270116, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270117, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x72270118, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270119, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x7227011A, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x7227011B, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x7227011C, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x7227011D, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x7227011E, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x7227011F, '2019-02-10 00:00:00') /* Aetherium Ore (41540) */
+     , (0x7227010C, 0x72270120, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270121, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270122, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */
+     , (0x7227010C, 0x72270123, '2019-02-10 00:00:00') /* Rez'arean Ore (46287) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700CC, 46287, 0x22700001, 3.502325, 8.943583, 164.8142, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x7227010D, 46287, 0x22700001, 3.502325, 8.943583, 164.8142, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700001 [3.502325 8.943583 164.814200] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700CD, 41540, 0x22700006, 14.94866, 126.3443, 148.3732, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x7227010E, 41540, 0x22700006, 14.94866, 126.3443, 148.3732, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x22700006 [14.948660 126.344300 148.373200] -0.826885 0.000000 0.000000 -0.562372 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700CE, 46287, 0x22700023, 115.6354, 70.97583, 155.9254, 0.7450092, 0, 0, -0.6670542,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x7227010F, 46287, 0x22700023, 115.6354, 70.97583, 155.9254, 0.7450092, 0, 0, -0.6670542,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700023 [115.635400 70.975830 155.925400] 0.745009 0.000000 0.000000 -0.667054 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700CF, 41540, 0x22700008, 19.33449, 168.576, 160.9709, 0.02079489, 0, 0, -0.9997838,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x72270110, 41540, 0x22700008, 19.33449, 168.576, 160.9709, 0.02079489, 0, 0, -0.9997838,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x22700008 [19.334490 168.576000 160.970900] 0.020795 0.000000 0.000000 -0.999784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D0, 46287, 0x22700022, 101.4036, 35.8259, 147.4358, -0.7252839, 0, 0, -0.6884499,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270111, 46287, 0x22700022, 101.4036, 35.8259, 147.4358, -0.7252839, 0, 0, -0.6884499,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700022 [101.403600 35.825900 147.435800] -0.725284 0.000000 0.000000 -0.688450 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D1, 46287, 0x22700006, 14.50506, 122.8311, 148.643, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270112, 46287, 0x22700006, 14.50506, 122.8311, 148.643, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700006 [14.505060 122.831100 148.643000] -0.826885 0.000000 0.000000 -0.562372 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D2, 46287, 0x2270000D, 42.90439, 116.4855, 151.1099, -0.666009, 0, 0, -0.745943,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270113, 46287, 0x2270000D, 42.90439, 116.4855, 151.1099, -0.666009, 0, 0, -0.745943,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x2270000D [42.904390 116.485500 151.109900] -0.666009 0.000000 0.000000 -0.745943 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D3, 41540, 0x22700001, 3.543147, 5.483706, 167.7962, -0.105266, 0, 0, -0.994444,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x72270114, 41540, 0x22700001, 3.543147, 5.483706, 167.7962, -0.105266, 0, 0, -0.994444,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x22700001 [3.543147 5.483706 167.796200] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D4, 41540, 0x22700001, 2.377524, 2.260931, 168.1461, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x72270115, 41540, 0x22700001, 2.377524, 2.260931, 168.1461, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x22700001 [2.377524 2.260931 168.146100] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D5, 46287, 0x22700011, 55.54595, 10.14416, 148.0928, 0.6049201, 0, 0, -0.7962862,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270116, 46287, 0x22700011, 55.54595, 10.14416, 148.0928, 0.6049201, 0, 0, -0.7962862,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700011 [55.545950 10.144160 148.092800] 0.604920 0.000000 0.000000 -0.796286 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D6, 41540, 0x2270000D, 42.07912, 118.4791, 150.9486, -0.6660094, 0, 0, -0.7459434,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x72270117, 41540, 0x2270000D, 42.07912, 118.4791, 150.9486, -0.6660094, 0, 0, -0.7459434,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x2270000D [42.079120 118.479100 150.948600] -0.666009 0.000000 0.000000 -0.745943 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D7, 46287, 0x22700024, 109.747, 73.53481, 154.2395, 0.7450092, 0, 0, -0.6670542,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270118, 46287, 0x22700024, 109.747, 73.53481, 154.2395, 0.7450092, 0, 0, -0.6670542,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700024 [109.747000 73.534810 154.239500] 0.745009 0.000000 0.000000 -0.667054 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D8, 46287, 0x22700031, 145.0358, 23.51553, 152.2589, -0.767261, 0, 0, -0.641335,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270119, 46287, 0x22700031, 145.0358, 23.51553, 152.2589, -0.767261, 0, 0, -0.641335,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700031 [145.035800 23.515530 152.258900] -0.767261 0.000000 0.000000 -0.641335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700D9, 46287, 0x2270000A, 31.3806, 28.74118, 148.702, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x7227011A, 46287, 0x2270000A, 31.3806, 28.74118, 148.702, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x2270000A [31.380600 28.741180 148.702000] -0.759393 0.000000 0.000000 -0.650632 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700DA, 41540, 0x22700011, 52.49679, 1.086887, 149.0235, 0.6049201, 0, 0, -0.7962862,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x7227011B, 41540, 0x22700011, 52.49679, 1.086887, 149.0235, 0.6049201, 0, 0, -0.7962862,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x22700011 [52.496790 1.086887 149.023500] 0.604920 0.000000 0.000000 -0.796286 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700DB, 46287, 0x22700012, 65.79395, 40.21436, 145.4828, -0.6172888, 0, 0, -0.7867367,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x7227011C, 46287, 0x22700012, 65.79395, 40.21436, 145.4828, -0.6172888, 0, 0, -0.7867367,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700012 [65.793950 40.214360 145.482800] -0.617289 0.000000 0.000000 -0.786737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700DC, 46287, 0x22700001, 7.922785, 5.341871, 164.4731, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x7227011D, 46287, 0x22700001, 7.922785, 5.341871, 164.4731, -0.105266, 0, 0, -0.9944441,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700001 [7.922785 5.341871 164.473100] -0.105266 0.000000 0.000000 -0.994444 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700DD, 46287, 0x22700004, 4.612259, 87.15359, 146.596, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x7227011E, 46287, 0x22700004, 4.612259, 87.15359, 146.596, 0.113087, 0, 0, -0.9935851,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700004 [4.612259 87.153590 146.596000] 0.113087 0.000000 0.000000 -0.993585 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700DE, 41540, 0x22700012, 70.46494, 37.07636, 145.9288, -0.6172888, 0, 0, -0.7867367,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
+VALUES (0x7227011F, 41540, 0x22700012, 70.46494, 37.07636, 145.9288, -0.6172888, 0, 0, -0.7867367,  True, '2019-02-10 00:00:00'); /* Aetherium Ore */
 /* @teleloc 0x22700012 [70.464940 37.076360 145.928800] -0.617289 0.000000 0.000000 -0.786737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700DF, 46287, 0x22700016, 48.34923, 123.8954, 153.0321, -0.6660094, 0, 0, -0.7459434,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270120, 46287, 0x22700016, 48.34923, 123.8954, 153.0321, -0.6660094, 0, 0, -0.7459434,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700016 [48.349230 123.895400 153.032100] -0.666009 0.000000 0.000000 -0.745943 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700E0, 46287, 0x22700011, 49.16089, 4.033355, 149.0884, 0.6049201, 0, 0, -0.7962862,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270121, 46287, 0x22700011, 49.16089, 4.033355, 149.0884, 0.6049201, 0, 0, -0.7962862,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700011 [49.160890 4.033355 149.088400] 0.604920 0.000000 0.000000 -0.796286 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x722700E1, 46287, 0x22700002, 23.35906, 33.35643, 150.2671, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+VALUES (0x72270122, 46287, 0x22700002, 23.35906, 33.35643, 150.2671, -0.759393, 0, 0, -0.650632,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
 /* @teleloc 0x22700002 [23.359060 33.356430 150.267100] -0.759393 0.000000 0.000000 -0.650632 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72270123, 46287, 0x22700006, 18.96588, 129.8839, 149.2278, -0.8268846, 0, 0, -0.5623717,  True, '2019-02-10 00:00:00'); /* Rez'arean Ore */
+/* @teleloc 0x22700006 [18.965880 129.883900 149.227800] -0.826885 0.000000 0.000000 -0.562372 */

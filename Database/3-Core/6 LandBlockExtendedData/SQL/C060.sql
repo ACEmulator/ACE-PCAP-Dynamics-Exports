@@ -18,7 +18,9 @@ VALUES (0x7C060001, 0x7C060002, '2019-02-10 00:00:00') /* Young Mosswart (4249) 
      , (0x7C060001, 0x7C060008, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
      , (0x7C060001, 0x7C060009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
      , (0x7C060001, 0x7C06000A, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
-     , (0x7C060001, 0x7C06000B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */;
+     , (0x7C060001, 0x7C06000B, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
+     , (0x7C060001, 0x7C06000C, '2019-02-10 00:00:00') /* Mud Golem (200) */
+     , (0x7C060001, 0x7C06000D, '2019-02-10 00:00:00') /* Mud Golem (200) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C060002,  4249, 0xC0600003, 22.25111, 58.02774, 6.0044, -0.9645521, 0, 0, -0.2638924,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -61,12 +63,20 @@ VALUES (0x7C06000B,   216, 0xC0600003, 21.58026, 66.98879, 6.012, -0.9645521, 0,
 /* @teleloc 0xC0600003 [21.580260 66.988790 6.012000] -0.964552 0.000000 0.000000 -0.263892 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C06000C,  1542, 0xC0600025, 109.4164, 112.1033, 6, 0.9915475, 0, 0, -0.1297443, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C06000C,   200, 0xC060000A, 25.94673, 37.31938, 6.011, -0.9645521, 0, 0, -0.2638924,  True, '2019-02-10 00:00:00'); /* Mud Golem */
+/* @teleloc 0xC060000A [25.946730 37.319380 6.011000] -0.964552 0.000000 0.000000 -0.263892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C06000D,   200, 0xC060000A, 43.8581, 35.58341, 6.011, -0.9645521, 0, 0, -0.2638924,  True, '2019-02-10 00:00:00'); /* Mud Golem */
+/* @teleloc 0xC060000A [43.858100 35.583410 6.011000] -0.964552 0.000000 0.000000 -0.263892 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C06000E,  1542, 0xC0600025, 109.4164, 112.1033, 6, 0.9915475, 0, 0, -0.1297443, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC0600025 [109.416400 112.103300 6.000000] 0.991548 0.000000 0.000000 -0.129744 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C06000C, 0x7C06000D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x7C06000E, 0x7C06000F, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C06000D,  8037, 0xC0600025, 109.4164, 112.1033, 6, 0.9915475, 0, 0, -0.1297443,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7C06000F,  8037, 0xC0600025, 109.4164, 112.1033, 6, 0.9915475, 0, 0, -0.1297443,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xC0600025 [109.416400 112.103300 6.000000] 0.991548 0.000000 0.000000 -0.129744 */

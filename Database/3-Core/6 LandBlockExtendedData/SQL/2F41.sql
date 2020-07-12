@@ -19,7 +19,9 @@ VALUES (0x72F41001, 0x72F41002, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x72F41001, 0x72F4100D, '2019-02-10 00:00:00') /* Direland Rat (24310) */
      , (0x72F41001, 0x72F4100E, '2019-02-10 00:00:00') /* Guardian Mu-miyah (7117) */
      , (0x72F41001, 0x72F4100F, '2019-02-10 00:00:00') /* Dark Sorcerer (12037) */
-     , (0x72F41001, 0x72F41010, '2019-02-10 00:00:00') /* Dark Magus (7124) */;
+     , (0x72F41001, 0x72F41010, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x72F41001, 0x72F41011, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72F41001, 0x72F41012, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F41002,  8138, 0x2F41001A, 79.95493, 34.52449, 32.89629, -0.9713065, 0, 0, -0.2378311,  True, '2019-02-10 00:00:00'); /* Extas Raider */
@@ -80,3 +82,11 @@ VALUES (0x72F4100F, 12037, 0x2F410029, 125.3861, 6.692194, 126.0082, -0.9017144,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72F41010,  7124, 0x2F410029, 126.8517, 13.56668, 126.0075, -0.9017144, 0, 0, -0.4323323,  True, '2019-02-10 00:00:00'); /* Dark Magus */
 /* @teleloc 0x2F410029 [126.851700 13.566680 126.007500] -0.901714 0.000000 0.000000 -0.432332 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F41011,  9264, 0x2F410031, 152.339, 10.03624, 126.029, -0.9017144, 0, 0, -0.4323323,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
+/* @teleloc 0x2F410031 [152.339000 10.036240 126.029000] -0.901714 0.000000 0.000000 -0.432332 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72F41012,  7119, 0x2F41001A, 87.2497, 29.52524, 43.65389, -0.9713065, 0, 0, -0.2378311,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
+/* @teleloc 0x2F41001A [87.249700 29.525240 43.653890] -0.971307 0.000000 0.000000 -0.237831 */

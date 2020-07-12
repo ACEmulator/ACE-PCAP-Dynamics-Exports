@@ -23,7 +23,8 @@ VALUES (0x7AAB6001, 0x7AAB6002, '2019-02-10 00:00:00') /* Drudge Slinker (19258)
      , (0x7AAB6001, 0x7AAB6011, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
      , (0x7AAB6001, 0x7AAB6012, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
      , (0x7AAB6001, 0x7AAB6013, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
-     , (0x7AAB6001, 0x7AAB6014, '2019-02-10 00:00:00') /* Mite Snippet (19260) */;
+     , (0x7AAB6001, 0x7AAB6014, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7AAB6001, 0x7AAB6015, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB6002, 19258, 0xAAB6002E, 138.2551, 136.6049, 47.67581, -0.9711536, 0, 0, -0.2384549,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -100,3 +101,7 @@ VALUES (0x7AAB6013, 19262, 0xAAB60015, 64.59315, 114.1091, 39.42353, 0.6747956, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB6014, 19260, 0xAAB60007, 18.48902, 149.8669, 45.50089, -0.006806484, 0, 0, -0.9999768,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
 /* @teleloc 0xAAB60007 [18.489020 149.866900 45.500890] -0.006806 0.000000 0.000000 -0.999977 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AAB6015, 19258, 0xAAB60005, 19.76733, 101.3534, 29.34167, 0.3366964, 0, 0, -0.9416133,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0xAAB60005 [19.767330 101.353400 29.341670] 0.336696 0.000000 0.000000 -0.941613 */

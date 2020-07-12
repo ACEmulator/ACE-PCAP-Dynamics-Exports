@@ -13,7 +13,11 @@ VALUES (0x7217A001, 0x7217A002, '2019-02-10 00:00:00') /* Gold Golem (36832) */
      , (0x7217A001, 0x7217A007, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x7217A001, 0x7217A008, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x7217A001, 0x7217A009, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
-     , (0x7217A001, 0x7217A00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
+     , (0x7217A001, 0x7217A00A, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7217A001, 0x7217A00B, '2019-02-10 00:00:00') /* Drudge Sage (24283) */
+     , (0x7217A001, 0x7217A00C, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7217A001, 0x7217A00D, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x7217A001, 0x7217A00E, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217A002, 36832, 0x217A0036, 147.1147, 123.1368, 56.45265, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Gold Golem */
@@ -50,3 +54,19 @@ VALUES (0x7217A009, 24497, 0x217A002D, 126.7499, 119.741, 58.01, 0.9238795, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7217A00A, 24497, 0x217A002D, 130.8166, 111.6033, 58.01, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
 /* @teleloc 0x217A002D [130.816600 111.603300 58.010000] -0.766044 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7217A00B, 24283, 0x217A0006, 3.510949, 137.1634, 67.41939, -0.6748041, 0, 0, -0.7379969,  True, '2019-02-10 00:00:00'); /* Drudge Sage */
+/* @teleloc 0x217A0006 [3.510949 137.163400 67.419390] -0.674804 0.000000 0.000000 -0.737997 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7217A00C, 36830, 0x217A0035, 147.4524, 110.442, 56.28381, -0.2597195, 0, 0, -0.9656841,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x217A0035 [147.452400 110.442000 56.283810] -0.259720 0.000000 0.000000 -0.965684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7217A00D, 23616, 0x217A003F, 184.0326, 147.9684, 43.99184, -0.1929866, 0, 0, -0.9812014,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x217A003F [184.032600 147.968400 43.991840] -0.192987 0.000000 0.000000 -0.981201 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7217A00E, 23564, 0x217A002E, 122.77, 122.8266, 58.005, -0.2597195, 0, 0, -0.9656841,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x217A002E [122.770000 122.826600 58.005000] -0.259720 0.000000 0.000000 -0.965684 */

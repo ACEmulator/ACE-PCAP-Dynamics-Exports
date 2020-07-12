@@ -143,7 +143,9 @@ VALUES (0x75660030, 0x75660031, '2019-02-10 00:00:00') /* Gaerlan's Diary (20955
      , (0x75660030, 0x75660032, '2019-02-10 00:00:00') /* Letter for Melanay (20960) */
      , (0x75660030, 0x75660033, '2019-02-10 00:00:00') /* Tusker Husk (20996) */
      , (0x75660030, 0x75660034, '2019-02-10 00:00:00') /* Lugian Pick Axe (7549) */
-     , (0x75660030, 0x75660035, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x75660030, 0x75660035, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x75660030, 0x75660036, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x75660030, 0x75660037, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75660031, 20955, 0x5660010A, 162.12, -72.65132, -29.93046, 0.183057, 0, 0, -0.9831023,  True, '2019-02-10 00:00:00'); /* Gaerlan's Diary */
@@ -164,3 +166,11 @@ VALUES (0x75660034,  7549, 0x5660012C, 161.1976, -77.40447, -5.97, -0.4985085, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75660035,  1955, 0x56600185, 138.5132, -31.2014, -0.06299996, -0.6656753, 0, 0, -0.7462415,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x56600185 [138.513200 -31.201400 -0.063000] -0.665675 0.000000 0.000000 -0.746242 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660036,  1955, 0x5660018E, 150.5998, -21.77851, -0.06299996, -0.3034676, 0, 0, -0.9528418,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x5660018E [150.599800 -21.778510 -0.063000] -0.303468 0.000000 0.000000 -0.952842 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75660037,  1955, 0x56600193, 150.9783, -34.75903, -0.06299996, -0.02816106, 0, 0, -0.9996034,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x56600193 [150.978300 -34.759030 -0.063000] -0.028161 0.000000 0.000000 -0.999603 */

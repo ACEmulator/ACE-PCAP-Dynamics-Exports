@@ -43,7 +43,8 @@ VALUES (0x79E27001, 0x79E27002, '2019-02-10 00:00:00') /* Lithos Raider (8141) *
      , (0x79E27001, 0x79E27025, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
      , (0x79E27001, 0x79E27026, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
      , (0x79E27001, 0x79E27027, '2019-02-10 00:00:00') /* Extas Lugian (7100) */
-     , (0x79E27001, 0x79E27028, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */;
+     , (0x79E27001, 0x79E27028, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x79E27001, 0x79E27029, '2019-02-10 00:00:00') /* Magma Golem (199) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79E27002,  8141, 0x9E27000E, 40.53056, 125.8629, 229.4546, 0.751111, 0, 0, -0.6601759,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -202,12 +203,16 @@ VALUES (0x79E27028,  1989, 0x9E27000E, 31.48952, 129.7979, 228.687, 0.751111, 0,
 /* @teleloc 0x9E27000E [31.489520 129.797900 228.687000] 0.751111 0.000000 0.000000 -0.660176 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79E27029,  1542, 0x9E27000E, 30.54393, 123.5294, 229.7758, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79E27029,   199, 0x9E27000E, 31.49924, 139.5, 227.8853, 0.751111, 0, 0, -0.6601759,  True, '2019-02-10 00:00:00'); /* Magma Golem */
+/* @teleloc 0x9E27000E [31.499240 139.500000 227.885300] 0.751111 0.000000 0.000000 -0.660176 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79E2702A,  1542, 0x9E27000E, 30.54393, 123.5294, 229.7758, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9E27000E [30.543930 123.529400 229.775800] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79E27029, 0x79E2702A, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
+VALUES (0x79E2702A, 0x79E2702B, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79E2702A, 22571, 0x9E27000E, 30.54393, 123.5294, 229.7758, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79E2702B, 22571, 0x9E27000E, 30.54393, 123.5294, 229.7758, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x9E27000E [30.543930 123.529400 229.775800] 1.000000 0.000000 0.000000 0.000000 */

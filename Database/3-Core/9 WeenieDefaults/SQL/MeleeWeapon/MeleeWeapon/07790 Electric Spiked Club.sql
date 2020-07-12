@@ -29,7 +29,6 @@ VALUES (7790,   1,          1) /* ItemType - MeleeWeapon */
      , (7790, 158,          2) /* WieldRequirements - RawSkill */
      , (7790, 159,         45) /* WieldSkillType - LightWeapons */
      , (7790, 160,        350) /* WieldDifficulty */
-     , (7790, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (7790, 177,          4) /* GemCount */
      , (7790, 178,         47) /* GemType */
      , (7790, 353,          4) /* WeaponType - Mace */;

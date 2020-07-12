@@ -91,7 +91,13 @@ VALUES (0x735EA001, 0x735EA002, '2019-02-10 00:00:00') /* Mighty Oak Golem (2646
      , (0x735EA001, 0x735EA051, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
      , (0x735EA001, 0x735EA052, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
      , (0x735EA001, 0x735EA053, '2019-02-10 00:00:00') /* Viamontian Warcaster (29300) */
-     , (0x735EA001, 0x735EA054, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */;
+     , (0x735EA001, 0x735EA054, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA055, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x735EA001, 0x735EA056, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x735EA001, 0x735EA057, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x735EA001, 0x735EA058, '2019-02-10 00:00:00') /* Coral Golem (7507) */
+     , (0x735EA001, 0x735EA059, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */
+     , (0x735EA001, 0x735EA05A, '2019-02-10 00:00:00') /* Enoki Thrungus (28674) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735EA002, 26468, 0x35EA0016, 69.11555, 132.5515, 23.44478, 0.9774461, 0, 0, -0.2111851,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
@@ -424,3 +430,27 @@ VALUES (0x735EA053, 29300, 0x35EA0034, 146.4293, 79.01166, 19.60011, 0.4834653, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x735EA054, 28674, 0x35EA0027, 108.0818, 147.1769, 21.73526, 0.6249166, 0, 0, -0.7806915,  True, '2019-02-10 00:00:00'); /* Enoki Thrungus */
 /* @teleloc 0x35EA0027 [108.081800 147.176900 21.735260] 0.624917 0.000000 0.000000 -0.780692 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735EA055, 24294, 0x35EA0024, 99.22243, 79.78604, 23.72396, 0.4903525, 0, 0, -0.8715242,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0x35EA0024 [99.222430 79.786040 23.723960] 0.490353 0.000000 0.000000 -0.871524 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735EA056, 24281, 0x35EA0028, 100.0565, 185.6457, 18.53407, 0.6249166, 0, 0, -0.7806915,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x35EA0028 [100.056500 185.645700 18.534070] 0.624917 0.000000 0.000000 -0.780692 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735EA057,  2566, 0x35EA0015, 70.04121, 107.9308, 24.32647, 0.9774461, 0, 0, -0.2111851,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0x35EA0015 [70.041210 107.930800 24.326470] 0.977446 0.000000 0.000000 -0.211185 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735EA058,  7507, 0x35EA001C, 89.71056, 74.62313, 25.23211, -0.9856451, 0, 0, -0.1688308,  True, '2019-02-10 00:00:00'); /* Coral Golem */
+/* @teleloc 0x35EA001C [89.710560 74.623130 25.232110] -0.985645 0.000000 0.000000 -0.168831 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735EA059, 28674, 0x35EA002D, 143.23, 109.0039, 20.06416, 0.4834653, 0, 0, -0.8753635,  True, '2019-02-10 00:00:00'); /* Enoki Thrungus */
+/* @teleloc 0x35EA002D [143.230000 109.003900 20.064160] 0.483465 0.000000 0.000000 -0.875364 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x735EA05A, 28674, 0x35EA0034, 153.0372, 90.79653, 18.4938, -0.9108146, 0, 0, -0.4128156,  True, '2019-02-10 00:00:00'); /* Enoki Thrungus */
+/* @teleloc 0x35EA0034 [153.037200 90.796530 18.493800] -0.910815 0.000000 0.000000 -0.412816 */

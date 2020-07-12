@@ -165,7 +165,10 @@ VALUES (0x7F981001, 0x7F981002, '2019-02-10 00:00:00') /* Spiny Chittick (22508)
      , (0x7F981001, 0x7F98109B, '2019-02-10 00:00:00') /* Female Tusker (236) */
      , (0x7F981001, 0x7F98109C, '2019-02-10 00:00:00') /* Tuskie Tosser (22524) */
      , (0x7F981001, 0x7F98109D, '2019-02-10 00:00:00') /* Female Tusker (236) */
-     , (0x7F981001, 0x7F98109E, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */;
+     , (0x7F981001, 0x7F98109E, '2019-02-10 00:00:00') /* Reedshark Stripling (22748) */
+     , (0x7F981001, 0x7F98109F, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F981001, 0x7F9810A0, '2019-02-10 00:00:00') /* Spiny Chittick (22508) */
+     , (0x7F981001, 0x7F9810A1, '2019-02-10 00:00:00') /* Tusker Kin (22509) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F981002, 22508, 0xF9810035, 162.4347, 102.1862, 26.90123, -0.9722126, 0, 0, -0.2340998,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */
@@ -796,12 +799,24 @@ VALUES (0x7F98109E, 22748, 0xF9810031, 159.8454, 15.66266, 30.00918, -0.2434839,
 /* @teleloc 0xF9810031 [159.845400 15.662660 30.009180] -0.243484 0.000000 0.000000 -0.969905 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F98109F,  1542, 0xF9810017, 51.46437, 155.7271, 13.04754, 0.7609836, 0, 0, -0.648771, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7F98109F, 22508, 0xF9810025, 119.7159, 110.9254, 27.69142, -0.9022235, 0, 0, -0.4312689,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */
+/* @teleloc 0xF9810025 [119.715900 110.925400 27.691420] -0.902224 0.000000 0.000000 -0.431269 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F9810A0, 22508, 0xF9810040, 179.6532, 170.4401, 13.78065, 0.9972783, 0, 0, -0.07372885,  True, '2019-02-10 00:00:00'); /* Spiny Chittick */
+/* @teleloc 0xF9810040 [179.653200 170.440100 13.780650] 0.997278 0.000000 0.000000 -0.073729 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F9810A1, 22509, 0xF9810035, 163.3088, 96.42654, 28.2893, -0.9722126, 0, 0, -0.2340998,  True, '2019-02-10 00:00:00'); /* Tusker Kin */
+/* @teleloc 0xF9810035 [163.308800 96.426540 28.289300] -0.972213 0.000000 0.000000 -0.234100 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F9810A2,  1542, 0xF9810017, 51.46437, 155.7271, 13.04754, 0.7609836, 0, 0, -0.648771, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xF9810017 [51.464370 155.727100 13.047540] 0.760984 0.000000 0.000000 -0.648771 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F98109F, 0x7F9810A0, '2019-02-10 00:00:00') /* Lightning Jo (22155) */;
+VALUES (0x7F9810A2, 0x7F9810A3, '2019-02-10 00:00:00') /* Lightning Jo (22155) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F9810A0, 22155, 0xF9810017, 51.46437, 155.7271, 13.04754, 0.7609836, 0, 0, -0.648771,  True, '2019-02-10 00:00:00'); /* Lightning Jo */
+VALUES (0x7F9810A3, 22155, 0xF9810017, 51.46437, 155.7271, 13.04754, 0.7609836, 0, 0, -0.648771,  True, '2019-02-10 00:00:00'); /* Lightning Jo */
 /* @teleloc 0xF9810017 [51.464370 155.727100 13.047540] 0.760984 0.000000 0.000000 -0.648771 */

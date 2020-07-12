@@ -20,7 +20,12 @@ VALUES (0x7D652001, 0x7D652002, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
      , (0x7D652001, 0x7D65200E, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7D652001, 0x7D65200F, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
      , (0x7D652001, 0x7D652010, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
-     , (0x7D652001, 0x7D652011, '2019-02-10 00:00:00') /* Young Mosswart (19262) */;
+     , (0x7D652001, 0x7D652011, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7D652001, 0x7D652012, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7D652001, 0x7D652013, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
+     , (0x7D652001, 0x7D652014, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D652001, 0x7D652015, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x7D652001, 0x7D652016, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D652002,  4110, 0xD652000E, 42.19086, 136.0346, 31.5009, -0.9681117, 0, 0, -0.2505189,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
@@ -85,3 +90,23 @@ VALUES (0x7D652010, 19257, 0xD6520027, 111.9667, 162.1821, 33.33388, -0.946814, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D652011, 19262, 0xD6520037, 160.3823, 163.1052, 32.63921, -0.0839918, 0, 0, -0.9964665,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
 /* @teleloc 0xD6520037 [160.382300 163.105200 32.639210] -0.083992 0.000000 0.000000 -0.996467 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D652012,   192, 0xD652000D, 29.14045, 102.2911, 31.90761, 0.3645957, 0, 0, -0.9311659,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0xD652000D [29.140450 102.291100 31.907610] 0.364596 0.000000 0.000000 -0.931166 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D652013,   232, 0xD652000B, 30.04029, 68.02909, 32.83927, -0.4548934, 0, 0, -0.8905459,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
+/* @teleloc 0xD652000B [30.040290 68.029090 32.839270] -0.454893 0.000000 0.000000 -0.890546 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D652014,  7989, 0xD652002C, 127.2415, 76.26463, 32.35718, -0.2220863, 0, 0, -0.975027,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
+/* @teleloc 0xD652002C [127.241500 76.264630 32.357180] -0.222086 0.000000 0.000000 -0.975027 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D652015, 19261, 0xD6520027, 111.7429, 163.5119, 33.31686, -0.946814, 0, 0, -0.3217815,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
+/* @teleloc 0xD6520027 [111.742900 163.511900 33.316860] -0.946814 0.000000 0.000000 -0.321782 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D652016, 19257, 0xD6520037, 160.2316, 163.7939, 32.65069, -0.0839918, 0, 0, -0.9964665,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
+/* @teleloc 0xD6520037 [160.231600 163.793900 32.650690] -0.083992 0.000000 0.000000 -0.996467 */

@@ -156,7 +156,8 @@ VALUES (0x70C08001, 0x70C08002, '2019-02-10 00:00:00') /* Pestilence Rat (25879)
      , (0x70C08001, 0x70C08096, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
      , (0x70C08001, 0x70C08097, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
      , (0x70C08001, 0x70C08098, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
-     , (0x70C08001, 0x70C08099, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */;
+     , (0x70C08001, 0x70C08099, '2019-02-10 00:00:00') /* Desecrated Doll (25857) */
+     , (0x70C08001, 0x70C0809A, '2019-02-10 00:00:00') /* Malignant Marionette (25867) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70C08002, 25879, 0x0C080034, 167.9837, 75.57444, 23.71548, 0.1309521, 0, 0, -0.9913887,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */
@@ -767,12 +768,16 @@ VALUES (0x70C08099, 25857, 0x0C08003B, 170.0764, 65.61676, 22.61906, 0.1309521, 
 /* @teleloc 0x0C08003B [170.076400 65.616760 22.619060] 0.130952 0.000000 0.000000 -0.991389 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C0809A,  1542, 0x0C080013, 54.66933, 54.1013, 35.27298, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70C0809A, 25867, 0x0C080033, 160.8599, 71.18707, 23.33775, 0.1309521, 0, 0, -0.9913887,  True, '2019-02-10 00:00:00'); /* Malignant Marionette */
+/* @teleloc 0x0C080033 [160.859900 71.187070 23.337750] 0.130952 0.000000 0.000000 -0.991389 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70C0809B,  1542, 0x0C080013, 54.66933, 54.1013, 35.27298, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0C080013 [54.669330 54.101300 35.272980] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70C0809A, 0x70C0809B, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
+VALUES (0x70C0809B, 0x70C0809C, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70C0809B, 27298, 0x0C080013, 54.66933, 54.1013, 35.27298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
+VALUES (0x70C0809C, 27298, 0x0C080013, 54.66933, 54.1013, 35.27298, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
 /* @teleloc 0x0C080013 [54.669330 54.101300 35.272980] 1.000000 0.000000 0.000000 0.000000 */

@@ -28,7 +28,11 @@ VALUES (0x72810001, 0x72810002, '2019-02-10 00:00:00') /* Guardian Mu-miyah (711
      , (0x72810001, 0x72810016, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x72810001, 0x72810017, '2019-02-10 00:00:00') /* Phantasm (24325) */
      , (0x72810001, 0x72810018, '2019-02-10 00:00:00') /* Great Revenant (24320) */
-     , (0x72810001, 0x72810019, '2019-02-10 00:00:00') /* Great Skeleton (36858) */;
+     , (0x72810001, 0x72810019, '2019-02-10 00:00:00') /* Great Skeleton (36858) */
+     , (0x72810001, 0x7281001A, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x72810001, 0x7281001B, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x72810001, 0x7281001C, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
+     , (0x72810001, 0x7281001D, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72810002,  7117, 0x2810003B, 173.8618, 50.22046, 16.37097, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Guardian Mu-miyah */
@@ -127,12 +131,28 @@ VALUES (0x72810019, 36858, 0x2810003B, 168.2771, 68.73019, 13.573, -0.9301414, 0
 /* @teleloc 0x2810003B [168.277100 68.730190 13.573000] -0.930141 0.000000 0.000000 -0.367202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7281001A,  1542, 0x28100007, 21.92952, 156.6054, 16.7646, 0.1481661, 0, 0, -0.9889625, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7281001A,  7340, 0x28100006, 7.167221, 130.3865, 14.29728, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+/* @teleloc 0x28100006 [7.167221 130.386500 14.297280] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7281001B,  7092, 0x28100008, 15.10989, 183.8688, 17.78597, 0.1481661, 0, 0, -0.9889625,  True, '2019-02-10 00:00:00'); /* Firestorm */
+/* @teleloc 0x28100008 [15.109890 183.868800 17.785970] 0.148166 0.000000 0.000000 -0.988963 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7281001C,  9264, 0x28100006, 11.95813, 126.4157, 14.029, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
+/* @teleloc 0x28100006 [11.958130 126.415700 14.029000] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7281001D, 24325, 0x2810001C, 76.74546, 84.54842, 11.91685, -0.7106337, 0, 0, -0.7035621,  True, '2019-02-10 00:00:00'); /* Phantasm */
+/* @teleloc 0x2810001C [76.745460 84.548420 11.916850] -0.710634 0.000000 0.000000 -0.703562 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7281001E,  1542, 0x28100007, 21.92952, 156.6054, 16.7646, 0.1481661, 0, 0, -0.9889625, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x28100007 [21.929520 156.605400 16.764600] 0.148166 0.000000 0.000000 -0.988963 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7281001A, 0x7281001B, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+VALUES (0x7281001E, 0x7281001F, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7281001B,  9288, 0x28100007, 21.92952, 156.6054, 16.7646, 0.1481661, 0, 0, -0.9889625,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x7281001F,  9288, 0x28100007, 21.92952, 156.6054, 16.7646, 0.1481661, 0, 0, -0.9889625,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x28100007 [21.929520 156.605400 16.764600] 0.148166 0.000000 0.000000 -0.988963 */

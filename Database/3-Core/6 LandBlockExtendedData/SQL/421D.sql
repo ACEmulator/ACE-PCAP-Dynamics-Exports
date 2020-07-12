@@ -32,7 +32,11 @@ VALUES (0x7421D002, 0x7421D003, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) 
      , (0x7421D002, 0x7421D013, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
      , (0x7421D002, 0x7421D014, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x7421D002, 0x7421D015, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x7421D002, 0x7421D016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
+     , (0x7421D002, 0x7421D016, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7421D002, 0x7421D017, '2019-02-10 00:00:00') /* Pyreal Golem (36833) */
+     , (0x7421D002, 0x7421D018, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7421D002, 0x7421D019, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x7421D002, 0x7421D01A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7421D003, 24497, 0x421D0036, 151.8114, 128.5506, 32.01, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -115,12 +119,28 @@ VALUES (0x7421D016, 36830, 0x421D0026, 118.3285, 136.4854, 32.01, 0.9238795, 0, 
 /* @teleloc 0x421D0026 [118.328500 136.485400 32.010000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7421D017,  1542, 0x421D0036, 160.5514, 130.7557, 32, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7421D017, 36833, 0x421D000E, 24.96189, 130.7147, 36.36805, -0.7832541, 0, 0, -0.6217017,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
+/* @teleloc 0x421D000E [24.961890 130.714700 36.368050] -0.783254 0.000000 0.000000 -0.621702 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7421D018,  7982, 0x421D0026, 118.6875, 130.6919, 31.9979, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x421D0026 [118.687500 130.691900 31.997900] 0.906308 0.000000 0.000000 -0.422618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7421D019,  8138, 0x421D002E, 141.0764, 121.3447, 32.01, 0.7850283, 0, 0, -0.6194599,  True, '2019-02-10 00:00:00'); /* Extas Raider */
+/* @teleloc 0x421D002E [141.076400 121.344700 32.010000] 0.785028 0.000000 0.000000 -0.619460 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7421D01A,  7982, 0x421D002E, 123.1879, 126.1403, 31.9979, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x421D002E [123.187900 126.140300 31.997900] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7421D01B,  1542, 0x421D0036, 160.5514, 130.7557, 32, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x421D0036 [160.551400 130.755700 32.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7421D017, 0x7421D018, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
+VALUES (0x7421D01B, 0x7421D01C, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7421D018, 22571, 0x421D0036, 160.5514, 130.7557, 32, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7421D01C, 22571, 0x421D0036, 160.5514, 130.7557, 32, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x421D0036 [160.551400 130.755700 32.000000] 1.000000 0.000000 0.000000 0.000000 */

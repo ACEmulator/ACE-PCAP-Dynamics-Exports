@@ -20,7 +20,8 @@ VALUES (0x79099001, 0x79099002, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
      , (0x79099001, 0x7909900E, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x79099001, 0x7909900F, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
      , (0x79099001, 0x79099010, '2019-02-10 00:00:00') /* Shadow (1758) */
-     , (0x79099001, 0x79099011, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */;
+     , (0x79099001, 0x79099011, '2019-02-10 00:00:00') /* Nasty Scarecrow (28877) */
+     , (0x79099001, 0x79099012, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79099002,  1989, 0x90990003, 22.3818, 48.54101, 104.0455, -0.9811484, 0, 0, -0.193256,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
@@ -87,17 +88,26 @@ VALUES (0x79099011, 28877, 0x90990003, 7.285038, 55.93574, 107.0113, -0.9811484,
 /* @teleloc 0x90990003 [7.285038 55.935740 107.011300] -0.981148 0.000000 0.000000 -0.193256 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79099012,  1542, 0x9099000C, 25.71877, 77.22091, 110.3011, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79099012,  7979, 0x90990003, 9.151116, 55.17933, 106.8263, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virulent Grievver */
+/* @teleloc 0x90990003 [9.151116 55.179330 106.826300] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79099013,  1542, 0x9099000C, 25.71877, 77.22091, 110.3011, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9099000C [25.718770 77.220910 110.301100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79099012, 0x79099013, '2019-02-10 00:00:00') /* Strange Stick (5779) */
-     , (0x79099012, 0x79099014, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
+VALUES (0x79099013, 0x79099014, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x79099013, 0x79099015, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79099013, 0x79099016, '2019-02-10 00:00:00') /* Pumpkin (8232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79099013,  5779, 0x9099000C, 25.71877, 77.22091, 110.3011, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+VALUES (0x79099014,  5779, 0x9099000C, 25.71877, 77.22091, 110.3011, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
 /* @teleloc 0x9099000C [25.718770 77.220910 110.301100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79099014,  8232, 0x90990003, 6.28253, 53.15742, 104.9177, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
+VALUES (0x79099015,  8232, 0x90990003, 6.28253, 53.15742, 104.9177, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
 /* @teleloc 0x90990003 [6.282530 53.157420 104.917700] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79099016,  8232, 0x90990003, 7.811551, 56.81011, 105.5877, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
+/* @teleloc 0x90990003 [7.811551 56.810110 105.587700] 1.000000 0.000000 0.000000 0.000000 */

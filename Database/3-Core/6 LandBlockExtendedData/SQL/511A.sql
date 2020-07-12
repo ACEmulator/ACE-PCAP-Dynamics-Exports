@@ -19,7 +19,17 @@ VALUES (0x7511A001, 0x7511A002, '2019-02-10 00:00:00') /* Tumerok Warrior (233) 
      , (0x7511A001, 0x7511A00D, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
      , (0x7511A001, 0x7511A00E, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
      , (0x7511A001, 0x7511A00F, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
-     , (0x7511A001, 0x7511A010, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
+     , (0x7511A001, 0x7511A010, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A011, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A012, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7511A001, 0x7511A013, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A014, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7511A001, 0x7511A015, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A016, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A017, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A018, '2019-02-10 00:00:00') /* Auroch Fire Yearling (1605) */
+     , (0x7511A001, 0x7511A019, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */
+     , (0x7511A001, 0x7511A01A, '2019-02-10 00:00:00') /* Auroch Fire Cow (1606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7511A002,   233, 0x511A0002, 7.509126, 41.16716, 39.02159, 0.323171, 0, 0, -0.9463406,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -80,3 +90,43 @@ VALUES (0x7511A00F,  1606, 0x511A0014, 60.88085, 91.15374, 45.19215, 0.7559613, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7511A010,  1606, 0x511A0015, 58.53677, 96.43058, 45.73313, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
 /* @teleloc 0x511A0015 [58.536770 96.430580 45.733130] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A011,  1606, 0x511A0014, 56.02726, 88.36278, 46.63812, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A0014 [56.027260 88.362780 46.638120] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A012,  1605, 0x511A0014, 57.93357, 86.97031, 46.27673, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Yearling */
+/* @teleloc 0x511A0014 [57.933570 86.970310 46.276730] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A013,  1606, 0x511A0015, 61.3123, 97.04453, 45.55087, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A0015 [61.312300 97.044530 45.550870] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A014,  1605, 0x511A0014, 68.9538, 92.20895, 43.08512, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Yearling */
+/* @teleloc 0x511A0014 [68.953800 92.208950 43.085120] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A015,  1606, 0x511A0014, 58.79414, 83.91711, 45.6725, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A0014 [58.794140 83.917110 45.672500] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A016,  1606, 0x511A0014, 60.4091, 94.57166, 45.02526, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A0014 [60.409100 94.571660 45.025260] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A017,  1606, 0x511A001C, 74.95069, 91.0104, 40.70307, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A001C [74.950690 91.010400 40.703070] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A018,  1605, 0x511A0014, 70.07047, 80.56545, 43.77625, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Yearling */
+/* @teleloc 0x511A0014 [70.070470 80.565450 43.776250] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A019,  1606, 0x511A0014, 58.00586, 85.95911, 46.32626, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A0014 [58.005860 85.959110 46.326260] 0.755961 0.000000 0.000000 0.654616 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7511A01A,  1606, 0x511A0014, 56.54063, 94.76154, 45.97655, 0.7559613, 0, 0, 0.6546163,  True, '2019-02-10 00:00:00'); /* Auroch Fire Cow */
+/* @teleloc 0x511A0014 [56.540630 94.761540 45.976550] 0.755961 0.000000 0.000000 0.654616 */

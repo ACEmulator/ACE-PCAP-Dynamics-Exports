@@ -133,7 +133,16 @@ VALUES (0x7060A001, 0x7060A002, '2019-02-10 00:00:00') /* Pestilence Rat (25879)
      , (0x7060A001, 0x7060A07F, '2019-02-10 00:00:00') /* Parfal Nefane (25875) */
      , (0x7060A001, 0x7060A080, '2019-02-10 00:00:00') /* Creeping Margul (25860) */
      , (0x7060A001, 0x7060A081, '2019-02-10 00:00:00') /* Creeping Margul (25860) */
-     , (0x7060A001, 0x7060A082, '2019-02-10 00:00:00') /* Graal Margul (25861) */;
+     , (0x7060A001, 0x7060A082, '2019-02-10 00:00:00') /* Graal Margul (25861) */
+     , (0x7060A001, 0x7060A083, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x7060A001, 0x7060A084, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x7060A001, 0x7060A085, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x7060A001, 0x7060A086, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
+     , (0x7060A001, 0x7060A087, '2019-02-10 00:00:00') /* Graal Margul (25861) */
+     , (0x7060A001, 0x7060A088, '2019-02-10 00:00:00') /* Graal Margul (25861) */
+     , (0x7060A001, 0x7060A089, '2019-02-10 00:00:00') /* Befouled Doll (25854) */
+     , (0x7060A001, 0x7060A08A, '2019-02-10 00:00:00') /* Umbral Rift (25884) */
+     , (0x7060A001, 0x7060A08B, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7060A002, 25879, 0x060A0008, 1.579975, 191.5789, 22.46848, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Pestilence Rat */
@@ -650,3 +659,39 @@ VALUES (0x7060A081, 25860, 0x060A002D, 137.49, 101.6471, 90.02904, 1, 0, 0, 0,  
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7060A082, 25861, 0x060A0032, 145.5331, 24.61987, 77.03378, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Graal Margul */
 /* @teleloc 0x060A0032 [145.533100 24.619870 77.033780] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A083, 25888, 0x060A0006, 3.804275, 126.2702, 27.29856, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x060A0006 [3.804275 126.270200 27.298560] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A084, 25888, 0x060A0005, 14.83522, 112.8548, 43.95948, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x060A0005 [14.835220 112.854800 43.959480] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A085, 25888, 0x060A0005, 9.459215, 105.0031, 47.46614, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x060A0005 [9.459215 105.003100 47.466140] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A086, 25853, 0x060A0018, 70.85232, 185.3366, 29.21748, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tainted Carenzi */
+/* @teleloc 0x060A0018 [70.852320 185.336600 29.217480] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A087, 25861, 0x060A0020, 74.39455, 176.0914, 50.79001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Graal Margul */
+/* @teleloc 0x060A0020 [74.394550 176.091400 50.790010] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A088, 25861, 0x060A0020, 85.51538, 174.2311, 66.45, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Graal Margul */
+/* @teleloc 0x060A0020 [85.515380 174.231100 66.450000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A089, 25854, 0x060A0025, 98.80575, 99.74319, 74.46935, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Befouled Doll */
+/* @teleloc 0x060A0025 [98.805750 99.743190 74.469350] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A08A, 25884, 0x060A0025, 107.1929, 105.9229, 71.76712, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Umbral Rift */
+/* @teleloc 0x060A0025 [107.192900 105.922900 71.767120] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7060A08B, 25888, 0x060A002D, 125.0123, 106.9762, 80.67774, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x060A002D [125.012300 106.976200 80.677740] 1.000000 0.000000 0.000000 0.000000 */

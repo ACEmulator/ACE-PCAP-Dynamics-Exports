@@ -63,7 +63,24 @@ VALUES (0x70408001, 0x70408002, '2019-02-10 00:00:00') /* Raven Hunter (31404) *
      , (0x70408001, 0x70408035, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
      , (0x70408001, 0x70408036, '2019-02-10 00:00:00') /* Raven Augur (31402) */
      , (0x70408001, 0x70408037, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
-     , (0x70408001, 0x70408038, '2019-02-10 00:00:00') /* Raven Augur (31402) */;
+     , (0x70408001, 0x70408038, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70408001, 0x70408039, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70408001, 0x7040803A, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70408001, 0x7040803B, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70408001, 0x7040803C, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70408001, 0x7040803D, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70408001, 0x7040803E, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70408001, 0x7040803F, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70408001, 0x70408040, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70408001, 0x70408041, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70408001, 0x70408042, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70408001, 0x70408043, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70408001, 0x70408044, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70408001, 0x70408045, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70408001, 0x70408046, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70408001, 0x70408047, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70408001, 0x70408048, '2019-02-10 00:00:00') /* Raven Augur (31402) */
+     , (0x70408001, 0x70408049, '2019-02-10 00:00:00') /* Raven Augur (31402) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70408002, 31404, 0x04080037, 163.42, 149.1313, 70.99827, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
@@ -284,3 +301,71 @@ VALUES (0x70408037, 31400, 0x04080020, 81.27158, 178.5498, 84.005, 0.8847168, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70408038, 31402, 0x04080020, 81.74457, 185.9079, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Augur */
 /* @teleloc 0x04080020 [81.744570 185.907900 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408039, 31400, 0x04080020, 81.90458, 181.621, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x04080020 [81.904580 181.621000 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7040803A, 31404, 0x04080020, 84.87294, 181.0909, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x04080020 [84.872940 181.090900 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7040803B, 31404, 0x04080020, 86.55006, 176.5171, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x04080020 [86.550060 176.517100 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7040803C, 31402, 0x04080016, 59.50247, 133.3336, 80.96354, 0.7251139, 0, 0, 0.6886289,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x04080016 [59.502470 133.333600 80.963540] 0.725114 0.000000 0.000000 0.688629 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7040803D, 31400, 0x04080037, 166.9811, 146.7601, 69.61508, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x04080037 [166.981100 146.760100 69.615080] 0.313932 0.000000 0.000000 -0.949445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7040803E, 31404, 0x04080037, 160.3621, 144.5471, 73.05136, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x04080037 [160.362100 144.547100 73.051360] 0.313932 0.000000 0.000000 -0.949445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7040803F, 31400, 0x04080016, 57.43013, 132.6742, 80.31692, 0.7251139, 0, 0, 0.6886289,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x04080016 [57.430130 132.674200 80.316920] 0.725114 0.000000 0.000000 0.688629 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408040, 31402, 0x04080016, 58.07364, 138.7009, 80.84447, 0.7251139, 0, 0, 0.6886289,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x04080016 [58.073640 138.700900 80.844470] 0.725114 0.000000 0.000000 0.688629 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408041, 31402, 0x04080020, 86.66014, 184.4191, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x04080020 [86.660140 184.419100 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408042, 31400, 0x04080020, 77.31182, 176.9802, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x04080020 [77.311820 176.980200 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408043, 31404, 0x04080020, 84.6592, 184.9126, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x04080020 [84.659200 184.912600 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408044, 31402, 0x04080020, 85.93649, 177.2982, 84.005, 0.8847168, 0, 0, -0.4661289,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x04080020 [85.936490 177.298200 84.005000] 0.884717 0.000000 0.000000 -0.466129 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408045, 31404, 0x04080037, 167.178, 150.9756, 72.0741, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x04080037 [167.178000 150.975600 72.074100] 0.313932 0.000000 0.000000 -0.949445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408046, 31400, 0x04080037, 159.0797, 146.3074, 73.75956, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x04080037 [159.079700 146.307400 73.759560] 0.313932 0.000000 0.000000 -0.949445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408047, 31404, 0x04080037, 166.2608, 146.5273, 69.47923, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x04080037 [166.260800 146.527300 69.479230] 0.313932 0.000000 0.000000 -0.949445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408048, 31402, 0x04080037, 161.9334, 146.5704, 71.83524, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x04080037 [161.933400 146.570400 71.835240] 0.313932 0.000000 0.000000 -0.949445 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70408049, 31402, 0x04080036, 161.1493, 143.4591, 72.52703, 0.3139322, 0, 0, -0.9494454,  True, '2019-02-10 00:00:00'); /* Raven Augur */
+/* @teleloc 0x04080036 [161.149300 143.459100 72.527030] 0.313932 0.000000 0.000000 -0.949445 */

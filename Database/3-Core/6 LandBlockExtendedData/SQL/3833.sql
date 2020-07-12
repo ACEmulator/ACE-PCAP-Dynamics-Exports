@@ -62,7 +62,11 @@ VALUES (0x73833001, 0x73833002, '2019-02-10 00:00:00') /* Blighted Bane Grievver
      , (0x73833001, 0x73833038, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
      , (0x73833001, 0x73833039, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
      , (0x73833001, 0x7383303A, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
-     , (0x73833001, 0x7383303B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */;
+     , (0x73833001, 0x7383303B, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
+     , (0x73833001, 0x7383303C, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
+     , (0x73833001, 0x7383303D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x73833001, 0x7383303E, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73833001, 0x7383303F, '2019-02-10 00:00:00') /* Banderling Scalper (36820) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73833002, 38180, 0x38330010, 38.29778, 176.881, 85.70908, 0.5069063, 0, 0, -0.8620012,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -297,17 +301,33 @@ VALUES (0x7383303B, 24279, 0x38330040, 182.7246, 170.4139, 101.2304, -0.9866753,
 /* @teleloc 0x38330040 [182.724600 170.413900 101.230400] -0.986675 0.000000 0.000000 -0.162702 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7383303C,  1542, 0x38330018, 50.70217, 172.4595, 87.48193, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7383303C, 14520, 0x38330010, 38.8904, 182.9839, 84.76913, 0.5069063, 0, 0, -0.8620012,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
+/* @teleloc 0x38330010 [38.890400 182.983900 84.769130] 0.506906 0.000000 0.000000 -0.862001 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7383303D, 23482, 0x3833000F, 33.01109, 167.9124, 86.75822, 0.5069063, 0, 0, -0.8620012,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x3833000F [33.011090 167.912400 86.758220] 0.506906 0.000000 0.000000 -0.862001 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7383303E, 38180, 0x38330040, 183.6277, 189.6361, 100.2987, -0.9866753, 0, 0, -0.1627015,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
+/* @teleloc 0x38330040 [183.627700 189.636100 100.298700] -0.986675 0.000000 0.000000 -0.162702 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7383303F, 36820, 0x38330040, 189.9294, 168.9904, 101.8346, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Scalper */
+/* @teleloc 0x38330040 [189.929400 168.990400 101.834600] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73833040,  1542, 0x38330018, 50.70217, 172.4595, 87.48193, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x38330018 [50.702170 172.459500 87.481930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7383303C, 0x7383303D, '2019-02-10 00:00:00') /* Steel Chest (8999) */
-     , (0x7383303C, 0x7383303E, '2019-02-10 00:00:00') /* Portal to Cragstone (42818) */;
+VALUES (0x73833040, 0x73833041, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x73833040, 0x73833042, '2019-02-10 00:00:00') /* Portal to Cragstone (42818) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7383303D,  8999, 0x38330018, 50.70217, 172.4595, 87.48193, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
+VALUES (0x73833041,  8999, 0x38330018, 50.70217, 172.4595, 87.48193, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
 /* @teleloc 0x38330018 [50.702170 172.459500 87.481930] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7383303E, 42818, 0x3833000D, 44.64614, 97.94473, 93.37803, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Cragstone */
+VALUES (0x73833042, 42818, 0x3833000D, 44.64614, 97.94473, 93.37803, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Cragstone */
 /* @teleloc 0x3833000D [44.646140 97.944730 93.378030] 1.000000 0.000000 0.000000 0.000000 */

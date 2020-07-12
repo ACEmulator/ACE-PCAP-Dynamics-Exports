@@ -1428,7 +1428,9 @@ VALUES (0x701E3151, 0x701E3152, '2019-02-10 00:00:00') /* Bread (259) */
      , (0x701E3151, 0x701E31D2, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x701E3151, 0x701E31D3, '2019-02-10 00:00:00') /* Cheese (261) */
      , (0x701E3151, 0x701E31D4, '2019-02-10 00:00:00') /* Fish (263) */
-     , (0x701E3151, 0x701E31D5, '2019-02-10 00:00:00') /* Robe of the Tundra (23593) */;
+     , (0x701E3151, 0x701E31D5, '2019-02-10 00:00:00') /* Robe of the Tundra (23593) */
+     , (0x701E3151, 0x701E31D6, '2019-02-10 00:00:00') /* Surface (2093) */
+     , (0x701E3151, 0x701E31D7, '2019-02-10 00:00:00') /* Surface (2093) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E3152,   259, 0x01E3025C, 65.43716, -76.50566, 0, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Bread */
@@ -1957,3 +1959,11 @@ VALUES (0x701E31D4,   263, 0x01E302F2, 132.3438, -31.45768, 0, -0.7071068, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x701E31D5, 23593, 0x01E3010E, 112.9488, -43.34694, -30.0025, -0.4586845, 0, 0, 0.8885992,  True, '2019-02-10 00:00:00'); /* Robe of the Tundra */
 /* @teleloc 0x01E3010E [112.948800 -43.346940 -30.002500] -0.458685 0.000000 0.000000 0.888599 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701E31D6,  2093, 0x01E30332, 149.2194, -163.5133, 0.004999995, -0.08278521, 0, 0, 0.9965674,  True, '2019-02-10 00:00:00'); /* Surface */
+/* @teleloc 0x01E30332 [149.219400 -163.513300 0.005000] -0.082785 0.000000 0.000000 0.996567 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x701E31D7,  2093, 0x01E30105, 82.7102, -37.24934, -29.995, 0.5191275, 0, 0, 0.8546968,  True, '2019-02-10 00:00:00'); /* Surface */
+/* @teleloc 0x01E30105 [82.710200 -37.249340 -29.995000] 0.519128 0.000000 0.000000 0.854697 */

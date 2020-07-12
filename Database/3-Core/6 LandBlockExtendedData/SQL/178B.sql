@@ -12,7 +12,10 @@ VALUES (0x7178B001, 0x7178B002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36
      , (0x7178B001, 0x7178B006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x7178B001, 0x7178B007, '2019-02-10 00:00:00') /* Reedshark Slasher (24134) */
      , (0x7178B001, 0x7178B008, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
-     , (0x7178B001, 0x7178B009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
+     , (0x7178B001, 0x7178B009, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7178B001, 0x7178B00A, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x7178B001, 0x7178B00B, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
+     , (0x7178B001, 0x7178B00C, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7178B002, 36844, 0x178B0017, 71.36881, 167.1944, 147.7826, -0.3773793, 0, 0, -0.9260588,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -45,3 +48,15 @@ VALUES (0x7178B008, 36830, 0x178B003D, 177.9302, 117.0024, 162.7584, -0.8928571,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7178B009,  7982, 0x178B001F, 81.84035, 165.3419, 145.3823, -0.3773793, 0, 0, -0.9260588,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
 /* @teleloc 0x178B001F [81.840350 165.341900 145.382300] -0.377379 0.000000 0.000000 -0.926059 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7178B00A, 36830, 0x178B0020, 85.71375, 180.0677, 140.4554, -0.3773793, 0, 0, -0.9260588,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x178B0020 [85.713750 180.067700 140.455400] -0.377379 0.000000 0.000000 -0.926059 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7178B00B, 24277, 0x178B0036, 161.8807, 121.6862, 158.3368, -0.8928571, 0, 0, -0.45034,  True, '2019-02-10 00:00:00'); /* Banderling Slayer */
+/* @teleloc 0x178B0036 [161.880700 121.686200 158.336800] -0.892857 0.000000 0.000000 -0.450340 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7178B00C, 36832, 0x178B003E, 168.5753, 143.2164, 156.3324, 0.2074004, 0, 0, -0.9782561,  True, '2019-02-10 00:00:00'); /* Gold Golem */
+/* @teleloc 0x178B003E [168.575300 143.216400 156.332400] 0.207400 0.000000 0.000000 -0.978256 */

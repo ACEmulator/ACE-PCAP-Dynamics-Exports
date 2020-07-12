@@ -40,7 +40,8 @@ VALUES (0x7856E007, 0x7856E008, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7856E007, 0x7856E00C, '2019-02-10 00:00:00') /* Undead (16) */
      , (0x7856E007, 0x7856E00D, '2019-02-10 00:00:00') /* Brown Armoredillo (178) */
      , (0x7856E007, 0x7856E00E, '2019-02-10 00:00:00') /* Zombie (950) */
-     , (0x7856E007, 0x7856E00F, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */;
+     , (0x7856E007, 0x7856E00F, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7856E007, 0x7856E010, '2019-02-10 00:00:00') /* Bronze Armoredillo (19) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7856E008,  1759, 0x856E0038, 149.5568, 180.1889, 10.0025, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -75,22 +76,26 @@ VALUES (0x7856E00F,  2439, 0x856E0006, 14.57082, 129.2733, 12.43397, 0.9697776, 
 /* @teleloc 0x856E0006 [14.570820 129.273300 12.433970] 0.969778 0.000000 0.000000 -0.243991 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7856E010,  1154, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0, -0.998315, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7856E010,    19, 0x856E000F, 29.02487, 154.3771, 10.42924, 0.9697776, 0, 0, -0.2439906,  True, '2019-02-10 00:00:00'); /* Bronze Armoredillo */
+/* @teleloc 0x856E000F [29.024870 154.377100 10.429240] 0.969778 0.000000 0.000000 -0.243991 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7856E011,  1154, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0, -0.998315, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x856E010E [153.789000 157.015000 9.705000] -0.058020 0.000000 0.000000 -0.998315 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7856E010, 0x7856E011, '2019-02-10 00:00:00') /* Ya-Bint-Al-Hawa (9228) */
-     , (0x7856E010, 0x7856E012, '2019-02-10 00:00:00') /* Gabal Feteh (9226) */
-     , (0x7856E010, 0x7856E013, '2019-02-10 00:00:00') /* Anid Al-Fadee (9227) */;
+VALUES (0x7856E011, 0x7856E012, '2019-02-10 00:00:00') /* Ya-Bint-Al-Hawa (9228) */
+     , (0x7856E011, 0x7856E013, '2019-02-10 00:00:00') /* Gabal Feteh (9226) */
+     , (0x7856E011, 0x7856E014, '2019-02-10 00:00:00') /* Anid Al-Fadee (9227) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7856E011,  9228, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0, -0.998315,  True, '2019-02-10 00:00:00'); /* Ya-Bint-Al-Hawa */
+VALUES (0x7856E012,  9228, 0x856E010E, 153.789, 157.015, 9.705, -0.0580198, 0, 0, -0.998315,  True, '2019-02-10 00:00:00'); /* Ya-Bint-Al-Hawa */
 /* @teleloc 0x856E010E [153.789000 157.015000 9.705000] -0.058020 0.000000 0.000000 -0.998315 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7856E012,  9226, 0x856E010F, 159.03, 153.85, 9.705, 0.662895, 0, 0, 0.748713,  True, '2019-02-10 00:00:00'); /* Gabal Feteh */
+VALUES (0x7856E013,  9226, 0x856E010F, 159.03, 153.85, 9.705, 0.662895, 0, 0, 0.748713,  True, '2019-02-10 00:00:00'); /* Gabal Feteh */
 /* @teleloc 0x856E010F [159.030000 153.850000 9.705000] 0.662895 0.000000 0.000000 0.748713 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7856E013,  9227, 0x856E010F, 158.985, 157.607, 9.705, 0.461039, 0, 0, 0.88738,  True, '2019-02-10 00:00:00'); /* Anid Al-Fadee */
+VALUES (0x7856E014,  9227, 0x856E010F, 158.985, 157.607, 9.705, 0.461039, 0, 0, 0.88738,  True, '2019-02-10 00:00:00'); /* Anid Al-Fadee */
 /* @teleloc 0x856E010F [158.985000 157.607000 9.705000] 0.461039 0.000000 0.000000 0.887380 */

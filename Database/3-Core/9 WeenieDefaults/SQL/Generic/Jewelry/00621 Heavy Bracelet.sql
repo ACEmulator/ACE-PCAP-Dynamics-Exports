@@ -18,8 +18,7 @@ VALUES (621,   1,          8) /* ItemType - Jewelry */
      , (621, 109,        234) /* ItemDifficulty */
      , (621, 110,          0) /* ItemAllegianceRankLimit */
      , (621, 115,          0) /* ItemSkillLevelLimit */
-     , (621, 131,         63) /* MaterialType - Silver */
-     , (621, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (621, 131,         63) /* MaterialType - Silver */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (621,  22, True ) /* Inscribable */;

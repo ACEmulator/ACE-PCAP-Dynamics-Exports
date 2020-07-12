@@ -42,7 +42,8 @@ VALUES (0x724ED001, 0x724ED002, '2019-02-10 00:00:00') /* Olthoi Piercer (24960)
      , (0x724ED001, 0x724ED024, '2019-02-10 00:00:00') /* Risen Lord (24326) */
      , (0x724ED001, 0x724ED025, '2019-02-10 00:00:00') /* High Mu-miyah (7116) */
      , (0x724ED001, 0x724ED026, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
-     , (0x724ED001, 0x724ED027, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */;
+     , (0x724ED001, 0x724ED027, '2019-02-10 00:00:00') /* Ebon Mattekar (26469) */
+     , (0x724ED001, 0x724ED028, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724ED002, 24960, 0x24ED002B, 126.7484, 58.89289, 27.81093, -0.7460572, 0, 0, -0.6658819,  True, '2019-02-10 00:00:00'); /* Olthoi Piercer */
@@ -195,3 +196,7 @@ VALUES (0x724ED026, 28553, 0x24ED001E, 73.32265, 126.6694, 28.33354, -0.04888402
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724ED027, 26469, 0x24ED0005, 8.579987, 119.3665, 4, -0.9997917, 0, 0, -0.02040879,  True, '2019-02-10 00:00:00'); /* Ebon Mattekar */
 /* @teleloc 0x24ED0005 [8.579987 119.366500 4.000000] -0.999792 0.000000 0.000000 -0.020409 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x724ED028, 22910, 0x24ED0028, 110.4485, 175.0473, 10.79151, -0.5724964, 0, 0, -0.8199072,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */
+/* @teleloc 0x24ED0028 [110.448500 175.047300 10.791510] -0.572496 0.000000 0.000000 -0.819907 */

@@ -14,8 +14,7 @@ VALUES (2416,   1,       2048) /* ItemType - Gem */
      , (2416,  19,         25) /* Value */
      , (2416,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2416, 105,          7) /* ItemWorkmanship */
-     , (2416, 131,         30) /* MaterialType - Malachite */
-     , (2416, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2416, 131,         30) /* MaterialType - Malachite */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2416,  22, True ) /* Inscribable */;

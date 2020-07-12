@@ -17,7 +17,8 @@ VALUES (0x7DD75001, 0x7DD75002, '2019-02-10 00:00:00') /* Tumerok Major (23565) 
      , (0x7DD75001, 0x7DD7500B, '2019-02-10 00:00:00') /* Dark Leech (7123) */
      , (0x7DD75001, 0x7DD7500C, '2019-02-10 00:00:00') /* Dark Magus (7124) */
      , (0x7DD75001, 0x7DD7500D, '2019-02-10 00:00:00') /* Static (6382) */
-     , (0x7DD75001, 0x7DD7500E, '2019-02-10 00:00:00') /* Scintilla (6380) */;
+     , (0x7DD75001, 0x7DD7500E, '2019-02-10 00:00:00') /* Scintilla (6380) */
+     , (0x7DD75001, 0x7DD7500F, '2019-02-10 00:00:00') /* Tumerok Taskmaster (230) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD75002, 23565, 0xDD75000B, 38.10701, 53.26913, 30.83042, 0.6928853, 0, 0, -0.7210478,  True, '2019-02-10 00:00:00'); /* Tumerok Major */
@@ -70,3 +71,7 @@ VALUES (0x7DD7500D,  6382, 0xDD75003E, 170.4819, 143.7129, 7.978574, -0.9745061,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD7500E,  6380, 0xDD75003F, 172.4897, 154.651, 8.006499, -0.9745061, 0, 0, -0.224361,  True, '2019-02-10 00:00:00'); /* Scintilla */
 /* @teleloc 0xDD75003F [172.489700 154.651000 8.006499] -0.974506 0.000000 0.000000 -0.224361 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DD7500F,   230, 0xDD750006, 17.74128, 126.318, 28.94855, 0.9563529, 0, 0, -0.2922142,  True, '2019-02-10 00:00:00'); /* Tumerok Taskmaster */
+/* @teleloc 0xDD750006 [17.741280 126.318000 28.948550] 0.956353 0.000000 0.000000 -0.292214 */

@@ -12,7 +12,11 @@ VALUES (0x74430001, 0x74430002, '2019-02-10 00:00:00') /* Destroyer Grievver (79
      , (0x74430001, 0x74430006, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
      , (0x74430001, 0x74430007, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
      , (0x74430001, 0x74430008, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
-     , (0x74430001, 0x74430009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
+     , (0x74430001, 0x74430009, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x74430001, 0x7443000A, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74430001, 0x7443000B, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x74430001, 0x7443000C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74430001, 0x7443000D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74430002,  7982, 0x4430002C, 131.0412, 86.33601, 11.30733, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -45,3 +49,19 @@ VALUES (0x74430008, 23482, 0x44300034, 155.062, 89.5742, 12.54269, -0.7727745, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74430009, 24958, 0x44300033, 160.2718, 54.69466, 11.34413, -0.7727745, 0, 0, -0.6346807,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
 /* @teleloc 0x44300033 [160.271800 54.694660 11.344130] -0.772775 0.000000 0.000000 -0.634681 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7443000A,  4254, 0x44300017, 68.42661, 147.1979, 8.004, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x44300017 [68.426610 147.197900 8.004000] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7443000B,  1758, 0x44300017, 61.91565, 145.1177, 8.004999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0x44300017 [61.915650 145.117700 8.004999] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7443000C,  4254, 0x44300017, 66.94738, 149.6742, 8.004, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x44300017 [66.947380 149.674200 8.004000] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7443000D, 24497, 0x44300034, 146.6521, 86.21442, 12.97353, -0.7727745, 0, 0, -0.6346807,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x44300034 [146.652100 86.214420 12.973530] -0.772775 0.000000 0.000000 -0.634681 */

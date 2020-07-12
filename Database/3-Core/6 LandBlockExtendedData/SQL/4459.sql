@@ -25,7 +25,10 @@ VALUES (0x74459001, 0x74459002, '2019-02-10 00:00:00') /* Armored Skeleton (3685
      , (0x74459001, 0x74459013, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
      , (0x74459001, 0x74459014, '2019-02-10 00:00:00') /* Great Revenant (24320) */
      , (0x74459001, 0x74459015, '2019-02-10 00:00:00') /* Risen Lord (24326) */
-     , (0x74459001, 0x74459016, '2019-02-10 00:00:00') /* Dark Master (24319) */;
+     , (0x74459001, 0x74459016, '2019-02-10 00:00:00') /* Dark Master (24319) */
+     , (0x74459001, 0x74459017, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
+     , (0x74459001, 0x74459018, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
+     , (0x74459001, 0x74459019, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74459002, 36855, 0x44590009, 35.74757, 6.151872, 39.48984, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Armored Skeleton */
@@ -110,3 +113,15 @@ VALUES (0x74459015, 24326, 0x44590026, 106.0547, 137.1097, 20.0075, 0.7071068, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74459016, 24319, 0x44590026, 98.02797, 133.8707, 20.00825, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Dark Master */
 /* @teleloc 0x44590026 [98.027970 133.870700 20.008250] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74459017, 36859, 0x44590032, 146.5539, 45.071, 18.51832, -0.8608473, 0, 0, -0.5088634,  True, '2019-02-10 00:00:00'); /* Skeletal Hero */
+/* @teleloc 0x44590032 [146.553900 45.071000 18.518320] -0.860847 0.000000 0.000000 -0.508863 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74459018, 21549, 0x4459002B, 122.8493, 61.54051, 19.29418, -0.8159706, 0, 0, -0.5780934,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
+/* @teleloc 0x4459002B [122.849300 61.540510 19.294180] -0.815971 0.000000 0.000000 -0.578093 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74459019, 23564, 0x44590026, 109.5846, 126.6007, 20.005, 0.9709046, 0, 0, -0.2394663,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x44590026 [109.584600 126.600700 20.005000] 0.970905 0.000000 0.000000 -0.239466 */

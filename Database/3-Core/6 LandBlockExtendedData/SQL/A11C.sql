@@ -21,7 +21,10 @@ VALUES (0x7A11C003, 0x7A11C004, '2019-02-10 00:00:00') /* Lithos Raider (8141) *
      , (0x7A11C003, 0x7A11C00D, '2019-02-10 00:00:00') /* Three Eyed Snowman (36918) */
      , (0x7A11C003, 0x7A11C00E, '2019-02-10 00:00:00') /* Gigas Raider (8139) */
      , (0x7A11C003, 0x7A11C00F, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
-     , (0x7A11C003, 0x7A11C010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
+     , (0x7A11C003, 0x7A11C010, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x7A11C003, 0x7A11C011, '2019-02-10 00:00:00') /* Shadow Wisp (1989) */
+     , (0x7A11C003, 0x7A11C012, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */
+     , (0x7A11C003, 0x7A11C013, '2019-02-10 00:00:00') /* Gotrok Extas (24494) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A11C004,  8141, 0xA11C0009, 44.09692, 15.07026, 358.2424, -0.7652067, 0, 0, -0.6437846,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -76,12 +79,24 @@ VALUES (0x7A11C010,  4254, 0xA11C0011, 59.64832, 7.288301, 357.695, 0.9238795, 0
 /* @teleloc 0xA11C0011 [59.648320 7.288301 357.695000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A11C011,  1542, 0xA11C0024, 99.10493, 85.57349, 362.3082, 0.9971986, 0, 0, -0.07479911, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7A11C011,  1989, 0xA11C000A, 47.32607, 34.85302, 350.5173, -0.7652067, 0, 0, -0.6437846,  True, '2019-02-10 00:00:00'); /* Shadow Wisp */
+/* @teleloc 0xA11C000A [47.326070 34.853020 350.517300] -0.765207 0.000000 0.000000 -0.643785 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A11C012, 24494, 0xA11C0023, 105.6955, 59.52388, 362.3082, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
+/* @teleloc 0xA11C0023 [105.695500 59.523880 362.308200] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A11C013, 24494, 0xA11C0023, 98.92643, 65.60169, 362.3082, -0.7660444, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
+/* @teleloc 0xA11C0023 [98.926430 65.601690 362.308200] -0.766044 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A11C014,  1542, 0xA11C0024, 99.10493, 85.57349, 362.3082, 0.9971986, 0, 0, -0.07479911, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xA11C0024 [99.104930 85.573490 362.308200] 0.997199 0.000000 0.000000 -0.074799 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A11C011, 0x7A11C012, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
+VALUES (0x7A11C014, 0x7A11C015, '2019-02-10 00:00:00') /* Argenory Plant (8648) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A11C012,  8648, 0xA11C0024, 99.10493, 85.57349, 362.3082, 0.9971986, 0, 0, -0.07479911,  True, '2019-02-10 00:00:00'); /* Argenory Plant */
+VALUES (0x7A11C015,  8648, 0xA11C0024, 99.10493, 85.57349, 362.3082, 0.9971986, 0, 0, -0.07479911,  True, '2019-02-10 00:00:00'); /* Argenory Plant */
 /* @teleloc 0xA11C0024 [99.104930 85.573490 362.308200] 0.997199 0.000000 0.000000 -0.074799 */

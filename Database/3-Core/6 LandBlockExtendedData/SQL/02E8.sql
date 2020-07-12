@@ -68,7 +68,17 @@ VALUES (0x702E8047, 0x702E8048, '2019-02-10 00:00:00') /* Lithos Raider (7554) *
      , (0x702E8047, 0x702E807C, '2019-02-10 00:00:00') /* Obeloth Raider (7555) */
      , (0x702E8047, 0x702E807D, '2019-02-10 00:00:00') /* Obeloth Raider (7555) */
      , (0x702E8047, 0x702E807E, '2019-02-10 00:00:00') /* Obeloth Raider (7555) */
-     , (0x702E8047, 0x702E807F, '2019-02-10 00:00:00') /* Obeloth Raider (7555) */;
+     , (0x702E8047, 0x702E807F, '2019-02-10 00:00:00') /* Obeloth Raider (7555) */
+     , (0x702E8047, 0x702E8080, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8081, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8082, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8083, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8084, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8085, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8086, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8087, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8088, '2019-02-10 00:00:00') /* Lithos Raider (7554) */
+     , (0x702E8047, 0x702E8089, '2019-02-10 00:00:00') /* Lithos Raider (7554) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702E8048,  7554, 0x02E8026B, 160.156, -471.361, 0.00999999, -0.028378, 0, 0, -0.999597,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
@@ -295,27 +305,67 @@ VALUES (0x702E807F,  7555, 0x02E80205, 11.5693, -449.486, 0.00999999, 0.7316888,
 /* @teleloc 0x02E80205 [11.569300 -449.486000 0.010000] 0.731689 0.000000 0.000000 -0.681639 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8080,  1542, 0x02E80145, 188.893, -99.3128, -12, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x702E8080,  7554, 0x02E80107, 54.78209, -197.8226, -11.99, 0.9749851, 0, 0, -0.2222701,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E80107 [54.782090 -197.822600 -11.990000] 0.974985 0.000000 0.000000 -0.222270 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8081,  7554, 0x02E80151, 204.9004, -140.1932, -11.99, -0.4025424, 0, 0, -0.9154013,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E80151 [204.900400 -140.193200 -11.990000] -0.402542 0.000000 0.000000 -0.915401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8082,  7554, 0x02E8015A, 205.7634, -115.0426, -11.99, -0.1320572, 0, 0, -0.9912421,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E8015A [205.763400 -115.042600 -11.990000] -0.132057 0.000000 0.000000 -0.991242 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8083,  7554, 0x02E8015A, 208.9404, -120.3994, -11.99, 0.262605, 0, 0, -0.9649034,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E8015A [208.940400 -120.399400 -11.990000] 0.262605 0.000000 0.000000 -0.964903 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8084,  7554, 0x02E8015A, 206.6024, -118.0676, -11.99, 0.1622242, 0, 0, -0.9867539,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E8015A [206.602400 -118.067600 -11.990000] 0.162224 0.000000 0.000000 -0.986754 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8085,  7554, 0x02E80226, 84.90166, -398.0762, 0.00999999, -0.9840783, 0, 0, -0.1777355,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E80226 [84.901660 -398.076200 0.010000] -0.984078 0.000000 0.000000 -0.177736 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8086,  7554, 0x02E80243, 106.2198, -404.8347, 0.00999999, -0.9757632, 0, 0, -0.2188291,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E80243 [106.219800 -404.834700 0.010000] -0.975763 0.000000 0.000000 -0.218829 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8087,  7554, 0x02E8023A, 94.95966, -408.013, 0.00999999, -0.9839899, 0, 0, -0.1782242,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E8023A [94.959660 -408.013000 0.010000] -0.983990 0.000000 0.000000 -0.178224 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8088,  7554, 0x02E80241, 95.20181, -407.8791, 0.00999999, -0.982043, 0, 0, -0.1886573,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E80241 [95.201810 -407.879100 0.010000] -0.982043 0.000000 0.000000 -0.188657 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E8089,  7554, 0x02E80241, 97.2233, -407.8702, 0.00999999, -0.9829277, 0, 0, -0.1839921,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
+/* @teleloc 0x02E80241 [97.223300 -407.870200 0.010000] -0.982928 0.000000 0.000000 -0.183992 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702E808A,  1542, 0x02E80145, 188.893, -99.3128, -12, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x02E80145 [188.893000 -99.312800 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702E8080, 0x702E8081, '2019-02-10 00:00:00') /* Deposit of Medium-Grade Chorizite Ore (7532) */
-     , (0x702E8080, 0x702E8082, '2019-02-10 00:00:00') /* Deposit of Medium-Grade Chorizite Ore (7532) */
-     , (0x702E8080, 0x702E8083, '2019-02-10 00:00:00') /* Deposit of Medium-Grade Chorizite Ore (7532) */
-     , (0x702E8080, 0x702E8084, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x702E808A, 0x702E808B, '2019-02-10 00:00:00') /* Deposit of Medium-Grade Chorizite Ore (7532) */
+     , (0x702E808A, 0x702E808C, '2019-02-10 00:00:00') /* Deposit of Medium-Grade Chorizite Ore (7532) */
+     , (0x702E808A, 0x702E808D, '2019-02-10 00:00:00') /* Deposit of Medium-Grade Chorizite Ore (7532) */
+     , (0x702E808A, 0x702E808E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8081,  7532, 0x02E80145, 188.893, -99.3128, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Deposit of Medium-Grade Chorizite Ore */
+VALUES (0x702E808B,  7532, 0x02E80145, 188.893, -99.3128, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Deposit of Medium-Grade Chorizite Ore */
 /* @teleloc 0x02E80145 [188.893000 -99.312800 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8082,  7532, 0x02E8011F, 88.7668, 0.398035, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Deposit of Medium-Grade Chorizite Ore */
+VALUES (0x702E808C,  7532, 0x02E8011F, 88.7668, 0.398035, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Deposit of Medium-Grade Chorizite Ore */
 /* @teleloc 0x02E8011F [88.766800 0.398035 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8083,  7532, 0x02E8016E, 249.9, -290.403, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Deposit of Medium-Grade Chorizite Ore */
+VALUES (0x702E808D,  7532, 0x02E8016E, 249.9, -290.403, -12, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Deposit of Medium-Grade Chorizite Ore */
 /* @teleloc 0x02E8016E [249.900000 -290.403000 -12.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702E8084,  1955, 0x02E80233, 79.83199, -525.168, -0.06299996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x702E808E,  1955, 0x02E80233, 79.83199, -525.168, -0.06299996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02E80233 [79.831990 -525.168000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */

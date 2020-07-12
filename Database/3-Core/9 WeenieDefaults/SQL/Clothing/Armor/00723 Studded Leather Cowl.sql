@@ -21,8 +21,7 @@ VALUES (723,   1,          2) /* ItemType - Armor */
      , (723, 110,          0) /* ItemAllegianceRankLimit */
      , (723, 115,        164) /* ItemSkillLevelLimit */
      , (723, 131,         54) /* MaterialType - GromnieHide */
-     , (723, 151,          2) /* HookType - Wall */
-     , (723, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (723, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (723,  22, True ) /* Inscribable */

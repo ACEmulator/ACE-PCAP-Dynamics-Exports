@@ -503,3 +503,14 @@ VALUES (0x7B7AE07D, 12679, 0xB7AE001C, 89.35, 82.375, 114.875, 0.4297229, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B7AE07E, 12679, 0xB7AE001C, 95, 84, 114.875, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Yard Hook */
 /* @teleloc 0xB7AE001C [95.000000 84.000000 114.875000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B7AE07F,  1542, 0xB7AE0023, 101.9504, 64.4282, 109.937, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xB7AE0023 [101.950400 64.428200 109.937000] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7B7AE07F, 0x7B7AE080, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B7AE080,  1955, 0xB7AE0023, 101.9504, 64.4282, 109.937, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xB7AE0023 [101.950400 64.428200 109.937000] 0.923880 0.000000 0.000000 -0.382684 */

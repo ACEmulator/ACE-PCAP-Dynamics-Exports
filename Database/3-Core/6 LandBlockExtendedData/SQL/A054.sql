@@ -19,7 +19,10 @@ VALUES (0x7A054001, 0x7A054002, '2019-02-10 00:00:00') /* Blighted Sotiris Hollo
      , (0x7A054001, 0x7A05400D, '2019-02-10 00:00:00') /* Innocuous Doll (9243) */
      , (0x7A054001, 0x7A05400E, '2019-02-10 00:00:00') /* Silt Lurker (9257) */
      , (0x7A054001, 0x7A05400F, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
-     , (0x7A054001, 0x7A054010, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */;
+     , (0x7A054001, 0x7A054010, '2019-02-10 00:00:00') /* Ash Gromnie (1615) */
+     , (0x7A054001, 0x7A054011, '2019-02-10 00:00:00') /* Desert Rabbit (5429) */
+     , (0x7A054001, 0x7A054012, '2019-02-10 00:00:00') /* Risen Soldier (8672) */
+     , (0x7A054001, 0x7A054013, '2019-02-10 00:00:00') /* Silver Rat (1626) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A054002, 38179, 0xA054000C, 24.34484, 84.236, 120.0025, -0.6162884, 0, 0, -0.7875205,  True, '2019-02-10 00:00:00'); /* Blighted Sotiris Hollow Minion */
@@ -80,3 +83,15 @@ VALUES (0x7A05400F,  9256, 0xA0540018, 59.40141, 175.9009, 111.5679, 0.2588191, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A054010,  1615, 0xA054000C, 27.46358, 77.41364, 120.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ash Gromnie */
 /* @teleloc 0xA054000C [27.463580 77.413640 120.005000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A054011,  5429, 0xA0540031, 154.7656, 21.34914, 109.7504, 0.9156196, 0, 0, -0.4020459,  True, '2019-02-10 00:00:00'); /* Desert Rabbit */
+/* @teleloc 0xA0540031 [154.765600 21.349140 109.750400] 0.915620 0.000000 0.000000 -0.402046 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A054012,  8672, 0xA054003D, 176.9363, 117.1333, 92.99664, -0.5194834, 0, 0, -0.8544806,  True, '2019-02-10 00:00:00'); /* Risen Soldier */
+/* @teleloc 0xA054003D [176.936300 117.133300 92.996640] -0.519483 0.000000 0.000000 -0.854481 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A054013,  1626, 0xA0540034, 152.0445, 72.12946, 103.9901, -0.1177834, 0, 0, -0.9930393,  True, '2019-02-10 00:00:00'); /* Silver Rat */
+/* @teleloc 0xA0540034 [152.044500 72.129460 103.990100] -0.117783 0.000000 0.000000 -0.993039 */

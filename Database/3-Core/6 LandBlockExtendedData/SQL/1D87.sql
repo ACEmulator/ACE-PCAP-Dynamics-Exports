@@ -13,7 +13,9 @@ VALUES (0x71D87001, 0x71D87002, '2019-02-10 00:00:00') /* Pugnacious Monouga (36
      , (0x71D87001, 0x71D87007, '2019-02-10 00:00:00') /* Venomous Grievver (7980) */
      , (0x71D87001, 0x71D87008, '2019-02-10 00:00:00') /* Harrower Grievver (7981) */
      , (0x71D87001, 0x71D87009, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
-     , (0x71D87001, 0x71D8700A, '2019-02-10 00:00:00') /* Extas Raider (8138) */;
+     , (0x71D87001, 0x71D8700A, '2019-02-10 00:00:00') /* Extas Raider (8138) */
+     , (0x71D87001, 0x71D8700B, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
+     , (0x71D87001, 0x71D8700C, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D87002, 36844, 0x1D870030, 142.7361, 172.2008, 58.13733, -0.6661117, 0, 0, -0.745852,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
@@ -50,3 +52,11 @@ VALUES (0x71D87009, 11540, 0x1D870033, 154.6774, 58.5085, 62.23363, -0.9829974, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71D8700A,  8138, 0x1D870030, 136.9532, 178.9958, 54.84117, -0.6661117, 0, 0, -0.745852,  True, '2019-02-10 00:00:00'); /* Extas Raider */
 /* @teleloc 0x1D870030 [136.953200 178.995800 54.841170] -0.666112 0.000000 0.000000 -0.745852 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71D8700B, 36843, 0x1D870034, 167.9866, 93.64902, 59.99623, -0.9829974, 0, 0, -0.1836192,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
+/* @teleloc 0x1D870034 [167.986600 93.649020 59.996230] -0.982997 0.000000 0.000000 -0.183619 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71D8700C, 24497, 0x1D870038, 145.7582, 176.6091, 56.42289, -0.6661117, 0, 0, -0.745852,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x1D870038 [145.758200 176.609100 56.422890] -0.666112 0.000000 0.000000 -0.745852 */

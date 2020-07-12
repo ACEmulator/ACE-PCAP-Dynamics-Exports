@@ -26,7 +26,15 @@ VALUES (0x71F15001, 0x71F15002, '2019-02-10 00:00:00') /* Withered Transcendent 
      , (0x71F15001, 0x71F15014, '2019-02-10 00:00:00') /* Withered Banderling Hierophant (30683) */
      , (0x71F15001, 0x71F15015, '2019-02-10 00:00:00') /* Withered Banderling Paragon (35830) */
      , (0x71F15001, 0x71F15016, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
-     , (0x71F15001, 0x71F15017, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
+     , (0x71F15001, 0x71F15017, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */
+     , (0x71F15001, 0x71F15018, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71F15001, 0x71F15019, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71F15001, 0x71F1501A, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71F15001, 0x71F1501B, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71F15001, 0x71F1501C, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71F15001, 0x71F1501D, '2019-02-10 00:00:00') /* Withered Revered Tumerok Shaman (30687) */
+     , (0x71F15001, 0x71F1501E, '2019-02-10 00:00:00') /* Withered Transcendent Tumerok (35835) */
+     , (0x71F15001, 0x71F1501F, '2019-02-10 00:00:00') /* Withered Raider Justicar (35832) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F15002, 35835, 0x1F150029, 135.9021, 2.558296, 14.65685, -0.8958647, 0, 0, -0.444327,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
@@ -115,3 +123,46 @@ VALUES (0x71F15016, 35832, 0x1F150006, 13.74224, 125.4362, 44.01, 0.1235068, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71F15017, 35832, 0x1F150006, 19.44725, 121.6574, 44.01, 0.1235068, 0, 0, -0.9923437,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
 /* @teleloc 0x1F150006 [19.447250 121.657400 44.010000] 0.123507 0.000000 0.000000 -0.992344 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F15018, 30687, 0x1F150006, 21.81324, 127.842, 44.0065, -0.3080982, 0, 0, -0.9513546,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
+/* @teleloc 0x1F150006 [21.813240 127.842000 44.006500] -0.308098 0.000000 0.000000 -0.951355 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F15019, 35835, 0x1F150006, 21.92833, 130.1587, 44.0065, -0.3080982, 0, 0, -0.9513546,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+/* @teleloc 0x1F150006 [21.928330 130.158700 44.006500] -0.308098 0.000000 0.000000 -0.951355 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F1501A, 30687, 0x1F150005, 22.44124, 115.2269, 43.21098, -0.3080982, 0, 0, -0.9513546,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
+/* @teleloc 0x1F150005 [22.441240 115.226900 43.210980] -0.308098 0.000000 0.000000 -0.951355 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F1501B, 35835, 0x1F150005, 22.91728, 118.8549, 43.81565, -0.3080982, 0, 0, -0.9513546,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+/* @teleloc 0x1F150005 [22.917280 118.854900 43.815650] -0.308098 0.000000 0.000000 -0.951355 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F1501C, 35835, 0x1F15000E, 24.54362, 123.5215, 44.0065, -0.3080982, 0, 0, -0.9513546,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+/* @teleloc 0x1F15000E [24.543620 123.521500 44.006500] -0.308098 0.000000 0.000000 -0.951355 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F1501D, 30687, 0x1F150032, 151.7851, 26.97328, 17.30402, -0.8958647, 0, 0, -0.444327,  True, '2019-02-10 00:00:00'); /* Withered Revered Tumerok Shaman */
+/* @teleloc 0x1F150032 [151.785100 26.973280 17.304020] -0.895865 0.000000 0.000000 -0.444327 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F1501E, 35835, 0x1F150032, 150.5683, 26.643, 17.10122, -0.8958647, 0, 0, -0.444327,  True, '2019-02-10 00:00:00'); /* Withered Transcendent Tumerok */
+/* @teleloc 0x1F150032 [150.568300 26.643000 17.101220] -0.895865 0.000000 0.000000 -0.444327 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F1501F, 35832, 0x1F150040, 177.4629, 191.4609, 41.67699, -0.7829415, 0, 0, -0.6220954,  True, '2019-02-10 00:00:00'); /* Withered Raider Justicar */
+/* @teleloc 0x1F150040 [177.462900 191.460900 41.676990] -0.782942 0.000000 0.000000 -0.622095 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F15020,  1542, 0x1F15000D, 29.0917, 113.922, 42.5527, 0.1235068, 0, 0, -0.9923437, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x1F15000D [29.091700 113.922000 42.552700] 0.123507 0.000000 0.000000 -0.992344 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x71F15020, 0x71F15021, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71F15021,  9288, 0x1F15000D, 29.0917, 113.922, 42.5527, 0.1235068, 0, 0, -0.9923437,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+/* @teleloc 0x1F15000D [29.091700 113.922000 42.552700] 0.123507 0.000000 0.000000 -0.992344 */

@@ -28,7 +28,10 @@ VALUES (0x766B3001, 0x766B3002, '2019-02-10 00:00:00') /* Mite Squire (946) */
      , (0x766B3001, 0x766B3016, '2019-02-10 00:00:00') /* Virindi Puppet (238) */
      , (0x766B3001, 0x766B3017, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
      , (0x766B3001, 0x766B3018, '2019-02-10 00:00:00') /* Mite Snippet (4245) */
-     , (0x766B3001, 0x766B3019, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
+     , (0x766B3001, 0x766B3019, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x766B3001, 0x766B301A, '2019-02-10 00:00:00') /* Mite Sentry (945) */
+     , (0x766B3001, 0x766B301B, '2019-02-10 00:00:00') /* Mite Scamp (10) */
+     , (0x766B3001, 0x766B301C, '2019-02-10 00:00:00') /* Mite Scamp (10) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766B3002,   946, 0x66B30100, 132.2392, 40.66862, 9.605, 0.5353562, 0, 0, -0.8446264,  True, '2019-02-10 00:00:00'); /* Mite Squire */
@@ -125,3 +128,15 @@ VALUES (0x766B3018,  4245, 0x66B30117, 130.7414, 35.54073, 9.552152, -0.482745, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x766B3019,    10, 0x66B30106, 136.682, 33.1224, 14.78645, -0.9961639, 0, 0, -0.08750679,  True, '2019-02-10 00:00:00'); /* Mite Scamp */
 /* @teleloc 0x66B30106 [136.682000 33.122400 14.786450] -0.996164 0.000000 0.000000 -0.087507 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x766B301A,   945, 0x66B30102, 138.4028, 37.04391, 4.405, 0.508734, 0, 0, 0.860924,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
+/* @teleloc 0x66B30102 [138.402800 37.043910 4.405000] 0.508734 0.000000 0.000000 0.860924 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x766B301B,    10, 0x66B3010D, 137.4908, 32.725, 14.805, -0.996164, 0, 0, -0.0875068,  True, '2019-02-10 00:00:00'); /* Mite Scamp */
+/* @teleloc 0x66B3010D [137.490800 32.725000 14.805000] -0.996164 0.000000 0.000000 -0.087507 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x766B301C,    10, 0x66B30118, 130.2176, 35.93512, 9.605, -0.482745, 0, 0, 0.875761,  True, '2019-02-10 00:00:00'); /* Mite Scamp */
+/* @teleloc 0x66B30118 [130.217600 35.935120 9.605000] -0.482745 0.000000 0.000000 0.875761 */

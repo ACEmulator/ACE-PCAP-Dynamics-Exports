@@ -53,7 +53,8 @@ VALUES (0x7DD5500A, 0x7DD5500B, '2019-02-10 00:00:00') /* Banderling Scout (6) *
      , (0x7DD5500A, 0x7DD55010, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7DD5500A, 0x7DD55011, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
      , (0x7DD5500A, 0x7DD55012, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
-     , (0x7DD5500A, 0x7DD55013, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
+     , (0x7DD5500A, 0x7DD55013, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
+     , (0x7DD5500A, 0x7DD55014, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD5500B,     6, 0xDD55003C, 176.3855, 89.78645, 5.10715, -0.5817075, 0, 0, -0.813398,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
@@ -90,3 +91,7 @@ VALUES (0x7DD55012,   232, 0xDD550038, 161.2699, 185.2379, 5.105, -0.001258536, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DD55013,  4110, 0xDD55003C, 175.7013, 89.84798, 5.085, -0.5817075, 0, 0, -0.813398,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
 /* @teleloc 0xDD55003C [175.701300 89.847980 5.085000] -0.581708 0.000000 0.000000 -0.813398 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DD55014,  1759, 0xDD550038, 161.3531, 186.7506, 5.1025, -0.001258536, 0, 0, -0.9999992,  True, '2019-02-10 00:00:00'); /* Skeleton */
+/* @teleloc 0xDD550038 [161.353100 186.750600 5.102500] -0.001259 0.000000 0.000000 -0.999999 */

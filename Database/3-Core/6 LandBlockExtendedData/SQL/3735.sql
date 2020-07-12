@@ -41,7 +41,11 @@ VALUES (0x73735001, 0x73735002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482)
      , (0x73735001, 0x73735023, '2019-02-10 00:00:00') /* Drudge Cabalist (36823) */
      , (0x73735001, 0x73735024, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
      , (0x73735001, 0x73735025, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
-     , (0x73735001, 0x73735026, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */;
+     , (0x73735001, 0x73735026, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73735001, 0x73735027, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
+     , (0x73735001, 0x73735028, '2019-02-10 00:00:00') /* Tumerok War Monger (23567) */
+     , (0x73735001, 0x73735029, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
+     , (0x73735001, 0x7373502A, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73735002, 23482, 0x3735001E, 74.39618, 142.0843, 38.35932, 0.4554553, 0, 0, -0.8902587,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -190,3 +194,19 @@ VALUES (0x73735025, 11536, 0x37350012, 48.21785, 46.63804, 36.62195, 0.4273337, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73735026,  7125, 0x3735001E, 82.07093, 143.2262, 38.90373, 0.4554553, 0, 0, -0.8902587,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
 /* @teleloc 0x3735001E [82.070930 143.226200 38.903730] 0.455455 0.000000 0.000000 -0.890259 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73735027, 38180, 0x3735001E, 85.91685, 136.7716, 39.75986, 0.4554553, 0, 0, -0.8902587,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
+/* @teleloc 0x3735001E [85.916850 136.771600 39.759860] 0.455455 0.000000 0.000000 -0.890259 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73735028, 23567, 0x3735001E, 75.40887, 137.6006, 38.82385, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Tumerok War Monger */
+/* @teleloc 0x3735001E [75.408870 137.600600 38.823850] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73735029, 23566, 0x3735000B, 44.85825, 51.85205, 35.42318, 0.4273337, 0, 0, -0.9040939,  True, '2019-02-10 00:00:00'); /* Tumerok Trooper */
+/* @teleloc 0x3735000B [44.858250 51.852050 35.423180] 0.427334 0.000000 0.000000 -0.904094 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7373502A, 14520, 0x37350012, 58.57755, 37.05182, 43.21613, 0.4273337, 0, 0, -0.9040939,  True, '2019-02-10 00:00:00'); /* Pyreal Golem */
+/* @teleloc 0x37350012 [58.577550 37.051820 43.216130] 0.427334 0.000000 0.000000 -0.904094 */

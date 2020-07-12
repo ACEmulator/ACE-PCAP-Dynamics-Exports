@@ -12,7 +12,9 @@ VALUES (0x7D598001, 0x7D598002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7D598001, 0x7D598006, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7D598001, 0x7D598007, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7D598001, 0x7D598008, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
-     , (0x7D598001, 0x7D598009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
+     , (0x7D598001, 0x7D598009, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7D598001, 0x7D59800A, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D598001, 0x7D59800B, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D598002,  2566, 0xD598001A, 76.96418, 29.619, 21.155, -0.6186242, 0, 0, -0.785687,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -45,3 +47,11 @@ VALUES (0x7D598008,  2566, 0xD5980001, 1.095398, 20.16465, 24.314, 0.876014, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D598009,  2566, 0xD598001A, 73.06097, 47.59595, 21.155, -0.6186242, 0, 0, -0.785687,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xD598001A [73.060970 47.595950 21.155000] -0.618624 0.000000 0.000000 -0.785687 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D59800A, 24937, 0xD5980039, 188.6284, 13.87956, 24.20885, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xD5980039 [188.628400 13.879560 24.208850] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D59800B, 24937, 0xD5980023, 96.85233, 51.80008, 21.25869, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xD5980023 [96.852330 51.800080 21.258690] 1.000000 0.000000 0.000000 0.000000 */

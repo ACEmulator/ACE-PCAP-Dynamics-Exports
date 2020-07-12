@@ -14,7 +14,13 @@ VALUES (0x71371001, 0x71371002, '2019-02-10 00:00:00') /* Venomous Grievver (798
      , (0x71371001, 0x71371008, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
      , (0x71371001, 0x71371009, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
      , (0x71371001, 0x7137100A, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
-     , (0x71371001, 0x7137100B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */;
+     , (0x71371001, 0x7137100B, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71371001, 0x7137100C, '2019-02-10 00:00:00') /* Sinister Shadow (23563) */
+     , (0x71371001, 0x7137100D, '2019-02-10 00:00:00') /* Tenebrous Shadow (23564) */
+     , (0x71371001, 0x7137100E, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
+     , (0x71371001, 0x7137100F, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71371001, 0x71371010, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x71371001, 0x71371011, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71371002,  7980, 0x1371001E, 94.66737, 131.264, 97.52161, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -55,3 +61,27 @@ VALUES (0x7137100A, 36840, 0x13710026, 114.1298, 129.2339, 96.14602, 0.9790239, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7137100B, 23563, 0x13710003, 8.23592, 54.64788, 97.23505, 0.5793558, 0, 0, -0.8150747,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
 /* @teleloc 0x13710003 [8.235920 54.647880 97.235050] 0.579356 0.000000 0.000000 -0.815075 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137100C, 23563, 0x1371002C, 141.3567, 72.30077, 90.13033, -0.7639406, 0, 0, -0.6452865,  True, '2019-02-10 00:00:00'); /* Sinister Shadow */
+/* @teleloc 0x1371002C [141.356700 72.300770 90.130330] -0.763941 0.000000 0.000000 -0.645287 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137100D, 23564, 0x1371003A, 172.9147, 41.30067, 83.43283, 0.9490798, 0, 0, -0.3150358,  True, '2019-02-10 00:00:00'); /* Tenebrous Shadow */
+/* @teleloc 0x1371003A [172.914700 41.300670 83.432830] 0.949080 0.000000 0.000000 -0.315036 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137100E, 11540, 0x13710007, 5.220483, 154.0603, 42.0132, -0.2020748, 0, 0, -0.9793701,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
+/* @teleloc 0x13710007 [5.220483 154.060300 42.013200] -0.202075 0.000000 0.000000 -0.979370 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7137100F,  7184, 0x13710007, 15.9071, 163.3506, 42.0132, -0.2020748, 0, 0, -0.9793701,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x13710007 [15.907100 163.350600 42.013200] -0.202075 0.000000 0.000000 -0.979370 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71371010,  7184, 0x13710007, 8.660803, 156.9851, 42.0132, -0.2020748, 0, 0, -0.9793701,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x13710007 [8.660803 156.985100 42.013200] -0.202075 0.000000 0.000000 -0.979370 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71371011,  7184, 0x13710007, 1.620306, 156.3279, 42.0132, -0.2020748, 0, 0, -0.9793701,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x13710007 [1.620306 156.327900 42.013200] -0.202075 0.000000 0.000000 -0.979370 */

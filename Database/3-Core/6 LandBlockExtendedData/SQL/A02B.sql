@@ -15,7 +15,8 @@ VALUES (0x7A02B001, 0x7A02B002, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943)
      , (0x7A02B001, 0x7A02B009, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
      , (0x7A02B001, 0x7A02B00A, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
      , (0x7A02B001, 0x7A02B00B, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
-     , (0x7A02B001, 0x7A02B00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */;
+     , (0x7A02B001, 0x7A02B00C, '2019-02-10 00:00:00') /* Gotrok Laigus (24941) */
+     , (0x7A02B001, 0x7A02B00D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A02B002, 24943, 0xA02B0031, 156.893, 8.46844, 324.3787, 0.1762391, 0, 0, 0.9843474,  True, '2019-02-10 00:00:00'); /* Gotrok Obeloth */
@@ -60,3 +61,7 @@ VALUES (0x7A02B00B,   201, 0xA02B003F, 189.7911, 147.9404, 207.8408, 0.5, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A02B00C, 24941, 0xA02B0026, 110.2348, 135.4699, 271.6967, -0.06551228, 0, 0, -0.9978518,  True, '2019-02-10 00:00:00'); /* Gotrok Laigus */
 /* @teleloc 0xA02B0026 [110.234800 135.469900 271.696700] -0.065512 0.000000 0.000000 -0.997852 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A02B00D,  4254, 0xA02B003A, 182.8714, 46.99341, 303.5502, 0.1407254, 0, 0, -0.9900486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0xA02B003A [182.871400 46.993410 303.550200] 0.140725 0.000000 0.000000 -0.990049 */

@@ -28,7 +28,8 @@ VALUES (0x79FA6001, 0x79FA6002, '2019-02-10 00:00:00') /* Elaniwood Golem (11528
      , (0x79FA6001, 0x79FA6016, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
      , (0x79FA6001, 0x79FA6017, '2019-02-10 00:00:00') /* Crude Monouga (2575) */
      , (0x79FA6001, 0x79FA6018, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
-     , (0x79FA6001, 0x79FA6019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */;
+     , (0x79FA6001, 0x79FA6019, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
+     , (0x79FA6001, 0x79FA601A, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79FA6002, 11528, 0x9FA60015, 61.6162, 115.7405, 64.87532, -0.1324568, 0, 0, -0.9911888,  True, '2019-02-10 00:00:00'); /* Elaniwood Golem */
@@ -127,17 +128,26 @@ VALUES (0x79FA6019,   217, 0x9FA6001D, 72.98936, 114.5492, 64.013, -0.1324568, 0
 /* @teleloc 0x9FA6001D [72.989360 114.549200 64.013000] -0.132457 0.000000 0.000000 -0.991189 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FA601A,  1542, 0x9FA6002E, 132, 132, 64.45, 0.258819, 0, 0, -0.965926, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79FA601A,  1627, 0x9FA6001D, 79.89852, 106.4586, 64.0121, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
+/* @teleloc 0x9FA6001D [79.898520 106.458600 64.012100] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79FA601B,  1542, 0x9FA6002E, 132, 132, 64.45, 0.258819, 0, 0, -0.965926, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9FA6002E [132.000000 132.000000 64.450000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79FA601A, 0x79FA601B, '2019-02-10 00:00:00') /* Viamont Staging Area Portal (32542) */
-     , (0x79FA601A, 0x79FA601C, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */;
+VALUES (0x79FA601B, 0x79FA601C, '2019-02-10 00:00:00') /* Viamont Staging Area Portal (32542) */
+     , (0x79FA601B, 0x79FA601D, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x79FA601B, 0x79FA601E, '2019-02-10 00:00:00') /* Mandrake (775) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FA601B, 32542, 0x9FA6002E, 132, 132, 64.45, 0.258819, 0, 0, -0.965926,  True, '2019-02-10 00:00:00'); /* Viamont Staging Area Portal */
+VALUES (0x79FA601C, 32542, 0x9FA6002E, 132, 132, 64.45, 0.258819, 0, 0, -0.965926,  True, '2019-02-10 00:00:00'); /* Viamont Staging Area Portal */
 /* @teleloc 0x9FA6002E [132.000000 132.000000 64.450000] 0.258819 0.000000 0.000000 -0.965926 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79FA601C, 31443, 0x9FA6000D, 40.92775, 106.72, 66.5872, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x79FA601D, 31443, 0x9FA6000D, 40.92775, 106.72, 66.5872, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0x9FA6000D [40.927750 106.720000 66.587200] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79FA601E,   775, 0x9FA6001D, 75.26143, 106.9867, 64.55416, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Mandrake */
+/* @teleloc 0x9FA6001D [75.261430 106.986700 64.554160] 0.707107 0.000000 0.000000 -0.707107 */

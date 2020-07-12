@@ -56,7 +56,10 @@ VALUES (0x7C5EC001, 0x7C5EC002, '2019-02-10 00:00:00') /* Depraved Mukkir (33733
      , (0x7C5EC001, 0x7C5EC032, '2019-02-10 00:00:00') /* Depraved Mukkir (33733) */
      , (0x7C5EC001, 0x7C5EC033, '2019-02-10 00:00:00') /* Depraved Mukkir (40282) */
      , (0x7C5EC001, 0x7C5EC034, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
-     , (0x7C5EC001, 0x7C5EC035, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */;
+     , (0x7C5EC001, 0x7C5EC035, '2019-02-10 00:00:00') /* Sodden Undead Ruschk (40288) */
+     , (0x7C5EC001, 0x7C5EC036, '2019-02-10 00:00:00') /* Listris Sleech (33738) */
+     , (0x7C5EC001, 0x7C5EC037, '2019-02-10 00:00:00') /* Listris Sleech (40285) */
+     , (0x7C5EC001, 0x7C5EC038, '2019-02-10 00:00:00') /* Listris Sleech (40285) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5EC002, 33733, 0xC5EC003A, 175.5194, 30.61951, 28.47664, -0.1006317, 0, 0, -0.9949238,  True, '2019-02-10 00:00:00'); /* Depraved Mukkir */
@@ -267,12 +270,24 @@ VALUES (0x7C5EC035, 40288, 0xC5EC003A, 176.468, 25.74782, 27.59114, -0.1006317, 
 /* @teleloc 0xC5EC003A [176.468000 25.747820 27.591140] -0.100632 0.000000 0.000000 -0.994924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5EC036,  1542, 0xC5EC0027, 112.6349, 151.1128, 44.61376, -0.3909756, 0, 0, -0.920401, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C5EC036, 33738, 0xC5EC0027, 112.4636, 157.1635, 44.62804, -0.3909756, 0, 0, -0.920401,  True, '2019-02-10 00:00:00'); /* Listris Sleech */
+/* @teleloc 0xC5EC0027 [112.463600 157.163500 44.628040] -0.390976 0.000000 0.000000 -0.920401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C5EC037, 40285, 0xC5EC0027, 115.2657, 155.6963, 44.56657, -0.3909756, 0, 0, -0.920401,  True, '2019-02-10 00:00:00'); /* Listris Sleech */
+/* @teleloc 0xC5EC0027 [115.265700 155.696300 44.566570] -0.390976 0.000000 0.000000 -0.920401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C5EC038, 40285, 0xC5EC0027, 112.2126, 154.3687, 44.71828, -0.3909756, 0, 0, -0.920401,  True, '2019-02-10 00:00:00'); /* Listris Sleech */
+/* @teleloc 0xC5EC0027 [112.212600 154.368700 44.718280] -0.390976 0.000000 0.000000 -0.920401 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C5EC039,  1542, 0xC5EC0027, 112.6349, 151.1128, 44.61376, -0.3909756, 0, 0, -0.920401, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC5EC0027 [112.634900 151.112800 44.613760] -0.390976 0.000000 0.000000 -0.920401 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5EC036, 0x7C5EC037, '2019-02-10 00:00:00') /* Black Coral (38613) */;
+VALUES (0x7C5EC039, 0x7C5EC03A, '2019-02-10 00:00:00') /* Black Coral (38613) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5EC037, 38613, 0xC5EC0027, 112.6349, 151.1128, 44.61376, -0.3909756, 0, 0, -0.920401,  True, '2019-02-10 00:00:00'); /* Black Coral */
+VALUES (0x7C5EC03A, 38613, 0xC5EC0027, 112.6349, 151.1128, 44.61376, -0.3909756, 0, 0, -0.920401,  True, '2019-02-10 00:00:00'); /* Black Coral */
 /* @teleloc 0xC5EC0027 [112.634900 151.112800 44.613760] -0.390976 0.000000 0.000000 -0.920401 */

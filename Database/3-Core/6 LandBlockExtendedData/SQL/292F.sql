@@ -25,7 +25,9 @@ VALUES (0x7292F001, 0x7292F002, '2019-02-10 00:00:00') /* Blighted Bane Grievver
      , (0x7292F001, 0x7292F013, '2019-02-10 00:00:00') /* Assailer (22053) */
      , (0x7292F001, 0x7292F014, '2019-02-10 00:00:00') /* Entropy Wisp (11536) */
      , (0x7292F001, 0x7292F015, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
-     , (0x7292F001, 0x7292F016, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */;
+     , (0x7292F001, 0x7292F016, '2019-02-10 00:00:00') /* Tempest Wisp (21552) */
+     , (0x7292F001, 0x7292F017, '2019-02-10 00:00:00') /* Drudge Mystic (24281) */
+     , (0x7292F001, 0x7292F018, '2019-02-10 00:00:00') /* Plasma Golem (7098) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7292F002, 38180, 0x292F0007, 13.07447, 159.3371, 72.90821, 0.9751832, 0, 0, -0.2213996,  True, '2019-02-10 00:00:00'); /* Blighted Bane Grievver */
@@ -112,12 +114,20 @@ VALUES (0x7292F016, 21552, 0x292F0031, 167.2356, 7.972, 66.07021, 0.6856585, 0, 
 /* @teleloc 0x292F0031 [167.235600 7.972000 66.070210] 0.685659 0.000000 0.000000 -0.727924 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7292F017,  1542, 0x292F002F, 135.6005, 152.0134, 67.937, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7292F017, 24281, 0x292F0007, 9.249102, 159.207, 73.23379, 0.9751832, 0, 0, -0.2213996,  True, '2019-02-10 00:00:00'); /* Drudge Mystic */
+/* @teleloc 0x292F0007 [9.249102 159.207000 73.233790] 0.975183 0.000000 0.000000 -0.221400 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7292F018,  7098, 0x292F0006, 5.249828, 143.7949, 73.58961, 0.9751832, 0, 0, -0.2213996,  True, '2019-02-10 00:00:00'); /* Plasma Golem */
+/* @teleloc 0x292F0006 [5.249828 143.794900 73.589610] 0.975183 0.000000 0.000000 -0.221400 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7292F019,  1542, 0x292F002F, 135.6005, 152.0134, 67.937, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x292F002F [135.600500 152.013400 67.937000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7292F017, 0x7292F018, '2019-02-10 00:00:00') /* Glenden Wood Portal (42814) */;
+VALUES (0x7292F019, 0x7292F01A, '2019-02-10 00:00:00') /* Glenden Wood Portal (42814) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7292F018, 42814, 0x292F002F, 135.6005, 152.0134, 67.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Glenden Wood Portal */
+VALUES (0x7292F01A, 42814, 0x292F002F, 135.6005, 152.0134, 67.937, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Glenden Wood Portal */
 /* @teleloc 0x292F002F [135.600500 152.013400 67.937000] 1.000000 0.000000 0.000000 0.000000 */

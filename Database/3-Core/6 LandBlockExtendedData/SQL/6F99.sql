@@ -16,7 +16,13 @@ VALUES (0x76F99001, 0x76F99002, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
      , (0x76F99001, 0x76F9900A, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
      , (0x76F99001, 0x76F9900B, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
      , (0x76F99001, 0x76F9900C, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
-     , (0x76F99001, 0x76F9900D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
+     , (0x76F99001, 0x76F9900D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76F99001, 0x76F9900E, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76F99001, 0x76F9900F, '2019-02-10 00:00:00') /* Essa Sclavus Lord (23485) */
+     , (0x76F99001, 0x76F99010, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x76F99001, 0x76F99011, '2019-02-10 00:00:00') /* Aste Sclavus Lord (23483) */
+     , (0x76F99001, 0x76F99012, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x76F99001, 0x76F99013, '2019-02-10 00:00:00') /* Faisi Sclavus (7111) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x76F99002,  7110, 0x6F990020, 93.9503, 190.335, 239.6584, -0.9955475, 0, 0, -0.09426145,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
@@ -67,12 +73,41 @@ VALUES (0x76F9900D,  7112, 0x6F99002D, 121.588, 112.419, 237.8401, -0.311198, 0,
 /* @teleloc 0x6F99002D [121.588000 112.419000 237.840100] -0.311198 0.000000 0.000000 0.950345 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76F9900E,  1542, 0x6F990026, 106.748, 131.211, 240, -0.992818, 0, 0, 0.119634, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x76F9900E,  7112, 0x6F99002C, 126.4419, 78.45911, 217.2353, -0.3830509, 0, 0, -0.9237273,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x6F99002C [126.441900 78.459110 217.235300] -0.383051 0.000000 0.000000 -0.923727 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F9900F, 23485, 0x6F99002F, 123.571, 146.9616, 240, -0.2866003, 0, 0, -0.9580503,  True, '2019-02-10 00:00:00'); /* Essa Sclavus Lord */
+/* @teleloc 0x6F99002F [123.571000 146.961600 240.000000] -0.286600 0.000000 0.000000 -0.958050 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F99010,  7112, 0x6F99002F, 120.0764, 149.379, 240, -0.05251677, 0, 0, -0.99862,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x6F99002F [120.076400 149.379000 240.000000] -0.052517 0.000000 0.000000 -0.998620 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F99011, 23483, 0x6F990027, 118.3927, 148.3717, 240, -0.4789638, 0, 0, 0.8778347,  True, '2019-02-10 00:00:00'); /* Aste Sclavus Lord */
+/* @teleloc 0x6F990027 [118.392700 148.371700 240.000000] -0.478964 0.000000 0.000000 0.877835 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F99012,  7110, 0x6F990027, 118.7163, 149.7199, 240, -0.2304577, 0, 0, 0.9730824,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
+/* @teleloc 0x6F990027 [118.716300 149.719900 240.000000] -0.230458 0.000000 0.000000 0.973082 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F99013,  7111, 0x6F990027, 118.0035, 146.7945, 240, 0.8118615, 0, 0, -0.5838501,  True, '2019-02-10 00:00:00'); /* Faisi Sclavus */
+/* @teleloc 0x6F990027 [118.003500 146.794500 240.000000] 0.811862 0.000000 0.000000 -0.583850 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F99014,  1542, 0x6F990026, 106.748, 131.211, 240, -0.992818, 0, 0, 0.119634, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x6F990026 [106.748000 131.211000 240.000000] -0.992818 0.000000 0.000000 0.119634 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x76F9900E, 0x76F9900F, '2019-02-10 00:00:00') /* Large Golden Coin (27435) */;
+VALUES (0x76F99014, 0x76F99015, '2019-02-10 00:00:00') /* Large Golden Coin (27435) */
+     , (0x76F99014, 0x76F99016, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x76F9900F, 27435, 0x6F990026, 106.748, 131.211, 240, -0.992818, 0, 0, 0.119634,  True, '2019-02-10 00:00:00'); /* Large Golden Coin */
+VALUES (0x76F99015, 27435, 0x6F990026, 106.748, 131.211, 240, -0.992818, 0, 0, 0.119634,  True, '2019-02-10 00:00:00'); /* Large Golden Coin */
 /* @teleloc 0x6F990026 [106.748000 131.211000 240.000000] -0.992818 0.000000 0.000000 0.119634 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x76F99016,  1955, 0x6F990026, 113.7528, 129.0832, 239.937, 0.8029206, 0, 0, -0.596086,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x6F990026 [113.752800 129.083200 239.937000] 0.802921 0.000000 0.000000 -0.596086 */

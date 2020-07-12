@@ -63,7 +63,9 @@ VALUES (0x70B0F001, 0x70B0F002, '2019-02-10 00:00:00') /* Biaka (25859) */
      , (0x70B0F001, 0x70B0F039, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x70B0F001, 0x70B0F03A, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
      , (0x70B0F001, 0x70B0F03B, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
-     , (0x70B0F001, 0x70B0F03C, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */;
+     , (0x70B0F001, 0x70B0F03C, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x70B0F001, 0x70B0F03D, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x70B0F001, 0x70B0F03E, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0F002, 25859, 0x0B0F0012, 69.67673, 32.84858, 207.9881, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Biaka */
@@ -300,3 +302,11 @@ VALUES (0x70B0F03B, 25871, 0x0B0F001B, 77.10629, 57.96537, 220.3145, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0F03C, 25871, 0x0B0F001B, 72.50731, 58.62297, 220.8625, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
 /* @teleloc 0x0B0F001B [72.507310 58.622970 220.862500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0F03D, 25871, 0x0B0F000A, 46.40776, 46.06393, 212.1868, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+/* @teleloc 0x0B0F000A [46.407760 46.063930 212.186800] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0F03E, 25871, 0x0B0F000A, 45.96188, 36.3243, 207.0911, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Monstrous Mite */
+/* @teleloc 0x0B0F000A [45.961880 36.324300 207.091100] 1.000000 0.000000 0.000000 0.000000 */

@@ -31,7 +31,8 @@ VALUES (0x7E13D001, 0x7E13D002, '2019-02-10 00:00:00') /* Sufut Zefir (7128) */
      , (0x7E13D001, 0x7E13D015, '2019-02-10 00:00:00') /* Virindi Master (237) */
      , (0x7E13D001, 0x7E13D016, '2019-02-10 00:00:00') /* Reedshark Elder (18) */
      , (0x7E13D001, 0x7E13D017, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
-     , (0x7E13D001, 0x7E13D018, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */;
+     , (0x7E13D001, 0x7E13D018, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E13D001, 0x7E13D019, '2019-02-10 00:00:00') /* Lich Lord (1630) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E13D002,  7128, 0xE13D0018, 67.47585, 182.9067, 88.77654, 0.4003814, 0, 0, -0.9163486,  True, '2019-02-10 00:00:00'); /* Sufut Zefir */
@@ -126,17 +127,26 @@ VALUES (0x7E13D018,  1627, 0xE13D0001, 13.33146, 17.55303, 116.4559, 0.9987317, 
 /* @teleloc 0xE13D0001 [13.331460 17.553030 116.455900] 0.998732 0.000000 0.000000 -0.050349 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E13D019,  1542, 0xE13D0019, 72.74061, 16.24559, 144.8931, 0.5379199, 0, 0, -0.842996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E13D019,  1630, 0xE13D0023, 105.5706, 52.08744, 142.7613, 0.9967787, 0, 0, -0.08020151,  True, '2019-02-10 00:00:00'); /* Lich Lord */
+/* @teleloc 0xE13D0023 [105.570600 52.087440 142.761300] 0.996779 0.000000 0.000000 -0.080202 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E13D01A,  1542, 0xE13D0019, 72.74061, 16.24559, 144.8931, 0.5379199, 0, 0, -0.842996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE13D0019 [72.740610 16.245590 144.893100] 0.537920 0.000000 0.000000 -0.842996 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E13D019, 0x7E13D01A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
-     , (0x7E13D019, 0x7E13D01B, '2019-02-10 00:00:00') /* Meat (265) */;
+VALUES (0x7E13D01A, 0x7E13D01B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7E13D01A, 0x7E13D01C, '2019-02-10 00:00:00') /* Meat (265) */
+     , (0x7E13D01A, 0x7E13D01D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E13D01A,  8037, 0xE13D0019, 72.74061, 16.24559, 144.8931, 0.5379199, 0, 0, -0.842996,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7E13D01B,  8037, 0xE13D0019, 72.74061, 16.24559, 144.8931, 0.5379199, 0, 0, -0.842996,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xE13D0019 [72.740610 16.245590 144.893100] 0.537920 0.000000 0.000000 -0.842996 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E13D01B,   265, 0xE13D001B, 84.96812, 52.72783, 137.997, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
+VALUES (0x7E13D01C,   265, 0xE13D001B, 84.96812, 52.72783, 137.997, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
 /* @teleloc 0xE13D001B [84.968120 52.727830 137.997000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E13D01D,  1955, 0xE13D0029, 124.8897, 16.04038, 156.6003, -0.4343326, 0, 0, -0.9007525,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xE13D0029 [124.889700 16.040380 156.600300] -0.434333 0.000000 0.000000 -0.900753 */

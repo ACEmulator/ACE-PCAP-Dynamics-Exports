@@ -11,7 +11,8 @@ VALUES (0x765C8001, 0x765C8002, '2019-02-10 00:00:00') /* Banderling Antagonist 
      , (0x765C8001, 0x765C8005, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
      , (0x765C8001, 0x765C8006, '2019-02-10 00:00:00') /* Banderling Slayer (24277) */
      , (0x765C8001, 0x765C8007, '2019-02-10 00:00:00') /* Plated Tusker (11541) */
-     , (0x765C8001, 0x765C8008, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */;
+     , (0x765C8001, 0x765C8008, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
+     , (0x765C8001, 0x765C8009, '2019-02-10 00:00:00') /* Abominable Snowman (32483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x765C8002, 24275, 0x65C80018, 57.34671, 176.5025, 185.173, 0.4268914, 0, 0, -0.9043029,  True, '2019-02-10 00:00:00'); /* Banderling Antagonist */
@@ -42,12 +43,16 @@ VALUES (0x765C8008, 21550, 0x65C80035, 167.9275, 119.8497, 176.0747, -0.9307119,
 /* @teleloc 0x65C80035 [167.927500 119.849700 176.074700] -0.930712 0.000000 0.000000 -0.365753 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x765C8009,  1542, 0x65C8003E, 179.6295, 142.532, 164.6128, -0.9307119, 0, 0, -0.365753, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x765C8009, 32483, 0x65C80017, 66.67095, 156.1862, 190.9534, 0.4268914, 0, 0, -0.9043029,  True, '2019-02-10 00:00:00'); /* Abominable Snowman */
+/* @teleloc 0x65C80017 [66.670950 156.186200 190.953400] 0.426891 0.000000 0.000000 -0.904303 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x765C800A,  1542, 0x65C8003E, 179.6295, 142.532, 164.6128, -0.9307119, 0, 0, -0.365753, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x65C8003E [179.629500 142.532000 164.612800] -0.930712 0.000000 0.000000 -0.365753 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x765C8009, 0x765C800A, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
+VALUES (0x765C800A, 0x765C800B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x765C800A,  8644, 0x65C8003E, 179.6295, 142.532, 164.6128, -0.9307119, 0, 0, -0.365753,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
+VALUES (0x765C800B,  8644, 0x65C8003E, 179.6295, 142.532, 164.6128, -0.9307119, 0, 0, -0.365753,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
 /* @teleloc 0x65C8003E [179.629500 142.532000 164.612800] -0.930712 0.000000 0.000000 -0.365753 */

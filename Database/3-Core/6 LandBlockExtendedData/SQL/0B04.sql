@@ -377,7 +377,14 @@ VALUES (0x70B04001, 0x70B04002, '2019-02-10 00:00:00') /* Cosseted Doll (25855) 
      , (0x70B04001, 0x70B04173, '2019-02-10 00:00:00') /* Infested Rat (25878) */
      , (0x70B04001, 0x70B04174, '2019-02-10 00:00:00') /* Infested Rat (25878) */
      , (0x70B04001, 0x70B04175, '2019-02-10 00:00:00') /* Ebon Rift (25881) */
-     , (0x70B04001, 0x70B04176, '2019-02-10 00:00:00') /* Infested Rat (25878) */;
+     , (0x70B04001, 0x70B04176, '2019-02-10 00:00:00') /* Infested Rat (25878) */
+     , (0x70B04001, 0x70B04177, '2019-02-10 00:00:00') /* Penumbral Horror (31398) */
+     , (0x70B04001, 0x70B04178, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
+     , (0x70B04001, 0x70B04179, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
+     , (0x70B04001, 0x70B0417A, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
+     , (0x70B04001, 0x70B0417B, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
+     , (0x70B04001, 0x70B0417C, '2019-02-10 00:00:00') /* Glissnal Nefane (25873) */
+     , (0x70B04001, 0x70B0417D, '2019-02-10 00:00:00') /* Ebon Rift (25881) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B04002, 25855, 0x0B040006, 19.98775, 141.6321, 24.77444, -0.4396161, 0, 0, -0.8981857,  True, '2019-02-10 00:00:00'); /* Cosseted Doll */
@@ -1870,3 +1877,31 @@ VALUES (0x70B04175, 25881, 0x0B04002D, 141.7625, 115.8752, 13.87942, -0.2883105,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B04176, 25878, 0x0B04002D, 121.1543, 119.3202, 19.61012, -0.9997784, 0, 0, -0.02104881,  True, '2019-02-10 00:00:00'); /* Infested Rat */
 /* @teleloc 0x0B04002D [121.154300 119.320200 19.610120] -0.999778 0.000000 0.000000 -0.021049 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B04177, 31398, 0x0B040006, 15.68781, 133.9381, 24.25286, -0.4396161, 0, 0, -0.8981857,  True, '2019-02-10 00:00:00'); /* Penumbral Horror */
+/* @teleloc 0x0B040006 [15.687810 133.938100 24.252860] -0.439616 0.000000 0.000000 -0.898186 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B04178, 25872, 0x0B04001D, 83.06514, 108.8886, 27.51956, 0.9630352, 0, 0, -0.2693754,  True, '2019-02-10 00:00:00'); /* Mutated Mite */
+/* @teleloc 0x0B04001D [83.065140 108.888600 27.519560] 0.963035 0.000000 0.000000 -0.269375 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B04179, 25872, 0x0B04001D, 94.03979, 101.4905, 28.01297, 0.9630352, 0, 0, -0.2693754,  True, '2019-02-10 00:00:00'); /* Mutated Mite */
+/* @teleloc 0x0B04001D [94.039790 101.490500 28.012970] 0.963035 0.000000 0.000000 -0.269375 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0417A, 25872, 0x0B04001D, 86.99712, 101.8404, 26.2553, 0.9630352, 0, 0, -0.2693754,  True, '2019-02-10 00:00:00'); /* Mutated Mite */
+/* @teleloc 0x0B04001D [86.997120 101.840400 26.255300] 0.963035 0.000000 0.000000 -0.269375 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0417B, 25872, 0x0B040024, 97.18356, 87.41487, 32.27643, 0.9630352, 0, 0, -0.2693754,  True, '2019-02-10 00:00:00'); /* Mutated Mite */
+/* @teleloc 0x0B040024 [97.183560 87.414870 32.276430] 0.963035 0.000000 0.000000 -0.269375 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0417C, 25873, 0x0B04002E, 120.0762, 140.4476, 23.38928, -0.9997784, 0, 0, -0.02104881,  True, '2019-02-10 00:00:00'); /* Glissnal Nefane */
+/* @teleloc 0x0B04002E [120.076200 140.447600 23.389280] -0.999778 0.000000 0.000000 -0.021049 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0417D, 25881, 0x0B040035, 152.7074, 102.3774, 8.893565, -0.2883105, 0, 0, -0.957537,  True, '2019-02-10 00:00:00'); /* Ebon Rift */
+/* @teleloc 0x0B040035 [152.707400 102.377400 8.893565] -0.288311 0.000000 0.000000 -0.957537 */

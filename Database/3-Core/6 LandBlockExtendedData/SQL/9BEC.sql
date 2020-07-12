@@ -14,7 +14,9 @@ VALUES (0x79BEC001, 0x79BEC002, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
      , (0x79BEC001, 0x79BEC008, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x79BEC001, 0x79BEC009, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
      , (0x79BEC001, 0x79BEC00A, '2019-02-10 00:00:00') /* Oak Golem (14559) */
-     , (0x79BEC001, 0x79BEC00B, '2019-02-10 00:00:00') /* Oak Golem (14559) */;
+     , (0x79BEC001, 0x79BEC00B, '2019-02-10 00:00:00') /* Oak Golem (14559) */
+     , (0x79BEC001, 0x79BEC00C, '2019-02-10 00:00:00') /* Dark Leech (7123) */
+     , (0x79BEC001, 0x79BEC00D, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79BEC002, 26470, 0x9BEC0019, 77.26509, 22.06901, 35.1776, 0.7130091, 0, 0, -0.7011548,  True, '2019-02-10 00:00:00'); /* Fire Shreth */
@@ -57,12 +59,20 @@ VALUES (0x79BEC00B, 14559, 0x9BEC003E, 174.0914, 122.4325, 20.01, -0.7660444, 0,
 /* @teleloc 0x9BEC003E [174.091400 122.432500 20.010000] -0.766044 0.000000 0.000000 -0.642788 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79BEC00C,  1542, 0x9BEC002A, 133.3978, 40.81561, 38.31388, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79BEC00C,  7123, 0x9BEC0019, 75.36486, 17.25774, 35.69202, 0.7130091, 0, 0, -0.7011548,  True, '2019-02-10 00:00:00'); /* Dark Leech */
+/* @teleloc 0x9BEC0019 [75.364860 17.257740 35.692020] 0.713009 0.000000 0.000000 -0.701155 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79BEC00D,  4255, 0x9BEC0022, 109.6786, 47.07757, 35.27187, -0.7984786, 0, 0, -0.6020232,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x9BEC0022 [109.678600 47.077570 35.271870] -0.798479 0.000000 0.000000 -0.602023 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79BEC00E,  1542, 0x9BEC002A, 133.3978, 40.81561, 38.31388, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9BEC002A [133.397800 40.815610 38.313880] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79BEC00C, 0x79BEC00D, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
+VALUES (0x79BEC00E, 0x79BEC00F, '2019-02-10 00:00:00') /* Runed Chest (22567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79BEC00D, 22567, 0x9BEC002A, 133.3978, 40.81561, 38.31388, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79BEC00F, 22567, 0x9BEC002A, 133.3978, 40.81561, 38.31388, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x9BEC002A [133.397800 40.815610 38.313880] 1.000000 0.000000 0.000000 0.000000 */

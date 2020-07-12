@@ -13,7 +13,8 @@ VALUES (0x79426001, 0x79426002, '2019-02-10 00:00:00') /* Fleshless Warrior (896
      , (0x79426001, 0x79426007, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
      , (0x79426001, 0x79426008, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
      , (0x79426001, 0x79426009, '2019-02-10 00:00:00') /* Shroud Cabal Forager Captain (37101) */
-     , (0x79426001, 0x7942600A, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */;
+     , (0x79426001, 0x7942600A, '2019-02-10 00:00:00') /* Shroud Cabal Forager (37100) */
+     , (0x79426001, 0x7942600B, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79426002,  8968, 0x9426000D, 41.19419, 101.8827, 143.4807, 0.8678393, 0, 0, -0.496845,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -50,3 +51,7 @@ VALUES (0x79426009, 37101, 0x9426001D, 80.69355, 119.7935, 134.1784, 0.8870109, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7942600A, 37100, 0x9426001D, 78.61295, 118.8859, 133.6582, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Shroud Cabal Forager */
 /* @teleloc 0x9426001D [78.612950 118.885900 133.658200] 0.939693 0.000000 0.000000 -0.342020 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7942600B,  7121, 0x9426000D, 41.70791, 108.8804, 138.2219, 0.8678393, 0, 0, -0.496845,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
+/* @teleloc 0x9426000D [41.707910 108.880400 138.221900] 0.867839 0.000000 0.000000 -0.496845 */

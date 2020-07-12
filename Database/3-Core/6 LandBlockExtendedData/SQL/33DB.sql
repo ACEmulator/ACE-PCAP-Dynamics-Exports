@@ -26,7 +26,9 @@ VALUES (0x733DB002, 0x733DB003, '2019-02-10 00:00:00') /* Old Bones (19436) */
      , (0x733DB002, 0x733DB00D, '2019-02-10 00:00:00') /* Old Bones (19436) */
      , (0x733DB002, 0x733DB00E, '2019-02-10 00:00:00') /* Young Banderling (19256) */
      , (0x733DB002, 0x733DB00F, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
-     , (0x733DB002, 0x733DB010, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */;
+     , (0x733DB002, 0x733DB010, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
+     , (0x733DB002, 0x733DB011, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
+     , (0x733DB002, 0x733DB012, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733DB003, 19436, 0x33DB0029, 135.8505, 11.68806, 72.34937, -0.5862828, 0, 0, -0.8101065,  True, '2019-02-10 00:00:00'); /* Old Bones */
@@ -83,3 +85,11 @@ VALUES (0x733DB00F, 19258, 0x33DB0029, 130.161, 16.61285, 71.46567, -0.5862828, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x733DB010, 19261, 0x33DB0019, 89.75694, 18.70777, 57.40546, -0.9075148, 0, 0, -0.4200202,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
 /* @teleloc 0x33DB0019 [89.756940 18.707770 57.405460] -0.907515 0.000000 0.000000 -0.420020 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DB011, 19257, 0x33DB0029, 129.1874, 18.78849, 71.20324, -0.5862828, 0, 0, -0.8101065,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
+/* @teleloc 0x33DB0029 [129.187400 18.788490 71.203240] -0.586283 0.000000 0.000000 -0.810107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x733DB012, 19258, 0x33DB0031, 157.9201, 18.69215, 70.40099, 0.3850571, 0, 0, -0.9228927,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
+/* @teleloc 0x33DB0031 [157.920100 18.692150 70.400990] 0.385057 0.000000 0.000000 -0.922893 */

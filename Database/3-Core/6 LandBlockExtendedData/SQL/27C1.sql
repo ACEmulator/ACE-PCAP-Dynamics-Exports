@@ -14,7 +14,14 @@ VALUES (0x727C1001, 0x727C1002, '2019-02-10 00:00:00') /* Azael Zefir (11533) */
      , (0x727C1001, 0x727C1008, '2019-02-10 00:00:00') /* Diseased Feral Carenzi Liver (34252) */
      , (0x727C1001, 0x727C1009, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
      , (0x727C1001, 0x727C100A, '2019-02-10 00:00:00') /* Rabid Carenzi (11495) */
-     , (0x727C1001, 0x727C100B, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */;
+     , (0x727C1001, 0x727C100B, '2019-02-10 00:00:00') /* Feral Carenzi (11493) */
+     , (0x727C1001, 0x727C100C, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x727C1001, 0x727C100D, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x727C1001, 0x727C100E, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x727C1001, 0x727C100F, '2019-02-10 00:00:00') /* Timber Siraluun (11491) */
+     , (0x727C1001, 0x727C1010, '2019-02-10 00:00:00') /* Woodland Ursuin (27718) */
+     , (0x727C1001, 0x727C1011, '2019-02-10 00:00:00') /* Ebon Gromnie (11526) */
+     , (0x727C1001, 0x727C1012, '2019-02-10 00:00:00') /* Gold Golem (7096) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727C1002, 11533, 0x27C10038, 148.4389, 178.2169, 47.57236, -0.460042, 0, 0, -0.8878971,  True, '2019-02-10 00:00:00'); /* Azael Zefir */
@@ -55,3 +62,31 @@ VALUES (0x727C100A, 11495, 0x27C1000B, 25.66834, 61.68837, 50.42043, -0.4179913,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x727C100B, 11493, 0x27C10012, 50.9482, 24.93005, 44.72388, 0.6887423, 0, 0, -0.7250062,  True, '2019-02-10 00:00:00'); /* Feral Carenzi */
 /* @teleloc 0x27C10012 [50.948200 24.930050 44.723880] 0.688742 0.000000 0.000000 -0.725006 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C100C, 11491, 0x27C1000B, 32.55322, 67.04475, 53.53083, -0.4179913, 0, 0, -0.908451,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */
+/* @teleloc 0x27C1000B [32.553220 67.044750 53.530830] -0.417991 0.000000 0.000000 -0.908451 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C100D, 11491, 0x27C1000B, 28.77129, 62.91178, 51.92071, -0.4179913, 0, 0, -0.908451,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */
+/* @teleloc 0x27C1000B [28.771290 62.911780 51.920710] -0.417991 0.000000 0.000000 -0.908451 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C100E, 11491, 0x27C10017, 67.88894, 161.4196, 64.84143, -0.9963664, 0, 0, -0.08516964,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */
+/* @teleloc 0x27C10017 [67.888940 161.419600 64.841430] -0.996366 0.000000 0.000000 -0.085170 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C100F, 11491, 0x27C10017, 60.06552, 155.3456, 64.10007, -0.9963664, 0, 0, -0.08516964,  True, '2019-02-10 00:00:00'); /* Timber Siraluun */
+/* @teleloc 0x27C10017 [60.065520 155.345600 64.100070] -0.996366 0.000000 0.000000 -0.085170 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C1010, 27718, 0x27C1001A, 83.37075, 35.91956, 52.87761, 0.6887423, 0, 0, -0.7250062,  True, '2019-02-10 00:00:00'); /* Woodland Ursuin */
+/* @teleloc 0x27C1001A [83.370750 35.919560 52.877610] 0.688742 0.000000 0.000000 -0.725006 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C1011, 11526, 0x27C1002A, 135.9556, 37.63468, 64.74329, 0.08992864, 0, 0, -0.9959482,  True, '2019-02-10 00:00:00'); /* Ebon Gromnie */
+/* @teleloc 0x27C1002A [135.955600 37.634680 64.743290] 0.089929 0.000000 0.000000 -0.995948 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x727C1012,  7096, 0x27C1003E, 172.926, 140.623, 53.13566, -0.05076947, 0, 0, -0.9987104,  True, '2019-02-10 00:00:00'); /* Gold Golem */
+/* @teleloc 0x27C1003E [172.926000 140.623000 53.135660] -0.050769 0.000000 0.000000 -0.998710 */

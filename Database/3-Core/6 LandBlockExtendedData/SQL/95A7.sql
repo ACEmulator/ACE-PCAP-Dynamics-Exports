@@ -52,7 +52,8 @@ VALUES (0x795A700A,  1542, 0x95A7002A, 120.8281, 27.02817, 60.56767, 0.7071068, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x795A700A, 0x795A700B, '2019-02-10 00:00:00') /* Wormwood (780) */
-     , (0x795A700A, 0x795A700C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
+     , (0x795A700A, 0x795A700C, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
+     , (0x795A700A, 0x795A700D, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795A700B,   780, 0x95A7002A, 120.8281, 27.02817, 60.56767, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wormwood */
@@ -61,3 +62,7 @@ VALUES (0x795A700B,   780, 0x95A7002A, 120.8281, 27.02817, 60.56767, 0.7071068, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x795A700C, 31686, 0x95A70021, 113.9694, 14.62572, 60.79219, 0.9470088, 0, 0, -0.3212077,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */
 /* @teleloc 0x95A70021 [113.969400 14.625720 60.792190] 0.947009 0.000000 0.000000 -0.321208 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x795A700D,  8037, 0x95A70021, 98.21546, 15.94482, 60.67126, 0.9470088, 0, 0, -0.3212077,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+/* @teleloc 0x95A70021 [98.215460 15.944820 60.671260] 0.947009 0.000000 0.000000 -0.321208 */

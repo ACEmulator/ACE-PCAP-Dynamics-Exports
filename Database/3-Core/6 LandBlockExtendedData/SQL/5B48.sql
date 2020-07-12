@@ -218,7 +218,9 @@ VALUES (0x75B480CC, 0x75B480CD, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x75B480CC, 0x75B4819B, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x75B480CC, 0x75B4819C, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x75B480CC, 0x75B4819D, '2019-02-10 00:00:00') /* Rampager (10810) */
-     , (0x75B480CC, 0x75B4819E, '2019-02-10 00:00:00') /* Rampager (10810) */;
+     , (0x75B480CC, 0x75B4819E, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x75B480CC, 0x75B4819F, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x75B480CC, 0x75B481A0, '2019-02-10 00:00:00') /* Rampager (10810) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B480CD, 10810, 0x5B480359, 257.343, -50.3621, 0.01320004, 0.965555, 0, 0, -0.2602,  True, '2019-02-10 00:00:00'); /* Rampager */
@@ -1059,3 +1061,11 @@ VALUES (0x75B4819D, 10810, 0x5B48029C, 114.2905, -90.6528, 0.01320004, 0.8670961
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75B4819E, 10810, 0x5B48029B, 109.1213, -84.72277, 0.01320004, 0.9786979, 0, 0, -0.2053056,  True, '2019-02-10 00:00:00'); /* Rampager */
 /* @teleloc 0x5B48029B [109.121300 -84.722770 0.013200] 0.978698 0.000000 0.000000 -0.205306 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75B4819F, 10810, 0x5B480186, 88.70769, -87.9976, -11.9868, 0.2227239, 0, 0, -0.9748816,  True, '2019-02-10 00:00:00'); /* Rampager */
+/* @teleloc 0x5B480186 [88.707690 -87.997600 -11.986800] 0.222724 0.000000 0.000000 -0.974882 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75B481A0, 10810, 0x5B480361, 276.5652, -43.6271, 0.01320004, 0.4135963, 0, 0, -0.9104604,  True, '2019-02-10 00:00:00'); /* Rampager */
+/* @teleloc 0x5B480361 [276.565200 -43.627100 0.013200] 0.413596 0.000000 0.000000 -0.910460 */

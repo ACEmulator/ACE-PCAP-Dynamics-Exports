@@ -14,7 +14,10 @@ VALUES (0x7A94F001, 0x7A94F002, '2019-02-10 00:00:00') /* Sotiris Hollow Minion 
      , (0x7A94F001, 0x7A94F008, '2019-02-10 00:00:00') /* Amploth Raider (8143) */
      , (0x7A94F001, 0x7A94F009, '2019-02-10 00:00:00') /* Silver Rat (1626) */
      , (0x7A94F001, 0x7A94F00A, '2019-02-10 00:00:00') /* Silver Rat (1626) */
-     , (0x7A94F001, 0x7A94F00B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */;
+     , (0x7A94F001, 0x7A94F00B, '2019-02-10 00:00:00') /* Lithos Raider (8141) */
+     , (0x7A94F001, 0x7A94F00C, '2019-02-10 00:00:00') /* Silver Rat (1626) */
+     , (0x7A94F001, 0x7A94F00D, '2019-02-10 00:00:00') /* Laigus Lugian (5) */
+     , (0x7A94F001, 0x7A94F00E, '2019-02-10 00:00:00') /* Granite Golem (195) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A94F002,  8270, 0xA94F0029, 137.8349, 12.53556, 28.0025, 0.7128826, 0, 0, -0.7012834,  True, '2019-02-10 00:00:00'); /* Sotiris Hollow Minion */
@@ -55,3 +58,15 @@ VALUES (0x7A94F00A,  1626, 0xA94F003B, 175.758, 50.53297, 32.47002, -0.6507895, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A94F00B,  8141, 0xA94F003C, 187.7434, 95.16373, 29.72497, -0.4497547, 0, 0, -0.8931521,  True, '2019-02-10 00:00:00'); /* Lithos Raider */
 /* @teleloc 0xA94F003C [187.743400 95.163730 29.724970] -0.449755 0.000000 0.000000 -0.893152 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A94F00C,  1626, 0xA94F002B, 139.8427, 54.6261, 26.012, -0.01002419, 0, 0, -0.9999498,  True, '2019-02-10 00:00:00'); /* Silver Rat */
+/* @teleloc 0xA94F002B [139.842700 54.626100 26.012000] -0.010024 0.000000 0.000000 -0.999950 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A94F00D,     5, 0xA94F003A, 187.8466, 31.5284, 34.06303, -0.5950142, 0, 0, -0.8037152,  True, '2019-02-10 00:00:00'); /* Laigus Lugian */
+/* @teleloc 0xA94F003A [187.846600 31.528400 34.063030] -0.595014 0.000000 0.000000 -0.803715 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A94F00E,   195, 0xA94F003C, 185.6406, 77.50562, 30.9511, -0.4497547, 0, 0, -0.8931521,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0xA94F003C [185.640600 77.505620 30.951100] -0.449755 0.000000 0.000000 -0.893152 */

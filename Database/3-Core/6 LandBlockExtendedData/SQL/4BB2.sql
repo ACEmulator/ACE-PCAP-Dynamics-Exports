@@ -13,7 +13,8 @@ VALUES (0x74BB2001, 0x74BB2002, '2019-02-10 00:00:00') /* Flare (5710) */
      , (0x74BB2001, 0x74BB2003, '2019-02-10 00:00:00') /* Flare (5710) */
      , (0x74BB2001, 0x74BB2004, '2019-02-10 00:00:00') /* Banderling Rogue (22810) */
      , (0x74BB2001, 0x74BB2005, '2019-02-10 00:00:00') /* Exploration Marker (39755) */
-     , (0x74BB2001, 0x74BB2006, '2019-02-10 00:00:00') /* Frost (14517) */;
+     , (0x74BB2001, 0x74BB2006, '2019-02-10 00:00:00') /* Frost (14517) */
+     , (0x74BB2001, 0x74BB2007, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB2002,  5710, 0x4BB2001B, 89.4968, 67.5089, 240.005, -0.328099, 0, 0, -0.944643,  True, '2019-02-10 00:00:00'); /* Flare */
@@ -34,3 +35,7 @@ VALUES (0x74BB2005, 39755, 0x4BB20032, 157.972, 33.0285, 255.2, 0.700876, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74BB2006, 14517, 0x4BB20021, 111.6688, 8.699133, 240.007, -0.5389553, 0, 0, -0.8423343,  True, '2019-02-10 00:00:00'); /* Frost */
 /* @teleloc 0x4BB20021 [111.668800 8.699133 240.007000] -0.538955 0.000000 0.000000 -0.842334 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74BB2007, 28551, 0x4BB20019, 79.8475, 19.60867, 240, -0.5389553, 0, 0, -0.8423343,  True, '2019-02-10 00:00:00'); /* Sparkling Dual Fragment */
+/* @teleloc 0x4BB20019 [79.847500 19.608670 240.000000] -0.538955 0.000000 0.000000 -0.842334 */

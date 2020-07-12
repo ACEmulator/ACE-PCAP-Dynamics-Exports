@@ -48,7 +48,8 @@ VALUES (0x7E732001, 0x7E732002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7E732001, 0x7E732026, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E732001, 0x7E732027, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E732001, 0x7E732028, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x7E732001, 0x7E732029, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
+     , (0x7E732001, 0x7E732029, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7E732001, 0x7E73202A, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E732002, 24937, 0xE732000B, 46.80318, 49.92217, 12.29121, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -211,12 +212,16 @@ VALUES (0x7E732029,  2567, 0xE732000A, 28.15681, 27.42623, 20.32888, -0.6214998,
 /* @teleloc 0xE732000A [28.156810 27.426230 20.328880] -0.621500 0.000000 0.000000 -0.783414 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E73202A,  1542, 0xE7320021, 115.9521, 9.059754, 18.12081, -0.07811702, 0, 0, -0.9969442, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E73202A, 24937, 0xE7320009, 41.69008, 11.84008, 21.12361, -0.6214998, 0, 0, -0.7834144,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xE7320009 [41.690080 11.840080 21.123610] -0.621500 0.000000 0.000000 -0.783414 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E73202B,  1542, 0xE7320021, 115.9521, 9.059754, 18.12081, -0.07811702, 0, 0, -0.9969442, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE7320021 [115.952100 9.059754 18.120810] -0.078117 0.000000 0.000000 -0.996944 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E73202A, 0x7E73202B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
+VALUES (0x7E73202B, 0x7E73202C, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E73202B,  8644, 0xE7320021, 115.9521, 9.059754, 18.12081, -0.07811702, 0, 0, -0.9969442,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
+VALUES (0x7E73202C,  8644, 0xE7320021, 115.9521, 9.059754, 18.12081, -0.07811702, 0, 0, -0.9969442,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
 /* @teleloc 0xE7320021 [115.952100 9.059754 18.120810] -0.078117 0.000000 0.000000 -0.996944 */

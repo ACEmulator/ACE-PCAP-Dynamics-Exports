@@ -67,7 +67,12 @@ VALUES (0x7BB9D001, 0x7BB9D002, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7BB9D001, 0x7BB9D039, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7BB9D001, 0x7BB9D03A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7BB9D001, 0x7BB9D03B, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
-     , (0x7BB9D001, 0x7BB9D03C, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7BB9D001, 0x7BB9D03C, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D03D, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7BB9D001, 0x7BB9D03E, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D03F, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7BB9D001, 0x7BB9D040, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7BB9D001, 0x7BB9D041, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB9D002,  2566, 0xBB9D003D, 183.8759, 108.4595, 15.49522, -0.8020728, 0, 0, -0.5972263,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -306,218 +311,238 @@ VALUES (0x7BB9D03C, 24937, 0xBB9D0036, 151.2399, 129.5392, 26.31695, -0.9899074,
 /* @teleloc 0xBB9D0036 [151.239900 129.539200 26.316950] -0.989907 0.000000 0.000000 -0.141716 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D03D,  1154, 0xBB9D0038, 157.828, 184.569, 35.61417, -0.950534, 0, 0, 0.31062, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7BB9D03D,   215, 0xBB9D0039, 169.4715, 19.64369, 1.912, 0.8834788, 0, 0, -0.4684712,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
+/* @teleloc 0xBB9D0039 [169.471500 19.643690 1.912000] 0.883479 0.000000 0.000000 -0.468471 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB9D03E,  2566, 0xBB9D0035, 144.692, 106.7884, 21.68274, -0.9899074, 0, 0, -0.1417157,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xBB9D0035 [144.692000 106.788400 21.682740] -0.989907 0.000000 0.000000 -0.141716 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB9D03F, 24937, 0xBB9D0036, 166.9106, 123.9493, 21.16088, -0.8020728, 0, 0, -0.5972263,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xBB9D0036 [166.910600 123.949300 21.160880] -0.802073 0.000000 0.000000 -0.597226 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB9D040,  2566, 0xBB9D0035, 158.5697, 112.1232, 20.25892, -0.9899074, 0, 0, -0.1417157,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xBB9D0035 [158.569700 112.123200 20.258920] -0.989907 0.000000 0.000000 -0.141716 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB9D041,  4109, 0xBB9D003A, 189.3795, 28.12287, 1.546, 0.8834788, 0, 0, -0.4684712,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
+/* @teleloc 0xBB9D003A [189.379500 28.122870 1.546000] 0.883479 0.000000 0.000000 -0.468471 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB9D042,  1154, 0xBB9D0038, 157.828, 184.569, 35.61417, -0.950534, 0, 0, 0.31062, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xBB9D0038 [157.828000 184.569000 35.614170] -0.950534 0.000000 0.000000 0.310620 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9D03D, 0x7BB9D03E, '2019-02-10 00:00:00') /* Emissary of Asheron (43249) */
-     , (0x7BB9D03D, 0x7BB9D03F, '2019-02-10 00:00:00') /* Guardian Golem (43247) */
-     , (0x7BB9D03D, 0x7BB9D040, '2019-02-10 00:00:00') /* Guardian Golem (43247) */
-     , (0x7BB9D03D, 0x7BB9D041, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D042, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
-     , (0x7BB9D03D, 0x7BB9D043, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
-     , (0x7BB9D03D, 0x7BB9D044, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
-     , (0x7BB9D03D, 0x7BB9D045, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D046, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D047, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D048, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D049, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D04A, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
-     , (0x7BB9D03D, 0x7BB9D04B, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
-     , (0x7BB9D03D, 0x7BB9D04C, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
-     , (0x7BB9D03D, 0x7BB9D04D, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
-     , (0x7BB9D03D, 0x7BB9D04E, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D04F, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
-     , (0x7BB9D03D, 0x7BB9D050, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D051, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D052, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
-     , (0x7BB9D03D, 0x7BB9D053, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D054, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
-     , (0x7BB9D03D, 0x7BB9D055, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D056, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D057, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
-     , (0x7BB9D03D, 0x7BB9D058, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D059, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
-     , (0x7BB9D03D, 0x7BB9D05A, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
-     , (0x7BB9D03D, 0x7BB9D05B, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
-     , (0x7BB9D03D, 0x7BB9D05C, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
-     , (0x7BB9D03D, 0x7BB9D05D, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
-     , (0x7BB9D03D, 0x7BB9D05E, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
-     , (0x7BB9D03D, 0x7BB9D05F, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
-     , (0x7BB9D03D, 0x7BB9D060, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
-     , (0x7BB9D03D, 0x7BB9D061, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */;
+VALUES (0x7BB9D042, 0x7BB9D043, '2019-02-10 00:00:00') /* Emissary of Asheron (43249) */
+     , (0x7BB9D042, 0x7BB9D044, '2019-02-10 00:00:00') /* Guardian Golem (43247) */
+     , (0x7BB9D042, 0x7BB9D045, '2019-02-10 00:00:00') /* Guardian Golem (43247) */
+     , (0x7BB9D042, 0x7BB9D046, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D047, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D042, 0x7BB9D048, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D042, 0x7BB9D049, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D042, 0x7BB9D04A, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D04B, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D04C, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D04D, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D04E, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D04F, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D042, 0x7BB9D050, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D042, 0x7BB9D051, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D042, 0x7BB9D052, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D042, 0x7BB9D053, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D054, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D042, 0x7BB9D055, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D056, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D057, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D042, 0x7BB9D058, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D059, '2019-02-10 00:00:00') /* Weakened Empyrean (43250) */
+     , (0x7BB9D042, 0x7BB9D05A, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D05B, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D05C, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D042, 0x7BB9D05D, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D05E, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D042, 0x7BB9D05F, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D042, 0x7BB9D060, '2019-02-10 00:00:00') /* Weakened Empyrean (43244) */
+     , (0x7BB9D042, 0x7BB9D061, '2019-02-10 00:00:00') /* Weakened Empyrean (43246) */
+     , (0x7BB9D042, 0x7BB9D062, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D042, 0x7BB9D063, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */
+     , (0x7BB9D042, 0x7BB9D064, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D042, 0x7BB9D065, '2019-02-10 00:00:00') /* Weakened Empyrean (43245) */
+     , (0x7BB9D042, 0x7BB9D066, '2019-02-10 00:00:00') /* Weakened Empyrean (43243) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D03E, 43249, 0xBB9D0038, 157.828, 184.569, 35.61417, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Emissary of Asheron */
+VALUES (0x7BB9D043, 43249, 0xBB9D0038, 157.828, 184.569, 35.61417, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Emissary of Asheron */
 /* @teleloc 0xBB9D0038 [157.828000 184.569000 35.614170] -0.950534 0.000000 0.000000 0.310620 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D03F, 43247, 0xBB9D0038, 158.328, 183.323, 35.36633, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Guardian Golem */
+VALUES (0x7BB9D044, 43247, 0xBB9D0038, 158.328, 183.323, 35.36633, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Guardian Golem */
 /* @teleloc 0xBB9D0038 [158.328000 183.323000 35.366330] -0.950534 0.000000 0.000000 0.310620 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D040, 43247, 0xBB9D0038, 156.426, 184.715, 35.75683, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Guardian Golem */
+VALUES (0x7BB9D045, 43247, 0xBB9D0038, 156.426, 184.715, 35.75683, -0.950534, 0, 0, 0.31062,  True, '2019-02-10 00:00:00'); /* Guardian Golem */
 /* @teleloc 0xBB9D0038 [156.426000 184.715000 35.756830] -0.950534 0.000000 0.000000 0.310620 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D041, 43243, 0xBB9D0038, 158.984, 179.5413, 34.68088, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D046, 43243, 0xBB9D0038, 158.984, 179.5413, 34.68088, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.984000 179.541300 34.680880] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D042, 43245, 0xBB9D0038, 159.9542, 179.4487, 34.58459, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D047, 43245, 0xBB9D0038, 159.9542, 179.4487, 34.58459, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [159.954200 179.448700 34.584590] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D043, 43246, 0xBB9D0038, 157.8548, 179.3515, 34.74311, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D048, 43246, 0xBB9D0038, 157.8548, 179.3515, 34.74311, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.854800 179.351500 34.743110] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D044, 43246, 0xBB9D0038, 155.0061, 179.0613, 34.93213, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D049, 43246, 0xBB9D0038, 155.0061, 179.0613, 34.93213, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [155.006100 179.061300 34.932130] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D045, 43243, 0xBB9D0038, 159.591, 178.192, 34.40542, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D04A, 43243, 0xBB9D0038, 159.591, 178.192, 34.40542, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [159.591000 178.192000 34.405420] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D046, 43244, 0xBB9D0038, 157.6862, 179.425, 34.7694, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D04B, 43244, 0xBB9D0038, 157.6862, 179.425, 34.7694, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.686200 179.425000 34.769400] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D047, 43244, 0xBB9D0038, 161.192, 178.5089, 34.32457, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D04C, 43244, 0xBB9D0038, 161.192, 178.5089, 34.32457, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [161.192000 178.508900 34.324570] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D048, 43244, 0xBB9D0038, 157.0016, 180.1471, 34.9468, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D04D, 43244, 0xBB9D0038, 157.0016, 180.1471, 34.9468, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.001600 180.147100 34.946800] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D049, 43243, 0xBB9D0038, 155.7186, 179.0383, 34.86917, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D04E, 43243, 0xBB9D0038, 155.7186, 179.0383, 34.86917, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [155.718600 179.038300 34.869170] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D04A, 43246, 0xBB9D0038, 157.0029, 179.6697, 34.86713, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D04F, 43246, 0xBB9D0038, 157.0029, 179.6697, 34.86713, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.002900 179.669700 34.867130] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D04B, 43250, 0xBB9D0038, 157.1964, 177.6184, 34.50911, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D050, 43250, 0xBB9D0038, 157.1964, 177.6184, 34.50911, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.196400 177.618400 34.509110] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D04C, 43250, 0xBB9D0038, 160.0543, 177.5421, 34.25824, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D051, 43250, 0xBB9D0038, 160.0543, 177.5421, 34.25824, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [160.054300 177.542100 34.258240] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D04D, 43250, 0xBB9D0038, 159.6202, 180.4586, 34.78051, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D052, 43250, 0xBB9D0038, 159.6202, 180.4586, 34.78051, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [159.620200 180.458600 34.780510] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D04E, 43243, 0xBB9D0038, 154.2026, 178.7249, 34.94328, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D053, 43243, 0xBB9D0038, 154.2026, 178.7249, 34.94328, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [154.202600 178.724900 34.943280] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D04F, 43250, 0xBB9D0038, 158.1422, 179.6587, 34.77034, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D054, 43250, 0xBB9D0038, 158.1422, 179.6587, 34.77034, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.142200 179.658700 34.770340] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D050, 43243, 0xBB9D0038, 156.2931, 175.5756, 34.24417, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D055, 43243, 0xBB9D0038, 156.2931, 175.5756, 34.24417, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [156.293100 175.575600 34.244170] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D051, 43243, 0xBB9D0038, 158.5522, 180.7742, 34.92234, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D056, 43243, 0xBB9D0038, 158.5522, 180.7742, 34.92234, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.552200 180.774200 34.922340] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D052, 43250, 0xBB9D0038, 157.4004, 175.8608, 34.19919, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D057, 43250, 0xBB9D0038, 157.4004, 175.8608, 34.19919, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.400400 175.860800 34.199190] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D053, 43244, 0xBB9D0038, 157.4623, 181.0882, 35.06526, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D058, 43244, 0xBB9D0038, 157.4623, 181.0882, 35.06526, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.462300 181.088200 35.065260] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D054, 43250, 0xBB9D0038, 160.3985, 178.476, 34.38522, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D059, 43250, 0xBB9D0038, 160.3985, 178.476, 34.38522, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [160.398500 178.476000 34.385220] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D055, 43244, 0xBB9D0038, 160.5466, 180.3686, 34.6883, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D05A, 43244, 0xBB9D0038, 160.5466, 180.3686, 34.6883, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [160.546600 180.368600 34.688300] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D056, 43243, 0xBB9D0038, 157.3742, 177.4193, 34.46136, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D05B, 43243, 0xBB9D0038, 157.3742, 177.4193, 34.46136, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.374200 177.419300 34.461360] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D057, 43246, 0xBB9D0038, 157.0905, 179.4539, 34.82386, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D05C, 43246, 0xBB9D0038, 157.0905, 179.4539, 34.82386, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.090500 179.453900 34.823860] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D058, 43244, 0xBB9D0038, 158.0205, 180.5191, 34.9239, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D05D, 43244, 0xBB9D0038, 158.0205, 180.5191, 34.9239, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.020500 180.519100 34.923900] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D059, 43246, 0xBB9D0038, 158.6974, 177.9581, 34.44065, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D05E, 43246, 0xBB9D0038, 158.6974, 177.9581, 34.44065, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.697400 177.958100 34.440650] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D05A, 43245, 0xBB9D0038, 158.676, 178.9796, 34.61293, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D05F, 43245, 0xBB9D0038, 158.676, 178.9796, 34.61293, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.676000 178.979600 34.612930] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D05B, 43244, 0xBB9D0038, 156.746, 178.5265, 34.69799, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D060, 43244, 0xBB9D0038, 156.746, 178.5265, 34.69799, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [156.746000 178.526500 34.697990] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D05C, 43246, 0xBB9D0038, 158.5441, 181.449, 35.03525, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D061, 43246, 0xBB9D0038, 158.5441, 181.449, 35.03525, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [158.544100 181.449000 35.035250] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D05D, 43245, 0xBB9D0038, 159.7755, 177.9613, 34.3516, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D062, 43245, 0xBB9D0038, 159.7755, 177.9613, 34.3516, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [159.775500 177.961300 34.351600] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D05E, 43243, 0xBB9D0038, 159.8801, 179.1059, 34.53364, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D063, 43243, 0xBB9D0038, 159.8801, 179.1059, 34.53364, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [159.880100 179.105900 34.533640] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D05F, 43245, 0xBB9D0038, 157.6149, 177.3085, 34.42283, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D064, 43245, 0xBB9D0038, 157.6149, 177.3085, 34.42283, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [157.614900 177.308500 34.422830] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D060, 43245, 0xBB9D0038, 156.4552, 178.577, 34.7309, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D065, 43245, 0xBB9D0038, 156.4552, 178.577, 34.7309, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [156.455200 178.577000 34.730900] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D061, 43243, 0xBB9D0038, 156.8612, 179.6642, 34.87827, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
+VALUES (0x7BB9D066, 43243, 0xBB9D0038, 156.8612, 179.6642, 34.87827, 0.0200481, 0, 0, 0.999799,  True, '2019-02-10 00:00:00'); /* Weakened Empyrean */
 /* @teleloc 0xBB9D0038 [156.861200 179.664200 34.878270] 0.020048 0.000000 0.000000 0.999799 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D062,  1542, 0xBB9D0040, 168.1072, 187.2167, 36.61104, 0.1360766, 0, 0, -0.9906983, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BB9D067,  1542, 0xBB9D0040, 168.1072, 187.2167, 36.61104, 0.1360766, 0, 0, -0.9906983, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBB9D0040 [168.107200 187.216700 36.611040] 0.136077 0.000000 0.000000 -0.990698 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB9D062, 0x7BB9D063, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7BB9D062, 0x7BB9D064, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7BB9D062, 0x7BB9D065, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7BB9D062, 0x7BB9D066, '2019-02-10 00:00:00') /* Empyrean Over-robe (43274) */
-     , (0x7BB9D062, 0x7BB9D067, '2019-02-10 00:00:00') /* Egg (546) */;
+VALUES (0x7BB9D067, 0x7BB9D068, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BB9D067, 0x7BB9D069, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BB9D067, 0x7BB9D06A, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7BB9D067, 0x7BB9D06B, '2019-02-10 00:00:00') /* Empyrean Over-robe (43274) */
+     , (0x7BB9D067, 0x7BB9D06C, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D063,  1955, 0xBB9D0040, 168.1072, 187.2167, 36.61104, 0.1360766, 0, 0, -0.9906983,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7BB9D068,  1955, 0xBB9D0040, 168.1072, 187.2167, 36.61104, 0.1360766, 0, 0, -0.9906983,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xBB9D0040 [168.107200 187.216700 36.611040] 0.136077 0.000000 0.000000 -0.990698 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D064,  1955, 0xBB9D0038, 165.2925, 183.601, 36.14148, -0.02583943, 0, 0, -0.9996661,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7BB9D069,  1955, 0xBB9D0038, 165.2925, 183.601, 36.14148, -0.02583943, 0, 0, -0.9996661,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xBB9D0038 [165.292500 183.601000 36.141480] -0.025839 0.000000 0.000000 -0.999666 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D065,  1955, 0xBB9D0040, 175.0113, 190.0117, 35.02134, 0.90285, 0, 0, -0.4299556,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7BB9D06A,  1955, 0xBB9D0040, 175.0113, 190.0117, 35.02134, 0.90285, 0, 0, -0.4299556,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xBB9D0040 [175.011300 190.011700 35.021340] 0.902850 0.000000 0.000000 -0.429956 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D066, 43274, 0xBB9D0040, 168.6495, 185.0928, 34.73415, -0.9938108, 0, 0, -0.1110864,  True, '2019-02-10 00:00:00'); /* Empyrean Over-robe */
+VALUES (0x7BB9D06B, 43274, 0xBB9D0040, 168.6495, 185.0928, 34.73415, -0.9938108, 0, 0, -0.1110864,  True, '2019-02-10 00:00:00'); /* Empyrean Over-robe */
 /* @teleloc 0xBB9D0040 [168.649500 185.092800 34.734150] -0.993811 0.000000 0.000000 -0.111086 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9D067,   546, 0xBB9D003D, 175.309, 108.8576, 12.59346, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7BB9D06C,   546, 0xBB9D003D, 175.309, 108.8576, 12.59346, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xBB9D003D [175.309000 108.857600 12.593460] 1.000000 0.000000 0.000000 0.000000 */

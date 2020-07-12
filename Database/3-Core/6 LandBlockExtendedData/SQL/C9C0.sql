@@ -36,7 +36,8 @@ VALUES (0x7C9C0001, 0x7C9C0002, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) 
      , (0x7C9C0001, 0x7C9C001E, '2019-02-10 00:00:00') /* Gloom Drudge (24279) */
      , (0x7C9C0001, 0x7C9C001F, '2019-02-10 00:00:00') /* Diamond Golem (4216) */
      , (0x7C9C0001, 0x7C9C0020, '2019-02-10 00:00:00') /* Olthoi Eviscerator (11478) */
-     , (0x7C9C0001, 0x7C9C0021, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */;
+     , (0x7C9C0001, 0x7C9C0021, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7C9C0001, 0x7C9C0022, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C9C0002, 24958, 0xC9C00036, 160.7085, 123.4891, 0.6024299, -0.4552288, 0, 0, 0.8903745,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
@@ -167,22 +168,26 @@ VALUES (0x7C9C0021, 23482, 0xC9C00004, 13.39616, 72.52205, 12.88365, -0.2836213,
 /* @teleloc 0xC9C00004 [13.396160 72.522050 12.883650] -0.283621 0.000000 0.000000 -0.958936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C9C0022,  1542, 0xC9C00005, 15.44563, 116.2859, 11.02237, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C9C0022, 24280, 0xC9C0003F, 179.7975, 150.9971, 0.00454998, -0.9877045, 0, 0, -0.1563322,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
+/* @teleloc 0xC9C0003F [179.797500 150.997100 0.004550] -0.987705 0.000000 0.000000 -0.156332 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C9C0023,  1542, 0xC9C00005, 15.44563, 116.2859, 11.02237, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC9C00005 [15.445630 116.285900 11.022370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C9C0022, 0x7C9C0023, '2019-02-10 00:00:00') /* Runed Chest (22571) */
-     , (0x7C9C0022, 0x7C9C0024, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7C9C0022, 0x7C9C0025, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x7C9C0023, 0x7C9C0024, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x7C9C0023, 0x7C9C0025, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7C9C0023, 0x7C9C0026, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C9C0023, 22571, 0xC9C00005, 15.44563, 116.2859, 11.02237, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7C9C0024, 22571, 0xC9C00005, 15.44563, 116.2859, 11.02237, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xC9C00005 [15.445630 116.285900 11.022370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C9C0024,  4179, 0xC9C0001E, 73.13764, 132.3748, 4.87396, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7C9C0025,  4179, 0xC9C0001E, 73.13764, 132.3748, 4.87396, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xC9C0001E [73.137640 132.374800 4.873960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C9C0025,  4380, 0xC9C0003D, 168.9764, 113.5007, 0.5416082, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7C9C0026,  4380, 0xC9C0003D, 168.9764, 113.5007, 0.5416082, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0xC9C0003D [168.976400 113.500700 0.541608] 0.000000 0.000000 0.000000 -1.000000 */

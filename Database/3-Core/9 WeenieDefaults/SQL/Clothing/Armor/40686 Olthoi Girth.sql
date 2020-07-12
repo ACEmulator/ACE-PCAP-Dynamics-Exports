@@ -25,7 +25,6 @@ VALUES (40686,   1,          2) /* ItemType - Armor */
      , (40686, 158,          2) /* WieldRequirements - RawSkill */
      , (40686, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40686, 160,        325) /* WieldDifficulty */
-     , (40686, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (40686, 270,          7) /* WieldRequirements2 - Level */
      , (40686, 271,          1) /* WieldSkillType2 - Axe */
      , (40686, 272,        150) /* WieldDifficulty2 */;

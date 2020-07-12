@@ -21,7 +21,6 @@ VALUES (28628,   1,          2) /* ItemType - Armor */
      , (28628, 110,          0) /* ItemAllegianceRankLimit */
      , (28628, 115,        219) /* ItemSkillLevelLimit */
      , (28628, 131,         58) /* MaterialType - Bronze */
-     , (28628, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (28628, 177,          1) /* GemCount */
      , (28628, 178,         47) /* GemType */;
 

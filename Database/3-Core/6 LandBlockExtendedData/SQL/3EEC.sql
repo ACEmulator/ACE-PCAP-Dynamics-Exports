@@ -20,7 +20,11 @@ VALUES (0x73EEC001, 0x73EEC002, '2019-02-10 00:00:00') /* Viamontian Hand (28655
      , (0x73EEC001, 0x73EEC00A, '2019-02-10 00:00:00') /* Shadow Wraith (23091) */
      , (0x73EEC001, 0x73EEC00B, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
      , (0x73EEC001, 0x73EEC00C, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) */
-     , (0x73EEC001, 0x73EEC00D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */;
+     , (0x73EEC001, 0x73EEC00D, '2019-02-10 00:00:00') /* Repugnant Eater (28638) */
+     , (0x73EEC001, 0x73EEC00E, '2019-02-10 00:00:00') /* Copper Gromnie (27711) */
+     , (0x73EEC001, 0x73EEC00F, '2019-02-10 00:00:00') /* Affliction Wisp (7125) */
+     , (0x73EEC001, 0x73EEC010, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */
+     , (0x73EEC001, 0x73EEC011, '2019-02-10 00:00:00') /* Ruschk Draktehn (29343) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73EEC002, 28655, 0x3EEC0037, 162.7979, 164.6852, 11.83924, 0.1025066, 0, 0, -0.9947323,  True, '2019-02-10 00:00:00'); /* Viamontian Hand */
@@ -71,12 +75,28 @@ VALUES (0x73EEC00D, 28638, 0x3EEC003D, 175.7935, 113.1096, 15.79785, 0.734408, 0
 /* @teleloc 0x3EEC003D [175.793500 113.109600 15.797850] 0.734408 0.000000 0.000000 -0.678708 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73EEC00E,  1542, 0x3EEC0035, 165.1588, 112.7091, 13.55776, -0.5657133, 0, 0, -0.824602, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73EEC00E, 27711, 0x3EEC0022, 119.8795, 30.48399, 16.15041, -0.9388023, 0, 0, -0.3444564,  True, '2019-02-10 00:00:00'); /* Copper Gromnie */
+/* @teleloc 0x3EEC0022 [119.879500 30.483990 16.150410] -0.938802 0.000000 0.000000 -0.344456 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73EEC00F,  7125, 0x3EEC0034, 163.6043, 84.60485, 16.38545, -0.5657133, 0, 0, -0.824602,  True, '2019-02-10 00:00:00'); /* Affliction Wisp */
+/* @teleloc 0x3EEC0034 [163.604300 84.604850 16.385450] -0.565713 0.000000 0.000000 -0.824602 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73EEC010, 29343, 0x3EEC0037, 148.9146, 147.0794, 6.054334, 0.1025066, 0, 0, -0.9947323,  True, '2019-02-10 00:00:00'); /* Ruschk Draktehn */
+/* @teleloc 0x3EEC0037 [148.914600 147.079400 6.054334] 0.102507 0.000000 0.000000 -0.994732 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73EEC011, 29343, 0x3EEC0040, 190.4011, 168.6267, 13.74547, 0.9942144, 0, 0, -0.1074136,  True, '2019-02-10 00:00:00'); /* Ruschk Draktehn */
+/* @teleloc 0x3EEC0040 [190.401100 168.626700 13.745470] 0.994214 0.000000 0.000000 -0.107414 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73EEC012,  1542, 0x3EEC0035, 165.1588, 112.7091, 13.55776, -0.5657133, 0, 0, -0.824602, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x3EEC0035 [165.158800 112.709100 13.557760] -0.565713 0.000000 0.000000 -0.824602 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73EEC00E, 0x73EEC00F, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
+VALUES (0x73EEC012, 0x73EEC013, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73EEC00F, 31032, 0x3EEC0035, 165.1588, 112.7091, 13.55776, -0.5657133, 0, 0, -0.824602,  True, '2019-02-10 00:00:00'); /* Snow Lily */
+VALUES (0x73EEC013, 31032, 0x3EEC0035, 165.1588, 112.7091, 13.55776, -0.5657133, 0, 0, -0.824602,  True, '2019-02-10 00:00:00'); /* Snow Lily */
 /* @teleloc 0x3EEC0035 [165.158800 112.709100 13.557760] -0.565713 0.000000 0.000000 -0.824602 */

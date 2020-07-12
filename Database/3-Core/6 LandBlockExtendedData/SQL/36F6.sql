@@ -33,7 +33,12 @@ VALUES (0x736F6001, 0x736F6002, '2019-02-10 00:00:00') /* Crystal Shard (23616) 
      , (0x736F6001, 0x736F601B, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
      , (0x736F6001, 0x736F601C, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
      , (0x736F6001, 0x736F601D, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
-     , (0x736F6001, 0x736F601E, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */;
+     , (0x736F6001, 0x736F601E, '2019-02-10 00:00:00') /* Acidic Coral Golem (15266) */
+     , (0x736F6001, 0x736F601F, '2019-02-10 00:00:00') /* Vapor Golem (7099) */
+     , (0x736F6001, 0x736F6020, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */
+     , (0x736F6001, 0x736F6021, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x736F6001, 0x736F6022, '2019-02-10 00:00:00') /* Pugnacious Monouga (24292) */
+     , (0x736F6001, 0x736F6023, '2019-02-10 00:00:00') /* Ancient Coral Golem (28051) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736F6002, 23616, 0x36F6001C, 92.48427, 85.03869, -0.8999999, 0.7179498, 0, 0, -0.6960949,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
@@ -150,3 +155,23 @@ VALUES (0x736F601D,  7099, 0x36F6001B, 86.28069, 70.70283, -0.8899999, 0.7179498
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x736F601E, 15266, 0x36F60009, 38.11869, 4.238728, 1.656773, 0.9979935, 0, 0, -0.06331606,  True, '2019-02-10 00:00:00'); /* Acidic Coral Golem */
 /* @teleloc 0x36F60009 [38.118690 4.238728 1.656773] 0.997994 0.000000 0.000000 -0.063316 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736F601F,  7099, 0x36F60019, 87.8508, 8.00084, 1.343263, -0.3439281, 0, 0, -0.938996,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
+/* @teleloc 0x36F60019 [87.850800 8.000840 1.343263] -0.343928 0.000000 0.000000 -0.938996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736F6020, 28051, 0x36F60012, 53.99882, 25.39417, -0.08799994, 0.9979935, 0, 0, -0.06331606,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */
+/* @teleloc 0x36F60012 [53.998820 25.394170 -0.088000] 0.997994 0.000000 0.000000 -0.063316 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736F6021, 24294, 0x36F60017, 50.93652, 162.6066, -0.9075, 0.9992349, 0, 0, -0.03911193,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0x36F60017 [50.936520 162.606600 -0.907500] 0.999235 0.000000 0.000000 -0.039112 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736F6022, 24292, 0x36F6001A, 85.19192, 30.27245, -0.1069999, 0.8027905, 0, 0, -0.5962611,  True, '2019-02-10 00:00:00'); /* Pugnacious Monouga */
+/* @teleloc 0x36F6001A [85.191920 30.272450 -0.107000] 0.802791 0.000000 0.000000 -0.596261 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x736F6023, 28051, 0x36F60024, 105.8755, 73.03316, -0.888, 0.7179498, 0, 0, -0.6960949,  True, '2019-02-10 00:00:00'); /* Ancient Coral Golem */
+/* @teleloc 0x36F60024 [105.875500 73.033160 -0.888000] 0.717950 0.000000 0.000000 -0.696095 */

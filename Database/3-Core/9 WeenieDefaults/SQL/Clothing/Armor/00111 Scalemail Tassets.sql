@@ -20,8 +20,7 @@ VALUES (111,   1,          2) /* ItemType - Armor */
      , (111, 109,        115) /* ItemDifficulty */
      , (111, 110,          0) /* ItemAllegianceRankLimit */
      , (111, 115,        261) /* ItemSkillLevelLimit */
-     , (111, 131,         60) /* MaterialType - Gold */
-     , (111, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (111, 131,         60) /* MaterialType - Gold */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (111,  22, True ) /* Inscribable */

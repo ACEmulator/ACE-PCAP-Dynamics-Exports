@@ -10,7 +10,8 @@ VALUES (0x7BF5E001, 0x7BF5E002, '2019-02-10 00:00:00') /* Young Mosswart (4249) 
      , (0x7BF5E001, 0x7BF5E004, '2019-02-10 00:00:00') /* Ethereal Wisp (1535) */
      , (0x7BF5E001, 0x7BF5E005, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
      , (0x7BF5E001, 0x7BF5E006, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
-     , (0x7BF5E001, 0x7BF5E007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */;
+     , (0x7BF5E001, 0x7BF5E007, '2019-02-10 00:00:00') /* Barker Mosswart (947) */
+     , (0x7BF5E001, 0x7BF5E008, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5E002,  4249, 0xBF5E0022, 99.48027, 34.01842, 11.81328, -0.9999657, 0, 0, -0.008286294,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
@@ -35,3 +36,7 @@ VALUES (0x7BF5E006,  1614, 0xBF5E0018, 55.88418, 175.2298, 20.00112, 0.7653503, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BF5E007,   947, 0xBF5E0002, 14.16023, 39.49107, 5.9055, -0.9610229, 0, 0, -0.2764687,  True, '2019-02-10 00:00:00'); /* Barker Mosswart */
 /* @teleloc 0xBF5E0002 [14.160230 39.491070 5.905500] -0.961023 0.000000 0.000000 -0.276469 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BF5E008,   215, 0xBF5E001A, 94.84085, 36.16708, 13.35062, -0.9999657, 0, 0, -0.008286294,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
+/* @teleloc 0xBF5E001A [94.840850 36.167080 13.350620] -0.999966 0.000000 0.000000 -0.008286 */

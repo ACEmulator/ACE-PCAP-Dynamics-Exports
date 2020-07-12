@@ -26,7 +26,9 @@ VALUES (0x7BB97001, 0x7BB97002, '2019-02-10 00:00:00') /* Water Wisp (1986) */
      , (0x7BB97001, 0x7BB97014, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7BB97001, 0x7BB97015, '2019-02-10 00:00:00') /* Listris Niffis (7985) */
      , (0x7BB97001, 0x7BB97016, '2019-02-10 00:00:00') /* Auroch Bull (20) */
-     , (0x7BB97001, 0x7BB97017, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */;
+     , (0x7BB97001, 0x7BB97017, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
+     , (0x7BB97001, 0x7BB97018, '2019-02-10 00:00:00') /* Parfal Niffis (7984) */
+     , (0x7BB97001, 0x7BB97019, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BB97002,  1986, 0xBB970028, 102.7802, 180.0286, 3.862828, -0.3206354, 0, 0, -0.9472027,  True, '2019-02-10 00:00:00'); /* Water Wisp */
@@ -117,17 +119,25 @@ VALUES (0x7BB97017,  6534, 0xBB970027, 100.8113, 146.9842, 11.51263, 0.8504397, 
 /* @teleloc 0xBB970027 [100.811300 146.984200 11.512630] 0.850440 0.000000 0.000000 -0.526073 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB97018,  1542, 0xBB970027, 100.7349, 161.9337, 9.011045, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7BB97018,  7984, 0xBB970017, 70.04843, 145.875, 11.53156, 0.8504397, 0, 0, -0.5260726,  True, '2019-02-10 00:00:00'); /* Parfal Niffis */
+/* @teleloc 0xBB970017 [70.048430 145.875000 11.531560] 0.850440 0.000000 0.000000 -0.526073 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB97019,   177, 0xBB970030, 129.0887, 182.0596, 2.736944, -0.3206354, 0, 0, -0.9472027,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */
+/* @teleloc 0xBB970030 [129.088700 182.059600 2.736944] -0.320635 0.000000 0.000000 -0.947203 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BB9701A,  1542, 0xBB970027, 100.7349, 161.9337, 9.011045, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xBB970027 [100.734900 161.933700 9.011045] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7BB97018, 0x7BB97019, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7BB97018, 0x7BB9701A, '2019-02-10 00:00:00') /* Meat (265) */;
+VALUES (0x7BB9701A, 0x7BB9701B, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7BB9701A, 0x7BB9701C, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB97019,  4179, 0xBB970027, 100.7349, 161.9337, 9.011045, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7BB9701B,  4179, 0xBB970027, 100.7349, 161.9337, 9.011045, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xBB970027 [100.734900 161.933700 9.011045] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9701A,   265, 0xBB970020, 80.40943, 175.3838, 4.864249, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
+VALUES (0x7BB9701C,   265, 0xBB970020, 80.40943, 175.3838, 4.864249, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
 /* @teleloc 0xBB970020 [80.409430 175.383800 4.864249] 1.000000 0.000000 0.000000 0.000000 */

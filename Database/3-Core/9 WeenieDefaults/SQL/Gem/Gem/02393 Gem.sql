@@ -22,8 +22,7 @@ VALUES (2393,   1,       2048) /* ItemType - Gem */
      , (2393, 110,          0) /* ItemAllegianceRankLimit */
      , (2393, 115,          0) /* ItemSkillLevelLimit */
      , (2393, 117,        300) /* ItemManaCost */
-     , (2393, 131,         12) /* MaterialType - Amethyst */
-     , (2393, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2393, 131,         12) /* MaterialType - Amethyst */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2393,  22, True ) /* Inscribable */;

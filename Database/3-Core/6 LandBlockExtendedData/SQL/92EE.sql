@@ -14,7 +14,8 @@ VALUES (0x792EE001, 0x792EE002, '2019-02-10 00:00:00') /* Venomous Grievver (798
      , (0x792EE001, 0x792EE008, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
      , (0x792EE001, 0x792EE009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
      , (0x792EE001, 0x792EE00A, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
-     , (0x792EE001, 0x792EE00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */;
+     , (0x792EE001, 0x792EE00B, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
+     , (0x792EE001, 0x792EE00C, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792EE002,  7980, 0x92EE001B, 91.99758, 48.12648, 10.03796, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Venomous Grievver */
@@ -55,3 +56,7 @@ VALUES (0x792EE00A, 24289, 0x92EE0022, 118.7194, 24.59338, 10.04927, 0.7071068, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x792EE00B, 24288, 0x92EE0021, 118.4389, 21.423, 10.4215, 0.3987491, 0, 0, -0.9170601,  True, '2019-02-10 00:00:00'); /* Cruel Monouga */
 /* @teleloc 0x92EE0021 [118.438900 21.423000 10.421500] 0.398749 0.000000 0.000000 -0.917060 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x792EE00C, 38177, 0x92EE0022, 104.4382, 30.30471, 10.78143, -0.4331035, 0, 0, -0.9013442,  True, '2019-02-10 00:00:00'); /* Blighted Oak Golem */
+/* @teleloc 0x92EE0022 [104.438200 30.304710 10.781430] -0.433104 0.000000 0.000000 -0.901344 */

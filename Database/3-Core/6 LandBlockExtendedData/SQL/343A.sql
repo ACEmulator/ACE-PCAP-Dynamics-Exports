@@ -14,7 +14,9 @@ VALUES (0x7343A001, 0x7343A002, '2019-02-10 00:00:00') /* Banderling Predator (2
      , (0x7343A001, 0x7343A008, '2019-02-10 00:00:00') /* Blighted Bane Grievver (38180) */
      , (0x7343A001, 0x7343A009, '2019-02-10 00:00:00') /* Assailer (22053) */
      , (0x7343A001, 0x7343A00A, '2019-02-10 00:00:00') /* Rampager (10810) */
-     , (0x7343A001, 0x7343A00B, '2019-02-10 00:00:00') /* Rampager (10810) */;
+     , (0x7343A001, 0x7343A00B, '2019-02-10 00:00:00') /* Rampager (10810) */
+     , (0x7343A001, 0x7343A00C, '2019-02-10 00:00:00') /* Plasma Golem (7098) */
+     , (0x7343A001, 0x7343A00D, '2019-02-10 00:00:00') /* Banderling Aggressor (24274) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7343A002, 23478, 0x343A0029, 131.2154, 17.33835, 134.0071, 0.9208835, 0, 0, -0.3898379,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
@@ -55,3 +57,11 @@ VALUES (0x7343A00A, 10810, 0x343A003C, 176.7356, 74.29562, 142.3884, 0.9415802, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7343A00B, 10810, 0x343A003C, 174.3869, 76.77471, 142.0078, 0.9415802, 0, 0, -0.3367887,  True, '2019-02-10 00:00:00'); /* Rampager */
 /* @teleloc 0x343A003C [174.386900 76.774710 142.007800] 0.941580 0.000000 0.000000 -0.336789 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7343A00C,  7098, 0x343A0010, 25.45361, 187.4034, 151.2439, -0.9312089, 0, 0, -0.3644859,  True, '2019-02-10 00:00:00'); /* Plasma Golem */
+/* @teleloc 0x343A0010 [25.453610 187.403400 151.243900] -0.931209 0.000000 0.000000 -0.364486 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7343A00D, 24274, 0x343A0010, 27.47994, 180.198, 150.0401, -0.9312089, 0, 0, -0.3644859,  True, '2019-02-10 00:00:00'); /* Banderling Aggressor */
+/* @teleloc 0x343A0010 [27.479940 180.198000 150.040100] -0.931209 0.000000 0.000000 -0.364486 */

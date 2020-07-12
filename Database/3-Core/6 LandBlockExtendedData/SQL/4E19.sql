@@ -11,7 +11,9 @@ VALUES (0x74E19001, 0x74E19002, '2019-02-10 00:00:00') /* Maelstrom Shadow (2290
      , (0x74E19001, 0x74E19005, '2019-02-10 00:00:00') /* Tumerok High Priest (228) */
      , (0x74E19001, 0x74E19006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x74E19001, 0x74E19007, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
-     , (0x74E19001, 0x74E19008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
+     , (0x74E19001, 0x74E19008, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x74E19001, 0x74E19009, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74E19001, 0x74E1900A, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E19002, 22909, 0x4E190022, 103.7671, 28.84274, 44.25019, -0.6727213, 0, 0, -0.7398959,  True, '2019-02-10 00:00:00'); /* Maelstrom Shadow */
@@ -40,3 +42,11 @@ VALUES (0x74E19007,  7119, 0x4E190013, 48.62686, 68.38, 41.70483, 0.9020189, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74E19008,  7119, 0x4E19000B, 42.69136, 53.1446, 39.59145, 0.9020189, 0, 0, -0.4316965,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
 /* @teleloc 0x4E19000B [42.691360 53.144600 39.591450] 0.902019 0.000000 0.000000 -0.431697 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74E19009,  8431, 0x4E190022, 108.1569, 25.925, 44.85916, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x4E190022 [108.156900 25.925000 44.859160] 0.642788 0.000000 0.000000 -0.766044 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74E1900A,  8431, 0x4E190022, 105.6301, 28.19547, 44.45938, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x4E190022 [105.630100 28.195470 44.459380] 0.422618 0.000000 0.000000 -0.906308 */

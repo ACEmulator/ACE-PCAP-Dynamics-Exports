@@ -31,7 +31,14 @@ VALUES (0x74555001, 0x74555002, '2019-02-10 00:00:00') /* Corrosion Wisp (21549)
      , (0x74555001, 0x74555019, '2019-02-10 00:00:00') /* Skeletal Hero (36859) */
      , (0x74555001, 0x7455501A, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
      , (0x74555001, 0x7455501B, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
-     , (0x74555001, 0x7455501C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
+     , (0x74555001, 0x7455501C, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74555001, 0x7455501D, '2019-02-10 00:00:00') /* Shadow Storm (33309) */
+     , (0x74555001, 0x7455501E, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
+     , (0x74555001, 0x7455501F, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */
+     , (0x74555001, 0x74555020, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x74555001, 0x74555021, '2019-02-10 00:00:00') /* Shadow Phantom (23089) */
+     , (0x74555001, 0x74555022, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74555001, 0x74555023, '2019-02-10 00:00:00') /* Caustic (14516) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74555002, 21549, 0x4555003C, 174.7824, 87.81631, -0.09350008, 0.996372, 0, 0, -0.08510516,  True, '2019-02-10 00:00:00'); /* Corrosion Wisp */
@@ -142,12 +149,40 @@ VALUES (0x7455501C, 36855, 0x4555001F, 80.08534, 167.6345, -0.8974999, 0.7071068
 /* @teleloc 0x4555001F [80.085340 167.634500 -0.897500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7455501D,  1542, 0x4555001C, 91.73335, 86.81599, 1.530668, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7455501D, 33309, 0x45550008, 23.92133, 186.1997, 5.960464E-07, -0.2354188, 0, 0, -0.971894,  True, '2019-02-10 00:00:00'); /* Shadow Storm */
+/* @teleloc 0x45550008 [23.921330 186.199700 0.000001] -0.235419 0.000000 0.000000 -0.971894 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455501E,  4253, 0x45550008, 19.27158, 189.1581, 0.7910457, -0.2354188, 0, 0, -0.971894,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
+/* @teleloc 0x45550008 [19.271580 189.158100 0.791046] -0.235419 0.000000 0.000000 -0.971894 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455501F, 23090, 0x45550008, 8.497547, 171.5109, 0.004999995, -0.2354188, 0, 0, -0.971894,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
+/* @teleloc 0x45550008 [8.497547 171.510900 0.005000] -0.235419 0.000000 0.000000 -0.971894 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74555020,  4254, 0x45550010, 24.83995, 191.5605, -0.09600002, -0.2354188, 0, 0, -0.971894,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x45550010 [24.839950 191.560500 -0.096000] -0.235419 0.000000 0.000000 -0.971894 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74555021, 23089, 0x45550010, 25.84559, 178.7139, -0.09500003, -0.2354188, 0, 0, -0.971894,  True, '2019-02-10 00:00:00'); /* Shadow Phantom */
+/* @teleloc 0x45550010 [25.845590 178.713900 -0.095000] -0.235419 0.000000 0.000000 -0.971894 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74555022,  4248, 0x45550020, 74.61722, 174.7274, -0.8934, -0.2000578, 0, 0, -0.9797841,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x45550020 [74.617220 174.727400 -0.893400] -0.200058 0.000000 0.000000 -0.979784 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74555023, 14516, 0x4555003D, 189.9173, 97.84034, -0.4425, 0.996372, 0, 0, -0.08510516,  True, '2019-02-10 00:00:00'); /* Caustic */
+/* @teleloc 0x4555003D [189.917300 97.840340 -0.442500] 0.996372 0.000000 0.000000 -0.085105 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74555024,  1542, 0x4555001C, 91.73335, 86.81599, 1.530668, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x4555001C [91.733350 86.815990 1.530668] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455501D, 0x7455501E, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x74555024, 0x74555025, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7455501E,  4179, 0x4555001C, 91.73335, 86.81599, 1.530668, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x74555025,  4179, 0x4555001C, 91.73335, 86.81599, 1.530668, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x4555001C [91.733350 86.815990 1.530668] 0.999048 0.000000 0.000000 -0.043619 */

@@ -14,7 +14,9 @@ VALUES (0x74556001, 0x74556002, '2019-02-10 00:00:00') /* Putrid Moarsman (4248)
      , (0x74556001, 0x74556008, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
      , (0x74556001, 0x74556009, '2019-02-10 00:00:00') /* Coral Golem (36828) */
      , (0x74556001, 0x7455600A, '2019-02-10 00:00:00') /* Corrosion Wisp (21549) */
-     , (0x74556001, 0x7455600B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */;
+     , (0x74556001, 0x7455600B, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
+     , (0x74556001, 0x7455600C, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74556001, 0x7455600D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74556002,  4248, 0x4556002B, 130.4515, 64.32774, -0.8934, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
@@ -57,12 +59,20 @@ VALUES (0x7455600B, 21551, 0x4556002B, 126.0723, 49.52708, -0.8935001, 0.9820436
 /* @teleloc 0x4556002B [126.072300 49.527080 -0.893500] 0.982044 0.000000 0.000000 -0.188654 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7455600C,  1542, 0x4556002B, 129.8385, 60.25046, -0.9, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7455600C, 36856, 0x4556003D, 183.4174, 105.3717, -0.8974999, 0.9853418, 0, 0, -0.1705916,  True, '2019-02-10 00:00:00'); /* Skeletal Champion */
+/* @teleloc 0x4556003D [183.417400 105.371700 -0.897500] 0.985342 0.000000 0.000000 -0.170592 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455600D,  7112, 0x4556003E, 177.9915, 133.6016, -0.1, 0.5583642, 0, 0, -0.8295959,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
+/* @teleloc 0x4556003E [177.991500 133.601600 -0.100000] 0.558364 0.000000 0.000000 -0.829596 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455600E,  1542, 0x4556002B, 129.8385, 60.25046, -0.9, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x4556002B [129.838500 60.250460 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455600C, 0x7455600D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7455600E, 0x7455600F, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7455600D,  4179, 0x4556002B, 129.8385, 60.25046, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7455600F,  4179, 0x4556002B, 129.8385, 60.25046, -0.9, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x4556002B [129.838500 60.250460 -0.900000] 0.999048 0.000000 0.000000 -0.043619 */

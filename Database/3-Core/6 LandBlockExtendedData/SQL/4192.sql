@@ -16,7 +16,8 @@ VALUES (0x74192001, 0x74192002, '2019-02-10 00:00:00') /* Banderling Guard (937)
      , (0x74192001, 0x7419200A, '2019-02-10 00:00:00') /* Tumerok Priest (231) */
      , (0x74192001, 0x7419200B, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
      , (0x74192001, 0x7419200C, '2019-02-10 00:00:00') /* Drudge Servant (1631) */
-     , (0x74192001, 0x7419200D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */;
+     , (0x74192001, 0x7419200D, '2019-02-10 00:00:00') /* Chomu Sclavus (7112) */
+     , (0x74192001, 0x7419200E, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74192002,   937, 0x41920100, 37.49462, 178.0288, 0.007149994, -0.791755, 0, 0, -0.610839,  True, '2019-02-10 00:00:00'); /* Banderling Guard */
@@ -65,3 +66,7 @@ VALUES (0x7419200C,  1631, 0x41920008, 17.87166, 168.6586, 0.4591406, 0.8191521,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7419200D,  7112, 0x41920038, 155.0979, 169.0409, -0.45, 0.1537554, 0, 0, -0.9881089,  True, '2019-02-10 00:00:00'); /* Chomu Sclavus */
 /* @teleloc 0x41920038 [155.097900 169.040900 -0.450000] 0.153755 0.000000 0.000000 -0.988109 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7419200E,  4248, 0x41920038, 146.4884, 169.6084, -0.4433999, 0.1537554, 0, 0, -0.9881089,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x41920038 [146.488400 169.608400 -0.443400] 0.153755 0.000000 0.000000 -0.988109 */

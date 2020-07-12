@@ -18,7 +18,10 @@ VALUES (0x73413001, 0x73413002, '2019-02-10 00:00:00') /* Augmented Tumerok (108
      , (0x73413001, 0x7341300C, '2019-02-10 00:00:00') /* Tumerok Trooper (23566) */
      , (0x73413001, 0x7341300D, '2019-02-10 00:00:00') /* Ascendant Tumerok (10806) */
      , (0x73413001, 0x7341300E, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
-     , (0x73413001, 0x7341300F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */;
+     , (0x73413001, 0x7341300F, '2019-02-10 00:00:00') /* Gauloth Shreth (7113) */
+     , (0x73413001, 0x73413010, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x73413001, 0x73413011, '2019-02-10 00:00:00') /* Tumerok Champion (23617) */
+     , (0x73413001, 0x73413012, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73413002, 10807, 0x34130017, 67.5797, 153.5625, 11.60024, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
@@ -77,12 +80,24 @@ VALUES (0x7341300F,  7113, 0x34130007, 9.074907, 154.8846, 13.64455, 0.7372774, 
 /* @teleloc 0x34130007 [9.074907 154.884600 13.644550] 0.737277 0.000000 0.000000 -0.675590 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73413010,  1542, 0x3413003B, 180.6053, 71.98244, 14, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x73413010,  7119, 0x34130020, 95.43485, 186.937, 15.58458, 0.5443854, 0, 0, -0.8388352,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
+/* @teleloc 0x34130020 [95.434850 186.937000 15.584580] 0.544385 0.000000 0.000000 -0.838835 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73413011, 23617, 0x34130018, 62.79203, 169.1006, 15.63288, -0.4169525, 0, 0, -0.9089283,  True, '2019-02-10 00:00:00'); /* Tumerok Champion */
+/* @teleloc 0x34130018 [62.792030 169.100600 15.632880] -0.416953 0.000000 0.000000 -0.908928 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73413012,  7119, 0x3413003D, 170.0588, 103.9603, 16.50822, 0.7565316, 0, 0, -0.6539572,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
+/* @teleloc 0x3413003D [170.058800 103.960300 16.508220] 0.756532 0.000000 0.000000 -0.653957 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73413013,  1542, 0x3413003B, 180.6053, 71.98244, 14, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x3413003B [180.605300 71.982440 14.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73413010, 0x73413011, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
+VALUES (0x73413013, 0x73413014, '2019-02-10 00:00:00') /* Runed Chest (22566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73413011, 22566, 0x3413003B, 180.6053, 71.98244, 14, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x73413014, 22566, 0x3413003B, 180.6053, 71.98244, 14, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x3413003B [180.605300 71.982440 14.000000] 1.000000 0.000000 0.000000 0.000000 */

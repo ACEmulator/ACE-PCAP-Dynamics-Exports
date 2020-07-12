@@ -27,7 +27,10 @@ VALUES (0x7B0AC001, 0x7B0AC002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) *
      , (0x7B0AC001, 0x7B0AC011, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
      , (0x7B0AC001, 0x7B0AC012, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
      , (0x7B0AC001, 0x7B0AC013, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
-     , (0x7B0AC001, 0x7B0AC014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
+     , (0x7B0AC001, 0x7B0AC014, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B0AC001, 0x7B0AC015, '2019-02-10 00:00:00') /* Mudlurk Mosswart (211) */
+     , (0x7B0AC001, 0x7B0AC016, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
+     , (0x7B0AC001, 0x7B0AC017, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B0AC002,  4111, 0xB0AC0027, 112.2791, 146.3259, 54.77533, -0.03458851, 0, 0, -0.9994016,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -106,22 +109,34 @@ VALUES (0x7B0AC014,   215, 0xB0AC002A, 139.8862, 32.65203, 43.97663, 0.5073445, 
 /* @teleloc 0xB0AC002A [139.886200 32.652030 43.976630] 0.507345 0.000000 0.000000 -0.861743 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B0AC015,  1542, 0xB0AC0027, 118.2322, 155.0197, 53.87906, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B0AC015,   211, 0xB0AC0032, 163.0413, 42.14801, 43.06451, 0.5073445, 0, 0, -0.8617433,  True, '2019-02-10 00:00:00'); /* Mudlurk Mosswart */
+/* @teleloc 0xB0AC0032 [163.041300 42.148010 43.064510] 0.507345 0.000000 0.000000 -0.861743 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B0AC016,   215, 0xB0AC002C, 131.3909, 91.48749, 44.11351, 0.9954721, 0, 0, -0.09505364,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
+/* @teleloc 0xB0AC002C [131.390900 91.487490 44.113510] 0.995472 0.000000 0.000000 -0.095054 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B0AC017,   215, 0xB0AC0028, 117.7137, 172.9342, 51.18529, -0.03458851, 0, 0, -0.9994016,  True, '2019-02-10 00:00:00'); /* Blue Phyntos Wasp */
+/* @teleloc 0xB0AC0028 [117.713700 172.934200 51.185290] -0.034589 0.000000 0.000000 -0.999402 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B0AC018,  1542, 0xB0AC0027, 118.2322, 155.0197, 53.87906, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB0AC0027 [118.232200 155.019700 53.879060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B0AC015, 0x7B0AC016, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7B0AC015, 0x7B0AC017, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7B0AC015, 0x7B0AC018, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7B0AC018, 0x7B0AC019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B0AC018, 0x7B0AC01A, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B0AC018, 0x7B0AC01B, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B0AC016,  4179, 0xB0AC0027, 118.2322, 155.0197, 53.87906, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B0AC019,  4179, 0xB0AC0027, 118.2322, 155.0197, 53.87906, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB0AC0027 [118.232200 155.019700 53.879060] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B0AC017,  4179, 0xB0AC0028, 118.9405, 170.0146, 50.52105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B0AC01A,  4179, 0xB0AC0028, 118.9405, 170.0146, 50.52105, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB0AC0028 [118.940500 170.014600 50.521050] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B0AC018,  4179, 0xB0AC0033, 151.4776, 60.92561, 41.37687, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B0AC01B,  4179, 0xB0AC0033, 151.4776, 60.92561, 41.37687, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB0AC0033 [151.477600 60.925610 41.376870] 1.000000 0.000000 0.000000 0.000000 */

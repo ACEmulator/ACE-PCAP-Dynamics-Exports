@@ -29,7 +29,8 @@ VALUES (0x723DC001, 0x723DC002, '2019-02-10 00:00:00') /* Drudge Stalker (1609) 
      , (0x723DC001, 0x723DC017, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */
      , (0x723DC001, 0x723DC018, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x723DC001, 0x723DC019, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
-     , (0x723DC001, 0x723DC01A, '2019-02-10 00:00:00') /* Horripal (20191) */;
+     , (0x723DC001, 0x723DC01A, '2019-02-10 00:00:00') /* Horripal (20191) */
+     , (0x723DC001, 0x723DC01B, '2019-02-10 00:00:00') /* Olthoi Needler (24959) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DC002,  1609, 0x23DC001A, 95.19007, 43.5645, 10.81129, 0.4019563, 0, 0, -0.9156588,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
@@ -130,3 +131,7 @@ VALUES (0x723DC019, 28673, 0x23DC0028, 105.944, 174.1469, 6, -0.03660592, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723DC01A, 20191, 0x23DC0008, 23.93377, 169.0284, 16.3734, 0.7370385, 0, 0, -0.6758507,  True, '2019-02-10 00:00:00'); /* Horripal */
 /* @teleloc 0x23DC0008 [23.933770 169.028400 16.373400] 0.737039 0.000000 0.000000 -0.675851 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723DC01B, 24959, 0x23DC000B, 36.49467, 56.78936, 15.57243, 0.1652322, 0, 0, -0.9862547,  True, '2019-02-10 00:00:00'); /* Olthoi Needler */
+/* @teleloc 0x23DC000B [36.494670 56.789360 15.572430] 0.165232 0.000000 0.000000 -0.986255 */

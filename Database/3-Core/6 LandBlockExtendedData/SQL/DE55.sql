@@ -38,7 +38,9 @@ VALUES (0x7DE55004, 0x7DE55005, '2019-02-10 00:00:00') /* Green Phyntos Wasp (21
      , (0x7DE55004, 0x7DE55013, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
      , (0x7DE55004, 0x7DE55014, '2019-02-10 00:00:00') /* Banderling Scout (6) */
      , (0x7DE55004, 0x7DE55015, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
-     , (0x7DE55004, 0x7DE55016, '2019-02-10 00:00:00') /* Banderling Scout (6) */;
+     , (0x7DE55004, 0x7DE55016, '2019-02-10 00:00:00') /* Banderling Scout (6) */
+     , (0x7DE55004, 0x7DE55017, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x7DE55004, 0x7DE55018, '2019-02-10 00:00:00') /* Blood Shreth (4110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE55005,   216, 0xDE550013, 66.30348, 54.41638, 7.537291, -0.3847691, 0, 0, -0.9230129,  True, '2019-02-10 00:00:00'); /* Green Phyntos Wasp */
@@ -111,3 +113,11 @@ VALUES (0x7DE55015,   940, 0xDE550035, 151.2963, 101.6557, 15.69155, 0.1107617, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DE55016,     6, 0xDE55001B, 91.30899, 52.93658, 9.616233, 0.02550774, 0, 0, -0.9996746,  True, '2019-02-10 00:00:00'); /* Banderling Scout */
 /* @teleloc 0xDE55001B [91.308990 52.936580 9.616233] 0.025508 0.000000 0.000000 -0.999675 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DE55017,  2612, 0xDE55000E, 27.5828, 138.7887, 5.892501, -0.09503525, 0, 0, -0.9954739,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
+/* @teleloc 0xDE55000E [27.582800 138.788700 5.892501] -0.095035 0.000000 0.000000 -0.995474 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DE55018,  4110, 0xDE55001B, 90.63264, 52.90537, 9.537721, 0.02550774, 0, 0, -0.9996746,  True, '2019-02-10 00:00:00'); /* Blood Shreth */
+/* @teleloc 0xDE55001B [90.632640 52.905370 9.537721] 0.025508 0.000000 0.000000 -0.999675 */

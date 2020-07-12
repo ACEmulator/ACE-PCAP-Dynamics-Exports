@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x77216001, 0x77216002, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
      , (0x77216001, 0x77216003, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x77216001, 0x77216004, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
-     , (0x77216001, 0x77216005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */;
+     , (0x77216001, 0x77216005, '2019-02-10 00:00:00') /* Pandemonium Shadow (22910) */
+     , (0x77216001, 0x77216006, '2019-02-10 00:00:00') /* Ember (7607) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77216002,  7121, 0x72160004, 13.76284, 75.83881, 213.9503, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Skeleton Bone Lord */
@@ -25,3 +26,7 @@ VALUES (0x77216004,  7334, 0x72160004, 12.56844, 76.74449, 217.2097, 0.9914449, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77216005, 22910, 0x7216000D, 29.67472, 101.7853, 213.642, 0.4619642, 0, 0, -0.8868986,  True, '2019-02-10 00:00:00'); /* Pandemonium Shadow */
 /* @teleloc 0x7216000D [29.674720 101.785300 213.642000] 0.461964 0.000000 0.000000 -0.886899 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x77216006,  7607, 0x72160015, 60.53959, 102.5198, 208.8338, 0.4619642, 0, 0, -0.8868986,  True, '2019-02-10 00:00:00'); /* Ember */
+/* @teleloc 0x72160015 [60.539590 102.519800 208.833800] 0.461964 0.000000 0.000000 -0.886899 */

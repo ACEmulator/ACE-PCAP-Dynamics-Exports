@@ -60,7 +60,8 @@ VALUES (0x7DC55001, 0x7DC55002, '2019-02-10 00:00:00') /* Mite Snippet (19260) *
      , (0x7DC55001, 0x7DC55036, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
      , (0x7DC55001, 0x7DC55037, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x7DC55001, 0x7DC55038, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
-     , (0x7DC55001, 0x7DC55039, '2019-02-10 00:00:00') /* Young Banderling (19256) */;
+     , (0x7DC55001, 0x7DC55039, '2019-02-10 00:00:00') /* Young Banderling (19256) */
+     , (0x7DC55001, 0x7DC5503A, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC55002, 19260, 0xDC550005, 3.331618, 99.80701, 16.0045, 0.5354903, 0, 0, -0.8445414,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
@@ -285,3 +286,7 @@ VALUES (0x7DC55038, 19262, 0xDC550015, 51.6274, 111.5152, 13.70212, 0.2610424, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC55039, 19256, 0xDC55000A, 42.58423, 29.80999, 14.45846, -0.8545715, 0, 0, -0.5193338,  True, '2019-02-10 00:00:00'); /* Young Banderling */
 /* @teleloc 0xDC55000A [42.584230 29.809990 14.458460] -0.854572 0.000000 0.000000 -0.519334 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC5503A, 19257, 0xDC55000A, 42.6997, 30.53468, 14.44502, -0.8545715, 0, 0, -0.5193338,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
+/* @teleloc 0xDC55000A [42.699700 30.534680 14.445020] -0.854572 0.000000 0.000000 -0.519334 */

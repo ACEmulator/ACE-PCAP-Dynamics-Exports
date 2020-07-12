@@ -140,7 +140,32 @@ VALUES (0x7D7DD001, 0x7D7DD002, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31
      , (0x7D7DD001, 0x7D7DD086, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
      , (0x7D7DD001, 0x7D7DD087, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
      , (0x7D7DD001, 0x7D7DD088, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
-     , (0x7D7DD001, 0x7D7DD089, '2019-02-10 00:00:00') /* Benek Niffis (32033) */;
+     , (0x7D7DD001, 0x7D7DD089, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DD001, 0x7D7DD08A, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D7DD001, 0x7D7DD08B, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7DD001, 0x7D7DD08C, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7DD001, 0x7D7DD08D, '2019-02-10 00:00:00') /* Remoran Raker (31908) */
+     , (0x7D7DD001, 0x7D7DD08E, '2019-02-10 00:00:00') /* Remoran Sea Raptor (31906) */
+     , (0x7D7DD001, 0x7D7DD08F, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D7DD001, 0x7D7DD090, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D7DD001, 0x7D7DD091, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D7DD001, 0x7D7DD092, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D7DD001, 0x7D7DD093, '2019-02-10 00:00:00') /* Mucky Moarsman (31912) */
+     , (0x7D7DD001, 0x7D7DD094, '2019-02-10 00:00:00') /* Scummy Moarsman (31914) */
+     , (0x7D7DD001, 0x7D7DD095, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DD001, 0x7D7DD096, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DD001, 0x7D7DD097, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DD001, 0x7D7DD098, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7DD001, 0x7D7DD099, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7DD001, 0x7D7DD09A, '2019-02-10 00:00:00') /* Grimy Moarsman (31915) */
+     , (0x7D7DD001, 0x7D7DD09B, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7DD001, 0x7D7DD09C, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7DD001, 0x7D7DD09D, '2019-02-10 00:00:00') /* Gold Niffis (32034) */
+     , (0x7D7DD001, 0x7D7DD09E, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DD001, 0x7D7DD09F, '2019-02-10 00:00:00') /* Benek Niffis (32033) */
+     , (0x7D7DD001, 0x7D7DD0A0, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7DD001, 0x7D7DD0A1, '2019-02-10 00:00:00') /* Astis Niffis (32035) */
+     , (0x7D7DD001, 0x7D7DD0A2, '2019-02-10 00:00:00') /* Benek Niffis (32033) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7DD002, 31906, 0xD7DD0001, 10.13671, 2.875889, 67.4498, -0.4552567, 0, 0, -0.8903602,  True, '2019-02-10 00:00:00'); /* Remoran Sea Raptor */
@@ -685,3 +710,103 @@ VALUES (0x7D7DD088, 32035, 0xD7DD0028, 119.8123, 171.7518, 52.03168, 0.9276445, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D7DD089, 32033, 0xD7DD001F, 94.89821, 151.4448, 54.09222, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
 /* @teleloc 0xD7DD001F [94.898210 151.444800 54.092220] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD08A, 31908, 0xD7DD0008, 20.18989, 176.3333, 60.69444, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Remoran Raker */
+/* @teleloc 0xD7DD0008 [20.189890 176.333300 60.694440] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD08B, 31906, 0xD7DD0010, 29.0737, 191.2389, 61.45034, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Remoran Sea Raptor */
+/* @teleloc 0xD7DD0010 [29.073700 191.238900 61.450340] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD08C, 31906, 0xD7DD0010, 34.16487, 172.3565, 58.6689, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Remoran Sea Raptor */
+/* @teleloc 0xD7DD0010 [34.164870 172.356500 58.668900] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD08D, 31908, 0xD7DD0010, 31.8763, 176.8159, 59.42194, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Remoran Raker */
+/* @teleloc 0xD7DD0010 [31.876300 176.815900 59.421940] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD08E, 31906, 0xD7DD0010, 24.18188, 171.8047, 60.28675, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Remoran Sea Raptor */
+/* @teleloc 0xD7DD0010 [24.181880 171.804700 60.286750] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD08F, 31915, 0xD7DD0028, 115.5635, 174.202, 52.74582, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */
+/* @teleloc 0xD7DD0028 [115.563500 174.202000 52.745820] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD090, 31915, 0xD7DD0028, 118.7245, 174.8617, 52.21899, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */
+/* @teleloc 0xD7DD0028 [118.724500 174.861700 52.218990] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD091, 31915, 0xD7DD000F, 47.95786, 150.6813, 57.44963, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */
+/* @teleloc 0xD7DD000F [47.957860 150.681300 57.449630] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD092, 31914, 0xD7DD000F, 34.72815, 147.3468, 57.7275, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Scummy Moarsman */
+/* @teleloc 0xD7DD000F [34.728150 147.346800 57.727500] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD093, 31912, 0xD7DD000F, 40.03813, 156.7246, 56.94602, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Mucky Moarsman */
+/* @teleloc 0xD7DD000F [40.038130 156.724600 56.946020] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD094, 31914, 0xD7DD0017, 51.05455, 155.5105, 56.5381, -0.8745072, 0, 0, -0.4850124,  True, '2019-02-10 00:00:00'); /* Scummy Moarsman */
+/* @teleloc 0xD7DD0017 [51.054550 155.510500 56.538100] -0.874507 0.000000 0.000000 -0.485012 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD095, 32033, 0xD7DD0028, 102.9525, 171.8579, 53.74252, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD7DD0028 [102.952500 171.857900 53.742520] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD096, 32033, 0xD7DD0028, 105.0748, 178.0299, 54.07999, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD7DD0028 [105.074800 178.029900 54.079990] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD097, 32033, 0xD7DD0028, 102.9294, 169.8282, 53.5753, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD7DD0028 [102.929400 169.828200 53.575300] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD098, 32035, 0xD7DD0028, 103.6262, 168.7567, 53.42793, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD7DD0028 [103.626200 168.756700 53.427930] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD099, 32035, 0xD7DD0027, 104.4422, 166.3428, 53.29688, 0.9276445, 0, 0, -0.3734645,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD7DD0027 [104.442200 166.342800 53.296880] 0.927645 0.000000 0.000000 -0.373465 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD09A, 31915, 0xD7DD0017, 54.44094, 147.1074, 56.67396, 0.8656113, 0, 0, -0.5007167,  True, '2019-02-10 00:00:00'); /* Grimy Moarsman */
+/* @teleloc 0xD7DD0017 [54.440940 147.107400 56.673960] 0.865611 0.000000 0.000000 -0.500717 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD09B, 32035, 0xD7DD002F, 139.3733, 153.0608, 50.75547, -0.7278163, 0, 0, -0.6857721,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD7DD002F [139.373300 153.060800 50.755470] -0.727816 0.000000 0.000000 -0.685772 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD09C, 32035, 0xD7DD002F, 124.9898, 158.9227, 51.58458, -0.7278163, 0, 0, -0.6857721,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD7DD002F [124.989800 158.922700 51.584580] -0.727816 0.000000 0.000000 -0.685772 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD09D, 32034, 0xD7DD002F, 133.2047, 156.9408, 51.0788, -0.7278163, 0, 0, -0.6857721,  True, '2019-02-10 00:00:00'); /* Gold Niffis */
+/* @teleloc 0xD7DD002F [133.204700 156.940800 51.078800] -0.727816 0.000000 0.000000 -0.685772 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD09E, 32033, 0xD7DD0030, 142.4767, 190.3345, 50.93, 0.75994, 0, 0, -0.6499932,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD7DD0030 [142.476700 190.334500 50.930000] 0.759940 0.000000 0.000000 -0.649993 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD09F, 32033, 0xD7DD0030, 140.1002, 169.853, 51.69156, 0.75994, 0, 0, -0.6499932,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD7DD0030 [140.100200 169.853000 51.691560] 0.759940 0.000000 0.000000 -0.649993 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD0A0, 32035, 0xD7DD0030, 138.3003, 182.1217, 49.64679, 0.75994, 0, 0, -0.6499932,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD7DD0030 [138.300300 182.121700 49.646790] 0.759940 0.000000 0.000000 -0.649993 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD0A1, 32035, 0xD7DD0040, 176.7285, 188.0007, 2.999839, 0.75994, 0, 0, -0.6499932,  True, '2019-02-10 00:00:00'); /* Astis Niffis */
+/* @teleloc 0xD7DD0040 [176.728500 188.000700 2.999839] 0.759940 0.000000 0.000000 -0.649993 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D7DD0A2, 32033, 0xD7DD0040, 178.1111, 182.291, 7.282173, -0.7278163, 0, 0, -0.6857721,  True, '2019-02-10 00:00:00'); /* Benek Niffis */
+/* @teleloc 0xD7DD0040 [178.111100 182.291000 7.282173] -0.727816 0.000000 0.000000 -0.685772 */

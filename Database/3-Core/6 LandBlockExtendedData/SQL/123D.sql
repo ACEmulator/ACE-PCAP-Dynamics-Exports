@@ -26,7 +26,16 @@ VALUES (0x7123D001, 0x7123D002, '2019-02-10 00:00:00') /* Telumiat Hollow Minion
      , (0x7123D001, 0x7123D014, '2019-02-10 00:00:00') /* Drudge Bloodletter (36822) */
      , (0x7123D001, 0x7123D015, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
      , (0x7123D001, 0x7123D016, '2019-02-10 00:00:00') /* Maelstrom (14876) */
-     , (0x7123D001, 0x7123D017, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */;
+     , (0x7123D001, 0x7123D017, '2019-02-10 00:00:00') /* Raider Juggernaut (36836) */
+     , (0x7123D001, 0x7123D018, '2019-02-10 00:00:00') /* Miasma (14514) */
+     , (0x7123D001, 0x7123D019, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
+     , (0x7123D001, 0x7123D01A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x7123D001, 0x7123D01B, '2019-02-10 00:00:00') /* Virindi Adjudicator (36860) */
+     , (0x7123D001, 0x7123D01C, '2019-02-10 00:00:00') /* Lacerator (24957) */
+     , (0x7123D001, 0x7123D01D, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7123D001, 0x7123D01E, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x7123D001, 0x7123D01F, '2019-02-10 00:00:00') /* Olthoi Mutilator (23481) */
+     , (0x7123D001, 0x7123D020, '2019-02-10 00:00:00') /* Crystal Moiety (24133) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123D002, 23555, 0x123D0011, 62.51824, 2.846424, 15.6559, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Telumiat Hollow Minion */
@@ -115,3 +124,39 @@ VALUES (0x7123D016, 14876, 0x123D001E, 73.72216, 136.9607, -0.8929999, 0.9972959
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7123D017, 36836, 0x123D000E, 47.82876, 121.7733, -0.4399999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Raider Juggernaut */
 /* @teleloc 0x123D000E [47.828760 121.773300 -0.440000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D018, 14514, 0x123D0016, 55.85945, 128.5788, -0.4414999, 0.9972959, 0, 0, -0.07349069,  True, '2019-02-10 00:00:00'); /* Miasma */
+/* @teleloc 0x123D0016 [55.859450 128.578800 -0.441500] 0.997296 0.000000 0.000000 -0.073491 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D019, 10787, 0x123D002F, 122.0865, 155.8209, -0.4475, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Terebrous Hollow Minion */
+/* @teleloc 0x123D002F [122.086500 155.820900 -0.447500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D01A,  7982, 0x123D0030, 142.5799, 170.1214, -0.1021, 0.3423188, 0, 0, -0.9395839,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x123D0030 [142.579900 170.121400 -0.102100] 0.342319 0.000000 0.000000 -0.939584 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D01B, 36860, 0x123D0027, 119.8735, 156.1412, -0.4210001, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Virindi Adjudicator */
+/* @teleloc 0x123D0027 [119.873500 156.141200 -0.421000] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D01C, 24957, 0x123D003D, 175.6436, 98.82631, -0.456499, 0.9829289, 0, 0, -0.1839856,  True, '2019-02-10 00:00:00'); /* Lacerator */
+/* @teleloc 0x123D003D [175.643600 98.826310 -0.456499] 0.982929 0.000000 0.000000 -0.183986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D01D, 23482, 0x123D0034, 158.0456, 86.91469, -0.4499999, 0.9829289, 0, 0, -0.1839856,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x123D0034 [158.045600 86.914690 -0.450000] 0.982929 0.000000 0.000000 -0.183986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D01E, 23482, 0x123D003D, 177.292, 97.79962, -0.4499999, 0.9829289, 0, 0, -0.1839856,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x123D003D [177.292000 97.799620 -0.450000] 0.982929 0.000000 0.000000 -0.183986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D01F, 23481, 0x123D0035, 167.1781, 107.3017, 0, 0.9829289, 0, 0, -0.1839856,  True, '2019-02-10 00:00:00'); /* Olthoi Mutilator */
+/* @teleloc 0x123D0035 [167.178100 107.301700 0.000000] 0.982929 0.000000 0.000000 -0.183986 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7123D020, 24133, 0x123D0040, 181.9835, 179.0956, 2.089928, 0.3423188, 0, 0, -0.9395839,  True, '2019-02-10 00:00:00'); /* Crystal Moiety */
+/* @teleloc 0x123D0040 [181.983500 179.095600 2.089928] 0.342319 0.000000 0.000000 -0.939584 */

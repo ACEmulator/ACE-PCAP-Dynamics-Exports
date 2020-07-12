@@ -22,8 +22,7 @@ VALUES (2401,   1,       2048) /* ItemType - Gem */
      , (2401, 110,          0) /* ItemAllegianceRankLimit */
      , (2401, 115,          0) /* ItemSkillLevelLimit */
      , (2401, 117,        200) /* ItemManaCost */
-     , (2401, 131,         50) /* MaterialType - Zircon */
-     , (2401, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2401, 131,         50) /* MaterialType - Zircon */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2401,  22, True ) /* Inscribable */;

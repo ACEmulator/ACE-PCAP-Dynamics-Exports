@@ -14,8 +14,7 @@ VALUES (66,   1,          2) /* ItemType - Armor */
      , (66,  28,        242) /* ArmorLevel */
      , (66,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (66, 105,          6) /* ItemWorkmanship */
-     , (66, 131,         62) /* MaterialType - Pyreal */
-     , (66, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (66, 131,         62) /* MaterialType - Pyreal */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (66,  22, True ) /* Inscribable */

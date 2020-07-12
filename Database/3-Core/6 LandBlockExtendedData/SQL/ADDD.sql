@@ -15,7 +15,9 @@ VALUES (0x7ADDD001, 0x7ADDD002, '2019-02-10 00:00:00') /* Gotrok Extas (24494) *
      , (0x7ADDD001, 0x7ADDD009, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
      , (0x7ADDD001, 0x7ADDD00A, '2019-02-10 00:00:00') /* Fire Shreth (26470) */
      , (0x7ADDD001, 0x7ADDD00B, '2019-02-10 00:00:00') /* Dark Revenant (4217) */
-     , (0x7ADDD001, 0x7ADDD00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */;
+     , (0x7ADDD001, 0x7ADDD00C, '2019-02-10 00:00:00') /* Ashen Bones (7780) */
+     , (0x7ADDD001, 0x7ADDD00D, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
+     , (0x7ADDD001, 0x7ADDD00E, '2019-02-10 00:00:00') /* Revenant (619) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ADDD002, 24494, 0xADDD003F, 185.2732, 152.0808, 26.57057, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Extas */
@@ -62,17 +64,25 @@ VALUES (0x7ADDD00C,  7780, 0xADDD002D, 133.2189, 100.9019, 28.41099, -0.8734639,
 /* @teleloc 0xADDD002D [133.218900 100.901900 28.410990] -0.873464 0.000000 0.000000 -0.486889 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ADDD00D,  1542, 0xADDD003B, 182.455, 54.28388, 17.84273, -0.72218, 0, 0, -0.6917052, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7ADDD00D, 24289, 0xADDD002B, 132.361, 68.94185, 24.70707, -0.5820238, 0, 0, -0.8131717,  True, '2019-02-10 00:00:00'); /* Cunning Monouga */
+/* @teleloc 0xADDD002B [132.361000 68.941850 24.707070] -0.582024 0.000000 0.000000 -0.813172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ADDD00E,   619, 0xADDD002B, 138.0034, 66.28304, 24.03155, 0.8849951, 0, 0, -0.4656003,  True, '2019-02-10 00:00:00'); /* Revenant */
+/* @teleloc 0xADDD002B [138.003400 66.283040 24.031550] 0.884995 0.000000 0.000000 -0.465600 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ADDD00F,  1542, 0xADDD003B, 182.455, 54.28388, 17.84273, -0.72218, 0, 0, -0.6917052, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xADDD003B [182.455000 54.283880 17.842730] -0.722180 0.000000 0.000000 -0.691705 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7ADDD00D, 0x7ADDD00E, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
-     , (0x7ADDD00D, 0x7ADDD00F, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
+VALUES (0x7ADDD00F, 0x7ADDD010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */
+     , (0x7ADDD00F, 0x7ADDD011, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ADDD00E,  8041, 0xADDD003B, 182.455, 54.28388, 17.84273, -0.72218, 0, 0, -0.6917052,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
+VALUES (0x7ADDD010,  8041, 0xADDD003B, 182.455, 54.28388, 17.84273, -0.72218, 0, 0, -0.6917052,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
 /* @teleloc 0xADDD003B [182.455000 54.283880 17.842730] -0.722180 0.000000 0.000000 -0.691705 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7ADDD00F, 22571, 0xADDD003F, 178.6712, 151.2943, 27.11073, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7ADDD011, 22571, 0xADDD003F, 178.6712, 151.2943, 27.11073, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xADDD003F [178.671200 151.294300 27.110730] 1.000000 0.000000 0.000000 0.000000 */

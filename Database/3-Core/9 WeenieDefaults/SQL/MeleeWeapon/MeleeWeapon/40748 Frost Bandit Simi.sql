@@ -30,7 +30,6 @@ VALUES (40748,   1,          1) /* ItemType - MeleeWeapon */
      , (40748, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (40748, 160,        400) /* WieldDifficulty */
      , (40748, 171,         10) /* NumTimesTinkered */
-     , (40748, 172,          7) /* AppraisalLongDescDecoration - PrependWorkmanship, PrependMaterial, AppendGemInfo */
      , (40748, 177,          4) /* GemCount */
      , (40748, 178,         39) /* GemType */
      , (40748, 179,        128) /* ImbuedEffect - ColdRending */

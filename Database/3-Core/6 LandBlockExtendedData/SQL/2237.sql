@@ -9,7 +9,9 @@ VALUES (0x72237001, 0x72237002, '2019-02-10 00:00:00') /* Destroyer Grievver (79
      , (0x72237001, 0x72237003, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
      , (0x72237001, 0x72237004, '2019-02-10 00:00:00') /* Pyreal Golem (14520) */
      , (0x72237001, 0x72237005, '2019-02-10 00:00:00') /* Platinum Golem (7097) */
-     , (0x72237001, 0x72237006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
+     , (0x72237001, 0x72237006, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */
+     , (0x72237001, 0x72237007, '2019-02-10 00:00:00') /* Hellfire (7093) */
+     , (0x72237001, 0x72237008, '2019-02-10 00:00:00') /* Shadow Spectre (23090) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72237002,  7982, 0x22370031, 146.9369, 21.32578, -0.1021, 0.939298, 0, 0, -0.3431025,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
@@ -30,3 +32,11 @@ VALUES (0x72237005,  7097, 0x22370029, 130.2433, 10.24849, 14.30534, 0.939298, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72237006,  7982, 0x22370003, 13.00056, 67.73547, 143.1674, -0.9983451, 0, 0, -0.0575062,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
 /* @teleloc 0x22370003 [13.000560 67.735470 143.167400] -0.998345 0.000000 0.000000 -0.057506 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72237007,  7093, 0x22370011, 61.73912, 14.41306, 200.0085, -0.9998799, 0, 0, -0.01549817,  True, '2019-02-10 00:00:00'); /* Hellfire */
+/* @teleloc 0x22370011 [61.739120 14.413060 200.008500] -0.999880 0.000000 0.000000 -0.015498 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72237008, 23090, 0x22370031, 147.0462, 6.439225, -0.095, 0.939298, 0, 0, -0.3431025,  True, '2019-02-10 00:00:00'); /* Shadow Spectre */
+/* @teleloc 0x22370031 [147.046200 6.439225 -0.095000] 0.939298 0.000000 0.000000 -0.343103 */

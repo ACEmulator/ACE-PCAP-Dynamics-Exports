@@ -554,7 +554,18 @@ VALUES (0x7008B132, 0x7008B133, '2019-02-10 00:00:00') /* Masonry Golem (33033) 
      , (0x7008B132, 0x7008B1A1, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
      , (0x7008B132, 0x7008B1A2, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
      , (0x7008B132, 0x7008B1A3, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
-     , (0x7008B132, 0x7008B1A4, '2019-02-10 00:00:00') /* Masonry Golem (33033) */;
+     , (0x7008B132, 0x7008B1A4, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x7008B132, 0x7008B1A5, '2019-02-10 00:00:00') /* Heavy Builder (32956) */
+     , (0x7008B132, 0x7008B1A6, '2019-02-10 00:00:00') /* Heavy Builder (32956) */
+     , (0x7008B132, 0x7008B1A7, '2019-02-10 00:00:00') /* Foul Mason (32954) */
+     , (0x7008B132, 0x7008B1A8, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x7008B132, 0x7008B1A9, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x7008B132, 0x7008B1AA, '2019-02-10 00:00:00') /* Heavy Builder (32956) */
+     , (0x7008B132, 0x7008B1AB, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x7008B132, 0x7008B1AC, '2019-02-10 00:00:00') /* Foul Mason (32954) */
+     , (0x7008B132, 0x7008B1AD, '2019-02-10 00:00:00') /* Masonry Golem (33033) */
+     , (0x7008B132, 0x7008B1AE, '2019-02-10 00:00:00') /* Wretched Architect (32955) */
+     , (0x7008B132, 0x7008B1AF, '2019-02-10 00:00:00') /* Masonry Golem (33033) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7008B133, 33033, 0x008B0153, 50, -210, 0.01100004, 0, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
@@ -1013,82 +1024,131 @@ VALUES (0x7008B1A4, 33033, 0x008B01D4, 159.798, -111.035, 0.01100004, 0.683712, 
 /* @teleloc 0x008B01D4 [159.798000 -111.035000 0.011000] 0.683712 0.000000 0.000000 0.729752 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1A5,  1542, 0x008B01C6, 125.143, -224.361, 0, 0.9030673, 0, 0, 0.4294991, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7008B1A5, 32956, 0x008B0177, 94.31171, -114.8949, 0.009000063, 0.7098532, 0, 0, -0.7043497,  True, '2019-02-10 00:00:00'); /* Heavy Builder */
+/* @teleloc 0x008B0177 [94.311710 -114.894900 0.009000] 0.709853 0.000000 0.000000 -0.704350 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1A6, 32956, 0x008B0177, 91.94333, -114.6538, 0.008999944, -0.4847808, 0, 0, -0.8746357,  True, '2019-02-10 00:00:00'); /* Heavy Builder */
+/* @teleloc 0x008B0177 [91.943330 -114.653800 0.009000] -0.484781 0.000000 0.000000 -0.874636 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1A7, 32954, 0x008B01BD, 126.4735, -163.8372, 0.009000063, -0.6061839, 0, 0, -0.7953245,  True, '2019-02-10 00:00:00'); /* Foul Mason */
+/* @teleloc 0x008B01BD [126.473500 -163.837200 0.009000] -0.606184 0.000000 0.000000 -0.795325 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1A8, 33033, 0x008B01CF, 151.67, -110.924, 0.01100004, 0.702072, 0, 0, 0.712106,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
+/* @teleloc 0x008B01CF [151.670000 -110.924000 0.011000] 0.702072 0.000000 0.000000 0.712106 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1A9, 33033, 0x008B01D0, 152.5161, -118.0414, 0.01099992, 0.4499083, 0, 0, -0.8930748,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
+/* @teleloc 0x008B01D0 [152.516100 -118.041400 0.011000] 0.449908 0.000000 0.000000 -0.893075 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1AA, 32956, 0x008B0177, 94.42429, -111.9746, 0.009000063, 0.7624153, 0, 0, -0.6470879,  True, '2019-02-10 00:00:00'); /* Heavy Builder */
+/* @teleloc 0x008B0177 [94.424290 -111.974600 0.009000] 0.762415 0.000000 0.000000 -0.647088 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1AB, 33033, 0x008B0219, 191.7103, -229.272, 0.01100004, 0.6898715, 0, 0, 0.7239318,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
+/* @teleloc 0x008B0219 [191.710300 -229.272000 0.011000] 0.689872 0.000000 0.000000 0.723932 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1AC, 32954, 0x008B0219, 190.8866, -230.3438, 0.009000063, -0.9075155, 0, 0, -0.4200186,  True, '2019-02-10 00:00:00'); /* Foul Mason */
+/* @teleloc 0x008B0219 [190.886600 -230.343800 0.009000] -0.907516 0.000000 0.000000 -0.420019 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1AD, 33033, 0x008B0219, 188.0452, -229.2842, 0.01099992, -0.6922915, 0, 0, 0.7216179,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
+/* @teleloc 0x008B0219 [188.045200 -229.284200 0.011000] -0.692292 0.000000 0.000000 0.721618 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1AE, 32955, 0x008B0219, 190.0096, -231.1234, 0.008999944, -0.9993064, 0, 0, -0.03723756,  True, '2019-02-10 00:00:00'); /* Wretched Architect */
+/* @teleloc 0x008B0219 [190.009600 -231.123400 0.009000] -0.999306 0.000000 0.000000 -0.037238 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1AF, 33033, 0x008B01C9, 143.7774, -193.306, 0.01100004, 0.7222791, 0, 0, -0.6916016,  True, '2019-02-10 00:00:00'); /* Masonry Golem */
+/* @teleloc 0x008B01C9 [143.777400 -193.306000 0.011000] 0.722279 0.000000 0.000000 -0.691602 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1B0,  1542, 0x008B01C6, 125.143, -224.361, 0, 0.9030673, 0, 0, 0.4294991, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x008B01C6 [125.143000 -224.361000 0.000000] 0.903067 0.000000 0.000000 0.429499 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7008B1A5, 0x7008B1A6, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1A7, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1A8, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1A9, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1AA, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1AB, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1AC, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1AD, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1AE, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1AF, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
-     , (0x7008B1A5, 0x7008B1B0, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
-     , (0x7008B1A5, 0x7008B1B1, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
-     , (0x7008B1A5, 0x7008B1B2, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
-     , (0x7008B1A5, 0x7008B1B3, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
-     , (0x7008B1A5, 0x7008B1B4, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */;
+VALUES (0x7008B1B0, 0x7008B1B1, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B2, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B3, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B4, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B5, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B6, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B7, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B8, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1B9, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1BA, '2019-02-10 00:00:00') /* Glyph of Alteration (32944) */
+     , (0x7008B1B0, 0x7008B1BB, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
+     , (0x7008B1B0, 0x7008B1BC, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
+     , (0x7008B1B0, 0x7008B1BD, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
+     , (0x7008B1B0, 0x7008B1BE, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
+     , (0x7008B1B0, 0x7008B1BF, '2019-02-10 00:00:00') /* Superb Imprinting Mote (34879) */
+     , (0x7008B1B0, 0x7008B1C0, '2019-02-10 00:00:00') /* Ring (624) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1A6, 32944, 0x008B01C6, 125.143, -224.361, 0, 0.9030673, 0, 0, 0.4294991,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B1, 32944, 0x008B01C6, 125.143, -224.361, 0, 0.9030673, 0, 0, 0.4294991,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01C6 [125.143000 -224.361000 0.000000] 0.903067 0.000000 0.000000 0.429499 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1A7, 32944, 0x008B01C6, 128.249, -219.069, 0, 0.9926149, 0, 0, -0.121308,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B2, 32944, 0x008B01C6, 128.249, -219.069, 0, 0.9926149, 0, 0, -0.121308,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01C6 [128.249000 -219.069000 0.000000] 0.992615 0.000000 0.000000 -0.121308 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1A8, 32944, 0x008B01C6, 131.231, -223.767, 0, -0.03725789, 0, 0, 0.9993057,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B3, 32944, 0x008B01C6, 131.231, -223.767, 0, -0.03725789, 0, 0, 0.9993057,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01C6 [131.231000 -223.767000 0.000000] -0.037258 0.000000 0.000000 0.999306 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1A9, 32944, 0x008B01AF, 117.061, -214.091, 0, 0.100072, 0, 0, 0.9949802,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B4, 32944, 0x008B01AF, 117.061, -214.091, 0, 0.100072, 0, 0, 0.9949802,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01AF [117.061000 -214.091000 0.000000] 0.100072 0.000000 0.000000 0.994980 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AA, 32944, 0x008B01AF, 115.551, -208.914, 0, 0.7011373, 0, 0, -0.7130263,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B5, 32944, 0x008B01AF, 115.551, -208.914, 0, 0.7011373, 0, 0, -0.7130263,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01AF [115.551000 -208.914000 0.000000] 0.701137 0.000000 0.000000 -0.713026 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AB, 32944, 0x008B01B0, 116.329, -222.401, 0, -0.8498564, 0, 0, 0.5270143,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B6, 32944, 0x008B01B0, 116.329, -222.401, 0, -0.8498564, 0, 0, 0.5270143,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01B0 [116.329000 -222.401000 0.000000] -0.849856 0.000000 0.000000 0.527014 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AC, 32944, 0x008B0199, 106.573, -221.548, 0, -0.7760403, 0, 0, 0.6306832,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B7, 32944, 0x008B0199, 106.573, -221.548, 0, -0.7760403, 0, 0, 0.6306832,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B0199 [106.573000 -221.548000 0.000000] -0.776040 0.000000 0.000000 0.630683 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AD, 32944, 0x008B01C5, 130.815, -211.495, 0, 0.3683839, 0, 0, 0.9296738,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B8, 32944, 0x008B01C5, 130.815, -211.495, 0, 0.3683839, 0, 0, 0.9296738,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B01C5 [130.815000 -211.495000 0.000000] 0.368384 0.000000 0.000000 0.929674 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AE, 32944, 0x008B0198, 111.815, -210.696, 0, 0.5014207, 0, 0, 0.8652036,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1B9, 32944, 0x008B0198, 111.815, -210.696, 0, 0.5014207, 0, 0, 0.8652036,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B0198 [111.815000 -210.696000 0.000000] 0.501421 0.000000 0.000000 0.865204 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1AF, 32944, 0x008B0198, 109.061, -212.65, 0, 0.4757349, 0, 0, -0.8795887,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
+VALUES (0x7008B1BA, 32944, 0x008B0198, 109.061, -212.65, 0, 0.4757349, 0, 0, -0.8795887,  True, '2019-02-10 00:00:00'); /* Glyph of Alteration */
 /* @teleloc 0x008B0198 [109.061000 -212.650000 0.000000] 0.475735 0.000000 0.000000 -0.879589 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1B0, 34879, 0x008B01D4, 163.319, -106.704, 0.0132008, -0.2073369, 0, 0, -0.9782696,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
+VALUES (0x7008B1BB, 34879, 0x008B01D4, 163.319, -106.704, 0.0132008, -0.2073369, 0, 0, -0.9782696,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
 /* @teleloc 0x008B01D4 [163.319000 -106.704000 0.013201] -0.207337 0.000000 0.000000 -0.978270 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1B1, 34879, 0x008B01D4, 163.448, -113.291, 0.0132008, -0.9489595, 0, 0, -0.3153979,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
+VALUES (0x7008B1BC, 34879, 0x008B01D4, 163.448, -113.291, 0.0132008, -0.9489595, 0, 0, -0.3153979,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
 /* @teleloc 0x008B01D4 [163.448000 -113.291000 0.013201] -0.948960 0.000000 0.000000 -0.315398 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1B2, 34879, 0x008B01D4, 158.678, -109.55, 0.0132008, -0.9558829, 0, 0, 0.293748,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
+VALUES (0x7008B1BD, 34879, 0x008B01D4, 158.678, -109.55, 0.0132008, -0.9558829, 0, 0, 0.293748,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
 /* @teleloc 0x008B01D4 [158.678000 -109.550000 0.013201] -0.955883 0.000000 0.000000 0.293748 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1B3, 34879, 0x008B01D0, 153.253, -120.621, 0.0132008, -0.9987327, 0, 0, 0.05032898,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
+VALUES (0x7008B1BE, 34879, 0x008B01D0, 153.253, -120.621, 0.0132008, -0.9987327, 0, 0, 0.05032898,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
 /* @teleloc 0x008B01D0 [153.253000 -120.621000 0.013201] -0.998733 0.000000 0.000000 0.050329 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7008B1B4, 34879, 0x008B01CE, 152.632, -100.416, 0.0132008, -0.7691252, 0, 0, 0.6390982,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
+VALUES (0x7008B1BF, 34879, 0x008B01CE, 152.632, -100.416, 0.0132008, -0.7691252, 0, 0, 0.6390982,  True, '2019-02-10 00:00:00'); /* Superb Imprinting Mote */
 /* @teleloc 0x008B01CE [152.632000 -100.416000 0.013201] -0.769125 0.000000 0.000000 0.639098 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7008B1C0,   624, 0x008B0219, 189.4576, -229.6738, 0.0205, -0.5527653, 0, 0, -0.8333369,  True, '2019-02-10 00:00:00'); /* Ring */
+/* @teleloc 0x008B0219 [189.457600 -229.673800 0.020500] -0.552765 0.000000 0.000000 -0.833337 */

@@ -80,7 +80,15 @@ VALUES (0x70506001, 0x70506002, '2019-02-10 00:00:00') /* Befouled Doll (25854) 
      , (0x70506001, 0x7050604A, '2019-02-10 00:00:00') /* Tainted Carenzi (25853) */
      , (0x70506001, 0x7050604B, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
      , (0x70506001, 0x7050604C, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
-     , (0x70506001, 0x7050604D, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */;
+     , (0x70506001, 0x7050604D, '2019-02-10 00:00:00') /* Monstrous Mite (25871) */
+     , (0x70506001, 0x7050604E, '2019-02-10 00:00:00') /* Creeping Margul (25860) */
+     , (0x70506001, 0x7050604F, '2019-02-10 00:00:00') /* Contagion Rat (25877) */
+     , (0x70506001, 0x70506050, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70506001, 0x70506051, '2019-02-10 00:00:00') /* Malevolent Zefir (25888) */
+     , (0x70506001, 0x70506052, '2019-02-10 00:00:00') /* Raven Conscript (31400) */
+     , (0x70506001, 0x70506053, '2019-02-10 00:00:00') /* Contagion Rat (25877) */
+     , (0x70506001, 0x70506054, '2019-02-10 00:00:00') /* Tenebrous Rift (25883) */
+     , (0x70506001, 0x70506055, '2019-02-10 00:00:00') /* Creeping Margul (25860) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70506002, 25854, 0x05060038, 153.2627, 182.4538, 44.59057, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Befouled Doll */
@@ -387,12 +395,44 @@ VALUES (0x7050604D, 25871, 0x05060010, 36.92459, 176.075, 16.24128, -0.9902303, 
 /* @teleloc 0x05060010 [36.924590 176.075000 16.241280] -0.990230 0.000000 0.000000 -0.139441 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7050604E,  1542, 0x0506002F, 129.9485, 150.8853, 68.21567, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7050604E, 25860, 0x05060018, 48.31062, 184.8755, 12.47421, -0.9902303, 0, 0, -0.1394414,  True, '2019-02-10 00:00:00'); /* Creeping Margul */
+/* @teleloc 0x05060018 [48.310620 184.875500 12.474210] -0.990230 0.000000 0.000000 -0.139441 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7050604F, 25877, 0x05060036, 156.9987, 141.0795, 70.9855, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Contagion Rat */
+/* @teleloc 0x05060036 [156.998700 141.079500 70.985500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506050, 25888, 0x0506002F, 143.6193, 144.2471, 69.94721, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x0506002F [143.619300 144.247100 69.947210] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506051, 25888, 0x0506002F, 126.939, 165.3606, 66.18835, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Malevolent Zefir */
+/* @teleloc 0x0506002F [126.939000 165.360600 66.188350] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506052, 31400, 0x05060038, 152.581, 190.4798, 14.12196, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Conscript */
+/* @teleloc 0x05060038 [152.581000 190.479800 14.121960] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506053, 25877, 0x05060010, 47.81644, 177.9783, 14.70119, -0.9902303, 0, 0, -0.1394414,  True, '2019-02-10 00:00:00'); /* Contagion Rat */
+/* @teleloc 0x05060010 [47.816440 177.978300 14.701190] -0.990230 0.000000 0.000000 -0.139441 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506054, 25883, 0x05060016, 55.68861, 137.6323, 76.89352, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tenebrous Rift */
+/* @teleloc 0x05060016 [55.688610 137.632300 76.893520] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506055, 25860, 0x05060037, 164.9195, 150.9924, 71.894, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Creeping Margul */
+/* @teleloc 0x05060037 [164.919500 150.992400 71.894000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70506056,  1542, 0x0506002F, 129.9485, 150.8853, 68.21567, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0506002F [129.948500 150.885300 68.215670] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7050604E, 0x7050604F, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
+VALUES (0x70506056, 0x70506057, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7050604F, 27298, 0x0506002F, 129.9485, 150.8853, 68.21567, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
+VALUES (0x70506057, 27298, 0x0506002F, 129.9485, 150.8853, 68.21567, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
 /* @teleloc 0x0506002F [129.948500 150.885300 68.215670] 1.000000 0.000000 0.000000 0.000000 */

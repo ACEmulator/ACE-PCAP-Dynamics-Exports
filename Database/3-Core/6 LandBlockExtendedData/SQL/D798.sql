@@ -17,7 +17,11 @@ VALUES (0x7D798001, 0x7D798002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7D798001, 0x7D79800B, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7D798001, 0x7D79800C, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7D798001, 0x7D79800D, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x7D798001, 0x7D79800E, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7D798001, 0x7D79800E, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D798001, 0x7D79800F, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7D798001, 0x7D798010, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D798001, 0x7D798011, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D798001, 0x7D798012, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D798002, 24937, 0xD7980011, 56.11417, 9.056462, 26.05162, 0.01914559, 0, 0, -0.9998167,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -72,12 +76,28 @@ VALUES (0x7D79800E, 24937, 0xD798002F, 123.8828, 156.7863, 20.9627, 1, 0, 0, 0, 
 /* @teleloc 0xD798002F [123.882800 156.786300 20.962700] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D79800F,  1154, 0xD798000D, 43.6636, 98.7848, 60.021, 0.294644, 0, 0, -0.9556071, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7D79800F,  2566, 0xD7980012, 59.29533, 32.00949, 20, 0.7224597, 0, 0, -0.691413,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xD7980012 [59.295330 32.009490 20.000000] 0.722460 0.000000 0.000000 -0.691413 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D798010, 24937, 0xD798000A, 45.67128, 47.22512, 21.74, 0.01914559, 0, 0, -0.9998167,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xD798000A [45.671280 47.225120 21.740000] 0.019146 0.000000 0.000000 -0.999817 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D798011, 24937, 0xD7980002, 14.44918, 26.31279, 19.992, -0.9728967, 0, 0, -0.2312403,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xD7980002 [14.449180 26.312790 19.992000] -0.972897 0.000000 0.000000 -0.231240 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D798012,  2566, 0xD7980023, 97.41696, 54.95073, 20, -0.5508402, 0, 0, -0.8346107,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xD7980023 [97.416960 54.950730 20.000000] -0.550840 0.000000 0.000000 -0.834611 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D798013,  1154, 0xD798000D, 43.6636, 98.7848, 60.021, 0.294644, 0, 0, -0.9556071, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xD798000D [43.663600 98.784800 60.021000] 0.294644 0.000000 0.000000 -0.955607 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D79800F, 0x7D798010, '2019-02-10 00:00:00') /* Deewain (42543) */;
+VALUES (0x7D798013, 0x7D798014, '2019-02-10 00:00:00') /* Deewain (42543) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D798010, 42543, 0xD798000D, 43.6636, 98.7848, 60.021, 0.294644, 0, 0, -0.9556071,  True, '2019-02-10 00:00:00'); /* Deewain */
+VALUES (0x7D798014, 42543, 0xD798000D, 43.6636, 98.7848, 60.021, 0.294644, 0, 0, -0.9556071,  True, '2019-02-10 00:00:00'); /* Deewain */
 /* @teleloc 0xD798000D [43.663600 98.784800 60.021000] 0.294644 0.000000 0.000000 -0.955607 */

@@ -39,7 +39,9 @@ VALUES (0x7E331001, 0x7E331002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E331001, 0x7E331021, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E331001, 0x7E331022, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7E331001, 0x7E331023, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
-     , (0x7E331001, 0x7E331024, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7E331001, 0x7E331024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E331001, 0x7E331025, '2019-02-10 00:00:00') /* Dire Mattekar (9400) */
+     , (0x7E331001, 0x7E331026, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E331002,  2567, 0xE3310027, 108.2197, 151.862, 76, -0.7877562, 0, 0, -0.6159872,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -182,17 +184,25 @@ VALUES (0x7E331024, 24937, 0xE3310025, 101.5721, 118.7364, 80.31264, -0.6203536,
 /* @teleloc 0xE3310025 [101.572100 118.736400 80.312640] -0.620354 0.000000 0.000000 -0.784322 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E331025,  1542, 0xE3310015, 64.73024, 96.48608, 84.6151, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E331025,  9400, 0xE331000B, 46.05746, 68.22472, 88, -0.3381697, 0, 0, -0.9410852,  True, '2019-02-10 00:00:00'); /* Dire Mattekar */
+/* @teleloc 0xE331000B [46.057460 68.224720 88.000000] -0.338170 0.000000 0.000000 -0.941085 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E331026,  2567, 0xE3310029, 133.8388, 5.48192, 91.08626, -0.8339564, 0, 0, -0.5518304,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
+/* @teleloc 0xE3310029 [133.838800 5.481920 91.086260] -0.833956 0.000000 0.000000 -0.551830 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E331027,  1542, 0xE3310015, 64.73024, 96.48608, 84.6151, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE3310015 [64.730240 96.486080 84.615100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E331025, 0x7E331026, '2019-02-10 00:00:00') /* Strange Stick (5779) */
-     , (0x7E331025, 0x7E331027, '2019-02-10 00:00:00') /* Amaranth (765) */;
+VALUES (0x7E331027, 0x7E331028, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7E331027, 0x7E331029, '2019-02-10 00:00:00') /* Amaranth (765) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E331026,  5779, 0xE3310015, 64.73024, 96.48608, 84.6151, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+VALUES (0x7E331028,  5779, 0xE3310015, 64.73024, 96.48608, 84.6151, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
 /* @teleloc 0xE3310015 [64.730240 96.486080 84.615100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E331027,   765, 0xE3310015, 63.61003, 96.08167, 84.69849, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Amaranth */
+VALUES (0x7E331029,   765, 0xE3310015, 63.61003, 96.08167, 84.69849, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Amaranth */
 /* @teleloc 0xE3310015 [63.610030 96.081670 84.698490] 0.707107 0.000000 0.000000 -0.707107 */

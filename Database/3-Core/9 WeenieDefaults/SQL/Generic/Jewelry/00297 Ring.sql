@@ -18,8 +18,7 @@ VALUES (297,   1,          8) /* ItemType - Jewelry */
      , (297, 109,        243) /* ItemDifficulty */
      , (297, 110,          0) /* ItemAllegianceRankLimit */
      , (297, 115,          0) /* ItemSkillLevelLimit */
-     , (297, 131,         59) /* MaterialType - Copper */
-     , (297, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (297, 131,         59) /* MaterialType - Copper */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (297,  22, True ) /* Inscribable */;

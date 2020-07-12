@@ -264,7 +264,13 @@ VALUES (0x70B0D001, 0x70B0D002, '2019-02-10 00:00:00') /* Infernal Zefir (25887)
      , (0x70B0D001, 0x70B0D102, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x70B0D001, 0x70B0D103, '2019-02-10 00:00:00') /* Hellion (25863) */
      , (0x70B0D001, 0x70B0D104, '2019-02-10 00:00:00') /* Hellion (25863) */
-     , (0x70B0D001, 0x70B0D105, '2019-02-10 00:00:00') /* Hellion (25863) */;
+     , (0x70B0D001, 0x70B0D105, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x70B0D001, 0x70B0D106, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
+     , (0x70B0D001, 0x70B0D107, '2019-02-10 00:00:00') /* Infernal Zefir (25887) */
+     , (0x70B0D001, 0x70B0D108, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x70B0D001, 0x70B0D109, '2019-02-10 00:00:00') /* Hellion (25863) */
+     , (0x70B0D001, 0x70B0D10A, '2019-02-10 00:00:00') /* Raven Hunter (31404) */
+     , (0x70B0D001, 0x70B0D10B, '2019-02-10 00:00:00') /* Ravager (25852) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0D002, 25887, 0x0B0D000D, 34.20102, 105.3863, 32.65541, 0.9947379, 0, 0, -0.1024521,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
@@ -1305,3 +1311,27 @@ VALUES (0x70B0D104, 25863, 0x0B0D0022, 118.1282, 37.85968, 77.59975, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0D105, 25863, 0x0B0D002A, 132.0535, 26.67484, 81.65636, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
 /* @teleloc 0x0B0D002A [132.053500 26.674840 81.656360] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0D106, 25887, 0x0B0D0015, 49.84516, 106.0925, 30.37837, 0.9947379, 0, 0, -0.1024521,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
+/* @teleloc 0x0B0D0015 [49.845160 106.092500 30.378370] 0.994738 0.000000 0.000000 -0.102452 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0D107, 25887, 0x0B0D0015, 55.21898, 101.6799, 29.34042, 0.9947379, 0, 0, -0.1024521,  True, '2019-02-10 00:00:00'); /* Infernal Zefir */
+/* @teleloc 0x0B0D0015 [55.218980 101.679900 29.340420] 0.994738 0.000000 0.000000 -0.102452 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0D108, 25863, 0x0B0D0022, 112.7756, 34.48722, 78.23072, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x0B0D0022 [112.775600 34.487220 78.230720] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0D109, 25863, 0x0B0D002A, 130.2936, 42.59476, 73.51773, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hellion */
+/* @teleloc 0x0B0D002A [130.293600 42.594760 73.517730] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0D10A, 31404, 0x0B0D0034, 162.4231, 72.09992, 28.01333, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Raven Hunter */
+/* @teleloc 0x0B0D0034 [162.423100 72.099920 28.013330] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0D10B, 25852, 0x0B0D003B, 170.6579, 59.31995, 34.06773, -0.776035, 0, 0, -0.6306899,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x0B0D003B [170.657900 59.319950 34.067730] -0.776035 0.000000 0.000000 -0.630690 */

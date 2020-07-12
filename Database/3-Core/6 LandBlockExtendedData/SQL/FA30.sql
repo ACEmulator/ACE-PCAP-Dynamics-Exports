@@ -34,7 +34,9 @@ VALUES (0x7FA30001, 0x7FA30002, '2019-02-10 00:00:00') /* Blighted Ardent Moarsm
      , (0x7FA30001, 0x7FA3001C, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
      , (0x7FA30001, 0x7FA3001D, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
      , (0x7FA30001, 0x7FA3001E, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
-     , (0x7FA30001, 0x7FA3001F, '2019-02-10 00:00:00') /* Blessed Moar (40300) */;
+     , (0x7FA30001, 0x7FA3001F, '2019-02-10 00:00:00') /* Blessed Moar (40300) */
+     , (0x7FA30001, 0x7FA30020, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */
+     , (0x7FA30001, 0x7FA30021, '2019-02-10 00:00:00') /* Blessed Moarsman (40304) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA30002, 40302, 0xFA300029, 143.0869, 10.14441, 0.006400108, 0.03321271, 0, 0, -0.9994483,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
@@ -155,3 +157,11 @@ VALUES (0x7FA3001E, 40298, 0xFA300037, 160.8079, 148.9561, 0.01800001, -0.276417
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA3001F, 40300, 0xFA30003F, 172.4534, 149.0825, 0.01800001, -0.2764172, 0, 0, -0.9610378,  True, '2019-02-10 00:00:00'); /* Blessed Moar */
 /* @teleloc 0xFA30003F [172.453400 149.082500 0.018000] -0.276417 0.000000 0.000000 -0.961038 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA30020, 40304, 0xFA30000B, 39.42714, 63.6167, 86.29283, -0.1870084, 0, 0, -0.9823583,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */
+/* @teleloc 0xFA30000B [39.427140 63.616700 86.292830] -0.187008 0.000000 0.000000 -0.982358 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA30021, 40304, 0xFA30000B, 24.51904, 71.66331, 93.74688, -0.1870084, 0, 0, -0.9823583,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */
+/* @teleloc 0xFA30000B [24.519040 71.663310 93.746880] -0.187008 0.000000 0.000000 -0.982358 */

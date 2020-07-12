@@ -8,7 +8,9 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7C1AE001, 0x7C1AE002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) */
      , (0x7C1AE001, 0x7C1AE003, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
      , (0x7C1AE001, 0x7C1AE004, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
-     , (0x7C1AE001, 0x7C1AE005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */;
+     , (0x7C1AE001, 0x7C1AE005, '2019-02-10 00:00:00') /* Wild Monouga (2576) */
+     , (0x7C1AE001, 0x7C1AE006, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7C1AE001, 0x7C1AE007, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C1AE002,  1608, 0xC1AE0023, 101.5652, 66.09819, 128.0042, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -27,12 +29,20 @@ VALUES (0x7C1AE005,  2576, 0xC1AE0003, 13.21249, 48.33593, 128.0765, 0.9349443, 
 /* @teleloc 0xC1AE0003 [13.212490 48.335930 128.076500] 0.934944 0.000000 0.000000 -0.354795 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C1AE006,  1542, 0xC1AE000D, 24.94725, 109.946, 142.8413, -0.372636, 0, 0, -0.9279776, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C1AE006,  1758, 0xC1AE000A, 31.78916, 38.32046, 128.7975, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0xC1AE000A [31.789160 38.320460 128.797500] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1AE007,  1756, 0xC1AE000A, 25.01315, 37.91335, 128.7975, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Child */
+/* @teleloc 0xC1AE000A [25.013150 37.913350 128.797500] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C1AE008,  1542, 0xC1AE000D, 24.94725, 109.946, 142.8413, -0.372636, 0, 0, -0.9279776, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC1AE000D [24.947250 109.946000 142.841300] -0.372636 0.000000 0.000000 -0.927978 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C1AE006, 0x7C1AE007, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x7C1AE008, 0x7C1AE009, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C1AE007,  8037, 0xC1AE000D, 24.94725, 109.946, 142.8413, -0.372636, 0, 0, -0.9279776,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7C1AE009,  8037, 0xC1AE000D, 24.94725, 109.946, 142.8413, -0.372636, 0, 0, -0.9279776,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xC1AE000D [24.947250 109.946000 142.841300] -0.372636 0.000000 0.000000 -0.927978 */

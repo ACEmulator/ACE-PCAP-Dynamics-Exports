@@ -22,7 +22,10 @@ VALUES (0x7334E001, 0x7334E002, '2019-02-10 00:00:00') /* Direland Rat (24310) *
      , (0x7334E001, 0x7334E010, '2019-02-10 00:00:00') /* Risen Lord (24326) */
      , (0x7334E001, 0x7334E011, '2019-02-10 00:00:00') /* Strife Wisp (21551) */
      , (0x7334E001, 0x7334E012, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
-     , (0x7334E001, 0x7334E013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
+     , (0x7334E001, 0x7334E013, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x7334E001, 0x7334E014, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x7334E001, 0x7334E015, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x7334E001, 0x7334E016, '2019-02-10 00:00:00') /* Risen Lord (24326) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7334E002, 24310, 0x334E002A, 130.0875, 32.15747, 17.61451, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Direland Rat */
@@ -97,12 +100,24 @@ VALUES (0x7334E013,  7184, 0x334E0012, 66.25869, 41.8092, 11.96443, 0.7071068, 0
 /* @teleloc 0x334E0012 [66.258690 41.809200 11.964430] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7334E014,  1542, 0x334E0034, 151.2224, 86.97839, 8.336463, 0.7392518, 0, 0, -0.6734291, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7334E014, 36829, 0x334E002A, 132.8514, 36.00294, 16.00804, 0.2037259, 0, 0, -0.979028,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x334E002A [132.851400 36.002940 16.008040] 0.203726 0.000000 0.000000 -0.979028 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7334E015,  8431, 0x334E0023, 99.56667, 54.23228, 16.15808, 0.4116614, 0, 0, -0.9113369,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x334E0023 [99.566670 54.232280 16.158080] 0.411661 0.000000 0.000000 -0.911337 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7334E016, 24326, 0x334E0033, 156.9845, 62.60178, 5.089543, 0.7392518, 0, 0, -0.6734291,  True, '2019-02-10 00:00:00'); /* Risen Lord */
+/* @teleloc 0x334E0033 [156.984500 62.601780 5.089543] 0.739252 0.000000 0.000000 -0.673429 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7334E017,  1542, 0x334E0034, 151.2224, 86.97839, 8.336463, 0.7392518, 0, 0, -0.6734291, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x334E0034 [151.222400 86.978390 8.336463] 0.739252 0.000000 0.000000 -0.673429 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7334E014, 0x7334E015, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
+VALUES (0x7334E017, 0x7334E018, '2019-02-10 00:00:00') /* Singularity Trove (9288) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7334E015,  9288, 0x334E0034, 151.2224, 86.97839, 8.336463, 0.7392518, 0, 0, -0.6734291,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x7334E018,  9288, 0x334E0034, 151.2224, 86.97839, 8.336463, 0.7392518, 0, 0, -0.6734291,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x334E0034 [151.222400 86.978390 8.336463] 0.739252 0.000000 0.000000 -0.673429 */

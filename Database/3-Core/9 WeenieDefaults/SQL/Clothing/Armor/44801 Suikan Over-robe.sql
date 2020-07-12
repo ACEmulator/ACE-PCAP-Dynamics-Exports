@@ -24,7 +24,6 @@ VALUES (44801,   1,          2) /* ItemType - Armor */
      , (44801, 158,          7) /* WieldRequirements - Level */
      , (44801, 159,          1) /* WieldSkillType - Axe */
      , (44801, 160,        150) /* WieldDifficulty */
-     , (44801, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (44801, 177,          4) /* GemCount */
      , (44801, 178,         26) /* GemType */
      , (44801, 265,         15) /* EquipmentSetId - Archers */;

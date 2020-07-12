@@ -13,7 +13,10 @@ VALUES (0x784C0001, 0x784C0002, '2019-02-10 00:00:00') /* Unruly Monouga (24294)
      , (0x784C0001, 0x784C0007, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
      , (0x784C0001, 0x784C0008, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
      , (0x784C0001, 0x784C0009, '2019-02-10 00:00:00') /* Cunning Monouga (24289) */
-     , (0x784C0001, 0x784C000A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */;
+     , (0x784C0001, 0x784C000A, '2019-02-10 00:00:00') /* Olthoi Soldier (214) */
+     , (0x784C0001, 0x784C000B, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
+     , (0x784C0001, 0x784C000C, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x784C0001, 0x784C000D, '2019-02-10 00:00:00') /* Altered Drudge (7335) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x784C0002, 24294, 0x84C0000C, 31.30411, 80.32845, 103.999, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -52,12 +55,24 @@ VALUES (0x784C000A,   214, 0x84C0000D, 42.29016, 107.4646, 99.31931, 0.8615978, 
 /* @teleloc 0x84C0000D [42.290160 107.464600 99.319310] 0.861598 0.000000 0.000000 -0.507592 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x784C000B,  1542, 0x84C0000B, 39.16644, 68.13689, 105.1742, 0.8615978, 0, 0, -0.5075917, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x784C000B,  7333, 0x84C00005, 19.35798, 115.6808, 102.3282, -0.9848452, 0, 0, -0.1734356,  True, '2019-02-10 00:00:00'); /* Banderling Mangler */
+/* @teleloc 0x84C00005 [19.357980 115.680800 102.328200] -0.984845 0.000000 0.000000 -0.173436 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784C000C,  7089, 0x84C00005, 22.60077, 98.92837, 100.7042, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
+/* @teleloc 0x84C00005 [22.600770 98.928370 100.704200] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784C000D,  7335, 0x84C00005, 23.34062, 100.4816, 100.3342, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Altered Drudge */
+/* @teleloc 0x84C00005 [23.340620 100.481600 100.334200] 0.737277 0.000000 0.000000 -0.675590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x784C000E,  1542, 0x84C0000B, 39.16644, 68.13689, 105.1742, 0.8615978, 0, 0, -0.5075917, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x84C0000B [39.166440 68.136890 105.174200] 0.861598 0.000000 0.000000 -0.507592 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x784C000B, 0x784C000C, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+VALUES (0x784C000E, 0x784C000F, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x784C000C,  8646, 0x84C0000B, 39.16644, 68.13689, 105.1742, 0.8615978, 0, 0, -0.5075917,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
+VALUES (0x784C000F,  8646, 0x84C0000B, 39.16644, 68.13689, 105.1742, 0.8615978, 0, 0, -0.5075917,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
 /* @teleloc 0x84C0000B [39.166440 68.136890 105.174200] 0.861598 0.000000 0.000000 -0.507592 */

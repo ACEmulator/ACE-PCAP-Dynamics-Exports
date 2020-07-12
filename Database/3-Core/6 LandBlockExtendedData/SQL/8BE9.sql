@@ -8,7 +8,9 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x78BE9001, 0x78BE9002, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x78BE9001, 0x78BE9003, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x78BE9001, 0x78BE9004, '2019-02-10 00:00:00') /* Crystal Golem (14800) */
-     , (0x78BE9001, 0x78BE9005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */;
+     , (0x78BE9001, 0x78BE9005, '2019-02-10 00:00:00') /* Ferocious Monouga (9252) */
+     , (0x78BE9001, 0x78BE9006, '2019-02-10 00:00:00') /* Revenant (619) */
+     , (0x78BE9001, 0x78BE9007, '2019-02-10 00:00:00') /* Crystal Golem (14800) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE9002,  1756, 0x8BE9001D, 94.42996, 109.7767, 77.15056, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Child */
@@ -25,3 +27,11 @@ VALUES (0x78BE9004, 14800, 0x8BE90015, 52.85308, 96.49332, 77.60558, 0.9995341, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BE9005,  9252, 0x8BE9003D, 180.0136, 108.9817, 76.23528, -0.1830138, 0, 0, -0.9831103,  True, '2019-02-10 00:00:00'); /* Ferocious Monouga */
 /* @teleloc 0x8BE9003D [180.013600 108.981700 76.235280] -0.183014 0.000000 0.000000 -0.983110 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78BE9006,   619, 0x8BE9001D, 82.20967, 110.9447, 77.25364, -0.3525643, 0, 0, -0.9357876,  True, '2019-02-10 00:00:00'); /* Revenant */
+/* @teleloc 0x8BE9001D [82.209670 110.944700 77.253640] -0.352564 0.000000 0.000000 -0.935788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78BE9007, 14800, 0x8BE9003E, 181.9947, 124.07, 79.18294, -0.1830138, 0, 0, -0.9831103,  True, '2019-02-10 00:00:00'); /* Crystal Golem */
+/* @teleloc 0x8BE9003E [181.994700 124.070000 79.182940] -0.183014 0.000000 0.000000 -0.983110 */

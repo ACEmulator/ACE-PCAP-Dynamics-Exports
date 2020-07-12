@@ -33,7 +33,16 @@ VALUES (0x72D8A00D, 0x72D8A00E, '2019-02-10 00:00:00') /* Tumerok Warrior (233) 
      , (0x72D8A00D, 0x72D8A023, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
      , (0x72D8A00D, 0x72D8A024, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
      , (0x72D8A00D, 0x72D8A025, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
-     , (0x72D8A00D, 0x72D8A026, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */;
+     , (0x72D8A00D, 0x72D8A026, '2019-02-10 00:00:00') /* Tumerok Warrior (233) */
+     , (0x72D8A00D, 0x72D8A027, '2019-02-10 00:00:00') /* Crystal Shard (23616) */
+     , (0x72D8A00D, 0x72D8A028, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72D8A00D, 0x72D8A029, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72D8A00D, 0x72D8A02A, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
+     , (0x72D8A00D, 0x72D8A02B, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x72D8A00D, 0x72D8A02C, '2019-02-10 00:00:00') /* Olthoi Warrior (23482) */
+     , (0x72D8A00D, 0x72D8A02D, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
+     , (0x72D8A00D, 0x72D8A02E, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */
+     , (0x72D8A00D, 0x72D8A02F, '2019-02-10 00:00:00') /* Olthoi Lancer (24958) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D8A00E,   233, 0x2D8A0100, 59.1393, 106.378, 128.0055, 0.969432, 0, 0, 0.245362,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
@@ -134,3 +143,39 @@ VALUES (0x72D8A025,   233, 0x2D8A0113, 49.7737, 142.238, 123.2055, 0.381387, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72D8A026,   233, 0x2D8A0118, 33.752, 130.028, 128.4446, -0.994325, 0, 0, -0.106384,  True, '2019-02-10 00:00:00'); /* Tumerok Warrior */
 /* @teleloc 0x2D8A0118 [33.752000 130.028000 128.444600] -0.994325 0.000000 0.000000 -0.106384 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A027, 23616, 0x2D8A002A, 123.6204, 24.43945, 106.1898, 0.99542, 0, 0, -0.09559806,  True, '2019-02-10 00:00:00'); /* Crystal Shard */
+/* @teleloc 0x2D8A002A [123.620400 24.439450 106.189800] 0.995420 0.000000 0.000000 -0.095598 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A028, 24497, 0x2D8A0009, 25.64802, 20.0519, 150.01, 0.8716139, 0, 0, -0.490193,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x2D8A0009 [25.648020 20.051900 150.010000] 0.871614 0.000000 0.000000 -0.490193 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A029,  7081, 0x2D8A0014, 70.42151, 78.58861, 123.6577, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x2D8A0014 [70.421510 78.588610 123.657700] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A02A, 36829, 0x2D8A002E, 142.9129, 137.9543, 91.37999, 0.3333233, 0, 0, -0.9428126,  True, '2019-02-10 00:00:00'); /* Acidic Diamond Golem */
+/* @teleloc 0x2D8A002E [142.912900 137.954300 91.379990] 0.333323 0.000000 0.000000 -0.942813 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A02B,  7081, 0x2D8A0010, 39.94926, 170.1369, 127.4763, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x2D8A0010 [39.949260 170.136900 127.476300] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A02C, 23482, 0x2D8A000C, 28.01783, 76.7392, 140.8405, 0.724326, 0, 0, -0.6894577,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
+/* @teleloc 0x2D8A000C [28.017830 76.739200 140.840500] 0.724326 0.000000 0.000000 -0.689458 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A02D,  4254, 0x2D8A002E, 137.352, 128.1877, 94.85539, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x2D8A002E [137.352000 128.187700 94.855390] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A02E, 24958, 0x2D8A0013, 51.4869, 56.71156, 128.5176, 0.724326, 0, 0, -0.6894577,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x2D8A0013 [51.486900 56.711560 128.517600] 0.724326 0.000000 0.000000 -0.689458 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72D8A02F, 24958, 0x2D8A000B, 45.33594, 49.76952, 128.5176, 0.724326, 0, 0, -0.6894577,  True, '2019-02-10 00:00:00'); /* Olthoi Lancer */
+/* @teleloc 0x2D8A000B [45.335940 49.769520 128.517600] 0.724326 0.000000 0.000000 -0.689458 */

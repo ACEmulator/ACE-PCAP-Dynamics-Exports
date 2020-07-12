@@ -29,7 +29,6 @@ VALUES (31801,   1,        256) /* ItemType - MissileWeapon */
      , (31801, 158,          2) /* WieldRequirements - RawSkill */
      , (31801, 159,         47) /* WieldSkillType - MissileWeapons */
      , (31801, 160,        335) /* WieldDifficulty */
-     , (31801, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (31801, 204,          6) /* ElementalDamageBonus */
      , (31801, 353,          8) /* WeaponType - Bow */;
 

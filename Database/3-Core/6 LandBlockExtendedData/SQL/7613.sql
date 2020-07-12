@@ -14,7 +14,8 @@ VALUES (0x77613001, 0x77613002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
      , (0x77613001, 0x77613008, '2019-02-10 00:00:00') /* Glacial Golem Margrave (27565) */
      , (0x77613001, 0x77613009, '2019-02-10 00:00:00') /* Frost (14512) */
      , (0x77613001, 0x7761300A, '2019-02-10 00:00:00') /* Frost (14512) */
-     , (0x77613001, 0x7761300B, '2019-02-10 00:00:00') /* Frost (14512) */;
+     , (0x77613001, 0x7761300B, '2019-02-10 00:00:00') /* Frost (14512) */
+     , (0x77613001, 0x7761300C, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x77613002,  7123, 0x76130004, 17.58191, 75.92536, 17.26493, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -55,3 +56,7 @@ VALUES (0x7761300A, 14512, 0x76130032, 156.1628, 31.68244, 26.22158, -0.3358838,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7761300B, 14512, 0x76130032, 155.7889, 42.7959, 30.82103, -0.3358838, 0, 0, -0.9419034,  True, '2019-02-10 00:00:00'); /* Frost */
 /* @teleloc 0x76130032 [155.788900 42.795900 30.821030] -0.335884 0.000000 0.000000 -0.941903 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7761300C,  4254, 0x76130003, 6.279311, 60.37838, 17.36597, -0.02578466, 0, 0, -0.9996675,  True, '2019-02-10 00:00:00'); /* Umbris Shadow */
+/* @teleloc 0x76130003 [6.279311 60.378380 17.365970] -0.025785 0.000000 0.000000 -0.999668 */

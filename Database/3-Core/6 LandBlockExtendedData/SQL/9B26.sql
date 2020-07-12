@@ -38,7 +38,9 @@ VALUES (0x79B26001, 0x79B26002, '2019-02-10 00:00:00') /* Dark Revenant (4217) *
      , (0x79B26001, 0x79B26020, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
      , (0x79B26001, 0x79B26021, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
      , (0x79B26001, 0x79B26022, '2019-02-10 00:00:00') /* Umbris Shadow (4254) */
-     , (0x79B26001, 0x79B26023, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */;
+     , (0x79B26001, 0x79B26023, '2019-02-10 00:00:00') /* Shadow Lieutenant (1757) */
+     , (0x79B26001, 0x79B26024, '2019-02-10 00:00:00') /* Wasteland Rat (7107) */
+     , (0x79B26001, 0x79B26025, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B26002,  4217, 0x9B260019, 89.87707, 5.059959, 88.76299, 0.790733, 0, 0, -0.6121612,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
@@ -175,3 +177,11 @@ VALUES (0x79B26022,  4254, 0x9B26003C, 190.5824, 73.15192, 103.8416, 0.8870109, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79B26023,  1757, 0x9B26003C, 183.806, 74.76945, 102.4181, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow Lieutenant */
 /* @teleloc 0x9B26003C [183.806000 74.769450 102.418100] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79B26024,  7107, 0x9B26003C, 169.6105, 78.35171, 99.07816, -0.7586434, 0, 0, -0.6515061,  True, '2019-02-10 00:00:00'); /* Wasteland Rat */
+/* @teleloc 0x9B26003C [169.610500 78.351710 99.078160] -0.758643 0.000000 0.000000 -0.651506 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79B26025,  4253, 0x9B260019, 80.13839, 9.832393, 91.87352, 0.790733, 0, 0, -0.6121612,  True, '2019-02-10 00:00:00'); /* Panumbris Shadow */
+/* @teleloc 0x9B260019 [80.138390 9.832393 91.873520] 0.790733 0.000000 0.000000 -0.612161 */

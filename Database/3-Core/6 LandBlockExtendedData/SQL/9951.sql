@@ -8,7 +8,9 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x79951001, 0x79951002, '2019-02-10 00:00:00') /* Virindi Master (237) */
      , (0x79951001, 0x79951003, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x79951001, 0x79951004, '2019-02-10 00:00:00') /* Shadow Child (1756) */
-     , (0x79951001, 0x79951005, '2019-02-10 00:00:00') /* Dune Reaver (9256) */;
+     , (0x79951001, 0x79951005, '2019-02-10 00:00:00') /* Dune Reaver (9256) */
+     , (0x79951001, 0x79951006, '2019-02-10 00:00:00') /* Dark Marionette (9250) */
+     , (0x79951001, 0x79951007, '2019-02-10 00:00:00') /* Pristine Doll (9244) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79951002,   237, 0x9951002E, 129.5134, 126.6678, 18.31142, 0.7592451, 0, 0, -0.6508048,  True, '2019-02-10 00:00:00'); /* Virindi Master */
@@ -25,3 +27,11 @@ VALUES (0x79951004,  1756, 0x99510025, 116.699, 112.8752, 13.13368, 0.8870109, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79951005,  9256, 0x9951002C, 135.065, 82.56262, 18.4147, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Dune Reaver */
 /* @teleloc 0x9951002C [135.065000 82.562620 18.414700] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79951006,  9250, 0x9951001C, 94.96148, 81.55963, 11.11732, 0.7592451, 0, 0, -0.6508048,  True, '2019-02-10 00:00:00'); /* Dark Marionette */
+/* @teleloc 0x9951001C [94.961480 81.559630 11.117320] 0.759245 0.000000 0.000000 -0.650805 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79951007,  9244, 0x99510033, 146.3373, 71.02977, 21.47775, 0.9667822, 0, 0, -0.2556015,  True, '2019-02-10 00:00:00'); /* Pristine Doll */
+/* @teleloc 0x99510033 [146.337300 71.029770 21.477750] 0.966782 0.000000 0.000000 -0.255602 */

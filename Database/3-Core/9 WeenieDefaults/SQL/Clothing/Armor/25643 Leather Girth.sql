@@ -14,8 +14,7 @@ VALUES (25643,   1,          2) /* ItemType - Armor */
      , (25643,  28,        253) /* ArmorLevel */
      , (25643,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (25643, 105,          8) /* ItemWorkmanship */
-     , (25643, 131,         55) /* MaterialType - ReedSharkHide */
-     , (25643, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (25643, 131,         55) /* MaterialType - ReedSharkHide */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25643,  22, True ) /* Inscribable */

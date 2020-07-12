@@ -10,7 +10,8 @@ VALUES (0x71474001, 0x71474002, '2019-02-10 00:00:00') /* Merciless Monouga (368
      , (0x71474001, 0x71474004, '2019-02-10 00:00:00') /* Merciless Monouga (36843) */
      , (0x71474001, 0x71474005, '2019-02-10 00:00:00') /* Armored Tusker (11540) */
      , (0x71474001, 0x71474006, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
-     , (0x71474001, 0x71474007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */;
+     , (0x71474001, 0x71474007, '2019-02-10 00:00:00') /* Bloodthirsty Monouga (36840) */
+     , (0x71474001, 0x71474008, '2019-02-10 00:00:00') /* Insidious Monouga (36842) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71474002, 36843, 0x1474002C, 123.3568, 78.0638, 123.077, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -35,3 +36,7 @@ VALUES (0x71474006, 36829, 0x14740009, 31.47754, 7.174784, 76.42261, -0.5959952,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71474007, 36840, 0x14740006, 9.88765, 141.3395, 131.0481, -0.6104463, 0, 0, -0.7920576,  True, '2019-02-10 00:00:00'); /* Bloodthirsty Monouga */
 /* @teleloc 0x14740006 [9.887650 141.339500 131.048100] -0.610446 0.000000 0.000000 -0.792058 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71474008, 36842, 0x14740009, 38.73464, 1.161979, 79.41401, -0.5959952, 0, 0, -0.802988,  True, '2019-02-10 00:00:00'); /* Insidious Monouga */
+/* @teleloc 0x14740009 [38.734640 1.161979 79.414010] -0.595995 0.000000 0.000000 -0.802988 */

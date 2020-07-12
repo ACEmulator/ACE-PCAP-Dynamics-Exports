@@ -14,7 +14,8 @@ VALUES (0x7B69C001, 0x7B69C002, '2019-02-10 00:00:00') /* Hunter Shreth (4111) *
      , (0x7B69C001, 0x7B69C004, '2019-02-10 00:00:00') /* Elaniwood Golem (11528) */
      , (0x7B69C001, 0x7B69C005, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
      , (0x7B69C001, 0x7B69C006, '2019-02-10 00:00:00') /* Mite Digger (944) */
-     , (0x7B69C001, 0x7B69C007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */;
+     , (0x7B69C001, 0x7B69C007, '2019-02-10 00:00:00') /* Small Shadow Child (6535) */
+     , (0x7B69C001, 0x7B69C008, '2019-02-10 00:00:00') /* Mite Scion (943) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69C002,  4111, 0xB69C0011, 54.34368, 17.10305, 53.985, 0.8857037, 0, 0, -0.464251,  True, '2019-02-10 00:00:00'); /* Hunter Shreth */
@@ -39,3 +40,7 @@ VALUES (0x7B69C006,   944, 0xB69C0020, 95.13583, 181.3446, 41.85291, -0.2338749,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69C007,  6535, 0xB69C000A, 44.91226, 35.48019, 54.95918, 0.8857037, 0, 0, -0.464251,  True, '2019-02-10 00:00:00'); /* Small Shadow Child */
 /* @teleloc 0xB69C000A [44.912260 35.480190 54.959180] 0.885704 0.000000 0.000000 -0.464251 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B69C008,   943, 0xB69C0012, 63.33727, 36.43421, 55.04119, 0.7933533, 0, 0, -0.6087614,  True, '2019-02-10 00:00:00'); /* Mite Scion */
+/* @teleloc 0xB69C0012 [63.337270 36.434210 55.041190] 0.793353 0.000000 0.000000 -0.608761 */

@@ -24,7 +24,6 @@ VALUES (43051,   1,          2) /* ItemType - Armor */
      , (43051, 158,          7) /* WieldRequirements - Level */
      , (43051, 159,          1) /* WieldSkillType - Axe */
      , (43051, 160,        180) /* WieldDifficulty */
-     , (43051, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (43051, 265,         22) /* EquipmentSetId - Swift */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

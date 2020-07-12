@@ -20,7 +20,6 @@ VALUES (121,   1,          4) /* ItemType - Clothing */
      , (121, 110,          0) /* ItemAllegianceRankLimit */
      , (121, 115,          0) /* ItemSkillLevelLimit */
      , (121, 131,         52) /* MaterialType - Leather */
-     , (121, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (121, 177,          2) /* GemCount */
      , (121, 178,         20) /* GemType */;
 

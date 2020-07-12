@@ -25,8 +25,7 @@ VALUES (40701,   1,          2) /* ItemType - Armor */
      , (40701, 151,          2) /* HookType - Wall */
      , (40701, 158,          2) /* WieldRequirements - RawSkill */
      , (40701, 159,          7) /* WieldSkillType - MissileDefense */
-     , (40701, 160,        270) /* WieldDifficulty */
-     , (40701, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (40701, 160,        270) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40701,  22, True ) /* Inscribable */

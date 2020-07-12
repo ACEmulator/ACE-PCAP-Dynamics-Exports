@@ -23,7 +23,9 @@ VALUES (0x7A4D2001, 0x7A4D2002, '2019-02-10 00:00:00') /* Unruly Monouga (24294)
      , (0x7A4D2001, 0x7A4D2011, '2019-02-10 00:00:00') /* Mist Golem (22933) */
      , (0x7A4D2001, 0x7A4D2012, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
      , (0x7A4D2001, 0x7A4D2013, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
-     , (0x7A4D2001, 0x7A4D2014, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
+     , (0x7A4D2001, 0x7A4D2014, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */
+     , (0x7A4D2001, 0x7A4D2015, '2019-02-10 00:00:00') /* Tusker Guard (1629) */
+     , (0x7A4D2001, 0x7A4D2016, '2019-02-10 00:00:00') /* Tusker Shrine Statue (22641) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A4D2002, 24294, 0xA4D20019, 93.73093, 20.21091, 239.2604, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
@@ -102,22 +104,30 @@ VALUES (0x7A4D2014,  7084, 0xA4D20023, 110.5591, 69.54011, 257.6171, 0.9063078, 
 /* @teleloc 0xA4D20023 [110.559100 69.540110 257.617100] 0.906308 0.000000 0.000000 -0.422618 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A4D2015,  1542, 0xA4D20015, 59.64584, 98.2676, 255.0535, 0.8741965, 0, 0, -0.4855724, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7A4D2015,  1629, 0xA4D20022, 101.1998, 26.5808, 249.1015, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Guard */
+/* @teleloc 0xA4D20022 [101.199800 26.580800 249.101500] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A4D2016, 22641, 0xA4D20022, 96.52217, 30.26484, 249.1015, 0.9750303, 0, 0, -0.2220718,  True, '2019-02-10 00:00:00'); /* Tusker Shrine Statue */
+/* @teleloc 0xA4D20022 [96.522170 30.264840 249.101500] 0.975030 0.000000 0.000000 -0.222072 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A4D2017,  1542, 0xA4D20015, 59.64584, 98.2676, 255.0535, 0.8741965, 0, 0, -0.4855724, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xA4D20015 [59.645840 98.267600 255.053500] 0.874197 0.000000 0.000000 -0.485572 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A4D2015, 0x7A4D2016, '2019-02-10 00:00:00') /* Rock (42528) */
-     , (0x7A4D2015, 0x7A4D2017, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7A4D2015, 0x7A4D2018, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
+VALUES (0x7A4D2017, 0x7A4D2018, '2019-02-10 00:00:00') /* Rock (42528) */
+     , (0x7A4D2017, 0x7A4D2019, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7A4D2017, 0x7A4D201A, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A4D2016, 42528, 0xA4D20015, 59.64584, 98.2676, 255.0535, 0.8741965, 0, 0, -0.4855724,  True, '2019-02-10 00:00:00'); /* Rock */
+VALUES (0x7A4D2018, 42528, 0xA4D20015, 59.64584, 98.2676, 255.0535, 0.8741965, 0, 0, -0.4855724,  True, '2019-02-10 00:00:00'); /* Rock */
 /* @teleloc 0xA4D20015 [59.645840 98.267600 255.053500] 0.874197 0.000000 0.000000 -0.485572 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A4D2017,  4179, 0xA4D20015, 53.05247, 104.4369, 253.7934, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7A4D2019,  4179, 0xA4D20015, 53.05247, 104.4369, 253.7934, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xA4D20015 [53.052470 104.436900 253.793400] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A4D2018,  8389, 0xA4D2000D, 47.91833, 108.1026, 252.915, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */
+VALUES (0x7A4D201A,  8389, 0xA4D2000D, 47.91833, 108.1026, 252.915, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */
 /* @teleloc 0xA4D2000D [47.918330 108.102600 252.915000] 0.953717 0.000000 0.000000 -0.300706 */

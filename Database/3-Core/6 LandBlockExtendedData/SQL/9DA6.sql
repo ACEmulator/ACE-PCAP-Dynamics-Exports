@@ -33,7 +33,10 @@ VALUES (0x79DA6001, 0x79DA6002, '2019-02-10 00:00:00') /* Tusker Crimsonback (16
      , (0x79DA6001, 0x79DA601B, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x79DA6001, 0x79DA601C, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
      , (0x79DA6001, 0x79DA601D, '2019-02-10 00:00:00') /* Virulent Grievver (7979) */
-     , (0x79DA6001, 0x79DA601E, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */;
+     , (0x79DA6001, 0x79DA601E, '2019-02-10 00:00:00') /* Brutish Monouga (9251) */
+     , (0x79DA6001, 0x79DA601F, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */
+     , (0x79DA6001, 0x79DA6020, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x79DA6001, 0x79DA6021, '2019-02-10 00:00:00') /* Shadow Child (1756) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DA6002,  1627, 0x9DA60032, 154.6696, 42.2223, 69.04915, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
@@ -152,27 +155,39 @@ VALUES (0x79DA601E,  9251, 0x9DA60032, 144.4047, 40.32198, 68.71133, -0.2257072,
 /* @teleloc 0x9DA60032 [144.404700 40.321980 68.711330] -0.225707 0.000000 0.000000 -0.974195 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DA601F,  1542, 0x9DA60022, 110.0983, 32.54235, 71.07401, 0.9160995, 0, 0, -0.4009509, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79DA601F,   213, 0x9DA60033, 157.3717, 54.81631, 71.13605, -0.9682709, 0, 0, -0.249903,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
+/* @teleloc 0x9DA60033 [157.371700 54.816310 71.136050] -0.968271 0.000000 0.000000 -0.249903 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DA6020,  1758, 0x9DA60033, 161.1375, 53.14459, 70.86243, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0x9DA60033 [161.137500 53.144590 70.862430] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DA6021,  1756, 0x9DA60033, 160.756, 56.00368, 71.33645, 0.8870109, 0, 0, -0.4617486,  True, '2019-02-10 00:00:00'); /* Shadow Child */
+/* @teleloc 0x9DA60033 [160.756000 56.003680 71.336450] 0.887011 0.000000 0.000000 -0.461749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DA6022,  1542, 0x9DA60022, 110.0983, 32.54235, 71.07401, 0.9160995, 0, 0, -0.4009509, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9DA60022 [110.098300 32.542350 71.074010] 0.916100 0.000000 0.000000 -0.400951 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79DA601F, 0x79DA6020, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
-     , (0x79DA601F, 0x79DA6021, '2019-02-10 00:00:00') /* Pumpkin (8232) */
-     , (0x79DA601F, 0x79DA6022, '2019-02-10 00:00:00') /* Runed Chest (22570) */
-     , (0x79DA601F, 0x79DA6023, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
+VALUES (0x79DA6022, 0x79DA6023, '2019-02-10 00:00:00') /* Old Gravestone (34104) */
+     , (0x79DA6022, 0x79DA6024, '2019-02-10 00:00:00') /* Pumpkin (8232) */
+     , (0x79DA6022, 0x79DA6025, '2019-02-10 00:00:00') /* Runed Chest (22570) */
+     , (0x79DA6022, 0x79DA6026, '2019-02-10 00:00:00') /* Runed Chest (22570) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DA6020, 34104, 0x9DA60022, 110.0983, 32.54235, 71.07401, 0.9160995, 0, 0, -0.4009509,  True, '2019-02-10 00:00:00'); /* Old Gravestone */
+VALUES (0x79DA6023, 34104, 0x9DA60022, 110.0983, 32.54235, 71.07401, 0.9160995, 0, 0, -0.4009509,  True, '2019-02-10 00:00:00'); /* Old Gravestone */
 /* @teleloc 0x9DA60022 [110.098300 32.542350 71.074010] 0.916100 0.000000 0.000000 -0.400951 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DA6021,  8232, 0x9DA60022, 111.4713, 32.49585, 71.18608, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
+VALUES (0x79DA6024,  8232, 0x9DA60022, 111.4713, 32.49585, 71.18608, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Pumpkin */
 /* @teleloc 0x9DA60022 [111.471300 32.495850 71.186080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DA6022, 22570, 0x9DA60033, 165.375, 49.28022, 70.21337, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79DA6025, 22570, 0x9DA60033, 165.375, 49.28022, 70.21337, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x9DA60033 [165.375000 49.280220 70.213370] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79DA6023, 22570, 0x9DA60033, 159.3189, 71.28033, 73.88006, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79DA6026, 22570, 0x9DA60033, 159.3189, 71.28033, 73.88006, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x9DA60033 [159.318900 71.280330 73.880060] 1.000000 0.000000 0.000000 0.000000 */

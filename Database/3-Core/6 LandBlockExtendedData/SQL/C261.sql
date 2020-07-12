@@ -17,7 +17,9 @@ VALUES (0x7C261001, 0x7C261002, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
      , (0x7C261001, 0x7C26100B, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
      , (0x7C261001, 0x7C26100C, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
      , (0x7C261001, 0x7C26100D, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) */
-     , (0x7C261001, 0x7C26100E, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */;
+     , (0x7C261001, 0x7C26100E, '2019-02-10 00:00:00') /* Aste Sclavus (2584) */
+     , (0x7C261001, 0x7C26100F, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */
+     , (0x7C261001, 0x7C261010, '2019-02-10 00:00:00') /* Rank Moarsman (4246) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C261002,  2584, 0xC2610003, 18.65859, 63.53637, 5.9, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Aste Sclavus */
@@ -72,12 +74,20 @@ VALUES (0x7C26100E,  2584, 0xC2610031, 145.2387, 4.174126, 5.9, -0.9999989, 0, 0
 /* @teleloc 0xC2610031 [145.238700 4.174126 5.900000] -0.999999 0.000000 0.000000 -0.001490 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C26100F,  1542, 0xC2610029, 126.4733, 3.440137, 5.937, 0.8433914, 0, 0, -0.5372996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7C26100F,  4246, 0xC2610032, 151.5143, 33.24097, 5.9046, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
+/* @teleloc 0xC2610032 [151.514300 33.240970 5.904600] -0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C261010,  4246, 0xC2610032, 159.8982, 38.66598, 5.5546, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Rank Moarsman */
+/* @teleloc 0xC2610032 [159.898200 38.665980 5.554600] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C261011,  1542, 0xC2610029, 126.4733, 3.440137, 5.937, 0.8433914, 0, 0, -0.5372996, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xC2610029 [126.473300 3.440137 5.937000] 0.843391 0.000000 0.000000 -0.537300 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C26100F, 0x7C261010, '2019-02-10 00:00:00') /* The Floating City (8190) */;
+VALUES (0x7C261011, 0x7C261012, '2019-02-10 00:00:00') /* The Floating City (8190) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C261010,  8190, 0xC2610029, 126.4733, 3.440137, 5.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */
+VALUES (0x7C261012,  8190, 0xC2610029, 126.4733, 3.440137, 5.937, 0.8433914, 0, 0, -0.5372996,  True, '2019-02-10 00:00:00'); /* The Floating City */
 /* @teleloc 0xC2610029 [126.473300 3.440137 5.937000] 0.843391 0.000000 0.000000 -0.537300 */

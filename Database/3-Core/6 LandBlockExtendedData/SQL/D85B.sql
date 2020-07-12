@@ -39,7 +39,10 @@ VALUES (0x7D85B001, 0x7D85B002, '2019-02-10 00:00:00') /* Drudge Prowler (192) *
      , (0x7D85B001, 0x7D85B021, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7D85B001, 0x7D85B022, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
      , (0x7D85B001, 0x7D85B023, '2019-02-10 00:00:00') /* Blood Shreth (4110) */
-     , (0x7D85B001, 0x7D85B024, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
+     , (0x7D85B001, 0x7D85B024, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D85B001, 0x7D85B025, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B026, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D85B001, 0x7D85B027, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D85B002,   192, 0xD85B0029, 137.0025, 19.50725, 7.169748, 0.3270621, 0, 0, -0.9450029,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
@@ -180,3 +183,15 @@ VALUES (0x7D85B023,  4110, 0xD85B001A, 76.74506, 30.72106, 9.985001, -0.6053375,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D85B024,   223, 0xD85B001A, 79.48721, 41.8776, 9.773532, -0.4181886, 0, 0, -0.9083602,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
 /* @teleloc 0xD85B001A [79.487210 41.877600 9.773532] -0.418189 0.000000 0.000000 -0.908360 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D85B025,  1759, 0xD85B0006, 7.036134, 127.5396, 5.9025, -0.4184667, 0, 0, -0.9082322,  True, '2019-02-10 00:00:00'); /* Skeleton */
+/* @teleloc 0xD85B0006 [7.036134 127.539600 5.902500] -0.418467 0.000000 0.000000 -0.908232 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D85B026,  1759, 0xD85B000D, 30.77245, 112.0223, 5.5525, -0.9999877, 0, 0, -0.004963767,  True, '2019-02-10 00:00:00'); /* Skeleton */
+/* @teleloc 0xD85B000D [30.772450 112.022300 5.552500] -0.999988 0.000000 0.000000 -0.004964 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D85B027,  4109, 0xD85B0038, 161.7188, 185.2631, 5.096, -0.3852872, 0, 0, -0.9227967,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
+/* @teleloc 0xD85B0038 [161.718800 185.263100 5.096000] -0.385287 0.000000 0.000000 -0.922797 */

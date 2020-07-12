@@ -17,7 +17,8 @@ VALUES (0x73366001, 0x73366002, '2019-02-10 00:00:00') /* Olthoi Warrior (23482)
      , (0x73366001, 0x7336600B, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
      , (0x73366001, 0x7336600C, '2019-02-10 00:00:00') /* Gold Golem (36832) */
      , (0x73366001, 0x7336600D, '2019-02-10 00:00:00') /* Gold Golem (36832) */
-     , (0x73366001, 0x7336600E, '2019-02-10 00:00:00') /* Gold Golem (36832) */;
+     , (0x73366001, 0x7336600E, '2019-02-10 00:00:00') /* Gold Golem (36832) */
+     , (0x73366001, 0x7336600F, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73366002, 23482, 0x33660027, 119.7341, 156.3517, 119.0658, 0.6851456, 0, 0, -0.7284061,  True, '2019-02-10 00:00:00'); /* Olthoi Warrior */
@@ -70,3 +71,7 @@ VALUES (0x7336600D, 36832, 0x3366001D, 79.93651, 113.4128, 107.0246, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7336600E, 36832, 0x3366001D, 76.54301, 111.0709, 106.1563, 0.9659258, 0, 0, -0.258819,  True, '2019-02-10 00:00:00'); /* Gold Golem */
 /* @teleloc 0x3366001D [76.543010 111.070900 106.156300] 0.965926 0.000000 0.000000 -0.258819 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7336600F,  7081, 0x33660031, 157.8128, 16.1403, 81.69273, 0.9063078, 0, 0, -0.4226183,  True, '2019-02-10 00:00:00'); /* Plate Armoredillo */
+/* @teleloc 0x33660031 [157.812800 16.140300 81.692730] 0.906308 0.000000 0.000000 -0.422618 */

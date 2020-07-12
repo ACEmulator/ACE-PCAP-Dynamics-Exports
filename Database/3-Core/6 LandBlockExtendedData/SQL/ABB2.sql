@@ -66,7 +66,10 @@ VALUES (0x7ABB2001, 0x7ABB2002, '2019-02-10 00:00:00') /* Drudge Skulker (19257)
      , (0x7ABB2001, 0x7ABB2038, '2019-02-10 00:00:00') /* Drudge Skulker (19257) */
      , (0x7ABB2001, 0x7ABB2039, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
      , (0x7ABB2001, 0x7ABB203A, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
-     , (0x7ABB2001, 0x7ABB203B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */;
+     , (0x7ABB2001, 0x7ABB203B, '2019-02-10 00:00:00') /* Drudge Slinker (19258) */
+     , (0x7ABB2001, 0x7ABB203C, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */
+     , (0x7ABB2001, 0x7ABB203D, '2019-02-10 00:00:00') /* Mite Snippet (19260) */
+     , (0x7ABB2001, 0x7ABB203E, '2019-02-10 00:00:00') /* Gnawer Shreth (19263) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB2002, 19257, 0xABB20031, 150.0135, 5.527345, 73.49768, -0.9085575, 0, 0, -0.4177598,  True, '2019-02-10 00:00:00'); /* Drudge Skulker */
@@ -299,3 +302,15 @@ VALUES (0x7ABB203A, 19260, 0xABB20031, 150.8012, 5.335828, 73.17066, -0.9085575,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7ABB203B, 19258, 0xABB20031, 149.5702, 4.424056, 73.6824, -0.9085575, 0, 0, -0.4177598,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
 /* @teleloc 0xABB20031 [149.570200 4.424056 73.682400] -0.908558 0.000000 0.000000 -0.417760 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABB203C, 19263, 0xABB20007, 5.99338, 150.0653, 102.9921, -0.06439951, 0, 0, -0.9979242,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0xABB20007 [5.993380 150.065300 102.992100] -0.064400 0.000000 0.000000 -0.997924 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABB203D, 19260, 0xABB20015, 65.82842, 102.8239, 95.0331, -0.995876, 0, 0, -0.09072486,  True, '2019-02-10 00:00:00'); /* Mite Snippet */
+/* @teleloc 0xABB20015 [65.828420 102.823900 95.033100] -0.995876 0.000000 0.000000 -0.090725 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7ABB203E, 19263, 0xABB20017, 64.89396, 159.903, 91.12301, -0.9262768, 0, 0, -0.3768438,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
+/* @teleloc 0xABB20017 [64.893960 159.903000 91.123010] -0.926277 0.000000 0.000000 -0.376844 */

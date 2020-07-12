@@ -15,7 +15,9 @@ VALUES (0x7918E001, 0x7918E002, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x7918E001, 0x7918E009, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x7918E001, 0x7918E00A, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
      , (0x7918E001, 0x7918E00B, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
-     , (0x7918E001, 0x7918E00C, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */;
+     , (0x7918E001, 0x7918E00C, '2019-02-10 00:00:00') /* Ursuin Slasher (19439) */
+     , (0x7918E001, 0x7918E00D, '2019-02-10 00:00:00') /* Tumerok Officer (229) */
+     , (0x7918E001, 0x7918E00E, '2019-02-10 00:00:00') /* Shadow (1758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7918E002,  1758, 0x918E002D, 129.1875, 118.555, 29.11895, 0.9992029, 0, 0, -0.03991918,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -60,3 +62,11 @@ VALUES (0x7918E00B, 19439, 0x918E0010, 33.43452, 176.0399, 31.21639, 0.9961011, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7918E00C, 19439, 0x918E002E, 129.7787, 120.6182, 29.18771, 0.9992029, 0, 0, -0.03991918,  True, '2019-02-10 00:00:00'); /* Ursuin Slasher */
 /* @teleloc 0x918E002E [129.778700 120.618200 29.187710] 0.999203 0.000000 0.000000 -0.039919 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7918E00D,   229, 0x918E002E, 129.5291, 130.6802, 29.21141, 0.9992029, 0, 0, -0.03991918,  True, '2019-02-10 00:00:00'); /* Tumerok Officer */
+/* @teleloc 0x918E002E [129.529100 130.680200 29.211410] 0.999203 0.000000 0.000000 -0.039919 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7918E00E,  1758, 0x918E0035, 162.4485, 115.1096, 26.46762, 0.9992029, 0, 0, -0.03991918,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0x918E0035 [162.448500 115.109600 26.467620] 0.999203 0.000000 0.000000 -0.039919 */

@@ -41,7 +41,11 @@ VALUES (0x722E4001, 0x722E4002, '2019-02-10 00:00:00') /* Portobello Thrungus (2
      , (0x722E4001, 0x722E4023, '2019-02-10 00:00:00') /* Frost (14517) */
      , (0x722E4001, 0x722E4024, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
      , (0x722E4001, 0x722E4025, '2019-02-10 00:00:00') /* Mite Emissary (29354) */
-     , (0x722E4001, 0x722E4026, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */;
+     , (0x722E4001, 0x722E4026, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */
+     , (0x722E4001, 0x722E4027, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x722E4001, 0x722E4028, '2019-02-10 00:00:00') /* Ruschk Slayer (28666) */
+     , (0x722E4001, 0x722E4029, '2019-02-10 00:00:00') /* Deathcap Thrungus (28673) */
+     , (0x722E4001, 0x722E402A, '2019-02-10 00:00:00') /* Damaged Glacial Golem (29356) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E4002, 28675, 0x22E4003F, 184.1673, 147.9574, 93.35411, -0.9994327, 0, 0, -0.03367851,  True, '2019-02-10 00:00:00'); /* Portobello Thrungus */
@@ -190,3 +194,19 @@ VALUES (0x722E4025, 29354, 0x22E40029, 132.2926, 15.9166, 92.84337, -0.9956266, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x722E4026,  9255, 0x22E4001E, 94.23708, 124.6752, 114.8812, -0.5866883, 0, 0, -0.8098128,  True, '2019-02-10 00:00:00'); /* Dread Mu-miyah */
 /* @teleloc 0x22E4001E [94.237080 124.675200 114.881200] -0.586688 0.000000 0.000000 -0.809813 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722E4027, 22208, 0x22E40029, 130.8188, 10.93402, 90.96169, -0.9956266, 0, 0, -0.09342179,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
+/* @teleloc 0x22E40029 [130.818800 10.934020 90.961690] -0.995627 0.000000 0.000000 -0.093422 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722E4028, 28666, 0x22E4002A, 132.8287, 41.72986, 101.9513, 0.0774937, 0, 0, -0.9969928,  True, '2019-02-10 00:00:00'); /* Ruschk Slayer */
+/* @teleloc 0x22E4002A [132.828700 41.729860 101.951300] 0.077494 0.000000 0.000000 -0.996993 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722E4029, 28673, 0x22E40033, 155.9337, 66.43726, 106.9076, -0.2143847, 0, 0, -0.9767493,  True, '2019-02-10 00:00:00'); /* Deathcap Thrungus */
+/* @teleloc 0x22E40033 [155.933700 66.437260 106.907600] -0.214385 0.000000 0.000000 -0.976749 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x722E402A, 29356, 0x22E4003A, 176.5186, 47.74467, 96.11291, 0.6385104, 0, 0, -0.7696131,  True, '2019-02-10 00:00:00'); /* Damaged Glacial Golem */
+/* @teleloc 0x22E4003A [176.518600 47.744670 96.112910] 0.638510 0.000000 0.000000 -0.769613 */

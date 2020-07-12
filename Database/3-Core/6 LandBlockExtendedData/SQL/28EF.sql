@@ -37,7 +37,8 @@ VALUES (0x728EF001, 0x728EF002, '2019-02-10 00:00:00') /* Fleshless Warrior (896
      , (0x728EF001, 0x728EF01F, '2019-02-10 00:00:00') /* Sparkling Dual Fragment (28551) */
      , (0x728EF001, 0x728EF020, '2019-02-10 00:00:00') /* Nubilous Golem (23082) */
      , (0x728EF001, 0x728EF021, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */
-     , (0x728EF001, 0x728EF022, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
+     , (0x728EF001, 0x728EF022, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x728EF001, 0x728EF023, '2019-02-10 00:00:00') /* Dread Mu-miyah (9255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728EF002,  8968, 0x28EF0031, 157.9928, 11.61495, 43.93833, 0.100743, 0, 0, -0.9949125,  True, '2019-02-10 00:00:00'); /* Fleshless Warrior */
@@ -170,3 +171,7 @@ VALUES (0x728EF021,  7085, 0x28EF0006, 3.509812, 139.31, 6.105496, 0.9940551, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x728EF022,  1610, 0x28EF001A, 76.80572, 40.07421, 36.14502, -0.4811267, 0, 0, -0.8766511,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
 /* @teleloc 0x28EF001A [76.805720 40.074210 36.145020] -0.481127 0.000000 0.000000 -0.876651 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x728EF023,  9255, 0x28EF0029, 139.6226, 7.950469, 41.99387, 0.100743, 0, 0, -0.9949125,  True, '2019-02-10 00:00:00'); /* Dread Mu-miyah */
+/* @teleloc 0x28EF0029 [139.622600 7.950469 41.993870] 0.100743 0.000000 0.000000 -0.994913 */

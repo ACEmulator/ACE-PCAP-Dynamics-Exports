@@ -15,7 +15,8 @@ VALUES (0x7E354001, 0x7E354002, '2019-02-10 00:00:00') /* Jade Gromnie (1614) */
      , (0x7E354001, 0x7E354009, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x7E354001, 0x7E35400A, '2019-02-10 00:00:00') /* Tiofor Ursuin (7991) */
      , (0x7E354001, 0x7E35400B, '2019-02-10 00:00:00') /* Adult Reedshark (221) */
-     , (0x7E354001, 0x7E35400C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */;
+     , (0x7E354001, 0x7E35400C, '2019-02-10 00:00:00') /* Auroch Yearling (182) */
+     , (0x7E354001, 0x7E35400D, '2019-02-10 00:00:00') /* Auroch Bull (20) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E354002,  1614, 0xE354003E, 183.3793, 141.9903, 6.555414, 0.9817566, 0, 0, -0.1901423,  True, '2019-02-10 00:00:00'); /* Jade Gromnie */
@@ -60,3 +61,7 @@ VALUES (0x7E35400B,   221, 0xE354003D, 175.2235, 116.9757, 6.0014, 0.9817566, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E35400C,   182, 0xE3540034, 159.674, 73.4891, 6.00765, -0.7928741, 0, 0, -0.6093854,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
 /* @teleloc 0xE3540034 [159.674000 73.489100 6.007650] -0.792874 0.000000 0.000000 -0.609385 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E35400D,    20, 0xE354003E, 173.1953, 137.3201, 7.019745, 0.9817566, 0, 0, -0.1901423,  True, '2019-02-10 00:00:00'); /* Auroch Bull */
+/* @teleloc 0xE354003E [173.195300 137.320100 7.019745] 0.981757 0.000000 0.000000 -0.190142 */

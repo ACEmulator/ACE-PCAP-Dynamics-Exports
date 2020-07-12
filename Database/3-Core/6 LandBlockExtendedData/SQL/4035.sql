@@ -24,7 +24,9 @@ VALUES (0x74035001, 0x74035002, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) 
      , (0x74035001, 0x74035012, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
      , (0x74035001, 0x74035013, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
      , (0x74035001, 0x74035014, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
-     , (0x74035001, 0x74035015, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */;
+     , (0x74035001, 0x74035015, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
+     , (0x74035001, 0x74035016, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x74035001, 0x74035017, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74035002,  8431, 0x4035003E, 175.6612, 142.4519, 7.846688, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
@@ -107,12 +109,20 @@ VALUES (0x74035015, 36856, 0x40350036, 166.0224, 127.9268, 7.707529, -4.371139E-
 /* @teleloc 0x40350036 [166.022400 127.926800 7.707529] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74035016,  1542, 0x40350036, 148.325, 126.2919, 7.967421, -0.7149327, 0, 0, -0.6991933, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x74035016,  8431, 0x4035002B, 133.3969, 53.14564, 17.73685, -0.4584932, 0, 0, -0.8886979,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x4035002B [133.396900 53.145640 17.736850] -0.458493 0.000000 0.000000 -0.888698 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74035017, 10807, 0x40350036, 160.4949, 133.2377, 6.089072, -0.7149327, 0, 0, -0.6991933,  True, '2019-02-10 00:00:00'); /* Augmented Tumerok */
+/* @teleloc 0x40350036 [160.494900 133.237700 6.089072] -0.714933 0.000000 0.000000 -0.699193 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74035018,  1542, 0x40350036, 148.325, 126.2919, 7.967421, -0.7149327, 0, 0, -0.6991933, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x40350036 [148.325000 126.291900 7.967421] -0.714933 0.000000 0.000000 -0.699193 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74035016, 0x74035017, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
+VALUES (0x74035018, 0x74035019, '2019-02-10 00:00:00') /* Relanim Plant (11555) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74035017, 11555, 0x40350036, 148.325, 126.2919, 7.967421, -0.7149327, 0, 0, -0.6991933,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
+VALUES (0x74035019, 11555, 0x40350036, 148.325, 126.2919, 7.967421, -0.7149327, 0, 0, -0.6991933,  True, '2019-02-10 00:00:00'); /* Relanim Plant */
 /* @teleloc 0x40350036 [148.325000 126.291900 7.967421] -0.714933 0.000000 0.000000 -0.699193 */

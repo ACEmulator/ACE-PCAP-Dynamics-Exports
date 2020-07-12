@@ -16,7 +16,9 @@ VALUES (0x7370A001, 0x7370A002, '2019-02-10 00:00:00') /* Corrupted Coral Golem 
      , (0x7370A001, 0x7370A00A, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
      , (0x7370A001, 0x7370A00B, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
      , (0x7370A001, 0x7370A00C, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
-     , (0x7370A001, 0x7370A00D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */;
+     , (0x7370A001, 0x7370A00D, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x7370A001, 0x7370A00E, '2019-02-10 00:00:00') /* Great Devourer (40470) */
+     , (0x7370A001, 0x7370A00F, '2019-02-10 00:00:00') /* Great Devourer (40470) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7370A002, 40466, 0x370A0033, 162.1037, 66.27998, -0.439, -0.5714096, 0, 0, -0.8206651,  True, '2019-02-10 00:00:00'); /* Corrupted Coral Golem */
@@ -65,3 +67,11 @@ VALUES (0x7370A00C, 38830, 0x370A0014, 69.24561, 73.03893, -0.916, 0.9467553, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7370A00D, 38830, 0x370A0013, 65.75349, 71.46023, -0.916, 0.9467553, 0, 0, -0.3219541,  True, '2019-02-10 00:00:00'); /* Tendril of T'thuun */
 /* @teleloc 0x370A0013 [65.753490 71.460230 -0.916000] 0.946755 0.000000 0.000000 -0.321954 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7370A00E, 40470, 0x370A0028, 102.1073, 173.4002, -0.8988001, -0.2927505, 0, 0, -0.9561889,  True, '2019-02-10 00:00:00'); /* Great Devourer */
+/* @teleloc 0x370A0028 [102.107300 173.400200 -0.898800] -0.292751 0.000000 0.000000 -0.956189 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7370A00F, 40470, 0x370A0033, 161.4312, 65.76883, -0.4488, -0.5714096, 0, 0, -0.8206651,  True, '2019-02-10 00:00:00'); /* Great Devourer */
+/* @teleloc 0x370A0033 [161.431200 65.768830 -0.448800] -0.571410 0.000000 0.000000 -0.820665 */

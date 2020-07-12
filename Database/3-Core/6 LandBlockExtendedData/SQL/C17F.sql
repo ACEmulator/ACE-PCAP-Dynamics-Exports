@@ -132,7 +132,9 @@ VALUES (0x7C17F016, 0x7C17F017, '2019-02-10 00:00:00') /* Simi (345) */
      , (0x7C17F016, 0x7C17F028, '2019-02-10 00:00:00') /* Yaoji (361) */
      , (0x7C17F016, 0x7C17F029, '2019-02-10 00:00:00') /* Simi (345) */
      , (0x7C17F016, 0x7C17F02A, '2019-02-10 00:00:00') /* Cabbage (260) */
-     , (0x7C17F016, 0x7C17F02B, '2019-02-10 00:00:00') /* Simi (345) */;
+     , (0x7C17F016, 0x7C17F02B, '2019-02-10 00:00:00') /* Simi (345) */
+     , (0x7C17F016, 0x7C17F02C, '2019-02-10 00:00:00') /* Simi (345) */
+     , (0x7C17F016, 0x7C17F02D, '2019-02-10 00:00:00') /* Yaoji (361) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C17F017,   345, 0xC17F0102, 32.68492, 105.4881, 29.45, 0.707721, 0, 0, 0.706492,  True, '2019-02-10 00:00:00'); /* Simi */
@@ -217,3 +219,11 @@ VALUES (0x7C17F02A,   260, 0xC17F000E, 37.04839, 127.5648, 26.6304, 0.360697, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C17F02B,   345, 0xC17F0102, 32.26387, 109.044, 29.45, 0.707721, 0, 0, 0.706492,  True, '2019-02-10 00:00:00'); /* Simi */
 /* @teleloc 0xC17F0102 [32.263870 109.044000 29.450000] 0.707721 0.000000 0.000000 0.706492 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C17F02C,   345, 0xC17F0100, 34.5951, 108.9979, 26.05, 0.707721, 0, 0, 0.706492,  True, '2019-02-10 00:00:00'); /* Simi */
+/* @teleloc 0xC17F0100 [34.595100 108.997900 26.050000] 0.707721 0.000000 0.000000 0.706492 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C17F02D,   361, 0xC17F0102, 34.30778, 108.0012, 29.4275, 0.707721, 0, 0, 0.706492,  True, '2019-02-10 00:00:00'); /* Yaoji */
+/* @teleloc 0xC17F0102 [34.307780 108.001200 29.427500] 0.707721 0.000000 0.000000 0.706492 */

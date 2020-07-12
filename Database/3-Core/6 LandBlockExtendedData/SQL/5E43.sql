@@ -125,7 +125,9 @@ VALUES (0x75E43028, 0x75E43029, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x75E43028, 0x75E43035, '2019-02-10 00:00:00') /* Bunch of Nanners (22578) */
      , (0x75E43028, 0x75E43036, '2019-02-10 00:00:00') /* Lightning Claw (31786) */
      , (0x75E43028, 0x75E43037, '2019-02-10 00:00:00') /* Excellent Healing Kit (631) */
-     , (0x75E43028, 0x75E43038, '2019-02-10 00:00:00') /* Frost Lancet (31793) */;
+     , (0x75E43028, 0x75E43038, '2019-02-10 00:00:00') /* Frost Lancet (31793) */
+     , (0x75E43028, 0x75E43039, '2019-02-10 00:00:00') /* Bunch of Nanners (22578) */
+     , (0x75E43028, 0x75E4303A, '2019-02-10 00:00:00') /* Baggy Shirt (2590) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E43029,  1955, 0x5E430103, 19.9864, -9.242, -0.06299996, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Gateway */
@@ -190,3 +192,11 @@ VALUES (0x75E43037,   631, 0x5E430105, 22.47379, -26.07966, 0.0315, -0.4894817, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75E43038, 31793, 0x5E430105, 22.47379, -26.07966, 0.03675008, -0.4894817, 0, 0, -0.8720136,  True, '2019-02-10 00:00:00'); /* Frost Lancet */
 /* @teleloc 0x5E430105 [22.473790 -26.079660 0.036750] -0.489482 0.000000 0.000000 -0.872014 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75E43039, 22578, 0x5E430108, 26.04147, -32.96801, 0.024, 0.6694325, 0, 0, -0.7428729,  True, '2019-02-10 00:00:00'); /* Bunch of Nanners */
+/* @teleloc 0x5E430108 [26.041470 -32.968010 0.024000] 0.669433 0.000000 0.000000 -0.742873 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75E4303A,  2590, 0x5E430108, 26.04147, -32.96801, -0.004999995, 0.6694325, 0, 0, -0.7428729,  True, '2019-02-10 00:00:00'); /* Baggy Shirt */
+/* @teleloc 0x5E430108 [26.041470 -32.968010 -0.005000] 0.669433 0.000000 0.000000 -0.742873 */

@@ -268,7 +268,8 @@ VALUES (0x702D1051, 0x702D1052, '2019-02-10 00:00:00') /* Cheese (261) */
      , (0x702D1051, 0x702D1056, '2019-02-10 00:00:00') /* Sho Roadside (1907) */
      , (0x702D1051, 0x702D1057, '2019-02-10 00:00:00') /* Plateau Portal (42812) */
      , (0x702D1051, 0x702D1058, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */
-     , (0x702D1051, 0x702D1059, '2019-02-10 00:00:00') /* Eastham Portal (42815) */;
+     , (0x702D1051, 0x702D1059, '2019-02-10 00:00:00') /* Eastham Portal (42815) */
+     , (0x702D1051, 0x702D105A, '2019-02-10 00:00:00') /* Baishi Portal (42845) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D1052,   261, 0x02D10230, 56.81808, -68.59554, 6.024, -0.282977, 0, 0, -0.959127,  True, '2019-02-10 00:00:00'); /* Cheese */
@@ -301,3 +302,7 @@ VALUES (0x702D1058, 42831, 0x02D101F8, 88.888, -18.186, -0.06299996, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D1059, 42815, 0x02D10134, 90.078, -39.711, -24.063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Eastham Portal */
 /* @teleloc 0x02D10134 [90.078000 -39.711000 -24.063000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702D105A, 42845, 0x02D101F8, 88.888, -18.186, -0.06299996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Baishi Portal */
+/* @teleloc 0x02D101F8 [88.888000 -18.186000 -0.063000] 1.000000 0.000000 0.000000 0.000000 */

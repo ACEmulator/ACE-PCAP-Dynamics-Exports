@@ -12,7 +12,10 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x72DAF008, 0x72DAF009, '2019-02-10 00:00:00') /* Water Golem (31875) */
      , (0x72DAF008, 0x72DAF00A, '2019-02-10 00:00:00') /* Water Golem (31875) */
      , (0x72DAF008, 0x72DAF00B, '2019-02-10 00:00:00') /* Water Golem (31875) */
-     , (0x72DAF008, 0x72DAF00C, '2019-02-10 00:00:00') /* Water Golem (31875) */;
+     , (0x72DAF008, 0x72DAF00C, '2019-02-10 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00D, '2019-02-10 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00E, '2019-02-10 00:00:00') /* Water Golem (31875) */
+     , (0x72DAF008, 0x72DAF00F, '2019-02-10 00:00:00') /* Water Golem (31875) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72DAF009, 31875, 0x2DAF0018, 51.3585, 190.145, -0.438, 0.726705, 0, 0, -0.68695,  True, '2019-02-10 00:00:00'); /* Water Golem */
@@ -31,12 +34,24 @@ VALUES (0x72DAF00C, 31875, 0x2DAF0029, 129.011, 6.58252, 19.10909, 0.900961, 0, 
 /* @teleloc 0x2DAF0029 [129.011000 6.582520 19.109090] 0.900961 0.000000 0.000000 0.433900 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72DAF00D,  1154, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x72DAF00D, 31875, 0x2DAF0035, 166.537, 112.866, 22.012, 0.444131, 0, 0, 0.895962,  True, '2019-02-10 00:00:00'); /* Water Golem */
+/* @teleloc 0x2DAF0035 [166.537000 112.866000 22.012000] 0.444131 0.000000 0.000000 0.895962 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72DAF00E, 31875, 0x2DAF0040, 179.724, 186.671, -0.438, 0.724419, 0, 0, -0.68936,  True, '2019-02-10 00:00:00'); /* Water Golem */
+/* @teleloc 0x2DAF0040 [179.724000 186.671000 -0.438000] 0.724419 0.000000 0.000000 -0.689360 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72DAF00F, 31875, 0x2DAF0033, 164.726, 50.7205, 22.55766, -0.472072, 0, 0, 0.88156,  True, '2019-02-10 00:00:00'); /* Water Golem */
+/* @teleloc 0x2DAF0033 [164.726000 50.720500 22.557660] -0.472072 0.000000 0.000000 0.881560 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72DAF010,  1154, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0x2DAF000E [46.181400 121.790000 48.002500] 0.940087 0.000000 0.000000 0.340934 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72DAF00D, 0x72DAF00E, '2019-02-10 00:00:00') /* Flame Guardian (31972) */;
+VALUES (0x72DAF010, 0x72DAF011, '2019-02-10 00:00:00') /* Flame Guardian (31972) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72DAF00E, 31972, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934,  True, '2019-02-10 00:00:00'); /* Flame Guardian */
+VALUES (0x72DAF011, 31972, 0x2DAF000E, 46.1814, 121.79, 48.0025, 0.940087, 0, 0, 0.340934,  True, '2019-02-10 00:00:00'); /* Flame Guardian */
 /* @teleloc 0x2DAF000E [46.181400 121.790000 48.002500] 0.940087 0.000000 0.000000 0.340934 */

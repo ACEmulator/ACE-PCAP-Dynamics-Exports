@@ -25,7 +25,17 @@ VALUES (0x79C25001, 0x79C25002, '2019-02-10 00:00:00') /* Dark Leech (7123) */
      , (0x79C25001, 0x79C25013, '2019-02-10 00:00:00') /* Obsidian Golem (201) */
      , (0x79C25001, 0x79C25014, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
      , (0x79C25001, 0x79C25015, '2019-02-10 00:00:00') /* Skeleton Bone Knight (7334) */
-     , (0x79C25001, 0x79C25016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */;
+     , (0x79C25001, 0x79C25016, '2019-02-10 00:00:00') /* Skeleton Bone Lord (7121) */
+     , (0x79C25001, 0x79C25017, '2019-02-10 00:00:00') /* Acolyte of Storms (34296) */
+     , (0x79C25001, 0x79C25018, '2019-02-10 00:00:00') /* Acolyte of Wind (34297) */
+     , (0x79C25001, 0x79C25019, '2019-02-10 00:00:00') /* Acolyte of Breath (34561) */
+     , (0x79C25001, 0x79C2501A, '2019-02-10 00:00:00') /* Dual Fragment (6041) */
+     , (0x79C25001, 0x79C2501B, '2019-02-10 00:00:00') /* Dark Magus (7124) */
+     , (0x79C25001, 0x79C2501C, '2019-02-10 00:00:00') /* Relic Bones (7179) */
+     , (0x79C25001, 0x79C2501D, '2019-02-10 00:00:00') /* Fire Wisp (5748) */
+     , (0x79C25001, 0x79C2501E, '2019-02-10 00:00:00') /* Master of Breath (34562) */
+     , (0x79C25001, 0x79C2501F, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */
+     , (0x79C25001, 0x79C25020, '2019-02-10 00:00:00') /* Acolyte of Breath (34295) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79C25002,  7123, 0x9C25000E, 45.71032, 134.8973, 113.8658, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Dark Leech */
@@ -112,17 +122,62 @@ VALUES (0x79C25016,  7121, 0x9C250016, 66.35007, 137.293, 113.4722, 0.7071068, 0
 /* @teleloc 0x9C250016 [66.350070 137.293000 113.472200] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79C25017,  1542, 0x9C250011, 65.72943, 16.75711, 100.5134, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79C25017, 34296, 0x9C250006, 20.68431, 127.3587, 102.7394, -0.2305307, 0, 0, -0.9730651,  True, '2019-02-10 00:00:00'); /* Acolyte of Storms */
+/* @teleloc 0x9C250006 [20.684310 127.358700 102.739400] -0.230531 0.000000 0.000000 -0.973065 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C25018, 34297, 0x9C250005, 9.165706, 108.0749, 94.55135, -0.2305307, 0, 0, -0.9730651,  True, '2019-02-10 00:00:00'); /* Acolyte of Wind */
+/* @teleloc 0x9C250005 [9.165706 108.074900 94.551350] -0.230531 0.000000 0.000000 -0.973065 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C25019, 34561, 0x9C250005, 16.53767, 111.296, 97.23809, -0.2305307, 0, 0, -0.9730651,  True, '2019-02-10 00:00:00'); /* Acolyte of Breath */
+/* @teleloc 0x9C250005 [16.537670 111.296000 97.238090] -0.230531 0.000000 0.000000 -0.973065 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C2501A,  6041, 0x9C250016, 58.8241, 127.7907, 110.0045, -0.09360945, 0, 0, -0.995609,  True, '2019-02-10 00:00:00'); /* Dual Fragment */
+/* @teleloc 0x9C250016 [58.824100 127.790700 110.004500] -0.093609 0.000000 0.000000 -0.995609 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C2501B,  7124, 0x9C250009, 43.4446, 16.33718, 93.12761, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Magus */
+/* @teleloc 0x9C250009 [43.444600 16.337180 93.127610] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C2501C,  7179, 0x9C25001A, 73.39214, 44.8549, 102.5826, 0.1972667, 0, 0, -0.9803498,  True, '2019-02-10 00:00:00'); /* Relic Bones */
+/* @teleloc 0x9C25001A [73.392140 44.854900 102.582600] 0.197267 0.000000 0.000000 -0.980350 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C2501D,  5748, 0x9C25001E, 95.41388, 123.1792, 116.6971, -0.8338647, 0, 0, -0.5519689,  True, '2019-02-10 00:00:00'); /* Fire Wisp */
+/* @teleloc 0x9C25001E [95.413880 123.179200 116.697100] -0.833865 0.000000 0.000000 -0.551969 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C2501E, 34562, 0x9C250005, 10.41855, 109.7312, 95.18669, -0.7368762, 0, 0, -0.6760278,  True, '2019-02-10 00:00:00'); /* Master of Breath */
+/* @teleloc 0x9C250005 [10.418550 109.731200 95.186690] -0.736876 0.000000 0.000000 -0.676028 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C2501F, 34295, 0x9C250005, 0.8157873, 103.241, 94.30693, -0.7368762, 0, 0, -0.6760278,  True, '2019-02-10 00:00:00'); /* Acolyte of Breath */
+/* @teleloc 0x9C250005 [0.815787 103.241000 94.306930] -0.736876 0.000000 0.000000 -0.676028 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C25020, 34295, 0x9C250005, 5.405173, 108.5811, 97.21143, -0.7368762, 0, 0, -0.6760278,  True, '2019-02-10 00:00:00'); /* Acolyte of Breath */
+/* @teleloc 0x9C250005 [5.405173 108.581100 97.211430] -0.736876 0.000000 0.000000 -0.676028 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C25021,  1542, 0x9C250011, 65.72943, 16.75711, 100.5134, 0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9C250011 [65.729430 16.757110 100.513400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79C25017, 0x79C25018, '2019-02-10 00:00:00') /* Corpse (4180) */
-     , (0x79C25017, 0x79C25019, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */;
+VALUES (0x79C25021, 0x79C25022, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79C25021, 0x79C25023, '2019-02-10 00:00:00') /* Direlands North Landbridge Portal (8389) */
+     , (0x79C25021, 0x79C25024, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79C25018,  4180, 0x9C250011, 65.72943, 16.75711, 100.5134, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x79C25022,  4180, 0x9C250011, 65.72943, 16.75711, 100.5134, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x9C250011 [65.729430 16.757110 100.513400] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79C25019,  8389, 0x9C250005, 13.18743, 116.1424, 97.94798, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */
+VALUES (0x79C25023,  8389, 0x9C250005, 13.18743, 116.1424, 97.94798, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Direlands North Landbridge Portal */
 /* @teleloc 0x9C250005 [13.187430 116.142400 97.947980] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79C25024,  4180, 0x9C250009, 43.39789, 18.07255, 92.95992, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+/* @teleloc 0x9C250009 [43.397890 18.072550 92.959920] 0.923880 0.000000 0.000000 -0.382684 */

@@ -13,13 +13,19 @@ VALUES (40930,   1,        512) /* ItemType - Container */
      , (40930,  93,       1048) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40930,   1, True ) /* Stuck */;
+VALUES (40930,   1, True ) /* Stuck */
+     , (40930,   2, False) /* Open */
+     , (40930,   3, True ) /* Locked */
+     , (40930,  34, False) /* DefaultOpen */
+     , (40930,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40930,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (40930,   1, 'Lady of Aerlinthe''s Embossed Chest') /* Name */;
+VALUES (40930,   1, 'Lady of Aerlinthe''s Embossed Chest') /* Name */
+     , (40930,  14, 'Use this item to open it and see its contents.') /* Use */
+     , (40930,  16, 'A beautifully detailed chest made of ebony wood and polished, embossed gold. The entirety of the chest is inscribed with Dericostian runes. There is a suspicious glow near the lock.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (40930,   1,   33558394) /* Setup */

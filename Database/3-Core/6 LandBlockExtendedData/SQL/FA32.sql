@@ -35,7 +35,18 @@ VALUES (0x7FA32001, 0x7FA32002, '2019-02-10 00:00:00') /* Blighted Ardent Moarsm
      , (0x7FA32001, 0x7FA3201D, '2019-02-10 00:00:00') /* Sclavus Acolyte of T'thuun (40312) */
      , (0x7FA32001, 0x7FA3201E, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
      , (0x7FA32001, 0x7FA3201F, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
-     , (0x7FA32001, 0x7FA32020, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */;
+     , (0x7FA32001, 0x7FA32020, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA32021, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA32001, 0x7FA32022, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA32001, 0x7FA32023, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA32001, 0x7FA32024, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA32001, 0x7FA32025, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA32001, 0x7FA32026, '2019-02-10 00:00:00') /* Blighted Verdant Moarsman (40305) */
+     , (0x7FA32001, 0x7FA32027, '2019-02-10 00:00:00') /* Blighted Ardent Moarsman (40302) */
+     , (0x7FA32001, 0x7FA32028, '2019-02-10 00:00:00') /* Bandit Mana Hunter (40297) */
+     , (0x7FA32001, 0x7FA32029, '2019-02-10 00:00:00') /* Verdant Moar (40301) */
+     , (0x7FA32001, 0x7FA3202A, '2019-02-10 00:00:00') /* Ardent Moar (40298) */
+     , (0x7FA32001, 0x7FA3202B, '2019-02-10 00:00:00') /* Verdant Moar (40301) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA32002, 40302, 0xFA320031, 146.5831, 15.29832, -0.09359992, -0.9960979, 0, 0, -0.08825479,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
@@ -160,3 +171,47 @@ VALUES (0x7FA3201F, 40297, 0xFA32003F, 178.2363, 145.5916, -0.895, 0.8658946, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA32020, 40297, 0xFA32003F, 181.8579, 144.795, -0.895, 0.8658946, 0, 0, -0.5002264,  True, '2019-02-10 00:00:00'); /* Bandit Mana Hunter */
 /* @teleloc 0xFA32003F [181.857900 144.795000 -0.895000] 0.865895 0.000000 0.000000 -0.500226 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32021, 40305, 0xFA320029, 132.3569, 9.504578, 0.006600022, -0.9960979, 0, 0, -0.08825479,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xFA320029 [132.356900 9.504578 0.006600] -0.996098 0.000000 0.000000 -0.088255 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32022, 40305, 0xFA320029, 139.9981, 10.93155, 0.006600022, -0.9960979, 0, 0, -0.08825479,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xFA320029 [139.998100 10.931550 0.006600] -0.996098 0.000000 0.000000 -0.088255 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32023, 40305, 0xFA32002A, 130.9771, 25.33171, 0.006600022, -0.9960979, 0, 0, -0.08825479,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xFA32002A [130.977100 25.331710 0.006600] -0.996098 0.000000 0.000000 -0.088255 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32024, 40301, 0xFA320018, 64.53492, 189.2102, 0.01800001, -0.512096, 0, 0, -0.8589282,  True, '2019-02-10 00:00:00'); /* Verdant Moar */
+/* @teleloc 0xFA320018 [64.534920 189.210200 0.018000] -0.512096 0.000000 0.000000 -0.858928 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32025, 40302, 0xFA320025, 112.948, 101.2943, 0.006400108, 0.5527334, 0, 0, -0.8333582,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0xFA320025 [112.948000 101.294300 0.006400] 0.552733 0.000000 0.000000 -0.833358 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32026, 40305, 0xFA320025, 110.2516, 106.9421, 0.006600022, 0.5527334, 0, 0, -0.8333582,  True, '2019-02-10 00:00:00'); /* Blighted Verdant Moarsman */
+/* @teleloc 0xFA320025 [110.251600 106.942100 0.006600] 0.552733 0.000000 0.000000 -0.833358 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32027, 40302, 0xFA320025, 119.4917, 97.27943, 0.006400108, 0.5527334, 0, 0, -0.8333582,  True, '2019-02-10 00:00:00'); /* Blighted Ardent Moarsman */
+/* @teleloc 0xFA320025 [119.491700 97.279430 0.006400] 0.552733 0.000000 0.000000 -0.833358 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32028, 40297, 0xFA320026, 100.9625, 135.8575, 0.004999995, 0.7222803, 0, 0, -0.6916004,  True, '2019-02-10 00:00:00'); /* Bandit Mana Hunter */
+/* @teleloc 0xFA320026 [100.962500 135.857500 0.005000] 0.722280 0.000000 0.000000 -0.691600 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA32029, 40301, 0xFA32003E, 170.6701, 130.7407, -0.882, 0.8658946, 0, 0, -0.5002264,  True, '2019-02-10 00:00:00'); /* Verdant Moar */
+/* @teleloc 0xFA32003E [170.670100 130.740700 -0.882000] 0.865895 0.000000 0.000000 -0.500226 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA3202A, 40298, 0xFA32003E, 176.7751, 142.1147, -0.882, 0.8658946, 0, 0, -0.5002264,  True, '2019-02-10 00:00:00'); /* Ardent Moar */
+/* @teleloc 0xFA32003E [176.775100 142.114700 -0.882000] 0.865895 0.000000 0.000000 -0.500226 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA3202B, 40301, 0xFA32003E, 170.7803, 143.8029, -0.882, 0.8658946, 0, 0, -0.5002264,  True, '2019-02-10 00:00:00'); /* Verdant Moar */
+/* @teleloc 0xFA32003E [170.780300 143.802900 -0.882000] 0.865895 0.000000 0.000000 -0.500226 */

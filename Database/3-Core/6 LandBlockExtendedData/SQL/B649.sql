@@ -65,7 +65,10 @@ VALUES (0x7B649001, 0x7B649002, '2019-02-10 00:00:00') /* A'nekshen Thorn Dancer
      , (0x7B649001, 0x7B64903B, '2019-02-10 00:00:00') /* Viridian Portal (53065) */
      , (0x7B649001, 0x7B64903C, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
      , (0x7B649001, 0x7B64903D, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52590) */
-     , (0x7B649001, 0x7B64903E, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */;
+     , (0x7B649001, 0x7B64903E, '2019-02-10 00:00:00') /* A'nekshen Thorn Reaver (52589) */
+     , (0x7B649001, 0x7B64903F, '2019-02-10 00:00:00') /* Zefir Thorn Stalker (52519) */
+     , (0x7B649001, 0x7B649040, '2019-02-10 00:00:00') /* Guardian Wisp (52627) */
+     , (0x7B649001, 0x7B649041, '2019-02-10 00:00:00') /* Vermilion Thorn Gromnie (53346) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B649002, 52587, 0xB649003B, 174.7059, 48.24054, 114.8874, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* A'nekshen Thorn Dancer */
@@ -312,57 +315,79 @@ VALUES (0x7B64903E, 52589, 0xB6490009, 47.51678, 18.70868, 116.005, 0.7071068, 0
 /* @teleloc 0xB6490009 [47.516780 18.708680 116.005000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B64903F,  1154, 0xB6490031, 160.3, 5.5, 113, -0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B64903F, 52519, 0xB6490010, 29.95634, 172.033, 118.01, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Zefir Thorn Stalker */
+/* @teleloc 0xB6490010 [29.956340 172.033000 118.010000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B649040, 52627, 0xB6490010, 30.074, 173.301, 118.0065, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Guardian Wisp */
+/* @teleloc 0xB6490010 [30.074000 173.301000 118.006500] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B649041, 53346, 0xB649000E, 26.41374, 120.7578, 117.865, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Vermilion Thorn Gromnie */
+/* @teleloc 0xB649000E [26.413740 120.757800 117.865000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B649042,  1154, 0xB6490031, 160.3, 5.5, 113, -0.9238795, 0, 0, -0.3826835, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB6490031 [160.300000 5.500000 113.000000] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B64903F, 0x7B649040, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53108) */
-     , (0x7B64903F, 0x7B649041, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53109) */
-     , (0x7B64903F, 0x7B649042, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
-     , (0x7B64903F, 0x7B649043, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
-     , (0x7B64903F, 0x7B649044, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53107) */
-     , (0x7B64903F, 0x7B649045, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53080) */
-     , (0x7B64903F, 0x7B649046, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
-     , (0x7B64903F, 0x7B649047, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
-     , (0x7B64903F, 0x7B649048, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53110) */
-     , (0x7B64903F, 0x7B649049, '2019-02-10 00:00:00') /* Amber Crystal (53011) */;
+VALUES (0x7B649042, 0x7B649043, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53108) */
+     , (0x7B649042, 0x7B649044, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53109) */
+     , (0x7B649042, 0x7B649045, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B649042, 0x7B649046, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
+     , (0x7B649042, 0x7B649047, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53107) */
+     , (0x7B649042, 0x7B649048, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53080) */
+     , (0x7B649042, 0x7B649049, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */
+     , (0x7B649042, 0x7B64904A, '2019-02-10 00:00:00') /* Fiery Remains (53026) */
+     , (0x7B649042, 0x7B64904B, '2019-02-10 00:00:00') /* Ancient Statue of the Viridian Rise (53110) */
+     , (0x7B649042, 0x7B64904C, '2019-02-10 00:00:00') /* Amber Crystal (53011) */
+     , (0x7B649042, 0x7B64904D, '2019-02-10 00:00:00') /* Amber Crystal (53011) */
+     , (0x7B649042, 0x7B64904E, '2019-02-10 00:00:00') /* Blossoming Nightbloom (52986) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649040, 53108, 0xB6490031, 160.3, 5.5, 113, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
+VALUES (0x7B649043, 53108, 0xB6490031, 160.3, 5.5, 113, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
 /* @teleloc 0xB6490031 [160.300000 5.500000 113.000000] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649041, 53109, 0xB6490019, 91.8, 5.8, 116.1, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
+VALUES (0x7B649044, 53109, 0xB6490019, 91.8, 5.8, 116.1, -0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
 /* @teleloc 0xB6490019 [91.800000 5.800000 116.100000] -0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649042, 52986, 0xB6490018, 49.53934, 184.56, 116.62, -0.7270129, 0, 0, 0.6866239,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */
+VALUES (0x7B649045, 52986, 0xB6490018, 49.53934, 184.56, 116.62, -0.7270129, 0, 0, 0.6866239,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */
 /* @teleloc 0xB6490018 [49.539340 184.560000 116.620000] -0.727013 0.000000 0.000000 0.686624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649043, 53026, 0xB6490031, 159.9465, 5.853553, 115.5, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Fiery Remains */
+VALUES (0x7B649046, 53026, 0xB6490031, 159.9465, 5.853553, 115.5, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Fiery Remains */
 /* @teleloc 0xB6490031 [159.946500 5.853553 115.500000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649044, 53107, 0xB649003E, 186.7, 140.1, 116.1, -0.3826834, 0, 0, -0.9238796,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
+VALUES (0x7B649047, 53107, 0xB649003E, 186.7, 140.1, 116.1, -0.3826834, 0, 0, -0.9238796,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
 /* @teleloc 0xB649003E [186.700000 140.100000 116.100000] -0.382683 0.000000 0.000000 -0.923880 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649045, 53080, 0xB649001D, 77.2, 99.6, 116.1, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
+VALUES (0x7B649048, 53080, 0xB649001D, 77.2, 99.6, 116.1, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
 /* @teleloc 0xB649001D [77.200000 99.600000 116.100000] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649046, 52986, 0xB6490010, 47.50835, 185.2106, 116.6068, -0.7270129, 0, 0, 0.6866239,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */
+VALUES (0x7B649049, 52986, 0xB6490010, 47.50835, 185.2106, 116.6068, -0.7270129, 0, 0, 0.6866239,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */
 /* @teleloc 0xB6490010 [47.508350 185.210600 116.606800] -0.727013 0.000000 0.000000 0.686624 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649047, 53026, 0xB649001D, 77.55355, 99.95355, 118.6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Fiery Remains */
+VALUES (0x7B64904A, 53026, 0xB649001D, 77.55355, 99.95355, 118.6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Fiery Remains */
 /* @teleloc 0xB649001D [77.553550 99.953550 118.600000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649048, 53110, 0xB6490004, 4, 92.2, 117.6833, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
+VALUES (0x7B64904B, 53110, 0xB6490004, 4, 92.2, 117.6833, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ancient Statue of the Viridian Rise */
 /* @teleloc 0xB6490004 [4.000000 92.200000 117.683300] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B649049, 53011, 0xB6490008, 6.631204, 182.0324, 110.911, -0.469709, 0, 0, 0.882821,  True, '2019-02-10 00:00:00'); /* Amber Crystal */
+VALUES (0x7B64904C, 53011, 0xB6490008, 6.631204, 182.0324, 110.911, -0.469709, 0, 0, 0.882821,  True, '2019-02-10 00:00:00'); /* Amber Crystal */
 /* @teleloc 0xB6490008 [6.631204 182.032400 110.911000] -0.469709 0.000000 0.000000 0.882821 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B64904D, 53011, 0xB6490008, 6.736503, 182.3373, 110.911, -0.469709, 0, 0, 0.882821,  True, '2019-02-10 00:00:00'); /* Amber Crystal */
+/* @teleloc 0xB6490008 [6.736503 182.337300 110.911000] -0.469709 0.000000 0.000000 0.882821 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B64904E, 52986, 0xB6490010, 47.08819, 184.3642, 116.7123, -0.7270129, 0, 0, 0.6866239,  True, '2019-02-10 00:00:00'); /* Blossoming Nightbloom */
+/* @teleloc 0xB6490010 [47.088190 184.364200 116.712300] -0.727013 0.000000 0.000000 0.686624 */

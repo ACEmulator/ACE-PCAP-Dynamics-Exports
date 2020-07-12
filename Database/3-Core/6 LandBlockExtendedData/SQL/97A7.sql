@@ -36,8 +36,13 @@ VALUES (0x797A7007,  1542, 0x97A70030, 143.4101, 184.9972, 35.11797, 0.7212458, 
 /* @teleloc 0x97A70030 [143.410100 184.997200 35.117970] 0.721246 0.000000 0.000000 -0.692679 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x797A7007, 0x797A7008, '2019-02-10 00:00:00') /* Old Gravestone (34132) */;
+VALUES (0x797A7007, 0x797A7008, '2019-02-10 00:00:00') /* Old Gravestone (34132) */
+     , (0x797A7007, 0x797A7009, '2019-02-10 00:00:00') /* Henbane (773) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x797A7008, 34132, 0x97A70030, 143.4101, 184.9972, 35.11797, 0.7212458, 0, 0, -0.6926792,  True, '2019-02-10 00:00:00'); /* Old Gravestone */
 /* @teleloc 0x97A70030 [143.410100 184.997200 35.117970] 0.721246 0.000000 0.000000 -0.692679 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x797A7009,   773, 0x97A70040, 184.8799, 184.983, 41.64619, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Henbane */
+/* @teleloc 0x97A70040 [184.879900 184.983000 41.646190] 0.707107 0.000000 0.000000 -0.707107 */

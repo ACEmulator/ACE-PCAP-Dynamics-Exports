@@ -64,7 +64,8 @@ VALUES (0x79626010, 0x79626011, '2019-02-10 00:00:00') /* Gotrok Lithos (24942) 
      , (0x79626010, 0x79626041, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x79626010, 0x79626042, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x79626010, 0x79626043, '2019-02-10 00:00:00') /* Frost (14512) */
-     , (0x79626010, 0x79626044, '2019-02-10 00:00:00') /* Banished Shadow (30882) */;
+     , (0x79626010, 0x79626044, '2019-02-10 00:00:00') /* Banished Shadow (30882) */
+     , (0x79626010, 0x79626045, '2019-02-10 00:00:00') /* Malus Shreth (4255) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79626011, 24942, 0x96260118, 36.1479, 31.5125, 133.61, 0.993679, 0, 0, -0.112263,  True, '2019-02-10 00:00:00'); /* Gotrok Lithos */
@@ -275,22 +276,26 @@ VALUES (0x79626044, 30882, 0x9626000C, 33.3671, 85.42133, 164.7418, 0.3257532, 0
 /* @teleloc 0x9626000C [33.367100 85.421330 164.741800] 0.325753 0.000000 0.000000 -0.945455 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79626045,  1542, 0x96260002, 19.9159, 37.38762, 143.3193, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79626045,  4255, 0x9626000B, 26.02342, 69.59429, 154.7754, 0.3257532, 0, 0, -0.9454548,  True, '2019-02-10 00:00:00'); /* Malus Shreth */
+/* @teleloc 0x9626000B [26.023420 69.594290 154.775400] 0.325753 0.000000 0.000000 -0.945455 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79626046,  1542, 0x96260002, 19.9159, 37.38762, 143.3193, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x96260002 [19.915900 37.387620 143.319300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79626045, 0x79626046, '2019-02-10 00:00:00') /* Runed Chest (22567) */
-     , (0x79626045, 0x79626047, '2019-02-10 00:00:00') /* Corpse (4180) */
-     , (0x79626045, 0x79626048, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+VALUES (0x79626046, 0x79626047, '2019-02-10 00:00:00') /* Runed Chest (22567) */
+     , (0x79626046, 0x79626048, '2019-02-10 00:00:00') /* Corpse (4180) */
+     , (0x79626046, 0x79626049, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79626046, 22567, 0x96260002, 19.9159, 37.38762, 143.3193, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x79626047, 22567, 0x96260002, 19.9159, 37.38762, 143.3193, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x96260002 [19.915900 37.387620 143.319300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79626047,  4180, 0x9626003C, 183.3393, 91.96532, 164.9301, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x79626048,  4180, 0x9626003C, 183.3393, 91.96532, 164.9301, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x9626003C [183.339300 91.965320 164.930100] -0.173648 0.000000 0.000000 -0.984808 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79626048,  8037, 0x9626000B, 25.65194, 51.22078, 145.6104, 0.3257532, 0, 0, -0.9454548,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x79626049,  8037, 0x9626000B, 25.65194, 51.22078, 145.6104, 0.3257532, 0, 0, -0.9454548,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0x9626000B [25.651940 51.220780 145.610400] 0.325753 0.000000 0.000000 -0.945455 */

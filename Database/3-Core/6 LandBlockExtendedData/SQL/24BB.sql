@@ -22,7 +22,8 @@ VALUES (0x724BB004,  1542, 0x24BB002F, 142.6139, 159.4086, 114.3576, 1, 0, 0, 0,
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x724BB004, 0x724BB005, '2019-02-10 00:00:00') /* New Hive Portal (11227) */
-     , (0x724BB004, 0x724BB006, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */;
+     , (0x724BB004, 0x724BB006, '2019-02-10 00:00:00') /* Shallow Hive Portal (11225) */
+     , (0x724BB004, 0x724BB007, '2019-02-10 00:00:00') /* Tiny Hive Portal (11219) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BB005, 11227, 0x24BB002F, 142.6139, 159.4086, 114.3576, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* New Hive Portal */
@@ -31,3 +32,7 @@ VALUES (0x724BB005, 11227, 0x24BB002F, 142.6139, 159.4086, 114.3576, 1, 0, 0, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x724BB006, 11225, 0x24BB0037, 160.9945, 166.7599, 111.2144, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Shallow Hive Portal */
 /* @teleloc 0x24BB0037 [160.994500 166.759900 111.214400] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x724BB007, 11219, 0x24BB0037, 151.6053, 153.9227, 119.0455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Tiny Hive Portal */
+/* @teleloc 0x24BB0037 [151.605300 153.922700 119.045500] 1.000000 0.000000 0.000000 0.000000 */

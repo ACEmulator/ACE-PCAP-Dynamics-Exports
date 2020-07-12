@@ -11,7 +11,10 @@ VALUES (0x79EC1001, 0x79EC1002, '2019-02-10 00:00:00') /* Ashen Moarsman (7180) 
      , (0x79EC1001, 0x79EC1005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
      , (0x79EC1001, 0x79EC1006, '2019-02-10 00:00:00') /* Skeleton Captain (1761) */
      , (0x79EC1001, 0x79EC1007, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
-     , (0x79EC1001, 0x79EC1008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */;
+     , (0x79EC1001, 0x79EC1008, '2019-02-10 00:00:00') /* Outcast Monouga (2612) */
+     , (0x79EC1001, 0x79EC1009, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x79EC1001, 0x79EC100A, '2019-02-10 00:00:00') /* Mosswart Fanatic (8427) */
+     , (0x79EC1001, 0x79EC100B, '2019-02-10 00:00:00') /* Island Armoredillo (7082) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79EC1002,  7180, 0x9EC1003E, 169.8567, 131.9353, 27.1064, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ashen Moarsman */
@@ -42,12 +45,24 @@ VALUES (0x79EC1008,  2612, 0x9EC10001, 20.44814, 2.890878, 44.19599, 0.9238795, 
 /* @teleloc 0x9EC10001 [20.448140 2.890878 44.195990] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EC1009,  1542, 0x9EC10036, 165.7803, 131.3166, 28, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x79EC1009, 28552, 0x9EC10028, 117.3924, 171.2449, 28, -0.9946612, 0, 0, -0.1031949,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
+/* @teleloc 0x9EC10028 [117.392400 171.244900 28.000000] -0.994661 0.000000 0.000000 -0.103195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EC100A,  8427, 0x9EC1002E, 125.2849, 138.2575, 27.1066, 0.1481572, 0, 0, -0.9889638,  True, '2019-02-10 00:00:00'); /* Mosswart Fanatic */
+/* @teleloc 0x9EC1002E [125.284900 138.257500 27.106600] 0.148157 0.000000 0.000000 -0.988964 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EC100B,  7082, 0x9EC10037, 149.5592, 147.0398, 27.1105, -0.04714926, 0, 0, -0.9988878,  True, '2019-02-10 00:00:00'); /* Island Armoredillo */
+/* @teleloc 0x9EC10037 [149.559200 147.039800 27.110500] -0.047149 0.000000 0.000000 -0.998888 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79EC100C,  1542, 0x9EC10036, 165.7803, 131.3166, 28, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x9EC10036 [165.780300 131.316600 28.000000] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x79EC1009, 0x79EC100A, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x79EC100C, 0x79EC100D, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79EC100A,  4179, 0x9EC10036, 165.7803, 131.3166, 28, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x79EC100D,  4179, 0x9EC10036, 165.7803, 131.3166, 28, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x9EC10036 [165.780300 131.316600 28.000000] 0.999048 0.000000 0.000000 -0.043619 */

@@ -15,7 +15,13 @@ VALUES (0x715B4001, 0x715B4002, '2019-02-10 00:00:00') /* Carenzi Pouchling (114
      , (0x715B4001, 0x715B4009, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
      , (0x715B4001, 0x715B400A, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
      , (0x715B4001, 0x715B400B, '2019-02-10 00:00:00') /* Water Golem (941) */
-     , (0x715B4001, 0x715B400C, '2019-02-10 00:00:00') /* Water Golem (941) */;
+     , (0x715B4001, 0x715B400C, '2019-02-10 00:00:00') /* Water Golem (941) */
+     , (0x715B4001, 0x715B400D, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B400E, '2019-02-10 00:00:00') /* Carenzi Sentry (11496) */
+     , (0x715B4001, 0x715B400F, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B4010, '2019-02-10 00:00:00') /* Tidal Siraluun (11490) */
+     , (0x715B4001, 0x715B4011, '2019-02-10 00:00:00') /* Field Ursuin (7990) */
+     , (0x715B4001, 0x715B4012, '2019-02-10 00:00:00') /* Field Ursuin (7990) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715B4002, 11494, 0x15B4003A, 175.9629, 42.93633, 18.66357, 0.8849086, 0, 0, -0.4657648,  True, '2019-02-10 00:00:00'); /* Carenzi Pouchling */
@@ -60,3 +66,27 @@ VALUES (0x715B400B,   941, 0x15B40010, 43.29469, 176.9609, 20.87115, -0.6427876,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x715B400C,   941, 0x15B40010, 46.40202, 177.2842, 21.10315, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Water Golem */
 /* @teleloc 0x15B40010 [46.402020 177.284200 21.103150] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x715B400D, 11490, 0x15B40006, 0.5642242, 140.552, 16.84776, 0.9793689, 0, 0, -0.2020806,  True, '2019-02-10 00:00:00'); /* Tidal Siraluun */
+/* @teleloc 0x15B40006 [0.564224 140.552000 16.847760] 0.979369 0.000000 0.000000 -0.202081 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x715B400E, 11496, 0x15B40037, 151.4275, 159.3379, 20, 0.9999837, 0, 0, -0.005715895,  True, '2019-02-10 00:00:00'); /* Carenzi Sentry */
+/* @teleloc 0x15B40037 [151.427500 159.337900 20.000000] 0.999984 0.000000 0.000000 -0.005716 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x715B400F, 11490, 0x15B4002E, 127.0591, 137.6885, 19.99362, -0.2557744, 0, 0, -0.9667365,  True, '2019-02-10 00:00:00'); /* Tidal Siraluun */
+/* @teleloc 0x15B4002E [127.059100 137.688500 19.993620] -0.255774 0.000000 0.000000 -0.966737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x715B4010, 11490, 0x15B4002E, 131.3483, 134.0569, 19.99362, -0.2557744, 0, 0, -0.9667365,  True, '2019-02-10 00:00:00'); /* Tidal Siraluun */
+/* @teleloc 0x15B4002E [131.348300 134.056900 19.993620] -0.255774 0.000000 0.000000 -0.966737 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x715B4011,  7990, 0x15B40031, 161.5434, 14.96301, 18.54005, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
+/* @teleloc 0x15B40031 [161.543400 14.963010 18.540050] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x715B4012,  7990, 0x15B40031, 163.1376, 9.992232, 19.41936, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Field Ursuin */
+/* @teleloc 0x15B40031 [163.137600 9.992232 19.419360] 0.996195 0.000000 0.000000 -0.087156 */

@@ -20,7 +20,9 @@ VALUES (0x74922001, 0x74922002, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) 
      , (0x74922001, 0x7492200E, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x74922001, 0x7492200F, '2019-02-10 00:00:00') /* Stasis Wisp (21550) */
      , (0x74922001, 0x74922010, '2019-02-10 00:00:00') /* Frost (14517) */
-     , (0x74922001, 0x74922011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */;
+     , (0x74922001, 0x74922011, '2019-02-10 00:00:00') /* Plate Armoredillo (7081) */
+     , (0x74922001, 0x74922012, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
+     , (0x74922001, 0x74922013, '2019-02-10 00:00:00') /* Diamond Golem (36830) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74922002, 24497, 0x49220005, 17.07095, 117.9431, 41.88363, -0.9966978, 0, 0, -0.08119947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
@@ -87,17 +89,25 @@ VALUES (0x74922011,  7081, 0x49220010, 38.06636, 181.9173, 32.0105, 0.944175, 0,
 /* @teleloc 0x49220010 [38.066360 181.917300 32.010500] 0.944175 0.000000 0.000000 -0.329444 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74922012,  1542, 0x49220025, 119.9134, 101.9917, 60.49766, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x74922012, 36830, 0x4922000E, 39.15203, 127.5777, 43.27212, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x4922000E [39.152030 127.577700 43.272120] 0.500000 0.000000 0.000000 -0.866025 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74922013, 36830, 0x4922000E, 44.73143, 130.0129, 43.85524, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Diamond Golem */
+/* @teleloc 0x4922000E [44.731430 130.012900 43.855240] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x74922014,  1542, 0x49220025, 119.9134, 101.9917, 60.49766, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x49220025 [119.913400 101.991700 60.497660] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x74922012, 0x74922013, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x74922012, 0x74922014, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+VALUES (0x74922014, 0x74922015, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x74922014, 0x74922016, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74922013,  4179, 0x49220025, 119.9134, 101.9917, 60.49766, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x74922015,  4179, 0x49220025, 119.9134, 101.9917, 60.49766, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x49220025 [119.913400 101.991700 60.497660] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x74922014,  8646, 0x4922000E, 25.51916, 135.3261, 43.7148, -0.9966978, 0, 0, -0.08119947,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
+VALUES (0x74922016,  8646, 0x4922000E, 25.51916, 135.3261, 43.7148, -0.9966978, 0, 0, -0.08119947,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
 /* @teleloc 0x4922000E [25.519160 135.326100 43.714800] -0.996698 0.000000 0.000000 -0.081199 */

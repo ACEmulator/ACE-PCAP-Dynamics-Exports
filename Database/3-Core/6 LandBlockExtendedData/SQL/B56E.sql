@@ -22,7 +22,9 @@ VALUES (0x7B56E004, 0x7B56E005, '2019-02-10 00:00:00') /* Auroch Yearling (182) 
      , (0x7B56E004, 0x7B56E00F, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x7B56E004, 0x7B56E010, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x7B56E004, 0x7B56E011, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
-     , (0x7B56E004, 0x7B56E012, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */;
+     , (0x7B56E004, 0x7B56E012, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
+     , (0x7B56E004, 0x7B56E013, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7B56E004, 0x7B56E014, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B56E005,   182, 0xB56E0005, 6.585045, 117.797, 38.34996, -0.4023804, 0, 0, -0.9154726,  True, '2019-02-10 00:00:00'); /* Auroch Yearling */
@@ -81,17 +83,25 @@ VALUES (0x7B56E012,  1612, 0xB56E0035, 160.715, 117.6124, 39.77514, 0.9537169, 0
 /* @teleloc 0xB56E0035 [160.715000 117.612400 39.775140] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B56E013,  1542, 0xB56E0035, 155.7308, 104.9735, 39.4371, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B56E013,   940, 0xB56E0007, 0.425247, 166.1279, 36.05389, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
+/* @teleloc 0xB56E0007 [0.425247 166.127900 36.053890] 0.642788 0.000000 0.000000 -0.766044 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B56E014,  7989, 0xB56E0036, 146.3306, 123.379, 33.65231, 0.8572006, 0, 0, -0.5149826,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
+/* @teleloc 0xB56E0036 [146.330600 123.379000 33.652310] 0.857201 0.000000 0.000000 -0.514983 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B56E015,  1542, 0xB56E0035, 155.7308, 104.9735, 39.4371, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB56E0035 [155.730800 104.973500 39.437100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B56E013, 0x7B56E014, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7B56E013, 0x7B56E015, '2019-02-10 00:00:00') /* Meat (265) */;
+VALUES (0x7B56E015, 0x7B56E016, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B56E015, 0x7B56E017, '2019-02-10 00:00:00') /* Meat (265) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B56E014,  4179, 0xB56E0035, 155.7308, 104.9735, 39.4371, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B56E016,  4179, 0xB56E0035, 155.7308, 104.9735, 39.4371, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB56E0035 [155.730800 104.973500 39.437100] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B56E015,   265, 0xB56E0035, 156.5274, 108.3113, 44.09131, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
+VALUES (0x7B56E017,   265, 0xB56E0035, 156.5274, 108.3113, 44.09131, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Meat */
 /* @teleloc 0xB56E0035 [156.527400 108.311300 44.091310] 1.000000 0.000000 0.000000 0.000000 */

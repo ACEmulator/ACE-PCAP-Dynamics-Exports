@@ -20,7 +20,9 @@ VALUES (0x78EED001, 0x78EED002, '2019-02-10 00:00:00') /* Relic Bones (7179) */
      , (0x78EED001, 0x78EED00E, '2019-02-10 00:00:00') /* White Phyntos Wasp (7105) */
      , (0x78EED001, 0x78EED00F, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
      , (0x78EED001, 0x78EED010, '2019-02-10 00:00:00') /* Gold Golem (7096) */
-     , (0x78EED001, 0x78EED011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */;
+     , (0x78EED001, 0x78EED011, '2019-02-10 00:00:00') /* Drudge Ravener (1610) */
+     , (0x78EED001, 0x78EED012, '2019-02-10 00:00:00') /* Nalif Zefir (7129) */
+     , (0x78EED001, 0x78EED013, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EED002,  7179, 0x8EED003B, 177.2012, 57.45585, 13.21451, -0.3946718, 0, 0, -0.9188222,  True, '2019-02-10 00:00:00'); /* Relic Bones */
@@ -85,3 +87,11 @@ VALUES (0x78EED010,  7096, 0x8EED0016, 71.2556, 142.2676, 10.2164, -0.5950077, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78EED011,  1610, 0x8EED0008, 18.8583, 190.5664, 8.124014, 0.9399062, 0, 0, -0.3414326,  True, '2019-02-10 00:00:00'); /* Drudge Ravener */
 /* @teleloc 0x8EED0008 [18.858300 190.566400 8.124014] 0.939906 0.000000 0.000000 -0.341433 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78EED012,  7129, 0x8EED0008, 10.00848, 172.6392, 9.628401, 0.9399062, 0, 0, -0.3414326,  True, '2019-02-10 00:00:00'); /* Nalif Zefir */
+/* @teleloc 0x8EED0008 [10.008480 172.639200 9.628401] 0.939906 0.000000 0.000000 -0.341433 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78EED013,  7088, 0x8EED0020, 93.07417, 168.5284, 7.963117, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Banderling Mauler */
+/* @teleloc 0x8EED0020 [93.074170 168.528400 7.963117] 0.707107 0.000000 0.000000 -0.707107 */

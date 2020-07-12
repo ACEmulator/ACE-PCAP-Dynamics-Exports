@@ -39,7 +39,9 @@ VALUES (0x7D49B001, 0x7D49B002, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7D49B001, 0x7D49B021, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7D49B001, 0x7D49B022, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7D49B001, 0x7D49B023, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
-     , (0x7D49B001, 0x7D49B024, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7D49B001, 0x7D49B024, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D49B001, 0x7D49B025, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7D49B001, 0x7D49B026, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D49B002, 24937, 0xD49B000B, 34.41272, 48.91245, 27.59784, 0.888848, 0, 0, -0.4582021,  True, '2019-02-10 00:00:00'); /* Chicken */
@@ -182,17 +184,25 @@ VALUES (0x7D49B024, 24937, 0xD49B0020, 84.95856, 189.7266, 11.45078, 1, 0, 0, 0,
 /* @teleloc 0xD49B0020 [84.958560 189.726600 11.450780] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D49B025,  1542, 0xD49B0025, 114.7997, 99.25386, 20, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7D49B025, 24937, 0xD49B0021, 118.0881, 7.278475, 19.992, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xD49B0021 [118.088100 7.278475 19.992000] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D49B026,  2566, 0xD49B002D, 126.9166, 101.1742, 22.45517, 0.9969327, 0, 0, -0.07826363,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xD49B002D [126.916600 101.174200 22.455170] 0.996933 0.000000 0.000000 -0.078264 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D49B027,  1542, 0xD49B0025, 114.7997, 99.25386, 20, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xD49B0025 [114.799700 99.253860 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D49B025, 0x7D49B026, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7D49B025, 0x7D49B027, '2019-02-10 00:00:00') /* Egg (546) */;
+VALUES (0x7D49B027, 0x7D49B028, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7D49B027, 0x7D49B029, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D49B026,   546, 0xD49B0025, 114.7997, 99.25386, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7D49B028,   546, 0xD49B0025, 114.7997, 99.25386, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xD49B0025 [114.799700 99.253860 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D49B027,   546, 0xD49B0004, 10.5403, 93.06204, 19.37217, 0.9510565, 0, 0, -0.309017,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7D49B029,   546, 0xD49B0004, 10.5403, 93.06204, 19.37217, 0.9510565, 0, 0, -0.309017,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xD49B0004 [10.540300 93.062040 19.372170] 0.951057 0.000000 0.000000 -0.309017 */

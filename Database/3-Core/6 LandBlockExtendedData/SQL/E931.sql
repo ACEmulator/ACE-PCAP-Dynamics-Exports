@@ -35,7 +35,14 @@ VALUES (0x7E931001, 0x7E931002, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7E931001, 0x7E93101D, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7E931001, 0x7E93101E, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7E931001, 0x7E93101F, '2019-02-10 00:00:00') /* Copper Golem (194) */
-     , (0x7E931001, 0x7E931020, '2019-02-10 00:00:00') /* Copper Golem (194) */;
+     , (0x7E931001, 0x7E931020, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7E931001, 0x7E931021, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E931001, 0x7E931022, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7E931001, 0x7E931023, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E931001, 0x7E931024, '2019-02-10 00:00:00') /* Tusker Crimsonback (1627) */
+     , (0x7E931001, 0x7E931025, '2019-02-10 00:00:00') /* Gotrok Obeloth (24943) */
+     , (0x7E931001, 0x7E931026, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
+     , (0x7E931001, 0x7E931027, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7E931002,  2567, 0xE9310012, 64.98992, 39.35663, 96.32169, 0.1732266, 0, 0, -0.984882,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -162,22 +169,55 @@ VALUES (0x7E931020,   194, 0xE9310021, 116.6577, 2.400788, 111.0097, 0.9427272, 
 /* @teleloc 0xE9310021 [116.657700 2.400788 111.009700] 0.942727 0.000000 0.000000 -0.333565 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E931021,  1542, 0xE9310002, 15.64942, 34.12614, 102.486, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7E931021,  1627, 0xE9310002, 15.92771, 26.70555, 105.5575, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
+/* @teleloc 0xE9310002 [15.927710 26.705550 105.557500] -0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931022, 24937, 0xE931000B, 41.87825, 51.26835, 93.41269, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xE931000B [41.878250 51.268350 93.412690] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931023,  1627, 0xE9310002, 17.96677, 36.60405, 101.2632, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
+/* @teleloc 0xE9310002 [17.966770 36.604050 101.263200] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931024,  1627, 0xE931000A, 25.16276, 36.02043, 100.9067, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Tusker Crimsonback */
+/* @teleloc 0xE931000A [25.162760 36.020430 100.906700] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931025, 24943, 0xE9310022, 100.3591, 36.72754, 96.70686, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Obeloth */
+/* @teleloc 0xE9310022 [100.359100 36.727540 96.706860] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931026, 24939, 0xE9310022, 106.7969, 43.36731, 93.94028, 0.9396926, 0, 0, -0.3420201,  True, '2019-02-10 00:00:00'); /* Gotrok Amploth */
+/* @teleloc 0xE9310022 [106.796900 43.367310 93.940280] 0.939693 0.000000 0.000000 -0.342020 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931027, 24937, 0xE9310035, 165.6842, 96.89606, 81.11436, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xE9310035 [165.684200 96.896060 81.114360] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E931028,  1542, 0xE9310002, 15.64942, 34.12614, 102.486, 0.7071068, 0, 0, -0.7071068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xE9310002 [15.649420 34.126140 102.486000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7E931021, 0x7E931022, '2019-02-10 00:00:00') /* Strange Stick (5779) */
-     , (0x7E931021, 0x7E931023, '2019-02-10 00:00:00') /* Wormwood (780) */
-     , (0x7E931021, 0x7E931024, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */;
+VALUES (0x7E931028, 0x7E931029, '2019-02-10 00:00:00') /* Strange Stick (5779) */
+     , (0x7E931028, 0x7E93102A, '2019-02-10 00:00:00') /* Wormwood (780) */
+     , (0x7E931028, 0x7E93102B, '2019-02-10 00:00:00') /* Lapyan Plant (8644) */
+     , (0x7E931028, 0x7E93102C, '2019-02-10 00:00:00') /* Strange Stick (5779) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E931022,  5779, 0xE9310002, 15.64942, 34.12614, 102.486, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+VALUES (0x7E931029,  5779, 0xE9310002, 15.64942, 34.12614, 102.486, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
 /* @teleloc 0xE9310002 [15.649420 34.126140 102.486000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E931023,   780, 0xE9310002, 13.92181, 34.43349, 102.4811, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wormwood */
+VALUES (0x7E93102A,   780, 0xE9310002, 13.92181, 34.43349, 102.4811, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Wormwood */
 /* @teleloc 0xE9310002 [13.921810 34.433490 102.481100] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7E931024,  8644, 0xE9310021, 98.41947, 0.6010696, 111.7495, 0.9427272, 0, 0, -0.3335647,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
+VALUES (0x7E93102B,  8644, 0xE9310021, 98.41947, 0.6010696, 111.7495, 0.9427272, 0, 0, -0.3335647,  True, '2019-02-10 00:00:00'); /* Lapyan Plant */
 /* @teleloc 0xE9310021 [98.419470 0.601070 111.749500] 0.942727 0.000000 0.000000 -0.333565 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7E93102C,  5779, 0xE9310002, 20.74595, 30.93374, 103.3914, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Strange Stick */
+/* @teleloc 0xE9310002 [20.745950 30.933740 103.391400] 0.707107 0.000000 0.000000 -0.707107 */

@@ -45,7 +45,8 @@ VALUES (0x7B97300D, 0x7B97300E, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7B97300D, 0x7B973017, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7B97300D, 0x7B973018, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
      , (0x7B97300D, 0x7B973019, '2019-02-10 00:00:00') /* Chicken (24937) */
-     , (0x7B97300D, 0x7B97301A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */;
+     , (0x7B97300D, 0x7B97301A, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
+     , (0x7B97300D, 0x7B97301B, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B97300E,  2567, 0xB9730025, 101.1855, 114.5837, 24.4706, -0.7241926, 0, 0, -0.6895978,  True, '2019-02-10 00:00:00'); /* Brown Rabbit */
@@ -100,12 +101,16 @@ VALUES (0x7B97301A,  2567, 0xB9730014, 62.17768, 90.73087, 26.49876, 0.8926924, 
 /* @teleloc 0xB9730014 [62.177680 90.730870 26.498760] 0.892692 0.000000 0.000000 -0.450666 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B97301B,  1154, 0xB9730100, 129.502, 8.17398, 44.405, 0.0672586, 0, 0, 0.997736, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
+VALUES (0x7B97301B, 24937, 0xB9730007, 18.73285, 144.4636, 25.59171, -0.996335, 0, 0, -0.0855376,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xB9730007 [18.732850 144.463600 25.591710] -0.996335 0.000000 0.000000 -0.085538 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B97301C,  1154, 0xB9730100, 129.502, 8.17398, 44.405, 0.0672586, 0, 0, 0.997736, False, '2019-02-10 00:00:00'); /* Linkable Monster Generator */
 /* @teleloc 0xB9730100 [129.502000 8.173980 44.405000] 0.067259 0.000000 0.000000 0.997736 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B97301B, 0x7B97301C, '2019-02-10 00:00:00') /* Lou Ei  (5064) */;
+VALUES (0x7B97301C, 0x7B97301D, '2019-02-10 00:00:00') /* Lou Ei  (5064) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B97301C,  5064, 0xB9730100, 129.502, 8.17398, 44.405, 0.0672586, 0, 0, 0.997736,  True, '2019-02-10 00:00:00'); /* Lou Ei  */
+VALUES (0x7B97301D,  5064, 0xB9730100, 129.502, 8.17398, 44.405, 0.0672586, 0, 0, 0.997736,  True, '2019-02-10 00:00:00'); /* Lou Ei  */
 /* @teleloc 0xB9730100 [129.502000 8.173980 44.405000] 0.067259 0.000000 0.000000 0.997736 */

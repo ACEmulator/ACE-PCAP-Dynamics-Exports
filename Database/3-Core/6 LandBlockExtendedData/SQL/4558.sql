@@ -13,7 +13,10 @@ VALUES (0x74558001, 0x74558002, '2019-02-10 00:00:00') /* Risen Lord (24326) */
      , (0x74558001, 0x74558007, '2019-02-10 00:00:00') /* Acidic Coral Golem (36827) */
      , (0x74558001, 0x74558008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
      , (0x74558001, 0x74558009, '2019-02-10 00:00:00') /* Skeletal Champion (36856) */
-     , (0x74558001, 0x7455800A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */;
+     , (0x74558001, 0x7455800A, '2019-02-10 00:00:00') /* Armored Skeleton (36855) */
+     , (0x74558001, 0x7455800B, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74558001, 0x7455800C, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x74558001, 0x7455800D, '2019-02-10 00:00:00') /* Phantasm (24325) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x74558002, 24326, 0x4558002F, 127.9505, 160.5823, -0.8925, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Risen Lord */
@@ -52,12 +55,24 @@ VALUES (0x7455800A, 36855, 0x45580030, 132.2901, 171.5152, -0.8974999, 0.7071068
 /* @teleloc 0x45580030 [132.290100 171.515200 -0.897500] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7455800B,  1542, 0x45580030, 128.1512, 171.6128, 0, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7455800B,  4248, 0x45580002, 2.721437, 36.52969, 13.51346, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x45580002 [2.721437 36.529690 13.513460] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455800C,  4248, 0x45580002, 0.8866372, 32.48574, 15.44185, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x45580002 [0.886637 32.485740 15.441850] 0.953717 0.000000 0.000000 -0.300706 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455800D, 24325, 0x4558002F, 128.6622, 149.4021, -0.89175, 0.9440953, 0, 0, -0.3296728,  True, '2019-02-10 00:00:00'); /* Phantasm */
+/* @teleloc 0x4558002F [128.662200 149.402100 -0.891750] 0.944095 0.000000 0.000000 -0.329673 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7455800E,  1542, 0x45580030, 128.1512, 171.6128, 0, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x45580030 [128.151200 171.612800 0.000000] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7455800B, 0x7455800C, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x7455800E, 0x7455800F, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7455800C,  4380, 0x45580030, 128.1512, 171.6128, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x7455800F,  4380, 0x45580030, 128.1512, 171.6128, 0, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x45580030 [128.151200 171.612800 0.000000] 0.000000 0.000000 0.000000 -1.000000 */

@@ -13,7 +13,9 @@ VALUES (0x7A1E6001, 0x7A1E6002, '2019-02-10 00:00:00') /* Virindi Servant (23) *
      , (0x7A1E6001, 0x7A1E6007, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
      , (0x7A1E6001, 0x7A1E6008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
      , (0x7A1E6001, 0x7A1E6009, '2019-02-10 00:00:00') /* Cruel Monouga (24288) */
-     , (0x7A1E6001, 0x7A1E600A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
+     , (0x7A1E6001, 0x7A1E600A, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A1E6001, 0x7A1E600B, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
+     , (0x7A1E6001, 0x7A1E600C, '2019-02-10 00:00:00') /* Tusker Slave (1628) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E6002,    23, 0xA1E60040, 168.5189, 177.8641, 105.5865, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Virindi Servant */
@@ -50,3 +52,11 @@ VALUES (0x7A1E6009, 24288, 0xA1E60035, 158.6862, 110.2305, 93.1399, 0.1603159, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A1E600A,  1628, 0xA1E60019, 77.50189, 14.78307, 89.54715, 0.04099479, 0, 0, -0.9991593,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
 /* @teleloc 0xA1E60019 [77.501890 14.783070 89.547150] 0.040995 0.000000 0.000000 -0.999159 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1E600B,  1628, 0xA1E60022, 103.7563, 35.96934, 87.01355, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xA1E60022 [103.756300 35.969340 87.013550] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A1E600C,  1628, 0xA1E60022, 110.8884, 41.97379, 86.51318, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
+/* @teleloc 0xA1E60022 [110.888400 41.973790 86.513180] -0.173648 0.000000 0.000000 -0.984808 */

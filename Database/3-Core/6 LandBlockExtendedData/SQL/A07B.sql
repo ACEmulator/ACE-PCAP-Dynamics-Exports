@@ -10,7 +10,12 @@ VALUES (0x7A07B001, 0x7A07B002, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x7A07B001, 0x7A07B004, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7A07B001, 0x7A07B005, '2019-02-10 00:00:00') /* Copper Golem (194) */
      , (0x7A07B001, 0x7A07B006, '2019-02-10 00:00:00') /* Shadow (1758) */
-     , (0x7A07B001, 0x7A07B007, '2019-02-10 00:00:00') /* Shadow (1758) */;
+     , (0x7A07B001, 0x7A07B007, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7A07B001, 0x7A07B008, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A07B001, 0x7A07B009, '2019-02-10 00:00:00') /* Skeleton Wraith (22208) */
+     , (0x7A07B001, 0x7A07B00A, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A07B001, 0x7A07B00B, '2019-02-10 00:00:00') /* Granite Golem (195) */
+     , (0x7A07B001, 0x7A07B00C, '2019-02-10 00:00:00') /* Snowman (5766) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A07B002,  1758, 0xA07B0033, 160.6241, 64.24299, 29.35858, -0.589218, 0, 0, -0.8079741,  True, '2019-02-10 00:00:00'); /* Shadow */
@@ -35,3 +40,23 @@ VALUES (0x7A07B006,  1758, 0xA07B0007, 5.992098, 147.2359, 32.50434, 0.9238795, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A07B007,  1758, 0xA07B0007, 9.83195, 150.1161, 32.82433, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Shadow */
 /* @teleloc 0xA07B0007 [9.831950 150.116100 32.824330] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A07B008,   195, 0xA07B0035, 149.016, 114.8583, 32.011, 0.4325691, 0, 0, -0.9016008,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0xA07B0035 [149.016000 114.858300 32.011000] 0.432569 0.000000 0.000000 -0.901601 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A07B009, 22208, 0xA07B0006, 7.027149, 136.0454, 32.58809, -0.4471907, 0, 0, -0.8944386,  True, '2019-02-10 00:00:00'); /* Skeleton Wraith */
+/* @teleloc 0xA07B0006 [7.027149 136.045400 32.588090] -0.447191 0.000000 0.000000 -0.894439 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A07B00A,   195, 0xA07B003C, 189.9759, 82.78142, 30.011, 0.7660445, 0, 0, -0.6427876,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0xA07B003C [189.975900 82.781420 30.011000] 0.766045 0.000000 0.000000 -0.642788 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A07B00B,   195, 0xA07B003C, 187.2065, 78.32154, 30.011, 0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Granite Golem */
+/* @teleloc 0xA07B003C [187.206500 78.321540 30.011000] 0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7A07B00C,  5766, 0xA07B0038, 165.0611, 176.3543, 32, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
+/* @teleloc 0xA07B0038 [165.061100 176.354300 32.000000] 0.707107 0.000000 0.000000 -0.707107 */

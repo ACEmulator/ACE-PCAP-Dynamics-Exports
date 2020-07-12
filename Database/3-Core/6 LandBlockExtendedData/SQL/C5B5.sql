@@ -31,7 +31,8 @@ VALUES (0x7C5B5001, 0x7C5B5002, '2019-02-10 00:00:00') /* Paradox-touched Olthoi
      , (0x7C5B5001, 0x7C5B5019, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Nymph (35733) */
      , (0x7C5B5001, 0x7C5B501A, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Noble Grub (35732) */
      , (0x7C5B5001, 0x7C5B501B, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator Grub (35731) */
-     , (0x7C5B5001, 0x7C5B501C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */;
+     , (0x7C5B5001, 0x7C5B501C, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Warrior (35885) */
+     , (0x7C5B5001, 0x7C5B501D, '2019-02-10 00:00:00') /* Paradox-touched Olthoi Eviscerator (35882) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5B5002, 35732, 0xC5B50018, 61.83875, 191.5459, 222.1164, 0.1076186, 0, 0, -0.9941922,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Noble Grub */
@@ -140,3 +141,7 @@ VALUES (0x7C5B501B, 35731, 0xC5B50018, 66.848, 191.9236, 220.9347, 0.08732835, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5B501C, 35885, 0xC5B50008, 0.09764619, 187.5728, 229.1475, -0.2723803, 0, 0, -0.9621897,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Warrior */
 /* @teleloc 0xC5B50008 [0.097646 187.572800 229.147500] -0.272380 0.000000 0.000000 -0.962190 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C5B501D, 35882, 0xC5B50008, 1.77211, 186.3192, 230.1458, -0.9030755, 0, 0, 0.4294818,  True, '2019-02-10 00:00:00'); /* Paradox-touched Olthoi Eviscerator */
+/* @teleloc 0xC5B50008 [1.772110 186.319200 230.145800] -0.903076 0.000000 0.000000 0.429482 */

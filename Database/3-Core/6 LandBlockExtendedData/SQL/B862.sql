@@ -11,7 +11,8 @@ VALUES (0x7B862001, 0x7B862002, '2019-02-10 00:00:00') /* Drudge Slinker (193) *
      , (0x7B862001, 0x7B862005, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */
      , (0x7B862001, 0x7B862006, '2019-02-10 00:00:00') /* Blue Phyntos Wasp (215) */
      , (0x7B862001, 0x7B862007, '2019-02-10 00:00:00') /* Shadow Sprite (6534) */
-     , (0x7B862001, 0x7B862008, '2019-02-10 00:00:00') /* Young Mosswart (4249) */;
+     , (0x7B862001, 0x7B862008, '2019-02-10 00:00:00') /* Young Mosswart (4249) */
+     , (0x7B862001, 0x7B862009, '2019-02-10 00:00:00') /* Creeper Mosswart (8) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B862002,   193, 0xB862001D, 95.98972, 107.165, 6.003325, 0.4226182, 0, 0, -0.9063078,  True, '2019-02-10 00:00:00'); /* Drudge Slinker */
@@ -42,12 +43,16 @@ VALUES (0x7B862008,  4249, 0xB8620039, 185.9955, 2.623617, 5.9044, -0.8235644, 0
 /* @teleloc 0xB8620039 [185.995500 2.623617 5.904400] -0.823564 0.000000 0.000000 -0.567223 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B862009,  1542, 0xB862001D, 92.21783, 105.1084, 6, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B862009,     8, 0xB8620039, 179.2015, 9.792478, 5.55495, -0.8235644, 0, 0, -0.5672228,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
+/* @teleloc 0xB8620039 [179.201500 9.792478 5.554950] -0.823564 0.000000 0.000000 -0.567223 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B86200A,  1542, 0xB862001D, 92.21783, 105.1084, 6, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB862001D [92.217830 105.108400 6.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B862009, 0x7B86200A, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
+VALUES (0x7B86200A, 0x7B86200B, '2019-02-10 00:00:00') /* Runed Chest (22572) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B86200A, 22572, 0xB862001D, 92.21783, 105.1084, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7B86200B, 22572, 0xB862001D, 92.21783, 105.1084, 6, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xB862001D [92.217830 105.108400 6.000000] 1.000000 0.000000 0.000000 0.000000 */

@@ -55,7 +55,11 @@ VALUES (0x72A17001, 0x72A17002, '2019-02-10 00:00:00') /* Exploration Marker (39
      , (0x72A17001, 0x72A17031, '2019-02-10 00:00:00') /* Abyssal Shadow (23562) */
      , (0x72A17001, 0x72A17032, '2019-02-10 00:00:00') /* Acidic Diamond Golem (36829) */
      , (0x72A17001, 0x72A17033, '2019-02-10 00:00:00') /* Panumbris Shadow (4253) */
-     , (0x72A17001, 0x72A17034, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */;
+     , (0x72A17001, 0x72A17034, '2019-02-10 00:00:00') /* Lesser Void Knight (25662) */
+     , (0x72A17001, 0x72A17035, '2019-02-10 00:00:00') /* Imperial Mu-miyah (7119) */
+     , (0x72A17001, 0x72A17036, '2019-02-10 00:00:00') /* Nomad Mu-miyah (8431) */
+     , (0x72A17001, 0x72A17037, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x72A17001, 0x72A17038, '2019-02-10 00:00:00') /* Great Revenant (24320) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72A17002, 39796, 0x2A170029, 136.728, 23.0179, 23.47584, 0.7008231, 0, 0, -0.7133351,  True, '2019-02-10 00:00:00'); /* Exploration Marker */
@@ -262,22 +266,48 @@ VALUES (0x72A17034, 25662, 0x2A17000B, 34.97923, 49.13206, 9.279242, 0.3552814, 
 /* @teleloc 0x2A17000B [34.979230 49.132060 9.279242] 0.355281 0.000000 0.000000 -0.934759 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A17035,  1542, 0x2A170023, 107.0205, 70.00086, 20.31568, 0.9720148, 0, 0, -0.2349196, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x72A17035,  7119, 0x2A17001A, 90.9345, 45.28581, 15.22945, -0.9629372, 0, 0, -0.2697255,  True, '2019-02-10 00:00:00'); /* Imperial Mu-miyah */
+/* @teleloc 0x2A17001A [90.934500 45.285810 15.229450] -0.962937 0.000000 0.000000 -0.269726 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A17036,  8431, 0x2A17002B, 126.0587, 62.98048, 22.49997, 0.9720148, 0, 0, -0.2349196,  True, '2019-02-10 00:00:00'); /* Nomad Mu-miyah */
+/* @teleloc 0x2A17002B [126.058700 62.980480 22.499970] 0.972015 0.000000 0.000000 -0.234920 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A17037, 24497, 0x2A170012, 48.80204, 35.97384, 8.076837, 0.3552814, 0, 0, -0.9347594,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x2A170012 [48.802040 35.973840 8.076837] 0.355281 0.000000 0.000000 -0.934759 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A17038, 24320, 0x2A17001E, 85.07051, 140.4503, 12.91904, -0.6872005, 0, 0, -0.7264678,  True, '2019-02-10 00:00:00'); /* Great Revenant */
+/* @teleloc 0x2A17001E [85.070510 140.450300 12.919040] -0.687201 0.000000 0.000000 -0.726468 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A17039,  1542, 0x2A170023, 107.0205, 70.00086, 20.31568, 0.9720148, 0, 0, -0.2349196, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x2A170023 [107.020500 70.000860 20.315680] 0.972015 0.000000 0.000000 -0.234920 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x72A17035, 0x72A17036, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
-     , (0x72A17035, 0x72A17037, '2019-02-10 00:00:00') /* Steel Chest (8999) */
-     , (0x72A17035, 0x72A17038, '2019-02-10 00:00:00') /* Runed Chest (22571) */;
+VALUES (0x72A17039, 0x72A1703A, '2019-02-10 00:00:00') /* Singularity Trove (9288) */
+     , (0x72A17039, 0x72A1703B, '2019-02-10 00:00:00') /* Steel Chest (8999) */
+     , (0x72A17039, 0x72A1703C, '2019-02-10 00:00:00') /* Runed Chest (22571) */
+     , (0x72A17039, 0x72A1703D, '2019-02-10 00:00:00') /* Portal to Zaikhal (42831) */
+     , (0x72A17039, 0x72A1703E, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A17036,  9288, 0x2A170023, 107.0205, 70.00086, 20.31568, 0.9720148, 0, 0, -0.2349196,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
+VALUES (0x72A1703A,  9288, 0x2A170023, 107.0205, 70.00086, 20.31568, 0.9720148, 0, 0, -0.2349196,  True, '2019-02-10 00:00:00'); /* Singularity Trove */
 /* @teleloc 0x2A170023 [107.020500 70.000860 20.315680] 0.972015 0.000000 0.000000 -0.234920 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A17037,  8999, 0x2A17001A, 73.15871, 28.2652, 10.19312, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
+VALUES (0x72A1703B,  8999, 0x2A17001A, 73.15871, 28.2652, 10.19312, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Steel Chest */
 /* @teleloc 0x2A17001A [73.158710 28.265200 10.193120] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x72A17038, 22571, 0x2A17001E, 94.71018, 135.1692, 12.10748, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x72A1703C, 22571, 0x2A17001E, 94.71018, 135.1692, 12.10748, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0x2A17001E [94.710180 135.169200 12.107480] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A1703D, 42831, 0x2A17002A, 135.7782, 30.57083, 24.34699, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Portal to Zaikhal */
+/* @teleloc 0x2A17002A [135.778200 30.570830 24.346990] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72A1703E,  1955, 0x2A170031, 147.1436, 22.72019, 23.46173, 0.6950676, 0, 0, -0.7189444,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0x2A170031 [147.143600 22.720190 23.461730] 0.695068 0.000000 0.000000 -0.718944 */

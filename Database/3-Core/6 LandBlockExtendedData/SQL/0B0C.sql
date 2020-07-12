@@ -179,7 +179,10 @@ VALUES (0x70B0C006, 0x70B0C007, '2019-02-10 00:00:00') /* Shadow Cyst (33165) */
      , (0x70B0C006, 0x70B0C0AE, '2019-02-10 00:00:00') /* Ravager (25852) */
      , (0x70B0C006, 0x70B0C0AF, '2019-02-10 00:00:00') /* Shadow Nightmare (27426) */
      , (0x70B0C006, 0x70B0C0B0, '2019-02-10 00:00:00') /* Twisted Shadow (31280) */
-     , (0x70B0C006, 0x70B0C0B1, '2019-02-10 00:00:00') /* Biaka (25859) */;
+     , (0x70B0C006, 0x70B0C0B1, '2019-02-10 00:00:00') /* Biaka (25859) */
+     , (0x70B0C006, 0x70B0C0B2, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x70B0C006, 0x70B0C0B3, '2019-02-10 00:00:00') /* Ravager (25852) */
+     , (0x70B0C006, 0x70B0C0B4, '2019-02-10 00:00:00') /* Ravager (25852) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70B0C007, 33165, 0x0B0C0103, 108.344, 156.067, 278.655, -0.697688, 0, 0, 0.716402,  True, '2019-02-10 00:00:00'); /* Shadow Cyst */
@@ -866,12 +869,24 @@ VALUES (0x70B0C0B1, 25859, 0x0B0C0022, 105.7676, 42.9486, 79.72491, 1, 0, 0, 0, 
 /* @teleloc 0x0B0C0022 [105.767600 42.948600 79.724910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B0C0B2,  1542, 0x0B0C0027, 108, 156.5, 111.38, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70B0C0B2, 25852, 0x0B0C0022, 104.2733, 45.77585, 81.94481, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x0B0C0022 [104.273300 45.775850 81.944810] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0C0B3, 25852, 0x0B0C0008, 8.403761, 176.4095, 59.09253, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x0B0C0008 [8.403761 176.409500 59.092530] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0C0B4, 25852, 0x0B0C0008, 5.520361, 172.6019, 61.62174, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ravager */
+/* @teleloc 0x0B0C0008 [5.520361 172.601900 61.621740] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70B0C0B5,  1542, 0x0B0C0027, 108, 156.5, 111.38, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x0B0C0027 [108.000000 156.500000 111.380000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70B0C0B2, 0x70B0C0B3, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x70B0C0B5, 0x70B0C0B6, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70B0C0B3,  1955, 0x0B0C0027, 108, 156.5, 111.38, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x70B0C0B6,  1955, 0x0B0C0027, 108, 156.5, 111.38, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x0B0C0027 [108.000000 156.500000 111.380000] 1.000000 0.000000 0.000000 0.000000 */

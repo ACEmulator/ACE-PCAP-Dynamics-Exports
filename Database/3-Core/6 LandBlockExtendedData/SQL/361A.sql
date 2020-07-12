@@ -15,7 +15,10 @@ VALUES (0x7361A001, 0x7361A002, '2019-02-10 00:00:00') /* Cursed Wisp (7126) */
      , (0x7361A001, 0x7361A009, '2019-02-10 00:00:00') /* Terebrous Hollow Minion (10787) */
      , (0x7361A001, 0x7361A00A, '2019-02-10 00:00:00') /* Rampager (10810) */
      , (0x7361A001, 0x7361A00B, '2019-02-10 00:00:00') /* Rampager (10810) */
-     , (0x7361A001, 0x7361A00C, '2019-02-10 00:00:00') /* Firestorm (7092) */;
+     , (0x7361A001, 0x7361A00C, '2019-02-10 00:00:00') /* Firestorm (7092) */
+     , (0x7361A001, 0x7361A00D, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7361A001, 0x7361A00E, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */
+     , (0x7361A001, 0x7361A00F, '2019-02-10 00:00:00') /* Gotrok Tiatus (24497) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7361A002,  7126, 0x361A003F, 187.9814, 148.3673, 15.60699, 0.8090858, 0, 0, -0.5876905,  True, '2019-02-10 00:00:00'); /* Cursed Wisp */
@@ -60,3 +63,15 @@ VALUES (0x7361A00B, 10810, 0x361A0006, 15.8322, 128.358, 52.05515, 0.721665, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7361A00C,  7092, 0x361A003F, 180.3759, 147.6721, 15.70249, 0.8090858, 0, 0, -0.5876905,  True, '2019-02-10 00:00:00'); /* Firestorm */
 /* @teleloc 0x361A003F [180.375900 147.672100 15.702490] 0.809086 0.000000 0.000000 -0.587691 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7361A00D, 24497, 0x361A0036, 166.3177, 131.7705, 16.01, -0.08715577, 0, 0, -0.9961947,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x361A0036 [166.317700 131.770500 16.010000] -0.087156 0.000000 0.000000 -0.996195 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7361A00E, 24497, 0x361A0037, 166.4108, 144.4193, 15.97506, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x361A0037 [166.410800 144.419300 15.975060] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7361A00F, 24497, 0x361A003E, 173.2606, 129.822, 16.01, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Gotrok Tiatus */
+/* @teleloc 0x361A003E [173.260600 129.822000 16.010000] 0.923880 0.000000 0.000000 -0.382684 */

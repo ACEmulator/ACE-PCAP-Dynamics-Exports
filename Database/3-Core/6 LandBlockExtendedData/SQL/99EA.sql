@@ -33,7 +33,14 @@ VALUES (0x799EA001, 0x799EA002, '2019-02-10 00:00:00') /* Dire Ursuin (7994) */
      , (0x799EA001, 0x799EA01B, '2019-02-10 00:00:00') /* Blighted Oak Golem (38177) */
      , (0x799EA001, 0x799EA01C, '2019-02-10 00:00:00') /* Altered Drudge (7335) */
      , (0x799EA001, 0x799EA01D, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
-     , (0x799EA001, 0x799EA01E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */;
+     , (0x799EA001, 0x799EA01E, '2019-02-10 00:00:00') /* Altered Drudge (7089) */
+     , (0x799EA001, 0x799EA01F, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799EA001, 0x799EA020, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799EA001, 0x799EA021, '2019-02-10 00:00:00') /* Terrible Monouga (24293) */
+     , (0x799EA001, 0x799EA022, '2019-02-10 00:00:00') /* Unruly Monouga (24294) */
+     , (0x799EA001, 0x799EA023, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x799EA001, 0x799EA024, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
+     , (0x799EA001, 0x799EA025, '2019-02-10 00:00:00') /* Hoary Armoredillo (7084) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x799EA002,  7994, 0x99EA0011, 61.06276, 12.97993, 88.90726, 0.930801, 0, 0, -0.3655263,  True, '2019-02-10 00:00:00'); /* Dire Ursuin */
@@ -152,12 +159,40 @@ VALUES (0x799EA01E,  7089, 0x99EA001F, 77.86533, 160.1261, 50.46181, 0.9238795, 
 /* @teleloc 0x99EA001F [77.865330 160.126100 50.461810] 0.923880 0.000000 0.000000 -0.382684 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x799EA01F,  1542, 0x99EA0021, 118.0441, 22.44948, 99.37016, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x799EA01F, 24293, 0x99EA0026, 112.0976, 138.1266, 60.63325, 0.4227495, 0, 0, -0.9062465,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
+/* @teleloc 0x99EA0026 [112.097600 138.126600 60.633250] 0.422750 0.000000 0.000000 -0.906247 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA020, 24294, 0x99EA0006, 11.25041, 127.5733, 54.09916, 0.2588191, 0, 0, -0.9659258,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0x99EA0006 [11.250410 127.573300 54.099160] 0.258819 0.000000 0.000000 -0.965926 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA021, 24293, 0x99EA0006, 11.69058, 123.0251, 55.23622, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Terrible Monouga */
+/* @teleloc 0x99EA0006 [11.690580 123.025100 55.236220] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA022, 24294, 0x99EA0006, 10.18294, 122.246, 55.431, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Unruly Monouga */
+/* @teleloc 0x99EA0006 [10.182940 122.246000 55.431000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA023,  7090, 0x99EA0012, 60.02549, 25.52298, 88.90726, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
+/* @teleloc 0x99EA0012 [60.025490 25.522980 88.907260] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA024,  7090, 0x99EA0011, 61.78416, 23.88987, 88.90726, 0.7372774, 0, 0, -0.6755902,  True, '2019-02-10 00:00:00'); /* Augmented Drudge */
+/* @teleloc 0x99EA0011 [61.784160 23.889870 88.907260] 0.737277 0.000000 0.000000 -0.675590 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA025,  7084, 0x99EA002B, 128.285, 48.94481, 100.536, -0.1478943, 0, 0, -0.9890032,  True, '2019-02-10 00:00:00'); /* Hoary Armoredillo */
+/* @teleloc 0x99EA002B [128.285000 48.944810 100.536000] -0.147894 0.000000 0.000000 -0.989003 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x799EA026,  1542, 0x99EA0021, 118.0441, 22.44948, 99.37016, -4.371139E-08, 0, 0, -1, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x99EA0021 [118.044100 22.449480 99.370160] 0.000000 0.000000 0.000000 -1.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x799EA01F, 0x799EA020, '2019-02-10 00:00:00') /* Bones (4380) */;
+VALUES (0x799EA026, 0x799EA027, '2019-02-10 00:00:00') /* Bones (4380) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x799EA020,  4380, 0x99EA0021, 118.0441, 22.44948, 99.37016, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
+VALUES (0x799EA027,  4380, 0x99EA0021, 118.0441, 22.44948, 99.37016, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Bones */
 /* @teleloc 0x99EA0021 [118.044100 22.449480 99.370160] 0.000000 0.000000 0.000000 -1.000000 */

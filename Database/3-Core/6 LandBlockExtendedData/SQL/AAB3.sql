@@ -382,7 +382,9 @@ VALUES (0x7AAB3048, 0x7AAB3049, '2019-02-10 00:00:00') /* Sir Rylanan (14413) */
      , (0x7AAB3048, 0x7AAB306C, '2019-02-10 00:00:00') /* Sentry (14457) */
      , (0x7AAB3048, 0x7AAB306D, '2019-02-10 00:00:00') /* Sentry (14458) */
      , (0x7AAB3048, 0x7AAB306E, '2019-02-10 00:00:00') /* Sentry (14458) */
-     , (0x7AAB3048, 0x7AAB306F, '2019-02-10 00:00:00') /* Sentry (14458) */;
+     , (0x7AAB3048, 0x7AAB306F, '2019-02-10 00:00:00') /* Sentry (14458) */
+     , (0x7AAB3048, 0x7AAB3070, '2019-02-10 00:00:00') /* Sentry (14458) */
+     , (0x7AAB3048, 0x7AAB3071, '2019-02-10 00:00:00') /* Sentry (14457) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB3049, 14413, 0xAAB30100, 34.9576, 87.9917, 116.005, -0.7194993, 0, 0, -0.6944931,  True, '2019-02-10 00:00:00'); /* Sir Rylanan */
@@ -541,22 +543,30 @@ VALUES (0x7AAB306F, 14458, 0xAAB30014, 58.91517, 72.08307, 116.005, -0.2532858, 
 /* @teleloc 0xAAB30014 [58.915170 72.083070 116.005000] -0.253286 0.000000 0.000000 -0.967392 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB3070,  1542, 0xAAB30101, 36.7057, 84.2083, 115.937, -0.2662369, 0, 0, 0.9639077, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7AAB3070, 14458, 0xAAB30014, 59.14597, 72.48886, 116.005, 0.9675659, 0, 0, -0.2526188,  True, '2019-02-10 00:00:00'); /* Sentry */
+/* @teleloc 0xAAB30014 [59.145970 72.488860 116.005000] 0.967566 0.000000 0.000000 -0.252619 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AAB3071, 14457, 0xAAB30004, 16.89514, 83.0584, 116.005, -0.01763471, 0, 0, -0.9998445,  True, '2019-02-10 00:00:00'); /* Sentry */
+/* @teleloc 0xAAB30004 [16.895140 83.058400 116.005000] -0.017635 0.000000 0.000000 -0.999845 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AAB3072,  1542, 0xAAB30101, 36.7057, 84.2083, 115.937, -0.2662369, 0, 0, 0.9639077, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xAAB30101 [36.705700 84.208300 115.937000] -0.266237 0.000000 0.000000 0.963908 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB3070, 0x7AAB3071, '2019-02-10 00:00:00') /* Underground Passage (14449) */
-     , (0x7AAB3070, 0x7AAB3072, '2019-02-10 00:00:00') /* Bundle of Deadly Fire Arrowheads (15417) */
-     , (0x7AAB3070, 0x7AAB3073, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */;
+VALUES (0x7AAB3072, 0x7AAB3073, '2019-02-10 00:00:00') /* Underground Passage (14449) */
+     , (0x7AAB3072, 0x7AAB3074, '2019-02-10 00:00:00') /* Bundle of Deadly Fire Arrowheads (15417) */
+     , (0x7AAB3072, 0x7AAB3075, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB3071, 14449, 0xAAB30101, 36.7057, 84.2083, 115.937, -0.2662369, 0, 0, 0.9639077,  True, '2019-02-10 00:00:00'); /* Underground Passage */
+VALUES (0x7AAB3073, 14449, 0xAAB30101, 36.7057, 84.2083, 115.937, -0.2662369, 0, 0, 0.9639077,  True, '2019-02-10 00:00:00'); /* Underground Passage */
 /* @teleloc 0xAAB30101 [36.705700 84.208300 115.937000] -0.266237 0.000000 0.000000 0.963908 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB3072, 15417, 0xAAB30007, 6.159427, 146.8799, 107.0495, -0.4543141, 0, 0, 0.8908415,  True, '2019-02-10 00:00:00'); /* Bundle of Deadly Fire Arrowheads */
+VALUES (0x7AAB3074, 15417, 0xAAB30007, 6.159427, 146.8799, 107.0495, -0.4543141, 0, 0, 0.8908415,  True, '2019-02-10 00:00:00'); /* Bundle of Deadly Fire Arrowheads */
 /* @teleloc 0xAAB30007 [6.159427 146.879900 107.049500] -0.454314 0.000000 0.000000 0.890842 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB3073, 27329, 0xAAB30005, 0.2464875, 102.5756, 115.0195, -0.9999799, 0, 0, -0.006351341,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */
+VALUES (0x7AAB3075, 27329, 0xAAB30005, 0.2464875, 102.5756, 115.0195, -0.9999799, 0, 0, -0.006351341,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */
 /* @teleloc 0xAAB30005 [0.246488 102.575600 115.019500] -0.999980 0.000000 0.000000 -0.006351 */

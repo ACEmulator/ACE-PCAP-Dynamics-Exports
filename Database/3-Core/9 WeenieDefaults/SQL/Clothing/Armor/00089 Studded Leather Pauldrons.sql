@@ -14,8 +14,7 @@ VALUES (89,   1,          2) /* ItemType - Armor */
      , (89,  28,        246) /* ArmorLevel */
      , (89,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (89, 105,          8) /* ItemWorkmanship */
-     , (89, 131,         52) /* MaterialType - Leather */
-     , (89, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (89, 131,         52) /* MaterialType - Leather */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (89,  22, True ) /* Inscribable */

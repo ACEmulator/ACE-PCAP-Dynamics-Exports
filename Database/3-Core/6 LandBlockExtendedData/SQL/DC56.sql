@@ -21,7 +21,9 @@ VALUES (0x7DC56001, 0x7DC56002, '2019-02-10 00:00:00') /* Creeper Mosswart (1926
      , (0x7DC56001, 0x7DC5600F, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
      , (0x7DC56001, 0x7DC56010, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */
      , (0x7DC56001, 0x7DC56011, '2019-02-10 00:00:00') /* Creeper Mosswart (19261) */
-     , (0x7DC56001, 0x7DC56012, '2019-02-10 00:00:00') /* Mite Scion (19259) */;
+     , (0x7DC56001, 0x7DC56012, '2019-02-10 00:00:00') /* Mite Scion (19259) */
+     , (0x7DC56001, 0x7DC56013, '2019-02-10 00:00:00') /* Young Mosswart (19262) */
+     , (0x7DC56001, 0x7DC56014, '2019-02-10 00:00:00') /* Spiny Armoredillo (177) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC56002, 19261, 0xDC560021, 101.8334, 19.87587, 7.518836, -0.2763607, 0, 0, -0.961054,  True, '2019-02-10 00:00:00'); /* Creeper Mosswart */
@@ -90,3 +92,11 @@ VALUES (0x7DC56011, 19261, 0xDC56001E, 77.92869, 124.6486, 5.90495, -0.693132, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DC56012, 19259, 0xDC56001F, 79.63215, 149.3365, 5.105, 0.7338259, 0, 0, -0.6793376,  True, '2019-02-10 00:00:00'); /* Mite Scion */
 /* @teleloc 0xDC56001F [79.632150 149.336500 5.105000] 0.733826 0.000000 0.000000 -0.679338 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC56013, 19262, 0xDC56001F, 80.047, 150.1743, 5.1044, 0.7338259, 0, 0, -0.6793376,  True, '2019-02-10 00:00:00'); /* Young Mosswart */
+/* @teleloc 0xDC56001F [80.047000 150.174300 5.104400] 0.733826 0.000000 0.000000 -0.679338 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7DC56014,   177, 0xDC56002D, 130.075, 116.7355, 5.108925, 0.9915959, 0, 0, -0.129374,  True, '2019-02-10 00:00:00'); /* Spiny Armoredillo */
+/* @teleloc 0xDC56002D [130.075000 116.735500 5.108925] 0.991596 0.000000 0.000000 -0.129374 */

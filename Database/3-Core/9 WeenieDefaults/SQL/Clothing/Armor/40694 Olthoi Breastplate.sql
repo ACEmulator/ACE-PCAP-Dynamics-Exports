@@ -26,7 +26,6 @@ VALUES (40694,   1,          2) /* ItemType - Armor */
      , (40694, 159,          6) /* WieldSkillType - MeleeDefense */
      , (40694, 160,        370) /* WieldDifficulty */
      , (40694, 171,          2) /* NumTimesTinkered */
-     , (40694, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (40694, 177,          3) /* GemCount */
      , (40694, 178,         34) /* GemType */
      , (40694, 265,         26) /* EquipmentSetId - Flameproof */

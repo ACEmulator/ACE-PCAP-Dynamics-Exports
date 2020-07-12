@@ -103,7 +103,8 @@ VALUES (0x702D405D, 0x702D405E, '2019-02-10 00:00:00') /* Abhorrent Eater (28641
      , (0x702D405D, 0x702D40B5, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
      , (0x702D405D, 0x702D40B6, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
      , (0x702D405D, 0x702D40B7, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
-     , (0x702D405D, 0x702D40B8, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */;
+     , (0x702D405D, 0x702D40B8, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
+     , (0x702D405D, 0x702D40B9, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D405E, 28641, 0x02D4024F, 102.026, -26.7802, -6, 0.7072073, 0, 0, 0.7070063,  True, '2019-02-10 00:00:00'); /* Abhorrent Eater */
@@ -470,52 +471,56 @@ VALUES (0x702D40B8, 28641, 0x02D401CE, 31.00219, -3.110924, -30, -0.999714, 0, 0
 /* @teleloc 0x02D401CE [31.002190 -3.110924 -30.000000] -0.999714 0.000000 0.000000 -0.023915 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40B9,  1542, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 0, 0, 0.7037655, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x702D40B9, 28641, 0x02D401EC, 138.4399, -25.58026, -30, -0.1763071, 0, 0, -0.9843352,  True, '2019-02-10 00:00:00'); /* Abhorrent Eater */
+/* @teleloc 0x02D401EC [138.439900 -25.580260 -30.000000] -0.176307 0.000000 0.000000 -0.984335 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702D40BA,  1542, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 0, 0, 0.7037655, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x02D4012B [75.223510 -109.728300 -96.063000] 0.710432 0.000000 0.000000 0.703766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x702D40B9, 0x702D40BA, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x702D40B9, 0x702D40BB, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x702D40B9, 0x702D40BC, '2019-02-10 00:00:00') /* Scroll of Archer's Bane (20423) */
-     , (0x702D40B9, 0x702D40BD, '2019-02-10 00:00:00') /* Aura of Infected Caress (20406) */
-     , (0x702D40B9, 0x702D40BE, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing (20427) */
-     , (0x702D40B9, 0x702D40BF, '2019-02-10 00:00:00') /* Scroll of Brittle Bones (20242) */
-     , (0x702D40B9, 0x702D40C0, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x702D40B9, 0x702D40C1, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x702D40B9, 0x702D40C2, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x702D40BA, 0x702D40BB, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40BA, 0x702D40BC, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40BA, 0x702D40BD, '2019-02-10 00:00:00') /* Scroll of Archer's Bane (20423) */
+     , (0x702D40BA, 0x702D40BE, '2019-02-10 00:00:00') /* Aura of Infected Caress (20406) */
+     , (0x702D40BA, 0x702D40BF, '2019-02-10 00:00:00') /* Aura of Mystic's Blessing (20427) */
+     , (0x702D40BA, 0x702D40C0, '2019-02-10 00:00:00') /* Scroll of Brittle Bones (20242) */
+     , (0x702D40BA, 0x702D40C1, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40BA, 0x702D40C2, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40BA, 0x702D40C3, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40BA,  1955, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 0, 0, 0.7037655,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x702D40BB,  1955, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 0, 0, 0.7037655,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02D4012B [75.223510 -109.728300 -96.063000] 0.710432 0.000000 0.000000 0.703766 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40BB,  1955, 0x02D4011C, 69.73959, -100.7516, -96.063, 0.0550874, 0, 0, -0.9984815,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x702D40BC,  1955, 0x02D4011C, 69.73959, -100.7516, -96.063, 0.0550874, 0, 0, -0.9984815,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02D4011C [69.739590 -100.751600 -96.063000] 0.055087 0.000000 0.000000 -0.998482 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40BC, 20423, 0x02D40200, 29.22253, -27.4026, -23.9145, 0.6020128, 0, 0, -0.7984865,  True, '2019-02-10 00:00:00'); /* Scroll of Archer's Bane */
+VALUES (0x702D40BD, 20423, 0x02D40200, 29.22253, -27.4026, -23.9145, 0.6020128, 0, 0, -0.7984865,  True, '2019-02-10 00:00:00'); /* Scroll of Archer's Bane */
 /* @teleloc 0x02D40200 [29.222530 -27.402600 -23.914500] 0.602013 0.000000 0.000000 -0.798487 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40BD, 20406, 0x02D40200, 29.22253, -27.4026, -23.9145, 0.6020128, 0, 0, -0.7984865,  True, '2019-02-10 00:00:00'); /* Aura of Infected Caress */
+VALUES (0x702D40BE, 20406, 0x02D40200, 29.22253, -27.4026, -23.9145, 0.6020128, 0, 0, -0.7984865,  True, '2019-02-10 00:00:00'); /* Aura of Infected Caress */
 /* @teleloc 0x02D40200 [29.222530 -27.402600 -23.914500] 0.602013 0.000000 0.000000 -0.798487 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40BE, 20427, 0x02D401AF, 91.61651, -31.46251, -63.48825, -0.6870741, 0, 0, 0.7265873,  True, '2019-02-10 00:00:00'); /* Aura of Mystic's Blessing */
+VALUES (0x702D40BF, 20427, 0x02D401AF, 91.61651, -31.46251, -63.48825, -0.6870741, 0, 0, 0.7265873,  True, '2019-02-10 00:00:00'); /* Aura of Mystic's Blessing */
 /* @teleloc 0x02D401AF [91.616510 -31.462510 -63.488250] -0.687074 0.000000 0.000000 0.726587 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40BF, 20242, 0x02D401AF, 91.61651, -31.46251, -63.48825, -0.6870741, 0, 0, 0.7265873,  True, '2019-02-10 00:00:00'); /* Scroll of Brittle Bones */
+VALUES (0x702D40C0, 20242, 0x02D401AF, 91.61651, -31.46251, -63.48825, -0.6870741, 0, 0, 0.7265873,  True, '2019-02-10 00:00:00'); /* Scroll of Brittle Bones */
 /* @teleloc 0x02D401AF [91.616510 -31.462510 -63.488250] -0.687074 0.000000 0.000000 0.726587 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40C0,  1955, 0x02D40116, 70.24837, -94.29469, -96.063, 0.05472126, 0, 0, -0.9985017,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x702D40C1,  1955, 0x02D40116, 70.24837, -94.29469, -96.063, 0.05472126, 0, 0, -0.9985017,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02D40116 [70.248370 -94.294690 -96.063000] 0.054721 0.000000 0.000000 -0.998502 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40C1,  1955, 0x02D40117, 68.64194, -89.19262, -96.063, -0.7499343, 0, 0, 0.6615123,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x702D40C2,  1955, 0x02D40117, 68.64194, -89.19262, -96.063, -0.7499343, 0, 0, 0.6615123,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02D40117 [68.641940 -89.192620 -96.063000] -0.749934 0.000000 0.000000 0.661512 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x702D40C2,  1955, 0x02D4011C, 69.17572, -97.96506, -96.063, 0.06017231, 0, 0, 0.998188,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x702D40C3,  1955, 0x02D4011C, 69.17572, -97.96506, -96.063, 0.06017231, 0, 0, 0.998188,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02D4011C [69.175720 -97.965060 -96.063000] 0.060172 0.000000 0.000000 0.998188 */

@@ -26,7 +26,8 @@ VALUES (0x7D75C001, 0x7D75C002, '2019-02-10 00:00:00') /* Outcast Monouga (2612)
      , (0x7D75C001, 0x7D75C014, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
      , (0x7D75C001, 0x7D75C015, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
      , (0x7D75C001, 0x7D75C016, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
-     , (0x7D75C001, 0x7D75C017, '2019-02-10 00:00:00') /* Skeleton (1759) */;
+     , (0x7D75C001, 0x7D75C017, '2019-02-10 00:00:00') /* Skeleton (1759) */
+     , (0x7D75C001, 0x7D75C018, '2019-02-10 00:00:00') /* Skeleton (1759) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75C002,  2612, 0xD75C003F, 185.7026, 150.4984, 5.092501, -0.9380593, 0, 0, -0.3464748,  True, '2019-02-10 00:00:00'); /* Outcast Monouga */
@@ -115,3 +116,7 @@ VALUES (0x7D75C016,   940, 0xD75C000E, 41.62949, 125.4411, 5.1042, -0.9996642, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75C017,  1759, 0xD75C003F, 186.139, 152.0853, 5.1025, -0.9380593, 0, 0, -0.3464748,  True, '2019-02-10 00:00:00'); /* Skeleton */
 /* @teleloc 0xD75C003F [186.139000 152.085300 5.102500] -0.938059 0.000000 0.000000 -0.346475 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D75C018,  1759, 0xD75C000E, 42.18018, 125.6583, 5.1025, -0.9996642, 0, 0, -0.02591168,  True, '2019-02-10 00:00:00'); /* Skeleton */
+/* @teleloc 0xD75C000E [42.180180 125.658300 5.102500] -0.999664 0.000000 0.000000 -0.025912 */

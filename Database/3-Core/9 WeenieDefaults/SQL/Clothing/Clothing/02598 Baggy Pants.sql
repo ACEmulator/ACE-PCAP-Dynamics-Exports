@@ -13,8 +13,7 @@ VALUES (2598,   1,          4) /* ItemType - Clothing */
      , (2598,  28,          0) /* ArmorLevel */
      , (2598,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2598, 105,          7) /* ItemWorkmanship */
-     , (2598, 131,          5) /* MaterialType - Satin */
-     , (2598, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (2598, 131,          5) /* MaterialType - Satin */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (2598,  22, True ) /* Inscribable */

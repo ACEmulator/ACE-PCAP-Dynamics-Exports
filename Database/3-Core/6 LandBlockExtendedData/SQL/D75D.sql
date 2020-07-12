@@ -33,7 +33,9 @@ VALUES (0x7D75D001, 0x7D75D002, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7D75D001, 0x7D75D01B, '2019-02-10 00:00:00') /* Tumerok Scout (232) */
      , (0x7D75D001, 0x7D75D01C, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7D75D001, 0x7D75D01D, '2019-02-10 00:00:00') /* Green Phyntos Wasp (216) */
-     , (0x7D75D001, 0x7D75D01E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */;
+     , (0x7D75D001, 0x7D75D01E, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
+     , (0x7D75D001, 0x7D75D01F, '2019-02-10 00:00:00') /* Carrion Shreth (4109) */
+     , (0x7D75D001, 0x7D75D020, '2019-02-10 00:00:00') /* Tumerok Scout (232) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75D002,  1759, 0xD75D002C, 139.2598, 76.61485, 6.0025, -0.9071246, 0, 0, -0.4208621,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -150,3 +152,11 @@ VALUES (0x7D75D01D,   216, 0xD75D003A, 174.5361, 42.31431, 6.012, 0.4509317, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D75D01E,   223, 0xD75D002C, 139.8269, 77.62543, 6.001, -0.9071246, 0, 0, -0.4208621,  True, '2019-02-10 00:00:00'); /* Reedshark Pup */
 /* @teleloc 0xD75D002C [139.826900 77.625430 6.001000] -0.907125 0.000000 0.000000 -0.420862 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D75D01F,  4109, 0xD75D0005, 3.59604, 115.2442, 5.896, -0.9903554, 0, 0, -0.1385503,  True, '2019-02-10 00:00:00'); /* Carrion Shreth */
+/* @teleloc 0xD75D0005 [3.596040 115.244200 5.896000] -0.990355 0.000000 0.000000 -0.138550 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D75D020,   232, 0xD75D0005, 20.94616, 99.24516, 5.905, 0.7551735, 0, 0, -0.655525,  True, '2019-02-10 00:00:00'); /* Tumerok Scout */
+/* @teleloc 0xD75D0005 [20.946160 99.245160 5.905000] 0.755174 0.000000 0.000000 -0.655525 */

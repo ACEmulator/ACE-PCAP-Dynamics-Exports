@@ -11,7 +11,8 @@ VALUES (0x7F85F001, 0x7F85F002, '2019-02-10 00:00:00') /* Sand Golem (11531) */
      , (0x7F85F001, 0x7F85F005, '2019-02-10 00:00:00') /* Mosswart Soul Trapper (8430) */
      , (0x7F85F001, 0x7F85F006, '2019-02-10 00:00:00') /* Freshwater Armoredillo (2564) */
      , (0x7F85F001, 0x7F85F007, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
-     , (0x7F85F001, 0x7F85F008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
+     , (0x7F85F001, 0x7F85F008, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */
+     , (0x7F85F001, 0x7F85F009, '2019-02-10 00:00:00') /* Shallows Destroyer (7108) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F85F002, 11531, 0xF85F002B, 135.6528, 60.96169, -0.4399999, 0.3392307, 0, 0, -0.9407032,  True, '2019-02-10 00:00:00'); /* Sand Golem */
@@ -42,22 +43,26 @@ VALUES (0x7F85F008,  7108, 0xF85F002B, 143.7049, 59.80436, -0.4488, 0.8191521, 0
 /* @teleloc 0xF85F002B [143.704900 59.804360 -0.448800] 0.819152 0.000000 0.000000 -0.573577 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F85F009,  1542, 0xF85F001B, 79.38938, 54.11464, -0.09669995, -0.558585, 0, 0, -0.8294472, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7F85F009,  7108, 0xF85F002A, 122.2516, 41.0071, -0.09880006, 0.3392307, 0, 0, -0.9407032,  True, '2019-02-10 00:00:00'); /* Shallows Destroyer */
+/* @teleloc 0xF85F002A [122.251600 41.007100 -0.098800] 0.339231 0.000000 0.000000 -0.940703 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F85F00A,  1542, 0xF85F001B, 79.38938, 54.11464, -0.09669995, -0.558585, 0, 0, -0.8294472, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xF85F001B [79.389380 54.114640 -0.096700] -0.558585 0.000000 0.000000 -0.829447 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F85F009, 0x7F85F00A, '2019-02-10 00:00:00') /* Plush Tusker (9169) */
-     , (0x7F85F009, 0x7F85F00B, '2019-02-10 00:00:00') /* Pack Golem (9179) */
-     , (0x7F85F009, 0x7F85F00C, '2019-02-10 00:00:00') /* Great Elariwood Idol (27808) */;
+VALUES (0x7F85F00A, 0x7F85F00B, '2019-02-10 00:00:00') /* Plush Tusker (9169) */
+     , (0x7F85F00A, 0x7F85F00C, '2019-02-10 00:00:00') /* Pack Golem (9179) */
+     , (0x7F85F00A, 0x7F85F00D, '2019-02-10 00:00:00') /* Great Elariwood Idol (27808) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F85F00A,  9169, 0xF85F001B, 79.38938, 54.11464, -0.09669995, -0.558585, 0, 0, -0.8294472,  True, '2019-02-10 00:00:00'); /* Plush Tusker */
+VALUES (0x7F85F00B,  9169, 0xF85F001B, 79.38938, 54.11464, -0.09669995, -0.558585, 0, 0, -0.8294472,  True, '2019-02-10 00:00:00'); /* Plush Tusker */
 /* @teleloc 0xF85F001B [79.389380 54.114640 -0.096700] -0.558585 0.000000 0.000000 -0.829447 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F85F00B,  9179, 0xF85F001B, 78.92547, 55.12712, -0.097, -0.7464285, 0, 0, -0.6654655,  True, '2019-02-10 00:00:00'); /* Pack Golem */
+VALUES (0x7F85F00C,  9179, 0xF85F001B, 78.92547, 55.12712, -0.097, -0.7464285, 0, 0, -0.6654655,  True, '2019-02-10 00:00:00'); /* Pack Golem */
 /* @teleloc 0xF85F001B [78.925470 55.127120 -0.097000] -0.746429 0.000000 0.000000 -0.665466 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F85F00C, 27808, 0xF85F001B, 79.96079, 55.14048, -0.09999999, -0.8091353, 0, 0, -0.5876224,  True, '2019-02-10 00:00:00'); /* Great Elariwood Idol */
+VALUES (0x7F85F00D, 27808, 0xF85F001B, 79.96079, 55.14048, -0.09999999, -0.8091353, 0, 0, -0.5876224,  True, '2019-02-10 00:00:00'); /* Great Elariwood Idol */
 /* @teleloc 0xF85F001B [79.960790 55.140480 -0.100000] -0.809135 0.000000 0.000000 -0.587622 */

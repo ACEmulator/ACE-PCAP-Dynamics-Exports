@@ -69,7 +69,24 @@ VALUES (0x7C3F2001, 0x7C3F2002, '2019-02-10 00:00:00') /* Black Coral Golem (401
      , (0x7C3F2001, 0x7C3F203F, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
      , (0x7C3F2001, 0x7C3F2040, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
      , (0x7C3F2001, 0x7C3F2041, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
-     , (0x7C3F2001, 0x7C3F2042, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */;
+     , (0x7C3F2001, 0x7C3F2042, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C3F2001, 0x7C3F2043, '2019-02-10 00:00:00') /* Parfal Sleech (33739) */
+     , (0x7C3F2001, 0x7C3F2044, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C3F2001, 0x7C3F2045, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C3F2001, 0x7C3F2046, '2019-02-10 00:00:00') /* Parfal Sleech (40286) */
+     , (0x7C3F2001, 0x7C3F2047, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (33735) */
+     , (0x7C3F2001, 0x7C3F2048, '2019-02-10 00:00:00') /* Shambling Undead Ruschk (40287) */
+     , (0x7C3F2001, 0x7C3F2049, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3F2001, 0x7C3F204A, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F2001, 0x7C3F204B, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F2001, 0x7C3F204C, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F2001, 0x7C3F204D, '2019-02-10 00:00:00') /* Black Coral Golem (40149) */
+     , (0x7C3F2001, 0x7C3F204E, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F2001, 0x7C3F204F, '2019-02-10 00:00:00') /* Black Coral Golem (40289) */
+     , (0x7C3F2001, 0x7C3F2050, '2019-02-10 00:00:00') /* Degenerate Mukkir (33732) */
+     , (0x7C3F2001, 0x7C3F2051, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C3F2001, 0x7C3F2052, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */
+     , (0x7C3F2001, 0x7C3F2053, '2019-02-10 00:00:00') /* Degenerate Mukkir (40281) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3F2002, 40149, 0xC3F2003B, 172.7345, 53.11327, 0.01099992, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
@@ -330,3 +347,82 @@ VALUES (0x7C3F2041, 33732, 0xC3F2003B, 174.1265, 54.57969, 0, 0.7287967, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C3F2042, 40281, 0xC3F2003B, 172.6861, 50.51374, 0, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
 /* @teleloc 0xC3F2003B [172.686100 50.513740 0.000000] 0.728797 0.000000 0.000000 -0.684730 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2043, 33739, 0xC3F20020, 93.52512, 174.8467, -2.235174E-08, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xC3F20020 [93.525120 174.846700 0.000000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2044, 40286, 0xC3F20020, 86.8457, 177.4848, -2.235174E-08, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xC3F20020 [86.845700 177.484800 0.000000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2045, 40286, 0xC3F20020, 91.48828, 176.3709, -2.235174E-08, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xC3F20020 [91.488280 176.370900 0.000000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2046, 40286, 0xC3F20020, 89.78053, 172.7697, -2.235174E-08, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Parfal Sleech */
+/* @teleloc 0xC3F20020 [89.780530 172.769700 0.000000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2047, 33735, 0xC3F2003E, 172.2411, 127.2412, 0.3589266, -0.5049101, 0, 0, -0.863172,  True, '2019-02-10 00:00:00'); /* Shambling Undead Ruschk */
+/* @teleloc 0xC3F2003E [172.241100 127.241200 0.358927] -0.504910 0.000000 0.000000 -0.863172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2048, 40287, 0xC3F2003E, 176.2279, 125.7868, 0.4877375, -0.5049101, 0, 0, -0.863172,  True, '2019-02-10 00:00:00'); /* Shambling Undead Ruschk */
+/* @teleloc 0xC3F2003E [176.227900 125.786800 0.487738] -0.504910 0.000000 0.000000 -0.863172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2049, 40149, 0xC3F2003B, 175.5375, 52.61252, 0.01099992, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F2003B [175.537500 52.612520 0.011000] 0.728797 0.000000 0.000000 -0.684730 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F204A, 40289, 0xC3F2003B, 177.7181, 53.3488, 0.01099992, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F2003B [177.718100 53.348800 0.011000] 0.728797 0.000000 0.000000 -0.684730 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F204B, 40289, 0xC3F2003B, 170.0368, 49.89911, 0.01099992, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F2003B [170.036800 49.899110 0.011000] 0.728797 0.000000 0.000000 -0.684730 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F204C, 40289, 0xC3F2003B, 172.1553, 48.78086, 0.01099992, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F2003B [172.155300 48.780860 0.011000] 0.728797 0.000000 0.000000 -0.684730 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F204D, 40149, 0xC3F20020, 94.45005, 172.1727, 0.01099992, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F20020 [94.450050 172.172700 0.011000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F204E, 40289, 0xC3F20020, 94.72221, 169.8537, 0.01099992, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F20020 [94.722210 169.853700 0.011000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F204F, 40289, 0xC3F20020, 89.58152, 171.4938, 0.01099992, 0.9609828, 0, 0, -0.2766081,  True, '2019-02-10 00:00:00'); /* Black Coral Golem */
+/* @teleloc 0xC3F20020 [89.581520 171.493800 0.011000] 0.960983 0.000000 0.000000 -0.276608 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2050, 33732, 0xC3F2003E, 168.4035, 122.3706, 0.0336253, -0.5049101, 0, 0, -0.863172,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xC3F2003E [168.403500 122.370600 0.033625] -0.504910 0.000000 0.000000 -0.863172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2051, 40281, 0xC3F2003E, 174.707, 128.7943, 0.5589193, -0.5049101, 0, 0, -0.863172,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xC3F2003E [174.707000 128.794300 0.558919] -0.504910 0.000000 0.000000 -0.863172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2052, 40281, 0xC3F2003E, 169.2507, 126.4435, 0.1042239, -0.5049101, 0, 0, -0.863172,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xC3F2003E [169.250700 126.443500 0.104224] -0.504910 0.000000 0.000000 -0.863172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2053, 40281, 0xC3F2003E, 173.949, 124.39, 0.3658352, -0.5049101, 0, 0, -0.863172,  True, '2019-02-10 00:00:00'); /* Degenerate Mukkir */
+/* @teleloc 0xC3F2003E [173.949000 124.390000 0.365835] -0.504910 0.000000 0.000000 -0.863172 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2054,  1542, 0xC3F2003B, 174.1917, 52.02642, -6.984919E-09, 0.7287967, 0, 0, -0.6847302, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xC3F2003B [174.191700 52.026420 0.000000] 0.728797 0.000000 0.000000 -0.684730 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7C3F2054, 0x7C3F2055, '2019-02-10 00:00:00') /* Black Coral (38613) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C3F2055, 38613, 0xC3F2003B, 174.1917, 52.02642, -6.984919E-09, 0.7287967, 0, 0, -0.6847302,  True, '2019-02-10 00:00:00'); /* Black Coral */
+/* @teleloc 0xC3F2003B [174.191700 52.026420 0.000000] 0.728797 0.000000 0.000000 -0.684730 */

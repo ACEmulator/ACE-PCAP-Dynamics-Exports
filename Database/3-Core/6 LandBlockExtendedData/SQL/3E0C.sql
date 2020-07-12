@@ -180,7 +180,26 @@ VALUES (0x73E0C001, 0x73E0C002, '2019-02-10 00:00:00') /* Mogshuth Moarsman (404
      , (0x73E0C001, 0x73E0C0AE, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
      , (0x73E0C001, 0x73E0C0AF, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
      , (0x73E0C001, 0x73E0C0B0, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
-     , (0x73E0C001, 0x73E0C0B1, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */;
+     , (0x73E0C001, 0x73E0C0B1, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73E0C001, 0x73E0C0B2, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73E0C001, 0x73E0C0B3, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73E0C001, 0x73E0C0B4, '2019-02-10 00:00:00') /* Shogshuth Moarsman (40482) */
+     , (0x73E0C001, 0x73E0C0B5, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73E0C001, 0x73E0C0B6, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73E0C001, 0x73E0C0B7, '2019-02-10 00:00:00') /* Great Devourer (40470) */
+     , (0x73E0C001, 0x73E0C0B8, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73E0C001, 0x73E0C0B9, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73E0C001, 0x73E0C0BA, '2019-02-10 00:00:00') /* Tentacle of T'thuun (38831) */
+     , (0x73E0C001, 0x73E0C0BB, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73E0C001, 0x73E0C0BC, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73E0C001, 0x73E0C0BD, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73E0C001, 0x73E0C0BE, '2019-02-10 00:00:00') /* Afessa Sclavus Soldier (40309) */
+     , (0x73E0C001, 0x73E0C0BF, '2019-02-10 00:00:00') /* Siessa Sclavus Soldier (40311) */
+     , (0x73E0C001, 0x73E0C0C0, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x73E0C001, 0x73E0C0C1, '2019-02-10 00:00:00') /* Magshuth Moarsman (40478) */
+     , (0x73E0C001, 0x73E0C0C2, '2019-02-10 00:00:00') /* Maguth Moarsman (40479) */
+     , (0x73E0C001, 0x73E0C0C3, '2019-02-10 00:00:00') /* Tendril of T'thuun (38830) */
+     , (0x73E0C001, 0x73E0C0C4, '2019-02-10 00:00:00') /* Shoguth Moarsman (40483) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0C002, 40480, 0x3E0C0006, 15.72826, 140.263, 0.005599976, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Mogshuth Moarsman */
@@ -885,3 +904,79 @@ VALUES (0x73E0C0B0, 40309, 0x3E0C0015, 71.22684, 104.0492, 0, 0.7876182, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0C0B1, 40482, 0x3E0C0004, 6.768813, 79.17995, 0.005599976, 0.04013648, 0, 0, -0.9991942,  True, '2019-02-10 00:00:00'); /* Shogshuth Moarsman */
 /* @teleloc 0x3E0C0004 [6.768813 79.179950 0.005600] 0.040136 0.000000 0.000000 -0.999194 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B2, 40482, 0x3E0C0006, 16.83503, 139.4358, 0.005599976, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Shogshuth Moarsman */
+/* @teleloc 0x3E0C0006 [16.835030 139.435800 0.005600] -0.805306 0.000000 0.000000 -0.592859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B3, 40478, 0x3E0C0007, 15.66472, 146.7524, 0.2349675, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Magshuth Moarsman */
+/* @teleloc 0x3E0C0007 [15.664720 146.752400 0.234968] -0.805306 0.000000 0.000000 -0.592859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B4, 40482, 0x3E0C0007, 14.33489, 147.1177, 0.2654064, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Shogshuth Moarsman */
+/* @teleloc 0x3E0C0007 [14.334890 147.117700 0.265406] -0.805306 0.000000 0.000000 -0.592859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B5, 40478, 0x3E0C001D, 76.79211, 112.2246, -0.09439999, 0.9993377, 0, 0, -0.03638956,  True, '2019-02-10 00:00:00'); /* Magshuth Moarsman */
+/* @teleloc 0x3E0C001D [76.792110 112.224600 -0.094400] 0.999338 0.000000 0.000000 -0.036390 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B6, 38830, 0x3E0C0026, 111.047, 121.5237, 1.137569, -0.8434342, 0, 0, -0.5372325,  True, '2019-02-10 00:00:00'); /* Tendril of T'thuun */
+/* @teleloc 0x3E0C0026 [111.047000 121.523700 1.137569] -0.843434 0.000000 0.000000 -0.537233 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B7, 40470, 0x3E0C0026, 103.6785, 127.5072, 0.3642142, -0.8434342, 0, 0, -0.5372325,  True, '2019-02-10 00:00:00'); /* Great Devourer */
+/* @teleloc 0x3E0C0026 [103.678500 127.507200 0.364214] -0.843434 0.000000 0.000000 -0.537233 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B8, 38830, 0x3E0C0026, 111.2889, 129.1864, 1.157726, -0.8434342, 0, 0, -0.5372325,  True, '2019-02-10 00:00:00'); /* Tendril of T'thuun */
+/* @teleloc 0x3E0C0026 [111.288900 129.186400 1.157726] -0.843434 0.000000 0.000000 -0.537233 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0B9, 38831, 0x3E0C0026, 111.1655, 124.9512, 1.145444, -0.8434342, 0, 0, -0.5372325,  True, '2019-02-10 00:00:00'); /* Tentacle of T'thuun */
+/* @teleloc 0x3E0C0026 [111.165500 124.951200 1.145444] -0.843434 0.000000 0.000000 -0.537233 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0BA, 38831, 0x3E0C0025, 108.5624, 119.1985, 0.8613812, -0.8434342, 0, 0, -0.5372325,  True, '2019-02-10 00:00:00'); /* Tentacle of T'thuun */
+/* @teleloc 0x3E0C0025 [108.562400 119.198500 0.861381] -0.843434 0.000000 0.000000 -0.537233 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0BB, 40309, 0x3E0C0035, 164.7167, 100.1182, 0.8208262, 0.8981573, 0, 0, -0.4396742,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
+/* @teleloc 0x3E0C0035 [164.716700 100.118200 0.820826] 0.898157 0.000000 0.000000 -0.439674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0BC, 40309, 0x3E0C0035, 156.4343, 111.1542, 2.891425, 0.8981573, 0, 0, -0.4396742,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
+/* @teleloc 0x3E0C0035 [156.434300 111.154200 2.891425] 0.898157 0.000000 0.000000 -0.439674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0BD, 40311, 0x3E0C0035, 157.0269, 97.67458, 2.743277, 0.8981573, 0, 0, -0.4396742,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0x3E0C0035 [157.026900 97.674580 2.743277] 0.898157 0.000000 0.000000 -0.439674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0BE, 40309, 0x3E0C003D, 171.6525, 107.3066, 0.3043747, 0.8981573, 0, 0, -0.4396742,  True, '2019-02-10 00:00:00'); /* Afessa Sclavus Soldier */
+/* @teleloc 0x3E0C003D [171.652500 107.306600 0.304375] 0.898157 0.000000 0.000000 -0.439674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0BF, 40311, 0x3E0C003D, 172.5602, 102.764, 0.3800125, 0.8981573, 0, 0, -0.4396742,  True, '2019-02-10 00:00:00'); /* Siessa Sclavus Soldier */
+/* @teleloc 0x3E0C003D [172.560200 102.764000 0.380013] 0.898157 0.000000 0.000000 -0.439674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0C0, 40479, 0x3E0C0006, 17.43494, 128.8676, 0.005599976, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Maguth Moarsman */
+/* @teleloc 0x3E0C0006 [17.434940 128.867600 0.005600] -0.805306 0.000000 0.000000 -0.592859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0C1, 40478, 0x3E0C0006, 20.0101, 135.9246, 0.005599976, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Magshuth Moarsman */
+/* @teleloc 0x3E0C0006 [20.010100 135.924600 0.005600] -0.805306 0.000000 0.000000 -0.592859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0C2, 40479, 0x3E0C0006, 9.815792, 136.6423, 0.005599976, -0.8053062, 0, 0, -0.5928591,  True, '2019-02-10 00:00:00'); /* Maguth Moarsman */
+/* @teleloc 0x3E0C0006 [9.815792 136.642300 0.005600] -0.805306 0.000000 0.000000 -0.592859 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0C3, 38830, 0x3E0C0018, 69.01334, 190.2463, 0.5251701, -0.9898064, 0, 0, -0.1424195,  True, '2019-02-10 00:00:00'); /* Tendril of T'thuun */
+/* @teleloc 0x3E0C0018 [69.013340 190.246300 0.525170] -0.989806 0.000000 0.000000 -0.142420 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0C0C4, 40483, 0x3E0C0032, 162.4695, 30.4685, 0.005599976, -0.5815731, 0, 0, -0.8134941,  True, '2019-02-10 00:00:00'); /* Shoguth Moarsman */
+/* @teleloc 0x3E0C0032 [162.469500 30.468500 0.005600] -0.581573 0.000000 0.000000 -0.813494 */

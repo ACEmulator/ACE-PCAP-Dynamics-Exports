@@ -1899,3 +1899,14 @@ VALUES (0x7AD8B1DA, 11730, 0xAD8B01AD, 179.956, 98.6428, 25.137, -0.0133313, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AD8B1DB, 14709, 0xAD8B001D, 93.6425, 106.76, 34.19646, -0.721064, 0, 0, -0.692869, False, '2019-02-10 00:00:00'); /* King Pwyll Square */
 /* @teleloc 0xAD8B001D [93.642500 106.760000 34.196460] -0.721064 0.000000 0.000000 -0.692869 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AD8B1DC,  1542, 0xAD8B0024, 101.2938, 93.28588, 33.937, 0.9891265, 0, 0, -0.1470671, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xAD8B0024 [101.293800 93.285880 33.937000] 0.989127 0.000000 0.000000 -0.147067 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7AD8B1DC, 0x7AD8B1DD, '2019-02-10 00:00:00') /* Gateway (1955) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7AD8B1DD,  1955, 0xAD8B0024, 101.2938, 93.28588, 33.937, 0.9891265, 0, 0, -0.1470671,  True, '2019-02-10 00:00:00'); /* Gateway */
+/* @teleloc 0xAD8B0024 [101.293800 93.285880 33.937000] 0.989127 0.000000 0.000000 -0.147067 */

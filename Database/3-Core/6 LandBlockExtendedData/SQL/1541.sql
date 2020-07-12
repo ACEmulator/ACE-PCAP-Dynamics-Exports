@@ -12,7 +12,8 @@ VALUES (0x71541001, 0x71541002, '2019-02-10 00:00:00') /* Resonant Portal (41004
      , (0x71541001, 0x71541006, '2019-02-10 00:00:00') /* Augmented Drudge (7090) */
      , (0x71541001, 0x71541007, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
      , (0x71541001, 0x71541008, '2019-02-10 00:00:00') /* Rendeath Shreth (7114) */
-     , (0x71541001, 0x71541009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */;
+     , (0x71541001, 0x71541009, '2019-02-10 00:00:00') /* Banderling Predator (36818) */
+     , (0x71541001, 0x7154100A, '2019-02-10 00:00:00') /* Destroyer Grievver (7982) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71541002, 41004, 0x1541000A, 46.58269, 42.7716, 11.59843, 0.9404421, 0, 0, -0.3399538,  True, '2019-02-10 00:00:00'); /* Resonant Portal */
@@ -45,3 +46,7 @@ VALUES (0x71541008,  7114, 0x1541003C, 189.6718, 92.3194, 13.98125, 0.6293204, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71541009, 36818, 0x1541003D, 186.9915, 102.282, 15.05415, 0.02564645, 0, 0, -0.9996711,  True, '2019-02-10 00:00:00'); /* Banderling Predator */
 /* @teleloc 0x1541003D [186.991500 102.282000 15.054150] 0.025646 0.000000 0.000000 -0.999671 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7154100A,  7982, 0x1541003C, 190.6431, 89.26452, 13.9979, -0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Destroyer Grievver */
+/* @teleloc 0x1541003C [190.643100 89.264520 13.997900] -0.707107 0.000000 0.000000 -0.707107 */

@@ -11,7 +11,8 @@ VALUES (0x7434E001, 0x7434E002, '2019-02-10 00:00:00') /* Desolation Moarsman (7
      , (0x7434E001, 0x7434E005, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x7434E001, 0x7434E006, '2019-02-10 00:00:00') /* Diamond Golem (36830) */
      , (0x7434E001, 0x7434E007, '2019-02-10 00:00:00') /* Coral Golem (36828) */
-     , (0x7434E001, 0x7434E008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */;
+     , (0x7434E001, 0x7434E008, '2019-02-10 00:00:00') /* Vapor Golem (36834) */
+     , (0x7434E001, 0x7434E009, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434E002,  7181, 0x434E0003, 11.60155, 61.66787, -0.09359992, 0.8871797, 0, 0, -0.4614241,  True, '2019-02-10 00:00:00'); /* Desolation Moarsman */
@@ -40,3 +41,7 @@ VALUES (0x7434E007, 36828, 0x434E003F, 181.9958, 163.387, 16.67525, -0.9971887, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7434E008, 36834, 0x434E0004, 4.868427, 93.32732, -0.09000003, 0.8871797, 0, 0, -0.4614241,  True, '2019-02-10 00:00:00'); /* Vapor Golem */
 /* @teleloc 0x434E0004 [4.868427 93.327320 -0.090000] 0.887180 0.000000 0.000000 -0.461424 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7434E009,  4248, 0x434E0004, 7.402225, 82.26747, -0.0934, 0.8871797, 0, 0, -0.4614241,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0x434E0004 [7.402225 82.267470 -0.093400] 0.887180 0.000000 0.000000 -0.461424 */

@@ -29,7 +29,6 @@ VALUES (3854,   1,          1) /* ItemType - MeleeWeapon */
      , (3854, 158,          2) /* WieldRequirements - RawSkill */
      , (3854, 159,         45) /* WieldSkillType - LightWeapons */
      , (3854, 160,        325) /* WieldDifficulty */
-     , (3854, 172,          5) /* AppraisalLongDescDecoration - PrependWorkmanship, AppendGemInfo */
      , (3854, 177,          5) /* GemCount */
      , (3854, 178,         22) /* GemType */
      , (3854, 353,          2) /* WeaponType - Sword */;

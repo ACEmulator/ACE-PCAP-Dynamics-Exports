@@ -22,7 +22,10 @@ VALUES (0x7B69D001, 0x7B69D002, '2019-02-10 00:00:00') /* Drudge Robber (1464) *
      , (0x7B69D001, 0x7B69D00C, '2019-02-10 00:00:00') /* Mite Scion (943) */
      , (0x7B69D001, 0x7B69D00D, '2019-02-10 00:00:00') /* Mite Scion (943) */
      , (0x7B69D001, 0x7B69D00E, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
-     , (0x7B69D001, 0x7B69D00F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */;
+     , (0x7B69D001, 0x7B69D00F, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
+     , (0x7B69D001, 0x7B69D010, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B69D001, 0x7B69D011, '2019-02-10 00:00:00') /* Sandy Armoredillo (180) */
+     , (0x7B69D001, 0x7B69D012, '2019-02-10 00:00:00') /* Mite Sentry (945) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B69D002,  1464, 0xB69D0028, 110.1391, 177.7121, 57.63459, -0.7693401, 0, 0, -0.6388394,  True, '2019-02-10 00:00:00'); /* Drudge Robber */
@@ -81,12 +84,24 @@ VALUES (0x7B69D00F,   222, 0xB69D0028, 96.43477, 169.2998, 58.07348, 0.9135455, 
 /* @teleloc 0xB69D0028 [96.434770 169.299800 58.073480] 0.913546 0.000000 0.000000 -0.406737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B69D010,  1542, 0xB69D0030, 123.6494, 186.0645, 57.20126, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B69D010,   192, 0xB69D0017, 63.51122, 151.6302, 59.27521, -0.9964356, 0, 0, -0.08435623,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0xB69D0017 [63.511220 151.630200 59.275210] -0.996436 0.000000 0.000000 -0.084356 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B69D011,   180, 0xB69D0027, 108.7931, 148.2302, 55.29692, -0.7693401, 0, 0, -0.6388394,  True, '2019-02-10 00:00:00'); /* Sandy Armoredillo */
+/* @teleloc 0xB69D0027 [108.793100 148.230200 55.296920] -0.769340 0.000000 0.000000 -0.638839 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B69D012,   945, 0xB69D0032, 154.5392, 28.27062, 48.23597, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Mite Sentry */
+/* @teleloc 0xB69D0032 [154.539200 28.270620 48.235970] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B69D013,  1542, 0xB69D0030, 123.6494, 186.0645, 57.20126, 0.9990482, 0, 0, -0.04361939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB69D0030 [123.649400 186.064500 57.201260] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B69D010, 0x7B69D011, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+VALUES (0x7B69D013, 0x7B69D014, '2019-02-10 00:00:00') /* Bonfire (4179) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B69D011,  4179, 0xB69D0030, 123.6494, 186.0645, 57.20126, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B69D014,  4179, 0xB69D0030, 123.6494, 186.0645, 57.20126, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB69D0030 [123.649400 186.064500 57.201260] 0.999048 0.000000 0.000000 -0.043619 */

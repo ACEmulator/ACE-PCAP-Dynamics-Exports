@@ -24,7 +24,9 @@ VALUES (0x7B66E001, 0x7B66E002, '2019-02-10 00:00:00') /* Static (6382) */
      , (0x7B66E001, 0x7B66E012, '2019-02-10 00:00:00') /* Chicken (24937) */
      , (0x7B66E001, 0x7B66E013, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
      , (0x7B66E001, 0x7B66E014, '2019-02-10 00:00:00') /* Brown Rabbit (2567) */
-     , (0x7B66E001, 0x7B66E015, '2019-02-10 00:00:00') /* Chicken (24937) */;
+     , (0x7B66E001, 0x7B66E015, '2019-02-10 00:00:00') /* Chicken (24937) */
+     , (0x7B66E001, 0x7B66E016, '2019-02-10 00:00:00') /* Snowman (5761) */
+     , (0x7B66E001, 0x7B66E017, '2019-02-10 00:00:00') /* Chicken (24937) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B66E002,  6382, 0xB66E0025, 106.72, 110.8824, 37.94877, -0.9831102, 0, 0, -0.1830143,  True, '2019-02-10 00:00:00'); /* Static */
@@ -107,12 +109,20 @@ VALUES (0x7B66E015, 24937, 0xB66E003D, 176.1607, 104.3318, 22.63189, 0.9731817, 
 /* @teleloc 0xB66E003D [176.160700 104.331800 22.631890] 0.973182 0.000000 0.000000 0.230038 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B66E016,  1542, 0xB66E001D, 92.43316, 111.1137, 42.37276, -0.9831102, 0, 0, -0.1830143, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B66E016,  5761, 0xB66E0025, 106.3429, 110.4693, 38.14083, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Snowman */
+/* @teleloc 0xB66E0025 [106.342900 110.469300 38.140830] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B66E017, 24937, 0xB66E0036, 154.2033, 142.0936, 21.992, 0.5877852, 0, 0, -0.809017,  True, '2019-02-10 00:00:00'); /* Chicken */
+/* @teleloc 0xB66E0036 [154.203300 142.093600 21.992000] 0.587785 0.000000 0.000000 -0.809017 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B66E018,  1542, 0xB66E001D, 92.43316, 111.1137, 42.37276, -0.9831102, 0, 0, -0.1830143, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB66E001D [92.433160 111.113700 42.372760] -0.983110 0.000000 0.000000 -0.183014 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B66E016, 0x7B66E017, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
+VALUES (0x7B66E018, 0x7B66E019, '2019-02-10 00:00:00') /* Minalim Plant (8646) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B66E017,  8646, 0xB66E001D, 92.43316, 111.1137, 42.37276, -0.9831102, 0, 0, -0.1830143,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
+VALUES (0x7B66E019,  8646, 0xB66E001D, 92.43316, 111.1137, 42.37276, -0.9831102, 0, 0, -0.1830143,  True, '2019-02-10 00:00:00'); /* Minalim Plant */
 /* @teleloc 0xB66E001D [92.433160 111.113700 42.372760] -0.983110 0.000000 0.000000 -0.183014 */

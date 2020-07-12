@@ -23,8 +23,7 @@ VALUES (43052,   1,          2) /* ItemType - Armor */
      , (43052, 131,         54) /* MaterialType - GromnieHide */
      , (43052, 158,          7) /* WieldRequirements - Level */
      , (43052, 159,          1) /* WieldSkillType - Axe */
-     , (43052, 160,        150) /* WieldDifficulty */
-     , (43052, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */;
+     , (43052, 160,        150) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43052,  22, True ) /* Inscribable */

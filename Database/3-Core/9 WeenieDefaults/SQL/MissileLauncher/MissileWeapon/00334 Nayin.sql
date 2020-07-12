@@ -26,7 +26,6 @@ VALUES (334,   1,        256) /* ItemType - MissileWeapon */
      , (334, 115,        206) /* ItemSkillLevelLimit */
      , (334, 131,         75) /* MaterialType - Oak */
      , (334, 151,          2) /* HookType - Wall */
-     , (334, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (334, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

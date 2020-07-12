@@ -77,7 +77,8 @@ VALUES (0x747F3001, 0x747F3002, '2019-02-10 00:00:00') /* Maniacal Fiun (29345) 
      , (0x747F3001, 0x747F3047, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
      , (0x747F3001, 0x747F3048, '2019-02-10 00:00:00') /* Abhorrent Eater (28641) */
      , (0x747F3001, 0x747F3049, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
-     , (0x747F3001, 0x747F304A, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */;
+     , (0x747F3001, 0x747F304A, '2019-02-10 00:00:00') /* Viamontian Hand (28655) */
+     , (0x747F3001, 0x747F304B, '2019-02-10 00:00:00') /* Undead Captain (24321) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x747F3002, 29345, 0x47F30021, 101.3324, 20.83038, 38.64927, 0.4861727, 0, 0, -0.8738627,  True, '2019-02-10 00:00:00'); /* Maniacal Fiun */
@@ -372,12 +373,16 @@ VALUES (0x747F304A, 28655, 0x47F3003D, 188.7932, 117.312, 5.126784, 0.6951995, 0
 /* @teleloc 0x47F3003D [188.793200 117.312000 5.126784] 0.695200 0.000000 0.000000 -0.718817 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x747F304B,  1542, 0x47F3000D, 47.30784, 106.7705, 29.30737, -0.9886828, 0, 0, -0.1500211, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x747F304B, 24321, 0x47F30011, 70.30292, 5.69165, 46.71537, 0.4861727, 0, 0, -0.8738627,  True, '2019-02-10 00:00:00'); /* Undead Captain */
+/* @teleloc 0x47F30011 [70.302920 5.691650 46.715370] 0.486173 0.000000 0.000000 -0.873863 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x747F304C,  1542, 0x47F3000D, 47.30784, 106.7705, 29.30737, -0.9886828, 0, 0, -0.1500211, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x47F3000D [47.307840 106.770500 29.307370] -0.988683 0.000000 0.000000 -0.150021 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x747F304B, 0x747F304C, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
+VALUES (0x747F304C, 0x747F304D, '2019-02-10 00:00:00') /* Snow Lily (31032) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x747F304C, 31032, 0x47F3000D, 47.30784, 106.7705, 29.30737, -0.9886828, 0, 0, -0.1500211,  True, '2019-02-10 00:00:00'); /* Snow Lily */
+VALUES (0x747F304D, 31032, 0x47F3000D, 47.30784, 106.7705, 29.30737, -0.9886828, 0, 0, -0.1500211,  True, '2019-02-10 00:00:00'); /* Snow Lily */
 /* @teleloc 0x47F3000D [47.307840 106.770500 29.307370] -0.988683 0.000000 0.000000 -0.150021 */

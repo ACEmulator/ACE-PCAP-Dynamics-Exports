@@ -62,7 +62,9 @@ VALUES (0x7D95C001, 0x7D95C002, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7D95C001, 0x7D95C038, '2019-02-10 00:00:00') /* Skeleton (1759) */
      , (0x7D95C001, 0x7D95C039, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
      , (0x7D95C001, 0x7D95C03A, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
-     , (0x7D95C001, 0x7D95C03B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */;
+     , (0x7D95C001, 0x7D95C03B, '2019-02-10 00:00:00') /* Drudge Sneaker (940) */
+     , (0x7D95C001, 0x7D95C03C, '2019-02-10 00:00:00') /* Scavenger Ursuin (7989) */
+     , (0x7D95C001, 0x7D95C03D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D95C002,  1759, 0xD95C000C, 43.91345, 78.01511, 12.0025, 0.2263008, 0, 0, -0.9740575,  True, '2019-02-10 00:00:00'); /* Skeleton */
@@ -295,3 +297,11 @@ VALUES (0x7D95C03A,  7989, 0xD95C0014, 54.29489, 88.90907, 12.52637, 0.8084882, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D95C03B,   940, 0xD95C0014, 54.02966, 88.43948, 12.50667, 0.8084882, 0, 0, -0.5885124,  True, '2019-02-10 00:00:00'); /* Drudge Sneaker */
 /* @teleloc 0xD95C0014 [54.029660 88.439480 12.506670] 0.808488 0.000000 0.000000 -0.588512 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D95C03C,  7989, 0xD95C0002, 19.06573, 41.20929, 11.02472, 0.767055, 0, 0, -0.6415814,  True, '2019-02-10 00:00:00'); /* Scavenger Ursuin */
+/* @teleloc 0xD95C0002 [19.065730 41.209290 11.024720] 0.767055 0.000000 0.000000 -0.641581 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7D95C03D,   192, 0xD95C0002, 3.370826, 42.43436, 9.637697, -0.7747221, 0, 0, -0.6323019,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0xD95C0002 [3.370826 42.434360 9.637697] -0.774722 0.000000 0.000000 -0.632302 */

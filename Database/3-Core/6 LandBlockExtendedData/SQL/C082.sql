@@ -33,7 +33,10 @@ VALUES (0x7C082002, 0x7C082003, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7C082002, 0x7C082014, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
      , (0x7C082002, 0x7C082015, '2019-02-10 00:00:00') /* Red Phyntos Wasp (12) */
      , (0x7C082002, 0x7C082016, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
-     , (0x7C082002, 0x7C082017, '2019-02-10 00:00:00') /* Drudge Prowler (192) */;
+     , (0x7C082002, 0x7C082017, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7C082002, 0x7C082018, '2019-02-10 00:00:00') /* Black Rabbit (2566) */
+     , (0x7C082002, 0x7C082019, '2019-02-10 00:00:00') /* Tumerok Fighter (2439) */
+     , (0x7C082002, 0x7C08201A, '2019-02-10 00:00:00') /* Black Rabbit (2566) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C082003,  2566, 0xC0820003, 21.52126, 68.0676, 47.58688, 0.9983836, 0, 0, -0.05683521,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
@@ -118,3 +121,15 @@ VALUES (0x7C082016,  2566, 0xC082000A, 43.23761, 45.22002, 52.57774, 0.9983836, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C082017,   192, 0xC0820035, 153.1694, 113.1497, 54.51585, -0.3299453, 0, 0, -0.9440001,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
 /* @teleloc 0xC0820035 [153.169400 113.149700 54.515850] -0.329945 0.000000 0.000000 -0.944000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C082018,  2566, 0xC0820002, 6.909203, 44.05941, 46.93, 0.9983836, 0, 0, -0.05683521,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xC0820002 [6.909203 44.059410 46.930000] 0.998384 0.000000 0.000000 -0.056835 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C082019,  2439, 0xC0820005, 13.52474, 96.90397, 46.25962, -0.7357553, 0, 0, -0.6772475,  True, '2019-02-10 00:00:00'); /* Tumerok Fighter */
+/* @teleloc 0xC0820005 [13.524740 96.903970 46.259620] -0.735755 0.000000 0.000000 -0.677248 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7C08201A,  2566, 0xC0820039, 185.5877, 5.081837, 44.545, 0.3376074, 0, 0, -0.941287,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xC0820039 [185.587700 5.081837 44.545000] 0.337607 0.000000 0.000000 -0.941287 */

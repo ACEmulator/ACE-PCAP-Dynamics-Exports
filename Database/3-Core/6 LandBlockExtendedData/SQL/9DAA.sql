@@ -11,7 +11,8 @@ VALUES (0x79DAA001, 0x79DAA002, '2019-02-10 00:00:00') /* Drudge Lurker (1608) *
      , (0x79DAA001, 0x79DAA005, '2019-02-10 00:00:00') /* Shadow (1758) */
      , (0x79DAA001, 0x79DAA006, '2019-02-10 00:00:00') /* Shadow Child (1756) */
      , (0x79DAA001, 0x79DAA007, '2019-02-10 00:00:00') /* Gold Phyntos Wasp (217) */
-     , (0x79DAA001, 0x79DAA008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */;
+     , (0x79DAA001, 0x79DAA008, '2019-02-10 00:00:00') /* Drudge Stalker (1609) */
+     , (0x79DAA001, 0x79DAA009, '2019-02-10 00:00:00') /* Olthoi Nymph (213) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DAA002,  1608, 0x9DAA003C, 181.3127, 95.71413, 80.69897, 0.8237365, 0, 0, -0.5669727,  True, '2019-02-10 00:00:00'); /* Drudge Lurker */
@@ -40,3 +41,18 @@ VALUES (0x79DAA007,   217, 0x9DAA0036, 160.9431, 122.3029, 82.21725, 0.9512722, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79DAA008,  1609, 0x9DAA0020, 80.01958, 181.728, 85.04825, -0.999621, 0, 0, -0.02752877,  True, '2019-02-10 00:00:00'); /* Drudge Stalker */
 /* @teleloc 0x9DAA0020 [80.019580 181.728000 85.048250] -0.999621 0.000000 0.000000 -0.027529 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DAA009,   213, 0x9DAA0035, 161.7037, 112.049, 83.18728, 0.6491342, 0, 0, -0.7606739,  True, '2019-02-10 00:00:00'); /* Olthoi Nymph */
+/* @teleloc 0x9DAA0035 [161.703700 112.049000 83.187280] 0.649134 0.000000 0.000000 -0.760674 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DAA00A,  1542, 0x9DAA0036, 167.0506, 132.1343, 80.06773, 0.9512722, 0, 0, -0.3083524, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x9DAA0036 [167.050600 132.134300 80.067730] 0.951272 0.000000 0.000000 -0.308352 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x79DAA00A, 0x79DAA00B, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x79DAA00B, 31686, 0x9DAA0036, 167.0506, 132.1343, 80.06773, 0.9512722, 0, 0, -0.3083524,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */
+/* @teleloc 0x9DAA0036 [167.050600 132.134300 80.067730] 0.951272 0.000000 0.000000 -0.308352 */

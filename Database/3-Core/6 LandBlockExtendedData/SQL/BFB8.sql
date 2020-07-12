@@ -8,7 +8,8 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7BFB8001, 0x7BFB8002, '2019-02-10 00:00:00') /* Great Mattekar (2582) */
      , (0x7BFB8001, 0x7BFB8003, '2019-02-10 00:00:00') /* Dread Mattekar (9401) */
      , (0x7BFB8001, 0x7BFB8004, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
-     , (0x7BFB8001, 0x7BFB8005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */;
+     , (0x7BFB8001, 0x7BFB8005, '2019-02-10 00:00:00') /* Olthoi Servant (22010) */
+     , (0x7BFB8001, 0x7BFB8006, '2019-02-10 00:00:00') /* Banderling Striker (7345) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFB8002,  2582, 0xBFB8000C, 47.86974, 94.3083, 380.0543, 0.5930396, 0, 0, -0.8051733,  True, '2019-02-10 00:00:00'); /* Great Mattekar */
@@ -25,3 +26,7 @@ VALUES (0x7BFB8004, 28552, 0xBFB80015, 58.53721, 108.5992, 369.9822, 0.5930396, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BFB8005, 22010, 0xBFB80014, 52.28044, 86.00354, 377.5031, 0.5930396, 0, 0, -0.8051733,  True, '2019-02-10 00:00:00'); /* Olthoi Servant */
 /* @teleloc 0xBFB80014 [52.280440 86.003540 377.503100] 0.593040 0.000000 0.000000 -0.805173 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BFB8006,  7345, 0xBFB80015, 55.76628, 112.2812, 371.4805, 0.5930396, 0, 0, -0.8051733,  True, '2019-02-10 00:00:00'); /* Banderling Striker */
+/* @teleloc 0xBFB80015 [55.766280 112.281200 371.480500] 0.593040 0.000000 0.000000 -0.805173 */

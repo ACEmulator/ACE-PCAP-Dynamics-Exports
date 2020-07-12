@@ -16,7 +16,8 @@ VALUES (0x79325001, 0x79325002, '2019-02-10 00:00:00') /* Revenant (619) */
      , (0x79325001, 0x7932500A, '2019-02-10 00:00:00') /* Dark Leech (7123) */
      , (0x79325001, 0x7932500B, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
      , (0x79325001, 0x7932500C, '2019-02-10 00:00:00') /* Malus Shreth (4255) */
-     , (0x79325001, 0x7932500D, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */;
+     , (0x79325001, 0x7932500D, '2019-02-10 00:00:00') /* Fleshless Warrior (8968) */
+     , (0x79325001, 0x7932500E, '2019-02-10 00:00:00') /* Dark Revenant (4217) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x79325002,   619, 0x93250036, 166.331, 125.1291, 127.464, -0.9072472, 0, 0, -0.4205978,  True, '2019-02-10 00:00:00'); /* Revenant */
@@ -67,17 +68,21 @@ VALUES (0x7932500D,  8968, 0x93250032, 161.0098, 33.02803, 144.1678, -0.9764233,
 /* @teleloc 0x93250032 [161.009800 33.028030 144.167800] -0.976423 0.000000 0.000000 -0.215865 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7932500E,  1542, 0x93250033, 159.5518, 53.52145, 140.4446, -0.9764233, 0, 0, -0.2158647, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7932500E,  4217, 0x93250036, 165.6699, 121.1921, 134.7588, -0.9072472, 0, 0, -0.4205978,  True, '2019-02-10 00:00:00'); /* Dark Revenant */
+/* @teleloc 0x93250036 [165.669900 121.192100 134.758800] -0.907247 0.000000 0.000000 -0.420598 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7932500F,  1542, 0x93250033, 159.5518, 53.52145, 140.4446, -0.9764233, 0, 0, -0.2158647, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x93250033 [159.551800 53.521450 140.444600] -0.976423 0.000000 0.000000 -0.215865 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7932500E, 0x7932500F, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
-     , (0x7932500E, 0x79325010, '2019-02-10 00:00:00') /* Corpse (4180) */;
+VALUES (0x7932500F, 0x79325010, '2019-02-10 00:00:00') /* Humming Crystal Portal (9071) */
+     , (0x7932500F, 0x79325011, '2019-02-10 00:00:00') /* Corpse (4180) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7932500F,  9071, 0x93250033, 159.5518, 53.52145, 140.4446, -0.9764233, 0, 0, -0.2158647,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */
+VALUES (0x79325010,  9071, 0x93250033, 159.5518, 53.52145, 140.4446, -0.9764233, 0, 0, -0.2158647,  True, '2019-02-10 00:00:00'); /* Humming Crystal Portal */
 /* @teleloc 0x93250033 [159.551800 53.521450 140.444600] -0.976423 0.000000 0.000000 -0.215865 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x79325010,  4180, 0x93250004, 11.39814, 93.64261, 107.8997, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x79325011,  4180, 0x93250004, 11.39814, 93.64261, 107.8997, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0x93250004 [11.398140 93.642610 107.899700] 0.923880 0.000000 0.000000 -0.382684 */

@@ -51,7 +51,11 @@ VALUES (0x7F327001, 0x7F327002, '2019-02-10 00:00:00') /* Mosswart Mire-Witch (7
      , (0x7F327001, 0x7F327029, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
      , (0x7F327001, 0x7F32702A, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
      , (0x7F327001, 0x7F32702B, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
-     , (0x7F327001, 0x7F32702C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
+     , (0x7F327001, 0x7F32702C, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F327001, 0x7F32702D, '2019-02-10 00:00:00') /* Putrid Moarsman (4248) */
+     , (0x7F327001, 0x7F32702E, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F327001, 0x7F32702F, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */
+     , (0x7F327001, 0x7F327030, '2019-02-10 00:00:00') /* Ulu Sclavus (7110) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F327002,  7102, 0xF327002E, 120.2891, 128.7903, 0.223452, 0.6427876, 0, 0, -0.7660444,  True, '2019-02-10 00:00:00'); /* Mosswart Mire-Witch */
@@ -224,3 +228,19 @@ VALUES (0x7F32702B,  7110, 0xF327002B, 127.5852, 63.79507, 0, 0.9238795, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F32702C,  7110, 0xF327002B, 128.4464, 71.62951, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
 /* @teleloc 0xF327002B [128.446400 71.629510 0.000000] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F32702D,  4248, 0xF327001E, 94.4112, 134.5966, 0.006600022, 0.9763843, 0, 0, -0.2160408,  True, '2019-02-10 00:00:00'); /* Putrid Moarsman */
+/* @teleloc 0xF327001E [94.411200 134.596600 0.006600] 0.976384 0.000000 0.000000 -0.216041 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F32702E,  7110, 0xF3270023, 119.491, 64.18095, 0, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
+/* @teleloc 0xF3270023 [119.491000 64.180950 0.000000] -0.173648 0.000000 0.000000 -0.984808 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F32702F,  7110, 0xF3270023, 111.5686, 55.97396, 0, 0.9238795, 0, 0, -0.3826835,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
+/* @teleloc 0xF3270023 [111.568600 55.973960 0.000000] 0.923880 0.000000 0.000000 -0.382684 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F327030,  7110, 0xF3270023, 112.4298, 63.80839, 0, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Ulu Sclavus */
+/* @teleloc 0xF3270023 [112.429800 63.808390 0.000000] 0.707107 0.000000 0.000000 -0.707107 */

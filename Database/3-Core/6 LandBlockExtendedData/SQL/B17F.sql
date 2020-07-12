@@ -16,7 +16,13 @@ VALUES (0x7B17F001, 0x7B17F002, '2019-02-10 00:00:00') /* High Tumerok (226) */
      , (0x7B17F001, 0x7B17F00A, '2019-02-10 00:00:00') /* Gotrok Amploth (24939) */
      , (0x7B17F001, 0x7B17F00B, '2019-02-10 00:00:00') /* Veteran Reedshark (222) */
      , (0x7B17F001, 0x7B17F00C, '2019-02-10 00:00:00') /* Skeleton Lord (1762) */
-     , (0x7B17F001, 0x7B17F00D, '2019-02-10 00:00:00') /* Battered Doll (10767) */;
+     , (0x7B17F001, 0x7B17F00D, '2019-02-10 00:00:00') /* Battered Doll (10767) */
+     , (0x7B17F001, 0x7B17F00E, '2019-02-10 00:00:00') /* Virindi Director (5497) */
+     , (0x7B17F001, 0x7B17F00F, '2019-02-10 00:00:00') /* Crystal Spur (28552) */
+     , (0x7B17F001, 0x7B17F010, '2019-02-10 00:00:00') /* Scrawed Grievver (7978) */
+     , (0x7B17F001, 0x7B17F011, '2019-02-10 00:00:00') /* Shadow (1758) */
+     , (0x7B17F001, 0x7B17F012, '2019-02-10 00:00:00') /* Copper Golem (194) */
+     , (0x7B17F001, 0x7B17F013, '2019-02-10 00:00:00') /* Copper Golem (194) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B17F002,   226, 0xB17F0032, 155.8044, 37.33982, 50.006, 0.5765405, 0, 0, -0.8170686,  True, '2019-02-10 00:00:00'); /* High Tumerok */
@@ -67,17 +73,41 @@ VALUES (0x7B17F00D, 10767, 0xB17F0037, 167.3327, 149.2715, 31.15041, -0.9807954,
 /* @teleloc 0xB17F0037 [167.332700 149.271500 31.150410] -0.980795 0.000000 0.000000 -0.195039 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B17F00E,  1542, 0xB17F0037, 158.9667, 148.1463, 31.30679, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x7B17F00E,  5497, 0xB17F0026, 115.0696, 126.0619, 36.60781, -0.2965369, 0, 0, -0.9550214,  True, '2019-02-10 00:00:00'); /* Virindi Director */
+/* @teleloc 0xB17F0026 [115.069600 126.061900 36.607810] -0.296537 0.000000 0.000000 -0.955021 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B17F00F, 28552, 0xB17F0030, 126.8412, 184.6449, 28.02782, 0.5110774, 0, 0, -0.8595347,  True, '2019-02-10 00:00:00'); /* Crystal Spur */
+/* @teleloc 0xB17F0030 [126.841200 184.644900 28.027820] 0.511077 0.000000 0.000000 -0.859535 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B17F010,  7978, 0xB17F003F, 172.8533, 166.5707, 28.23671, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Scrawed Grievver */
+/* @teleloc 0xB17F003F [172.853300 166.570700 28.236710] 0.866025 0.000000 0.000000 -0.500000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B17F011,  1758, 0xB17F003E, 169.5213, 129.7242, 35.57395, 0.8444817, 0, 0, -0.5355844,  True, '2019-02-10 00:00:00'); /* Shadow */
+/* @teleloc 0xB17F003E [169.521300 129.724200 35.573950] 0.844482 0.000000 0.000000 -0.535584 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B17F012,   194, 0xB17F003E, 183.2014, 139.623, 33.10424, 0.5, 0, 0, -0.8660254,  True, '2019-02-10 00:00:00'); /* Copper Golem */
+/* @teleloc 0xB17F003E [183.201400 139.623000 33.104240] 0.500000 0.000000 0.000000 -0.866025 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B17F013,   194, 0xB17F003E, 188.6684, 137.2839, 33.68902, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Copper Golem */
+/* @teleloc 0xB17F003E [188.668400 137.283900 33.689020] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7B17F014,  1542, 0xB17F0037, 158.9667, 148.1463, 31.30679, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0xB17F0037 [158.966700 148.146300 31.306790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B17F00E, 0x7B17F00F, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
-     , (0x7B17F00E, 0x7B17F010, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
+VALUES (0x7B17F014, 0x7B17F015, '2019-02-10 00:00:00') /* Dirty Old Crate (31443) */
+     , (0x7B17F014, 0x7B17F016, '2019-02-10 00:00:00') /* Berimphur Plant (8041) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B17F00F, 31443, 0xB17F0037, 158.9667, 148.1463, 31.30679, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
+VALUES (0x7B17F015, 31443, 0xB17F0037, 158.9667, 148.1463, 31.30679, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dirty Old Crate */
 /* @teleloc 0xB17F0037 [158.966700 148.146300 31.306790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B17F010,  8041, 0xB17F002E, 141.2375, 133.1277, 35.53257, -0.2965369, 0, 0, -0.9550214,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
+VALUES (0x7B17F016,  8041, 0xB17F002E, 141.2375, 133.1277, 35.53257, -0.2965369, 0, 0, -0.9550214,  True, '2019-02-10 00:00:00'); /* Berimphur Plant */
 /* @teleloc 0xB17F002E [141.237500 133.127700 35.532570] -0.296537 0.000000 0.000000 -0.955021 */

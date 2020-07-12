@@ -24,7 +24,9 @@ VALUES (0x71776001, 0x71776002, '2019-02-10 00:00:00') /* Merciless Monouga (368
      , (0x71776001, 0x71776012, '2019-02-10 00:00:00') /* Augmented Tumerok (10807) */
      , (0x71776001, 0x71776013, '2019-02-10 00:00:00') /* Extas Raider (8138) */
      , (0x71776001, 0x71776014, '2019-02-10 00:00:00') /* Rufous Grievver (28553) */
-     , (0x71776001, 0x71776015, '2019-02-10 00:00:00') /* Murk Drudge (24280) */;
+     , (0x71776001, 0x71776015, '2019-02-10 00:00:00') /* Murk Drudge (24280) */
+     , (0x71776001, 0x71776016, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */
+     , (0x71776001, 0x71776017, '2019-02-10 00:00:00') /* Invading Silver Scope Phalanx (41535) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71776002, 36843, 0x17760020, 93.89716, 177.2557, 145.994, 0.9309382, 0, 0, -0.3651768,  True, '2019-02-10 00:00:00'); /* Merciless Monouga */
@@ -105,3 +107,11 @@ VALUES (0x71776014, 28553, 0x1776003A, 177.5536, 26.60892, 149.5896, -0.8868524,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71776015, 24280, 0x17760006, 3.109697, 122.3628, 138.9166, 0.2926632, 0, 0, -0.9562156,  True, '2019-02-10 00:00:00'); /* Murk Drudge */
 /* @teleloc 0x17760006 [3.109697 122.362800 138.916600] 0.292663 0.000000 0.000000 -0.956216 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71776016, 41535, 0x17760028, 114.1266, 169.8494, 146.0075, 0.9309382, 0, 0, -0.3651768,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x17760028 [114.126600 169.849400 146.007500] 0.930938 0.000000 0.000000 -0.365177 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71776017, 41535, 0x17760028, 118.4016, 169.2565, 146.0075, 0.9309382, 0, 0, -0.3651768,  True, '2019-02-10 00:00:00'); /* Invading Silver Scope Phalanx */
+/* @teleloc 0x17760028 [118.401600 169.256500 146.007500] 0.930938 0.000000 0.000000 -0.365177 */

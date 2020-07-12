@@ -29,7 +29,6 @@ VALUES (362,   1,          1) /* ItemType - MeleeWeapon */
      , (362, 158,          2) /* WieldRequirements - RawSkill */
      , (362, 159,         45) /* WieldSkillType - LightWeapons */
      , (362, 160,        300) /* WieldDifficulty */
-     , (362, 172,          1) /* AppraisalLongDescDecoration - PrependWorkmanship */
      , (362, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
