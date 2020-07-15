@@ -1511,19 +1511,3 @@ VALUES (0x7A57F1AA, 11697, 0xA57F013D, 160.466, 59.0004, 44.1, 0.424694, 0, 0, -
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A57F1AB, 11697, 0xA57F013D, 161.902, 63.8138, 44.1, 0.9404739, 0, 0, -0.339866, False, '2019-02-10 00:00:00'); /* Floor Hook */
 /* @teleloc 0xA57F013D [161.902000 63.813800 44.100000] 0.940474 0.000000 0.000000 -0.339866 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A57F1AC,  1542, 0xA57F010A, 60.5636, 32.7385, 64.6, 0.417168, -0.00254836, 0.00555166, -0.908809, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xA57F010A [60.563600 32.738500 64.600000] 0.417168 -0.002548 0.005552 -0.908809 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A57F1AC, 0x7A57F1AD, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */
-     , (0x7A57F1AC, 0x7A57F1AE, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A57F1AD, 11698, 0xA57F010A, 60.5636, 32.7385, 64.6, 0.417168, -0.00254836, 0.00555166, -0.908809,  True, '2019-02-10 00:00:00'); /* Ceiling Hook */
-/* @teleloc 0xA57F010A [60.563600 32.738500 64.600000] 0.417168 -0.002548 0.005552 -0.908809 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A57F1AE, 11698, 0xA57F011D, 37.9429, 134.597, 50.75, -0.880632, 0, 0, 0.473801,  True, '2019-02-10 00:00:00'); /* Ceiling Hook */
-/* @teleloc 0xA57F011D [37.942900 134.597000 50.750000] -0.880632 0.000000 0.000000 0.473801 */

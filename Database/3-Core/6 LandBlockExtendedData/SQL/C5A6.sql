@@ -141,14 +141,3 @@ VALUES (0x7C5A603D, 0x7C5A603E, '2019-02-10 00:00:00') /* Olthoi Hunter (3930) *
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7C5A603E,  3930, 0xC5A6010C, 153.959, 12.0098, 38.005, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Olthoi Hunter */
 /* @teleloc 0xC5A6010C [153.959000 12.009800 38.005000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5A603F,  1542, 0xC5A6003B, 175.8172, 60.82265, 38.005, 0.7049454, 0, 0, -0.7092616, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xC5A6003B [175.817200 60.822650 38.005000] 0.704945 0.000000 0.000000 -0.709262 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7C5A603F, 0x7C5A6040, '2019-02-10 00:00:00') /* Door (412) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7C5A6040,   412, 0xC5A6003B, 175.8172, 60.82265, 38.005, 0.7049454, 0, 0, -0.7092616,  True, '2019-02-10 00:00:00'); /* Door */
-/* @teleloc 0xC5A6003B [175.817200 60.822650 38.005000] 0.704945 0.000000 0.000000 -0.709262 */

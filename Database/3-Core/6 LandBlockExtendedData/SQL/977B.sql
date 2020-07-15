@@ -797,47 +797,17 @@ VALUES (0x7977B0C4,  1542, 0x977B0016, 67.7512, 121.3981, -0.06299996, 0.8905451
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7977B0C4, 0x7977B0C5, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7977B0C4, 0x7977B0C6, '2019-02-10 00:00:00') /* Samsur (1109) */
-     , (0x7977B0C4, 0x7977B0C7, '2019-02-10 00:00:00') /* Victory Residential Halls Portal (22231) */
-     , (0x7977B0C4, 0x7977B0C8, '2019-02-10 00:00:00') /* Victory Residential Halls (22242) */
-     , (0x7977B0C4, 0x7977B0C9, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
-     , (0x7977B0C4, 0x7977B0CA, '2019-02-10 00:00:00') /* Mannikin Foundry Portal (19717) */
-     , (0x7977B0C4, 0x7977B0CB, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7977B0C4, 0x7977B0CC, '2019-02-10 00:00:00') /* Portal to Town Network (43066) */
-     , (0x7977B0C4, 0x7977B0CD, '2019-02-10 00:00:00') /* Samsur (1109) */;
+     , (0x7977B0C4, 0x7977B0C6, '2019-02-10 00:00:00') /* Some Changes for February 2012 (45488) */
+     , (0x7977B0C4, 0x7977B0C7, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7977B0C5,  1955, 0x977B0016, 67.7512, 121.3981, -0.06299996, 0.8905451, 0, 0, 0.454895,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x977B0016 [67.751200 121.398100 -0.063000] 0.890545 0.000000 0.000000 0.454895 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0C6,  1109, 0x977B000C, 29.8911, 77.8441, -3.72529E-09, 0.92388, 0, 0, -0.382683,  True, '2019-02-10 00:00:00'); /* Samsur */
-/* @teleloc 0x977B000C [29.891100 77.844100 0.000000] 0.923880 0.000000 0.000000 -0.382683 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0C7, 22231, 0x977B0014, 55.9217, 81.0982, -0.06299996, 0.8840401, 0, 0, 0.4674111,  True, '2019-02-10 00:00:00'); /* Victory Residential Halls Portal */
-/* @teleloc 0x977B0014 [55.921700 81.098200 -0.063000] 0.884040 0.000000 0.000000 0.467411 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0C8, 22242, 0x977B0014, 56.7439, 80.5542, -3.72529E-09, 0.88404, 0, 0, 0.467411,  True, '2019-02-10 00:00:00'); /* Victory Residential Halls */
-/* @teleloc 0x977B0014 [56.743900 80.554200 0.000000] 0.884040 0.000000 0.000000 0.467411 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0C9, 45488, 0x977B0015, 64.80791, 116.4737, 0.057, -0.3471193, 0, 0, -0.937821,  True, '2019-02-10 00:00:00'); /* Some Changes for February 2012 */
+VALUES (0x7977B0C6, 45488, 0x977B0015, 64.80791, 116.4737, 0.057, -0.3471193, 0, 0, -0.937821,  True, '2019-02-10 00:00:00'); /* Some Changes for February 2012 */
 /* @teleloc 0x977B0015 [64.807910 116.473700 0.057000] -0.347119 0.000000 0.000000 -0.937821 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0CA, 19717, 0x977B015E, 126.543, 159.739, -5.263, -0.03768269, 0, 0, 0.9992898,  True, '2019-02-10 00:00:00'); /* Mannikin Foundry Portal */
-/* @teleloc 0x977B015E [126.543000 159.739000 -5.263000] -0.037683 0.000000 0.000000 0.999290 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0CB,  1955, 0x977B002F, 139.4463, 161.3725, -0.06299996, -0.3570708, 0, 0, -0.9340773,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7977B0C7,  1955, 0x977B002F, 139.4463, 161.3725, -0.06299996, -0.3570708, 0, 0, -0.9340773,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x977B002F [139.446300 161.372500 -0.063000] -0.357071 0.000000 0.000000 -0.934077 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0CC, 43066, 0x977B002F, 140.431, 149.259, 0.198001, -0.9407741, 0, 0, -0.339034,  True, '2019-02-10 00:00:00'); /* Portal to Town Network */
-/* @teleloc 0x977B002F [140.431000 149.259000 0.198001] -0.940774 0.000000 0.000000 -0.339034 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7977B0CD,  1109, 0x977B0037, 163.782, 161.598, 3.72529E-09, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Samsur */
-/* @teleloc 0x977B0037 [163.782000 161.598000 0.000000] 1.000000 0.000000 0.000000 0.000000 */

@@ -503,24 +503,3 @@ VALUES (0x7DDCC07D, 12679, 0xDDCC0015, 65.35, 106.375, 56.875, 0.4297229, 0, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DDCC07E, 12679, 0xDDCC0015, 71, 108, 56.875, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Yard Hook */
 /* @teleloc 0xDDCC0015 [71.000000 108.000000 56.875000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DDCC07F,  1542, 0xDDCC010C, 79.077, 140.606, 76.25, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xDDCC010C [79.077000 140.606000 76.250000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DDCC07F, 0x7DDCC080, '2019-02-10 00:00:00') /* Wall Hook (9686) */
-     , (0x7DDCC07F, 0x7DDCC081, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */
-     , (0x7DDCC07F, 0x7DDCC082, '2019-02-10 00:00:00') /* Ceiling Hook (11698) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DDCC080,  9686, 0xDDCC010C, 79.077, 140.606, 76.25, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Wall Hook */
-/* @teleloc 0xDDCC010C [79.077000 140.606000 76.250000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DDCC081, 11698, 0xDDCC010C, 79.1904, 134.884, 76.79, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Ceiling Hook */
-/* @teleloc 0xDDCC010C [79.190400 134.884000 76.790000] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DDCC082, 11698, 0xDDCC0145, 67.1097, 130.282, 51.25, 7.54979E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Ceiling Hook */
-/* @teleloc 0xDDCC0145 [67.109700 130.282000 51.250000] 0.000000 0.000000 0.000000 -1.000000 */

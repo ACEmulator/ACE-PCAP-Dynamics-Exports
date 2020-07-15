@@ -842,9 +842,8 @@ VALUES (0x7D0950A6, 0x7D0950A7, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7D0950A6, 0x7D0950AC, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7D0950A6, 0x7D0950AD, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7D0950A6, 0x7D0950AE, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7D0950A6, 0x7D0950AF, '2019-02-10 00:00:00') /* Thieves' Den (1219) */
-     , (0x7D0950A6, 0x7D0950B0, '2019-02-10 00:00:00') /* Chainmail Breastplate (414) */
-     , (0x7D0950A6, 0x7D0950B1, '2019-02-10 00:00:00') /* Egg (546) */;
+     , (0x7D0950A6, 0x7D0950AF, '2019-02-10 00:00:00') /* Chainmail Breastplate (414) */
+     , (0x7D0950A6, 0x7D0950B0, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D0950A7,   546, 0xD0950006, 22.68141, 139.8118, 8.457442, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
@@ -879,13 +878,9 @@ VALUES (0x7D0950AE,   546, 0xD0950012, 67.95211, 24.60459, 6, 0.7671887, 0, 0, -
 /* @teleloc 0xD0950012 [67.952110 24.604590 6.000000] 0.767189 0.000000 0.000000 -0.641421 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D0950AF,  1219, 0xD095002E, 121.672, 121.43, 1.6785, -0.422178, 0, 0, -0.906513,  True, '2019-02-10 00:00:00'); /* Thieves' Den */
-/* @teleloc 0xD095002E [121.672000 121.430000 1.678500] -0.422178 0.000000 0.000000 -0.906513 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D0950B0,   414, 0xD0950100, 181.9209, 158.2169, -0.004999995, 0.9355612, 0, 0, -0.3531645,  True, '2019-02-10 00:00:00'); /* Chainmail Breastplate */
+VALUES (0x7D0950AF,   414, 0xD0950100, 181.9209, 158.2169, -0.004999995, 0.9355612, 0, 0, -0.3531645,  True, '2019-02-10 00:00:00'); /* Chainmail Breastplate */
 /* @teleloc 0xD0950100 [181.920900 158.216900 -0.005000] 0.935561 0.000000 0.000000 -0.353165 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D0950B1,   546, 0xD095000F, 29.36812, 145.2518, 7.342989, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7D0950B0,   546, 0xD095000F, 29.36812, 145.2518, 7.342989, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xD095000F [29.368120 145.251800 7.342989] 1.000000 0.000000 0.000000 0.000000 */

@@ -94,14 +94,3 @@ VALUES (0x7A8B5011, 19262, 0xA8B50034, 150.4489, 77.4285, 28.0044, 0.7125397, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7A8B5012, 19263, 0xA8B50024, 101.6984, 89.32396, 27.997, 0.4136719, 0, 0, -0.910426,  True, '2019-02-10 00:00:00'); /* Gnawer Shreth */
 /* @teleloc 0xA8B50024 [101.698400 89.323960 27.997000] 0.413672 0.000000 0.000000 -0.910426 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B5013,  1542, 0xA8B50030, 126.6, 173.4, 27.837, 0.422618, 0, 0, -0.9063079, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xA8B50030 [126.600000 173.400000 27.837000] 0.422618 0.000000 0.000000 -0.906308 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B5013, 0x7A8B5014, '2019-02-10 00:00:00') /* Holtburg Dungeon (1125) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B5014,  1125, 0xA8B50030, 126.6, 173.4, 27.837, 0.422618, 0, 0, -0.9063079,  True, '2019-02-10 00:00:00'); /* Holtburg Dungeon */
-/* @teleloc 0xA8B50030 [126.600000 173.400000 27.837000] 0.422618 0.000000 0.000000 -0.906308 */

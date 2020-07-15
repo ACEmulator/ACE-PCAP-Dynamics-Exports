@@ -1130,38 +1130,24 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7F5590E8, 0x7F5590E9, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7F5590E8, 0x7F5590EA, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7F5590E8, 0x7F5590EB, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F5590E8, 0x7F5590EC, '2019-02-10 00:00:00') /* Flames (5148) */
-     , (0x7F5590E8, 0x7F5590ED, '2019-02-10 00:00:00') /* Flames (5148) */
-     , (0x7F5590E8, 0x7F5590EE, '2019-02-10 00:00:00') /* Portal to Town Network (43067) */
-     , (0x7F5590E8, 0x7F5590EF, '2019-02-10 00:00:00') /* Haven Residential Halls Portal (21464) */
-     , (0x7F5590E8, 0x7F5590F0, '2019-02-10 00:00:00') /* Haven Residential Halls (21476) */
-     , (0x7F5590E8, 0x7F5590F1, '2019-02-10 00:00:00') /* Ong-Hau Village Portal (14655) */
-     , (0x7F5590E8, 0x7F5590F2, '2019-02-10 00:00:00') /* Dryreach Beach Cottages Portal (12487) */
-     , (0x7F5590E8, 0x7F5590F3, '2019-02-10 00:00:00') /* Snowy Valley Portal (13130) */
-     , (0x7F5590E8, 0x7F5590F4, '2019-02-10 00:00:00') /* Dame Tolani Villas Portal (19140) */
-     , (0x7F5590E8, 0x7F5590F5, '2019-02-10 00:00:00') /* Westshore Cottages Portal (14676) */
-     , (0x7F5590E8, 0x7F5590F6, '2019-02-10 00:00:00') /* Nan-Zari Portal (13112) */
-     , (0x7F5590E8, 0x7F5590F7, '2019-02-10 00:00:00') /* Tou-Tou Penninsula Cottages Portal (12561) */
-     , (0x7F5590E8, 0x7F5590F8, '2019-02-10 00:00:00') /* Tou-Tou Road Villas Portal (13137) */
-     , (0x7F5590E8, 0x7F5590F9, '2019-02-10 00:00:00') /* Ariake Portal (12472) */
-     , (0x7F5590E8, 0x7F5590FA, '2019-02-10 00:00:00') /* Black Rock (3686) */
-     , (0x7F5590E8, 0x7F5590FB, '2019-02-10 00:00:00') /* The Temple of Forgetfulness (22764) */
-     , (0x7F5590E8, 0x7F5590FC, '2019-02-10 00:00:00') /* Invitation Ithaenc Cathedral (14915) */
-     , (0x7F5590E8, 0x7F5590FD, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7F5590E8, 0x7F5590FE, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
-     , (0x7F5590E8, 0x7F5590FF, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7F5590E8, 0x7F559100, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7F5590E8, 0x7F559101, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7F5590E8, 0x7F559102, '2019-02-10 00:00:00') /* Ancient Falatacot Trinket (34277) */
-     , (0x7F5590E8, 0x7F559103, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7F5590E8, 0x7F559104, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
-     , (0x7F5590E8, 0x7F559105, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F5590E8, 0x7F559106, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7F5590E8, 0x7F559107, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7F5590E8, 0x7F559108, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7F5590E8, 0x7F559109, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F5590E8, 0x7F55910A, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F5590E8, 0x7F55910B, '2019-02-10 00:00:00') /* Egg (546) */;
+     , (0x7F5590E8, 0x7F5590EC, '2019-02-10 00:00:00') /* Black Rock (3686) */
+     , (0x7F5590E8, 0x7F5590ED, '2019-02-10 00:00:00') /* The Temple of Forgetfulness (22764) */
+     , (0x7F5590E8, 0x7F5590EE, '2019-02-10 00:00:00') /* Invitation Ithaenc Cathedral (14915) */
+     , (0x7F5590E8, 0x7F5590EF, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7F5590E8, 0x7F5590F0, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7F5590E8, 0x7F5590F1, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7F5590E8, 0x7F5590F2, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7F5590E8, 0x7F5590F3, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7F5590E8, 0x7F5590F4, '2019-02-10 00:00:00') /* Ancient Falatacot Trinket (34277) */
+     , (0x7F5590E8, 0x7F5590F5, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7F5590E8, 0x7F5590F6, '2019-02-10 00:00:00') /* Aged Legendary Key (48746) */
+     , (0x7F5590E8, 0x7F5590F7, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F5590E8, 0x7F5590F8, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F5590E8, 0x7F5590F9, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F5590E8, 0x7F5590FA, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F5590E8, 0x7F5590FB, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F5590E8, 0x7F5590FC, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7F5590E8, 0x7F5590FD, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F5590E9,   546, 0xF559002C, 136.6127, 94.48225, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
@@ -1176,129 +1162,73 @@ VALUES (0x7F5590EB,   546, 0xF5590035, 149.1629, 115.185, 20, 1, 0, 0, 0,  True,
 /* @teleloc 0xF5590035 [149.162900 115.185000 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590EC,  5148, 0xF5590101, 184.107, 80.093, 20.305, 0.5373, 0, 0, -0.843391,  True, '2019-02-10 00:00:00'); /* Flames */
-/* @teleloc 0xF5590101 [184.107000 80.093000 20.305000] 0.537300 0.000000 0.000000 -0.843391 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590ED,  5148, 0xF5590109, 152.002, 111.455, 20.205, -0.707107, 0, 0, -0.707107,  True, '2019-02-10 00:00:00'); /* Flames */
-/* @teleloc 0xF5590109 [152.002000 111.455000 20.205000] -0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590EE, 43067, 0xF559003D, 171.6, 113.397, 20.198, 0.9979713, 0, 0, 0.06366552,  True, '2019-02-10 00:00:00'); /* Portal to Town Network */
-/* @teleloc 0xF559003D [171.600000 113.397000 20.198000] 0.997971 0.000000 0.000000 0.063666 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590EF, 21464, 0xF559003B, 177.311, 63.2039, 19.937, 0.4822059, 0, 0, -0.8760579,  True, '2019-02-10 00:00:00'); /* Haven Residential Halls Portal */
-/* @teleloc 0xF559003B [177.311000 63.203900 19.937000] 0.482206 0.000000 0.000000 -0.876058 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F0, 21476, 0xF559003B, 175.443, 64.5452, 20, 0.482206, 0, 0, -0.876058,  True, '2019-02-10 00:00:00'); /* Haven Residential Halls */
-/* @teleloc 0xF559003B [175.443000 64.545200 20.000000] 0.482206 0.000000 0.000000 -0.876058 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F1, 14655, 0xF559002C, 121.832, 72.6583, 19.937, 0.9062888, 0, 0, -0.4226589,  True, '2019-02-10 00:00:00'); /* Ong-Hau Village Portal */
-/* @teleloc 0xF559002C [121.832000 72.658300 19.937000] 0.906289 0.000000 0.000000 -0.422659 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F2, 12487, 0xF559002B, 122.549, 63.4265, 19.937, -0.9257892, 0, 0, -0.3780401,  True, '2019-02-10 00:00:00'); /* Dryreach Beach Cottages Portal */
-/* @teleloc 0xF559002B [122.549000 63.426500 19.937000] -0.925789 0.000000 0.000000 -0.378040 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F3, 13130, 0xF559002B, 123.619, 68.1929, 19.937, -0.7488418, 0, 0, -0.6627488,  True, '2019-02-10 00:00:00'); /* Snowy Valley Portal */
-/* @teleloc 0xF559002B [123.619000 68.192900 19.937000] -0.748842 0.000000 0.000000 -0.662749 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F4, 19140, 0xF5590024, 117.372, 75.2706, 19.937, -0.0737467, 0, 0, -0.997277,  True, '2019-02-10 00:00:00'); /* Dame Tolani Villas Portal */
-/* @teleloc 0xF5590024 [117.372000 75.270600 19.937000] -0.073747 0.000000 0.000000 -0.997277 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F5, 14676, 0xF5590024, 112.659, 74.2251, 19.937, 0.240577, 0, 0, -0.97063,  True, '2019-02-10 00:00:00'); /* Westshore Cottages Portal */
-/* @teleloc 0xF5590024 [112.659000 74.225100 19.937000] 0.240577 0.000000 0.000000 -0.970630 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F6, 13112, 0xF5590023, 109.902, 70.39, 19.937, 0.620978, 0, 0, -0.783828,  True, '2019-02-10 00:00:00'); /* Nan-Zari Portal */
-/* @teleloc 0xF5590023 [109.902000 70.390000 19.937000] 0.620978 0.000000 0.000000 -0.783828 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F7, 12561, 0xF5590023, 110.224, 65.5946, 19.937, 0.824169, 0, 0, -0.566344,  True, '2019-02-10 00:00:00'); /* Tou-Tou Penninsula Cottages Portal */
-/* @teleloc 0xF5590023 [110.224000 65.594600 19.937000] 0.824169 0.000000 0.000000 -0.566344 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F8, 13137, 0xF5590023, 113.343, 61.9311, 19.937, 0.9553823, 0, 0, -0.2953721,  True, '2019-02-10 00:00:00'); /* Tou-Tou Road Villas Portal */
-/* @teleloc 0xF5590023 [113.343000 61.931100 19.937000] 0.955382 0.000000 0.000000 -0.295372 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590F9, 12472, 0xF5590023, 118.085, 61.1065, 19.937, -0.9996749, 0, 0, -0.0254982,  True, '2019-02-10 00:00:00'); /* Ariake Portal */
-/* @teleloc 0xF5590023 [118.085000 61.106500 19.937000] -0.999675 0.000000 0.000000 -0.025498 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590FA,  3686, 0xF559003D, 182.8181, 117.8513, 20, 0.3242165, 0, 0, -0.9459829,  True, '2019-02-10 00:00:00'); /* Black Rock */
+VALUES (0x7F5590EC,  3686, 0xF559003D, 182.8181, 117.8513, 20, 0.3242165, 0, 0, -0.9459829,  True, '2019-02-10 00:00:00'); /* Black Rock */
 /* @teleloc 0xF559003D [182.818100 117.851300 20.000000] 0.324217 0.000000 0.000000 -0.945983 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590FB, 22764, 0xF559003D, 182.8181, 117.8513, 20.06954, 0.3242165, 0, 0, -0.9459829,  True, '2019-02-10 00:00:00'); /* The Temple of Forgetfulness */
+VALUES (0x7F5590ED, 22764, 0xF559003D, 182.8181, 117.8513, 20.06954, 0.3242165, 0, 0, -0.9459829,  True, '2019-02-10 00:00:00'); /* The Temple of Forgetfulness */
 /* @teleloc 0xF559003D [182.818100 117.851300 20.069540] 0.324217 0.000000 0.000000 -0.945983 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590FC, 14915, 0xF559003D, 182.0526, 117.5636, 20.079, 0.1545614, 0, 0, -0.9879832,  True, '2019-02-10 00:00:00'); /* Invitation Ithaenc Cathedral */
+VALUES (0x7F5590EE, 14915, 0xF559003D, 182.0526, 117.5636, 20.079, 0.1545614, 0, 0, -0.9879832,  True, '2019-02-10 00:00:00'); /* Invitation Ithaenc Cathedral */
 /* @teleloc 0xF559003D [182.052600 117.563600 20.079000] 0.154561 0.000000 0.000000 -0.987983 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590FD, 48746, 0xF559003D, 187.8424, 114.2325, 20.024, -0.999936, 0, 0, -0.01131692,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
+VALUES (0x7F5590EF, 48746, 0xF559003D, 187.8424, 114.2325, 20.024, -0.999936, 0, 0, -0.01131692,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0xF559003D [187.842400 114.232500 20.024000] -0.999936 0.000000 0.000000 -0.011317 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590FE, 27329, 0xF559003D, 185.238, 109.5461, 20, 0.9288846, 0, 0, -0.3703694,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */
+VALUES (0x7F5590F0, 27329, 0xF559003D, 185.238, 109.5461, 20, 0.9288846, 0, 0, -0.3703694,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */
 /* @teleloc 0xF559003D [185.238000 109.546100 20.000000] 0.928885 0.000000 0.000000 -0.370369 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F5590FF, 48746, 0xF559003D, 180.2333, 113.982, 20.024, 0.1251788, 0, 0, -0.9921342,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
+VALUES (0x7F5590F1, 48746, 0xF559003D, 180.2333, 113.982, 20.024, 0.1251788, 0, 0, -0.9921342,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0xF559003D [180.233300 113.982000 20.024000] 0.125179 0.000000 0.000000 -0.992134 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559100, 48746, 0xF559003D, 188.4315, 116.8045, 20.024, -0.848761, 0, 0, -0.5287767,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
+VALUES (0x7F5590F2, 48746, 0xF559003D, 188.4315, 116.8045, 20.024, -0.848761, 0, 0, -0.5287767,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0xF559003D [188.431500 116.804500 20.024000] -0.848761 0.000000 0.000000 -0.528777 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559101, 48746, 0xF559003E, 184.3855, 121.9612, 20.024, 0.9860903, 0, 0, -0.1662105,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
+VALUES (0x7F5590F3, 48746, 0xF559003E, 184.3855, 121.9612, 20.024, 0.9860903, 0, 0, -0.1662105,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0xF559003E [184.385500 121.961200 20.024000] 0.986090 0.000000 0.000000 -0.166211 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559102, 34277, 0xF559003D, 181.7177, 111.5736, 20, 0.3316085, 0, 0, -0.9434171,  True, '2019-02-10 00:00:00'); /* Ancient Falatacot Trinket */
+VALUES (0x7F5590F4, 34277, 0xF559003D, 181.7177, 111.5736, 20, 0.3316085, 0, 0, -0.9434171,  True, '2019-02-10 00:00:00'); /* Ancient Falatacot Trinket */
 /* @teleloc 0xF559003D [181.717700 111.573600 20.000000] 0.331609 0.000000 0.000000 -0.943417 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559103, 48746, 0xF559003D, 190.746, 116.5512, 20.024, -0.6140337, 0, 0, -0.7892798,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
+VALUES (0x7F5590F5, 48746, 0xF559003D, 190.746, 116.5512, 20.024, -0.6140337, 0, 0, -0.7892798,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0xF559003D [190.746000 116.551200 20.024000] -0.614034 0.000000 0.000000 -0.789280 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559104, 48746, 0xF559003D, 181.8557, 106.1087, 20.024, -0.9997804, 0, 0, -0.02095704,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
+VALUES (0x7F5590F6, 48746, 0xF559003D, 181.8557, 106.1087, 20.024, -0.9997804, 0, 0, -0.02095704,  True, '2019-02-10 00:00:00'); /* Aged Legendary Key */
 /* @teleloc 0xF559003D [181.855700 106.108700 20.024000] -0.999780 0.000000 0.000000 -0.020957 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559105,   546, 0xF559002D, 139.7704, 98.05422, 20, -0.309017, 0, 0, -0.9510565,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F5590F7,   546, 0xF559002D, 139.7704, 98.05422, 20, -0.309017, 0, 0, -0.9510565,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF559002D [139.770400 98.054220 20.000000] -0.309017 0.000000 0.000000 -0.951057 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559106,  1955, 0xF5590033, 165.1445, 66.60866, 19.937, -0.4268209, 0, 0, -0.9043362,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F5590F8,  1955, 0xF5590033, 165.1445, 66.60866, 19.937, -0.4268209, 0, 0, -0.9043362,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF5590033 [165.144500 66.608660 19.937000] -0.426821 0.000000 0.000000 -0.904336 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559107,  1955, 0xF5590033, 151.7708, 64.63657, 19.937, -0.300193, 0, 0, 0.9538785,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F5590F9,  1955, 0xF5590033, 151.7708, 64.63657, 19.937, -0.300193, 0, 0, 0.9538785,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF5590033 [151.770800 64.636570 19.937000] -0.300193 0.000000 0.000000 0.953879 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559108,  1955, 0xF559003D, 168.5664, 103.2669, 19.937, 0.6942182, 0, 0, -0.7197646,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F5590FA,  1955, 0xF559003D, 168.5664, 103.2669, 19.937, 0.6942182, 0, 0, -0.7197646,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF559003D [168.566400 103.266900 19.937000] 0.694218 0.000000 0.000000 -0.719765 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F559109,   546, 0xF5590033, 167.3109, 66.76723, 20, -0.9987797, 0, 0, -0.04938821,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F5590FB,   546, 0xF5590033, 167.3109, 66.76723, 20, -0.9987797, 0, 0, -0.04938821,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF5590033 [167.310900 66.767230 20.000000] -0.998780 0.000000 0.000000 -0.049388 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F55910A,   546, 0xF5590012, 64.8373, 43.87917, 30.25448, 0.309017, 0, 0, -0.9510565,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F5590FC,   546, 0xF5590012, 64.8373, 43.87917, 30.25448, 0.309017, 0, 0, -0.9510565,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF5590012 [64.837300 43.879170 30.254480] 0.309017 0.000000 0.000000 -0.951057 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F55910B,   546, 0xF5590012, 64.32653, 45.88642, 30.46103, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F5590FD,   546, 0xF5590012, 64.32653, 45.88642, 30.46103, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF5590012 [64.326530 45.886420 30.461030] 1.000000 0.000000 0.000000 0.000000 */
