@@ -203,14 +203,3 @@ VALUES (0x7AAB1027,  2566, 0xAAB10040, 187.0805, 176.9601, 113.2299, -0.81813, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB1028,  2566, 0xAAB1003F, 178.5137, 165.2986, 117.8867, -0.81813, 0, 0, -0.5750333,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xAAB1003F [178.513700 165.298600 117.886700] -0.818130 0.000000 0.000000 -0.575033 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB1029,  1542, 0xAAB10028, 99.7059, 180.63, 123.937, 0.536112, 0, 0, 0.8441469, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xAAB10028 [99.705900 180.630000 123.937000] 0.536112 0.000000 0.000000 0.844147 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7AAB1029, 0x7AAB102A, '2019-02-10 00:00:00') /* Holtburg Redoubt (4935) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB102A,  4935, 0xAAB10028, 99.7059, 180.63, 123.937, 0.536112, 0, 0, 0.8441469,  True, '2019-02-10 00:00:00'); /* Holtburg Redoubt */
-/* @teleloc 0xAAB10028 [99.705900 180.630000 123.937000] 0.536112 0.000000 0.000000 0.844147 */

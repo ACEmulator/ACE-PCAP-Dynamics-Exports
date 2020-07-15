@@ -34,14 +34,3 @@ VALUES (0x78767005,  1764, 0x8767001B, 80.06479, 52.06845, 9.672973, 0.6406479, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78767006,  5682, 0x87670022, 98.64131, 45.29538, 8.227885, 0.6406479, 0, 0, -0.7678348,  True, '2019-02-10 00:00:00'); /* Charred Skeleton */
 /* @teleloc 0x87670022 [98.641310 45.295380 8.227885] 0.640648 0.000000 0.000000 -0.767835 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78767007,  1542, 0x87670032, 159.404, 35.5373, 16.89844, 0.0888629, 0, 0, -0.9960439, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x87670032 [159.404000 35.537300 16.898440] 0.088863 0.000000 0.000000 -0.996044 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x78767007, 0x78767008, '2019-02-10 00:00:00') /* Foundry of Izexi (47155) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x78767008, 47155, 0x87670032, 159.404, 35.5373, 16.89844, 0.0888629, 0, 0, -0.9960439,  True, '2019-02-10 00:00:00'); /* Foundry of Izexi */
-/* @teleloc 0x87670032 [159.404000 35.537300 16.898440] 0.088863 0.000000 0.000000 -0.996044 */

@@ -165,32 +165,27 @@ VALUES (0x7A8B1020, 24937, 0xA8B10031, 165.4006, 18.40592, 56.67479, 1, 0, 0, 0,
 /* @teleloc 0xA8B10031 [165.400600 18.405920 56.674790] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B1021,  1542, 0xA8B10006, 2.245, 140.642, 56.40233, 0.6360779, 0, 0, -0.7716249, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xA8B10006 [2.245000 140.642000 56.402330] 0.636078 0.000000 0.000000 -0.771625 */
+VALUES (0x7A8B1021,  1542, 0xA8B10030, 136.1128, 189.0331, 43.37668, 0.9908779, 0, 0, -0.134763, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xA8B10030 [136.112800 189.033100 43.376680] 0.990878 0.000000 0.000000 -0.134763 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7A8B1021, 0x7A8B1022, '2019-02-10 00:00:00') /* A Rat Nest (1347) */
-     , (0x7A8B1021, 0x7A8B1023, '2019-02-10 00:00:00') /* Fish (263) */
-     , (0x7A8B1021, 0x7A8B1024, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7A8B1021, 0x7A8B1025, '2019-02-10 00:00:00') /* Cabbage (260) */
-     , (0x7A8B1021, 0x7A8B1026, '2019-02-10 00:00:00') /* Steak (4742) */;
+VALUES (0x7A8B1021, 0x7A8B1022, '2019-02-10 00:00:00') /* Fish (263) */
+     , (0x7A8B1021, 0x7A8B1023, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7A8B1021, 0x7A8B1024, '2019-02-10 00:00:00') /* Cabbage (260) */
+     , (0x7A8B1021, 0x7A8B1025, '2019-02-10 00:00:00') /* Steak (4742) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B1022,  1347, 0xA8B10006, 2.245, 140.642, 56.40233, 0.6360779, 0, 0, -0.7716249,  True, '2019-02-10 00:00:00'); /* A Rat Nest */
-/* @teleloc 0xA8B10006 [2.245000 140.642000 56.402330] 0.636078 0.000000 0.000000 -0.771625 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B1023,   263, 0xA8B10030, 136.1128, 189.0331, 43.37668, 0.9908779, 0, 0, -0.134763,  True, '2019-02-10 00:00:00'); /* Fish */
+VALUES (0x7A8B1022,   263, 0xA8B10030, 136.1128, 189.0331, 43.37668, 0.9908779, 0, 0, -0.134763,  True, '2019-02-10 00:00:00'); /* Fish */
 /* @teleloc 0xA8B10030 [136.112800 189.033100 43.376680] 0.990878 0.000000 0.000000 -0.134763 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B1024,   546, 0xA8B10039, 177.5244, 15.8912, 55.88058, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7A8B1023,   546, 0xA8B10039, 177.5244, 15.8912, 55.88058, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xA8B10039 [177.524400 15.891200 55.880580] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B1025,   260, 0xA8B10030, 138.4457, 190.9861, 43.53714, 0.9908779, 0, 0, -0.134763,  True, '2019-02-10 00:00:00'); /* Cabbage */
+VALUES (0x7A8B1024,   260, 0xA8B10030, 138.4457, 190.9861, 43.53714, 0.9908779, 0, 0, -0.134763,  True, '2019-02-10 00:00:00'); /* Cabbage */
 /* @teleloc 0xA8B10030 [138.445700 190.986100 43.537140] 0.990878 0.000000 0.000000 -0.134763 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A8B1026,  4742, 0xA8B10030, 135.4899, 189.3028, 43.29855, 0.990878, 0, 0, -0.134763,  True, '2019-02-10 00:00:00'); /* Steak */
+VALUES (0x7A8B1025,  4742, 0xA8B10030, 135.4899, 189.3028, 43.29855, 0.990878, 0, 0, -0.134763,  True, '2019-02-10 00:00:00'); /* Steak */
 /* @teleloc 0xA8B10030 [135.489900 189.302800 43.298550] 0.990878 0.000000 0.000000 -0.134763 */

@@ -209,14 +209,3 @@ VALUES (0x7DB5602C, 14459, 0xDB56000D, 27.66424, 103.4212, 20.005, 0.7071068, 0,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB5602D, 14459, 0xDB56000D, 24.65595, 105.6628, 20.005, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Sentry */
 /* @teleloc 0xDB56000D [24.655950 105.662800 20.005000] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5602E,  1542, 0xDB560101, 12.1426, 84.707, 19.937, 0.9085418, 0, 0, -0.4177939, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xDB560101 [12.142600 84.707000 19.937000] 0.908542 0.000000 0.000000 -0.417794 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7DB5602E, 0x7DB5602F, '2019-02-10 00:00:00') /* Underground Passage (14449) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5602F, 14449, 0xDB560101, 12.1426, 84.707, 19.937, 0.9085418, 0, 0, -0.4177939,  True, '2019-02-10 00:00:00'); /* Underground Passage */
-/* @teleloc 0xDB560101 [12.142600 84.707000 19.937000] 0.908542 0.000000 0.000000 -0.417794 */

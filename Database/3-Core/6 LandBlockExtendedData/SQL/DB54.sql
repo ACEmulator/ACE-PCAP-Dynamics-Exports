@@ -1342,51 +1342,50 @@ VALUES (0x7DB54115, 0x7DB54116, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7DB54115, 0x7DB54119, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7DB54115, 0x7DB5411A, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7DB54115, 0x7DB5411B, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7DB54115, 0x7DB5411C, '2019-02-10 00:00:00') /* Destroyed Portal to Sanamar (28709) */
-     , (0x7DB54115, 0x7DB5411D, '2019-02-10 00:00:00') /* Scroll of Celdiseth's Blessing (20562) */
-     , (0x7DB54115, 0x7DB5411E, '2019-02-10 00:00:00') /* Scroll of Battlemage's Boon (20489) */
-     , (0x7DB54115, 0x7DB5411F, '2019-02-10 00:00:00') /* Scroll of Archer's Gift (20485) */
-     , (0x7DB54115, 0x7DB54120, '2019-02-10 00:00:00') /* Scroll of Sashi Mu's Kiss (20526) */
-     , (0x7DB54115, 0x7DB54121, '2019-02-10 00:00:00') /* Scroll of Cabalastic Ostracism (20417) */
-     , (0x7DB54115, 0x7DB54122, '2019-02-10 00:00:00') /* Scroll of Lilitha's Blessing (20531) */
-     , (0x7DB54115, 0x7DB54123, '2019-02-10 00:00:00') /* Scroll of Jahannan's Blessing (20547) */
-     , (0x7DB54115, 0x7DB54124, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7DB54115, 0x7DB54125, '2019-02-10 00:00:00') /* Eater (44733) */
-     , (0x7DB54115, 0x7DB54126, '2019-02-10 00:00:00') /* Ash Gromnie Wings (28211) */
-     , (0x7DB54115, 0x7DB54127, '2019-02-10 00:00:00') /* Treated Healing Kit (9229) */
-     , (0x7DB54115, 0x7DB54128, '2019-02-10 00:00:00') /* Crystal (44730) */
-     , (0x7DB54115, 0x7DB54129, '2019-02-10 00:00:00') /* Chicken (44727) */
-     , (0x7DB54115, 0x7DB5412A, '2019-02-10 00:00:00') /* Phyntos Wasp (44781) */
-     , (0x7DB54115, 0x7DB5412B, '2019-02-10 00:00:00') /* Undead (44778) */
+     , (0x7DB54115, 0x7DB5411C, '2019-02-10 00:00:00') /* Scroll of Celdiseth's Blessing (20562) */
+     , (0x7DB54115, 0x7DB5411D, '2019-02-10 00:00:00') /* Scroll of Battlemage's Boon (20489) */
+     , (0x7DB54115, 0x7DB5411E, '2019-02-10 00:00:00') /* Scroll of Archer's Gift (20485) */
+     , (0x7DB54115, 0x7DB5411F, '2019-02-10 00:00:00') /* Scroll of Sashi Mu's Kiss (20526) */
+     , (0x7DB54115, 0x7DB54120, '2019-02-10 00:00:00') /* Scroll of Cabalastic Ostracism (20417) */
+     , (0x7DB54115, 0x7DB54121, '2019-02-10 00:00:00') /* Scroll of Lilitha's Blessing (20531) */
+     , (0x7DB54115, 0x7DB54122, '2019-02-10 00:00:00') /* Scroll of Jahannan's Blessing (20547) */
+     , (0x7DB54115, 0x7DB54123, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7DB54115, 0x7DB54124, '2019-02-10 00:00:00') /* Eater (44733) */
+     , (0x7DB54115, 0x7DB54125, '2019-02-10 00:00:00') /* Ash Gromnie Wings (28211) */
+     , (0x7DB54115, 0x7DB54126, '2019-02-10 00:00:00') /* Treated Healing Kit (9229) */
+     , (0x7DB54115, 0x7DB54127, '2019-02-10 00:00:00') /* Crystal (44730) */
+     , (0x7DB54115, 0x7DB54128, '2019-02-10 00:00:00') /* Chicken (44727) */
+     , (0x7DB54115, 0x7DB54129, '2019-02-10 00:00:00') /* Phyntos Wasp (44781) */
+     , (0x7DB54115, 0x7DB5412A, '2019-02-10 00:00:00') /* Undead (44778) */
+     , (0x7DB54115, 0x7DB5412B, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7DB54115, 0x7DB5412C, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7DB54115, 0x7DB5412D, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7DB54115, 0x7DB5412E, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
-     , (0x7DB54115, 0x7DB5412F, '2019-02-10 00:00:00') /* Goggles (41484) */
-     , (0x7DB54115, 0x7DB54130, '2019-02-10 00:00:00') /* Tower Shield (95) */
-     , (0x7DB54115, 0x7DB54131, '2019-02-10 00:00:00') /* Ring (624) */
-     , (0x7DB54115, 0x7DB54132, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
-     , (0x7DB54115, 0x7DB54133, '2019-02-10 00:00:00') /* Acid Compound Bow (31799) */
-     , (0x7DB54115, 0x7DB54134, '2019-02-10 00:00:00') /* Covenant Shield (21158) */
-     , (0x7DB54115, 0x7DB54135, '2019-02-10 00:00:00') /* Mite (44749) */
-     , (0x7DB54115, 0x7DB54136, '2019-02-10 00:00:00') /* Scroll of Ataxia (20233) */
-     , (0x7DB54115, 0x7DB54137, '2019-02-10 00:00:00') /* Scroll of Dirty Fighting Mastery Other VII (45250) */
-     , (0x7DB54115, 0x7DB54138, '2019-02-10 00:00:00') /* Scroll of Light Weapon Ineptitude Other VII (20504) */
-     , (0x7DB54115, 0x7DB54139, '2019-02-10 00:00:00') /* Scroll of Missile Weapon Mastery Self VII (20509) */
-     , (0x7DB54115, 0x7DB5413A, '2019-02-10 00:00:00') /* Scroll of Heavy Weapon Ineptitude Other VII (20584) */
-     , (0x7DB54115, 0x7DB5413B, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7DB54115, 0x7DB5413C, '2019-02-10 00:00:00') /* Greater Mana Kit (44712) */
-     , (0x7DB54115, 0x7DB5413D, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
-     , (0x7DB54115, 0x7DB5413E, '2019-02-10 00:00:00') /* Slippers (133) */
-     , (0x7DB54115, 0x7DB5413F, '2019-02-10 00:00:00') /* Fire Crossbow (29248) */
-     , (0x7DB54115, 0x7DB54140, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
-     , (0x7DB54115, 0x7DB54141, '2019-02-10 00:00:00') /* Lightning Club (3767) */
-     , (0x7DB54115, 0x7DB54142, '2019-02-10 00:00:00') /* Nariyid Girth (27229) */
-     , (0x7DB54115, 0x7DB54143, '2019-02-10 00:00:00') /* Olthoi Koujia Gauntlets (37190) */
-     , (0x7DB54115, 0x7DB54144, '2019-02-10 00:00:00') /* Coronet (31866) */
-     , (0x7DB54115, 0x7DB54145, '2019-02-10 00:00:00') /* Scroll of Tenaciousness (20493) */
-     , (0x7DB54115, 0x7DB54146, '2019-02-10 00:00:00') /* Scroll of Tusker's Gift (20473) */
-     , (0x7DB54115, 0x7DB54147, '2019-02-10 00:00:00') /* Scroll of Battlemage's Blessing (20490) */
-     , (0x7DB54115, 0x7DB54148, '2019-02-10 00:00:00') /* Egg (546) */;
+     , (0x7DB54115, 0x7DB5412D, '2019-02-10 00:00:00') /* Heavy Bracelet (621) */
+     , (0x7DB54115, 0x7DB5412E, '2019-02-10 00:00:00') /* Goggles (41484) */
+     , (0x7DB54115, 0x7DB5412F, '2019-02-10 00:00:00') /* Tower Shield (95) */
+     , (0x7DB54115, 0x7DB54130, '2019-02-10 00:00:00') /* Ring (624) */
+     , (0x7DB54115, 0x7DB54131, '2019-02-10 00:00:00') /* Mechanical Scarab (41487) */
+     , (0x7DB54115, 0x7DB54132, '2019-02-10 00:00:00') /* Acid Compound Bow (31799) */
+     , (0x7DB54115, 0x7DB54133, '2019-02-10 00:00:00') /* Covenant Shield (21158) */
+     , (0x7DB54115, 0x7DB54134, '2019-02-10 00:00:00') /* Mite (44749) */
+     , (0x7DB54115, 0x7DB54135, '2019-02-10 00:00:00') /* Scroll of Ataxia (20233) */
+     , (0x7DB54115, 0x7DB54136, '2019-02-10 00:00:00') /* Scroll of Dirty Fighting Mastery Other VII (45250) */
+     , (0x7DB54115, 0x7DB54137, '2019-02-10 00:00:00') /* Scroll of Light Weapon Ineptitude Other VII (20504) */
+     , (0x7DB54115, 0x7DB54138, '2019-02-10 00:00:00') /* Scroll of Missile Weapon Mastery Self VII (20509) */
+     , (0x7DB54115, 0x7DB54139, '2019-02-10 00:00:00') /* Scroll of Heavy Weapon Ineptitude Other VII (20584) */
+     , (0x7DB54115, 0x7DB5413A, '2019-02-10 00:00:00') /* Egg (546) */
+     , (0x7DB54115, 0x7DB5413B, '2019-02-10 00:00:00') /* Greater Mana Kit (44712) */
+     , (0x7DB54115, 0x7DB5413C, '2019-02-10 00:00:00') /* Massive Mana Charge (27329) */
+     , (0x7DB54115, 0x7DB5413D, '2019-02-10 00:00:00') /* Slippers (133) */
+     , (0x7DB54115, 0x7DB5413E, '2019-02-10 00:00:00') /* Fire Crossbow (29248) */
+     , (0x7DB54115, 0x7DB5413F, '2019-02-10 00:00:00') /* Heavy Necklace (623) */
+     , (0x7DB54115, 0x7DB54140, '2019-02-10 00:00:00') /* Lightning Club (3767) */
+     , (0x7DB54115, 0x7DB54141, '2019-02-10 00:00:00') /* Nariyid Girth (27229) */
+     , (0x7DB54115, 0x7DB54142, '2019-02-10 00:00:00') /* Olthoi Koujia Gauntlets (37190) */
+     , (0x7DB54115, 0x7DB54143, '2019-02-10 00:00:00') /* Coronet (31866) */
+     , (0x7DB54115, 0x7DB54144, '2019-02-10 00:00:00') /* Scroll of Tenaciousness (20493) */
+     , (0x7DB54115, 0x7DB54145, '2019-02-10 00:00:00') /* Scroll of Tusker's Gift (20473) */
+     , (0x7DB54115, 0x7DB54146, '2019-02-10 00:00:00') /* Scroll of Battlemage's Blessing (20490) */
+     , (0x7DB54115, 0x7DB54147, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7DB54116,   546, 0xDB54000E, 25.72704, 122.9357, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
@@ -1413,181 +1412,177 @@ VALUES (0x7DB5411B,   546, 0xDB54001B, 80.85899, 56.40547, 20, 1, 0, 0, 0,  True
 /* @teleloc 0xDB54001B [80.858990 56.405470 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5411C, 28709, 0xDB54000D, 36, 108, 19.79017, 0.9238797, 0, 0, -0.3826829,  True, '2019-02-10 00:00:00'); /* Destroyed Portal to Sanamar */
-/* @teleloc 0xDB54000D [36.000000 108.000000 19.790170] 0.923880 0.000000 0.000000 -0.382683 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5411D, 20562, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Celdiseth's Blessing */
+VALUES (0x7DB5411C, 20562, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Celdiseth's Blessing */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5411E, 20489, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Battlemage's Boon */
+VALUES (0x7DB5411D, 20489, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Battlemage's Boon */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5411F, 20485, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Archer's Gift */
+VALUES (0x7DB5411E, 20485, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Archer's Gift */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54120, 20526, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Sashi Mu's Kiss */
+VALUES (0x7DB5411F, 20526, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Sashi Mu's Kiss */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54121, 20417, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Cabalastic Ostracism */
+VALUES (0x7DB54120, 20417, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Cabalastic Ostracism */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54122, 20531, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Lilitha's Blessing */
+VALUES (0x7DB54121, 20531, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Lilitha's Blessing */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54123, 20547, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Jahannan's Blessing */
+VALUES (0x7DB54122, 20547, 0xDB540100, 105.9881, 126.6166, 20.0855, -0.2743298, 0, 0, -0.9616356,  True, '2019-02-10 00:00:00'); /* Scroll of Jahannan's Blessing */
 /* @teleloc 0xDB540100 [105.988100 126.616600 20.085500] -0.274330 0.000000 0.000000 -0.961636 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54124,  1955, 0xDB540010, 38.71362, 184.0122, 19.937, 0.9525993, 0, 0, 0.3042278,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7DB54123,  1955, 0xDB540010, 38.71362, 184.0122, 19.937, 0.9525993, 0, 0, 0.3042278,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xDB540010 [38.713620 184.012200 19.937000] 0.952599 0.000000 0.000000 0.304228 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54125, 44733, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Eater */
+VALUES (0x7DB54124, 44733, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Eater */
 /* @teleloc 0xDB540100 [101.359900 139.664700 20.000000] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54126, 28211, 0xDB540100, 101.3599, 139.6647, 19.9975, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Ash Gromnie Wings */
+VALUES (0x7DB54125, 28211, 0xDB540100, 101.3599, 139.6647, 19.9975, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Ash Gromnie Wings */
 /* @teleloc 0xDB540100 [101.359900 139.664700 19.997500] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54127,  9229, 0xDB540100, 101.3599, 139.6647, 20.0315, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Treated Healing Kit */
+VALUES (0x7DB54126,  9229, 0xDB540100, 101.3599, 139.6647, 20.0315, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Treated Healing Kit */
 /* @teleloc 0xDB540100 [101.359900 139.664700 20.031500] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54128, 44730, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Crystal */
+VALUES (0x7DB54127, 44730, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Crystal */
 /* @teleloc 0xDB540100 [101.359900 139.664700 20.000000] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54129, 44727, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Chicken */
+VALUES (0x7DB54128, 44727, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Chicken */
 /* @teleloc 0xDB540100 [101.359900 139.664700 20.000000] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5412A, 44781, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Phyntos Wasp */
+VALUES (0x7DB54129, 44781, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Phyntos Wasp */
 /* @teleloc 0xDB540100 [101.359900 139.664700 20.000000] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5412B, 44778, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Undead */
+VALUES (0x7DB5412A, 44778, 0xDB540100, 101.3599, 139.6647, 20, -0.6832739, 0, 0, -0.7301622,  True, '2019-02-10 00:00:00'); /* Undead */
 /* @teleloc 0xDB540100 [101.359900 139.664700 20.000000] -0.683274 0.000000 0.000000 -0.730162 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5412C,   546, 0xDB54000C, 43.59653, 83.26915, 20.36508, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7DB5412B,   546, 0xDB54000C, 43.59653, 83.26915, 20.36508, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xDB54000C [43.596530 83.269150 20.365080] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5412D,   546, 0xDB540010, 26.18535, 180.9131, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7DB5412C,   546, 0xDB540010, 26.18535, 180.9131, 20, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xDB540010 [26.185350 180.913100 20.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5412E,   621, 0xDB540105, 104.3125, 128.5812, 25.62933, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Heavy Bracelet */
+VALUES (0x7DB5412D,   621, 0xDB540105, 104.3125, 128.5812, 25.62933, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Heavy Bracelet */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.629330] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5412F, 41484, 0xDB540105, 104.3125, 128.5812, 25.62111, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Goggles */
+VALUES (0x7DB5412E, 41484, 0xDB540105, 104.3125, 128.5812, 25.62111, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Goggles */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.621110] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54130,    95, 0xDB540105, 104.3125, 128.5812, 25.5975, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Tower Shield */
+VALUES (0x7DB5412F,    95, 0xDB540105, 104.3125, 128.5812, 25.5975, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Tower Shield */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.597500] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54131,   624, 0xDB540105, 104.3125, 128.5812, 25.6205, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Ring */
+VALUES (0x7DB54130,   624, 0xDB540105, 104.3125, 128.5812, 25.6205, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Ring */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.620500] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54132, 41487, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Mechanical Scarab */
+VALUES (0x7DB54131, 41487, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Mechanical Scarab */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.600000] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54133, 31799, 0xDB540105, 104.3125, 128.5812, 25.6539, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Acid Compound Bow */
+VALUES (0x7DB54132, 31799, 0xDB540105, 104.3125, 128.5812, 25.6539, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Acid Compound Bow */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.653900] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54134, 21158, 0xDB540105, 104.3125, 128.5812, 25.6105, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Covenant Shield */
+VALUES (0x7DB54133, 21158, 0xDB540105, 104.3125, 128.5812, 25.6105, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Covenant Shield */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.610500] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54135, 44749, 0xDB540100, 110.6283, 139.539, 20, 0.797808, 0, 0, -0.6029116,  True, '2019-02-10 00:00:00'); /* Mite */
+VALUES (0x7DB54134, 44749, 0xDB540100, 110.6283, 139.539, 20, 0.797808, 0, 0, -0.6029116,  True, '2019-02-10 00:00:00'); /* Mite */
 /* @teleloc 0xDB540100 [110.628300 139.539000 20.000000] 0.797808 0.000000 0.000000 -0.602912 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54136, 20233, 0xDB540100, 105.1524, 125.9349, 20.0855, -0.08275242, 0, 0, -0.9965701,  True, '2019-02-10 00:00:00'); /* Scroll of Ataxia */
+VALUES (0x7DB54135, 20233, 0xDB540100, 105.1524, 125.9349, 20.0855, -0.08275242, 0, 0, -0.9965701,  True, '2019-02-10 00:00:00'); /* Scroll of Ataxia */
 /* @teleloc 0xDB540100 [105.152400 125.934900 20.085500] -0.082752 0.000000 0.000000 -0.996570 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54137, 45250, 0xDB540100, 105.1524, 125.9349, 20.0855, -0.08275242, 0, 0, -0.9965701,  True, '2019-02-10 00:00:00'); /* Scroll of Dirty Fighting Mastery Other VII */
+VALUES (0x7DB54136, 45250, 0xDB540100, 105.1524, 125.9349, 20.0855, -0.08275242, 0, 0, -0.9965701,  True, '2019-02-10 00:00:00'); /* Scroll of Dirty Fighting Mastery Other VII */
 /* @teleloc 0xDB540100 [105.152400 125.934900 20.085500] -0.082752 0.000000 0.000000 -0.996570 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54138, 20504, 0xDB540100, 105.0706, 125.9539, 20.0855, -0.1457623, 0, 0, -0.9893196,  True, '2019-02-10 00:00:00'); /* Scroll of Light Weapon Ineptitude Other VII */
+VALUES (0x7DB54137, 20504, 0xDB540100, 105.0706, 125.9539, 20.0855, -0.1457623, 0, 0, -0.9893196,  True, '2019-02-10 00:00:00'); /* Scroll of Light Weapon Ineptitude Other VII */
 /* @teleloc 0xDB540100 [105.070600 125.953900 20.085500] -0.145762 0.000000 0.000000 -0.989320 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54139, 20509, 0xDB540100, 105.0706, 125.9539, 20.0855, -0.1457623, 0, 0, -0.9893196,  True, '2019-02-10 00:00:00'); /* Scroll of Missile Weapon Mastery Self VII */
+VALUES (0x7DB54138, 20509, 0xDB540100, 105.0706, 125.9539, 20.0855, -0.1457623, 0, 0, -0.9893196,  True, '2019-02-10 00:00:00'); /* Scroll of Missile Weapon Mastery Self VII */
 /* @teleloc 0xDB540100 [105.070600 125.953900 20.085500] -0.145762 0.000000 0.000000 -0.989320 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5413A, 20584, 0xDB540100, 105.0706, 125.9539, 20.0855, -0.1457623, 0, 0, -0.9893196,  True, '2019-02-10 00:00:00'); /* Scroll of Heavy Weapon Ineptitude Other VII */
+VALUES (0x7DB54139, 20584, 0xDB540100, 105.0706, 125.9539, 20.0855, -0.1457623, 0, 0, -0.9893196,  True, '2019-02-10 00:00:00'); /* Scroll of Heavy Weapon Ineptitude Other VII */
 /* @teleloc 0xDB540100 [105.070600 125.953900 20.085500] -0.145762 0.000000 0.000000 -0.989320 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5413B,   546, 0xDB540005, 21.00258, 118.2588, 20.24791, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7DB5413A,   546, 0xDB540005, 21.00258, 118.2588, 20.24791, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xDB540005 [21.002580 118.258800 20.247910] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5413C, 44712, 0xDB540100, 107.0888, 134.7634, 20.0315, -0.6285895, 0, 0, -0.7777373,  True, '2019-02-10 00:00:00'); /* Greater Mana Kit */
+VALUES (0x7DB5413B, 44712, 0xDB540100, 107.0888, 134.7634, 20.0315, -0.6285895, 0, 0, -0.7777373,  True, '2019-02-10 00:00:00'); /* Greater Mana Kit */
 /* @teleloc 0xDB540100 [107.088800 134.763400 20.031500] -0.628590 0.000000 0.000000 -0.777737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5413D, 27329, 0xDB540100, 107.0888, 134.7634, 20, -0.6285895, 0, 0, -0.7777373,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */
+VALUES (0x7DB5413C, 27329, 0xDB540100, 107.0888, 134.7634, 20, -0.6285895, 0, 0, -0.7777373,  True, '2019-02-10 00:00:00'); /* Massive Mana Charge */
 /* @teleloc 0xDB540100 [107.088800 134.763400 20.000000] -0.628590 0.000000 0.000000 -0.777737 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5413E,   133, 0xDB540105, 104.3125, 128.5812, 25.59935, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Slippers */
+VALUES (0x7DB5413D,   133, 0xDB540105, 104.3125, 128.5812, 25.59935, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Slippers */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.599350] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB5413F, 29248, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Fire Crossbow */
+VALUES (0x7DB5413E, 29248, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Fire Crossbow */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.600000] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54140,   623, 0xDB540105, 104.3125, 128.5812, 25.64054, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Heavy Necklace */
+VALUES (0x7DB5413F,   623, 0xDB540105, 104.3125, 128.5812, 25.64054, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Heavy Necklace */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.640540] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54141,  3767, 0xDB540105, 104.3125, 128.5812, 25.70938, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Lightning Club */
+VALUES (0x7DB54140,  3767, 0xDB540105, 104.3125, 128.5812, 25.70938, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Lightning Club */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.709380] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54142, 27229, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Nariyid Girth */
+VALUES (0x7DB54141, 27229, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Nariyid Girth */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.600000] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54143, 37190, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Olthoi Koujia Gauntlets */
+VALUES (0x7DB54142, 37190, 0xDB540105, 104.3125, 128.5812, 25.6, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Olthoi Koujia Gauntlets */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.600000] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54144, 31866, 0xDB540105, 104.3125, 128.5812, 25.658, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Coronet */
+VALUES (0x7DB54143, 31866, 0xDB540105, 104.3125, 128.5812, 25.658, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Coronet */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.658000] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54145, 20493, 0xDB540105, 104.3125, 128.5812, 25.6855, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Scroll of Tenaciousness */
+VALUES (0x7DB54144, 20493, 0xDB540105, 104.3125, 128.5812, 25.6855, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Scroll of Tenaciousness */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.685500] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54146, 20473, 0xDB540105, 104.3125, 128.5812, 25.6855, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Scroll of Tusker's Gift */
+VALUES (0x7DB54145, 20473, 0xDB540105, 104.3125, 128.5812, 25.6855, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Scroll of Tusker's Gift */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.685500] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54147, 20490, 0xDB540105, 104.3125, 128.5812, 25.6855, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Scroll of Battlemage's Blessing */
+VALUES (0x7DB54146, 20490, 0xDB540105, 104.3125, 128.5812, 25.6855, -0.5940955, 0, 0, -0.8043945,  True, '2019-02-10 00:00:00'); /* Scroll of Battlemage's Blessing */
 /* @teleloc 0xDB540105 [104.312500 128.581200 25.685500] -0.594096 0.000000 0.000000 -0.804395 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7DB54148,   546, 0xDB54000E, 44.74509, 127.6623, 20, -0.9510565, 0, 0, -0.309017,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7DB54147,   546, 0xDB54000E, 44.74509, 127.6623, 20, -0.9510565, 0, 0, -0.309017,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xDB54000E [44.745090 127.662300 20.000000] -0.951057 0.000000 0.000000 -0.309017 */

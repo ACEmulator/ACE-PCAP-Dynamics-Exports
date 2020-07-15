@@ -247,27 +247,22 @@ VALUES (0x7D955030, 32715, 0xD955003D, 175.883, 104.59, 20.005, -0.933688, 0, 0,
 /* @teleloc 0xD955003D [175.883000 104.590000 20.005000] -0.933688 0.000000 0.000000 -0.358087 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D955031,  1542, 0xD955003C, 182.184, 89.697, 20.29817, -0.7559618, 0, 0, -0.6546158, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xD955003C [182.184000 89.697000 20.298170] -0.755962 0.000000 0.000000 -0.654616 */
+VALUES (0x7D955031,  1542, 0xD9550007, 9.482129, 166.8708, 47.48606, 0.532927, 0, 0, -0.8461612, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xD9550007 [9.482129 166.870800 47.486060] 0.532927 0.000000 0.000000 -0.846161 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7D955031, 0x7D955032, '2019-02-10 00:00:00') /* Destroyed Portal to Greenspire (11954) */
-     , (0x7D955031, 0x7D955033, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
-     , (0x7D955031, 0x7D955034, '2019-02-10 00:00:00') /* Frost Spiked Club (7787) */
-     , (0x7D955031, 0x7D955035, '2019-02-10 00:00:00') /* Silver Pea (8331) */;
+VALUES (0x7D955031, 0x7D955032, '2019-02-10 00:00:00') /* Peerless Lockpick (516) */
+     , (0x7D955031, 0x7D955033, '2019-02-10 00:00:00') /* Frost Spiked Club (7787) */
+     , (0x7D955031, 0x7D955034, '2019-02-10 00:00:00') /* Silver Pea (8331) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D955032, 11954, 0xD955003C, 182.184, 89.697, 20.29817, -0.7559618, 0, 0, -0.6546158,  True, '2019-02-10 00:00:00'); /* Destroyed Portal to Greenspire */
-/* @teleloc 0xD955003C [182.184000 89.697000 20.298170] -0.755962 0.000000 0.000000 -0.654616 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D955033,   516, 0xD9550007, 9.482129, 166.8708, 47.48606, 0.532927, 0, 0, -0.8461612,  True, '2019-02-10 00:00:00'); /* Peerless Lockpick */
+VALUES (0x7D955032,   516, 0xD9550007, 9.482129, 166.8708, 47.48606, 0.532927, 0, 0, -0.8461612,  True, '2019-02-10 00:00:00'); /* Peerless Lockpick */
 /* @teleloc 0xD9550007 [9.482129 166.870800 47.486060] 0.532927 0.000000 0.000000 -0.846161 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D955034,  7787, 0xD9550007, 9.482129, 166.8708, 47.42912, 0.532927, 0, 0, -0.8461612,  True, '2019-02-10 00:00:00'); /* Frost Spiked Club */
+VALUES (0x7D955033,  7787, 0xD9550007, 9.482129, 166.8708, 47.42912, 0.532927, 0, 0, -0.8461612,  True, '2019-02-10 00:00:00'); /* Frost Spiked Club */
 /* @teleloc 0xD9550007 [9.482129 166.870800 47.429120] 0.532927 0.000000 0.000000 -0.846161 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D955035,  8331, 0xD9550007, 9.482129, 166.8708, 47.40018, 0.532927, 0, 0, -0.8461612,  True, '2019-02-10 00:00:00'); /* Silver Pea */
+VALUES (0x7D955034,  8331, 0xD9550007, 9.482129, 166.8708, 47.40018, 0.532927, 0, 0, -0.8461612,  True, '2019-02-10 00:00:00'); /* Silver Pea */
 /* @teleloc 0xD9550007 [9.482129 166.870800 47.400180] 0.532927 0.000000 0.000000 -0.846161 */

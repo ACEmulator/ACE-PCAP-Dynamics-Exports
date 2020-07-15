@@ -613,10 +613,9 @@ INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modifi
 VALUES (0x7F55A079, 0x7F55A07A, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7F55A079, 0x7F55A07B, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7F55A079, 0x7F55A07C, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F55A079, 0x7F55A07D, '2019-02-10 00:00:00') /* The Shadows (43865) */
+     , (0x7F55A079, 0x7F55A07D, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7F55A079, 0x7F55A07E, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F55A079, 0x7F55A07F, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7F55A079, 0x7F55A080, '2019-02-10 00:00:00') /* Egg (546) */;
+     , (0x7F55A079, 0x7F55A07F, '2019-02-10 00:00:00') /* Egg (546) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F55A07A,   546, 0xF55A0032, 148.8649, 33.71682, 34.40204, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
@@ -631,17 +630,13 @@ VALUES (0x7F55A07C,   546, 0xF55A003B, 183.908, 62.20676, 34, 1, 0, 0, 0,  True,
 /* @teleloc 0xF55A003B [183.908000 62.206760 34.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F55A07D, 43865, 0xF55A0103, 13.2117, 110.495, 174.4402, 0.9892039, 0, 0, -0.146546,  True, '2019-02-10 00:00:00'); /* The Shadows */
-/* @teleloc 0xF55A0103 [13.211700 110.495000 174.440200] 0.989204 0.000000 0.000000 -0.146546 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F55A07E,   546, 0xF55A003B, 181.2216, 67.61923, 34, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F55A07D,   546, 0xF55A003B, 181.2216, 67.61923, 34, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF55A003B [181.221600 67.619230 34.000000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F55A07F,   546, 0xF55A003D, 191.7702, 96.8017, 34.03455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F55A07E,   546, 0xF55A003D, 191.7702, 96.8017, 34.03455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF55A003D [191.770200 96.801700 34.034550] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F55A080,   546, 0xF55A003D, 176.0179, 112.6635, 36.65994, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
+VALUES (0x7F55A07F,   546, 0xF55A003D, 176.0179, 112.6635, 36.65994, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Egg */
 /* @teleloc 0xF55A003D [176.017900 112.663500 36.659940] 1.000000 0.000000 0.000000 0.000000 */
