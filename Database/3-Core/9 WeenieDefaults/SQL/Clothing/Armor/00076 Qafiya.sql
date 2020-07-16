@@ -8,7 +8,6 @@ VALUES (76,   1,          2) /* ItemType - Armor */
      , (76,   4,      16384) /* ClothingPriority - Head */
      , (76,   5,        555) /* EncumbranceVal */
      , (76,   9,          1) /* ValidLocations - HeadWear */
-     , (76,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (76,  16,          1) /* ItemUseable - No */
      , (76,  18,          1) /* UiEffects - Magical */
      , (76,  19,      18787) /* Value */

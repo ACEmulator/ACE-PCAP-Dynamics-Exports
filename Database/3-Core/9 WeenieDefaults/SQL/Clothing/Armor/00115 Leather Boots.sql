@@ -8,7 +8,6 @@ VALUES (115,   1,          2) /* ItemType - Armor */
      , (115,   4,      65536) /* ClothingPriority - Feet */
      , (115,   5,        420) /* EncumbranceVal */
      , (115,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
-     , (115,  10,        384) /* CurrentWieldedLocation - LowerLegWear, FootWear */
      , (115,  16,          1) /* ItemUseable - No */
      , (115,  19,       1100) /* Value */
      , (115,  28,        130) /* ArmorLevel */

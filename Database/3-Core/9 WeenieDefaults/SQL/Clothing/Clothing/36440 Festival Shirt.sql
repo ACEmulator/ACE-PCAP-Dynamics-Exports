@@ -8,7 +8,6 @@ VALUES (36440,   1,          4) /* ItemType - Clothing */
      , (36440,   4,         40) /* ClothingPriority - UnderwearChest, UnderwearUpperArms */
      , (36440,   5,         42) /* EncumbranceVal */
      , (36440,   9,         14) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear */
-     , (36440,  10,         10) /* CurrentWieldedLocation - ChestWear, UpperArmWear */
      , (36440,  16,          1) /* ItemUseable - No */
      , (36440,  19,         20) /* Value */
      , (36440,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

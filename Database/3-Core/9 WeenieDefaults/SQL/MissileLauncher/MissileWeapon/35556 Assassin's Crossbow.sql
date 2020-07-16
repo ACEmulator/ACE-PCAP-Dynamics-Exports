@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556,   5,        380) /* EncumbranceVal */
      , (35556,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (35556,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (35556,  16,          1) /* ItemUseable - No */
      , (35556,  19,          0) /* Value */
      , (35556,  33,         -1) /* Bonded - Slippery */

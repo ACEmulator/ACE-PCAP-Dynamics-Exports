@@ -8,7 +8,6 @@ VALUES (25523,   1,          2) /* ItemType - Armor */
      , (25523,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (25523,   5,        850) /* EncumbranceVal */
      , (25523,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (25523,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (25523,  16,          1) /* ItemUseable - No */
      , (25523,  19,       4500) /* Value */
      , (25523,  28,        250) /* ArmorLevel */

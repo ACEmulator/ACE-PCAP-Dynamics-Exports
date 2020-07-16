@@ -8,7 +8,6 @@ VALUES (2197,   1,          2) /* ItemType - Armor */
      , (2197,   4,      16384) /* ClothingPriority - Head */
      , (2197,   5,        100) /* EncumbranceVal */
      , (2197,   9,          1) /* ValidLocations - HeadWear */
-     , (2197,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (2197,  16,          1) /* ItemUseable - No */
      , (2197,  19,        400) /* Value */
      , (2197,  28,         30) /* ArmorLevel */

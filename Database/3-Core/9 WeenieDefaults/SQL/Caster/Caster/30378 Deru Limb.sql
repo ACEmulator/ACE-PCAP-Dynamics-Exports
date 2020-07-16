@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (30378,   1,      32768) /* ItemType - Caster */
      , (30378,   5,        100) /* EncumbranceVal */
      , (30378,   9,   16777216) /* ValidLocations - Held */
-     , (30378,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (30378,  16,     655364) /* ItemUseable - 655364 */
      , (30378,  17,        188) /* RareId */
      , (30378,  19,      50000) /* Value */

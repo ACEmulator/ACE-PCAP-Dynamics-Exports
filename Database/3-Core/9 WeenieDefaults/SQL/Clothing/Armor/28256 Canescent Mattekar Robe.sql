@@ -8,7 +8,6 @@ VALUES (28256,   1,          2) /* ItemType - Armor */
      , (28256,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (28256,   5,        500) /* EncumbranceVal */
      , (28256,   9,      32512) /* ValidLocations - Armor */
-     , (28256,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (28256,  16,          1) /* ItemUseable - No */
      , (28256,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28256, 151,          2) /* HookType - Wall */;

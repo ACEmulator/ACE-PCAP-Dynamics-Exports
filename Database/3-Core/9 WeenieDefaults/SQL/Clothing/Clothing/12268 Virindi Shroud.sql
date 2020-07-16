@@ -8,7 +8,6 @@ VALUES (12268,   1,          4) /* ItemType - Clothing */
      , (12268,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (12268,   5,        250) /* EncumbranceVal */
      , (12268,   9,      32512) /* ValidLocations - Armor */
-     , (12268,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (12268,  16,          1) /* ItemUseable - No */
      , (12268,  19,       6000) /* Value */
      , (12268,  28,          0) /* ArmorLevel */

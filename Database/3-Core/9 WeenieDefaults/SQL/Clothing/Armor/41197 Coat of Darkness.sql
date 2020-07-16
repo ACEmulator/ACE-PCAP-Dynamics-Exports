@@ -8,7 +8,6 @@ VALUES (41197,   1,          2) /* ItemType - Armor */
      , (41197,   4,      13312) /* ClothingPriority - OuterwearChest, OuterwearUpperArms, OuterwearLowerArms */
      , (41197,   5,       2500) /* EncumbranceVal */
      , (41197,   9,       6656) /* ValidLocations - ChestArmor, UpperArmArmor, LowerArmArmor */
-     , (41197,  10,       6656) /* CurrentWieldedLocation - ChestArmor, UpperArmArmor, LowerArmArmor */
      , (41197,  19,          0) /* Value */
      , (41197,  28,        660) /* ArmorLevel */
      , (41197,  33,          1) /* Bonded - Bonded */

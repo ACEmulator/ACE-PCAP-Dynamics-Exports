@@ -8,7 +8,6 @@ VALUES (33604,   1,          2) /* ItemType - Armor */
      , (33604,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (33604,   5,       1650) /* EncumbranceVal */
      , (33604,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (33604,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (33604,  16,          1) /* ItemUseable - No */
      , (33604,  19,          0) /* Value */
      , (33604,  28,        120) /* ArmorLevel */

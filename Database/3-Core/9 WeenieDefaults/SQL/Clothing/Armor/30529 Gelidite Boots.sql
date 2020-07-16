@@ -8,7 +8,6 @@ VALUES (30529,   1,          2) /* ItemType - Armor */
      , (30529,   4,      65536) /* ClothingPriority - Feet */
      , (30529,   5,        300) /* EncumbranceVal */
      , (30529,   9,        384) /* ValidLocations - LowerLegWear, FootWear */
-     , (30529,  10,        384) /* CurrentWieldedLocation - LowerLegWear, FootWear */
      , (30529,  16,          1) /* ItemUseable - No */
      , (30529,  17,        270) /* RareId */
      , (30529,  19,      50000) /* Value */

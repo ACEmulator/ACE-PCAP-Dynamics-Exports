@@ -8,7 +8,6 @@ VALUES (27090,   1,          2) /* ItemType - Armor */
      , (27090,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (27090,   5,        270) /* EncumbranceVal */
      , (27090,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (27090,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (27090,  16,          1) /* ItemUseable - No */
      , (27090,  18,          1) /* UiEffects - Magical */
      , (27090,  19,       2000) /* Value */

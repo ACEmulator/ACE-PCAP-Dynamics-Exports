@@ -8,7 +8,6 @@ VALUES (37203,   1,          2) /* ItemType - Armor */
      , (37203,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (37203,   5,       1251) /* EncumbranceVal */
      , (37203,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (37203,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (37203,  16,          1) /* ItemUseable - No */
      , (37203,  18,          1) /* UiEffects - Magical */
      , (37203,  19,      24349) /* Value */

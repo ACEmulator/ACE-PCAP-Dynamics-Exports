@@ -8,7 +8,6 @@ VALUES (49626,   1,          2) /* ItemType - Armor */
      , (49626,   4,       4096) /* ClothingPriority - OuterwearUpperArms */
      , (49626,   5,        720) /* EncumbranceVal */
      , (49626,   9,       2048) /* ValidLocations - UpperArmArmor */
-     , (49626,  10,       2048) /* CurrentWieldedLocation - UpperArmArmor */
      , (49626,  16,          1) /* ItemUseable - No */
      , (49626,  19,       1000) /* Value */
      , (49626,  28,        460) /* ArmorLevel */

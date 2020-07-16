@@ -8,7 +8,6 @@ VALUES (23665,   1,        256) /* ItemType - MissileWeapon */
      , (23665,   2,         34) /* CreatureType - Moarsman */
      , (23665,   5,       1920) /* EncumbranceVal */
      , (23665,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (23665,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (23665,  16,          1) /* ItemUseable - No */
      , (23665,  19,        375) /* Value */
      , (23665,  25,        100) /* Level */

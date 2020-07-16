@@ -8,7 +8,6 @@ VALUES (24469,   1,          2) /* ItemType - Armor */
      , (24469,   4,      32768) /* ClothingPriority - Hands */
      , (24469,   5,        450) /* EncumbranceVal */
      , (24469,   9,         32) /* ValidLocations - HandWear */
-     , (24469,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (24469,  16,          1) /* ItemUseable - No */
      , (24469,  19,       5500) /* Value */
      , (24469,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

@@ -8,7 +8,6 @@ VALUES (4231,   1,          2) /* ItemType - Armor */
      , (4231,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (4231,   5,        810) /* EncumbranceVal */
      , (4231,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
-     , (4231,  10,       7680) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (4231,  16,          1) /* ItemUseable - No */
      , (4231,  19,        800) /* Value */
      , (4231,  28,        120) /* ArmorLevel */

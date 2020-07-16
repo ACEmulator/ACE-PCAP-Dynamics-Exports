@@ -8,7 +8,6 @@ VALUES (30527,   1,          2) /* ItemType - Armor */
      , (30527,   4,      16384) /* ClothingPriority - Head */
      , (30527,   5,        100) /* EncumbranceVal */
      , (30527,   9,          1) /* ValidLocations - HeadWear */
-     , (30527,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (30527,  16,          1) /* ItemUseable - No */
      , (30527,  17,        210) /* RareId */
      , (30527,  19,      50000) /* Value */

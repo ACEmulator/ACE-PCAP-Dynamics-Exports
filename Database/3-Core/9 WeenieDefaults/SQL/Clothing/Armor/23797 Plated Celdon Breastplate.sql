@@ -8,7 +8,6 @@ VALUES (23797,   1,          2) /* ItemType - Armor */
      , (23797,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (23797,   5,       3180) /* EncumbranceVal */
      , (23797,   9,        512) /* ValidLocations - ChestArmor */
-     , (23797,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (23797,  16,          1) /* ItemUseable - No */
      , (23797,  18,          1) /* UiEffects - Magical */
      , (23797,  19,       2680) /* Value */

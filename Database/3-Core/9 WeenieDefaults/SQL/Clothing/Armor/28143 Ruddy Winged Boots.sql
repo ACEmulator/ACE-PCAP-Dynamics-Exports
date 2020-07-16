@@ -8,7 +8,6 @@ VALUES (28143,   1,          2) /* ItemType - Armor */
      , (28143,   4,      65536) /* ClothingPriority - Feet */
      , (28143,   5,        375) /* EncumbranceVal */
      , (28143,   9,        256) /* ValidLocations - FootWear */
-     , (28143,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (28143,  16,          1) /* ItemUseable - No */
      , (28143,  19,       5000) /* Value */
      , (28143,  28,        490) /* ArmorLevel */

@@ -8,7 +8,6 @@ VALUES (6608,   1,          2) /* ItemType - Armor */
      , (6608,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (6608,   5,       3200) /* EncumbranceVal */
      , (6608,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (6608,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (6608,  16,          1) /* ItemUseable - No */
      , (6608,  19,       2140) /* Value */
      , (6608,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

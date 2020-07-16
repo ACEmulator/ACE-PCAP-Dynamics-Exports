@@ -8,7 +8,6 @@ VALUES (7735,   1,          2) /* ItemType - Armor */
      , (7735,   4,      12288) /* ClothingPriority - OuterwearUpperArms, OuterwearLowerArms */
      , (7735,   5,       1100) /* EncumbranceVal */
      , (7735,   9,       6144) /* ValidLocations - UpperArmArmor, LowerArmArmor */
-     , (7735,  10,       6144) /* CurrentWieldedLocation - UpperArmArmor, LowerArmArmor */
      , (7735,  16,          1) /* ItemUseable - No */
      , (7735,  19,       1870) /* Value */
      , (7735,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

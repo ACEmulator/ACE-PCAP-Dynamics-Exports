@@ -8,7 +8,6 @@ VALUES (45961,   1,          2) /* ItemType - Armor */
      , (45961,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (45961,   5,       1100) /* EncumbranceVal */
      , (45961,   9,        512) /* ValidLocations - ChestArmor */
-     , (45961,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (45961,  16,          1) /* ItemUseable - No */
      , (45961,  19,        100) /* Value */
      , (45961,  28,        480) /* ArmorLevel */

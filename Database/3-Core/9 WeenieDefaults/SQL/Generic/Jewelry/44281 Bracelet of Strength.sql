@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (44281,   1,          8) /* ItemType - Jewelry */
      , (44281,   5,         60) /* EncumbranceVal */
      , (44281,   9,     196608) /* ValidLocations - WristWear */
-     , (44281,  10,     131072) /* CurrentWieldedLocation - WristWearRight */
      , (44281,  16,          1) /* ItemUseable - No */
      , (44281,  19,         20) /* Value */
      , (44281,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

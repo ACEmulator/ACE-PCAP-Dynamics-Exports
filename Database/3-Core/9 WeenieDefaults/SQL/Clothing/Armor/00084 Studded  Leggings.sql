@@ -8,7 +8,6 @@ VALUES (84,   1,          2) /* ItemType - Armor */
      , (84,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (84,   5,        900) /* EncumbranceVal */
      , (84,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (84,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (84,  16,          1) /* ItemUseable - No */
      , (84,  19,        391) /* Value */
      , (84,  28,         64) /* ArmorLevel */

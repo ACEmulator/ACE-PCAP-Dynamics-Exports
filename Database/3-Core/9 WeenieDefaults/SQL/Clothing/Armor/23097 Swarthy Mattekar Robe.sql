@@ -8,7 +8,6 @@ VALUES (23097,   1,          2) /* ItemType - Armor */
      , (23097,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (23097,   5,       1300) /* EncumbranceVal */
      , (23097,   9,      32512) /* ValidLocations - Armor */
-     , (23097,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (23097,  16,          1) /* ItemUseable - No */
      , (23097,  19,       4000) /* Value */
      , (23097,  28,        200) /* ArmorLevel */

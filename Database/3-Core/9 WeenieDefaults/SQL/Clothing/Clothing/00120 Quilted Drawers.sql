@@ -8,7 +8,6 @@ VALUES (120,   1,          4) /* ItemType - Clothing */
      , (120,   4,         22) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearAbdomen */
      , (120,   5,        135) /* EncumbranceVal */
      , (120,   9,        196) /* ValidLocations - AbdomenWear, UpperLegWear, LowerLegWear */
-     , (120,  10,        196) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear, LowerLegWear */
      , (120,  16,          1) /* ItemUseable - No */
      , (120,  19,         30) /* Value */
      , (120,  28,        200) /* ArmorLevel */
