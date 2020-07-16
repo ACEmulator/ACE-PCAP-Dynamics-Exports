@@ -8,7 +8,6 @@ VALUES (29371,   1,          2) /* ItemType - Armor */
      , (29371,   4,      16384) /* ClothingPriority - Head */
      , (29371,   5,        500) /* EncumbranceVal */
      , (29371,   9,          1) /* ValidLocations - HeadWear */
-     , (29371,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (29371,  16,          1) /* ItemUseable - No */
      , (29371,  18,          1) /* UiEffects - Magical */
      , (29371,  19,       4000) /* Value */

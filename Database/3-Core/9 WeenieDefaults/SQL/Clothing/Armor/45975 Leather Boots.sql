@@ -8,7 +8,6 @@ VALUES (45975,   1,          2) /* ItemType - Armor */
      , (45975,   4,      65536) /* ClothingPriority - Feet */
      , (45975,   5,        300) /* EncumbranceVal */
      , (45975,   9,        256) /* ValidLocations - FootWear */
-     , (45975,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (45975,  16,          1) /* ItemUseable - No */
      , (45975,  19,        100) /* Value */
      , (45975,  28,        480) /* ArmorLevel */

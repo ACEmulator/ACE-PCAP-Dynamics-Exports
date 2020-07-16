@@ -8,7 +8,6 @@ VALUES (23791,   1,          2) /* ItemType - Armor */
      , (23791,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (23791,   5,       2288) /* EncumbranceVal */
      , (23791,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (23791,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (23791,  16,          1) /* ItemUseable - No */
      , (23791,  18,         32) /* UiEffects - Fire */
      , (23791,  19,       3040) /* Value */

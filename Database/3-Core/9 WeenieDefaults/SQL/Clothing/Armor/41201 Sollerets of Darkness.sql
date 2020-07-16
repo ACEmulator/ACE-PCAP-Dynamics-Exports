@@ -8,7 +8,6 @@ VALUES (41201,   1,          2) /* ItemType - Armor */
      , (41201,   4,      65536) /* ClothingPriority - Feet */
      , (41201,   5,        540) /* EncumbranceVal */
      , (41201,   9,        256) /* ValidLocations - FootWear */
-     , (41201,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (41201,  19,          0) /* Value */
      , (41201,  28,        660) /* ArmorLevel */
      , (41201,  33,          1) /* Bonded - Bonded */

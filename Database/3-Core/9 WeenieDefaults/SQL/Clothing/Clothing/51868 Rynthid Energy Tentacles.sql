@@ -8,7 +8,6 @@ VALUES (51868,   1,          4) /* ItemType - Clothing */
      , (51868,   4,     131072) /* ClothingPriority - 131072 */
      , (51868,   5,         10) /* EncumbranceVal */
      , (51868,   9,  134217728) /* ValidLocations - Cloak */
-     , (51868,  10,  134217728) /* CurrentWieldedLocation - Cloak */
      , (51868,  16,          1) /* ItemUseable - No */
      , (51868,  18,          1) /* UiEffects - Magical */
      , (51868,  19,      50000) /* Value */

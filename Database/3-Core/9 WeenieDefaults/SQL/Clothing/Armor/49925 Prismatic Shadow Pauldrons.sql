@@ -8,7 +8,6 @@ VALUES (49925,   1,          2) /* ItemType - Armor */
      , (49925,   4,       4096) /* ClothingPriority - OuterwearUpperArms */
      , (49925,   5,        720) /* EncumbranceVal */
      , (49925,   9,       2048) /* ValidLocations - UpperArmArmor */
-     , (49925,  10,       2048) /* CurrentWieldedLocation - UpperArmArmor */
      , (49925,  16,          1) /* ItemUseable - No */
      , (49925,  19,       1600) /* Value */
      , (49925,  28,        600) /* ArmorLevel */

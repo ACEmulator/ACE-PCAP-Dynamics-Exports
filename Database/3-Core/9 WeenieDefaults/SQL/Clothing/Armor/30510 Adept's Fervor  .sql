@@ -8,7 +8,6 @@ VALUES (30510,   1,          2) /* ItemType - Armor */
      , (30510,   4,      32768) /* ClothingPriority - Hands */
      , (30510,   5,        180) /* EncumbranceVal */
      , (30510,   9,         32) /* ValidLocations - HandWear */
-     , (30510,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (30510,  16,          1) /* ItemUseable - No */
      , (30510,  17,        263) /* RareId */
      , (30510,  19,      50000) /* Value */

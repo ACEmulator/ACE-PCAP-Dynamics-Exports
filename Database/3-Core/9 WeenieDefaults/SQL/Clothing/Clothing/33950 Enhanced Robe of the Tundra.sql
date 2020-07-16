@@ -8,7 +8,6 @@ VALUES (33950,   1,          4) /* ItemType - Clothing */
      , (33950,   4,      98048) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Head, Feet */
      , (33950,   5,        500) /* EncumbranceVal */
      , (33950,   9,      32513) /* ValidLocations - HeadWear, Armor */
-     , (33950,  10,      32513) /* CurrentWieldedLocation - HeadWear, Armor */
      , (33950,  16,          1) /* ItemUseable - No */
      , (33950,  19,       6000) /* Value */
      , (33950,  28,        500) /* ArmorLevel */

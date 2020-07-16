@@ -8,7 +8,6 @@ VALUES (41198,   1,          2) /* ItemType - Armor */
      , (41198,   4,      32768) /* ClothingPriority - Hands */
      , (41198,   5,        900) /* EncumbranceVal */
      , (41198,   9,         32) /* ValidLocations - HandWear */
-     , (41198,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (41198,  19,          0) /* Value */
      , (41198,  28,        660) /* ArmorLevel */
      , (41198,  33,          1) /* Bonded - Bonded */

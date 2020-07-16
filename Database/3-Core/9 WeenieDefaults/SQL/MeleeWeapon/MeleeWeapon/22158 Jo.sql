@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (22158,   1,          1) /* ItemType - MeleeWeapon */
      , (22158,   5,        400) /* EncumbranceVal */
      , (22158,   9,    1048576) /* ValidLocations - MeleeWeapon */
-     , (22158,  10,    1048576) /* CurrentWieldedLocation - MeleeWeapon */
      , (22158,  16,          1) /* ItemUseable - No */
      , (22158,  19,        100) /* Value */
      , (22158,  44,         43) /* Damage */

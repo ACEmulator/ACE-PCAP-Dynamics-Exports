@@ -8,7 +8,6 @@ VALUES (8659,   1,          2) /* ItemType - Armor */
      , (8659,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (8659,   5,        900) /* EncumbranceVal */
      , (8659,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (8659,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (8659,  16,          1) /* ItemUseable - No */
      , (8659,  19,       3300) /* Value */
      , (8659,  28,        110) /* ArmorLevel */

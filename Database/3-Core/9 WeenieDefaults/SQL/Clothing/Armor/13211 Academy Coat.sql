@@ -8,7 +8,6 @@ VALUES (13211,   1,          2) /* ItemType - Armor */
      , (13211,   4,      15360) /* ClothingPriority - OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms */
      , (13211,   5,         30) /* EncumbranceVal */
      , (13211,   9,       7680) /* ValidLocations - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
-     , (13211,  10,       7680) /* CurrentWieldedLocation - ChestArmor, AbdomenArmor, UpperArmArmor, LowerArmArmor */
      , (13211,  16,          1) /* ItemUseable - No */
      , (13211,  19,        150) /* Value */
      , (13211,  28,        250) /* ArmorLevel */

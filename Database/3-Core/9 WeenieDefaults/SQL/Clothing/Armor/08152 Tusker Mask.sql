@@ -8,7 +8,6 @@ VALUES (8152,   1,          2) /* ItemType - Armor */
      , (8152,   4,      16384) /* ClothingPriority - Head */
      , (8152,   5,        600) /* EncumbranceVal */
      , (8152,   9,          1) /* ValidLocations - HeadWear */
-     , (8152,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (8152,  16,          1) /* ItemUseable - No */
      , (8152,  19,       1000) /* Value */
      , (8152,  28,         10) /* ArmorLevel */

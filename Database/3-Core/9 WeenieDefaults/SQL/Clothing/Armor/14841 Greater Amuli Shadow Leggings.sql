@@ -8,7 +8,6 @@ VALUES (14841,   1,          2) /* ItemType - Armor */
      , (14841,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (14841,   5,       2288) /* EncumbranceVal */
      , (14841,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (14841,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (14841,  16,          1) /* ItemUseable - No */
      , (14841,  19,       3040) /* Value */
      , (14841,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

@@ -8,7 +8,6 @@ VALUES (28045,   1,          4) /* ItemType - Clothing */
      , (28045,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (28045,   5,        200) /* EncumbranceVal */
      , (28045,   9,      32512) /* ValidLocations - Armor */
-     , (28045,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (28045,  16,          1) /* ItemUseable - No */
      , (28045,  18,          1) /* UiEffects - Magical */
      , (28045,  19,      10710) /* Value */

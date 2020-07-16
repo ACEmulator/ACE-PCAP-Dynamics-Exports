@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (19584,   1,          8) /* ItemType - Jewelry */
      , (19584,   5,        150) /* EncumbranceVal */
      , (19584,   9,      32768) /* ValidLocations - NeckWear */
-     , (19584,  10,      32768) /* CurrentWieldedLocation - NeckWear */
      , (19584,  16,          1) /* ItemUseable - No */
      , (19584,  18,         32) /* UiEffects - Fire */
      , (19584,  19,       5000) /* Value */

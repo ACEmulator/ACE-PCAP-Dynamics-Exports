@@ -8,7 +8,6 @@ VALUES (10758,   1,          4) /* ItemType - Clothing */
      , (10758,   4,         19) /* ClothingPriority - Unknown, UnderwearUpperLegs, UnderwearAbdomen */
      , (10758,   5,         50) /* EncumbranceVal */
      , (10758,   9,         68) /* ValidLocations - AbdomenWear, UpperLegWear */
-     , (10758,  10,         68) /* CurrentWieldedLocation - AbdomenWear, UpperLegWear */
      , (10758,  16,          1) /* ItemUseable - No */
      , (10758,  19,         10) /* Value */
      , (10758,  28,          0) /* ArmorLevel */

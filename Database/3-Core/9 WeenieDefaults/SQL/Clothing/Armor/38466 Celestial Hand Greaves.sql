@@ -8,7 +8,6 @@ VALUES (38466,   1,          2) /* ItemType - Armor */
      , (38466,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
      , (38466,   5,        747) /* EncumbranceVal */
      , (38466,   9,      16384) /* ValidLocations - LowerLegArmor */
-     , (38466,  10,      16384) /* CurrentWieldedLocation - LowerLegArmor */
      , (38466,  16,          1) /* ItemUseable - No */
      , (38466,  18,          1) /* UiEffects - Magical */
      , (38466,  19,       6233) /* Value */

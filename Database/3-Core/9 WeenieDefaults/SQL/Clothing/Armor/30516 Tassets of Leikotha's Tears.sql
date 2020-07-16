@@ -8,7 +8,6 @@ VALUES (30516,   1,          2) /* ItemType - Armor */
      , (30516,   4,        256) /* ClothingPriority - OuterwearUpperLegs */
      , (30516,   5,        533) /* EncumbranceVal */
      , (30516,   9,       8192) /* ValidLocations - UpperLegArmor */
-     , (30516,  10,       8192) /* CurrentWieldedLocation - UpperLegArmor */
      , (30516,  16,          1) /* ItemUseable - No */
      , (30516,  17,        221) /* RareId */
      , (30516,  19,      50000) /* Value */

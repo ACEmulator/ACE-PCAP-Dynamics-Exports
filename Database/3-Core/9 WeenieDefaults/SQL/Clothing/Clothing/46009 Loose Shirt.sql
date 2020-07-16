@@ -8,7 +8,6 @@ VALUES (46009,   1,          4) /* ItemType - Clothing */
      , (46009,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (46009,   5,         75) /* EncumbranceVal */
      , (46009,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
-     , (46009,  10,         30) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (46009,  16,          1) /* ItemUseable - No */
      , (46009,  19,        100) /* Value */
      , (46009,  28,          0) /* ArmorLevel */

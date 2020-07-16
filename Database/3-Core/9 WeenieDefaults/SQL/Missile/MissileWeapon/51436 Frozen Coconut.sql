@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (51436,   1,        256) /* ItemType - MissileWeapon */
      , (51436,   5,         20) /* EncumbranceVal */
      , (51436,   9,    4194304) /* ValidLocations - MissileWeapon */
-     , (51436,  10,    4194304) /* CurrentWieldedLocation - MissileWeapon */
      , (51436,  11,         30) /* MaxStackSize */
      , (51436,  12,          1) /* StackSize */
      , (51436,  13,         20) /* StackUnitEncumbrance */

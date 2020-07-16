@@ -8,7 +8,6 @@ VALUES (6062,   1,          4) /* ItemType - Clothing */
      , (6062,   4,      81664) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearChest, OuterwearAbdomen, OuterwearUpperArms, OuterwearLowerArms, Feet */
      , (6062,   5,        200) /* EncumbranceVal */
      , (6062,   9,      32512) /* ValidLocations - Armor */
-     , (6062,  10,      32512) /* CurrentWieldedLocation - Armor */
      , (6062,  16,          1) /* ItemUseable - No */
      , (6062,  18,          1) /* UiEffects - Magical */
      , (6062,  19,       1120) /* Value */

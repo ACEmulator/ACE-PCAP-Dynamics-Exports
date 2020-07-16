@@ -8,7 +8,6 @@ VALUES (41200,   1,          2) /* ItemType - Armor */
      , (41200,   4,       2816) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs, OuterwearAbdomen */
      , (41200,   5,       2000) /* EncumbranceVal */
      , (41200,   9,      25600) /* ValidLocations - AbdomenArmor, UpperLegArmor, LowerLegArmor */
-     , (41200,  10,      25600) /* CurrentWieldedLocation - AbdomenArmor, UpperLegArmor, LowerLegArmor */
      , (41200,  19,          0) /* Value */
      , (41200,  28,        660) /* ArmorLevel */
      , (41200,  33,          1) /* Bonded - Bonded */

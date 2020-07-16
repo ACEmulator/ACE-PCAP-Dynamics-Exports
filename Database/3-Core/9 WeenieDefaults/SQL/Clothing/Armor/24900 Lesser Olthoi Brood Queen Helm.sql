@@ -8,7 +8,6 @@ VALUES (24900,   1,          2) /* ItemType - Armor */
      , (24900,   4,      16384) /* ClothingPriority - Head */
      , (24900,   5,        250) /* EncumbranceVal */
      , (24900,   9,          1) /* ValidLocations - HeadWear */
-     , (24900,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (24900,  16,          1) /* ItemUseable - No */
      , (24900,  19,       6000) /* Value */
      , (24900,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

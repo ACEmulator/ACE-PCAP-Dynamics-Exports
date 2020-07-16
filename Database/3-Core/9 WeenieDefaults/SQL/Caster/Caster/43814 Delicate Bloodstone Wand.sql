@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (43814,   1,      32768) /* ItemType - Caster */
      , (43814,   5,        200) /* EncumbranceVal */
      , (43814,   9,   16777216) /* ValidLocations - Held */
-     , (43814,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (43814,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (43814,  18,          1) /* UiEffects - Magical */
      , (43814,  19,      10000) /* Value */

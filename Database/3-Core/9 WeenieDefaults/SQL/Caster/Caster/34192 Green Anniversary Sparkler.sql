@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (34192,   1,      32768) /* ItemType - Caster */
      , (34192,   5,          5) /* EncumbranceVal */
      , (34192,   9,   16777216) /* ValidLocations - Held */
-     , (34192,  10,   16777216) /* CurrentWieldedLocation - Held */
      , (34192,  16,          1) /* ItemUseable - No */
      , (34192,  19,         10) /* Value */
      , (34192,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */

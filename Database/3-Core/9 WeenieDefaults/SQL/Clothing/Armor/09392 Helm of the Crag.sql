@@ -8,7 +8,6 @@ VALUES (9392,   1,          2) /* ItemType - Armor */
      , (9392,   4,      16384) /* ClothingPriority - Head */
      , (9392,   5,        900) /* EncumbranceVal */
      , (9392,   9,          1) /* ValidLocations - HeadWear */
-     , (9392,  10,          1) /* CurrentWieldedLocation - HeadWear */
      , (9392,  16,          1) /* ItemUseable - No */
      , (9392,  19,       2000) /* Value */
      , (9392,  28,        240) /* ArmorLevel */

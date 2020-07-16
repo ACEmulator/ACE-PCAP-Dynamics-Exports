@@ -8,7 +8,6 @@ VALUES (23808,   1,          2) /* ItemType - Armor */
      , (23808,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (23808,   5,       1375) /* EncumbranceVal */
      , (23808,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (23808,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (23808,  16,          1) /* ItemUseable - No */
      , (23808,  18,          1) /* UiEffects - Magical */
      , (23808,  19,       1610) /* Value */

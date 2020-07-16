@@ -8,7 +8,6 @@ VALUES (4222,   1,          2) /* ItemType - Armor */
      , (4222,   4,       8192) /* ClothingPriority - OuterwearLowerArms */
      , (4222,   5,        420) /* EncumbranceVal */
      , (4222,   9,         16) /* ValidLocations - LowerArmWear */
-     , (4222,  10,         16) /* CurrentWieldedLocation - LowerArmWear */
      , (4222,  16,          1) /* ItemUseable - No */
      , (4222,  19,        150) /* Value */
      , (4222,  28,         50) /* ArmorLevel */

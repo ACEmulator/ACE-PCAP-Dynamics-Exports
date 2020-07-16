@@ -8,7 +8,6 @@ VALUES (33580,   1,          2) /* ItemType - Armor */
      , (33580,   4,      32768) /* ClothingPriority - Hands */
      , (33580,   5,        225) /* EncumbranceVal */
      , (33580,   9,         32) /* ValidLocations - HandWear */
-     , (33580,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (33580,  16,          1) /* ItemUseable - No */
      , (33580,  18,          1) /* UiEffects - Magical */
      , (33580,  19,      20000) /* Value */

@@ -8,7 +8,6 @@ VALUES (24463,   1,          2) /* ItemType - Armor */
      , (24463,   4,      32768) /* ClothingPriority - Hands */
      , (24463,   5,        350) /* EncumbranceVal */
      , (24463,   9,         32) /* ValidLocations - HandWear */
-     , (24463,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (24463,  16,          1) /* ItemUseable - No */
      , (24463,  19,       3500) /* Value */
      , (24463,  28,        420) /* ArmorLevel */

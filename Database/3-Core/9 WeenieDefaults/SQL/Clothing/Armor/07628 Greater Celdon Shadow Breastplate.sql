@@ -8,7 +8,6 @@ VALUES (7628,   1,          2) /* ItemType - Armor */
      , (7628,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (7628,   5,       2100) /* EncumbranceVal */
      , (7628,   9,        512) /* ValidLocations - ChestArmor */
-     , (7628,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (7628,  16,          1) /* ItemUseable - No */
      , (7628,  19,       2680) /* Value */
      , (7628,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

@@ -8,7 +8,6 @@ VALUES (23795,   1,          2) /* ItemType - Armor */
      , (23795,   4,       1024) /* ClothingPriority - OuterwearChest */
      , (23795,   5,       3180) /* EncumbranceVal */
      , (23795,   9,        512) /* ValidLocations - ChestArmor */
-     , (23795,  10,        512) /* CurrentWieldedLocation - ChestArmor */
      , (23795,  16,          1) /* ItemUseable - No */
      , (23795,  18,        128) /* UiEffects - Frost */
      , (23795,  19,       2680) /* Value */

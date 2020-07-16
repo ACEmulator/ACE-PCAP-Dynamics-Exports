@@ -8,7 +8,6 @@ VALUES (50161,   1,          2) /* ItemType - Armor */
      , (50161,   4,      32768) /* ClothingPriority - Hands */
      , (50161,   5,        919) /* EncumbranceVal */
      , (50161,   9,         32) /* ValidLocations - HandWear */
-     , (50161,  10,         32) /* CurrentWieldedLocation - HandWear */
      , (50161,  16,          1) /* ItemUseable - No */
      , (50161,  19,       1600) /* Value */
      , (50161,  28,        600) /* ArmorLevel */

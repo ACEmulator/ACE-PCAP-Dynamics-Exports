@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (31396,   1,          2) /* ItemType - Armor */
      , (31396,   5,       1000) /* EncumbranceVal */
      , (31396,   9,    2097152) /* ValidLocations - Shield */
-     , (31396,  10,    2097152) /* CurrentWieldedLocation - Shield */
      , (31396,  16,          1) /* ItemUseable - No */
      , (31396,  19,       3000) /* Value */
      , (31396,  28,        440) /* ArmorLevel */

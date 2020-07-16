@@ -7,7 +7,6 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (42637,   1,       2048) /* ItemType - Gem */
      , (42637,   5,         50) /* EncumbranceVal */
      , (42637,   9,  536870912) /* ValidLocations - SigilTwo */
-     , (42637,  10,  536870912) /* CurrentWieldedLocation - SigilTwo */
      , (42637,  11,          1) /* MaxStackSize */
      , (42637,  12,          1) /* StackSize */
      , (42637,  13,         50) /* StackUnitEncumbrance */

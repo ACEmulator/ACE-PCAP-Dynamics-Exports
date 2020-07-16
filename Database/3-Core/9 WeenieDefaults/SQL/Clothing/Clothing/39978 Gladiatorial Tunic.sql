@@ -8,7 +8,6 @@ VALUES (39978,   1,          4) /* ItemType - Clothing */
      , (39978,   4,        104) /* ClothingPriority - UnderwearChest, UnderwearUpperArms, UnderwearLowerArms */
      , (39978,   5,         50) /* EncumbranceVal */
      , (39978,   9,         30) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
-     , (39978,  10,         30) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear */
      , (39978,  16,          1) /* ItemUseable - No */
      , (39978,  19,         25) /* Value */
      , (39978,  28,        220) /* ArmorLevel */

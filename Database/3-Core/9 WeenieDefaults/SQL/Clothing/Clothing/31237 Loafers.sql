@@ -8,7 +8,6 @@ VALUES (31237,   1,          4) /* ItemType - Clothing */
      , (31237,   4,      65536) /* ClothingPriority - Feet */
      , (31237,   5,         90) /* EncumbranceVal */
      , (31237,   9,        256) /* ValidLocations - FootWear */
-     , (31237,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (31237,  16,          1) /* ItemUseable - No */
      , (31237,  19,         40) /* Value */
      , (31237,  28,         10) /* ArmorLevel */

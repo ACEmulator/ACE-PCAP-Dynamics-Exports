@@ -8,7 +8,6 @@ VALUES (23816,   1,          2) /* ItemType - Armor */
      , (23816,   4,        768) /* ClothingPriority - OuterwearUpperLegs, OuterwearLowerLegs */
      , (23816,   5,       3100) /* EncumbranceVal */
      , (23816,   9,      24576) /* ValidLocations - UpperLegArmor, LowerLegArmor */
-     , (23816,  10,      24576) /* CurrentWieldedLocation - UpperLegArmor, LowerLegArmor */
      , (23816,  16,          1) /* ItemUseable - No */
      , (23816,  18,          1) /* UiEffects - Magical */
      , (23816,  19,       2140) /* Value */

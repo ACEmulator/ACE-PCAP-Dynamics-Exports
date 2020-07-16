@@ -8,7 +8,6 @@ VALUES (50199,   1,          2) /* ItemType - Armor */
      , (50199,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (50199,   5,       1099) /* EncumbranceVal */
      , (50199,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (50199,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (50199,  16,          1) /* ItemUseable - No */
      , (50199,  19,       1900) /* Value */
      , (50199,  28,        600) /* ArmorLevel */

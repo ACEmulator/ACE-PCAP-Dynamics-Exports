@@ -8,7 +8,6 @@ VALUES (7674,   1,          2) /* ItemType - Armor */
      , (7674,   4,       2048) /* ClothingPriority - OuterwearAbdomen */
      , (7674,   5,        875) /* EncumbranceVal */
      , (7674,   9,       1024) /* ValidLocations - AbdomenArmor */
-     , (7674,  10,       1024) /* CurrentWieldedLocation - AbdomenArmor */
      , (7674,  16,          1) /* ItemUseable - No */
      , (7674,  19,       1610) /* Value */
      , (7674,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;

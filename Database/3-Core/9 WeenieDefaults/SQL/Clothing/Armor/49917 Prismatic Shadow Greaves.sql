@@ -8,7 +8,6 @@ VALUES (49917,   1,          2) /* ItemType - Armor */
      , (49917,   4,        512) /* ClothingPriority - OuterwearLowerLegs */
      , (49917,   5,        919) /* EncumbranceVal */
      , (49917,   9,      16384) /* ValidLocations - LowerLegArmor */
-     , (49917,  10,      16384) /* CurrentWieldedLocation - LowerLegArmor */
      , (49917,  16,          1) /* ItemUseable - No */
      , (49917,  19,       1700) /* Value */
      , (49917,  28,        600) /* ArmorLevel */

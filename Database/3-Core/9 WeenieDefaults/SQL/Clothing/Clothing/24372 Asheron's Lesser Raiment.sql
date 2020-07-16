@@ -8,7 +8,6 @@ VALUES (24372,   1,          4) /* ItemType - Clothing */
      , (24372,   4,        126) /* ClothingPriority - UnderwearUpperLegs, UnderwearLowerLegs, UnderwearChest, UnderwearAbdomen, UnderwearUpperArms, UnderwearLowerArms */
      , (24372,   5,        800) /* EncumbranceVal */
      , (24372,   9,        222) /* ValidLocations - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
-     , (24372,  10,        222) /* CurrentWieldedLocation - ChestWear, AbdomenWear, UpperArmWear, LowerArmWear, UpperLegWear, LowerLegWear */
      , (24372,  16,          1) /* ItemUseable - No */
      , (24372,  19,       5000) /* Value */
      , (24372,  28,          0) /* ArmorLevel */

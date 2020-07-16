@@ -8,7 +8,6 @@ VALUES (30368,   1,          2) /* ItemType - Armor */
      , (30368,   4,      65536) /* ClothingPriority - Feet */
      , (30368,   5,        900) /* EncumbranceVal */
      , (30368,   9,        256) /* ValidLocations - FootWear */
-     , (30368,  10,        256) /* CurrentWieldedLocation - FootWear */
      , (30368,  16,          1) /* ItemUseable - No */
      , (30368,  17,        269) /* RareId */
      , (30368,  19,      50000) /* Value */
