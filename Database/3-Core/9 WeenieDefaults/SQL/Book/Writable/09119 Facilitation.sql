@@ -27,7 +27,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9119, 16, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9119, 0, 4294967295, 'prewritten', 'Password is cheese', False, 'Facilitation
+VALUES (9119, 0, 4294967295, '', 'prewritten', False, 'Facilitation
 or
 I Scream, You Scream, We All Scream
 ');

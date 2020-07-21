@@ -27,11 +27,11 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32086, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32086, 0, 4294967295, 'Arcanum Refurbisher', 'Password is cheese', False, '
+VALUES (32086, 0, 4294967295, 'Arcanum Refurbisher', 'prewritten', False, '
 Greetings,
 The Zaikhal Arcanum has discovered that the climate of Dereth has had an adverse effect on several popular housing decorations. We of the Arcanum feel much effort and love can be put into the decoration of your home, and anything that potentially degrades it appearance can be disconcerting. We are happy to offer all who desire it a free refurbishment service for a select number of items that have been most negatively affected by the weather and magics of this world. Please see the list starting on page two for all  items eligible for refurbishment.
 ')
-     , (32086, 1, 4294967295, 'Arcanum Refurbisher', 'Password is cheese', False, '
+     , (32086, 1, 4294967295, 'Arcanum Refurbisher', 'prewritten', False, '
 Pack Cow
 Pack Drudge
 Pack Golem
@@ -47,7 +47,7 @@ Plush Tusker
 Golden Gromnie
 
 ')
-     , (32086, 2, 4294967295, 'Arcanum Refurbisher', 'Password is cheese', False, '
+     , (32086, 2, 4294967295, 'Arcanum Refurbisher', 'prewritten', False, '
 Decorative, Commemorative, and Oxidized Statues (Drudge)
 
 Decorative, Commemorative, and Oxidized Statues (Gromnie)

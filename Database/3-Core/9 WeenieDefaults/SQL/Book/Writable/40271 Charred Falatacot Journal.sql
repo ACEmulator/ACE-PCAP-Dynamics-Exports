@@ -32,13 +32,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (40271, 8, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (40271, 0, 4294967295, 'Untranslated Text', 'Password is cheese', False, '
+VALUES (40271, 0, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ')
-     , (40271, 1, 4294967295, 'Untranslated Text', 'Password is cheese', False, '
+     , (40271, 1, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ')
-     , (40271, 2, 4294967295, 'Unknown', 'Password is cheese', False, '
+     , (40271, 2, 4294967295, 'Unknown', 'prewritten', False, '
 [You cannot translate the main text, but, written between the damaged paragraphs, is the following:]
 
 My apologies, Master, for the poor method of recording this information for you.  Our last unused records were destroyed in the Elemental Attacks that caused us to seal off the lower areas.
@@ -47,7 +47,7 @@ My apologies, Master, for the poor method of recording this information for you.
 
 Our experiments with the Ley Line contained in the heart of the ''Dark Isle'' have borne both unexpected fruit and unexpected problems.
 ')
-     , (40271, 3, 4294967295, 'Unknown', 'Password is cheese', False, '
+     , (40271, 3, 4294967295, 'Unknown', 'prewritten', False, '
 [You cannot translate the main text, but, written between the damaged paragraphs, is the following:]
 
 We have managed to distill the essence of the Ley Line, in a manner similar to the Infusions sometimes found in the mostly dormant volcanoes of Dereth.  We have had some success using this infusion to empower items, but are still in the experimental stages.
@@ -56,10 +56,10 @@ We have managed to distill the essence of the Ley Line, in a manner similar to t
 
 Unfortunately, this process seems to have also awakened the Elementals and Magma Golems in the deeper steam vents near the Ley Line, which has forced us to lock off the lower tunnels during the times when the infusion is distilling, and sending units of Sclavus to collect the Infusions once they are complete.
 ')
-     , (40271, 4, 4294967295, 'Untranslated Text', 'Password is cheese', False, '
+     , (40271, 4, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ')
-     , (40271, 5, 4294967295, 'Unknown', 'Password is cheese', False, '
+     , (40271, 5, 4294967295, 'Unknown', 'prewritten', False, '
 [You cannot translate the main text, but, written between the damaged paragraphs, is the following:]
 
 This has slowed our research somewhat, but has given us a means to further train the Sclavus, so we will live with it for the time being.  If we reach a juncture where the research necessitates working with the Ley Line directly, we will scour the tunnels clean at that time.
@@ -68,9 +68,9 @@ This has slowed our research somewhat, but has given us a means to further train
 
 In time, I believe this infusion may provide us a means to strengthen the Rituals to summon our great Lord from the depths, and allow his great Blight to spread amongst the surface world once more.  I will send updates once we have them.  Patriarchs bless and keep you until then.
 ')
-     , (40271, 6, 4294967295, 'Untranslated Text', 'Password is cheese', False, '
+     , (40271, 6, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ')
-     , (40271, 7, 4294967295, 'Untranslated Text', 'Password is cheese', False, '
+     , (40271, 7, 4294967295, 'Untranslated Text', 'prewritten', False, '
 [You cannot translate this text]
 ');

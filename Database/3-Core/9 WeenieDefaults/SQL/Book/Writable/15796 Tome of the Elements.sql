@@ -32,9 +32,9 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (15796, 44, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (15796, 0, 4294967295, 'Translator', 'Password is cheese', False, 'Where it is applicable I have added notes in paranthesis to highlight words as we would speak them in everyday tongue.
+VALUES (15796, 0, 4294967295, 'Translator', 'prewritten', False, 'Where it is applicable I have added notes in paranthesis to highlight words as we would speak them in everyday tongue.
 ')
-     , (15796, 1, 4294967295, 'Gaerlan', 'Password is cheese', False, 'The Falatacot, studied the art of Geomancy with an unquenchable thirst. They called upon the resonance that echoed from within the world at the structures erected in the time before. They found that it was here, on Ireth Lassel, that mana was most concentrated, and plentiful.
+     , (15796, 1, 4294967295, 'Gaerlan', 'prewritten', False, 'The Falatacot, studied the art of Geomancy with an unquenchable thirst. They called upon the resonance that echoed from within the world at the structures erected in the time before. They found that it was here, on Ireth Lassel, that mana was most concentrated, and plentiful.
 
 Their priestesses, used their arts to fuse snakes and servitors into beings that would join them in blood rites, sacrificing unwary captives to the voices that echoed from the world. Their beloved Old Ones.
 In the places where their shrines and temples were erected, they heard the voices.

@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (9595, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (9595, 0, 4294967295, 'prewritten', 'Password is cheese', False, '-----------------------------------------------------------
+VALUES (9595, 0, 4294967295, '', 'prewritten', False, '-----------------------------------------------------------
 The Bestowers'' Guild of Dereth has a charter to bestow new titles upon worthy applicants.  At present, the Guild bestows thirty-four titles.  
 
 A full list follows, showing the seventeen skills in which titles are granted, followed by the basic and advanced titles rewarded.
@@ -38,7 +38,7 @@ A full list follows, showing the seventeen skills in which titles are granted, f
 
 -Continued-
 ')
-     , (9595, 1, 4294967295, 'prewritten', 'Password is cheese', False, '-----------------------------------------------------------
+     , (9595, 1, 4294967295, '', 'prewritten', False, '-----------------------------------------------------------
 Bow: Sharpshooter / Deadeye
 Crossbow: Sniper / Sureshot
 Thrown Weapons: Ballisteer/Projectilist
@@ -55,7 +55,7 @@ Unarmed Combat: Unarmed Brawler / Pugilist
 
 -Continued-
 ')
-     , (9595, 2, 4294967295, 'prewritten', 'Password is cheese', False, '-----------------------------------------------------------
+     , (9595, 2, 4294967295, '', 'prewritten', False, '-----------------------------------------------------------
 Alchemy: Apothecary / Alchemist
 Cooking: Chef / Iron Chef
 Fletching: Fletcher / Master Fletcher
@@ -73,7 +73,7 @@ Creature Enchantment: Creature Adept / Evoker
 
 -Continued-
 ')
-     , (9595, 3, 4294967295, 'prewritten', 'Password is cheese', False, 'To apply for a title, simply collect a Skill Puzzle Base Piece from your local Guild outpost.  One should be available and in plain sight at each outpost.  Then purchase the appropriate Skill Puzzle Piece from the Guild Representative.  
+     , (9595, 3, 4294967295, '', 'prewritten', False, 'To apply for a title, simply collect a Skill Puzzle Base Piece from your local Guild outpost.  One should be available and in plain sight at each outpost.  Then purchase the appropriate Skill Puzzle Piece from the Guild Representative.  
 
 If you are sufficiently advanced with the skill in question, you should have no problem combining the base piece with the appropriate skill piece.  Once the puzzle is complete, turn it in to the local Examiner to receive your new title.
 

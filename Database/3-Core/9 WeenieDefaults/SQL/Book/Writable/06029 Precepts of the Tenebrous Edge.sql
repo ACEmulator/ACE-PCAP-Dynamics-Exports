@@ -35,7 +35,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (6029, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (6029, 0, 4294967295, 'Hamud ibn Rafik', 'Password is cheese', False, '
+VALUES (6029, 0, 4294967295, 'Hamud ibn Rafik', 'prewritten', False, '
 Respect those who are stronger.  Those who are weaker need guidance.
 Be wary of those you do not know, but remain polite.  They may be useful.
 Honor the land, the sky and sea, for they give you life.

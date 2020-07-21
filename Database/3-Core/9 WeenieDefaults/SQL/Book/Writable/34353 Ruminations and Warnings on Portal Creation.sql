@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (34353, 3, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (34353, 0, 4294967295, 'Asheron Realaidain', 'Password is cheese', False, 'To create this particular portal, it seems that the number three shall be very integral. Coincidentally, in fetching the last inactive golem from Metos''s workshop, I find that he has three workshops located on three ley lines. Attuning my ritual to these three locations should be relatively trivial and work well.
+VALUES (34353, 0, 4294967295, 'Asheron Realaidain', 'prewritten', False, 'To create this particular portal, it seems that the number three shall be very integral. Coincidentally, in fetching the last inactive golem from Metos''s workshop, I find that he has three workshops located on three ley lines. Attuning my ritual to these three locations should be relatively trivial and work well.
 
 I believe that three locations in the north are also of necessity. Otherwise, there is no central point. However, introducing three more locations may disrupt some of the power I am attempting to harness This must be addressed.
 

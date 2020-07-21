@@ -29,21 +29,21 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31441, 6, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31441, 0, 4294967295, 'Unknown author', 'Password is cheese', False, 'Grael was once a Spear of the Mukkir
+VALUES (31441, 0, 4294967295, 'Unknown author', 'prewritten', False, 'Grael was once a Spear of the Mukkir
 He was a Blood-Warrior of Chief Daemal
 His arm was the strongest of the Blood-Warriors
 His beads of victory were many
 He took many wives and many slaves
 He fought at the Chief''s left hand as they sang songs of rage
 ')
-     , (31441, 1, 4294967295, 'Unknown author', 'Password is cheese', False, 'Grael failed Chief Daemal
+     , (31441, 1, 4294967295, 'Unknown author', 'prewritten', False, 'Grael failed Chief Daemal
 The Shining Ones from the south attacked the Mukkir
 Chief Daemal led the Blood-Warriors to battle
 Grael was overwhelmed by sorcerous light
 He failed to protect the back of his Chief
 He saw his Chief fall, singing a song of rage
 ')
-     , (31441, 2, 4294967295, 'Unknown author', 'Password is cheese', False, 'Grael became a prisoner of the Shining Ones
+     , (31441, 2, 4294967295, 'Unknown author', 'prewritten', False, 'Grael became a prisoner of the Shining Ones
 In their Great Circle, his war became their sport
 Every day, he raged for the fall of his Chief
 He slew all who came before him

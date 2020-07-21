@@ -28,7 +28,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (32294, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (32294, 0, 4294967295, 'King Varicci of Sanamar', 'Password is cheese', False, 'I have not received a response from this outpost since my last message. This disturbs me greatly. When I am disturbed, I execute the disturbance. A prudent servant would not leave me disturbed.
+VALUES (32294, 0, 4294967295, 'King Varicci of Sanamar', 'prewritten', False, 'I have not received a response from this outpost since my last message. This disturbs me greatly. When I am disturbed, I execute the disturbance. A prudent servant would not leave me disturbed.
 
 I have supplied you with the means to destroy the Bloodless wench''s seneschal. Heartbreaker is, even in my estimation, a most lordly weapon - more than able to fulfill our needs. All that remains is for that cur Jared Kurth to lure Blackmoor into our trap, and victory should be ours. This is not a difficult task. But yet, it remains incomplete.
 
