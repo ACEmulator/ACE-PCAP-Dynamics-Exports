@@ -36,7 +36,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (367, 70, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (367, 0, 1342426987, 'Aziz al-Jamal', 'Password is cheese', False, 'Lin is located around 55s 73e
+VALUES (367, 0, 1342426987, 'Aziz al-Jamal', 'prewritten', False, 'Lin is located around 55s 73e
 Tou-Tou from Lin    54s 73.9e
 Patron''s mule spot in GW 28n 28e
 subway 34.9n 54.5e

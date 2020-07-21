@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (1222, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (1222, 0, 4294967295, 'Holtburg Portal Directions', 'Password is cheese', False, '
+VALUES (1222, 0, 4294967295, 'Holtburg Portal Directions', 'prewritten', False, '
 To find the portal to Rithwic, follow the south road out of Holtburg, but keep going when you reach the second bend.
 
 ');

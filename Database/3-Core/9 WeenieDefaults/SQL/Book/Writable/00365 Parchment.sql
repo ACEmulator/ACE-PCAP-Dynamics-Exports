@@ -39,4 +39,4 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (365, 1, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (365, 0, 1343301116, 'Callaway', 'Password is cheese', False, 'hi');
+VALUES (365, 0, 1343301116, 'Callaway', 'prewritten', False, 'hi');

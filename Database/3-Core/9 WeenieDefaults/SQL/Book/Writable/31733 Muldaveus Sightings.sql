@@ -29,13 +29,13 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (31733, 5, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (31733, 0, 4294967295, 'Mancanza', 'Password is cheese', False, 'The Renegade Muldaveus, long thought dead, has recently been sighted roaming the wilds of Dereth. Look for clues to his location in the areas described on the following pages:
+VALUES (31733, 0, 4294967295, 'Mancanza', 'prewritten', False, 'The Renegade Muldaveus, long thought dead, has recently been sighted roaming the wilds of Dereth. Look for clues to his location in the areas described on the following pages:
 ')
-     , (31733, 1, 4294967295, 'Mancanza', 'Password is cheese', False, 'Rumor has is that Muldaveus was spotted in an old Tumerok mine, northeast of Fort Tethana, but before the land bridge that leads to Danby''s Outpost.
+     , (31733, 1, 4294967295, 'Mancanza', 'prewritten', False, 'Rumor has is that Muldaveus was spotted in an old Tumerok mine, northeast of Fort Tethana, but before the land bridge that leads to Danby''s Outpost.
 ')
-     , (31733, 2, 4294967295, 'Mancanza', 'Password is cheese', False, 'There is Merchant a bit north of Neydisa that may have some information about the Lugian. Rough coordinates are 75N 10E. Keep in mind that those coordinates are rather rough, though.
+     , (31733, 2, 4294967295, 'Mancanza', 'prewritten', False, 'There is Merchant a bit north of Neydisa that may have some information about the Lugian. Rough coordinates are 75N 10E. Keep in mind that those coordinates are rather rough, though.
 ')
-     , (31733, 3, 4294967295, 'Mancanza', 'Password is cheese', False, 'There is a camp in the snowy mountains just to the NE of Stonehold that may contain valuable information. The camp should be near the coordinates 72.3N 17.0W.
+     , (31733, 3, 4294967295, 'Mancanza', 'prewritten', False, 'There is a camp in the snowy mountains just to the NE of Stonehold that may contain valuable information. The camp should be near the coordinates 72.3N 17.0W.
 ')
-     , (31733, 4, 4294967295, 'Mancanza', 'Password is cheese', False, 'There is a guard tower just outside of Plateau Village. Carefully search this tower for any clues.
+     , (31733, 4, 4294967295, 'Mancanza', 'prewritten', False, 'There is a guard tower just outside of Plateau Village. Carefully search this tower for any clues.
 ');

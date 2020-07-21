@@ -25,10 +25,10 @@ INSERT INTO `weenie_properties_book` (`object_Id`, `max_Num_Pages`, `max_Num_Cha
 VALUES (28753, 2, 1000);
 
 INSERT INTO `weenie_properties_book_page_data` (`object_Id`, `page_Id`, `author_Id`, `author_Name`, `author_Account`, `ignore_Author`, `page_Text`)
-VALUES (28753, 0, 4294967295, 'Fiun Scorus', 'Password is cheese', False, 'Beings who graced this land prior created a machine which may make our maddened kin maddened no more. Return this machine to me and you shall have Fiun gratitude never-ending. 
+VALUES (28753, 0, 4294967295, 'Fiun Scorus', 'prewritten', False, 'Beings who graced this land prior created a machine which may make our maddened kin maddened no more. Return this machine to me and you shall have Fiun gratitude never-ending. 
 
 ')
-     , (28753, 1, 4294967295, 'Fiun Scorus', 'Password is cheese', False, 'Pieces of the machine may be found at these locations. 
+     , (28753, 1, 4294967295, 'Fiun Scorus', 'prewritten', False, 'Pieces of the machine may be found at these locations. 
 
 Small Empyrean Vault is located at 80.4N, 74.0W.
 Remote Empyrean Vault is located at 81.7N, 71.2W.
