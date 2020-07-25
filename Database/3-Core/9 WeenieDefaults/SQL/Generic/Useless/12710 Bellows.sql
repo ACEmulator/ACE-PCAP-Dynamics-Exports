@@ -13,7 +13,8 @@ VALUES (12710,   1,       1024) /* ItemType - Useless */
      , (12710, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12710,  22, True ) /* Inscribable */;
+VALUES (12710,  22, True ) /* Inscribable */
+     , (12710,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12710,   1, 'Bellows') /* Name */

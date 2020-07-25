@@ -16,6 +16,9 @@ VALUES (36867,   1,        128) /* ItemType - Misc */
      , (36867,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36867, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (36867,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36867,   1, 'Dire Champion Token') /* Name */
      , (36867,  14, 'Hand this to the Game Warden, Aun Javhalrea, in Ayan Baqur for a reward.') /* Use */

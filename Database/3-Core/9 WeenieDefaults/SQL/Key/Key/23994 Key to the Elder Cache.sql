@@ -16,7 +16,8 @@ VALUES (23994,   1,      16384) /* ItemType - Key */
      , (23994, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23994,  22, True ) /* Inscribable */;
+VALUES (23994,  22, True ) /* Inscribable */
+     , (23994,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23994,   1, 'Key to the Elder Cache') /* Name */

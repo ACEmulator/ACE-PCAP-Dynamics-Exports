@@ -18,7 +18,8 @@ VALUES (22135,   1,       2048) /* ItemType - Gem */
      , (22135, 131,         21) /* MaterialType - Emerald */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22135,  22, True ) /* Inscribable */;
+VALUES (22135,  22, True ) /* Inscribable */
+     , (22135,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22135,   1, 'Frest Greelving''s Emerald') /* Name */;

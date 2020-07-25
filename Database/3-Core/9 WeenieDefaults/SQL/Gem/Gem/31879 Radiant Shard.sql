@@ -18,6 +18,9 @@ VALUES (31879,   1,       2048) /* ItemType - Gem */
      , (31879,  94,         16) /* TargetType - Creature */
      , (31879, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31879,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31879,   1, 'Radiant Shard') /* Name */
      , (31879,  16, 'Give this gem to the Gatekeeper Lurza to prove your worth.  Should you need a quick return to the Gatekeeper''s Plateau, present this gem to the Devastated Watcher or Ruined Watcher on Aerlinthe.') /* LongDesc */;

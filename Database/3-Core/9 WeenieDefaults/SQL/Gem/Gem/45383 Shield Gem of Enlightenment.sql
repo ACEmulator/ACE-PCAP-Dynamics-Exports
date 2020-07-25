@@ -13,7 +13,8 @@ VALUES (45383,   1,       2048) /* ItemType - Gem */
      , (45383, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45383,  22, True ) /* Inscribable */;
+VALUES (45383,  22, True ) /* Inscribable */
+     , (45383,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45383,   1, 'Shield Gem of Enlightenment') /* Name */

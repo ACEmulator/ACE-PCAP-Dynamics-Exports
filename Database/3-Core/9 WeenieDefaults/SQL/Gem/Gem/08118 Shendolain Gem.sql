@@ -17,7 +17,8 @@ VALUES (8118,   1,       2048) /* ItemType - Gem */
      , (8118, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8118,  22, True ) /* Inscribable */;
+VALUES (8118,  22, True ) /* Inscribable */
+     , (8118,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8118,   1, 'Shendolain Gem') /* Name */

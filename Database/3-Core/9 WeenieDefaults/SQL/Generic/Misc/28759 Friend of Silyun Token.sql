@@ -13,7 +13,8 @@ VALUES (28759,   1,        128) /* ItemType - Misc */
      , (28759, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28759,  22, True ) /* Inscribable */;
+VALUES (28759,  22, True ) /* Inscribable */
+     , (28759,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28759,   1, 'Friend of Silyun Token') /* Name */

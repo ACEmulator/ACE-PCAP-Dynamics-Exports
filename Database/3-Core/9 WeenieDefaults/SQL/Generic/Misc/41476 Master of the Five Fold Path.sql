@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41476,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41476,  22, True ) /* Inscribable */;
+VALUES (41476,  22, True ) /* Inscribable */
+     , (41476,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41476,   1, 'Master of the Five Fold Path') /* Name */

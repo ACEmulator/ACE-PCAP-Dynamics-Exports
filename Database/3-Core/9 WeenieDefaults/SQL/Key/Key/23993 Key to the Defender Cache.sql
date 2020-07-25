@@ -16,7 +16,8 @@ VALUES (23993,   1,      16384) /* ItemType - Key */
      , (23993, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23993,  22, True ) /* Inscribable */;
+VALUES (23993,  22, True ) /* Inscribable */
+     , (23993,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23993,   1, 'Key to the Defender Cache') /* Name */

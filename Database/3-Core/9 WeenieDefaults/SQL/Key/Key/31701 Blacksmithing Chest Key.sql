@@ -15,6 +15,9 @@ VALUES (31701,   1,      16384) /* ItemType - Key */
      , (31701,  94,        640) /* TargetType - LockableMagicTarget */
      , (31701, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31701,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31701,   1, 'Blacksmithing Chest Key') /* Name */
      , (31701,  16, 'This icy key appears to open some sort of personal chest or storage device.') /* LongDesc */;

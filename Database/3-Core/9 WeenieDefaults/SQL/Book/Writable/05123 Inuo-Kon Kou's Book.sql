@@ -12,6 +12,9 @@ VALUES (5123,   1,       8192) /* ItemType - Writable */
      , (5123,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (5123, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (5123,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5123,  39,    1.22) /* DefaultScale */
      , (5123,  54,     0.3) /* UseRadius */;

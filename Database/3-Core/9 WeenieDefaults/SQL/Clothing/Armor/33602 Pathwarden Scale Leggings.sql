@@ -21,6 +21,7 @@ VALUES (33602,   1,          2) /* ItemType - Armor */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (33602,  22, True ) /* Inscribable */
+     , (33602,  23, True ) /* DestroyOnSell */
      , (33602,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

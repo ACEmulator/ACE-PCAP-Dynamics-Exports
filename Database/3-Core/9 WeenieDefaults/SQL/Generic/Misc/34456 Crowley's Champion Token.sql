@@ -13,7 +13,8 @@ VALUES (34456,   1,        128) /* ItemType - Misc */
      , (34456, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34456,  22, True ) /* Inscribable */;
+VALUES (34456,  22, True ) /* Inscribable */
+     , (34456,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34456,   1, 'Crowley''s Champion Token') /* Name */

@@ -22,6 +22,9 @@ VALUES (51216,   1,       2048) /* ItemType - Gem */
      , (51216, 109,          0) /* ItemDifficulty */
      , (51216, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (51216,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51216,  39,     1.2) /* DefaultScale */;
 

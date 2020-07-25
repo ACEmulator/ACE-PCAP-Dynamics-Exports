@@ -20,7 +20,8 @@ VALUES (53481,   1,        128) /* ItemType - Misc */
      , (53481, 268,      14999) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53481,  69, False) /* IsSellable */;
+VALUES (53481,  23, True ) /* DestroyOnSell */
+     , (53481,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53481,   1, 'Viridian Key of the Third Portal') /* Name */

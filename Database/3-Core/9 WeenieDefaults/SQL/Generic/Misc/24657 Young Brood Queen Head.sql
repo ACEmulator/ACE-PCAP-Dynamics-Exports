@@ -13,7 +13,8 @@ VALUES (24657,   1,        128) /* ItemType - Misc */
      , (24657, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24657,  22, True ) /* Inscribable */;
+VALUES (24657,  22, True ) /* Inscribable */
+     , (24657,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24657,   1, 'Young Brood Queen Head') /* Name */

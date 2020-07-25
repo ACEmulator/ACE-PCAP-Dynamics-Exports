@@ -13,7 +13,8 @@ VALUES (44105,   1,       2048) /* ItemType - Gem */
      , (44105, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44105,  22, True ) /* Inscribable */;
+VALUES (44105,  22, True ) /* Inscribable */
+     , (44105,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44105,   1, 'Token of the Augmentation Gem') /* Name */

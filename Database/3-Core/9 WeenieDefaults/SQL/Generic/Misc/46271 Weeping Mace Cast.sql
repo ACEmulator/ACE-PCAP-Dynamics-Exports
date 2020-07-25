@@ -13,7 +13,8 @@ VALUES (46271,   1,        128) /* ItemType - Misc */
      , (46271, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46271,  22, True ) /* Inscribable */;
+VALUES (46271,  22, True ) /* Inscribable */
+     , (46271,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46271,   1, 'Weeping Mace Cast') /* Name */

@@ -18,7 +18,8 @@ VALUES (15853,   1,        128) /* ItemType - Misc */
      , (15853, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15853,  22, True ) /* Inscribable */;
+VALUES (15853,  22, True ) /* Inscribable */
+     , (15853,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (15853,   1, 'Empty Binding') /* Name */

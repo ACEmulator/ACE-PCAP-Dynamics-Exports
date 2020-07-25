@@ -13,7 +13,8 @@ VALUES (24128,   1,       2048) /* ItemType - Gem */
      , (24128, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24128,  22, True ) /* Inscribable */;
+VALUES (24128,  22, True ) /* Inscribable */
+     , (24128,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24128,   1, 'A Virindi Signet') /* Name */

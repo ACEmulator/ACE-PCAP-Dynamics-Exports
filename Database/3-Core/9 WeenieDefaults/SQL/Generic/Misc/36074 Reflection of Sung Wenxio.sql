@@ -18,6 +18,7 @@ VALUES (36074,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (36074,  22, True ) /* Inscribable */
+     , (36074,  23, True ) /* DestroyOnSell */
      , (36074,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

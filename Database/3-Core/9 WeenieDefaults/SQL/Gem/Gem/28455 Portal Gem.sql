@@ -24,6 +24,9 @@ VALUES (28455,   1,       2048) /* ItemType - Gem */
      , (28455, 114,          1) /* Attuned - Attuned */
      , (28455, 151,          2) /* HookType - Wall */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (28455,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28455,  76,     0.5) /* Translucency */;
 

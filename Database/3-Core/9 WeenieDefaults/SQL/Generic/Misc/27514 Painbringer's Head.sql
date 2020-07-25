@@ -13,7 +13,8 @@ VALUES (27514,   1,        128) /* ItemType - Misc */
      , (27514, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27514,  22, True ) /* Inscribable */;
+VALUES (27514,  22, True ) /* Inscribable */
+     , (27514,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27514,   1, 'Painbringer''s Head') /* Name */

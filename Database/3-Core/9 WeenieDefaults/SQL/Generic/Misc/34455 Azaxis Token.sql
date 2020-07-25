@@ -13,7 +13,8 @@ VALUES (34455,   1,        128) /* ItemType - Misc */
      , (34455, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34455,  22, True ) /* Inscribable */;
+VALUES (34455,  22, True ) /* Inscribable */
+     , (34455,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34455,   1, 'Azaxis Token') /* Name */

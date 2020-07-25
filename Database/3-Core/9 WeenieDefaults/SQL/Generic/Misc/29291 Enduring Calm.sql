@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29291,   3,  500000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29291,  22, True ) /* Inscribable */;
+VALUES (29291,  22, True ) /* Inscribable */
+     , (29291,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29291,   1, 'Enduring Calm') /* Name */

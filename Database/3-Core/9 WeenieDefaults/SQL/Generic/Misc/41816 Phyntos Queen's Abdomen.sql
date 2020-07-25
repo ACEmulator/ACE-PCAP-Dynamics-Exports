@@ -13,7 +13,8 @@ VALUES (41816,   1,        128) /* ItemType - Misc */
      , (41816, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41816,  22, True ) /* Inscribable */;
+VALUES (41816,  22, True ) /* Inscribable */
+     , (41816,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41816,   1, 'Phyntos Queen''s Abdomen') /* Name */;

@@ -21,7 +21,8 @@ VALUES (46427,   1,        128) /* ItemType - Misc */
      , (46427, 268,       7189) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46427,  22, True ) /* Inscribable */;
+VALUES (46427,  22, True ) /* Inscribable */
+     , (46427,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46427,   1, 'Ancient Skull') /* Name */

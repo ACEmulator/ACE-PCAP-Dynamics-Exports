@@ -18,6 +18,7 @@ VALUES (28770,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28770,  22, True ) /* Inscribable */
+     , (28770,  23, True ) /* DestroyOnSell */
      , (28770,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

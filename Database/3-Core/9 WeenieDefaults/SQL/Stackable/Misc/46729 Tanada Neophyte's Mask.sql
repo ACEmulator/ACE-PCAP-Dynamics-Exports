@@ -17,6 +17,9 @@ VALUES (46729,   1,        128) /* ItemType - Misc */
      , (46729,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46729, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46729,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46729,   1, 'Tanada Neophyte''s Mask') /* Name */
      , (46729,  16, 'A mask taken from a young Tanada Nanjou in training. ') /* LongDesc */;

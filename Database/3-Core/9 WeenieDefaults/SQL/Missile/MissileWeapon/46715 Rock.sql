@@ -20,6 +20,7 @@ VALUES (46715,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46715,   1, True ) /* Stuck */
+     , (46715,  23, True ) /* DestroyOnSell */
      , (46715,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

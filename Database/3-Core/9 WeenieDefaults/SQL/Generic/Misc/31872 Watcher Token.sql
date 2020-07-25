@@ -12,6 +12,9 @@ VALUES (31872,   1,        128) /* ItemType - Misc */
      , (31872,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31872, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31872,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31872,   1, 'Watcher Token') /* Name */
      , (31872,  16, 'Give this token to one of the Watchers on Aerlinthe in exchange for passage to the Ruined or Devastated Falatacot Temple.') /* LongDesc */;

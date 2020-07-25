@@ -13,7 +13,8 @@ VALUES (34913,   1,       1024) /* ItemType - Useless */
      , (34913, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34913,  22, True ) /* Inscribable */;
+VALUES (34913,  22, True ) /* Inscribable */
+     , (34913,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34913,   1, 'Empyrean Sun Stone') /* Name */

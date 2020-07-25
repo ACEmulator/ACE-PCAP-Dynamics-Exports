@@ -13,7 +13,8 @@ VALUES (22331,   1,       2048) /* ItemType - Gem */
      , (22331, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22331,  22, True ) /* Inscribable */;
+VALUES (22331,  22, True ) /* Inscribable */
+     , (22331,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22331,   1, 'Leadership Gem of Forgetfulness') /* Name */

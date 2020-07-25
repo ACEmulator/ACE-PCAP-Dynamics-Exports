@@ -17,6 +17,9 @@ VALUES (38614,   1,        128) /* ItemType - Misc */
      , (38614,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38614, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38614,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38614,   1, 'Falatacot Battle Report') /* Name */
      , (38614,  14, 'May be taken by people with the proper protections upon them.') /* Use */

@@ -17,7 +17,8 @@ VALUES (35107,   1,        128) /* ItemType - Misc */
      , (35107, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35107,  69, False) /* IsSellable */;
+VALUES (35107,  23, True ) /* DestroyOnSell */
+     , (35107,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35107,   1, 'Exhumed Bones') /* Name */

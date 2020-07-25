@@ -13,6 +13,9 @@ VALUES (32714,   1,       8192) /* ItemType - Writable */
      , (32714, 114,          1) /* Attuned - Attuned */
      , (32714, 151,          2) /* HookType - Wall */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32714,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (32714,  39,    1.22) /* DefaultScale */
      , (32714,  54,     0.3) /* UseRadius */;

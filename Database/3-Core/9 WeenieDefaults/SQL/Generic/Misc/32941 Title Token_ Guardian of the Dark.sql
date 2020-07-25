@@ -13,7 +13,8 @@ VALUES (32941,   1,        128) /* ItemType - Misc */
      , (32941, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32941,  22, True ) /* Inscribable */;
+VALUES (32941,  22, True ) /* Inscribable */
+     , (32941,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32941,   1, 'Title Token: Guardian of the Dark') /* Name */

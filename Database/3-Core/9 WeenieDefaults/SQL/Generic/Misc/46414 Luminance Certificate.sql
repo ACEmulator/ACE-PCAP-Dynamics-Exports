@@ -13,7 +13,8 @@ VALUES (46414,   1,        128) /* ItemType - Misc */
      , (46414, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46414,  69, False) /* IsSellable */;
+VALUES (46414,  23, True ) /* DestroyOnSell */
+     , (46414,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46414,   1, 'Luminance Certificate') /* Name */

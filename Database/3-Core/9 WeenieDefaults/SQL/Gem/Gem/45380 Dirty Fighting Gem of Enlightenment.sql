@@ -13,7 +13,8 @@ VALUES (45380,   1,       2048) /* ItemType - Gem */
      , (45380, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45380,  22, True ) /* Inscribable */;
+VALUES (45380,  22, True ) /* Inscribable */
+     , (45380,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45380,   1, 'Dirty Fighting Gem of Enlightenment') /* Name */

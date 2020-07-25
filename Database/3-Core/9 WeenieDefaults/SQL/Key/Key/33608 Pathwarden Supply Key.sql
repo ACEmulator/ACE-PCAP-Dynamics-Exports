@@ -16,7 +16,8 @@ VALUES (33608,   1,      16384) /* ItemType - Key */
      , (33608, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33608,  22, True ) /* Inscribable */;
+VALUES (33608,  22, True ) /* Inscribable */
+     , (33608,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33608,   1, 'Pathwarden Supply Key') /* Name */

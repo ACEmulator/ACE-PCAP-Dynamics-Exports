@@ -18,7 +18,8 @@ VALUES (44367,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44367, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44367,  69, False) /* IsSellable */;
+VALUES (44367,  23, True ) /* DestroyOnSell */
+     , (44367,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44367,   1, 'Wrapped Bundle of Greater Deadly Frog Crotch Arrowheads') /* Name */

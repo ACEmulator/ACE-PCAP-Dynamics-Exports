@@ -14,7 +14,8 @@ VALUES (38615,   1,        128) /* ItemType - Misc */
      , (38615, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38615,  22, True ) /* Inscribable */;
+VALUES (38615,  22, True ) /* Inscribable */
+     , (38615,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38615,   1, 'Crystal of Perception') /* Name */

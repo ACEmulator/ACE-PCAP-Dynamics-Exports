@@ -16,6 +16,9 @@ VALUES (39984,   1,        128) /* ItemType - Misc */
      , (39984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39984, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (39984,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39984,   1, 'Adventurer''s Token') /* Name */
      , (39984,  14, 'Collect 10 of this trophy and turn them in to any NPC you receive these trophies from in exchange for one Mana Forge Key.') /* Use */

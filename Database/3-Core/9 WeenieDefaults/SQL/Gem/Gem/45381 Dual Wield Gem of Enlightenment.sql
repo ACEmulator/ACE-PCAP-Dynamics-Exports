@@ -13,7 +13,8 @@ VALUES (45381,   1,       2048) /* ItemType - Gem */
      , (45381, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45381,  22, True ) /* Inscribable */;
+VALUES (45381,  22, True ) /* Inscribable */
+     , (45381,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45381,   1, 'Dual Wield Gem of Enlightenment') /* Name */

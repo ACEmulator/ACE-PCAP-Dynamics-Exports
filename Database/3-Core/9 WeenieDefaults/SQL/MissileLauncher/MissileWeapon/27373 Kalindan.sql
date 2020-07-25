@@ -22,7 +22,8 @@ VALUES (27373,   1,        256) /* ItemType - MissileWeapon */
      , (27373, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27373,  22, True ) /* Inscribable */;
+VALUES (27373,  22, True ) /* Inscribable */
+     , (27373,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27373,  21,       0) /* WeaponLength */

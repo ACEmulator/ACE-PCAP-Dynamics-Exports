@@ -16,7 +16,8 @@ VALUES (35402,   1,      16384) /* ItemType - Key */
      , (35402, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35402,  22, True ) /* Inscribable */;
+VALUES (35402,  22, True ) /* Inscribable */
+     , (35402,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35402,   1, 'Lord Cynreft Mhoire''s Key') /* Name */

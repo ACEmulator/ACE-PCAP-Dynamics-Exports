@@ -18,7 +18,8 @@ VALUES (7442,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (7442, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7442,  22, True ) /* Inscribable */;
+VALUES (7442,  22, True ) /* Inscribable */
+     , (7442,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7442,   1, 'Red Fire Infusion') /* Name */

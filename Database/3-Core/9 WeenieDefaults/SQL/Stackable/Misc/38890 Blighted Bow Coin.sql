@@ -17,7 +17,8 @@ VALUES (38890,   1,        128) /* ItemType - Misc */
      , (38890, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38890,  69, False) /* IsSellable */;
+VALUES (38890,  23, True ) /* DestroyOnSell */
+     , (38890,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38890,   1, 'Blighted Bow Coin') /* Name */

@@ -16,7 +16,8 @@ VALUES (30640,   1,      16384) /* ItemType - Key */
      , (30640, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30640,  22, True ) /* Inscribable */;
+VALUES (30640,  22, True ) /* Inscribable */
+     , (30640,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30640,   1, 'Banderling Holy Symbol') /* Name */

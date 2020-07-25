@@ -17,7 +17,8 @@ VALUES (27931,   1,       2048) /* ItemType - Gem */
      , (27931, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27931,  22, True ) /* Inscribable */;
+VALUES (27931,  22, True ) /* Inscribable */
+     , (27931,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27931,   1, 'A Carved Plate') /* Name */

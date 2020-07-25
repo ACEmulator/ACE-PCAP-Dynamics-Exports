@@ -14,7 +14,8 @@ VALUES (31378,   1,       2048) /* ItemType - Gem */
      , (31378, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31378,  22, True ) /* Inscribable */;
+VALUES (31378,  22, True ) /* Inscribable */
+     , (31378,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31378,   1, 'Raven Fragment') /* Name */

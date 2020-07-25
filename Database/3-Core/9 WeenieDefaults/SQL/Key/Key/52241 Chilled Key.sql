@@ -16,7 +16,8 @@ VALUES (52241,   1,      16384) /* ItemType - Key */
      , (52241, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52241,  22, True ) /* Inscribable */;
+VALUES (52241,  22, True ) /* Inscribable */
+     , (52241,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52241,   1, 'Chilled Key') /* Name */

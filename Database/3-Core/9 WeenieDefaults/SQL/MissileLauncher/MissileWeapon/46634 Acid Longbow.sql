@@ -23,7 +23,8 @@ VALUES (46634,   1,        256) /* ItemType - MissileWeapon */
      , (46634, 353,          8) /* WeaponType - Bow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46634,  69, False) /* IsSellable */
+VALUES (46634,  23, True ) /* DestroyOnSell */
+     , (46634,  69, False) /* IsSellable */
      , (46634,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -22,7 +22,8 @@ VALUES (12117,   1,          1) /* ItemType - MeleeWeapon */
      , (12117, 353,          4) /* WeaponType - Mace */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12117,  22, True ) /* Inscribable */;
+VALUES (12117,  22, True ) /* Inscribable */
+     , (12117,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12117,   5,  -0.033) /* ManaRate */

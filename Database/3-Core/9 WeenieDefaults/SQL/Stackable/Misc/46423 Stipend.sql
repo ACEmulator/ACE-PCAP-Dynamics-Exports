@@ -17,7 +17,8 @@ VALUES (46423,   1,        128) /* ItemType - Misc */
      , (46423, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46423,  69, False) /* IsSellable */;
+VALUES (46423,  23, True ) /* DestroyOnSell */
+     , (46423,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46423,   1, 'Stipend') /* Name */

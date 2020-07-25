@@ -13,7 +13,8 @@ VALUES (9312,   1,        128) /* ItemType - Misc */
      , (9312, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9312,  22, True ) /* Inscribable */;
+VALUES (9312,  22, True ) /* Inscribable */
+     , (9312,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9312,   1, 'A Small Mnemosyne') /* Name */

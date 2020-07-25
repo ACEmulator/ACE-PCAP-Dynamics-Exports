@@ -13,7 +13,8 @@ VALUES (22351,   1,       2048) /* ItemType - Gem */
      , (22351, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22351,  22, True ) /* Inscribable */;
+VALUES (22351,  22, True ) /* Inscribable */
+     , (22351,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22351,   1, 'Arcane Lore Gem of Enlightenment') /* Name */

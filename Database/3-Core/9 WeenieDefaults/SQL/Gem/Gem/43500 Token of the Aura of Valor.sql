@@ -13,7 +13,8 @@ VALUES (43500,   1,       2048) /* ItemType - Gem */
      , (43500, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43500,  22, True ) /* Inscribable */;
+VALUES (43500,  22, True ) /* Inscribable */
+     , (43500,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43500,   1, 'Token of the Aura of Valor') /* Name */

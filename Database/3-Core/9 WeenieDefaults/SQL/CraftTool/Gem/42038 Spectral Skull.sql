@@ -19,7 +19,8 @@ VALUES (42038,   1,       2048) /* ItemType - Gem */
      , (42038, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42038,  69, False) /* IsSellable */;
+VALUES (42038,  23, True ) /* DestroyOnSell */
+     , (42038,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42038,   1, 'Spectral Skull') /* Name */

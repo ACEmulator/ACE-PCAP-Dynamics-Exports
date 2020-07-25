@@ -13,7 +13,8 @@ VALUES (31983,   1,        128) /* ItemType - Misc */
      , (31983, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31983,  22, True ) /* Inscribable */;
+VALUES (31983,  22, True ) /* Inscribable */
+     , (31983,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31983,   1, 'Unreadable Falatacot Volume') /* Name */

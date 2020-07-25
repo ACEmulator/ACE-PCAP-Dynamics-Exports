@@ -16,7 +16,8 @@ VALUES (34448,   1,      16384) /* ItemType - Key */
      , (34448, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34448,  22, True ) /* Inscribable */;
+VALUES (34448,  22, True ) /* Inscribable */
+     , (34448,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34448,   1, 'Colosseum Vault Key') /* Name */

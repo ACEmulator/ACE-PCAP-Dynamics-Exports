@@ -25,7 +25,8 @@ VALUES (27841,   1,      32768) /* ItemType - Caster */
      , (27841, 166,         19) /* SlayerCreatureType - Virindi */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27841,  22, True ) /* Inscribable */;
+VALUES (27841,  22, True ) /* Inscribable */
+     , (27841,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (27841,   5,  -0.033) /* ManaRate */

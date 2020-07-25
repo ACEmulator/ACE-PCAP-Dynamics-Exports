@@ -24,7 +24,8 @@ VALUES (8213,   1,       2048) /* ItemType - Gem */
      , (8213, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8213,  22, True ) /* Inscribable */;
+VALUES (8213,  22, True ) /* Inscribable */
+     , (8213,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8213,  76,     0.5) /* Translucency */;

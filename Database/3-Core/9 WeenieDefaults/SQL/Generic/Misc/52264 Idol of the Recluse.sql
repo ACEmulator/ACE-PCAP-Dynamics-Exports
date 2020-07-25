@@ -13,7 +13,8 @@ VALUES (52264,   1,        128) /* ItemType - Misc */
      , (52264, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52264,  22, True ) /* Inscribable */;
+VALUES (52264,  22, True ) /* Inscribable */
+     , (52264,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52264,   1, 'Idol of the Recluse') /* Name */

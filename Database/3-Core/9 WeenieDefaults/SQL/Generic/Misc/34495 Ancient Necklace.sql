@@ -12,6 +12,9 @@ VALUES (34495,   1,        128) /* ItemType - Misc */
      , (34495,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34495, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (34495,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34495,   1, 'Ancient Necklace') /* Name */
      , (34495,  16, 'The medallion on this necklace is artfully crafted to depict a crown studded with emeralds.') /* LongDesc */;

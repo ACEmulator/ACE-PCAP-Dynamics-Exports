@@ -15,7 +15,8 @@ VALUES (15402,   1,          2) /* ItemType - Armor */
      , (15402, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (15402,  22, True ) /* Inscribable */;
+VALUES (15402,  22, True ) /* Inscribable */
+     , (15402,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (15402,  39,     2.5) /* DefaultScale */;

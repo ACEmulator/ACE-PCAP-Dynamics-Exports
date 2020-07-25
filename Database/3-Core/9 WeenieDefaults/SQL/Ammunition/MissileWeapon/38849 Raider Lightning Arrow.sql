@@ -26,7 +26,8 @@ VALUES (38849,   1,        256) /* ItemType - MissileWeapon */
      , (38849, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38849,  69, False) /* IsSellable */
+VALUES (38849,  23, True ) /* DestroyOnSell */
+     , (38849,  69, False) /* IsSellable */
      , (38849,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

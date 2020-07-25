@@ -13,7 +13,8 @@ VALUES (32024,   1,       2048) /* ItemType - Gem */
      , (32024, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32024,  22, True ) /* Inscribable */;
+VALUES (32024,  22, True ) /* Inscribable */
+     , (32024,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32024,   1, 'Offering to Xik Minru') /* Name */

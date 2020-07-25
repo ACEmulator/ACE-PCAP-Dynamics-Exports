@@ -13,7 +13,8 @@ VALUES (36757,   1,       2048) /* ItemType - Gem */
      , (36757, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36757,  22, True ) /* Inscribable */;
+VALUES (36757,  22, True ) /* Inscribable */
+     , (36757,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36757,   1, 'Empyrean Spherule') /* Name */

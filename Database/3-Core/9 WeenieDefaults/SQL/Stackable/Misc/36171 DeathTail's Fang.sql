@@ -17,7 +17,8 @@ VALUES (36171,   1,        128) /* ItemType - Misc */
      , (36171, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36171,  69, False) /* IsSellable */;
+VALUES (36171,  23, True ) /* DestroyOnSell */
+     , (36171,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36171,   1, 'DeathTail''s Fang') /* Name */

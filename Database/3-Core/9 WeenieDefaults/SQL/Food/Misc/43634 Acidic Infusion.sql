@@ -19,6 +19,9 @@ VALUES (43634,   1,        128) /* ItemType - Misc */
      , (43634, 114,          1) /* Attuned - Attuned */
      , (43634, 151,         11) /* HookType - Floor, Wall, Yard */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43634,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43634,   1, 'Acidic Infusion') /* Name */
      , (43634,  14, 'Use this item to drink it.') /* Use */;

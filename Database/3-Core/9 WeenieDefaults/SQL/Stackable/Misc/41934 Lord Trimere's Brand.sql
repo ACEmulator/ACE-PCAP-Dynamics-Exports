@@ -17,7 +17,8 @@ VALUES (41934,   1,        128) /* ItemType - Misc */
      , (41934, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41934,  69, False) /* IsSellable */;
+VALUES (41934,  23, True ) /* DestroyOnSell */
+     , (41934,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41934,   1, 'Lord Trimere''s Brand') /* Name */

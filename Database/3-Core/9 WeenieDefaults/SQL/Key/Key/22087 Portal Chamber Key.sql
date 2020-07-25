@@ -16,7 +16,8 @@ VALUES (22087,   1,      16384) /* ItemType - Key */
      , (22087, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22087,  22, True ) /* Inscribable */;
+VALUES (22087,  22, True ) /* Inscribable */
+     , (22087,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22087,   1, 'Portal Chamber Key') /* Name */

@@ -17,7 +17,8 @@ VALUES (20020,   1,       2048) /* ItemType - Gem */
      , (20020, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (20020,  22, True ) /* Inscribable */;
+VALUES (20020,  22, True ) /* Inscribable */
+     , (20020,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (20020,   1, 'Kai''s Reward Gem') /* Name */;

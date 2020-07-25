@@ -16,6 +16,9 @@ VALUES (31350,   1,        128) /* ItemType - Misc */
      , (31350,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31350, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31350,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31350,   1, 'Mosswart Armband') /* Name */
      , (31350,  16, 'A decorative armband from a Mosswart Worshipper.') /* LongDesc */;

@@ -17,7 +17,8 @@ VALUES (12709,   1,       2048) /* ItemType - Gem */
      , (12709, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12709,  22, True ) /* Inscribable */;
+VALUES (12709,  22, True ) /* Inscribable */
+     , (12709,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12709,   1, 'Academy Token') /* Name */

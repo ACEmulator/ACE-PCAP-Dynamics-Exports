@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29267,   3, 4000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29267,  22, True ) /* Inscribable */;
+VALUES (29267,  22, True ) /* Inscribable */
+     , (29267,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29267,   1, 'Quick Learner') /* Name */

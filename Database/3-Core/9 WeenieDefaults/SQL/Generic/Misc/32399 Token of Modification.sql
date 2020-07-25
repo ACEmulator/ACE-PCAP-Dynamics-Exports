@@ -13,7 +13,8 @@ VALUES (32399,   1,        128) /* ItemType - Misc */
      , (32399, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32399,  22, True ) /* Inscribable */;
+VALUES (32399,  22, True ) /* Inscribable */
+     , (32399,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32399,   1, 'Token of Modification') /* Name */

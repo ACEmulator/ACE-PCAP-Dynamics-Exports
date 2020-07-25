@@ -13,7 +13,8 @@ VALUES (38162,   1,        128) /* ItemType - Misc */
      , (38162, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38162,  22, True ) /* Inscribable */;
+VALUES (38162,  22, True ) /* Inscribable */
+     , (38162,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38162,   1, 'Tattered Putrid Moarsman Ritual') /* Name */

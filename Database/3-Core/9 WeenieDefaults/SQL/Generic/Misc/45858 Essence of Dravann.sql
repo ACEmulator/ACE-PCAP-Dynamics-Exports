@@ -13,7 +13,8 @@ VALUES (45858,   1,        128) /* ItemType - Misc */
      , (45858, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45858,  22, True ) /* Inscribable */;
+VALUES (45858,  22, True ) /* Inscribable */
+     , (45858,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45858,   1, 'Essence of Dravann') /* Name */

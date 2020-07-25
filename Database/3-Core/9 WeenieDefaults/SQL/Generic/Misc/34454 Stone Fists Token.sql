@@ -13,7 +13,8 @@ VALUES (34454,   1,        128) /* ItemType - Misc */
      , (34454, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34454,  22, True ) /* Inscribable */;
+VALUES (34454,  22, True ) /* Inscribable */
+     , (34454,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34454,   1, 'Stone Fists Token') /* Name */

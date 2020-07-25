@@ -17,7 +17,8 @@ VALUES (13239,   1,          2) /* ItemType - Armor */
      , (13239, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (13239,  22, True ) /* Inscribable */;
+VALUES (13239,  22, True ) /* Inscribable */
+     , (13239,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (13239,  13,       1) /* ArmorModVsSlash */

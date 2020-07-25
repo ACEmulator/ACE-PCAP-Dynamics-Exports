@@ -13,7 +13,8 @@ VALUES (28983,   1,        128) /* ItemType - Misc */
      , (28983, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28983,  22, True ) /* Inscribable */;
+VALUES (28983,  22, True ) /* Inscribable */
+     , (28983,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28983,   1, 'Hand-Written Journal') /* Name */

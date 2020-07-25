@@ -14,6 +14,7 @@ VALUES (15268,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (15268,  22, True ) /* Inscribable */
+     , (15268,  23, True ) /* DestroyOnSell */
      , (15268,  69, False) /* IsSellable */
      , (15268,  81, True ) /* RequiresBackpackSlot */;
 

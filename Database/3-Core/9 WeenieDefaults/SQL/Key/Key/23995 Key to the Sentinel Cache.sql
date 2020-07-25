@@ -16,7 +16,8 @@ VALUES (23995,   1,      16384) /* ItemType - Key */
      , (23995, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23995,  22, True ) /* Inscribable */;
+VALUES (23995,  22, True ) /* Inscribable */
+     , (23995,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23995,   1, 'Key to the Sentinel Cache') /* Name */

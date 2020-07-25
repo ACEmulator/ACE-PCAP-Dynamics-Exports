@@ -13,7 +13,8 @@ VALUES (43463,   1,       2048) /* ItemType - Gem */
      , (43463, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43463,  22, True ) /* Inscribable */;
+VALUES (43463,  22, True ) /* Inscribable */
+     , (43463,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43463,   1, 'Token of the Luminous Pearl of Blood Drinking') /* Name */

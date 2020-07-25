@@ -31,6 +31,7 @@ VALUES (46208,   1,          1) /* ItemType - MeleeWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46208,  22, True ) /* Inscribable */
+     , (46208,  23, True ) /* DestroyOnSell */
      , (46208,  69, False) /* IsSellable */
      , (46208,  99, True ) /* Ivoryable */;
 

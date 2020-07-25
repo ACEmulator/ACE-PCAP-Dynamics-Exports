@@ -13,7 +13,8 @@ VALUES (31511,   1,        128) /* ItemType - Misc */
      , (31511, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31511,  22, True ) /* Inscribable */;
+VALUES (31511,  22, True ) /* Inscribable */
+     , (31511,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31511,   1, 'Butterscotch Suckling') /* Name */

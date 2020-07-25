@@ -13,6 +13,9 @@ VALUES (37448,   1,        128) /* ItemType - Misc */
      , (37448,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37448, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37448,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37448,   1, 'Small Tainted Egg') /* Name */
      , (37448,  14, 'Bring this egg to an expert in the closest settlement.') /* Use */

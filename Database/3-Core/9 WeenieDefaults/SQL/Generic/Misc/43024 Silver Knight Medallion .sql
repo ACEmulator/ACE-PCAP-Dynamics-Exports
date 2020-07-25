@@ -13,7 +13,8 @@ VALUES (43024,   1,        128) /* ItemType - Misc */
      , (43024, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43024,  22, True ) /* Inscribable */;
+VALUES (43024,  22, True ) /* Inscribable */
+     , (43024,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43024,   1, 'Silver Knight Medallion ') /* Name */

@@ -18,7 +18,8 @@ VALUES (34912,   1,       1024) /* ItemType - Useless */
      , (34912, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34912,  22, True ) /* Inscribable */;
+VALUES (34912,  22, True ) /* Inscribable */
+     , (34912,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34912,   1, 'Stone of Rez''arel') /* Name */

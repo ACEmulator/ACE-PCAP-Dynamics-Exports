@@ -13,7 +13,8 @@ VALUES (29336,   1,        128) /* ItemType - Misc */
      , (29336, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29336,  22, True ) /* Inscribable */;
+VALUES (29336,  22, True ) /* Inscribable */
+     , (29336,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29336,   1, 'Protection Orb') /* Name */

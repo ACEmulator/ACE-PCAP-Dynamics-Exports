@@ -19,7 +19,8 @@ VALUES (29209,   1,    4194304) /* ItemType - CraftCookingBase */
      , (29209, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29209,  22, True ) /* Inscribable */;
+VALUES (29209,  22, True ) /* Inscribable */
+     , (29209,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29209,   1, 'Incomplete Brewmaster''s Bible') /* Name */

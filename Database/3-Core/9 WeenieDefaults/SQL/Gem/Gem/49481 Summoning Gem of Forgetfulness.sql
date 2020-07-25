@@ -13,7 +13,8 @@ VALUES (49481,   1,       2048) /* ItemType - Gem */
      , (49481, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49481,  22, True ) /* Inscribable */;
+VALUES (49481,  22, True ) /* Inscribable */
+     , (49481,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49481,   1, 'Summoning Gem of Forgetfulness') /* Name */

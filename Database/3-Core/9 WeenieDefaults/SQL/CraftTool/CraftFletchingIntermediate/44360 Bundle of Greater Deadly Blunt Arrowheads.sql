@@ -18,7 +18,8 @@ VALUES (44360,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44360, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44360,  69, False) /* IsSellable */;
+VALUES (44360,  23, True ) /* DestroyOnSell */
+     , (44360,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44360,   1, 'Bundle of Greater Deadly Blunt Arrowheads') /* Name */

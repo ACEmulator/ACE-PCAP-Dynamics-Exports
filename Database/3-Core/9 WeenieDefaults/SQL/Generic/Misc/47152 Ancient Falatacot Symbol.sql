@@ -13,7 +13,8 @@ VALUES (47152,   1,        128) /* ItemType - Misc */
      , (47152, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (47152,  22, True ) /* Inscribable */;
+VALUES (47152,  22, True ) /* Inscribable */
+     , (47152,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (47152,   1, 'Ancient Falatacot Symbol') /* Name */

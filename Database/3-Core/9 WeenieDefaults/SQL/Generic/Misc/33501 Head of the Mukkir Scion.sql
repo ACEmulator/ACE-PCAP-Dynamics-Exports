@@ -13,7 +13,8 @@ VALUES (33501,   1,        128) /* ItemType - Misc */
      , (33501, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33501,  22, True ) /* Inscribable */;
+VALUES (33501,  22, True ) /* Inscribable */
+     , (33501,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33501,   1, 'Head of the Mukkir Scion') /* Name */

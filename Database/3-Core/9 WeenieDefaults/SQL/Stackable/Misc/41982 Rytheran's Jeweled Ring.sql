@@ -17,7 +17,8 @@ VALUES (41982,   1,        128) /* ItemType - Misc */
      , (41982, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41982,  69, False) /* IsSellable */;
+VALUES (41982,  23, True ) /* DestroyOnSell */
+     , (41982,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41982,   1, 'Rytheran''s Jeweled Ring') /* Name */

@@ -13,7 +13,8 @@ VALUES (43498,   1,       2048) /* ItemType - Gem */
      , (43498, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43498,  22, True ) /* Inscribable */;
+VALUES (43498,  22, True ) /* Inscribable */
+     , (43498,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43498,   1, 'Token of the Aura of Glory') /* Name */

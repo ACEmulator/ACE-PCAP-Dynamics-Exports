@@ -17,7 +17,8 @@ VALUES (12688,   1,       2048) /* ItemType - Gem */
      , (12688, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (12688,  22, True ) /* Inscribable */;
+VALUES (12688,  22, True ) /* Inscribable */
+     , (12688,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (12688,   1, 'Nuhmudira''s Token') /* Name */

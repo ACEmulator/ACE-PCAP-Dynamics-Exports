@@ -12,7 +12,8 @@ VALUES (48714,   1,        128) /* ItemType - Misc */
      , (48714, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48714,  22, True ) /* Inscribable */;
+VALUES (48714,  22, True ) /* Inscribable */
+     , (48714,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48714,   1, 'Blazing Shard') /* Name */

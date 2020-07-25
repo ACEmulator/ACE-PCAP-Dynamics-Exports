@@ -12,6 +12,9 @@ VALUES (12145,   1,        128) /* ItemType - Misc */
      , (12145,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12145, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (12145,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (12145,  39,     0.2) /* DefaultScale */
      , (12145,  54,       1) /* UseRadius */

@@ -32,7 +32,8 @@ VALUES (35297,   1,          1) /* ItemType - MeleeWeapon */
      , (35297, 353,          2) /* WeaponType - Sword */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35297,  69, False) /* IsSellable */;
+VALUES (35297,  23, True ) /* DestroyOnSell */
+     , (35297,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35297,   5,   -0.05) /* ManaRate */

@@ -19,7 +19,8 @@ VALUES (23855,   1,       2048) /* ItemType - Gem */
      , (23855, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23855,  22, True ) /* Inscribable */;
+VALUES (23855,  22, True ) /* Inscribable */
+     , (23855,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23855,   1, 'Charged Shard') /* Name */

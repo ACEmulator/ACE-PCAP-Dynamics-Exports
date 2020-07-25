@@ -16,6 +16,9 @@ VALUES (41563,   1,        128) /* ItemType - Misc */
      , (41563,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41563, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (41563,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41563,   1, 'Gear Knight Core Fragment') /* Name */
      , (41563,  14, 'Deliver this trophy to Agents near 33.4S 6.3E') /* Use */

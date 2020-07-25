@@ -13,7 +13,8 @@ VALUES (38082,   1,        128) /* ItemType - Misc */
      , (38082, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38082,  22, True ) /* Inscribable */;
+VALUES (38082,  22, True ) /* Inscribable */
+     , (38082,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38082,   1, 'Rytheran''s Mnemosyne') /* Name */

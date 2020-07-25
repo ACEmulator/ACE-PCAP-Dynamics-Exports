@@ -25,7 +25,8 @@ VALUES (33463,   1,      32768) /* ItemType - Caster */
      , (33463, 160,        140) /* WieldDifficulty */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33463,  22, True ) /* Inscribable */;
+VALUES (33463,  22, True ) /* Inscribable */
+     , (33463,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33463,  29,       1) /* WeaponDefense */

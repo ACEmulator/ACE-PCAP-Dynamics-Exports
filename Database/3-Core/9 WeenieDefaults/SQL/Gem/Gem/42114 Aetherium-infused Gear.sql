@@ -18,7 +18,8 @@ VALUES (42114,   1,       2048) /* ItemType - Gem */
      , (42114, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42114,  69, False) /* IsSellable */
+VALUES (42114,  23, True ) /* DestroyOnSell */
+     , (42114,  69, False) /* IsSellable */
      , (42114,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

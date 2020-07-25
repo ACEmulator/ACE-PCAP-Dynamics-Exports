@@ -16,6 +16,9 @@ VALUES (52797,   1,        128) /* ItemType - Misc */
      , (52797,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52797, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (52797,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52797,   1, 'Gauntlet Coin') /* Name */
      , (52797,  14, 'Use this coin to buy items from the Gauntlet Vendor.') /* Use */

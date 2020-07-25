@@ -13,7 +13,8 @@ VALUES (45733,   1,        128) /* ItemType - Misc */
      , (45733, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45733,  22, True ) /* Inscribable */;
+VALUES (45733,  22, True ) /* Inscribable */
+     , (45733,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45733,   1, 'Geraine''s Tome (6)') /* Name */

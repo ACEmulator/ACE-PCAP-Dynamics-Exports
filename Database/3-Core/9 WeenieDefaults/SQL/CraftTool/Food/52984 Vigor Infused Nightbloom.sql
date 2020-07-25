@@ -19,7 +19,8 @@ VALUES (52984,   1,         32) /* ItemType - Food */
      , (52984, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52984,  69, False) /* IsSellable */;
+VALUES (52984,  23, True ) /* DestroyOnSell */
+     , (52984,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52984,  39,     0.9) /* DefaultScale */;

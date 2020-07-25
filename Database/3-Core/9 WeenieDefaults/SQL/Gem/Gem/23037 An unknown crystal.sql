@@ -13,7 +13,8 @@ VALUES (23037,   1,       2048) /* ItemType - Gem */
      , (23037, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23037,  22, True ) /* Inscribable */;
+VALUES (23037,  22, True ) /* Inscribable */
+     , (23037,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23037,   1, 'An unknown crystal') /* Name */

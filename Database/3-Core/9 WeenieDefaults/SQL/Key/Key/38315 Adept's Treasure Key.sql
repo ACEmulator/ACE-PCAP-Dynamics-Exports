@@ -17,6 +17,7 @@ VALUES (38315,   1,      16384) /* ItemType - Key */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38315,  22, True ) /* Inscribable */
+     , (38315,  23, True ) /* DestroyOnSell */
      , (38315,  69, False) /* IsSellable */
      , (38315,  99, False) /* Ivoryable */;
 

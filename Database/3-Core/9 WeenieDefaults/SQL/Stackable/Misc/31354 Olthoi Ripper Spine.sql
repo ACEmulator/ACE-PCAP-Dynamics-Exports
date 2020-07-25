@@ -16,6 +16,9 @@ VALUES (31354,   1,        128) /* ItemType - Misc */
      , (31354,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31354, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31354,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31354,   1, 'Olthoi Ripper Spine') /* Name */
      , (31354,  16, 'A perfectly intact spine from an Olthoi Ripper.') /* LongDesc */;

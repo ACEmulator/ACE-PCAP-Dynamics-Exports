@@ -17,6 +17,9 @@ VALUES (33984,   1,        128) /* ItemType - Misc */
      , (33984,  94,        384) /* TargetType - Misc, MissileWeapon */
      , (33984, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (33984,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33984,   1, 'Fine Bone Handle') /* Name */
      , (33984,  14, 'Use this handle on a perfectly crafted Composite Bow or Composite Crossbow to upgrade it.') /* Use */

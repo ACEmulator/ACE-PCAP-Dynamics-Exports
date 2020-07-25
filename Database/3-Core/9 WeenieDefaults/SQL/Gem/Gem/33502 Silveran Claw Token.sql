@@ -13,7 +13,8 @@ VALUES (33502,   1,       2048) /* ItemType - Gem */
      , (33502, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33502,  22, True ) /* Inscribable */;
+VALUES (33502,  22, True ) /* Inscribable */
+     , (33502,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33502,   1, 'Silveran Claw Token') /* Name */

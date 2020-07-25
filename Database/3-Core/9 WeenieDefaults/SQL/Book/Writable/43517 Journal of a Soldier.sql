@@ -14,6 +14,9 @@ VALUES (43517,   1,       8192) /* ItemType - Writable */
      , (43517, 151,          2) /* HookType - Wall */
      , (43517, 279,          1) /* Unique */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43517,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43517,  54,     0.3) /* UseRadius */;
 

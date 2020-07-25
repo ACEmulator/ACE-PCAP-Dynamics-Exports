@@ -24,6 +24,7 @@ VALUES (25371,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (25371,  22, True ) /* Inscribable */
+     , (25371,  23, True ) /* DestroyOnSell */
      , (25371,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

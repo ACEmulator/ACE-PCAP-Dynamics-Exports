@@ -13,7 +13,8 @@ VALUES (45982,   1,        128) /* ItemType - Misc */
      , (45982, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45982,  22, True ) /* Inscribable */;
+VALUES (45982,  22, True ) /* Inscribable */
+     , (45982,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45982,   1, 'Seasoned Explorer Axe Cast') /* Name */

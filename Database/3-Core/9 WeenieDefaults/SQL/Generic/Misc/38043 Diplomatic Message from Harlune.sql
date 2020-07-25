@@ -13,7 +13,8 @@ VALUES (38043,   1,        128) /* ItemType - Misc */
      , (38043, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38043,  22, True ) /* Inscribable */;
+VALUES (38043,  22, True ) /* Inscribable */
+     , (38043,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38043,   1, 'Diplomatic Message from Harlune') /* Name */

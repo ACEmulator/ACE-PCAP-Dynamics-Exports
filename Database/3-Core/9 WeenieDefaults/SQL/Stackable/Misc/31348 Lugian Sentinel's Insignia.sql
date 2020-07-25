@@ -16,6 +16,9 @@ VALUES (31348,   1,        128) /* ItemType - Misc */
      , (31348,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31348, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31348,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31348,   1, 'Lugian Sentinel''s Insignia') /* Name */
      , (31348,  16, 'The insignia badge from a high ranking Tukora Sentinel. This Lugian must have been held in high regard to carry a trinket such as this.') /* LongDesc */;

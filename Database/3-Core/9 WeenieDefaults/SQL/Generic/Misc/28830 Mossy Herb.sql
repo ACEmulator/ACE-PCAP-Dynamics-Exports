@@ -13,7 +13,8 @@ VALUES (28830,   1,        128) /* ItemType - Misc */
      , (28830, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28830,  22, True ) /* Inscribable */;
+VALUES (28830,  22, True ) /* Inscribable */
+     , (28830,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28830,   1, 'Mossy Herb') /* Name */

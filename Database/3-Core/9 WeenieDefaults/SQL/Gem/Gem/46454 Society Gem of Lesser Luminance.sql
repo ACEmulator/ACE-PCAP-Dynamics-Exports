@@ -16,6 +16,9 @@ VALUES (46454,   1,       2048) /* ItemType - Gem */
      , (46454,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46454, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (46454,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46454,   1, 'Society Gem of Lesser Luminance') /* Name */
      , (46454,  14, 'Turn this gem into an Agent of the Arcanum to be granted 1,500 luminance.') /* Use */

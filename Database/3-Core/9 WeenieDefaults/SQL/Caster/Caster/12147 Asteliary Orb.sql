@@ -23,6 +23,7 @@ VALUES (12147,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (12147,  22, True ) /* Inscribable */
+     , (12147,  23, True ) /* DestroyOnSell */
      , (12147,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

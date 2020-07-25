@@ -13,7 +13,8 @@ VALUES (29066,   1,        128) /* ItemType - Misc */
      , (29066, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29066,  22, True ) /* Inscribable */;
+VALUES (29066,  22, True ) /* Inscribable */
+     , (29066,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29066,   1, 'Healing Machine Orb') /* Name */

@@ -16,7 +16,8 @@ VALUES (48772,   1,      16384) /* ItemType - Key */
      , (48772, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (48772,  22, True ) /* Inscribable */;
+VALUES (48772,  22, True ) /* Inscribable */
+     , (48772,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (48772,   1, 'Phainor''s Chamber Key') /* Name */

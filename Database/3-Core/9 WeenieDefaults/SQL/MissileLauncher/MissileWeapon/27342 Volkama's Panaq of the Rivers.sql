@@ -31,6 +31,7 @@ VALUES (27342,   1,        256) /* ItemType - MissileWeapon */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (27342,  22, True ) /* Inscribable */
+     , (27342,  23, True ) /* DestroyOnSell */
      , (27342,  69, False) /* IsSellable */
      , (27342,  99, True ) /* Ivoryable */;
 

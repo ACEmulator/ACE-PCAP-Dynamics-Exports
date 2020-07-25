@@ -21,6 +21,9 @@ VALUES (37517,   1,        128) /* ItemType - Misc */
      , (37517, 151,         11) /* HookType - Floor, Wall, Yard */
      , (37517, 280,          4) /* SharedCooldown */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37517,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (37517, 167,      30) /* CooldownDuration */;
 

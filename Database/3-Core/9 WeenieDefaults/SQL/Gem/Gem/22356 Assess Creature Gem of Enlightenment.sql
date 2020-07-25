@@ -13,7 +13,8 @@ VALUES (22356,   1,       2048) /* ItemType - Gem */
      , (22356, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22356,  22, True ) /* Inscribable */;
+VALUES (22356,  22, True ) /* Inscribable */
+     , (22356,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22356,   1, 'Assess Creature Gem of Enlightenment') /* Name */

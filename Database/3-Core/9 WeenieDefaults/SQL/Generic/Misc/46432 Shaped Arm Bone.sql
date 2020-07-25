@@ -16,7 +16,8 @@ VALUES (46432,   1,        128) /* ItemType - Misc */
      , (46432, 268,       7180) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46432,  22, True ) /* Inscribable */;
+VALUES (46432,  22, True ) /* Inscribable */
+     , (46432,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46432,   1, 'Shaped Arm Bone') /* Name */

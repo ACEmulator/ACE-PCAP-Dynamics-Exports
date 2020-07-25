@@ -16,6 +16,9 @@ VALUES (43491,   1,        128) /* ItemType - Misc */
      , (43491,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43491, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (43491,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43491,   1, 'Pitted Slag') /* Name */
      , (43491,  14, 'Use this slag to show your triumph over your enemies in exchange for goods.') /* Use */

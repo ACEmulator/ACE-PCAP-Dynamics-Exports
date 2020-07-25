@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41475,   3, 2000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41475,  22, True ) /* Inscribable */;
+VALUES (41475,  22, True ) /* Inscribable */
+     , (41475,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41475,   1, 'Infused War Magic') /* Name */

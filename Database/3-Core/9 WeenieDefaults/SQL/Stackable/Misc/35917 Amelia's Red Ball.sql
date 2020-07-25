@@ -20,7 +20,8 @@ VALUES (35917,   1,        128) /* ItemType - Misc */
      , (35917, 268,       3600) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35917,  69, False) /* IsSellable */;
+VALUES (35917,  23, True ) /* DestroyOnSell */
+     , (35917,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35917,   1, 'Amelia''s Red Ball') /* Name */

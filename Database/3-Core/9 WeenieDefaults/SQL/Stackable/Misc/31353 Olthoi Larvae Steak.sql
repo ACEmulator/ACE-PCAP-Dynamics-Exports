@@ -16,6 +16,9 @@ VALUES (31353,   1,        128) /* ItemType - Misc */
      , (31353,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31353, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31353,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31353,   1, 'Olthoi Larvae Steak') /* Name */
      , (31353,  16, 'A choice cut of meat from a young Olthoi Larvae. Although the toxins in this meat have made it inedible, it may still have some value to a collector.') /* LongDesc */;

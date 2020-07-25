@@ -14,7 +14,8 @@ VALUES (31381,   1,       2048) /* ItemType - Gem */
      , (31381, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31381,  22, True ) /* Inscribable */;
+VALUES (31381,  22, True ) /* Inscribable */
+     , (31381,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31381,   1, 'Vestibule Lock') /* Name */

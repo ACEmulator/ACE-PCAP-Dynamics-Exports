@@ -17,7 +17,8 @@ VALUES (41932,   1,        128) /* ItemType - Misc */
      , (41932, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41932,  69, False) /* IsSellable */;
+VALUES (41932,  23, True ) /* DestroyOnSell */
+     , (41932,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41932,   1, 'Lord Hendrel''s Brand') /* Name */

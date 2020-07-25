@@ -13,7 +13,8 @@ VALUES (34945,   1,       1024) /* ItemType - Useless */
      , (34945, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34945,  22, True ) /* Inscribable */;
+VALUES (34945,  22, True ) /* Inscribable */
+     , (34945,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34945,   1, 'Empyrean Golem Stone') /* Name */

@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (41481,   3, 4000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41481,  22, True ) /* Inscribable */;
+VALUES (41481,  22, True ) /* Inscribable */
+     , (41481,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41481,   1, 'Hand of the Remorseless') /* Name */

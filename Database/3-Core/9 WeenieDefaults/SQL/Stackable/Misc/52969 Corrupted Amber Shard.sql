@@ -17,7 +17,8 @@ VALUES (52969,   1,        128) /* ItemType - Misc */
      , (52969, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52969,  69, False) /* IsSellable */;
+VALUES (52969,  23, True ) /* DestroyOnSell */
+     , (52969,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52969,   1, 'Corrupted Amber Shard') /* Name */

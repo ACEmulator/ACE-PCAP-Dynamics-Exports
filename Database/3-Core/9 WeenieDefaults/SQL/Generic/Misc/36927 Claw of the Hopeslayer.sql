@@ -13,7 +13,8 @@ VALUES (36927,   1,        128) /* ItemType - Misc */
      , (36927, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36927,  22, True ) /* Inscribable */;
+VALUES (36927,  22, True ) /* Inscribable */
+     , (36927,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36927,   1, 'Claw of the Hopeslayer') /* Name */

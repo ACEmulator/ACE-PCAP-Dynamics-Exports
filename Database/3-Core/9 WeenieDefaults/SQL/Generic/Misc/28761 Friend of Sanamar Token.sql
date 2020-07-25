@@ -13,7 +13,8 @@ VALUES (28761,   1,        128) /* ItemType - Misc */
      , (28761, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28761,  22, True ) /* Inscribable */;
+VALUES (28761,  22, True ) /* Inscribable */
+     , (28761,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28761,   1, 'Friend of Sanamar Token') /* Name */

@@ -17,6 +17,9 @@ VALUES (38714,   1,        128) /* ItemType - Misc */
      , (38714, 114,          1) /* Attuned - Attuned */
      , (38714, 151,          2) /* HookType - Wall */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38714,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38714,   1, 'Pyre Skeleton Jaw') /* Name */
      , (38714,  16, 'The jawbone of an enchanted skeleton.  Its magical emanations are unique to the creatures of the Empyrean Graveyard.') /* LongDesc */;

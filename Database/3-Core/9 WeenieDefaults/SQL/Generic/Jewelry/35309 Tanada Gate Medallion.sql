@@ -14,7 +14,8 @@ VALUES (35309,   1,          8) /* ItemType - Jewelry */
      , (35309, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35309,  22, True ) /* Inscribable */;
+VALUES (35309,  22, True ) /* Inscribable */
+     , (35309,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (35309,  39,     0.5) /* DefaultScale */;

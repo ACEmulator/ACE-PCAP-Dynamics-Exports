@@ -13,7 +13,8 @@ VALUES (28818,   1,       8192) /* ItemType - Writable */
      , (28818, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28818,  22, True ) /* Inscribable */;
+VALUES (28818,  22, True ) /* Inscribable */
+     , (28818,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28818,  54,       1) /* UseRadius */;

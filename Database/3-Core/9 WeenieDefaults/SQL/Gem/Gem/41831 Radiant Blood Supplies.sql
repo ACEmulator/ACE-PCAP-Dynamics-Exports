@@ -15,7 +15,8 @@ VALUES (41831,   1,       2048) /* ItemType - Gem */
      , (41831, 279,          1) /* Unique */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41831,  22, True ) /* Inscribable */;
+VALUES (41831,  22, True ) /* Inscribable */
+     , (41831,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (41831,  39,    0.33) /* DefaultScale */;

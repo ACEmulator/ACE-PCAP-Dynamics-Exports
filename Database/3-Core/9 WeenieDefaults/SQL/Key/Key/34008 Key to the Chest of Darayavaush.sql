@@ -16,7 +16,8 @@ VALUES (34008,   1,      16384) /* ItemType - Key */
      , (34008, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34008,  22, True ) /* Inscribable */;
+VALUES (34008,  22, True ) /* Inscribable */
+     , (34008,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34008,   1, 'Key to the Chest of Darayavaush') /* Name */

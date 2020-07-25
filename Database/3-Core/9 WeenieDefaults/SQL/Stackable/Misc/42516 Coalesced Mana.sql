@@ -17,7 +17,8 @@ VALUES (42516,   1,        128) /* ItemType - Misc */
      , (42516, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42516,  69, False) /* IsSellable */;
+VALUES (42516,  23, True ) /* DestroyOnSell */
+     , (42516,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42516,  39,     0.3) /* DefaultScale */;

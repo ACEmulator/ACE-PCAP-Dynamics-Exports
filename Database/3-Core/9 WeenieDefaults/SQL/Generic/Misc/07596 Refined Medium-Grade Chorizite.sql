@@ -13,7 +13,8 @@ VALUES (7596,   1,        128) /* ItemType - Misc */
      , (7596, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7596,  22, True ) /* Inscribable */;
+VALUES (7596,  22, True ) /* Inscribable */
+     , (7596,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7596,   1, 'Refined Medium-Grade Chorizite') /* Name */
