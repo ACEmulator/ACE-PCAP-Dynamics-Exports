@@ -17,7 +17,8 @@ VALUES (45491,   1,        128) /* ItemType - Misc */
      , (45491, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45491,  69, False) /* IsSellable */;
+VALUES (45491,  23, True ) /* DestroyOnSell */
+     , (45491,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45491,   1, 'Quest Weapon Coin') /* Name */

@@ -14,7 +14,8 @@ VALUES (25798,   1,        128) /* ItemType - Misc */
      , (25798, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25798,  22, True ) /* Inscribable */;
+VALUES (25798,  22, True ) /* Inscribable */
+     , (25798,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25798,   1, 'Scold''s Heart') /* Name */

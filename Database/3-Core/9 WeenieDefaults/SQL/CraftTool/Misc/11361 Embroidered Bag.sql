@@ -18,7 +18,8 @@ VALUES (11361,   1,        128) /* ItemType - Misc */
      , (11361, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11361,  22, True ) /* Inscribable */;
+VALUES (11361,  22, True ) /* Inscribable */
+     , (11361,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11361,   1, 'Embroidered Bag') /* Name */

@@ -13,7 +13,8 @@ VALUES (9102,   1,        128) /* ItemType - Misc */
      , (9102, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9102,  22, True ) /* Inscribable */;
+VALUES (9102,  22, True ) /* Inscribable */
+     , (9102,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9102,   1, 'Another Boot') /* Name */

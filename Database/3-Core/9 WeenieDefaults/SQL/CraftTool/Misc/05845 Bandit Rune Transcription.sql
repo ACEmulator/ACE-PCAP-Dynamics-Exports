@@ -18,7 +18,8 @@ VALUES (5845,   1,        128) /* ItemType - Misc */
      , (5845, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5845,  22, True ) /* Inscribable */;
+VALUES (5845,  22, True ) /* Inscribable */
+     , (5845,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5845,   1, 'Bandit Rune Transcription') /* Name */

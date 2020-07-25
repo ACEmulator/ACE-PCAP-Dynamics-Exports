@@ -17,7 +17,8 @@ VALUES (5186,   1,       2048) /* ItemType - Gem */
      , (5186, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5186,  22, True ) /* Inscribable */;
+VALUES (5186,  22, True ) /* Inscribable */
+     , (5186,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5186,   1, 'Bai Den''s Gem') /* Name */

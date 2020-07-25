@@ -13,7 +13,8 @@ VALUES (27900,   1,        128) /* ItemType - Misc */
      , (27900, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27900,  22, True ) /* Inscribable */;
+VALUES (27900,  22, True ) /* Inscribable */
+     , (27900,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27900,   1, 'Mire Witch Loincloth') /* Name */

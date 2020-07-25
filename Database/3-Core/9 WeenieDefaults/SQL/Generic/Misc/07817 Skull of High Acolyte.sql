@@ -13,7 +13,8 @@ VALUES (7817,   1,        128) /* ItemType - Misc */
      , (7817, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7817,  22, True ) /* Inscribable */;
+VALUES (7817,  22, True ) /* Inscribable */
+     , (7817,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7817,   1, 'Skull of High Acolyte') /* Name */

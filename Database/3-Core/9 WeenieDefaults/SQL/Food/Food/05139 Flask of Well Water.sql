@@ -19,7 +19,8 @@ VALUES (5139,   1,         32) /* ItemType - Food */
      , (5139, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5139,  22, True ) /* Inscribable */;
+VALUES (5139,  22, True ) /* Inscribable */
+     , (5139,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5139,   1, 'Flask of Well Water') /* Name */

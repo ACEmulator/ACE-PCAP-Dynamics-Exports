@@ -21,7 +21,8 @@ VALUES (5027,   1,          1) /* ItemType - MeleeWeapon */
      , (5027, 353,          3) /* WeaponType - Axe */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5027,  22, True ) /* Inscribable */;
+VALUES (5027,  22, True ) /* Inscribable */
+     , (5027,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (5027,  21,       0) /* WeaponLength */

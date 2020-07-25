@@ -13,7 +13,8 @@ VALUES (29335,   1,        128) /* ItemType - Misc */
      , (29335, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29335,  22, True ) /* Inscribable */;
+VALUES (29335,  22, True ) /* Inscribable */
+     , (29335,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29335,   1, 'Academy Exit Token') /* Name */

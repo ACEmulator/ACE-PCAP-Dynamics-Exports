@@ -16,7 +16,8 @@ VALUES (24182,   1,      16384) /* ItemType - Key */
      , (24182, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24182,  22, True ) /* Inscribable */;
+VALUES (24182,  22, True ) /* Inscribable */
+     , (24182,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24182,   1, 'Key to Jaleh''s Chest') /* Name */

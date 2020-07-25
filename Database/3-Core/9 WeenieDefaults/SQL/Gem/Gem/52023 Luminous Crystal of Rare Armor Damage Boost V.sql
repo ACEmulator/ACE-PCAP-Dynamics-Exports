@@ -24,7 +24,8 @@ VALUES (52023,   1,       2048) /* ItemType - Gem */
      , (52023, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52023,  69, False) /* IsSellable */;
+VALUES (52023,  23, True ) /* DestroyOnSell */
+     , (52023,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52023,   1, 'Luminous Crystal of Rare Armor Damage Boost V') /* Name */

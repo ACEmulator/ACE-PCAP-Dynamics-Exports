@@ -18,7 +18,8 @@ VALUES (7469,   1,       2048) /* ItemType - Gem */
      , (7469, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7469,  22, True ) /* Inscribable */;
+VALUES (7469,  22, True ) /* Inscribable */
+     , (7469,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7469,   1, 'Black Fire Atlan Stone') /* Name */

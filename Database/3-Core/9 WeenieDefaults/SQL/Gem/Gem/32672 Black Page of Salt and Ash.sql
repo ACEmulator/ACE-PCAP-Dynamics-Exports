@@ -24,6 +24,9 @@ VALUES (32672,   1,       2048) /* ItemType - Gem */
      , (32672, 114,          1) /* Attuned - Attuned */
      , (32672, 151,          2) /* HookType - Wall */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (32672,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32672,   1, 'Black Page of Salt and Ash') /* Name */
      , (32672,  14, 'Use this page to infuse your wielded weapon with the Invocation of the Black Book, adding a 10% bonus to its Attack modifier.  This spell stacks with other spells and cantrips.') /* Use */

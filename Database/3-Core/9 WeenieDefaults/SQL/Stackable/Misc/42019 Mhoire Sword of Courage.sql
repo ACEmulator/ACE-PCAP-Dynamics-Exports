@@ -20,7 +20,8 @@ VALUES (42019,   1,        128) /* ItemType - Misc */
      , (42019, 268,        300) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42019,  69, False) /* IsSellable */;
+VALUES (42019,  23, True ) /* DestroyOnSell */
+     , (42019,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42019,   1, 'Mhoire Sword of Courage') /* Name */

@@ -13,7 +13,8 @@ VALUES (22888,   1,       2048) /* ItemType - Gem */
      , (22888, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22888,  22, True ) /* Inscribable */;
+VALUES (22888,  22, True ) /* Inscribable */
+     , (22888,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22888,   1, 'Chrysoberyl compound') /* Name */

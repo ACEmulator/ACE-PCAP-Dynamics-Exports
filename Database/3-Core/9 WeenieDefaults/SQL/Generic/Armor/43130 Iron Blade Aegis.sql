@@ -15,7 +15,8 @@ VALUES (43130,   1,          2) /* ItemType - Armor */
      , (43130, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43130,  69, False) /* IsSellable */
+VALUES (43130,  23, True ) /* DestroyOnSell */
+     , (43130,  69, False) /* IsSellable */
      , (43130,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

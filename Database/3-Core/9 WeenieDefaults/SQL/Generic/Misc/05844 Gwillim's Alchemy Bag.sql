@@ -12,7 +12,8 @@ VALUES (5844,   1,        128) /* ItemType - Misc */
      , (5844, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5844,  22, True ) /* Inscribable */;
+VALUES (5844,  22, True ) /* Inscribable */
+     , (5844,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5844,   1, 'Gwillim''s Alchemy Bag') /* Name */

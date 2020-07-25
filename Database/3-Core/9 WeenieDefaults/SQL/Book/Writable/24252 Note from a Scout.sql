@@ -12,6 +12,9 @@ VALUES (24252,   1,       8192) /* ItemType - Writable */
      , (24252,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (24252, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (24252,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24252,  54,       1) /* UseRadius */;
 

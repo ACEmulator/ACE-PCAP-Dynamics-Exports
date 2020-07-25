@@ -17,7 +17,8 @@ VALUES (45151,   1,        128) /* ItemType - Misc */
      , (45151, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (45151,  69, False) /* IsSellable */;
+VALUES (45151,  23, True ) /* DestroyOnSell */
+     , (45151,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (45151,   1, 'Mhoire Oubliette Portal Glyph') /* Name */

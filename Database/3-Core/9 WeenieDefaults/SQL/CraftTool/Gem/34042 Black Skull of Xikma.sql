@@ -19,7 +19,8 @@ VALUES (34042,   1,       2048) /* ItemType - Gem */
      , (34042, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34042,  69, False) /* IsSellable */;
+VALUES (34042,  23, True ) /* DestroyOnSell */
+     , (34042,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34042,   1, 'Black Skull of Xikma') /* Name */

@@ -18,7 +18,8 @@ VALUES (43261,   1,       2048) /* ItemType - Gem */
      , (43261, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43261,  22, True ) /* Inscribable */;
+VALUES (43261,  22, True ) /* Inscribable */
+     , (43261,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43261,   1, 'Dark Apostate Shard') /* Name */

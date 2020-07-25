@@ -13,7 +13,8 @@ VALUES (53406,   1,        128) /* ItemType - Misc */
      , (53406, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53406,  69, False) /* IsSellable */;
+VALUES (53406,  23, True ) /* DestroyOnSell */
+     , (53406,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53406,   1, 'Ring Spells Certificate') /* Name */

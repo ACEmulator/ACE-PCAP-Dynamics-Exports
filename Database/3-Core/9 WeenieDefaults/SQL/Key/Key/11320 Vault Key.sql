@@ -16,7 +16,8 @@ VALUES (11320,   1,      16384) /* ItemType - Key */
      , (11320, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11320,  22, True ) /* Inscribable */;
+VALUES (11320,  22, True ) /* Inscribable */
+     , (11320,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11320,   1, 'Vault Key') /* Name */

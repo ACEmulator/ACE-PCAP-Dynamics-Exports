@@ -13,7 +13,8 @@ VALUES (30399,   1,        128) /* ItemType - Misc */
      , (30399, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30399,  22, True ) /* Inscribable */;
+VALUES (30399,  22, True ) /* Inscribable */
+     , (30399,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30399,   1, 'Suzuhara Baijin''s Care Package') /* Name */

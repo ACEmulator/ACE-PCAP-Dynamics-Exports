@@ -13,7 +13,8 @@ VALUES (37090,   1,        128) /* ItemType - Misc */
      , (37090, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37090,  22, True ) /* Inscribable */;
+VALUES (37090,  22, True ) /* Inscribable */
+     , (37090,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37090,   1, 'Raider Captain''s Resonator') /* Name */

@@ -16,7 +16,8 @@ INSERT INTO `weenie_properties_int64` (`object_Id`, `type`, `value`)
 VALUES (29268,   3, 1000000000) /* AugmentationCost */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29268,  22, True ) /* Inscribable */;
+VALUES (29268,  22, True ) /* Inscribable */
+     , (29268,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29268,   1, 'Might of the Seventh Mule') /* Name */

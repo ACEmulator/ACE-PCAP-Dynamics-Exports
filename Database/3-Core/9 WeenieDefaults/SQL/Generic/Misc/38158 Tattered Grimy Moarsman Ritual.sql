@@ -13,7 +13,8 @@ VALUES (38158,   1,        128) /* ItemType - Misc */
      , (38158, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38158,  22, True ) /* Inscribable */;
+VALUES (38158,  22, True ) /* Inscribable */
+     , (38158,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38158,   1, 'Tattered Grimy Moarsman Ritual') /* Name */

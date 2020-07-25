@@ -16,7 +16,8 @@ VALUES (14511,   1,      16384) /* ItemType - Key */
      , (14511, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14511,  22, True ) /* Inscribable */;
+VALUES (14511,  22, True ) /* Inscribable */
+     , (14511,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14511,   1, 'Hammer of Lightning') /* Name */

@@ -13,7 +13,8 @@ VALUES (46415,   1,        128) /* ItemType - Misc */
      , (46415, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46415,  69, False) /* IsSellable */;
+VALUES (46415,  23, True ) /* DestroyOnSell */
+     , (46415,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46415,   1, 'Experience Certificate') /* Name */

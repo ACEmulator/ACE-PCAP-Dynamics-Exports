@@ -13,7 +13,8 @@ VALUES (22889,   1,       2048) /* ItemType - Gem */
      , (22889, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22889,  22, True ) /* Inscribable */;
+VALUES (22889,  22, True ) /* Inscribable */
+     , (22889,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22889,   1, 'Iolite Gem') /* Name */

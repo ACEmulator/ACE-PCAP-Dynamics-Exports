@@ -18,7 +18,8 @@ VALUES (46348,   1,        128) /* ItemType - Misc */
      , (46348, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46348,  22, True ) /* Inscribable */;
+VALUES (46348,  22, True ) /* Inscribable */
+     , (46348,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46348,   1, 'Torn Strip of Parchment') /* Name */

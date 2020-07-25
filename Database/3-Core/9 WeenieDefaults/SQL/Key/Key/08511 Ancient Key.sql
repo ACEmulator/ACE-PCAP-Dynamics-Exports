@@ -15,7 +15,8 @@ VALUES (8511,   1,      16384) /* ItemType - Key */
      , (8511, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8511,  22, True ) /* Inscribable */;
+VALUES (8511,  22, True ) /* Inscribable */
+     , (8511,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8511,   1, 'Ancient Key') /* Name */

@@ -18,7 +18,8 @@ VALUES (5846,   1,        128) /* ItemType - Misc */
      , (5846, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5846,  22, True ) /* Inscribable */;
+VALUES (5846,  22, True ) /* Inscribable */
+     , (5846,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5846,   1, 'Stonehold Rune Transcription') /* Name */

@@ -13,7 +13,8 @@ VALUES (14424,   1,        128) /* ItemType - Misc */
      , (14424, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (14424,  22, True ) /* Inscribable */;
+VALUES (14424,  22, True ) /* Inscribable */
+     , (14424,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (14424,   1, 'Glass Spherule') /* Name */

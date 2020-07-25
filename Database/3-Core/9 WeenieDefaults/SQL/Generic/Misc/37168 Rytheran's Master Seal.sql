@@ -13,7 +13,8 @@ VALUES (37168,   1,        128) /* ItemType - Misc */
      , (37168, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37168,  22, True ) /* Inscribable */;
+VALUES (37168,  22, True ) /* Inscribable */
+     , (37168,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37168,   1, 'Rytheran''s Master Seal') /* Name */

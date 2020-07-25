@@ -18,7 +18,8 @@ VALUES (31379,   1,       2048) /* ItemType - Gem */
      , (31379, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31379,  22, True ) /* Inscribable */;
+VALUES (31379,  22, True ) /* Inscribable */
+     , (31379,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31379,   1, 'Combined Artifact Fragment') /* Name */

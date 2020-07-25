@@ -24,7 +24,8 @@ VALUES (43478,   1,       2048) /* ItemType - Gem */
      , (43478, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43478,  69, False) /* IsSellable */;
+VALUES (43478,  23, True ) /* DestroyOnSell */
+     , (43478,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43478,   1, 'Luminous Crystal of Vitality') /* Name */

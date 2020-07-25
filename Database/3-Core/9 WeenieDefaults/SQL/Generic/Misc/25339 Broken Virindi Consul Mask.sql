@@ -13,7 +13,8 @@ VALUES (25339,   1,        128) /* ItemType - Misc */
      , (25339, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25339,  22, True ) /* Inscribable */;
+VALUES (25339,  22, True ) /* Inscribable */
+     , (25339,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25339,   1, 'Broken Virindi Consul Mask') /* Name */

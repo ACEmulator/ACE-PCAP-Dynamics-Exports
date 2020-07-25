@@ -26,6 +26,7 @@ VALUES (51989,   1,      32768) /* ItemType - Caster */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51989,  22, True ) /* Inscribable */
+     , (51989,  23, True ) /* DestroyOnSell */
      , (51989,  69, False) /* IsSellable */
      , (51989,  99, True ) /* Ivoryable */;
 

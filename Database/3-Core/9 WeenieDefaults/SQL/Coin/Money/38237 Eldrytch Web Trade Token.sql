@@ -17,7 +17,8 @@ VALUES (38237,   1,         64) /* ItemType - Money */
      , (38237, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38237,  69, False) /* IsSellable */;
+VALUES (38237,  23, True ) /* DestroyOnSell */
+     , (38237,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38237,   1, 'Eldrytch Web Trade Token') /* Name */

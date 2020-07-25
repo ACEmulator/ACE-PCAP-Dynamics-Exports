@@ -16,7 +16,8 @@ VALUES (39012,   1,      16384) /* ItemType - Key */
      , (39012, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (39012,  22, True ) /* Inscribable */;
+VALUES (39012,  22, True ) /* Inscribable */
+     , (39012,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39012,   1, 'Grimy Sea Invasion Key') /* Name */

@@ -17,7 +17,8 @@ VALUES (38236,   1,         64) /* ItemType - Money */
      , (38236, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38236,  69, False) /* IsSellable */;
+VALUES (38236,  23, True ) /* DestroyOnSell */
+     , (38236,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38236,   1, 'Radiant Blood Trade Token') /* Name */

@@ -18,7 +18,8 @@ VALUES (8909,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (8909, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8909,  22, True ) /* Inscribable */;
+VALUES (8909,  22, True ) /* Inscribable */
+     , (8909,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (8909,  39,     0.7) /* DefaultScale */;

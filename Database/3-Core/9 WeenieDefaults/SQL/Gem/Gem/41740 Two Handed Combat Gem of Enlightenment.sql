@@ -13,7 +13,8 @@ VALUES (41740,   1,       2048) /* ItemType - Gem */
      , (41740, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41740,  22, True ) /* Inscribable */;
+VALUES (41740,  22, True ) /* Inscribable */
+     , (41740,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41740,   1, 'Two Handed Combat Gem of Enlightenment') /* Name */

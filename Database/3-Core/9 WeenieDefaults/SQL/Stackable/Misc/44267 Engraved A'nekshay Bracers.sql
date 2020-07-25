@@ -17,7 +17,8 @@ VALUES (44267,   1,        128) /* ItemType - Misc */
      , (44267, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44267,  69, False) /* IsSellable */;
+VALUES (44267,  23, True ) /* DestroyOnSell */
+     , (44267,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44267,   1, 'Engraved A''nekshay Bracers') /* Name */

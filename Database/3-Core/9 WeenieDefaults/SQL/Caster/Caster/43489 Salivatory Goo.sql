@@ -18,7 +18,8 @@ VALUES (43489,   1,      32768) /* ItemType - Caster */
      , (43489, 324,         13) /* HeritageSpecificArmor */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43489,  22, True ) /* Inscribable */;
+VALUES (43489,  22, True ) /* Inscribable */
+     , (43489,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43489,  29,       1) /* WeaponDefense */

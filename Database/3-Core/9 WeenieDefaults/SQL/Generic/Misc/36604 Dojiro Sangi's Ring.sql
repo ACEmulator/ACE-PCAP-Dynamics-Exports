@@ -13,7 +13,8 @@ VALUES (36604,   1,        128) /* ItemType - Misc */
      , (36604, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36604,  22, True ) /* Inscribable */;
+VALUES (36604,  22, True ) /* Inscribable */
+     , (36604,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36604,   1, 'Dojiro Sangi''s Ring') /* Name */

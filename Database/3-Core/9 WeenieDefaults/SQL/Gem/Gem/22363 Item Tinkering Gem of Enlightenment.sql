@@ -13,7 +13,8 @@ VALUES (22363,   1,       2048) /* ItemType - Gem */
      , (22363, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22363,  22, True ) /* Inscribable */;
+VALUES (22363,  22, True ) /* Inscribable */
+     , (22363,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22363,   1, 'Item Tinkering Gem of Enlightenment') /* Name */

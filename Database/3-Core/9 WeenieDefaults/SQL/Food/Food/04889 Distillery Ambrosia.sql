@@ -19,7 +19,8 @@ VALUES (4889,   1,         32) /* ItemType - Food */
      , (4889, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (4889,  22, True ) /* Inscribable */;
+VALUES (4889,  22, True ) /* Inscribable */
+     , (4889,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (4889,   1, 'Distillery Ambrosia') /* Name */

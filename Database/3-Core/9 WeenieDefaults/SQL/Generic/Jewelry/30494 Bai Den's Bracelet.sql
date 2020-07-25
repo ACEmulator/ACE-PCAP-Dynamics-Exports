@@ -14,7 +14,8 @@ VALUES (30494,   1,          8) /* ItemType - Jewelry */
      , (30494, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30494,  22, True ) /* Inscribable */;
+VALUES (30494,  22, True ) /* Inscribable */
+     , (30494,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30494,   1, 'Bai Den''s Bracelet') /* Name */

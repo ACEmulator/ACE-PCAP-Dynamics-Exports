@@ -30,7 +30,8 @@ VALUES (42932,   1,          1) /* ItemType - MeleeWeapon */
      , (42932, 353,         11) /* WeaponType - TwoHanded */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42932,  22, True ) /* Inscribable */;
+VALUES (42932,  22, True ) /* Inscribable */
+     , (42932,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42932,   5,   -0.05) /* ManaRate */

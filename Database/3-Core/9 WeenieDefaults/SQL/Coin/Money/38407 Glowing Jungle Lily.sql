@@ -18,7 +18,8 @@ VALUES (38407,   1,         64) /* ItemType - Money */
      , (38407, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38407,  69, False) /* IsSellable */
+VALUES (38407,  23, True ) /* DestroyOnSell */
+     , (38407,  69, False) /* IsSellable */
      , (38407,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

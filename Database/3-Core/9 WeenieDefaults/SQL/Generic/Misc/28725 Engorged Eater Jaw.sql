@@ -13,7 +13,8 @@ VALUES (28725,   1,        128) /* ItemType - Misc */
      , (28725, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28725,  22, True ) /* Inscribable */;
+VALUES (28725,  22, True ) /* Inscribable */
+     , (28725,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28725,   1, 'Engorged Eater Jaw') /* Name */

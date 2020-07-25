@@ -13,7 +13,8 @@ VALUES (43895,   1,        128) /* ItemType - Misc */
      , (43895, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43895,  22, True ) /* Inscribable */;
+VALUES (43895,  22, True ) /* Inscribable */
+     , (43895,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43895,   1, 'Strange Purple Crystal from The Shadows') /* Name */

@@ -18,7 +18,8 @@ VALUES (9076,   1,        128) /* ItemType - Misc */
      , (9076, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (9076,  22, True ) /* Inscribable */;
+VALUES (9076,  22, True ) /* Inscribable */
+     , (9076,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (9076,   1, 'Sea Blue Kindling Stone') /* Name */

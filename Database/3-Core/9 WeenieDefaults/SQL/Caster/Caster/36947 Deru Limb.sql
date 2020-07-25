@@ -22,7 +22,8 @@ VALUES (36947,   1,      32768) /* ItemType - Caster */
      , (36947, 179,        512) /* ImbuedEffect - FireRending */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36947,  22, True ) /* Inscribable */;
+VALUES (36947,  22, True ) /* Inscribable */
+     , (36947,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (36947,   5,  -0.033) /* ManaRate */

@@ -13,7 +13,8 @@ VALUES (41713,   1,       2048) /* ItemType - Gem */
      , (41713, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41713,  22, True ) /* Inscribable */;
+VALUES (41713,  22, True ) /* Inscribable */
+     , (41713,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41713,   1, 'Whispering Blade Token') /* Name */

@@ -16,6 +16,9 @@ VALUES (38438,   1,        128) /* ItemType - Misc */
      , (38438,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38438, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38438,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38438,   1, 'Giant Jungle Phyntos Wasp Stinger') /* Name */
      , (38438,  16, 'A perfectly intact stinger from a Giant Jungle Phyntos Wasp.') /* LongDesc */;

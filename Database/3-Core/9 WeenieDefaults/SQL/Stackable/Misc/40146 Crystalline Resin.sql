@@ -21,6 +21,7 @@ VALUES (40146,   1,        128) /* ItemType - Misc */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40146,   1, True ) /* Stuck */
+     , (40146,  23, True ) /* DestroyOnSell */
      , (40146,  24, True ) /* UiHidden */
      , (40146,  69, False) /* IsSellable */;
 

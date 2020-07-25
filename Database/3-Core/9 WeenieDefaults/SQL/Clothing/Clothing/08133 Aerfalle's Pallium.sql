@@ -24,6 +24,7 @@ VALUES (8133,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (8133,  22, True ) /* Inscribable */
+     , (8133,  23, True ) /* DestroyOnSell */
      , (8133,  99, True ) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

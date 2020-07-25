@@ -16,7 +16,8 @@ VALUES (35403,   1,      16384) /* ItemType - Key */
      , (35403, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35403,  22, True ) /* Inscribable */;
+VALUES (35403,  22, True ) /* Inscribable */
+     , (35403,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35403,   1, 'Lady Tairla Mhoire''s Key') /* Name */

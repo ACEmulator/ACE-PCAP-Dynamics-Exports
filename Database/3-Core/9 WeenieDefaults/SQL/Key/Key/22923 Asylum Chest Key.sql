@@ -17,7 +17,8 @@ VALUES (22923,   1,      16384) /* ItemType - Key */
      , (22923, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22923,  22, True ) /* Inscribable */;
+VALUES (22923,  22, True ) /* Inscribable */
+     , (22923,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22923,   1, 'Asylum Chest Key') /* Name */

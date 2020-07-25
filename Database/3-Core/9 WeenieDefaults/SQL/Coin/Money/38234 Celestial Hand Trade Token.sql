@@ -17,7 +17,8 @@ VALUES (38234,   1,         64) /* ItemType - Money */
      , (38234, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38234,  69, False) /* IsSellable */;
+VALUES (38234,  23, True ) /* DestroyOnSell */
+     , (38234,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38234,   1, 'Celestial Hand Trade Token') /* Name */

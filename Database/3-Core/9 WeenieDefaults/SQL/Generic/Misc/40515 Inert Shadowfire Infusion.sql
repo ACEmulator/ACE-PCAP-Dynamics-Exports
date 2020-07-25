@@ -13,7 +13,8 @@ VALUES (40515,   1,        128) /* ItemType - Misc */
      , (40515, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40515,  22, True ) /* Inscribable */;
+VALUES (40515,  22, True ) /* Inscribable */
+     , (40515,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40515,   1, 'Inert Shadowfire Infusion') /* Name */

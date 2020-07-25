@@ -21,7 +21,8 @@ VALUES (44964,   1,        128) /* ItemType - Misc */
      , (44964, 268,        900) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44964,  22, True ) /* Inscribable */;
+VALUES (44964,  22, True ) /* Inscribable */
+     , (44964,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44964,   1, 'Volatile Gem of Lowering Quickness') /* Name */

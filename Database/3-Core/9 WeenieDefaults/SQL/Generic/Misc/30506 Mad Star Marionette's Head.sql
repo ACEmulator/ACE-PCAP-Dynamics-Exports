@@ -13,7 +13,8 @@ VALUES (30506,   1,        128) /* ItemType - Misc */
      , (30506, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (30506,  22, True ) /* Inscribable */;
+VALUES (30506,  22, True ) /* Inscribable */
+     , (30506,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (30506,   1, 'Mad Star Marionette''s Head') /* Name */

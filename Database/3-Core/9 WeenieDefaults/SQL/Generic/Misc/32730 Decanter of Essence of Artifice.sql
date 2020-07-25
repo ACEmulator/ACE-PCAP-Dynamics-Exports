@@ -13,7 +13,8 @@ VALUES (32730,   1,        128) /* ItemType - Misc */
      , (32730, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32730,  22, True ) /* Inscribable */;
+VALUES (32730,  22, True ) /* Inscribable */
+     , (32730,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32730,   1, 'Decanter of Essence of Artifice') /* Name */

@@ -17,6 +17,9 @@ VALUES (31720,   1,        128) /* ItemType - Misc */
      , (31720,  94,        128) /* TargetType - Misc */
      , (31720, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31720,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (31720,  39,    1.22) /* DefaultScale */;
 

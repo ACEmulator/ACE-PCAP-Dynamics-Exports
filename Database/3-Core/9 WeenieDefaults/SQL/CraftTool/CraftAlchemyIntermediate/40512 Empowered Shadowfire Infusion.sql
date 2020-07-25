@@ -19,7 +19,8 @@ VALUES (40512,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (40512, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40512,  22, True ) /* Inscribable */;
+VALUES (40512,  22, True ) /* Inscribable */
+     , (40512,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40512,   1, 'Empowered Shadowfire Infusion') /* Name */

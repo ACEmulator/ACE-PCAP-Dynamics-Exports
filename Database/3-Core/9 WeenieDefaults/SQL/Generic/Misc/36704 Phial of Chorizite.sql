@@ -14,7 +14,8 @@ VALUES (36704,   1,        128) /* ItemType - Misc */
      , (36704, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36704,  22, True ) /* Inscribable */;
+VALUES (36704,  22, True ) /* Inscribable */
+     , (36704,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36704,   1, 'Phial of Chorizite') /* Name */

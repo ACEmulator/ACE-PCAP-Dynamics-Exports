@@ -12,6 +12,9 @@ VALUES (34496,   1,        128) /* ItemType - Misc */
      , (34496,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34496, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (34496,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34496,   1, 'Ancient Ring') /* Name */
      , (34496,  16, 'The crest of this ring depicts a sword ringed in purple fire, with the flames made of artfully layered amethyst shards.') /* LongDesc */;

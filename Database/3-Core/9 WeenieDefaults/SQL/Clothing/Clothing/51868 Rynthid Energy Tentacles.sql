@@ -30,6 +30,7 @@ VALUES (51868,   4, 15000000000) /* ItemTotalXp */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51868,  22, True ) /* Inscribable */
+     , (51868,  23, True ) /* DestroyOnSell */
      , (51868,  99, True ) /* Ivoryable */
      , (51868, 100, False) /* Dyable */;
 

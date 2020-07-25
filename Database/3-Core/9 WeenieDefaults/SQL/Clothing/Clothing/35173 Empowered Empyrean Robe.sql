@@ -21,6 +21,7 @@ VALUES (35173,   1,          4) /* ItemType - Clothing */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35173,  22, True ) /* Inscribable */
+     , (35173,  23, True ) /* DestroyOnSell */
      , (35173,  69, False) /* IsSellable */
      , (35173,  99, True ) /* Ivoryable */
      , (35173, 100, False) /* Dyable */;

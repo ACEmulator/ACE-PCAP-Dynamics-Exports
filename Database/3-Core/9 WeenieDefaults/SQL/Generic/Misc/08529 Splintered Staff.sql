@@ -13,7 +13,8 @@ VALUES (8529,   1,        128) /* ItemType - Misc */
      , (8529, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8529,  22, True ) /* Inscribable */;
+VALUES (8529,  22, True ) /* Inscribable */
+     , (8529,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8529,   1, 'Splintered Staff') /* Name */

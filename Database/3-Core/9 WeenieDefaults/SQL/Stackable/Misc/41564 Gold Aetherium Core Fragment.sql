@@ -18,7 +18,8 @@ VALUES (41564,   1,        128) /* ItemType - Misc */
      , (41564, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41564,  22, True ) /* Inscribable */;
+VALUES (41564,  22, True ) /* Inscribable */
+     , (41564,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41564,   1, 'Gold Aetherium Core Fragment') /* Name */

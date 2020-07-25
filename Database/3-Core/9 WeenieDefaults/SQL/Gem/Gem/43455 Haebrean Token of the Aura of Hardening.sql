@@ -13,7 +13,8 @@ VALUES (43455,   1,       2048) /* ItemType - Gem */
      , (43455, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43455,  22, True ) /* Inscribable */;
+VALUES (43455,  22, True ) /* Inscribable */
+     , (43455,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43455,   1, 'Haebrean Token of the Aura of Hardening') /* Name */

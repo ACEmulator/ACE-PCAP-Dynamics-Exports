@@ -13,7 +13,8 @@ VALUES (8154,   1,        128) /* ItemType - Misc */
      , (8154, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8154,  22, True ) /* Inscribable */;
+VALUES (8154,  22, True ) /* Inscribable */
+     , (8154,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8154,   1, 'Broken Virindi Mask') /* Name */

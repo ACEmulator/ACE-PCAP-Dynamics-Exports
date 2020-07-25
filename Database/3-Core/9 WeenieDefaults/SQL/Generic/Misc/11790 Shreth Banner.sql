@@ -13,7 +13,8 @@ VALUES (11790,   1,        128) /* ItemType - Misc */
      , (11790, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (11790,  22, True ) /* Inscribable */;
+VALUES (11790,  22, True ) /* Inscribable */
+     , (11790,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (11790,   1, 'Shreth Banner') /* Name */

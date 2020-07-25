@@ -16,6 +16,9 @@ VALUES (36518,   1,        128) /* ItemType - Misc */
      , (36518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36518, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (36518,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36518,   1, 'Colosseum Coin') /* Name */
      , (36518,  14, 'Use this coin to buy items from the Colosseum Vendor.') /* Use */

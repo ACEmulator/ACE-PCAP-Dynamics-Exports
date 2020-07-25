@@ -18,7 +18,8 @@ VALUES (24179,   1,       2048) /* ItemType - Gem */
      , (24179, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24179,  22, True ) /* Inscribable */;
+VALUES (24179,  22, True ) /* Inscribable */
+     , (24179,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24179,   1, 'Heart of the Innocent') /* Name */

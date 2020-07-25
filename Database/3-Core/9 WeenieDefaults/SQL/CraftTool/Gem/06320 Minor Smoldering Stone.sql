@@ -18,7 +18,8 @@ VALUES (6320,   1,       2048) /* ItemType - Gem */
      , (6320, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6320,  22, True ) /* Inscribable */;
+VALUES (6320,  22, True ) /* Inscribable */
+     , (6320,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6320,   1, 'Minor Smoldering Stone') /* Name */

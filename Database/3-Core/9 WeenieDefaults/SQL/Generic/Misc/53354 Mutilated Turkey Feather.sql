@@ -13,7 +13,8 @@ VALUES (53354,   1,        128) /* ItemType - Misc */
      , (53354, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53354,  22, True ) /* Inscribable */;
+VALUES (53354,  22, True ) /* Inscribable */
+     , (53354,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53354,   1, 'Mutilated Turkey Feather') /* Name */

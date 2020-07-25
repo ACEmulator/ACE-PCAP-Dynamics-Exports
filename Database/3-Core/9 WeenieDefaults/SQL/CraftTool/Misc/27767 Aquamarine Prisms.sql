@@ -18,7 +18,8 @@ VALUES (27767,   1,        128) /* ItemType - Misc */
      , (27767, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27767,  22, True ) /* Inscribable */;
+VALUES (27767,  22, True ) /* Inscribable */
+     , (27767,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27767,   1, 'Aquamarine Prisms') /* Name */

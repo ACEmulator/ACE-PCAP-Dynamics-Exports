@@ -18,7 +18,8 @@ VALUES (43701,   1,        128) /* ItemType - Misc */
      , (43701, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43701,  22, True ) /* Inscribable */;
+VALUES (43701,  22, True ) /* Inscribable */
+     , (43701,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (43701, 100,     2.5) /* HealkitMod */;

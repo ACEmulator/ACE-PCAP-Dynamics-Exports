@@ -18,7 +18,8 @@ VALUES (6664,   1,       2048) /* ItemType - Gem */
      , (6664, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6664,  22, True ) /* Inscribable */;
+VALUES (6664,  22, True ) /* Inscribable */
+     , (6664,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6664,   1, 'The Ruby Sulmada') /* Name */

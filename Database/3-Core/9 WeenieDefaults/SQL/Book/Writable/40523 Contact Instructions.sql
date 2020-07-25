@@ -16,7 +16,8 @@ VALUES (40523,   1,       8192) /* ItemType - Writable */
      , (40523, 268,        569) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40523,  69, True ) /* IsSellable */;
+VALUES (40523,  23, True ) /* DestroyOnSell */
+     , (40523,  69, True ) /* IsSellable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40523,  54,       1) /* UseRadius */;

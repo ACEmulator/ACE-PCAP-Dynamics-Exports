@@ -16,7 +16,8 @@ VALUES (32934,   1,      16384) /* ItemType - Key */
      , (32934, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32934,  22, True ) /* Inscribable */;
+VALUES (32934,  22, True ) /* Inscribable */
+     , (32934,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32934,   1, 'Rabbit Hutch Key') /* Name */

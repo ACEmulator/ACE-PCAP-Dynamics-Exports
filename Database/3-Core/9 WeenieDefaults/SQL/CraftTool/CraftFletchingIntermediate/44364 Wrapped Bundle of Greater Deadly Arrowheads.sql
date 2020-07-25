@@ -18,7 +18,8 @@ VALUES (44364,   1,  134217728) /* ItemType - CraftFletchingIntermediate */
      , (44364, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (44364,  69, False) /* IsSellable */;
+VALUES (44364,  23, True ) /* DestroyOnSell */
+     , (44364,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (44364,   1, 'Wrapped Bundle of Greater Deadly Arrowheads') /* Name */

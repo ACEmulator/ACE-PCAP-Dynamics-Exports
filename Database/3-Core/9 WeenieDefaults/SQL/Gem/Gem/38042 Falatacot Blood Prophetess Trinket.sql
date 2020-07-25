@@ -13,7 +13,8 @@ VALUES (38042,   1,       2048) /* ItemType - Gem */
      , (38042, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38042,  22, True ) /* Inscribable */;
+VALUES (38042,  22, True ) /* Inscribable */
+     , (38042,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38042,  39,     0.4) /* DefaultScale */;

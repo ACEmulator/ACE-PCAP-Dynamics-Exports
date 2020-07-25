@@ -16,6 +16,9 @@ VALUES (38222,   1,        128) /* ItemType - Misc */
      , (38222,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38222, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (38222,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38222,   1, 'Blighted Mana Crystal') /* Name */
      , (38222,  16, 'This small shard of crystallized mana is discolored by some strange corruption.  Perhaps Laedron the Royal Surveyor in Ayan Baqur would know more about it.') /* LongDesc */;

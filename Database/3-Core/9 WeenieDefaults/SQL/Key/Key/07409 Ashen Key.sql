@@ -16,7 +16,8 @@ VALUES (7409,   1,      16384) /* ItemType - Key */
      , (7409, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7409,  22, True ) /* Inscribable */;
+VALUES (7409,  22, True ) /* Inscribable */
+     , (7409,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7409,   1, 'Ashen Key') /* Name */

@@ -16,7 +16,8 @@ VALUES (7398,   1,      16384) /* ItemType - Key */
      , (7398, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7398,  22, True ) /* Inscribable */;
+VALUES (7398,  22, True ) /* Inscribable */
+     , (7398,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (7398,   1, 'Laboratory Key') /* Name */

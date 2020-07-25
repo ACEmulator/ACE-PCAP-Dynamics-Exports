@@ -18,7 +18,8 @@ VALUES (8365,   1,       2048) /* ItemType - Gem */
      , (8365, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (8365,  22, True ) /* Inscribable */;
+VALUES (8365,  22, True ) /* Inscribable */
+     , (8365,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (8365,   1, 'Banderling Mace Shaft') /* Name */

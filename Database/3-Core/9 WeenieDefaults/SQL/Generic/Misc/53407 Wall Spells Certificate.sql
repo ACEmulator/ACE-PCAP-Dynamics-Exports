@@ -13,7 +13,8 @@ VALUES (53407,   1,        128) /* ItemType - Misc */
      , (53407, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (53407,  69, False) /* IsSellable */;
+VALUES (53407,  23, True ) /* DestroyOnSell */
+     , (53407,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (53407,   1, 'Wall Spells Certificate') /* Name */

@@ -16,7 +16,8 @@ VALUES (1537,   1,      16384) /* ItemType - Key */
      , (1537, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (1537,  22, True ) /* Inscribable */;
+VALUES (1537,  22, True ) /* Inscribable */
+     , (1537,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (1537,   1, 'Treasure Chest Key') /* Name */

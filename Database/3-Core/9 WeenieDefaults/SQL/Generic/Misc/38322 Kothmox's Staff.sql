@@ -17,7 +17,8 @@ VALUES (38322,   1,        128) /* ItemType - Misc */
      , (38322, 268,       3590) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38322,  22, True ) /* Inscribable */;
+VALUES (38322,  22, True ) /* Inscribable */
+     , (38322,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (38322,  39,     0.6) /* DefaultScale */;

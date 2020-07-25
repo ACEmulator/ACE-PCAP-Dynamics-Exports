@@ -19,7 +19,8 @@ VALUES (37539,   1,        128) /* ItemType - Misc */
      , (37539, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37539,  22, True ) /* Inscribable */;
+VALUES (37539,  22, True ) /* Inscribable */
+     , (37539,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37539,   1, 'Spectral Binding Stone') /* Name */

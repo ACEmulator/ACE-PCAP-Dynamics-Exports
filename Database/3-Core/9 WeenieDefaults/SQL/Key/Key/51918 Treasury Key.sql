@@ -16,7 +16,8 @@ VALUES (51918,   1,      16384) /* ItemType - Key */
      , (51918, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51918,  22, True ) /* Inscribable */;
+VALUES (51918,  22, True ) /* Inscribable */
+     , (51918,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51918,   1, 'Treasury Key') /* Name */

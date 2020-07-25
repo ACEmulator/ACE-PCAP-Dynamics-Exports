@@ -16,7 +16,8 @@ VALUES (5847,   1,        128) /* ItemType - Misc */
      , (5847, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (5847,  22, True ) /* Inscribable */;
+VALUES (5847,  22, True ) /* Inscribable */
+     , (5847,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (5847,   1, 'Neydisa Rune Transcription') /* Name */

@@ -16,6 +16,9 @@ VALUES (37290,   1,        128) /* ItemType - Misc */
      , (37290,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37290, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (37290,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37290,   1, 'Jester''s Token') /* Name */
      , (37290,  14, 'Use this at the Gambling Casino''s to get an opportunity to gamble one Card for another.') /* Use */

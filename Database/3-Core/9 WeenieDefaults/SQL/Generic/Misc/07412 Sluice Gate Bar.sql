@@ -13,7 +13,8 @@ VALUES (7412,   1,        128) /* ItemType - Misc */
      , (7412, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (7412,  22, True ) /* Inscribable */;
+VALUES (7412,  22, True ) /* Inscribable */
+     , (7412,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (7412,  39,     0.2) /* DefaultScale */;

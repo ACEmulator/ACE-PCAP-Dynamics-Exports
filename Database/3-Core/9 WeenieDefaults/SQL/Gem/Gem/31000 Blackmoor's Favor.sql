@@ -22,6 +22,7 @@ VALUES (31000,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (31000,  22, True ) /* Inscribable */
+     , (31000,  23, True ) /* DestroyOnSell */
      , (31000,  63, True ) /* UnlimitedUse */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

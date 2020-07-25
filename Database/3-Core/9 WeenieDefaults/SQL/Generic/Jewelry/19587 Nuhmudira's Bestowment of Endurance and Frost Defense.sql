@@ -24,6 +24,7 @@ VALUES (19587,   1,          8) /* ItemType - Jewelry */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (19587,  22, True ) /* Inscribable */
+     , (19587,  23, True ) /* DestroyOnSell */
      , (19587,  69, False) /* IsSellable */
      , (19587,  94, True ) /* AppraisalHasAllowedActivator */
      , (19587,  99, True ) /* Ivoryable */;

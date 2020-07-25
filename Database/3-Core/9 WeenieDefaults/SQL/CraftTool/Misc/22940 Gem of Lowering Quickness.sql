@@ -18,7 +18,8 @@ VALUES (22940,   1,        128) /* ItemType - Misc */
      , (22940, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22940,  22, True ) /* Inscribable */;
+VALUES (22940,  22, True ) /* Inscribable */
+     , (22940,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22940,   1, 'Gem of Lowering Quickness') /* Name */

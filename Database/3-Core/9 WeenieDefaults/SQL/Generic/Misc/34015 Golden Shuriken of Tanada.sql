@@ -13,7 +13,8 @@ VALUES (34015,   1,        128) /* ItemType - Misc */
      , (34015, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (34015,  22, True ) /* Inscribable */;
+VALUES (34015,  22, True ) /* Inscribable */
+     , (34015,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34015,   1, 'Golden Shuriken of Tanada') /* Name */

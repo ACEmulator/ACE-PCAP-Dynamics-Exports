@@ -16,7 +16,8 @@ VALUES (38648,   1,        128) /* ItemType - Misc */
      , (38648, 268,       3595) /* RemainingLifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38648,  22, True ) /* Inscribable */;
+VALUES (38648,  22, True ) /* Inscribable */
+     , (38648,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38648,   1, 'Lens of the Filinuvekta') /* Name */

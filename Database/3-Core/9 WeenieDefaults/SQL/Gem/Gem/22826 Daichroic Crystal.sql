@@ -13,7 +13,8 @@ VALUES (22826,   1,       2048) /* ItemType - Gem */
      , (22826, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (22826,  22, True ) /* Inscribable */;
+VALUES (22826,  22, True ) /* Inscribable */
+     , (22826,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (22826,   1, 'Daichroic Crystal') /* Name */

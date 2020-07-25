@@ -18,7 +18,8 @@ VALUES (6321,   1,       2048) /* ItemType - Gem */
      , (6321, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6321,  22, True ) /* Inscribable */;
+VALUES (6321,  22, True ) /* Inscribable */
+     , (6321,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6321,   1, 'Minor Shivering Stone') /* Name */

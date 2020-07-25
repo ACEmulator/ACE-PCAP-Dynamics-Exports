@@ -20,6 +20,7 @@ VALUES (28503,   1,       2048) /* ItemType - Gem */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28503,  22, True ) /* Inscribable */
+     , (28503,  23, True ) /* DestroyOnSell */
      , (28503,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

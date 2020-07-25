@@ -13,7 +13,8 @@ VALUES (43465,   1,       2048) /* ItemType - Gem */
      , (43465, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43465,  22, True ) /* Inscribable */;
+VALUES (43465,  22, True ) /* Inscribable */
+     , (43465,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43465,   1, 'Token of the Luminous Crystal of Towering Defense') /* Name */

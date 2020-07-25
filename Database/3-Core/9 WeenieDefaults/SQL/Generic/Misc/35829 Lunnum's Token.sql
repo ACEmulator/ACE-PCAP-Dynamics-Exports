@@ -13,7 +13,8 @@ VALUES (35829,   1,        128) /* ItemType - Misc */
      , (35829, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35829,  22, True ) /* Inscribable */;
+VALUES (35829,  22, True ) /* Inscribable */
+     , (35829,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35829,   1, 'Lunnum''s Token') /* Name */

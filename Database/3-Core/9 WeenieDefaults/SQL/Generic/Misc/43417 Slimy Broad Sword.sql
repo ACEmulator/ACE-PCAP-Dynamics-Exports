@@ -13,7 +13,8 @@ VALUES (43417,   1,        128) /* ItemType - Misc */
      , (43417, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43417,  22, True ) /* Inscribable */;
+VALUES (43417,  22, True ) /* Inscribable */
+     , (43417,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43417,   1, 'Slimy Broad Sword') /* Name */

@@ -18,7 +18,8 @@ VALUES (19482,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (19482, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (19482,  22, True ) /* Inscribable */;
+VALUES (19482,  22, True ) /* Inscribable */
+     , (19482,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (19482,   1, 'Enchanted Decanter') /* Name */

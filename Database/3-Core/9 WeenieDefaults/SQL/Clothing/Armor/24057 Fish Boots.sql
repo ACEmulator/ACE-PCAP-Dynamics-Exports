@@ -16,7 +16,8 @@ VALUES (24057,   1,          2) /* ItemType - Armor */
      , (24057, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24057,   1, True ) /* Stuck */;
+VALUES (24057,   1, True ) /* Stuck */
+     , (24057,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (24057,  13,     0.6) /* ArmorModVsSlash */

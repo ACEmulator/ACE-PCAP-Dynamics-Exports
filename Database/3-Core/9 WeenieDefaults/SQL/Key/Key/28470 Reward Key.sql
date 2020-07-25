@@ -16,7 +16,8 @@ VALUES (28470,   1,      16384) /* ItemType - Key */
      , (28470, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28470,  22, True ) /* Inscribable */;
+VALUES (28470,  22, True ) /* Inscribable */
+     , (28470,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28470,   1, 'Reward Key') /* Name */

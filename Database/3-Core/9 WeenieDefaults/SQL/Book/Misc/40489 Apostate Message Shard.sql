@@ -13,6 +13,9 @@ VALUES (40489,   1,        128) /* ItemType - Misc */
      , (40489, 114,          1) /* Attuned - Attuned */
      , (40489, 279,          1) /* Unique */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (40489,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (40489,  39,     0.2) /* DefaultScale */
      , (40489,  54,       1) /* UseRadius */

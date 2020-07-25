@@ -24,7 +24,8 @@ VALUES (36015,   1,       2048) /* ItemType - Gem */
      , (36015, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36015,  69, False) /* IsSellable */
+VALUES (36015,  23, True ) /* DestroyOnSell */
+     , (36015,  69, False) /* IsSellable */
      , (36015, 108, True ) /* RareUsesTimer */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)

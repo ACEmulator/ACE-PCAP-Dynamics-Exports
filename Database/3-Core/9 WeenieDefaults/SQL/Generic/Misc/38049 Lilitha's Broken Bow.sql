@@ -13,7 +13,8 @@ VALUES (38049,   1,        128) /* ItemType - Misc */
      , (38049, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38049,  22, True ) /* Inscribable */;
+VALUES (38049,  22, True ) /* Inscribable */
+     , (38049,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38049,   1, 'Lilitha''s Broken Bow') /* Name */

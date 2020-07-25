@@ -17,6 +17,7 @@ VALUES (39745,   1,        512) /* ItemType - Container */
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (39745,   2, False) /* Open */
      , (39745,  22, True ) /* Inscribable */
+     , (39745,  23, True ) /* DestroyOnSell */
      , (39745,  34, False) /* DefaultOpen */
      , (39745,  69, False) /* IsSellable */
      , (39745,  99, False) /* Ivoryable */;

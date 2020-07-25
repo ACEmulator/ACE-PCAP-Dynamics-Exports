@@ -13,7 +13,8 @@ VALUES (46419,   1,        128) /* ItemType - Misc */
      , (46419, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46419,  69, False) /* IsSellable */;
+VALUES (46419,  23, True ) /* DestroyOnSell */
+     , (46419,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46419,   1, 'Life Spells Certificate') /* Name */

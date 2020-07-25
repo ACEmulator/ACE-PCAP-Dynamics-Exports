@@ -12,6 +12,9 @@ VALUES (27787,   1,       8192) /* ItemType - Writable */
      , (27787,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27787, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (27787,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27787,   1, 'Decaying Tome') /* Name */
      , (27787,  15, 'A ancient, mud-caked tome.') /* ShortDesc */;

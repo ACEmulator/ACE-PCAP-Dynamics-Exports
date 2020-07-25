@@ -13,7 +13,8 @@ VALUES (28760,   1,        128) /* ItemType - Misc */
      , (28760, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28760,  22, True ) /* Inscribable */;
+VALUES (28760,  22, True ) /* Inscribable */
+     , (28760,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28760,   1, 'Eleonora''s Heart') /* Name */

@@ -13,7 +13,8 @@ VALUES (32310,   1,       2048) /* ItemType - Gem */
      , (32310, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32310,  22, True ) /* Inscribable */;
+VALUES (32310,  22, True ) /* Inscribable */
+     , (32310,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32310,   1, 'Glenden Wood Militia Title Token') /* Name */

@@ -13,7 +13,8 @@ VALUES (27905,   1,        128) /* ItemType - Misc */
      , (27905, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (27905,  22, True ) /* Inscribable */;
+VALUES (27905,  22, True ) /* Inscribable */
+     , (27905,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (27905,   1, 'Mosswart War Paint') /* Name */

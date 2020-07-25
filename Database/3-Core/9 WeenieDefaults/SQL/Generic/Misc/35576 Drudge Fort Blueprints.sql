@@ -14,7 +14,8 @@ VALUES (35576,   1,        128) /* ItemType - Misc */
      , (35576, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35576,  69, False) /* IsSellable */;
+VALUES (35576,  23, True ) /* DestroyOnSell */
+     , (35576,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35576,   1, 'Drudge Fort Blueprints') /* Name */

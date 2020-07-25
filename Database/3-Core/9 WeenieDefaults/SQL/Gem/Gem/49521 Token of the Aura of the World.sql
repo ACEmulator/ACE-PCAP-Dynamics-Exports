@@ -13,7 +13,8 @@ VALUES (49521,   1,       2048) /* ItemType - Gem */
      , (49521, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49521,  22, True ) /* Inscribable */;
+VALUES (49521,  22, True ) /* Inscribable */
+     , (49521,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49521,   1, 'Token of the Aura of the World') /* Name */

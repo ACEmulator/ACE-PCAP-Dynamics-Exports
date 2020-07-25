@@ -18,7 +18,8 @@ VALUES (6123,   1,       2048) /* ItemType - Gem */
      , (6123, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (6123,  22, True ) /* Inscribable */;
+VALUES (6123,  22, True ) /* Inscribable */
+     , (6123,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (6123,   1, 'Major Shivering Stone') /* Name */

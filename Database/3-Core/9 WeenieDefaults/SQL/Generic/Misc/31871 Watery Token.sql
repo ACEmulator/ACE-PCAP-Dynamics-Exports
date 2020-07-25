@@ -12,6 +12,9 @@ VALUES (31871,   1,        128) /* ItemType - Misc */
      , (31871,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31871, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31871,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31871,   1, 'Watery Token') /* Name */
      , (31871,  16, 'Give this token to the Watcher of the Deep.') /* LongDesc */;

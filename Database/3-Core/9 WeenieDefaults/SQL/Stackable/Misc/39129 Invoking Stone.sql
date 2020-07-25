@@ -16,6 +16,9 @@ VALUES (39129,   1,        128) /* ItemType - Misc */
      , (39129,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (39129, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (39129,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (39129,   1, 'Invoking Stone') /* Name */
      , (39129,  14, 'Turn this into the Royal Scout when you have 30.') /* Use */

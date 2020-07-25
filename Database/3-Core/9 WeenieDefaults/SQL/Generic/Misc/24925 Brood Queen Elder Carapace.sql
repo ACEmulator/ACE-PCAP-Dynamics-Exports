@@ -13,7 +13,8 @@ VALUES (24925,   1,        128) /* ItemType - Misc */
      , (24925, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24925,  22, True ) /* Inscribable */;
+VALUES (24925,  22, True ) /* Inscribable */
+     , (24925,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24925,   1, 'Brood Queen Elder Carapace') /* Name */

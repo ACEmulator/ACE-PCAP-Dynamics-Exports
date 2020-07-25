@@ -13,7 +13,8 @@ VALUES (29234,   1,        128) /* ItemType - Misc */
      , (29234, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29234,  22, True ) /* Inscribable */;
+VALUES (29234,  22, True ) /* Inscribable */
+     , (29234,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29234,   1, 'Ruined Notes') /* Name */

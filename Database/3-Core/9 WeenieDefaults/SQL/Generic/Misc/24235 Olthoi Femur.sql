@@ -13,7 +13,8 @@ VALUES (24235,   1,        128) /* ItemType - Misc */
      , (24235, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (24235,  22, True ) /* Inscribable */;
+VALUES (24235,  22, True ) /* Inscribable */
+     , (24235,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (24235,   1, 'Olthoi Femur') /* Name */

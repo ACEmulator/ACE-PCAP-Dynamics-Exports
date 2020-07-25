@@ -13,7 +13,8 @@ VALUES (31362,   1,        128) /* ItemType - Misc */
      , (31362, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31362,  22, True ) /* Inscribable */;
+VALUES (31362,  22, True ) /* Inscribable */
+     , (31362,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31362,   1, 'Jacob''s Axe') /* Name */

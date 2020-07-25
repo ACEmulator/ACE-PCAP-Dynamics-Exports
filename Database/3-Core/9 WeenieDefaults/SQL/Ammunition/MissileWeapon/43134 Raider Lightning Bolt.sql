@@ -29,7 +29,8 @@ VALUES (43134,   1,        256) /* ItemType - MissileWeapon */
      , (43134, 386,          0) /* Overpower */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43134,  69, False) /* IsSellable */
+VALUES (43134,  23, True ) /* DestroyOnSell */
+     , (43134,  69, False) /* IsSellable */
      , (43134,  99, False) /* Ivoryable */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

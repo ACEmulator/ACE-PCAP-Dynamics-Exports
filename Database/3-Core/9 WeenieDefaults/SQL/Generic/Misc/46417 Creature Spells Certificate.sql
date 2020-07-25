@@ -13,7 +13,8 @@ VALUES (46417,   1,        128) /* ItemType - Misc */
      , (46417, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (46417,  69, False) /* IsSellable */;
+VALUES (46417,  23, True ) /* DestroyOnSell */
+     , (46417,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (46417,   1, 'Creature Spells Certificate') /* Name */

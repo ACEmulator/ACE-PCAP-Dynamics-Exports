@@ -16,6 +16,9 @@ VALUES (31359,   1,        128) /* ItemType - Misc */
      , (31359,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31359, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31359,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31359,   1, 'Kirit Zefir Wing') /* Name */
      , (31359,  16, 'A delicate wing from a Kirit Zefir.') /* LongDesc */;

@@ -19,7 +19,8 @@ VALUES (40090,   1,   67108864) /* ItemType - CraftAlchemyIntermediate */
      , (40090, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (40090,  22, True ) /* Inscribable */;
+VALUES (40090,  22, True ) /* Inscribable */
+     , (40090,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (40090,   1, 'Radiant Mana Infusion') /* Name */

@@ -13,7 +13,8 @@ VALUES (31412,   1,        128) /* ItemType - Misc */
      , (31412, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (31412,  22, True ) /* Inscribable */;
+VALUES (31412,  22, True ) /* Inscribable */
+     , (31412,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31412,   1, 'Unreadable Dericost Tome') /* Name */

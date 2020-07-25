@@ -16,7 +16,8 @@ VALUES (33169,   1,      16384) /* ItemType - Key */
      , (33169, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (33169,  22, True ) /* Inscribable */;
+VALUES (33169,  22, True ) /* Inscribable */
+     , (33169,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (33169,   1, 'Boney Lump of Flesh') /* Name */

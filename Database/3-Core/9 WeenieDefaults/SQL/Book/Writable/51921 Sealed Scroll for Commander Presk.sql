@@ -13,7 +13,8 @@ VALUES (51921,   1,       8192) /* ItemType - Writable */
      , (51921, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51921,  22, True ) /* Inscribable */;
+VALUES (51921,  22, True ) /* Inscribable */
+     , (51921,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51921,   1, 'Sealed Scroll for Commander Presk') /* Name */

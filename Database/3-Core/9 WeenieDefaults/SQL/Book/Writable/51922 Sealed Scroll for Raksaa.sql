@@ -13,7 +13,8 @@ VALUES (51922,   1,       8192) /* ItemType - Writable */
      , (51922, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51922,  22, True ) /* Inscribable */;
+VALUES (51922,  22, True ) /* Inscribable */
+     , (51922,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51922,   1, 'Sealed Scroll for Raksaa') /* Name */

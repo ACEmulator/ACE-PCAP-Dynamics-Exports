@@ -13,7 +13,8 @@ VALUES (28764,   1,        128) /* ItemType - Misc */
      , (28764, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28764,  22, True ) /* Inscribable */;
+VALUES (28764,  22, True ) /* Inscribable */
+     , (28764,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28764,   1, 'Rand''s Brewmaster''s Bible') /* Name */

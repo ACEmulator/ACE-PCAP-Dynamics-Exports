@@ -14,7 +14,8 @@ VALUES (38612,   1,        128) /* ItemType - Misc */
      , (38612, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (38612,  22, True ) /* Inscribable */;
+VALUES (38612,  22, True ) /* Inscribable */
+     , (38612,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (38612,   1, 'Altered Dark Remoran Fin') /* Name */

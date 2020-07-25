@@ -13,7 +13,8 @@ VALUES (43496,   1,       2048) /* ItemType - Gem */
      , (43496, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43496,  22, True ) /* Inscribable */;
+VALUES (43496,  22, True ) /* Inscribable */
+     , (43496,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43496,   1, 'Token of the Aura of Aetheric Vision') /* Name */

@@ -12,6 +12,9 @@ VALUES (34494,   1,        128) /* ItemType - Misc */
      , (34494,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34494, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (34494,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (34494,   1, 'Ancient Goblet') /* Name */
      , (34494,  16, 'The brim of this ornate golden cup is decorated with an alternating pattern of amethysts and engraved hearts.') /* LongDesc */;

@@ -19,7 +19,8 @@ VALUES (23853,   1,       2048) /* ItemType - Gem */
      , (23853, 151,          2) /* HookType - Wall */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23853,  22, True ) /* Inscribable */;
+VALUES (23853,  22, True ) /* Inscribable */
+     , (23853,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (23853,   1, 'Seared Shard') /* Name */

@@ -17,7 +17,8 @@ VALUES (42039,   1,        128) /* ItemType - Misc */
      , (42039, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42039,  69, False) /* IsSellable */;
+VALUES (42039,  23, True ) /* DestroyOnSell */
+     , (42039,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (42039,   1, 'Mhoire Signet Ring') /* Name */

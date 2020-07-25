@@ -13,7 +13,8 @@ VALUES (25317,   1,        128) /* ItemType - Misc */
      , (25317, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25317,  22, True ) /* Inscribable */;
+VALUES (25317,  22, True ) /* Inscribable */
+     , (25317,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (25317,   1, 'Alloy Instrument') /* Name */

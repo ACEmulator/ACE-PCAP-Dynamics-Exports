@@ -16,7 +16,8 @@ VALUES (49644,   1,      16384) /* ItemType - Key */
      , (49644, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (49644,  22, True ) /* Inscribable */;
+VALUES (49644,  22, True ) /* Inscribable */
+     , (49644,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (49644,   1, 'Door Key') /* Name */

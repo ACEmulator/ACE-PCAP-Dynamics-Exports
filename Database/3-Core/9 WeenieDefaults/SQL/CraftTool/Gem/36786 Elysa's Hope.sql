@@ -19,7 +19,8 @@ VALUES (36786,   1,       2048) /* ItemType - Gem */
      , (36786, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (36786,  22, True ) /* Inscribable */;
+VALUES (36786,  22, True ) /* Inscribable */
+     , (36786,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (36786,   1, 'Elysa''s Hope') /* Name */

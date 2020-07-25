@@ -16,6 +16,9 @@ VALUES (31355,   1,        128) /* ItemType - Misc */
      , (31355,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31355, 114,          1) /* Attuned - Attuned */;
 
+INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
+VALUES (31355,  23, True ) /* DestroyOnSell */;
+
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (31355,   1, 'Olthoi Slasher Carapace') /* Name */
      , (31355,  16, 'The pristine carapace of an Olthoi Slasher.') /* LongDesc */;

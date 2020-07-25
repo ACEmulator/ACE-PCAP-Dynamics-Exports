@@ -24,7 +24,8 @@ VALUES (43475,   1,       2048) /* ItemType - Gem */
      , (43475, 151,         11) /* HookType - Floor, Wall, Yard */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43475,  69, False) /* IsSellable */;
+VALUES (43475,  23, True ) /* DestroyOnSell */
+     , (43475,  69, False) /* IsSellable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43475,   1, 'Luminous Pearl of Defending') /* Name */

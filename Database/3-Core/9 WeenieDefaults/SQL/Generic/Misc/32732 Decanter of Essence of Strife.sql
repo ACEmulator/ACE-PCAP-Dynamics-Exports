@@ -13,7 +13,8 @@ VALUES (32732,   1,        128) /* ItemType - Misc */
      , (32732, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (32732,  22, True ) /* Inscribable */;
+VALUES (32732,  22, True ) /* Inscribable */
+     , (32732,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (32732,   1, 'Decanter of Essence of Strife') /* Name */

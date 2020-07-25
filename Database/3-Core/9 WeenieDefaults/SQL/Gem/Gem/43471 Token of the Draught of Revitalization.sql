@@ -13,7 +13,8 @@ VALUES (43471,   1,       2048) /* ItemType - Gem */
      , (43471, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (43471,  22, True ) /* Inscribable */;
+VALUES (43471,  22, True ) /* Inscribable */
+     , (43471,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (43471,   1, 'Token of the Draught of Revitalization') /* Name */

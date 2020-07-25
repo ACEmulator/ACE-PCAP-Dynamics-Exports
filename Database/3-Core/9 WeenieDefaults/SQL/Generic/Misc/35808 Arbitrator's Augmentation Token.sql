@@ -13,7 +13,8 @@ VALUES (35808,   1,        128) /* ItemType - Misc */
      , (35808, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35808,  22, True ) /* Inscribable */;
+VALUES (35808,  22, True ) /* Inscribable */
+     , (35808,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35808,   1, 'Arbitrator''s Augmentation Token') /* Name */

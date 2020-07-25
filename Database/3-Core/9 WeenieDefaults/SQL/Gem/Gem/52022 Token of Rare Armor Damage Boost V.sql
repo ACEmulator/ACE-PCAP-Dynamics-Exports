@@ -13,7 +13,8 @@ VALUES (52022,   1,       2048) /* ItemType - Gem */
      , (52022, 114,          1) /* Attuned - Attuned */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52022,  22, True ) /* Inscribable */;
+VALUES (52022,  22, True ) /* Inscribable */
+     , (52022,  23, True ) /* DestroyOnSell */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52022,   1, 'Token of Rare Armor Damage Boost V') /* Name */
