@@ -47,3 +47,11 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34622,   1, 299810, 0, 0, 300000) /* MaxHealth */
      , (34622,   3,   240, 0, 0, 620) /* MaxStamina */
      , (34622,   5,    10, 0, 0, 170) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34622, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (34622, 9, 34451,  0, 0, 0, False) /* Create Demon Swarm Matron Token (34451) for ContainTreasure */
+     , (34622, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (34622, 9, 49221,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (80) (49221) for ContainTreasure */
+     , (34622, 9, 45112,  0, 0, 0, False) /* Create Shadow Blade of Frost (45112) for ContainTreasure */
+     , (34622, 9, 20413,  0, 0, 0, False) /* Create Scroll of Inferno Bait (20413) for ContainTreasure */;

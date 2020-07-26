@@ -33,3 +33,6 @@ VALUES (49013, 8040, 561119688, 120.1522, 86.97493, 132.405, 0.209361, 0, 0, -0.
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49013,   1,     0, 0, 0, 920) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49013, 2, 48982,  1, 0, 0, False) /* Create Lightning Hatchet (48982) for Wield */;

@@ -33,3 +33,6 @@ VALUES (49020, 8040, 1925775388, 94.83669, 82.00707, 78.83892, 0.9993596, 0, 0, 
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49020,   1,     0, 0, 0, 920) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49020, 2, 48989,  1, 0, 0, False) /* Create Flaming Hatchet (48989) for Wield */;

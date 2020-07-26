@@ -49,3 +49,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49029,   1,  1250, 0, 0, 1370) /* MaxHealth */
      , (49029,   3,  1500, 0, 0, 1740) /* MaxStamina */
      , (49029,   5,   900, 0, 0, 1070) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49029, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */;

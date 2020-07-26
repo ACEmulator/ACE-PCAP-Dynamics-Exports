@@ -44,3 +44,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49004,   1,   670, 0, 0, 770) /* MaxHealth */
      , (49004,   3,   800, 0, 0, 1000) /* MaxStamina */
      , (49004,   5,   500, 0, 0, 630) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49004, 2, 49001,  1, 0, 0, False) /* Create Acid Hatchet (49001) for Wield */;

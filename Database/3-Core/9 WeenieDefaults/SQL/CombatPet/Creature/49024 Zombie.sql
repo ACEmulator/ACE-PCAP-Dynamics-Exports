@@ -33,3 +33,6 @@ VALUES (49024, 8040, 48759155, 268.4136, -184.0627, -11.995, -0.02845372, 0, 0, 
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49024,   1,     0, 0, 0, 670) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (49024, 2, 48993,  1, 0, 0, False) /* Create Frost Hatchet (48993) for Wield */;
