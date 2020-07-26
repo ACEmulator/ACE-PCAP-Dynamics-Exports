@@ -191,3 +191,14 @@ VALUES (0x7F832025, 0x7F832026, '2019-02-10 00:00:00') /* Corpse of Celestial Ha
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F832026, 41803, 0xF8320020, 74.97768, 169.0316, 42.005, -0.1845694, 0, 0, -0.9828195,  True, '2019-02-10 00:00:00'); /* Corpse of Celestial Hand Agent */
 /* @teleloc 0xF8320020 [74.977680 169.031600 42.005000] -0.184569 0.000000 0.000000 -0.982820 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F832027,  1542, 0xF8320040, 172.6741, 173.4935, 61.62632, -0.9807621, 0, 0, -0.1952068, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF8320040 [172.674100 173.493500 61.626320] -0.980762 0.000000 0.000000 -0.195207 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7F832027, 0x7F832028, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F832028, 38413, 0xF8320040, 172.6741, 173.4935, 61.62632, -0.9807621, 0, 0, -0.1952068,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF8320040 [172.674100 173.493500 61.626320] -0.980762 0.000000 0.000000 -0.195207 */

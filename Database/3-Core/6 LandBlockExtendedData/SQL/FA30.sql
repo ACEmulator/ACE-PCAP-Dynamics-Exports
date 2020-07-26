@@ -165,3 +165,19 @@ VALUES (0x7FA30020, 40304, 0xFA30000B, 39.42714, 63.6167, 86.29283, -0.1870084, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7FA30021, 40304, 0xFA30000B, 24.51904, 71.66331, 93.74688, -0.1870084, 0, 0, -0.9823583,  True, '2019-02-10 00:00:00'); /* Blessed Moarsman */
 /* @teleloc 0xFA30000B [24.519040 71.663310 93.746880] -0.187008 0.000000 0.000000 -0.982358 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA30022,  1542, 0xFA300015, 67.7676, 101.1775, 65.41058, 0.9057752, 0, 0, -0.4237584, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xFA300015 [67.767600 101.177500 65.410580] 0.905775 0.000000 0.000000 -0.423758 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7FA30022, 0x7FA30023, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7FA30022, 0x7FA30024, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA30023, 38413, 0xFA300015, 67.7676, 101.1775, 65.41058, 0.9057752, 0, 0, -0.4237584,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xFA300015 [67.767600 101.177500 65.410580] 0.905775 0.000000 0.000000 -0.423758 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7FA30024, 38413, 0xFA300032, 161.9453, 40.20047, 0, 0.1727138, 0, 0, -0.9849721,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xFA300032 [161.945300 40.200470 0.000000] 0.172714 0.000000 0.000000 -0.984972 */

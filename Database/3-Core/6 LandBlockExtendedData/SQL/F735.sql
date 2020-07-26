@@ -262,12 +262,22 @@ VALUES (0x7F735034, 40298, 0xF735000F, 34.83116, 157.5162, 45.40464, -0.6622931,
 /* @teleloc 0xF735000F [34.831160 157.516200 45.404640] -0.662293 0.000000 0.000000 -0.749245 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F735035,  1542, 0xF7350019, 91.15058, 19.22533, 86.45991, -0.9933313, 0, 0, -0.1152954, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xF7350019 [91.150580 19.225330 86.459910] -0.993331 0.000000 0.000000 -0.115295 */
+VALUES (0x7F735035,  1542, 0xF735000F, 29.7537, 149.4308, 43.9179, -0.6622931, 0, 0, -0.7492448, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF735000F [29.753700 149.430800 43.917900] -0.662293 0.000000 0.000000 -0.749245 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F735035, 0x7F735036, '2019-02-10 00:00:00') /* Hive Splinter (41817) */;
+VALUES (0x7F735035, 0x7F735036, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7F735035, 0x7F735037, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7F735035, 0x7F735038, '2019-02-10 00:00:00') /* Hive Splinter (41817) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F735036, 41817, 0xF7350019, 91.15058, 19.22533, 86.45991, -0.9933313, 0, 0, -0.1152954,  True, '2019-02-10 00:00:00'); /* Hive Splinter */
+VALUES (0x7F735036, 38413, 0xF735000F, 29.7537, 149.4308, 43.9179, -0.6622931, 0, 0, -0.7492448,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF735000F [29.753700 149.430800 43.917900] -0.662293 0.000000 0.000000 -0.749245 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F735037, 38413, 0xF7350009, 41.48222, 6.541945, 75.28224, -0.9442628, 0, 0, -0.3291926,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF7350009 [41.482220 6.541945 75.282240] -0.944263 0.000000 0.000000 -0.329193 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F735038, 41817, 0xF7350019, 91.15058, 19.22533, 86.45991, -0.9933313, 0, 0, -0.1152954,  True, '2019-02-10 00:00:00'); /* Hive Splinter */
 /* @teleloc 0xF7350019 [91.150580 19.225330 86.459910] -0.993331 0.000000 0.000000 -0.115295 */

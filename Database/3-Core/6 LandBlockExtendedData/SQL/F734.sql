@@ -497,17 +497,37 @@ VALUES (0x7F734063, 40301, 0xF7340010, 42.31194, 189.8944, 76.77145, -0.9442628,
 /* @teleloc 0xF7340010 [42.311940 189.894400 76.771450] -0.944263 0.000000 0.000000 -0.329193 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F734064,  1542, 0xF734001A, 90.83908, 36.21405, 68.91917, 0.9123294, 0, 0, -0.409457, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xF734001A [90.839080 36.214050 68.919170] 0.912329 0.000000 0.000000 -0.409457 */
+VALUES (0x7F734064,  1542, 0xF734003D, 185.1583, 114.6281, 84.85073, -0.6084858, 0, 0, -0.7935647, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF734003D [185.158300 114.628100 84.850730] -0.608486 0.000000 0.000000 -0.793565 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F734064, 0x7F734065, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7F734064, 0x7F734066, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x7F734064, 0x7F734065, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7F734064, 0x7F734066, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7F734064, 0x7F734067, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7F734064, 0x7F734068, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */
+     , (0x7F734064, 0x7F734069, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F734064, 0x7F73406A, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F734065,  1955, 0xF734001A, 90.83908, 36.21405, 68.91917, 0.9123294, 0, 0, -0.409457,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F734065, 38413, 0xF734003D, 185.1583, 114.6281, 84.85073, -0.6084858, 0, 0, -0.7935647,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF734003D [185.158300 114.628100 84.850730] -0.608486 0.000000 0.000000 -0.793565 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F734066, 38413, 0xF734000D, 31.5203, 112.7573, 77.08719, 0.9775116, 0, 0, -0.2108815,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF734000D [31.520300 112.757300 77.087190] 0.977512 0.000000 0.000000 -0.210882 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F734067, 38413, 0xF7340001, 5.241641, 17.90441, 70.0393, -0.979569, 0, 0, -0.2011086,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF7340001 [5.241641 17.904410 70.039300] -0.979569 0.000000 0.000000 -0.201109 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F734068, 38413, 0xF7340024, 115.0661, 87.64977, 81.46238, -0.5792119, 0, 0, -0.815177,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF7340024 [115.066100 87.649770 81.462380] -0.579212 0.000000 0.000000 -0.815177 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F734069,  1955, 0xF734001A, 90.83908, 36.21405, 68.91917, 0.9123294, 0, 0, -0.409457,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF734001A [90.839080 36.214050 68.919170] 0.912329 0.000000 0.000000 -0.409457 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F734066,  1955, 0xF734001A, 89.87823, 26.8255, 68.60279, 0.1960451, 0, 0, -0.9805949,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F73406A,  1955, 0xF734001A, 89.87823, 26.8255, 68.60279, 0.1960451, 0, 0, -0.9805949,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF734001A [89.878230 26.825500 68.602790] 0.196045 0.000000 0.000000 -0.980595 */

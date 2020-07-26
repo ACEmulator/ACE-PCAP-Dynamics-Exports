@@ -417,12 +417,17 @@ VALUES (0x73D0B053, 40311, 0x3D0B0039, 179.1139, 19.84791, 0, -0.1294083, 0, 0, 
 /* @teleloc 0x3D0B0039 [179.113900 19.847910 0.000000] -0.129408 0.000000 0.000000 -0.991591 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D0B054,  1542, 0x3D0B0021, 113.4279, 15.09263, -0.06299996, 0.09778816, 0, 0, -0.9952073, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x3D0B0021 [113.427900 15.092630 -0.063000] 0.097788 0.000000 0.000000 -0.995207 */
+VALUES (0x73D0B054,  1542, 0x3D0B003A, 186.6768, 28.98471, -3.72529E-09, -0.1294083, 0, 0, -0.9915914, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x3D0B003A [186.676800 28.984710 0.000000] -0.129408 0.000000 0.000000 -0.991591 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73D0B054, 0x73D0B055, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x73D0B054, 0x73D0B055, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */
+     , (0x73D0B054, 0x73D0B056, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73D0B055,  1955, 0x3D0B0021, 113.4279, 15.09263, -0.06299996, 0.09778816, 0, 0, -0.9952073,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x73D0B055, 40457, 0x3D0B003A, 186.6768, 28.98471, -3.72529E-09, -0.1294083, 0, 0, -0.9915914,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3D0B003A [186.676800 28.984710 0.000000] -0.129408 0.000000 0.000000 -0.991591 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73D0B056,  1955, 0x3D0B0021, 113.4279, 15.09263, -0.06299996, 0.09778816, 0, 0, -0.9952073,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x3D0B0021 [113.427900 15.092630 -0.063000] 0.097788 0.000000 0.000000 -0.995207 */

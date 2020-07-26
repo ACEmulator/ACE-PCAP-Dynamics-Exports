@@ -380,3 +380,14 @@ VALUES (0x73B0C04B, 38830, 0x3B0C003E, 187.3499, 126.3029, -0.01600003, 0.490848
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73B0C04C, 40480, 0x3B0C0030, 138.1133, 174.4173, -0.09439999, 0.7598093, 0, 0, -0.6501461,  True, '2019-02-10 00:00:00'); /* Mogshuth Moarsman */
 /* @teleloc 0x3B0C0030 [138.113300 174.417300 -0.094400] 0.759809 0.000000 0.000000 -0.650146 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73B0C04D,  1542, 0x3B0C0031, 149.5443, 17.9114, -3.72529E-09, 0.9103358, 0, 0, -0.4138705, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x3B0C0031 [149.544300 17.911400 0.000000] 0.910336 0.000000 0.000000 -0.413871 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x73B0C04D, 0x73B0C04E, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73B0C04E, 40457, 0x3B0C0031, 149.5443, 17.9114, -3.72529E-09, 0.9103358, 0, 0, -0.4138705,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3B0C0031 [149.544300 17.911400 0.000000] 0.910336 0.000000 0.000000 -0.413871 */
