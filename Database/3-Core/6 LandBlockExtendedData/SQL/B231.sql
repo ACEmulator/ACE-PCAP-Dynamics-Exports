@@ -187,32 +187,22 @@ VALUES (0x7B231025,  1542, 0xB231001C, 75.19235, 87.63505, 62.011, 0.348646, 0, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7B231025, 0x7B231026, '2019-02-10 00:00:00') /* Yellow Monster Seed (31686) */
-     , (0x7B231025, 0x7B231027, '2019-02-10 00:00:00') /* Rabbit (33040) */
-     , (0x7B231025, 0x7B231028, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
-     , (0x7B231025, 0x7B231029, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
-     , (0x7B231025, 0x7B23102A, '2019-02-10 00:00:00') /* Bonfire (4179) */
-     , (0x7B231025, 0x7B23102B, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
+     , (0x7B231025, 0x7B231027, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
+     , (0x7B231025, 0x7B231028, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x7B231025, 0x7B231029, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B231026, 31686, 0xB231001C, 75.19235, 87.63505, 62.011, 0.348646, 0, 0, -0.9372545,  True, '2019-02-10 00:00:00'); /* Yellow Monster Seed */
 /* @teleloc 0xB231001C [75.192350 87.635050 62.011000] 0.348646 0.000000 0.000000 -0.937255 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B231027, 33040, 0xB2310003, 19.57236, 69.21606, 52.70938, -0.6478705, 0, 0, -0.7617505,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0xB2310003 [19.572360 69.216060 52.709380] -0.647871 0.000000 0.000000 -0.761751 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B231028, 36454, 0xB2310003, 20.39749, 70.02435, 52.72972, -0.999873, 0, 0, -0.01593442,  True, '2019-02-10 00:00:00'); /* Spectral Flame */
-/* @teleloc 0xB2310003 [20.397490 70.024350 52.729720] -0.999873 0.000000 0.000000 -0.015934 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B231029,  8037, 0xB2310035, 165.9238, 114.1488, 60.31459, 0.3259326, 0, 0, -0.945393,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7B231027,  8037, 0xB2310035, 165.9238, 114.1488, 60.31459, 0.3259326, 0, 0, -0.945393,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xB2310035 [165.923800 114.148800 60.314590] 0.325933 0.000000 0.000000 -0.945393 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B23102A,  4179, 0xB2310029, 120.8771, 21.2504, 62.54567, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
+VALUES (0x7B231028,  4179, 0xB2310029, 120.8771, 21.2504, 62.54567, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0xB2310029 [120.877100 21.250400 62.545670] 0.999048 0.000000 0.000000 -0.043619 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B23102B,  8037, 0xB2310038, 144.3587, 190.5652, 56.4263, 0.9865962, 0, 0, -0.1631808,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
+VALUES (0x7B231029,  8037, 0xB2310038, 144.3587, 190.5652, 56.4263, 0.9865962, 0, 0, -0.1631808,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
 /* @teleloc 0xB2310038 [144.358700 190.565200 56.426300] 0.986596 0.000000 0.000000 -0.163181 */

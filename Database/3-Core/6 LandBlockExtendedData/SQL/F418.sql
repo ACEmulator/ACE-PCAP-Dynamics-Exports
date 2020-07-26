@@ -677,22 +677,20 @@ VALUES (0x7F41807D, 0x7F41807E, '2019-02-10 00:00:00') /* Light Falatacot Token 
      , (0x7F41807D, 0x7F4180DF, '2019-02-10 00:00:00') /* Well Bucket (8971) */
      , (0x7F41807D, 0x7F4180E0, '2019-02-10 00:00:00') /* Well Bucket (8971) */
      , (0x7F41807D, 0x7F4180E1, '2019-02-10 00:00:00') /* Amuli Leggings (6047) */
-     , (0x7F41807D, 0x7F4180E2, '2019-02-10 00:00:00') /* Rabbit (33040) */
-     , (0x7F41807D, 0x7F4180E3, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
-     , (0x7F41807D, 0x7F4180E4, '2019-02-10 00:00:00') /* Ale (2451) */
-     , (0x7F41807D, 0x7F4180E5, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7F41807D, 0x7F4180E6, '2019-02-10 00:00:00') /* Pack Bael'Zharon (29917) */
-     , (0x7F41807D, 0x7F4180E7, '2019-02-10 00:00:00') /* Thunder Turkey Leg (52175) */
-     , (0x7F41807D, 0x7F4180E8, '2019-02-10 00:00:00') /* Refreshing Umbrella Drink (22637) */
+     , (0x7F41807D, 0x7F4180E2, '2019-02-10 00:00:00') /* Ale (2451) */
+     , (0x7F41807D, 0x7F4180E3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F41807D, 0x7F4180E4, '2019-02-10 00:00:00') /* Pack Bael'Zharon (29917) */
+     , (0x7F41807D, 0x7F4180E5, '2019-02-10 00:00:00') /* Thunder Turkey Leg (52175) */
+     , (0x7F41807D, 0x7F4180E6, '2019-02-10 00:00:00') /* Refreshing Umbrella Drink (22637) */
+     , (0x7F41807D, 0x7F4180E7, '2019-02-10 00:00:00') /* Well Bucket (8971) */
+     , (0x7F41807D, 0x7F4180E8, '2019-02-10 00:00:00') /* Well Bucket (8971) */
      , (0x7F41807D, 0x7F4180E9, '2019-02-10 00:00:00') /* Well Bucket (8971) */
-     , (0x7F41807D, 0x7F4180EA, '2019-02-10 00:00:00') /* Well Bucket (8971) */
+     , (0x7F41807D, 0x7F4180EA, '2019-02-10 00:00:00') /* The Creation of Blighted Moarsmen (38172) */
      , (0x7F41807D, 0x7F4180EB, '2019-02-10 00:00:00') /* Well Bucket (8971) */
-     , (0x7F41807D, 0x7F4180EC, '2019-02-10 00:00:00') /* The Creation of Blighted Moarsmen (38172) */
-     , (0x7F41807D, 0x7F4180ED, '2019-02-10 00:00:00') /* Well Bucket (8971) */
-     , (0x7F41807D, 0x7F4180EE, '2019-02-10 00:00:00') /* Surface (2093) */
-     , (0x7F41807D, 0x7F4180EF, '2019-02-10 00:00:00') /* Surface (2093) */
-     , (0x7F41807D, 0x7F4180F0, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7F41807D, 0x7F4180F1, '2019-02-10 00:00:00') /* Well Bucket (8971) */;
+     , (0x7F41807D, 0x7F4180EC, '2019-02-10 00:00:00') /* Surface (2093) */
+     , (0x7F41807D, 0x7F4180ED, '2019-02-10 00:00:00') /* Surface (2093) */
+     , (0x7F41807D, 0x7F4180EE, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7F41807D, 0x7F4180EF, '2019-02-10 00:00:00') /* Well Bucket (8971) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F41807E, 43447, 0xF4180112, 32.1601, 17.0789, 170.8417, 0.01774019, 0, 0, 0.9998426,  True, '2019-02-10 00:00:00'); /* Light Falatacot Token of the Aura of Invulnerability */
@@ -1095,65 +1093,57 @@ VALUES (0x7F4180E1,  6047, 0xF418000D, 40.44527, 101.2572, 159.9975, -0.9996901,
 /* @teleloc 0xF418000D [40.445270 101.257200 159.997500] -0.999690 0.000000 0.000000 -0.024896 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E2, 33040, 0xF418000D, 27.25436, 110.1858, 161.2283, -0.7660745, 0, 0, -0.6427518,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0xF418000D [27.254360 110.185800 161.228300] -0.766075 0.000000 0.000000 -0.642752 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E3, 36454, 0xF418000C, 35.77939, 94.42536, 162.041, -0.3211728, 0, 0, -0.9470206,  True, '2019-02-10 00:00:00'); /* Spectral Flame */
-/* @teleloc 0xF418000C [35.779390 94.425360 162.041000] -0.321173 0.000000 0.000000 -0.947021 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E4,  2451, 0xF418000D, 43.21634, 111.5905, 160.024, 0.2735371, 0, 0, -0.9618614,  True, '2019-02-10 00:00:00'); /* Ale */
+VALUES (0x7F4180E2,  2451, 0xF418000D, 43.21634, 111.5905, 160.024, 0.2735371, 0, 0, -0.9618614,  True, '2019-02-10 00:00:00'); /* Ale */
 /* @teleloc 0xF418000D [43.216340 111.590500 160.024000] 0.273537 0.000000 0.000000 -0.961861 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E5,  1955, 0xF4180003, 22.66271, 58.73102, 170.305, -0.7585157, 0, 0, -0.6516547,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F4180E3,  1955, 0xF4180003, 22.66271, 58.73102, 170.305, -0.7585157, 0, 0, -0.6516547,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF4180003 [22.662710 58.731020 170.305000] -0.758516 0.000000 0.000000 -0.651655 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E6, 29917, 0xF418000D, 33.47818, 99.06673, 160.0038, 0.6706195, 0, 0, -0.7418015,  True, '2019-02-10 00:00:00'); /* Pack Bael'Zharon */
+VALUES (0x7F4180E4, 29917, 0xF418000D, 33.47818, 99.06673, 160.0038, 0.6706195, 0, 0, -0.7418015,  True, '2019-02-10 00:00:00'); /* Pack Bael'Zharon */
 /* @teleloc 0xF418000D [33.478180 99.066730 160.003800] 0.670620 0.000000 0.000000 -0.741802 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E7, 52175, 0xF418000D, 37.96306, 98.25502, 160, 0.7817976, 0, 0, -0.6235324,  True, '2019-02-10 00:00:00'); /* Thunder Turkey Leg */
+VALUES (0x7F4180E5, 52175, 0xF418000D, 37.96306, 98.25502, 160, 0.7817976, 0, 0, -0.6235324,  True, '2019-02-10 00:00:00'); /* Thunder Turkey Leg */
 /* @teleloc 0xF418000D [37.963060 98.255020 160.000000] 0.781798 0.000000 0.000000 -0.623532 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E8, 22637, 0xF418000D, 38.86375, 103.9504, 160.0031, -0.9994899, 0, 0, -0.03193566,  True, '2019-02-10 00:00:00'); /* Refreshing Umbrella Drink */
+VALUES (0x7F4180E6, 22637, 0xF418000D, 38.86375, 103.9504, 160.0031, -0.9994899, 0, 0, -0.03193566,  True, '2019-02-10 00:00:00'); /* Refreshing Umbrella Drink */
 /* @teleloc 0xF418000D [38.863750 103.950400 160.003100] -0.999490 0.000000 0.000000 -0.031936 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180E9,  8971, 0xF418001A, 91.68735, 41.68993, 159.55, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
+VALUES (0x7F4180E7,  8971, 0xF418001A, 91.68735, 41.68993, 159.55, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
 /* @teleloc 0xF418001A [91.687350 41.689930 159.550000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180EA,  8971, 0xF418001A, 86.69842, 44.99194, 159.55, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
+VALUES (0x7F4180E8,  8971, 0xF418001A, 86.69842, 44.99194, 159.55, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
 /* @teleloc 0xF418001A [86.698420 44.991940 159.550000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180EB,  8971, 0xF418001A, 80.21561, 43.20844, 159.9, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
+VALUES (0x7F4180E9,  8971, 0xF418001A, 80.21561, 43.20844, 159.9, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
 /* @teleloc 0xF418001A [80.215610 43.208440 159.900000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180EC, 38172, 0xF4180114, 38.0981, 16.94346, 181.9518, 0.2713848, 0, 0, 0.9624709,  True, '2019-02-10 00:00:00'); /* The Creation of Blighted Moarsmen */
+VALUES (0x7F4180EA, 38172, 0xF4180114, 38.0981, 16.94346, 181.9518, 0.2713848, 0, 0, 0.9624709,  True, '2019-02-10 00:00:00'); /* The Creation of Blighted Moarsmen */
 /* @teleloc 0xF4180114 [38.098100 16.943460 181.951800] 0.271385 0.000000 0.000000 0.962471 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180ED,  8971, 0xF418001B, 80.23643, 52.30304, 159.9, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
+VALUES (0x7F4180EB,  8971, 0xF418001B, 80.23643, 52.30304, 159.9, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
 /* @teleloc 0xF418001B [80.236430 52.303040 159.900000] 0.707107 0.000000 0.000000 -0.707107 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180EE,  2093, 0xF418000C, 35.95366, 79.27444, 195.1629, 0.9993005, 0, 0, -0.03739617,  True, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F4180EC,  2093, 0xF418000C, 35.95366, 79.27444, 195.1629, 0.9993005, 0, 0, -0.03739617,  True, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF418000C [35.953660 79.274440 195.162900] 0.999301 0.000000 0.000000 -0.037396 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180EF,  2093, 0xF4180104, 35.8, 70.1, 169.8, 180.6, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Surface */
+VALUES (0x7F4180ED,  2093, 0xF4180104, 35.8, 70.1, 169.8, 180.6, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Surface */
 /* @teleloc 0xF4180104 [35.800000 70.100000 169.800000] 180.600000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180F0,  1955, 0xF418000D, 38.62346, 105.7435, 159.937, -0.6908606, 0, 0, -0.7229879,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7F4180EE,  1955, 0xF418000D, 38.62346, 105.7435, 159.937, -0.6908606, 0, 0, -0.7229879,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xF418000D [38.623460 105.743500 159.937000] -0.690861 0.000000 0.000000 -0.722988 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F4180F1,  8971, 0xF418001A, 72.7928, 47.87831, 159.9, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
+VALUES (0x7F4180EF,  8971, 0xF418001A, 72.7928, 47.87831, 159.9, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Well Bucket */
 /* @teleloc 0xF418001A [72.792800 47.878310 159.900000] 0.707107 0.000000 0.000000 -0.707107 */

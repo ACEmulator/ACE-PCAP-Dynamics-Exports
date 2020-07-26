@@ -811,13 +811,8 @@ VALUES (0x7B54A0A8,  1542, 0xB54A001D, 86.0167, 110.633, 117.999, 0.998266, 0, 0
 /* @teleloc 0xB54A001D [86.016700 110.633000 117.999000] 0.998266 0.000000 0.000000 -0.058860 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B54A0A8, 0x7B54A0A9, '2019-02-10 00:00:00') /* Token of the New Paragon (53479) */
-     , (0x7B54A0A8, 0x7B54A0AA, '2019-02-10 00:00:00') /* Rabbit (33040) */;
+VALUES (0x7B54A0A8, 0x7B54A0A9, '2019-02-10 00:00:00') /* Token of the New Paragon (53479) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B54A0A9, 53479, 0xB54A001D, 86.0167, 110.633, 117.999, 0.998266, 0, 0, -0.0588598,  True, '2019-02-10 00:00:00'); /* Token of the New Paragon */
 /* @teleloc 0xB54A001D [86.016700 110.633000 117.999000] 0.998266 0.000000 0.000000 -0.058860 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B54A0AA, 33040, 0xB54A0024, 98.4416, 86.20421, 119.2283, 0.4433227, 0, 0, 0.8963621,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0xB54A0024 [98.441600 86.204210 119.228300] 0.443323 0.000000 0.000000 0.896362 */

@@ -118,10 +118,8 @@ VALUES (0x70023016, 0x70023017, '2019-02-10 00:00:00') /* Glyph of Armor Tinkeri
      , (0x70023016, 0x7002301B, '2019-02-10 00:00:00') /* Frost Morning Star (3938) */
      , (0x70023016, 0x7002301C, '2019-02-10 00:00:00') /* Blunt Compound Crossbow (31807) */
      , (0x70023016, 0x7002301D, '2019-02-10 00:00:00') /* The Temple of Forgetfulness (22764) */
-     , (0x70023016, 0x7002301E, '2019-02-10 00:00:00') /* Rabbit (33040) */
-     , (0x70023016, 0x7002301F, '2019-02-10 00:00:00') /* Rabbit (33040) */
-     , (0x70023016, 0x70023020, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x70023016, 0x70023021, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x70023016, 0x7002301E, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x70023016, 0x7002301F, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70023017, 37346, 0x00230117, 74.32761, -3.090452, -0.0009999946, -0.1617128, 0, 0, -0.9868379,  True, '2019-02-10 00:00:00'); /* Glyph of Armor Tinkering */
@@ -152,17 +150,9 @@ VALUES (0x7002301D, 22764, 0x00230108, 10.21912, -26.93178, -17.93046, -0.727415
 /* @teleloc 0x00230108 [10.219120 -26.931780 -17.930460] -0.727416 0.000000 0.000000 -0.686197 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002301E, 33040, 0x00230108, 8.724965, -25.0029, -16.774, 0.9714744, 0, 0, -0.2371445,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0x00230108 [8.724965 -25.002900 -16.774000] 0.971474 0.000000 0.000000 -0.237145 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7002301F, 33040, 0x00230107, 8.302276, -24.50029, -16.774, 0.9714744, 0, 0, -0.2371445,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0x00230107 [8.302276 -24.500290 -16.774000] 0.971474 0.000000 0.000000 -0.237145 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70023020,  1955, 0x00230108, 14.19842, -25.63415, -18.063, 0.3965084, 0, 0, -0.9180311,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7002301E,  1955, 0x00230108, 14.19842, -25.63415, -18.063, 0.3965084, 0, 0, -0.9180311,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00230108 [14.198420 -25.634150 -18.063000] 0.396508 0.000000 0.000000 -0.918031 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70023021,  1955, 0x00230107, 11.8441, -23.84077, -18.063, 0.6608337, 0, 0, 0.7505324,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7002301F,  1955, 0x00230107, 11.8441, -23.84077, -18.063, 0.6608337, 0, 0, 0.7505324,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00230107 [11.844100 -23.840770 -18.063000] 0.660834 0.000000 0.000000 0.750532 */

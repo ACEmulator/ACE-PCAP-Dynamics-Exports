@@ -221,19 +221,3 @@ VALUES (0x7F15A038,  1630, 0xF15A0017, 53.74697, 147.0621, -0.8925, 0.8870109, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F15A039,  1630, 0xF15A0017, 50.34628, 149.1988, -0.8925, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Lich Lord */
 /* @teleloc 0xF15A0017 [50.346280 149.198800 -0.892500] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F15A03A,  1542, 0xF15A0024, 112.3857, 92.10381, 1.228333, 0.5020489, 0, 0, -0.8648393, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xF15A0024 [112.385700 92.103810 1.228333] 0.502049 0.000000 0.000000 -0.864839 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7F15A03A, 0x7F15A03B, '2019-02-10 00:00:00') /* Rabbit (33040) */
-     , (0x7F15A03A, 0x7F15A03C, '2019-02-10 00:00:00') /* Rabbit (33040) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F15A03B, 33040, 0xF15A0024, 112.3857, 92.10381, 1.228333, 0.5020489, 0, 0, -0.8648393,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0xF15A0024 [112.385700 92.103810 1.228333] 0.502049 0.000000 0.000000 -0.864839 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7F15A03C, 33040, 0xF15A0024, 113.2075, 94.4369, 1.228333, 0.2906981, 0, 0, -0.9568148,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0xF15A0024 [113.207500 94.436900 1.228333] 0.290698 0.000000 0.000000 -0.956815 */

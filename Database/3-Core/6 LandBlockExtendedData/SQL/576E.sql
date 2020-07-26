@@ -118,19 +118,3 @@ VALUES (0x7576E018, 45709, 0x576E0100, 0.3044245, -114.8929, -5.99675, -4.371139
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7576E019, 45705, 0x576E0100, 3.229625, -112.3141, -6.5, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Formless Shadow */
 /* @teleloc 0x576E0100 [3.229625 -112.314100 -6.500000] 0.000000 0.000000 0.000000 -1.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576E01A,  1542, 0x576E0117, 44.09095, -50.82072, -5.5, 0.6380835, 0, 0, -0.7699672, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x576E0117 [44.090950 -50.820720 -5.500000] 0.638084 0.000000 0.000000 -0.769967 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7576E01A, 0x7576E01B, '2019-02-10 00:00:00') /* Dark Vortex (33498) */
-     , (0x7576E01A, 0x7576E01C, '2019-02-10 00:00:00') /* Dark Vortex (33498) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576E01B, 33498, 0x576E0117, 44.09095, -50.82072, -5.5, 0.6380835, 0, 0, -0.7699672,  True, '2019-02-10 00:00:00'); /* Dark Vortex */
-/* @teleloc 0x576E0117 [44.090950 -50.820720 -5.500000] 0.638084 0.000000 0.000000 -0.769967 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7576E01C, 33498, 0x576E0117, 41.87821, -49.80396, -5.5, 0.6380835, 0, 0, -0.7699672,  True, '2019-02-10 00:00:00'); /* Dark Vortex */
-/* @teleloc 0x576E0117 [41.878210 -49.803960 -5.500000] 0.638084 0.000000 0.000000 -0.769967 */

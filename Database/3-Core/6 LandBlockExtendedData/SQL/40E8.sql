@@ -74,14 +74,3 @@ VALUES (0x740E801D, 29410, 0x40E8001B, 89.6773, 55.12, 200.0068, -0.997788, 0, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x740E801E, 29410, 0x40E80023, 104.182, 52.6027, 200.0068, -0.999771, 0, 0, 0.0213918,  True, '2019-02-10 00:00:00'); /* Platinum Legion Castle Guard */
 /* @teleloc 0x40E80023 [104.182000 52.602700 200.006800] -0.999771 0.000000 0.000000 0.021392 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740E801F,  1542, 0x40E8001C, 93.90985, 93.33317, 201.2286, -0.09577038, 0, 0, -0.9954035, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x40E8001C [93.909850 93.333170 201.228600] -0.095770 0.000000 0.000000 -0.995404 */
-
-INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x740E801F, 0x740E8020, '2019-02-10 00:00:00') /* Rabbit (33040) */;
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x740E8020, 33040, 0x40E8001C, 93.90985, 93.33317, 201.2286, -0.09577038, 0, 0, -0.9954035,  True, '2019-02-10 00:00:00'); /* Rabbit */
-/* @teleloc 0x40E8001C [93.909850 93.333170 201.228600] -0.095770 0.000000 0.000000 -0.995404 */

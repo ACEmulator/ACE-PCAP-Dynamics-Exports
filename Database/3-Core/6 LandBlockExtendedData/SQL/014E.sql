@@ -265,22 +265,12 @@ VALUES (0x7014E0AB,  7345, 0x014E01FF, 139.944, -70.0816, 0.006875038, 1, 0, 0, 
 /* @teleloc 0x014E01FF [139.944000 -70.081600 0.006875] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7014E0AC,  1542, 0x014E0245, 178.6259, -40.28709, 1.135361, -0.01610011, 0, 0, -0.9998704, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x014E0245 [178.625900 -40.287090 1.135361] -0.016100 0.000000 0.000000 -0.999870 */
+VALUES (0x7014E0AC,  1542, 0x014E025D, 191.7847, -23.29919, 0.4445117, 0.4259094, 0, 0, -0.9047658, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x014E025D [191.784700 -23.299190 0.444512] 0.425909 0.000000 0.000000 -0.904766 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7014E0AC, 0x7014E0AD, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
-     , (0x7014E0AC, 0x7014E0AE, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
-     , (0x7014E0AC, 0x7014E0AF, '2019-02-10 00:00:00') /* Gateway (1955) */;
+VALUES (0x7014E0AC, 0x7014E0AD, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7014E0AD, 36454, 0x014E0245, 178.6259, -40.28709, 1.135361, -0.01610011, 0, 0, -0.9998704,  True, '2019-02-10 00:00:00'); /* Spectral Flame */
-/* @teleloc 0x014E0245 [178.625900 -40.287090 1.135361] -0.016100 0.000000 0.000000 -0.999870 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7014E0AE, 36454, 0x014E025F, 188.9318, -51.50245, 1.174077, 0.07081556, 0, 0, -0.9974895,  True, '2019-02-10 00:00:00'); /* Spectral Flame */
-/* @teleloc 0x014E025F [188.931800 -51.502450 1.174077] 0.070816 0.000000 0.000000 -0.997490 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7014E0AF,  1955, 0x014E025D, 191.7847, -23.29919, 0.4445117, 0.4259094, 0, 0, -0.9047658,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7014E0AD,  1955, 0x014E025D, 191.7847, -23.29919, 0.4445117, 0.4259094, 0, 0, -0.9047658,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x014E025D [191.784700 -23.299190 0.444512] 0.425909 0.000000 0.000000 -0.904766 */

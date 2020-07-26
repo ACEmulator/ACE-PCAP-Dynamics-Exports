@@ -171,9 +171,9 @@ VALUES (0x7AAB4026, 0x7AAB4027, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4029, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB402A, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB402B, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB402C, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
-     , (0x7AAB4026, 0x7AAB402D, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
-     , (0x7AAB4026, 0x7AAB402E, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
+     , (0x7AAB4026, 0x7AAB402C, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7AAB4026, 0x7AAB402D, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7AAB4026, 0x7AAB402E, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB402F, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4030, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4031, '2019-02-10 00:00:00') /* Apple (258) */
@@ -195,10 +195,10 @@ VALUES (0x7AAB4026, 0x7AAB4027, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4041, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4042, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4043, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB4044, '2019-02-10 00:00:00') /* Apple (258) */
+     , (0x7AAB4026, 0x7AAB4044, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x7AAB4026, 0x7AAB4045, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4046, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB4047, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x7AAB4026, 0x7AAB4047, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4048, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4049, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB404A, '2019-02-10 00:00:00') /* Apple (258) */
@@ -215,10 +215,7 @@ VALUES (0x7AAB4026, 0x7AAB4027, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4055, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4056, '2019-02-10 00:00:00') /* Apple (258) */
      , (0x7AAB4026, 0x7AAB4057, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB4058, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB4059, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB405A, '2019-02-10 00:00:00') /* Apple (258) */
-     , (0x7AAB4026, 0x7AAB405B, '2019-02-10 00:00:00') /* Apple (258) */;
+     , (0x7AAB4026, 0x7AAB4058, '2019-02-10 00:00:00') /* Apple (258) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7AAB4027,   258, 0xAAB4002A, 134.926, 41.10192, 49.35481, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
@@ -241,193 +238,181 @@ VALUES (0x7AAB402B,   258, 0xAAB4002A, 128.1358, 44.10874, 49.66882, -0.9354969,
 /* @teleloc 0xAAB4002A [128.135800 44.108740 49.668820] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB402C, 14570, 0xAAB40001, 0.2131437, 16.4434, 93.08289, -0.7445542, 0, 0, -0.667562,  True, '2019-02-10 00:00:00'); /* Spirit of Aun Tanua */
-/* @teleloc 0xAAB40001 [0.213144 16.443400 93.082890] -0.744554 0.000000 0.000000 -0.667562 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB402D, 14570, 0xAAB40001, 12.79285, 7.592827, 94.25144, -0.7792148, 0, 0, -0.626757,  True, '2019-02-10 00:00:00'); /* Spirit of Aun Tanua */
-/* @teleloc 0xAAB40001 [12.792850 7.592827 94.251440] -0.779215 0.000000 0.000000 -0.626757 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB402E, 14570, 0xAAB40001, 11.46324, 10.15553, 93.72082, -0.768842, 0, 0, -0.6394389,  True, '2019-02-10 00:00:00'); /* Spirit of Aun Tanua */
-/* @teleloc 0xAAB40001 [11.463240 10.155530 93.720820] -0.768842 0.000000 0.000000 -0.639439 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB402F,   258, 0xAAB4002B, 132.8081, 53.37741, 48.95588, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB402C,   258, 0xAAB4002B, 132.8081, 53.37741, 48.95588, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [132.808100 53.377410 48.955880] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4030,   258, 0xAAB4002B, 125.3637, 48.73178, 49.57766, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB402D,   258, 0xAAB4002B, 125.3637, 48.73178, 49.57766, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [125.363700 48.731780 49.577660] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4031,   258, 0xAAB4002A, 139.4679, 41.2381, 48.9637, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB402E,   258, 0xAAB4002A, 139.4679, 41.2381, 48.9637, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [139.467900 41.238100 48.963700] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4032,   258, 0xAAB4002A, 122.5801, 44.19465, 50.024, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB402F,   258, 0xAAB4002A, 122.5801, 44.19465, 50.024, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [122.580100 44.194650 50.024000] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4033,   258, 0xAAB4002A, 135.1631, 43.12163, 49.16674, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4030,   258, 0xAAB4002A, 135.1631, 43.12163, 49.16674, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [135.163100 43.121630 49.166740] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4034,   258, 0xAAB4002A, 128.7156, 41.68159, 49.82276, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4031,   258, 0xAAB4002A, 128.7156, 41.68159, 49.82276, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [128.715600 41.681590 49.822760] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4035,   258, 0xAAB4002B, 122.9854, 51.71827, 49.77586, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4032,   258, 0xAAB4002B, 122.9854, 51.71827, 49.77586, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [122.985400 51.718270 49.775860] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4036,   258, 0xAAB4002B, 142.2745, 48.93008, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4033,   258, 0xAAB4002B, 142.2745, 48.93008, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [142.274500 48.930080 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4037,   258, 0xAAB4002A, 132.8434, 45.25598, 49.18092, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4034,   258, 0xAAB4002A, 132.8434, 45.25598, 49.18092, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [132.843400 45.255980 49.180920] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4038,   258, 0xAAB4002A, 133.6853, 46.06941, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4035,   258, 0xAAB4002A, 133.6853, 46.06941, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [133.685300 46.069410 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4039,   258, 0xAAB4002A, 126.0546, 43.96267, 49.8557, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4036,   258, 0xAAB4002A, 126.0546, 43.96267, 49.8557, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [126.054600 43.962670 49.855700] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB403A,   258, 0xAAB4002A, 137.4489, 43.52419, 48.94271, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4037,   258, 0xAAB4002A, 137.4489, 43.52419, 48.94271, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [137.448900 43.524190 48.942710] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB403B,   258, 0xAAB4002A, 123.0664, 35.54456, 50.024, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4038,   258, 0xAAB4002A, 123.0664, 35.54456, 50.024, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [123.066400 35.544560 50.024000] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB403C,   258, 0xAAB4002A, 129.4561, 39.48431, 49.94416, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4039,   258, 0xAAB4002A, 129.4561, 39.48431, 49.94416, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [129.456100 39.484310 49.944160] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB403D,   258, 0xAAB4002A, 130.25, 47.66282, 49.19773, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB403A,   258, 0xAAB4002A, 130.25, 47.66282, 49.19773, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [130.250000 47.662820 49.197730] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB403E,   258, 0xAAB4002A, 124.9266, 40.73409, 50.024, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB403B,   258, 0xAAB4002A, 124.9266, 40.73409, 50.024, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [124.926600 40.734090 50.024000] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB403F,   258, 0xAAB4002B, 135.6438, 51.48114, 48.72099, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB403C,   258, 0xAAB4002B, 135.6438, 51.48114, 48.72099, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [135.643800 51.481140 48.720990] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4040,   258, 0xAAB4002B, 133.8433, 48.98725, 48.86961, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB403D,   258, 0xAAB4002B, 133.8433, 48.98725, 48.86961, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [133.843300 48.987250 48.869610] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4041,   258, 0xAAB4002B, 138.5035, 51.72751, 48.48126, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB403E,   258, 0xAAB4002B, 138.5035, 51.72751, 48.48126, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [138.503500 51.727510 48.481260] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4042,   258, 0xAAB4002A, 127.9496, 46.43793, 49.49151, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB403F,   258, 0xAAB4002A, 127.9496, 46.43793, 49.49151, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [127.949600 46.437930 49.491510] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4043,   258, 0xAAB4002A, 140.4222, 43.7119, 48.67802, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4040,   258, 0xAAB4002A, 140.4222, 43.7119, 48.67802, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [140.422200 43.711900 48.678020] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4044,   258, 0xAAB4002B, 130.7202, 52.3002, 49.13129, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4041,   258, 0xAAB4002B, 130.7202, 52.3002, 49.13129, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [130.720200 52.300200 49.131290] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4045,   258, 0xAAB4002B, 137.8072, 48.78038, 48.5407, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4042,   258, 0xAAB4002B, 137.8072, 48.78038, 48.5407, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [137.807200 48.780380 48.540700] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4046,   258, 0xAAB4002A, 132.5624, 37.65459, 49.83905, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4043,   258, 0xAAB4002A, 132.5624, 37.65459, 49.83905, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [132.562400 37.654590 49.839050] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4047,  1955, 0xAAB4002A, 122.9439, 36.88582, 49.937, 0.8613545, 0, 0, 0.5080044,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x7AAB4044,  1955, 0xAAB4002A, 122.9439, 36.88582, 49.937, 0.8613545, 0, 0, 0.5080044,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0xAAB4002A [122.943900 36.885820 49.937000] 0.861355 0.000000 0.000000 0.508004 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4048,   258, 0xAAB4002B, 125.3392, 51.46985, 49.57829, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4045,   258, 0xAAB4002B, 125.3392, 51.46985, 49.57829, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [125.339200 51.469850 49.578290] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4049,   258, 0xAAB4002A, 138.9372, 46.85261, 48.54004, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4046,   258, 0xAAB4002A, 138.9372, 46.85261, 48.54004, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [138.937200 46.852610 48.540040] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB404A,   258, 0xAAB4002A, 140.5056, 38.72269, 49.08684, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4047,   258, 0xAAB4002A, 140.5056, 38.72269, 49.08684, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [140.505600 38.722690 49.086840] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB404B,   258, 0xAAB4002A, 137.1687, 40.99031, 49.17595, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4048,   258, 0xAAB4002A, 137.1687, 40.99031, 49.17595, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [137.168700 40.990310 49.175950] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB404C,   258, 0xAAB4002A, 128.587, 37.29892, 50.024, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4049,   258, 0xAAB4002A, 128.587, 37.29892, 50.024, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [128.587000 37.298920 50.024000] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB404D,   258, 0xAAB4002A, 133.1605, 38.11441, 51.8441, -0.443646, 0, 0, -0.896202,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB404A,   258, 0xAAB4002A, 133.1605, 38.11441, 51.8441, -0.443646, 0, 0, -0.896202,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [133.160500 38.114410 51.844100] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB404E,   258, 0xAAB4002A, 127.6054, 46.41563, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB404B,   258, 0xAAB4002A, 127.6054, 46.41563, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [127.605400 46.415630 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB404F,   258, 0xAAB4002B, 130.5274, 50.27995, 49.14735, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB404C,   258, 0xAAB4002B, 130.5274, 50.27995, 49.14735, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [130.527400 50.279950 49.147350] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4050,   258, 0xAAB4002A, 125.2027, 46.51275, 49.71418, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB404D,   258, 0xAAB4002A, 125.2027, 46.51275, 49.71418, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [125.202700 46.512750 49.714180] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4051,   258, 0xAAB4002A, 133.111, 47.55006, 48.96744, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB404E,   258, 0xAAB4002A, 133.111, 47.55006, 48.96744, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [133.111000 47.550060 48.967440] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4052,   258, 0xAAB4002A, 135.2484, 42.32612, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB404F,   258, 0xAAB4002A, 135.2484, 42.32612, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [135.248400 42.326120 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4053,   258, 0xAAB4002A, 130.6621, 46.88005, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4050,   258, 0xAAB4002A, 130.6621, 46.88005, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [130.662100 46.880050 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4054,   258, 0xAAB4002A, 137.1013, 46.69915, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4051,   258, 0xAAB4002A, 137.1013, 46.69915, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [137.101300 46.699150 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4055,   258, 0xAAB4002A, 132.8191, 43.1246, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4052,   258, 0xAAB4002A, 132.8191, 43.1246, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [132.819100 43.124600 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4056,   258, 0xAAB4002A, 138.7223, 43.94636, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4053,   258, 0xAAB4002A, 138.7223, 43.94636, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [138.722300 43.946360 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4057,   258, 0xAAB4002A, 130.4846, 45.06135, 49.39497, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4054,   258, 0xAAB4002A, 130.4846, 45.06135, 49.39497, -0.443646, 0, 0, -0.8962021,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [130.484600 45.061350 49.394970] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4058,   258, 0xAAB4002A, 123.5594, 37.59175, 51.8441, -0.443646, 0, 0, -0.896202,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4055,   258, 0xAAB4002A, 123.5594, 37.59175, 51.8441, -0.443646, 0, 0, -0.896202,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [123.559400 37.591750 51.844100] -0.443646 0.000000 0.000000 -0.896202 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB4059,   258, 0xAAB4002B, 128.3525, 49.03036, 49.32718, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4056,   258, 0xAAB4002B, 128.3525, 49.03036, 49.32718, -0.9354969, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002B [128.352500 49.030360 49.327180] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB405A,   258, 0xAAB4002A, 137.5242, 41.54074, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4057,   258, 0xAAB4002A, 137.5242, 41.54074, 51.6859, -0.935497, 0, 0, -0.353335,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [137.524200 41.540740 51.685900] -0.935497 0.000000 0.000000 -0.353335 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7AAB405B,   258, 0xAAB4002A, 134.782, 40.27209, 51.8441, -0.443646, 0, 0, -0.896202,  True, '2019-02-10 00:00:00'); /* Apple */
+VALUES (0x7AAB4058,   258, 0xAAB4002A, 134.782, 40.27209, 51.8441, -0.443646, 0, 0, -0.896202,  True, '2019-02-10 00:00:00'); /* Apple */
 /* @teleloc 0xAAB4002A [134.782000 40.272090 51.844100] -0.443646 0.000000 0.000000 -0.896202 */

@@ -1462,52 +1462,22 @@ VALUES (0x7B99F124,  2566, 0xB99F003C, 176.3687, 93.21082, 54, -0.7248443, 0, 0,
 /* @teleloc 0xB99F003C [176.368700 93.210820 54.000000] -0.724844 0.000000 0.000000 -0.688913 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F125,  1542, 0xB99F0002, 18.61517, 30.0685, 101.0328, -0.8214658, 0, 0, -0.5702577, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0xB99F0002 [18.615170 30.068500 101.032800] -0.821466 0.000000 0.000000 -0.570258 */
+VALUES (0x7B99F125,  1542, 0xB99F0008, 23.87802, 186.5526, 54.01017, 0.8660254, 0, 0, -0.5, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xB99F0008 [23.878020 186.552600 54.010170] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x7B99F125, 0x7B99F126, '2019-02-10 00:00:00') /* Spear (35569) */
-     , (0x7B99F125, 0x7B99F127, '2019-02-10 00:00:00') /* Flame Grenade (35570) */
-     , (0x7B99F125, 0x7B99F128, '2019-02-10 00:00:00') /* Spear (35569) */
-     , (0x7B99F125, 0x7B99F129, '2019-02-10 00:00:00') /* Flame Grenade (35570) */
-     , (0x7B99F125, 0x7B99F12A, '2019-02-10 00:00:00') /* Spear (35569) */
-     , (0x7B99F125, 0x7B99F12B, '2019-02-10 00:00:00') /* Flame Grenade (35570) */
-     , (0x7B99F125, 0x7B99F12C, '2019-02-10 00:00:00') /* Corpse (4382) */
-     , (0x7B99F125, 0x7B99F12D, '2019-02-10 00:00:00') /* Runed Chest (22572) */
-     , (0x7B99F125, 0x7B99F12E, '2019-02-10 00:00:00') /* Drudge Bonfire (35464) */;
+VALUES (0x7B99F125, 0x7B99F126, '2019-02-10 00:00:00') /* Corpse (4382) */
+     , (0x7B99F125, 0x7B99F127, '2019-02-10 00:00:00') /* Runed Chest (22572) */
+     , (0x7B99F125, 0x7B99F128, '2019-02-10 00:00:00') /* Drudge Bonfire (35464) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F126, 35569, 0xB99F0002, 18.61517, 30.0685, 101.0328, -0.8214658, 0, 0, -0.5702577,  True, '2019-02-10 00:00:00'); /* Spear */
-/* @teleloc 0xB99F0002 [18.615170 30.068500 101.032800] -0.821466 0.000000 0.000000 -0.570258 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F127, 35570, 0xB99F000B, 32.67233, 54.6195, 95.25893, -0.2769113, 0, 0, -0.9608955,  True, '2019-02-10 00:00:00'); /* Flame Grenade */
-/* @teleloc 0xB99F000B [32.672330 54.619500 95.258930] -0.276911 0.000000 0.000000 -0.960896 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F128, 35569, 0xB99F000B, 32.64307, 54.63849, 95.25893, -0.290848, 0, 0, -0.9567693,  True, '2019-02-10 00:00:00'); /* Spear */
-/* @teleloc 0xB99F000B [32.643070 54.638490 95.258930] -0.290848 0.000000 0.000000 -0.956769 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F129, 35570, 0xB99F0002, 16.86737, 31.42925, 101.4331, -0.6661732, 0, 0, -0.745797,  True, '2019-02-10 00:00:00'); /* Flame Grenade */
-/* @teleloc 0xB99F0002 [16.867370 31.429250 101.433100] -0.666173 0.000000 0.000000 -0.745797 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12A, 35569, 0xB99F0002, 16.55597, 31.32437, 101.5575, -0.6683271, 0, 0, -0.7438675,  True, '2019-02-10 00:00:00'); /* Spear */
-/* @teleloc 0xB99F0002 [16.555970 31.324370 101.557500] -0.668327 0.000000 0.000000 -0.743868 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12B, 35570, 0xB99F0011, 69.69753, 9.900455, 88.91747, 0.6740906, 0, 0, -0.7386487,  True, '2019-02-10 00:00:00'); /* Flame Grenade */
-/* @teleloc 0xB99F0011 [69.697530 9.900455 88.917470] 0.674091 0.000000 0.000000 -0.738649 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12C,  4382, 0xB99F0008, 23.87802, 186.5526, 54.01017, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */
+VALUES (0x7B99F126,  4382, 0xB99F0008, 23.87802, 186.5526, 54.01017, 0.8660254, 0, 0, -0.5,  True, '2019-02-10 00:00:00'); /* Corpse */
 /* @teleloc 0xB99F0008 [23.878020 186.552600 54.010170] 0.866025 0.000000 0.000000 -0.500000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12D, 22572, 0xB99F0008, 23.37513, 186.0023, 54.05207, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
+VALUES (0x7B99F127, 22572, 0xB99F0008, 23.37513, 186.0023, 54.05207, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Runed Chest */
 /* @teleloc 0xB99F0008 [23.375130 186.002300 54.052070] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B99F12E, 35464, 0xB99F002D, 136.8602, 107.8647, 54.59498, 0.405121, 0, 0, 0.914263,  True, '2019-02-10 00:00:00'); /* Drudge Bonfire */
+VALUES (0x7B99F128, 35464, 0xB99F002D, 136.8602, 107.8647, 54.59498, 0.405121, 0, 0, 0.914263,  True, '2019-02-10 00:00:00'); /* Drudge Bonfire */
 /* @teleloc 0xB99F002D [136.860200 107.864700 54.594980] 0.405121 0.000000 0.000000 0.914263 */
