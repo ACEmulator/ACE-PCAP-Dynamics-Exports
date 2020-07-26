@@ -30,9 +30,3 @@ VALUES (7276,   1,   33555446) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7276, 8040, 9175362, 127.7061, -67.76887, -4.1575, -0.921203, 0, 0, -0.3890823) /* PCAPRecordedLocation */
 /* @teleloc 0x008C0142 [127.706100 -67.768870 -4.157500] -0.921203 0.000000 0.000000 -0.389082 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7276, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
-     , (7276, 2, 46372,  1, 0, 0, False) /* Create Spectral Tachi (46372) for Wield */
-     , (7276, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (7276, 2,  4804,  1, 0, 0, False) /* Create Slithis Spine (4804) for Wield */;

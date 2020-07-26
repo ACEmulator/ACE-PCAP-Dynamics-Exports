@@ -28,6 +28,3 @@ VALUES (8330,   1,   33555211) /* Setup */
      , (8330,   6,   67111919) /* PaletteBase */
      , (8330,   8,  100671084) /* Icon */
      , (8330,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8330, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

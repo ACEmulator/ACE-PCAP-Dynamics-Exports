@@ -63,6 +63,3 @@ VALUES (359, 8040, 3332964642, 31.9969, 82.953, 41.929, 0.08975437, 0.08975437, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (359,  1591,      2)  /* HeartSeekerSelf5 */
      , (359,  1615,      2)  /* BloodDrinkerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (359, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

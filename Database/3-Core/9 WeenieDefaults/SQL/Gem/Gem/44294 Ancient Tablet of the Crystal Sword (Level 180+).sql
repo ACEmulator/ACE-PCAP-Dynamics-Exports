@@ -33,7 +33,3 @@ VALUES (44294,   1,   33554773) /* Setup */
      , (44294,   3,  536870932) /* SoundTable */
      , (44294,   8,  100691958) /* Icon */
      , (44294,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44294, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (44294, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

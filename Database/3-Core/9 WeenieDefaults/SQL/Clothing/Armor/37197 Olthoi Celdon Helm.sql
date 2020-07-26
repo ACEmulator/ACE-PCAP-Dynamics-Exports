@@ -64,6 +64,3 @@ VALUES (37197,  1486,      2)  /* Impenetrability6 */
      , (37197,  4397,      2)  /* BludgeonBane8 */
      , (37197,  4596,      2)  /* MagicResistanceSelf8 */
      , (37197,  4664,      2)  /* CANTRIPFLAMEBANE3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37197, 2,   333,  1, 0, 0, False) /* Create Nabut (333) for Wield */;

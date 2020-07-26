@@ -45,8 +45,3 @@ VALUES (47517,   1,   33555731) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47517, 8040, 43057947, 207.8017, -261.1362, -6.09545, 0.8102285, 0.5401729, -0.1267539, -0.188882) /* PCAPRecordedLocation */
 /* @teleloc 0x0291031B [207.801700 -261.136200 -6.095450] 0.810229 0.540173 -0.126754 -0.188882 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47517, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (47517, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */
-     , (47517, 2, 47771,  1, 0, 0, False) /* Create Flaming Spear (47771) for Wield */;

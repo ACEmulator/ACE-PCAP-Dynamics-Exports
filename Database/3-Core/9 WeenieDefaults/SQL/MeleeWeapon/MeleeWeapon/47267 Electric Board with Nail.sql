@@ -30,6 +30,3 @@ VALUES (47267,   1,   33559654) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47267, 8040, 3060727811, 13.7983, 52.12792, 36.54928, 0.8029755, 0.5353079, -0.1459411, -0.2176624) /* PCAPRecordedLocation */
 /* @teleloc 0xB66F0003 [13.798300 52.127920 36.549280] 0.802976 0.535308 -0.145941 -0.217662 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47267, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */;

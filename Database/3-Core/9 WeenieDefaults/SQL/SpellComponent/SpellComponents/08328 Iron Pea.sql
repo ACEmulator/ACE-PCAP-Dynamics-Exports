@@ -28,8 +28,3 @@ VALUES (8328,   1,   33555211) /* Setup */
      , (8328,   6,   67111919) /* PaletteBase */
      , (8328,   8,  100671082) /* Icon */
      , (8328,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8328, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wield */
-     , (8328, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (8328, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

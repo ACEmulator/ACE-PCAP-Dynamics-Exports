@@ -60,9 +60,3 @@ VALUES (5313,   1,   33554730) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5313, 8040, 1486880827, 183.8807, 60.10794, 13.9295, 0.7013692, 0.7013692, -0.08989541, -0.08989541) /* PCAPRecordedLocation */
 /* @teleloc 0x58A0003B [183.880700 60.107940 13.929500] 0.701369 0.701369 -0.089895 -0.089895 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5313, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (5313, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */
-     , (5313, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198) for Wield */
-     , (5313, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (12196) for Wield */;

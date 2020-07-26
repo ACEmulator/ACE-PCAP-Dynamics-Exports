@@ -27,7 +27,3 @@ VALUES (29991,   1,   33559304) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29991, 8040, 1072693301, 163.3046, 105.0706, 11.49291, 0.5514037, 0.5514037, -0.4426669, -0.4426669) /* PCAPRecordedLocation */
 /* @teleloc 0x3FF00035 [163.304600 105.070600 11.492910] 0.551404 0.551404 -0.442667 -0.442667 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29991, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (29991, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

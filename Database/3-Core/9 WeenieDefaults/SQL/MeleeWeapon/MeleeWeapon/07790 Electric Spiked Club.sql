@@ -60,6 +60,3 @@ VALUES (7790,   1,   33556659) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (7790,  2096,      2)  /* BloodDrinkerSelf7 */
      , (7790,  2603,      2)  /* CANTRIPHEARTTHIRST1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7790, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

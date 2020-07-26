@@ -34,6 +34,3 @@ VALUES (46068,   1,   33557759) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46068, 8040, 15008906, 63.74749, -255.0175, -36.0695, -0.5444995, 0, 0, 0.8387612) /* PCAPRecordedLocation */
 /* @teleloc 0x00E5048A [63.747490 -255.017500 -36.069500] -0.544500 0.000000 0.000000 0.838761 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46068, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

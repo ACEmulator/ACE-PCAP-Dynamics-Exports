@@ -60,7 +60,3 @@ VALUES (5304,   1,   33554724) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5304, 8040, 2536964124, 94.46544, 75.56378, 32.09927, 0.6123725, 0.6123725, -0.3535534, -0.3535534) /* PCAPRecordedLocation */
 /* @teleloc 0x9737001C [94.465440 75.563780 32.099270] 0.612373 0.612373 -0.353553 -0.353553 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5304, 2, 12187,  1, 0, 0, False) /* Create Assassin's Acid Jambiya (12187) for Wield */
-     , (5304, 2, 12194,  1, 0, 0, False) /* Create Assassin's Acid Simi (12194) for Wield */;

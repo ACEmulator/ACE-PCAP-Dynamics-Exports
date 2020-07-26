@@ -27,7 +27,3 @@ VALUES (2434,   1, 'Lesser Mana Stone') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2434,   1,   33555639) /* Setup */
      , (2434,   8,  100676303) /* Icon */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2434, 2, 47996,  1, 0, 0, False) /* Create Lightning Katar (47996) for Wield */
-     , (2434, 2,  7969,  1, 0, 0, False) /* Create Kite Shield (7969) for Wield */;

@@ -54,6 +54,3 @@ VALUES (3906,   1,   33555829) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3906,  1590,      2)  /* HeartSeekerSelf4 */
      , (3906,  1614,      2)  /* BloodDrinkerSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3906, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

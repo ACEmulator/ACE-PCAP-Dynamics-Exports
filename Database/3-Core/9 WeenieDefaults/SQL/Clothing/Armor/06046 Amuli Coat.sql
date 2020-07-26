@@ -56,7 +56,3 @@ VALUES (6046, 8040, 23855555, 59.06112, -36.90448, -0.002499998, -0.6764553, 0, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (6046,  1486,      2)  /* Impenetrability6 */
      , (6046,  1574,      2)  /* PiercingBane6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6046, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (6046, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */;

@@ -57,6 +57,3 @@ VALUES (43050,   1,   33554647) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43050,  4407,      2)  /* Impenetrability8 */
      , (43050,  6082,      2)  /* CantripFlameWard4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43050, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

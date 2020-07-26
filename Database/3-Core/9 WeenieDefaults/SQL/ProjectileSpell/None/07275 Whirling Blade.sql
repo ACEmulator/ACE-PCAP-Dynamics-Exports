@@ -28,16 +28,3 @@ VALUES (7275,   1,   33556614) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7275, 8040, 43058056, 210.6865, -120.8234, 7.201849, -0.9047743, 0, 0, -0.4258913) /* PCAPRecordedLocation */
 /* @teleloc 0x02910388 [210.686500 -120.823400 7.201849] -0.904774 0.000000 0.000000 -0.425891 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7275, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
-     , (7275, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (7275, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (7275, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (7275, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (7275, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (7275, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (7275, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (7275, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (7275, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */
-     , (7275, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

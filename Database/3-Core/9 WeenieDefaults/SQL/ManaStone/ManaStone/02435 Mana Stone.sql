@@ -27,6 +27,3 @@ VALUES (2435,   1, 'Mana Stone') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (2435,   1,   33555641) /* Setup */
      , (2435,   8,  100676304) /* Icon */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2435, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

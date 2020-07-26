@@ -53,7 +53,3 @@ VALUES (2596,   1,   33554854) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2596,   519,      2)  /* AcidProtectionSelf5 */
      , (2596,  2617,      2)  /* CANTRIPBLUDGEONINGWARD1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2596, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (2596, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

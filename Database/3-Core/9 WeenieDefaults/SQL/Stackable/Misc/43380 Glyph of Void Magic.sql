@@ -25,6 +25,3 @@ VALUES (43380,   1,   33554809) /* Setup */
      , (43380,   8,  100690191) /* Icon */
      , (43380,  22,  872415275) /* PhysicsEffectTable */
      , (43380,  50,  100691567) /* IconOverlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43380, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */;

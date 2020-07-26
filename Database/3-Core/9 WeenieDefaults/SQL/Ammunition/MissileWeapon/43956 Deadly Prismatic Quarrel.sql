@@ -72,9 +72,3 @@ VALUES (43956,   1,   33561225) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43956, 8040, 43058115, 208.8722, -13.69586, 17.929, -0.706532, -0.706532, -0.02850472, -0.02850472) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C3 [208.872200 -13.695860 17.929000] -0.706532 -0.706532 -0.028505 -0.028505 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43956, 2, 22545,  1, 0, 0, False) /* Create Obsidian Spines (22545) for Wield */
-     , (43956, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (43956, 2, 33459,  1, 0, 0, False) /* Create Shadow Bolt (33459) for Wield */
-     , (43956, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;

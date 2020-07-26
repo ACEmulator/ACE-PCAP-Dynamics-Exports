@@ -60,9 +60,3 @@ VALUES (47886,   1,   33554730) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47886, 8040, 30277925, 50.07286, -80.00049, -18.0685, 0, 0, -0.7071068, -0.7071068) /* PCAPRecordedLocation */
 /* @teleloc 0x01CE0125 [50.072860 -80.000490 -18.068500] 0.000000 0.000000 -0.707107 -0.707107 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47886, 2, 47344,  1, 0, 0, False) /* Create Club (47344) for Wield */
-     , (47886, 2, 22784,  1, 0, 0, False) /* Create Khanjar (22784) for Wield */
-     , (47886, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
-     , (47886, 2, 12079,  1, 0, 0, False) /* Create Bandit Lightning Short Sword (12079) for Wield */;

@@ -38,10 +38,3 @@ VALUES (46632,   1,   33555689) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (46632, 8040, 1289945114, 81.55021, 44.96788, 68.32617, -0.3512664, -0.3512664, -0.6136872, -0.6136872) /* PCAPRecordedLocation */
 /* @teleloc 0x4CE3001A [81.550210 44.967880 68.326170] -0.351266 -0.351266 -0.613687 -0.613687 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46632, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
-     , (46632, 2, 31391,  1, 0, 0, False) /* Create Raven Bow (31391) for Wield */
-     , (46632, 2, 32783,  1, 0, 0, False) /* Create Shield of Silyun (32783) for Wield */
-     , (46632, 2, 30946,  1, 0, 0, False) /* Create Poniard (30946) for Wield */
-     , (46632, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;

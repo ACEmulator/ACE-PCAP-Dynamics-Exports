@@ -31,11 +31,3 @@ VALUES (26529,   1,   33558626) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (26529, 8040, 4181393993, 142.0852, 114.0048, -74.59849, -0.3826841, 0, 0, 0.9238793) /* PCAPRecordedLocation */
 /* @teleloc 0xF93B0249 [142.085200 114.004800 -74.598490] -0.382684 0.000000 0.000000 0.923879 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (26529, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
-     , (26529, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wield */
-     , (26529, 2, 12077,  1, 0, 0, False) /* Create Bandit Acid Short Sword (12077) for Wield */
-     , (26529, 2, 33081,  1, 0, 0, False) /* Create Shadow Blade (33081) for Wield */
-     , (26529, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (26529, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

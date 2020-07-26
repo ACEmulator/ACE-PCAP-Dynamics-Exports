@@ -59,6 +59,3 @@ VALUES (30609,   1,   33559495) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30609,  1615,      2)  /* BloodDrinkerSelf5 */
      , (30609,  2583,      2)  /* CANTRIPSTRENGTH1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30609, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

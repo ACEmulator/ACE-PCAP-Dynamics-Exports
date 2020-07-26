@@ -61,8 +61,3 @@ VALUES (22166,   1,   33558066) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22166,  1615,      2)  /* BloodDrinkerSelf5 */
      , (22166,  2583,      2)  /* CANTRIPSTRENGTH1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22166, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (22166, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (22166, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

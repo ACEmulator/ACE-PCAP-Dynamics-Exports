@@ -53,9 +53,3 @@ VALUES (5709,   1,   33555469) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5709, 8040, 2278948925, 174.0093, 105.1479, 165.6734, -0.1675534, -0.1675534, -0.6869686, -0.6869686) /* PCAPRecordedLocation */
 /* @teleloc 0x87D6003D [174.009300 105.147900 165.673400] -0.167553 -0.167553 -0.686969 -0.686969 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5709, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
-     , (5709, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
-     , (5709, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
-     , (5709, 2, 47233,  1, 0, 0, False) /* Create Acid Board with Nail (47233) for Wield */;

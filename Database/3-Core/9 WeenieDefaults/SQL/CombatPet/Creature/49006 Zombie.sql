@@ -33,6 +33,3 @@ VALUES (49006, 8040, 2114127645, 268.2716, -50.48283, 6.005, 0.9896459, 0, 0, -0
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (49006,   1,     0, 0, 0, 920) /* MaxHealth */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49006, 2, 48975,  1, 0, 0, False) /* Create Acid Hatchet (48975) for Wield */;

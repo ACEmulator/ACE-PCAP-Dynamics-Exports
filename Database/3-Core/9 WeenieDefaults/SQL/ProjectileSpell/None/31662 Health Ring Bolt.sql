@@ -30,10 +30,3 @@ VALUES (31662,   1,   33555469) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (31662, 8040, 17105476, 48.99908, -146.9238, -10.77167, 0.3946773, 0, 0, -0.9188198) /* PCAPRecordedLocation */
 /* @teleloc 0x01050244 [48.999080 -146.923800 -10.771670] 0.394677 0.000000 0.000000 -0.918820 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31662, 2, 47404,  1, 0, 0, False) /* Create Frost Club (47404) for Wield */
-     , (31662, 2, 48030,  1, 0, 0, False) /* Create Acid Silifi (48030) for Wield */
-     , (31662, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (31662, 2, 48033,  1, 0, 0, False) /* Create Acid Ono (48033) for Wield */
-     , (31662, 2, 47615,  1, 0, 0, False) /* Create Acid Tachi (47615) for Wield */;

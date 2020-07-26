@@ -52,6 +52,3 @@ VALUES (28612,   1,   33559326) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28612,  1485,      2)  /* Impenetrability5 */
      , (28612,  5415,      2)  /* VoidMagicMasterySelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28612, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;

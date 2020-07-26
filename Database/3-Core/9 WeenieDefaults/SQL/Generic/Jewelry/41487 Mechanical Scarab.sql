@@ -43,7 +43,3 @@ VALUES (41487,   1,   33555211) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41487,  1069,      2)  /* LightningProtectionSelf4 */
      , (41487,  2554,      2)  /* CANTRIPLEADERSHIP1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41487, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wield */
-     , (41487, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */;

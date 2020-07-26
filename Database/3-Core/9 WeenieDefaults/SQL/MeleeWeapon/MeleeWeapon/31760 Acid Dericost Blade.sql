@@ -63,6 +63,3 @@ VALUES (31760,  1604,      2)  /* DefenderSelf5 */
      , (31760,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31760,  1626,      2)  /* SwiftKillerSelf5 */
      , (31760,  2582,      2)  /* CANTRIPQUICKNESS1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31760, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */;

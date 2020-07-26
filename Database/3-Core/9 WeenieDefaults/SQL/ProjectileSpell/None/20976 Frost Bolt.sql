@@ -31,8 +31,3 @@ VALUES (20976,   1,   33555444) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20976, 8040, 84475965, 170.7568, 119.0937, 24.76335, -0.4954611, 0, 0, -0.8686302) /* PCAPRecordedLocation */
 /* @teleloc 0x0509003D [170.756800 119.093700 24.763350] -0.495461 0.000000 0.000000 -0.868630 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20976, 2, 47236,  1, 0, 0, False) /* Create Acid Board with Nail (47236) for Wield */
-     , (20976, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (20976, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */;

@@ -25,6 +25,3 @@ VALUES (37328,   1,   33554809) /* Setup */
      , (37328,   8,  100690191) /* Icon */
      , (37328,  22,  872415275) /* PhysicsEffectTable */
      , (37328,  50,  100686680) /* IconOverlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37328, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */;

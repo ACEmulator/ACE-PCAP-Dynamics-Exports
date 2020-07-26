@@ -27,6 +27,3 @@ VALUES (20529,   1,   33554826) /* Setup */
      , (20529,   8,  100676457) /* Icon */
      , (20529,  22,  872415275) /* PhysicsEffectTable */
      , (20529,  28,       2234) /* Spell - FletchingIneptitudeOther7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20529, 2, 21435,  1, 0, 0, False) /* Create Shauraloi (21435) for Wield */;

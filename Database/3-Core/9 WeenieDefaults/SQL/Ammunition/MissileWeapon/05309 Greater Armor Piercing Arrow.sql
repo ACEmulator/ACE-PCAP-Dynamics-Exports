@@ -50,6 +50,3 @@ VALUES (5309,   1,   33554724) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (5309, 8040, 1415119190, 108.5663, -80.11407, -0.076, 0.4991883, 0.4991883, 0.5008104, 0.5008104) /* PCAPRecordedLocation */
 /* @teleloc 0x54590156 [108.566300 -80.114070 -0.076000] 0.499188 0.499188 0.500810 0.500810 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (5309, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;

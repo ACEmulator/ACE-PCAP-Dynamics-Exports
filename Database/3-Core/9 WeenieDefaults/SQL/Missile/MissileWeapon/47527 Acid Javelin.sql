@@ -46,6 +46,3 @@ VALUES (47527,   1,   33555720) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47527, 8040, 2429616181, 165.2244, 108.3829, 286.7943, -0.1105883, -0.1105883, -0.6984055, -0.6984055) /* PCAPRecordedLocation */
 /* @teleloc 0x90D10035 [165.224400 108.382900 286.794300] -0.110588 -0.110588 -0.698406 -0.698406 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47527, 2, 47405,  1, 0, 0, False) /* Create Frost Club (47405) for Wield */;

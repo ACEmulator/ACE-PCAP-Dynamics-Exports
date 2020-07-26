@@ -49,7 +49,3 @@ VALUES (307,   1,   33554729) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (307, 8040, 2458255401, 135.6514, 10.40915, 31.23649, 0.9659258, 0, 0, -0.258819) /* PCAPRecordedLocation */
 /* @teleloc 0x92860029 [135.651400 10.409150 31.236490] 0.965926 0.000000 0.000000 -0.258819 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (307, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
-     , (307, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */;

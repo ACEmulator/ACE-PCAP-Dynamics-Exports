@@ -30,11 +30,3 @@ VALUES (20977,   1,   33555440) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20977, 8040, 619642890, 39.13729, 25.56401, 11.02665, 0.6047786, 0, 0, -0.7963937) /* PCAPRecordedLocation */
 /* @teleloc 0x24EF000A [39.137290 25.564010 11.026650] 0.604779 0.000000 0.000000 -0.796394 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20977, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
-     , (20977, 2, 47542,  1, 0, 0, False) /* Create Javelin (47542) for Wield */
-     , (20977, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
-     , (20977, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (20977, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
-     , (20977, 2, 47521,  1, 0, 0, False) /* Create Acid Javelin (47521) for Wield */;

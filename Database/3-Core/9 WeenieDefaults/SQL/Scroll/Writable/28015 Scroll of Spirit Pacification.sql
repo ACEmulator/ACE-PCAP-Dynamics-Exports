@@ -27,6 +27,3 @@ VALUES (28015,   1,   33554826) /* Setup */
      , (28015,   8,  100676675) /* Icon */
      , (28015,  22,  872415275) /* PhysicsEffectTable */
      , (28015,  28,       3266) /* Spell - SpiritLoather7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28015, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

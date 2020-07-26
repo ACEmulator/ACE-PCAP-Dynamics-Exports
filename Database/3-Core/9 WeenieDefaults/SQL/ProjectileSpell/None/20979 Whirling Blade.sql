@@ -31,9 +31,3 @@ VALUES (20979,   1,   33555452) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (20979, 8040, 23855555, 55.4646, -35.57793, 1.827253, -0.8610468, 0, 0, -0.5085257) /* PCAPRecordedLocation */
 /* @teleloc 0x016C01C3 [55.464600 -35.577930 1.827253] -0.861047 0.000000 0.000000 -0.508526 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20979, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
-     , (20979, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (20979, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (20979, 2, 47350,  1, 0, 0, False) /* Create Club (47350) for Wield */;

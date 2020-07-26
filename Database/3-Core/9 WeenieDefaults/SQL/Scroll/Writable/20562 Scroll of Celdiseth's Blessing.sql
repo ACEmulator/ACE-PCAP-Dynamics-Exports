@@ -27,6 +27,3 @@ VALUES (20562,   1,   33554826) /* Setup */
      , (20562,   8,  100676477) /* Icon */
      , (20562,  22,  872415275) /* PhysicsEffectTable */
      , (20562,  28,       2277) /* Spell - MagicItemExpertiseSelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20562, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */;

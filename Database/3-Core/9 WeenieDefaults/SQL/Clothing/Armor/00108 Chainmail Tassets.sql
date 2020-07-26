@@ -52,6 +52,3 @@ VALUES (108,   1,   33554656) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (108,  1486,      2)  /* Impenetrability6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (108, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */;

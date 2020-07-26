@@ -53,6 +53,3 @@ VALUES (114,   1,   33554641) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (114,   277,      2)  /* MagicResistanceSelf4 */
      , (114,  1485,      2)  /* Impenetrability5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (114, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

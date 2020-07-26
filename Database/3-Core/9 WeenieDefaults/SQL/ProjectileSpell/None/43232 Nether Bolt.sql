@@ -30,6 +30,3 @@ VALUES (43232,   1,   33561128) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43232, 8040, 43058115, 210.4944, -13.65833, 19.26394, -0.1571058, 0, 0, -0.9875818) /* PCAPRecordedLocation */
 /* @teleloc 0x029103C3 [210.494400 -13.658330 19.263940] -0.157106 0.000000 0.000000 -0.987582 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43232, 2, 47634,  1, 0, 0, False) /* Create Tachi (47634) for Wield */;

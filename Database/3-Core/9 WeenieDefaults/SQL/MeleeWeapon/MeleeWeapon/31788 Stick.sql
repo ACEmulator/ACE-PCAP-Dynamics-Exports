@@ -68,8 +68,3 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31788,  1615,      2)  /* BloodDrinkerSelf5 */
      , (31788,  2580,      2)  /* CANTRIPENDURANCE1 */
      , (31788,  5807,      2)  /* DualWieldMasterySelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31788, 2, 47643,  1, 0, 0, False) /* Create Tachi (47643) for Wield */
-     , (31788, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (31788, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

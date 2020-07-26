@@ -29,9 +29,3 @@ VALUES (2412,   1,   33554809) /* Setup */
      , (2412,   8,  100674715) /* Icon */
      , (2412,  22,  872415275) /* PhysicsEffectTable */
      , (2412,  28,       2053) /* Spell - ArmorSelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2412, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (2412, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (2412, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (2412, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

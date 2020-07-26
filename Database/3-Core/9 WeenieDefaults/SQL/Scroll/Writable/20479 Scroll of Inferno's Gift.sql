@@ -27,6 +27,3 @@ VALUES (20479,   1,   33554826) /* Setup */
      , (20479,   8,  100676949) /* Icon */
      , (20479,  22,  872415275) /* PhysicsEffectTable */
      , (20479,  28,       2170) /* Spell - FireVulnerabilityOther7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20479, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

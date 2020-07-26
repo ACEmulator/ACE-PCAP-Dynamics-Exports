@@ -41,6 +41,3 @@ VALUES (28605,   1,   33559323) /* Setup */
      , (28605,   6,   67108990) /* PaletteBase */
      , (28605,   8,  100682314) /* Icon */
      , (28605,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28605, 2, 33082,  1, 0, 0, False) /* Create Shadow Blade (33082) for Wield */;

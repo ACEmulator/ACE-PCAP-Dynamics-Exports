@@ -52,6 +52,3 @@ VALUES (63,  1486,      2)  /* Impenetrability6 */
      , (63,  1516,      2)  /* BludgeonBane6 */
      , (63,  1561,      2)  /* BladeBane5 */
      , (63,  2281,      2)  /* MagicResistanceSelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (63, 2, 26048,  1, 0, 0, False) /* Create Stone Spear (26048) for Wield */;

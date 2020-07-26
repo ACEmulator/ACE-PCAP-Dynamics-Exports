@@ -38,6 +38,3 @@ VALUES (2423,   1,   33554809) /* Setup */
      , (2423,   8,  100674750) /* Icon */
      , (2423,  22,  872415275) /* PhysicsEffectTable */
      , (2423,  28,       1312) /* Spell - ArmorSelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2423, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;

@@ -63,6 +63,3 @@ VALUES (312, 8040, 2536964131, 99.46177, 71.7042, 31.6138, 0.9238795, 0, 0, -0.3
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (312,  1353,      2)  /* EnduranceSelf5 */
      , (312,  1615,      2)  /* BloodDrinkerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (312, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */;

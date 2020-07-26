@@ -55,7 +55,3 @@ VALUES (78,  1486,      2)  /* Impenetrability6 */
      , (78,  2104,      2)  /* FrostBane7 */
      , (78,  2185,      2)  /* RegenerationSelf7 */
      , (78,  2546,      2)  /* CANTRIPFEALTY1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (78, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (78, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

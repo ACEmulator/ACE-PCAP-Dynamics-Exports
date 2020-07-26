@@ -34,6 +34,3 @@ VALUES (23686,   1,   33554788) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23686, 8040, 1486749725, 94.53191, 107.0197, 23.74123, 0.4332036, 0.5997272, -0.5918708, 0.3199232) /* PCAPRecordedLocation */
 /* @teleloc 0x589E001D [94.531910 107.019700 23.741230] 0.433204 0.599727 -0.591871 0.319923 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23686, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */;

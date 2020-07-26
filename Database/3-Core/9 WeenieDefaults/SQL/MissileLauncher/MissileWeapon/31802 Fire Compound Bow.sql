@@ -72,6 +72,3 @@ VALUES (31802,  2116,      2)  /* SwiftKillerSelf7 */
      , (31802,  4395,      2)  /* BloodDrinkerSelf8 */
      , (31802,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
      , (31802,  5784,      2)  /* DirtyFightingMasterySelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31802, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

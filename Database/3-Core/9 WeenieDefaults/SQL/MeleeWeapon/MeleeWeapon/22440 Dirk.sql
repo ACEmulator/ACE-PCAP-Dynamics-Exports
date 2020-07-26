@@ -66,6 +66,3 @@ VALUES (22440,  2096,      2)  /* BloodDrinkerSelf7 */
      , (22440,  2576,      2)  /* CANTRIPSTRENGTH2 */
      , (22440,  2613,      2)  /* CANTRIPPIERCINGWARD2 */
      , (22440,  5808,      2)  /* DualWieldMasterySelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22440, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */;

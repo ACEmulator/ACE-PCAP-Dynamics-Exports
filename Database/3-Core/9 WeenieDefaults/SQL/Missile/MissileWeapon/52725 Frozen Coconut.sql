@@ -56,6 +56,3 @@ VALUES (52725,   1,   33554669) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (52725, 8040, 1499529479, 16.4503, -24.85908, -0.1056, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x59610107 [16.450300 -24.859080 -0.105600] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (52725, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;

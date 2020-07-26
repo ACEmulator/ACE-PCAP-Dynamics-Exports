@@ -29,6 +29,3 @@ VALUES (47367,   1,   33555715) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47367, 8040, 2442592318, 168.1015, 120.7749, 31.90455, 0.7574441, 0.5048196, -0.23024, -0.3441294) /* PCAPRecordedLocation */
 /* @teleloc 0x9197003E [168.101500 120.774900 31.904550] 0.757444 0.504820 -0.230240 -0.344129 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47367, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

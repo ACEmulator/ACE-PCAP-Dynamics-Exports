@@ -44,8 +44,3 @@ VALUES (297, 8040, 3060727844, 100.0636, 94.28715, 41.68186, 0.9877784, 0, 0, -0
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (297,  1378,      2)  /* CoordinationSelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (297, 2, 46400,  1, 0, 0, False) /* Create T'thuun Bow (46400) for Wield */
-     , (297, 2, 12190,  1, 0, 0, False) /* Create Assassin's Flaming Jambiya (12190) for Wield */
-     , (297, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

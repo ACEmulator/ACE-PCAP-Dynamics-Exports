@@ -22,7 +22,3 @@ VALUES (37364,   1, 'Quill of Introspection') /* Name */
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (37364,   1,   33559616) /* Setup */
      , (37364,   8,  100690197) /* Icon */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (37364, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (37364, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

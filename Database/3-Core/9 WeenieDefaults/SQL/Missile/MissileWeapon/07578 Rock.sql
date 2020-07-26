@@ -55,6 +55,3 @@ VALUES (7578,   1,   33555863) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7578, 8040, 2383872016, 29.12825, 171.6261, 203.83, 0.1539979, 0.1539979, -0.6901338, -0.6901338) /* PCAPRecordedLocation */
 /* @teleloc 0x8E170010 [29.128250 171.626100 203.830000] 0.153998 0.153998 -0.690134 -0.690134 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7578, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */;

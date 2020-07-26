@@ -54,8 +54,3 @@ VALUES (4804,   1,   33556900) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (4804, 8040, 4095213602, 119.52, 28.2778, 159.532, 0.4012963, 0, 0, -0.9159483) /* PCAPRecordedLocation */
 /* @teleloc 0xF4180022 [119.520000 28.277800 159.532000] 0.401296 0.000000 0.000000 -0.915948 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (4804, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
-     , (4804, 2, 32852,  1, 0, 0, False) /* Create Blade of the Realm (32852) for Wield */
-     , (4804, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

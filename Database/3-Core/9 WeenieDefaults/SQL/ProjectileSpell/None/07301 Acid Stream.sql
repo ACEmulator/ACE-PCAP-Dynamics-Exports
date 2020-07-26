@@ -31,9 +31,3 @@ VALUES (7301,   1,   33555469) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7301, 8040, 10944770, 126.4199, -60.35337, -0.4839559, 0.7471739, 0, 0, -0.6646286) /* PCAPRecordedLocation */
 /* @teleloc 0x00A70102 [126.419900 -60.353370 -0.483956] 0.747174 0.000000 0.000000 -0.664629 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7301, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (7301, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (7301, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (7301, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

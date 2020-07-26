@@ -44,8 +44,3 @@ VALUES (29979,   1,   33559307) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29979, 8040, 1173553153, 21.02985, 14.87147, 65.41715, 0.2208469, 0.2208469, -0.6717341, -0.6717341) /* PCAPRecordedLocation */
 /* @teleloc 0x45F30001 [21.029850 14.871470 65.417150] 0.220847 0.220847 -0.671734 -0.671734 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29979, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (29979, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */
-     , (29979, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */;

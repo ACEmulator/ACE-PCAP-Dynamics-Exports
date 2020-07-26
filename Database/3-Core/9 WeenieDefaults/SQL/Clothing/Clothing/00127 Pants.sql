@@ -53,8 +53,3 @@ VALUES (127, 8040, 3111190798, 32.35411, 37.79568, 22.4025, 0.997676, 0, 0, 0.06
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (127,  1137,      2)  /* PiercingProtectionSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (127, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (127, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (127, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */;

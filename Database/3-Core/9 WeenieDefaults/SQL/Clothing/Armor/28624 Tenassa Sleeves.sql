@@ -51,7 +51,3 @@ VALUES (28624,   1,   33559333) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28624,  1485,      2)  /* Impenetrability5 */
      , (28624,  1561,      2)  /* BladeBane5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28624, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (28624, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

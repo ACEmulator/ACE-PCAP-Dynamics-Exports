@@ -67,6 +67,3 @@ VALUES (30576,  1377,      2)  /* CoordinationSelf5 */
      , (30576,  1604,      2)  /* DefenderSelf5 */
      , (30576,  1615,      2)  /* BloodDrinkerSelf5 */
      , (30576,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30576, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

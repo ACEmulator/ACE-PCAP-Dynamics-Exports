@@ -27,6 +27,3 @@ VALUES (3249,   1,   33554826) /* Setup */
      , (3249,   8,  100676468) /* Icon */
      , (3249,  22,  872415275) /* PhysicsEffectTable */
      , (3249,  28,        264) /* Spell - DefenselessnessOther3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3249, 2, 47408,  1, 0, 0, False) /* Create Frost Club (47408) for Wield */;

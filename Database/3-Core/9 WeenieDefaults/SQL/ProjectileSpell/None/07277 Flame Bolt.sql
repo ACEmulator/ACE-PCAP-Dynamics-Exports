@@ -30,17 +30,3 @@ VALUES (7277,   1,   33555469) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (7277, 8040, 32834085, 49.96867, -142.4962, 1.041333, -0.999988, 0, 0, -0.00489531) /* PCAPRecordedLocation */
 /* @teleloc 0x01F50225 [49.968670 -142.496200 1.041333] -0.999988 0.000000 0.000000 -0.004895 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7277, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (7277, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (7277, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (7277, 2, 32698,  1, 0, 0, False) /* Create Shield of Strathelar (32698) for Wield */
-     , (7277, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (7277, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
-     , (7277, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (7277, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (7277, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */
-     , (7277, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (7277, 2, 40760,  1, 0, 0, False) /* Create Nodachi (40760) for Wield */
-     , (7277, 2, 12463,  1, 0, 0, False) /* Create Atlatl (12463) for Wield */;
