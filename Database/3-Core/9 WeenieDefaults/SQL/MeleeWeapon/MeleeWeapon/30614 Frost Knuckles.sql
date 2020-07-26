@@ -62,6 +62,3 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30614,  1604,      2)  /* DefenderSelf5 */
      , (30614,  1615,      2)  /* BloodDrinkerSelf5 */
      , (30614,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30614, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

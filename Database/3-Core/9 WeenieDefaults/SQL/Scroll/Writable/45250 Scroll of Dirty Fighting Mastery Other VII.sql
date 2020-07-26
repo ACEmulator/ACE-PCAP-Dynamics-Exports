@@ -27,6 +27,3 @@ VALUES (45250,   1,   33554826) /* Setup */
      , (45250,   8,  100692255) /* Icon */
      , (45250,  22,  872415275) /* PhysicsEffectTable */
      , (45250,  28,       5777) /* Spell - DirtyFightingMasteryOther7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (45250, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

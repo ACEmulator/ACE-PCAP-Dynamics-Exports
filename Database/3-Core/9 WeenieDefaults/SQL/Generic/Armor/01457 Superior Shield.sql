@@ -53,6 +53,3 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (1457,   247,      2)  /* InvulnerabilitySelf4 */
      , (1457,   421,      2)  /* SwordMasterySelf4 */
      , (1457,  1484,      2)  /* Impenetrability4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1457, 2, 12191,  1, 0, 0, False) /* Create Assassin's Frost Jambiya (12191) for Wield */;

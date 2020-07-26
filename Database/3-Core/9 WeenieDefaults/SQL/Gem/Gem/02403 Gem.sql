@@ -38,7 +38,3 @@ VALUES (2403,   1,   33554809) /* Setup */
      , (2403,   8,  100674732) /* Icon */
      , (2403,  22,  872415275) /* PhysicsEffectTable */
      , (2403,  28,       1022) /* Spell - BludgeonProtectionSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2403, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
-     , (2403, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

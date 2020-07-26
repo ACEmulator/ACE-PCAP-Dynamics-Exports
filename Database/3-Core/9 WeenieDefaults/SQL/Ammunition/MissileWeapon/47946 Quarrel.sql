@@ -60,6 +60,3 @@ VALUES (47946,   1,   33554730) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47946, 8040, 2487681062, 107.5226, 131.1892, 6.063179, 0.5789313, 0.5789313, -0.4060031, -0.4060031) /* PCAPRecordedLocation */
 /* @teleloc 0x94470026 [107.522600 131.189200 6.063179] 0.578931 0.578931 -0.406003 -0.406003 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47946, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */;

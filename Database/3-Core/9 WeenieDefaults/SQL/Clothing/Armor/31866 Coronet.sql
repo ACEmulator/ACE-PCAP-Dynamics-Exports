@@ -56,6 +56,3 @@ VALUES (31866,   855,      2)  /* DeceptionMasterySelf6 */
      , (31866,  1486,      2)  /* Impenetrability6 */
      , (31866,  2104,      2)  /* FrostBane7 */
      , (31866,  2621,      2)  /* CANTRIPSLASHINGWARD1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31866, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */;

@@ -26,7 +26,3 @@ VALUES (632,   1, 'Peerless Healing Kit') /* Name */;
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (632,   1,   33555194) /* Setup */
      , (632,   8,  100676339) /* Icon */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (632, 2,  3943,  1, 0, 0, False) /* Create Club (3943) for Wield */
-     , (632, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;

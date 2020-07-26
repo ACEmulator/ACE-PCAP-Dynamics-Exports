@@ -60,14 +60,3 @@ VALUES (47064,   1,   33554724) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47064, 8040, 1587740725, 164.9754, 105.4244, 37.67409, 0.5416753, 0.5416753, -0.4545195, -0.4545195) /* PCAPRecordedLocation */
 /* @teleloc 0x5EA30035 [164.975400 105.424400 37.674090] 0.541675 0.541675 -0.454520 -0.454520 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47064, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
-     , (47064, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (47064, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */
-     , (47064, 2, 48624,  1, 0, 0, False) /* Create Icy Club (48624) for Wield */
-     , (47064, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
-     , (47064, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
-     , (47064, 2, 47788,  1, 0, 0, False) /* Create Frost Spear (47788) for Wield */
-     , (47064, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
-     , (47064, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */;

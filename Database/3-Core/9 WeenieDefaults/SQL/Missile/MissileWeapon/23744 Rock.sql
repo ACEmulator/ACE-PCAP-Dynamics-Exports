@@ -53,10 +53,3 @@ VALUES (23744,   1,   33555863) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (23744, 8040, 2519334933, 65.86094, 104.8754, 99.44846, 0.6532815, 0.6532815, -0.2705981, -0.2705981) /* PCAPRecordedLocation */
 /* @teleloc 0x962A0015 [65.860940 104.875400 99.448460] 0.653282 0.653282 -0.270598 -0.270598 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23744, 2, 23664,  1, 0, 0, False) /* Create Heavy Crossbow (23664) for Wield */
-     , (23744, 2, 12189,  1, 0, 0, False) /* Create Assassin's Lightning Jambiya (12189) for Wield */
-     , (23744, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */
-     , (23744, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (23744, 2, 47521,  1, 0, 0, False) /* Create Acid Javelin (47521) for Wield */;

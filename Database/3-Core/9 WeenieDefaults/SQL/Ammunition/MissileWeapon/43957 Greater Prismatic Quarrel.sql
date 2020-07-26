@@ -57,7 +57,3 @@ VALUES (43957,   1,   33561225) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43957, 8040, 4061528110, 127.0224, 126.9225, -0.071, -0.6512884, -0.6512884, -0.2753604, -0.2753604) /* PCAPRecordedLocation */
 /* @teleloc 0xF216002E [127.022400 126.922500 -0.071000] -0.651288 -0.651288 -0.275360 -0.275360 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43957, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
-     , (43957, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

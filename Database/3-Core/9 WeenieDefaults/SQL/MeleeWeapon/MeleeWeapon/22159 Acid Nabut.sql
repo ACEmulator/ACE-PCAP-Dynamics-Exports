@@ -58,6 +58,3 @@ VALUES (22159,   1,   33558072) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (22159,  1614,      2)  /* BloodDrinkerSelf4 */
      , (22159,  1626,      2)  /* SwiftKillerSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22159, 2, 12188,  1, 0, 0, False) /* Create Assassin's Jambiya (12188) for Wield */;

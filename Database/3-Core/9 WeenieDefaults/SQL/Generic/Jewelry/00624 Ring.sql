@@ -42,10 +42,3 @@ VALUES (624,   1,   33554690) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (624,  1312,      2)  /* ArmorSelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (624, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (624, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (624, 2, 29979,  1, 0, 0, False) /* Create Spadone (29979) for Wield */
-     , (624, 2, 20153,  1, 0, 0, False) /* Create Perfect Chilling Isparian Wand (20153) for Wield */
-     , (624, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */;

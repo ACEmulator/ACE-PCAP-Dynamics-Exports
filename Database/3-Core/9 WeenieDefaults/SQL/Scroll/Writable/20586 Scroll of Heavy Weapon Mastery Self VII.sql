@@ -27,6 +27,3 @@ VALUES (20586,   1,   33554826) /* Setup */
      , (20586,   8,  100692254) /* Icon */
      , (20586,  22,  872415275) /* PhysicsEffectTable */
      , (20586,  28,       2309) /* Spell - SwordMasterySelf7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20586, 2, 47390,  1, 0, 0, False) /* Create Flaming Club (47390) for Wield */;

@@ -28,9 +28,3 @@ VALUES (8327,   1,   33555211) /* Setup */
      , (8327,   6,   67111919) /* PaletteBase */
      , (8327,   8,  100671081) /* Icon */
      , (8327,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (8327, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (8327, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (8327, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (8327, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;

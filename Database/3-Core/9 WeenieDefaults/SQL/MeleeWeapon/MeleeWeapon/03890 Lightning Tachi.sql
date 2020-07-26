@@ -66,6 +66,3 @@ VALUES (3890,  2096,      2)  /* BloodDrinkerSelf7 */
      , (3890,  2101,      2)  /* DefenderSelf7 */
      , (3890,  2106,      2)  /* HeartSeekerSelf7 */
      , (3890,  4663,      2)  /* CANTRIPDEFENDER3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (3890, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */;

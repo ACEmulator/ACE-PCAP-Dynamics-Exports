@@ -27,7 +27,3 @@ VALUES (20523,   1,   33554826) /* Setup */
      , (20523,   8,  100676448) /* Icon */
      , (20523,  22,  872415275) /* PhysicsEffectTable */
      , (20523,  28,       2226) /* Spell - DeceptionMasteryOther7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20523, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
-     , (20523, 2, 48020,  1, 0, 0, False) /* Create Quarrel (48020) for Wield */;

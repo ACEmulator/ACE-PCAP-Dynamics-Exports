@@ -43,10 +43,3 @@ VALUES (295,   1,   33554683) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (295,   277,      2)  /* MagicResistanceSelf4 */
      , (295,  2555,      2)  /* CANTRIPLIFEMAGICAPTITUDE1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (295, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (295, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
-     , (295, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (295, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wield */
-     , (295, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */;

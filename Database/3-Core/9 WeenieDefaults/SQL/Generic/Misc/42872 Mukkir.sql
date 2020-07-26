@@ -24,8 +24,3 @@ VALUES (42872,   1,   33561014) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (42872, 8040, 459023, 5.15171, -74.9496, 1.436, 0.707107, 0, 0, 0.707107) /* PCAPRecordedLocation */
 /* @teleloc 0x0007010F [5.151710 -74.949600 1.436000] 0.707107 0.000000 0.000000 0.707107 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (42872, 9, 31803,  0, 0, 0, False) /* Create Frost Compound Bow (31803) for ContainTreasure */
-     , (42872, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
-     , (42872, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */;

@@ -71,17 +71,3 @@ VALUES (43951,   1,   33561223) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43951, 8040, 1676148772, 117.3826, 86.78278, 131.49, 0.6430498, 0.6430498, -0.2940865, -0.2940865) /* PCAPRecordedLocation */
 /* @teleloc 0x63E80024 [117.382600 86.782780 131.490000] 0.643050 0.643050 -0.294087 -0.294087 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43951, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
-     , (43951, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
-     , (43951, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */
-     , (43951, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
-     , (43951, 2, 12053,  1, 0, 0, False) /* Create Bandit Lightning Dagger (12053) for Wield */
-     , (43951, 2, 46633,  1, 0, 0, False) /* Create Lightning Longbow (46633) for Wield */
-     , (43951, 2, 37224,  1, 0, 0, False) /* Create Acid Staff (37224) for Wield */
-     , (43951, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
-     , (43951, 2, 47540,  1, 0, 0, False) /* Create Javelin (47540) for Wield */
-     , (43951, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
-     , (43951, 2, 47705,  1, 0, 0, False) /* Create Acid Spear (47705) for Wield */
-     , (43951, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;

@@ -55,6 +55,3 @@ VALUES (75,  1485,      2)  /* Impenetrability5 */
      , (75,  1561,      2)  /* BladeBane5 */
      , (75,  1573,      2)  /* PiercingBane5 */
      , (75,  2550,      2)  /* CANTRIPINVULNERABILITY1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (75, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

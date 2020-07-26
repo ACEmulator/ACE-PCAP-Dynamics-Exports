@@ -50,6 +50,3 @@ VALUES (22157,   1,   33558078) /* Setup */
      , (22157,   8,  100673624) /* Icon */
      , (22157,  22,  872415275) /* PhysicsEffectTable */
      , (22157,  52,  100676435) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22157, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

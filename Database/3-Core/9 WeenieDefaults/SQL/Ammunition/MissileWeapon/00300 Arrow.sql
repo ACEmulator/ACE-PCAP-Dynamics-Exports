@@ -59,9 +59,3 @@ VALUES (300,   1,   33554724) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (300, 8040, 2519662651, 191.3943, 65.67438, 82.93041, 0.6102856, 0.6102856, -0.3571435, -0.3571435) /* PCAPRecordedLocation */
 /* @teleloc 0x962F003B [191.394300 65.674380 82.930410] 0.610286 0.610286 -0.357144 -0.357144 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (300, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (300, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
-     , (300, 2, 47724,  1, 0, 0, False) /* Create Spear (47724) for Wield */
-     , (300, 2, 23646,  1, 0, 0, False) /* Create Club (23646) for Wield */;

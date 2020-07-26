@@ -62,6 +62,3 @@ VALUES (31799,  4299,      2)  /* EnduranceSelf8 */
      , (31799,  4395,      2)  /* BloodDrinkerSelf8 */
      , (31799,  4417,      2)  /* SwiftKillerSelf8 */
      , (31799,  6107,      2)  /* CantripStrength4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31799, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

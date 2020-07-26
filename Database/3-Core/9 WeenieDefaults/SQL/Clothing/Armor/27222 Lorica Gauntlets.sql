@@ -65,7 +65,3 @@ VALUES (27222,  2108,      2)  /* Impenetrability7 */
      , (27222,  4397,      2)  /* BludgeonBane8 */
      , (27222,  4403,      2)  /* FrostBane8 */
      , (27222,  4671,      2)  /* CANTRIPSTORMBANE3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27222, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */
-     , (27222, 2, 40616,  1, 0, 0, False) /* Create Fire Spadone (40616) for Wield */;

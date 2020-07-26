@@ -38,7 +38,3 @@ VALUES (2422,   1,   33554809) /* Setup */
      , (2422,   8,  100674740) /* Icon */
      , (2422,  22,  872415275) /* PhysicsEffectTable */
      , (2422,  28,       1332) /* Spell - StrengthSelf6 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2422, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (2422, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

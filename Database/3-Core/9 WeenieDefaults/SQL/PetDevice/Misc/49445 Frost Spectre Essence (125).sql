@@ -43,6 +43,3 @@ VALUES (49445,   1,   33554817) /* Setup */
      , (49445,  22,  872415275) /* PhysicsEffectTable */
      , (49445,  50,  100693029) /* IconOverlay */
      , (49445,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49445, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;

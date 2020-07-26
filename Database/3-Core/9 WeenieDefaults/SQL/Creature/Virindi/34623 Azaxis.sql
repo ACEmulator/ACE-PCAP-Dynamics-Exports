@@ -43,3 +43,14 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (34623,   1, 24900, 0, 0, 25000) /* MaxHealth */
      , (34623,   3,   400, 0, 0, 600) /* MaxStamina */
      , (34623,   5,   400, 0, 0, 700) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34623, 9, 40763,  0, 0, 0, False) /* Create Flaming Nodachi (40763) for ContainTreasure */
+     , (34623, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
+     , (34623, 9, 34455,  0, 0, 0, False) /* Create Azaxis Token (34455) for ContainTreasure */
+     , (34623, 9, 21336,  0, 0, 0, False) /* Create Scroll of Shock Arc VII (21336) for ContainTreasure */
+     , (34623, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
+     , (34623, 9, 21329,  0, 0, 0, False) /* Create Scroll of Lightning Arc VII (21329) for ContainTreasure */
+     , (34623, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (34623, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
+     , (34623, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;

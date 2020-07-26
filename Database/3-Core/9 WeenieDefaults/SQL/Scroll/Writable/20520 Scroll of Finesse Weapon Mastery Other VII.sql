@@ -27,6 +27,3 @@ VALUES (20520,   1,   33554826) /* Setup */
      , (20520,   8,  100692250) /* Icon */
      , (20520,  22,  872415275) /* PhysicsEffectTable */
      , (20520,  28,       2222) /* Spell - DaggerMasteryOther7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20520, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */;

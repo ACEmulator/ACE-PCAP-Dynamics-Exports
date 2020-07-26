@@ -30,16 +30,3 @@ VALUES (43231,   1,   33561128) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43231, 8040, 2114060732, 81.64206, -129.133, 8.645861, -0.02940688, 0, 0, -0.9995675) /* PCAPRecordedLocation */
 /* @teleloc 0x7E0201BC [81.642060 -129.133000 8.645861] -0.029407 0.000000 0.000000 -0.999568 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43231, 2, 46646,  1, 0, 0, False) /* Create Spectral Acid Nodachi (46646) for Wield */
-     , (43231, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (43231, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
-     , (43231, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
-     , (43231, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
-     , (43231, 2, 48085,  1, 0, 0, False) /* Create Lightning Katar (48085) for Wield */
-     , (43231, 2, 33106,  1, 0, 0, False) /* Create Shield of Isin Dule (33106) for Wield */
-     , (43231, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
-     , (43231, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (43231, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (43231, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;

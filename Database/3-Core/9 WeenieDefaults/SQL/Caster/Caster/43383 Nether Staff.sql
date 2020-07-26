@@ -64,6 +64,3 @@ VALUES (43383,  1480,      2)  /* HermeticLinkSelf6 */
      , (43383,  3259,      2)  /* SpiritDrinkerSelf7 */
      , (43383,  4663,      2)  /* CANTRIPDEFENDER3 */
      , (43383,  5355,      2)  /* NetherBolt7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43383, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

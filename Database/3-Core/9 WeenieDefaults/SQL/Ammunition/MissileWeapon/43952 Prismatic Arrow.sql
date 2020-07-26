@@ -53,6 +53,3 @@ VALUES (43952,   1,   33561223) /* Setup */
      , (43952,   6,   67111919) /* PaletteBase */
      , (43952,   8,  100691913) /* Icon */
      , (43952,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43952, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */;

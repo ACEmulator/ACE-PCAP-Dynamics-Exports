@@ -50,6 +50,3 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (49411,   1,   760, 0, 0, 870) /* MaxHealth */
      , (49411,   3,   900, 0, 0, 1120) /* MaxStamina */
      , (49411,   5,   600, 0, 0, 750) /* MaxMana */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49411, 2, 46371,  1, 0, 0, False) /* Create Spectral Frost Nekode (46371) for Wield */;

@@ -49,6 +49,3 @@ VALUES (2589,   1,   33554644) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2589,  1310,      2)  /* ArmorSelf4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2589, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

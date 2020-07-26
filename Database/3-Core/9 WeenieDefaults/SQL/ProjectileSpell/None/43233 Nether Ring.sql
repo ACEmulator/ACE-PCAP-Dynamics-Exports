@@ -27,6 +27,3 @@ VALUES (43233,   1,   33561127) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (43233, 8040, 2847146017, 97.42845, 8.990114, 95.22834, -0.509742, 0, 0, 0.8603273) /* PCAPRecordedLocation */
 /* @teleloc 0xA9B40021 [97.428450 8.990114 95.228340] -0.509742 0.000000 0.000000 0.860327 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (43233, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;

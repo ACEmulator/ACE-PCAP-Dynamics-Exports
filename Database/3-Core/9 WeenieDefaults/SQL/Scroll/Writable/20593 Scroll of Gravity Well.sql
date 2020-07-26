@@ -27,9 +27,3 @@ VALUES (20593,   1,   33554826) /* Setup */
      , (20593,   8,  100676467) /* Icon */
      , (20593,  22,  872415275) /* PhysicsEffectTable */
      , (20593,  28,       2318) /* Spell - VulnerabilityOther7 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (20593, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
-     , (20593, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (20593, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
-     , (20593, 2, 32124,  1, 0, 0, False) /* Create Frost Spear (32124) for Wield */;

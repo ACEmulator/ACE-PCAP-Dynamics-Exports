@@ -49,7 +49,3 @@ VALUES (29980,   1,   33559306) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29980, 8040, 1966472, 229.925, -301.8748, -12.06921, 0.7070072, 0.7070072, -0.01186384, -0.01186384) /* PCAPRecordedLocation */
 /* @teleloc 0x001E0188 [229.925000 -301.874800 -12.069210] 0.707007 0.707007 -0.011864 -0.011864 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29980, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for Wield */
-     , (29980, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

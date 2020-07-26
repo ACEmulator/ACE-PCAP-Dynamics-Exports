@@ -61,8 +61,3 @@ VALUES (48315,   1,   33555689) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (48315, 8040, 1587740725, 164.449, 107.9205, 37.63058, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x5EA30035 [164.449000 107.920500 37.630580] 0.500000 0.500000 -0.500000 -0.500000 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (48315, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
-     , (48315, 2, 47516,  1, 0, 0, False) /* Create Lightning Tachi (47516) for Wield */
-     , (48315, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;

@@ -27,7 +27,3 @@ VALUES (44265,   1,   33555740) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44265, 8040, 2271477777, 62.97304, 6.340312, 9.93, -0.511289, -0.511289, 0.4884502, 0.4884502) /* PCAPRecordedLocation */
 /* @teleloc 0x87640011 [62.973040 6.340312 9.930000] -0.511289 -0.511289 0.488450 0.488450 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44265, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (44265, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */;

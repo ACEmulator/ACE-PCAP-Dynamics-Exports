@@ -26,6 +26,3 @@ VALUES (34529,   1,   33560143) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (34529, 8040, 11534661, 30, -466, 0, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x00B00145 [30.000000 -466.000000 0.000000] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (34529, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;

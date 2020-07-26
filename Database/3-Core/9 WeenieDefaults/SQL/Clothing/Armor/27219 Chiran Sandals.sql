@@ -54,6 +54,3 @@ VALUES (27219,   879,      2)  /* HealingMasterySelf6 */
      , (27219,  2098,      2)  /* BludgeonBane7 */
      , (27219,  2534,      2)  /* CANTRIPWARMAGICAPTITUDE2 */
      , (27219,  2582,      2)  /* CANTRIPQUICKNESS1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (27219, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

@@ -41,7 +41,3 @@ VALUES (89,   1,   33554641) /* Setup */
      , (89,   6,   67108990) /* PaletteBase */
      , (89,   8,  100669555) /* Icon */
      , (89,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (89, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
-     , (89, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */;

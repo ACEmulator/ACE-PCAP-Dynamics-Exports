@@ -44,6 +44,3 @@ VALUES (49362,   1,   33554817) /* Setup */
      , (49362,  22,  872415275) /* PhysicsEffectTable */
      , (49362,  50,  100693029) /* IconOverlay */
      , (49362,  52,  100693024) /* IconUnderlay */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (49362, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */;

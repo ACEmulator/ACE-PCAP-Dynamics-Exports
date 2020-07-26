@@ -73,6 +73,3 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (31790,  1616,      2)  /* BloodDrinkerSelf6 */
      , (31790,  5809,      2)  /* DualWieldMasterySelf7 */
      , (31790,  6091,      2)  /* CantripDefender4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31790, 2, 23688,  1, 0, 0, False) /* Create Acid Spear (23688) for Wield */;

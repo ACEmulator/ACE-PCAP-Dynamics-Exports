@@ -52,7 +52,3 @@ VALUES (28609,   1,   33554642) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (28609,  1311,      2)  /* ArmorSelf5 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28609, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
-     , (28609, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */;

@@ -66,6 +66,3 @@ VALUES (29252,  1616,      2)  /* BloodDrinkerSelf6 */
      , (29252,  2059,      2)  /* CoordinationSelf7 */
      , (29252,  2588,      2)  /* CANTRIPDEFENDER2 */
      , (29252,  2608,      2)  /* CANTRIPSWIFTHUNTER1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29252, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;

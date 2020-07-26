@@ -33,6 +33,3 @@ VALUES (44298,   1,   33561255) /* Setup */
      , (44298,   3,  536870932) /* SoundTable */
      , (44298,   8,  100691956) /* Icon */
      , (44298,  22,  872415275) /* PhysicsEffectTable */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44298, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;

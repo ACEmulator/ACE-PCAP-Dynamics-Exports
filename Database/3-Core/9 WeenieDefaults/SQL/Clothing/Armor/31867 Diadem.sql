@@ -60,7 +60,3 @@ VALUES (31867,  2108,      2)  /* Impenetrability7 */
      , (31867,  2185,      2)  /* RegenerationSelf7 */
      , (31867,  2571,      2)  /* CANTRIPARMOR2 */
      , (31867,  4704,      2)  /* CANTRIPMAGICRESISTANCE3 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31867, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */
-     , (31867, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

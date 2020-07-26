@@ -53,6 +53,3 @@ VALUES (71,  1485,      2)  /* Impenetrability5 */
      , (71,  1496,      2)  /* AcidBane4 */
      , (71,  1526,      2)  /* FrostBane4 */
      , (71,  1572,      2)  /* PiercingBane4 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (71, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */;

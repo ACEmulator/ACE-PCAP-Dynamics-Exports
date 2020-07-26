@@ -62,7 +62,3 @@ VALUES (29257,   1,   33559242) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (29257,  1616,      2)  /* BloodDrinkerSelf6 */
      , (29257,  3833,      2)  /* CantripSalvaging1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29257, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
-     , (29257, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */;

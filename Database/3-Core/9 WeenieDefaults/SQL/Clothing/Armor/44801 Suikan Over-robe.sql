@@ -59,6 +59,3 @@ VALUES (44801,  1552,      2)  /* FlameBane6 */
      , (44801,  2187,      2)  /* RejuvenationSelf7 */
      , (44801,  4227,      2)  /* CANTRIPWILLPOWER3 */
      , (44801,  4407,      2)  /* Impenetrability8 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (44801, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */;

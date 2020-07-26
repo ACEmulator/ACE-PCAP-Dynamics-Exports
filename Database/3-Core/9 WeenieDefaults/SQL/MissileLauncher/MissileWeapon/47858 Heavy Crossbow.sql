@@ -45,7 +45,3 @@ VALUES (47858,   1,   33554732) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47858, 8040, 2455699499, 133.5537, 49.5146, 13.9325, 1, 0, 0, 0) /* PCAPRecordedLocation */
 /* @teleloc 0x925F002B [133.553700 49.514600 13.932500] 1.000000 0.000000 0.000000 0.000000 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47858, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
-     , (47858, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */;

@@ -43,7 +43,3 @@ VALUES (2367,   1,   33554687) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (2367,   278,      2)  /* MagicResistanceSelf5 */
      , (2367,  2622,      2)  /* CANTRIPSTORMWARD1 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2367, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
-     , (2367, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */;

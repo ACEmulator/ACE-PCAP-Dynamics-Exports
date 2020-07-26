@@ -29,7 +29,3 @@ VALUES (47408,   1,   33555722) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (47408, 8040, 2377187374, 141.0072, 133.5853, 47.94715, 0.5, 0.5, -0.5, -0.5) /* PCAPRecordedLocation */
 /* @teleloc 0x8DB1002E [141.007200 133.585300 47.947150] 0.500000 0.500000 -0.500000 -0.500000 */;
-
-INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (47408, 2, 48998,  1, 0, 0, False) /* Create Frost Hatchet (48998) for Wield */
-     , (47408, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
