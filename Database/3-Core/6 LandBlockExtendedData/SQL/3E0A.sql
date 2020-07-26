@@ -451,17 +451,32 @@ VALUES (0x73E0A059, 41838, 0x3E0A002C, 128.3, 78.3574, 0.004999995, -0.9983453, 
 /* @teleloc 0x3E0A002C [128.300000 78.357400 0.005000] -0.998345 0.000000 0.000000 0.057503 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E0A05A,  1542, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.9941801, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
-/* @teleloc 0x3E0A002C [131.885000 75.502000 0.143463] 0.107731 0.000000 0.000000 -0.994180 */
+VALUES (0x73E0A05A,  1542, 0x3E0A0007, 6.526303, 151.5518, 3.479772, -0.6534877, 0, 0, -0.7569371, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x3E0A0007 [6.526303 151.551800 3.479772] -0.653488 0.000000 0.000000 -0.756937 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x73E0A05A, 0x73E0A05B, '2019-02-10 00:00:00') /* Radiant Blood Supplies (41831) */
-     , (0x73E0A05A, 0x73E0A05C, '2019-02-10 00:00:00') /* Radiant Blood Supplies (41831) */;
+VALUES (0x73E0A05A, 0x73E0A05B, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */
+     , (0x73E0A05A, 0x73E0A05C, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */
+     , (0x73E0A05A, 0x73E0A05D, '2019-02-10 00:00:00') /* Radiant Blood Supplies (41831) */
+     , (0x73E0A05A, 0x73E0A05E, '2019-02-10 00:00:00') /* Radiant Blood Supplies (41831) */
+     , (0x73E0A05A, 0x73E0A05F, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E0A05B, 41831, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.9941801,  True, '2019-02-10 00:00:00'); /* Radiant Blood Supplies */
+VALUES (0x73E0A05B, 40457, 0x3E0A0007, 6.526303, 151.5518, 3.479772, -0.6534877, 0, 0, -0.7569371,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3E0A0007 [6.526303 151.551800 3.479772] -0.653488 0.000000 0.000000 -0.756937 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A05C, 40457, 0x3E0A001F, 88.68895, 151.08, 1.29956, -0.84496, 0, 0, -0.5348295,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3E0A001F [88.688950 151.080000 1.299560] -0.844960 0.000000 0.000000 -0.534830 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A05D, 41831, 0x3E0A002C, 131.885, 75.502, 0.143463, 0.107731, 0, 0, -0.9941801,  True, '2019-02-10 00:00:00'); /* Radiant Blood Supplies */
 /* @teleloc 0x3E0A002C [131.885000 75.502000 0.143463] 0.107731 0.000000 0.000000 -0.994180 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x73E0A05C, 41831, 0x3E0A002C, 134.84, 76.036, 0.143463, 0.7608311, 0, 0, -0.64895,  True, '2019-02-10 00:00:00'); /* Radiant Blood Supplies */
+VALUES (0x73E0A05E, 41831, 0x3E0A002C, 134.84, 76.036, 0.143463, 0.7608311, 0, 0, -0.64895,  True, '2019-02-10 00:00:00'); /* Radiant Blood Supplies */
 /* @teleloc 0x3E0A002C [134.840000 76.036000 0.143463] 0.760831 0.000000 0.000000 -0.648950 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0A05F, 40457, 0x3E0A0010, 41.85252, 173.7612, -3.72529E-09, -0.3946743, 0, 0, -0.9188211,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3E0A0010 [41.852520 173.761200 0.000000] -0.394674 0.000000 0.000000 -0.918821 */

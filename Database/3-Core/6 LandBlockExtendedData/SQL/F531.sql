@@ -105,3 +105,14 @@ VALUES (0x7F531014, 40306, 0xF531002B, 137.421, 66.9879, -0.0934, 0.9978849, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F531015, 40303, 0xF531002B, 132.0334, 70.91469, -0.09359992, 0.9978849, 0, 0, -0.06500548,  True, '2019-02-10 00:00:00'); /* Ardent Moarsman */
 /* @teleloc 0xF531002B [132.033400 70.914690 -0.093600] 0.997885 0.000000 0.000000 -0.065005 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F531016,  1542, 0xF5310010, 42.61913, 183.4689, 0, -0.9849486, 0, 0, -0.1728476, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF5310010 [42.619130 183.468900 0.000000] -0.984949 0.000000 0.000000 -0.172848 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7F531016, 0x7F531017, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F531017, 38413, 0xF5310010, 42.61913, 183.4689, 0, -0.9849486, 0, 0, -0.1728476,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF5310010 [42.619130 183.468900 0.000000] -0.984949 0.000000 0.000000 -0.172848 */

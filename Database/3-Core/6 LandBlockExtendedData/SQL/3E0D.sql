@@ -345,3 +345,14 @@ VALUES (0x73E0D046, 0x73E0D047, '2019-02-10 00:00:00') /* Devon the Collector (4
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73E0D047, 40461, 0x3E0D000C, 39.7742, 75.5623, 9.58046, 0.0105942, 0, 0, -0.999944,  True, '2019-02-10 00:00:00'); /* Devon the Collector */
 /* @teleloc 0x3E0D000C [39.774200 75.562300 9.580460] 0.010594 0.000000 0.000000 -0.999944 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0D048,  1542, 0x3E0D0019, 78.76166, 7.152432, -3.72529E-09, -0.9898064, 0, 0, -0.1424195, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x3E0D0019 [78.761660 7.152432 0.000000] -0.989806 0.000000 0.000000 -0.142420 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x73E0D048, 0x73E0D049, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73E0D049, 40457, 0x3E0D0019, 78.76166, 7.152432, -3.72529E-09, -0.9898064, 0, 0, -0.1424195,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3E0D0019 [78.761660 7.152432 0.000000] -0.989806 0.000000 0.000000 -0.142420 */

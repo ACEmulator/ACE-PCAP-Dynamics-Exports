@@ -300,3 +300,19 @@ VALUES (0x7390B03B, 40481, 0x390B0035, 159.4799, 113.8023, 0.005599976, 0.684169
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7390B03C, 40480, 0x390B0035, 166.3228, 102.625, 0.005599976, 0.6841698, 0, 0, -0.7293227,  True, '2019-02-10 00:00:00'); /* Mogshuth Moarsman */
 /* @teleloc 0x390B0035 [166.322800 102.625000 0.005600] 0.684170 0.000000 0.000000 -0.729323 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7390B03D,  1542, 0x390B0035, 160.1871, 103.6223, -3.72529E-09, 0.6841698, 0, 0, -0.7293227, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x390B0035 [160.187100 103.622300 0.000000] 0.684170 0.000000 0.000000 -0.729323 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7390B03D, 0x7390B03E, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */
+     , (0x7390B03D, 0x7390B03F, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7390B03E, 40457, 0x390B0035, 160.1871, 103.6223, -3.72529E-09, 0.6841698, 0, 0, -0.7293227,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x390B0035 [160.187100 103.622300 0.000000] 0.684170 0.000000 0.000000 -0.729323 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7390B03F, 40457, 0x390B0001, 8.309565, 6.104915, 2.077391, -0.9956142, 0, 0, -0.09355401,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x390B0001 [8.309565 6.104915 2.077391] -0.995614 0.000000 0.000000 -0.093554 */

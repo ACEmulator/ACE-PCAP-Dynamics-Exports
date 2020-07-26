@@ -50,3 +50,14 @@ VALUES (0x7F939009, 40312, 0xF9390017, 48.18983, 158.2392, 122.3416, 0.9102789, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7F93900A, 40313, 0xF9390017, 50.18748, 144.5112, 119.7206, 0.9102789, 0, 0, -0.4139956,  True, '2019-02-10 00:00:00'); /* Sclavus Acolyte of T'thuun */
 /* @teleloc 0xF9390017 [50.187480 144.511200 119.720600] 0.910279 0.000000 0.000000 -0.413996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F93900B,  1542, 0xF939000F, 42.67271, 149.7673, 119.1855, 0.9102789, 0, 0, -0.4139956, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xF939000F [42.672710 149.767300 119.185500] 0.910279 0.000000 0.000000 -0.413996 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7F93900B, 0x7F93900C, '2019-02-10 00:00:00') /* Mana-Infused Jungle Flower (38413) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7F93900C, 38413, 0xF939000F, 42.67271, 149.7673, 119.1855, 0.9102789, 0, 0, -0.4139956,  True, '2019-02-10 00:00:00'); /* Mana-Infused Jungle Flower */
+/* @teleloc 0xF939000F [42.672710 149.767300 119.185500] 0.910279 0.000000 0.000000 -0.413996 */

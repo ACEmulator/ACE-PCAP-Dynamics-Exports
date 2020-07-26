@@ -540,3 +540,14 @@ VALUES (0x73F0B06B, 38831, 0x3F0B0038, 164.3339, 179.6905, 2.702287, -0.939514, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x73F0B06C, 38831, 0x3F0B003F, 172.893, 163.4785, 3.166508, -0.939514, 0, 0, -0.3425104,  True, '2019-02-10 00:00:00'); /* Tentacle of T'thuun */
 /* @teleloc 0x3F0B003F [172.893000 163.478500 3.166508] -0.939514 0.000000 0.000000 -0.342510 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73F0B06D,  1542, 0x3F0B0028, 112.9185, 184.8914, -3.72529E-09, -0.92712, 0, 0, -0.3747645, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x3F0B0028 [112.918500 184.891400 0.000000] -0.927120 0.000000 0.000000 -0.374765 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x73F0B06D, 0x73F0B06E, '2019-02-10 00:00:00') /* Blight-encrusted Black Coral (40457) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x73F0B06E, 40457, 0x3F0B0028, 112.9185, 184.8914, -3.72529E-09, -0.92712, 0, 0, -0.3747645,  True, '2019-02-10 00:00:00'); /* Blight-encrusted Black Coral */
+/* @teleloc 0x3F0B0028 [112.918500 184.891400 0.000000] -0.927120 0.000000 0.000000 -0.374765 */
