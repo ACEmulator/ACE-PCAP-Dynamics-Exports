@@ -533,107 +533,22 @@ VALUES (0x700A7119,  1542, 0x00A70249, 176.5709, -56.18213, 53.937, -0.9360444, 
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x700A7119, 0x700A711A, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x700A7119, 0x700A711B, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A711C, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A711D, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A711E, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x700A7119, 0x700A711F, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7120, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7121, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7122, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x700A7119, 0x700A7123, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7124, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7125, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x700A7119, 0x700A7126, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7127, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7128, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A7129, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A712A, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A712B, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A712C, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A712D, '2019-02-10 00:00:00') /* Electric Discharge (8635) */
-     , (0x700A7119, 0x700A712E, '2019-02-10 00:00:00') /* Electric Discharge (8635) */;
+     , (0x700A7119, 0x700A711B, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700A7119, 0x700A711C, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x700A7119, 0x700A711D, '2019-02-10 00:00:00') /* Gateway (1955) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700A711A,  1955, 0x00A70249, 176.5709, -56.18213, 53.937, -0.9360444, 0, 0, -0.351882,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00A70249 [176.570900 -56.182130 53.937000] -0.936044 0.000000 0.000000 -0.351882 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A711B,  8635, 0x00A70109, 151.4508, -54.66662, -2.896815, -0.8403283, 0, 0, -0.5420779,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [151.450800 -54.666620 -2.896815] -0.840328 0.000000 0.000000 -0.542078 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A711C,  8635, 0x00A70109, 149.2568, -53.67371, -3.876888, -0.8403283, 0, 0, -0.5420779,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [149.256800 -53.673710 -3.876888] -0.840328 0.000000 0.000000 -0.542078 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A711D,  8635, 0x00A70109, 149.7748, -51.57331, -2.976878, -0.06603669, 0, 0, -0.9978172,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [149.774800 -51.573310 -2.976878] -0.066037 0.000000 0.000000 -0.997817 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A711E,  1955, 0x00A70249, 184.6421, -58.14229, 53.937, 0.8281125, 0, 0, -0.560562,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x700A711B,  1955, 0x00A70249, 184.6421, -58.14229, 53.937, 0.8281125, 0, 0, -0.560562,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00A70249 [184.642100 -58.142290 53.937000] 0.828113 0.000000 0.000000 -0.560562 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A711F,  8635, 0x00A70109, 146.0781, -52.29461, -3.951885, -0.9672992, 0, 0, -0.2536382,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [146.078100 -52.294610 -3.951885] -0.967299 0.000000 0.000000 -0.253638 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7120,  8635, 0x00A7010A, 147.2749, -55.76966, -4.479092, -0.1433095, 0, 0, -0.9896779,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A7010A [147.274900 -55.769660 -4.479092] -0.143310 0.000000 0.000000 -0.989678 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7121,  8635, 0x00A70109, 147.4527, -49.96108, -3.572381, -0.3401134, 0, 0, -0.9403844,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [147.452700 -49.961080 -3.572381] -0.340113 0.000000 0.000000 -0.940384 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7122,  1955, 0x00A70249, 175.0086, -59.86185, 53.937, -0.7170067, 0, 0, -0.6970662,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x700A711C,  1955, 0x00A70249, 175.0086, -59.86185, 53.937, -0.7170067, 0, 0, -0.6970662,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00A70249 [175.008600 -59.861850 53.937000] -0.717007 0.000000 0.000000 -0.697066 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7123,  8635, 0x00A70106, 141.1894, -61.19573, -3.572384, -0.9510923, 0, 0, -0.3089068,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70106 [141.189400 -61.195730 -3.572384] -0.951092 0.000000 0.000000 -0.308907 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7124,  8635, 0x00A70106, 142.4635, -63.56044, -2.9983, 0.9997591, 0, 0, -0.02194957,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70106 [142.463500 -63.560440 -2.998300] 0.999759 0.000000 0.000000 -0.021950 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7125,  1955, 0x00A70249, 184.7561, -61.5424, 53.937, 0.5880138, 0, 0, -0.8088509,  True, '2019-02-10 00:00:00'); /* Gateway */
+VALUES (0x700A711D,  1955, 0x00A70249, 184.7561, -61.5424, 53.937, 0.5880138, 0, 0, -0.8088509,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x00A70249 [184.756100 -61.542400 53.937000] 0.588014 0.000000 0.000000 -0.808851 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7126,  8635, 0x00A7010A, 145.031, -58.51971, -3.683376, 0.08511076, 0, 0, -0.9963715,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A7010A [145.031000 -58.519710 -3.683376] 0.085111 0.000000 0.000000 -0.996372 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7127,  8635, 0x00A70115, 139.4416, -78.46745, 0.4838986, -0.9847763, 0, 0, -0.1738263,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70115 [139.441600 -78.467450 0.483899] -0.984776 0.000000 0.000000 -0.173826 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7128,  8635, 0x00A70108, 139.658, -79.06136, -0.6520691, -0.9847763, 0, 0, -0.1738263,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70108 [139.658000 -79.061360 -0.652069] -0.984776 0.000000 0.000000 -0.173826 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A7129,  8635, 0x00A70109, 150.9254, -46.33116, -3.149541, 0.7436149, 0, 0, -0.6686081,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [150.925400 -46.331160 -3.149541] 0.743615 0.000000 0.000000 -0.668608 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A712A,  8635, 0x00A70109, 153.0268, -46.10731, -4.66415, 0.7436149, 0, 0, -0.6686081,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70109 [153.026800 -46.107310 -4.664150] 0.743615 0.000000 0.000000 -0.668608 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A712B,  8635, 0x00A70106, 144.8288, -55.76317, -3.149543, 0.6996254, 0, 0, -0.7145098,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70106 [144.828800 -55.763170 -3.149543] 0.699625 0.000000 0.000000 -0.714510 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A712C,  8635, 0x00A70106, 144.173, -58.42573, -3.149542, 0.8234671, 0, 0, -0.567364,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70106 [144.173000 -58.425730 -3.149542] 0.823467 0.000000 0.000000 -0.567364 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A712D,  8635, 0x00A70106, 141.6928, -58.69019, -3.149543, -0.6956198, 0, 0, -0.7184101,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70106 [141.692800 -58.690190 -3.149543] -0.695620 0.000000 0.000000 -0.718410 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x700A712E,  8635, 0x00A70106, 139.5806, -58.75829, -4.664156, -0.6956198, 0, 0, -0.7184101,  True, '2019-02-10 00:00:00'); /* Electric Discharge */
-/* @teleloc 0x00A70106 [139.580600 -58.758290 -4.664156] -0.695620 0.000000 0.000000 -0.718410 */

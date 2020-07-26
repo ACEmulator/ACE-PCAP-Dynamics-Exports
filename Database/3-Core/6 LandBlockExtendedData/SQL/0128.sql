@@ -42,22 +42,12 @@ VALUES (0x70128009,  1542, 0x0128010E, 29.71279, -33.00418, 1.888637, -0.0051752
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x70128009, 0x7012800A, '2019-02-10 00:00:00') /* Couch (274) */
-     , (0x70128009, 0x7012800B, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
-     , (0x70128009, 0x7012800C, '2019-02-10 00:00:00') /* Spirit of Aun Tanua (14570) */
-     , (0x70128009, 0x7012800D, '2019-02-10 00:00:00') /* Fez (5894) */;
+     , (0x70128009, 0x7012800B, '2019-02-10 00:00:00') /* Fez (5894) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7012800A,   274, 0x0128010E, 29.71279, -33.00418, 1.888637, -0.005175253, 0, 0, -0.9999866,  True, '2019-02-10 00:00:00'); /* Couch */
 /* @teleloc 0x0128010E [29.712790 -33.004180 1.888637] -0.005175 0.000000 0.000000 -0.999987 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7012800B, 14570, 0x0128010E, 33.66763, -33.44101, 5.798057, -0.9882373, 0, 0, -0.1529283,  True, '2019-02-10 00:00:00'); /* Spirit of Aun Tanua */
-/* @teleloc 0x0128010E [33.667630 -33.441010 5.798057] -0.988237 0.000000 0.000000 -0.152928 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7012800C, 14570, 0x0128010F, 30.35312, -35.82704, 4.865711, 0.9999681, 0, 0, -0.007997117,  True, '2019-02-10 00:00:00'); /* Spirit of Aun Tanua */
-/* @teleloc 0x0128010F [30.353120 -35.827040 4.865711] 0.999968 0.000000 0.000000 -0.007997 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7012800D,  5894, 0x0128010E, 30.34529, -33.21501, 2.451723, -0.9992059, 0, 0, -0.03984508,  True, '2019-02-10 00:00:00'); /* Fez */
+VALUES (0x7012800B,  5894, 0x0128010E, 30.34529, -33.21501, 2.451723, -0.9992059, 0, 0, -0.03984508,  True, '2019-02-10 00:00:00'); /* Fez */
 /* @teleloc 0x0128010E [30.345290 -33.215010 2.451723] -0.999206 0.000000 0.000000 -0.039845 */

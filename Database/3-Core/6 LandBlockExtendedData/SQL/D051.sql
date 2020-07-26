@@ -363,8 +363,7 @@ VALUES (0x7D051048,  1542, 0xD0510030, 142.7941, 180.9105, 238.9241, -0.3546043,
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
 VALUES (0x7D051048, 0x7D051049, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
      , (0x7D051048, 0x7D05104A, '2019-02-10 00:00:00') /* Verdalim Plant (8037) */
-     , (0x7D051048, 0x7D05104B, '2019-02-10 00:00:00') /* Spectral Flame (36454) */
-     , (0x7D051048, 0x7D05104C, '2019-02-10 00:00:00') /* Gloves (121) */;
+     , (0x7D051048, 0x7D05104B, '2019-02-10 00:00:00') /* Gloves (121) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7D051049,  8037, 0xD0510030, 142.7941, 180.9105, 238.9241, -0.3546043, 0, 0, -0.9350165,  True, '2019-02-10 00:00:00'); /* Verdalim Plant */
@@ -375,9 +374,5 @@ VALUES (0x7D05104A,  8037, 0xD0510040, 174.2957, 181.0581, 238.9118, -0.3546043,
 /* @teleloc 0xD0510040 [174.295700 181.058100 238.911800] -0.354604 0.000000 0.000000 -0.935017 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D05104B, 36454, 0xD0510027, 114.3908, 158.0702, 241.5349, -0.6133758, 0, 0, -0.7897912,  True, '2019-02-10 00:00:00'); /* Spectral Flame */
-/* @teleloc 0xD0510027 [114.390800 158.070200 241.534900] -0.613376 0.000000 0.000000 -0.789791 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7D05104C,   121, 0xD0510038, 155.7966, 174.5328, 239.455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gloves */
+VALUES (0x7D05104B,   121, 0xD0510038, 155.7966, 174.5328, 239.455, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Gloves */
 /* @teleloc 0xD0510038 [155.796600 174.532800 239.455000] 1.000000 0.000000 0.000000 0.000000 */
