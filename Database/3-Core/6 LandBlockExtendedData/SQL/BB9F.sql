@@ -2016,7 +2016,7 @@ VALUES (0x7BB9F1A1, 0x7BB9F1A2, '2019-02-10 00:00:00') /* Glyph of Missile Defen
      , (0x7BB9F1A1, 0x7BB9F1AC, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7BB9F1A1, 0x7BB9F1AD, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7BB9F1A1, 0x7BB9F1AE, '2019-02-10 00:00:00') /* Egg (546) */
-     , (0x7BB9F1A1, 0x7BB9F1AF, '2019-02-10 00:00:00') /* Olthoi Bracers (38479) */
+     , (0x7BB9F1A1, 0x7BB9F1AF, '2019-02-10 00:00:00') /* Eldrytch Web Vambraces (38479) */
      , (0x7BB9F1A1, 0x7BB9F1B0, '2019-02-10 00:00:00') /* Egg (546) */
      , (0x7BB9F1A1, 0x7BB9F1B1, '2019-02-10 00:00:00') /* White Phyntos Wasp Wing (7603) */
      , (0x7BB9F1A1, 0x7BB9F1B2, '2019-02-10 00:00:00') /* Pyreal Nugget (6354) */
@@ -2093,7 +2093,7 @@ VALUES (0x7BB9F1AE,   546, 0xBB9F0034, 148.0746, 94.44931, 69.74072, 1, 0, 0, 0,
 /* @teleloc 0xBB9F0034 [148.074600 94.449310 69.740720] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BB9F1AF, 38479, 0xBB9F0036, 165.4032, 119.9964, 69.98062, -0.1405096, 0, 0, -0.9900793,  True, '2019-02-10 00:00:00'); /* Olthoi Bracers */
+VALUES (0x7BB9F1AF, 38479, 0xBB9F0036, 165.4032, 119.9964, 69.98062, -0.1405096, 0, 0, -0.9900793,  True, '2019-02-10 00:00:00'); /* Eldrytch Web Vambraces */
 /* @teleloc 0xBB9F0036 [165.403200 119.996400 69.980620] -0.140510 0.000000 0.000000 -0.990079 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)

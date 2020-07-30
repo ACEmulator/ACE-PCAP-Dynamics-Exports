@@ -1393,15 +1393,15 @@ VALUES (0x7A9B40F9, 0x7A9B40FA, '2019-02-10 00:00:00') /* Cow (14) */
      , (0x7A9B40F9, 0x7A9B431B, '2019-02-10 00:00:00') /* Chainmail Leggings (80) */
      , (0x7A9B40F9, 0x7A9B431C, '2019-02-10 00:00:00') /* Sturdy Iron Key (6876) */
      , (0x7A9B40F9, 0x7A9B431D, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x7A9B40F9, 0x7A9B431E, '2019-02-10 00:00:00') /* Olthoi Tassets (38478) */
+     , (0x7A9B40F9, 0x7A9B431E, '2019-02-10 00:00:00') /* Eldrytch Web Tassets (38478) */
      , (0x7A9B40F9, 0x7A9B431F, '2019-02-10 00:00:00') /* Eldrytch Web Sollerets (38480) */
      , (0x7A9B40F9, 0x7A9B4320, '2019-02-10 00:00:00') /* Eldrytch Web Helm (38476) */
-     , (0x7A9B40F9, 0x7A9B4321, '2019-02-10 00:00:00') /* Olthoi Bracers (38479) */
-     , (0x7A9B40F9, 0x7A9B4322, '2019-02-10 00:00:00') /* Olthoi Tassets (38478) */
+     , (0x7A9B40F9, 0x7A9B4321, '2019-02-10 00:00:00') /* Eldrytch Web Vambraces (38479) */
+     , (0x7A9B40F9, 0x7A9B4322, '2019-02-10 00:00:00') /* Eldrytch Web Tassets (38478) */
      , (0x7A9B40F9, 0x7A9B4323, '2019-02-10 00:00:00') /* Eldrytch Web Helm (38476) */
      , (0x7A9B40F9, 0x7A9B4324, '2019-02-10 00:00:00') /* Eldrytch Web Breastplate (38472) */
-     , (0x7A9B40F9, 0x7A9B4325, '2019-02-10 00:00:00') /* Olthoi Girth (38474) */
-     , (0x7A9B40F9, 0x7A9B4326, '2019-02-10 00:00:00') /* Olthoi Bracers (38479) */
+     , (0x7A9B40F9, 0x7A9B4325, '2019-02-10 00:00:00') /* Eldrytch Web Girth (38474) */
+     , (0x7A9B40F9, 0x7A9B4326, '2019-02-10 00:00:00') /* Eldrytch Web Vambraces (38479) */
      , (0x7A9B40F9, 0x7A9B4327, '2019-02-10 00:00:00') /* Eldrytch Web Sollerets (38480) */
      , (0x7A9B40F9, 0x7A9B4328, '2019-02-10 00:00:00') /* Enchanter's Crystal (30197) */
      , (0x7A9B40F9, 0x7A9B4329, '2019-02-10 00:00:00') /* Physician's Crystal (30209) */
@@ -4638,7 +4638,7 @@ VALUES (0x7A9B431D,  1955, 0xA9B40021, 101.2147, 1.086441, 93.937, 0.6427876, 0,
 /* @teleloc 0xA9B40021 [101.214700 1.086441 93.937000] 0.642788 0.000000 0.000000 -0.766044 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B431E, 38478, 0xA9B40019, 89.09074, 15.52275, 93.99003, 0.5930352, 0, 0, -0.8051766,  True, '2019-02-10 00:00:00'); /* Olthoi Tassets */
+VALUES (0x7A9B431E, 38478, 0xA9B40019, 89.09074, 15.52275, 93.99003, 0.5930352, 0, 0, -0.8051766,  True, '2019-02-10 00:00:00'); /* Eldrytch Web Tassets */
 /* @teleloc 0xA9B40019 [89.090740 15.522750 93.990030] 0.593035 0.000000 0.000000 -0.805177 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -4650,11 +4650,11 @@ VALUES (0x7A9B4320, 38476, 0xA9B40019, 89.09074, 15.52275, 94.03029, 0.5930352, 
 /* @teleloc 0xA9B40019 [89.090740 15.522750 94.030290] 0.593035 0.000000 0.000000 -0.805177 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B4321, 38479, 0xA9B40019, 89.09074, 15.52275, 93.9975, 0.5930352, 0, 0, -0.8051766,  True, '2019-02-10 00:00:00'); /* Olthoi Bracers */
+VALUES (0x7A9B4321, 38479, 0xA9B40019, 89.09074, 15.52275, 93.9975, 0.5930352, 0, 0, -0.8051766,  True, '2019-02-10 00:00:00'); /* Eldrytch Web Vambraces */
 /* @teleloc 0xA9B40019 [89.090740 15.522750 93.997500] 0.593035 0.000000 0.000000 -0.805177 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B4322, 38478, 0xA9B40019, 92.15648, 14.13029, 93.99003, 0.550114, 0, 0, -0.8350896,  True, '2019-02-10 00:00:00'); /* Olthoi Tassets */
+VALUES (0x7A9B4322, 38478, 0xA9B40019, 92.15648, 14.13029, 93.99003, 0.550114, 0, 0, -0.8350896,  True, '2019-02-10 00:00:00'); /* Eldrytch Web Tassets */
 /* @teleloc 0xA9B40019 [92.156480 14.130290 93.990030] 0.550114 0.000000 0.000000 -0.835090 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
@@ -4666,11 +4666,11 @@ VALUES (0x7A9B4324, 38472, 0xA9B40019, 92.15648, 14.13029, 93.995, 0.550114, 0, 
 /* @teleloc 0xA9B40019 [92.156480 14.130290 93.995000] 0.550114 0.000000 0.000000 -0.835090 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B4325, 38474, 0xA9B40019, 92.15648, 14.13029, 94, 0.550114, 0, 0, -0.8350896,  True, '2019-02-10 00:00:00'); /* Olthoi Girth */
+VALUES (0x7A9B4325, 38474, 0xA9B40019, 92.15648, 14.13029, 94, 0.550114, 0, 0, -0.8350896,  True, '2019-02-10 00:00:00'); /* Eldrytch Web Girth */
 /* @teleloc 0xA9B40019 [92.156480 14.130290 94.000000] 0.550114 0.000000 0.000000 -0.835090 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7A9B4326, 38479, 0xA9B40019, 92.15648, 14.13029, 93.9975, 0.550114, 0, 0, -0.8350896,  True, '2019-02-10 00:00:00'); /* Olthoi Bracers */
+VALUES (0x7A9B4326, 38479, 0xA9B40019, 92.15648, 14.13029, 93.9975, 0.550114, 0, 0, -0.8350896,  True, '2019-02-10 00:00:00'); /* Eldrytch Web Vambraces */
 /* @teleloc 0xA9B40019 [92.156480 14.130290 93.997500] 0.550114 0.000000 0.000000 -0.835090 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
