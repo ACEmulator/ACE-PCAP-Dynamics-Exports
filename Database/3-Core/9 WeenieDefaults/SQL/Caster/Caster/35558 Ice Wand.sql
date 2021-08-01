@@ -20,8 +20,7 @@ VALUES (35558,   1,      32768) /* ItemType - Caster */
      , (35558, 108,      10000) /* ItemMaxMana */
      , (35558, 114,          0) /* Attuned - Normal */
      , (35558, 263,          8) /* ResistanceModifierType */
-     , (35558, 267,      10800) /* Lifespan */
-     , (35558, 268,      10678) /* RemainingLifespan */;
+     , (35558, 267,      10800) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35558,  22, True ) /* Inscribable */

@@ -13,7 +13,6 @@ VALUES (43789,   1,         16) /* ItemType - Creature */
      , (43789,  98, 1485803159) /* CreationTimestamp */
      , (43789, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43789, 267,        300) /* Lifespan */
-     , (43789, 268,        299) /* RemainingLifespan */
      , (43789, 307,          0) /* DamageRating */
      , (43789, 308,          0) /* DamageResistRating */
      , (43789, 313,          0) /* CritRating */

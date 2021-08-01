@@ -14,7 +14,6 @@ VALUES (41805,   1,         16) /* ItemType - Creature */
      , (41805,  98, 1484699612) /* CreationTimestamp */
      , (41805, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41805, 267,        300) /* Lifespan */
-     , (41805, 268,        299) /* RemainingLifespan */
      , (41805, 307,          0) /* DamageRating */
      , (41805, 308,          0) /* DamageResistRating */
      , (41805, 313,          0) /* CritRating */

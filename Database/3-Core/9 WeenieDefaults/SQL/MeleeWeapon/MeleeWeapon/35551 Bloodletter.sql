@@ -26,7 +26,6 @@ VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
      , (35551, 114,          0) /* Attuned - Normal */
      , (35551, 263,          2) /* ResistanceModifierType */
      , (35551, 267,      10800) /* Lifespan */
-     , (35551, 268,      10798) /* RemainingLifespan */
      , (35551, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

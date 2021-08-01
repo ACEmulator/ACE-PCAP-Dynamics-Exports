@@ -29,8 +29,7 @@ VALUES (38910,   1,          1) /* ItemType - MeleeWeapon */
      , (38910, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (38910, 160,        325) /* WieldDifficulty */
      , (38910, 166,         31) /* SlayerCreatureType - Human */
-     , (38910, 267,      86400) /* Lifespan */
-     , (38910, 268,      75503) /* RemainingLifespan */;
+     , (38910, 267,      86400) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38910,  22, True ) /* Inscribable */

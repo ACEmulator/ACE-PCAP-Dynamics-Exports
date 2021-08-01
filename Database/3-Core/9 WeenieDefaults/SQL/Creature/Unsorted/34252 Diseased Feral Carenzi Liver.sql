@@ -12,7 +12,6 @@ VALUES (34252,   1,         16) /* ItemType - Creature */
      , (34252,  95,          3) /* RadarBlipColor - White */
      , (34252,  98, 1485589268) /* CreationTimestamp */
      , (34252, 267,        240) /* Lifespan */
-     , (34252, 268,        238) /* RemainingLifespan */
      , (34252, 307,          0) /* DamageRating */
      , (34252, 308,          0) /* DamageResistRating */
      , (34252, 313,          0) /* CritRating */

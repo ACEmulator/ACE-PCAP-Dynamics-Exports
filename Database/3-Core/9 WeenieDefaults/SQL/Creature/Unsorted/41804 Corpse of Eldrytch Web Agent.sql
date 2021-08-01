@@ -14,7 +14,6 @@ VALUES (41804,   1,         16) /* ItemType - Creature */
      , (41804,  98, 1484616573) /* CreationTimestamp */
      , (41804, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (41804, 267,        300) /* Lifespan */
-     , (41804, 268,         -7) /* RemainingLifespan */
      , (41804, 307,          0) /* DamageRating */
      , (41804, 308,          0) /* DamageResistRating */
      , (41804, 313,          0) /* CritRating */

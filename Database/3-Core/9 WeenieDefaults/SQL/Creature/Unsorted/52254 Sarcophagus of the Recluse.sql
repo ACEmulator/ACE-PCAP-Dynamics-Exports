@@ -13,7 +13,6 @@ VALUES (52254,   1,         16) /* ItemType - Creature */
      , (52254,  98, 1485737526) /* CreationTimestamp */
      , (52254, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (52254, 267,        180) /* Lifespan */
-     , (52254, 268,        180) /* RemainingLifespan */
      , (52254, 307,          0) /* DamageRating */
      , (52254, 308,          0) /* DamageResistRating */
      , (52254, 313,          0) /* CritRating */

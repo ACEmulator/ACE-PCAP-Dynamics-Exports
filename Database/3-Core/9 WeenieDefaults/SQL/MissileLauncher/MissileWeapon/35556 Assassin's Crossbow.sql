@@ -26,7 +26,6 @@ VALUES (35556,   1,        256) /* ItemType - MissileWeapon */
      , (35556, 204,         16) /* ElementalDamageBonus */
      , (35556, 263,          2) /* ResistanceModifierType */
      , (35556, 267,      10800) /* Lifespan */
-     , (35556, 268,      10798) /* RemainingLifespan */
      , (35556, 353,          9) /* WeaponType - Crossbow */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

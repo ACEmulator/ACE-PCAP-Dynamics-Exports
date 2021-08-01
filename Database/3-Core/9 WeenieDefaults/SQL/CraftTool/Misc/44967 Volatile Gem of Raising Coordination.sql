@@ -17,8 +17,7 @@ VALUES (44967,   1,        128) /* ItemType - Misc */
      , (44967,  94,        128) /* TargetType - Misc */
      , (44967,  98, 1485833024) /* CreationTimestamp */
      , (44967, 114,          1) /* Attuned - Attuned */
-     , (44967, 267,        900) /* Lifespan */
-     , (44967, 268,        900) /* RemainingLifespan */;
+     , (44967, 267,        900) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44967,  22, True ) /* Inscribable */

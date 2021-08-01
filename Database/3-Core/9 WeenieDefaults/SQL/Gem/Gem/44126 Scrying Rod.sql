@@ -19,7 +19,6 @@ VALUES (44126,   1,       2048) /* ItemType - Gem */
      , (44126,  98, 1484794876) /* CreationTimestamp */
      , (44126, 114,          1) /* Attuned - Attuned */
      , (44126, 267,       5400) /* Lifespan */
-     , (44126, 268,       5398) /* RemainingLifespan */
      , (44126, 280,        500) /* SharedCooldown */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

@@ -13,7 +13,6 @@ VALUES (52986,   1,         16) /* ItemType - Creature */
      , (52986,  98, 1485836472) /* CreationTimestamp */
      , (52986, 133,          1) /* ShowableOnRadar - ShowNever */
      , (52986, 267,       3600) /* Lifespan */
-     , (52986, 268,       3177) /* RemainingLifespan */
      , (52986, 307,          0) /* DamageRating */
      , (52986, 308,          0) /* DamageResistRating */
      , (52986, 313,          0) /* CritRating */
