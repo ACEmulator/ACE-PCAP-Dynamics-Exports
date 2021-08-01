@@ -49,4 +49,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31013, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
      , (31013, 2, 48228,  1, 0, 0, False) /* Create War Bow (48228) for Wield */
      , (31013, 2, 47068,  1, 0, 0, False) /* Create Arrow (47068) for Wield */
-     , (31013, 2, 47430,  1, 0, 0, False) /* Create Acid Mace (47430) for Wield */;
+     , (31013, 2, 47430,  1, 0, 0, False) /* Create Acid Mace (47430) for Wield */
+     , (31013, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;

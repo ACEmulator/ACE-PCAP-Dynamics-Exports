@@ -167,4 +167,6 @@ VALUES (14512, 2, 47400,  1, 0, 0, False) /* Create Frost Club (47400) for Wield
      , (14512, 9, 20494,  0, 0, 0, False) /* Create Scroll of Unflinching Persistence (20494) for ContainTreasure */
      , (14512, 9, 30625,  0, 0, 0, False) /* Create War Bow (30625) for ContainTreasure */
      , (14512, 9, 40710,  0, 0, 0, False) /* Create Covenant Greaves (40710) for ContainTreasure */
-     , (14512, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */;
+     , (14512, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
+     , (14512, 9, 44801,  0, 0, 0, False) /* Create Suikan Over-robe (44801) for ContainTreasure */
+     , (14512, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */;

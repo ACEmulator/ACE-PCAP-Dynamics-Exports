@@ -122,4 +122,5 @@ VALUES (31402, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wiel
      , (31402, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for ContainTreasure */
      , (31402, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
      , (31402, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
-     , (31402, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */;
+     , (31402, 9, 20515,  0, 0, 0, False) /* Create Scroll of Adja's Blessing (20515) for ContainTreasure */
+     , (31402, 9,   413,  0, 0, 0, False) /* Create Chainmail Bracers (413) for ContainTreasure */;

@@ -388,4 +388,5 @@ VALUES (1757, 2, 47659,  1, 0, 0, False) /* Create Lightning Tachi (47659) for W
      , (1757, 9, 48942,  0, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for ContainTreasure */
      , (1757, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (1757, 9,  2685,  0, 0, 0, False) /* Create Scroll of Frailty Other V (2685) for ContainTreasure */
-     , (1757, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;
+     , (1757, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (1757, 9, 49268,  0, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for ContainTreasure */;

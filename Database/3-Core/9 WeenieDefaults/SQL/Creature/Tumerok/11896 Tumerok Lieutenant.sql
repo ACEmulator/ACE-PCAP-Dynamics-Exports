@@ -66,4 +66,5 @@ VALUES (11896, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (11896, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (11896, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
      , (11896, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
-     , (11896, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */;
+     , (11896, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
+     , (11896, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */;

@@ -57,6 +57,7 @@ VALUES (28652, 2, 29969,  1, 0, 0, False) /* Create Quadrelle (29969) for Wield 
      , (28652, 2, 40617,  1, 0, 0, False) /* Create Frost Spadone (40617) for Wield */
      , (28652, 2, 40615,  1, 0, 0, False) /* Create Lightning Spadone (40615) for Wield */
      , (28652, 2, 47466,  1, 0, 0, False) /* Create Lightning Mace (47466) for Wield */
+     , (28652, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
      , (28652, 9, 49340,  0, 0, 0, False) /* Create Acid Moar Essence (100) (49340) for ContainTreasure */
      , (28652, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (28652, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */

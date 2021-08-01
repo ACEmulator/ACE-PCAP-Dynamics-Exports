@@ -334,4 +334,6 @@ VALUES (231, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (231, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */
      , (231, 9,  3856,  0, 0, 0, False) /* Create Frost Shamshir (3856) for ContainTreasure */
      , (231, 9, 20545,  0, 0, 0, False) /* Create Scroll of Feat of Radaz (20545) for ContainTreasure */
-     , (231, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */;
+     , (231, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
+     , (231, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (231, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */;

@@ -76,4 +76,7 @@ VALUES (31339, 2, 31705,  1, 0, 0, False) /* Create Phantom Bow (31705) for Wiel
      , (31339, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (31339, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (31339, 9, 40821,  0, 0, 0, False) /* Create Flaming Corsesca (40821) for ContainTreasure */
-     , (31339, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */;
+     , (31339, 9, 29249,  0, 0, 0, False) /* Create Frost Crossbow (29249) for ContainTreasure */
+     , (31339, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (31339, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
+     , (31339, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */;

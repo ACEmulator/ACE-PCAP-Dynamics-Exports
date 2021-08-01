@@ -70,6 +70,7 @@ VALUES (2586, 2, 47711,  1, 0, 0, False) /* Create Acid Spear (47711) for Wield 
      , (2586, 2, 47951,  1, 0, 0, False) /* Create Lightning Katar (47951) for Wield */
      , (2586, 2, 47674,  1, 0, 0, False) /* Create Flaming Tachi (47674) for Wield */
      , (2586, 2, 47949,  1, 0, 0, False) /* Create Acid Katar (47949) for Wield */
+     , (2586, 2, 47954,  1, 0, 0, False) /* Create Lightning Nekode (47954) for Wield */
      , (2586, 9,  3051,  0, 0, 0, False) /* Create Scroll of Lightning Protection Other V (3051) for ContainTreasure */
      , (2586, 9,  2840,  0, 0, 0, False) /* Create Scroll of Hermetic Void V (2840) for ContainTreasure */
      , (2586, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */

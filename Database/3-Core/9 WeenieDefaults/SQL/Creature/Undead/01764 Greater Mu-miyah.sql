@@ -91,4 +91,5 @@ VALUES (1764, 9,  5894,  0, 0, 0, False) /* Create Fez (5894) for ContainTreasur
      , (1764, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
      , (1764, 9, 40626,  0, 0, 0, False) /* Create Flaming Quadrelle (40626) for ContainTreasure */
      , (1764, 9, 31758,  0, 0, 0, False) /* Create Frost Dericost Blade (31758) for ContainTreasure */
-     , (1764, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */;
+     , (1764, 9, 41487,  0, 0, 0, False) /* Create Mechanical Scarab (41487) for ContainTreasure */
+     , (1764, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */;

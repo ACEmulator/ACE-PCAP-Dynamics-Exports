@@ -11,7 +11,8 @@ VALUES (5196,   1,         16) /* ItemType - Creature */
      , (5196,  16,          1) /* ItemUseable - No */
      , (5196,  25,          8) /* Level */
      , (5196,  93,    4195336) /* PhysicsState - ReportCollisions, Gravity, EdgeSlide */
-     , (5196, 133,          2) /* ShowableOnRadar - ShowMovement */;
+     , (5196, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (5196, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (5196,   1, True ) /* Stuck */;

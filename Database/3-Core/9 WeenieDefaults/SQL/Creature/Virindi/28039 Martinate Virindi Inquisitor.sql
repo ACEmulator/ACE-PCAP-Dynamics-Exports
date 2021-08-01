@@ -153,4 +153,12 @@ VALUES (28039, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for Contain
      , (28039, 9, 22168,  0, 0, 0, False) /* Create Hefty Walking Cane (22168) for ContainTreasure */
      , (28039, 9,  3107,  0, 0, 0, False) /* Create Scroll of Mana Renewal Self VI (3107) for ContainTreasure */
      , (28039, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
-     , (28039, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */;
+     , (28039, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (28039, 9,  2591,  0, 0, 0, False) /* Create Puffy Shirt (2591) for ContainTreasure */
+     , (28039, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (28039, 9,    35,  0, 0, 0, False) /* Create Chainmail Basinet (35) for ContainTreasure */
+     , (28039, 9,  4190,  0, 0, 0, False) /* Create Cestus (4190) for ContainTreasure */
+     , (28039, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (28039, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (28039, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
+     , (28039, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */;

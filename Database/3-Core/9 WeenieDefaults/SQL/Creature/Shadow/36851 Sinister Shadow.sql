@@ -74,6 +74,7 @@ VALUES (36851, 2, 47982,  1, 0, 0, False) /* Create Nekode (47982) for Wield */
      , (36851, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
      , (36851, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
      , (36851, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */
+     , (36851, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */
      , (36851, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (36851, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (36851, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */

@@ -33,4 +33,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (33141, 2, 31390,  1, 0, 0, False) /* Create Raven Sabra (31390) for Wield */
      , (33141, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wield */
      , (33141, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
-     , (33141, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */;
+     , (33141, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (33141, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */;

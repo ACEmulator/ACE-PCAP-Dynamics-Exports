@@ -17,7 +17,10 @@ INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (20624,  39,     1.5) /* DefaultScale */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (20624,   1, 'Scroll of Summon Secondary Portal III') /* Name */;
+VALUES (20624,   1, 'Scroll of Summon Secondary Portal III') /* Name */
+     , (20624,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (20624,  16, 'Inscribed spell: Summon Secondary Portal III
+Summons a portal that goes to the destination of the caster''s linked portal, set with Secondary Portal Tie.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (20624,   1,   33554826) /* Setup */

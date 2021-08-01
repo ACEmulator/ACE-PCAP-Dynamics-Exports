@@ -7,13 +7,15 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (33955,   1,       8192) /* ItemType - Writable */
      , (33955,   5,         15) /* EncumbranceVal */
      , (33955,  16,          8) /* ItemUseable - Contained */
+     , (33955,  19,          0) /* Value */
      , (33955,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (33955,  54,       1) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (33955,   1, 'List of Hunted Creatures') /* Name */;
+VALUES (33955,   1, 'List of Hunted Creatures') /* Name */
+     , (33955,  16, 'A list of creatures to kill for Belinda du Loc.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (33955,   1,   33554773) /* Setup */

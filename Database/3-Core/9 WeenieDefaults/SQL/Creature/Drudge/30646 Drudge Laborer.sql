@@ -307,4 +307,25 @@ VALUES (30646, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for 
      , (30646, 9,    94,  0, 0, 0, False) /* Create Diamond Shield (94) for ContainTreasure */
      , (30646, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (30646, 9, 49297,  0, 0, 0, False) /* Create Fire K'nath Essence (80) (49297) for ContainTreasure */
-     , (30646, 9, 41060,  0, 0, 0, False) /* Create Flaming Great Star Mace (41060) for ContainTreasure */;
+     , (30646, 9, 41060,  0, 0, 0, False) /* Create Flaming Great Star Mace (41060) for ContainTreasure */
+     , (30646, 9, 20427,  0, 0, 0, False) /* Create Aura of Mystic's Blessing (20427) for ContainTreasure */
+     , (30646, 9,   340,  0, 0, 0, False) /* Create Shamshir (340) for ContainTreasure */
+     , (30646, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for ContainTreasure */
+     , (30646, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */
+     , (30646, 9,  3818,  0, 0, 0, False) /* Create Acid Katar (3818) for ContainTreasure */
+     , (30646, 9, 20418,  0, 0, 0, False) /* Create Scroll of Brogard's Defiance (20418) for ContainTreasure */
+     , (30646, 9, 20445,  0, 0, 0, False) /* Create Scroll of The Spike (20445) for ContainTreasure */
+     , (30646, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (30646, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (30646, 9, 49476,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Self VII (49476) for ContainTreasure */
+     , (30646, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
+     , (30646, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreasure */
+     , (30646, 9, 27232,  0, 0, 0, False) /* Create Nariyid Sleeves (27232) for ContainTreasure */
+     , (30646, 9, 20604,  0, 0, 0, False) /* Create Scroll of Cannibalize (20604) for ContainTreasure */
+     , (30646, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
+     , (30646, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (30646, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (30646, 9, 20548,  0, 0, 0, False) /* Create Scroll of Gears Unwound (20548) for ContainTreasure */
+     , (30646, 9, 20570,  0, 0, 0, False) /* Create Scroll of Ignorance's Bliss (20570) for ContainTreasure */
+     , (30646, 9, 49228,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (80) (49228) for ContainTreasure */
+     , (30646, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */;

@@ -363,4 +363,7 @@ VALUES (11869, 2, 11751,  1, 0, 0, False) /* Create Hafted Falcon Spear (11751) 
      , (11869, 9, 30581,  0, 0, 0, False) /* Create Mazule (30581) for ContainTreasure */
      , (11869, 9,  3415,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self IV (3415) for ContainTreasure */
      , (11869, 9,  2431,  1, 0, 0, False) /* Create Gem (2431) for ContainTreasure */
-     , (11869, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */;
+     , (11869, 9, 49220,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for ContainTreasure */
+     , (11869, 9,  2873,  0, 0, 0, False) /* Create Scroll of Piercing Lure III (2873) for ContainTreasure */
+     , (11869, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
+     , (11869, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */;

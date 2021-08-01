@@ -315,4 +315,8 @@ VALUES (24494, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
      , (24494, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (24494, 9, 31794,  0, 0, 0, False) /* Create Lancet (31794) for ContainTreasure */
      , (24494, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
-     , (24494, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */;
+     , (24494, 9, 31778,  0, 0, 0, False) /* Create Frost Spine Glaive (31778) for ContainTreasure */
+     , (24494, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (24494, 9,  2434,  0, 0, 0, False) /* Create Lesser Mana Stone (2434) for ContainTreasure */
+     , (24494, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (24494, 9,  3257,  0, 0, 0, False) /* Create Scroll of Faithlessness VI (3257) for ContainTreasure */;

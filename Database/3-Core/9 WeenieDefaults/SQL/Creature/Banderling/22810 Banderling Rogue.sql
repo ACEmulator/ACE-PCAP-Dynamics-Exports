@@ -223,4 +223,6 @@ VALUES (22810, 2, 47444,  1, 0, 0, False) /* Create Mace (47444) for Wield */
      , (22810, 9,  3754,  0, 0, 0, False) /* Create Acid Hand Axe (3754) for ContainTreasure */
      , (22810, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
      , (22810, 9,  3823,  0, 0, 0, False) /* Create Lightning Ken (3823) for ContainTreasure */
-     , (22810, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
+     , (22810, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (22810, 9,   416,  0, 0, 0, False) /* Create Chainmail Pauldrons (416) for ContainTreasure */
+     , (22810, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */;

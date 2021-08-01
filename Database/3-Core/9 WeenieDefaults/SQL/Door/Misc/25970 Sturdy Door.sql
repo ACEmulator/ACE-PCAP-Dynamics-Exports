@@ -6,16 +6,24 @@ VALUES (25970, 'doordecrepittower', 19, '2019-02-10 00:00:00') /* Door */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (25970,   1,        128) /* ItemType - Misc */
      , (25970,  16,         32) /* ItemUseable - Remote */
+     , (25970,  19,          0) /* Value */
+     , (25970,  38,       9999) /* ResistLockpick */
      , (25970,  93,         24) /* PhysicsState - ReportCollisions, IgnoreCollisions */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (25970,   1, True ) /* Stuck */;
+VALUES (25970,   1, True ) /* Stuck */
+     , (25970,   2, False) /* Open */
+     , (25970,   3, True ) /* Locked */
+     , (25970,  34, False) /* DefaultOpen */
+     , (25970,  35, True ) /* DefaultLocked */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (25970,  54,       2) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (25970,   1, 'Sturdy Door') /* Name */;
+VALUES (25970,   1, 'Sturdy Door') /* Name */
+     , (25970,  14, 'You don''t have a clue how to open this thing.') /* Use */
+     , (25970,  16, 'A sturdy wooden door.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (25970,   1,   33555023) /* Setup */

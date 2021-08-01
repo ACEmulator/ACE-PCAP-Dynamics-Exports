@@ -283,4 +283,5 @@ VALUES (28248, 2, 12197,  1, 0, 0, False) /* Create Assassin's Flaming Simi (121
      , (28248, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (28248, 9, 20537,  0, 0, 0, False) /* Create Scroll of Web of Defense (20537) for ContainTreasure */
      , (28248, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
-     , (28248, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */;
+     , (28248, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (28248, 9,  3112,  0, 0, 0, False) /* Create Scroll of Regenerate Other VI (3112) for ContainTreasure */;

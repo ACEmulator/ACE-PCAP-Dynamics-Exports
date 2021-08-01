@@ -324,4 +324,8 @@ VALUES (25965, 2, 12196,  1, 0, 0, False) /* Create Assassin's Lightning Simi (1
      , (25965, 9, 20554,  0, 0, 0, False) /* Create Scroll of Harlune's Blessing (20554) for ContainTreasure */
      , (25965, 9, 45109,  0, 0, 0, False) /* Create Acid Schlager (45109) for ContainTreasure */
      , (25965, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
-     , (25965, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */;
+     , (25965, 9,  2430,  1, 0, 0, False) /* Create Gem (2430) for ContainTreasure */
+     , (25965, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
+     , (25965, 9,   363,  0, 0, 0, False) /* Create Yumi (363) for ContainTreasure */
+     , (25965, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
+     , (25965, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */;

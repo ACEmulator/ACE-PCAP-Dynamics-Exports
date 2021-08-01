@@ -49,7 +49,8 @@ VALUES (35831,   1,  2337, 0, 0, 2500) /* MaxHealth */
      , (35831,   5,  2000, 0, 0, 2255) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (35831, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+VALUES (35831, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+     , (35831, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (35831, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (35831, 9, 49277,  0, 0, 0, False) /* Create Frost Elemental Essence (100) (49277) for ContainTreasure */
      , (35831, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */

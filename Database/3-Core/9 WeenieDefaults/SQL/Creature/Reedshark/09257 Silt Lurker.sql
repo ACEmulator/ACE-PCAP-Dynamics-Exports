@@ -201,4 +201,6 @@ VALUES (9257, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTre
      , (9257, 9,  2684,  0, 0, 0, False) /* Create Scroll of Frailty Other IV (2684) for ContainTreasure */
      , (9257, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
      , (9257, 9,  2594,  0, 0, 0, False) /* Create Flared Tunic (2594) for ContainTreasure */
-     , (9257, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;
+     , (9257, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (9257, 9,  3420,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Ignorance IV (3420) for ContainTreasure */
+     , (9257, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */;

@@ -19,8 +19,8 @@ VALUES (0x719BA001, 0x719BA002, '2019-02-10 00:00:00') /* Scintilla (6380) */
      , (0x719BA001, 0x719BA009, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
      , (0x719BA001, 0x719BA00A, '2019-02-10 00:00:00') /* Voltarc (21170) */
      , (0x719BA001, 0x719BA00B, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
-     , (0x719BA001, 0x719BA00C, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */
-     , (0x719BA001, 0x719BA00D, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */;
+     , (0x719BA001, 0x719BA00C, '2019-02-10 00:00:00') /* Hea Elder Shaman (11517) */
+     , (0x719BA001, 0x719BA00D, '2019-02-10 00:00:00') /* Kithless Siraluun (11486) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719BA002,  6380, 0x19BA002E, 123.5588, 137.8268, 126.5996, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Scintilla */
@@ -63,12 +63,12 @@ VALUES (0x719BA00B, 11517, 0x19BA0001, 17.36301, 18.92525, 82.0065, 1, 0, 0, 0, 
 /* @teleloc 0x19BA0001 [17.363010 18.925250 82.006500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x719BA00C, 11486, 0x19BA0033, 147.2302, 57.87785, 130.3054, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
-/* @teleloc 0x19BA0033 [147.230200 57.877850 130.305400] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x719BA00C, 11517, 0x19BA0034, 158.215, 74.26991, 128.754, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */
+/* @teleloc 0x19BA0034 [158.215000 74.269910 128.754000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x719BA00D, 11517, 0x19BA0034, 158.215, 74.26991, 128.754, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Elder Shaman */
-/* @teleloc 0x19BA0034 [158.215000 74.269910 128.754000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x719BA00D, 11486, 0x19BA0033, 147.2302, 57.87785, 130.3054, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Kithless Siraluun */
+/* @teleloc 0x19BA0033 [147.230200 57.877850 130.305400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x719BA00E,  1542, 0x19BA0027, 108.1139, 146.6162, 129.3446, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */

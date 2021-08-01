@@ -482,4 +482,25 @@ VALUES (40428, 9, 45409,  0, 0, 0, False) /* Create Flaming Yaoji (45409) for Co
      , (40428, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
      , (40428, 9, 27220,  0, 0, 0, False) /* Create Lorica Boots (27220) for ContainTreasure */
      , (40428, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
-     , (40428, 9,  2871,  0, 0, 0, False) /* Create Scroll of Piercing Bane VI (2871) for ContainTreasure */;
+     , (40428, 9,  2871,  0, 0, 0, False) /* Create Scroll of Piercing Bane VI (2871) for ContainTreasure */
+     , (40428, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (40428, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (40428, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (40428, 9, 43381,  0, 0, 0, False) /* Create Nether Sceptre (43381) for ContainTreasure */
+     , (40428, 9, 41057,  0, 0, 0, False) /* Create Great Star Mace (41057) for ContainTreasure */
+     , (40428, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
+     , (40428, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (40428, 9,  3874,  0, 0, 0, False) /* Create Lightning Spear (3874) for ContainTreasure */
+     , (40428, 9, 45330,  0, 0, 0, False) /* Create Scroll of Shield Mastery Self VII (45330) for ContainTreasure */
+     , (40428, 9, 49327,  0, 0, 0, False) /* Create Fire Wisp Essence (125) (49327) for ContainTreasure */
+     , (40428, 9, 40696,  0, 0, 0, False) /* Create Covenant Bracers (40696) for ContainTreasure */
+     , (40428, 9,    67,  0, 0, 0, False) /* Create Scalemail Greaves (67) for ContainTreasure */
+     , (40428, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (40428, 9, 27229,  0, 0, 0, False) /* Create Nariyid Girth (27229) for ContainTreasure */
+     , (40428, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */
+     , (40428, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (40428, 9, 31795,  0, 0, 0, False) /* Create Acid Lancet (31795) for ContainTreasure */
+     , (40428, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (40428, 9, 20539,  0, 0, 0, False) /* Create Scroll of Wrath of Celcynd (20539) for ContainTreasure */
+     , (40428, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
+     , (40428, 9,  4195,  0, 0, 0, False) /* Create Nekode (4195) for ContainTreasure */;

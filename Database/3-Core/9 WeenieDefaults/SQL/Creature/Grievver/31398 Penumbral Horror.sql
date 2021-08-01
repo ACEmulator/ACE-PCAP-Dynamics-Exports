@@ -55,4 +55,6 @@ VALUES (31398, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasu
      , (31398, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
      , (31398, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (31398, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
-     , (31398, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */;
+     , (31398, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+     , (31398, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasure */
+     , (31398, 9, 25643,  0, 0, 0, False) /* Create Leather Girth (25643) for ContainTreasure */;

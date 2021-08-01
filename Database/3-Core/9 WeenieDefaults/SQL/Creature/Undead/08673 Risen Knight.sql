@@ -278,4 +278,5 @@ VALUES (8673, 2, 47920,  1, 0, 0, False) /* Create Katar (47920) for Wield */
      , (8673, 9,  3186,  0, 0, 0, False) /* Create Scroll of Missile Weapon Mastery Self V (3186) for ContainTreasure */
      , (8673, 9,   303,  0, 0, 0, False) /* Create Hand Axe (303) for ContainTreasure */
      , (8673, 9, 49442,  0, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for ContainTreasure */
-     , (8673, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
+     , (8673, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (8673, 9,   311,  0, 0, 0, False) /* Create Heavy Crossbow (311) for ContainTreasure */;

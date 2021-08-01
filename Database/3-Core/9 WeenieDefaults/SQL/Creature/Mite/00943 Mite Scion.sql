@@ -43,3 +43,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (943,   1,     5, 0, 0, 25) /* MaxHealth */
      , (943,   3,   100, 0, 0, 140) /* MaxStamina */
      , (943,   5,     0, 0, 0, 20) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (943, 2, 35096,  1, 0, 0, False) /* Create Pyre Blade (35096) for Wield */;

@@ -11,7 +11,8 @@ VALUES (4243,   1,         16) /* ItemType - Creature */
      , (4243,  16,          1) /* ItemUseable - No */
      , (4243,  25,         50) /* Level */
      , (4243,  93,       1032) /* PhysicsState - ReportCollisions, Gravity */
-     , (4243, 133,          2) /* ShowableOnRadar - ShowMovement */;
+     , (4243, 133,          2) /* ShowableOnRadar - ShowMovement */
+     , (4243, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (4243,   1, True ) /* Stuck */;
@@ -34,8 +35,18 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (4243, 8040, 4118872082, 51.54674, 42.44482, 11.9808, 0.3905096, 0, 0, -0.9205989) /* PCAPRecordedLocation */
 /* @teleloc 0xF5810012 [51.546740 42.444820 11.980800] 0.390510 0.000000 0.000000 -0.920599 */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (4243,   1, 130, 0, 0) /* Strength */
+     , (4243,   2, 140, 0, 0) /* Endurance */
+     , (4243,   3, 115, 0, 0) /* Quickness */
+     , (4243,   4, 110, 0, 0) /* Coordination */
+     , (4243,   5,  90, 0, 0) /* Focus */
+     , (4243,   6,  80, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (4243,   1,     0, 0, 0, 170) /* MaxHealth */;
+VALUES (4243,   1,   100, 0, 0, 170) /* MaxHealth */
+     , (4243,   3,   170, 0, 0, 310) /* MaxStamina */
+     , (4243,   5,    20, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4243, 2, 22542,  1, 0, 0, False) /* Create Fire Spines (22542) for Wield */;

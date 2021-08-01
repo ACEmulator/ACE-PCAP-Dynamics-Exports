@@ -33,3 +33,8 @@ VALUES (32003, 8040, 3587834190, 179.805, 175.637, 0.007499993, -0.00234587, 0, 
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (32003,   1,     0, 0, 0, 4035) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (32003, 9, 48967,  0, 0, 0, False) /* Create Fire Child Essence (150) (48967) for ContainTreasure */
+     , (32003, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
+     , (32003, 9, 32024,  0, 0, 0, False) /* Create Offering to Xik Minru (32024) for ContainTreasure */;

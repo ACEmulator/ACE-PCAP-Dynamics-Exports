@@ -54,4 +54,6 @@ VALUES (25884, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for Co
      , (25884, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
      , (25884, 9,    90,  0, 0, 0, False) /* Create Yoroi Pauldrons (90) for ContainTreasure */
      , (25884, 9, 20594,  0, 0, 0, False) /* Create Scroll of Wrath of the Hieromancer (20594) for ContainTreasure */
-     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;
+     , (25884, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (25884, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
+     , (25884, 9, 21322,  0, 0, 0, False) /* Create Scroll of Frost Arc VII (21322) for ContainTreasure */;

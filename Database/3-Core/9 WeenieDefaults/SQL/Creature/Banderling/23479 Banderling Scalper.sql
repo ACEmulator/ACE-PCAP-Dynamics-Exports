@@ -203,4 +203,6 @@ VALUES (23479, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68)
      , (23479, 9, 41036,  0, 0, 0, False) /* Create Assagai (41036) for ContainTreasure */
      , (23479, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
      , (23479, 9,   114,  0, 0, 0, False) /* Create Platemail Vambraces (114) for ContainTreasure */
-     , (23479, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */;
+     , (23479, 9,  6045,  0, 0, 0, False) /* Create Celdon Leggings (6045) for ContainTreasure */
+     , (23479, 9, 20522,  0, 0, 0, False) /* Create Scroll of Hearts on Sleeves (20522) for ContainTreasure */
+     , (23479, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */;

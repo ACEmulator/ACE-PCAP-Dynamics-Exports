@@ -50,7 +50,8 @@ VALUES (25863,   1,   650, 0, 0, 755) /* MaxHealth */
      , (25863,   5,   500, 0, 0, 710) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25863, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+VALUES (25863, 2, 46647,  1, 0, 0, False) /* Create Spectral Flaming Nodachi (46647) for Wield */
+     , (25863, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (25863, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainTreasure */
      , (25863, 9, 20467,  0, 0, 0, False) /* Create Scroll of Olthoi's Gift (20467) for ContainTreasure */
      , (25863, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */

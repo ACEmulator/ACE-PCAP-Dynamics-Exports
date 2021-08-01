@@ -354,4 +354,6 @@ VALUES (8138, 2, 23746,  1, 0, 0, False) /* Create Rock (23746) for Wield */
      , (8138, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
      , (8138, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
      , (8138, 9, 22160,  0, 0, 0, False) /* Create Lightning Nabut (22160) for ContainTreasure */
-     , (8138, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */;
+     , (8138, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (8138, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (8138, 9,    54,  0, 0, 0, False) /* Create Yoroi Cuirass (54) for ContainTreasure */;

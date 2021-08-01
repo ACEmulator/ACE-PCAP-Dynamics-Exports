@@ -69,4 +69,5 @@ VALUES (8268, 2, 47674,  1, 0, 0, False) /* Create Flaming Tachi (47674) for Wie
      , (8268, 2, 48295,  1, 0, 0, False) /* Create Arrow (48295) for Wield */
      , (8268, 2, 47621,  1, 0, 0, False) /* Create Acid Tachi (47621) for Wield */
      , (8268, 2, 48492,  1, 0, 0, False) /* Create Flaming Katar (48492) for Wield */
-     , (8268, 2, 47951,  1, 0, 0, False) /* Create Lightning Katar (47951) for Wield */;
+     , (8268, 2, 47951,  1, 0, 0, False) /* Create Lightning Katar (47951) for Wield */
+     , (8268, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */;

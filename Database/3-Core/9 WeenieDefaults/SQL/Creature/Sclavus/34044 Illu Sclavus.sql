@@ -94,4 +94,9 @@ VALUES (34044, 2, 47736,  1, 0, 0, False) /* Create Spear (47736) for Wield */
      , (34044, 9, 20542,  0, 0, 0, False) /* Create Scroll of Yoshi's Boon (20542) for ContainTreasure */
      , (34044, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
      , (34044, 9, 41049,  0, 0, 0, False) /* Create Flaming Pike (41049) for ContainTreasure */
-     , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */;
+     , (34044, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
+     , (34044, 9, 45410,  0, 0, 0, False) /* Create Frost Yaoji (45410) for ContainTreasure */
+     , (34044, 9, 27230,  0, 0, 0, False) /* Create Nariyid Helm (27230) for ContainTreasure */
+     , (34044, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (34044, 9, 48963,  0, 0, 0, False) /* Create Fire Elemental Essence (100) (48963) for ContainTreasure */
+     , (34044, 9, 41059,  0, 0, 0, False) /* Create Lightning Great Star Mace (41059) for ContainTreasure */;

@@ -79,8 +79,8 @@ VALUES (0x7B570001, 0x7B570002, '2019-02-10 00:00:00') /* Carrion Shreth (4109) 
      , (0x7B570001, 0x7B570049, '2019-02-10 00:00:00') /* Black Rat (218) */
      , (0x7B570001, 0x7B57004A, '2019-02-10 00:00:00') /* Russet Rat (4132) */
      , (0x7B570001, 0x7B57004B, '2019-02-10 00:00:00') /* Grey Rat (219) */
-     , (0x7B570001, 0x7B57004C, '2019-02-10 00:00:00') /* Grey Rat (219) */
-     , (0x7B570001, 0x7B57004D, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B570001, 0x7B57004C, '2019-02-10 00:00:00') /* Drudge Prowler (192) */
+     , (0x7B570001, 0x7B57004D, '2019-02-10 00:00:00') /* Grey Rat (219) */
      , (0x7B570001, 0x7B57004E, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
      , (0x7B570001, 0x7B57004F, '2019-02-10 00:00:00') /* Azure Gromnie (1612) */
      , (0x7B570001, 0x7B570050, '2019-02-10 00:00:00') /* Reedshark Pup (223) */
@@ -383,12 +383,12 @@ VALUES (0x7B57004B,   219, 0xB5700004, 17.52725, 82.48586, 43.80503, -0.5848868,
 /* @teleloc 0xB5700004 [17.527250 82.485860 43.805030] -0.584887 0.000000 0.000000 -0.811115 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B57004C,   219, 0xB570003A, 171.4121, 38.62096, 24.01, -0.9999017, 0, 0, -0.01402157,  True, '2019-02-10 00:00:00'); /* Grey Rat */
-/* @teleloc 0xB570003A [171.412100 38.620960 24.010000] -0.999902 0.000000 0.000000 -0.014022 */
+VALUES (0x7B57004C,   192, 0xB5700003, 14.95523, 65.08053, 43.24977, -0.5848868, 0, 0, -0.8111149,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
+/* @teleloc 0xB5700003 [14.955230 65.080530 43.249770] -0.584887 0.000000 0.000000 -0.811115 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7B57004D,   192, 0xB5700003, 14.95523, 65.08053, 43.24977, -0.5848868, 0, 0, -0.8111149,  True, '2019-02-10 00:00:00'); /* Drudge Prowler */
-/* @teleloc 0xB5700003 [14.955230 65.080530 43.249770] -0.584887 0.000000 0.000000 -0.811115 */
+VALUES (0x7B57004D,   219, 0xB570003A, 171.4121, 38.62096, 24.01, -0.9999017, 0, 0, -0.01402157,  True, '2019-02-10 00:00:00'); /* Grey Rat */
+/* @teleloc 0xB570003A [171.412100 38.620960 24.010000] -0.999902 0.000000 0.000000 -0.014022 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7B57004E,  1612, 0xB5700021, 107.3159, 11.08493, 21.85199, -0.2367458, 0, 0, -0.9715716,  True, '2019-02-10 00:00:00'); /* Azure Gromnie */

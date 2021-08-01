@@ -64,4 +64,6 @@ VALUES (31912, 2, 47713,  1, 0, 0, False) /* Create Acid Spear (47713) for Wield
      , (31912, 9, 49376,  0, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for ContainTreasure */
      , (31912, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
      , (31912, 9, 20598,  0, 0, 0, False) /* Create Scroll of Koga's Blessing (20598) for ContainTreasure */
-     , (31912, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */;
+     , (31912, 9, 21301,  0, 0, 0, False) /* Create Scroll of Blade Arc VII (21301) for ContainTreasure */
+     , (31912, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (31912, 9, 31774,  0, 0, 0, False) /* Create Board with Nail (31774) for ContainTreasure */;

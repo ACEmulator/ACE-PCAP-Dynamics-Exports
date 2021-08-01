@@ -100,4 +100,5 @@ VALUES (33131, 9, 20468,  0, 0, 0, False) /* Create Scroll of Boon of the Blade 
      , (33131, 9, 29247,  0, 0, 0, False) /* Create Electric Crossbow (29247) for ContainTreasure */
      , (33131, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (33131, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
-     , (33131, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */;
+     , (33131, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (33131, 9, 45121,  0, 0, 0, False) /* Create Flaming Hand Wraps (45121) for ContainTreasure */;

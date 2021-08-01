@@ -45,4 +45,5 @@ VALUES (32002, 2, 48029,  1, 0, 0, False) /* Create Silifi (48029) for Wield */
      , (32002, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (32002, 2, 48022,  1, 0, 0, False) /* Create Lightning Quarrel (48022) for Wield */
      , (32002, 2, 48020,  1, 0, 0, False) /* Create Quarrel (48020) for Wield */
-     , (32002, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */;
+     , (32002, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
+     , (32002, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield */;

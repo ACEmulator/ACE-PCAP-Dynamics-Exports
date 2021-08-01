@@ -147,4 +147,6 @@ VALUES (24276, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for Contain
      , (24276, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasure */
      , (24276, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */
      , (24276, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
-     , (24276, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */;
+     , (24276, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (24276, 9, 20597,  0, 0, 0, False) /* Create Scroll of Koga's Boon (20597) for ContainTreasure */
+     , (24276, 9,  3875,  0, 0, 0, False) /* Create Flaming Spear (3875) for ContainTreasure */;

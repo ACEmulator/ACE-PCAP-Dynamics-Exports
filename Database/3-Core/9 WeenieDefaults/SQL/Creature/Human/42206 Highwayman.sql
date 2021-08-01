@@ -66,4 +66,7 @@ VALUES (42206, 2, 12060,  1, 0, 0, False) /* Create Bandit Frost Jambiya (12060)
      , (42206, 2, 12064,  1, 0, 0, False) /* Create Bandit Flaming Khanjar (12064) for Wield */
      , (42206, 2, 12063,  1, 0, 0, False) /* Create Bandit Lightning Khanjar (12063) for Wield */
      , (42206, 2, 12073,  1, 0, 0, False) /* Create Bandit Lightning Simi (12073) for Wield */
-     , (42206, 2, 12082,  1, 0, 0, False) /* Create Bandit Acid Yaoji (12082) for Wield */;
+     , (42206, 2, 12082,  1, 0, 0, False) /* Create Bandit Acid Yaoji (12082) for Wield */
+     , (42206, 2, 12070,  1, 0, 0, False) /* Create Bandit Frost Knife (12070) for Wield */
+     , (42206, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */
+     , (42206, 2, 12078,  1, 0, 0, False) /* Create Bandit Short Sword (12078) for Wield */;

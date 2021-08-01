@@ -48,7 +48,8 @@ VALUES (25858,   1,   800, 0, 0, 900) /* MaxHealth */
      , (25858,   5,   700, 0, 0, 1000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25858, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
+VALUES (25858, 2, 46365,  1, 0, 0, False) /* Create Spectral Lightning Tachi (46365) for Wield */
+     , (25858, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */
      , (25858, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
      , (25858, 9,  7798,  0, 0, 0, False) /* Create Electric Naginata (7798) for ContainTreasure */
      , (25858, 9,  2423,  1, 0, 0, False) /* Create Gem (2423) for ContainTreasure */

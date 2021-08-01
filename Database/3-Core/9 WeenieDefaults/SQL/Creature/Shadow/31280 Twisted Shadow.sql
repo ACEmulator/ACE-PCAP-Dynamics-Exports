@@ -356,4 +356,6 @@ VALUES (31280, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (31280, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
      , (31280, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
      , (31280, 9, 45354,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self VII (45354) for ContainTreasure */
-     , (31280, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */;
+     , (31280, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
+     , (31280, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (31280, 9,  3874,  0, 0, 0, False) /* Create Lightning Spear (3874) for ContainTreasure */;

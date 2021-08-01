@@ -52,4 +52,5 @@ VALUES (45162, 2, 48071,  1, 0, 0, False) /* Create Nekode (48071) for Wield */
      , (45162, 2, 48077,  1, 0, 0, False) /* Create Ono (48077) for Wield */
      , (45162, 2, 48076,  1, 0, 0, False) /* Create Lightning Silifi (48076) for Wield */
      , (45162, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
-     , (45162, 2, 48068,  1, 0, 0, False) /* Create Acid Katar (48068) for Wield */;
+     , (45162, 2, 48068,  1, 0, 0, False) /* Create Acid Katar (48068) for Wield */
+     , (45162, 2, 48075,  1, 0, 0, False) /* Create Acid Silifi (48075) for Wield */;

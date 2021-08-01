@@ -48,7 +48,8 @@ VALUES (29297,   1,   176, 0, 0, 218) /* MaxHealth */
      , (29297,   5,    80, 0, 0, 245) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (29297, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
+VALUES (29297, 2, 27879,  1, 0, 0, False) /* Create Bone Sword (27879) for Wield */
+     , (29297, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (29297, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
      , (29297, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
      , (29297, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */

@@ -868,4 +868,13 @@ VALUES (4253, 2, 23735,  1, 0, 0, False) /* Create Yumi (23735) for Wield */
      , (4253, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
      , (4253, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
      , (4253, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */
-     , (4253, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */;
+     , (4253, 9,  3834,  0, 0, 0, False) /* Create Acid Mace (3834) for ContainTreasure */
+     , (4253, 9, 31804,  0, 0, 0, False) /* Create Piercing Compound Bow (31804) for ContainTreasure */
+     , (4253, 9, 40677,  0, 0, 0, False) /* Create Olthoi Gauntlets (40677) for ContainTreasure */
+     , (4253, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (4253, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
+     , (4253, 9, 40764,  0, 0, 0, False) /* Create Frost Nodachi (40764) for ContainTreasure */
+     , (4253, 9, 40683,  0, 0, 0, False) /* Create Olthoi Sollerets (40683) for ContainTreasure */
+     , (4253, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
+     , (4253, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (4253, 9, 43380,  1, 0, 0, False) /* Create Glyph of Void Magic (43380) for ContainTreasure */;

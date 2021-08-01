@@ -223,4 +223,6 @@ VALUES (24032, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreas
      , (24032, 9,  3299,  0, 0, 0, False) /* Create Scroll of Invulnerability Self III (3299) for ContainTreasure */
      , (24032, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (24032, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
-     , (24032, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */;
+     , (24032, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (24032, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
+     , (24032, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */;

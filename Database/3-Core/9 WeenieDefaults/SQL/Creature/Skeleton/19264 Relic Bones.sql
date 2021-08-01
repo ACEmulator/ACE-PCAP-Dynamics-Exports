@@ -62,4 +62,5 @@ VALUES (19264, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (19264, 2, 47464,  1, 0, 0, False) /* Create Lightning Mace (47464) for Wield */
      , (19264, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
      , (19264, 2, 48239,  1, 0, 0, False) /* Create Fire Bow (48239) for Wield */
-     , (19264, 2, 47426,  1, 0, 0, False) /* Create Acid Mace (47426) for Wield */;
+     , (19264, 2, 47426,  1, 0, 0, False) /* Create Acid Mace (47426) for Wield */
+     , (19264, 2, 47769,  1, 0, 0, False) /* Create Flaming Spear (47769) for Wield */;

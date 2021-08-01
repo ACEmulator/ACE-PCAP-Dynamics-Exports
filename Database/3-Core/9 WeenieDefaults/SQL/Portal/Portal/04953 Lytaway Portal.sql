@@ -6,7 +6,10 @@ VALUES (4953, 'portallytaway', 7, '2019-02-10 00:00:00') /* Portal */;
 INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (4953,   1,      65536) /* ItemType - Portal */
      , (4953,  16,         32) /* ItemUseable - Remote */
+     , (4953,  86,          1) /* MinLevel */
+     , (4953,  87,         20) /* MaxLevel */
      , (4953,  93,       3084) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn */
+     , (4953, 111,          1) /* PortalBitmask - Unrestricted */
      , (4953, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

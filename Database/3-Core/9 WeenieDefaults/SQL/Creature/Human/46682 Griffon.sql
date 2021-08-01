@@ -61,4 +61,5 @@ VALUES (46682,   1,   196, 0, 0, 296) /* MaxHealth */
      , (46682,   5,   196, 0, 0, 396) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (46682, 2, 45527,  1, 0, 0, False) /* Create Soul Bound Spear (45527) for Wield */;
+VALUES (46682, 2, 45527,  1, 0, 0, False) /* Create Soul Bound Spear (45527) for Wield */
+     , (46682, 2, 46634,  1, 0, 0, False) /* Create Acid Longbow (46634) for Wield */;

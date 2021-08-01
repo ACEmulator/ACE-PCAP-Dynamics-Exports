@@ -50,6 +50,7 @@ VALUES (44051,   1,  2500, 0, 0, 2650) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44051, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44051, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
      , (44051, 9, 20493,  0, 0, 0, False) /* Create Scroll of Tenaciousness (20493) for ContainTreasure */
      , (44051, 9, 20593,  0, 0, 0, False) /* Create Scroll of Gravity Well (20593) for ContainTreasure */
      , (44051, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */

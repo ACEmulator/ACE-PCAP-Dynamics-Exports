@@ -48,7 +48,8 @@ VALUES (6382,   1,     1, 0, 0, 31) /* MaxHealth */
      , (6382,   5,    30, 0, 0, 110) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (6382, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+VALUES (6382, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (6382, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
      , (6382, 9,   273, 24, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (6382, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (6382, 9,  2414,  1, 0, 0, False) /* Create Gem (2414) for ContainTreasure */

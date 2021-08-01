@@ -793,7 +793,8 @@ VALUES (0x72C1209C, 0x72C1209D, '2019-02-10 00:00:00') /* Bonfire (4179) */
      , (0x72C1209C, 0x72C120A6, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
      , (0x72C1209C, 0x72C120A7, '2019-02-10 00:00:00') /* Directive's Cache (9286) */
      , (0x72C1209C, 0x72C120A8, '2019-02-10 00:00:00') /* Bones (4380) */
-     , (0x72C1209C, 0x72C120A9, '2019-02-10 00:00:00') /* Bonfire (4179) */;
+     , (0x72C1209C, 0x72C120A9, '2019-02-10 00:00:00') /* Bonfire (4179) */
+     , (0x72C1209C, 0x72C120AA, '2019-02-10 00:00:00') /* Directive's Cache (9286) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C1209D,  4179, 0x2C12000B, 29.8472, 50.36482, 15.80293, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
@@ -846,3 +847,7 @@ VALUES (0x72C120A8,  4380, 0x2C12000B, 46.23324, 65.06023, 31.14623, -4.371139E-
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x72C120A9,  4179, 0x2C12000B, 33.94813, 54.22268, 15.48145, 0.9990482, 0, 0, -0.04361939,  True, '2019-02-10 00:00:00'); /* Bonfire */
 /* @teleloc 0x2C12000B [33.948130 54.222680 15.481450] 0.999048 0.000000 0.000000 -0.043619 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x72C120AA,  9286, 0x2C120002, 21.32392, 41.22605, 19.55811, -0.827497, 0, 0, -0.56147,  True, '2019-02-10 00:00:00'); /* Directive's Cache */
+/* @teleloc 0x2C120002 [21.323920 41.226050 19.558110] -0.827497 0.000000 0.000000 -0.561470 */

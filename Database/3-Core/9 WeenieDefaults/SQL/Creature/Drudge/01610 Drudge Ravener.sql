@@ -61,6 +61,7 @@ VALUES (1610, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for W
      , (1610, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */
      , (1610, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (1610, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (1610, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (1610, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (1610, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
      , (1610, 9,   273, 959, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
@@ -835,4 +836,5 @@ VALUES (1610, 2, 47255,  1, 0, 0, False) /* Create Board with Nail (47255) for W
      , (1610, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
      , (1610, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
      , (1610, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
-     , (1610, 9,  8925,  0, 0, 0, False) /* Create Scroll of Flame Streak VI (8925) for ContainTreasure */;
+     , (1610, 9,  8925,  0, 0, 0, False) /* Create Scroll of Flame Streak VI (8925) for ContainTreasure */
+     , (1610, 9, 41062,  0, 0, 0, False) /* Create Khanda-handled Mace (41062) for ContainTreasure */;

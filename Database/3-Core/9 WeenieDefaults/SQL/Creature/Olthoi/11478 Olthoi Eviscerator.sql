@@ -49,7 +49,8 @@ VALUES (11478,   1,   125, 0, 0, 275) /* MaxHealth */
      , (11478,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for ContainTreasure */
+VALUES (11478, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for ContainTreasure */
      , (11478, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (11478, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
      , (11478, 9,   631,  0, 0, 0, False) /* Create Excellent Healing Kit (631) for ContainTreasure */
@@ -616,4 +617,9 @@ VALUES (11478, 9,  3768,  0, 0, 0, False) /* Create Flaming Club (3768) for Cont
      , (11478, 9,  3750,  0, 0, 0, False) /* Create Acid Battle Axe (3750) for ContainTreasure */
      , (11478, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */
      , (11478, 9, 41050,  0, 0, 0, False) /* Create Frost Pike (41050) for ContainTreasure */
-     , (11478, 9, 20257,  0, 0, 0, False) /* Create Scroll of Mind Blossom (20257) for ContainTreasure */;
+     , (11478, 9, 20257,  0, 0, 0, False) /* Create Scroll of Mind Blossom (20257) for ContainTreasure */
+     , (11478, 9,  2432,  1, 0, 0, False) /* Create Gem (2432) for ContainTreasure */
+     , (11478, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */
+     , (11478, 9,  2786,  0, 0, 0, False) /* Create Aura of Blood Drinker Self VI (2786) for ContainTreasure */
+     , (11478, 9, 41047,  0, 0, 0, False) /* Create Acid Pike (41047) for ContainTreasure */
+     , (11478, 9, 44799,  0, 0, 0, False) /* Create Faran Over-robe (44799) for ContainTreasure */;

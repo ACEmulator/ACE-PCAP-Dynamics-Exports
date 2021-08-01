@@ -49,4 +49,7 @@ VALUES (32007,   1, 49695, 0, 0, 50000) /* MaxHealth */
      , (32007,   5,  1500, 0, 0, 2000) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (32007, 2, 31997,  1, 0, 0, False) /* Create Vaikiakvi (31997) for Wield */;
+VALUES (32007, 2, 31997,  1, 0, 0, False) /* Create Vaikiakvi (31997) for Wield */
+     , (32007, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+     , (32007, 9, 31983,  0, 0, 0, False) /* Create Unreadable Falatacot Volume (31983) for ContainTreasure */
+     , (32007, 9, 32014,  0, 0, 0, False) /* Create Aurulent Key (32014) for ContainTreasure */;

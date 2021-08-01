@@ -58,6 +58,7 @@ VALUES (226, 2, 23681,  1, 0, 0, False) /* Create Nekode (23681) for Wield */
      , (226, 2, 23675,  1, 0, 0, False) /* Create Katar (23675) for Wield */
      , (226, 2, 23701,  1, 0, 0, False) /* Create Tachi (23701) for Wield */
      , (226, 2, 23697,  1, 0, 0, False) /* Create Spear (23697) for Wield */
+     , (226, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
      , (226, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
      , (226, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
      , (226, 9,   513,  0, 0, 0, False) /* Create Plain Lockpick (513) for ContainTreasure */

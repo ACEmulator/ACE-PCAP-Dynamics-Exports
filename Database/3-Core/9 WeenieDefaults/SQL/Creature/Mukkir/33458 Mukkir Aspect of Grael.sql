@@ -59,4 +59,16 @@ VALUES (33458, 9, 49257,  0, 0, 0, False) /* Create Frost Zombie Essence (125) (
      , (33458, 9, 20446,  0, 0, 0, False) /* Create Scroll of Outlander's Insolence (20446) for ContainTreasure */
      , (33458, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (33458, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
-     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */;
+     , (33458, 9, 33691,  0, 0, 0, False) /* Create Shard of the Black Spear (33691) for ContainTreasure */
+     , (33458, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
+     , (33458, 9, 49249,  0, 0, 0, False) /* Create Fire Zombie Essence (100) (49249) for ContainTreasure */
+     , (33458, 9, 31819,  0, 0, 0, False) /* Create Staff (31819) for ContainTreasure */
+     , (33458, 9,  3880,  0, 0, 0, False) /* Create Frost Broad Sword (3880) for ContainTreasure */
+     , (33458, 9, 27216,  0, 0, 0, False) /* Create Chiran Gauntlets (27216) for ContainTreasure */
+     , (33458, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+     , (33458, 9, 31785,  0, 0, 0, False) /* Create Acid Claw (31785) for ContainTreasure */
+     , (33458, 9, 41262,  0, 0, 0, False) /* Create Scroll of Blessing of T'ing (41262) for ContainTreasure */
+     , (33458, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (33458, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (33458, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
+     , (33458, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */;

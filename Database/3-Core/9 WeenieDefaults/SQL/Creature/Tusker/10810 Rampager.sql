@@ -241,4 +241,9 @@ VALUES (10810, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTrea
      , (10810, 9, 41037,  0, 0, 0, False) /* Create Acidic Weeping Two Handed Spear (41037) for ContainTreasure */
      , (10810, 9, 21100,  0, 0, 0, False) /* Create Scroll of Martyr's Hecatomb VI (21100) for ContainTreasure */
      , (10810, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */
-     , (10810, 9, 41040,  0, 0, 0, False) /* Create Frost Assagai (41040) for ContainTreasure */;
+     , (10810, 9, 41040,  0, 0, 0, False) /* Create Frost Assagai (41040) for ContainTreasure */
+     , (10810, 9, 41042,  0, 0, 0, False) /* Create Acid Magari Yari (41042) for ContainTreasure */
+     , (10810, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (10810, 9, 31768,  0, 0, 0, False) /* Create Frost War Axe (31768) for ContainTreasure */
+     , (10810, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
+     , (10810, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */;

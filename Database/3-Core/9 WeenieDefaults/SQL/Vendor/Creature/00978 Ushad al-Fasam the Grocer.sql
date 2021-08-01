@@ -10,6 +10,9 @@ VALUES (978,   1,         16) /* ItemType - Creature */
      , (978,   7,         -1) /* ContainersCapacity */
      , (978,  16,         32) /* ItemUseable - Remote */
      , (978,  25,         12) /* Level */
+     , (978,  74,    4481568) /* MerchandiseItemTypes - VendorGrocer */
+     , (978,  75,          0) /* MerchandiseMinValue */
+     , (978,  76,      25000) /* MerchandiseMaxValue */
      , (978,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (978, 113,          1) /* Gender - Male */
      , (978, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -18,10 +21,13 @@ VALUES (978,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (978,   1, True ) /* Stuck */
-     , (978,  19, False) /* Attackable */;
+     , (978,  19, False) /* Attackable */
+     , (978,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (978,  54,       3) /* UseRadius */;
+VALUES (978,  37,     0.9) /* BuyPrice */
+     , (978,  38,    1.35) /* SellPrice */
+     , (978,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (978,   1, 'Ushad al-Fasam the Grocer') /* Name */
@@ -56,3 +62,13 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (978,   1,   120, 0, 0, 170) /* MaxHealth */
      , (978,   3,   100, 0, 0, 200) /* MaxStamina */
      , (978,   5,   100, 0, 0, 140) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (978, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
+     , (978, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
+     , (978, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
+     , (978, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
+     , (978, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
+     , (978, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (978, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (978, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */;

@@ -56,5 +56,6 @@ VALUES (43218, 2, 43132,  1, 0, 0, False) /* Create Gear Crossbow (43132) for Wi
      , (43218, 2, 41248,  1, 0, 0, False) /* Create Fire Gearknight Sword (41248) for Wield */
      , (43218, 2, 41245,  1, 0, 0, False) /* Create Gearknight Greatsword (41245) for Wield */
      , (43218, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
+     , (43218, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
      , (43218, 9, 41036,  0, 0, 0, False) /* Create Assagai (41036) for ContainTreasure */
      , (43218, 9, 31766,  0, 0, 0, False) /* Create Lightning Lugian Hammer (31766) for ContainTreasure */;

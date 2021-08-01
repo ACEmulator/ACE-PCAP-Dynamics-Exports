@@ -40,6 +40,7 @@ VALUES (34311, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for 
      , (34311, 2, 48494,  1, 0, 0, False) /* Create Flaming Katar (48494) for Wield */
      , (34311, 2, 48297,  1, 0, 0, False) /* Create Arrow (48297) for Wield */
      , (34311, 2, 48259,  1, 0, 0, False) /* Create Arrow (48259) for Wield */
+     , (34311, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield */
      , (34311, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
      , (34311, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (34311, 9,  6003,  0, 0, 0, False) /* Create Koujia Breastplate (6003) for ContainTreasure */

@@ -70,4 +70,7 @@ VALUES (40311, 2, 46402,  1, 0, 0, False) /* Create T'thuun Dagger (46402) for W
      , (40311, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (40311, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (40311, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
-     , (40311, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */;
+     , (40311, 9, 45103,  0, 0, 0, False) /* Create Frost Epee (45103) for ContainTreasure */
+     , (40311, 9, 49440,  0, 0, 0, False) /* Create Fire Spectre Essence (180) (49440) for ContainTreasure */
+     , (40311, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */
+     , (40311, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */;

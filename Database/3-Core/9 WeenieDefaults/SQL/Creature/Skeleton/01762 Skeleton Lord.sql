@@ -732,4 +732,5 @@ VALUES (1762, 2, 47728,  1, 0, 0, False) /* Create Spear (47728) for Wield */
      , (1762, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
      , (1762, 9, 40701,  0, 0, 0, False) /* Create Covenant Helm (40701) for ContainTreasure */
      , (1762, 9,  2821,  0, 0, 0, False) /* Create Scroll of Flame Lure VI (2821) for ContainTreasure */
-     , (1762, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */;
+     , (1762, 9,    85,  0, 0, 0, False) /* Create Chainmail Coif (85) for ContainTreasure */
+     , (1762, 9,  2831,  0, 0, 0, False) /* Create Scroll of Frost Lure VI (2831) for ContainTreasure */;

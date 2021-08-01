@@ -125,4 +125,5 @@ VALUES (7978, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasu
      , (7978, 9, 41036,  0, 0, 0, False) /* Create Assagai (41036) for ContainTreasure */
      , (7978, 9,  3352,  0, 0, 0, False) /* Create Scroll of Leadership Ineptitude VI (3352) for ContainTreasure */
      , (7978, 9,  2400,  1, 0, 0, False) /* Create Gem (2400) for ContainTreasure */
-     , (7978, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */;
+     , (7978, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
+     , (7978, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */;

@@ -9,14 +9,29 @@ VALUES (23730,   1,          1) /* ItemType - MeleeWeapon */
      , (23730,   9,    1048576) /* ValidLocations - MeleeWeapon */
      , (23730,  16,          1) /* ItemUseable - No */
      , (23730,  19,        600) /* Value */
+     , (23730,  33,          0) /* Bonded - Normal */
      , (23730,  51,          1) /* CombatUse - Melee */
-     , (23730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
+     , (23730,  91,         50) /* MaxStructure */
+     , (23730,  92,         50) /* Structure */
+     , (23730,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
+     , (23730, 105,          6) /* ItemWorkmanship */
+     , (23730, 114,          0) /* Attuned - Normal */
+     , (23730, 280,        213) /* SharedCooldown */
+     , (23730, 366,         54) /* UseRequiresSkill */
+     , (23730, 367,        310) /* UseRequiresSkillLevel */
+     , (23730, 369,         40) /* UseRequiresLevel */
+     , (23730, 372,         10) /* GearCrit */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (23730,  22, True ) /* Inscribable */;
+VALUES (23730,  22, True ) /* Inscribable */
+     , (23730,  69, True ) /* IsSellable */;
+
+INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
+VALUES (23730, 167,      45) /* CooldownDuration */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (23730,   1, 'Yari') /* Name */;
+VALUES (23730,   1, 'Yari') /* Name */
+     , (23730,  14, 'Use this essence to summon or dismiss your Acid Moar.') /* Use */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (23730,   1,   33554824) /* Setup */

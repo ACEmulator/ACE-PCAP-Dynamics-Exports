@@ -39,4 +39,5 @@ VALUES (1407,   1,     0, 0, 0, 60) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1407, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
-     , (1407, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */;
+     , (1407, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
+     , (1407, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */;

@@ -55,4 +55,11 @@ VALUES (32512,   1,   500, 0, 0, 680) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32512, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
-     , (32512, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */;
+     , (32512, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
+     , (32512, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
+     , (32512, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
+     , (32512, 2, 15429,  1, 0, 0, False) /* Create Deadly Arrow (15429) for Wield */
+     , (32512, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (32512, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (32512, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
+     , (32512, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */;

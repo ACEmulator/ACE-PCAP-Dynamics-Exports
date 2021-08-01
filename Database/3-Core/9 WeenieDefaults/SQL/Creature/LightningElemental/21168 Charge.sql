@@ -102,4 +102,5 @@ VALUES (21168, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTr
      , (21168, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
      , (21168, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for ContainTreasure */
      , (21168, 9,  3022,  0, 0, 0, False) /* Create Scroll of Cold Protection Other VI (3022) for ContainTreasure */
-     , (21168, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */;
+     , (21168, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (21168, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */;

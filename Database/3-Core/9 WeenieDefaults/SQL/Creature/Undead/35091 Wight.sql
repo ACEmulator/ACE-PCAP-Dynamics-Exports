@@ -218,4 +218,6 @@ VALUES (35091, 2, 48076,  1, 0, 0, False) /* Create Lightning Silifi (48076) for
      , (35091, 9, 20481,  0, 0, 0, False) /* Create Scroll of Storm's Blessing (20481) for ContainTreasure */
      , (35091, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
      , (35091, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
-     , (35091, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */;
+     , (35091, 9,   112,  0, 0, 0, False) /* Create Studded Leather Tassets (112) for ContainTreasure */
+     , (35091, 9, 49543,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (180) (49543) for ContainTreasure */
+     , (35091, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */;

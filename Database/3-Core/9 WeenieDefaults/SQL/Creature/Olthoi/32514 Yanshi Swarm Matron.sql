@@ -40,4 +40,9 @@ VALUES (32514,   1,     0, 0, 0, 910) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32514, 9, 49284,  0, 0, 0, False) /* Create Acid K'nath Essence (100) (49284) for ContainTreasure */
      , (32514, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (32514, 9, 32554,  0, 0, 0, False) /* Create Yanshi Swarm Matron's Claw (32554) for ContainTreasure */;
+     , (32514, 9, 32554,  0, 0, 0, False) /* Create Yanshi Swarm Matron's Claw (32554) for ContainTreasure */
+     , (32514, 9, 41484,  0, 0, 0, False) /* Create Goggles (41484) for ContainTreasure */
+     , (32514, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (32514, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (32514, 9, 49370,  0, 0, 0, False) /* Create Acid Grievver Essence (150) (49370) for ContainTreasure */
+     , (32514, 9, 31798,  0, 0, 0, False) /* Create Slashing Compound Bow (31798) for ContainTreasure */;

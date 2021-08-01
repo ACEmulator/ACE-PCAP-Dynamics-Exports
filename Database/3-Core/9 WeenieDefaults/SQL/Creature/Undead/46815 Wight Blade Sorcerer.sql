@@ -82,4 +82,5 @@ VALUES (46815, 9, 21154,  0, 0, 0, False) /* Create Covenant Girth (21154) for C
      , (46815, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (46815, 9, 22166,  0, 0, 0, False) /* Create Flaming Quarter Staff (22166) for ContainTreasure */
      , (46815, 9, 37326,  1, 0, 0, False) /* Create Glyph of Person Appraisal (37326) for ContainTreasure */
-     , (46815, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */;
+     , (46815, 9, 22444,  0, 0, 0, False) /* Create Frost Dirk (22444) for ContainTreasure */
+     , (46815, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */;

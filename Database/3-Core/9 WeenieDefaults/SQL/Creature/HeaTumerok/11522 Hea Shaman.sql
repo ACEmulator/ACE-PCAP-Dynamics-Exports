@@ -57,6 +57,7 @@ VALUES (11522, 2, 23665,  1, 0, 0, False) /* Create Heavy Crossbow (23665) for W
      , (11522, 2, 23696,  1, 0, 0, False) /* Create Spear (23696) for Wield */
      , (11522, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
      , (11522, 2, 23680,  1, 0, 0, False) /* Create Nekode (23680) for Wield */
+     , (11522, 2, 23718,  1, 0, 0, False) /* Create Fire Yaoji (23718) for Wield */
      , (11522, 9,  3096,  0, 0, 0, False) /* Create Scroll of Mana Depletion Other V (3096) for ContainTreasure */
      , (11522, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
      , (11522, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */

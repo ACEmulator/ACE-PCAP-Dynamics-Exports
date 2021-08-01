@@ -41,3 +41,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40132,   1,  1420, 0, 0, 1520) /* MaxHealth */
      , (40132,   3,  1420, 0, 0, 1620) /* MaxStamina */
      , (40132,   5,  1200, 0, 0, 1530) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40132, 9, 45116,  0, 0, 0, False) /* Create Flaming Hammer (45116) for ContainTreasure */
+     , (40132, 9,  3898,  0, 0, 0, False) /* Create Lightning Tofun (3898) for ContainTreasure */
+     , (40132, 9, 31814,  0, 0, 0, False) /* Create Dark Blunt Slingshot (31814) for ContainTreasure */
+     , (40132, 9, 40101,  0, 0, 0, False) /* Create Aggregate Crystalline Shard (40101) for ContainTreasure */;

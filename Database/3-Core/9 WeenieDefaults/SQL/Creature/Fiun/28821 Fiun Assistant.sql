@@ -48,7 +48,8 @@ VALUES (28821,   1,   390, 0, 0, 460) /* MaxHealth */
      , (28821,   5,   300, 0, 0, 440) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28821, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
+VALUES (28821, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */
+     , (28821, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
      , (28821, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (28821, 9,   273, 2239, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (28821, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */

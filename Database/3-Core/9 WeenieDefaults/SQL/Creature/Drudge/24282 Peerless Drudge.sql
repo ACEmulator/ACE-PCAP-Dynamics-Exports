@@ -212,4 +212,10 @@ VALUES (24282, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for 
      , (24282, 9, 20551,  0, 0, 0, False) /* Create Scroll of Ar-Pei's Blessing (20551) for ContainTreasure */
      , (24282, 9, 42635,  1, 0, 0, False) /* Create Aetheria (42635) for ContainTreasure */
      , (24282, 9, 46883,  0, 0, 0, False) /* Create Aura of Swift Killer Other VII (46883) for ContainTreasure */
-     , (24282, 9, 40704,  0, 0, 0, False) /* Create Covenant Tassets (40704) for ContainTreasure */;
+     , (24282, 9, 40704,  0, 0, 0, False) /* Create Covenant Tassets (40704) for ContainTreasure */
+     , (24282, 9, 49424,  0, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for ContainTreasure */
+     , (24282, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (24282, 9, 49222,  0, 0, 0, False) /* Create Lightning Skeleton Minion Essence (100) (49222) for ContainTreasure */
+     , (24282, 9, 27227,  0, 0, 0, False) /* Create Nariyid Breastplate (27227) for ContainTreasure */
+     , (24282, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
+     , (24282, 9,    89,  0, 0, 0, False) /* Create Studded Leather Pauldrons (89) for ContainTreasure */;

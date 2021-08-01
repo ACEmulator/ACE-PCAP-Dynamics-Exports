@@ -14,7 +14,8 @@ VALUES (0x78BB0001, 0x78BB0002, '2019-02-10 00:00:00') /* Tusker Slave (1628) */
      , (0x78BB0001, 0x78BB0008, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
      , (0x78BB0001, 0x78BB0009, '2019-02-10 00:00:00') /* Banderling Mauler (7088) */
      , (0x78BB0001, 0x78BB000A, '2019-02-10 00:00:00') /* Banderling Mangler (7333) */
-     , (0x78BB0001, 0x78BB000B, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */;
+     , (0x78BB0001, 0x78BB000B, '2019-02-10 00:00:00') /* Mighty Oak Golem (26468) */
+     , (0x78BB0001, 0x78BB000C, '2019-02-10 00:00:00') /* Banderling Berserker (7085) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BB0002,  1628, 0x8BB00011, 63.66837, 22.48022, 71.01966, -0.1736482, 0, 0, -0.9848077,  True, '2019-02-10 00:00:00'); /* Tusker Slave */
@@ -55,3 +56,7 @@ VALUES (0x78BB000A,  7333, 0x8BB00012, 56.89828, 29.33124, 72.96838, 0.7071068, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x78BB000B, 26468, 0x8BB0001A, 73.71348, 25.23013, 69.68414, 0.2931323, 0, 0, -0.9560719,  True, '2019-02-10 00:00:00'); /* Mighty Oak Golem */
 /* @teleloc 0x8BB0001A [73.713480 25.230130 69.684140] 0.293132 0.000000 0.000000 -0.956072 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x78BB000C,  7085, 0x8BB00011, 70.63657, 11.4769, 70.06021, 0.2931323, 0, 0, -0.9560719,  True, '2019-02-10 00:00:00'); /* Banderling Berserker */
+/* @teleloc 0x8BB00011 [70.636570 11.476900 70.060210] 0.293132 0.000000 0.000000 -0.956072 */

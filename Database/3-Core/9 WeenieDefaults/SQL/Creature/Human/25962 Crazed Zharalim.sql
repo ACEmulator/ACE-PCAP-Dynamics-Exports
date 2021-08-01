@@ -316,4 +316,7 @@ VALUES (25962, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (25962, 9,  3107,  0, 0, 0, False) /* Create Scroll of Mana Renewal Self VI (3107) for ContainTreasure */
      , (25962, 9, 28628,  0, 0, 0, False) /* Create Diforsa Breastplate (28628) for ContainTreasure */
      , (25962, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
-     , (25962, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */;
+     , (25962, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (25962, 9,  3047,  0, 0, 0, False) /* Create Scroll of Fire Vulnerability Other VI (3047) for ContainTreasure */
+     , (25962, 9,  9613,  0, 0, 0, False) /* Create Scroll of Mana Ineptitude Other VI (9613) for ContainTreasure */
+     , (25962, 9, 49247,  0, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for ContainTreasure */;

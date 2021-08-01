@@ -75,4 +75,6 @@ VALUES (43414, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20
      , (43414, 9, 20240,  0, 0, 0, False) /* Create Scroll of Calming Gaze (20240) for ContainTreasure */
      , (43414, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
      , (43414, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
-     , (43414, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */;
+     , (43414, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */
+     , (43414, 9, 30562,  0, 0, 0, False) /* Create Acid Dolabra (30562) for ContainTreasure */
+     , (43414, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */;

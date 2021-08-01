@@ -60,4 +60,5 @@ VALUES (32006, 2, 48025,  1, 0, 0, False) /* Create Lightning Katar (48025) for 
      , (32006, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */
      , (32006, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (32006, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
-     , (32006, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */;
+     , (32006, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
+     , (32006, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wield */;

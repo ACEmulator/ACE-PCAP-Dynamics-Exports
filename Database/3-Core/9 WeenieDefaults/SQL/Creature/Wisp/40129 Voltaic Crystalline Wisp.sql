@@ -43,7 +43,8 @@ VALUES (40129,   1,   620, 0, 0, 720) /* MaxHealth */
      , (40129,   5,   120, 0, 0, 450) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40129, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
+VALUES (40129, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (40129, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
      , (40129, 9, 20239,  0, 0, 0, False) /* Create Scroll of Self Loathing (20239) for ContainTreasure */
      , (40129, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
      , (40129, 9,  3914,  0, 0, 0, False) /* Create Lightning Yari (3914) for ContainTreasure */
@@ -147,4 +148,6 @@ VALUES (40129, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainT
      , (40129, 9, 43833,  0, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for ContainTreasure */
      , (40129, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
      , (40129, 9, 31799,  0, 0, 0, False) /* Create Acid Compound Bow (31799) for ContainTreasure */
-     , (40129, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */;
+     , (40129, 9, 31787,  0, 0, 0, False) /* Create Flaming Claw (31787) for ContainTreasure */
+     , (40129, 9, 49313,  0, 0, 0, False) /* Create Acid Wisp Essence (125) (49313) for ContainTreasure */
+     , (40129, 9,   342,  0, 0, 0, False) /* Create Shou-ono (342) for ContainTreasure */;

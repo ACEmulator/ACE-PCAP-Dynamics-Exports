@@ -3472,7 +3472,8 @@ VALUES (0x7016C001, 0x7016C002, '2019-02-10 00:00:00') /* Plentiful Healing Kit 
      , (0x7016C001, 0x7016CD8A, '2019-02-10 00:00:00') /* Quill of Extraction (37362) */
      , (0x7016C001, 0x7016CD8B, '2019-02-10 00:00:00') /* Mr. P. Holiday Pack Doll (34405) */
      , (0x7016C001, 0x7016CD8C, '2019-02-10 00:00:00') /* Ink of Formation (37353) */
-     , (0x7016C001, 0x7016CD8D, '2019-02-10 00:00:00') /* Parabolic Ink (37356) */;
+     , (0x7016C001, 0x7016CD8D, '2019-02-10 00:00:00') /* Parabolic Ink (37356) */
+     , (0x7016C001, 0x7016CD8E, '2019-02-10 00:00:00') /* Academy Ken (12758) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016C002, 22449, 0x016C01C3, 58.62766, -42.61131, 0.0315, -0.7803556, 0, 0, -0.625336,  True, '2019-02-10 00:00:00'); /* Plentiful Healing Kit */
@@ -17345,3 +17346,7 @@ VALUES (0x7016CD8C, 37353, 0x016C01BC, 49.05199, -28.86487, 0.03, 0.4465725, 0, 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7016CD8D, 37356, 0x016C01BC, 49.05199, -28.86487, 0.03, 0.4465725, 0, 0, -0.8947474,  True, '2019-02-10 00:00:00'); /* Parabolic Ink */
 /* @teleloc 0x016C01BC [49.051990 -28.864870 0.030000] 0.446573 0.000000 0.000000 -0.894747 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7016CD8E, 12758, 0x016C01BC, 55.11715, -34.28026, 0, 0.6117972, 0, 0, -0.7910147,  True, '2019-02-10 00:00:00'); /* Academy Ken */
+/* @teleloc 0x016C01BC [55.117150 -34.280260 0.000000] 0.611797 0.000000 0.000000 -0.791015 */

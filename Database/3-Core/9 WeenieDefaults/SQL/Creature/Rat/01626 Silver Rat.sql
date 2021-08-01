@@ -50,7 +50,8 @@ VALUES (1626,   1,    30, 0, 0, 90) /* MaxHealth */
      , (1626,   5,     0, 0, 0, 100) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (1626, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
+VALUES (1626, 2, 48031,  1, 0, 0, False) /* Create Lightning Silifi (48031) for Wield */
+     , (1626, 9, 49261,  0, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for ContainTreasure */
      , (1626, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
      , (1626, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (1626, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */

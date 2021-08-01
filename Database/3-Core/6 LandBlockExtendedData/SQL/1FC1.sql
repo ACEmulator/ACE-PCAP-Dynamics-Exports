@@ -51,10 +51,10 @@ VALUES (0x71FC1001, 0x71FC1002, '2019-02-10 00:00:00') /* Carnivorous Carenzi (2
      , (0x71FC1001, 0x71FC102D, '2019-02-10 00:00:00') /* Hea Champion (27714) */
      , (0x71FC1001, 0x71FC102E, '2019-02-10 00:00:00') /* Virindi Executor (9264) */
      , (0x71FC1001, 0x71FC102F, '2019-02-10 00:00:00') /* Hea Champion (27714) */
-     , (0x71FC1001, 0x71FC1030, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
-     , (0x71FC1001, 0x71FC1031, '2019-02-10 00:00:00') /* Synnast (7094) */
-     , (0x71FC1001, 0x71FC1032, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
-     , (0x71FC1001, 0x71FC1033, '2019-02-10 00:00:00') /* Virindi Observer (7340) */;
+     , (0x71FC1001, 0x71FC1030, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71FC1001, 0x71FC1031, '2019-02-10 00:00:00') /* Virindi Observer (7340) */
+     , (0x71FC1001, 0x71FC1032, '2019-02-10 00:00:00') /* Virindi Executor (10954) */
+     , (0x71FC1001, 0x71FC1033, '2019-02-10 00:00:00') /* Synnast (7094) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC1002, 27708, 0x1FC1003B, 174.0007, 64.36544, 102.6362, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi */
@@ -241,20 +241,20 @@ VALUES (0x71FC102F, 27714, 0x1FC1000F, 47.34793, 144.3652, 93.8913, 1, 0, 0, 0, 
 /* @teleloc 0x1FC1000F [47.347930 144.365200 93.891300] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1030, 10954, 0x1FC10016, 53.53801, 137.7452, 95.07147, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
-/* @teleloc 0x1FC10016 [53.538010 137.745200 95.071470] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1031,  7094, 0x1FC1001E, 79.50211, 132.2562, 95.34063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Synnast */
-/* @teleloc 0x1FC1001E [79.502110 132.256200 95.340630] 1.000000 0.000000 0.000000 0.000000 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1032,  7340, 0x1FC10017, 51.57074, 147.1568, 93.50286, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+VALUES (0x71FC1030,  7340, 0x1FC10017, 51.57074, 147.1568, 93.50286, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
 /* @teleloc 0x1FC10017 [51.570740 147.156800 93.502860] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71FC1033,  7340, 0x1FC1000F, 40.77296, 152.6481, 92.10383, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
+VALUES (0x71FC1031,  7340, 0x1FC1000F, 40.77296, 152.6481, 92.10383, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Observer */
 /* @teleloc 0x1FC1000F [40.772960 152.648100 92.103830] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71FC1032, 10954, 0x1FC10016, 53.53801, 137.7452, 95.07147, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Virindi Executor */
+/* @teleloc 0x1FC10016 [53.538010 137.745200 95.071470] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x71FC1033,  7094, 0x1FC1001E, 79.50211, 132.2562, 95.34063, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Synnast */
+/* @teleloc 0x1FC1001E [79.502110 132.256200 95.340630] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71FC1034,  1542, 0x1FC1003B, 173.0291, 69.70027, 102.3416, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */

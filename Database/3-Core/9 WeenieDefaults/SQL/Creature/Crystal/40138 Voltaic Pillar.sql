@@ -46,3 +46,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (40138,   1,   400, 0, 0, 445) /* MaxHealth */
      , (40138,   3,   100, 0, 0, 190) /* MaxStamina */
      , (40138,   5,   300, 0, 0, 450) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (40138, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */;

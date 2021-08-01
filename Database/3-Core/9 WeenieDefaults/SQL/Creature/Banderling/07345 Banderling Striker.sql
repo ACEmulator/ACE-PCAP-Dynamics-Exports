@@ -501,4 +501,13 @@ VALUES (7345, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for Contain
      , (7345, 9, 20484,  0, 0, 0, False) /* Create Scroll of Blessing of the Arrow Turner (20484) for ContainTreasure */
      , (7345, 9, 20412,  0, 0, 0, False) /* Create Scroll of Inferno's Bane (20412) for ContainTreasure */
      , (7345, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
-     , (7345, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */;
+     , (7345, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (7345, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence (80) (49214) for ContainTreasure */
+     , (7345, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
+     , (7345, 9, 20451,  0, 0, 0, False) /* Create Scroll of Sudden Frost (20451) for ContainTreasure */
+     , (7345, 9, 49531,  0, 0, 0, False) /* Create Fire Phyntos Wasp Essence (50) (49531) for ContainTreasure */
+     , (7345, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (7345, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */
+     , (7345, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (7345, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (7345, 9, 43283,  0, 0, 0, False) /* Create Scroll of Corrosion VI (43283) for ContainTreasure */;

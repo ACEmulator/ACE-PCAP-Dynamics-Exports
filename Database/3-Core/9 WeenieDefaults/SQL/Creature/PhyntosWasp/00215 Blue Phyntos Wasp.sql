@@ -48,7 +48,8 @@ VALUES (215,   1,     5, 0, 0, 35) /* MaxHealth */
      , (215,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (215, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+VALUES (215, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
+     , (215, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
      , (215, 9,   273,  5, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (215, 9,  3699,  0, 0, 0, False) /* Create Blue Phyntos Wasp Wing (3699) for ContainTreasure */
      , (215, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreasure */
@@ -118,4 +119,5 @@ VALUES (215, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasur
      , (215, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
      , (215, 9,  2420,  1, 0, 0, False) /* Create Gem (2420) for ContainTreasure */
      , (215, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
-     , (215, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */;
+     , (215, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (215, 9,  1780,  0, 0, 0, False) /* Create Scroll of Quickness Other (1780) for ContainTreasure */;

@@ -55,4 +55,5 @@ VALUES (7431, 2, 47892,  1, 0, 0, False) /* Create Nekode (47892) for Wield */
      , (7431, 2, 47858,  1, 0, 0, False) /* Create Heavy Crossbow (47858) for Wield */
      , (7431, 2, 47886,  1, 0, 0, False) /* Create Quarrel (47886) for Wield */
      , (7431, 2, 47896,  1, 0, 0, False) /* Create Acid Silifi (47896) for Wield */
-     , (7431, 2, 47895,  1, 0, 0, False) /* Create Silifi (47895) for Wield */;
+     , (7431, 2, 47895,  1, 0, 0, False) /* Create Silifi (47895) for Wield */
+     , (7431, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */;

@@ -41,8 +41,8 @@ VALUES (0x71ABC008, 0x71ABC009, '2019-02-10 00:00:00') /* Olthoi Legionary (1148
      , (0x71ABC008, 0x71ABC026, '2019-02-10 00:00:00') /* Hea Nualuan (11520) */
      , (0x71ABC008, 0x71ABC027, '2019-02-10 00:00:00') /* Scintilla (6380) */
      , (0x71ABC008, 0x71ABC028, '2019-02-10 00:00:00') /* Static (6382) */
-     , (0x71ABC008, 0x71ABC029, '2019-02-10 00:00:00') /* Olthoi Worker (3) */
-     , (0x71ABC008, 0x71ABC02A, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */;
+     , (0x71ABC008, 0x71ABC029, '2019-02-10 00:00:00') /* Hea Itealuan (11519) */
+     , (0x71ABC008, 0x71ABC02A, '2019-02-10 00:00:00') /* Olthoi Worker (3) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABC009, 11481, 0x1ABC0102, 132.187, 81.3365, 83.94349, -0.977646, 0, 0, 0.210259,  True, '2019-02-10 00:00:00'); /* Olthoi Legionary */
@@ -173,12 +173,12 @@ VALUES (0x71ABC028,  6382, 0x1ABC0024, 106.8765, 87.86382, 81.9025, 1, 0, 0, 0, 
 /* @teleloc 0x1ABC0024 [106.876500 87.863820 81.902500] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71ABC029,     3, 0x1ABC0003, 4.361449, 69.63197, 126.0332, -0.847533, 0, 0, -0.5307428,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
-/* @teleloc 0x1ABC0003 [4.361449 69.631970 126.033200] -0.847533 0.000000 0.000000 -0.530743 */
+VALUES (0x71ABC029, 11519, 0x1ABC0029, 134.0966, 4.903228, 81.556, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
+/* @teleloc 0x1ABC0029 [134.096600 4.903228 81.556000] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x71ABC02A, 11519, 0x1ABC0029, 134.0966, 4.903228, 81.556, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Hea Itealuan */
-/* @teleloc 0x1ABC0029 [134.096600 4.903228 81.556000] 1.000000 0.000000 0.000000 0.000000 */
+VALUES (0x71ABC02A,     3, 0x1ABC0003, 4.361449, 69.63197, 126.0332, -0.847533, 0, 0, -0.5307428,  True, '2019-02-10 00:00:00'); /* Olthoi Worker */
+/* @teleloc 0x1ABC0003 [4.361449 69.631970 126.033200] -0.847533 0.000000 0.000000 -0.530743 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x71ABC02B,  1542, 0x1ABC001A, 82.33631, 42.52595, 88.89542, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */

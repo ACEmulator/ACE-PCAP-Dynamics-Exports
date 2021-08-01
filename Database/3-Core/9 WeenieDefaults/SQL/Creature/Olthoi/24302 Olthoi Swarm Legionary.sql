@@ -50,6 +50,7 @@ VALUES (24302,   1,   255, 0, 0, 410) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (24302, 2, 48994,  1, 0, 0, False) /* Create Frost Hatchet (48994) for Wield */
+     , (24302, 2,  5769,  1, 0, 0, False) /* Create Iceball (5769) for Wield */
      , (24302, 9, 49303,  0, 0, 0, False) /* Create Frost K'nath Essence (50) (49303) for ContainTreasure */
      , (24302, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (24302, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
@@ -931,4 +932,5 @@ VALUES (24302, 2, 48994,  1, 0, 0, False) /* Create Frost Hatchet (48994) for Wi
      , (24302, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
      , (24302, 9,  3938,  0, 0, 0, False) /* Create Frost Morning Star (3938) for ContainTreasure */
      , (24302, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (24302, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */;
+     , (24302, 9, 20410,  0, 0, 0, False) /* Create Scroll of Tattercoat (20410) for ContainTreasure */
+     , (24302, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */;

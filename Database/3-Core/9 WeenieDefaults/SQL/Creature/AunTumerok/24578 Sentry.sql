@@ -52,4 +52,5 @@ VALUES (24578,   1,   100, 0, 0, 145) /* MaxHealth */
      , (24578,   5,   100, 0, 0, 150) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (24578, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */;
+VALUES (24578, 2,   311,  1, 0, 0, False) /* Create Heavy Crossbow (311) for Wield */
+     , (24578, 2, 46370,  1, 0, 0, False) /* Create Spectral Flaming Nekode (46370) for Wield */;

@@ -80,3 +80,14 @@ VALUES (0x7EA8000F, 27800, 0xEA80003A, 182.8938, 31.26167, -0.8835001, 0.6615566
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7EA80010, 27800, 0xEA80003A, 174.5701, 29.70461, -0.8835001, 0.6615566, 0, 0, -0.7498952,  True, '2019-02-10 00:00:00'); /* Infected Assailer */
 /* @teleloc 0xEA80003A [174.570100 29.704610 -0.883500] 0.661557 0.000000 0.000000 -0.749895 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA80011,  1542, 0xEA80003A, 176.1483, 31.77153, -0.8975, 0.6615566, 0, 0, -0.7498952, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0xEA80003A [176.148300 31.771530 -0.897500] 0.661557 0.000000 0.000000 -0.749895 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x7EA80011, 0x7EA80012, '2019-02-10 00:00:00') /* Infected Assailer Camp Generator (27803) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7EA80012, 27803, 0xEA80003A, 176.1483, 31.77153, -0.8975, 0.6615566, 0, 0, -0.7498952,  True, '2019-02-10 00:00:00'); /* Infected Assailer Camp Generator */
+/* @teleloc 0xEA80003A [176.148300 31.771530 -0.897500] 0.661557 0.000000 0.000000 -0.749895 */

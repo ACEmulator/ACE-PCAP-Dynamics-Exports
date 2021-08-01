@@ -40,6 +40,7 @@ VALUES (12007,   1,     0, 0, 0, 110) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (12007, 2,   339,  1, 0, 0, False) /* Create Scimitar (339) for Wield */
      , (12007, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
+     , (12007, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
      , (12007, 9,  2413,  1, 0, 0, False) /* Create Gem (2413) for ContainTreasure */
      , (12007, 9,  3694,  0, 0, 0, False) /* Create Swamp Stone (3694) for ContainTreasure */
      , (12007, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */;

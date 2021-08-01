@@ -153,4 +153,5 @@ VALUES (25599, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for Cont
      , (25599, 9,   119,  0, 0, 0, False) /* Create Cowl (119) for ContainTreasure */
      , (25599, 9, 31796,  0, 0, 0, False) /* Create Lightning Lancet (31796) for ContainTreasure */
      , (25599, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */
-     , (25599, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */;
+     , (25599, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
+     , (25599, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */;

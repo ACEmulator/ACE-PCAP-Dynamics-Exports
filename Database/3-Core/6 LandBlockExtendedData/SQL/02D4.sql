@@ -487,7 +487,8 @@ VALUES (0x702D40BA, 0x702D40BB, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x702D40BA, 0x702D40C0, '2019-02-10 00:00:00') /* Scroll of Brittle Bones (20242) */
      , (0x702D40BA, 0x702D40C1, '2019-02-10 00:00:00') /* Gateway (1955) */
      , (0x702D40BA, 0x702D40C2, '2019-02-10 00:00:00') /* Gateway (1955) */
-     , (0x702D40BA, 0x702D40C3, '2019-02-10 00:00:00') /* Gateway (1955) */;
+     , (0x702D40BA, 0x702D40C3, '2019-02-10 00:00:00') /* Gateway (1955) */
+     , (0x702D40BA, 0x702D40C4, '2019-02-10 00:00:00') /* Scroll of Self Sacrifice (20606) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D40BB,  1955, 0x02D4012B, 75.22351, -109.7283, -96.063, 0.7104324, 0, 0, 0.7037655,  True, '2019-02-10 00:00:00'); /* Gateway */
@@ -524,3 +525,7 @@ VALUES (0x702D40C2,  1955, 0x02D40117, 68.64194, -89.19262, -96.063, -0.7499343,
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x702D40C3,  1955, 0x02D4011C, 69.17572, -97.96506, -96.063, 0.06017231, 0, 0, 0.998188,  True, '2019-02-10 00:00:00'); /* Gateway */
 /* @teleloc 0x02D4011C [69.175720 -97.965060 -96.063000] 0.060172 0.000000 0.000000 0.998188 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x702D40C4, 20606, 0x02D40200, 29.22253, -27.4026, -23.9145, 0.6020128, 0, 0, -0.7984865,  True, '2019-02-10 00:00:00'); /* Scroll of Self Sacrifice */
+/* @teleloc 0x02D40200 [29.222530 -27.402600 -23.914500] 0.602013 0.000000 0.000000 -0.798487 */

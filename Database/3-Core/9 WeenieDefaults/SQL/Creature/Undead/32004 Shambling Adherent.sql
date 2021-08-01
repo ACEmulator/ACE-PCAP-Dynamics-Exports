@@ -47,4 +47,7 @@ VALUES (32004, 2, 47854,  1, 0, 0, False) /* Create Acid Crossbow (47854) for Wi
      , (32004, 2, 47856,  1, 0, 0, False) /* Create Electric Crossbow (47856) for Wield */
      , (32004, 2, 48032,  1, 0, 0, False) /* Create Ono (48032) for Wield */
      , (32004, 2, 48026,  1, 0, 0, False) /* Create Nekode (48026) for Wield */
+     , (32004, 2, 48023,  1, 0, 0, False) /* Create Acid Katar (48023) for Wield */
+     , (32004, 2, 48029,  1, 0, 0, False) /* Create Silifi (48029) for Wield */
+     , (32004, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
      , (32004, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */;

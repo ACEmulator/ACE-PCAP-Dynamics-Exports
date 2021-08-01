@@ -50,7 +50,8 @@ VALUES (31006,   1,   575, 0, 0, 740) /* MaxHealth */
      , (31006,   5,     0, 0, 0, 60) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (31006, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
+VALUES (31006, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
+     , (31006, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (31006, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
      , (31006, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (31006, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
@@ -787,4 +788,5 @@ VALUES (31006, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasu
      , (31006, 9, 27227,  0, 0, 0, False) /* Create Nariyid Breastplate (27227) for ContainTreasure */
      , (31006, 9, 40701,  0, 0, 0, False) /* Create Covenant Helm (40701) for ContainTreasure */
      , (31006, 9,   107,  0, 0, 0, False) /* Create Sollerets (107) for ContainTreasure */
-     , (31006, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */;
+     , (31006, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
+     , (31006, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */;

@@ -679,4 +679,7 @@ VALUES (204, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (204, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */
      , (204, 9,  3304,  0, 0, 0, False) /* Create Scroll of Item Enchantment Ineptitude III (3304) for ContainTreasure */
      , (204, 9,    69,  0, 0, 0, False) /* Create Yoroi Greaves (69) for ContainTreasure */
-     , (204, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */;
+     , (204, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (204, 9, 45395,  0, 0, 0, False) /* Create Rapier (45395) for ContainTreasure */
+     , (204, 9,  4193,  0, 0, 0, False) /* Create Frost Cestus (4193) for ContainTreasure */
+     , (204, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */;

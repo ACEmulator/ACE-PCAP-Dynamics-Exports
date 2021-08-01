@@ -46,6 +46,8 @@ VALUES (1629,   1,   250, 0, 0, 400) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1629, 2, 46604,  1, 0, 0, False) /* Create Tetsubo (46604) for Wield */
+     , (1629, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
+     , (1629, 2, 29965,  1, 0, 0, False) /* Create Quadrelle (29965) for Wield */
      , (1629, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
      , (1629, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
      , (1629, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */

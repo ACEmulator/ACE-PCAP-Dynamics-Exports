@@ -52,4 +52,6 @@ VALUES (25851, 9, 28610,  0, 0, 0, False) /* Create Loafers (28610) for ContainT
      , (25851, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (20482) for ContainTreasure */
      , (25851, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (25851, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
-     , (25851, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */;
+     , (25851, 9, 20491,  0, 0, 0, False) /* Create Scroll of Hydra's Head (20491) for ContainTreasure */
+     , (25851, 9, 49242,  0, 0, 0, False) /* Create Lightning Zombie Essence (100) (49242) for ContainTreasure */
+     , (25851, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */;

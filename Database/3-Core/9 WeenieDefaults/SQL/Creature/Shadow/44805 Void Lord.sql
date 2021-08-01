@@ -67,4 +67,5 @@ VALUES (44805, 2, 48501,  1, 0, 0, False) /* Create Flaming Katar (48501) for Wi
      , (44805, 2, 48266,  1, 0, 0, False) /* Create Arrow (48266) for Wield */
      , (44805, 2, 48285,  1, 0, 0, False) /* Create Arrow (48285) for Wield */
      , (44805, 2, 48304,  1, 0, 0, False) /* Create Arrow (48304) for Wield */
-     , (44805, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */;
+     , (44805, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44805, 2, 47312,  1, 0, 0, False) /* Create Frost Board with Nail (47312) for Wield */;

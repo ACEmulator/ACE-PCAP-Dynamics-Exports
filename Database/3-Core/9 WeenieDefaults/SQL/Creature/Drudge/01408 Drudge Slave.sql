@@ -50,4 +50,6 @@ VALUES (1408,   1,    30, 0, 0, 60) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1408, 2,   342,  1, 0, 0, False) /* Create Shou-ono (342) for Wield */
-     , (1408, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */;
+     , (1408, 2,   361,  1, 0, 0, False) /* Create Yaoji (361) for Wield */
+     , (1408, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
+     , (1408, 2,   321,  1, 0, 0, False) /* Create Jitte (321) for Wield */;

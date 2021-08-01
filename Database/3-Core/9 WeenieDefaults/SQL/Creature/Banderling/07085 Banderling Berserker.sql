@@ -294,4 +294,5 @@ VALUES (7085, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
      , (7085, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
      , (7085, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */
      , (7085, 9, 27236,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Other (27236) for ContainTreasure */
-     , (7085, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */;
+     , (7085, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */
+     , (7085, 9, 30607,  0, 0, 0, False) /* Create Lightning Bastone (30607) for ContainTreasure */;

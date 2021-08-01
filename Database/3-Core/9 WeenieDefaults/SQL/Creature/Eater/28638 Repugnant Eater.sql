@@ -381,4 +381,34 @@ VALUES (28638, 9, 49436,  0, 0, 0, False) /* Create Fire Spectre Essence (80) (4
      , (28638, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
      , (28638, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
      , (28638, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
-     , (28638, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */;
+     , (28638, 9, 20607,  0, 0, 0, False) /* Create Scroll of Gift of Vitality (20607) for ContainTreasure */
+     , (28638, 9, 31816,  0, 0, 0, False) /* Create Fire Slingshot (31816) for ContainTreasure */
+     , (28638, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
+     , (28638, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (28638, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
+     , (28638, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
+     , (28638, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (28638, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
+     , (28638, 9, 27215,  0, 0, 0, False) /* Create Chiran Coat (27215) for ContainTreasure */
+     , (28638, 9, 20505,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Other VII (20505) for ContainTreasure */
+     , (28638, 9, 49421,  0, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for ContainTreasure */
+     , (28638, 9, 49444,  0, 0, 0, False) /* Create Frost Spectre Essence (100) (49444) for ContainTreasure */
+     , (28638, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
+     , (28638, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (28638, 9, 20598,  0, 0, 0, False) /* Create Scroll of Koga's Blessing (20598) for ContainTreasure */
+     , (28638, 9, 25640,  0, 0, 0, False) /* Create Leather Cowl (25640) for ContainTreasure */
+     , (28638, 9, 40697,  0, 0, 0, False) /* Create Covenant Breastplate (40697) for ContainTreasure */
+     , (28638, 9, 20425,  0, 0, 0, False) /* Create Scroll of Fortified Lock (20425) for ContainTreasure */
+     , (28638, 9,    45,  0, 0, 0, False) /* Create Leather Cap (45) for ContainTreasure */
+     , (28638, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
+     , (28638, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
+     , (28638, 9,  3858,  0, 0, 0, False) /* Create Lightning Shou-ono (3858) for ContainTreasure */
+     , (28638, 9, 40698,  0, 0, 0, False) /* Create Covenant Gauntlets (40698) for ContainTreasure */
+     , (28638, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (28638, 9, 46881,  0, 0, 0, False) /* Create Aura of Heartseeker Other VII (46881) for ContainTreasure */
+     , (28638, 9, 40695,  0, 0, 0, False) /* Create Covenant Sollerets (40695) for ContainTreasure */
+     , (28638, 9, 49332,  0, 0, 0, False) /* Create Frost Wisp Essence (80) (49332) for ContainTreasure */
+     , (28638, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */
+     , (28638, 9,   348,  0, 0, 0, False) /* Create Spear (348) for ContainTreasure */
+     , (28638, 9, 49297,  0, 0, 0, False) /* Create Fire K'nath Essence (80) (49297) for ContainTreasure */
+     , (28638, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */;

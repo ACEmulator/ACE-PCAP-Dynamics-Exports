@@ -400,4 +400,7 @@ VALUES (8672, 2, 47913,  1, 0, 0, False) /* Create Ono (47913) for Wield */
      , (8672, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */
      , (8672, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
      , (8672, 9,   134,  0, 0, 0, False) /* Create Tunic (134) for ContainTreasure */
-     , (8672, 9,  2641,  0, 0, 0, False) /* Create Scroll of Clumsiness Other IV (2641) for ContainTreasure */;
+     , (8672, 9,  2641,  0, 0, 0, False) /* Create Scroll of Clumsiness Other IV (2641) for ContainTreasure */
+     , (8672, 9,  2418,  1, 0, 0, False) /* Create Gem (2418) for ContainTreasure */
+     , (8672, 9, 28632,  0, 0, 0, False) /* Create Diforsa Gauntlets (28632) for ContainTreasure */
+     , (8672, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */;

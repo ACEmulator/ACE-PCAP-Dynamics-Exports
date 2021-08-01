@@ -49,6 +49,9 @@ VALUES (1256, 2,   343,  1, 0, 0, False) /* Create Shouken (343) for Wield */
      , (1256, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
      , (1256, 2,   353,  1, 0, 0, False) /* Create Tachi (353) for Wield */
      , (1256, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wield */
+     , (1256, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
+     , (1256, 2,   316,  1, 0, 0, False) /* Create Throwing Dart (316) for Wield */
+     , (1256, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
      , (1256, 9, 21295,  0, 0, 0, False) /* Create Scroll of Blade Arc I (21295) for ContainTreasure */
      , (1256, 9, 45099,  0, 0, 0, False) /* Create Epee (45099) for ContainTreasure */
      , (1256, 9,   273, 41, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */

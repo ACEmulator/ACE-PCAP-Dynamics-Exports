@@ -47,3 +47,6 @@ VALUES (34062, 8040, 1139998736, 34.6594, 186.564, 158.6814, -0.7739638, 0, 0, 0
 
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
 VALUES (34062,   1,     0, 0, 0, 255) /* MaxHealth */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (34062, 2, 32782,  1, 0, 0, False) /* Create Shield of Sanamar (32782) for Wield */;

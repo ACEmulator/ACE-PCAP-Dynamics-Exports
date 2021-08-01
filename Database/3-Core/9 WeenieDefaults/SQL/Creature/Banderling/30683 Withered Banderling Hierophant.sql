@@ -53,6 +53,7 @@ VALUES (30683, 2, 47392,  1, 0, 0, False) /* Create Flaming Club (47392) for Wie
      , (30683, 2, 47487,  1, 0, 0, False) /* Create Flaming Mace (47487) for Wield */
      , (30683, 2, 47354,  1, 0, 0, False) /* Create Club (47354) for Wield */
      , (30683, 2, 47449,  1, 0, 0, False) /* Create Mace (47449) for Wield */
+     , (30683, 2, 23137,  1, 0, 0, False) /* Create Yumi (23137) for Wield */
      , (30683, 9, 20484,  0, 0, 0, False) /* Create Scroll of Blessing of the Arrow Turner (20484) for ContainTreasure */
      , (30683, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
      , (30683, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */

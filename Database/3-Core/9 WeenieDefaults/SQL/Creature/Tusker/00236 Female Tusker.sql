@@ -234,4 +234,9 @@ VALUES (236, 9, 49464,  0, 0, 0, False) /* Create Scroll of Summoning Mastery Ot
      , (236, 9, 30601,  0, 0, 0, False) /* Create Stiletto (30601) for ContainTreasure */
      , (236, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
      , (236, 9, 43304,  0, 0, 0, False) /* Create Scroll of Nether Bolt III (43304) for ContainTreasure */
-     , (236, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */;
+     , (236, 9, 49275,  0, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for ContainTreasure */
+     , (236, 9,  3329,  0, 0, 0, False) /* Create Scroll of Item Tinkering Ignorance III (3329) for ContainTreasure */
+     , (236, 9,  2907,  0, 0, 0, False) /* Create Scroll of Acid Stream II (2907) for ContainTreasure */
+     , (236, 9, 49380,  0, 0, 0, False) /* Create Fire Grievver Essence (50) (49380) for ContainTreasure */
+     , (236, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (236, 9,  8920,  0, 0, 0, False) /* Create Scroll of Flame Streak (8920) for ContainTreasure */;

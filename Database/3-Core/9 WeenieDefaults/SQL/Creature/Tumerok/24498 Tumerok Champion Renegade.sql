@@ -43,5 +43,6 @@ VALUES (24498, 2, 23683,  1, 0, 0, False) /* Create Kite Shield (23683) for Wiel
      , (24498, 2, 23636,  1, 0, 0, False) /* Create Cestus (23636) for Wield */
      , (24498, 2, 23717,  1, 0, 0, False) /* Create Fire Yaoji (23717) for Wield */
      , (24498, 2, 23706,  1, 0, 0, False) /* Create Fire Tachi (23706) for Wield */
+     , (24498, 2, 23695,  1, 0, 0, False) /* Create Spear (23695) for Wield */
      , (24498, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
      , (24498, 9, 49461,  0, 0, 0, False) /* Create Scroll of Summoning Ineptitude Other VI (49461) for ContainTreasure */;

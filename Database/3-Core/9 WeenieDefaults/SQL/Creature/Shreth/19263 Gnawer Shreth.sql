@@ -48,7 +48,8 @@ VALUES (19263,   1,     0, 0, 0, 15) /* MaxHealth */
      , (19263,   5,     0, 0, 0, 15) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
+VALUES (19263, 2, 47513,  1, 0, 0, False) /* Create Arrow (47513) for Wield */
+     , (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554) for ContainTreasure */
      , (19263, 9,    80,  0, 0, 0, False) /* Create Chainmail Leggings (80) for ContainTreasure */
      , (19263, 9,   307,  0, 0, 0, False) /* Create Shortbow (307) for ContainTreasure */
      , (19263, 9,  2460,  1, 0, 0, False) /* Create Mana Draught (2460) for ContainTreasure */
@@ -152,5 +153,9 @@ VALUES (19263, 9,   554,  0, 0, 0, False) /* Create Studded Leather Basinet (554
      , (19263, 9,  4199,  0, 0, 0, False) /* Create Lightning Nekode (4199) for ContainTreasure */
      , (19263, 9, 49296,  0, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for ContainTreasure */
      , (19263, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (19263, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (19263, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (19263, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */
+     , (19263, 9,  3153,  0, 0, 0, False) /* Create Scroll of Armor Tinkering Ignorance II (3153) for ContainTreasure */
      , (19263, 9,  2832,  0, 0, 0, False) /* Create Aura of Heartseeker Self II (2832) for ContainTreasure */
      , (19263, 9,  7794,  0, 0, 0, False) /* Create Electric Trident (7794) for ContainTreasure */;

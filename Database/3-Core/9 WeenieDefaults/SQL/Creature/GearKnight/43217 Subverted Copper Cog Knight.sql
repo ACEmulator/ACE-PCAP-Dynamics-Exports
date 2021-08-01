@@ -56,6 +56,7 @@ VALUES (43217, 2, 41237,  1, 0, 0, False) /* Create Gearknight Sword (41237) for
      , (43217, 2, 43130,  1, 0, 0, False) /* Create Iron Blade Aegis (43130) for Wield */
      , (43217, 2, 41247,  1, 0, 0, False) /* Create Electric Gearknight Sword (41247) for Wield */
      , (43217, 2, 41249,  1, 0, 0, False) /* Create Frost Gearknight Sword (41249) for Wield */
+     , (43217, 2, 41246,  1, 0, 0, False) /* Create Acid Gearknight Sword (41246) for Wield */
      , (43217, 9,  7792,  0, 0, 0, False) /* Create Fire Trident (7792) for ContainTreasure */
      , (43217, 9, 29259,  0, 0, 0, False) /* Create Acid Sceptre (29259) for ContainTreasure */
      , (43217, 9, 20465,  0, 0, 0, False) /* Create Scroll of Caustic Boon (20465) for ContainTreasure */

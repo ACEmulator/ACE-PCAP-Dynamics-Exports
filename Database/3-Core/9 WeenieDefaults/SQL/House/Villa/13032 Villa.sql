@@ -7,6 +7,7 @@ INSERT INTO `weenie_properties_int` (`object_Id`, `type`, `value`)
 VALUES (13032,   1,        128) /* ItemType - Misc */
      , (13032,   5,         10) /* EncumbranceVal */
      , (13032,  16,          1) /* ItemUseable - No */
+     , (13032,  19,          0) /* Value */
      , (13032,  93,         52) /* PhysicsState - Ethereal, IgnoreCollisions, NoDraw */
      , (13032, 155,          2) /* HouseType - Villa */;
 

@@ -46,7 +46,8 @@ VALUES (30709,   1,  4000, 0, 0, 4120) /* MaxHealth */
      , (30709,   5,     0, 0, 0, 135) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (30709, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+VALUES (30709, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
+     , (30709, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
      , (30709, 9,  2986,  0, 0, 0, False) /* Create Scroll of Acid Vulnerability Other V (2986) for ContainTreasure */
      , (30709, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
      , (30709, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */

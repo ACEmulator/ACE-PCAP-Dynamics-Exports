@@ -52,6 +52,8 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28657, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
      , (28657, 2, 29981,  1, 0, 0, False) /* Create Throwing Axe (29981) for Wield */
      , (28657, 2, 29966,  1, 0, 0, False) /* Create Quadrelle (29966) for Wield */
+     , (28657, 2, 23684,  1, 0, 0, False) /* Create Kite Shield (23684) for Wield */
+     , (28657, 2, 23710,  1, 0, 0, False) /* Create Yaoji (23710) for Wield */
      , (28657, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */
      , (28657, 9, 30608,  0, 0, 0, False) /* Create Flaming Bastone (30608) for ContainTreasure */
      , (28657, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */

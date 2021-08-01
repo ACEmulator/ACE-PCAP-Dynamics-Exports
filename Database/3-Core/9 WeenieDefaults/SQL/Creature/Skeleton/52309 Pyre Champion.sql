@@ -275,4 +275,10 @@ VALUES (52309, 2, 52142,  1, 0, 0, False) /* Create Round Shield (52142) for Wie
      , (52309, 9,    43,  0, 0, 0, False) /* Create Yoroi Breastplate (43) for ContainTreasure */
      , (52309, 9,   331,  0, 0, 0, False) /* Create Mace (331) for ContainTreasure */
      , (52309, 9, 49309,  0, 0, 0, False) /* Create Blizzard Wisp Essence (49309) for ContainTreasure */
-     , (52309, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */;
+     , (52309, 9, 35383,  1, 0, 0, False) /* Create Ancient Mhoire Coin (35383) for ContainTreasure */
+     , (52309, 9, 44849,  0, 0, 0, False) /* Create Chevron Cloak (44849) for ContainTreasure */
+     , (52309, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
+     , (52309, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */
+     , (52309, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
+     , (52309, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
+     , (52309, 9, 43830,  0, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for ContainTreasure */;

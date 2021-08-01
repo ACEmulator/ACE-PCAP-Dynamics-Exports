@@ -41,6 +41,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (28001, 2, 47548,  1, 0, 0, False) /* Create Javelin (47548) for Wield */
      , (28001, 2, 47529,  1, 0, 0, False) /* Create Acid Javelin (47529) for Wield */
      , (28001, 2, 47733,  1, 0, 0, False) /* Create Spear (47733) for Wield */
+     , (28001, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (28001, 9, 45418,  0, 0, 0, False) /* Create Lightning Knife (45418) for ContainTreasure */
      , (28001, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (28001, 9,    40,  0, 0, 0, False) /* Create Platemail Breastplate (40) for ContainTreasure */

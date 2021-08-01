@@ -162,4 +162,5 @@ VALUES (21164, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for C
      , (21164, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (21164, 9, 43299,  0, 0, 0, False) /* Create Scroll of Nether Arc VI (43299) for ContainTreasure */
      , (21164, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (21164, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */;
+     , (21164, 9, 25652,  0, 0, 0, False) /* Create Leather Tassets (25652) for ContainTreasure */
+     , (21164, 9,  3387,  0, 0, 0, False) /* Create Scroll of Lockpick Mastery Other VI (3387) for ContainTreasure */;

@@ -134,4 +134,12 @@ VALUES (29355, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for Co
      , (29355, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (29355, 9, 43050,  0, 0, 0, False) /* Create Covenant Girth (43050) for ContainTreasure */
      , (29355, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
-     , (29355, 9, 45322,  0, 0, 0, False) /* Create Scroll of Shield Mastery Other VII (45322) for ContainTreasure */;
+     , (29355, 9, 45322,  0, 0, 0, False) /* Create Scroll of Shield Mastery Other VII (45322) for ContainTreasure */
+     , (29355, 9, 30599,  0, 0, 0, False) /* Create Frost Poniard (30599) for ContainTreasure */
+     , (29355, 9,    68,  0, 0, 0, False) /* Create Studded Leather Greaves (68) for ContainTreasure */
+     , (29355, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (29355, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (29355, 9, 42637,  1, 0, 0, False) /* Create Aetheria (42637) for ContainTreasure */
+     , (29355, 9,  2600,  0, 0, 0, False) /* Create Pantaloons (2600) for ContainTreasure */
+     , (29355, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
+     , (29355, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */;

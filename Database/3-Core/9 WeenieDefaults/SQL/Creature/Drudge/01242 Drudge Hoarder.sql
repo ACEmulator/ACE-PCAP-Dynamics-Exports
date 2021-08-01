@@ -74,4 +74,6 @@ VALUES (1242, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield
      , (1242, 9,  8329,  1, 0, 0, False) /* Create Lead Pea (8329) for ContainTreasure */
      , (1242, 9, 12463,  0, 0, 0, False) /* Create Atlatl (12463) for ContainTreasure */
      , (1242, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
-     , (1242, 9, 20854,  1, 0, 0, False) /* Create Academy Stamp (20854) for ContainTreasure */;
+     , (1242, 9, 20854,  1, 0, 0, False) /* Create Academy Stamp (20854) for ContainTreasure */
+     , (1242, 9, 41483,  0, 0, 0, False) /* Create Compass (41483) for ContainTreasure */
+     , (1242, 9,  3669,  0, 0, 0, False) /* Create Drudge Charm (3669) for ContainTreasure */;

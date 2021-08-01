@@ -50,6 +50,7 @@ VALUES (35306, 2, 31033,  1, 0, 0, False) /* Create Rock (31033) for Wield */
      , (35306, 2, 31250,  1, 0, 0, False) /* Create Lugian Axe (31250) for Wield */
      , (35306, 2, 31251,  1, 0, 0, False) /* Create Lugian Mace (31251) for Wield */
      , (35306, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (35306, 2, 47714,  1, 0, 0, False) /* Create Acid Spear (47714) for Wield */
      , (35306, 9, 49320,  0, 0, 0, False) /* Create Lightning Wisp Essence (125) (49320) for ContainTreasure */
      , (35306, 9, 45421,  0, 0, 0, False) /* Create Dagger (45421) for ContainTreasure */
      , (35306, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */

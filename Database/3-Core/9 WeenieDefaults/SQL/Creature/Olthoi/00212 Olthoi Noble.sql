@@ -50,7 +50,8 @@ VALUES (212,   1,   125, 0, 0, 275) /* MaxHealth */
      , (212,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (212, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */
+VALUES (212, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
+     , (212, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence (50) (49227) for ContainTreasure */
      , (212, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
      , (212, 9,   342,  0, 0, 0, False) /* Create Shou-ono (342) for ContainTreasure */
      , (212, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
@@ -528,4 +529,11 @@ VALUES (212, 9, 49227,  0, 0, 0, False) /* Create Frost Skeleton Minion Essence 
      , (212, 9,  3442,  0, 0, 0, False) /* Create Scroll of Monster Attunement Other VI (3442) for ContainTreasure */
      , (212, 9, 45282,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self VII (45282) for ContainTreasure */
      , (212, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
-     , (212, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */;
+     , (212, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (212, 9,  3777,  0, 0, 0, False) /* Create Frost Dabus (3777) for ContainTreasure */
+     , (212, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (212, 9,  2416,  1, 0, 0, False) /* Create Gem (2416) for ContainTreasure */
+     , (212, 9, 45265,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VI (45265) for ContainTreasure */
+     , (212, 9,   254,  0, 0, 0, False) /* Create Stoup (254) for ContainTreasure */
+     , (212, 9,   723,  0, 0, 0, False) /* Create Studded Leather Cowl (723) for ContainTreasure */
+     , (212, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */;

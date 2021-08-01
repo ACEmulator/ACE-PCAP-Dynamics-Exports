@@ -260,4 +260,5 @@ VALUES (35990, 9, 20499,  0, 0, 0, False) /* Create Scroll of Aliester's Boon (2
      , (35990, 9, 49455,  1, 0, 0, False) /* Create Glyph of Summoning (49455) for ContainTreasure */
      , (35990, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
      , (35990, 9, 45370,  1, 0, 0, False) /* Create Glyph of Dirty Fighting (45370) for ContainTreasure */
-     , (35990, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */;
+     , (35990, 9,  8327,  1, 0, 0, False) /* Create Gold Pea (8327) for ContainTreasure */
+     , (35990, 9, 20562,  0, 0, 0, False) /* Create Scroll of Celdiseth's Blessing (20562) for ContainTreasure */;

@@ -56,3 +56,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (43855,   1,  2250, 0, 0, 2380) /* MaxHealth */
      , (43855,   3,  2000, 0, 0, 2260) /* MaxStamina */
      , (43855,   5,  2000, 0, 0, 2190) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (43855, 2, 23746,  1, 0, 0, False) /* Create Rock (23746) for Wield */;

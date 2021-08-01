@@ -185,4 +185,8 @@ VALUES (10806, 2, 23700,  1, 0, 0, False) /* Create Tachi (23700) for Wield */
      , (10806, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */
      , (10806, 9, 43335,  0, 0, 0, False) /* Create Scroll of Festering Curse VII (43335) for ContainTreasure */
      , (10806, 9,  2424,  1, 0, 0, False) /* Create Gem (2424) for ContainTreasure */
-     , (10806, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */;
+     , (10806, 9, 20511,  0, 0, 0, False) /* Create Scroll of Morimoto's Boon (20511) for ContainTreasure */
+     , (10806, 9, 27234,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Self (27234) for ContainTreasure */
+     , (10806, 9, 21157,  0, 0, 0, False) /* Create Covenant Pauldrons (21157) for ContainTreasure */
+     , (10806, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (10806, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */;

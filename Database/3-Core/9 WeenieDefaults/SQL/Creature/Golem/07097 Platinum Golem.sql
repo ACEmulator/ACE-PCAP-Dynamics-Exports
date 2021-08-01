@@ -46,7 +46,8 @@ VALUES (7097,   1,   400, 0, 0, 540) /* MaxHealth */
      , (7097,   5,   275, 0, 0, 445) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (7097, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+VALUES (7097, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (7097, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (7097, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
      , (7097, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
      , (7097, 9, 45354,  0, 0, 0, False) /* Create Scroll of Sneak Attack Mastery Self VII (45354) for ContainTreasure */

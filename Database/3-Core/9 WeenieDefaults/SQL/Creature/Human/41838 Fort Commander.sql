@@ -49,4 +49,5 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (41838,   1,     0, 0, 0, 296) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (41838, 2, 38853,  1, 0, 0, False) /* Create Radiant Blood Shield (38853) for Wield */;
+VALUES (41838, 2, 38853,  1, 0, 0, False) /* Create Radiant Blood Shield (38853) for Wield */
+     , (41838, 2, 24200,  1, 0, 0, False) /* Create Weeping Claw (24200) for Wield */;

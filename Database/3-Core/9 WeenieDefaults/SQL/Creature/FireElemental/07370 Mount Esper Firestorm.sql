@@ -62,4 +62,6 @@ VALUES (7370, 2,  5709,  1, 0, 0, False) /* Create Ball of fire (5709) for Wield
      , (7370, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasure */
      , (7370, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (7370, 9, 20472,  0, 0, 0, False) /* Create Scroll of Blessing of the Mace Turner (20472) for ContainTreasure */
-     , (7370, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */;
+     , (7370, 9,  2407,  1, 0, 0, False) /* Create Gem (2407) for ContainTreasure */
+     , (7370, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */
+     , (7370, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */;

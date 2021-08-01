@@ -50,7 +50,9 @@ VALUES (11480,   1,    25, 0, 0, 100) /* MaxHealth */
      , (11480,   5,     0, 0, 0, 20) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (11480, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
+VALUES (11480, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wield */
+     , (11480, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
+     , (11480, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (11480, 9,   273, 186, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (11480, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
      , (11480, 9, 10845,  0, 0, 0, False) /* Create Harvester Pincer (10845) for ContainTreasure */
