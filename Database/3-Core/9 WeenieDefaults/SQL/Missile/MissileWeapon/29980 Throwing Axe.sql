@@ -17,7 +17,7 @@ VALUES (29980,   1,        256) /* ItemType - MissileWeapon */
      , (29980,  45,          0) /* DamageType - Undef */
      , (29980,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29980,  49,         -1) /* WeaponTime */
-     , (29980,  51,          2) /* CombatUse - Missle */
+     , (29980,  51,          2) /* CombatUse - Missile */
      , (29980,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (29980, 307,          5) /* DamageRating */
      , (29980, 313,          0) /* CritRating */

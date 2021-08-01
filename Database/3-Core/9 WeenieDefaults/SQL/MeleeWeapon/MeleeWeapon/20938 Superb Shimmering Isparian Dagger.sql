@@ -53,4 +53,4 @@ VALUES (20938,   1,   33557746) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (20938,  1312,      2)  /* ArmorSelf6 */
-     , (20938,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (20938,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;

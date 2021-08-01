@@ -15,7 +15,7 @@ VALUES (31810,   1,        256) /* ItemType - MissileWeapon */
      , (31810,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31810,  49,        110) /* WeaponTime */
      , (31810,  50,          2) /* AmmoType - Bolt */
-     , (31810,  51,          2) /* CombatUse - Missle */
+     , (31810,  51,          2) /* CombatUse - Missile */
      , (31810,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31810, 105,          7) /* ItemWorkmanship */
      , (31810, 131,         63) /* MaterialType - Silver */

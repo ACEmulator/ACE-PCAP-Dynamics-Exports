@@ -68,7 +68,7 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45441,  4019,      2)  /* CANTRIPQUICKNESS3 */
      , (45441,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45441,  4417,      2)  /* SwiftKillerSelf8 */
-     , (45441,  4518,      2)  /* AxeMasterySelf8 */
+     , (45441,  4518,      2)  /* LightWeaponsMasterySelf8 */
      , (45441,  4598,      2)  /* MagicYieldSelf8 */
      , (45441,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45441,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (45441,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */;

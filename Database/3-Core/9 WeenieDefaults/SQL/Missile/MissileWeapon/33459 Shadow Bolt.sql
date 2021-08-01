@@ -19,7 +19,7 @@ VALUES (33459,   1,        256) /* ItemType - MissileWeapon */
      , (33459,  45,          2) /* DamageType - Pierce */
      , (33459,  48,         47) /* WeaponSkill - MissileWeapons */
      , (33459,  49,         10) /* WeaponTime */
-     , (33459,  51,          2) /* CombatUse - Missle */
+     , (33459,  51,          2) /* CombatUse - Missile */
      , (33459,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (33459, 307,          5) /* DamageRating */
      , (33459, 313,          0) /* CritRating */

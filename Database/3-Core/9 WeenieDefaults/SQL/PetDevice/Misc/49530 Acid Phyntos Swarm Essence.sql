@@ -17,9 +17,9 @@ VALUES (49530,   1,        128) /* ItemType - Misc */
      , (49530, 105,          9) /* ItemWorkmanship */
      , (49530, 114,          0) /* Attuned - Normal */
      , (49530, 280,        213) /* SharedCooldown */
-     , (49530, 366,         54) /* UseRequiresSkill */
+     , (49530, 366,         54) /* UseRequiresSkill - Summoning */
      , (49530, 367,        570) /* UseRequiresSkillLevel */
-     , (49530, 368,         54) /* UseRequiresSkillSpec */
+     , (49530, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49530, 369,        185) /* UseRequiresLevel */
      , (49530, 371,          8) /* GearDamageResist */
      , (49530, 373,          8) /* GearCritResist */

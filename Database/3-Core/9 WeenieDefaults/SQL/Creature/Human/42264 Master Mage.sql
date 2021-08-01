@@ -14,7 +14,7 @@ VALUES (42264,   1,         16) /* ItemType - Creature */
      , (42264, 113,          2) /* Gender - Female */
      , (42264, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (42264, 188,          4) /* HeritageGroup - Viamontian */
-     , (42264, 281,          2) /* Faction1Bits */
+     , (42264, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (42264, 288,       1001) /* SocietyRankEldweb */
      , (42264, 307,          5) /* DamageRating */;
 

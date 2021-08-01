@@ -69,5 +69,5 @@ VALUES (40517,  2059,      2)  /* CoordinationSelf7 */
      , (40517,  2106,      2)  /* HeartSeekerSelf7 */
      , (40517,  2116,      2)  /* SwiftKillerSelf7 */
      , (40517,  4395,      2)  /* BloodDrinkerSelf8 */
-     , (40517,  4624,      2)  /* SwordMasterySelf8 */
-     , (40517,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (40517,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
+     , (40517,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;

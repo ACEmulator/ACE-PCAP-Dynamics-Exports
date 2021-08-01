@@ -17,9 +17,9 @@ VALUES (49379,   1,        128) /* ItemType - Misc */
      , (49379, 105,          7) /* ItemWorkmanship */
      , (49379, 114,          0) /* Attuned - Normal */
      , (49379, 280,        213) /* SharedCooldown */
-     , (49379, 366,         54) /* UseRequiresSkill */
+     , (49379, 366,         54) /* UseRequiresSkill - Summoning */
      , (49379, 367,        570) /* UseRequiresSkillLevel */
-     , (49379, 368,         54) /* UseRequiresSkillSpec */
+     , (49379, 368,         54) /* UseRequiresSkillSpec - Summoning */
      , (49379, 369,        185) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

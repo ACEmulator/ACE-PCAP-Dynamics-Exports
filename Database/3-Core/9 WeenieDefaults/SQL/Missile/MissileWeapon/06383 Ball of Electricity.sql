@@ -19,7 +19,7 @@ VALUES (6383,   1,        256) /* ItemType - MissileWeapon */
      , (6383,  45,         64) /* DamageType - Electric */
      , (6383,  48,         47) /* WeaponSkill - MissileWeapons */
      , (6383,  49,         10) /* WeaponTime */
-     , (6383,  51,          2) /* CombatUse - Missle */
+     , (6383,  51,          2) /* CombatUse - Missile */
      , (6383,  93,     164884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ScriptedCollision, Inelastic */
      , (6383, 307,          5) /* DamageRating */
      , (6383, 313,          0) /* CritRating */

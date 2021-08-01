@@ -16,7 +16,7 @@ VALUES (38644,   1,         16) /* ItemType - Creature */
      , (38644, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38644, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38644, 188,          3) /* HeritageGroup - Sho */
-     , (38644, 281,          4) /* Faction1Bits */
+     , (38644, 281,          4) /* Faction1Bits - RadiantBlood */
      , (38644, 289,        301) /* SocietyRankRadblo */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

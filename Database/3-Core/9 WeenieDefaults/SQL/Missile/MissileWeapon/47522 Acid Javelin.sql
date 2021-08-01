@@ -19,7 +19,7 @@ VALUES (47522,   1,        256) /* ItemType - MissileWeapon */
      , (47522,  45,         32) /* DamageType - Acid */
      , (47522,  48,         47) /* WeaponSkill - MissileWeapons */
      , (47522,  49,         20) /* WeaponTime */
-     , (47522,  51,          2) /* CombatUse - Missle */
+     , (47522,  51,          2) /* CombatUse - Missile */
      , (47522,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47522, 151,          2) /* HookType - Wall */
      , (47522, 353,         10) /* WeaponType - Thrown */;

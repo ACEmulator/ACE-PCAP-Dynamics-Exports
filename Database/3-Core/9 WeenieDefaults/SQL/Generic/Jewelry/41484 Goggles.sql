@@ -42,4 +42,4 @@ VALUES (41484,   1,   33554680) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (41484,  1070,      2)  /* LightningProtectionSelf5 */
-     , (41484,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (41484,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;

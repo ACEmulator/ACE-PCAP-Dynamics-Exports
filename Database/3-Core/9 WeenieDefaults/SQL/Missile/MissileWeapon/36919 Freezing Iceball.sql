@@ -18,7 +18,7 @@ VALUES (36919,   1,        256) /* ItemType - MissileWeapon */
      , (36919,  45,          8) /* DamageType - Cold */
      , (36919,  48,         47) /* WeaponSkill - MissileWeapons */
      , (36919,  49,         20) /* WeaponTime */
-     , (36919,  51,          2) /* CombatUse - Missle */
+     , (36919,  51,          2) /* CombatUse - Missile */
      , (36919,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (36919, 106,        440) /* ItemSpellcraft */
      , (36919, 107,        200) /* ItemCurMana */

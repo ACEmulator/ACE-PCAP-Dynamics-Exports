@@ -46,6 +46,6 @@ VALUES (12212,   1,   33557384) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (12212,   248,      2)  /* InvulnerabilitySelf5 */
-     , (12212,   326,      2)  /* DaggerMasterySelf5 */
+     , (12212,   326,      2)  /* FinesseWeaponsMasterySelf5 */
      , (12212,   680,      2)  /* ArcaneEnlightenmentSelf3 */
      , (12212,  1311,      2)  /* ArmorSelf5 */;

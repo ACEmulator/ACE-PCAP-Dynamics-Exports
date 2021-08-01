@@ -17,7 +17,7 @@ VALUES (46390,   1,        256) /* ItemType - MissileWeapon */
      , (46390,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46390,  49,         20) /* WeaponTime */
      , (46390,  50,          2) /* AmmoType - Bolt */
-     , (46390,  51,          2) /* CombatUse - Missle */
+     , (46390,  51,          2) /* CombatUse - Missile */
      , (46390,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46390, 114,          1) /* Attuned - Attuned */
      , (46390, 151,          2) /* HookType - Wall */

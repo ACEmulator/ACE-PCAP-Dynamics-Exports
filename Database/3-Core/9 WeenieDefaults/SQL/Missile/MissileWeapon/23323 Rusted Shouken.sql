@@ -12,7 +12,7 @@ VALUES (23323,   1,        256) /* ItemType - MissileWeapon */
      , (23323,  13,          5) /* StackUnitEncumbrance */
      , (23323,  15,          0) /* StackUnitValue */
      , (23323,  16,          1) /* ItemUseable - No */
-     , (23323,  51,          2) /* CombatUse - Missle */
+     , (23323,  51,          2) /* CombatUse - Missile */
      , (23323,  92,        100) /* Structure */
      , (23323,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23323, 131,         57) /* MaterialType - Brass */

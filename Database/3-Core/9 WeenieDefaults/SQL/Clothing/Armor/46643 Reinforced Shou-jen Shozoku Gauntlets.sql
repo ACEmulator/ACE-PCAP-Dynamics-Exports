@@ -59,5 +59,5 @@ VALUES (46643,  4325,      2)  /* StrengthSelf8 */
      , (46643,  4407,      2)  /* Impenetrability8 */
      , (46643,  4409,      2)  /* LightningBane8 */
      , (46643,  4412,      2)  /* PiercingBane8 */
-     , (46643,  4522,      2)  /* BowMasterySelf8 */
-     , (46643,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;
+     , (46643,  4522,      2)  /* MissileWeaponsMasterySelf8 */
+     , (46643,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;

@@ -26,7 +26,7 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3230,   1,   33554826) /* Setup */
      , (3230,   8,  100692250) /* Icon */
      , (3230,  22,  872415275) /* PhysicsEffectTable */
-     , (3230,  28,        325) /* Spell - DaggerMasterySelf4 */;
+     , (3230,  28,        325) /* Spell - FinesseWeaponsMasterySelf4 */;
 
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (3230, 8040, 1994981721, 116.7198, 219.1984, 88.88551, -0.5710939, 0, 0, -0.8208848) /* PCAPRecordedLocation */

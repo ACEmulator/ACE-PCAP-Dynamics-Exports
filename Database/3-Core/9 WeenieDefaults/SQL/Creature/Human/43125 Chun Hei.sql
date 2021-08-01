@@ -16,7 +16,7 @@ VALUES (43125,   1,         16) /* ItemType - Creature */
      , (43125, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (43125, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (43125, 188,          3) /* HeritageGroup - Sho */
-     , (43125, 281,          2) /* Faction1Bits */
+     , (43125, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (43125, 288,       1001) /* SocietyRankEldweb */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

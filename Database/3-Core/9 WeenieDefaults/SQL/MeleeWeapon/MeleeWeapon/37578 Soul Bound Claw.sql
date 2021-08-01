@@ -64,6 +64,6 @@ VALUES (37578,  2096,      2)  /* BloodDrinkerSelf7 */
      , (37578,  2101,      2)  /* DefenderSelf7 */
      , (37578,  2106,      2)  /* HeartSeekerSelf7 */
      , (37578,  2116,      2)  /* SwiftKillerSelf7 */
-     , (37578,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (37578,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (37578,  2579,      2)  /* CANTRIPCOORDINATION1 */
      , (37578,  2583,      2)  /* CANTRIPSTRENGTH1 */;

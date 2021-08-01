@@ -15,7 +15,7 @@ VALUES (27594,   1,        256) /* ItemType - MissileWeapon */
      , (27594,  48,         47) /* WeaponSkill - MissileWeapons */
      , (27594,  49,         40) /* WeaponTime */
      , (27594,  50,          1) /* AmmoType - Arrow */
-     , (27594,  51,          2) /* CombatUse - Missle */
+     , (27594,  51,          2) /* CombatUse - Missile */
      , (27594,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (27594, 106,        225) /* ItemSpellcraft */
      , (27594, 107,       3558) /* ItemCurMana */

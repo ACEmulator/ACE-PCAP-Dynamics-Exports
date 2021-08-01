@@ -67,7 +67,7 @@ VALUES (45439,  3963,      2)  /* CANTRIPCOORDINATION3 */
      , (45439,  4405,      2)  /* HeartSeekerSelf8 */
      , (45439,  4417,      2)  /* SwiftKillerSelf8 */
      , (45439,  4498,      2)  /* RejuvenationSelf8 */
-     , (45439,  4624,      2)  /* SwordMasterySelf8 */
+     , (45439,  4624,      2)  /* HeavyWeaponsMasterySelf8 */
      , (45439,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
      , (45439,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (45439,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (45439,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;

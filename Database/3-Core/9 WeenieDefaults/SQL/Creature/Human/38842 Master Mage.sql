@@ -14,7 +14,7 @@ VALUES (38842,   1,         16) /* ItemType - Creature */
      , (38842, 113,          2) /* Gender - Female */
      , (38842, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38842, 188,          4) /* HeritageGroup - Viamontian */
-     , (38842, 281,          1) /* Faction1Bits */
+     , (38842, 281,          1) /* Faction1Bits - CelestialHand */
      , (38842, 287,       1001) /* SocietyRankCelhan */
      , (38842, 307,          5) /* DamageRating */;
 

@@ -67,4 +67,4 @@ VALUES (35804,  2096,      2)  /* BloodDrinkerSelf7 */
      , (35804,  2101,      2)  /* DefenderSelf7 */
      , (35804,  2106,      2)  /* HeartSeekerSelf7 */
      , (35804,  2116,      2)  /* SwiftKillerSelf7 */
-     , (35804,  2504,      2)  /* CANTRIPAXEAPTITUDE2 */;
+     , (35804,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */;

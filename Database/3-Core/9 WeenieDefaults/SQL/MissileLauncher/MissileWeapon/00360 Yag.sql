@@ -14,7 +14,7 @@ VALUES (360,   1,        256) /* ItemType - MissileWeapon */
      , (360,  48,         47) /* WeaponSkill - MissileWeapons */
      , (360,  49,         24) /* WeaponTime */
      , (360,  50,          1) /* AmmoType - Arrow */
-     , (360,  51,          2) /* CombatUse - Missle */
+     , (360,  51,          2) /* CombatUse - Missile */
      , (360,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (360, 105,          7) /* ItemWorkmanship */
      , (360, 106,        263) /* ItemSpellcraft */

@@ -46,7 +46,7 @@ VALUES (25337,   1,   33558448) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (25337,   249,      2)  /* InvulnerabilitySelf6 */
-     , (25337,   303,      2)  /* AxeMasterySelf6 */
+     , (25337,   303,      2)  /* LightWeaponsMasterySelf6 */
      , (25337,   878,      2)  /* HealingMasterySelf5 */
      , (25337,  1312,      2)  /* ArmorSelf6 */
      , (25337,  1485,      2)  /* Impenetrability5 */

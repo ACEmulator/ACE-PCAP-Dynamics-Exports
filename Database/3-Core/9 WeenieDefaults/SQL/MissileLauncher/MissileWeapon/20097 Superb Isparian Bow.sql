@@ -17,7 +17,7 @@ VALUES (20097,   1,        256) /* ItemType - MissileWeapon */
      , (20097,  48,         47) /* WeaponSkill - MissileWeapons */
      , (20097,  49,         40) /* WeaponTime */
      , (20097,  50,          1) /* AmmoType - Arrow */
-     , (20097,  51,          2) /* CombatUse - Missle */
+     , (20097,  51,          2) /* CombatUse - Missile */
      , (20097,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20097, 106,        100) /* ItemSpellcraft */
      , (20097, 107,        598) /* ItemCurMana */
@@ -51,4 +51,4 @@ VALUES (20097,   1,   33557729) /* Setup */
      , (20097,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (20097,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */;
+VALUES (20097,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */;

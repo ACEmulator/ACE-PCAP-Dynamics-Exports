@@ -17,7 +17,7 @@ VALUES (9510,   1,        256) /* ItemType - MissileWeapon */
      , (9510,  45,          4) /* DamageType - Bludgeon */
      , (9510,  48,         47) /* WeaponSkill - MissileWeapons */
      , (9510,  49,         20) /* WeaponTime */
-     , (9510,  51,          2) /* CombatUse - Missle */
+     , (9510,  51,          2) /* CombatUse - Missile */
      , (9510,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (9510, 151,          9) /* HookType - Floor, Yard */
      , (9510, 158,          2) /* WieldRequirements - RawSkill */

@@ -17,7 +17,7 @@ VALUES (39335,   1,        256) /* ItemType - MissileWeapon */
      , (39335,  45,          4) /* DamageType - Bludgeon */
      , (39335,  48,         47) /* WeaponSkill - MissileWeapons */
      , (39335,  49,          5) /* WeaponTime */
-     , (39335,  51,          2) /* CombatUse - Missle */
+     , (39335,  51,          2) /* CombatUse - Missile */
      , (39335,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (39335, 106,        520) /* ItemSpellcraft */
      , (39335, 107,        150) /* ItemCurMana */

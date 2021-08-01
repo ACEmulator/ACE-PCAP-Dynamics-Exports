@@ -18,7 +18,7 @@ VALUES (3760,   1,        256) /* ItemType - MissileWeapon */
      , (3760,  45,         16) /* DamageType - Fire */
      , (3760,  48,         47) /* WeaponSkill - MissileWeapons */
      , (3760,  49,         20) /* WeaponTime */
-     , (3760,  51,          2) /* CombatUse - Missle */
+     , (3760,  51,          2) /* CombatUse - Missile */
      , (3760,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3760, 151,          2) /* HookType - Wall */
      , (3760, 353,         10) /* WeaponType - Thrown */;

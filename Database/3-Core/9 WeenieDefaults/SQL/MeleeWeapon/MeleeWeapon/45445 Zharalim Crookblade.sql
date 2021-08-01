@@ -65,6 +65,6 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45445,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45445,  4405,      2)  /* HeartSeekerSelf8 */
      , (45445,  4417,      2)  /* SwiftKillerSelf8 */
-     , (45445,  4538,      2)  /* DaggerMasterySelf8 */
+     , (45445,  4538,      2)  /* FinesseWeaponsMasterySelf8 */
      , (45445,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45445,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;
+     , (45445,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */;

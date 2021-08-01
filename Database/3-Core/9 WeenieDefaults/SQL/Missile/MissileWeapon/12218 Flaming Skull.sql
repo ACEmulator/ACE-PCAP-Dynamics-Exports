@@ -17,7 +17,7 @@ VALUES (12218,   1,        256) /* ItemType - MissileWeapon */
      , (12218,  45,         16) /* DamageType - Fire */
      , (12218,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12218,  49,         10) /* WeaponTime */
-     , (12218,  51,          2) /* CombatUse - Missle */
+     , (12218,  51,          2) /* CombatUse - Missile */
      , (12218,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (12218, 151,         11) /* HookType - Floor, Wall, Yard */
      , (12218, 353,         10) /* WeaponType - Thrown */;

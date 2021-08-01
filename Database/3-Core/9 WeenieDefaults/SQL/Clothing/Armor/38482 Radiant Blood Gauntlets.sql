@@ -63,6 +63,6 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38482,  2092,      2)  /* AcidBane7 */
      , (38482,  2098,      2)  /* BludgeonBane7 */
      , (38482,  2104,      2)  /* FrostBane7 */
-     , (38482,  2207,      2)  /* BowMasterySelf7 */
+     , (38482,  2207,      2)  /* MissileWeaponsMasterySelf7 */
      , (38482,  4407,      2)  /* Impenetrability8 */
      , (38482,  4700,      2)  /* CANTRIPLIFEMAGICAPTITUDE3 */;

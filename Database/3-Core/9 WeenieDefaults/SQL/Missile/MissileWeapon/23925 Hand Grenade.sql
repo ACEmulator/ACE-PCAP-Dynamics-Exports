@@ -18,7 +18,7 @@ VALUES (23925,   1,        256) /* ItemType - MissileWeapon */
      , (23925,  45,          4) /* DamageType - Bludgeon */
      , (23925,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23925,  49,          3) /* WeaponTime */
-     , (23925,  51,          2) /* CombatUse - Missle */
+     , (23925,  51,          2) /* CombatUse - Missile */
      , (23925,  93,     131092) /* PhysicsState - Ethereal, IgnoreCollisions, Inelastic */
      , (23925, 158,          8) /* WieldRequirements - Training */
      , (23925, 159,         35) /* WieldSkillType - Leadership */

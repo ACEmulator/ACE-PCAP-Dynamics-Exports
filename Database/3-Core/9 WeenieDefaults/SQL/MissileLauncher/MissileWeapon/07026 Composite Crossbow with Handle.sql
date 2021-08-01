@@ -16,7 +16,7 @@ VALUES (7026,   1,        256) /* ItemType - MissileWeapon */
      , (7026,  48,         47) /* WeaponSkill - MissileWeapons */
      , (7026,  49,         90) /* WeaponTime */
      , (7026,  50,          2) /* AmmoType - Bolt */
-     , (7026,  51,          2) /* CombatUse - Missle */
+     , (7026,  51,          2) /* CombatUse - Missile */
      , (7026,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7026, 106,        200) /* ItemSpellcraft */
      , (7026, 107,          0) /* ItemCurMana */
@@ -56,5 +56,5 @@ VALUES (7026,   1,   33556596) /* Setup */
      , (7026,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (7026,   465,      2)  /* BowMasteryOther5 */
+VALUES (7026,   465,      2)  /* MissileWeaponsMasteryOther5 */
      , (7026,  1615,      2)  /* BloodDrinkerSelf5 */;

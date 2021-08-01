@@ -15,7 +15,7 @@ VALUES (29253,   1,        256) /* ItemType - MissileWeapon */
      , (29253,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29253,  49,         21) /* WeaponTime */
      , (29253,  50,          4) /* AmmoType - Atlatl */
-     , (29253,  51,          2) /* CombatUse - Missle */
+     , (29253,  51,          2) /* CombatUse - Missile */
      , (29253,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29253, 105,          6) /* ItemWorkmanship */
      , (29253, 131,         60) /* MaterialType - Gold */

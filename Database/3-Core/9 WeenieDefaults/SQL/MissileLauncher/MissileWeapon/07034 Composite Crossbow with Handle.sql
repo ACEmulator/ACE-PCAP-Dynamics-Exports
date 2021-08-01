@@ -11,7 +11,7 @@ VALUES (7034,   1,        256) /* ItemType - MissileWeapon */
      , (7034,  18,          1) /* UiEffects - Magical */
      , (7034,  19,        375) /* Value */
      , (7034,  50,          2) /* AmmoType - Bolt */
-     , (7034,  51,          2) /* CombatUse - Missle */
+     , (7034,  51,          2) /* CombatUse - Missile */
      , (7034,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (7034, 151,          2) /* HookType - Wall */;
 

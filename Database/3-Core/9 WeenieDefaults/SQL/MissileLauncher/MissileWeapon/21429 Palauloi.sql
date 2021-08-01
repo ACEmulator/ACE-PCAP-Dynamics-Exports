@@ -17,7 +17,7 @@ VALUES (21429,   1,        256) /* ItemType - MissileWeapon */
      , (21429,  48,         47) /* WeaponSkill - MissileWeapons */
      , (21429,  49,         70) /* WeaponTime */
      , (21429,  50,          2) /* AmmoType - Bolt */
-     , (21429,  51,          2) /* CombatUse - Missle */
+     , (21429,  51,          2) /* CombatUse - Missile */
      , (21429,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21429, 106,        250) /* ItemSpellcraft */
      , (21429, 107,        132) /* ItemCurMana */
@@ -59,4 +59,4 @@ VALUES (21429,   1,   33557969) /* Setup */
      , (21429,  22,  872415275) /* PhysicsEffectTable */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21429,   465,      2)  /* BowMasteryOther5 */;
+VALUES (21429,   465,      2)  /* MissileWeaponsMasteryOther5 */;

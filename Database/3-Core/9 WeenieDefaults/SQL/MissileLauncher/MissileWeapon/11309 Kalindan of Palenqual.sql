@@ -10,7 +10,7 @@ VALUES (11309,   1,        256) /* ItemType - MissileWeapon */
      , (11309,  16,          1) /* ItemUseable - No */
      , (11309,  18,          1) /* UiEffects - Magical */
      , (11309,  50,          2) /* AmmoType - Bolt */
-     , (11309,  51,          2) /* CombatUse - Missle */
+     , (11309,  51,          2) /* CombatUse - Missile */
      , (11309,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (11309, 151,          2) /* HookType - Wall */;
 

@@ -67,4 +67,4 @@ VALUES (46099,  2059,      2)  /* CoordinationSelf7 */
      , (46099,  2106,      2)  /* HeartSeekerSelf7 */
      , (46099,  2116,      2)  /* SwiftKillerSelf7 */
      , (46099,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46099,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+     , (46099,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;

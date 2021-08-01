@@ -15,7 +15,7 @@ VALUES (23131,   1,        256) /* ItemType - MissileWeapon */
      , (23131,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23131,  49,         -1) /* WeaponTime */
      , (23131,  50,          2) /* AmmoType - Bolt */
-     , (23131,  51,          2) /* CombatUse - Missle */
+     , (23131,  51,          2) /* CombatUse - Missile */
      , (23131,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23131, 353,          9) /* WeaponType - Crossbow */;
 

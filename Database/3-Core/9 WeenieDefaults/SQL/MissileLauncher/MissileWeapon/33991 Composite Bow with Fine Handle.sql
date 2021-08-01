@@ -15,7 +15,7 @@ VALUES (33991,   1,        256) /* ItemType - MissileWeapon */
      , (33991,  48,         47) /* WeaponSkill - MissileWeapons */
      , (33991,  49,          0) /* WeaponTime */
      , (33991,  50,          1) /* AmmoType - Arrow */
-     , (33991,  51,          2) /* CombatUse - Missle */
+     , (33991,  51,          2) /* CombatUse - Missile */
      , (33991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33991, 106,        313) /* ItemSpellcraft */
      , (33991, 107,        715) /* ItemCurMana */
@@ -64,7 +64,7 @@ VALUES (33991,  1605,      2)  /* DefenderSelf6 */
      , (33991,  2058,      2)  /* CoordinationOther7 */
      , (33991,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33991,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33991,  2206,      2)  /* BowMasteryOther7 */
+     , (33991,  2206,      2)  /* MissileWeaponsMasteryOther7 */
      , (33991,  2244,      2)  /* InvulnerabilityOther7 */
      , (33991,  2280,      2)  /* MagicResistanceOther7 */
      , (33991,  2579,      2)  /* CANTRIPCOORDINATION1 */;

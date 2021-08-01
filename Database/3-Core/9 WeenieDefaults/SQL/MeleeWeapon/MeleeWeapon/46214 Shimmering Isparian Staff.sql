@@ -59,4 +59,4 @@ VALUES (46214,  2096,      2)  /* BloodDrinkerSelf7 */
      , (46214,  2101,      2)  /* DefenderSelf7 */
      , (46214,  2106,      2)  /* HeartSeekerSelf7 */
      , (46214,  2116,      2)  /* SwiftKillerSelf7 */
-     , (46214,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+     , (46214,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;

@@ -14,7 +14,7 @@ VALUES (44215,   1,        256) /* ItemType - MissileWeapon */
      , (44215,  16,          1) /* ItemUseable - No */
      , (44215,  18,         32) /* UiEffects - Fire */
      , (44215,  19,          1) /* Value */
-     , (44215,  51,          2) /* CombatUse - Missle */
+     , (44215,  51,          2) /* CombatUse - Missile */
      , (44215,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (44215, 151,          2) /* HookType - Wall */;
 

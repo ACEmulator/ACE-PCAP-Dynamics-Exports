@@ -14,7 +14,7 @@ VALUES (15886,   1,        256) /* ItemType - MissileWeapon */
      , (15886,  48,         47) /* WeaponSkill - MissileWeapons */
      , (15886,  49,        370) /* WeaponTime */
      , (15886,  50,          1) /* AmmoType - Arrow */
-     , (15886,  51,          2) /* CombatUse - Missle */
+     , (15886,  51,          2) /* CombatUse - Missile */
      , (15886,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15886, 151,          2) /* HookType - Wall */
      , (15886, 353,          8) /* WeaponType - Bow */;

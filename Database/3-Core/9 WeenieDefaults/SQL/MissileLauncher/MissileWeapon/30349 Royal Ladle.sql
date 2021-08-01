@@ -15,7 +15,7 @@ VALUES (30349,   1,        256) /* ItemType - MissileWeapon */
      , (30349,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30349,  49,          0) /* WeaponTime */
      , (30349,  50,          4) /* AmmoType - Atlatl */
-     , (30349,  51,          2) /* CombatUse - Missle */
+     , (30349,  51,          2) /* CombatUse - Missile */
      , (30349,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30349, 106,        350) /* ItemSpellcraft */
      , (30349, 107,       1287) /* ItemCurMana */
@@ -68,5 +68,5 @@ VALUES (30349,  4400,      2)  /* DefenderSelf8 */
      , (30349,  4460,      2)  /* AcidProtectionSelf8 */
      , (30349,  4526,      2)  /* CookingMasterySelf8 */
      , (30349,  4596,      2)  /* MagicResistanceSelf8 */
-     , (30349,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */
+     , (30349,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */
      , (30349,  4688,      2)  /* CANTRIPCOOKINGPROWESS3 */;

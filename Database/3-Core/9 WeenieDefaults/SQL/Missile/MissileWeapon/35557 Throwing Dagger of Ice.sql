@@ -19,7 +19,7 @@ VALUES (35557,   1,        256) /* ItemType - MissileWeapon */
      , (35557,  45,          8) /* DamageType - Cold */
      , (35557,  48,         47) /* WeaponSkill - MissileWeapons */
      , (35557,  49,          1) /* WeaponTime */
-     , (35557,  51,          2) /* CombatUse - Missle */
+     , (35557,  51,          2) /* CombatUse - Missile */
      , (35557,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (35557, 106,        500) /* ItemSpellcraft */
      , (35557, 107,      10000) /* ItemCurMana */
@@ -68,5 +68,5 @@ VALUES (35557, 8040, 2847080494, 135.2953, 139.2291, 108.0008, -0.6320162, -0.63
 /* @teleloc 0xA9B3002E [135.295300 139.229100 108.000800] -0.632016 -0.632016 -0.317105 -0.317105 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35557,  2206,      2)  /* BowMasteryOther7 */
-     , (35557,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
+VALUES (35557,  2206,      2)  /* MissileWeaponsMasteryOther7 */
+     , (35557,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;

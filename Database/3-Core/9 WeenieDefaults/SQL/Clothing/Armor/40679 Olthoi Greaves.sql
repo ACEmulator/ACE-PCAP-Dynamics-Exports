@@ -63,6 +63,6 @@ VALUES (40679, 8040, 23855631, 86.49931, -16.55165, -0.003324986, 0.4357488, 0, 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (40679,  1486,      2)  /* Impenetrability6 */
      , (40679,  2102,      2)  /* FlameBane7 */
-     , (40679,  2504,      2)  /* CANTRIPAXEAPTITUDE2 */
+     , (40679,  2504,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE2 */
      , (40679,  4397,      2)  /* BludgeonBane8 */
      , (40679,  4694,      2)  /* CANTRIPHEALINGPROWESS3 */;

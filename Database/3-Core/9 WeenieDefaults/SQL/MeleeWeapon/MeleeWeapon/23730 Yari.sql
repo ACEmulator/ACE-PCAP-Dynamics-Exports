@@ -17,7 +17,7 @@ VALUES (23730,   1,          1) /* ItemType - MeleeWeapon */
      , (23730, 105,          6) /* ItemWorkmanship */
      , (23730, 114,          0) /* Attuned - Normal */
      , (23730, 280,        213) /* SharedCooldown */
-     , (23730, 366,         54) /* UseRequiresSkill */
+     , (23730, 366,         54) /* UseRequiresSkill - Summoning */
      , (23730, 367,        310) /* UseRequiresSkillLevel */
      , (23730, 369,         40) /* UseRequiresLevel */
      , (23730, 372,         10) /* GearCrit */;

@@ -17,7 +17,7 @@ VALUES (304,   1,        256) /* ItemType - MissileWeapon */
      , (304,  45,          1) /* DamageType - Slash */
      , (304,  48,         47) /* WeaponSkill - MissileWeapons */
      , (304,  49,         20) /* WeaponTime */
-     , (304,  51,          2) /* CombatUse - Missle */
+     , (304,  51,          2) /* CombatUse - Missile */
      , (304,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (304, 151,          2) /* HookType - Wall */
      , (304, 307,          5) /* DamageRating */

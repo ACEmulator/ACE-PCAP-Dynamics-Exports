@@ -14,7 +14,7 @@ VALUES (3787,   1,        256) /* ItemType - MissileWeapon */
      , (3787,  16,          1) /* ItemUseable - No */
      , (3787,  18,         64) /* UiEffects - Lightning */
      , (3787,  19,          4) /* Value */
-     , (3787,  51,          2) /* CombatUse - Missle */
+     , (3787,  51,          2) /* CombatUse - Missile */
      , (3787,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3787, 151,          2) /* HookType - Wall */;
 

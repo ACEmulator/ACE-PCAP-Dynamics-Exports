@@ -68,4 +68,4 @@ VALUES (45466,  4395,      2)  /* BloodDrinkerSelf8 */
      , (45466,  4496,      2)  /* RegenerationSelf8 */
      , (45466,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
      , (45466,  4666,      2)  /* CANTRIPHEARTTHIRST3 */
-     , (45466,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (45466,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */;

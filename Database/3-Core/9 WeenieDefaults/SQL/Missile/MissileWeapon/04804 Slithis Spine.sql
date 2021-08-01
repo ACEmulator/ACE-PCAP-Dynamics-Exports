@@ -18,7 +18,7 @@ VALUES (4804,   1,        256) /* ItemType - MissileWeapon */
      , (4804,  45,          2) /* DamageType - Pierce */
      , (4804,  48,         47) /* WeaponSkill - MissileWeapons */
      , (4804,  49,         20) /* WeaponTime */
-     , (4804,  51,          2) /* CombatUse - Missle */
+     , (4804,  51,          2) /* CombatUse - Missile */
      , (4804,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (4804, 307,          5) /* DamageRating */
      , (4804, 313,          0) /* CritRating */

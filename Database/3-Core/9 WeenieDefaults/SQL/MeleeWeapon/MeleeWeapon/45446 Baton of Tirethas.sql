@@ -65,7 +65,7 @@ VALUES (45446, 8040, 4095213587, 51.04229, 71.14573, 164.9822, -0.6798319, -0.67
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45446,  4400,      2)  /* DefenderSelf8 */
-     , (45446,  4518,      2)  /* AxeMasterySelf8 */
+     , (45446,  4518,      2)  /* LightWeaponsMasterySelf8 */
      , (45446,  4596,      2)  /* MagicResistanceSelf8 */
      , (45446,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (45446,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (45446,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */;

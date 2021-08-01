@@ -47,7 +47,7 @@ VALUES (1313, 8040, 18809101, 28.37951, -24.23678, 0.014, 0.0886373, 0, 0, -0.99
 /* @teleloc 0x011F010D [28.379510 -24.236780 0.014000] 0.088637 0.000000 0.000000 -0.996064 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (1313,   296,      2)  /* AxeMasteryOther5 */
-     , (1313,   320,      2)  /* DaggerMasteryOther5 */
-     , (1313,   416,      2)  /* SwordMasteryOther5 */
+VALUES (1313,   296,      2)  /* LightWeaponsMasteryOther5 */
+     , (1313,   320,      2)  /* FinesseWeaponsMasteryOther5 */
+     , (1313,   416,      2)  /* HeavyWeaponsMasteryOther5 */
      , (1313,  1484,      2)  /* Impenetrability4 */;

@@ -10,7 +10,7 @@ VALUES (537,   1,        256) /* ItemType - MissileWeapon */
      , (537,  16,          1) /* ItemUseable - No */
      , (537,  19,         10) /* Value */
      , (537,  50,          1) /* AmmoType - Arrow */
-     , (537,  51,          2) /* CombatUse - Missle */
+     , (537,  51,          2) /* CombatUse - Missile */
      , (537,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (537, 151,          2) /* HookType - Wall */;
 

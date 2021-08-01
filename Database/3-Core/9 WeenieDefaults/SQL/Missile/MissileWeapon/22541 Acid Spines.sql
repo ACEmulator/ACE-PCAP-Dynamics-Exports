@@ -19,7 +19,7 @@ VALUES (22541,   1,        256) /* ItemType - MissileWeapon */
      , (22541,  45,         32) /* DamageType - Acid */
      , (22541,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22541,  49,         10) /* WeaponTime */
-     , (22541,  51,          2) /* CombatUse - Missle */
+     , (22541,  51,          2) /* CombatUse - Missile */
      , (22541,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22541, 353,         10) /* WeaponType - Thrown */;
 

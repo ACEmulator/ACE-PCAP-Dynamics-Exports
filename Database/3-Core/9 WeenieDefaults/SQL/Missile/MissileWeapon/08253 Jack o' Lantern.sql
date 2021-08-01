@@ -17,7 +17,7 @@ VALUES (8253,   1,        256) /* ItemType - MissileWeapon */
      , (8253,  45,          4) /* DamageType - Bludgeon */
      , (8253,  48,         47) /* WeaponSkill - MissileWeapons */
      , (8253,  49,         10) /* WeaponTime */
-     , (8253,  51,          2) /* CombatUse - Missle */
+     , (8253,  51,          2) /* CombatUse - Missile */
      , (8253,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8253, 151,         11) /* HookType - Floor, Wall, Yard */
      , (8253, 353,         10) /* WeaponType - Thrown */;

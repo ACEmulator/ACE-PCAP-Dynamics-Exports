@@ -23,4 +23,4 @@ INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (3502,   1,   33554826) /* Setup */
      , (3502,   8,  100692249) /* Icon */
      , (3502,  22,  872415275) /* PhysicsEffectTable */
-     , (3502,  28,        309) /* Spell - AxeIneptitudeOther6 */;
+     , (3502,  28,        309) /* Spell - LightWeaponsIneptitudeOther6 */;

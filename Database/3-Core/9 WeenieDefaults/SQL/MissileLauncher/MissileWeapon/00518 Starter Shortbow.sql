@@ -14,7 +14,7 @@ VALUES (518,   1,        256) /* ItemType - MissileWeapon */
      , (518,  48,         47) /* WeaponSkill - MissileWeapons */
      , (518,  49,         40) /* WeaponTime */
      , (518,  50,          1) /* AmmoType - Arrow */
-     , (518,  51,          2) /* CombatUse - Missle */
+     , (518,  51,          2) /* CombatUse - Missile */
      , (518,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (518, 151,          2) /* HookType - Wall */
      , (518, 353,          8) /* WeaponType - Bow */;

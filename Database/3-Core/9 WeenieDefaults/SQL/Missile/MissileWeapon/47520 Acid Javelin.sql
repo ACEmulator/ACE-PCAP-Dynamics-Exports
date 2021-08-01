@@ -19,7 +19,7 @@ VALUES (47520,   1,        256) /* ItemType - MissileWeapon */
      , (47520,  45,         32) /* DamageType - Acid */
      , (47520,  48,         47) /* WeaponSkill - MissileWeapons */
      , (47520,  49,         20) /* WeaponTime */
-     , (47520,  51,          2) /* CombatUse - Missle */
+     , (47520,  51,          2) /* CombatUse - Missile */
      , (47520,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47520, 151,          2) /* HookType - Wall */
      , (47520, 307,          5) /* DamageRating */

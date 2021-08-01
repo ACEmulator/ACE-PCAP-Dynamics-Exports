@@ -16,7 +16,7 @@ VALUES (6966,   1,        256) /* ItemType - MissileWeapon */
      , (6966,  48,         47) /* WeaponSkill - MissileWeapons */
      , (6966,  49,         35) /* WeaponTime */
      , (6966,  50,          1) /* AmmoType - Arrow */
-     , (6966,  51,          2) /* CombatUse - Missle */
+     , (6966,  51,          2) /* CombatUse - Missile */
      , (6966,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6966, 106,        200) /* ItemSpellcraft */
      , (6966, 107,          0) /* ItemCurMana */
@@ -59,5 +59,5 @@ VALUES (6966, 8040, 23855555, 64.06312, -42.4776, 0.4424986, -0.9414667, 0, 0, -
 /* @teleloc 0x016C01C3 [64.063120 -42.477600 0.442499] -0.941467 0.000000 0.000000 -0.337106 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (6966,   465,      2)  /* BowMasteryOther5 */
+VALUES (6966,   465,      2)  /* MissileWeaponsMasteryOther5 */
      , (6966,  1615,      2)  /* BloodDrinkerSelf5 */;

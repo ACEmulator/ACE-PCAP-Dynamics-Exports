@@ -15,7 +15,7 @@ VALUES (31495,   1,        256) /* ItemType - MissileWeapon */
      , (31495,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31495,  49,         80) /* WeaponTime */
      , (31495,  50,          2) /* AmmoType - Bolt */
-     , (31495,  51,          2) /* CombatUse - Missle */
+     , (31495,  51,          2) /* CombatUse - Missile */
      , (31495,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31495, 106,        300) /* ItemSpellcraft */
      , (31495, 107,        600) /* ItemCurMana */

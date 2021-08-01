@@ -14,7 +14,7 @@ VALUES (38844,   1,         16) /* ItemType - Creature */
      , (38844, 113,          2) /* Gender - Female */
      , (38844, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38844, 188,          4) /* HeritageGroup - Viamontian */
-     , (38844, 281,          4) /* Faction1Bits */
+     , (38844, 281,          4) /* Faction1Bits - RadiantBlood */
      , (38844, 289,       1001) /* SocietyRankRadblo */
      , (38844, 307,          5) /* DamageRating */;
 

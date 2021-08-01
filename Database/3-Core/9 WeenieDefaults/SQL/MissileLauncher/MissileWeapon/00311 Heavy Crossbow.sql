@@ -14,7 +14,7 @@ VALUES (311,   1,        256) /* ItemType - MissileWeapon */
      , (311,  48,         47) /* WeaponSkill - MissileWeapons */
      , (311,  49,        120) /* WeaponTime */
      , (311,  50,          2) /* AmmoType - Bolt */
-     , (311,  51,          2) /* CombatUse - Missle */
+     , (311,  51,          2) /* CombatUse - Missile */
      , (311,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (311, 105,          6) /* ItemWorkmanship */
      , (311, 131,         75) /* MaterialType - Oak */

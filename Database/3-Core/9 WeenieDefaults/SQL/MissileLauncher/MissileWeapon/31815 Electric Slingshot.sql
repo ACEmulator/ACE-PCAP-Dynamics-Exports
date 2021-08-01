@@ -15,7 +15,7 @@ VALUES (31815,   1,        256) /* ItemType - MissileWeapon */
      , (31815,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31815,  49,         20) /* WeaponTime */
      , (31815,  50,          4) /* AmmoType - Atlatl */
-     , (31815,  51,          2) /* CombatUse - Missle */
+     , (31815,  51,          2) /* CombatUse - Missile */
      , (31815,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31815, 105,          7) /* ItemWorkmanship */
      , (31815, 106,        277) /* ItemSpellcraft */

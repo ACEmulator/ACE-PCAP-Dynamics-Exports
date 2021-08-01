@@ -15,7 +15,7 @@ VALUES (31391,   1,        256) /* ItemType - MissileWeapon */
      , (31391,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31391,  49,         -1) /* WeaponTime */
      , (31391,  50,          1) /* AmmoType - Arrow */
-     , (31391,  51,          2) /* CombatUse - Missle */
+     , (31391,  51,          2) /* CombatUse - Missile */
      , (31391,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31391, 353,          8) /* WeaponType - Bow */;
 

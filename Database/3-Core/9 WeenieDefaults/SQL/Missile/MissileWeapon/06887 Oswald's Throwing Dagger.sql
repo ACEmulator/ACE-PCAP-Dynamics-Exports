@@ -18,7 +18,7 @@ VALUES (6887,   1,        256) /* ItemType - MissileWeapon */
      , (6887,  45,         64) /* DamageType - Electric */
      , (6887,  48,         47) /* WeaponSkill - MissileWeapons */
      , (6887,  49,         10) /* WeaponTime */
-     , (6887,  51,          2) /* CombatUse - Missle */
+     , (6887,  51,          2) /* CombatUse - Missile */
      , (6887,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (6887, 151,          2) /* HookType - Wall */
      , (6887, 353,         10) /* WeaponType - Thrown */;

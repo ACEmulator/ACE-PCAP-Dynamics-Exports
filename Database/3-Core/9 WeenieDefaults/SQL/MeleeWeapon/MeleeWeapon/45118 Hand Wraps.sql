@@ -65,4 +65,4 @@ VALUES (45118,   1,   33561411) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (45118,  2096,      2)  /* BloodDrinkerSelf7 */
      , (45118,  2101,      2)  /* DefenderSelf7 */
-     , (45118,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */;
+     , (45118,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */;
