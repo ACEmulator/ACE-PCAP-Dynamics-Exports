@@ -19,7 +19,7 @@ VALUES (23133,   1,        256) /* ItemType - MissileWeapon */
      , (23133,  45,          4) /* DamageType - Bludgeon */
      , (23133,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23133,  49,         20) /* WeaponTime */
-     , (23133,  51,          2) /* CombatUse - Missle */
+     , (23133,  51,          2) /* CombatUse - Missile */
      , (23133,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23133, 353,         10) /* WeaponType - Thrown */;
 

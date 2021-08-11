@@ -17,7 +17,7 @@ VALUES (34140,   1,        256) /* ItemType - MissileWeapon */
      , (34140,  45,          4) /* DamageType - Bludgeon */
      , (34140,  48,         47) /* WeaponSkill - MissileWeapons */
      , (34140,  49,          5) /* WeaponTime */
-     , (34140,  51,          2) /* CombatUse - Missle */
+     , (34140,  51,          2) /* CombatUse - Missile */
      , (34140,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (34140, 151,         11) /* HookType - Floor, Wall, Yard */
      , (34140, 353,         10) /* WeaponType - Thrown */;

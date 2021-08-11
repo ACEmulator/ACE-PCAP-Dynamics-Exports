@@ -49,4 +49,4 @@ VALUES (30876,   1,   33559255) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30876,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30876,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (30876,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;

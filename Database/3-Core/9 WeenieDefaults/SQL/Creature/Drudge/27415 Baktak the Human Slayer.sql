@@ -119,4 +119,7 @@ VALUES (27415, 9,   149,  0, 0, 0, False) /* Create Ewer (149) for ContainTreasu
      , (27415, 9,   306,  0, 0, 0, False) /* Create Longbow (306) for ContainTreasure */
      , (27415, 9,   273, 406, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (27415, 9,   124,  0, 0, 0, False) /* Create Jerkin (124) for ContainTreasure */
-     , (27415, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;
+     , (27415, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (27415, 9, 20535,  0, 0, 0, False) /* Create Scroll of Web of Deflection (20535) for ContainTreasure */
+     , (27415, 9,  3472,  0, 0, 0, False) /* Create Scroll of Resist Magic Self VI (3472) for ContainTreasure */
+     , (27415, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */;

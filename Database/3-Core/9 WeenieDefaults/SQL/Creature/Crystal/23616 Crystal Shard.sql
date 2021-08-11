@@ -48,7 +48,8 @@ VALUES (23616,   1,   120, 0, 0, 215) /* MaxHealth */
      , (23616,   5,   500, 0, 0, 780) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (23616, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
+VALUES (23616, 2, 47271,  1, 0, 0, False) /* Create Electric Board with Nail (47271) for Wield */
+     , (23616, 9,  7787,  0, 0, 0, False) /* Create Frost Spiked Club (7787) for ContainTreasure */
      , (23616, 9,  8326,  1, 0, 0, False) /* Create Copper Pea (8326) for ContainTreasure */
      , (23616, 9,    41,  0, 0, 0, False) /* Create Scalemail Breastplate (41) for ContainTreasure */
      , (23616, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */

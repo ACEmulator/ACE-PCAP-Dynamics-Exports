@@ -420,4 +420,21 @@ VALUES (44476, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) 
      , (44476, 9, 20561,  0, 0, 0, False) /* Create Scroll of Celdiseth's Boon (20561) for ContainTreasure */
      , (44476, 9,    66,  0, 0, 0, False) /* Create Platemail Greaves (66) for ContainTreasure */
      , (44476, 9, 20234,  0, 0, 0, False) /* Create Scroll of Boon of Refinement (20234) for ContainTreasure */
-     , (44476, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */;
+     , (44476, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (44476, 9, 40623,  0, 0, 0, False) /* Create Quadrelle (40623) for ContainTreasure */
+     , (44476, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */
+     , (44476, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for ContainTreasure */
+     , (44476, 9, 20238,  0, 0, 0, False) /* Create Scroll of Anemia (20238) for ContainTreasure */
+     , (44476, 9, 20480,  0, 0, 0, False) /* Create Scroll of Storm's Boon (20480) for ContainTreasure */
+     , (44476, 9, 20557,  0, 0, 0, False) /* Create Scroll of Oswald's Blessing (20557) for ContainTreasure */
+     , (44476, 9, 29260,  0, 0, 0, False) /* Create Blunt Sceptre (29260) for ContainTreasure */
+     , (44476, 9, 40638,  0, 0, 0, False) /* Create Flaming Tetsubo (40638) for ContainTreasure */
+     , (44476, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
+     , (44476, 9, 20473,  0, 0, 0, False) /* Create Scroll of Tusker's Gift (20473) for ContainTreasure */
+     , (44476, 9,   357,  0, 0, 0, False) /* Create Tungi (357) for ContainTreasure */
+     , (44476, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (44476, 9, 37355,  1, 0, 0, False) /* Create Ink of Objectification (37355) for ContainTreasure */
+     , (44476, 9,   336,  0, 0, 0, False) /* Create Ono (336) for ContainTreasure */
+     , (44476, 9, 20540,  0, 0, 0, False) /* Create Scroll of Celcynd's Boon (20540) for ContainTreasure */
+     , (44476, 9, 30612,  0, 0, 0, False) /* Create Lightning Knuckles (30612) for ContainTreasure */
+     , (44476, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */;

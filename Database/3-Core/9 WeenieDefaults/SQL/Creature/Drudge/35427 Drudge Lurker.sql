@@ -43,4 +43,6 @@ VALUES (35427, 2, 47252,  1, 0, 0, False) /* Create Board with Nail (47252) for 
      , (35427, 2, 47328,  1, 0, 0, False) /* Create Acid Club (47328) for Wield */
      , (35427, 2, 47309,  1, 0, 0, False) /* Create Frost Board with Nail (47309) for Wield */
      , (35427, 2, 47366,  1, 0, 0, False) /* Create Lightning Club (47366) for Wield */
-     , (35427, 2, 47347,  1, 0, 0, False) /* Create Club (47347) for Wield */;
+     , (35427, 2, 47347,  1, 0, 0, False) /* Create Club (47347) for Wield */
+     , (35427, 2, 47385,  1, 0, 0, False) /* Create Flaming Club (47385) for Wield */
+     , (35427, 2, 47271,  1, 0, 0, False) /* Create Electric Board with Nail (47271) for Wield */;

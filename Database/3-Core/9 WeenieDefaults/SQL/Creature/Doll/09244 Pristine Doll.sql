@@ -412,4 +412,5 @@ VALUES (9244, 9,   312,  0, 0, 0, False) /* Create Light Crossbow (312) for Cont
      , (9244, 9, 25649,  0, 0, 0, False) /* Create Leather Shirt (25649) for ContainTreasure */
      , (9244, 9,  3440,  0, 0, 0, False) /* Create Scroll of Monster Attunement Other IV (3440) for ContainTreasure */
      , (9244, 9, 20392,  0, 0, 0, False) /* Create Scroll of Cleanse Life Magic Other (20392) for ContainTreasure */
-     , (9244, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */;
+     , (9244, 9, 22155,  0, 0, 0, False) /* Create Lightning Jo (22155) for ContainTreasure */
+     , (9244, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */;

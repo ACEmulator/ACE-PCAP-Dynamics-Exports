@@ -177,4 +177,6 @@ VALUES (27710, 2, 12198,  1, 0, 0, False) /* Create Assassin's Frost Simi (12198
      , (27710, 9,  7791,  0, 0, 0, False) /* Create Frost Trident (7791) for ContainTreasure */
      , (27710, 9, 29241,  0, 0, 0, False) /* Create Fire Bow (29241) for ContainTreasure */
      , (27710, 9, 45401,  0, 0, 0, False) /* Create Simi (45401) for ContainTreasure */
-     , (27710, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */;
+     , (27710, 9, 20455,  0, 0, 0, False) /* Create Scroll of Alset's Coil (20455) for ContainTreasure */
+     , (27710, 9, 20494,  0, 0, 0, False) /* Create Scroll of Unflinching Persistence (20494) for ContainTreasure */
+     , (27710, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */;

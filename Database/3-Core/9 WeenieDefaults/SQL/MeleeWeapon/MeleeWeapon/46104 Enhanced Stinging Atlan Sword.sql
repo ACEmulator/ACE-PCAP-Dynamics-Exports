@@ -67,5 +67,5 @@ VALUES (46104,  2059,      2)  /* CoordinationSelf7 */
      , (46104,  2106,      2)  /* HeartSeekerSelf7 */
      , (46104,  2116,      2)  /* SwiftKillerSelf7 */
      , (46104,  2149,      2)  /* AcidProtectionSelf7 */
-     , (46104,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (46104,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (46104,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;

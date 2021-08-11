@@ -53,6 +53,7 @@ VALUES (44041,   1,  4490, 0, 0, 4600) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (44041, 2, 44264,  1, 0, 0, False) /* Create Corrupted Aegis (44264) for Wield */
      , (44041, 2, 44265,  1, 0, 0, False) /* Create Burning Sands Katar (44265) for Wield */
+     , (44041, 2, 23134,  1, 0, 0, False) /* Create Lugian Morning Star (23134) for Wield */
      , (44041, 9, 40691,  0, 0, 0, False) /* Create Olthoi Sollerets (40691) for ContainTreasure */
      , (44041, 9,   515,  0, 0, 0, False) /* Create Superb Lockpick (515) for ContainTreasure */
      , (44041, 9, 44296,  1, 0, 0, False) /* Create Ancient Tablet of the Crystal Idol (Level 180+) (44296) for ContainTreasure */

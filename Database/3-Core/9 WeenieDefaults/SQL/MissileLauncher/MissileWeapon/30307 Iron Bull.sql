@@ -10,7 +10,7 @@ VALUES (30307,   1,        256) /* ItemType - MissileWeapon */
      , (30307,  16,          1) /* ItemUseable - No */
      , (30307,  19,      50000) /* Value */
      , (30307,  50,          2) /* AmmoType - Bolt */
-     , (30307,  51,          2) /* CombatUse - Missle */
+     , (30307,  51,          2) /* CombatUse - Missile */
      , (30307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30307, 151,          2) /* HookType - Wall */;
 

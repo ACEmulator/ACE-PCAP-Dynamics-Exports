@@ -297,4 +297,5 @@ VALUES (11885, 2, 11751,  1, 0, 0, False) /* Create Hafted Falcon Spear (11751) 
      , (11885, 9,  2429,  1, 0, 0, False) /* Create Gem (2429) for ContainTreasure */
      , (11885, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
      , (11885, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
-     , (11885, 9, 11817,  1, 0, 0, False) /* Create Shreth Crest (11817) for ContainTreasure */;
+     , (11885, 9, 11817,  1, 0, 0, False) /* Create Shreth Crest (11817) for ContainTreasure */
+     , (11885, 9,    83,  0, 0, 0, False) /* Create Scalemail Leggings (83) for ContainTreasure */;

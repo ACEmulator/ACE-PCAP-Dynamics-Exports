@@ -62,4 +62,6 @@ VALUES (33625, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasu
      , (33625, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (33625, 9, 27327,  1, 0, 0, False) /* Create Stamina Tonic (27327) for ContainTreasure */
      , (33625, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
-     , (33625, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */;
+     , (33625, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
+     , (33625, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */
+     , (33625, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */;

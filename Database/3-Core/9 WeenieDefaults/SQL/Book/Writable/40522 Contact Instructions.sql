@@ -12,8 +12,7 @@ VALUES (40522,   1,       8192) /* ItemType - Writable */
      , (40522,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40522,  98, 1485368894) /* CreationTimestamp */
      , (40522, 114,          1) /* Attuned - Attuned */
-     , (40522, 267,        600) /* Lifespan */
-     , (40522, 268,        491) /* RemainingLifespan */;
+     , (40522, 267,        600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (40522,  23, True ) /* DestroyOnSell */

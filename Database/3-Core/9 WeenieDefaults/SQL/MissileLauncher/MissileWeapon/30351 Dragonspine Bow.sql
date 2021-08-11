@@ -16,7 +16,7 @@ VALUES (30351,   1,        256) /* ItemType - MissileWeapon */
      , (30351,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30351,  49,          0) /* WeaponTime */
      , (30351,  50,          1) /* AmmoType - Arrow */
-     , (30351,  51,          2) /* CombatUse - Missle */
+     , (30351,  51,          2) /* CombatUse - Missile */
      , (30351,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30351, 106,        350) /* ItemSpellcraft */
      , (30351, 107,       2007) /* ItemCurMana */
@@ -68,7 +68,7 @@ VALUES (30351,  4297,      2)  /* CoordinationSelf8 */
      , (30351,  4400,      2)  /* DefenderSelf8 */
      , (30351,  4417,      2)  /* SwiftKillerSelf8 */
      , (30351,  4468,      2)  /* FireProtectionSelf8 */
-     , (30351,  4522,      2)  /* BowMasterySelf8 */
+     , (30351,  4522,      2)  /* MissileWeaponsMasterySelf8 */
      , (30351,  4560,      2)  /* InvulnerabilitySelf8 */
      , (30351,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
-     , (30351,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;
+     , (30351,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;

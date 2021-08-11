@@ -56,6 +56,7 @@ VALUES (1255, 2,   315,  1, 0, 0, False) /* Create Throwing Dagger (315) for Wie
      , (1255, 2,   314,  1, 0, 0, False) /* Create Dagger (314) for Wield */
      , (1255, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
      , (1255, 2,   317,  1, 0, 0, False) /* Create Djarid (317) for Wield */
+     , (1255, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield */
      , (1255, 9,   629,  0, 0, 0, False) /* Create Adept Healing Kit (629) for ContainTreasure */
      , (1255, 9,  1265,  0, 0, 0, False) /* Create Key (1265) for ContainTreasure */
      , (1255, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */

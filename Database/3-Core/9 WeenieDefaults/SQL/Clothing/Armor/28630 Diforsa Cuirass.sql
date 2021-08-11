@@ -61,4 +61,4 @@ VALUES (28630,  1516,      2)  /* BludgeonBane6 */
      , (28630,  2108,      2)  /* Impenetrability7 */
      , (28630,  4409,      2)  /* LightningBane8 */
      , (28630,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
-     , (28630,  6072,      2)  /* CantripSwordAptitude4 */;
+     , (28630,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */;

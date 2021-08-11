@@ -237,4 +237,5 @@ VALUES (5711, 9,  2587,  0, 0, 0, False) /* Create Shirt (2587) for ContainTreas
      , (5711, 9, 43326,  0, 0, 0, False) /* Create Scroll of Destructive Curse VII (43326) for ContainTreasure */
      , (5711, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
      , (5711, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for ContainTreasure */
-     , (5711, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */;
+     , (5711, 9, 20421,  0, 0, 0, False) /* Create Scroll of Astyrrian Bait (20421) for ContainTreasure */
+     , (5711, 9, 40818,  0, 0, 0, False) /* Create Corsesca (40818) for ContainTreasure */;

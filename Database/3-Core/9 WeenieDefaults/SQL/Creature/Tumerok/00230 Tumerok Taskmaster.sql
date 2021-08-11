@@ -100,4 +100,6 @@ VALUES (230, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (230, 9,  3821,  0, 0, 0, False) /* Create Frost Katar (3821) for ContainTreasure */
      , (230, 9,   360,  0, 0, 0, False) /* Create Yag (360) for ContainTreasure */
      , (230, 9,    58,  0, 0, 0, False) /* Create Scalemail Gauntlets (58) for ContainTreasure */
-     , (230, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;
+     , (230, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (230, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
+     , (230, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */;

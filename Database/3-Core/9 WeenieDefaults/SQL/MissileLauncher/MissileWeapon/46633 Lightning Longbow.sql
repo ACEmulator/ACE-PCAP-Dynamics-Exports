@@ -10,7 +10,7 @@ VALUES (46633,   1,        256) /* ItemType - MissileWeapon */
      , (46633,  16,          1) /* ItemUseable - No */
      , (46633,  18,         64) /* UiEffects - Lightning */
      , (46633,  50,          1) /* AmmoType - Arrow */
-     , (46633,  51,          2) /* CombatUse - Missle */
+     , (46633,  51,          2) /* CombatUse - Missile */
      , (46633,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46633, 151,          2) /* HookType - Wall */;
 

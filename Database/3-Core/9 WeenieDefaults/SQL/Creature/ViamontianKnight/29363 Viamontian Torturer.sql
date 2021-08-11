@@ -67,4 +67,7 @@ VALUES (29363, 2, 30583,  1, 0, 0, False) /* Create Flaming Mazule (30583) for W
      , (29363, 2, 30602,  1, 0, 0, False) /* Create Lightning Stiletto (30602) for Wield */
      , (29363, 2, 30566,  1, 0, 0, False) /* Create Sabra (30566) for Wield */
      , (29363, 2, 30568,  1, 0, 0, False) /* Create Flaming Sabra (30568) for Wield */
-     , (29363, 2, 30603,  1, 0, 0, False) /* Create Flaming Stiletto (30603) for Wield */;
+     , (29363, 2, 30603,  1, 0, 0, False) /* Create Flaming Stiletto (30603) for Wield */
+     , (29363, 2, 30569,  1, 0, 0, False) /* Create Frost Sabra (30569) for Wield */
+     , (29363, 2, 30592,  1, 0, 0, False) /* Create Flaming Partizan (30592) for Wield */
+     , (29363, 2, 30582,  1, 0, 0, False) /* Create Lightning Mazule (30582) for Wield */;

@@ -48,4 +48,5 @@ VALUES (35133,   1,   351, 0, 0, 513) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35133, 2, 24885,  1, 0, 0, False) /* Create Rock (24885) for Wield */
      , (35133, 2, 24884,  1, 0, 0, False) /* Create Lugian Axe (24884) for Wield */
-     , (35133, 2, 24886,  1, 0, 0, False) /* Create Lugian Mace (24886) for Wield */;
+     , (35133, 2, 24886,  1, 0, 0, False) /* Create Lugian Mace (24886) for Wield */
+     , (35133, 2, 48977,  1, 0, 0, False) /* Create Acid Hatchet (48977) for Wield */;

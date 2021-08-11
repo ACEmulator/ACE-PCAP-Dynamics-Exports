@@ -17,7 +17,7 @@ VALUES (20080,   1,        256) /* ItemType - MissileWeapon */
      , (20080,  48,         47) /* WeaponSkill - MissileWeapons */
      , (20080,  49,         40) /* WeaponTime */
      , (20080,  50,          1) /* AmmoType - Arrow */
-     , (20080,  51,          2) /* CombatUse - Missle */
+     , (20080,  51,          2) /* CombatUse - Missile */
      , (20080,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20080, 106,        100) /* ItemSpellcraft */
      , (20080, 107,        140) /* ItemCurMana */

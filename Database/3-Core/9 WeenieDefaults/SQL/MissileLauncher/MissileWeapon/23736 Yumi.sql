@@ -15,7 +15,7 @@ VALUES (23736,   1,        256) /* ItemType - MissileWeapon */
      , (23736,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23736,  49,         -1) /* WeaponTime */
      , (23736,  50,          1) /* AmmoType - Arrow */
-     , (23736,  51,          2) /* CombatUse - Missle */
+     , (23736,  51,          2) /* CombatUse - Missile */
      , (23736,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (23736, 353,          8) /* WeaponType - Bow */;
 

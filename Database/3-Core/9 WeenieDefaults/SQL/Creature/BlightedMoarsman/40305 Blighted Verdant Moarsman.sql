@@ -82,4 +82,8 @@ VALUES (40305, 9,  5901,  0, 0, 0, False) /* Create Kasa (5901) for ContainTreas
      , (40305, 9, 27225,  0, 0, 0, False) /* Create Lorica Sleeves (27225) for ContainTreasure */
      , (40305, 9, 20487,  0, 0, 0, False) /* Create Scroll of Decrepitude's Grasp (20487) for ContainTreasure */
      , (40305, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
-     , (40305, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */;
+     , (40305, 9, 27228,  0, 0, 0, False) /* Create Nariyid Gauntlets (27228) for ContainTreasure */
+     , (40305, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (40305, 9, 28620,  0, 0, 0, False) /* Create Alduressa Leggings (28620) for ContainTreasure */
+     , (40305, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
+     , (40305, 9, 27236,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Other (27236) for ContainTreasure */;

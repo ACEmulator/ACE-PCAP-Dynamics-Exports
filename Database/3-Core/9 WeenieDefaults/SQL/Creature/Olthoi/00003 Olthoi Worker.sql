@@ -419,4 +419,6 @@ VALUES (3, 9, 20482,  0, 0, 0, False) /* Create Scroll of Astyrrian's Gift (2048
      , (3, 9,  5960,  0, 0, 0, False) /* Create Scroll of Cooking Mastery Self V (5960) for ContainTreasure */
      , (3, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
      , (3, 9, 45101,  0, 0, 0, False) /* Create Lightning Epee (45101) for ContainTreasure */
-     , (3, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */;
+     , (3, 9, 40822,  0, 0, 0, False) /* Create Frost Corsesca (40822) for ContainTreasure */
+     , (3, 9, 45423,  0, 0, 0, False) /* Create Lightning Dagger (45423) for ContainTreasure */
+     , (3, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */;

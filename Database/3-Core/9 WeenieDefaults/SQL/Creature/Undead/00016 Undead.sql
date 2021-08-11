@@ -364,4 +364,5 @@ VALUES (16, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (16, 9,  3893,  0, 0, 0, False) /* Create Acid Takuba (3893) for ContainTreasure */
      , (16, 9, 40625,  0, 0, 0, False) /* Create Lightning Quadrelle (40625) for ContainTreasure */
      , (16, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
-     , (16, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */;
+     , (16, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (16, 9, 21325,  0, 0, 0, False) /* Create Scroll of Lightning Arc III (21325) for ContainTreasure */;

@@ -95,4 +95,7 @@ VALUES (36859, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield 
      , (36859, 9, 20405,  0, 0, 0, False) /* Create Scroll of Swordsman Bait (20405) for ContainTreasure */
      , (36859, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasure */
      , (36859, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
-     , (36859, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */;
+     , (36859, 9,   111,  0, 0, 0, False) /* Create Scalemail Tassets (111) for ContainTreasure */
+     , (36859, 9, 48972,  0, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for ContainTreasure */
+     , (36859, 9,  2366,  0, 0, 0, False) /* Create Orb (2366) for ContainTreasure */
+     , (36859, 9, 27331,  0, 0, 0, False) /* Create Minor Mana Stone (27331) for ContainTreasure */;

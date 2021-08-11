@@ -45,7 +45,8 @@ VALUES (14800,   1,   500, 0, 0, 1000) /* MaxHealth */
      , (14800,   5,   500, 0, 0, 800) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (14800, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */
+VALUES (14800, 2, 12064,  1, 0, 0, False) /* Create Bandit Flaming Khanjar (12064) for Wield */
+     , (14800, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */
      , (14800, 9,  8489,  0, 0, 0, False) /* Create Heaume (8489) for ContainTreasure */
      , (14800, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
      , (14800, 9, 45875,  0, 0, 0, False) /* Create Lucky Gold Letter (45875) for ContainTreasure */

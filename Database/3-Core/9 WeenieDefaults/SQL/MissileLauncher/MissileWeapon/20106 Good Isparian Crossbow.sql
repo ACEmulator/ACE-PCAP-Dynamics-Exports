@@ -11,7 +11,7 @@ VALUES (20106,   1,        256) /* ItemType - MissileWeapon */
      , (20106,  18,          1) /* UiEffects - Magical */
      , (20106,  19,       4000) /* Value */
      , (20106,  50,          2) /* AmmoType - Bolt */
-     , (20106,  51,          2) /* CombatUse - Missle */
+     , (20106,  51,          2) /* CombatUse - Missile */
      , (20106,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (20106, 151,          2) /* HookType - Wall */;
 

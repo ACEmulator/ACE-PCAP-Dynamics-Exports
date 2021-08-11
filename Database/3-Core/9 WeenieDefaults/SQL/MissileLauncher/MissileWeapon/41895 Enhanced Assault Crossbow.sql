@@ -15,7 +15,7 @@ VALUES (41895,   1,        256) /* ItemType - MissileWeapon */
      , (41895,  48,         47) /* WeaponSkill - MissileWeapons */
      , (41895,  49,         60) /* WeaponTime */
      , (41895,  50,          2) /* AmmoType - Bolt */
-     , (41895,  51,          2) /* CombatUse - Missle */
+     , (41895,  51,          2) /* CombatUse - Missile */
      , (41895,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41895, 106,        400) /* ItemSpellcraft */
      , (41895, 107,        550) /* ItemCurMana */

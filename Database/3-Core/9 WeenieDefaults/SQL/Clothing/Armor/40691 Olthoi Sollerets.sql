@@ -60,7 +60,7 @@ VALUES (40691, 8040, 23855473, 22.08619, -64.75161, -0.0006459951, 0.8307009, 0,
 /* @teleloc 0x016C0171 [22.086190 -64.751610 -0.000646] 0.830701 0.000000 0.000000 -0.556719 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (40691,   327,      2)  /* DaggerMasterySelf6 */
+VALUES (40691,   327,      2)  /* FinesseWeaponsMasterySelf6 */
      , (40691,  2102,      2)  /* FlameBane7 */
      , (40691,  2108,      2)  /* Impenetrability7 */
      , (40691,  2573,      2)  /* CANTRIPENDURANCE2 */;

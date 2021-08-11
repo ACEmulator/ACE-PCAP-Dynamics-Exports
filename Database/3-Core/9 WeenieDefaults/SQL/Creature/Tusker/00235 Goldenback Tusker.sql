@@ -640,4 +640,15 @@ VALUES (235, 9, 41488,  0, 0, 0, False) /* Create Top (41488) for ContainTreasur
      , (235, 9,  2730,  0, 0, 0, False) /* Create Scroll of Revitalize Self V (2730) for ContainTreasure */
      , (235, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (235, 9,  3341,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Self V (3341) for ContainTreasure */
-     , (235, 9,  8957,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak V (8957) for ContainTreasure */;
+     , (235, 9,  8957,  0, 0, 0, False) /* Create Scroll of Whirling Blade Streak V (8957) for ContainTreasure */
+     , (235, 9, 21325,  0, 0, 0, False) /* Create Scroll of Lightning Arc III (21325) for ContainTreasure */
+     , (235, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
+     , (235, 9,  7793,  0, 0, 0, False) /* Create Acid Trident (7793) for ContainTreasure */
+     , (235, 9,  3561,  0, 0, 0, False) /* Create Scroll of Vulnerability V (3561) for ContainTreasure */
+     , (235, 9,  4220,  0, 0, 0, False) /* Create Scroll of Drain Health Other IV (4220) for ContainTreasure */
+     , (235, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
+     , (235, 9, 45295,  0, 0, 0, False) /* Create Scroll of Recklessness Mastery Other IV (45295) for ContainTreasure */
+     , (235, 9,  2804,  0, 0, 0, False) /* Create Scroll of Brittlemail IV (2804) for ContainTreasure */
+     , (235, 9,  3416,  0, 0, 0, False) /* Create Scroll of Magic Item Tinkering Expertise Self V (3416) for ContainTreasure */
+     , (235, 9,  2942,  0, 0, 0, False) /* Create Scroll of Frost Bolt III (2942) for ContainTreasure */
+     , (235, 9, 31791,  0, 0, 0, False) /* Create Flaming Stick (31791) for ContainTreasure */;

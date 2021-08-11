@@ -274,7 +274,8 @@ VALUES (0x70906001, 0x70906002, '2019-02-10 00:00:00') /* Dark Zefir (25885) */
      , (0x70906001, 0x7090610C, '2019-02-10 00:00:00') /* Mutated Mite (25872) */
      , (0x70906001, 0x7090610D, '2019-02-10 00:00:00') /* Glissnal Nefane (25873) */
      , (0x70906001, 0x7090610E, '2019-02-10 00:00:00') /* Glissnal Nefane (25873) */
-     , (0x70906001, 0x7090610F, '2019-02-10 00:00:00') /* Glissnal Nefane (25873) */;
+     , (0x70906001, 0x7090610F, '2019-02-10 00:00:00') /* Glissnal Nefane (25873) */
+     , (0x70906001, 0x70906110, '2019-02-10 00:00:00') /* Infested Rat (25878) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x70906002, 25885, 0x09060036, 163.4079, 142.0189, 14.50428, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Dark Zefir */
@@ -1357,12 +1358,16 @@ VALUES (0x7090610F, 25873, 0x09060040, 191.3356, 169.4907, 46.62151, 1, 0, 0, 0,
 /* @teleloc 0x09060040 [191.335600 169.490700 46.621510] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70906110,  1542, 0x09060040, 173.3469, 170.0147, 46.77646, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+VALUES (0x70906110, 25878, 0x09060036, 161.6924, 142.3866, 14.41536, 0.999978, 0, 0, -0.006635434,  True, '2019-02-10 00:00:00'); /* Infested Rat */
+/* @teleloc 0x09060036 [161.692400 142.386600 14.415360] 0.999978 0.000000 0.000000 -0.006635 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x70906111,  1542, 0x09060040, 173.3469, 170.0147, 46.77646, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
 /* @teleloc 0x09060040 [173.346900 170.014700 46.776460] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
-VALUES (0x70906110, 0x70906111, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
+VALUES (0x70906111, 0x70906112, '2019-02-10 00:00:00') /* The Orphanage (27298) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x70906111, 27298, 0x09060040, 173.3469, 170.0147, 46.77646, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
+VALUES (0x70906112, 27298, 0x09060040, 173.3469, 170.0147, 46.77646, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* The Orphanage */
 /* @teleloc 0x09060040 [173.346900 170.014700 46.776460] 1.000000 0.000000 0.000000 0.000000 */

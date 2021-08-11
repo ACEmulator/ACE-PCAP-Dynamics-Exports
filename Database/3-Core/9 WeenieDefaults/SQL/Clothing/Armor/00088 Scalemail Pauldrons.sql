@@ -51,4 +51,4 @@ VALUES (88,   1,   33554641) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (88,  1485,      2)  /* Impenetrability5 */
-     , (88,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (88,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;

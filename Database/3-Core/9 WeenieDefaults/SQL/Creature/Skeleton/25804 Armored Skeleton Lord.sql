@@ -78,6 +78,7 @@ VALUES (25804, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield *
      , (25804, 2, 48260,  1, 0, 0, False) /* Create Arrow (48260) for Wield */
      , (25804, 2, 47676,  1, 0, 0, False) /* Create Flaming Tachi (47676) for Wield */
      , (25804, 2, 47752,  1, 0, 0, False) /* Create Lightning Spear (47752) for Wield */
+     , (25804, 2,  2547,  1, 0, 0, False) /* Create Staff (2547) for Wield */
      , (25804, 9,  2409,  1, 0, 0, False) /* Create Gem (2409) for ContainTreasure */
      , (25804, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
      , (25804, 9, 31759,  0, 0, 0, False) /* Create Dericost Blade (31759) for ContainTreasure */

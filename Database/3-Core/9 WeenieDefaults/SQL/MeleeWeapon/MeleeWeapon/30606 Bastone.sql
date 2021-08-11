@@ -60,5 +60,5 @@ VALUES (30606,   1,   33559493) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30606,  1354,      2)  /* EnduranceSelf6 */
      , (30606,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30606,  2544,      2)  /* CANTRIPDAGGERAPTITUDE1 */
+     , (30606,  2544,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE1 */
      , (30606,  2552,      2)  /* CANTRIPITEMEXPERTISE1 */;

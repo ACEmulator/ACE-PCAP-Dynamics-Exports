@@ -53,4 +53,4 @@ VALUES (30863, 8040, 23855548, 49.206, -31.96, -0.071, 0.5, 0.5, -0.5, -0.5) /* 
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30863,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (30863,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */;
+     , (30863,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */;

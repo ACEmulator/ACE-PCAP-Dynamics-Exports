@@ -17,7 +17,10 @@ INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (29969,  22, True ) /* Inscribable */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
-VALUES (29969,   1, 'Quadrelle') /* Name */;
+VALUES (29969,   1, 'Quadrelle') /* Name */
+     , (29969,  14, 'Use this item to attempt to learn its spell.') /* Use */
+     , (29969,  16, 'Inscribed spell: Corrosion VII
+Sends a bolt of corrosion towards the target. The bolt does 360 points of damage over 15 seconds.') /* LongDesc */;
 
 INSERT INTO `weenie_properties_d_i_d` (`object_Id`, `type`, `value`)
 VALUES (29969,   1,   33559359) /* Setup */
@@ -29,3 +32,6 @@ VALUES (29969,   1,   33559359) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (29969, 8040, 1173487637, 70.52116, 116.9884, 54.88194, -0.1282246, -0.1282246, -0.6953837, -0.6953837) /* PCAPRecordedLocation */
 /* @teleloc 0x45F20015 [70.521160 116.988400 54.881940] -0.128225 -0.128225 -0.695384 -0.695384 */;
+
+INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
+VALUES (29969,  5393,      2)  /* Corrosion7 */;

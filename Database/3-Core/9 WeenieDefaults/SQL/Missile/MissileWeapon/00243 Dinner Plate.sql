@@ -14,7 +14,7 @@ VALUES (243,   1,        256) /* ItemType - MissileWeapon */
      , (243,  45,          1) /* DamageType - Slash */
      , (243,  48,         47) /* WeaponSkill - MissileWeapons */
      , (243,  49,         10) /* WeaponTime */
-     , (243,  51,          2) /* CombatUse - Missle */
+     , (243,  51,          2) /* CombatUse - Missile */
      , (243,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (243, 105,          6) /* ItemWorkmanship */
      , (243, 106,        205) /* ItemSpellcraft */

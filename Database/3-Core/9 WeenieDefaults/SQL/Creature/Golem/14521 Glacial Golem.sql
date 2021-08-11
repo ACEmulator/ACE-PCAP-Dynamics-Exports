@@ -69,4 +69,5 @@ VALUES (14521, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for 
      , (14521, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (14521, 9, 45290,  0, 0, 0, False) /* Create Scroll of Recklessness Ineptitude Other VII (45290) for ContainTreasure */
      , (14521, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
-     , (14521, 9, 21335,  0, 0, 0, False) /* Create Scroll of Shock Arc VI (21335) for ContainTreasure */;
+     , (14521, 9, 21335,  0, 0, 0, False) /* Create Scroll of Shock Arc VI (21335) for ContainTreasure */
+     , (14521, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */;

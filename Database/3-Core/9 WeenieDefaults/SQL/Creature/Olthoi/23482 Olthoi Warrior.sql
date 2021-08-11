@@ -401,4 +401,21 @@ VALUES (23482, 9, 49214,  0, 0, 0, False) /* Create Acid Skeleton Minion Essence
      , (23482, 9, 20235,  0, 0, 0, False) /* Create Scroll of Honed Control (20235) for ContainTreasure */
      , (23482, 9,   133,  0, 0, 0, False) /* Create Slippers (133) for ContainTreasure */
      , (23482, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */
-     , (23482, 9, 20232,  0, 0, 0, False) /* Create Scroll of Synaptic Misfire (20232) for ContainTreasure */;
+     , (23482, 9, 20232,  0, 0, 0, False) /* Create Scroll of Synaptic Misfire (20232) for ContainTreasure */
+     , (23482, 9,  2603,  0, 0, 0, False) /* Create Baggy Breeches (2603) for ContainTreasure */
+     , (23482, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (23482, 9, 20408,  0, 0, 0, False) /* Create Scroll of Tusker's Bane (20408) for ContainTreasure */
+     , (23482, 9, 22157,  0, 0, 0, False) /* Create Frost Jo (22157) for ContainTreasure */
+     , (23482, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */
+     , (23482, 9, 20431,  0, 0, 0, False) /* Create Scroll of Corrosive Flash (20431) for ContainTreasure */
+     , (23482, 9,   362,  0, 0, 0, False) /* Create Yari (362) for ContainTreasure */
+     , (23482, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (23482, 9, 31811,  0, 0, 0, False) /* Create Piercing Compound Crossbow (31811) for ContainTreasure */
+     , (23482, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (23482, 9, 30949,  0, 0, 0, False) /* Create Diforsa Sleeves (30949) for ContainTreasure */
+     , (23482, 9, 20404,  0, 0, 0, False) /* Create Scroll of Swordsman's Bane (20404) for ContainTreasure */
+     , (23482, 9, 31797,  0, 0, 0, False) /* Create Flaming Lancet (31797) for ContainTreasure */
+     , (23482, 9, 30950,  0, 0, 0, False) /* Create Alduressa Boots (30950) for ContainTreasure */
+     , (23482, 9, 20530,  0, 0, 0, False) /* Create Scroll of Lilitha's Boon (20530) for ContainTreasure */
+     , (23482, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
+     , (23482, 9, 40707,  0, 0, 0, False) /* Create Covenant Breastplate (40707) for ContainTreasure */;

@@ -15,7 +15,7 @@ VALUES (29238,   1,        256) /* ItemType - MissileWeapon */
      , (29238,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29238,  49,         41) /* WeaponTime */
      , (29238,  50,          1) /* AmmoType - Arrow */
-     , (29238,  51,          2) /* CombatUse - Missle */
+     , (29238,  51,          2) /* CombatUse - Missile */
      , (29238,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29238, 105,          9) /* ItemWorkmanship */
      , (29238, 131,         57) /* MaterialType - Brass */

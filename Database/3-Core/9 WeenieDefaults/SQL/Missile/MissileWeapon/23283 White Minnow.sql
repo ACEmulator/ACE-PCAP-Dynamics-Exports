@@ -17,7 +17,7 @@ VALUES (23283,   1,        256) /* ItemType - MissileWeapon */
      , (23283,  45,          2) /* DamageType - Pierce */
      , (23283,  48,         47) /* WeaponSkill - MissileWeapons */
      , (23283,  49,         10) /* WeaponTime */
-     , (23283,  51,          2) /* CombatUse - Missle */
+     , (23283,  51,          2) /* CombatUse - Missile */
      , (23283,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (23283, 151,          2) /* HookType - Wall */
      , (23283, 353,         10) /* WeaponType - Thrown */;

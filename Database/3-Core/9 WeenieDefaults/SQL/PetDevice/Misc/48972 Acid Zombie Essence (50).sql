@@ -17,7 +17,7 @@ VALUES (48972,   1,        128) /* ItemType - Misc */
      , (48972, 105,          7) /* ItemWorkmanship */
      , (48972, 114,          0) /* Attuned - Normal */
      , (48972, 280,        213) /* SharedCooldown */
-     , (48972, 366,         54) /* UseRequiresSkill */
+     , (48972, 366,         54) /* UseRequiresSkill - Summoning */
      , (48972, 367,        310) /* UseRequiresSkillLevel */
      , (48972, 369,         40) /* UseRequiresLevel */
      , (48972, 371,         10) /* GearDamageResist */

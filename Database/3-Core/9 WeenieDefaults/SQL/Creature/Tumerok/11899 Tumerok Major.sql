@@ -66,4 +66,5 @@ VALUES (11899, 2, 11892,  1, 0, 0, False) /* Create Balister of the Quiddity (11
      , (11899, 2, 11907,  1, 0, 0, False) /* Create Mace of the Quiddity (11907) for Wield */
      , (11899, 2,   320,  1, 0, 0, False) /* Create Javelin (320) for Wield */
      , (11899, 2, 11913,  1, 0, 0, False) /* Create Lance of the Quiddity (11913) for Wield */
-     , (11899, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */;
+     , (11899, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield */
+     , (11899, 2,   363,  1, 0, 0, False) /* Create Yumi (363) for Wield */;

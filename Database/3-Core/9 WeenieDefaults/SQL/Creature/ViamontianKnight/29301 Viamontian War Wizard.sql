@@ -268,4 +268,5 @@ VALUES (29301, 2, 30947,  1, 0, 0, False) /* Create Poniard (30947) for Wield */
      , (29301, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
      , (29301, 9, 22425,  0, 0, 0, False) /* Create Tusker Guard Tusk (22425) for ContainTreasure */
      , (29301, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
-     , (29301, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */;
+     , (29301, 9,    37,  0, 0, 0, False) /* Create Scalemail Bracers (37) for ContainTreasure */
+     , (29301, 9,  3764,  0, 0, 0, False) /* Create Flaming Budiaq (3764) for ContainTreasure */;

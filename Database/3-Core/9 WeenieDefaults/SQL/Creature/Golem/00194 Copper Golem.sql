@@ -46,7 +46,8 @@ VALUES (194,   1,    70, 0, 0, 150) /* MaxHealth */
      , (194,   5,   200, 0, 0, 310) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (194, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
+VALUES (194, 2,    91,  1, 0, 0, False) /* Create Kite Shield (91) for Wield */
+     , (194, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (194, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (194, 9,   273, 397, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
      , (194, 9,  2836,  0, 0, 0, False) /* Create Aura of Heartseeker Self VI (2836) for ContainTreasure */
@@ -300,4 +301,5 @@ VALUES (194, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure 
      , (194, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
      , (194, 9, 25637,  0, 0, 0, False) /* Create Leather Bracers (25637) for ContainTreasure */
      , (194, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (194, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */;
+     , (194, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */
+     , (194, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */;

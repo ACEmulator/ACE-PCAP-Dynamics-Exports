@@ -13,7 +13,7 @@ VALUES (149,   1,        256) /* ItemType - MissileWeapon */
      , (149,  45,          4) /* DamageType - Bludgeon */
      , (149,  48,         47) /* WeaponSkill - MissileWeapons */
      , (149,  49,         10) /* WeaponTime */
-     , (149,  51,          2) /* CombatUse - Missle */
+     , (149,  51,          2) /* CombatUse - Missile */
      , (149,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (149, 105,          5) /* ItemWorkmanship */
      , (149, 131,          1) /* MaterialType - Ceramic */

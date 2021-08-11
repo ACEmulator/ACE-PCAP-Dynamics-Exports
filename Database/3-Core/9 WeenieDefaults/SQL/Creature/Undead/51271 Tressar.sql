@@ -14,7 +14,7 @@ VALUES (51271,   1,         16) /* ItemType - Creature */
      , (51271,  95,          8) /* RadarBlipColor - Yellow */
      , (51271, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (51271, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (51271, 281,          2) /* Faction1Bits */
+     , (51271, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (51271, 288,          1) /* SocietyRankEldweb */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

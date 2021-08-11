@@ -157,4 +157,5 @@ VALUES (42670, 9, 49377,  0, 0, 0, False) /* Create Lightning Grievver Essence (
      , (42670, 9,  3817,  0, 0, 0, False) /* Create Frost Kasrullah (3817) for ContainTreasure */
      , (42670, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (42670, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (42670, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */;
+     , (42670, 9,    38,  0, 0, 0, False) /* Create Studded Leather Bracers (38) for ContainTreasure */
+     , (42670, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */;

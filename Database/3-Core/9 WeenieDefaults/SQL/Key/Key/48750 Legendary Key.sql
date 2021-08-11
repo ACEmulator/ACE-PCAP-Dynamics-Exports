@@ -17,7 +17,6 @@ VALUES (48750,   1,      16384) /* ItemType - Key */
      , (48750,  98, 1485737321) /* CreationTimestamp */
      , (48750, 114,          0) /* Attuned - Normal */
      , (48750, 267,      86400) /* Lifespan */
-     , (48750, 268,      86390) /* RemainingLifespan */
      , (48750, 369,        150) /* UseRequiresLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

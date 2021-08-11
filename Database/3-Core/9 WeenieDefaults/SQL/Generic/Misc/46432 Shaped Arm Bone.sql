@@ -12,8 +12,7 @@ VALUES (46432,   1,        128) /* ItemType - Misc */
      , (46432,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46432,  98, 1485732091) /* CreationTimestamp */
      , (46432, 114,          1) /* Attuned - Attuned */
-     , (46432, 267,       7200) /* Lifespan */
-     , (46432, 268,       7180) /* RemainingLifespan */;
+     , (46432, 267,       7200) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (46432,  22, True ) /* Inscribable */

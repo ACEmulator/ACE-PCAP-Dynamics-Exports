@@ -14,7 +14,7 @@ VALUES (163,   1,        256) /* ItemType - MissileWeapon */
      , (163,  45,          4) /* DamageType - Bludgeon */
      , (163,  48,         47) /* WeaponSkill - MissileWeapons */
      , (163,  49,         10) /* WeaponTime */
-     , (163,  51,          2) /* CombatUse - Missle */
+     , (163,  51,          2) /* CombatUse - Missile */
      , (163,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (163, 105,          5) /* ItemWorkmanship */
      , (163, 106,        147) /* ItemSpellcraft */

@@ -18,8 +18,7 @@ VALUES (43209,   1,       2048) /* ItemType - Gem */
      , (43209,  94,         16) /* TargetType - Creature */
      , (43209,  98, 1485672877) /* CreationTimestamp */
      , (43209, 114,          1) /* Attuned - Attuned */
-     , (43209, 267,       3600) /* Lifespan */
-     , (43209, 268,       3578) /* RemainingLifespan */;
+     , (43209, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43209,  22, True ) /* Inscribable */

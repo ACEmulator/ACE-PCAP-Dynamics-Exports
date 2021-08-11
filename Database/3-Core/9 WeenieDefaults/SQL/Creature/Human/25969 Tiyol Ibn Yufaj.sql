@@ -54,6 +54,7 @@ VALUES (25969,   1,   150, 0, 0, 220) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (25969, 2, 23710,  1, 0, 0, False) /* Create Yaoji (23710) for Wield */
+     , (25969, 2, 23707,  1, 0, 0, False) /* Create Fire Tachi (23707) for Wield */
      , (25969, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
      , (25969, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */
      , (25969, 9, 44975,  0, 0, 0, False) /* Create Hood (44975) for ContainTreasure */

@@ -466,16 +466,16 @@ VALUES (0x7BD9F060,  2566, 0xBD9F000D, 47.76583, 96.53005, 40, -0.7264775, 0, 0,
 /* @teleloc 0xBD9F000D [47.765830 96.530050 40.000000] -0.726478 0.000000 0.000000 -0.687190 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F061,  2566, 0xBD9F001D, 88.03992, 108.8262, 25.98004, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+VALUES (0x7BD9F061,  2566, 0xBD9F000D, 47.31104, 106.9977, 40, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+/* @teleloc 0xBD9F000D [47.311040 106.997700 40.000000] -0.726478 0.000000 0.000000 -0.687190 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x7BD9F062,  2566, 0xBD9F001D, 88.03992, 108.8262, 25.98004, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xBD9F001D [88.039920 108.826200 25.980040] -0.726478 0.000000 0.000000 -0.687190 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F062,  2566, 0xBD9F0014, 71.07175, 91.31064, 33.05972, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
+VALUES (0x7BD9F063,  2566, 0xBD9F0014, 71.07175, 91.31064, 33.05972, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
 /* @teleloc 0xBD9F0014 [71.071750 91.310640 33.059720] -0.726478 0.000000 0.000000 -0.687190 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x7BD9F063,  2566, 0xBD9F000D, 47.31104, 106.9977, 40, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */
-/* @teleloc 0xBD9F000D [47.311040 106.997700 40.000000] -0.726478 0.000000 0.000000 -0.687190 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x7BD9F064,  2566, 0xBD9F0013, 69.53132, 68.49581, 28.06628, -0.7264775, 0, 0, -0.6871902,  True, '2019-02-10 00:00:00'); /* Black Rabbit */

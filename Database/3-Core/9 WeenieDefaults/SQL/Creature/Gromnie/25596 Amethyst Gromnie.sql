@@ -146,4 +146,6 @@ VALUES (25596, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wi
      , (25596, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */
      , (25596, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for ContainTreasure */
      , (25596, 9, 49443,  0, 0, 0, False) /* Create Frost Spectre Essence (80) (49443) for ContainTreasure */
-     , (25596, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */;
+     , (25596, 9, 22158,  0, 0, 0, False) /* Create Jo (22158) for ContainTreasure */
+     , (25596, 9, 46884,  0, 0, 0, False) /* Create Aura of Hermetic Link Other VII (46884) for ContainTreasure */
+     , (25596, 9, 31822,  0, 0, 0, False) /* Create Aerbax's Defeat (31822) for ContainTreasure */;

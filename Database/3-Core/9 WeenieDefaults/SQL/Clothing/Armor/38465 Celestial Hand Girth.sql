@@ -55,6 +55,6 @@ VALUES (38465,   1,   33554647) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (38465,  2108,      2)  /* Impenetrability7 */
-     , (38465,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */
+     , (38465,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */
      , (38465,  2614,      2)  /* CANTRIPSLASHINGWARD2 */
      , (38465,  4496,      2)  /* RegenerationSelf8 */;

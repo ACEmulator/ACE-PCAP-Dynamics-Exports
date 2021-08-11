@@ -56,4 +56,6 @@ VALUES (31282, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wiel
      , (31282, 9,  6043,  0, 0, 0, False) /* Create Celdon Girth (6043) for ContainTreasure */
      , (31282, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (31282, 9, 20248,  0, 0, 0, False) /* Create Scroll of Ogfoot (20248) for ContainTreasure */
-     , (31282, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */;
+     , (31282, 9, 31825,  0, 0, 0, False) /* Create Piercing Baton (31825) for ContainTreasure */
+     , (31282, 9, 20245,  0, 0, 0, False) /* Create Scroll of Adja's Intervention (20245) for ContainTreasure */
+     , (31282, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */;

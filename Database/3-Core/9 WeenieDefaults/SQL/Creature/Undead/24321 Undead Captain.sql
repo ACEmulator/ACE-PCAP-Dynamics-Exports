@@ -57,6 +57,7 @@ VALUES (24321, 2, 48018,  1, 0, 0, False) /* Create Acid Ono (48018) for Wield *
      , (24321, 2, 48013,  1, 0, 0, False) /* Create Acid Nekode (48013) for Wield */
      , (24321, 2, 48009,  1, 0, 0, False) /* Create Acid Katar (48009) for Wield */
      , (24321, 2, 48095,  1, 0, 0, False) /* Create Lightning Silifi (48095) for Wield */
+     , (24321, 2, 48011,  1, 0, 0, False) /* Create Lightning Katar (48011) for Wield */
      , (24321, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
      , (24321, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
      , (24321, 9, 28008,  0, 0, 0, False) /* Create Aura of Infected Spirit Caress Scroll (28008) for ContainTreasure */

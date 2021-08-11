@@ -10,8 +10,7 @@ VALUES (53380,   1,      65536) /* ItemType - Portal */
      , (53380,  98, 1485828731) /* CreationTimestamp */
      , (53380, 111,         49) /* PortalBitmask - Unrestricted, NoSummon, NoRecall */
      , (53380, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (53380, 267,         60) /* Lifespan */
-     , (53380, 268,         59) /* RemainingLifespan */;
+     , (53380, 267,         60) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53380,   1, True ) /* Stuck */;

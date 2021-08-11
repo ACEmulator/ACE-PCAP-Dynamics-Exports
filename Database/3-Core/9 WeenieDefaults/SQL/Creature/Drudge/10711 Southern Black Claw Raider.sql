@@ -45,5 +45,6 @@ VALUES (10711, 2, 47386,  1, 0, 0, False) /* Create Flaming Club (47386) for Wie
      , (10711, 2, 47234,  1, 0, 0, False) /* Create Acid Board with Nail (47234) for Wield */
      , (10711, 2, 47367,  1, 0, 0, False) /* Create Lightning Club (47367) for Wield */
      , (10711, 2, 47253,  1, 0, 0, False) /* Create Board with Nail (47253) for Wield */
+     , (10711, 2, 47291,  1, 0, 0, False) /* Create Fire Board with Nail (47291) for Wield */
      , (10711, 9, 40711,  0, 0, 0, False) /* Create Covenant Helm (40711) for ContainTreasure */
      , (10711, 9, 28608,  0, 0, 0, False) /* Create Poet's Shirt (28608) for ContainTreasure */;

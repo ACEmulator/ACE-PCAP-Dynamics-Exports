@@ -95,4 +95,6 @@ VALUES (24278, 2, 47517,  1, 0, 0, False) /* Create Lightning Tachi (47517) for 
      , (24278, 9, 49390,  0, 0, 0, False) /* Create Frost Grievver Essence (125) (49390) for ContainTreasure */
      , (24278, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
      , (24278, 9,    48,  0, 0, 0, False) /* Create Studded Leather Coat (48) for ContainTreasure */
-     , (24278, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */;
+     , (24278, 9, 30948,  0, 0, 0, False) /* Create Diforsa Hauberk (30948) for ContainTreasure */
+     , (24278, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (24278, 9, 42752,  0, 0, 0, False) /* Create Haebrean Greaves (42752) for ContainTreasure */;

@@ -254,4 +254,46 @@ VALUES (11540, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasu
      , (11540, 9, 45314,  0, 0, 0, False) /* Create Scroll of Shield Ineptitude Other VII (45314) for ContainTreasure */
      , (11540, 9,   332,  0, 0, 0, False) /* Create Morning Star (332) for ContainTreasure */
      , (11540, 9, 28946,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VII (28946) for ContainTreasure */
-     , (11540, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */;
+     , (11540, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
+     , (11540, 9, 44851,  0, 0, 0, False) /* Create Chevron Cloak (44851) for ContainTreasure */
+     , (11540, 9,   296,  0, 0, 0, False) /* Create Crown (296) for ContainTreasure */
+     , (11540, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (11540, 9,  2598,  0, 0, 0, False) /* Create Baggy Pants (2598) for ContainTreasure */
+     , (11540, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (11540, 9, 27237,  0, 0, 0, False) /* Create Scroll of Eradicate Life Magic Self (27237) for ContainTreasure */
+     , (11540, 9, 45122,  0, 0, 0, False) /* Create Frost Hand Wraps (45122) for ContainTreasure */
+     , (11540, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
+     , (11540, 9,    96,  0, 0, 0, False) /* Create Chainmail Shirt (96) for ContainTreasure */
+     , (11540, 9,  3067,  0, 0, 0, False) /* Create Scroll of Piercing Protection Other VI (3067) for ContainTreasure */
+     , (11540, 9,  2428,  1, 0, 0, False) /* Create Gem (2428) for ContainTreasure */
+     , (11540, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (11540, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (11540, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (11540, 9, 45396,  0, 0, 0, False) /* Create Short Sword (45396) for ContainTreasure */
+     , (11540, 9,  5955,  0, 0, 0, False) /* Create Scroll of Cooking Mastery Other VI (5955) for ContainTreasure */
+     , (11540, 9,  3592,  0, 0, 0, False) /* Create Scroll of Weapon Tinkering Ignorance VI (3592) for ContainTreasure */
+     , (11540, 9, 49428,  0, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for ContainTreasure */
+     , (11540, 9, 49241,  0, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for ContainTreasure */
+     , (11540, 9, 25645,  0, 0, 0, False) /* Create Leather Leggings (25645) for ContainTreasure */
+     , (11540, 9, 21159,  0, 0, 0, False) /* Create Covenant Tassets (21159) for ContainTreasure */
+     , (11540, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
+     , (11540, 9,  7795,  0, 0, 0, False) /* Create Frost Naginata (7795) for ContainTreasure */
+     , (11540, 9, 20403,  0, 0, 0, False) /* Create Scroll of Olthoi Bait (20403) for ContainTreasure */
+     , (11540, 9, 31868,  0, 0, 0, False) /* Create Signet Crown (31868) for ContainTreasure */
+     , (11540, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
+     , (11540, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
+     , (11540, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
+     , (11540, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
+     , (11540, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (11540, 9, 43334,  0, 0, 0, False) /* Create Scroll of Festering Curse VI (43334) for ContainTreasure */
+     , (11540, 9, 20535,  0, 0, 0, False) /* Create Scroll of Web of Deflection (20535) for ContainTreasure */
+     , (11540, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
+     , (11540, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (11540, 9,  2721,  0, 0, 0, False) /* Create Scroll of Quickness Self VI (2721) for ContainTreasure */
+     , (11540, 9,  2427,  1, 0, 0, False) /* Create Gem (2427) for ContainTreasure */
+     , (11540, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */
+     , (11540, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */
+     , (11540, 9, 41301,  0, 0, 0, False) /* Create Scroll of Two Handed Weapon Mastery Other VI (41301) for ContainTreasure */
+     , (11540, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */
+     , (11540, 9,  2595,  0, 0, 0, False) /* Create Baggy Tunic (2595) for ContainTreasure */
+     , (11540, 9,  2433,  1, 0, 0, False) /* Create Gem (2433) for ContainTreasure */;

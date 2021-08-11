@@ -51,4 +51,5 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (35161, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
      , (35161, 2, 29974,  1, 0, 0, False) /* Create Partizan (29974) for Wield */
      , (35161, 2, 34343,  1, 0, 0, False) /* Create Tachi (34343) for Wield */
-     , (35161, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */;
+     , (35161, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
+     , (35161, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */;

@@ -352,4 +352,8 @@ VALUES (23565, 2, 23686,  1, 0, 0, False) /* Create Kite Shield (23686) for Wiel
      , (23565, 9, 45434,  0, 0, 0, False) /* Create Flaming Khanjar (45434) for ContainTreasure */
      , (23565, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) for ContainTreasure */
      , (23565, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
-     , (23565, 9, 30558,  0, 0, 0, False) /* Create Lightning Hatchet (30558) for ContainTreasure */;
+     , (23565, 9, 30558,  0, 0, 0, False) /* Create Lightning Hatchet (30558) for ContainTreasure */
+     , (23565, 9, 20244,  0, 0, 0, False) /* Create Scroll of Adja's Gift (20244) for ContainTreasure */
+     , (23565, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
+     , (23565, 9,  2461,  1, 0, 0, False) /* Create Mana Elixir (2461) for ContainTreasure */
+     , (23565, 9, 31786,  0, 0, 0, False) /* Create Lightning Claw (31786) for ContainTreasure */;

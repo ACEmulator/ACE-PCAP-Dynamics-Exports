@@ -55,6 +55,7 @@ VALUES (24497, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
      , (24497, 2, 23758,  1, 0, 0, False) /* Create Lugian Mace (23758) for Wield */
      , (24497, 2, 23762,  1, 0, 0, False) /* Create Lugian Morning Star (23762) for Wield */
      , (24497, 2, 23754,  1, 0, 0, False) /* Create Lugian Hammer (23754) for Wield */
+     , (24497, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
      , (24497, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (24497, 9, 31793,  0, 0, 0, False) /* Create Frost Lancet (31793) for ContainTreasure */
      , (24497, 9,   632,  0, 0, 0, False) /* Create Peerless Healing Kit (632) for ContainTreasure */

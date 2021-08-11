@@ -10,8 +10,7 @@ VALUES (52466,   1,        128) /* ItemType - Misc */
      , (52466,  19,          1) /* Value */
      , (52466,  93,         12) /* PhysicsState - Ethereal, ReportCollisions */
      , (52466,  98, 1485668930) /* CreationTimestamp */
-     , (52466, 267,         20) /* Lifespan */
-     , (52466, 268,         18) /* RemainingLifespan */;
+     , (52466, 267,         20) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52466,   1, True ) /* Stuck */

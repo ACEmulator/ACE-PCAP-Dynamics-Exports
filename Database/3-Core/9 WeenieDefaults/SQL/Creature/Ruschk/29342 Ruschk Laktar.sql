@@ -106,4 +106,6 @@ VALUES (29342, 2, 48631,  1, 0, 0, False) /* Create Ice Shard (48631) for Wield 
      , (29342, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */
      , (29342, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
      , (29342, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
-     , (29342, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */;
+     , (29342, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (29342, 9, 20406,  0, 0, 0, False) /* Create Aura of Infected Caress (20406) for ContainTreasure */
+     , (29342, 9, 31812,  0, 0, 0, False) /* Create Slashing Slingshot (31812) for ContainTreasure */;

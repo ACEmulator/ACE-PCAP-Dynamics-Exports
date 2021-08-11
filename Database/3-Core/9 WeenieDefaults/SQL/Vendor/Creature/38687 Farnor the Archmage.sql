@@ -18,7 +18,7 @@ VALUES (38687,   1,         16) /* ItemType - Creature */
      , (38687, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (38687, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (38687, 188,          2) /* HeritageGroup - Gharundim */
-     , (38687, 281,          1) /* Faction1Bits */
+     , (38687, 281,          1) /* Faction1Bits - CelestialHand */
      , (38687, 287,       1001) /* SocietyRankCelhan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

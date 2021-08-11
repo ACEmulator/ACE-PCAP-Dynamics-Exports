@@ -15,7 +15,7 @@ VALUES (29258,   1,        256) /* ItemType - MissileWeapon */
      , (29258,  48,         47) /* WeaponSkill - MissileWeapons */
      , (29258,  49,         22) /* WeaponTime */
      , (29258,  50,          4) /* AmmoType - Atlatl */
-     , (29258,  51,          2) /* CombatUse - Missle */
+     , (29258,  51,          2) /* CombatUse - Missile */
      , (29258,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29258, 105,          7) /* ItemWorkmanship */
      , (29258, 131,         51) /* MaterialType - Ivory */

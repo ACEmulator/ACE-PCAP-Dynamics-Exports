@@ -46,3 +46,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (6640,   1,    50, 0, 0, 190) /* MaxHealth */
      , (6640,   3,   150, 0, 0, 430) /* MaxStamina */
      , (6640,   5,     0, 0, 0, 30) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (6640, 2, 46605,  1, 0, 0, False) /* Create Magari Yari (46605) for Wield */;

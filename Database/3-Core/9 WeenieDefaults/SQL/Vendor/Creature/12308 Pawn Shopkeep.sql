@@ -389,4 +389,208 @@ VALUES (12308, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (12308, 4, 37196, -1, 0, 0, False) /* Create Olthoi Amuli Helm (37196) for Shop */
      , (12308, 4, 27224, -1, 0, 0, False) /* Create Lorica Leggings (27224) for Shop */
      , (12308, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (12308, 4, 49362, -1, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for Shop */;
+     , (12308, 4, 49362, -1, 0, 0, False) /* Create Frost Moar Essence (125) (49362) for Shop */
+     , (12308, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (12308, 4,   107, -1, 0, 0, False) /* Create Sollerets (107) for Shop */
+     , (12308, 4, 27223, -1, 0, 0, False) /* Create Lorica Helm (27223) for Shop */
+     , (12308, 4, 37192, -1, 0, 0, False) /* Create Olthoi Celdon Girth (37192) for Shop */
+     , (12308, 4,  3837, -1, 0, 0, False) /* Create Frost Mace (3837) for Shop */
+     , (12308, 4, 41066, -1, 0, 0, False) /* Create Frost Khanda-handled Mace (41066) for Shop */
+     , (12308, 4, 40764, -1, 0, 0, False) /* Create Frost Nodachi (40764) for Shop */
+     , (12308, 4, 31805, -1, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for Shop */
+     , (12308, 4, 25644, -1, 0, 0, False) /* Create Leather Greaves (25644) for Shop */
+     , (12308, 4, 31800, -1, 0, 0, False) /* Create Blunt Compound Bow (31800) for Shop */
+     , (12308, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
+     , (12308, 4, 25643, -1, 0, 0, False) /* Create Leather Girth (25643) for Shop */
+     , (12308, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (12308, 4, 28620, -1, 0, 0, False) /* Create Alduressa Leggings (28620) for Shop */
+     , (12308, 4,  2424, -1, 0, 0, False) /* Create Gem (2424) for Shop */
+     , (12308, 4, 29249, -1, 0, 0, False) /* Create Frost Crossbow (29249) for Shop */
+     , (12308, 4,  7795, -1, 0, 0, False) /* Create Frost Naginata (7795) for Shop */
+     , (12308, 4, 31864, -1, 0, 0, False) /* Create Teardrop Crown (31864) for Shop */
+     , (12308, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
+     , (12308, 4, 41036, -1, 0, 0, False) /* Create Assagai (41036) for Shop */
+     , (12308, 4, 37190, -1, 0, 0, False) /* Create Olthoi Koujia Gauntlets (37190) for Shop */
+     , (12308, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
+     , (12308, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
+     , (12308, 4, 49371, -1, 0, 0, False) /* Create Acid Grievver Essence (180) (49371) for Shop */
+     , (12308, 4, 21158, -1, 0, 0, False) /* Create Covenant Shield (21158) for Shop */
+     , (12308, 4,  2423, -1, 0, 0, False) /* Create Gem (2423) for Shop */
+     , (12308, 4, 31806, -1, 0, 0, False) /* Create Acid Compound Crossbow (31806) for Shop */
+     , (12308, 4, 28625, -1, 0, 0, False) /* Create Diforsa Sollerets (28625) for Shop */
+     , (12308, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
+     , (12308, 4, 41047, -1, 0, 0, False) /* Create Acid Pike (41047) for Shop */
+     , (12308, 4, 48967, -1, 0, 0, False) /* Create Fire Child Essence (150) (48967) for Shop */
+     , (12308, 4,   124, -1, 0, 0, False) /* Create Jerkin (124) for Shop */
+     , (12308, 4, 30587, -1, 0, 0, False) /* Create Acid Flanged Mace (30587) for Shop */
+     , (12308, 4, 28605, -1, 0, 0, False) /* Create Beret (28605) for Shop */
+     , (12308, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
+     , (12308, 4, 45424, -1, 0, 0, False) /* Create Flaming Dagger (45424) for Shop */
+     , (12308, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (12308, 4, 22167, -1, 0, 0, False) /* Create Frost Quarter Staff (22167) for Shop */
+     , (12308, 4, 31867, -1, 0, 0, False) /* Create Diadem (31867) for Shop */
+     , (12308, 4, 27217, -1, 0, 0, False) /* Create Chiran Helm (27217) for Shop */
+     , (12308, 4,    51, -1, 0, 0, False) /* Create Platemail Cuirass (51) for Shop */
+     , (12308, 4, 29245, -1, 0, 0, False) /* Create Acid Crossbow (29245) for Shop */
+     , (12308, 4,  2593, -1, 0, 0, False) /* Create Loose Tunic (2593) for Shop */
+     , (12308, 4,  3907, -1, 0, 0, False) /* Create Flaming War Hammer (3907) for Shop */
+     , (12308, 4, 49293, -1, 0, 0, False) /* Create Lightning K'nath Essence (150) (49293) for Shop */
+     , (12308, 4, 37219, -1, 0, 0, False) /* Create Energy Crystal (37219) for Shop */
+     , (12308, 4, 31793, -1, 0, 0, False) /* Create Frost Lancet (31793) for Shop */
+     , (12308, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (12308, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
+     , (12308, 4, 25649, -1, 0, 0, False) /* Create Leather Shirt (25649) for Shop */
+     , (12308, 4,  3938, -1, 0, 0, False) /* Create Frost Morning Star (3938) for Shop */
+     , (12308, 4, 43054, -1, 0, 0, False) /* Create Knorr Academy Tassets (43054) for Shop */
+     , (12308, 4,  2601, -1, 0, 0, False) /* Create Loose Pants (2601) for Shop */
+     , (12308, 4, 29241, -1, 0, 0, False) /* Create Fire Bow (29241) for Shop */
+     , (12308, 4, 45119, -1, 0, 0, False) /* Create Acid Hand Wraps (45119) for Shop */
+     , (12308, 4, 43830, -1, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for Shop */
+     , (12308, 4, 49348, -1, 0, 0, False) /* Create Lightning Moar Essence (125) (49348) for Shop */
+     , (12308, 4, 40682, -1, 0, 0, False) /* Create Olthoi Shield (40682) for Shop */
+     , (12308, 4, 45118, -1, 0, 0, False) /* Create Hand Wraps (45118) for Shop */
+     , (12308, 4,   313, -1, 0, 0, False) /* Create Dabus (313) for Shop */
+     , (12308, 4, 37217, -1, 0, 0, False) /* Create Olthoi Alduressa Coat (37217) for Shop */
+     , (12308, 4,  3889, -1, 0, 0, False) /* Create Acid Tachi (3889) for Shop */
+     , (12308, 4, 40822, -1, 0, 0, False) /* Create Frost Corsesca (40822) for Shop */
+     , (12308, 4,   353, -1, 0, 0, False) /* Create Tachi (353) for Shop */
+     , (12308, 4, 25638, -1, 0, 0, False) /* Create Leather Vest (25638) for Shop */
+     , (12308, 4, 37187, -1, 0, 0, False) /* Create Olthoi Alduressa Gauntlets (37187) for Shop */
+     , (12308, 4, 30606, -1, 0, 0, False) /* Create Bastone (30606) for Shop */
+     , (12308, 4, 31786, -1, 0, 0, False) /* Create Lightning Claw (31786) for Shop */
+     , (12308, 4, 37225, -1, 0, 0, False) /* Create Blunt Staff (37225) for Shop */
+     , (12308, 4, 29246, -1, 0, 0, False) /* Create Ultimate Singularity Crossbow (29246) for Shop */
+     , (12308, 4,    75, -1, 0, 0, False) /* Create Helmet (75) for Shop */
+     , (12308, 4, 31807, -1, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for Shop */
+     , (12308, 4, 30582, -1, 0, 0, False) /* Create Lightning Mazule (30582) for Shop */
+     , (12308, 4, 45121, -1, 0, 0, False) /* Create Flaming Hand Wraps (45121) for Shop */
+     , (12308, 4, 30609, -1, 0, 0, False) /* Create Frost Bastone (30609) for Shop */
+     , (12308, 4, 49292, -1, 0, 0, False) /* Create Lightning K'nath Essence (125) (49292) for Shop */
+     , (12308, 4, 21155, -1, 0, 0, False) /* Create Covenant Greaves (21155) for Shop */
+     , (12308, 4, 31775, -1, 0, 0, False) /* Create Acid Board with Nail (31775) for Shop */
+     , (12308, 4, 31818, -1, 0, 0, False) /* Create Piercing Slingshot (31818) for Shop */
+     , (12308, 4, 30950, -1, 0, 0, False) /* Create Alduressa Boots (30950) for Shop */
+     , (12308, 4,  3877, -1, 0, 0, False) /* Create Acid Broad Sword (3877) for Shop */
+     , (12308, 4, 25647, -1, 0, 0, False) /* Create Leather Pants (25647) for Shop */
+     , (12308, 4, 22165, -1, 0, 0, False) /* Create Lightning Quarter Staff (22165) for Shop */
+     , (12308, 4, 40683, -1, 0, 0, False) /* Create Olthoi Sollerets (40683) for Shop */
+     , (12308, 4, 31785, -1, 0, 0, False) /* Create Acid Claw (31785) for Shop */
+     , (12308, 4,  3879, -1, 0, 0, False) /* Create Flaming Broad Sword (3879) for Shop */
+     , (12308, 4,  2600, -1, 0, 0, False) /* Create Pantaloons (2600) for Shop */
+     , (12308, 4,  3868, -1, 0, 0, False) /* Create Frost Silifi (3868) for Shop */
+     , (12308, 4,    57, -1, 0, 0, False) /* Create Platemail Gauntlets (57) for Shop */
+     , (12308, 4, 30614, -1, 0, 0, False) /* Create Frost Knuckles (30614) for Shop */
+     , (12308, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */
+     , (12308, 4, 25650, -1, 0, 0, False) /* Create Leather Shorts (25650) for Shop */
+     , (12308, 4, 27221, -1, 0, 0, False) /* Create Lorica Breastplate (27221) for Shop */
+     , (12308, 4, 40625, -1, 0, 0, False) /* Create Lightning Quadrelle (40625) for Shop */
+     , (12308, 4, 31766, -1, 0, 0, False) /* Create Lightning Lugian Hammer (31766) for Shop */
+     , (12308, 4, 25637, -1, 0, 0, False) /* Create Leather Bracers (25637) for Shop */
+     , (12308, 4, 37224, -1, 0, 0, False) /* Create Acid Staff (37224) for Shop */
+     , (12308, 4, 49536, -1, 0, 0, False) /* Create Fire Phyntos Wasp Essence (180) (49536) for Shop */
+     , (12308, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
+     , (12308, 4,    82, -1, 0, 0, False) /* Create Platemail Leggings (82) for Shop */
+     , (12308, 4, 49217, -1, 0, 0, False) /* Create Acid Skeleton Bushi Essence (150) (49217) for Shop */
+     , (12308, 4,  7787, -1, 0, 0, False) /* Create Frost Spiked Club (7787) for Shop */
+     , (12308, 4, 40707, -1, 0, 0, False) /* Create Covenant Breastplate (40707) for Shop */
+     , (12308, 4, 21157, -1, 0, 0, False) /* Create Covenant Pauldrons (21157) for Shop */
+     , (12308, 4, 43833, -1, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for Shop */
+     , (12308, 4,  3882, -1, 0, 0, False) /* Create Stormwood Sword (3882) for Shop */
+     , (12308, 4,  3845, -1, 0, 0, False) /* Create Frost Ono (3845) for Shop */
+     , (12308, 4,    62, -1, 0, 0, False) /* Create Scalemail Girth (62) for Shop */
+     , (12308, 4,    48, -1, 0, 0, False) /* Create Studded Leather Coat (48) for Shop */
+     , (12308, 4, 30613, -1, 0, 0, False) /* Create Flaming Knuckles (30613) for Shop */
+     , (12308, 4, 31773, -1, 0, 0, False) /* Create Frost Board with Nail (31773) for Shop */
+     , (12308, 4, 30584, -1, 0, 0, False) /* Create Frost Mazule (30584) for Shop */
+     , (12308, 4, 27220, -1, 0, 0, False) /* Create Lorica Boots (27220) for Shop */
+     , (12308, 4,  3857, -1, 0, 0, False) /* Create Acid Shou-ono (3857) for Shop */
+     , (12308, 4,   336, -1, 0, 0, False) /* Create Ono (336) for Shop */
+     , (12308, 4,  2408, -1, 0, 0, False) /* Create Gem (2408) for Shop */
+     , (12308, 4,  3939, -1, 0, 0, False) /* Create Acid Morning Star (3939) for Shop */
+     , (12308, 4, 28634, -1, 0, 0, False) /* Create Diforsa Greaves (28634) for Shop */
+     , (12308, 4, 45402, -1, 0, 0, False) /* Create Acid Simi (45402) for Shop */
+     , (12308, 4,   113, -1, 0, 0, False) /* Create Yoroi Tassets (113) for Shop */
+     , (12308, 4, 40702, -1, 0, 0, False) /* Create Covenant Pauldrons (40702) for Shop */
+     , (12308, 4, 31788, -1, 0, 0, False) /* Create Stick (31788) for Shop */
+     , (12308, 4,  3873, -1, 0, 0, False) /* Create Acid Spear (3873) for Shop */
+     , (12308, 4, 29259, -1, 0, 0, False) /* Create Acid Sceptre (29259) for Shop */
+     , (12308, 4, 40713, -1, 0, 0, False) /* Create Covenant Shield (40713) for Shop */
+     , (12308, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
+     , (12308, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
+     , (12308, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (12308, 4, 27231, -1, 0, 0, False) /* Create Nariyid Leggings (27231) for Shop */
+     , (12308, 4,  2407, -1, 0, 0, False) /* Create Gem (2407) for Shop */
+     , (12308, 4,   332, -1, 0, 0, False) /* Create Morning Star (332) for Shop */
+     , (12308, 4, 43049, -1, 0, 0, False) /* Create Knorr Academy Gauntlets (43049) for Shop */
+     , (12308, 4, 31789, -1, 0, 0, False) /* Create Acid Stick (31789) for Shop */
+     , (12308, 4,    52, -1, 0, 0, False) /* Create Scalemail Cuirass (52) for Shop */
+     , (12308, 4, 49376, -1, 0, 0, False) /* Create Lightning Grievver Essence (125) (49376) for Shop */
+     , (12308, 4, 31762, -1, 0, 0, False) /* Create Flaming Dericost Blade (31762) for Shop */
+     , (12308, 4, 30591, -1, 0, 0, False) /* Create Partizan (30591) for Shop */
+     , (12308, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (12308, 4, 29250, -1, 0, 0, False) /* Create Piercing Crossbow (29250) for Shop */
+     , (12308, 4, 29258, -1, 0, 0, False) /* Create Slashing Atlatl (29258) for Shop */
+     , (12308, 4, 41052, -1, 0, 0, False) /* Create Greataxe (41052) for Shop */
+     , (12308, 4, 41067, -1, 0, 0, False) /* Create Shashqa (41067) for Shop */
+     , (12308, 4, 41038, -1, 0, 0, False) /* Create Lightning Assagai (41038) for Shop */
+     , (12308, 4, 45421, -1, 0, 0, False) /* Create Dagger (45421) for Shop */
+     , (12308, 4, 31813, -1, 0, 0, False) /* Create Acid Slingshot (31813) for Shop */
+     , (12308, 4, 29253, -1, 0, 0, False) /* Create Blunt Atlatl (29253) for Shop */
+     , (12308, 4, 45422, -1, 0, 0, False) /* Create Acid Dagger (45422) for Shop */
+     , (12308, 4, 22159, -1, 0, 0, False) /* Create Acid Nabut (22159) for Shop */
+     , (12308, 4,  2404, -1, 0, 0, False) /* Create Gem (2404) for Shop */
+     , (12308, 4, 49424, -1, 0, 0, False) /* Create Acid Spectre Essence (125) (49424) for Shop */
+     , (12308, 4,    98, -1, 0, 0, False) /* Create Scalemail Shirt (98) for Shop */
+     , (12308, 4, 21150, -1, 0, 0, False) /* Create Covenant Sollerets (21150) for Shop */
+     , (12308, 4, 31778, -1, 0, 0, False) /* Create Frost Spine Glaive (31778) for Shop */
+     , (12308, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
+     , (12308, 4, 37220, -1, 0, 0, False) /* Create Fire Staff (37220) for Shop */
+     , (12308, 4, 31798, -1, 0, 0, False) /* Create Slashing Compound Bow (31798) for Shop */
+     , (12308, 4,  7768, -1, 0, 0, False) /* Create Spiked Club (7768) for Shop */
+     , (12308, 4, 49335, -1, 0, 0, False) /* Create Frost Wisp Essence (150) (49335) for Shop */
+     , (12308, 4,  3874, -1, 0, 0, False) /* Create Lightning Spear (3874) for Shop */
+     , (12308, 4,  4199, -1, 0, 0, False) /* Create Lightning Nekode (4199) for Shop */
+     , (12308, 4, 30593, -1, 0, 0, False) /* Create Lightning Partizan (30593) for Shop */
+     , (12308, 4, 41061, -1, 0, 0, False) /* Create Frost Great Star Mace (41061) for Shop */
+     , (12308, 4,  3777, -1, 0, 0, False) /* Create Frost Dabus (3777) for Shop */
+     , (12308, 4, 42751, -1, 0, 0, False) /* Create Haebrean Girth (42751) for Shop */
+     , (12308, 4, 29243, -1, 0, 0, False) /* Create Piercing Bow (29243) for Shop */
+     , (12308, 4, 37207, -1, 0, 0, False) /* Create Olthoi Alduressa Boots (37207) for Shop */
+     , (12308, 4, 30607, -1, 0, 0, False) /* Create Lightning Bastone (30607) for Shop */
+     , (12308, 4, 40700, -1, 0, 0, False) /* Create Covenant Greaves (40700) for Shop */
+     , (12308, 4, 37202, -1, 0, 0, False) /* Create Olthoi Celdon Leggings (37202) for Shop */
+     , (12308, 4, 40706, -1, 0, 0, False) /* Create Covenant Bracers (40706) for Shop */
+     , (12308, 4,    90, -1, 0, 0, False) /* Create Yoroi Pauldrons (90) for Shop */
+     , (12308, 4, 22440, -1, 0, 0, False) /* Create Dirk (22440) for Shop */
+     , (12308, 4,  3843, -1, 0, 0, False) /* Create Lightning Ono (3843) for Shop */
+     , (12308, 4,  7791, -1, 0, 0, False) /* Create Frost Trident (7791) for Shop */
+     , (12308, 4, 45431, -1, 0, 0, False) /* Create Khanjar (45431) for Shop */
+     , (12308, 4, 42754, -1, 0, 0, False) /* Create Haebrean Pauldrons (42754) for Shop */
+     , (12308, 4, 40637, -1, 0, 0, False) /* Create Lightning Tetsubo (40637) for Shop */
+     , (12308, 4, 49257, -1, 0, 0, False) /* Create Frost Zombie Essence (125) (49257) for Shop */
+     , (12308, 4, 30598, -1, 0, 0, False) /* Create Flaming Poniard (30598) for Shop */
+     , (12308, 4, 31808, -1, 0, 0, False) /* Create Electric Crossbow (31808) for Shop */
+     , (12308, 4, 41063, -1, 0, 0, False) /* Create Acid Khanda-handled Mace (41063) for Shop */
+     , (12308, 4, 31776, -1, 0, 0, False) /* Create Electric Board with Nail (31776) for Shop */
+     , (12308, 4, 41044, -1, 0, 0, False) /* Create Flaming Magari Yari (41044) for Shop */
+     , (12308, 4, 40701, -1, 0, 0, False) /* Create Covenant Helm (40701) for Shop */
+     , (12308, 4, 45395, -1, 0, 0, False) /* Create Rapier (45395) for Shop */
+     , (12308, 4, 31771, -1, 0, 0, False) /* Create Lightning War Axe (31771) for Shop */
+     , (12308, 4, 27226, -1, 0, 0, False) /* Create Nariyid Boots (27226) for Shop */
+     , (12308, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (12308, 4, 49237, -1, 0, 0, False) /* Create Acid Zombie Essence (150) (49237) for Shop */
+     , (12308, 4, 45410, -1, 0, 0, False) /* Create Frost Yaoji (45410) for Shop */
+     , (12308, 4, 37216, -1, 0, 0, False) /* Create Olthoi Breastplate (37216) for Shop */
+     , (12308, 4,  3821, -1, 0, 0, False) /* Create Frost Katar (3821) for Shop */
+     , (12308, 4,  3824, -1, 0, 0, False) /* Create Flaming Ken (3824) for Shop */
+     , (12308, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */
+     , (12308, 4, 40699, -1, 0, 0, False) /* Create Covenant Girth (40699) for Shop */
+     , (12308, 4, 49243, -1, 0, 0, False) /* Create Lightning Zombie Essence (125) (49243) for Shop */
+     , (12308, 4, 29247, -1, 0, 0, False) /* Create Electric Crossbow (29247) for Shop */
+     , (12308, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
+     , (12308, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */
+     , (12308, 4, 43831, -1, 0, 0, False) /* Create Sedgemail Leather Pants (43831) for Shop */
+     , (12308, 4, 41042, -1, 0, 0, False) /* Create Acid Magari Yari (41042) for Shop */
+     , (12308, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
+     , (12308, 4, 29256, -1, 0, 0, False) /* Create Frost Atlatl (29256) for Shop */
+     , (12308, 4, 42750, -1, 0, 0, False) /* Create Haebrean Gauntlets (42750) for Shop */;

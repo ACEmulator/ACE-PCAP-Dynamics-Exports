@@ -13,7 +13,7 @@ VALUES (31034,   1,        256) /* ItemType - MissileWeapon */
      , (31034,  15,          1) /* StackUnitValue */
      , (31034,  16,          1) /* ItemUseable - No */
      , (31034,  19,          1) /* Value */
-     , (31034,  51,          2) /* CombatUse - Missle */
+     , (31034,  51,          2) /* CombatUse - Missile */
      , (31034,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

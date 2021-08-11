@@ -11,7 +11,7 @@ VALUES (7999,   1,        256) /* ItemType - MissileWeapon */
      , (7999,  18,          1) /* UiEffects - Magical */
      , (7999,  19,       1000) /* Value */
      , (7999,  50,          8) /* AmmoType - ArrowCrystal */
-     , (7999,  51,          2) /* CombatUse - Missle */
+     , (7999,  51,          2) /* CombatUse - Missile */
      , (7999,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

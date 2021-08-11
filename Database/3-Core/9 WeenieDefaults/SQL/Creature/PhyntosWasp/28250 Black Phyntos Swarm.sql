@@ -270,4 +270,8 @@ VALUES (28250, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wi
      , (28250, 9,  2397,  1, 0, 0, False) /* Create Gem (2397) for ContainTreasure */
      , (28250, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
      , (28250, 9,  2590,  0, 0, 0, False) /* Create Baggy Shirt (2590) for ContainTreasure */
-     , (28250, 9, 22443,  0, 0, 0, False) /* Create Flaming Dirk (22443) for ContainTreasure */;
+     , (28250, 9, 22443,  0, 0, 0, False) /* Create Flaming Dirk (22443) for ContainTreasure */
+     , (28250, 9, 20523,  0, 0, 0, False) /* Create Scroll of Ketnan's Boon (20523) for ContainTreasure */
+     , (28250, 9, 25636,  0, 0, 0, False) /* Create Leather Helm (25636) for ContainTreasure */
+     , (28250, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (28250, 9, 20606,  0, 0, 0, False) /* Create Scroll of Self Sacrifice (20606) for ContainTreasure */;

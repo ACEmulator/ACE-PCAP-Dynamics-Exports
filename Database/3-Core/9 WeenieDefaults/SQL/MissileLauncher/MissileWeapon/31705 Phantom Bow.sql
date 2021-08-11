@@ -10,7 +10,7 @@ VALUES (31705,   1,        256) /* ItemType - MissileWeapon */
      , (31705,  16,          1) /* ItemUseable - No */
      , (31705,  19,       4000) /* Value */
      , (31705,  50,         64) /* AmmoType - ArrowChorizite */
-     , (31705,  51,          2) /* CombatUse - Missle */
+     , (31705,  51,          2) /* CombatUse - Missile */
      , (31705,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (31705, 151,          2) /* HookType - Wall */;
 

@@ -18,7 +18,7 @@ VALUES (2368,   1,        256) /* ItemType - MissileWeapon */
      , (2368,  45,          4) /* DamageType - Bludgeon */
      , (2368,  48,         47) /* WeaponSkill - MissileWeapons */
      , (2368,  49,         20) /* WeaponTime */
-     , (2368,  51,          2) /* CombatUse - Missle */
+     , (2368,  51,          2) /* CombatUse - Missile */
      , (2368,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (2368, 307,          5) /* DamageRating */
      , (2368, 313,          0) /* CritRating */

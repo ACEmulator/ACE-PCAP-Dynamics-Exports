@@ -11,7 +11,7 @@ VALUES (6965,   1,        256) /* ItemType - MissileWeapon */
      , (6965,  18,          1) /* UiEffects - Magical */
      , (6965,  19,        400) /* Value */
      , (6965,  50,          1) /* AmmoType - Arrow */
-     , (6965,  51,          2) /* CombatUse - Missle */
+     , (6965,  51,          2) /* CombatUse - Missile */
      , (6965,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (6965, 151,          2) /* HookType - Wall */;
 

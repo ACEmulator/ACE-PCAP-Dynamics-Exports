@@ -532,4 +532,29 @@ VALUES (30647, 2, 47276,  1, 0, 0, False) /* Create Electric Board with Nail (47
      , (30647, 9, 34015,  0, 0, 0, False) /* Create Golden Shuriken of Tanada (34015) for ContainTreasure */
      , (30647, 9,  2470,  1, 0, 0, False) /* Create Stamina Elixir (2470) for ContainTreasure */
      , (30647, 9,   113,  0, 0, 0, False) /* Create Yoroi Tassets (113) for ContainTreasure */
-     , (30647, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */;
+     , (30647, 9, 49263,  0, 0, 0, False) /* Create Acid Elemental Essence (100) (49263) for ContainTreasure */
+     , (30647, 9, 20249,  0, 0, 0, False) /* Create Scroll of Hastening (20249) for ContainTreasure */
+     , (30647, 9, 28627,  0, 0, 0, False) /* Create Diforsa Bracers (28627) for ContainTreasure */
+     , (30647, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
+     , (30647, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
+     , (30647, 9, 28621,  0, 0, 0, False) /* Create Diforsa Leggings (28621) for ContainTreasure */
+     , (30647, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (30647, 9, 40760,  0, 0, 0, False) /* Create Nodachi (40760) for ContainTreasure */
+     , (30647, 9, 44976,  0, 0, 0, False) /* Create Hood (44976) for ContainTreasure */
+     , (30647, 9, 43316,  0, 0, 0, False) /* Create Scroll of Nether Streak VII (43316) for ContainTreasure */
+     , (30647, 9, 30610,  0, 0, 0, False) /* Create Acid Bastone (30610) for ContainTreasure */
+     , (30647, 9, 20424,  0, 0, 0, False) /* Create Scroll of Archer Bait (20424) for ContainTreasure */
+     , (30647, 9,  3882,  0, 0, 0, False) /* Create Stormwood Sword (3882) for ContainTreasure */
+     , (30647, 9,  6005,  0, 0, 0, False) /* Create Koujia Sleeves (6005) for ContainTreasure */
+     , (30647, 9, 29265,  0, 0, 0, False) /* Create Winter Orb (29265) for ContainTreasure */
+     , (30647, 9,  2421,  1, 0, 0, False) /* Create Gem (2421) for ContainTreasure */
+     , (30647, 9, 41058,  0, 0, 0, False) /* Create Acid Great Star Mace (41058) for ContainTreasure */
+     , (30647, 9, 40619,  0, 0, 0, False) /* Create Acid Spadone (40619) for ContainTreasure */
+     , (30647, 9,  7788,  0, 0, 0, False) /* Create Fire Spiked Club (7788) for ContainTreasure */
+     , (30647, 9, 22167,  0, 0, 0, False) /* Create Frost Quarter Staff (22167) for ContainTreasure */
+     , (30647, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
+     , (30647, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (30647, 9, 30566,  0, 0, 0, False) /* Create Sabra (30566) for ContainTreasure */
+     , (30647, 9,   340,  0, 0, 0, False) /* Create Shamshir (340) for ContainTreasure */
+     , (30647, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
+     , (30647, 9, 41041,  0, 0, 0, False) /* Create Magari Yari (41041) for ContainTreasure */;

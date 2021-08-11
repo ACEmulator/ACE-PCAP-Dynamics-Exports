@@ -16,7 +16,7 @@ VALUES (46059,   1,        256) /* ItemType - MissileWeapon */
      , (46059,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46059,  49,          0) /* WeaponTime */
      , (46059,  50,          1) /* AmmoType - Arrow */
-     , (46059,  51,          2) /* CombatUse - Missle */
+     , (46059,  51,          2) /* CombatUse - Missile */
      , (46059,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46059, 106,        300) /* ItemSpellcraft */
      , (46059, 107,          4) /* ItemCurMana */
@@ -67,4 +67,4 @@ VALUES (46059,  2087,      2)  /* StrengthSelf7 */
      , (46059,  2101,      2)  /* DefenderSelf7 */
      , (46059,  2116,      2)  /* SwiftKillerSelf7 */
      , (46059,  2157,      2)  /* FireProtectionSelf7 */
-     , (46059,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
+     , (46059,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;

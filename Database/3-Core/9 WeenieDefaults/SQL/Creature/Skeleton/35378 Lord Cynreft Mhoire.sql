@@ -71,4 +71,14 @@ VALUES (35378, 2, 35394,  1, 0, 0, False) /* Create BloodScorch (35394) for Wiel
      , (35378, 9, 20417,  0, 0, 0, False) /* Create Scroll of Cabalastic Ostracism (20417) for ContainTreasure */
      , (35378, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (35378, 9, 20585,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Other VII (20585) for ContainTreasure */
-     , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */;
+     , (35378, 9, 31779,  0, 0, 0, False) /* Create Spine Glaive (31779) for ContainTreasure */
+     , (35378, 9, 49257,  0, 0, 0, False) /* Create Frost Zombie Essence (125) (49257) for ContainTreasure */
+     , (35378, 9, 22163,  0, 0, 0, False) /* Create Nabut (22163) for ContainTreasure */
+     , (35378, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
+     , (35378, 9,   351,  0, 0, 0, False) /* Create Long Sword (351) for ContainTreasure */
+     , (35378, 9, 44803,  0, 0, 0, False) /* Create Empyrean Over-robe (44803) for ContainTreasure */
+     , (35378, 9, 45432,  0, 0, 0, False) /* Create Acid Khanjar (45432) for ContainTreasure */
+     , (35378, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
+     , (35378, 9, 31807,  0, 0, 0, False) /* Create Blunt Compound Crossbow (31807) for ContainTreasure */
+     , (35378, 9,  6047,  0, 0, 0, False) /* Create Amuli Leggings (6047) for ContainTreasure */
+     , (35378, 9, 31026,  0, 0, 0, False) /* Create Tenassa Breastplate (31026) for ContainTreasure */;

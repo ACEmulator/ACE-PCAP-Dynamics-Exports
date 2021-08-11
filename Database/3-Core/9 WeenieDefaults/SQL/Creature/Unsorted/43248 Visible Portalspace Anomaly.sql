@@ -9,19 +9,7 @@ VALUES (43248,   1,         16) /* ItemType - Creature */
      , (43248,   7,         -1) /* ContainersCapacity */
      , (43248,  16,          1) /* ItemUseable - No */
      , (43248,  93,    2100236) /* PhysicsState - Ethereal, ReportCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment */
-     , (43248, 133,          1) /* ShowableOnRadar - ShowNever */
-     , (43248, 307,          0) /* DamageRating */
-     , (43248, 308,          0) /* DamageResistRating */
-     , (43248, 313,          0) /* CritRating */
-     , (43248, 314,          0) /* CritDamageRating */
-     , (43248, 315,          0) /* CritResistRating */
-     , (43248, 316,          0) /* CritDamageResistRating */
-     , (43248, 381,          0) /* PKDamageRating */
-     , (43248, 382,          0) /* PKDamageResistRating */
-     , (43248, 386,          0) /* Overpower */
-     , (43248, 387,          0) /* OverpowerResist */
-     , (43248, 388,          0) /* GearOverpower */
-     , (43248, 389,          0) /* GearOverpowerResist */;
+     , (43248, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (43248,   1, True ) /* Stuck */

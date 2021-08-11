@@ -9,31 +9,7 @@ VALUES (44908,   1,         16) /* ItemType - Creature */
      , (44908,   7,         -1) /* ContainersCapacity */
      , (44908,  16,         32) /* ItemUseable - Remote */
      , (44908,  93,    6292504) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (44908,  95,          3) /* RadarBlipColor - White */
-     , (44908, 307,          0) /* DamageRating */
-     , (44908, 308,          0) /* DamageResistRating */
-     , (44908, 313,          0) /* CritRating */
-     , (44908, 314,          0) /* CritDamageRating */
-     , (44908, 315,          0) /* CritResistRating */
-     , (44908, 316,          0) /* CritDamageResistRating */
-     , (44908, 370,          0) /* GearDamage */
-     , (44908, 371,          0) /* GearDamageResist */
-     , (44908, 372,          0) /* GearCrit */
-     , (44908, 373,          0) /* GearCritResist */
-     , (44908, 374,          0) /* GearCritDamage */
-     , (44908, 375,          0) /* GearCritDamageResist */
-     , (44908, 376,          0) /* GearHealingBoost */
-     , (44908, 377,          0) /* GearNetherResist */
-     , (44908, 378,          0) /* GearLifeResist */
-     , (44908, 379,          0) /* GearMaxHealth */
-     , (44908, 381,          0) /* PKDamageRating */
-     , (44908, 382,          0) /* PKDamageResistRating */
-     , (44908, 383,          0) /* GearPKDamageRating */
-     , (44908, 384,          0) /* GearPKDamageResistRating */
-     , (44908, 386,          0) /* Overpower */
-     , (44908, 387,          0) /* OverpowerResist */
-     , (44908, 388,          0) /* GearOverpower */
-     , (44908, 389,          0) /* GearOverpowerResist */;
+     , (44908,  95,          3) /* RadarBlipColor - White */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (44908,   1, True ) /* Stuck */
@@ -56,3 +32,6 @@ VALUES (44908,   1,   33555352) /* Setup */
 INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`)
 VALUES (44908, 8040, 3600351239, 6.109, 164.795, 374, -4.37114E-08, 0, 0, -1) /* PCAPRecordedLocation */
 /* @teleloc 0xD6990007 [6.109000 164.795000 374.000000] 0.000000 0.000000 0.000000 -1.000000 */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (44908, 2, 47343,  1, 0, 0, False) /* Create Club (47343) for Wield */;

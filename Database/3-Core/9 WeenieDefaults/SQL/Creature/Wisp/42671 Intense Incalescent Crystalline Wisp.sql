@@ -172,4 +172,7 @@ VALUES (42671, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for 
      , (42671, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
      , (42671, 9, 45397,  0, 0, 0, False) /* Create Acid Short Sword (45397) for ContainTreasure */
      , (42671, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
-     , (42671, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */;
+     , (42671, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (42671, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
+     , (42671, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (42671, 9, 45118,  0, 0, 0, False) /* Create Hand Wraps (45118) for ContainTreasure */;

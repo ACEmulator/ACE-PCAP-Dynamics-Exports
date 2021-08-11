@@ -290,4 +290,6 @@ VALUES (7332, 2, 47478,  1, 0, 0, False) /* Create Flaming Mace (47478) for Wiel
      , (7332, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */
      , (7332, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (7332, 9, 10804,  1, 0, 0, False) /* Create Obsidian Shard (10804) for ContainTreasure */
-     , (7332, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */;
+     , (7332, 9,  6876,  0, 0, 0, False) /* Create Sturdy Iron Key (6876) for ContainTreasure */
+     , (7332, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (7332, 9,   168,  0, 0, 0, False) /* Create Tankard (168) for ContainTreasure */;

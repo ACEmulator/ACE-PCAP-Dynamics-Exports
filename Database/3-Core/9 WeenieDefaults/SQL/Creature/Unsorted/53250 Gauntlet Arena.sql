@@ -10,31 +10,7 @@ VALUES (53250,   1,         16) /* ItemType - Creature */
      , (53250,  16,         32) /* ItemUseable - Remote */
      , (53250,  93,    6294552) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, LightingOn, ReportCollisionsAsEnvironment, EdgeSlide */
      , (53250,  95,          4) /* RadarBlipColor - Purple */
-     , (53250, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (53250, 307,          0) /* DamageRating */
-     , (53250, 308,          0) /* DamageResistRating */
-     , (53250, 313,          0) /* CritRating */
-     , (53250, 314,          0) /* CritDamageRating */
-     , (53250, 315,          0) /* CritResistRating */
-     , (53250, 316,          0) /* CritDamageResistRating */
-     , (53250, 370,          0) /* GearDamage */
-     , (53250, 371,          0) /* GearDamageResist */
-     , (53250, 372,          0) /* GearCrit */
-     , (53250, 373,          0) /* GearCritResist */
-     , (53250, 374,          0) /* GearCritDamage */
-     , (53250, 375,          0) /* GearCritDamageResist */
-     , (53250, 376,          0) /* GearHealingBoost */
-     , (53250, 377,          0) /* GearNetherResist */
-     , (53250, 378,          0) /* GearLifeResist */
-     , (53250, 379,          0) /* GearMaxHealth */
-     , (53250, 381,          0) /* PKDamageRating */
-     , (53250, 382,          0) /* PKDamageResistRating */
-     , (53250, 383,          0) /* GearPKDamageRating */
-     , (53250, 384,          0) /* GearPKDamageResistRating */
-     , (53250, 386,          0) /* Overpower */
-     , (53250, 387,          0) /* OverpowerResist */
-     , (53250, 388,          0) /* GearOverpower */
-     , (53250, 389,          0) /* GearOverpowerResist */;
+     , (53250, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (53250,   1, True ) /* Stuck */

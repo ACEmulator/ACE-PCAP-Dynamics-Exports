@@ -16,7 +16,7 @@ VALUES (48886,   1,        128) /* ItemType - Misc */
      , (48886,  94,         16) /* TargetType - Creature */
      , (48886, 114,          0) /* Attuned - Normal */
      , (48886, 280,        213) /* SharedCooldown */
-     , (48886, 366,         54) /* UseRequiresSkill */
+     , (48886, 366,         54) /* UseRequiresSkill - Summoning */
      , (48886, 367,         50) /* UseRequiresSkillLevel */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)

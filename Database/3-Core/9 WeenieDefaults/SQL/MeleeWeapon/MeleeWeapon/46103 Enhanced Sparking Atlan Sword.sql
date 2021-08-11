@@ -63,5 +63,5 @@ VALUES (46103,  2061,      2)  /* EnduranceSelf7 */
      , (46103,  2106,      2)  /* HeartSeekerSelf7 */
      , (46103,  2116,      2)  /* SwiftKillerSelf7 */
      , (46103,  2159,      2)  /* LightningProtectionSelf7 */
-     , (46103,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (46103,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (46103,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;

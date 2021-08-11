@@ -9,7 +9,7 @@ VALUES (251,   1,        256) /* ItemType - MissileWeapon */
      , (251,   9,    4194304) /* ValidLocations - MissileWeapon */
      , (251,  16,          1) /* ItemUseable - No */
      , (251,  19,        100) /* Value */
-     , (251,  51,          2) /* CombatUse - Missle */
+     , (251,  51,          2) /* CombatUse - Missile */
      , (251,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (251, 151,          2) /* HookType - Wall */;
 

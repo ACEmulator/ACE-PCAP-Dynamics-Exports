@@ -515,4 +515,7 @@ VALUES (29343, 2, 30006,  1, 0, 0, False) /* Create Frozen Dagger (30006) for Wi
      , (29343, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
      , (29343, 9, 20489,  0, 0, 0, False) /* Create Scroll of Battlemage's Boon (20489) for ContainTreasure */
      , (29343, 9, 44802,  0, 0, 0, False) /* Create Vestiri Over-robe (44802) for ContainTreasure */
-     , (29343, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */;
+     , (29343, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (29343, 9, 20503,  0, 0, 0, False) /* Create Scroll of Jibril's Vitae (20503) for ContainTreasure */
+     , (29343, 9,  2437,  0, 0, 0, False) /* Create Yoroi Leggings (2437) for ContainTreasure */
+     , (29343, 9, 30580,  0, 0, 0, False) /* Create Lightning Flamberge (30580) for ContainTreasure */;

@@ -19,7 +19,7 @@ VALUES (22542,   1,        256) /* ItemType - MissileWeapon */
      , (22542,  45,         16) /* DamageType - Fire */
      , (22542,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22542,  49,         10) /* WeaponTime */
-     , (22542,  51,          2) /* CombatUse - Missle */
+     , (22542,  51,          2) /* CombatUse - Missile */
      , (22542,  93,     132936) /* PhysicsState - ReportCollisions, Missile, AlignPath, PathClipped, Gravity, Inelastic */
      , (22542, 307,          5) /* DamageRating */
      , (22542, 313,          0) /* CritRating */

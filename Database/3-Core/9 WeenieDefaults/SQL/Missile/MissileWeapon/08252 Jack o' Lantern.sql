@@ -13,7 +13,7 @@ VALUES (8252,   1,        256) /* ItemType - MissileWeapon */
      , (8252,  15,         40) /* StackUnitValue */
      , (8252,  16,          1) /* ItemUseable - No */
      , (8252,  19,         40) /* Value */
-     , (8252,  51,          2) /* CombatUse - Missle */
+     , (8252,  51,          2) /* CombatUse - Missile */
      , (8252,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8252, 151,         11) /* HookType - Floor, Wall, Yard */;
 

@@ -111,7 +111,20 @@ VALUES (0x75A4A001, 0x75A4A002, '2019-02-10 00:00:00') /* Silver Tusker (7184) *
      , (0x75A4A001, 0x75A4A065, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
      , (0x75A4A001, 0x75A4A066, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
      , (0x75A4A001, 0x75A4A067, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
-     , (0x75A4A001, 0x75A4A068, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
+     , (0x75A4A001, 0x75A4A068, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75A4A001, 0x75A4A069, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75A4A001, 0x75A4A06A, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75A4A001, 0x75A4A06B, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75A4A001, 0x75A4A06C, '2019-02-10 00:00:00') /* Silver Tusker (22603) */
+     , (0x75A4A001, 0x75A4A06D, '2019-02-10 00:00:00') /* Silver Tusker (22603) */
+     , (0x75A4A001, 0x75A4A06E, '2019-02-10 00:00:00') /* Silver Tusker (22603) */
+     , (0x75A4A001, 0x75A4A06F, '2019-02-10 00:00:00') /* Silver Tusker (22602) */
+     , (0x75A4A001, 0x75A4A070, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75A4A001, 0x75A4A071, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75A4A001, 0x75A4A072, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75A4A001, 0x75A4A073, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75A4A001, 0x75A4A074, '2019-02-10 00:00:00') /* Silver Tusker (7184) */
+     , (0x75A4A001, 0x75A4A075, '2019-02-10 00:00:00') /* Silver Tusker (7184) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A4A002,  7184, 0x5A4A0251, 100, -160, -5.9868, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
@@ -524,3 +537,55 @@ VALUES (0x75A4A067,  7184, 0x5A4A0116, 102.311, -13.8866, -65.9868, 0.5426779, 0
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x75A4A068,  7184, 0x5A4A0141, 100.103, -3.12877, -59.9868, 0.00285796, 0, 0, -0.9999959,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
 /* @teleloc 0x5A4A0141 [100.103000 -3.128770 -59.986800] 0.002858 0.000000 0.000000 -0.999996 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A069, 22602, 0x5A4A01C9, 47.85029, -98.70223, -23.9868, -0.6634656, 0, 0, -0.7482068,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A01C9 [47.850290 -98.702230 -23.986800] -0.663466 0.000000 0.000000 -0.748207 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A06A, 22602, 0x5A4A01C8, 51.65533, -93.68345, -23.9868, 0.4412979, 0, 0, 0.8973607,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A01C8 [51.655330 -93.683450 -23.986800] 0.441298 0.000000 0.000000 0.897361 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A06B, 22602, 0x5A4A01CF, 67.5321, -89.24132, -23.9868, -0.6989867, 0, 0, -0.7151347,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A01CF [67.532100 -89.241320 -23.986800] -0.698987 0.000000 0.000000 -0.715135 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A06C, 22603, 0x5A4A019E, 104.7374, -103.7562, -41.9868, 0.172161, 0, 0, -0.9850689,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A019E [104.737400 -103.756200 -41.986800] 0.172161 0.000000 0.000000 -0.985069 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A06D, 22603, 0x5A4A019D, 100.5999, -85.6337, -42.16653, 0.436987, 0, 0, -0.8994678,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A019D [100.599900 -85.633700 -42.166530] 0.436987 0.000000 0.000000 -0.899468 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A06E, 22603, 0x5A4A019D, 95.60533, -87.10519, -42.14318, 0.697661, 0, 0, -0.716428,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A019D [95.605330 -87.105190 -42.143180] 0.697661 0.000000 0.000000 -0.716428 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A06F, 22602, 0x5A4A019C, 96.9919, -77.83003, -41.9868, -0.9210615, 0, 0, -0.3894172,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A019C [96.991900 -77.830030 -41.986800] -0.921062 0.000000 0.000000 -0.389417 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A070,  7184, 0x5A4A019C, 102.891, -84.9269, -41.9868, -0.006107292, 0, 0, 0.9999813,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A019C [102.891000 -84.926900 -41.986800] -0.006107 0.000000 0.000000 0.999981 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A071,  7184, 0x5A4A0183, 113.8022, -97.37614, -53.9868, 0.9694454, 0, 0, 0.2453072,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A0183 [113.802200 -97.376140 -53.986800] 0.969445 0.000000 0.000000 0.245307 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A072,  7184, 0x5A4A0182, 113.804, -88.58031, -53.9868, 0.9633182, 0, 0, -0.2683616,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A0182 [113.804000 -88.580310 -53.986800] 0.963318 0.000000 0.000000 -0.268362 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A073,  7184, 0x5A4A0171, 87.38194, -100.2454, -53.9868, -0.847522, 0, 0, -0.5307603,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A0171 [87.381940 -100.245400 -53.986800] -0.847522 0.000000 0.000000 -0.530760 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A074,  7184, 0x5A4A0170, 86.29619, -86.04804, -53.9868, -0.7553626, 0, 0, -0.6553071,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A0170 [86.296190 -86.048040 -53.986800] -0.755363 0.000000 0.000000 -0.655307 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x75A4A075,  7184, 0x5A4A016F, 94.52345, -77.66889, -53.9868, -0.8100425, 0, 0, -0.5863711,  True, '2019-02-10 00:00:00'); /* Silver Tusker */
+/* @teleloc 0x5A4A016F [94.523450 -77.668890 -53.986800] -0.810043 0.000000 0.000000 -0.586371 */

@@ -47,7 +47,8 @@ VALUES (2580,   1,    10, 0, 0, 65) /* MaxHealth */
      , (2580,   5,     0, 0, 0, 50) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (2580, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
+VALUES (2580, 2, 47539,  1, 0, 0, False) /* Create Javelin (47539) for Wield */
+     , (2580, 9, 49359,  0, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for ContainTreasure */
      , (2580, 9,  1719,  0, 0, 0, False) /* Create Scroll of Lockpick Ineptitude (1719) for ContainTreasure */
      , (2580, 9,  3568,  0, 0, 0, False) /* Create Scroll of War Magic Mastery Other II (3568) for ContainTreasure */
      , (2580, 9, 49373,  0, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for ContainTreasure */

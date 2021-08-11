@@ -84,4 +84,8 @@ VALUES (25854, 9, 28607,  0, 0, 0, False) /* Create Lace Shirt (28607) for Conta
      , (25854, 9, 43830,  0, 0, 0, False) /* Create Sedgemail Leather Gauntlets (43830) for ContainTreasure */
      , (25854, 9,  2596,  0, 0, 0, False) /* Create Doublet (2596) for ContainTreasure */
      , (25854, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (25854, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */;
+     , (25854, 9,  6004,  0, 0, 0, False) /* Create Koujia Leggings (6004) for ContainTreasure */
+     , (25854, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+     , (25854, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */
+     , (25854, 9,  2410,  1, 0, 0, False) /* Create Gem (2410) for ContainTreasure */
+     , (25854, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */;

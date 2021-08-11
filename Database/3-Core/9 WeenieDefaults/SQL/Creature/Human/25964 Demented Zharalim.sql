@@ -374,4 +374,8 @@ VALUES (25964, 2, 22781,  1, 0, 0, False) /* Create Jambiya (22781) for Wield */
      , (25964, 9, 20468,  0, 0, 0, False) /* Create Scroll of Boon of the Blade Turner (20468) for ContainTreasure */
      , (25964, 9, 28945,  0, 0, 0, False) /* Create Scroll of Arcanum Enlightenment VI (28945) for ContainTreasure */
      , (25964, 9,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for ContainTreasure */
-     , (25964, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;
+     , (25964, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */
+     , (25964, 9,  3582,  0, 0, 0, False) /* Create Scroll of Weapon Tinkering Expertise Other VI (3582) for ContainTreasure */
+     , (25964, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
+     , (25964, 9,  3297,  0, 0, 0, False) /* Create Scroll of Invulnerability Other VI (3297) for ContainTreasure */
+     , (25964, 9, 43342,  0, 0, 0, False) /* Create Scroll of Weakening Curse V (43342) for ContainTreasure */;

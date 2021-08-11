@@ -15,7 +15,7 @@ VALUES (31804,   1,        256) /* ItemType - MissileWeapon */
      , (31804,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31804,  49,         35) /* WeaponTime */
      , (31804,  50,          1) /* AmmoType - Arrow */
-     , (31804,  51,          2) /* CombatUse - Missle */
+     , (31804,  51,          2) /* CombatUse - Missile */
      , (31804,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31804, 105,          6) /* ItemWorkmanship */
      , (31804, 131,         60) /* MaterialType - Gold */

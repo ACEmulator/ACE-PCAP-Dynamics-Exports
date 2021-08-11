@@ -24,8 +24,7 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478, 160,        160) /* WieldDifficulty */
      , (37478, 166,         77) /* SlayerCreatureType - Ghost */
      , (37478, 263,          2) /* ResistanceModifierType */
-     , (37478, 267,     259200) /* Lifespan */
-     , (37478, 268,     258852) /* RemainingLifespan */;
+     , (37478, 267,     259200) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (37478,  22, True ) /* Inscribable */

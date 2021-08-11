@@ -173,4 +173,7 @@ VALUES (6535, 2, 47859,  1, 0, 0, False) /* Create Acid Katar (47859) for Wield 
      , (6535, 9,    44,  0, 0, 0, False) /* Create Buckler (44) for ContainTreasure */
      , (6535, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
      , (6535, 9,  8921,  0, 0, 0, False) /* Create Scroll of Flame Streak II (8921) for ContainTreasure */
-     , (6535, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */;
+     , (6535, 9,   377,  1, 0, 0, False) /* Create Potion of Healing (377) for ContainTreasure */
+     , (6535, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
+     , (6535, 9,   108,  0, 0, 0, False) /* Create Chainmail Tassets (108) for ContainTreasure */
+     , (6535, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;

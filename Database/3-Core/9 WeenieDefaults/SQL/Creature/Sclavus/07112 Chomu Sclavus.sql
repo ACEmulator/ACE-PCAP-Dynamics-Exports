@@ -73,6 +73,7 @@ VALUES (7112, 2, 47642,  1, 0, 0, False) /* Create Tachi (47642) for Wield */
      , (7112, 2, 48278,  1, 0, 0, False) /* Create Arrow (48278) for Wield */
      , (7112, 2, 47675,  1, 0, 0, False) /* Create Flaming Tachi (47675) for Wield */
      , (7112, 2, 48541,  1, 0, 0, False) /* Create Flaming Nekode (48541) for Wield */
+     , (7112, 2, 46373,  1, 0, 0, False) /* Create Spectral Tachi (46373) for Wield */
      , (7112, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
      , (7112, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (7112, 9, 30605,  0, 0, 0, False) /* Create Acid Stiletto (30605) for ContainTreasure */

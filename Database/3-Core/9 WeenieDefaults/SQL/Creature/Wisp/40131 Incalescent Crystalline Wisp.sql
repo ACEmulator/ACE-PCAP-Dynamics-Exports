@@ -132,4 +132,6 @@ VALUES (40131, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreas
      , (40131, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
      , (40131, 9, 29239,  0, 0, 0, False) /* Create Bone Bow (29239) for ContainTreasure */
      , (40131, 9, 42751,  0, 0, 0, False) /* Create Haebrean Girth (42751) for ContainTreasure */
-     , (40131, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */;
+     , (40131, 9, 40713,  0, 0, 0, False) /* Create Covenant Shield (40713) for ContainTreasure */
+     , (40131, 9, 30606,  0, 0, 0, False) /* Create Bastone (30606) for ContainTreasure */
+     , (40131, 9, 31771,  0, 0, 0, False) /* Create Lightning War Axe (31771) for ContainTreasure */;

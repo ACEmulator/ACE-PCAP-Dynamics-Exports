@@ -45,6 +45,8 @@ VALUES (32833,   1,     0, 0, 0, 900) /* MaxHealth */;
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (32833, 2, 23131,  1, 0, 0, False) /* Create Heavy Crossbow (23131) for Wield */
      , (32833, 2, 15438,  1, 0, 0, False) /* Create Deadly Quarrel (15438) for Wield */
+     , (32833, 2, 23136,  1, 0, 0, False) /* Create Tachi (23136) for Wield */
+     , (32833, 2, 23135,  1, 0, 0, False) /* Create Kite Shield (23135) for Wield */
      , (32833, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
      , (32833, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */
      , (32833, 9, 32832,  0, 0, 0, False) /* Create The Sword of Bellenesse (32832) for ContainTreasure */

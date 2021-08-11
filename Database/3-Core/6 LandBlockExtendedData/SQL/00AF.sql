@@ -947,7 +947,8 @@ VALUES (0x700AF132, 0x700AF133, '2019-02-10 00:00:00') /* Red Monster Seed (3168
      , (0x700AF132, 0x700AF191, '2019-02-10 00:00:00') /* Mad Cow (23623) */
      , (0x700AF132, 0x700AF192, '2019-02-10 00:00:00') /* Mad Cow (23623) */
      , (0x700AF132, 0x700AF193, '2019-02-10 00:00:00') /* Mad Cow (23623) */
-     , (0x700AF132, 0x700AF194, '2019-02-10 00:00:00') /* Very Mad Cow (34611) */;
+     , (0x700AF132, 0x700AF194, '2019-02-10 00:00:00') /* Very Mad Cow (34611) */
+     , (0x700AF132, 0x700AF195, '2019-02-10 00:00:00') /* Honeyed Life Mead (52700) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF133, 31688, 0x00AF0139, 45.43713, -7.722987, 0.011, -0.7690908, 0, 0, -0.6391395,  True, '2019-02-10 00:00:00'); /* Red Monster Seed */
@@ -1340,3 +1341,7 @@ VALUES (0x700AF193, 23623, 0x00AF015E, 205.0207, -33.61375, 0.1110001, -4.371139
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x700AF194, 34611, 0x00AF015E, 211.7561, -29.52772, 0.007799983, -4.371139E-08, 0, 0, -1,  True, '2019-02-10 00:00:00'); /* Very Mad Cow */
 /* @teleloc 0x00AF015E [211.756100 -29.527720 0.007800] 0.000000 0.000000 0.000000 -1.000000 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x700AF195, 52700, 0x00AF0118, 39.86, -12.6426, 0.004000001, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Honeyed Life Mead */
+/* @teleloc 0x00AF0118 [39.860000 -12.642600 0.004000] 1.000000 0.000000 0.000000 0.000000 */

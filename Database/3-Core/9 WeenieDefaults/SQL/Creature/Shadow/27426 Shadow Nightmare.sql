@@ -106,4 +106,5 @@ VALUES (27426, 2, 47644,  1, 0, 0, False) /* Create Tachi (47644) for Wield */
      , (27426, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
      , (27426, 9, 20586,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self VII (20586) for ContainTreasure */
      , (27426, 9, 25644,  0, 0, 0, False) /* Create Leather Greaves (25644) for ContainTreasure */
-     , (27426, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */;
+     , (27426, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
+     , (27426, 9, 22442,  0, 0, 0, False) /* Create Lightning Dirk (22442) for ContainTreasure */;

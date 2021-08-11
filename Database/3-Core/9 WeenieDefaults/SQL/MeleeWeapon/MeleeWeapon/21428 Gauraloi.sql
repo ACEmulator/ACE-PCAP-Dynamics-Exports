@@ -63,4 +63,4 @@ VALUES (21428, 8040, 3332964380, 77.5555, 92.98441, 41.929, 0.6488351, 0.6488351
 /* @teleloc 0xC6A9001C [77.555500 92.984410 41.929000] 0.648835 0.648835 -0.281092 -0.281092 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (21428,   416,      2)  /* SwordMasteryOther5 */;
+VALUES (21428,   416,      2)  /* HeavyWeaponsMasteryOther5 */;

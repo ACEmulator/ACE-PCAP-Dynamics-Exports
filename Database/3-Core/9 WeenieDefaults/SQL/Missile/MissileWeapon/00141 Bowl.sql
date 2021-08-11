@@ -17,7 +17,7 @@ VALUES (141,   1,        256) /* ItemType - MissileWeapon */
      , (141,  45,          4) /* DamageType - Bludgeon */
      , (141,  48,         47) /* WeaponSkill - MissileWeapons */
      , (141,  49,         10) /* WeaponTime */
-     , (141,  51,          2) /* CombatUse - Missle */
+     , (141,  51,          2) /* CombatUse - Missile */
      , (141,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (141, 105,          8) /* ItemWorkmanship */
      , (141, 131,         60) /* MaterialType - Gold */

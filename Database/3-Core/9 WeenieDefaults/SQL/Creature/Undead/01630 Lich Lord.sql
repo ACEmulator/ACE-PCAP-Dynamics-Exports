@@ -68,6 +68,7 @@ VALUES (1630, 2, 47956,  1, 0, 0, False) /* Create Acid Silifi (47956) for Wield
      , (1630, 2, 47959,  1, 0, 0, False) /* Create Acid Ono (47959) for Wield */
      , (1630, 2, 47949,  1, 0, 0, False) /* Create Acid Katar (47949) for Wield */
      , (1630, 2, 47957,  1, 0, 0, False) /* Create Lightning Silifi (47957) for Wield */
+     , (1630, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
      , (1630, 9, 46856,  0, 0, 0, False) /* Create Aura of Defender Other VI (46856) for ContainTreasure */
      , (1630, 9, 28626,  0, 0, 0, False) /* Create Diforsa Tassets (28626) for ContainTreasure */
      , (1630, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */
@@ -425,4 +426,6 @@ VALUES (1630, 2, 47956,  1, 0, 0, False) /* Create Acid Silifi (47956) for Wield
      , (1630, 9, 21152,  0, 0, 0, False) /* Create Covenant Breastplate (21152) for ContainTreasure */
      , (1630, 9,   793,  0, 0, 0, False) /* Create Scalemail Coif (793) for ContainTreasure */
      , (1630, 9, 49538,  0, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for ContainTreasure */
-     , (1630, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */;
+     , (1630, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (1630, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */
+     , (1630, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */;

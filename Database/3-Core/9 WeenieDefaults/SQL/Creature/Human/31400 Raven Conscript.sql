@@ -134,4 +134,8 @@ VALUES (31400, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wiel
      , (31400, 9, 20468,  0, 0, 0, False) /* Create Scroll of Boon of the Blade Turner (20468) for ContainTreasure */
      , (31400, 9,   118,  0, 0, 0, False) /* Create Cloth Cap (118) for ContainTreasure */
      , (31400, 9, 31864,  0, 0, 0, False) /* Create Teardrop Crown (31864) for ContainTreasure */
-     , (31400, 9, 20403,  0, 0, 0, False) /* Create Scroll of Olthoi Bait (20403) for ContainTreasure */;
+     , (31400, 9, 20403,  0, 0, 0, False) /* Create Scroll of Olthoi Bait (20403) for ContainTreasure */
+     , (31400, 9, 28624,  0, 0, 0, False) /* Create Tenassa Sleeves (28624) for ContainTreasure */
+     , (31400, 9, 29244,  0, 0, 0, False) /* Create Slashing Bow (29244) for ContainTreasure */
+     , (31400, 9,    84,  0, 0, 0, False) /* Create Studded  Leggings (84) for ContainTreasure */
+     , (31400, 9,  2367,  0, 0, 0, False) /* Create Gorget (2367) for ContainTreasure */;

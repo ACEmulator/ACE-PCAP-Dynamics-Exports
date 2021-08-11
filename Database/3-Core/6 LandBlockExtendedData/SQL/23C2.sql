@@ -20,11 +20,11 @@ VALUES (0x723C2001, 0x723C2002, '2019-02-10 00:00:00') /* Armored Tusker (11540)
      , (0x723C2001, 0x723C200E, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
      , (0x723C2001, 0x723C200F, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
      , (0x723C2001, 0x723C2010, '2019-02-10 00:00:00') /* Carnivorous Carenzi (27708) */
-     , (0x723C2001, 0x723C2011, '2019-02-10 00:00:00') /* Hea Champion (27714) */
-     , (0x723C2001, 0x723C2012, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x723C2001, 0x723C2011, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
+     , (0x723C2001, 0x723C2012, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
      , (0x723C2001, 0x723C2013, '2019-02-10 00:00:00') /* Hea Champion (27714) */
-     , (0x723C2001, 0x723C2014, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */
-     , (0x723C2001, 0x723C2015, '2019-02-10 00:00:00') /* Brass Gromnie (27710) */;
+     , (0x723C2001, 0x723C2014, '2019-02-10 00:00:00') /* Hea Champion (27714) */
+     , (0x723C2001, 0x723C2015, '2019-02-10 00:00:00') /* Hea Champion (27714) */;
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x723C2002, 11540, 0x23C20022, 102.0519, 39.38482, 80.57733, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Armored Tusker */
@@ -87,21 +87,32 @@ VALUES (0x723C2010, 27708, 0x23C20019, 90.04433, 6.731782, 75.12196, 1, 0, 0, 0,
 /* @teleloc 0x23C20019 [90.044330 6.731782 75.121960] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723C2011, 27714, 0x23C20016, 57.34954, 141.4308, 26.17159, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Hea Champion */
-/* @teleloc 0x23C20016 [57.349540 141.430800 26.171590] 0.819152 0.000000 0.000000 -0.573577 */
+VALUES (0x723C2011, 27710, 0x23C20021, 98.16917, 22.96657, 77.74464, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
+/* @teleloc 0x23C20021 [98.169170 22.966570 77.744640] 0.953717 0.000000 0.000000 -0.300706 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723C2012, 27714, 0x23C20016, 54.95296, 136.6335, 26.17159, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hea Champion */
-/* @teleloc 0x23C20016 [54.952960 136.633500 26.171590] 0.707107 0.000000 0.000000 -0.707107 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723C2013, 27714, 0x23C20016, 53.05179, 140.4064, 26.17159, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Hea Champion */
-/* @teleloc 0x23C20016 [53.051790 140.406400 26.171590] 0.996195 0.000000 0.000000 -0.087156 */
-
-INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723C2014, 27710, 0x23C2001A, 93.89259, 29.77443, 78.9654, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
+VALUES (0x723C2012, 27710, 0x23C2001A, 93.89259, 29.77443, 78.9654, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
 /* @teleloc 0x23C2001A [93.892590 29.774430 78.965400] 1.000000 0.000000 0.000000 0.000000 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x723C2015, 27710, 0x23C20021, 98.16917, 22.96657, 77.74464, 0.9537169, 0, 0, -0.3007058,  True, '2019-02-10 00:00:00'); /* Brass Gromnie */
-/* @teleloc 0x23C20021 [98.169170 22.966570 77.744640] 0.953717 0.000000 0.000000 -0.300706 */
+VALUES (0x723C2013, 27714, 0x23C20016, 57.34954, 141.4308, 26.17159, 0.8191521, 0, 0, -0.5735765,  True, '2019-02-10 00:00:00'); /* Hea Champion */
+/* @teleloc 0x23C20016 [57.349540 141.430800 26.171590] 0.819152 0.000000 0.000000 -0.573577 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723C2014, 27714, 0x23C20016, 54.95296, 136.6335, 26.17159, 0.7071068, 0, 0, -0.7071068,  True, '2019-02-10 00:00:00'); /* Hea Champion */
+/* @teleloc 0x23C20016 [54.952960 136.633500 26.171590] 0.707107 0.000000 0.000000 -0.707107 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723C2015, 27714, 0x23C20016, 53.05179, 140.4064, 26.17159, 0.9961947, 0, 0, -0.08715574,  True, '2019-02-10 00:00:00'); /* Hea Champion */
+/* @teleloc 0x23C20016 [53.051790 140.406400 26.171590] 0.996195 0.000000 0.000000 -0.087156 */
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723C2016,  1542, 0x23C20019, 90.37437, 5.578899, 75.08371, 1, 0, 0, 0, False, '2019-02-10 00:00:00'); /* Linkable Item Generator */
+/* @teleloc 0x23C20019 [90.374370 5.578899 75.083710] 1.000000 0.000000 0.000000 0.000000 */
+
+INSERT INTO `landblock_instance_link` (`parent_GUID`, `child_GUID`, `last_Modified`)
+VALUES (0x723C2016, 0x723C2017, '2019-02-10 00:00:00') /* Carnivorous Carenzi Camp Generator (27719) */;
+
+INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
+VALUES (0x723C2017, 27719, 0x23C20019, 90.37437, 5.578899, 75.08371, 1, 0, 0, 0,  True, '2019-02-10 00:00:00'); /* Carnivorous Carenzi Camp Generator */
+/* @teleloc 0x23C20019 [90.374370 5.578899 75.083710] 1.000000 0.000000 0.000000 0.000000 */

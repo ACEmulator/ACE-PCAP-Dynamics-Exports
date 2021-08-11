@@ -15,7 +15,7 @@ VALUES (52962,   1,         16) /* ItemType - Creature */
      , (52962, 133,          1) /* ShowableOnRadar - ShowNever */
      , (52962, 134,         16) /* PlayerKillerStatus - RubberGlue */
      , (52962, 188,          1) /* HeritageGroup - Aluvian */
-     , (52962, 281,          1) /* Faction1Bits */
+     , (52962, 281,          1) /* Faction1Bits - CelestialHand */
      , (52962, 287,          0) /* SocietyRankCelhan */
      , (52962, 307,          5) /* DamageRating */;
 

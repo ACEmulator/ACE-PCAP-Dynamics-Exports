@@ -162,4 +162,8 @@ VALUES (25665, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */
      , (25665, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasure */
      , (25665, 9, 20552,  0, 0, 0, False) /* Create Scroll of Wrath of Harlune (20552) for ContainTreasure */
      , (25665, 9, 49306,  0, 0, 0, False) /* Create Frost K'nath Essence (125) (49306) for ContainTreasure */
-     , (25665, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */;
+     , (25665, 9, 22164,  0, 0, 0, False) /* Create Acid Quarter Staff (22164) for ContainTreasure */
+     , (25665, 9, 43828,  0, 0, 0, False) /* Create Sedgemail Leather Vest (43828) for ContainTreasure */
+     , (25665, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
+     , (25665, 9, 29253,  0, 0, 0, False) /* Create Blunt Atlatl (29253) for ContainTreasure */
+     , (25665, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */;

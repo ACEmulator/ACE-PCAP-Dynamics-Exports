@@ -508,4 +508,6 @@ VALUES (1632, 2, 47249,  1, 0, 0, False) /* Create Board with Nail (47249) for W
      , (1632, 9, 40635,  0, 0, 0, False) /* Create Tetsubo (40635) for ContainTreasure */
      , (1632, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */
      , (1632, 9, 21296,  0, 0, 0, False) /* Create Scroll of Blade Arc II (21296) for ContainTreasure */
-     , (1632, 9, 45252,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self (45252) for ContainTreasure */;
+     , (1632, 9, 45252,  0, 0, 0, False) /* Create Scroll of Dirty Fighting Mastery Self (45252) for ContainTreasure */
+     , (1632, 9,  2877,  0, 0, 0, False) /* Create Scroll of Strengthen Lock II (2877) for ContainTreasure */
+     , (1632, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */;

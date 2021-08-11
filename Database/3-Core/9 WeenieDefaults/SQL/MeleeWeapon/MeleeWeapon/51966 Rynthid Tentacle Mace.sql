@@ -67,4 +67,4 @@ VALUES (51966,  3963,      2)  /* CANTRIPCOORDINATION3 */
      , (51966,  4400,      2)  /* DefenderSelf8 */
      , (51966,  4405,      2)  /* HeartSeekerSelf8 */
      , (51966,  4417,      2)  /* SwiftKillerSelf8 */
-     , (51966,  6043,      2)  /* CantripAxeAptitude4 */;
+     , (51966,  6043,      2)  /* CantripLightWeaponsAptitude4 */;

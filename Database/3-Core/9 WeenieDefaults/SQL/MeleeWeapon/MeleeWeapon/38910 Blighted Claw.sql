@@ -29,8 +29,7 @@ VALUES (38910,   1,          1) /* ItemType - MeleeWeapon */
      , (38910, 159,         44) /* WieldSkillType - HeavyWeapons */
      , (38910, 160,        325) /* WieldDifficulty */
      , (38910, 166,         31) /* SlayerCreatureType - Human */
-     , (38910, 267,      86400) /* Lifespan */
-     , (38910, 268,      75503) /* RemainingLifespan */;
+     , (38910, 267,      86400) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (38910,  22, True ) /* Inscribable */
@@ -62,4 +61,4 @@ VALUES (38910, 8040, 12124645, 99.36465, -100.7443, -18.071, -0.4781373, -0.4781
 /* @teleloc 0x00B901E5 [99.364650 -100.744300 -18.071000] -0.478137 -0.478137 -0.520946 -0.520946 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (38910,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+VALUES (38910,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;

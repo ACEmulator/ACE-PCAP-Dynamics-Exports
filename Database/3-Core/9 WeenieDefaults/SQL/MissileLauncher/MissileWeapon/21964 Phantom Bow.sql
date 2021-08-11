@@ -16,7 +16,7 @@ VALUES (21964,   1,        256) /* ItemType - MissileWeapon */
      , (21964,  48,         47) /* WeaponSkill - MissileWeapons */
      , (21964,  49,         30) /* WeaponTime */
      , (21964,  50,         64) /* AmmoType - ArrowChorizite */
-     , (21964,  51,          2) /* CombatUse - Missle */
+     , (21964,  51,          2) /* CombatUse - Missile */
      , (21964,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (21964, 114,          0) /* Attuned - Normal */
      , (21964, 151,          2) /* HookType - Wall */

@@ -26,7 +26,6 @@ VALUES (35551,   1,          1) /* ItemType - MeleeWeapon */
      , (35551, 114,          0) /* Attuned - Normal */
      , (35551, 263,          2) /* ResistanceModifierType */
      , (35551, 267,      10800) /* Lifespan */
-     , (35551, 268,      10798) /* RemainingLifespan */
      , (35551, 353,          5) /* WeaponType - Spear */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
@@ -60,5 +59,5 @@ VALUES (35551,   1,   33559320) /* Setup */
      , (35551,  55,       2070) /* ProcSpell - HarmOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (35551,  2308,      2)  /* SwordMasteryOther7 */
-     , (35551,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+VALUES (35551,  2308,      2)  /* HeavyWeaponsMasteryOther7 */
+     , (35551,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;

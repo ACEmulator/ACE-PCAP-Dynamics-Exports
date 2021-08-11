@@ -149,4 +149,6 @@ VALUES (7124, 2, 47852,  1, 0, 0, False) /* Create Arbalest (47852) for Wield */
      , (7124, 9, 20409,  0, 0, 0, False) /* Create Scroll of Tusker Bait (20409) for ContainTreasure */
      , (7124, 9, 27323,  1, 0, 0, False) /* Create Mana Tonic (27323) for ContainTreasure */
      , (7124, 9, 20428,  0, 0, 0, False) /* Create Scroll of Clouded Motives (20428) for ContainTreasure */
-     , (7124, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */;
+     , (7124, 9, 45416,  0, 0, 0, False) /* Create Knife (45416) for ContainTreasure */
+     , (7124, 9, 25646,  0, 0, 0, False) /* Create Long Leather Gauntlets (25646) for ContainTreasure */
+     , (7124, 9, 30611,  0, 0, 0, False) /* Create Knuckles (30611) for ContainTreasure */;

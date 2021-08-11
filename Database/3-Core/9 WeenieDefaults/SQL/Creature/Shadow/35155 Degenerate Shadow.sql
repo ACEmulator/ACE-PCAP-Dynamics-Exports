@@ -54,3 +54,6 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (35155,   1,   400, 0, 0, 600) /* MaxHealth */
      , (35155,   3,   300, 0, 0, 700) /* MaxStamina */
      , (35155,   5,   300, 0, 0, 860) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (35155, 2, 47715,  1, 0, 0, False) /* Create Acid Spear (47715) for Wield */;

@@ -66,5 +66,5 @@ VALUES (45928,  1592,      2)  /* HeartSeekerSelf6 */
      , (45928,  1605,      2)  /* DefenderSelf6 */
      , (45928,  1616,      2)  /* BloodDrinkerSelf6 */
      , (45928,  1627,      2)  /* SwiftKillerSelf6 */
-     , (45928,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */
+     , (45928,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */
      , (45928,  5884,      2)  /* CantripDualWieldAptitude1 */;

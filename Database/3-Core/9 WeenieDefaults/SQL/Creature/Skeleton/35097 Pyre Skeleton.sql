@@ -208,4 +208,6 @@ VALUES (35097, 2, 35095,  1, 0, 0, False) /* Create Pyre Claw (35095) for Wield 
      , (35097, 9, 37188,  0, 0, 0, False) /* Create Olthoi Amuli Gauntlets (37188) for ContainTreasure */
      , (35097, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
      , (35097, 9, 43373,  0, 0, 0, False) /* Create Scroll of Void Magic Ineptitude Other VII (43373) for ContainTreasure */
-     , (35097, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */;
+     , (35097, 9, 31867,  0, 0, 0, False) /* Create Diadem (31867) for ContainTreasure */
+     , (35097, 9, 29250,  0, 0, 0, False) /* Create Piercing Crossbow (29250) for ContainTreasure */
+     , (35097, 9, 37200,  0, 0, 0, False) /* Create Olthoi Alduressa Leggings (37200) for ContainTreasure */;

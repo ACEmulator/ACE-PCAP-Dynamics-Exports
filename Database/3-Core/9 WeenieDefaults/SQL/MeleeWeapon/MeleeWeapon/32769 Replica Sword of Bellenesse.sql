@@ -63,5 +63,5 @@ VALUES (32769,  2096,      2)  /* BloodDrinkerSelf7 */
      , (32769,  2101,      2)  /* DefenderSelf7 */
      , (32769,  2106,      2)  /* HeartSeekerSelf7 */
      , (32769,  2116,      2)  /* SwiftKillerSelf7 */
-     , (32769,  2203,      2)  /* AxeMasterySelf7 */
+     , (32769,  2203,      2)  /* LightWeaponsMasterySelf7 */
      , (32769,  2263,      2)  /* LeadershipMasterySelf7 */;

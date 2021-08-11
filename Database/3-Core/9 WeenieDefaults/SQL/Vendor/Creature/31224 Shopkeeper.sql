@@ -50,8 +50,18 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (31224, 8040, 853213212, 88.8336, 81.7535, 40.005, 0.5368028, 0, 0, -0.8437077) /* PCAPRecordedLocation */
 /* @teleloc 0x32DB001C [88.833600 81.753500 40.005000] 0.536803 0.000000 0.000000 -0.843708 */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (31224,   1,  75, 0, 0) /* Strength */
+     , (31224,   2,  65, 0, 0) /* Endurance */
+     , (31224,   3,  60, 0, 0) /* Quickness */
+     , (31224,   4,  63, 0, 0) /* Coordination */
+     , (31224,   5,  72, 0, 0) /* Focus */
+     , (31224,   6,  89, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (31224,   1,     0, 0, 0, 80) /* MaxHealth */;
+VALUES (31224,   1,    48, 0, 0, 80) /* MaxHealth */
+     , (31224,   3,   110, 0, 0, 175) /* MaxStamina */
+     , (31224,   5,    80, 0, 0, 169) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31224, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
@@ -69,4 +79,20 @@ VALUES (31224, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (31224, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for Shop */
      , (31224, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Shop */
      , (31224, 4,  2460, -1, 0, 0, False) /* Create Mana Draught (2460) for Shop */
-     , (31224, 4,  5634, -1, 0, 0, False) /* Create Stamina Draught (5634) for Shop */;
+     , (31224, 4,  5634, -1, 0, 0, False) /* Create Stamina Draught (5634) for Shop */
+     , (31224, 4, 28605, -1, 0, 0, False) /* Create Beret (28605) for Shop */
+     , (31224, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
+     , (31224, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
+     , (31224, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
+     , (31224, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
+     , (31224, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+     , (31224, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
+     , (31224, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
+     , (31224, 4,  2591, -1, 0, 0, False) /* Create Puffy Shirt (2591) for Shop */
+     , (31224, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
+     , (31224, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
+     , (31224, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
+     , (31224, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (31224, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
+     , (31224, 4, 29073, -1, 0, 0, False) /* Create The Thrungus - Part II (29073) for Shop */
+     , (31224, 4, 29074, -1, 0, 0, False) /* Create The Thrungus - Part III (29074) for Shop */;

@@ -51,6 +51,7 @@ VALUES (1322,   1,    50, 0, 0, 160) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1322, 2,   348,  1, 0, 0, False) /* Create Spear (348) for Wield */
      , (1322, 2,   340,  1, 0, 0, False) /* Create Shamshir (340) for Wield */
+     , (1322, 2,   308,  1, 0, 0, False) /* Create Budiaq (308) for Wield */
      , (1322, 9, 49387,  0, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for ContainTreasure */
      , (1322, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (1322, 9, 30568,  0, 0, 0, False) /* Create Flaming Sabra (30568) for ContainTreasure */

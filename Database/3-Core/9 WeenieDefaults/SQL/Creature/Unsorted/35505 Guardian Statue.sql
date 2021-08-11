@@ -10,19 +10,7 @@ VALUES (35505,   1,         16) /* ItemType - Creature */
      , (35505,  16,         32) /* ItemUseable - Remote */
      , (35505,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (35505,  95,          8) /* RadarBlipColor - Yellow */
-     , (35505, 133,          4) /* ShowableOnRadar - ShowAlways */
-     , (35505, 307,          0) /* DamageRating */
-     , (35505, 308,          0) /* DamageResistRating */
-     , (35505, 313,          0) /* CritRating */
-     , (35505, 314,          0) /* CritDamageRating */
-     , (35505, 315,          0) /* CritResistRating */
-     , (35505, 316,          0) /* CritDamageResistRating */
-     , (35505, 381,          0) /* PKDamageRating */
-     , (35505, 382,          0) /* PKDamageResistRating */
-     , (35505, 386,          0) /* Overpower */
-     , (35505, 387,          0) /* OverpowerResist */
-     , (35505, 388,          0) /* GearOverpower */
-     , (35505, 389,          0) /* GearOverpowerResist */;
+     , (35505, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35505,   1, True ) /* Stuck */

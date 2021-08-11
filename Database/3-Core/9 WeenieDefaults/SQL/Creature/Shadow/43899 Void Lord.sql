@@ -68,6 +68,7 @@ VALUES (43899, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
      , (43899, 2, 48238,  1, 0, 0, False) /* Create Electric Bow (48238) for Wield */
      , (43899, 2, 48285,  1, 0, 0, False) /* Create Arrow (48285) for Wield */
      , (43899, 2, 42717,  1, 0, 0, False) /* Create Shield of Borelean's Royal Guard (42717) for Wield */
+     , (43899, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
      , (43899, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (43899, 9,  6058,  1, 0, 0, False) /* Create Dark Shard (6058) for ContainTreasure */
      , (43899, 9, 31383,  0, 0, 0, False) /* Create Scroll of Raven Fury (31383) for ContainTreasure */
@@ -458,4 +459,15 @@ VALUES (43899, 2, 47649,  1, 0, 0, False) /* Create Tachi (47649) for Wield */
      , (43899, 9,   622,  0, 0, 0, False) /* Create Necklace (622) for ContainTreasure */
      , (43899, 9, 40708,  0, 0, 0, False) /* Create Covenant Gauntlets (40708) for ContainTreasure */
      , (43899, 9, 25650,  0, 0, 0, False) /* Create Leather Shorts (25650) for ContainTreasure */
-     , (43899, 9,  3875,  0, 0, 0, False) /* Create Flaming Spear (3875) for ContainTreasure */;
+     , (43899, 9,  3875,  0, 0, 0, False) /* Create Flaming Spear (3875) for ContainTreasure */
+     , (43899, 9, 27226,  0, 0, 0, False) /* Create Nariyid Boots (27226) for ContainTreasure */
+     , (43899, 9, 37195,  0, 0, 0, False) /* Create Olthoi Alduressa Helm (37195) for ContainTreasure */
+     , (43899, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
+     , (43899, 9,  6044,  0, 0, 0, False) /* Create Celdon Breastplate (6044) for ContainTreasure */
+     , (43899, 9, 37321,  1, 0, 0, False) /* Create Glyph of Mana Regeneration (37321) for ContainTreasure */
+     , (43899, 9, 30603,  0, 0, 0, False) /* Create Flaming Stiletto (30603) for ContainTreasure */
+     , (43899, 9, 37369,  1, 0, 0, False) /* Create Glyph of Heavy Weapons (37369) for ContainTreasure */
+     , (43899, 9, 37208,  0, 0, 0, False) /* Create Olthoi Amuli Sollerets (37208) for ContainTreasure */
+     , (43899, 9, 20256,  0, 0, 0, False) /* Create Scroll of Bolstered Will (20256) for ContainTreasure */
+     , (43899, 9, 31809,  0, 0, 0, False) /* Create Fire Compound Crossbow (31809) for ContainTreasure */
+     , (43899, 9, 37197,  0, 0, 0, False) /* Create Olthoi Celdon Helm (37197) for ContainTreasure */;

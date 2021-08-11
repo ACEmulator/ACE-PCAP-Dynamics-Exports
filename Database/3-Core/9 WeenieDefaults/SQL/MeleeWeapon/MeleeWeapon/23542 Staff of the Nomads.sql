@@ -53,7 +53,7 @@ VALUES (23542,   1,   33558224) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (23542,   273,      2)  /* MagicResistanceOther6 */
-     , (23542,   321,      2)  /* DaggerMasteryOther6 */
+     , (23542,   321,      2)  /* FinesseWeaponsMasteryOther6 */
      , (23542,   993,      2)  /* SprintOther6 */
      , (23542,  1317,      2)  /* ArmorOther6 */
      , (23542,  1360,      2)  /* EnduranceOther6 */

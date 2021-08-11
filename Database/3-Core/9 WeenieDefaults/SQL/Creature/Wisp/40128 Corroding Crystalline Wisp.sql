@@ -117,4 +117,8 @@ VALUES (40128, 9,  7768,  0, 0, 0, False) /* Create Spiked Club (7768) for Conta
      , (40128, 9, 45420,  0, 0, 0, False) /* Create Frost Knife (45420) for ContainTreasure */
      , (40128, 9, 20503,  0, 0, 0, False) /* Create Scroll of Jibril's Vitae (20503) for ContainTreasure */
      , (40128, 9, 31817,  0, 0, 0, False) /* Create Frost Slingshot (31817) for ContainTreasure */
-     , (40128, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */;
+     , (40128, 9, 30592,  0, 0, 0, False) /* Create Flaming Partizan (30592) for ContainTreasure */
+     , (40128, 9, 48965,  0, 0, 0, False) /* Create Fire Child Essence (125) (48965) for ContainTreasure */
+     , (40128, 9, 31767,  0, 0, 0, False) /* Create Flaming Lugian Hammer (31767) for ContainTreasure */
+     , (40128, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for ContainTreasure */
+     , (40128, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */;

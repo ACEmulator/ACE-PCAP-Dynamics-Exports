@@ -16,7 +16,7 @@ VALUES (48242,   1,        256) /* ItemType - MissileWeapon */
      , (48242,  48,         47) /* WeaponSkill - MissileWeapons */
      , (48242,  49,         45) /* WeaponTime */
      , (48242,  50,          1) /* AmmoType - Arrow */
-     , (48242,  51,          2) /* CombatUse - Missle */
+     , (48242,  51,          2) /* CombatUse - Missile */
      , (48242,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (48242, 151,          2) /* HookType - Wall */
      , (48242, 204,          0) /* ElementalDamageBonus */

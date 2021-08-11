@@ -49,7 +49,7 @@ VALUES (43121,   1,   33560663) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (43121,  4667,      2)  /* CANTRIPIMPENETRABILITY3 */
-     , (43121,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */
-     , (43121,  4691,      2)  /* CANTRIPDAGGERAPTITUDE3 */
-     , (43121,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */
+     , (43121,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */
+     , (43121,  4691,      2)  /* CANTRIPFINESSEWEAPONSAPTITUDE3 */
+     , (43121,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */
      , (43121,  5896,      2)  /* CantripShieldAptitude3 */;

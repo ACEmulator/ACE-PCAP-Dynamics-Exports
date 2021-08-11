@@ -48,7 +48,8 @@ VALUES (22747,   1,   412, 0, 0, 517) /* MaxHealth */
      , (22747,   5,    80, 0, 0, 200) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22747, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+VALUES (22747, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (22747, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
      , (22747, 9, 21158,  0, 0, 0, False) /* Create Covenant Shield (21158) for ContainTreasure */
      , (22747, 9, 43284,  0, 0, 0, False) /* Create Scroll of Corrosion VII (43284) for ContainTreasure */
      , (22747, 9,    93,  0, 0, 0, False) /* Create Round Shield (93) for ContainTreasure */

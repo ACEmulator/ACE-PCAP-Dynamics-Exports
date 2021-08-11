@@ -63,4 +63,4 @@ VALUES (40693,   951,      2)  /* FealtySelf6 */
      , (40693,  1486,      2)  /* Impenetrability6 */
      , (40693,  2094,      2)  /* BladeBane7 */
      , (40693,  2513,      2)  /* CANTRIPHEALINGPROWESS2 */
-     , (40693,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (40693,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;

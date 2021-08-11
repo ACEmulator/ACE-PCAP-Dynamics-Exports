@@ -49,7 +49,8 @@ VALUES (28644,   1,   315, 0, 0, 380) /* MaxHealth */
      , (28644,   5,   250, 0, 0, 380) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28644, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+VALUES (28644, 2, 31251,  1, 0, 0, False) /* Create Lugian Mace (31251) for Wield */
+     , (28644, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (28644, 9, 20414,  0, 0, 0, False) /* Create Scroll of Gelidite's Bane (20414) for ContainTreasure */
      , (28644, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (28644, 9,  3817,  0, 0, 0, False) /* Create Frost Kasrullah (3817) for ContainTreasure */

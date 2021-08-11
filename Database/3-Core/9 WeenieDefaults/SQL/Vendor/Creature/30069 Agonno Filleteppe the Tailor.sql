@@ -50,8 +50,18 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (30069, 8040, 669778209, 102.872, 60.674, 80.005, 0.9624676, 0, 0, -0.2713967) /* PCAPRecordedLocation */
 /* @teleloc 0x27EC0121 [102.872000 60.674000 80.005000] 0.962468 0.000000 0.000000 -0.271397 */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (30069,   1, 110, 0, 0) /* Strength */
+     , (30069,   2,  90, 0, 0) /* Endurance */
+     , (30069,   3,  90, 0, 0) /* Quickness */
+     , (30069,   4, 100, 0, 0) /* Coordination */
+     , (30069,   5,  40, 0, 0) /* Focus */
+     , (30069,   6,  40, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30069,   1,     0, 0, 0, 145) /* MaxHealth */;
+VALUES (30069,   1,   100, 0, 0, 145) /* MaxHealth */
+     , (30069,   3,   100, 0, 0, 190) /* MaxStamina */
+     , (30069,   5,   100, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30069, 4, 28606, -1, 0, 0, False) /* Create Viamontian Pants (28606) for Shop */

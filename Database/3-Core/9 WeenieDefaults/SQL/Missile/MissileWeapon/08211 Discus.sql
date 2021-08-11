@@ -17,7 +17,7 @@ VALUES (8211,   1,        256) /* ItemType - MissileWeapon */
      , (8211,  45,          1) /* DamageType - Slash */
      , (8211,  48,         47) /* WeaponSkill - MissileWeapons */
      , (8211,  49,         20) /* WeaponTime */
-     , (8211,  51,          2) /* CombatUse - Missle */
+     , (8211,  51,          2) /* CombatUse - Missile */
      , (8211,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (8211, 151,          2) /* HookType - Wall */
      , (8211, 353,         10) /* WeaponType - Thrown */;

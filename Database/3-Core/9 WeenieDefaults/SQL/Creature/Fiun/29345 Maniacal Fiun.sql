@@ -154,4 +154,5 @@ VALUES (29345, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTr
      , (29345, 9,  4198,  0, 0, 0, False) /* Create Frost Nekode (4198) for ContainTreasure */
      , (29345, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (29345, 9,  5997,  0, 0, 0, False) /* Create Scroll of Alchemy Mastery Self VI (5997) for ContainTreasure */
-     , (29345, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */;
+     , (29345, 9,   341,  0, 0, 0, False) /* Create Shouyumi (341) for ContainTreasure */
+     , (29345, 9, 41064,  0, 0, 0, False) /* Create Lightning Khanda-handled Mace (41064) for ContainTreasure */;

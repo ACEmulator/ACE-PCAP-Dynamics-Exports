@@ -56,5 +56,5 @@ VALUES (53312,  4395,      2)  /* BloodDrinkerSelf8 */
      , (53312,  4400,      2)  /* DefenderSelf8 */
      , (53312,  4405,      2)  /* HeartSeekerSelf8 */
      , (53312,  4417,      2)  /* SwiftKillerSelf8 */
-     , (53312,  4518,      2)  /* AxeMasterySelf8 */
-     , (53312,  6043,      2)  /* CantripAxeAptitude4 */;
+     , (53312,  4518,      2)  /* LightWeaponsMasterySelf8 */
+     , (53312,  6043,      2)  /* CantripLightWeaponsAptitude4 */;

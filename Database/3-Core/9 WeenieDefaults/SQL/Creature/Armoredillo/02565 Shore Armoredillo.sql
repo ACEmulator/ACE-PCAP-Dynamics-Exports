@@ -88,4 +88,7 @@ VALUES (2565, 9, 49524,  0, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50
      , (2565, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (2565, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
      , (2565, 9,  2426,  1, 0, 0, False) /* Create Gem (2426) for ContainTreasure */
-     , (2565, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */;
+     , (2565, 9,   630,  0, 0, 0, False) /* Create Gifted Healing Kit (630) for ContainTreasure */
+     , (2565, 9,  5989,  0, 0, 0, False) /* Create Scroll of Alchemy Mastery Other IV (5989) for ContainTreasure */
+     , (2565, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for ContainTreasure */
+     , (2565, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */;

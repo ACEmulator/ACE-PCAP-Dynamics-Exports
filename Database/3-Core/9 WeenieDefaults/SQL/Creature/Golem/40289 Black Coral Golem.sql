@@ -49,7 +49,8 @@ VALUES (40289,   1,  1350, 0, 0, 1500) /* MaxHealth */
      , (40289,   5,  1000, 0, 0, 1190) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (40289, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
+VALUES (40289, 2, 47750,  1, 0, 0, False) /* Create Lightning Spear (47750) for Wield */
+     , (40289, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (40289, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (40289, 9,  9229,  0, 0, 0, False) /* Create Treated Healing Kit (9229) for ContainTreasure */
      , (40289, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */

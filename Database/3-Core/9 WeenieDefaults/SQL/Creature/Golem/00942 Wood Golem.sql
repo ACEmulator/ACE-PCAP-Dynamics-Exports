@@ -97,6 +97,7 @@ VALUES (942, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTr
      , (942, 9,    53,  0, 0, 0, False) /* Create Studded Leather Cuirass (53) for ContainTreasure */
      , (942, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (942, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
+     , (942, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
      , (942, 9,   105,  0, 0, 0, False) /* Create Studded Leather Sleeves (105) for ContainTreasure */
      , (942, 9,   121,  0, 0, 0, False) /* Create Gloves (121) for ContainTreasure */
      , (942, 9,  2417,  1, 0, 0, False) /* Create Gem (2417) for ContainTreasure */;

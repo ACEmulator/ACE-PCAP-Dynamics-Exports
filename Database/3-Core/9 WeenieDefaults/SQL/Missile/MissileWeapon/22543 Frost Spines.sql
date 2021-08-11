@@ -19,7 +19,7 @@ VALUES (22543,   1,        256) /* ItemType - MissileWeapon */
      , (22543,  45,          8) /* DamageType - Cold */
      , (22543,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22543,  49,         10) /* WeaponTime */
-     , (22543,  51,          2) /* CombatUse - Missle */
+     , (22543,  51,          2) /* CombatUse - Missile */
      , (22543,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22543, 307,          5) /* DamageRating */
      , (22543, 313,          0) /* CritRating */

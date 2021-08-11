@@ -16,7 +16,7 @@ VALUES (30303,   1,        256) /* ItemType - MissileWeapon */
      , (30303,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30303,  49,          0) /* WeaponTime */
      , (30303,  50,          1) /* AmmoType - Arrow */
-     , (30303,  51,          2) /* CombatUse - Missle */
+     , (30303,  51,          2) /* CombatUse - Missile */
      , (30303,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30303, 106,        400) /* ItemSpellcraft */
      , (30303, 107,          0) /* ItemCurMana */
@@ -69,8 +69,8 @@ INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (30303,  3963,      2)  /* CANTRIPCOORDINATION3 */
      , (30303,  4395,      2)  /* BloodDrinkerSelf8 */
      , (30303,  4400,      2)  /* DefenderSelf8 */
-     , (30303,  4522,      2)  /* BowMasterySelf8 */
+     , (30303,  4522,      2)  /* MissileWeaponsMasterySelf8 */
      , (30303,  4596,      2)  /* MagicResistanceSelf8 */
      , (30303,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
      , (30303,  4682,      2)  /* CANTRIPSTAMINAGAIN3 */
-     , (30303,  4687,      2)  /* CANTRIPBOWAPTITUDE3 */;
+     , (30303,  4687,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE3 */;

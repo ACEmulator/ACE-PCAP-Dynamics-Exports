@@ -14,7 +14,7 @@ VALUES (46715,   1,        256) /* ItemType - MissileWeapon */
      , (46715,  16,          1) /* ItemUseable - No */
      , (46715,  19,          1) /* Value */
      , (46715,  33,          1) /* Bonded - Bonded */
-     , (46715,  51,          2) /* CombatUse - Missle */
+     , (46715,  51,          2) /* CombatUse - Missile */
      , (46715,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (46715, 114,          1) /* Attuned - Attuned */;
 

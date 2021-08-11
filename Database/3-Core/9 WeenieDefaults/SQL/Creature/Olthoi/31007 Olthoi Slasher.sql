@@ -51,6 +51,7 @@ VALUES (31007,   1,  2115, 0, 0, 2300) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (31007, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
+     , (31007, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
      , (31007, 9, 43491,  1, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (31007, 9, 37191,  0, 0, 0, False) /* Create Olthoi Gauntlets (37191) for ContainTreasure */
      , (31007, 9, 22440,  0, 0, 0, False) /* Create Dirk (22440) for ContainTreasure */

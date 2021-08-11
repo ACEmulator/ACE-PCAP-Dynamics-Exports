@@ -429,4 +429,10 @@ VALUES (28556, 2, 47637,  1, 0, 0, False) /* Create Tachi (47637) for Wield */
      , (28556, 9, 41486,  0, 0, 0, False) /* Create Puzzle Box (41486) for ContainTreasure */
      , (28556, 9, 41064,  0, 0, 0, False) /* Create Lightning Khanda-handled Mace (41064) for ContainTreasure */
      , (28556, 9,   294,  0, 0, 0, False) /* Create Amulet (294) for ContainTreasure */
-     , (28556, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */;
+     , (28556, 9,  2588,  0, 0, 0, False) /* Create Flared Shirt (2588) for ContainTreasure */
+     , (28556, 9,   324,  0, 0, 0, False) /* Create Kaskara (324) for ContainTreasure */
+     , (28556, 9,  3121,  0, 0, 0, False) /* Create Scroll of Rejuvenate Other V (3121) for ContainTreasure */
+     , (28556, 9, 45279,  0, 0, 0, False) /* Create Scroll of Dual Wield Mastery Self IV (45279) for ContainTreasure */
+     , (28556, 9,  9641,  0, 0, 0, False) /* Create Scroll of Mana to Health Self III (9641) for ContainTreasure */
+     , (28556, 9, 31792,  0, 0, 0, False) /* Create Frost Stick (31792) for ContainTreasure */
+     , (28556, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */;

@@ -14,7 +14,7 @@ VALUES (42282,   1,         16) /* ItemType - Creature */
      , (42282, 113,          1) /* Gender - Male */
      , (42282, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (42282, 188,          1) /* HeritageGroup - Aluvian */
-     , (42282, 281,          2) /* Faction1Bits */
+     , (42282, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (42282, 288,       1001) /* SocietyRankEldweb */
      , (42282, 307,          5) /* DamageRating */;
 

@@ -50,6 +50,8 @@ VALUES (4216,   1,   430, 0, 0, 555) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (4216, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
+     , (4216, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
+     , (4216, 2, 47518,  1, 0, 0, False) /* Create Lightning Tachi (47518) for Wield */
      , (4216, 9, 20466,  0, 0, 0, False) /* Create Scroll of Caustic Blessing (20466) for ContainTreasure */
      , (4216, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (4216, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
@@ -359,4 +361,5 @@ VALUES (4216, 2, 47735,  1, 0, 0, False) /* Create Spear (47735) for Wield */
      , (4216, 9,  3730,  0, 0, 0, False) /* Create Scroll of Drain Stamina Other VI (3730) for ContainTreasure */
      , (4216, 9, 22156,  0, 0, 0, False) /* Create Flaming Jo (22156) for ContainTreasure */
      , (4216, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (4216, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */;
+     , (4216, 9, 40703,  0, 0, 0, False) /* Create Covenant Shield (40703) for ContainTreasure */
+     , (4216, 9, 43283,  0, 0, 0, False) /* Create Scroll of Corrosion VI (43283) for ContainTreasure */;

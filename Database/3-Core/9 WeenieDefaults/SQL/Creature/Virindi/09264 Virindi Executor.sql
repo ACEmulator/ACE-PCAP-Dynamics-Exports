@@ -234,4 +234,5 @@ VALUES (9264, 9, 49485,  1, 0, 0, False) /* Create Encapsulated Spirit (49485) f
      , (9264, 9, 31865,  0, 0, 0, False) /* Create Circlet (31865) for ContainTreasure */
      , (9264, 9,  2592,  0, 0, 0, False) /* Create Puffy Tunic (2592) for ContainTreasure */
      , (9264, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (9264, 9,  3227,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VI (3227) for ContainTreasure */;
+     , (9264, 9,  3227,  0, 0, 0, False) /* Create Scroll of Finesse Weapon Mastery Other VI (3227) for ContainTreasure */
+     , (9264, 9, 20640,  0, 0, 0, False) /* Create Royal Atlatl (20640) for ContainTreasure */;

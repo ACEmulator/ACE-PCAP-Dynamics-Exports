@@ -13,7 +13,7 @@ VALUES (48606,   1,        256) /* ItemType - MissileWeapon */
      , (48606,  15,          4) /* StackUnitValue */
      , (48606,  16,          1) /* ItemUseable - No */
      , (48606,  19,          4) /* Value */
-     , (48606,  51,          2) /* CombatUse - Missle */
+     , (48606,  51,          2) /* CombatUse - Missile */
      , (48606,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (48606, 151,          2) /* HookType - Wall */;
 

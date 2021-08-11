@@ -509,4 +509,8 @@ VALUES (11897, 2, 11906,  1, 0, 0, False) /* Create Mace of the Quiddity (11906)
      , (11897, 9, 45427,  0, 0, 0, False) /* Create Acid Jambiya (45427) for ContainTreasure */
      , (11897, 9, 49545,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for ContainTreasure */
      , (11897, 9, 30746,  0, 0, 0, False) /* Create Dart Flinger (30746) for ContainTreasure */
-     , (11897, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */;
+     , (11897, 9, 40761,  0, 0, 0, False) /* Create Acid Nodachi (40761) for ContainTreasure */
+     , (11897, 9, 31788,  0, 0, 0, False) /* Create Stick (31788) for ContainTreasure */
+     , (11897, 9,  3140,  0, 0, 0, False) /* Create Scroll of Arcane Enlightenment Self IV (3140) for ContainTreasure */
+     , (11897, 9,  3334,  0, 0, 0, False) /* Create Scroll of Jumping Mastery Other III (3334) for ContainTreasure */
+     , (11897, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */;

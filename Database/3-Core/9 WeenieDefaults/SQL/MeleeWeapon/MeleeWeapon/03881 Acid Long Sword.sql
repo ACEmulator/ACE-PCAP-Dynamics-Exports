@@ -60,4 +60,4 @@ VALUES (3881,   1,   33555791) /* Setup */
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (3881,  1378,      2)  /* CoordinationSelf6 */
      , (3881,  2096,      2)  /* BloodDrinkerSelf7 */
-     , (3881,  2566,      2)  /* CANTRIPSWORDAPTITUDE1 */;
+     , (3881,  2566,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE1 */;

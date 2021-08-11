@@ -881,4 +881,7 @@ VALUES (11875, 2, 11751,  1, 0, 0, False) /* Create Hafted Falcon Spear (11751) 
      , (11875, 9, 22165,  0, 0, 0, False) /* Create Lightning Quarter Staff (22165) for ContainTreasure */
      , (11875, 9,  2747,  0, 0, 0, False) /* Create Scroll of Weakness Other II (2747) for ContainTreasure */
      , (11875, 9,  3866,  0, 0, 0, False) /* Create Lightning Silifi (3866) for ContainTreasure */
-     , (11875, 9,  3757,  0, 0, 0, False) /* Create Frost Hand Axe (3757) for ContainTreasure */;
+     , (11875, 9,  3757,  0, 0, 0, False) /* Create Frost Hand Axe (3757) for ContainTreasure */
+     , (11875, 9,  8948,  0, 0, 0, False) /* Create Scroll of Shock Wave Streak II (8948) for ContainTreasure */
+     , (11875, 9,  1743,  0, 0, 0, False) /* Create Scroll of Heavy Weapon Mastery Self (1743) for ContainTreasure */
+     , (11875, 9, 45333,  0, 0, 0, False) /* Create Scroll of Sneak Attack Ineptitude Other II (45333) for ContainTreasure */;

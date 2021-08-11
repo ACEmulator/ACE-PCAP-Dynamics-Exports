@@ -15,7 +15,7 @@ VALUES (31798,   1,        256) /* ItemType - MissileWeapon */
      , (31798,  48,         47) /* WeaponSkill - MissileWeapons */
      , (31798,  49,         40) /* WeaponTime */
      , (31798,  50,          1) /* AmmoType - Arrow */
-     , (31798,  51,          2) /* CombatUse - Missle */
+     , (31798,  51,          2) /* CombatUse - Missile */
      , (31798,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31798, 105,          7) /* ItemWorkmanship */
      , (31798, 131,         63) /* MaterialType - Silver */

@@ -15,7 +15,7 @@ VALUES (33990,   1,        256) /* ItemType - MissileWeapon */
      , (33990,  48,         47) /* WeaponSkill - MissileWeapons */
      , (33990,  49,         15) /* WeaponTime */
      , (33990,  50,          1) /* AmmoType - Arrow */
-     , (33990,  51,          2) /* CombatUse - Missle */
+     , (33990,  51,          2) /* CombatUse - Missile */
      , (33990,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (33990, 106,        400) /* ItemSpellcraft */
      , (33990, 107,        994) /* ItemCurMana */
@@ -64,8 +64,8 @@ VALUES (33990,  2058,      2)  /* CoordinationOther7 */
      , (33990,  2096,      2)  /* BloodDrinkerSelf7 */
      , (33990,  2101,      2)  /* DefenderSelf7 */
      , (33990,  2116,      2)  /* SwiftKillerSelf7 */
-     , (33990,  2206,      2)  /* BowMasteryOther7 */
+     , (33990,  2206,      2)  /* MissileWeaponsMasteryOther7 */
      , (33990,  2244,      2)  /* InvulnerabilityOther7 */
      , (33990,  2280,      2)  /* MagicResistanceOther7 */
-     , (33990,  2540,      2)  /* CANTRIPBOWAPTITUDE1 */
+     , (33990,  2540,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE1 */
      , (33990,  2572,      2)  /* CANTRIPCOORDINATION2 */;

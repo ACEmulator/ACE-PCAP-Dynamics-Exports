@@ -384,4 +384,19 @@ VALUES (44478, 2, 23685,  1, 0, 0, False) /* Create Kite Shield (23685) for Wiel
      , (44478, 9,  2547,  0, 0, 0, False) /* Create Staff (2547) for ContainTreasure */
      , (44478, 9, 37301,  1, 0, 0, False) /* Create Glyph of Flame (37301) for ContainTreasure */
      , (44478, 9, 37348,  1, 0, 0, False) /* Create Glyph of Frost (37348) for ContainTreasure */
-     , (44478, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */;
+     , (44478, 9,  8488,  0, 0, 0, False) /* Create Armet (8488) for ContainTreasure */
+     , (44478, 9, 40702,  0, 0, 0, False) /* Create Covenant Pauldrons (40702) for ContainTreasure */
+     , (44478, 9, 20611,  0, 0, 0, False) /* Create Scroll of Energize Vitality (20611) for ContainTreasure */
+     , (44478, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
+     , (44478, 9, 20572,  0, 0, 0, False) /* Create Scroll of Kaluhc's Blessing (20572) for ContainTreasure */
+     , (44478, 9, 46879,  0, 0, 0, False) /* Create Aura of Blood Drinker Other VII (46879) for ContainTreasure */
+     , (44478, 9, 20602,  0, 0, 0, False) /* Create Scroll of Vigor Siphon (20602) for ContainTreasure */
+     , (44478, 9, 29242,  0, 0, 0, False) /* Create Frost Bow (29242) for ContainTreasure */
+     , (44478, 9, 37329,  1, 0, 0, False) /* Create Glyph of Run (37329) for ContainTreasure */
+     , (44478, 9, 41485,  0, 0, 0, False) /* Create Pocket Watch (41485) for ContainTreasure */
+     , (44478, 9, 21108,  0, 0, 0, False) /* Create Scroll of Martyr's Blight VII (21108) for ContainTreasure */
+     , (44478, 9,  6046,  0, 0, 0, False) /* Create Amuli Coat (6046) for ContainTreasure */
+     , (44478, 9, 20575,  0, 0, 0, False) /* Create Scroll of Aura of Resistance (20575) for ContainTreasure */
+     , (44478, 9, 37199,  0, 0, 0, False) /* Create Olthoi Helm (37199) for ContainTreasure */
+     , (44478, 9, 20506,  0, 0, 0, False) /* Create Scroll of Light Weapon Mastery Self VII (20506) for ContainTreasure */
+     , (44478, 9, 20555,  0, 0, 0, False) /* Create Scroll of Fat Fingers (20555) for ContainTreasure */;

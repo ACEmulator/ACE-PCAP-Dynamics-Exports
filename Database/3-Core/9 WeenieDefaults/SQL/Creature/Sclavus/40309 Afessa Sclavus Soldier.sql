@@ -67,4 +67,6 @@ VALUES (40309, 2, 46400,  1, 0, 0, False) /* Create T'thuun Bow (46400) for Wiel
      , (40309, 9, 22161,  0, 0, 0, False) /* Create Flaming Nabut (22161) for ContainTreasure */
      , (40309, 9,   130,  0, 0, 0, False) /* Create Shirt (130) for ContainTreasure */
      , (40309, 9, 49369,  0, 0, 0, False) /* Create Acid Grievver Essence (125) (49369) for ContainTreasure */
-     , (40309, 9, 37210,  0, 0, 0, False) /* Create White Bunny Slippers (37210) for ContainTreasure */;
+     , (40309, 9, 37210,  0, 0, 0, False) /* Create White Bunny Slippers (37210) for ContainTreasure */
+     , (40309, 9, 49549,  0, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (150) (49549) for ContainTreasure */
+     , (40309, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */;

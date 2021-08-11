@@ -10,7 +10,7 @@ VALUES (10998,   1,        256) /* ItemType - MissileWeapon */
      , (10998,  16,          1) /* ItemUseable - No */
      , (10998,  19,       5000) /* Value */
      , (10998,  50,         12) /* AmmoType */
-     , (10998,  51,          2) /* CombatUse - Missle */
+     , (10998,  51,          2) /* CombatUse - Missile */
      , (10998,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (10998, 151,          2) /* HookType - Wall */;
 

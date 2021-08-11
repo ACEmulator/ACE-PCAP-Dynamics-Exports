@@ -17,7 +17,7 @@ VALUES (46967,   1,        256) /* ItemType - MissileWeapon */
      , (46967,  48,         47) /* WeaponSkill - MissileWeapons */
      , (46967,  49,         45) /* WeaponTime */
      , (46967,  50,          4) /* AmmoType - Atlatl */
-     , (46967,  51,          2) /* CombatUse - Missle */
+     , (46967,  51,          2) /* CombatUse - Missile */
      , (46967,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46967, 106,        450) /* ItemSpellcraft */
      , (46967, 107,       1000) /* ItemCurMana */
@@ -57,4 +57,4 @@ VALUES (46967,   1,   33557957) /* Setup */
      , (46967,  55,       2228) /* ProcSpell - DefenselessnessOther7 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (46967,  4521,      2)  /* BowMasteryOther8 */;
+VALUES (46967,  4521,      2)  /* MissileWeaponsMasteryOther8 */;

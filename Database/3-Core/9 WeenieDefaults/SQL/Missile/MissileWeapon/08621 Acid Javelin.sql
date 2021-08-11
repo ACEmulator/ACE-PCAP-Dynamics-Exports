@@ -14,7 +14,7 @@ VALUES (8621,   1,        256) /* ItemType - MissileWeapon */
      , (8621,  16,          1) /* ItemUseable - No */
      , (8621,  18,        256) /* UiEffects - Acid */
      , (8621,  19,         20) /* Value */
-     , (8621,  51,          2) /* CombatUse - Missle */
+     , (8621,  51,          2) /* CombatUse - Missile */
      , (8621,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

@@ -54,4 +54,5 @@ VALUES (25861, 9, 42753,  0, 0, 0, False) /* Create Haebrean Helm (42753) for Co
      , (25861, 9, 30823,  0, 0, 0, False) /* Create Broken Black Marrow Key (30823) for ContainTreasure */
      , (25861, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
      , (25861, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
-     , (25861, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */;
+     , (25861, 9,   127,  0, 0, 0, False) /* Create Pants (127) for ContainTreasure */
+     , (25861, 9,   295,  0, 0, 0, False) /* Create Bracelet (295) for ContainTreasure */;

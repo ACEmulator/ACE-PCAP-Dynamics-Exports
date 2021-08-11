@@ -61,4 +61,4 @@ VALUES (42753, 8040, 23855549, 54.38182, -41.19116, 0.03029341, 0.5795639, 0, 0,
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (42753,   779,      2)  /* WeaponExpertiseSelf6 */
      , (42753,  1486,      2)  /* Impenetrability6 */
-     , (42753,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (42753,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */;

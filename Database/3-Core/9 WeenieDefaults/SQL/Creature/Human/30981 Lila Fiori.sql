@@ -15,7 +15,8 @@ VALUES (30981,   1,         16) /* ItemType - Creature */
      , (30981, 113,          2) /* Gender - Female */
      , (30981, 133,          4) /* ShowableOnRadar - ShowAlways */
      , (30981, 134,         16) /* PlayerKillerStatus - RubberGlue */
-     , (30981, 188,          4) /* HeritageGroup - Viamontian */;
+     , (30981, 188,          4) /* HeritageGroup - Viamontian */
+     , (30981, 307,          5) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (30981,   1, True ) /* Stuck */
@@ -45,8 +46,18 @@ INSERT INTO `weenie_properties_position` (`object_Id`, `position_Type`, `obj_Cel
 VALUES (30981, 8040, 669712643, 106.968, 180.458, 80.005, 0.984969, 0, 0, -0.17273) /* PCAPRecordedLocation */
 /* @teleloc 0x27EB0103 [106.968000 180.458000 80.005000] 0.984969 0.000000 0.000000 -0.172730 */;
 
+INSERT INTO `weenie_properties_attribute` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`)
+VALUES (30981,   1,  60, 0, 0) /* Strength */
+     , (30981,   2,  70, 0, 0) /* Endurance */
+     , (30981,   3,  80, 0, 0) /* Quickness */
+     , (30981,   4,  50, 0, 0) /* Coordination */
+     , (30981,   5, 120, 0, 0) /* Focus */
+     , (30981,   6, 130, 0, 0) /* Self */;
+
 INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`, `level_From_C_P`, `c_P_Spent`, `current_Level`)
-VALUES (30981,   1,     0, 0, 0, 45) /* MaxHealth */;
+VALUES (30981,   1,    10, 0, 0, 45) /* MaxHealth */
+     , (30981,   3,    10, 0, 0, 80) /* MaxStamina */
+     , (30981,   5,    10, 0, 0, 140) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (30981, 2, 14917,  1, 0, 0, False) /* Create Elegant Flower Bouquet (14917) for Wield */;

@@ -83,4 +83,27 @@ VALUES (40130, 9, 31820,  0, 0, 0, False) /* Create Acid Baton (31820) for Conta
      , (40130, 9,  2404,  1, 0, 0, False) /* Create Gem (2404) for ContainTreasure */
      , (40130, 9,  7772,  0, 0, 0, False) /* Create Trident (7772) for ContainTreasure */
      , (40130, 9, 40100,  1, 0, 0, False) /* Create Crystalline Shard (40100) for ContainTreasure */
-     , (40130, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */;
+     , (40130, 9, 25661,  0, 0, 0, False) /* Create Leather Boots (25661) for ContainTreasure */
+     , (40130, 9, 31816,  0, 0, 0, False) /* Create Fire Slingshot (31816) for ContainTreasure */
+     , (40130, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */
+     , (40130, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */
+     , (40130, 9,  3817,  0, 0, 0, False) /* Create Frost Kasrullah (3817) for ContainTreasure */
+     , (40130, 9, 28622,  0, 0, 0, False) /* Create Tenassa Leggings (28622) for ContainTreasure */
+     , (40130, 9, 31764,  0, 0, 0, False) /* Create Lugian Hammer (31764) for ContainTreasure */
+     , (40130, 9,   621,  0, 0, 0, False) /* Create Heavy Bracelet (621) for ContainTreasure */
+     , (40130, 9, 31805,  0, 0, 0, False) /* Create Slashing Compound Crossbow (31805) for ContainTreasure */
+     , (40130, 9, 28633,  0, 0, 0, False) /* Create Diforsa Girth (28633) for ContainTreasure */
+     , (40130, 9,   308,  0, 0, 0, False) /* Create Budiaq (308) for ContainTreasure */
+     , (40130, 9, 31802,  0, 0, 0, False) /* Create Fire Compound Bow (31802) for ContainTreasure */
+     , (40130, 9, 20507,  0, 0, 0, False) /* Create Scroll of Missile Weapon Ineptitude Other VII (20507) for ContainTreasure */
+     , (40130, 9, 45120,  0, 0, 0, False) /* Create Lightning Hand Wraps (45120) for ContainTreasure */
+     , (40130, 9, 40102,  1, 0, 0, False) /* Create Rare Crystalline Shard (40102) for ContainTreasure */
+     , (40130, 9, 45422,  0, 0, 0, False) /* Create Acid Dagger (45422) for ContainTreasure */
+     , (40130, 9, 42755,  0, 0, 0, False) /* Create Haebrean Boots (42755) for ContainTreasure */
+     , (40130, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (40130, 9, 30596,  0, 0, 0, False) /* Create Poniard (30596) for ContainTreasure */
+     , (40130, 9, 25638,  0, 0, 0, False) /* Create Leather Vest (25638) for ContainTreasure */
+     , (40130, 9,  4196,  0, 0, 0, False) /* Create Flaming Nekode (4196) for ContainTreasure */
+     , (40130, 9, 20477,  0, 0, 0, False) /* Create Scroll of Fiery Boon (20477) for ContainTreasure */
+     , (40130, 9,    91,  0, 0, 0, False) /* Create Kite Shield (91) for ContainTreasure */
+     , (40130, 9, 41039,  0, 0, 0, False) /* Create Flaming Assagai (41039) for ContainTreasure */;

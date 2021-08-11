@@ -10,6 +10,9 @@ VALUES (980,   1,         16) /* ItemType - Creature */
      , (980,   7,         -1) /* ContainersCapacity */
      , (980,  16,         32) /* ItemUseable - Remote */
      , (980,  25,         10) /* Level */
+     , (980,  74,     264200) /* MerchandiseItemTypes - Jewelry, Gem, PromissoryNote */
+     , (980,  75,          0) /* MerchandiseMinValue */
+     , (980,  76,      25000) /* MerchandiseMaxValue */
      , (980,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (980, 113,          1) /* Gender - Male */
      , (980, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -18,10 +21,13 @@ VALUES (980,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (980,   1, True ) /* Stuck */
-     , (980,  19, False) /* Attackable */;
+     , (980,  19, False) /* Attackable */
+     , (980,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (980,  54,       3) /* UseRadius */;
+VALUES (980,  37,     0.9) /* BuyPrice */
+     , (980,  38,    1.35) /* SellPrice */
+     , (980,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (980,   1, 'Jeweler Fathlan ibn Nuril') /* Name */
@@ -56,3 +62,18 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (980,   1,    60, 0, 0, 105) /* MaxHealth */
      , (980,   3,    90, 0, 0, 180) /* MaxStamina */
      , (980,   5,    50, 0, 0, 85) /* MaxMana */;
+
+INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
+VALUES (980, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) for Shop */
+     , (980, 4, 41403, -1, 0, 0, False) /* Create Jeweler's Saw Frame (41403) for Shop */
+     , (980, 4, 41400, -1, 0, 0, False) /* Create Lapping Plate (41400) for Shop */
+     , (980, 4, 41397, -1, 0, 0, False) /* Create Abrasive Polish (41397) for Shop */
+     , (980, 4, 41393, -1, 0, 0, False) /* Create Lense Frame (41393) for Shop */
+     , (980, 4, 41395, -1, 0, 0, False) /* Create Unfinished Lense (41395) for Shop */
+     , (980, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
+     , (980, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
+     , (980, 4,  2413, -1, 0, 0, False) /* Create Gem (2413) for Shop */
+     , (980, 4,  2418, -1, 0, 0, False) /* Create Gem (2418) for Shop */
+     , (980, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (980, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (980, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

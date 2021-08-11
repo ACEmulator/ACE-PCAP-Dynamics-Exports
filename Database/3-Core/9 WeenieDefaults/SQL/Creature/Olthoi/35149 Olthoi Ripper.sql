@@ -50,4 +50,5 @@ VALUES (35149,   1,  3650, 0, 0, 3840) /* MaxHealth */
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (35149, 2, 32665,  1, 0, 0, False) /* Create Guardian's Smoldering Atlan Sword (32665) for Wield */
      , (35149, 2, 23692,  1, 0, 0, False) /* Create Frost Spear (23692) for Wield */
-     , (35149, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */;
+     , (35149, 2, 32123,  1, 0, 0, False) /* Create Acid Spear (32123) for Wield */
+     , (35149, 2, 47645,  1, 0, 0, False) /* Create Tachi (47645) for Wield */;

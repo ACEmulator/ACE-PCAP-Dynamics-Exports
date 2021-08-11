@@ -159,4 +159,5 @@ VALUES (25879, 9, 20504,  0, 0, 0, False) /* Create Scroll of Light Weapon Inept
      , (25879, 9, 31866,  0, 0, 0, False) /* Create Coronet (31866) for ContainTreasure */
      , (25879, 9, 20403,  0, 0, 0, False) /* Create Scroll of Olthoi Bait (20403) for ContainTreasure */
      , (25879, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
-     , (25879, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */;
+     , (25879, 9, 29204,  1, 0, 0, False) /* Create Tusker Spit (29204) for ContainTreasure */
+     , (25879, 9, 20563,  0, 0, 0, False) /* Create Scroll of Eyes Clouded (20563) for ContainTreasure */;

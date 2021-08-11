@@ -78,4 +78,4 @@ VALUES (46828,  3963,      2)  /* CANTRIPCOORDINATION3 */
      , (46828,  4400,      2)  /* DefenderSelf8 */
      , (46828,  4405,      2)  /* HeartSeekerSelf8 */
      , (46828,  4417,      2)  /* SwiftKillerSelf8 */
-     , (46828,  6072,      2)  /* CantripSwordAptitude4 */;
+     , (46828,  6072,      2)  /* CantripHeavyWeaponsAptitude4 */;

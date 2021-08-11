@@ -43,7 +43,9 @@ INSERT INTO `weenie_properties_attribute_2nd` (`object_Id`, `type`, `init_Level`
 VALUES (12132,   1,     0, 0, 0, 845) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (12132, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
+VALUES (12132, 2, 31389,  1, 0, 0, False) /* Create Raven Sabra (31389) for Wield */
+     , (12132, 2, 31392,  1, 0, 0, False) /* Create Raven Hand Aegis (31392) for Wield */
+     , (12132, 9,   359,  0, 0, 0, False) /* Create War Hammer (359) for ContainTreasure */
      , (12132, 9, 29238,  0, 0, 0, False) /* Create Acid Bow (29238) for ContainTreasure */
      , (12132, 9,  2408,  1, 0, 0, False) /* Create Gem (2408) for ContainTreasure */
      , (12132, 9,   132,  0, 0, 0, False) /* Create Shoes (132) for ContainTreasure */

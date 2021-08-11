@@ -52,6 +52,7 @@ INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `w
 VALUES (31005, 2, 47238,  1, 0, 0, False) /* Create Acid Board with Nail (47238) for Wield */
      , (31005, 2, 47257,  1, 0, 0, False) /* Create Board with Nail (47257) for Wield */
      , (31005, 2, 30625,  1, 0, 0, False) /* Create War Bow (30625) for Wield */
+     , (31005, 2, 47515,  1, 0, 0, False) /* Create Flaming Tachi (47515) for Wield */
      , (31005, 9, 43491,  2, 0, 0, False) /* Create Pitted Slag (43491) for ContainTreasure */
      , (31005, 9, 25641,  0, 0, 0, False) /* Create Leather Cuirass (25641) for ContainTreasure */
      , (31005, 9,  6048,  0, 0, 0, False) /* Create Celdon Sleeves (6048) for ContainTreasure */

@@ -60,6 +60,7 @@ VALUES (35092, 2, 48086,  1, 0, 0, False) /* Create Nekode (48086) for Wield */
      , (35092, 2, 48082,  1, 0, 0, False) /* Create Lightning Quarrel (48082) for Wield */
      , (35092, 2, 48093,  1, 0, 0, False) /* Create Acid Ono (48093) for Wield */
      , (35092, 2, 48081,  1, 0, 0, False) /* Create Acid Quarrel (48081) for Wield */
+     , (35092, 2, 46648,  1, 0, 0, False) /* Create Spectral Lightning Nodachi (46648) for Wield */
      , (35092, 9, 37215,  0, 0, 0, False) /* Create Olthoi Koujia Breastplate (37215) for ContainTreasure */
      , (35092, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
      , (35092, 9, 31777,  0, 0, 0, False) /* Create Fire Board with Nail (31777) for ContainTreasure */

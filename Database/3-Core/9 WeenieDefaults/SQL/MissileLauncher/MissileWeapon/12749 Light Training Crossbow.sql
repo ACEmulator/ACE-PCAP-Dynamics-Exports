@@ -14,7 +14,7 @@ VALUES (12749,   1,        256) /* ItemType - MissileWeapon */
      , (12749,  48,         47) /* WeaponSkill - MissileWeapons */
      , (12749,  49,         70) /* WeaponTime */
      , (12749,  50,          2) /* AmmoType - Bolt */
-     , (12749,  51,          2) /* CombatUse - Missle */
+     , (12749,  51,          2) /* CombatUse - Missile */
      , (12749,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12749, 151,          2) /* HookType - Wall */
      , (12749, 353,          9) /* WeaponType - Crossbow */;

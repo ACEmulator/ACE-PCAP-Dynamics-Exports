@@ -14,7 +14,7 @@ VALUES (38630,   1,         16) /* ItemType - Creature */
      , (38630, 113,          1) /* Gender - Male */
      , (38630, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38630, 188,          1) /* HeritageGroup - Aluvian */
-     , (38630, 281,          1) /* Faction1Bits */
+     , (38630, 281,          1) /* Faction1Bits - CelestialHand */
      , (38630, 287,        101) /* SocietyRankCelhan */
      , (38630, 307,          5) /* DamageRating */;
 

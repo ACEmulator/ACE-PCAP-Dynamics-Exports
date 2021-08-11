@@ -58,7 +58,7 @@ VALUES (8526, 8040, 2238578958, 153.7642, 157.0179, 9.629, -0.04102621, -0.04102
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (8526,   270,      2)  /* MagicResistanceOther3 */
-     , (8526,   319,      2)  /* DaggerMasteryOther4 */
+     , (8526,   319,      2)  /* FinesseWeaponsMasteryOther4 */
      , (8526,   992,      2)  /* SprintOther5 */
      , (8526,  1314,      2)  /* ArmorOther3 */
      , (8526,  1358,      2)  /* EnduranceOther4 */

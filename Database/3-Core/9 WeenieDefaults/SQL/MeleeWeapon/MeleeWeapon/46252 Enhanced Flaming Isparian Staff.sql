@@ -63,5 +63,5 @@ VALUES (46252,  2087,      2)  /* StrengthSelf7 */
      , (46252,  2106,      2)  /* HeartSeekerSelf7 */
      , (46252,  2116,      2)  /* SwiftKillerSelf7 */
      , (46252,  2157,      2)  /* FireProtectionSelf7 */
-     , (46252,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (46252,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (46252,  2586,      2)  /* CANTRIPBLOODTHIRST2 */;

@@ -19,7 +19,7 @@ VALUES (22544,   1,        256) /* ItemType - MissileWeapon */
      , (22544,  45,         64) /* DamageType - Electric */
      , (22544,  48,         47) /* WeaponSkill - MissileWeapons */
      , (22544,  49,         10) /* WeaponTime */
-     , (22544,  51,          2) /* CombatUse - Missle */
+     , (22544,  51,          2) /* CombatUse - Missile */
      , (22544,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (22544, 307,          5) /* DamageRating */
      , (22544, 313,          0) /* CritRating */

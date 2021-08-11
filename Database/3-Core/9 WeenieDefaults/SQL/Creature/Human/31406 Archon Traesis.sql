@@ -50,4 +50,5 @@ VALUES (31406, 2, 31386,  1, 0, 0, False) /* Create Raven Sabra (31386) for Wiel
      , (31406, 2, 31388,  1, 0, 0, False) /* Create Raven Sabra (31388) for Wield */
      , (31406, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
      , (31406, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
-     , (31406, 9, 31396,  0, 0, 0, False) /* Create Caliginous Aegis (31396) for ContainTreasure */;
+     , (31406, 9, 31396,  0, 0, 0, False) /* Create Caliginous Aegis (31396) for ContainTreasure */
+     , (31406, 9,  2605,  0, 0, 0, False) /* Create Chainmail Greaves (2605) for ContainTreasure */;

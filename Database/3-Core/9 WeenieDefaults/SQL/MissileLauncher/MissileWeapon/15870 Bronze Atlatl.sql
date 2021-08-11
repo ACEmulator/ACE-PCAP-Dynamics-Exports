@@ -15,7 +15,7 @@ VALUES (15870,   1,        256) /* ItemType - MissileWeapon */
      , (15870,  48,         47) /* WeaponSkill - MissileWeapons */
      , (15870,  49,         -1) /* WeaponTime */
      , (15870,  50,          4) /* AmmoType - Atlatl */
-     , (15870,  51,          2) /* CombatUse - Missle */
+     , (15870,  51,          2) /* CombatUse - Missile */
      , (15870,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (15870, 114,          1) /* Attuned - Attuned */
      , (15870, 353,         10) /* WeaponType - Thrown */;

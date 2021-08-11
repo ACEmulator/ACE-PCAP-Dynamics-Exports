@@ -359,4 +359,16 @@ VALUES (11541, 9, 45404,  0, 0, 0, False) /* Create Shadow Blade of Flame (45404
      , (11541, 9,    99,  0, 0, 0, False) /* Create Studded Leather Shirt (99) for ContainTreasure */
      , (11541, 9,  3012,  0, 0, 0, False) /* Create Scroll of Bludgeon Protection Self VI (3012) for ContainTreasure */
      , (11541, 9,  2472,  0, 0, 0, False) /* Create Wand (2472) for ContainTreasure */
-     , (11541, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */;
+     , (11541, 9, 20579,  0, 0, 0, False) /* Create Scroll of Saladur's Boon (20579) for ContainTreasure */
+     , (11541, 9, 49381,  0, 0, 0, False) /* Create Fire Grievver Essence (80) (49381) for ContainTreasure */
+     , (11541, 9,  2841,  0, 0, 0, False) /* Create Scroll of Hermetic Void VI (2841) for ContainTreasure */
+     , (11541, 9,    82,  0, 0, 0, False) /* Create Platemail Leggings (82) for ContainTreasure */
+     , (11541, 9, 21151,  0, 0, 0, False) /* Create Covenant Bracers (21151) for ContainTreasure */
+     , (11541, 9, 20573,  0, 0, 0, False) /* Create Scroll of Introversion (20573) for ContainTreasure */
+     , (11541, 9,   342,  0, 0, 0, False) /* Create Shou-ono (342) for ContainTreasure */
+     , (11541, 9, 20613,  0, 0, 0, False) /* Create Scroll of Energize Vigor (20613) for ContainTreasure */
+     , (11541, 9,  2419,  1, 0, 0, False) /* Create Gem (2419) for ContainTreasure */
+     , (11541, 9, 45417,  0, 0, 0, False) /* Create Acid Knife (45417) for ContainTreasure */
+     , (11541, 9,  2406,  1, 0, 0, False) /* Create Gem (2406) for ContainTreasure */
+     , (11541, 9, 43375,  0, 0, 0, False) /* Create Scroll of Void Magic Mastery Other VII (43375) for ContainTreasure */
+     , (11541, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */;

@@ -375,4 +375,22 @@ VALUES (44804, 2, 48229,  1, 0, 0, False) /* Create Acid Bow (48229) for Wield *
      , (44804, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
      , (44804, 9, 28617,  0, 0, 0, False) /* Create Alduressa Helm (28617) for ContainTreasure */
      , (44804, 9,  4194,  0, 0, 0, False) /* Create Lightning Cestus (4194) for ContainTreasure */
-     , (44804, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */;
+     , (44804, 9, 31790,  0, 0, 0, False) /* Create Lightning Stick (31790) for ContainTreasure */
+     , (44804, 9, 21336,  0, 0, 0, False) /* Create Scroll of Shock Arc VII (21336) for ContainTreasure */
+     , (44804, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
+     , (44804, 9, 37209,  0, 0, 0, False) /* Create Olthoi Celdon Sollerets (37209) for ContainTreasure */
+     , (44804, 9, 20476,  0, 0, 0, False) /* Create Scroll of Gelidite's Gift (20476) for ContainTreasure */
+     , (44804, 9, 45266,  0, 0, 0, False) /* Create Scroll of Dual Wield Ineptitude Other VII (45266) for ContainTreasure */
+     , (44804, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
+     , (44804, 9,    98,  0, 0, 0, False) /* Create Scalemail Shirt (98) for ContainTreasure */
+     , (44804, 9, 21329,  0, 0, 0, False) /* Create Scroll of Lightning Arc VII (21329) for ContainTreasure */
+     , (44804, 9, 30583,  0, 0, 0, False) /* Create Flaming Mazule (30583) for ContainTreasure */
+     , (44804, 9, 31818,  0, 0, 0, False) /* Create Piercing Slingshot (31818) for ContainTreasure */
+     , (44804, 9, 31780,  0, 0, 0, False) /* Create Acid Spine Glaive (31780) for ContainTreasure */
+     , (44804, 9, 45101,  0, 0, 0, False) /* Create Lightning Epee (45101) for ContainTreasure */
+     , (44804, 9, 37355,  1, 0, 0, False) /* Create Ink of Objectification (37355) for ContainTreasure */
+     , (44804, 9,   415,  0, 0, 0, False) /* Create Chainmail Girth (415) for ContainTreasure */
+     , (44804, 9, 37353,  1, 0, 0, False) /* Create Ink of Formation (37353) for ContainTreasure */
+     , (44804, 9,  3939,  0, 0, 0, False) /* Create Acid Morning Star (3939) for ContainTreasure */
+     , (44804, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
+     , (44804, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */;

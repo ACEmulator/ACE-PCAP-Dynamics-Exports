@@ -49,7 +49,7 @@ VALUES (33585,   1,   33554648) /* Setup */
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
 VALUES (33585,  2108,      2)  /* Impenetrability7 */
-     , (33585,  2202,      2)  /* AxeMasteryOther7 */
-     , (33585,  2222,      2)  /* DaggerMasteryOther7 */
+     , (33585,  2202,      2)  /* LightWeaponsMasteryOther7 */
+     , (33585,  2222,      2)  /* FinesseWeaponsMasteryOther7 */
      , (33585,  3573,      2)  /* InnerMight */
      , (33585,  5097,      2)  /* TwoHandedMasteryOther7 */;

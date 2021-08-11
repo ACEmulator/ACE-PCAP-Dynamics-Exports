@@ -57,7 +57,8 @@ VALUES (22911,   1,   455, 0, 0, 535) /* MaxHealth */
      , (22911,   5,   380, 0, 0, 490) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22911, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
+VALUES (22911, 2, 46636,  1, 0, 0, False) /* Create Frost Longbow (46636) for Wield */
+     , (22911, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for ContainTreasure */
      , (22911, 9, 27330,  0, 0, 0, False) /* Create Moderate Mana Stone (27330) for ContainTreasure */
      , (22911, 9,   135,  0, 0, 0, False) /* Create Turban (135) for ContainTreasure */
      , (22911, 9,  2436,  0, 0, 0, False) /* Create Greater Mana Stone (2436) for ContainTreasure */
@@ -95,4 +96,5 @@ VALUES (22911, 9,    55,  0, 0, 0, False) /* Create Chainmail Gauntlets (55) for
      , (22911, 9,   154,  0, 0, 0, False) /* Create Goblet (154) for ContainTreasure */
      , (22911, 9, 20255,  0, 0, 0, False) /* Create Scroll of Senescence (20255) for ContainTreasure */
      , (22911, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (22911, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */;
+     , (22911, 9,   150,  0, 0, 0, False) /* Create Flagon (150) for ContainTreasure */
+     , (22911, 9,  2398,  1, 0, 0, False) /* Create Gem (2398) for ContainTreasure */;

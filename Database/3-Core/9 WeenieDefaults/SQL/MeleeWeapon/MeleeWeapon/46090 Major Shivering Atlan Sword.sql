@@ -67,4 +67,4 @@ VALUES (46090,  2081,      2)  /* QuicknessSelf7 */
      , (46090,  2106,      2)  /* HeartSeekerSelf7 */
      , (46090,  2116,      2)  /* SwiftKillerSelf7 */
      , (46090,  2155,      2)  /* ColdProtectionSelf7 */
-     , (46090,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */;
+     , (46090,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */;

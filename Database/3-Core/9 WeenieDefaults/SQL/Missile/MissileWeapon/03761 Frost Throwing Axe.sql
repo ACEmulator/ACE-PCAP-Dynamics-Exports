@@ -14,7 +14,7 @@ VALUES (3761,   1,        256) /* ItemType - MissileWeapon */
      , (3761,  16,          1) /* ItemUseable - No */
      , (3761,  18,        128) /* UiEffects - Frost */
      , (3761,  19,         25) /* Value */
-     , (3761,  51,          2) /* CombatUse - Missle */
+     , (3761,  51,          2) /* CombatUse - Missile */
      , (3761,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (3761, 151,          2) /* HookType - Wall */;
 

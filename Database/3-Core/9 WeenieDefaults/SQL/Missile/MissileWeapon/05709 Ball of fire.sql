@@ -19,7 +19,7 @@ VALUES (5709,   1,        256) /* ItemType - MissileWeapon */
      , (5709,  45,         16) /* DamageType - Fire */
      , (5709,  48,         47) /* WeaponSkill - MissileWeapons */
      , (5709,  49,         10) /* WeaponTime */
-     , (5709,  51,          2) /* CombatUse - Missle */
+     , (5709,  51,          2) /* CombatUse - Missile */
      , (5709,  93,     164884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ScriptedCollision, Inelastic */
      , (5709, 307,          5) /* DamageRating */
      , (5709, 313,          0) /* CritRating */

@@ -15,30 +15,7 @@ VALUES (52084,   1,         16) /* ItemType - Creature */
      , (52084,  48,         44) /* WeaponSkill - HeavyWeapons */
      , (52084,  49,         -1) /* WeaponTime */
      , (52084,  93,    6292508) /* PhysicsState - Ethereal, ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment, EdgeSlide */
-     , (52084, 307,        225) /* DamageRating */
-     , (52084, 308,          0) /* DamageResistRating */
-     , (52084, 313,          0) /* CritRating */
-     , (52084, 314,          0) /* CritDamageRating */
-     , (52084, 315,          0) /* CritResistRating */
-     , (52084, 316,          0) /* CritDamageResistRating */
-     , (52084, 370,          0) /* GearDamage */
-     , (52084, 371,          0) /* GearDamageResist */
-     , (52084, 372,          0) /* GearCrit */
-     , (52084, 373,          0) /* GearCritResist */
-     , (52084, 374,          0) /* GearCritDamage */
-     , (52084, 375,          0) /* GearCritDamageResist */
-     , (52084, 376,          0) /* GearHealingBoost */
-     , (52084, 377,          0) /* GearNetherResist */
-     , (52084, 378,          0) /* GearLifeResist */
-     , (52084, 379,          0) /* GearMaxHealth */
-     , (52084, 381,          0) /* PKDamageRating */
-     , (52084, 382,          0) /* PKDamageResistRating */
-     , (52084, 383,          0) /* GearPKDamageRating */
-     , (52084, 384,          0) /* GearPKDamageResistRating */
-     , (52084, 386,          0) /* Overpower */
-     , (52084, 387,          0) /* OverpowerResist */
-     , (52084, 388,          0) /* GearOverpower */
-     , (52084, 389,          0) /* GearOverpowerResist */;
+     , (52084, 307,        225) /* DamageRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (52084,   1, True ) /* Stuck */
@@ -73,4 +50,5 @@ VALUES (52084, 2, 12056,  1, 0, 0, False) /* Create Bandit Acid Jambiya (12056) 
      , (52084, 2, 12070,  1, 0, 0, False) /* Create Bandit Frost Knife (12070) for Wield */
      , (52084, 2, 12055,  1, 0, 0, False) /* Create Bandit Frost Dagger (12055) for Wield */
      , (52084, 2, 12079,  1, 0, 0, False) /* Create Bandit Lightning Short Sword (12079) for Wield */
-     , (52084, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */;
+     , (52084, 2, 12051,  1, 0, 0, False) /* Create Bandit Acid Dagger (12051) for Wield */
+     , (52084, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */;

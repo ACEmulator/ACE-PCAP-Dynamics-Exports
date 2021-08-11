@@ -70,4 +70,8 @@ VALUES (38147, 2, 23736,  1, 0, 0, False) /* Create Yumi (23736) for Wield */
      , (38147, 9, 27319,  1, 0, 0, False) /* Create Health Tincture (27319) for ContainTreasure */
      , (38147, 9, 45406,  0, 0, 0, False) /* Create Yaoji (45406) for ContainTreasure */
      , (38147, 9,  7790,  0, 0, 0, False) /* Create Electric Spiked Club (7790) for ContainTreasure */
-     , (38147, 9,   273, 905, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */;
+     , (38147, 9,   273, 905, 0, 0, False) /* Create Pyreal (273) for ContainTreasure */
+     , (38147, 9, 20531,  0, 0, 0, False) /* Create Scroll of Lilitha's Blessing (20531) for ContainTreasure */
+     , (38147, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (38147, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */
+     , (38147, 9, 27324,  1, 0, 0, False) /* Create Stamina Brew (27324) for ContainTreasure */;

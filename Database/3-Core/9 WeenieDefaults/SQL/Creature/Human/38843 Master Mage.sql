@@ -14,7 +14,7 @@ VALUES (38843,   1,         16) /* ItemType - Creature */
      , (38843, 113,          2) /* Gender - Female */
      , (38843, 133,          2) /* ShowableOnRadar - ShowMovement */
      , (38843, 188,          4) /* HeritageGroup - Viamontian */
-     , (38843, 281,          2) /* Faction1Bits */
+     , (38843, 281,          2) /* Faction1Bits - EldrytchWeb */
      , (38843, 288,       1001) /* SocietyRankEldweb */
      , (38843, 307,          5) /* DamageRating */;
 

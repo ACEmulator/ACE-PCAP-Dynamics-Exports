@@ -14,7 +14,7 @@ VALUES (2024,   1,        256) /* ItemType - MissileWeapon */
      , (2024,  48,         47) /* WeaponSkill - MissileWeapons */
      , (2024,  49,         50) /* WeaponTime */
      , (2024,  50,          1) /* AmmoType - Arrow */
-     , (2024,  51,          2) /* CombatUse - Missle */
+     , (2024,  51,          2) /* CombatUse - Missile */
      , (2024,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2024, 151,          2) /* HookType - Wall */
      , (2024, 353,          8) /* WeaponType - Bow */;

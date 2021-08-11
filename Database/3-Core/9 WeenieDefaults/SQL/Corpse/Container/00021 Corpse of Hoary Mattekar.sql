@@ -98,4 +98,30 @@ VALUES (21, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
      , (21, 2, 22776,  1, 0, 0, False) /* Create Bandit Dagger (22776) for Wield */
      , (21, 2, 47523,  1, 0, 0, False) /* Create Acid Javelin (47523) for Wield */
      , (21, 2, 47253,  1, 0, 0, False) /* Create Board with Nail (47253) for Wield */
-     , (21, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */;
+     , (21, 2, 47248,  1, 0, 0, False) /* Create Board with Nail (47248) for Wield */
+     , (21, 2, 43134,  1, 0, 0, False) /* Create Raider Lightning Bolt (43134) for Wield */
+     , (21, 2, 47369,  1, 0, 0, False) /* Create Lightning Club (47369) for Wield */
+     , (21, 2, 23734,  1, 0, 0, False) /* Create Yumi (23734) for Wield */
+     , (21, 2, 48595,  1, 0, 0, False) /* Create Frozen Dagger (48595) for Wield */
+     , (21, 2,  9597,  1, 0, 0, False) /* Create Bow of the Quiddity (9597) for Wield */
+     , (21, 2, 46369,  1, 0, 0, False) /* Create Spectral Lightning Nekode (46369) for Wield */
+     , (21, 2, 46368,  1, 0, 0, False) /* Create Spectral Acid Nekode (46368) for Wield */
+     , (21, 2, 46367,  1, 0, 0, False) /* Create Spectral Frost Tachi (46367) for Wield */
+     , (21, 2,  7799,  1, 0, 0, False) /* Create Ball of plasma (7799) for Wield */
+     , (21, 2, 47350,  1, 0, 0, False) /* Create Club (47350) for Wield */
+     , (21, 2, 31387,  1, 0, 0, False) /* Create Raven Sabra (31387) for Wield */
+     , (21, 2, 23748,  1, 0, 0, False) /* Create Rock (23748) for Wield */
+     , (21, 2, 47407,  1, 0, 0, False) /* Create Frost Club (47407) for Wield */
+     , (21, 2, 32637,  1, 0, 0, False) /* Create Shield of Elysa's Royal Guard (32637) for Wield */
+     , (21, 2, 46370,  1, 0, 0, False) /* Create Spectral Flaming Nekode (46370) for Wield */
+     , (21, 2, 46389,  1, 0, 0, False) /* Create Bloodletting Dagger (46389) for Wield */
+     , (21, 2, 48024,  1, 0, 0, False) /* Create Katar (48024) for Wield */
+     , (21, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (21, 2, 29976,  1, 0, 0, False) /* Create Spadone (29976) for Wield */
+     , (21, 2, 48615,  1, 0, 0, False) /* Create Frozen Dagger (48615) for Wield */
+     , (21, 2, 29975,  1, 0, 0, False) /* Create Spadone (29975) for Wield */
+     , (21, 2, 12086,  1, 0, 0, False) /* Create Bandit Frost Yaoji (12086) for Wield */
+     , (21, 2, 47389,  1, 0, 0, False) /* Create Flaming Club (47389) for Wield */
+     , (21, 2, 22795,  1, 0, 0, False) /* Create Bandit Short Sword (22795) for Wield */
+     , (21, 2,    44,  1, 0, 0, False) /* Create Buckler (44) for Wield */
+     , (21, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */;

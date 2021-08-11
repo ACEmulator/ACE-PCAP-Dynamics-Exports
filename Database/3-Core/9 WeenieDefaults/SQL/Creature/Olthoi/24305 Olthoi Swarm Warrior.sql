@@ -64,4 +64,6 @@ VALUES (24305, 9, 20549,  0, 0, 0, False) /* Create Scroll of Kwipetian Vision (
      , (24305, 9,    57,  0, 0, 0, False) /* Create Platemail Gauntlets (57) for ContainTreasure */
      , (24305, 9, 43308,  0, 0, 0, False) /* Create Scroll of Nether Bolt VII (43308) for ContainTreasure */
      , (24305, 9, 40699,  0, 0, 0, False) /* Create Covenant Girth (40699) for ContainTreasure */
-     , (24305, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */;
+     , (24305, 9,  3915,  0, 0, 0, False) /* Create Flaming Yari (3915) for ContainTreasure */
+     , (24305, 9,  7797,  0, 0, 0, False) /* Create Acid Naginata (7797) for ContainTreasure */
+     , (24305, 9, 20522,  0, 0, 0, False) /* Create Scroll of Hearts on Sleeves (20522) for ContainTreasure */;

@@ -13,7 +13,7 @@ VALUES (37233,   1,        256) /* ItemType - MissileWeapon */
      , (37233,  15,          0) /* StackUnitValue */
      , (37233,  16,          1) /* ItemUseable - No */
      , (37233,  18,         32) /* UiEffects - Fire */
-     , (37233,  51,          2) /* CombatUse - Missle */
+     , (37233,  51,          2) /* CombatUse - Missile */
      , (37233,  93,     164884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ScriptedCollision, Inelastic */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)

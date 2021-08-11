@@ -16,7 +16,7 @@ VALUES (51988,   1,        256) /* ItemType - MissileWeapon */
      , (51988,  48,         47) /* WeaponSkill - MissileWeapons */
      , (51988,  49,          1) /* WeaponTime */
      , (51988,  50,          1) /* AmmoType - Arrow */
-     , (51988,  51,          2) /* CombatUse - Missle */
+     , (51988,  51,          2) /* CombatUse - Missile */
      , (51988,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51988, 106,        475) /* ItemSpellcraft */
      , (51988, 107,       3000) /* ItemCurMana */
@@ -67,4 +67,4 @@ VALUES (51988,  3963,      2)  /* CANTRIPCOORDINATION3 */
      , (51988,  4019,      2)  /* CANTRIPQUICKNESS3 */
      , (51988,  4395,      2)  /* BloodDrinkerSelf8 */
      , (51988,  4400,      2)  /* DefenderSelf8 */
-     , (51988,  6044,      2)  /* CantripBowAptitude4 */;
+     , (51988,  6044,      2)  /* CantripMissileWeaponsAptitude4 */;

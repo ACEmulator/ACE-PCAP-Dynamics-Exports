@@ -270,4 +270,11 @@ VALUES (22518, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for C
      , (22518, 9, 45113,  0, 0, 0, False) /* Create Hammer (45113) for ContainTreasure */
      , (22518, 9,  2401,  1, 0, 0, False) /* Create Gem (2401) for ContainTreasure */
      , (22518, 9, 29263,  0, 0, 0, False) /* Create Frost Sceptre (29263) for ContainTreasure */
-     , (22518, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */;
+     , (22518, 9,   103,  0, 0, 0, False) /* Create Platemail Sleeves (103) for ContainTreasure */
+     , (22518, 9, 20599,  0, 0, 0, False) /* Create Scroll of Eye of the Grunt (20599) for ContainTreasure */
+     , (22518, 9,    95,  0, 0, 0, False) /* Create Tower Shield (95) for ContainTreasure */
+     , (22518, 9, 43377,  0, 0, 0, False) /* Create Scroll of Void Mastery Self VII (43377) for ContainTreasure */
+     , (22518, 9,  2394,  1, 0, 0, False) /* Create Gem (2394) for ContainTreasure */
+     , (22518, 9, 20460,  0, 0, 0, False) /* Create Scroll of Crushing Shame (20460) for ContainTreasure */
+     , (22518, 9,  2601,  0, 0, 0, False) /* Create Loose Pants (2601) for ContainTreasure */
+     , (22518, 9, 29254,  0, 0, 0, False) /* Create Electric Atlatl (29254) for ContainTreasure */;

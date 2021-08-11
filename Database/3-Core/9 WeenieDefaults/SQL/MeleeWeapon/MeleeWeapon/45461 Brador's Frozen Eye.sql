@@ -71,4 +71,4 @@ VALUES (45461,  4325,      2)  /* StrengthSelf8 */
      , (45461,  4596,      2)  /* MagicResistanceSelf8 */
      , (45461,  4661,      2)  /* CANTRIPBLOODTHIRST3 */
      , (45461,  4676,      2)  /* CANTRIPFROSTWARD3 */
-     , (45461,  4712,      2)  /* CANTRIPSWORDAPTITUDE3 */;
+     , (45461,  4712,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE3 */;

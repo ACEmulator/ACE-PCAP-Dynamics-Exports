@@ -14,7 +14,7 @@ VALUES (47529,   1,        256) /* ItemType - MissileWeapon */
      , (47529,  16,          1) /* ItemUseable - No */
      , (47529,  18,        256) /* UiEffects - Acid */
      , (47529,  19,          4) /* Value */
-     , (47529,  51,          2) /* CombatUse - Missle */
+     , (47529,  51,          2) /* CombatUse - Missile */
      , (47529,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (47529, 151,          2) /* HookType - Wall */;
 

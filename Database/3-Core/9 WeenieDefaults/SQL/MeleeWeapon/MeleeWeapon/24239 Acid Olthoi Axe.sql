@@ -56,7 +56,7 @@ VALUES (24239, 8040, 3332964371, 63.27494, 71.94697, 42, -0.6607589, 0, 0, -0.75
 /* @teleloc 0xC6A90013 [63.274940 71.946970 42.000000] -0.660759 0.000000 0.000000 -0.750598 */;
 
 INSERT INTO `weenie_properties_spell_book` (`object_Id`, `spell`, `probability`)
-VALUES (24239,   297,      2)  /* AxeMasteryOther6 */
+VALUES (24239,   297,      2)  /* LightWeaponsMasteryOther6 */
      , (24239,  1592,      2)  /* HeartSeekerSelf6 */
      , (24239,  1616,      2)  /* BloodDrinkerSelf6 */
-     , (24239,  2539,      2)  /* CANTRIPAXEAPTITUDE1 */;
+     , (24239,  2539,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE1 */;

@@ -16,8 +16,7 @@ VALUES (35921,   1,        128) /* ItemType - Misc */
      , (35921,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (35921,  98, 1483945802) /* CreationTimestamp */
      , (35921, 114,          1) /* Attuned - Attuned */
-     , (35921, 267,       3600) /* Lifespan */
-     , (35921, 268,       3600) /* RemainingLifespan */;
+     , (35921, 267,       3600) /* Lifespan */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (35921,  23, True ) /* DestroyOnSell */

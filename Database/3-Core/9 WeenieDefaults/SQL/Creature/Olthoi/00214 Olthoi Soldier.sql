@@ -695,4 +695,9 @@ VALUES (214, 9, 31784,  0, 0, 0, False) /* Create Claw (31784) for ContainTreasu
      , (214, 9, 41048,  0, 0, 0, False) /* Create Lightning Pike (41048) for ContainTreasure */
      , (214, 9, 42518,  1, 0, 0, False) /* Create Coalesced Mana (42518) for ContainTreasure */
      , (214, 9,    92,  0, 0, 0, False) /* Create Large Kite Shield (92) for ContainTreasure */
-     , (214, 9,  3873,  0, 0, 0, False) /* Create Acid Spear (3873) for ContainTreasure */;
+     , (214, 9,  3873,  0, 0, 0, False) /* Create Acid Spear (3873) for ContainTreasure */
+     , (214, 9, 21155,  0, 0, 0, False) /* Create Covenant Greaves (21155) for ContainTreasure */
+     , (214, 9,  8925,  0, 0, 0, False) /* Create Scroll of Flame Streak VI (8925) for ContainTreasure */
+     , (214, 9,  2415,  1, 0, 0, False) /* Create Gem (2415) for ContainTreasure */
+     , (214, 9, 20512,  0, 0, 0, False) /* Create Scroll of Morimoto's Blessing (20512) for ContainTreasure */
+     , (214, 9,   414,  0, 0, 0, False) /* Create Chainmail Breastplate (414) for ContainTreasure */;

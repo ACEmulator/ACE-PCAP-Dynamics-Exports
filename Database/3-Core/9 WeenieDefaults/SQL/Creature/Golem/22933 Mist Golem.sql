@@ -44,7 +44,8 @@ VALUES (22933,   1,   180, 0, 0, 275) /* MaxHealth */
      , (22933,   5,   200, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (22933, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
+VALUES (22933, 2, 23744,  1, 0, 0, False) /* Create Rock (23744) for Wield */
+     , (22933, 9, 41067,  0, 0, 0, False) /* Create Shashqa (41067) for ContainTreasure */
      , (22933, 9,  8328,  1, 0, 0, False) /* Create Iron Pea (8328) for ContainTreasure */
      , (22933, 9,  2399,  1, 0, 0, False) /* Create Gem (2399) for ContainTreasure */
      , (22933, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */

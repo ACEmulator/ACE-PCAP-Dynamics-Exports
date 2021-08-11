@@ -42,6 +42,7 @@ VALUES (27863, 2, 47546,  1, 0, 0, False) /* Create Javelin (47546) for Wield */
      , (27863, 2, 47731,  1, 0, 0, False) /* Create Spear (47731) for Wield */
      , (27863, 2, 47641,  1, 0, 0, False) /* Create Tachi (47641) for Wield */
      , (27863, 2, 47712,  1, 0, 0, False) /* Create Acid Spear (47712) for Wield */
+     , (27863, 2, 47527,  1, 0, 0, False) /* Create Acid Javelin (47527) for Wield */
      , (27863, 9,   148,  0, 0, 0, False) /* Create Cup (148) for ContainTreasure */
      , (27863, 9,   512,  0, 0, 0, False) /* Create Good Lockpick (512) for ContainTreasure */
      , (27863, 9, 31769,  0, 0, 0, False) /* Create Lugian Axe (31769) for ContainTreasure */

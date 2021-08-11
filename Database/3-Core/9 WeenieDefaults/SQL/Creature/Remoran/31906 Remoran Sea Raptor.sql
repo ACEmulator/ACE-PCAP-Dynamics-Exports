@@ -50,4 +50,7 @@ VALUES (31906, 9,  2411,  1, 0, 0, False) /* Create Gem (2411) for ContainTreasu
      , (31906, 9, 45431,  0, 0, 0, False) /* Create Khanjar (45431) for ContainTreasure */
      , (31906, 9,    42,  0, 0, 0, False) /* Create Studded Leather Breastplate (42) for ContainTreasure */
      , (31906, 9,  2402,  1, 0, 0, False) /* Create Gem (2402) for ContainTreasure */
-     , (31906, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */;
+     , (31906, 9, 30614,  0, 0, 0, False) /* Create Frost Knuckles (30614) for ContainTreasure */
+     , (31906, 9, 25648,  0, 0, 0, False) /* Create Leather Pauldrons (25648) for ContainTreasure */
+     , (31906, 9, 20250,  0, 0, 0, False) /* Create Scroll of Replenish (20250) for ContainTreasure */
+     , (31906, 9, 45105,  0, 0, 0, False) /* Create Lightning Rapier (45105) for ContainTreasure */;

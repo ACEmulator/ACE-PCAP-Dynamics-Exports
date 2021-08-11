@@ -10,6 +10,9 @@ VALUES (975,   1,         16) /* ItemType - Creature */
      , (975,   7,         -1) /* ContainersCapacity */
      , (975,  16,         32) /* ItemUseable - Remote */
      , (975,  25,         14) /* Level */
+     , (975,  74, 1074005895) /* MerchandiseItemTypes - Vestements, Weapon, LockableMagicTarget, Useless, PromissoryNote, TinkeringMaterial */
+     , (975,  75,          0) /* MerchandiseMinValue */
+     , (975,  76,      25000) /* MerchandiseMaxValue */
      , (975,  93,    2098200) /* PhysicsState - ReportCollisions, IgnoreCollisions, Gravity, ReportCollisionsAsEnvironment */
      , (975, 113,          1) /* Gender - Male */
      , (975, 133,          4) /* ShowableOnRadar - ShowAlways */
@@ -18,10 +21,13 @@ VALUES (975,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (975,   1, True ) /* Stuck */
-     , (975,  19, False) /* Attackable */;
+     , (975,  19, False) /* Attackable */
+     , (975,  39, True ) /* DealMagicalItems */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
-VALUES (975,  54,       3) /* UseRadius */;
+VALUES (975,  37,     0.9) /* BuyPrice */
+     , (975,  38,    1.35) /* SellPrice */
+     , (975,  54,       3) /* UseRadius */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (975,   1, 'Armorer Talam ibn Tarish') /* Name */
@@ -58,4 +64,31 @@ VALUES (975,   1,   150, 0, 0, 205) /* MaxHealth */
      , (975,   5,    90, 0, 0, 120) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (975, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */;
+VALUES (975, 2,    93,  1, 0, 0, False) /* Create Round Shield (93) for Wield */
+     , (975, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for Shop */
+     , (975, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
+     , (975, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
+     , (975, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
+     , (975, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
+     , (975, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
+     , (975, 4,   415, -1, 0, 0, False) /* Create Chainmail Girth (415) for Shop */
+     , (975, 4,  2605, -1, 0, 0, False) /* Create Chainmail Greaves (2605) for Shop */
+     , (975, 4,   108, -1, 0, 0, False) /* Create Chainmail Tassets (108) for Shop */
+     , (975, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
+     , (975, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (975, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
+     , (975, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
+     , (975, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */
+     , (975, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
+     , (975, 4,    42, -1, 0, 0, False) /* Create Studded Leather Breastplate (42) for Shop */
+     , (975, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
+     , (975, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
+     , (975, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
+     , (975, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
+     , (975, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
+     , (975, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
+     , (975, 4,    89, -1, 0, 0, False) /* Create Studded Leather Pauldrons (89) for Shop */
+     , (975, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
+     , (975, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
+     , (975, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
+     , (975, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

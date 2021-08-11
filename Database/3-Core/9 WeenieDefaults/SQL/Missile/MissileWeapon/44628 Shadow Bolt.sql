@@ -19,7 +19,7 @@ VALUES (44628,   1,        256) /* ItemType - MissileWeapon */
      , (44628,  45,          2) /* DamageType - Pierce */
      , (44628,  48,         47) /* WeaponSkill - MissileWeapons */
      , (44628,  49,         10) /* WeaponTime */
-     , (44628,  51,          2) /* CombatUse - Missle */
+     , (44628,  51,          2) /* CombatUse - Missile */
      , (44628,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (44628, 353,         10) /* WeaponType - Thrown */;
 

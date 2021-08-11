@@ -65,4 +65,4 @@ VALUES (21152,  2094,      2)  /* BladeBane7 */
      , (21152,  2102,      2)  /* FlameBane7 */
      , (21152,  4407,      2)  /* Impenetrability8 */
      , (21152,  4409,      2)  /* LightningBane8 */
-     , (21152,  4686,      2)  /* CANTRIPAXEAPTITUDE3 */;
+     , (21152,  4686,      2)  /* CANTRIPLIGHTWEAPONSAPTITUDE3 */;

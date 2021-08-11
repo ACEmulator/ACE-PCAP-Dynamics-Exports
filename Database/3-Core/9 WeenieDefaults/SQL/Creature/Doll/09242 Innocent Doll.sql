@@ -193,4 +193,6 @@ VALUES (9242, 9, 31763,  0, 0, 0, False) /* Create Frost Lugian Hammer (31763) f
      , (9242, 9, 21305,  0, 0, 0, False) /* Create Scroll of Flame Arc IV (21305) for ContainTreasure */
      , (9242, 9,   129,  0, 0, 0, False) /* Create Sandals (129) for ContainTreasure */
      , (9242, 9,  2589,  0, 0, 0, False) /* Create Smock (2589) for ContainTreasure */
-     , (9242, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */;
+     , (9242, 9,    59,  0, 0, 0, False) /* Create Studded Leather Gauntlets (59) for ContainTreasure */
+     , (9242, 9, 28609,  0, 0, 0, False) /* Create Vest (28609) for ContainTreasure */
+     , (9242, 9,   101,  0, 0, 0, False) /* Create Chainmail Sleeves (101) for ContainTreasure */;

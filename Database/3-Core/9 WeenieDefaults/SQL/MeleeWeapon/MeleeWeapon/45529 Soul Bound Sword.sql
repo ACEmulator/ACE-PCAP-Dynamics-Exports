@@ -67,6 +67,6 @@ VALUES (45529,  2096,      2)  /* BloodDrinkerSelf7 */
      , (45529,  2101,      2)  /* DefenderSelf7 */
      , (45529,  2106,      2)  /* HeartSeekerSelf7 */
      , (45529,  2116,      2)  /* SwiftKillerSelf7 */
-     , (45529,  2531,      2)  /* CANTRIPSWORDAPTITUDE2 */
+     , (45529,  2531,      2)  /* CANTRIPHEAVYWEAPONSAPTITUDE2 */
      , (45529,  2579,      2)  /* CANTRIPCOORDINATION1 */
      , (45529,  2583,      2)  /* CANTRIPSTRENGTH1 */;

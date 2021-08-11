@@ -45,7 +45,8 @@ VALUES (199,   1,   330, 0, 0, 455) /* MaxHealth */
      , (199,   5,   275, 0, 0, 425) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (199, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
+VALUES (199, 2, 47445,  1, 0, 0, False) /* Create Mace (47445) for Wield */
+     , (199, 9,   243,  0, 0, 0, False) /* Create Dinner Plate (243) for ContainTreasure */
      , (199, 9,  8331,  1, 0, 0, False) /* Create Silver Pea (8331) for ContainTreasure */
      , (199, 9, 27328,  0, 0, 0, False) /* Create Major Mana Stone (27328) for ContainTreasure */
      , (199, 9,   142,  0, 0, 0, False) /* Create Chalice (142) for ContainTreasure */

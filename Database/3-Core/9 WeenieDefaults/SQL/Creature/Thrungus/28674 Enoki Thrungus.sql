@@ -48,6 +48,7 @@ VALUES (28674,   1,   280, 0, 0, 355) /* MaxHealth */
      , (28674,   5,   120, 0, 0, 350) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (28674, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
+VALUES (28674, 2, 27878,  1, 0, 0, False) /* Create Bone Sword (27878) for Wield */
+     , (28674, 9,   297,  0, 0, 0, False) /* Create Ring (297) for ContainTreasure */
      , (28674, 9,   161,  0, 0, 0, False) /* Create Mug (161) for ContainTreasure */
      , (28674, 9,   623,  0, 0, 0, False) /* Create Heavy Necklace (623) for ContainTreasure */;

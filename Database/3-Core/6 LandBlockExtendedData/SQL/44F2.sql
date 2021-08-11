@@ -16,9 +16,9 @@ VALUES (0x744F2001, 0x744F2002, '2019-02-10 00:00:00') /* Viamontian Tribune (28
      , (0x744F2001, 0x744F200A, '2019-02-10 00:00:00') /* Viamontian Knight (28653) */
      , (0x744F2001, 0x744F200B, '2019-02-10 00:00:00') /* Viamontian Counselor (29302) */
      , (0x744F2001, 0x744F200C, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
-     , (0x744F2001, 0x744F200D, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
+     , (0x744F2001, 0x744F200D, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
      , (0x744F2001, 0x744F200E, '2019-02-10 00:00:00') /* Spectral Wisp (28055) */
-     , (0x744F2001, 0x744F200F, '2019-02-10 00:00:00') /* Ruschk Laktar (29342) */
+     , (0x744F2001, 0x744F200F, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
      , (0x744F2001, 0x744F2010, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */
      , (0x744F2001, 0x744F2011, '2019-02-10 00:00:00') /* Viamontian War Wizard (29301) */
      , (0x744F2001, 0x744F2012, '2019-02-10 00:00:00') /* Viamontian Tribune (28652) */;
@@ -68,16 +68,16 @@ VALUES (0x744F200C, 28652, 0x44F2003F, 188.1356, 155.7757, 64.65086, -0.6684204,
 /* @teleloc 0x44F2003F [188.135600 155.775700 64.650860] -0.668420 0.000000 0.000000 -0.743784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x744F200D, 29301, 0x44F2003E, 184.4887, 135.1369, 59.57344, -0.6684204, 0, 0, -0.7437837,  True, '2019-02-10 00:00:00'); /* Viamontian War Wizard */
-/* @teleloc 0x44F2003E [184.488700 135.136900 59.573440] -0.668420 0.000000 0.000000 -0.743784 */
+VALUES (0x744F200D, 29342, 0x44F20001, 2.11568, 17.82816, 53.25869, 0.9998413, 0, 0, -0.01781577,  True, '2019-02-10 00:00:00'); /* Ruschk Laktar */
+/* @teleloc 0x44F20001 [2.115680 17.828160 53.258690] 0.999841 0.000000 0.000000 -0.017816 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F200E, 28055, 0x44F20001, 4.954322, 10.79831, 50.09294, 0.9998413, 0, 0, -0.01781577,  True, '2019-02-10 00:00:00'); /* Spectral Wisp */
 /* @teleloc 0x44F20001 [4.954322 10.798310 50.092940] 0.999841 0.000000 0.000000 -0.017816 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
-VALUES (0x744F200F, 29342, 0x44F20001, 2.11568, 17.82816, 53.25869, 0.9998413, 0, 0, -0.01781577,  True, '2019-02-10 00:00:00'); /* Ruschk Laktar */
-/* @teleloc 0x44F20001 [2.115680 17.828160 53.258690] 0.999841 0.000000 0.000000 -0.017816 */
+VALUES (0x744F200F, 29301, 0x44F2003E, 184.4887, 135.1369, 59.57344, -0.6684204, 0, 0, -0.7437837,  True, '2019-02-10 00:00:00'); /* Viamontian War Wizard */
+/* @teleloc 0x44F2003E [184.488700 135.136900 59.573440] -0.668420 0.000000 0.000000 -0.743784 */
 
 INSERT INTO `landblock_instance` (`guid`, `weenie_Class_Id`, `obj_Cell_Id`, `origin_X`, `origin_Y`, `origin_Z`, `angles_W`, `angles_X`, `angles_Y`, `angles_Z`, `is_Link_Child`, `last_Modified`)
 VALUES (0x744F2010, 28652, 0x44F20040, 182.4355, 177.189, 67.13238, -0.6684204, 0, 0, -0.7437837,  True, '2019-02-10 00:00:00'); /* Viamontian Tribune */

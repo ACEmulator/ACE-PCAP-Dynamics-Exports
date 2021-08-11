@@ -87,6 +87,7 @@ VALUES (11501, 2, 12061,  1, 0, 0, False) /* Create Bandit Acid Khanjar (12061) 
      , (11501, 2, 12059,  1, 0, 0, False) /* Create Bandit Flaming Jambiya (12059) for Wield */
      , (11501, 2, 12058,  1, 0, 0, False) /* Create Bandit Lightning Jambiya (12058) for Wield */
      , (11501, 2, 12081,  1, 0, 0, False) /* Create Bandit Frost Short Sword (12081) for Wield */
+     , (11501, 2, 12057,  1, 0, 0, False) /* Create Bandit Jambiya (12057) for Wield */
      , (11501, 9, 25647,  0, 0, 0, False) /* Create Leather Pants (25647) for ContainTreasure */
      , (11501, 9,  2435,  0, 0, 0, False) /* Create Mana Stone (2435) for ContainTreasure */
      , (11501, 9, 45876,  0, 0, 0, False) /* Create Scarlet Red Letter (45876) for ContainTreasure */

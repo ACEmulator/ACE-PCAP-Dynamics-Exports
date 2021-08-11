@@ -19,7 +19,7 @@ VALUES (7799,   1,        256) /* ItemType - MissileWeapon */
      , (7799,  45,         16) /* DamageType - Fire */
      , (7799,  48,         47) /* WeaponSkill - MissileWeapons */
      , (7799,  49,         12) /* WeaponTime */
-     , (7799,  51,          2) /* CombatUse - Missle */
+     , (7799,  51,          2) /* CombatUse - Missile */
      , (7799,  93,     164884) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, ScriptedCollision, Inelastic */
      , (7799, 307,          7) /* DamageRating */
      , (7799, 313,          0) /* CritRating */

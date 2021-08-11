@@ -54,6 +54,7 @@ VALUES (38149,   1,   650, 0, 0, 850) /* MaxHealth */
      , (38149,   5,   240, 0, 0, 600) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (38149, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
+VALUES (38149, 2, 23674,  1, 0, 0, False) /* Create Katar (23674) for Wield */
+     , (38149, 9,   163,  0, 0, 0, False) /* Create Ornamental Bowl (163) for ContainTreasure */
      , (38149, 9, 38172,  0, 0, 0, False) /* Create The Creation of Blighted Moarsmen (38172) for ContainTreasure */
      , (38149, 9, 38163,  0, 0, 0, False) /* Create Tattered Desolation Moarsman Ritual (38163) for ContainTreasure */;

@@ -354,4 +354,6 @@ VALUES (32315, 9,   624,  0, 0, 0, False) /* Create Ring (624) for ContainTreasu
      , (32315, 9,  2597,  0, 0, 0, False) /* Create Flared Pants (2597) for ContainTreasure */
      , (32315, 9, 27233,  0, 0, 0, False) /* Create Scroll of Eradicate Creature Magic Other (27233) for ContainTreasure */
      , (32315, 9,  3821,  0, 0, 0, False) /* Create Frost Katar (3821) for ContainTreasure */
-     , (32315, 9, 32953,  0, 0, 0, False) /* Create Steward's Key (32953) for ContainTreasure */;
+     , (32315, 9, 32953,  0, 0, 0, False) /* Create Steward's Key (32953) for ContainTreasure */
+     , (32315, 9, 49264,  0, 0, 0, False) /* Create Acid Child Essence (125) (49264) for ContainTreasure */
+     , (32315, 9, 31808,  0, 0, 0, False) /* Create Electric Crossbow (31808) for ContainTreasure */;

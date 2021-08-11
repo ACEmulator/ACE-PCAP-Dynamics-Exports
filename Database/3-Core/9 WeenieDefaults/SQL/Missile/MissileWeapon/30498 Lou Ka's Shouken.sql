@@ -18,7 +18,7 @@ VALUES (30498,   1,        256) /* ItemType - MissileWeapon */
      , (30498,  45,          2) /* DamageType - Pierce */
      , (30498,  48,         47) /* WeaponSkill - MissileWeapons */
      , (30498,  49,         10) /* WeaponTime */
-     , (30498,  51,          2) /* CombatUse - Missle */
+     , (30498,  51,          2) /* CombatUse - Missile */
      , (30498,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30498, 114,          1) /* Attuned - Attuned */
      , (30498, 353,         10) /* WeaponType - Thrown */;

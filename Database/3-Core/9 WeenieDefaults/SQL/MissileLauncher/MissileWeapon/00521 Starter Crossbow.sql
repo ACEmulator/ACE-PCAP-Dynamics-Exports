@@ -10,7 +10,7 @@ VALUES (521,   1,        256) /* ItemType - MissileWeapon */
      , (521,  16,          1) /* ItemUseable - No */
      , (521,  19,         10) /* Value */
      , (521,  50,          2) /* AmmoType - Bolt */
-     , (521,  51,          2) /* CombatUse - Missle */
+     , (521,  51,          2) /* CombatUse - Missile */
      , (521,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (521, 151,          2) /* HookType - Wall */;
 

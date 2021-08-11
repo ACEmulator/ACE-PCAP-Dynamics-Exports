@@ -63,5 +63,5 @@ VALUES (30951,  1516,      2)  /* BludgeonBane6 */
      , (30951,  1528,      2)  /* FrostBane6 */
      , (30951,  2102,      2)  /* FlameBane7 */
      , (30951,  2108,      2)  /* Impenetrability7 */
-     , (30951,  2309,      2)  /* SwordMasterySelf7 */
+     , (30951,  2309,      2)  /* HeavyWeaponsMasterySelf7 */
      , (30951,  6105,      2)  /* CantripFocus4 */;

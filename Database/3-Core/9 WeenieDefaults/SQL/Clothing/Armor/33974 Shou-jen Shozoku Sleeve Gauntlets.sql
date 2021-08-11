@@ -57,5 +57,5 @@ VALUES (33974,  2087,      2)  /* StrengthSelf7 */
      , (33974,  2108,      2)  /* Impenetrability7 */
      , (33974,  2110,      2)  /* LightningBane7 */
      , (33974,  2113,      2)  /* PiercingBane7 */
-     , (33974,  2207,      2)  /* BowMasterySelf7 */
-     , (33974,  2505,      2)  /* CANTRIPBOWAPTITUDE2 */;
+     , (33974,  2207,      2)  /* MissileWeaponsMasterySelf7 */
+     , (33974,  2505,      2)  /* CANTRIPMISSILEWEAPONSAPTITUDE2 */;

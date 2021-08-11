@@ -19,7 +19,7 @@ VALUES (51833,   1,        256) /* ItemType - MissileWeapon */
      , (51833,  45,         32) /* DamageType - Acid */
      , (51833,  48,         47) /* WeaponSkill - MissileWeapons */
      , (51833,  49,         10) /* WeaponTime */
-     , (51833,  51,          2) /* CombatUse - Missle */
+     , (51833,  51,          2) /* CombatUse - Missile */
      , (51833,  93,     132116) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, Inelastic */
      , (51833, 307,          5) /* DamageRating */
      , (51833, 313,          0) /* CritRating */

@@ -50,7 +50,8 @@ VALUES (25598,   1,   400, 0, 0, 600) /* MaxHealth */
      , (25598,   5,     0, 0, 0, 180) /* MaxMana */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
-VALUES (25598, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
+VALUES (25598, 2, 48991,  1, 0, 0, False) /* Create Flaming Hatchet (48991) for Wield */
+     , (25598, 9, 28612,  0, 0, 0, False) /* Create Bandana (28612) for ContainTreasure */
      , (25598, 9,  2599,  0, 0, 0, False) /* Create Trousers (2599) for ContainTreasure */
      , (25598, 9, 20440,  0, 0, 0, False) /* Create Scroll of Ilservian's Flame (20440) for ContainTreasure */
      , (25598, 9,  2403,  1, 0, 0, False) /* Create Gem (2403) for ContainTreasure */

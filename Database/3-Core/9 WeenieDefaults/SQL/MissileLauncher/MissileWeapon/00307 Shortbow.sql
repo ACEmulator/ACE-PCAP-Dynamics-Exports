@@ -14,7 +14,7 @@ VALUES (307,   1,        256) /* ItemType - MissileWeapon */
      , (307,  48,         47) /* WeaponSkill - MissileWeapons */
      , (307,  49,         30) /* WeaponTime */
      , (307,  50,          1) /* AmmoType - Arrow */
-     , (307,  51,          2) /* CombatUse - Missle */
+     , (307,  51,          2) /* CombatUse - Missile */
      , (307,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (307, 105,          7) /* ItemWorkmanship */
      , (307, 131,         51) /* MaterialType - Ivory */

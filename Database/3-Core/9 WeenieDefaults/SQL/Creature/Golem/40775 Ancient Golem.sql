@@ -90,4 +90,5 @@ VALUES (40775, 9,  7897,  0, 0, 0, False) /* Create Steel Toed Boots (7897) for 
      , (40775, 9,  2425,  1, 0, 0, False) /* Create Gem (2425) for ContainTreasure */
      , (40775, 9, 37364,  1, 0, 0, False) /* Create Quill of Introspection (37364) for ContainTreasure */
      , (40775, 9, 45108,  0, 0, 0, False) /* Create Schlager (45108) for ContainTreasure */
-     , (40775, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */;
+     , (40775, 9, 27325,  1, 0, 0, False) /* Create Stamina Philtre (27325) for ContainTreasure */
+     , (40775, 9, 22154,  0, 0, 0, False) /* Create Acid Jo (22154) for ContainTreasure */;
