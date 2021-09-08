@@ -11,6 +11,7 @@ VALUES (31824,   1,      32768) /* ItemType - Caster */
      , (31824,  18,        129) /* UiEffects - Magical, Frost */
      , (31824,  19,      24019) /* Value */
      , (31824,  45,          8) /* DamageType - Cold */
+     , (31824,  46,        512) /* DefaultCombatStyle - Magic */
      , (31824,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31824,  94,         16) /* TargetType - Creature */
      , (31824, 105,          6) /* ItemWorkmanship */

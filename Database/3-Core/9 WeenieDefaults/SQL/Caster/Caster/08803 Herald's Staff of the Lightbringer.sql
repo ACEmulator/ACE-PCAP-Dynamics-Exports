@@ -11,6 +11,7 @@ VALUES (8803,   1,      32768) /* ItemType - Caster */
      , (8803,  18,          1) /* UiEffects - Magical */
      , (8803,  19,          0) /* Value */
      , (8803,  33,          1) /* Bonded - Bonded */
+     , (8803,  46,        512) /* DefaultCombatStyle - Magic */
      , (8803,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8803,  94,         16) /* TargetType - Creature */
      , (8803, 114,          1) /* Attuned - Attuned */

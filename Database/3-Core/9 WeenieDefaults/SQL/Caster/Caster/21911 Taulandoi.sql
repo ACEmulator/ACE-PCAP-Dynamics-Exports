@@ -10,6 +10,7 @@ VALUES (21911,   1,      32768) /* ItemType - Caster */
      , (21911,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (21911,  18,         32) /* UiEffects - Fire */
      , (21911,  19,       4000) /* Value */
+     , (21911,  46,        512) /* DefaultCombatStyle - Magic */
      , (21911,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21911,  94,         16) /* TargetType - Creature */
      , (21911, 106,        325) /* ItemSpellcraft */

@@ -12,6 +12,7 @@ VALUES (40909,   1,      32768) /* ItemType - Caster */
      , (40909,  19,      15000) /* Value */
      , (40909,  33,          1) /* Bonded - Bonded */
      , (40909,  45,         32) /* DamageType - Acid */
+     , (40909,  46,        512) /* DefaultCombatStyle - Magic */
      , (40909,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (40909,  94,         16) /* TargetType - Creature */
      , (40909, 106,        450) /* ItemSpellcraft */

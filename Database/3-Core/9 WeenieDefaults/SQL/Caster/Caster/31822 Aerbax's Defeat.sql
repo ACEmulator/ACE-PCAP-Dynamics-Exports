@@ -11,6 +11,7 @@ VALUES (31822,   1,      32768) /* ItemType - Caster */
      , (31822,  18,         65) /* UiEffects - Magical, Lightning */
      , (31822,  19,      13964) /* Value */
      , (31822,  45,         64) /* DamageType - Electric */
+     , (31822,  46,        512) /* DefaultCombatStyle - Magic */
      , (31822,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31822,  94,         16) /* TargetType - Creature */
      , (31822, 105,          6) /* ItemWorkmanship */

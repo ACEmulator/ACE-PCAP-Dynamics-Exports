@@ -11,6 +11,7 @@ VALUES (37223,   1,      32768) /* ItemType - Caster */
      , (37223,  18,       1025) /* UiEffects - Magical, Slashing */
      , (37223,  19,      14668) /* Value */
      , (37223,  45,          1) /* DamageType - Slash */
+     , (37223,  46,        512) /* DefaultCombatStyle - Magic */
      , (37223,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37223,  94,         16) /* TargetType - Creature */
      , (37223, 105,          7) /* ItemWorkmanship */

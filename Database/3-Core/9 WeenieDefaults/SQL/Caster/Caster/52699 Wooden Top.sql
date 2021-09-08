@@ -9,6 +9,7 @@ VALUES (52699,   1,      32768) /* ItemType - Caster */
      , (52699,   9,   16777216) /* ValidLocations - Held */
      , (52699,  16,          1) /* ItemUseable - No */
      , (52699,  19,        200) /* Value */
+     , (52699,  46,        512) /* DefaultCombatStyle - Magic */
      , (52699,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52699,  94,         16) /* TargetType - Creature */
      , (52699, 151,          9) /* HookType - Floor, Yard */;

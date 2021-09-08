@@ -9,6 +9,7 @@ VALUES (34193,   1,      32768) /* ItemType - Caster */
      , (34193,   9,   16777216) /* ValidLocations - Held */
      , (34193,  16,          1) /* ItemUseable - No */
      , (34193,  19,         10) /* Value */
+     , (34193,  46,        512) /* DefaultCombatStyle - Magic */
      , (34193,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (34193,  94,         16) /* TargetType - Creature */
      , (34193, 151,          2) /* HookType - Wall */;

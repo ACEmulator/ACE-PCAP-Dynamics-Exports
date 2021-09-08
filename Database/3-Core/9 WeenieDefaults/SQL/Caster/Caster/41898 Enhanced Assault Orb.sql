@@ -11,6 +11,7 @@ VALUES (41898,   1,      32768) /* ItemType - Caster */
      , (41898,  18,          1) /* UiEffects - Magical */
      , (41898,  19,      25000) /* Value */
      , (41898,  45,          1) /* DamageType - Slash */
+     , (41898,  46,        512) /* DefaultCombatStyle - Magic */
      , (41898,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (41898,  94,         16) /* TargetType - Creature */
      , (41898, 106,        400) /* ItemSpellcraft */

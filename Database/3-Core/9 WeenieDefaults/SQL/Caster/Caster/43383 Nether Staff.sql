@@ -11,6 +11,7 @@ VALUES (43383,   1,      32768) /* ItemType - Caster */
      , (43383,  18,          1) /* UiEffects - Magical */
      , (43383,  19,      22456) /* Value */
      , (43383,  45,       1024) /* DamageType - Nether */
+     , (43383,  46,        512) /* DefaultCombatStyle - Magic */
      , (43383,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43383,  94,         16) /* TargetType - Creature */
      , (43383, 105,          7) /* ItemWorkmanship */

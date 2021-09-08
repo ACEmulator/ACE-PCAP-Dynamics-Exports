@@ -10,6 +10,7 @@ VALUES (52247,   1,      32768) /* ItemType - Caster */
      , (52247,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (52247,  19,       5000) /* Value */
      , (52247,  33,          1) /* Bonded - Bonded */
+     , (52247,  46,        512) /* DefaultCombatStyle - Magic */
      , (52247,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52247,  94,         16) /* TargetType - Creature */
      , (52247, 106,        400) /* ItemSpellcraft */

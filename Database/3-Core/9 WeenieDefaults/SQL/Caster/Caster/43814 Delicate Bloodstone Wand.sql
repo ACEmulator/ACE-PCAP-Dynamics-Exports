@@ -12,6 +12,7 @@ VALUES (43814,   1,      32768) /* ItemType - Caster */
      , (43814,  19,      10000) /* Value */
      , (43814,  33,          1) /* Bonded - Bonded */
      , (43814,  45,         32) /* DamageType - Acid */
+     , (43814,  46,        512) /* DefaultCombatStyle - Magic */
      , (43814,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (43814,  94,         16) /* TargetType - Creature */
      , (43814, 106,        450) /* ItemSpellcraft */

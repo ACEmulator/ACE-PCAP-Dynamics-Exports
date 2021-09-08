@@ -10,6 +10,7 @@ VALUES (9065,   1,      32768) /* ItemType - Caster */
      , (9065,  16,          1) /* ItemUseable - No */
      , (9065,  18,          1) /* UiEffects - Magical */
      , (9065,  19,         50) /* Value */
+     , (9065,  46,        512) /* DefaultCombatStyle - Magic */
      , (9065,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9065,  94,         16) /* TargetType - Creature */
      , (9065, 151,          2) /* HookType - Wall */;

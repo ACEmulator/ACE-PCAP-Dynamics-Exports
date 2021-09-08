@@ -11,6 +11,7 @@ VALUES (37220,   1,      32768) /* ItemType - Caster */
      , (37220,  18,         33) /* UiEffects - Magical, Fire */
      , (37220,  19,      30198) /* Value */
      , (37220,  45,         16) /* DamageType - Fire */
+     , (37220,  46,        512) /* DefaultCombatStyle - Magic */
      , (37220,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37220,  94,         16) /* TargetType - Creature */
      , (37220, 105,          6) /* ItemWorkmanship */

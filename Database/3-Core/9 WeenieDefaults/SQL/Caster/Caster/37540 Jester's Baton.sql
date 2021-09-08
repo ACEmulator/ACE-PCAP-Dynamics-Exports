@@ -9,6 +9,7 @@ VALUES (37540,   1,      32768) /* ItemType - Caster */
      , (37540,   9,   16777216) /* ValidLocations - Held */
      , (37540,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (37540,  18,         32) /* UiEffects - Fire */
+     , (37540,  46,        512) /* DefaultCombatStyle - Magic */
      , (37540,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37540,  94,         16) /* TargetType - Creature */;
 

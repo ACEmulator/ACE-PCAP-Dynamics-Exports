@@ -12,6 +12,7 @@ VALUES (51991,   1,      32768) /* ItemType - Caster */
      , (51991,  19,      10000) /* Value */
      , (51991,  33,          1) /* Bonded - Bonded */
      , (51991,  45,       1024) /* DamageType - Nether */
+     , (51991,  46,        512) /* DefaultCombatStyle - Magic */
      , (51991,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (51991,  94,         16) /* TargetType - Creature */
      , (51991, 106,        475) /* ItemSpellcraft */

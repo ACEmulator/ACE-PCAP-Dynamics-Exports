@@ -9,6 +9,7 @@ VALUES (52444,   1,      32768) /* ItemType - Caster */
      , (52444,   9,   16777216) /* ValidLocations - Held */
      , (52444,  16,          1) /* ItemUseable - No */
      , (52444,  19,         50) /* Value */
+     , (52444,  46,        512) /* DefaultCombatStyle - Magic */
      , (52444,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52444, 106,        400) /* ItemSpellcraft */
      , (52444, 107,       1000) /* ItemCurMana */

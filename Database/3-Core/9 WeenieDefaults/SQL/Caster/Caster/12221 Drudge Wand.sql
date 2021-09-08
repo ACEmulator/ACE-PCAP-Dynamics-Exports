@@ -10,6 +10,7 @@ VALUES (12221,   1,      32768) /* ItemType - Caster */
      , (12221,  16,          1) /* ItemUseable - No */
      , (12221,  18,          1) /* UiEffects - Magical */
      , (12221,  19,         75) /* Value */
+     , (12221,  46,        512) /* DefaultCombatStyle - Magic */
      , (12221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (12221,  94,         16) /* TargetType - Creature */
      , (12221, 151,          2) /* HookType - Wall */;

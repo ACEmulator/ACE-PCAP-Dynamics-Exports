@@ -10,6 +10,7 @@ VALUES (8752,   1,      32768) /* ItemType - Caster */
      , (8752,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (8752,  18,          1) /* UiEffects - Magical */
      , (8752,  19,          1) /* Value */
+     , (8752,  46,        512) /* DefaultCombatStyle - Magic */
      , (8752,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (8752,  94,         16) /* TargetType - Creature */
      , (8752, 151,          2) /* HookType - Wall */;

@@ -11,6 +11,7 @@ VALUES (29261,   1,      32768) /* ItemType - Caster */
      , (29261,  18,         64) /* UiEffects - Lightning */
      , (29261,  19,      12840) /* Value */
      , (29261,  45,         64) /* DamageType - Electric */
+     , (29261,  46,        512) /* DefaultCombatStyle - Magic */
      , (29261,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29261,  94,         16) /* TargetType - Creature */
      , (29261, 105,          8) /* ItemWorkmanship */

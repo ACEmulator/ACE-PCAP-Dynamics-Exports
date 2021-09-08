@@ -9,6 +9,7 @@ VALUES (36230,   1,      32768) /* ItemType - Caster */
      , (36230,   9,   16777216) /* ValidLocations - Held */
      , (36230,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (36230,  19,      17000) /* Value */
+     , (36230,  46,        512) /* DefaultCombatStyle - Magic */
      , (36230,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36230,  94,         16) /* TargetType - Creature */
      , (36230, 106,        425) /* ItemSpellcraft */

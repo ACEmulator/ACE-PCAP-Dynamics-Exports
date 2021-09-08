@@ -10,6 +10,7 @@ VALUES (41464,   1,      32768) /* ItemType - Caster */
      , (41464,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (41464,  18,       1024) /* UiEffects - Slashing */
      , (41464,  19,        500) /* Value */
+     , (41464,  46,        512) /* DefaultCombatStyle - Magic */
      , (41464,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (41464,  94,         16) /* TargetType - Creature */
      , (41464, 106,        400) /* ItemSpellcraft */

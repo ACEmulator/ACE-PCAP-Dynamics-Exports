@@ -11,6 +11,7 @@ VALUES (42211,   1,      32768) /* ItemType - Caster */
      , (42211,  18,          1) /* UiEffects - Magical */
      , (42211,  19,          5) /* Value */
      , (42211,  33,          1) /* Bonded - Bonded */
+     , (42211,  46,        512) /* DefaultCombatStyle - Magic */
      , (42211,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (42211,  94,         16) /* TargetType - Creature */
      , (42211, 106,        200) /* ItemSpellcraft */

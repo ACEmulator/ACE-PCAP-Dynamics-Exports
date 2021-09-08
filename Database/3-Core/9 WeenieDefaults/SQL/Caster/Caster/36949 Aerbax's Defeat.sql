@@ -11,6 +11,7 @@ VALUES (36949,   1,      32768) /* ItemType - Caster */
      , (36949,  18,         64) /* UiEffects - Lightning */
      , (36949,  19,     100000) /* Value */
      , (36949,  33,          1) /* Bonded - Bonded */
+     , (36949,  46,        512) /* DefaultCombatStyle - Magic */
      , (36949,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (36949,  94,         16) /* TargetType - Creature */
      , (36949, 114,          1) /* Attuned - Attuned */

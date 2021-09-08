@@ -11,6 +11,7 @@ VALUES (37221,   1,      32768) /* ItemType - Caster */
      , (37221,  18,        129) /* UiEffects - Magical, Frost */
      , (37221,  19,      16841) /* Value */
      , (37221,  45,          8) /* DamageType - Cold */
+     , (37221,  46,        512) /* DefaultCombatStyle - Magic */
      , (37221,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (37221,  94,         16) /* TargetType - Creature */
      , (37221, 105,          8) /* ItemWorkmanship */

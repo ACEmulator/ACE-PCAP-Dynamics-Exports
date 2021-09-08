@@ -13,6 +13,7 @@ VALUES (46397,   1,      32768) /* ItemType - Caster */
      , (46397,  33,          1) /* Bonded - Bonded */
      , (46397,  36,       9999) /* ResistMagic */
      , (46397,  45,       1024) /* DamageType - Nether */
+     , (46397,  46,        512) /* DefaultCombatStyle - Magic */
      , (46397,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46397,  94,         16) /* TargetType - Creature */
      , (46397, 114,          1) /* Attuned - Attuned */

@@ -9,6 +9,7 @@ VALUES (2548,   1,      32768) /* ItemType - Caster */
      , (2548,   9,   16777216) /* ValidLocations - Held */
      , (2548,  16,          1) /* ItemUseable - No */
      , (2548,  19,      18204) /* Value */
+     , (2548,  46,        512) /* DefaultCombatStyle - Magic */
      , (2548,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2548,  94,         16) /* TargetType - Creature */
      , (2548, 105,          8) /* ItemWorkmanship */

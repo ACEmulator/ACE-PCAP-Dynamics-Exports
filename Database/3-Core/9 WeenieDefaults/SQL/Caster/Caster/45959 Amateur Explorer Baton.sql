@@ -10,6 +10,7 @@ VALUES (45959,   1,      32768) /* ItemType - Caster */
      , (45959,  16,          1) /* ItemUseable - No */
      , (45959,  18,       1024) /* UiEffects - Slashing */
      , (45959,  19,        100) /* Value */
+     , (45959,  46,        512) /* DefaultCombatStyle - Magic */
      , (45959,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (45959,  94,         16) /* TargetType - Creature */
      , (45959, 151,          2) /* HookType - Wall */;

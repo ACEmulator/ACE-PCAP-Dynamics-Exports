@@ -10,6 +10,7 @@ VALUES (8022,   1,      32768) /* ItemType - Caster */
      , (8022,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (8022,  18,          1) /* UiEffects - Magical */
      , (8022,  19,       2000) /* Value */
+     , (8022,  46,        512) /* DefaultCombatStyle - Magic */
      , (8022,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (8022,  94,         16) /* TargetType - Creature */
      , (8022, 151,          2) /* HookType - Wall */;

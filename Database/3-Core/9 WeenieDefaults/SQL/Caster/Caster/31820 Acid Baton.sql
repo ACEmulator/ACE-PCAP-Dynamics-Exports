@@ -11,6 +11,7 @@ VALUES (31820,   1,      32768) /* ItemType - Caster */
      , (31820,  18,        257) /* UiEffects - Magical, Acid */
      , (31820,  19,      28947) /* Value */
      , (31820,  45,         32) /* DamageType - Acid */
+     , (31820,  46,        512) /* DefaultCombatStyle - Magic */
      , (31820,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31820,  94,         16) /* TargetType - Creature */
      , (31820, 105,          6) /* ItemWorkmanship */

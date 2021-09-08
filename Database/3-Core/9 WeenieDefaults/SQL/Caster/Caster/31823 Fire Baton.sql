@@ -11,6 +11,7 @@ VALUES (31823,   1,      32768) /* ItemType - Caster */
      , (31823,  18,         33) /* UiEffects - Magical, Fire */
      , (31823,  19,      36324) /* Value */
      , (31823,  45,         16) /* DamageType - Fire */
+     , (31823,  46,        512) /* DefaultCombatStyle - Magic */
      , (31823,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31823,  94,         16) /* TargetType - Creature */
      , (31823, 105,          4) /* ItemWorkmanship */
