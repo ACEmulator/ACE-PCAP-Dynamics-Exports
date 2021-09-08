@@ -10,6 +10,7 @@ VALUES (24056,   1,      32768) /* ItemType - Caster */
      , (24056,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (24056,  18,          1) /* UiEffects - Magical */
      , (24056,  19,       2000) /* Value */
+     , (24056,  46,        512) /* DefaultCombatStyle - Magic */
      , (24056,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (24056,  94,         16) /* TargetType - Creature */
      , (24056, 106,        250) /* ItemSpellcraft */

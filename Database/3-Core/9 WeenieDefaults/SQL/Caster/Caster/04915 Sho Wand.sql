@@ -10,6 +10,7 @@ VALUES (4915,   1,      32768) /* ItemType - Caster */
      , (4915,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (4915,  18,          1) /* UiEffects - Magical */
      , (4915,  19,         10) /* Value */
+     , (4915,  46,        512) /* DefaultCombatStyle - Magic */
      , (4915,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (4915,  94,         16) /* TargetType - Creature */
      , (4915, 151,          2) /* HookType - Wall */;

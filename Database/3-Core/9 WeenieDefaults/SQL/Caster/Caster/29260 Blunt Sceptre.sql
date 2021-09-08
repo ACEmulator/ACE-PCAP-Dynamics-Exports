@@ -11,6 +11,7 @@ VALUES (29260,   1,      32768) /* ItemType - Caster */
      , (29260,  18,        513) /* UiEffects - Magical, Bludgeoning */
      , (29260,  19,      14900) /* Value */
      , (29260,  45,          4) /* DamageType - Bludgeon */
+     , (29260,  46,        512) /* DefaultCombatStyle - Magic */
      , (29260,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29260,  94,         16) /* TargetType - Creature */
      , (29260, 105,          8) /* ItemWorkmanship */

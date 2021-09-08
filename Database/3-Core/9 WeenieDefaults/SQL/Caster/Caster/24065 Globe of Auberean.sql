@@ -10,6 +10,7 @@ VALUES (24065,   1,      32768) /* ItemType - Caster */
      , (24065,  16,          1) /* ItemUseable - No */
      , (24065,  18,          1) /* UiEffects - Magical */
      , (24065,  19,         10) /* Value */
+     , (24065,  46,        512) /* DefaultCombatStyle - Magic */
      , (24065,  93,         20) /* PhysicsState - Ethereal, IgnoreCollisions */
      , (24065,  94,         16) /* TargetType - Creature */;
 

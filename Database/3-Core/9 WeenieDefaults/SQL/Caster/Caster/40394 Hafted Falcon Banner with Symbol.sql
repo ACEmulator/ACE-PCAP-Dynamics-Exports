@@ -12,6 +12,7 @@ VALUES (40394,   1,      32768) /* ItemType - Caster */
      , (40394,  19,      20000) /* Value */
      , (40394,  33,          1) /* Bonded - Bonded */
      , (40394,  45,          2) /* DamageType - Pierce */
+     , (40394,  46,        512) /* DefaultCombatStyle - Magic */
      , (40394,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40394,  94,         16) /* TargetType - Creature */
      , (40394, 106,        250) /* ItemSpellcraft */

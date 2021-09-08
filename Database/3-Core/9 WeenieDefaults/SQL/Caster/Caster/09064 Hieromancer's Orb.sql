@@ -10,6 +10,7 @@ VALUES (9064,   1,      32768) /* ItemType - Caster */
      , (9064,  16,          1) /* ItemUseable - No */
      , (9064,  18,          1) /* UiEffects - Magical */
      , (9064,  19,       1000) /* Value */
+     , (9064,  46,        512) /* DefaultCombatStyle - Magic */
      , (9064,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (9064,  94,         16) /* TargetType - Creature */
      , (9064, 106,        225) /* ItemSpellcraft */

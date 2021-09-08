@@ -10,6 +10,7 @@ VALUES (40141,   1,      32768) /* ItemType - Caster */
      , (40141,  16,     655364) /* ItemUseable - 655364 */
      , (40141,  19,         15) /* Value */
      , (40141,  45,          8) /* DamageType - Cold */
+     , (40141,  46,        512) /* DefaultCombatStyle - Magic */
      , (40141,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (40141,  94,         16) /* TargetType - Creature */
      , (40141, 106,        460) /* ItemSpellcraft */

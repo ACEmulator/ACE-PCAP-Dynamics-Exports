@@ -11,6 +11,7 @@ VALUES (53330,   1,      32768) /* ItemType - Caster */
      , (53330,  18,          1) /* UiEffects - Magical */
      , (53330,  19,       5000) /* Value */
      , (53330,  45,         64) /* DamageType - Electric */
+     , (53330,  46,        512) /* DefaultCombatStyle - Magic */
      , (53330,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53330,  94,         16) /* TargetType - Creature */
      , (53330, 105,          8) /* ItemWorkmanship */

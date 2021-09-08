@@ -12,6 +12,7 @@ VALUES (48939,   1,      32768) /* ItemType - Caster */
      , (48939,  19,      20000) /* Value */
      , (48939,  33,          1) /* Bonded - Bonded */
      , (48939,  45,         16) /* DamageType - Fire */
+     , (48939,  46,        512) /* DefaultCombatStyle - Magic */
      , (48939,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (48939,  94,         16) /* TargetType - Creature */
      , (48939, 106,        450) /* ItemSpellcraft */

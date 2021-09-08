@@ -11,6 +11,7 @@ VALUES (32984,   1,      32768) /* ItemType - Caster */
      , (32984,  18,       1024) /* UiEffects - Slashing */
      , (32984,  19,      10000) /* Value */
      , (32984,  45,          1) /* DamageType - Slash */
+     , (32984,  46,        512) /* DefaultCombatStyle - Magic */
      , (32984,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (32984,  94,         16) /* TargetType - Creature */
      , (32984, 106,        400) /* ItemSpellcraft */

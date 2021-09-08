@@ -10,6 +10,7 @@ VALUES (52191,   1,      32768) /* ItemType - Caster */
      , (52191,  16,          1) /* ItemUseable - No */
      , (52191,  18,         32) /* UiEffects - Fire */
      , (52191,  19,        200) /* Value */
+     , (52191,  46,        512) /* DefaultCombatStyle - Magic */
      , (52191,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52191,  94,         16) /* TargetType - Creature */
      , (52191, 151,          2) /* HookType - Wall */;

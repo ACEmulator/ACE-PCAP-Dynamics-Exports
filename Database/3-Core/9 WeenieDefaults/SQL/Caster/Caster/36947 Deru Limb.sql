@@ -11,6 +11,7 @@ VALUES (36947,   1,      32768) /* ItemType - Caster */
      , (36947,  17,        188) /* RareId */
      , (36947,  19,       5000) /* Value */
      , (36947,  33,         -2) /* Bonded - Destroy */
+     , (36947,  46,        512) /* DefaultCombatStyle - Magic */
      , (36947,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36947,  94,         16) /* TargetType - Creature */
      , (36947, 106,        350) /* ItemSpellcraft */

@@ -10,6 +10,7 @@ VALUES (28994,   1,      32768) /* ItemType - Caster */
      , (28994,  16,          1) /* ItemUseable - No */
      , (28994,  18,         16) /* UiEffects - BoostStamina */
      , (28994,  19,       6000) /* Value */
+     , (28994,  46,        512) /* DefaultCombatStyle - Magic */
      , (28994,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (28994,  94,         16) /* TargetType - Creature */
      , (28994, 106,        280) /* ItemSpellcraft */

@@ -9,6 +9,7 @@ VALUES (38850,   1,      32768) /* ItemType - Caster */
      , (38850,   9,   16777216) /* ValidLocations - Held */
      , (38850,  16,          1) /* ItemUseable - No */
      , (38850,  18,       2048) /* UiEffects - Piercing */
+     , (38850,  46,        512) /* DefaultCombatStyle - Magic */
      , (38850,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (38850,  94,         16) /* TargetType - Creature */;
 

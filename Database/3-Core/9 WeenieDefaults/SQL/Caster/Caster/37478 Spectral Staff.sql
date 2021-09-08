@@ -12,6 +12,7 @@ VALUES (37478,   1,      32768) /* ItemType - Caster */
      , (37478,  19,          0) /* Value */
      , (37478,  33,         -1) /* Bonded - Slippery */
      , (37478,  45,          2) /* DamageType - Pierce */
+     , (37478,  46,        512) /* DefaultCombatStyle - Magic */
      , (37478,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (37478,  94,         16) /* TargetType - Creature */
      , (37478,  98, 1485832701) /* CreationTimestamp */

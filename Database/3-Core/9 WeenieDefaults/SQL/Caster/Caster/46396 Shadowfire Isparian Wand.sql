@@ -13,6 +13,7 @@ VALUES (46396,   1,      32768) /* ItemType - Caster */
      , (46396,  33,          1) /* Bonded - Bonded */
      , (46396,  36,       9999) /* ResistMagic */
      , (46396,  45,         16) /* DamageType - Fire */
+     , (46396,  46,        512) /* DefaultCombatStyle - Magic */
      , (46396,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (46396,  94,         16) /* TargetType - Creature */
      , (46396, 114,          1) /* Attuned - Attuned */

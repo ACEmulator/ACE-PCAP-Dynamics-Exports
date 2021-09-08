@@ -10,6 +10,7 @@ VALUES (2366,   1,      32768) /* ItemType - Caster */
      , (2366,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (2366,  18,          1) /* UiEffects - Magical */
      , (2366,  19,       1362) /* Value */
+     , (2366,  46,        512) /* DefaultCombatStyle - Magic */
      , (2366,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (2366,  94,         16) /* TargetType - Creature */
      , (2366, 105,          3) /* ItemWorkmanship */

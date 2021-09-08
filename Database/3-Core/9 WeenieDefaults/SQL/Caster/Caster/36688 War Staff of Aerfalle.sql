@@ -11,6 +11,7 @@ VALUES (36688,   1,      32768) /* ItemType - Caster */
      , (36688,  18,          1) /* UiEffects - Magical */
      , (36688,  19,       2000) /* Value */
      , (36688,  45,          4) /* DamageType - Bludgeon */
+     , (36688,  46,        512) /* DefaultCombatStyle - Magic */
      , (36688,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36688,  94,         16) /* TargetType - Creature */
      , (36688, 106,        230) /* ItemSpellcraft */

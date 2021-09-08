@@ -10,6 +10,7 @@ VALUES (53318,   1,      32768) /* ItemType - Caster */
      , (53318,  16,    6291464) /* ItemUseable - SourceContainedTargetRemoteNeverWalk */
      , (53318,  18,          1) /* UiEffects - Magical */
      , (53318,  19,        200) /* Value */
+     , (53318,  46,        512) /* DefaultCombatStyle - Magic */
      , (53318,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (53318,  94,         16) /* TargetType - Creature */
      , (53318, 131,         75) /* MaterialType - Oak */

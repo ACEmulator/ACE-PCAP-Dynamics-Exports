@@ -11,6 +11,7 @@ VALUES (29265,   1,      32768) /* ItemType - Caster */
      , (29265,  18,       1025) /* UiEffects - Magical, Slashing */
      , (29265,  19,      17609) /* Value */
      , (29265,  45,          1) /* DamageType - Slash */
+     , (29265,  46,        512) /* DefaultCombatStyle - Magic */
      , (29265,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (29265,  94,         16) /* TargetType - Creature */
      , (29265, 105,          6) /* ItemWorkmanship */

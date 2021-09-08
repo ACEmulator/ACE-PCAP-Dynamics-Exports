@@ -11,6 +11,7 @@ VALUES (36552,   1,      32768) /* ItemType - Caster */
      , (36552,  18,       1024) /* UiEffects - Slashing */
      , (36552,  19,      12000) /* Value */
      , (36552,  33,          1) /* Bonded - Bonded */
+     , (36552,  46,        512) /* DefaultCombatStyle - Magic */
      , (36552,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (36552,  94,         16) /* TargetType - Creature */
      , (36552, 106,        450) /* ItemSpellcraft */

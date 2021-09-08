@@ -13,6 +13,7 @@ VALUES (30375,   1,      32768) /* ItemType - Caster */
      , (30375,  19,      50000) /* Value */
      , (30375,  26,          1) /* AccountRequirements - AsheronsCall_Subscription */
      , (30375,  45,          8) /* DamageType - Cold */
+     , (30375,  46,        512) /* DefaultCombatStyle - Magic */
      , (30375,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (30375,  94,         16) /* TargetType - Creature */
      , (30375, 106,        335) /* ItemSpellcraft */

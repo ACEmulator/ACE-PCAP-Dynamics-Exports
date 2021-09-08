@@ -10,6 +10,7 @@ VALUES (52742,   1,      32768) /* ItemType - Caster */
      , (52742,  16,     655364) /* ItemUseable - 655364 */
      , (52742,  18,        512) /* UiEffects - Bludgeoning */
      , (52742,  19,         15) /* Value */
+     , (52742,  46,        512) /* DefaultCombatStyle - Magic */
      , (52742,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52742,  94,         16) /* TargetType - Creature */
      , (52742, 151,          2) /* HookType - Wall */;

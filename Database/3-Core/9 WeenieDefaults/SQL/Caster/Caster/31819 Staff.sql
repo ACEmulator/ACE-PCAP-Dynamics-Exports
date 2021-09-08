@@ -11,6 +11,7 @@ VALUES (31819,   1,      32768) /* ItemType - Caster */
      , (31819,  18,       1025) /* UiEffects - Magical, Slashing */
      , (31819,  19,      31221) /* Value */
      , (31819,  45,          1) /* DamageType - Slash */
+     , (31819,  46,        512) /* DefaultCombatStyle - Magic */
      , (31819,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31819,  94,         16) /* TargetType - Creature */
      , (31819, 105,          8) /* ItemWorkmanship */

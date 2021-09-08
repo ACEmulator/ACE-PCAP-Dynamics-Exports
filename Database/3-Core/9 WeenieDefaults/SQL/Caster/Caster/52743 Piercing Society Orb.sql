@@ -10,6 +10,7 @@ VALUES (52743,   1,      32768) /* ItemType - Caster */
      , (52743,  16,     655364) /* ItemUseable - 655364 */
      , (52743,  18,       2048) /* UiEffects - Piercing */
      , (52743,  19,         15) /* Value */
+     , (52743,  46,        512) /* DefaultCombatStyle - Magic */
      , (52743,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (52743,  94,         16) /* TargetType - Creature */
      , (52743, 151,          2) /* HookType - Wall */;

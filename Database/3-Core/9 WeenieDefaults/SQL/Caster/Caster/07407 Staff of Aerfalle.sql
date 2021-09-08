@@ -11,6 +11,7 @@ VALUES (7407,   1,      32768) /* ItemType - Caster */
      , (7407,  18,          1) /* UiEffects - Magical */
      , (7407,  19,      10150) /* Value */
      , (7407,  33,          1) /* Bonded - Bonded */
+     , (7407,  46,        512) /* DefaultCombatStyle - Magic */
      , (7407,  93,       3092) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity, LightingOn */
      , (7407,  94,         16) /* TargetType - Creature */
      , (7407, 106,        210) /* ItemSpellcraft */

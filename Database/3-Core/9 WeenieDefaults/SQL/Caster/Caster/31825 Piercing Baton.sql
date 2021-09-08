@@ -11,6 +11,7 @@ VALUES (31825,   1,      32768) /* ItemType - Caster */
      , (31825,  18,       2049) /* UiEffects - Magical, Piercing */
      , (31825,  19,      25361) /* Value */
      , (31825,  45,          2) /* DamageType - Pierce */
+     , (31825,  46,        512) /* DefaultCombatStyle - Magic */
      , (31825,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (31825,  94,         16) /* TargetType - Creature */
      , (31825, 105,          6) /* ItemWorkmanship */

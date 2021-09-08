@@ -10,6 +10,7 @@ VALUES (21395,   1,      32768) /* ItemType - Caster */
      , (21395,  16,    6291460) /* ItemUseable - SourceWieldedTargetRemoteNeverWalk */
      , (21395,  18,         64) /* UiEffects - Lightning */
      , (21395,  19,       4000) /* Value */
+     , (21395,  46,        512) /* DefaultCombatStyle - Magic */
      , (21395,  93,       1044) /* PhysicsState - Ethereal, IgnoreCollisions, Gravity */
      , (21395,  94,         16) /* TargetType - Creature */
      , (21395, 106,        325) /* ItemSpellcraft */
