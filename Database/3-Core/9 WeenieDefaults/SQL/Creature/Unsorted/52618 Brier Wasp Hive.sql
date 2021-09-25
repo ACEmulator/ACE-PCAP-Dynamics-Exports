@@ -13,7 +13,10 @@ VALUES (52618,   1,         16) /* ItemType - Creature */
      , (52618, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52618,   1, True ) /* Stuck */;
+VALUES (52618,   1, True ) /* Stuck */
+     , (52618,  52, True ) /* AiImmobile */
+     , (52618,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (52618,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (52618,   1, 'Brier Wasp Hive') /* Name */

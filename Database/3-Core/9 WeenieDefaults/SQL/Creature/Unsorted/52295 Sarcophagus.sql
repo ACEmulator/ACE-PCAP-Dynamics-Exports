@@ -13,7 +13,10 @@ VALUES (52295,   1,         16) /* ItemType - Creature */
      , (52295, 315,       9999) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (52295,   1, True ) /* Stuck */;
+VALUES (52295,   1, True ) /* Stuck */
+     , (52295,  52, True ) /* AiImmobile */
+     , (52295,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (52295,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (52295,  39,     1.3) /* DefaultScale */;

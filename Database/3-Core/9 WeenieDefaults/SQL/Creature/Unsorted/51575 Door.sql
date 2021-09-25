@@ -14,7 +14,10 @@ VALUES (51575,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (51575,   1, True ) /* Stuck */
-     , (51575,  19, False) /* Attackable */;
+     , (51575,  19, False) /* Attackable */
+     , (51575,  52, True ) /* AiImmobile */
+     , (51575,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (51575,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51575,   1, 'Door') /* Name */

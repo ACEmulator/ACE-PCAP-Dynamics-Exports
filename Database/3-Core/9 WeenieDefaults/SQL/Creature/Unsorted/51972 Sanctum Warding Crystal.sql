@@ -12,7 +12,10 @@ VALUES (51972,   1,         16) /* ItemType - Creature */
      , (51972, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51972,   1, True ) /* Stuck */;
+VALUES (51972,   1, True ) /* Stuck */
+     , (51972,  52, True ) /* AiImmobile */
+     , (51972,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (51972,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (51972,  76,    0.25) /* Translucency */;

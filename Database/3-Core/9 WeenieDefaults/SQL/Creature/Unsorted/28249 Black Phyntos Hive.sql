@@ -12,7 +12,10 @@ VALUES (28249,   1,         16) /* ItemType - Creature */
      , (28249, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (28249,   1, True ) /* Stuck */;
+VALUES (28249,   1, True ) /* Stuck */
+     , (28249,  52, True ) /* AiImmobile */
+     , (28249,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (28249,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (28249,   1, 'Black Phyntos Hive') /* Name */

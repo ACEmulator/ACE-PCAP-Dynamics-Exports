@@ -12,7 +12,10 @@ VALUES (29589,   1,         16) /* ItemType - Creature */
      , (29589, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (29589,   1, True ) /* Stuck */;
+VALUES (29589,   1, True ) /* Stuck */
+     , (29589,  52, True ) /* AiImmobile */
+     , (29589,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (29589,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (29589,   1, 'Stomach Wall') /* Name */

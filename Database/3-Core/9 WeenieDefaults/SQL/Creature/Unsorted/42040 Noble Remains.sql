@@ -13,7 +13,10 @@ VALUES (42040,   1,         16) /* ItemType - Creature */
      , (42040, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (42040,   1, True ) /* Stuck */;
+VALUES (42040,   1, True ) /* Stuck */
+     , (42040,  52, True ) /* AiImmobile */
+     , (42040,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (42040,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (42040,  39,    0.95) /* DefaultScale */;
