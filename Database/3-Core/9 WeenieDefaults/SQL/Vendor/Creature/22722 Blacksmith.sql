@@ -99,13 +99,4 @@ VALUES (22722, 4,    35, -1, 0, 0, False) /* Create Chainmail Basinet (35) for S
      , (22722, 4,   315, -1, 0, 0, False) /* Create Throwing Dagger (315) for Shop */
      , (22722, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (22722, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (22722, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (22722, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (22722, 4,  3645, -1, 0, 0, False) /* Create Tibri's Fire Spear (3645) for Shop */
-     , (22722, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (22722, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (22722, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (22722, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */
-     , (22722, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (22722, 4, 21152, -1, 0, 0, False) /* Create Covenant Breastplate (21152) for Shop */
-     , (22722, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */;
+     , (22722, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

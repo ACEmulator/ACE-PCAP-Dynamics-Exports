@@ -109,5 +109,4 @@ VALUES (9677, 2,   307,  1, 0, 0, False) /* Create Shortbow (307) for Wield */
      , (9677, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (9677, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
      , (9677, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (9677, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */
-     , (9677, 4,  3914, -1, 0, 0, False) /* Create Lightning Yari (3914) for Shop */;
+     , (9677, 4, 22765, -1, 0, 0, False) /* Create The Empyrean Temples (22765) for Shop */;

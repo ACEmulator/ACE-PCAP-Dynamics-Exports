@@ -173,7 +173,4 @@ VALUES (831, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (831, 4,  8978, -1, 0, 0, False) /* Create Nanto Portal Gem (8978) for Shop */
      , (831, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (831, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
-     , (831, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */
-     , (831, 4, 37219, -1, 0, 0, False) /* Create Energy Crystal (37219) for Shop */
-     , (831, 4, 29260, -1, 0, 0, False) /* Create Blunt Sceptre (29260) for Shop */
-     , (831, 4, 31821, -1, 0, 0, False) /* Create Staff of Aerfalle (31821) for Shop */;
+     , (831, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;

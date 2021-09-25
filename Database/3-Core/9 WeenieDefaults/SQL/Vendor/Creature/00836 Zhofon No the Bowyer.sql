@@ -103,5 +103,4 @@ VALUES (836, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (836, 4,  3789, -1, 0, 0, False) /* Create Throwing Frost Dart (3789) for Shop */
      , (836, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (836, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (836, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (836, 4, 45417, -1, 0, 0, False) /* Create Acid Knife (45417) for Shop */;
+     , (836, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

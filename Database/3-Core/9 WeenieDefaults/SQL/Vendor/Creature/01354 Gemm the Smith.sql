@@ -81,6 +81,7 @@ VALUES (1354, 2,   351,  1, 0, 0, False) /* Create Long Sword (351) for Wield */
      , (1354, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (1354, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (1354, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (1354, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
      , (1354, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (1354, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (1354, 4,   352, -1, 0, 0, False) /* Create Short Sword (352) for Shop */

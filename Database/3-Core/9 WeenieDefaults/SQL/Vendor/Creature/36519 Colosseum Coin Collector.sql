@@ -101,6 +101,15 @@ VALUES (36519, 4, 36515, -1, 0, 0, False) /* Create Wrapped Pyreal Sliver (36515
      , (36519, 4, 36507, -1, 0, 0, False) /* Create Son of Pooky's Den (36507) for Shop */
      , (36519, 4, 36499, -1, 0, 0, False) /* Create Dark Monolith Caverns (36499) for Shop */
      , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
+     , (36519, 4, 36561, -1, 0, 0, False) /* Create Colosseum Backpack (36561) for Shop */
      , (36519, 4, 42399, -1, 0, 0, False) /* Create Crate of Greater Deadly Blunt Arrowheads (42399) for Shop */
      , (36519, 4, 36542, -1, 0, 0, False) /* Create Scroll of Tusker Fists (36542) for Shop */
      , (36519, 4, 36537, -1, 0, 0, False) /* Create Scroll of Colosseum Recall (36537) for Shop */

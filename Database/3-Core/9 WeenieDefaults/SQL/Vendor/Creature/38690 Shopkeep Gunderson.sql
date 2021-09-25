@@ -151,4 +151,13 @@ VALUES (38690, 4, 46744, -1, 0, 0, False) /* Create Contract for Stipend: Eldryt
      , (38690, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (38690, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (38690, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (38690, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;

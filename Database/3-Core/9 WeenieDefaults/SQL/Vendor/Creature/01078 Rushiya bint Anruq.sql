@@ -76,11 +76,13 @@ VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1078, 4,   328, -1, 0, 0, False) /* Create Khanjar (328) for Shop */
      , (1078, 4, 22163, -1, 0, 0, False) /* Create Nabut (22163) for Shop */
      , (1078, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
+     , (1078, 4,   326, -1, 0, 0, False) /* Create Katar (326) for Shop */
      , (1078, 4,   344, -1, 0, 0, False) /* Create Silifi (344) for Shop */
      , (1078, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
      , (1078, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (1078, 4,   324, -1, 0, 0, False) /* Create Kaskara (324) for Shop */
      , (1078, 4,   340, -1, 0, 0, False) /* Create Shamshir (340) for Shop */
+     , (1078, 4,   345, -1, 0, 0, False) /* Create Simi (345) for Shop */
      , (1078, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (1078, 4,   357, -1, 0, 0, False) /* Create Tungi (357) for Shop */
      , (1078, 4,   551, -1, 0, 0, False) /* Create Basinet (551) for Shop */
@@ -127,6 +129,7 @@ VALUES (1078, 2,   313,  1, 0, 0, False) /* Create Dabus (313) for Wield */
      , (1078, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
      , (1078, 4,    80, -1, 0, 0, False) /* Create Chainmail Leggings (80) for Shop */
      , (1078, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
+     , (1078, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (1078, 4,   101, -1, 0, 0, False) /* Create Chainmail Sleeves (101) for Shop */
      , (1078, 4,    41, -1, 0, 0, False) /* Create Scalemail Breastplate (41) for Shop */
      , (1078, 4,    52, -1, 0, 0, False) /* Create Scalemail Cuirass (52) for Shop */

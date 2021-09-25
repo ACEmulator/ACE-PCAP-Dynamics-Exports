@@ -69,7 +69,6 @@ VALUES (971, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (971, 4,   343, -1, 0, 0, False) /* Create Shouken (343) for Shop */
      , (971, 4,   342, -1, 0, 0, False) /* Create Shou-ono (342) for Shop */
      , (971, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
-     , (971, 4,   300, -1, 0, 0, False) /* Create Arrow (300) for Shop */
      , (971, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
      , (971, 4,    36, -1, 0, 0, False) /* Create Leather Bracers (36) for Shop */
      , (971, 4,    45, -1, 0, 0, False) /* Create Leather Cap (45) for Shop */

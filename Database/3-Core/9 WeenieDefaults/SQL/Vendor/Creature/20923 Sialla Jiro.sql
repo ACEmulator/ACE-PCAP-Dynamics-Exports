@@ -251,6 +251,10 @@ VALUES (20923, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (590
      , (20923, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (20923, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
      , (20923, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
+     , (20923, 4,  5917, -1, 0, 0, False) /* Create Suikan Creature Master Robe (5917) for Shop */
+     , (20923, 4,  5914, -1, 0, 0, False) /* Create Suikan Item Master Robe (5914) for Shop */
+     , (20923, 4,  5908, -1, 0, 0, False) /* Create Suikan Life Master Robe (5908) for Shop */
+     , (20923, 4,  5911, -1, 0, 0, False) /* Create Suikan War Master Robe (5911) for Shop */
      , (20923, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (20923, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (20923, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */

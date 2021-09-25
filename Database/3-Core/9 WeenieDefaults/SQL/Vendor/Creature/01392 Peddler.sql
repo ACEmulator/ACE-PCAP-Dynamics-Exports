@@ -91,13 +91,4 @@ VALUES (1392, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (1392, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
      , (1392, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
      , (1392, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1392, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1392, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (1392, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */
-     , (1392, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */
-     , (1392, 4, 28608, -1, 0, 0, False) /* Create Poet's Shirt (28608) for Shop */
-     , (1392, 4, 40818, -1, 0, 0, False) /* Create Corsesca (40818) for Shop */
-     , (1392, 4, 45113, -1, 0, 0, False) /* Create Hammer (45113) for Shop */
-     , (1392, 4,  2413, -1, 0, 0, False) /* Create Gem (2413) for Shop */
-     , (1392, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
-     , (1392, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */;
+     , (1392, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;

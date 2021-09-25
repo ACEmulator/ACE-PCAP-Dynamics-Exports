@@ -115,6 +115,24 @@ VALUES (35488, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop
      , (35488, 4,   779, -1, 0, 0, False) /* Create Vervain (779) for Shop */
      , (35488, 4,   780, -1, 0, 0, False) /* Create Wormwood (780) for Shop */
      , (35488, 4,   781, -1, 0, 0, False) /* Create Yarrow (781) for Shop */
+     , (35488, 4,   765, -1, 0, 0, False) /* Create Amaranth (765) for Shop */
+     , (35488, 4,   766, -1, 0, 0, False) /* Create Bistort (766) for Shop */
+     , (35488, 4,   767, -1, 0, 0, False) /* Create Comfrey (767) for Shop */
+     , (35488, 4,   768, -1, 0, 0, False) /* Create Damiana (768) for Shop */
+     , (35488, 4,   769, -1, 0, 0, False) /* Create Dragonsblood (769) for Shop */
+     , (35488, 4,   770, -1, 0, 0, False) /* Create Eyebright (770) for Shop */
+     , (35488, 4,   771, -1, 0, 0, False) /* Create Frankincense (771) for Shop */
+     , (35488, 4,   625, -1, 0, 0, False) /* Create Ginseng (625) for Shop */
+     , (35488, 4,   772, -1, 0, 0, False) /* Create Hawthorn (772) for Shop */
+     , (35488, 4,   773, -1, 0, 0, False) /* Create Henbane (773) for Shop */
+     , (35488, 4,   774, -1, 0, 0, False) /* Create Hyssop (774) for Shop */
+     , (35488, 4,   775, -1, 0, 0, False) /* Create Mandrake (775) for Shop */
+     , (35488, 4,   776, -1, 0, 0, False) /* Create Mugwort (776) for Shop */
+     , (35488, 4,   777, -1, 0, 0, False) /* Create Myrrh (777) for Shop */
+     , (35488, 4,   778, -1, 0, 0, False) /* Create Saffron (778) for Shop */
+     , (35488, 4,   779, -1, 0, 0, False) /* Create Vervain (779) for Shop */
+     , (35488, 4,   780, -1, 0, 0, False) /* Create Wormwood (780) for Shop */
+     , (35488, 4,   781, -1, 0, 0, False) /* Create Yarrow (781) for Shop */
      , (35488, 4,   782, -1, 0, 0, False) /* Create Powdered Agate (782) for Shop */
      , (35488, 4,   783, -1, 0, 0, False) /* Create Powdered Amber (783) for Shop */
      , (35488, 4,   784, -1, 0, 0, False) /* Create Powdered Azurite (784) for Shop */

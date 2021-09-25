@@ -69,6 +69,11 @@ VALUES (6858, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (6858, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (6858, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (6858, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (6858, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (6858, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (6858, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (6858, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (6858, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (6858, 4,   262, -1, 0, 0, False) /* Create Chicken (262) for Shop */
      , (6858, 4,  4763, -1, 0, 0, False) /* Create Honey (4763) for Shop */
      , (6858, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */

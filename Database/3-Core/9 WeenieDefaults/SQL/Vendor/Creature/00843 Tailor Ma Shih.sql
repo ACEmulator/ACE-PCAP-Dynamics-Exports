@@ -70,6 +70,4 @@ VALUES (843, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop *
      , (843, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
      , (843, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (843, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */
-     , (843, 4,  8372, -1, 0, 0, False) /* Create Yifan Dress (8372) for Shop */
-     , (843, 4,  2604, -1, 0, 0, False) /* Create Wide Breeches (2604) for Shop */
-     , (843, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */;
+     , (843, 4,  8372, -1, 0, 0, False) /* Create Yifan Dress (8372) for Shop */;

@@ -64,6 +64,4 @@ VALUES (9422, 4,  9425, -1, 0, 0, False) /* Create Acid Emerald (9425) for Shop 
      , (9422, 4,  9430, -1, 0, 0, False) /* Create Lightning Sapphire (9430) for Shop */
      , (9422, 4,  9431, -1, 0, 0, False) /* Create Thorned Garnet (9431) for Shop */
      , (9422, 4,  9432, -1, 0, 0, False) /* Create Sharp Topaz (9432) for Shop */
-     , (9422, 4,  9474, -1, 0, 0, False) /* Create Calm Strength (9474) for Shop */
-     , (9422, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (9422, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
+     , (9422, 4,  9474, -1, 0, 0, False) /* Create Calm Strength (9474) for Shop */;

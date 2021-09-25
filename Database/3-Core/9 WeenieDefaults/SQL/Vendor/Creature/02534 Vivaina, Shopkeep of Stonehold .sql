@@ -119,6 +119,11 @@ VALUES (2534, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2534, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (2534, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (2534, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (2534, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2534, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (2534, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (2534, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (2534, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (2534, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (2534, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (2534, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */

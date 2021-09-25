@@ -99,14 +99,4 @@ VALUES (30052, 2, 30571,  1, 0, 0, False) /* Create Spada (30571) for Wield */
      , (30052, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (30052, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30052, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (30052, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30052, 4, 31867, -1, 0, 0, False) /* Create Diadem (31867) for Shop */
-     , (30052, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (30052, 4, 49359, -1, 0, 0, False) /* Create Frost Moar Essence (50) (49359) for Shop */
-     , (30052, 4, 49240, -1, 0, 0, False) /* Create Lightning Zombie Essence (50) (49240) for Shop */
-     , (30052, 4, 49220, -1, 0, 0, False) /* Create Lightning Skeleton Minion Essence (50) (49220) for Shop */
-     , (30052, 4, 24361, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24361) for Shop */
-     , (30052, 4, 24364, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24364) for Shop */
-     , (30052, 4, 24363, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24363) for Shop */
-     , (30052, 4, 24362, -1, 0, 0, False) /* Create Asheron's Supreme Raiment (24362) for Shop */
-     , (30052, 4, 24367, -1, 0, 0, False) /* Create Asheron's Greater Raiment (24367) for Shop */;
+     , (30052, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

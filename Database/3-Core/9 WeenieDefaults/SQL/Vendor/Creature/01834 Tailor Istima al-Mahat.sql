@@ -66,8 +66,16 @@ VALUES (1834,   1,   101, 0, 0, 148) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1834, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (1834, 4,  2598, -1, 0, 0, False) /* Create Baggy Pants (2598) for Shop */
+     , (1834, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
+     , (1834, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
      , (1834, 4,  2587, -1, 0, 0, False) /* Create Shirt (2587) for Shop */
      , (1834, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (1834, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (1834, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
+     , (1834, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
+     , (1834, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
      , (1834, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
      , (1834, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (1834, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */

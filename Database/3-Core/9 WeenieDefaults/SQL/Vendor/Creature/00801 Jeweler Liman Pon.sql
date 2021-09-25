@@ -86,12 +86,4 @@ VALUES (801, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (801, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (801, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (801, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (801, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (801, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (801, 4,  2433, -1, 0, 0, False) /* Create Gem (2433) for Shop */
-     , (801, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (801, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (801, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (801, 4, 41483, -1, 0, 0, False) /* Create Compass (41483) for Shop */
-     , (801, 4,  2425, -1, 0, 0, False) /* Create Gem (2425) for Shop */
-     , (801, 4,  2402, -1, 0, 0, False) /* Create Gem (2402) for Shop */;
+     , (801, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

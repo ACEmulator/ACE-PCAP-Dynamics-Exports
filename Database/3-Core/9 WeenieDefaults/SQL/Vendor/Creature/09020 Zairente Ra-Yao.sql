@@ -107,7 +107,4 @@ VALUES (9020, 2,  3905,  1, 0, 0, False) /* Create Acid War Hammer (3905) for Wi
      , (9020, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (9020, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9020, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (9020, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (9020, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (9020, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (9020, 4, 41487, -1, 0, 0, False) /* Create Mechanical Scarab (41487) for Shop */;
+     , (9020, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

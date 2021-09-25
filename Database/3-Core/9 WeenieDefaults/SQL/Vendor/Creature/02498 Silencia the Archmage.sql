@@ -206,7 +206,4 @@ VALUES (2498, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2498, 4, 46273, -1, 0, 0, False) /* Create Weeping Staff Cast (46273) for Shop */
      , (2498, 4, 46274, -1, 0, 0, False) /* Create Weeping Sword Cast (46274) for Shop */
      , (2498, 4, 46275, -1, 0, 0, False) /* Create Weeping Two Handed Spear Cast (46275) for Shop */
-     , (2498, 4, 46276, -1, 0, 0, False) /* Create Weeping Wand Cast (46276) for Shop */
-     , (2498, 4,  8897, -1, 0, 0, False) /* Create Platinum Scarab (8897) for Shop */
-     , (2498, 4,   690, -1, 0, 0, False) /* Create Pyreal Scarab (690) for Shop */
-     , (2498, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */;
+     , (2498, 4, 46276, -1, 0, 0, False) /* Create Weeping Wand Cast (46276) for Shop */;

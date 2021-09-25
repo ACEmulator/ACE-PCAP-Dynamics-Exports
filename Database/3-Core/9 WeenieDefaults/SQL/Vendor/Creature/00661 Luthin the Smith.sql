@@ -92,17 +92,4 @@ VALUES (661, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (661, 4,    91, -1, 0, 0, False) /* Create Kite Shield (91) for Shop */
      , (661, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (661, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (661, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (661, 4,  4195, -1, 0, 0, False) /* Create Nekode (4195) for Shop */
-     , (661, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (661, 4,  3914, -1, 0, 0, False) /* Create Lightning Yari (3914) for Shop */
-     , (661, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
-     , (661, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (661, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (661, 4, 31762, -1, 0, 0, False) /* Create Flaming Dericost Blade (31762) for Shop */
-     , (661, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (661, 4,  3825, -1, 0, 0, False) /* Create Frost Ken (3825) for Shop */
-     , (661, 4,  7788, -1, 0, 0, False) /* Create Fire Spiked Club (7788) for Shop */
-     , (661, 4, 45106, -1, 0, 0, False) /* Create Flaming Rapier (45106) for Shop */
-     , (661, 4, 31797, -1, 0, 0, False) /* Create Flaming Lancet (31797) for Shop */
-     , (661, 4, 28629, -1, 0, 0, False) /* Create Alduressa Coat (28629) for Shop */;
+     , (661, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

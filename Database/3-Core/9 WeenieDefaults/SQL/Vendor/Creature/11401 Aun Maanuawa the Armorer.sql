@@ -100,6 +100,7 @@ VALUES (11401, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554
      , (11401, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (11401, 4,   303, -1, 0, 0, False) /* Create Hand Axe (303) for Shop */
      , (11401, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
+     , (11401, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (11401, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (11401, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */
      , (11401, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

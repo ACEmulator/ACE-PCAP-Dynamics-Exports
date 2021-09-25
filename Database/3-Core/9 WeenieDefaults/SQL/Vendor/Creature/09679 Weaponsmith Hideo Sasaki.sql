@@ -104,17 +104,4 @@ VALUES (9679, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
      , (9679, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (9679, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (9679, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (9679, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (9679, 4,  1439, -1, 0, 0, False) /* Create Acid Axe (1439) for Shop */
-     , (9679, 4, 22442, -1, 0, 0, False) /* Create Lightning Dirk (22442) for Shop */
-     , (9679, 4, 27230, -1, 0, 0, False) /* Create Nariyid Helm (27230) for Shop */
-     , (9679, 4, 49366, -1, 0, 0, False) /* Create Acid Grievver Essence (50) (49366) for Shop */
-     , (9679, 4, 49331, -1, 0, 0, False) /* Create Frost Wisp Essence (50) (49331) for Shop */
-     , (9679, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (9679, 4, 49539, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (80) (49539) for Shop */
-     , (9679, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */
-     , (9679, 4,    46, -1, 0, 0, False) /* Create Metal Cap (46) for Shop */
-     , (9679, 4, 28627, -1, 0, 0, False) /* Create Diforsa Bracers (28627) for Shop */
-     , (9679, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (9679, 4, 41036, -1, 0, 0, False) /* Create Assagai (41036) for Shop */
-     , (9679, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */;
+     , (9679, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

@@ -91,6 +91,8 @@ VALUES (12243, 4,   268, -1, 0, 0, False) /* Create Bench (268) for Shop */
      , (12243, 4, 22849, -1, 0, 0, False) /* Create Falling Leaves (22849) for Shop */
      , (12243, 4, 22850, -1, 0, 0, False) /* Create Bending Willow and Setting Sun (22850) for Shop */
      , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase (25776) for Shop */
+     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase (25776) for Shop */
+     , (12243, 4, 25776, -1, 0, 0, False) /* Create Fat Vase (25776) for Shop */
      , (12243, 4, 15716, -1, 0, 0, False) /* Create Crystal Vase (15716) for Shop */
      , (12243, 4, 15825, -1, 0, 0, False) /* Create Pedestal (15825) for Shop */
      , (12243, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */

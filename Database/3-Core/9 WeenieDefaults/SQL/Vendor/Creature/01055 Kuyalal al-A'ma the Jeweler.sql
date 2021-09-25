@@ -83,13 +83,4 @@ VALUES (1055, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (1055, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (1055, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1055, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (1055, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (1055, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
-     , (1055, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */
-     , (1055, 4,  2413, -1, 0, 0, False) /* Create Gem (2413) for Shop */
-     , (1055, 4,  2422, -1, 0, 0, False) /* Create Gem (2422) for Shop */
-     , (1055, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (1055, 4, 41487, -1, 0, 0, False) /* Create Mechanical Scarab (41487) for Shop */
-     , (1055, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (1055, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (1055, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */;
+     , (1055, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

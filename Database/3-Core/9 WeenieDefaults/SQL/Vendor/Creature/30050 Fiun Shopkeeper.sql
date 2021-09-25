@@ -102,10 +102,14 @@ VALUES (30050, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30050, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (30050, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (30050, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (30050, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (30050, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (30050, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (30050, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30050, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (30050, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (30050, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (30050, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (30050, 4,   514, -1, 0, 0, False) /* Create Excellent Lockpick (514) for Shop */
      , (30050, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
-     , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (30050, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */;
+     , (30050, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */;

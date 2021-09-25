@@ -128,6 +128,11 @@ VALUES (24595, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24595, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (24595, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (24595, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (24595, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (24595, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (24595, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24595, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24595, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (24595, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24595, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (24595, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
@@ -137,15 +142,4 @@ VALUES (24595, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24595, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (24595, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24595, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24595, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (24595, 4, 41485, -1, 0, 0, False) /* Create Pocket Watch (41485) for Shop */
-     , (24595, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (24595, 4, 49544, -1, 0, 0, False) /* Create Frost Phyntos Swarm Essence (49544) for Shop */
-     , (24595, 4, 37362, -1, 0, 0, False) /* Create Quill of Extraction (37362) for Shop */
-     , (24595, 4, 49299, -1, 0, 0, False) /* Create Fire K'nath Essence (125) (49299) for Shop */
-     , (24595, 4, 27320, -1, 0, 0, False) /* Create Health Tonic (27320) for Shop */
-     , (24595, 4, 27327, -1, 0, 0, False) /* Create Stamina Tonic (27327) for Shop */
-     , (24595, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (24595, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (24595, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
+     , (24595, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

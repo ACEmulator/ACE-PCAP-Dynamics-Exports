@@ -109,4 +109,6 @@ VALUES (993, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (993, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (993, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (993, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (993, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (993, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (993, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;

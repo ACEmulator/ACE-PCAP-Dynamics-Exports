@@ -83,11 +83,4 @@ VALUES (698, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (698, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (698, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (698, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (698, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (698, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (698, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (698, 4,  2407, -1, 0, 0, False) /* Create Gem (2407) for Shop */
-     , (698, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (698, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (698, 4, 41485, -1, 0, 0, False) /* Create Pocket Watch (41485) for Shop */
-     , (698, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
+     , (698, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

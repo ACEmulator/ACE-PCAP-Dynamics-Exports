@@ -107,18 +107,4 @@ VALUES (702, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (702, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (702, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (702, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (702, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (702, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */
-     , (702, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
-     , (702, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
-     , (702, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (702, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
-     , (702, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (702, 4, 31785, -1, 0, 0, False) /* Create Acid Claw (31785) for Shop */
-     , (702, 4, 31798, -1, 0, 0, False) /* Create Slashing Compound Bow (31798) for Shop */
-     , (702, 4, 21156, -1, 0, 0, False) /* Create Covenant Helm (21156) for Shop */
-     , (702, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
-     , (702, 4,   142, -1, 0, 0, False) /* Create Chalice (142) for Shop */
-     , (702, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (702, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
-     , (702, 4, 47196, -1, 0, 0, False) /* Create Translated Orders for Zrikux (47196) for Shop */;
+     , (702, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */;

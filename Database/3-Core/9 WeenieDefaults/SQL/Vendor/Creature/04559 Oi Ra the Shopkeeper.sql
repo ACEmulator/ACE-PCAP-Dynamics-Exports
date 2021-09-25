@@ -103,27 +103,4 @@ VALUES (4559, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (4559, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (4559, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
      , (4559, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (4559, 4, 49387, -1, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for Shop */
-     , (4559, 4, 25652, -1, 0, 0, False) /* Create Leather Tassets (25652) for Shop */
-     , (4559, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (4559, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (4559, 4, 25638, -1, 0, 0, False) /* Create Leather Vest (25638) for Shop */
-     , (4559, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */
-     , (4559, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (4559, 4,   414, -1, 0, 0, False) /* Create Chainmail Breastplate (414) for Shop */
-     , (4559, 4, 44975, -1, 0, 0, False) /* Create Hood (44975) for Shop */
-     , (4559, 4,    99, -1, 0, 0, False) /* Create Studded Leather Shirt (99) for Shop */
-     , (4559, 4, 48959, -1, 0, 0, False) /* Create Fire Elemental Essence (50) (48959) for Shop */
-     , (4559, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (4559, 4, 25643, -1, 0, 0, False) /* Create Leather Girth (25643) for Shop */
-     , (4559, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (4559, 4, 49213, -1, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for Shop */
-     , (4559, 4, 49261, -1, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for Shop */
-     , (4559, 4, 49317, -1, 0, 0, False) /* Create Lightning Wisp Essence (50) (49317) for Shop */
-     , (4559, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
-     , (4559, 4, 28610, -1, 0, 0, False) /* Create Loafers (28610) for Shop */
-     , (4559, 4,   141, -1, 0, 0, False) /* Create Bowl (141) for Shop */
-     , (4559, 4, 23477, -1, 0, 0, False) /* Create Fishing Made Easy (23477) for Shop */
-     , (4559, 4, 25650, -1, 0, 0, False) /* Create Leather Shorts (25650) for Shop */
-     , (4559, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
-     , (4559, 4, 30985, -1, 0, 0, False) /* Create Letter From Home (30985) for Shop */;
+     , (4559, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;

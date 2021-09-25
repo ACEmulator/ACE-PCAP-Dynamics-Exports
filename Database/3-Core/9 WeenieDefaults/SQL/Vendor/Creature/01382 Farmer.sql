@@ -40,6 +40,8 @@ VALUES (1382, 8040, 2585919748, 137.496, 59.1281, 107.705, 0.321816, 0, 0, -0.94
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1382, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1382, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1382, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1382, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (1382, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */
      , (1382, 4,   260, -1, 0, 0, False) /* Create Cabbage (260) for Shop */

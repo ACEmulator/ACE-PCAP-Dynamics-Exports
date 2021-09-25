@@ -59,6 +59,10 @@ VALUES (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (966, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
      , (966, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (966, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (966, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (966, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (966, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (966, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (966, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (966, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (966, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
@@ -102,6 +106,4 @@ VALUES (966, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (966, 4,  4590, -1, 0, 0, False) /* Create Revitalize Other II (4590) for Shop */
      , (966, 4,  4589, -1, 0, 0, False) /* Create Revitalize Other I (4589) for Shop */
      , (966, 4,  4587, -1, 0, 0, False) /* Create Heal Other II (4587) for Shop */
-     , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */
-     , (966, 4, 49485, -1, 0, 0, False) /* Create Encapsulated Spirit (49485) for Shop */
-     , (966, 4,   755, -1, 0, 0, False) /* Create Cinnabar (755) for Shop */;
+     , (966, 4,  4450, -1, 0, 0, False) /* Create Heal Other I (4450) for Shop */;

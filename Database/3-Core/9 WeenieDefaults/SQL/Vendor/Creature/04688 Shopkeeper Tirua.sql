@@ -100,23 +100,6 @@ VALUES (4688, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4688, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4688, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4688, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (4688, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (4688, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (4688, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (4688, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (4688, 4, 28605, -1, 0, 0, False) /* Create Beret (28605) for Shop */
-     , (4688, 4, 28612, -1, 0, 0, False) /* Create Bandana (28612) for Shop */
-     , (4688, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (4688, 4,   413, -1, 0, 0, False) /* Create Chainmail Bracers (413) for Shop */
-     , (4688, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (4688, 4, 29076, -1, 0, 0, False) /* Create The Thrungus - Part I (29076) for Shop */
-     , (4688, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
-     , (4688, 4,  7897, -1, 0, 0, False) /* Create Steel Toed Boots (7897) for Shop */
-     , (4688, 4,    71, -1, 0, 0, False) /* Create Chainmail Hauberk (71) for Shop */
-     , (4688, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554) for Shop */
-     , (4688, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (4688, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (4688, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
-     , (4688, 4, 25641, -1, 0, 0, False) /* Create Leather Cuirass (25641) for Shop */
-     , (4688, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
-     , (4688, 4,    93, -1, 0, 0, False) /* Create Round Shield (93) for Shop */
-     , (4688, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */;
+     , (4688, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;

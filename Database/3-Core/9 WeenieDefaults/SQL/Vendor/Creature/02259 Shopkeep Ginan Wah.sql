@@ -108,5 +108,4 @@ VALUES (2259, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature
      , (2259, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
      , (2259, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (2259, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
-     , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (2259, 4, 31868, -1, 0, 0, False) /* Create Signet Crown (31868) for Shop */;
+     , (2259, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;

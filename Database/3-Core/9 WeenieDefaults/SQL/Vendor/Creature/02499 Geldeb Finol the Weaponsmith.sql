@@ -79,6 +79,7 @@ VALUES (2499, 2,   301,  1, 0, 0, False) /* Create Battle Axe (301) for Wield */
      , (2499, 4,   314, -1, 0, 0, False) /* Create Dagger (314) for Shop */
      , (2499, 4,   316, -1, 0, 0, False) /* Create Throwing Dart (316) for Shop */
      , (2499, 4,   329, -1, 0, 0, False) /* Create Knife (329) for Shop */
+     , (2499, 4,   331, -1, 0, 0, False) /* Create Mace (331) for Shop */
      , (2499, 4, 22168, -1, 0, 0, False) /* Create Hefty Walking Cane (22168) for Shop */
      , (2499, 4,   348, -1, 0, 0, False) /* Create Spear (348) for Shop */
      , (2499, 4,   320, -1, 0, 0, False) /* Create Javelin (320) for Shop */

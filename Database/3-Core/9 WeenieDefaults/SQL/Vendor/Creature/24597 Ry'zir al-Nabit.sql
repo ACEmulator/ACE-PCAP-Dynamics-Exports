@@ -109,10 +109,4 @@ VALUES (24597, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (24597, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (24597, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (24597, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (24597, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (24597, 4, 31801, -1, 0, 0, False) /* Create Electric Compound Bow (31801) for Shop */
-     , (24597, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (24597, 4,  3766, -1, 0, 0, False) /* Create Acid Club (3766) for Shop */
-     , (24597, 4,   334, -1, 0, 0, False) /* Create Nayin (334) for Shop */
-     , (24597, 4,   360, -1, 0, 0, False) /* Create Yag (360) for Shop */
-     , (24597, 4, 20640, -1, 0, 0, False) /* Create Royal Atlatl (20640) for Shop */;
+     , (24597, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

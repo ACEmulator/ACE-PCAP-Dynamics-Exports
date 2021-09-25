@@ -107,20 +107,8 @@ VALUES (676, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (676, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (676, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (676, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (676, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (676, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (676, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
      , (676, 4,   545, -1, 0, 0, False) /* Create Reliable Lockpick (545) for Shop */
-     , (676, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
-     , (676, 4,  3645, -1, 0, 0, False) /* Create Tibri's Fire Spear (3645) for Shop */
-     , (676, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (676, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (676, 4, 28623, -1, 0, 0, False) /* Create Diforsa Pauldrons (28623) for Shop */
-     , (676, 4, 25650, -1, 0, 0, False) /* Create Leather Shorts (25650) for Shop */
-     , (676, 4, 25637, -1, 0, 0, False) /* Create Leather Bracers (25637) for Shop */
-     , (676, 4, 31779, -1, 0, 0, False) /* Create Spine Glaive (31779) for Shop */
-     , (676, 4,  2590, -1, 0, 0, False) /* Create Baggy Shirt (2590) for Shop */
-     , (676, 4, 25649, -1, 0, 0, False) /* Create Leather Shirt (25649) for Shop */
-     , (676, 4,    83, -1, 0, 0, False) /* Create Scalemail Leggings (83) for Shop */
-     , (676, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
-     , (676, 4, 38050, -1, 0, 0, False) /* Create Lilitha's Bow (38050) for Shop */
-     , (676, 4, 41046, -1, 0, 0, False) /* Create Pike (41046) for Shop */;
+     , (676, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */;

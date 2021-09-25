@@ -112,9 +112,12 @@ VALUES (5877, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (5877, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (5877, 4,   516, -1, 0, 0, False) /* Create Peerless Lockpick (516) for Shop */
      , (5877, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5877, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (5877, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5877, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5877, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (5877, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (5877, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */
-     , (5877, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */
-     , (5877, 4, 31238, -1, 0, 0, False) /* Create Viamontian Leggings (31238) for Shop */;
+     , (5877, 4,   261, -1, 0, 0, False) /* Create Cheese (261) for Shop */;
