@@ -65,6 +65,7 @@ VALUES (672,   1,    25, 0, 0, 45) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (672, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (672, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (672, 4,   547, -1, 0, 0, False) /* Create Brimstone-cap Mushroom (547) for Shop */
      , (672, 4,   546, -1, 0, 0, False) /* Create Egg (546) for Shop */
      , (672, 4,  4755, -1, 0, 0, False) /* Create Brine (4755) for Shop */

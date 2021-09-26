@@ -76,10 +76,26 @@ VALUES (14930, 4, 14931, -1, 0, 0, False) /* Create Wedding Handbook (14931) for
      , (14930, 4, 14905, -1, 0, 0, False) /* Create Wedding Gown (14905) for Shop */
      , (14930, 4, 14904, -1, 0, 0, False) /* Create Wedding Cyclas (14904) for Shop */
      , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
      , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
-     , (14930, 4,    73, -1, 0, 0, False) /* Create Scalemail Hauberk (73) for Shop */
-     , (14930, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
-     , (14930, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (14930, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (14930, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
-     , (14930, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */;
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 14906, -1, 0, 0, False) /* Create Wedding Raiment (14906) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */
+     , (14930, 4, 15714, -1, 0, 0, False) /* Create Wedding Raiment (15714) for Shop */;

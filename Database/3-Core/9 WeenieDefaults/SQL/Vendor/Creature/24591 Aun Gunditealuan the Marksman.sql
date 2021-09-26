@@ -97,6 +97,4 @@ VALUES (24591, 2,   306,  1, 0, 0, False) /* Create Longbow (306) for Wield */
      , (24591, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (24591, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (24591, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (24591, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (24591, 4, 45099, -1, 0, 0, False) /* Create Epee (45099) for Shop */
-     , (24591, 4, 30588, -1, 0, 0, False) /* Create Lightning Flanged Mace (30588) for Shop */;
+     , (24591, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

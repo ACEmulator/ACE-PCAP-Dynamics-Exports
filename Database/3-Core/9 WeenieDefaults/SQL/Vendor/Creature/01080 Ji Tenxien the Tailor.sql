@@ -65,8 +65,12 @@ VALUES (1080,   1,    90, 0, 0, 135) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (1080, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (1080, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (1080, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
      , (1080, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
      , (1080, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (1080, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (1080, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (1080, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (1080, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
      , (1080, 4,  5850, -1, 0, 0, False) /* Create Faran Robe (5850) for Shop */

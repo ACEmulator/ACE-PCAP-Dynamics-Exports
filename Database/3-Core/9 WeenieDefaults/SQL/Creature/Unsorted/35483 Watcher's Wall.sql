@@ -12,7 +12,10 @@ VALUES (35483,   1,         16) /* ItemType - Creature */
      , (35483, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (35483,   1, True ) /* Stuck */;
+VALUES (35483,   1, True ) /* Stuck */
+     , (35483,  52, True ) /* AiImmobile */
+     , (35483,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (35483,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (35483,   1, 'Watcher''s Wall') /* Name */

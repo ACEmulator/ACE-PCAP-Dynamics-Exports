@@ -97,6 +97,7 @@ VALUES (4433, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (4433, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4433, 4,  4762, -1, 0, 0, False) /* Create Frying Pan (4762) for Shop */
      , (4433, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
+     , (4433, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (4433, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4433, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4433, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */

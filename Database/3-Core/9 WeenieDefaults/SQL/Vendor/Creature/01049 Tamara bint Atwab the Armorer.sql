@@ -99,26 +99,4 @@ VALUES (1049, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield *
      , (1049, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (1049, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (1049, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (1049, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (1049, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (1049, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (1049, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */
-     , (1049, 4,   133, -1, 0, 0, False) /* Create Slippers (133) for Shop */
-     , (1049, 4, 31864, -1, 0, 0, False) /* Create Teardrop Crown (31864) for Shop */
-     , (1049, 4,    51, -1, 0, 0, False) /* Create Platemail Cuirass (51) for Shop */
-     , (1049, 4, 21152, -1, 0, 0, False) /* Create Covenant Breastplate (21152) for Shop */
-     , (1049, 4, 31780, -1, 0, 0, False) /* Create Acid Spine Glaive (31780) for Shop */
-     , (1049, 4,  2602, -1, 0, 0, False) /* Create Loose Breeches (2602) for Shop */
-     , (1049, 4,    43, -1, 0, 0, False) /* Create Yoroi Breastplate (43) for Shop */
-     , (1049, 4,    54, -1, 0, 0, False) /* Create Yoroi Cuirass (54) for Shop */
-     , (1049, 4, 37205, -1, 0, 0, False) /* Create Olthoi Celdon Sleeves (37205) for Shop */
-     , (1049, 4, 28607, -1, 0, 0, False) /* Create Lace Shirt (28607) for Shop */
-     , (1049, 4,  3819, -1, 0, 0, False) /* Create Lightning Katar (3819) for Shop */
-     , (1049, 4, 42756, -1, 0, 0, False) /* Create Haebrean Tassets (42756) for Shop */
-     , (1049, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */
-     , (1049, 4,   114, -1, 0, 0, False) /* Create Platemail Vambraces (114) for Shop */
-     , (1049, 4, 27223, -1, 0, 0, False) /* Create Lorica Helm (27223) for Shop */
-     , (1049, 4,   113, -1, 0, 0, False) /* Create Yoroi Tassets (113) for Shop */
-     , (1049, 4,   134, -1, 0, 0, False) /* Create Tunic (134) for Shop */
-     , (1049, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
-     , (1049, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */;
+     , (1049, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

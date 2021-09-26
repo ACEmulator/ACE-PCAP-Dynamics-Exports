@@ -167,6 +167,8 @@ VALUES (5435, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (5435, 4,  4748, -1, 0, 0, False) /* Create Aqua Incanta (4748) for Shop */
      , (5435, 4,  5338, -1, 0, 0, False) /* Create Neutral Balm (5338) for Shop */
      , (5435, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5435, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (5435, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5435, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (5435, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (5435, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */

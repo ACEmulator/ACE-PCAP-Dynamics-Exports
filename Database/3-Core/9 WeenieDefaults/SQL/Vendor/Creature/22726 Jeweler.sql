@@ -76,6 +76,4 @@ VALUES (22726, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) 
      , (22726, 4,  2396, -1, 0, 0, False) /* Create Gem (2396) for Shop */
      , (22726, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (22726, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (22726, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (22726, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (22726, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */;
+     , (22726, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

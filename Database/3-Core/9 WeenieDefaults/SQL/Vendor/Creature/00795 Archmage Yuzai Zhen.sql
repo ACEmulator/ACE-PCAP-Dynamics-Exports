@@ -177,6 +177,4 @@ VALUES (795, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (795, 4,  8182, -1, 0, 0, False) /* Create Cleanse All Magic Other (8182) for Shop */
      , (795, 4,  8183, -1, 0, 0, False) /* Create Devour All Magic Other (8183) for Shop */
      , (795, 4,  8184, -1, 0, 0, False) /* Create Purge All Magic Other (8184) for Shop */
-     , (795, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */
-     , (795, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
-     , (795, 4,  7775, -1, 0, 0, False) /* Create Practical Applications of Chorizite (7775) for Shop */;
+     , (795, 4,  8185, -1, 0, 0, False) /* Create Nullify All Magic Other (8185) for Shop */;

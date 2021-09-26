@@ -248,7 +248,4 @@ VALUES (9018, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (9018, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
      , (9018, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (9018, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (9018, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (9018, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
-     , (9018, 4, 45117, -1, 0, 0, False) /* Create Frost Hammer (45117) for Shop */
-     , (9018, 4,   105, -1, 0, 0, False) /* Create Studded Leather Sleeves (105) for Shop */;
+     , (9018, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;

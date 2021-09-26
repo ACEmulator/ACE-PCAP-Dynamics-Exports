@@ -172,11 +172,4 @@ VALUES (6854, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (6854, 4,  5541, -1, 0, 0, False) /* Create Wand (5541) for Shop */
      , (6854, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (6854, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (6854, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
-     , (6854, 4,   687, -1, 0, 0, False) /* Create Gold Scarab (687) for Shop */
-     , (6854, 4, 29262, -1, 0, 0, False) /* Create Fire Sceptre (29262) for Shop */
-     , (6854, 4,  2548, -1, 0, 0, False) /* Create Sceptre (2548) for Shop */
-     , (6854, 4, 29261, -1, 0, 0, False) /* Create Electric Sceptre (29261) for Shop */
-     , (6854, 4, 29264, -1, 0, 0, False) /* Create Piercing Sceptre (29264) for Shop */
-     , (6854, 4, 31824, -1, 0, 0, False) /* Create Ice Wand (31824) for Shop */
-     , (6854, 4, 29265, -1, 0, 0, False) /* Create Winter Orb (29265) for Shop */;
+     , (6854, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;

@@ -100,33 +100,4 @@ VALUES (1387, 4,   309, -1, 0, 0, False) /* Create Club (309) for Shop */
      , (1387, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (1387, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (1387, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (1387, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
-     , (1387, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
-     , (1387, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (1387, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
-     , (1387, 4,  3905, -1, 0, 0, False) /* Create Acid War Hammer (3905) for Shop */
-     , (1387, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
-     , (1387, 4, 30625, -1, 0, 0, False) /* Create War Bow (30625) for Shop */
-     , (1387, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
-     , (1387, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (1387, 4,    53, -1, 0, 0, False) /* Create Studded Leather Cuirass (53) for Shop */
-     , (1387, 4,   129, -1, 0, 0, False) /* Create Sandals (129) for Shop */
-     , (1387, 4, 25647, -1, 0, 0, False) /* Create Leather Pants (25647) for Shop */
-     , (1387, 4, 25641, -1, 0, 0, False) /* Create Leather Cuirass (25641) for Shop */
-     , (1387, 4, 30614, -1, 0, 0, False) /* Create Frost Knuckles (30614) for Shop */
-     , (1387, 4,  2597, -1, 0, 0, False) /* Create Flared Pants (2597) for Shop */
-     , (1387, 4, 30611, -1, 0, 0, False) /* Create Knuckles (30611) for Shop */
-     , (1387, 4,    84, -1, 0, 0, False) /* Create Studded  Leggings (84) for Shop */
-     , (1387, 4,    55, -1, 0, 0, False) /* Create Chainmail Gauntlets (55) for Shop */
-     , (1387, 4,   723, -1, 0, 0, False) /* Create Studded Leather Cowl (723) for Shop */
-     , (1387, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (1387, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
-     , (1387, 4,  2596, -1, 0, 0, False) /* Create Doublet (2596) for Shop */
-     , (1387, 4,  7897, -1, 0, 0, False) /* Create Steel Toed Boots (7897) for Shop */
-     , (1387, 4,    63, -1, 0, 0, False) /* Create Studded Leather Girth (63) for Shop */
-     , (1387, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
-     , (1387, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
-     , (1387, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (1387, 4, 25648, -1, 0, 0, False) /* Create Leather Pauldrons (25648) for Shop */
-     , (1387, 4, 25637, -1, 0, 0, False) /* Create Leather Bracers (25637) for Shop */
-     , (1387, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;
+     , (1387, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */;

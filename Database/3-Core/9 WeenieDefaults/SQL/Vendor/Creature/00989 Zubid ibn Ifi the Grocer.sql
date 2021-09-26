@@ -70,4 +70,5 @@ VALUES (989, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (989, 4,  4753, -1, 0, 0, False) /* Create Side of Beef (4753) for Shop */
      , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */
      , (989, 4,  5758, -1, 0, 0, False) /* Create Carrot (5758) for Shop */
-     , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */;
+     , (989, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
+     , (989, 4,   264, -1, 0, 0, False) /* Create Grapes (264) for Shop */;

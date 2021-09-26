@@ -65,8 +65,16 @@ VALUES (994,   1,   100, 0, 0, 160) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (994, 4,  2603, -1, 0, 0, False) /* Create Baggy Breeches (2603) for Shop */
+     , (994, 4,  2603, -1, 0, 0, False) /* Create Baggy Breeches (2603) for Shop */
+     , (994, 4,  2603, -1, 0, 0, False) /* Create Baggy Breeches (2603) for Shop */
+     , (994, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
+     , (994, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
      , (994, 4,  2595, -1, 0, 0, False) /* Create Baggy Tunic (2595) for Shop */
      , (994, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (994, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (994, 4,   128, -1, 0, 0, False) /* Create Qafiya (128) for Shop */
+     , (994, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
+     , (994, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
      , (994, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
      , (994, 4,  5852, -1, 0, 0, False) /* Create Dho Vest and Robe (5852) for Shop */
      , (994, 4,  5894, -1, 0, 0, False) /* Create Fez (5894) for Shop */

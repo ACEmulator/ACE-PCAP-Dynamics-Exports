@@ -100,6 +100,8 @@ VALUES (32054, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (32054, 4,    86, -1, 0, 0, False) /* Create Leather Pauldrons (86) for Shop */
      , (32054, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (32054, 4,  4586, -1, 0, 0, False) /* Create Bundle of Arrowheads (4586) for Shop */
+     , (32054, 4,  4585, -1, 0, 0, False) /* Create Bundle of Arrowshafts (4585) for Shop */
+     , (32054, 4,  5339, -1, 0, 0, False) /* Create Bundle of Quarrelshafts (5339) for Shop */
      , (32054, 4, 15296, -1, 0, 0, False) /* Create Bundle of Atlatl Dart Shafts (15296) for Shop */
      , (32054, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (32054, 4,  4761, -1, 0, 0, False) /* Create Flour (4761) for Shop */
@@ -113,6 +115,8 @@ VALUES (32054, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (32054, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (32054, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (32054, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (32054, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (32054, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (32054, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (32054, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (32054, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */

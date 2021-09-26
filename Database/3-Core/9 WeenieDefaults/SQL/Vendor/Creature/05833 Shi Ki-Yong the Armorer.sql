@@ -78,6 +78,7 @@ VALUES (5833, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield *
      , (5833, 4,   416, -1, 0, 0, False) /* Create Chainmail Pauldrons (416) for Shop */
      , (5833, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (5833, 4,   101, -1, 0, 0, False) /* Create Chainmail Sleeves (101) for Shop */
+     , (5833, 4,    96, -1, 0, 0, False) /* Create Chainmail Shirt (96) for Shop */
      , (5833, 4,    85, -1, 0, 0, False) /* Create Chainmail Coif (85) for Shop */
      , (5833, 4,    77, -1, 0, 0, False) /* Create Kabuton (77) for Shop */
      , (5833, 4,    78, -1, 0, 0, False) /* Create Kote (78) for Shop */

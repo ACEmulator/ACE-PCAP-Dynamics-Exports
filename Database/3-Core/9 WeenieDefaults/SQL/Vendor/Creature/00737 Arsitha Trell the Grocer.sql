@@ -110,31 +110,4 @@ VALUES (737, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armature 
      , (737, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (737, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
      , (737, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (737, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
-     , (737, 4,  2588, -1, 0, 0, False) /* Create Flared Shirt (2588) for Shop */
-     , (737, 4,  7798, -1, 0, 0, False) /* Create Electric Naginata (7798) for Shop */
-     , (737, 4, 45114, -1, 0, 0, False) /* Create Acid Hammer (45114) for Shop */
-     , (737, 4, 49345, -1, 0, 0, False) /* Create Lightning Moar Essence (50) (49345) for Shop */
-     , (737, 4, 49428, -1, 0, 0, False) /* Create Lightning Spectre Essence (50) (49428) for Shop */
-     , (737, 4, 49247, -1, 0, 0, False) /* Create Fire Zombie Essence (50) (49247) for Shop */
-     , (737, 4, 49421, -1, 0, 0, False) /* Create Acid Spectre Essence (50) (49421) for Shop */
-     , (737, 4, 49275, -1, 0, 0, False) /* Create Frost Elemental Essence (50) (49275) for Shop */
-     , (737, 4, 49538, -1, 0, 0, False) /* Create Frost Phyntos Wasp Essence (50) (49538) for Shop */
-     , (737, 4, 49268, -1, 0, 0, False) /* Create Lightning Elemental Essence (50) (49268) for Shop */
-     , (737, 4, 49282, -1, 0, 0, False) /* Create Acid K'nath Essence (50) (49282) for Shop */
-     , (737, 4, 49435, -1, 0, 0, False) /* Create Fire Spectre Essence (50) (49435) for Shop */
-     , (737, 4, 49296, -1, 0, 0, False) /* Create Fire K'nath Essence (50) (49296) for Shop */
-     , (737, 4, 48942, -1, 0, 0, False) /* Create Fire Skeleton Minion Essence (50) (48942) for Shop */
-     , (737, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */
-     , (737, 4, 49338, -1, 0, 0, False) /* Create Acid Moar Essence (50) (49338) for Shop */
-     , (737, 4, 49387, -1, 0, 0, False) /* Create Frost Grievver Essence (50) (49387) for Shop */
-     , (737, 4, 49352, -1, 0, 0, False) /* Create Fire Moar Essence (50) (49352) for Shop */
-     , (737, 4, 49213, -1, 0, 0, False) /* Create Acid Skeleton Minion Essence (50) (49213) for Shop */
-     , (737, 4, 49324, -1, 0, 0, False) /* Create Fire Wisp Essence (50) (49324) for Shop */
-     , (737, 4, 48972, -1, 0, 0, False) /* Create Acid Zombie Essence (50) (48972) for Shop */
-     , (737, 4, 49524, -1, 0, 0, False) /* Create Acid Phyntos Wasp Essence (50) (49524) for Shop */
-     , (737, 4, 49261, -1, 0, 0, False) /* Create Acid Elemental Essence (50) (49261) for Shop */
-     , (737, 4, 49310, -1, 0, 0, False) /* Create Acid Wisp Essence (50) (49310) for Shop */
-     , (737, 4, 49289, -1, 0, 0, False) /* Create Lightning K'nath Essence (50) (49289) for Shop */
-     , (737, 4, 49373, -1, 0, 0, False) /* Create Lightning Grievver Essence (50) (49373) for Shop */
-     , (737, 4,    94, -1, 0, 0, False) /* Create Diamond Shield (94) for Shop */;
+     , (737, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */;

@@ -101,16 +101,4 @@ VALUES (678, 2,   352,  1, 0, 0, False) /* Create Short Sword (352) for Wield */
      , (678, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (678, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (678, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (678, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (678, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
-     , (678, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (678, 4, 25639, -1, 0, 0, False) /* Create Leather Jerkin (25639) for Shop */
-     , (678, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */
-     , (678, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (678, 4,    59, -1, 0, 0, False) /* Create Studded Leather Gauntlets (59) for Shop */
-     , (678, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
-     , (678, 4,    58, -1, 0, 0, False) /* Create Scalemail Gauntlets (58) for Shop */
-     , (678, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (678, 4, 25651, -1, 0, 0, False) /* Create Leather Sleeves (25651) for Shop */
-     , (678, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */
-     , (678, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */;
+     , (678, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

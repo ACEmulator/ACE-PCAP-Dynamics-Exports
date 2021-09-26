@@ -13,7 +13,10 @@ VALUES (41798,   1,         16) /* ItemType - Creature */
      , (41798, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (41798,   1, True ) /* Stuck */;
+VALUES (41798,   1, True ) /* Stuck */
+     , (41798,  52, True ) /* AiImmobile */
+     , (41798,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (41798,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (41798,   1, 'Killer Phyntos Hive') /* Name */

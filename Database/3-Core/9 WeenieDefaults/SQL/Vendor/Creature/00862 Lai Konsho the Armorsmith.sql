@@ -96,15 +96,4 @@ VALUES (862, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (862, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (862, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (862, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (862, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (862, 4, 42756, -1, 0, 0, False) /* Create Haebrean Tassets (42756) for Shop */
-     , (862, 4,   354, -1, 0, 0, False) /* Create Takuba (354) for Shop */
-     , (862, 4,   351, -1, 0, 0, False) /* Create Long Sword (351) for Shop */
-     , (862, 4,   135, -1, 0, 0, False) /* Create Turban (135) for Shop */
-     , (862, 4, 30596, -1, 0, 0, False) /* Create Poniard (30596) for Shop */
-     , (862, 4, 30616, -1, 0, 0, False) /* Create Arbalest (30616) for Shop */
-     , (862, 4, 41036, -1, 0, 0, False) /* Create Assagai (41036) for Shop */
-     , (862, 4, 40635, -1, 0, 0, False) /* Create Tetsubo (40635) for Shop */
-     , (862, 4, 29250, -1, 0, 0, False) /* Create Piercing Crossbow (29250) for Shop */
-     , (862, 4, 30607, -1, 0, 0, False) /* Create Lightning Bastone (30607) for Shop */
-     , (862, 4,   311, -1, 0, 0, False) /* Create Heavy Crossbow (311) for Shop */;
+     , (862, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

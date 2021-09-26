@@ -79,6 +79,4 @@ VALUES (1394, 2,   304,  1, 0, 0, False) /* Create Throwing Axe (304) for Wield 
      , (1394, 4,   359, -1, 0, 0, False) /* Create War Hammer (359) for Shop */
      , (1394, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (1394, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1394, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (1394, 4, 24033, -1, 0, 0, False) /* Create Mite Queen's Staff (24033) for Shop */
-     , (1394, 4,  8211, -1, 0, 0, False) /* Create Discus (8211) for Shop */;
+     , (1394, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

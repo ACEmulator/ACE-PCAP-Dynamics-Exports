@@ -85,23 +85,4 @@ VALUES (802, 2,   327,  1, 0, 0, False) /* Create Ken (327) for Wield */
      , (802, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (802, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (802, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (802, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (802, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (802, 4, 30615, -1, 0, 0, False) /* Create Acid Knuckles (30615) for Shop */
-     , (802, 4, 31794, -1, 0, 0, False) /* Create Lancet (31794) for Shop */
-     , (802, 4, 45424, -1, 0, 0, False) /* Create Flaming Dagger (45424) for Shop */
-     , (802, 4,   243, -1, 0, 0, False) /* Create Dinner Plate (243) for Shop */
-     , (802, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (802, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (802, 4,   254, -1, 0, 0, False) /* Create Stoup (254) for Shop */
-     , (802, 4, 41069, -1, 0, 0, False) /* Create Lightning Shashqa (41069) for Shop */
-     , (802, 4,  7771, -1, 0, 0, False) /* Create Naginata (7771) for Shop */
-     , (802, 4,   306, -1, 0, 0, False) /* Create Longbow (306) for Shop */
-     , (802, 4, 45122, -1, 0, 0, False) /* Create Frost Hand Wraps (45122) for Shop */
-     , (802, 4,   341, -1, 0, 0, False) /* Create Shouyumi (341) for Shop */
-     , (802, 4,  3908, -1, 0, 0, False) /* Create Frost War Hammer (3908) for Shop */
-     , (802, 4, 45425, -1, 0, 0, False) /* Create Frost Dagger (45425) for Shop */
-     , (802, 4, 31791, -1, 0, 0, False) /* Create Flaming Stick (31791) for Shop */
-     , (802, 4, 45427, -1, 0, 0, False) /* Create Acid Jambiya (45427) for Shop */
-     , (802, 4, 41050, -1, 0, 0, False) /* Create Frost Pike (41050) for Shop */
-     , (802, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */;
+     , (802, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

@@ -89,14 +89,4 @@ VALUES (6860, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) f
      , (6860, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (6860, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (6860, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (6860, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (6860, 4,  2408, -1, 0, 0, False) /* Create Gem (2408) for Shop */
-     , (6860, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (6860, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (6860, 4,   297, -1, 0, 0, False) /* Create Ring (297) for Shop */
-     , (6860, 4, 49431, -1, 0, 0, False) /* Create Lightning Spectre Essence (125) (49431) for Shop */
-     , (6860, 4, 49341, -1, 0, 0, False) /* Create Acid Moar Essence (125) (49341) for Shop */
-     , (6860, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (6860, 4, 49437, -1, 0, 0, False) /* Create Fire Spectre Essence (100) (49437) for Shop */
-     , (6860, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (6860, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */;
+     , (6860, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

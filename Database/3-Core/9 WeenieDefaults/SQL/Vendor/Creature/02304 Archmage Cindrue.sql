@@ -172,11 +172,4 @@ VALUES (2304, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2304, 4,  8978, -1, 0, 0, False) /* Create Nanto Portal Gem (8978) for Shop */
      , (2304, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (2304, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
-     , (2304, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */
-     , (2304, 4, 29260, -1, 0, 0, False) /* Create Blunt Sceptre (29260) for Shop */
-     , (2304, 4, 29261, -1, 0, 0, False) /* Create Electric Sceptre (29261) for Shop */
-     , (2304, 4, 29264, -1, 0, 0, False) /* Create Piercing Sceptre (29264) for Shop */
-     , (2304, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (2304, 4, 31820, -1, 0, 0, False) /* Create Acid Baton (31820) for Shop */
-     , (2304, 4, 31824, -1, 0, 0, False) /* Create Ice Wand (31824) for Shop */
-     , (2304, 4, 29263, -1, 0, 0, False) /* Create Frost Sceptre (29263) for Shop */;
+     , (2304, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;

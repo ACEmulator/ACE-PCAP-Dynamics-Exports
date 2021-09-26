@@ -100,5 +100,6 @@ VALUES (4687, 4,   308, -1, 0, 0, False) /* Create Budiaq (308) for Shop */
      , (4687, 4,   365, -1, 0, 0, False) /* Create Parchment (365) for Shop */
      , (4687, 4,   151, -1, 0, 0, False) /* Create Empty Flask (151) for Shop */
      , (4687, 4,   293, -1, 0, 0, False) /* Create Torch (293) for Shop */
+     , (4687, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
      , (4687, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (4687, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */;

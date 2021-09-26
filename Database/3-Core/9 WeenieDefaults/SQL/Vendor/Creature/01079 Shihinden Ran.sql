@@ -82,6 +82,10 @@ VALUES (1079, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (1079, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
      , (1079, 4,    44, -1, 0, 0, False) /* Create Buckler (44) for Shop */
      , (1079, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1079, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1079, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (1079, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (1079, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1079, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (1079, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (1079, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */

@@ -65,8 +65,16 @@ VALUES (703,   1,    45, 0, 0, 70) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (703, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+     , (703, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+     , (703, 4,   127, -1, 0, 0, False) /* Create Pants (127) for Shop */
+     , (703, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
+     , (703, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
      , (703, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */
      , (703, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
+     , (703, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
+     , (703, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
+     , (703, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
+     , (703, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
      , (703, 4,  2606, -1, 0, 0, False) /* Create Boots (2606) for Shop */
      , (703, 4,  5851, -1, 0, 0, False) /* Create Faran Robe with Hood (5851) for Shop */
      , (703, 4,  5850, -1, 0, 0, False) /* Create Faran Robe (5850) for Shop */

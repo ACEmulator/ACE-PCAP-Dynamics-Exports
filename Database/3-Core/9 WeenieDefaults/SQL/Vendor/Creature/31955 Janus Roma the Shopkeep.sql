@@ -100,5 +100,4 @@ VALUES (31955, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (31955, 4,   378, -1, 0, 0, False) /* Create Stamina Potion (378) for Shop */
      , (31955, 4, 27326, -1, 0, 0, False) /* Create Stamina Tincture (27326) for Shop */
      , (31955, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */
-     , (31955, 4,  9229, -1, 0, 0, False) /* Create Treated Healing Kit (9229) for Shop */;
+     , (31955, 4,   629, -1, 0, 0, False) /* Create Adept Healing Kit (629) for Shop */;

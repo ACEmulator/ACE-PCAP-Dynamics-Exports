@@ -102,6 +102,7 @@ VALUES (2540, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop 
      , (2540, 4,   756, -1, 0, 0, False) /* Create Cobalt (756) for Shop */
      , (2540, 4,   757, -1, 0, 0, False) /* Create Colcothar (757) for Shop */
      , (2540, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
+     , (2540, 4,   758, -1, 0, 0, False) /* Create Gypsum (758) for Shop */
      , (2540, 4,   759, -1, 0, 0, False) /* Create Quicksilver (759) for Shop */
      , (2540, 4,   760, -1, 0, 0, False) /* Create Realgar (760) for Shop */
      , (2540, 4,   761, -1, 0, 0, False) /* Create Stibnite (761) for Shop */

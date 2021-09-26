@@ -55,8 +55,16 @@ VALUES (2502,   1,     0, 0, 0, 150) /* MaxHealth */;
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2502, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (2502, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (2502, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
+     , (2502, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
+     , (2502, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
      , (2502, 4,  2589, -1, 0, 0, False) /* Create Smock (2589) for Shop */
      , (2502, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (2502, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (2502, 4,   119, -1, 0, 0, False) /* Create Cowl (119) for Shop */
+     , (2502, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
+     , (2502, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (2502, 4,   115, -1, 0, 0, False) /* Create Leather Boots (115) for Shop */
      , (2502, 4,  5854, -1, 0, 0, False) /* Create Suikan Robe (5854) for Shop */
      , (2502, 4,  5901, -1, 0, 0, False) /* Create Kasa (5901) for Shop */

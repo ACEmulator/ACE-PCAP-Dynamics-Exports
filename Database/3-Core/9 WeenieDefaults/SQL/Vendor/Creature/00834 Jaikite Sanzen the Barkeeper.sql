@@ -92,6 +92,7 @@ VALUES (834, 4,  4728, -1, 0, 0, False) /* Create Fried Chicken (4728) for Shop 
      , (834, 4, 26482, -1, 0, 0, False) /* Create Mosswart Temple (26482) for Shop */
      , (834, 4, 26484, -1, 0, 0, False) /* Create Rat Cave (26484) for Shop */
      , (834, 4, 26486, -1, 0, 0, False) /* Create Bulletin (26486) for Shop */
+     , (834, 4, 25999, -1, 0, 0, False) /* Create Caves in the Foothills (25999) for Shop */
      , (834, 4, 26002, -1, 0, 0, False) /* Create Shoushi Drudge Temple (26002) for Shop */
      , (834, 4, 26003, -1, 0, 0, False) /* Create Shoushi Banderling Camp (26003) for Shop */
      , (834, 4, 26644, -1, 0, 0, False) /* Create Skeleton Castle Rumor (26644) for Shop */;

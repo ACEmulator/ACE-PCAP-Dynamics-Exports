@@ -13,7 +13,10 @@ VALUES (28095,   1,         16) /* ItemType - Creature */
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
 VALUES (28095,   1, True ) /* Stuck */
-     , (28095,  19, False) /* Attackable */;
+     , (28095,  19, False) /* Attackable */
+     , (28095,  52, True ) /* AiImmobile */
+     , (28095,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (28095,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_float` (`object_Id`, `type`, `value`)
 VALUES (28095,  54,       3) /* UseRadius */;

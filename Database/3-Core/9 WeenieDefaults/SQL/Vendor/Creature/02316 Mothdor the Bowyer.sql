@@ -109,5 +109,4 @@ VALUES (2316, 2,   341,  1, 0, 0, False) /* Create Shouyumi (341) for Wield */
      , (2316, 4,   515, -1, 0, 0, False) /* Create Superb Lockpick (515) for Shop */
      , (2316, 4, 44074, -1, 0, 0, False) /* Create Invitation to Master Fletchers (44074) for Shop */
      , (2316, 4, 44070, -1, 0, 0, False) /* Create Bundle of Prismatic Arrowheads (44070) for Shop */
-     , (2316, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */
-     , (2316, 4,   154, -1, 0, 0, False) /* Create Goblet (154) for Shop */;
+     , (2316, 4, 44071, -1, 0, 0, False) /* Create Wrapped Bundle of Prismatic Arrowheads (44071) for Shop */;

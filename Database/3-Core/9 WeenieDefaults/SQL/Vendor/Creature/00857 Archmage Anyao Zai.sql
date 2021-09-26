@@ -163,6 +163,7 @@ VALUES (857, 4,  5940, -1, 0, 0, False) /* Create Smelting Pot (5940) for Shop *
      , (857, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (857, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (857, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (857, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (857, 4,  5540, -1, 0, 0, False) /* Create Wand (5540) for Shop */
      , (857, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (857, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */

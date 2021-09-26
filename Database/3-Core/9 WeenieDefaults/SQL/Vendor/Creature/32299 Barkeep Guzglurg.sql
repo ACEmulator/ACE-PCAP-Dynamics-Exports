@@ -76,5 +76,4 @@ VALUES (32299, 4,  2453, -1, 0, 0, False) /* Create Cider (2453) for Shop */
      , (32299, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (32299, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (32299, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (32299, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (32299, 4, 27669, -1, 0, 0, False) /* Create Tumerok Salted Meat (27669) for Shop */;
+     , (32299, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

@@ -76,23 +76,4 @@ VALUES (716, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (716, 4,  2396, -1, 0, 0, False) /* Create Gem (2396) for Shop */
      , (716, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (716, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (716, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (716, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (716, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (716, 4,  2414, -1, 0, 0, False) /* Create Gem (2414) for Shop */
-     , (716, 4,  2415, -1, 0, 0, False) /* Create Gem (2415) for Shop */
-     , (716, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (716, 4,  2424, -1, 0, 0, False) /* Create Gem (2424) for Shop */
-     , (716, 4,  2394, -1, 0, 0, False) /* Create Gem (2394) for Shop */
-     , (716, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (716, 4, 41487, -1, 0, 0, False) /* Create Mechanical Scarab (41487) for Shop */
-     , (716, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (716, 4, 41484, -1, 0, 0, False) /* Create Goggles (41484) for Shop */
-     , (716, 4, 41486, -1, 0, 0, False) /* Create Puzzle Box (41486) for Shop */
-     , (716, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
-     , (716, 4,  2421, -1, 0, 0, False) /* Create Gem (2421) for Shop */
-     , (716, 4, 41483, -1, 0, 0, False) /* Create Compass (41483) for Shop */
-     , (716, 4,  2393, -1, 0, 0, False) /* Create Gem (2393) for Shop */
-     , (716, 4,  2401, -1, 0, 0, False) /* Create Gem (2401) for Shop */
-     , (716, 4,  2417, -1, 0, 0, False) /* Create Gem (2417) for Shop */
-     , (716, 4,  2420, -1, 0, 0, False) /* Create Gem (2420) for Shop */;
+     , (716, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

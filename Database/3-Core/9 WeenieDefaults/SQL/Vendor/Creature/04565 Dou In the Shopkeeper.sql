@@ -102,5 +102,4 @@ VALUES (4565, 4,   321, -1, 0, 0, False) /* Create Jitte (321) for Shop */
      , (4565, 4,  4746, -1, 0, 0, False) /* Create Water (4746) for Shop */
      , (4565, 4,  4754, -1, 0, 0, False) /* Create Baking Pan (4754) for Shop */
      , (4565, 4,  4757, -1, 0, 0, False) /* Create Carving Knife (4757) for Shop */
-     , (4565, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */
-     , (4565, 4,   130, -1, 0, 0, False) /* Create Shirt (130) for Shop */;
+     , (4565, 4,  5778, -1, 0, 0, False) /* Create Whittling Knife (5778) for Shop */;

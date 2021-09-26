@@ -115,6 +115,8 @@ VALUES (30051, 4, 30571, -1, 0, 0, False) /* Create Spada (30571) for Shop */
      , (30051, 4,   512, -1, 0, 0, False) /* Create Good Lockpick (512) for Shop */
      , (30051, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (30051, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (30051, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (30051, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (30051, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (30051, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (30051, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

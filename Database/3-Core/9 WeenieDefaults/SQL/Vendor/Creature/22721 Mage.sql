@@ -166,5 +166,4 @@ VALUES (22721, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop *
      , (22721, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (22721, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (22721, 4,  5539, -1, 0, 0, False) /* Create Wand (5539) for Shop */
-     , (22721, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
-     , (22721, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */;
+     , (22721, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */;

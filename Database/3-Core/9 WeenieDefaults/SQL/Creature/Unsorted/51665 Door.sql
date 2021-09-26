@@ -13,7 +13,10 @@ VALUES (51665,   1,         16) /* ItemType - Creature */
      , (51665, 315,       9999) /* CritResistRating */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (51665,   1, True ) /* Stuck */;
+VALUES (51665,   1, True ) /* Stuck */
+     , (51665,  52, True ) /* AiImmobile */
+     , (51665,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (51665,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (51665,   1, 'Door') /* Name */

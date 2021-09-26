@@ -172,11 +172,4 @@ VALUES (2307, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2307, 4,  8978, -1, 0, 0, False) /* Create Nanto Portal Gem (8978) for Shop */
      , (2307, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (2307, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
-     , (2307, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */
-     , (2307, 4, 27330, -1, 0, 0, False) /* Create Moderate Mana Stone (27330) for Shop */
-     , (2307, 4,  2436, -1, 0, 0, False) /* Create Greater Mana Stone (2436) for Shop */
-     , (2307, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
-     , (2307, 4,  2435, -1, 0, 0, False) /* Create Mana Stone (2435) for Shop */
-     , (2307, 4, 29259, -1, 0, 0, False) /* Create Acid Sceptre (29259) for Shop */
-     , (2307, 4, 43382, -1, 0, 0, False) /* Create Nefane Pearl (43382) for Shop */
-     , (2307, 4,  2548, -1, 0, 0, False) /* Create Sceptre (2548) for Shop */;
+     , (2307, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;

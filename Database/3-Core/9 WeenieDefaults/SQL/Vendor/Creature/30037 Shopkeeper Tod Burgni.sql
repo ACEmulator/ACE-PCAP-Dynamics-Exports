@@ -114,11 +114,4 @@ VALUES (30037, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (30037, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (30037, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30037, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (30037, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
-     , (30037, 4, 28853, -1, 0, 0, False) /* Create Kam'shir (28853) for Shop */
-     , (30037, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (30037, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (30037, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (30037, 4, 31780, -1, 0, 0, False) /* Create Acid Spine Glaive (31780) for Shop */
-     , (30037, 4, 28843, -1, 0, 0, False) /* Create Cave Penguin Cake (28843) for Shop */
-     , (30037, 4, 44801, -1, 0, 0, False) /* Create Suikan Over-robe (44801) for Shop */;
+     , (30037, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;

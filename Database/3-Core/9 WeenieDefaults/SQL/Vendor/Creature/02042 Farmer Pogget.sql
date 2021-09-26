@@ -65,6 +65,15 @@ VALUES (2042,   1,    96, 0, 0, 138) /* MaxHealth */
 
 INSERT INTO `weenie_properties_create_list` (`object_Id`, `destination_Type`, `weenie_Class_Id`, `stack_Size`, `palette`, `shade`, `try_To_Bond`)
 VALUES (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (2042, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
      , (2042, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (2042, 4,   258, -1, 0, 0, False) /* Create Apple (258) for Shop */
      , (2042, 4,   259, -1, 0, 0, False) /* Create Bread (259) for Shop */

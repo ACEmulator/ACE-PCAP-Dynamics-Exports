@@ -90,13 +90,4 @@ VALUES (11396, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) 
      , (11396, 4, 20646, -1, 0, 0, False) /* Create Ust (20646) for Shop */
      , (11396, 4, 21093, -1, 0, 0, False) /* Create Tinkering (21093) for Shop */
      , (11396, 4, 23044, -1, 0, 0, False) /* Create On the Abilities of Salvaged Ivory (23044) for Shop */
-     , (11396, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */
-     , (11396, 4,   295, -1, 0, 0, False) /* Create Bracelet (295) for Shop */
-     , (11396, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
-     , (11396, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (11396, 4,   623, -1, 0, 0, False) /* Create Heavy Necklace (623) for Shop */
-     , (11396, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */
-     , (11396, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (11396, 4,  7886, -1, 0, 0, False) /* Create Baron's Amulet of Life Giving (7886) for Shop */
-     , (11396, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (11396, 4,  2422, -1, 0, 0, False) /* Create Gem (2422) for Shop */;
+     , (11396, 4, 23204, -1, 0, 0, False) /* Create Carving Keys and Keyrings (23204) for Shop */;

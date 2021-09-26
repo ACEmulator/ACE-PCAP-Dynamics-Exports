@@ -94,16 +94,4 @@ VALUES (2251, 4,   554, -1, 0, 0, False) /* Create Studded Leather Basinet (554)
      , (2251, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (2251, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2251, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (2251, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (2251, 4, 27215, -1, 0, 0, False) /* Create Chiran Coat (27215) for Shop */
-     , (2251, 4, 31866, -1, 0, 0, False) /* Create Coronet (31866) for Shop */
-     , (2251, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (2251, 4,   112, -1, 0, 0, False) /* Create Studded Leather Tassets (112) for Shop */
-     , (2251, 4,   110, -1, 0, 0, False) /* Create Platemail Tassets (110) for Shop */
-     , (2251, 4, 40704, -1, 0, 0, False) /* Create Covenant Tassets (40704) for Shop */
-     , (2251, 4,    68, -1, 0, 0, False) /* Create Studded Leather Greaves (68) for Shop */
-     , (2251, 4,    92, -1, 0, 0, False) /* Create Large Kite Shield (92) for Shop */
-     , (2251, 4, 49241, -1, 0, 0, False) /* Create Lightning Zombie Essence (80) (49241) for Shop */
-     , (2251, 4,   149, -1, 0, 0, False) /* Create Ewer (149) for Shop */
-     , (2251, 4, 49269, -1, 0, 0, False) /* Create Lightning Elemental Essence (80) (49269) for Shop */
-     , (2251, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */;
+     , (2251, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

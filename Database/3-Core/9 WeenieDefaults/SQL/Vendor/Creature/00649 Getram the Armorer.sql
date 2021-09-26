@@ -99,12 +99,4 @@ VALUES (649, 2,   303,  1, 0, 0, False) /* Create Hand Axe (303) for Wield */
      , (649, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (649, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (649, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (649, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (649, 4, 29050, -1, 0, 0, False) /* Create Ruschk Hunter Leggings (29050) for Shop */
-     , (649, 4, 28153, -1, 0, 0, False) /* Create Lustrous Winged Leggings (28153) for Shop */
-     , (649, 4,   118, -1, 0, 0, False) /* Create Cloth Cap (118) for Shop */
-     , (649, 4, 41059, -1, 0, 0, False) /* Create Lightning Great Star Mace (41059) for Shop */
-     , (649, 4, 43833, -1, 0, 0, False) /* Create Sedgemail Leather Sleeves (43833) for Shop */
-     , (649, 4,  2599, -1, 0, 0, False) /* Create Trousers (2599) for Shop */
-     , (649, 4, 43068, -1, 0, 0, False) /* Create Knorr Academy Helm (43068) for Shop */
-     , (649, 4,   121, -1, 0, 0, False) /* Create Gloves (121) for Shop */;
+     , (649, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

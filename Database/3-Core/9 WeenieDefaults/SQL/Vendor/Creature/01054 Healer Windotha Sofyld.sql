@@ -82,6 +82,4 @@ VALUES (1054, 4,  2457, -1, 0, 0, False) /* Create Health Draught (2457) for Sho
      , (1054, 4,  4604, -1, 0, 0, False) /* Create Coordination Other I (4604) for Shop */
      , (1054, 4,  4606, -1, 0, 0, False) /* Create Quickness Other I (4606) for Shop */
      , (1054, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
-     , (1054, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (1054, 4, 49442, -1, 0, 0, False) /* Create Frost Spectre Essence (50) (49442) for Shop */
-     , (1054, 4, 49545, -1, 0, 0, False) /* Create Lightning Phyntos Wasp Essence (50) (49545) for Shop */;
+     , (1054, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */;

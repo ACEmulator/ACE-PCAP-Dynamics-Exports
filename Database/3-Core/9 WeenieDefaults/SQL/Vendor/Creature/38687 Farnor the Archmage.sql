@@ -273,6 +273,10 @@ VALUES (38687, 4, 15268, -1, 0, 0, False) /* Create Foci of Enchantment (15268) 
      , (38687, 4,  2472, -1, 0, 0, False) /* Create Wand (2472) for Shop */
      , (38687, 4,  2366, -1, 0, 0, False) /* Create Orb (2366) for Shop */
      , (38687, 4,  2547, -1, 0, 0, False) /* Create Staff (2547) for Shop */
+     , (38687, 4,  5915, -1, 0, 0, False) /* Create Faran Creature Master Robe (5915) for Shop */
+     , (38687, 4,  5912, -1, 0, 0, False) /* Create Faran Item Master Robe (5912) for Shop */
+     , (38687, 4,  5906, -1, 0, 0, False) /* Create Faran Life Master Robe (5906) for Shop */
+     , (38687, 4,  5909, -1, 0, 0, False) /* Create Faran War Master Robe (5909) for Shop */
      , (38687, 4, 38723, -1, 0, 0, False) /* Create Celestial Hand Stronghold Portal Gem (38723) for Shop */
      , (38687, 4,  8973, -1, 0, 0, False) /* Create Al-Arqas Portal Gem (8973) for Shop */
      , (38687, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */

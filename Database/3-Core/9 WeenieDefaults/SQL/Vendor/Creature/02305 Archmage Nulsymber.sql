@@ -173,5 +173,4 @@ VALUES (2305, 4,   691, -1, 0, 0, False) /* Create Lead Scarab (691) for Shop */
      , (2305, 4,  8978, -1, 0, 0, False) /* Create Nanto Portal Gem (8978) for Shop */
      , (2305, 4,  8976, -1, 0, 0, False) /* Create Holtburg Portal Gem (8976) for Shop */
      , (2305, 4,  8977, -1, 0, 0, False) /* Create Lytelthorpe Portal Gem (8977) for Shop */
-     , (2305, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */
-     , (2305, 4,  2548, -1, 0, 0, False) /* Create Sceptre (2548) for Shop */;
+     , (2305, 4,  8979, -1, 0, 0, False) /* Create Rithwic Portal Gem (8979) for Shop */;

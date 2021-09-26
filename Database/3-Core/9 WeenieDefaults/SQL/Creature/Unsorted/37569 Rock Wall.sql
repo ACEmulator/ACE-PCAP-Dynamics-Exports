@@ -12,7 +12,10 @@ VALUES (37569,   1,         16) /* ItemType - Creature */
      , (37569, 133,          1) /* ShowableOnRadar - ShowNever */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (37569,   1, True ) /* Stuck */;
+VALUES (37569,   1, True ) /* Stuck */
+     , (37569,  52, True ) /* AiImmobile */
+     , (37569,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (37569,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (37569,   1, 'Rock Wall') /* Name */

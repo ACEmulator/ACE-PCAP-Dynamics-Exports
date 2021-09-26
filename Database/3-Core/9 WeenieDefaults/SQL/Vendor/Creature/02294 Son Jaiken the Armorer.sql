@@ -96,17 +96,4 @@ VALUES (2294, 2,   310,  1, 0, 0, False) /* Create Throwing Club (310) for Wield
      , (2294, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (2294, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2294, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (2294, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (2294, 4,  2602, -1, 0, 0, False) /* Create Loose Breeches (2602) for Shop */
-     , (2294, 4,   161, -1, 0, 0, False) /* Create Mug (161) for Shop */
-     , (2294, 4, 31808, -1, 0, 0, False) /* Create Electric Crossbow (31808) for Shop */
-     , (2294, 4, 31865, -1, 0, 0, False) /* Create Circlet (31865) for Shop */
-     , (2294, 4, 37203, -1, 0, 0, False) /* Create Olthoi Koujia Leggings (37203) for Shop */
-     , (2294, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (2294, 4, 40694, -1, 0, 0, False) /* Create Olthoi Breastplate (40694) for Shop */
-     , (2294, 4, 42753, -1, 0, 0, False) /* Create Haebrean Helm (42753) for Shop */
-     , (2294, 4, 27227, -1, 0, 0, False) /* Create Nariyid Breastplate (27227) for Shop */
-     , (2294, 4, 28632, -1, 0, 0, False) /* Create Diforsa Gauntlets (28632) for Shop */
-     , (2294, 4, 31781, -1, 0, 0, False) /* Create Electric Spine Glaive (31781) for Shop */
-     , (2294, 4, 30951, -1, 0, 0, False) /* Create Alduressa Gauntlets (30951) for Shop */
-     , (2294, 4, 25661, -1, 0, 0, False) /* Create Leather Boots (25661) for Shop */;
+     , (2294, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

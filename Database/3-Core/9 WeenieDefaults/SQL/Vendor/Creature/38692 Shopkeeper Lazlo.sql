@@ -151,4 +151,13 @@ VALUES (38692, 4, 46745, -1, 0, 0, False) /* Create Contract for Stipend: Radian
      , (38692, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (38692, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (38692, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
      , (38692, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */;

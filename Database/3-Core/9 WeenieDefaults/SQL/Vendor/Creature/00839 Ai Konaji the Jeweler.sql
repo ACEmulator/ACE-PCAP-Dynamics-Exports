@@ -76,15 +76,4 @@ VALUES (839, 4, 41402, -1, 0, 0, False) /* Create Jeweler's Saw Blade (41402) fo
      , (839, 4,  2419, -1, 0, 0, False) /* Create Gem (2419) for Shop */
      , (839, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (839, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
-     , (839, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */
-     , (839, 4,  2412, -1, 0, 0, False) /* Create Gem (2412) for Shop */
-     , (839, 4,  2367, -1, 0, 0, False) /* Create Gorget (2367) for Shop */
-     , (839, 4,  2404, -1, 0, 0, False) /* Create Gem (2404) for Shop */
-     , (839, 4,   294, -1, 0, 0, False) /* Create Amulet (294) for Shop */
-     , (839, 4,   621, -1, 0, 0, False) /* Create Heavy Bracelet (621) for Shop */
-     , (839, 4,  2424, -1, 0, 0, False) /* Create Gem (2424) for Shop */
-     , (839, 4,  2402, -1, 0, 0, False) /* Create Gem (2402) for Shop */
-     , (839, 4,   624, -1, 0, 0, False) /* Create Ring (624) for Shop */
-     , (839, 4,  2416, -1, 0, 0, False) /* Create Gem (2416) for Shop */
-     , (839, 4, 41488, -1, 0, 0, False) /* Create Top (41488) for Shop */
-     , (839, 4,   622, -1, 0, 0, False) /* Create Necklace (622) for Shop */;
+     , (839, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */;

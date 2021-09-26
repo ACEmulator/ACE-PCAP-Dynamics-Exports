@@ -98,5 +98,4 @@ VALUES (2315, 2,   356,  1, 0, 0, False) /* Create Tofun (356) for Wield */
      , (2315, 4,  2627, -1, 0, 0, False) /* Create Trade Note (100,000) (2627) for Shop */
      , (2315, 4, 20628, -1, 0, 0, False) /* Create Trade Note (150,000) (20628) for Shop */
      , (2315, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
-     , (2315, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
-     , (2315, 4, 31808, -1, 0, 0, False) /* Create Electric Crossbow (31808) for Shop */;
+     , (2315, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */;

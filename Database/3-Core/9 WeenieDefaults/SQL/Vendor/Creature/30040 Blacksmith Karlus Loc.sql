@@ -118,16 +118,4 @@ VALUES (30040, 2,   359,  1, 0, 0, False) /* Create War Hammer (359) for Wield *
      , (30040, 4, 20629, -1, 0, 0, False) /* Create Trade Note (200,000) (20629) for Shop */
      , (30040, 4, 20630, -1, 0, 0, False) /* Create Trade Note (250,000) (20630) for Shop */
      , (30040, 4, 45683, -1, 0, 0, False) /* Create Left-hand Tether (45683) for Shop */
-     , (30040, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */
-     , (30040, 4, 49485, -1, 0, 0, False) /* Create Encapsulated Spirit (49485) for Shop */
-     , (30040, 4,   132, -1, 0, 0, False) /* Create Shoes (132) for Shop */
-     , (30040, 4,   168, -1, 0, 0, False) /* Create Tankard (168) for Shop */
-     , (30040, 4,   148, -1, 0, 0, False) /* Create Cup (148) for Shop */
-     , (30040, 4,   150, -1, 0, 0, False) /* Create Flagon (150) for Shop */
-     , (30040, 4,   296, -1, 0, 0, False) /* Create Crown (296) for Shop */
-     , (30040, 4, 44975, -1, 0, 0, False) /* Create Hood (44975) for Shop */
-     , (30040, 4,   154, -1, 0, 0, False) /* Create Goblet (154) for Shop */
-     , (30040, 4, 25646, -1, 0, 0, False) /* Create Long Leather Gauntlets (25646) for Shop */
-     , (30040, 4, 25642, -1, 0, 0, False) /* Create Leather Gauntlets (25642) for Shop */
-     , (30040, 4,    38, -1, 0, 0, False) /* Create Studded Leather Bracers (38) for Shop */
-     , (30040, 4,   116, -1, 0, 0, False) /* Create Studded Leather Boots (116) for Shop */;
+     , (30040, 4, 45684, -1, 0, 0, False) /* Create Left-hand Tether Remover (45684) for Shop */;

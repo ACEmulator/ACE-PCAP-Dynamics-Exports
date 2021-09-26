@@ -12,7 +12,10 @@ VALUES (21545,   1,         16) /* ItemType - Creature */
      , (21545, 133,          4) /* ShowableOnRadar - ShowAlways */;
 
 INSERT INTO `weenie_properties_bool` (`object_Id`, `type`, `value`)
-VALUES (21545,   1, True ) /* Stuck */;
+VALUES (21545,   1, True ) /* Stuck */
+     , (21545,  52, True ) /* AiImmobile */
+     , (21545,  82, True ) /* DontTurnOrMoveWhenGiving */
+     , (21545,  83, True ) /* NpcLooksLikeObject */;
 
 INSERT INTO `weenie_properties_string` (`object_Id`, `type`, `value`)
 VALUES (21545,   1, 'Door') /* Name */

@@ -122,6 +122,11 @@ VALUES (24219, 4, 41509, -1, 0, 0, False) /* Create Minor Item Tinkering Armatur
      , (24219, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
      , (24219, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
      , (24219, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
+     , (24219, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
+     , (24219, 4,   136, -1, 0, 0, False) /* Create Pack (136) for Shop */
+     , (24219, 4,   139, -1, 0, 0, False) /* Create Small Belt Pouch (139) for Shop */
+     , (24219, 4,   138, -1, 0, 0, False) /* Create Belt Pouch (138) for Shop */
+     , (24219, 4,   137, -1, 0, 0, False) /* Create Basket (137) for Shop */
      , (24219, 4,  2621, -1, 0, 0, False) /* Create Trade Note (100) (2621) for Shop */
      , (24219, 4,  2622, -1, 0, 0, False) /* Create Trade Note (500) (2622) for Shop */
      , (24219, 4,  2623, -1, 0, 0, False) /* Create Trade Note (1,000) (2623) for Shop */

@@ -71,9 +71,4 @@ VALUES (12718, 4, 20631, -1, 0, 0, False) /* Create Prismatic Taper (20631) for 
      , (12718, 4,  4732, -1, 0, 0, False) /* Create Fried Steak (4732) for Shop */
      , (12718, 4,   620, -1, 0, 0, False) /* Create Cake (620) for Shop */
      , (12718, 4,  4709, -1, 0, 0, False) /* Create Apple Pie (4709) for Shop */
-     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */
-     , (12718, 4,   166, -1, 0, 0, False) /* Create Sack (166) for Shop */
-     , (12718, 4,   628, -1, 0, 0, False) /* Create Handy Healing Kit (628) for Shop */
-     , (12718, 4,  8378, -1, 0, 0, False) /* Create Beer Stein (8378) for Shop */
-     , (12718, 4, 30986, -1, 0, 0, False) /* Create Letter From Home (30986) for Shop */
-     , (12718, 4, 30987, -1, 0, 0, False) /* Create Letter From Home (30987) for Shop */;
+     , (12718, 4,   513, -1, 0, 0, False) /* Create Plain Lockpick (513) for Shop */;
